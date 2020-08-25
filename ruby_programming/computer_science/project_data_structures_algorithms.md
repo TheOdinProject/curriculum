@@ -60,12 +60,14 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
 * [bassart94's Solution](https://repl.it/@bassart94/bst#main.rb)
 * [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/balanced_BST.rb)
 * [Risan's Solution](https://github.com/risanto/ruby-programming/blob/master/14_binary-search-trees.rb)
 * [James's Solution](https://github.com/jegrieve/binary_search_trees)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-bst)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
 * [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
@@ -320,6 +322,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) - [View in repl.it](https://repl.it/@cbpolley/knightstravails)
 * [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
 * [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-knight-travails)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)
