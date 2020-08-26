@@ -897,4 +897,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Almar's Solution](https://github.com/Assetbekov-Almar/Calculator) - [View in Browser](https://assetbekov-almar.github.io/top_calculator/)
 - [myles519's Solution](https://github.com/Spence19/calculator) - [View in Browser](https://spence19.github.io/calculator/)
 - [Bones81's Solution](https://github.com/Bones81/calculator) - [View in Browser](https://Bones81.github.io/calculator/)
+- [Fusako's Solution](https://github.com/fusakoo/calculator) - [View in Browser](https://fusakoo.github.io/calculator/)
 </details>
