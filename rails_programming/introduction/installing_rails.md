@@ -166,7 +166,7 @@ Remember to replace `<SSH URL from above>` with the URL that you copied.
 
 The terminal will start its work, pausing to verify your connection to GitHub.
 
-A message from Github stating, "The authenticity of host 'github.com'..." may appear during this process. You can type `yes` and hit `Enter` to continue.
+A message from GitHub stating, "The authenticity of host 'github.com'..." may appear during this process. You can type `yes` and hit `Enter` to continue.
 
 After the terminal finishes its magic, return to your GitHub repository and refresh the page. You should see a lot of files, starting with a folder called "app".
 

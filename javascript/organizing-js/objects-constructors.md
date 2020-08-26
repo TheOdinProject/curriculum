@@ -132,12 +132,12 @@ player2.sayName() // logs 'also steve'
 
 ### Exercise
 
-Write a constructor for making "book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book
+Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book
 
-Put a function into the constructor that can report the book info like so
+Put a function into the constructor that can report the book info like so:
 
 ~~~javascript
-book.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
+theHobbit.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ~~~
 
 note: it is almost _always_ best to `return` things rather than putting `console.log()` directly into the function. In this case, return the `info` string and log it after the function has been called:
@@ -238,3 +238,8 @@ carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName f
 ~~~
 
 If we had used `Object.create` in this example then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explains the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
