@@ -762,7 +762,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-oops/blob/master/mastermind.rb)
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Mastermind) - [Play on repl.it](https://repl.it/@shanedgilbert/Mastermind)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/mastermind)
-* [Christopher’s Solution] - (https://github.com/christopheralagna/Ruby-Projects/blob/master/mastermind.rb)
+* [Christopher’s Solution](https://github.com/christopheralagna/Ruby-Projects/blob/master/mastermind.rb)
 </details>
 
 ### Additional Resources
