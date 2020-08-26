@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Henrich's Solution (w/ localStorage)](https://github.com/janko12345/Library) - [View in Browser](https://janko12345.github.io/Library/)
 - [abumsoo's Solution (with localStorage)](https://github.com/abumsoo/library) - [View in Browser](https://abumsoo.github.io/library)
 - [Strood's Solution (with localStorage)](https://github.com/strood/OPLibrary) - [View in Browser](https://quirky-kilby-5763a3.netlify.app/)
 - [Run After's Solution (with localStorage)](https://github.com/run-after/js-library) - [View in Browser](https://run-after.github.io/js-library/)
