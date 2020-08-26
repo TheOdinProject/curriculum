@@ -46,7 +46,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [shouhu21's Solution](https://github.com/shouhu21/rock-paper-scissors) - [View in Browser](https://shouhu21.github.io/rock-paper-scissors/)
 - [AFurrow's Solution](https://github.com/Afurrow/Rock-Paper-Scissors) - [View in Browser](https://afurrow.github.io/Rock-Paper-Scissors/)
 - [mittalrohit0598's Solution](https://github.com/mittalrohit0598/rock-paper-scissors) - [View in Browser](https://thegrapescribbler.com/rock-paper-scissors/)
-- [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/RockPaperScissors)
+- [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/RockPaperScissors) - [View in Browser](https://parham-pourjam.github.io/RockPaperScissors/)
 - [Shadou1's Solution](https://github.com/Shadou1/the-odin-projects/tree/master/web-development-101/rock-paper-scissors) - [View in Browser](https://shadou1.github.io/the-odin-projects/web-development-101/rock-paper-scissors/)
 - [NightShop's Solution](https://github.com/NightShop/RockPaperScissorsJS) - [View in Browser](https://nightshop.github.io/RockPaperScissorsJS/)
 - [dkhole's Solution](https://github.com/dkhole/rock-paper-scissors) - [View in Browser](https://dkhole.github.io/rock-paper-scissors/)
