@@ -5,15 +5,21 @@ class ProjectSubmissionsController < ApplicationController
   def index; end
 
   def create
-    project_submission = current_user.project_submissions.create!(project_submission_params)
+    project_submission = current_user.project_submissions.new(project_submission_params)
 
-    render json: { project_submission: ProjectSubmissionSerializer.as_json(project_submission) }, status: :ok
+    if project_submission.save
+      render json: ProjectSubmissionSerializer.as_json(project_submission), status: :ok
+    else
+      render json: project_submission.errors, status: :unprocessable_entity
+    end
   end
 
   def update
-    @project_submission.update(project_submission_params)
-
-    render json: { project_submission: ProjectSubmissionSerializer.as_json(@project_submission) }, status: :ok
+    if @project_submission.update(project_submission_params)
+      render json: ProjectSubmissionSerializer.as_json(@project_submission), status: :ok
+    else
+      render json: @project_submission.errors, status: :unprocessable_entity
+    end
   end
 
   def destroy
@@ -25,7 +31,7 @@ class ProjectSubmissionsController < ApplicationController
   private
 
   def find_project_submission
-    @project_submission = ProjectSubmission.find(params[:id])
+    @project_submission = current_user.project_submissions.find(params[:id])
   end
 
   def project_submission_params

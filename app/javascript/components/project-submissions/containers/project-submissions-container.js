@@ -30,7 +30,7 @@ const ProjectSubmissions = (props) => {
       }
     );
     if (response.status === 200) {
-      setSubmissions(prevSubmissions => [response.data.project_submission, ...prevSubmissions]);
+      setSubmissions(prevSubmissions => [response.data, ...prevSubmissions]);
     }
   };
 
@@ -50,9 +50,9 @@ const ProjectSubmissions = (props) => {
         }
       }
     );
-    if (response.status === 200) { 
-      setSubmissions(prevSubmissions => 
-        Object.assign([], prevSubmissions, {[0]: response.data.project_submission})
+    if (response.status === 200) {
+      setSubmissions(prevSubmissions =>
+        Object.assign([], prevSubmissions, {[0]: response.data})
       );
     }
   };
@@ -62,7 +62,7 @@ const ProjectSubmissions = (props) => {
 
     const response = await axios.delete(`/lessons/${lesson.id}/project_submissions/${id}`, {});
     if (response.status === 200) {
-      setSubmissions(prevSubmissions => 
+      setSubmissions(prevSubmissions =>
         prevSubmissions.filter((submission) => submission.id !== id)
       );
     }
@@ -76,7 +76,7 @@ const ProjectSubmissions = (props) => {
       { reason: reasons.join(', ') }
     );
     if (response.status === 200) {
-      setSubmissions(prevSubmissions => 
+      setSubmissions(prevSubmissions =>
         prevSubmissions.filter((submission) => submission.id !== parseInt(project_submission_id))
       );
     }

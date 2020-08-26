@@ -1,9 +1,14 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { func, object } from 'prop-types';
+import { yupResolver } from '@hookform/resolvers';
+
+import schema from '../schemas/project-submission-schema'
 
 const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
   const { register, errors, handleSubmit, formState, reset } = useForm({
+    resolver: yupResolver(schema),
+    mode: 'onTouched',
     defaultValues: {
       repo_url: submission.repo_url,
       live_preview_url: submission.live_preview_url,
@@ -83,7 +88,7 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
           <button className="button button--danger" onClick={handleDelete}>Delete</button>
           &nbsp;
           &nbsp;
-          <button type="submit" className="button button--primary">Update</button>
+          <button disabled={!formState.isValid} type="submit" className="button button--primary">Update</button>
         </div>
       </form>
     </div>

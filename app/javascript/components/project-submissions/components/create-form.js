@@ -1,9 +1,15 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { func } from 'prop-types';
+import { yupResolver } from '@hookform/resolvers';
+
+import schema from '../schemas/project-submission-schema'
 
 const CreateForm = ({ onClose, onSubmit }) => {
-  const { register, errors, handleSubmit, formState, reset } = useForm();
+  const { register, handleSubmit, formState, errors, reset } = useForm({
+    resolver: yupResolver(schema),
+    mode: 'onTouched',
+  });
 
   const handleClose = () => {
     reset({ isSubmitted: false });
@@ -28,17 +34,10 @@ const CreateForm = ({ onClose, onSubmit }) => {
           <span className="form__icon fab fa-github"></span>
           <input
             className="form__element form__element--with-icon"
-            type="text"
+            type="url"
             name="repo_url"
             placeholder="Repository URL"
-            ref={register({
-              required: 'Required',
-              pattern: {
-                value: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/,
-                message: "Must be a URL"
-              }
-
-            })}
+            ref={register}
           />
         </div>
         {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
@@ -47,16 +46,10 @@ const CreateForm = ({ onClose, onSubmit }) => {
           <span className="form__icon fas fa-link"></span>
           <input
             className="form__element form__element--with-icon"
-            type="text"
+            type="url"
             placeholder="Live Preview URL"
             name="live_preview_url"
-            ref={register({
-              required: "Required",
-              pattern: {
-                value: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/,
-                message: "Must be a URL"
-              }
-            })}
+            ref={register}
           />
         </div>
         {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div>}
@@ -67,7 +60,7 @@ const CreateForm = ({ onClose, onSubmit }) => {
               <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
               <div className="toggle__fill"></div>
             </label>
-          <button type="submit" className="button button--primary">Submit</button>
+          <button disabled={!formState.isValid} type="submit" className="button button--primary">Submit</button>
         </div>
       </form>
     </div>
