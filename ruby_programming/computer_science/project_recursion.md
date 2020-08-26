@@ -311,6 +311,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sanjana's Solution](https://github.com/error34043/ruby-mergesort)
 * [Hans Oliveira's Solution](https://github.com/hansnery/merge_sort/blob/master/merge_sort.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/merge-sort)
 * [nhleto's Solution](https://github.com/nhleto/Recursion-Practice/blob/master/Merge_Sort.rb)
