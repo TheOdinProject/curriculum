@@ -1,6 +1,6 @@
 ### Introduction
 
-It's time to really flex your muscles.  Test Driven Development can certainly feel uncomfortable at first, but becomes more natural with practice.  We're going to implement the classic game 'Battleship'.  If you've never played it, or need a refresher you can read about it [here](<https://en.wikipedia.org/wiki/Battleship_(game)>) and you can play an online version [here](http://en.battleship-game.org/).
+It's time to really flex your muscles.  Test Driven Development can certainly feel uncomfortable at first, but becomes more natural with practice.  We're going to implement the classic game 'Battleship'.  If you've never played it, or need a refresher you can read about it [here](https://en.wikipedia.org/wiki/Battleship_(game)) and you can play an online version [here](http://en.battleship-game.org/).
 
 Since we're doing TDD, it's important that you don't get overwhelmed.  Simply take it one step at a time.  Write a test, then make it pass.
 
