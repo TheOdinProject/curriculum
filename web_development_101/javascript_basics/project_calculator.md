@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [cbhaugen's Solution](https://github.com/cbhaugen/Calculator)
 - [devLevi's Solution](https://github.com/devLevi/vanillaCalculator) - [View in Browser](https://devlevi.github.io/vanillaCalculator/)
 - [Benimanjaro's Solution](https://github.com/TheOdinProject/curriculum.git) - [View in Browser](https://beniamanjaro.github.io/calculator/)
 - [Dante Six' Solution](https://github.com/SempleGit/calculator_top) - [View in Browser](https://semplegit.github.io/calculator_top/)
@@ -897,4 +898,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Almar's Solution](https://github.com/Assetbekov-Almar/Calculator) - [View in Browser](https://assetbekov-almar.github.io/top_calculator/)
 - [myles519's Solution](https://github.com/Spence19/calculator) - [View in Browser](https://spence19.github.io/calculator/)
 - [Bones81's Solution](https://github.com/Bones81/calculator) - [View in Browser](https://Bones81.github.io/calculator/)
+- [Fusako's Solution](https://github.com/fusakoo/calculator) - [View in Browser](https://fusakoo.github.io/calculator/)
 </details>
