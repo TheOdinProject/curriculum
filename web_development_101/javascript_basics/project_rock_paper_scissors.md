@@ -4,6 +4,7 @@
 	</head> 
   <body>
     <script>
+
 			function computerPlay()
 			{
 				let computer_rng = Math.random(); 
