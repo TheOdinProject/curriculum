@@ -50,5 +50,7 @@ class User < ApplicationRecord
 
   def send_welcome_email
     UserMailer.send_welcome_email_to(self).deliver_now!
+  rescue => error
+    logger.error "Error sending welcome email: #{error}"
   end
 end

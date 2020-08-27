@@ -43,7 +43,6 @@ create_or_update_lesson(
   repo: 'curriculum'
 )
 
-
 lesson_position += 1
 create_or_update_lesson(
   title: 'A quick review',

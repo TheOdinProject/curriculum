@@ -1,9 +1,8 @@
-
 if Rails.env.development? || ENV['STAGING']
   users = (1..20).map do |number|
     User.find_or_create_by(email: "test_user_#{number}@email.com") do |user|
       user.username = "test_user_#{number}"
-      user.password = "password123"
+      user.password = 'password123'
     end
   end
 

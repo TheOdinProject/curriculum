@@ -9,15 +9,7 @@
 # courses/sections/lessons, since that's currently what's used to uniquely
 # identify them!
 
-
-# The Structure:
-# Course Has Many Sections. Section Belongs To Course.
-# Section Has Many Lessons. Lesson Belongs To Section.
-
-
-# Public: Only run this update attributes if all have one or more records
-# in thedatabase
-
+# rubocop:disable Metrics/AbcSize
 def create_or_update_track(track_attrs)
   track = Track.where(title: track_attrs[:title]).first
 
@@ -81,6 +73,7 @@ def create_or_update_lesson(lesson_attrs)
 
   lesson
 end
+# rubocop:enable Metrics/AbcSize
 
 load './db/seeds/01_web_dev_101_seeds.rb'
 load './db/seeds/02_ruby_course_seeds.rb'
@@ -90,7 +83,6 @@ load './db/seeds/05_html_css_course_seeds.rb'
 load './db/seeds/06_javascript_course_seeds.rb'
 load './db/seeds/07_getting_hired_course_seeds.rb'
 load './db/seeds/08_node_js_course_seeds.rb'
-
 
 Rails.logger.info "\n\n***** STARTING TRACKS *****"
 
