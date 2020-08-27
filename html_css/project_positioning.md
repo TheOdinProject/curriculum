@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hiro's Solution](https://github.com/hrmtk/nyt-clone) - [View in Browser](https://hrmtk.github.io/nyt-clone/)
 * [foolmonkey's Solution](https://github.com/foolmonkey/nyt-clone) - [View in Browser](https://foolmonkey.github.io/nyt-clone/)
 * [hnguye's Solution](https://github.com/hnguye/nyt-article-clone) - [View in Browser](https://hnguye.github.io/nyt-article-clone/)
 * [Lamia Sristy's Solution](https://github.com/LamiaSristy/NYT-Clone) - [View in Browser](https://rawcdn.githack.com/LamiaSristy/nytimes-clone/7d2a29e01ee9a7318f301de67f95a5e568b3ee5b/index.html)
@@ -145,7 +146,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/ViriCruz/positioning-and-floating-elements) - [View in Browser](https://viricruz.github.io/positioning-and-floating-elements/)
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
-* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
+* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT)
 * [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
 * [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-nyt-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-nyt-page-clone/)
