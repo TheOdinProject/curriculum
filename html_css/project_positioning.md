@@ -162,6 +162,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
 * [Kenneth H's Solution](https://github.com/kholston/nytimes) - [View in Browser](https://kholston.github.io/nytimes/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/positioning_n_floating_elements)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_nytclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_nytclone/)
+* [Mickey's Solution](https://github.com/Daidelos/Space-Ripples) - [View in Browser](https://daidelos.github.io/Space-Ripples/)
 </details>
 
 ### Additional Resources
