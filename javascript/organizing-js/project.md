@@ -35,6 +35,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Platyphyllum's Solution](https://github.com/marboleda/todo-list) - [View in Browser](https://marboleda.github.io/todo-list/)
+* [Vas75's Solution](https://github.com/Vas75/Todo-App) - [View in Browser](https://vas75.github.io/Todo-App/)
 * [notstoe's Solution](https://github.com/notstoe/todo-list) - [View in Browser](https://notstoe.github.io/todo-list/)
 * [Abdel Perez's Solution](https://github.com/abdelp/todo-list-js) - [View in Browser](https://todo-list-41950.web.app/)
 * [stefank-29's Solution](https://github.com/stefank-29/To-Do-List) - [View in Browser](https://stefank-29.github.io/To-Do-List/)
@@ -167,4 +169,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [alxmkh's Solution](https://github.com/alxmkh/to-do-list) - [View in Browser](https://alxmkh.github.io/to-do-list/)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/todo-list) - [View in Browser](https://tristanross.github.io/todo-list/)
 * [liampc's Solution](https://github.com/liampc/to-do-list) - [View in Browser](https://liampc.github.io/to-do-list/)
+* [Jamesredux's Solution](https://github.com/Jamesredux/js-todo) - [View in Browser](https://jamesredux.github.io/js-todo/)
 </details>
