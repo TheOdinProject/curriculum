@@ -158,7 +158,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/nodeJS/express-basics/Express-Lesson-4.md]',
+  url: '/nodeJS/express-basics/Express-Lesson-4.md',
   repo: 'curriculum'
 )
 
@@ -257,7 +257,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/APIs/APIs.md',
-  repo: 'curriculums'
+  repo: 'curriculum'
 )
 
 lesson_position += 1
