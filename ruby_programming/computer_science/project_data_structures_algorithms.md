@@ -271,6 +271,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/bst.rb)
 
 </details>
 
