@@ -60,7 +60,7 @@ And we can once again refer back to the (Rails Guide)[https://guides.rubyonrails
 def destroy
   @room = Room.find(params[:id])
   if @room.destroy
-    flash[:success] = "The room was deleted"
+    flash[:success] = "Room successfully deleted"
     redirect_to rooms_path
   else
     flash.now[:error] = "The Room could not be deleted"
@@ -160,7 +160,7 @@ With everything in place let's get back to writing our system tests for this.
 
 ```ruby
 RSpec.describe "DeleteRoom", type: :system do
-  before do
+  before(:example) do
     Room.create(name: 'test room')
   end
 
@@ -172,7 +172,7 @@ RSpec.describe "DeleteRoom", type: :system do
       click_on 'delete-test-room'
 
       expect(page).to have_selector '.is-success'
-      expect(page).to have_content 'Room successfully delete'
+      expect(page).to have_content 'Room successfully deleted'
     end
   end
 end
@@ -197,7 +197,7 @@ context 'when a valid delete is made' do
     end
 
     expect(page).to have_selector '.is-success'
-    expect(page).to have_content 'Room successfully delete'
+    expect(page).to have_content 'Room successfully deleted'
   end
 end
 ```
@@ -222,9 +222,9 @@ This is handled in the Rails UJS (UJS means unobstrucive javascript) library. Yo
 
 If you don't have Javascript enabled then you might think links would never work, but that isn't the case. Any method that can respond to a GET request would still work because without Javascript to intercept the request it would submit as normal. If you ever get errors in yours Rails apps where your links are only submitting get requests even when specifying `method: :delete` then checking whether Javascript is being enabled is a good place to start.
 
-With that in mind we now we can no longer use rack_test for this system test. We can still use it for our other tests because it will run fast but we need to look at other options. The chrome browser now ships with headless chrome which provides a browser api without the overhead of launching the gui. Make sure you have google chrome installed and your version is at least Chrome 59. If earlier you will either need to update or install headless chrome seperately. If you have an aversion to Chrome you don't need to make it your default browser but it will make these tests much easier to work with.
+With that in mind we now we can no longer use rack_test for this system test. We can still use it for our other tests because it will run fast but we need to look at other options. The chrome browser now ships with headless chrome which provides a browser api without the overhead of launching the gui. Make sure you have google chrome installed and your version is at least Chrome 59. If earlier you will either need to update or install headless chrome seperately. If you have an aversion to Chrome you don't need to make it your default browser but it will make these tests much easier to work with. To interact with chrome we can use [Selenium](https://www.selenium.dev/) which bridges the gap between capybara and chrome.
 
-With Chrome installed we need to install the drivers required to work with Chrome. Open up your Gemfile and in the test group add the webdrivers gem
+To install the drivers required to work with Chrome. Open up your Gemfile and in the test group add the webdrivers gem. The webdrivers gem includes the selenium drivers we need and some others we don't. If you ever find yourself looking at other options besides Selenium you still may need to reach for the webdrivers gem.
 
 ```ruby
 group :test do
@@ -235,4 +235,74 @@ end
 
 In the terminal install the gem with `bundle install`.
 
+Now what we can do is for tests that require Javascript is to use [RSpec metadata](https://relishapp.com/rspec/rspec-core/docs/metadata/user-defined-metadata) to identify those tests and then run them using Selenium. Open up our system test support file located in /spec/support/ and let's add a config line with metadata to identify that we need to have Javascript available in our tests.
 
+```ruby
+RSpec.configure do |config|
+  config.before(:each, type: :system) do
+    driven_by :rack_test
+  end
+
+  config.before(:each, type: :system, js: true) do
+    driven_by :selenium_chrome_headless
+  end
+end
+```
+
+You can use any metadata in your tests by including a hash in the opening describe block. It's not something you'd concern yourself with much while learning but keep in mind such a thing exists.
+
+Now we all we need to do is go back to our delete room system test and in the opening describe block add our js hash option.
+
+```ruby
+RSpec.describe "DeleteRoom", type: :system, js: true do
+```
+
+That's all there is to it. Run the test suite now. The test may pass.... or like me, you get a failing test that there was no Rooms link that could be clicked. I could tell you how to solve it but instead this is a good opportunity to dive into a little debugging that might just help you one day. Even if your test is passing read on because you'll still need to apply this fix.
+
+I won't go into detail of all the things I tried, and I'll certainly leave out all of the expletives as the day dragged on and I still didn't have a passing test. I even had to set a new environment up in a VM to see if the problem was solved there. That was really fun!
+
+So, I know my test should have a Room link. Indeed it works just fine using rack_test. If your test does fail it will generate a screenshot for you in the tmp/screenshots/ directory. Have a look at the screenshot and you'll notice the there is no Rooms link, in fact there is no Navbar at all. My first thought was that selenium must not be correctly loading the navbar partial, that was the mistake that cost me so much time. I immediately assumed the worst and dove head first into finding a solution but no matter what I tried I still ended up with the same error.
+
+What I should have done first, is what I eventually did end up doing. Capybara ships with a method that you can drop into your tests at any point called `save_and_open_page`. It does what you probably assume it does. It opens a web browser at the point it finds that line in the test and shows what you would see if you were using the same browser to perform the test yourself.
+
+To use this method we do need to install one additional gem. [Launchy](https://github.com/copiousfreetime/launchy). It helps launch applications (including browsers) in a consistent way across platforms. Therefore no matter what OS you are using, launchy should be able to open the requested application. Open up your Gemfile again and in the test group add the gem.
+
+```ruby
+group :test do
+  # ...
+  gem 'launchy'
+end
+```
+
+Save the file and in the terminal run `bundle install`.
+
+Now in our failing system test we know the test is failing when it hits the line where we click on the Rooms link. Therefore we should drop our helper method to open the page in a browser just above that.
+
+```ruby
+context 'when a valid delete is made' do
+  it 'informs the user that the room was successfully deleted' do
+    visit root_path
+    save_and_open_page
+    click_on "Rooms"
+
+    # ...
+  end
+end
+```
+
+Save the file and run the test again in the terminal `bundle exec rspec spec/system/delete_rooms_spec.rb`
+
+Now when the test runs it should pause execution at that point to open a browser. When mine opened I was greeted by the sight of the Rooms link in the navbar, so I knew the issue actually wasn't with the test driver. It is working as expecting. I'd like to say it was a huge relief to know, but actually I was pretty annoyed I'd wasted all that time chasing it down.
+
+Looking again at the screenshot the only thing I could notice was that different was the size of the page. So I shrank the browser, and sure enough when it dropped below a certain size the navbar just vanished. It wasn't visible any longer and so my test could not click on it as it mimics what the user can see themselves.
+
+But why was this happening? Bulma is why... and my inability to actually read through the docs correctly. The [Bulma navigation](https://bulma.io/documentation/components/navbar/) docs say "The navbar component is a responsive and versatile horizontal navigation bar with the following structure". Responsive my *&*&. However on scrolling down it does say `The navbar-menu is hidden on touch devices < 1024px. You need to add the modifier class is-active to display it.`. Oh joy. On a smaller device you'd of course not want a long menu overflowing and taking up half the screen. If you  are interested in making this app more mobile friendly then read through the docs and try changing up the navigation menu used. It does have solutions. However for this we'll just apply the fix they provide. We won't have a long menu so it shouldn't be a huge problem.
+
+Open up our navbar partial and on the second line where we have the div with the class `navbar-menu` add the class `is-active`.
+
+```html
+<div class="navbar-menu is-active">
+# ...
+```
+
+Make sure all files have been saved and now try running your test. It should now be green and you should have a good idea for how you can debug a system test without wasting a day.

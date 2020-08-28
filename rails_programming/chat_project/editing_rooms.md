@@ -271,7 +271,7 @@ It will follow a similar pattern to our system test for creating a new room so h
 
 ```ruby
 RSpec.describe 'EditRooms', type: :system do
-  before do
+  before(:example) do
     Room.create(name: 'test room')
   end
 
