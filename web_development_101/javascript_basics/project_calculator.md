@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [mittalrohit0598's Solution](https://github.com/mittalrohit0598/calculator) - [View in Browser](https://thegrapescribbler.com/calculator/)
+- [Shadou1's Solution](https://github.com/Shadou1/the-odin-projects/tree/master/web-development-101/calculator) - [View in Browser](https://shadou1.github.io/the-odin-projects/web-development-101/calculator/)
 - [mlgwan's Solution](https://github.com/mlgwan/calculator) - [View in Browser](https://mlgwan.github.io/calculator/)
 - [Justinr's Solution](https://github.com/justinr922/calculator) - [View in Browser](https://justinr922.github.io/calculator/)
 - [AFurrow's Solution](https://github.com/Afurrow/calculator) - [View in Browser](https://afurrow.github.io/calculator/)

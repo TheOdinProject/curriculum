@@ -281,4 +281,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [sacchan9's Solution](https://github.com/sacchan9/tic-tac-toe) - [View in Browser](https://sacchan9.github.io/tic-tac-toe/)
 - [calebrauscher's Solution](https://github.com/calebrauscher/The-Odin-Project/tree/master/tictactoe) - [View in Browser](https://calebrauscher.github.io/The-Odin-Project/tictactoe/)
 - [Orhan's Solution (with minimax)](https://github.com/orhanugurlu/the_odin_project/tree/master/tic-tac-toe) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/tic-tac-toe/index.html)
+- [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/tic-tac-toe) - [View in Browser](https://marvinkeilbach.github.io/tic-tac-toe/)
 </details>
