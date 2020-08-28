@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [M1s1o's Solution](https://github.com/M1s1o/RockPaperScissors) - [View in Browser](https://m1s1o.github.io/RockPaperScissors/) 
 - [shalonday's Solution](https://github.com/shalonday/jakenpoy)
 - [SamAlhabash's Solution](https://github.com/SamAlhabash/RockPaperScissors-Console-Game)
 - [KyleKinz's Solution](https://github.com/KyleKinz/rock-paper-scissors)
@@ -1921,4 +1922,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [sean's Solution](https://github.com/seanmr7/Rock-Paper-Scissors) - [View in Browser](https://seanmr7.github.io/Rock-Paper-Scissors/)
 - [Vitace's Solution](https://github.com/vfonsah/rock-paper-scissors) - [View in Browser](https://vfonsah.github.io/rock-paper-scissors/)
 - [partkci's Solution](https://github.com/partkci/rockpaperscissors)
+- [amangang3](https://github.com/amangang3/rock_paper_scissors) - [View in Browser](https://amangang3.github.io/rock_paper_scissors/)
 </details>
