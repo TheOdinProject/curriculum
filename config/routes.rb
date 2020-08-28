@@ -1,5 +1,7 @@
+# rubocop:disable Lint/MissingCopEnableDirective, Metrics/BlockLength
 Rails.application.routes.draw do
   ActiveAdmin.routes(self)
+
   root 'static_pages#home'
 
   devise_for :users, controllers: {
@@ -30,7 +32,7 @@ Rails.application.routes.draw do
 
   # failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
-  resources :users, only: [:show, :update]
+  resources :users, only: %i[show update]
 
   namespace :users do
     resources :tracks, only: :create
@@ -41,7 +43,7 @@ Rails.application.routes.draw do
   get '/courses/introduction-to-web-development' => redirect('/courses/web-development-101')
 
   get '/courses' => redirect('/tracks')
-  resources :courses, only: %i(index show) do
+  resources :courses, only: %i[index show] do
     resources :lessons, only: :show
   end
 
@@ -50,25 +52,25 @@ Rails.application.routes.draw do
   end
 
   resources :lessons, only: :show do
-    resources :project_submissions, only: %i(index create update destroy) do
-      resources :votes, only: %i(create)
+    resources :project_submissions, only: %i[index create update destroy] do
+      resources :votes, only: %i[create]
       delete 'vote', to: 'votes#destroy'
     end
 
-    resources :lesson_completions, only: %i(create), as: 'completions'
-    delete 'lesson_completions' => 'lesson_completions#destroy', :as => 'lesson_completions'
+    resources :lesson_completions, only: %i[create], as: 'completions'
+    delete 'lesson_completions' => 'lesson_completions#destroy', as: 'lesson_completions'
   end
 
   resources :project_submissions do
-    resources :flags, only: %i(create), controller: "project_submissions/flags"
+    resources :flags, only: %i[create], controller: 'project_submissions/flags'
   end
 
-  match '/404' => 'errors#not_found', via: [ :get, :post, :patch, :delete ]
+  match '/404' => 'errors#not_found', via: %i[get post patch delete]
 
   # Explicitly redirect deprecated routes (301)
   get '/courses/curriculum' => redirect('/courses')
   get 'curriculum' => redirect('/courses')
   get 'scheduler' => redirect('/courses')
 
-  resources :tracks, only: [:index, :show]
+  resources :tracks, only: %i[index show]
 end

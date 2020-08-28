@@ -9,14 +9,14 @@ Rails.application.configure do
 
   # For blocking abusive ips
   config.middleware.use Rack::Attack
-  #a fix for the ever failing spec?
+  # a fix for the ever failing spec?
   config.action_dispatch.best_standards_support = :builtin
 
-  #letter opener (hopefully will send email?)
+  # letter opener (hopefully will send email?)
   config.action_mailer.delivery_method = :letter_opener
 
-   # Erik make it so letter_opener can actually display images
-  config.action_mailer.asset_host = "http://localhost:3000"
+  # Erik make it so letter_opener can actually display images
+  config.action_mailer.asset_host = 'http://localhost:3000'
 
   # Do not eager load code on boot.
   config.eager_load = false
@@ -25,7 +25,7 @@ Rails.application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
-  #Default is false (changed this)
+  # Default is false (changed this)
   config.action_mailer.raise_delivery_errors = true
 
   # Print deprecation notices to the Rails logger.

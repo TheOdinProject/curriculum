@@ -1,10 +1,9 @@
-# Use this hook to configure devise mailer, warden hooks and so forth.
-# Many of these configuration options can be set straight in your model.
+# rubocop:disable Lint/MissingCopEnableDirective, Layout/LineLength
 Devise.setup do |config|
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
-  config.mailer_sender = "no-reply@theodinproject.com"
+  config.mailer_sender = 'no-reply@theodinproject.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
@@ -35,13 +34,13 @@ Devise.setup do |config|
   # Configure which authentication keys should be case-insensitive.
   # These keys will be downcased upon creating or modifying a user and when used
   # to authenticate or find a user. Default is :email.
-  config.case_insensitive_keys = [ :email ]
+  config.case_insensitive_keys = [:email]
   config.secret_key = '9691154c509a8027cf0f6eb44dd9581b5e90453ddb22d2dbddd1c1d45b3afd0df7323405c8c6b0d0e15563a49fa9322de6d72ee51da736d9e7016c5df2f3e716'
 
   # Configure which authentication keys should have whitespace stripped.
   # These keys will have whitespace before and after removed upon creating or
   # modifying a user and when used to authenticate or find a user. Default is :email.
-  config.strip_whitespace_keys = [ :email ]
+  config.strip_whitespace_keys = [:email]
 
   # Tell if authentication through request.params is enabled. True by default.
   # It can be set to an array that will enable params authentication only for the
@@ -215,7 +214,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   require 'omniauth-github'
-  config.omniauth :github, ENV["GITHUB_APP_ID"], ENV["GITHUB_SECRET"], :scope => 'user:email'
+  config.omniauth :github, ENV['GITHUB_APP_ID'], ENV['GITHUB_SECRET'], scope: 'user:email'
   config.omniauth :google_oauth2, ENV['GOOGLE_CLIENT_ID'], ENV['GOOGLE_CLIENT_SECRET'], name: 'google', verify_iss: false
 
   # ==> Warden configuration

@@ -23,3 +23,5 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
 Style/SafeNavigation:
   Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
