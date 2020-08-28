@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [mistavoga's Solution](https://github.com/mistavoga/hangman)
 * [Sanjana's Solution](https://github.com/error34043/ruby-hangman) - [View in Repl.it](https://repl.it/@error34043/ruby-hangman#main.rb)
 * [Anel Canto's Solution](https://github.com/anelcanto/hangman)
 * [Hans Oliveira's Solution](https://github.com/hansnery/hangman)
