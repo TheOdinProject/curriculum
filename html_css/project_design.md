@@ -117,7 +117,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [bhenning83's Solution](https://github.com/bhenning83/smashing-magazine-grayscale) - [View in Browser](https://bhenning83.github.io/smashing-magazine-grayscale/)
 * [Timework's Solution](https://github.com/Timework/design-teardown) - [View in Browser](https://timework.github.io/design-teardown/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design_teardown)
-* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_designteardown) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_designteardown/)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_designteardown) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_responsivedesign/)
 </details>
 
 ### Additional Resources
