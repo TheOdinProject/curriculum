@@ -50,6 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 - Add your solution below this line!
 - [Sasoun's Solution](https://github.com/SasounTorossian/Restaurant-Page) - [View in Browser](https://sasountorossian.github.io/Restaurant-Page/)
+- [marslavish's Solution](https://github.com/marslavish/restaurant-page) - [View in Browser](https://marslavish.github.io/restaurant-page/)
 - [Phillip's Solution](https://github.com/PhillipUg/restaurant-page) - [View in Browser](https://phillipug.github.io/restaurant-page/)
 - [j-coen's Solution](https://github.com/J-coen/odin-restaurant) - [View in Browser](https://j-coen.github.io/odin-restaurant/)
 - [hd505495's Solution](https://github.com/hd505495/restaurant-page) - [View in Browser](https://hd505495.github.io/restaurant-page/)
