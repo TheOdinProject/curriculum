@@ -1919,5 +1919,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kphopkins' Solution](https://github.com/kphopkins/rock-paper-scissors) - [View in Browser](https://kphopkins.github.io/rock-paper-scissors)
 - [rogcald1's Solution](https://github.com/rogcald1/RockPaperScissor) - [View in Browser](https://rogcald1.github.io/RockPaperScissor/rps.html)
 - [sean's Solution](https://github.com/seanmr7/Rock-Paper-Scissors) - [View in Browser](https://seanmr7.github.io/Rock-Paper-Scissors/)
+- [Vitace's Solution](https://github.com/vfonsah/rock-paper-scissors) - [View in Browser](https://vfonsah.github.io/rock-paper-scissors/)
 - [partkci's Solution](https://github.com/partkci/rockpaperscissors)
 </details>
