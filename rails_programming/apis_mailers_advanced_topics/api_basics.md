@@ -122,7 +122,7 @@ In our controller, we then just need to render JSON as normal (in the example be
 
 Note that you don't need to call `#to_json` yourself when using `#render`... it will do it for you.
 
-See the [as_json documentation](http://apidock.com/rails/ActiveModel/Serializers/JSON/as_json) for details and more, like how to include associations.
+See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/Serializers/JSON.html#method-i-as_json) for details and more, like how to include associations.
 
 #### Rendering Nothing or Errors
 
