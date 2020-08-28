@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hammad Ahmed's Solution](https://www.figma.com/file/xN814tFqcEjaZXJLyCv9ZV/Smashing-Magazine-Article-Page-Design-Teardown-Project?node-id=0%3A1)
 * [hgnuye's Solution](https://github.com/hnguye/design-teardown) - [View in Browser](https://hnguye.github.io/design-teardown/)
 * [Christian's Solution](https://github.com/rueeazy/smashing-design-teardown) - [View in Browser](https://rueeazy.github.io/smashing-design-teardown/)
 * [Run After's Solution](https://github.com/run-after/smashing-mag-heat-map) - [View in Browser](https://run-after.github.io/smashing-mag-heat-map/)
@@ -116,6 +117,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [bhenning83's Solution](https://github.com/bhenning83/smashing-magazine-grayscale) - [View in Browser](https://bhenning83.github.io/smashing-magazine-grayscale/)
 * [Timework's Solution](https://github.com/Timework/design-teardown) - [View in Browser](https://timework.github.io/design-teardown/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design_teardown)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_designteardown) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_designteardown/)
 </details>
 
 ### Additional Resources
