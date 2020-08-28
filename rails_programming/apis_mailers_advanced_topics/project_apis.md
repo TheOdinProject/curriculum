@@ -93,6 +93,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/odin-kittens)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/odin-kittens)
 * [JvPelai's Solution](https://github.com/JvPelai/odin_kittens)
 * [irlgabriel's Solution](https://github.com/irlgabriel/kittens-odin)
