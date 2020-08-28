@@ -14,6 +14,5 @@ class CreateCalEvents < ActiveRecord::Migration[5.0]
     add_index :cal_events, :creator_id
     add_index :cal_events, :start
     add_index :cal_events, :end
-
   end
 end

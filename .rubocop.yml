@@ -21,3 +21,5 @@ Style/TrailingCommaInArguments:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
   Enabled: false
+Style/SafeNavigation:
+  Enabled: false

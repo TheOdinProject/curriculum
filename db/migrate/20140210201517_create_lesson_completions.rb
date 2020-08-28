@@ -5,7 +5,7 @@ class CreateLessonCompletions < ActiveRecord::Migration[5.0]
       t.integer :student_id
       t.timestamps
     end
-    
-    add_index :lesson_completions, [:lesson_id, :student_id], :unique => true
+
+    add_index :lesson_completions, %i[lesson_id student_id], unique: true
   end
 end

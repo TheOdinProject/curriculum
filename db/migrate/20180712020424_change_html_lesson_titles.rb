@@ -2,13 +2,13 @@ class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
   def up
     change_course_title('HTML5 and CSS3', 'HTML and CSS')
     change_section_titles(section_titles)
-    change_lesson_titles(lesson_titles)
+    change_lesson_titles
   end
 
   def down
     change_course_title('HTML and CSS', 'HTML5 and CSS3')
     change_section_titles(section_titles.invert)
-    change_lesson_titles(lesson_titles.invert)
+    change_lesson_titles
   end
 
   private
@@ -16,9 +16,7 @@ class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
   def change_course_title(old_title, new_title)
     course = Course.find_by_title(old_title)
 
-    if course
-      course.update_attributes(title: new_title)
-    end
+    update_attributes(title: new_title) if course
   end
 
   def change_section_titles(section_titles)
@@ -31,7 +29,7 @@ class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
     end
   end
 
-  def change_lesson_titles(lessn_titles)
+  def change_lesson_titles
     lessons = lesson_titles.keys.map { |title| Lesson.find_by_title(title) }.compact
 
     lessons.each do |lesson|
