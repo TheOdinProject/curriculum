@@ -1,4 +1,8 @@
 if Rails.env.development? || ENV['STAGING']
+  ActiveJob::Base.queue_adapter = :inline
+  ActionMailer::Base.delivery_method = :test
+  ActionMailer::Base.perform_deliveries = false
+
   users = (1..20).map do |number|
     User.find_or_create_by(email: "test_user_#{number}@email.com") do |user|
       user.username = "test_user_#{number}"
