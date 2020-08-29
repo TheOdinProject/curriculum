@@ -209,6 +209,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Axel Lopez's Solution](https://github.com/lopezaxel/photo-feed-app)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/odin-flickr-API)
 * [JvPelai's Solution](https://github.com/JvPelai/odin_flickr_album)
 * [irlgabriel's Solution](https://github.com/irlgabriel/flickr-api-project) - [View in Browser](https://fast-beyond-84270.herokuapp.com/)
