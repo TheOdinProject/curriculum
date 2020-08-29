@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Bubble Monkey's Solution](https://github.com/BubbleMoney-blip/etch-a-sketch) - [View in Browser](https://bubblemonkey-blip.github.io/etch-a-sketch)
 * [Mehmet's Solution](https://github.com/memindemir06/etch-a-sketch) - [View in Browser](https://memindemir06.github.io/etch-a-sketch)
 * [kiizerd's Solution](https://github.com/kiizerd/etch-a-sketch) - [View in Browser](https://kiizerd.github.io/etch-a-sketch/)
 * [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/Etch-a-Sketch) - [View in Browser](https://parham-pourjam.github.io/Etch-a-Sketch/)
