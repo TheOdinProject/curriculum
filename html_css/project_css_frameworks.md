@@ -72,6 +72,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [ranmaru22's Solution: griddy](https://github.com/ranmaru22/griddy) - [Example Site](https://ranmaru22.github.io/griddy/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/custom-css-grid-framework) - [Example Site](https://github.com/barrysweeney/custom-grid-site) - [View in Browser](https://barrysweeney.github.io/custom-grid-site/)
 * [Timework's - Framework](https://github.com/Timework/framework) - [The Odin Project Clone](https://github.com/Timework/odin-clone) - [View in browser](https://timework.github.io/odin-clone/)
+* [icepick-pauly's solution](https://github.com/icepick-pauly/top_htmlcss_odinclone) - [Example site](https://icepick-pauly.github.io/top_htmlcss_odinclone/)
 </details>
 
 ### Additional Resources
