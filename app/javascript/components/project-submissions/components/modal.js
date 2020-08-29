@@ -8,7 +8,7 @@ const Modal = ({ handleClose, show, children }) => {
     <div className={showHideClassName}>
       <div className='react-modal__body'>
         <div className="react-modal__close-btn" onClick={handleClose}></div>
-        {children}
+        {show && children}
       </div>
     </div>
   );
