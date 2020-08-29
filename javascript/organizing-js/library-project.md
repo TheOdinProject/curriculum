@@ -21,7 +21,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
    }
    ~~~
 
-3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
+3. Write a function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it's been read and anything else you might want.
 5. Add a button on each book's display to remove the book from the library.
    1. You will need to associate your DOM elements with the actual book objects in some way. One easy solution is giving them a data-attribute that corresponds to the index of the library array.
@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [zainiscoding's Solution](https://github.com/zainiscoding/library) - [View in Browser](https://zainiscoding.github.io/library/)
 - [CoderOO7 Solution (w/ Firebase)](https://github.com/CoderOO7/Digital-library) - [View in Browser](https://coderoo7.github.io/Digital-library/)
 - [Henrich's Solution (w/ localStorage)](https://github.com/janko12345/Library) - [View in Browser](https://janko12345.github.io/Library/)
 - [abumsoo's Solution (with localStorage)](https://github.com/abumsoo/library) - [View in Browser](https://abumsoo.github.io/library)
