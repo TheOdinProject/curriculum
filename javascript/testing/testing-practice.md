@@ -61,6 +61,13 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Abdel Perez's Solution](https://github.com/abdelp/test-practice-js)
+- [pklepa's Solution](https://github.com/pklepa/tdd-practice)
+- [Lucio's Solution](https://github.com/JCarlosLucio/testing-practice)
+- [benjamin-gambling's Solution](https://github.com/benjamin-gambling/test-driven-development)
+- [ray0h's Solution](https://github.com/ray0h/TOP-TDDPractice)
+- [Rizwan's Solution](https://github.com/xRizwan/TDD-jest)
+- [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Testing)
 - [vonhoro's Solution](https://github.com/vonhoro/Testing-with-jest)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/unit-test-practice)
 - [blackstate's solution](https://github.com/blackstate/testing-practice-jest/)
@@ -103,5 +110,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Joe Thompson's Solution](https://github.com/jlthompso/js_tests)
 - [Tim Kelly's Solution](https://github.com/timkellytk/project-testing-practice)
 - [Nijepa's Solution](https://github.com/nijepa/testing-practice)
+- [Chandra's Solution](https://github.com/CodeSurfer3022/testing-practice)
 </details>
 

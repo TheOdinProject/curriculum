@@ -76,6 +76,10 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [charliefinos's Solution](https://github.com/charlyfinos/mini-messageboard)
+- [benjamin-gambling's Solution](https://github.com/benjamin-gambling/mini-message-board) - [View in Browser](https://bgwd-mini-message-board.herokuapp.com/)
+- [azrilhafizi's Solution](https://github.com/azrilhafizi/odinproject-nodejs/tree/master/express/mini-messageboard-project) - [View in Browser](https://minimessageboard.herokuapp.com/)
+- [vonhoro's Solution](https://github.com/vonhoro/message-board) - [View in Browser](https://small-board-odin.herokuapp.com/)
 - [Leo Holanda's Solution](https://github.com/leo-holanda/mini-message-board) - [View in Browser](https://message-board-nodejs.herokuapp.com)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/mini-message-board) - [View in Browser](https://mini-message-board-andrsrzdc.herokuapp.com/)
 - [Angelo's Solution](https://github.com/angelokora/mini-message-board) - [View in Browser](https://pacific-retreat-03328.herokuapp.com)
@@ -125,4 +129,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
  - [Joe Thompson's Solution](https://github.com/jlthompso/mini_message_board) - [View in Browser](https://fathomless-wildwood-49674.herokuapp.com/)
  - [Vorelli's Solution](https://github.com/Vorelli/mini-message-board) - [View in Browser](https://intense-earth-77741.herokuapp.com/)
  - [Tulio Vieira's Solution](https://github.com/tulio-vieira/mini-message-board) - [View in Browser](https://mini-message-board-app.herokuapp.com/)
+ - [elijahjorell's Solution](https://github.com/elijahjorell/mini-message-board)
+ - [Nijepa's Solution](https://github.com/nijepa/mini-message-board) - [View in Browser](https://calm-journey-96640.herokuapp.com/)
+ - [KungFuPhil's Solution](https://github.com/kungfuphil/mini-message-board) - [View in Browser](https://fierce-brushlands-14230.herokuapp.com/)
 </details>
