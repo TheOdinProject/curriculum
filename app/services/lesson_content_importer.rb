@@ -16,7 +16,7 @@ class LessonContentImporter
     Rails.logger.info 'Importing lesson content...'
 
     Lesson.all.each_with_index do |lesson, i|
-      Rails.logger.info "Importing #{i+1}/#{total}: #{lesson.title}"
+      Rails.logger.info "Importing #{i + 1}/#{total}: #{lesson.title}"
       self.for(lesson)
     end
 
@@ -25,10 +25,10 @@ class LessonContentImporter
 
   def import
     lesson.update!(content: content_converted_to_html) if content_needs_updated?
-  rescue Octokit::Error => error
-    log_error(error.message)
-  rescue ActiveRecord::RecordInvalid => error
-    log_error(error.record.errors.full_messages)
+  rescue Octokit::Error => e
+    log_error(e.message)
+  rescue ActiveRecord::RecordInvalid => e
+    log_error(e.record.errors.full_messages)
   end
 
   private
@@ -42,7 +42,7 @@ class LessonContentImporter
   end
 
   def decoded_content
-    Base64.decode64(github_response[:content]).force_encoding("UTF-8")
+    Base64.decode64(github_response[:content]).force_encoding('UTF-8')
   end
 
   def github_response

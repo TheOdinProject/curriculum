@@ -1,6 +1,5 @@
 module Notifications
   class FlagSubmission
-
     def initialize(params)
       @flagger = params[:flagger]
       @project_submission = params[:project_submission]

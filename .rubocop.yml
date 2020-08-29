@@ -15,13 +15,18 @@ AllCops:
 
 Documentation:
   Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
+
 Style/TrailingCommaInArguments:
   Enabled: false
+
 Style/TrailingCommaInHashLiteral:
   Enabled: false
+
 Style/SafeNavigation:
   Enabled: false
+
 Style/ClassAndModuleChildren:
   Enabled: false

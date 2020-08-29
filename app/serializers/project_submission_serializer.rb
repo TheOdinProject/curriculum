@@ -1,5 +1,4 @@
 class ProjectSubmissionSerializer
-
   def initialize(project_submission)
     @project_submission = project_submission
   end
@@ -8,7 +7,7 @@ class ProjectSubmissionSerializer
     new(project_submission).as_json
   end
 
-  def as_json(options=nil)
+  def as_json(_options = nil)
     {
       id: project_submission.id,
       repo_url: project_submission.repo_url,

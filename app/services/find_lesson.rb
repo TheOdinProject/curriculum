@@ -10,7 +10,6 @@ class FindLesson
   def next_lesson
     return if last_lesson?
 
-
     course_lessons.find do |lesson|
       lesson.position == current_lesson.position + 1
     end

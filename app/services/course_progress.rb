@@ -5,11 +5,11 @@ class CourseProgress
   end
 
   def started?
-    completed_lessons > 0
+    completed_lessons.positive?
   end
 
   def completed?
-    pending_lessons == 0
+    pending_lessons.zero?
   end
 
   def percentage

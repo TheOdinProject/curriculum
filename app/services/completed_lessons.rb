@@ -1,8 +1,7 @@
 class CompletedLessons
-  attr_reader :user, :course
-
   def initialize(course, user)
-    @course, @user = course, user
+    @course = course
+    @user = user
   end
 
   def for_course
@@ -12,6 +11,8 @@ class CompletedLessons
   end
 
   private
+
+  attr_reader :user, :course
 
   def users_completed_lessons
     user.lesson_completions

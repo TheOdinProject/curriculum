@@ -1,5 +1,4 @@
 class LessonStyles
-
   def initialize(path)
     @path = path
   end

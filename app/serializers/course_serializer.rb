@@ -1,16 +1,14 @@
 class CourseSerializer
-  attr_reader :course, :between_dates
-  private :course, :between_dates
-
   def initialize(course, between_dates = nil)
-    @course, @between_dates = course, between_dates
+    @course = course
+    @between_dates = between_dates
   end
 
   def self.as_json(course, between_dates = nil)
     new(course, between_dates).as_json
   end
 
-  def as_json(options = nil)
+  def as_json(_options = nil)
     {
       title: course.title,
       sections: serialized_sections,
@@ -18,6 +16,8 @@ class CourseSerializer
   end
 
   private
+
+  attr_reader :course, :between_dates
 
   def serialized_sections
     course.sections.map do |section|
