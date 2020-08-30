@@ -95,6 +95,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Koalatree's Solution (Easy)](https://github.com/koalatree/google-homepage) - [View in Browser](https://koalatree.github.io/google-homepage/)
+* [@theghos1980 - Saturno Mangieri (Easy)](https://github.com/theghost1980/google-homepage) - [View in Browser](https://theghost1980.github.io/google-homepage/google-search-easy.html)
 * [Siddharth Sahoo's Solution (Easy)](https://github.com/sidd-oo/google-homepage) - [View in Browser](https://sidd-oo.github.io/google-homepage/)
 * [Anna's Solution (Easy)](https://github.com/annatake/google-homepage-project) - [View in Browser](https://annatake.github.io/google-homepage-project/)
 * [Zahir's Solution (Easy)](https://zahnieb.github.io/google-homepage/) - [View in Browser](https://zahnieb.github.io/google-homepage/)

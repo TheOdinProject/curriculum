@@ -46,6 +46,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 * Add your solution below this line!
 * [simalicrum's Solution](https://github.com/simalicrum/etch-a-sketch) - [View in Browser](https://simalicrum.github.io/etch-a-sketch/)
+* [Bodan's Solution](https://github.com/bodanv/etch-a-sketch) - [View in Browser](https://bodanv.github.io/etch-a-sketch/)
+* [Bubble Monkey's Solution](https://github.com/BubbleMonkey-blip/etch-a-sketch) - [View in Browser](https://bubblemonkey-blip.github.io/etch-a-sketch)
 * [Mehmet's Solution](https://github.com/memindemir06/etch-a-sketch) - [View in Browser](https://memindemir06.github.io/etch-a-sketch)
 * [kiizerd's Solution](https://github.com/kiizerd/etch-a-sketch) - [View in Browser](https://kiizerd.github.io/etch-a-sketch/)
 * [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/Etch-a-Sketch) - [View in Browser](https://parham-pourjam.github.io/Etch-a-Sketch/)
@@ -1278,4 +1280,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/etch-a-sketch) - [View in Browser](https://marvinkeilbach.github.io/etch-a-sketch/)
 * [Fusako's Solution](https://github.com/fusakoo/etch-a-sketch) - [View in Browser](https://fusakoo.github.io/etch-a-sketch/)
 * [timcbarnes's Solution](https://github.com/timcbarnes/etch-a-sketch) - [View in Browser](https://timcbarnes.github.io/etch-a-sketch/)
+* [kphopkins' Solution](https://github.com/kphopkins/etch-a-sketch) - [View in Browser](https://kphopkins.github.io/etch-a-sketch/)
 </details>
