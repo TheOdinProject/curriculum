@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [aderose's Solution (Difficult)](https://github.com/aderose/google-search-page/) - [View in Browser](https://aderose.github.io/google-search-page/)
 * [aderose's Solution (Easy)](https://github.com/aderose/google-homepage) - [View in Browser](https://aderose.github.io/google-homepage/)
 * [Christopher Mendez's Solution (Easy)](https://github.com/cmendez20/google-homepage) - [View in Browser](https://cmendez20.github.io/google-homepage/)
 * [Koalatree's Solution (Easy)](https://github.com/koalatree/google-homepage) - [View in Browser](https://koalatree.github.io/google-homepage/)
