@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [aderose's Solution (Easy)](https://github.com/aderose/google-homepage) - [View in Browser](https://aderose.github.io/google-homepage/)
 * [Christopher Mendez's Solution (Easy)](https://github.com/cmendez20/google-homepage) - [View in Browser](https://cmendez20.github.io/google-homepage/)
 * [Koalatree's Solution (Easy)](https://github.com/koalatree/google-homepage) - [View in Browser](https://koalatree.github.io/google-homepage/)
 * [@theghos1980 - Saturno Mangieri (Easy)](https://github.com/theghost1980/google-homepage) - [View in Browser](https://theghost1980.github.io/google-homepage/google-search-easy.html)
@@ -110,8 +111,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Saddam's Solution (Easy)](https://github.com/5addam/Google-Homepage) - [View in Browser](https://5addam.github.io/Google-Homepage/)
 * [tootihamza's Solution (Easy)](https://github.com/tootihamza/google-homepage) - [View in Browser](https://tootihamza.github.io/google-homepage/)
 * [Jared's Solution (Easy)](https://github.com/siemenjm/google-homepage) - [View in Browser](https://siemenjm.github.io/google-homepage/)
-* [Samuel's Solution (Easy)](https://github.com/nameless3k/google-homepage) - [View in Browser](https://nameless3k.github.io/google-homepage/
-* [Jared's Solution (Easy)](https://github.com/siemenjm/google-homepage) - [View in Browser](https://siemenjm.github.io/google-homepage/
+* [Samuel's Solution (Easy)](https://github.com/nameless3k/google-homepage) - [View in Browser](https://nameless3k.github.io/google-homepage/)
+* [Jared's Solution (Easy)](https://github.com/siemenjm/google-homepage) - [View in Browser](https://siemenjm.github.io/google-homepage/)
 * [Mehmet's Solution (Easy)](https://github.com/memindemir06/google-homepage) - [View in Browser](https://memindemir06.github.io/google-homepage/)
 * [Olamide Adeleke's Solution (Easy)](https://github.com/Hakymreality/google_clone) - [View in Browser](https://hakymreality.github.io/google_clone/)
 * [Juan Carlos's Solution (Easy)](https://github.com/jchernandez87/google-homepage) - [View in Browser](https://jchernandez87.github.io/google-homepage/)
