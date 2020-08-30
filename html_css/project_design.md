@@ -118,6 +118,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Timework's Solution](https://github.com/Timework/design-teardown) - [View in Browser](https://timework.github.io/design-teardown/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design_teardown)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_designteardown) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_designteardown/)
+* [Nijepa's Solution](https://github.com/nijepa/design-teardown) - [View in Browser](https://nijepa.github.io/design-teardown/)
 </details>
 
 ### Additional Resources
