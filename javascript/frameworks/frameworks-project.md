@@ -114,4 +114,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Chandra's React Tic Tac Toe Solution](https://github.com/CodeSurfer3022/Tic-Tac-Toe-React) - [View in Browser](https://codesurfer3022.github.io/Tic-Tac-Toe-React/)
 * [Chandra's React Todo list Solutin](https://github.com/CodeSurfer3022/Todo-list-React) - [View in Browser](https://codesurfer3022.github.io/Todo-list-React/)
 * [Florian's React Library Solution](https://github.com/flsoller/library-react-app) - [View in Browser](https://flsoller.github.io/library-react-app/)
+* [Tristan Ross's React Library Solution](https://github.com/TristanRoss/react-library) - [View in Browser](https://tristanross.github.io/react-library/)
 </details>
