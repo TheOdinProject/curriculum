@@ -60,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/binary_search_tree) - [View in repl.it](https://repl.it/@chrisortegax/binarysearchtree#main.rb)
 * [Sanjana's Solution](https://github.com/error34043/ruby-binary-search-tree)
 * [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
@@ -320,6 +321,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
 * [Sanjana's Solution](https://github.com/error34043/ruby-knights-travails) - [View in repl.it](https://repl.it/@error34043/ruby-knights-travails#main.rb)
 * [Bassart94's Solution](https://repl.it/@bassart94/knightmoves#main.rb)
 * [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
