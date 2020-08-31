@@ -9,7 +9,7 @@ class Track < ApplicationRecord
   validates :description, presence: true
   validates :position, presence: true
 
-  friendly_id :title, use: [:slugged, :finders]
+  friendly_id :title, use: %i[slugged finders]
 
   scope :default, -> { find_by(default: true) }
 end

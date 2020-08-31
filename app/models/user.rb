@@ -3,7 +3,7 @@ class User < ApplicationRecord
 
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable,
-         :omniauthable, :omniauth_providers => [:github, :google]
+         :omniauthable, omniauth_providers: %i[github google]
 
   validates :email, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :username, length: { in: 2..100 }
@@ -20,7 +20,7 @@ class User < ApplicationRecord
     @progress[course]
   end
 
-  def has_completed?(lesson)
+  def completed?(lesson)
     completed_lessons.exists?(lesson.id)
   end
 

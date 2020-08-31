@@ -42,14 +42,14 @@ RSpec.describe User do
     end
   end
 
-  describe '#has_completed?' do
+  describe '#completed?' do
     let(:lesson) { create(:lesson) }
 
     context 'when the user has completed  the lesson' do
       let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, student: user) }
 
       it 'returns true' do
-        expect(user.has_completed?(lesson)).to be(true)
+        expect(user.completed?(lesson)).to be(true)
       end
     end
 
@@ -57,7 +57,7 @@ RSpec.describe User do
       let!(:lesson_completion) { create(:lesson_completion, lesson: lesson) }
 
       it 'returns false' do
-        expect(user.has_completed?(lesson)).to be(false)
+        expect(user.completed?(lesson)).to be(false)
       end
     end
   end

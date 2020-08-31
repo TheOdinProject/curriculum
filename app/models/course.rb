@@ -8,7 +8,7 @@ class Course < ApplicationRecord
 
   validates :position, presence: true
 
-  friendly_id :title, use: [:slugged, :finders]
+  friendly_id :title, use: %i[slugged finders]
 
   def progress_for(user)
     user.progress_for(self)

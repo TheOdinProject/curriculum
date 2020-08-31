@@ -1,7 +1,7 @@
 class Lesson < ApplicationRecord
   extend FriendlyId
 
-  friendly_id :slug_candidates, use: [:slugged, :finders]
+  friendly_id :slug_candidates, use: %i[slugged finders]
 
   belongs_to :section
   has_one :course, through: :section
@@ -10,14 +10,6 @@ class Lesson < ApplicationRecord
   has_many :completing_users, through: :lesson_completions, source: :student
 
   validates :position, presence: true
-
-  def self.projects_without_submissions
-    [
-      'Installations',
-      'Practicing Git Basics',
-      'Building Your Resume'
-    ]
-  end
 
   def type
     is_project? ? 'Project' : 'Lesson'
@@ -29,16 +21,6 @@ class Lesson < ApplicationRecord
 
   def import_content_from_github
     LessonContentImporter.for(self)
-  end
-
-  def has_submission?
-    is_project? &&
-    accepts_submission? &&
-    is_not_a_ruby_project? # should be removed after revamping ruby lessons
-  end
-
-  def has_live_preview?
-    has_submission? && is_not_a_ruby_project?
   end
 
   private
@@ -56,13 +38,5 @@ class Lesson < ApplicationRecord
 
   def course_title
     course&.title
-  end
-
-  def accepts_submission?
-    !Lesson.projects_without_submissions.include?(title)
-  end
-
-  def is_not_a_ruby_project?
-    title != 'Ruby' && course_title != 'Ruby Programming'
   end
 end
