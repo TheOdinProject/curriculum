@@ -1929,4 +1929,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [partkci's Solution](https://github.com/partkci/rockpaperscissors)
 - [amangang3](https://github.com/amangang3/rock_paper_scissors) - [View in Browser](https://amangang3.github.io/rock_paper_scissors/)
 - [mickolax's Solution](https://github.com/mickolax/top-rock-paper-scissors)
+- [Mohammed's Solution](https://github.com/mohammedvs/consolegame)
 </details>
