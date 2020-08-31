@@ -1,6 +1,5 @@
 class Lessons::StyleTestsController < ApplicationController
-
-  def new;end
+  def new; end
 
   def create
     redirect_to lessons_style_tests_path(url: params[:url])
@@ -15,5 +14,4 @@ class Lessons::StyleTestsController < ApplicationController
   def path
     URI.parse(params[:url]).path
   end
-
 end

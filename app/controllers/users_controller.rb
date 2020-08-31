@@ -1,11 +1,10 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
   before_action :find_user, except: [:index]
-  authorize_resource only: [:edit, :update]
+  authorize_resource only: %i[edit update]
 
   def show
     @courses = decorated_track_courses
-    @project_submissions = @user.project_submissions_with_lesson
     @track = @user.track
   end
 
@@ -17,7 +16,7 @@ class UsersController < ApplicationController
   private
 
   def decorated_track_courses
-    @user.track.courses.map  do |course|
+    @user.track.courses.map do |course|
       CourseDecorator.new(course)
     end
   end
@@ -27,18 +26,16 @@ class UsersController < ApplicationController
   end
 
   def user_params
-    params
-      .require(:user)
-      .permit(
-        :email,
-        :username,
-        :password,
-        :password_confirmation,
-        :learning_goal,
-        :uid,
-        :provider,
-        :track_id,
-      )
+    params.require(:user).permit(
+      :email,
+      :username,
+      :password,
+      :password_confirmation,
+      :learning_goal,
+      :uid,
+      :provider,
+      :track_id,
+    )
   end
 
   def find_user

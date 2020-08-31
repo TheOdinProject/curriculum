@@ -1,29 +1,22 @@
 require 'rails_helper'
 
 RSpec.describe UserDecorator do
-  subject(:user_decorator) { UserDecorator.new(user) }
+  subject(:decorator) { UserDecorator.new(user) }
 
-  let(:user) do
-    instance_double(
-      User,
-      project_submissions: project_submissions
-    )
-  end
+  let(:user) { instance_double(User) }
 
-  let(:project_submissions) { [project_submission] }
-  let(:project_submission) { instance_double(ProjectSubmission) }
+  describe '#lesson_completions_for' do
+    let(:course) { instance_double(Course) }
+    let(:completed_lessons) { instance_double(CompletedLessons) }
 
-  describe '#has_project_submissions?' do
-    it 'returns true' do
-      expect(user_decorator.has_project_submissions?).to eql(true)
+    before do
+      allow(CompletedLessons).to receive(:new).with(course, user).and_return(completed_lessons)
+      allow(completed_lessons).to receive(:for_course)
     end
 
-    context 'when the user does not have any project submissions' do
-      let(:project_submissions) { [] }
-
-      it 'returns false' do
-        expect(user_decorator.has_project_submissions?).to eql(false)
-      end
+    it 'delegates to the CompletedLessons service' do
+      decorator.lesson_completions_for(course)
+      expect(completed_lessons).to have_received(:for_course)
     end
   end
 end

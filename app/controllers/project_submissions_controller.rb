@@ -1,6 +1,6 @@
 class ProjectSubmissionsController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_project_submission, only: %i(update destroy)
+  before_action :find_project_submission, only: %i[update destroy]
 
   def index; end
 

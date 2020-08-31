@@ -1,5 +1,4 @@
 class CourseDecorator < ApplicationDecorator
-
   def badge
     course_badges.fetch(title, 'odin-logo.svg')
   end
@@ -39,8 +38,6 @@ class CourseDecorator < ApplicationDecorator
       'NodeJS' => 'badge-nodejs.svg'
     }
   end
-
-  private
 
   def course
     __getobj__

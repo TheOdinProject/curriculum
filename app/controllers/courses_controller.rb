@@ -1,5 +1,4 @@
 class CoursesController < ApplicationController
-
   def index
     @courses = decorated_courses
   end

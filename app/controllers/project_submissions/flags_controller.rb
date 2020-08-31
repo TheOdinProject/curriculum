@@ -8,7 +8,7 @@ class ProjectSubmissions::FlagsController < ApplicationController
       notify_discord_admins
       render json: @flag, status: :ok
     else
-      render json: { error: "Unable to flag project submission" }, status: :unprocessable_entity
+      render json: { error: 'Unable to flag project submission' }, status: :unprocessable_entity
     end
   end
 
@@ -29,10 +29,12 @@ class ProjectSubmissions::FlagsController < ApplicationController
   def notify_discord_admins
     return if Rails.env.development?
 
-    DiscordNotifier.notify(Notifications::FlagSubmission.new(
-      flagger: current_user,
-      project_submission: project_submission,
-      reason: params[:reason]
-    ))
+    DiscordNotifier.notify(
+      Notifications::FlagSubmission.new(
+        flagger: current_user,
+        project_submission: project_submission,
+        reason: params[:reason]
+      )
+    )
   end
 end

@@ -12,13 +12,13 @@ class LessonsController < ApplicationController
   private
 
   def set_user
-    if user_signed_in?
-      @user = User.includes(:completed_lessons).find(current_user.id)
-    end
+    return unless user_signed_in?
+
+    @user = User.includes(:completed_lessons).find(current_user.id)
   end
 
   def project_submissions
-   (current_users_submission + lesson.project_submissions.for_public.with_no_active_flags.limit(10)).uniq
+    (current_users_submission + lesson.project_submissions.for_public.with_no_active_flags.limit(10)).uniq
   end
 
   def current_users_submission

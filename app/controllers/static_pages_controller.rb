@@ -1,20 +1,15 @@
 class StaticPagesController < ApplicationController
   before_action :redirect_if_logged_in, only: :home
 
-  def home
-  end
+  def home; end
 
-  def about
-  end
+  def about; end
 
-  def faq
-  end
+  def faq; end
 
-  def terms_of_use
-  end
+  def terms_of_use; end
 
-  def style_guide
-  end
+  def style_guide; end
 
   def success_stories
     @success_stories = SuccessStory.all
