@@ -2,19 +2,16 @@ import React, { useState, useMemo, useContext } from 'react';
 import { object, func } from 'prop-types';
 
 import Modal from './modal';
-import FlagForm from './flag-form';
 import EditForm from './edit-form';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
-import SubmissionsList from './submissions-list';
 
-const Submission = ({ submission, handleUpdate, handleFlag, handleDelete }) => {
+const Submission = ({ submission, handleUpdate, onFlag, handleDelete }) => {
   const { userId } = useContext(ProjectSubmissionContext);
-  const [showFlagModal, setShowFlagModal] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
   const isCurrentUsersSubmission = useMemo(() =>
     userId === submission.user_id, [userId, submission.user_id]);
 
-  const toggleShowFlagModal = () => setShowFlagModal(prevShowFlagModal => !prevShowFlagModal);
+
   const toggleShowEditModal = () => setShowEditModal(prevShowEditModal => !prevShowEditModal);
 
   return (
@@ -33,7 +30,7 @@ const Submission = ({ submission, handleUpdate, handleFlag, handleDelete }) => {
         <a href={submission.repo_url} target="_blank" className="submissions__button">View Code</a>
         <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
         {!isCurrentUsersSubmission && (
-          <a className="submissions__flag" onClick={(event) => { event.preventDefault(); toggleShowFlagModal()}}>
+          <a className="submissions__flag" onClick={(event) => { event.preventDefault(); onFlag(submission)}}>
             <i className="fas fa-flag "></i>
           </a>
         )}
@@ -47,14 +44,6 @@ const Submission = ({ submission, handleUpdate, handleFlag, handleDelete }) => {
           onClose={toggleShowEditModal}
         />
       </Modal>
-
-      <Modal show={showFlagModal} handleClose={toggleShowFlagModal}>
-        <FlagForm
-          submission={submission}
-          onSubmit={handleFlag}
-          onClose={toggleShowFlagModal}
-        />
-      </Modal>
     </div>
   );
 };
@@ -62,7 +51,7 @@ const Submission = ({ submission, handleUpdate, handleFlag, handleDelete }) => {
 Submission.propTypes = {
   submission: object.isRequired,
   handleUpdate: func.isRequired,
-  handleFlag: func.isRequired,
+  onFlag: func.isRequired,
   handleDelete: func.isRequired,
 };
 

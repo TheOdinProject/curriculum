@@ -3,7 +3,7 @@ import { object, func, arrayOf } from 'prop-types';
 
 import Submission from './submission'
 
-const SubmissionsList = ({ submissions, handleDelete, handleFlag, handleUpdate }) => {
+const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate }) => {
   return (
     <div>
       {submissions.map(submission => (
@@ -11,7 +11,7 @@ const SubmissionsList = ({ submissions, handleDelete, handleFlag, handleUpdate }
           key={submission.id}
           submission={submission}
           handleUpdate={handleUpdate}
-          handleFlag={handleFlag}
+          onFlag={onFlag}
           handleDelete={handleDelete}
         />
       ))}
@@ -22,7 +22,7 @@ const SubmissionsList = ({ submissions, handleDelete, handleFlag, handleUpdate }
 SubmissionsList.propTypes = {
   submissions: arrayOf(object).isRequired,
   handleDelete: func.isRequired,
-  handleFlag: func.isRequired,
+  onFlag: func.isRequired,
   handleUpdate: func.isRequired,
 }
 

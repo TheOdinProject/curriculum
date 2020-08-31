@@ -27,6 +27,8 @@ class ProjectSubmissions::FlagsController < ApplicationController
   end
 
   def notify_discord_admins
+    return if Rails.env.development?
+
     DiscordNotifier.notify(Notifications::FlagSubmission.new(
       flagger: current_user,
       project_submission: project_submission,

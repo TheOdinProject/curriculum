@@ -1,13 +1,18 @@
 import React, { useState, useMemo, useContext } from 'react';
 
-import { SubmissionsList, Modal, CreateForm } from '../components';
+import { SubmissionsList, Modal, CreateForm, FlagForm } from '../components';
 import axios from '../../../src/js/axiosWithCsrf';
 import ProjectSubmissionContext from "../ProjectSubmissionContext";
 
 const ProjectSubmissions = (props) => {
   const { userId, lesson, course } = useContext(ProjectSubmissionContext);
   const [showCreateModal, setShowCreateModal] = useState(false);
+  const [showFlagModal, setShowFlagModal] = useState(false);
   const [submissions, setSubmissions] = useState(props.submissions);
+  const [flaggedSubmission, setFlaggedSubmission] = useState({});
+
+
+  const toggleShowFlagModal = () => setShowFlagModal(prevShowFlagModal => !prevShowFlagModal);
 
   const toggleShowCreateModal = () => {
     setShowCreateModal(prevShowCreateModal => !prevShowCreateModal);
@@ -76,6 +81,8 @@ const ProjectSubmissions = (props) => {
       { reason: reasons.join(', ') }
     );
     if (response.status === 200) {
+      setFlaggedSubmission({});
+
       setSubmissions(prevSubmissions =>
         prevSubmissions.filter((submission) => submission.id !== parseInt(project_submission_id))
       );
@@ -102,6 +109,14 @@ const ProjectSubmissions = (props) => {
           />
         </Modal>
 
+        <Modal show={showFlagModal} handleClose={toggleShowFlagModal}>
+          <FlagForm
+            submission={flaggedSubmission}
+            onSubmit={handleFlag}
+            onClose={toggleShowFlagModal}
+          />
+        </Modal>
+
         <div>
           {!userSubmission && (
             <button className="submissions__add button button--primary" onClick={toggleShowCreateModal}>
@@ -115,7 +130,7 @@ const ProjectSubmissions = (props) => {
         submissions={submissions}
         userId={userId}
         handleUpdate={handleUpdate}
-        handleFlag={handleFlag}
+        onFlag={(submission) => { setFlaggedSubmission(submission); toggleShowFlagModal() }}
         handleDelete={handleDelete}
       />
     </div>
