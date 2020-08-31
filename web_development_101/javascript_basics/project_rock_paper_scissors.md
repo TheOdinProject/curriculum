@@ -250,7 +250,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [gerhernandez7's Solution](https://github.com/ger-hernandez/rock-paper-scissors)
 - [Anel Canto's Solution](https://github.com/anelcanto/rockpaperscissors)
 - [Matthew Kiefer's Solution](https://github.com/matthewkiefer/rock-paper-scissors/blob/master/rock-paper-scissors.html)
-- [Arthur Tripp's Solution](https://github.com/arthurktripp/rockpaperscissors/blob/master/index.html)
+- [Arthur Tripp's Solution](https://github.com/arthurktripp/rockpaperscissors/blob/master/index.html) [View in Browser](https://arthurktripp.github.io/rps-gui/)
 - [Ciaran Concannon's Solution](https://github.com/cjcon90/rock-paper-scissors) - [View in Browser](https://cjcon90.github.io/rock-paper-scissors/)
 - [OptiPrime64's Solution](https://github.com/OptiPrime64/rock-paper-scissor)
 - [HadrienLap's Solution](https://github.com/HadrienLap/rock-paper-scissors) - [View in Browser](https://hadrienlap.github.io/rock-paper-scissors/)
