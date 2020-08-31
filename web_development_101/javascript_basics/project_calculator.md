@@ -44,7 +44,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!
+- Add your solution below this line! 
+- [terraxus94's Solution](https://github.com/terraxus94/top-calculator) - [View in Browser](https://terraxus94.github.io/top-calculator/)
+- [justinsatorre's Solution](https://github.com/justinsatorre/calculator) - [View in Browser](https://justinsatorre.github.io/calculator/)
 - [BBrenes' Solution](https://github.com/BBrenes/calculator) - [View in Browser](https://bbrenes.github.io/calculator/)
 - [fernandopaz1's Solution](https://github.com/fernandopaz1/calculator) - [View in Browser](https://fernandopaz1.github.io/calculator/)
 - [Lord Artchur's Solution](https://github.com/lord-artchur/calculator) - [View in Browser](https://lord-artchur.github.io/calculator/)
