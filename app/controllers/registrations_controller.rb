@@ -11,24 +11,19 @@ class RegistrationsController < Devise::RegistrationsController
     dashboard_path
   end
 
-  def update_resource(resource, params)
-    if current_user.provider == 'github'
-      params.delete('current_password')
-      resource.update_without_password(params)
-    else
-      resource.update_with_password(params)
-    end
-  end
-
   private
 
   def register_mailing_list
-    if resource.persisted? && Rails.env.production?
-      MailchimpSubscription.create(
-        email: resource.email,
-        username: resource.username,
-        signup_date: resource.created_at
-      )
-    end
+    return unless resource.persisted? && production?
+
+    MailchimpSubscription.create(
+      email: resource.email,
+      username: resource.username,
+      signup_date: resource.created_at
+    )
+  end
+
+  def production?
+    Rails.env.production? && !ENV['STAGING'].present?
   end
 end

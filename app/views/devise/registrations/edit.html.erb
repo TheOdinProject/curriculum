@@ -8,7 +8,7 @@
       <%= render 'devise/registrations/profile', user: @user %>
       <%= render 'devise/registrations/learning_goal', user: @user %>
 
-      <% if @user.provider.nil? %>
+      <% unless @user.user_providers.any? %>
         <%= render 'devise/registrations/password', user: @user %>
       <% end %>
 

@@ -37,6 +37,8 @@ class User < ApplicationRecord
   end
 
   def send_welcome_email
+    return if ENV['STAGING']
+
     UserMailer.send_welcome_email_to(self).deliver_now!
   end
 end

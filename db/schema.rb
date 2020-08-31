@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_30_213319) do
+ActiveRecord::Schema.define(version: 2020_08_31_182324) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -177,8 +177,6 @@ ActiveRecord::Schema.define(version: 2020_08_30_213319) do
     t.datetime "updated_at", null: false
     t.string "username"
     t.text "learning_goal"
-    t.string "provider"
-    t.string "uid"
     t.string "confirmation_token"
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
