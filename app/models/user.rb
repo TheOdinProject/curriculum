@@ -30,22 +30,10 @@ class User < ApplicationRecord
     Lesson.find(last_lesson_completed.lesson_id)
   end
 
-  def password_required?
-    super && provider.blank?
-  end
-
   private
 
   def last_lesson_completed
     lesson_completions.order(created_at: :asc).last
-  end
-
-  def self.new_with_session(params, session)
-    super.tap do |user|
-      if data = session["devise.github_data"] && session["devise.github_data"]["extra"]["raw_info"]
-        user.email = data["email"] if user.email.blank?
-      end
-    end
   end
 
   def send_welcome_email

@@ -102,24 +102,4 @@ RSpec.describe User do
       end
     end
   end
-
-  describe '#password_required?' do
-    let(:user) { create(:user, provider: provider) }
-
-    context 'when the provider is blank' do
-      let(:provider) { '' }
-
-      it 'returns true' do
-        expect(user.password_required?).to eql(true)
-      end
-    end
-
-    context 'when the provider is not blank' do
-      let(:provider) { 'github' }
-
-      it 'returns false' do
-        expect(user.password_required?).to eql(false)
-      end
-    end
-  end
 end
