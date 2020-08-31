@@ -37,7 +37,7 @@ The very first steps of learning any programming language are destined to be a l
 <details>
   <summary>What is scope, and how does it affect your variables?</summary>
 
-  * Scope determines where your variable is accesible to the program.  
+  * Scope determines where your variable is accessible to the program.  
   * There are two kinds of scope:
     * `var` variables have Function scope
     * `let` and `const` variables have Block scope 

@@ -13,7 +13,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
@@ -35,12 +35,15 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
     4. Why is it so slow?? Remember that when you call a jQuery selector like `$(".square")`, it actually returns you ALL the elements that fit the description.  So if you're doing those types of operations hundreds of times inside a loop, it can get very time consuming... try pulling those outside your loops.
     5. See how many grid squares you can get before it becomes unusably slow.
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
-5. Push your project to Github
+5. Push your project to GitHub
 
 </div>
 
 ### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
+
+<details markdown="block">
+  <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
 * [CraigAndrewBlair's Solution](https://github.com/craigandrewblair/etch-a-sketch-odin) - [View in browser](https://craigandrewblair.github.io/etch-a-sketch-odin/)
@@ -750,3 +753,5 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [cartwheeler's solution](https://github.com/cartwheeler/Etch-A-Sketch) - [View in browser](https://cartwheeler.github.io/Etch-A-Sketch/)
 * [Scott McKell's solution](https://github.com/zottwickel/etch-a-sketch) - [View in browser](https://zottwickel.github.io/etch-a-sketch/)
 * [Sampson Mao's solution](https://github.com/sampsonmao/sketch-pad) - [View in browser](https://sampsonmao.github.io/sketch-pad/)
+
+</details>

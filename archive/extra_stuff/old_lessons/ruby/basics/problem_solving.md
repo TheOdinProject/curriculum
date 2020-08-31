@@ -17,7 +17,7 @@ First
 * How will you interact with the software? sketch the interface
 
 Then
-* whats the smallest possible feature you can build to get started?
+* what's the smallest possible feature you can build to get started?
 * pseudo code for the feature
 * Implement
 * repeat

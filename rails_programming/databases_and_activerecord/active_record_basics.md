@@ -20,9 +20,9 @@ Look through these now and then use them to test yourself after doing the assign
 
 What is Active Record anyway?  Recall that Rails is actually seven Ruby gems that work harmoniously together.  Active Record is, to put it inelegantly, the gem that takes care of all the database stuff.  It's known as an "ORM".
 
-ORM stands for Object-Relational-Mapping.  It basically means that Active Record takes data which is stored in a database table using rows and columns, which needs to be modified or retrieved by writing SQL statements (if you're using a SQL database), and it lets you interact with that data as though it was a normal Ruby object.  
+ORM stands for Object-Relational-Mapping.  It basically means that Active Record takes data which is stored in a database table using rows and columns, which needs to be modified or retrieved by writing SQL statements (if you're using a SQL database), and it lets you interact with that data as though it was a normal Ruby object.
 
-So if I want to get an array containing a listing of all the users, instead of writing code to initiate a connection to the database, then doing some sort of `SELECT * FROM users` query, and converting those results into an array, I can just type `User.all` and Active Record gives me that array filled with User objects that I can play with as I'd like.  Wow!  
+So if I want to get an array containing a listing of all the users, instead of writing code to initiate a connection to the database, then doing some sort of `SELECT * FROM users` query, and converting those results into an array, I can just type `User.all` and Active Record gives me that array filled with User objects that I can play with as I'd like.  Wow!
 
 Even more impressive, it doesn't really matter which type of database you're using (as long as you've set up the `config/database.yml` file properly), Active Record smooths out all the differences between those databases for you so you don't have to think about it.  You focus on writing code for your application, and Active Record will think about the nitty gritty details of connecting you to your database.  It also means that if you switch from one database to another, you don't actually need to change any major application code, just some configuration files.  Sounds logical, right?
 
@@ -67,9 +67,9 @@ The best part is that Rails knows that you want to do this and has given you a h
   create      spec/models/testmodel_spec.rb
 ~~~
 
-The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrations` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is simply the time that the migration was created so that rails can keep track of different migration files. 
+The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is simply the time that the migration was created so that Rails can keep track of different migration files.
 
-If you dive into that file, you'll see that there's not much in it except another bare-bones ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
+If you dive into that file, you'll see that there's not much in it except another bare-bones Ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
 
 If you want to only create the database migration file (without the Model or any of the test files), just use `$ rails generate migration NameYourMigration`.  You'll end up using this one more once you've got things up and running since you'll probably be modifying your data table instead of creating a new one.  There's a syntax for specifying additional parameters when you call this (which you'll see in the reading), but there's no need to remember that syntax because you can also manually go in and edit the migration file yourself.
 
@@ -93,7 +93,7 @@ A final note, you never want to rollback migrations unless you've screwed someth
 
 Migrations don't involve writing SQL, but you do need to understand enough about databases to know how you want yours structured!  Which columns do you want?  Which ones should be indexed (and why)? Should you set a default value?  What data type will be stored in your column... a string or text?
 
-These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [previous lesson](/courses/web-development-101/lessons/databases).
+These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [Databases course](/courses/databases).
 
 ### Basic Validations
 
@@ -101,7 +101,7 @@ Imagine you've got your database up and running and want to make sure that the d
 
 There are three levels of validations that you can enforce, each more strict and secure than the previous.  At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on.  We will learn more about that in the JavaScript course.  The advantage here is that it is almost immediate so it creates a great user experience.  The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
 
-The second layer of enforcement for your validations of user data (which you should never trust) is to do so at the server level.  This means writing code in your Rails application (specifically in the model that you are trying to save an instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.  
+The second layer of enforcement for your validations of user data (which you should never trust) is to do so at the server level.  This means writing code in your Rails application (specifically in the model that you are trying to save an instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.
 
 This is more secure than JavaScript but has the disadvantage of taking a full round-trip HTTP request to your application in order to check it.  Model validations are generally pretty effective and that's what we'll focus on here.
 
@@ -111,15 +111,15 @@ So the only way to truly enforce constraints is on the database level, since you
 
 ### Basic Associations
 
-In the databases sections, you learned about how a relational database like sqlite3 or PostgreSQL lets you link two tables together using their primary keys (called a foreign key in the specific table that is referencing another one).  It's the real power of relational databases that they let you leverage these, well, relationships.  Active Record takes that feature and lets you use it in all kinds of useful ways.  Do you want to get all of your first user's blog posts? Try `User.first.posts`.  It's as simple as that.
+In the databases sections, you learned about how a relational database like SQLite3 or PostgreSQL lets you link two tables together using their primary keys (called a foreign key in the specific table that is referencing another one).  It's the real power of relational databases that they let you leverage these, well, relationships.  Active Record takes that feature and lets you use it in all kinds of useful ways.  Do you want to get all of your first user's blog posts? Try `User.first.posts`.  It's as simple as that.
 
 That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user.  On the database table level, this means that every row in the posts table will have column for `user_id` that tells you which user "owns" that post.  The users table doesn't need to acknowledge the posts at all... after all, a single user can have an infinite number of posts.  If we're interested in a user's posts, we just have to query the posts table for all posts that link back to that user's ID.  Rails makes these relationships very easy to specify.  What we just talked about is aptly named a "has many / belongs to" association (a User `has_many` Post objects associated with it and a Post `belongs_to` a single User).
 
 Step one with understanding this stuff is just to think about which different types of relationships are possible.  Remember, half the battle of setting up your application is understanding what your data relationships will look like, so give this some thought and keep at it when it gets confusing.  If your mind is a bit fried right now, start back in the real world and don't think about it on a database level -- remember, all this stuff is our attempt to reflect the kinds of relationships that can occur in the real world.
 
-The `has_many` / `belongs_to`, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that Child.  But it also applies in slightly less intuitive cases, like where a single object `belongs_to` multiple other objects.  An example would be a FranchiseLocation for a McDonalds, which `belongs_to` the Corporation Mcdonalds but might also `belongs_to` the City San Francisco.  
+The `has_many` / `belongs_to`, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that Child.  But it also applies in slightly less intuitive cases, like where a single object `belongs_to` multiple other objects.  An example would be a FranchiseLocation for a McDonalds, which `belongs_to` the Corporation McDonalds but might also `belongs_to` the City San Francisco.
 
-It's clear that it should belong to its corporate parent, but why does it belong to a City too?  It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects.  As long as a FranchiseLocation can only be in a single city, it effectively "belongs_to" that city in the way that Rails describes it.  
+It's clear that it should belong to its corporate parent, but why does it belong to a City too?  It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects.  As long as a FranchiseLocation can only be in a single city, it effectively "belongs_to" that city in the way that Rails describes it.
 
 Another common relationship is the many-to-many relationship, which can also be called `has_and_belongs_to_many` in Rails terms.  This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects.  In this case, how would you specify which Dog objects are your favorites?  It actually requires you to create another table (a join table, or "through" table) that specifically keeps track of all those relationships.  It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
 
@@ -131,19 +131,19 @@ Pretty soon you'll start thinking of the world around you in terms of these rela
 
 If you're a normal human, you're probably somewhere between "huh?" and "I hate you, stop teaching me stuff".  Stick with it, the point here is to get you thinking of how to model relationships and give you exposure to them.  The project will give you an opportunity to actually build what you've been learning and it should be a lot better once you've had that chance.
 
-That was really just a teaser about what Active Record can do. In the reading below, you'll learn about how to specifically interact with Active Record in your models and go deeper into the other topics covered.  
+That was really just a teaser about what Active Record can do. In the reading below, you'll learn about how to specifically interact with Active Record in your models and go deeper into the other topics covered.
 
 <div class="lesson-content__panel" markdown="1">
 
 #### Basic Active Record
 
 1. I'm assuming that you've already read and followed along with the example application that was created in the [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html) intro section of the Rails Guides. If you haven't, do that first!
-2. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.  
+2. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
     * We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
     * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ActiveRecord::Base to get its super powers.
 
 #### Migrations
-1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).  
+1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
     * Don't worry about 3.6-3.8.
     * Just skim section 7.
     * Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
@@ -152,7 +152,7 @@ That was really just a teaser about what Active Record can do. In the reading be
 1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
     * Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
     * You can skim section 6 about custom validators
-    * Section 8 will likely only be interesting if you've seen ERB in rails views before... we'll get there.
+    * Section 8 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 #### Associations
 1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7.  Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.

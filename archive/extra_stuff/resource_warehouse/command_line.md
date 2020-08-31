@@ -5,7 +5,7 @@
 
 * Conquering the command line: http://conqueringthecommandline.com/book/ack_ag
 
-* Lauch school command line book: https://launchschool.com/books/command_line/read/introduction
+* Launch school command line book: https://launchschool.com/books/command_line/read/introduction
 
 * http://leveluptuts.com/tutorials/command-line-basics
 

@@ -11,4 +11,4 @@ A little guide to getting up and running with the framework on your system.
 List no more than 3 resources that cover basic tutorials for using features of the framework
 
 # Additional Resources
-List any addtional resources that may be of interest
+List any additional resources that may be of interest
