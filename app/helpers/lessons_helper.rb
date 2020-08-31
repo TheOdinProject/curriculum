@@ -1,5 +1,4 @@
 module LessonsHelper
-
   def next_lesson_button_state(lesson)
     if current_user&.completed?(lesson)
       'button--primary'

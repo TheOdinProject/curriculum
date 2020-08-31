@@ -1,9 +1,6 @@
 module CourseHelper
-
   def lesson_completed?(user, lesson)
-    if user.completed_lessons.map(&:id).include?(lesson.id)
-      "section-lessons__item__icon--completed"
-    end
+    'section-lessons__item__icon--completed' if user.completed_lessons.map(&:id).include?(lesson.id)
   end
 
   def numbered_lesson_title(lesson, lesson_index)
@@ -15,9 +12,7 @@ module CourseHelper
   end
 
   def course_completed_class?(course, user)
-    if user_signed_in? && course_completed_by_user?(course, user)
-      "course-card-header--completed"
-    end
+    'course-card-header--completed' if user_signed_in? && course_completed_by_user?(course, user)
   end
 
   def open_course_button_style(course, user)
