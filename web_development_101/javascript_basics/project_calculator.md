@@ -44,7 +44,15 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
-- Add your solution below this line!
+- Add your solution below this line! 
+- [terraxus94's Solution](https://github.com/terraxus94/top-calculator) - [View in Browser](https://terraxus94.github.io/top-calculator/)
+- [justinsatorre's Solution](https://github.com/justinsatorre/calculator) - [View in Browser](https://justinsatorre.github.io/calculator/)
+- [BBrenes' Solution](https://github.com/BBrenes/calculator) - [View in Browser](https://bbrenes.github.io/calculator/)
+- [fernandopaz1's Solution](https://github.com/fernandopaz1/calculator) - [View in Browser](https://fernandopaz1.github.io/calculator/)
+- [Lord Artchur's Solution](https://github.com/lord-artchur/calculator) - [View in Browser](https://lord-artchur.github.io/calculator/)
+- [mittalrohit0598's Solution](https://github.com/mittalrohit0598/calculator) - [View in Browser](https://thegrapescribbler.com/calculator/)
+- [Shadou1's Solution](https://github.com/Shadou1/the-odin-projects/tree/master/web-development-101/calculator) - [View in Browser](https://shadou1.github.io/the-odin-projects/web-development-101/calculator/)
+- [mlgwan's Solution](https://github.com/mlgwan/calculator) - [View in Browser](https://mlgwan.github.io/calculator/)
 - [Justinr's Solution](https://github.com/justinr922/calculator) - [View in Browser](https://justinr922.github.io/calculator/)
 - [AFurrow's Solution](https://github.com/Afurrow/calculator) - [View in Browser](https://afurrow.github.io/calculator/)
 - [anth-dev's Solution](https://github.com/anth-dev/calculator) - [View in Browser](https://anth-dev.github.io/calculator/index.html)

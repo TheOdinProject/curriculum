@@ -6,7 +6,7 @@ Backing up, if you're still unclear on what an API (Application Programming Inte
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
-When you build applications that have more dynamic front-end functionality (as complicated as single page Javascript applications or as simple as individual AJAX calls), they will talk to your Rails backend via your own APIs... which is really just an extra line or two of code to tell your controllers how to spit out JSON or XML instead of HTML.  
+When you build applications that have more dynamic front-end functionality (as complicated as single page JavaScript applications or as simple as individual AJAX calls), they will talk to your Rails backend via your own APIs... which is really just an extra line or two of code to tell your controllers how to spit out JSON or XML instead of HTML.  
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
@@ -76,7 +76,7 @@ Once you've decided that you want to respond to a request for JSON or XML, you n
   end
 ~~~
 
-In this case, `#respond_to` passes the block a format object, to which you can attach the appropriate rendering call.  If you do nothing, html will render using the default Rails template as normal (in this case, `app/views/index.html.erb`).
+In this case, `#respond_to` passes the block a format object, to which you can attach the appropriate rendering call.  If you do nothing, HTML will render using the default Rails template as normal (in this case, `app/views/index.html.erb`).
 
 The `#render` function is smart enough to know how to render a wide range of formats.  When you pass it the key `:json`, it will call `#to_json` on the value, in this case `@users`.  That will make your Ruby object(s) into JSON strings, which can be transmitted to the requesting application.
 
@@ -101,10 +101,11 @@ In our case, we'll do this by modifying `#as_json` in our model to return only t
       { :name => self.name }  # NOT including the email field
     end
 
-      # Option 2: Working with the default #as_json method
+    # Option 2: Working with the default #as_json method
     def as_json(options={})
       super(:only => [:name])
     end
+    
   end
 ~~~
 
@@ -117,6 +118,7 @@ In our controller, we then just need to render JSON as normal (in the example be
     def index
       render :json => User.all
     end
+    
   end
 ~~~
 
@@ -131,9 +133,11 @@ Sometimes you just want to send out an HTTP error code without any response body
 ~~~ruby
   # app/controllers/users_controller.rb
   class UsersController < ApplicationController
+  
     def index
       render :nothing => true, :status => 404
     end
+    
   end
 ~~~
 
@@ -193,7 +197,7 @@ You probably won't be worrying too much about SOA while building "toy" applicati
 
 ### Conclusion
 
-We'll get more into using your application as an API during the course on Javascript.  In that course, you'll build some full stack apps that use Javascript AJAX calls to smooth out the user experience, which basically involves asking your Rails app for some XML or JSON data instead of a full HTML page.  Then you'll get to build some single page Javascript apps which rely on the API provided by your Rails app for all the necessary database data but otherwise completely run the show on the front end.
+We'll get more into using your application as an API during the course on JavaScript.  In that course, you'll build some full stack apps that use JavaScript AJAX calls to smooth out the user experience, which basically involves asking your Rails app for some XML or JSON data instead of a full HTML page.  Then you'll get to build some single page JavaScript apps which rely on the API provided by your Rails app for all the necessary database data but otherwise completely run the show on the front end.
 
 The best way to really figure out APIs is to build them and interface with them, so we'll focus on that in the projects.
 

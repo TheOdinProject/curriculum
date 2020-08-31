@@ -8,7 +8,7 @@ Front-end web development is NOT design (you won't be playing around in Photosho
 
 On the front end, you will need to be highly conscious of who your user is and how they will be interacting with your web page, because you are building their gateway to your page or product.  This may mean gaining a strong understanding of accessibility and things like responsive development down the line, but first you need to build up your toolkit and pick up the fundamentals of the front-end languages.
 
-In the following lessons, you'll get a healthy understanding of each of the three front-end languages (and jQuery, the most popular JavaScript library).  To get warmed up, we'll start at the high level.
+In the following lessons, you'll get a healthy understanding of each of the three front-end languages. To get warmed up, we'll start at the high level.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
