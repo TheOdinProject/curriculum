@@ -29,11 +29,13 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete }) => {
         )}
         <a href={submission.repo_url} target="_blank" className="submissions__button">View Code</a>
         <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
-        {!isCurrentUsersSubmission && (
-          <a className="submissions__flag" onClick={(event) => { event.preventDefault(); onFlag(submission)}}>
-            <i className="fas fa-flag "></i>
-          </a>
-        )}
+
+        {isCurrentUsersSubmission
+          ? <span className={`submissions__public-icon${submission.is_public ? '--visible' : ''}`}><i className="fas fa-eye"></i></span>
+          : <a className="submissions__flag" onClick={(event) => { event.preventDefault(); onFlag(submission)}}>
+              <i className="fas fa-flag "></i>
+            </a>
+        }
       </div>
 
       <Modal show={showEditModal} handleClose={toggleShowEditModal}>

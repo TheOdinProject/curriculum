@@ -9,6 +9,9 @@ const CreateForm = ({ onClose, onSubmit }) => {
   const { register, handleSubmit, formState, errors, reset } = useForm({
     resolver: yupResolver(schema),
     mode: 'onTouched',
+    defaultValues: {
+      is_public: true,
+    }
   });
 
   const handleClose = () => {
@@ -57,7 +60,7 @@ const CreateForm = ({ onClose, onSubmit }) => {
         <div className="form__section form__section--right-aligned form__section--bottom">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
             <label className="toggle form__public-checkbox">
-              <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
+              <input className="toggle__input" type="checkbox" name="is_public" ref={register} />
               <div className="toggle__fill"></div>
             </label>
           <button disabled={!formState.isValid} type="submit" className="button button--primary">Submit</button>

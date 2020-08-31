@@ -45,7 +45,8 @@
   }
 
   &__actions {
-    a {
+    a,
+    span {
       margin-left: 1em;
     }
   }
@@ -53,6 +54,14 @@
   &__flag {
     color: $button-disabled;
     cursor: pointer;
+  }
+
+  &__public-icon {
+    color: $button-disabled;
+
+    &--visible {
+      color: $button-primary;
+    }
   }
 
 }
