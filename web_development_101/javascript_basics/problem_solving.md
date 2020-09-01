@@ -123,7 +123,7 @@ With that working, lets move on to the next problem: If the current number is di
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
-for (let i = 1; i < answer; i++) {
+for (let i = 1; i <= answer; i++) {
   if (i % 3 === 0) {
     console.log("Fizz");
   } else {
@@ -154,7 +154,7 @@ The program is starting to take shape, the final few subproblems should be easy 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
-for (let i = 1; i < answer; i++) {
+for (let i = 1; i <= answer; i++) {
   if (i % 3 === 0) {
     console.log("Fizz");
   } else if (i % 5 === 0) {
@@ -185,7 +185,7 @@ We have one more subproblem to solve to complete the program: If the current num
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
-for (let i = 1; i < answer; i++) {
+for (let i = 1; i <= answer; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   } else if (i % 3 === 0) {
