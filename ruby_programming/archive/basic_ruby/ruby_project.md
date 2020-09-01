@@ -18,7 +18,7 @@ This exercise will involve a lot of figuring things out. There aren't very detai
       6. `05_book_titles`
       7. `06_timer`
 
-  4. Push your project to Github
+  4. Push your project to GitHub
 
 </div>
 

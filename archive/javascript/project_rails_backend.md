@@ -14,7 +14,7 @@ When the user selects one of these characters, you should check with your Rails 
 Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score).  Once a round is complete, ask the user for his/her name and record that time.  This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Think about what you'll need to do to get this all working together.  This is where it's really helpful to think it completely through on paper or whiteboard ahead of time!  A few minutes of thought can save you from wasting an hour of coding.
 3. Create a new Rails application with just the bare bones required to load your HTML page for now.
 4. Build the front end functionality without actually using any calls to the back end yet.  Specifically, that means creating the Javascript functionality which pops the targeting box and dropdown menu on the screen when the user clicks on the photo and removes it when the user clicks away.
@@ -22,7 +22,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 6. Tie it into your front end so you can seamlessly select characters, validate them, and place the appropriate markers on the map if the selection was correct.
 7. Add in the ability to time the user from when they first load the page and then display their "score" (time) when they successfully identify all characters.  Create a popup that asks them to enter their name for the high scores table if they have earned it.
 8. Play with it!
-9. Push your solution to Github and submit it below.  This is a serious project, congratulations!
+9. Push your solution to GitHub and submit it below.  This is a serious project, congratulations!
 
 #### Optional Extensions:
 

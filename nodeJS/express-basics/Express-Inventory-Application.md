@@ -31,6 +31,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [benjamin-gambling's Solution](https://github.com/benjamin-gambling/inventory-application) - [View in Browser](https://bgwd-inventory-application.herokuapp.com/shop)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/vet-inventory) - [View in Browser](https://vet-inventory-andrsrzdc.herokuapp.com/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/game-inventory) - [View in Browser](https://game-inventory-kikupiku.herokuapp.com/)
 - [Julio's solution](https://github.com/julio22b/inventory-application) - [View in browser](https://inventory-app-top.herokuapp.com/catalog/)
@@ -54,4 +55,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Vorelli's Solution](https://github.com/Vorelli/inventory-application) - [View in Browser](https://aqueous-brushlands-38489.herokuapp.com/)
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/inventory-app) - [View in Browser](https://mighty-citadel-00007.herokuapp.com/)
 - [Scott Bowles's Solution](https://github.com/scottBowles/coffee-shop-inventory-application) - [View in Browser](https://corcovadocafe.herokuapp.com/)
+- [Nijepa's Solution](https://github.com/nijepa/inventory_application) - [View in Browser](https://pure-everglades-32573.herokuapp.com/inventory)
 </details>

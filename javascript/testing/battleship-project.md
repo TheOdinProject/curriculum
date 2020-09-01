@@ -36,12 +36,16 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
 </div>
 
 ###  Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [pklepa's Solution](https://github.com/pklepa/battleship) - [View in Browser](https://pklepa.github.io/battleship/)
+- [guyroberts21's Solution](https://github.com/guyroberts21/battleship) - [View in Browser](https://guyroberts21.github.io/battleship/)
+- [ray0h's Solution](https://github.com/ray0h/TOP-Battleship) - [View in Browser](https://ray0h.github.io/TOP-Battleship/)
+- [mjwills-inf's Soulution](https://github.com/mjwills-inf/-TOP-battleship) - [View in Browser](https://mjwills-inf.github.io/-TOP-battleship/)
 - [Rizwan's Soulution](https://github.com/xRizwan/TDD-Battleship) - [View in Browser](https://xrizwan.github.io/TDD-Battleship/)
 - [Kevin's Soulution](https://github.com/Kevlar2222/battleships/tree/master) - [View in Browser](https://kevlar2222.github.io/battleships/)
 - [Akram's Soulution](https://github.com/Ghanna96/battleship) - [View in Browser](https://ghanna96.github.io/battleship/)
@@ -75,4 +79,6 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 - [Rey van den Berg's Solution](https://github.com/Rey810/Battleship/tree/master/battleship) - [View in Browser](https://react-battleship-reythedev.netlify.app)
 - [Joe Thompson's Solution](https://github.com/jlthompso/battleship) - [View in Browser](https://jlthompso.github.io/battleship/)
 - [Nijepa's Solution](https://github.com/nijepa/project-battleship) - [View in Browser](https://nijepa.github.io/project-battleship/)
+- [kbrdsk's Solution](https://github.com/kbrdsk/battleship) - [View in Browser](https://kbrdsk.github.io/battleship/)
+- [themetar's Solution](https://github.com/themetar/battleship-top) - [View in Browser](https://themetar.github.io/battleship-top/)
 </details>

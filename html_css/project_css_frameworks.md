@@ -8,20 +8,20 @@ Once you're done setting up your framework, you will use it to clone any website
 You'll be creating your own grid-based framework.
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 2. Create a new CSS document.
 3. Think about the major elements that are required of a framework.  This includes a CSS reset, a fixed number of grids separated by "gutters", a way to make new rows, and default values for the font properties of elements.
 4. Write the CSS necessary to create a basic 12-column grid framework.  Check out the [960 Grid System documentation](http://960.gs) for a look at how they do it.  The complexity is up to you -- there's no need to go too crazy with details (you're not trying to rebuild Bootstrap).
-5. Push your framework to Github.
+5. Push your framework to GitHub.
 
 #### Applying the Framework
 
-1. Create a new HTML document and a new Github repository.
+1. Create a new HTML document and a new GitHub repository.
 2. Identify the webpage you'd like to clone and break it down into its major elements like we have in the previous projects.
 3. Add your framework to your project.
 4. Use your framework to lay out the structure of the page.
 5. Fill in the necessary details/images etc.
-6. Push your solution to Github.
+6. Push your solution to GitHub.
 7. Have a frosty beverage, you're done with the HTML/CSS projects!
 </div>
 
@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Run After's Solution](https://github.com/run-after/framework-chase) - [View in Browser](https://run-after.github.io/framework-chase/)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-odin) - [View in Browser](https://lucas-bide.github.io/odin-odin/)
 * [HaroonAbdulrazaq's solution - Devsummit](https://github.com/Haroonabdulrazaq/Devsummit) - [View in Browser](https://haroonabdulrazaq.github.io/Devsummit/)
 * [Rarysson's solution - Grid Lib Framework](https://github.com/rarysson/grid-lib) - [5by5 Site Clone](https://github.com/rarysson/5by5-clone) - [View in Browser](https://rarysson.github.io/5by5-clone/)
@@ -71,6 +72,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [ranmaru22's Solution: griddy](https://github.com/ranmaru22/griddy) - [Example Site](https://ranmaru22.github.io/griddy/)
 * [barrysweeney's Solution](https://github.com/barrysweeney/custom-css-grid-framework) - [Example Site](https://github.com/barrysweeney/custom-grid-site) - [View in Browser](https://barrysweeney.github.io/custom-grid-site/)
 * [Timework's - Framework](https://github.com/Timework/framework) - [The Odin Project Clone](https://github.com/Timework/odin-clone) - [View in browser](https://timework.github.io/odin-clone/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design-grid-framework)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_odinclone) - [Example site](https://icepick-pauly.github.io/top_htmlcss_odinclone/)
 </details>
 
 ### Additional Resources
