@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [dkhole's Solution (w/ localStorage)](https://github.com/dkhole/library) - [View in Browser](https://dkhole.github.io/library/)
 - [rchlkr's Solution](https://github.com/rchlkr/bookshelf) - [View in Browser](https://rchlkr.github.io/bookshelf/)
 - [zainiscoding's Solution](https://github.com/zainiscoding/library) - [View in Browser](https://zainiscoding.github.io/library/)
 - [CoderOO7 Solution (w/ Firebase)](https://github.com/CoderOO7/Digital-library) - [View in Browser](https://coderoo7.github.io/Digital-library/)
