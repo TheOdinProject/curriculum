@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Chintan Bhomia's Solution](https://github.com/cnbhomia/rock-paper-scissor)
 - [Agathasta's Solution](https://github.com/agathasta/rock-paper-scissors)
 - [Nick's Solution](https://github.com/nmccooey/rock-paper-scissors-classic) - [View in Browser](https://nmccooey.github.io/rock-paper-scissors-classic/)
 - [AntwuanDixon's Solution](https://github.com/AntwuanDixon/rick-pickle-morty) - [View in Browser](https://antwuandixon.github.io/rick-pickle-morty/)
