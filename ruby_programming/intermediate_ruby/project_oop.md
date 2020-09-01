@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/tic_tac_toe.rb)
 * [Big-Meel's Solution](https://github.com/big-meel/ruby-code/blob/master/tic-tac-toe.rb)
 * [Alvin's Solution](https://repl.it/@AlvinIsai/JadedRepulsiveRom#main.rb)
 * [Kjell's Solution](https://github.com/kjell-fjeldsaunet/tic-tac-toe)
