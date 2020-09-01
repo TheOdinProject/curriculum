@@ -4226,8 +4226,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Scott Diemer's Solution (Easy)](https://github.com/scottdiemer/google-homepage) - [View in Browser](https://scottdiemer.github.io/google-homepage/)
 * [Lucija's Solution (Difficult)](https://github.com/India12/google-search) - [View in Browser](https://india12.github.io/google-search/)
 * [Tuzp's Solution (Easy)](https://github.com/tuzp/google-homepage) - [View in Browser](https://tuzp.github.io/google-homepage/)
-</details>
 * [Dinbusan's Solution (Easy)](https://github.com/dinbusan/google-homepage) - [View in Browswer](https://dinbusan.github.io/google-homepage/)
+</details>
+
 
 ### Additional Resources
 
