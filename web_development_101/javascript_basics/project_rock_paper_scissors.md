@@ -41,7 +41,11 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Chintan Bhomia's Solution](https://github.com/cnbhomia/rock-paper-scissor) - 
+- [Chintan Bhomia's Solution](https://github.com/cnbhomia/rock-paper-scissor)
+- [Agathasta's Solution](https://github.com/agathasta/rock-paper-scissors)
+- [Nick's Solution](https://github.com/nmccooey/rock-paper-scissors-classic) - [View in Browser](https://nmccooey.github.io/rock-paper-scissors-classic/)
+- [AntwuanDixon's Solution](https://github.com/AntwuanDixon/rick-pickle-morty) - [View in Browser](https://antwuandixon.github.io/rick-pickle-morty/)
+- [Requeim00's Solution](https://github.com/Requiem00/Rock-Paper-Scissors-Game) - [View in Browser](https://requiem00.github.io/Rock-Paper-Scissors-Game/)
 - [Scott Diemer's Solution](https://github.com/scottdiemer/rock-paper-scissors) - [View in Browser](https://scottdiemer.github.io/rock-paper-scissors/)
 - [lisandro seia's Solution](https://github.com/lisandroseia/RockPaperScissors) - [View in Browser](https://lisandroseia.github.io/RockPaperScissors/)
 - [berubenic's Solution](https://github.com/berubenic/Rock-Paper-Scissors) - [View in Browser](https://hardcore-meitner-6cb5e9.netlify.app/)
@@ -1930,4 +1934,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [partkci's Solution](https://github.com/partkci/rockpaperscissors)
 - [amangang3](https://github.com/amangang3/rock_paper_scissors) - [View in Browser](https://amangang3.github.io/rock_paper_scissors/)
 - [mickolax's Solution](https://github.com/mickolax/top-rock-paper-scissors)
+- [teshigahara's Solution](https://github.com/teshigahara/rps) - [View in Browser](https://teshigahara.github.io/rps/)
+- [Mohammed's Solution](https://github.com/mohammedvs/consolegame)
 </details>
