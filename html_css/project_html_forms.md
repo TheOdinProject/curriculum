@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Andrew's Solution](https://github.com/a6macleod/mint.com-signup-replica) - [View in Browser](https://a6macleod.github.io/mint.com-signup-replica/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/signup-form) - [View in Browser](https://shammadahmed.github.io/signup-form/)
 * [Veríssimo's Solution](https://github.com/vec21/html-form) - [View in Browser](https://vec21.github.io/html-form/)
 * [Kevin's Solution](https://github.com/Kevin-Satti-Projects/Projects/tree/master/Sign_up_Page) - [View in Browser](https://kevin-satti-projects.github.io/Projects/Sign_up_Page/)
