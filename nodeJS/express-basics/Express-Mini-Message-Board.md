@@ -131,4 +131,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
  - [Tulio Vieira's Solution](https://github.com/tulio-vieira/mini-message-board) - [View in Browser](https://mini-message-board-app.herokuapp.com/)
  - [elijahjorell's Solution](https://github.com/elijahjorell/mini-message-board)
  - [Nijepa's Solution](https://github.com/nijepa/mini-message-board) - [View in Browser](https://calm-journey-96640.herokuapp.com/)
+ - [KungFuPhil's Solution](https://github.com/kungfuphil/mini-message-board) - [View in Browser](https://fierce-brushlands-14230.herokuapp.com/)
 </details>

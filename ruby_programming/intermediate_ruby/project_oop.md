@@ -19,6 +19,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/tic_tac_toe/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@NicolasArayaB/tictactoe#.replit)
+* [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/tic_tac_toe.rb)
+* [Big-Meel's Solution](https://github.com/big-meel/ruby-code/blob/master/tic-tac-toe.rb)
+* [Alvin's Solution](https://repl.it/@AlvinIsai/JadedRepulsiveRom#main.rb)
+* [Kjell's Solution](https://github.com/kjell-fjeldsaunet/tic-tac-toe)
 * [onagova's Solution](https://github.com/onagova/intermediate-ruby-projects/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@onagova/intermediate-ruby-projects#tic_tac_toe.rb)
 * [Sanjana's Solution](https://github.com/error34043/ruby-tic-tac-toe) - [View in repl.it](https://repl.it/@error34043/TicTacToe#main.rb)
 * [AGL9's Solution](https://github.com/agl9/tictactoeruby) - [View in repl.it](https://repl.it/@AGL9/tictactoe2#main.rb)
@@ -425,6 +430,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [brentguf’s Solution](https://github.com/brentguf/tic-tac-toe/blob/master/script.rb)
 * [DM-Murphy's Solution](https://github.com/dm-murphy/tic_tac_toe)
 * [Christopher’s Solution](https://github.com/christopheralagna/Ruby-Projects/blob/master/tic-tac-toe.rb)
+* [Eduardo06sp’s Solution](https://github.com/Eduardo06sp/tic-tac-toe-cli-ruby/blob/master/tic_tac_toe.rb)
+* [Ryan Early’s Solution](https://github.com/ryanfearly/tic-tac-toe)
 </details>
 
 ### Project 2: Mastermind
@@ -763,6 +770,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Mastermind) - [Play on repl.it](https://repl.it/@shanedgilbert/Mastermind)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/mastermind)
 * [Christopher’s Solution](https://github.com/christopheralagna/Ruby-Projects/blob/master/mastermind.rb)
+* [Ryan Early’s Solution](https://github.com/ryanfearly/mastermind)
 </details>
 
 ### Additional Resources
