@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! 
+- [simalicrum's Solution](https://github.com/simalicrum/calculator) - [View in Browser](https://simalicrum.github.io/calculator/)
 - [rajdeepdev10's Solution](https://github.com/rajdeepdev10/calculator) - [View in Browser](https://rajdeepdev10.github.io/calculator/)
 - [BlueChihuahua's Solution](https://github.com/BlueChihuahua/calculator) - [View in Browser](https://bluechihuahua.github.io/calculator/)
 - [Parham-Pourjam's Solution](https://github.com/Parham-Pourjam/calculator) - [View in Browser](https://parham-pourjam.github.io/calculator/)
