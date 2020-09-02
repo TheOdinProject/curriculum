@@ -4239,6 +4239,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Rolanjose7's Solution (Easy)](https://github.com/rolanjose7/google-homepage) - [View in Browser](https://rolanjose7.github.io/google-homepage/)
 * [ribeiro-dev's Solution (Easy)](https://github.com/ribeiro-dev/google-homepage) - [View in Browser](https://ribeiro-dev.github.io/google-homepage/)
 * [Nico Muñoz's Solution (Easy)](https://github.com/NicoMunoz909/google-homepage) - [View in Browser](https://nicomunoz909.github.io/google-homepage/)
+* [Jeanelle's Solution (Easy)](https://github.com/jeanelle27ph/google-homepage) - [View in Browser](https://jeanelle27ph.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
