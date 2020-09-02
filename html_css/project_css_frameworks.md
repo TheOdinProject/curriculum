@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/top-clone) - [View in Browser](https://rueeazy.github.io/top-clone/)
 * [Run After's Solution](https://github.com/run-after/framework-chase) - [View in Browser](https://run-after.github.io/framework-chase/)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-odin) - [View in Browser](https://lucas-bide.github.io/odin-odin/)
 * [HaroonAbdulrazaq's solution - Devsummit](https://github.com/Haroonabdulrazaq/Devsummit) - [View in Browser](https://haroonabdulrazaq.github.io/Devsummit/)
