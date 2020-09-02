@@ -22,7 +22,7 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
   With Teletype now installed, open up the workspace you wish to share. On the bottom left-hand corner of your editor window, you will see an icon that looks like a radio tower, click on that icon. 
 
-  The first time you attempt to share a workspace, a pop-up will appear, asking you to login to Github to generate an authentication token. Simply click on the link in the pop-up to authenticate with Github. You will be redirected to a page with an authentication token you can copy, then paste back into Atom. You should now be able to generate a link you can share for others to join your workspace remotely to pair program.
+  The first time you attempt to share a workspace, a pop-up will appear, asking you to login to GitHub to generate an authentication token. Simply click on the link in the pop-up to authenticate with GitHub. You will be redirected to a page with an authentication token you can copy, then paste back into Atom. You should now be able to generate a link you can share for others to join your workspace remotely to pair program.
 
 ### Finding a Partner
 

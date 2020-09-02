@@ -15,12 +15,16 @@ You will be building a simple command line Hangman game where one player plays a
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
+Send us your solution so we can show others! Submit a link to the GitHub [repo](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_file_io.md) with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/hangman) - [View in Repl.it](https://repl.it/@chrisortegax/hangman#lib/hangman.rb)
+* [mistavoga's Solution](https://github.com/mistavoga/hangman)
+* [Sanjana's Solution](https://github.com/error34043/ruby-hangman) - [View in Repl.it](https://repl.it/@error34043/ruby-hangman#main.rb)
+* [Anel Canto's Solution](https://github.com/anelcanto/hangman)
 * [Hans Oliveira's Solution](https://github.com/hansnery/hangman)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/hangman) - [View in Repl.it](https://repl.it/@nguyenjessev/hangman#hangman.rb)
 * [nhleto's Solution](https://github.com/nhleto/Hangman)
