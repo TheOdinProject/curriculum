@@ -169,6 +169,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nhleto's Solution](https://github.com/nhleto/Connect-Four)
 * [tenacious-qi's](https://github.com/Tenacious-Qi/connect-four)
 * [James's Solution](https://github.com/jegrieve/TDD_Connect_Four)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
