@@ -34,6 +34,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 * [urbanassa53's Solution](https://github.com/urbanassa53/CaesarWithRuby/blob/master/caesar.rb)
+* [Cbhaugen's Solution](https://github.com/cbhaugen/caesar_cipher.git)
 * [RedBoy910's Solution](https://github.com/RedBoy910/RubyCaesarCypher/blob/master/caesarCypher.rb)
 * [mthsgrc's Solution](https://github.com/mthsgrc/caesar_cypher_ruby/blob/master/caesar.rb)
 * [paulotijero's Solution](https://github.com/paulotijero/caesar-cipher)
