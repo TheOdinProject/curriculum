@@ -64,7 +64,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [imsammylee's Solution](https://github.com/imsammylee/rock-paper-scissors) - [View in Browser](https://imsammylee.github.io/rock-paper-scissors/) 
 - [M1s1o's Solution](https://github.com/M1s1o/RockPaperScissors) - [View in Browser](https://m1s1o.github.io/RockPaperScissors/)
 - [Saddam's Solution](https://github.com/5addam/rockPaperScissors) - [View in Browser](https://5addam.github.io/rockPaperScissors/)
-- [shalonday's Solution](https://github.com/shalonday/jakenpoy)
+- [shalonday's Solution](https://github.com/shalonday/jakenpoy) - [View in Browser](https://shalonday.github.io/jakenpoy/)
 - [SamAlhabash's Solution](https://github.com/SamAlhabash/RockPaperScissors-Console-Game)
 - [KyleKinz's Solution](https://github.com/KyleKinz/rock-paper-scissors)
 - [BreeSavage's Solution](https://github.com/BreeSavage/rock-paper-skizzors) - [View in Browser](https://breesavage.github.io/rock-paper-skizzors/)
