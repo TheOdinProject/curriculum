@@ -15,7 +15,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 4. Create empty semantic HTML elements to enclose those sections.
@@ -25,16 +25,24 @@ Also, don't worry about making the comment form work properly... your goal is to
 8. Embed a YouTube video of your choice into your page.
 9. Next, build the sidebar section where previews of suggested videos show up.  Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
 10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.  Ignore the icons (many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them).
-11. Push your solution up to Github.
+11. Push your solution up to GitHub.
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the GitHub [file](https://github.com/TheOdinProject/curriculum/edit/master/html_css/project_media.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/ytb-clone) - [View in Browser](https://irlgabriel.github.io/ytb-clone/index.html)
+* [Platyphyllum's Solution](https://github.com/marboleda/youtube-page) - [View in Browser](https://marboleda.github.io/youtube-page/)
+* [Andrew's Solution](https://github.com/a6macleod/youtube-replica) - [View in Browser](https://a6macleod.github.io/youtube-replica/)
+* [Rastko's Solution](https://github.com/RastkoD/The_Odin_Project/tree/master/HTML_and_CSS/YouTube) - [View in Browser](https://youtube-byrastkod.netlify.app/)
+* [Kevin's Solution](https://github.com/Kevlar2222/youtube/tree/master) - [View in Browser](https://kevlar2222.github.io/youtube/)
+* [Hiro's Solution](https://github.com/hrmtk/youtube-page) - [View in Browser](https://hrmtk.github.io/youtube-page/)
+* [Christian's Solution](https://github.com/rueeazy/youtube-clone) - [View in Browser](https://rueeazy.github.io/youtube-clone/)
+* [Tam Tran's Solution](https://github.com/gitdxb/clone-yt) - [View in Browser](https://gitdxb.github.io/clone-yt/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/embed-practice) - [View in Browser](https://ideopunk.github.io/embed-practice/)
 * [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/embedding-images-and-video) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [mrdiegodev_ Solution](https://github.com/dhna32/Project--Embedding-Images-and-Video) - [View in Browser](https://dhna32.github.io/Project--Embedding-Images-and-Video/)
@@ -208,6 +216,10 @@ Send us your solution so we can show others! Submit a link to the Github [file](
 * [Nijepa's Solution](https://github.com/nijepa/embedding-images-and-video) - [View in Browser](https://nijepa.github.io/embedding-images-and-video/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/youtube)
 * [Violet's Solution](https://github.com/violetguos/html-css/tree/master/youtube) - [View in Browser](https://violetguos.github.io/html-css/youtube/)
+* [Jonathan Altine's Solution](https://github.com/JonathanAltine/YoutubeVideoPage) - [View in Browser](https://jonathanaltine.github.io/YoutubeVideoPage/)
+* [skwiryt's solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
+* [icepick-pauly's solution](https://github.com/icepick-pauly/top_htmlcss_youtubeclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_youtubeclone/)
+
 </details>
 
 ### Additional Resources
