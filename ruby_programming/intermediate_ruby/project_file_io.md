@@ -21,6 +21,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Alvin's Solution](https://repl.it/@AlvinIsai/SlategrayHugeDeletion#main.rb)
 * [christian-ortega's Solution](https://github.com/christian-ortega/hangman) - [View in Repl.it](https://repl.it/@chrisortegax/hangman#lib/hangman.rb)
 * [mistavoga's Solution](https://github.com/mistavoga/hangman)
 * [Sanjana's Solution](https://github.com/error34043/ruby-hangman) - [View in Repl.it](https://repl.it/@error34043/ruby-hangman#main.rb)
