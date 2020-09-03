@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [BBrenes' Solution](https://github.com/BBrenes/youtube-page) - [View in Browser](https://bbrenes.github.io/youtube-page/)
 * [leetie's Solution](https://github.com/leetie/youtube) - [View in Browser](https://leetie.github.io/youtube/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/ytb-clone) - [View in Browser](https://irlgabriel.github.io/ytb-clone/index.html)
 * [Platyphyllum's Solution](https://github.com/marboleda/youtube-page) - [View in Browser](https://marboleda.github.io/youtube-page/)
