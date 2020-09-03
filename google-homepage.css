@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+nav{
+    font-size: 0.9rem;
+    color: black;
+    padding: 0px 3em;
+    height: 8vh;
+}
+nav ul img{
+    display: block;
+    width: 2em;
+    height: auto;
+    opacity: 0.6;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    padding: 1em;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#prijava{
+    background: rgb(21, 116, 179);
+    color: white;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+}
+main img{
+    padding: 12em 0em 3em;
+}
+main form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form input{
+    border: lightgrey 0.2em solid;
+    border-radius: 2em;
+    padding: 1em 2.5em;
+    width: 25vw;
+}
+main form input:focus {
+    outline-width: 0;
+}
+#buttons button{
+    border: none;
+    padding: 0.7em 1em;
+    border-radius: 0.3em;
+    margin: 2em 0.5em;
+}
+main form img{
+    display: block;
+    position: absolute;
+    width: 1.8em;
+    height: auto;
+}
+#search-img{
+    top: 22.3vh;
+    left: 37.8vw;
+    opacity: 0.7;
+}
+#keyboard-img{
+        top: 22.3vh;
+        right: 40vw;
+        opacity: 0.7;
+}
+#mic-img{
+    top: 20.8em;
+    right: 38vw;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 10vh;
+}
+P{
+    font-size: 1.5em;
+    background: lightgrey;
+    padding: 1em 2em;
+    opacity: 0.5;
+
+}
+hr{
+    border: none;
+    height: 0.2em;
+    background: grey;
+    opacity: 0.7;
+}
+footer nav{
+    padding: 0px;
+    background: lightgrey;
+    opacity: 0.5;
+
+
+}
+#left-links{
+    display: flex;
+    position: relative;
+    right: 70vw;
+}
+#right-links{
+    display: flex;
+}
