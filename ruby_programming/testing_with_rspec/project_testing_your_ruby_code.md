@@ -21,7 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* Bassart94's Solution: [Tic-Tac-Toe] https://github.com/bassart94/tic_tac_toe/tree/master/spec
+* Bassart94's Solution: [Tic-Tac-Toe](https://github.com/bassart94/tic_tac_toe/tree/master/spec)
 * Nhleto's Solutions: [Caesar Cipher](https://github.com/nhleto/Caesar-Cipher-Ruby), [Tic-Tac-Toe](https://github.com/nhleto/Tic-Tac-Toe)
 * risanto's Solutions: [Caesar Cipher](https://github.com/risanto/caesar-cipher-testing), [Tic-Tac-Toe](https://github.com/risanto/tic-tac-toe-testing)
 * gogvale's Solutions: [Caesar Cipher](https://github.com/gogvale/RubyCode/blob/master/spec/caesar_cypher_spec.rb), [Tic-Tac-Toe](https://github.com/gogvale/RubyCode/blob/master/spec/ttt_spec.rb)
@@ -163,12 +163,13 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nhleto's Solution](https://github.com/nhleto/Connect-Four)
 * [tenacious-qi's](https://github.com/Tenacious-Qi/connect-four)
 * [James's Solution](https://github.com/jegrieve/TDD_Connect_Four)
 * [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
