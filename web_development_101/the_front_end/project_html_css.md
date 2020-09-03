@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [mmjordan11's Solution (Easy)](https://github.com/mmjordan11/google-homepage) - [View in Browser](https://mmjordan11.github.io/google-homepage/)
+* [Vinu's Solution (Easy)](https://github.com/Vinu-Devaraj/google-homepage) - [View in Browser](https://vinu-devaraj.github.io/google-homepage/)
 * [JesseN619's Solution (Easy)](https://github.com/JesseN619/google-homepage) - [View in Browser](https://jessen619.github.io/google-homepage/)
 * [tranesid's Solution (Easy)](https://github.com/tranesid/google-homepage) - [View in Browser](https://tranesid.github.io/google-homepage/)
 * [Vedant Wankhade's Solution (Easy)](https://github.com/VedantWankhade/google-homepage) - [View in Browser](https://vedantwankhade.github.io/google-homepage/)
