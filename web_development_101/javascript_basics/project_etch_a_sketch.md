@@ -45,7 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [HerrSandybell's Solution](https://github.com/HerrSandybell/etch-a-sketch) - [View in Browser](https://herrsandybell.github.io/etch-a-sketch/)
 * [berubenic's Solution](https://github.com/berubenic/ETCH-A-SKETCH) - [View in Browser](https://gifted-brattain-75baa2.netlify.app/)
+* [Saddam's Solution](https://github.com/5addam/etch-a-sketch) - [View in Browser](https://5addam.github.io/etch-a-sketch/)
 * [simalicrum's Solution](https://github.com/simalicrum/etch-a-sketch) - [View in Browser](https://simalicrum.github.io/etch-a-sketch/)
 * [Bodan's Solution](https://github.com/bodanv/etch-a-sketch) - [View in Browser](https://bodanv.github.io/etch-a-sketch/)
 * [Bubble Monkey's Solution](https://github.com/BubbleMonkey-blip/etch-a-sketch) - [View in Browser](https://bubblemonkey-blip.github.io/etch-a-sketch)
@@ -1274,6 +1276,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Christopher's Solution](https://github.com/christopheralagna/etch-a-sketch) - [View in Browser](https://christopheralagna.github.io/etch-a-sketch/)
 * [Michael's Solution](https://github.com/moinabyssinia/etch-a-sketch) - [View in Browser](https://moinabyssinia.github.io/etch-a-sketch/)
 * [Yog.0's Solution](https://github.com/Yog0/etch-a-sketch)
+* [Caldrun's Solution](https://github.com/caldrun/etch-a-sketch) - [View in Browser](https://caldrun.github.io/etch-a-sketch/)
 * [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/Etch-a-Sketch) - [View in Browser](https://almirbunjaku.github.io/Etch-a-Sketch/)
 * [Almar's Solution](https://github.com/Assetbekov-Almar/DOM) - [View in Browser](https://assetbekov-almar.github.io/)
 * [Culinarytracker's Solution](https://github.com/Culinarytracker/Etch-A-Sketch) - [View in Browser](https://culinarytracker.github.io/Etch-A-Sketch/)
