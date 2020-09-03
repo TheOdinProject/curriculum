@@ -21,7 +21,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
    }
    ~~~
 
-3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
+3. Write a function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it's been read and anything else you might want.
 5. Add a button on each book's display to remove the book from the library.
    1. You will need to associate your DOM elements with the actual book objects in some way. One easy solution is giving them a data-attribute that corresponds to the index of the library array.
@@ -41,6 +41,17 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Andrei Totoro's Solution](https://github.com/AndreiTotoro/library) - [View in Browser](https://andreitotoro.github.io/library/)
+- [dkhole's Solution (w/ localStorage)](https://github.com/dkhole/library) - [View in Browser](https://dkhole.github.io/library/)
+- [rchlkr's Solution](https://github.com/rchlkr/bookshelf) - [View in Browser](https://rchlkr.github.io/bookshelf/)
+- [zainiscoding's Solution](https://github.com/zainiscoding/library) - [View in Browser](https://zainiscoding.github.io/library/)
+- [CoderOO7 Solution (w/ Firebase)](https://github.com/CoderOO7/Digital-library) - [View in Browser](https://coderoo7.github.io/Digital-library/)
+- [Henrich's Solution (w/ localStorage)](https://github.com/janko12345/Library) - [View in Browser](https://janko12345.github.io/Library/)
+- [abumsoo's Solution (with localStorage)](https://github.com/abumsoo/library) - [View in Browser](https://abumsoo.github.io/library)
+- [Strood's Solution (with localStorage)](https://github.com/strood/OPLibrary) - [View in Browser](https://quirky-kilby-5763a3.netlify.app/)
+- [Run After's Solution (with localStorage)](https://github.com/run-after/js-library) - [View in Browser](https://run-after.github.io/js-library/)
+- [Julian Hunt's Solution (w/ Firebase)](https://github.com/julianh65/library_tracker) - [View in Browser](https://javascript-book-tracker.web.app/)
+- [missAlice7's Solution (w/localstorage)](https://github.com/missalice7/studyprojects/tree/master/TOP/Library) - [View in Browser](https://missalice7.github.io/studyprojects/TOP/Library/library.html)
 - [Abhishek Khale's Solution (w/ localstorage)](https://github.com/abkhale17/Library_Js_Odin) - [View in Browser](https://abkhale17.github.io/Library_Js_Odin/)
 - [Rahim Ratnani's Solution (w/ localstorage)](https://github.com/rahimratnani/library) - [View in Browser](https://rahimratnani.github.io/library/)
 - [Cordell's solution (w/ Firebase)](https://github.com/cordellbonnieux/library) - [View in Browser](https://library-36398.web.app/)
@@ -395,5 +406,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Orhan's solution (w/localstorage)](https://github.com/orhanugurlu/the_odin_project/tree/master/library) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/library/index.html)
 - [Kapaha's Solution (w/localstorage)](https://github.com/kapaha/book-library) - [View in Browser](https://kapaha.github.io/book-library/)
 - [Wulfen's Solution (w/localStorage)](https://github.com/wulfenn/library) - [View in Browser](https://wulfenn.github.io/library/)
-
+- [castle429'x Solution](https://github.com/castle429/my-library) - [View in Browser](https://castle429.github.io/my-library/)
+- [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/library) - [View in Browser](https://marvinkeilbach.github.io/library/)
+- [Kenneth H's Solution](https://github.com/kholston/library) - [View in Browser](https://kholston.github.io/library/)
+- [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/LibraryJS) - [View in Browser](https://almirbunjaku.github.io/LibraryJS/)
 </details>
