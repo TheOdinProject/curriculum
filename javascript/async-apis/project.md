@@ -21,6 +21,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Stefan Dili's Solution](https://github.com/dili021/weather-app) - [View in Browser](https://dili021.github.io/weather-app/)
 * [osechi3's Vanilla JS Solution](https://github.com/osechi3/weather-app-vanilla-js) - [View in Browser](https://osechi3.github.io/weather-app-vanilla-js/)
 * [osechi3's Vue Solution](https://github.com/osechi3/weather-app) - [View in Browser](https://osechi3.github.io/weather-app/)
 * [GERRG - Mt. Weather](https://github.com/gerrgg/mount-weather) - [View in Browser](https://gerrgg.github.io/mount-weather/)
