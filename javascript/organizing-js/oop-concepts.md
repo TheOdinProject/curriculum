@@ -52,7 +52,7 @@ In fact - the function `isGameOver` shouldn't be calling the DOM function anyway
 > The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. Both of the following articles mention the acronym __SOLID__ before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like.. but pay special attention to Single Responsibility.
 
 1. Read [This Article](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/).
-2. [This article](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
+2. [This article](https://web.archive.org/web/20170818125612/https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
 3. ..and [one more](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure
 
 
