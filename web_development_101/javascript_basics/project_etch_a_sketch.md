@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Nick's Solution](https://github.com/nmccooey/etch-a-sketch-pro) - [View in Browser](https://nmccooey.github.io/etch-a-sketch-pro/)
 * [isaacrez's Solution](https://github.com/isaacrez/EtchAndSketch)
 * [HerrSandybell's Solution](https://github.com/HerrSandybell/etch-a-sketch) - [View in Browser](https://herrsandybell.github.io/etch-a-sketch/)
 * [berubenic's Solution](https://github.com/berubenic/ETCH-A-SKETCH) - [View in Browser](https://gifted-brattain-75baa2.netlify.app/)
