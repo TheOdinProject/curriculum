@@ -1951,4 +1951,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mickolax's Solution](https://github.com/mickolax/top-rock-paper-scissors)
 - [teshigahara's Solution](https://github.com/teshigahara/rps) - [View in Browser](https://teshigahara.github.io/rps/)
 - [Mohammed's Solution](https://github.com/mohammedvs/consolegame)
+- [Nico Muñoz's Solution](https://github.com/NicoMunoz909/rock-paper-scissors)
 </details>
