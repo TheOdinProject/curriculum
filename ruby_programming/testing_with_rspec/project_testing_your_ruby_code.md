@@ -169,6 +169,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/connect4) - [Play on Repl.it](https://repl.it/@HappyFrog/connect4#README.md)
 * [Sanjana's Solution](https://github.com/error34043/tdd_ruby_connect_four) - [Play on Repl.it](https://tddrubyconnectfour.error34043.repl.run)
 * [Nhleto's Solution](https://github.com/nhleto/Connect-Four)
 * [tenacious-qi's](https://github.com/Tenacious-Qi/connect-four)
@@ -179,7 +180,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 * [Axel Lopez's Solution](https://github.com/lopezaxel/connect-four)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Connect-Four)
 * [Chau Nguyen' Solution](https://github.com/VanQuishi/Connect-Four)
-* [threeaces' Solution](https://github.com/threeaces/connect_4_ruby)  
+* [threeaces' Solution](https://github.com/threeaces/connect_4_ruby)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/connect_four/lib/connect_four.rb)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/connect_four)
 * [Sam Eff's Solution](https://github.com/SamEff/connect_four)
