@@ -155,6 +155,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Chess)
 * [John Johnson's Solution](https://github.com/NotAProgrammerdork/ruby-chess)
 * [tim87henry's Solution](https://github.com/tim87henry/chess)
+* [bhenning83's Solution](https://github.com/bhenning83/chess)
 
 </details>
 
