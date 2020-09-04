@@ -1953,4 +1953,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [teshigahara's Solution](https://github.com/teshigahara/rps) - [View in Browser](https://teshigahara.github.io/rps/)
 - [Mohammed's Solution](https://github.com/mohammedvs/consolegame)
 - [Nico Muñoz's Solution](https://github.com/NicoMunoz909/rock-paper-scissors)
+- [Cornely06's Solution](https://github.com/cornely06/rock-paper-scissors)
 </details>
