@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/ny-times-copy) - [View in Browser](https://irlgabriel.github.io/ny-times-copy/)
 * [Hiro's Solution](https://github.com/hrmtk/nyt-clone) - [View in Browser](https://hrmtk.github.io/nyt-clone/)
 * [Christian's Solution](https://github.com/rueeazy/nyt-clone) - [View in Browser](https://rueeazy.github.io/nyt-clone/)
 * [foolmonkey's Solution](https://github.com/foolmonkey/nyt-clone) - [View in Browser](https://foolmonkey.github.io/nyt-clone/)
