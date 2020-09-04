@@ -24,8 +24,8 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
   7. Write `#inorder`, `#preorder`, and `#postorder` methods that returns an array of values. Each method should traverse the tree in their respective depth-first order.
 
   8. Write a `#height` method which accepts a node and returns its height. Height is defined as the number of edges in longest path from a given node to a leaf node.
-  
-  9. Write a `#depth` method which accepts a node and returns the depth(number of levels) beneath the node.
+
+  9. Write a `#depth` method which accepts a node and returns its depth. Depth is defined as the number of edges in path from a given node to the tree's root node.
 
   10. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
@@ -46,10 +46,10 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
 
 ~~~ruby
-def pretty_print(node = root, prefix="", is_left = true)
-  pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
-  puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
-  pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
+def pretty_print(node = @root, prefix = '', is_left = true)
+  pretty_print(node.right, "#{prefix}#{is_left ? '│   ' : '    '}", false) if node.right
+  puts "#{prefix}#{is_left ? '└── ' : '┌── '}#{node.data}"
+  pretty_print(node.left, "#{prefix}#{is_left ? '    ' : '│   '}", true) if node.left
 end
 ~~~
 
@@ -60,9 +60,17 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hans Oliveira's Solution](https://github.com/hansnery/balanced_binary_search_tree/)
+* [christian-ortega's Solution](https://github.com/christian-ortega/binary_search_tree) - [View in repl.it](https://repl.it/@chrisortegax/binarysearchtree#main.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-binary-search-tree)
+* [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
+* [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
+* [bassart94's Solution](https://repl.it/@bassart94/bst#main.rb)
+* [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/balanced_BST.rb)
 * [Risan's Solution](https://github.com/risanto/ruby-programming/blob/master/14_binary-search-trees.rb)
 * [James's Solution](https://github.com/jegrieve/binary_search_trees)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-bst)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
 * [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
@@ -266,7 +274,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
+<<<<<<< HEAD
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/bst)
+=======
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/bst.rb)
+>>>>>>> b700e039e732b58681eaf6d2d9b3287af2f56c00
 
 </details>
 
@@ -314,10 +326,14 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-knights-travails) - [View in repl.it](https://repl.it/@error34043/ruby-knights-travails#main.rb)
+* [Bassart94's Solution](https://repl.it/@bassart94/knightmoves#main.rb)
 * [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) - [View in repl.it](https://repl.it/@cbpolley/knightstravails)
 * [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
 * [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-knight-travails)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)

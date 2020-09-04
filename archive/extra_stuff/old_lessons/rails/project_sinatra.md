@@ -22,13 +22,13 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* Jmooree30's Solution [Github](https://github.com/jmooree30/sinatra_cipher.git) - [Live](https://desolate-citadel-27669.herokuapp.com/)
+* Jmooree30's Solution [GitHub](https://github.com/jmooree30/sinatra_cipher.git) - [Live](https://desolate-citadel-27669.herokuapp.com/)
 * [Andrew's solution](https://cryptic-stream-18377.herokuapp.com/) - [Source](https://github.com/andrewr224/cipher)
-* Raiko's solution [Github](https://github.com/Cypher0/caesar) - [Live](https://rocky-waters-74257.herokuapp.com/)
-* theghall's solution [Github](https://github.com/theghall/sinatra-caesar) - [Live](https://arcane-temple-35414.herokuapp.com/)
+* Raiko's solution [GitHub](https://github.com/Cypher0/caesar) - [Live](https://rocky-waters-74257.herokuapp.com/)
+* theghall's solution [GitHub](https://github.com/theghall/sinatra-caesar) - [Live](https://arcane-temple-35414.herokuapp.com/)
 * Kasey Z's solution [GitHub](https://github.com/kasey-z/caesar_cipher_reloaded) - [Live](https://hidden-wildwood-20236.herokuapp.com/)
 * Jonathan Yiv's solution [GitHub](https://github.com/JonathanYiv/caesar_cipher) - [Live](https://lit-woodland-76112.herokuapp.com/)
 * jdrobertso's solution [source code](https://github.com/jdrobertso/cipher_site) - [Live](https://hidden-meadow-77860.herokuapp.com/)
@@ -69,7 +69,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Austin's solution [github](https://github.com/CouchofTomato/ceasar_cipher_sinatra) / [see it on the web](https://couch-cipher.herokuapp.com/)
 * Miguel Herrera's solution [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/caesar_cipher)
 * at0micr3d's solution - [github](https://github.com/at0micr3d/sinatra-caesar-cipher) / [see it on the web](https://pure-tundra-73618.herokuapp.com/)
-* Tom Westerhout's solution [Github](https://github.com/Westw00d/Caesar-Cipher) / [see it on the web](http://thawing-headland-68994.herokuapp.com/)
+* Tom Westerhout's solution [GitHub](https://github.com/Westw00d/Caesar-Cipher) / [see it on the web](http://thawing-headland-68994.herokuapp.com/)
 * Jerry Gao's solution [github](https://github.com/blackwright/odin/tree/master/sinatra_caesar_cipher) / [see it on the web](https://caesar-cipher-sinatra.herokuapp.com/)
 * Sophia Wu's solution [github](https://github.com/SophiaLWu/sinatra-caesar-cipher) / [see it on the web](https://shielded-temple-74302.herokuapp.com/)
 * Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
@@ -94,13 +94,13 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
-* Jmooree30's solution (Hangman) [Github](https://github.com/jmooree30/Sinatra_hangman.git) - [Live](https://gentle-waters-29359.herokuapp.com/)
+* Jmooree30's solution (Hangman) [GitHub](https://github.com/jmooree30/Sinatra_hangman.git) - [Live](https://gentle-waters-29359.herokuapp.com/)
 * [Andrew's solution (Mastermind)](https://rocky-wildwood-37033.herokuapp.com/) - [Source](https://github.com/andrewr224/mastermind_reload)
-* Raiko's solution (Mastermind) [Github](https://github.com/Cypher0/mastermind) - [Live](https://damp-brook-36728.herokuapp.com/)
-* theghall's solution (Mastermind) [Github](https://github.com/theghall/sinatra-mastermind) - [Live](https://safe-eyrie-38662.herokuapp.com/)
+* Raiko's solution (Mastermind) [GitHub](https://github.com/Cypher0/mastermind) - [Live](https://damp-brook-36728.herokuapp.com/)
+* theghall's solution (Mastermind) [GitHub](https://github.com/theghall/sinatra-mastermind) - [Live](https://safe-eyrie-38662.herokuapp.com/)
 * Kasey Z's solution (Mastermind) [Source Code](https://github.com/kasey-z/mastermind_reloaded) - [Live](https://frozen-falls-49194.herokuapp.com//)
 * Jonathan Yiv's solution (Hangman) [Source Code](https://github.com/JonathanYiv/hangman) - [Live](https://infinite-river-55923.herokuapp.com/)
 * Clayton Sweeten's solution (Hangman)[source code](https://github.com/cjsweeten101/OdinProjects/tree/master/sinatra/hangman_reloaded) - [Live](https://serene-dusk-67079.herokuapp.com/)
@@ -132,7 +132,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * Austin's solution - Hangman: [github](https://github.com/CouchofTomato/hangman_sinatra) / [see it on the web](https://couch-hangman.herokuapp.com/)
 * Miguel Herrera's solution - Hangman: [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/hangman)
 * at0micr3d's solution - Hangman: [github](https://github.com/at0micr3d/interrobang-man) / [see it on the web](https://sheltered-scrubland-38921.herokuapp.com/)
-* Tom Westerhout's solution - Webguesser: [Github](https://github.com/Westw00d/Web-Guesser) / [see it on the web](http://shrouded-waters-66767.herokuapp.com/)
+* Tom Westerhout's solution - Webguesser: [GitHub](https://github.com/Westw00d/Web-Guesser) / [see it on the web](http://shrouded-waters-66767.herokuapp.com/)
 * Jerry Gao's solution - Hangman: [github](https://blackwright-hangman.herokuapp.com/) / [see it on the web](https://github.com/blackwright/odin/tree/master/sinatra_hangman)
 * Sophia Wu's solution - Hangman: [github](https://github.com/SophiaLWu/sinatra-hangman) / [see it on the web](https://shielded-lowlands-85300.herokuapp.com/)
 * Samuel Langenfeld's solution - Hangman: [github](https://github.com/SamuelLangenfeld/sinatra_hangman) / [see it on the web](http://langenfeld-hangman.herokuapp.com/)

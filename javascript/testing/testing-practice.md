@@ -61,6 +61,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Abdel Perez's Solution](https://github.com/abdelp/test-practice-js)
+- [pklepa's Solution](https://github.com/pklepa/tdd-practice)
 - [Lucio's Solution](https://github.com/JCarlosLucio/testing-practice)
 - [benjamin-gambling's Solution](https://github.com/benjamin-gambling/test-driven-development)
 - [ray0h's Solution](https://github.com/ray0h/TOP-TDDPractice)
@@ -108,5 +110,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Joe Thompson's Solution](https://github.com/jlthompso/js_tests)
 - [Tim Kelly's Solution](https://github.com/timkellytk/project-testing-practice)
 - [Nijepa's Solution](https://github.com/nijepa/testing-practice)
+- [Chandra's Solution](https://github.com/CodeSurfer3022/testing-practice)
 </details>
 

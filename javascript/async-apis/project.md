@@ -21,6 +21,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Phillip Musiime's Solution](https://github.com/PhillipUg/weather-app) - [View in Browser](https://phillipug.github.io/weather-app/)
+* [Stefan Dili's Solution](https://github.com/dili021/weather-app) - [View in Browser](https://dili021.github.io/weather-app/)
+* [osechi3's Vanilla JS Solution](https://github.com/osechi3/weather-app-vanilla-js) - [View in Browser](https://osechi3.github.io/weather-app-vanilla-js/)
+* [osechi3's Vue Solution](https://github.com/osechi3/weather-app) - [View in Browser](https://osechi3.github.io/weather-app/)
+* [GERRG - Mt. Weather](https://github.com/gerrgg/mount-weather) - [View in Browser](https://gerrgg.github.io/mount-weather/)
+* [Christopher Amanor's Vanilla JS Solution](https://github.com/krys2fa/weather-app) - [View in Browser](https://bit.ly/2D1RTAv)
+* [nearmint's Angular Solution](https://github.com/nearmint/weather-app-angular) - [View in Browser](https://nearmint.github.io/weather-app-angular/)
+* [Abdel Perez's Solution](https://github.com/abdelp/weather-app) - [View in Browser](https://weather-app-4562.web.app)
 * [Lucio's React Solution](https://github.com/JCarlosLucio/weather-app) - [View in Browser](https://lucio-weather-app.netlify.app/)
 * [pklepa's React Solution](https://github.com/pklepa/weather-app) - [View in Browser](https://pklepa.github.io/weather-app/)
 * [miknick's React Solution](https://github.com/miknick/React-Weather-App) - [View in Browser](https://miknick.github.io/React-Weather-App/)
@@ -125,4 +133,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [jooji-san's Solution](https://github.com/jooji-san/weather-app) - [View in Browser](https://jooji-san.github.io/weather-app/)
 * [themetar's Solution](https://github.com/themetar/Weather-App) - [View in Browser](https://themetar.github.io/Weather-App/)
 * [Chandra's React Solution](https://github.com/CodeSurfer3022/Weather---React) - [View in Browser](https://codesurfer3022.github.io/Weather---React/)
+* [Matyd's React Solution](https://github.com/MatyD356/weather-app/tree/master) - [View in Browser](https://matyd356.github.io/weather-app/)
 </details>

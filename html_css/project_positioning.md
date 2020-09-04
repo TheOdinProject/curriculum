@@ -11,22 +11,25 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 
 <div class="lesson-content__panel" markdown="1">
 1. Go to [the NYT article in question](http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) and have a look around.
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 6. Set up the top navigation bar (again, don't worry about making it change when you scroll down the page).  How can you get it to stick to the top of the page as you scroll down?
 7. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
-8. Push your solution to Github.
+8. Push your solution to GitHub.
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github [repo](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_positioning.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the GitHub [repo](https://github.com/TheOdinProject/curriculum/blob/master/html_css/project_positioning.md) with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/ny-times-copy) - [View in Browser](https://irlgabriel.github.io/ny-times-copy/)
+* [Hiro's Solution](https://github.com/hrmtk/nyt-clone) - [View in Browser](https://hrmtk.github.io/nyt-clone/)
+* [Christian's Solution](https://github.com/rueeazy/nyt-clone) - [View in Browser](https://rueeazy.github.io/nyt-clone/)
 * [foolmonkey's Solution](https://github.com/foolmonkey/nyt-clone) - [View in Browser](https://foolmonkey.github.io/nyt-clone/)
 * [hnguye's Solution](https://github.com/hnguye/nyt-article-clone) - [View in Browser](https://hnguye.github.io/nyt-article-clone/)
 * [Lamia Sristy's Solution](https://github.com/LamiaSristy/NYT-Clone) - [View in Browser](https://rawcdn.githack.com/LamiaSristy/nytimes-clone/7d2a29e01ee9a7318f301de67f95a5e568b3ee5b/index.html)
@@ -145,7 +148,7 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [Carlos Del Real's and Gabriela Cruz's Solution](https://github.com/ViriCruz/positioning-and-floating-elements) - [View in Browser](https://viricruz.github.io/positioning-and-floating-elements/)
 * [Halkim's Solution](https://github.com/halkim44/nytimes-article-rebuild) - [View in Browser](https://halkim44.github.io/nytimes-article-rebuild/)
 * [Halkim's Solution](https://github.com/aronfischer/NYT-article) - [View in Browser](https://aronfischer.github.io/NYT-article/)
-* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT) 
+* [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/scratch/tree/master/css_NYT)
 * [0xtaf's Solution](https://github.com/0xtaf/css-nyt) - [View in Browser](https://0xtaf.github.io/css-nyt/)
 * [Scott Bowles's Solution](https://github.com/scottBowles/nyt-article-layout-clone) - [View in Browser](https://scottbowles.github.io/nyt-article-layout-clone/)
 * [Adriel Bruno's Solution](https://github.com/AdrielTrigger/top-nyt-page-clone) - [View in Browser](https://adrieltrigger.github.io/top-nyt-page-clone/)
@@ -160,6 +163,9 @@ Send us your solution so we can show others! Submit a link to the Github [repo](
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/NY-Times-Article) - [View in Browser](https://ansellmaximilian.github.io/NY-Times-Article/)
 * [Kenneth H's Solution](https://github.com/kholston/nytimes) - [View in Browser](https://kholston.github.io/nytimes/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/positioning_n_floating_elements)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_nytclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_nytclone/)
+* [Mickey's Solution](https://github.com/Daidelos/Space-Ripples) - [View in Browser](https://daidelos.github.io/Space-Ripples/)
+* [Nijepa's Solution](https://github.com/nijepa/positioning-and-floating-elements) - [View in Browser](https://nijepa.github.io/positioning-and-floating-elements/)
 </details>
 
 ### Additional Resources
