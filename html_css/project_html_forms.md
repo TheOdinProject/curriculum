@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/html-forms) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/mint-sign-up) - [View in Browser](https://irlgabriel.github.io/mint-sign-up/)
 * [Andrew's Solution](https://github.com/a6macleod/mint.com-signup-replica) - [View in Browser](https://a6macleod.github.io/mint.com-signup-replica/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/signup-form) - [View in Browser](https://shammadahmed.github.io/signup-form/)
