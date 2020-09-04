@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/tnw-clone) - [View in Browser](https://rueeazy.github.io/tnw-clone/)
 * [hgnuye's Solution](https://github.com/hnguye/tmw-clone) - [View in Browser](https://hnguye.github.io/tmw-clone/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/responsive-design-practice-ulysses) - [View in Browser](https://ideopunk.github.io/responsive-design-practice-ulysses/)
 * [Run After's Solution](https://github.com/run-after/mock-the-next-web) - [View in Browser](https://run-after.github.io/mock-the-next-web/)
@@ -120,6 +121,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [bhenning's Solution](https://github.com/bhenning83/TNW-magazine) - [View in Browser](https://bhenning83.github.io/TNW-magazine/)
 * [Timework's Solution](https://github.com/Timework/responsive-design) - [View in Browser](https://timework.github.io/responsive-design/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/responsive_design)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_responsivedesign) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_responsivedesign/)
 </details>
 
 ### Additional Resources

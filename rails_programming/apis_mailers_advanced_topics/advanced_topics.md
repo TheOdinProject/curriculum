@@ -55,7 +55,7 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 ...compared with the plural version of the same route:
 
 ~~~bash
-  edit_post  GET /posts/:id/edit(.:format)  posts#edit
+  edit_dashboard  GET /dashboards/:id/edit(.:format)  dashboards#edit
 ~~~
 
 ### Nested Routes
