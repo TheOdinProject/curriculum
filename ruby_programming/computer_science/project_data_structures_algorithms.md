@@ -60,6 +60,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hans Oliveira's Solution](https://github.com/hansnery/balanced_binary_search_tree/)
+* [christian-ortega's Solution](https://github.com/christian-ortega/binary_search_tree) - [View in repl.it](https://repl.it/@chrisortegax/binarysearchtree#main.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-binary-search-tree)
 * [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
 * [bassart94's Solution](https://repl.it/@bassart94/bst#main.rb)
@@ -271,6 +274,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/bst.rb)
 
 </details>
 
@@ -318,6 +322,9 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-knights-travails) - [View in repl.it](https://repl.it/@error34043/ruby-knights-travails#main.rb)
+* [Bassart94's Solution](https://repl.it/@bassart94/knightmoves#main.rb)
 * [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) - [View in repl.it](https://repl.it/@cbpolley/knightstravails)
 * [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
