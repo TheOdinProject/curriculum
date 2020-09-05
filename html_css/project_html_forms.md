@@ -22,7 +22,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Tien Tai's Solution](https://github.com/JBenjaminn/Mint-signup-page-clone) - [View in Browser](https://jbenjaminn.github.io/Mint-signup-page-clone/
+* [Tien Tai's Solution](https://github.com/JBenjaminn/Mint-signup-page-clone) - [View in Browser](https://jbenjaminn.github.io/Mint-signup-page-clone/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/mint-sign-up) - [View in Browser](https://irlgabriel.github.io/mint-sign-up/)
 * [Andrew's Solution](https://github.com/a6macleod/mint.com-signup-replica) - [View in Browser](https://a6macleod.github.io/mint.com-signup-replica/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/signup-form) - [View in Browser](https://shammadahmed.github.io/signup-form/)
