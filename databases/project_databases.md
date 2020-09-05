@@ -108,6 +108,7 @@ If you've been keeping track of the SQL Zoo solutions, [put them here!](https://
 * [Hyperturing's solution](https://github.com/hyperturing/SQLZoo/tree/master/SQLZoo)
 * [fussykyloren's Solution](https://github.com/fussykyloren/sql-zoo)
 * [Toothless's Solution](https://github.com/Toothless2/SQL-Zoo-Solutions)
+* [tim87henry's Solution](https://github.com/tim87henry/SQLZoo)
 
 </details>
 

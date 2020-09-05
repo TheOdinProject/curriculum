@@ -25,6 +25,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Strood's Solution](https://github.com/strood/TOPTicTacToe) - [View in Browser](https://strood.github.io/TOPTicTacToe/)
+- [Cristian's Solution (w/ Random AI)](https://github.com/1063551/TicTacToe) - [View in Browser](https://1063551.github.io/TicTacToe/)
 - [Run After's Solution](https://github.com/run-after/js-tic-tac-toe) - [View in Browser](https://run-after.github.io/js-tic-tac-toe/)
 - [Abhishek Khale's Solution](https://github.com/abkhale17/Tic-Tac-Toe_JS_odin) - [View in Browser](https://abkhale17.github.io/Tic-Tac-Toe_JS_odin/)
 - [dkhole's Solution (w/ AI)](https://github.com/dkhole/tic-tac-toe) - [View in Browser](https://dkhole.github.io/tic-tac-toe/)
