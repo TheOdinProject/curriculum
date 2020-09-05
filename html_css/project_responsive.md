@@ -27,6 +27,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/responsive-website-project) - [View in Browser](https://irlgabriel.github.io/responsive-website-project/)
 * [Christian's Solution](https://github.com/rueeazy/tnw-clone) - [View in Browser](https://rueeazy.github.io/tnw-clone/)
 * [hgnuye's Solution](https://github.com/hnguye/tmw-clone) - [View in Browser](https://hnguye.github.io/tmw-clone/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/responsive-design-practice-ulysses) - [View in Browser](https://ideopunk.github.io/responsive-design-practice-ulysses/)
