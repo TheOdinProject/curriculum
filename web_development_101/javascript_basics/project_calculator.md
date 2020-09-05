@@ -45,9 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Ryan's solution](https://github.com/rjbullough/calculator) - [View in Browser](https://rjbullough.github.io/calculator/)
-- [Dion's solution](https://github.com/dioncdz/Simple-calculator) - [View in Browser](https://dioncdz.github.io/Simple-calculator/)
-- [jtdevuk's solution](https://github.com/jtdevuk/calculator) - [View in Browser](https://jtdevuk.github.io/calculator/)
+- [MatMammen's Solution](https://github.com/MatMammen/Calculator) - [View in Browser](https://matmammen.github.io/Calculator)
+- [Ryan's Solution](https://github.com/rjbullough/calculator) - [View in Browser](https://rjbullough.github.io/calculator/)
+- [Dion's Solution](https://github.com/dioncdz/Simple-calculator) - [View in Browser](https://dioncdz.github.io/Simple-calculator/)
+- [jtdevuk's Solution](https://github.com/jtdevuk/calculator) - [View in Browser](https://jtdevuk.github.io/calculator/)
+- [David's Solution](https://github.com/david-88/calculator) - [View in Browser](https://david-88.github.io/calculator/)
+- [Bryson's Solution](https://github.com/bruceboy7/calculator) - [View in Browser](https://bruceboy7.github.io/Calculator/)
 - [adam-goodrich's Solution](https://github.com/adam-goodrich/calculator) - [View in Browser](https://adam-goodrich.github.io/calculator/)
 - [simalicrum's Solution](https://github.com/simalicrum/calculator) - [View in Browser](https://simalicrum.github.io/calculator/)
 - [rajdeepdev10's Solution](https://github.com/rajdeepdev10/calculator) - [View in Browser](https://rajdeepdev10.github.io/calculator/)
