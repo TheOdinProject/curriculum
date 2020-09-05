@@ -8,7 +8,7 @@ Navigating this process can be a beast but don't let it distract you from buildi
 
 ### Craft a Narrative
 
-You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, that doesn't mean acting like a used car salesman; it's more subtle than you think.  It really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling an unavoidable wave of capability and drive.
+You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, that doesn't mean acting like a used car salesman; it's more subtle than you think.  It really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling and unavoidable wave of capability and drive.
 
 * [How to Explain Your Career Transition by Dorie Clark](http://dorieclark.com/how-to-explain-your-career-transition/)
 

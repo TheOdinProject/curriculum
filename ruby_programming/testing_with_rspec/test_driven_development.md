@@ -42,4 +42,4 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 </div>
 
 ### Additional Resources
-* [These excersises from Thoughtbot](https://thoughtbot.com/upcase/testing) will give you a wide understanding of test driven development
+* [These exercises from Thoughtbot](https://thoughtbot.com/upcase/testing) will give you a wide understanding of test driven development
