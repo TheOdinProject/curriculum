@@ -95,6 +95,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [kloba1004's Solution (Easy)](https://github.com/kloba1004/google-homepage) - [View in Browser](https://kloba1004.github.io/google-homepage/)
+* [TJ647's Solution (Easy)](https://github.com/tj647.github.io/google-homepage/) - [View in Browser](https://tj647.github.io/google-homepage/)
+* [unotreal's Solution (Easy)](https://github.com/unotreal/google-homepage) - [View in Browser](https://unotreal.github.io/google-homepage/)
+* [diogofcr's Solution (Easy)](https://github.com/diogofcr/google-homepage) - [View in Browser](https://diogofcr.github.io/google-homepage/)
+* [Sabrina's Solution (Easy)](https://github.com/SabrinaWi/google-homepage) - [View in Browser](https://sabrinawi.github.io/google-homepage/)
 * [yosraemad's Solution (Difficult)](https://github.com/yosraemad/google-homepage-clone) - [View in Browser](https://yosraemad.github.io/google-homepage-clone/)
 * [rhiannonthompson's Solution (Easy)](https://github.com/rhiannonthompson/google-homepage) - [View in Browser](https://rhiannonthompson.github.io/google-homepage/)
 * [Jacob's Solution (Easy)](https://jacobgiordano.github.io/google-homepage/) - [View in Browser](https://jacobgiordano.github.io/google-homepage/)
