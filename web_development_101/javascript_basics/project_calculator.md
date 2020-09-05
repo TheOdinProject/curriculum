@@ -45,7 +45,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [MatMammen's Solution](https://github.com/MatMammen/Calculator) - [View in Browser](https://matmammen.github.io/Calculator)
 - [Sanjana's solution](https://github.com/error34043/calculator) - [View in Browser](https://error34043.github.io/calculator/)
 - [ThorOnTheRocks' Solution](https://github.com/ThorOnTheRocks/calculator) - [View in Browser](https://thorontherocks.github.io/calculator/)
