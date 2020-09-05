@@ -120,7 +120,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Braxton Massengale's Solution](https://github.com/BraxMassengale/caesar-cipher-ruby/blob/master/main.rb)
 * [Nick DiPreta's Solution](https://github.com/NickDiPreta/caesar/blob/master/caesar.rb)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Ruby_Building_Blocks/blob/master/caesar.rb)
-* [Marianne's Solution](https://github.com/marisnner7/odin_project)
+* [Marianne's Solution](https://github.com/marisnner7/odin_project/blob/master/cease_cipher/lib/cease_cipher.rb)
 * [Hans Oliveira's Solution](https://github.com/hansnery/caesar_cipher/blob/master/caesar_cipher.rb)
 * [threeaces' Solution](https://github.com/threeaces/odin_ruby_basic_projects/blob/master/caesar_cipher.rb)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/caesar-cipher.rb)
