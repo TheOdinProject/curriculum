@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [braddefauw's Solution](https://github.com/braddefauw/etch-a-sketch) - [View in Browser](https://braddefauw.github.io/etch-a-sketch/)
+* [Kn0wn-Un's Solution](https://github.com/Kn0wn-Un/etchasketch) - [View in Browser](https://kn0wn-un.github.io/etchasketch/)
+* [teshigahara's Solution](https://github.com/teshigahara/etch-a-sketch) - [View in Browser](https://teshigahara.github.io/etch-a-sketch/)
+* [Nick's Solution](https://github.com/nmccooey/etch-a-sketch-pro) - [View in Browser](https://nmccooey.github.io/etch-a-sketch-pro/)
 * [isaacrez's Solution](https://github.com/isaacrez/EtchAndSketch)
 * [HerrSandybell's Solution](https://github.com/HerrSandybell/etch-a-sketch) - [View in Browser](https://herrsandybell.github.io/etch-a-sketch/)
 * [berubenic's Solution](https://github.com/berubenic/ETCH-A-SKETCH) - [View in Browser](https://gifted-brattain-75baa2.netlify.app/)
@@ -1286,4 +1290,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Fusako's Solution](https://github.com/fusakoo/etch-a-sketch) - [View in Browser](https://fusakoo.github.io/etch-a-sketch/)
 * [timcbarnes's Solution](https://github.com/timcbarnes/etch-a-sketch) - [View in Browser](https://timcbarnes.github.io/etch-a-sketch/)
 * [kphopkins' Solution](https://github.com/kphopkins/etch-a-sketch) - [View in Browser](https://kphopkins.github.io/etch-a-sketch/)
+* [amangang3 Solution](https://github.com/amangang3/etch_a_sketch) - [View in Browser](https://amangang3.github.io/etch_a_sketch/)
+* [Vitace's Solution](https://github.com/vfonsah/etch-a-sketch/) - [View in Browser](https://vfonsah.github.io/etch-a-sketch/)
 </details>

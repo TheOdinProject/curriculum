@@ -480,6 +480,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [LamiaSristy's](https://github.com/LamiaSristy/Enumerables) - [View Demo](https://repl.it/@lamiasristy/MyEnumerableRuby#main.rb)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/enumerable) - [View Demo](https://repl.it/@Acushla/Enumerable)
 * [Hasan's Solution](https://github.com/ozovalihasan/enumerable) - [View Demo](https://repl.it/github/ozovalihasan/enumerable)
 * [Guillaume Occuly's Solution](https://github.com/GuillaumeOcculy/TheOdinProject/blob/master/enumerable_methods/enumerable_methods.rb)
