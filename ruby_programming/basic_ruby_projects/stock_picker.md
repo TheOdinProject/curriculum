@@ -27,6 +27,22 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+*[Cbhaugen's Solution](https://github.com/cbhaugen/stock_picker)
+* [urbanassa53's Solution](https://github.com/urbanassa53/StockPicker/blob/master/stock_picker.rb)
+* [RedBoy910's Solution](https://github.com/RedBoy910/RubyStockPicker)
+* [jtdevuk's Solution](hhttps://github.com/jtdevuk/stock_picker)
+* [mthsgrc's Solution](https://github.com/mthsgrc/stock_picker/blob/master/stock_picker.rb)
+* [paulotijero's Solution](https://github.com/paulotijero/stock-picker)
+* [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/stock_picker.rb)
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/stock_picker/blob/master/stock_picker.rb)
+* [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Stock-Picker.rb)
+* [Lucasdonuts' Solution](https://github.com/lucasdonuts/ruby_stock_picker)
+* [Spike's Solution](https://github.com/superspike7/stock-picker/blob/master/main.rb)
+* [An0therHuman's Solution](https://github.com/An0therHuman/Ruby_Programing/blob/master/stock_picker.rb)
+* [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-stock-picker/blob/master/stock-picker.rb)
+* [wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/stock-picker)
+* [Sanjana's Solution](https://github.com/error34043/TOP_Ruby_Projects/blob/master/stockpicker.rb)
+* [nguyenjessev's Solution](https://github.com/nguyenjessev/stock-picker)
 * [freeflow13's Solution](https://github.com/freeflow13/ruby_solutions/blob/master/stocks.rb)
 * [Sizwe Malobola's Solution](https://github.com/SizweMalobola/Ruby_Projects/blob/master/stock_picker.rb)
 * [Kckat's Solution](https://github.com/kckat/basic-ruby-projects/blob/master/stock-picker.rb)
@@ -536,7 +552,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tomstrat's Solution](https://github.com/tomstrat/stock_picker)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Stock-Picker/blob/master/stocks.rb)
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/stock_picker.rb)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/stock-picker)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
@@ -561,5 +576,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/blob/master/stock_picker.rb)
 * [vongk97's Solution](https://github.com/vongk97/ruby/blob/master/stock_picker.rb)
 * [brentguf's Solution](https://github.com/brentguf/stock-picker/blob/master/script.rb)
+* [Christopher's Solution](https://github.com/christopheralagna/ruby-practice/blob/master/stock_picker.rb)
 * [robertompfm's Solution](https://github.com/robertompfm/stock-picker-ruby/blob/master/stock_picker.rb)
+* [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/stock_picker/main.rb)
 </details>
