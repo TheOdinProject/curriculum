@@ -274,12 +274,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
-<<<<<<< HEAD
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/bst)
-=======
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/bst.rb)
->>>>>>> b700e039e732b58681eaf6d2d9b3287af2f56c00
-
 </details>
 
 ### Project 2: Knight's Travails
@@ -532,6 +528,4 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/knights_travels.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/knights_travails.rb)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/knighttravail)
-
-
 </details>
