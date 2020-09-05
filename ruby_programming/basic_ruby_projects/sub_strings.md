@@ -37,10 +37,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 
 * Add your solution below this line!
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-basics/blob/master/substrings.rb)
 * [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Caesar-Cipher.rb)
 =======
+=======
+
+>>>>>>> 26b962a52325d82f1c65dde33197809ce2b0514c
 * [urbanassa53's Solution](https://github.com/urbanassa53/SubStringCounter/blob/master/substrings.rb)
+* [Cbhaugen's Solution](https://github.com/cbhaugen/sub-strings/blob/master/sub-strings.rb)
 * [RedBoy910's Solution](https://github.com/RedBoy910/RubySubstring/blob/master/substring.rb)
 * [mthsgrc's Solution](https://github.com/mthsgrc/substrings/blob/master/substring.rb)
 * [paulotijero's Solution](https://github.com/paulotijero/substrings)
