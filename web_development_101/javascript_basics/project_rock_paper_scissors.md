@@ -41,8 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [derekholland's solutin ] (https://github.com/derekholland/rockpaperscissors) 
-- [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/rock-paper-scissors.html) - [View in browser](https://theghost1980.github.io/google-homepage/rock-paper-scissors.html)
+- [derekholland's Solution](https://github.com/derekholland/rockpaperscissors) 
+- [Mhdez221993 Solution](https://github.com/Mhdez221993/Moises-Hdez-s-solution.git)
+- [theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/rock-paper-scissors.html) - [View in browser](https://theghost1980.github.io/google-homepage/rock-paper-scissors.html)
 - [ribeiro-dev's Solution](https://github.com/ribeiro-dev/rock-paper-scissors) 
 - [Chezynick's Solution](https://github.com/chezynick/rockpaper) - [View in Browser](https://chezynick.github.io/rockpaper/)
 - [Mehcoder42's Solution](https://github.com/mehcoder42/Rock-Paper-Scissors-Easy) - [View in Browser](https://mehcoder42.github.io/Rock-Paper-Scissors-Easy/)
