@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+[fernandopaz1's solution](https://github.com/fernandopaz1/library) - - [View in Browser](https://fernandopaz1.github.io/library/)
 [Alex Karyasov's solution](https://github.com/AlexKaryasov/odin-library-projec) - - [View in Browser](https://alexkaryasov.github.io/odin-library-projec/)
 - [Andrei Totoro's Solution](https://github.com/AndreiTotoro/library) - [View in Browser](https://andreitotoro.github.io/library/)
 - [dkhole's Solution (w/ localStorage)](https://github.com/dkhole/library) - [View in Browser](https://dkhole.github.io/library/)
