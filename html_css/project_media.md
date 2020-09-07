@@ -223,7 +223,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
 * [Jonathan Altine's Solution](https://github.com/JonathanAltine/YoutubeVideoPage) - [View in Browser](https://jonathanaltine.github.io/YoutubeVideoPage/)
 * [skwiryt's Solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_youtubeclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_youtubeclone/)
-
+* [Chandra's Solution](https://github.com/CodeSurfer3022/SeaTube) - [View in Browser](https://codesurfer3022.github.io/SeaTube/)
 </details>
 
 ### Additional Resources

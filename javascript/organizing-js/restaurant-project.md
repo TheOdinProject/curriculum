@@ -256,4 +256,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [sacchan9's Solution](https://github.com/sacchan9/restaurant-page) - [View in Browser](https://sacchan9.github.io/restaurant-page/)
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/restaurant-page) - [View in Browser](https://marvinkeilbach.github.io/restaurant-page/)
 - [hazigabriel's Solution](https://github.com/hazigabriel/restaurant-page) - [View in Browser](https://hazigabriel.github.io/restaurant-page/)
+- [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View In Browser](https://wulfenn.github.io/restaurant/)
 </details>
