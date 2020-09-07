@@ -36,6 +36,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [AFurrow's Solution](https://github.com/Afurrow/ruby-basics/blob/master/substrings.rb)
+* [urbanassa53's Solution](https://github.com/urbanassa53/SubStringCounter/blob/master/substrings.rb)
+* [Cbhaugen's Solution](https://github.com/cbhaugen/sub-strings/blob/master/sub-strings.rb)
+* [RedBoy910's Solution](https://github.com/RedBoy910/RubySubstring/blob/master/substring.rb)
+* [mthsgrc's Solution](https://github.com/mthsgrc/substrings/blob/master/substring.rb)
+* [paulotijero's Solution](https://github.com/paulotijero/substrings)
+* [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/substrings.rb)
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/sub_strings/blob/master/sub_strings.rb)
 * [Lucasdonuts' Solution](https://github.com/lucasdonuts/ruby_substrings)
 * [Spike's Solution](https://github.com/superspike7/sub_string/blob/master/main.rb)
 * [jtdevuk's Solution](https://github.com/jtdevuk/sub_strings)
@@ -547,7 +555,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Substrings)
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/substrings.rb)
 * [c-squared87's Solution](https://github.com/c-squared87/basic-ruby-projects-TOP/blob/master/substrings.rb)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/substrings)
 * [Vuyani’s Solution](https://github.com/vuyanir/substrings)
 * [meganeb-afk's Solution](https://github.com/meganeb-afk/Substring)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/substrings.rb)

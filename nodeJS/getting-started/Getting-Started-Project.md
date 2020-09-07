@@ -100,4 +100,7 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [RoopSai's Solution](https://github.com/sroopsai/basic-information-site) - [View in Browser](https://basic-information-site.roopsai.repl.co/)
 - [elijahjorell's Solution](https://github.com/elijahjorell/the-odin-project/tree/master/node.js/projects/basic-informational-site)
 - [Nijepa's Solution](https://github.com/nijepa/basic-informational-site) - [View in Browser](https://basic-informational-site.nijepa.repl.co/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/node-first-project) - [View in Browser](https://TOP-Node-First-Project.40percentzinc.repl.co)
+- [nodonut's Solution](https://github.com/nodonut/TOP_basic_information_site)
+
 </details>

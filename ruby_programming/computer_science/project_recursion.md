@@ -16,6 +16,9 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Richard's Solution](https://github.com/RichardDenton/ruby_fibs)
+* [christian-ortega's Solution](https://github.com/christian-ortega/fibonacci) - [View in Repl.it](https://repl.it/@chrisortegax/fibonacci#fibonacci.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-fibonacci)
 * [Hans Oliveira's Solution](https://github.com/hansnery/fibonacci_ruby/blob/master/fibonacci_ruby.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/fibonacci)
 * [Blessing Jackson's Solution](https://github.com/blessja/Fibonacci/blob/master/fibonacci.rb)
@@ -311,6 +314,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/merge_sort) - [View in Repl.it](https://repl.it/@chrisortegax/mergesort#merge_sort.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-mergesort)
 * [Hans Oliveira's Solution](https://github.com/hansnery/merge_sort/blob/master/merge_sort.rb)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/merge-sort)
 * [nhleto's Solution](https://github.com/nhleto/Recursion-Practice/blob/master/Merge_Sort.rb)
