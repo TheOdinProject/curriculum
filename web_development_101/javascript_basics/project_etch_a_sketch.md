@@ -1293,4 +1293,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [kphopkins' Solution](https://github.com/kphopkins/etch-a-sketch) - [View in Browser](https://kphopkins.github.io/etch-a-sketch/)
 * [amangang3 Solution](https://github.com/amangang3/etch_a_sketch) - [View in Browser](https://amangang3.github.io/etch_a_sketch/)
 * [Vitace's Solution](https://github.com/vfonsah/etch-a-sketch/) - [View in Browser](https://vfonsah.github.io/etch-a-sketch/)
+* [yiyuanyi's Solution](https://github.com/yiyuanyi/etch-a-sketch) - [View in Browser](https://yiyuanyi.github.io/etch-a-sketch/)
 </details>
