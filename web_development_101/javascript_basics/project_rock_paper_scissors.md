@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Agathasta's Solution](https://github.com/agathasta/rock-paper-scissors) - [View in Browser](https://agathasta.github.io/rock-paper-scissor/)
 - [AtomicChocolate's Solution](https://github.com/AtomicChocolate/rock-paper-scissors) - [View in Browser](https://atomicchocolate.github.io/rock-paper-scissors/)
 - [derekholland's Solution](https://github.com/derekholland/rockpaperscissors) 
 - [Mhdez221993 Solution](https://github.com/Mhdez221993/Moises-Hdez-s-solution.git)
@@ -62,7 +63,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [reinimax's Solution](https://github.com/reinimax/rock-paper-scissors)
 - [Veríssimo's Solution](https://github.com/vec21/Rock-Paper-Scissors) - [View in Browser](https://vec21.github.io/Rock-Paper-Scissors/)
 - [Chintan Bhomia's Solution](https://github.com/cnbhomia/rock-paper-scissor)
-- [Agathasta's Solution](https://github.com/agathasta/rock-paper-scissors)
 - [Nick's Solution](https://github.com/nmccooey/rock-paper-scissors-classic) - [View in Browser](https://nmccooey.github.io/rock-paper-scissors-classic/)
 - [AntwuanDixon's Solution](https://github.com/AntwuanDixon/rick-pickle-morty) - [View in Browser](https://antwuandixon.github.io/rick-pickle-morty/)
 - [Requeim00's Solution](https://github.com/Requiem00/Rock-Paper-Scissors-Game) - [View in Browser](https://requiem00.github.io/Rock-Paper-Scissors-Game/)
