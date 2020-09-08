@@ -103,5 +103,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Nijepa's Solution](https://github.com/nijepa/basic-informational-site) - [View in Browser](https://basic-informational-site.nijepa.repl.co/)
 - [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/node-first-project) - [View in Browser](https://TOP-Node-First-Project.40percentzinc.repl.co)
 - [nodonut's Solution](https://github.com/nodonut/TOP_basic_information_site)
+- [erinborders's Solution - View in Browser](https://repl.it/@erinborders/SimpleNodeServer)
 
 </details>
