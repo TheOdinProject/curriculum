@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [irlgabriel's Solution](https://github.com/irlgabriel/js-library-project) - [View in Browser](https://javascript-book-library.web.app/)
 - [clml59i's Solution](https://github.com/clml59i/library-odin) - [View in Browser](https://clml59i.github.io/library-odin/)
 - [fernandopaz1's Solution](https://github.com/fernandopaz1/library) - [View in Browser](https://fernandopaz1.github.io/library/)
 - [Alex Karyasov's Solution](https://github.com/AlexKaryasov/odin-library-projec) - [View in Browser](https://alexkaryasov.github.io/odin-library-projec/)
