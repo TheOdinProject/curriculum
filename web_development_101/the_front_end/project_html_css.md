@@ -113,7 +113,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Sabrina's Solution (Easy)](https://github.com/SabrinaWi/google-homepage) - [View in Browser](https://sabrinawi.github.io/google-homepage/)
 * [yosraemad's Solution (Difficult)](https://github.com/yosraemad/google-homepage-clone) - [View in Browser](https://yosraemad.github.io/google-homepage-clone/)
 * [rhiannonthompson's Solution (Easy)](https://github.com/rhiannonthompson/google-homepage) - [View in Browser](https://rhiannonthompson.github.io/google-homepage/)
-* [Jacob's Solution (Easy)](https://jacobgiordano.github.io/google-homepage/) - [View in Browser](https://jacobgiordano.github.io/google-homepage/)
+* [Jacob's Solution (Easy)](https://github.com/JacobGiordano/google-homepage) - [View in Browser](https://jacobgiordano.github.io/google-homepage/)
 * [Emmanuel Effi's Solution (Easy)](https://github.com/EmmanuelEffi/google-homepage) - [View in Browser](http://effisgoogle.ml/)
 * [ChrisJGuard's Solution (Easy)](https://github.com/ChrisJGuard/google-homepage) - [View in Browser](https://chrisjguard.github.io/google-homepage/)
 * [mmjordan11's Solution (Easy)](https://github.com/mmjordan11/google-homepage) - [View in Browser](https://mmjordan11.github.io/google-homepage/)
