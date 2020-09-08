@@ -289,4 +289,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/tic-tac-toe) - [View in Browser](https://marvinkeilbach.github.io/tic-tac-toe/)
 - [Wulfen's Solution (with minimax)](https://github.com/wulfenn/tictactoe/) - [View in Browser](https://wulfenn.github.io/tictactoe/)
 - [kluceycose's Solution](https://github.com/kluceycose/tic-tac-toe) - [View in Browser](https://kluceycose.github.io/tic-tac-toe)
+- [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/TicTacToeJS) - [View in Browser](https://almirbunjaku.github.io/TicTacToeJS/)
 </details>
