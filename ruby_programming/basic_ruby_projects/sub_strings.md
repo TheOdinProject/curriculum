@@ -36,14 +36,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-basics/blob/master/substrings.rb)
-* [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Caesar-Cipher.rb)
-=======
-=======
-
->>>>>>> 26b962a52325d82f1c65dde33197809ce2b0514c
 * [urbanassa53's Solution](https://github.com/urbanassa53/SubStringCounter/blob/master/substrings.rb)
 * [Cbhaugen's Solution](https://github.com/cbhaugen/sub-strings/blob/master/sub-strings.rb)
 * [RedBoy910's Solution](https://github.com/RedBoy910/RubySubstring/blob/master/substring.rb)
@@ -51,7 +44,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [paulotijero's Solution](https://github.com/paulotijero/substrings)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/substrings.rb)
 * [NicolasArayaB's Solution](https://github.com/NicolasArayaB/sub_strings/blob/master/sub_strings.rb)
->>>>>>> a19f9f3de15798cdc666cc5330f3cbfb8949458a
 * [Lucasdonuts' Solution](https://github.com/lucasdonuts/ruby_substrings)
 * [Spike's Solution](https://github.com/superspike7/sub_string/blob/master/main.rb)
 * [jtdevuk's Solution](https://github.com/jtdevuk/sub_strings)

@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [LamiaSristy's Solution](https://github.com/LamiaSristy/youtube-videoplayerpage) - [View in Browser](https://raw.githack.com/LamiaSristy/youtube-videoplayerpage/master/index.html)
 * [pudu87's Solution](https://github.com/pudu87/youtube-videoplayer-page) - [View in Browser](https://pudu87.github.io/youtube-videoplayer-page/)
 * [BBrenes' Solution](https://github.com/BBrenes/youtube-page) - [View in Browser](https://bbrenes.github.io/youtube-page/)
 * [leetie's Solution](https://github.com/leetie/youtube) - [View in Browser](https://leetie.github.io/youtube/)
