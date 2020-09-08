@@ -36,7 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Vedvardhan 's Solution] (https://github.com/ved08/practicing-node-modules) - [View in Browser](https://ved08-practicing-node-modules.glitch.me/)
+- [Vedvardhan 's Solution](https://github.com/ved08/practicing-node-modules) - [View in Browser](https://ved08-practicing-node-modules.glitch.me/)
 - [charliefinos's Solution](https://github.com/charlyfinos/basic-informational-site)
 - [Charles Ivia's Solution](https://github.com/CharlesIvia/info-site)
 - [benajamin-gambling's Solution](https://github.com/benjamin-gambling/NodeJS/tree/master/basic-info-site)
