@@ -413,4 +413,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Kenneth H's Solution](https://github.com/kholston/library) - [View in Browser](https://kholston.github.io/library/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/LibraryJS) - [View in Browser](https://almirbunjaku.github.io/LibraryJS/)
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/library) - [View in Browser](https://sanyogitapandit.github.io/library/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_library) - [View in Browser](https://icepick-pauly.github.io/top_javascript_library/#)
 </details>
