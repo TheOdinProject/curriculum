@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [berghdavid's Solution (Easy)](https://github.com/berghdavid/Google-lookalike) - [View in Browser](https://berghdavid.github.io/Google-lookalike/)
 * [lrwthns's Solution (Easy)](https://github.com/lrwthns/google-homepage) - [View in Browser](https://lrwthns.github.io/google-homepage/)
 * [Christine's Solution (Easy)](https://github.com/galleryofplaces/google-homepage) - [View in Browser](https://galleryofplaces.github.io/google-homepage/)
 * [FranekB's Solution (Easy)](https://github.com/FranekB/google-homepage) - [View in Browser](https://franekb.github.io/google-homepage/)
