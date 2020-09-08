@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [clml59i's Solution](https://github.com/clml59i/library-odin) - [View in Browser](https://clml59i.github.io/library-odin/)
 - [fernandopaz1's Solution](https://github.com/fernandopaz1/library) - [View in Browser](https://fernandopaz1.github.io/library/)
 - [Alex Karyasov's Solution](https://github.com/AlexKaryasov/odin-library-projec) - [View in Browser](https://alexkaryasov.github.io/odin-library-projec/)
 - [Andrei Totoro's Solution](https://github.com/AndreiTotoro/library) - [View in Browser](https://andreitotoro.github.io/library/)
@@ -412,4 +413,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/library) - [View in Browser](https://marvinkeilbach.github.io/library/)
 - [Kenneth H's Solution](https://github.com/kholston/library) - [View in Browser](https://kholston.github.io/library/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/LibraryJS) - [View in Browser](https://almirbunjaku.github.io/LibraryJS/)
+- [Sanyogita's Solution](https://github.com/SanyogitaPandit/library) - [View in Browser](https://sanyogitapandit.github.io/library/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_library) - [View in Browser](https://icepick-pauly.github.io/top_javascript_library/#)
 </details>

@@ -96,6 +96,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [lrwthns's Solution (Easy)](https://github.com/lrwthns/google-homepage) - [View in Browser](https://lrwthns.github.io/google-homepage/)
+* [Christine's Solution (Easy)](https://github.com/galleryofplaces/google-homepage) - [View in Browser](https://galleryofplaces.github.io/google-homepage/)
+* [FranekB's Solution (Easy)](https://github.com/FranekB/google-homepage) - [View in Browser](https://franekb.github.io/google-homepage/)
 * [RyanzpLee's Solution (Easy)](https://github.com/RyanzpLee/google-homepage) - [View in Browser](https://ryanzplee.github.io/google-homepage/)
 * [CaptianCustard's Solution (Easy)](https://github.com/CaptianCustard/google_homepage) - [View in Browser](https://captiancustard.github.io/google_homepage/)
 * [reinimax's Solution (Easy)](https://github.com/reinimax/google-homepage) - [View in Browser](https://reinimax.github.io/google-homepage/)
@@ -4266,6 +4268,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Melissa's Solution (Easy)](https://github.com/sugarapplespice/google-homepage) - [View in Browser](https://sugarapplespice.github.io/google-homepage/)
 * [TheScurvyPirate's Solution (Easy)](https://github.com/TheScurvyPirate/odin-google-homepage) - [View in Browser](https://thescurvypirate.github.io/odin-google-homepage/)
 * [Buddie's Solution (Easy)](https://github.com/BuddieChapman/google-homepage) - [View in Browser](https://buddiechapman.github.io/google-homepage/)
+* [Austin's Solution (Easy)](https://github.com/austinbhan/google-homepage) - [View in Browser](https://austinbhan.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
