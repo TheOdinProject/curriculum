@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 - [simalicrum's Solution](https://github.com/simalicrum/library) - [View in Browser](https://simalicrum.github.io/library/)
+- [Christian's Solution (w/ Firebase)](https://github.com/rueeazy/js-library) - [View in Browser](https://rueeazy.github.io/js-library/)
 - [cotrones's Solution](https://github.com/cotrones/library) - [View in Browser](https://cotrones.github.io/library/)
 - [irlgabriel's Solution](https://github.com/irlgabriel/js-library-project) - [View in Browser](https://javascript-book-library.web.app/)
 - [clml59i's Solution](https://github.com/clml59i/library-odin) - [View in Browser](https://clml59i.github.io/library-odin/)
