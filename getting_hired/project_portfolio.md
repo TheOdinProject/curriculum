@@ -15,6 +15,8 @@ Remember to write some documentation for both technical and non-technical audien
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
 ### Design Inspirations
+A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
+
 <details markdown="block">
   <summary> Links for designs </summary>
 
@@ -26,7 +28,7 @@ Remember to write some documentation for both technical and non-technical audien
   * [Ben Adam](https://benadam.me/)
   * [Seb Kay](https://sebkay.com/)
   * [Jonny MacEachern](https://jonny.me/)
-  * [Jack Jeznach](jacekjeznach.com)
+  * [Jack Jeznach](https://jacekjeznach.com/)
   * [Matthew Talebi](https://oneux.co/)
   * [Andriy Chemerynskiy](https://andrewchmr.com/)
   * [Chris Ota's Portfolio](https://www.otadesigns.com/)
@@ -41,8 +43,6 @@ Remember to write some documentation for both technical and non-technical audien
   * [Luis Krötz](https://luiskr.com/)
   * [Leonid Kostetckyi](https://lk.emotion-agency.com/)
   * [Alex Madeira](https://www.alexmadeira.com.br/)
-
-
 </details>
 
 
