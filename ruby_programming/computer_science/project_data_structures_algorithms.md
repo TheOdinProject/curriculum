@@ -60,12 +60,17 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hans Oliveira's Solution](https://github.com/hansnery/balanced_binary_search_tree/)
+* [christian-ortega's Solution](https://github.com/christian-ortega/binary_search_tree) - [View in repl.it](https://repl.it/@chrisortegax/binarysearchtree#main.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-binary-search-tree)
+* [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/binary-search-tree)
 * [bassart94's Solution](https://repl.it/@bassart94/bst#main.rb)
 * [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/balanced_BST.rb)
 * [Risan's Solution](https://github.com/risanto/ruby-programming/blob/master/14_binary-search-trees.rb)
 * [James's Solution](https://github.com/jegrieve/binary_search_trees)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-bst)
 * [Evelyn's Solution](https://github.com/evive82/Odin-Project-Binary-Search-Tree)
 * [Aaron's Solution](https://github.com/Aaron-McD/binary-search-tree)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/binary-search-trees)
@@ -264,12 +269,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/binary_search_tree.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/bst_2.rb)
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
-
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/bst)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/bst.rb)
 </details>
 
 ### Project 2: Knight's Travails
@@ -316,10 +321,14 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
+* [Sanjana's Solution](https://github.com/error34043/ruby-knights-travails) - [View in repl.it](https://repl.it/@error34043/ruby-knights-travails#main.rb)
+* [Bassart94's Solution](https://repl.it/@bassart94/knightmoves#main.rb)
 * [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/knights_travails.rb) - [View in repl.it](https://repl.it/@cbpolley/knightstravails)
 * [James's Solution](https://github.com/jegrieve/Knight-s_Travails)
 * [Aaron's Solution](https://github.com/Aaron-McD/knight-travails)
+* [Sthavir's Solution](https://github.com/sthavm/ruby-knight-travails)
 * [Kfollen93's Solution](https://github.com/Kfollen93/Knights_Travails)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/knights-travails)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/knight_travails)
@@ -512,10 +521,9 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/knight_moves.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
 * [msespos's Solution](https://github.com/msespos/knights-travails)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/knights_travels.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/knights_travails.rb)
-
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/knighttravail)
 </details>
