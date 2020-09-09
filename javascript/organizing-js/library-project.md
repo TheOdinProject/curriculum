@@ -419,4 +419,5 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/library) - [View in Browser](https://sanyogitapandit.github.io/library/)
 - [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_library) - [View in Browser](https://icepick-pauly.github.io/top_javascript_library/#)
 - [terraxus94's Solution](https://github.com/terraxus94/top-library) - [View in Browser](https://terraxus94.github.io/top-library/)
+- [robertompfm's Solution (w/firebase)](https://github.com/robertompfm/library) - [View in Browser](https://robertompfm.github.io/library/)
 </details>
