@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [pudu87's Solution](https://github.com/pudu87/intuit-signup-page) - [View in Browser](https://pudu87.github.io/intuit-signup-page/)
 * [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/html-forms) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
 * [Tien Tai's Solution](https://github.com/JBenjaminn/Mint-signup-page-clone) - [View in Browser](https://jbenjaminn.github.io/Mint-signup-page-clone/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/mint-sign-up) - [View in Browser](https://irlgabriel.github.io/mint-sign-up/)

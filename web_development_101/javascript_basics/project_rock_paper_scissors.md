@@ -42,6 +42,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [Jaime Ortiz's Solution](https://github.com/codingXwolf/rock-paper-scissors) - [View in Brownser](https://codingxwolf.github.io/rock-paper-scissors/)
+- [FranekB's Solution](https://github.com/FranekB/rock-paper-scissors)
+- [Animesh's Solution](https://github.com/AnimeshRy/rock-paper-scissors-js)
 - [Vedvardhan 's Solution](https://github.com/ved08/rock-paper-scissor) - [View in Browser](https://ved08.github.io/rock-paper-scissor/)
 - [Christine's Solution](https://github.com/galleryofplaces/Rock-Paper-Scissors) - [View in Browser](https://galleryofplaces.github.io/Rock-Paper-Scissors/)
 - [Agathasta's Solution](https://github.com/agathasta/rock-paper-scissors) - [View in Browser](https://agathasta.github.io/rock-paper-scissor/)
@@ -1960,8 +1962,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [mickolax's Solution](https://github.com/mickolax/top-rock-paper-scissors)
 - [teshigahara's Solution](https://github.com/teshigahara/rps) - [View in Browser](https://teshigahara.github.io/rps/)
 - [Mohammed's Solution](https://github.com/mohammedvs/consolegame)
-- [Nico Muñoz's Solution](https://github.com/NicoMunoz909/rock-paper-scissors)
+- [Nico Muñoz's Solution](https://github.com/NicoMunoz909/rock-paper-scissors) - [View in Browser](https://nicomunoz909.github.io/rock-paper-scissors/)
 - [Cornely06's Solution](https://github.com/cornely06/rock-paper-scissors)
 - [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/rock-paper-scissors) - [View in Browser](https://jorgeeab-jz.github.io/rock-paper-scissors/)
-- [clormor's Solution](https://github.com/clormor/rock-paper-scissor)
+- [clormor's Solution](https://github.com/clormor/rock-paper-scissors) - [View in Browser](https://clormor.github.io/rock-paper-scissors/)
+- [skaman647's Solution](https://github.com/skaman647/rock-paper-scissors.git)
 </details>
