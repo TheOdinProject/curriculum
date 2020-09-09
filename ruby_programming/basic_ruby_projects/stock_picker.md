@@ -27,6 +27,17 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [AFurrow's Solution](https://github.com/Afurrow/ruby-basics/blob/master/stock_picker.rb)
+* [Cbhaugen's Solution](https://github.com/cbhaugen/stock_picker)
+* [urbanassa53's Solution](https://github.com/urbanassa53/StockPicker/blob/master/stock_picker.rb)
+* [RedBoy910's Solution](https://github.com/RedBoy910/RubyStockPicker)
+* [jtdevuk's Solution](hhttps://github.com/jtdevuk/stock_picker)
+* [mthsgrc's Solution](https://github.com/mthsgrc/stock_picker/blob/master/stock_picker.rb)
+* [paulotijero's Solution](https://github.com/paulotijero/stock-picker)
+* [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/stock_picker.rb)
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/stock_picker/blob/master/stock_picker.rb)
+* [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Ruby-Projects/Basic-Projects/Stock-Picker.rb)
+* [Lucasdonuts' Solution](https://github.com/lucasdonuts/ruby_stock_picker)
 * [Spike's Solution](https://github.com/superspike7/stock-picker/blob/master/main.rb)
 * [An0therHuman's Solution](https://github.com/An0therHuman/Ruby_Programing/blob/master/stock_picker.rb)
 * [Kjell's Solution](https://github.com/kjell-fjeldsaunet/top-stock-picker/blob/master/stock-picker.rb)
@@ -542,7 +553,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tomstrat's Solution](https://github.com/tomstrat/stock_picker)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Stock-Picker/blob/master/stocks.rb)
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/stock_picker.rb)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/stock-picker)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/stock-picker.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/stock_picker.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/caesar-cipher-ruby/blob/master/stock-picker.rb)
