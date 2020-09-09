@@ -291,4 +291,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [kluceycose's Solution](https://github.com/kluceycose/tic-tac-toe) - [View in Browser](https://kluceycose.github.io/tic-tac-toe)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/TicTacToeJS) - [View in Browser](https://almirbunjaku.github.io/TicTacToeJS/)
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/TicTacToe) - [View in Browser](https://sanyogitapandit.github.io/TicTacToe/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_tictactoe) - [View in Browser](https://icepick-pauly.github.io/top_javascript_tictactoe/)
 </details>
