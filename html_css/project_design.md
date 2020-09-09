@@ -35,6 +35,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/smashing-copy) - [View in Browser](https://irlgabriel.github.io/smashing-copy/)
+* [Hiro's Solution](https://github.com/hrmtk/smashing-magazine-heat-map) - [View in Browser](https://hrmtk.github.io/smashing-magazine-heat-map/)
 * [Hammad Ahmed's Solution](https://www.figma.com/file/xN814tFqcEjaZXJLyCv9ZV/Smashing-Magazine-Article-Page-Design-Teardown-Project?node-id=0%3A1)
 * [hgnuye's Solution](https://github.com/hnguye/design-teardown) - [View in Browser](https://hnguye.github.io/design-teardown/)
 * [Christian's Solution](https://github.com/rueeazy/smashing-design-teardown) - [View in Browser](https://rueeazy.github.io/smashing-design-teardown/)

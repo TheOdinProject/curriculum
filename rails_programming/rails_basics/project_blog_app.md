@@ -24,6 +24,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Spark's Blog Source Code - Soultion](https://github.com/Sparking2/Ruby_blog_app) - [Online app](https://guarded-chamber-08936.herokuapp.com/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/blogger)
 * [Witah Georjane's Solution](https://github.com/Georjane/My_Blog_App) - [View in Browser](https://jane-blog.herokuapp.com/)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/blogger) - [View in Browser](https://nameless-earth-65585.herokuapp.com/)
