@@ -14,7 +14,7 @@ Remember to write some documentation for both technical and non-technical audien
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
-### Design Inspirations
+### Show Designs
 A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
 
 <details markdown="block">
