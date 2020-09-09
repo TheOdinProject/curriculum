@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [GraceSchwar's Solution (w/ localStorage)](https://github.com/GraceSchwar/Project-Library) - [View in Browser](https://graceschwar.github.io/Project-Library/)
 - [Christian's Solution (w/ Firebase)](https://github.com/rueeazy/js-library) - [View in Browser](https://rueeazy.github.io/js-library/)
 - [cotrones's Solution](https://github.com/cotrones/library) - [View in Browser](https://cotrones.github.io/library/)
 - [irlgabriel's Solution](https://github.com/irlgabriel/js-library-project) - [View in Browser](https://javascript-book-library.web.app/)
