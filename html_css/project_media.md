@@ -35,6 +35,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [LamiaSristy's Solution](https://github.com/LamiaSristy/youtube-videoplayerpage) - [View in Browser](https://raw.githack.com/LamiaSristy/youtube-videoplayerpage/master/index.html)
 * [pudu87's Solution](https://github.com/pudu87/youtube-videoplayer-page) - [View in Browser](https://pudu87.github.io/youtube-videoplayer-page/)
 * [BBrenes' Solution](https://github.com/BBrenes/youtube-page) - [View in Browser](https://bbrenes.github.io/youtube-page/)
 * [leetie's Solution](https://github.com/leetie/youtube) - [View in Browser](https://leetie.github.io/youtube/)
@@ -222,7 +223,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
 * [Jonathan Altine's Solution](https://github.com/JonathanAltine/YoutubeVideoPage) - [View in Browser](https://jonathanaltine.github.io/YoutubeVideoPage/)
 * [skwiryt's Solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_youtubeclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_youtubeclone/)
-
+* [Chandra's Solution](https://github.com/CodeSurfer3022/SeaTube) - [View in Browser](https://codesurfer3022.github.io/SeaTube/)
 </details>
 
 ### Additional Resources
