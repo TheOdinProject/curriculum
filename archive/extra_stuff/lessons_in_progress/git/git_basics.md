@@ -33,13 +33,13 @@ To get a good high-level overview of Git plus a series of how-to commands and ex
 * Why is Git useful for a developer?
 * Why is Git useful for a team of developers?
 * How do you create a new Git repository for a project locally?
-* How do you create it on Github?
+* How do you create it on GitHub?
 * How do you commit changes?
 * What is the difference between staging and committing changes?
-* What is the difference between committing your changes and pushing them to Github?
+* What is the difference between committing your changes and pushing them to GitHub?
 * How do you check the status of your current repo in git?
 * How do you see the history of your previous commits (from the command line)?
-* How can you look through your historical commits on the Github website?
+* How can you look through your historical commits on the GitHub website?
 * What is a "Merge"?
 * What is a "Pull Request"?
 * What is "Forking" a repo?
@@ -47,7 +47,7 @@ To get a good high-level overview of Git plus a series of how-to commands and ex
 
 ## Assignment:
 
-1. If you haven't already, watch the following videos (which were linked in the post above as well) from [Github's Youtube Channel](http://www.youtube.com/GitHubGuides):
+1. If you haven't already, watch the following videos (which were linked in the post above as well) from [GitHub's YouTube Channel](http://www.youtube.com/GitHubGuides):
     
     1. [Git Basics #1: What is VCS?](http://www.youtube.com/watch?v=8oRjP8yj2Wo) will introduce you to version control for developers.
     2. [Git Basics #2: What is Git?](http://www.youtube.com/watch?v=uhtzxPU7Bz0) will start getting a bit more into a Git workflow.

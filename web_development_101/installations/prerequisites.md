@@ -24,7 +24,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of versions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso "Xubuntu Download Link"). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
+There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 18.04](http://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso "Xubuntu Download Link"). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
 
 ### Step 2: Install VirtualBox and set up Xubuntu
 
@@ -105,14 +105,14 @@ While your VM is running, do the following steps:
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to.
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
   7. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
   8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
   11. Double-click on the CD icon on the VM desktop.
   12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
-  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter. You will know it is finished when it asks you to close the window.
+  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   14. Once it finishes, close the terminal and the CD folder.
   15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
   16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).

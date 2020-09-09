@@ -6,7 +6,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 
 <div class="lesson-content__panel" markdown="1">
 1. Go to [newsweek.com](http://www.newsweek.com) and have a look around.
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Add Bootstrap to your project by following the instructions at [GetBootstrap.com](http://getbootstrap.com/getting-started/).  Use the examples on that page as templates for how to organize your page.
@@ -14,7 +14,7 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 6. Set up the top title and navigation bar.
 6. Work your way down the page by filling in and positioning the additional sections.
 7. Try resizing the browser to see if it mimics the behavior of the real Newsweek homepage.
-7. Push your solution to Github.
+7. Push your solution to GitHub.
 </div>
 
 ### Student Solutions
@@ -25,7 +25,20 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [irlgabriel's Solution](https://github.com/irlgabriel/bootstrap-project) - [View in Browser](https://irlgabriel.github.io/bootstrap-project/)
+* [Christian's Solution](https://github.com/rueeazy/newsweek-clone) - [View in Browser](https://rueeazy.github.io/newsweek-clone/)
+* [foolmonkey's Solution](https://github.com/foolmonkey/newsweek-bootstrap-clone) - [View in Browser](https://foolmonkey.github.io/newsweek-bootstrap-clone/)
+* [hnguye's Solution](https://github.com/hnguye/newsweek-clone) - [View in Browser](https://hnguye.github.io/newsweek-clone/)
+* [Run After's Solution](https://github.com/run-after/mock-newsweek) - [View in Browser](https://run-after.github.io/mock-newsweek/)
+* [Alex Zambrano's Solution](https://github.com/Alexoid1/News-Week-Clone) - [View in Browser](https://alexoid1.github.io/News-Week-Clone/)
+* [Kevin Alves's Solution](https://github.com/kevdeveloper/newsweek-clone) - [View in Browser](https://rawcdn.githack.com/kevinfrontend/newsweek-clone/2cd0c4217d7504395e455bfe0148943eab94d238/index.html)
+* [descholar's Solution](https://github.com/descholar-ceo/newsweek-bootstrap) - [View in Browser](https://ecstatic-yalow-bb0786.netlify.app/)
+* [Yigit's Solution](https://github.com/yigitm/Newsweek) - [View in Browser](https://yigitm.github.io/Newsweek/)
+* [Ahmad Chata's Solution](https://github.com/ahmadchata/newsweek) - [View in Browser](https://ahmadchata.github.io/newsweek/)
+* [Witah Georjane's Solution](https://github.com/Georjane/Newsweek) - [View in Browser](https://rawcdn.githack.com/Georjane/Newsweek/5047e3a88c6b5c9defc4140e64e845b0e7383496/index.html)
+* [Christopher Amanor's Solution](https://github.com/krys2fa/newsweek-clone) - [View in Browser](https://rawcdn.githack.com/krys2fa/newsweek-clone/16b2015d1e65b0e3410ed5fd9c751619f5a92a1b/index.html)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/newsweek) - [View in Browser](https://acushlakoncept.github.io/newsweek/)
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/Newsweek-clone) - [View in Browser](https://haroonabdulrazaq.github.io/Newsweek/)
 * [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/newsweek-bootstrap) - [View in Browser](https://kaliberpoziomka.github.io/newsweek-bootstrap/)
 * [Rarysson's Solution](https://github.com/rarysson/newsweek-clone) - [View in Browser](https://rarysson.github.io/newsweek-clone/)
 * [Estela's Solution](https://github.com/estelajimero/using-bootstrap/) - [View in Browser](https://estelajimero.github.io/using-bootstrap/)
@@ -88,7 +101,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Halkim's solution](https://github.com/halkim44/newsweek.com_clone) - [View in Browser](https://halkim44.github.io/newsweek.com_clone/)
 * [Hamohuh's solution](https://github.com/hamohuh/newsmagazine) - [View in Browser](https://hamohuh.github.io/newsmagazine/)
 * [ranmaru22's solution](https://github.com/ranmaru22/the_odin_project/tree/master/newsweek-clone) - [View in Browser](https://ranmaru22.github.io/the_odin_project/newsweek-clone/)
-
+* [barrysweeney's Solution](https://github.com/barrysweeney/bootstrap-news-site-clone) - [View in Browser](https://barrysweeney.github.io/bootstrap-news-site-clone/)
+* [mangakiko's Solution](https://github.com/magakiko/newsweek) - [View in Browser](https://magakiko.github.io/newsweek/)
+* [bhenning83's Solution](https://github.com/bhenning83/newsweek) - [View in Browser](https://bhenning83.github.io/newsweek/)
+* [Timework's Solution](https://github.com/Timework/newsweek-bootstrap) - [View in Browser](https://timework.github.io/newsweek-bootstrap/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/using-bootstrap)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_newsweekclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_newsweekclone/)
 </details>
 
 ### Additional Resources

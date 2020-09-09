@@ -8,11 +8,11 @@ Copy your favorite website as well as you can.  Pinterest, Facebook, Twitter... 
 
 Of course, you can't copy every single feature and a lot of the user interface will be a bit clunkier, but you can get yourself 80% of the way there.  And that's darn impressive.
 
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 1. Think about what you'll need to do to get this all working together.  This is where it's really helpful to think it completely through on paper or whiteboard ahead of time!  A few hours of thought here will save you from wasting days of coding.  Try to lay it ALL out.  An important part of this is scope -- you obviously can't build the entire website (which presumably took a full team of engineers years to produce), so you'll need to identify the core functionality of the site and then the "nice-to-have" stuff.  **Make sure you will finish building the core functionality BEFORE starting to add on the rest.** If you try to do it all at once, you'll get lost and frustrated.  Trust me.  Everything takes longer than you expect.
 2. Build it!
 2. Try testing the very high level Javascript and Rails functionality with Jest and RSpec respectively.  Don't get too bogged down in testing, but try and save yourself time by adding high level tests so you don't need to click around 100 times every time you make a change to something that seems important.
-3. Once you've finished, push to Github and definitely submit your project below!
+3. Once you've finished, push to GitHub and definitely submit your project below!
 </div>
 
 **Congratulations!**
@@ -24,15 +24,22 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* nmac's solution: [frontend](https://github.com/nmacawile/rails-chat), [backend](https://github.com/nmacawile/rails-chat-api) - [View in browser](https://nmacawile.github.io/rails-chat)
-* [Gregthepeg's](https://github.com/gregthepeg4/instagram) - [View in browser](https://insteadgram1.herokuapp.com/users/sign_in)
-* [Brock McElroy's solution](https://github.com/brxck/castaway) - [View in browser](http://castaway.brockmcelroy.com)
-* [Jack Wong's solution](https://github.com/iamjackslayer/odin-chat) - [View in browser](https://odin-chat.herokuapp.com)
-* [Axel's solution](https://github.com/afuh/pinstagram) - [View in browser](https://pinstagram-app.herokuapp.com/)
-* [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
-* [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) - [View in browser](http://lesson-scheduler.herokuapp.com/)
-* [Areeba's solution](https://github.com/ribaishtiaq/Chablie) - [View in browser](https://chablie.herokuapp.com)
-* [barrysweeney's solution](https://github.com/barrysweeney/topify) - [View in browser](https://clever-lamport-50d143.netlify.app/)
+* [Juan Oxmar's Solution - Tweeter (Twitter Clone)](https://github.com/juanoxmar/tweeter) - [View in Browser](https://juanoxmar.github.io/tweeter/)
+* [Rizwan's Solution - Pinterest Clone(Firebase Backend)](https://github.com/xRizwan/pinterest-clone) - [View in Browser](https://xrizwan.github.io/pinterest-clone/)
+* [Sher's Solution - Breddit (Reddit Clone)](https://github.com/sher-s7/reddit-clone) - [View in Browser](https://reddit-clone-a7ea1.web.app/)
+* [Julio's Solution - Letterboxd clone](https://github.com/julio22b/movie-app-frontend) - [View in Browser](https://letterboxd-film.herokuapp.com/)
+* [Jdonahue135's Solution (NodeJS/Express Backend)](https://github.com/jdonahue135/odin-twitter) - [View in Browser](https://afternoon-fjord-78280.herokuapp.com/home)
+* [jcbbb's Solution - Twitter Dooom](https://github.com/jcbbb/project-twitter) - [View in Browser](https://juraev.codes)
+* nmac's Solution: [Frontend](https://github.com/nmacawile/rails-chat), [Backend](https://github.com/nmacawile/rails-chat-api) - [View in Browser](https://nmacawile.github.io/rails-chat)
+* [Gregthepeg's Solution](https://github.com/gregthepeg4/instagram) - [View in Browser](https://insteadgram1.herokuapp.com/users/sign_in)
+* [Brock McElroy's Solution](https://github.com/brxck/castaway) - [View in Browser](http://castaway.brockmcelroy.com)
+* [Jack Wong's Solution](https://github.com/iamjackslayer/odin-chat) - [View in Browser](https://odin-chat.herokuapp.com)
+* [Axel's Solution](https://github.com/afuh/pinstagram) - [View in Browser](https://pinstagram-app.herokuapp.com/)
+* [Donald's Solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in Browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
+* [David Chapman's Solution](https://github.com/davidchappy/lesson-scheduler) - [View in Browser](http://lesson-scheduler.herokuapp.com/)
+* [Areeba's Solution](https://github.com/ribaishtiaq/Chablie) - [View in Browser](https://chablie.herokuapp.com)
+* [barrysweeney's Solution](https://github.com/barrysweeney/topify) - [View in Browser](https://clever-lamport-50d143.netlify.app/)
+* [Kokozord's Solution - Reddit Clone](https://github.com/Kokozord/the-oddit-project) - [View in Browser](https://the-oddit-project.herokuapp.com/)
 </details>
 
 ### Additional Resources

@@ -2,7 +2,7 @@
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
 
-You'll be building Facebook.  As usual, any additional styling will be up to you but the really important stuff is to get the data and back end working properly.  You'll put together some of the core features of the platform -- users, profiles, "friending", posts, news feed, and "liking".  You'll also implement sign-in with the real Facebook by using Omniauth and Devise.
+You'll be building Facebook.  As usual, any additional styling will be up to you but the really important stuff is to get the data and back end working properly.  You'll put together some of the core features of the platform -- users, profiles, "friending", posts, news feed, and "liking".  You'll also implement sign-in with the real Facebook by using OmniAuth and Devise.
 
 Some features of Facebook we haven't yet been exposed to -- for instance chat, realtime updates of the newsfeed, and realtime notifications.  You won't be responsible for creating those unless you'd like to jump ahead and give it a shot.
 
@@ -12,12 +12,12 @@ Build Facebook!  You'll build a large portion of the core Facebook user function
 
 You should write at least a basic set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up (e.g. testing that `User.first.posts` works properly).  Run them continuously in the background with [Guard](https://github.com/guard/guard) (See the [Ruby on Rails Tutorial Chapter 3.7.3](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages#sec-guard)).
 
-This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website.  You'll need to read through the documentation on Github for some of the gems you'll be using.
+This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website.  You'll need to read through the documentation on GitHub for some of the gems you'll be using.
 
 Keep the following requirements in mind.  We'll cover specific steps to get started below this list:
 
 <div class="lesson-content__panel" markdown="1">
-1. Use Postgresql for your database from the beginning (not sqlite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails4) for setup info.
+1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails4) for setup info.
 2. Users must sign in to see anything except the sign in page.
 3. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 4. Users can send Friend Requests to other Users.
@@ -31,7 +31,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 12. Users can create a Profile with a Photo.
 13. The User Show page contains their Profile information, photo, and Posts.
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
-15. Sign in should use [Omniauth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
+15. Sign in should use [OmniAuth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
 16. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
 17. Deploy your App to Heroku.
 18. Set up the [SendGrid add-on](https://devcenter.heroku.com/articles/sendgrid) and start sending real emails. It's free for low usage tiers.
@@ -46,28 +46,39 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 #### Getting Started
 
 1. Think through the data architecture required to make this work.  There are a lot of models and a lot of associations, so take the time to plan out your approach.
-2. Build the new postgresql rails app `$ rails new odin-facebook --database=postgresql`, initialize the Git repo, and update the README to link back to this page.
+2. Build the new PostgreSQL Rails app `$ rails new odin-facebook --database=postgresql`, initialize the Git repo and update the README to link back to this page.
 3. Work your way down the list above!  Each step will involve a new challenge but you've got the tools.
 4. You can populate data like users and posts using the [Faker](https://github.com/stympy/faker) gem, which is basically just a library of sample names and emails.  It may just be easier, though, for you to write your own seeds in the `db/seeds.rb` file, which gets run if you type `$ rake db:seed`.
 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-facebook) - [View in browser](http://ruby-facebook.herokuapp.com/)
-* [robomonk's Solution](https://github.com/robo-monk/zuccr) - [View in browser](https://zuccr.herokuapp.com/)
-* [Ian's Solution](https://github.com/IanMKesler/facebook-clone) - [View in browser](https://immense-sierra-65246.herokuapp.com/)
-* [MephistoDevelop & Sergio Diaz Solution](https://github.com/MephistoDevelop/fakebook/tree/master) - [View in browser](https://socialbook2019.herokuapp.com/users/sign_in)
-* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [Live](https://murmuring-wave-95625.herokuapp.com/)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/odin-facebook) - [View in Browser](https://afternoon-mesa-12157.herokuapp.com)
+* [pudu87's Solution](https://github.com/pudu87/odin-facebook) - [View in Browser](https://polar-stream-93232.herokuapp.com/)
+* [irlgabriel's Solution](https://github.com/irlgabriel/facebook-odin) - [View in Browser](https://whispering-bayou-85275.herokuapp.com/)
+* [CodingCop's Solution](https://github.com/cleve703/phacebook) - [View in Browser](https://arcane-fortress-15399.herokuapp.com/)
+* [leeti's Solution](https://github.com/leetie/spacecrook) - [View in Browser](https://whispering-everglades-16718.herokuapp.com)
+* [Duarte's Solution](https://github.com/Duartemartins/odin-facebook) - [View in Browser](http://www.salushub.club)
+* [Christian's Solution](https://github.com/rueeazy/odin_facebook) - [View in Browser](https://arcane-wildwood-51354.herokuapp.com/)
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/odinbook) - [View in Browser](https://ovsjazz-odinbook.herokuapp.com/users/sign_in)
+* [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-feignbook) - [View in Browser](https://feignbook.herokuapp.com/)
+* [Jason Thompson's Solution](https://github.com/jasont01/odin-facebook) - [View in Browser](https://odin-fauxbook.herokuapp.com/)
+* [Run After's Solution](https://github.com/run-after/odinbook) - [View in Browser](https://blooming-shore-50178.herokuapp.com/)
+* [Jose Salvador's Solution](https://github.com/Jsalvadorpp/odin-facebook) - [View in Browser](http://ruby-facebook.herokuapp.com/)
+* [robomonk's Solution](https://github.com/robo-monk/zuccr) - [View in Browser](https://zuccr.herokuapp.com/)
+* [Ian's Solution](https://github.com/IanMKesler/facebook-clone) - [View in Browser](https://immense-sierra-65246.herokuapp.com/)
+* [MephistoDevelop & Sergio Diaz Solution](https://github.com/MephistoDevelop/fakebook/tree/master) - [View in Browser](https://socialbook2019.herokuapp.com/users/sign_in)
+* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/odin-facebook) - [View in Browser](https://murmuring-wave-95625.herokuapp.com/)
 * [Helmi's Solution](https://github.com/helmihidzir/odin-facebook)
-* [Kevin Vuong's solution](https://github.com/fffear/odin-facebook/) - [Live](https://shielded-mesa-75331.herokuapp.com/)
-* [Learnsometing's solution](https://github.com/learnsometing/dev-communities) - [Live](https://dev-communities.herokuapp.com/)
-* [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) - [Live](https://safe-sierra-89344.herokuapp.com)
+* [Kevin Vuong's solution](https://github.com/fffear/odin-facebook/) - [View in Browser](https://shielded-mesa-75331.herokuapp.com/)
+* [Learnsometing's solution](https://github.com/learnsometing/dev-communities) - [View in Browser](https://dev-communities.herokuapp.com/)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-facebook) - [View in Browser](https://safe-sierra-89344.herokuapp.com)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/Growlither) - [View in Browser](https://growlithe.herokuapp.com/)
 * [Max Garber's solution](https://github.com/bubblebooy/odin-facebook) - [View in Browser](https://vast-springs-17117.herokuapp.com/)
 * [Javier Machin's solution](https://github.com/Javier-Machin/Life-Invader) - [View in Browser](https://life-invader-fb.herokuapp.com/)
@@ -78,25 +89,25 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Deetss' solution](https://github.com/Deetss/Fakebook) - [View in Browser](https://deetss-fakebook.herokuapp.com)
 * [Jmooree30's solution](https://github.com/jmooree30/jakebook) - [View in Browser](https://fast-citadel-52170.herokuapp.com/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/odinbook) - [View in Browser](https://serene-coast-95388.herokuapp.com)
-* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_odinfb) - [View in browser](https://obscure-springs-25850.herokuapp.com/)
-* [adsy430's soluction](https://github.com/adampal/facebook-clone) - [Fakebook](https://peaceful-everglades-48148.herokuapp.com/)
-* [holdercp's solution](https://github.com/holdercp/odin-facebook) - [Live site](https://friend-space.herokuapp.com/)
-* [jfonz412's Solution](https://github.com/jfonz412/facebook-clone) - [View in browser](https://mysterious-anchorage-62529.herokuapp.com/)
-* [Sic's Solution](https://github.com/sic-f/fb) - [View in browser](https://efbook.herokuapp.com)
-* [Rob's Solution](https://github.com/RobPando/odin-book) - [View in browser](https://robodinbook.herokuapp.com)
-* [Rhys B's solution](https://github.com/105ron/odin-book) - [View in browser](http://odin-book.herokuapp.com/)
-* [Adrian Badarau's solution](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) - [View in browser](http://railsbook-facebook-clone-app.herokuapp.com/)
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_odinfb) - [View in Browser](https://obscure-springs-25850.herokuapp.com/)
+* [adsy430's soluction](https://github.com/adampal/facebook-clone) - [View in Browser](https://peaceful-everglades-48148.herokuapp.com/)
+* [holdercp's solution](https://github.com/holdercp/odin-facebook) - [View in Browser](https://friend-space.herokuapp.com/)
+* [jfonz412's Solution](https://github.com/jfonz412/facebook-clone) - [View in Browser](https://mysterious-anchorage-62529.herokuapp.com/)
+* [Sic's Solution](https://github.com/sic-f/fb) - [View in Browser](https://efbook.herokuapp.com)
+* [Rob's Solution](https://github.com/RobPando/odin-book) - [View in Browser](https://robodinbook.herokuapp.com)
+* [Rhys B's solution](https://github.com/105ron/odin-book) - [View in Browser](http://odin-book.herokuapp.com/)
+* [Adrian Badarau's solution](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) - [View in Browser](http://railsbook-facebook-clone-app.herokuapp.com/)
 * [Yuri Buerov's solution](https://github.com/YuriBuerov/social-network)
-* [David Janczyn's solution](https://github.com/sandiegodj/social-network) - [View in browser](https://warm-spire-7655.herokuapp.com/)
-* [Aleksandar Rodić's solution](https://github.com/rodic/odin-facebook-clone) - [View in browser](https://odin-facebook.herokuapp.com/)
-* [Jason Matthews' solution](https://github.com/fo0man/odin-spacebook) - [View in browser](https://warm-beach-7362.herokuapp.com/)
-* [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
-* [Dominik Stodolny's solution](https://github.com/dstodolny/odinbook) - [View in browser](https://warm-bayou-3284.herokuapp.com/)
-* [AtActionPark's solution](https://github.com/AtActionPark/odin_facebook) - [View in browser](https://shielded-escarpment-2283.herokuapp.com/)
-* [Alex's Solution](https://github.com/alexgh123/fb_odin_app) - [View in browser](http://polar-oasis-7608.herokuapp.com)
-* [Jeremy Mauzy's Solution](https://github.com/apositivejam/fakebook) - [View in browser](http://odin-fakebook.herokuapp.com)
-* [dchen71's Solution](https://github.com/dchen71/odin-facebook) - [View in browser](https://secure-citadel-9611.herokuapp.com/)
-* [James Kelsey's Solution (No tests, Ajaxy)](https://github.com/jamesmskelsey/jk-odin-book) - [View in browser](https://jk-odin-book.herokuapp.com/)
+* [David Janczyn's solution](https://github.com/sandiegodj/social-network) - [View in Browser](https://warm-spire-7655.herokuapp.com/)
+* [Aleksandar Rodić's solution](https://github.com/rodic/odin-facebook-clone) - [View in Browser](https://odin-facebook.herokuapp.com/)
+* [Jason Matthews' solution](https://github.com/fo0man/odin-spacebook) - [View in Browser](https://warm-beach-7362.herokuapp.com/)
+* [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") - [View in Browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
+* [Dominik Stodolny's solution](https://github.com/dstodolny/odinbook) - [View in Browser](https://warm-bayou-3284.herokuapp.com/)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_facebook) - [View in Browser](https://shielded-escarpment-2283.herokuapp.com/)
+* [Alex's Solution](https://github.com/alexgh123/fb_odin_app) - [View in Browser](http://polar-oasis-7608.herokuapp.com)
+* [Jeremy Mauzy's Solution](https://github.com/apositivejam/fakebook) - [View in Browser](http://odin-fakebook.herokuapp.com)
+* [dchen71's Solution](https://github.com/dchen71/odin-facebook) - [View in Browser](https://secure-citadel-9611.herokuapp.com/)
+* [James Kelsey's Solution (No tests, Ajaxy)](https://github.com/jamesmskelsey/jk-odin-book) - [View in Browser](https://jk-odin-book.herokuapp.com/)
 * [Matias Pan's solution (RSpec, Capybara, Ajax)](https://github.com/kriox26/odin_book) - [View in browser](https://polar-river-1192.herokuapp.com)
 * [Radi Totev's solution](https://github.com/raditotev/odin-facebook) - [View in browser](https://odin-facebook-clone.herokuapp.com)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/social-network) - [View in browser](https://pure-meadow-87105.herokuapp.com/)
@@ -130,6 +141,8 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Jamesredux's Solution](https://github.com/Jamesredux/odin-facebook) - [View in browser](https://jamesreduxbook.herokuapp.com/)
 * [themetar's solution](https://github.com/themetar/odin-facebook) - [View in browser](https://phacepook.herokuapp.com/)
 * [Timework's solution](https://github.com/Timework/odin-facebook) - [View in browser](https://young-spire-86635.herokuapp.com/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/ruby_on_rails/tree/master/facebook)
+* [Bendee's Solution](https://github.com/bendee48/book-face1.1) - [View in browser](https://pacific-journey-50747.herokuapp.com/)
 </details>
 
 ### Additional Resources

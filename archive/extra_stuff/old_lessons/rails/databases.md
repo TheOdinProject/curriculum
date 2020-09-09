@@ -179,7 +179,7 @@ The next step, once you've had a chance to practice this all in the project, is 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 
-* Odinite Hunter D made his excellent notes into a [Github Book on SQL](http://hgducharme.gitbooks.io/sql-basics/content/) which you should totally check out if you want a decent resource.
+* Odinite Hunter D made his excellent notes into a [GitHub Book on SQL](http://hgducharme.gitbooks.io/sql-basics/content/) which you should totally check out if you want a decent resource.
 * Read [Zed Shaw's Learning SQL The Hard Way](http://sql.learncodethehardway.org/book/).  It is imperfect and also incomplete but should help solidify things for you.  It'll have you doing a fair bit of work from the command line, so you'll get a chance to catch up on your Bash scripting as well.  Double whammy!
 * [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
 * [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.

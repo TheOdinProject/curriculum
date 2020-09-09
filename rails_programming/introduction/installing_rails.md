@@ -35,6 +35,14 @@ We've previously installed Ruby, and now it's time to install Ruby on Rails. It'
 gem install rails -v 5.2.3
 ~~~
 
+Once the installation finishes, you can check if everything went well by running the following command:
+
+~~~bash
+rails -v
+~~~
+
+This should display the version of Rails installed on your system indicating the installation went smoothly.
+
 #### Step 1.2: Lay the Groundwork
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
@@ -158,7 +166,7 @@ Remember to replace `<SSH URL from above>` with the URL that you copied.
 
 The terminal will start its work, pausing to verify your connection to GitHub.
 
-A message from Github stating, "The authenticity of host 'github.com'..." may appear during this process. You can type `yes` and hit `Enter` to continue.
+A message from GitHub stating, "The authenticity of host 'github.com'..." may appear during this process. You can type `yes` and hit `Enter` to continue.
 
 After the terminal finishes its magic, return to your GitHub repository and refresh the page. You should see a lot of files, starting with a folder called "app".
 

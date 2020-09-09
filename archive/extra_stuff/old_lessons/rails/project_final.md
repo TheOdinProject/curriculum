@@ -12,7 +12,7 @@ Build Facebook!  You'll build a large portion of the core Facebook user function
 
 You should write at least a basic set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up (e.g. testing that `User.first.posts` works properly).  Run them continuously in the background with [Guard](https://github.com/guard/guard) (See the [Ruby on Rails Tutorial Chapter 3.7.3](https://www.railstutorial.org/book/static_pages#sec-guard)).
 
-This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website.  You'll need to read through the documentation on Github for some of the gems you'll be using.
+This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website.  You'll need to read through the documentation on GitHub for some of the gems you'll be using.
 
 Keep the following requirements in mind.  We'll cover specific steps to get started below this list:
 
@@ -53,7 +53,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/odinbook) - [View in Browser](https://serene-coast-95388.herokuapp.com)
