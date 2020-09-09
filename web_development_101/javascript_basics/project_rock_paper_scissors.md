@@ -1966,4 +1966,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/rock-paper-scissors) - [View in Browser](https://jorgeeab-jz.github.io/rock-paper-scissors/)
 - [clormor's Solution](https://github.com/clormor/rock-paper-scissors) - [View in Browser](https://clormor.github.io/rock-paper-scissors/)
 - [skaman647's Solution](https://github.com/skaman647/rock-paper-scissors.git)
+- [mrPCbuilds' Solution] (https://github.com/mrPCbuilds/rock-paper-scissors2) - [View in Browser] (https://mrpcbuilds.github.io/rock-paper-scissors2/)
 </details>
