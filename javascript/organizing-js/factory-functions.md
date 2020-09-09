@@ -217,7 +217,7 @@ const Person = (name) => {
 }
 
 const Nerd = (name) => {
-  // simply create a person and pull out the sayName function!
+  // simply create a person and pull out the sayName function with destructuring assignment syntax!
   const {sayName} = Person(name)
   const doSomethingNerdy = () => console.log('nerd stuff')
   return {sayName, doSomethingNerdy}
