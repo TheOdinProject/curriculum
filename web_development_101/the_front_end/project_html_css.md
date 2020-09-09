@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [virto' Solution (Easy)](https://github.com/virto/google-homepage) - [View in Browser](https://virto.github.io/google-homepage/)
 * [carloscodes' Solution (Easy)](https://github.com/carloschancodes/google-homepage) - [View in Browser](https://carloschancodes.github.io/google-homepage/)
 * [Abordan Peter's Solution (Easy)](https://github.com/Pety99/google_homepage) - [View in Browser](https://pety99.github.io/google_homepage/)
 * [berghdavid's Solution (Easy)](https://github.com/berghdavid/Google-lookalike) - [View in Browser](https://berghdavid.github.io/Google-lookalike/)
@@ -4273,6 +4274,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [TheScurvyPirate's Solution (Easy)](https://github.com/TheScurvyPirate/odin-google-homepage) - [View in Browser](https://thescurvypirate.github.io/odin-google-homepage/)
 * [Buddie's Solution (Easy)](https://github.com/BuddieChapman/google-homepage) - [View in Browser](https://buddiechapman.github.io/google-homepage/)
 * [Austin's Solution (Easy)](https://github.com/austinbhan/google-homepage) - [View in Browser](https://austinbhan.github.io/google-homepage/)
+* [Manish's Solution (Easy)](https://github.com/manish-GH/google-homepage) - [View in Browser](https://manish-gh.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
