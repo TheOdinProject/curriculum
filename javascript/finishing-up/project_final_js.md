@@ -24,6 +24,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Juan Oxmar's Solution - Tweeter (Twitter Clone)](https://github.com/juanoxmar/tweeter) - [View in Browser](https://juanoxmar.github.io/tweeter/)
 * [Julio's solution - Letterboxd clone](https://github.com/julio22b/movie-app-frontend) - [View in Browser](https://letterboxd-film.herokuapp.com/)
 * [Jdonahue135's Solution (NodeJS/Express Backend)](https://github.com/jdonahue135/odin-twitter) - [View in Browser](https://afternoon-fjord-78280.herokuapp.com/home)
 * [jcbbb's Solution - Twitter Dooom](https://github.com/jcbbb/project-twitter) - [View in Browser](https://juraev.codes)
