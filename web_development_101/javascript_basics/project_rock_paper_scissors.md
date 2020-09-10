@@ -42,6 +42,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line!
 - [MorganFlam's Solution](https://github.com/MorganFlam/RPS-Game)
+- [Jaime Ortiz's Solution](https://github.com/codingXwolf/rock-paper-scissors) - [View in Brownser](https://codingxwolf.github.io/rock-paper-scissors/)
+- [Kidkaze's Solution](https://github.com/Kidkaze/updated-RPS) - [View in Browser](https://kidkaze.github.io/updated-RPS)
+- [banana_coder's Solution](https://github.com/banana-code-star/rock-paper-scissors) - [View in Browser](https://banana-code-star.github.io/rock-paper-scissors/)
 - [FranekB's Solution](https://github.com/FranekB/rock-paper-scissors)
 - [Animesh's Solution](https://github.com/AnimeshRy/rock-paper-scissors-js)
 - [Vedvardhan 's Solution](https://github.com/ved08/rock-paper-scissor) - [View in Browser](https://ved08.github.io/rock-paper-scissor/)
@@ -65,7 +68,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [tmlapi's Solution](https://github.com/tmlapi/Rock-Paper-Scissors.git) - [View in Browser](https://tmlapi.github.io/Rock-Paper-Scissors/)
 - [GrinninBarrett's Solution](https://github.com/GrinninBarrett/rock-paper-scissors-new) - [View in Browser](https://grinninbarrett.github.io/rock-paper-scissors-new/)
 - [aderose's Solution](https://github.com/aderose/rock-paper-scissors) - [View in Browser](https://aderose.github.io/rock-paper-scissors/)
-- [reinimax's Solution](https://github.com/reinimax/rock-paper-scissors)
+- [reinimax's Solution](https://github.com/reinimax/rock-paper-scissors) - [View in Browser](https://reinimax.github.io/rock-paper-scissors/)
 - [Veríssimo's Solution](https://github.com/vec21/Rock-Paper-Scissors) - [View in Browser](https://vec21.github.io/Rock-Paper-Scissors/)
 - [Chintan Bhomia's Solution](https://github.com/cnbhomia/rock-paper-scissor)
 - [Nick's Solution](https://github.com/nmccooey/rock-paper-scissors-classic) - [View in Browser](https://nmccooey.github.io/rock-paper-scissors-classic/)
@@ -1967,4 +1970,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/rock-paper-scissors) - [View in Browser](https://jorgeeab-jz.github.io/rock-paper-scissors/)
 - [clormor's Solution](https://github.com/clormor/rock-paper-scissors) - [View in Browser](https://clormor.github.io/rock-paper-scissors/)
 - [skaman647's Solution](https://github.com/skaman647/rock-paper-scissors.git)
+- [mrPCbuilds' Solution](https://github.com/mrPCbuilds/rock-paper-scissors2) - [View in Browser](https://mrpcbuilds.github.io/rock-paper-scissors2/)
 </details>
