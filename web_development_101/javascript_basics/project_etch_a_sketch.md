@@ -1303,4 +1303,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Vitace's Solution](https://github.com/vfonsah/etch-a-sketch/) - [View in Browser](https://vfonsah.github.io/etch-a-sketch/)
 * [yiyuanyi's Solution](https://github.com/yiyuanyi/etch-a-sketch) - [View in Browser](https://yiyuanyi.github.io/etch-a-sketch/)
 * [rogcald1's Solution](https://github.com/rogcald1/sketch) - [View in Browser](https://rogcald1.github.io/sketch/)
+* [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/Sketchpad)
 </details>
