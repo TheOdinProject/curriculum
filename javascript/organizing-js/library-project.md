@@ -42,6 +42,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 
 - Add your solution below this line!
 - [Bodan's Solution (w/ Firebase)](https://github.com/bodanv/library) - [View in Browser](https://bodanv.github.io/library/)
+- [simalicrum's Solution](https://github.com/simalicrum/library) - [View in Browser](https://simalicrum.github.io/library/)
+- [GraceSchwar's Solution (w/ localStorage)](https://github.com/GraceSchwar/Project-Library) - [View in Browser](https://graceschwar.github.io/Project-Library/)
 - [Christian's Solution (w/ Firebase)](https://github.com/rueeazy/js-library) - [View in Browser](https://rueeazy.github.io/js-library/)
 - [cotrones's Solution](https://github.com/cotrones/library) - [View in Browser](https://cotrones.github.io/library/)
 - [irlgabriel's Solution](https://github.com/irlgabriel/js-library-project) - [View in Browser](https://javascript-book-library.web.app/)
