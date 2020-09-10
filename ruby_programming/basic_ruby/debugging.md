@@ -177,6 +177,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.
 * Poke around [Pry's wiki](https://github.com/pry/pry/wiki) for a collection of resources that will help you master this invaluable gem.
 * Read [this](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e) brilliant error about reading Ruby error messages
+* Install the 'pry-byebug' gem for step-by-step debugging and callstack navigation. Follow the steps [here](https://github.com/deivid-rodriguez/pry-byebug)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
