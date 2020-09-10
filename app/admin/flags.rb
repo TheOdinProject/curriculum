@@ -10,6 +10,7 @@ ActiveAdmin.register Flag do
   scope :resolved
 
   member_action :ban_flagged_user, method: :post
+  member_action :dismiss, method: :post
 
   includes :flagger, :project_submission
 
@@ -51,7 +52,7 @@ ActiveAdmin.register Flag do
         "#{flags.count} (#{active} active, #{resolved} resolved)"
       end
 
-      render 'flag_actions'
+      render 'flag_actions', flag: flag
     end
   end
 
@@ -71,9 +72,19 @@ ActiveAdmin.register Flag do
       result = Admin::Flags::BanUser.call(flag: resource)
 
       if result.success?
-        redirect_to resource_path(resource), notice: 'Success: User has been banned'
+        redirect_to resource_path(resource), notice: 'Success: User has been banned.'
       else
         redirect_to resource_path(resource), notice: 'Failure: Unable to ban user, please check logs.'
+      end
+    end
+
+    def dismiss
+      result = Admin::Flags::Dismiss.call(flag: resource)
+
+      if result.success?
+        redirect_to resource_path(resource), notice: 'Success: Flag has been dismissed.'
+      else
+        redirect_to resource_path(resource), notice: 'Failure: Unable to dismiss flag, please check logs.'
       end
     end
   end

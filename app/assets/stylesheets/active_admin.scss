@@ -6,3 +6,9 @@ $am-theme-accent: #4a4a4a;
 
 @import "active_admin/mixins";
 @import "active_material";
+
+input[type="submit"] {
+  &:disabled {
+    background-color: grey;
+  }
+}

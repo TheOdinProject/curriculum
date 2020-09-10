@@ -1,3 +1,4 @@
-<div>
-  <%= button_to "Ban User", ban_flagged_user_admin_flag_path, data: { confirm: "Are you sure?" } %>
+<div style="display:flex;">
+  <%= button_to "Dismiss Flag", dismiss_admin_flag_path, data: { confirm: "Are you sure?" }, disabled: flag.resolved? %>
+  <%= button_to "Ban User", ban_flagged_user_admin_flag_path, data: { confirm: "Are you sure?" }, disabled: flag.resolved? %>
 </div>
