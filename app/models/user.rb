@@ -30,6 +30,14 @@ class User < ApplicationRecord
     Lesson.find(last_lesson_completed.lesson_id)
   end
 
+  def active_for_authentication?
+    super && !banned?
+  end
+
+  def inactive_message
+    !banned? ? super : :banned
+  end
+
   private
 
   def last_lesson_completed

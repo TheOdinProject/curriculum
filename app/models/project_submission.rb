@@ -9,5 +9,5 @@ class ProjectSubmission < ApplicationRecord
 
   scope :flagged, -> { joins(:flags).where(flags: { status: :active }) }
   scope :with_no_active_flags, -> { where.not(id: flagged.ids).order('created_at desc') }
-  scope :for_public, -> { where(is_public: true) }
+  scope :viewable, -> { where(is_public: true, banned: false) }
 end

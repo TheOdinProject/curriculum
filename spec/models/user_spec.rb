@@ -102,4 +102,40 @@ RSpec.describe User do
       end
     end
   end
+
+  describe '#active_for_authentication?' do
+    context 'when user has not been banned' do
+      let(:user) { create(:user) }
+
+      it 'returns true' do
+        expect(user.active_for_authentication?).to be(true)
+      end
+    end
+
+    context 'when user has been banned' do
+      let(:user) { create(:user, banned: true) }
+
+      it 'returns false' do
+        expect(user.active_for_authentication?).to be(false)
+      end
+    end
+  end
+
+  describe '#inactive_message' do
+    context 'when user has not been banned' do
+      let(:user) { create(:user) }
+
+      it 'returns default inactive translation key' do
+        expect(user.inactive_message).to eq(:inactive)
+      end
+    end
+
+    context 'when user has been banned' do
+      let(:user) { create(:user, banned: true) }
+
+      it 'returns banned translation key' do
+        expect(user.inactive_message).to eq(:banned)
+      end
+    end
+  end
 end

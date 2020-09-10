@@ -32,7 +32,7 @@ RSpec.describe ProjectSubmission, type: :model do
     end
   end
 
-  describe '#with_no_active_flags' do
+  describe '.with_no_active_flags' do
     let!(:project_submission_with_no_flags) { create(:project_submission) }
     let(:project_submission_with_flag) { create(:project_submission) }
     let(:project_submission_with_resolved_flag) { create(:project_submission) }
@@ -49,6 +49,41 @@ RSpec.describe ProjectSubmission, type: :model do
       expect(ProjectSubmission.with_no_active_flags).to contain_exactly(
         project_submission_with_no_flags,
         project_submission_with_resolved_flag
+      )
+    end
+  end
+
+  describe '.with_no_active_flags' do
+    let!(:project_submission_with_no_flags) { create(:project_submission) }
+    let(:project_submission_with_flag) { create(:project_submission) }
+    let(:project_submission_with_resolved_flag) { create(:project_submission) }
+    let(:project_submission_flagged_again) { create(:project_submission) }
+
+    before do
+      create(:flag, project_submission: project_submission_with_flag)
+      create(:flag, project_submission: project_submission_with_resolved_flag, status: :resolved)
+      create(:flag, project_submission: project_submission_flagged_again, status: :resolved)
+      create(:flag, project_submission: project_submission_flagged_again)
+    end
+
+    it 'returns project submissions that have no active flags' do
+      expect(ProjectSubmission.with_no_active_flags).to contain_exactly(
+        project_submission_with_no_flags,
+        project_submission_with_resolved_flag
+      )
+    end
+  end
+
+  describe '.viewable' do
+    let!(:banned_project_submission) { create(:project_submission, banned: true) }
+    let!(:private_project_submission) { create(:project_submission, is_public: false) }
+    let!(:viewable_project_submission_one) { create(:project_submission) }
+    let!(:viewable_project_submission_two) { create(:project_submission) }
+
+    it 'returns viewable project submissions' do
+      expect(ProjectSubmission.viewable).to contain_exactly(
+        viewable_project_submission_one,
+        viewable_project_submission_two
       )
     end
   end

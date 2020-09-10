@@ -15,9 +15,12 @@ class ApplicationController < ActionController::Base
   end
 
   def authenticate_admin_user!
-    return unless current_user && current_user.admin?
+    authenticate_user!
 
-    redirect_to root_path
+    unless current_user.admin?
+      flash[:alert] = 'Unauthorized Access!'
+      redirect_to root_path
+    end
   end
 
   def after_sign_out_path_for(_resource_or_scope)

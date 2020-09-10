@@ -16,6 +16,7 @@ en:
       timeout: "Your session expired, please sign in again to continue."
       unauthenticated: "You need to sign in or sign up before continuing."
       unconfirmed: "You have to confirm your account before continuing.<br><a href='/users/confirmation/new'>Didn't receive instructions or need them again?</a>"
+      banned: "Your user account has been banned"
     mailer:
       confirmation_instructions:
         subject: "Confirmation instructions"

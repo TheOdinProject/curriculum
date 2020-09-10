@@ -18,7 +18,7 @@ class LessonsController < ApplicationController
   end
 
   def project_submissions
-    (current_users_submission + lesson.project_submissions.for_public.with_no_active_flags.limit(10)).uniq
+    (current_users_submission + lesson.project_submissions.viewable.limit(10)).uniq
   end
 
   def current_users_submission
