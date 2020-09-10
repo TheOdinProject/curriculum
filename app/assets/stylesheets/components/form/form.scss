@@ -9,6 +9,11 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+
+      @include media-breakpoint-down(sm) {
+        display: block;
+        text-align: left;
+      }
     }
 
     &--bottom {
@@ -100,6 +105,16 @@
 
     &__item {
       color: $pale-grey;
+    }
+  }
+
+  &__toggle-checkbox {
+    display: flex;
+    align-items: center;
+
+
+    @include media-breakpoint-down(sm) {
+      margin: 1.2rem 0;
     }
   }
 

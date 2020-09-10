@@ -31,7 +31,7 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete }) => {
         <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
 
         {isCurrentUsersSubmission
-          ? <span className={`submissions__public-icon${submission.is_public ? '--visible' : ''}`}><i className="fas fa-eye"></i></span>
+          ? <span className={`submissions__public-icon submissions__public-icon${submission.is_public ? '--visible' : ''}`}><i className="fas fa-eye"></i></span>
           : <a className="submissions__flag" onClick={(event) => { event.preventDefault(); onFlag(submission)}}>
               <i className="fas fa-flag "></i>
             </a>

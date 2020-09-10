@@ -3,6 +3,10 @@
 }
 .push-down-3x {
   margin-bottom: 3rem !important;
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 1rem;
+  }
 }
 
 .full-width {

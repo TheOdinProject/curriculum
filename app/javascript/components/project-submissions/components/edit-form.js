@@ -66,7 +66,7 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
         </div>
         {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
 
-        <div className="form__section push-down-3x">
+        <div className="form__section">
           <span className="form__icon fas fa-link"></span>
           <input
             className="form__element form__element--with-icon"
@@ -79,16 +79,19 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
         {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
 
         <div className="form__section form__section--right-aligned form__section--bottom">
-          <p className="bold">MAKE SOLUTION PUBLIC</p>
-          <label className="toggle form__public-checkbox">
-            <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
-            <div className="toggle__fill round"></div>
-          </label>
 
-          <button className="button button--danger" onClick={handleDelete}>Delete</button>
-          &nbsp;
-          &nbsp;
+          <div className="form__toggle-checkbox">
+            <p className="bold">MAKE SOLUTION PUBLIC</p>
+            <label className="toggle form__public-checkbox">
+              <input className="toggle__input" type="checkbox" name="is_public" ref={register}  />
+              <div className="toggle__fill round"></div>
+            </label>
+          </div>
+
           <button disabled={!formState.isValid} type="submit" className="button button--primary">Update</button>
+          &nbsp;
+          &nbsp;
+          <button className="button button--danger" onClick={handleDelete}>Delete</button>
         </div>
       </form>
     </div>
