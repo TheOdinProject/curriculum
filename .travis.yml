@@ -8,8 +8,6 @@ before_script:
   - bundle install
   - psql -c 'create database theodinproject_test;' -U postgres
 script:
-  - gem install bundler-audit
-  - bundle audit check --update --ignore CVE-2015-9284
   - RAILS_ENV=test bundle exec rails db:schema:load
   - bundle exec rubocop
   - bundle exec rspec
