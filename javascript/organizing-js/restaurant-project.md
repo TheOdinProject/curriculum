@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Alex Karyasov's solution](https://github.com/AlexKaryasov/odin-restaurant-page) - [View in Broswer](https://alexkaryasov.github.io/odin-restaurant-page/dist/index.html)
 - [Run After's Solution](https://github.com/run-after/js-restaurant) - [View in Broswer](https://run-after.github.io/js-restaurant/)
 - [Abhishek Khale's Solution](https://github.com/abkhale17/restaurant-page-TOP) - [View in Browser](https://abkhale17.github.io/restaurant-page-TOP/)
 - [tomigm's solution](https://github.com/tomigm/restaurant_page) - [View in Browser](https://tomigm.github.io/restaurant_page/)
@@ -260,4 +261,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [hazigabriel's Solution](https://github.com/hazigabriel/restaurant-page) - [View in Browser](https://hazigabriel.github.io/restaurant-page/)
 - [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View In Browser](https://wulfenn.github.io/restaurant/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/RestaurantJS) - [View In Browser](https://almirbunjaku.github.io/RestaurantJS/)
+- [TheMDDropout's Solution](https://github.com/TheMDDropout/restaurantPage) - [View In Browser](https://themddropout.github.io/restaurantPage/)
 </details>
