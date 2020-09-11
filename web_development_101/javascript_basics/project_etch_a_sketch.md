@@ -43,8 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
-
+ 
 * Add your solution below this line!
+* [William's Solution](https://github.com/whmcquaid/etch_a_sketch/) - [View in Browser](https://whmcquaid.github.io/etch_a_sketch)
+* [Hafiz Muhammad Abubakar's Solution](https://github.com/Hafizmuhammadabubakar/Etch_A_Sketch) - [View in Browser](https://hafizmuhammadabubakar.github.io/Etch_A_Sketch/)
 * [ASlava's Solution](https://github.com/ASLAVA/etchAsketch) - [View in Browser](https://aslava.github.io/etchAsketch/)
 * [reinimax's Solution](https://github.com/reinimax/etch-a-sketch) - [View in Browser](https://reinimax.github.io/etch-a-sketch/)
 * [Agathasta's Solution](https://github.com/Agathasta/agathasta.github.io/tree/master/etch-a-sketch) - [View in Browser](https://agathasta.github.io/etch-a-sketch/)
@@ -1303,4 +1305,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Vitace's Solution](https://github.com/vfonsah/etch-a-sketch/) - [View in Browser](https://vfonsah.github.io/etch-a-sketch/)
 * [yiyuanyi's Solution](https://github.com/yiyuanyi/etch-a-sketch) - [View in Browser](https://yiyuanyi.github.io/etch-a-sketch/)
 * [rogcald1's Solution](https://github.com/rogcald1/sketch) - [View in Browser](https://rogcald1.github.io/sketch/)
+* [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/etch-a-sketch) - [View in Browser](https://jorgeeab-jz.github.io/etch-a-sketch/)
+* [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/Sketchpad)
 </details>
