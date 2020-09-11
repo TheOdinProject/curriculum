@@ -1976,5 +1976,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [skaman647's Solution](https://github.com/skaman647/rock-paper-scissors.git)
 - [mrPCbuilds' Solution](https://github.com/mrPCbuilds/rock-paper-scissors2) - [View in Browser](https://mrpcbuilds.github.io/rock-paper-scissors2/)
 - [amandathewebdev's Solution](https://github.com/amandathewebdev/Rock_Paper_Scissors)
-- [dinbusan's Solution] (https://github.com/dinbusan/rps)
+- [dinbusan's Solution](https://github.com/dinbusan/rps)
 </details>
