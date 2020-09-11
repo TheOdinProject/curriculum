@@ -1307,4 +1307,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [rogcald1's Solution](https://github.com/rogcald1/sketch) - [View in Browser](https://rogcald1.github.io/sketch/)
 * [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/etch-a-sketch) - [View in Browser](https://jorgeeab-jz.github.io/etch-a-sketch/)
 * [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/Sketchpad)
+* [Nico Muñoz's Solution](https://github.com/NicoMunoz909/etch-a-sketch) - [View in Browser](https://nicomunoz909.github.io/etch-a-sketch/)
 </details>
