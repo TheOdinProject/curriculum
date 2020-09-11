@@ -260,4 +260,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [hazigabriel's Solution](https://github.com/hazigabriel/restaurant-page) - [View in Browser](https://hazigabriel.github.io/restaurant-page/)
 - [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View In Browser](https://wulfenn.github.io/restaurant/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/RestaurantJS) - [View In Browser](https://almirbunjaku.github.io/RestaurantJS/)
+- [TheMDDropout's Solution](https://github.com/TheMDDropout/restaurantPage) - [View In Browser](https://themddropout.github.io/restaurantPage/)
 </details>
