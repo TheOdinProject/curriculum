@@ -578,6 +578,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/merge_sort.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/sort_methods/blob/master/merge_sort.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/mergesort.rb)
+* [Taras's Solution](https://github.com/tiris08/merge_sort_ruby_odin/blob/master/merge_sort_taras.rb)
+
 </details>
 
 ### Additional Resources
