@@ -4277,6 +4277,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Buddie's Solution (Easy)](https://github.com/BuddieChapman/google-homepage) - [View in Browser](https://buddiechapman.github.io/google-homepage/)
 * [Austin's Solution (Easy)](https://github.com/austinbhan/google-homepage) - [View in Browser](https://austinbhan.github.io/google-homepage/)
 * [Manish's Solution (Easy)](https://github.com/manish-GH/google-homepage) - [View in Browser](https://manish-gh.github.io/google-homepage/)
+* [Anna's Solution (Easy)](https://github.com/abaker93/google-homepage) - [View in Browser](https://abaker93.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
