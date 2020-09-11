@@ -41,6 +41,20 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Violet's solution](https://github.com/violetguos/js-odin/library-proj) - [View in Browser](https://violetguos.github.io/js-odin/library-proj/)
+- [Nick's Solution](https://github.com/nmccooey/library-tracker) - [View in Browser](https://nmccooey.github.io/library-tracker/)
+- [Bodan's Solution (w/ Firebase)](https://github.com/bodanv/library) - [View in Browser](https://bodanv.github.io/library/)
+- [simalicrum's Solution](https://github.com/simalicrum/library) - [View in Browser](https://simalicrum.github.io/library/)
+- [GraceSchwar's Solution (w/ localStorage)](https://github.com/GraceSchwar/Project-Library) - [View in Browser](https://graceschwar.github.io/Project-Library/)
+- [Christian's Solution (w/ Firebase)](https://github.com/rueeazy/js-library) - [View in Browser](https://rueeazy.github.io/js-library/)
+- [Saddam's Solution](https://github.com/5addam/E-libraray) - [View in Browser](https://5addam.github.io/E-libraray/)
+- [cotrones's Solution](https://github.com/cotrones/library) - [View in Browser](https://cotrones.github.io/library/)
+- [irlgabriel's Solution](https://github.com/irlgabriel/js-library-project) - [View in Browser](https://javascript-book-library.web.app/)
+- [clml59i's Solution](https://github.com/clml59i/library-odin) - [View in Browser](https://clml59i.github.io/library-odin/)
+- [fernandopaz1's Solution](https://github.com/fernandopaz1/library) - [View in Browser](https://fernandopaz1.github.io/library/)
+- [Alex Karyasov's Solution](https://github.com/AlexKaryasov/odin-library-projec) - [View in Browser](https://alexkaryasov.github.io/odin-library-projec/)
+- [Andrei Totoro's Solution](https://github.com/AndreiTotoro/library) - [View in Browser](https://andreitotoro.github.io/library/)
+- [dkhole's Solution (w/ localStorage)](https://github.com/dkhole/library) - [View in Browser](https://dkhole.github.io/library/)
 - [rchlkr's Solution](https://github.com/rchlkr/bookshelf) - [View in Browser](https://rchlkr.github.io/bookshelf/)
 - [zainiscoding's Solution](https://github.com/zainiscoding/library) - [View in Browser](https://zainiscoding.github.io/library/)
 - [CoderOO7 Solution (w/ Firebase)](https://github.com/CoderOO7/Digital-library) - [View in Browser](https://coderoo7.github.io/Digital-library/)
@@ -408,4 +422,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/library) - [View in Browser](https://marvinkeilbach.github.io/library/)
 - [Kenneth H's Solution](https://github.com/kholston/library) - [View in Browser](https://kholston.github.io/library/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/LibraryJS) - [View in Browser](https://almirbunjaku.github.io/LibraryJS/)
+- [Sanyogita's Solution](https://github.com/SanyogitaPandit/library) - [View in Browser](https://sanyogitapandit.github.io/library/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_library) - [View in Browser](https://icepick-pauly.github.io/top_javascript_library/#)
+- [terraxus94's Solution](https://github.com/terraxus94/top-library) - [View in Browser](https://terraxus94.github.io/top-library/)
+- [robertompfm's Solution (w/firebase)](https://github.com/robertompfm/library) - [View in Browser](https://robertompfm.github.io/library/)
 </details>

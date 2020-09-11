@@ -28,6 +28,13 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [adam-goodrich's Solution](https://github.com/adam-goodrich/ruby_bubble_sort/blob/master/bubble_sort.rb)
+* [Spike's Solution](https://github.com/superspike7/Bubble-Sort/blob/master/main.rb)
+* [AFurrow's Solution](https://github.com/Afurrow/ruby-basics/blob/master/bubble_sort.rb)
+* [cbhaugen's Solution](https://github.com/cbhaugen/bubble_sort)
+* [urbanassa53's Solution](https://github.com/urbanassa53/BubbleSort/blob/master/bubble_sort.rb)
+* [jtdevuk's Solution](https://github.com/jtdevuk/bubble_sort/blob/master/bubble_sort.rb)
+* [RedBoy910's Solution](https://github.com/RedBoy910/RubyBubbleSort/blob/master/BubbleSort.rb)
 * [LamiaSristy's Solution](https://github.com/LamiaSristy/Advanced_Building_Blocks/blob/master/main.rb)
 * [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/bubblesort.rb)
@@ -495,7 +502,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt M's Solution](https://github.com/MattMiller1989/bubble-sort)
 * [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
 * [Anna Olak's Solution](https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/bubble-sort)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/bubble-sort.rb)
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/blob/master/bubble_sort.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/bubble_sort.rb)
