@@ -133,5 +133,5 @@ This section contains questions for you to check your understanding of this less
 * What does the `+=` assignment operator do?
 * What does the `-=` assignment operator do?
 * What does the `*=` assignment operator do?
-* What does the `\=` assignment operator do?
+* What does the `/=` assignment operator do?
 * What are the variable naming conventions?

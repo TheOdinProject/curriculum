@@ -7,7 +7,6 @@ As you learned in the last lesson, pairing in person is the best option, but if 
   * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
   * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
-  * [Screenhero](https://screenhero.com/) has its own built in voice chat, but as mentioned above, unless you already have an account you are currently out of luck.
   * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
   * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
   * Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)
@@ -23,7 +22,7 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
   With Teletype now installed, open up the workspace you wish to share. On the bottom left-hand corner of your editor window, you will see an icon that looks like a radio tower, click on that icon. 
 
-  The first time you attempt to share a workspace, a pop-up will appear, asking you to login to Github to generate an authentication token. Simply click on the link in the pop-up to authenticate with Github. You will be redirected to a page with an authentication token you can copy, then paste back into Atom. You should now be able to generate a link you can share for others to join your workspace remotely to pair program.
+  The first time you attempt to share a workspace, a pop-up will appear, asking you to login to GitHub to generate an authentication token. Simply click on the link in the pop-up to authenticate with GitHub. You will be redirected to a page with an authentication token you can copy, then paste back into Atom. You should now be able to generate a link you can share for others to join your workspace remotely to pair program.
 
 ### Finding a Partner
 
