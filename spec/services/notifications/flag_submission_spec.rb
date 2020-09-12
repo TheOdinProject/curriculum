@@ -1,22 +1,19 @@
 require 'rails_helper'
 
 RSpec.describe Notifications::FlagSubmission do
-  subject(:notification) do
-    described_class.new(
-      flagger: flagger_user,
-      project_submission: flagged_submission,
-      reason: 'I find it offensive'
-    )
-  end
+  subject(:notification) { described_class.new(flag) }
 
-  let(:flagger_user) { create(:user, username: 'OdinUser') }
+  let(:flagger) { create(:user, username: 'OdinUser') }
   let(:flagged_submission) { create(:project_submission) }
+  let(:flag) { create(:flag, flagger: flagger, project_submission: flagged_submission, reason: 'I find it offensive') }
 
   describe '#message' do
     it 'returns the daily summary message' do
-      expect(notification.message).to match(
-        /OdinUser has flagged \d+\nReason: I find it offensive/
-      )
+      notification_message = "OdinUser has flagged a submission on #{flagged_submission.lesson.title}\n" \
+                             "Reason: I find it offensive\n" \
+                             "Resolve the flag here: https://www.theodinproject.com/admin/flags/#{flag.id}"
+
+      expect(notification.message).to eq notification_message
     end
   end
 
