@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Diogofcr's Solution WITH UI](https://github.com/diogofcr/rockpaperscissors/blob/master/indexwithui.html) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/indexwithui.html)
 - [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors)
 - [Diogofcr's Solution](https://github.com/diogofcr/rockpaperscissors/) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/)
 - [berghdavid's Solution](https://github.com/berghdavid/Rock-paper-scissors)
