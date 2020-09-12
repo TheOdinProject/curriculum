@@ -41,10 +41,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [kloba1004's Solution] (https://kloba1004.github.io/project-rock-paper-scissors/)
+- [kloba1004's Solution](https://kloba1004.github.io/project-rock-paper-scissors/)
+- [Zakarya-Mks Solution](https://github.com/Zakarya-Mks/OdinP_Rock_paper_Scissors) -[View in Browser](https://zakarya-mks.github.io/OdinP_Rock_paper_Scissors/)
+- [Abordan Peter's Solution](https://github.com/Pety99/rock-paper-scissors) - [View in Browser](https://pety99.github.io/rock-paper-scissors/)
 - [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors)
 - [Diogofcr's Solution](https://github.com/diogofcr/rockpaperscissors/) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/)
-- [berghdavid's Solution](https://github.com/berghdavid/Rock-paper-scissors)
+- [berghdavid's Solution](https://github.com/berghdavid/Rock-paper-scissors) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/indexwithui.html)
 - [jakelo97's Solution](https://github.com/jakelo97/rockpaperscissorstest) - [View in Browser](https://jakelo97.github.io/rockpaperscissorstest/)
 - [MorganFlam's Solution](https://github.com/MorganFlam/RPS-Game)
 - [Jaime Ortiz's Solution](https://github.com/codingXwolf/rock-paper-scissors) - [View in Brownser](https://codingxwolf.github.io/rock-paper-scissors/)
