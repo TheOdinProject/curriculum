@@ -263,4 +263,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View In Browser](https://wulfenn.github.io/restaurant/)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/RestaurantJS) - [View In Browser](https://almirbunjaku.github.io/RestaurantJS/)
 - [TheMDDropout's Solution](https://github.com/TheMDDropout/restaurantPage) - [View In Browser](https://themddropout.github.io/restaurantPage/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_restaurant) - [View In Browser](https://icepick-pauly.github.io/top_javascript_restaurant/)
 </details>
