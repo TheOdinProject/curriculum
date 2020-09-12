@@ -74,18 +74,14 @@ const ProjectSubmissions = (props) => {
   };
 
   const handleFlag = async (data) => {
-    const { project_submission_id, reasons } = data;
+    const { project_submission_id, reason } = data;
 
     const response = await axios.post(
       `/project_submissions/${project_submission_id}/flags`,
-      { reason: reasons.join(', ') }
+      { reason: reason }
     );
     if (response.status === 200) {
       setFlaggedSubmission({});
-
-      setSubmissions(prevSubmissions =>
-        prevSubmissions.filter((submission) => submission.id !== parseInt(project_submission_id))
-      );
     }
   };
 
