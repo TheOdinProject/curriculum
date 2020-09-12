@@ -41,7 +41,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Violet's solution](https://github.com/violetguos/js-odin/library-proj) - [View in Browser](https://violetguos.github.io/js-odin/library-proj/)
+- [Yosra's Solution](https://github.com/yosraemad/library) - [View in Browser](https://yosraemad.github.io/library/)
+- [Violet's Solution](https://github.com/violetguos/js-odin/library-proj) - [View in Browser](https://violetguos.github.io/js-odin/library-proj/)
 - [Nick's Solution](https://github.com/nmccooey/library-tracker) - [View in Browser](https://nmccooey.github.io/library-tracker/)
 - [Bodan's Solution (w/ Firebase)](https://github.com/bodanv/library) - [View in Browser](https://bodanv.github.io/library/)
 - [simalicrum's Solution](https://github.com/simalicrum/library) - [View in Browser](https://simalicrum.github.io/library/)
