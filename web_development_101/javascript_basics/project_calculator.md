@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Givemore's Solution](https://github.com/Givemo/curriculum) - [View in Browser](https://givemo.github.io/modern_js_calculator/)
 - [Etienne Bourganel's Solution](https://github.com/etienne-bourganel/calculator) - [View in Browser](https://etienne-bourganel.github.io/calculator/)
 - [Kn0wn-Un's Solution](https://github.com/Kn0wn-Un/calculator) - [View in Browser](https://kn0wn-un.github.io/calculator/)
 - [annagiuliam's Solution](https://github.com/annagiuliam/calculator) - [View in Browser](https://annagiuliam.github.io/calculator/)
