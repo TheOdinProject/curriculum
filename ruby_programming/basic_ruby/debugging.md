@@ -103,14 +103,14 @@ p "Using p:"
 p []
 ~~~
 
-### Debugging with Pry and Pry-byebug
+### Debugging with Pry-byebug
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality.
 
-[Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) is another gem, which adds step-by-step debugging and stack navigation to pry. 
+[Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) adds step-by-step debugging and stack navigation to pry. 
 
-Before you can start debugging, you'll first need to install these two gems in your terminal by running `gem install pry` and `gem install pry-byebug`. You can then make them available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry, you just need to call `binding.pry` at any point in your program.
+Before you can start debugging, you'll first need to install `pry-byebug` by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
 
-To follow along with the Pry examples here, you have two options:
+To follow along with the Pry-byebug examples here, you have two options:
  1. You can open up a new IRB session and type all of the code in there. When the code hits the `binding.pry` statement, it will essentially open an IRB session inside of your current IRB session.
  2. You can save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`). When the code hits the `binding.pry` statement, a new IRB-like session will open inside the terminal.
 
@@ -154,19 +154,11 @@ During the session, if you check for the value of `name`, you will notice that y
 Using the same example above, you can use one of pry-byebug's commands to figure out what `name = name.upcase` will return. You won't need to quit the session or add another `binding.pry` beneath it. Enter `next` to step over to the next line.   
 
 ~~~ruby
-     5: def yell_greeting(string)
-     6:   name = string
-     7: 
-     8:   binding.pry
-     9: 
- => 10:   name = name.upcase
-    11:   greeting = "WASSAP, #{name}!"
-    12:   puts greeting
-    13: end
-
 [1] pry(main)> name
 => "bob"
-[2] pry(main)> next
+[2] pry(main)> greeting
+=> nil
+[3] pry(main)> next
 
      5: def yell_greeting(string)
      6:   name = string
@@ -178,16 +170,16 @@ Using the same example above, you can use one of pry-byebug's commands to figure
     12:   puts greeting
     13: end
 
-[2] pry(main)> name
+[3] pry(main)> name
 => "BOB"
 
 ~~~
 
 It stops after evaluating the next line. `name` now returns `BOB`. Calling `next` again will evaluate the following line. Try it out to know what `greeting` will return. Pry-byebug has a few more commands, play around with them to get a feel of what they do. You can find the commands with a short description of what they do [here](https://github.com/deivid-rodriguez/pry-byebug).
 
-As you can see, using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
+As you can see, using Pry-byebug for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry-byebug will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry-byebug will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
-There is far, far more that you can do with Pry, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
+There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
 ### How to Start Debugging
 Programs generally go wrong due to two main reasons:
