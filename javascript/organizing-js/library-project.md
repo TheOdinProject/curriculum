@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Leonardo Ghiggino's Solution (w/ Firebase)](https://github.com/lghiggino/TOP-Library-Firebase-LNG) - [View in Browser](https://lghiggino.github.io/TOP-Library-Firebase-LNG/)
 - [Parham-Pourjam's Solution (w/ localStorage)](https://github.com/Parham-Pourjam/Library) - [View in Browser](https://parham-pourjam.github.io/Library/)
 - [Yosra's Solution](https://github.com/yosraemad/library) - [View in Browser](https://yosraemad.github.io/library/)
 - [Violet's Solution](https://github.com/violetguos/js-odin/library-proj) - [View in Browser](https://violetguos.github.io/js-odin/library-proj/)
