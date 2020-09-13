@@ -107,8 +107,8 @@ function Player(name, marker) {
 and which you use by calling the function with the keyword `new`.
 
 ~~~javascript
-const player = new Player('steve', 'X')
-console.log(player.name) // 'steve'
+const playerOne = new Player('steve', 'X')
+console.log(playerOne.name) // 'steve'
 ~~~
 
 Just like with objects created using the Object Literal method you can add functions to the object:
