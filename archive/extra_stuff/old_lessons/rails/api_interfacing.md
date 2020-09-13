@@ -15,7 +15,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What are the steps you'll almost always have to go through when setting up your app to use an API?
 * What is an API key?
 * How is API use typically controlled?
-* How do you avoid including an API's secret token in your Github repo (e.g. hard coding it)?
+* How do you avoid including an API's secret token in your GitHub repo (e.g. hard coding it)?
 * Why is it important to know which API version you're using?
 * What is a RESTful API and why does that make your life easier?
 * What (basically) is OAuth?
@@ -96,7 +96,7 @@ See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overvi
 
 This sounds horribly complicated! Someone must have made a gem for it...
 
-Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` (docs available [on Github](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API (see the list [HERE](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them.
+Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` (docs available [on GitHub](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API (see the list [HERE](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them.
 
 I'll leave it to the projects to walk through using Omniauth since it's much easier to learn by doing than reading a bunch of bullet points.
 

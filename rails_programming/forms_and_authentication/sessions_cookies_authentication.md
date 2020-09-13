@@ -130,7 +130,7 @@ The problem with both of these is that they hard code user names and passwords i
 
 ### Rolling Your Own Auth
 
-If you want user logins, you'll need to go through a few extra steps.  We won't cover them explicitly here because you'll get a chance to do them in the project.  A few principles are useful to know going in, though.  The following stuff may seem a bit abrupt and devoid of examples, but it's really just a preview of what you'll be doing shortly in the project.
+If you want user logins, you'll need to go through a few extra steps. It's worth mentioning that you should never roll your own authentication system as there are already well battle tested solutions out there that you can use in your projects. One of these is Devise which we will explore later. But a few principles are useful to know.
 
 First, we don't store passwords in plain text in the database.  That's just asking for trouble (how many news stories have you seen about major sites getting hacked and passwords being exposed in plain text?).  Instead, you'll store an encrypted "password digest" version of the password.
 
@@ -162,15 +162,11 @@ A generic step-by-step overview:
 
 ### Devise
 
-Devise is a gem which has been built to handle all this stuff for you.  It may be tempting to immediately dive into it, but that's not a good idea for beginners.  It's first of all quite important to understand the basic steps of authentication.  Devise can also get fairly complex if you start running into problems or nonstandard use cases.  It's more useful for intermediate+ users of Rails than beginners.
-
-That said, you'll end up using it on most of your projects once you've mastered rolling your own authentication.  It's ultimately better than rolling your own auth because they've covered a lot of the edge cases and security loopholes that you might not think about.  Devise lets you interface with more advanced authentication systems for talking to APIs like OAuth.  So it's quite useful down the road.
+Devise is a gem which has been built to handle all this stuff for you.  It's ultimately better than rolling your own auth because they've covered a lot of the edge cases and security loopholes that you might not think about.  Devise lets you interface with more advanced authentication systems for talking to APIs like OAuth.  So it's quite useful down the road.
 
 In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.
 
 Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset his password (the `Recoverable` module)?
-
-It's beyond the scope of this lesson to teach Devise but you'll certainly be using it by the end of the course.  The trick is to read the documentation.  They've got a fairly impressive set of docs available [on Github](https://github.com/plataformatec/devise).  The point of showing it here is for you to see it, read it, and keep it in the back of your head until you actually use it.
 
 ### Assignment
 
@@ -180,7 +176,7 @@ It's beyond the scope of this lesson to teach Devise but you'll certainly be usi
 3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
 4. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
 5. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
-6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You don't need to use Devise just yet, so this is more of a reconnaissance mission for later.
+6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it the upcoming projects.
 </div>
 
 ### Conclusion

@@ -12,7 +12,7 @@ Here's a [basic explanation of security certificates from Reddit](http://www.red
 > SSL is a type of certificate used to make sure the contents of a packet (note) don't get read. It's like putting your note in a lockbox and you've given Suzy the key ahead of time. She's the only one who can see what's in the box, because she has the key (the SSL certificate). HTTPS is an altered version of the HTTP protocol which makes sure whoever tries to open the box has the key. If anyone tries to read the note and they don't have the key, all they'll see is garbled (encrypted) data, which will most likely just look like random characters. it's like they took the box and just tried smashing it on the floor, but it ripped the note apart in the process.
 
 
-You'll do some brief reading/viewing here but the main takeaway should be that Security is an important issue, even if it's often obscured from you.  You'll run into use of certificates when you deploy to Heroku and possibly also when you're setting up your Github account (though that depends which method for pushing you've enabled).
+You'll do some brief reading/viewing here but the main takeaway should be that Security is an important issue, even if it's often obscured from you.  You'll run into use of certificates when you deploy to Heroku and possibly also when you're setting up your GitHub account (though that depends which method for pushing you've enabled).
 
 ### Points to Ponder
 
