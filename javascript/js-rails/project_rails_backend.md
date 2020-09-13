@@ -57,6 +57,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Rey van den Berg's Solution](https://github.com/Rey810/Photo-Tag) - [View in Browser](https://dry-hollows-66172.herokuapp.com/)
 - [Nijepa's Solution](https://github.com/nijepa/wheres-waldo) - [View in Browser](https://nijepa.github.io/wheres-waldo/)
 - [kbrdsk's Solution](https://github.com/kbrdsk/wheres-waldo) - [View in Browser](https://kbrdsk.github.io/wheres-waldo/)
+- [themetar's Solution](https://github.com/themetar/where-s-waldo) - [View in Browser](https://waldo-top.herokuapp.com/)
 </details>
 
 ### Additional Resources
