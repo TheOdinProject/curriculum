@@ -31,6 +31,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [leoltl's Solution](https://github.com/leoltl/Inventory-app) - [View in Browser](https://leoltl-inventory-app.herokuapp.com/)
 - [benjamin-gambling's Solution](https://github.com/benjamin-gambling/inventory-application) - [View in Browser](https://bgwd-inventory-application.herokuapp.com/shop)
 - [Andres Ruiz's Solution](https://github.com/Andrsrz/vet-inventory) - [View in Browser](https://vet-inventory-andrsrzdc.herokuapp.com/)
 - [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/game-inventory) - [View in Browser](https://game-inventory-kikupiku.herokuapp.com/)

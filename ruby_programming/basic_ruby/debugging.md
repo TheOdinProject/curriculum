@@ -92,7 +92,7 @@ Indeed, we didn't use `#map` correctly, as this particular method creates a new 
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
-Using `puts` is a great way to debug, but there's a **YUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
+Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
 This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-2.6.1/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
