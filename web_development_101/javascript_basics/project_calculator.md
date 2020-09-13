@@ -45,11 +45,22 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Givemore's Solution](https://github.com/Givemo/curriculum) - [View in Browser](https://givemo.github.io/modern_js_calculator/)
+- [Etienne Bourganel's Solution](https://github.com/etienne-bourganel/calculator) - [View in Browser](https://etienne-bourganel.github.io/calculator/)
+- [Kn0wn-Un's Solution](https://github.com/Kn0wn-Un/calculator) - [View in Browser](https://kn0wn-un.github.io/calculator/)
+- [annagiuliam's Solution](https://github.com/annagiuliam/calculator) - [View in Browser](https://annagiuliam.github.io/calculator/)
+- [teshigahara's Solution](https://github.com/teshigahara/calculator) - [View in Browser](https://teshigahara.github.io/calculator/)
+- [Christine's Solution](https://github.com/galleryofplaces/calculator) - [View in Browser](https://galleryofplaces.github.io/calculator/)
+- [owenKraft's Solution](https://github.com/owenKraft/calculator) - [View in Browser](https://owenkraft.github.io/calculator/)
+- [Nick's Solution](https://github.com/nmccooey/advanced-calculator) - [View in Browser](https://nmccooey.github.io/advanced-calculator/)
+- [laurpop99's Solution](https://github.com/laurpop99/calculator) - [View in Browser](https://laurpop99.github.io/calculator/)
+- [berubenic's Solution](https://github.com/berubenic/calculator) - [View in Browser](https://wizardly-engelbart-7f9b08.netlify.app)
 - [MatMammen's Solution](https://github.com/MatMammen/Calculator) - [View in Browser](https://matmammen.github.io/Calculator)
 - [Ryan's Solution](https://github.com/rjbullough/calculator) - [View in Browser](https://rjbullough.github.io/calculator/)
 - [Dion's Solution](https://github.com/dioncdz/Simple-calculator) - [View in Browser](https://dioncdz.github.io/Simple-calculator/)
 - [jtdevuk's Solution](https://github.com/jtdevuk/calculator) - [View in Browser](https://jtdevuk.github.io/calculator/)
 - [David's Solution](https://github.com/david-88/calculator) - [View in Browser](https://david-88.github.io/calculator/)
+- [Saddam's Solution](https://github.com/5addam/Simple-Calculator) - [View in Browser](https://5addam.github.io/Simple-Calculator/)
 - [Bryson's Solution](https://github.com/bruceboy7/calculator) - [View in Browser](https://bruceboy7.github.io/Calculator/)
 - [adam-goodrich's Solution](https://github.com/adam-goodrich/calculator) - [View in Browser](https://adam-goodrich.github.io/calculator/)
 - [simalicrum's Solution](https://github.com/simalicrum/calculator) - [View in Browser](https://simalicrum.github.io/calculator/)
@@ -452,6 +463,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Wayland's Solution](https://github.com/chinwayland/calculator) - [View in Browser](https://chinwayland.github.io/calculator/)
 - [Christine Gierer's Solution](https://github.com/beansprout/calculator) - [View in Browser](https://beansprout.github.io/calculator/)
 - [Samuel Alonso's Solution](https://github.com/samontenegro/js-calculator)
+- [nexus0208's Solution](https://github.com/nexus0208/ProjectCalculator) - [View in Browser](https://nexus0208.github.io/ProjectCalculator/)
 - [Carmine's Solution](https://github.com/cgrossi/calculator-project) - [View in Browser](https://cgrossi.github.io/calculator-project/)
 - [Alptekin's Solution](https://github.com/alpwoo/Calculator) - [View in Browser](https://alpwoo.github.io/calculator/)
 - [Rafe Draper's Solution](https://github.com/rafeDraper/calculator) - [View in Browser](https://rafedraper.github.io/calculator/)
@@ -923,4 +935,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Fusako's Solution](https://github.com/fusakoo/calculator) - [View in Browser](https://fusakoo.github.io/calculator/)
 - [EriBloo's Solution](https://github.com/EriBloo/Calculator) - [View in Browser](https://eribloo.github.io/Calculator/)
 - [timcbarnes's Solution](https://github.com/timcbarnes/calculator) - [View in Browser](https://timcbarnes.github.io/calculator/)
+- [Vitace's Solution](https://github.com/vfonsah/Calculator) - [View in Browser](https://vfonsah.github.io/Calculator/)
+- [kphopkins' Solution](http://github.com/kphopkins/calculator) - [View in Browser](https://kphopkins.github.io/calculator/)
 </details>
