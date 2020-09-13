@@ -41,6 +41,10 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [arjobosh's Solution](https://github.com/arjobosh/library) - [View in Browser](https://arjobosh.github.io/library/)
+- [Justinkar's Solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
+- [Simon's Solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
+- [nearmint's Solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
 - [Leonardo Ghiggino's Solution (w/ Firebase)](https://github.com/lghiggino/TOP-Library-Firebase-LNG) - [View in Browser](https://lghiggino.github.io/TOP-Library-Firebase-LNG/)
 - [Parham-Pourjam's Solution (w/ localStorage)](https://github.com/Parham-Pourjam/Library) - [View in Browser](https://parham-pourjam.github.io/Library/)
 - [Yosra's Solution](https://github.com/yosraemad/library) - [View in Browser](https://yosraemad.github.io/library/)
