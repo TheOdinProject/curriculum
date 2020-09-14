@@ -24,6 +24,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Juan Oxmar's Solution - Tweeter (Twitter Clone)](https://github.com/juanoxmar/tweeter) - [View in Browser](https://juanoxmar.github.io/tweeter/)
 * [Rizwan's Solution - Pinterest Clone(Firebase Backend)](https://github.com/xRizwan/pinterest-clone) - [View in Browser](https://xrizwan.github.io/pinterest-clone/)
 * [Sher's Solution - Breddit (Reddit Clone)](https://github.com/sher-s7/reddit-clone) - [View in Browser](https://reddit-clone-a7ea1.web.app/)
 * [Julio's Solution - Letterboxd clone](https://github.com/julio22b/movie-app-frontend) - [View in Browser](https://letterboxd-film.herokuapp.com/)
