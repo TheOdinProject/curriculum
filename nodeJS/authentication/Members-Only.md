@@ -50,6 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [ultrawide's Solution](https://github.com/ultrawide/members-only-messageboard) - [View in Browser](https://fast-fortress-23524.herokuapp.com/)
 * [Vorelli's Solution](https://github.com/Vorelli/members-only) - [View in Browser](https://immense-meadow-04242.herokuapp.com/messageboard/)
 * [Nijepa's Solution](https://github.com/nijepa/members-only) - [View in Browser](https://calm-journey-96640.herokuapp.com/)
+* [Tulio Vieira's Solution](https://github.com/tulio-vieira/members-only-project) - [View in Browser](https://membersonlyproject.herokuapp.com)
 </details>
 
 

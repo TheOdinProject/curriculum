@@ -61,6 +61,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Ideopunk's Solution](https://github.com/Ideopunk/jest-practice)
+- [LenaChestnut's Solution](https://github.com/LenaChestnut/jest-testing)
 - [Abdel Perez's Solution](https://github.com/abdelp/test-practice-js)
 - [pklepa's Solution](https://github.com/pklepa/tdd-practice)
 - [Lucio's Solution](https://github.com/JCarlosLucio/testing-practice)
@@ -110,5 +112,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Joe Thompson's Solution](https://github.com/jlthompso/js_tests)
 - [Tim Kelly's Solution](https://github.com/timkellytk/project-testing-practice)
 - [Nijepa's Solution](https://github.com/nijepa/testing-practice)
+- [Chandra's Solution](https://github.com/CodeSurfer3022/testing-practice)
 </details>
 

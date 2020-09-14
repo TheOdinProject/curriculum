@@ -20,8 +20,6 @@ This curriculum works by pulling together the best content from across the inter
 
 Most lessons will contain questions that you should be able to answer before moving on.  Some of the lessons will ask you to complete exercises. In addition, we provide several projects throughout the curriculum to help you grow your understanding by actually building things.
 
-While most of this material should be fine to tackle on your own, the projects in particular are good opportunities to find a partner and do some pair programming.  Give it a shot!
-
 ### What Comes Next
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next (and all the cool stuff you can do with it).

@@ -45,7 +45,7 @@ At the end of this lesson, you should be able to do the following:
  <details>
   <summary>Explain what IP addresses are</summary>
   <ul><ul>
-    <li>IP addresses are numerical identifications that specifies a destination in a network.</li>
+    <li>IP addresses are numerical identifications that specify a destination in a network.</li>
    </ul></ul>
  </details>
   
