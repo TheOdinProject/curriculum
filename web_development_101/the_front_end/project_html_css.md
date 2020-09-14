@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [StevenLopez's Solution (Easy)](https://github.com/1Steven7/google-homepage) - [View in Browser](https://github.com/1Steven7/google-homepage)
 * [rohanprad's Solution (Easy)](https://github.com/rohanprad/google-homepage) - [View in Browser](https://rohanprad.github.io/google-homepage/)
 * [Nerbelwerzer's Solution (Easy)](https://github.com/Nerbelwerzer/google-homepage) - [View in Browser](https://nerbelwerzer.github.io/google-homepage/)
 * [spark712's Solution (Easy)](https://github.com/spark712/google-homepage) - [View in Browser](https://spark712.github.io/google-homepage/)
@@ -4290,6 +4291,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Anna's Solution (Easy)](https://github.com/abaker93/google-homepage) - [View in Browser](https://abaker93.github.io/google-homepage/)
 * [Gabriel's Solution (Easy)](https://gabrielratz.github.io/google-homepage/) - [View in Browser](https://gabrielratz.github.io/google-homepage/)
 * [DefCoding's Solution (Easy)](https://github.com/defcoding/google-homepage/) - [View in Browser](https://defcoding.github.io/google-homepage/)
+* [SuperModerate's Solution (Easy)](https://github.com/SuperModerate/google-homepage) - [View in Browser](https://supermoderate.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
