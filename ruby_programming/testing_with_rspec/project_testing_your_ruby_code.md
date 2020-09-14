@@ -329,6 +329,7 @@ connect_four)
 * [Bingo's Solution](https://github.com/NotAProgrammerdork/Ruby/tree/master/connect_four_spec)
 * [bhenning83's Solution](https://github.com/bhenning83/connect_four)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice)
+* [msespos's Solution](https://github.com/msespos/connect-four) - [Play on repl.it](https://repl.it/@msespos/connect-four#README.md)
 
 </details>
 
