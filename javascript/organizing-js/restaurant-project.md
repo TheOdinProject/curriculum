@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [zainiscoding's Solution](https://github.com/zainiscoding/restaurant-page) - [View in Browser](https://zainiscoding.github.io/restaurant-page/)
 - [Christian's Solution](https://github.com/rueeazy/restaurant-page) - [View in Browser](https://rueeazy.github.io/restaurant-page/)
 - [simalicrum's Solution](https://github.com/simalicrum/restaurant) - [View in Browser](https://simalicrum.github.io/restaurant/dist/index.html)
 - [irlgabriel's Solution](https://github.com/irlgabriel/odin-restaurant) - [View in Browser](https://irlgabriel.github.io/odin-restaurant/dist/index.html#)
