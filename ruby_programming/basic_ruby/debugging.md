@@ -104,11 +104,9 @@ p []
 ~~~
 
 ### Debugging with Pry-byebug
-[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality.
+[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.  
 
-[Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) adds step-by-step debugging and stack navigation to pry. 
-
-Before you can start debugging, you'll first need to install `pry-byebug` by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
+To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
 
 To follow along with the Pry-byebug examples here, you have two options:
  1. You can open up a new IRB session and type all of the code in there. When the code hits the `binding.pry` statement, it will essentially open an IRB session inside of your current IRB session.
@@ -170,7 +168,7 @@ Using the same example above, you can use one of pry-byebug's commands to figure
     12:   puts greeting
     13: end
 
-[3] pry(main)> name
+[4] pry(main)> name
 => "BOB"
 
 ~~~
