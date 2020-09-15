@@ -1991,4 +1991,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dinbusan's Solution](https://github.com/dinbusan/rps)
 - [Lucija's' Solution](https://github.com/India12/Rock-Paper-Scissors) - [View in Browser](https://india12.github.io/Rock-Paper-Scissors/)
 - [Daniel_Ozdogan's Solution](https://github.com/Daniel88Hus/ProjectRockPaperScissors/blob/master/PRJRockPaperScsGame.html)
+- [DefCoding's Solution](https://github.com/DefCoding/rock-paper-scissors) - [View in Browser](https://defcoding.github.io/rock-paper-scissors/)
 </details>
