@@ -60,7 +60,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jaime Ortiz's Solution](https://github.com/codingXwolf/rock-paper-scissors) - [View in Brownser](https://codingxwolf.github.io/rock-paper-scissors/)
 - [Kidkaze's Solution](https://github.com/Kidkaze/updated-RPS) - [View in Browser](https://kidkaze.github.io/updated-RPS)
 - [banana_coder's Solution](https://github.com/banana-code-star/rock-paper-scissors) - [View in Browser](https://banana-code-star.github.io/rock-paper-scissors/)
-- [FranekB's Solution](https://github.com/FranekB/rock-paper-scissors)
+- [FranekB's Solution](https://github.com/FranekB/rock-paper-scissors) - [View in Browser](https://franekb.github.io/rock-paper-scissors/)
 - [Animesh's Solution](https://github.com/AnimeshRy/rock-paper-scissors-js)
 - [Vedvardhan 's Solution](https://github.com/ved08/rock-paper-scissor) - [View in Browser](https://ved08.github.io/rock-paper-scissor/)
 - [Christine's Solution](https://github.com/galleryofplaces/Rock-Paper-Scissors) - [View in Browser](https://galleryofplaces.github.io/Rock-Paper-Scissors/)
