@@ -21,6 +21,8 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [AGL9's Solution](https://github.com/agl9/hangman)
+* [lucasdonuts' Solution](https://github.com/lucasdonuts/hangman)
 * [Spike's Solution](https://github.com/superspike7/Hangman)
 * [enzoperce35's Solution](https://github.com/enzoperce35/HangMan)
 * [Alvin's Solution](https://repl.it/@AlvinIsai/SlategrayHugeDeletion#main.rb)

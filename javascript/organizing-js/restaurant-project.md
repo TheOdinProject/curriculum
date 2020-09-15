@@ -49,6 +49,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Run After's Solution](https://github.com/run-after/js-restaurant) - [View in Broswer](https://run-after.github.io/js-restaurant/)
+- [Abhishek Khale's Solution](https://github.com/abkhale17/restaurant-page-TOP) - [View in Browser](https://abkhale17.github.io/restaurant-page-TOP/)
 - [tomigm's solution](https://github.com/tomigm/restaurant_page) - [View in Browser](https://tomigm.github.io/restaurant_page/)
 - [dkhole's Solution](https://github.com/dkhole/Restaurant) - [View in Browser](https://dkhole.github.io/Restaurant/)
 - [Daegudude's Solution](https://github.com/DaeguDude/TOP-restaurant) - [View in Browser](https://daegudude.github.io/TOP-restaurant/)
@@ -256,4 +258,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [sacchan9's Solution](https://github.com/sacchan9/restaurant-page) - [View in Browser](https://sacchan9.github.io/restaurant-page/)
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/restaurant-page) - [View in Browser](https://marvinkeilbach.github.io/restaurant-page/)
 - [hazigabriel's Solution](https://github.com/hazigabriel/restaurant-page) - [View in Browser](https://hazigabriel.github.io/restaurant-page/)
+- [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View In Browser](https://wulfenn.github.io/restaurant/)
+- [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/RestaurantJS) - [View In Browser](https://almirbunjaku.github.io/RestaurantJS/)
 </details>

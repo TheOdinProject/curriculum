@@ -56,4 +56,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Emil Dimitrov's Solution](https://github.com/edmtrv/inventory-app) - [View in Browser](https://mighty-citadel-00007.herokuapp.com/)
 - [Scott Bowles's Solution](https://github.com/scottBowles/coffee-shop-inventory-application) - [View in Browser](https://corcovadocafe.herokuapp.com/)
 - [Nijepa's Solution](https://github.com/nijepa/inventory_application) - [View in Browser](https://pure-everglades-32573.herokuapp.com/inventory)
+- [KungFuPhil's Solution](https://github.com/kungfuphil/guitar-shop) - [View in Browser](https://nameless-earth-13320.herokuapp.com/catalog)
 </details>
