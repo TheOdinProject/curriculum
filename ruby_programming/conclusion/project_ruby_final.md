@@ -27,6 +27,15 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ray0h's Solution](https://github.com/ray0h/TOP_Ruby_Chess) - [Play on repl.it](https://repl.it/@ray0h/Ruby-Chess)
+* [Magmusacy's Solution](https://github.com/Magmusacy/chess_ruby) (With AI) - [Play on repl.it](https://repl.it/@Magmusacy/chessruby)
+* [James's Solution](https://github.com/jegrieve/Ruby_Chess)
+* [Ranko's Solution](https://github.com/rankoliang/chess)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/chess)
+* [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/tree/master/chess)
+* [andrewjh271's Solution](https://github.com/andrewjh271/chess) - [View on Repl.it](https://chess.andrewjh271.repl.run/)
+* [Darren's Solution](https://github.com/DarrenLo0530/chess)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/chess) (with AI)
 * [Nsars19's Solution](https://github.com/nsars19/Chess)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby-building-blocks/tree/master/chess_game)
 * [pudu87's Solution](https://github.com/pudu87/chess-game)
@@ -143,6 +152,11 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Robert Suazo's Solution](https://github.com/rsuazo/chess)
 * [Matt Miller's Solution](https://github.com/MattMiller1989/Chess)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-chess-v2)
+* [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/chess)
+* [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/tree/master/Ruby_projects/Chess)
+* [John Johnson's Solution](https://github.com/NotAProgrammerdork/ruby-chess)
+* [tim87henry's Solution](https://github.com/tim87henry/chess)
+* [bhenning83's Solution](https://github.com/bhenning83/chess)
 
 </details>
 

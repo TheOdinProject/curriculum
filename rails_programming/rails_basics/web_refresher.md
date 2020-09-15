@@ -14,7 +14,7 @@ The other key component is that each request uses one of four main "verbs" -- GE
 
 ### REST
 
-REST is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
+REST (short for Representational state transfer) is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
 
 1. GET all the posts (aka **"index"** the posts)
 2. GET just one specific post (aka **"show"** that post)

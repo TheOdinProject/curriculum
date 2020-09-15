@@ -23,3 +23,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Responsive Navigation Patterns from Brad Frost](https://bradfrost.com/blog/post/responsive-nav-patterns/)
 * [Techniques for Gracefully Degrading Media Queries](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/)
 * [Best Practices of Responsive Web Design](https://medium.com/level-up-web/best-practices-of-responsive-web-design-6da8578f65c4)
+* [An approach to Responsive design by Kevin Powell](https://www.youtube.com/watch?v=0ohtVzCSHqs)
