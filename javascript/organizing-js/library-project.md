@@ -41,9 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
 - [Siddharth's Solution](https://github.com/siddharth-stn/myLibrary)
-=======
 - [arjobosh's Solution](https://github.com/arjobosh/library) - [View in Browser](https://arjobosh.github.io/library/)
 - [Justinkar's Solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
 - [Simon's Solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
