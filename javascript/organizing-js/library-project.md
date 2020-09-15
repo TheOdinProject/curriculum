@@ -121,7 +121,6 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [Bassel Alrefai's Solution (w/Firebase)](https://github.com/basselalrefai/Library) - [View in Browser](https://basselalrefai.github.io/Library/)
 - [Ryan's Solution](https://github.com/RyanTalbot/library) - [View in Browser](https://htmlpreview.github.io/?https://github.com/RyanTalbot/library/blob/master/index.html)
 - [notstoe's Solution (w/localStorage)](https://github.com/notstoe/small-library) - [View in Browser](https://notstoe.github.io/small-library/)
->>>>>>> 116f479565d57eb1668584bb792f27925800346d
 - [fviccia's Solution](https://github.com/fviccia/library) - [View in Browser](https://fviccia-library.netlify.app/)
 - [Tomodi98's Solution](https://github.com/Tomodi98/library) - [View in Browser](https://tomodi98.github.io/library/)
 - [Osechi3's Solution](https://github.com/osechi3/library-project) - [View in Browser](https://osechi3.github.io/library-project/)
