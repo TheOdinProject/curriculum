@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/members-only)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/members-only) - [View in Browser](https://infinite-eyrie-03989.herokuapp.com/)
 * [Kfollen93's Solution](https://github.com/Kfollen93/members-only)
 * [Darren's Solution](https://github.com/DarrenLo0530/exclusive-chat)
