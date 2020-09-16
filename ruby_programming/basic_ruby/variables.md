@@ -103,6 +103,8 @@ desired_location        #=> "BARCELONA"
 johns_location          #=> "BARCELONA"
 ~~~
 
+Woah! Can you figure out what happened here? Use irb or [repl.it](https://repl.it/) to play around with these variable examples. Note the different effects of `upcase` and `upcase!`.
+
 Assigning variables to other variables can therefore have some unintended side effects. Just because it looks like fun doesn't mean you should do it, too. But you know what is fun? *Reading assignments*!
 
 ### Assignment
