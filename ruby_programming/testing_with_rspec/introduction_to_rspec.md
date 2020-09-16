@@ -179,7 +179,7 @@ Failed examples:
 rspec ./spec/calculator_spec.rb:5 # Calculator#add adds two numbers together
 ~~~
 
-Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-factor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
+Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
 
 Getting this method to "green" shouldn't be too difficult. RSpec clearly provides a reason for the failure: it expected the output to be `7` when we provided the method with `(5, 2)` as the parameters. Instead, it returned `nil`. Why might that be? Well, our `#add` _does_ take two parameters...but it does nothing with them! Add the minimum amount of code necessary to get your test to pass:
 

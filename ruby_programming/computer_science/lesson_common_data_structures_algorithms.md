@@ -1,6 +1,6 @@
 ### Introduction
 
-The basic idea of a **data structure** is to store data in a way that meets the needs of your particular application.  You might be inclined to store a particular kind data in one giant array, but it would be rather time consuming to locate a specific value if you had a significant number and depth of items.  So you need to look to other options.
+The basic idea of a **data structure** is to store data in a way that meets the needs of your particular application.  You might be inclined to store a particular kind of data in one giant array, but it would be rather time consuming to locate a specific value if you had a significant number and depth of items.  So you need to look to other options.
 
 Depending on the application, there are a batch of other basic data structures available to help you out.  The differences between them typically have to do with trade-offs between how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.
 
@@ -51,4 +51,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
 * [A brief note on putting Sorting, Tries and Heaps into Ruby, by Ilya Grigorik](http://www.igvita.com/2009/03/26/ruby-algorithms-sorting-trie-heaps/)
 * [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
-* [An article](https://www.crondose.com/2016/06/create-a-binary-search-tree-array/) that discusses how to construct a binary search tree from an unordered array
+* [An article](https://www.crondose.com/2016/06/create-a-binary-search-tree-array/) that discusses how to construct a binary search tree from an unordered array.
+* [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.

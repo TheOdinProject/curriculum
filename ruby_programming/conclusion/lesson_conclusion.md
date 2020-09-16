@@ -4,7 +4,7 @@ Sure, you've still got plenty to learn, but the real conceptual leaps have alrea
 
 If you know Ruby, the world is sort of opened up for you.  Want to learn Python?  That would be a whole lot easier now.  Nervous about Rails?  Don't be.  Rails is just Ruby that's been packaged up to do lots of stuff for you.  With what you know, you'll have a much easier time "seeing the matrix" and understanding what Rails is up to.  Even Javascript should make a whole lot more sense to you once we get back to it.
 
-So that's it, you're more than ready to to go ahead and take on Rails.  **Congratulations!!!**
+So that's it, you're more than ready to go ahead and take on Rails.  **Congratulations!!!**
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
