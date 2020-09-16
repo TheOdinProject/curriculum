@@ -21,9 +21,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
 * [onagova's Solution](https://github.com/onagova/hangman) - [View in Repl.it](https://repl.it/@onagova/hangman#hangman.rb)
-=======
 * [isaacrez's Solution](https://github.com/isaacrez/hangman) - [View in Repl.it](https://repl.it/@isaacrez1/Hangman#main.rb)
 * [AFurrow's Solution](https://github.com/Afurrow/hangman/blob/master/hangman.rb)
 * [Kingofping654's Solution](https://github.com/kingofping654/Hangman) - [View in Repl.it](https://repl.it/@kingofping654/Hangman#main.rb)
@@ -36,7 +34,6 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
 * [mistavoga's Solution](https://github.com/mistavoga/hangman)
 * [Sanjana's Solution](https://github.com/error34043/ruby-hangman) - [View in Repl.it](https://repl.it/@error34043/ruby-hangman#main.rb)
 * [Anel Canto's Solution](https://github.com/anelcanto/hangman)
->>>>>>> master
 * [Hans Oliveira's Solution](https://github.com/hansnery/hangman)
 * [nguyenjessev's Solution](https://github.com/nguyenjessev/hangman) - [View in Repl.it](https://repl.it/@nguyenjessev/hangman#hangman.rb)
 * [nhleto's Solution](https://github.com/nhleto/Hangman)
