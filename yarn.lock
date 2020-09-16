@@ -1010,10 +1010,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@hookform/resolvers@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-0.1.0.tgz#30f5cf17a3a5590ca90dcfa834492e515e17d0a5"
-  integrity sha512-/6cnDycgWhmvUpRmYY7506qJlym+hirk4tbt2waY3C2rOjFn+4/Gt4CuVLzjrsNJvOJkN36bx+OSlccecBgsrg==
+"@hookform/resolvers@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-0.1.1.tgz#285fa7aa1b7b94fab526c4d39713ed3470558497"
+  integrity sha512-IKWcvDG82D0N+3ZjMSbdHul6TgL2Dd68aXyijLvc1mUCzBChvQwS6YDsXRrc9WuIjUPb9nluaVIIrmg3V1JMGQ==
 
 "@npmcli/move-file@^1.0.1":
   version "1.0.1"
