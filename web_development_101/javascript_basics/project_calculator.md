@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kiizerd's Solution](https://github.com/kiizerd/calculator) - [View in Browser](https://kiizerd.github.io/calculator/)
 - [Serena's Solution](https://github.com/Sesadada/calculator) - [View in Browser](https://sesadada.github.io/calculator/)
 - [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/calculator.html) - [View in Browser](https://theghost1980.github.io/google-homepage/calculator.html)
 - [Givemore's Solution](https://github.com/Givemo/curriculum) - [View in Browser](https://givemo.github.io/modern_js_calculator/)
