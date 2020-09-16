@@ -16,7 +16,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-hook-form": "^6.7.2",
+    "react-hook-form": "^6.8.2",
     "react_ujs": "^2.6.1",
     "regenerator-runtime": "^0.13.7",
     "stickyfilljs": "^2.1.0",
