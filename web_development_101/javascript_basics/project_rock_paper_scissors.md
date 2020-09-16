@@ -1992,4 +1992,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Lucija's' Solution](https://github.com/India12/Rock-Paper-Scissors) - [View in Browser](https://india12.github.io/Rock-Paper-Scissors/)
 - [Daniel_Ozdogan's Solution](https://github.com/Daniel88Hus/ProjectRockPaperScissors/blob/master/PRJRockPaperScsGame.html)
 - [Anna's Solution](https://github.com/abaker93/rock-paper-scissors) - [View in Browser](https://abaker93.github.io/rock-paper-scissors/)
+- [Alex's Solution](https://github.com/altays/RPS-Odin) - [View in Browser](https://altays.github.io/RPS-Odin/)
 </details>
