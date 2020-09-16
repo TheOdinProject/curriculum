@@ -6,7 +6,7 @@ Views live in the directory `app/views/controller_name/action_name.html.erb`, wh
 
 So the `Posts` controller running the `#index` action will implicitly render the `app/views/posts/index.html.erb` view when it's done.  You can explicitly tell your controller to render a differently named view by passing it as a parameter to the `render` function in your controller, but why?  This directory and naming structure helps you (and Rails) to always know where to find a given view.
 
-To use an instance variable from your controller, just call it the same way you would in the controller: `@user.first_name` or `@posts` or `@some_other_variable`.
+To use an instance variable from your view, just call it the same way you would in the controller: `@user.first_name` or `@posts` or `@some_other_variable`.
 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
