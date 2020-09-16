@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
  
 * Add your solution below this line!
+* [AndrewLeach94's Solution](https://github.com/AndrewLeach94/virtual-etch-a-sketch) - [View in Browser](https://andrewleach94.github.io/virtual-etch-a-sketch/)
 * [tootihamza's Solution](https://github.com/tootihamza/etch-a-sketch) - [View in Browser](https://tootihamza.github.io/etch-a-sketch/)
 * [Zakarya-Mks Solution](https://github.com/Zakarya-Mks/odinP_Etch-a-Sketch) - [View in Browser](https://zakarya-mks.github.io/odinP_Etch-a-Sketch)
 * [Vedant Wankhade's Solution](https://github.com/VedantWankhade/etch-a-sketch) - [View in Browser](https://vedantwankhade.github.io/etch-a-sketch/)
