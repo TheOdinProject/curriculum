@@ -1,0 +1,41 @@
+.lesson-navigation {
+  padding-bottom: 82px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+
+  &__item {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__circle {
+    border-radius: 50%;
+    background: $grey;
+    width: 16px;
+    height: 16px;
+
+    &.active {
+      background: $black;
+    }
+  }
+
+  &__title {
+    color: $grey;
+    display: inline-block;
+    flex: 1;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+  &__link {
+
+    &.active {
+      color: $black;
+      font-weight: bold;
+    }
+  }
+}

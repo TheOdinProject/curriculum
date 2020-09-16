@@ -1,0 +1,62 @@
+h1, h2, h3, h4, p {
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  margin-bottom: 2rem;
+
+  @include media-breakpoint-down(lg) {
+    max-width: 80%;
+    margin: 0 auto 2rem auto;
+  }
+
+  @include media-breakpoint-down(xs) {
+    max-width: 100%;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+p {
+  color: $grey;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+.small {
+  font-size: .8125rem;
+  letter-spacing: 0.2px;
+}
+
+.secondary {
+  color: $grey;
+}
+
+.disabled {
+  color: $pale-grey;
+}
+
+.accent {
+  color: $light-orange;
+}
+
+.bold {
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+<div id="home-page">
+  <div class="hero gradient">
+    <header>
+      <h1 class="accent hero__main-heading"> Your Career in Web Development Starts Here </h1>
+      <p class="secondary hero__sub-heading"> Our full stack curriculum is free and supported by a passionate open source community.</p>
+        <%= link_to 'View Full Curriculum', tracks_path,  class: 'button button--primary' %>
+    </header>
+    <%= image_tag 'home-isometric.svg', class: 'hero__image', alt: 'home-page-banner' %>
+  </div>
+
+  <%= render 'static_pages/home/how_it_works' %>
+
+  <%= render 'static_pages/home/curriculum', courses: @courses %>
+
+  <%= render 'static_pages/home/success_stories', cache: true %>
+</div>

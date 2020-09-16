@@ -1,0 +1,44 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.2rem;
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__image {
+    width: 100px;
+    height: 100px;
+    background-color:#fff;
+    border-radius:50%;
+    margin-right: 2rem;
+
+    @include media-breakpoint-down(md) {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__username {
+    margin-bottom: 0;
+    flex-basis: 60%;
+  }
+
+  &__learning-goal {
+    margin-left: 1rem;
+    @include word-wrap();
+
+    @include media-breakpoint-down(md) {
+      margin-left: 0;
+      padding-top: 1rem;
+    }
+  }
+
+  &__link {
+    text-decoration: underline;
+    color: $grey;
+  }
+}

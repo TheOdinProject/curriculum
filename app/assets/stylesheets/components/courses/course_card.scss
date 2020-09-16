@@ -1,0 +1,12 @@
+.course-card {
+
+  &__description {
+    border-top: 1px solid $very-pale-grey;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  &:last-child {
+    margin-bottom: 80px;
+  }
+}

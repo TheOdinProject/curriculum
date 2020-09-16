@@ -1,0 +1,51 @@
+.faq-title {
+  margin-bottom: 2em;
+}
+
+#faq-accordion {
+  padding: 0;
+
+  .faq-card {
+    margin-bottom: 1em;
+    @include box-shadow(0 2px 4px 0 $very-pale-grey);
+    border: 0;
+
+    #faq-item-10 .card-block {
+      ul { padding-left: 40px; }
+      h2 { padding-top: 25px; }
+    }
+
+    .faq-card-header {
+      align-items: center;
+      background-color: $white;
+      border-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+
+      .faq-question-title {
+        margin: 0;
+        padding: 0.2em;
+        @media (max-width: 480px) {
+          font-size: 1.2em;
+          line-height: 24px;
+          padding-right: 1em;
+        }
+      }
+
+      .expander, .minimizer {
+        font-size: 24px;
+        @media (max-width: 480px) {
+          font-size: 1.125em;
+        }
+      }
+
+      .minimizer {
+        display: none;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

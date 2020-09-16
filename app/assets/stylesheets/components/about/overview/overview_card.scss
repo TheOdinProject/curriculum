@@ -1,0 +1,25 @@
+.overview-card {
+  padding: 20px !important;
+  align-items: center;
+  height: 100%;
+
+  @include media-breakpoint-down(md) {
+    height: auto
+  }
+
+  &__heading {
+    font-size: 2.25rem;
+    font-weight: bold;
+
+    &--inline {
+      display: inline-block;
+      margin-left: 10px;
+      color: $pale-grey;
+      vertical-align: super;
+    }
+  }
+
+  &__content {
+    margin-top: 30px;
+  }
+}

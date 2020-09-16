@@ -1,0 +1,39 @@
+.benefits {
+  background-color: $white-smoke;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  &__title {
+    color: $primary;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+  }
+}
+
+.benefit {
+  display: flex;
+  margin-bottom: 60px;
+  align-items: flex-start;
+
+  &__image {
+    margin-right: 30px;
+  }
+
+  &__title {
+    color: $primary;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  @media screen and (max-width: 575px) {
+    display: block;
+    text-align: center;
+
+    &__image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
