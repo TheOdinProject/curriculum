@@ -4297,6 +4297,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [DefCoding's Solution (Easy)](https://github.com/defcoding/google-homepage/) - [View in Browser](https://defcoding.github.io/google-homepage/)
 * [SuperModerate's Solution (Easy)](https://github.com/SuperModerate/google-homepage) - [View in Browser](https://supermoderate.github.io/google-homepage/)
 * [hipsuy's Solution (Easy)](https://github.com/hipsuy/google-homepage) - [View in Browser](https://hipsuy.github.io/google-homepage/)
+* [Plutonan's Solution (Easy)](https://github.com/Plutonan/google-homepage) - [View in Browser](https://plutonan.github.io/google-homepage/)
 </details>
 
 ### Additional Resources
