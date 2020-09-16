@@ -260,6 +260,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Bendee's Solution](https://github.com/bendee48/micro-reddit)
 * [Robert Suazo's Solution](https://github.com/rsuazo/micro-reddit)
 * [Ken H's Solution](https://github.com/kholston/micro_reddit)
+* [Brent C's Solution](https://github.com/brentcam250/Active_record_micro_reddit)
 </details>
 
 ### Additional Resources
