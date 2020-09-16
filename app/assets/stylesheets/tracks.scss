@@ -1,0 +1,35 @@
+// Place all the styles related to the tracks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.tracks-index {
+  padding-bottom: 80px;
+  p {
+    margin: 24px auto;
+    max-width: 770px;
+  }
+}
+
+.track-description {
+  margin-bottom: 38px;
+}
+
+.track-card {
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+.track-card-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  h1 {
+    margin: 0;
+    margin-right: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: 0.2px;
+  }
+}

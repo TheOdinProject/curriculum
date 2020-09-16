@@ -1,0 +1,16 @@
+.overview {
+  background: $white-smoke;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  &__heading {
+    margin-bottom: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+}

@@ -1,0 +1,76 @@
+<% beliefs = [
+  {
+    short_text: 'Education should be free and accessible',
+    description: 'This curriculum itself is free and we tried to link to resources that are themselves free so anyone in the world can use them.',
+    image_path: 'about_page/img-education.svg',
+    image_alt: 'book icon'
+  },
+  {
+    short_text: 'You learn best by actually building',
+    description: 'The Odin Project curriculum is full of projects that will help you build a strong portfolio of work on Github to fill out your resume.',
+    image_path: 'about_page/img-build.svg',
+    image_alt: 'keyboard icon'
+  },
+  {
+    short_text: 'Motivation is fueled by working with others',
+    description: 'We\'re committed to connecting students together so they can stay motivated and learn faster.',
+    image_path: 'about_page/img-people.svg',
+    image_alt: 'people icon'
+  },
+  {
+    short_text: 'Open source is best',
+    description: 'Our curriculum and website are available on Github and we encourage students to actually contribute to the project itself!',
+    image_path: 'about_page/img-opensource.svg',
+    image_alt: 'open source icon'
+  }
+] %>
+
+<%= title('About') %>
+
+<div class="StaticPagesController">
+  <div id="about">
+    <div class="container">
+      <div class="page-intro">
+        <h1 class="page-intro__title">About The Odin Project</h1>
+        <p class="page-intro__text">
+          The Odin Project is one of those "What I wish I had when I was learning" resources.  Not everyone has access to a computer science education or the funds to attend an intensive coding school and neither of those is right for everyone anyway.  This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.
+        </p>
+      </div>
+
+      <div class="beliefs">
+        <div class="col-lg-8 offset-lg-2">
+          <h2 class="bold text-center beliefs-heading">Our Beliefs</h2>
+          <%= render partial: 'static_pages/about/belief', collection: beliefs, as: :belief %>
+        </div>
+      </div>
+    </div>
+
+    <%= render 'static_pages/about/overview' %>
+
+    <div class="container">
+      <div class="row contact">
+        <div class="col-md-6 odin-logo">
+          <%= image_tag 'about_page/odin-wink.gif', alt: 'Odin logo', class: 'img-responsive' %>
+        </div>
+
+        <div class="col-md-6 col-lg-5 contact-details">
+          <h2 class="contact-details__heading">Want to contact us?</h2>
+
+          <p class="contact-details__sub-heading">
+            Connect with our friendly community on discord, a chat and networking platform or <a href="mailto:contact@theodinproject.com">send us an email</a>
+          </p>
+
+          <%= link_to 'Chat on Discord', chat_link, class: 'button button--secondary', target: '_blank', rel: 'noreferrer' %>
+        </div>
+      </div>
+    </div>
+
+    <div class="contribute">
+      <%= render 'shared/bottom_cta',
+        button: contribute_button,
+        heading: 'Help the Odin Project stay current and meaningful to all future students, please contribute',
+        sub_heading: ''
+      %>
+    </div>
+  </div>
+</div>

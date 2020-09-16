@@ -1,0 +1,46 @@
+<%
+  benefits = [
+    {
+      icon: "contributing/img-clock.svg",
+      alt_text: "Clock",
+      title: "Flexibility",
+      body: "You can work on your own time. It's not 9 to 5 so you can get involved when it's convenient for you."
+    },
+    {
+      icon: "contributing/img-exposure.svg",
+      alt_text: "Person with Loudspeaker",
+      title: "Recognition",
+      body: "Significant Contributors will be listed on this page and on Github."
+    },
+    {
+      icon: "contributing/img-job.svg",
+      alt_text: "Briefcase",
+      title: "Experience",
+      body: "You'll get the chance to work within a team of experienced engineers and to work on new and interesting features that will expand your capabilities."
+    },
+    {
+      icon: "contributing/img-community.svg",
+      alt_text: "Impact",
+      title: "Impact",
+      body: "The features you work on or the lessons you create will help thousands of students learn life changing skills."
+    }
+  ]
+%>
+
+<div class="benefits">
+  <div class="container">
+    <h2 class="benefits__title">Why you should get involved</h2>
+    <div class="row">
+      <% benefits.each do |benefit| %>
+        <div class="col-lg-6 benefit">
+          <%= image_tag benefit[:icon], alt: benefit[:alt_text], class: "benefit__image" %>
+
+          <div class="benefit__details">
+            <h3 class="benefit__title"><%= benefit[:title] %></h3>
+            <p class="benefit__text"><%= benefit[:body] %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

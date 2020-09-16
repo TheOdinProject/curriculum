@@ -1,0 +1,19 @@
+.card-main {
+  @include box-shadow(0 5px 16px 0 $very-pale-grey);
+  background-color: $white;
+  margin-bottom: 40px;
+  padding: 40px 60px;
+  position: relative;
+
+  &--shadowless {
+    @include box-shadow(none);
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding: 30px;
+  }
+}
+
+.card-block {
+  padding: 1.25em;
+}

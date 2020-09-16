@@ -1,0 +1,31 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "@hookform/resolvers": "^0.1.0",
+    "@rails/ujs": "^6.0.3",
+    "@rails/webpacker": "5.2.1",
+    "axios": "^0.20.0",
+    "babel-plugin-prismjs": "^2.0.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "bootstrap": "^4.5.2",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "prismjs": "^1.21.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.7.2",
+    "react_ujs": "^2.6.1",
+    "regenerator-runtime": "^0.13.7",
+    "stickyfilljs": "^2.1.0",
+    "toaster": "^0.1.2",
+    "turbolinks": "^5.2.0",
+    "validate.js": "^0.13.1",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}

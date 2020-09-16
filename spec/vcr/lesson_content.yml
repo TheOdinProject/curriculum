@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/theodinproject/curriculum/contents//README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.12.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token <GITHUB_API_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 04 Oct 2018 20:30:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4990'
+      X-Ratelimit-Reset:
+      - '1538685702'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"c2e07856fb98b781e5fdb80207489d895a82c73d"
+      Last-Modified:
+      - Thu, 04 Oct 2018 19:12:36 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.046015'
+      X-Github-Request-Id:
+      - C4A6:2904:479FB08:815E218:5BB6786D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name":"README.md","path":"README.md","sha":"c2e07856fb98b781e5fdb80207489d895a82c73d","size":5714,"url":"https://api.github.com/repos/TheOdinProject/curriculum/contents/README.md?ref=master","html_url":"https://github.com/TheOdinProject/curriculum/blob/master/README.md","git_url":"https://api.github.com/repos/TheOdinProject/curriculum/git/blobs/c2e07856fb98b781e5fdb80207489d895a82c73d","download_url":"https://raw.githubusercontent.com/TheOdinProject/curriculum/master/README.md","type":"file","content":"IyBXZWxjb21lIHRvIFRoZSBPZGluIFByb2plY3QgQ3VycmljdWx1bToKClRo\nZSBPZGluIFByb2plY3QgKGFsc28ga25vd24gYXMgVE9QKSwgaXMgYW4gb3Bl\nbi1zb3VyY2UgY29tbXVuaXR5IGZvciBsZWFybmluZyBmdWxsLXN0YWNrIHdl\nYiBkZXZlbG9wbWVudC4gT3VyIG1pc3Npb24gaXMgdG8gcHJvdmlkZSBhIGNv\nbXByZWhlbnNpdmUgY3VycmljdWx1bSB0byBsZWFybiB3ZWIgZGV2ZWxvcG1l\nbnQgZm9yIGZyZWUuIFdlIGhlbHAgb3VyIHN0dWRlbnRzIHRvIGxlYXJuIHRo\nZSBza2lsbHMgYW5kIGJ1aWxkIHRoZSBpbXByZXNzaXZlIHBvcnRmb2xpbyBv\nZiBwcm9qZWN0cyB0aGV5IG5lZWQgdG8gZ2V0IGhpcmVkIGFzIGEgd2ViIGRl\ndmVsb3Blci4KClRoZSBjdXJyaWN1bHVtIGlzIGRpdmlkZWQgaW50byBkaXN0\naW5jdCBjb3Vyc2VzIGVhY2ggY292ZXJpbmcgdGhlIHN1YmplY3QgbGFuZ3Vh\nZ2UgaW4tZGVwdGguIEVhY2ggY291cnNlIGNvbnRhaW5zIGEgbGlzdGluZyBv\nZiBsZXNzb25zIGludGVyc3BlcnNlZCB3aXRoIG11bHRpcGxlIHByb2plY3Rz\nLiBUaGVzZSBwcm9qZWN0cyBnaXZlIHN0dWRlbnRzIHRoZSBvcHBvcnR1bml0\neSB0byBwcmFjdGlzZSB3aGF0IHRoZXkgYXJlIGxlYXJuaW5nLCB0aGVyZWJ5\nIHJlaW5mb3JjaW5nIGFuZCBzb2xpZGlmeWluZyB0aGUgdGhlb3JldGljYWwg\na25vd2xlZGdlIGxlYXJuZWQgaW4gdGhlIGxlc3NvbnMuIENvbXBsZXRlZCBw\ncm9qZWN0cyBtYXkgdGhlbiBiZSBpbmNsdWRlZCBpbiB0aGUgc3R1ZGVudCdz\nIHBvcnRmb2xpby4KCkxlc3NvbnMgYXJlIHN0cnVjdHVyZWQgdGhyb3VnaCBh\nIGNvbWJpbmF0aW9uIG9mIG9yaWdpbmFsIHdyaXR0ZW4gY29udGVudCBhbmQg\nYSBjb21waWxhdGlvbiBvZiBjYXJlZnVsbHkgY3VyYXRlZCByZXNvdXJjZXMg\nZnJvbSB0aGUgd2ViLiBUaGlzIGlzIHdoZXJlIHRoZSBjb250cmlidXRpbmcg\naGFwcGVucyEKClRoaXMgcmVwb3NpdG9yeSBob3VzZXMgdGhlIGN1cnJpY3Vs\nYXIgY29udGVudCB1c2VkIGluIFtUaGUgT2RpbiBQcm9qZWN0XShodHRwOi8v\ndGhlb2RpbnByb2plY3QuY29tKSB3ZWJzaXRlLiAoY2YuIFt0aGlzIHJlcG9z\naXRvcnldKGh0dHBzOi8vZ2l0aHViLmNvbS9UaGVPZGluUHJvamVjdC90aGVv\nZGlucHJvamVjdCkgd2hpY2ggaG91c2VzIHRoZSBmcm9udC1lbmQgYW5kIGJh\nY2stZW5kIGNvZGUuKQoKClRoZSBUT1AgY29tbXVuaXR5IGNhbiBiZSBmb3Vu\nZCBpbiBvdXIgW2dpdHRlciBjaGF0IHJvb21zXShodHRwczovL2dpdHRlci5p\nbS9UaGVPZGluUHJvamVjdC90aGVvZGlucHJvamVjdCkuCgojIyBDb250cmli\ndXRpbmcKClRoZSBPZGluIFByb2plY3QgZGVwZW5kcyBvbiBvcGVuLXNvdXJj\nZSBjb250cmlidXRpb25zIHRvIGltcHJvdmUsIGdyb3cgYW5kIHRocml2ZS4g\nV2Ugd2VsY29tZSBjb250cmlidXRvcnMgb2YgYWxsIGV4cGVyaWVuY2UgbGV2\nZWxzIGFuZCBiYWNrZ3JvdW5kcyB0byBoZWxwIG1haW50YWluIHRoaXMgYXdl\nc29tZSBjdXJyaWN1bHVtIGFuZCBjb21tdW5pdHkuCgojIyMgQ291cnNlcyBp\nbiBEZXZlbG9wbWVudApbVGhlc2UgYXJlIHRoZSBjb3Vyc2VzXShodHRwczov\nL2dpdGh1Yi5jb20vVGhlT2RpblByb2plY3QvY3VycmljdWx1bS9pc3N1ZXM/\ndXRmOD0lRTIlOUMlOTMmcT1pcyUzQWlzc3VlJTIwaXMlM0FvcGVuJTIwbGFi\nZWwlM0ElMjJjb3Vyc2UlMjBvdmVydmlldyUyMiUyMCkgd2UgYXJlIGRldmVs\nb3BpbmcgYXQgdGhlIG1vbWVudC4KClBsZWFzZSBmZWVsIGZyZWUgdG8gY29t\nbWVudCBvbiBhbnkgb2YgdGhlbSB3aXRoOgoqIHlvdXIgc3VnZ2VzdGlvbnMg\nZm9yIHRvcGljcyB3ZSBzaG91bGQgY292ZXIsCiogYW55IHJlc291cmNlcyB5\nb3UgdGhpbmsgd2Ugc2hvdWxkIGluY2x1ZGUsCiogYW55IHByb2plY3QgaWRl\nYXMgeW91IHRoaW5rIHdvdWxkIGJlIGEgZ29vZCBmaXQsCiogb3IgYW55IGZl\nZWRiYWNrIGluIGdlbmVyYWwuCgpFdmVyeSBsaXR0bGUgYml0IGhlbHBzIHRv\nIG1ha2Ugb3VyIGN1cnJpY3VsdW0gYmV0dGVyLgoKIyMjIExlc3NvbnMgaW4g\nRGV2ZWxvcG1lbnQKT24gYSBtb3JlIGdyYW51bGFyIGxldmVsLCBbdGhlc2Ug\nYXJlIHRoZSBsZXNzb25zXShodHRwczovL2dpdGh1Yi5jb20vVGhlT2RpblBy\nb2plY3QvY3VycmljdWx1bS9pc3N1ZXM/dXRmOD0lRTIlOUMlOTMmcT1pcyUz\nQWlzc3VlJTIwaXMlM0FvcGVuJTIwbGFiZWwlM0ElMjJuZXclMjBsZXNzb24l\nMjIlMjApIHdlIGFyZSBjdXJyZW50bHkgZGV2ZWxvcGluZyBmb3IgdGhlIGNv\ndXJzZXMuIEFnYWluLCBwbGVhc2UgZmVlbCBmcmVlIHRvIGNvbW1lbnQgb24g\nYW55IG9mIHRoZW0gd2l0aCBhbnkgc3VnZ2VzdGlvbnMgYW5kIGlkZWFzIHlv\ndSBoYXZlLgoKSWYgeW91IHdvdWxkIGxpa2UgdG8gaGVscCB1cyBkZXZlbG9w\nIGFueSBvZiB0aGVzZSBsZXNzb25zIHBsZWFzZSByZWFkIG91ciBbY29udHJp\nYnV0aW5nIGd1aWRlXShodHRwczovL2dpdGh1Yi5jb20vVGhlT2RpblByb2pl\nY3QvY3VycmljdWx1bS93aWtpL0NvbnRyaWJ1dGluZy1HdWlkZSkgdG8gZmlu\nZCBvdXQgaG93IHlvdSBjYW4gY29udHJpYnV0ZS4KCiMjIyMgQSBub24tZXho\nYXVzdGl2ZSBsaXN0IG9mIHdoYXQgeW91IGNhbiBjb250cmlidXRlIHRvIGhl\nbHAgdXM6CiogVHlwbyBhbmQgZ3JhbW1hciBjb3JyZWN0aW9ucy4KKiBSZXdy\naXRpbmcgbGVzc29uIHNlY3Rpb25zIHRvIG1ha2UgdGhlbSBjbGVhcmVyIGFu\nZCBlYXNpZXIgdG8gdW5kZXJzdGFuZC4KKiBGaXhlcyBmb3IgYnJva2VuIGxp\nbmtzLgoqIE5ldyByZXNvdXJjZSBsaW5rcyB5b3UgdGhpbmsgd291bGQgbWFr\nZSBhIGxlc3NvbiBiZXR0ZXIKKiBXb3JraW5nIG9uIG5ldyBsZXNzb25zIGFu\nZCBwcm9qZWN0cywgeW91IGNhbiBjYW4gY2hvb3NlIHRvIHdvcmsgb24gcGFy\ndHMgb2YgYSBsZXNzb24gd2hpY2ggYXJlIG91dGxpbmVkIGluIHRoZSBwcm9n\ncmVzcyBsaXN0IG9uIFtsZXNzb24gcGxhbnNdKGh0dHBzOi8vZ2l0aHViLmNv\nbS9UaGVPZGluUHJvamVjdC9jdXJyaWN1bHVtL2lzc3Vlcz91dGY4PSVFMiU5\nQyU5MyZxPWlzJTNBaXNzdWUlMjBpcyUzQW9wZW4lMjBsYWJlbCUzQSUyMm5l\ndyUyMGxlc3NvbiUyMiUyMCkgb3IgeW91IGNhbiB3b3JrIG9uIGNvbXBsZXRp\nbmcgYW4gZW50aXJlIGxlc3NvbiB5b3Vyc2VsZi4KClRvIGZpbmQgb3V0IG1v\ncmUgYWJvdXQgaG93IHlvdSBjYW4gY29udHJpYnV0ZSBwbGVhc2UgcmVhZCBv\ndXIgW2NvbnRyaWJ1dGluZyBndWlkZV0oaHR0cHM6Ly9naXRodWIuY29tL1Ro\nZU9kaW5Qcm9qZWN0L2N1cnJpY3VsdW0vd2lraS9Db250cmlidXRpbmctR3Vp\nZGUpLgoKIyMgT3RoZXIgaGVscGZ1bCBsaW5rcwoKKkZvciBtb3JlIGluZm9y\nbWF0aW9uIGFib3V0IFRoZSBPZGluIFByb2plY3QsIGdvIHRvIFt0aGVvZGlu\ncHJvamVjdC5jb21dKGh0dHA6Ly90aGVvZGlucHJvamVjdC5jb20pLioKCipG\nb3IgdGhlIHNvdXJjZSBjb2RlIHRvIFRoZSBPZGluIFByb2plY3QncyBtYWlu\nIHdlYnNpdGUgKHdoaWNoIHB1bGxzIGluIHRoaXMgY3VycmljdWx1bSksIGNo\nZWNrIG91dCB0aGUgW2dpdGh1YiByZXBvIGhlcmVdKGh0dHA6Ly9naXRodWIu\nY29tL3RoZW9kaW5wcm9qZWN0L3RoZW9kaW5wcm9qZWN0KS4qCgoqKkhhcHB5\nIENvZGluZyEqKgoKXCogU2VlIFtsaWNlbnNlLm1kXShodHRwczovL2dpdGh1\nYi5jb20vVGhlT2RpblByb2plY3QvY3VycmljdWx1bS9ibG9iL21hc3Rlci9s\naWNlbnNlLm1kKSBmb3IgdXNhZ2UgZGV0YWlscy4KCl9fXwpDcmVhdGVkIGJ5\nIFtFcmlrIFRyYXV0bWFuXShodHRwOi8vd3d3LmdpdGh1Yi5jb20vZXJpa3Ry\nYXV0bWFuKQoKCiMgVGhlIE9kaW4gUHJvamVjdCAtIEphdmFzY3JpcHQgQ3Vy\ncmljdWx1bQoKIyMgTWlzc2lvbiBzdGF0ZW1lbnQKCioqT3VyIG1haW4gZm9j\ndXMqKiBpcyB0aGUgY3VsdGl2YXRpb24gYW5kIHNlcXVlbmNpbmcgb2YgYmVz\ndCBmcmVlIHJlc291cmNlcyBhcm91bmQgdGhlIGludGVybmV0LiBXZSBiZWxp\nZXZlIHdob2xlaGVhcnRlZGx5IHRoYXQgZXZlcnl0aGluZyBvbmUgbmVlZHMg\ndG8ga25vdyB0byBiZWNvbWUgZW1wbG95ZWQgY2FuIGJlIGZvdW5kIGZvciBm\ncmVlIG9ubGluZSwgYnV0IGZvciB0aGUgYXZlcmFnZSBuZXcgbGVhcm5lciwg\ndGhlIHZhc3QgYW1vdW50IFwoYW5kIHdpZGVseSB2YXJ5aW5nIHF1YWxpdHlc\nKSBvZiByZXNvdXJjZXMgbWFrZXMgaXQgZGlmZmljdWx0IHRvIG1ha2UgYSBt\nZWFuaW5nZnVsIHByb2dyZXNzLiAgV2UgaGF2ZSBkZXZpc2VkIGEgdGhyZWUg\nYmFzaWMgc3RlcHMgdG8gZml4IHRoaXMuCgoxLiBXZSBoYXZlIGNyZWF0ZWQg\nYSBjdXJyaWN1bHVtIHRoYXQgYXR0ZW1wdHMgdG8gZmluZCB0aGUgb3B0aW1h\nbCBzZXF1ZW5jaW5nIG9mIGluZm9ybWF0aW9uLiBUaGlzIGN1cnJpY3VsdW0g\naXMgaW50ZW5kZWQgdG8gdGFrZSBzb21lb25lIGZyb20ga25vd2luZyBsaXRl\ncmFsbHkgbm90aGluZyBhYm91dCBXZWIgRGV2ZWxvcG1lbnQgdG8gYSBwb2lu\ndCB3aGVyZSB0aGV5IGNvdWxkIGJlIGVtcGxveWVkIGFzIGEgSnVuaW9yIERl\ndmVsb3Blci4KMi4gRm9yIGVhY2ggdG9waWMgaW4gdGhlIGN1cnJpY3VsdW0g\nd2UgdHJ5IHRvIGZpbmQgdGhlIGJlc3QgZnJlZSByZXNvdXJjZXMgb24gdGhl\nIGludGVybmV0IHRvIHRlYWNoIHRoYXQgdG9waWMuICBXZSB3aWxsIG9mdGVu\nIGxpbmsgbXVsdGlwbGUgcmVzb3VyY2VzLCB0aGVyZWJ5IG5vdCByZWx5aW5n\nIHRvbyBtdWNoIG9uIGEgc2luZ2xlIHNvdXJjZSBvZiBpbmZvcm1hdGlvbi4g\nIElmIGdvb2QgcmVzb3VyY2VzIGNhbiBub3QgYmUgZm91bmQsIHdlIHdyaXRl\nIG91ciBvd24sIGJ1dCB3ZSBkZWZpbml0ZWx5IHByZWZlciBwcmltYXJ5IGxp\nbmsgdG8gZXh0ZXJuYWwgc2l0ZXMuCjMuIFdlIGludmVudCBhbmQgY3VsdGl2\nYXRlIHByb2plY3RzIHRoYXQgZ2l2ZSBsZWFybmVycyBhIGNoYW5jZSB0byBw\ncmFjdGljZSB3aGF0IHRoZXkgaGF2ZSBsZWFybmVkIGFuZCBpbnRlZ3JhdGUg\nc2tpbGxzIGFsb25nIHRoZSB3YXksIHdoaWNoIGluY3JlYXNlcyBpbmZvcm1h\ndGlvbiByZXRlbnRpb24sIGdpdmluZyB0aGUgbGVhcm5lciBhIGNoYW5jZSB0\nbyBleHBlcmltZW50IGFuZCBhbGxvd3MgdGhlIGxlYXJuZXIgdG8gYnVpbGQg\nYW4gaW1wcmVzc2l2ZSBwb3J0Zm9saW8uCgpBZGRpdGlvbmFsbHksIHdlIGhh\ndmUgbWFkZSBvdXIgbGVhcm5pbmcgbWF0ZXJpYWxzIGNvbXBsZXRlbHkgb3Bl\nbi1zb3VyY2UuICBUaGlzIG1lYW5zIHRoYXQgaWYgYW55b25lIGNvbWVzIGFj\ncm9zcyBhIHJlc291cmNlIHRoYXQgaXMgYmV0dGVyIHRoYW4gd2hhdCB3ZSBj\ndXJyZW50bHkgaGF2ZSBpbmNsdWRlZCBpbiBvdXIgbGVzc29ucywgdGhhdCBw\nZXJzb24gaXMgZnJlZSBcKGFuZCBlbmNvdXJhZ2VkIVwpIHRvIGFkZCB0aGVt\nLCB3aGljaCBpbXByb3ZlcyBvdXIgY3VycmljdWx1bSBvdmVyIHRpbWUsIGFu\nZCBoZWxwcyBpdCB0byBzdGF5IHVwLXRvLWRhdGUuCgojIyBDb250cmlidXRp\nbmcKCklmIHlvdSB3b3VsZCBsaWtlIHRvIGNvbnRyaWJ1dGUgdG8gdGhpcyBw\ncm9qZWN0IFtwbGVhc2UgY29udGFjdCB1cyBoZXJlXShodHRwczovL2dpdHRl\nci5pbS9UaGVPZGluUHJvamVjdC9OZXctSlMtY291cnNlKS4gIEZvciB0aGUg\nbW9tZW50LCB0aGUgcHJvamVjdCBsZWFkZXIgb24gdGhpcyBpcyBDb2R5IExv\neWQgXChAY29keWxveWQgaW4gdGhlIGdpdHRlciByb29tXCkgc28gZmVlbCBm\ncmVlIHRvIHBpbmcgaGltIGlmIHlvdSBoYXZlIGFueSBxdWVzdGlvbnMuCgo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/TheOdinProject/curriculum/contents/README.md?ref=master","git":"https://api.github.com/repos/TheOdinProject/curriculum/git/blobs/c2e07856fb98b781e5fdb80207489d895a82c73d","html":"https://github.com/TheOdinProject/curriculum/blob/master/README.md"}}'
+    http_version: 
+  recorded_at: Thu, 04 Oct 2018 20:30:38 GMT
+recorded_with: VCR 3.0.3

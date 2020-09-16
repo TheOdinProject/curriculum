@@ -1,0 +1,19 @@
+.page-intro {
+  text-align: center;
+  padding-bottom: 70px;
+
+  &__title {
+    color: $light-orange;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    width: 60%;
+    margin: auto;
+
+    @media (max-width: 991px) {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}

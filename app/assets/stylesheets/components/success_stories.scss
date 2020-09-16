@@ -1,0 +1,76 @@
+.success-stories-page {
+  .success-stories-title-full {
+    h1 {
+      margin-bottom: 80px;
+    }
+  }
+
+  .success-story {
+    .row {
+      @media(max-width: 480px) {
+        flex-direction: column;
+      }
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .student-name {
+      @media(max-width: 600px) {
+        text-align: center;
+        
+        .student-title {
+          display: block;
+        }
+      }
+     
+    }
+
+    .success-content {
+      flex: 1;
+
+      @media(max-width: 480px) {
+        text-align: center;
+      }
+
+      p {
+        margin-top: 1em;
+      }
+    }
+
+    .completed-label {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      color: $pale-grey;
+    }
+
+    .photo {
+      flex-basis: 100px;
+      text-align: left;
+      margin-right: 5px;
+
+      @media(max-width: 480px) {
+        text-align: center;
+      }
+
+      img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .success-stories-read-more {
+    width: 100%;
+    text-align: center;
+
+    a {
+      color: rgba($text-primary, 0.7);
+    }
+  }
+}

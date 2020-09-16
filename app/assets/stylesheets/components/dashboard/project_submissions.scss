@@ -1,0 +1,20 @@
+.project-submissions {
+  @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 60px;
+
+  .project {
+    &--borderless {
+      border: 0;
+    }
+  }
+
+  .solutions-heading {
+    margin-bottom: 70px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 30px;
+  }
+}

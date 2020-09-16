@@ -1,0 +1,108 @@
+.submissions {
+  margin-bottom: 2em;
+  text-align: left;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    align-items: center;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+  &__project-title {
+    font-size: 1.5em;
+    color: $grey;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__item {
+    border-top: solid 1px $very-pale-grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+
+    @include media-breakpoint-down(sm) {
+      position: relative;
+      flex-direction: column;
+    }
+  }
+
+  &__user {
+    font-weight: 600;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 1em;
+    }
+  }
+
+  &__button {
+    color: $grey;
+    padding: 0.5rem 1rem;
+    background-color: $button-disabled;
+    border-radius: 0.2em;
+    font-weight: 600;
+    text-align: center;
+
+    &--green {
+      color: $white;
+      background-color: $button-primary;
+    }
+  }
+
+  &__actions {
+    a,
+    span {
+      margin-left: 1em;
+    }
+
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+
+      .submissions__button {
+        margin: 0 0 1em;
+      }
+    }
+  }
+
+  &__flag {
+    color: $button-disabled;
+    cursor: pointer;
+
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      top: 5px;
+      right: 0;
+    }
+  }
+
+  &__public-icon {
+    color: $button-disabled;
+
+    &--visible {
+      color: $button-primary;
+    }
+
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      top: 5px;
+      right: 0;
+    }
+  }
+
+}

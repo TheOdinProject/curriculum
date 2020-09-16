@@ -1,0 +1,18 @@
+.lesson-functions {
+  padding: 70px 0;
+  background: $light-grey;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 1.5rem;
+  }
+
+  &__sub-title {
+    text-transform: uppercase;
+  }
+
+  &__edit-lesson-link {
+    color: $primary;
+    font-size: 1.125rem;
+  }
+}
