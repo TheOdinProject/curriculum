@@ -35,6 +35,10 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [theghost1980's Solution](https://github.com/theghost1980/google-homepage/blob/master/youtube.html) - [View in Browser](https://theghost1980.github.io/google-homepage/youtube.html)
+* [Rizwan’s Solution](https://github.com/xRizwan/youtube-video) - [View in Browser](https://xrizwan.github.io/youtube-video/)
+* [Veríssimo’s Solution](https://github.com/vec21/YouTube-page-master) - [View in Browser](https://vec21.github.io/YouTube-page-master/)
+* [justinsatorre's Solution](https://github.com/justinsatorre/youtube-clone) - [View in Browser](https://justinsatorre.github.io/youtube-clone/)
 * [LamiaSristy's Solution](https://github.com/LamiaSristy/youtube-videoplayerpage) - [View in Browser](https://raw.githack.com/LamiaSristy/youtube-videoplayerpage/master/index.html)
 * [pudu87's Solution](https://github.com/pudu87/youtube-videoplayer-page) - [View in Browser](https://pudu87.github.io/youtube-videoplayer-page/)
 * [BBrenes' Solution](https://github.com/BBrenes/youtube-page) - [View in Browser](https://bbrenes.github.io/youtube-page/)

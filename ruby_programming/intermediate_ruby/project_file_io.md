@@ -21,6 +21,11 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [isaacrez's Solution](https://github.com/isaacrez/hangman) - [View in Repl.it](https://repl.it/@isaacrez1/Hangman#main.rb)
+* [AFurrow's Solution](https://github.com/Afurrow/hangman/blob/master/hangman.rb)
+* [Kingofping654's Solution](https://github.com/kingofping654/Hangman) - [View in Repl.it](https://repl.it/@kingofping654/Hangman#main.rb)
+* [AGL9's Solution](https://github.com/agl9/hangman)
+* [lucasdonuts' Solution](https://github.com/lucasdonuts/hangman)
 * [Spike's Solution](https://github.com/superspike7/Hangman)
 * [enzoperce35's Solution](https://github.com/enzoperce35/HangMan)
 * [Alvin's Solution](https://repl.it/@AlvinIsai/SlategrayHugeDeletion#main.rb)
