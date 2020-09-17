@@ -25,6 +25,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
+
 * Add your solution below this line!
 * [Rizwan's Solution](https://github.com/xRizwan/position-float/tree/master) - [View in Browser](https://xrizwan.github.io/position-float/)
 * [Kevin's Solution](https://github.com/Kevlar2222/new-york-times/tree/master) - [View in Browser](https://kevlar2222.github.io/new-york-times/)
