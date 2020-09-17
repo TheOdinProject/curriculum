@@ -35,6 +35,14 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [dkhole's Solution](https://github.com/dkhole/todo) - [View in Browser](https://dkhole.github.io/todo/)
+* [irlgabriel's Solution](https://github.com/irlgabriel/TO-DO-List) - [View in Browser](https://todo-project-cfa27.web.app/)
+* [Adnan's Solution](https://github.com/AdnanGondal/manageMe) - [View in Browser](https://adnangondal.github.io/manageMe/)
+* [Platyphyllum's Solution](https://github.com/marboleda/todo-list) - [View in Browser](https://marboleda.github.io/todo-list/)
+* [Vas75's Solution](https://github.com/Vas75/Todo-App) - [View in Browser](https://vas75.github.io/Todo-App/)
+* [notstoe's Solution](https://github.com/notstoe/todo-list) - [View in Browser](https://notstoe.github.io/todo-list/)
+* [Abdel Perez's Solution](https://github.com/abdelp/todo-list-js) - [View in Browser](https://todo-list-41950.web.app/)
+* [stefank-29's Solution](https://github.com/stefank-29/To-Do-List) - [View in Browser](https://stefank-29.github.io/To-Do-List/)
 * [fviccia's Solution](https://github.com/fviccia/to-do-list) - [View in Browser](https://fviccia-to-do-list.netlify.app/)
 * [byter11's Solution](https://github.com/byter11/ToDo_List) - [View in Browser](https://byter11.github.io/ToDo_List/)
 * [Muhymenul Haque's Solution](https://github.com/muhymenulhaque/theToDoList) - [View in Browser](https://muhymenulhaque.github.io/theToDoList/)
@@ -42,7 +50,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Salvador Villalon's Solution](https://github.com/salvillalon45/theOdinProject-TodoList) - [View in Browser](https://salvillalon45.github.io/theOdinProject-TodoList/)
 * [kaliberpoziomka's Solution](https://github.com/kaliberpoziomka/todolist-react) - [View in Browser](https://kaliberpoziomka.github.io/todolist-react/)
 * [Rizwan's Solution](https://github.com/xRizwan/Todo-List) - [View in Browser](https://xrizwan.github.io/Todo-List/)
-* [pklepa's Solution](https://github.com/pklepa/to-do)
+* [pklepa's Solution](https://github.com/pklepa/to-do) - [View in Browser](https://pklepa.github.io/to-do/)
 * [RobisonWebDev Solution](https://github.com/robisonwebdev/Todo-List) - [View in Browser](http://davidrulonrobison.com/Todo-List/)
 * [vonhoro's Solution](https://github.com/vonhoro/To-Do-List/) - [View in Browser](https://vonhoro.github.io/To-Do-List/)
 * [Osechi3's Solution](https://github.com/osechi3/todo-list/) - [View in Browser](https://osechi3.github.io/todo-list/)
@@ -164,4 +172,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [alxmkh's Solution](https://github.com/alxmkh/to-do-list) - [View in Browser](https://alxmkh.github.io/to-do-list/)
 * [Tristan Ross's Solution](https://github.com/TristanRoss/todo-list) - [View in Browser](https://tristanross.github.io/todo-list/)
 * [liampc's Solution](https://github.com/liampc/to-do-list) - [View in Browser](https://liampc.github.io/to-do-list/)
+* [Jamesredux's Solution](https://github.com/Jamesredux/js-todo) - [View in Browser](https://jamesredux.github.io/js-todo/)
+* [Timework's Solution](https://github.com/Timework/todo) - [View in Browser](https://timework.github.io/todo/)
+* [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/todo-list) - [View in Browser](https://marvinkeilbach.github.io/todo-list/)
+* [TheMDDropout's Solution](https://github.com/TheMDDropout/betterToDoList) - [View in Browser](https://themddropout.github.io/betterToDoList/)
 </details>

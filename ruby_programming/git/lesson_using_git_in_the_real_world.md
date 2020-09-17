@@ -12,7 +12,7 @@ Again, it's all designed to keep your workflow modular and the commits independe
 
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.  
 
-To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a Github workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
+To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
 
 ### A Git Workflow For Open Source Contribution
 
@@ -20,13 +20,13 @@ Let's say you want to contribute to the web application that powers this website
 
 How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
 
-The key players in this story will be the `upstream` (the original Github repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`).  Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
+The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`).  Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
 #### Initial Setup
 
-1. Fork the original ("upstream") repository into your own Github account by using the "fork" button at the top of that repo's page on Github.
-2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on Github)
-3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on Github.  You will use this to push changes back up to Github.  You'll also want to be able to pull directly from the original repository on Github, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
+1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub)
+3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
 4. If this is your first time using git, don't forget to set your username and email using:
 
 ~~~bash
@@ -50,8 +50,8 @@ We've got one main branch -- `master`.  `master` is for production-ready code.  
 #### Sending Your Pull Request
 
 10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `master`, the hard part is all over.  Merge into `master` with `$ git checkout master` followed by `$ git merge your_feature_name`.
-11. Now you want to send your local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin master` to ship `master` up to your fork on Github.
-12. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch.  This can be done using Github's interface.  You just need to make sure you're sending it back to the `master` branch.
+11. Now you want to send your local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin master` to ship `master` up to your fork on GitHub.
+12. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch.  This can be done using GitHub's interface.  You just need to make sure you're sending it back to the `master` branch.
 13. Shake your moneymaker, you're an OSS contributor!
 
 ### Learning Outcomes
@@ -76,7 +76,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
-* Github's [official training site](https://training.github.com/)
+* GitHub's [official training site](https://training.github.com/)
 * [Understand Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
