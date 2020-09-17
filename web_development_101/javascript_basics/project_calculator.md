@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [reinimax's Solution](https://github.com/reinimax/calculator) - [View in Browser](https://reinimax.github.io/calculator/)
 - [Arthur Tripp's Solution](https://github.com/arthurktripp/calculator) - [View in Browser](https://arthurktripp.github.io/calculator/)
 - [Kiizerd's Solution](https://github.com/kiizerd/calculator) - [View in Browser](https://kiizerd.github.io/calculator/)
 - [Diogofcr's Solution](https://github.com/diogofcr/calculator) - [View in Browser](https://diogofcr.github.io/calculator/)
