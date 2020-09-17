@@ -464,6 +464,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/Mastermind) - [View in repl.it](https://Mastermind.kingsullyman.repl.run)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/mastermind.rb)
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-OOP-basics/blob/master/mastermind.rb)
 * [Lucasdonuts' Solution](https://github.com/lucasdonuts/mastermind)
