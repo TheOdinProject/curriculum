@@ -20,6 +20,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
 
+* [dkhole's React Rock Paper Scissors](https://github.com/dkhole/react-paper-scissors) - [View in Browser](https://dkhole.github.io/react-paper-scissors/)
 * [Austin's React Library](https://github.com/cudworth/react-library) - [View in Browser](https://cudworth.github.io/react-library/)
 * [LenaChestnut's React Todo App](https://github.com/LenaChestnut/react-to-do) - [View in Browser](https://lenachestnut.github.io/react-to-do/)
 * [osechi3's Vue Library](https://github.com/osechi3/library-project-vue) - [View in Browser](https://osechi3.github.io/library-project-vue/)
