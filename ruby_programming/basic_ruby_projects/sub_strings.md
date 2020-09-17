@@ -36,6 +36,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [invaderace's Solution](https://github.com/invaderace/substrings)
 * [laurpop99's Solution](https://github.com/laurpop99/substring_ruby)
 * [teshigahara's Solution](https://github.com/teshigahara/sub-strings-op/blob/master/sub-strings.rb)
 * [berubenic's Solution](https://github.com/berubenic/ruby_basic_projects/tree/master/subStrings)

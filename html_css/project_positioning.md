@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rizwan's Solution](https://github.com/xRizwan/position-float/tree/master) - [View in Browser](https://xrizwan.github.io/position-float/)
 * [Kevin's Solution](https://github.com/Kevlar2222/new-york-times/tree/master) - [View in Browser](https://kevlar2222.github.io/new-york-times/)
 * [CodingCop's Solution](https://github.com/cleve703/nytimes) - [View in Browser](http://htmlpreview.github.io/?https://github.com/cleve703/nytimes/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [irlgabriel's Solution](https://github.com/irlgabriel/ny-times-copy) - [View in Browser](https://irlgabriel.github.io/ny-times-copy/)
