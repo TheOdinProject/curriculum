@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [DatRollD20's Solution](https://github.com/datrolld20/rock-paper-scissors) - [View in Browser](https://datrolld20.github.io/rock-paper-scissors/)
 - [Nidhish's Solution](https://github.com/Nidhish1407/RockPaper) - [View in Browser](https://nidhish1407.github.io/RockPaper/)
 - [Lc's Solution](https://github.com/lc-code20/Rock-Paper-Scissors-UI) - [View in Browser](https://lc-code20.github.io/Rock-Paper-Scissors-UI/)
 - [AlBibox's Solution](https://github.com/AlBibox/RockPaperScissor)
@@ -2002,4 +2003,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DefCoding's Solution](https://github.com/DefCoding/rock-paper-scissors) - [View in Browser](https://defcoding.github.io/rock-paper-scissors/)
 - [Anna's Solution](https://github.com/abaker93/rock-paper-scissors) - [View in Browser](https://abaker93.github.io/rock-paper-scissors/)
 - [Alex's Solution](https://github.com/altays/RPS-Odin) - [View in Browser](https://altays.github.io/RPS-Odin/)
+- [TheScurvyPirate's Solution](https://github.com/TheScurvyPirate/odin-rps) - [View in Browser](https://thescurvypirate.github.io/odin-rps/)
 </details>

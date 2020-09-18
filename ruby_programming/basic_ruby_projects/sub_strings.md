@@ -36,6 +36,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lord Artchur's Solution](https://github.com/lord-artchur/ruby_substring/blob/master/ruby_substrings)
 * [invaderace's Solution](https://github.com/invaderace/substrings)
 * [laurpop99's Solution](https://github.com/laurpop99/substring_ruby)
 * [teshigahara's Solution](https://github.com/teshigahara/sub-strings-op/blob/master/sub-strings.rb)
@@ -594,4 +595,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sean's Solution](https://github.com/seanmr7/Sub-String/blob/master/sub-string.rb)
 * [MiniEngineer's Solution](https://github.com/miniengineer/ruby_programming/blob/master/substrings.rb)
 * [Gandolfthewise's Solution](https://github.com/gandolfthewise/substring/blob/master/substring.rb)
+* [Fusako's Solution](https://github.com/fusakoo/ruby-projects/blob/master/substrings.rb)
 </details>
