@@ -3,11 +3,9 @@ import { useForm } from "react-hook-form";
 import { func, object } from 'prop-types';
 
 const FlagForm = ({ onSubmit, submission }) => {
-  const { register, handleSubmit, errors, formState } = useForm({
-    mode: 'onChange'
-  });
+  const { register, handleSubmit, errors, formState } = useForm();
 
-  if (formState.isSubmitted) {
+  if (formState.isSubmitSuccessful) {
     return (
       <div className="text-center" style={{ width: '80%', margin: '0 auto' }}>
         <h1 className="bold">Thanks for helping us keep our community safe!</h1>
@@ -39,7 +37,7 @@ const FlagForm = ({ onSubmit, submission }) => {
         {errors.reason && <div className="form__error-message push-down"> {errors.reason.message}</div>}
 
         <div className="form__section form__section--right-aligned">
-          <button disabled={!formState.isValid} className="button button--primary" type="submit">Flag</button>
+          <button disabled={formState.isSubmitting} className="button button--primary" type="submit">Flag</button>
         </div>
       </form>
     </div>

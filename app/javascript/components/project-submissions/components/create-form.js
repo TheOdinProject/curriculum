@@ -6,24 +6,18 @@ import { yupResolver } from '@hookform/resolvers';
 import schema from '../schemas/project-submission-schema'
 
 const CreateForm = ({ onClose, onSubmit }) => {
-  const { register, handleSubmit, formState, errors, reset } = useForm({
+  const { register, handleSubmit, formState, errors } = useForm({
     resolver: yupResolver(schema),
-    mode: 'onTouched',
     defaultValues: {
       is_public: true,
     }
   });
 
-  const handleClose = () => {
-    reset({ isSubmitted: false });
-    onClose();
-  };
-
-  if (formState.isSubmitted) {
+  if (formState.isSubmitSuccessful) {
     return (
       <div className="text-center">
         <h1 className="accent">Thanks for Submitting Your Solution!</h1>
-        <button className="button button--primary" onClick={handleClose}>Close</button>
+        <button className="button button--primary" onClick={onClose}>Close</button>
       </div>
     )
   }
@@ -40,7 +34,7 @@ const CreateForm = ({ onClose, onSubmit }) => {
             type="url"
             name="repo_url"
             placeholder="Repository URL"
-            ref={register}
+            ref={register()}
           />
         </div>
         {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
@@ -52,7 +46,7 @@ const CreateForm = ({ onClose, onSubmit }) => {
             type="url"
             placeholder="Live Preview URL"
             name="live_preview_url"
-            ref={register}
+            ref={register()}
           />
         </div>
         {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div>}
@@ -61,12 +55,12 @@ const CreateForm = ({ onClose, onSubmit }) => {
           <div className="form__toggle-checkbox">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
             <label className="toggle form__public-checkbox">
-              <input className="toggle__input" type="checkbox" name="is_public" ref={register} />
+              <input className="toggle__input" type="checkbox" name="is_public" ref={register()} />
               <div className="toggle__fill"></div>
             </label>
           </div>
 
-          <button disabled={!formState.isValid} type="submit" className="button button--primary">Submit</button>
+          <button disabled={formState.isSubmitting} type="submit" className="button button--primary">Submit</button>
         </div>
       </form>
     </div>
