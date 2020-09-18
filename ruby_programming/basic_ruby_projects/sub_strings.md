@@ -594,4 +594,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Sean's Solution](https://github.com/seanmr7/Sub-String/blob/master/sub-string.rb)
 * [MiniEngineer's Solution](https://github.com/miniengineer/ruby_programming/blob/master/substrings.rb)
 * [Gandolfthewise's Solution](https://github.com/gandolfthewise/substring/blob/master/substring.rb)
+* [Fusako's Solution](https://github.com/fusakoo/ruby-projects/blob/master/substrings.rb)
 </details>
