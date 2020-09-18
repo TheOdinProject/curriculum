@@ -59,7 +59,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Javascript/Web101-Projects/rock-paper-scissors.html)
 - [Ayanda Gatsha's Solution](https://github.com/ayandagatsha/Rock-Paper-Scissors) - [View in Browser](https://ayandagatsha.github.io/Rock-Paper-Scissors/)
 - [Squeekoo's Solution](https://github.com/Squeekoo/RockPaperScissorsProject) - [View in Browser](https://squeekoo.github.io/RockPaperScissorsProject/)
-- [kloba1004's Solution](https://kloba1004.github.io/project-rock-paper-scissors/)
+- [kloba1004's Solution](https://github.com/kloba1004/JavaScript-project-rock-paper-scissors) - [View in Browser](https://kloba1004.github.io/JavaScript-project-rock-paper-scissors/)
 - [Zakarya-Mks Solution](https://github.com/Zakarya-Mks/OdinP_Rock_paper_Scissors) - [View in Browser](https://zakarya-mks.github.io/OdinP_Rock_paper_Scissors/)
 - [Abordan Peter's Solution](https://github.com/Pety99/rock-paper-scissors) - [View in Browser](https://pety99.github.io/rock-paper-scissors/)
 - [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors)
