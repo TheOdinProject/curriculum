@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
  
 * Add your solution below this line!
+* [shouhu21's Solution](https://github.com/shouhu21/js-sketchpad) - [View in Browser](https://https://shouhu21.github.io/js-sketchpad/)
 * [DaltonR121's Solution](https://github.com/DaltonR121/Etch-a-Sketch) - [View in Browser](https://daltonr121.github.io/Etch-a-Sketch/)
 * [Nidhish's Solution](https://github.com/Nidhish1407/Etch-a-sketch) - [View in Browser](https://nidhish1407.github.io/Etch-a-sketch/)
 * [aledaquino1986's Solution](https://github.com/aledaquino1986/etch-a-sketch/) - [View in Browser](https://aledaquino1986.github.io/etch-a-sketch/)
