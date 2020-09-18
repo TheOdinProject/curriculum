@@ -69,7 +69,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [AGL9's solution (with extra credit)](https://github.com/agl9/linkedlist1)
+- [AGL9's Solution (with extra credit)](https://github.com/agl9/linkedlist1)
 - [Spike's Solution (with extra credit)](https://github.com/superspike7/Linked_List)
 - [christian-ortega's Solution (with extra credit)](https://github.com/christian-ortega/linked_list)
 - [Omar Al-Masri's Solution (with extra credit)](https://github.com/Omarmasri-91/linked_list/blob/master/linked_list.rb)
