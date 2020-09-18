@@ -14,8 +14,7 @@ In the next few lessons, we will walk through these installation steps together:
 
 * installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice;
 * installing a code editor;
-* creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using); and
-* creating and deploying a very basic Ruby on Rails application to make sure it all works. 
+* creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using);
 
 At the end of this section, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
@@ -33,7 +32,7 @@ Modifying or dual booting a computer to work with the tools you'll need will mak
 
 #### Mac
 
-If you're using a Mac, you're in great shape. Most professional developers rely on Macs for their coding. By installing just a few programs, you will be up and running with your education in no time!
+If you're using a Mac, you're in great shape. Most professional developers rely on Unix-based systems for their coding. By installing just a few programs, you will be up and running with your education in no time!
 
 #### Linux
 
