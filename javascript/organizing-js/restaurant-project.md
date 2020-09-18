@@ -49,6 +49,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Cordell's Solution](https://github.com/cordellbonnieux/Restaurant-Page) - [View in Browser](https://cordellbonnieux.github.io/Restaurant-Page/)
 - [Uduak Essien's Solution](https://github.com/acushlakoncept/restaurant-page) - [View in Browser](https://acushlakoncept.github.io/restaurant-page)
 - [zainiscoding's Solution](https://github.com/zainiscoding/restaurant-page) - [View in Browser](https://zainiscoding.github.io/restaurant-page/)
 - [Christian's Solution](https://github.com/rueeazy/restaurant-page) - [View in Browser](https://rueeazy.github.io/restaurant-page/)
