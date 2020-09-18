@@ -535,4 +535,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Christopher's Solution](https://github.com/christopheralagna/ruby-practice/blob/master/bubble_sort.rb)
 * [robertompfm's Solution](https://github.com/robertompfm/bubble-sort-ruby/blob/master/bubble_sort.rb)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/bubble_sort/main.rb)
+* [Fusako's Solution](https://github.com/fusakoo/ruby-projects/blob/master/bubble-sort.rb)
 </details>
