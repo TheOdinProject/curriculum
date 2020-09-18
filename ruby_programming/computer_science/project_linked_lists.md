@@ -69,9 +69,10 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [Spike's Solution (With extra credit)](https://github.com/superspike7/Linked_List)
-- [christian-ortega's Solution (With extra credit)](https://github.com/christian-ortega/linked_list)
-- [Omar Al-Masri's Solution (With extra credit)](https://github.com/Omarmasri-91/linked_list/blob/master/linked_list.rb)
+- [AGL9's Solution (with extra credit)](https://github.com/agl9/linkedlist1)
+- [Spike's Solution (with extra credit)](https://github.com/superspike7/Linked_List)
+- [christian-ortega's Solution (with extra credit)](https://github.com/christian-ortega/linked_list)
+- [Omar Al-Masri's Solution (with extra credit)](https://github.com/Omarmasri-91/linked_list/blob/master/linked_list.rb)
 - [Sanjana's Solution (with extra credit)](https://github.com/error34043/ruby-linked-lists/blob/master/main.rb)
 - [Hans Oliveira's Solution (with extra credit)](https://github.com/hansnery/linked_list)
 - [blesing jackson's Solution](https://github.com/blessja/LinkedList/blob/master/linked_list.rb)
