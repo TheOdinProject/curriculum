@@ -121,6 +121,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [carloscodes' Solution (Easy)](https://github.com/carloschancodes/google-homepage) - [View in Browser](https://carloschancodes.github.io/google-homepage/)
 * [Abordan Peter's Solution (Easy)](https://github.com/Pety99/google_homepage) - [View in Browser](https://pety99.github.io/google_homepage/)
 * [berghdavid's Solution (Easy)](https://github.com/berghdavid/Google-lookalike) - [View in Browser](https://berghdavid.github.io/Google-lookalike/)
+* [Igor's Solution (Easy)](https://github.com/igortech14/google-homepage) - [View in Browser](https://igortech14.github.io/google-homepage/)
 * [lrwthns's Solution (Easy)](https://github.com/lrwthns/google-homepage) - [View in Browser](https://lrwthns.github.io/google-homepage/)
 * [dd301's Solution (Easy)](https://github.com/dd301/google-homepage) - [View in Browser](https://dd301.github.io/google-homepage/)
 * [Christine's Solution (Easy)](https://github.com/galleryofplaces/google-homepage) - [View in Browser](https://galleryofplaces.github.io/google-homepage/)
