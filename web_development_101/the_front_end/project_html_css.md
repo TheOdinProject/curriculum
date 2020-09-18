@@ -95,6 +95,21 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Domilson Solution (Easy)](https://github.com/DomilsonFirmino/google-homepage) - [View in Browser](https://domilsonfirmino.github.io/google-homepage/)
+* [Borlarjhii's Solution (Easy)](https://github.com/Borlarjhii/google-homepage) - [View in Browser](https://borlarjhii.github.io/google-homepage/)
+* [thatblindgeye Solution (Easy)](https://github.com/thatblindgeye/google-homepage) -[View in Browser](https://thatblindgeye.github.io/google-homepage/)
+* [LeocBarros's Solution (Easy)](https://github.com/LeocBarros/google-homepage) -[View in Browser](https://leocbarros.github.io/google-homepage/)
+* [ayao99's Solution (Easy)](https://github.com/ayao99/google-homepage) - [View in Browser](https://ayao99.github.io/google-homepage/
+* [Floriangrv Solution (Easy)](https://github.com/floriangrv/google-homepage) -[View in Browser](https://floriangrv.github.io/google-homepage/)
+* [MarcACard's Solution (Easy)](https://github.com/MarcACard/google-homepage) - [View in Browser](https://marccard.dev/google-homepage/)
+* [AdamBook's Solution (Easy)](https://github.com/AdamBook/google_homepage) - [View in Browser](https://adambook.github.io/google_homepage/)
+* [daisydebug's Solution (Easy)](https://github.com/daisydebug/google-homepage) - [View in Browser](https://daisydebug.github.io/google-homepage)
+* [StevenLopez's Solution (Easy)](https://github.com/1Steven7/google-homepage) - [View in Browser](https://github.com/1Steven7/google-homepage)
+* [rohanprad's Solution (Easy)](https://github.com/rohanprad/google-homepage) - [View in Browser](https://rohanprad.github.io/google-homepage/)
+* [Nerbelwerzer's Solution (Easy)](https://github.com/Nerbelwerzer/google-homepage) - [View in Browser](https://nerbelwerzer.github.io/google-homepage/)
+* [spark712's Solution (Easy)](https://github.com/spark712/google-homepage) - [View in Browser](https://spark712.github.io/google-homepage/)
+* [rwolt's Solution (Easy)](https://github.com/rwolt/google-homepage) - [View in Browser](https://rwolt.github.io/google-homepage/)
+* [nykanenjasper's Solution (Easy)](https://github.com/nykanenjasper/top/tree/master/google-homepage) - [View in Browser](https://nykanen.surge.sh/google-homepage)
 * [25mm's Solution (Easy)](https://github.com/25mm/google-homepage) - [View in Browser](https://25mm.github.io/google-homepage/)
 * [elaol93's Solution (Easy)](https://github.com/elaol93/google-homepage) - [View in Browser](https://elaol93.github.io/google-homepage/)
 * [dronevil's Solution (Easy)](https://github.com/dronevil/google-homepage) - [View in Browser](https://dronevil.github.io/google-homepage/)
@@ -4284,6 +4299,11 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Manish's Solution (Easy)](https://github.com/manish-GH/google-homepage) - [View in Browser](https://manish-gh.github.io/google-homepage/)
 * [Anna's Solution (Easy)](https://github.com/abaker93/google-homepage) - [View in Browser](https://abaker93.github.io/google-homepage/)
 * [Gabriel's Solution (Easy)](https://gabrielratz.github.io/google-homepage/) - [View in Browser](https://gabrielratz.github.io/google-homepage/)
+* [DefCoding's Solution (Easy)](https://github.com/defcoding/google-homepage/) - [View in Browser](https://defcoding.github.io/google-homepage/)
+* [SuperModerate's Solution (Easy)](https://github.com/SuperModerate/google-homepage) - [View in Browser](https://supermoderate.github.io/google-homepage/)
+* [hipsuy's Solution (Easy)](https://github.com/hipsuy/google-homepage) - [View in Browser](https://hipsuy.github.io/google-homepage/)
+* [MonikkaKindaCode's Solution (Easy)](https://github.com/MonikkaKindaCodes/google-homepage) - [View in Browser](https://monikkakindacodes.github.io/google-homepage/)
+* [Plutonan's Solution (Easy)](https://github.com/Plutonan/google-homepage) - [View in Browser](https://plutonan.github.io/google-homepage/)
 </details>
 
 ### Additional Resources

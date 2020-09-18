@@ -45,6 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Arthur Tripp's Solution](https://github.com/arthurktripp/calculator) - [View in Browser](https://arthurktripp.github.io/calculator/)
+- [Kiizerd's Solution](https://github.com/kiizerd/calculator) - [View in Browser](https://kiizerd.github.io/calculator/)
+- [Diogofcr's Solution](https://github.com/diogofcr/calculator) - [View in Browser](https://diogofcr.github.io/calculator/)
+- [aderose's Solution](https://github.com/aderose/calculator) - [View in Browser](https://aderose.github.io/calculator/)
+- [Serena's Solution](https://github.com/Sesadada/calculator) - [View in Browser](https://sesadada.github.io/calculator/)
+- [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/calculator.html) - [View in Browser](https://theghost1980.github.io/google-homepage/calculator.html)
 - [Givemore's Solution](https://github.com/Givemo/curriculum) - [View in Browser](https://givemo.github.io/modern_js_calculator/)
 - [Etienne Bourganel's Solution](https://github.com/etienne-bourganel/calculator) - [View in Browser](https://etienne-bourganel.github.io/calculator/)
 - [Kn0wn-Un's Solution](https://github.com/Kn0wn-Un/calculator) - [View in Browser](https://kn0wn-un.github.io/calculator/)
@@ -937,4 +943,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [timcbarnes's Solution](https://github.com/timcbarnes/calculator) - [View in Browser](https://timcbarnes.github.io/calculator/)
 - [Vitace's Solution](https://github.com/vfonsah/Calculator) - [View in Browser](https://vfonsah.github.io/Calculator/)
 - [kphopkins' Solution](http://github.com/kphopkins/calculator) - [View in Browser](https://kphopkins.github.io/calculator/)
+- [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/calculator) - [View in Browser](https://jorgeeab-jz.github.io/calculator/)
 </details>
