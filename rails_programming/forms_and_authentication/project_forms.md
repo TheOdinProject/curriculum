@@ -117,7 +117,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-
+* [Spark's Solution](https://github.com/Sparking2/Rails-Forms)
 * [Haroon Abdulrazaq's Solution](https://github.com/haroonabdulrazaq/re-former)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/re-former)
 * [Kfollen93's Solution](https://github.com/Kfollen93/re-former)
