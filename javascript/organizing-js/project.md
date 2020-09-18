@@ -36,7 +36,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 * Add your solution below this line!
 * [simalicrum's Solution](https://github.com/simalicrum/todolist) - [View in Browser](https://simalicrum.github.io/todolist/dist/)
-* [dkhole's Solution](https://github.com/dkhole/todo) - [View in Browser](https://dkhole.github.io/todo/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/TO-DO-List) - [View in Browser](https://todo-project-cfa27.web.app/)
 * [Adnan's Solution](https://github.com/AdnanGondal/manageMe) - [View in Browser](https://adnangondal.github.io/manageMe/)
 * [Platyphyllum's Solution](https://github.com/marboleda/todo-list) - [View in Browser](https://marboleda.github.io/todo-list/)
