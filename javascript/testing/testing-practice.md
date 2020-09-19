@@ -61,6 +61,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Florian's Solution](https://github.com/flsoller/jest-testing)
 - [Ideopunk's Solution](https://github.com/Ideopunk/jest-practice)
 - [LenaChestnut's Solution](https://github.com/LenaChestnut/jest-testing)
 - [Abdel Perez's Solution](https://github.com/abdelp/test-practice-js)
