@@ -24,6 +24,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-OOP-basics/blob/master/tic_tac_toe.rb)
 * [Lucasdonuts' Solution](https://github.com/lucasdonuts/TicTacToe)
 * [NicolasArayaB's Solution](https://github.com/NicolasArayaB/tic_tac_toe/blob/master/tic_tac_toe.rb) - [View in repl.it](https://repl.it/@NicolasArayaB/tictactoe#.replit)
+* [Marianne's Solution](https://github.com/marisnner7/odin_project/tree/master/tic_tac_toe)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/tic_tac_toe.rb)
 * [Big-Meel's Solution](https://github.com/big-meel/ruby-code/blob/master/tic-tac-toe.rb)
 * [Alvin's Solution](https://repl.it/@AlvinIsai/JadedRepulsiveRom#main.rb)
