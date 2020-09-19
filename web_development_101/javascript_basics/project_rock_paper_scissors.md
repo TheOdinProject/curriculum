@@ -66,7 +66,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors)
 - [Diogofcr's Solution](https://github.com/diogofcr/rockpaperscissors/) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/)
 - [berghdavid's Solution](https://github.com/berghdavid/Rock-paper-scissors) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/indexwithui.html)
-- [jakelo97's Solution](https://github.com/jakelo97/rockpaperscissorstest) - [View in Browser](https://jakelo97.github.io/rockpaperscissorstest/)
+- [jakelo97's Solution](https://github.com/jakelo97/rockpaperscissorstest) - [View in Browser](https://jakelo97.github.io/rockpaperscissorstest/rpsindexv2.html)
 - [MorganFlam's Solution](https://github.com/MorganFlam/RPS-Game)
 - [Jaime Ortiz's Solution](https://github.com/codingXwolf/rock-paper-scissors) - [View in Brownser](https://codingxwolf.github.io/rock-paper-scissors/)
 - [Kidkaze's Solution](https://github.com/Kidkaze/updated-RPS) - [View in Browser](https://kidkaze.github.io/updated-RPS)
