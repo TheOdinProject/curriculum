@@ -320,6 +320,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [AFurrow's Solution](https://github.com/Afurrow/ruby-recursion-basics/blob/master/merge_sort.rb)
 * [onagova' Solution](https://github.com/onagova/recursion/blob/master/merge_sort.rb)
 * [enzoperce35's Solution](https://github.com/enzoperce35/merge_sort/blob/master/merge_sort.rb)
 * [Lucasdonuts' Solution](https://github.com/lucasdonuts/merge_sort)
