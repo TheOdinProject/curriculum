@@ -5,7 +5,7 @@ Good web design doesn't happen by accident. Learn how to make all that work you'
 - Basic HTML Page Structure
   - How This Course Will Work - [lesson](introduction.md)
   - HTML Basics - [lesson](html5_basics.md)
-  - Linking Internal and Extrernal Pages - [lesson](links.md)
+  - Linking Internal and External Pages - [lesson](links.md)
   - Working with Images, Video and Other Media - [lesson](images.md)
   - [Project: Embedding Images and Video](project_media.md)
   - What's New in HTML5 - [lesson](new_html5.md)

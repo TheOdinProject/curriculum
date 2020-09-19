@@ -8,7 +8,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 
 <div class="lesson-content__panel" markdown="1">
 1. Visit [The Next Web](http://thenextweb.com) and poke around their home page.  Play with changing the window width and see how the site changes (for instance when the sidebar gets hidden).
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Try to discover which browser widths are "breakpoints" where element properties change (e.g. the sidebar disappearing).  Make a plan for which elements need to be modified at which widths.
@@ -16,7 +16,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 7. Now -- before you've filled in any of these divs -- add in the media queries and positioning/floating attributes that are needed to make them rearrange as necessary when the browser changes sizes.
 8. Once you've got the page layout performing as it should, fill in the divs and style them to look like the original homepage.  Don't get lost in the details -- it's okay if it isn't exact.
 9. Double check that all the elements still behave just like the original when the browser size is changed.
-10. Push your solution to Github.
+10. Push your solution to GitHub.
 </div>
 
 ### Student Solutions
@@ -27,6 +27,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hiro's Solution](https://github.com/hrmtk/tnw-clone) - [View in Browser](https://hrmtk.github.io/tnw-clone/)
+* [LamiaSristy's Solution](https://github.com/LamiaSristy/The-Next-Web) - [View in Browser](https://raw.githack.com/LamiaSristy/The-Next-Web/master/index.html)
+* [irlgabriel's Solution](https://github.com/irlgabriel/responsive-website-project) - [View in Browser](https://irlgabriel.github.io/responsive-website-project/)
+* [Christian's Solution](https://github.com/rueeazy/tnw-clone) - [View in Browser](https://rueeazy.github.io/tnw-clone/)
+* [hgnuye's Solution](https://github.com/hnguye/tmw-clone) - [View in Browser](https://hnguye.github.io/tmw-clone/)
+* [Ideopunk's Solution](https://github.com/Ideopunk/responsive-design-practice-ulysses) - [View in Browser](https://ideopunk.github.io/responsive-design-practice-ulysses/)
 * [Run After's Solution](https://github.com/run-after/mock-the-next-web) - [View in Browser](https://run-after.github.io/mock-the-next-web/)
 * [Alex Zambrano's Solution](https://github.com/Alexoid1/Building-with-Responsive-Design) - [View in Browser](https://alexoid1.github.io/Building-with-Responsive-Design/)
 * [Lucas Bide's Solution](https://github.com/Lucas-Bide/odin-responsive) - [View in Browser](https://lucas-bide.github.io/odin-responsive/)
@@ -117,6 +123,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [jamesredux's Solution](https://github.com/Jamesredux/tnw-clone) - [View in Browser](https://jamesredux.github.io/tnw-clone/)
 * [bhenning's Solution](https://github.com/bhenning83/TNW-magazine) - [View in Browser](https://bhenning83.github.io/TNW-magazine/)
 * [Timework's Solution](https://github.com/Timework/responsive-design) - [View in Browser](https://timework.github.io/responsive-design/)
+* [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/responsive_design)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_responsivedesign) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_responsivedesign/)
 </details>
 
 ### Additional Resources

@@ -18,7 +18,7 @@ If you start working on more public-facing applications, security will become mo
 
 #### Rake Tasks
 
-Rake tasks are a special way of running scripts that can use your application.  You're already familiar with some like `$ rake db:migrate`, but you can also create your own.  This website uses a Rake task to populate the curriculum from its Github repo.  Check out the [Rails Guide on Command Line and Rake Tasks](http://guides.rubyonrails.org/command_line.html) for more information.
+Rake tasks are a special way of running scripts that can use your application.  You're already familiar with some like `$ rake db:migrate`, but you can also create your own.  This website uses a Rake task to populate the curriculum from its GitHub repo.  Check out the [Rails Guide on Command Line and Rake Tasks](http://guides.rubyonrails.org/command_line.html) for more information.
 
 #### Caching
 

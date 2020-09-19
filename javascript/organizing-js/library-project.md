@@ -21,7 +21,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
    }
    ~~~
 
-3. Hook the array up to your HTML with a `render()` function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
+3. Write a function that loops through the array and displays each book on the page. You can display them in some sort of table, or each on their own "card". It might help for now to manually add a few books to your array so you can see the display.
 4. Add a "NEW BOOK" button that brings up a form allowing users to input the details for the new book: author, title, number of pages, whether it's been read and anything else you might want.
 5. Add a button on each book's display to remove the book from the library.
    1. You will need to associate your DOM elements with the actual book objects in some way. One easy solution is giving them a data-attribute that corresponds to the index of the library array.
@@ -35,15 +35,59 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 
 ### Student Solutions
 
-Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/library-project.md) in the Javascript Curriculum Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+Send us your solution so we can show others! Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/library-project.md) in the Javascript Curriculum GitHub repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md). See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Diogofcr's Solution (w/ Firebase)](https://github.com/diogofcr/library) - [View in Browser](https://diogofcr.github.io/library/)
+- [ivantbv's Solution](https://github.com/ivantbv/library) - [View in Browser](https://ivantbv.github.io/library/)
+- [Dion's Solution](https://github.com/dioncdz/TOP-Books) - [View in Browser](https://dioncdz.github.io/TOP-Books/)
+- [Siddharth's Solution](https://github.com/siddharth-stn/myLibrary)
+- [arjobosh's Solution](https://github.com/arjobosh/library) - [View in Browser](https://arjobosh.github.io/library/)
+- [Justinkar's Solution](https://github.com/justinkar/library) - [View in Browser](https://justinkar.github.io/library/)
+- [Simon's Solution](https://github.com/Sim-frpt/basic-library) - [View in Browser](https://sim-frpt.github.io/basic-library/)
+- [nearmint's Solution](https://github.com/nearmint/library) - [View in Browser](https://nearmint.github.io/library/)
+- [Leonardo Ghiggino's Solution (w/ Firebase)](https://github.com/lghiggino/TOP-Library-Firebase-LNG) - [View in Browser](https://lghiggino.github.io/TOP-Library-Firebase-LNG/)
+- [Parham-Pourjam's Solution (w/ localStorage)](https://github.com/Parham-Pourjam/Library) - [View in Browser](https://parham-pourjam.github.io/Library/)
+- [Yosra's Solution](https://github.com/yosraemad/library) - [View in Browser](https://yosraemad.github.io/library/)
+- [Violet's Solution](https://github.com/violetguos/js-odin/library-proj) - [View in Browser](https://violetguos.github.io/js-odin/library-proj/)
+- [Nick's Solution](https://github.com/nmccooey/library-tracker) - [View in Browser](https://nmccooey.github.io/library-tracker/)
+- [Bodan's Solution (w/ Firebase)](https://github.com/bodanv/library) - [View in Browser](https://bodanv.github.io/library/)
+- [simalicrum's Solution](https://github.com/simalicrum/library) - [View in Browser](https://simalicrum.github.io/library/)
+- [GraceSchwar's Solution (w/ localStorage)](https://github.com/GraceSchwar/Project-Library) - [View in Browser](https://graceschwar.github.io/Project-Library/)
+- [Christian's Solution (w/ Firebase)](https://github.com/rueeazy/js-library) - [View in Browser](https://rueeazy.github.io/js-library/)
+- [Saddam's Solution](https://github.com/5addam/E-libraray) - [View in Browser](https://5addam.github.io/E-libraray/)
+- [cotrones's Solution](https://github.com/cotrones/library) - [View in Browser](https://cotrones.github.io/library/)
+- [irlgabriel's Solution](https://github.com/irlgabriel/js-library-project) - [View in Browser](https://javascript-book-library.web.app/)
+- [clml59i's Solution](https://github.com/clml59i/library-odin) - [View in Browser](https://clml59i.github.io/library-odin/)
+- [fernandopaz1's Solution](https://github.com/fernandopaz1/library) - [View in Browser](https://fernandopaz1.github.io/library/)
+- [Alex Karyasov's Solution](https://github.com/AlexKaryasov/odin-library-projec) - [View in Browser](https://alexkaryasov.github.io/odin-library-projec/)
+- [Andrei Totoro's Solution](https://github.com/AndreiTotoro/library) - [View in Browser](https://andreitotoro.github.io/library/)
+- [dkhole's Solution (w/ localStorage)](https://github.com/dkhole/library) - [View in Browser](https://dkhole.github.io/library/)
+- [rchlkr's Solution](https://github.com/rchlkr/bookshelf) - [View in Browser](https://rchlkr.github.io/bookshelf/)
+- [zainiscoding's Solution](https://github.com/zainiscoding/library) - [View in Browser](https://zainiscoding.github.io/library/)
+- [CoderOO7 Solution (w/ Firebase)](https://github.com/CoderOO7/Digital-library) - [View in Browser](https://coderoo7.github.io/Digital-library/)
+- [Henrich's Solution (w/ localStorage)](https://github.com/janko12345/Library) - [View in Browser](https://janko12345.github.io/Library/)
+- [abumsoo's Solution (with localStorage)](https://github.com/abumsoo/library) - [View in Browser](https://abumsoo.github.io/library)
+- [Strood's Solution (with localStorage)](https://github.com/strood/OPLibrary) - [View in Browser](https://quirky-kilby-5763a3.netlify.app/)
+- [Run After's Solution (with localStorage)](https://github.com/run-after/js-library) - [View in Browser](https://run-after.github.io/js-library/)
+- [Julian Hunt's Solution (w/ Firebase)](https://github.com/julianh65/library_tracker) - [View in Browser](https://javascript-book-tracker.web.app/)
+- [missAlice7's Solution (w/localstorage)](https://github.com/missalice7/studyprojects/tree/master/TOP/Library) - [View in Browser](https://missalice7.github.io/studyprojects/TOP/Library/library.html)
+- [Abhishek Khale's Solution (w/ localstorage)](https://github.com/abkhale17/Library_Js_Odin) - [View in Browser](https://abkhale17.github.io/Library_Js_Odin/)
+- [Rahim Ratnani's Solution (w/ localstorage)](https://github.com/rahimratnani/library) - [View in Browser](https://rahimratnani.github.io/library/)
+- [Cordell's solution (w/ Firebase)](https://github.com/cordellbonnieux/library) - [View in Browser](https://library-36398.web.app/)
+- [Cristian's Solution (w/ Firebase)](https://github.com/1063551/Digital-Library) - [View in Browser](https://1063551.github.io/Digital-Library/)
+- [pir4cy's Solution (Movie Library w/ Firebase](https://github.com/pir4cy/library-project) - [View in Browser](https://pir4cy.github.io/library-project)
+- [Daniel Solomon's Solution](https://github.com/danisolo91/library) - [View in Browser](https://danisolo91.github.io/library/)
+- [Jordan Leivers's Solution](https://github.com/jleivers/The-Odin-Project/tree/master/Javascript/Library/) - [View in Browser](https://jleivers.github.io/The-Odin-Project/Javascript/Library/)
+- [Eco-developer's Solution (w/ localstorage)](https://github.com/Eco-developer/library) - [View in Browser](https://eco-developer.github.io/library/)
+- [Adnan's Solution (localstorage) ](https://github.com/AdnanGondal/library) - [View in Browser](https://adnangondal.github.io/library/)
 - [Acchang's Solution (w/localstorage)](https://github.com/acchang/Library-Local/blob/master/index.html) - [View in Browser](http://htmlpreview.github.io/?https://github.com/acchang/Library-Local/blob/master/index.html) - [(w/Firebase)](https://github.com/acchang/Library-Firebase/tree/master) [View in Browser](https://library-firebase.acchang.repl.co/)
 - [Lucas-Bide's Solution](https://github.com/Lucas-Bide/odin-library) - [View in Browser](https://lucas-bide.github.io/odin-library/)
 - [Ramanjs' Solution (w/ Local Storage)](https://github.com/Ramanjs/library) - [View in Browser](https://ramanjs.github.io/library/)
+- [pampush's Solution (w/ Local Storage)](https://github.com/pampush/library) - [View in Browser](https://pampush.github.io/library/)
 - [ruben-ruiz's Solution (w/ Firebase)](https://github.com/ruben-ruiz/library) - [View in Browser](https://ruben-ruiz.github.io/library/)
 - [Drae Ramsey's Solution](https://github.com/DraeRamsey/library) - [View in Browser](https://draeramsey.github.io/library/)
 - [hd505495's Solution (w/ Local Storage)](https://github.com/hd505495/library) - [View in Browser](https://hd505495.github.io/library/)
@@ -381,5 +425,16 @@ Send us your solution so we can show others! Submit a link below to this [file](
 - [MayarHassanin's Solution](https://github.com/Mayar-Hassanin98/Libary) - [View in Browser](https://mayar-hassanin98.github.io/Libary/)
 - [sacchan9's Solution](https://github.com/sacchan9/library) - [View in Browser](https://sacchan9.github.io/library/)
 - [calebrauscher's Solution (w/local storage)](https://github.com/calebrauscher/The-Odin-Project/tree/master/library) - [View in Browser](https://calebrauscher.github.io/The-Odin-Project/library/)
-
+- [skwiryt's solution (w/ Local Storage)](https://github.com/skwiryt/library) - [View in Browser](https://skwiryt.github.io/library/)
+- [Orhan's solution (w/localstorage)](https://github.com/orhanugurlu/the_odin_project/tree/master/library) - [View in Browser](https://orhanugurlu.github.io/the_odin_project/library/index.html)
+- [Kapaha's Solution (w/localstorage)](https://github.com/kapaha/book-library) - [View in Browser](https://kapaha.github.io/book-library/)
+- [Wulfen's Solution (w/localStorage)](https://github.com/wulfenn/library) - [View in Browser](https://wulfenn.github.io/library/)
+- [castle429'x Solution](https://github.com/castle429/my-library) - [View in Browser](https://castle429.github.io/my-library/)
+- [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/library) - [View in Browser](https://marvinkeilbach.github.io/library/)
+- [Kenneth H's Solution](https://github.com/kholston/library) - [View in Browser](https://kholston.github.io/library/)
+- [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/LibraryJS) - [View in Browser](https://almirbunjaku.github.io/LibraryJS/)
+- [Sanyogita's Solution](https://github.com/SanyogitaPandit/library) - [View in Browser](https://sanyogitapandit.github.io/library/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_library) - [View in Browser](https://icepick-pauly.github.io/top_javascript_library/#)
+- [terraxus94's Solution](https://github.com/terraxus94/top-library) - [View in Browser](https://terraxus94.github.io/top-library/)
+- [robertompfm's Solution (w/firebase)](https://github.com/robertompfm/library) - [View in Browser](https://robertompfm.github.io/library/)
 </details>
