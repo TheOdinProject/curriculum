@@ -299,4 +299,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/TicTacToe) - [View in Browser](https://sanyogitapandit.github.io/TicTacToe/)
 - [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_tictactoe) - [View in Browser](https://icepick-pauly.github.io/top_javascript_tictactoe/)
 - [terraxus94's Solution](https://github.com/terraxus94/top-tick-tack-toe) - [View in Browser](https://terraxus94.github.io/top-tick-tack-toe/)
+- [PaoloTiu17's Solution](https://github.com/paolotiu17/tic-tac-toe) - [View in Browser](https://paolotiu17.github.io/tic-tac-toe/)
 </details>
