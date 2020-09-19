@@ -782,6 +782,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Christopher’s Solution](https://github.com/christopheralagna/Ruby-Projects/blob/master/mastermind.rb)
 * [Ryan Early’s Solution](https://github.com/ryanfearly/mastermind)
 * [DM-Murphy's Solution](https://github.com/dm-murphy/mastermind) - [Play on repl.it](https://repl.it/@dmmurphy/MasterMind#main.rb)
+* [sal's Solution](https://github.com/Sal-theSadmanShark/mastermind_with_ruby) - [Play on repl.it](https://repl.it/@SaltheSadmanSha/mastermindwithruby)
 </details>
 
 ### Additional Resources
