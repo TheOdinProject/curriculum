@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jonilj's Solution (Easy)](https://github.com/jonilj/google-homepage) - [View in Browser](https://jonilj.github.io/google-homepage/)
 * [HacheRB's Solution (Easy)](https://github.com/HacheRB/google-homepage) - [View in Browser](https://hacherb.github.io/google-homepage/)
 * [elliott-andrew's Solution (Easy)](https://elliott-andrew.github.io/google-homepage/) - [View in Browser](https://elliott-andrew.github.io/google-homepage/)
 * [Elias-Dickinson's Solution (Easy)](https://github.com/elias-dickinson/google-homepage) - [View in Browser](https://Elias-Dickinson.github.io/google-homepage/)
@@ -4319,8 +4320,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Laura's Solution (Easy)](https://github.com/laulujan/google-homepage) - [View in Browser](https://github.io/laulujan/google-homepage)
 * [ozzinnaC's Solution (Easy)](https://ozzinnac.github.io/google-homepage/) - [View in Browser](https://ozzinnac.github.io/google-homepage/)
 * [Badara's Solution (Easy)](https://github.com/fobadara/google-homepage) - [View in Browser](https://fobadara.github.io/google-homepage/) 
-* [ZOmohundro2020's Solution (Easy)](https://github.com/ZOmohundro2020/google-homepage) - [View in Browser](https://zomohundro2020.github.io/google-homepage/
-)
+* [ZOmohundro2020's Solution (Easy)](https://github.com/ZOmohundro2020/google-homepage) - [View in Browser](https://zomohundro2020.github.io/google-homepage/)
 * [knurtt's Solution (Easy)](https://github.com/knurtt/google-homepage) - [View in Browser](https://knurtt.github.io/google-homepage/index.html)
 </details>
 
