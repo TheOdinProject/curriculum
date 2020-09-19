@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Cendevs's Solution](https://github.com/Cendevs/rpsGame)
+- [DatRollD20's Solution](https://github.com/datrolld20/rock-paper-scissors) - [View in Browser](https://datrolld20.github.io/rock-paper-scissors/)
 - [Nidhish's Solution](https://github.com/Nidhish1407/RockPaper) - [View in Browser](https://nidhish1407.github.io/RockPaper/)
 - [Lc's Solution](https://github.com/lc-code20/Rock-Paper-Scissors-UI) - [View in Browser](https://lc-code20.github.io/Rock-Paper-Scissors-UI/)
 - [AlBibox's Solution](https://github.com/AlBibox/RockPaperScissor)
@@ -57,7 +59,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Javascript/Web101-Projects/rock-paper-scissors.html)
 - [Ayanda Gatsha's Solution](https://github.com/ayandagatsha/Rock-Paper-Scissors) - [View in Browser](https://ayandagatsha.github.io/Rock-Paper-Scissors/)
 - [Squeekoo's Solution](https://github.com/Squeekoo/RockPaperScissorsProject) - [View in Browser](https://squeekoo.github.io/RockPaperScissorsProject/)
-- [kloba1004's Solution](https://kloba1004.github.io/project-rock-paper-scissors/)
+- [kloba1004's Solution](https://github.com/kloba1004/JavaScript-project-rock-paper-scissors) - [View in Browser](https://kloba1004.github.io/JavaScript-project-rock-paper-scissors/)
 - [Zakarya-Mks Solution](https://github.com/Zakarya-Mks/OdinP_Rock_paper_Scissors) - [View in Browser](https://zakarya-mks.github.io/OdinP_Rock_paper_Scissors/)
 - [Abordan Peter's Solution](https://github.com/Pety99/rock-paper-scissors) - [View in Browser](https://pety99.github.io/rock-paper-scissors/)
 - [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors)
@@ -2002,4 +2004,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DefCoding's Solution](https://github.com/DefCoding/rock-paper-scissors) - [View in Browser](https://defcoding.github.io/rock-paper-scissors/)
 - [Anna's Solution](https://github.com/abaker93/rock-paper-scissors) - [View in Browser](https://abaker93.github.io/rock-paper-scissors/)
 - [Alex's Solution](https://github.com/altays/RPS-Odin) - [View in Browser](https://altays.github.io/RPS-Odin/)
+- [TheScurvyPirate's Solution](https://github.com/TheScurvyPirate/odin-rps) - [View in Browser](https://thescurvypirate.github.io/odin-rps/)
 </details>

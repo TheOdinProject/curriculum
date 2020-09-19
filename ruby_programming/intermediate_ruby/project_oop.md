@@ -464,6 +464,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [teshigahara's Solution](https://github.com/teshigahara/mastermind/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@teshigahara/mastermind-3)
 * [Wise-king-sullyman's Solution](https://github.com/wise-king-sullyman/Mastermind) - [View in repl.it](https://Mastermind.kingsullyman.repl.run)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/mastermind.rb)
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-OOP-basics/blob/master/mastermind.rb)
@@ -779,7 +780,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Mastermind) - [Play on repl.it](https://repl.it/@shanedgilbert/Mastermind)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/mastermind)
 * [Christopher’s Solution](https://github.com/christopheralagna/Ruby-Projects/blob/master/mastermind.rb)
-* [Ryan Early’s Solution](https://github.com/ryanfearly/mastermind) 
+* [Ryan Early’s Solution](https://github.com/ryanfearly/mastermind)
 * [DM-Murphy's Solution](https://github.com/dm-murphy/mastermind) - [Play on repl.it](https://repl.it/@dmmurphy/MasterMind#main.rb)
 </details>
 
