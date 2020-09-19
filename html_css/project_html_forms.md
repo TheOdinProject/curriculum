@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Masha Shak's Solution](https://mashashak.github.io/signup-page-copy/) - [View in Browser](https://mashashak.github.io/signup-page-copy/)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_signup) - [View in Browser](https://ovsjazz-odin-signup.herokuapp.com/)
 * [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/intuit-form.html) - [View in Browser](https://theghost1980.github.io/google-homepage/intuit-form.html)
 * [BBrenes' Solution](https://github.com/BBrenes/mint-sign-up) - [View in Browser](https://bbrenes.github.io/mint-sign-up/)
