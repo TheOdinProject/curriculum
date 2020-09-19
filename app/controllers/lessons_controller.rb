@@ -3,10 +3,7 @@ class LessonsController < ApplicationController
 
   def show
     @lesson = decorated_lesson
-
-    @project_submissions = project_submissions.map do |submission|
-      ProjectSubmissionSerializer.as_json(submission)
-    end
+    @project_submissions = project_submissions
   end
 
   private
@@ -18,13 +15,7 @@ class LessonsController < ApplicationController
   end
 
   def project_submissions
-    (current_users_submission + lesson.project_submissions.viewable.limit(10)).uniq
-  end
-
-  def current_users_submission
-    return [] unless current_user
-
-    current_user.project_submissions.where(lesson_id: @lesson.id)
+    ::LessonProjectSubmissionsQuery.new(@lesson, limit: 10).with_current_user_submission_first(current_user)
   end
 
   def decorated_lesson

@@ -52,10 +52,7 @@ Rails.application.routes.draw do
   end
 
   resources :lessons, only: :show do
-    resources :project_submissions, only: %i[index create update destroy] do
-      resources :votes, only: %i[create]
-      delete 'vote', to: 'votes#destroy'
-    end
+    resources :project_submissions, only: %i[index], controller: 'lessons/project_submissions'
 
     resources :lesson_completions, only: %i[create], as: 'completions'
     delete 'lesson_completions' => 'lesson_completions#destroy', as: 'lesson_completions'

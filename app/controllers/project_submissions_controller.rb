@@ -2,8 +2,6 @@ class ProjectSubmissionsController < ApplicationController
   before_action :authenticate_user!
   before_action :find_project_submission, only: %i[update destroy]
 
-  def index; end
-
   def create
     project_submission = current_user.project_submissions.new(project_submission_params)
 

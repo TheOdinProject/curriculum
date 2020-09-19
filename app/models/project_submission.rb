@@ -1,4 +1,6 @@
 class ProjectSubmission < ApplicationRecord
+  paginates_per 15
+
   belongs_to :user
   belongs_to :lesson
   has_many :flags, dependent: :delete_all

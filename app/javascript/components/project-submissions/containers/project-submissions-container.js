@@ -5,7 +5,7 @@ import axios from '../../../src/js/axiosWithCsrf';
 import ProjectSubmissionContext from "../ProjectSubmissionContext";
 
 const ProjectSubmissions = (props) => {
-  const { userId, lesson, course } = useContext(ProjectSubmissionContext);
+  const { userId, lesson, course, allSubmissionsPath } = useContext(ProjectSubmissionContext);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [showFlagModal, setShowFlagModal] = useState(false);
   const [submissions, setSubmissions] = useState(props.submissions);
@@ -24,7 +24,7 @@ const ProjectSubmissions = (props) => {
     event.preventDefault();
 
     const response = await axios.post(
-      `/lessons/${lesson.id}/project_submissions`,
+      `/project_submissions`,
       {
         project_submission: {
           repo_url,
@@ -45,7 +45,7 @@ const ProjectSubmissions = (props) => {
     event.preventDefault();
 
     const response = await axios.put(
-      `/lessons/${lesson.id}/project_submissions/${project_submission_id}`,
+      `/project_submissions/${project_submission_id}`,
       {
         project_submission: {
           repo_url,
@@ -65,7 +65,7 @@ const ProjectSubmissions = (props) => {
   const handleDelete = async (id) => {
     event.preventDefault();
 
-    const response = await axios.delete(`/lessons/${lesson.id}/project_submissions/${id}`, {});
+    const response = await axios.delete(`/project_submissions/${id}`, {});
     if (response.status === 200) {
       setSubmissions(prevSubmissions =>
         prevSubmissions.filter((submission) => submission.id !== id)
@@ -128,6 +128,7 @@ const ProjectSubmissions = (props) => {
         handleUpdate={handleUpdate}
         onFlag={(submission) => { setFlaggedSubmission(submission); toggleShowFlagModal() }}
         handleDelete={handleDelete}
+        allSubmissionsPath={allSubmissionsPath}
       />
     </div>
   )

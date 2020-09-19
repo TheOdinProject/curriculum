@@ -1,0 +1,19 @@
+<%= title(@lesson.title) %>
+
+<div class="container lesson">
+  <div class="row">
+    <div class="col-12">
+      <%= react_component(
+          "project-submissions/index",
+          {
+            userId: current_user&.id,
+            course: @lesson.course.as_json,
+            lesson: @lesson.as_json,
+            submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission) }
+          }
+        ) %>
+      
+    <%= paginate @project_submissions %>
+    </div>
+  </div>
+</div>
