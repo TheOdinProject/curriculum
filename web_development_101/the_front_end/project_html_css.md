@@ -95,6 +95,14 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jonlamp's Solution (Easy)](https://github.com/jonlamp/google-homepage) - [View in Browser](https://jonlamp.github.io/google-homepage/)
+* [jonilj's Solution (Easy)](https://github.com/jonilj/google-homepage) - [View in Browser](https://jonilj.github.io/google-homepage/)
+* [HacheRB's Solution (Easy)](https://github.com/HacheRB/google-homepage) - [View in Browser](https://hacherb.github.io/google-homepage/)
+* [elliott-andrew's Solution (Easy)](https://elliott-andrew.github.io/google-homepage/) - [View in Browser](https://elliott-andrew.github.io/google-homepage/)
+* [Elias-Dickinson's Solution (Easy)](https://github.com/elias-dickinson/google-homepage) - [View in Browser](https://Elias-Dickinson.github.io/google-homepage/)
+* [vicbellera's Solution (Easy and Difficult-Using Google Search)](https://github.com/vicbellera/google-homepage) - [View in Browser](https://vicbellera.github.io/google-homepage/)
+* [Chris's Solution (Easy)](https://github.com/ChrisDiPiero/google-homepage) - [View in Browser](https://chrisdipiero.github.io/google-homepage/)
+* [Chukadiy's Solution (Easy)](https://github.com/chukajohnny/google-homepage) - [View in Browser](https://chukajohnny.github.io/google-homepage/)
 * [DatRollD20's Solution (Easy)](https://github.com/datrolld20/google-homepage) - [View in Browser](https://datrolld20.github.io/google-homepage/)
 * [DatRollD20's Solution (Difficult)](https://github.com/datrolld20/google-results) - [View in Browser](https://datrolld20.github.io/google-results/)
 * [gritheone's Solution (Difficult)](https://github.com/grintheone/google_resultpage) - [View in Browser](https://grintheone.github.io/google_resultpage/)
@@ -4314,6 +4322,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ozzinnaC's Solution (Easy)](https://ozzinnac.github.io/google-homepage/) - [View in Browser](https://ozzinnac.github.io/google-homepage/)
 * [Badara's Solution (Easy)](https://github.com/fobadara/google-homepage) - [View in Browser](https://fobadara.github.io/google-homepage/) 
 * [ZOmohundro2020's Solution (Easy)](https://github.com/ZOmohundro2020/google-homepage) - [View in Browser](https://zomohundro2020.github.io/google-homepage/)
+* [knurtt's Solution (Easy)](https://github.com/knurtt/google-homepage) - [View in Browser](https://knurtt.github.io/google-homepage/index.html)
 </details>
 
 ### Additional Resources

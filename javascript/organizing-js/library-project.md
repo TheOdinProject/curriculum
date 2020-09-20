@@ -41,6 +41,8 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Diogofcr's Solution (w/ Firebase)](https://github.com/diogofcr/library) - [View in Browser](https://diogofcr.github.io/library/)
+- [ivantbv's Solution](https://github.com/ivantbv/library) - [View in Browser](https://ivantbv.github.io/library/)
 - [Dion's Solution](https://github.com/dioncdz/TOP-Books) - [View in Browser](https://dioncdz.github.io/TOP-Books/)
 - [Siddharth's Solution](https://github.com/siddharth-stn/myLibrary)
 - [arjobosh's Solution](https://github.com/arjobosh/library) - [View in Browser](https://arjobosh.github.io/library/)
