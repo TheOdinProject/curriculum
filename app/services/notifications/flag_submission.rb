@@ -1,5 +1,7 @@
 module Notifications
   class FlagSubmission
+    include Rails.application.routes.url_helpers
+
     delegate :flagger, :project_submission, :reason, to: :flag, private: true
 
     def initialize(flag)
@@ -9,7 +11,7 @@ module Notifications
     def message
       "#{flagger.username} has flagged a submission on #{project_submission.lesson.title}\n" \
       "Reason: #{reason}\n" \
-      "Resolve the flag here: https://www.theodinproject.com/admin/flags/#{flag.id}"
+      "Resolve the flag here: #{admin_flag_url(flag)}"
     end
 
     def destination

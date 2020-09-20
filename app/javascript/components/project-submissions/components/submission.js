@@ -18,7 +18,7 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
 
   return (
     <div className="submissions__item">
-      <p>
+      <p className="submissions__submission-title">
         <SubmissionTitle submission={submission} isDashboardView={isDashboardView} />
       </p>
 
