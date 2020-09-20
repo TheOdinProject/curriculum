@@ -141,4 +141,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Chandra's React Solution](https://github.com/CodeSurfer3022/Weather---React) - [View in Browser](https://codesurfer3022.github.io/Weather---React/)
 * [Matyd's React Solution](https://github.com/MatyD356/weather-app/tree/master) - [View in Browser](https://matyd356.github.io/weather-app/)
 * [kbrdsk's Solution](https://github.com/kbrdsk/weather-app/tree/master) - [View in Browser](https://kbrdsk.github.io/weather-app/)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_weatherapp) - [View in Browser](https://icepick-pauly.github.io/top_javascript_weatherapp/)
 </details>
