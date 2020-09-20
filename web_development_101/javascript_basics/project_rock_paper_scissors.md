@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tzunwip's Solution](https://github.com/tzunwip/rockPaperScissors) - [View in Browser](https://tzunwip.github.io/rockPaperScissors/)
 - [bensbread120's Solution](https://github.com/bensbread120/scissors-paper-rock.git)
 - [Laura's Solution](https://github.com/laulujan/rock_paper_scissors) 
 - [Cendevs's Solution](https://github.com/Cendevs/rpsGame)
@@ -2007,5 +2008,4 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Anna's Solution](https://github.com/abaker93/rock-paper-scissors) - [View in Browser](https://abaker93.github.io/rock-paper-scissors/)
 - [Alex's Solution](https://github.com/altays/RPS-Odin) - [View in Browser](https://altays.github.io/RPS-Odin/)
 - [TheScurvyPirate's Solution](https://github.com/TheScurvyPirate/odin-rps) - [View in Browser](https://thescurvypirate.github.io/odin-rps/)
-- [Tzunwip's Solution](https://github.com/tzunwip/rockPaperScissors) - [View in Browser](https://tzunwip.github.io/rockPaperScissors/)
 </details>
