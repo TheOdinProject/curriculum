@@ -439,6 +439,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Eduardo06sp’s Solution](https://github.com/Eduardo06sp/tic-tac-toe-cli-ruby/blob/master/tic_tac_toe.rb)
 * [Ryan Early’s Solution](https://github.com/ryanfearly/tic-tac-toe)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/tic_tac_toe/blob/master/main.rb) - [View in repl.it](https://repl.it/@SaltheSadmanSha/tic-tac-toe#main.rb)
+* [sean's Solution](https://github.com/seanmr7/Tic-Tac-Toe/blob/master/tic-tac-toe.rb)
 </details>
 
 ### Project 2: Mastermind
