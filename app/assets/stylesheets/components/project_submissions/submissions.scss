@@ -43,6 +43,7 @@
 
   &__user {
     font-weight: 600;
+    font-size: 1.25rem;
 
     @include media-breakpoint-down(sm) {
       margin-bottom: 1em;

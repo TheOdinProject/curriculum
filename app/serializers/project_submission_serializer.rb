@@ -7,6 +7,7 @@ class ProjectSubmissionSerializer
     new(project_submission).as_json
   end
 
+  # rubocop:disable Metrics/AbcSize
   def as_json(_options = nil)
     {
       id: project_submission.id,
@@ -15,8 +16,11 @@ class ProjectSubmissionSerializer
       is_public: project_submission.is_public,
       user_name: project_submission.user.username,
       user_id: project_submission.user.id,
+      lesson_id: project_submission.lesson_id,
+      lesson_title: project_submission.lesson.title,
     }
   end
+  # rubocop:enable Metrics/AbcSize
 
   private
 

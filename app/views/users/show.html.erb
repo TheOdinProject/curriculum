@@ -5,13 +5,14 @@
     <h1 class="text-center camel">My Dashboard</h1>
     <%= render 'profile_card', user: @user %>
     <%= render 'skills', courses: @courses%>
+    <% if ProjectSubmissionFeature.enabled? %>
+      <%= render 'project_submissions', project_submissions: @user.project_submissions %>
+    <% end %>
   </div>
-</div>
 
-<div class="gradient">
-  <%= render 'shared/bottom_cta',
-    button: chat_button,
-    heading: 'Have a question?',
-    sub_heading: 'Chat with our friendly Odin community in our Discord chatrooms!'
-  %>
+   <%= render 'shared/bottom_cta',
+      button: chat_button,
+      heading: 'Have a question?',
+      sub_heading: 'Chat with our friendly Odin community in our Discord chatrooms!'
+    %>
 </div>

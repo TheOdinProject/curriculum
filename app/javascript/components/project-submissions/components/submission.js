@@ -1,22 +1,24 @@
 import React, { useState, useMemo, useContext } from 'react';
-import { object, func } from 'prop-types';
+import { object, func, bool } from 'prop-types';
 
 import Modal from './modal';
 import EditForm from './edit-form';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
 
-const Submission = ({ submission, handleUpdate, onFlag, handleDelete }) => {
+const noop = () => {}
+
+const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboardView }) => {
   const { userId } = useContext(ProjectSubmissionContext);
   const [showEditModal, setShowEditModal] = useState(false);
   const isCurrentUsersSubmission = useMemo(() =>
     userId === submission.user_id, [userId, submission.user_id]);
 
-
   const toggleShowEditModal = () => setShowEditModal(prevShowEditModal => !prevShowEditModal);
+  const submissionTitle = isDashboardView ? submission.lesson_title : submission.user_name;
 
   return (
     <div className="submissions__item">
-      <p className="submissions__user">{submission.user_name}</p>
+      <p className="submissions__user">{submissionTitle}</p>
 
       <div className="submissions__actions">
         {isCurrentUsersSubmission && (
@@ -50,11 +52,17 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete }) => {
   );
 };
 
+Submission.defaultProps = {
+  onFlag: noop,
+  isDashboardView: false,
+}
+
 Submission.propTypes = {
   submission: object.isRequired,
   handleUpdate: func.isRequired,
-  onFlag: func.isRequired,
+  onFlag: func,
   handleDelete: func.isRequired,
+  isDashboardView: bool,
 };
 
 export default Submission;

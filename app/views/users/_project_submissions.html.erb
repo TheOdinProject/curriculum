@@ -1,0 +1,15 @@
+<div class="user-project-submissions">
+  <h2 class="user-project-submissions__title">Project Submissions</h2>
+
+  <% if project_submissions.any? %>
+    <%= react_component(
+        "project-submissions/user-project-submissions",
+        {
+          userId: current_user&.id,
+          submissions: project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission) },
+        }
+    ) %>
+  <% else %>
+    <p class="user-project-submissions__blank-slate-message">No Project Submissions yet.</p>
+  <% end %>
+</div>

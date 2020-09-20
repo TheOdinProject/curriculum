@@ -1,0 +1,15 @@
+.user-project-submissions {
+  margin-bottom: 3rem;
+
+  &__title {
+    font-weight: bold;
+    color: $grey;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  &__blank-slate-message {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+}

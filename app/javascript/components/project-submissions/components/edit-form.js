@@ -35,6 +35,7 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <input type="hidden" name="project_submission_id" value={submission.id} ref={register()} />
+        <input type="hidden" name="lesson_id" value={submission.lesson_id} ref={register()} />
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input
