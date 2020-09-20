@@ -1,4 +1,6 @@
 class ProjectSubmissionSerializer
+  include Rails.application.routes.url_helpers
+
   def initialize(project_submission)
     @project_submission = project_submission
   end
@@ -7,7 +9,7 @@ class ProjectSubmissionSerializer
     new(project_submission).as_json
   end
 
-  # rubocop:disable Metrics/AbcSize
+  # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
   def as_json(_options = nil)
     {
       id: project_submission.id,
@@ -16,11 +18,12 @@ class ProjectSubmissionSerializer
       is_public: project_submission.is_public,
       user_name: project_submission.user.username,
       user_id: project_submission.user.id,
-      lesson_id: project_submission.lesson_id,
+      lesson_id: project_submission.lesson.id,
       lesson_title: project_submission.lesson.title,
+      lesson_path: lesson_path(project_submission.lesson),
     }
   end
-  # rubocop:enable Metrics/AbcSize
+  # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
   private
 

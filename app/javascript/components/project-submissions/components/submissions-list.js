@@ -6,7 +6,6 @@ import Submission from './submission'
 const noop = () => {}
 
 const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, allSubmissionsPath, isDashboardView }) => {
-  console.log("all submissions path", allSubmissionsPath)
   return (
     <div>
       <div>
