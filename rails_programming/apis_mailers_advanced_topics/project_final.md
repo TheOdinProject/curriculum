@@ -59,6 +59,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Pstyne's Solution](https://github.com/Pstyne/friend) - [View in Browser](https://peaceful-dawn-04960.herokuapp.com/)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/odin-facebook) - [View in Browser](https://afternoon-mesa-12157.herokuapp.com)
 * [pudu87's Solution](https://github.com/pudu87/odin-facebook) - [View in Browser](https://polar-stream-93232.herokuapp.com/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/facebook-odin) - [View in Browser](https://whispering-bayou-85275.herokuapp.com/)
