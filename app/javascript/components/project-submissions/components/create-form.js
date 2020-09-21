@@ -30,6 +30,7 @@ const CreateForm = ({ onClose, onSubmit }) => {
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input
+            autoFocus
             className="form__element form__element--with-icon"
             type="url"
             name="repo_url"

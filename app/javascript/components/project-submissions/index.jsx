@@ -11,6 +11,7 @@ const ProjectSubmissions = ({ submissions, course, lesson, userId, allSubmission
 
 ProjectSubmissions.defaultProps = {
   allSubmissionsPath: '',
+  userId: null,
 }
 
 ProjectSubmissions.propTypes = {

@@ -2,8 +2,17 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import { func, object } from 'prop-types';
 
-const FlagForm = ({ onSubmit, submission }) => {
+const FlagForm = ({ onSubmit, submission, userId }) => {
   const { register, handleSubmit, errors, formState } = useForm();
+
+  if(userId === null) {
+    return (
+      <div className="text-center" style={{ width: '80%', margin: '0 auto' }}>
+        <h1 className="bold">Please Sign in</h1>
+        <p>Please <a href='/login'>sign in</a> to flag this project submission.</p>
+      </div>
+    )
+  }
 
   if (formState.isSubmitSuccessful) {
     return (
@@ -22,6 +31,7 @@ const FlagForm = ({ onSubmit, submission }) => {
         <input type="hidden" name="project_submission_id" value={submission.id}  ref={register()} />
         <div className="form__section">
           <textarea
+            autoFocus
             placeholder="Please be as detailed as possible"
             className="form__element"
             rows="5"

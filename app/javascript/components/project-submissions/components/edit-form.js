@@ -39,6 +39,7 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
         <div className="form__section">
           <span className="form__icon fab fa-github"></span>
           <input
+            autoFocus
             className="form__element form__element--with-icon"
             type="text"
             name="repo_url"
