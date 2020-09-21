@@ -40,6 +40,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Eljoey's Solution](https://github.com/eljoey/Blog-Api) - [Blog Site](https://jh-blog.netlify.com/)
 * [Barry Sweeney's Solution](https://github.com/barrysweeney/BarrysBlog) - [Admin Frontend](https://upbeat-neumann-61c68c.netlify.app/) - [Reader Frontend](https://jolly-torvalds-e76ec6.netlify.app/) - [Backend API](https://sheltered-peak-99436.herokuapp.com/articles)
 * [ranmaru22's Solution](https://github.com/ranmaru22/blog-api) - [Live Preview](https://nervous-blackwell-fa45eb.netlify.app)
+* [leoltl's Solution](https://github.com/leoltl/blogcms-api) - [Admin Preview](https://leoltl-blogcms-admin.herokuapp.com/) - [Blog Preview](https://leoltl-blogcms-client.herokuapp.com/)
 
 </details>
 
