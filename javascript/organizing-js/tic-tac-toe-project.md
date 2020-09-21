@@ -25,6 +25,12 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nick's Solution](https://github.com/nmccooey/tic-tac-toe-spooky-edition) - [View in Browser](https://nmccooey.github.io/tic-tac-toe-spooky-edition/)
+- [simalicrum's Solution](https://github.com/simalicrum/tictactoe) - [View in Browser](https://simalicrum.github.io/tictactoe/)
+- [Saddam's Solution](https://github.com/5addam/tic-tac-toe) - [View in Browser](https://5addam.github.io/tic-tac-toe/)
+- [Cordell's Solution](https://github.com/cordellbonnieux/tic-tac-toe) - [View in Browser](https://cordellbonnieux.github.io/tic-tac-toe/)
+- [irlgabriel's Solution](https://github.com/irlgabriel/tic-tac-toe) - [View in Browser](https://irlgabriel.github.io/tic-tac-toe/)
+- [Christian's Solution](https://github.com/rueeazy/tic-tac-toe) - [View in Browser](https://rueeazy.github.io/tic-tac-toe/)
 - [Strood's Solution](https://github.com/strood/TOPTicTacToe) - [View in Browser](https://strood.github.io/TOPTicTacToe/)
 - [Cristian's Solution (w/ Random AI)](https://github.com/1063551/TicTacToe) - [View in Browser](https://1063551.github.io/TicTacToe/)
 - [Run After's Solution](https://github.com/run-after/js-tic-tac-toe) - [View in Browser](https://run-after.github.io/js-tic-tac-toe/)
@@ -291,4 +297,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [kluceycose's Solution](https://github.com/kluceycose/tic-tac-toe) - [View in Browser](https://kluceycose.github.io/tic-tac-toe)
 - [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/TicTacToeJS) - [View in Browser](https://almirbunjaku.github.io/TicTacToeJS/)
 - [Sanyogita's Solution](https://github.com/SanyogitaPandit/TicTacToe) - [View in Browser](https://sanyogitapandit.github.io/TicTacToe/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_tictactoe) - [View in Browser](https://icepick-pauly.github.io/top_javascript_tictactoe/)
+- [terraxus94's Solution](https://github.com/terraxus94/top-tick-tack-toe) - [View in Browser](https://terraxus94.github.io/top-tick-tack-toe/)
+- [PaoloTiu17's Solution](https://github.com/paolotiu17/tic-tac-toe) - [View in Browser](https://paolotiu17.github.io/tic-tac-toe/)
 </details>

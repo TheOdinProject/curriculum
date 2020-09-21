@@ -49,9 +49,18 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [PaoloTiu17's Solution](https://github.com/paolotiu17/restaurant-page) - [View in Browser](https://paolotiu17.github.io/restaurant-page/)
+- [J-Chamberlain's Solution](https://github.com/J-Chamberlain/restaurant-page) - [View in Browser](https://j-chamberlain.github.io/restaurant-page/)
+- [Cordell's Solution](https://github.com/cordellbonnieux/Restaurant-Page) - [View in Browser](https://cordellbonnieux.github.io/Restaurant-Page/)
+- [Uduak Essien's Solution](https://github.com/acushlakoncept/restaurant-page) - [View in Browser](https://acushlakoncept.github.io/restaurant-page)
+- [zainiscoding's Solution](https://github.com/zainiscoding/restaurant-page) - [View in Browser](https://zainiscoding.github.io/restaurant-page/)
+- [Christian's Solution](https://github.com/rueeazy/restaurant-page) - [View in Browser](https://rueeazy.github.io/restaurant-page/)
+- [simalicrum's Solution](https://github.com/simalicrum/restaurant) - [View in Browser](https://simalicrum.github.io/restaurant/dist/index.html)
+- [irlgabriel's Solution](https://github.com/irlgabriel/odin-restaurant) - [View in Browser](https://irlgabriel.github.io/odin-restaurant/dist/index.html#)
+- [Alex Karyasov's Solution](https://github.com/AlexKaryasov/odin-restaurant-page) - [View in Broswer](https://alexkaryasov.github.io/odin-restaurant-page/dist/index.html)
 - [Run After's Solution](https://github.com/run-after/js-restaurant) - [View in Broswer](https://run-after.github.io/js-restaurant/)
 - [Abhishek Khale's Solution](https://github.com/abkhale17/restaurant-page-TOP) - [View in Browser](https://abkhale17.github.io/restaurant-page-TOP/)
-- [tomigm's solution](https://github.com/tomigm/restaurant_page) - [View in Browser](https://tomigm.github.io/restaurant_page/)
+- [tomigm's Solution](https://github.com/tomigm/restaurant_page) - [View in Browser](https://tomigm.github.io/restaurant_page/)
 - [dkhole's Solution](https://github.com/dkhole/Restaurant) - [View in Browser](https://dkhole.github.io/Restaurant/)
 - [Daegudude's Solution](https://github.com/DaeguDude/TOP-restaurant) - [View in Browser](https://daegudude.github.io/TOP-restaurant/)
 - [Daniel Solomon's Solution](https://github.com/danisolo91/restaurant-page) - [View in Browser](https://danisolo91.github.io/restaurant-page/)
@@ -258,6 +267,8 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [sacchan9's Solution](https://github.com/sacchan9/restaurant-page) - [View in Browser](https://sacchan9.github.io/restaurant-page/)
 - [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/restaurant-page) - [View in Browser](https://marvinkeilbach.github.io/restaurant-page/)
 - [hazigabriel's Solution](https://github.com/hazigabriel/restaurant-page) - [View in Browser](https://hazigabriel.github.io/restaurant-page/)
-- [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View In Browser](https://wulfenn.github.io/restaurant/)
-- [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/RestaurantJS) - [View In Browser](https://almirbunjaku.github.io/RestaurantJS/)
+- [Wulfen's Solution](https://github.com/Wulfenn/restaurant) - [View in Browser](https://wulfenn.github.io/restaurant/)
+- [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/RestaurantJS) - [View in Browser](https://almirbunjaku.github.io/RestaurantJS/)
+- [TheMDDropout's Solution](https://github.com/TheMDDropout/restaurantPage) - [View in Browser](https://themddropout.github.io/restaurantPage/)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_restaurant) - [View in Browser](https://icepick-pauly.github.io/top_javascript_restaurant/)
 </details>
