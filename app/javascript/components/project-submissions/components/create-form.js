@@ -5,13 +5,22 @@ import { yupResolver } from '@hookform/resolvers';
 
 import schema from '../schemas/project-submission-schema'
 
-const CreateForm = ({ onClose, onSubmit }) => {
+const CreateForm = ({ onClose, onSubmit, userId }) => {
   const { register, handleSubmit, formState, errors } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
       is_public: true,
     }
   });
+
+  if(userId === null) {
+    return (
+      <div className="text-center">
+        <h1 className="bold">Please Sign in</h1>
+        <p>Please <a href='/login'>sign in</a> to add a project submission.</p>
+      </div>
+    )
+  }
 
   if (formState.isSubmitSuccessful) {
     return (

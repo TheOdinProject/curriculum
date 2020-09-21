@@ -5,9 +5,7 @@
     <h1 class="text-center camel">My Dashboard</h1>
     <%= render 'profile_card', user: @user %>
     <%= render 'skills', courses: @courses%>
-    <% if ProjectSubmissionFeature.enabled? %>
-      <%= render 'project_submissions', project_submissions: @user.project_submissions %>
-    <% end %>
+    <%= render 'project_submissions', project_submissions: @user.project_submissions %>
   </div>
 
    <%= render 'shared/bottom_cta',

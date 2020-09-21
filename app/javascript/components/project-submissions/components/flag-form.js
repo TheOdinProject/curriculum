@@ -7,7 +7,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
 
   if(userId === null) {
     return (
-      <div className="text-center" style={{ width: '80%', margin: '0 auto' }}>
+      <div className="text-center">
         <h1 className="bold">Please Sign in</h1>
         <p>Please <a href='/login'>sign in</a> to flag this project submission.</p>
       </div>
@@ -16,7 +16,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
 
   if (formState.isSubmitSuccessful) {
     return (
-      <div className="text-center" style={{ width: '80%', margin: '0 auto' }}>
+      <div className="text-center">
         <h1 className="bold">Thanks for helping us keep our community safe!</h1>
         <p>Our Moderators will review this issue shortly.</p>
       </div>

@@ -89,7 +89,7 @@ const ProjectSubmissions = (props) => {
     return submissions.find(submission => submission.user_id === userId);
   }, [userId, submissions.length]);
 
-  const showAddSubmissionButton = () => !userSubmission && userId
+  const showAddSubmissionButton = () => !userSubmission
 
   return (
     <div className="submissions">
@@ -104,6 +104,7 @@ const ProjectSubmissions = (props) => {
             lessonId={lesson.id}
             onSubmit={handleCreate}
             onClose={toggleShowCreateModal}
+            userId={userId}
           />
         </Modal>
 
@@ -124,6 +125,7 @@ const ProjectSubmissions = (props) => {
           )}
         </div>
       </div>
+      <p className="text-center">This is a beta feature. If you have any feedback please let us know on discord <a href="https://discord.com/channels/505093832157691914/540903304046182425">here</a>.</p>
 
       <SubmissionsList
         submissions={submissions}

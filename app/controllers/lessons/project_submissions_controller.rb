@@ -1,7 +1,7 @@
 module Lessons
   class ProjectSubmissionsController < ApplicationController
-    before_action :authenticate_user!
     before_action :set_lesson
+    before_action :check_if_project_submitable
 
     def index
       @project_submissions = Kaminari.paginate_array(
@@ -18,6 +18,12 @@ module Lessons
 
     def set_lesson
       @lesson = Lesson.friendly.find(params[:lesson_id])
+    end
+
+    def check_if_project_submitable
+      return if ProjectSubmissionFeature.enabled?(@lesson)
+
+      redirect_to lesson_path(@lesson), alert: 'That project does not accept submissions'
     end
   end
 end
