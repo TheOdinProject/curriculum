@@ -25,6 +25,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Kenedy Henrique's Solution](https://github.com/Kenedy-Henrique/Tic-Tac-Toe) - [View in Browser](https://kenedy-henrique.github.io/Tic-Tac-Toe/)
 - [Levan Mebonia's Solution](https://github.com/Levo96/tictactoe) - [View in Browser](https://codepen.io/levo96/full/OJygMpw)
 - [Nick's Solution](https://github.com/nmccooey/tic-tac-toe-spooky-edition) - [View in Browser](https://nmccooey.github.io/tic-tac-toe-spooky-edition/)
 - [simalicrum's Solution](https://github.com/simalicrum/tictactoe) - [View in Browser](https://simalicrum.github.io/tictactoe/)
