@@ -12,21 +12,13 @@ ActiveAdmin.register Flag do
   member_action :ban_flagged_user, method: :post
   member_action :dismiss, method: :post
 
-  includes :flagger, :project_submission
-
   index do
     selectable_column
     id_column
 
-    column :flagger
-    column :project_submission do |flag|
-      auto_link(flag.project_submission, flag.project_submission.repo_url).html_safe
-    end
     column :reason
     column :status
     column :taken_action
-
-    actions
   end
 
   show do |flag|
@@ -56,17 +48,6 @@ ActiveAdmin.register Flag do
     end
   end
 
-  form do |f|
-    f.semantic_errors(*f.object.errors.keys)
-
-    f.inputs do
-      f.input :status
-      f.input :taken_action
-    end
-
-    actions
-  end
-
   controller do
     def ban_flagged_user
       result = Admin::Flags::BanUser.call(flag: resource)
@@ -88,8 +69,4 @@ ActiveAdmin.register Flag do
       end
     end
   end
-
-  filter :flagger
-  filter :project_submission
-  filter :taken_action, as: :check_boxes, collection: Flag.taken_actions.map { |ta| [ta[0].titleize, ta[1]] }
 end
