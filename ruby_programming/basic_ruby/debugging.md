@@ -92,7 +92,7 @@ Indeed, we didn't use `#map` correctly, as this particular method creates a new 
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
-Using `puts` is a great way to debug, but there's a **YUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
+Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
 This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-2.6.1/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
@@ -103,14 +103,12 @@ p "Using p:"
 p []
 ~~~
 
-### Debugging with Pry
-[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality.
+### Debugging with Pry-byebug
+[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.  
 
-To use Pry, you'll first need to install it in your terminal by running `gem install pry`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry, you just need to call `binding.pry` at any point in your program.
+To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
 
-To follow along with the Pry examples here, you have two options:
- 1. You can open up a new IRB session and type all of the code in there. When the code hits the `binding.pry` statement, it will essentially open an IRB session inside of your current IRB session.
- 2. You can save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`). When the code hits the `binding.pry` statement, a new IRB-like session will open inside the terminal.
+To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`). When the code hits the `binding.pry` statement, a new IRB-like session will open inside the terminal.
 
 ~~~ruby
 require 'pry'
@@ -149,9 +147,35 @@ yell_greeting("bob")
 
 During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.
 
-As you can see, using Pry for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
+Using the same example above, you can use one of pry-byebug's commands to figure out what `name = name.upcase` will return. You won't need to quit the session or add another `binding.pry` beneath it. Enter `next` to step over to the next line.   
 
-There is far, far more that you can do with Pry, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
+~~~ruby
+[1] pry(main)> name
+=> "bob"
+[2] pry(main)> greeting
+=> nil
+[3] pry(main)> next
+
+     5: def yell_greeting(string)
+     6:   name = string
+     7: 
+     8:   binding.pry
+     9: 
+    10:   name = name.upcase
+ => 11:   greeting = "WASSAP, #{name}!"
+    12:   puts greeting
+    13: end
+
+[4] pry(main)> name
+=> "BOB"
+
+~~~
+
+It stops after evaluating the next line. `name` now returns `BOB`. Calling `next` again will evaluate the following line. Try it out to know what `greeting` will return. Pry-byebug has a few more commands, play around with them to get a feel of what they do. You can find the commands with a short description of what they do [here](https://github.com/deivid-rodriguez/pry-byebug).
+
+As you can see, using Pry-byebug for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry-byebug will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry-byebug will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
+
+There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
 ### How to Start Debugging
 Programs generally go wrong due to two main reasons:
@@ -167,7 +191,6 @@ Obviously, if available, the stack trace is the first place you should look when
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
 2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-3. Download [this repository](https://github.com/learn-co-students/debugging-with-pry-v-000) and follow along with **Part I** of the [Debugging with Pry tutorial](https://learn.co/lessons/debugging-with-pry). Keep this repository, because Part II will be completed during the ruby testing section.
 </div>
 
 ### Additional Resources

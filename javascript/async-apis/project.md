@@ -21,6 +21,17 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Levan Mebonia React Solution](https://github.com/Levo96/weather_app) - [View in Browser](https://codepen.io/levo96/full/eYZVroR)
+* [Florian's React Solution](https://github.com/flsoller/weather-app) - [View in Browser](https://flsoller.github.io/weather-app/)
+* [dhatGuy's React Solution](https://github.com/dhatGuy/weather-app) - [View in Browser](https://rebrand.ly/82k91b4)
+* [lonewolf045's React Solution](https://github.com/lonewolf045/weather-react-app) - [View in Browser](https://lonewolf045.github.io/weather-react-app/)
+* [LenaChestnut's React Solution](https://github.com/LenaChestnut/weather-app) - [View in Browser](https://lenachestnut.github.io/weather-app/)
+* [Sherman's Solution](https://github.com/shermansjliu/weather-app) - [View in Browser](https://shermansjliu.github.io/weather-app/)
+* [Hammad Ahmed's Solution](https://github.com/shammadahmed/weather-app) - [View in Browser](https://weather.shammadahmed.repl.co/)
+* [Phillip Musiime's Solution](https://github.com/PhillipUg/weather-app) - [View in Browser](https://phillipug.github.io/weather-app/)
+* [Stefan Dili's Solution](https://github.com/dili021/weather-app) - [View in Browser](https://dili021.github.io/weather-app/)
+* [osechi3's Vanilla JS Solution](https://github.com/osechi3/weather-app-vanilla-js) - [View in Browser](https://osechi3.github.io/weather-app-vanilla-js/)
+* [osechi3's Vue Solution](https://github.com/osechi3/weather-app) - [View in Browser](https://osechi3.github.io/weather-app/)
 * [GERRG - Mt. Weather](https://github.com/gerrgg/mount-weather) - [View in Browser](https://gerrgg.github.io/mount-weather/)
 * [Christopher Amanor's Vanilla JS Solution](https://github.com/krys2fa/weather-app) - [View in Browser](https://bit.ly/2D1RTAv)
 * [nearmint's Angular Solution](https://github.com/nearmint/weather-app-angular) - [View in Browser](https://nearmint.github.io/weather-app-angular/)
@@ -130,4 +141,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [themetar's Solution](https://github.com/themetar/Weather-App) - [View in Browser](https://themetar.github.io/Weather-App/)
 * [Chandra's React Solution](https://github.com/CodeSurfer3022/Weather---React) - [View in Browser](https://codesurfer3022.github.io/Weather---React/)
 * [Matyd's React Solution](https://github.com/MatyD356/weather-app/tree/master) - [View in Browser](https://matyd356.github.io/weather-app/)
+* [kbrdsk's Solution](https://github.com/kbrdsk/weather-app/tree/master) - [View in Browser](https://kbrdsk.github.io/weather-app/)
+* [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_weatherapp) - [View in Browser](https://icepick-pauly.github.io/top_javascript_weatherapp/)
 </details>

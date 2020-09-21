@@ -19,7 +19,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line! (Be sure to specify which framework and project you've completed!)
-
+* [dkhole's React Rock Paper Scissors](https://github.com/dkhole/react-paper-scissors) - [View in Browser](https://dkhole.github.io/react-paper-scissors/)
+* [Clumsyknight's Vue Library](https://github.com/Clumsynite/vue-library) - [View in Browser](https://clumsynite.github.io/vue-library/)
+* [Austin's React Library](https://github.com/cudworth/react-library) - [View in Browser](https://cudworth.github.io/react-library/)
 * [LenaChestnut's React Todo App](https://github.com/LenaChestnut/react-to-do) - [View in Browser](https://lenachestnut.github.io/react-to-do/)
 * [osechi3's Vue Library](https://github.com/osechi3/library-project-vue) - [View in Browser](https://osechi3.github.io/library-project-vue/)
 * [pklepa's React Library](https://github.com/pklepa/small-library-react) - [View in Browser](https://pklepa.github.io/small-library-react)
@@ -114,4 +116,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Chandra's React Tic Tac Toe Solution](https://github.com/CodeSurfer3022/Tic-Tac-Toe-React) - [View in Browser](https://codesurfer3022.github.io/Tic-Tac-Toe-React/)
 * [Chandra's React Todo list Solutin](https://github.com/CodeSurfer3022/Todo-list-React) - [View in Browser](https://codesurfer3022.github.io/Todo-list-React/)
 * [Florian's React Library Solution](https://github.com/flsoller/library-react-app) - [View in Browser](https://flsoller.github.io/library-react-app/)
+* [Tristan Ross's React Library Solution](https://github.com/TristanRoss/react-library) - [View in Browser](https://tristanross.github.io/react-library/)
+* [kbrdsk's React Todo List Solution](https://github.com/kbrdsk/todo-list-v2) - [View in Browser](https://kbrdsk.github.io/todo-list-v2/)
 </details>

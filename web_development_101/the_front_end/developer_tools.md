@@ -38,6 +38,3 @@ Make sure you can do each of the following once you have finished the assignment
   3. Skim through the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools/) [(or Firefox's!)](https://developer.mozilla.org/en-US/docs/Tools). Chrome and Firefox are constantly enhancing and updating their developer tools.  The basic functionality is going to be the same of course, but it's not unusual for things to move around or change appearance as the tools evolve.  These docs should be your up-to-date resource.  If your version of DevTools doesn't look like the videos above, reference these docs to find out where everything went.
 
 </div>
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

@@ -28,6 +28,21 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [rkuang's Solution](https://gist.github.com/rkuang/d8b99acb17ae4dc187f6ac93a60a6056)
+* [invaderace's Solution](https://github.com/invaderace/bubble_sort)
+* [Gandolfthewise's Solution](https://github.com/gandolfthewise/bubble_sort/blob/master/bubble_sort.rb)
+* [teshigahara's Solution](https://github.com/teshigahara/bubble-sort/blob/master/bubble-sort.rb)
+* [laurpop99's Solution](https://github.com/laurpop99/bubble_sort_ruby)
+* [berubenic's Solution](https://github.com/berubenic/ruby_basic_projects/tree/master/bubbleSort)
+* [Necrojan's Solution](https://github.com/necrojan/the_odin/blob/master/ruby/bubble_sort.rb)
+* [adam-goodrich's Solution](https://github.com/adam-goodrich/ruby_bubble_sort/blob/master/bubble_sort.rb)
+* [Spike's Solution](https://github.com/superspike7/Bubble-Sort/blob/master/main.rb)
+* [AFurrow's Solution](https://github.com/Afurrow/ruby-basics/blob/master/bubble_sort.rb)
+* [cbhaugen's Solution](https://github.com/cbhaugen/bubble_sort)
+* [urbanassa53's Solution](https://github.com/urbanassa53/BubbleSort/blob/master/bubble_sort.rb)
+* [jtdevuk's Solution](https://github.com/jtdevuk/bubble_sort/blob/master/bubble_sort.rb)
+* [RedBoy910's Solution](https://github.com/RedBoy910/RubyBubbleSort/blob/master/BubbleSort.rb)
+* [LamiaSristy's Solution](https://github.com/LamiaSristy/Advanced_Building_Blocks/blob/master/main.rb)
 * [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/bubblesort.rb)
 * [paulotijero's Solution](https://github.com/paulotijero/bubble-sort)
@@ -494,7 +509,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Matt M's Solution](https://github.com/MattMiller1989/bubble-sort)
 * [mthsgrc's Solution](https://github.com/mthsgrc/sort_by/blob/master/bubble_sort.rb)
 * [Anna Olak's Solution](https://github.com/anna1901/ruby_exercises/blob/master/bubble_sort/bubble_sort.rb)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/bubble-sort)
 * [Christian's Solution](https://github.com/rueeazy/ruby-building-blocks/blob/master/bubble-sort.rb)
 * [akoenig1's Solution](https://github.com/akoenig1/building_blocks/blob/master/bubble_sort.rb)
 * [Kenneth's Solution](https://github.com/kholston/ruby-building-blocks/blob/master/bubble_sort.rb)
@@ -523,4 +537,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Christopher's Solution](https://github.com/christopheralagna/ruby-practice/blob/master/bubble_sort.rb)
 * [robertompfm's Solution](https://github.com/robertompfm/bubble-sort-ruby/blob/master/bubble_sort.rb)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/bubble_sort/main.rb)
+* [Fusako's Solution](https://github.com/fusakoo/ruby-projects/blob/master/bubble-sort.rb)
 </details>

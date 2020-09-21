@@ -2,7 +2,7 @@
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
 
-You'll be building Facebook.  As usual, any additional styling will be up to you but the really important stuff is to get the data and back end working properly.  You'll put together some of the core features of the platform -- users, profiles, "friending", posts, news feed, and "liking".  You'll also implement sign-in with the real Facebook by using Omniauth and Devise.
+You'll be building Facebook.  As usual, any additional styling will be up to you but the really important stuff is to get the data and back end working properly.  You'll put together some of the core features of the platform -- users, profiles, "friending", posts, news feed, and "liking".  You'll also implement sign-in with the real Facebook by using OmniAuth and Devise.
 
 Some features of Facebook we haven't yet been exposed to -- for instance chat, realtime updates of the newsfeed, and realtime notifications.  You won't be responsible for creating those unless you'd like to jump ahead and give it a shot.
 
@@ -17,7 +17,7 @@ This project will give you a chance to take a relatively high level set of requi
 Keep the following requirements in mind.  We'll cover specific steps to get started below this list:
 
 <div class="lesson-content__panel" markdown="1">
-1. Use Postgresql for your database from the beginning (not sqlite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails4) for setup info.
+1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails4) for setup info.
 2. Users must sign in to see anything except the sign in page.
 3. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 4. Users can send Friend Requests to other Users.
@@ -31,7 +31,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 12. Users can create a Profile with a Photo.
 13. The User Show page contains their Profile information, photo, and Posts.
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
-15. Sign in should use [Omniauth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
+15. Sign in should use [OmniAuth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
 16. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
 17. Deploy your App to Heroku.
 18. Set up the [SendGrid add-on](https://devcenter.heroku.com/articles/sendgrid) and start sending real emails. It's free for low usage tiers.
@@ -46,19 +46,22 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 #### Getting Started
 
 1. Think through the data architecture required to make this work.  There are a lot of models and a lot of associations, so take the time to plan out your approach.
-2. Build the new postgresql rails app `$ rails new odin-facebook --database=postgresql`, initialize the Git repo, and update the README to link back to this page.
+2. Build the new PostgreSQL Rails app `$ rails new odin-facebook --database=postgresql`, initialize the Git repo and update the README to link back to this page.
 3. Work your way down the list above!  Each step will involve a new challenge but you've got the tools.
 4. You can populate data like users and posts using the [Faker](https://github.com/stympy/faker) gem, which is basically just a library of sample names and emails.  It may just be easier, though, for you to write your own seeds in the `db/seeds.rb` file, which gets run if you type `$ rake db:seed`.
 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Pstyne's Solution](https://github.com/Pstyne/friend) - [View in Browser](https://peaceful-dawn-04960.herokuapp.com/)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/odin-facebook) - [View in Browser](https://afternoon-mesa-12157.herokuapp.com)
+* [pudu87's Solution](https://github.com/pudu87/odin-facebook) - [View in Browser](https://polar-stream-93232.herokuapp.com/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/facebook-odin) - [View in Browser](https://whispering-bayou-85275.herokuapp.com/)
 * [CodingCop's Solution](https://github.com/cleve703/phacebook) - [View in Browser](https://arcane-fortress-15399.herokuapp.com/)
 * [leeti's Solution](https://github.com/leetie/spacecrook) - [View in Browser](https://whispering-everglades-16718.herokuapp.com)

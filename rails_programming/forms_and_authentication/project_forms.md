@@ -117,6 +117,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Spark's Solution](https://github.com/Sparking2/Rails-Forms)
+* [Haroon Abdulrazaq's Solution](https://github.com/haroonabdulrazaq/re-former)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/re-former)
 * [Kfollen93's Solution](https://github.com/Kfollen93/re-former)
 * [Witah Georjane's Solution](https://github.com/Georjane/Forms)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/re-former)
@@ -264,6 +267,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [fussykyloren's Solution](https://github.com/fussykyloren/re-former)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/forms)
 * [clinton wambugu's Solution](https://github.com/kwambugu/BareMetalFormsAndHelpers)
+* [vavek's Solution](https://github.com/NotAProgrammerdork/project-forms)
 
 </details>
 

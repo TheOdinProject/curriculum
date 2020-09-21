@@ -22,6 +22,15 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Masha Shak's Solution](https://mashashak.github.io/signup-page-copy/) - [View in Browser](https://mashashak.github.io/signup-page-copy/)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_signup) - [View in Browser](https://ovsjazz-odin-signup.herokuapp.com/)
+* [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/intuit-form.html) - [View in Browser](https://theghost1980.github.io/google-homepage/intuit-form.html)
+* [BBrenes' Solution](https://github.com/BBrenes/mint-sign-up) - [View in Browser](https://bbrenes.github.io/mint-sign-up/)
+* [Rizwan's Solution](https://github.com/xRizwan/form) - [View in Browser](https://xrizwan.github.io/form/)
+* [pudu87's Solution](https://github.com/pudu87/intuit-signup-page) - [View in Browser](https://pudu87.github.io/intuit-signup-page/)
+* [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/html-forms) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/html-forms/)
+* [Tien Tai's Solution](https://github.com/JBenjaminn/Mint-signup-page-clone) - [View in Browser](https://jbenjaminn.github.io/Mint-signup-page-clone/)
+* [irlgabriel's Solution](https://github.com/irlgabriel/mint-sign-up) - [View in Browser](https://irlgabriel.github.io/mint-sign-up/)
 * [Andrew's Solution](https://github.com/a6macleod/mint.com-signup-replica) - [View in Browser](https://a6macleod.github.io/mint.com-signup-replica/)
 * [Hammad Ahmed's Solution](https://github.com/shammadahmed/signup-form) - [View in Browser](https://shammadahmed.github.io/signup-form/)
 * [Veríssimo's Solution](https://github.com/vec21/html-form) - [View in Browser](https://vec21.github.io/html-form/)
@@ -205,6 +214,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 * [Nijepa's Solution](https://github.com/nijepa/html-forms) - [View in Browser](https://nijepa.github.io/html-forms/)
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/htmlforms)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_mintclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_mintclone/)
+* [Jonathan Altine's Solution](https://github.com/JonathanAltine/HTML-Forms) - [View in Browser](https://jonathanaltine.github.io/HTML-Forms/)
 </details>
 
 ### Additional Resources
