@@ -35,6 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Rizwan's Solution](https://github.com/xRizwan/greyscale-heatmap) - [View in Browser](https://xrizwan.github.io/greyscale-heatmap/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/smashing-copy) - [View in Browser](https://irlgabriel.github.io/smashing-copy/)
 * [Hiro's Solution](https://github.com/hrmtk/smashing-magazine-heat-map) - [View in Browser](https://hrmtk.github.io/smashing-magazine-heat-map/)
 * [Hammad Ahmed's Solution](https://www.figma.com/file/xN814tFqcEjaZXJLyCv9ZV/Smashing-Magazine-Article-Page-Design-Teardown-Project?node-id=0%3A1)
