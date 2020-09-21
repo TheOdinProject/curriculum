@@ -1,4 +1,6 @@
 ActiveAdmin.register Flag do
+  config.filters = false
+
   actions :all, except: %i[destroy new]
 
   menu priority: 2

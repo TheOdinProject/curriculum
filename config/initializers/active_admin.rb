@@ -275,7 +275,7 @@ ActiveAdmin.setup do |config|
   # You can enabled or disable the inclusion
   # of those filters by default here.
   #
-  # config.include_default_association_filters = true
+  config.include_default_association_filters = false
 
   # == Footer
   #
