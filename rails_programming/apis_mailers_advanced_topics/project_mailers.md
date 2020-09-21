@@ -9,11 +9,11 @@ You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lesson
 <div class="lesson-content__panel" markdown="1">
 1. Locate and load up the project file.
 2. Do some pushups and jumping jacks.  You've been spending a bit too much time at the computer lately.
-3. Generate your new mailer with `$ rails generate mailer PassengerMailer`
+3. Generate your new mailer with `$ rails generate mailer PassengerMailer`.
 4. Install the [`letter_opener` gem (see docs here)](https://github.com/ryanb/letter_opener) to open your emails in the browser instead of sending them in the development environment.
 5. Follow through the steps listed in the [Rails Guide](http://guides.rubyonrails.org/action_mailer_basics.html) to create the action to send the "thank you" email.
 6. Build both a `.html.erb` and `.text.erb` version of your thank you ticket email.
-7. Test that the email sends by creating a new flight booking (`letter_opener` should open it in the browser for you if you've set it up properly)
+7. Test that the email sends by creating a new flight booking (`letter_opener` should open it in the browser for you if you've set it up properly).
 8. Try out one other trick -- call the mailer directly from the Rails Console using something like:
 
    ~~~ruby
@@ -23,12 +23,15 @@ You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lesson
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Darren's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/flight-booker)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/flight-booker)
+* [pudu87's Solution](https://github.com/pudu87/odin-flight-booker)
 * [Christian's Solution](https://github.com/rueeazy/odin_flight_booker)
 * [leetie's Solution](https://github.com/leetie/odin-flight-booker)
 * [Olugbade Olalekan's Solution](https://github.com/gbadesimple/project_flight_booker)
