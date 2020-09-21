@@ -1326,4 +1326,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/Sketchpad)
 * [Nico Muñoz's Solution](https://github.com/NicoMunoz909/etch-a-sketch) - [View in Browser](https://nicomunoz909.github.io/etch-a-sketch/)
 * [Anna's Solution](https://github.com/abaker93/etch-a-sketch) - [View in Browser](https://abaker93.github.io/etch-a-sketch/)
+* [Daniel88Hus Solution] (https://github.com/Daniel88Hus/PRJSketch.git)
 </details>
