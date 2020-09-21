@@ -4325,8 +4325,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [ZOmohundro2020's Solution (Easy)](https://github.com/ZOmohundro2020/google-homepage) - [View in Browser](https://zomohundro2020.github.io/google-homepage/)
 * [knurtt's Solution (Easy)](https://github.com/knurtt/google-homepage) - [View in Browser](https://knurtt.github.io/google-homepage/index.html)
 * [Aaron's Solution (Difficult)](https://github.com/acelizondo1/google-searchpage) - [View in Browser](https://acelizondo1.github.io/google-searchpage/)
+* [aaaaayushh's Solution (Easy)](https://github.com/aaaaayushh/google-homepage) - [View in Browser](https://aaaaayushh.github.io/google-homepage/)
 * [Kevin's Solution (Easy)](https://github.com/kmgoldfarb/google-homepage) - [View in Browser](https://kmgoldfarb.github.io/google-homepage/)
-
 </details>
 
 ### Additional Resources
