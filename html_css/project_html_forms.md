@@ -217,6 +217,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_mintclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_mintclone/)
 * [Jonathan Altine's Solution](https://github.com/JonathanAltine/HTML-Forms) - [View in Browser](https://jonathanaltine.github.io/HTML-Forms/)
 * [Anna's Solution](https://github.com/abaker93/html-form) - [View in Browser](https://abaker93.github.io/html-form/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/forms) - [View in Browser](https://codesurfer3022.github.io/forms/)
 </details>
 
 ### Additional Resources

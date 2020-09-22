@@ -441,6 +441,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ryan Early’s Solution](https://github.com/ryanfearly/tic-tac-toe)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/tic_tac_toe/blob/master/main.rb) - [View in repl.it](https://repl.it/@SaltheSadmanSha/tic-tac-toe#main.rb)
 * [sean's Solution](https://github.com/seanmr7/Tic-Tac-Toe/blob/master/tic-tac-toe.rb)
+* [feseka's Solution](https://github.com/feseka61/tic-tac-toe/blob/master/tic_tac_toe.rb)
 </details>
 
 ### Project 2: Mastermind
@@ -788,6 +789,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Ryan Early’s Solution](https://github.com/ryanfearly/mastermind)
 * [DM-Murphy's Solution](https://github.com/dm-murphy/mastermind) - [Play on repl.it](https://repl.it/@dmmurphy/MasterMind#main.rb)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/mastermind_with_ruby) - [Play on repl.it](https://repl.it/@SaltheSadmanSha/mastermindwithruby)
+* [feseka's Solution](https://github.com/feseka61/mastermind/blob/master/mastermind.rb)
 </details>
 
 ### Additional Resources
