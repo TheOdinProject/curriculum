@@ -1,7 +1,7 @@
 ActiveAdmin.register Flag do
   config.filters = false
 
-  actions :all, except: %i[destroy new]
+  actions :all, except: %i[destroy new edit]
 
   menu priority: 2
   config.batch_actions = false
