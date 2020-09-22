@@ -179,4 +179,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/todo-list) - [View in Browser](https://marvinkeilbach.github.io/todo-list/)
 * [TheMDDropout's Solution](https://github.com/TheMDDropout/betterToDoList) - [View in Browser](https://themddropout.github.io/betterToDoList/)
 * [Wulfen's Solution](https://github.com/Wulfenn/todolist) - [View in Browser](https://wulfenn.github.io/todolist/)
+* [PlayingOnGithub's Solution](https://github.com/PlayingOnGitHub/To-Do-List) - [View in Browser](https://playingongithub.github.io/To-Do-List/)
 </details>
