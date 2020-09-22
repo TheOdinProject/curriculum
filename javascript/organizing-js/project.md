@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Christian's Solution](https://github.com/rueeazy/todo-list) - [View in Browser](https://rueeazy.github.io/todo-list/)
 * [Adnan's Solution](https://github.com/AdnanGondal/manageMe) - [View in Browser](https://adnangondal.github.io/manageMe/)
 * [Platyphyllum's Solution](https://github.com/marboleda/todo-list) - [View in Browser](https://marboleda.github.io/todo-list/)
 * [Vas75's Solution](https://github.com/Vas75/Todo-App) - [View in Browser](https://vas75.github.io/Todo-App/)
