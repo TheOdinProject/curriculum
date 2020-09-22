@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Aseem's Solution](https://github.com/aseemtim/calculator) - [View in Browser](https://aseemtim.github.io/calculator/)
+- [Vedant Wankhade's Solution](https://github.com/VedantWankhade/Calculator) - [View in Browser](https://vedantwankhade.github.io/Calculator/)
 - [tootihamza's Solution](https://github.com/tootihamza/calculator/) - [View in Browser](https://tootihamza.github.io/calculator/)
 - [Frank Johnette's Solution](https://github.com/FJohnette/calc) - [View in Browser](https://fjohnette.github.io/calc/)
 - [Levan Mebonia Solution](https://github.com/Levo96/calculator) - [View in Browser](https://codepen.io/levo96/full/QWyBGRJ)
