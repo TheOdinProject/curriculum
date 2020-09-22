@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [aderose's Solution (w/ localStorage)](https://github.com/aderose/library) - [View in Browser](https://aderose.github.io/library/)
 - [Stergios Solution (w/ localStorage)](https://github.com/StergiosHariop/Library-Project) - [View in Browser](https://stergioshariop.github.io/Library-Project/)
 - [Diogofcr's Solution (w/ Firebase)](https://github.com/diogofcr/library) - [View in Browser](https://diogofcr.github.io/library/)
 - [ivantbv's Solution](https://github.com/ivantbv/library) - [View in Browser](https://ivantbv.github.io/library/)
