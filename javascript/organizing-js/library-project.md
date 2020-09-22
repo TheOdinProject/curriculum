@@ -41,6 +41,12 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [tootihamza's Solution (w/ localStorage)](https://github.com/tootihamza/library) - [View in Browser](https://tootihamza.github.io/library/)
+- [owenKraft's Solution (w/o storage](https://github.com/owenKraft/library) - [View in Browser](https://owenkraft.github.io/library/)
+- [aderose's Solution (w/ localStorage)](https://github.com/aderose/library) - [View in Browser](https://aderose.github.io/library/)
+- [Stergios Solution (w/ localStorage)](https://github.com/StergiosHariop/Library-Project) - [View in Browser](https://stergioshariop.github.io/Library-Project/)
+- [Diogofcr's Solution (w/ Firebase)](https://github.com/diogofcr/library) - [View in Browser](https://diogofcr.github.io/library/)
+- [ivantbv's Solution](https://github.com/ivantbv/library) - [View in Browser](https://ivantbv.github.io/library/)
 - [Dion's Solution](https://github.com/dioncdz/TOP-Books) - [View in Browser](https://dioncdz.github.io/TOP-Books/)
 - [Siddharth's Solution](https://github.com/siddharth-stn/myLibrary)
 - [arjobosh's Solution](https://github.com/arjobosh/library) - [View in Browser](https://arjobosh.github.io/library/)
