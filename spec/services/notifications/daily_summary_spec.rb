@@ -14,7 +14,10 @@ RSpec.describe Notifications::DailySummary do
 
     it 'returns the daily summary message' do
       expect(notification.message).to eql(
-        "**TOP Summary For April 10th, 2020**\n0 users signed up today\n0 lessons completed today"
+        "**TOP Summary For April 10th, 2020**\n" \
+        "0 users signed up today\n" \
+        "0 lessons completed today\n" \
+        '0 project submissions added today'
       )
     end
   end

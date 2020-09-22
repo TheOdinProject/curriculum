@@ -10,20 +10,16 @@ RSpec.describe LessonCompletion do
   it { is_expected.to validate_presence_of(:lesson_id) }
 
   describe '.created_today' do
-    let(:student) { create(:user) }
-    let(:lesson_one) { create(:lesson) }
-    let(:lesson_two) { create(:lesson) }
-
-    let(:lesson_completed_today) do
-      create(:lesson_completion, created_at: Time.zone.today, student: student, lesson: lesson_one)
+    let!(:lesson_completed_today) do
+      create(:lesson_completion, created_at: Time.zone.today)
     end
 
-    let(:lesson_not_completed_today) do
-      create(:lesson_completion, created_at: Time.zone.today - 2.days, student: student, lesson: lesson_one)
+    let!(:lesson_not_completed_today) do
+      create(:lesson_completion, created_at: Time.zone.today - 2.days)
     end
 
     it 'returns lessons completed today' do
-      expect(LessonCompletion.created_today).to include(lesson_completed_today)
+      expect(LessonCompletion.created_today).to contain_exactly(lesson_completed_today)
     end
   end
 end
