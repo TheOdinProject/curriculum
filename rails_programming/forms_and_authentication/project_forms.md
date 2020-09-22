@@ -268,6 +268,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/forms)
 * [clinton wambugu's Solution](https://github.com/kwambugu/BareMetalFormsAndHelpers)
 * [vavek's Solution](https://github.com/NotAProgrammerdork/project-forms)
+* [bhenning83's Solution](https://github.com/bhenning83/re-former)
 
 </details>
 
