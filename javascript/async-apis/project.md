@@ -21,6 +21,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Clumsyknight's Solution](https://github.com/Clumsynite/weather-app) - [View in Browser](https://clumsynite.github.io/weather-app/)
 * [Levan Mebonia React Solution](https://github.com/Levo96/weather_app) - [View in Browser](https://codepen.io/levo96/full/eYZVroR)
 * [Florian's React Solution](https://github.com/flsoller/weather-app) - [View in Browser](https://flsoller.github.io/weather-app/)
 * [dhatGuy's React Solution](https://github.com/dhatGuy/weather-app) - [View in Browser](https://rebrand.ly/82k91b4)
