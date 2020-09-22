@@ -83,4 +83,5 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 - [kbrdsk's Solution](https://github.com/kbrdsk/battleship) - [View in Browser](https://kbrdsk.github.io/battleship/)
 - [themetar's Solution](https://github.com/themetar/battleship-top) - [View in Browser](https://themetar.github.io/battleship-top/)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/battleship) - [View in Browser](https://codesurfer3022.github.io/battleship/)
+- [Tim Kelly's Solution](https://github.com/timkellytk/project-battleship) - [View in Browser](https://timkellytk.github.io/project-battleship/)
 </details>
