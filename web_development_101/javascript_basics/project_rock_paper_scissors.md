@@ -41,6 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [ayao99's Solution](https://github.com/ayao99/rps_practice) - [View in Browser](https://ayao99.github.io/rock-paper-scissors/)
+- [Elias-Dickinson's Solution](https://github.com/Elias-Dickinson/rock-paper-scissors) - [View in Browser](https://elias-dickinson.github.io/rock-paper-scissors/)
+- [WilmarvDijk's Solution](https://github.com/WilmarvanDijk/rock-paper-scissors) - [View in Browser](https://wilmarvandijk.github.io/rock-paper-scissors/)
 - [Domilson Solution](https://github.com/DomilsonFirmino/Rock_Paper_Scissors)
 - [b-steel's Solution](https://github.com/b-steel/rock-paper-scissors) - [View in Browser](https://b-steel.github.io/rock-paper-scissors/)
 - [Tzunwip's Solution](https://github.com/tzunwip/rps-game) - [View in Browser](https://tzunwip.github.io/rps-game/)
@@ -67,7 +70,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [kloba1004's Solution](https://github.com/kloba1004/JavaScript-project-rock-paper-scissors) - [View in Browser](https://kloba1004.github.io/JavaScript-project-rock-paper-scissors/)
 - [Zakarya-Mks Solution](https://github.com/Zakarya-Mks/OdinP_Rock_paper_Scissors) - [View in Browser](https://zakarya-mks.github.io/OdinP_Rock_paper_Scissors/)
 - [Abordan Peter's Solution](https://github.com/Pety99/rock-paper-scissors) - [View in Browser](https://pety99.github.io/rock-paper-scissors/)
-- [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors)
+- [ghidalgo93's Solution](https://github.com/ghidalgo93/rock-paper-scissors) - [View in Browser](ghidalgo93.github.io/rock-paper-scissors)
 - [Diogofcr's Solution](https://github.com/diogofcr/rockpaperscissors/) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/)
 - [berghdavid's Solution](https://github.com/berghdavid/Rock-paper-scissors) - [View in Browser](https://diogofcr.github.io/rockpaperscissors/indexwithui.html)
 - [jakelo97's Solution](https://github.com/jakelo97/rockpaperscissorstest) - [View in Browser](https://jakelo97.github.io/rockpaperscissorstest/rpsindexv2.html)

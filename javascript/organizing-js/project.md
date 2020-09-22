@@ -35,6 +35,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [PaoloTiu17's Solution](https://github.com/paolotiu17/tic-tac-toe) - [View in Browser](https://paolotiu17.github.io/tic-tac-toe/)
 * [Abhishek Khale's Solution](https://github.com/abkhale17/Todo_List) - [View in Browser](https://abkhale17.github.io/Todo_List/)
 * [Guyus15's  Solution](https://github.com/guyus15/project-manager) - [View in Browser](https://guyus15.github.io/project-manager/dist/)
 * [simalicrum's Solution](https://github.com/simalicrum/todolist) - [View in Browser](https://simalicrum.github.io/todolist/dist/)
@@ -179,4 +180,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/todo-list) - [View in Browser](https://marvinkeilbach.github.io/todo-list/)
 * [TheMDDropout's Solution](https://github.com/TheMDDropout/betterToDoList) - [View in Browser](https://themddropout.github.io/betterToDoList/)
 * [Wulfen's Solution](https://github.com/Wulfenn/todolist) - [View in Browser](https://wulfenn.github.io/todolist/)
+* [PlayingOnGithub's Solution](https://github.com/PlayingOnGitHub/To-Do-List) - [View in Browser](https://playingongithub.github.io/To-Do-List/)
 </details>
