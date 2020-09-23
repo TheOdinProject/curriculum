@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
  
 * Add your solution below this line!
+* [Nerbelwerzer's Solution](https://github.com/Nerbelwerzer/etch-a-sketch) - [View in Browser](https://nerbelwerzer.github.io/etch-a-sketch/)
 * [ghidalgo93's Solution](https://github.com/ghidalgo93/happy-sketch) - [View in Browser](https://ghidalgo93.github.io/happy-sketch/)
 * [Siddharth Sahoo's Solution](https://github.com/sidd-oo/Etch-A-Sketch) - [View in Browser](https://sidd-oo.github.io/Etch-A-Sketch/)
 * [b-steel's Solution](https://github.com/b-steel/etch-a-sketch) - [View in Browser](https://b-steel.github.io/etch-a-sketch/)
