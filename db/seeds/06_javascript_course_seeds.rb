@@ -125,7 +125,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/tic-tac-toe-project.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 lesson_position += 1

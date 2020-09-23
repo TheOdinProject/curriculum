@@ -25,7 +25,7 @@
   <div class="container">
     <div class="card-main">
 
-      <% if  ProjectSubmissionFeature.enabled?(@lesson) %>
+      <% if @lesson.accepts_submission? %>
         <%= react_component(
           "project-submissions/index",
           {

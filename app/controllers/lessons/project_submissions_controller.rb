@@ -21,7 +21,7 @@ module Lessons
     end
 
     def check_if_project_submitable
-      return if ProjectSubmissionFeature.enabled?(@lesson)
+      return if @lesson.accepts_submission?
 
       redirect_to lesson_path(@lesson), alert: 'That project does not accept submissions'
     end
