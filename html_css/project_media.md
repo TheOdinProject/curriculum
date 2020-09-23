@@ -35,6 +35,9 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [MashaShak's Solution](https://github.com/MashaShak/youtube-copy) - [View in Browser](https://mashashak.github.io/youtube-copy/)
+* [theghost1980's Solution](https://github.com/theghost1980/google-homepage/blob/master/youtube.html) - [View in Browser](https://theghost1980.github.io/google-homepage/youtube.html)
+* [Rizwan’s Solution](https://github.com/xRizwan/youtube-video) - [View in Browser](https://xrizwan.github.io/youtube-video/)
 * [Veríssimo’s Solution](https://github.com/vec21/YouTube-page-master) - [View in Browser](https://vec21.github.io/YouTube-page-master/)
 * [justinsatorre's Solution](https://github.com/justinsatorre/youtube-clone) - [View in Browser](https://justinsatorre.github.io/youtube-clone/)
 * [LamiaSristy's Solution](https://github.com/LamiaSristy/youtube-videoplayerpage) - [View in Browser](https://raw.githack.com/LamiaSristy/youtube-videoplayerpage/master/index.html)
@@ -226,6 +229,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
 * [skwiryt's Solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_youtubeclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_youtubeclone/)
 * [Chandra's Solution](https://github.com/CodeSurfer3022/SeaTube) - [View in Browser](https://codesurfer3022.github.io/SeaTube/)
+* [Anna's Solution](https://github.com/abaker93/youtube-video-page) - [View in Browser](https://abaker93.github.io/youtube-video-page/)
 </details>
 
 ### Additional Resources

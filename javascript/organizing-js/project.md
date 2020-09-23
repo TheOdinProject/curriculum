@@ -36,6 +36,11 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 
 * Add your solution below this line!
 * [Christian's Solution](https://github.com/rueeazy/todo-list) - [View in Browser](https://rueeazy.github.io/todo-list/)
+* [PaoloTiu17's Solution](https://github.com/paolotiu17/tic-tac-toe) - [View in Browser](https://paolotiu17.github.io/tic-tac-toe/)
+* [Abhishek Khale's Solution](https://github.com/abkhale17/Todo_List) - [View in Browser](https://abkhale17.github.io/Todo_List/)
+* [Guyus15's  Solution](https://github.com/guyus15/project-manager) - [View in Browser](https://guyus15.github.io/project-manager/dist/)
+* [simalicrum's Solution](https://github.com/simalicrum/todolist) - [View in Browser](https://simalicrum.github.io/todolist/dist/)
+* [irlgabriel's Solution](https://github.com/irlgabriel/TO-DO-List) - [View in Browser](https://todo-project-cfa27.web.app/)
 * [Adnan's Solution](https://github.com/AdnanGondal/manageMe) - [View in Browser](https://adnangondal.github.io/manageMe/)
 * [Platyphyllum's Solution](https://github.com/marboleda/todo-list) - [View in Browser](https://marboleda.github.io/todo-list/)
 * [Vas75's Solution](https://github.com/Vas75/Todo-App) - [View in Browser](https://vas75.github.io/Todo-App/)
@@ -174,4 +179,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Jamesredux's Solution](https://github.com/Jamesredux/js-todo) - [View in Browser](https://jamesredux.github.io/js-todo/)
 * [Timework's Solution](https://github.com/Timework/todo) - [View in Browser](https://timework.github.io/todo/)
 * [Marvin Keilbach's Solution](https://github.com/marvinkeilbach/todo-list) - [View in Browser](https://marvinkeilbach.github.io/todo-list/)
+* [TheMDDropout's Solution](https://github.com/TheMDDropout/betterToDoList) - [View in Browser](https://themddropout.github.io/betterToDoList/)
+* [Wulfen's Solution](https://github.com/Wulfenn/todolist) - [View in Browser](https://wulfenn.github.io/todolist/)
+* [PlayingOnGithub's Solution](https://github.com/PlayingOnGitHub/To-Do-List) - [View in Browser](https://playingongithub.github.io/To-Do-List/)
 </details>

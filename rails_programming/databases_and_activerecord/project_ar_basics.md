@@ -281,6 +281,8 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
 * [Clinton wambugu's Solution](https://github.com/kwambugu/micro-reddit)
+* [Spu's Solution](https://github.com/NotAProgrammerdork/micro-reddit)
+* [bhenning83's Solution](https://github.com/bhenning83/micro-reddit)
 </details>
 
 ### Additional Resources
