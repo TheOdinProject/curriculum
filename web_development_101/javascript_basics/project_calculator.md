@@ -53,7 +53,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [bensbread120's Solution](https://github.com/bensbread120/calculator-js) - [View in Browser](https://bensbread120.github.io/calculator-js/)
 - [Zakarya-Mks's Solution](https://github.com/Zakarya-Mks/OdinP_Calculator) - [View in Browser](https://zakarya-mks.github.io/OdinP_Calculator)
 - [thedodus' Solution](https://github.com/thedodus/top-calculator) - [View in Browser](https://thedodus.github.io/top-calculator/)
-- [Barry's Solution](https://github.com/BarnoldSporrance/odins-fancy-calculator) - [View in Browser](https://BarnoldSporrance.github.io/odins-fancy-calculator/)
+- [Barry's Solution](https://github.com/BarnoldSporrance/odins-fancy-calculator) - [View in Browser](https://barnoldsporrance.github.io/odins-fancy-calculator/)
 - [sielock's Solution](https://github.com/sielock/calculator) - [View in Browser](https://sielock.github.io/calculator/)
 - [Pio Alonday's Solution](https://github.com/shalonday/calculator) - [View in Browser](https://shalonday.github.io/calculator/)
 - [reinimax's Solution](https://github.com/reinimax/calculator) - [View in Browser](https://reinimax.github.io/calculator/)

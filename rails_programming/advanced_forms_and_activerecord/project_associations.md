@@ -64,6 +64,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tilda Udufo's Solution](https://github.com/TildaDares/private-events) - [View in Browser](https://salty-eyrie-33971.herokuapp.com/)
 - [Darren's Solution](https://github.com/DarrenLo0530/event-organizer)
 - [Axel Lopez's Solution](https://github.com/lopezaxel/private-events)
 - [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/private_events)
