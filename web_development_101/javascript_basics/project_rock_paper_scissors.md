@@ -2006,4 +2006,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Anna's Solution](https://github.com/abaker93/rock-paper-scissors) - [View in Browser](https://abaker93.github.io/rock-paper-scissors/)
 - [Alex's Solution](https://github.com/altays/RPS-Odin) - [View in Browser](https://altays.github.io/RPS-Odin/)
 - [TheScurvyPirate's Solution](https://github.com/TheScurvyPirate/odin-rps) - [View in Browser](https://thescurvypirate.github.io/odin-rps/)
+- [Aaron's Solution](https://github.com/acelizondo1/rock-paper-scissors) - [View in Browser](https://acelizondo1.github.io/rock-paper-scissors/)
 </details>
