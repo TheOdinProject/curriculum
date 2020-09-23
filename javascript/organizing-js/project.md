@@ -182,4 +182,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [TheMDDropout's Solution](https://github.com/TheMDDropout/betterToDoList) - [View in Browser](https://themddropout.github.io/betterToDoList/)
 * [Wulfen's Solution](https://github.com/Wulfenn/todolist) - [View in Browser](https://wulfenn.github.io/todolist/)
 * [PlayingOnGithub's Solution](https://github.com/PlayingOnGitHub/To-Do-List) - [View in Browser](https://playingongithub.github.io/To-Do-List/)
+* [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/TodoListJS) - [View in Browser](https://almirbunjaku.github.io/TodoListJS/)
 </details>
