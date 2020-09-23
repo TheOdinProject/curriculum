@@ -15,6 +15,7 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
     userId === submission.user_id, [userId, submission.user_id]);
 
   const toggleShowEditModal = () => setShowEditModal(prevShowEditModal => !prevShowEditModal);
+  const livePreview = submission.live_preview_url.length > 0;
 
   return (
     <div className="submissions__item">
@@ -32,7 +33,9 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
           </button>
         )}
         <a href={submission.repo_url} target="_blank" className="submissions__button">View Code</a>
-        <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
+        { livePreview &&
+          <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
+        }
 
         {isCurrentUsersSubmission
           ? <span className={`submissions__public-icon submissions__public-icon${submission.is_public ? '--visible' : ''}`}><i className="fas fa-eye"></i></span>

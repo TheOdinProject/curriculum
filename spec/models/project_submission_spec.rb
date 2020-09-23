@@ -12,7 +12,6 @@ RSpec.describe ProjectSubmission, type: :model do
   it { is_expected.to allow_value('https://www.github.com/fff').for(:repo_url) }
   it { is_expected.to_not allow_value('not_a_url').for(:repo_url) }
 
-  it { is_expected.to validate_presence_of(:live_preview_url).with_message('Required') }
   it { is_expected.to allow_value('http://www.github.com/fff').for(:live_preview_url) }
   it { is_expected.to allow_value('https://www.github.com/fff').for(:live_preview_url) }
   it { is_expected.to_not allow_value('not_a_url').for(:live_preview_url) }

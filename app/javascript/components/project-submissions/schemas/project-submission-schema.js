@@ -6,9 +6,8 @@ const schema = yup.object().shape({
     .matches(/^[http]{4}/, 'Url must start with http or https')
     .url("Must be a valid URL"),
   live_preview_url: yup.string()
-    .required("Required")
-    .matches(/^[http]{4}/, 'Url must start with http or https')
-    .url("Must be a valid URL"),
+    .matches(/^[http]{4}/, { message: 'Url must start with http or https', excludeEmptyString: true })
+    .url("Must be a valid URL")
 });
 
 export default schema;
