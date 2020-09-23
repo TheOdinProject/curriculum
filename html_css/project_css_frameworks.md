@@ -33,6 +33,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hiro's Solution](https://github.com/hrmtk/top-clone) - [View in Browser](https://hrmtk.github.io/top-clone/)
 * [Ideopunk's Solution](https://github.com/Ideopunk/framework-practice/) - [View in Browser](https://ideopunk.github.io/framework-practice/)
 * [Christian's Solution](https://github.com/rueeazy/top-clone) - [View in Browser](https://rueeazy.github.io/top-clone/)
 * [Run After's Solution](https://github.com/run-after/framework-chase) - [View in Browser](https://run-after.github.io/framework-chase/)
