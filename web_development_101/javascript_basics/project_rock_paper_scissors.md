@@ -41,6 +41,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [rampagingsquirrel's Solution](https://github.com/rampagingsquirrel/rockpapercissors)
+- [Borlarjhii's Solution](https://github.com/Borlarjhii/rock_paper_scissors)
 - [Siddharth Sahoo's Solution](https://github.com/sidd-oo/rock-paper-scissor-game) - [View in Browser](https://sidd-oo.github.io/rock-paper-scissor-game/)
 - [Elias-Dickinson's Solution](https://github.com/Elias-Dickinson/rock-paper-scissors) - [View in Browser](https://elias-dickinson.github.io/rock-paper-sc
 - [ayao99's Solution](https://github.com/ayao99/rps_practice) - [View in Browser](https://ayao99.github.io/rock-paper-scissors/)

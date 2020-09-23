@@ -28,6 +28,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [mittalrohit0598's Solution](https://github.com/mittalrohit0598/bubble_sort/blob/master/bubble_sort.rb)
 * [rkuang's Solution](https://gist.github.com/rkuang/d8b99acb17ae4dc187f6ac93a60a6056)
 * [invaderace's Solution](https://github.com/invaderace/bubble_sort)
 * [Gandolfthewise's Solution](https://github.com/gandolfthewise/bubble_sort/blob/master/bubble_sort.rb)
