@@ -45,7 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
--[kloba1004's Solution](https://github.com/kloba1004/Project-calculator) - [View in Browser](https://kloba1004.github.io/Project-calculator/)
+- [kloba1004's Solution](https://github.com/kloba1004/Project-calculator) - [View in Browser](https://kloba1004.github.io/Project-calculator/)
 - [Aseem's Solution](https://github.com/aseemtim/calculator) - [View in Browser](https://aseemtim.github.io/calculator/)
 - [Vedant Wankhade's Solution](https://github.com/VedantWankhade/Calculator) - [View in Browser](https://vedantwankhade.github.io/Calculator/)
 - [tootihamza's Solution](https://github.com/tootihamza/calculator/) - [View in Browser](https://tootihamza.github.io/calculator/)
