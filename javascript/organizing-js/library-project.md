@@ -41,6 +41,7 @@ Send us your solution so we can show others! Submit a link below to this [file](
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [adam-goodrich's Solution (w/ localStorage)](https://github.com/adam-goodrich/eLibrary) - [View in Browser](https://adam-goodrich.github.io/eLibrary/)
 - [tootihamza's Solution (w/ localStorage)](https://github.com/tootihamza/library) - [View in Browser](https://tootihamza.github.io/library/)
 - [owenKraft's Solution (w/o storage](https://github.com/owenKraft/library) - [View in Browser](https://owenkraft.github.io/library/)
 - [aderose's Solution (w/ localStorage)](https://github.com/aderose/library) - [View in Browser](https://aderose.github.io/library/)
