@@ -22,6 +22,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Sam MacFarlane's Solution](https://github.com/sammacfarlane23/intuit-sign-up-clone) - [View in Browser](https://sammacfarlane23.github.io/intuit-sign-up-clone/)
 * [Masha Shak's Solution](https://mashashak.github.io/signup-page-copy/) - [View in Browser](https://mashashak.github.io/signup-page-copy/)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/odin_signup) - [View in Browser](https://ovsjazz-odin-signup.herokuapp.com/)
 * [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/intuit-form.html) - [View in Browser](https://theghost1980.github.io/google-homepage/intuit-form.html)
@@ -215,6 +216,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/htmlforms)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_mintclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_mintclone/)
 * [Jonathan Altine's Solution](https://github.com/JonathanAltine/HTML-Forms) - [View in Browser](https://jonathanaltine.github.io/HTML-Forms/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/forms) - [View in Browser](https://codesurfer3022.github.io/forms/)
 </details>
 
 ### Additional Resources
