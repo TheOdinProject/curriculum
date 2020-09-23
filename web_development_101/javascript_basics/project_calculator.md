@@ -45,6 +45,12 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [kloba1004's Solution](https://github.com/kloba1004/Project-calculator) - [View in Browser](https://kloba1004.github.io/Project-calculator/)
+- [Aseem's Solution](https://github.com/aseemtim/calculator) - [View in Browser](https://aseemtim.github.io/calculator/)
+- [Vedant Wankhade's Solution](https://github.com/VedantWankhade/Calculator) - [View in Browser](https://vedantwankhade.github.io/Calculator/)
+- [tootihamza's Solution](https://github.com/tootihamza/calculator/) - [View in Browser](https://tootihamza.github.io/calculator/)
+- [Frank Johnette's Solution](https://github.com/FJohnette/calc) - [View in Browser](https://fjohnette.github.io/calc/)
+- [Levan Mebonia Solution](https://github.com/Levo96/calculator) - [View in Browser](https://codepen.io/levo96/full/QWyBGRJ)
 - [bensbread120's Solution](https://github.com/bensbread120/calculator-js) - [View in Browser](https://bensbread120.github.io/calculator-js/)
 - [Zakarya-Mks's Solution](https://github.com/Zakarya-Mks/OdinP_Calculator) - [View in Browser](https://zakarya-mks.github.io/OdinP_Calculator)
 - [thedodus' Solution](https://github.com/thedodus/top-calculator) - [View in Browser](https://thedodus.github.io/top-calculator/)
@@ -955,4 +961,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jorgeeab-az's Solution](https://github.com/Jorgeeab-jz/calculator) - [View in Browser](https://jorgeeab-jz.github.io/calculator/)
 - [Anna's Solution](https://github.com/abaker93/calculator) - [View in Browser](https://abaker93.github.io/calculator/)
 - [Andrea Maiolo's Solution](https://github/andrea-maiolo/calculator) - [View in Browser](https://andrea-maiolo.github.io/calculator/)
+- [NicoMunoz909's Solution](https://github.com/NicoMunoz909/project-calculator) - [View in Browser](https://nicomunoz909.github.io/project-calculator/)
 </details>
