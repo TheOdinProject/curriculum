@@ -101,7 +101,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/library-project.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 lesson_position += 1
@@ -162,7 +163,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/restaurant-project.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 lesson_position += 1
@@ -185,8 +187,9 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: '/javascript/organizing-js/project.md',
-  repo: 'curriculum'
+  url: '/javascript/organizing-js/todo-project.md',
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 # +++++++++++
