@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { object, func, arrayOf, string, bool } from 'prop-types';
 
-import Submission from './submission'
+import Submission from './submission';
+import ProjectSubmissionContext from '../ProjectSubmissionContext';
 
-const noop = () => {}
+const noop = () => {};
 
-const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, allSubmissionsPath, isDashboardView }) => {
+const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDashboardView }) => {
+  const { allSubmissionsPath, legacySubmissionsUrl } = useContext(ProjectSubmissionContext);
+
   return (
     <div>
       <div>
@@ -22,9 +25,9 @@ const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, allS
       </div>
 
       { allSubmissionsPath.length > 0 &&
-        <p className="submissions__view-more">
-          Showing {submissions.length} most recent submissions.
-          <a href={allSubmissionsPath}> View full list of solutions here.</a>
+        <p className='submissions__view-more'>
+          <span>Showing {submissions.length} most recent submissions - </span>
+          <a href={allSubmissionsPath}> View full list of solutions</a> or <a href={legacySubmissionsUrl} target='_blank'>View old submissions</a>
         </p>
       }
     </div>

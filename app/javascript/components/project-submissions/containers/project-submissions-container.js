@@ -5,7 +5,7 @@ import axios from '../../../src/js/axiosWithCsrf';
 import ProjectSubmissionContext from "../ProjectSubmissionContext";
 
 const ProjectSubmissions = (props) => {
-  const { userId, lesson, course, allSubmissionsPath } = useContext(ProjectSubmissionContext);
+  const { userId, lesson, course } = useContext(ProjectSubmissionContext);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [showFlagModal, setShowFlagModal] = useState(false);
   const [submissions, setSubmissions] = useState(props.submissions);
@@ -125,14 +125,15 @@ const ProjectSubmissions = (props) => {
           )}
         </div>
       </div>
-      <p className="text-center">This is a beta feature. If you have any feedback please let us know on discord <a href="https://discord.com/channels/505093832157691914/540903304046182425">here</a>.</p>
-
+      <p className="text-center">
+        <span>This is a beta feature. If you have any feedback </span>
+        <a href="https://discord.com/channels/505093832157691914/540903304046182425">please let us know</a>.
+      </p>
       <SubmissionsList
         submissions={submissions}
         handleUpdate={handleUpdate}
         onFlag={(submission) => { setFlaggedSubmission(submission); toggleShowFlagModal() }}
         handleDelete={handleDelete}
-        allSubmissionsPath={allSubmissionsPath}
       />
     </div>
   )

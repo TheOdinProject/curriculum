@@ -34,6 +34,7 @@
             lesson: @lesson.as_json,
             submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission) },
             allSubmissionsPath: lesson_project_submissions_path(@lesson),
+            legacySubmissionsUrl: legacy_submissions_url(@lesson)
           }
         ) %>
       <% end %>

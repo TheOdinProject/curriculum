@@ -35,4 +35,14 @@ RSpec.describe LessonsHelper do
       )
     end
   end
+
+  describe '#legacy_submissions_url' do
+    let(:lesson) { create(:lesson) }
+
+    it 'returns the legacy submissions url for the lesson' do
+      expect(helper.legacy_submissions_url(lesson)).to eql(
+        'https://github.com/TheOdinProject/curriculum/blob/master/legacy_submissions/lesson_course/lesson_title.md'
+      )
+    end
+  end
 end
