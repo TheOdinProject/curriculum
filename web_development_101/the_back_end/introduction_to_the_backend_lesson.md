@@ -19,6 +19,5 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 
   1. Check out [this blog post on back end vs front end programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
   2. Read over [this quick interview with Matt Jording](https://generalassemb.ly/blog/what-is-back-end-web-development/) about what back end web development is.
-  3. You should also be able to use `$ which git` and see the directory where you installed Git.
 
 </div>

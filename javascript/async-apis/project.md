@@ -21,6 +21,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Clumsyknight's Solution](https://github.com/Clumsynite/weather-app) - [View in Browser](https://clumsynite.github.io/weather-app/)
 * [Levan Mebonia React Solution](https://github.com/Levo96/weather_app) - [View in Browser](https://codepen.io/levo96/full/eYZVroR)
 * [Florian's React Solution](https://github.com/flsoller/weather-app) - [View in Browser](https://flsoller.github.io/weather-app/)
 * [dhatGuy's React Solution](https://github.com/dhatGuy/weather-app) - [View in Browser](https://rebrand.ly/82k91b4)
@@ -143,4 +144,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [Matyd's React Solution](https://github.com/MatyD356/weather-app/tree/master) - [View in Browser](https://matyd356.github.io/weather-app/)
 * [kbrdsk's Solution](https://github.com/kbrdsk/weather-app/tree/master) - [View in Browser](https://kbrdsk.github.io/weather-app/)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_weatherapp) - [View in Browser](https://icepick-pauly.github.io/top_javascript_weatherapp/)
+* [Ignatius's Solution](https://github.com/ignatius22/Weather-app) - [View in Browser](https://jovial-bell-2d2a8d.netlify.app/)
 </details>

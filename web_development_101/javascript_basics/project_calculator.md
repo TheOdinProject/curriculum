@@ -45,12 +45,17 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Animesh's Solution](https://github.com/AnimeshRy/TOP-Calc) - [View in Browser](https://animeshry.github.io/TOP-Calc/)
+- [kloba1004's Solution](https://github.com/kloba1004/Project-calculator) - [View in Browser](https://kloba1004.github.io/Project-calculator/)
+- [Aseem's Solution](https://github.com/aseemtim/calculator) - [View in Browser](https://aseemtim.github.io/calculator/)
+- [Vedant Wankhade's Solution](https://github.com/VedantWankhade/Calculator) - [View in Browser](https://vedantwankhade.github.io/Calculator/)
+- [tootihamza's Solution](https://github.com/tootihamza/calculator/) - [View in Browser](https://tootihamza.github.io/calculator/)
 - [Frank Johnette's Solution](https://github.com/FJohnette/calc) - [View in Browser](https://fjohnette.github.io/calc/)
 - [Levan Mebonia Solution](https://github.com/Levo96/calculator) - [View in Browser](https://codepen.io/levo96/full/QWyBGRJ)
 - [bensbread120's Solution](https://github.com/bensbread120/calculator-js) - [View in Browser](https://bensbread120.github.io/calculator-js/)
 - [Zakarya-Mks's Solution](https://github.com/Zakarya-Mks/OdinP_Calculator) - [View in Browser](https://zakarya-mks.github.io/OdinP_Calculator)
 - [thedodus' Solution](https://github.com/thedodus/top-calculator) - [View in Browser](https://thedodus.github.io/top-calculator/)
-- [Barry's Solution](https://github.com/BarnoldSporrance/odins-fancy-calculator) - [View in Browser](https://BarnoldSporrance.github.io/odins-fancy-calculator/)
+- [Barry's Solution](https://github.com/BarnoldSporrance/odins-fancy-calculator) - [View in Browser](https://barnoldsporrance.github.io/odins-fancy-calculator/)
 - [sielock's Solution](https://github.com/sielock/calculator) - [View in Browser](https://sielock.github.io/calculator/)
 - [Pio Alonday's Solution](https://github.com/shalonday/calculator) - [View in Browser](https://shalonday.github.io/calculator/)
 - [reinimax's Solution](https://github.com/reinimax/calculator) - [View in Browser](https://reinimax.github.io/calculator/)
