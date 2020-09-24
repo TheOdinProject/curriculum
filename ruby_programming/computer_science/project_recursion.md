@@ -322,6 +322,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [teshigahara's Solution](https://github.com/teshigahara/merge-sort/blob/master/merge_sort.rb)
 * [chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/recursion/merge_sort.rb)
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-recursion-basics/blob/master/merge_sort.rb)
 * [onagova' Solution](https://github.com/onagova/recursion/blob/master/merge_sort.rb)
