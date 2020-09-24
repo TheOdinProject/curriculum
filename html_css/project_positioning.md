@@ -27,6 +27,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/nyt-clone.html) - [View in Browser](https://theghost1980.github.io/google-homepage/nyt-clone.html)
 * [BBrenes' Solution](https://github.com/BBrenes/new-york-times) - [View in Browser](https://bbrenes.github.io/new-york-times/)
 * [bikmazefe's Solution](https://github.com/bikmazefe/ny-times) - [View in Browser](https://bikmazefe.github.io/ny-times/)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/new-york-times-clone) - [View in Browser](https://lopezaxel.github.io/new-york-times-clone/)

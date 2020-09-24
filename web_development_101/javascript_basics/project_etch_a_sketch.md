@@ -43,9 +43,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
- 
+
 * Add your solution below this line!
 * [Bill's Solution](https://github.com/billyboy118/etchASketch) - [View in Browser](https://billyboy118.github.io/etchASketch/)
+* [mooniiDev's Solution](https://github.com/mooniiDev/etch-a-sketch-toy) - [View in Browser](https://mooniidev.github.io/etch-a-sketch-toy/)
 * [Nerbelwerzer's Solution](https://github.com/Nerbelwerzer/etch-a-sketch) - [View in Browser](https://nerbelwerzer.github.io/etch-a-sketch/)
 * [ghidalgo93's Solution](https://github.com/ghidalgo93/happy-sketch) - [View in Browser](https://ghidalgo93.github.io/happy-sketch/)
 * [Siddharth Sahoo's Solution](https://github.com/sidd-oo/Etch-A-Sketch) - [View in Browser](https://sidd-oo.github.io/Etch-A-Sketch/)
@@ -1337,4 +1338,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Daniel88Hus Solution](https://github.com/Daniel88Hus/PRJSketch.git)
 * [Joe's Solution](https://github.com/joewickes/etch-a-sketch) - [View in Browser](https://joewickes.github.io/etch-a-sketch/)
 * [TheScurvyPirate's Solution](https://github.com/TheScurvyPirate/odin-etch-a-sketch) - [View in Browser](https://thescurvypirate.github.io/odin-etch-a-sketch/)
+* [gitliffi's Solution](https://github.com/gitliffi/etch-a-sketch) - [View in Browser](https://gitliffi.github.io/etch-a-sketch/)
 </details>

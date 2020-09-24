@@ -36,6 +36,7 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [parrthpanchal's solution](https://github.com/parrthpanchal/nodejs-modules-practice.git)
 - [hnguye's Solution](https://github.com/hnguye/basic-information-site) - [View in Browser](https://basic-information-site.hieunguye.repl.co)
 - [Vedvardhan 's Solution](https://github.com/ved08/practicing-node-modules) - [View in Browser](https://ved08-practicing-node-modules.glitch.me/)
 - [charliefinos's Solution](https://github.com/charlyfinos/basic-informational-site)
@@ -106,5 +107,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [nodonut's Solution](https://github.com/nodonut/TOP_basic_information_site)
 - [erinborders's Solution - View in Browser](https://repl.it/@erinborders/SimpleNodeServer)
 - [akoenig1's Solution](https://github.com/akoenig1/basic_info_site) - [View in Browser](https://basicinfosite.akoenig1.repl.co)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_node_basic_info_site) 
 
 </details>
