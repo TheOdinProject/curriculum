@@ -1336,4 +1336,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [Daniel88Hus Solution](https://github.com/Daniel88Hus/PRJSketch.git)
 * [Joe's Solution](https://github.com/joewickes/etch-a-sketch) - [View in Browser](https://joewickes.github.io/etch-a-sketch/)
 * [TheScurvyPirate's Solution](https://github.com/TheScurvyPirate/odin-etch-a-sketch) - [View in Browser](https://thescurvypirate.github.io/odin-etch-a-sketch/)
+* [gitliffi's Solution](https://github.com/gitliffi/etch-a-sketch) - [View in Browser](https://gitliffi.github.io/etch-a-sketch/)
 </details>
