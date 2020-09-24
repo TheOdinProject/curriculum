@@ -168,6 +168,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_appleclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_appleclone/)
 * [Mickey's Solution](https://github.com/Daidelos/Apple) - [View in Browser](https://daidelos.github.io/Apple/)
 * [Nijepa's Solution](https://github.com/nijepa/building-with-backgrounds-and-gradients) - [View in Browser](https://nijepa.github.io/building-with-backgrounds-and-gradients/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/apple-homepage) - [View in Browser](https://codesurfer3022.github.io/apple-homepage/)
 </details>
 
 ### Additional Resources
