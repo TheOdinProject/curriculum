@@ -60,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Lucasdonuts' solution](https://github.com/lucasdonuts/balanced_BST)
 * [AGL9's solution](https://github.com/agl9/binarysearchtree)
 * [Spike's Solution](https://github.com/superspike7/Balanced-BST)
 * [onagova's Solution](https://github.com/onagova/binary-search-trees)
