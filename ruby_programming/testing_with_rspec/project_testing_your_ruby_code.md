@@ -171,6 +171,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [onagova's Solution](https://github.com/onagova/tdd-connect-four) - [Play on Repl.it](https://repl.it/@onagova/tdd-connect-four#README.md)
 * [christian-ortega's Solution](https://github.com/christian-ortega/connect_four) - [Play on Repl.it](https://repl.it/@chrisortegax/connectfour#lib/connect_four.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/connect4) - [Play on Repl.it](https://repl.it/@HappyFrog/connect4#README.md)
 * [Sanjana's Solution](https://github.com/error34043/tdd_ruby_connect_four) - [Play on Repl.it](https://tddrubyconnectfour.error34043.repl.run)
