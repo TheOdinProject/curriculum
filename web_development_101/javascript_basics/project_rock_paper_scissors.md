@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [AlBibox's Solution](https://github.com/AlBibox/AlBibox.github.io/tree/master/RockPaperScissor) - [View in Browser](https://albibox.github.io/RockPaperScissor/index.html)
 - [Bohdan's Solution](https://github.com/bmukha/rock-paper-scissors)
 - [Jonathan's Solution](https://github.com/https://github.com/jlee1546/rockPaperScissors)
 - [tliebert's Solution](https://github.com/tliebert/rpsconsole)
@@ -60,7 +61,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [DatRollD20's Solution](https://github.com/datrolld20/rock-paper-scissors) - [View in Browser](https://datrolld20.github.io/rock-paper-scissors/)
 - [Nidhish's Solution](https://github.com/Nidhish1407/RockPaper) - [View in Browser](https://nidhish1407.github.io/RockPaper/)
 - [Lc's Solution](https://github.com/lc-code20/Rock-Paper-Scissors-UI) - [View in Browser](https://lc-code20.github.io/Rock-Paper-Scissors-UI/)
-- [AlBibox's Solution](https://github.com/AlBibox/RockPaperScissor)
 - [Zahir's Solution](https://github.com/zahnieb/paper-rock-scissors)
 - [aledaquino1986's Solution](https://github.com/aledaquino1986/rockpaperscissors) - [View in Browser](https://aledaquino1986.github.io/rockpaperscissors/)
 - [Eric M. Todd's Solution](https://github.com/EricMTodd/gui-rock-paper-scissors) - [View in Browser](https://ericmtodd.github.io/gui-rock-paper-scissors/)
