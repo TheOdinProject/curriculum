@@ -57,7 +57,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [b-steel's Solution](https://github.com/b-steel/rock-paper-scissors) - [View in Browser](https://b-steel.github.io/rock-paper-scissors/)
 - [Tzunwip's Solution](https://github.com/tzunwip/rps-game) - [View in Browser](https://tzunwip.github.io/rps-game/)
 - [bensbread120's Solution](https://github.com/bensbread120/scissors-paper-rock.git)
-- [Laura's Solution](https://github.com/laulujan/rock_paper_scissors) 
+- [Laura's Solution](https://github.com/laulujan/rock_paper_scissors) - [View in Browser](https://laulujan.github.io/rock_paper_scissors/) 
 - [Cendevs's Solution](https://github.com/Cendevs/rpsGame)
 - [DatRollD20's Solution](https://github.com/datrolld20/rock-paper-scissors) - [View in Browser](https://datrolld20.github.io/rock-paper-scissors/)
 - [Nidhish's Solution](https://github.com/Nidhish1407/RockPaper) - [View in Browser](https://nidhish1407.github.io/RockPaper/)
