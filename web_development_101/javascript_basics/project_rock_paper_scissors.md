@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [alistairvu's Solution](https://github.com/alistairvu/rock-paper-scissors)
 - [carloscodes' Solution](https://github.com/carloschancodes/rock_paper_scissors)
 - [spark712's Solution](https://github.com/spark712/rock-paper-scissor)
 - [AlBibox's Solution](https://github.com/AlBibox/AlBibox.github.io/tree/master/RockPaperScissor) - [View in Browser](https://albibox.github.io/RockPaperScissor/index.html)
