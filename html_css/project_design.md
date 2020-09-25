@@ -122,6 +122,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [Sanyogita's Solution](https://github.com/SanyogitaPandit/html-css/tree/master/design_teardown)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_designteardown) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_designteardown/)
 * [Nijepa's Solution](https://github.com/nijepa/design-teardown) - [View in Browser](https://nijepa.github.io/design-teardown/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/Smashing-Heatmap) - [View in Browser](https://codesurfer3022.github.io/Smashing-Heatmap/)
 </details>
 
 ### Additional Resources
