@@ -1,6 +1,6 @@
 ### Introduction
 
-And here we go again with a new project! Let's make sure you understood the concepts so far. The main goal of this project should be to use hooks or lifecycle methods, as well as a lot of state. The idea for this project comes from [this](https://www.golangprograms.com/react-js-projects-for-beginners.html) site. It's a great ressource for project ideas.
+And here we go again with a new project! Let's make sure you understood the concepts so far. The main goal of this project should be to use hooks or lifecycle methods, as well as a lot of state. The idea for this project comes from [this](https://www.golangprograms.com/react-js-projects-for-beginners.html) site. It's a great resource for project ideas.
 
 ### How The Game Works
 
