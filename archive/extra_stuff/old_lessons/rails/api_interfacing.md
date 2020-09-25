@@ -73,7 +73,7 @@ Once you have the user token, you are allowed to make requests or submissions ba
 
 #### Restrictions
 
-Every site, in addition to rate limiting their API, will have terms of use.  This usually covers what you're allowed to do with the data you gather.  For instance, they probably aren't going to allow you to store a whole bunch of their data in your own database (harvesting).  They also probably won't allow you to do anything SPAMmy or which will hurt their user's experience.  Common sense should be your initial guide, but consult the TOU documentation for specifics.  Basically, if you'll be hurting their user's experience or taking their precious data, you can't do it.
+Every site, in addition to rate limiting their API, will have terms of use.  These usually cover what you're allowed to do with the data you gather.  For instance, they probably aren't going to allow you to store a whole bunch of their data in your own database (harvesting).  They also probably won't allow you to do anything SPAMmy or which will hurt their user's experience.  Common sense should be your initial guide, but consult the TOU documentation for specifics.  Basically, if you'll be hurting their user's experience or taking their precious data, you can't do it.
 
 It should be noted that any time you develop using someone else's API, you're putting yourself at their mercy.  If you're using it to the point where you pay for data, they'll love you.  If you get too successful and become competitive with them, they've got you by the neck and will cut you off or demand exorbitant fees.  Just be cognizant of those risks.
 
