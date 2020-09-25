@@ -32,7 +32,7 @@ You will need to register yourself and your application with the API provider.  
 
 You will need to get an **API key** from the API provider, which often is the last part of registration.  This key will uniquely identify your application to the API provider and you will send it along with every request.  It's sort of like a user on your site automatically submitting their session cookie with each request so you know they're logged in.  
 
-You'll typically also get a "secret key" or similarly named code.  Whereas the API key is usually public, the secret key is an added layer of security that's required for the more secure APIs and you will use it to generate a cryptographic token that authenticates any requests you make.  You will need to make sure you don't include this secret key in your Git repo!  Use the `figaro` gem or environment variables to put the key on the server instead of hard coding it.
+You'll typically also get a "secret key" or similarly named code.  Whereas the API key is usually public, the secret key is an added layer of security that's required for the more secure APIs and you will use it to generate a cryptographic token that authenticates any requests you make.  You will need to make sure you don't include this secret key in your Git repo!  Use the [`figaro`](https://github.com/laserlemon/figaro) gem or environment variables to put the key on the server instead of hard coding it.
 
 ### API Rates and Security Tokens
 
