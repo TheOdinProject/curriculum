@@ -1,6 +1,6 @@
 ### Introduction
 
-The last section has given you a quick overview of the three most popular Frontend Frameworks (Vue.js, Angular, React.js). This section aims to provide you with all you need to know about React, to feel the power of a Frontend Framework and also to help you create highly scalable React applications as well as beautiful websites. But before we jump right into it, we need to answer one question.
+This section aims to provide you with all you need to know about React, to feel the power of a Frontend Framework and also to help you create highly scalable React applications as well as beautiful websites. But before we jump right into it, we need to answer one question.
 
 ### Why React?
 
