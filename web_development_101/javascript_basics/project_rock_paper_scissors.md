@@ -2028,4 +2028,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Aaron's Solution](https://github.com/acelizondo1/rock-paper-scissors) - [View in Browser](https://acelizondo1.github.io/rock-paper-scissors/)
 - [mohammedWasik's Solution](https://github.com/mohammedWasik/Rock-Paper-Scissor) - [View in Browser](https://mohammedwasik.github.io/Rock-Paper-Scissor/)
 - [Shaka's Solution](https://github.com/Shaka-W/rock-paper-scissors) - [View in Browser](https://github.com/Shaka-W/rock-paper-scissors/)
+- [egger0a6's Solution](https://github.com/egger0a6/rock-paper-scissors)
 </details>
