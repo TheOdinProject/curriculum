@@ -965,4 +965,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrea Maiolo's Solution](https://github/andrea-maiolo/calculator) - [View in Browser](https://andrea-maiolo.github.io/calculator/)
 - [NicoMunoz909's Solution](https://github.com/NicoMunoz909/project-calculator) - [View in Browser](https://nicomunoz909.github.io/project-calculator/)
 - [macla7's Solution](https://github.com/NicoMunoz909/project-calculator)
+- [Daniel88Hus's Solution] - (https://github.com/Daniel88Hus/ProjectCalculator)
 </details>
