@@ -8,7 +8,7 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Begin your app by creating the `Ship` factory function.  
+1. Begin your app by creating the `Ship` factory function.
    1. Your 'ships' will be objects that include their length, where they've been hit and whether or not they've been sunk.
    2. __REMEMBER__ you only have to test your object's public interface.  Only methods or properties that are used outside of your 'ship' object need unit tests.
    3. Ships should have a `hit()` function that takes a number and then marks that position as 'hit'.
@@ -42,6 +42,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [osechi3's Solution](https://github.com/osechi3/battleship) - [View in Browser](https://osechi3.github.io/battleship/)
 - [pklepa's Solution](https://github.com/pklepa/battleship) - [View in Browser](https://pklepa.github.io/battleship/)
 - [guyroberts21's Solution](https://github.com/guyroberts21/battleship) - [View in Browser](https://guyroberts21.github.io/battleship/)
 - [ray0h's Solution](https://github.com/ray0h/TOP-Battleship) - [View in Browser](https://ray0h.github.io/TOP-Battleship/)
@@ -82,4 +83,5 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 - [kbrdsk's Solution](https://github.com/kbrdsk/battleship) - [View in Browser](https://kbrdsk.github.io/battleship/)
 - [themetar's Solution](https://github.com/themetar/battleship-top) - [View in Browser](https://themetar.github.io/battleship-top/)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/battleship) - [View in Browser](https://codesurfer3022.github.io/battleship/)
+- [Tim Kelly's Solution](https://github.com/timkellytk/project-battleship) - [View in Browser](https://timkellytk.github.io/project-battleship/)
 </details>
