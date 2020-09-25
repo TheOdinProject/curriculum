@@ -24,6 +24,8 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/appleold-clone.html) - [View in Browser](https://theghost1980.github.io/google-homepage/practice-grids.html)
+* [BBrenes' Solution](https://github.com/BBrenes/old-apple) - [View in Browser](https://bbrenes.github.io/old-apple/)
 * [pudu87's Solution](https://github.com/pudu87/apple-homepage) - [View in Browser](https://pudu87.github.io/apple-homepage/)
 * [bikmazefe's Solution](https://github.com/bikmazefe/apple-clone) - [View in Browser](https://bikmazefe.github.io/apple-clone/)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/old-apple-clone) - [View in Browser](https://lopezaxel.github.io/old-apple-clone/)
@@ -168,6 +170,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_appleclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_appleclone/)
 * [Mickey's Solution](https://github.com/Daidelos/Apple) - [View in Browser](https://daidelos.github.io/Apple/)
 * [Nijepa's Solution](https://github.com/nijepa/building-with-backgrounds-and-gradients) - [View in Browser](https://nijepa.github.io/building-with-backgrounds-and-gradients/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/apple-homepage) - [View in Browser](https://codesurfer3022.github.io/apple-homepage/)
 </details>
 
 ### Additional Resources

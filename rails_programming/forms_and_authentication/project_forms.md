@@ -118,6 +118,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 
 * Add your solution below this line!
 * [James's Solution](https://github.com/jegrieve/re-former)
+* [ray0h's Solution](https://github.com/ray0h/TOP-Rails-Forms)
 * [Spark's Solution](https://github.com/Sparking2/Rails-Forms)
 * [Haroon Abdulrazaq's Solution](https://github.com/haroonabdulrazaq/re-former)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/re-former)

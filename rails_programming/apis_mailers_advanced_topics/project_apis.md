@@ -284,6 +284,8 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
 * [Timework's Solution](https://github.com/Timework/odin-flickr)
 * [Bendee's Solution](https://github.com/bendee48/rails-photo-feed)
 * [Christian Paez's Solution](https://github.com/christian1894/odin-flickr)
+* [Clinton's Solution](https://github.com/Clinton-dev/simple-photo-widget)
+
 </details>
 
 ### Additional Resources
