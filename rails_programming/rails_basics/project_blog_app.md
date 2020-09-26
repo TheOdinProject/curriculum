@@ -24,8 +24,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-<<<<<<< HEAD
-=======
 * [Spark's Blog Source Code - Soultion](https://github.com/Sparking2/Ruby_blog_app) - [Online app](https://guarded-chamber-08936.herokuapp.com/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/blogger)
 * [Witah Georjane's Solution](https://github.com/Georjane/My_Blog_App) - [View in Browser](https://jane-blog.herokuapp.com/)
@@ -35,7 +33,6 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Neal Bayya's Solution](https://github.com/nealbayya/blog) - [View in Browser](https://fast-journey-07183.herokuapp.com/)
 * [Darren's Solution](https://github.com/DarrenLo0530/blog) - [View in Browser](https://calm-wave-48807.herokuapp.com/)
 * [JvPelai's Solution](https://github.com/JvPelai/Blog) - [View in Browser](https://fathomless-beach-73692.herokuapp.com/)
->>>>>>> e25fcc9aba4d94b726a66942e0ae8aba52aff8b9
 * [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Blog-App)
 * [Sam Eff's Solution](https://github.com/SamEff/blogger) - [View in Browser](https://pure-fjord-66475.herokuapp.com/)
 * [Saul-Good-Homie's Solution](https://github.com/Saul-Good-Homie/ruby_blog_app) - [View in Browser](https://apologetic-mountie-86951.herokuapp.com/)
