@@ -3675,6 +3675,11 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+hint.css@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/hint.css/-/hint.css-2.6.0.tgz#cd6bbe25e2bc16a6454765d9559ad7bd035b3cf5"
+  integrity sha512-SnCLQOoPQt4fuHbOOvEL3UZwL0SPFtKMN4YIxAvBTe4oFUtBAT4R2Kk1uk3x5hgN+0xzOb6LFEQf5StbYfNm8w==
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"

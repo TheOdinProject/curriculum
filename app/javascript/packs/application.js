@@ -25,6 +25,7 @@ ReactRailsUJS.useContext(componentRequireContext);
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import 'bootstrap/dist/js/bootstrap';
+import 'hint.css/hint.min.css'
 
 import "../src/js/analytics";
 import "../src/js/axiosWithCsrf";
