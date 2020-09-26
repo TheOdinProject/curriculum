@@ -114,5 +114,6 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Tim Kelly's Solution](https://github.com/timkellytk/project-testing-practice)
 - [Nijepa's Solution](https://github.com/nijepa/testing-practice)
 - [Chandra's Solution](https://github.com/CodeSurfer3022/testing-practice)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_javascript_testing)
 </details>
 
