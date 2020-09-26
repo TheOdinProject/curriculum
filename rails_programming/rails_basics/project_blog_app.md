@@ -507,6 +507,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [clinton wambugu's Solution](https://github.com/kwambugu/Jumpstart-Lab-s-Blogger-Tutorial)
 * [akoenig1's Solution](https://github.com/akoenig1/blog) - [View in Browser](https://radiant-harbor-93584.herokuapp.com/)
 * [agami's Solution](https://github.com/NotAProgrammerdork/rails-blog-app) - [View in Browser](https://bloggersasda.herokuapp.com/)
+* [scotth527's Solution](https://github.com/scotth527/blogger_project) - [View in Browser](https://fathomless-wave-96763.herokuapp.com/articles)
 </details>
 
 ### Additional Resources

@@ -60,6 +60,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Omar Al-Masri's solution](https://github.com/Omarmasri-91/balanced_bst)
+* [Lucasdonuts' solution](https://github.com/lucasdonuts/balanced_BST)
 * [AGL9's solution](https://github.com/agl9/binarysearchtree)
 * [Spike's Solution](https://github.com/superspike7/Balanced-BST)
 * [onagova's Solution](https://github.com/onagova/binary-search-trees)
@@ -531,4 +533,5 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/knights_travels.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/knights_travails.rb)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/knighttravail)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/knights_travails.rb)
 </details>

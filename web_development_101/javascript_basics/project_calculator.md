@@ -45,6 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Nerbelwerzer's Solution](https://github.com/Nerbelwerzer/calculator) - [View in Browser](https://nerbelwerzer.github.io/calculator/)
+- [cjcon90's Solution](https://github.com/cjcon90/calculator) - [View in Browser](https://cjcon90.github.io/calculator/)
 - [Animesh's Solution](https://github.com/AnimeshRy/TOP-Calc) - [View in Browser](https://animeshry.github.io/TOP-Calc/)
 - [kloba1004's Solution](https://github.com/kloba1004/Project-calculator) - [View in Browser](https://kloba1004.github.io/Project-calculator/)
 - [Aseem's Solution](https://github.com/aseemtim/calculator) - [View in Browser](https://aseemtim.github.io/calculator/)
@@ -964,4 +966,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Andrea Maiolo's Solution](https://github/andrea-maiolo/calculator) - [View in Browser](https://andrea-maiolo.github.io/calculator/)
 - [NicoMunoz909's Solution](https://github.com/NicoMunoz909/project-calculator) - [View in Browser](https://nicomunoz909.github.io/project-calculator/)
 - [Aaron's Solution](https://github.com/acelizondo1/calculator) - [View in Browser](https://acelizondo1.github.io/calculator/)
+- [macla7's Solution](https://github.com/NicoMunoz909/project-calculator)
+- [Daniel88Hus Solution](https://github.com/Daniel88Hus/ProjectCalculator)
 </details>
