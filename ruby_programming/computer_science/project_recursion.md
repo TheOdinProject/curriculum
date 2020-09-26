@@ -16,6 +16,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kingofping654's Solution][View in Repl.it](https://repl.it/@kingofping654/Fibonacci-sequence#main.rb)
 * [teshigahara's Solution](https://github.com/teshigahara/fib/blob/master/fibonacci.rb)
 * [chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/recursion/fibonacci.rb)
 * [onagova' Solution](https://github.com/onagova/recursion/blob/master/fibonacci.rb)
@@ -322,6 +323,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Kingofping654's's Solution](https://github.com/kingofping654/Merge_sort) - [View in Repl.it](https://repl.it/@kingofping654/Merge-Sort#main.rb)
 * [teshigahara's Solution](https://github.com/teshigahara/merge-sort/blob/master/merge_sort.rb)
 * [chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/recursion/merge_sort.rb)
 * [AFurrow's Solution](https://github.com/Afurrow/ruby-recursion-basics/blob/master/merge_sort.rb)
