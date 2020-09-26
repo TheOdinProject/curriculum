@@ -35,7 +35,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/design-teardown.html) - [View in Browser](https://theghost1980.github.io/google-homepage/design-teardown.html)
+* [theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/design-teardown.html) - [View in Browser](https://theghost1980.github.io/google-homepage/design-teardown.html)
 * [BBrenes' Solution](https://github.com/BBrenes/greyscale-heatmap) - [View in Browser](https://bbrenes.github.io/greyscale-heatmap/)
 * [Rizwan's Solution](https://github.com/xRizwan/greyscale-heatmap) - [View in Browser](https://xrizwan.github.io/greyscale-heatmap/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/smashing-copy) - [View in Browser](https://irlgabriel.github.io/smashing-copy/)
