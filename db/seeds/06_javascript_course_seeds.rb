@@ -271,71 +271,134 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: 'Front End Frameworks',
-  title_url: 'front end frameworks'.parameterize,
+  title: 'React JS',
+  title_url: 'React JS'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "We'll take a brief look at the most popular JavaScript frameworks."
+  description: 'In this section you will learn the basics of the most popular frontend framework, React JS.'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Introduction to Frameworks',
-  title_url: 'frameworks introduction'.parameterize,
-  description: 'intro',
+  title: 'React Introduction',
+  title_url: 'React Introduction'.parameterize,
+  description: 'React Introduction',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/javascript/frameworks/frameworks-introduction.md',
+  url: '/javascript/react-js/react-introduction.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Angular',
-  title_url: 'Angular'.parameterize,
-  description: 'Angular',
+  title: 'State and Props',
+  title_url: 'State and Props'.parameterize,
+  description: 'State and Props',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/javascript/frameworks/angular.md',
+  url: '/javascript/react-js/state-and-props.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'React',
-  title_url: 'React'.parameterize,
-  description: 'React',
+  title: 'Handle Inputs and Render Lists',
+  title_url: 'Handle Inputs and Render Lists'.parameterize,
+  description: 'Handle Inputs and Render Lists',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/javascript/frameworks/react-introduction.md',
+  url: '/javascript/react-js/inputs-and-lists.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Vue',
-  title_url: 'Vue'.parameterize,
-  description: 'Vue',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: '/javascript/frameworks/vue.md',
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: 'Frameworks',
-  title_url: 'Frameworks'.parameterize,
-  description: 'Project: Frameworks',
+  title: 'CV Application',
+  title_url: 'CV Application'.parameterize,
+  description: 'CV Application',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: '/javascript/frameworks/frameworks-project.md',
+  url: '/javascript/react-js/project-cv.md',
+  repo: 'curriculum',
+  accepts_submission: true
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Lifecycle Methods',
+  title_url: 'Lifecycle Methods'.parameterize,
+  description: 'Lifecycle Methods',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/react-js/lifecycle-methods.md',
   repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Hooks',
+  title_url: 'Hooks'.parameterize,
+  description: 'Hooks',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/react-js/hooks.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Memory Card',
+  title_url: 'Memory Card'.parameterize,
+  description: 'Memory Card',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: '/javascript/react-js/project-memory-card.md',
+  repo: 'curriculum',
+  accepts_submission: true
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Router',
+  title_url: 'Router'.parameterize,
+  description: 'Router',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/react-js/router.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Shopping Chart',
+  title_url: 'Shopping Chart'.parameterize,
+  description: 'Shopping Chart',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: '/javascript/react-js/project-shopping-chart.md',
+  repo: 'curriculum',
+  accepts_submission: true
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Advanced Concepts',
+  title_url: 'Advanced Concepts'.parameterize,
+  description: 'Advanced Concepts',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/react-js/advanced-concepts.md',
+  repo: 'curriculum',
 )
 
 # +++++++++++
