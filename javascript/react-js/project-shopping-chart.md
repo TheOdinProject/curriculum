@@ -16,5 +16,3 @@ This application should also have at least two routes to give you a chance to ma
 8. As usual, style your application so you can show it off!
 9. Lastly, push the project to GitHub!
 </div>
-
-### Additional Resources

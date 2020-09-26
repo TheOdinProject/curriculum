@@ -22,5 +22,3 @@ So let's get started.
 6. If you are familiar with bootstrap or any other CSS framework, feel free to use it. If not, don't worry, just include a `styles` folder in your `src` directory and continue with normal CSS.
 7. Don't forget to push your solution to GitHub. You should be proud of your work and show it off to the world!
 </div>
-
-### Additional Resources

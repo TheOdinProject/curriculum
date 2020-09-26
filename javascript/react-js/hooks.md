@@ -151,3 +151,7 @@ If you write a return statement like the above in a useEffect, it will do the sa
 </div>
 
 ### Additional Resources
+
+Have an additional resource that helped you with this lesson?
+
+You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/hooks.md) and create a pull request to have one added!
