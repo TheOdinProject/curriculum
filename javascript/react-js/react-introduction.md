@@ -26,7 +26,7 @@ _Convinced and excited? Great, because it's going to change your life! Let's div
 
 Applications built with React are made with (reusable) components. Components are your "building blocks" in React. To gain confidence using React, you should learn to divide your application or project into separate components. The following picture gives you an idea of how to do that with a very basic app.
 
-![Simple Homepage](./assets/BlogPost.png)
+![Simple Homepage](https://github.com/TheOdinProject/curriculum/tree/master/javascript/assets/BlogPost.png)
 
 For example this simple website could be divided into the following sections (components):
 
