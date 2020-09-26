@@ -332,7 +332,7 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 ### **Easy**
 
 1. Instead of displaying unordered list items, manage the amount of tasks in state, and let each task display it's number. Yes, you could also do that with a simple ordered list, but where's the fun in that? Try using state.
-2. Implement a delete button for each task. The delete button should remove the specific task from the state array. Don't forget to never directly assign state. If you want you can use [fontawesome](https://fontawesome.com/) for the icon.
+2. Implement a delete button for each task. The delete button should remove the specific task from the state array. Don't forget to never directly assign state. If you want you can use [Font Awesome](https://fontawesome.com/) for the icon.
    **Tip**: You can remove each task by it's id, but for that you have to save the task id together with the task title.
 
 ### **Hard:**
