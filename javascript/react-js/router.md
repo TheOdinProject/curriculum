@@ -112,3 +112,7 @@ Now you should have enough basics to get started with React routing. There are a
 </div>
 
 ### Additional Resources
+
+Have an additional resource that helped you with this lesson?
+
+You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/router.md) and create a pull request to have one added!

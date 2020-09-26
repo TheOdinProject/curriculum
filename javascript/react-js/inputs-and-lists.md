@@ -340,3 +340,7 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 1. Implement an edit button for each task. When pressing the edit button, this specific task should be changeable, and the previously displayed edit button changes to a resubmit button.
 
 ### Additional Resources
+
+Have an additional resource that helped you with this lesson?
+
+You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/inputs-and-lists.md) and create a pull request to have one added!

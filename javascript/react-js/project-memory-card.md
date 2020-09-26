@@ -15,5 +15,3 @@ Go play around [here](http://demo7.downloader.tech/) to find out for yourself. Y
 4. Style your application so you can show it off!
 5. As always, push the project to GitHub.
 </div>
-
-### Additional Resourcess
