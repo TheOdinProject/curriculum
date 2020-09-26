@@ -343,4 +343,4 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 
 Have an additional resource that helped you with this lesson?
 
-You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/hooks.md) and create a pull request to have one added!
+You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/inputs-and-lists.md) and create a pull request to have one added!
