@@ -12,7 +12,7 @@ Now we will discuss the most basic hooks.  Create a `create-react-app` and use t
 
 So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:
 
-```javascript
+~~~javascript
 import React, { useState } from "react";
 
 const App = () => {
@@ -31,7 +31,7 @@ const App = () => {
 };
 
 export default App;
-```
+~~~
 
 Go try this out in the browser.
 
@@ -45,7 +45,7 @@ Afterwards we are declaring a function, which right now just sets a new count. I
 
 Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentDidUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
 
-```javascript
+~~~javascript
 import React, { useState, useEffect } from "react";
 
 const App = () => {
@@ -88,7 +88,7 @@ const App = () => {
 };
 
 export default App;
-```
+~~~
 Try it out to get an idea of what is happening. 
  
 Once you've done that, let's go through it in all detail.
@@ -105,41 +105,41 @@ In the curly brackets you can write the code that will be executed. The dependen
 
 1. Leave it empty. If you leave it empty the useEffect hook would look something like this:
 
-```javascript
+~~~javascript
 useEffect(() => {
   // Do something
 }, []);
-```
+~~~
 
 This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs **one time** when the component mounts (is inserted in the DOM tree)
 
 2. Add a dependency to the array. Like we did it in our example code.
 
-```javascript
+~~~javascript
 useEffect(() => {
   // Do something
 }, [color]);
-```
+~~~
 
 This way, the useEffect hook will re-run anytime the dependency (color) changes. This is similar to a `componentDidUpdate` method, with the only difference that it only runs when a certain condition has changed.
 
 3. Leave out the dependency array.
 
-```javascript
+~~~javascript
 useEffect(() => {
   // Do something
 });
-```
+~~~
 
 You can also completely leave out the dependency array. This way, the useEffect hook runs anytime the component is updated, **AND** right after the initial render. This is the difference compared to the `componentDidUpdate` lifecycle method, because it also runs after the initial render. This way it would be equal to a `componentDidMount` and `componenDidUpdate` method combined.
 
 The return statement we are adding to our useEffect is acually equal to a `componentWillUnmount` method. 
 
-```javascript
+~~~javascript
 return () => {
   document.removeEventListener("click", changeColorOnClick);
 };
-```
+~~~
 
 If you write a return statement like the above in a useEffect, it will do the same as a `componentWillUnmount` method. As you can see, there is a lot to the useEffect hook.  You can also create your own custom hooks if desired. However, with the above mentioned hooks `useState` and `useEffect` you will be fine in most of your smaller projects. 
 
