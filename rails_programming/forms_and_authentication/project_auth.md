@@ -196,6 +196,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Christian Páez's Solutions](https://github.com/christian1894/odin-project-members-only) - [View in Browser](https://members-only-ruby-on-rails.herokuapp.com/)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/members-only)
 * [clinton wambugu's Solution](https://github.com/kwambugu/members-only)
+* [bhenning83's Solution](https://github.com/bhenning83/members-only)
 </details>
 
 ### Additional Resources
