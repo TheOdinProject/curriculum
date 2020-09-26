@@ -13,6 +13,7 @@ ActiveAdmin.register Flag do
 
   member_action :ban_flagged_user, method: :post
   member_action :dismiss, method: :post
+  member_action :remove_project_submission, method: :post
 
   index do
     selectable_column
@@ -69,6 +70,12 @@ ActiveAdmin.register Flag do
       else
         redirect_to resource_path(resource), notice: 'Failure: Unable to dismiss flag, please check logs.'
       end
+    end
+
+    def remove_project_submission
+      resource.project_submission.destroy
+
+      redirect_to admin_flags_path, notice: 'Success: Submission has been removed.'
     end
   end
 end
