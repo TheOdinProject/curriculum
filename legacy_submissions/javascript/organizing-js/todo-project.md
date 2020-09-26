@@ -1,40 +1,5 @@
-### Introduction
-At this point you've already had a fair amount of practice using the various techniques we've shown you. But we've been throwing a _lot_ of information your way, so before we move on we're going to take a minute to slow down and work on one more great portfolio project.
-
-# The Todo List
-
-Todo lists are a staple in beginning webdev tutorials because they can be very simple.  There is, however, a lot of room for improvement and many features that can be added.
-
-Before diving into the code, take a minute to think about how you are going to want to organize your project
-
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-1. Your 'todos' are going to be objects that you'll want to dynamically create, which means either using factories or constructors/classes to generate them.
-2. Brainstorm what kind of properties your todo-items are going to have. At a minimum they should have a `title`, `description`, `dueDate` and `priority`.  You might also want to include `notes`  or even a `checklist`.
-3. Your todo list should have `projects` or separate lists of `todos`.  When a user first opens the app, there should be some sort of 'default' project to which all of their todos are put.  Users should be able to create new projects and choose which project their todos go into.
-4. You should separate your application logic (i.e. creating new todos, setting todos as complete, changing todo priority etc.) from the DOM-related stuff, so keep all of those things in separate modules.
-5. The look of the User Interface is up to you, but it should be able to do the following:
-   1. view all projects
-   2. view all todos in each project (probably just the title and duedate.. perhaps changing color for different priorities)
-   3. expand a single todo to see/edit its details
-   4. delete a todo
-6. For inspiration, check out the following great todo apps. (look at screenshots, watch their introduction videos etc.)
-   1. [Todoist](https://en.todoist.com/)
-   2. [Things](https://culturedcode.com/things/)
-   3. [any.do](https://www.any.do/)
-7. Use localStorage to save user's projects and todos between sessions.
-8. Since you are probably already using webpack, adding external libraries from npm is a cinch!  You might want to consider using the following useful library in your code:
-   1. [date-fns](https://github.com/date-fns/date-fns) gives you a bunch of handy functions for formatting and manipulating dates and times.
-</div>
-
-### Student Solutions
-To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/organizing-js/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-* Add your solution below this line!
+* [Jdonahue135's Solution](https://github.com/jdonahue135/todo-list) - [View in Browser](https://shielded-mesa-41166.herokuapp.com/)
+* [Christian's Solution](https://github.com/rueeazy/todo-list) - [View in Browser](https://rueeazy.github.io/todo-list/)
 * [PaoloTiu17's Solution](https://github.com/paolotiu17/tic-tac-toe) - [View in Browser](https://paolotiu17.github.io/tic-tac-toe/)
 * [Abhishek Khale's Solution](https://github.com/abkhale17/Todo_List) - [View in Browser](https://abkhale17.github.io/Todo_List/)
 * [Guyus15's  Solution](https://github.com/guyus15/project-manager) - [View in Browser](https://guyus15.github.io/project-manager/dist/)
@@ -181,4 +146,4 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 * [TheMDDropout's Solution](https://github.com/TheMDDropout/betterToDoList) - [View in Browser](https://themddropout.github.io/betterToDoList/)
 * [Wulfen's Solution](https://github.com/Wulfenn/todolist) - [View in Browser](https://wulfenn.github.io/todolist/)
 * [PlayingOnGithub's Solution](https://github.com/PlayingOnGitHub/To-Do-List) - [View in Browser](https://playingongithub.github.io/To-Do-List/)
-</details>
+* [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/TodoListJS) - [View in Browser](https://almirbunjaku.github.io/TodoListJS/)
