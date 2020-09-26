@@ -25,6 +25,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Hiro's Solution](https://github.com/hrmtk/newsweek-clone) - [View in Browser](https://hrmtk.github.io/newsweek-clone/)
 * [irlgabriel's Solution](https://github.com/irlgabriel/bootstrap-project) - [View in Browser](https://irlgabriel.github.io/bootstrap-project/)
 * [Christian's Solution](https://github.com/rueeazy/newsweek-clone) - [View in Browser](https://rueeazy.github.io/newsweek-clone/)
 * [foolmonkey's Solution](https://github.com/foolmonkey/newsweek-bootstrap-clone) - [View in Browser](https://foolmonkey.github.io/newsweek-bootstrap-clone/)

@@ -9,7 +9,7 @@ In this project you'll clone the website of one of the most design-forward compa
 2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
-5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "Inspect Element")!
 6. Set up the top navigation bar.  How is that gradient achieved?
 7. Set up the main background image.  You can grab that exact image from their webpage by finding the `<section class="hero">` tag in your inspector and checking out its background image.
 6. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
@@ -24,6 +24,12 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/appleold-clone.html) - [View in Browser](https://theghost1980.github.io/google-homepage/practice-grids.html)
+* [BBrenes' Solution](https://github.com/BBrenes/old-apple) - [View in Browser](https://bbrenes.github.io/old-apple/)
+* [pudu87's Solution](https://github.com/pudu87/apple-homepage) - [View in Browser](https://pudu87.github.io/apple-homepage/)
+* [bikmazefe's Solution](https://github.com/bikmazefe/apple-clone) - [View in Browser](https://bikmazefe.github.io/apple-clone/)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/old-apple-clone) - [View in Browser](https://lopezaxel.github.io/old-apple-clone/)
+* [Rizwan's Solution](https://github.com/xRizwan/old-apple-clone) - [View in Browser](https://xrizwan.github.io/old-apple-clone/)
 * [CodingCop's Solution](https://github.com/cleve703/apple_homepage) - [View in Browser](http://htmlpreview.github.io/?https://github.com/cleve703/apple_homepage/blob/master/index.html)
 * [irlgabriel's Solution](https://github.com/irlgabriel/apple-copy) - [View in Browser](https://irlgabriel.github.io/apple-copy/)
 * [Hiro's Solution](https://github.com/hrmtk/old-apple-clone) - [View in Browser](https://hrmtk.github.io/old-apple-clone/)
@@ -164,6 +170,7 @@ Submit a link below to [this file](https://github.com/TheOdinProject/curriculum/
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_appleclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_appleclone/)
 * [Mickey's Solution](https://github.com/Daidelos/Apple) - [View in Browser](https://daidelos.github.io/Apple/)
 * [Nijepa's Solution](https://github.com/nijepa/building-with-backgrounds-and-gradients) - [View in Browser](https://nijepa.github.io/building-with-backgrounds-and-gradients/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/apple-homepage) - [View in Browser](https://codesurfer3022.github.io/apple-homepage/)
 </details>
 
 ### Additional Resources

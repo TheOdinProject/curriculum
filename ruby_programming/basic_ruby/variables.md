@@ -84,7 +84,7 @@ can_swim = false
 #### Variables are References
 The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This is important to know as it can sometimes be the cause of unexpected behavior from your code.
 
-In the following example, we have two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.
+Let's look at an example of this unexpected behavior, with two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.
 
 ~~~ruby
 desired_location = "Barcelona"
@@ -94,7 +94,7 @@ desired_location  #=> "Barcelona"
 johns_location    #=> "Barcelona"
 ~~~
 
-Now, if we modify the string that `johns_location` is pointing to, `desired_location` will also reflect that change:
+Unexpected behavior happens if the string "Barcelona" that is stored in memory is modified. One way to modify a string is to use the `upcase!` method, instead of the safe `upcase` method. If the string is modified using `johns_location.upcase!` then `desired_location` will also reflect that change:
 
 ~~~ruby
 johns_location.upcase!  #=> "BARCELONA"
@@ -103,17 +103,17 @@ desired_location        #=> "BARCELONA"
 johns_location          #=> "BARCELONA"
 ~~~
 
-Assigning variables to other variables can therefore have some unintended side effects. Just because it looks like fun doesn't mean you should do it, too. But you know what is fun? *Reading assignments*!
+This example may be hard to completely understand at this point in the lesson. The important concept is that assigning variables to other variables can have unintended side effects. Just because you can do it, doesn't mean you should. You will have the opportunity to revisit this example in one of the following assignments.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*.
+1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*. As indicated in this article, remember that you should not use `$global_variables` or `@@class_variables`.
 2. Read through these short, to-the-point variable lessons by Ruby Monstas:
       * [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
       * [Reusing Variables](http://ruby-for-beginners.rubymonstas.org/variables/reusing_names.html)
       * [Things on the Right Go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)
-3. Open up a Ruby [repl.it](https://repl.it/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. If you come across anything quirky, Google it to find out why it happened.
+3. Open up a Ruby [repl.it](https://repl.it/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. Try assigning a variable to another variable and observe the behavior when using `upcase!`, as in the example above. If you come across anything quirky, Google it to find out why it happened.
 </div>
 
 ### Additional Resources
