@@ -6,7 +6,7 @@ Let's go through it step by step. First of all, create a new project using `crea
 
 Once you've done that, let's create a new file called `Profile.js` inside the src directory, and add a basic functional component to it, which just contains an `h1` element.
 
-```javascript
+~~~javascript
 import React from "react";
 
 const Profile = () => {
@@ -18,11 +18,11 @@ const Profile = () => {
 };
 
 export default Profile;
-```
+~~~
 
 And also make sure your `App.js` file looks like this:
 
-```javascript
+~~~javascript
 import React from "react";
 
 const App = () => {
@@ -34,14 +34,14 @@ const App = () => {
 };
 
 export default App;
-```
+~~~
 
 Once you have this, install the package. Open a terminal and run `npm i react-router-dom`. This is going to install all the dependencies for us.
 While this is happening we can already create a new file called `Routes.js`, which is going to be the file that handles all of our routes.
 
 Once the package is finished installing, you can add this code to your Routes.js file.
 
-```javascript
+~~~javascript
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import App from "./App";
@@ -59,7 +59,7 @@ const Routes = () => {
 };
 
 export default Routes;
-```
+~~~
 
 So what is happening here? First we are importing React, our two components; Profile and App, as well as a couple of things from the package we just installed.
 
@@ -71,7 +71,7 @@ So what is happening here? First we are importing React, our two components; Pro
 
 Let us check this behavior in the Browser for better understanding. However, before we can do that we have to do one more thing. We have to change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our applications runs. Instead, we want our `Routes.js` to be the first. Your `index.js` should look something like this:
 
-```javascript
+~~~javascript
 import React from "react";
 import ReactDOM from "react-dom";
 import Routes from "./Routes";
@@ -82,7 +82,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-```
+~~~
 
 Once this is done, go ahead and run `npm start` and then check out both routes; the home route "/" and the profile route "/profile".
 In both cases, the "Hello from App" from our App component is displayed.
@@ -93,11 +93,11 @@ Now there are two solutions to this problem.
 
 2. Add the `exact` keyword to your routes. So make them look like this:
 
-```javascript
+~~~javascript
 <Route exact path="/" component={App} />
 <Route exact path="/profile" component={Profile} />
 
-```
+~~~
 
 As you can see, this also works. The exact keyword just specifies that the routes path has to match exactly the URL path.
 

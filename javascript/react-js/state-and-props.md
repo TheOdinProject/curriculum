@@ -10,7 +10,7 @@ In the previous lesson, you learned a lot about components and how to structure 
 
 Let's take the following example:
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React, { Component } from "react";
@@ -30,9 +30,9 @@ class MyComponent extends Component {
 }
 
 export default MyComponent;
-```
+~~~
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from "react";
@@ -53,14 +53,14 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
 Let's take a look at what is happening here. Above, there are two components, `MyComponent` and `App`. As you can see, `MyComponent` is a child component of `App`, which passes down a property called `title`. In this specific example, the title is set to "React". In `MyComponent`, we can access the title (React) that has been passed down with the syntax `this.props.title`. The curly brackets around it are always needed when you write JavaScript in React.
 _IMPORTANT_: Make sure you pass `props` to the constructor of the child component (MyComponent) as well as the `super()` method, otherwise you will not be able to access `this.props.title` in `MyComponent`.
 
 Now you might be wondering how this works with functions. Believe it or not, it works the same!
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React, { Component } from "react";
@@ -81,9 +81,9 @@ class MyComponent extends Component {
 }
 
 export default MyComponent;
-```
+~~~
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from "react";
@@ -110,13 +110,13 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
 Ok, there is a little bit more going on here, but in the end, it works exactly as in the example before. First, there is the `MyComponent`, which is essentially the same. The only thing we added is the `{ this.props.onButtonClicked }` as an `onClick` event to the component. You should already be familiar with this syntax. Now to the `App` component. First, we defined the function `onClickBtn` above the `render` method. After that, we passed this function down to our `MyComponent` as a property, which we named `onButtonClicked` (Of course, you could also name it `onClickBtn`, and then use the function in `MyComponent.js` by the name of `onClickBtn`, but we wanted to emphasize that you can rename the functions when passing them around as props). We do that the same way we passed the title value previously. Now the only thing we have to do is bind the method to `this`; we do that in the constructor method at the top of our component but below the `super()` call. The reason we have to bind the `this` keyword when passing a function to another component is that it needs to stay in the same context. So remember, you have to bind `this` for all functions in all **class components** when passing them to other components.
 
 As you can see when you are passing many properties or functions to a component, it can get quite exhausting to always refer to them with `this.props.someProperty`. Destructuring to the rescue! We can alternatively write the above as follows:
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React, { Component } from "react";
@@ -139,7 +139,7 @@ class MyComponent extends Component {
 }
 
 export default MyComponent;
-```
+~~~
 
 Here, we are destructuring `title` and `onButtonClicked` from `this.props`, which lets us refer to them with just their names. Make sure to destructure within the render method when using class components. In functional components (more on those later!), you would destructure outside of the return statement.
 
@@ -151,7 +151,7 @@ Another very important concept in React is "state". In short, all values that ca
 
 The following example shows how to define `state` in React:
 
-```javascript
+~~~javascript
 import React, { Components } from "react";
 
 class App extends Component {
@@ -178,7 +178,7 @@ class App extends Component {
     );
   }
 }
-```
+~~~
 
 In the above component, we declared a piece of state. You **always* declare state in the constructor of a class component. Keep in mind that this will work differently when we cover functional components later. The `setState` method we call sets the state to a new value. In React, state is **immutable**. This means you should **never** change state directly because it can lead to unexpected behavior or bugs. What exactly does that mean? Never do something like this: `this.state.count = 3`, instead always use the [setState](https://reactjs.org/docs/react-component.html#setstate) method React provides built-in to modify the state. Keep this in mind, it can save you a lot of debugging when you are getting started with React. Take a look at [this article](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/), which does a great job in analyzing many popular JavaScript methods concerning mutability.
 
@@ -188,7 +188,7 @@ As you have also seen in the `render` method, we access the current state throug
 
 As you have learned, React provides the ability to create functional components. They work a little bit differently than the class components we've discussed thus far. The concept of props works mostly the same, with the only difference being that you don't pass `props` as an argument to the constructor, instead you pass it as an argument to the component itself. Another major difference between functional and class components concerning props is the way you call the props. You learned that in a class component, the props that have been passed down from the parent component will be called like so: `this.props.someFunction`, however in functional components, we don't need to call `this`, so we access `props` like so: `props.someFunction`. That's the main difference with `props` between class and functional components. Let me give you a quick example to emphasize this.
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React from "react";
@@ -198,9 +198,9 @@ const MyComponent = (props) => {
 };
 
 export default MyComponent;
-```
+~~~
 
-```javascript
+~~~javascript
 // App.js
 
 import React from "react";
@@ -215,7 +215,7 @@ const App = () => {
 };
 
 export default App;
-```
+~~~
 
 Of course, we can also destructure from props here. By adding this line `const {title} = props` above the return statement in `MyComponent.js` we can just refer to the title using `{title}`.
 

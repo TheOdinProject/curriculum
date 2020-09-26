@@ -28,7 +28,7 @@ Our application will be made of two components, `App` and `Overview`. Your appli
 
 3. Open your `App.js` file in your `src` directory and make sure it looks like this.
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from "react";
@@ -40,11 +40,11 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
 1. Make sure to clean the `index.js` as well. It should look something similar to this:
 
-```javascript
+~~~javascript
 // Index.js
 
 import React from "react";
@@ -57,14 +57,14 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-```
+~~~
 
 4. For our solution, we chose to style the application and will use Bootstrap to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our HTML easily. You add the styling through classNames. If you are following along with this and do not wish to style the application, you can skip to the next step and ignore any code concerning `className`. As for us, let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then, go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
 
 5.Go back to your `src` directory and create a new folder called components with a file named`Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
 t 6. Finally, let's write some code. To begin, in out`App.js` file, our class component should look like this.
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from "react";
@@ -101,16 +101,16 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
 We created the skeleton of our component. First, we imported `React` and `Component` from "react", then we initialized the constructor. In the constructor, we defined state with:
 
-```javascript
+~~~javascript
 this.state = {
   task: "",
   tasks: [],
 };
-```
+~~~
 
 We assigned `task` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
 Also, inside the render function, we destructured our state in order to make our code look cleaner when using it.
@@ -121,7 +121,7 @@ Now, let's have a look at what our application. looks like. Run `npm start` in y
 
 Let's add some functionality to it. Go back to your `App.js` component and add the following two functions. Make sure to add those functions between your constructor and the render method.
 
-```javascript
+~~~javascript
 handleChange = (e) => {
   this.setState({
     task: e.target.value,
@@ -135,7 +135,7 @@ onSubmitTask = (e) => {
     task: "",
   });
 };
-```
+~~~
 
 Naturally, if we do not invoke those functions nothing will change in our application. So let's call them. The `handleChange` function will be our `onChange` handler for our input field. It sets the current `task` in state to whatever we type in our input field. The `onSubmitTask` function will be our `onSubmit` handler for our `form` element. The `onSubmit` handler of the form should be invoked by a clicking the button.
 
@@ -143,9 +143,9 @@ In the `onSubmitTask` function, we first call `e.preventDefault()` because we do
 
 The following line does the magic.
 
-```javascript
+~~~javascript
 tasks: this.state.tasks.concat(this.state.task),
-```
+~~~
 
 It adds the task (whatever is in our input field by the time we submit the form) to our `tasks` array. Later we can map over this array to display all the tasks we submitted. Make sure that you **DON'T** directly assign state. That is also the reason we don't use the `push` method here. It would give us an error.
 After that, we just set our current task in state to an empty string because we want our input field to be empty, in order to add another task.
@@ -153,7 +153,7 @@ After that, we just set our current task in state to an empty string because we 
 We still haven't invoked those functions yet, so let's do that.
 In your `App.js` component in your render method, add an onChange handler to your input element like so:
 
-```javascript
+~~~javascript
 <input
   onChange={this.handleChange}
   value={this.state.task}
@@ -161,17 +161,17 @@ In your `App.js` component in your render method, add an onChange handler to you
   id="taskInput"
   className="form-control"
 />
-```
+~~~
 
 Notice that we also have to specify the `value` attribute for React input elements. In this case we want the value of the input field to be what we saved in our `task` state.
 And also add the `onSubmitTask` function to our form element like so:
 
-```javascript
+~~~javascript
 <form onSubmit={this.onSubmitTask}>
   {/* Leave all your code. Just add the onSubmit handler to the form element, or
   as an onClick handler to the submit button, as you prefere */}
 </form>
-```
+~~~
 
 If you add an onSubmit handler to the form, your button must be of `type="submit"`, otherwise it won't work. Alternatively, you can add an `onClick` event to the button which calls the `onSubmitTask` function
 
@@ -179,7 +179,7 @@ Great, if you run your application now with `npm start` (or refresh the browser 
 
 Go to your `Overview.js` file in the components folder and add the following code:
 
-```javascript
+~~~javascript
 // Overview.js
 
 import React from "react";
@@ -197,12 +197,12 @@ const Overview = (props) => {
 };
 
 export default Overview;
-```
+~~~
 
 It takes the `tasks` from the `props` and maps over it. For each task it will then display a `li` element with the content of tasks. When checking out the application in the browser we can see we received an error message which says that a unique key is required. React always requires you to add a unique key to each element when you `map` over a list. In real world projects you often use database ids as unique keys, however in this project we are not using a database, so let's install a package that provides us with unique ids.
 Run `npm install uniqid` in your project folder. Uniqid is a package which creates unique ids based on the current time, the process and the machine name. Once this is done, we just have to include it like this:
 
-```javascript
+~~~javascript
 // Overview.js
 
 import React from "react";
@@ -222,27 +222,27 @@ const Overview = (props) => {
 };
 
 export default Overview;
-```
+~~~
 
 Almost done, the only thing we need to do is importour `Overview` component to our `App.js` file and add it in our render method, as well as passing down the `tasks` array as props.
 
 Add this line to the top of your `App.js` file, right below where we import React.
 
-```javascript
+~~~javascript
 import Overview from "./components/Overview";
-```
+~~~
 
 And then add the Overview component to your render method in `App.js`. Add this line of code right before the last closing `div`, and right after the closing `form` tag in `App.js`.
 
-```javascript
+~~~javascript
 <Overview tasks={tasks} />
-```
+~~~
 
 Here we go, run `npm start` (or refresh) one last time. If you've done everything right, you should now be able to type a task into the input field and click submit to display it right below the input field. Feel free to play around a little bit and maybe change or style it as you like.
 
 Your finished files should look like this:
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from "react";
@@ -302,9 +302,9 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
-```javascript
+~~~javascript
 // Overview.js
 
 import React from "react";
@@ -323,7 +323,7 @@ const Overview = (props) => {
 };
 
 export default Overview;
-```
+~~~
 
 ### Optional Tasks / Ideas to play around
 
