@@ -23,15 +23,4 @@ So let's get started.
 7. Don't forget to push your solution to GitHub. You should be proud of your work and show it off to the world!
 </div>
 
-### Student Solutions
-<!--- The below markdown will need to be changed to the appropriate link - Marvin --->
-Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/frameworks/frameworks-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-- Add your solution below this line!
-
-</details>
-
 ### Additional Resources

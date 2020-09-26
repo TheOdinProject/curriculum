@@ -16,15 +16,4 @@ Go play around [here](http://demo7.downloader.tech/) to find out for yourself. Y
 5. As always, push the project to GitHub.
 </div>
 
-### Student Solutions
-<!--- * The link below must be changed to the appropriate address * -->
-Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/frameworks/frameworks-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-- Add your solution below this line!
-
-</details>
-
 ### Additional Resourcess
