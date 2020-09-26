@@ -36,6 +36,14 @@ If you're planning to submit a live demo with your student solution, one of the 
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [parrthpanchal's solution](https://github.com/parrthpanchal/nodejs-modules-practice.git)
+- [hnguye's Solution](https://github.com/hnguye/basic-information-site) - [View in Browser](https://basic-information-site.hieunguye.repl.co)
+- [Vedvardhan 's Solution](https://github.com/ved08/practicing-node-modules) - [View in Browser](https://ved08-practicing-node-modules.glitch.me/)
+- [charliefinos's Solution](https://github.com/charlyfinos/basic-informational-site)
+- [Charles Ivia's Solution](https://github.com/CharlesIvia/info-site)
+- [benajamin-gambling's Solution](https://github.com/benjamin-gambling/NodeJS/tree/master/basic-info-site)
+- [selectiveduplicate's solution](https://github.com/selectiveduplicate/op-projects/tree/master/nodeJS/basicInformationalSite)
+- [azrilhafizi's Solution](https://github.com/azrilhafizi/odinproject-nodejs)
 - [vonhoro's Solution](https://github.com/vonhoro/Small-server)
 - [Sherman's Solution](https://github.com/shermansjliu/basic-informational-site) - [View in Browswer](https://repl.it/github/shermansjliu/basic-informational-site)
 - [Andrey's Solution](https://github.com/AndreySkopintsev/basic-nodejs-site) - [View in Browser](https://repl.it/@AAndrewSk/basic-nodejs-site#README.md)
@@ -92,4 +100,13 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [Kielx's Solution](https://github.com/Kielx/informationalSite) - [View in Browser](https://informationalsite--kielx.repl.co/index.html)
 - [explorer564's Solution](https://github.com/explorer564/nodejs_project1_basic_info_site) - [View in Browser](https://repl.it/@explorerDora1/nodejsproject1basicinfosite#index.html)
 - [Reynard's Solution](https://github.com/ranoot/basic-nodejs-site) - [View in Browser](https://repl.it/@ranoot/basic-nodejs-site)
+- [RoopSai's Solution](https://github.com/sroopsai/basic-information-site) - [View in Browser](https://basic-information-site.roopsai.repl.co/)
+- [elijahjorell's Solution](https://github.com/elijahjorell/the-odin-project/tree/master/node.js/projects/basic-informational-site)
+- [Nijepa's Solution](https://github.com/nijepa/basic-informational-site) - [View in Browser](https://basic-informational-site.nijepa.repl.co/)
+- [FortyPercentTitanium's Solution](https://github.com/fortypercenttitanium/node-first-project) - [View in Browser](https://TOP-Node-First-Project.40percentzinc.repl.co)
+- [nodonut's Solution](https://github.com/nodonut/TOP_basic_information_site)
+- [erinborders's Solution - View in Browser](https://repl.it/@erinborders/SimpleNodeServer)
+- [akoenig1's Solution](https://github.com/akoenig1/basic_info_site) - [View in Browser](https://basicinfosite.akoenig1.repl.co)
+- [icepick-pauly's Solution](https://github.com/icepick-pauly/top_node_basic_info_site) 
+
 </details>

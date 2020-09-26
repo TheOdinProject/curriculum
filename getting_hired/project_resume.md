@@ -2,7 +2,7 @@
 
 The goal of a resume is to get them interested enough to start a conversation.  From there, it's on you to speak intelligently about the things you've done. So don't treat the resume as the catch-all repository of your whole life -- it's more of a focused marketing tool designed to make you seem worth taking another look at.
 
-A developer's resume is an interesting thing because so much of your value is demonstrated from your projects, which live in your Github (and are hopefully also deployed somewhere online).  Despite this focus on projects, you can't ignore previous work experience or education.  They are both important for showing the social proof that other people have worked with you before and you've met their standards for applying.  
+A developer's resume is an interesting thing because so much of your value is demonstrated from your projects, which live in your GitHub (and are hopefully also deployed somewhere online).  Despite this focus on projects, you can't ignore previous work experience or education.  They are both important for showing the social proof that other people have worked with you before and you've met their standards for applying.  
 
 It's difficult to come up with (or find on the internet) a standard resume type for a junior developer.  Most of the ones out there aren't particularly inspiring.  The keys to remember are the perspective of the hiring manager we talked about before -- that person wants to hire a developer who is highly capable and can get shit done (and will add value ASAP).  
 

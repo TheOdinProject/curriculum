@@ -66,12 +66,12 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 7. Refactor the "upcoming" and "past" methods into simple scopes (remember scopes??).
 8. Put navigation links across the top to help you jump around.
 9. Extra Credit: Allow users to invite other users to events.  Only allow invited users to attend an event.
-10. Push to Github.
+10. Push to GitHub.
 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [brxck's solution](https://github.com/brxck/eventloop) - [View in Browser](https://hidden-retreat-34011.herokuapp.com/)

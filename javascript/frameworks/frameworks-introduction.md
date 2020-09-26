@@ -33,7 +33,7 @@ It's no secret that there are a _ton_ of Front-end frameworks in the world... so
 - [Angular](https://angular.io/)
 - [Vue](https://vuejs.org/)
 - [Preact](https://preactjs.com/)
-- [Svelte](https://svelte.technology/guide)
+- [Svelte](https://svelte.dev/)
 - [Inferno](https://infernojs.org/)
 - [Ember](https://www.emberjs.com/)
 - [HyperApp](https://github.com/hyperapp)
