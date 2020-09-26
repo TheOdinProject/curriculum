@@ -17,15 +17,4 @@ This application should also have at least two routes to give you a chance to ma
 9. Lastly, push the project to GitHub!
 </div>
 
-### Student Solutions
-
-Submit a solution with a pull request to this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/frameworks/frameworks-project.md) on the Javascript Curriculum github repository. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-- Add your solution below this line!
-
-</details>
-
 ### Additional Resources
