@@ -108,6 +108,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 - [erinborders's Solution - View in Browser](https://repl.it/@erinborders/SimpleNodeServer)
 - [akoenig1's Solution](https://github.com/akoenig1/basic_info_site) - [View in Browser](https://basicinfosite.akoenig1.repl.co)
 - [icepick-pauly's Solution](https://github.com/icepick-pauly/top_node_basic_info_site)
-- [azs06's Solution](https://github.com/azs06/basic-informational-site) - [View In Browswer](https://basic-informational-site.azs06.repl.co)
+- [azs06's Solution](https://github.com/azs06/basic-informational-site) - [View in Browser](https://basic-informational-site.azs06.repl.co)
 
 </details>
