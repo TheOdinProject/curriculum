@@ -96,6 +96,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [DeadFishC's Solution (Easy)](https://github.com/DeadFishC/google-homepage) - [View in Browser](https://deadfishc.github.io/google-homepage/)
+* [StarcallerAmethyst's Solutoin (Easy)](https://github.com/starcalleramethyst/google-2)
 * [Meerar012's Solution (Easy)](https://github.com/meerar012/google-homepage) - [View in Browser](https://meerar012.github.io/google-homepage/)
 * [Razeen Shaikh's Solution (Easy)](https://github.com/Razeen-Shaikh/the_odin_project/tree/master/google-homepage) - [View in Browser](https://razeen-shaikh.github.io/the_odin_project/google-homepage/)
 * [LeeksDeWayne's Solution (Easy)](https://leeksdewayne.github.io/google-homepage/) - [View in Browser](https://leeksdewayne.github.io/google-homepage/)
@@ -4342,7 +4343,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Kevin's Solution (Easy)](https://github.com/kmgoldfarb/google-homepage) - [View in Browser](https://kmgoldfarb.github.io/google-homepage/)
 * [Zi An's Solution (Easy)](https://github.com/tanzian97/google-homepage) - [View in Browser](https://tanzian97.github.io/google-homepage/)
 * [xiaogut's Solution (Easy)](https://github.com/xiaogut/google-homepage) - [View in Browser](https://xiaogut.github.io/google-homepage/)
-* [mmaludy's Solution (Easy)](https://github.com/mmaludy/google-homepage/) - [View in Browser](https://mmaludy.github.io/google-homepage/)
+* [mmaludy's Solution (Easy and Difficult)](https://github.com/mmaludy/google-homepage/) - [View in Browser](https://mmaludy.github.io/google-homepage/)
 * [kxrtiswithak's Solution (Easy)](https://github.com/kxrtiswithak/google-homepage) - [View in Browser](https://kxrtiswithak.github.io/google-homepage/)
 </details>
 
