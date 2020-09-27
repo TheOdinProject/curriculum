@@ -207,7 +207,6 @@ Run `npm install uniqid` in your project folder. Uniqid is a package which creat
 // Overview.js
 
 import React from "react";
-import React from "react";
 import uniqid from "uniqid";
 
 const Overview = (props) => {
@@ -268,7 +267,7 @@ class App extends Component {
   onSubmitTask = (e) => {
     e.preventDefault();
     this.setState({
-      tasks: tasks.concat(task),
+      tasks: this.state.tasks.concat(this.state.task),
       task: "",
     });
   };
