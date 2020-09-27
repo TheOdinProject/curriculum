@@ -372,4 +372,5 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
 * [bhenning83's Solution](https://github.com/bhenning83/hangman)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-hangman)
 * [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/hangman)
+* [DM-Murphy's Solution](https://github.com/dm-murphy/hangman) - [Live version on Repl.it](https://repl.it/@dmmurphy/hangman)
 </details>
