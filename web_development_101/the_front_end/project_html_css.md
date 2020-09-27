@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [StarcallerAmethyst's Solutoin (Easy)](https://github.com/starcalleramethyst/google-2)
 * [Meerar012's Solution (Easy)](https://github.com/meerar012/google-homepage) - [View in Browser](https://meerar012.github.io/google-homepage/)
 * [Razeen Shaikh's Solution (Easy)](https://github.com/Razeen-Shaikh/the_odin_project/tree/master/google-homepage) - [View in Browser](https://razeen-shaikh.github.io/the_odin_project/google-homepage/)
 * [LeeksDeWayne's Solution (Easy)](https://leeksdewayne.github.io/google-homepage/) - [View in Browser](https://leeksdewayne.github.io/google-homepage/)
