@@ -152,7 +152,7 @@ Another very important concept in React is "state". In short, all values that ca
 The following example shows how to define `state` in React:
 
 ~~~javascript
-import React, { Components } from "react";
+import React, { Component } from "react";
 
 class App extends Component {
   constructor() {
