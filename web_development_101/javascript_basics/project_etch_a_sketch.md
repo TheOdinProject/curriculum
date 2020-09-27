@@ -1343,4 +1343,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [gitliffi's Solution](https://github.com/gitliffi/etch-a-sketch) - [View in Browser](https://gitliffi.github.io/etch-a-sketch/)
 * [novikovb's Solution](https://github.com/novikovb/etch-a-sketch) - [View in Browser](https://novikovb.github.io/etch-a-sketch/)
 * [leo's Solution](https://github.com/hoangnamtrinh/Etch-a-Sketch) - [View in Browser](https://hoangnamtrinh.github.io/Etch-a-Sketch/)
+* [ayoubc's Solution](https://github.com/ayoubc/etch-a-sketch) - [View in Browser](https://ayoubc.github.io/etch-a-sketch/)
 </details>
