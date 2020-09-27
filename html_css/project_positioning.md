@@ -27,6 +27,9 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [@theghost1980 Solution](https://github.com/theghost1980/google-homepage/blob/master/nyt-clone.html) - [View in Browser](https://theghost1980.github.io/google-homepage/nyt-clone.html)
+* [BBrenes' Solution](https://github.com/BBrenes/new-york-times) - [View in Browser](https://bbrenes.github.io/new-york-times/)
+* [bikmazefe's Solution](https://github.com/bikmazefe/ny-times) - [View in Browser](https://bikmazefe.github.io/ny-times/)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/new-york-times-clone) - [View in Browser](https://lopezaxel.github.io/new-york-times-clone/)
 * [pudu87's Solution](https://github.com/pudu87/nytimes) - [View in Browser](https://pudu87.github.io/nytimes/)
 * [Rizwan's Solution](https://github.com/xRizwan/position-float/tree/master) - [View in Browser](https://xrizwan.github.io/position-float/)
@@ -171,6 +174,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_nytclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_nytclone/)
 * [Mickey's Solution](https://github.com/Daidelos/Space-Ripples) - [View in Browser](https://daidelos.github.io/Space-Ripples/)
 * [Nijepa's Solution](https://github.com/nijepa/positioning-and-floating-elements) - [View in Browser](https://nijepa.github.io/positioning-and-floating-elements/)
+* [Chandra's Solution](https://github.com/CodeSurfer3022/news-article) - [View in Browser](https://codesurfer3022.github.io/news-article/)
 </details>
 
 ### Additional Resources

@@ -55,6 +55,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
 * [Ideopunk's Solution](https://github.com/Ideopunk/embed-practice) - [View in Browser](https://ideopunk.github.io/embed-practice/)
 * [Maximiliano Bidegain's Solution](https://github.com/maxibide/my-web-development-journey/tree/master/the-odin-project/html-and-css/embedding-images-and-video) - [View in Browser](https://maxibide.github.io/my-web-development-journey/the-odin-project/html-and-css/embedding-images-and-video/)
 * [mrdiegodev_ Solution](https://github.com/dhna32/Project--Embedding-Images-and-Video) - [View in Browser](https://dhna32.github.io/Project--Embedding-Images-and-Video/)
+* [Coding Shawn's Solution](https://github.com/CodingShawn/TOP-Youtube-Clone) - [View in Browser](https://codingshawn.github.io/TOP-Youtube-Clone/)
 * [descholar's Solution](https://github.com/descholar-ceo/youtube-player-page) - [View in Browser](https://descholar-ceo.github.io/youtube-player-page/)
 * [Othesius's Solution](https://github.com/othesius-exe/mocktube) - [View in Browser](https://othesius-exe.github.io/mocktube/)
 * [Ryan Ameri's Solution](https://github.com/RyanAmeri/odin-project-youtube) - [View in Browser](https://ryanameri.github.io/odin-project-youtube/index.html)
@@ -229,6 +230,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [file](
 * [skwiryt's Solution](https://github.com/skwiryt/youtube-clone) - [View in Browser](https://skwiryt.github.io/youtube-clone/)
 * [icepick-pauly's Solution](https://github.com/icepick-pauly/top_htmlcss_youtubeclone) - [View in Browser](https://icepick-pauly.github.io/top_htmlcss_youtubeclone/)
 * [Chandra's Solution](https://github.com/CodeSurfer3022/SeaTube) - [View in Browser](https://codesurfer3022.github.io/SeaTube/)
+* [Anna's Solution](https://github.com/abaker93/youtube-video-page) - [View in Browser](https://abaker93.github.io/youtube-video-page/)
 </details>
 
 ### Additional Resources
