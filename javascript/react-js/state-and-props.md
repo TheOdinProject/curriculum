@@ -172,7 +172,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.countUp}>Click Me!</button>
+        <button onClick={() => this.countUp()}>Click Me!</button>
         <p>{this.state.count}</p>
       </div>
     );
