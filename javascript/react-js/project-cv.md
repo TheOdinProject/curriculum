@@ -21,4 +21,6 @@ So let's get started.
 5. Create a `components` folder in your `src` directory and add your components.
 6. If you are familiar with bootstrap or any other CSS framework, feel free to use it. If not, don't worry, just include a `styles` folder in your `src` directory and continue with normal CSS.
 7. Don't forget to push your solution to GitHub. You should be proud of your work and show it off to the world!
+
+Tip: If you're confused on how to deploy using github pages, try this [link](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
 </div>
