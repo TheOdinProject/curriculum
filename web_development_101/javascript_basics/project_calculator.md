@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [b-steel's Solution](https://github.com/b-steel/calculator) - [View in Browser](https://b-steel.github.io/calculator/)
 - [aledaquino1986's Solution](https://github.com/aledaquino1986/calculator) - [View in Browser](https://aledaquino1986.github.io/calculator/)
 - [Nerbelwerzer's Solution](https://github.com/Nerbelwerzer/calculator) - [View in Browser](https://nerbelwerzer.github.io/calculator/)
 - [cjcon90's Solution](https://github.com/cjcon90/calculator) - [View in Browser](https://cjcon90.github.io/calculator/)
