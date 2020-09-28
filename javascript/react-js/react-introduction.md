@@ -104,7 +104,7 @@ render() {
 
 The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually JSX. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. **JSX** is an HTML-like syntax that will be transpiled into JavaScript so a browser will be able to process it. One thing you should know about JSX is that you can't use the HTML protected words, such as `class` or `onchange`. Instead of `class` you write `className` and instead of `onchange` you write `onChange`. In general, all attributes in JSX are written in camelCase. You should be fairly familiar with that naming convention from the naming of variables in JavaScript. The `render()`  function you see is the most used React lifecycle function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ JSX element. So whatever you want to return needs to be wrapped in a single parent element.
 
-Finally, to be able to reuse this `App`component we created in other files of our project, we have to export the component. In our example, we export the component as the file's default export:
+Finally, to be able to reuse this `App` component we created in other files of our project, we have to export the component. In our example, we export the component as the file's default export:
 
 ~~~javascript
 export default App;
