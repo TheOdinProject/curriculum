@@ -76,6 +76,7 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Clumsyknight's Solution](https://github.com/Clumsynite/mini-message-board) - [View in Browser](https://mini-msg-board.herokuapp.com/)
 - [Henrich's Solution](https://github.com/janko12345/mini-message-board) - [View in Browser](https://desolate-springs-20854.herokuapp.com/)
 - [Christian Bonilla's Solution](https://github.com/Cabonilla/simple-messages) - [View in Browser](https://peaceful-mountain-85420.herokuapp.com/)
 - [charliefinos's Solution](https://github.com/charlyfinos/mini-messageboard)
