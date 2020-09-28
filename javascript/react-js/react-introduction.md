@@ -48,7 +48,7 @@ class App extends Component {
         super()
     }
 
-    {/* Javascript functions can we written here */}
+    {/* Javascript functions can be written here */}
 
     render() {
         return (
