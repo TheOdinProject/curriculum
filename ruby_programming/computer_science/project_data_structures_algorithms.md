@@ -327,6 +327,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [AGL9's solution] (https://github.com/agl9/knightmoves)
 * [onagova's Solution](https://github.com/onagova/knights-travails)
 * [Hans Oliveira's Solution](https://github.com/hansnery/knights_travail)
 * [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
