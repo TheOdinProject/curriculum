@@ -1,5 +1,5 @@
 <%= link_to 'View Course',
-    course_path(course.title_url, ref: 'lnav'),
+    course_path(course.title_url),
     title: "Go back to '#{lesson.course.title}'",
     class: 'button button--secondary lesson-button-group__item lesson-button'
 %>
@@ -8,7 +8,7 @@
 
 <% if lesson.next_lesson %>
   <%= link_to 'Next Lesson',
-      course_lesson_path(course, lesson.next_lesson, ref: 'lnav'),
+      course_lesson_path(course, lesson.next_lesson),
       title: "Move on to '#{lesson.next_lesson.title}'",
       class: "button #{next_lesson_button_state(lesson)} lesson-button-group__item lesson-button"
   %>

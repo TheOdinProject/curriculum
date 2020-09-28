@@ -62,19 +62,19 @@
           </ul>
         </li>
         <li class="nav-item <%= active_class(about_path) %>">
-          <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
+          <%= link_to 'About', about_path, class: 'nav-link' %>
         </li>
         <li class="nav-item <%= active_class(faq_path) %>">
-          <%= link_to "FAQ", faq_path(ref: 'homehav'), class: 'nav-link' %>
+          <%= link_to "FAQ", faq_path, class: 'nav-link' %>
         </li>
 
         <li class="divider nav-link">|</li>
 
         <li class="nav-item <%= active_class(sign_up_path) %>">
-          <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'nav-link' %>
+          <%= link_to 'Sign Up', sign_up_path, class: 'nav-link' %>
         </li>
         <li class="nav-item <%= active_class(login_path) %>">
-          <%= link_to 'Log In', login_path(ref: 'homenav'), class: 'nav-link' %>
+          <%= link_to 'Log In', login_path, class: 'nav-link' %>
         </li>
       </ul>
     </nav>

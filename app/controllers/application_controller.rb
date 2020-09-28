@@ -24,7 +24,7 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_out_path_for(_resource_or_scope)
-    home_path(ref: 'logout')
+    home_path
   end
 
   def after_sign_in_path_for(_resource)

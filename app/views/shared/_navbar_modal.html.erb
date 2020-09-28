@@ -13,7 +13,7 @@
       <ul class="modal-links">
         <% if user_signed_in? %>
           <li class="nav-item <%= active_class(dashboard_path) %>">
-            <%= link_to 'Dashboard', dashboard_path(ref: 'homenav'), class: 'nav-link' %>
+            <%= link_to 'Dashboard', dashboard_path, class: 'nav-link' %>
           </li>
 
           <li class="nav-item <%= active_class(courses_path) %>">
@@ -32,7 +32,7 @@
           </li>
 
           <li class="nav-item">
-            <%= link_to "Log Out", logout_path(ref: 'homenav'), class: 'nav-link' %>
+            <%= link_to "Log Out", logout_path, class: 'nav-link' %>
           </li>
 
         <% else %>
@@ -51,20 +51,20 @@
           </li>
 
           <li class="nav-item <%= active_class(about_path) %>">
-            <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
+            <%= link_to 'About', about_path, class: 'nav-link' %>
           </li>
 
           <li class="nav-item <%= active_class(faq_path) %>">
-            <%= link_to "FAQ", faq_path(ref: 'homehav'), class: 'nav-link' %>
+            <%= link_to "FAQ", faq_path, class: 'nav-link' %>
           </li>
 
           <div class="dropdown-divider"></div>
 
           <li class="nav-item <%= active_class(sign_up_path) %>">
-            <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'nav-link' %>
+            <%= link_to 'Sign Up', sign_up_path, class: 'nav-link' %>
           </li>
           <li class="nav-item <%= active_class(login_path) %>">
-            <%= link_to 'Log In', login_path(ref: 'homenav'), class: 'nav-link' %>
+            <%= link_to 'Log In', login_path, class: 'nav-link' %>
           </li>
         <% end %>
       </ul>
