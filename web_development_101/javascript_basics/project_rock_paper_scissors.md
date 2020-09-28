@@ -2036,4 +2036,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Shaka's Solution](https://github.com/Shaka-W/rock-paper-scissors) - [View in Browser](https://github.com/Shaka-W/rock-paper-scissors/)
 - [egger0a6's Solution](https://github.com/egger0a6/rock-paper-scissors)
 - [Plutonan's Solution](https://plutonan.github.io/top-rock-paper-scissors/)
+- [Jon's Solution](https://github.com/saucemills/rockPaperScissors) - [View in Browser](https://saucemills.github.io/rockPaperScissors/)
 </details>
