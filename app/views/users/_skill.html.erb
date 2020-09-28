@@ -1,8 +1,6 @@
 <div class="skill">
   <div class='skill__image'>
-    <%= link_to course do %>
-      <%= render 'shared/course_badge', course: course, user: @user, modifier: modifier_for_badge(course, @user) %>
-    <% end %>
+    <%= render 'shared/course_badge', course: course, user: @user, modifier: modifier_for_badge(course, @user) %>
   </div>
 
   <div class="skill__details">

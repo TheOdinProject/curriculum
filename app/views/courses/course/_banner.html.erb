@@ -1,11 +1,9 @@
 <div class="banner">
   <div class='banner__badge'>
-    <%= link_to course, class: 'course-card-header__link' do %>
-      <%= render 'shared/course_badge', course: course, user: current_user, modifier: '' %>
-    <% end %>
+    <%= render 'shared/course_badge', course: course, user: current_user, modifier: '' %>
   </div>
 
-   <%= link_to course, class: 'course-card-header__link' do %>
+  <%= link_to course, class: 'course-card-header__link' do %>
     <h1 class="banner__title"><%= course.title %></h1>
-    <% end %>
+  <% end %>
 </div>
