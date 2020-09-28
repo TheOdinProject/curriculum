@@ -48,7 +48,7 @@ class App extends Component {
         super()
     }
 
-    {/* Javascript functions can we written here */}
+    {/* Javascript functions can be written here */}
 
     render() {
         return (
@@ -104,7 +104,7 @@ render() {
 
 The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually JSX. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. **JSX** is an HTML-like syntax that will be transpiled into JavaScript so a browser will be able to process it. One thing you should know about JSX is that you can't use the HTML protected words, such as `class` or `onchange`. Instead of `class` you write `className` and instead of `onchange` you write `onChange`. In general, all attributes in JSX are written in camelCase. You should be fairly familiar with that naming convention from the naming of variables in JavaScript. The `render()`  function you see is the most used React lifecycle function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ JSX element. So whatever you want to return needs to be wrapped in a single parent element.
 
-Finally, to be able to reuse this `App`component we created in other files of our project, we have to export the component. In our example, we export the component as the file's default export:
+Finally, to be able to reuse this `App` component we created in other files of our project, we have to export the component. In our example, we export the component as the file's default export:
 
 ~~~javascript
 export default App;
@@ -166,7 +166,7 @@ If you want to get a better understanding of how create-react-app works and whic
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read the first couple of pages of the react.js documentation. In general their documentation is a great ressource for comming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. We haven't looked at that yet, so don't worry too much about it, but it can't hurt having a look at it.
+1. Read the first couple of pages of the react.js documentation. In general their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. We haven't looked at that yet, so don't worry too much about it, but it can't hurt having a look at it.
 2. Watch [this video](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) to get another quick explanation of React. And then watch these ([one](https://www.youtube.com/watch?v=G40iHC-h0c0&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=4), [two](https://www.youtube.com/watch?v=9wK4gHoOh1g&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=5)) videos from the same series, which focus on components. Feel free to code along with the whole course if you enjoy it.
 </div>
 

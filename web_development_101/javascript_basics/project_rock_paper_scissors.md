@@ -12,9 +12,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 4. Write a function that plays a single round of Rock Paper Scissors.  The function should take two parameters - the `playerSelection` and `computerSelection` - and then return a string that declares the winner of the round like so: `"You Lose! Paper beats Rock"`
    1. Make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
 
-2. **Important note:** you want to `return` the results of this function call, _not_ `console.log()` them. To test this function console.log the results:
+5. **Important note:** you want to `return` the results of this function call, _not_ `console.log()` them. To test this function console.log the results:
 
-   ```javascript
+   ~~~javascript
    function playRound(playerSelection, computerSelection) {
      // your code here!
    }
@@ -22,9 +22,9 @@ We're going to make a simple implementation of grade-school classic "rock paper 
    const playerSelection = "rock";
    const computerSelection = computerPlay();
    console.log(playRound(playerSelection, computerSelection));
-   ```
+   ~~~
 
-3. Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
+6. Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
    1. You have not officially learned how to "loop" over code to repeat function calls... if you already know about loops from somewhere else (or if you feel like doing some more learning) feel free to use them. If not, don't worry! Just call your `playRound` function 5 times in a row. Loops are covered in the next lesson.
    1. At this point you should be using `console.log()` to display the results of each round and the winner at the end.
    1. Use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
@@ -59,7 +59,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Borlarjhii's Solution](https://github.com/Borlarjhii/rock_paper_scissors)
 - [Siddharth Sahoo's Solution](https://github.com/sidd-oo/rock-paper-scissor-game) - [View in Browser](https://sidd-oo.github.io/rock-paper-scissor-game/)
 - [Elias-Dickinson's Solution](https://github.com/Elias-Dickinson/rock-paper-scissors) - [View in Browser](https://elias-dickinson.github.io/rock-paper-scissors/)
-- [ayao99's Solution](https://github.com/ayao99/rps_practice) - [View in Browser](https://ayao99.github.io/rock-paper-scissors/)
+- [ayao99's Solution](https://github.com/ayao99/rps_practice) - [View in Browser](https://ayao99.github.io/rps_practice/)
 - [Elias-Dickinson's Solution](https://github.com/Elias-Dickinson/rock-paper-scissors) - [View in Browser](https://elias-dickinson.github.io/rock-paper-scissors/)
 - [WilmarvDijk's Solution](https://github.com/WilmarvanDijk/rock-paper-scissors) - [View in Browser](https://wilmarvandijk.github.io/rock-paper-scissors/)
 - [Domilson Solution](https://github.com/DomilsonFirmino/Rock_Paper_Scissors)
@@ -2036,4 +2036,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Shaka's Solution](https://github.com/Shaka-W/rock-paper-scissors) - [View in Browser](https://github.com/Shaka-W/rock-paper-scissors/)
 - [egger0a6's Solution](https://github.com/egger0a6/rock-paper-scissors)
 - [Plutonan's Solution](https://plutonan.github.io/top-rock-paper-scissors/)
+- [Jon's Solution](https://github.com/saucemills/rockPaperScissors) - [View in Browser](https://saucemills.github.io/rockPaperScissors/)
+- [Akrhiin's Solution](https://github.com/Akrhiin/OdinProject_rps) - [View in Browser](https://Akrhiin.github.io/OdinProject_rps/)
 </details>

@@ -45,6 +45,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [b-steel's Solution](https://github.com/b-steel/calculator) - [View in Browser](https://b-steel.github.io/calculator/)
+- [FranekB's Solution](https://github.com/FranekB/calculator) - [View in Browser](https://franekb.github.io/calculator/)
+- [aledaquino1986's Solution](https://github.com/aledaquino1986/calculator) - [View in Browser](https://aledaquino1986.github.io/calculator/)
 - [Nerbelwerzer's Solution](https://github.com/Nerbelwerzer/calculator) - [View in Browser](https://nerbelwerzer.github.io/calculator/)
 - [cjcon90's Solution](https://github.com/cjcon90/calculator) - [View in Browser](https://cjcon90.github.io/calculator/)
 - [Animesh's Solution](https://github.com/AnimeshRy/TOP-Calc) - [View in Browser](https://animeshry.github.io/TOP-Calc/)
@@ -969,4 +972,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [macla7's Solution](https://github.com/NicoMunoz909/project-calculator)
 - [Daniel88Hus Solution](https://github.com/Daniel88Hus/ProjectCalculator)
 - [Michael's Solution](https://github.com/moinabyssinia/calculator) - [View in Browser](https://moinabyssinia.github.io/calculator/)
+- [Jon's Solution](https://github.com/saucemills/javascript-calculator) - [View in Browser](https://saucemills.github.io/javascript-calculator/)
 </details>
