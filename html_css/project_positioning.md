@@ -175,6 +175,7 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
 * [Mickey's Solution](https://github.com/Daidelos/Space-Ripples) - [View in Browser](https://daidelos.github.io/Space-Ripples/)
 * [Nijepa's Solution](https://github.com/nijepa/positioning-and-floating-elements) - [View in Browser](https://nijepa.github.io/positioning-and-floating-elements/)
 * [Chandra's Solution](https://github.com/CodeSurfer3022/news-article) - [View in Browser](https://codesurfer3022.github.io/news-article/)
+* [Anna's Solution](https://github.com/abaker93/NYT-article) - [View in Browser](https://abaker93.github.io/NYT-article/)
 </details>
 
 ### Additional Resources
