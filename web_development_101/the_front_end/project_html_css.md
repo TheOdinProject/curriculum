@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Zer0f's Solution (easy)(https://github.com/0func/google-clone)] - [View in Browser](https://0func.github.io/google-clone/)
 * [Spghtti's Solution (Easy)](https://github.com/spghtti/google-homepage) - [View in Browser](https://spghtti.github.io/google-homepage/)
 * [kenliten's Solution (Difficult)](https://github.com/kenliten/google-clone) - [View in Browser](https://kenliten.github.io/google-clone/)
 * [Serjanus Solution (Easy)](https://github.com/Serjanus/google-homepage) - [View in Browser](https://Serjanus.github.io/google-homepage/)
