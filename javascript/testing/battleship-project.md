@@ -5,10 +5,10 @@ Since we're doing TDD, it's important that you don't get overwhelmed.  Simply ta
 
 We have not yet discussed testing the appearance of a webpage.  Doing this requires a separate set of tools, and it is outside the scope of this unit.  For this assignment do your best to isolate every bit of application functionality from the actual DOM manipulation bits.  You can use mocks to make sure that DOM methods like appendChild are being called, but try your best to keep those things outside of the app logic.
 
-## Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Begin your app by creating the `Ship` factory function.  
+1. Begin your app by creating the `Ship` factory function.
    1. Your 'ships' will be objects that include their length, where they've been hit and whether or not they've been sunk.
    2. __REMEMBER__ you only have to test your object's public interface.  Only methods or properties that are used outside of your 'ship' object need unit tests.
    3. Ships should have a `hit()` function that takes a number and then marks that position as 'hit'.
@@ -34,23 +34,3 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
    2. You can polish the Intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
    3. Optionally, create a 2 player option that lets users take turns by passing the device back and forth.  If you're going to go this route, make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
 </div>
-
-###  Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the contributing page.  See the Google Homepage project for examples.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-- Add your solution below this line!
-- [Igorashs's Solution](https://github.com/igorashs/vue-battleship) - [View in browser](https://igorashs.github.io/vue-battleship/)
-- [Jason McKee's Solution](https://github.com/jttmckee/vue-battleship) - [View in browser](https://jttmckee.github.io/vue-battleship/)
-- [Ryan's and Dipto's solution](https://github.com/rvvergara/battleship) - [View in browser](https://ryto-battleship-game.netlify.com/)
-- [Max Garber's solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/battleship) - [View in browser](https://bubblebooy.github.io/Odin-Javascript/battleship/build/index.html)
-- [Kyle and Paul's solution](https://github.com/jklemon17/battleship) - [View in browser](https://jklemon17.github.io/battleship)
-- [theghall's solution](https://github.com/theghall/odin-battleship) - [View in browser](https://theghall.github.io/odin-battleship/)
-- [brxck's solution](https://github.com/brxck/odin-battleship) - [View in browser](https://brockmcelroy.com/odin-battleship/)
-- [alexfuro's solution](https://github.com/alexfuro/odin_battleship) - [View in browser](https://alexfuro.github.io/odin_battleship/)
-- [Heyalvaro's solution](https://github.com/heyalvaro/battleship.js) - [View in browser](http://heyalvaro.com/battleship.js/)
-- [Halkim44's solution](https://github.com/halkim44/battleship-game) - [View in browser](https://halkim44.github.io/battleship-game/)
-
-</details>

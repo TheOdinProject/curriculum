@@ -4,7 +4,7 @@ Interviewing is right up there with public speaking in the hierarchy of fears fo
 
 Far be it from us to try and get you over that psychological hurdle but it's definitely best if you can actually treat the interviews as a chance to show off the cool stuff you've built and the interesting new skills you've learned.  The best interviews are enthusiastic conversations with technical depth.
 
-The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](http://happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
+The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
 
 ### How the process works once you're in the funnel
 
@@ -46,7 +46,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Links
 
-* [Cracking the Coding Interview](http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
+* [Cracking the Coding Interview](https://www.academia.edu/38223757/Cracking_the_Coding_Interview_6th_Edition_189_Programming_Questions_and_Solutions) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
@@ -73,7 +73,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Architecture:
 
-* [Teaching Software Architecture with Github](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
+* [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 ### The tech challenge
 

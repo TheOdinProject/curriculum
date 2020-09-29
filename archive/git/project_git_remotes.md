@@ -1,6 +1,6 @@
 # Project: Git Remotes
 
-In this project we will fork The Odin Project's curriculum repository to add your name and a link to your Github Profile through a pull request. This is a common way to contribute to open source software on GitHub and valuable skill. Your pull request will be reviewed by the team at TheOdinProject and once approved it will appear on TheOdinProject/Curriculum. It might even be used to create an honor roll (so pay attention!).
+In this project we will fork The Odin Project's curriculum repository to add your name and a link to your GitHub Profile through a pull request. This is a common way to contribute to open source software on GitHub and valuable skill. Your pull request will be reviewed by the team at TheOdinProject and once approved it will appear on TheOdinProject/Curriculum. It might even be used to create an honor roll (so pay attention!).
 
 ## Learning Outcomes
 *By the end of this project you should be able to:*
@@ -33,7 +33,7 @@ In this project we will fork The Odin Project's curriculum repository to add you
   fatal: unable to access 'https://github.com/theodinproject/curriculum.git/': The requested URL returned error: 403
   ```
 7. The response error 403 is the HTTP status code which basically means that you don't have access. The creator of the repository can assign who has admin and write access. TheOdinProject/curriculum is set up so you can still `fetch` and `pull`, just not `push`. So how do you make changes? 
-8. To make changes, we will follow this process: Make new branch >> Pull any changes >> Make changes >> Add >> Commit >> Push to Github
+8. To make changes, we will follow this process: Make new branch >> Pull any changes >> Make changes >> Add >> Commit >> Push to GitHub
 9. From there, GitHub allows us to make a pull request to the main TheOdinProject/curriculum repository. Let's get started.
 10. The first step is to create a branch called `new-student`:
   ```language-bash

@@ -8,7 +8,7 @@ Build [Minesweeper](http://en.wikipedia.org/wiki/Minesweeper_(video_game)) in th
 The basic rules are that the player must flag every mine on the board without clicking on it.  The player gets enough information to solve this because every square that is immediately next to a mine will display the number of mines it is touching.  The player only has exactly as many flags as mines.  Victory is declared when all squares have been cleared except the mines.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about how you would set up the different elements within the game.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
 4. Build your board object and the `render()` function which displays and updates it.
@@ -18,7 +18,7 @@ The basic rules are that the player must flag every mine on the board without cl
 8. Now add a user input for a new game which asks which board size to use.
 9. Create a timer which counts how long it takes for the user to win the game.
 10. Play!
-11. Push your solution to Github and include it below.
+11. Push your solution to GitHub and include it below.
 </div>
 
 ### Student Solutions

@@ -19,7 +19,7 @@ async function getPersonsInfo(name) {
 }
 ~~~
 
-The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function deceleration? How about the `await` keyword before `server.getPeople()`?
+The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
 
 ### Learning Outcomes
 1. How do you declare an `async` function?
@@ -176,3 +176,4 @@ This code will behave exactly like the code from the last lesson, it just looks 
 
 ### Additional Resources
 1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
+2. [This video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.

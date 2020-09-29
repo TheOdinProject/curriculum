@@ -16,11 +16,11 @@ By the end of this lesson, you should be able to do the following:
  - Explain how to look at the history of your previous commits from the command line.
 
 ### Assignment
-In this project, we'll walk through the basic Git workflow that you will use in all your projects. 
+In this project, we'll walk through the basic Git workflow that you will use in all your projects.
 
 #### Create the Repository
 
-1. You should have already created a GitHub account in [Project: Your First Rails App](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application). If you haven't done that yet, you can sign up [here](https://github.com/).
+1. You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/web-development-101/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="https://imgur.com/LURPUjP"><img class="tutorial-img" src="https://i.imgur.com/LURPUjP.png" title="source: imgur.com" /></a>
@@ -49,12 +49,12 @@ In this project, we'll walk through the basic Git workflow that you will use in 
   <a href="https://imgur.com/0LDzazi"><img class="tutorial-img" src="https://i.imgur.com/0LDzazi.png" title="source: imgur.com" /></a>
 2. Open README.md in your text editor of choice and add the text "This is (YourUsername)'s first git project!" and then save the file.
   <a href="https://imgur.com/a/2B4Lw"><img class="tutorial-img" src="https://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
-3. Back in your terminal, type `git status`, and notice that README.md is no longer staged.
+3. Back in your terminal, type `git status`, and notice that README.md is now shown as modified, and not staged or committed.  This is because you made a change to it, and it is already a tracked file.
   <a href="https://imgur.com/AlUO59b"><img class="tutorial-img" src="https://i.imgur.com/AlUO59b.png" title="source: imgur.com" /></a>
 4. Add README.md to the staging area with `git add README.md`.
 5. Can you guess what `git status` will output now? README.md will be displayed in green text, while hello_world.txt will still be in red. This means that only README.md has been added to the staging area.
   <a href="https://imgur.com/b9tCLfT"><img class="tutorial-img" src="https://i.imgur.com/b9tCLfT.png" title="source: imgur.com" /></a>
-6. Now, add hello_world.txt to the staging area with a slightly different command: `git add .`, where the full stop means to add all files that are not staged. Then, type `git status` once more, and everything should now be in the staging area.
+6. Now, add hello_world.txt to the staging area with a slightly different command: `git add .`, where the full stop means to add all files **in the current directory** that are not staged. Then, type `git status` once more, and everything should now be in the staging area. *(Note: You can use `git add -A` to add ALL unstaged files to the staging area within the repository)*
   <a href="https://imgur.com/13jYJiV"><img class="tutorial-img" src="https://i.imgur.com/13jYJiV.png" title="source: imgur.com" /></a>
 9. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message `git commit -m "Add hello_world.txt and edit README.md"`. Then, type `git status` once again, which will output "*nothing to commit*".
   <a href="https://imgur.com/9lda2lB"><img class="tutorial-img" src="https://i.imgur.com/9lda2lB.png" title="source: imgur.com" /></a>

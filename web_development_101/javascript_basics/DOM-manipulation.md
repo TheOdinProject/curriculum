@@ -376,7 +376,7 @@ btn.addEventListener('click', () => {
 });
 ~~~
 
-Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
+Now, we maintain separation of concerns, and we also allow multiple event listeners if the need arises.  Method 3 is much more flexible and powerful, though it is a bit more complex to set up.
 
 Note that all 3 of these methods can be used with named functions like so:
 
@@ -407,6 +407,7 @@ btn.addEventListener('click', function (e) {
   console.log(e);
 });
 ~~~
+#### Note that function (e) is a callback from addEventListener. Further explanation of callbacks can be found [HERE.](https://briggs.dev/blog/understanding-callbacks)
 
 The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 
@@ -448,7 +449,7 @@ const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
 
   // and for each one we add a 'click' listener
-  button.addEventListener('click', (e) => {
+  button.addEventListener('click', () => {
     alert(button.id);
   });
 });
@@ -484,12 +485,12 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
+* [Event Capture, Propagation and Bubbling video by Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE)
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [Dynamic style - manipulating CSS with JavaScript](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript)
 * [JavaScript30](https://JavaScript30.com)
 * [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
-* If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
+* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
 * [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
-* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS.
 * [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean.
