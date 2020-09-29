@@ -791,6 +791,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [DM-Murphy's Solution](https://github.com/dm-murphy/mastermind) - [Play on repl.it](https://repl.it/@dmmurphy/MasterMind#main.rb)
 * [sal's Solution](https://github.com/Sal-theSadmanShark/mastermind_with_ruby) - [Play on repl.it](https://repl.it/@SaltheSadmanSha/mastermindwithruby)
 * [feseka's Solution](https://github.com/feseka61/mastermind/blob/master/mastermind.rb)
+* [NicoMunoz909's Solution](https://github.com/NicoMunoz909/ruby_tictactoe/blob/master/tic_tac_toe.rb)
 </details>
 
 ### Additional Resources
