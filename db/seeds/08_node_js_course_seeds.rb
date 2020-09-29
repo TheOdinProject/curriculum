@@ -62,7 +62,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/getting-started/Getting-Started-Project.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 # +++++++++++
@@ -135,7 +136,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/express-basics/Express-Mini-Message-Board.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 lesson_position += 1
@@ -183,7 +185,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/express-basics/Express-Inventory-Application.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 # +++++++++++
@@ -232,7 +235,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/authentication/Members-Only.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 # +++++++++++
@@ -281,7 +285,8 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/APIs/Blog-Project.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
 
 # +++++++++++
@@ -343,5 +348,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/Odin-Book.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true
 )
