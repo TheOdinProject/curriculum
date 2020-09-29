@@ -596,7 +596,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Huutu's Solution](https://github.com/Huutu-dev/oantuty) - [View in Browser](https://huutu-dev.github.io/oantuty/)
 - [Emir's Solution](https://github.com/EmsnSeli/rock-paper-scissors) - [View in Browser](https://emsnseli.github.io/rock-paper-scissors/)
 - [Physolia's Solution](https://github.com/Physolia/TOP-Rock-Paper-Scissors) - [View in Browser](https://physolia.github.io/TOP-Rock-Paper-Scissors/)
->>>>>>> theirs
 - [santimc's Solution](https://github.com/santimc/rock_paper_scissors) - [View in Browser](https://htmlpreview.github.io/?https://github.com/santimc/rock_paper_scissors/blob/master/index.html)
 - [Tony's Solution](https://github.com/amart114/rock-paper-scissors)
 - [sariug's Solution](https://github.com/sariug/rock-scissors-paper-lizard-spock) - [View in Browser](https://sariug.github.io/rock-scissors-paper-lizard-spock/)
