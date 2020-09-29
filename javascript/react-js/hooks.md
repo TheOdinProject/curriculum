@@ -52,20 +52,20 @@ const App = () => {
   const [color, setColor] = useState("black");
 
   useEffect(() => {
+    const changeColorOnClick = () => {
+      if (color === "black") {
+        setColor("red");
+      } else {
+        setColor("black");
+      }
+    };
+    
     document.addEventListener("click", changeColorOnClick);
 
     return () => {
       document.removeEventListener("click", changeColorOnClick);
     };
   }, [color]);
-
-  const changeColorOnClick = () => {
-    if (color === "black") {
-      setColor("red");
-    } else {
-      setColor("black");
-    }
-  };
 
   return (
     <div>
