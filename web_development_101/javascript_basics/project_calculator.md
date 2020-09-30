@@ -974,4 +974,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel88Hus Solution](https://github.com/Daniel88Hus/ProjectCalculator)
 - [Michael's Solution](https://github.com/moinabyssinia/calculator) - [View in Browser](https://moinabyssinia.github.io/calculator/)
 - [Jon's Solution](https://github.com/saucemills/javascript-calculator) - [View in Browser](https://saucemills.github.io/javascript-calculator/)
+- [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/calculator) - [View in Browser](https://mrstealyourwhey.github.io/calculator/)
 </details>

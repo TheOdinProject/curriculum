@@ -687,4 +687,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Fusako's Solution](https://github.com/fusakoo/caesar-cipher/blob/master/caesar-cipher.rb)
 * [NicoMunoz909's Solution](https://github.com/NicoMunoz909/basic_ruby_projects/blob/master/caesar_cipher.rb)
 * [Peuchen's Solution](https://github.com/Peuchen/caesar-cipher/blob/master/caesar-cipher.rb)
+* [Daniel88Hus's Solution](https://github.com/Daniel88Hus/project_caesar_cipher/blob/master/caesar_cipher.rb)
 </details>
