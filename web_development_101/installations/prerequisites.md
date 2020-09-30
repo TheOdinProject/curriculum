@@ -184,7 +184,7 @@ For step-by-step instructions, please follow this [installation guide](https://t
 </summary>
 
 With the recent addition of Linux (Beta), the Chrome OS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
-s
+
 1. You have a [supported Chromebook](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
 2. You can install [Linux (Beta)](https://support.google.com/chromebook/answer/9145439?hl=en)
 
