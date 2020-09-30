@@ -4357,6 +4357,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kxrtiswithak's Solution (Easy)](https://github.com/kxrtiswithak/google-homepage) - [View in Browser](https://kxrtiswithak.github.io/google-homepage/)
 * [natalmi7's Solution (Easy)](https://github.com/natalmi7/google-homepage) - [View in Browser](https://natalmi7.github.io/google-homepage/)
 * [Jon's Solution (Easy)](https://github.com/saucemills/google-homepage) - [View in Browser](https://saucemills.github.io/google-homepage/)
+* [gpedro178's Solution (Easy)](https://github.com/gpedro178/google-homepage) - [View in Browser](https://gpedro178.github.io/google-homepage/)
 * [Icarus_Kid's Solution (Easy)](https://github.com/Icarus-Kid/google-2nd-homepage) - [View in Browser](https://icarus-kid.github.io/google-2nd-homepage/)
 * [qamk's Solution (Easy)](https://github.com/qamk/google-homepage-top) - [View in Browser](https://qamk.github.io/google-homepage-top/)
 </details>
