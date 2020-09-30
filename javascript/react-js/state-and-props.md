@@ -152,7 +152,7 @@ Another very important concept in React is "state". In short, all values that ca
 The following example shows how to define `state` in React:
 
 ~~~javascript
-import React, { Components } from "react";
+import React, { Component } from "react";
 
 class App extends Component {
   constructor() {
@@ -161,6 +161,8 @@ class App extends Component {
     this.state = {
       count: 0,
     };
+    
+    this.countUp = this.countUp.bind(this);
   }
 
   countUp() {
@@ -181,6 +183,8 @@ class App extends Component {
 ~~~
 
 In the above component, we declared a piece of state. You **always* declare state in the constructor of a class component. Keep in mind that this will work differently when we cover functional components later. The `setState` method we call sets the state to a new value. In React, state is **immutable**. This means you should **never** change state directly because it can lead to unexpected behavior or bugs. What exactly does that mean? Never do something like this: `this.state.count = 3`, instead always use the [setState](https://reactjs.org/docs/react-component.html#setstate) method React provides built-in to modify the state. Keep this in mind, it can save you a lot of debugging when you are getting started with React. Take a look at [this article](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/), which does a great job in analyzing many popular JavaScript methods concerning mutability.
+
+Further, it's **important** to note that with class-based components, class methods such as our `countUp()` method need to be binded in our constructor, so they know what context to operate in. This is a result of how `this` works in JavaScript, see [this article](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) for a great explanation on why *this* is the case.
 
 As you have also seen in the `render` method, we access the current state through `this.state.count`. This syntax should look familiar to you by now because it is the same way we accessed props. And yes, you can also destructure state.
 
@@ -231,7 +235,7 @@ For the state in functional components, it is a little bit different. Before the
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Got to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the Lifecycle methods for now, we will discuss it in the upcoming lectures. However, if you are excited and want to learn more, feel free to explore it on your own.
+1. Go to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the Lifecycle methods for now, we will discuss it in the upcoming lectures. However, if you are excited and want to learn more, feel free to explore it on your own.
 2. Go through [these lessons](https://www.geeksforgeeks.org/reactjs-props-set-1/). There are a couple of them linked at the bottom of the page. Go through all of the ones relating to state and props to build a good foundation for the upcoming lectures. Of course, you're welcome to explore more on  your own, if you wish.
 </div>
 

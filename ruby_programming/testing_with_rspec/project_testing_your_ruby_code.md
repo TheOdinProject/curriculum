@@ -21,6 +21,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* teshigahara's Solutions: [Caesar Cipher](https://github.com/teshigahara/caesar_cipher), [Tic-Tac-Toe](https://github.com/teshigahara/tic-tac-toe)
 * onagova's Solutions: [Caesar Cipher](https://github.com/onagova/basic-ruby-projects/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/onagova/intermediate-ruby-projects/blob/master/spec/tic_tac_toe_spec.rb)
 * christian-ortega's Solution: [Tic-Tac-Toe](https://github.com/christian-ortega/tic-tac-toe/blob/master/spec/tic_tac_toe_spec.rb)
 * Bassart94's Solution: [Tic-Tac-Toe](https://github.com/bassart94/tic_tac_toe/tree/master/spec)
@@ -171,6 +172,7 @@ Send us your solution so we can show others! Submit a link to the GitHub repo wi
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bassart94's Solution](https://github.com/bassart94/connect_four)
 * [onagova's Solution](https://github.com/onagova/tdd-connect-four) - [Play on Repl.it](https://repl.it/@onagova/tdd-connect-four#README.md)
 * [christian-ortega's Solution](https://github.com/christian-ortega/connect_four) - [Play on Repl.it](https://repl.it/@chrisortegax/connectfour#lib/connect_four.rb)
 * [ChargrilledChook's Solution](https://github.com/ChargrilledChook/connect4) - [Play on Repl.it](https://repl.it/@HappyFrog/connect4#README.md)

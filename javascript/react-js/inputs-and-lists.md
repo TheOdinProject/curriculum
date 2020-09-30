@@ -42,7 +42,7 @@ class App extends Component {
 export default App;
 ~~~
 
-1. Make sure to clean the `index.js` as well. It should look something similar to this:
+4. Make sure to clean the `index.js` as well. It should look something similar to this:
 
 ~~~javascript
 // Index.js
@@ -59,10 +59,11 @@ ReactDOM.render(
 );
 ~~~
 
-4. For our solution, we chose to style the application and will use Bootstrap to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our HTML easily. You add the styling through classNames. If you are following along with this and do not wish to style the application, you can skip to the next step and ignore any code concerning `className`. As for us, let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then, go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
+5. For our solution, we chose to style the application and will use Bootstrap to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our HTML easily. You add the styling through classNames. If you are following along with this and do not wish to style the application, you can skip to the next step and ignore any code concerning `className`. As for us, let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then, go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
 
-5.Go back to your `src` directory and create a new folder called components with a file named`Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
-t 6. Finally, let's write some code. To begin, in out`App.js` file, our class component should look like this.
+6. Go back to your `src` directory and create a new folder called components with a file named`Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
+
+7. Finally, let's write some code. To begin, in out `App.js` file, our class component should look like this.
 
 ~~~javascript
 // App.js
@@ -206,7 +207,6 @@ Run `npm install uniqid` in your project folder. Uniqid is a package which creat
 // Overview.js
 
 import React from "react";
-import React from "react";
 import uniqid from "uniqid";
 
 const Overview = (props) => {
@@ -267,7 +267,7 @@ class App extends Component {
   onSubmitTask = (e) => {
     e.preventDefault();
     this.setState({
-      tasks: tasks.concat(task),
+      tasks: this.state.tasks.concat(this.state.task),
       task: "",
     });
   };

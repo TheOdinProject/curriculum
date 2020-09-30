@@ -37,9 +37,9 @@ Go try this out in the browser.
 
 First, we have to import the `useState` hook from react.
  
-Then we can declare a state like this: `const [count, setCount] = useState(0)`. This is the syntax to declare a state. The name "count" and "setCount" is totally up to us, we could also call it "something" and "somethingElse" but this wouldn't be very good, because then "somethingElse" would be called to set "something" in the state. tt doesn't read as easily. The convention is to always call the second value like the first, just with a "set" in front. The `useState(0)` call initializes our state with the value we set in brackets (0).
+Then we can declare a state like this: `const [count, setCount] = useState(0)`. This is the syntax to declare a state. The name "count" and "setCount" is totally up to us, we could also call it "something" and "somethingElse" but this wouldn't be very good, because then "somethingElse" would be called to set "something" in the state. It doesn't read as easily. The convention is to always call the second value like the first, just with a "set" in front. The `useState(0)` call initializes our state with the value we set in brackets (0).
  
-Afterwards we are declaring a function, which right now just sets a new count. In this case we are incrementing the current count with one. This function will be called anytime we click the button. In the div above the button we are just displaying the current state. One thing to mention and keep in mind here is that setting the state is an asynchrones task. Additionally, setting the state calles a rerender. That's the reason we see the new count when clicking the button. If it wouldn't trigger a rerender then we would still see the old count. Our component will update after setting the state. As mentioned in our last lecture, we might want to use this opportunity of updating to do some tasks. Unfortunately, we don't have any lifecycle methods in functional components, right?
+Afterwards we are declaring a function, which right now just sets a new count. In this case we are incrementing the current count with one. This function will be called anytime we click the button. In the div above the button we are just displaying the current state. One thing to mention and keep in mind here is that setting the state is an asynchronous task. Additionally, setting the state calles a re-render. That's the reason we see the new count when clicking the button. If it wouldn't trigger a re-render then we would still see the old count. Our component will update after setting the state. As mentioned in our last lecture, we might want to use this opportunity of updating to do some tasks. Unfortunately, we don't have any lifecycle methods in functional components, right?
 
 ### useEffect
 
@@ -52,20 +52,20 @@ const App = () => {
   const [color, setColor] = useState("black");
 
   useEffect(() => {
+    const changeColorOnClick = () => {
+      if (color === "black") {
+        setColor("red");
+      } else {
+        setColor("black");
+      }
+    };
+    
     document.addEventListener("click", changeColorOnClick);
 
     return () => {
       document.removeEventListener("click", changeColorOnClick);
     };
   }, [color]);
-
-  const changeColorOnClick = () => {
-    if (color === "black") {
-      setColor("red");
-    } else {
-      setColor("black");
-    }
-  };
 
   return (
     <div>
@@ -93,7 +93,7 @@ Try it out to get an idea of what is happening.
  
 Once you've done that, let's go through it in all detail.
  
-You should already be familiar with the `useState` logic implemented. Basically, we are just saving a color in state and on click we are changing the color saved in state. Applied is this color to our div element. Don't worry about all the inline styles of the div, the only important thing within this styles object is where we set the background to the color that is currently saved in state.
+You should already be familiar with the `useState` logic implemented. Basically, we are just saving a color in state and on click we are changing the color saved in state. This color is applied to our div element. Don't worry about all the inline styles of the div, the only important thing within this styles object is where we set the background to the color that is currently saved in state.
  
 Now the only thing we haven't looked at is the `useEffect` hook. As mentioned, this hook can do a lot. 
 
@@ -133,7 +133,7 @@ useEffect(() => {
 
 You can also completely leave out the dependency array. This way, the useEffect hook runs anytime the component is updated, **AND** right after the initial render. This is the difference compared to the `componentDidUpdate` lifecycle method, because it also runs after the initial render. This way it would be equal to a `componentDidMount` and `componenDidUpdate` method combined.
 
-The return statement we are adding to our useEffect is acually equal to a `componentWillUnmount` method. 
+The return statement we are adding to our useEffect is actually equal to a `componentWillUnmount` method.
 
 ~~~javascript
 return () => {

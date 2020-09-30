@@ -45,6 +45,10 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Dekzen's Solution](https://github.com/Dekzen/Etch-A-Sketch) - [View in Browser](https://dekzen.github.io./EtchASketch/)
+* [norklas' Solution](https://github.com/norklas/etch-a-sketch) - [View in Browser](https://norklas.github.io/etch-a-sketch/)
+* [WilmarvDijk's Solution](https://github.com/WilmarvanDijk/etch-a-sketch) - [View in Browser](https://wilmarvandijk.github.io/etch-a-sketch/)
+* [Abordan Peter's Solution](https://github.com/Pety99/Etch-A-Sketch) - [View in Browser](https://pety99.github.io/Etch-A-Sketch/)
 * [AndrewLeach94's Solution](https://github.com/AndrewLeach94/virtual-etch-a-sketch) - [View in Browser](https://andrewleach94.github.io/virtual-etch-a-sketch/)
 * [Bill's Solution](https://github.com/billyboy118/etchASketch) - [View in Browser](https://billyboy118.github.io/etchASketch/)
 * [mooniiDev's Solution](https://github.com/mooniiDev/etch-a-sketch-toy) - [View in Browser](https://mooniidev.github.io/etch-a-sketch-toy/)
@@ -1342,4 +1346,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [gitliffi's Solution](https://github.com/gitliffi/etch-a-sketch) - [View in Browser](https://gitliffi.github.io/etch-a-sketch/)
 * [novikovb's Solution](https://github.com/novikovb/etch-a-sketch) - [View in Browser](https://novikovb.github.io/etch-a-sketch/)
 * [leo's Solution](https://github.com/hoangnamtrinh/Etch-a-Sketch) - [View in Browser](https://hoangnamtrinh.github.io/Etch-a-Sketch/)
+* [ayoubc's Solution](https://github.com/ayoubc/etch-a-sketch) - [View in Browser](https://ayoubc.github.io/etch-a-sketch/)
+* [Jon's Solution](https://github.com/saucemills/etch-a-sketch) - [View in Browser](https://saucemills.github.io/etch-a-sketch/)
+* [vaibhav's Solution](https://github.com/kumarvaibhav45/sketch-pad) - [View in Browser](https://kumarvaibhav45.github.io/sketch-pad/)
 </details>

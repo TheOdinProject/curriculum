@@ -60,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [teshigahara's Solution](https://github.com/teshigahara/balancedBST)
 * [Omar Al-Masri's solution](https://github.com/Omarmasri-91/balanced_bst)
 * [Lucasdonuts' solution](https://github.com/lucasdonuts/balanced_BST)
 * [AGL9's solution](https://github.com/agl9/binarysearchtree)
@@ -326,6 +327,8 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [teshigahara's Solution](https://github.com/teshigahara/traveling-knight/blob/master/knights_travel.rb)
+* [AGL9's Solution](https://github.com/agl9/knightmoves)
 * [onagova's Solution](https://github.com/onagova/knights-travails)
 * [Hans Oliveira's Solution](https://github.com/hansnery/knights_travail)
 * [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
