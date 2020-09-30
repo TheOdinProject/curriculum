@@ -205,5 +205,3 @@ The answer to that question is: [well, not that many](https://onezero.medium.com
 One of the biggest features added in Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. Setting up a development environment inside WSL is not beginner friendly, though, which is why The Odin Project chooses **not** to recommend and/or support this approach. All instructions you encounter here will assume you're running either MacOS or Linux. Using WSL with these instructions may cause problems we are not able to help you resolve. 
 
 We do have great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
-
-[supported Chromebook](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
