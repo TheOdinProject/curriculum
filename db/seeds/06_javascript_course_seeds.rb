@@ -378,9 +378,9 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Shopping Chart',
-  title_url: 'Shopping Chart'.parameterize,
-  description: 'Shopping Chart',
+  title: 'Shopping Cart',
+  title_url: 'Shopping Cart'.parameterize,
+  description: 'Shopping Cart',
   position: lesson_position,
   section_id: section.id,
   is_project: true,
