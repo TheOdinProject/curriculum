@@ -21,9 +21,9 @@ Send us your solution so we can show others! Submit a link to the GitHub [repo](
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [CHANG-CHING-CHUNG's Solution][https://github.com/CHANG-CHING-CHUNG/Ruby_Hangman] - [View in Repl.it](https://repl.it/@CHANGCHINGCHUNG/RubyHangman)
-* [berubenic's Solution][https://github.com/berubenic/Hangman] - [View in Repl.it](https://repl.it/@NicholasBerube/Hangman)
-* [teshigahara's Solution][https://github.com/teshigahara/hangman] - [View in Repl.it](https://repl.it/github/teshigahara/hangman)
+* [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Ruby_Hangman) - [View in Repl.it](https://repl.it/@CHANGCHINGCHUNG/RubyHangman)
+* [berubenic's Solution](https://github.com/berubenic/Hangman) - [View in Repl.it](https://repl.it/@NicholasBerube/Hangman)
+* [teshigahara's Solution](https://github.com/teshigahara/hangman) - [View in Repl.it](https://repl.it/github/teshigahara/hangman)
 * [Jameel(big-meel)'s Solution](https://github.com/big-meel/ruby-code/tree/master/hangman)
 * [Chala17's Solution](https://github.com/chala17/ruby-projects/tree/master/hangman)
 * [onagova's Solution](https://github.com/onagova/hangman) - [View in Repl.it](https://repl.it/@onagova/hangman#hangman.rb)
