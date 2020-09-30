@@ -21,6 +21,14 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* teshigahara's Solutions: [Caesar Cipher](https://github.com/teshigahara/caesar_cipher), [Tic-Tac-Toe](https://github.com/teshigahara/tic-tac-toe)
+* onagova's Solutions: [Caesar Cipher](https://github.com/onagova/basic-ruby-projects/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/onagova/intermediate-ruby-projects/blob/master/spec/tic_tac_toe_spec.rb)
+* christian-ortega's Solution: [Tic-Tac-Toe](https://github.com/christian-ortega/tic-tac-toe/blob/master/spec/tic_tac_toe_spec.rb)
+* Bassart94's Solution: [Tic-Tac-Toe](https://github.com/bassart94/tic_tac_toe/tree/master/spec)
+* Nhleto's Solutions: [Caesar Cipher](https://github.com/nhleto/Caesar-Cipher-Ruby), [Tic-Tac-Toe](https://github.com/nhleto/Tic-Tac-Toe)
+* risanto's Solutions: [Caesar Cipher](https://github.com/risanto/caesar-cipher-testing), [Tic-Tac-Toe](https://github.com/risanto/tic-tac-toe-testing)
+* gogvale's Solutions: [Caesar Cipher](https://github.com/gogvale/RubyCode/blob/master/spec/caesar_cypher_spec.rb), [Tic-Tac-Toe](https://github.com/gogvale/RubyCode/blob/master/spec/ttt_spec.rb)
+* tenacious qi's Solutions: [Caesar Cipher](https://github.com/Tenacious-Qi/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Tic-Tac-Toe](https://github.com/Tenacious-Qi/OOP-project/tree/master/tictactoe)
 * Aaron Contreras's Solutions: [Caesar Cipher](https://github.com/aaron-contreras/caesar-cipher), [Tic-Tac-Toe](https://github.com/aaron-contreras/tic-tac-toe)
 * Haroon Abdulrazaq's Solutions: [Tic-Tac-Toe](https://github.com/Haroonabdulrazaq/tic-tac-toe)
 * rlmoser's Solutions: [Caesar Cipher](https://github.com/rlmoser99/ruby_exercises/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/rlmoser99/ruby_TicTacToe)
@@ -137,6 +145,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Chow Jia Ying's Solutions: [Caesar Cipher](https://github.com/C-likethis123/ruby_odin_project/blob/master/lib/caesar_cipher.rb), [Tic-Tac-Toe](https://github.com/C-likethis123/ruby_odin_project/blob/master/tic-tac-toe/lib/game.rb)
 * Sandy's Solutions: [Caesar Cipher](https://github.com/kuosandys/top-ruby-assignments/tree/master/caesar_cipher), [Tic-Tac-Toe](https://github.com/kuosandys/top-ruby-assignments/tree/master/tic_tac_toe)
 * Johnny's Solutions: [Caesar Cipher](https://github.com/NotAProgrammerdork/Ruby/tree/master/caesar_cipher_spec), [TicTacToe](https://github.com/NotAProgrammerdork/Ruby/tree/master/tictactoe_spec)
+* msespos's Solutions: [Caesar Cipher](https://github.com/msespos/caesar), [Tic-Tac-Toe](https://github.com/msespos/tic-tac-toe)
+* tim87henry's Solution: [Caesar Cipher](https://github.com/tim87henry/ruby_practice), [Tic-Tac-Toe](https://github.com/tim87henry/tic_tac_toe)
 </details>
 
 ### Project: TDD Connect Four
@@ -156,18 +166,27 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [bassart94's Solution](https://github.com/bassart94/connect_four)
+* [onagova's Solution](https://github.com/onagova/tdd-connect-four) - [Play on Repl.it](https://repl.it/@onagova/tdd-connect-four#README.md)
+* [christian-ortega's Solution](https://github.com/christian-ortega/connect_four) - [Play on Repl.it](https://repl.it/@chrisortegax/connectfour#lib/connect_four.rb)
+* [ChargrilledChook's Solution](https://github.com/ChargrilledChook/connect4) - [Play on Repl.it](https://repl.it/@HappyFrog/connect4#README.md)
+* [Sanjana's Solution](https://github.com/error34043/tdd_ruby_connect_four) - [Play on Repl.it](https://tddrubyconnectfour.error34043.repl.run)
+* [Nhleto's Solution](https://github.com/nhleto/Connect-Four)
+* [tenacious-qi's](https://github.com/Tenacious-Qi/connect-four)
+* [James's Solution](https://github.com/jegrieve/TDD_Connect_Four)
+* [Aaron Contreras's Solution](https://github.com/aaron-contreras/connect-four)
 * [Aaron's Solution](https://github.com/Aaron-McD/connect-four)
 * [rlmoser's Solution](https://github.com/rlmoser99/ruby_connect_four)
 * [Axel Lopez's Solution](https://github.com/lopezaxel/connect-four)
 * [Brandon Austin's Solution](https://github.com/brandonricharda/Connect-Four)
 * [Chau Nguyen' Solution](https://github.com/VanQuishi/Connect-Four)
-* [threeaces' Solution](https://github.com/threeaces/connect_4_ruby)  
+* [threeaces' Solution](https://github.com/threeaces/connect_4_ruby)
 * [palebluudot's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/connect_four/lib/connect_four.rb)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/connect_four)
 * [Sam Eff's Solution](https://github.com/SamEff/connect_four)
@@ -312,6 +331,10 @@ connect_four)
 * [Rémi Borfigat’s Solution](https://github.com/remiborfigat/plot_four)
 * [Sandy’s Solution](https://github.com/kuosandys/top-ruby-assignments/tree/master/connect_four)
 * [Bingo's Solution](https://github.com/NotAProgrammerdork/Ruby/tree/master/connect_four_spec)
+* [bhenning83's Solution](https://github.com/bhenning83/connect_four)
+* [tim87henry's Solution](https://github.com/tim87henry/ruby_practice)
+* [msespos's Solution](https://github.com/msespos/connect-four) - [Play on repl.it](https://repl.it/@msespos/connect-four#README.md)
+
 </details>
 
 ### Additional Resources

@@ -1,5 +1,5 @@
 ### Introduction
-With the limitations of the more traditional css layout techniques becoming more apparent with the huge growth in mobile and tablet sized screens, a new way was needed to reduce the current complexity of creating responsive website layouts.
+With the limitations of the more traditional CSS layout techniques becoming more apparent with the huge growth in mobile and tablet sized screens, a new way was needed to reduce the current complexity of creating responsive website layouts.
 
 Grid was introduced to fill this need.
 
@@ -21,9 +21,9 @@ Grid was introduced to fill this need.
 - How can you nest grids?
 
 ### Overview
-Grid layout introduces a two-dimensional grid system which works with columns and rows. This compares against the mainly one dimensional alternatives where you fix the layout to either columns or rows. The result is the ability to create complex layouts in a simple and clean way as you aren't required to include anything in your html markup as you would with tools like Bootstrap.
+Grid layout introduces a two-dimensional grid system which works with columns and rows. This compares against the mainly one dimensional alternatives where you fix the layout to either columns or rows. The result is the ability to create complex layouts in a simple and clean way as you aren't required to include anything in your HTML markup as you would with tools like Bootstrap.
 
-If you have any experience with other css layout options like floats then Grid can take a little getting used to. Here are some practical tips that can help you as you use Grid in your layouts.
+If you have any experience with other CSS layout options like floats then Grid can take a little getting used to. Here are some practical tips that can help you as you use Grid in your layouts.
 
 1) Draw your grid first on paper. It really helps you have a visual representation of what you are trying to achieve and makes it much easier to set up the grid in the right way. You don't want to have to keep making major adjustments for things you haven't accounted for.
 
@@ -42,11 +42,11 @@ Grid is now supported in all major browsers meaning you can use it right away to
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-- Complete [CSS Grid Garden](http://cssgridgarden.com/). An awesome resource for learning the basics of css grid through 28 levels.
+- Complete [CSS Grid Garden](http://cssgridgarden.com/). An awesome resource for learning the basics of CSS Grid through 28 levels.
 - Check out the videos at [Grid by Example](https://gridbyexample.com/video). They are nice and short and cover all the major areas of CSS Grid.
 - Wes Bos has a [CSS Grid course](https://cssgrid.io/) which goes really in depth on the subject.
 </div>
 
 ### Additional Resources
 - The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.
-- This [Rachel Andrew Youtube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options.
+- This [Rachel Andrew YouTube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options.

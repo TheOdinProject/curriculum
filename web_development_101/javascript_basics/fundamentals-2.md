@@ -1,5 +1,5 @@
 ### Introduction
-There are a few extremely common types of data that you will encounter in Javascript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
+There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
@@ -16,7 +16,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What are the comparison operators?
 * What is nesting?
 * What are truthy and falsy values?
-* What are the falsy values in Javascript?
+* What are the falsy values in JavaScript?
 * What is the syntax for an if/else conditional?
 * What is the syntax for a switch statement?
 * What is the syntax for a ternary operator?

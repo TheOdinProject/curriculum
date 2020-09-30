@@ -107,12 +107,19 @@ If any of those don't work, double check your associations.  Sometimes the error
 </div>
 
 ### Student Solutions
-Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/databases_and_activerecord/project_ar_basics.md) so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
+Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/databases_and_activerecord/project_ar_basics.md) so we can show others!. Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's GitHub handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [James's Solution](https://github.com/jegrieve/micro-reddit)
+* [Spark's Solution](https://github.com/Sparking2/micro-reddit/tree/master/micro-reddit)
+* [Haroon Abdulrazaq's](https://github.com/luciano-ilha/micro-reddit)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/micro-reddit)
+* [Kfollen93's Solution](https://github.com/Kfollen93/micro-reddit)
+* [Witah Georjane's Solution](https://github.com/Georjane/Micro-Reddit)
+* [Axel Lopez's Solution](https://github.com/lopezaxel/micro-reddit)
 * [Sam Eff's Solution](https://github.com/SamEff/micro-reddit)
 * [Uduak Essien's Solution](https://github.com/DarrenLo0530/rails-mini-projects/tree/master/micro-reddit)
 * [Uduak Essien's Solution](https://github.com/acushlakoncept/micro-reddit)
@@ -274,6 +281,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Smith's & Paul's Solution](https://github.com/SmithVyne/Micro-reddit)
 * [Rob Dulabon's Solution](https://github.com/RDulabon/microReddit) 
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/micro-reddit)
+* [Clinton wambugu's Solution](https://github.com/kwambugu/micro-reddit)
+* [Spu's Solution](https://github.com/NotAProgrammerdork/micro-reddit)
+* [bhenning83's Solution](https://github.com/bhenning83/micro-reddit)
 </details>
 
 ### Additional Resources
