@@ -41,6 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Tareks's Solution](https://github.com/TarekVisch/rock-paper-scissors) - [View in Browser](https://tarekvisch.github.io/rock-paper-scissors/)
 - [Dekzen's Solution](https://github.com/Dekzen/Rock-Paper-Scissors) - [View in Browser](https://dekzen.github.io./RockPaperScissors/)
 - [Vshwraj's Solution](https://github.com/vshwraj/rock-paper-scissors)
 - [LeeksDeWayne's Solution](https://github.com/LeeksDeWayne/rockPaperScissorsProject) - [View in Browser](https://leeksdewayne.github.io/rockPaperScissorsProject/)
@@ -52,7 +53,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Cendevs's Solution](https://github.com/Cendevs/rpsGame) - [View in Browser](https://cendevs.github.io/rpsGame/)
 - [jakelo97's Solution](https://github.com/jakelo97/rockpaperscissorstest) - [View in Browser](https://jakelo97.github.io/rockpaperscissorstest/)
 - [Caradloki's Solution](https://github.com/Caradloki/rock-paper-scissors)
-- [Tarek's Solution](https://github.com/TarekVisch/rock-paper-scissors)
 - [alistairvu's Solution](https://github.com/alistairvu/rock-paper-scissors)
 - [carloscodes' Solution](https://github.com/carloschancodes/rock_paper_scissors)
 - [spark712's Solution](https://github.com/spark712/rock-paper-scissor)
