@@ -61,5 +61,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/databases/project_databases.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )

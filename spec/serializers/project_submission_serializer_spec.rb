@@ -15,11 +15,7 @@ RSpec.describe ProjectSubmissionSerializer do
     )
   end
   let(:user) { create(:user, id: 123, username: 'A USERNAME') }
-  let(:lesson) { create(:lesson, id: 12, title: 'A LESSON TITLE') }
-
-  # before do
-  #   allow(subject).to receive(:lesson_path).and_return('/lesson_path')
-  # end
+  let(:lesson) { create(:lesson, id: 12, title: 'A LESSON TITLE', has_live_preview: true) }
 
   describe '#as_json' do
     let(:serialized_project_submission) do
@@ -33,6 +29,7 @@ RSpec.describe ProjectSubmissionSerializer do
         lesson_id: 12,
         lesson_title: 'A LESSON TITLE',
         lesson_path: '/lessons/a-lesson-title',
+        lesson_has_live_preview: true,
       }
     end
 

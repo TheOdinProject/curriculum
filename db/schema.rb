@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_23_172005) do
+ActiveRecord::Schema.define(version: 2020_09_30_171734) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -94,13 +94,14 @@ ActiveRecord::Schema.define(version: 2020_09_23_172005) do
     t.string "slug"
     t.string "repo"
     t.boolean "accepts_submission", default: false, null: false
+    t.boolean "has_live_preview", default: false, null: false
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
   end
 
   create_table "project_submissions", id: :serial, force: :cascade do |t|
     t.string "repo_url"
-    t.string "live_preview_url"
+    t.string "live_preview_url", default: "", null: false
     t.integer "user_id"
     t.integer "lesson_id"
     t.datetime "created_at", null: false

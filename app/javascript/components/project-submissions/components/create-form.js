@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Fragment, useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { func } from 'prop-types';
 import { yupResolver } from '@hookform/resolvers';
 
 import schema from '../schemas/project-submission-schema'
+import ProjectSubmissionContext from '../ProjectSubmissionContext';
 
 const CreateForm = ({ onClose, onSubmit, userId }) => {
+  const { lesson } = useContext(ProjectSubmissionContext);
   const { register, handleSubmit, formState, errors } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
@@ -49,17 +51,21 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
         </div>
         {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
 
-        <div className="form__section">
-          <span className="form__icon fas fa-link"></span>
-          <input
-            className="form__element form__element--with-icon"
-            type="url"
-            placeholder="Live Preview URL"
-            name="live_preview_url"
-            ref={register()}
-          />
-        </div>
-        {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div>}
+        { lesson.has_live_preview &&
+          <Fragment>
+            <div className="form__section">
+              <span className="form__icon fas fa-link"></span>
+              <input
+                className="form__element form__element--with-icon"
+                type="url"
+                placeholder="Live Preview URL"
+                name="live_preview_url"
+                ref={register()}
+              />
+            </div>
+            { errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
+           </Fragment>
+        }
 
         <div className="form__section form__section--right-aligned form__section--bottom">
           <div className="form__toggle-checkbox">

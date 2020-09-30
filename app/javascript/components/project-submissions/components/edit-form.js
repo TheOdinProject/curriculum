@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { useForm } from 'react-hook-form';
 import { func, object } from 'prop-types';
 import { yupResolver } from '@hookform/resolvers';
@@ -48,18 +48,21 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
           />
         </div>
         {errors.repo_url && <div className="form__error-message push-down"> {errors.repo_url.message}</div>}
-
-        <div className="form__section">
-          <span className="form__icon fas fa-link"></span>
-          <input
-            className="form__element form__element--with-icon"
-            type="text"
-            placeholder="Live Preview URL"
-            name="live_preview_url"
-            ref={register()}
-          />
-        </div>
-        {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
+        { submission.lesson_has_live_preview &&
+          <Fragment>
+            <div className="form__section">
+              <span className="form__icon fas fa-link"></span>
+              <input
+                className="form__element form__element--with-icon"
+                type="text"
+                placeholder="Live Preview URL"
+                name="live_preview_url"
+                ref={register()}
+              />
+            </div>
+            {errors.live_preview_url && <div className="form__error-message push-down"> {errors.live_preview_url.message}</div> }
+            </Fragment>
+        }
 
         <div className="form__section form__section--right-aligned form__section--bottom">
 

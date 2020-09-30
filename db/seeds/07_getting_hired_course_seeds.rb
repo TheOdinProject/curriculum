@@ -98,7 +98,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/getting_hired/project_portfolio.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 # +++++++++++
@@ -148,7 +149,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/getting_hired/project_resume.md',
   repo: 'curriculum',
-  accepts_submission: false
+  accepts_submission: false,
+  has_live_preview: false
 )
 
 lesson_position += 1

@@ -18,9 +18,10 @@ class ProjectSubmissionSerializer
       is_public: project_submission.is_public,
       user_name: project_submission.user.username,
       user_id: project_submission.user.id,
-      lesson_id: project_submission.lesson.id,
-      lesson_title: project_submission.lesson.title,
-      lesson_path: lesson_path(project_submission.lesson),
+      lesson_id: lesson.id,
+      lesson_title: lesson.title,
+      lesson_path: lesson_path(lesson),
+      lesson_has_live_preview: lesson.has_live_preview,
     }
   end
   # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
@@ -28,4 +29,8 @@ class ProjectSubmissionSerializer
   private
 
   attr_reader :project_submission
+
+  def lesson
+    project_submission.lesson
+  end
 end

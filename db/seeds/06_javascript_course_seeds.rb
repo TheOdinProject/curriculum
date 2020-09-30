@@ -102,7 +102,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/library-project.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -127,7 +128,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/tic-tac-toe-project.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -189,7 +191,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/todo-project.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 # +++++++++++
@@ -324,7 +327,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/react-js/project-cv.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -361,7 +365,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/react-js/project-memory-card.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -386,7 +391,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/react-js/project-shopping-chart.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -472,7 +478,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/async-apis/project.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 # +++++++++++
@@ -510,7 +517,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/testing/testing-practice.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -535,7 +543,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/testing/battleship-project.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 # +++++++++++
 # section
@@ -572,7 +581,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/js-rails/project_rails_backend.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true,
 )
 
 # +++++++++++
@@ -598,7 +608,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/finishing-up/project_final_js.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1

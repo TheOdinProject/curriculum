@@ -8,7 +8,7 @@ const noop = () => {};
 
 const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDashboardView }) => {
   const { allSubmissionsPath, legacySubmissionsUrl } = useContext(ProjectSubmissionContext);
-
+  console.log("submissions", allSubmissionsPath)
   return (
     <div>
       <div>
@@ -24,7 +24,7 @@ const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDa
         ))}
       </div>
 
-      { allSubmissionsPath.length > 0 &&
+      { allSubmissionsPath &&
         <p className='submissions__view-more'>
           <span>Showing {submissions.length} most recent submissions - </span>
           <a href={allSubmissionsPath}> View full list of solutions</a> or <a href={legacySubmissionsUrl} target='_blank'>View old submissions</a>
