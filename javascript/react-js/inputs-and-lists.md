@@ -341,6 +341,4 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 
 ### Additional Resources
 
-Have an additional resource that helped you with this lesson?
-
-You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/inputs-and-lists.md) and create a pull request to have one added!
+1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!
