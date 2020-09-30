@@ -95,6 +95,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [lunar-cat Solution (Easy and Difficult)](https://github.com/lunar-cat/google-webtest) - [View in Browser](https://lunar-cat.github.io/google-webtest/)
+* [Jaresj's Solution (Easy)](https://github.com/jaresj/google-homepage) - [View in Browser](https://github.com/jaresj/google-homepage.git)
+* [Zer0f's Solution (Easy)](https://github.com/0func/google-clone) - [View in Browser](https://0func.github.io/google-clone/)
+* [zjakwani's Solution (Easy)](https://github.com/zjakwani/google-clone) - [View in Browser](https://zjakwani.github.io/google-clone/)
+* [Anutka777's Solution (Difficult)](https://github.com/Anutka777/google-searchresult-page) - [View in Browser](https://anutka777.github.io/google-searchresult-page/)
 * [Spghtti's Solution (Easy)](https://github.com/spghtti/google-homepage) - [View in Browser](https://spghtti.github.io/google-homepage/)
 * [kenliten's Solution (Difficult)](https://github.com/kenliten/google-clone) - [View in Browser](https://kenliten.github.io/google-clone/)
 * [Serjanus Solution (Easy)](https://github.com/Serjanus/google-homepage) - [View in Browser](https://Serjanus.github.io/google-homepage/)
@@ -4353,6 +4358,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [natalmi7's Solution (Easy)](https://github.com/natalmi7/google-homepage) - [View in Browser](https://natalmi7.github.io/google-homepage/)
 * [Jon's Solution (Easy)](https://github.com/saucemills/google-homepage) - [View in Browser](https://saucemills.github.io/google-homepage/)
 * [gpedro178's Solution (Easy)](https://github.com/gpedro178/google-homepage) - [View in Browser](https://gpedro178.github.io/google-homepage/)
+* [Icarus_Kid's Solution (Easy)](https://github.com/Icarus-Kid/google-2nd-homepage) - [View in Browser](https://icarus-kid.github.io/google-2nd-homepage/)
+* [qamk's Solution (Easy)](https://github.com/qamk/google-homepage-top) - [View in Browser](https://qamk.github.io/google-homepage-top/)
 </details>
 
 ### Additional Resources
