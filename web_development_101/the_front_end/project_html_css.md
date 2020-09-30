@@ -96,7 +96,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 
 * Add your solution below this line!
 * [lunar-cat Solution (Easy and Difficult)](https://github.com/lunar-cat/google-webtest) - [View in Browser](https://lunar-cat.github.io/google-webtest/)
-* [Zer0f's Solution (easy)(https://github.com/0func/google-clone)] - [View in Browser](https://0func.github.io/google-clone/)
+* [Jaresj's Solution (Easy)](https://github.com/jaresj/google-homepage) - [View in Browser](https://github.com/jaresj/google-homepage.git)
+* [Zer0f's Solution (Easy)](https://github.com/0func/google-clone) - [View in Browser](https://0func.github.io/google-clone/)
 * [zjakwani's Solution (Easy)](https://github.com/zjakwani/google-clone) - [View in Browser](https://zjakwani.github.io/google-clone/)
 * [Anutka777's Solution (Difficult)](https://github.com/Anutka777/google-searchresult-page) - [View in Browser](https://anutka777.github.io/google-searchresult-page/)
 * [Spghtti's Solution (Easy)](https://github.com/spghtti/google-homepage) - [View in Browser](https://spghtti.github.io/google-homepage/)
