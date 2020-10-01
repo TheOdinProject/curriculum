@@ -598,4 +598,5 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Fusako's Solution](https://github.com/fusakoo/ruby-projects/blob/master/stock-picker.rb)
 * [NicoMunoz909's Solution](https://github.com/NicoMunoz909/basic_ruby_projects/blob/master/stock_picker.rb)
 * [miniengineer's Solution](https://github.com/miniengineer/ruby_programming/blob/master/stock_picker.rb)
+* [Daniel88Hus's Solution](https://github.com/Daniel88Hus/ProjectStockPicker/blob/master/stock_picker.rb)
 </details>
