@@ -4360,6 +4360,8 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [gpedro178's Solution (Easy)](https://github.com/gpedro178/google-homepage) - [View in Browser](https://gpedro178.github.io/google-homepage/)
 * [Icarus_Kid's Solution (Easy)](https://github.com/Icarus-Kid/google-2nd-homepage) - [View in Browser](https://icarus-kid.github.io/google-2nd-homepage/)
 * [qamk's Solution (Easy)](https://github.com/qamk/google-homepage-top) - [View in Browser](https://qamk.github.io/google-homepage-top/)
+* [Ananda's Solution (Easy)](https://github.com/anandawira/google-homepage) - [View in Browser](https://anandawira.github.io/google-homepage/)
+
 </details>
 
 ### Additional Resources
