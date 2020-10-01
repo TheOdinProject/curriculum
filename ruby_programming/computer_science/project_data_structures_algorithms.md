@@ -327,6 +327,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jding9's Solution](https://github.com/Jding9/knight_moves)
 * [teshigahara's Solution](https://github.com/teshigahara/traveling-knight/blob/master/knights_travel.rb)
 * [AGL9's Solution](https://github.com/agl9/knightmoves)
 * [onagova's Solution](https://github.com/onagova/knights-travails)
