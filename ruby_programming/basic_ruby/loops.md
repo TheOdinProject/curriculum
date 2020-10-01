@@ -103,7 +103,7 @@ A `for` loop is used to iterate through a collection of information such as an a
 
 ~~~ruby
 for i in 0..5
-  puts "#{i} zombies incoming!."
+  puts "#{i} zombies incoming!"
 end
 ~~~
 

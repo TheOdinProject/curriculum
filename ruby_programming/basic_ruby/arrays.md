@@ -73,8 +73,8 @@ The methods `#shift` and `#unshift` are used to add and remove elements at the b
 ~~~ruby
 num_array = [2, 3, 4]
 
-num_array.unshift(1)   #=> [1, 2, 3, 4]
-num_array.shift           #=> [1]
+num_array.unshift(1)      #=> [1, 2, 3, 4]
+num_array.shift           #=> 1
 num_array                 #=> [2, 3, 4]
 ~~~
 
