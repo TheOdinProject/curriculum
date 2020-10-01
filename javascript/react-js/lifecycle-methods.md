@@ -43,7 +43,7 @@ This method is not called for the initial render, but any other time when the co
 
 ### ComponentWillUnmount
 
-This is the last lifecycle method, which will be called when the component is removed from the DOM tree. Usually you would do cleanup tasks in this method. This often incldues cleaning up what you added in the componentDidMount method.
+This is the last lifecycle method, which will be called when the component is removed from the DOM tree. Usually you would do cleanup tasks in this method. This often includes cleaning up what you added in the componentDidMount method.
 
 A few examples are:
 
