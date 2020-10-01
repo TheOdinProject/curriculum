@@ -57,6 +57,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [ray0h's Solution](https://github.com/ray0h/TOP_Rails_Auth2_MembersOnly) - [View in Browser](https://pacific-atoll-09885.herokuapp.com/)
 * [James's Solution](https://github.com/jegrieve/Members-Only)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/members-only)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/members-only) - [View in Browser](https://infinite-eyrie-03989.herokuapp.com/)
