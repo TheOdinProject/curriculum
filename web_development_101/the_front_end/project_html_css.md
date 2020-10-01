@@ -4367,6 +4367,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [qamk's Solution (Easy)](https://github.com/qamk/google-homepage-top) - [View in Browser](https://qamk.github.io/google-homepage-top/)
 * [Ananda's Solution (Easy)](https://github.com/anandawira/google-homepage) - [View in Browser](https://anandawira.github.io/google-homepage/)
 * [Bisrat's Solution (Easy)](https://github.com/Bisrat-Aregawi/project_html-css) -[View in Browser](https://bisrat-aregawi.github.io/project_html-css/)
+* [Stu's Solution (Easy)](https://github.com/stupender/google-homepage) - [View in Browser](http://stupender.github.io/google-homepage/)
 
 </details>
 
