@@ -472,7 +472,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
-* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/mastermind)
+* [NicolasArayaB's Solution](https://github.com/NicolasArayaB/mastermind) - [View in repl.it](https://repl.it/@NicolasArayaB/mastermind#settings.rb)
 * [rkuang's Solution](https://github.com/rkuang/ruby-mastermind) - [View in repl.it](https://repl.it/@rkuang/ruby-mastermind)
 * [berubenic's Solution](https://github.com/berubenic/Mastermind) - [View in repl.it](https://repl.it/@NicholasBerube/MasterMind#main.rb)
 * [teshigahara's Solution](https://github.com/teshigahara/mastermind/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@teshigahara/mastermind-3)
