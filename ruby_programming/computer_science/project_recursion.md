@@ -294,6 +294,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [bhenning83's Solution](https://github.com/bhenning83/fibonacci/blob/master/fibonacci.rb)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/fibonacci.rb)
 * [Feseka's Solution](https://repl.it/@feseka/fibonacci)
+* [DM-Murphy's Solution](https://github.com/dm-murphy/fibonacci)
 </details>
 
 ### Project: Merge Sort
