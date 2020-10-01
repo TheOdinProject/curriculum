@@ -1350,4 +1350,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ayoubc's Solution](https://github.com/ayoubc/etch-a-sketch) - [View in Browser](https://ayoubc.github.io/etch-a-sketch/)
 * [Jon's Solution](https://github.com/saucemills/etch-a-sketch) - [View in Browser](https://saucemills.github.io/etch-a-sketch/)
 * [vaibhav's Solution](https://github.com/kumarvaibhav45/sketch-pad) - [View in Browser](https://kumarvaibhav45.github.io/sketch-pad/)
+* [Ananda's Solution](https://github.com/anandawira/etch-a-sketch) - [View in Browser](https://anandawira.github.io/etch-a-sketch/)
 </details>
