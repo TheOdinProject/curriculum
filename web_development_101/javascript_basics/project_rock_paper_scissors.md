@@ -14,7 +14,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 
 5. **Important note:** you want to `return` the results of this function call, _not_ `console.log()` them. To test this function console.log the results:
 
-   ~~~javascript
+   ```javascript
    function playRound(playerSelection, computerSelection) {
      // your code here!
    }
@@ -22,7 +22,7 @@ We're going to make a simple implementation of grade-school classic "rock paper 
    const playerSelection = "rock";
    const computerSelection = computerPlay();
    console.log(playRound(playerSelection, computerSelection));
-   ~~~
+   ```
 
 6. Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
    1. You have not officially learned how to "loop" over code to repeat function calls... if you already know about loops from somewhere else (or if you feel like doing some more learning) feel free to use them. If not, don't worry! Just call your `playRound` function 5 times in a row. Loops are covered in the next lesson.
@@ -41,8 +41,9 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [tcholmes's Solution](https://github.com/tcholmes3/rock-paper-scissors)
 - [Rhiannon's Solution](https://github.com/rhiannonthompson/rock-paper-scissors-game) - [View in Browser](https://rhiannonthompson.github.io/rock-paper-scissors-game/)
-- [Vinu Devaraj's Solution](https://github.com/Vinu-Devaraj/rock-paper-scissors) - [View in Browser]( https://coder-deva.github.io/rock-paper-scissors/)
+- [Vinu Devaraj's Solution](https://github.com/Vinu-Devaraj/rock-paper-scissors) - [View in Browser](https://coder-deva.github.io/rock-paper-scissors/)
 - [gmAnthony's Solution](https://github.com/gmAnthony/rock-paper-scissors)
 - [wsa138's Solution](https://github.com/wsa138/rock-paper-scissors)
 - [Tareks's Solution](https://github.com/TarekVisch/rock-paper-scissors) - [View in Browser](https://tarekvisch.github.io/rock-paper-scissors/)
@@ -125,7 +126,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Kn0wn-Un's UI Solution](https://github.com/Kn0wn-Un/rockpaperscissorsui) - [View in Browser](https://kn0wn-un.github.io/rockpaperscissorsui/)
 - [Kn0wn-Un's Solution](https://github.com/Kn0wn-Un/rockpaperscissors) - [View in Browser](https://kn0wn-un.github.io/rockpaperscissors/)
 - [JHPHamwise's Solution](https://github.com/JHPHamwise/Rock-Paper-Scissors) - [View in Browser](https://jhphamwise.github.io/Rock-Paper-Scissors/)
-- [Hafiz Muhammad Abubakar's Solution](https://github.com/Hafizmuhammadabubakar/Rock_Paper_Scissors_Game) -  [View in Browser](https://hafizmuhammadabubakar.github.io/Rock_Paper_Scissors_Game/)
+- [Hafiz Muhammad Abubakar's Solution](https://github.com/Hafizmuhammadabubakar/Rock_Paper_Scissors_Game) - [View in Browser](https://hafizmuhammadabubakar.github.io/Rock_Paper_Scissors_Game/)
 - [Ryaaahs' Solution](https://github.com/Ryaaahs/Rock-Paper-Scissors-Web) - [View in Browser](https://ryaaahs.github.io/Rock-Paper-Scissors-Web/)
 - [tmlapi's Solution](https://github.com/tmlapi/Rock-Paper-Scissors.git) - [View in Browser](https://tmlapi.github.io/Rock-Paper-Scissors/)
 - [GrinninBarrett's Solution](https://github.com/GrinninBarrett/rock-paper-scissors-new) - [View in Browser](https://grinninbarrett.github.io/rock-paper-scissors-new/)
