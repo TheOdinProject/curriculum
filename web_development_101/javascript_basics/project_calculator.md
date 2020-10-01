@@ -45,9 +45,8 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-<<<<<<< HEAD
-- [jtcaovan's Solution] (https://github.com/jtcaovan/Calculator) - [View in Browser](https://jtcaovan.github.io/Calculator/)
-=======
+- [jtcaovan's Solution](https://github.com/jtcaovan/Calculator) - [View in Browser](https://jtcaovan.github.io/Calculator/)
+- [Vishakha's Solution](https://github.com/vishakha1801/Calculator) - [View in Browser](https://vishakha1801.github.io/Calculator/)
 - [Vaibhav's Solution](https://github.com/kumarvaibhav45/Calculator) - [View in Browser](https://codepen.io/kumarvaibhav45/full/QWLgMRQ/)
 - [b-steel's Solution](https://github.com/b-steel/calculator) - [View in Browser](https://b-steel.github.io/calculator/)
 - [FranekB's Solution](https://github.com/FranekB/calculator) - [View in Browser](https://franekb.github.io/calculator/)
@@ -143,7 +142,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [asi309's Solution](https://github.com/asi309/calculator) - [View in Browser](https://asi309.github.io/calculator/)
 - [pir4cy's Solution](https://github.com/pir4cy/calculator-project) - [View in Browser](https://pir4cy.github.io/calculator-project/)
 - [An0therHuman's Solution](https://github.com/An0therHuman/Calculator) - [View in Browser](https://an0therhuman.github.io/Calculator/)
->>>>>>> 2500eeb40218b6d06ba3a05d39e4f9dd8b7311b7
 - [wlukaabya's Solution](https://github.com/wlukaabya/Calculator) - [View in Browser](https://wlukaabya.github.io/Calculator/)
 - [kckat's Solution](https://github.com/kckat/calculator) - [View in Browser](https://kckat.github.io/calculator/)
 - [Sizwe Malobola's Solution](https://github.com/SizweMalobola/functional-calculator) - [View in Browser](https://sizwemalobola.github.io/functional-calculator/)
@@ -978,4 +976,6 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Daniel88Hus Solution](https://github.com/Daniel88Hus/ProjectCalculator)
 - [Michael's Solution](https://github.com/moinabyssinia/calculator) - [View in Browser](https://moinabyssinia.github.io/calculator/)
 - [Jon's Solution](https://github.com/saucemills/javascript-calculator) - [View in Browser](https://saucemills.github.io/javascript-calculator/)
+- [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/calculator) - [View in Browser](https://mrstealyourwhey.github.io/calculator/)
+- [Jsfilas' Solution](https://github.com/jsfilas/calculator) - [View in Browser](https://jsfilas.github.io/calculator/)
 </details>
