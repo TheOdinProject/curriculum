@@ -58,6 +58,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [b-steel's Solution](https://github.com/b-steel/etch-a-sketch) - [View in Browser](https://b-steel.github.io/etch-a-sketch/)
 * [FranekB's Solution](https://github.com/FranekB/etch-a-sketch) - [View in Browser](https://franekb.github.io/etch-a-sketch/)
 * [Tzunwip's Solution](https://github.com/tzunwip/etch-a-sketch) - [View in Browser](https://tzunwip.github.io/etch-a-sketch/)
+* [Vishakha's Solution](https://github.com/vishakha1801/Etch-a-sketch) - [View in Browser](https://vishakha1801.github.io/Etch-a-sketch/)
 * [MehdiHan's Solution](https://github.com/MehdiHan/odinproject_etchasketch) - [View in Browser](https://mehdihan.github.io/odinproject_etchasketch/)
 * [bensbread120's Solution](https://github.com/bensbread120/Etch-A-Sketch.git) - [View in Browser](https://bensbread120.github.io/Etch-A-Sketch/)
 * [kloba1004's Solution](https://github.com/kloba1004/Project-Etch-a-Sketch/tree/master) - [View in Browser](https://kloba1004.github.io/Project-Etch-a-Sketch/)
@@ -1349,4 +1350,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 * [ayoubc's Solution](https://github.com/ayoubc/etch-a-sketch) - [View in Browser](https://ayoubc.github.io/etch-a-sketch/)
 * [Jon's Solution](https://github.com/saucemills/etch-a-sketch) - [View in Browser](https://saucemills.github.io/etch-a-sketch/)
 * [vaibhav's Solution](https://github.com/kumarvaibhav45/sketch-pad) - [View in Browser](https://kumarvaibhav45.github.io/sketch-pad/)
+* [Ananda's Solution](https://github.com/anandawira/etch-a-sketch) - [View in Browser](https://anandawira.github.io/etch-a-sketch/)
 </details>
