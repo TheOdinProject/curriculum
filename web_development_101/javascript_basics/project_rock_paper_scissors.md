@@ -2052,4 +2052,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jon's Solution](https://github.com/saucemills/rockPaperScissors) - [View in Browser](https://saucemills.github.io/rockPaperScissors/)
 - [Akrhiin's Solution](https://github.com/Akrhiin/OdinProject_rps) - [View in Browser](https://Akrhiin.github.io/OdinProject_rps/)
 - [Ananda's Solution](https://github.com/anandawira/rock-paper-scissor) - [View in Browser](https://anandawira.github.io/rock-paper-scissor/)
+- [Ayoubc's Solution](https://github.com/ayoubc/rock-paper-scissors)
 </details>
