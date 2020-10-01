@@ -31,6 +31,25 @@ const sumArray = function(array) {
 sumArray([2, 2, 2]);
 ~~~
 
+It is also good practice to use comments to describe your code so that those reading your code can easily understand what your intention was much faster.
+You can also add comments as a reminder for you when you come in later to review your code.
+
+~~~javascript
+
+//Single line comment in Javascript.
+/*Multiline comment
+in Javascript*/
+const sumArray = function(array) {
+  let sum = 0;
+  array.forEach(function(number) {
+    sum += number;
+  });
+  return sum;
+};
+
+sumArray([2, 2, 2]);
+~~~
+
 Believe it or not, both of those functions do the exact same thing \(in the exact same way!\), and both of them are perfectly valid code, but obviously the second one is much easier to follow.  Imagine you're working on a project with someone else and they've written the first function... how long is it going to take you to figure out what's going on there so you can do your work?  Imagine you're working on a project all by yourself and YOU wrote the first function a week or two ago... chances are good that you aren't going to remember exactly what you were up to there and it's _still_ going to take you a good while to figure it all out again.
 
 The second one, however, is much easier to follow.  Even if you don't know exactly what everything in the code is doing, things are named clearly enough that you could guess, and the indentation is consistent enough that it's easy to parse the different parts of the function.
