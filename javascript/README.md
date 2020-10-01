@@ -22,12 +22,17 @@ Make your websites dynamic and interactive with JavaScript! You'll create featur
   - Forms - [lesson](js-in-the-real-world/forms.md)
   - Webpack 2 - [lesson](js-in-the-real-world/webpack-2.md)
   - ES? - [lesson](js-in-the-real-world/es6-features.md)
-- Front End Frameworks
-  - Introduction to Frameworks - [lesson](frameworks/frameworks-introduction.md)
-  - Angular - [lesson](frameworks/angular.md)
-  - React - [lesson](frameworks/react-introduction.md)
-  - Vue - [lesson](frameworks/vue.md)
-  - [Project: Frameworks](frameworks/frameworks-project.md)
+- React JS
+  - React Introduction - [lesson](react-js/react-introduction.md)
+  - State and Props - [lesson](react-js/state-and-props.md) 
+  - Handle Inputs and Render Lists - [lesson](react-js/inputs-and-lists.md) 
+  - [Project: CV Application](react-js/project-cv.md)
+  - Lifecycle Methods - [lesson](react-js/lifecycle-methods.md) 
+  - Hooks - [lesson](react-js/hooks.md) 
+  - [Project: Memory Card](react-js/project-memory-card.md)
+  - Router - [lesson](react-js/router.md) 
+  - [Project: Shopping Cart](react-js/project-shopping-chart.md)
+  - Advanced Concepts - [lesson](react-js/advanced-concepts.md) 
 - Asynchronous JavaScript and APIs
   - JSON - [lesson](async-apis/json.md)
   - Async - [lesson](async-apis/promises-async.md)
