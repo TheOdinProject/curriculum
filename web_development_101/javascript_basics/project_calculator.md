@@ -978,4 +978,5 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
 - [Jon's Solution](https://github.com/saucemills/javascript-calculator) - [View in Browser](https://saucemills.github.io/javascript-calculator/)
 - [MrStealYourWhey's Solution](https://github.com/MrStealYourWhey/calculator) - [View in Browser](https://mrstealyourwhey.github.io/calculator/)
 - [Jsfilas' Solution](https://github.com/jsfilas/calculator) - [View in Browser](https://jsfilas.github.io/calculator/)
+- [Novak's Solution](https://github.com/novibonjovi/calculator) - [View in Browser](https://novibonjovi.github.io/calculator/)
 </details>
