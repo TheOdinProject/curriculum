@@ -60,6 +60,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/balanced_search_tree.rb)
 * [teshigahara's Solution](https://github.com/teshigahara/balancedBST)
 * [Omar Al-Masri's solution](https://github.com/Omarmasri-91/balanced_bst)
 * [Lucasdonuts' solution](https://github.com/lucasdonuts/balanced_BST)
