@@ -105,6 +105,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [kenliten's Solution (Difficult)](https://github.com/kenliten/google-clone) - [View in Browser](https://kenliten.github.io/google-clone/)
 * [Serjanus Solution (Easy)](https://github.com/Serjanus/google-homepage) - [View in Browser](https://Serjanus.github.io/google-homepage/)
 * [sirmrmister/catcecilia's Solution (Easy)](https://github.com/catcecilia/google-homepage) - [View in Browser](https://catcecilia.github.io/google-homepage/)
+* [sirmrmister/catcecilia's Solution (Hard)](https://github.com/catcecilia/google-search-results-page) - [View in Browser](https://catcecilia.github.io/google-search-results-page/)
 * [cboles80's Solution (Easy)](https://github.com/cboles80/google-homepage) - [View in Browser](https://cboles80.github.io/google-homepage/)
 * [DeadFishC's Solution (Easy)](https://github.com/DeadFishC/google-homepage) - [View in Browser](https://deadfishc.github.io/google-homepage/)
 * [StarcallerAmethyst's Solutoin (Easy)](https://github.com/starcalleramethyst/google-2)
