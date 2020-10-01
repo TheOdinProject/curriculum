@@ -235,7 +235,7 @@ For the state in functional components, it is a little bit different. Before the
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Got to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the Lifecycle methods for now, we will discuss it in the upcoming lectures. However, if you are excited and want to learn more, feel free to explore it on your own.
+1. Go to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the Lifecycle methods for now, we will discuss it in the upcoming lectures. However, if you are excited and want to learn more, feel free to explore it on your own.
 2. Go through [these lessons](https://www.geeksforgeeks.org/reactjs-props-set-1/). There are a couple of them linked at the bottom of the page. Go through all of the ones relating to state and props to build a good foundation for the upcoming lectures. Of course, you're welcome to explore more on  your own, if you wish.
 </div>
 

@@ -179,6 +179,23 @@ Installing Ubuntu is where the real changes start happening on your computer. Th
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
 </details>
+
+<details markdown="block">
+<summary class="dropDown-header">Chrome OS/CloudReady
+</summary>
+
+With the recent addition of Linux (Beta), the Chrome OS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
+
+1. You have a [supported Chromebook](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
+2. You can install [Linux (Beta)](https://support.google.com/chromebook/answer/9145439?hl=en)
+
+Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum. 
+
+**Note for CloudReady users**
+
+Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
+
+</details>
   
 **A note to those who are wondering why they're being asked to install an entire new operating system**
 
@@ -189,5 +206,3 @@ The answer to that question is: [well, not that many](https://onezero.medium.com
 One of the biggest features added in Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. Setting up a development environment inside WSL is not beginner friendly, though, which is why The Odin Project chooses **not** to recommend and/or support this approach. All instructions you encounter here will assume you're running either MacOS or Linux. Using WSL with these instructions may cause problems we are not able to help you resolve. 
 
 We do have great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
-
-
