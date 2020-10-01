@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Vishakha's Solution](https://github.com/vishakha1801/Calculator) - [View in Browser](https://vishakha1801.github.io/Calculator/)
 - [Vaibhav's Solution](https://github.com/kumarvaibhav45/Calculator) - [View in Browser](https://codepen.io/kumarvaibhav45/full/QWLgMRQ/)
 - [b-steel's Solution](https://github.com/b-steel/calculator) - [View in Browser](https://b-steel.github.io/calculator/)
 - [FranekB's Solution](https://github.com/FranekB/calculator) - [View in Browser](https://franekb.github.io/calculator/)
