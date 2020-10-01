@@ -277,13 +277,11 @@ my_numbers.reduce { |sum, number| sum + number }
 
 Woah! What?! There's a lot happening here, so let's walk through what it's doing step by step.
 
-The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is zero, so for each step of the iteration, we would have the following:
+The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is the first element in the collection, so for each step of the iteration, we would have the following:
 
- 1. Iteration 0: sum = 0
- 2. Iteration 1: sum = 0 + 5 = 5
- 3. Iteration 2: sum = 5 + 6 = 11
- 4. Iteration 3: sum = 11 + 7 = 18
- 5. Iteration 4: sum = 18 + 8 = 26
+ 1. Iteration 0: sum = 5 + 6 = 11
+ 2. Iteration 1: sum = 11 + 7 = 18
+ 3. Iteration 2: sum = 18 + 8 = 26
 
 We can also set a different initial value for the accumulator by directly passing in a value to the `#reduce` method.
 
