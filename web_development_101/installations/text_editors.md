@@ -17,7 +17,7 @@ As a reminder, if you're using a **virtual machine**, you should install your te
 
 ### Opening VSCode from the Command Line
 
-On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_first_rails_app/`.
+On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
 #### MacOS Users:
 
