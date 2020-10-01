@@ -99,8 +99,8 @@ Your Colorful Code
    - **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.<br/>		
    - **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!	<br/>	
    - **Don't Disappear Right After Asking for Help on Code:** If your posting a question, make sure you have time to stick around and discuss it with those trying to help!<br/>
-    - **Remember the Human:** Behind every usrname there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.<br/> 		
-    - **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.<br/>
+    -  **Remember the Human:** Behind every usrname there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.<br/> 		
+    -  **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.<br/>
    -  **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!<br/>
 
   3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
