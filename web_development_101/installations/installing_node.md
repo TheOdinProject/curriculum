@@ -79,6 +79,6 @@ We need to tell `nvm` which version of Node to use when we run the `node` comman
 nvm use node
 ~~~
 
-Now when you run `node -v` you should see `v11.8.0` or something similar.
+Now when you run `node -v` you should see `v14.10.0` or something similar.
 
 If you see that, you have successfully installed node!

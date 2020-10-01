@@ -24,6 +24,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [andrewjh271's Solution](https://github.com/andrewjh271/blogger) - [View in Browser](https://vast-escarpment-91025.herokuapp.com/)
+* [Spark's Blog Source Code - Soultion](https://github.com/Sparking2/Ruby_blog_app) - [Online app](https://guarded-chamber-08936.herokuapp.com/)
 * [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/blogger)
 * [Witah Georjane's Solution](https://github.com/Georjane/My_Blog_App) - [View in Browser](https://jane-blog.herokuapp.com/)
 * [Tilda Udufo's Solution](https://github.com/TildaDares/blogger) - [View in Browser](https://nameless-earth-65585.herokuapp.com/)
@@ -505,6 +507,8 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Chris H's Solution](https://github.com/CKHarrison/Blog) - [View in Browser](https://blooming-badlands-82585.herokuapp.com/)
 * [clinton wambugu's Solution](https://github.com/kwambugu/Jumpstart-Lab-s-Blogger-Tutorial)
 * [akoenig1's Solution](https://github.com/akoenig1/blog) - [View in Browser](https://radiant-harbor-93584.herokuapp.com/)
+* [agami's Solution](https://github.com/NotAProgrammerdork/rails-blog-app) - [View in Browser](https://bloggersasda.herokuapp.com/)
+* [scotth527's Solution](https://github.com/scotth527/blogger_project) - [View in Browser](https://fathomless-wave-96763.herokuapp.com/articles)
 </details>
 
 ### Additional Resources

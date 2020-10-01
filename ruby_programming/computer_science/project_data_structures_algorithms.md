@@ -60,6 +60,14 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [chala17's Solution](https://github.com/chala17/ruby-projects/blob/master/balanced_search_tree.rb)
+* [teshigahara's Solution](https://github.com/teshigahara/balancedBST)
+* [Omar Al-Masri's solution](https://github.com/Omarmasri-91/balanced_bst)
+* [Lucasdonuts' solution](https://github.com/lucasdonuts/balanced_BST)
+* [AGL9's solution](https://github.com/agl9/binarysearchtree)
+* [Spike's Solution](https://github.com/superspike7/Balanced-BST)
+* [onagova's Solution](https://github.com/onagova/binary-search-trees)
+* [Hans Oliveira's Solution](https://github.com/hansnery/balanced_binary_search_tree/) - [View in repl.it](https://repl.it/@hansnery/knightstravail#main.rb)
 * [christian-ortega's Solution](https://github.com/christian-ortega/binary_search_tree) - [View in repl.it](https://repl.it/@chrisortegax/binarysearchtree#main.rb)
 * [Sanjana's Solution](https://github.com/error34043/ruby-binary-search-tree)
 * [Vinz's Solution](https://github.com/LrdVnz/binary_search-trees)
@@ -268,13 +276,12 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/binary_search_tree.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/bst_2.rb)
 * [JvPelai's Solution](https://github.com/JvPelai/binary-search-trees)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/binary_search_trees)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/exercises/binary_search_trees.rb)
 * [msespos's Solution](https://github.com/msespos/balanced-bst/blob/master/main.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/bst.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/binary_search_tree.rb)
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/bst)
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/bst.rb)
-
 </details>
 
 ### Project 2: Knight's Travails
@@ -321,6 +328,11 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [jding9's Solution](https://github.com/Jding9/knight_moves)
+* [teshigahara's Solution](https://github.com/teshigahara/traveling-knight/blob/master/knights_travel.rb)
+* [AGL9's Solution](https://github.com/agl9/knightmoves)
+* [onagova's Solution](https://github.com/onagova/knights-travails)
+* [Hans Oliveira's Solution](https://github.com/hansnery/knights_travail)
 * [christian-ortega's Solution](https://github.com/christian-ortega/knight_moves) - [View in repl.it](https://repl.it/@chrisortegax/knightmoves#main.rb)
 * [Sanjana's Solution](https://github.com/error34043/ruby-knights-travails) - [View in repl.it](https://repl.it/@error34043/ruby-knights-travails#main.rb)
 * [Bassart94's Solution](https://repl.it/@bassart94/knightmoves#main.rb)
@@ -521,10 +533,10 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/blob/master/data-structures/knight_moves.rb)
 * [Sandy's Solution](https://github.com/kuosandys/top-ruby-assignments/blob/master/knight.rb)
 * [Brent's Solution](https://github.com/brentcam250/knight_moves)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/knight_travails)
 * [Adam's Solution](https://github.com/abohannon/ruby-sandbox/blob/master/projects/knights_travails/lib/knights_travails.rb)
 * [msespos's Solution](https://github.com/msespos/knights-travails)
 * [bhenning83's Solution](https://github.com/bhenning83/binary_search_tree/blob/master/knights_travels.rb)
 * [tim87henry's Solution](https://github.com/tim87henry/ruby_practice/blob/master/knights_travails.rb)
-
+* [Lucas' Solution](https://github.com/Lucas-ODonnell/learnruby/tree/master/knighttravail)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-data-structures/blob/master/lib/knights_travails.rb)
 </details>

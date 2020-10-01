@@ -57,6 +57,9 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [James's Solution](https://github.com/jegrieve/Members-Only)
+* [Haroon Abdulrazaq's Solution](https://github.com/Haroonabdulrazaq/members-only)
+* [Tilda Udufo's Solution](https://github.com/TildaDares/members-only) - [View in Browser](https://infinite-eyrie-03989.herokuapp.com/)
 * [Kfollen93's Solution](https://github.com/Kfollen93/members-only)
 * [Darren's Solution](https://github.com/DarrenLo0530/exclusive-chat)
 * [Mikey Esteban's Solution](https://github.com/Mikey-Esteban/members-only) - [View in Browser](https://enigmatic-shelf-87497.herokuapp.com/)
@@ -194,6 +197,7 @@ Send us your solution by editing this [file](https://github.com/TheOdinProject/c
 * [Christian Páez's Solutions](https://github.com/christian1894/odin-project-members-only) - [View in Browser](https://members-only-ruby-on-rails.herokuapp.com/)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/members-only)
 * [clinton wambugu's Solution](https://github.com/kwambugu/members-only)
+* [bhenning83's Solution](https://github.com/bhenning83/members-only)
 </details>
 
 ### Additional Resources
