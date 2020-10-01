@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [herr-litschka's Solution (Easy)](https://github.com/herr-litschka/google-homepage) - [View in Browser](https://herr-litschka.github.io/google-homepage/)
 * [Vishakha's Solution(Easy)](https://github.com/vishakha1801/google-homepage) - [View in Browser](https://vishakha1801.github.io/google-homepage/)
 * [lunar-cat Solution (Easy and Difficult)](https://github.com/lunar-cat/google-webtest) - [View in Browser](https://lunar-cat.github.io/google-webtest/)
 * [Jaresj's Solution (Easy)](https://github.com/jaresj/google-homepage) - [View in Browser](https://github.com/jaresj/google-homepage.git)
