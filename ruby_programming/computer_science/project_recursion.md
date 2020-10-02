@@ -596,6 +596,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-recursion/blob/master/lib/mergesort.rb)
 * [Taras's Solution](https://github.com/tiris08/merge_sort_ruby_odin/blob/master/merge_sort_taras.rb)
 * [Feseka's Solution](https://repl.it/@feseka/mergesort#main.rb)
+* [DM-Murphy's Solution](https://github.com/dm-murphy/merge-sort)
 
 </details>
 
