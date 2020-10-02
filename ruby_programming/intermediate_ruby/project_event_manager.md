@@ -46,7 +46,7 @@ file within the 'lib' directory.
 
 Ruby source file names are often times written all in lower-case characters and
 instead of camel-casing multiple words together they are instead separated by an
-underscore (often called *snake-case*).
+underscore (often called *snake_case*).
 
 Open `lib/event_manager.rb` in your text editor and add the line:
 

@@ -1,5 +1,5 @@
 ### Introduction
-In previous lessons, you learned about loops as well as arrays and hashes. You will soon discover that you'll have to do so much iterating (looping or repeating something several times) over collections as a developer that it will make you dizzy.
+In previous lessons, you learned about loops as well as arrays and hashes. You will soon discover that you'll have to do so much iterating (looping or repeating something several times) over collections as a developer that it will make you dizzy. Remember the **DRY (Don't Repeat Yourself)** approach to programming that we talked about in the lesson on Methods? Well, Ruby keeps iterating DRY through something called enumerables.
 
 **Enumerables** are a set of convenient built-in methods in Ruby that are included as part of both arrays and hashes. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
@@ -277,13 +277,11 @@ my_numbers.reduce { |sum, number| sum + number }
 
 Woah! What?! There's a lot happening here, so let's walk through what it's doing step by step.
 
-The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is zero, so for each step of the iteration, we would have the following:
+The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is the first element in the collection, so for each step of the iteration, we would have the following:
 
- 1. Iteration 0: sum = 0
- 2. Iteration 1: sum = 0 + 5 = 5
- 3. Iteration 2: sum = 5 + 6 = 11
- 4. Iteration 3: sum = 11 + 7 = 18
- 5. Iteration 4: sum = 18 + 8 = 26
+ 1. Iteration 0: sum = 5 + 6 = 11
+ 2. Iteration 1: sum = 11 + 7 = 18
+ 3. Iteration 2: sum = 18 + 8 = 26
 
 We can also set a different initial value for the accumulator by directly passing in a value to the `#reduce` method.
 
@@ -428,7 +426,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
-* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.7.1/Enumerable.html).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
