@@ -95,6 +95,7 @@ Submit a pull request with a link to your solution in this [file](https://github
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Ambydus's Solution(Easy)](https://github.com/ambydau/google-homepage) - [View in Browser](https://ambydau.github.io/google-homepage/)
 * [Zamkamec's Solution(Easy)](https://github.com/zamkamec/google-homepage) - [View in Browser](https://zamkamec.github.io/google-homepage/)
 * [Zamkamec's Solution(Difficult)](https://github.com/zamkamec/google-search-results-page) - [View in Browser](https://zamkamec.github.io/google-search-results-page/)
 * [herr-litschka's Solution (Easy)](https://github.com/herr-litschka/google-homepage) - [View in Browser](https://herr-litschka.github.io/google-homepage/)
@@ -4368,6 +4369,7 @@ Submit a pull request with a link to your solution in this [file](https://github
 * [Ananda's Solution (Easy)](https://github.com/anandawira/google-homepage) - [View in Browser](https://anandawira.github.io/google-homepage/)
 * [Bisrat's Solution (Easy)](https://github.com/Bisrat-Aregawi/project_html-css) -[View in Browser](https://bisrat-aregawi.github.io/project_html-css/)
 * [Stu's Solution (Easy)](https://github.com/stupender/google-homepage) - [View in Browser](http://stupender.github.io/google-homepage/)
+* [Jay's Solution (Easy)](https://github.com/Jay-Chheda/google-clone) - [View in Browser](https://jay-chheda.github.io/google-clone/)
 
 </details>
 
