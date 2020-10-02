@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Bubblemonkey-blip's Solution](https://github.com/BubbleMonkey-blip/Calculator) - [View in Browser](https://bubblemonkey-blip.github.io/Calculator)
 - [jtcaovan's Solution](https://github.com/jtcaovan/Calculator) - [View in Browser](https://jtcaovan.github.io/Calculator/)
 - [Vishakha's Solution](https://github.com/vishakha1801/Calculator) - [View in Browser](https://vishakha1801.github.io/Calculator/)
 - [Vaibhav's Solution](https://github.com/kumarvaibhav45/Calculator) - [View in Browser](https://codepen.io/kumarvaibhav45/full/QWLgMRQ/)
