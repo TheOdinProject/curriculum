@@ -17,7 +17,7 @@ Your motivation could be a combination of these reasons or something else entire
 
 To give your motivation a bit of a boost, you can read about the success of others:
 
-* [A woman who taught herself enough to land a job in 5 months](http://newcodegirl.blogspot.co.uk)
+* [A woman who taught herself enough to land a job in 5 months](https://newcodegirl.blogspot.com/)
 * [A 32 year old who taught himself programming using The Odin Project over a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
 
 
