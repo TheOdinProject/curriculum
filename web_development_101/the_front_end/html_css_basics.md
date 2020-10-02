@@ -45,4 +45,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
 * [Learn CSS Layout](http://learnlayout.com/)
 * [CSS Flexbox](https://flexbox.io/) and [CSS Grid](https://cssgrid.io/)
-* These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you!
+    * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
