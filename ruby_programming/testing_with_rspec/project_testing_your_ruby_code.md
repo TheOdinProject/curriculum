@@ -147,6 +147,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * Johnny's Solutions: [Caesar Cipher](https://github.com/NotAProgrammerdork/Ruby/tree/master/caesar_cipher_spec), [TicTacToe](https://github.com/NotAProgrammerdork/Ruby/tree/master/tictactoe_spec)
 * msespos's Solutions: [Caesar Cipher](https://github.com/msespos/caesar), [Tic-Tac-Toe](https://github.com/msespos/tic-tac-toe)
 * tim87henry's Solution: [Caesar Cipher](https://github.com/tim87henry/ruby_practice), [Tic-Tac-Toe](https://github.com/tim87henry/tic_tac_toe)
+* Jacobus's Solutions: [Caesar Cipher](https://github.com/Jacobus-afk/ruby-caesar/tree/master/spec), [Tic-Tac-Toe](https://github.com/Jacobus-afk/ruby-oops/tree/master/spec)
 </details>
 
 ### Project: TDD Connect Four
