@@ -33,6 +33,20 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Arthur Tripp's Solution](https://github.com/arthurktripp/ruby_practice/blob/master/caesar_cipher/caesar.rb)
+* [DaltonR121's Solution](https://github.com/DaltonR121/cipher/blob/master/cipher.rb)
+* [adamperrry's Solution](https://github.com/adamperrry/caesar_cipher_ruby/blob/master/caesar_cipher.rb)
+* [Pio Alonday's Solution](https://github.com/shalonday/caesar_cipher)
+* [juanpa89's Solution](https://github.com/juanpa89/CaesarCipher/blob/master/script.rb)
+* [anth-dev's Solution](https://github.com/anth-dev/ruby-practice/blob/master/top/basic-ruby-projects/caesar_cipher.rb)
+* [mittalrohit0598's Solution](https://github.com/mittalrohit0598/caesar_cipher/blob/master/caesar_cipher.rb)
+* [bensbread120's Solution](https://github.com/bensbread120/caeser_cipher_ruby.git)
+* [rkuang's Solution](https://gist.github.com/rkuang/8247ec55fbe8de3d83164519c459190e)
+* [Lord Arthcur's Solution](https://github.com/lord-artchur/ruby_caesar_cipher/blob/master/caesercipher.rb) 
+* [teshigahara's Solution](https://github.com/teshigahara/caesar_cipher/blob/master/caesar-cipher.rb)
+* [laurpop99's Solution](https://github.com/laurpop99/caesar_cipher_ruby)
+* [berubenic's Solution](https://github.com/berubenic/ruby_basic_projects)
+* [invaderace's Solution](https://github.com/invaderace/caesar_cipher)
 * [isaacrez's Solution](https://github.com/isaacrez/CaesarCipher/blob/master/caesar.rb)
 * [Necrojan's Solution](https://github.com/necrojan/the_odin/blob/master/ruby/caeser_cipher.rb)
 * [adam-goodrich's Solution](https://github.com/adam-goodrich/ceasar_cipher/blob/master/caesar_cipher.rb)
@@ -66,7 +80,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [mrbuddh4's Solution](https://github.com/mrbuddh4/caesar-cipher/blob/master/script.rb)
 * [Cameron Proulx's Solution](https://github.com/FrostbiteDragon/ruby/blob/master/caesar_cipher.rb)
 * [Aaron Hong's Solution](https://github.com/aaronjghong/caesar-cipher/blob/master/caesar-cipher.rb)
-* [onagova's Solution](https://github.com/onagova/basic-ruby-projects/blob/master/caesar-cipher.rb)
+* [onagova's Solution](https://github.com/onagova/basic-ruby-projects/blob/master/lib/caesar-cipher.rb)
 * [MiDDiz's Solution](https://github.com/MiDDiz/OdinRuby/blob/master/cypher.rb)
 * [frosmaker392's Solution](https://github.com/frosmaker392/top-rb-caesar)
 * [descholar's Solution](https://github.com/descholar-ceo/caesar-cipher/blob/develop/cipher.rb)
@@ -652,7 +666,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [shanedgilbert's Solution](https://github.com/shanedgilbert/Ruby-Methods/blob/master/cipher.rb)
 * [bhenning83's Solution](https://github.com/bhenning83/caesar_cipher/blob/master/caesar_cipher.rb)
 * [satchelsmidt's Solution](https://github.com/satchelsmidt/Odin_Project_Ruby/blob/master/01_caeser.rb)
-* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-caesar/blob/master/caesar.rb)
+* [Jacobus's Solution](https://github.com/Jacobus-afk/ruby-caesar/blob/master/lib/caesar.rb)
 * [automatyzowany's Solution](https://github.com/automatyzowany/rubyexercises/blob/master/basic/caesar_cipher.rb)
 * [DM-Murphy's Solution](https://github.com/dm-murphy/basic-ruby-projects/tree/master/caesar-cipher)
 * [sforber's Solution](https://github.com/sforber/ruby-caesar-cipher)
@@ -666,6 +680,12 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
 * [sal's Solution](https://github.com/Sal-theSadmanShark/RUBY_exercises/blob/master/caesar_cipher/main.rb)
 * [AlmirBunjaku's Solution](https://github.com/AlmirBunjaku/CaesarCipherRB/blob/master/caesar_cipher.rb)
 * [Claudia's Solution](https://github.com/isbananas/caesar_cipher.rb) 
-
-
+* [Sean's Solution](https://github.com/seanmr7/Caesar-Cipher/blob/master/caesar_cipher.rb)
+* [MiniEngineer's Solution](https://github.com/miniengineer/ruby_programming/blob/master/caesar_cipher.rb)
+* [Gandolfthewise's Solution](https://github.com/gandolfthewise/caesar_cipher/blob/master/caesar_cipher.rb)
+* [odinkid424's Solution](https://github.com/cvillere/caesar_cipher_ruby/blob/master/final_draft.rb)
+* [Fusako's Solution](https://github.com/fusakoo/caesar-cipher/blob/master/caesar-cipher.rb)
+* [NicoMunoz909's Solution](https://github.com/NicoMunoz909/basic_ruby_projects/blob/master/caesar_cipher.rb)
+* [Peuchen's Solution](https://github.com/Peuchen/caesar-cipher/blob/master/caesar-cipher.rb)
+* [Daniel88Hus's Solution](https://github.com/Daniel88Hus/project_caesar_cipher/blob/master/caesar_cipher.rb)
 </details>
