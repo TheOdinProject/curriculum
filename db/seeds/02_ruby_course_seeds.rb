@@ -265,11 +265,11 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: 'Intermediate Ruby',
-  title_url: 'Intermediate Ruby'.parameterize,
+  title: 'Object Oriented Programming Basics',
+  title_url: 'Object Oriented Programming Basics'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "You've got tools in your Ruby tool box and now it's time to combine them into more meaningful programs.  In this section, you'll learn how to turn your spaghetti code into properly organized methods and classes.  You'll also learn how to serialize code and save it into files."
+  description: "You've got tools in your Ruby tool box and now it's time to combine them into more meaningful programs. In this section, you'll learn how to turn your spaghetti code into properly organized methods and classes."
 )
 
 lesson_position += 1
@@ -280,20 +280,45 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/ruby_programming/intermediate_ruby/lesson_oop.md',
+  url: '/ruby_programming/object_oriented_programming_basics/lesson_oop.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'OOP',
-  title_url: 'OOP'.parameterize,
-  description: "It's time to flex those new muscles a bit by building Tic Tac Toe and Mastermind on the command line",
+  title: 'Tic Tac Toe',
+  title_url: 'Tic Tac Toe'.parameterize,
+  description: "It's time to flex those new muscles a bit by building Tic Tac Toe",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: '/ruby_programming/intermediate_ruby/project_oop.md',
+  url: '/ruby_programming/object_oriented_programming_basics/project_tic_tac_toe.md',
   repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Mastermind',
+  title_url: 'Mastermind'.parameterize,
+  description: 'In this project you will build the classic code breaking game Mastermind',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: '/ruby_programming/object_oriented_programming_basics/project_mastermind.md',
+  repo: 'curriculum'
+)
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: 'Files and Serialization',
+  title_url: 'Files and Serialization'.parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section you'll take your Ruby skills to the next level by discovering how to serialize code and save it into files."
 )
 
 lesson_position += 1
@@ -304,7 +329,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/ruby_programming/intermediate_ruby/lesson_serialization.md',
+  url: '/ruby_programming/files_and_serialization/lesson_serialization.md',
   repo: 'curriculum'
 )
 
@@ -316,7 +341,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: '/ruby_programming/intermediate_ruby/project_event_manager.md',
+  url: '/ruby_programming/files_and_serialization/project_event_manager.md',
   repo: 'curriculum'
 )
 
@@ -328,7 +353,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: '/ruby_programming/intermediate_ruby/project_file_io.md',
+  url: '/ruby_programming/files_and_serialization/project_file_io.md',
   repo: 'curriculum'
 )
 
