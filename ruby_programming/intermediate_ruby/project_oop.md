@@ -19,6 +19,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gandolfthewise's Solution](https://github.com/gandolfthewise/Tic_Tac_Toe/blob/main/tic_tac_game.rb)
 * [jnjensen's Solution](https://github.com/jnjensen/Ruby_Tic_Tac_Toe/blob/master/TicTacToe.rb) - [View in repl.it](https://repl.it/@jnjensen/TicTacToe#main.rb)
 * [CHANG-CHING-CHUNG's Solution](https://github.com/CHANG-CHING-CHUNG/Tic-Tac-Toe/blob/master/tictactoe.rb) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/TOP-Tic-Tac-Toe#main.rb)
 * [descholar's Solution](https://github.com/descholar-ceo/tic-tac-toe-1) - [View in repl.it](https://repl.it/@CHANGCHINGCHUNG/TOP-Tic-Tac-Toe)
@@ -433,6 +434,7 @@ Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/
   <summary> Show Student Solutions </summary>
 
 * Add your solution below this line!
+* [Gandolfthewise's Solution](https://github.com/gandolfthewise/mastermind/blob/master/mastermind.rb)
 * [cbpolley's Solution](https://github.com/cbpolley/rubyTest/blob/master/mastermind.rb) - [View in repl.it](https://repl.it/@cbpolley/mastermind#main.rb)
 * [gogvale's Solution](https://github.com/gogvale/RubyCode/blob/master/mastermind.rb) - [View in repl.it](https://mastermind.gogvale.repl.run/)
 * [risanto's Solution](https://github.com/risanto/ruby-programming/blob/master/7_mastermind.rb) - [View in repl.it](https://repl.it/@Risanto/mastermind#main.rb)
