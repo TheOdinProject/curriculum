@@ -432,13 +432,25 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Data Structures and Algorithms',
-  title_url: 'Data Structures and Algorithms'.parameterize,
-  description: "If you're scratching your head a bit on how to apply algorithmic thinking, here's a couple of exercises that let you use the tools you've just developed.  This should also be helpful when thinking about Final Projects... hint hint...",
+  title: 'Binary Search Trees',
+  title_url: 'Binary Search Trees'.parameterize,
+  description: "In this project you'll get your hands dirty with one of the most common computer science problems, searching binary trees.",
   position: lesson_position,
   section_id: section.id,
   is_project: true,
-  url: '/ruby_programming/computer_science/project_data_structures_algorithms.md',
+  url: '/ruby_programming/computer_science/project_binary_search_trees.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Knights Travails',
+  title_url: 'Knights Travails'.parameterize,
+  description: 'Lets build Knights Travails',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: '/ruby_programming/computer_science/project_knights_travails.md',
   repo: 'curriculum'
 )
 
