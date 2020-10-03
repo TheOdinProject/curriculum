@@ -10,7 +10,7 @@ All the possible places you can end up after one move look like this:
 
 <img src="https://i.imgur.com/mHQqH08.gif">
 
-### Assignment 2
+### Assignment
 Your task is to build a function `knight_moves` that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
