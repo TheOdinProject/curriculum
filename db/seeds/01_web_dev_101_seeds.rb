@@ -408,8 +408,11 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/web_development_101/javascript_basics/project_etch_a_sketch.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
+
 lesson_position += 1
 create_or_update_lesson(
   title: 'Fundamentals Part 5',
