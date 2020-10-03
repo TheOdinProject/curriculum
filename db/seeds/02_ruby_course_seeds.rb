@@ -220,7 +220,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/caesar_cipher.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -232,7 +234,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/sub_strings.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -244,7 +248,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/stock_picker.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -256,7 +262,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/bubble_sort.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 # +++++++++++
@@ -293,7 +301,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/object_oriented_programming_basics/project_tic_tac_toe.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
@@ -305,7 +315,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/object_oriented_programming_basics/project_mastermind.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 # +++++++++++
@@ -342,7 +354,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/files_and_serialization/project_event_manager.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: false,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -354,7 +368,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/files_and_serialization/project_file_io.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 # +++++++++++
@@ -403,7 +419,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/computer_science/project_recursion.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -427,7 +445,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/computer_science/project_linked_lists.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -439,7 +459,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/computer_science/project_binary_search_trees.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 lesson_position += 1
@@ -451,7 +473,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/computer_science/project_knights_travails.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: false
 )
 
 # +++++++++++
@@ -500,7 +524,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 # +++++++++++
@@ -562,7 +588,9 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/ruby_programming/conclusion/project_ruby_final.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
