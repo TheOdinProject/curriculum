@@ -95,7 +95,7 @@ Your Colorful Code
 
   2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). The primary use of the forum is to seek help within the community. We used to encourage introductions on there so you may see a lot of old introduction posts when you login for the first time but that meant a lot of questions for help got buried and went unanswered. We encourage introductions in the chat rooms and both the chat rooms and forum be used when seeking help. In a moment we're going to ask you to join the discord community, here are some guidelines before you dive in: 
   
-  * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
+   * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
    * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
    * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
    * **Don't Disappear Right After Asking for Help on Code:** If your posting a question, make sure you have time to stick around and discuss it with those trying to help!
