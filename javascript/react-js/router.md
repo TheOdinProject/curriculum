@@ -37,9 +37,9 @@ export default App;
 ~~~
 
 Once you have this, install the package. Open a terminal and run `npm i react-router-dom`. This is going to install all the dependencies for us.
-While this is happening we can already create a new file called `Routes.js`, which is going to be the file that handles all of our routes.
+While this is happening, we can create a new file called `Routes.js`, which is going to be the file that handles all of our routes.
 
-Once the package is finished installing, you can add this code to your Routes.js file.
+Once the package is finished installing, you can add this code to your Routes.js file:
 
 ~~~javascript
 import React from "react";
@@ -61,7 +61,7 @@ const Routes = () => {
 export default Routes;
 ~~~
 
-So what is happening here? First we are importing React, our two components; Profile and App, as well as a couple of things from the package we just installed.
+So what is happening here? First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
 
 1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
 
@@ -69,7 +69,7 @@ So what is happening here? First we are importing React, our two components; Pro
 
 3. **Switch**: Renders the first child Route that matches the location. In other words, the `Switch` component is going to look through all your Routes and checks their path. The first Route, who's path matches the url will be rendered; all others will be ignored. Important to note is that in our above example, both routes; the homepage ("/") as well as the profile route ("/profile") contain, at first, a / in their path. This means that when you go to "/profile" you will see the App component render, as it is the first path that matches the url. Our profile route gets ignored because it is second place. Therefore, our Profile component never gets rendered.
 
-Let us check this behavior in the Browser for better understanding. However, before we can do that we have to do one more thing. We have to change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our applications runs. Instead, we want our `Routes.js` to be the first. Your `index.js` should look something like this:
+Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `Routes.js` to be the first. Your `index.js` should look something like this:
 
 ~~~javascript
 import React from "react";
@@ -84,14 +84,14 @@ ReactDOM.render(
 );
 ~~~
 
-Once this is done, go ahead and run `npm start` and then check out both routes; the home route "/" and the profile route "/profile".
+Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile".
 In both cases, the "Hello from App" from our App component is displayed.
 
-Now there are two solutions to this problem.
+There are two solutions to this problem.
 
-1. Order your Routes by specificity from top to bottom. Change the order of your two Routes, so that you have the Route with the path equal to "/profile" on top of the homepage. If you check it out in the browser now, you should see the App component on the home route and the Profile component on the "/profile" route. The problem with this solution is that it might take a lot of work sorting them once your application has a lot of routes.
+1. Order your Routes by specificity from top to bottom. Change the order of your two routes so that you have the route with the path equal to "/profile" on top of the homepage. If you check it out in the browser now, you should see the App component on the home route and the Profile component on the "/profile" route. The problem with this solution is that it might take a lot of work sorting them once your application has several routes.
 
-2. Add the `exact` keyword to your routes. So make them look like this:
+2. Add the `exact` keyword to your routes, like so:
 
 ~~~javascript
 <Route exact path="/" component={App} />
@@ -99,20 +99,19 @@ Now there are two solutions to this problem.
 
 ~~~
 
-As you can see, this also works. The exact keyword just specifies that the routes path has to match exactly the URL path.
+The exact keyword specifies that the routes path has to match the URL path exactly, as opposed to finding the first character (or string of characters) in the routes list that matches the URL path.
 
-Now you should have enough basics to get started with React routing. There are a lot more features to react-router-dom, which are extremely useful, but out of the scope of this lesson. Just naming two, the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
+You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Go and add a few new routes to the application we created above, playing around with it is the best practice. Maybe delete it completely and rewrite it.
-2. Browse a little bit through their [documentation](https://reacttraining.com/react-router/web/guides/quick-start). You don't need to read through all of it, neither understand all of it. Just browse through the concepts we discussed here and re-read them. I'm mentioning it here, because it's a great ressource to refere back to.
+1. Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
+2. Browse a little bit through the React Router [documentation](https://reacttraining.com/react-router/web/guides/quick-start). You don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. This is a great resource to refer back to.
 3. Watch [this](https://www.youtube.com/watch?v=Law7wfdg_ls&t=850s) video for reviewing. You should be already familiar with those concepts.
 </div>
 
 ### Additional Resources
 
-Have an additional resource that helped you with this lesson?
-
-You can edit the [lesson file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/react-js/router.md) and create a pull request to have one added!
+- [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
+- For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
