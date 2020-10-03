@@ -4,7 +4,7 @@ You have learned about [binary search trees](http://en.wikipedia.org/wiki/Binary
 
 Now, let's take a look at balanced binary search trees (BST). Read [this article](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) and watch [this video](https://youtu.be/VCTP81Ij-EM) to understand the basic algorithm used to build a balanced BST. Although these two resources do not use Ruby, you should understand it enough to develop your own pseudocode.
 
-### Assignment 1
+### Assignment
 You'll build a balanced BST in this assignment. Do not use duplicate values because they make it more complicated and result in trees that are much harder to balance. Therefore, be sure to always remove duplicate values or check for an existing value before inserting.
 
 <div class="lesson-content__panel" markdown="1">
