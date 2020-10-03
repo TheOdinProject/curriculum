@@ -38,7 +38,7 @@ Let's say that for *whatever* reason, we need to write a method that takes a str
 ~~~ruby
 def double_words_in_phrase(string)
   string_array = string.split(' ')
-  string_array.map { |word| word * 2}
+  string_array.map { |word| word * 2 }
   string_array.join(' ')
 end
 
@@ -54,7 +54,7 @@ We know that `string_array.join(' ')` returns `"This is a test"` since it's the 
 ~~~ruby
 irb(main):001:0> def double_words_in_phrase(string)
 irb(main):002:1>   string_array = string.split(' ')
-irb(main):003:1>   string_array.map { |word| word * 2}
+irb(main):003:1>   string_array.map { |word| word * 2 }
 irb(main):004:1>
 irb(main):005:1>   p string_array
 irb(main):006:1>
@@ -75,7 +75,7 @@ irb(main):002:1>   string_array = string.split(' ')
 irb(main):003:1>
 irb(main):004:1>   p string_array
 irb(main):005:1>
-irb(main):006:1>   string_array.map { |word| word * 2}
+irb(main):006:1>   string_array.map { |word| word * 2 }
 irb(main):007:1>   p string_array
 irb(main):008:1>   string_array.join(' ')
 irb(main):009:1> end
@@ -118,7 +118,7 @@ def double_words_in_phrase(string)
 
   binding.pry
 
-  string_array.map { |word| word * 2}
+  string_array.map { |word| word * 2 }
   string_array.join(' ')
 end
 
