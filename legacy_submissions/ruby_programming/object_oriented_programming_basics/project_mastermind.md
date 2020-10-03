@@ -1,3 +1,4 @@
+* [mittalrohit0598's Solution](https://github.com/mittalrohit0598/mastermind) - [View in repl.it](https://repl.it/@mittalrohit0598/mastermind)
 * [NicolasArayaB's Solution](https://github.com/NicolasArayaB/mastermind) - [View in repl.it](https://repl.it/@NicolasArayaB/mastermind#settings.rb)
 * [rkuang's Solution](https://github.com/rkuang/ruby-mastermind) - [View in repl.it](https://repl.it/@rkuang/ruby-mastermind)
 * [berubenic's Solution](https://github.com/berubenic/Mastermind) - [View in repl.it](https://repl.it/@NicholasBerube/MasterMind#main.rb)
