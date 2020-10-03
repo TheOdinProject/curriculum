@@ -66,7 +66,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [Version Control Best Practices](http://www.git-tower.com/learn/ebook/command-line/appendix/best-practices#start) from Tower.
+  1. Read [Version Control Best Practices](https://www.git-tower.com/blog/version-control-best-practices/) from Tower.
   2. Skim Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).  Don't worry too much about the commands you haven't seen yet; just work on the high level concepts.
   3. Read through this great resource to get a solid understanding of [how git works](http://think-like-a-git.net/)
 </div>
