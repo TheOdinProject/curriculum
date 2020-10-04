@@ -44,7 +44,7 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 
 ### Practice
 
-To give you a good bit of pracitce, we have created some repl.it exercises for you to play with. We believe that it's best to practice programming on your _own_ computer, rather than in an online enviornment, but we'll get to that soon enough.
+To give you a good bit of practice, we have created some repl.it exercises for you to play with. We believe that it's best to practice programming on your _own_ computer, rather than in an online enviornment, but we'll get to that soon enough.
 
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extinsively.
 
