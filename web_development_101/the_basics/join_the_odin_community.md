@@ -25,7 +25,7 @@ If these methods don't yield a solution for you, then it's time to reach out to 
 
 ### Asking for help
 
-So you've spent some time struggling to solve the problem on your own, and now it's time to fire up the Odin Discord and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier to others to feel comfortable offering you help.
+So you've spent some time struggling to solve the problem on your own, and now it's time to fire up the Odin Discord and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this is a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier to others to feel comfortable offering you help.
 
 In addition, when you ask your questions, you should help the community help you by putting together a great question.
 
@@ -99,7 +99,7 @@ Your Colorful Code
    * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
    * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
    * **Don't Disappear Right After Asking for Help on Code:** If your posting a question, make sure you have time to stick around and discuss it with those trying to help!
-   * **Remember the Human:** Behind every usrname there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
+   * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
    * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
    * **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
 
