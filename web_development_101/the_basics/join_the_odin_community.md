@@ -25,7 +25,7 @@ If these methods don't yield a solution for you, then it's time to reach out to 
 
 ### Asking for help
 
-So you've spent some time struggling to solve the problem on your own, and now it's time to fire up the Odin Discord and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier to others to feel comfortable offering you help.
+So you've spent some time struggling to solve the problem on your own, and now it's time to fire up the Odin Discord and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this is a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier to others to feel comfortable offering you help.
 
 In addition, when you ask your questions, you should help the community help you by putting together a great question.
 
@@ -92,7 +92,17 @@ Your Colorful Code
 <div class="lesson-content__panel" markdown="1">
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
-  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). The primary use of the forum is to seek help within the community. We used to encourage introductions on there so you may see a lot of old introduction posts when you login for the first time but that meant a lot of questions for help got buried and went unanswered. We encourage introductions in the chat rooms and both the chat rooms and forum be used when seeking help.
+
+  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). The primary use of the forum is to seek help within the community. We used to encourage introductions on there so you may see a lot of old introduction posts when you login for the first time but that meant a lot of questions for help got buried and went unanswered. We encourage introductions in the chat rooms and both the chat rooms and forum be used when seeking help. In a moment we're going to ask you to join the discord community, here are some guidelines before you dive in: 
+  
+   * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
+   * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
+   * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
+   * **Don't Disappear Right After Asking for Help on Code:** If your posting a question, make sure you have time to stick around and discuss it with those trying to help!
+   * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
+   * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
+   * **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
+
   3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
 </div>
