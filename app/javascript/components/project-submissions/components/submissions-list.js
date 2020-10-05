@@ -8,21 +8,25 @@ const noop = () => {};
 
 const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDashboardView }) => {
   const { allSubmissionsPath, legacySubmissionsUrl } = useContext(ProjectSubmissionContext);
-  console.log("submissions", allSubmissionsPath)
+  const hasSubmissions = submissions.length > 0;
+
   return (
     <div>
-      <div>
-        {submissions.map(submission => (
-          <Submission
-            key={submission.id}
-            submission={submission}
-            handleUpdate={handleUpdate}
-            onFlag={onFlag}
-            handleDelete={handleDelete}
-            isDashboardView={isDashboardView}
-          />
-        ))}
-      </div>
+        { hasSubmissions
+          ? <div>
+              {submissions.map(submission => (
+                <Submission
+                  key={submission.id}
+                  submission={submission}
+                  handleUpdate={handleUpdate}
+                  onFlag={onFlag}
+                  handleDelete={handleDelete}
+                  isDashboardView={isDashboardView}
+                />
+              ))}
+            </div>
+          : <h2 className='submissions__blank-slate'>No Submissions yet, be the first!</h2>
+        }
 
       { allSubmissionsPath &&
         <p className='submissions__view-more'>
