@@ -31,6 +31,7 @@ By the end of this lesson, you should be able to do the following:
 - Use the command line to navigate directories and display directory contents.
 - Use the command line to create a new directory and a new file.
 - Use the command line to rename or destroy a directory and a file.
+- Use the command line to open a file or folder in a program.
 
 ### Assignment
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot, a virtual machine, or Windows Subsystem for Linux. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/web-development-101/lessons/prerequisites).
@@ -54,6 +55,22 @@ But once you've typed in a little bit more, it will complete the name for you, m
 
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. This shortcut is also commonly used with Git (which is covered in detail later on) with commands like `git add .` to add all of the files inside of a directory into Git's staging area.
 
+#### Opening VSCode from the Command Line
+
+On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
+
+##### MacOS Users:
+
+MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+
+**Regarding Security Warning:**
+
+A message may show, warning the user that VSCode is not trusted software. This is an expected message. VSCode can be trusted, therefore it is safe to ignore this warning.
+
+##### WSL Users:
+
+Although you just installed Ubuntu on your computer, you should still install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor, and WSL will be able to read these files. If you are using VSCode, be sure to install the *"Remote - WSL"* extension when prompted. This extension will allow you to directly access your Linux files. Once installed, select the green icon in the lower left corner to connect to WSL.
+
 ### Exercise
 In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
@@ -61,9 +78,11 @@ In this exercise, you will practice creating files and directories and deleting 
   1. Create a new directory in your home directory with the name `test`.
   2. Navigate to the `test` directory.
   3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-  4. Navigate back out of the `test` directory.
-  5. Delete the `test` directory.
+  4. Open your newly created file in VSCode and make some changes, save the file, and close it.
+  5. Navigate back out of the `test` directory.
+  6. Delete the `test` directory.
 </div>
+
 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 

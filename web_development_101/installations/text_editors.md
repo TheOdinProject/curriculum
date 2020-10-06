@@ -15,22 +15,6 @@ Which editor you use is generally a matter of preference, but for the purposes o
 
 As a reminder, if you're using a **virtual machine**, you should install your text editor of choice **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but you'll want to be sure that you have this critical tool inside your VM.
 
-### Opening VSCode from the Command Line
-
-On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
-
-#### MacOS Users:
-
-MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
-
-##### Regarding Security Warning:
-
-A message may show, warning the user that VSCode is not trusted software. This is an expected message. VSCode can be trusted, therefore it is safe to ignore this warning.
-
-#### WSL Users:
-
-Although you just installed Ubuntu on your computer, you should still install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor, and WSL will be able to read these files. If you are using VSCode, be sure to install the *"Remote - WSL"* extension when prompted. This extension will allow you to directly access your Linux files. Once installed, select the green icon in the lower left corner to connect to WSL.
-
 ### Additional Set Up: Live Server Extension for VSCode
 
 An extension is a program that is meant to enhance your experience by modifying the capabilities of a software. 
