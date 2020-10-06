@@ -86,7 +86,7 @@
     cursor: pointer;
 
     @include media-breakpoint-down(sm) {
-      position: absolute;
+      position: absolute !important;
       top: 5px;
       right: 0;
     }
