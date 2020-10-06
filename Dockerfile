@@ -5,21 +5,20 @@
 #
 
 FROM ruby:2.6-buster
-MAINTAINER Andy Duss <mindovermiles262@gmail.com>
+LABEL maintainer="Andy Duss <mindovermiles262@gmail.com>"
 
 RUN apt-get -qq update && \
   apt-get -qq install -y nodejs vim
 
-ENV RAILS_ENV=docker
-ADD . /rails
 WORKDIR /rails
+COPY bin bin
+COPY Gemfile* ./
 RUN bin/bundle install
 
-
-RUN bin/rails db:create && \
-    bin/rails db:migrate && \
-    bin/rails db:seed
+ENV RAILS_ENV=docker
+COPY . .
 
 EXPOSE 3000
-CMD bin/rails server
+CMD ["entrypoint.sh"]
+
 
