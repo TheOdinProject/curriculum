@@ -7,7 +7,7 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 <div class="lesson-content__panel" markdown="1">
 
 1.   Use `express-generator` to set up a basic project using whichever templating language you prefer. If you prefer you can set it all up manually -- it doesn't really take that much longer.
-2.   We are going to have 2 routes, the index (`"/"`) and a new-message form (`"/new"`). The generator already created a router for our index so find that file and open it up.  It can be found at `routes/index.js`. There is already an router.get for `"/"` that should be rendering your index view, so lets add some messages to it.
+2.   We are going to have 2 routes, the index (`"/"`) and a new-message form (`"/new"`). The generator already created a router for our index so find that file and open it up.  It can be found at `routes/index.js`. There is already a router.get for `"/"` that should be rendering your index view, so lets add some messages to it.
 3.   Create an array at the top of your index router called `messages` and put a couple of sample messages inside of it like this:
 
      ~~~javascript
