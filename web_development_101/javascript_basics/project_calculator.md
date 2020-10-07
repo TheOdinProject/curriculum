@@ -45,6 +45,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
+- [Cendevs' Solution](https://github.com/Cendevs/calculator) - [View in Browser](https://cendevs.github.io/calculator/)
 - [teshigahara's Solution](https://github.com/teshigahara/calculator) - [View in Browser](https://teshigahara.github.io/calculator/)
 - [Christine's Solution](https://github.com/galleryofplaces/calculator) - [View in Browser](https://galleryofplaces.github.io/calculator/)
 - [owenKraft's Solution](https://github.com/owenKraft/calculator) - [View in Browser](https://owenkraft.github.io/calculator/)
