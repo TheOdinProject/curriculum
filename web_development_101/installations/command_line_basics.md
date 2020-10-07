@@ -55,22 +55,6 @@ But once you've typed in a little bit more, it will complete the name for you, m
 
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. This shortcut is also commonly used with Git (which is covered in detail later on) with commands like `git add .` to add all of the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. See the next section of this lesson for a more detailed example.
 
-#### Opening files in VSCode from the Command Line
-
-On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
-
-##### MacOS Users:
-
-MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
-
-**Regarding Security Warning:**
-
-A message may show, warning the user that VSCode is not trusted software. This is an expected message. VSCode can be trusted, therefore it is safe to ignore this warning.
-
-##### WSL Users:
-
-Although you just installed Ubuntu on your computer, you should still install the Windows version of the code editor you choose. You will edit the files in your Projects directory with the code editor, and WSL will be able to read these files. If you are using VSCode, be sure to install the *"Remote - WSL"* extension when prompted. This extension will allow you to directly access your Linux files. Once installed, select the green icon in the lower left corner to connect to WSL.
-
 #### Opening VSCode from the Command Line
 
 On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
