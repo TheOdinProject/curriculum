@@ -43,6 +43,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
+* [CSSreference](https://cssreference.io/) and [HTMLrefrence](https://htmlreference.io) are great for reference.
 * [Learn CSS Layout](http://learnlayout.com/)
 * [CSS Flexbox](https://flexbox.io/) and [CSS Grid](https://cssgrid.io/)
     * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
