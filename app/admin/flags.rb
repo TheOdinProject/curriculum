@@ -40,6 +40,9 @@ ActiveAdmin.register Flag do
       row :status
       row :taken_action
       row :created_at
+      row :number_of_times_flagger_has_had_a_dismissed_flag do
+        flag.flagger.dismissed_flags.size
+      end
       row :project_submission_flag_count do
         flags = Flag.where(project_submission: flag.project_submission)
         active = flags.count { |r| r.status == 'active' }

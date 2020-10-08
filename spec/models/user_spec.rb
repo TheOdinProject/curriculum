@@ -13,6 +13,7 @@ RSpec.describe User do
   it { is_expected.to have_many(:completed_lessons) }
   it { is_expected.to have_many(:project_submissions).dependent(:destroy) }
   it { is_expected.to have_many(:user_providers).dependent(:destroy) }
+  it { is_expected.to have_many(:flags).dependent(:destroy) }
   it { is_expected.to belong_to(:track) }
 
   context 'when user is created' do
@@ -136,6 +137,15 @@ RSpec.describe User do
       it 'returns banned translation key' do
         expect(user.inactive_message).to eq(:banned)
       end
+    end
+  end
+
+  describe '#dismissed_flags' do
+    let!(:non_dismissed_flag) { create(:flag, flagger: user, taken_action: :ban) }
+    let!(:dismissed_flag) { create(:flag, flagger: user, taken_action: :dismiss) }
+
+    it 'returns flags the user has made that have been dismissed' do
+      expect(user.dismissed_flags).to contain_exactly(dismissed_flag)
     end
   end
 end
