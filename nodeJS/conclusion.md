@@ -22,7 +22,7 @@ Caching makes your application faster by reducing database calls. Check out this
 
 ### Other Resources
 
-Here are a few extra resources that will take you a bit deeper into software architecture, Javascrip and Node:
+Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
 * [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1)
