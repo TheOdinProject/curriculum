@@ -23,13 +23,23 @@ sudo apt upgrade
 
 #### Step 1.2: Install git
 
-It's likely you have `git` installed already, but it won't hurt to try to install it again, you won't lose any configuration by doing this.
-
-simply run the command 
+It's likely you have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
 
 ~~~bash
-sudo apt install curl git
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
 ~~~
+
+#### Step 1.3: Verify version
+
+Make sure your git version is **at least** 2.28 by running this command:
+
+~~~bash
+git --version
+~~~
+
+If the version number is less than 2.28, follow the instructions again.
 
 </details>
 
@@ -68,6 +78,12 @@ The commands below will configure Git. Be sure to enter your own information ins
 ~~~bash
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
+~~~
+
+GitHub recently changed the default branch on new repositories from `master` to `main`, change the default branch for Git using this command:
+
+~~~bash
+git config --global init.defaultBranch main
 ~~~
 
 To enable colorful output with `git`, type
