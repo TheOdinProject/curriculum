@@ -20,10 +20,11 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
       4. CSS Grid
    4. Be careful with borders and margins, they can adjust the size of the squares!
    5. "OMG, Why isn't my grid being created???"
-      1. Open your browser's developer tools
-      2. Check if there are any errors in the JavaScript console
-      3. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
-      4. Go willy-nilly and add  `console.log` statements in your JavaScript to see if it's actually being loaded.
+      1. Did you link your CSS stylesheet?
+      2. Open your browser's developer tools
+      3. Check if there are any errors in the JavaScript console
+      4. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
+      5. Go willy-nilly and add  `console.log` statements in your JavaScript to see if it's actually being loaded.
 3. Set up a "hover" effect so that the grid divs change color when your mouse passes over them, leaving a \(pixelated\) trail through your grid like a pen would.
    1. Hint: "hovering" is what happens when your mouse enters a div and ends when your mouse leaves it.. you can set up event listeners for either of those events as a starting point.
    2. There are multiple ways to change the color of the divs, including:
