@@ -297,7 +297,6 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rack-timeout (0.6.0)
     rails (6.0.3.3)
       actioncable (= 6.0.3.3)
       actionmailbox (= 6.0.3.3)
@@ -521,7 +520,6 @@ DEPENDENCIES
   pry (~> 0.13.1)
   puma
   rack-attack
-  rack-timeout (~> 0.4)
   rails (= 6.0.3.3)
   rails-controller-testing
   rails_12factor (~> 0.0.3)
