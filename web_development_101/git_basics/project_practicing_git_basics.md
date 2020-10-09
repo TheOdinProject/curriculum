@@ -47,7 +47,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 
 1. Create a new file in the `git_test` folder called `hello_world.txt`. In the terminal, type `git status`, and notice `hello_world.txt` is not staged.
   <a href="https://imgur.com/0LDzazi"><img class="tutorial-img" src="https://i.imgur.com/0LDzazi.png" title="source: imgur.com" /></a>
-2. Open README.md in your text editor of choice and add the text "This is (YourUsername)'s first git project!" and then save the file.
+2. Open README.md in your text editor of choice. To do that, open your home directory first. You can find the file in home/git_test/README.md. Once you have opened the file, add the text "This is (YourUsername)'s first git project!" and then save the file.
   <a href="https://imgur.com/a/2B4Lw"><img class="tutorial-img" src="https://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
 3. Back in your terminal, type `git status`, and notice that README.md is now shown as modified, and not staged or committed.  This is because you made a change to it, and it is already a tracked file.
   <a href="https://imgur.com/AlUO59b"><img class="tutorial-img" src="https://i.imgur.com/AlUO59b.png" title="source: imgur.com" /></a>
