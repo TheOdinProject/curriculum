@@ -63,6 +63,11 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 #### Push Your Work to GitHub
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
+- **Note #1: Make sure you are using a recent version of git (2.28 or later). You can check your version by running:** `git --version`
+- **Note #2: If you haven't already, set your default git branch to** `main`.  
+You can do so by running: `git config --global init.defaultBranch main`
+- We are in the process of updating the screenshots to meet the new changes. For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
+
 1. Type `git push origin main`.
   <a href="https://imgur.com/9uP66mj"><img class="tutorial-img" src="https://i.imgur.com/9uP66mj.png" title="source: imgur.com" /></a>
 2. Type `git status` one final time. It should output "*nothing to commit, working tree clean*".
