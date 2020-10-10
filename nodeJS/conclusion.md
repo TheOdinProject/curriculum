@@ -20,6 +20,13 @@ As you start working on more public-facing applications, security will become mo
 
 Caching makes your application faster by reducing database calls. Check out this information on the [ExpressJS documentation](https://expressjs.com/en/advanced/best-practice-performance.html#cache-request-results) for more information. You may want to also introduce yourself to [Redis](https://redis.io/) if you see it in a lot of job postings in your area or resources you encounter on caching.
 
+
+#### DevOps
+
+Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Herokou](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droples](https://www.digitalocean.com/docs/droplets/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
+
+A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal. 
+
 ### Other Resources
 
 Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
