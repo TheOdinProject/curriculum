@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_30_171734) do
+ActiveRecord::Schema.define(version: 2020_10_10_055335) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -97,6 +97,14 @@ ActiveRecord::Schema.define(version: 2020_09_30_171734) do
     t.boolean "has_live_preview", default: false, null: false
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
+  end
+
+  create_table "points", force: :cascade do |t|
+    t.string "discord_id", null: false
+    t.integer "points", default: 0, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["discord_id"], name: "index_points_on_discord_id", unique: true
   end
 
   create_table "project_submissions", id: :serial, force: :cascade do |t|
