@@ -35,5 +35,5 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 You really can't spend too much time reviewing and practicing the fundamentals that we've covered here and luckily for you there are several websites that offer just this type of thing. Seriously, the better you grasp and the more fluently you can use the fundamental building blocks of JavaScript, the easier the hard stuff is going to come to you when we get to it.  Take a minute to check out the following links.
 
 - [Exercism](http://exercism.io/) - an Odin favorite.  Uses a neat command-line interface to download and submit exercises and allows you to give and get feedback on your solutions.
-- [CodeWars](https://www.codewars.com/) - A neat gamified system with leveled exercises.  As you complete more exercises you level up and access more difficult ones. Join the TOP clan: "The Odin Project". 
+- [CodeWars](https://www.codewars.com/) - A neat gamified system with leveled exercises.  As you complete more exercises you level up and access more difficult ones. To join the TOP clan: go to your account settings on the codewars website and add "The Odin Project" in the `Clan` field. 
 - [HackerRank](https://www.hackerrank.com/) - Similar in setup to CodeWars, but this site is more focused on interview question type tasks.  Some companies even use this site to interview candidates.
