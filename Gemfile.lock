@@ -442,8 +442,6 @@ GEM
     thread_safe (0.3.6)
     tilt (2.0.10)
     timecop (0.9.1)
-    toastr-rails (1.0.3)
-      railties (>= 3.1.0)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -535,7 +533,6 @@ DEPENDENCIES
   skylight
   sprockets (~> 3.7.2)
   timecop
-  toastr-rails
   turbolinks
   uglifier (~> 4.2)
   vcr (~> 6.0)
