@@ -15,7 +15,7 @@
       <!-- Full Width Navbar -->
       <ul class="navbar-nav ml-auto hidden-md-down">
         <li class="nav-item <%= active_class(courses_path) %>">
-          <%= link_to 'My Courses', track_path(current_user.track), class: 'nav-link' %>
+          <%= link_to 'My Courses', path_url(current_user.path), class: 'nav-link' %>
         </li>
         <li class="nav-item dropdown js-dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,7 +42,7 @@
     <nav class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item <%= active_class(courses_path) %>">
-          <%= link_to 'Curriculum', tracks_path, class: 'nav-link' %>
+          <%= link_to 'Curriculum', paths_url, class: 'nav-link' %>
         </li>
         <li class="nav-item dropdown js-dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

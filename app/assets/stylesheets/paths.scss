@@ -1,8 +1,8 @@
-// Place all the styles related to the tracks controller here.
+// Place all the styles related to the paths controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.tracks-index {
+.paths-index {
   padding-bottom: 80px;
   p {
     margin: 24px auto;
@@ -10,16 +10,16 @@
   }
 }
 
-.track-description {
+.path-description {
   margin-bottom: 38px;
 }
 
-.track-card {
+.path-card {
   max-width: 770px;
   margin: 0 auto;
 }
 
-.track-card-title {
+.path-card-title {
   display: flex;
   align-items: center;
   padding-bottom: 16px;

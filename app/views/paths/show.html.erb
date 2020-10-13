@@ -1,0 +1,30 @@
+<div class="container">
+  <h1 class="text-center camel light curriculum-title"><%= @path.title %></h1>
+  <p class="text-center path-description"><%= @path.description %></p>
+
+
+  <% @courses.each do |course| %>
+    <%= render 'courses/course_card', course: course %>
+  <% end %>
+
+  <% if user_signed_in? %>
+    <%if current_user.path == @path %>
+      <p class="text-center path-description">
+        You are currently enrolled in this path.
+      </p>
+    <% else %>
+      <p class="text-center path-description">
+      <%= link_to 'Select This Path', users_paths_url(path_id: @path.id), remote: true, method: :post, class: 'button button--primary' %>
+      </p>
+    <% end %>
+  <% else %>
+      <p class="text-center path-description">
+        <%= render 'shared/bottom_cta',
+          button: sign_in_or_view_curriculum_button,
+          heading: 'Start learning for free now!',
+          sub_heading: ''
+        %>
+      </p>
+  <% end %>
+  <p class="text-center path-description">You are viewing the <%= @path.title %> path.  To view all available paths <%= link_to 'click here', paths_url %></p>
+</div>

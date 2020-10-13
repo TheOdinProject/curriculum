@@ -10,20 +10,20 @@
 # identify them!
 
 # rubocop:disable Metrics/AbcSize
-def create_or_update_track(track_attrs)
-  track = Track.where(title: track_attrs[:title]).first
+def create_or_update_path(path_attrs)
+  path = Path.where(title: path_attrs[:title]).first
 
-  if track.nil?
-    track = Track.create!(track_attrs)
-    Rails.logger.info ">>>> Created new track: #{track_attrs[:title]}!"
-  elsif track.attributes == track_attrs
-    Rails.logger.info "No changes to existing track: #{track_attrs[:title]}"
+  if path.nil?
+    path = Path.create!(path_attrs)
+    Rails.logger.info ">>>> Created new path: #{path_attrs[:title]}!"
+  elsif path.attributes == path_attrs
+    Rails.logger.info "No changes to existing path: #{path_attrs[:title]}"
   else
-    track.update_attributes(track_attrs)
-    Rails.logger.info "Updated existing << TRACK >>: #{track_attrs[:title]}"
+    path.update_attributes(path_attrs)
+    Rails.logger.info "Updated existing << PATH >>: #{path_attrs[:title]}"
   end
 
-  track
+  path
 end
 
 def create_or_update_course(course_attrs)
@@ -84,11 +84,11 @@ load './db/seeds/06_javascript_course_seeds.rb'
 load './db/seeds/07_getting_hired_course_seeds.rb'
 load './db/seeds/08_node_js_course_seeds.rb'
 
-Rails.logger.info "\n\n***** STARTING TRACKS *****"
+Rails.logger.info "\n\n***** STARTING PATHS *****"
 
-load './db/seeds/tracks/full_stack_rails.rb'
-load './db/seeds/tracks/full_stack_javascript.rb'
-load './db/seeds/tracks/front_end.rb'
+load './db/seeds/paths/full_stack_rails.rb'
+load './db/seeds/paths/full_stack_javascript.rb'
+load './db/seeds/paths/front_end.rb'
 
 # GENERATE SUCCESS STORY Content
 load './db/seeds/success_stories.rb'

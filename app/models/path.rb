@@ -1,9 +1,9 @@
-class Track < ApplicationRecord
+class Path < ApplicationRecord
   extend FriendlyId
 
   has_many :users
-  has_many :track_courses, -> { order(:position) }, dependent: :destroy
-  has_many :courses, through: :track_courses
+  has_many :path_courses, -> { order(:position) }, dependent: :destroy
+  has_many :courses, through: :path_courses
 
   validates :title, presence: true
   validates :description, presence: true

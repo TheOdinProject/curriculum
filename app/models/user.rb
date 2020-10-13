@@ -14,7 +14,7 @@ class User < ApplicationRecord
   has_many :project_submissions, dependent: :destroy
   has_many :user_providers, dependent: :destroy
   has_many :flags, foreign_key: :flagger_id, dependent: :destroy
-  belongs_to :track
+  belongs_to :path
 
   def progress_for(course)
     @progress ||= Hash.new { |hash, c| hash[c] = CourseProgress.new(c, self) }

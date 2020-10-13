@@ -1,0 +1,23 @@
+<div class="curriculum-background">
+  <div class="container paths-index">
+    <h1 class="text-center camel light">Learning Paths</h1>
+    <h2 class="text-center">
+      Select from our available learning paths below
+    </h2>
+    <p class="text-center">Paths are our way of offering multiple paths through our curriculum.</p>
+    <p class="text-center">  
+      You can change your path at any time, and your progress will not be lost.  Many of our paths share the same fundamental lessons, so any progress you've made on any shared courses or lessons will transfer between paths.</p>
+  
+  
+    <% @paths.each do |path| %>
+      <div class="card-main path-card">
+        <div class="path-card-title">
+          <h1><%=path.title%></h1>
+          <%= link_to "View path", path_url(path), class:"button button--secondary" %>
+        </div>
+        <p><%= path.description%></p>
+      </div>
+    <% end %>
+  </div>
+</div>
+

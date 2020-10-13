@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe TracksController do
+RSpec.describe PathsController do
   describe 'GET #show' do
-    let!(:track) { create(:track) }
+    let!(:path) { create(:path) }
 
     it 'returns http success' do
-      get :show, params: { id: track.id }
+      get :show, params: { id: path.id }
       expect(response).to have_http_status(:success)
     end
   end

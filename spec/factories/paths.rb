@@ -1,7 +1,7 @@
 FactoryBot.define do
-  factory :track do
+  factory :path do
     sequence(:title) { |n| "test lesson#{n}" }
     sequence(:position) { |n| n }
-    description { 'A Track' }
+    description { 'A Path' }
   end
 end

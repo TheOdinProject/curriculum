@@ -16,7 +16,7 @@ RSpec.describe RegistrationsController do
         password_confirmation: 'foobar1',
       }
     end
-    let!(:track) { create(:track, id: 1) }
+    let!(:path) { create(:path, id: 1) }
     let(:user) { User.create(user_attributes) }
 
     it 'redirects to the dashboard' do

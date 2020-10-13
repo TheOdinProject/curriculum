@@ -36,14 +36,14 @@ Rails.application.routes.draw do
   resources :users, only: %i[show update]
 
   namespace :users do
-    resources :tracks, only: :create
+    resources :paths, only: :create
   end
   get 'dashboard' => 'users#show', as: :dashboard
 
   # Deprecated Route to Introduction to Web Development from external links
   get '/courses/introduction-to-web-development' => redirect('/courses/web-development-101')
 
-  get '/courses' => redirect('/tracks')
+  get '/courses' => redirect('/paths')
   resources :courses, only: %i[index show] do
     resources :lessons, only: :show
   end
@@ -63,12 +63,12 @@ Rails.application.routes.draw do
     resources :flags, only: %i[create], controller: 'project_submissions/flags'
   end
 
+  resources :paths, only: %i[index show]
+
   match '/404' => 'errors#not_found', via: %i[get post patch delete]
 
   # Explicitly redirect deprecated routes (301)
   get '/courses/curriculum' => redirect('/courses')
   get 'curriculum' => redirect('/courses')
   get 'scheduler' => redirect('/courses')
-
-  resources :tracks, only: %i[index show]
 end

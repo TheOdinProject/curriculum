@@ -1,15 +1,15 @@
-# CREATE TRACK Full Stack Rails Course
+# CREATE PATH Full Stack Rails Course
 # *********************************
 
-track = create_or_update_track(
+path = create_or_update_path(
   title: 'Full Stack Ruby on Rails',
-  description: "This track takes you through our entire Ruby on Rails curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch. This is our default track. If you do not know where to start, select this track.",
+  description: "This path takes you through our entire Ruby on Rails curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch. This is our default path. If you do not know where to start, select this path.",
   position: 1,
   default: true,
 )
 
 position = 0
-courses_in_track = [
+courses_in_path = [
   { course_id: Course.find_by_title('Web Development 101').id, position: position += 1 },
   { course_id: Course.find_by_title('Ruby Programming').id, position: position += 1 },
   { course_id: Course.find_by_title('Databases').id, position: position += 1 },
@@ -19,8 +19,8 @@ courses_in_track = [
   { course_id: Course.find_by_title('Getting Hired').id, position: position + 1 }
 ]
 
-courses_in_track.each do |course_attrs|
-  next if track.track_courses.map(&:course_id).include? course_attrs[:course_id]
+courses_in_path.each do |course_attrs|
+  next if path.path_courses.map(&:course_id).include? course_attrs[:course_id]
 
-  track.track_courses.create!(course_attrs)
+  path.path_courses.create!(course_attrs)
 end

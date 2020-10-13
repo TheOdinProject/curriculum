@@ -17,7 +17,7 @@
           </li>
 
           <li class="nav-item <%= active_class(courses_path) %>">
-            <%= link_to 'Curriculum', track_path(current_user.track_id), class: 'nav-link' %>
+            <%= link_to 'Curriculum', path_url(current_user.path_id), class: 'nav-link' %>
           </li>
           <li class="nav-item">
             <%= link_to 'Forum', forum_link, class: 'nav-link' %>
@@ -37,7 +37,7 @@
 
         <% else %>
           <li class="nav-item <%= active_class(courses_path) %>">
-            <%= link_to 'Curriculum', tracks_path, class: 'nav-link' %>
+            <%= link_to 'Curriculum', paths_url, class: 'nav-link' %>
           </li>
 
           <li class="nav-item">

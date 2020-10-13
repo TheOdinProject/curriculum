@@ -14,7 +14,7 @@ RSpec.describe User do
   it { is_expected.to have_many(:project_submissions).dependent(:destroy) }
   it { is_expected.to have_many(:user_providers).dependent(:destroy) }
   it { is_expected.to have_many(:flags).dependent(:destroy) }
-  it { is_expected.to belong_to(:track) }
+  it { is_expected.to belong_to(:path) }
 
   context 'when user is created' do
     let(:mailer) { instance_double(ActionMailer::MessageDelivery) }

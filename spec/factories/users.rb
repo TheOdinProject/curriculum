@@ -6,6 +6,6 @@ FactoryBot.define do
     confirmed_at { Time.now - 5_000_000 }
     avatar { 'http://github.com/fake-avatar' }
     admin { false }
-    track
+    path
   end
 end
