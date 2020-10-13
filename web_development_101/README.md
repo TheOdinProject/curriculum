@@ -13,8 +13,7 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Prerequisites - [lesson](installations/prerequisites.md)
   - Text Editors - [lesson](installations/text_editors.md)
   - Command Line Basics - [lesson](installations/command_line_basics.md)
-  - Installing Ruby - [lesson](installations/installing_ruby.md)
-  - [Project: Your First Rails Application](installations/project_your_first_rails_app.md)
+  - Setting Up Git - [lesson](installations/setting_up_git.md)
 - Git Basics
   - Introduction to Git - [lesson](git_basics/introduction_to_git.md)
   - Git Basics - [lesson](git_basics/git_basics.md)
@@ -29,6 +28,7 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Fundamentals Part 2 - [lesson](javascript_basics/fundamentals-2.md)
   - Developer Tools 2 - [lesson](javascript_basics/developer_tools_2.md)
   - Fundamentals Part 3 - [lesson](javascript_basics/fundamentals-3.md)
+  - Problem Solving - [lesson](javascript_basics/problem_solving.md)
   - [Project: Rock Paper Scissors](javascript_basics/project_rock_paper_scissors.md)
   - Clean Code - [lesson](javascript_basics/clean_code.md)
   - Fundamentals Part 4 - [lesson](javascript_basics/fundamentals-4.md)
@@ -38,11 +38,6 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - [Project: Calculator](javascript_basics/project_calculator.md)
 - The Back End
   - Introduction to the Back End - [lesson](the_back_end/introduction_to_the_backend_lesson.md)
-  - Ruby Basics - [lesson](the_back_end/ruby_basics_lesson.md)
-  - [Project: Ruby](the_back_end/ruby_project.md)
-- Web Development Frameworks
-  - Introduction to Frameworks - [lesson](web_development_frameworks/introduction_to_frameworks.md)
-  - Ruby on Rails Basics - [lesson](web_development_frameworks/rails_basics.md)
-  - [Project: Ruby on Rails](web_development_frameworks/project_rails.md)
+  - Introduction to Frameworks - [lesson](the_back_end/introduction_to_frameworks.md)
 - Tying it All Together
   - Conclusion - [lesson](tying_it_all_together/conclusion.md)
