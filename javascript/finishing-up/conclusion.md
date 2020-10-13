@@ -2,7 +2,7 @@ This is the end! At this point, you should have a deep and nuanced understanding
 
 If you find something you don't know or aren't sure about, you should be, by now, a pro at Googling your way to answer, looking at docs, and cruising through Stack Overflow posts. You've got all the tools you need to be a developer. And, really, the big secret is that you've been a web developer for a long time already.
 
-There's a whole world of exciting things you can learn. jQuery mobile or React Native to build mobile apps, D3 for data visualization, other full-stack frameworks or single-page MVC front-end frameworks, etc. All that stuff is best learned when you've got something you want to build that requires "the perfect tool for the job."
+There's a whole world of exciting things you can learn. React Native to build mobile apps, D3 for data visualization, other full-stack frameworks or single-page MVC front-end frameworks, etc. All that stuff is best learned when you've got something you want to build that requires "the perfect tool for the job."
 
 So where do you go from here? BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. Get a job, so someone else pays you to build. But focus on creating interesting software and use that to drive your education. However, we're not done yet. We'll be working on your HTML and CSS skills next, so get ready for that!
 
@@ -12,7 +12,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [(Video) React Native Tutorial for Beginners - Build a React Native App](https://youtu.be/0-S5a0eXPoc)
 - [(Video) JavaScript Pro Tips - Code This, NOT That](https://youtu.be/Mus_vwhTCq0)
-- [jQuery Mobile from learn.jquery.com](http://learn.jquery.com/jquery-mobile/)
 - [An Android development tutorial from CodeLearn](http://www.codelearn.org/android-tutorial)
 - [PAID training webcasts on pretty much anything](https://www.bitcast.io/)
 - [Giant meta-list of screencasts by Avdi Grimm](https://www.rubytapas.com/2016/06/30/new-list-programming-screencast-series/)
