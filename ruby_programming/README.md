@@ -2,33 +2,49 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
 
 ## The Outline
 
+- Introduction
+  - How this Course Will Work - [lesson](introduction/how_this_course_will_work.md)
+  - Installing Ruby - [lesson](introduction/installing_ruby.md)
 - Basic Ruby
-  - How this Course Will Work - [lesson](basic_ruby/lesson_how_this_course_will_work.md)
-  - Ruby Building Blocks - [lesson](basic_ruby/lesson_building_blocks.md)
-  - [Project: Building Blocks](basic_ruby/project_building_blocks.md)
-  - Advanced Ruby Building Blocks - [lesson](basic_ruby/lesson_advanced_building_blocks.md)
-  - [Project: Advanced Building Blocks](basic_ruby/project_advanced_building_blocks.md)
-- Intermediate Ruby
-  - Object Oriented Programming - [lesson](intermediate_ruby/lesson_oop.md)
-  - [Project: OOP](intermediate_ruby/project_oop.md)
-  - Files and Serialization - [lesson](intermediate_ruby/lesson_serialization.md)
-  - [Project: Event Manager](intermediate_ruby/project_event_manager.md)
-  - [Project: File I/O and Serialization](intermediate_ruby/project_file_io.md)
+  - Basic Data Types - [lesson](basic_ruby/basic_data_types.md)
+  - Variables - [lesson](basic_ruby/variables.md)
+  - Input and Output - [lesson](basic_ruby/input_and_output.md)
+  - Conditional Logic - [lesson](basic_ruby/conditional_logic.md)
+  - Loops - [lesson](basic_ruby/loops.md)
+  - Arrays - [lesson](basic_ruby/arrays.md)
+  - Hashes - [lesson](basic_ruby/hashes.md)
+  - Methods - [lesson](basic_ruby/methods.md)
+  - Basic Enumerable Methods - [lesson](basic_ruby/basic_enumerable_methods.md)
+  - Predicate Enumerable Methods - [lesson](basic_ruby/predicate_enumerable_methods.md)
+  - Debugging - [lesson](basic_ruby/debugging.md)
+- Basic Ruby Projects
+  - [Caesar Cipher](basic_ruby_projects/caesar_cipher.md)
+  - [Sub Strings](basic_ruby_projects/sub_strings.md)
+  - [Stock Picker](basic_ruby_projects/stock_picker.md)
+  - [Bubble Sort](basic_ruby_projects/bubble_sort.md)
+- Object Oriented Programming Basics
+  - Object Oriented Programming - [lesson](object_oriented_programming_basics/lesson_oop.md)
+  - [Tic Tac Toe](object_oriented_programming_basics/project_tic_tac_toe.md)
+  - [Mastermind](object_oriented_programming_basics/project_mastermind.md)
+- Files and Serialization
+  - Files and Serialization - [lesson](files_and_serialization/lesson_serialization.md)
+  - [Event Manager](files_and_serialization/project_event_manager.md)
+  - [File I/O and Serialization](files_and_serialization/project_file_io.md)
 - A Bit of Computer Science
   - A Very Brief Intro to CS - [lesson](computer_science/lesson_a_very_brief_intro_to_cs.md)
   - Recursive Methods - [lesson](computer_science/lesson_recursion.md)
-  - [Project: Recursion](computer_science/project_recursion.md)
+  - [Recursion](computer_science/project_recursion.md)
   - Common Data Structures and Algorithms - [lesson](computer_science/lesson_common_data_structures_algorithms.md)
-  - [Project: Linked Lists](computer_science/project_linked_lists.md)
-  - [Project: Data Structures and Algorithms](computer_science/project_data_structures_algorithms.md)
+  - [Linked Lists](computer_science/project_linked_lists.md)
+  - [Binary Search Trees](computer_science/project_binary_search_trees.md)
+  - [Knight Travails](computer_science/project_knights_travails.md)
 - Testing Ruby with RSpec
   - Test Driven Development - [lesson](testing_with_rspec/test_driven_development.md)
   - Introduction to RSpec - [lesson](testing_with_rspec/introduction_to_rspec.md)
-  - [Project: Testing Your Ruby Code](testing_with_rspec/project_testing_your_ruby_code.md)
+  - [Testing Your Ruby Code](testing_with_rspec/project_testing_your_ruby_code.md)
 - Git
   - A Deeper Look at Git - [lesson](git/lesson_a_deeper_look_at_git.md)
   - Using Git in the Real World - [lesson](git/lesson_using_git_in_the_real_world.md)
 - Conclusion
-  - [Project: Ruby Final Project](conclusion/project_ruby_final.md)
-  - Conclusion - [lesson](conclusion/lesson_conclusion.md)
-
+  - [Ruby Final Project](conclusion/lesson_conclusion.md)
+  - Conclusion - [lesson](conclusion/project_ruby_final.md)
