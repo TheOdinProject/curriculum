@@ -27,6 +27,10 @@ Sometimes, having a little exposure to DevOps can help set you apart as a robust
 
 A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal. 
 
+#### Relational Data
+
+Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/courses/databases) is a great place to start to digging into relational databases and SQL.
+
 ### Other Resources
 
 Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
