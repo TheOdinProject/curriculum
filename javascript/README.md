@@ -15,7 +15,7 @@ Make your websites dynamic and interactive with JavaScript! You'll create featur
   - ES6 Modules - [lesson](organizing-js/es6-modules.md)
   - [Project: Restaurant Page](organizing-js/restaurant-project.md)
   - OOP Principles - [lesson](organizing-js/oop-concepts.md)
-  - [Project: Todo List](organizing-js/todo_project.md)
+  - [Project: Todo List](organizing-js/todo-project.md)
 - JavaScript in the Real World
   - Linting - [lesson](js-in-the-real-world/linting.md)
   - Dynamic User Interface Interactions - [lesson](js-in-the-real-world/ui-Interactions.md)
