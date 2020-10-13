@@ -13,7 +13,7 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Prerequisites - [lesson](installations/prerequisites.md)
   - Text Editors - [lesson](installations/text_editors.md)
   - Command Line Basics - [lesson](installations/command_line_basics.md)
-  - Setting Up Git - [lesson](/installations/setting_up_git.md)
+  - Setting Up Git - [lesson](installations/setting_up_git.md)
 - Git Basics
   - Introduction to Git - [lesson](git_basics/introduction_to_git.md)
   - Git Basics - [lesson](git_basics/git_basics.md)
@@ -38,6 +38,6 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - [Project: Calculator](javascript_basics/project_calculator.md)
 - The Back End
   - Introduction to the Back End - [lesson](the_back_end/introduction_to_the_backend_lesson.md)
-  - Introduction to Frameworks - [lesson](/the_back_end/introduction_to_frameworks.md)
+  - Introduction to Frameworks - [lesson](the_back_end/introduction_to_frameworks.md)
 - Tying it All Together
   - Conclusion - [lesson](tying_it_all_together/conclusion.md)
