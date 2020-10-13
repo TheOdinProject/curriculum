@@ -2,7 +2,7 @@ Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully
 
 ## The Outline
 
-- The Track ahead: How this Course Will Work - [lesson](introduction.md)
+- The Path ahead: How this Course Will Work - [lesson](introduction.md)
 - Sinatra
   - Sinatra Basics - [lesson](sinatra/sinatra.md)
   - [Project: Sinatra Project](sinatra/project_sinatra.md)
