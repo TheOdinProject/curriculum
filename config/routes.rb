@@ -71,4 +71,6 @@ Rails.application.routes.draw do
   get '/courses/curriculum' => redirect('/courses')
   get 'curriculum' => redirect('/courses')
   get 'scheduler' => redirect('/courses')
+  get '/tracks', to: redirect('/paths')
+  get '/tracks/:id', to: redirect('/paths/%{id}')
 end

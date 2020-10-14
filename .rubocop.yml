@@ -176,3 +176,6 @@ Performance/Squeeze:
 
 Performance/StringInclude:
   Enabled: true
+
+Style/FormatStringToken:
+  Enabled: false
