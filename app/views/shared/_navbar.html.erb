@@ -14,9 +14,14 @@
     <nav class="collapse navbar-collapse">
       <!-- Full Width Navbar -->
       <ul class="navbar-nav ml-auto hidden-md-down">
-        <li class="nav-item <%= active_class(courses_path) %>">
-          <%= link_to 'My Courses', path_url(current_user.path), class: 'nav-link' %>
+        <li class="nav-item <%= active_class(path_path(current_user.path)) %>">
+          <%= link_to 'My Path', path_url(current_user.path), class: 'nav-link' %>
         </li>
+
+        <li class="nav-item <%= active_class(paths_url) %>">
+          <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
+        </li>
+
         <li class="nav-item dropdown js-dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Community
@@ -41,8 +46,8 @@
   <% else %>
     <nav class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item <%= active_class(courses_path) %>">
-          <%= link_to 'Curriculum', paths_url, class: 'nav-link' %>
+        <li class="nav-item <%= active_class(paths_url) %>">
+          <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
         </li>
         <li class="nav-item dropdown js-dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

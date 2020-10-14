@@ -16,9 +16,14 @@
             <%= link_to 'Dashboard', dashboard_path, class: 'nav-link' %>
           </li>
 
-          <li class="nav-item <%= active_class(courses_path) %>">
-            <%= link_to 'Curriculum', path_url(current_user.path_id), class: 'nav-link' %>
+          <li class="nav-item <%= active_class(path_url(current_user.path)) %>">
+            <%= link_to 'My Path', path_url(current_user.path), class: 'nav-link' %>
           </li>
+
+          <li class="nav-item <%= active_class(paths_url) %>">
+            <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
+          </li>
+
           <li class="nav-item">
             <%= link_to 'Forum', forum_link, class: 'nav-link' %>
           </li>
@@ -36,8 +41,8 @@
           </li>
 
         <% else %>
-          <li class="nav-item <%= active_class(courses_path) %>">
-            <%= link_to 'Curriculum', paths_url, class: 'nav-link' %>
+          <li class="nav-item <%= active_class(paths_url) %>">
+            <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
           </li>
 
           <li class="nav-item">
