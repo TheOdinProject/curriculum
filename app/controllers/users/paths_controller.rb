@@ -1,20 +1,24 @@
 module Users
   class PathsController < ApplicationController
     before_action :authenticate_user!
+    rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
     def create
-      current_user.update_attributes!(path_id: path_id)
-      redirect_to path
+      if current_user.update(path: path)
+        redirect_to path, notice: "You have switched to the #{path.title} path"
+      else
+        redirect_to :back, notice: "Unable to switch you to the #{path.title} path"
+      end
     end
 
     private
 
-    def path_id
-      params.fetch(:path_id)
+    def path
+      Path.find(params[:path_id])
     end
 
-    def path
-      Path.find(path_id)
+    def record_not_found
+      redirect_to paths_url, alert: 'Path not found'
     end
   end
 end

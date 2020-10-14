@@ -1,19 +1,79 @@
 .card-main {
-  @include box-shadow(0 5px 16px 0 $very-pale-grey);
+  display: block;
   background-color: $white;
-  margin-bottom: 40px;
   padding: 40px 60px;
   position: relative;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-bottom: 60px;
 
-  &--shadowless {
-    @include box-shadow(none);
+  &--clickable {
+    &:hover {
+      box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+   }
   }
 
   @include media-breakpoint-down(xs) {
     padding: 30px;
   }
+
+  &__link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__description {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    outline: 0;
+    z-index: 100;
+    position: relative;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 1.25rem;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid $very-pale-grey;
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 1.25rem;
+    }
+  }
+
+  &__header-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    letter-spacing: 0.2px;
+    margin: 0;
+  }
 }
 
 .card-block {
   padding: 1.25em;
+}
+
+.card-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+
+  &__title {
+    margin-bottom: 60px;
+  }
 }

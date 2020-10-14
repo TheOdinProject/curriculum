@@ -1,23 +1,26 @@
 <div class="curriculum-background">
-  <div class="container paths-index">
-    <h1 class="text-center camel light">Learning Paths</h1>
-    <h2 class="text-center">
-      Select from our available learning paths below
-    </h2>
-    <p class="text-center">Paths are our way of offering multiple paths through our curriculum.</p>
-    <p class="text-center">  
-      You can change your path at any time, and your progress will not be lost.  Many of our paths share the same fundamental lessons, so any progress you've made on any shared courses or lessons will transfer between paths.</p>
-  
-  
-    <% @paths.each do |path| %>
-      <div class="card-main path-card">
-        <div class="path-card-title">
-          <h1><%=path.title%></h1>
-          <%= link_to "View Path", path_url(path), class:"button button--secondary" %>
+  <div class="container">
+    <div class="card-list">
+      <h1 class="text-center camel card-list__title">Learning Paths</h1>
+      <% @paths.each do |path| %>
+        <div class='card-main card-main--clickable'>
+          <%= link_to '', path, class: 'card-main__link' %>
+          <div class="card-main__header">
+            <h2 class="card-main__header-title"><%= path.title %></h2>
+            <% if current_user.nil? %>
+              <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
+            <% elsif current_user.path === path %>
+              <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button' %>
+            <% else %>
+              <%= button_to 'Switch', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...' } %>
+            <% end %>
+          </div>
+          <div class="card-main__description">
+            <p><%= path.description%></p>
+          </div>
         </div>
-        <p><%= path.description%></p>
-      </div>
-    <% end %>
+      <% end %>
+    </div>
   </div>
 </div>
 
