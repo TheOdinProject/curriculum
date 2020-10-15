@@ -227,3 +227,6 @@ Views in general make up the user-facing side of your app.  It can be a bit tric
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+* [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
+* [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
+* [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
