@@ -26,7 +26,7 @@ This is a reference list of the most commonly used Git commands. (You might cons
   * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
   or
   `git clone https://github.com/user-name/repository-name.git`
-  * `git push origin master`
+  * `git push origin main`
 * Commands related to workflow:
   * `git add .`
   * `git commit -m "A message describing what you have done to make this snapshot different"`
@@ -114,15 +114,15 @@ This section contains questions for you to check your understanding of this less
 </details>
 
 <details>
-<summary>Explain what <code>origin</code> is in <code>git push origin master</code>.</summary>
+<summary>Explain what <code>origin</code> is in <code>git push origin main</code>.</summary>
 <ul><ul>
   <li>In Git, <code>origin</code> is a placeholder name for the URL of the remote repository. Git sets up the origin by default when it clones a remote repository. You can use <code>origin</code> to access the remote repository without having to enter a full URL every time. This also means that you can have multiple remotes for a repository by giving each a unique name.</li>
 </ul></ul>
 </details>
 
 <details>
-<summary>Explain what <code>master</code> is in <code>git push origin master</code>.</summary>
+<summary>Explain what <code>main</code> is in <code>git push origin main</code>.</summary>
 <ul><ul>
-  <li>In Git, <code>master</code> is the branch of the remote repository you want to push your changes to. We will get more into branches in a later lesson, but the main thing to remember is that <code>master</code> is the official branch in your projects where production-ready code lives.</li>
+  <li>In Git, <code>main</code> is the branch of the remote repository you want to push your changes to. We will get more into branches in a later lesson, but the main thing to remember is that <code>main</code> is the official branch in your projects where production-ready code lives.</li>
 </ul></ul>
 </details>
