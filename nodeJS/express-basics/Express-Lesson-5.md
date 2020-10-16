@@ -59,4 +59,5 @@ To add your solution to the list below, edit this [file](https://github.com/TheO
 - [Nijepa's Solution](https://github.com/nijepa/local-library) - [View in Browser](https://blooming-tor-91085.herokuapp.com/catalog)
 - [akoenig1's Solution](https://github.com/akoenig1/local_library) - [View in Browser](https://pure-journey-98519.herokuapp.com/catalog/books)
 - [kbrdsk's Solution](https://github.com/kbrdsk/express-locallibrary-tutorial) - [View in Browser](https://obscure-brook-19353.herokuapp.com/catalog)
+- [Bender's Solution](https://github.com/fortypercenttitanium/local-library-tutorial) - [View in Browser](https://glacial-retreat-84311.herokuapp.com/catalog/genres)
 </details>
