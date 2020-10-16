@@ -1,7 +1,11 @@
 <div class="container">
   <h1 class="text-center camel light curriculum-title"><%= @path.title %></h1>
+  <% if user_signed_in? && current_user.path != @path %>
+    <div class="switch-container">
+      <%= button_to 'Switch Path', users_paths_path(path_id: @path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...' } %>
+    </div>
+  <% end %>
   <p class="text-center path-description"><%= @path.description %></p>
-
 
   <% @courses.each do |course| %>
     <%= render 'courses/course_card', course: course %>
