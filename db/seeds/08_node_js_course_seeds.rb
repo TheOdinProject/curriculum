@@ -173,9 +173,11 @@ create_or_update_lesson(
   description: 'Here we learn how to use forms to create the data-entry portions of the Library Tutorial and finish the project by learning about deployment',
   position: lesson_position,
   section_id: section.id,
-  is_project: false,
+  is_project: true,
   url: '/nodeJS/express-basics/Express-Lesson-5.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
