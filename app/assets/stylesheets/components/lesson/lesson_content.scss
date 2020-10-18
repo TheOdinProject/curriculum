@@ -128,6 +128,10 @@
     font-weight: bold;
     color: $text-primary;
     cursor: pointer;
+
+    &:hover {
+      color: $primary
+    }
   }
 }
 
