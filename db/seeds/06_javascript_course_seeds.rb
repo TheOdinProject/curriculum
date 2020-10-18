@@ -246,13 +246,13 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Webpack 2',
-  title_url: 'Webpack 2'.parameterize,
-  description: 'Webpack 2',
+  title: 'Webpack',
+  title_url: 'Webpack'.parameterize,
+  description: 'Webpack',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/javascript/js-in-the-real-world/webpack-2.md',
+  url: '/javascript/js-in-the-real-world/webpack.md',
   repo: 'curriculum'
 )
 
