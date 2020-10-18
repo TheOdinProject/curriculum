@@ -22,7 +22,7 @@ class User < ApplicationRecord
   end
 
   def completed?(lesson)
-    completed_lessons.exists?(lesson.id)
+    completed_lessons.pluck(:id).include?(lesson.id)
   end
 
   def latest_completed_lesson

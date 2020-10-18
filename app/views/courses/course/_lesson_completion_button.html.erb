@@ -1,9 +1,9 @@
-<% if lesson_completed?(current_user, lesson) %>
+<% if current_user.completed?(lesson) %>
   <%= link_to lesson_completions_path(lesson), method: :delete, remote: true do %>
-    <i class="far fa-check-circle section-lessons__item__icon <%= lesson_completed?(current_user, lesson) %>"></i>
+    <i class="far fa-check-circle section-lessons__item__icon section-lessons__item__icon--completed"></i>
   <% end %>
 <% else %>
   <%= link_to lesson_completions_path(lesson), method: :post, remote: true do %>
-    <i class="far fa-check-circle section-lessons__item__icon <%= lesson_completed?(current_user, lesson) %>"></i>
+    <i class="far fa-check-circle section-lessons__item__icon"></i>
   <% end %>
 <% end %>

@@ -55,8 +55,6 @@ RSpec.describe User do
     end
 
     context 'when the user has not completed the lesson' do
-      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson) }
-
       it 'returns false' do
         expect(user.completed?(lesson)).to be(false)
       end

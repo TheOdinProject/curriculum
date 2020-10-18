@@ -1,27 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe CourseHelper do
-  describe '#lesson_completed?' do
-    let(:user) { create(:user) }
-    let(:lesson) { create(:lesson) }
-
-    context 'when the user has completed the lesson' do
-      before do
-        create(:lesson_completion, student: user, lesson: lesson)
-      end
-
-      it 'returns the completed lesson class' do
-        expect(helper.lesson_completed?(user, lesson)).to eql('section-lessons__item__icon--completed')
-      end
-    end
-
-    context 'when user has not completed the lesson' do
-      it 'returns nil' do
-        expect(helper.lesson_completed?(user, lesson)).to eql(nil)
-      end
-    end
-  end
-
   describe '#numbered_lesson_title' do
     context 'when the lesson is not a project' do
       let!(:lesson) { create(:lesson, title: 'Ruby Basics') }

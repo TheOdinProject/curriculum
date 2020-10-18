@@ -1,8 +1,4 @@
 module CourseHelper
-  def lesson_completed?(user, lesson)
-    'section-lessons__item__icon--completed' if user.completed_lessons.map(&:id).include?(lesson.id)
-  end
-
   def numbered_lesson_title(lesson, lesson_index)
     if lesson.is_project?
       "#{lesson_index + 1}. <strong>#{lesson.title}</strong>".html_safe
