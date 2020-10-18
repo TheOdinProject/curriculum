@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def show
     @courses = decorated_path_courses
-    @path = @user.path
   end
 
   def update
