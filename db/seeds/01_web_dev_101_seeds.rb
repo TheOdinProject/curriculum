@@ -264,8 +264,8 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'HTML/CSS',
-  title_url: 'HTML/CSS'.parameterize,
+  title: 'Google Homepage',
+  title_url: 'Google Homepage'.parameterize,
   description: "It's time to put your knowledge to work in the Wild.  Go forth and build!",
   position: lesson_position,
   section_id: section.id,
