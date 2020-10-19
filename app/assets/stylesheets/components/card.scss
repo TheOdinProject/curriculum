@@ -33,7 +33,6 @@
 
   &__button {
     outline: 0;
-    z-index: 100;
     position: relative;
 
     @include media-breakpoint-down(md) {
