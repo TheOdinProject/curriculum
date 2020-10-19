@@ -498,5 +498,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/web_development_101/tying_it_all_together/conclusion.md',
-  repo: 'curriculum'
+  repo: 'curriculum',
+  choose_path_lesson: true
 )

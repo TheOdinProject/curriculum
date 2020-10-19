@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_13_061108) do
+ActiveRecord::Schema.define(version: 2020_10_18_223629) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -95,6 +95,7 @@ ActiveRecord::Schema.define(version: 2020_10_13_061108) do
     t.string "repo"
     t.boolean "accepts_submission", default: false, null: false
     t.boolean "has_live_preview", default: false, null: false
+    t.boolean "choose_path_lesson", default: false, null: false
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
   end
