@@ -325,6 +325,9 @@ const Overview = (props) => {
 export default Overview;
 ~~~
 
+[Here](https://s5f6k.csb.app/) is a live version of what you should have if you added bootstrap to your project.
+
+
 ### Optional Tasks / Ideas to play around
 
 Here are a few optional tasks for you to practice. Try them out, if you can't solve them, continue with the curriculum and make sure to come back later to give them another try and see how you advanced.
