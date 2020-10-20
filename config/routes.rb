@@ -2,6 +2,11 @@
 Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
+  require 'sidekiq/web'
+  authenticate :user, ->(user) { user.admin? } do
+    mount Sidekiq::Web => '/sidekiq'
+  end
+
   root 'static_pages#home'
 
   devise_for :users, controllers: {
