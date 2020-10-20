@@ -132,11 +132,23 @@ lesson_position += 1
 create_or_update_lesson(
   title: 'The Asset Pipeline',
   title_url: 'The Asset Pipeline'.parameterize,
-  description: 'This lesson explains how Rails handles all the behind-the-scenes stuff to get your CSS, Javascript and Image files served quickly and efficiently and how you can use that process.',
+  description: 'This lesson explains how Rails handles all the behind-the-scenes stuff to get your CSS, Image files and other assets served quickly and efficiently and how you can use that process.',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/asset_pipeline.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Webpacker',
+  title_url: 'Webpacker'.parameterize,
+  description: 'This lesson explains how Rails handles Javascript using Webpack, how it builds the dependency graph, and how you can ensure the pack files only load what they need to keep file sizes minimal',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/rails_programming/rails_basics/webpacker.md',
   repo: 'curriculum'
 )
 
