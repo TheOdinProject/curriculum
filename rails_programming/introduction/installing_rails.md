@@ -27,12 +27,12 @@ Those are terminal commands and you'll need to enter them on the terminal in you
 
 Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
-#### Step 1.1: Install Rails and Bundler
+#### Step 1.1: Install Rails
 
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails -v 5.2.3
+gem install rails
 ~~~
 
 Once the installation finishes, you can check if everything went well by running the following command:
@@ -43,7 +43,27 @@ rails -v
 
 This should display the version of Rails installed on your system indicating the installation went smoothly.
 
-#### Step 1.2: Lay the Groundwork
+#### Step 1.2: Install Yarn
+
+With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javascript module bundler, with Rails.
+
+Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
+
+Yarn is a Javascript package manager, much like Bundler for Ruby and allows you to easily manage your Javascript libraries.
+
+Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn. Follow the instructions step by step.
+
+You can verify the install by running the following command
+
+~~~bash
+yarn --version
+~~~
+
+If you don't get a version number drop by the chatrooms for some assistance.
+
+You won't need to use Yarn for this tutorial but you do need it installed for Rails to set up Webpack correctly.
+
+#### Step 1.3: Lay the Groundwork
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 
@@ -59,9 +79,9 @@ Then, move into the new directory:
 cd odin_on_rails
 ~~~
 
-#### Step 1.3: Create the Application
+#### Step 1.4: Create the Application
 
-This is where things might become more foreign. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
+This is where things might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
 We're going to start by telling Rails to initialize the application for us. Then, we'll tell Rails to create a template for us so that we can get up and running.
 
@@ -82,7 +102,13 @@ In the above process, Rails created a new directory for us. Let's `cd` into it n
 cd my_first_rails_app
 ~~~
 
-Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all.
+Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all. If you are using Ruby 2.7 or higher then you may see some deprecation warnings that look like errors in the console. Ruby made some changes in version 2.7 to deprecate using hashes as the last argument of a method call. You can read more about it [here](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/). It will take time for gems to update their codebases to deal with this deprecation, especially if they are as large as Rails. If you do see any deprecation warnings then don't worry, they will get fixed eventually. The warnings will look something like:
+
+~~~bash
+warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+~~~
+
+Run the following in the terminal:
 
 ~~~bash
 rails generate scaffold car make:string model:string year:integer
@@ -94,7 +120,7 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### Step 1.4: Start Up Your App
+#### Step 1.5: Start Up Your App
 
 Now that you have created a Rails application, you can start it up and see if it works!
 
@@ -104,9 +130,9 @@ In the terminal, type
 rails server
 ~~~
 
-Now, go to your browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! **Note:** If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
+Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! **Note:** If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
 
-Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where Rails is running, and type `Ctrl + C` to end the application.
+Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where the Rails server is running, and type `Ctrl + C` to close the server.
 
 ### Step 2: Initialize Git and Push to GitHub
 
@@ -149,7 +175,7 @@ git commit -m "initial commit"
 
 At this point, we have our files on our own computer and can track changes made to our files over time. But what if we want to share the files with another computer or have multiple people work on the same project? For this functionality, we need a GitHub repository.
 
-First, open [GitHub.com](https://github.com/) in your browser and sign in (if you aren't already). Next, look for your profile picture in the upper right-hand corner, click the "+" symbol next to it, and then click `New repository`. Give the repository a name (maybe `my_first_rails_app`?), and then click `Create Repository`.
+First, open [GitHub.com](https://github.com/) in your browser and sign in (if you aren't already). Next, look for your profile picture in the upper right-hand corner, click the "+" symbol next to it, and then click `New repository`. Give the repository a name (maybe `my_first_rails_app`?), and make sure you **do not** initialise the repository with a README and Rails created one already. Click `Create Repository`.
 
 On the next page, you'll see a bunch of commands listed. We're really only interested in the SSH URL at the top, so double check that `SSH` has been selected and then copy the URL.
 
@@ -228,13 +254,15 @@ end
 
 Then, save the file. You can leave VSCode open since we're going to be coming back to it, but for the next step, go back to your terminal.
 
-#### Step 3.2.2: Install the Bundle
+#### Step 3.2.2: Install the new gems.
 
 Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
 
 ~~~bash
 bundle install --without production
 ~~~
+
+We use `--without production` here because the pg gem relies on having the pg database installed locally. Without it the gem can't build the native extensions needed to interact with the database. That is something we would definitely recommend but not at this stage. An sqlite database is much easier to get up and running for development.
 
 #### Step 3.2.3: Configure the Root Route
 
