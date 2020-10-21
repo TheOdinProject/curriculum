@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   after_create :send_welcome_email
+  after_create :enroll_in_web_development_101
 
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable,
@@ -53,5 +54,11 @@ class User < ApplicationRecord
     return if ENV['STAGING']
 
     UserMailer.send_welcome_email_to(self).deliver_now!
+  end
+
+  def enroll_in_web_development_101
+    path = Path.find_by(title: 'Web Development 101')
+
+    update(path_id: path.id) if path.present?
   end
 end

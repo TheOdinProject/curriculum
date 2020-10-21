@@ -18,6 +18,7 @@ RSpec.describe User do
 
   context 'when user is created' do
     let(:mailer) { instance_double(ActionMailer::MessageDelivery) }
+    let!(:web_development_101_path) { create(:path, title: 'Web Development 101') }
 
     before do
       allow(UserMailer).to receive(:send_welcome_email_to).and_return(mailer)
@@ -27,6 +28,11 @@ RSpec.describe User do
     it 'sends a welcome email' do
       user = create(:user)
       expect(UserMailer).to have_received(:send_welcome_email_to).with(user)
+    end
+
+    it 'enrolls the user in the Web Development 101 path' do
+      user = create(:user)
+      expect(user.path).to eql(web_development_101_path)
     end
   end
 

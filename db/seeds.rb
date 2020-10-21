@@ -86,6 +86,7 @@ load './db/seeds/08_node_js_course_seeds.rb'
 
 Rails.logger.info "\n\n***** STARTING PATHS *****"
 
+load './db/seeds/paths/web_development_101.rb'
 load './db/seeds/paths/full_stack_rails.rb'
 load './db/seeds/paths/full_stack_javascript.rb'
 load './db/seeds/paths/front_end.rb'
@@ -101,5 +102,5 @@ load './db/seeds/test_project_submissions.rb'
 #################
 
 Rails.logger.info "\n\n\n\n\n##################   SANITY CHECKS   ##################\n\n"
-Rails.logger.info "#{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n"
+Rails.logger.info "#{Path.count} paths, #{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n"
 Rails.logger.info "\n#######################################################\n\n\n\n"
