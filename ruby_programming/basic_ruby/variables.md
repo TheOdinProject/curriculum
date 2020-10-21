@@ -8,7 +8,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
  - Describe the naming conventions for variables.
 
-#### Declaring a Variable
+### Declaring a Variable
 This is how to create a variable in Ruby:
 
 ~~~ruby
