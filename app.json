@@ -1,7 +1,10 @@
 {
   "environments": {
     "review": {
-      "addons": ["heroku-postgresql:hobby-dev"]
+      "addons": ["heroku-postgresql:hobby-dev"],
+      "scripts": {
+        "postdeploy": "bundle exec rails db:schema:load db:seed"
+      }
     }
   }
 }
