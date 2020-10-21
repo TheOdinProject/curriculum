@@ -74,6 +74,14 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 
 You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
 
+It may take you longer than others to grasp concepts, or it may take you less time. This doesn't mean you're smarter or dumber than others, it means you've had differing life experiences that may or may not have prepared you for learning this stuff. Someone who grew up around an engineer may have some advantages over someone who didn't, but it doesn't mean you can't learn those skills.
+
+The Odin Project isn't like college or university, TOP is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into TOP, you're not expected to have much knowledge, there's no prerequisites. We've had people be successful coming through here that only knew how to check their email with a computer, we've also seen success from computer science degree holders. Treating TOP like a static timeline is ignorant simply because you don't know what you don't know yet, and that's OK! There's no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
+
+Deadlines cause un-needed stress. Since TOP is a free platform, that does not adhere you to a deadline, creating your own deadlines is a good way to rush concepts that should not be rushed. TOP is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but I bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There's no solid guidelines on that. If you're doing TOP because you need a high paying job right-now, you're likely not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
+
+Long story short: Don't worry, just go learn
+
 ### Pitfalls to Avoid 
 The following are some of the pitfalls that beginners often encounter when learning how to program. Try your best to avoid these.
 
