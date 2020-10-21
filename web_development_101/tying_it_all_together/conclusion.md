@@ -8,7 +8,7 @@ You've come a long way up the learning curve but there is so much more cool stuf
 
 Learning how to program is **much** more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and **much** more. Luckily, all these skills are transferrable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
 
-Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need to just stay on the path and finish the course.
+Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need, even if that includes researching your area to see what jobs are available locally (don't forget about remote jobs though). A good course is far more important than the language you learn first. 
 
 To help you make a decision, here are some perks of each technology:
 
