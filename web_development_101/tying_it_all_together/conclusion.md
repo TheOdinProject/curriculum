@@ -8,7 +8,33 @@ You've come a long way up the learning curve but there is so much more cool stuf
 
 Learning how to program is **much** more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and **much** more. Luckly all these skills are transferrable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
 
-Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to change outcomes of getting a job much. Though, if you cannot shake that fear, do whatever you need to just stay on the train and finish the course. 
+Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to change outcomes of getting a job much. Though, if you cannot shake that fear, do whatever you need to just stay on the train and finish the course.
+
+To help you make a decision, here are some perks of each technology:
+
+#### Ruby and Ruby On Rails: 
+* Opinionated 
+  - You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
+  - You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
+* Elegant
+  - Brings a lot of tools to help you develop things in a way that makes your code easy to read.
+  - Often times, solutions in Ruby are much more concise than other languages.
+* Rapid development
+  - Rails helps you build applications very quickly, this means you can make a greater amount of interesting projects in the same time frame as others.
+* Single paradigm
+  - OOP is the Ruby way, many other languages are primarily OOP based.
+
+#### JavaScript/Node & Express
+* Un-opinionated
+  - There is no standard way of doing things, you are left up to your own devices to decide structure of projects, for better or worse.
+* Very fast
+  - Because JavaScript is JIT complied, it can do calculations very quickly.
+* Verbose
+  - There is no magic involved with these technologies. You will have to understand everything to make sense of it. 
+  - Helps you get closer to how the computer is actually reading your code.
+* Same language on both frontend and backend
+  - Keeping the language consistent can help with writing consistent code across your entire application.
+  - Allows you do do some cool things, like writing code that runs on both the browser and the server for optimization purposes.
 
 In the end, it doesn't matter which path you take, it's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career.
 
