@@ -21,7 +21,7 @@
 
 	If its a new feature
 	```
-	$ git checkout -b improvement/improvement-name`
+	$ git checkout -b feature/feature-name`
 	```
 	If its a bug fix
 	```
