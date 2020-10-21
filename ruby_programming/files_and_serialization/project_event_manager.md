@@ -88,7 +88,7 @@ Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/cu
 
 
 ~~~bash
-$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/files_and_serialization/event_attendees.csv
+$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  2125  100  2125    0     0   3269      0 --:--:-- --:--:-- --:--:-- 12073
