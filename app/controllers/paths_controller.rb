@@ -6,7 +6,9 @@ class PathsController < ApplicationController
   end
 
   def index
-    @paths = Path.all
+    # The filter on here is temporary until the path is removed and the students
+    #  enrolled in it are migrated to another path.
+    @paths = Path.all.reject { |path| path.title == 'Front End Only' }
   end
 
   private
