@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe how routes works.
 - Describe how views and models work in practice.
 - Query database using models.
-- Describe date handling using moment.
+- Describe date handling using luxon.
 
 ### Assignment
 
