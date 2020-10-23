@@ -28,7 +28,7 @@ This is one key difference between the Asset Pipeline and Webpacker. With the As
 
 Using packs instead, we can have different pack files that can be downloaded only when needed. You can create an unlimited number of packs and just reference that pack on the page it is needed. For example if you had some code to handle form validations on the client side it might not be needed for somebody who never went to the page with the form. With the Asset Pipeline that code would be downloaded at initial page load but using Webpack you can just reference that pack in the view where it is required and it will only download when somebody visits the form.
 
-To see how this is done lets look at how we reference packs, and touch on how it used to be done using the asset pipeline. Before the Webpacker gem, when there was only the Asset Pipeline, if you started a new Rails application it would create the following lines in the `app/views/layouts/application.html.erb` file.
+To see how this is done let's look at how we reference packs, and touch on how it used to be done using the asset pipeline. Before the Webpacker gem, when there was only the Asset Pipeline, if you started a new Rails application it would create the following lines in the `app/views/layouts/application.html.erb` file.
 
 ~~~ruby
 <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => "reload" %>
@@ -97,7 +97,7 @@ If you do want to do this yourself then we would recommend you first take a deep
 
 #### Dependency Graph
 
-One key thing to note when you using Webpacker is how it works out what code to load. With the Asset Pipeline because all code was required to be loaded in the `application.js` file, Rails could build just one dependency graph of all the code and make sure no code was included twice. A good example of this might be if you used jquery in your application and then used a third party library that also uses jquery and was listed as one of its dependencies, then the Asset Pipeline would ensure it was only loaded once so you didn't bloat your code.
+One key thing to note when you're using Webpacker is how it works out what code to load. With the Asset Pipeline because all code was required to be loaded in the `application.js` file, Rails could build just one dependency graph of all the code and make sure no code was included twice. A good example of this might be if you used jquery in your application and then used a third party library that also uses jquery and was listed as one of its dependencies, then the Asset Pipeline would ensure it was only loaded once so you didn't bloat your code.
 
 With Webpack it builds a dependency graph for each pack file so it's possible, if different pack files both require the same library, to bundle the same code twice into the different packs which would then make the overall download size for the client to download everything it needs much larger. There are several ways to ensure you don't do this but the easiest way, at least when starting out, is to only use the default `application.js` pack file. If you only have one pack file where all the code you need is included then the dependency graph will be built from that one file and Webpack will ensure it optimises the code required.
 
