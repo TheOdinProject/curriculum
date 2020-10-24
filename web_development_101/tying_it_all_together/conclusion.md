@@ -34,7 +34,7 @@ To help you make a decision, here are some perks of each technology:
   - Helps you get closer to how the computer is actually reading your code.
 * Same language on both frontend and backend
   - Keeping the language consistent can help with writing consistent code across your entire application.
-  - Allows you do do some cool things, like writing code that runs on both the browser and the server for optimization purposes.
+  - Allows you to do some cool things, like writing code that runs on both the browser and the server for optimization purposes.
 
 In the end, it doesn't matter which path you take, it's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? [click here](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371)
 
