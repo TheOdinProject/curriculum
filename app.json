@@ -1,9 +1,12 @@
 {
   "environments": {
     "review": {
+      "formation": [
+        { "process": "web",    "quantity": 1 }
+      ],
       "addons": ["heroku-postgresql:hobby-dev"],
       "scripts": {
-        "postdeploy": "bundle exec rails db:schema:load db:seed"
+        "postdeploy": "bundle exec rails db:seed"
       }
     }
   }
