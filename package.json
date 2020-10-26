@@ -15,7 +15,7 @@
     "popper.js": "^1.16.1",
     "prismjs": "^1.22.0",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.9.2",
     "react-scrolllock": "^5.0.1",
