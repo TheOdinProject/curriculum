@@ -22,11 +22,22 @@ In many ways TDD is much more productive than writing code without tests.  If we
 
 We will teach you the art of actually writing these tests later in the course.  The following exercises have the tests already written out for you. All you have to do is read the specs and write the code that makes them pass!  The very first exercise \(`01-helloWorld`\) is intentionally very simple and walks you through the process of running the tests and making them pass.  
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 ### Good Luck!
 
 <<<<<<<< HEAD:foundations/javascript_basics/fundamentals-4.md
 Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README] (https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jasmine.  Solutions for the exercises can be found on the 'solutions' branch of that repo.      
+========
+Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README] (https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jasmine.  Solutions for the exercises can be found on the 'solutions' branch of that repo.
+>>>>>>>> 1e40b0ced80b43cbbc336ee2e6da48521b99194d:web_development_101/javascript_basics/fundamentals-4.md
+=======
+
+### Good Luck!
+
+<<<<<<<< HEAD:foundations/javascript_basics/fundamentals-4.md
+Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jasmine.  Solutions for the exercises can be found on the 'solutions' branch of that repo. 
+>>>>>>> 1e40b0ced80b43cbbc336ee2e6da48521b99194d
 ========
 Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README] (https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jasmine.  Solutions for the exercises can be found on the 'solutions' branch of that repo.
 >>>>>>>> 1e40b0ced80b43cbbc336ee2e6da48521b99194d:web_development_101/javascript_basics/fundamentals-4.md
