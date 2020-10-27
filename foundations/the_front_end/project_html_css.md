@@ -19,24 +19,24 @@ These skills will be helpful for you when you start building. Either try them yo
 
 ### Setting Up Your Project's GitHub Repository (optional)
 
-As mentioned in the [introduction to Git](/courses/web-development-101/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [introduction to Git](/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to set up a repository, follow the instructions found in [Project: Git Basics](/courses/web-development-101/lessons/practicing-git-basics) to learn how.
+If you do not know how to set up a repository, follow the instructions found in [Project: Git Basics](/courses/foundations/lessons/practicing-git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
 
-- [Setting up SSH on GitHub](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github).
+- [Setting up SSH on GitHub](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github).
 
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 5. If you want to share your solution, include a link in the markdown file included at the top of the Student Solutions section.
 
 If you are having trouble:
 
-- Ensure you followed the steps [here on Step 2.3](/courses/web-development-101/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
-- Refer to the [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson.
-- Review the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the Git Basics Project.
+- Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
+- Refer to the [cheat sheet](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
+- Review the [workflow](/courses/foundations/lessons/practicing-git-basics) in the Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 

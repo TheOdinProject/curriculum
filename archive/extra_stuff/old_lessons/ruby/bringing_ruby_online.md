@@ -2,7 +2,7 @@
 
 You know how to write scripts and games using Ruby but so far that's all confined within the boundaries of your local system.  In this section, you'll learn how to break free and start mucking around on the Internet.
 
-You (should have) learned about how the web works in the [How Does The Web Work](/web-development-101/how-does-the-web-work) lesson from the [Web Development 101](/web-development-101) course, but it might be worth heading back for a refresher if you've got any lingering questions.  You'll be working with HTTP requests and responses quite a bit in this section so it's important to at least understand what's going on there.  
+You (should have) learned about how the web works in the [How Does The Web Work](/foundations/how-does-the-web-work) lesson from the [Foundations](/foundations) course, but it might be worth heading back for a refresher if you've got any lingering questions.  You'll be working with HTTP requests and responses quite a bit in this section so it's important to at least understand what's going on there.
 
 Ruby (or a gem that you've downloaded) will give you the power to send HTTP requests, whether GET or POST or PUT or DELETE, and then wait for a response.  You'll find yourself needing to take apart that response to get to the good stuff, whether that's the HTML of a web page you're trying to scrape or a JSON object returned by some website's API that you've queried.  Every gem has a slightly different way of doing it, but the principles remain the same.  On the flip side, Ruby gives you the tools to listen for requests and deliver responses... as a web server yourself!
 

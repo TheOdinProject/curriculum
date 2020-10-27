@@ -20,7 +20,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 
 #### Create the Repository
 
-1. You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/web-development-101/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
+1. You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="https://imgur.com/LURPUjP"><img class="tutorial-img" src="https://i.imgur.com/LURPUjP.png" title="source: imgur.com" /></a>
@@ -64,7 +64,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
 - **Note #1: Make sure you are using a recent version of git (2.28 or later). You can check your version by running:** `git --version`
-- **Note #2: If you haven't already, set your default git branch to** `main`.  
+- **Note #2: If you haven't already, set your default git branch to** `main`.
 You can do so by running: `git config --global init.defaultBranch main`
 - We are in the process of updating the screenshots to meet the new changes. For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 

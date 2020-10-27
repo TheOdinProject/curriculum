@@ -1,6 +1,6 @@
 ### Introduction
 
-Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/web-development-101/ruby-basics) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.  
+Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Foundations Course](/foundations/ruby-basics) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.
 
 But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!
 
@@ -80,7 +80,7 @@ Look through these now and then use them to test yourself after doing the assign
 #### Dates and Times:
 * How do you get the current date and time?
 * How do you find just the Year?  Month? Hour? Second? Weekday?
-* How do you create a `Time` specifically for 12/25/2013?  
+* How do you create a `Time` specifically for 12/25/2013?
 * How do you find how many days have passed between two `Time`'s?
 * What's the difference between UTC and GMT and Local times?
 * How would you find out the time that was 100 seconds ago? 10 days ago?
@@ -101,7 +101,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
+  1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Foundations course to start with.
   2. Do the full [Codecademy Introduction to Ruby section](http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1) from their [Ruby Track](http://www.codecademy.com/tracks/ruby).
   3. Complete the [Codecademy Introduction to Ruby](http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1) project ("Putting the Form in Formatter")
   4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797/ref=sr_1_1?ie=UTF8&qid=1475608118&sr=8-1&keywords=beginning+ruby) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`

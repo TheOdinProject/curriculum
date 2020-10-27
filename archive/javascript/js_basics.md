@@ -4,7 +4,7 @@ Javascript is here to stay and, if you want to be a full-stack developer, you're
 
 It's actually quite easy to hack together simple browser interactions using a bit of Javascript and a healthy dose of jQuery.  Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world.
 
-You should already have completed the [Web Development 101 Javascript lesson](/web-development-101/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
+You should already have completed the [Foundations Javascript lesson](/foundations/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
 
 ### Learning Outcomes
 This is a fairly long list of things to pay attention to but it should be mostly review.

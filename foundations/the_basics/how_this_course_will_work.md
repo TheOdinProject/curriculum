@@ -24,4 +24,4 @@ Most lessons will contain questions that you should be able to answer before mov
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next (and all the cool stuff you can do with it).
 
-The courses that come after this one are designed to take that foundation and build it into an applied understanding of the material.  Those courses will focus on taking these raw building blocks and honing them into a highly functional skillset.  Once you've completed Web Development 101, you'll have built a strong foundation to take those next steps.
+The courses that come after this one are designed to take that foundation and build it into an applied understanding of the material.  Those courses will focus on taking these raw building blocks and honing them into a highly functional skillset.  Once you've completed the Foundations course, you'll have built a strong foundation to take those next steps.

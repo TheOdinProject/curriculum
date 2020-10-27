@@ -1,6 +1,6 @@
 ### Introduction
 
-Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
+Back in the Foundations course you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
 
 Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).
 
@@ -15,7 +15,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/courses/foundations/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 4. Create empty semantic HTML elements to enclose those sections.

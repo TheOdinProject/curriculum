@@ -174,7 +174,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Ho Won Cheng's solution](https://github.com/chenghw/ruby_101_project)
 * [Aleksandre Clapin-Pepin's solution](https://github.com/aclapinpepin/test-first-teaching)
 * [Scott Bobbitt's Solution](https://github.com/sco-bo/rspec-ruby)
-* [Florian Mainguy's Solution](https://github.com/florianmainguy/theodinproject/tree/master/web-development-101/test-first-ruby)
+* [Florian Mainguy's Solution](https://github.com/florianmainguy/theodinproject/tree/master/foundations/test-first-ruby)
 * [dchen71's Solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/Learn%20Ruby)
 * [Spekachu's Solution](https://github.com/Spekachu/learn_ruby)
 * [Sandeep's Solution](https://github.com/sand33pn/odin_ruby_project)
@@ -245,7 +245,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/learn_ruby)
 * [John Connor's solution](https://github.com/jacgitcz/project_ruby)
 * [Shala's solution](https://github.com/ShalaQweghen/project_ruby)
-* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/ruby-project)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/foundations/ruby-project)
 * [Singh Satnam's solution](https://github.com/rssatnam/project-ruby)
 * [dzero's solution](https://github.com/d-zer0/the_odin_project/tree/master/project3_ruby/ruby_testing)
 * [dckwong's solution](https://github.com/dckwong/learn_ruby)
@@ -367,7 +367,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [NJW's Solution](https://github.com/obsessivenerds/learn_ruby)
 * [Samitha's Solution](https://github.com/samomatik/learn_ruby)
 * [CurmudJim's Solution](https://github.com/CurmudJim/learn_ruby)
-* [Jason's Solution](https://github.com/jn4248/learn_ruby) 
+* [Jason's Solution](https://github.com/jn4248/learn_ruby)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

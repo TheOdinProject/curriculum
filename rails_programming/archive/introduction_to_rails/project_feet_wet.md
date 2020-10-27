@@ -1,8 +1,8 @@
 ### Warmup: Installations and Blogger
 
-To do this course, you've got to have Rails and several other technologies [properly installed on your computer](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application).  That will be the first task if you haven't already.
+To do this course, you've got to have Rails and several other technologies [properly installed on your computer](https://www.theodinproject.com/courses/foundations/lessons/your-first-rails-application).  That will be the first task if you haven't already.
 
-Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) (which was assigned way back in the Web Development 101 course).  The Blogger tutorial is actually more challenging than the project below, and was assigned to give you a chance to get in over your head a bit so you'd pay attention along the way :)
+Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) (which was assigned way back in the Foundations course).  The Blogger tutorial is actually more challenging than the project below, and was assigned to give you a chance to get in over your head a bit so you'd pay attention along the way :)
 
 ### Project: Starting The RoR Tutorial
 
@@ -14,9 +14,9 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. If you haven't already, do the [your first rails application](https://www.theodinproject.com/courses/web-development-101/lessons/your-first-rails-application).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** (at least) and **Ruby 2** working properly.
+1. If you haven't already, do the [your first rails application](https://www.theodinproject.com/courses/foundations/lessons/your-first-rails-application).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** (at least) and **Ruby 2** working properly.
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning).
-3. If you haven't done either of these, you should go back to the [Web Development 101](/courses/web-development-101) course and at least do the [Web Development Frameworks section](/courses/web-development-101/#web-development-frameworks).
+3. If you haven't done either of these, you should go back to the [Foundations](/courses/foundations) course and at least do the [Web Development Frameworks section](/courses/foundations/#web-development-frameworks).
 
 4. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above, you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over GitHub because bitbucket has free private repos. However, GitHub [recently announced](https://blog.github.com/2019-01-07-new-year-new-github/) that they now also offer free private repos. If you choose to make your repositories private, keep in mind that your solution will not be able to be viewed by others.  If you feel a little lost, it might not hurt to go back and re-read Chapter 1.
 </div>
@@ -49,7 +49,7 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in
 * [Rudi Boshoff's Solution](https://github.com/RudiBoshoff/toy_app) - [Heroku](https://dry-plateau-33966.herokuapp.com/users)
 * [Zeha's solution](https://github.com/JangkarBumi/odin-toy-app)
 * [Smetanca52's Solution](https://github.com/Smetanca52/toy_app) - [Heroku](https://serene-chamber-16862.herokuapp.com/)
-* [Noah Maizels' Solution](https://github.com/noahniuwa/rails-tutorial-toy-app) 
+* [Noah Maizels' Solution](https://github.com/noahniuwa/rails-tutorial-toy-app)
 * [Simon Tharby's Solution](https://github.com/jinjagit/toy_app) - [Heroku](https://vast-spire-64894.herokuapp.com/)
 * [Stefano Merazzi's Solution](https://github.com/ste001/toy-app) - [Heroku](https://ancient-lake-46665.herokuapp.com/)
 * [Jason McKee's Solution](https://github.com/jttmckee/toy_app) - [Heroku](https://damp-fjord-77322.herokuapp.com)
@@ -95,7 +95,7 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in
 * [Filipe's solution](https://github.com/panceri/demo-app)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/toy_app)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/rails_tutorial_chapter_2)
-* [AtActionPark's solution](https://github.com/AtActionPark/toy_app) 
+* [AtActionPark's solution](https://github.com/AtActionPark/toy_app)
 * [Matias Pan's solution](https://github.com/kriox26/odin_toy_app)
 * [Alex Chen's solution](https://github.com/Chenzilla/toy_app)
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/toy_app)
@@ -115,18 +115,18 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/toy-app) - [Heroku](https://odin-toy-app.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/toy_app)
 * [Max Gallant's solution](https://github.com/mcgalcode/toy_app)
-* [Artur Okonski's solution](https://github.com/cloudtemplar/hello_app) 
+* [Artur Okonski's solution](https://github.com/cloudtemplar/hello_app)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project2--ch1-2-the-rails-tutorial)
-* [Fabricio Carrara's solution](https://bitbucket.org/fcarrara/toy_app/src) 
+* [Fabricio Carrara's solution](https://bitbucket.org/fcarrara/toy_app/src)
 * [djhart's solution](https://github.com/djhart/toy_app)
 * [Earth35's solution](https://github.com/Earth35/toy_app) - [Heroku](http://safe-lowlands-63069.herokuapp.com)
 * [David Chapman's solution](https://github.com/davidchappy/hartl_toy_app)
-* [Shala Qweghen's solution](https://github.com/ShalaQweghen/toy_app) 
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/toy_app)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/toy_app) - [Heroku](https://toy-app-by-jiazhi.herokuapp.com/)
 * [Jiazhi Guo's solution](https://github.com/dckwong/toy_app) - [Heroku](https://fast-sands-99168.herokuapp.com/)
 * [csrail's solution](https://github.com/csrail/toy_app)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/toy_app)
-* [Austin's solution](https://github.com/CouchofTomato/toy_app) 
+* [Austin's solution](https://github.com/CouchofTomato/toy_app)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/warmup/toy_app) - [Heroku](https://jpeikert-toy-app.herokuapp.com/)
 * [Joe Himes's solution](https://github.com/deedle42/toy_app) - [Heroku](https://peaceful-fortress-41063.herokuapp.com/)
 * [at0micr3d's solution](https://github.com/at0micr3d/toy_app) - [Heroku](https://powerful-retreat-66686.herokuapp.com/)
@@ -144,7 +144,7 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in
 * [Jeff Jubin's solution](https://github.com/jeff1st/toy_app)
 * [Bridget Nyirongo's solution](https://github.com/Bridget12/toy_app) - [Heroku](https://toyapp56.herokuapp.com/)
 * [Luke Bartholomew's solution](https://github.com/lukesbart/toy_app) - [Heroku](http://safe-gorge-83677.herokuapp.com/users)
-* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/toy_app) 
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/toy_app)
 * [Punnadittr's solution](https://github.com/punnadittr/rails_toy_app) - [Heroku](https://pacific-bastion-46267.herokuapp.com/)
 * [Agon's solution](https://github.com/AgonIdrizi/toy_app) - [Heroku](https://toy-app-agon.herokuapp.com/)
 * [Areeba's solution](https://github.com/AREEBAISHTIAQ/toy-app) - [Heroku](https://quiet-anchorage-14578.herokuapp.com/)
@@ -157,7 +157,7 @@ Submit your solution for the Ruby on Rails tutorial chapter 2, make sure it's in
 * [Leila Alderman's solution](https://github.com/leila-alderman/toy_app) - [Heroku](https://shielded-mesa-98541.herokuapp.com/users)
 * [JamCry's Solution](https://github.com/jamcry/rails-toy-app) - [Heroku](https://jamcry-toy-app.herokuapp.com/)
 * [Andre Roy's Solution](https://github.com/RoyNyaga/toy_app_odin_project)
-* [Alex Krewson's Solution](https://github.com/alexkrewson/rails_feet_wet) 
+* [Alex Krewson's Solution](https://github.com/alexkrewson/rails_feet_wet)
 * [Robert Dunbar's Solution](https://github.com/RobertDunbar/toy-app) - [Heroku](https://hidden-brushlands-06627.herokuapp.com)
 * [Rey's Solution](https://github.com/Rey810/Toy-App)
 * [Miguel's Solution](https://github.com/mapra99/toyApp)

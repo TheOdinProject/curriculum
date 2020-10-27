@@ -2,7 +2,7 @@ Welcome to Rails! Maybe you've skipped right here because you just want to start
 
 You should already have a good idea of what Rails is all about after covering it in previous lessons (see Prerequisites below for links).  At this point, it's time to take that theoretical knowledge and start building websites.  This portion of the curriculum will be the most build-heavy so far.  You will still be asked to read docs, check out blog posts, and watch videos before building, of course, but projects will be the major focus.
 
-After each lesson or two, you'll be asked to build one or more independent projects utilizing the concepts that were just covered (which is exactly what we've been doing up until now).  You'll also be asked to complete a chapter or two from the [Ruby on Rails Tutorial](https://www.railstutorial.org/book) by Michael Hartl.  
+After each lesson or two, you'll be asked to build one or more independent projects utilizing the concepts that were just covered (which is exactly what we've been doing up until now).  You'll also be asked to complete a chapter or two from the [Ruby on Rails Tutorial](https://www.railstutorial.org/book) by Michael Hartl.
 
 That tutorial is often too deep for fresh beginners to Rails but we'll be using it as a way to build a single large project one chapter at a time while you progress through the lessons.  You should have a much better idea of what's going on in the tutorial than your average beginner since we'll be covering each of its component concepts prior to actually building it in the tutorial.
 
@@ -18,7 +18,7 @@ Finally, we'll cover additional useful topics like how to send emails from your 
 
 ### Our Tools and Texts
 
-The most important resources that we'll leverage are the [Rails Guides](http://guides.rubyonrails.org/) and the [Ruby on Rails Tutorial](https://www.railstutorial.org/book).  Together, they comprise a near-complete set of open-source resources for learning Rails.  
+The most important resources that we'll leverage are the [Rails Guides](http://guides.rubyonrails.org/) and the [Ruby on Rails Tutorial](https://www.railstutorial.org/book).  Together, they comprise a near-complete set of open-source resources for learning Rails.
 
 The Guides are comprehensive, basically a completely open-source textbook and reference manual for Rails.  At times they'll get a bit more technical than you might like, and it may be okay to skim some of that.  When you Google for a solution later, if it's not showing up on Stack Overflow then it's probably going to give you a link to the Guides.
 
@@ -37,12 +37,12 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 **If you haven't completed these, be sure to do so before getting started:**
 
 <div class="lesson-content__panel" markdown="1">
-  * Your software should be installed, as listed in the [Installfest section](/web-development-101/installations).
-  * You should really have gone through the full [Web Development 101](/web-development-101) course, but the most important parts are listed below.
-      * Read the full [Back End section](/courses/web-development-101/lessons/introduction-to-the-back-end) of the Web Development 101 section for an introduction to Ruby.
-      * Complete at least the full [Ruby Basics](/courses/web-development-101/lessons/ruby-basics) lesson (all readings and projects) to have a solid grounding in Ruby basics.
-      * Read the [Rails portion of the Web Development 101](/courses/web-development-101/lessons/ruby-on-rails-basics) section for an overview of Rails.  
-      * Build the [Rails project from the Web Dev 101 section](/courses/web-development-101/lessons/ruby-on-rails) to get your hands dirty with Rails first.
+  * Your software should be installed, as listed in the [Installfest section](/foundations/installations).
+  * You should really have gone through the full [Foundations](/foundations) course, but the most important parts are listed below.
+      * Read the full [Back End section](/courses/foundations/lessons/introduction-to-the-back-end) of the Foundations section for an introduction to Ruby.
+      * Complete at least the full [Ruby Basics](/courses/foundations/lessons/ruby-basics) lesson (all readings and projects) to have a solid grounding in Ruby basics.
+      * Read the [Rails portion of the Foundations](/courses/foundations/lessons/ruby-on-rails-basics) section for an overview of Rails.
+      * Build the [Rails project from the Foundations section](/courses/foundations/lessons/ruby-on-rails) to get your hands dirty with Rails first.
 </div>
 
 ### Additional Resources
