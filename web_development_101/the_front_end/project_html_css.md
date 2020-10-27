@@ -42,7 +42,7 @@ Note: All Git commands need to be run from inside your project's folder (did you
 
 _When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin master`._
 
-If you have entered `git push origin master` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
+If you have entered `git push origin main` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
