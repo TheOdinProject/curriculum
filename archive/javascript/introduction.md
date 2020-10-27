@@ -2,11 +2,11 @@
 
 Javascript is the future of the web.  More and more of the logic is making its way to the client side in order to facilitate lightning fast user experiences.  Javascript is even moving to the server side with Node.js.  That's why in this course we'll be diving deep into it to make sure you come out with a good understanding of how it works.
 
-You've already completed the [Web Development 101 course](/web-development-101/#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
+You've already completed the [Foundations course](/foundations/#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
 
 ### The Path
 
-So how is this course set up? It starts with a deeper look at the basics, just like the [Ruby Programming course](/ruby-programming) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/ruby-on-rails) to understand these basics but we won't be focusing deeply on the really basic coding items so it'll move quickly.  You should, however, already have completed the [Web Development 101 course](/web-development-101), specifically the [Front End Section](/web-development-101#section-the-front-end) before starting this course.
+So how is this course set up? It starts with a deeper look at the basics, just like the [Ruby Programming course](/ruby-programming) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/ruby-on-rails) to understand these basics but we won't be focusing deeply on the really basic coding items so it'll move quickly.  You should, however, already have completed the [Foundations course](/foundations), specifically the [Front End Section](/foundations#section-the-front-end) before starting this course.
 
 After we've finished going over the basics of Javascript and jQuery, we'll dive deeper into the actual language of Javascript so you can go beyond just playing around with your browser elements.  Again, we won't assume you've completed the Ruby course here but we will be drawing some comparisons to Ruby for those who have in order to illustrate the differences between the two languages.
 

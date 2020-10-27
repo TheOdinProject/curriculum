@@ -8,8 +8,8 @@ Now you know what pair programming is and how to set up your computer for it. Ho
 
 Some things to keep in mind for when you start building:
 
-1. If you haven't already, make sure to do the [git lessons](http://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git). While you are working on the project, it can live on the shared Cloud 9 workspace, but once you are done, you'll want to have a place to put it for both of you.
-2. Remember those documentation pages we had you bookmark in the [Introduction to the Front End](http://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-the-front-end) lesson? Feel free to reference them for reminders as well as ideas.
+1. If you haven't already, make sure to do the [git lessons](http://www.theodinproject.com/courses/foundations/lessons/introduction-to-git). While you are working on the project, it can live on the shared Cloud 9 workspace, but once you are done, you'll want to have a place to put it for both of you.
+2. Remember those documentation pages we had you bookmark in the [Introduction to the Front End](http://www.theodinproject.com/courses/foundations/lessons/introduction-to-the-front-end) lesson? Feel free to reference them for reminders as well as ideas.
 3. Take advantage of the fact that you are pairing: pick each other's brains! Maybe the Navigator can look something up while the Driver is typing? Work together to solve the problem!
 
 Enough talk! Let's build!
@@ -18,7 +18,7 @@ Enough talk! Let's build!
 
 <div class="lesson-content__panel" markdown="1">
 
-  [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/web-development-101/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
+  [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/foundations/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
 
   We are going to make a Pomodoro clock similar to [this](http://romantic-trouble.surge.sh/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
 
@@ -258,7 +258,7 @@ Submit a link below to the [github repo](https://github.com/TheOdinProject/curri
 * [RiceFree's and Sukru's Solution](https://github.com/sukrugorgulu/pomodoro) - [View in Browser](https://sukrugorgulu.github.io/pomodoro/)
 * [ahanasi's Solution](https://github.com/ahanasi/pomodoro-clock) - [View in Browser](https://ahanasi.github.io/pomodoro-clock/)
 * [bryanluu and adilahmad321's Solution](https://github.com/adilahmad321/Pomodoro-Clock) - [View in Browser](https://adilahmad321.github.io/Pomodoro-Clock/)
-* [Chandra's Solution](https://github.com/CodeSurfer3022/Pomodoro-timer) - [View in Browser](https://codesurfer3022.github.io/Pomodoro-timer/) 
+* [Chandra's Solution](https://github.com/CodeSurfer3022/Pomodoro-timer) - [View in Browser](https://codesurfer3022.github.io/Pomodoro-timer/)
 </details>
 
 ### Next Steps

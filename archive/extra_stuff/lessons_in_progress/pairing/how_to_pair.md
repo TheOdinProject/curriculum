@@ -3,7 +3,7 @@
 ## Tools
 For best pairing between two people, we recommend using a tool called [Screenhero](http://www.screenhero.com). Screenhero is like Skype for screen sharing and lets you interact remotely with the other person's computer for free. It includes both screen sharing and voice.  It's just one-click-to-call, allowing you to talk while you're working together on the same code on one of your computers... remotely!
 
-Combining being able to talk with someone and being able to see and interact with the same computer is what makes pairing work.  
+Combining being able to talk with someone and being able to see and interact with the same computer is what makes pairing work.
 
 You could do it using just chat but it's not close to the same experience.  It's probably not necessary (and a waste of bandwidth) to have a separate video feed going at the same time either.
 
@@ -30,7 +30,7 @@ The downside is that you can't really do a good fullscreen session with Google.
 
 #### Additional Google Hangout Resources
 
-Here's a [Google Hangout tutorial (video)](http://www.youtube.com/watch?v=Tt_86-SrBX0) and another on [using Hangouts to screen share](http://www.youtube.com/watch?v=mvpFsmcfz1k).  
+Here's a [Google Hangout tutorial (video)](http://www.youtube.com/watch?v=Tt_86-SrBX0) and another on [using Hangouts to screen share](http://www.youtube.com/watch?v=mvpFsmcfz1k).
 
 Check out [this how-to video](http://www.youtube.com/watch?v=3XeCQrPZQ6Y) to familiarize yourself with Remote Desktop.
 
@@ -67,9 +67,9 @@ There are a few different techniques for how to manage the actual process of pai
 
 When you're done with your session, you've got code sitting on someone's computer that you'd both like to have.  If you're using git to save your work and push to a github repo, just make sure the repo is public and both of you will have access to it or be able to fork it as necessary (a good incentive to start using git...).
 
-If you aren't using git yet, just have the student with the code on their hard drive email out the files or a .zip archive of them to make sure both people have it. 
+If you aren't using git yet, just have the student with the code on their hard drive email out the files or a .zip archive of them to make sure both people have it.
 
-If you're now really curious about git, check out the git section of [Web Development 101](/web-development-101/git-basics) for an introduction to this incredibly important tool.
+If you're now really curious about git, check out the git section of [Foundations](/foundations/git-basics) for an introduction to this incredibly important tool.
 
 ## Additional Resources
 

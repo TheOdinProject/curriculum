@@ -1,6 +1,6 @@
 ### Introduction
 
-Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in [Ruby Basics](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/ruby_basics_lesson.md), this section will reinforce what you've already learned with *Variables, Data Types, Strings, and Methods*.  
+Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in [Ruby Basics](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/basic_ruby/ruby_basics_lesson.md), this section will reinforce what you've already learned with *Variables, Data Types, Strings, and Methods*.
 
 But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!
 
@@ -80,7 +80,7 @@ Look through these now and then use them to test yourself after doing the assign
 #### Dates and Times:
 * How do you get the current date and time?
 * How do you find just the Year?  Month? Hour? Second? Weekday?
-* How do you create a `Time` specifically for 12/25/2013?  
+* How do you create a `Time` specifically for 12/25/2013?
 * How do you find how many days have passed between two `Time`'s?
 * What's the difference between UTC and GMT and Local times?
 * How would you find out the time that was 100 seconds ago? 10 days ago?
@@ -101,7 +101,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
+  1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Foundations course to start with.
   2. Do the full [Codecademy Introduction to Ruby section](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/) from their [Ruby Track](https://www.codecademy.com/catalog/language/ruby).
   3. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
   4. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so)

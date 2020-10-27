@@ -8,7 +8,7 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 ### Format
 
-Ruby's a big language so it's been broken up into smaller chunks to make it more digestible.  The format should feel quite familiar to you since it's essentially the same as we used in Web Development 101.
+Ruby's a big language so it's been broken up into smaller chunks to make it more digestible.  The format should feel quite familiar to you since it's essentially the same as we used in the Foundations course.
 
 #### In each lesson:
 
@@ -21,14 +21,14 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 
 ### Two Paths Forward
 
-Everyone is coming into this with a different goal in mind, so to accommodate that, here's two options for your path forward:  
+Everyone is coming into this with a different goal in mind, so to accommodate that, here's two options for your path forward:
 
 1. **If you're just trying to race ahead and put up some Rails sites as fast as possible** (and worry about learning the fundamentals later), then your best bet is to first complete the Basic Ruby section, which uses primarily Codecademy as a resource, and then skip to the Rails course.  Your knowledge won't be complete but you'll be in a pretty good spot to start from if you're in a hurry.
 2. **If you're really looking for a solid, sustainable base of knowledge**, just stick to the normal roadmap.  What we cover will give you a problem solving ability that you won't otherwise have.  The projects, especially the final one, are worthy feathers in your cap that you can show off to any employer.  We'll get you there and there really aren't any shortcuts in the long term.
 
 ### Our Primary "Textbooks"
 
-1. [Codecademy.com](http://www.codecademy.com/tracks/ruby) has a lot of great introductory content to get you ramped into the Ruby language.  You've already read [Chris Pine's Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 section for a good introduction, and the Codecademy stuff will overlap a bit and carry forward from there.
+1. [Codecademy.com](http://www.codecademy.com/tracks/ruby) has a lot of great introductory content to get you ramped into the Ruby language.  You've already read [Chris Pine's Learn to Program](http://pine.fm/LearnToProgram/) in the Foundations course for a good introduction, and the Codecademy stuff will overlap a bit and carry forward from there.
 2. Peter Cooper's [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it. It's a bit outdated but Ruby hasn't changed a whole lot since then.  The goal of this project is to move BEYOND Codecademy and other simple, free resources and get you building stuff on your own.  This book will start covering some of the more intermediate/useful stuff that you'll need to know to do that.
 
 ### The (Free) Backup "Textbooks"
