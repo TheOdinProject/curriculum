@@ -40,7 +40,7 @@ If you are having trouble:
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
-_When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin master`._
+_When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`._
 
 If you have entered `git push origin main` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
 
@@ -84,7 +84,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - make sure that the main HTML file of your project is called `index.html`. If it is not, you will need to rename it.
 - go to your GitHub repo on the web and click the **Settings** button
 - scroll down until you find the **GitHub Pages** section
-- change the **Source** from _none_ to _master branch_ and click Save.
+- change the **Source** from _none_ to _main branch_ and click Save.
 - it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
 
 ### Additional Resources
