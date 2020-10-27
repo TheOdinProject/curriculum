@@ -86,8 +86,8 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
-* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://amzn.com/B0096BYG7C) by Sandi Metz.
+* [99 Bottles of OOP](https://sandimetz.com/99bottles), by Sandi Metz, an e-book available for purchase, described as "a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code." Recommended by many as a great introduction to Object Oriented Programming, available in Ruby and JavaScript (bundled together).
+* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://amzn.com/B0096BYG7C), a physical book also by Sandi Metz.
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
