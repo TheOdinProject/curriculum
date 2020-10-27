@@ -5,11 +5,11 @@ module Api
     let(:params) { { start_date: start_date, end_date: end_date } }
     let(:start_date) { '2019/01/01' }
     let(:end_date) { '2019/01/31' }
-    let!(:course) { create(:course, title: 'Web Development 101', position: 1) }
+    let!(:course) { create(:course, title: 'Foundations', position: 1) }
 
     let(:serialized_course) do
       {
-        'title' => 'Web Development 101',
+        'title' => 'Foundations',
         'sections' => [
           {
             'title' => 'Installations',

@@ -488,7 +488,7 @@ section = create_or_update_section(
   title_url: 'Testing Ruby with RSpec'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "You've been briefly introduced to testing in Ruby a couple of times before in the Web Development 101 course, but now you're going to really learn why testing can be hugely helpful and how to apply it to your own projects."
+  description: "You've been briefly introduced to testing in Ruby a couple of times before in the Foundations course, but now you're going to really learn why testing can be hugely helpful and how to apply it to your own projects."
 )
 
 lesson_position += 1

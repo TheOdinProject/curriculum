@@ -57,8 +57,8 @@ class User < ApplicationRecord
   end
 
   def enroll_in_web_development_101
-    path = Path.find_by(title: 'Web Development 101')
+    default_path = Path.default_path
 
-    update(path_id: path.id) if path.present?
+    update(path_id: default_path.id) if default_path.present?
   end
 end

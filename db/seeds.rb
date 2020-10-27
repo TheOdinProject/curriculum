@@ -75,7 +75,7 @@ def create_or_update_lesson(lesson_attrs)
 end
 # rubocop:enable Metrics/AbcSize
 
-load './db/seeds/01_web_dev_101_seeds.rb'
+load './db/seeds/01_foundations_seeds.rb'
 load './db/seeds/02_ruby_course_seeds.rb'
 load './db/seeds/03_database_course_seeds.rb'
 load './db/seeds/04_rails_course_seeds.rb'
@@ -86,7 +86,7 @@ load './db/seeds/08_node_js_course_seeds.rb'
 
 Rails.logger.info "\n\n***** STARTING PATHS *****"
 
-load './db/seeds/paths/web_development_101.rb'
+load './db/seeds/paths/foundations.rb'
 load './db/seeds/paths/full_stack_rails.rb'
 load './db/seeds/paths/full_stack_javascript.rb'
 load './db/seeds/paths/front_end.rb'

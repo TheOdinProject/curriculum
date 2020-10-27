@@ -10,20 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_19_205546) do
+ActiveRecord::Schema.define(version: 2020_10_26_230831) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "active_admin_comments", force: :cascade do |t|
+  create_table "active_admin_comments", id: :serial, force: :cascade do |t|
     t.string "namespace"
     t.text "body"
     t.string "resource_type"
-    t.bigint "resource_id"
+    t.integer "resource_id"
     t.string "author_type"
-    t.bigint "author_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.integer "author_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id"
     t.index ["namespace"], name: "index_active_admin_comments_on_namespace"
     t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id"
@@ -32,16 +32,16 @@ ActiveRecord::Schema.define(version: 2020_10_19_205546) do
   create_table "admin_flashes", id: :serial, force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "message"
+    t.string "message", limit: 255
     t.datetime "expires"
   end
 
   create_table "courses", id: :serial, force: :cascade do |t|
-    t.string "title"
+    t.string "title", limit: 255
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "title_url"
+    t.string "title_url", limit: 255
     t.integer "position", null: false
     t.string "slug"
     t.index ["slug"], name: "index_courses_on_slug"
@@ -74,22 +74,22 @@ ActiveRecord::Schema.define(version: 2020_10_19_205546) do
   create_table "lesson_completions", id: :serial, force: :cascade do |t|
     t.integer "lesson_id"
     t.integer "student_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.index ["lesson_id", "student_id"], name: "index_lesson_completions_on_lesson_id_and_student_id", unique: true
     t.index ["student_id"], name: "index_lesson_completions_on_student_id"
   end
 
   create_table "lessons", id: :serial, force: :cascade do |t|
-    t.string "title"
-    t.string "url"
+    t.string "title", limit: 255
+    t.string "url", limit: 255
     t.integer "position", null: false
     t.text "description"
     t.boolean "is_project", default: false
     t.integer "section_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "title_url"
+    t.string "title_url", limit: 255
     t.text "content"
     t.string "slug"
     t.string "repo"
@@ -114,8 +114,8 @@ ActiveRecord::Schema.define(version: 2020_10_19_205546) do
     t.integer "position"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.boolean "default", default: false
     t.string "slug"
+    t.boolean "default_path", default: false, null: false
     t.index ["slug"], name: "index_paths_on_slug", unique: true
   end
 
@@ -141,12 +141,12 @@ ActiveRecord::Schema.define(version: 2020_10_19_205546) do
   end
 
   create_table "sections", id: :serial, force: :cascade do |t|
-    t.string "title"
+    t.string "title", limit: 255
     t.integer "position", null: false
     t.integer "course_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "title_url"
+    t.string "title_url", limit: 255
     t.text "description"
     t.index ["course_id"], name: "index_sections_on_course_id"
     t.index ["position"], name: "index_sections_on_position"
@@ -173,24 +173,24 @@ ActiveRecord::Schema.define(version: 2020_10_19_205546) do
   end
 
   create_table "users", id: :serial, force: :cascade do |t|
-    t.string "email", default: "", null: false
-    t.string "encrypted_password", default: "", null: false
-    t.string "reset_password_token"
+    t.string "email", limit: 255, default: "", null: false
+    t.string "encrypted_password", limit: 255, default: "", null: false
+    t.string "reset_password_token", limit: 255
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.integer "sign_in_count", default: 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
-    t.string "current_sign_in_ip"
-    t.string "last_sign_in_ip"
+    t.string "current_sign_in_ip", limit: 255
+    t.string "last_sign_in_ip", limit: 255
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "username"
+    t.string "username", limit: 255
     t.text "learning_goal"
-    t.string "confirmation_token"
+    t.string "confirmation_token", limit: 255
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
-    t.string "unconfirmed_email"
+    t.string "unconfirmed_email", limit: 255
     t.boolean "admin", default: false, null: false
     t.string "avatar"
     t.integer "path_id", default: 1
@@ -209,12 +209,10 @@ ActiveRecord::Schema.define(version: 2020_10_19_205546) do
     t.boolean "vote_flag"
     t.string "vote_scope"
     t.integer "vote_weight"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.index ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope"
-    t.index ["votable_type", "votable_id"], name: "index_votes_on_votable_type_and_votable_id"
     t.index ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope"
-    t.index ["voter_type", "voter_id"], name: "index_votes_on_voter_type_and_voter_id"
   end
 
   add_foreign_key "flags", "project_submissions"

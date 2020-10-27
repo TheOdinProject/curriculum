@@ -15,7 +15,7 @@ class CourseDecorator < ApplicationDecorator
 
   def borderless_badges
     {
-      'Web Development 101' => 'badges/badge-webdev-101-borderless.svg',
+      'Foundations' => 'badges/badge-foundations-borderless.svg',
       'HTML and CSS' => 'badges/badge-html-borderless.svg',
       'Ruby Programming' => 'badges/badge-ruby-borderless.svg',
       'Javascript' => 'badges/badge-javascript-borderless.svg',
@@ -28,7 +28,7 @@ class CourseDecorator < ApplicationDecorator
 
   def course_badges
     {
-      'Web Development 101' => 'badge-webdev101.svg',
+      'Foundations' => 'badge-foundations.svg',
       'HTML and CSS' => 'badge-html-css.svg',
       'Ruby Programming' => 'badge-ruby.svg',
       'Javascript' => 'badge-javascript.svg',

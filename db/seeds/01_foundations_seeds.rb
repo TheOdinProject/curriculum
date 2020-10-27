@@ -1,8 +1,8 @@
 # ************************************************
-# CREATE WEB DEVELOPMENT 101 COURSE
+# CREATE FOUNDATIONS COURSE
 # ************************************************
 
-Rails.logger.info "\n\n***** STARTING COURSE: Web Development 101 *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Foundations *****"
 
 # Set Course and section position here. Update file name appropriately.
 course_position = 1
@@ -10,8 +10,8 @@ section_position = 0
 lesson_position = 0
 
 course = create_or_update_course(
-  title: 'Web Development 101',
-  title_url: 'Web Development 101'.parameterize,
+  title: 'Foundations',
+  title_url: 'Foundations'.parameterize,
   description: "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
   position: course_position
 )

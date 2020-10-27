@@ -6,7 +6,7 @@ RSpec.describe CourseDecorator do
   let(:course) do
     instance_double(
       Course,
-      title: 'Web Development 101',
+      title: 'Foundations',
       sections: sections
     )
   end
@@ -16,13 +16,13 @@ RSpec.describe CourseDecorator do
 
   describe '#badge' do
     it 'returns the correct badge for the course' do
-      expect(course_decorator.badge).to eql('badge-webdev101.svg')
+      expect(course_decorator.badge).to eql('badge-foundations.svg')
     end
   end
 
   describe '#borderless_badge' do
     it 'returns the correct borderless badge for the course' do
-      expect(course_decorator.borderless_badge).to eql('badges/badge-webdev-101-borderless.svg')
+      expect(course_decorator.borderless_badge).to eql('badges/badge-foundations-borderless.svg')
     end
   end
 
