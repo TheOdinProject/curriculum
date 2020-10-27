@@ -21,10 +21,10 @@ Test Driven Development \(TDD\) is a phrase you often hear in the dev world.  It
 In many ways TDD is much more productive than writing code without tests.  If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a simple `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`) If you didn't do TDD then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
 We will teach you the art of actually writing these tests later in the course.  The following exercises have the tests already written out for you. All you have to do is read the specs and write the code that makes them pass!  The very first exercise \(`01-helloWorld`\) is intentionally very simple and walks you through the process of running the tests and making them pass.  
-
+ 
 ### Good Luck!
 
-Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the README for getting set up.  Solutions for the exercises can be found on the 'solutions' branch of that repo.
+Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the README for getting set up.  Solutions for the exercises can be found on the 'solutions' branch of that repo. 
 
 Complete the following exercises:
 
