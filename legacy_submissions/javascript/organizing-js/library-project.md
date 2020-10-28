@@ -1,3 +1,4 @@
+- [qazaqpyn's Solution](https://github.com/qazaqpyn/library) - [View in Browser](https://qazaqpyn.github.io/library/)
 - [Kenedy Henrique's Solution](https://github.com/Kenedy-Henrique/Library) - [View in Browser](https://kenedy-henrique.github.io/Library/)
 - [adam-goodrich's Solution (w/ localStorage)](https://github.com/adam-goodrich/eLibrary) - [View in Browser](https://adam-goodrich.github.io/eLibrary/)
 - [tootihamza's Solution (w/ localStorage)](https://github.com/tootihamza/library) - [View in Browser](https://tootihamza.github.io/library/)
