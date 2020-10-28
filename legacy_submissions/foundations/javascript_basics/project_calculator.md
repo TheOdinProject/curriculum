@@ -829,7 +829,6 @@
 - [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/js-calculator) - [View in Browser](https://ozansozuozgit.github.io/js-calculator/)
 - [mrfannin's Solution](https://github.com/mrfannin/calculator) - [View in Browser](https://mrfannin.github.io/calculator/)
 - [fussykyloren's Solution](https://github.com/fussykyloren/calculator) - [View in Browser](https://fussykyloren.github.io/calculator/)
-- [Rémi Borfigat’s Solution](https://github.com/remiborfigat/calculator)
 - [c-squared87's Solution](https://github.com/c-squared87/js_calculator) - [View in Browser](https://c-squared87.github.io/js_calculator/)
 - [Matyd's solution](https://github.com/MatyD356/jsCalc) - [View in Browser](https://matyd356.github.io/jsCalc/)
 - [Ryan Early's Solution](https://github.com/ryanfearly/calculator-project) - [View in Browser](https://ryanfearly.github.io/calculator-project/)

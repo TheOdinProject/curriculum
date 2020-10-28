@@ -1141,7 +1141,6 @@
 * [seansean's Solution](https://github.com/seanrson/etch_a_sketch) - [View in Browser](https://github.com/seanrson/etch_a_sketch)
 * [headnodic's Solution](https://github.com/headnodic/vue-the-odin-project-coursework/tree/master/src/components/web-development-101/projects/etch-a-sketch) - [View in Browser](https://headnodic-vue-top-course.netlify.com/etch-a-sketch)
 * [OmerGronich's Solution](https://github.com/OmerGronich/etch-a-sketch) - [View in Browser](https://omergronich.github.io/etch-a-sketch/)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/etch-a-sketch)
 * [kmson7's Solution](https://github.com/kmson7/etch-a-sketch) - [View in Browser](https://kmson7.github.io/etch-a-sketch/)
 * [m-rejdych's Solution](https://github.com/m-rejdych/Etch-a-Sketch) - [View in Browser](https://m-rejdych.github.io/Etch-a-Sketch/)
 * [Anthony G's Solution](https://github.com/anth-dev/etch-a-sketch) - [View in Browser](https://anth-dev.github.io/etch-a-sketch/)
