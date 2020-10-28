@@ -16,7 +16,8 @@
     transform: translate(-50%,-50%);
     padding: 2.5rem;
     width: 40%;
-
+    border-radius: 10px;
+    
     @include media-breakpoint-down(lg) {
       width: 60%;
     }
