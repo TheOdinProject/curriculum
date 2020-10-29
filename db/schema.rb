@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_26_230831) do
+ActiveRecord::Schema.define(version: 2020_10_27_214814) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -106,6 +106,16 @@ ActiveRecord::Schema.define(version: 2020_10_26_230831) do
     t.integer "position"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "path_prerequisites", force: :cascade do |t|
+    t.bigint "path_id", null: false
+    t.bigint "prerequisite_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["path_id", "prerequisite_id"], name: "index_path_prerequisites_on_path_id_and_prerequisite_id", unique: true
+    t.index ["path_id"], name: "index_path_prerequisites_on_path_id"
+    t.index ["prerequisite_id"], name: "index_path_prerequisites_on_prerequisite_id"
   end
 
   create_table "paths", id: :serial, force: :cascade do |t|
@@ -217,6 +227,8 @@ ActiveRecord::Schema.define(version: 2020_10_26_230831) do
 
   add_foreign_key "flags", "project_submissions"
   add_foreign_key "flags", "users", column: "flagger_id"
+  add_foreign_key "path_prerequisites", "paths"
+  add_foreign_key "path_prerequisites", "paths", column: "prerequisite_id"
   add_foreign_key "project_submissions", "lessons"
   add_foreign_key "project_submissions", "users"
 end

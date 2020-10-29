@@ -61,6 +61,15 @@
     letter-spacing: 0.2px;
     margin: 0;
   }
+
+  &__prerequisites {
+    padding-bottom: 20px;
+  }
+
+  &__prerequisite-link {
+    color: $primary;
+    position: relative;
+  }
 }
 
 .card-block {

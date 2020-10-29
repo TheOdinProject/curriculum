@@ -14,6 +14,8 @@ courses_in_path = [
   { course_id: Course.find_by_title('Getting Hired').id, position: position + 1 }
 ]
 
+path.path_prerequisites.create!(prerequisite_id: Path.find_by_title('Foundations').id)
+
 courses_in_path.each do |course_attrs|
   next if path.path_courses.map(&:course_id).include? course_attrs[:course_id]
 

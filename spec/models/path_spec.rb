@@ -6,6 +6,8 @@ RSpec.describe Path do
   it { is_expected.to have_many(:users) }
   it { is_expected.to have_many(:path_courses).order(:position) }
   it { is_expected.to have_many(:courses).through(:path_courses) }
+  it { is_expected.to have_many(:path_prerequisites).dependent(:destroy) }
+  it { is_expected.to have_many(:prerequisites).through(:path_prerequisites).source(:prerequisite) }
 
   it { is_expected.to validate_presence_of(:title) }
   it { is_expected.to validate_presence_of(:description) }
