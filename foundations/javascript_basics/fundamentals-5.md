@@ -1,4 +1,4 @@
-### Objects101
+### Objects
 
 Objects are a _very_ important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects.  The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
 
