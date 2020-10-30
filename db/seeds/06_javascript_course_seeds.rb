@@ -166,7 +166,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/restaurant-project.md',
   repo: 'curriculum',
-  accepts_submission: true
+  accepts_submission: true,
+  has_live_preview: true
 )
 
 lesson_position += 1
