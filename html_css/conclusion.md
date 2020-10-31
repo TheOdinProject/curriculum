@@ -14,4 +14,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
 * [HTML tutorials and help docs](http://www.webplatform.org/)
 * [Awwwards is a great place to go for design inspiration](http://www.awwwards.com/)
+* [Figma is a vector graphics editor and prototyping tool](https://www.figma.com/) [Click here for a tutorial](https://www.youtube.com/watch?v=3q3FV65ZrUs)
 * PS.. "tags" don't really exist, they're always technically called "elements"
