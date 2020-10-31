@@ -4,7 +4,7 @@ Thanks for your interest in The Odin Project. In order to get PRs closed in a re
 
  - [ ] You have read [The Odin Projects Contributing Guide](https://github.com/TheOdinProject/curriculum/blob/master/CONTRIBUTING.md).
 
-#### 1.Describe the the changes made:
+#### 1.Describe the changes made:
 
 ...your text here
 
