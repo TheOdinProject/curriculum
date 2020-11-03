@@ -30,5 +30,5 @@ Prettier is _awesome_. It is similar to a linter, but serves a slightly differen
 2. Give it a test drive [here](https://prettier.io/playground). Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
 3. Setup is simple. [The homepage](https://prettier.io/) links to tutorials for most popular editors.
 
-Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you
+Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
 
