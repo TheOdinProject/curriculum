@@ -21,7 +21,7 @@ After completing this tutorial, you will be able to:
 
 ### What We're Doing in This Tutorial
 
-Imagine that a friend of yours runs a non-profit org around political activism.
+Imagine that a friend of yours runs a non-profit organization around political activism.
 A number of people have registered for an upcoming event. She has asked for your help in
 engaging these future attendees. For the first task, she wants you to find the government 
 representatives for each attendee based on their zip code.
@@ -40,10 +40,10 @@ $ mkdir lib
 $ touch lib/event_manager.rb
 ~~~
 
-Creating and placing your `event_manager.rb` file in 'lib' directory is entirely
+Creating and placing your `event_manager.rb` file in `lib` directory is entirely
 optional; however, it adheres to a common convention within most ruby applications.
 The filepaths we use in this tutorial will assume that we have put our `event_manager.rb`
-file within the 'lib' directory.
+file within the `lib` directory.
 
 Ruby source file names should be written all in lower-case characters and
 instead of camel-casing multiple words together, they are instead separated by an
@@ -89,7 +89,7 @@ For this project we are going to use the following sample data:
 * [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees.csv)
 * [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of `event_manager` directory. Using your CLI, confirm that you are right directory and enter the following command:
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are right directory and enter the following command:
 
 ~~~bash
 $ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv
@@ -136,13 +136,13 @@ contents = File.read "event_attendees.csv"
 puts contents
 ~~~
 
-Whether you use single quotes or double quotes does not matter. They are
-different in many ways but are essentially the same when representing a string
-of characters in this case as the initial greeting or the name of the file.
+In this example, it does not matter whether you use single quotes or double quotes. 
+There are differences, but they are essentially the same when representing a string 
+of characters, such as this initial greeting or the name of the file.
 
 We are assuming the file is present here. However, it is a good practice to confirm 
-that a file exists first. File has the ability to check if a file exists at the 
-specified filepath on the filesystem through `File.exist? "event_attendees.csv"`.
+that a file exists. File has the ability to check if a file exists at the specified 
+filepath on the filesystem through `File.exist? "event_attendees.csv"`.
 
 
 ### Read the File Line By Line
@@ -150,7 +150,7 @@ specified filepath on the filesystem through `File.exist? "event_attendees.csv"`
 Reading and displaying the entire contents of the file showed us how to quickly
 access the data. Our goal is to display the first names of all the attendees.
 There are numerous [String](http://rubydoc.info/stdlib/core/String) methods
-that would allow us to manipulate this large string. Using File.readlines will 
+that would allow us to manipulate this large string. Using `File.readlines` will 
 save each line as a separate item in an array.
 
 ~~~ruby
@@ -162,9 +162,8 @@ lines.each do |line|
 end
 ~~~
 
-First we read in the entire contents of the file as an array of lines. Second
-we iterate over the entire collection of lines, one at a time, and output the
-contents of each line.
+First, we read the entire contents of the file as an array of lines. Second, we 
+iterate over the array of lines and output the contents of each line.
 
 ### Display the First Names of All Attendees
 
@@ -198,17 +197,17 @@ choosing to model your own data. These column names are our extreme
 example of a poorly formed external service. Great applications are often built
 on the backs of such services.
 
-We are interested in the 'first_Name' column. At the moment we have a string of
+We are interested in the `first_Name` column. At the moment, we have a string of
 text that represents the entire row. We need to convert the string into an
 array of columns. The separation of the columns can be identified by the comma
-',' separator. We want to split the string into pieces wherever we see a comma.
+`","` separator. We want to split the string into pieces wherever we see a comma.
 
 Ruby's
 [String#split](http://rubydoc.info/stdlib/core/String#split-instance_method) 
 allows you to convert a string of text into an array along a particular character. 
-By default, when you send the split message without a parameter, it will break the 
-string apart along each space `" "` character. We need to break each line apart 
-along each comma `","` character. 
+By default when you send the split message to the String without a parameter it
+will break the string apart along each space `" "` character. Therefore, we need to 
+specify the comma `","` character to separate the columns.
 
 ~~~ruby
 puts "EventManager initialized."
@@ -369,21 +368,20 @@ Instead of `read` or `readlines` we use CSV's `open` method to load our file.
 The library also supports the concept of headers and so we provide some
 additional parameters which state this file has headers.
 
-There are pros and cons to using an external library. A pro is how easy this
-library makes it for us to express that our file has headers. A con is that
-you have to learn how the library is implemented.
+There are pros and cons to using an external library. One of the pros, is that 
+this library makes it easy for us to express that our file has headers. One of 
+the cons, is that we have to learn how the the library is implemented.
 
 ### Accessing Columns by their Names
 
 CSV files with headers have an additional option which allows you to access
 the column values by their headers. Our CSV file defines several different
-formats for the column names. All those formats come as strings. The CSV 
-library provides an additional option which allows us to convert the header names to 
-symbols.
+formats for the column names. The CSV library provides an additional option 
+which allows us to convert the header names to symbols.
 
 Converting the headers to symbols will make our column names more uniform and
-easier to remember. The header 'first_Name' will be converted to `:first_name` 
-and 'HomePhone' would be converted to `:homephone`, not `:home_phone`.
+easier to remember. The header "first_Name" will be converted to `:first_name` 
+and "HomePhone" would be converted to `:homephone`.
 
 ~~~ruby
 require "csv"
@@ -398,8 +396,7 @@ end
 
 ### Displaying the Zip Codes of All Attendees
 
-Accessing the zipcode is very easy using the header name. 'Zipcode' becomes
-`:zipcode`.
+Accessing the zipcode is very easy using the new header name, `:zipcode`.
 
 ~~~ruby
 require "csv"
@@ -1407,7 +1404,7 @@ Dir.mkdir("output") unless Dir.exists? "output"
 [File#open](http://rubydoc.info/stdlib/core/File#open-class_method) allows us
 to open a file for reading and writing. The first parameter is the name of the
 file. The second parameter is a flag that states how we want to open the file.
-The 'w' states we want to open the file for writing. If the file already exists
+The `w` states we want to open the file for writing. If the file already exists
 it will be destroyed.
 
 Afterwards we actually send the entire form letter content to the file
