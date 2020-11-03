@@ -23,15 +23,15 @@ After completing this tutorial, you will be able to:
 
 Imagine that a friend of yours runs a non-profit org around political activism.
 A number of people have registered for an upcoming event. She has asked for your help in
-engaging these future attendees. She wants to help attendees contact their governmental 
-representatives by finding those representatives based on the attendees' zip codes.
+engaging these future attendees. For the first task, she wants you to find the government 
+representatives for each attendee based on their zip code.
 
 ### Initial Setup
 
-Create a folder named `event_manager` wherever you want to store your project.
-In that folder, create a plain text file named `event_manager.rb`. To do that using
-your command-line interface, you can use the following commands:
-
+Create a project directory folder named `event_manager` wherever you want to store 
+your project. In the project directory, create another folder named `lib` and inside 
+that folder create a plain text file named `event_manager.rb`. Using your command-line 
+interface (CLI), you can enter the following commands:
 
 ~~~bash
 $ mkdir event_manager
@@ -82,22 +82,20 @@ $ ruby lib/event_manager.rb
 ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 ~~~
 
-If this happens, try creating the file again. Make sure the correct directory exists.
+If this happens, make sure the correct directory exists and try creating the file again.
 
 For this project we are going to use the following sample data:
 
 * [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees.csv)
 * [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of `event_manager` directory. You can do that with the following command
-if you are in the directory you want to download it to:
-
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of `event_manager` directory. Using your CLI, confirm that you are right directory and enter the following command:
 
 ~~~bash
 $ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv
 ~~~
 
-You should see something like:
+After the file is downloaded, you should see something like:
 
 ~~~bash
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -142,9 +140,9 @@ Whether you use single quotes or double quotes does not matter. They are
 different in many ways but are essentially the same when representing a string
 of characters in this case as the initial greeting or the name of the file.
 
-We are assuming the file is present here, but often it's a good idea to check first. File has the ability to check if a
-file exists at the specified filepath on the filesystem through `File.exist?
-"event_attendees.csv"`.
+We are assuming the file is present here. However, it is a good practice to confirm 
+that a file exists first. File has the ability to check if a file exists at the 
+specified filepath on the filesystem through `File.exist? "event_attendees.csv"`.
 
 
 ### Read the File Line By Line
@@ -152,10 +150,8 @@ file exists at the specified filepath on the filesystem through `File.exist?
 Reading and displaying the entire contents of the file showed us how to quickly
 access the data. Our goal is to display the first names of all the attendees.
 There are numerous [String](http://rubydoc.info/stdlib/core/String) methods
-that would allow us to manipulate this large string, but another way to get what 
-we want is to not use File.read in the first place. File.readlines, instead of 
-dumping the file contents into a single string, saves each line as a separate 
-item in an array.
+that would allow us to manipulate this large string. Using File.readlines will 
+save each line as a separate item in an array.
 
 ~~~ruby
 puts "EventManager initialized."
@@ -208,11 +204,11 @@ array of columns. The separation of the columns can be identified by the comma
 ',' separator. We want to split the string into pieces wherever we see a comma.
 
 Ruby's
-[String#split](http://rubydoc.info/stdlib/core/String#split-instance_method)
- method allows you to convert a string of text into an array. By default, when 
-you send the split message without a parameter, it will break the string apart 
-along a space " " character. If you want it to split along a different 
-character, add that character as a parameter: `my_string.split(",")`.
+[String#split](http://rubydoc.info/stdlib/core/String#split-instance_method) 
+allows you to convert a string of text into an array along a particular character. 
+By default, when you send the split message without a parameter, it will break the 
+string apart along each space `" "` character. We need to break each line apart 
+along each comma `","` character. 
 
 ~~~ruby
 puts "EventManager initialized."
@@ -381,14 +377,13 @@ you have to learn how the library is implemented.
 
 CSV files with headers have an additional option which allows you to access
 the column values by their headers. Our CSV file defines several different
-formats for the column names. HomePhone uses CamelCase, for example, while first_Name
-is almost but not quite snake_case. All those formats come as strings. The CSV 
+formats for the column names. All those formats come as strings. The CSV 
 library provides an additional option which allows us to convert the header names to 
 symbols.
 
 Converting the headers to symbols will make our column names more uniform and
-easier to remember. The header 'first_Name' will be converted to `:first_name`.
-Note: 'HomePhone' would be converted to `:homephone`, not `:home_phone`.
+easier to remember. The header 'first_Name' will be converted to `:first_name` 
+and 'HomePhone' would be converted to `:homephone`, not `:home_phone`.
 
 ~~~ruby
 require "csv"
@@ -454,8 +449,7 @@ error message.
 
 We could try to figure out the zip code based on the rest of the address
 provided. But we could be wrong with our guess, so instead we will use a default,
-bad zip code of "00000", so that we don't accidentally send the wrong information 
-based on a guess.
+bad zip code of "00000".
 
 ### Pseudocode for Cleaning Zip Codes
 
@@ -671,10 +665,10 @@ $ nil.to_s
 ~~~
 
 Examining
-[String#rjust](http://rubydoc.info/stdlib/core/String#rjust-instance_method) in
-irb, we can see that when we ask it to right justify a string to a length of five, 
-but provide values greater than five, it performs no work. This means we can 
-apply it in both cases, as it will have the same intended effect.
+[String#rjust](http://rubydoc.info/stdlib/core/String#rjust-instance_method) in 
+irb, we can see that when we provide a string with a length greater than five, 
+it performs no work. This means we can apply it in both cases, as it will have the 
+same intended effect.
 
 ~~~ruby
 $ "123456".rjust 5, "0"
@@ -858,9 +852,7 @@ contents.each do |row|
 end
 ~~~
 
-This solves the problem of the program crashing. But now there is another problem to solve.
-If you tried this, you saw a long mess that was difficult to read.
-The `legislators` that we are displaying is an array. In turn, the array is
+The **legislators** that we are displaying is an array. In turn, the array is
 sending the `to_s` message to each of the objects within the array, each
 legislator. The output that we are seeing is the *raw* legislator object.
 
