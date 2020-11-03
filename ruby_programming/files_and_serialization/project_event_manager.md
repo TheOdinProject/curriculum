@@ -368,20 +368,20 @@ Instead of `read` or `readlines` we use CSV's `open` method to load our file.
 The library also supports the concept of headers and so we provide some
 additional parameters which state this file has headers.
 
-There are pros and cons to using an external library. One of the pros, is that 
+There are pros and cons to using an external library. One of the pros is that 
 this library makes it easy for us to express that our file has headers. One of 
-the cons, is that we have to learn how the the library is implemented.
+the cons is that we have to learn how the library is implemented.
 
 ### Accessing Columns by their Names
 
 CSV files with headers have an additional option which allows you to access
 the column values by their headers. Our CSV file defines several different
-formats for the column names. The CSV library provides an additional option 
+formats for the column names. The CSV library provides an additional option
 which allows us to convert the header names to symbols.
 
 Converting the headers to symbols will make our column names more uniform and
 easier to remember. The header "first_Name" will be converted to `:first_name` 
-and "HomePhone" would be converted to `:homephone`.
+and "HomePhone" will be converted to `:homephone`.
 
 ~~~ruby
 require "csv"
