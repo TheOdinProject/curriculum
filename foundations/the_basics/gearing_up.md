@@ -58,7 +58,7 @@ Teaching what you know to others is a great way to solidify what you have learne
 
 You can practice this method of learning by helping others in our community.
 
-* To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
+* To learn more about the best ways to learn, [Reddit's Study Guide](https://www.dropbox.com/s/drkiueavagjyq2h/The%20Reddit%20Study%20Guide.doc) is highly recommended.
 
 * The Ruby Rogues have a [podcast on How to Learn](https://devchat.tv/ruby-rogues/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
