@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "dependencies": {
-    "@babel/preset-react": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
     "@hookform/resolvers": "^0.1.1",
     "@rails/ujs": "^6.0.3",
     "@rails/webpacker": "5.2.1",
