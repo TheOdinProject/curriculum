@@ -159,7 +159,7 @@ GEM
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
-    friendly_id (5.4.0)
+    friendly_id (5.4.1)
       activerecord (>= 4.0.0)
     get_process_mem (0.2.7)
       ffi (~> 1.0)
@@ -448,7 +448,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -481,7 +481,7 @@ GEM
     xdan-datetimepicker-rails (2.5.4)
       jquery-rails
       rails (>= 3.2.16)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
