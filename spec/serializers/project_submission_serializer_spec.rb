@@ -30,6 +30,8 @@ RSpec.describe ProjectSubmissionSerializer do
         lesson_title: 'A LESSON TITLE',
         lesson_path: '/lessons/a-lesson-title',
         lesson_has_live_preview: true,
+        likes: 0,
+        is_liked_by_current_user: nil
       }
     end
 

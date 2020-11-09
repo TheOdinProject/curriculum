@@ -14,7 +14,7 @@ class ProjectSubmissionsController < ApplicationController
 
   def update
     if @project_submission.update(project_submission_params)
-      render json: ProjectSubmissionSerializer.as_json(@project_submission), status: :ok
+      render json: ProjectSubmissionSerializer.as_json(@project_submission, current_user), status: :ok
     else
       render json: @project_submission.errors, status: :unprocessable_entity
     end
@@ -28,10 +28,6 @@ class ProjectSubmissionsController < ApplicationController
 
   private
 
-  def find_project_submission
-    @project_submission = current_user.project_submissions.find(params[:id])
-  end
-
   def project_submission_params
     params.require(:project_submission).permit(
       :repo_url,
@@ -39,5 +35,9 @@ class ProjectSubmissionsController < ApplicationController
       :is_public,
       :lesson_id
     )
+  end
+
+  def find_project_submission
+    @project_submission = current_user.project_submissions.find(params[:id])
   end
 end

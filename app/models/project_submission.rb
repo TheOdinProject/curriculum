@@ -1,4 +1,6 @@
 class ProjectSubmission < ApplicationRecord
+  acts_as_votable
+
   paginates_per 15
 
   belongs_to :user

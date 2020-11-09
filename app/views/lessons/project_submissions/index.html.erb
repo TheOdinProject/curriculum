@@ -9,7 +9,7 @@
             userId: current_user&.id,
             course: @lesson.course.as_json,
             lesson: @lesson.as_json,
-            submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission) }
+            submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission, current_user) }
           }
         ) %>
       

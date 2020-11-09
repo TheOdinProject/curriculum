@@ -41,13 +41,19 @@
     }
   }
 
-  &__submission-title {
-    font-weight: 600;
-    font-size: 1.25rem;
+  &__left-container {
+    display: flex;
+    align-items: center;
 
     @include media-breakpoint-down(sm) {
       margin-bottom: 1em;
     }
+  }
+
+  &__submission-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+
   }
 
   &__button {
@@ -82,13 +88,23 @@
   }
 
   &__flag {
-    color: $button-disabled;
-    cursor: pointer;
-
     @include media-breakpoint-down(sm) {
       position: absolute !important;
       top: 5px;
       right: 0;
+    }
+  }
+
+  &__flag, &__like {
+    color: $button-disabled;
+    cursor: pointer;
+  }
+
+  &__like {
+    margin-right: 15px;
+
+    .liked {
+      color: #6abfc3 !important;
     }
   }
 

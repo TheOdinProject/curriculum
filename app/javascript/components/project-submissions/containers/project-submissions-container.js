@@ -85,6 +85,32 @@ const ProjectSubmissions = (props) => {
     }
   };
 
+  const toggleLikeSubmission = async (submission) => {
+    const response = await axios.post(
+      `/project_submissions/${submission.id}/likes`,
+      {
+        submission_id: submission.id,
+        is_liked_by_current_user: submission.is_liked_by_current_user
+      }
+    );
+
+    if (response.status === 200) {
+      const updatedSubmission = response.data;
+
+      setSubmissions(prevSubmissions => {
+        const newSubmissions = prevSubmissions.map((submission) => {
+          if (updatedSubmission.id === submission.id) {
+            return updatedSubmission;
+          }
+
+          return submission;
+        })
+
+        return newSubmissions;
+      });
+    }
+  };
+
   const userSubmission = useMemo(() => {
     return submissions.find(submission => submission.user_id === userId);
   }, [userId, submissions.length]);
@@ -134,6 +160,7 @@ const ProjectSubmissions = (props) => {
         handleUpdate={handleUpdate}
         onFlag={(submission) => { setFlaggedSubmission(submission); toggleShowFlagModal() }}
         handleDelete={handleDelete}
+        handleLikeToggle={toggleLikeSubmission}
       />
     </div>
   )

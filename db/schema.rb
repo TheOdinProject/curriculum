@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_27_214814) do
+ActiveRecord::Schema.define(version: 2020_11_07_174718) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -144,6 +144,7 @@ ActiveRecord::Schema.define(version: 2020_10_27_214814) do
     t.datetime "updated_at", null: false
     t.boolean "is_public", default: true, null: false
     t.boolean "banned", default: false, null: false
+    t.integer "cached_votes_total", default: 0
     t.index ["is_public"], name: "index_project_submissions_on_is_public"
     t.index ["lesson_id"], name: "index_project_submissions_on_lesson_id"
     t.index ["user_id", "lesson_id"], name: "index_project_submissions_on_user_id_and_lesson_id", unique: true

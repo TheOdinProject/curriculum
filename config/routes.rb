@@ -67,6 +67,7 @@ Rails.application.routes.draw do
 
   resources :project_submissions do
     resources :flags, only: %i[create], controller: 'project_submissions/flags'
+    resources :likes, controller: 'project_submissions/likes'
   end
 
   get '/paths/web-development-101', to: redirect('/paths/foundations')

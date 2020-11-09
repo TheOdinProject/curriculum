@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  acts_as_voter
   after_create :send_welcome_email
   after_create :enroll_in_web_development_101
 

@@ -1,12 +1,13 @@
 class ProjectSubmissionSerializer
   include Rails.application.routes.url_helpers
 
-  def initialize(project_submission)
+  def initialize(project_submission, current_user = nil)
+    @current_user = current_user
     @project_submission = project_submission
   end
 
-  def self.as_json(project_submission)
-    new(project_submission).as_json
+  def self.as_json(project_submission, current_user = nil)
+    new(project_submission, current_user).as_json
   end
 
   # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
@@ -22,6 +23,8 @@ class ProjectSubmissionSerializer
       lesson_title: lesson.title,
       lesson_path: lesson_path(lesson),
       lesson_has_live_preview: lesson.has_live_preview,
+      likes: project_submission.votes_for.size,
+      is_liked_by_current_user: current_user_voted_for_project?
     }
   end
   # rubocop:enable Metrics/AbcSize, Metrics/MethodLength
@@ -32,5 +35,9 @@ class ProjectSubmissionSerializer
 
   def lesson
     project_submission.lesson
+  end
+
+  def current_user_voted_for_project?
+    @current_user.voted_for?(project_submission) unless @current_user.nil?
   end
 end

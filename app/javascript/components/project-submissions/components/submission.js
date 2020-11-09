@@ -5,10 +5,11 @@ import Modal from './modal';
 import EditForm from './edit-form';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
 import SubmissionTitle from './submission-title';
+import Like from './like';
 
-const noop = () => {}
+const noop = () => { }
 
-const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboardView }) => {
+const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboardView, handleLikeToggle }) => {
   const { userId } = useContext(ProjectSubmissionContext);
   const [showEditModal, setShowEditModal] = useState(false);
   const isCurrentUsersSubmission = useMemo(() =>
@@ -19,9 +20,12 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
 
   return (
     <div className="submissions__item">
-      <p className="submissions__submission-title">
-        <SubmissionTitle submission={submission} isDashboardView={isDashboardView} />
-      </p>
+      <div className="submissions__left-container">
+        <Like submission={submission} handleLikeToggle={handleLikeToggle} />
+        <p className="submissions__submission-title">
+          <SubmissionTitle submission={submission} isDashboardView={isDashboardView} />
+        </p>
+      </div>
 
       <div className="submissions__actions">
         {isCurrentUsersSubmission && (
@@ -33,15 +37,16 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
           </button>
         )}
         <a href={submission.repo_url} target="_blank" className="submissions__button">View Code</a>
-        { livePreview &&
+        {livePreview &&
           <a href={submission.live_preview_url} target="_blank" className="submissions__button">Live Preview</a>
         }
 
         {isCurrentUsersSubmission
           ? <span className={`submissions__public-icon submissions__public-icon${submission.is_public ? '--visible' : ''}`}><i className="fas fa-eye"></i></span>
-          : <a className='submissions__flag hint--top' aria-label='Report submission' onClick={(event) => { event.preventDefault(); onFlag(submission)}}>
-              <i className='fas fa-flag'></i>
-            </a>
+          :
+          <a className='submissions__flag hint--top' aria-label='Report submission' onClick={(event) => { event.preventDefault(); onFlag(submission) }}>
+            <i className='fas fa-flag'></i>
+          </a>
         }
       </div>
 
@@ -67,6 +72,7 @@ Submission.propTypes = {
   handleUpdate: func.isRequired,
   onFlag: func,
   handleDelete: func.isRequired,
+  handleLikeToggle: func.isRequired,
   isDashboardView: bool,
 };
 

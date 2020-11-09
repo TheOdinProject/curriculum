@@ -6,7 +6,7 @@
         "project-submissions/user-project-submissions",
         {
           userId: current_user&.id,
-          submissions: project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission) },
+          submissions: project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission, current_user) },
         }
     ) %>
   <% else %>
