@@ -289,12 +289,10 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
-2. Read through these Ruby Monstas sections about data types:
-    * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-    * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-    * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-    * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
-3. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
+2. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
+3. Finally complete the basic data types exercises provided for this lesson:
+    * [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
+    * [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics)
 </div>
 
 ### Additional Resources
@@ -303,6 +301,11 @@ This section contains helpful links to other content. It isn't required, so cons
 * If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
     * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
     * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+* Read through these Ruby Monstas sections about data types:
+    * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+    * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+    * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+    * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

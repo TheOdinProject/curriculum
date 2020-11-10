@@ -1734,7 +1734,6 @@
 - [Jeff's Solution](https://github.com/LebJe/TOP/blob/master/RPS/RPS.html)
 - [Veskenazi's Solution](https://github.com/veskenazi/rock-paper-scissors) - [View in Browser](https://veskenazi.github.io/rock-paper-scissors/)
 - [Amber's Solution](https://github.com/damned-albatross/rock_paper_scissors) - [View in Browser](https://damned-albatross.github.io/rock_paper_scissors/)
-- [Rémi Borfigat’s Solution](https://github.com/remiborfigat/rock-paper-scissors)
 - [dhecker's Solution](https://github.com/dhecker/rps) - [View in Browser](https://dhecker.github.io/rps/rps.html)
 - [Ken Holston's Solution](https://github.com/kholston/rock_paper_scissors)
 - [Daki's Solution](https://github.com/Dakitou/TOP-RPS)

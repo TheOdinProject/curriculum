@@ -333,7 +333,6 @@
 * [kwambugu's Solution](https://github.com/kwambugu/hangman)
 * [Cameron St. Amant's Solution](https://github.com/CameronStAmant/The_Odin_Project/blob/master/Ruby_projects/Hangman/hangman.rb)
 * [AnsellMaximilian's Solution](https://github.com/AnsellMaximilian/hangman)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/hangman)
 * [fussykyloren's Solution](https://github.com/fussykyloren/ruby-hangman) - [Live version on Repl.it](https://repl.it/@fussykyloren/ruby-hangman)
 * [Sandy's Solution](https://github.com/kuosandys/top-hangman)
 * [mpiriya's Solution](https://github.com/mpiriya/hangman)

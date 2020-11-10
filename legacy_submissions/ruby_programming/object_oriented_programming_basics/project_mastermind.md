@@ -305,7 +305,6 @@
 * [Sandy's Solution](https://github.com/kuosandys/top-mastermind)
 * [Ethan W's Solution](https://github.com/ethan-wax/mastermind)
 * [mpiriya's Solution](https://github.com/mpiriya/ruby/tree/master/mastermind)
-* [Rémi Borfigat’s Solution](https://github.com/remiborfigat/codebreaker)
 * [ahanasi’s Solution](https://github.com/ahanasi/mastermind) - [Play on repl.it](https://repl.it/@ahanasi/mastermind#.replit)
 * [BLuu's Solution](https://github.com/bryanluu/TOP_ruby/blob/master/mastermind.rb)
 * [John's Solution](https://github.com/NotAProgrammerdork/Ruby/blob/master/mastermind.rb)

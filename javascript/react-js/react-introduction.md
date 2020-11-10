@@ -68,7 +68,7 @@ Does the code look foreign? Don't worry, the structure isn't as difficult as it 
 import React, { Component } from "react";
 ~~~
 
-With the above `import` statement, we are importing React and the Components module from the React library, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and `React` not, this is due to the way they are exported from the `react` module. Default exports are imported without curly brackets; everything else must be wrapped in curly brackets. Don't worry about this too much as we will get plenty of exposure to import and export statements soon.
+With the above `import` statement, we are importing React and the Components module from the React library, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and not `React`, this is due to the way they are exported from the `react` module. Default exports are imported without curly brackets; everything else must be wrapped in curly brackets. Don't worry about this too much as we will get plenty of exposure to import and export statements soon.
 
 ~~~javascript
 class App extends Component {

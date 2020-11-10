@@ -39,6 +39,6 @@ To help you make a decision, here are some perks of each technology:
 
 In the end, it doesn't matter which path you take, it's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? [click here](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371)
 
-Get ready, because this is only the beginning. Now it's time to dive deeper into the concepts covered in Web Dev 101. There are some fantastic projects in the courses that follow which are designed to challenge you and push your knowledge to the limit, but stick with it and you'll come out the other side ready to make your mark in the programming world. 
+Get ready, because this is only the beginning. Now it's time to dive deeper into the concepts covered in Foundations. There are some fantastic projects in the courses that follow which are designed to challenge you and push your knowledge to the limit. Stick with it and you'll come out the other side ready to make your mark in the programming world.
 
 The journey has just begun!
