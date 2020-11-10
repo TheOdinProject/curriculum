@@ -154,7 +154,9 @@ If you write a return statement like the above in a useEffect, it will do the sa
 
 ### Additional Resources
 
-[Here](https://www.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
+* [Here](https://www.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
+
+* [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
 
 Have an additional resource that helped you with this lesson?
 
