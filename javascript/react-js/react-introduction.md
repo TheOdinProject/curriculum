@@ -33,8 +33,8 @@ For example, this simple website could be divided into the following sections (c
 - `MainArticle`, which will be the component that renders your content.
 - `NewsletterForm`, which is a simple form that let's a user input his email to receive the weekly newsletter
 
-In React, each component is an ES6 module. ES6 (ECMA2015) introduced the `import` statement; you can import components into other components like so:
-`import ExampleComponent from "./components/ExampleComponent"`. This allows us to write each component as its own module in a separate file and later import all modules to the file that contains them. (In our case that would be App.js)
+In React, each component is defined in an ES6 module. ES6 (ECMA2015) introduced the `import` statement; you can import code from a module into another module. This allows us to write each component in its own module in a separate file and later import all components to the parent component like so:
+`import ExampleComponent from "./components/ExampleComponent"`. (In our case that parent would be App.js)
 
 In the beginning, it might be a little bit difficult to figure out the best component structure, especially when state and props come into play. This topic will be discussed in the following sections.  For now, don't worry too much about the component structure, understanding of best practices comes with experience. React components, in general, can and usually do have parent or child components. This system of structuring your applications helps to keep your code structured and makes it easy to keep track of your components' relationships with each other.
 
@@ -68,7 +68,7 @@ Does the code look foreign? Don't worry, the structure isn't as difficult as it 
 import React, { Component } from "react";
 ~~~
 
-With the above `import` statement, we are importing React and the Components module from the React library, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and not `React`, this is due to the way they are exported from the `react` module. Default exports are imported without curly brackets; everything else must be wrapped in curly brackets. Don't worry about this too much as we will get plenty of exposure to import and export statements soon.
+With the above `import` statement, we are importing React and Component from the React library, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and not `React`, this is due to the way they are exported from the `react` module. Default exports are imported without curly brackets; everything else must be wrapped in curly brackets. Don't worry about this too much as we will get plenty of exposure to import and export statements soon.
 
 ~~~javascript
 class App extends Component {
