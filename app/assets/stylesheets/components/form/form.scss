@@ -18,8 +18,6 @@
 
     &--bottom {
       margin-bottom: 0;
-      display: block;
-      text-align: center;
     }
   }
 
@@ -113,8 +111,6 @@
   &__toggle-checkbox {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
 
 
     @include media-breakpoint-down(sm) {
@@ -158,11 +154,3 @@
     }
   }
 }
-
-@media (max-width: 405px){
-  .form__section.form__section--bottom > .button {   
-    display: block;   
-    margin: auto;
-  }
-}
-
