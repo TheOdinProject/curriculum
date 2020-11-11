@@ -1,6 +1,6 @@
 That was quite a journey.  Take a second and reflect on the fact that you've just learned the basics of at least three different languages and, if you had to, you could probably hack together a web page on your own already.  
 
-You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a page.  You should be able to create a basic web page and make it interactive with JavaScript.  You should understand the purpose of backend code and how frameworks make it easier to bootstrap new projects.  Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.
+You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a page.  You should be able to create a basic web page and make it interactive using JavaScript.  You should understand the purpose of backend code and how frameworks make it easier to get new projects up and running.  Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.
 
 With what you know already you could start putting together some basic websites, but we're here to help you get a lot further than that. We want to bring you to the point where you can confidently build a full-featured and scalable web application, either on your own, or working as a developer in a top-tier tech company.  
 
@@ -15,15 +15,15 @@ To help you make a decision, here are some perks of each technology:
 #### Ruby and Ruby On Rails: 
 * Convention over configuration
   - You don't have to make decisions on the structure of your projects.
-  - Others' Ruby code tend to be similarly structured and thus easy to navigate.
+  - Others' Ruby on Rails code tend to be similarly structured and thus easy to navigate.
 * Expressive and flexible syntax
   - Often code can be written in a human-readable style.
-  - Easy to modify existing classes for your usecase.
 * Rapid development
-  - Rails is "batteries-included". It comes with solutions to common problems already bundled and ready to use.
-  - Rails can generate project boilerplate with it's scaffolding generators and CLI commands before you even open your editor.
+  - Ruby has lots of built-in methods for handling frequently occuring problems so you don't have to reinvent the wheel.
+  - Ruby on Rails is also "batteries-included". It comes with solutions to common problems already bundled and ready to use.
+  - Rails can generate project starter files with its scaffolding generators and CLI commands before you even open your editor.
 * Everything is an Object
-  - Community embraces OOP and further leads to consistency across projects.
+  - Community embraces a style of programming called "Object Oriented Programming (OOP)", and this concensus further leads to consistency across projects.
 
 #### JavaScript/Node & Express
 * Un-opinionated
