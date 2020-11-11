@@ -1,5 +1,5 @@
 ### Introduction
-Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community and forum, where we can all grow together and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/) and [follow us on Twitter](https://twitter.com/TheOdinProject) and on [Instagram](https://www.instagram.com/theodinproject/).
+Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining we can all grow together and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/) and [follow us on Twitter](https://twitter.com/TheOdinProject) and on [Instagram](https://www.instagram.com/theodinproject/).
 
 ### Why a community is awesome for you
 
@@ -37,7 +37,7 @@ When asking your question, please remember to include the context:
 * How did you get there?
 * What have you tried so far?
 
-If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. In the forums, hit the 'Upload' button on a new reply. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
+If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
 If the puzzle still can't be solved, push your project to GitHub or put your code in a [repl.it](https://repl.it/) so that others can comb through and debug the code. You'll learn all about GitHub very soon.
 
@@ -49,7 +49,7 @@ Asking your questions in a readable format helps everyone debug them better. Her
 
 If you're having trouble on the command line, make sure to include both your input and the error message you're getting.
 
-In the chat rooms and forums, code can be displayed differently from normal sentences by using **backticks** (\`\`), which can be found above the Tab key on US and UK keyboards. Backticks are not the same as single quotation marks (''), which are found to the left of the Enter key.
+In the chat rooms, code can be displayed differently from normal sentences by using **backticks** (\`\`), which can be found above the Tab key on US and UK keyboards. Backticks are not the same as single quotation marks (''), which are found to the left of the Enter key.
 
 **For a single line of code:**
 
@@ -82,18 +82,13 @@ Your Colorful Code
 * Show your appreciation to those who help you with `@username ++`.
 * Don't forget to visit all the available rooms!
 
-### Forum features
-
-* The forum supports embedded 'replits.' These are essentially runnable bits of code. They're great for sharing code to get help or feedback. You'll learn more about this later.
-* As you spend time in the forums helping others or being helped, your trust level will slowly go up, and you'll unlock more functionality.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-  2. Use your GitHub account to sign up for the [TOP forum](https://forum.theodinproject.com). The primary use of the forum is to seek help within the community. We used to encourage introductions on there so you may see a lot of old introduction posts when you login for the first time but that meant a lot of questions for help got buried and went unanswered. We encourage introductions in the chat rooms and both the chat rooms and forum be used when seeking help. In a moment we're going to ask you to join the discord community, here are some guidelines before you dive in: 
+  2. In a moment we're going to ask you to join the Discord community, here are some guidelines before you dive in: 
   
    * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
    * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
