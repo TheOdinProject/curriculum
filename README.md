@@ -16,7 +16,7 @@ The TOP community can be found in our [Discord chat rooms](https://discord.gg/hv
 The Odin Project depends on open-source contributions to improve, grow, and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community.
 
 ### Lessons/Courses in Development
-We are constantly making improvements to the curriculum, and new lessons are always in the works. However, writing new lessons is very time consuming and is done for free. If you would like to know specifics about work on new lessons, please checkout the [Forum](https://forum.theodinproject.com/) under "sprints", ask in the [Discord chat](https://discord.gg/hvqVr6d), or keep an eye on this repo.
+We are constantly making improvements to the curriculum, and new lessons are always in the works. However, writing new lessons is very time consuming and is done for free. If you would like to know specifics about work on new lessons, ask in the [Discord chat](https://discord.gg/hvqVr6d), or keep an eye on this repo.
 
 If you would like to help us develop any lessons, please read our [contributing guide](https://www.theodinproject.com/contributing) to find out how you can contribute.
 
