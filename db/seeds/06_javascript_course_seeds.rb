@@ -12,7 +12,7 @@ lesson_position = 0
 course = create_or_update_course(
   title: 'Javascript',
   title_url: 'Javascript'.parameterize,
-  description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
+  description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming priciples, and build single page applications with React.",
   position: course_position
 )
 
