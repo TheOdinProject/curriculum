@@ -275,6 +275,81 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
+  title: 'Asynchronous JavaScript and APIs',
+  title_url: 'Asynchronous JavaScript'.parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: 'Asynchronous JavaScript'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'JSON',
+  title_url: 'JSON'.parameterize,
+  description: 'JSON',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/async-apis/json.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Async',
+  title_url: 'Async'.parameterize,
+  description: 'Async',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/async-apis/promises-async.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Working with APIs',
+  title_url: 'Working with APIs'.parameterize,
+  description: 'Working with APIs',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/async-apis/APIs.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Async and Await',
+  title_url: 'Async and Await'.parameterize,
+  description: 'Async and Await',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/javascript/async-apis/async-await.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Weather App',
+  title_url: 'Weather App'.parameterize,
+  description: 'Weather App',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: true,
+  url: '/javascript/async-apis/project.md',
+  repo: 'curriculum',
+  accepts_submission: true,
+  has_live_preview: true
+)
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
   title: 'React JS',
   title_url: 'React JS'.parameterize,
   course_id: course.id,
@@ -409,81 +484,6 @@ create_or_update_lesson(
 )
 
 # +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-section = create_or_update_section(
-  title: 'Asynchronous JavaScript and APIs',
-  title_url: 'Asynchronous JavaScript'.parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: 'Asynchronous JavaScript'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: 'JSON',
-  title_url: 'JSON'.parameterize,
-  description: 'JSON',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: '/javascript/async-apis/json.md',
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: 'Async',
-  title_url: 'Async'.parameterize,
-  description: 'Async',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: '/javascript/async-apis/promises-async.md',
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: 'Working with APIs',
-  title_url: 'Working with APIs'.parameterize,
-  description: 'Working with APIs',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: '/javascript/async-apis/APIs.md',
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: 'Async and Await',
-  title_url: 'Async and Await'.parameterize,
-  description: 'Async and Await',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: '/javascript/async-apis/async-await.md',
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
-  title: 'Weather App',
-  title_url: 'Weather App'.parameterize,
-  description: 'Weather App',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: true,
-  url: '/javascript/async-apis/project.md',
-  repo: 'curriculum',
-  accepts_submission: true,
-  has_live_preview: true
-)
-
-# +++++++++++
 # section
 # +++++++++++
 
@@ -548,7 +548,7 @@ create_or_update_lesson(
   has_live_preview: true
 )
 # +++++++++++
-# section
+# SECTION
 # +++++++++++
 
 section_position += 1
