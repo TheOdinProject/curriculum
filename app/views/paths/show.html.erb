@@ -5,7 +5,7 @@
       <%= button_to 'Switch Path', users_paths_path(path_id: @path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...' } %>
     </div>
   <% end %>
-  <p class="text-center path-description"><%= @path.description %></p>
+  <p class="text-center path-description push-down-2x"><%= @path.description %></p>
 
   <% @courses.each do |course| %>
     <%= render 'courses/course_card', course: course %>
