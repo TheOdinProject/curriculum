@@ -109,6 +109,8 @@
   }
 
   &__public-icon {
+    cursor: pointer;
+    
     color: $button-disabled;
 
     &--visible {

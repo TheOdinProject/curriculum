@@ -6,6 +6,7 @@ import EditForm from './edit-form';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
 import SubmissionTitle from './submission-title';
 import Like from './like';
+import VisibleToggle from './visible-toggle';
 
 const noop = () => { }
 
@@ -42,7 +43,7 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
         }
 
         {isCurrentUsersSubmission
-          ? <span className={`submissions__public-icon submissions__public-icon${submission.is_public ? '--visible' : ''}`}><i className="fas fa-eye"></i></span>
+          ? <VisibleToggle submission={submission} handleVisibleToggle={handleUpdate} />
           :
           <a className='submissions__flag hint--top' aria-label='Report submission' onClick={(event) => { event.preventDefault(); onFlag(submission) }}>
             <i className='fas fa-flag'></i>
