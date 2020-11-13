@@ -42,4 +42,3 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 </div>
 
 ### Additional Resources
-* [Thoughtbot's Fundamentals of Testing](https://thoughtbot.com/upcase/fundamentals-of-tdd) videos offer an introduction to test driven development. But a quick warning, the TDD Spec Cleanup Exercise requires cloning an older GitHub repository that needs installations and gems not covered to this point. Many students have not been able to run it so you might want to skip that exercise.
