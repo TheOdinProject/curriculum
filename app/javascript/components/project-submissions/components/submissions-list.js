@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { object, func, arrayOf, string, bool } from 'prop-types';
+import FlipMove from 'react-flip-move';
 
 import Submission from './submission';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
@@ -13,8 +14,8 @@ const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDa
   return (
     <div>
         { hasSubmissions
-          ? <div>
-              {submissions.map(submission => (
+          ? <FlipMove>
+              {submissions.sort((a, b) => b.likes - a.likes).map(submission => (
                 <Submission
                   key={submission.id}
                   submission={submission}
@@ -25,7 +26,7 @@ const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDa
                   handleLikeToggle={handleLikeToggle}
                 />
               ))}
-            </div>
+            </FlipMove>
           : <h2 className='submissions__blank-slate'>No Submissions yet, be the first!</h2>
         }
 

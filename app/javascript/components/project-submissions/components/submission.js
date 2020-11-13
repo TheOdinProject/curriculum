@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useContext } from 'react';
+import React, { useState, useMemo, useContext, forwardRef } from 'react';
 import { object, func, bool } from 'prop-types';
 
 import Modal from './modal';
@@ -10,7 +10,7 @@ import VisibleToggle from './visible-toggle';
 
 const noop = () => { }
 
-const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboardView, handleLikeToggle }) => {
+const Submission = forwardRef(({ submission, handleUpdate, onFlag, handleDelete, isDashboardView, handleLikeToggle }, ref) => {
   const { userId } = useContext(ProjectSubmissionContext);
   const [showEditModal, setShowEditModal] = useState(false);
   const isCurrentUsersSubmission = useMemo(() =>
@@ -20,7 +20,7 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
   const livePreview = submission.live_preview_url.length > 0;
 
   return (
-    <div className="submissions__item">
+    <div className="submissions__item" ref={ref}>
       <div className="submissions__left-container">
         <Like submission={submission} handleLikeToggle={handleLikeToggle} />
         <p className="submissions__submission-title">
@@ -61,7 +61,7 @@ const Submission = ({ submission, handleUpdate, onFlag, handleDelete, isDashboar
       </Modal>
     </div>
   );
-};
+});
 
 Submission.defaultProps = {
   onFlag: noop,
