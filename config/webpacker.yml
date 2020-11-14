@@ -76,6 +76,8 @@ development:
     watch_options:
       ignored: '**/node_modules/**'
 
+docker:
+  <<: *default
 
 test:
   <<: *default
