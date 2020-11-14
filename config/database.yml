@@ -10,7 +10,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
-development:
+development: &development
   <<: *default
   database: <%= ENV['POSTGRES_DEV_DB'] || 'theodinproject' %>
 
