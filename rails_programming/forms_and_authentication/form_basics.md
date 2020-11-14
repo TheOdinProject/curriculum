@@ -142,7 +142,7 @@ There are a few things to take note of when using the `form_with` helper.
 2. The second line ends with `as JS` instead of the usual `as HTML` when you look at your output in your console after submitting a form. By default, all forms using form_with will submit data using an XHR (Ajax) request. This means that a full request cycle doesn't occur and the page doesn't reload when the form is submitted. In order to disable this, just include `local: true` when building your form like this.
 
 ~~~bash
-  <%= form_with(url: "/search", method: "get"), local: true do %>
+  <%= form_with(url: "/search", method: "get", local: true) do %>
     <%= label_tag(:query, "Search for:") %>
     <%= text_field_tag(:query) %>
     <%= submit_tag("Search") %>
