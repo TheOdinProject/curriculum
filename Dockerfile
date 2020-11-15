@@ -19,6 +19,6 @@ ENV RAILS_ENV=docker
 COPY . .
 
 EXPOSE 3000
-CMD ["entrypoint.sh"]
+CMD ["/rails/entrypoint.sh"]
 
 

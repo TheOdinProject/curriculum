@@ -10,7 +10,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
-development:
+development: &development
   <<: *default
   database: <%= ENV['POSTGRES_DEV_DB'] || 'theodinproject' %>
 
@@ -22,9 +22,8 @@ test: &test
   database: <%= ENV['POSTGRES_TEST_DB'] || 'theodinproject_test' %>
 
 docker:
-  <<: *default
+  <<: *development
   database: <%= ENV['POSTGRES_DEV_DB'] || 'theodinproject' %>
-  username: <%= ENV['POSTGRES_USERNAME'] || 'postgres' %>
 
 production:
   adapter: postgresql
