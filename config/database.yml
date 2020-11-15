@@ -21,10 +21,6 @@ test: &test
   <<: *default
   database: <%= ENV['POSTGRES_TEST_DB'] || 'theodinproject_test' %>
 
-docker:
-  <<: *development
-  database: <%= ENV['POSTGRES_DEV_DB'] || 'theodinproject' %>
-
 production:
   adapter: postgresql
   encoding: unicode
