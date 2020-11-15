@@ -65,7 +65,7 @@ So what is happening here? First we are importing React, our two components (Pro
 
 1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
 
-2. **BrowserRouter**: Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion I have to mention that there are other options than `BroswerRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
+2. **BrowserRouter**: Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion I have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
 
 3. **Switch**: Renders the first child Route that matches the location. In other words, the `Switch` component is going to look through all your Routes and checks their path. The first Route, who's path matches the url will be rendered; all others will be ignored. Important to note is that in our above example, both routes; the homepage ("/") as well as the profile route ("/profile") contain, at first, a / in their path. This means that when you go to "/profile" you will see the App component render, as it is the first path that matches the url. Our profile route gets ignored because it is second place. Therefore, our Profile component never gets rendered.
 
