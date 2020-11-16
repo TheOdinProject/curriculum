@@ -19,9 +19,7 @@ development: &development
 # Do not set this db to the same as development or production.
 test: &test
   <<: *default
-  database: 'theodinproject_test'
-  username: zach
-  password: Danmark123!
+  database: <%= ENV['POSTGRES_TEST_DB'] || 'theodinproject_test' %>
 
 production:
   adapter: postgresql
