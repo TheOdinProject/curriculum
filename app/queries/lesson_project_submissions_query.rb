@@ -15,7 +15,6 @@ class LessonProjectSubmissionsQuery
   attr_reader :lesson, :limit
 
   def lesson_project_submissions
-    lesson.project_submissions.viewable.order(cached_votes_total: :desc).limit(limit)
     lesson.project_submissions.viewable.order(cached_votes_total: :desc, created_at: :desc).limit(limit)
   end
 end
