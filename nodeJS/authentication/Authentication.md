@@ -1,6 +1,6 @@
 Creating users and allowing them to log in and out of your web apps is a crucial functionality that we are finally ready to learn! There is quite a bit of setup involved here, but thankfully none of it is too tricky. You'll be up and running in no time! In this lesson we're going to be using [passportJs](http://www.passportjs.org) an excellent middleware to handle our authentication and sessions for us.
 
-We're going to be building a very minimal express app that will allow users to sign up, login and log out. For now we're just going to keep everything except the views in one file to make for easier demonstration, but in a real world project, it is best practice to split our concerns and functionality into separate modules.
+We're going to be building a very minimal express app that will allow users to sign up, login and log out. For now, we're just going to keep everything except the views in one file to make for easier demonstration, but in a real world project, it is best practice to split our concerns and functionality into separate modules.
 
 ### Learning Outcomes
 
@@ -12,12 +12,12 @@ By the end of this lesson, you should be able to do the following:
 - Describe what Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
-- Refreshed on prior learning material (routes, templates, middleware)
+- Refreshed on prior learning material (routes, templates, middleware).
 - Use PassportJS to setup user authentication with Express.
 
 #### Data Security/Safety
 
-- Describe what bcrypt is and its use
+- Describe what bcrypt is and its use.
 - Explain the importance of password hashing.
 - Describe bcrypt's `compare` function.
 
@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:
 
 We're going to be using another Mongo database, so before we begin login to your mongo provider and create a new database and save it's url string somewhere handy.
 
-To begin, lets set up a very minimal express app with a single MongoDb model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
+To begin, let's set up a very minimal express app with a single MongoDb model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
 
 ~~~
 npm install express express-session mongoose passport passport-local ejs
@@ -147,7 +147,7 @@ Now that we have the ability to put users in our database, let's allow them to l
 
 PassportJs uses what they call _Strategies_ to authenticate users. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
 
-We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialise())`.
+We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialize())`.
 
 #### Function one : setting up the LocalStrategy
 ~~~javascript
@@ -169,7 +169,7 @@ passport.use(
 );
 ~~~
 
-This function is what will be called when we use the `passport.authenticate()` function later.  Basically it takes a username and password, tries to find the user in our DB, and then makes sure that the user's password matches the given password. If all of that works out (there's a user in the DB, and the passwords match) then it authenticates our user and moves on! We will not be calling this function directly, so you won't have to supply the `done` function.  This function acts a bit like a middleware and will be called for us when we ask passport to do the authentication later.
+This function is what will be called when we use the `passport.authenticate()` function later.  Basically, it takes a username and password, tries to find the user in our DB, and then makes sure that the user's password matches the given password. If all of that works out (there's a user in the DB, and the passwords match) then it authenticates our user and moves on! We will not be calling this function directly, so you won't have to supply the `done` function.  This function acts a bit like a middleware and will be called for us when we ask passport to do the authentication later.
 
 ### Functions two and three: Sessions and serialization
 
@@ -283,11 +283,11 @@ app.use(function(req, res, next) {
 });
 ~~~
 
-If you insert this code somewhere between where you instantiate the passport middleware and before you render your views, you'll will have access to the `currentUser` variable in all of your views, and you won't have to manually pass it into all of the controllers in which you need it.
+If you insert this code somewhere between where you instantiate the passport middleware and before you render your views, you will have access to the `currentUser` variable in all of your views, and you won't have to manually pass it into all of the controllers in which you need it.
 
 ### Securing passwords with bcrypt
 
-Now, lets go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up.
+Now, let's go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up.
 
 First `npm install bcryptjs`. There is another module called `bcrypt` that does the same thing, but it is written in C++ and is sometimes a pain to get installed. The C++ `bcrypt` is technically faster, so in the future it might be worth getting it running, but for now the modules work the same so we can just use `bcryptjs`.
 
@@ -304,7 +304,7 @@ bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
 });
 ~~~
 
-The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right your password should have been transformed into a really long random string.
+The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right, your password should have been transformed into a really long random string.
 
 It's important to note that _how_ hashing works is beyond the scope of this lesson. Password hashes are the result of passing the user's password through a [one-way hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 
