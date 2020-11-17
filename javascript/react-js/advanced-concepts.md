@@ -33,6 +33,6 @@ Higher-order [components](https://reactjs.org/docs/higher-order-components.html)
 
 [`withRouter`](https://reactrouter.com/core/api/withRouter) is one example of a higher-order component and is worth looking into it. By wrapping `withRouter` around one of your components, the component will get access to your history, match, and children objects, which provide some additional syntactic sugar. For example, you could use the history object to push a user from one route to another.
 
-#### 6. Hooks (We only discussed a few, but there are a lot more out there)
+#### 6. More Hooks 
 
 There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your own.
