@@ -26,8 +26,8 @@ Let's take a quick break from the main Express tutorial to practice what we've a
      ];
      ~~~
 
-4.   Next, in your index template (in the `"views"` folder) loop through the messages array using whichever templating language you selected and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the res.render 'locals' object (e.g. `res.render('index', { title: "Mini Messageboard", messages: messages })`.
-5.   Next lets set up the new message form.  In the router add a `router.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To have the form make a network request you will need to define it with both a method and an action like so:
+4.   Next, in your index template (in the `"views"` folder) loop through the messages array using whichever templating language you selected and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the res.render 'locals' object (e.g. `res.render('index', { title: "Mini Messageboard", messages: messages })`).
+5.   Next let's set up the new message form.  In the router add a `router.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To have the form make a network request you will need to define it with both a method and an action like so:
 
      ~~~html
      <form method="POST" action="/new">
