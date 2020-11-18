@@ -191,18 +191,6 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Alternate Paths to a Web Development Job',
-  title_url: 'Alternate Paths to a Web Development Job'.parameterize,
-  description: 'A look at several alternative ways you can find a web development job.',
-  position: lesson_position,
-  section_id: section.id,
-  is_project: false,
-  url: '/getting_hired/alternatives.md',
-  repo: 'curriculum'
-)
-
-lesson_position += 1
-create_or_update_lesson(
   title: 'Conclusion',
   title_url: 'Conclusion'.parameterize,
   description: 'Wrapping up The Odin Project and what you can do to have a strong career.',
