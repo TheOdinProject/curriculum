@@ -7,12 +7,28 @@ import ProjectSubmissionContext from '../ProjectSubmissionContext';
 
 const noop = () => {};
 
-const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDashboardView, handleLikeToggle }) => {
+const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDashboardView, handleLikeToggle, userSubmission }) => {
   const { allSubmissionsPath, legacySubmissionsUrl } = useContext(ProjectSubmissionContext);
   const hasSubmissions = submissions.length > 0;
+  
+  // if (userSubmission) {
+  //   submissions = submissions.filter((submission) => submission.user_id !== userSubmission.user_id);
+  // }
 
   return (
     <div>
+        { userSubmission
+        ? <Submission
+            key={userSubmission.id}
+            submission={userSubmission}
+            handleUpdate={handleUpdate}
+            onFlag={onFlag}
+            handleDelete={handleDelete}
+            isDashboardView={isDashboardView}
+            handleLikeToggle={handleLikeToggle}
+          />
+        : ''
+        }
         { hasSubmissions
           ? <FlipMove>
               {submissions.sort((a, b) => b.likes - a.likes).map(submission => (
@@ -42,12 +58,14 @@ const SubmissionsList = ({ submissions, handleDelete, onFlag, handleUpdate, isDa
 
 SubmissionsList.defaultProps = {
   allSubmissionsPath: '',
+  userSubmission: null,
   onFlag: noop,
   isDashboardView: false,
 }
 
 SubmissionsList.propTypes = {
   submissions: arrayOf(object).isRequired,
+  userSubmission: object,
   handleDelete: func.isRequired,
   onFlag: func,
   handleUpdate: func.isRequired,

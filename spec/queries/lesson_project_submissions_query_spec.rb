@@ -20,22 +20,5 @@ RSpec.describe LessonProjectSubmissionsQuery do
         )
       end
     end
-
-    context 'when the current user is not nil' do
-      let(:user) { create(:user) }
-      let!(:users_submission) { create(:project_submission, lesson: lesson, user: user) }
-      let!(:project_submission_one) { create(:project_submission, lesson: lesson, created_at: 3.hours.ago) }
-      let!(:project_submission_two) { create(:project_submission, lesson: lesson, created_at: 1.day.ago) }
-
-      it 'returns the lesson project submissions with the users submission first' do
-        expect(query.with_current_user_submission_first(user)).to eq(
-          [
-            users_submission,
-            project_submission_one,
-            project_submission_two
-          ]
-        )
-      end
-    end
   end
 end

@@ -3,9 +3,9 @@ import { number, array, object, string } from 'prop-types';
 import ProjectSubmissionsContainer from './containers/project-submissions-container';
 import ProjectSubmissionContext from "./ProjectSubmissionContext";
 
-const ProjectSubmissions = ({ submissions, course, lesson, userId, allSubmissionsPath, legacySubmissionsUrl }) => (
+const ProjectSubmissions = ({ submissions, course, lesson, userId, allSubmissionsPath, legacySubmissionsUrl, userSubmission }) => (
   <ProjectSubmissionContext.Provider value={{ userId, lesson, course, allSubmissionsPath, legacySubmissionsUrl }}>
-    <ProjectSubmissionsContainer submissions={submissions} />
+    <ProjectSubmissionsContainer submissions={submissions} userSubmission={userSubmission} />
   </ProjectSubmissionContext.Provider>
 );
 
@@ -21,6 +21,7 @@ ProjectSubmissions.propTypes = {
   course: object.isRequired,
   allSubmissionsPath: string,
   legacySubmissionsUrl: string,
+  userSubmission: object
 };
 
 export default ProjectSubmissions;

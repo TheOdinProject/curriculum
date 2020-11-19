@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 
 import { SubmissionsList, Modal, CreateForm, FlagForm } from '../components';
 import axios from '../../../src/js/axiosWithCsrf';
@@ -10,7 +10,7 @@ const ProjectSubmissions = (props) => {
   const [showFlagModal, setShowFlagModal] = useState(false);
   const [submissions, setSubmissions] = useState(props.submissions);
   const [flaggedSubmission, setFlaggedSubmission] = useState({});
-
+  const [userSubmission, setUserSubmission] = useState(props.userSubmission);
 
   const toggleShowFlagModal = () => setShowFlagModal(prevShowFlagModal => !prevShowFlagModal);
 
@@ -35,7 +35,7 @@ const ProjectSubmissions = (props) => {
       }
     );
     if (response.status === 200) {
-      setSubmissions(prevSubmissions => [response.data, ...prevSubmissions]);
+      setUserSubmission(prevSubmission => response.data);
     }
   };
 
@@ -56,9 +56,7 @@ const ProjectSubmissions = (props) => {
       }
     );
     if (response.status === 200) {
-      setSubmissions(prevSubmissions =>
-        Object.assign([], prevSubmissions, {[0]: response.data})
-      );
+      setUserSubmission(prevSubmission => response.data);
     }
   };
 
@@ -67,9 +65,7 @@ const ProjectSubmissions = (props) => {
 
     const response = await axios.delete(`/project_submissions/${id}`, {});
     if (response.status === 200) {
-      setSubmissions(prevSubmissions =>
-        prevSubmissions.filter((submission) => submission.id !== id)
-      );
+      setUserSubmission(prevSubmissions => null);
     }
   };
 
@@ -85,7 +81,7 @@ const ProjectSubmissions = (props) => {
     }
   };
 
-  const toggleLikeSubmission = async (submission) => {
+  const toggleLikeSubmission = async (submission, isUserSubmission = false) => {
     const response = await axios.post(
       `/project_submissions/${submission.id}/likes`,
       {
@@ -97,23 +93,23 @@ const ProjectSubmissions = (props) => {
     if (response.status === 200) {
       const updatedSubmission = response.data;
 
-      setSubmissions(prevSubmissions => {
-        const newSubmissions = prevSubmissions.map((submission) => {
-          if (updatedSubmission.id === submission.id) {
-            return updatedSubmission;
-          }
+      if (isUserSubmission) {
+        setUserSubmission(prevSubmission => updatedSubmission);
+      } else {
+        setSubmissions(prevSubmissions => {
+          const newSubmissions = prevSubmissions.map((submission) => {
+            if (updatedSubmission.id === submission.id) {
+              return updatedSubmission;
+            }
 
-          return submission;
-        })
+            return submission;
+          })
 
-        return newSubmissions;
-      });
+          return newSubmissions;
+        });
+      }
     }
   };
-
-  const userSubmission = useMemo(() => {
-    return submissions.find(submission => submission.user_id === userId);
-  }, [userId, submissions.length]);
 
   const showAddSubmissionButton = () => !userSubmission
 
@@ -157,6 +153,7 @@ const ProjectSubmissions = (props) => {
       </p>
       <SubmissionsList
         submissions={submissions}
+        userSubmission={userSubmission}
         handleUpdate={handleUpdate}
         onFlag={(submission) => { setFlaggedSubmission(submission); toggleShowFlagModal() }}
         handleDelete={handleDelete}
