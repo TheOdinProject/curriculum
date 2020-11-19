@@ -1,5 +1,8 @@
 {
   "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.12.7",
     "@hookform/resolvers": "^0.1.1",
@@ -30,6 +33,17 @@
     "yup": "^0.30.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.1",
+    "jest": "^26.6.3",
     "webpack-dev-server": "^3.11.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "testPathIgnorePatterns": [
+      "<rootDir>/config/",
+      "/node_modules/"
+    ],
+    "setupFilesAfterEnv": ["<rootDir>/setupTests.js"]
   }
 }
