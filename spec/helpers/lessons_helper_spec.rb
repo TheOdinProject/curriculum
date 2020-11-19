@@ -57,16 +57,16 @@ RSpec.describe LessonsHelper do
         allow(ProjectSubmissionSerializer).to receive(:as_json)
       end
 
-      it "returns the users submission in json format" do
+      it 'returns the users submission in json format' do
         helper.user_submission(current_user, lesson)
         expect(ProjectSubmissionSerializer).to have_received(:as_json).with(project_submission, current_user)
       end
     end
 
-    context "when the user is not logged in" do
+    context 'when the user is not logged in' do
       let(:current_user) { nil }
 
-      it "returns nil" do
+      it 'returns nil' do
         expect(helper.user_submission(current_user, lesson)).to be_nil
       end
     end
