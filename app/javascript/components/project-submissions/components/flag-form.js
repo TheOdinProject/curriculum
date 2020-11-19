@@ -46,7 +46,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
         </div>
         {errors.reason && <div className="form__error-message push-down"> {errors.reason.message}</div>}
 
-        <div className="form__section form__section--right-aligned">
+        <div className="form__section form__section--center-aligned">
           <button disabled={formState.isSubmitting} className="button button--primary" type="submit">Flag</button>
         </div>
       </form>

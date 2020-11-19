@@ -64,7 +64,7 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
             </Fragment>
         }
 
-        <div className="form__section form__section--right-aligned form__section--bottom">
+        <div className="form__section form__section--center-aligned form__section--bottom">
 
           <div className="form__toggle-checkbox">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
@@ -74,10 +74,12 @@ const EditForm = ({ submission, onSubmit, onClose, onDelete }) => {
             </label>
           </div>
 
-          <button className="button button--danger" onClick={handleDelete}>Delete</button>
-          &nbsp;
-          &nbsp;
-          <button disabled={formState.isSubmitting} type="submit" className="button button--primary">Update</button>
+          <div className="form__button-group">
+            <button className="button button--danger" onClick={handleDelete}>Delete</button>
+            &nbsp;
+            &nbsp;
+            <button disabled={formState.isSubmitting} type="submit" className="button button--primary">Update</button>
+          </div>
         </div>
       </form>
     </div>

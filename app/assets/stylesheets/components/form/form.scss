@@ -1,18 +1,26 @@
 .form {
   padding-top: 1em;
 
+  &__button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+  }
+  
   &__section {
     margin-bottom: 20px;
     position: relative;
 
-    &--right-aligned {
+    &--center-aligned {
       display: flex;
-      justify-content: flex-end;
-      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
 
       @include media-breakpoint-down(sm) {
         display: block;
-        text-align: left;
+        text-align: center;
       }
     }
 
@@ -111,7 +119,8 @@
   &__toggle-checkbox {
     display: flex;
     align-items: center;
-
+    margin-bottom: 10px;
+    justify-content: center;
 
     @include media-breakpoint-down(sm) {
       margin: 1.2rem 0;

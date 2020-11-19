@@ -67,7 +67,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
            </Fragment>
         }
 
-        <div className="form__section form__section--right-aligned form__section--bottom">
+        <div className="form__section form__section--center-aligned form__section--bottom">
           <div className="form__toggle-checkbox">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
             <label className="toggle form__public-checkbox">
