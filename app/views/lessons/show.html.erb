@@ -35,7 +35,7 @@
             submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission, current_user) },
             allSubmissionsPath: lesson_project_submissions_path(@lesson),
             legacySubmissionsUrl: legacy_submissions_url(@lesson),
-            userSubmission: user_submission(current_user)
+            userSubmission: user_submission(current_user, @lesson)
           }
         ) %>
       <% end %>
