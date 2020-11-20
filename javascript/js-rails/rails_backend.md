@@ -18,11 +18,7 @@ Are you done? Good. Next, it's time to practice allowing your front end Javascri
 
 #### Outsourcing your backend to Firebase
 
-<<<<<<< HEAD
-If you skipped Ruby and/or Ruby on Rails and are on the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript) path, you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
-=======
 If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
->>>>>>> 8b708d8db4962eb44555bf69128e28f17aee4465
 
 ### Learning Outcomes
 
