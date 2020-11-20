@@ -359,3 +359,15 @@ create_or_update_lesson(
   accepts_submission: true,
   has_live_preview: true
 )
+
+lesson_position += 1
+create_or_update_lesson(
+  title: 'Conclusion',
+  title_url: 'Conclusion'.parameterize,
+  description: 'Wow you\'ve gotten to the last lesson!',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/nodeJS/conclusion.md',
+  repo: 'curriculum'
+)
