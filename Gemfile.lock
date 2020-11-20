@@ -111,7 +111,6 @@ GEM
     crass (1.0.6)
     css_parser (1.7.1)
       addressable
-    database_cleaner (1.8.5)
     debug_inspector (0.0.3)
     derailed (0.1.0)
       derailed_benchmarks
@@ -496,7 +495,6 @@ DEPENDENCIES
   bootstrap (>= 4.4.1)
   cancancan
   climate_control
-  database_cleaner (~> 1.8)
   derailed
   devise (>= 4.7.1)
   discordrb-webhooks

@@ -42,7 +42,6 @@ end
 
 group :development, :test, :docker do
   gem 'climate_control'
-  gem 'database_cleaner', '~> 1.8'
   gem 'dotenv-rails'
   gem 'factory_bot'
   gem 'factory_bot_rails', '~> 6'
