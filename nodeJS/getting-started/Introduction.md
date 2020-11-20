@@ -60,7 +60,7 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 
 ### A word of advice
 
-While you may have learned React (or any other frontend framework) before, either on your own volition or earlier in the path, it is not reccomended to use it for this course right away. As you move forward through the node course you will learn more about how to build APIs and use frontend frameworks with them. You should follow the course as it is written, deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
+While you may have learned React (or any other frontend framework) before, either on your own volition or earlier in the path, it is not reccomended to use it for this course right away. There are many topics that you must learn before you can integrate these frameworks effectively. As you move forward through the node course you will learn more about how to build APIs and use frontend frameworks with them. You should follow the course as it is written, deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
 
 ### Assignment
 
