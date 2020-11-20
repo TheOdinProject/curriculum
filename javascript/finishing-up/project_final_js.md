@@ -5,7 +5,7 @@ I hope you enjoyed this course and the projects you've completed.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Replicate your favorite website as close as possible - Pinterest, Facebook, Twitter, etc. Just make sure it has lots of interesting functionality. You'll be integrating a full array of skills into this one. Feel free to set up the project using the back-end framework of your choice! For example, Ruby on Rails or NodeJS. This should prove that you now have all the tools and knowledge needed to build a website, just like the ones you use every day.
+Replicate your favorite website as close as possible - Pinterest, Facebook, Twitter, etc. Just make sure it has lots of interesting functionality. You'll be integrating a full array of skills into this one. If you have completed a backend course, you may use that for this project, otherwise use Firebase. This should prove that you now have all the tools and knowledge needed to build a website, just like the ones you use every day.
 
 Of course, you can't replicate every feature, and the user interface will probably be a bit clunkier. However, if you can get yourself 80% of the way there, that's darn impressive!
 
@@ -24,6 +24,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [A Rock Solid, Modern Web Stack—Rails 5 API + ActiveAdmin + Create React App on Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack)
 - [How to Build a React App that Works with a Rails 5.1 API](https://www.sitepoint.com/react-rails-5-1/)
-- [How to create a React frontend and a Node/Express backend and connect them](https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
-- [(Video) React & Express Starter Pack For Full Stack Development](https://youtu.be/v0t42xBIYIs)
-- [(Video) Learn the MERN Stack - Full Tutorial (MongoDB, Express, React, Node.js)](https://youtu.be/7CqJlxBYj-M)
+- [Firebase Documentation](https://firebase.google.com/)
