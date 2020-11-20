@@ -35,7 +35,7 @@ describe('VisibleToggle', () => {
     );
     const component = screen.getByLabelText('Toggle visibility');
 
-    fireEvent.click(screen.getByLabelText('Toggle visibility'));
+    fireEvent.click(component);
     expect(component).toHaveClass('submissions__public-icon--visible');
 
     rerender(
@@ -44,6 +44,7 @@ describe('VisibleToggle', () => {
         handleVisibleToggle={mockHandleVisibleToggle}
       />
     )
+
     expect(component).not.toHaveClass('submissions__public-icon--visible');
   });
 });
