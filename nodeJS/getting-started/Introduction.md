@@ -58,7 +58,9 @@ http.createServer(function (req, res) {
 
 This snippet is from the very first lesson in a tutorial that you'll be following very soon. Basically this code is creating a server and saying, "any time we get a network request run this callback function".  This function happens to respond with the text 'Hello World'. So if you go to a browser and navigate to the correct address and port you would see that text on your screen.
 
+### A word of advice
 
+While you may have learned React (or any other frontend framework) before, either of your own volition or earlier in the path, it is not recommended to use it for this course right away. There are many topics that you must learn before you can combine these frameworks effectively. As you move forward through the Node course, you will learn more about how to integrate Node APIs with frontend frameworks. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
 
 ### Assignment
 
