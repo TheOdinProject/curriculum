@@ -10,7 +10,6 @@ describe('VisibleToggle', () => {
         handleVisibleToggle={() => {}}
       />
     );
-
     expect(screen.getByLabelText('Toggle visibility')).toHaveClass('submissions__public-icon--visible');
   });
 
@@ -20,8 +19,7 @@ describe('VisibleToggle', () => {
         submission={{ is_public: false }}
         handleVisibleToggle={() => {}}
       />
-    )
-
+    );
     expect(screen.getByLabelText('Toggle visibility')).not.toHaveClass('submissions__public-icon--visible');
   });
 
@@ -35,9 +33,10 @@ describe('VisibleToggle', () => {
         handleVisibleToggle={mockHandleVisibleToggle}
       />
     );
+    const component = screen.getByLabelText('Toggle visibility');
 
     fireEvent.click(screen.getByLabelText('Toggle visibility'));
-    expect(screen.getByLabelText('Toggle visibility')).toHaveClass('submissions__public-icon--visible');
+    expect(component).toHaveClass('submissions__public-icon--visible');
 
     rerender(
       <VisibleToggle
@@ -45,7 +44,6 @@ describe('VisibleToggle', () => {
         handleVisibleToggle={mockHandleVisibleToggle}
       />
     )
-
-    expect(screen.getByLabelText('Toggle visibility')).not.toHaveClass('submissions__public-icon--visible');
+    expect(component).not.toHaveClass('submissions__public-icon--visible');
   });
 });
