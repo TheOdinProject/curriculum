@@ -44,7 +44,6 @@ describe('VisibleToggle', () => {
         handleVisibleToggle={mockHandleVisibleToggle}
       />
     )
-
     expect(component).not.toHaveClass('submissions__public-icon--visible');
   });
 });
