@@ -24,4 +24,28 @@ describe('VisibleToggle', () => {
 
     expect(screen.getByLabelText('Toggle visibility')).not.toHaveClass('submissions__public-icon--visible');
   });
+
+  test('Toggles between public and private on click', () => {
+    const submission = { is_public: true };
+    const mockHandleVisibleToggle = jest.fn()
+      .mockImplementation(() => submission.is_public = !submission.is_public)
+    const { rerender } = render(
+      <VisibleToggle
+        submission={submission}
+        handleVisibleToggle={mockHandleVisibleToggle}
+      />
+    );
+
+    fireEvent.click(screen.getByLabelText('Toggle visibility'));
+    expect(screen.getByLabelText('Toggle visibility')).toHaveClass('submissions__public-icon--visible');
+
+    rerender(
+      <VisibleToggle
+        submission={submission}
+        handleVisibleToggle={mockHandleVisibleToggle}
+      />
+    )
+
+    expect(screen.getByLabelText('Toggle visibility')).not.toHaveClass('submissions__public-icon--visible');
+  });
 });
