@@ -15,7 +15,7 @@ Good Luck!
 
 #### 1. PropTypes
 
-One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). And if that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React, here is an [example](https://youtu.be/Z5iWr6Srsj8) of using typescript with React.
+One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). And if that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React.
 
 #### 2. Styled Components
 
