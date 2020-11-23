@@ -23,9 +23,15 @@ const ProjectSubmissions = (props) => {
       }
     );
     if (response.status === 200) {
-      setSubmissions(prevSubmissions =>
-        Object.assign([], prevSubmissions, {[0]: response.data})
-      );
+      const updatedSubmission = response.data;
+
+      setSubmissions(prevSubmissions => {
+        return prevSubmissions.map(previousSubmission => {
+          if (previousSubmission.id === updatedSubmission.id) return updatedSubmission;          
+
+          return previousSubmission;
+        });
+      });
     }
   };
 
@@ -40,12 +46,40 @@ const ProjectSubmissions = (props) => {
     }
   };
 
+  const toggleLikeSubmission = async (submission, isUserSubmission = false) => {
+    const response = await axios.post(
+      `/project_submissions/${submission.id}/likes`,
+      {
+        submission_id: submission.id,
+        is_liked_by_current_user: submission.is_liked_by_current_user
+      }
+    );
+
+    if (response.status === 200) {
+      const updatedSubmission = response.data;
+
+      setSubmissions(prevSubmissions => {
+        const newSubmissions = prevSubmissions.map((submission) => {
+          if (updatedSubmission.id === submission.id) {
+            return updatedSubmission;
+          }
+
+          return submission;
+        })
+
+        return newSubmissions;
+      });
+
+    }
+  };
+
   return (
     <div className="submissions">
       <SubmissionsList
         submissions={submissions}
         handleUpdate={handleUpdate}
         handleDelete={handleDelete}
+        handleLikeToggle={toggleLikeSubmission}
         isDashboardView
       />
     </div>
