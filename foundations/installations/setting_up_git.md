@@ -65,6 +65,17 @@ brew install git
 
 This will install the latest version of Git. Easy, right?
 
+#### Step 1.2: Verify version
+
+Make sure your git version is **at least** 2.28 by running this command:
+
+~~~bash
+git --version
+~~~
+
+If the version number is less than 2.28, follow the instructions again.
+
+
 </details>
 
 ### Step 2: Configure Git and GitHub
@@ -117,7 +128,7 @@ If a message appears in the console containing the text "No such file or directo
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
 
-**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@valhalla.com`, then you would type `ssh-keygen -C odin@valhalla.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
+**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -C odin@theodinproject.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
 
 ~~~bash
 ssh-keygen -C <youremail>
@@ -146,11 +157,12 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/hvqVr6d) to ask for help. 
-Note: Do not include the `$` when typing in the commands given in the article. 
+Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/hvqVr6d) to ask for help.
+
+**Note**: Do not include the `$` when typing in the commands given in the article. 
 
 ### Step 3: Let us know how it went!
 
-You have successfully completed the installations section. If you are doing the front-end or Node courses then you have everything you need. If you're doing Ruby and Rails we'll install those tools when you get to those courses.
+You've completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!
 
 You probably felt like you were in way over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
