@@ -15,6 +15,14 @@ By the end of this lesson, you should be able to do the following:
  - Explain how to check the status of your current repository from the command line.
  - Explain how to look at the history of your previous commits from the command line.
 
+### Before you start!
+
+- Recent changes to the way Github names the default branch means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:  
+`git --version`
+ - If you haven't already, set your local default git branch to `main`. You can do so by running:  
+ `git config --global init.defaultBranch main`
+- For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
+
 ### Assignment
 In this project, we'll walk through the basic Git workflow that you will use in all your projects.
 
@@ -62,11 +70,6 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 
 #### Push Your Work to GitHub
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
-
-- **Note #1: Make sure you are using a recent version of git (2.28 or later). You can check your version by running:** `git --version`
-- **Note #2: If you haven't already, set your default git branch to** `main`.
-You can do so by running: `git config --global init.defaultBranch main`
-- We are in the process of updating the screenshots to meet the new changes. For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 
 1. Type `git push origin main`.
   <a href="https://i.imgur.com/Fyo2Xaz.png"><img class="tutorial-img" src="https://i.imgur.com/Fyo2Xaz.png" title="source: imgur.com" /></a>
