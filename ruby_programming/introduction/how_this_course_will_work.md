@@ -25,6 +25,7 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Read the [Introduction](https://launchschool.com/books/ruby/read/introduction) of Launch School's *Introduction to Programming with Ruby* book to learn a bit more about the history of Ruby.
   2. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter](http://ruby-for-beginners.rubymonstas.org/your_tools.html) of The *Ruby for Beginners* book from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
   3. Read through the [Preparations](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) of Launch School's *Introduction to Programming with Ruby* book for some helpful advice about using and learning Ruby effectively.
