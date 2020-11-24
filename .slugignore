@@ -1,0 +1,2 @@
+# Ignore any javascript test files outside of spec/
+*.test.js
