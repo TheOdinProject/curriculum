@@ -42,7 +42,8 @@
     "clearMocks": true,
     "testPathIgnorePatterns": [
       "<rootDir>/config/",
-      "/node_modules/"
+      "/node_modules/",
+      "/vendor/"
     ],
     "setupFilesAfterEnv": ["<rootDir>/setupTests.js"]
   }

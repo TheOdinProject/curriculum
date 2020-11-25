@@ -17,7 +17,7 @@ executors:
     working_directory: ~/theodinproject
 
 jobs:
-  rspec:
+  tests:
     executor: rails-executor
     steps:
       - checkout
@@ -28,68 +28,49 @@ jobs:
       # Restore Cached Dependencies
       - restore_cache:
           name: Restore bundle cache
-          key: theodinproject-{{ checksum "Gemfile.lock" }}
+          key: theodinproject-bundle-{{ checksum "Gemfile.lock" }}
+
+      - restore_cache:
+          name: Restore yarn cache
+          key: theodinproject-yarn-{{ checksum "yarn.lock" }}
 
       # Bundle install dependencies
       - run: bundle install --path vendor/bundle
 
+      # yarn install dependencies
+      - run: yarn install
+
       # Cache Dependencies
       - save_cache:
           name: Store bundle cache
-          key: theodinproject-{{ checksum "Gemfile.lock" }}
+          key: theodinproject-bundle-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
 
-      # Wait for DB
-      - run:
-          name: install dockerize
-          command: wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz && sudo tar -C /usr/local/bin -xzvf dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
-          environment:
-            DOCKERIZE_VERSION: v0.3.0
+      - save_cache:
+          name: Store yarn cache
+          key: theodinproject-yarn-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.yarn-cache
 
+      # Wait for DB
       - run: dockerize -wait tcp://localhost:5432 -timeout 1m
 
       # Setup the database
       - run: bundle exec rake db:schema:load
 
-      # Run the tests
+      # Run the rubocop
+      - run: bundle exec rubocop
+
+      # Run the Jest Tests
+      - run: yarn test
+
+      # Run rspec
       - run: bundle exec rspec
 
-  linters:
-    executor: rails-executor
-    steps:
-      - checkout
-
-      # Install bundler
-      - run: gem install bundler
-
-      # Restore Cached Dependencies
-      - restore_cache:
-          name: Restore bundle cache
-          key: theodinproject-{{ checksum "Gemfile.lock" }}
-
-      # Bundle install dependencies
-      - run: bundle install --path vendor/bundle
-
-      # Cache Dependencies
-      - save_cache:
-          name: Store bundle cache
-          key: theodinproject-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-
-      # Wait for DB
-      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
-
-      # Setup the database
-      - run: bundle exec rake db:setup
-
-      # Run the tests
-      - run: bundle exec rubocop
 
 workflows:
   version: 2
-  build_and_test:
+  build:
     jobs:
-      - rspec
-      - linters
+      - tests
