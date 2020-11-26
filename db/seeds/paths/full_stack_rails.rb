@@ -3,7 +3,7 @@
 
 path = create_or_update_path(
   title: 'Full Stack Ruby on Rails',
-  description: "This path takes you through our entire Ruby on Rails curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch. This is our default path. If you do not know where to start, select this path.",
+  description: "This path takes you through our entire Ruby on Rails curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch.",
   position: 2,
 )
 
