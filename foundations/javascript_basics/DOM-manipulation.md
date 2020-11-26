@@ -269,7 +269,7 @@ div.innerHTML = '<span>Hello World!</span>';
 // renders the html inside div
 ~~~
 
-\*_Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused._
+\*_Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused. Check out [this video](https://www.youtube.com/watch?v=ns1LX6mEvyM&ab_channel=WebDevSimplified) if you want to see an example of how._
 
 Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
