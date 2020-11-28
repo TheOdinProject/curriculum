@@ -3,6 +3,10 @@ Before we can continue, we need to set up a development environment.
 
 If you are already using **MacOS** or **Ubuntu**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
+**IMPORTANT**
+
+This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device.
+
 
 <details markdown="block">
 <summary class="dropDown-header">Virtual Machine (Recommended)
