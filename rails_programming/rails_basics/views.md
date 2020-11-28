@@ -218,7 +218,9 @@ Rails offers several different helpers that help you create forms, and we'll go 
 Now that you've got a taste of the high-level stuff, read through the Rails Guides for a more detailed look at things.  The chapter below will actually start in the controller, where you need to let it know WHICH view file you want to render.  The second half of the chapter gets more into the view side of things.
 
 <div class="lesson-content__panel" markdown="1">
-1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
+
+  1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
+  2. Now that you are familiar with Models, Views, and Controllers, it is time put them all together by reading [Ruby on Rails Guides: Getting Started](https://guides.rubyonrails.org/getting_started.html#creating-the-blog-application), sections 3.2 through 8.1. You do not have to build this blog project because you will complete a similar tutorial in a few lessons.
 </div>
 
 ### Conclusion
@@ -227,3 +229,7 @@ Views in general make up the user-facing side of your app.  It can be a bit tric
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
+* [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
+* [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)

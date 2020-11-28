@@ -76,6 +76,6 @@ if you choose to use git when completing this tutorial (you should!) then you wi
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [intro article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) on MDN.
-2. Begin the project by following [this lesson](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website).  Be sure to read everything carefully! There's quite a bit of important information in this article.
+2. Begin the project by following [this lesson](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website).  Be sure to read everything carefully! There's quite a bit of important information in this article. You only have to do part 2 for now. We will continue where we leave off later.
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
 </div>

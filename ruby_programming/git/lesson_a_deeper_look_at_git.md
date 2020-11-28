@@ -8,7 +8,7 @@ In this lesson, we'll dive deeper than just the `$ git add .` and `$ git commit`
 
 It's important to take a look at this stuff before getting any deeper into things because the project work is becoming more and more complex so using a disciplined Git workflow is no longer optional.  The axiom used to be "save early and often" and now it's "commit early and often".  Hopefully, after you've finished this lesson you will feel much more comfortable with the basics and at least know what to Google if you'd like to do more.
 
-We'll begin by reading some things that are probably review from [Web Development 101](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
+We'll begin by reading some things that are probably review from [Foundations](https://www.theodinproject.com/courses/foundations/lessons/introduction-to-git) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
 
 
 ### Learning Outcomes
@@ -30,7 +30,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git).
+  1. If you haven't had the chance to do so, go through the [Foundations Git Basics section](https://www.theodinproject.com/courses/foundations/lessons/introduction-to-git).
   2. Read [Chapter 2: Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) of the [ProGit book](https://git-scm.com/book/en/v2). (Click "next" at the bottom of the page to get to the next page. You want to read from page 2.1 "Getting a Git Repository" through page 2.8 "Summary".)
   3. Read [Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) of the [ProGit book](https://git-scm.com/book/en/v2). (Click "next" at the bottom of the page to get to the next page. You want to read from page 3.1 "Branches in a Nutshell" through page 3.7 "Summary".)
   4. To learn about some of the more advanced undo tools that Git offers, read these two additional pages from the [ProGit book](https://git-scm.com/book/en/v2): [Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) and [Reset Demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified).

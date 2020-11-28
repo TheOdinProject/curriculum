@@ -166,7 +166,7 @@ To use this function, we just simply need to call it with `getCats()` in our cod
 
 This code will behave exactly like the code from the last lesson, it just looks a bit different after refactoring. `async/await` are very useful tools when it comes to cleaning up asynchronous javascript code. It is important to remember `async/await` are just promises written in a different way. Do the assignments below, and dive deeper into the understanding of `async/await`.
 
-
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [this article](https://javascript.info/async-await) for a solid introduction to async/await. [this article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of it's use.
