@@ -9,12 +9,16 @@ const Like = ({ submission, handleLikeToggle }) => {
 
   return (
     <>
-      <a className='submissions__like hint--top' aria-label={userId !== null ? (submission.is_liked_by_current_user ? 'Unlike submission' : 'Like submission') : 'Log in to like!'} onClick={(event) => {
-        event.preventDefault();
-        handleLikeToggle(submission, isCurrentUsersSubmission);
-      }
-      }>
-        {submission.likes} <i className={submission.is_liked_by_current_user ? 'fa fa-heart liked' : 'fa fa-heart'}></i>
+      <a
+        className='submissions__like hint--top'
+        aria-label={
+          userId !== null ? (submission.is_liked_by_current_user ? 'Unlike submission' : 'Like submission') : 'Log in to like!'}
+        onClick={(event) => {
+          event.preventDefault();
+          handleLikeToggle(submission, isCurrentUsersSubmission);
+        }}
+      >
+        {submission.likes} <i className={submission.is_liked_by_current_user ? 'fa fa-heart liked' : 'fa fa-heart'} aria-label='Like icon'></i>
       </a>
     </>
   );
