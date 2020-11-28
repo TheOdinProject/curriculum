@@ -5,7 +5,7 @@ If you are already using **MacOS** or **Ubuntu**, you can skip this section. Oth
 
 **IMPORTANT**
 
-This curriculum only supports using a Laptop, Desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device that is not a Laptop, Desktop or supported Chromebook.
+This curriculum only supports using a Laptop, Desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device.
 
 
 <details markdown="block">
