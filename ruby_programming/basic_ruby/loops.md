@@ -102,7 +102,7 @@ What if we know exactly how many times we want our loop to run? Ruby lets us use
 A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator.
 
 ~~~ruby
-for i in 0..5
+for i in 0..5 do
   puts "#{i} zombies incoming!"
 end
 ~~~
