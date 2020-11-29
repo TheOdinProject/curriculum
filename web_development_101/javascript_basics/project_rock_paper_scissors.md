@@ -41,7 +41,7 @@ Submit a solution with a pull request to this [file](https://github.com/TheOdinP
   <summary> Show Student Solutions </summary>
 
 - Add your solution below this line!
-- [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/blob/master/Javascript/Web101-Projects/rock-paper-scissors.html)
+- [dnewbie25's Solution](https://github.com/dnewbie25/dnewbie25.github.io/tree/master/Javascript/Web101-Projects/Rock%20Paper%20Scissors) - [View in Browser](https://dnewbie25.github.io/Javascript/Web101-Projects/Rock%20Paper%20Scissors/Rock-Paper-Scissors-Refactored.html)
 - [Ayanda Gatsha's Solution](https://github.com/ayandagatsha/Rock-Paper-Scissors)
 - [Squeekoo's Solution](https://github.com/Squeekoo/RockPaperScissorsProject) - [View in Browser](https://squeekoo.github.io/RockPaperScissorsProject/)
 - [kloba1004's Solution](https://kloba1004.github.io/project-rock-paper-scissors/)
