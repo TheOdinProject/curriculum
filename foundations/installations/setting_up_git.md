@@ -67,7 +67,7 @@ This will install the latest version of Git. Easy, right?
 
 #### Step 1.2: Verify version
 
-Make sure your git version is **at least** 2.28 by running this command:
+**Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
 
 ~~~bash
 git --version
