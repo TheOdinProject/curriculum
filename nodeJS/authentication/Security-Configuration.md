@@ -1,4 +1,4 @@
-This lesson is a small one, but is _incredibly important_. Now that we are dealing with Authentication, sessions, cookies and user passwords it is crucial that we do everything we can that our authentication system or database is not compromised.
+This lesson is a small one, but it is _incredibly important_. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or database are not compromised.
 
 ### Learning Outcomes
 
