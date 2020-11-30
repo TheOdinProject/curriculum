@@ -21,7 +21,7 @@ describe('Dashboard view true', () => {
 });
 
 describe('Dashboard view false', () => {
-	it('returns username if not in dashboard mode', () => {
+	it('returns the username if not in dashboard mode', () => {
 		render(<SubmissionTitle submission={submission} />);
 		expect(screen.getByText('TestUser')).toBeInTheDocument();
 	});
