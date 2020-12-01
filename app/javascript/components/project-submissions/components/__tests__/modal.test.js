@@ -3,7 +3,7 @@ import React from "react";
 import Modal from "../modal";
 
 describe("Modal", () => {
-  test("When the modal is not shown", () => {
+  test("Checks for the specified classname on modal when the modal is not shown", () => {
     const { getByLabelText } = render(
       <Modal 
         handleClose={() => {}} 
@@ -16,7 +16,7 @@ describe("Modal", () => {
     expect(getByLabelText("modal--hidden")).toHaveClass("react-modal--hidden");
   });
 
-  test("When the modal is shown", () => {
+  test("Checks for the specified classname on modal when the modal is shown", () => {
     const { getByLabelText } = render(
       <Modal 
         handleClose={() => {}} 
