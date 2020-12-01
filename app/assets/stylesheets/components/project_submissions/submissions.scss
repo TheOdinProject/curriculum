@@ -44,6 +44,7 @@
   &__left-container {
     display: flex;
     align-items: center;
+    max-width: 180px;
 
     @include media-breakpoint-down(sm) {
       margin-bottom: 1em;
