@@ -9,19 +9,20 @@ const submission = {
   user_name: 'TestUser',
 };
 
-describe('Dashboard view true', () => {
-  it('shows the lesson title in dashboard view', () => {
-    render(<SubmissionTitle submission={submission} isDashboardView={true} />);
+describe('Submission title', () => {
+  it('displays the lesson title in dashboard view', () => {
+    render(<SubmissionTitle
+    submission={submission}
+    isDashboardView={true} />);
     expect(screen.getByText('Test Title')).toBeInTheDocument();
   });
-  it('has a link to the project in dashboard view', () => {
-    render(<SubmissionTitle submission={submission} isDashboardView={true} />);
+  it('displays a link to the project in dashboard view', () => {
+    render(<SubmissionTitle
+      submission={submission}
+      isDashboardView={true} />);
     expect(screen.getByText('Test Title')).toHaveAttribute('href', 'test_path');
   });
-});
-
-describe('Dashboard view false', () => {
-  it('returns username if not in dashboard mode', () => {
+  it('displays username if not in dashboard mode', () => {
     render(<SubmissionTitle submission={submission} />);
     expect(screen.getByText('TestUser')).toBeInTheDocument();
   });
