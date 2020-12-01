@@ -12,8 +12,8 @@ const submission = {
 describe('Submission title', () => {
   it('displays the lesson title in dashboard view', () => {
     render(<SubmissionTitle
-    submission={submission}
-    isDashboardView={true} />);
+      submission={submission}
+      isDashboardView={true} />);
     expect(screen.getByText('Test Title')).toBeInTheDocument();
   });
   it('displays a link to the project in dashboard view', () => {
