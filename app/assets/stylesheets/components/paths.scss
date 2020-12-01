@@ -1,0 +1,19 @@
+.paths {
+  .paths-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 36px;
+    margin-top: 52px;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  .foundations-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.2px;
+  }
+}

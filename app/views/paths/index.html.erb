@@ -1,12 +1,15 @@
-<div class="curriculum-background">
+<div class="paths curriculum-background">
   <div class="container">
-    <div class="card-list">
-      <h1 class="text-center camel card-list__title">Learning Paths</h1>
-      <% @paths.each do |path| %>
+    <h1 class="text-center camel card-list__title">Learning Paths</h1>
+    <% @paths.each do |path| %>
+      <% if path.title === 'Foundations' %>
         <div class='card-main card-main--clickable'>
           <%= link_to '', path, class: 'card-main__link' %>
           <div class="card-main__header">
-            <h2 class="card-main__header-title"><%= path.title %></h2>
+            <div>
+              <h2 class="foundations-title"><%= path.title %></h2>
+              <h2>Start here!</h2>
+            </div>
             <% if current_user.nil? %>
               <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
             <% elsif current_user.path === path %>
@@ -24,6 +27,36 @@
             <p><%= path.description%></p>
           </div>
         </div>
+      <% end %>
+    <% end %>
+
+    <hr>
+
+    <div class="paths-grid">
+      <% @paths.each do |path| %>
+        <% if not path.title === 'Foundations' %>
+          <div class='card-main card-main--clickable'>
+            <%= link_to '', path, class: 'card-main__link' %>
+            <div class="card-secondary__header">
+              <h2 class="card-secondary__header-title"><%= path.title %></h2>
+              <% if current_user.nil? %>
+                <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
+              <% elsif current_user.path === path %>
+                <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button' %>
+              <% else %>
+                <%= button_to 'Switch', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...' } %>
+              <% end %>
+            </div>
+            <div class="card-main__description">
+              <% if path.prerequisites.any? %>
+                <p class="card-secondary__prerequisites">
+                  <strong>Prerequisites: <%= prerequisites_list_for(path) %></strong>
+                </p>
+              <% end %>
+              <p>This path is intended to be taken after you have completed the Foundations course. <%= path.description%></p>
+            </div>
+          </div>
+        <% end %>
       <% end %>
     </div>
   </div>
