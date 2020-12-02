@@ -17,3 +17,9 @@
     letter-spacing: 0.2px;
   }
 }
+
+@media (max-width: 767px) {
+  .paths .paths-grid {
+    grid-template-columns: 1fr;
+  }
+}
