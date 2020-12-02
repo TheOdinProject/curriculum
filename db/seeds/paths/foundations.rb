@@ -3,7 +3,7 @@
 
 path = create_or_update_path(
   title: 'Foundations',
-  description: 'The Foundations Path is designed to be taken before all other paths. In this path you will learn the basic tools and technologies that every web developer needs to know.',
+  description: "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
   position: 1,
   default_path: true
 )
