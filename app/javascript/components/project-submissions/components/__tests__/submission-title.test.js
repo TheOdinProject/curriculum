@@ -11,15 +11,21 @@ const submission = {
 
 describe('Submission title', () => {
   it('displays the lesson title in dashboard view', () => {
-    render(<SubmissionTitle
-      submission={submission}
-      isDashboardView={true} />);
+    render(
+      <SubmissionTitle
+        submission={submission}
+        isDashboardView={true}
+      />
+    );
     expect(screen.getByText('Test Title')).toBeInTheDocument();
   });
   it('displays a link to the project in dashboard view', () => {
-    render(<SubmissionTitle
-      submission={submission}
-      isDashboardView={true} />);
+    render(
+      <SubmissionTitle
+        submission={submission}
+        isDashboardView={true}
+      />
+    );
     expect(screen.getByText('Test Title')).toHaveAttribute('href', 'test_path');
   });
   it('displays username if not in dashboard mode', () => {
