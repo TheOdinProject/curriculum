@@ -230,6 +230,8 @@ You'll read more about these methods and others in the assignment. The examples 
 
 "hello".insert(-1, " dude")     #=> "hello dude"
 
+"hello world".delete("l")       #=> "heo word"
+
 "!".prepend("hello, ", "world") #=> "hello, world!"
 ~~~
 
