@@ -17,13 +17,13 @@ course = create_or_update_course(
 )
 
 # ++++++++++++++++++++
-# SECTION - The Basics
+# SECTION - Introduction
 # ++++++++++++++++++++
 
 section_position += 1
 section = create_or_update_section(
-  title: 'The Basics',
-  title_url: 'The Basics'.parameterize,
+  title: 'Introduction',
+  title_url: 'Introduction'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development."
@@ -37,7 +37,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/foundations/the_basics/how_this_course_will_work.md',
+  url: '/foundations/introduction/how_this_course_will_work.md',
   repo: 'curriculum'
 )
 
@@ -49,19 +49,19 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/foundations/the_basics/introduction_to_web_development.md',
+  url: '/foundations/introduction/introduction_to_web_development.md',
   repo: 'curriculum'
 )
 
 lesson_position += 1
 create_or_update_lesson(
-  title: 'Gearing Up',
-  title_url: 'Gearing Up'.parameterize,
+  title: 'Motivation and Mindset',
+  title_url: 'Motivation and Mindset'.parameterize,
   description: 'Some advice about how to approach learning to program.',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/foundations/the_basics/gearing_up.md',
+  url: '/foundations/introduction/motivation_and_mindset.md',
   repo: 'curriculum'
 )
 
@@ -73,7 +73,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/foundations/the_basics/join_the_odin_community.md',
+  url: '/foundations/introduction/join_the_odin_community.md',
   repo: 'curriculum'
 )
 
@@ -85,7 +85,7 @@ create_or_update_lesson(
   position: lesson_position,
   section_id: section.id,
   is_project: false,
-  url: '/foundations/the_basics/how_does_the_web_work.md',
+  url: '/foundations/introduction/how_does_the_web_work.md',
   repo: 'curriculum'
 )
 
