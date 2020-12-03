@@ -8,9 +8,9 @@ const Modal = ({ handleClose, show, children }) => {
 
   return (
     <ScrollLock isActive={show}>
-      <div className={showHideClassName}>
+      <div className={showHideClassName} aria-label={show ? "modal--shown" : "modal--hidden"}>
         <div className='react-modal__body'>
-          <div className="react-modal__close-btn" onClick={handleClose}></div>
+          <div className="react-modal__close-btn" aria-label="close-modal" onClick={handleClose}></div>
           {show && children}
         </div>
       </div>
