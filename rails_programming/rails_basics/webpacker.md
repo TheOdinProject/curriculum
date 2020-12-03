@@ -4,7 +4,7 @@ The Asset Pipeline is a great feature for Rails. It makes it easy to write CSS a
 
 Webpack was created as a static module bundler for modern Javascript applications which made Javascript much easier to work with, ensuring the code you wrote in development to be easy to read could be processed into something better suited for browsers in production. More importantly Webpack could work with the node package manager, giving access to a huge collection of Javascript libraries and as soon as they were released you could update.
 
-This put pressure on Rails to offer up something similar. The solution was [Webpacker](https://github.com/rails/webpacker). A gem that provides a wrapper to work with Webpack itself. This allowed Rails to stick to their moto of convention over configuration with providing some sensible defaults for Webpack while still offering developers who used Rails access to the vast npm repository.
+This put pressure on Rails to offer up something similar. The solution was [Webpacker](https://github.com/rails/webpacker). A gem that provides a wrapper to work with Webpack itself. This allowed Rails to stick to their motto of convention over configuration with providing some sensible defaults for Webpack while still offering developers who used Rails access to the vast npm repository.
 
 You can see on the Webpacker github readme that it is intended to work alongside the Asset Pipeline with the latter still handling stylesheets, images and even some small Javascript scripts. Webpack is seen as best suited to app-like Javascript. That is code used to write huge features for a web application in Javascript.
 
