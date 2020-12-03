@@ -35,7 +35,7 @@ We've previously installed Ruby, and now it's time to install Ruby on Rails. It'
 gem install rails
 ~~~
 
-Once the installation finishes, you can check if everything went well by running the following command:
+Once the installation finishes, you can check if everything went well by restarting your terminal and running the following command:
 
 ~~~bash
 rails -v
