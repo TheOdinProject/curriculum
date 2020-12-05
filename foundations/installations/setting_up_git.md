@@ -9,7 +9,7 @@ GitHub is a service that allows you to upload your code using Git and to manage 
 Click the Operating System you have chosen below:
 
 <details markdown="block">
-<summary class="dropDown-header">Linux / WSL
+<summary class="dropDown-header">Linux
 </summary>
 
 #### Step 1.1: Update the system
