@@ -67,8 +67,6 @@ You won't need to use Yarn for this tutorial but you do need it installed for Ra
 
 Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
 
-**NOTE TO WSL USERS:** If you are on WSL, you MUST `cd` into your `Projects` folder to avoid issues.
-
 ~~~bash
 mkdir odin_on_rails
 ~~~
@@ -232,7 +230,7 @@ First, we need to open the `Gemfile` and edit it.
 
 In your terminal, type `ls` and verify that you see `Gemfile` in the output. If you don't see it, navigate to the directory you created in Steps 2.2 and 2.3.
 
-Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typing `code .` (**NOTE: The period at the end is important!**) (WSL users: If you type `code .` and you see `system32` in the top left, you have created your application outside of the `Projects` directory we created earlier.)
+Then, we'll use VSCode to modify the `Gemfile`. Open your app in VSCode by typing `code .` (**NOTE: The period at the end is important!**)
 
 When VSCode opens, you should see a list of files on the left side of the screen. Click on `Gemfile` to open it in the editor. Then, delete the line that says,
 
@@ -357,7 +355,7 @@ If you have an error, come to our [chat room](https://discord.gg/hvqVr6d), and a
 
 #### Step 3.6: Visit Your New Application
 
-It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below. If you are using WSL it will not open automatically, however, you will get an error message containing the link to copy and paste in your browser:
+It's time to see your app on the web! If you are using Linux or Mac, you can quickly open your app with the command below.
 
 ~~~bash
 heroku open
