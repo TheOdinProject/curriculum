@@ -44,7 +44,6 @@
   &__left-container {
     display: flex;
     align-items: center;
-    max-width: 180px;
 
     @include media-breakpoint-down(sm) {
       margin-bottom: 1em;
@@ -55,6 +54,12 @@
     font-weight: 600;
     font-size: 1.25rem;
 
+    @include media-breakpoint-up(md) {
+      margin-right: 20px;
+    }
+    @include media-breakpoint-between(md, lg) {
+      width: 100px;
+    }
   }
 
   &__button {
@@ -72,6 +77,13 @@
   }
 
   &__actions {
+    display: flex;
+    align-items: center;
+
+    & * {
+      flex-shrink: 0;
+    }
+
     a,
     span {
       margin-left: 1em;
@@ -83,6 +95,7 @@
       width: 60%;
 
       .submissions__button {
+        flex-shrink: 0;
         margin: 0 0 1em;
       }
     }
@@ -96,12 +109,16 @@
     }
   }
 
-  &__flag, &__like {
+  &__flag,
+  &__like {
     color: $button-disabled;
     cursor: pointer;
   }
 
   &__like {
+    display: flex !important;
+    align-items: center;
+    gap: 5px;
     margin-right: 15px;
 
     .liked {
@@ -111,7 +128,7 @@
 
   &__public-icon {
     cursor: pointer;
-    
+
     color: $button-disabled;
 
     &--visible {
