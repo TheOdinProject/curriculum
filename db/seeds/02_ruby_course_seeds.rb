@@ -355,7 +355,7 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/files_and_serialization/project_event_manager.md',
   repo: 'curriculum',
-  accepts_submission: false,
+  accepts_submission: true,
   has_live_preview: false
 )
 
