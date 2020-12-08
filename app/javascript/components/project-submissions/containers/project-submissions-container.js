@@ -147,10 +147,6 @@ const ProjectSubmissions = (props) => {
           )}
         </div>
       </div>
-      <p className="text-center">
-        <span>This is a beta feature. If you have any feedback </span>
-        <a href="https://discord.com/channels/505093832157691914/540903304046182425">please let us know</a>.
-      </p>
       <SubmissionsList
         submissions={submissions}
         userSubmission={userSubmission}
