@@ -52,13 +52,13 @@ To get started, create a free repl account and click "Fork" in order to have acc
 Note: Feel free to browse the files on the left column in order to gain familarity with it. 
 
 - [Exercise 1](https://repl.it/@I3uckwheat/troubleshooting#troubleshooting.js)
-  *In this excercise, you will be working out of the file called trobuleshooting.js
+  * In this excercise, you will be working out of the file called trobuleshooting.js
 - [Exercise 2](https://repl.it/@I3uckwheat/enter-a-number#script.js)
-  *You will be working out of script.js 
+  * You will be working out of script.js 
 - [Exercise 3](https://repl.it/@I3uckwheat/lets-do-some-math#math.js)
-  *You will be working out of math.js  
+  * You will be working out of math.js  
 - [Exercise 4](https://repl.it/@I3uckwheat/direction-follow#follow.js)
-  *You will be working out of follow.js
+  * You will be working out of follow.js
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
