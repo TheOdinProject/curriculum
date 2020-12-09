@@ -208,8 +208,9 @@ If you've gotten lost along the way, check out [this jsbin project](http://jsbin
 For now, we will not be using any APIs that are vulnerable to attacks like key theft. If you are using APIs from sources outside of our recommended curriculum, you should be aware of the potential security risks of publishing your API keys on github.
 
 1. Learn about why you should not expose your API keys [here](https://www.programmableweb.com/news/why-exposed-api-keys-and-sensitive-data-are-growing-cause-concern/analysis/2015/01/05). The article references [My $2375 Amazon EC2 Mistake](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/) written by Andrew Hoffman after he had accidentally pushed code to GitHub that included his AWS API keys.
-2. Read about why and how to secure your API keys [here](https://nordicapis.com/hiding-and-securing-your-api-keys/). This is just one method that details how to secure your key with `dotenv`.
-3. If you accidentally publish an API key, the first thing you should do is to immediately invalidate the key. Read [here](https://jordan-wright.com/blog/2014/12/30/why-deleting-sensitive-information-from-github-doesnt-save-you/) about why just deleting the information from github does not work.
+2. If you accidentally publish an API key, the first thing you should do is to immediately invalidate the key. Read [here](https://jordan-wright.com/blog/2014/12/30/why-deleting-sensitive-information-from-github-doesnt-save-you/) about why just deleting the information from github does not work.
+
+This does not currently apply to the projects we are working on and there will be a section later in the course that goes over security. It is good to understand that there are risks to publicly storing API keys (and other sensitive data) with your code.
 
 ### Assignment
 
