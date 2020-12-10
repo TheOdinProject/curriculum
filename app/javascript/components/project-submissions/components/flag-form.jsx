@@ -1,17 +1,24 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
-import { func, object } from 'prop-types';
+import { useForm } from 'react-hook-form';
+import { func, object, number } from 'prop-types';
 
 const FlagForm = ({ onSubmit, submission, userId }) => {
-  const { register, handleSubmit, errors, formState } = useForm();
+  const {
+    register, handleSubmit, errors, formState,
+  } = useForm();
 
-  if(userId === null) {
+  if (userId === null) {
     return (
       <div className="text-center">
         <h1 className="bold">Please Sign in</h1>
-        <p>Please <a href='/login'>sign in</a> to flag this project submission.</p>
+        <p>
+          Please
+          <a href="/login">sign in</a>
+          {' '}
+          to flag this project submission.
+        </p>
       </div>
-    )
+    );
   }
 
   if (formState.isSubmitSuccessful) {
@@ -20,15 +27,15 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
         <h1 className="bold">Thanks for helping us keep our community safe!</h1>
         <p>Our Moderators will review this issue shortly.</p>
       </div>
-    )
+    );
   }
 
   return (
     <div>
-      <h1 className="text-center accent">What's the reason for flagging?</h1>
+      <h1 className="text-center accent">Flag Submission</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
-        <input type="hidden" name="project_submission_id" value={submission.id}  ref={register()} />
+        <input type="hidden" name="project_submission_id" value={submission.id} ref={register()} />
         <div className="form__section">
           <textarea
             autoFocus
@@ -38,13 +45,18 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
             name="reason"
             ref={
               register({
-                minLength: { value: 4, message: "Must be at least 4 characters" },
-                required: "Required"
+                minLength: { value: 4, message: 'Must be at least 4 characters' },
+                required: 'Required',
               })
             }
           />
         </div>
-        {errors.reason && <div className="form__error-message push-down"> {errors.reason.message}</div>}
+        {errors.reason && (
+        <div className="form__error-message push-down">
+          {' '}
+          {errors.reason.message}
+        </div>
+        )}
 
         <div className="form__section form__section--center-aligned">
           <button disabled={formState.isSubmitting} className="button button--primary" type="submit">Flag</button>
@@ -54,9 +66,14 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
   );
 };
 
+FlagForm.defaultProps = {
+  userId: null,
+};
+
 FlagForm.propTypes = {
   onSubmit: func.isRequired,
-  submission: object,
-}
+  submission: object.isRequired,
+  userId: number,
+};
 
-export default FlagForm
+export default FlagForm;

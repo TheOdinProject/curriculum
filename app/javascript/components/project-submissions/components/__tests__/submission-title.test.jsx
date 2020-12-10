@@ -14,8 +14,8 @@ describe('Submission title', () => {
     render(
       <SubmissionTitle
         submission={submission}
-        isDashboardView={true}
-      />
+        isDashboardView
+      />,
     );
     expect(screen.getByText('Test Title')).toBeInTheDocument();
   });
@@ -23,8 +23,8 @@ describe('Submission title', () => {
     render(
       <SubmissionTitle
         submission={submission}
-        isDashboardView={true}
-      />
+        isDashboardView
+      />,
     );
     expect(screen.getByText('Test Title')).toHaveAttribute('href', 'test_path');
   });

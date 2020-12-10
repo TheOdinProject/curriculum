@@ -59,15 +59,15 @@ jobs:
       # Setup the database
       - run: bundle exec rake db:schema:load
 
-      # Run the rubocop
+      # run linters
       - run: bundle exec rubocop
+      - run: yarn run eslint
 
-      # Run the Jest Tests
+      # Run JS Tests
       - run: yarn test
 
       # Run rspec
       - run: bundle exec rspec
-
 
 workflows:
   version: 2

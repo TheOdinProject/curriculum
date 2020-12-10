@@ -7,28 +7,30 @@ describe('Like', () => {
   test('Tells user to log in to like submission', () => {
     const { queryByLabelText, getByLabelText } = render(
       <ProjectSubmissionContext.Provider value={{ userId: null }}>
-        <Like 
-          submission={{ is_liked_by_current_user: false }} 
+        <Like
+          submission={{ is_liked_by_current_user: false }}
           handleLikeToggle={() => {}}
-        />;
-      </ProjectSubmissionContext.Provider>
+        />
+        ;
+      </ProjectSubmissionContext.Provider>,
     );
-    
+
     const anchorNode = queryByLabelText('Log in to like!');
     const iconNode = getByLabelText('Like icon');
 
     expect(anchorNode).toBeTruthy();
     expect(iconNode).not.toHaveClass('liked');
-  })
+  });
 
   test('Indicates user can like submission', () => {
     const { queryByLabelText, getByLabelText } = render(
       <ProjectSubmissionContext.Provider value={{ userId: 1 }}>
-        <Like 
-          submission={{ is_liked_by_current_user: false }} 
+        <Like
+          submission={{ is_liked_by_current_user: false }}
           handleLikeToggle={() => {}}
-        />;
-      </ProjectSubmissionContext.Provider>
+        />
+        ;
+      </ProjectSubmissionContext.Provider>,
     );
 
     const anchorNode = queryByLabelText('Like submission');
@@ -36,17 +38,17 @@ describe('Like', () => {
 
     expect(anchorNode).toBeTruthy();
     expect(iconNode).not.toHaveClass('liked');
-  })
-
+  });
 
   test('Indicates user has liked submission', () => {
     const { queryByLabelText, getByLabelText } = render(
       <ProjectSubmissionContext.Provider value={{ userId: 1 }}>
-        <Like 
-          submission={{ is_liked_by_current_user: true }} 
+        <Like
+          submission={{ is_liked_by_current_user: true }}
           handleLikeToggle={() => {}}
-        />;
-      </ProjectSubmissionContext.Provider>
+        />
+        ;
+      </ProjectSubmissionContext.Provider>,
     );
 
     const anchorNode = queryByLabelText('Unlike submission');
@@ -54,22 +56,22 @@ describe('Like', () => {
 
     expect(anchorNode).toBeTruthy();
     expect(iconNode).toHaveClass('liked');
-  })
+  });
 
   test('Calls toggle like handler when clicked', () => {
     const handleClick = jest.fn();
     const { getByLabelText } = render(
       <ProjectSubmissionContext.Provider value={{ userId: 1 }}>
-        <Like 
-          submission={{ is_liked_by_current_user: true }} 
+        <Like
+          submission={{ is_liked_by_current_user: true }}
           handleLikeToggle={handleClick}
-        />;
-      </ProjectSubmissionContext.Provider>
+        />
+        ;
+      </ProjectSubmissionContext.Provider>,
     );
     const anchorNode = getByLabelText(/like/);
     fireEvent.click(anchorNode);
 
     expect(handleClick).toHaveBeenCalledTimes(1);
-  })
-
-})
+  });
+});

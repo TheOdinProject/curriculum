@@ -1,7 +1,8 @@
+/* eslint-disable */
 import Stickyfill from 'stickyfilljs';
 import Prism from 'prismjs';
 
-var LESSON_HEADINGS = [
+const LESSON_HEADINGS = [
   'Introduction',
   'Learning Outcomes',
   'Assignment',
@@ -26,11 +27,11 @@ function kebabCase(text) {
 
 function navigationElement(headingText) {
   return (
-    '<div class="lesson-navigation__item">' +
-    '<div class="lesson-navigation__circle"></div>' +
-    '<div class="lesson-navigation__title">' +
-    '<a class="lesson-navigation__link grey" href="#' + kebabCase(headingText) + '" data-turbolinks="false">' + headingText +
-    '</a></div></div>'
+    `${'<div class="lesson-navigation__item">'
+    + '<div class="lesson-navigation__circle"></div>'
+    + '<div class="lesson-navigation__title">'
+    + '<a class="lesson-navigation__link grey" href="#'}${kebabCase(headingText)}" data-turbolinks="false">${headingText
+    }</a></div></div>`
   );
 }
 
@@ -43,11 +44,11 @@ function getInnerText(heading) {
 }
 
 function isCommonHeading(heading) {
-  return LESSON_HEADINGS.indexOf(heading) >  -1;
+  return LESSON_HEADINGS.indexOf(heading) > -1;
 }
 
 function filterHeadings() {
-  var lessonHeadings = getElements('.lesson-content h3');
+  const lessonHeadings = getElements('.lesson-content h3');
   return Array.prototype.slice
     .call(lessonHeadings)
     .map(getInnerText)
@@ -55,17 +56,17 @@ function filterHeadings() {
 }
 
 function setTargetForExternalLinks() {
-  getElements('.lesson-content a[href^=http]').forEach(function(externalLink) {
+  getElements('.lesson-content a[href^=http]').forEach((externalLink) => {
     externalLink.setAttribute('target', '_blank');
     externalLink.setAttribute('rel', 'noreferrer');
   });
 }
 
 function addActiveClass() {
-  var links = getElements('.lesson-navigation__link');
+  const links = getElements('.lesson-navigation__link');
 
-  window.onhashchange = function() {
-    links.forEach(function(link) {
+  window.onhashchange = function () {
+    links.forEach((link) => {
       if (link.hash == window.location.hash) {
         link.classList.add('active');
         link.parentNode.previousSibling.classList.add('active');
@@ -78,16 +79,16 @@ function addActiveClass() {
 }
 
 function constructLessonNavigation() {
-  var commonHeadings = filterHeadings();
+  const commonHeadings = filterHeadings();
 
   if (commonHeadings.length < 2) {
-    var navigationColumn = document.querySelector('.lesson .col-lg-3');
-    var lessonColumn = document.querySelector('.lesson .row');
+    const navigationColumn = document.querySelector('.lesson .col-lg-3');
+    const lessonColumn = document.querySelector('.lesson .row');
     navigationColumn.classList.add('d-none');
     lessonColumn.classList.add('justify-content-center');
   } else {
-    var lessonNavigationHTML = lessonNavigation(commonHeadings);
-    var lessonNavigationElement = document.querySelector('.lesson-navigation');
+    const lessonNavigationHTML = lessonNavigation(commonHeadings);
+    const lessonNavigationElement = document.querySelector('.lesson-navigation');
     lessonNavigationElement.innerHTML = lessonNavigationHTML;
     addActiveClass();
     Stickyfill.add(lessonNavigationElement);
@@ -99,16 +100,16 @@ function isLessonPage() {
 }
 
 function constructLessonSections() {
-  var lessonHeadings = getElements('.lesson-content h3');
+  const lessonHeadings = getElements('.lesson-content h3');
 
   lessonHeadings.forEach(buildScrollSpy);
   lessonHeadings.forEach(constructInternalLinks);
 }
 
 function buildScrollSpy(heading) {
-  var id = heading.getAttribute('id');
+  const id = heading.getAttribute('id');
   heading.removeAttribute('id');
-  var section = document.createElement('div');
+  const section = document.createElement('div');
   section.setAttribute('id', id);
 
   if (isCommonHeading(heading.innerText)) {
@@ -117,35 +118,35 @@ function buildScrollSpy(heading) {
 
   heading.parentNode.insertBefore(section, heading);
 
-  while (heading.nextElementSibling !== null &&
-    heading.nextElementSibling.tagName !== 'H3') {
+  while (heading.nextElementSibling !== null
+    && heading.nextElementSibling.tagName !== 'H3') {
     section.appendChild(heading.nextElementSibling);
   }
 
   section.insertBefore(heading, section.firstChild);
 }
 
-function constructInternalLinks(heading){
-  var uri = location.href.replace(location.hash,'');
-  var id = heading.parentElement.id;
-  var internalLink = document.createElement('a');
-  internalLink.setAttribute('href', uri + '#' + id);
+function constructInternalLinks(heading) {
+  const uri = location.href.replace(location.hash, '');
+  const { id } = heading.parentElement;
+  const internalLink = document.createElement('a');
+  internalLink.setAttribute('href', `${uri}#${id}`);
   internalLink.innerText = heading.innerText;
   internalLink.className = 'internal-link';
   heading.appendChild(internalLink);
   heading.firstChild.remove();
-} 
+}
 
 function spyLessonSections() {
   $('.scrollspy').scrollSpy({ scrollOffset: 50 });
 }
 
-document.addEventListener('turbolinks:load', function() {
+document.addEventListener('turbolinks:load', () => {
   if (!isLessonPage()) return;
 
   Prism.highlightAll();
   setTargetForExternalLinks();
-  constructLessonSections(); 
+  constructLessonSections();
 
   if (!window.matchMedia('(min-width: 992px)').matches) {
     return;
