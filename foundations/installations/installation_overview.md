@@ -49,7 +49,6 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be understated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-
 ### Online Editors
 
 Finally, there are a variety of online code sandboxes that can be quite handy when you're away from your main system or prototyping some code before committing it. 
