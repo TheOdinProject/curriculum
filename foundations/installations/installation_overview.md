@@ -4,7 +4,7 @@ The first step for building any website is having the right tools. For us, that 
 
 Many online development courses use in-browser code editors or "sandboxes," which give you the tools and programs needed to accomplish the task at hand and nothing else. You'll use some of these sandboxes throughout the early stages of The Odin Project since they're great for getting started quickly. However, the best way to set yourself up for long-term success is to operate in a real development environment. 
 
-We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable real-world skill you'll carry with you for the rest of your career.
+We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
 ### The Installation Plan
 
@@ -49,11 +49,6 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be understated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-#### Windows 10 with the Subsystem for Linux
-
-You're probably familiar with Windows for one reason or another. For many people, it is their OS of choice. Windows is easy to use and comes pre-installed on most computers. Unfortunately, some languages, such as Ruby, were created with the assumption that they'll be used on Unix-based (Mac or Linux) systems and do not easily run on Windows.
-
-It is possible to develop with the Windows Subsystem for Linux (WSL), but it is **highly** discouraged. If you go this route, you'll end up spending many hours on Google trying to fix the many problems you'll encounter. For your sanity, we recommend installing a virtual machine instead of using WSL.
 
 ### Online Editors
 
