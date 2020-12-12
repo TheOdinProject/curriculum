@@ -42,4 +42,4 @@ As you move forward in the curriculum each portion is built on everything that c
 
 Additional resources are the only thing that are considered optional. These are here incase you feel like you need or want to dive deeper into a top to get a better understanding. 
 
-**DO NOT SKIP ANYTHING!**
+**DO NOT SKIP ANYTHING!** 
