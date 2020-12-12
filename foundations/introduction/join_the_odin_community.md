@@ -100,7 +100,7 @@ Your Colorful Code
 
   3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
-  **Link your GitHub to Discord:** So others can see what you're working on and vice versa!
+  **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
 
   * Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
 
