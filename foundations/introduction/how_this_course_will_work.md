@@ -35,3 +35,11 @@ In addition to this, you might also consider using a translation dictionary in y
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next (and all the cool stuff you can do with it).
 
 The courses that come after this one are designed to take that foundation and build it into an applied understanding of the material.  Those courses will focus on taking these raw building blocks and honing them into a highly functional skillset.  Once you've completed the Foundations course, you'll have built a strong foundation to take those next steps.
+
+The Odin Project is put together by experts in the industry.  We have chosen the best resources available and a guide on how to go through them. If there are no good resources, we write our own. With that said, know **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
+
+As you move forward in the curriculum each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understanding the task at hand. 
+
+Additional resources are the only thing that are considered optional. These are here incase you feel like you need or want to dive deeper into a top to get a better understanding. 
+
+**DO NOT SKIP ANYTHING!**
