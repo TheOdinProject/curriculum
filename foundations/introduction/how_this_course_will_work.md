@@ -40,6 +40,6 @@ The Odin Project is put together by experts in the industry.  We have chosen the
 
 As you move forward in the curriculum each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understanding the task at hand. 
 
-Additional resources are the only thing that are considered optional. These are here incase you feel like you need or want to dive deeper into a top to get a better understanding. 
+Additional resources are the only thing that are considered optional. These are here incase you feel like you need or want to dive deeper into a topic to get a better understanding. 
 
 **DO NOT SKIP ANYTHING!** 
