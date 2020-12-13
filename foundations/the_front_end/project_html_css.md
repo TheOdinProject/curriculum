@@ -17,6 +17,7 @@ These skills will be helpful for you when you start building. Either try them yo
 1. Understand how to use classes and ids to target CSS at specific elements on the page
 1. Build a very basic form (even if it doesn't "go" anywhere)
 
+
 ### Setting Up Your Project's GitHub Repository (optional)
 
 As mentioned in the [introduction to Git](/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
@@ -45,6 +46,26 @@ _When you're building your project, you will probably end up doing several `git 
 If you have entered `git push origin main` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
+
+
+### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
+
+All of our projects have a "Student Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you to compare your **completed** code to and see what other routes people have chosen to take with their project code and designs. 
+
+We know it may be tempting to look at the solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
+
+- All of the submitted projects are other *student* solutions. This means they are written by other people who are also still learning and may not necessarily be good examples to go off of.
+- Looking at solutions robs you of the chance to develop your problem solving and researching skills.
+- There are a ton of different ways to get the same end result, it is not "one size fits all".
+- In the real world, there will not always "solutions" for you to look at and you will have to come up with your own.
+- An Analogy: "Looking at completed code is like learning how to make pizza dough from looking at a baked pizza."  There is a lot more that goes into it than you would have assumed by only seeing the final product and not the process that lead to it.
+
+Once you have completed your project feel free to look at the other solutions to see alternative ways the project was completed.
+
+*Note: It is okay to check the "Live Preview" to get an idea of layout and styling before starting but not the code files.*
+
+**DO NOT PEEK. Come ask for help in our discord server!**
+
 
 ### Assignment
 
