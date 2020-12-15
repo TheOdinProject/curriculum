@@ -59,6 +59,7 @@ const SubmissionsList = ({
         <p className="submissions__view-more">
           <span>
             Showing
+            {' '}
             {submissions.length}
             {' '}
             most recent submissions -
@@ -67,6 +68,7 @@ const SubmissionsList = ({
           <a href={allSubmissionsPath}> View full list of solutions</a>
           {' '}
           or
+          {' '}
           <a href={legacySubmissionsUrl} target="_blank" rel="noreferrer">View old submissions</a>
         </p>
         )}
