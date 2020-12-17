@@ -59,7 +59,7 @@ ReactDOM.render(
 );
 ~~~
 
-5. For our solution, we chose to style the application and will use Bootstrap to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our HTML easily. You add the styling through classNames. If you are following along with this and do not wish to style the application, you can skip to the next step and ignore any code concerning `className`. As for us, let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then, go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
+5. # TODO
 
 6. Go back to your `src` directory and create a new folder called components with a file named `Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
 
@@ -116,7 +116,7 @@ this.state = {
 We assigned `task` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
 Also, inside the render function, we destructured our state in order to make our code look cleaner when using it.
 
-After that, we render a form element with an `input` and a `button` element. If you intend on styling the application, you can copy and paste the `className` provided or use your own! Using Bootstrap or CSS, in general, is solely to make your application look prettier. Refer to the [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/), if you wish to know what the class names mean and do.
+After that, we render a form element with an `input` and a `button` element. # TODO
 
 Now, let's have a look at what our application. looks like. Run `npm start` in your terminal to open up the application in the browser. You should now see an input field with a label and a submit button. When you click the button, nothing happens and the page only refreshes.
 
