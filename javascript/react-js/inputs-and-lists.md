@@ -59,7 +59,9 @@ ReactDOM.render(
 );
 ~~~
 
-5. # TODO
+5. For our solution, we could style the application using CSS to make it look a little bit nicer. For those who don't know, CSS is the acronym of "Cascading Style Sheets", in short, is the code that helps us style our HTML.
+If you intend on styling the application, we highly recommend that you use your own style instead of using CSS Frameworks that are beyond the current scope. Using CSS, in general, is solely to make your application look prettier. Please refer to both [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) and [React](https://reactjs.org/docs/faq-styling.html) documentation, if you wish to know more about how to style React applications with CSS.
+If you are following along with this and do not wish to style the application, you can skip this step.
 
 6. Go back to your `src` directory and create a new folder called components with a file named `Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
 
@@ -116,7 +118,7 @@ this.state = {
 We assigned `task` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
 Also, inside the render function, we destructured our state in order to make our code look cleaner when using it.
 
-After that, we render a form element with an `input` and a `button` element. # TODO
+After that, we render a form element with an `input` and a `button` element. 
 
 Now, let's have a look at what our application. looks like. Run `npm start` in your terminal to open up the application in the browser. You should now see an input field with a label and a submit button. When you click the button, nothing happens and the page only refreshes.
 
@@ -169,7 +171,7 @@ And also add the `onSubmitTask` function to our form element like so:
 ~~~javascript
 <form onSubmit={this.onSubmitTask}>
   {/* Leave all your code. Just add the onSubmit handler to the form element, or
-  as an onClick handler to the submit button, as you prefere */}
+  as an onClick handler to the submit button, as you prefer */}
 </form>
 ~~~
 
