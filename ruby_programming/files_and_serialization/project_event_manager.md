@@ -1433,7 +1433,7 @@ def legislators_by_zipcode(zip)
 
   begin
     civic_info.representative_info_by_address(
-      address: zip,
+      address: zipcode,
       levels: 'country',
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials

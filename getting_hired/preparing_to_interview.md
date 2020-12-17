@@ -67,7 +67,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Algorithms Training:
 
-* [Udacity course on Algorithms](https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609) (asynchronous)
+* [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
 * [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
 
