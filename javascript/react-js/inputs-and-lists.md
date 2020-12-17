@@ -84,14 +84,14 @@ class App extends Component {
     const { task, tasks } = this.state;
 
     return (
-      <div className="col-6 mx-auto mt-5">
+      <div>
         <form>
-          <div className="form-group">
+          <div>
             <label htmlFor="taskInput">Enter task</label>
-            <input type="text" id="taskInput" className="form-control" />
+            <input type="text" id="taskInput"/>
           </div>
-          <div className="form-group">
-            <button type="submit" className="btn btn-primary">
+          <div>
+            <button type="submit">
               Add Task
             </button>
           </div>
@@ -160,7 +160,6 @@ In your `App.js` component in your render method, add an onChange handler to you
   value={this.state.task}
   type="text"
   id="taskInput"
-  className="form-control"
 />
 ~~~
 
@@ -276,20 +275,19 @@ class App extends Component {
     const { task, tasks } = this.state;
 
     return (
-      <div className="col-6 mx-auto mt-5">
+      <div>
         <form onSubmit={this.onSubmitTask}>
-          <div className="form-group">
+          <div>
             <label htmlFor="taskInput">Enter task</label>
             <input
               onChange={this.handleChange}
               value={task}
               type="text"
               id="taskInput"
-              className="form-control"
             />
           </div>
-          <div className="form-group">
-            <button type="submit" className="btn btn-primary">
+          <div>
+            <button type="submit">
               Add Task
             </button>
           </div>
