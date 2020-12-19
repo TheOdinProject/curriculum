@@ -86,13 +86,15 @@ class App extends Component {
     const { task, tasks } = this.state;
 
     return (
-      <form>
-        <label htmlFor="taskInput">Enter task</label>
-        <input type="text" id="taskInput"/>
-        <button type="submit">
-          Add Task
-        </button>
-      </form>
+      <div>
+        <form>
+          <label htmlFor="taskInput">Enter task</label>
+          <input type="text" id="taskInput"/>
+          <button type="submit">
+            Add Task
+          </button>
+        </form>
+      </div>
     );
   }
 }
