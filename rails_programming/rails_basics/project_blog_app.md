@@ -9,14 +9,15 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 <div class="lesson-content__panel" markdown="1">
 
   1. Do the [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) project from the Rails Guides. It gives a pretty good overview of the common commands you'll use when using Rails.
-  2. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
-  3. Try to make a mental note of the commands and generators you can use. Rails provides a lot of very helpful generators taking a lot of the pain out of creating different parts of a web application.
-  4. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
+  2. You should have Rails installed already so section 3.1 might not be relevant. It still might be prudent to run the `--version` commands to check you have everything you need though.
+  3. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+  4. Try to make a mental note of the commands and generators you can use. Rails provides a lot of very helpful generators taking a lot of the pain out of creating different parts of a web application.
+  5. When you're finished push up your code to [github](https://github.com/)
+  6. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge.
-* If you want, you can use [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) to add some extra features to your blog, such as [deleting comments](http://guides.rubyonrails.org/getting_started.html#deleting-comments).
 * You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.
