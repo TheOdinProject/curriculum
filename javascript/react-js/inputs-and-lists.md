@@ -86,19 +86,13 @@ class App extends Component {
     const { task, tasks } = this.state;
 
     return (
-      <div>
-        <form>
-          <div>
-            <label htmlFor="taskInput">Enter task</label>
-            <input type="text" id="taskInput"/>
-          </div>
-          <div>
-            <button type="submit">
-              Add Task
-            </button>
-          </div>
-        </form>
-      </div>
+      <form>
+        <label htmlFor="taskInput">Enter task</label>
+        <input type="text" id="taskInput"/>
+        <button type="submit">
+          Add Task
+        </button>
+      </form>
     );
   }
 }
@@ -279,22 +273,15 @@ class App extends Component {
     return (
       <div>
         <form onSubmit={this.onSubmitTask}>
-          <div>
-            <label htmlFor="taskInput">Enter task</label>
-            <input
-              onChange={this.handleChange}
-              value={task}
-              type="text"
-              id="taskInput"
-            />
-          </div>
-          <div>
-            <button type="submit">
-              Add Task
-            </button>
-          </div>
+          <label htmlFor="taskInput">Enter task</label>
+          <input
+            onChange={this.handleChange}
+            value={task}
+            type="text"
+            id="taskInput"
+          />
+          <button type="submit">Add Task</button>
         </form>
-
         <Overview tasks={tasks} />
       </div>
     );
