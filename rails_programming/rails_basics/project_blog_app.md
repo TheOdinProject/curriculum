@@ -10,10 +10,11 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
   1. Do the [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) project from the Rails Guides. It gives a pretty good overview of the common commands you'll use when using Rails.
   2. You should have Rails installed already so section 3.1 might not be relevant. It still might be prudent to run the `--version` commands to check you have everything you need though.
-  3. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
-  4. Try to make a mental note of the commands and generators you can use. Rails provides a lot of very helpful generators taking a lot of the pain out of creating different parts of a web application.
-  5. When you're finished push up your code to [github](https://github.com/)
-  6. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
+  3. Make sure you commit to git regularly so if you run into any issues you can revert to an earlier commit without having to start over from scratch. As a rough guide look to commit at the end of each section.
+  4. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+  5. Try to make a mental note of the commands and generators you can use. Rails provides a lot of very helpful generators taking a lot of the pain out of creating different parts of a web application.
+  6. When you're finished push up your code to [github](https://github.com/)
+  7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
 </div>
 
 ### Additional Resources
