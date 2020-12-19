@@ -183,7 +183,7 @@ NOTE: Do not enter the `<` or `>` symbols. Replace those symbols and everything 
 
 ~~~bash
 git remote add origin <SSH URL from above>
-git push -u origin master
+git push -u origin main
 ~~~
 
 Remember to replace `<SSH URL from above>` with the URL that you copied.
@@ -291,7 +291,7 @@ The output should look similar to the example below:
 
 ~~~bash
 $ git status
-On branch master
+On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -318,7 +318,7 @@ git commit -m 'updates for heroku deployment'
 While we're here, we might as well push our changes to GitHub too:
 
 ~~~bash
-git push origin master
+git push origin main
 ~~~
 
 #### Step 3.4: Push to Heroku
@@ -326,7 +326,7 @@ git push origin master
 Now that we've committed the files, we can push to Heroku:
 
 ~~~bash
-git push heroku master
+git push heroku main
 ~~~
 
   **UPDATE 2019-01-04:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run:
@@ -335,7 +335,7 @@ git push heroku master
 heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
 ```
 
-  and then run the `git push heroku master` command again.
+  and then run the `git push heroku main` command again.
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish.
 
