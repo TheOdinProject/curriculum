@@ -59,7 +59,9 @@ ReactDOM.render(
 );
 ~~~
 
-5. For our solution, we chose to style the application and will use Bootstrap to make our application look a little bit nicer. For those who don't know how Bootstrap works, in short: It is a CSS Framework, that helps us style our HTML easily. You add the styling through classNames. If you are following along with this and do not wish to style the application, you can skip to the next step and ignore any code concerning `className`. As for us, let's include it in our code. Get the bootstrap CDN from their website [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/). Just copy the link element under the CSS section, it should be the first. Then, go to your `public` folder in your `task-app` and open the `index.html` file. Ignore the code in there for now, just paste the link you just copied **above** the `title` element and save the changes.
+5. For our solution, we could style the application using CSS to make it look a little bit nicer. For those who don't know, CSS is the acronym of "Cascading Style Sheets", in short, is the code that helps us style our HTML.
+If you intend on styling the application, we highly recommend that you use your own style instead of using CSS Frameworks that are beyond the current scope. Using CSS, in general, is solely to make your application look prettier. Please refer to both [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) and [React](https://reactjs.org/docs/faq-styling.html) documentation, if you wish to know more about how to style React applications with CSS.
+If you are following along with this and do not wish to style the application, you can skip this step.
 
 6. Go back to your `src` directory and create a new folder called `components` with a file named `Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
 
@@ -84,17 +86,13 @@ class App extends Component {
     const { task, tasks } = this.state;
 
     return (
-      <div className="col-6 mx-auto mt-5">
+      <div>
         <form>
-          <div className="form-group">
-            <label htmlFor="taskInput">Enter task</label>
-            <input type="text" id="taskInput" className="form-control" />
-          </div>
-          <div className="form-group">
-            <button type="submit" className="btn btn-primary">
-              Add Task
-            </button>
-          </div>
+          <label htmlFor="taskInput">Enter task</label>
+          <input type="text" id="taskInput"/>
+          <button type="submit">
+            Add Task
+          </button>
         </form>
       </div>
     );
@@ -117,7 +115,7 @@ We assigned `task` to an empty string, this will be the state handling what we t
 
 Also, inside the render function, we destructured our state in order to make our code look cleaner when using it.
 
-After that, we render a form element with an `input` and a `button` element. If you intend on styling the application, you can copy and paste the `className` provided or use your own! Using Bootstrap or CSS, in general, is solely to make your application look prettier. Refer to the [Bootstrap documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/), if you wish to know what the class names mean and do.
+After that, we render a form element with an `input` and a `button` element. 
 
 Now, let's have a look at what our application looks like. Run `npm start` in your terminal to open up the application in the browser. You should now see an input field with a label and a submit button. When you click the button, nothing happens and the page only refreshes.
 
@@ -163,7 +161,6 @@ In your `App.js` component in your render method, add an onChange handler to you
   value={this.state.task}
   type="text"
   id="taskInput"
-  className="form-control"
 />
 ~~~
 
@@ -174,7 +171,7 @@ And also add the `onSubmitTask` function to our form element like so:
 ~~~javascript
 <form onSubmit={this.onSubmitTask}>
   {/* Leave all your code. Just add the onSubmit handler to the form element, or
-  as an onClick handler to the submit button, as you prefere */}
+  as an onClick handler to the submit button, as you prefer */}
 </form>
 ~~~
 
@@ -281,25 +278,17 @@ class App extends Component {
     const { task, tasks } = this.state;
 
     return (
-      <div className="col-6 mx-auto mt-5">
+      <div>
         <form onSubmit={this.onSubmitTask}>
-          <div className="form-group">
-            <label htmlFor="taskInput">Enter task</label>
-            <input
-              onChange={this.handleChange}
-              value={task}
-              type="text"
-              id="taskInput"
-              className="form-control"
-            />
-          </div>
-          <div className="form-group">
-            <button type="submit" className="btn btn-primary">
-              Add Task
-            </button>
-          </div>
+          <label htmlFor="taskInput">Enter task</label>
+          <input
+            onChange={this.handleChange}
+            value={task}
+            type="text"
+            id="taskInput"
+          />
+          <button type="submit">Add Task</button>
         </form>
-
         <Overview tasks={tasks} />
       </div>
     );
