@@ -1316,7 +1316,7 @@ end
 
 * Require the ERB library
 
-First we need tell Ruby that we want it to load the ERB library. This is done
+First we need to tell Ruby that we want it to load the ERB library. This is done
 through the `require` method which accepts a parameter of the functionality to
 load.
 
