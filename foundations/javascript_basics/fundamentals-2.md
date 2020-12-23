@@ -39,7 +39,7 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
 3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators.
 4. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
-5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\), and, more importantly, offers the usual 'tasks' at the bottom of the page!
+5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
 ### Practice
