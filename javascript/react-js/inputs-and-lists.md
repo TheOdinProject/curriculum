@@ -59,9 +59,8 @@ ReactDOM.render(
 );
 ~~~
 
-5. For our solution, we could style the application using CSS to make it look a little bit nicer. For those who don't know, CSS is the acronym of "Cascading Style Sheets", in short, is the code that helps us style our HTML.
-If you intend on styling the application, we highly recommend that you use your own style instead of using CSS Frameworks that are beyond the current scope. Using CSS, in general, is solely to make your application look prettier. Please refer to both [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) and [React](https://reactjs.org/docs/faq-styling.html) documentation, if you wish to know more about how to style React applications with CSS.
-If you are following along with this and do not wish to style the application, you can skip this step.
+5. We may style the application using "vanilla" CSS to make it look a little bit nicer. At this point, you should be familiar with the basics of CSS from the previous material. 
+If you intend on styling the application, we highly recommend that you use your own styling instead of using CSS frameworks that are beyond the current scope of the curriculum. Please refer to both [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) and [React](https://reactjs.org/docs/faq-styling.html) documentation if you wish to know more about how to style React applications with CSS. If you are following along with this tutorial and do not wish to style the application, you can skip this step.
 
 6. Go back to your `src` directory and create a new folder called `components` with a file named `Overview.js`. This and our `App.js` file will be the main parts of the project. In `Overview.js`, we will display all our tasks, while the App component in `App.js` will contain all the logic and manage state. Don't forget to capitalize the names of your components. It doesn't change their functionality, but it is a widely accepted "best practice".
 
