@@ -52,10 +52,9 @@ All of our projects have a "Student Solutions" section at the bottom for people 
 
 We know it may be tempting to look at the solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
 
-- All of the submitted projects are other *student* solutions. This means they are written by other people who are also still learning and may not necessarily be good examples to go off of.
-- Looking at solutions robs you of the chance to develop your problem solving and researching skills.
-- There are a ton of different ways to get the same end result, it is not "one size fits all".
-- In the real world, there will not always "solutions" for you to look at and you will have to come up with your own.
+- All of the submitted projects are other *student* solutions. This means they are written by other people who are also still learning and may not necessarily be representative of "best practice" or quality code.
+- Looking at solutions robs you of the chance to develop your problem solving and researching skills. In the real world, there will not always be "solutions" for you to look at and you will have to come up with your own.
+- There are many different ways to achieve the same end result, it is not "one size fits all".
 - An Analogy: "Looking at completed code is like learning how to make pizza dough from looking at a baked pizza."  There is a lot more that goes into it than you would have assumed by only seeing the final product and not the process that lead to it.
 
 Once you have completed your project feel free to look at the other solutions to see alternative ways the project was completed.
