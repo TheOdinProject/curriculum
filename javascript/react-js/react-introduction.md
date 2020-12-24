@@ -16,7 +16,7 @@ Just to name a few reasons on why to learn React.js:
 - React is unopinionated, which means that it won't force you to follow any specific patterns or logic, it's all up to you.
 - Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML from our previous lessons.
 
-If you need more convincing, the recent [2020 StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://medium.com/@SilentHackz/top-10-reasons-why-you-should-learn-react-right-now-f7b0add7ec0d).
+If you need more convincing, the recent [2020 StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
 _Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
 
