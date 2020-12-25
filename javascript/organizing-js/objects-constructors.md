@@ -33,7 +33,7 @@ myObject.variable // this gives us 'undefined' because it's looking for a proper
 myObject[variable] // this is equivalent to myObject['property'] and returns 'Value!'
 ~~~
 
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) from our JavaScript 101 course.
+If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) from our JavaScript Basics course.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
