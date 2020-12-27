@@ -10,7 +10,7 @@ Here, you'll build an app that feels a whole lot like a photo tagging app. You'l
 
 To start with, you'll need to choose a photo and identify where exactly each person is to start with and save that to your database. When the user clicks the photo, it should place a targeting box around the portion of the photo where the user has clicked. That box should contain a list of possible characters.
 
-When the user selects one of these characters, you should check with your Rails Backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
+When the user selects one of these characters, you should check with your Backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
 
 Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
