@@ -160,3 +160,5 @@ This section contains questions for you to check your understanding of this less
  * What are some ways of accessing the elements in an array?
  * What are 3 ways to add data to an array?
  * How can you remove elements from an array?
+ 
+ t
