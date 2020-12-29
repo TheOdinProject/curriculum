@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_07_174718) do
+ActiveRecord::Schema.define(version: 2020_12_29_134713) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -98,6 +98,7 @@ ActiveRecord::Schema.define(version: 2020_11_07_174718) do
     t.boolean "choose_path_lesson", default: false, null: false
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
+    t.index ["url"], name: "index_lessons_on_url"
   end
 
   create_table "path_courses", id: :serial, force: :cascade do |t|

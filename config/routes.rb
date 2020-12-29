@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     mount Sidekiq::Web => '/sidekiq'
   end
 
+  resource :github_webhooks, only: :create, defaults: { formats: :json }
+
   root 'static_pages#home'
 
   devise_for :users, controllers: {
