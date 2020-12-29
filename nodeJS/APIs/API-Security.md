@@ -22,11 +22,11 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 <div class="lesson-content__panel" markdown="1">
 
 1. [This video](https://www.youtube.com/watch?v=7nafaH9SddU) is a great resource that explains everything you need to know about creating and verifying JSON Web Tokens.
-2. [This article](https://medium.com/front-end-weekly/learn-using-jwt-with-passport-authentication-9761539c4314) covers setting up JSON Web Tokens within the PassportJS system that you should already be familiar with. In this case you don't _really_ need passport, but it does handle quite a bit of stuff that the guy in the video set up manually.
+2. [This article](https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8) covers setting up JSON Web Tokens within the PassportJS system that you should already be familiar with. In this case you don't _really_ need passport, but it does handle quite a bit of stuff that the guy in the video set up manually.
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [This article](https://medium.com/swlh/a-practical-guide-for-jwt-authentication-using-nodejs-and-express-d48369e7e6d4) goes even further in depth than the one that we posted above. It provides a little greater understanding, but is harder to follow.
+- [This article](https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/) goes even further in depth than the one that we posted above. It provides a little greater understanding, but is harder to follow.
 - [This article](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c) covers the same thing as the above one, but is a little more consise.  Might be a good reference for when you're setting this up on your own later.

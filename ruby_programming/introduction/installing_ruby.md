@@ -11,7 +11,7 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
-<summary class="dropDown-header">Ubuntu / Xubuntu / WSL
+<summary class="dropDown-header">Ubuntu / Xubuntu
 </summary>
 
 ### Step 1: Install Updates, Packages and Libraries
@@ -24,9 +24,7 @@ We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-If you're using WSL, open the "Ubuntu 18.04" program from your Start menu.
-
-**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`. In WSL, you can use `ctrl + c` to copy from the terminal, and you can right click at the prompt to paste the contents of the clipboard into the terminal, whether it's bash, PowerShell, or Command Prompt.
+**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`.
 
 #### Step 1.2: Update Linux
 

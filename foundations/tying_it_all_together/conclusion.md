@@ -26,7 +26,7 @@ To help you make a decision, here are some perks of each technology:
 
 #### JavaScript/Node & Express
 * Un-opinionated
-  - There is no standard way of doing things, you are going to have decide structure of projects yourself, for better or worse.
+  - There is no standard way of doing things, you are going to have to decide the structure of projects yourself, for better or worse.
 * Very fast
   - Because JavaScript is JIT compiled, it can do calculations very quickly.
 * Verbose

@@ -39,7 +39,7 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
 3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators.
 4. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
-5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) And more importantly offers the usual 'tasks' at the bottom of the page!
+5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
 ### Practice
@@ -48,11 +48,17 @@ To give you a good bit of practice, we have created some repl.it exercises for y
 
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-- [Exercise 1](https://repl.it/@I3uckwheat/troubleshooting#troubleshooting.js)
-- [Exercise 2](https://repl.it/@I3uckwheat/enter-a-number#script.js)
-- [Exercise 3](https://repl.it/@I3uckwheat/lets-do-some-math#math.js)
-- [Exercise 4](https://repl.it/@I3uckwheat/direction-follow#follow.js)
+To get started, create a free repl account and click "Fork" in order to have access to the exercises. 
+Note: Feel free to browse the files on the left column in order to gain familarity with it. 
 
+- [Exercise 1](https://repl.it/@I3uckwheat/troubleshooting#troubleshooting.js)
+  * In this exercise, you will be working out of the file called troubleshooting.js
+- [Exercise 2](https://repl.it/@I3uckwheat/enter-a-number#script.js)
+  * You will be working out of script.js 
+- [Exercise 3](https://repl.it/@I3uckwheat/lets-do-some-math#math.js)
+  * You will be working out of math.js  
+- [Exercise 4](https://repl.it/@I3uckwheat/direction-follow#follow.js)
+  * You will be working out of follow.js
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

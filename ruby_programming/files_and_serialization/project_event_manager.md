@@ -1316,7 +1316,7 @@ end
 
 * Require the ERB library
 
-First we need tell Ruby that we want it to load the ERB library. This is done
+First we need to tell Ruby that we want it to load the ERB library. This is done
 through the `require` method which accepts a parameter of the functionality to
 load.
 
@@ -1433,7 +1433,7 @@ def legislators_by_zipcode(zip)
 
   begin
     civic_info.representative_info_by_address(
-      address: zip,
+      address: zipcode,
       levels: 'country',
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials

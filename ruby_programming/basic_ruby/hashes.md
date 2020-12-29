@@ -66,7 +66,7 @@ If you try to access a key that doesn't exist in the hash, it will return `nil`:
 shoes["hiking"]   #=> nil
 ~~~
 
-Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreck havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash. 
+Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreak havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash. 
 
 ~~~ruby
 shoes.fetch("hiking")   #=> KeyError: key not found: "hiking"
@@ -162,6 +162,7 @@ japanese_cars[:honda]   #=> "Accord"
 <div class="lesson-content__panel" markdown="1">
 
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
+2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
 </div>
 
 

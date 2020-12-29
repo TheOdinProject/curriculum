@@ -9,7 +9,7 @@ GitHub is a service that allows you to upload your code using Git and to manage 
 Click the Operating System you have chosen below:
 
 <details markdown="block">
-<summary class="dropDown-header">Linux / WSL
+<summary class="dropDown-header">Linux
 </summary>
 
 #### Step 1.1: Update the system
@@ -67,7 +67,7 @@ This will install the latest version of Git. Easy, right?
 
 #### Step 1.2: Verify version
 
-Make sure your git version is **at least** 2.28 by running this command:
+**Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
 
 ~~~bash
 git --version

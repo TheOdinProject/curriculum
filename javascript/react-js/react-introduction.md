@@ -16,7 +16,7 @@ Just to name a few reasons on why to learn React.js:
 - React is unopinionated, which means that it won't force you to follow any specific patterns or logic, it's all up to you.
 - Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML from our previous lessons.
 
-If you need more convincing, the recent [2020 StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://medium.com/@SilentHackz/top-10-reasons-why-you-should-learn-react-right-now-f7b0add7ec0d).
+If you need more convincing, the recent [2020 StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
 _Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
 
@@ -172,6 +172,5 @@ If you want to get a better understanding of how create-react-app works and whic
 
 ### Additional Resources
 
-- [This video series](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) is a great introduction to react.
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important react concepts.
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application, without using create-react-app

@@ -67,13 +67,13 @@ We can re-write our `while` loop examples using `until`.
 
 ~~~ruby
 i = 0
-until i > 10 do
+until i >= 10 do
  puts "i is #{i}"
  i += 1
 end
 ~~~
 
-You can see here that using `until` means that the loop will continue running until the condition i > 10 is true.
+You can see here that using `until` means that the loop will continue running until the condition i >= 10 is true.
 
 The next example shows how you can use `until` to avoid the negation `!` that the above `while` loop had to use.
 
