@@ -32,3 +32,5 @@ This section contains helpful links to other content. It isn't required, so cons
 * [AJAX Loading Icons](http://www.ajaxload.info/) (for fun)
 * [HTML5's FormData Object by Matt Lunn](http://www.mattlunn.me.uk/blog/2012/05/sending-formdata-with-jquery-ajax/)
 * [Easier AJAX With the HTML5 FormData Interface by Craig Buckler](http://www.sitepoint.com/easier-ajax-html5-formdata-interface/)
+
+1
