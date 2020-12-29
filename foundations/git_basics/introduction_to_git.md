@@ -86,3 +86,5 @@ This section contains questions for you to check your understanding of this less
   <li>Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.</li>
 </ul></ul>
 </details>
+
+works?
