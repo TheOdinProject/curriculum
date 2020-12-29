@@ -456,6 +456,6 @@ That's it. Try sending messages between your two users and you should see instan
 
 ### Conclusion
 
-A lot of this wasn't good code so if you saw anything and thought "wow, that's pretty terrible code", you're right. The point was to show you how ActionCable makes websockets pretty easy. You need to have at least a basic knowledge of Javascript to handle things in the client when a message is sent but other than that you can see how powerful this can be. If you have a situation where you need to update all connected clients without waiting for them to refresh, then think websockets.
+The point here was to show you how ActionCable makes websockets pretty easy to work with. You need to have at least a basic knowledge of Javascript to handle things in the client when a message is sent but other than that you can see how powerful this can be. If you have a situation where you need to update all connected clients without waiting for them to refresh, then think websockets.
 
 This only scratches the surface of what ActionCable can do, but if you do find yourself in a situation where you think they might be useful you should be able to find what you need with a few searches.
