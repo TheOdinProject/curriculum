@@ -261,7 +261,7 @@ If the `@user` cannot be saved, like because the `first_name` contains numbers, 
 <div class="lesson-content__panel" markdown="1">
   1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 to 3.2.
   2. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
-  3. Read sections 7.1 and 7.2 for the official explanation of how parameters are created from the `name` attribute.
+  3. Read sections 8.1 and 8.2 for the official explanation of how parameters are created from the `name` attribute.
   4. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
   5. Skim through the Rails APIdock section on the [form_with helper](https://apidock.com/rails/ActionView/Helpers/FormHelper/form_with) to see various ways to use this helper tag.
 </div>
