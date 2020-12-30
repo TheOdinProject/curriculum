@@ -42,6 +42,8 @@ Note: All Git commands need to be run from inside your project's folder (did you
 
 _When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`._
 
+_When writing code, it's considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere._
+
 If you have entered `git push origin main` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
