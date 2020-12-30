@@ -1,6 +1,6 @@
 ### Introduction
 
-I hope you enjoyed this course and the projects you've completed.
+We hope you enjoyed this course and the projects you've completed.
 
 ### Assignment
 
