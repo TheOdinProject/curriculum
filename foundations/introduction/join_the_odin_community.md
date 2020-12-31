@@ -103,5 +103,6 @@ Your Colorful Code
    **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
 
    * Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
+   * Make Every second in TOP count :)
 
 </div>
