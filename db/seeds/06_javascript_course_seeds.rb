@@ -2,7 +2,7 @@
 # CREATE JAVASCRIPT COURSE
 # ************************************************
 
-Rails.logger.info "\n\n***** STARTING COURSE: Javascript *****"
+Rails.logger.info "\n\n***** STARTING COURSE: JavaScript *****"
 
 # Set Course and section position here. Update file name appropriately.
 course_position = 6
@@ -10,13 +10,13 @@ section_position = 0
 lesson_position = 0
 
 course = create_or_update_course(
-  title: 'Javascript',
-  title_url: 'Javascript'.parameterize,
+  title: 'JavaScript',
+  title_url: 'JavaScript'.parameterize,
   description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming principles, and build single page applications with React.",
   position: course_position
 )
 
-# :description: "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",
+# :description: "JavaScript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, JavaScript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",
 
 # +++++++++++
 # SECTION
@@ -84,7 +84,7 @@ lesson_position += 1
 create_or_update_lesson(
   title: 'Objects and Object Constructors',
   title_url: 'Objects and Object Constructors'.parameterize,
-  description: 'Covers plain old javascript objects and object constructors',
+  description: 'Covers plain old JavaScript objects and object constructors',
   position: lesson_position,
   section_id: section.id,
   is_project: false,
@@ -592,8 +592,8 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: 'Finishing Up with Javascript',
-  title_url: 'Finishing Up with Javascript'.parameterize,
+  title: 'Finishing Up with JavaScript',
+  title_url: 'Finishing Up with JavaScript'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task. In this section you will be working on your capstone project so you can show off your range of skills."
