@@ -557,7 +557,7 @@ section = create_or_update_section(
   title_url: 'JavaScript and the Backend'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end, and/or how to outsource your backend to a Backend-as-a-Service company like Firebase. You'll also get a chance to work with external APIs, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future."
+  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end or how to outsource your backend to a Backend-as-a-Service company like Firebase."
 )
 
 lesson_position += 1
@@ -596,7 +596,7 @@ section = create_or_update_section(
   title_url: 'Finishing Up with Javascript'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task.  In this section, we'll briefly cover how to test Javascript using Jasmine and then get you started with your capstone project so you can show off your range of skills."
+  description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task. In this section you will be working on your capstone project so you can show off your range of skills."
 )
 
 lesson_position += 1
