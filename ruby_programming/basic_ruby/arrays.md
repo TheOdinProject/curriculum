@@ -32,6 +32,8 @@ Array.new(3)            #=> [nil, nil, nil]
 Array.new(3, 7)         #=> [7, 7, 7]
 ~~~
 
+**NOTE:** The second optional `Array.new` argument should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each item in the array will *actually* be a reference to the same object rather than a distinct object; any changes to "one" of the elements will change "all" of the elements in the array.
+
 ### Accessing Elements
 Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is as simple as calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
 
