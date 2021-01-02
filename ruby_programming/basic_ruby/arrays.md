@@ -32,7 +32,7 @@ Array.new(3)            #=> [nil, nil, nil]
 Array.new(3, 7)         #=> [7, 7, 7]
 ~~~
 
-**NOTE:** The second optional `Array.new` argument should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each item in the array will *actually* be a reference to the same object rather than a distinct object; any changes to "one" of the elements will change "all" of the elements in the array.
+**NOTE:** The second optional argument, for the default value, should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each item in the array will actually be a *reference to* the same default value rather than a distinct copy of the default value; any changes to **one** of the elements will change **all** of the elements in the array.
 
 ### Accessing Elements
 Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is as simple as calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
@@ -138,7 +138,7 @@ Here is a brief look at some other common array methods you might run into:
 ~~~
 
 ### Nested Arrays
-As mentioned in the note at the bottom of the "Creating Arrays" section, nested (or multi-dimensional) arrays of mutable objects (such as other arrays, hashes, or strings) created with the `Array.new(size, object)` syntax may behave unexpectedly. Examples:
+As noted earlier, there can be unexpected behavior when you create nested (or multi-dimensional) arrays of mutable objects (such as other arrays, hashes, or strings). To create a nested array of mutable objects, passing the default value to `Array.new` in a block (with curly braces) rather than as the second optional argument is the simple solution. This creates copies of the default value in the array, rather than *references to* the default value in the array. Look carefully at the following examples that use a mutable object as the second optional argument, for the default value.
 
 ~~~ruby
 array_of_arrays = Array.new(3, Array.new(3))
@@ -152,7 +152,7 @@ array_of_strings.first.upcase!                 #=> "HELLO"
 array_of_strings                               #=> ["HELLO", "HELLO", "HELLO"]
 ~~~
 
-To create a nested array of mutable objects passing a block to `Array.new` is the simple solution. Examples:
+Compare the above examples with those below, where the mutable object is passed in a block and the second optional argument is omitted.
 
 ~~~ruby
 array_of_arrays = Array.new(3) { Array.new(3) }
@@ -165,8 +165,6 @@ array_of_strings                               #=> ["Hello", "Hello", "Hello"]
 array_of_strings.first.upcase!                 #=> "HELLO"
 array_of_strings                               #=> ["HELLO", "Hello", "Hello"]
 ~~~
-
-Notice the differences in syntax between the above example groups. Rather than using the `object` argument in `Array.new(size, object)` we instead passed a block (with curly braces) containing the example `object` to `Array.new` in the format `Array.new(size) { object }`. This creates `size` copies of `object` in the array rather than `size` references *to* `object` in the array.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
