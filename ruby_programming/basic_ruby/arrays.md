@@ -137,6 +137,37 @@ Here is a brief look at some other common array methods you might run into:
 [1, 2, 3].join("-")     #=> "1-2-3"
 ~~~
 
+### Nested Arrays
+As mentioned in the note at the bottom of the "Creating Arrays" section, nested (or multi-dimensional) arrays of mutable objects (such as other arrays, hashes, or strings) created with the `Array.new(size, object)` syntax may behave unexpectedly. Examples:
+
+~~~ruby
+array_of_arrays = Array.new(3, Array.new(3))
+array_of_arrays                                #=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
+array_of_arrays[0][0] = 1
+array_of_arrays                                #=> [[1, nil, nil], [1, nil, nil], [1, nil, nil]]
+
+array_of_strings = Array.new(3, "Hello")
+array_of_strings                               #=> ["Hello", "Hello", "Hello"]
+array_of_strings.first.upcase!                 #=> "HELLO"
+array_of_strings                               #=> ["HELLO", "HELLO", "HELLO"]
+~~~
+
+To create a nested array of mutable objects passing a block to `Array.new` is the simple solution. Examples:
+
+~~~ruby
+array_of_arrays = Array.new(3) { Array.new(3) }
+array_of_arrays                                #=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
+array_of_arrays[0][0] = 1
+array_of_arrays                                #=> [[1, nil, nil], [nil, nil, nil], [nil, nil, nil]]
+
+array_of_strings = Array.new(3) { "Hello" }
+array_of_strings                               #=> ["Hello", "Hello", "Hello"]
+array_of_strings.first.upcase!                 #=> "HELLO"
+array_of_strings                               #=> ["HELLO", "Hello", "Hello"]
+~~~
+
+Notice the differences in syntax between the above example groups. Rather than using the `object` argument in `Array.new(size, object)` we instead passed a block (with curly braces) containing the example `object` to `Array.new` in the format `Array.new(size) { object }`. This creates `size` copies of `object` in the array rather than `size` references *to* `object` in the array.
+
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
