@@ -90,18 +90,18 @@ Your Colorful Code
 
   2. In a moment we're going to ask you to join the Discord community, here are some guidelines before you dive in: 
   
-   * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
-   * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
-   * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
-   * **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
-   * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
-   * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
-   * **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
+     * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
+     * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
+     * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
+     * **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+     * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
+     * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
+     * **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
 
   3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
-   **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
+     **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
 
-   * Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
+     * Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
 
 </div>
