@@ -142,9 +142,9 @@ As noted earlier, the second optional argument, for the default value, should no
 
 ~~~ruby
 array_of_arrays = Array.new(3, Array.new(3))
-array_of_arrays                                #=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
+array_of_arrays                                  #=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
 array_of_arrays[0][0] = 1
-array_of_arrays                                #=> [[1, nil, nil], [1, nil, nil], [1, nil, nil]]
+array_of_arrays                                  #=> [[1, nil, nil], [1, nil, nil], [1, nil, nil]]
 
 array_of_strings = Array.new(3, "Hello")
 array_of_strings                                 #=> ["Hello", "Hello", "Hello"]
