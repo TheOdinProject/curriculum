@@ -1,5 +1,16 @@
 ### Introduction
-Before we can continue, we need to set up a development environment.
+Before we can continue, we must first stress one thing of importance:
+
+**The Odin Project does not currently support any version Windows Subsystem for Linux (WSL)**.
+
+**Please do not bring up WSL in the Discord.**
+It is in the rules posted in the Discord server as well. The community only supports the content in the curriculum, and will not support anything outside of these prerequesites.
+
+If you need more information, scroll down to the end of this page.
+
+With that out of the way, we need to set up an appropriate development environment!
+
+### Setup
 
 If you are already using **MacOS** or **Ubuntu**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
@@ -207,6 +218,8 @@ Why is everyone who comes to The Odin Project 'forced' to switch to Linux or mac
 
 The answer to that question is: [well, not that many](https://onezero.medium.com/microsoft-failed-developers-and-now-it-has-a-plan-to-win-them-back-ecdafde5b20). One of the reasons is that Ruby (on Rails) and Node.js, popular backend technologies taught by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform. And while Apple's operating systems have all included the XNU kernel, originally based on the [FreeBSD flavor of UNIX](https://www.freebsd.org/) since the transition from System 9 to Mac OS X in 2001, Microsoft has only recently committed to embracing open source and providing more support for the way people approach web development today.   
 
-One of the biggest features added in Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. Setting up a development environment inside WSL is not beginner friendly, though, which is why The Odin Project chooses **not** to recommend and/or support this approach. All instructions you encounter here will assume you're running either MacOS or Linux. Using WSL with these instructions may cause problems we are not able to help you resolve. 
+### WSL
+
+One of the biggest features added in Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. Setting up a development environment inside WSL is not beginner friendly, though, which is why The Odin Project chooses **not** to recommend and/or support this approach. All instructions you encounter here will assume you're running either MacOS or Linux. Using WSL with these instructions may cause problems we are not able to help you resolve. If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux. You do not need to ask in the Discord if you can create a PR.
 
 We do have great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux.
