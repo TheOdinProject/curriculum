@@ -1,23 +1,20 @@
 ### Introduction
-Before we can continue, we must first stress one thing of importance:
 
-**The Odin Project does not currently support any version Windows Subsystem for Linux (WSL)**.
+If you are already using **MacOS** or **Ubuntu**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
-**Please do not bring up WSL in the Discord.**
-It is in the rules posted in the Discord server as well. The community only supports the content in the curriculum, and will not support anything outside of these prerequesites.
+Before we can continue, we must first stress one detail of importance:
 
-If you need more information, scroll down to the end of this page.
+**We can only support what is provided within the scope of our curriculum.** This statement means that **we do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment.** However, we do support using a Virtual Machine (instructions enclosed below), which does not affect your Windows installation at all and can be easily removed or transfered. Please give using a Virtual Machine a shot, because it is the easiest and fastest way to get started.
+
+Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. There are free alternatives described below, which are industry standard, or mimic those standards as closely as possible. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
 
 With that out of the way, we need to set up an appropriate development environment!
 
 ### Setup
 
-If you are already using **MacOS** or **Ubuntu**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
-
 **IMPORTANT**
 
 This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device.
-
 
 <details markdown="block">
 <summary class="dropDown-header">Virtual Machine (Recommended)
@@ -217,9 +214,3 @@ Currently there is a bug preventing CloudReady v83.4 from successfully installin
 Why is everyone who comes to The Odin Project 'forced' to switch to Linux or macOS for development? Are there *no* web developers out there who use Windows as their main operating system? 
 
 The answer to that question is: [well, not that many](https://onezero.medium.com/microsoft-failed-developers-and-now-it-has-a-plan-to-win-them-back-ecdafde5b20). One of the reasons is that Ruby (on Rails) and Node.js, popular backend technologies taught by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform. And while Apple's operating systems have all included the XNU kernel, originally based on the [FreeBSD flavor of UNIX](https://www.freebsd.org/) since the transition from System 9 to Mac OS X in 2001, Microsoft has only recently committed to embracing open source and providing more support for the way people approach web development today.   
-
-### WSL
-
-One of the biggest features added in Windows 10 was the Windows Subsystem for Linux (WSL), which is a Linux command line within Windows. Setting up a development environment inside WSL is not beginner friendly, though, which is why The Odin Project chooses **not** to recommend and/or support this approach. All instructions you encounter here will assume you're running either MacOS or Linux. Using WSL with these instructions may cause problems we are not able to help you resolve.
-
-We do have great support for Linux/MacOS if you get stuck, so please give it a shot! If you feel you can contribute and support Windows at The Odin Project, please create a PR with Windows installation directions, and fixes for wherever the Windows commands might differ from Linux. You do not need to ask in the Discord if you can create a PR.
