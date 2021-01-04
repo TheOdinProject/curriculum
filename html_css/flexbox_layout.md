@@ -31,3 +31,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * Try the interactive [Flexbox froggy](http://flexboxfroggy.com/) game.
 * This [MDN Flex article](https://developer.mozilla.org/en-US/docs/Web/CSS/flex), which shows examples of what you can achieve with Flexbox.
 * [Dive Into Flexbox](https://bocoup.com/blog/dive-into-flexbox) is an in depth article with examples.
+- A [cheatsheet](https://yoksel.github.io/flex-cheatsheet/) for quick reference.
