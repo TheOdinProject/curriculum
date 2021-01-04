@@ -13,7 +13,7 @@ courses_in_path = [
   { course_id: Course.find_by_title('Databases').id, position: position += 1 },
   { course_id: Course.find_by_title('Ruby on Rails').id, position: position += 1 },
   { course_id: Course.find_by_title('HTML and CSS').id, position: position += 1 },
-  { course_id: Course.find_by_title('Javascript').id, position: position += 1 },
+  { course_id: Course.find_by_title('JavaScript').id, position: position += 1 },
   { course_id: Course.find_by_title('Getting Hired').id, position: position + 1 }
 ]
 
