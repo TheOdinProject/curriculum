@@ -56,21 +56,21 @@ const SubmissionsList = ({
 
       { allSubmissionsPath
         && (
-        <p className="submissions__view-more">
-          <span>
-            Showing
+          <p className="submissions__view-more">
+            <span>
+              Showing
+              {' '}
+              {submissions.length}
+              {' '}
+              most liked submissions -
+              {' '}
+            </span>
+            <a href={allSubmissionsPath}> View full list of solutions</a>
             {' '}
-            {submissions.length}
+            or
             {' '}
-            most recent submissions -
-            {' '}
-          </span>
-          <a href={allSubmissionsPath}> View full list of solutions</a>
-          {' '}
-          or
-          {' '}
-          <a href={legacySubmissionsUrl} target="_blank" rel="noreferrer">View old submissions</a>
-        </p>
+            <a href={legacySubmissionsUrl} target="_blank" rel="noreferrer">View old submissions</a>
+          </p>
         )}
     </div>
   );
