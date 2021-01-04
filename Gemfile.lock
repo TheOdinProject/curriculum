@@ -93,7 +93,7 @@ GEM
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
     bindex (0.8.1)
-    binding_of_caller (0.8.0)
+    binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
     bootstrap (4.5.3)
       autoprefixer-rails (>= 9.1.0)
@@ -109,7 +109,7 @@ GEM
     crass (1.0.6)
     css_parser (1.7.1)
       addressable
-    debug_inspector (0.0.3)
+    debug_inspector (1.0.0)
     derailed (0.1.0)
       derailed_benchmarks
     derailed_benchmarks (1.7.0)
@@ -493,7 +493,7 @@ DEPENDENCIES
   activeadmin_addons (~> 1.7.1)
   acts_as_votable
   better_errors
-  binding_of_caller (~> 0.8)
+  binding_of_caller (~> 1.0)
   bootstrap (>= 4.4.1)
   cancancan
   climate_control

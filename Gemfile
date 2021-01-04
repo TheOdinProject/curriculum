@@ -59,7 +59,7 @@ end
 
 group :development, :docker do
   gem 'better_errors'
-  gem 'binding_of_caller', '~> 0.8'
+  gem 'binding_of_caller', '~> 1.0'
   gem 'derailed'
   gem 'letter_opener', '~> 1.4'
   gem 'listen'
