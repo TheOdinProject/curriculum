@@ -1,0 +1,5 @@
+.lesson-container {
+  @include media-breakpoint-up(lg) {
+    max-width: 1710px;
+  }
+}

@@ -1,11 +1,13 @@
-<div class="container lesson">
+<div class="container lesson-container lesson">
   <div class="row">
 
-    <div class="col-lg-3">
-      <div class="d-none d-lg-block d-xl-block lesson-navigation"></div>
+    <div class="col-lg-3 lesson-nav-wrapper">
+      <div>
+        <div class="d-none d-lg-block d-xl-block lesson-navigation"></div>
+      </div>
     </div>
 
-    <div class="col-lg-9">
+    <div class="col-xl-6 col-lg-8">
       <div>
         <%= react_component("lesson-preview/index", {}) %>
       </div>
