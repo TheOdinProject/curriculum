@@ -149,9 +149,11 @@ GEM
     factory_bot_rails (6.1.0)
       factory_bot (~> 6.1.0)
       railties (>= 5.0.0)
-    faraday (1.1.0)
+    faraday (1.3.0)
+      faraday-net_http (~> 1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
+    faraday-net_http (1.0.0)
     ffi (1.14.2)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
@@ -252,7 +254,7 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
-    octokit (4.19.0)
+    octokit (4.20.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     omniauth (1.9.1)
@@ -514,7 +516,7 @@ DEPENDENCIES
   listen
   newrelic_rpm
   nokogiri (~> 1.11.0)
-  octokit (~> 4.19)
+  octokit (~> 4.20)
   omniauth-github
   omniauth-google-oauth2
   omniauth-rails_csrf_protection
