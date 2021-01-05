@@ -76,7 +76,7 @@ yarn add --dev jest
 
 Packages are installed to the `node_modules` folder. Open that at your own peril as it's known for being a bit of a black hole for code. Due to the size it can take, the node_modules folder is by default excluded from being checked into by git. Instead, if you clone a project you just use the package.json and yarn to recreate the node_modules folder.
 
-Once you have installed a library then you need to reference it in your pack file. Webpack references the `node_modules` folder as a top level directory to search for anything referenced so you aren't stuck trying to work your way backwards from the pack file when requiring a library with lines like `require ../../node_modules/etc` and instead you can just reference the library starting with it's own folder in node_modules.
+Once you have installed a library then you need to reference it in your pack file. Webpack references the `node_modules` folder as a top level directory to search for anything referenced so you aren't stuck trying to work your way backwards from the pack file when requiring a library with lines like `require ../../node_modules/etc` and instead you can just reference the library starting with its own folder in node_modules.
 
 ~~~javascript
 require 'bootstrap/bootstrap'
