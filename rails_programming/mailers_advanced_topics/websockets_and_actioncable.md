@@ -298,7 +298,7 @@ It is possible for a client to send a message to the server and for the server t
 
 If you want to send dynamic parameters from the client when setting up the server care needs to be taken. You can only get params once the DOM has rendered and it's common to therefore wrap code in a `turbolinks:load` event listener. Because of this if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Actioncable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this [Stack Overflow](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages) post where others have experienced this behaviour.
 
-For testing and development Actioncable uses an async adapter to work but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
+For testing and development Actioncable uses an async adapter to work, but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
 
 The connection only remains active while the http request remains unbroken. Refreshing the browser or navigating to a new page sever the connection and then will look to establish it again on reconnection.
 
@@ -306,6 +306,7 @@ The connection only remains active while the http request remains unbroken. Refr
 
 <div class="lesson-content__panel" markdown="1">
   1. Make sure you've read through all of the [Rails Guides on Actioncable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
+  2. Follow along with [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Actioncable to a project
 </div>
 
 ### Conclusion
