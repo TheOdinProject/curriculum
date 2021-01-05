@@ -489,6 +489,18 @@ create_or_update_lesson(
 
 lesson_position += 1
 create_or_update_lesson(
+  title: 'Websockets and Actioncable',
+  title_url: 'Websockets and Actioncable'.parameterize,
+  description: 'A delve into the basics of websockets and how Actioncable brings them to Rails.',
+  position: lesson_position,
+  section_id: section.id,
+  is_project: false,
+  url: '/rails_programming/mailers_advanced_topics/websockets_and_actioncable.md',
+  repo: 'curriculum'
+)
+
+lesson_position += 1
+create_or_update_lesson(
   title: 'Final Project',
   title_url: 'Final Project'.parameterize,
   description: "There's a pretty popular social networking app you should build.  They may have made a movie about it.",
