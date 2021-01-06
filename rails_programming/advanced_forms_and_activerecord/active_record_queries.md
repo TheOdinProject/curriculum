@@ -213,7 +213,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 
 ### Querying Basics
 1. Read the first 5 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
-2. Read section 20 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
+2. Read section 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
 3. Read sections 6, 7, and 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
 4. Skim sections 8-11 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).  
 5. Read section 12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
