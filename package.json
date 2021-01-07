@@ -17,7 +17,7 @@
     "hint.css": "^2.6.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "prismjs": "^1.22.0",
+    "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react_ujs": "^2.6.1",
