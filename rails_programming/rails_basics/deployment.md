@@ -57,12 +57,12 @@ We'll do a quick overview of how it will work. It's not meant to be a step-by-st
 * Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
 * Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses.  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
 * Create a new Heroku application from the command line using `$ heroku create`.  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
-* Ready? Push using the command `$ git push heroku master`.
+* Ready? Push using the command `$ git push heroku main`.
 * But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`.  If you've set up seeds, you can also run them now.
 
 #### What's Going On?
 
-There's no magic here... When you created the new Heroku app, you also automatically set up the "heroku" remote to point to your application on Heroku.  When you execute `$ git push heroku master`, Git will just ship your code up to Heroku.
+There's no magic here... When you created the new Heroku app, you also automatically set up the "heroku" remote to point to your application on Heroku.  When you execute `$ git push heroku main`, Git will just ship your code up to Heroku.
 
 From there, Heroku more or less does what you do for your own localhost.  First, it will take the "slug" of code and files that you uploaded, identify your Ruby version, and run a `$ bundle install`.  It sets up your database connection and then runs the asset pipeline.
 
