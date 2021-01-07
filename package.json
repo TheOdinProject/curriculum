@@ -34,7 +34,7 @@
     "yup": "^0.32.8"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.1",
     "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
