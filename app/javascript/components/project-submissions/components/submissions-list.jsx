@@ -18,7 +18,7 @@ const SubmissionsList = ({
   handleLikeToggle,
   userSubmission,
 }) => {
-  const { allSubmissionsPath, legacySubmissionsUrl } = useContext(ProjectSubmissionContext);
+  const { allSubmissionsPath } = useContext(ProjectSubmissionContext);
   const hasSubmissions = submissions.length > 0;
 
   return (
@@ -66,10 +66,6 @@ const SubmissionsList = ({
               {' '}
             </span>
             <a href={allSubmissionsPath}> View full list of solutions</a>
-            {' '}
-            or
-            {' '}
-            <a href={legacySubmissionsUrl} target="_blank" rel="noreferrer">View old submissions</a>
           </p>
         )}
     </div>

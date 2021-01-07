@@ -11,10 +11,6 @@ module LessonsHelper
     github_link("curriculum/edit/master#{lesson.url}")
   end
 
-  def legacy_submissions_url(lesson)
-    github_link("curriculum/blob/master/legacy_submissions#{lesson.url}")
-  end
-
   def user_submission(current_user, lesson)
     return if current_user.blank?
 

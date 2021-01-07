@@ -4,10 +4,10 @@ import ProjectSubmissionsContainer from './containers/project-submissions-contai
 import ProjectSubmissionContext from './ProjectSubmissionContext';
 
 const ProjectSubmissions = ({
-  submissions, course, lesson, userId, allSubmissionsPath, legacySubmissionsUrl, userSubmission,
+  submissions, course, lesson, userId, allSubmissionsPath, userSubmission,
 }) => (
   <ProjectSubmissionContext.Provider value={{
-    userId, lesson, course, allSubmissionsPath, legacySubmissionsUrl,
+    userId, lesson, course, allSubmissionsPath,
   }}
   >
     <ProjectSubmissionsContainer submissions={submissions} userSubmission={userSubmission} />
@@ -18,7 +18,6 @@ ProjectSubmissions.defaultProps = {
   allSubmissionsPath: '',
   userId: null,
   userSubmission: null,
-  legacySubmissionsUrl: null,
 };
 
 ProjectSubmissions.propTypes = {
@@ -27,7 +26,6 @@ ProjectSubmissions.propTypes = {
   lesson: PropTypes.object.isRequired,
   course: PropTypes.object.isRequired,
   allSubmissionsPath: PropTypes.string,
-  legacySubmissionsUrl: PropTypes.string,
   userSubmission: PropTypes.object,
 };
 
