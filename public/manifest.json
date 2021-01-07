@@ -1,5 +1,6 @@
 {
-    "name": "",
+    "name": "The Odin Project",
+    "short_name": "The Odin Project",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
