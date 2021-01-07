@@ -19,7 +19,7 @@ So let's get started.
    3. A section to add practical experience (company name, position title, main tasks of your jobs, date from and until when you worked for that company)
 4. Be sure to include an edit and submit button for each section or for the whole CV, your preference. The submit button should submit your form and display the value of your input fields in HTML elements. The edit button should add back (display) the input fields, with the previously displayed information as values. In those input fields, you should be able to edit and resubmit the content. You're going to make heavy use of state and props, so make sure you understood those concepts.
 5. Create a `components` folder in your `src` directory and add your components.
-6. If you are familiar with bootstrap or any other CSS framework, feel free to use it. If not, don't worry, just include a `styles` folder in your `src` directory and continue with normal CSS.
+6. Include a `styles` folder in your `src` directory for your CSS files. You'll need to import these in the component files to use them.
 7. Don't forget to push your solution to GitHub. You should be proud of your work and show it off to the world!
 
 Tip: If you're confused on how to deploy using GitHub Pages, take a look at [this article](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
