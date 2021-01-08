@@ -51,7 +51,7 @@ As mentioned earlier, unlike the Asset Pipeline which requires everything to be 
 As an example we may have some code we use to manage a contact form submission. We don't want it loaded on every page. So in the `packs` directory we create a `contact_form.js` pack file. Then in our form view we can place the following line at the bottom of the page...
 
 ~~~ruby
-<%= javascript_include_tag "contact_form", "data-turbolinks-track" => "reload" %>
+<%= javascript_pack_tag "contact_form", "data-turbolinks-track" => "reload" %>
 ~~~
 
 You may have already wondered what makes a pack file different from a regular Javascript file. Why do I keep referring to them as pack files?
