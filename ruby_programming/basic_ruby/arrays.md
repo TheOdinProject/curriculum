@@ -32,8 +32,6 @@ Array.new(3)            #=> [nil, nil, nil]
 Array.new(3, 7)         #=> [7, 7, 7]
 ~~~
 
-**NOTE:** The second optional argument, for the default value, should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array. Later in this lesson, you will be taught how to create arrays of mutable objects.
-
 ### Accessing Elements
 Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is as simple as calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
 
@@ -135,35 +133,6 @@ Here is a brief look at some other common array methods you might run into:
 
 [1, 2, 3].join          #=> "123"
 [1, 2, 3].join("-")     #=> "1-2-3"
-~~~
-
-### Arrays of Mutable Objects
-As noted earlier, the second optional argument, for the default value, should not be used with a mutable object, such as a string, array, or hash. This can cause unexpected behavior because each default value in the array will actually be a *reference to* the same default value. Look carefully at the following examples that use a mutable object as the second optional argument, for the default value.
-
-~~~ruby
-array_of_arrays = Array.new(3, Array.new(3))
-array_of_arrays                                  #=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
-array_of_arrays[0][0] = 1
-array_of_arrays                                  #=> [[1, nil, nil], [1, nil, nil], [1, nil, nil]]
-
-array_of_strings = Array.new(3, "Hello")
-array_of_strings                                 #=> ["Hello", "Hello", "Hello"]
-array_of_strings.first.upcase!                   #=> "HELLO"
-array_of_strings                                 #=> ["HELLO", "HELLO", "HELLO"]
-~~~
-
-To create an array of mutable objects, you will need to pass the default value to `Array.new` in a block, using curly braces, rather than as the second optional argument. This creates *distinct copies* of the default value in the array, rather than references to the same default value. Compare the above examples with those below, where the mutable object is passed in a block and the second optional argument is omitted.
-
-~~~ruby
-array_of_arrays = Array.new(3) { Array.new(3) }
-array_of_arrays                                  #=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
-array_of_arrays[0][0] = 1
-array_of_arrays                                  #=> [[1, nil, nil], [nil, nil, nil], [nil, nil, nil]]
-
-array_of_strings = Array.new(3) { "Hello" }
-array_of_strings                                 #=> ["Hello", "Hello", "Hello"]
-array_of_strings.first.upcase!                   #=> "HELLO"
-array_of_strings                                 #=> ["HELLO", "Hello", "Hello"]
 ~~~
 
 ### Assignment
