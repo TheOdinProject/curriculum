@@ -27,7 +27,7 @@ To understand what problem websockets solve let us consider an example of where 
 
 Let us imagine we've built an awesome new social media app. Chewbooka. A place to be our true selves and talk all things Chewbacca. One key feature for our app, to make us all billions, is that when someone creates a new post extolling the virtues of Peter Mayhew, that all the other users connected to our app receive that post without having to manually refresh for updates.
 
-We'll be rich! But, in a time before webosckets, how are we going to solve it.
+We'll be rich! But, in a time before websockets, how are we going to solve it?
 
 We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are we could notify users of the new post and update their view and if there wasn't we can just return an empty response. This still involves opening and closing a request on the sever. This was a technique know as polling and was one of the first ways websites tried to bring server updates to the client. The downside to this was one of efficiency. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
