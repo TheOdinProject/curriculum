@@ -121,7 +121,7 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 2.7.0pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 2.7.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
@@ -235,10 +235,10 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.7.0:
+We can now (finally) install Ruby! Our curriculum currently uses version 2.7.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 ~~~bash
-rbenv install 2.7.0 --verbose
+rbenv install 2.7.2 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
@@ -246,14 +246,14 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
-rbenv global 2.7.0
+rbenv global 2.7.2
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.0:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.2:
 
 ~~~bash
 $ ruby -v
-ruby 2.7.0pxx (20xx-xx-xx revision xxxxx)
+ruby 2.7.2pxx (20xx-xx-xx revision xxxxx)
 ~~~
 
 If you don't see the output above, log off and log back on, then try again.
