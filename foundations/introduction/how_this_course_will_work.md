@@ -36,7 +36,7 @@ Once you've completed this course, you should be pretty comfortable with the bui
 
 The courses that come after this one are designed to take that foundation and build it into an applied understanding of the material.  Those courses will focus on taking these raw building blocks and honing them into a highly functional skillset.  Once you've completed the Foundations course, you'll have built a strong foundation to take those next steps.
 
-The Odin Project is maintained by profressionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
+The Odin Project is maintained by professionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
 
 As you move forward, in the curriculum each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understanding the task at hand. 
 
