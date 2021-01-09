@@ -48,14 +48,3 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but the risk is very low. You'll be okay as long as you take your time and read the instructions.
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be understated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
-
-### Online Editors
-
-Finally, there are a variety of online code sandboxes that can be quite handy when you're away from your main system or prototyping some code before committing it. 
-
-* [Repl.it](https://repl.it/)
-* [Codepen.io](https://codepen.io/)
-* [JSFiddle.net](https://jsfiddle.net/)
-* [CodeSandBox](https://codesandbox.io/)
-
-These sites can be used to complete small exercises or to sketch out a concept you don't quite understand. However, you shouldn't use these sites as your main development environment.
