@@ -48,8 +48,8 @@ Each of these represents a "RESTful" route, and so it makes sense that you'll ne
 
 ~~~ruby
   get "/posts", to: "posts#index"
-  get "/posts/:id", to: "posts#show"
   get "/posts/new", to: "posts#new"
+  get "/posts/:id", to: "posts#show"
   post "/posts", to: "posts#create"  # usually a submitted form
   get "/posts/:id/edit", to: "posts#edit"
   put "/posts/:id", to: "posts#update" # usually a submitted form
