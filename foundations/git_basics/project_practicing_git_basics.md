@@ -47,7 +47,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
   <a href="https://i.imgur.com/vupVHMk.png"><img class="tutorial-img" src="https://i.imgur.com/vupVHMk.png" title="source: imgur.com" /></a>
 3. Type `git add README.md`. This command adds your README.md file to the staging area in Git. Now, type `git status` again. In the output, notice that your file is now shown in green, which means that this file is now in the staging area.
   <a href="https://i.imgur.com/sc332hP.png"><img class="tutorial-img" src="https://i.imgur.com/sc332hP.png" title="source: imgur.com" /></a>
-4. Type `git commit -m "Add README.md"` and then type `git status` once more. The output should now say, "*nothing to commit*", indicating that your changes have been committed. *(Note: If you see "Your branch is based on 'origin/main' but the upstream is gone." you can ignore it. This will go away after we push for the first time.)*
+4. Type `git commit -m "Add README.md"` and then type `git status` once more. The output should now say, "*nothing to commit, working tree clean*", indicating that your changes have been committed. 
   <a href="https://i.imgur.com/edsid2Z.png"><img class="tutorial-img" src="https://i.imgur.com/edsid2Z.png" title="source: imgur.com" /></a>
 5. Type `git log` and look at the output. You should see an entry for your "Add README.md" commit. You will also see details on the author who made the commit and the date and time for when the commit was made.
 
