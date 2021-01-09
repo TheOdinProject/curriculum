@@ -47,7 +47,7 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
    Parameters: {"authenticity_token"=>"WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "username"=>"foobar", "email"=>"foo@bar.com", "password"=>"[FILTERED]"}
    ~~~
 That looks a whole lot like what you normally see when Rails does it, right?
-6. Go into your UsersController and build out the `#create` action to take those parameters and create a new User from them.  If you successfully save the user, you should redirect back to the New User form (which will be blank) and if you don't, it should render the `:new` form again (but it will still have the existing information entered in it).  You should be able to use something like:
+6. Go into your UsersController and build out the `#create` action to take those parameters and create a new User from them.  If you successfully save the user, you should redirect back to the New User form (which will be blank) and if you don't, it should render the `:new` form again.  You should be able to use something like:
 
    ~~~ruby
    # app/controllers/users_controller.rb
@@ -94,7 +94,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 2. Comment out your `#form_tag` form in the `app/views/users/new.html.erb` view (so now you should have TWO commented out form examples).
 3. Rebuild the form using `#form_for` and the `@user` from your controller.
 4. Play with the `#input` method options -- add a default placeholder (like "example@example.com" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated.  Some of these things you may need to Google for, but check out the [`#form_for` Rails API docs](http://apidock.com/rails/ActionView/Helpers/FormHelper/form_for)
-5. Test it out.  You'll need to switch your controller's `#create` method again to accept the nested `:user` hash from `params`.
+5. Test it out.  You'll need to switch your controller's `#create` method again to accept the nested `:user` hash from `params`. If validations fail, it should render the `:new` form again with the existing information already entered for you.
 
 #### Editing
 
