@@ -57,7 +57,7 @@ Still not convinced? Here are a few great reasons to install Linux:
 - **Community Support** - Using the tools we recommend makes it easier for us to help when you run into trouble.
 - **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform like Linux.
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
-- **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It user fewer system resources than Windows and will occupy less hard drive space.
+- **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
 
 Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
 
