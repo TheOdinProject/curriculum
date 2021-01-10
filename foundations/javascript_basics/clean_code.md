@@ -80,7 +80,7 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 Read through these articles that discuss a few elements of writing good clean code.
 
-1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
+1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/) (disclaimer: just be aware that the article is from 2011; today, we would recommend using semantic elements over div tags where possible).
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
 ### Additional Resources
