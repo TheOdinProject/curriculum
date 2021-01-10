@@ -18,17 +18,11 @@ In the next few lessons, we will walk through these installation steps together:
 
 At the end of this section, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
-* Parse the terminal output for the actual error.
+* Examine the terminal output for the actual error.
 * Google, Google, Google.
 * Never be afraid to [ask for help](https://discord.gg/hvqVr6d)!
 
 ### OS Options
-
-"Woah, woah, woah! I like my OS just fine the way it is!"
-
-Don't worry! We're not asking you to get rid of what you're comfortable using. You've probably learned a lot of tips and tricks for your favorite OS and don't want to lose everything you have on your computer. However, most OSs are developed with non-technical folks in mind, so they hide or make it difficult to use many of the languages and frameworks we'll need to install. Having to work around these difficulties causes many new developers to give up before they've even started their journey to full-stack nirvana. 
-
-Modifying or dual booting a computer to work with the tools you'll need will make it much easier to start programming, can help create a distraction-free environment, and will look good on your resume. Take a deep breath, and let's look at your options.
 
 #### Mac
 
@@ -48,3 +42,27 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but the risk is very low. You'll be okay as long as you take your time and read the instructions.
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be understated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
+
+### Concerned About Installing A New OS?
+
+"Woah, woah, woah! I like my OS just fine the way it is!"
+
+If you don't have an Apple computer, you are likely using Windows. Don't worry! The options above don't mean you need to get rid of Windows. Linux will gladly share the hard drive with Windows. We know you've probably learned a lot of tips and tricks for your favorite OS and don't want to lose everything you have on your computer. However, most OSs are developed with non-technical folks in mind, so they hide or make it difficult to use many of the languages and frameworks we'll need to install. Having to work around these difficulties causes many new developers to give up before they've even started their journey to full-stack nirvana.
+
+Modifying or dual booting a computer to work with the tools you'll need will make it much easier to start programming, can help create a distraction-free environment, and will look good on your resume. Take a deep breath, and let's look at your options.
+
+Still not convinced? Here are a few great reasons to install Linux: 
+
+- **Tested** - We've tested our directions with MacOS, Ubuntu, and official Ubuntu flavors. We did the research so that you can get tools installed with as few issues as possible, getting you to coding sooner. Time spent wrestling with your operating system is time taken from learning how to code.
+- **Community Support** - Using the tools we recommend makes it easier for us to help when you run into trouble.
+- **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform like Linux.
+- **Work Like The Pros** - Many developers use a Unix-based operating system.
+- **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It user fewer system resources than Windows and will occupy less hard drive space.
+
+Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
+
+Before we can continue, we must first stress one detail of importance:
+
+**We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment.** Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
+
+With that out of the way, we need to set up an appropriate development environment!
