@@ -12,7 +12,7 @@ These Terms of Use constitute a legally binding agreement (the “Agreement”) 
 
 ### Acceptance of Terms of Use
 
-Please read these Terms of Use very carefully. If you do not agree to any of the provisions set out in this document, you should not use the Website or any of the Services. By accessing or using the Platform, registering an account, or by viewing, accessing, uploading or downloading any information or content from or to the Platform, you represent and warrant that you have read and understood the Terms of Use, will abide by them, and that you are either 18 years of age or more, or you are 13 years of age or more and have your parent(s)’ or legal guardian(s)’ permission to use the Platform. 
+Please read these Terms of Use very carefully. If you do not agree to any of the provisions set out in this document, you should not use the Website or any of the Services. By accessing or using the Platform, registering an account, or by viewing, accessing, uploading or downloading any information or content from or to the Platform, you represent and warrant that you have read and understood the Terms of Use, will abide by them, and that you are either 18 years of age or more, or you are 13 years of age or more and have your parent(s)’ or legal guardian(s)’ permission to use the Platform.
 
 ### Changes to Terms of Use
 
@@ -22,13 +22,13 @@ We reserve the right to change, alter, replace or otherwise modify these Terms o
 
 The Platform is a learning service which displays content from third-party sources and allows registered users to participate in discussions. Registered users of the Platform may contribute content, data or information (“Content”). The Platform also enables registered users to interact with one another and to contribute to discussions.
 
-We may, from time to time, release new tools and resources on the Website, release new versions of our Website, or introduce other services and/or features for the Platform. Any new services and features will be subject to these Terms of Use as well as any additional terms of use that we may release for those specific services or features. 
+We may, from time to time, release new tools and resources on the Website, release new versions of our Website, or introduce other services and/or features for the Platform. Any new services and features will be subject to these Terms of Use as well as any additional terms of use that we may release for those specific services or features.
 
 ### Your Odin Project Account
 
 You are not obliged to register to use the Platform. However, access to certain Services is only available to registered users.
 
-When you register to use the Platform, you will provide us with your email address, a username and password for your account. You must ensure that the email address that you provide is, and remains, valid. 
+When you register to use the Platform, you will provide us with your email address, a username and password for your account. You must ensure that the email address that you provide is, and remains, valid.
 
 You are solely responsible for maintaining the confidentiality and security of your username and password, and you will remain responsible for all use of your username and password, and all activity emanating from your account, whether or not such activity was authorized by you.
 
@@ -36,7 +36,7 @@ If your username or password is lost or stolen, or if you believe that your acco
 
 We reserve the right to disallow, cancel, remove or reassign certain usernames and permalinks in appropriate circumstances, as determined by us in our sole discretion, and may, with or without prior notice, suspend or terminate your account if activities occur on that account which, in our sole discretion, would or might constitute a violation of these Terms of Use, or an infringement or violation of the rights of any third party, or of any applicable laws or regulations.
 
-You may terminate your account at any time as described in the Termination section below. 
+You may terminate your account at any time as described in the Termination section below.
 
 ### Your Use of the Platform
 
@@ -85,13 +85,13 @@ any unsolicited or unauthorized advertising, promotional messages, spam or any o
 
 (xii) You must not violate, circumvent or attempt to violate or circumvent any data security measures employed by The Odin Project; access or attempt to access data or materials which are not intended for your use; log into, or attempt to log into, a server or account which you are not authorized to access; attempt to scan or test the vulnerability of The Odin Project’s servers, system or network or attempt to breach The Odin Project’s data security or authentication procedures; attempt to interfere with the Website or the Services by any means including, without limitation, hacking The Odin Project’s servers or systems, submitting a virus, overloading, mail-bombing or crashing. Without limitation to any other rights or remedies of The Odin Project under these Terms of Use, The Odin Project reserves the right to investigate any situation that appears to involve any of the above, and may report such matters to, and co-operate with, appropriate law enforcement authorities in prosecuting any users who have participated in any such violations.
 
-You agree to comply with the above conditions, and acknowledge and agree that The Odin Project has the right, in its sole discretion, to terminate your account or take such other action as we see fit if you breach any of the above conditions or any of the other terms of these Terms of Use. This may include taking court action and/or reporting offending users to the relevant authorities. 
+You agree to comply with the above conditions, and acknowledge and agree that The Odin Project has the right, in its sole discretion, to terminate your account or take such other action as we see fit if you breach any of the above conditions or any of the other terms of these Terms of Use. This may include taking court action and/or reporting offending users to the relevant authorities.
 
 ### Reporting Infringements
 
 If you discover any Content on the Platform that you believe infringes your copyright, please report this to us using any of the methods outlined on our Contact Page (http://theodinproject.com/contact).
 
-Please make sure that you include the following information: 
+Please make sure that you include the following information:
 
 a statement that you have identified Content on The Odin Project that infringes your copyright or the copyright of a third party on whose behalf you are entitled to act;a description of the copyright work(s) that you claim have been infringed;
 
@@ -109,7 +109,7 @@ with respect to your statement that you are authorized to act on behalf of the o
 
 your electronic or physical signature (which may be a scanned copy).
 
-In all other cases, if you discover Content that infringes any or violates any of your other rights, which you believe is defamatory, pornographic, obscene, racist or otherwise liable to cause widespread offence, or which constitutes impersonation, harassment, spam or otherwise violates these Terms of Use, our Community Guidelines or applicable law, please report this to us at contact@theodinproject.com.
+In all other cases, if you discover Content that infringes any or violates any of your other rights, which you believe is defamatory, pornographic, obscene, racist or otherwise liable to cause widespread offence, or which constitutes impersonation, harassment, spam or otherwise violates these Terms of Use, our Community Guidelines or applicable law, please report this to us at theodinprojectcontact@gmail.com.
 
 ### Third Party Websites and Services
 
@@ -121,7 +121,7 @@ External Services may have their own terms of use and/or privacy policy, and may
 
 You are solely responsible for taking the precautions necessary to protect yourself from fraud when using External Services, and to protect your computer systems from viruses, worms, Trojan horses, and other harmful or destructive content and material that may be included on or may emanate from any External Services.
 
-The Odin Project disclaims any and all responsibility or liability for any harm resulting from your use of External Services, and you hereby irrevocably waive any claim against The Odin Project with respect to the content or operation of any External Services. 
+The Odin Project disclaims any and all responsibility or liability for any harm resulting from your use of External Services, and you hereby irrevocably waive any claim against The Odin Project with respect to the content or operation of any External Services.
 
 ### Blocking and Removal of Content
 
@@ -140,7 +140,7 @@ WHILST THE ODIN PROJECT USES REASONABLE ENDEAVOURS TO CORRECT ANY ERRORS OR OMIS
 
 THE ODIN PROJECT AND ITS SUBSIDIARIES, AFFILIATES, SUCCESSORS, AND ASSIGNS, AND THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND SHAREHOLDERS, SPECIFICALLY DISCLAIM ALL OF THE FOREGOING WARRANTIES AND ANY OTHER WARRANTIES NOT EXPRESSLY SET OUT HEREIN TO THE FULLEST EXTENT PERMITTED BY LAW, INCLUDING WITHOUT LIMITATION ANY EXPRESS OR IMPLIED WARRANTIES REGARDING NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-WHERE THE LAW OF ANY JURISDICTION LIMITS OR PROHIBITS THE DISCLAIMER OF IMPLIED OR OTHER WARRANTIES AS SET OUT ABOVE, THE ABOVE DISCLAIMERS SHALL NOT APPLY TO THE EXTENT THAT THE LAW OF SUCH JURISDICTION APPLIES TO THIS AGREEMENT. 
+WHERE THE LAW OF ANY JURISDICTION LIMITS OR PROHIBITS THE DISCLAIMER OF IMPLIED OR OTHER WARRANTIES AS SET OUT ABOVE, THE ABOVE DISCLAIMERS SHALL NOT APPLY TO THE EXTENT THAT THE LAW OF SUCH JURISDICTION APPLIES TO THIS AGREEMENT.
 
 ### Limitation of Liability
 
@@ -165,7 +165,7 @@ ANY LOSS OF PROFITS, OR ANY LOSS YOU SUFFER WHICH IS NOT A FORESEEABLE CONSEQUEN
 ANY CLAIM OR CAUSE OF ACTION ARISING OUT OF OR RELATED TO YOUR USE OF THE PLATFORM MUST BE NOTIFIED TO THE ODIN PROJECT AS SOON AS POSSIBLE.
 
 APPLICABLE LAW MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. IN SUCH CASES, YOU ACKNOWLEDGE AND AGREE THAT SUCH LIMITATIONS AND EXCLUSIONS REFLECT A REASONABLE AND FAIR ALLOCATION OF RISK BETWEEN YOU AND THE ODIN PROJECT AND ARE FUNDAMENTAL ELEMENTS OF THE BARGAIN BETWEEN YOU AND THE ODIN PROJECT, AND THAT THE ODIN PROJECT’S LIABILITY WILL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.
-NOTHING IN THESE TERMS OF USE LIMITS OR EXCLUDES THE LIABILITY OF THE ODIN PROJECT, ITS SUBSIDIARIES, SUCCESSORS, ASSIGNS, OR THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND/OR SHAREHOLDERS: (I) FOR ANY DEATH OR PERSONAL INJURY CAUSED BY ITS OR THEIR NEGLIGENCE, (II) FOR ANY FORM OF FRAUD OR DECEIT, (III) FOR ANY DAMAGES CAUSED WILFULLY OR BY GROSS NEGLIGENCE, OR (IV) FOR ANY FORM OF LIABILITY WHICH CANNOT BE LIMITED OR EXCLUDED BY LAW. 
+NOTHING IN THESE TERMS OF USE LIMITS OR EXCLUDES THE LIABILITY OF THE ODIN PROJECT, ITS SUBSIDIARIES, SUCCESSORS, ASSIGNS, OR THEIR RESPECTIVE EMPLOYEES, AGENTS, DIRECTORS, OFFICERS AND/OR SHAREHOLDERS: (I) FOR ANY DEATH OR PERSONAL INJURY CAUSED BY ITS OR THEIR NEGLIGENCE, (II) FOR ANY FORM OF FRAUD OR DECEIT, (III) FOR ANY DAMAGES CAUSED WILFULLY OR BY GROSS NEGLIGENCE, OR (IV) FOR ANY FORM OF LIABILITY WHICH CANNOT BE LIMITED OR EXCLUDED BY LAW.
 
 ### Indemnification
 
@@ -179,11 +179,11 @@ You hereby agree to indemnify, defend and hold harmless The Odin Project, its su
 
 ### Data Protection, Privacy, and Cookies
 
-In common with most online services, we use cookies to help us understand how people are using the Platform, so that we can continue to improve the service we offer. 
+In common with most online services, we use cookies to help us understand how people are using the Platform, so that we can continue to improve the service we offer.
 
 ### Meetups and Study Groups
 
-The Odin Project has an active community of users, many of whom organize and attend face-to-face meetings both virtually and at venues all over the world (“Meetups” or "Study Groups"). While The Odin Project is generally supportive of Meetups and may provide branded promotional materials to help organizers promote their Meetups, The Odin Project does not sponsor, oversee or in any way control such Meetups. You hereby acknowledge and agree that your attendance and participation in any Meetups is entirely at your own risk and The Odin Project does not bear any responsibility or liability for the actions of any The Odin Project users or any third parties who organize, attend or are otherwise involved in any Meetups. 
+The Odin Project has an active community of users, many of whom organize and attend face-to-face meetings both virtually and at venues all over the world (“Meetups” or "Study Groups"). While The Odin Project is generally supportive of Meetups and may provide branded promotional materials to help organizers promote their Meetups, The Odin Project does not sponsor, oversee or in any way control such Meetups. You hereby acknowledge and agree that your attendance and participation in any Meetups is entirely at your own risk and The Odin Project does not bear any responsibility or liability for the actions of any The Odin Project users or any third parties who organize, attend or are otherwise involved in any Meetups.
 
 ### Competitions and Other Promotions
 
@@ -199,13 +199,13 @@ The Odin Project reserves the right at any time and for any reason to suspend, d
 
 You hereby agree that The Odin Project and its subsidiaries, affiliates, successors, assigns, employees, agents, directors, officers and shareholders shall not be liable to you or to any third party for any changes or modifications to the Website and/or any Services that The Odin Project may wish to make from time to time, or for any decision to suspend, discontinue or terminate the Website, the Services or any part or parts thereof, or your possibility to use or access the same from or within any territory or territories.
 
-The Odin Project may change the features of any type of account, may withdraw or, or introduce new features, products or types of account at any time and for any reason, from time to time. 
+The Odin Project may change the features of any type of account, may withdraw or, or introduce new features, products or types of account at any time and for any reason, from time to time.
 
 ### Termination
 
-You may terminate this Agreement at any time by sending notice to contact@theodinproject.com confirming such termination, by removing all of Your Content from your account, by deleting your account and thereafter by ceasing to use the Platform.
+You may terminate this Agreement at any time by sending notice to theodinprojectcontact@gmail.com confirming such termination, by removing all of Your Content from your account, by deleting your account and thereafter by ceasing to use the Platform.
 
-The Odin Project may suspend your access to the Platform and/or terminate this Agreement at any time if (i) you are deemed to be a Repeat Infringer as described above; (ii) you are in breach of any of the material provision of these Terms of Use; (iii) The Odin Project elects at its discretion to cease providing access to the Platform in the jurisdiction where you reside or from where you are attempting to access the Platform, or (iv) in other reasonable circumstances as determined by The Odin Project at its discretion. 
+The Odin Project may suspend your access to the Platform and/or terminate this Agreement at any time if (i) you are deemed to be a Repeat Infringer as described above; (ii) you are in breach of any of the material provision of these Terms of Use; (iii) The Odin Project elects at its discretion to cease providing access to the Platform in the jurisdiction where you reside or from where you are attempting to access the Platform, or (iv) in other reasonable circumstances as determined by The Odin Project at its discretion.
 
 Once your account has been terminated, all Content residing in your account or pertaining to activity from your account will be irretrievably deleted by The Odin Project, except to the extent that we are obliged or permitted to retain such content, data or information for a certain period of time in accordance with applicable laws and regulations and/or to protect our legitimate business interests. You are advised to save or back up any material that you have uploaded to your account before terminating your account, as The Odin Project assumes no liability for any material that is irretrievably deleted following any termination of your account. The Odin Project is not able to provide you with any .csv or other similar file of data relating to activity associated with your account, whether before or after termination or cancellation. This data is provided and is accessible only for viewing via your account page on the Website for as long as your account is active.
 
@@ -213,11 +213,11 @@ If you wish to delete your account, you will need to do so from the Account page
 
 ### Assignment to Third Parties
 
-The Odin Project may assign its rights and (where permissible by law) its obligations under this Agreement, in whole or in part, to any third party at any time without notice, including without limitation, to any person or entity acquiring all or substantially all of the assets or business of The Odin Project. You may not assign this Agreement or the rights and duties hereunder, in whole or in part, to any third party without the prior written consent of The Odin Project. 
+The Odin Project may assign its rights and (where permissible by law) its obligations under this Agreement, in whole or in part, to any third party at any time without notice, including without limitation, to any person or entity acquiring all or substantially all of the assets or business of The Odin Project. You may not assign this Agreement or the rights and duties hereunder, in whole or in part, to any third party without the prior written consent of The Odin Project.
 
 ### Severability
 
-Should one or more provisions of these Terms of Use be found to be unlawful, void or unenforceable, such provision(s) shall be deemed severable and will not affect the validity and/or enforceability of the remaining provisions of the Terms of Use, which will remain in full force and effect. 
+Should one or more provisions of these Terms of Use be found to be unlawful, void or unenforceable, such provision(s) shall be deemed severable and will not affect the validity and/or enforceability of the remaining provisions of the Terms of Use, which will remain in full force and effect.
 
 ### Entire Agreement
 
@@ -248,7 +248,7 @@ Additionally, you agree that you will not:
 Take any action that imposes or may impose (to be determined in our sole discretion) an unreasonable or disproportionately large load on our infrastructure; or
 Interfere or attempt to interfere with the proper working of our sites, services, or tools, or any activities conducted on or with our sites, services, or tools.
 
-### No Waiver 
+### No Waiver
 
 If we fail to enforce any of this User Agreement, it will not be considered a waiver. Unless otherwise replaced by an updated User Agreement, any amendment or waiver of this User Agreement must be in writing and signed by us.
 

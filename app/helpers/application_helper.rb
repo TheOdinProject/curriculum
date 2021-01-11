@@ -119,12 +119,12 @@ module ApplicationHelper
         answer:
           "<p>The Odin Project is licensed under two pieces: the curriculum and the main website.  The main website is a fully open-source project <a href='https://github.com/TheOdinProject/theodinproject/blob/master/license.txt'>under an MIT license</a>, so you can use the code for whatever you want.  The curriculum is currently licensed under a <a href='https://github.com/TheOdinProject/curriculum/blob/master/license.md'>Creative Commons license</a> which restricts it to noncommercial use without prior authorization.</p>
           <br />
-          <p>This means you can use The Odin Project’s curriculum to teach at your club, meetup, or with your friends (In fact, we’d love it if you did that and told us how it went!). You can’t, however, use it to start a bootcamp without having a conversation first.  Please reach out with any questions to <a href='mailto: contact@theodinproject.com'>contact@theodinproject.com</a></p>"
+          <p>This means you can use The Odin Project’s curriculum to teach at your club, meetup, or with your friends (In fact, we’d love it if you did that and told us how it went!). You can’t, however, use it to start a bootcamp without having a conversation first.  Please reach out with any questions to <a href='mailto: theodinprojectcontact@gmail.com'>theodinprojectcontact@gmail.com</a></p>"
       },
       {
         question: 'How can I get in touch?',
         answer:
-        "<p>If you have questions about The Odin Project itself, feel free to <a href='mailto:contact@theodinproject.com'>contact us</a>.  There is also a friendly Odin community in our <a target='_blank' rel='noreferrer' href=#{chat_link}>Discord chat rooms.</a></p>"
+        "<p>If you have questions about The Odin Project itself, feel free to <a href='mailto:theodinprojectcontact@gmail.com'>contact us</a>.  There is also a friendly Odin community in our <a target='_blank' rel='noreferrer' href=#{chat_link}>Discord chat rooms.</a></p>"
       }
     ]
   end
