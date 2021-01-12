@@ -11,7 +11,7 @@ The last thing you'll do is a final project which integrates everything you've l
 
 ### Format
 
-There is a lot to cover, but this course has been course been broken up into bite-sized lessons and their accompanying projects. These projects will give you a chance to apply what you have learned and to show what you are capable of. After a few of them, you'll really start getting the hang of things.  
+There is a lot to cover, but this course has been broken up into bite-sized lessons and their accompanying projects. These projects will give you a chance to apply what you have learned and to show what you are capable of. After a few of them, you'll really start getting the hang of things.  
 
 ### In each lesson:
 
