@@ -81,7 +81,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
 
 1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
-2. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically. `#form_tag` is soft-depracated as stated in the current Rails Guide. You can find the older documentation [here](https://guides.rubyonrails.org/v5.2/form_helpers.html).
+2. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically. `#form_tag` is soft-deprecated as stated in the current Rails Guide. You can find the older documentation [here](https://guides.rubyonrails.org/v5.2/form_helpers.html).
 3. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`.
 4. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 5. You've just finished the first step.
@@ -92,9 +92,9 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 
 1. Modify your `#new` action in the controller to instantiate a blank User object and store it in an instance variable called `@user`.
 2. Comment out your `#form_tag` form in the `app/views/users/new.html.erb` view (so now you should have TWO commented out form examples).
-3. Rebuild the form using `#form_for` and the `@user` from your controller.
+3. Rebuild the form using `#form_for` and the `@user` from your controller.  You'll need to switch your controller's `#create` method again to accept the nested `:user` hash from `params`.
 4. Play with the `#input` method options -- add a default placeholder (like "example@example.com" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated.  Some of these things you may need to Google for, but check out the [`#form_for` Rails API docs](http://apidock.com/rails/ActionView/Helpers/FormHelper/form_for)
-5. Test it out.  You'll need to switch your controller's `#create` method again to accept the nested `:user` hash from `params`.
+5. Test it out.
 
 #### Editing
 
