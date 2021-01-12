@@ -27,7 +27,7 @@ To understand what problem websockets solve let us consider an example of where 
 
 Let us imagine we've built an awesome new social media app. Chewbooka. A place to be our true selves and talk all things Chewbacca. One key feature for our app, to make us all billions, is that when someone creates a new post extolling the virtues of Peter Mayhew, that all the other users connected to our app receive that post without having to manually refresh for updates.
 
-We'll be rich! But, in a time before webosckets, how are we going to solve it.
+We'll be rich! But, in a time before websockets, how are we going to solve it?
 
 We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are we could notify users of the new post and update their view and if there wasn't we can just return an empty response. This still involves opening and closing a request on the sever. This was a technique know as polling and was one of the first ways websites tried to bring server updates to the client. The downside to this was one of efficiency. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
@@ -298,7 +298,7 @@ It is possible for a client to send a message to the server and for the server t
 
 If you want to send dynamic parameters from the client when setting up the server care needs to be taken. You can only get params once the DOM has rendered and it's common to therefore wrap code in a `turbolinks:load` event listener. Because of this if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Actioncable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this [Stack Overflow](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages) post where others have experienced this behaviour.
 
-For testing and development Actioncable uses an async adapter to work but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
+For testing and development Actioncable uses an async adapter to work, but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
 
 The connection only remains active while the http request remains unbroken. Refreshing the browser or navigating to a new page sever the connection and then will look to establish it again on reconnection.
 
@@ -306,6 +306,7 @@ The connection only remains active while the http request remains unbroken. Refr
 
 <div class="lesson-content__panel" markdown="1">
   1. Make sure you've read through all of the [Rails Guides on Actioncable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
+  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Actioncable to a project
 </div>
 
 ### Conclusion

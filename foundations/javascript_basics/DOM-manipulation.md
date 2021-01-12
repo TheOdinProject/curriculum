@@ -487,7 +487,6 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 * [Event Capture, Propagation and Bubbling video by Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE)
 * [DOM Enlightenment](http://domenlightenment.com/)
-* [Dynamic style - manipulating CSS with JavaScript](https://www.w3.org/wiki/Dynamic_style_-_manipulating_CSS_with_JavaScript)
 * [JavaScript30](https://JavaScript30.com)
 * [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
 * [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.

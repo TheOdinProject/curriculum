@@ -51,14 +51,14 @@ As mentioned earlier, unlike the Asset Pipeline which requires everything to be 
 As an example we may have some code we use to manage a contact form submission. We don't want it loaded on every page. So in the `packs` directory we create a `contact_form.js` pack file. Then in our form view we can place the following line at the bottom of the page...
 
 ~~~ruby
-<%= javascript_include_tag "contact_form", "data-turbolinks-track" => "reload" %>
+<%= javascript_pack_tag "contact_form", "data-turbolinks-track" => "reload" %>
 ~~~
 
 You may have already wondered what makes a pack file different from a regular Javascript file. Why do I keep referring to them as pack files?
 
 There's no real difference, pack files are just Javascript files. The difference really is in their intended use. A pack file should really just load in the Javascript code from elsewhere in your Javascript directory. If you take a look in your `application.js` pack file from the rails installation car project you can see it's only job is to require files from elsewhere and initialise them if necessary.
 
-Going back to our contact_form pack file we might create a directory such as `app/javascript/contact_form/` which contains the actual code we use to manage our contact form and then in our pack file we simple `import` or `require` a file such as `../contact_form/whatever_file_we_need`. Note we use `../` because from our pack directory we will need to move one directory up to find our `contact_form` directory.
+Going back to our contact_form pack file we might create a directory such as `app/javascript/contact_form/` which contains the actual code we use to manage our contact form and then in our pack file we simply `import` or `require` a file such as `../contact_form/whatever_file_we_need`. Note we use `../` because from our pack directory we will need to move one directory up to find our `contact_form` directory.
 
 #### Installing libraries
 
@@ -74,9 +74,9 @@ And it would take care of the rest for us and update the package.json file. Just
 yarn add --dev jest
 ~~~
 
-Packages are installed to the `node_modules` folder. Open that at your own peril as it's known for being a bit of a black hole for code. Due to the size it can take it's by default excluded from being checked into by git and instead if you clone a project you just use the package.json and yarn to recreate the node_modules folder.
+Packages are installed to the `node_modules` folder. Open that at your own peril as it's known for being a bit of a black hole for code. Due to the size it can take, the node_modules folder is by default excluded from being checked into by git. Instead, if you clone a project you just use the package.json and yarn to recreate the node_modules folder.
 
-Once you have installed a library then you need to reference it in your pack file. Webpack references the `node_modules` folder as a top level directory to search for anything referenced so you aren't stuck trying to work your way backwards from the pack file when requiring a library with lines like `require ../../node_modules/etc` and instead you can just reference the library starting with it's own folder in node_modules.
+Once you have installed a library then you need to reference it in your pack file. Webpack references the `node_modules` folder as a top level directory to search for anything referenced so you aren't stuck trying to work your way backwards from the pack file when requiring a library with lines like `require ../../node_modules/etc` and instead you can just reference the library starting with its own folder in node_modules.
 
 ~~~javascript
 require 'bootstrap/bootstrap'
@@ -97,9 +97,9 @@ If you do want to do this yourself then we would recommend you first take a deep
 
 #### Dependency Graph
 
-One key thing to note when you're using Webpacker is how it works out what code to load. With the Asset Pipeline because all code was required to be loaded in the `application.js` file, Rails could build just one dependency graph of all the code and make sure no code was included twice. A good example of this might be if you used jquery in your application and then used a third party library that also uses jquery and was listed as one of its dependencies, then the Asset Pipeline would ensure it was only loaded once so you didn't bloat your code.
+One key thing to note when you're using Webpacker is how it works out what code to load. With the Asset Pipeline, because all code was required to be loaded in the `application.js` file, Rails could build just one dependency graph of all the code and make sure no code was included twice. A good example of this might be if you used jquery in your application and then used a third party library that also uses jquery and was listed as one of its dependencies. The Asset Pipeline would then ensure it was only loaded once to prevent bloated code.
 
-With Webpack it builds a dependency graph for each pack file so it's possible, if different pack files both require the same library, to bundle the same code twice into the different packs which would then make the overall download size for the client to download everything it needs much larger. There are several ways to ensure you don't do this but the easiest way, at least when starting out, is to only use the default `application.js` pack file. If you only have one pack file where all the code you need is included then the dependency graph will be built from that one file and Webpack will ensure it optimises the code required.
+Webpack builds a dependency graph for each pack file so it's possible, if different pack files both require the same library, to bundle the same code twice into the different packs. This would make the client's necessary download size much larger overall. There are several ways to ensure you don't do this but the easiest way, at least when starting out, is to only use the default `application.js` pack file. If you only have one pack file where all the code you need is included, then the dependency graph will be built from that one file and Webpack will ensure it optimises the code required.
 
 ### Assignment
 There isn't a huge amount of reading to do here. But a couple of links just to get you a better understanding of Webpack.

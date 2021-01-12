@@ -29,8 +29,8 @@ An array can also be created by calling the `Array.new` method. When you call th
 ~~~ruby
 Array.new               #=> []
 Array.new(3)            #=> [nil, nil, nil]
-Array.new(3, "Hello")   #=> ["Hello", "Hello", "Hello"]
-Array.new(3, Array.new) #=> [[], [], []]
+Array.new(3, 7)         #=> [7, 7, 7]
+Array.new(3, true)      #=> [true, true, true]
 ~~~
 
 ### Accessing Elements

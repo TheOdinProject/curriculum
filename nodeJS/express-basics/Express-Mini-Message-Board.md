@@ -67,7 +67,7 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
      ~~~bash  
      heroku create
-     git push heroku master
+     git push heroku main
      ~~~
 
 </div>

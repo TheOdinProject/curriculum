@@ -52,7 +52,7 @@ underscore (often called *snake_case*).
 Open `lib/event_manager.rb` in your text editor and add the line:
 
 ~~~ruby
-puts "EventManager Initialized!"
+puts 'EventManager Initialized!'
 ~~~
 
 Validate that ruby is installed correctly and you have created the file correctly by running it from the root of your `event_manager` directory:
@@ -130,9 +130,9 @@ you to perform a large number of operations on files on your filesystem. The
 most straightforward is `File.read`.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = File.read "event_attendees.csv"
+contents = File.read('event_attendees.csv')
 puts contents
 ~~~
 
@@ -154,9 +154,9 @@ that would allow us to manipulate this large string. Using `File.readlines` will
 save each line as a separate item in an array.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   puts line
 end
@@ -210,9 +210,9 @@ will break the string apart along each space `" "` character. Therefore, we need
 specify the comma `","` character to separate the columns.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   columns = line.split(",")
   p columns
@@ -225,9 +225,9 @@ Remember, arrays start counting at 0 instead of 1, so `columns[0]` is how we
 would access the array's first element, and `columns[2]` will give us the third.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   columns = line.split(",")
   name = columns[2]
@@ -251,9 +251,9 @@ One way to solve this problem would be to skip the line when it exactly matches
 our current header row.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   next if line == " ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode\n"
   columns = line.split(",")
@@ -272,9 +272,9 @@ A second way to solve this problem is for us to track the index of the current
 line.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 row_index = 0
 lines.each do |line|
   row_index = row_index + 1
@@ -289,9 +289,9 @@ This is a such a common operation that Array defines
 [Array#each_with_index](http://rubydoc.info/stdlib/core/Enumerable#each_with_index-instance_method).
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each_with_index do |line,index|
   next if index == 0
   columns = line.split(",")
@@ -347,10 +347,10 @@ slower start up times.
 You can browse the many libraries available through the [documentation](http://rubydoc.info/stdlib).
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true
+contents = CSV.open('event_attendees.csv', headers: true)
 contents.each do |row|
   name = row[2]
   puts name
@@ -384,10 +384,15 @@ easier to remember. The header "first_Name" will be converted to `:first_name`
 and "HomePhone" will be converted to `:homephone`.
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true, 
+  header_converters: :symbol
+)
+
 contents.each do |row|
   name = row[:first_name]
   puts name
@@ -399,10 +404,15 @@ end
 Accessing the zipcode is very easy using the new header name, `:zipcode`.
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
+
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
@@ -454,10 +464,15 @@ Before we start to explore a solution with Ruby code it is often helpful to
 express what we are hoping to accomplish in English words.
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv', 
+  headers: true,
+  header_converters: :symbol
+)
+
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
@@ -502,16 +517,20 @@ The following solution employs:
 ~~~ruby
 require 'csv'
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv', 
+  headers: true, 
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
 
   if zipcode.length < 5
-    zipcode = zipcode.rjust 5, "0"
+    zipcode = zipcode.rjust(5, '0')
   elsif zipcode.length > 5
     zipcode = zipcode[0..4]
   end
@@ -555,18 +574,22 @@ check for `nil?`.
 ~~~ruby
 require 'csv'
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
 
   if zipcode.nil?
-    zipcode = "00000"
+    zipcode = '00000'
   elsif zipcode.length < 5
-    zipcode = zipcode.rjust 5, "0"
+    zipcode = zipcode.rjust(5, '0')
   elsif zipcode.length > 5
     zipcode = zipcode[0..4]
   end
@@ -617,9 +640,9 @@ require 'csv'
 
 def clean_zipcode(zipcode)
   if zipcode.nil?
-    "00000"
+    '00000'
   elsif zipcode.length < 5
-    zipcode.rjust(5,"0")
+    zipcode.rjust(5, '0')
   elsif zipcode.length > 5
     zipcode[0..4]
   else
@@ -627,9 +650,13 @@ def clean_zipcode(zipcode)
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -668,7 +695,7 @@ it performs no work. This means we can apply it in both cases, as it will have t
 same intended effect.
 
 ~~~ruby
-$ "123456".rjust 5, "0"
+$ "123456".rjust(5, '0')
 => "123456"
 ~~~
 
@@ -688,7 +715,7 @@ Combining all of these steps together, we can write a more succinct
 
 ~~~ruby
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 ~~~
 
@@ -743,7 +770,7 @@ Successfully installed google-api-client-0.15.0
 1 gem installed
 ~~~
 
-If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
+If you receive a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
 
 ### Showing All Legislators in a Zip Code
 
@@ -783,12 +810,16 @@ civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
 civic_info.key = 'AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw'
 
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -796,9 +827,10 @@ contents.each do |row|
   zipcode = clean_zipcode(row[:zipcode])
 
   legislators = civic_info.representative_info_by_address(
-                            address: zipcode,
-                            levels: 'country',
-                            roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+    address: zipcode,
+    levels: 'country',
+    roles: ['legislatorUpperBody', 'legislatorLowerBody']
+  )
   legislators = legislators.officials
 
   puts "#{name} #{zipcode} #{legislators}"
@@ -823,12 +855,16 @@ civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
 civic_info.key = 'AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw'
 
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -837,12 +873,13 @@ contents.each do |row|
 
   begin
     legislators = civic_info.representative_info_by_address(
-                              address: zipcode,
-                              levels: 'country',
-                              roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+      address: zipcode,
+      levels: 'country',
+      roles: ['legislatorUpperBody', 'legislatorLowerBody']
+    )
     legislators = legislators.officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 
   puts "#{name} #{zipcode} #{legislators}"
@@ -905,16 +942,17 @@ contents.each do |row|
 
   begin
     legislators = civic_info.representative_info_by_address(
-                                address: zipcode,
-                                levels: 'country',
-                                roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+      address: zipcode,
+      levels: 'country',
+      roles: ['legislatorUpperBody', 'legislatorLowerBody']
+    )
     legislators = legislators.officials
 
     legislator_names = legislators.map(&:name)
 
     legislators_string = legislator_names.join(", ")
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 
   puts "#{name} #{zipcode} #{legislators_string}"
@@ -956,7 +994,7 @@ require 'google/apis/civicinfo_v2'
 
 
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 
 def legislators_by_zipcode(zip)
@@ -965,20 +1003,25 @@ def legislators_by_zipcode(zip)
 
   begin
     legislators = civic_info.representative_info_by_address(
-                                  address: zip,
-                                  levels: 'country',
-                                  roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+      address: zip,
+      levels: 'country',
+      roles: ['legislatorUpperBody', 'legislatorLowerBody']
+    )
     legislators = legislators.officials
     legislator_names = legislators.map(&:name)
     legislator_names.join(", ")
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -1073,7 +1116,7 @@ the template using the same File tools we used at the beginning of the exercise.
 Within our application we will load our template:
 
 ~~~ruby
-template_letter = File.read "form_letter.html"
+template_letter = File.read('form_letter.html')
 ~~~
 
 It is important to define the `form_letter.html` file in the root of project
@@ -1104,7 +1147,7 @@ change the original template, they'd all have the same name! By making a copy
 and then changing the copy, we're sure everyone's name is unique.
 
 ~~~ruby
-template_letter = File.read "form_letter.html"
+template_letter = File.read('form_letter.html')
 
 contents.each do |row|
   name = row[:first_name]
@@ -1113,8 +1156,8 @@ contents.each do |row|
 
   legislators = legislators_by_zipcode(zipcode)
 
-  personal_letter = template_letter.gsub('FIRST_NAME',name)
-  personal_letter.gsub!('LEGISLATORS',legislators)
+  personal_letter = template_letter.gsub('FIRST_NAME', name)
+  personal_letter.gsub!('LEGISLATORS', legislators)
 
   puts personal_letter
 end
@@ -1291,15 +1334,19 @@ def legislators_by_zipcode(zip)
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
-template_letter = File.read "form_letter.erb"
+template_letter = File.read('form_letter.erb')
 erb_template = ERB.new template_letter
 
 contents.each do |row|
@@ -1327,7 +1374,7 @@ contents as a string and provide them as a parameter when creating the new ERB
 template.
 
 ~~~ruby
-template_letter = File.read "form_letter.erb"
+template_letter = File.read('form_letter.erb')
 erb_template = ERB.new template_letter
 ~~~
 
@@ -1345,7 +1392,7 @@ def legislators_by_zipcode(zip)
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 ~~~
@@ -1374,11 +1421,11 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  Dir.mkdir("output") unless Dir.exist? "output"
+  Dir.mkdir('output') unless Dir.exists?('output')
 
   filename = "output/thanks_#{id}.html"
 
-  File.open(filename,'w') do |file|
+  File.open(filename, 'w') do |file|
     file.puts form_letter
   end
 
@@ -1396,7 +1443,7 @@ We make a directory named "output" if a directory named "output" does not
 already exist.
 
 ~~~ruby
-Dir.mkdir("output") unless Dir.exists? "output"
+Dir.mkdir('output') unless Dir.exists?('output')
 ~~~
 
 * Save each form letter to a file based on the id of the attendee
@@ -1438,25 +1485,29 @@ def legislators_by_zipcode(zip)
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 
 def save_thank_you_letter(id,form_letter)
-  Dir.mkdir("output") unless Dir.exists?("output")
+  Dir.mkdir('output') unless Dir.exists?('output')
 
   filename = "output/thanks_#{id}.html"
 
-  File.open(filename,'w') do |file|
+  File.open(filename, 'w') do |file|
     file.puts form_letter
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
-template_letter = File.read "form_letter.erb"
+template_letter = File.read('form_letter.erb')
 erb_template = ERB.new template_letter
 
 contents.each do |row|
