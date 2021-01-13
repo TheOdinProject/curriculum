@@ -16,6 +16,7 @@ const LessonPreview = () => {
   const [content, setContent] = useState('');
   const [convertedContent, setConvertedContent] = useState('');
   const [copied, setCopied] = useState(false);
+  const [link, setLink] = useState(window.location.href);
 
   const fetchLessonPreview = async () => {
     const response = await axios.post('/lessons/preview', { content });
@@ -26,8 +27,6 @@ const LessonPreview = () => {
   };
 
   const handleClick = () => {
-    const encodedContent = encodeContent(content);
-    const link = generateLink(encodedContent);
     navigator.clipboard.writeText(link).then(() => setCopied(true));
   };
 
@@ -48,6 +47,12 @@ const LessonPreview = () => {
       setTimeout(() => setCopied(false), 4000);
     }
   }, [copied]);
+
+  useEffect(() => {
+    const encodedContent = encodeContent(content);
+    const generatedLink = generateLink(encodedContent);
+    setLink(generatedLink);
+  }, [content]);
 
   return (
     <Tabs>
