@@ -172,7 +172,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#option-tags-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
+  1. Read the [Rails Guide on Forms](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
   2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 10, which covers accepting nested form data.
   3. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 8, which covers the parameter conventions for nested forms.
   4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the whitelisting of nested attributes in Rails 4.
