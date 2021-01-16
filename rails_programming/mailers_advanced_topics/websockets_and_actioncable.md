@@ -78,7 +78,7 @@ end
 
 You use the class above to authorize the incoming connection. You can use any logic you want to uniquely identify a user. If you use devise or a similar gem and only want logged in users to be authorised then you can use that to verify the incoming connection.
 
-You can see an example of how you would do that in the Rails Guides section on [Action Cable connections](https://guides.rubyonrails.org/action_cable_overview.html#connection-setup). Here they look for an encryped cookie with user_id to verify a connection so would assumed you set a cookie in this way. As you may know devise does set a cookie in the session. However because Action Cable operates on its own separate server for WebSockets, it doesn't have access to the session. Instead we can use the warden environment variable object. It does this as Devise is built on top of [Warden](https://github.com/wardencommunity/warden/wiki) and sets the user on the warden middleware object.
+You can see an example of how you would do that in the Rails Guides section on [Action Cable connections](https://guides.rubyonrails.org/action_cable_overview.html#connection-setup). Here they look for an encrypted cookie with user_id to verify a connection so would assume you set a cookie in this way. As you may know devise does set a cookie in the session. However because Action Cable operates on its own separate server for WebSockets, it doesn't have access to the session. Instead we can use the warden environment variable object. It does this as Devise is built on top of [Warden](https://github.com/wardencommunity/warden/wiki) and sets the user on the warden middleware object.
 
 So if you are using devise a neat way to verify a connection is to use the following in your `find_verified_user` method
 
