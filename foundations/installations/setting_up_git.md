@@ -157,7 +157,7 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/hvqVr6d) to ask for help.
+Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Fear not the part about not being provided shell access. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/hvqVr6d) to ask for help.
 
 **Note**: Do not include the `$` when typing in the commands given in the article. 
 
