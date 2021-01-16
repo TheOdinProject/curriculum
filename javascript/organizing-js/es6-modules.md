@@ -54,6 +54,8 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 - browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
+- If you would like to further understand webpack before moving on, check out [__this YouTube playlist__ ](https://youtube.com/playlist?list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8) by Colt Steele.
+
 ### ES6 Modules (finally!)
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
