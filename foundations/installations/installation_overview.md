@@ -16,7 +16,7 @@ In the next few lessons, we will walk through these installation steps together:
 * installing a code editor;
 * creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using);
 
-At the end of this section, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
+At the end of the next lesson, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
 * Examine the terminal output for the actual error.
 * Google, Google, Google.
