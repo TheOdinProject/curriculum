@@ -17,22 +17,23 @@ const LessonPreview = () => {
   const [convertedContent, setConvertedContent] = useState('');
   const [copied, setCopied] = useState(false);
   const [link, setLink] = useState(window.location.href);
+  const [onPreviewTab, setOnPreviewTab] = useState(false);
 
   const fetchLessonPreview = async () => {
+    if (onPreviewTab) return;
+
     const response = await axios.post('/lessons/preview', { content });
 
     if (response.status === 200) {
       setConvertedContent(response.data.content);
+      setOnPreviewTab(true);
+      Prism.highlightAll();
     }
   };
 
   const handleClick = () => {
     navigator.clipboard.writeText(link).then(() => setCopied(true));
   };
-
-  useEffect(() => {
-    Prism.highlightAll();
-  }, [convertedContent]);
 
   useEffect(() => {
     const query = window.location.search;
@@ -57,7 +58,7 @@ const LessonPreview = () => {
   return (
     <Tabs>
       <TabList>
-        <Tab>Write</Tab>
+        <Tab onClick={() => setOnPreviewTab(false)}>Write</Tab>
         <Tab onClick={fetchLessonPreview}>Preview</Tab>
       </TabList>
 
