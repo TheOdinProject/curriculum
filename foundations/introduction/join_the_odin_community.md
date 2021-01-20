@@ -43,6 +43,9 @@ If the puzzle still can't be solved, push your project to GitHub or put your cod
 
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
+#### An Important Read
+The article [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) has really great tips on how to put together an effective question. An effective question makes it easy for us to help you. The strategies outlined there invite you to think deeply about your problem. Sometimes, as a happy accident, you may even lead yourself to the answer as you reflect on the matter. But asking good questions isn't just about us helping you. Great questions make you a great teammate. A future co-worker or manager does not want to spend time poking at your code to learn about your problem. You'll be expected to bring thoughtful and fully developed questions.
+
 ### Formatting your questions
 
 Asking your questions in a readable format helps everyone debug them better. Here are some ways to go about that:
