@@ -33,7 +33,7 @@ npm install express express-session mongoose passport passport-local ejs
 
 Next, let's create our `app.js`:
 
-**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson, you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
+**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
 
 ~~~javascript
 /////// app.js
@@ -257,7 +257,7 @@ and then edit your view to make use of that object like this:
 </html>
 ~~~
 
-So, this code checks to see if there is a user-defined... if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
+So, this code checks to see if there is a user defined... if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
 
 As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
