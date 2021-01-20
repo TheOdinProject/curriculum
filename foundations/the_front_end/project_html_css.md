@@ -84,7 +84,7 @@ Inside your project folder, create your index.html file
 3. Next do the navbar across the top, first building the content and then trying to position it. Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
 4. Finally, put in the footer, which should be very similar to the top navbar.
 5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
-6. Push your project to GitHub using the instructions above!
+6. Push your project to GitHub using the instructions above! Then consider sharing your project with the community by submitting a link to your repository in the Solutions section below.
 
 #### Difficult Version (optional): Build the [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
