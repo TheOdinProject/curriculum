@@ -33,7 +33,7 @@ npm install express express-session mongoose passport passport-local ejs
 
 Next, let's create our `app.js`:
 
-**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
+**IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson, you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
 
 ~~~javascript
 /////// app.js
