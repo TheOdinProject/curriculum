@@ -110,7 +110,7 @@ and then in `src/index.js` import and use your new function.
 import myName from './myName';
 
 function component() {
-  var element = document.createElement('div');
+  const element = document.createElement('div');
 
   // use your function!
   element.innerHTML = myName('Cody');
