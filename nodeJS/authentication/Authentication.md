@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:
 
 We're going to be using another Mongo database, so before we begin login to your mongo provider and create a new database and save it's url string somewhere handy.
 
-To begin, let's set up a very minimal express app with a single MongoDb model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
+To begin, let's set up a very minimal express app with a single MongoDB model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
 
 ~~~
 npm install express express-session mongoose passport passport-local ejs
