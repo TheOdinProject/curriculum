@@ -23,7 +23,7 @@
     "react_ujs": "^2.6.1",
     "react-dom": "^16.14.0",
     "react-flip-move": "^3.0.4",
-    "react-hook-form": "^6.13.1",
+    "react-hook-form": "^6.14.2",
     "react-scrolllock": "^5.0.1",
     "react-tabs": "^3.1.2",
     "regenerator-runtime": "^0.13.7",
