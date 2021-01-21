@@ -64,7 +64,7 @@ Ruby is a language that aims to be natural to read and easy to write. Remember t
 
 Naming variables clearly will pay dividends when you review your code months after you've written it, when you can no longer remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods:
 
-> Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+> Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.
 
 The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.
 
