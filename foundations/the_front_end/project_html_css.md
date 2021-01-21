@@ -25,12 +25,11 @@ If you do not know how to set up a repository, follow the instructions found in 
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
-3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH)
+3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH).
 
-- [Setting up SSH on GitHub](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github).
+   - [Setting up SSH on GitHub](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github).
 
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
-5. If you want to share your solution, include a link in the markdown file included at the top of the Student Solutions section.
 
 If you are having trouble:
 
@@ -85,7 +84,7 @@ Inside your project folder, create your index.html file
 3. Next do the navbar across the top, first building the content and then trying to position it. Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
 4. Finally, put in the footer, which should be very similar to the top navbar.
 5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
-6. Push your project to GitHub using the instructions above!
+6. Push your project to GitHub using the instructions above! Then consider sharing your project with the community by submitting a link to your repository in the Solutions section below.
 
 #### Difficult Version (optional): Build the [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
