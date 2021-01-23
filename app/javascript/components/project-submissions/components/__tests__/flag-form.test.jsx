@@ -17,7 +17,7 @@ describe('FlagForm', () => {
         <FlagForm
           userId={null}
           onSubmit={onSubmit}
-          submission={{}}
+          submission={{ id: 47 }}
         />
       ));
 
@@ -43,7 +43,7 @@ describe('FlagForm', () => {
         <FlagForm
           userId={43}
           onSubmit={onSubmit}
-          submission={{}}
+          submission={{ id: 47 }}
         />,
       );
 
@@ -67,7 +67,7 @@ describe('FlagForm', () => {
         <FlagForm
           userId={43}
           onSubmit={onSubmit}
-          submission={{}}
+          submission={{ id: 47 }}
         />,
       );
 
@@ -95,7 +95,7 @@ describe('FlagForm', () => {
         <FlagForm
           userId={43}
           onSubmit={onSubmit}
-          submission={{}}
+          submission={{ id: 47 }}
         />,
       );
 
