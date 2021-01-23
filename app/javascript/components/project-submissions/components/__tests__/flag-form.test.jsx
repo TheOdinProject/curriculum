@@ -19,6 +19,46 @@ describe('FlagForm', () => {
     });
   });
 
+  describe('when the submission is empty', () => {
+    test('indicates that a field is required', async () => {
+      render(
+        <FlagForm
+          userId={43}
+          onSubmit={() => {}}
+          submission={{}}
+        />,
+      );
+
+      await act(async () => {
+        fireEvent.click(screen.getByRole('button', { name: /flag/i }));
+      });
+
+      expect(screen.getByText(/required/i)).toBeInTheDocument();
+    });
+  });
+
+  describe('when the submission is too short', () => {
+    test('displays an error message', async () => {
+      render(
+        <FlagForm
+          userId={43}
+          onSubmit={() => {}}
+          submission={{}}
+        />,
+      );
+
+      await act(async () => {
+        fireEvent.change(screen.getByRole('textbox'), {
+          target: { value: 'idk' },
+        });
+
+        fireEvent.click(screen.getByRole('button', { name: /flag/i }));
+      });
+
+      expect(screen.getByText(/Must be at least \d+ characters/)).toBeInTheDocument();
+    });
+  });
+
   describe('when submission is successful', () => {
     beforeEach(async () => {
       render(
