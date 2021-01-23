@@ -19,6 +19,18 @@ describe('FlagForm', () => {
     });
   });
 
+  test('has the submission id in a hidden input', () => {
+    render(
+      <FlagForm
+        userId={43}
+        onSubmit={() => {}}
+        submission={{ id: 47 }}
+      />,
+    );
+
+    expect(screen.getByDisplayValue('47', { hidden: true })).toBeInTheDocument();
+  });
+
   describe('when the submission is empty', () => {
     test('indicates that a field is required', async () => {
       render(
