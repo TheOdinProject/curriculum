@@ -37,7 +37,7 @@ describe('FlagForm', () => {
     expect(screen.getByDisplayValue('47', { hidden: true })).toBeInTheDocument();
   });
 
-  describe('when the submission is empty', () => {
+  describe('when the reason is empty', () => {
     beforeEach(async () => {
       render(
         <FlagForm
@@ -61,7 +61,7 @@ describe('FlagForm', () => {
     });
   });
 
-  describe('when the submission is too short', () => {
+  describe('when the reason is too short', () => {
     beforeEach(async () => {
       render(
         <FlagForm
@@ -89,7 +89,7 @@ describe('FlagForm', () => {
     });
   });
 
-  describe('when submission is successful', () => {
+  describe('when the reason is successfully submitted', () => {
     beforeEach(async () => {
       render(
         <FlagForm
