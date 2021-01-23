@@ -13,7 +13,6 @@ This section contains helpful links to other content. It isn't required, so cons
 - [(Video) React Native Tutorial for Beginners - Build a React Native App](https://youtu.be/0-S5a0eXPoc)
 - [(Video) JavaScript Pro Tips - Code This, NOT That](https://youtu.be/Mus_vwhTCq0)
 - [An Android development tutorial from CodeLearn](http://www.codelearn.org/android-tutorial)
-- [PAID training webcasts on pretty much anything](https://www.bitcast.io/)
 - [Giant meta-list of screencasts by Avdi Grimm](https://www.rubytapas.com/2016/06/30/new-list-programming-screencast-series/)
 - [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
 - [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
