@@ -5,12 +5,18 @@ import {
 import FlagForm from '../flag-form';
 
 describe('FlagForm', () => {
+  let onSubmit;
+
+  beforeEach(() => {
+    onSubmit = jest.fn();
+  });
+
   describe('when the user is not signed in', () => {
     test('prompts the user to sign in', () => {
       render((
         <FlagForm
           userId={null}
-          onSubmit={() => {}}
+          onSubmit={onSubmit}
           submission={{}}
         />
       ));
@@ -23,7 +29,7 @@ describe('FlagForm', () => {
     render(
       <FlagForm
         userId={43}
-        onSubmit={() => {}}
+        onSubmit={onSubmit}
         submission={{ id: 47 }}
       />,
     );
@@ -32,11 +38,11 @@ describe('FlagForm', () => {
   });
 
   describe('when the submission is empty', () => {
-    test('indicates that a field is required', async () => {
+    beforeEach(async () => {
       render(
         <FlagForm
           userId={43}
-          onSubmit={() => {}}
+          onSubmit={onSubmit}
           submission={{}}
         />,
       );
@@ -44,17 +50,23 @@ describe('FlagForm', () => {
       await act(async () => {
         fireEvent.click(screen.getByRole('button', { name: /flag/i }));
       });
+    });
 
+    test('indicates that a field is required', () => {
       expect(screen.getByText(/required/i)).toBeInTheDocument();
+    });
+
+    test('it does not call onSubmit', () => {
+      expect(onSubmit.mock.calls.length).toBe(0);
     });
   });
 
   describe('when the submission is too short', () => {
-    test('displays an error message', async () => {
+    beforeEach(async () => {
       render(
         <FlagForm
           userId={43}
-          onSubmit={() => {}}
+          onSubmit={onSubmit}
           submission={{}}
         />,
       );
@@ -66,8 +78,14 @@ describe('FlagForm', () => {
 
         fireEvent.click(screen.getByRole('button', { name: /flag/i }));
       });
+    });
 
+    test('displays an error message', () => {
       expect(screen.getByText(/Must be at least \d+ characters/)).toBeInTheDocument();
+    });
+
+    test('does not call onSubmit', () => {
+      expect(onSubmit.mock.calls.length).toBe(0);
     });
   });
 
@@ -76,7 +94,7 @@ describe('FlagForm', () => {
       render(
         <FlagForm
           userId={43}
-          onSubmit={() => {}}
+          onSubmit={onSubmit}
           submission={{}}
         />,
       );
@@ -96,6 +114,10 @@ describe('FlagForm', () => {
 
     test('shows intent to review', () => {
       expect(screen.getByText(/review/i)).toBeInTheDocument();
+    });
+
+    test('calls onSubmit', () => {
+      expect(onSubmit.mock.calls.length).toBe(1);
     });
   });
 });
