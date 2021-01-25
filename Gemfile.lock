@@ -107,7 +107,7 @@ GEM
     cancancan (3.2.1)
     climate_control (0.2.0)
     coderay (1.1.3)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.8)
     connection_pool (2.2.3)
     crack (0.4.5)
       rexml
@@ -428,7 +428,7 @@ GEM
       faraday (> 0.8, < 2.0)
     select2-rails (4.0.13)
     semantic_range (2.3.0)
-    shoulda-matchers (4.5.0)
+    shoulda-matchers (4.5.1)
       activesupport (>= 4.2.0)
     sidekiq (6.1.2)
       connection_pool (>= 2.2.2)
