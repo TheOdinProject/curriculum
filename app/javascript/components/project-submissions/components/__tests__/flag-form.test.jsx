@@ -56,8 +56,8 @@ describe('FlagForm', () => {
       expect(screen.getByText(/required/i)).toBeInTheDocument();
     });
 
-    test('it does not call onSubmit', () => {
-      expect(onSubmit.mock.calls.length).toBe(0);
+    test('does not call onSubmit', () => {
+      expect(onSubmit).not.toHaveBeenCalled();
     });
   });
 
@@ -85,7 +85,7 @@ describe('FlagForm', () => {
     });
 
     test('does not call onSubmit', () => {
-      expect(onSubmit.mock.calls.length).toBe(0);
+      expect(onSubmit).not.toHaveBeenCalled();
     });
   });
 
@@ -117,7 +117,7 @@ describe('FlagForm', () => {
     });
 
     test('calls onSubmit', () => {
-      expect(onSubmit.mock.calls.length).toBe(1);
+      expect(onSubmit).toHaveBeenCalledTimes(1);
     });
   });
 });
