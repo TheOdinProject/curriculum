@@ -56,7 +56,7 @@ describe('FlagForm', () => {
       expect(screen.getByText(/required/i)).toBeInTheDocument();
     });
 
-    test('does not call onSubmit', () => {
+    test('it does not call onSubmit', () => {
       expect(onSubmit.mock.calls.length).toBe(0);
     });
   });
@@ -118,42 +118,6 @@ describe('FlagForm', () => {
 
     test('calls onSubmit', () => {
       expect(onSubmit.mock.calls.length).toBe(1);
-    });
-  });
-
-  describe('when the submission has no id', () => {
-    beforeEach(() => {
-      render(
-        <FlagForm
-          userId={43}
-          onSubmit={onSubmit}
-          submission={{}}
-        />,
-      );
-    });
-
-    test('shows an error message', () => {
-      expect(
-        screen.getByText(/You tried to flag a submission that does not exist./),
-      ).toBeInTheDocument();
-    });
-  });
-
-  describe('when the submission has an id of null', () => {
-    beforeEach(() => {
-      render(
-        <FlagForm
-          userId={43}
-          onSubmit={onSubmit}
-          submission={{ id: null }}
-        />,
-      );
-    });
-
-    test('shows an error message', () => {
-      expect(
-        screen.getByText(/You tried to flag a submission that does not exist./),
-      ).toBeInTheDocument();
     });
   });
 });

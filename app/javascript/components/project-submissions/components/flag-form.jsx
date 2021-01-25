@@ -30,15 +30,6 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
     );
   }
 
-  if (submission.id === undefined || submission.id === null) {
-    return (
-      <div className="text-center">
-        <h1 className="bold">Submission missing!</h1>
-        <p>You tried to flag a submission that does not exist.</p>
-      </div>
-    );
-  }
-
   return (
     <div>
       <h1 className="text-center accent">Flag Submission</h1>
