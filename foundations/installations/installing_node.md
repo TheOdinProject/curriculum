@@ -1,7 +1,7 @@
 ### Introduction
 
 
-Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, which means that now you can run JavaScript code in the Backend(server) also.
+Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, which means that now you can run JavaScript code in the backend (server) also.
 There are some tools that is required for you to use Node in your system.
 
 We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change node versions and upgrade node.  There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in javascript environment.  It can be easy to confuse these two so read carefully!
