@@ -54,7 +54,7 @@
     font-weight: 600;
     font-size: 1.25rem;
 
-    @include media-breakpoint-between(md, lg) {
+    @include media-breakpoint-up(md) {
       margin-right: 20px;
       width: 150px;
     }
