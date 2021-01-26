@@ -6,5 +6,6 @@ FactoryBot.define do
     sequence(:position) { |n| n }
     url { '/lesson_course/lesson_title.md' }
     content { 'content' }
+    repo { 'curriculum' }
   end
 end
