@@ -1,5 +1,6 @@
 class RegistrationsController < Devise::RegistrationsController
   after_action :register_mailing_list, only: [:create]
+  after_action :send_welcome_email, only: [:create]
 
   protected
 
@@ -21,6 +22,12 @@ class RegistrationsController < Devise::RegistrationsController
       username: resource.username,
       signup_date: resource.created_at
     )
+  end
+
+  def send_welcome_email
+    return if ENV['STAGING'] && !resource.persisted?
+
+    WelcomeEmailJob.perform_async(resource.id)
   end
 
   def production?

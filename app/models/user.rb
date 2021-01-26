@@ -1,6 +1,5 @@
 class User < ApplicationRecord
   acts_as_voter
-  after_create :send_welcome_email
   after_create :enroll_in_foundations
 
   devise :database_authenticatable, :registerable, :recoverable,
@@ -49,12 +48,6 @@ class User < ApplicationRecord
 
   def last_lesson_completed
     lesson_completions.order(created_at: :asc).last
-  end
-
-  def send_welcome_email
-    return if ENV['STAGING']
-
-    UserMailer.send_welcome_email_to(self).deliver_now!
   end
 
   def enroll_in_foundations

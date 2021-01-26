@@ -9,6 +9,7 @@ executors:
           RAILS_ENV: test
           POSTGRES_USERNAME: postgres
           POSTGRES_PASSWORD: password
+      - image: circleci/redis:alpine
       - image: circleci/postgres:12.2-ram
         environment:
           POSTGRES_USER: postgres
