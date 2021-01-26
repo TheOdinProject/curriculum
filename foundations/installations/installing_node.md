@@ -52,6 +52,10 @@ In macOS 10.15 and above, the default shell is zsh and nvm will look for .zshrc 
 Simply run the following commands:
 
 ~~~bash
+touch ~/.zshrc
+~~~
+
+~~~bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ~~~
 
