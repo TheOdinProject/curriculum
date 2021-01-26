@@ -23,6 +23,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
         <h1 className="bold">Please Sign in</h1>
         <p>
           Please
+          {' '}
           <a href="/login">sign in</a>
           {' '}
           to add a project submission.

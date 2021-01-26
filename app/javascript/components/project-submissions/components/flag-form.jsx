@@ -13,6 +13,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
         <h1 className="bold">Please Sign in</h1>
         <p>
           Please
+          {' '}
           <a href="/login">sign in</a>
           {' '}
           to flag this project submission.
