@@ -41,7 +41,7 @@ The [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/S
 
 Setting up CORS in express is very easy, there's a middleware that does the work for us. [This article](https://medium.com/@alexishevia/using-cors-in-express-cac7e29b005b) explains everything you need to do, and the official docs can be found [here](https://expressjs.com/en/resources/middleware/cors.html).
 
-For now it is acceptable to just allow access from any origin.. this makes development quite a bit easier but for any _real_ project, once you deploy to a production environment you will probably want to specifically block access from any origin _except_ your front-end website. The documentation above explains how to do this.
+For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any _real_ project, once you deploy to a production environment you will probably want to specifically block access from any origin _except_ your front-end website. The documentation above explains how to do this.
 
 ### Assignment
 
