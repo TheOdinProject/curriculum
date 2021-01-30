@@ -2,7 +2,8 @@
   "environments": {
     "review": {
       "formation": [
-        { "process": "web",    "quantity": 1 }
+        { "process": "web", "quantity": 1 },
+        { "process": "worker", "quantity": 1 }
       ],
       "buildpacks": [
         {
@@ -12,7 +13,19 @@
           "url": "https://github.com/gaffneyc/heroku-buildpack-jemalloc.git"
         }
       ],
-      "addons": ["heroku-postgresql:hobby-dev"],
+      "addons": [
+        "heroku-postgresql:hobby-dev",
+        {
+          "plan": "rediscloud:30",
+          "as": "REDIS"
+        }
+      ],
+      "env": {
+        "STAGING": {
+          "description": "This is a staging environment",
+          "value": "true"
+        }
+      },
       "scripts": {
         "postdeploy": "bundle exec rails db:seed curriculum:update_content"
       }
