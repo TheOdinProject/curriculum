@@ -15,6 +15,11 @@ describe('encodeContent', () => {
     const buffer = Buffer.from('This is a test string! \n # Next Title', 'utf-8');
     expect(encodeContent('This is a test string! \n # Next Title')).toBe(buffer.toString('base64'));
   });
+
+  it('encodes unicode characters correctly', () => {
+    const buffer = Buffer.from('it’ll work with unicode no problem', 'utf-8');
+    expect(encodeContent('it’ll work with unicode no problem')).toBe(buffer.toString('base64'));
+  });
 });
 
 describe('decodeContent', () => {
