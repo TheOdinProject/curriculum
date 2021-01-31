@@ -321,7 +321,7 @@ bcrypt.compare(password, user.password, (err, res) => {
     return done(null, user)
   } else {
     // passwords do not match!
-    return done(null, false, {message: "Incorrect password"})
+    return done(null, false, { message: "Incorrect password" })
   }
 })
 ~~~
