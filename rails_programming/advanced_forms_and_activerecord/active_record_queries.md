@@ -48,7 +48,7 @@ This behaviour can be a bit tricky to observe if you use something like the Rail
 
 #### Chaining Queries
 
-Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in ascending order (`Post.limit(5).order(created_at: :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
+Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in descending order (`Post.limit(5).order(created_at: :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
 
 This is the sort of behaviour that you just sort of expect to work, and Relations are what enables it to do so.
 
@@ -148,6 +148,12 @@ This is going to result in one query to get all the users, then another query fo
 If the best way to make an application run faster is to reduce database calls, we've just messed up badly by causing a potentially huge number of them.
 
 Rails is well aware of your distress and has provided a simple solution -- "eager loading".  When you first grab the list of all users, you can tell Rails to also grab the cities at the same time (with just one additional query) and store them in memory until you'd like to call upon them.  Then `user.city` gets treated the same way as `user.name`... it doesn't run another query.  The trick is the `#includes` method.
+
+~~~ruby
+  User.all.includes(:city).each do |user|
+    puts user.city
+  end
+~~~
 
 `#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
 
