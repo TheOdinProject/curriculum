@@ -20,4 +20,4 @@ Note: As usual, ignore any ads, icons, and interactive elements (which use Javas
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Add some!
+* This [article by Adam Wathan](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) provides a good perspective regarding separation of concerns when it comes to CSS frameworks.
