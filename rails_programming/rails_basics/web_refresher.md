@@ -22,7 +22,7 @@ REST (short for Representational state transfer) is a term that you'll see comin
 5. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
 4. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
 5. PUT (or PATCH) the data you just filled out for editing the post back to the server so it can actually perform the update (aka **"update"** the post)
-6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
+6. DELETE one specific post by sending a delete request to the server (aka **"destroy"** the post)
 
 The highlighted words correspond to standard Rails controller actions!
 
