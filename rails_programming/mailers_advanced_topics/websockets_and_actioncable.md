@@ -2,32 +2,32 @@
 
 When you think about a typical interaction between a client and website, a browser makes a request to the server and after that request has completed the server closes the connection.
 
-There are often times where you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have Websockets and ActionCable brings Websockets to Rails in an easy to use way.
+There are often times where you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have WebSockets and Action Cable brings WebSockets to Rails in an easy to use way.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment.
 
-* What is a websocket?
-* What options did developers have before websockets to update a client without a user request?
+* What is a WebSocket?
+* What options did developers have before WebSockets to update a client without a user request?
 * What is a consumer?
 * What is a subscriber?
 * What is a channel?
 * What is a stream?
 * How can you broadcast to a stream from the server?
 
-### What is a Websocket?
+### What is a WebSocket?
 
-Before diving into Actioncable specifics we should first understand what a websocket is and what problem it seeks to solve.
+Before diving into Action Cable specifics we should first understand what a WebSocket is and what problem it seeks to solve.
 
-The Websocket API was created to allow two-way communication between a server and a client. A typically http connection between a server and client opens and closes as the client requests something. A websocket connection keeps the http connection alive so that the server can send updates to the client without a specific request being made.
+The WebSocket API was created to allow two-way communication between a server and a client. A typical http connection between a server and client opens and closes as the client requests something. A WebSocket connection keeps the http connection alive so that the server can send updates to the client without a specific request being made.
 
-A websocket manages the connection between server and client as well as sending and receiving data through that connection.
+A WebSocket manages the connection between server and client as well as sends and receives data through that connection.
 
-To understand what problem websockets solve let us consider an example of where websockets may be useful and then consider what our options would have been prior to the Websocket API.
+To understand what problem WebSockets solve let us consider an example of where WebSockets may be useful and then consider what our options would have been prior to the WebSocket API.
 
-Let us imagine we've built an awesome new social media app. Chewbooka. A place to be our true selves and talk all things Chewbacca. One key feature for our app, to make us all billions, is that when someone creates a new post extolling the virtues of Peter Mayhew, that all the other users connected to our app receive that post without having to manually refresh for updates.
+Let us imagine we've built an awesome new social media app, Chewbooka. A place to be our true selves and talk all things Chewbacca. One key feature for our app, to make us all billions, is that when someone creates a new post extolling the virtues of Peter Mayhew, that all the other users connected to our app receive that post without having to manually refresh for updates.
 
-We'll be rich! But, in a time before websockets, how are we going to solve it?
+We'll be rich! But, in a time before WebSockets, how are we going to solve it?
 
 We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are we could notify users of the new post and update their view and if there wasn't we can just return an empty response. This still involves opening and closing a request on the sever. This was a technique know as polling and was one of the first ways websites tried to bring server updates to the client. The downside to this was one of efficiency. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
@@ -37,35 +37,35 @@ There are some other approaches used, such as Java applets or Cross Frame Commun
 
 If our app is going to make it. If we want to give the world Chewbooka. We need something else...
 
-Websockets were created for this. Our moment is now!
+WebSockets were created for this. Our moment is now!
 
-### Websockets and Actioncable
+### WebSockets and Action Cable
 
-In earlier versions of Rails, when websockets first came onto the scene, there was no easy way to integrate them into an app. A lot of gems came about to solve this problem but ultimately they were a little bit hacky. Eventually, with Rails 5, came Actioncable. A built in way to support WebSockets the Rails way. It's evolved quite a bit since then to make the integration even more seamless and now it's easy to get up and running with Websockets. We'll cover the basics here which should give you the platform to go and use them yourself when you find a usecase in your own apps.
+In earlier versions of Rails, when WebSockets first came onto the scene, there was no easy way to integrate them into an app. A lot of gems came about to solve this problem but ultimately they were a little bit hacky. Eventually, with Rails 5, came Action Cable. A built in way to support WebSockets the Rails way. It's evolved quite a bit since then to make the integration even more seamless and now it's easy to get up and running with WebSockets. We'll cover the basics here which should give you the platform to go and use them yourself when you find a use case in your own apps.
 
 #### Terminology
 
-The first thing we need to cover is some of the terminology you'll come across with Actioncable.
+The first thing we need to cover is some of the terminology you'll come across with Action Cable.
 
-ActionCable uses a server to handle connections. A single user may have several connections open to the same server, such as if they were using multiple tabs in their browser to visit your website but for simplicity most people will just use one browser tab to visit a site and therefore they would hold one connection to the Actioncable server. The client of that connection is called a consumer.
+Action Cable uses a server to handle connections. A single user may have several connections open to the same server, such as if they were using multiple tabs in their browser to visit your website but for simplicity most people will just use one browser tab to visit a site and therefore they would hold one connection to the Action Cable server. The client of that connection is called a consumer.
 
-Although a consumer holds one connection to the cable server it can subscribe, through that connection, to multiple channels. A channel should represent one logical piece of work. When a consumer subscribes to a channel, they become known as a subscriber and the connection becomes known as a subscription.
+Although a consumer holds one connection to the cable server they can subscribe, through that connection, to multiple channels. A channel should represent one logical piece of work. When a consumer subscribes to a channel, they become known as a subscriber and the connection becomes known as a subscription.
 
 Once subscribed, each channel can then stream what are known as 'broadcastings' to subscribers. Such as new posts to Chewbooka.
 
 There is quite a bit of terminology here, and also these are handled on both the client and server side, so it is a lot to consider, but Rails does a lot of the heavy lifting for us.
 
-When going through the layers of Actioncable its helpful to have a real Rails app to refer to. If you still have your Rails install cars project to hand that would be ideal for looking through the files as we mention them here to get familar with where they are. If not just spinning up a new Rails app would also work fine.
+When going through the layers of Action Cable it's helpful to have a real Rails app to refer to. If you still have your Rails install cars project on hand that would be ideal for looking through the files as we mention them here to get familar with where they are. If not just spinning up a new Rails app would also work fine.
 
 We'll handle server side and client side concerns seperately to try and keep things simple.
 
-Let's first look at the default files that come with a new Rails app for handling websockets. Then we can look at how to create a new channel and what comes with that.
+Let's first look at the default files that come with a new Rails app for handling WebSockets. Then we can look at how to create a new channel and what comes with that.
 
 ### Server side concerns
 
 #### Connections
 
-As mentioned earlier, every websocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself simply deals with authentication and authorization. The client of this connection object is called a consumer.
+As mentioned earlier, every WebSocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself simply deals with authentication and authorization. The client of this connection object is called a consumer.
 
 If you have a Rails app handy open up `app/channels/application_cable/connection.rb`
 
@@ -78,7 +78,7 @@ end
 
 You use the class above to authorize the incoming connection. You can use any logic you want to uniquely identify a user. If you use devise or a similar gem and only want logged in users to be authorised then you can use that to verify the incoming connection.
 
-You can see an example of how you would do that in the Rails Guides section on [Actioncable connections](https://guides.rubyonrails.org/action_cable_overview.html#connection-setup). Here they look for an encryped cookie with user_id to verify a connection so would assume you set a cookie in this way. As you may know devise does set a cookie in the session. However because Actioncable operates on its own separate server for websockets, it doesn't have access to the session. Instead we can use the warden environment variable object. It does this as Devise is built on top of [Warden](https://github.com/wardencommunity/warden/wiki) and sets the user on the warden middleware object.
+You can see an example of how you would do that in the Rails Guides section on [Action Cable connections](https://guides.rubyonrails.org/action_cable_overview.html#connection-setup). Here they look for an encrypted cookie with user_id to verify a connection so would assume you set a cookie in this way. As you may know devise does set a cookie in the session. However because Action Cable operates on its own separate server for WebSockets, it doesn't have access to the session. Instead we can use the warden environment variable object. It does this as Devise is built on top of [Warden](https://github.com/wardencommunity/warden/wiki) and sets the user on the warden middleware object.
 
 So if you are using devise a neat way to verify a connection is to use the following in your `find_verified_user` method
 
@@ -96,7 +96,7 @@ There are lots of ways to authorise a connection. You might want it to be availa
 
 #### Channels
 
-A channel is a logical unit of work, not too different from what a controller does in a Rails app. It handles the incoming and outgoing information through a particular channel. If you do have a Rails app handy then you can take a look at `app/channels/application/channel.rb`. This is the parent channel that any channels you create inherit from. This is where you can put any logic that should be shared across multiple channels rather than duplicating code.
+A channel is a logical unit of work, not too different from what a controller does in a Rails app. It handles the incoming and outgoing information through a particular channel. If you do have a Rails app handy then you can take a look at `app/channels/application_cable/channel.rb`. This is the parent channel that any channels you create inherit from. This is where you can put any logic that should be shared across multiple channels rather than duplicating code.
 
 #### Subscriptions
 
@@ -123,13 +123,13 @@ This code creates a consumer that will try to establish a connection to `/cable`
 
 ### Creating channels
 
-Now that we've learned the basics of how Rails handles creating a websocket connection between server and client let us turn our attention to how to create a channel and what files this produces.
+Now that we've learned the basics of how Rails handles creating a WebSocket connection between server and client let us turn our attention to how to create a channel and what files this produces.
 
 #### Rails channel generator
 
-Unsurprisingly Rails gives us a generator we can use to create new channels. This creates all the boilerplate code we can use to make getting started simple
+Unsurprisingly Rails gives us a generator we can use to create new channels. This creates all the boilerplate code we can use to make getting started simple.
 
-The command is pretty simple. Imagine we wanted to create a websocket connection for a chatroom. We would write the following in the terminal
+The command is pretty simple. Imagine we wanted to create a WebSocket connection for a chatroom. We would write the following in the terminal
 
 ~~~bash
 rails generate channel room
@@ -168,7 +168,7 @@ end
 
 Streams are how Rails publish broadcasts to subscribers. In order to register a subscription, once a connection is established, the subscribed method is called which should set up the stream.
 
-Actioncable gives us two stream options. `stream_from` and `stream_for`.
+Action Cable gives us two stream options. `stream_from` and `stream_for`.
 
 The difference is that `stream_from` expects a string to identify the stream whereas `stream_for` operates on a model. Ultimately they produce something similar.
 
@@ -201,7 +201,7 @@ end
 
 #### Broadcasting
 
-Once you have the websocket server set up you then just need to broadcast to it from wherever is appropriate in your app, usually it would be a controller.
+Once you have the WebSocket server set up you then just need to broadcast to it from wherever is appropriate in your app, usually it would be a controller.
 
 Like streams, there are a couple of ways you can broadcast.
 
@@ -240,7 +240,7 @@ And then tried to call
 RoomChannel.broadcast_to("room" @message)
 ~~~
 
-Then Rails will look for a stream called `room:room`. This is just how ActionCable works. When you use `stream_for room` it actually creates the stream as `room:<some_room_id>` so the format is correct when you then later call `RoomChannel.broadcast_to(@room, @message)`. It would look for the stream `room:<the_room_id>`.
+Then Rails will look for a stream called `room:room`. This is just how Action Cable works. When you use `stream_for room` it actually creates the stream as `room:<some_room_id>` so the format is correct when you then later call `RoomChannel.broadcast_to(@room, @message)`. It would look for the stream `room:<the_room_id>`.
 
 So if you just wanted to call broadcast on a stream set up as a string using `stream_from`, you could write in the controller
 
@@ -296,21 +296,21 @@ You can add additional functions to the object to help you process the data. The
 
 It is possible for a client to send a message to the server and for the server to rebroadcast that message to others. You can read the short section in the [Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message) if you are interested.
 
-If you want to send dynamic parameters from the client when setting up the server care needs to be taken. You can only get params once the DOM has rendered and it's common to therefore wrap code in a `turbolinks:load` event listener. Because of this if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Actioncable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this [Stack Overflow](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages) post where others have experienced this behaviour.
+If you want to send dynamic parameters from the client when setting up the server care needs to be taken. You can only get params once the DOM has rendered and it's common to therefore wrap code in a `turbolinks:load` event listener. Because of this if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Action Cable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this [Stack Overflow](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages) post where others have experienced this behaviour.
 
-For testing and development Actioncable uses an async adapter to work, but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
+For testing and development Action Cable uses an async adapter to work, but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
 
 The connection only remains active while the http request remains unbroken. Refreshing the browser or navigating to a new page sever the connection and then will look to establish it again on reconnection.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Make sure you've read through all of the [Rails Guides on Actioncable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
-  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Actioncable to a project
+  1. Make sure you've read through all of the [Rails Guides on Action Cable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
+  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 </div>
 
 ### Conclusion
 
-There is more to Actioncable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce websockets when you see a real opportunity to add value to your site.
+There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce WebSockets when you see a real opportunity to add value to your site.
 
 

@@ -1,8 +1,8 @@
 ### Introduction
 
-This is a simple follow along lesson to show you how Actioncable can be used to enhance an application to give it real time features. We won't explain everything in detail, as much of the setup instructions should be familiar to you but will take the time around the Actioncable specific content to explain things a little more.
+This is a simple follow along lesson to show you how Action Cable can be used to enhance an application to give it real time features. We won't explain everything in detail, as much of the setup instructions should be familiar to you but will take the time around the Action Cable specific content to explain things a little more.
 
-The app we'll build will be in two stages. The first stage will be an app for sending messages only viewable to those currently logged in. We'll then build on it in the second stage to save the messages so that they are viewable to anyone who logs in.
+The app we'll build will be in two stages. The first stage will be an app for sending messages only viewable to those currently logged in. We'll then build on it in the second stage to save the messages so that they are also viewable to anyone who logs in in the future.
 
 ### Setup
 
@@ -105,11 +105,11 @@ This mostly is just using Bulma stylings to make it look nice.
 
 Now if you were to spin up a server and open localhost in a browser you should need to log in to access the homepage and be able to logout using the button in the navbar. The login button is actually pretty redundant since as soon as you logout you get taken to the login screen because the app is protected, but it is what it is.
 
-### Actioncable
+### Action Cable
 
-Let's now deal with setting up the server connection. As we covered in the Actioncable lesson, the connection manages all the channels that a client subscribes to and deals with authentication and authorization.
+Let's now deal with setting up the server connection. As we covered in the Action Cable lesson, the connection manages all the channels that a client subscribes to and deals with authentication and authorization.
 
-If you open up `app/channels/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Actioncable, with the only difference being we can use the user details set on the warden object environment variable.
+If you open up `app/channels/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Action Cable, with the only difference being we can use the user details set on the warden object environment variable.
 
 ~~~ruby
 module ApplicationCable
@@ -168,7 +168,7 @@ end
 
 Now that our stream is setup you should see in the server logs when you refresh that you are connected to the channel with `MessageChannel is streaming from message`. Nice.
 
-The next thing we need is a display for our messages and a form in which to post themon our index page. Open up `app/views/hangouts/index.html.erb` and add the following code
+The next thing we need is a display for our messages and a form in which to post them on our index page. Open up `app/views/hangouts/index.html.erb` and add the following code
 
 ~~~html
 <div>
@@ -221,7 +221,7 @@ const messageChannel = consumer.subscriptions.create("MessageChannel", {
 });
 ~~~
 
-Yours will have some comments that aren't important. What we need to do here first is set an event listener on the form submit so we can grab the value entered. Once we have the value we want to sent it to the server to be broadcast to all the channel subscribers. This is called rebroadcasting and you can see how it works [In the Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message). We can use `MessageChannel.send` to send the value entered in the input box to our websocket server.
+Yours will have some comments that aren't important. What we need to do here first is set an event listener on the form submit so we can grab the value entered. Once we have the value, we want to send it to the server to be broadcast to all the channel subscribers. This is called rebroadcasting and you can see how it works [In the Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message). We can use `MessageChannel.send` to send the value entered in the input box to our websocket server.
 
 Right at the bottom of our `message_channel.js` file add the following code
 
@@ -242,9 +242,9 @@ document.addEventListener("turbolinks:load", () => {
 })
 ~~~
 
-Firstly, since JS assets are loaded in the head of our html the Javascript files will be evaluated often before the DOM has rendered, so we first want to make sure the DOM has been created. We do this using the `turbolinks:load` event listener. Then we want to check if we are on a page with the form. It might seem obvious since we only have one page but you can never be too careful...
+Firstly, since JS assets are loaded in the head of our html, the Javascript files will be evaluated often before the DOM has rendered, so we first want to make sure the DOM has been created. We do this using the `turbolinks:load` event listener. Then we want to check if we are on a page with the form. It might seem obvious since we only have one page but you can never be too careful...
 
-Next if we are on a page with the form we add an event listener to it on it's submit property. When the form is submitted we first prevent the default submit from happening. This stops the page rerendering. Then we grab the value from our input field and check it isn't an empty string. If it is we simply return and do nothing. If it isn't, then we create a JS object with a key named `body` which holds the value of our messageInput. If you're wondering why I did this under it's own object instead of just sending `message: messageInput` in the send method it's because often you'll submit more than one parameter, and when we do create a Message Model this is similar to how it will be returned from a controller.
+Next if we are on a page with the form we add an event listener to it on its submit property. When the form is submitted we first prevent the default submit from happening. This stops the page rerendering. Then we grab the value from our input field and check it isn't an empty string. If it is we simply return and do nothing. If it isn't, then we create a JS object with a key named `body` which holds the value of our messageInput. If you're wondering why I did this under it's own object instead of just sending `message: messageInput` in the send method it's because often you'll submit more than one parameter, and when we do create a Message Model this is similar to how it will be returned from a controller.
 
 The last part of our code is the important bit. We call `send` on `messageChannel` and pass it an object with a key of `message` and a value of the message object we create earlier. You can see we create `messageChannel` in this line `const messageChannel = consumer.subscriptions.create("MessageChannel", {`. So it holds a reference to the channel created for message. When we call `send` on it, Rails knows to route it to the message_channel on the server side. If you save this file and refresh your browser if you have a rails server running you should be able to submit a message without the page refreshing. Check the server logs and you should see something like
 
@@ -262,7 +262,7 @@ def receive(data)
 end
 ~~~
 
-Rails handles routing any incoming message from a client to the `receive` method on the class representing the channel through which the message was sent. In our `receive` method we simply broadcast the message right back to all subscribers of the `message` stream. Sending it right back might seem strange but it's how we can ensure a message created on one client gets sent to all other clients subscribed to the channel without them having to refresh their browser. This is one of the main benefits of websockets.
+Rails handles routing any incoming message from a client to the `receive` method on the class representing the channel through which the message was sent. In our `receive` method we simply broadcast the message right back to all subscribers of the `message` stream. Sending it right back might seem strange but it's how we can ensure a message created on one client gets sent to all other clients subscribed to the channel without them having to refresh their browser. This is one of the main benefits of WebSockets.
 
 When data is broadcast to subscriber it goes right back to the client side to the object handling the connection to the websocket channel. In this case it's our `messageChannel` that references the connection. Data received here goes, funnily enough, to the `received` function of our messageChannel object in `message_channel.js`. Inside `received` we need to use the data received to create a template for the message so we can display it and we then want to append it to our `#message-display` div. In order to create a template we can use Javascript string template literals. Underneath the `received` function add a new function called `template` that will receive the data and return an html string. The template does use some Bulma stylings so don't worry about the actual markup. It could be any html.
 
@@ -366,7 +366,7 @@ def index
 end
 ~~~
 
-Then in our hangouts index view we can change the form to. You don't need to change anything else, Just remove the form inside of the div with the `message-form` id
+Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just remove the form inside of the div with the `message-form` id
 
 ~~~html
 <%= form_with model: @message do |f| %>
@@ -456,6 +456,6 @@ That's it. Try sending messages between your two users and you should see instan
 
 ### Conclusion
 
-The point here was to show you how ActionCable makes websockets pretty easy to work with. You need to have at least a basic knowledge of Javascript to handle things in the client when a message is sent but other than that you can see how powerful this can be. If you have a situation where you need to update all connected clients without waiting for them to refresh, then think websockets.
+The point here was to show you how Action Cable makes WebSockets pretty easy to work with. You need to have at least a basic knowledge of Javascript to handle things in the client when a message is sent but other than that you can see how powerful this can be. If you have a situation where you need to update all connected clients without waiting for them to refresh, then think WebSockets.
 
-This only scratches the surface of what ActionCable can do, but if you do find yourself in a situation where you think they might be useful you should be able to find what you need with a few searches.
+This only scratches the surface of what Action Cable can do, but if you do find yourself in a situation where you think they might be useful you should be able to find what you need with a few searches.
