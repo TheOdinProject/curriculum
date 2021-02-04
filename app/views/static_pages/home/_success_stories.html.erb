@@ -6,7 +6,7 @@
   <div class="success-stories-container">
     <% first_four_success_stories.each do |story| %>
     <div class="success-story">
-      <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}" %> </div>
+      <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar" %> </div>
 
       <div class="success-content">
 	       <div class="details">

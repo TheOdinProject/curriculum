@@ -1,6 +1,6 @@
 <div class="card-main profile-card">
   <div>
-  <%= image_tag avatar_path(user.avatar), class: 'profile-card__image' %>
+  <%= image_tag avatar_path(user.avatar), alt: "#{user.username}'s avatar", class: 'profile-card__image' %>
   </div>
   
   <h2 class="profile-card__username"><%=  user.username %></h2>
