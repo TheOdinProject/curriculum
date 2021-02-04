@@ -17,11 +17,7 @@ class RegistrationsController < Devise::RegistrationsController
   def register_mailing_list
     return unless resource.persisted? && production?
 
-    MailchimpSubscription.create(
-      email: resource.email,
-      username: resource.username,
-      signup_date: resource.created_at
-    )
+    MailingListJob.perform_async(resource.id)
   end
 
   def send_welcome_email
