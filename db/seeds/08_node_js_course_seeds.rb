@@ -12,7 +12,7 @@ lesson_position = 0
 course = create_or_update_course(
   title: 'NodeJS',
   title_url: 'NodeJS'.parameterize,
-  description: "You'll learn everything you need to take your JavaScript skills to the server-side.",
+  description: "Take your JavaScript skills to the server-side! Learn how to fully craft your site's backend using Express, the most popular back-end JavaScript framework! You will also learn how to use a non-relational database, MongoDB.",
   position: course_position
 )
 
@@ -73,7 +73,7 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: 'Express',
+  title: 'Express & MongoDB',
   title_url: 'Express'.parameterize,
   course_id: course.id,
   position: section_position,
