@@ -16,7 +16,7 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 ### A Git Workflow For Open Source Contribution
 
-Let's say you want to contribute to the web application that powers this website(check it out [here](https://github.com/TheOdinProject/theodinproject)).
+Let's say you want to contribute to the web application that powers this website (check it out [here](https://github.com/TheOdinProject/theodinproject)).
 
 How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
 
