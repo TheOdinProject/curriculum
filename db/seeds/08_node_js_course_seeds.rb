@@ -77,7 +77,7 @@ section = create_or_update_section(
   title_url: 'Express'.parameterize,
   course_id: course.id,
   position: section_position,
-  description: 'Here we finally get to Express, the most popular back-end JavaScript framework.'
+  description: 'Here we finally get to Express, the most popular back-end JavaScript framework, and MongoDB, a non-relational database frequently paired with Node.',
 )
 
 lesson_position += 1
