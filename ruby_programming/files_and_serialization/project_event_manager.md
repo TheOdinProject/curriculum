@@ -1547,16 +1547,11 @@ Interesting!
 
 Using the registration date and time we want to find out what the peak registration hours are.
 
-* Ruby has a [Date](http://rubydoc.info/stdlib/date/frames) library which contains classes for
-  [Date](http://rubydoc.info/stdlib/date/Date) and [DateTime](http://rubydoc.info/stdlib/date/DateTime).
+* Ruby has [Date](https://rubyapi.org/2.7/o/date) and [Time](https://rubyapi.org/2.7/o/time) classes that will be very useful for this task.
 
-* [DateTime#strptime](http://rubydoc.info/stdlib/date/DateTime#strptime-class_method) is a method that allows us to
-  parse date-time strings and convert them into Ruby objects.
+* For a quick overview, check out this [Ruby Guides](https://www.rubyguides.com/2015/12/ruby-time/) article. 
 
-* [DateTime#strftime](http://rubydoc.info/stdlib/date/DateTime#strftime-instance_method) is a good reference on the
-  characters necessary to match the specified date-time format.
-
-* Use [DateTime#hour](https://rubydoc.info/stdlib/date/DateTime#hour-instance_method) to find out the hour of the day.
+* Explore the documentation to become familiar with the available methods, especially `#strptime`, `#strftime`, and `#hour`.
 
 ## Assignment: Day of the Week Targeting
 
@@ -1565,4 +1560,4 @@ looks like there are some hours that are clearly more important than others.
 But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
-* Use [Date#wday](http://rubydoc.info/stdlib/date/Date#wday-instance_method) to find out the day of the week.
+* Use [Date#wday](https://rubyapi.org/2.7/o/date#method-i-wday) to find out the day of the week.
