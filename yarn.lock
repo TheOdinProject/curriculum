@@ -8156,10 +8156,10 @@ react-scrolllock@^5.0.1:
   dependencies:
     exenv "^1.2.2"
 
-react-tabs@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/react-tabs/-/react-tabs-3.1.2.tgz#9047ad7d8a53d357a67c14ad4c4a64cc16660fa8"
-  integrity sha512-OKS1l7QzSNcn+L2uFsxyGFHdXp9YsPGf/YOURWcImp7xLN36n0Wz+/j9HwlwGtlXCZexwshScR5BrcFbw/3P9Q==
+react-tabs@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-tabs/-/react-tabs-3.2.0.tgz#0fd8d595ef26d3684da876c27a3cc90392dffb40"
+  integrity sha512-q7oNapNRoYTQq8gDhApXwdBheuuN5qQ4YvUaQUAkb6OSSttJulBAvxJ0FS6W5uojvMxbbIZKu1f2I+GXISoLjw==
   dependencies:
     clsx "^1.1.0"
     prop-types "^15.5.0"
