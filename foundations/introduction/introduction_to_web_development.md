@@ -44,7 +44,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 
 * **Computer**
 * **[Google](https://www.google.com/)**
-* **Text Editor**
+* **[Text Editor] (Default text editors on your computer will do the work but most web developers prefer [external editors](https://medium.com/for-self-taught-developers/the-5-best-code-editors-for-web-development-deaaa0b68fd5) for ease-of-use in the long run)**
 * **Command Line Interface (CLI)**
 * **[Stack Overflow](http://stackoverflow.com/)**
 * **[Git](https://git-scm.com/)**
