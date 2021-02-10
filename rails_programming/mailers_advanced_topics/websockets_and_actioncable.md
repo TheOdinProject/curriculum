@@ -84,7 +84,7 @@ So if you are using devise a neat way to verify a connection is to use the follo
 
 ~~~ruby
 def find_verified_user
-  if verified_user = env['warden'].user
+  if verified_user == env['warden'].user
     verified_user
   else
     reject_unauthorized_connection
