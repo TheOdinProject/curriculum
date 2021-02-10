@@ -19,7 +19,7 @@ def create_or_update_path(path_attrs)
   elsif path.attributes == path_attrs
     Rails.logger.info "No changes to existing path: #{path_attrs[:title]}"
   else
-    path.update_attributes(path_attrs)
+    path.update(path_attrs)
     Rails.logger.info "Updated existing << PATH >>: #{path_attrs[:title]}"
   end
 
@@ -35,7 +35,7 @@ def create_or_update_course(course_attrs)
   elsif course.attributes == course_attrs
     Rails.logger.info "No changes to existing course: #{course_attrs[:title]}"
   else
-    course.update_attributes(course_attrs)
+    course.update!(course_attrs)
     Rails.logger.info "Updated existing << COURSE >>: #{course_attrs[:title]}"
   end
 
@@ -51,7 +51,7 @@ def create_or_update_section(section_attrs)
   elsif section.attributes == section_attrs
     Rails.logger.info "No changes to existing section: #{section_attrs[:title]}"
   else
-    section.update_attributes(section_attrs)
+    section.update!(section_attrs)
     Rails.logger.info "Updated existing SECTION: #{section_attrs[:title]}"
   end
 
@@ -67,7 +67,7 @@ def create_or_update_lesson(lesson_attrs)
   elsif lesson.attributes == lesson_attrs
     Rails.logger.info "No changes to existing lesson: #{lesson_attrs[:title]}"
   else
-    lesson.update_attributes!(lesson_attrs)
+    lesson.update!(lesson_attrs)
     Rails.logger.info "Updated existing lesson: #{lesson_attrs[:title]}"
   end
 
