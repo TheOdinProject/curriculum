@@ -188,7 +188,7 @@ The best part about `form_with` is that if you just pass it a model object like 
 ### Other form helpers: `form_tag` and `form_for`
 
 Before the introduction of the `form_with` helper in Rails 5.1, the now soft-deprecated `form_tag` and `form_for` helpers were heavily used.
-The `form_with` helper combines features of these other tags to provide a much better experience when building forms. You can read about the `form_tag` and `form_for` helpers [here](https://guides.rubyonrails.org/v5.2/form_helpers.html)
+The `form_with` helper combines features of these other tags to provide a much better experience when building forms. You can read about the `form_tag` and `form_for` helpers [here](https://guides.rubyonrails.org/form_helpers.html)
 
 ### Forms and Validations
 
