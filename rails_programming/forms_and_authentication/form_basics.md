@@ -212,16 +212,16 @@ You'll probably want to display the errors so the user knows what went wrong.  R
 
 That will give the user a message telling him/her how many errors there are and then a message for each error.
 
-The best part about Rails form helpers... they handle errors automatically too!  If a form is rendered for a specific model object, like using `form_for @article` from the example above, Rails will check for errors and, if it finds any, it will automatically wrap a special `<div>` element around that field with the class `field_with_errors` so you can write whatever CSS you want to make it stand out.  Cool!
+The best part about Rails form helpers... they handle errors automatically too!  If a form is rendered for a specific model object, like using `form_with @article` from the example above, Rails will check for errors and, if it finds any, it will automatically wrap a special `<div>` element around that field with the class `field_with_errors` so you can write whatever CSS you want to make it stand out.  Cool!
 
 ### Making PATCH and DELETE Submissions
 
 Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="_method" type="hidden" value="patch">`.
 
-You get Rails to add this to your form by passing an option to `form_for` or `form_tag` called `:method`, e.g.:
+You get Rails to add this to your form by passing an option to `form_with` called `:method`, e.g.:
 
 ~~~ruby
-  form_tag(search_path, method: "patch")
+  form_with(search_path, method: "patch")
 ~~~
 
 ### Controller-Side Refresher
