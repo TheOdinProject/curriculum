@@ -20,7 +20,7 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
    4. Gameboards should keep track of missed attacks so they can display them properly.
    5. Gameboards should be able to report whether or not all of their ships have been sunk.
 3. Create `Player`.
-   1. players can take turns playing the game by attacking the enemy Gameboard.
+   1. Players can take turns playing the game by attacking the enemy Gameboard.
    2. The game is played against the computer, so make 'computer' players capable of making random plays.  The AI does not have to be smart, but it should know whether or not a given move is legal. (i.e. it shouldn't shoot the same coordinate twice).
 4. Create the main game loop and a module for DOM interaction.
    1. At _this_ point it is appropriate to begin crafting your User Interface.
@@ -31,6 +31,6 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
    5. Create conditions so that the game ends once one players ships have all been sunk.  This function is appropriate for the Game module.
 5. Finish it up
    1. There are several options available for letting users place their ships.  You can let them type coordinates for each ship, or investigate implementing drag and drop.
-   2. You can polish the Intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
+   2. You can polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
    3. Optionally, create a 2 player option that lets users take turns by passing the device back and forth.  If you're going to go this route, make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
 </div>
