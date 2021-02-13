@@ -221,7 +221,7 @@ Forms aren't really designed to natively delete objects because browsers only su
 You get Rails to add this to your form by passing an option to `form_with` called `:method`, e.g.:
 
 ~~~ruby
-  form_with(search_path, method: "patch")
+  form_with(url: search_path, method: "patch")
 ~~~
 
 ### Controller-Side Refresher
