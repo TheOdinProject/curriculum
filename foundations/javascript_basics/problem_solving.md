@@ -64,7 +64,7 @@ Many beginners try to solve the big problem in one go. **Don’t do this**. If t
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
 ### Solving Fizz Buzz
-To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
+To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
 #### Understanding The Problem
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
@@ -118,7 +118,7 @@ for (let i = 1; i <= answer; i++) {
 
 If you haven't seen this before and it looks strange, it's actually straightforward. We declare a variable `i` and assign it 1: - AKA the start of our loop (**NOTE**: Most the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1). The second clause, `i <= answer` is our condition. We want to loop until `i` is greater than `answer`. The third clause, `i++` tells our loop to increment `i` by 1 every iteration. As a result, if the user input 10, this loop would print numbers 1 - 10 to the console.
 
-With that working, lets move on to the next problem: If the current number is divisible by 3 then print `Fizz`.
+With that working, let's move on to the next problem: if the current number is divisible by 3, then print `Fizz`.
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
