@@ -185,10 +185,9 @@ This will produce the following HTML:
 
 The best part about `form_with` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
-### Other form helpers: `form_tag` and `form_for`
+### Deprecated form helpers: `form_tag` and `form_for`
 
-Before the introduction of the `form_with` helper in Rails 5.1, the now soft-deprecated `form_tag` and `form_for` helpers were heavily used.
-The `form_with` helper combines features of these other tags to provide a much better experience when building forms. You can read about the `form_tag` and `form_for` helpers [here](https://guides.rubyonrails.org/form_helpers.html)
+Before `form_with` was introduced in Rails 5.1, `form_tag` and `form_for` were used.  Both are now soft-deprecated but are likely to be seen in existing codebases.  The difference between them is that [`form_for`](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for) takes a model whereas [`form_tag`](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) takes a URL (used when you need a form but don't have an underlying model).  The [`form_with`](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) helper unifies them: `form_with(url: users_path)` is roughly equivalent to `form_tag(users_path)` and similarly, `form_with(model: @user)` to `form_for(@user)`.  You can read about the `form_tag` and `form_for` helpers in an older version of Rails Guides [here](https://guides.rubyonrails.org/v5.2/form_helpers.html).
 
 ### Forms and Validations
 
