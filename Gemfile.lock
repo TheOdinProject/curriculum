@@ -292,7 +292,7 @@ GEM
     premailer-rails (1.11.1)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
-    pry (0.13.1)
+    pry (0.14.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
     psych (3.3.0)
@@ -527,7 +527,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection
   pg (~> 1.2)
   premailer-rails (~> 1.11)
-  pry (~> 0.13.1)
+  pry (~> 0.14.0)
   puma
   rack-attack
   rails (= 6.1.1)
