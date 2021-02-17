@@ -2,7 +2,7 @@
 
 Introduced in Ruby 2.7, pattern matching uses specified patterns to match against some data. If the data conforms to the pattern there is a match and the data is deconstructed accordingly. If there is no match either you can supply a default value to return or else a `NoMatchingPatternError` is raised.
 
-With Ruby 3, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code.
+With Ruby 3, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end.
 
 If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortuantely at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
 
@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Basics
 
-There are two basic formats for a pattern match in Ruby. The first is using the case/in format. This is not too different from the case statement you will already be familiar with for matching conditions in Ruby, except now instead of `when` we use `in`. If your use case is very basic, you will find there is no difference between using either `in` or `when` as the below example illustrates.
+The basic format for a pattern match is a case statement. This is not too different from the case statement you will already be familiar with for matching conditions in Ruby, except now instead of `when` we use `in`. If your use case is very basic, you will find there is no difference between using either `in` or `when` as the below example illustrates.
 
 ~~~ruby
 grade = 'C'
@@ -73,7 +73,7 @@ The case/in format is best used when there are multiple conditionals you could p
 
 ### Patterns
 
-There are multiple ways of potentially matching against an input. Patterns can be:
+There are multiple ways of potentially matching against an input. Patterns in Ruby 2.7 can be
 
  - Any Ruby object which is matched using `===`. The Object Pattern.
  - A variable capture / Variable Pattern
@@ -82,9 +82,13 @@ There are multiple ways of potentially matching against an input. Patterns can b
  - A Guard Condition
  - An Array Pattern
  - A Hash Pattern
+
+With Ruby 3 you can use the above patterns while also having the following new additions
+
+ - Rightward Assignment
  - A Find Pattern
 
-Patterns can also be matched using one or many of the patterns above. You may for example have an array inside a hash so you could use the hash and array patterns. We'll go through each of the various patterns in more detail below.
+Patterns can also be matched using many of the patterns above together. You may for example have an array inside a hash so you could use the hash and array patterns. We'll go through each of the various patterns in more detail below.
 
 When we say pattern we aren't talking about design patterns which you may have come across. We mean the pattern used to match against an input.
 
@@ -458,9 +462,31 @@ in { a: 'ant' } => hash
 end
 ~~~
 
+### Ruby 3 patterns
+
+With Ruby 3 came a couple of new patterns. If you aren't using Ruby 3 at the time of writing you can install it if you like or just skim the below patterns and know they exist. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code.
+
+### Rightward assignment.
+
+Usually with Ruby you place variables on the left of an expression that binds a value to that variable. With rightward assignment you deconstruct an object and assign values to variables on the right of the expression. Instead of using `=` to assign you use a hash rocket `=>`.
+
+All of the previous patterns we've covered can be used in this syntax.
+
+~~~ruby
+login = { username: 'hornby', password: 'iliketrains' }
+
+login => { username: username }
+
+puts "Logged in with username #{username}"
+
+#=> "Logged in with username hornby"
+~~~
+
+The case/in format is best used when there are multiple conditionals you could possibly match against and you need to check against all of them. The hash rocket syntax is best used when the data structure you are matching against is known, such as the login data example we used above.
+
 ### Find Pattern
 
-As we saw above we can match against only part of a hash, but not an array using the array pattern match. So what do you do if that's what you need to do? The as pattern would capture all of the array and the variable pattern captures individual parts of it. To address this Ruby added the find pattern around August 2020. Because, at the time of writing, it is relatively new you may receive a warning in your terminal that the find pattern is experimental and subject to change.
+As we saw earlier we can match against only part of a hash, but not an array using the array pattern match. So what do you do if that's what you need to do? The as pattern would capture all of the array and the variable pattern captures individual parts of it. To address this Ruby added the find pattern.
 
 It works by placing a `*` either side of the part you want to match. You can even use the variable pattern to give each `*` a variable name to reference later. Let's look at some examples.
 
