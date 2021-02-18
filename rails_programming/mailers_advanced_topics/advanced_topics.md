@@ -307,8 +307,6 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
-With all that completed, there's not much else to go... it's time to get started on your final project!
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
