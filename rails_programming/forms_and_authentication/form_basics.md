@@ -71,7 +71,7 @@ So, if you want to create your own form that gets handled by Rails, you need to 
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 ~~~
 
-### Making Forms into `params`
+### Making Forms into params
 
 What about the other form inputs, the ones we actually care about?
 
@@ -109,7 +109,7 @@ Don't forget that you have to whitelist the params now in your controller using 
 
 This is cool stuff that you'll get a chance to play with in the project.
 
-### Form Helpers: `form_with`
+### Form Helpers: form_with
 
 Rails tries to make your life as easy as it can, so naturally it provides you with helper methods that automate some of the repetitive parts of creating forms.  That doesn't mean you don't need to know how to create forms the "old fashioned" way... it's actually MORE important to know your form fundamentals when using helpers because you'll need to really understand what's going on behind the scenes if something breaks.
 
@@ -151,7 +151,7 @@ There are a few things to take note of when using the `form_with` helper.
 
 You can also check your Network tab in your browser to see the requests in both cases.
 
-### Using models with the `form_with` helper
+### Using models with the form_with helper
 
 More often than not, you'll want your form to act on the attributes of an existing model. Like specifying a title (or whatever other fields are required for your model) of a new news Article.
 
@@ -185,9 +185,11 @@ This will produce the following HTML:
 
 The best part about `form_with` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
-### Deprecated form helpers: `form_tag` and `form_for`
+### Deprecated form helpers: form_tag and form_for
 
-Before `form_with` was introduced in Rails 5.1, `form_tag` and `form_for` were used.  Both are now soft-deprecated but are likely to be seen in existing codebases.  The difference between them is that [`form_for`](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for) takes a model whereas [`form_tag`](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) takes a URL (used when you need a form but don't have an underlying model).  The [`form_with`](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) helper unifies them: `form_with(url: users_path)` is roughly equivalent to `form_tag(users_path)` and similarly, `form_with(model: @user)` to `form_for(@user)`.  You can read about the `form_tag` and `form_for` helpers in an older version of Rails Guides [here](https://guides.rubyonrails.org/v5.2/form_helpers.html).
+Before `form_with` was introduced in Rails 5.1, `form_tag` and `form_for` were used.  Both are now soft-deprecated but are likely to be seen in existing codebases. The difference between them is that [form_for](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for) takes a model whereas [form_tag](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) takes a URL (used when you need a form but don't have an underlying model). The [form_with](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) helper can be used with either a model `form_with(model: @user)` or a URL `form_with(url: users_path)`. 
+
+You can read about the `form_tag` and `form_for` helpers in an older version of the [Rails Guides](https://guides.rubyonrails.org/v5.2/form_helpers.html).
 
 ### Forms and Validations
 
