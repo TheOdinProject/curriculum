@@ -68,11 +68,11 @@ FriendlyId.defaults do |config|
   # FriendlyId adds to your model. The change below makes FriendlyId 5.0 behave
   # more like 4.0.
   #
-  config.use Module.new {
+  config.use(Module.new do
     def should_generate_new_friendly_id?
       slug.blank? || title_changed?
     end
-  }
+  end)
   #
   # FriendlyId uses Rails's `parameterize` method to generate slugs, but for
   # languages that don't use the Roman alphabet, that's not usually sufficient.
