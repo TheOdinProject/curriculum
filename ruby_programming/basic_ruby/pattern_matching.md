@@ -200,7 +200,7 @@ There isn't much more to it. The same rules apply as with any other pattern. So 
 
 ### Guard Conditions
 
-This isn't a pattern per se but a way to make sure the pattern if only matched is the guard condition holds true
+This isn't a pattern per se but a way to make sure the pattern is only matched if the guard condition holds true
 
 ~~~ruby
 some_other_value = true
@@ -349,7 +349,7 @@ Let's say you have a nested array and you want to match against both the nested 
 
 ~~~ruby
 case [1, 2, 3, [4, 5]]
-in [1, 2, 3 [4, a] => arr]
+in [1, 2, 3, [4, a] => arr]
   a # => 5
   arr # => [4, 5]
 end
