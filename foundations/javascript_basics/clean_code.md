@@ -52,7 +52,7 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
    ​
 
-4. Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
+4. Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
    ~~~javascript
    // Good
