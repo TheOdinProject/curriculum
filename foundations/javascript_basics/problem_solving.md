@@ -8,9 +8,9 @@ V. Anton Spraul defines problem solving in programming as:
 > "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
 - Think Like a Programmer
 
-The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
+The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
-New programmers often find problem solving the hardest skill to build, it's not uncommon for budding programmers to breeze through learning syntax and programming concepts. Yet when trying to code something on their own they find themselves staring blankly at their text editor not knowing where to start. 
+New programmers often find problem solving the hardest skill to build. It's not uncommon for budding programmers to breeze through learning syntax and programming concepts, yet when trying to code something on their own, they find themselves staring blankly at their text editor not knowing where to start. 
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
@@ -31,7 +31,7 @@ To gain clarity and understanding of the problem, write it down on paper, reword
 ### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
 
-Some of the questions you should answer at this part of the process:
+Some of the questions you should answer at this stage of the process:
 
 * Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
 * What inputs will your program have? Will the user enter data or will you get input from somewhere else?
@@ -57,14 +57,14 @@ This is a very simple program to demonstrate how pseudo code looks. There will b
 ### Divide and Conquer
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
-It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage, often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
+It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex enough, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
 ### Solving Fizz Buzz
-To demonstrate this workflow in action lets solve a common programming exercise, [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
+To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
 #### Understanding The Problem
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
@@ -106,7 +106,7 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. **Note**: We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
 
-With that done, let's move on to the next subproblem "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
+With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -116,9 +116,9 @@ for (let i = 1; i <= answer; i++) {
 }
 ~~~
 
-If you haven't seen this before and it looks strange, it's actually straightforward. We declare a variable `i` and assign it 1: - AKA the start of our loop (**NOTE**: Most the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1). The second clause, `i <= answer` is our condition. We want to loop until `i` is greater than `answer`. The third clause, `i++` tells our loop to increment `i` by 1 every iteration. As a result, if the user input 10, this loop would print numbers 1 - 10 to the console.
+If you haven't seen this before and it looks strange, it's actually straightforward. We declare a variable `i` and assign it 1: - AKA the start of our loop (**NOTE**: Most of the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1). The second clause, `i <= answer` is our condition. We want to loop until `i` is greater than `answer`. The third clause, `i++`, tells our loop to increment `i` by 1 every iteration. As a result, if the user input 10, this loop would print numbers 1 - 10 to the console.
 
-With that working, lets move on to the next problem: If the current number is divisible by 3 then print `Fizz`.
+With that working, let's move on to the next problem: If the current number is divisible by 3, then print `Fizz`.
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -132,7 +132,7 @@ for (let i = 1; i <= answer; i++) {
 }
 ~~~
 
-We are using the modulus operator (`%`) here to divide the current number by three. If you recall from a previous lesson, the modulus operator returns the remainder of a division. So if a remainder of 0 is returned from the division it means the `current` number is divisible by 3.
+We are using the modulus operator (`%`) here to divide the current number by three. If you recall from a previous lesson, the modulus operator returns the remainder of a division. So if a remainder of 0 is returned from the division, it means the `current` number is divisible by 3.
 
 After this change the program will now output this when you run it and the user inputs 10:
 
@@ -149,7 +149,7 @@ Fizz
 10
 ~~~
 
-The program is starting to take shape, the final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
+The program is starting to take shape. The final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -198,7 +198,7 @@ for (let i = 1; i <= answer; i++) {
 }
 ~~~
 
-We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)` so when `i` was divisible by 3 it would print `Fizz` and then move onto the next number in the iteration, even if `i` was divisible by 5 as well.
+We've had to move the conditionals around a little to get it to work. The first condition now checks if `i` is divisible by 3 and 5 instead of checking if `i` is just divisible by 3. We've had to do this because if we kept it the way it was, it would run the first condition `if (i % 3 === 0)`, so that if `i` was divisible by 3, it would print `Fizz` and then move on to the next number in the iteration, even if `i` was divisible by 5 as well.
 
 With the condition `if (i % 3 === 0 && i % 5 === 0)` coming first, we check that `i` is divisible by both 3 and 5 before moving on to check if it is divisible by 3 or 5 individually in the `else if` conditions.
 
@@ -231,8 +231,8 @@ Buzz
 
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
-  2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding tech. It's an hour long but packed full of information and definitely worth your time watching.
-  3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) Article from The Viking Code School.
+  2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
+  3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 </div>
 
 ### Additional Resources
