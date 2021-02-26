@@ -39,12 +39,12 @@ Look through these now and then use them to test yourself after doing the assign
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* You might find it helpful to bookmark the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and the [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) from CSS Tricks. These are both excellent references that you'll find handy as you start to apply CSS in projects.
-* Another good page to bookmark for later reference is [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/), also from CSS Tricks.
+* A good page to bookmark for later reference is [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/) from CSS Tricks.
 * [W3 Schools' CSS tutorial](https://www.w3schools.com/css/)
-* [OverAPI's HTML Cheat Sheet](https://overapi.com/html)
-* [OverAPI's CSS Cheat Sheet](https://overapi.com/css)
+* [OverAPI's CSS Cheat Sheet](https://overapi.com/css) and [OverAPI's HTML Cheat Sheet](https://overapi.com/html)
 * [CSSreference.io](https://cssreference.io/) and [HTMLreference.io](https://htmlreference.io)
 * [Learn CSS Layout](https://learnlayout.com/)
 * [CSS Flexbox](https://flexbox.io/) and [CSS Grid](https://cssgrid.io/)
+    * The [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and the [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) from CSS Tricks are both excellent references.
     * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
+    * Hop on over to [Flexbox Froggy](https://flexboxfroggy.com/) or dig into [Grid Garden](https://cssgridgarden.com/) to learn some concepts with a fun game!
