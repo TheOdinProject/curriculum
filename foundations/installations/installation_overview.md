@@ -32,7 +32,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
-#### Virtual Machines and Dual-Boots
+#### Windows
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
