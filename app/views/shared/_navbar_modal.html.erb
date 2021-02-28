@@ -24,8 +24,8 @@
             <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
           </li>
 
-          <li class="nav-item">
-            <%= link_to 'Chat', chat_link, class: 'nav-link discord-chat-link', target: '_blank', rel: 'noreferrer' %>
+          <li class="nav-item <%= active_class(paths_url) %>">
+            <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
           </li>
 
           <div class="dropdown-divider"></div>
@@ -42,13 +42,8 @@
             <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#collapseCommunity" role="button" aria-expanded="false" aria-controls="collapseCommunity">
-              Community
-            </a>
-            <div class="collapse" id="collapseCommunity">
-              <%= link_to 'Chat', chat_link, class: 'nav-link discord-chat-link', target: '_blank', rel: 'noreferrer' %>
-            </div>
+          <li class="nav-item <%= active_class(paths_url) %>">
+            <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
           </li>
 
           <li class="nav-item <%= active_class(about_path) %>">

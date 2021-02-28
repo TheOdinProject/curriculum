@@ -22,17 +22,8 @@
           <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
         </li>
 
-        <li class="nav-item dropdown js-dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Community
-          </a>
-          <ul class="dropdown-menu dropdown-menu-right menu-options pb-0">
-            <li>
-              <%= link_to chat_link, class: 'drop-down-link accent', target: '_blank', rel: 'noreferrer' do %>
-                <span class="drop-down-logo fas fa-comment mt-2"></span>Chat
-              <% end %>
-            </li>
-          </ul>
+        <li class="nav-item <%= active_class(paths_url) %>">
+          <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
         </li>
 
         <li class="divider nav-link">|</li>
@@ -44,21 +35,15 @@
         <li class="nav-item <%= active_class(paths_url) %>">
           <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
         </li>
-        <li class="nav-item dropdown js-dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Community
-          </a>
-          <ul class="dropdown-menu dropdown-menu-right menu-options pb-0">
-            <li>
-              <%= link_to chat_link, class: 'drop-down-link accent', target: '_blank', rel: 'noreferrer' do %>
-                <span class="drop-down-logo fas fa-comment mt-2"></span>Chat
-              <% end %>
-            </li>
-          </ul>
+
+         <li class="nav-item <%= active_class(paths_url) %>">
+          <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
         </li>
+
         <li class="nav-item <%= active_class(about_path) %>">
           <%= link_to 'About', about_path, class: 'nav-link' %>
         </li>
+
         <li class="nav-item <%= active_class(faq_path) %>">
           <%= link_to "FAQ", faq_path, class: 'nav-link' %>
         </li>
