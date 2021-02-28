@@ -116,7 +116,7 @@ While your VM is running, do the following steps:
   8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
-  11. Double-click on the CD icon on the VM desktop.
+  11. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 12. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
   12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
   13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   14. Once it finishes, close the terminal and the CD folder.
