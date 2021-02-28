@@ -1,19 +1,27 @@
-<div class="dropdown js-dropdown">
-  <button class="avatar" aria-label="User Menu" style="background-image:url(<%= avatar_path(current_user.avatar) %>)" data-toggle="dropdown"></button>
-  <ul class="dropdown-menu menu-options">
-    <li id="dash-active">
-      <%= link_to dashboard_path, class: "drop-down-link accent #{active_class(dashboard_path)}" do %>
-        <span class="drop-down-logo dashboard-logo"></span>Dashboard
+<div class="odin-dropdown">
+  <button class="odin-dropdown__toggle" aria-label='User Menu' data-odin-dropdown='toggle'>
+    <%= image_tag avatar_path(current_user.avatar), size: "30x30", class: 'avatar', alt: 'user avatar' %>
+  </button>
+
+  <ul class="odin-dropdown__menu odin-dropdown__hidden">
+    <li class="odin-dropdown__item">
+      <%= link_to dashboard_path, class: "accent #{active_class(dashboard_path)}" do %>
+        <%= image_tag image_path('icons/icon-dashboard.svg'), class: "odin-dropdown__item-icon" %>
+        Dashboard
       <% end %>
     </li>
-    <li>
-      <%= link_to edit_user_registration_path, class: "drop-down-link accent #{active_class(edit_user_registration_path)}" do %>
-        <span class="drop-down-logo settings-logo"></span>Settings
+
+    <li class="odin-dropdown__item">
+      <%= link_to edit_user_registration_path, class: "accent #{active_class(edit_user_registration_path)}" do %>
+        <%= image_tag image_path('icons/icon-settings.svg'), class: "odin-dropdown__item-icon" %>
+        Settings
       <% end %>
     </li>
-    <li>
-      <%= link_to logout_path, class: 'drop-down-link accent' do %>
-        <span class="drop-down-logo logout-logo"></span>Log out
+
+    <li class="odin-dropdown__item">
+      <%= link_to logout_path, class: 'accent' do %>
+        <%= image_tag image_path('icons/icon-logout.svg'), class: "odin-dropdown__item-icon" %>
+        Log out
       <% end %>
     </li>
   </ul>
