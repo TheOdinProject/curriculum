@@ -58,6 +58,10 @@
       margin-right: 20px;
       width: 150px;
     }
+
+    @include media-breakpoint-down(md){
+      word-break: break-word;
+    }
   }
 
   &__button {
