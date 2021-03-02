@@ -92,26 +92,16 @@
   &__actions {
     display: flex;
     align-items: center;
+    gap: 1em;
 
     & * {
       flex-shrink: 0;
-    }
-
-    a,
-    span,
-    button {
-      margin-left: 1em;
     }
 
     @include media-breakpoint-down(sm) {
       display: flex;
       flex-direction: column;
       width: 60%;
-
-      .submissions__button {
-        flex-shrink: 0;
-        margin: 0 0 1em;
-      }
     }
   }
 
