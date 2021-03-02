@@ -29,10 +29,10 @@ const Submission = forwardRef(({
       <div className="submissions__left-container">
         <Like submission={submission} handleLikeToggle={handleLikeToggle} />
         <p className="submissions__submission-title">
-          <SubmissionTitle 
-            submission={submission} 
-            isCurrentUsersSubmission={isCurrentUsersSubmission} 
-            isDashboardView={isDashboardView} 
+          <SubmissionTitle
+            submission={submission}
+            isCurrentUsersSubmission={isCurrentUsersSubmission}
+            isDashboardView={isDashboardView}
           />
         </p>
       </div>
@@ -41,10 +41,11 @@ const Submission = forwardRef(({
         {isCurrentUsersSubmission && (
           <div
             className="submissions__button--edit"
-            onClick={toggleShowEditModal}
-            type="button"
-          >
-          </div>
+            onMouseDown={toggleShowEditModal}
+            role="button"
+            tabIndex={0}
+            aria-label="edit-button"
+          />
         )}
         <a href={submission.repo_url} target="_blank" rel="noreferrer" className="submissions__button">View Code</a>
         {livePreview
