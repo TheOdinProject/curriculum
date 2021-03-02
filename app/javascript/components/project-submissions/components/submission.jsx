@@ -29,7 +29,11 @@ const Submission = forwardRef(({
       <div className="submissions__left-container">
         <Like submission={submission} handleLikeToggle={handleLikeToggle} />
         <p className="submissions__submission-title">
-          <SubmissionTitle submission={submission} isDashboardView={isDashboardView} />
+          <SubmissionTitle 
+            submission={submission} 
+            isCurrentUsersSubmission={isCurrentUsersSubmission} 
+            isDashboardView={isDashboardView} 
+          />
         </p>
       </div>
 
