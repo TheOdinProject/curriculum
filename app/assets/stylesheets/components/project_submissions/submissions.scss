@@ -68,11 +68,22 @@
     font-weight: 600;
     text-align: center;
 
-    &--green {
-      color: $white;
-      background-color: $button-primary;
+    &--edit {
+      color: $grey;
+      font-size: 1.125em;
+
+      &:hover {
+        color: $black;
+      }
+
+      &:before {
+        content: "\f044";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
     }
-  }
+  }  
+  
 
   &__actions {
     display: flex;

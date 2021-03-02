@@ -35,13 +35,12 @@ const Submission = forwardRef(({
 
       <div className="submissions__actions">
         {isCurrentUsersSubmission && (
-          <button
-            className="submissions__button submissions__button--green"
+          <div
+            className="submissions__button--edit"
             onClick={toggleShowEditModal}
             type="button"
           >
-            Edit Solution
-          </button>
+          </div>
         )}
         <a href={submission.repo_url} target="_blank" rel="noreferrer" className="submissions__button">View Code</a>
         {livePreview
