@@ -71,7 +71,14 @@
 
     &--edit {
       color: $grey;
-      font-size: 1.125em;
+      font-size: 0.905em;
+      font-size:1.1em;
+
+      &:before {
+        content: "\f044";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
 
       &:hover {
         color: $black;
@@ -79,16 +86,9 @@
 
       &:focus{
         outline:none
-      }
-
-      &:before {
-        content: "\f044";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-      }
+      }      
     }
   }  
-  
 
   &__actions {
     display: flex;
@@ -107,6 +107,8 @@
   }
 
   &__flag {
+    font-size: 1.217em;
+
     @include media-breakpoint-down(sm) {
       position: absolute !important;
       top: 5px;
