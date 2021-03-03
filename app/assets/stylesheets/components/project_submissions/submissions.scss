@@ -107,8 +107,14 @@
 
     @include media-breakpoint-down(sm) {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       width: 60%;
+    }
+
+    @include media-breakpoint-down(xs){
+      flex-direction: column;
+      align-items: initial;
+      justify-content: center;
     }
   }
 
