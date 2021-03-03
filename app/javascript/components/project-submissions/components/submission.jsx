@@ -8,7 +8,6 @@ import EditForm from './edit-form';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
 import SubmissionTitle from './submission-title';
 import Like from './like';
-import VisibleToggle from './visible-toggle';
 
 const noop = () => { };
 
@@ -38,21 +37,20 @@ const Submission = forwardRef(({
       </div>
 
       <div className="submissions__actions">
-        {isCurrentUsersSubmission && (
-          <div
-            className="submissions__button--edit"
-            onMouseDown={toggleShowEditModal}
-            role="button"
-            tabIndex={0}
-            aria-label="edit-button"
-          />
-        )}
         <a href={submission.repo_url} target="_blank" rel="noreferrer" className="submissions__button">View Code</a>
         {livePreview
           && <a href={submission.live_preview_url} target="_blank" rel="noreferrer" className="submissions__button">Live Preview</a>}
 
         {isCurrentUsersSubmission
-          ? <VisibleToggle submission={submission} handleVisibleToggle={handleUpdate} />
+          ? (
+            <div
+              className="submissions__button--edit"
+              onMouseDown={toggleShowEditModal}
+              role="button"
+              tabIndex={0}
+              aria-label="edit-button"
+            />
+          )
           : (
             <button
               className="link-button submissions__flag hint--top"
