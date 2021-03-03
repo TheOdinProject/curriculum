@@ -53,14 +53,11 @@
   &__submission-title {
     font-weight: 600;
     font-size: 1.25rem;
+    word-break: break-word;
 
     @include media-breakpoint-up(md) {
       margin-right: 20px;
-      width: 150px;
-    }
-
-    @include media-breakpoint-down(md){
-      word-break: break-word;
+      width: 200px;
     }
   }
 
@@ -78,6 +75,10 @@
 
       &:hover {
         color: $black;
+      }
+
+      &:focus{
+        outline:none
       }
 
       &:before {
