@@ -145,22 +145,6 @@
     }
   }
 
-  &__public-icon {
-    cursor: pointer;
-
-    color: $button-disabled;
-
-    &--visible {
-      color: $button-primary;
-    }
-
-    @include media-breakpoint-down(sm) {
-      position: absolute;
-      top: 5px;
-      right: 0;
-    }
-  }
-
   &__view-more {
     text-align: center;
     padding: 1.5rem 0;
