@@ -2,15 +2,20 @@
 
 We're going to make a simple implementation of grade-school classic "rock paper scissors". If you don't know what that is check the [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step. For the moment we're just going to play the game from the browser console, but we will revisit it and add a front end later so don't forget to keep the code on GitHub! You might notice some 'view in browser' links in the student solutions - this is coming in a later lesson. When you get there don't forget to come back and add your link!
 
-Finally, this is your first JavaScript program built from scratch, so don't forget the previous lesson on problem solving and plan your solution before writing any code.
+### Try These Before Starting
+
+1.  Identify three ways you can include your JavaScript in a page
+2. Test it out! Write `console.log("Hello World");` in JavaScript and check to see if it displays in the browsers console.
+3. If you haven't used it already, this is where the [VSCode Live Server extension](https://www.theodinproject.com/courses/foundations/lessons/text-editors#additional-set-up-live-server-extension-for-vscod)becomes handy! 
+
+Finally, this is your first JavaScript program built from scratch, so don't forget the previous lesson on problem solving and plan your solution before writing any code. Test each piece as you build to ensure it is working before moving to the next!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Start a new Git repo for your project.
-2. Create a blank HTML document with a script tag.  This game is going to be played
-    completely from the console, so don't worry about putting anything else in there.
-3. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either 'Rock', 'Paper' or 'Scissors'.  We'll use this function in the game to make the computer's play.
+2. Create a blank HTML document with a script tag (Hint: it is best practice to link an external .js file).  This game is going to be played completely from the console, so don't worry about putting anything else in there.
+3. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either 'Rock', 'Paper' or 'Scissors'.  We'll use this function in the game to make the computer's play. *Tip: use the console to make sure this is returning the expected output before moving to the next step!)*
 4. Write a function that plays a single round of Rock Paper Scissors.  The function should take two parameters - the `playerSelection` and `computerSelection` - and then return a string that declares the winner of the round like so: `"You Lose! Paper beats Rock"`
    1. Make your function case insensitive (so users can input `rock`, `ROCK`, `RocK` or any other variation)
 
