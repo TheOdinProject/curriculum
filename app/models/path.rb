@@ -1,7 +1,7 @@
 class Path < ApplicationRecord
   extend FriendlyId
 
-  friendly_id :title, use: %i[slugged finders]
+  friendly_id :title, use: %i[slugged history finders]
 
   has_many :users
   has_many :path_courses, -> { order(:position) }, dependent: :destroy

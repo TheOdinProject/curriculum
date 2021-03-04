@@ -1,7 +1,7 @@
 class Lesson < ApplicationRecord
   extend FriendlyId
 
-  friendly_id :slug_candidates, use: %i[slugged finders]
+  friendly_id :slug_candidates, use: %i[slugged history finders]
 
   belongs_to :section
   has_one :course, through: :section
