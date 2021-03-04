@@ -224,6 +224,7 @@ ActiveRecord::Schema.define(version: 2021_03_06_162015) do
 
   add_foreign_key "flags", "project_submissions"
   add_foreign_key "flags", "users", column: "flagger_id"
+  add_foreign_key "lesson_completions", "lessons", on_delete: :cascade
   add_foreign_key "path_prerequisites", "paths"
   add_foreign_key "path_prerequisites", "paths", column: "prerequisite_id"
   add_foreign_key "project_submissions", "lessons"
