@@ -3,7 +3,6 @@ The Odin Project is an open source community and curriculum for learning web dev
 
 We teach:
 * Ruby programming
-* Sinatra
 * Ruby on Rails
 * SQL
 * HTML and CSS
