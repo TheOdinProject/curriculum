@@ -11,7 +11,6 @@ lesson_position = 0
 
 course = create_or_update_course(
   title: 'NodeJS',
-  title_url: 'NodeJS'.parameterize,
   description: "Take your JavaScript skills to the server-side! Learn how to fully craft your site's backend using Express, the most popular back-end JavaScript framework! You will also learn how to use a non-relational database, MongoDB.",
   position: course_position
 )
@@ -23,7 +22,6 @@ course = create_or_update_course(
 section_position += 1
 section = create_or_update_section(
   title: 'Introduction to NodeJS',
-  title_url: 'Introduction to NodeJS'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "In this section you'll learn what NodeJS is and get your first taste of writing server-side JavaScript."
@@ -32,7 +30,6 @@ section = create_or_update_section(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Introduction: What is NodeJs',
-  title_url: 'What is NodeJS'.parameterize,
   description: 'Lets take a look at what Node is, and what it means to write code for a server.',
   position: lesson_position,
   section_id: section.id,
@@ -44,7 +41,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Getting Started',
-  title_url: 'Getting Started'.parameterize,
   description: "You'll go through a basic Node tutorial and write some real server-side code.",
   position: lesson_position,
   section_id: section.id,
@@ -56,7 +52,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Basic Informational Site',
-  title_url: 'Basic Site'.parameterize,
   description: "Use what you've learned to build a very simple website skeleton",
   position: lesson_position,
   section_id: section.id,
@@ -74,7 +69,6 @@ create_or_update_lesson(
 section_position += 1
 section = create_or_update_section(
   title: 'Express & MongoDB',
-  title_url: 'Express'.parameterize,
   course_id: course.id,
   position: section_position,
   description: 'Here we finally get to Express, the most popular back-end JavaScript framework, and MongoDB, a non-relational database frequently paired with Node.'
@@ -83,7 +77,6 @@ section = create_or_update_section(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Introduction to Express',
-  title_url: 'Introduction to Express'.parameterize,
   description: 'We look at Express for the first time and learn what it does for us',
   position: lesson_position,
   section_id: section.id,
@@ -95,7 +88,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Express 101',
-  title_url: 'Express 101'.parameterize,
   description: "It's time to dive into the main tutorial and actually write some code using the express-generator",
   position: lesson_position,
   section_id: section.id,
@@ -107,7 +99,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Express 102: CRUD and MVC',
-  title_url: 'Express 102'.parameterize,
   description: 'Here you learn how to set up a database in your Express projects',
   position: lesson_position,
   section_id: section.id,
@@ -119,7 +110,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Preparing for Deployment',
-  title_url: 'Preparing for Deployment'.parameterize,
   description: 'Get setup to use Heroku to deploy our web applications',
   position: lesson_position,
   section_id: section.id,
@@ -131,7 +121,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Mini Message Board',
-  title_url: 'Mini-message-board'.parameterize,
   description: 'We take a break from the main tutorial and create a simple message board.',
   position: lesson_position,
   section_id: section.id,
@@ -145,7 +134,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Express 103: Routes and Controllers',
-  title_url: 'Express 103'.parameterize,
   description: 'We learn how to use the express router and use the MVC pattern to set up controllers for our Library tutorial',
   position: lesson_position,
   section_id: section.id,
@@ -157,7 +145,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Express 104: View Templates',
-  title_url: 'Express 104'.parameterize,
   description: 'This lesson shows you how to set up view templates.',
   position: lesson_position,
   section_id: section.id,
@@ -169,7 +156,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Express 105: Forms and Deployment',
-  title_url: 'Express 105".parameterize',
   description: 'Here we learn how to use forms to create the data-entry portions of the Library Tutorial and finish the project by learning about deployment',
   position: lesson_position,
   section_id: section.id,
@@ -183,7 +169,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Inventory Application',
-  title_url: 'project: inventory application'.parameterize,
   description: "We put together everything you've learned so far by building an inventory management app for an imaginary store.",
   position: lesson_position,
   section_id: section.id,
@@ -201,7 +186,6 @@ create_or_update_lesson(
 section_position += 1
 section = create_or_update_section(
   title: 'Authentication',
-  title_url: 'Express Authentication'.parameterize,
   course_id: course.id,
   position: section_position,
   description: 'We learn how to create authentication strategies that allow us to securely sign users into our applications.'
@@ -210,7 +194,6 @@ section = create_or_update_section(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Authentication Basics',
-  title_url: 'express authentication basics'.parameterize,
   description: 'Learn the basics of authentication with passportJS and bcrypt',
   position: lesson_position,
   section_id: section.id,
@@ -222,7 +205,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Security Configuration',
-  title_url: 'Security Configuration'.parameterize,
   description: 'We learn how to use configuration modules to secure our apps',
   position: lesson_position,
   section_id: section.id,
@@ -234,7 +216,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Members Only',
-  title_url: 'project members only'.parameterize,
   description: "We create a private online clubhouse to practice using the auth strategies we've learned",
   position: lesson_position,
   section_id: section.id,
@@ -252,7 +233,6 @@ create_or_update_lesson(
 section_position += 1
 section = create_or_update_section(
   title: 'APIs',
-  title_url: 'express APIs'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "We use what we've learned to create API-only backends that can serve JSON to any front-end we want."
@@ -261,7 +241,6 @@ section = create_or_update_section(
 lesson_position += 1
 create_or_update_lesson(
   title: 'API basics',
-  title_url: 'express api basics'.parameterize,
   description: 'You already know most of what you need to create robust APIs. This lesson fills in the blanks for you.',
   position: lesson_position,
   section_id: section.id,
@@ -273,7 +252,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'API Security',
-  title_url: 'Express API Security'.parameterize,
   description: 'We learn how to secure our APIs using JSON web tokens',
   position: lesson_position,
   section_id: section.id,
@@ -285,7 +263,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Blog API',
-  title_url: 'project express blog api'.parameterize,
   description: 'You create the backend for a blog and then plug it into multiple frontend applications',
   position: lesson_position,
   section_id: section.id,
@@ -303,7 +280,6 @@ create_or_update_lesson(
 section_position += 1
 section = create_or_update_section(
   title: 'Testing Express',
-  title_url: 'testing express'.parameterize,
   course_id: course.id,
   position: section_position,
   description: 'We learn what it takes to write tests for our Express projects'
@@ -312,7 +288,6 @@ section = create_or_update_section(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Testing Routes and Controllers',
-  title_url: 'testing routes and controllers'.parameterize,
   description: 'We learn how to use Supertest to write tests for our routes and controllers',
   position: lesson_position,
   section_id: section.id,
@@ -324,7 +299,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Testing database operations',
-  title_url: 'testing database operations'.parameterize,
   description: 'we learn how to use mongodb-memory-server to write tests for routes that manipulate a database',
   position: lesson_position,
   section_id: section.id,
@@ -340,7 +314,6 @@ create_or_update_lesson(
 section_position += 1
 section = create_or_update_section(
   title: 'FINAL PROJECT',
-  title_url: 'nodeJS final project'.parameterize,
   course_id: course.id,
   position: section_position,
   description: "This is it!  Create your final project and prove to the world you're a node/express master"
@@ -349,7 +322,6 @@ section = create_or_update_section(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Odin-Book',
-  title_url: 'project odin-book'.parameterize,
   description: "You'll use everything you've learned so far to replicate Facebook!",
   position: lesson_position,
   section_id: section.id,
@@ -363,7 +335,6 @@ create_or_update_lesson(
 lesson_position += 1
 create_or_update_lesson(
   title: 'Conclusion',
-  title_url: 'Conclusion'.parameterize,
   description: 'Wow you\'ve gotten to the last lesson!',
   position: lesson_position,
   section_id: section.id,

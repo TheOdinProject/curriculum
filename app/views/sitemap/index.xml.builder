@@ -34,14 +34,14 @@ xml.urlset(
   # Individual courses and lessons
   @courses.each do |course|
     xml.url do
-      xml.loc "#{course_url(course.title_url)}"
+      xml.loc "#{course_url(course)}"
       xml.changefreq("weekly")
       xml.priority(0.80)
     end
 
     course.lessons.each do |lesson|
       xml.url do
-        xml.loc "#{lesson_url(course.title_url, lesson.title_url)}"
+        xml.loc "#{course_lesson_url(course, lesson)}"
         xml.lastmod lesson.updated_at.strftime("%F")
         xml.changefreq("daily")
         xml.priority(1.00)
