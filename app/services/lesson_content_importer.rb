@@ -46,15 +46,11 @@ class LessonContentImporter
   end
 
   def github_response
-    Octokit.contents(repo, path: lesson.url)
+    Octokit.contents('theodinproject/curriculum', path: lesson.url)
   end
 
   def log_error(message)
     Rails.logger.error "Failed to import '#{lesson.title}' message: #{message}"
     false
-  end
-
-  def repo
-    "theodinproject/#{lesson.repo}"
   end
 end

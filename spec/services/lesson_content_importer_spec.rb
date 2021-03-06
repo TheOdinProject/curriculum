@@ -8,7 +8,6 @@ RSpec.describe LessonContentImporter do
       'Lesson',
       content: lesson_content,
       title: 'Ruby Basics',
-      repo: 'ruby_course',
       url: '/ruby_basics/variables'
     )
   end
@@ -26,7 +25,7 @@ RSpec.describe LessonContentImporter do
 
   before do
     allow(Octokit).to receive(:contents)
-      .with('theodinproject/ruby_course', path: '/ruby_basics/variables')
+      .with('theodinproject/curriculum', path: '/ruby_basics/variables')
       .and_return(lesson_content_from_github)
 
     allow(Base64).to receive_message_chain(:decode64, :force_encoding)
@@ -70,7 +69,7 @@ RSpec.describe LessonContentImporter do
     context 'when there is an error with octokit' do
       before do
         allow(Octokit).to receive(:contents)
-          .with('theodinproject/ruby_course', path: '/ruby_basics/variables')
+          .with('theodinproject/curriculum', path: '/ruby_basics/variables')
           .and_raise(
             Octokit::Error.new(
               method: 'GET',
@@ -92,7 +91,6 @@ RSpec.describe LessonContentImporter do
       let(:lesson) do
         Lesson.new(
           title: 'Ruby Basics',
-          repo: 'ruby_course',
           url: '/ruby_basics/variables',
           section: Section.new
         )

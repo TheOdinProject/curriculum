@@ -37,7 +37,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/introduction/introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -48,7 +47,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/introduction/js101-review.md',
-  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -71,7 +69,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/organizing-introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -82,7 +79,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/objects-constructors.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -93,7 +89,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/library-project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -106,7 +101,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/factory-functions.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -117,7 +111,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/tic-tac-toe-project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -130,7 +123,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/classes.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -141,7 +133,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/es6-modules.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -152,7 +143,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/restaurant-project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -165,7 +155,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/oop-concepts.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -176,7 +165,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/organizing-js/todo-project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -201,7 +189,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/linting.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -212,7 +199,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/ui-Interactions.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -223,7 +209,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/forms.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -234,7 +219,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/webpack.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -245,7 +229,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/es6-features.md',
-  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -268,7 +251,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/json.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -279,7 +261,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/promises-async.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -290,7 +271,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/APIs.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -301,7 +281,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/async-await.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -312,7 +291,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/async-apis/project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -337,7 +315,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/react-introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -348,7 +325,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/state-and-props.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -359,7 +335,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/inputs-and-lists.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -370,7 +345,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/react-js/project-cv.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -383,7 +357,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/lifecycle-methods.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -394,7 +367,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/hooks.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -405,7 +377,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/react-js/project-memory-card.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -418,7 +389,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/router.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -429,7 +399,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/react-js/project-shopping-chart.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -442,7 +411,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/advanced-concepts.md',
-  repo: 'curriculum',
 )
 
 # +++++++++++
@@ -465,7 +433,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/testing/testing-1.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -476,7 +443,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/testing/testing-practice.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -489,7 +455,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/testing/testing-2.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -500,7 +465,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/testing/battleship-project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -524,7 +488,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-rails/rails_backend.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -535,7 +498,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/js-rails/project_rails_backend.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true,
 )
@@ -560,7 +522,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/javascript/finishing-up/project_final_js.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -573,5 +534,4 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/finishing-up/conclusion.md',
-  repo: 'curriculum'
 )

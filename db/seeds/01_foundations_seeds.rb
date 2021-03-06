@@ -35,7 +35,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/how_this_course_will_work.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -46,7 +45,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/introduction_to_web_development.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -57,7 +55,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/motivation_and_mindset.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -68,7 +65,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/join_the_odin_community.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -79,7 +75,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/how_does_the_web_work.md',
-  repo: 'curriculum'
 )
 
 # ++++++++++++++++++++
@@ -102,7 +97,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/installation_overview.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -113,7 +107,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/prerequisites.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -124,7 +117,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/text_editors.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -135,7 +127,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/command_line_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -146,7 +137,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/setting_up_git.md',
-  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -169,7 +159,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/git_basics/introduction_to_git.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -180,7 +169,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/git_basics/git_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -191,7 +179,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/foundations/git_basics/project_practicing_git_basics.md',
-  repo: 'curriculum',
   accepts_submission: false,
   has_live_preview: false
 )
@@ -216,7 +203,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_front_end/introduction_to_the_front_end.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -227,7 +213,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_front_end/html_css_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -238,7 +223,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_front_end/developer_tools.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -249,7 +233,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/foundations/the_front_end/project_html_css.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -274,7 +257,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-1.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -285,7 +267,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-2.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -296,7 +277,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/developer_tools_2.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -307,7 +287,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-3.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -317,7 +296,6 @@ create_or_update_lesson(
   position: lesson_position,
   description: 'In this lesson we will explore how to approach solving programming problems.',
   url: '/foundations/javascript_basics/problem_solving.md',
-  repo: 'curriculum',
   is_project: false
 )
 
@@ -329,7 +307,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/foundations/javascript_basics/project_rock_paper_scissors.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -342,7 +319,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/clean_code.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -353,7 +329,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-4.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -364,7 +339,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/DOM-manipulation.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -375,7 +349,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/foundations/javascript_basics/project_etch_a_sketch.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -388,7 +361,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-5.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -399,7 +371,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/foundations/javascript_basics/project_calculator.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -424,7 +395,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_back_end/introduction_to_the_backend_lesson.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -435,7 +405,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_back_end/introduction_to_frameworks.md',
-  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -458,6 +427,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/tying_it_all_together/conclusion.md',
-  repo: 'curriculum',
   choose_path_lesson: true
 )

@@ -34,7 +34,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -45,7 +44,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/strategy.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -56,7 +54,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/starts_with_you.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -67,7 +64,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/what_companies_want.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -78,7 +74,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/preparation.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -89,7 +84,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/getting_hired/project_portfolio.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -114,7 +108,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/collect_leads.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -125,7 +118,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/qualify_leads.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -136,7 +128,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/getting_hired/project_resume.md',
-  repo: 'curriculum',
   accepts_submission: false,
   has_live_preview: false
 )
@@ -149,7 +140,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/applying.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -160,7 +150,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/preparing_to_interview.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -171,7 +160,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/handling_an_offer.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -182,5 +170,4 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/conclusion.md',
-  repo: 'curriculum'
 )

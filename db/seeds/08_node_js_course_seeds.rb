@@ -35,7 +35,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/getting-started/Introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -46,7 +45,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/getting-started/Getting-Started.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -57,7 +55,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/getting-started/Getting-Started-Project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -82,7 +79,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -93,7 +89,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-1.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -104,7 +99,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-2.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -115,7 +109,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/introduction/preparing_for_deployment.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -126,7 +119,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/express-basics/Express-Mini-Message-Board.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -139,7 +131,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-3.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -150,7 +141,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-4.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -161,7 +151,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/express-basics/Express-Lesson-5.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -174,7 +163,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/express-basics/Express-Inventory-Application.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -199,7 +187,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/authentication/Authentication.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -210,7 +197,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/authentication/Security-Configuration.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -221,7 +207,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/authentication/Members-Only.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -246,7 +231,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/APIs/APIs.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -257,7 +241,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/APIs/API-Security.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -268,7 +251,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/APIs/Blog-Project.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -293,7 +275,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/testing/Testing.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -304,7 +285,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/testing/Testing-Mongo.md',
-  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -327,7 +307,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/nodeJS/Odin-Book.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -340,5 +319,4 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/conclusion.md',
-  repo: 'curriculum'
 )

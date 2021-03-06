@@ -35,7 +35,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/introduction/introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -46,7 +45,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/introduction/preparing_for_deployment.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -57,7 +55,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/introduction/installing_rails.md',
-  repo: 'curriculum',
   accepts_submission: false,
   has_live_preview: false,
 )
@@ -82,7 +79,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/web_refresher.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -93,7 +89,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/routing.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -104,7 +99,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/controller_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -115,7 +109,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/views.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -126,7 +119,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/asset_pipeline.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -137,7 +129,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/webpacker.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -148,7 +139,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/deployment.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -159,7 +149,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/rails_basics/project_blog_app.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true,
 )
@@ -184,7 +173,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/databases_and_activerecord/active_record_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -195,7 +183,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/databases_and_activerecord/project_ar_basics.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: false
 )
@@ -220,7 +207,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/forms_and_authentication/form_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -231,7 +217,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/forms_and_authentication/project_forms.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: false
 )
@@ -244,7 +229,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/forms_and_authentication/sessions_cookies_authentication.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -255,7 +239,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/forms_and_authentication/project_auth.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -280,7 +263,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/active_record_queries.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -291,7 +273,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/active_record_associations.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -302,7 +283,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/advanced_forms_and_activerecord/project_associations.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -315,7 +295,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/active_record_callbacks.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -326,7 +305,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/forms_advanced.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -337,7 +315,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/advanced_forms_and_activerecord/project_forms_advanced.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -362,7 +339,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/apis/api_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -373,7 +349,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/apis/api_interfacing.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -384,7 +359,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/apis/project_kittens_api.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -397,7 +371,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/apis/project_using_an_api.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -422,7 +395,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/mailers.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -433,7 +405,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/mailers_advanced_topics/project_mailers.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -446,7 +417,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/advanced_topics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -457,7 +427,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/websockets_and_actioncable.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -468,7 +437,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/rails_programming/mailers_advanced_topics/project_final.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -481,5 +449,4 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/conclusion.md',
-  repo: 'curriculum'
 )

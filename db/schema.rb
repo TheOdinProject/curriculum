@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_05_002818) do
+ActiveRecord::Schema.define(version: 2021_03_06_162015) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -90,7 +90,6 @@ ActiveRecord::Schema.define(version: 2021_03_05_002818) do
     t.datetime "updated_at", null: false
     t.text "content"
     t.string "slug"
-    t.string "repo"
     t.boolean "accepts_submission", default: false, null: false
     t.boolean "has_live_preview", default: false, null: false
     t.boolean "choose_path_lesson", default: false, null: false

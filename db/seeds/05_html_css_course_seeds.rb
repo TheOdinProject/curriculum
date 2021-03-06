@@ -35,7 +35,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/introduction.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -46,7 +45,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/html5_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -57,7 +55,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/links.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -68,7 +65,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/images.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -79,7 +75,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_media.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -92,7 +87,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/new_html5.md',
-  repo: 'curriculum'
 )
 
 # +++++++++++
@@ -115,7 +109,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/tables.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -126,7 +119,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/lists.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -137,7 +129,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/html_forms.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -148,7 +139,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_html_forms.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -173,7 +163,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/css_basics.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -184,7 +173,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/box_model.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -195,7 +183,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/floats_positioning.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -206,7 +193,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/flexbox_layout.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -217,7 +203,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/grid_layout.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -228,7 +213,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_positioning.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -241,7 +225,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/best_practices.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -252,7 +235,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/backgrounds.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -263,7 +245,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_backgrounds.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -288,7 +269,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/design_ux.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -299,7 +279,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/typography.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -310,7 +289,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_design.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -335,7 +313,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/responsive_design.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -346,7 +323,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_responsive.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -359,7 +335,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/css_frameworks.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -370,7 +345,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_bootstrap.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -395,7 +369,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/stylings.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -406,7 +379,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/preprocessors.md',
-  repo: 'curriculum'
 )
 
 lesson_position += 1
@@ -417,7 +389,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: '/html_css/project_css_frameworks.md',
-  repo: 'curriculum',
   accepts_submission: true,
   has_live_preview: true
 )
@@ -430,5 +401,4 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/conclusion.md',
-  repo: 'curriculum'
 )
