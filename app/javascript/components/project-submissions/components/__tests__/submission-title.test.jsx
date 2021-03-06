@@ -10,26 +10,28 @@ const submission = {
 };
 
 describe('Submission title', () => {
-  it('displays the lesson title in dashboard view', () => {
-    render(
-      <SubmissionTitle
-        submission={submission}
-        isDashboardView
-      />,
-    );
-    expect(screen.getByText('Test Title')).toBeInTheDocument();
+  describe('when on the dashboard view', () => {
+    it('displays the lesson title', () => {
+      render(<SubmissionTitle submission={submission} isDashboardView />);
+      expect(screen.getByText('Test Title')).toBeInTheDocument();
+    });
+
+    it('displays a link to the project', () => {
+      render(<SubmissionTitle submission={submission} isDashboardView />);
+      expect(screen.getByText('Test Title')).toHaveAttribute('href', 'test_path');
+    });
   });
-  it('displays a link to the project in dashboard view', () => {
-    render(
-      <SubmissionTitle
-        submission={submission}
-        isDashboardView
-      />,
-    );
-    expect(screen.getByText('Test Title')).toHaveAttribute('href', 'test_path');
-  });
-  it('displays username if not in dashboard mode', () => {
-    render(<SubmissionTitle submission={submission} />);
-    expect(screen.getByText('TestUser')).toBeInTheDocument();
+
+  describe('when not on the dashboard view', () => {
+    it('displays submissions username', () => {
+      render(<SubmissionTitle submission={submission} />);
+      expect(screen.getByText('TestUser')).toBeInTheDocument();
+      expect(screen.getByText('TestUser')).not.toHaveAttribute('href', '/dashboard');
+    });
+
+    it('displays link to users dashboard when submission belongs to the current user', () => {
+      render(<SubmissionTitle submission={submission} isCurrentUsersSubmission />);
+      expect(screen.getByText('TestUser')).toHaveAttribute('href', '/dashboard');
+    });
   });
 });
