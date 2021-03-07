@@ -5,6 +5,7 @@ path = create_or_update_path(
   title: 'Full Stack Ruby on Rails',
   description: "This path takes you through our entire Ruby on Rails curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch.",
   position: 2,
+  identifier_uuid: '16109529-1526-4800-be11-0f655bcfb4cc',
 )
 
 position = 0

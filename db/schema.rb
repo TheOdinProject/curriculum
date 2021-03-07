@@ -136,6 +136,7 @@ ActiveRecord::Schema.define(version: 2021_03_08_211447) do
     t.datetime "updated_at", null: false
     t.string "slug"
     t.boolean "default_path", default: false, null: false
+    t.string "identifier_uuid", default: "", null: false
     t.index ["slug"], name: "index_paths_on_slug", unique: true
   end
 

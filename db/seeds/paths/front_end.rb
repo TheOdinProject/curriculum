@@ -1,18 +1,17 @@
-# CREATE PATH Full Stack JavaScript
+# CREATE PATH Frontend
 # *********************************
 
 path = create_or_update_path(
-  title: 'Full Stack JavaScript',
-  description: "This path takes you through our entire JavaScript curriculum. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJs.",
-  position: 4,
-  identifier_uuid: '624d152c-b522-4f7a-86aa-8f2d9c84b951',
+  title: 'Front End Only',
+  description: "This path takes you through all of the front-end content in our curriculum. You'll learn HTML, CSS and JavaScript, but you will not encounter any Ruby or Rails.",
+  position: 3,
+  identifier_uuid: 'ea4b7790-cf7e-49eb-80c1-5fcb7d6df08d',
 )
 
 position = 0
 courses_in_path = [
   { course_id: Course.find_by_title('JavaScript').id, position: position += 1 },
   { course_id: Course.find_by_title('HTML and CSS').id, position: position += 1 },
-  { course_id: Course.find_by_title('NodeJS').id, position: position += 1 },
   { course_id: Course.find_by_title('Getting Hired').id, position: position + 1 }
 ]
 
