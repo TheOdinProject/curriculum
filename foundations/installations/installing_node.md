@@ -8,8 +8,6 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 ### Installing nvm
 
-### Installation on Linux
-
 #### Step 0: Prerequisites 
 To install nvm properly, you'll need `curl`. Simply run the command below:
 
@@ -22,7 +20,7 @@ sudo apt install curl
 Simply run this command:
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ~~~
 
 This will install `nvm`
@@ -31,6 +29,7 @@ This will install `nvm`
 
 In the terminal there should be some directions on how to initialize `nvm`, if not, (or if you don't feel like copying from the terminal), run these commands:
 
+<a id="profile-snippet"></a>
 ~~~bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -42,35 +41,13 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ~~~
 
-if this returns `nvm: command not found` close the terminal and re-open it.
+#### Troubleshooting
 
-### Installation on macOS
+If you get `nvm: command not found` or no feedback from your terminal after you typed `command -v nvm` restart you terminal and try verifying again. 
 
-On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
-
-To create the `.zshrc` file and start the nvm installation, run the following commands:
-
-~~~bash
-touch ~/.zshrc
-~~~
-
-~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-~~~
-
-Restart your terminal, or copy and paste the following into your terminal and press enter: 
-
-~~~bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-~~~
-
-Test your nvm installation by running:
-
-~~~bash
-nvm --version.
-~~~
+Even after that if it's not fixed then one of the following might be the reason.
+1. Your default shell is different than `bash`.
+2. In that case try adding the snippet from the <a href="#profile-snippet">install section</a>, that finds the correct nvm directory and loads nvm, to your usual profile (~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc).
 
 For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
 
