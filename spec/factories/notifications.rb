@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :notification do
-    recipient factory: :user
+    association :recipient, factory: :user
     type { '' }
     params { '' }
-    read_at { '2021-03-08 21:14:47' }
+    read_at { Time.zone.now }
   end
 end
