@@ -26,7 +26,6 @@ Setting it up is actually pretty simple, but there are a few things you need to 
 ~~~javascript
 //// mongoConfig.js
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
 const mongoDb = `YOUR MONGO URL`;
 
