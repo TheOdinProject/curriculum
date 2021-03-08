@@ -12,7 +12,8 @@ lesson_position = 0
 course = create_or_update_course(
   title: 'NodeJS',
   description: "Take your JavaScript skills to the server-side! Learn how to fully craft your site's backend using Express, the most popular back-end JavaScript framework! You will also learn how to use a non-relational database, MongoDB.",
-  position: course_position
+  position: course_position,
+  identifier_uuid: '1a2c27d8-258a-4d9e-97a4-83a4c2a03b64',
 )
 
 # +++++++++++

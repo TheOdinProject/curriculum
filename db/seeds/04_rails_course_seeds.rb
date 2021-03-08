@@ -13,6 +13,7 @@ course = create_or_update_course(
   title: 'Ruby on Rails',
   description: "Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.",
   position: course_position,
+  identifier_uuid: '100c8fbd-8cb0-4bdf-a809-66ecd69ec885',
 )
 
 # +++++++++++

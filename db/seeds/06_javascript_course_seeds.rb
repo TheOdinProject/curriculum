@@ -12,7 +12,8 @@ lesson_position = 0
 course = create_or_update_course(
   title: 'JavaScript',
   description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming principles, and build single page applications with React.",
-  position: course_position
+  position: course_position,
+  identifier_uuid: 'be963a26-8c2a-4af9-ac19-d68b526b5bc5',
 )
 
 # :description: "JavaScript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, JavaScript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",

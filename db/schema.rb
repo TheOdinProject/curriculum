@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 2021_03_08_211447) do
     t.datetime "updated_at", null: false
     t.integer "position", null: false
     t.string "slug"
+    t.string "identifier_uuid", default: "", null: false
     t.index ["slug"], name: "index_courses_on_slug"
   end
 

@@ -13,6 +13,7 @@ course = create_or_update_course(
   title: 'Ruby Programming',
   description: "Time to dive deep into Ruby, the language 'designed for programmer happiness.' You'll cover object-oriented design, testing, and data structures – essential knowledge for learning other programming languages, too!",
   position: course_position,
+  identifier_uuid: '643bf355-19f1-4326-a4ad-8ec57f9ea254',
 )
 
 # +++++++++++

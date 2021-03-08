@@ -11,6 +11,7 @@ course = create_or_update_course(
   title: 'Databases',
   description: ' Databases are used to organize and capture large amounts of data, typically by inputting, storing, retrieving and managing the information. This course will focus on relational databases, which are widely used to store data and SQL, the language used to query the database.',
   position: course_position,
+  identifier_uuid: '5038bddf-c121-4e92-8c68-dd34008b7ca0',
 )
 
 puts course.position

@@ -12,6 +12,7 @@ course = create_or_update_course(
   title: 'Getting Hired',
   description: "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career.",
   position: course_position,
+  identifier_uuid: 'fdad8aa6-d77c-4e7f-9d83-130e838904f3',
 )
 
 # +++++++++++
