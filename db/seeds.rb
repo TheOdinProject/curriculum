@@ -89,7 +89,6 @@ Rails.logger.info "\n\n***** STARTING PATHS *****"
 load './db/seeds/paths/foundations.rb'
 load './db/seeds/paths/full_stack_rails.rb'
 load './db/seeds/paths/full_stack_javascript.rb'
-load './db/seeds/paths/front_end.rb'
 
 # GENERATE SUCCESS STORY Content
 load './db/seeds/success_stories.rb'

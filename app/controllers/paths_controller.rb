@@ -6,9 +6,7 @@ class PathsController < ApplicationController
   end
 
   def index
-    # The filter on here is temporary until the path is removed and the students
-    #  enrolled in it are migrated to another path.
-    @paths = Path.order(:position).reject { |path| path.title == 'Front End Only' }
+    @paths = Path.order(:position)
   end
 
   private
