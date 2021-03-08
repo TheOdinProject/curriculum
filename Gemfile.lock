@@ -160,6 +160,9 @@ GEM
       ruby2_keywords
     faraday-net_http (1.0.0)
     ffi (1.14.2)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -190,9 +193,17 @@ GEM
     heapy (0.2.0)
       thor
     htmlentities (4.3.4)
+    http (4.4.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      http-parser (~> 1.2.0)
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    http-parser (1.2.3)
+      ffi-compiler (>= 1.0, < 2.0)
     i18n (1.8.9)
       concurrent-ruby (~> 1.0)
     inherited_resources (1.12.0)
@@ -253,6 +264,9 @@ GEM
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    noticed (1.2.21)
+      http (>= 4.0.0)
+      rails (>= 6.0.0)
     oauth2 (1.4.4)
       faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)
@@ -521,6 +535,7 @@ DEPENDENCIES
   listen
   newrelic_rpm
   nokogiri (~> 1.11.1)
+  noticed (~> 1.2)
   octokit (~> 4.20)
   omniauth-github
   omniauth-google-oauth2
