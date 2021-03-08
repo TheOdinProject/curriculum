@@ -1,6 +1,7 @@
 class UrlValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
-    record.errors[attribute] << (options[:message] || 'Must be a valid URL') unless url_valid?(value)
+    message = options[:message] || 'Must be a valid URL'
+    record.errors.add(attribute, message) unless url_valid?(value)
   end
 
   # rubocop:disable Style/RescueModifier
