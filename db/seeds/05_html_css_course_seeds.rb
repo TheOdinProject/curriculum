@@ -25,7 +25,8 @@ section = create_or_update_section(
   title: 'Basic HTML Page Structure',
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll cover the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a page."
+  description: "In this section, we'll cover the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a page.",
+  identifier_uuid: 'dc04b57f-9e90-43f7-b8f4-a6598e10ea90',
 )
 
 lesson_position += 1
@@ -99,7 +100,8 @@ section = create_or_update_section(
   title: 'Displaying and Inputting Data',
   course_id: course.id,
   position: section_position,
-  description: "Displaying and inputting data are two of your chief duties as a web developer. We'll cover the tools at your disposal, including tables and lists for display and forms for input."
+  description: "Displaying and inputting data are two of your chief duties as a web developer. We'll cover the tools at your disposal, including tables and lists for display and forms for input.",
+  identifier_uuid: '79ed6ec0-7711-48c0-bf75-920192ab432f',
 )
 
 lesson_position += 1
@@ -153,7 +155,8 @@ section = create_or_update_section(
   title: 'CSS',
   course_id: course.id,
   position: section_position,
-  description: "Here we'll cover each of the foundational CSS concepts in greater depth than you probably have before."
+  description: "Here we'll cover each of the foundational CSS concepts in greater depth than you probably have before.",
+  identifier_uuid: 'ac4174f2-c2a4-4e11-be00-52d8abfaaf1d',
 )
 
 lesson_position += 1
@@ -259,7 +262,8 @@ section = create_or_update_section(
   title: 'Design and UX',
   course_id: course.id,
   position: section_position,
-  description: "If you want to make your websites stop looking like they came from the 1990's, you'll need to gain an understanding for at least the best practices of design and User Experience (UX).  Not knowing this stuff is like charging over the next hill without any idea of why you're doing it."
+  description: "If you want to make your websites stop looking like they came from the 1990's, you'll need to gain an understanding for at least the best practices of design and User Experience (UX).  Not knowing this stuff is like charging over the next hill without any idea of why you're doing it.",
+  identifier_uuid: '721dbec7-fb68-4c28-aad9-044ae6d0c032',
 )
 
 lesson_position += 1
@@ -303,7 +307,8 @@ section = create_or_update_section(
   title: 'Responsive Design and CSS Frameworks',
   course_id: course.id,
   position: section_position,
-  description: 'These days you need to make sure your pages display easily on multiple viewport sizes by using fluid layouts and media queries.  Luckily there are CSS frameworks like Twitter Bootstrap that can save you a ton of time developing standard pages and which come with responsive functionality for free.'
+  description: 'These days you need to make sure your pages display easily on multiple viewport sizes by using fluid layouts and media queries. Luckily there are CSS frameworks like Twitter Bootstrap that can save you a ton of time developing standard pages and which come with responsive functionality for free.',
+  identifier_uuid: 'b99f6f56-1f50-4ba2-8a8a-f2e08bee0499',
 )
 
 lesson_position += 1
@@ -359,7 +364,8 @@ section = create_or_update_section(
   title: 'Advanced CSS',
   course_id: course.id,
   position: section_position,
-  description: "We'll take you beyond the basics of CSS and into a variety of additional topics from how to add some stylistic flair to your elements to using tools like preprocessors to save time and reduce repetition in your code."
+  description: "We'll take you beyond the basics of CSS and into a variety of additional topics from how to add some stylistic flair to your elements to using tools like preprocessors to save time and reduce repetition in your code.",
+  identifier_uuid: '31c08007-c670-4a7d-bb89-fa9c0a06f539',
 )
 
 lesson_position += 1

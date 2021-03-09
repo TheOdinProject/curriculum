@@ -27,7 +27,8 @@ section = create_or_update_section(
   title: 'Introduction',
   course_id: course.id,
   position: section_position,
-  description: 'Welcome to the JavaScript course!  Start here!'
+  description: 'Welcome to the JavaScript course! Start here!',
+  identifier_uuid: 'a96a48d1-4e38-4f47-a90d-e260569c9ab5',
 )
 
 lesson_position += 1
@@ -59,7 +60,8 @@ section = create_or_update_section(
   title: 'Organizing your JavaScript Code',
   course_id: course.id,
   position: section_position,
-  description: 'This series digs in to the things you need to write larger and larger applications with JavaScript.  This is where it gets real!'
+  description: 'This series digs in to the things you need to write larger and larger applications with JavaScript.  This is where it gets real!',
+  identifier_uuid: 'd0be5e66-0acc-4c62-8993-8d50e5af15a0',
 )
 
 lesson_position += 1
@@ -179,7 +181,8 @@ section = create_or_update_section(
   title: 'JavaScript in the Real World',
   course_id: course.id,
   position: section_position,
-  description: "Let's look at a few more practical applications of JavaScript and learn about a few useful tools that are widely used in the industry."
+  description: "Let's look at a few more practical applications of JavaScript and learn about a few useful tools that are widely used in the industry.",
+  identifier_uuid: '68a977d9-1ad5-4516-964b-c58703f19d50',
 )
 
 lesson_position += 1
@@ -241,7 +244,8 @@ section = create_or_update_section(
   title: 'Asynchronous JavaScript and APIs',
   course_id: course.id,
   position: section_position,
-  description: 'Asynchronous JavaScript'
+  description: 'Asynchronous JavaScript',
+  identifier_uuid: 'c26cc657-9d04-4d12-bc2e-1c8206696da7',
 )
 
 lesson_position += 1
@@ -305,7 +309,8 @@ section = create_or_update_section(
   title: 'React JS',
   course_id: course.id,
   position: section_position,
-  description: 'In this section you will learn the basics of the most popular frontend framework, React JS.'
+  description: 'In this section you will learn the basics of the most popular frontend framework, React JS.',
+  identifier_uuid: 'bf4a29d2-6420-40bd-8e45-8f7e704a4d39',
 )
 
 lesson_position += 1
@@ -423,7 +428,8 @@ section = create_or_update_section(
   title: 'Testing JavaScript',
   course_id: course.id,
   position: section_position,
-  description: "Test driven development is an important skill in today's dev world.  This section digs into the details of writing automated JavaScript tests."
+  description: "Test driven development is an important skill in today's dev world. This section digs into the details of writing automated JavaScript tests.",
+  identifier_uuid: 'c8526cf6-d66c-40f8-b03e-97c1f086d8c1',
 )
 
 lesson_position += 1
@@ -478,7 +484,8 @@ section = create_or_update_section(
   title: 'JavaScript and the Backend',
   course_id: course.id,
   position: section_position,
-  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end or how to outsource your backend to a Backend-as-a-Service company like Firebase."
+  description: "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end or how to outsource your backend to a Backend-as-a-Service company like Firebase.",
+  identifier_uuid: '490be3db-7c28-43d8-a530-328a0ba8188b',
 )
 
 lesson_position += 1
@@ -512,7 +519,8 @@ section = create_or_update_section(
   title: 'Finishing Up with JavaScript',
   course_id: course.id,
   position: section_position,
-  description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task. In this section you will be working on your capstone project so you can show off your range of skills."
+  description: "You've learned everything you need and all that remains to do is apply that knowledge to a worthy task. In this section you will be working on your capstone project so you can show off your range of skills.",
+  identifier_uuid: 'd3a05406-615d-4645-85f2-0cba667f2749',
 )
 
 lesson_position += 1

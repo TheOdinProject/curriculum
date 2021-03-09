@@ -25,7 +25,8 @@ section = create_or_update_section(
   title: 'Introduction to NodeJS',
   course_id: course.id,
   position: section_position,
-  description: "In this section you'll learn what NodeJS is and get your first taste of writing server-side JavaScript."
+  description: "In this section you'll learn what NodeJS is and get your first taste of writing server-side JavaScript.",
+  identifier_uuid: 'f8ec5b6e-5f36-4164-add9-a6b1ff60e7a2',
 )
 
 lesson_position += 1
@@ -69,7 +70,8 @@ section = create_or_update_section(
   title: 'Express & MongoDB',
   course_id: course.id,
   position: section_position,
-  description: 'Here we finally get to Express, the most popular back-end JavaScript framework, and MongoDB, a non-relational database frequently paired with Node.'
+  description: 'Here we finally get to Express, the most popular back-end JavaScript framework, and MongoDB, a non-relational database frequently paired with Node.',
+  identifier_uuid: '667788c1-67b9-4ed1-9b72-c5e8bc6f9009',
 )
 
 lesson_position += 1
@@ -177,7 +179,8 @@ section = create_or_update_section(
   title: 'Authentication',
   course_id: course.id,
   position: section_position,
-  description: 'We learn how to create authentication strategies that allow us to securely sign users into our applications.'
+  description: 'We learn how to create authentication strategies that allow us to securely sign users into our applications.',
+  identifier_uuid: '67438b44-9579-4d48-a495-ecf254479ffd',
 )
 
 lesson_position += 1
@@ -221,7 +224,8 @@ section = create_or_update_section(
   title: 'APIs',
   course_id: course.id,
   position: section_position,
-  description: "We use what we've learned to create API-only backends that can serve JSON to any front-end we want."
+  description: "We use what we've learned to create API-only backends that can serve JSON to any front-end we want.",
+  identifier_uuid: 'b94b517d-fd55-4fd2-9d54-38f6f709cfe5',
 )
 
 lesson_position += 1
@@ -265,7 +269,8 @@ section = create_or_update_section(
   title: 'Testing Express',
   course_id: course.id,
   position: section_position,
-  description: 'We learn what it takes to write tests for our Express projects'
+  description: 'In this section we learn what it takes to write tests for our Express projects.',
+  identifier_uuid: '684b4766-6b70-451b-baa1-05760c71349f',
 )
 
 lesson_position += 1
@@ -297,7 +302,8 @@ section = create_or_update_section(
   title: 'FINAL PROJECT',
   course_id: course.id,
   position: section_position,
-  description: "This is it!  Create your final project and prove to the world you're a node/express master"
+  description: "This is it! Create your final project and prove to the world you're a node/express master.",
+  identifier_uuid: '941fbec9-aeca-4cad-96fb-da60035b4a27',
 )
 
 lesson_position += 1

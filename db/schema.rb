@@ -170,6 +170,7 @@ ActiveRecord::Schema.define(version: 2021_03_08_211447) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "description"
+    t.string "identifier_uuid", default: "", null: false
     t.index ["course_id"], name: "index_sections_on_course_id"
     t.index ["position"], name: "index_sections_on_position"
   end

@@ -25,7 +25,8 @@ section = create_or_update_section(
   title: 'Introduction',
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll look at the path ahead and install ruby."
+  description: "In this section, we'll look at the path ahead and install ruby.",
+  identifier_uuid: 'a5854f3d-8171-47d1-b53f-e325de67aca4',
 )
 
 lesson_position += 1
@@ -57,7 +58,8 @@ section = create_or_update_section(
   title: 'Basic Ruby',
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll cover the basic building blocks of Ruby so you have them down cold. Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future."
+  description: "In this section, we'll cover the basic building blocks of Ruby so you have them down cold. Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future.",
+  identifier_uuid: 'bd6d7a38-54d6-4859-b508-c4a2e1deba6b',
 )
 
 lesson_position += 1
@@ -179,7 +181,8 @@ section = create_or_update_section(
   title: 'Basic Ruby Projects',
   course_id: course.id,
   position: section_position,
-  description: 'In this section we will solidify your basic Ruby knowledge by practicing with a few small projects.'
+  description: 'In this section we will solidify your basic Ruby knowledge by practicing with a few small projects.',
+  identifier_uuid: '866d62bc-4c5a-4d3f-946f-5ca2787d5bc8',
 )
 
 lesson_position += 1
@@ -239,7 +242,8 @@ section = create_or_update_section(
   title: 'Object Oriented Programming Basics',
   course_id: course.id,
   position: section_position,
-  description: "You've got tools in your Ruby tool box and now it's time to combine them into more meaningful programs. In this section, you'll learn how to turn your spaghetti code into properly organized methods and classes."
+  description: "You've got tools in your Ruby tool box and now it's time to combine them into more meaningful programs. In this section, you'll learn how to turn your spaghetti code into properly organized methods and classes.",
+  identifier_uuid: '0a7904f9-0824-4f32-b2b8-eedb2f47008d',
 )
 
 lesson_position += 1
@@ -285,7 +289,8 @@ section = create_or_update_section(
   title: 'Files and Serialization',
   course_id: course.id,
   position: section_position,
-  description: "In this section you'll take your Ruby skills to the next level by discovering how to serialize code and save it into files."
+  description: "In this section you'll take your Ruby skills to the next level by discovering how to serialize code and save it into files.",
+  identifier_uuid: '2222cd27-0168-4046-8b69-6921fff1764c',
 )
 
 lesson_position += 1
@@ -331,7 +336,8 @@ section = create_or_update_section(
   title: 'A Bit of Computer Science',
   course_id: course.id,
   position: section_position,
-  description: "In this section, you'll learn some fundamental computer science concepts that will help you when solving problems with a bit more complexity than just simple web serving.  You get to try on your engineering hat and solve some pretty nifty problems."
+  description: "In this section, you'll learn some fundamental computer science concepts that will help you when solving problems with a bit more complexity than just simple web serving.  You get to try on your engineering hat and solve some pretty nifty problems.",
+  identifier_uuid: '1dc1d088-73be-4590-9eaa-73309f614b7c',
 )
 
 lesson_position += 1
@@ -421,7 +427,8 @@ section = create_or_update_section(
   title: 'Testing Ruby with RSpec',
   course_id: course.id,
   position: section_position,
-  description: "You've been briefly introduced to testing in Ruby a couple of times before in the Foundations course, but now you're going to really learn why testing can be hugely helpful and how to apply it to your own projects."
+  description: "You've been briefly introduced to testing in Ruby a couple of times before in the Foundations course, but now you're going to really learn why testing can be hugely helpful and how to apply it to your own projects.",
+  identifier_uuid: '1e8d5245-ed37-498e-a06e-be208aced01f',
 )
 
 lesson_position += 1
@@ -465,7 +472,8 @@ section = create_or_update_section(
   title: 'Git',
   course_id: course.id,
   position: section_position,
-  description: "You should be familiar with the basic Git workflow since you've been using it to save your projects along the way (right?!).  This section will start preparing you for for the more intermediate-level uses of Git that you'll find yourself doing ."
+  description: "You should be familiar with the basic Git workflow since you've been using it to save your projects along the way (right?!).  This section will start preparing you for for the more intermediate-level uses of Git that you'll find yourself doing.",
+  identifier_uuid: '4e059547-a8fd-426d-b546-24c2222106c6',
 )
 
 lesson_position += 1
@@ -497,7 +505,8 @@ section = create_or_update_section(
   title: 'Conclusion',
   course_id: course.id,
   position: section_position,
-  description: "You've come an exceptional distance already, now there's just the matter of wrapping it all together into one coherant package and creating something real.  This is your Final Exam and a major feather in your cap.  Once you've completed this section, you should have the confidence to tackle pretty much anything."
+  description: "You've come an exceptional distance already, now there's just the matter of wrapping it all together into one coherant package and creating something real.  This is your Final Exam and a major feather in your cap.  Once you've completed this section, you should have the confidence to tackle pretty much anything.",
+  identifier_uuid: '42521d3c-c22e-481f-9885-9ef1156897c6',
 )
 
 lesson_position += 1

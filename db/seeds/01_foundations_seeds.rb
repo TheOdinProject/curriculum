@@ -25,7 +25,8 @@ section = create_or_update_section(
   title: 'Introduction',
   course_id: course.id,
   position: section_position,
-  description: "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development."
+  description: "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development.",
+  identifier_uuid: '472bf0bc-2667-4206-84ea-43498b1d67f9',
 )
 
 lesson_position += 1
@@ -87,7 +88,8 @@ section = create_or_update_section(
   title: 'Installations',
   course_id: course.id,
   position: section_position,
-  description: 'In this section you will configure your development environment and install some software necessary for web development.'
+  description: 'In this section you will configure your development environment and install some software necessary for web development.',
+  identifier_uuid: 'a6ff8570-b301-4275-8cb4-1847a8f8ae25',
 )
 
 lesson_position += 1
@@ -149,7 +151,8 @@ section = create_or_update_section(
   title: 'Git Basics',
   course_id: course.id,
   position: section_position,
-  description: 'In this section you will learn the basics of Git and how you can upload your future projects to GitHub so you can share your work and collaborate with others on projects easily.'
+  description: 'In this section you will learn the basics of Git and how you can upload your future projects to GitHub so you can share your work and collaborate with others on projects easily.',
+  identifier_uuid: '7fbf3991-88d4-4564-9982-dce53328f037',
 )
 
 lesson_position += 1
@@ -193,7 +196,8 @@ section = create_or_update_section(
   title: 'The Front End',
   course_id: course.id,
   position: section_position,
-  description: "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and JavaScript.  You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with JavaScript."
+  description: "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and JavaScript.  You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with JavaScript.",
+  identifier_uuid: '552d3718-14c6-4b0a-848d-2dcca271ac61',
 )
 
 lesson_position += 1
@@ -247,7 +251,8 @@ section = create_or_update_section(
   title: 'JavaScript Basics',
   course_id: course.id,
   position: section_position,
-  description: 'Here we finally dig into JavaScript and learn how to make the web dynamic.'
+  description: 'Here we finally dig into JavaScript and learn how to make the web dynamic.',
+  identifier_uuid: '331227f7-c939-4988-b8b9-e140d2ded362',
 )
 
 lesson_position += 1
@@ -385,7 +390,8 @@ section = create_or_update_section(
   title: 'The Back End',
   course_id: course.id,
   position: section_position,
-  description: "Here you'll learn about the back end, where we'll demystify what goes on behind the scenes on a web server."
+  description: "Here you'll learn about the back end, where we'll demystify what goes on behind the scenes on a web server.",
+  identifier_uuid: '1bda637d-2590-4e0e-b988-a74605d09a8a',
 )
 
 lesson_position += 1
@@ -417,7 +423,8 @@ section = create_or_update_section(
   title: 'Tying it All Together',
   course_id: course.id,
   position: section_position,
-  description: "Now that you've had a healthy taste of all the major components in a web application, we'll take a step back and remember where they all fit into the bigger picture."
+  description: "Now that you've had a healthy taste of all the major components in a web application, we'll take a step back and remember where they all fit into the bigger picture.",
+  identifier_uuid: '22cbdd2f-785b-40c9-9c54-d21755974df7',
 )
 
 lesson_position += 1

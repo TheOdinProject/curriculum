@@ -24,7 +24,8 @@ section = create_or_update_section(
   title: 'Preparing for Your Job Search',
   course_id: course.id,
   position: section_position,
-  description: 'Your job search begins long before you send out the first application, so be sure to adequately prepare by laying out a strategy and being honest with yourself about your goals, needs and expectations.'
+  description: 'Your job search begins long before you send out the first application, so be sure to adequately prepare by laying out a strategy and being honest with yourself about your goals, needs and expectations.',
+  identifier_uuid: '5253b457-47e4-401c-81d0-92cd7817f138',
 )
 
 lesson_position += 1
@@ -98,7 +99,8 @@ section = create_or_update_section(
   title: 'Applying to and Interviewing for Jobs',
   course_id: course.id,
   position: section_position,
-  description: "This is an odds game, so you've got to structure your plan and focus on highest probability approaches and targets.  In this section we'll cover how the process typically works and the best way to increase your odds of success. Go get 'em."
+  description: "This is an odds game, so you've got to structure your plan and focus on highest probability approaches and targets. In this section we'll cover how the process typically works and the best way to increase your odds of success. Go get 'em.",
+  identifier_uuid: '8b579b0b-e394-4959-b86e-ab7e92d1b1b3',
 )
 
 lesson_position += 1

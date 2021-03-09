@@ -25,7 +25,8 @@ section = create_or_update_section(
   title: 'Introduction',
   course_id: course.id,
   position: section_position,
-  description: 'In this section, we will install Rails.'
+  description: 'In this section, we will install Rails.',
+  identifier_uuid: 'e8d47281-55b2-4cc1-9679-a46d99fa2287',
 )
 
 lesson_position += 1
@@ -69,7 +70,8 @@ section = create_or_update_section(
   title: 'Rails Basics',
   course_id: course.id,
   position: section_position,
-  description: "It's time to start looking carefully into the foundational pieces of the Rails framework. We'll cover the path of an HTTP request from entering your application to returning as an HTML page to the browser."
+  description: "It's time to start looking carefully into the foundational pieces of the Rails framework. We'll cover the path of an HTTP request from entering your application to returning as an HTML page to the browser.",
+  identifier_uuid: '8ffa853e-e5d0-44d8-a61c-4a620601c422',
 )
 
 lesson_position += 1
@@ -163,7 +165,8 @@ section = create_or_update_section(
   title: 'Active Record Basics',
   course_id: course.id,
   position: section_position,
-  description: "This section covers the back end of Rails, which is the most important part of the framework.  You'll learn how to interface with databases using the fantastic Active Record gem."
+  description: "This section covers the back end of Rails, which is the most important part of the framework. You'll learn how to interface with databases using the fantastic Active Record gem.",
+  identifier_uuid: '0f07a836-ba21-472e-b2e5-82803862b1ae',
 )
 
 lesson_position += 1
@@ -197,7 +200,8 @@ section = create_or_update_section(
   title: 'Forms and Authentication',
   course_id: course.id,
   position: section_position,
-  description: "This section gets into some of the areas of web apps that are less glamorous than they are important.  Forms are your user's window to interact with your application. Authentication is critical for many applications, and you'll build a couple of auth systems from the ground up."
+  description: "This section gets into some of the areas of web apps that are less glamorous than they are important.  Forms are your user's window to interact with your application. Authentication is critical for many applications, and you'll build a couple of auth systems from the ground up.",
+  identifier_uuid: '4cfbfcf7-f561-4e63-8bcd-050175684aba',
 )
 
 lesson_position += 1
@@ -253,7 +257,8 @@ section = create_or_update_section(
   title: 'Advanced Forms and Active Record',
   course_id: course.id,
   position: section_position,
-  description: "Now it's starting to get fun!  Learn how to do more than just find and show your users... you'll learn how to use relationships between models to greatly expand your abilities and how to build web forms with sufficient firepower to achieve your most ambitious goals."
+  description: "Now it's starting to get fun! Learn how to do more than just find and show your users... you'll learn how to use relationships between models to greatly expand your abilities and how to build web forms with sufficient firepower to achieve your most ambitious goals.",
+  identifier_uuid: 'd391a4d0-8aa2-4eb0-bd58-2395ba3f837c',
 )
 
 lesson_position += 1
@@ -329,7 +334,8 @@ section = create_or_update_section(
   title: 'APIs',
   course_id: course.id,
   position: section_position,
-  description: 'In this penultimate section we will explore harnessing the powers of other apps via their APIs and creating our own.'
+  description: 'In this penultimate section we will explore harnessing the powers of other apps via their APIs and creating our own.',
+  identifier_uuid: '0e7e7a73-8d9c-484f-8339-e63125ae89d3',
 )
 
 lesson_position += 1
@@ -385,7 +391,8 @@ section = create_or_update_section(
   title: 'Mailers and Advanced Topics',
   course_id: course.id,
   position: section_position,
-  description: 'This final section will take you into some of the more interesting sides of the Rails ecosystem which will help you reach beyond your own app and into the lives of your users via email.'
+  description: 'This final section will take you into some of the more interesting sides of the Rails ecosystem which will help you reach beyond your own app and into the lives of your users via email.',
+  identifier_uuid: 'dc9c8e4c-f3e9-4536-81be-c4dc51f66dff',
 )
 
 lesson_position += 1

@@ -24,7 +24,8 @@ section = create_or_update_section(
   title: 'Databases',
   course_id: course.id,
   position: section_position,
-  description: 'Rails does a lot of the heavy lifting with connecting and querying a database but there will be times you need to tweak a query to the database using raw SQL. Learning how to query efficiently will help your understanding of what Rails helps abstract away.'
+  description: 'Rails does a lot of the heavy lifting with connecting and querying a database but there will be times you need to tweak a query to the database using raw SQL. Learning how to query efficiently will help your understanding of what Rails helps abstract away.',
+  identifier_uuid: '2fd5cf3b-746e-442c-92b5-9871c1fc9fdb',
 )
 
 lesson_position += 1
