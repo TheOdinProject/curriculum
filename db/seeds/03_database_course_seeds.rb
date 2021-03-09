@@ -36,6 +36,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/databases/database_basics_lesson.md',
+  identifier_uuid: '567f9db4-655c-4df9-9de2-71fc8cfbf391',
 )
 
 lesson_position += 1
@@ -46,6 +47,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/databases/databases.md',
+  identifier_uuid: '60439aa4-1f12-49e2-8cc9-515574e2ad71',
 )
 
 lesson_position += 1
@@ -57,5 +59,6 @@ create_or_update_lesson(
   is_project: true,
   url: '/databases/project_databases.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: 'a4baeee4-7bab-47ba-8157-c8f52b204734',
 )

@@ -39,6 +39,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/introduction/introduction.md',
+  identifier_uuid: '93d2a049-0f6c-4da8-b346-d477c1e7a000',
 )
 
 lesson_position += 1
@@ -49,6 +50,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/introduction/js101-review.md',
+  identifier_uuid: '428d54c7-3324-4ee2-afaf-08e1c373b314',
 )
 
 # +++++++++++
@@ -72,6 +74,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/organizing-introduction.md',
+  identifier_uuid: 'ecbc4a4c-d787-440f-a26b-bd4558a76869',
 )
 
 lesson_position += 1
@@ -82,6 +85,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/objects-constructors.md',
+  identifier_uuid: '0b148848-4f2d-4425-837c-b64b72c741bd',
 )
 
 lesson_position += 1
@@ -93,7 +97,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/library-project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '67338e32-0121-44bd-98c2-2f8e6b299adf',
 )
 
 lesson_position += 1
@@ -104,6 +109,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/factory-functions.md',
+  identifier_uuid: '7ff3da5b-44dd-457e-a216-527a007835bb',
 )
 
 lesson_position += 1
@@ -115,7 +121,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/tic-tac-toe-project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '47798979-cdc8-4c86-a70d-05ffb51d5aac',
 )
 
 lesson_position += 1
@@ -126,6 +133,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/classes.md',
+  identifier_uuid: '0583cd2d-4bff-4b36-9316-afc146c777f7',
 )
 
 lesson_position += 1
@@ -136,6 +144,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/es6-modules.md',
+  identifier_uuid: '0169e4d1-e381-49e0-897b-f9364ac10e51',
 )
 
 lesson_position += 1
@@ -147,7 +156,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/restaurant-project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'a1453e8f-d4e8-44ce-b30e-552c65162ac6',
 )
 
 lesson_position += 1
@@ -158,6 +168,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/organizing-js/oop-concepts.md',
+  identifier_uuid: 'eb45fbdb-c2ff-4aef-98bf-a85f5adac3af',
 )
 
 lesson_position += 1
@@ -169,7 +180,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/organizing-js/todo-project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '5934b09a-ca38-4968-8df1-720456b7af9a'
 )
 
 # +++++++++++
@@ -193,6 +205,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/linting.md',
+  identifier_uuid: 'a7ae0481-b9cc-40b3-a9dd-4c7227ce2d3d',
 )
 
 lesson_position += 1
@@ -203,6 +216,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/ui-Interactions.md',
+  identifier_uuid: 'd6a88ccb-9fdb-4544-a363-4d7f1054e36f',
 )
 
 lesson_position += 1
@@ -213,6 +227,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/forms.md',
+  identifier_uuid: 'c95fe496-2223-4c96-bf3f-9d8e3796d233',
 )
 
 lesson_position += 1
@@ -223,6 +238,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/webpack.md',
+  identifier_uuid: 'eedfa6c8-b041-497d-ab37-565708a1b075',
 )
 
 lesson_position += 1
@@ -233,6 +249,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-in-the-real-world/es6-features.md',
+  identifier_uuid: 'f5c4b108-adf8-41af-bf3b-a38dd409a67d',
 )
 
 # +++++++++++
@@ -256,6 +273,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/json.md',
+  identifier_uuid: 'ae0d44bf-60b7-4644-b61e-216a4a6b271b',
 )
 
 lesson_position += 1
@@ -266,6 +284,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/promises-async.md',
+  identifier_uuid: '31ab5898-fd2b-48c4-9070-0e8b622b0805',
 )
 
 lesson_position += 1
@@ -276,6 +295,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/APIs.md',
+  identifier_uuid: '8ce12e98-3413-4d0a-a749-0701ae959f6a',
 )
 
 lesson_position += 1
@@ -286,6 +306,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/async-apis/async-await.md',
+  identifier_uuid: '70e6bedf-98ce-47bb-80fd-5d8ecf6f9f8b',
 )
 
 lesson_position += 1
@@ -297,7 +318,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/async-apis/project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '5212a020-85ed-4e43-84ec-6b583b57e8cb',
 )
 
 # +++++++++++
@@ -321,6 +343,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/react-introduction.md',
+  identifier_uuid: '147b4b39-9725-4ef0-94bb-be13de0907fb',
 )
 
 lesson_position += 1
@@ -331,6 +354,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/state-and-props.md',
+  identifier_uuid: '62dac0e1-2acc-4392-b5b5-a12e010f50e4',
 )
 
 lesson_position += 1
@@ -341,6 +365,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/inputs-and-lists.md',
+  identifier_uuid: '4ad5f107-7f36-4606-bf87-59b07e2558c8',
 )
 
 lesson_position += 1
@@ -352,7 +377,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/react-js/project-cv.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'f3b5cee3-a255-4c72-8022-942cbddf0b86',
 )
 
 lesson_position += 1
@@ -363,6 +389,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/lifecycle-methods.md',
+  identifier_uuid: '64f06d1e-44a6-41f6-a34b-f9f713c76aab',
 )
 
 lesson_position += 1
@@ -373,6 +400,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/hooks.md',
+  identifier_uuid: 'a427cd6c-e001-4c52-80f8-f538883ffc39',
 )
 
 lesson_position += 1
@@ -384,7 +412,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/react-js/project-memory-card.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '87bbed05-daf2-4c45-a549-fc9ecfa2657c',
 )
 
 lesson_position += 1
@@ -395,6 +424,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/router.md',
+  identifier_uuid: 'f34f2b12-a3fd-41a1-9726-140a1ebde5f1',
 )
 
 lesson_position += 1
@@ -406,7 +436,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/react-js/project-shopping-chart.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '60bb8597-19db-4d6f-9eca-059743206de5',
 )
 
 lesson_position += 1
@@ -417,6 +448,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/react-js/advanced-concepts.md',
+  identifier_uuid: 'e2a290b1-cc94-498b-ba32-a40ddfbf2a3a',
 )
 
 # +++++++++++
@@ -440,6 +472,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/testing/testing-1.md',
+  identifier_uuid: 'fcb8c8f9-7475-47bf-82a0-4df6a4afdf96',
 )
 
 lesson_position += 1
@@ -451,7 +484,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/testing/testing-practice.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '319ce38c-f68b-4bba-b9f7-25df452f0523',
 )
 
 lesson_position += 1
@@ -462,6 +496,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/testing/testing-2.md',
+  identifier_uuid: '82c12ec2-9a10-4177-8dfd-d87d34685983',
 )
 
 lesson_position += 1
@@ -473,8 +508,10 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/testing/battleship-project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '62702165-7705-47ba-a308-dd39c561e057',
 )
+
 # +++++++++++
 # SECTION
 # +++++++++++
@@ -496,6 +533,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/js-rails/rails_backend.md',
+  identifier_uuid: '80eda4a3-02c9-489f-acef-bea2ba628e09',
 )
 
 lesson_position += 1
@@ -508,6 +546,7 @@ create_or_update_lesson(
   url: '/javascript/js-rails/project_rails_backend.md',
   accepts_submission: true,
   has_live_preview: true,
+  identifier_uuid: '386dd44a-31dc-45dc-a535-cd5508365c86',
 )
 
 # +++++++++++
@@ -532,7 +571,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/javascript/finishing-up/project_final_js.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '8edf8c0e-9197-4660-82c1-e035cdd4b30b',
 )
 
 lesson_position += 1
@@ -543,4 +583,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/javascript/finishing-up/conclusion.md',
+  identifier_uuid: '4b881c82-4cba-4090-a819-17aac12ccb46',
 )

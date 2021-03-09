@@ -37,6 +37,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/introduction.md',
+  identifier_uuid: 'c1f2931a-573f-478a-8937-1bef56e70b37',
 )
 
 lesson_position += 1
@@ -47,6 +48,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/html5_basics.md',
+  identifier_uuid: 'decaf84d-121e-4379-b56c-ef28e36915f6',
 )
 
 lesson_position += 1
@@ -57,6 +59,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/links.md',
+  identifier_uuid: 'fb36ca2e-329a-4480-868d-4e3a139e225f',
 )
 
 lesson_position += 1
@@ -67,6 +70,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/images.md',
+  identifier_uuid: 'd56f1e3f-90bf-4f23-911c-c53da2b75a60',
 )
 
 lesson_position += 1
@@ -78,7 +82,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_media.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '819dd212-ade2-4267-ba93-9d836a376245',
 )
 
 lesson_position += 1
@@ -89,6 +94,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/new_html5.md',
+  identifier_uuid: 'f211935c-13f0-4a97-83a1-723814d17f0f',
 )
 
 # +++++++++++
@@ -112,6 +118,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/tables.md',
+  identifier_uuid: '175a1ed2-aea3-4ca8-b79b-ccceec5977ee',
 )
 
 lesson_position += 1
@@ -122,6 +129,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/lists.md',
+  identifier_uuid: 'b0463aea-1105-4e82-a08a-ecc2d5b5f889',
 )
 
 lesson_position += 1
@@ -132,6 +140,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/html_forms.md',
+  identifier_uuid: 'bc0d62e5-0c99-4d7d-9697-cde39c828d23',
 )
 
 lesson_position += 1
@@ -143,7 +152,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_html_forms.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '0a54d007-c439-4b3c-8b07-2731bd95dcad',
 )
 
 # +++++++++++
@@ -167,6 +177,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/css_basics.md',
+  identifier_uuid: '44b0f14d-9e25-474a-ae6c-1ce3646c331c',
 )
 
 lesson_position += 1
@@ -177,6 +188,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/box_model.md',
+  identifier_uuid: '4d3f6d4a-0687-4524-b306-d2d6d63cd9ae',
 )
 
 lesson_position += 1
@@ -187,6 +199,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/floats_positioning.md',
+  identifier_uuid: '41230d27-791f-4285-af15-86acbee82f5f',
 )
 
 lesson_position += 1
@@ -197,6 +210,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/flexbox_layout.md',
+  identifier_uuid: '5ec131c6-e12e-4972-92c2-5a38ebf4b8e6',
 )
 
 lesson_position += 1
@@ -207,6 +221,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/grid_layout.md',
+  identifier_uuid: 'b9fca114-13f1-429a-b714-f81a0f3a7ca0',
 )
 
 lesson_position += 1
@@ -218,7 +233,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_positioning.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '4d066c95-0856-44b2-9356-c79363f21702',
 )
 
 lesson_position += 1
@@ -229,6 +245,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/best_practices.md',
+  identifier_uuid: 'c9daa698-1b8a-4b8c-bca5-c288d2ce7dbd',
 )
 
 lesson_position += 1
@@ -239,6 +256,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/backgrounds.md',
+  identifier_uuid: 'f99bdc7a-ad74-46c7-9ffd-1eae9abbb5f9',
 )
 
 lesson_position += 1
@@ -250,7 +268,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_backgrounds.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '88dc6852-b174-4ef0-a463-fc3e04e7867c',
 )
 
 # +++++++++++
@@ -274,6 +293,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/design_ux.md',
+  identifier_uuid: '5bc62668-712d-4640-9caa-4845333702e8',
 )
 
 lesson_position += 1
@@ -284,6 +304,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/typography.md',
+  identifier_uuid: '343ab347-ef28-4dc5-b138-76dda5f74300',
 )
 
 lesson_position += 1
@@ -295,7 +316,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_design.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'deb32810-8de7-4565-bf9d-be43058f271c',
 )
 
 # +++++++++++
@@ -319,6 +341,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/responsive_design.md',
+  identifier_uuid: '7ddc07dd-a5a1-4293-8014-19e8c003c659',
 )
 
 lesson_position += 1
@@ -330,7 +353,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_responsive.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'd2b23556-14e1-4926-8fd5-82405a99b511',
 )
 
 lesson_position += 1
@@ -341,6 +365,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/css_frameworks.md',
+  identifier_uuid: '54229a00-02f2-4aa8-87b3-0d471beb734d',
 )
 
 lesson_position += 1
@@ -352,7 +377,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_bootstrap.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'd7c5eed1-7252-45e7-8946-199eed8b258b',
 )
 
 # +++++++++++
@@ -376,6 +402,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/stylings.md',
+  identifier_uuid: '98ea952b-8727-45aa-84d9-ed4a0a3d9d6e',
 )
 
 lesson_position += 1
@@ -386,6 +413,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/preprocessors.md',
+  identifier_uuid: 'bb7543e2-77da-42c1-b1cc-616cfe6f878b',
 )
 
 lesson_position += 1
@@ -397,7 +425,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/html_css/project_css_frameworks.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '8010443d-8430-413a-ae11-38866ff0bb30',
 )
 
 lesson_position += 1
@@ -408,4 +437,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/html_css/conclusion.md',
+  identifier_uuid: '58c50ae7-76a9-443d-b6df-227ec3e8b11b',
 )

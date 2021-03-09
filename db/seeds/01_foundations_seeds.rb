@@ -37,6 +37,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/how_this_course_will_work.md',
+  identifier_uuid: '73a47505-5085-4c7b-82a4-3f0d842edf66',
 )
 
 lesson_position += 1
@@ -47,6 +48,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/introduction_to_web_development.md',
+  identifier_uuid: '9db1e5c7-63ea-4ae0-8c88-8f5d1821413e',
 )
 
 lesson_position += 1
@@ -57,6 +59,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/motivation_and_mindset.md',
+  identifier_uuid: '276366c4-881b-4673-8e29-8f9ce8f3ae1d',
 )
 
 lesson_position += 1
@@ -67,6 +70,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/join_the_odin_community.md',
+  identifier_uuid: 'd950a6fe-8d04-4f36-a9d3-1def19e0f7a7',
 )
 
 lesson_position += 1
@@ -77,6 +81,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/introduction/how_does_the_web_work.md',
+  identifier_uuid: '1218a4a0-c92e-465b-b7c5-322ca5731a5f',
 )
 
 # ++++++++++++++++++++
@@ -100,6 +105,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/installation_overview.md',
+  identifier_uuid: 'ef45c208-6ebf-4fff-ba92-1d7584d3a9f2',
 )
 
 lesson_position += 1
@@ -110,6 +116,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/prerequisites.md',
+  identifier_uuid: '93dbf0e1-3c06-46a8-8640-1d537e2e723b',
 )
 
 lesson_position += 1
@@ -120,6 +127,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/text_editors.md',
+  identifier_uuid: 'e65a3229-f1a2-4589-ba7f-c114d8e0c645',
 )
 
 lesson_position += 1
@@ -130,6 +138,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/command_line_basics.md',
+  identifier_uuid: '3136c43f-e64d-4f92-bcb7-c7ed193c91e9',
 )
 
 lesson_position += 1
@@ -140,6 +149,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/installations/setting_up_git.md',
+  identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
 )
 
 # +++++++++++
@@ -163,6 +173,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/git_basics/introduction_to_git.md',
+  identifier_uuid: '12ba3e27-8391-4f98-917a-b34b7babc23b',
 )
 
 lesson_position += 1
@@ -173,6 +184,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/git_basics/git_basics.md',
+  identifier_uuid: 'e48795b0-1df8-49c8-9c63-2072f31a36eb',
 )
 
 lesson_position += 1
@@ -184,7 +196,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/foundations/git_basics/project_practicing_git_basics.md',
   accepts_submission: false,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '1b9a7591-32ae-4dd6-a94f-07b212da8c6a',
 )
 
 # +++++++++++
@@ -208,6 +221,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_front_end/introduction_to_the_front_end.md',
+  identifier_uuid: '74fcb4ea-d96b-4c41-b3ac-cfd46d8cda54',
 )
 
 lesson_position += 1
@@ -218,6 +232,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_front_end/html_css_basics.md',
+  identifier_uuid: '364f5544-89ad-44aa-a4c7-34c5d1abd266',
 )
 
 lesson_position += 1
@@ -228,6 +243,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_front_end/developer_tools.md',
+  identifier_uuid: '3b2d3077-0706-44b1-b8a9-7bf8ae24ccbc',
 )
 
 lesson_position += 1
@@ -239,7 +255,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/foundations/the_front_end/project_html_css.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'aaecd394-a1c4-4503-8493-4bf1f7c61d81',
 )
 
 # +++++++++++
@@ -263,6 +280,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-1.md',
+  identifier_uuid: '94b3cc9b-75f8-4738-aa5c-fc50fa51e335',
 )
 
 lesson_position += 1
@@ -273,6 +291,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-2.md',
+  identifier_uuid: '06069c6b-8278-4023-be4f-336156621ba3',
 )
 
 lesson_position += 1
@@ -283,6 +302,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/developer_tools_2.md',
+  identifier_uuid: '60494609-9c68-4ddb-8b3b-96dc8afd876c',
 )
 
 lesson_position += 1
@@ -293,6 +313,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-3.md',
+  identifier_uuid: 'a5836067-c3c3-47fb-9cef-02de0d00fa3b',
 )
 
 lesson_position += 1
@@ -302,7 +323,8 @@ create_or_update_lesson(
   position: lesson_position,
   description: 'In this lesson we will explore how to approach solving programming problems.',
   url: '/foundations/javascript_basics/problem_solving.md',
-  is_project: false
+  is_project: false,
+  identifier_uuid: 'c7d096d3-d0db-4f4a-80f9-f1fd79ee6c6b',
 )
 
 lesson_position += 1
@@ -314,7 +336,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/foundations/javascript_basics/project_rock_paper_scissors.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '5cc2b83d-8024-4e07-82a0-38687b75c300',
 )
 
 lesson_position += 1
@@ -325,6 +348,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/clean_code.md',
+  identifier_uuid: 'e341018d-424e-40ac-b6cf-59fcdd422446',
 )
 
 lesson_position += 1
@@ -335,6 +359,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-4.md',
+  identifier_uuid: '336b3336-c589-4e61-876f-1c0e60617da4',
 )
 
 lesson_position += 1
@@ -345,6 +370,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/DOM-manipulation.md',
+  identifier_uuid: '7718816d-45eb-477d-9443-a8f1de2db22c',
 )
 
 lesson_position += 1
@@ -356,7 +382,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/foundations/javascript_basics/project_etch_a_sketch.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'fa9a5eea-a42c-4f89-9d53-6e1b8634d6ff',
 )
 
 lesson_position += 1
@@ -367,6 +394,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/javascript_basics/fundamentals-5.md',
+  identifier_uuid: 'd85b729e-237e-4850-a6a8-44d84ecc6f52',
 )
 
 lesson_position += 1
@@ -378,7 +406,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/foundations/javascript_basics/project_calculator.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '2aa09e04-cbfa-4b48-97a6-140a760eda08',
 )
 
 # +++++++++++
@@ -402,6 +431,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_back_end/introduction_to_the_backend_lesson.md',
+  identifier_uuid: '9dfc032b-1919-41f8-9445-1c53d7be599b',
 )
 
 lesson_position += 1
@@ -412,6 +442,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/the_back_end/introduction_to_frameworks.md',
+  identifier_uuid: '18a063b0-c22c-4415-aba4-eb2865a27fc4',
 )
 
 # +++++++++++
@@ -435,5 +466,6 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/foundations/tying_it_all_together/conclusion.md',
-  choose_path_lesson: true
+  choose_path_lesson: true,
+  identifier_uuid: '01f33d4a-46c5-42ab-9aa6-23e21b789f6c',
 )

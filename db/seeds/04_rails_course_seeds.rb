@@ -37,6 +37,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/introduction/introduction.md',
+  identifier_uuid: '5e9d7694-e930-4090-ba4e-1ae3b19d513e',
 )
 
 lesson_position += 1
@@ -47,6 +48,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/introduction/preparing_for_deployment.md',
+  identifier_uuid: '78c530bf-f358-4e6c-924d-8767efc37533',
 )
 
 lesson_position += 1
@@ -59,6 +61,7 @@ create_or_update_lesson(
   url: '/rails_programming/introduction/installing_rails.md',
   accepts_submission: false,
   has_live_preview: false,
+  identifier_uuid: '9dbd5caa-a77d-4731-8897-542aae2984e3',
 )
 
 # +++++++++++
@@ -82,6 +85,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/web_refresher.md',
+  identifier_uuid: '03151914-6ea0-4bbf-aafe-0ace33855bf6',
 )
 
 lesson_position += 1
@@ -92,6 +96,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/routing.md',
+  identifier_uuid: '50707650-7135-46b8-b42f-feda9ba46213',
 )
 
 lesson_position += 1
@@ -102,6 +107,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/controller_basics.md',
+  identifier_uuid: 'b4ecc31f-325f-4b31-b1c9-efa2ccc467bf',
 )
 
 lesson_position += 1
@@ -112,6 +118,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/views.md',
+  identifier_uuid: 'c0299335-f370-4e80-9286-7fd2d6b8e351',
 )
 
 lesson_position += 1
@@ -122,6 +129,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/asset_pipeline.md',
+  identifier_uuid: '13a13e03-9a3c-4ffc-88cb-25b03a4f5b66',
 )
 
 lesson_position += 1
@@ -132,6 +140,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/webpacker.md',
+  identifier_uuid: '7798211e-e6b6-4d7c-98c6-8203e3668a57',
 )
 
 lesson_position += 1
@@ -142,6 +151,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/rails_basics/deployment.md',
+  identifier_uuid: '122dffc9-d98e-490e-8e58-e5f7c66909d4',
 )
 
 lesson_position += 1
@@ -154,6 +164,7 @@ create_or_update_lesson(
   url: '/rails_programming/rails_basics/project_blog_app.md',
   accepts_submission: true,
   has_live_preview: true,
+  identifier_uuid: '00167c46-3d50-410f-947a-729571744920'
 )
 
 # +++++++++++
@@ -177,6 +188,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/databases_and_activerecord/active_record_basics.md',
+  identifier_uuid: '260d1def-c36c-4512-b8aa-223458f356b0',
 )
 
 lesson_position += 1
@@ -188,7 +200,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/databases_and_activerecord/project_ar_basics.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: 'f46373db-e4e2-4aec-866e-b0123fc7928e',
 )
 
 # +++++++++++
@@ -212,6 +225,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/forms_and_authentication/form_basics.md',
+  identifier_uuid: 'f115f7e4-7ddd-49b2-96d8-2403f172704e',
 )
 
 lesson_position += 1
@@ -223,7 +237,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/forms_and_authentication/project_forms.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '3f3fa50c-9223-4178-b86a-6b50caf30896',
 )
 
 lesson_position += 1
@@ -234,6 +249,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/forms_and_authentication/sessions_cookies_authentication.md',
+  identifier_uuid: '95e85ce2-008a-4e1b-a553-664029025cf5',
 )
 
 lesson_position += 1
@@ -245,7 +261,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/forms_and_authentication/project_auth.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '038fc7b2-11df-4d95-9cc9-f6006e51ec2d',
 )
 
 # +++++++++++
@@ -269,6 +286,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/active_record_queries.md',
+  identifier_uuid: '61880f45-b070-4100-ad9a-ba3ff61c1e1c',
 )
 
 lesson_position += 1
@@ -279,6 +297,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/active_record_associations.md',
+  identifier_uuid: '211edb41-e48f-4da1-bec2-0271e900f266',
 )
 
 lesson_position += 1
@@ -290,7 +309,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/advanced_forms_and_activerecord/project_associations.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '54233186-d525-4647-a001-91049353ecec',
 )
 
 lesson_position += 1
@@ -301,6 +321,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/active_record_callbacks.md',
+  identifier_uuid: 'e40f2187-e598-4c7b-b419-4be9606e2f8b',
 )
 
 lesson_position += 1
@@ -311,6 +332,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/advanced_forms_and_activerecord/forms_advanced.md',
+  identifier_uuid: 'a47db11b-de26-4e38-bd24-edb640319ca2',
 )
 
 lesson_position += 1
@@ -322,7 +344,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/advanced_forms_and_activerecord/project_forms_advanced.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '52cb7814-24f0-450a-9bf2-39cde4a680da',
 )
 
 # +++++++++++
@@ -346,6 +369,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/apis/api_basics.md',
+  identifier_uuid: 'd3fcb7b6-ba98-4c81-87cc-7eae3f17c990',
 )
 
 lesson_position += 1
@@ -356,6 +380,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/apis/api_interfacing.md',
+  identifier_uuid: '81082701-d9ab-4bd4-8948-4ad4b3d10a6e',
 )
 
 lesson_position += 1
@@ -367,7 +392,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/apis/project_kittens_api.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '5d0433d7-f3f3-46fa-99e7-3bc5893a2599',
 )
 
 lesson_position += 1
@@ -379,7 +405,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/apis/project_using_an_api.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '2adcd199-34b4-47e0-875c-0df9ecd61ea9',
 )
 
 # +++++++++++
@@ -403,6 +430,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/mailers.md',
+  identifier_uuid: 'e8bf71ba-1740-4c98-a963-50e83d7af59d',
 )
 
 lesson_position += 1
@@ -414,7 +442,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/mailers_advanced_topics/project_mailers.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'bd6d78b4-cefd-4938-8818-5adfe5620c2b'
 )
 
 lesson_position += 1
@@ -425,6 +454,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/advanced_topics.md',
+  identifier_uuid: 'a4f06a72-0298-4165-b06c-1b0e837fe956',
 )
 
 lesson_position += 1
@@ -435,6 +465,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/websockets_and_actioncable.md',
+  identifier_uuid: '949892d1-90af-46e0-a750-bedab0c5120b',
 )
 
 lesson_position += 1
@@ -446,7 +477,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/rails_programming/mailers_advanced_topics/project_final.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '3eac603e-c8e7-4ba8-ade0-87c4e3c3de59',
 )
 
 lesson_position += 1
@@ -457,4 +489,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/mailers_advanced_topics/conclusion.md',
+  identifier_uuid: '170d4217-696c-45b9-91b5-0465bb46f032',
 )

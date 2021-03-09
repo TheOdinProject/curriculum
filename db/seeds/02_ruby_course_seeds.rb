@@ -37,6 +37,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/introduction/how_this_course_will_work.md',
+  identifier_uuid: '3645e7c7-2845-4d85-9e8a-b83294f6cb68',
 )
 
 lesson_position += 1
@@ -47,6 +48,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/introduction/installing_ruby.md',
+  identifier_uuid: '99b7fe68-6673-4b51-9bea-4c1c0aad59d9',
 )
 
 # +++++++++++
@@ -70,6 +72,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/basic_data_types.md',
+  identifier_uuid: '3cf9a92e-6781-4112-9e8e-d3135819806b',
 )
 
 lesson_position += 1
@@ -80,6 +83,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/variables.md',
+  identifier_uuid: 'ca5132cc-fa76-4d66-bd12-5995739318c3',
 )
 
 lesson_position += 1
@@ -90,6 +94,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/input_and_output.md',
+  identifier_uuid: '06fbb445-8756-4906-ae42-86f261d45f22',
 )
 
 lesson_position += 1
@@ -100,6 +105,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/conditional_logic.md',
+  identifier_uuid: '1804825f-4b45-4989-93bd-8303bd75d222',
 )
 
 lesson_position += 1
@@ -110,6 +116,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/loops.md',
+  identifier_uuid: 'cf049293-79c3-4b92-b2bd-f038d8e4fe65',
 )
 
 lesson_position += 1
@@ -120,6 +127,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/arrays.md',
+  identifier_uuid: '1a994fe7-6806-4e23-a902-8d64dcf6e9c9',
 )
 
 lesson_position += 1
@@ -130,6 +138,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/hashes.md',
+  identifier_uuid: '9d8d333c-d9c9-4512-8d15-764caaea4f30',
 )
 
 lesson_position += 1
@@ -140,6 +149,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/methods.md',
+  identifier_uuid: '0fb26819-dee9-463b-85a9-b6d5765244f8',
 )
 
 lesson_position += 1
@@ -150,6 +160,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/basic_enumerable_methods.md',
+  identifier_uuid: '9e7ed0df-8264-4e3f-bc71-c75a26bdf56a',
 )
 
 lesson_position += 1
@@ -160,6 +171,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/predicate_enumerable_methods.md',
+  identifier_uuid: 'a066340c-10aa-4260-abe7-995c0e32ea92',
 )
 
 lesson_position += 1
@@ -170,6 +182,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/basic_ruby/debugging.md',
+  identifier_uuid: '468410df-be1d-414c-a939-dfc90962b03d',
 )
 
 # +++++++++++
@@ -194,7 +207,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/caesar_cipher.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '47e7c8ab-0dc8-4d6b-bc23-d9674b174007',
 )
 
 lesson_position += 1
@@ -206,7 +220,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/sub_strings.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '9445341e-1907-4269-b866-446a3a08d3b9',
 )
 
 lesson_position += 1
@@ -218,7 +233,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/stock_picker.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '89096a08-7abf-481b-9464-a82a65872e8e',
 )
 
 lesson_position += 1
@@ -230,7 +246,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/basic_ruby_projects/bubble_sort.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '5b332db6-e7f7-4232-9531-a35096d61c81',
 )
 
 # +++++++++++
@@ -254,6 +271,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/object_oriented_programming_basics/lesson_oop.md',
+  identifier_uuid: '15924a5e-c72d-44f9-8546-78b05b903274',
 )
 
 lesson_position += 1
@@ -265,7 +283,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/object_oriented_programming_basics/project_tic_tac_toe.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '49bd96f3-f358-46f2-8e2a-c91d44c2cf85',
 )
 
 lesson_position += 1
@@ -277,7 +296,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/object_oriented_programming_basics/project_mastermind.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '0333fa64-534c-4b31-9a3e-8c89d84f7618',
 )
 
 # +++++++++++
@@ -301,6 +321,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/files_and_serialization/lesson_serialization.md',
+  identifier_uuid: 'f68ab24d-a309-4a73-8fe1-1c03d889f514',
 )
 
 lesson_position += 1
@@ -312,7 +333,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/files_and_serialization/project_event_manager.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: 'a47be9ab-7c78-44c2-b098-ec63d82af1cf',
 )
 
 lesson_position += 1
@@ -324,7 +346,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/files_and_serialization/project_file_io.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '8a5dda78-b387-4a4e-b2af-aed0561ed633',
 )
 
 # +++++++++++
@@ -348,6 +371,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/computer_science/lesson_a_very_brief_intro_to_cs.md',
+  identifier_uuid: '9325ba3d-2f93-4d94-b7ac-8bfa16f04780',
 )
 
 lesson_position += 1
@@ -358,6 +382,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/computer_science/lesson_recursion.md',
+  identifier_uuid: 'a8c01c2b-3421-4bdc-88c5-07b5ee1de9f9',
 )
 
 lesson_position += 1
@@ -369,7 +394,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/computer_science/project_recursion.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '062acc7a-b1b0-4c9d-a7e8-e08bae7a9c0d',
 )
 
 lesson_position += 1
@@ -380,6 +406,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/computer_science/lesson_common_data_structures_algorithms.md',
+  identifier_uuid: '5aeae574-0b2a-4899-b3e6-c6230fd8b6f5',
 )
 
 lesson_position += 1
@@ -391,7 +418,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/computer_science/project_linked_lists.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '93a87bae-96c3-47af-a106-62ded20f12c3',
 )
 
 lesson_position += 1
@@ -403,7 +431,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/computer_science/project_binary_search_trees.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '00c3096f-0ab0-49e2-9eef-54afc9182f80',
 )
 
 lesson_position += 1
@@ -415,7 +444,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/computer_science/project_knights_travails.md',
   accepts_submission: true,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: 'fb6c9850-7fc6-4cdb-bf62-804e706788de',
 )
 
 # +++++++++++
@@ -439,6 +469,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/testing_with_rspec/test_driven_development.md',
+  identifier_uuid: '59cf167a-d1b0-4fd9-a964-1174efb4fdf9',
 )
 
 lesson_position += 1
@@ -449,6 +480,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/testing_with_rspec/introduction_to_rspec.md',
+  identifier_uuid: '34eb5b73-29a8-4d5b-8747-a2ccad75806e',
 )
 
 lesson_position += 1
@@ -460,7 +492,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '33440cca-8fbf-46fe-9265-67d938fe1d8c',
 )
 
 # +++++++++++
@@ -484,6 +517,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/git/lesson_a_deeper_look_at_git.md',
+  identifier_uuid: '52b17564-0e1d-4c4f-adfa-acba53bf9126',
 )
 
 lesson_position += 1
@@ -494,6 +528,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/git/lesson_using_git_in_the_real_world.md',
+  identifier_uuid: 'c8b7ccc1-8a16-4545-9d46-b9091d45c6b4',
 )
 
 # +++++++++++
@@ -518,7 +553,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/ruby_programming/conclusion/project_ruby_final.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'acf6c3f1-915a-4878-8224-2c5f12b1e43b',
 )
 
 lesson_position += 1
@@ -529,4 +565,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/ruby_programming/conclusion/lesson_conclusion.md',
+  identifier_uuid: '2f75b1ec-3b5f-4b21-9f97-acfe6578bfb1',
 )

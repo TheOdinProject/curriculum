@@ -36,6 +36,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/introduction.md',
+  identifier_uuid: 'f5e4f7ab-a6af-4318-ad5c-6f2be86ffa3f',
 )
 
 lesson_position += 1
@@ -46,6 +47,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/strategy.md',
+  identifier_uuid: 'ce1856f8-a0be-4c9d-b1d4-41c49f67a675',
 )
 
 lesson_position += 1
@@ -56,6 +58,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/starts_with_you.md',
+  identifier_uuid: '092fb96c-1957-479a-96f6-afe326d33dbf',
 )
 
 lesson_position += 1
@@ -66,6 +69,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/what_companies_want.md',
+  identifier_uuid: 'c93d5c3a-38b2-477c-86bd-62168a14aafe',
 )
 
 lesson_position += 1
@@ -76,6 +80,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/preparation.md',
+  identifier_uuid: '0ae67a52-edf8-42bd-9a7e-2e4f41562727',
 )
 
 lesson_position += 1
@@ -87,7 +92,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/getting_hired/project_portfolio.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '9e9f98a7-43bc-4e2b-9325-f858319604d5',
 )
 
 # +++++++++++
@@ -111,6 +117,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/collect_leads.md',
+  identifier_uuid: '050fda7c-fc76-44d4-a16d-4c4e6423c8b1',
 )
 
 lesson_position += 1
@@ -121,6 +128,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/qualify_leads.md',
+  identifier_uuid: '5e780427-217f-4351-8c37-07443fc31096',
 )
 
 lesson_position += 1
@@ -132,7 +140,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/getting_hired/project_resume.md',
   accepts_submission: false,
-  has_live_preview: false
+  has_live_preview: false,
+  identifier_uuid: '029f508f-8034-41b2-b330-bba88f0efe3b',
 )
 
 lesson_position += 1
@@ -143,6 +152,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/applying.md',
+  identifier_uuid: 'bc297492-dc99-485a-b36b-49ac500394fb',
 )
 
 lesson_position += 1
@@ -153,6 +163,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/preparing_to_interview.md',
+  identifier_uuid: '6b2a0178-1827-4a6d-bbce-190aeb20b864',
 )
 
 lesson_position += 1
@@ -163,6 +174,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/handling_an_offer.md',
+  identifier_uuid: '4f246886-c491-4362-9026-deec4fb36373',
 )
 
 lesson_position += 1
@@ -173,4 +185,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/getting_hired/conclusion.md',
+  identifier_uuid: 'de2fbbc0-1db8-4eae-a4c3-ac467be471c3',
 )

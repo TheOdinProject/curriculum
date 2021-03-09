@@ -94,6 +94,7 @@ ActiveRecord::Schema.define(version: 2021_03_08_211447) do
     t.boolean "accepts_submission", default: false, null: false
     t.boolean "has_live_preview", default: false, null: false
     t.boolean "choose_path_lesson", default: false, null: false
+    t.string "identifier_uuid", default: "", null: false
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
     t.index ["url"], name: "index_lessons_on_url"

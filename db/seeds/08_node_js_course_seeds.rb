@@ -37,6 +37,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/getting-started/Introduction.md',
+  identifier_uuid: 'e05fed63-01e4-432a-9bbf-652d4398be0d',
 )
 
 lesson_position += 1
@@ -47,6 +48,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/getting-started/Getting-Started.md',
+  identifier_uuid: 'e03532e7-1e00-4e47-a36e-a5cddeca0f43',
 )
 
 lesson_position += 1
@@ -58,7 +60,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/getting-started/Getting-Started-Project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'de746d83-dcce-48f0-a0ba-72d117d0ac05',
 )
 
 # +++++++++++
@@ -82,6 +85,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Introduction.md',
+  identifier_uuid: 'ba826e59-aeb3-4150-a893-5a9cbb185525',
 )
 
 lesson_position += 1
@@ -92,6 +96,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-1.md',
+  identifier_uuid: 'ef20eb89-87d7-4c73-b376-e9f47c596ad9',
 )
 
 lesson_position += 1
@@ -102,6 +107,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-2.md',
+  identifier_uuid: '2b19f45c-536a-412d-8062-2e5c4144b6b6',
 )
 
 lesson_position += 1
@@ -112,6 +118,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/rails_programming/introduction/preparing_for_deployment.md',
+  identifier_uuid: '7eec89f0-5619-4dc7-a8b9-af009d36c288',
 )
 
 lesson_position += 1
@@ -123,7 +130,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/express-basics/Express-Mini-Message-Board.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '0270683a-d1e1-49f1-996e-ab721c251354',
 )
 
 lesson_position += 1
@@ -134,6 +142,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-3.md',
+  identifier_uuid: '17f1624b-4263-4e25-8aad-69c49e4990e5',
 )
 
 lesson_position += 1
@@ -144,6 +153,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/express-basics/Express-Lesson-4.md',
+  identifier_uuid: '3a3cddd5-e2cf-4545-bc3d-60c692018231',
 )
 
 lesson_position += 1
@@ -155,7 +165,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/express-basics/Express-Lesson-5.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'de07c671-e8c7-47c0-88fe-219b66308bd4',
 )
 
 lesson_position += 1
@@ -167,7 +178,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/express-basics/Express-Inventory-Application.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: '5b7bcdb8-38d5-46ea-846b-c12bfb0290ef',
 )
 
 # +++++++++++
@@ -191,6 +203,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/authentication/Authentication.md',
+  identifier_uuid: 'b7cb44be-5b4a-48cf-addc-37272b7f9e8d',
 )
 
 lesson_position += 1
@@ -201,6 +214,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/authentication/Security-Configuration.md',
+  identifier_uuid: 'a310c4f1-bec5-4c2e-bb52-a89772a67ed4',
 )
 
 lesson_position += 1
@@ -212,7 +226,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/authentication/Members-Only.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'dc36f70d-cc3b-47c5-958f-0c09ca61ca78',
 )
 
 # +++++++++++
@@ -236,6 +251,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/APIs/APIs.md',
+  identifier_uuid: 'ef267268-b196-466b-9c03-32d399c961ee',
 )
 
 lesson_position += 1
@@ -246,6 +262,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/APIs/API-Security.md',
+  identifier_uuid: 'a9234831-cd6b-4597-be02-897361809b0c',
 )
 
 lesson_position += 1
@@ -257,7 +274,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/APIs/Blog-Project.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'ad8a46e7-a42b-420b-804d-afafb0c60d2c',
 )
 
 # +++++++++++
@@ -281,6 +299,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/testing/Testing.md',
+  identifier_uuid: '5942067c-e52e-4bff-98e1-11f5e9c52b33',
 )
 
 lesson_position += 1
@@ -291,6 +310,7 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/testing/Testing-Mongo.md',
+  identifier_uuid: '8e0e26ea-57c4-4cc6-9d0d-bf8561de9dae',
 )
 
 # +++++++++++
@@ -315,7 +335,8 @@ create_or_update_lesson(
   is_project: true,
   url: '/nodeJS/Odin-Book.md',
   accepts_submission: true,
-  has_live_preview: true
+  has_live_preview: true,
+  identifier_uuid: 'c0d6ba51-620e-49e0-8583-924f38754874',
 )
 
 lesson_position += 1
@@ -326,4 +347,5 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: '/nodeJS/conclusion.md',
+  identifier_uuid: '5881368f-71aa-4fb4-b3ab-632cdcfa802f'
 )
