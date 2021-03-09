@@ -9,9 +9,8 @@
 # courses/sections/lessons, since that's currently what's used to uniquely
 # identify them!
 
-# rubocop:disable Metrics/AbcSize
 def create_or_update_path(path_attrs)
-  path = Path.where(title: path_attrs[:title]).first
+  path = Path.find_by(identifier_uuid: path_attrs.fetch(:identifier_uuid))
 
   if path.nil?
     path = Path.create!(path_attrs)
@@ -27,7 +26,7 @@ def create_or_update_path(path_attrs)
 end
 
 def create_or_update_course(course_attrs)
-  course = Course.where(title: course_attrs[:title]).first
+  course = Course.find_by(identifier_uuid: course_attrs.fetch(:identifier_uuid))
 
   if course.nil?
     course = Course.create!(course_attrs)
@@ -43,7 +42,7 @@ def create_or_update_course(course_attrs)
 end
 
 def create_or_update_section(section_attrs)
-  section = Section.where(title: section_attrs[:title], course_id: section_attrs[:course_id]).first
+  section = Section.find_by(identifier_uuid: section_attrs.fetch(:identifier_uuid))
 
   if section.nil?
     section = Section.create!(section_attrs)
@@ -59,7 +58,7 @@ def create_or_update_section(section_attrs)
 end
 
 def create_or_update_lesson(lesson_attrs)
-  lesson = Lesson.where(title: lesson_attrs[:title], section_id: lesson_attrs[:section_id]).first
+  lesson = Lesson.find_by(identifier_uuid: lesson_attrs.fetch(:identifier_uuid))
 
   if lesson.nil?
     lesson = Lesson.create!(lesson_attrs)
@@ -73,8 +72,6 @@ def create_or_update_lesson(lesson_attrs)
 
   lesson
 end
-# rubocop:enable Metrics/AbcSize
-
 load './db/seeds/01_foundations_seeds.rb'
 load './db/seeds/02_ruby_course_seeds.rb'
 load './db/seeds/03_database_course_seeds.rb'
