@@ -159,6 +159,8 @@ Just to drive home that routes correspond directly to controller actions, a very
   end
 ~~~
 
+You can also run `$ rails routes` in the terminal inside a Ruby on Rails project to see all the routes, as well as the controllers and actions they map to.
+
 ### I Don't Want All Seven Routes!
 
 Sometimes you just don't want all seven of the RESTful routes that `resources` provides.  Easy, either specify just the ones you want using `only` or just the ones you DON'T want using `except`:
