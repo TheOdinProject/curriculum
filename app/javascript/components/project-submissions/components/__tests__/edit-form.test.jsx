@@ -11,14 +11,12 @@ const submission = {
   lesson_has_live_preview: true,
 };
 
+const handleUpdate = jest.fn();
+const handleDelete = jest.fn();
+const toggleShowEditModal = jest.fn();
+
 describe('EditForm', () => {
-  let handleUpdate;
-  let handleDelete;
-  let toggleShowEditModal;
   beforeEach(() => {
-    handleUpdate = jest.fn();
-    handleDelete = jest.fn();
-    toggleShowEditModal = jest.fn();
     render(
       <EditForm
         submission={submission}
@@ -28,8 +26,6 @@ describe('EditForm', () => {
       />,
     );
   });
-
-  afterEach(cleanup);
 
   describe("Displays submission URL's", () => {
     test('displays repo_url', () => {
@@ -43,32 +39,34 @@ describe('EditForm', () => {
   describe("Validates submission URL's", () => {
     test('validates repo_url', async () => {
       await act(async () => {
-        fireEvent.change(screen.getByPlaceholderText('Repository URL'), {
+        fireEvent.change(screen.getByPlaceholderText(/repository url/i), {
           target: { value: 'idk' },
         });
 
         fireEvent.click(screen.getByRole('button', { name: 'Update' }));
       });
-      expect(screen.getByText('Url must start with http or https')).toBeInTheDocument();
+      expect(screen.getByText(/url must start with http or https/i)).toBeInTheDocument();
       expect(handleUpdate).toHaveBeenCalledTimes(0);
     });
 
     test('validates live_preview_url', async () => {
       await act(async () => {
-        fireEvent.change(screen.getByPlaceholderText('Live Preview URL'), {
+        fireEvent.change(screen.getByPlaceholderText(/live preview url/i), {
           target: { value: 'idk' },
         });
 
         fireEvent.click(screen.getByRole('button', { name: 'Update' }));
       });
-      expect(screen.getByText('Url must start with http or https')).toBeInTheDocument();
+      expect(screen.getByText(/url must start with http or https/i)).toBeInTheDocument();
       expect(handleUpdate).toHaveBeenCalledTimes(0);
     });
   });
   describe('When submission updated', () => {
     beforeEach(async () => {
       await act(async () => {
-        fireEvent.click(screen.getByRole('button', { name: 'Update' }));
+        fireEvent.click(screen.getByRole('button', {
+          name: /update/i,
+        }));
       });
     });
 
@@ -76,6 +74,11 @@ describe('EditForm', () => {
       expect(handleUpdate).toHaveBeenCalledTimes(1);
     });
 
+    test('shows thanks message', () => {
+      expect(screen.getByRole('heading', {
+        name: /thanks for updating your solution!/i,
+      })).toBeInTheDocument();
+    });
     test('shows close button', () => {
       expect(screen.getByRole('button', { name: 'Close' })).toBeInTheDocument();
     });
@@ -84,12 +87,19 @@ describe('EditForm', () => {
   describe('When submission deleted', () => {
     beforeEach(async () => {
       await act(async () => {
-        fireEvent.click(screen.getByRole('button', { name: 'Delete' }));
+        fireEvent.click(screen.getByRole('button', {
+          name: /delete/i,
+        }));
       });
     });
     test('calls onDelete', () => {
       expect(handleDelete).toHaveBeenCalledTimes(1);
       expect(toggleShowEditModal).toHaveBeenCalledTimes(1);
+    });
+    test('shows thanks message', () => {
+      expect(screen.getByRole('heading', {
+        name: /thanks for updating your solution!/i,
+      })).toBeInTheDocument();
     });
     test('shows close button', () => {
       expect(screen.getByRole('button', { name: 'Close' })).toBeInTheDocument();
