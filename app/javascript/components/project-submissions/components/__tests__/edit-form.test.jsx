@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  fireEvent, render, screen, act, cleanup,
+  fireEvent, render, screen, act,
 } from '@testing-library/react';
 import EditForm from '../edit-form';
 
