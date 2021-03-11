@@ -28,7 +28,7 @@ Although you may be familiar with blocks already we will still briefly cover the
 
 A brief recap of the basics...
 
-You can think of Ruby blocks as anonymous methods. If you have any experience with any other programming langauges then you may also know them as closures. They allow you as the caller to define some of the behaviour within a method which allow methods to be flexible in how they handle different user requirements and they allow you to pass those blocks around to other methods as arguments. Also interestingly, a block is one of the very few times that something in Ruby isn't itself an object.
+You can think of Ruby blocks as anonymous methods. If you have any experience with any other programming languages then you may also know them as closures. They allow you as the caller to define some of the behavior within a method which allow methods to be flexible in how they handle different user requirements and they allow you to pass those blocks around to other methods as arguments. Also interestingly, a block is one of the very few times that something in Ruby isn't itself an object.
 
 A block can be declared as a single-line or multi-line block and Ruby convention is to use `{}` for single-line and `do..end` for multi-line blocks. Arguments can be defined within a block inside pipes `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
 
@@ -45,7 +45,7 @@ Although you are familiar with how to write blocks, you need to know how to writ
 
 ### Yield
 
-`yield` is a keyword that can be called inside a method to relinquish execution to the accompanying block. Lets imagine you're writing a simple method for your library to allow users of that library to log some information to the terminal. The one key requirement you have is that users should be able to define how that block is presented. Sometimes they may just want to `puts` something, other times they may want to inspect something with `p`. If you tried to write this only using a method it would actually be quite difficult. You'd have to write up front all the possible options the user of your library might want to call and then create the docs to explain it. With blocks we can just relinquish control of the method to the block with yield and allow the user to define how they want to print it.
+`yield` is a keyword that can be called inside a method to relinquish execution to the accompanying block. Let's imagine you're writing a simple method for your library to allow users of that library to log some information to the terminal. The one key requirement you have is that users should be able to define how that block is presented. Sometimes they may just want to `puts` something, other times they may want to inspect something with `p`. If you tried to write this only using a method it would actually be quite difficult. You'd have to write up front all the possible options the user of your library might want to call and then create the docs to explain it. With blocks we can just relinquish control of the method to the block with yield and allow the user to define how they want to print it.
 
 ~~~ruby
 def logger
@@ -70,7 +70,7 @@ end
 double_vision { puts "How many fingers am I holding up?" }
 ~~~
 
-Millenial avocados Batman. That's cool.
+Millennial avocados Batman. That's cool.
 
 We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to yield and they'll be passed to the block. If you call yield more than once you can pass a different argument each time.
 
@@ -189,7 +189,7 @@ my_lambda.call
 # => high five
 ~~~
 
-If you want to accept arguments into your lambda you have two options and which option you can use depends on how you declare your lambda. If you use `->` then you can use `()` to name your parameters. If you use `lambda` then you can use the more recognised `||` inside the block.
+If you want to accept arguments into your lambda you have two options and which option you can use depends on how you declare your lambda. If you use `->` then you can use `()` to name your parameters. If you use `lambda` then you can use the more recognized `||` inside the block.
 
 ~~~ruby
 my_name = ->(name) { puts "hello #{name}" }
@@ -216,7 +216,7 @@ I'd recommend sticking to using `call`
 
 ### Procs
 
-A Proc is just an object that you can use to create blocks to be passed around. If this sounds a bit like a lambda then you'd be right. In fact there is no special lambda class. A lambda is just a type of Proc object but with some distinct behaviours which we'll cover shortly.
+A Proc is just an object that you can use to create blocks to be passed around. If this sounds a bit like a lambda then you'd be right. In fact there is no special lambda class. A lambda is just a type of Proc object but with some distinct behaviors which we'll cover shortly.
 
 You declare a new Proc in the same way you instantiate any object in Ruby, using `new`
 
@@ -252,7 +252,7 @@ a_proc.call("apple")
 # => a: apple --- b:
 ~~~
 
-A lambda, on the other hand, does care and will raise an error if you don't honour the number of parameters expected
+A lambda, on the other hand, does care and will raise an error if you don't honor the number of parameters expected
 
 ~~~ruby
 a_proc = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
@@ -294,7 +294,7 @@ If you return from a proc inside a method, the method is the context in which it
 ~~~ruby
 def my_method
   a_proc = Proc.new { return }
-  my_proc.call
+  a_proc.call
   puts "this line is never reached"
 end
 
@@ -323,7 +323,7 @@ my_lambda.call
 # => r2d2
 ~~~
 
-#### method parameters
+#### Method parameters
 
 Both procs and lambdas can be used as arguments to a method
 
@@ -456,7 +456,7 @@ So how does this work? Well, actually the `&` capturing syntax doesn't only have
 Maybe you've seen or used code like the following
 
 ~~~ruby
-arr ["1", "2", "3"]
+arr = ["1", "2", "3"]
 
 arr.map(&:to_i)
 
@@ -504,6 +504,6 @@ After getting to grips with the information in this lesson you'll be a block, pr
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. [this article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
+1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
 2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. I really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 </div>
