@@ -31,6 +31,9 @@ ActiveAdmin.register Flag do
       row :submission_ower do
         flag.project_submission.user.username
       end
+      row :lesson do
+        link_to flag.project_submission.lesson.title, flag.project_submission.lesson, target: '_blank'
+      end
       row :repo_url do
         link_to flag.project_submission.repo_url, flag.project_submission.repo_url, target: '_blank'
       end
