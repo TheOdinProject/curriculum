@@ -5,7 +5,7 @@ class LessonCompletionsController < ApplicationController
   def create
     current_user.lesson_completions.create(
       lesson_id: lesson.id,
-      lesson_idenfier_uuid: lesson.identifier_uuid,
+      lesson_identifier_uuid: lesson.identifier_uuid,
       course_id: lesson.course.id,
       path_id: current_user.path.id,
     )

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_09_225335) do
+ActiveRecord::Schema.define(version: 2021_03_11_200356) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -77,12 +77,12 @@ ActiveRecord::Schema.define(version: 2021_03_09_225335) do
     t.integer "student_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string "lesson_idenfier_uuid", default: "", null: false
+    t.string "lesson_identifier_uuid", default: "", null: false
     t.integer "course_id"
     t.integer "path_id"
     t.index ["course_id"], name: "index_lesson_completions_on_course_id"
     t.index ["lesson_id", "student_id"], name: "index_lesson_completions_on_lesson_id_and_student_id", unique: true
-    t.index ["lesson_idenfier_uuid"], name: "index_lesson_completions_on_lesson_idenfier_uuid"
+    t.index ["lesson_identifier_uuid"], name: "index_lesson_completions_on_lesson_identifier_uuid"
     t.index ["path_id"], name: "index_lesson_completions_on_path_id"
     t.index ["student_id"], name: "index_lesson_completions_on_student_id"
   end
