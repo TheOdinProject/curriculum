@@ -1,13 +1,20 @@
 class LessonCompletionsController < ApplicationController
   before_action :authenticate_user!
 
+  # rubocop: disable Metrics/AbcSize
   def create
-    current_user.lesson_completions.create(lesson_id: lesson.id)
+    current_user.lesson_completions.create(
+      lesson_id: lesson.id,
+      lesson_idenfier_uuid: lesson.identifier_uuid,
+      course_id: lesson.course.id,
+      path_id: current_user.path.id,
+    )
 
     if redirect_url.present?
       redirect_to redirect_url
     end
   end
+  # rubocop: enable Metrics/AbcSize
 
   def destroy
     lesson_completion = current_user.lesson_completions.find_by_lesson_id(lesson.id)
