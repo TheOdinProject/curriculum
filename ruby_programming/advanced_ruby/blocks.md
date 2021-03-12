@@ -6,31 +6,26 @@ Although you may be familiar with blocks already we will still briefly cover the
 
 ### Learning Outcomes
 
+- What is a block?
 - How is a block like a method?
-- How is a block different from a method?
 - What are the two ways to declare a block?
-- How do you return data from a block?
-- What happens if you include a `return` statement in a block?
 - Why would you use a block instead of just creating a method?
 - What does `yield` do?
 - How do you pass arguments to a block from within a method?
 - How do you check whether a block was actually passed in?
 - What is a proc?
+- What is a lambda?
 - What's the difference between a proc and a block?
 - When would you use a proc instead of a block?
-- What is a closure?
-- What is a lambda?
 - What's different between a lambda and a proc?
-- What is a Method (capital "M")?
-- What do Methods basically allow you to do that could probably be pretty interesting when you're writing some more advanced programs later on?
 
 ### Basics
 
 A brief recap of the basics...
 
-You can think of Ruby blocks as anonymous methods. If you have any experience with any other programming languages then you may also know them as closures. They allow you as the caller to define some of the behavior within a method which allow methods to be flexible in how they handle different user requirements and they allow you to pass those blocks around to other methods as arguments. Also interestingly, a block is one of the very few times that something in Ruby isn't itself an object.
+You can think of Ruby blocks as anonymous methods. If you have any experience with any other programming languages then you may be familiar with anonymous functions which can act as closures. You'll learn about closures a bit later in the lesson. They allow the caller of the method to define or act upon some of the data within a method, which allow methods to be flexible in how they handle different requirements, and they allow you to pass those blocks around to other methods as arguments. Also interestingly, a block is one of the very few times that something in Ruby isn't itself an object.
 
-A block can be declared as a single-line or multi-line block and Ruby convention is to use `{}` for single-line and `do..end` for multi-line blocks. Arguments can be defined within a block inside pipes `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
+A block can be declared as a single-line or multi-line block and Ruby convention is to use `{}` for single-line and `do..end` for multi-line blocks. Parameters can be defined within a block inside pipes `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
 
 ~~~ruby
 [1,2,3].each { |num| puts num }
@@ -39,7 +34,6 @@ A block can be declared as a single-line or multi-line block and Ruby convention
   puts num
 end
 ~~~
-
 
 Although you are familiar with how to write blocks, you need to know how to write your own methods that accept blocks.
 
@@ -59,7 +53,7 @@ logger do
 end
 ~~~
 
-The example isn't that useful but hopefully you should see how blocks allow huge flexibility in how code is handled at runtime. Let's see if we can make it more interesting, but still not that useful. You now get given a new requirement that users want a method that allows them to write whatever they want, and it gets printed twice to the terminal. How might you handle this requirement? Well if I told you that you can call yield as many times as you want and each time it yields to the block in the same way you'd probably have a good idea.
+The example isn't that useful but hopefully you should see how blocks allow huge flexibility in how methods act upon data. Let's see if we can make it more interesting, but still not that useful. You now get given a new requirement that users want a method that allows them to write whatever they want, and it gets printed twice to the terminal. How might you handle this requirement? Well if I told you that you can call yield as many times as you want and each time it yields to the block in the same way you'd probably have a good idea.
 
 ~~~ruby
 def double_vision
@@ -72,7 +66,7 @@ double_vision { puts "How many fingers am I holding up?" }
 
 Millennial avocados Batman. That's cool.
 
-We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to yield and they'll be passed to the block. If you call yield more than once you can pass a different argument each time.
+We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to yield and they'll be passed to the blocks parameters. If you call yield more than once you can pass a different argument each time if you wanted to.
 
 Where might this be useful? Well think about each time you use `each`. You need to yield each member of the collection to the block. Say you're writing a banking api, it will allow other banks to use your library to handle all the banking matters. One such api is a method that prints all of the transactions to a statement. For our example we'll use the terminal, but it could be a spreadsheet or anything. One issue is that different banks may want to print the transaction with different formats. We can iterate through the transactions and for each one we can yield it to a block that the caller of your method attaches to the method call. They can define how the transactions will be printed to their statement and you can focus on delivering bug free banking transactions
 
@@ -81,12 +75,12 @@ Where might this be useful? Well think about each time you use `each`. You need 
 
 def transaction_statement
   @transactions.each do |transaction|
-    yield transaction
+    yield transaction # You just yield the transaction amount
   end
 end
 
 transaction_statement do |transaction|
-  puts "%0.2f" % transaction
+  puts "%0.2f" % transaction # The person who calls the method can define how it is handled.
 end
 ~~~
 
@@ -108,9 +102,30 @@ transaction_statement do |transaction|
 end
 ~~~
 
-To explicitly make the connection. The value that you yield to the block is captured by the block and assigned to the named argument of the block. In the case above our block has a `|transaction|` argument so each iteration the value yielded is assigned to that variable name.
+If you want to gather the value returned from the block, you can just assign it to a variable or collect it in a data structure.
 
-If you don't pass a value with yield and the block expects one then the argument is assigned `nil`.
+~~~ruby
+@transactions = [10, -15, 25, 30, -24, -70, 999]
+
+def transaction_statement
+  formatted_transactions = []
+  @transactions.each do |transaction|
+    formatted_transactions << yield(transaction) # I've put () around transaction just for clarity here but they aren't required.
+  end
+  
+  formatted_transactions
+end
+
+transaction_statement do |transaction|
+  "%0.2f" % transaction
+end
+~~~
+
+You can also write explicit return statements from a block and it will return whatever value is after that. This works the same way as an explicit return from a method. This might be useful if you need some kind of guard clause.
+
+To clarify... The value that you yield to the block is captured by the block and assigned to the named parameter of the block. In the case above our block has a `|transaction|` parameter so each iteration the value passed to yield as an argument is assigned to that variable name.
+
+If you don't pass a value with yield and the block expects one then the argument is assigned `nil`. If you have two parameters but pass 3 arguments then the last one is not assigned to a parameter and you can't reference it in the block.
 
 If you're working with hashes you might need to yield the key and value, just make sure your block names two parameters.
 
@@ -146,7 +161,7 @@ Yep, an error. So what do you do if you want to write a method where the caller 
 
 Enter `block_given?`
 
-You can use this conditional method inside your own to check if a block was given. If it is `block_given?` returns true and any code inside that conditional is executed. If not then your method will ignore it.
+You can use this method as a conditional check inside your own method to see if a block was included by the caller. If it is, `block_given?` returns true and any code inside that conditional is executed. If not then your method will ignore it.
 
 ~~~ruby
 def maybe_block
@@ -166,7 +181,7 @@ maybe_block {} # {} is just an empty block
 # => executed regardless
 ~~~
 
-You may have already come across this in some of the enumerables. [count](https://ruby-doc.org/core-3.0.0/Enumerable.html#method-i-count) is a method where you can use a block or not. Without any argument it just returns the size of whatever it was called on, with an argument it counts how many times that argument appears in the object count was called on, and with a block it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of count on the ruby docs site you'll see it's written in C, but even glancing over the unfamiliar C syntax you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
+You may have already come across this in some of the enumerables. [count](https://ruby-doc.org/core-3.0.0/Enumerable.html#method-i-count) is a method where you can use a block or not. Without any argument it just returns the size of whatever it was called on, with an argument it counts how many times that argument appears in the object that count was called on, and with a block it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of count on the ruby docs site you'll see it's written in C, but even glancing over the unfamiliar C syntax you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
 
 ### Lambdas
 
@@ -287,7 +302,7 @@ a_proc.call
 # => localJumpError (unexpected return)
 ~~~
 
-If you try the above in a repl you won't get an error, which is just to do with how they manage the context of code. If you try it in irb then you'd get the expected error.
+If you try the above in on repl.it you won't get an error, which is just to do with how they manage the context of code. If you try it in irb then you'd get the expected error.
 
 If you return from a proc inside a method, the method is the context in which it was called and therefore it returns from the method before any of the other code below it is executed.
 
@@ -379,9 +394,9 @@ What do you think this would output to the terminal? Try and run the code yourse
 
 It should have output `tim`. This is an important point. Procs and Lambdas get their execution context when they are created, not when they are called. If you removed the line where you set `name = "tim"` what do you think would happen then?
 
-You'd get an error. As I said, the context is created when the proc or lambda is created so it won't access the context inside the method and see there is a `name` variable set to `bob` there. That said, if you never call the lambda you won't get an error when creating it just because there isn't a name at that time. It's only when the lambda is called that it looks up it's own context and finds out that name wasn't defined when it was created.
+You'd get an error. As I said, the context is created when the proc or lambda is created so it won't access the context inside the method and see there is a `name` variable set to `bob` there. That said, if you never call the lambda you won't get an error when creating it just because there isn't a name at that time. It's only when the lambda is called that it looks up its own context and finds out that name wasn't defined when it was created.
 
-Maybe you're getting to grips with it? How about this curve ball
+Hopefully you're getting to grips with a closure? How about this curve ball
 
 ~~~ruby
 name = "tim"
@@ -433,7 +448,7 @@ You can do the same thing if you create a Proc object too. Will you ever use thi
 
 ### Capturing blocks
 
-Now that we know about how procs and lambdas work, how can this be applied to blocks? As we learned blocks are anonymous functions that can be attached to methods. But what if we want to capture that block to do something with it? Maybe we need to receive the block now and store it in an instance variable to be called later if required.
+Now that we know about how procs and lambdas work, how can this be applied to blocks? As we learned blocks are anonymous functions that can be attached to methods. But what if we want to capture a reference to that block to do something with it? Maybe we need to receive the block now in our method and store it in an instance variable to be called later if required.
 
 Ruby allows us to capture blocks in a method definition with a special argument using `&`.
 
@@ -488,7 +503,7 @@ end
 
 a_proc = Proc.new { puts "procodile hunter" }
 
-cool_method(&a_proc)
+cool_method(&a_proc) # Converting the proc object to a block
 
 # => ERROR
 ~~~
@@ -507,3 +522,26 @@ After getting to grips with the information in this lesson you'll be a block, pr
 1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
 2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. I really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 </div>
+
+### Knowledge Check
+ 
+- What is a block?
+- How is a block like a method?
+- How is a block different from a method?
+- What are the two ways to declare a block?
+- How do you return data from a block?
+- How can your methods collect the return data from a block?
+- What happens if you include a `return` statement in a block?
+- Why would you use a block instead of just creating a method?
+- What does `yield` do?
+- How do you pass arguments to a block from within a method?
+- How do you check whether a block was actually passed in?
+- What is a proc?
+- What is a lambda?
+- What's the difference between a proc and a block?
+- When would you use a proc instead of a block?
+- What's different between a lambda and a proc?
+- What is a closure?
+- What is currying?
+- How do you convert a proc to a block?
+- How do you convert a block to a proc?
