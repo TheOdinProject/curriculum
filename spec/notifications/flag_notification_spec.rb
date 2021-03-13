@@ -7,7 +7,7 @@ RSpec.describe FlagNotification do
 
   describe 'database delivery' do
     it 'allows a valid FlagNotification to be saved' do
-      expect { flag_notification.with(flag: flag).deliver(recipient) }.to change { Notification.count }.from(0).to(1)
+      expect { flag_notification.with(flag: flag).deliver(recipient) }.to change { Notification.count }.by(1)
     end
   end
 
