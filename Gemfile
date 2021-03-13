@@ -39,7 +39,7 @@ gem 'webpacker'
 
 group :production do
   gem 'rails_12factor', '~> 0.0.3'
-  gem 'skylight', '~> 5.0.0.beta5'
+  # gem 'skylight', '~> 5.0.0.beta5'
 end
 
 group :development, :test, :docker do
