@@ -3,11 +3,12 @@ class LessonCompletionsController < ApplicationController
 
   # rubocop: disable Metrics/AbcSize
   def create
+    # raise params.inspect
     current_user.lesson_completions.create(
       lesson_id: lesson.id,
       lesson_identifier_uuid: lesson.identifier_uuid,
       course_id: lesson.course.id,
-      path_id: current_user.path.id,
+      path_id: lesson.course.path.id,
     )
 
     if redirect_url.present?
@@ -27,7 +28,7 @@ class LessonCompletionsController < ApplicationController
 
   def lesson
     @lesson ||= LessonDecorator.new(
-      Lesson.friendly.find(params[:lesson_id])
+      Lesson.find(params[:lesson_id])
     )
   end
 
