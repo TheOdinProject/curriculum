@@ -143,7 +143,7 @@ Let's reiterate: this is not a particularly safe way to create users in your dat
 
 ### Authentication
 
-Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passportJS website](http://www.passportjs.org/docs/username-password/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project.
+Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passportJS website](http://www.passportjs.org/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project.
 
 PassportJS uses what they call _Strategies_ to authenticate users. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
 
