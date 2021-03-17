@@ -52,7 +52,7 @@ If the version number is less than 2.28, follow the instructions again.
 First, you'll need to install Homebrew.  Make sure you have checked the requirements [here](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
 ~~~bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
 #### Step 1.1: Update Git
