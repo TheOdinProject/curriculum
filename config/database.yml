@@ -12,7 +12,7 @@ default: &default
 
 development: &development
   <<: *default
-  database: <%= ENV['POSTGRES_DEV_DB'] || 'theodinproject' %>
+  database: theodinproject_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

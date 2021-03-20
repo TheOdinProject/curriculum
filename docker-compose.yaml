@@ -16,10 +16,10 @@ services:
       - "3000:3000"
     depends_on:
       - db
-    environment: 
+    environment:
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: theodinproject
-      POSTGRES_DEV_DB: theodinproject
+      POSTGRES_DEV_DB: theodinproject_development
       POSTGRES_HOST: db
 
 volumes:
