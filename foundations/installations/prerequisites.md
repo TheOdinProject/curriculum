@@ -122,7 +122,7 @@ While your VM is running, do the following steps:
   14. Once it finishes, close the terminal and the CD folder.
   15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
   16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
-  17. You can now maximize the VM window, use the shared clipboard, and create additional displays, among many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  17. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 
