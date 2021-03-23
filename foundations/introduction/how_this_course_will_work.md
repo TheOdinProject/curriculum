@@ -30,6 +30,8 @@ As another part of this preparation, we *highly* recommend spending extra time o
 
 In addition to this, you might also consider using a translation dictionary in your own language alongside of our curriculum so you can readily reference it as you go. We do not have any recommendations on these since there are such a wide variety of languages spoken throughout the world, but finding one may perhaps be a good first step in learning how to find useful tools online by searching. This is a skill you will utilize and improve as you progress in your learning to be a developer.
 
+Being on this journey will require a lot of reading, which you may not be used to yet. A great tool which might aid you in becoming more used to reading is a [screen reader](https://chrome.google.com/webstore/detail/natural-reader-text-to-sp/kohfgcgbkjodfcfkcackpagifgbcmimk?hl=en), which reads the text on the page aloud for you.
+
 ### What Comes Next
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next (and all the cool stuff you can do with it).
