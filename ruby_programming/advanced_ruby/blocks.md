@@ -2,7 +2,19 @@
 
 You'll already be familiar with ruby blocks from working with enumerables in the Ruby section. But there is more depth to blocks than we've covered so this lesson will dive deeper. They're such a fundamental part of Ruby that you should get to know them inside out.
 
-Although you may be familiar with blocks already we will still briefly cover the basics to make sure we cover everything.
+A very quick recap of the basics that you should already be familiar with...
+
+A block can be declared as a single-line or multi-line block and Ruby convention is to use `{}` for single-line and `do..end` for multi-line blocks. Parameters can be defined within a block inside pipes `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
+
+~~~ruby
+[1,2,3].each { |num| puts num }
+
+[1,2,3].each do |num|
+  puts num
+end
+~~~
+
+Although you are familiar with how to write blocks, you need to know how to write your own methods that accept blocks and that is what we are aiming to cover here.
 
 ### Learning Outcomes
 
@@ -19,23 +31,6 @@ Although you may be familiar with blocks already we will still briefly cover the
 - When would you use a proc instead of a block?
 - What's different between a lambda and a proc?
 
-### Basics
-
-A brief recap of the basics...
-
-You can think of Ruby blocks as anonymous methods. If you have any experience with any other programming languages then you may be familiar with anonymous functions which can act as closures. You'll learn about closures a bit later in the lesson. They allow the caller of the method to define or act upon some of the data within a method, which allow methods to be flexible in how they handle different requirements, and they allow you to pass those blocks around to other methods as arguments. Also interestingly, a block is one of the very few times that something in Ruby isn't itself an object.
-
-A block can be declared as a single-line or multi-line block and Ruby convention is to use `{}` for single-line and `do..end` for multi-line blocks. Parameters can be defined within a block inside pipes `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
-
-~~~ruby
-[1,2,3].each { |num| puts num }
-
-[1,2,3].each do |num|
-  puts num
-end
-~~~
-
-Although you are familiar with how to write blocks, you need to know how to write your own methods that accept blocks.
 
 ### Yield
 
@@ -68,7 +63,7 @@ Millennial avocados Batman. That's cool.
 
 We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to yield and they'll be passed to the blocks parameters. If you call yield more than once you can pass a different argument each time if you wanted to.
 
-Where might this be useful? Well think about each time you use `each`. You need to yield each member of the collection to the block. Say you're writing a banking api, it will allow other banks to use your library to handle all the banking matters. One such api is a method that prints all of the transactions to a statement. For our example we'll use the terminal, but it could be a spreadsheet or anything. One issue is that different banks may want to print the transaction with different formats. We can iterate through the transactions and for each one we can yield it to a block that the caller of your method attaches to the method call. They can define how the transactions will be printed to their statement and you can focus on delivering bug free banking transactions
+Where might this be useful? Well think about each time you use `each`. You need to yield each member of the collection to the block. Say you're writing an app that will allow other banks to handle all their banking matters. One part of your app is a method that prints all of the transactions to a statement. For our example we'll use the terminal, but it could be a spreadsheet or anything. One issue is that different banks may want to print the transaction with different formats. We can iterate through the transactions and for each one we can yield it to a block that the caller of your method attaches to the method call. They can define how the transactions will be printed to their statement and you can focus on delivering bug free banking transactions
 
 ~~~ruby
 @transactions = [10, -15, 25, 30, -24, -70, 999]
@@ -86,7 +81,7 @@ end
 
 If another bank wanted to print their transactions another way it's no problem, they can supply their own block.
 
-What if instead you didn't want the caller to define where the transaction for output, but just the format? Like any method call in Ruby there is a return value. So when you call yield, it returns the last executed value from the block. Using the example above if you instead moved the `puts` from the block to inside the each loop your method would be in control in where the transaction were printed. Maybe you only allow exporting to a csv for example.
+What if instead you didn't want the caller to define how the transaction is outputted, but just the format? Like any method call in Ruby there is a return value. So when you call yield, it returns the last executed value from the block. Using the example above if you instead moved the `puts` from the block to inside the `each` loop, your method would be in control of where the transactions were printed. Maybe you only allow exporting to a csv for example.
 
 ~~~ruby
 @transactions = [10, -15, 25, 30, -24, -70, 999]
@@ -121,7 +116,7 @@ transaction_statement do |transaction|
 end
 ~~~
 
-You can also write explicit return statements from a block and it will return whatever value is after that. This works the same way as an explicit return from a method. This might be useful if you need some kind of guard clause.
+You can also write explicit return statements from a block and it will return whatever value is after that. This works the same way as an explicit return from a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).
 
 To clarify... The value that you yield to the block is captured by the block and assigned to the named parameter of the block. In the case above our block has a `|transaction|` parameter so each iteration the value passed to yield as an argument is assigned to that variable name.
 
@@ -357,98 +352,11 @@ my_method(my_lambda)
 my_method(my_proc)
 
 # => proc
-
-# You can even create the lambda or proc when calling the method
-
-my_method(-> { puts "cool lambda bro" })
-
-# => cool lambda bro
 ~~~
-
-### Advanced stuff
-
-Here I'm going to cover some of the more advanced techniques you can use with procs and lambdas. I might not explain the concept too deeply because that would be an entire lesson on its own, but I'll definitely make clear how things work.
-
-#### Closures
-
-I mentioned earlier that blocks can be used in Ruby as a closure. A closure can be thought of as a function that can be treated like a variable and remembers the context in which it was created so that it can refer back to it when called.
-
-What we mean by being treated like a variable is that it can be assigned to another variable, passed as a method argument and anything else a variable can do. Well we've already seen in the examples above that procs and lambdas can both be assigned to a variable, and passed around as method argument to be called whenever.
-
-The more interesting bit is that they remember the context in which they were created. It will be made clearer with an example. Consider the following code
-
-~~~ruby
-def lambda_caller(a_lambda)
-  name = "bob"
-  a_lambda.call
-end
-
-name = "tim"
-
-name_lambda = -> { puts name }
-
-lambda_caller(name_lambda)
-~~~
-
-What do you think this would output to the terminal? Try and run the code yourself and see.
-
-It should have output `tim`. This is an important point. Procs and Lambdas get their execution context when they are created, not when they are called. If you removed the line where you set `name = "tim"` what do you think would happen then?
-
-You'd get an error. As I said, the context is created when the proc or lambda is created so it won't access the context inside the method and see there is a `name` variable set to `bob` there. That said, if you never call the lambda you won't get an error when creating it just because there isn't a name at that time. It's only when the lambda is called that it looks up its own context and finds out that name wasn't defined when it was created.
-
-Hopefully you're getting to grips with a closure? How about this curve ball
-
-~~~ruby
-name = "tim"
-
-my_lambda = -> { puts name }
-
-my_lambda.call
-
-name = "bob"
-
-my_lambda.call
-~~~
-
-What do you think will be output here?
-
-You should have got `tim` then `bob`. That may seem counter intuitive to what I said earlier. The context was created when the lambda was created, and at that time name was `tim`. So it's not unreasonable to assume it would stay that way. However because we haven't left the scope in which the lambda was created a change in variable value also changes the name value you originally created. So looking at it that way it's actually reasonable.
-
-So keeping in mind the two previous examples what will this one output
-
-~~~ruby
-my_lambda = { return name }
-
-name = "tim"
-
-my_lambda.call
-~~~
-
-I'm sure you got it.... An error.
-
-It does make sense. When the lambda is created there is no name variable to remember so adding one later does not add it to the context of the proc.
-
-Closures are much more commonly used in languages that support functions as first class objects. So you might not find a use case yourself for a closure in Ruby, but it's still cool to learn something new.
-
-#### Currying
-
-Again, currying is really something that belongs in the world of functional programming. But as procs are basically functions we can do it. What is currying? It's a way to call a function with only some of the arguments supplied, and get back a new function that can be called passing the other arguments at that time. Whhhhaattt? Let's see with an example
-
-~~~ruby
-multiply = ->(num1, num2) { num1 * num2 }
-
-first_num = multiply.curry.call(10) # Here we call the curry method on the lambda and then call it with just one argument.
-
-puts first_num.call(10) # We then call first_num which will itself by a proc type object passing in the second argument in the normal way
-
-# => 100
-~~~
-
-You can do the same thing if you create a Proc object too. Will you ever use this? I have no idea. If you do find a good use for it though let the world know.
 
 ### Capturing blocks
 
-Now that we know about how procs and lambdas work, how can this be applied to blocks? As we learned blocks are anonymous functions that can be attached to methods. But what if we want to capture a reference to that block to do something with it? Maybe we need to receive the block now in our method and store it in an instance variable to be called later if required.
+Now that we know about how procs and lambdas work, how can this be applied to blocks? As we learned blocks are like little anonymous methods. But what if we want to capture a reference to that block to do something with it? Maybe we need to receive the block now in our method and store it in an instance variable to be called later if required.
 
 Ruby allows us to capture blocks in a method definition with a special argument using `&`.
 
@@ -541,7 +449,5 @@ After getting to grips with the information in this lesson you'll be a block, pr
 - What's the difference between a proc and a block?
 - When would you use a proc instead of a block?
 - What's different between a lambda and a proc?
-- What is a closure?
-- What is currying?
 - How do you convert a proc to a block?
 - How do you convert a block to a proc?
