@@ -21,7 +21,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
     return (
       <div className="text-center">
         <h1 className="bold">Please Sign in</h1>
-        <p>
+        <p data-testid="sign-in-instructions">
           Please
           {' '}
           <a href="/login">sign in</a>
@@ -35,8 +35,8 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
   if (formState.isSubmitSuccessful) {
     return (
       <div className="text-center">
-        <h1 className="accent">Thanks for Submitting Your Solution!</h1>
-        <button type="button" className="button button--primary" onClick={onClose}>Close</button>
+        <h1 className="accent" data-testid="success-message">Thanks for Submitting Your Solution!</h1>
+        <button type="button" className="button button--primary" onClick={onClose} data-testid="close-button">Close</button>
       </div>
     );
   }
@@ -54,6 +54,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
             type="url"
             name="repo_url"
             placeholder="Repository URL"
+            data-testid="repo-url"
             ref={register()}
           />
         </div>
@@ -74,11 +75,12 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
                 type="url"
                 placeholder="Live Preview URL"
                 name="live_preview_url"
+                data-testid="live-preview-url"
                 ref={register()}
               />
             </div>
             { errors.live_preview_url && (
-            <div className="form__error-message push-down">
+            <div className="form__error-message push-down" data-testid="error-message">
               {' '}
               {errors.live_preview_url.message}
             </div>
@@ -90,22 +92,40 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
           <div className="form__toggle-checkbox">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
             <label htmlFor="is_public" className="toggle form__public-checkbox">
-              <input id="is_public" className="toggle__input" type="checkbox" name="is_public" ref={register()} />
+              <input
+                id="is_public"
+                className="toggle__input"
+                type="checkbox"
+                name="is_public"
+                data-testid="is-public-toggle"
+                ref={register()}
+              />
               <div className="toggle__fill" />
             </label>
           </div>
 
-          <button disabled={formState.isSubmitting} type="submit" className="button button--primary">Submit</button>
+          <button
+            disabled={formState.isSubmitting}
+            type="submit"
+            className="button button--primary"
+            data-testid="submit-button"
+          >
+            Submit
+          </button>
         </div>
       </form>
     </div>
   );
 };
 
+CreateForm.defaultProps = {
+  userId: null,
+};
+
 CreateForm.propTypes = {
   onClose: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
-  userId: PropTypes.number.isRequired,
+  userId: PropTypes.number,
 };
 
 export default CreateForm;
