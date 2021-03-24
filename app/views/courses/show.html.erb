@@ -11,6 +11,7 @@
           <h2 class="course-description__heading">Overview</h2>
           <p><%= @course.description %></p>
         </div>
+        <p><%= @course.path.title %></p>
 
         <%= render 'courses/course/sections', sections: @course.sections, course: @course %>
 

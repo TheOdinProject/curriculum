@@ -6,3 +6,6 @@ Layout/LineLength:
 
 Metrics/MethodLength:
   Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false

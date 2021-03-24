@@ -3,8 +3,7 @@ require 'rails_helper'
 RSpec.describe Course do
   subject(:course) { described_class.new }
 
-  it { is_expected.to have_many(:path_courses) }
-  it { is_expected.to have_many(:paths).through(:path_courses) }
+  it { is_expected.to belong_to(:path) }
   it { is_expected.to have_many(:sections).order(:position) }
   it { is_expected.to have_many(:lessons).through(:sections) }
 
