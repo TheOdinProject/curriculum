@@ -1,7 +1,6 @@
 # rubocop:disable Lint/MissingCopEnableDirective, Metrics/BlockLength
 Rails.application.routes.draw do
-  require_relative 'routes/redirects'
-
+  draw(:old_route_redirects)
   ActiveAdmin.routes(self)
 
   require 'sidekiq/web'
