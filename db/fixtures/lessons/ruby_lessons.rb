@@ -177,6 +177,20 @@ def ruby_lessons
       has_live_preview: true,
       identifier_uuid: '8a5dda78-b387-4a4e-b2af-aed0561ed633',
     },
+    'Blocks' => {
+      title: 'Blocks',
+      description: 'Dive into how Ruby uses blocks within methods.',
+      is_project: false,
+      url: '/ruby_programming/advanced_ruby/blocks.md',
+      identifier_uuid: '357b39e4-d7ad-4a97-97aa-6cfccb6a6574',
+    },
+    'Pattern Matching' => {
+      title: 'Pattern Matching',
+      description: 'Discover how Ruby has introduced pattern matching and how it can simplify extracting information from deeply nested data structures',
+      is_project: false,
+      url: '/ruby_programming/advanced_ruby/pattern_matching.md',
+      identifier_uuid: '2fba93a5-e759-4c17-8c6e-3ebc6da2048a',
+    },
     'A Very Brief Intro to CS' => {
       title: 'A Very Brief Intro to CS',
       description: "Get a taste of what's coming up ahead and what the bigger world of CS looks like beyond the scope of this course.",
