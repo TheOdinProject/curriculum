@@ -419,7 +419,7 @@ GEM
     rubocop-performance (1.10.1)
       rubocop (>= 0.90.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    ruby-progressbar (1.11.0)
+    ruby-progressbar (1.10.1)
     ruby-statistics (2.1.2)
     ruby2_keywords (0.0.4)
     sass (3.7.4)
@@ -555,6 +555,7 @@ DEPENDENCIES
   rspec-rails
   rubocop
   rubocop-performance
+  ruby-progressbar (~> 1.10.0)
   sass-rails (~> 6.0)
   seed-fu (~> 2.3.9)
   shoulda-matchers
