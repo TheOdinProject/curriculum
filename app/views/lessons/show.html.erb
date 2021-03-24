@@ -35,7 +35,7 @@
             course: @lesson.course.as_json,
             lesson: @lesson.as_json,
             submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission, current_user) },
-            allSubmissionsPath: lesson_project_submissions_path(@lesson),
+            allSubmissionsPath: lesson_project_submissions_path(@lesson.id),
             userSubmission: user_submission(current_user, @lesson)
           }
         ) %>

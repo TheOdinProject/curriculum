@@ -17,7 +17,7 @@ module Lessons
     end
 
     def set_lesson
-      @lesson = Lesson.friendly.find(params[:lesson_id])
+      @lesson = Lesson.find(params[:lesson_id])
     end
 
     def check_if_project_submitable
