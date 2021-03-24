@@ -1,7 +1,10 @@
+# rubocop: disable Style/ClassVars
 require './lib/seeds/lesson_seeder'
 
 module Seeds
   class SectionSeeder
+    @@total_seeded_lessons = Hash.new(0)
+
     attr_accessor :identifier_uuid, :title, :description, :position
     attr_reader :seeded_lessons
 
@@ -28,10 +31,8 @@ module Seeds
     end
 
     def add_lessons(*lessons)
-      @add_lessons ||= lessons.map.with_index do |lesson, index|
-        position = index + 1
-
-        LessonSeeder.create(section, position, lesson).tap do |seeded_lesson|
+      @add_lessons ||= lessons.map do |lesson|
+        LessonSeeder.create(section, lesson_position, lesson).tap do |seeded_lesson|
           seeded_lessons.push(seeded_lesson)
         end
       end
@@ -40,5 +41,10 @@ module Seeds
     private
 
     attr_reader :course
+
+    def lesson_position
+      @@total_seeded_lessons[section.course.identifier_uuid] += 1
+    end
   end
 end
+# rubocop: enable Style/ClassVars

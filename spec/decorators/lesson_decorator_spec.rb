@@ -8,13 +8,11 @@ RSpec.describe LessonDecorator do
       Lesson,
       is_project?: is_project?,
       title: 'Ruby Basics',
-      url: lesson_url,
       course: course
     )
   end
 
   let(:is_project?) { true }
-  let(:lesson_url) { '/web_development_101/jquery_basics.md' }
   let(:course) { instance_double(Course) }
 
   describe '#title' do

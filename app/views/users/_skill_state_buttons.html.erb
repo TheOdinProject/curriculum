@@ -5,7 +5,7 @@
   %>
 <% elsif course_started_by_user?(course, user) && !course_completed_by_user?(course, user) %>
   <%= link_to 'Resume',
-    lesson_path(next_lesson_to_complete(course, user.lesson_completions_for(course))),
+    path_course_lesson_url(course.path, course, next_lesson_to_complete(course, user.lesson_completions_for(course))),
     class: 'button button--primary skill__button'
   %>
 <% else %>

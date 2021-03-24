@@ -23,7 +23,10 @@ module Lessons
     def check_if_project_submitable
       return if @lesson.accepts_submission?
 
-      redirect_to lesson_path(@lesson), alert: 'That project does not accept submissions'
+      redirect_to(
+        path_course_lesson_url(@lesson.course.path, @lesson.course, @lesson),
+        alert: 'That project does not accept submissions'
+      )
     end
   end
 end
