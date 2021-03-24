@@ -440,9 +440,6 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
-    seed-fu (2.3.9)
-      activerecord (>= 3.1)
-      activesupport (>= 3.1)
     select2-rails (4.0.13)
     semantic_range (2.3.0)
     shoulda-matchers (4.5.1)
@@ -556,7 +553,6 @@ DEPENDENCIES
   rubocop
   rubocop-performance
   sass-rails (~> 6.0)
-  seed-fu (~> 2.3.9)
   shoulda-matchers
   sidekiq
   simplecov

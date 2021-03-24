@@ -1,10 +1,11 @@
 class Course < ApplicationRecord
   extend FriendlyId
 
-  friendly_id :title, use: %i[scoped slugged history finders], scope: :path
+  friendly_id :title, use: %i[slugged history finders]
 
-  belongs_to :path
-  has_many :sections, -> { order(:position) }, dependent: :destroy
+  has_many :path_courses
+  has_many :paths, through: :path_courses
+  has_many :sections, -> { order(:position) }
   has_many :lessons, through: :sections
 
   validates :position, presence: true

@@ -2,8 +2,8 @@
   <%= link_to lesson_completions_path(lesson), method: :delete, remote: true do %>
     <i class="far fa-check-circle section-lessons__item__icon section-lessons__item__icon--completed"></i>
   <% end %>
-<% else %>
-  <%= link_to lesson_completions_path(lesson.id), method: :post, remote: true do %>
+<% elsif lesson.course.paths.include?(current_user.path) %>
+  <%= link_to lesson_completions_path(lesson), method: :post, remote: true do %>
     <i class="far fa-check-circle section-lessons__item__icon"></i>
   <% end %>
 <% end %>

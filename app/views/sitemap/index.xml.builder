@@ -19,9 +19,9 @@ xml.urlset(
     end
   end
 
-  # Main paths index
+  # Main courses index
   xml.url do
-    xml.loc "#{paths_url}"
+    xml.loc "#{courses_url}"
     xml.changefreq("monthly")
     xml.priority(1.00)
   end
@@ -34,14 +34,14 @@ xml.urlset(
   # Individual courses and lessons
   @courses.each do |course|
     xml.url do
-      xml.loc "#{path_course_url(course.path, course)}"
+      xml.loc "#{course_url(course)}"
       xml.changefreq("weekly")
       xml.priority(0.80)
     end
 
     course.lessons.each do |lesson|
       xml.url do
-        xml.loc "#{path_course_lesson_url(course.path, course, lesson)}"
+        xml.loc "#{course_lesson_url(course, lesson)}"
         xml.lastmod lesson.updated_at.strftime("%F")
         xml.changefreq("daily")
         xml.priority(1.00)

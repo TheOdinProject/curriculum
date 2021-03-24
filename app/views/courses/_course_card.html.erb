@@ -13,14 +13,14 @@
           <%= render 'shared/course_badge', course: course, user: current_user, modifier: '' %>
         </div>
 
-        <%= link_to path_course_url(course.path, course), class: 'course-card-header__link' do %>
+        <%= link_to course, class: 'course-card-header__link' do %>
           <h2 id=<%= course.title.parameterize %> class="course-card-header__title">
             <%= course.title %>
           </h2>
           <span class="course-card-header__sub-title"><%= course.lessons.size %> lessons</span>
         <% end %>
 
-        <%= link_to 'Open Course', path_course_url(course.path, course), class: "button #{open_course_button_style(course, current_user)} course-card-header__button" %>
+        <%= link_to 'Open Course', course, class: "button #{open_course_button_style(course, current_user)} course-card-header__button" %>
       </div>
 
       <div class="course-card__description">

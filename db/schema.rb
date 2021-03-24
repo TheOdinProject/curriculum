@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_13_093419) do
+ActiveRecord::Schema.define(version: 2021_03_11_200356) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,9 +44,7 @@ ActiveRecord::Schema.define(version: 2021_03_13_093419) do
     t.integer "position", null: false
     t.string "slug"
     t.string "identifier_uuid", default: "", null: false
-    t.integer "path_id"
     t.index ["identifier_uuid"], name: "index_courses_on_identifier_uuid", unique: true
-    t.index ["path_id"], name: "index_courses_on_path_id"
     t.index ["slug"], name: "index_courses_on_slug"
   end
 
@@ -120,6 +118,14 @@ ActiveRecord::Schema.define(version: 2021_03_13_093419) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["read_at"], name: "index_notifications_on_read_at"
     t.index ["recipient_type", "recipient_id"], name: "index_notifications_on_recipient"
+  end
+
+  create_table "path_courses", id: :serial, force: :cascade do |t|
+    t.integer "path_id"
+    t.integer "course_id"
+    t.integer "position"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "path_prerequisites", force: :cascade do |t|

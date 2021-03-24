@@ -1,6 +1,6 @@
 <% if course_completed_by_user?(course, user) %>
   <%= link_to 'Open',
-   path_course_path(course.path, course),
+   course_path(course),
    class: 'button button--transparent skill__button'
   %>
 <% elsif course_started_by_user?(course, user) && !course_completed_by_user?(course, user) %>
@@ -10,7 +10,7 @@
   %>
 <% else %>
   <%= link_to 'Start',
-   path_course_url(course.path, course),
+   course_path(course),
    class: 'button button--primary skill__button'
   %>
 <% end %>

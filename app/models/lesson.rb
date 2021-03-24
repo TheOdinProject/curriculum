@@ -1,11 +1,10 @@
 class Lesson < ApplicationRecord
   extend FriendlyId
 
-  friendly_id :slug_candidates, use: %i[scoped slugged history finders], scope: :section
+  friendly_id :slug_candidates, use: %i[slugged history finders]
 
   belongs_to :section
   has_one :course, through: :section
-  has_one :path, through: :course
   has_many :project_submissions
   has_many :lesson_completions
   has_many :completing_users, through: :lesson_completions, source: :student

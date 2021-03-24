@@ -2,6 +2,8 @@
   <%= link_to lesson_completions_path(lesson), method: :delete, remote: true, class: 'button button--complete lesson-button-group__item lesson-button lesson-button--complete', title: 'Mark lesson incomplete', data: { disable_with: "Submitting..." } do %>
     <i class="lesson-button__icon far fa-check-circle" aria-hidden="true"></i>
   <% end %>
+<% elsif !lesson.course.paths.include?(current_user.path) %>
+  <%= link_to 'Switch Paths', paths_url, class: 'button button--primary lesson-button-group__item lesson-button', title: 'View Paths' %>
 <% elsif lesson.choose_path_lesson? %>
   <%= link_to lesson_completions_path(lesson, redirect_url: paths_url), remote: true, method: :post, class: 'button button--primary lesson-button-group__item lesson-button', title: 'Mark lesson complete', data: { disable_with: "Submitting..." } do %>
     <i class="lesson-button__icon far fa-check-circle" aria-hidden="true"></i>Complete and Choose Path

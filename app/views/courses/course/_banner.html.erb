@@ -3,7 +3,7 @@
     <%= render 'shared/course_badge', course: course, user: current_user, modifier: '' %>
   </div>
 
-  <%= link_to path_course_url(course.path, course), class: 'course-card-header__link' do %>
+  <%= link_to course, class: 'course-card-header__link' do %>
     <h1 class="banner__title"><%= course.title %></h1>
   <% end %>
 </div>

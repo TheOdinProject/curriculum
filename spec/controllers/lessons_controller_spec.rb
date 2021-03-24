@@ -1,20 +1,26 @@
 require 'rails_helper'
 
 RSpec.describe LessonsController do
-  let(:path) { create(:path, title: 'a path') }
-  let(:course) { create(:course, title: 'a course', path: path) }
-  let(:section) { create(:section, course: course) }
-  let!(:lesson) { create(:lesson, title: 'a lesson', section: section) }
+  let(:lesson) { create(:lesson, id: 'abc123') }
+  let(:params) { { course_title: 'web-development-101', id: lesson_id } }
+  let(:lesson_id) { 'abc123' }
+  let(:course) { instance_double(Course) }
+  let(:user) { create(:user, id: '1') }
+
+  before do
+    allow(controller).to receive(:current_user).and_return(user)
+    allow(User).to receive(:includes).with(:completed_lessons).and_return(user)
+    allow(user).to receive(:find).with(1).and_return(user)
+
+    allow(Lesson).to receive(:includes)
+      .with(:section, course: [:lessons, sections: [:lessons]])
+      .and_return(lesson)
+
+    allow(lesson).to receive(:friendly).and_return(lesson)
+    allow(lesson).to receive(:find).with(params[:id]).and_return(lesson)
+  end
 
   describe 'GET show' do
-    let(:params) do
-      {
-        id: 'a-lesson',
-        course_id: 'a-course',
-        path_id: 'a-path',
-      }
-    end
-
     it 'renders the lesson' do
       get :show, params: params
       expect(response).to render_template(:show)
@@ -26,21 +32,20 @@ RSpec.describe LessonsController do
     end
 
     context 'when lesson cannot be found' do
-      let(:params) do
-        {
-          id: 'a-unknown-lesson',
-          course_id: 'a-course',
-          path_id: 'a-path',
-        }
+      let(:lesson_id) { '123' }
+      let(:request) { get :show, params: params }
+
+      before do
+        allow(Lesson).to receive(:friendly).and_return(lesson)
+        allow(lesson).to receive(:find).with('123').and_raise(ActiveRecord::RecordNotFound)
+        request
       end
 
       it 'returns a status of 404' do
-        get :show, params: params
         expect(response).to have_http_status(404)
       end
 
       it 'renders the 404 page' do
-        get :show, params: params
         expect(response).to render_template(:not_found)
       end
     end
