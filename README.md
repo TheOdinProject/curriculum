@@ -47,6 +47,7 @@ To find out more about how you can contribute, please read our [contributing gui
 * [Ada Chiu](https://github.com/adachiu)
 * [Marvin Gay](https://github.com/marvingay)
 * [Rachel Moser](https://github.com/rlmoser99)
+* [Grace Schwartz](https://github.com/CatQueenCodes)
 
 ---
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
