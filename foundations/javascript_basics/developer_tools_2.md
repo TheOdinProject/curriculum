@@ -15,6 +15,8 @@ There are three ways to open the Developer Tools menu:
 
 <div class="lesson-content__panel" markdown="1">
 
+**The following resources are meant to be done in Chrome browser unless stated otherwise.**
+
 1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
     - Open DevTools
     - CSS
