@@ -91,6 +91,20 @@ course.add_section do |section|
 end
 
 # +++++++++++++++++++++++++++++++++++
+# SECTION - Advanced Ruby
+# +++++++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Advanced Ruby'
+  section.description = "In this section you'll learn about some of Ruby's most powerful features and how using these techniques can simplify your code."
+  section.identifier_uuid = 'bf5655dc-bd79-4cb4-b8c8-6f018f940f08'
+
+  section.add_lessons(
+    ruby_lessons.fetch('Blocks'),
+    ruby_lessons.fetch('Pattern Matching'),
+  )
+end
+
+# +++++++++++++++++++++++++++++++++++
 # SECTION - A Bit of Computer Science
 # +++++++++++++++++++++++++++++++++++
 course.add_section do |section|
