@@ -18,7 +18,6 @@ The Odin project community can be found on our [Discord server](https://discord.
 
 ## Contributing
 [![Build Status](https://circleci.com/gh/TheOdinProject/theodinproject.svg?style=svg)](https://app.circleci.com/pipelines/github/TheOdinProject/theodinproject)
-[![View Performance Data on Skylight](https://badges.skylight.io/status/g0gJSNnzYAws.svg)](https://oss.skylight.io/app/applications/g0gJSNnzYAws)
 
 The Odin Project depends on open source contributions to grow, improve, and thrive.
 We welcome contributions from beginners and experienced developers alike.
@@ -48,6 +47,7 @@ To find out more about how you can contribute, please read our [contributing gui
 * [Marvin Gay](https://github.com/marvingay)
 * [Rachel Moser](https://github.com/rlmoser99)
 * [Grace Schwartz](https://github.com/CatQueenCodes)
+* [Tatiana Walton](https://github.com/twalton83)
 
 ---
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
