@@ -25,9 +25,6 @@
           "description": "This is a staging environment",
           "value": "true"
         }
-      },
-      "scripts": {
-        "postdeploy": "bundle exec rails db:seed curriculum:update_content"
       }
     }
   }

@@ -19,9 +19,21 @@ fi
 if [ "$schema_version" -eq "0" ]; then
   printf "\n⏳${YELLOW}   [Release Phase]: Loading the database schema.${NO_COLOR}\n"
   bin/rails db:schema:load
+
+  printf "\n⏳${YELLOW}   [Release Phase]: Running database seeds.${NO_COLOR}\n"
+  bin/rails db:seed
+
+  printf "\n⏳${YELLOW}   [Release Phase]: Importing lesson content.${NO_COLOR}\n"
+  bin/rails curriculum:content:import
 else
   printf "\n⏳${YELLOW}   [Release Phase]: Running database migrations.${NO_COLOR}\n"
   bin/rails db:migrate
+
+  printf "\n⏳${YELLOW}   [Release Phase]: Running database seeds.${NO_COLOR}\n"
+  bin/rails db:seed
+
+  printf "\n⏳${YELLOW}   [Release Phase]: Importing lesson content.${NO_COLOR}\n"
+  bin/rails curriculum:content:import
 fi
 
 printf "\n🎉${GREEN}   [Release Phase]: Database is up to date.${NO_COLOR}\n"
