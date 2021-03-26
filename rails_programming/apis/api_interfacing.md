@@ -90,7 +90,7 @@ Basically (still using Facebook as an example):
 5. The user waits while your application takes that authorization code and uses it to ask Facebook for the real good stuff.  Facebook makes sure your application is the same one the user authorized, then POSTs back to you a unique authentication token for the user (which likely expires in 90 days) and any data you asked for up front (like email address).
 5. You store the user's unique token in your database and use it, along with your application key(s), to make any subsequent requests on the user's behalf.
 
-See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html) for an overview.  Then check out [this more substantive explanation from tutsplus.com](http://net.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly/).
+See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html) for an overview.  Then check out [this more substantive explanation from tutsplus.com](https://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216).
 
 #### Implementing OAuth 2.0 in Rails -- Use Omniauth!
 
