@@ -148,7 +148,7 @@ If you write a return statement like the above in a useEffect, it will do the sa
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. The React documentation provides a whole section on hooks. Read through all steps [here](https://reactjs.org/docs/hooks-intro.html). You can also always refer back to this page if you get stuck. The main idea to understand the concepts, the details come with time.
+1. The React documentation provides a whole section on hooks. Read through all steps [here](https://reactjs.org/docs/hooks-intro.html). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
 2. Now go back to your CV Project and rewrite it using functional components and hooks.
 </div>
 
