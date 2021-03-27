@@ -190,7 +190,7 @@ my_lambda = lambda { puts "my lambda" }
 my_other_lambda = -> { puts "hello from the other side" }
 ~~~
 
-To call a lambda you just just the `call` method.
+To call a lambda you just call the `call` method.
 
 ~~~ruby
 my_lambda = -> { puts "high five" }
