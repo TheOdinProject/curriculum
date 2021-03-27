@@ -140,7 +140,7 @@ We'll end our exploration of yield by posing a question. What happens if you cal
 
 ### Block control
 
-As the person who writes a method and the person who calls a method are often different people how can you be sure they caller will include a block and what happens if they don't?
+As the person who writes a method and the person who calls a method are often different people, how can you be sure the caller will include a block and what happens if they don't?
 
 ~~~ruby
 def simple_method
