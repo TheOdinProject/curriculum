@@ -118,11 +118,12 @@ While your VM is running, do the following steps:
   10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
   11. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 12. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
   12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
-  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  14. Once it finishes, close the terminal and the CD folder.
-  15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
-  16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
-  17. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  13. In the newly opened terminal window, paste 
+`sudo ./VBoxLinuxAdditions.run` and hit enter.
+  15. Once it finishes, close the terminal and the CD folder.
+  16. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
+  17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
+  18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 
