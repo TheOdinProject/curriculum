@@ -23,7 +23,6 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 
 - calculator
 - palindromes
-- caesar
 - fibonacci
 - getTheTitles
 - findTheOldest
