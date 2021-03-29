@@ -2,25 +2,25 @@
 
 The first step for building any website is having the right tools. For us, that means setting up a development environment for writing good code.
 
-Many online development courses use in-browser code editors or "sandboxes," which give you the tools and programs needed to accomplish the task at hand and nothing else. You'll use some of these sandboxes throughout the early stages of The Odin Project since they're great for getting started quickly. However, the best way to set yourself up for long-term success is to operate in a real development environment. 
+Many online development courses use in-browser code editors or "sandboxes," which give you the tools and programs needed to accomplish the task at hand and nothing else. You'll use some of these sandboxes throughout the early stages of The Odin Project since they're great for getting started quickly. However, the best way to set yourself up for long-term success is to operate in a real development environment.
 
 We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
 ### The Installation Plan
 
-In the following sections, we'll go over the steps for setting up your environment. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
+In the following sections, we'll go over the steps for setting up your environment. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road.
 
 In the next few lessons, we will walk through these installation steps together:
 
-* installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice;
-* installing a code editor;
-* creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using);
+- installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice;
+- installing a code editor;
+- creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using);
 
 At the end of the next lesson, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
-* Examine the terminal output for the actual error.
-* Google, Google, Google.
-* Never be afraid to [ask for help](https://discord.gg/hvqVr6d)!
+- Examine the terminal output for the actual error.
+- Google, Google, Google.
+- Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
 
 ### OS Options
 
@@ -36,7 +36,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
- - [Watch this video](https://youtu.be/yIVXjl4SwVo) on Virtual Machines to achieve an overview of how they work. 
+- [Watch this video](https://youtu.be/yIVXjl4SwVo) on Virtual Machines to achieve an overview of how they work.
 
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but the risk is very low. You'll be okay as long as you take your time and read the instructions.
 
@@ -50,11 +50,11 @@ If you don't have an Apple computer, you are likely using Windows. Don't worry! 
 
 Modifying or dual booting a computer to work with the tools you'll need will make it much easier to start programming, can help create a distraction-free environment, and will look good on your resume. Take a deep breath, and let's look at your options.
 
-Still not convinced? Here are a few great reasons to install Linux: 
+Still not convinced? Here are a few great reasons to install Linux:
 
 - **Tested** - We've tested our directions with MacOS, Ubuntu, and official Ubuntu flavors. We did the research so that you can get tools installed with as few issues as possible, getting you to coding sooner. Time spent wrestling with your operating system is time taken from learning how to code.
 - **Community Support** - Using the tools we recommend makes it easier for us to help when you run into trouble.
-- **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform like Linux.
+- **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly _expect_ to run on an open-source (UNIX-based) platform like Linux.
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
 

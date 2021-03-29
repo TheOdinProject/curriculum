@@ -1,4 +1,5 @@
 ### Introduction
+
 Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/), [follow us on Twitter](https://twitter.com/TheOdinProject) and catch up on [Instagram](https://www.instagram.com/theodinproject/). Use #TheOdinProject to share your Odin Project progress, updates, thoughts and to see what other Odin students are up to!
 
 ### Why a community is awesome for you
@@ -17,9 +18,9 @@ We are working hard to update existing lessons and produce new content, so we wo
 
 As most of the projects are designed to push you to your limit, please remember that there is always a community to turn to! You don't need to know how to solve every problem straight away, BUT you do need to have a general idea of where you are going. This becomes really important when asking your questions because sometimes the problem is your **approach** and not your code.
 
-If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging). 
+If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
-You should also do a [Google search](https://www.google.com/) to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task. 
+You should also do a [Google search](https://www.google.com/) to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
 
 If these methods don't yield a solution for you, then it's time to reach out to the Odin community and ask for help.
 
@@ -31,11 +32,11 @@ In addition, when you ask your questions, you should help the community help you
 
 When asking your question, please remember to include the context:
 
-* What do you think the problem is?
-* What exactly do you want to happen?
-* What is actually happening?
-* How did you get there?
-* What have you tried so far?
+- What do you think the problem is?
+- What exactly do you want to happen?
+- What is actually happening?
+- How did you get there?
+- What have you tried so far?
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
@@ -44,6 +45,7 @@ If the puzzle still can't be solved, push your project to GitHub or put your cod
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
 #### An Important Read
+
 The article [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) has really great tips on how to put together an effective question. An effective question makes it easy for us to help you. The strategies outlined there invite you to think deeply about your problem. Sometimes, as a happy accident, you may even lead yourself to the answer as you reflect on the matter. But asking good questions isn't just about us helping you. Great questions make you a great teammate. A future co-worker or manager does not want to spend time poking at your code to learn about your problem. You'll be expected to bring thoughtful and fully developed questions.
 
 ### Formatting your questions
@@ -80,31 +82,31 @@ Your Colorful Code
 
 ### Chat features
 
-* Have fun with giphys: type `/giphy hi` to say hi to everyone.
-* Type `/help` for more information on chat commands.
-* Show your appreciation to those who help you with `@username ++`.
-* Don't forget to visit all the available rooms!
+- Have fun with giphys: type `/giphy hi` to say hi to everyone.
+- Type `/help` for more information on chat commands.
+- Show your appreciation to those who help you with `@username ++`.
+- Don't forget to visit all the available rooms!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
+1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-  2. In a moment we're going to ask you to join the Discord community, here are some guidelines before you dive in: 
-  
-     * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
-     * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
-     * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
-     * **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
-     * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
-     * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
-     * **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
+2. In a moment we're going to ask you to join the Discord community, here are some guidelines before you dive in:
 
-  3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
+   - **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.
+   - **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.
+   - **Don't Exclude Anyone:** These are public chats, if someone joins in on a conversation, include them!
+   - **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+   - **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.
+   - **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
+   - **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
 
-     **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
+3. Finally, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
-     * Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
+   **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
+
+   - Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
 
 </div>
