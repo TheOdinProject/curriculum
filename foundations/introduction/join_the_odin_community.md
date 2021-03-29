@@ -101,7 +101,7 @@ Your Colorful Code
      * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
      * **Read the Rules:** Upon joining, you will find yourself in the "#Rules" channel. Please read the rules!
 
-  3. Finally, sign in to our [Discord server](https://discord.gg/hvqVr6d). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
+  3. Finally, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions-and-checkins room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered by Odin and beyond. Log into the chat and start exploring!
 
      **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
 

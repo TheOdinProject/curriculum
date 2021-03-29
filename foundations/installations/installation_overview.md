@@ -20,7 +20,7 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 
 * Examine the terminal output for the actual error.
 * Google, Google, Google.
-* Never be afraid to [ask for help](https://discord.gg/hvqVr6d)!
+* Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
 
 ### OS Options
 
