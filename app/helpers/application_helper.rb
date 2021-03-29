@@ -3,7 +3,7 @@ module ApplicationHelper
   require 'kramdown'
 
   def chat_link
-    'https://discord.gg/V75WSQG'
+    'https://discord.gg/fbFCkYabZB'
   end
 
   def github_link(extension = '')
