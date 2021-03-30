@@ -18,6 +18,7 @@ Look through these now and then use them to test yourself after doing the assign
 * Which RESTful routes share the same URL but use different verbs?
 * How do you specify an ID or other variable in a route?
 * How can you easily write all seven RESTful routes in Rails?
+* How can you easily list out all the routes in your router?
 * What is the Rails helper method that creates the HTML for links?
 
 ### Root
@@ -159,6 +160,8 @@ Just to drive home that routes correspond directly to controller actions, a very
   end
 ~~~
 
+Remember that you can run `$ rails routes` in the project directory to see all of the routes with their corresponding controllers and actions.
+
 ### I Don't Want All Seven Routes!
 
 Sometimes you just don't want all seven of the RESTful routes that `resources` provides.  Easy, either specify just the ones you want using `only` or just the ones you DON'T want using `except`:
@@ -183,7 +186,7 @@ Of course, you don't have to do everything the RESTful way.  You probably should
 You should have a good sense of what's going on in the routes file by now but probably also have plenty of questions.  The Rails Guides to the rescue!
 
 <div class="lesson-content__panel" markdown="1">
-1. Read the [Rails Guides chapter on Routing](http://guides.rubyonrails.org/routing.html), sections 1-2.5, 3.1-3.4, and 4.6.
+1. Read the [Rails Guides chapter on Routing](http://guides.rubyonrails.org/routing.html), sections 1-2.5, 3.1-3.4, 4.6, and 6.1
 2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 </div>
 
