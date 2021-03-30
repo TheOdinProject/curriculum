@@ -39,7 +39,7 @@ $ git push origin <your branch name here>
 **Create a pull request**
 * Go to your fork on Github after you have pushed up your branch. A new button should be visible near the top of the page. It will allow you to create a pull request to the original Odin Project Repo.
 
-* Please Link to the issue your pull request resolves in the body of your pull request.
+* Please Link to the issue your pull request resolves in the body of your pull request!
 
 ## Need Help with Anything Here?
 Please let us know if you require any help doing any of the steps in this guide in our [Contributing room in Discord](https://discordapp.com/channels/505093832157691914/540903304046182425)
