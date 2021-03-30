@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to do the following:
 ### Nested Arrays
 Arrays can contain any type of data, including other arrays. An array that contains other arrays is called a nested array, or a multidimensional array.
 
-Nested arrays can be useful to store groups of similar data or positional data. The following nested array of test scores is storing groups of similar data and the teacher mailboxes is storing groups of positional data. I'm not sure if this is common around the world, but every school office that I can recall has teacher mailboxes in a paper organizer.
+Nested arrays can be useful to store groups of similar data or positional data. The following nested array of test scores is storing groups of similar data and the teacher mailboxes is storing groups of positional data.
 
 ~~~ruby
 test_scores = [
@@ -111,21 +111,21 @@ Changing the value of the first element in the first nested array does not cause
 You can add another element to the end of nested array using the `#push` method or the shovel operator `<<`. If you want to add an element to a specific nested array, you will need to specify the index of the nested array.
 
 ~~~ruby
-test_scores.push(99)
-#=> [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81], 99]
-test_scores[0] << (88)
-#=> [97, 76, 79, 93, 88]
+test_scores << [100, 99, 98, 97]
+#=> [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81], [100, 99, 98, 97]]
+test_scores[0].push(100)
+#=> [97, 76, 79, 93, 100]
 test_scores
-#=> [[97, 76, 79, 93, 88], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81], 99]
+#=> [[97, 76, 79, 93, 100], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81], [100, 99, 98, 97]]
 ~~~
 
 Using this similar syntax, you can add or remove elements from the entire nested array or from a specific nested element.
 
 ~~~ruby
 test_scores.pop
-#=> 99
+#=> [100, 99, 98, 97]
 test_scores[0].pop
-#=> 88
+#=> 100
 test_scores
 #=> [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81]]
 ~~~
@@ -193,14 +193,18 @@ Now let's take a look at a more complicated example of nesting two predicate enu
 test_scores = [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81]]
 #=> [[97, 76, 79, 93], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81]]
 
-test_scores.any? { |scores| scores.all? { |score| score > 80 } }
+test_scores.any? do |scores|
+  scores.all? { |score| score > 80 }
+end
 #=> false
 ~~~
 
 This seems pretty straight-forward. It returns false, because none of the nested arrays have scores that are all over 80. What do you think will happen if we switch `#any?` and `#all?`? Do you think we will get the same results?
 
 ~~~ruby
-test_scores.all? { |scores| scores.any? { |score| score > 80 } }
+test_scores.all? do |scores|
+  scores.any? { |score| score > 80 }
+end
 #=> true
 ~~~
 
@@ -305,12 +309,20 @@ vehicles.collect { |name, data| name if data[:year] >= 2020 }.compact
 #=> [:caleb, :dave]
 ~~~
 
-Finally, we have an array that only contains the names of the owners of vehicles from 2020 or newer! I have found some really useful methods by exploring the documentation when I have a specific use case in mind.
+Yes, using `#collect` and `#compact` returns the data that we want. As you can see, chaining methods can be very useful. However, if we continue exploring the documentation, we will find another method that combines the functionality of these two methods. Ruby version 2.7 added a new enumerable method called `#filter_map` that sounds very useful for this situation.
+
+~~~ruby
+vehicles.filter_map { |name, data| name if data[:year] >= 2020 }
+#=> [:caleb, :dave]
+~~~
+
+Amazing! We have found a great solution to returning an array that only contains the names of the owners of vehicles from 2020 or newer! Plus, we got experience using other methods that you will probably use in the future. I have found some really useful methods by exploring the documentation when I have a specific use case in mind.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. For another example on iterating with a nested hash, read [this article](https://learn.co/lessons/nested-hash-iteration) from Learn.co.
+1. To learn more about using a hash with a nested array, read [this article](https://learn.co/lessons/nested-hash-iteration) from Learn.co.
+2. To learn more about using an array with a nested hash, read [the answer to this post](https://stackoverflow.com/questions/50529389/manipulating-output-from-an-array-of-nested-hashes-in-ruby) on Stack Overflow.
 
 </div>
 
