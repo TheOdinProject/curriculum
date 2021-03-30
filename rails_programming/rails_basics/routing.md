@@ -160,7 +160,7 @@ Just to drive home that routes correspond directly to controller actions, a very
   end
 ~~~
 
-You can also run `$ rails routes` in the terminal inside a Ruby on Rails project to see all the routes, as well as the controllers and actions they map to.
+Remember that you can run `$ rails routes` in the project directory to see all of the routes with their corresponding controllers and actions.
 
 ### I Don't Want All Seven Routes!
 
