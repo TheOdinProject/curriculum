@@ -241,7 +241,7 @@ vehicles[:zoe][:year]
 vehicles.dig(:zoe, :year)
 #=> nil
 vehicles[:alice][:color]
-#=> nil
+#=> NoMethodError
 vehicles.dig(:alice, :color)
 #=> nil
 ~~~
