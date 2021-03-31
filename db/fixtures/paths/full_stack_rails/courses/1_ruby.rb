@@ -40,6 +40,7 @@ course.add_section do |section|
     ruby_lessons.fetch('Methods'),
     ruby_lessons.fetch('Basic Enumerable Methods'),
     ruby_lessons.fetch('Predicate Enumerable Methods'),
+    ruby_lessons.fetch('Nested Collections'),
     ruby_lessons.fetch('Debugging'),
   )
 end

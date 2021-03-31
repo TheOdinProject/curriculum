@@ -301,5 +301,12 @@ def ruby_lessons
       url: '/ruby_programming/conclusion/lesson_conclusion.md',
       identifier_uuid: '2f75b1ec-3b5f-4b21-9f97-acfe6578bfb1',
     },
+    'Nested Collections' => {
+      title: 'Nested Collections',
+      description: 'In this lesson we will explore using nested arrays and nested hashes to store more complex data',
+      is_project: false,
+      url: '/ruby_programming/basic_ruby/nested_collections.md',
+      identifier_uuid: 'c871bb2d-c159-4fc8-93b4-3ee9a6c1818d',
+    },
   }
 end
