@@ -58,7 +58,7 @@ teacher_mailboxes[-1][-2]
 #=> "Smith"
 ~~~
 
-If you try to access an index of a nested element that does not exist, it will raise an `NoMethodError`, because the nil class does not have a `[]` method. However, just like a regular array, if you try to access an index inside of the nested element that does not exist, it will return nil.
+If you try to access an index of a nonexistent nested element, it will raise an `NoMethodError`, because the nil class does not have a `[]` method. However, just like a regular array, if you try to access a nonexistent index inside of an existing nested element, it will return nil.
 
 ~~~ruby
 teacher_mailboxes[3][0]
@@ -67,7 +67,7 @@ teacher_mailboxes[0][4]
 #=> nil
 ~~~
 
-If you want a nil value returned when trying to access an index of a nested element that does not exist, you can use the `#dig` method. This method can also be used when accessing an index inside of the nested element that does not exist.
+If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method. This method can also be used when accessing a nonexistent index inside of an existing nested element.
 
 ~~~ruby
 teacher_mailboxes.dig(3, 0)
@@ -233,7 +233,7 @@ vehicles[:caleb][:model]
 #=> "Accord"
 ~~~
 
-Similar to nested arrays, if you try to access a key that doesn’t exist in the hash, it will raise an `NoMethodError`, therefore you may want to use the `#dig` method. As expected, if you try to access a key that doesn't exist in the nested hash it will return nil.
+Similar to nested arrays, if you try to access a key in a nonexistent nested hash, it will raise an `NoMethodError`, therefore you may want to use the `#dig` method. As expected, if you try to access a nonexistent key in an existing nested hash, it will return nil.
 
 ~~~ruby
 vehicles[:zoe][:year]
