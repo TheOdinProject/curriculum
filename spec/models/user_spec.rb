@@ -98,6 +98,19 @@ RSpec.describe User do
     end
   end
 
+  describe '#lesson_completions_for_course' do
+    it 'returns the users lesson completions for a course' do
+      create(:lesson_completion, student: user)
+      course = create(:course)
+      lesson_completion_one_for_course = create(:lesson_completion, course_id: course.id, student: user)
+      lesson_completion_two_for_course = create(:lesson_completion, course_id: course.id, student: user)
+
+      expect(user.lesson_completions_for_course(course)).to contain_exactly(
+        lesson_completion_one_for_course, lesson_completion_two_for_course
+      )
+    end
+  end
+
   describe '#active_for_authentication?' do
     context 'when user has not been banned' do
       let(:user) { create(:user) }

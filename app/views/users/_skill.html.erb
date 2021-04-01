@@ -1,6 +1,6 @@
 <div class="skill">
   <div class='skill__image'>
-    <%= render 'shared/course_badge', course: course, user: @user, modifier: modifier_for_badge(course, @user) %>
+    <%= render 'shared/course_badge', course: course, user: current_user, modifier: modifier_for_badge(course, current_user) %>
   </div>
 
   <div class="skill__details">
@@ -11,6 +11,19 @@
   </div>
 
   <div class="skill__button-wrapper">
-    <%= render 'users/skill_state_buttons', course: course, user: @user %>
+    <% if course_completed_by_user?(course, current_user) %>
+      <%= link_to 'Open', path_course_path(course.path, course), class: 'button button--transparent skill__button' %>
+    <% elsif course_started_by_user?(course, current_user) %>
+      <%= link_to 'Resume',
+        path_course_lesson_url(
+          course.path,
+          course,
+          next_lesson_to_complete(course, current_user.lesson_completions_for_course(course))
+        ),
+        class: 'button button--primary skill__button'
+      %>
+    <% else %>
+      <%= link_to 'Start', path_course_url(course.path, course), class: 'button button--primary skill__button' %>
+    <% end %>
   </div>
 </div>

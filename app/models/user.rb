@@ -33,6 +33,10 @@ class User < ApplicationRecord
     Lesson.find(last_lesson_completed.lesson_id)
   end
 
+  def lesson_completions_for_course(course)
+    lesson_completions.where(course_id: course.id)
+  end
+
   def active_for_authentication?
     super && !banned?
   end

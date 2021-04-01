@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_user, except: [:index]
   authorize_resource only: %i[edit update]
 
   def show
@@ -8,14 +7,14 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user.update!(user_params)
-    render json: @user
+    current_user.update!(user_params)
+    render json: current_user
   end
 
   private
 
   def decorated_path_courses
-    @user.path.courses.map do |course|
+    current_user.path.courses.map do |course|
       CourseDecorator.new(course)
     end
   end
@@ -35,13 +34,5 @@ class UsersController < ApplicationController
       :provider,
       :path_id,
     )
-  end
-
-  def find_user
-    @user = UserDecorator.new(user)
-  end
-
-  def user
-    User.includes(lesson_completions: [lesson: [:course]]).find(current_user.id)
   end
 end

@@ -9,6 +9,6 @@ class Ability
   end
 
   def common_abilities
-    can :update, UserDecorator, id: user.id
+    can :update, User, id: user.id
   end
 end

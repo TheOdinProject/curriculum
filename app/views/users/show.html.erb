@@ -3,9 +3,28 @@
 <div class="container">
   <div class= 'col-lg-8 offset-lg-2'>
     <h1 class="text-center camel">My Dashboard</h1>
-    <%= render 'profile_card', user: @user %>
-    <%= render 'skills', courses: @courses%>
-    <%= render 'project_submissions', project_submissions: @user.project_submissions %>
+
+    <div class="card-main profile-card">
+      <div>
+        <%= image_tag avatar_path(current_user.avatar), alt: "#{current_user.username}'s avatar", class: 'profile-card__image' %>
+      </div>
+
+      <h2 class="profile-card__username"><%= current_user.username %></h2>
+      <p class="profile-card__learning-goal"><%= display_dashboard_learning_goal(current_user) %></p>
+    </div>
+
+    <div class="skills">
+      <div class="skills__header">
+        <h2 class="skills__title">Skills Progress</h2>
+        <p class="skills__content">
+          If you're new to web development, take the following courses in order. Otherwise feel free to start wherever interests you the most.
+        </p>
+      </div>
+
+      <%= render partial: 'skill', collection: @courses, as: :course %>
+    </div>
+
+    <%= render 'project_submissions', project_submissions: current_user.project_submissions %>
   </div>
 
    <%= render 'shared/bottom_cta',

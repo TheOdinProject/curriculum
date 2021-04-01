@@ -13,11 +13,6 @@ RSpec.describe UsersController do
       get :show, params: { id: user.id }
       expect(response).to render_template(:show)
     end
-
-    it 'assigns @user' do
-      get :show, params: { id: user.id }
-      expect(assigns[:user]).to eql(user)
-    end
   end
 
   describe 'PUT update' do
