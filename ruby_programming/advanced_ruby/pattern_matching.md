@@ -584,7 +584,7 @@ case [1, 2, "a", 4, "b", "c", 7, 8, 9]
 in [*pre, String => x, String => z, *post]
   p pre
   p x
-  p y
+  p z
   p post
 end
 
