@@ -2,7 +2,7 @@
   max-height: 100%;
   margin-bottom: 50px;
   display: flex;
-  padding: 0 168px;
+  padding: 7px 168px;
   background: #ffffff;
   z-index: 100;
 
@@ -77,8 +77,8 @@
 
     .divider {
       font-size: 2em;
-      line-height: 78px;
       font-weight: 200;
+      padding: 0 0.7rem;
     }
 
     .avatar {
@@ -93,7 +93,8 @@
 
 @media (min-width: 768px) and (max-width: 1024px)  {
   .navbar{
-    padding: 0px 30px 0px 30px;
+    padding: 12px 30px 0px 30px;
+    margin-bottom: 62px;
   }
 }
 
