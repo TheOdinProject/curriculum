@@ -80,6 +80,7 @@ Inside your project folder, create your index.html file
    - If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the CSS property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
    - [Here's a link to the Google Logo just in case they temporarily replace it with a Doodle!](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
    - [Here's a cached page of the Google home page for reference in case the original logo is not there.](https://web.archive.org/web/20191130234759/https://www.google.com/)
+   - <a href="https://fonts.google.com/icons">Here's a link tot the Google Material Icons page. This is a great resource for free to use open source icons.</a>
 2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally. You can either download the Google logo or link directly to its URL on the web in your `<img>` tag.
 3. Next do the navbar across the top, first building the content and then trying to position it. Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
 4. Finally, put in the footer, which should be very similar to the top navbar.
