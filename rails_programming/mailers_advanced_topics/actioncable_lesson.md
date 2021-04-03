@@ -221,7 +221,7 @@ const messageChannel = consumer.subscriptions.create("MessageChannel", {
 });
 ~~~
 
-Yours will have some comments that aren't important. What we need to do here first is set an event listener on the form submit so we can grab the value entered. Once we have the value, we want to send it to the server to be broadcast to all the channel subscribers. This is called rebroadcasting and you can see how it works [In the Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message). We can use `MessageChannel.send` to send the value entered in the input box to our websocket server.
+Yours will have some comments that aren't important, but you will need to verify that the constant `messageChannel` is declared. What we need to do here first is set an event listener on the form submit so we can grab the value entered. Once we have the value, we want to send it to the server to be broadcast to all the channel subscribers. This is called rebroadcasting and you can see how it works [In the Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message). We can use `MessageChannel.send` to send the value entered in the input box to our websocket server.
 
 Right at the bottom of our `message_channel.js` file add the following code
 
@@ -343,7 +343,7 @@ bundle exec rails db:migrate
 Next we need a controller to for our messages. We only need a create action since we aren't doing anything else with them
 
 ~~~bash
-bundle exec rails generate controller messages
+bundle exec rails generate controller messages create
 ~~~
 
 Then in your `routes.rb` create the resource
@@ -386,7 +386,6 @@ If you try and submit a message now it will still work. That's because in our `m
 ~~~js
 document.addEventListener("turbolinks:load", () => {
   let form = document.querySelector('#message-form')
-  console.log(form)
   if(form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault()
