@@ -255,7 +255,7 @@ I wanted to show this again so you could remind yourself what's going on in the 
 
 Once the form gets submitted, the `#create` action will build another new User object with the parameters we explicitly tell it are okay.  Recall that our custom `#user_params` method will return the `params[:user]` hash for us, which lets `User.new` build us a complete new instance.  If that instance can be saved to the database, we're all good and we go to that user's `show.html.erb` page.
 
-If the `@user` cannot be saved, like because the `first_name` contains numbers, we will jump straight back to rendering the `new.html.erb` view, this time using the `@user` instance that will still have errors attached to it.  Our form should gracefully handle those errors by telling the user where he/she screwed up.
+If the `@user` cannot be saved, like because the `first_name` contains numbers, we will jump straight back to rendering the `new.html.erb` view, this time using the `@user` instance that will still have errors attached to it.  Our form should gracefully handle those errors by telling the user where they screwed up.
 
 ### Assignment
 

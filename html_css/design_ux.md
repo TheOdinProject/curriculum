@@ -2,7 +2,7 @@
 
 You can't code the front end and ignore design and user experience (UX).  Not everyone is cut out to be an artist and you don't have to be.  But you do have to actually use your design brain a little bit if you want a site your users actually care about visiting.  That doesn't mean just having beautiful graphics, which is a common misconception about design.
 
-User Experience is really about focusing on three things -- can the user get done what he/she is trying to do **effectively**, **efficiently**, and with **satisfaction**.  Half the battle is just having the mindset of trying to optimize those three things by talking to your users.  The other half is about actually building and measuring those things.
+User Experience is really about focusing on three things -- can the user get done what they are trying to do **effectively**, **efficiently**, and with **satisfaction**.  Half the battle is just having the mindset of trying to optimize those three things by talking to your users.  The other half is about actually building and measuring those things.
 
 Web design is more than just building "pretty" things; it's about crafting useful and effective experiences for your users.  It starts with making your site fast and reliable.  Then you need to properly set up the structure and information architecture of the page so users have a logical schema for navigation.  Then you will build your user interfaces for optimal user experience.  Only then, finally, can you worry about aesthetics.
 
