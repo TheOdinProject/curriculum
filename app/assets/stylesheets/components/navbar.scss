@@ -76,9 +76,13 @@
     }
 
     .divider {
-      font-size: 2em;
-      line-height: 78px;
-      font-weight: 200;
+      line-height: 76px;
+
+      &:after{
+        font-size: 1.5em;
+        content: "|";
+        padding: 0;
+      }
     }
 
     .avatar {

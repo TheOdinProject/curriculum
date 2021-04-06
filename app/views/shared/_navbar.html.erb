@@ -26,7 +26,10 @@
           <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
         </li>
 
-        <li class="divider nav-link">l</li>
+        <li class="nav-link">
+          <span class='divider'>
+          </span>
+        </li>
         <%= render 'shared/user_dropdown' %>
       </ul>
   <% else %>
@@ -48,7 +51,10 @@
           <%= link_to "FAQ", faq_path, class: 'nav-link' %>
         </li>
 
-        <li class="divider nav-link">l</li>
+        <li class="nav-link">
+          <span class='divider'>
+          </span>
+        </li>
 
         <li class="nav-item <%= active_class(sign_up_path) %>">
           <%= link_to 'Sign Up', sign_up_path, class: 'nav-link' %>
