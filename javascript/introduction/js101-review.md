@@ -1,5 +1,5 @@
 ### Introduction
-This course assumes that you have a decent grasp on the fundamentals of JavaScript.  If you have recently taken our JavaScript fundamentals series then you will be in good shape to skip this review and move on.  If it's been a while, you will probably want to take a day or two to refresh yourself on the basics.
+This course assumes that you have a decent grasp on the fundamentals of JavaScript.  If you just finished our [Foundations course](https://theodinproject.com/paths/foundations) then you should skip this review and move on to the next lesson.  If it's been a while, you will probably want to take a day or two to refresh yourself on the basics.
 
 ### Review
 
