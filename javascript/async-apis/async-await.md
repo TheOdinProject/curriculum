@@ -169,7 +169,7 @@ This code will behave exactly like the code from the last lesson, it just looks 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [this article](https://javascript.info/async-await) for a solid introduction to async/await. [this article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of it's use.
+1. Read [this article](https://javascript.info/async-await) for a solid introduction to async/await. [this article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of its use.
 2. Read [this article](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) for a more in-depth look at async/await, including how to handle errors.
 3. Watch [this video](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and it's purpose, along with a special trick.
 </div>
