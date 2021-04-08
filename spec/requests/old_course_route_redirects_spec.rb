@@ -47,12 +47,12 @@ RSpec.describe 'Old Course Route Redirects', type: :request do
     context 'when full stack javascript path' do
       it 'redirects the old node js course page route' do
         get '/courses/nodeJS'
-        expect(response).to redirect_to('/paths/full-stack-javascript/courses/nodeJS')
+        expect(response).to redirect_to('/paths/full-stack-javascript/courses/nodejs')
       end
 
       it 'redirects the old node js course lesson page route' do
         get '/courses/nodeJS/lessons/example_lesson'
-        expect(response).to redirect_to('/paths/full-stack-javascript/courses/nodeJS/lessons/example_lesson')
+        expect(response).to redirect_to('/paths/full-stack-javascript/courses/nodejs/lessons/example_lesson')
       end
     end
 
