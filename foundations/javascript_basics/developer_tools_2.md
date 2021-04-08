@@ -18,17 +18,16 @@ There are three ways to open the Developer Tools menu:
 1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
     - Open DevTools
     - CSS
-        1. Get Started with Viewing and Changing CSS
-        2. CSS Reference
+        1. View and change CSS
+        2. CSS features reference
     - Console
-        1. Overview
+        1. Console overview
     - Mobile Simulation
-        1. Overview
-    - DOM
-        1. Get Started
+        1. Simulate mobile devices with Device Mode
+    - Get Started With Viewing And Changing The DOM
     - JavaScript
-        1. Get Started
-        2. Pause Your Code With Breakpoints
+        1. Debug JavaScript
+        2. Pause your code with breakpoints
  2. Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
 </div>
