@@ -19,9 +19,8 @@ Rails.application.routes.draw do
       to: redirect('/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/%{id}')
 
   # redirect old js pathroutes
-  get '/courses/nodeJS', to: redirect('/paths/full-stack-javascript/courses/nodejs')
   get '/courses/nodejs', to: redirect('/paths/full-stack-javascript/courses/nodejs')
-  get '/courses/nodeJS/lessons/:id', to: redirect('/paths/full-stack-javascript/courses/nodejs/lessons/%{id}')
+  get '/courses/nodejs/lessons/:id', to: redirect('/paths/full-stack-javascript/courses/nodejs/lessons/%{id}')
 
   # redirect old shared course routes to rails path if the user is on that path
   authenticated :user, ->(user) { user.path.title == 'Full Stack Ruby on Rails' } do
