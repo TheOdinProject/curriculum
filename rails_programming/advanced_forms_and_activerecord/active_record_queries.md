@@ -244,3 +244,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
 * [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
 * [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
+* [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
