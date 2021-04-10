@@ -17,7 +17,7 @@ gem 'github_api', '~> 0.19'
 gem 'github_webhook', '~> 1.1.2'
 gem 'jquery-rails', '~> 4.4.0'
 gem 'kaminari', '~> 1.2'
-gem 'kramdown'
+gem 'kramdown', '>= 2.3.1'
 gem 'newrelic_rpm'
 gem 'nokogiri', '~> 1.11.3'
 gem 'noticed', '~> 1.3'
@@ -57,7 +57,7 @@ group :development, :test, :docker do
   gem 'simplecov', require: false
   gem 'timecop'
   gem 'vcr', '~> 6.0'
-  gem 'webmock', '~> 3.12'
+  gem 'webmock', '~> 3.12', '>= 3.12.2'
 end
 
 group :development, :docker do
@@ -67,7 +67,7 @@ group :development, :docker do
   gem 'letter_opener', '~> 1.4'
   gem 'listen'
   gem 'reek'
-  gem 'rubocop', require: false
-  gem 'rubocop-performance', require: false
+  gem 'rubocop', '>= 1.12.1', require: false
+  gem 'rubocop-performance', '>= 1.10.2', require: false
   gem 'web-console'
 end
