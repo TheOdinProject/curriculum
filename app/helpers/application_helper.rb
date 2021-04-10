@@ -59,15 +59,16 @@ module ApplicationHelper
       {
         question: 'Which technologies can one expect to learn from The Odin Project?',
         answer:
-          "<p> The Odin Project contains two main paths for students to choose from: <a href='paths/full-stack-ruby-on-rails'>Fullstack Ruby on Rails</a> and <a href='paths/full-stack-javascript'>Fullstack Javascript</a>. The Ruby on Rails path gives a general overview of what fullstack is. This is the default path for most beginners. The Javascript path focuses more on the connection between the webpage and the data with Javascript and NodeJS. The Frontend path primarily goes over HTML, CSS and Javascript but no Ruby on Rails. Below are some courses that are included in these curriculums:</p>
+          "<p>  All students are initially enrolled into the <a href='courses/foundations'>Foundations Course</a>. This will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer. Foundations introduces HTML, CSS, JavaScript, Git and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites! Once Foundations is complete, students have two paths to choose from: <a href='paths/full-stack-ruby-on-rails'>Fullstack Ruby on Rails</a> and <a href='paths/full-stack-javascript'>Fullstack JavaScript</a> </p>
           <br />
-          <p>The <a href='courses/foundations'>Foundations course</a> will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer. Foundations introduces HTML, CSS, Javascript, Ruby, Rails, Git, databases and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites!</p>
+          <p> The Full Stack Ruby on Rails path takes a back-to-front approach to fullstack development. We start with a <a href='courses/ruby-programming'>strong foundation in Ruby</a> and an understanding of databases before migrating into <a href='courses/ruby-on-rails'>Ruby on Rails</a> (which is a framework built using Ruby). Then you'll polish your front-end skills with a journey into <a href='courses/html-and-css'>HTML and CSS</a> before learning to make your websites flow, load quickly and look great with <a href='courses/javascript'>JavaScript</a>. </p>
           <br />
-          <p>The Odin Project takes a back-to-front approach to learning Ruby on Rails.  We start with a <a href='courses/ruby-programming'>strong foundation in Ruby</a> and an understanding of databases before migrating into <a href='courses/ruby-on-rails'>Ruby on Rails</a> (which is a framework built using Ruby).</p>
+          <p> The Full Stack Javascript path maintains our front-end momentum from Foundations by delving into <a href='courses/javascript'>Javascript.</a> Once you've got a solid foundation here, you'll take a deeper look at front-end design with <a href='courses/html-and-css'>HTML and CSS</a> before taking your JavaScript skills to the server-side with Express and MongoDB in <a href='courses/nodejs'>NodeJS</a>. </p>
           <br />
-          <p>The Odin Project then delves deep into <a href='courses/html-and-css'>HTML and CSS</a>, along with <a href='courses/javascript'>Javascript</a> to give you all the tools necessary to make websites flow, load quickly, and look great.  Along the way you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.</p>
+          <p> Along the way in either path you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.Finally, The Odin Project will provide you with opportunities to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href='courses/getting-hired'>looking for employment</a>.</p>
           <br />
-          <p>Finally, The Odin Project will provide you with opportunities to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href='courses/getting-hired'>looking for employment</a>.</p>"
+          <p> As you may have noticed, there is considerable overlap between the two paths with the only difference between them being the choice of back-end technology. They both guide you through harnessing the power of <a href='https://reactjs.org/'>React</a> along with software development paradigms such as Object-Oriented Programming and Test-Driven Development. More importantly, both paths will equally allow you to develop your own skills as a fullstack web developer. </p>
+         "
       },
       {
         question: 'How is The Odin Project different from other programs?',
@@ -77,13 +78,6 @@ module ApplicationHelper
           <p>The Odin Project also attempts to develop your problem solving skills when it requires you to install programs on your local computer.  As developers, programming errors frequently arise and knowing how to decipher error messages is critical.  These problem solving skills are frequently ignored by other programs.</p>
           <br />
           <p>Lastly, The Odin Project is project based.  Other programs require you to simply input the correct answer. It is difficult to retain any knowledge by learning the bare minimum syntax. The Odin Project is designed with projects built from the ground up giving you real-world experience that you can use to build your portfolio and get hired as a web developer!</p>"
-      },
-      {
-        question: 'Why Ruby on Rails?',
-        answer:
-          "<p>There are dozens of frameworks and technology stacks to choose from and, frankly, they do pretty much the same thing. Ruby on Rails is attractive because it’s straightforward and well documented.  It’s also used by many tech companies and has a strong community of developers who support it.</p>
-          <br />
-          <p>Ruby on Rails lets you deploy a functioning website in hours instead of weeks.  Rails also provides a great platform to build the skills you need to carry you to the next phase.</p>"
       },
       {
         question: 'Who is "Odin"?',
