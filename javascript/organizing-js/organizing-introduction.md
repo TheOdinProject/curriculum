@@ -18,4 +18,4 @@ Going through these will give us a chance to learn about a few other important c
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* The book [You Don't Know JS (YDKJS)](https://github.com/getify/You-Dont-Know-JS/tree/1st-ed#titles) is free on GitHub, and explains how Javascript works "under the hood". If you ever wondered why javascript works the way it does, this book is for you!
+* The book [You Don't Know JS (YDKJS)](https://github.com/getify/You-Dont-Know-JS/tree/1st-ed#titles) is free on GitHub, and explains how Javascript works "under the hood". If you ever wondered why JavaScript works the way it does, this book is for you!
