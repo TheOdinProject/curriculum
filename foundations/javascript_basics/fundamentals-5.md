@@ -28,3 +28,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - findTheOldest
 - (Solutions for these exercises can be found in the 'solutions' branch of that repo)
 </div>
+
+### Additional Resources
+1. A primer on how [bubble sort](https://www.geeksforgeeks.org/bubble-sort/) algorithm works?
+2. Detailed explanation on .reduce() method [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce).
