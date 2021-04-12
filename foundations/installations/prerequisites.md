@@ -157,7 +157,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://releases.ubuntu.com/20.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/20.04/) or [Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso).
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard [Ubuntu](https://releases.ubuntu.com/20.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/20-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/20.04/) or [Xubuntu](https://xubuntu.org/release/20-04/).
 
 ### Step 2: Create a Bootable Flash Drive
 
