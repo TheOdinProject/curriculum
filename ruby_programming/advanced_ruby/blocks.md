@@ -236,6 +236,14 @@ a_proc = Proc.new { puts "this is a proc" }
 a_proc.call
 ~~~
 
+Instead of using `Proc.new` you can also use the Kernel method `proc`.
+
+~~~ruby
+a_proc = proc { puts "this is a proc" }
+
+a_proc.call
+~~~
+
 Arguments are declared inside `||`
 
 ~~~ruby
@@ -287,29 +295,39 @@ a_lambda.call
 # => 1
 ~~~
 
-A Proc object returns from the context in which it is called. If you are in the top level context (outside of a class and method) then you'll get an error because you can't return out of the very top level context, as there is no caller to return to.
+In non-lambda procs, `return` means exit from embracing method in which it was *defined* and will throw `LocalJumpError` if invoked outside the method. Check the [documentation](https://ruby-doc.org/core-2.7.0/Proc.html#class-Proc-label-Lambda+and+non-lambda+semantics) about it. In the top level context (not inside any method) a `return` will exit the program.
+
+Calling the proc (with an explicit `return`) will return from the method it was defined in:
 
 ~~~ruby
-a_proc = Proc.new { return }
-
-a_proc.call
-
-# => localJumpError (unexpected return)
-~~~
-
-If you try the above in on repl.it you won't get an error, which is just to do with how they manage the context of code. If you try it in irb then you'd get the expected error.
-
-If you return from a proc inside a method, the method is the context in which it was called and therefore it returns from the method before any of the other code below it is executed.
-
-~~~ruby
-def my_method
-  a_proc = Proc.new { return }
-  a_proc.call
-  puts "this line is never reached"
+def execute_proc(proc_inside_method)
+  puts proc_inside_method.call # will produce no output!
 end
 
-my_method
+def define_proc
+  proc_inside_method = proc { return 'explicit return' }
+  puts 'Calling the proc inside "execute_proc" will return from "define_proc".'
+  execute_proc(proc_inside_method)
+  puts 'This line is never reached.'
+end
+
+define_proc
 ~~~
+
+This behaviour might be a bit unintuitive (One might expect a return from `execute_proc`, where the proc was called.). So use an explicit return from a proc with care. This is an example in ruby, where it makes a difference, if you use an explicit or an implicit return. Try and change the definition of the proc to `proc { 'implicit return' }` in the above example. What happens?
+
+If calling the proc (with an explicit `return`) after the the method it was defined in, it will throw the expected `LocalJumpError`:
+
+~~~ruby
+def define_proc
+  proc { return 'explicit return' }
+end
+
+define_proc.call # calling the proc, after define_proc exited
+
+# => unexpected return (LocalJumpError)
+~~~
+
 
 ### Similarities
 
