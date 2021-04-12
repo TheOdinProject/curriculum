@@ -25,7 +25,7 @@
     "react-flip-move": "^3.0.4",
     "react-hook-form": "^6.15.1",
     "react-scrolllock": "^5.0.1",
-    "react-tabs": "^3.2.1",
+    "react-tabs": "^3.2.2",
     "react_ujs": "^2.6.1",
     "regenerator-runtime": "^0.13.7",
     "stickyfilljs": "^2.1.0",
