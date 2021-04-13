@@ -10,6 +10,8 @@ class Lesson < ApplicationRecord
   has_many :lesson_completions
   has_many :completing_users, through: :lesson_completions, source: :student
 
+  scope :most_recent_updated_at, -> { maximum(:updated_at) }
+
   validates :position, presence: true
 
   def type

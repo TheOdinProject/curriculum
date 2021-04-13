@@ -11,6 +11,24 @@ RSpec.describe Lesson do
 
   it { is_expected.to validate_presence_of(:position) }
 
+  describe '.most_recent_updated_at' do
+    before do
+      Timecop.freeze(Time.utc(2021, 4, 14))
+    end
+
+    after do
+      Timecop.return
+    end
+
+    it 'returns the most recently updated_at time stamp' do
+      create(:lesson, updated_at: 2.weeks.ago)
+      create(:lesson, updated_at: 1.week.ago)
+      create(:lesson, updated_at: Time.utc(2021, 4, 10, 15))
+
+      expect(described_class.most_recent_updated_at).to eql(Time.utc(2021, 4, 10, 15))
+    end
+  end
+
   describe '#position_in_section' do
     let(:section) { create(:section) }
     let(:first_lesson) { create(:lesson, position: 1, section: section) }

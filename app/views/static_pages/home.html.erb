@@ -2,8 +2,12 @@
   <div class="hero gradient">
     <header>
       <h1 class="accent hero__main-heading"> Your Career in Web Development Starts Here </h1>
-      <p class="secondary hero__sub-heading"> Our full stack curriculum is free and supported by a passionate open source community.</p>
-        <%= link_to 'View Full Curriculum', paths_url,  class: 'button button--primary' %>
+      <div class="secondary hero__sub-heading">
+        <p class="push-down">Our full stack curriculum is free and supported by a passionate open source community.</p>
+        <%= link_to "Last Curriculum Update: #{time_ago_in_words(Lesson.most_recent_updated_at)} ago", github_link("curriculum/commits"), target: :_blank %>
+      </div>
+
+      <%= link_to 'View Full Curriculum', paths_url,  class: 'button button--primary' %>
     </header>
     <%= image_tag 'home-isometric.svg', class: 'hero__image', alt: 'home-page-banner' %>
   </div>
