@@ -64,6 +64,7 @@
   &__button {
     color: $grey;
     padding: 0.5rem 1rem;
+    margin-right: 1em;
     background-color: $button-disabled;
     border-radius: 0.2em;
     font-weight: 600;
@@ -99,7 +100,6 @@
   &__actions {
     display: flex;
     align-items: center;
-    gap: 1em;
 
     & * {
       flex-shrink: 0;
@@ -136,8 +136,11 @@
   &__like {
     display: flex !important;
     align-items: center;
-    gap: 5px;
     margin-right: 15px;
+
+    :first-child {
+      margin-left: 5px;
+    }
 
     .liked {
       color: #6abfc3 !important;
