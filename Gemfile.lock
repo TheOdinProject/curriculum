@@ -529,7 +529,7 @@ DEPENDENCIES
   github_webhook (~> 1.1.2)
   jquery-rails (~> 4.4.0)
   kaminari (~> 1.2)
-  kramdown
+  kramdown (>= 2.3.1)
   letter_opener (~> 1.4)
   listen
   newrelic_rpm
@@ -551,8 +551,8 @@ DEPENDENCIES
   react-rails
   reek
   rspec-rails
-  rubocop
-  rubocop-performance
+  rubocop (>= 1.12.1)
+  rubocop-performance (>= 1.10.2)
   ruby-progressbar (~> 1.11.0)
   sass-rails (~> 6.0)
   seed-fu (~> 2.3.9)
@@ -565,7 +565,7 @@ DEPENDENCIES
   uglifier (~> 4.2)
   vcr (~> 6.0)
   web-console
-  webmock (~> 3.12)
+  webmock (~> 3.12, >= 3.12.2)
   webpacker
 
 RUBY VERSION
