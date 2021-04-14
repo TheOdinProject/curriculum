@@ -114,6 +114,10 @@
     @include media-breakpoint-down(xs){
       flex-direction: column;
       align-items: initial;
+
+      :nth-child(2) {
+        margin-top: 20px;
+      }
     }
   }
 
