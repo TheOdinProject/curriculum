@@ -33,6 +33,8 @@ gem 'react-rails'
 gem 'ruby-progressbar', '~> 1.11.0'
 gem 'sass-rails', '~> 6.0'
 gem 'seed-fu', '~> 2.3.9'
+gem 'sentry-rails', '~> 4.3.4'
+gem 'sentry-ruby', '~> 4.3.2'
 gem 'sidekiq'
 gem 'sprockets', '~> 3.7.2'
 gem 'turbolinks'
@@ -41,7 +43,6 @@ gem 'webpacker'
 
 group :production do
   gem 'rails_12factor', '~> 0.0.3'
-  # gem 'skylight', '~> 5.0.0.beta5'
 end
 
 group :development, :test, :docker do
