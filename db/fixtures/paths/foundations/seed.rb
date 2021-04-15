@@ -131,7 +131,7 @@ course.add_section do |section|
   section.identifier_uuid = '22cbdd2f-785b-40c9-9c54-d21755974df7'
 
   section.add_lessons(
-    foundation_lessons.fetch('Conclusion'),
+    foundation_lessons.fetch('Choose Your Path Forward'),
   )
 end
 

@@ -227,9 +227,9 @@ def foundation_lessons
       url: '/foundations/the_back_end/introduction_to_frameworks.md',
       identifier_uuid: '18a063b0-c22c-4415-aba4-eb2865a27fc4',
     },
-    'Conclusion' => {
-      title: 'Conclusion',
-      description: "How far you've come already!  But this ride's only just begun...",
+    'Choose Your Path Forward' => {
+      title: 'Choose Your Path Forward',
+      description: "How far you've come already! But this ride's only just begun...",
       is_project: false,
       url: '/foundations/tying_it_all_together/conclusion.md',
       choose_path_lesson: true,
