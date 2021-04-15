@@ -18,7 +18,7 @@ class LessonDuration
 
   # rubocop:disable Style/RescueModifier
   def average_duration
-    durations.reduce(0) { |sum, duration| sum + duration } / durations.size rescue 0
+    durations.sum / durations.size rescue 0
   end
   # rubocop:enable Style/RescueModifier
 

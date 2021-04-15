@@ -42,7 +42,7 @@ class User < ApplicationRecord
   end
 
   def inactive_message
-    !banned? ? super : :banned
+    banned? ? :banned : super
   end
 
   def dismissed_flags

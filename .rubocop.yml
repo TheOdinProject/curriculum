@@ -12,8 +12,7 @@ AllCops:
     - 'bin/*'
     - 'node_modules/**/*'
     - db/schema.rb
-
-
+  NewCops: enable
 
 Layout/LineLength:
   Max: 120
