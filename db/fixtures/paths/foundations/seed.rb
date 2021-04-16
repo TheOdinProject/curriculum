@@ -123,11 +123,11 @@ course.add_section do |section|
 end
 
 # +++++++++++++++++++++++++++++++
-# SECTION - Tying it All Together
+# SECTION - Conclusion
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
-  section.title = 'Tying it All Together Maybe'
-  section.description = "Now that you've had a healthy taste of all the major components in a web application, we'll take a step back and remember where they all fit into the bigger picture."
+  section.title = 'Conclusion'
+  section.description = "Now that you've had a healthy taste of the basics of web development, it's time to choose what speciality path you would like to take."
   section.identifier_uuid = '22cbdd2f-785b-40c9-9c54-d21755974df7'
 
   section.add_lessons(
