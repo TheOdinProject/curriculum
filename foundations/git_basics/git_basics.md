@@ -24,8 +24,6 @@ Note: As of October 1st, 2020, all new Git repositories will create a default br
 ### Cheatsheet
 This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
 
-
-
 * Commands related to a remote repository:
   * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
   or
