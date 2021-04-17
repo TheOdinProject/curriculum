@@ -46,7 +46,9 @@ group :production do
 end
 
 group :development, :test, :docker do
+  gem 'capybara'
   gem 'climate_control'
+  gem 'cuprite'
   gem 'dotenv-rails'
   gem 'factory_bot'
   gem 'factory_bot_rails', '~> 6'

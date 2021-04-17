@@ -9,7 +9,7 @@
         <%= image_tag avatar_path(current_user.avatar), alt: "#{current_user.username}'s avatar", class: 'profile-card__image' %>
       </div>
 
-      <h2 class="profile-card__username"><%= current_user.username %></h2>
+      <h2 class="profile-card__username" data-test-id="profile_username"><%= current_user.username %></h2>
       <p class="profile-card__learning-goal"><%= display_dashboard_learning_goal(current_user) %></p>
     </div>
 

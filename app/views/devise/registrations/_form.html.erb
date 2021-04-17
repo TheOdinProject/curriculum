@@ -3,7 +3,7 @@
 
     <div class="form__section">
       <span class="fas fa-user form__icon"></span>
-      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element form__element--with-icon' %>
+      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element form__element--with-icon', data: {test_id: 'username_field'} %>
     </div>
     <% if resource.errors[:username].present? %>
       <div class="form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
@@ -11,7 +11,7 @@
 
     <div class="form__section">
       <span class="fas fa-envelope form__icon"></span>
-      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element form__element--with-icon '%>
+      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element form__element--with-icon', data: {test_id: 'email_field'} %>
     </div>
     <% if resource.errors[:email].present? %>
       <div class="form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>
@@ -19,7 +19,7 @@
 
     <div class="form__section">
       <span class="fas fa-lock form__icon"></span>
-      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element form__element--with-icon' %>
+      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element form__element--with-icon', data: {test_id: 'password_field'} %>
     </div>
     <% if resource.errors[:password].present? %>
       <div class="form__error-message push-down user_password"> <%=resource.errors[:password].first %></div>
@@ -27,7 +27,7 @@
 
     <div class="form__section">
       <span class="fas fa-lock form__icon"></span>
-      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element form__element--with-icon' %>
+      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element form__element--with-icon', data: {test_id: 'password_confirmation_field'} %>
     </div>
     <% if resource.errors[:password_confirmation].present? %>
       <div class="form__error-message push-down user_password_confirmation"> <%=resource.errors[:password_confirmation].first %></div>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="form__button-section">
-      <%= form.submit 'Sign up', class: 'button button--primary full-width' %>
+      <%= form.submit 'Sign up', class: 'button button--primary full-width', data: {test_id: 'submit_btn'} %>
     </div>
   <% end %>
 

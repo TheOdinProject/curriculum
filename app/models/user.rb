@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   acts_as_voter
-  after_create :enroll_in_foundations
+  before_validation :enroll_in_foundations
 
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable,
@@ -58,6 +58,6 @@ class User < ApplicationRecord
   def enroll_in_foundations
     default_path = Path.default_path
 
-    update(path_id: default_path.id) if default_path.present?
+    self.path_id = default_path.id if default_path.present?
   end
 end

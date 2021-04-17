@@ -105,7 +105,16 @@ GEM
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
     cancancan (3.2.1)
+    capybara (3.35.3)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
     climate_control (1.0.0)
+    cliver (0.3.2)
     coderay (1.1.3)
     concurrent-ruby (1.1.8)
     connection_pool (2.2.3)
@@ -114,6 +123,9 @@ GEM
     crass (1.0.6)
     css_parser (1.7.1)
       addressable
+    cuprite (0.13)
+      capybara (>= 2.1, < 4)
+      ferrum (~> 0.11.0)
     debug_inspector (1.0.0)
     derailed (0.1.0)
       derailed_benchmarks
@@ -159,6 +171,11 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
+    ferrum (0.11)
+      addressable (~> 2.5)
+      cliver (~> 0.3)
+      concurrent-ruby (~> 1.1)
+      websocket-driver (>= 0.6, < 0.8)
     ffi (1.15.0)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -512,6 +529,8 @@ GEM
     xdan-datetimepicker-rails (2.5.4)
       jquery-rails
       rails (>= 3.2.16)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -526,7 +545,9 @@ DEPENDENCIES
   binding_of_caller (~> 1.0)
   bootstrap (>= 4.4.1)
   cancancan
+  capybara
   climate_control
+  cuprite
   derailed
   devise (>= 4.7.1)
   discordrb-webhooks
