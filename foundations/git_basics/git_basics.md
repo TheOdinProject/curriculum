@@ -13,6 +13,8 @@ By the end of this lesson, you should be able to do the following:
 
 ### Assignment
 
+Note: As of October 1st, 2020, all new Git repositories will create a default branch named 'main' instead of 'master'.
+
 <div class="lesson-content__panel" markdown="1">
 
   1. Watch [this video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic Git commands.
