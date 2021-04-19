@@ -18,9 +18,9 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 Let's say you want to contribute to the web application that powers this website (check it out [here](https://github.com/TheOdinProject/theodinproject)).
 
-How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
+How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an open [issue](https://github.com/TheOdinProject/theodinproject/issues) and that it has been assigned to you. 
 
-The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`).  Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
+The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
 #### Initial Setup
 
@@ -51,7 +51,7 @@ We've got one main branch -- `master`.  `master` is for production-ready code.  
 
 10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `master`, the hard part is all over.  Merge into `master` with `$ git checkout master` followed by `$ git merge your_feature_name`.
 11. Now you want to send your local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin master` to ship `master` up to your fork on GitHub.
-12. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch.  This can be done using GitHub's interface.  You just need to make sure you're sending it back to the `master` branch.
+12. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch. This can be done using GitHub's interface.
 13. Shake your moneymaker, you're an OSS contributor!
 
 ### Learning Outcomes
