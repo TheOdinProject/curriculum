@@ -60,7 +60,7 @@ myData.then(function(data){ // .then() tells it to wait until the promise is res
 })
 ~~~
 
-Of course there many more occasions where one would want to use Promises beyond fetching data, so learning these things now will be very useful to you.
+Of course, there are many more occasions where one would want to use Promises beyond fetching data, so learning these things now will be very useful to you.
 
 ### Assignment
 
