@@ -76,7 +76,7 @@ class App extends Component {
     super();
 
     this.state = {
-      task: "",
+      task: { text: ''},
       tasks: [],
     };
   }
@@ -105,12 +105,12 @@ We created the skeleton of our component. First, we imported `React` and `Compon
 
 ~~~javascript
 this.state = {
-  task: "",
+  task: { text: '' },
   tasks: [],
 };
 ~~~
 
-We assigned `task` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
+We assigned `task` to an object and `task.text` to an empty string, this will be the state handling what we type in our input field. And `tasks` will initially be set to an empty array. Later, we will include all of our tasks here.
 
 Also, inside the render function, we destructured our state in order to make our code look cleaner when using it.
 
@@ -123,7 +123,9 @@ Let's add some functionality to it. Go back to your `App.js` component and add t
 ~~~javascript
 handleChange = (e) => {
   this.setState({
-    task: e.target.value,
+    task : {
+      text: e.target.value,
+    }
   });
 };
 
@@ -131,7 +133,7 @@ onSubmitTask = (e) => {
   e.preventDefault();
   this.setState({
     tasks: this.state.tasks.concat(this.state.task),
-    task: "",
+    task: { text: '' },
   });
 };
 ~~~
@@ -148,7 +150,7 @@ tasks: this.state.tasks.concat(this.state.task),
 
 It adds the task (whatever is in our input field when we submit the form) to our `tasks` array. Later we can map over this array to display all the tasks we submitted. Make sure that you **DON'T** directly assign state. That is also the reason we don't use the `push` method here. It would give us an error.
 
-After that, we set task in state to an empty string because we want our input field to be empty, in order to add another task.
+After that, we set `task.text` in state to the initial object with `task.text` as an empty string, because we want our input field to be empty, in order to add another task.
 
 We still haven't invoked those functions yet, so let's do that.
 
@@ -157,13 +159,13 @@ In your `App.js` component in your render method, add an onChange handler to you
 ~~~javascript
 <input
   onChange={this.handleChange}
-  value={this.state.task}
+  value={this.state.task.text}
   type="text"
   id="taskInput"
 />
 ~~~
 
-Notice that we also have to specify the `value` attribute for React input elements. In this case we want the value of the input field to be what we saved in our `task` state.
+Notice that we also have to specify the `value` attribute for React input elements. In this case we want the value of the input field to be what we saved in our `task` object in state under the `text` property.
 
 And also add the `onSubmitTask` function to our form element like so:
 
@@ -191,7 +193,7 @@ const Overview = (props) => {
   return (
     <ul>
       {tasks.map((task) => {
-        return <li>{task}</li>;
+        return <li>{task.text}</li>;
       })}
     </ul>
   );
@@ -205,10 +207,43 @@ It takes the `tasks` from the `props` and maps over it. For each task it will th
 Run `npm install uniqid` in your project folder. Uniqid is a package which creates unique ids based on the current time, the process and the machine name. Once this is done, we just have to include it like this:
 
 ~~~javascript
+// App.js
+
+import React, { Component } from "react";
+import uniqid from "uniqid";
+
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      task: {text: '', id: uniqid()}
+      tasks: [],
+    };
+  }
+
+  handleChange = (e) => {
+    this.setState({
+      task: {
+        text: e.target.value,
+        id: this.state.task.id,
+      },
+    });
+  };
+
+  onSubmitTask = (e) => {
+    e.preventDefault();
+    this.setState({
+      tasks: this.state.tasks.concat(this.state.task),
+      task: {text: '', id: uniqid()},
+    });
+  };
+~~~
+
+~~~javascript
 // Overview.js
 
 import React from "react";
-import uniqid from "uniqid";
 
 const Overview = (props) => {
   const { tasks } = props;
@@ -216,7 +251,7 @@ const Overview = (props) => {
   return (
     <ul>
       {tasks.map((task) => {
-        return <li key={uniqid()}>{task}</li>;
+        return <li key={task.id}>{task.text}</li>;
       })}
     </ul>
   );
@@ -254,14 +289,17 @@ class App extends Component {
     super();
 
     this.state = {
-      task: "",
+      task: {text: '', id: uniqid()},
       tasks: [],
     };
   }
 
   handleChange = (e) => {
     this.setState({
-      task: e.target.value,
+      task: {
+        text: e.target.value,
+        id: this.state.task.id,
+      },
     });
   };
 
@@ -269,7 +307,10 @@ class App extends Component {
     e.preventDefault();
     this.setState({
       tasks: this.state.tasks.concat(this.state.task),
-      task: "",
+      task: {
+        text: '', 
+        id: uniqid()
+      },
     });
   };
 
@@ -282,7 +323,7 @@ class App extends Component {
           <label htmlFor="taskInput">Enter task</label>
           <input
             onChange={this.handleChange}
-            value={task}
+            value={task.text}
             type="text"
             id="taskInput"
           />
@@ -301,7 +342,6 @@ export default App;
 // Overview.js
 
 import React from "react";
-import uniqid from "uniqid";
 
 const Overview = (props) => {
   const { tasks } = props;
@@ -309,7 +349,7 @@ const Overview = (props) => {
   return (
     <ul>
       {tasks.map((task) => {
-        return <li key={uniqid()}>{task}</li>;
+        return <li key={task.id}>{task.text}</li>;
       })}
     </ul>
   );
