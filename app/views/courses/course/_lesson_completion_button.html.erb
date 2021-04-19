@@ -1,9 +1,9 @@
 <% if current_user.completed?(lesson) %>
-  <%= link_to lesson_completions_path(lesson.id), method: :delete, remote: true do %>
-    <i class="far fa-check-circle section-lessons__item__icon section-lessons__item__icon--completed"></i>
+  <%= button_to lesson_completions_path(lesson.id), method: :delete, remote: true, data: { disable_with: "<div class='lesson-button__icon lesson-button__icon--loading'></div>" }, class: 'section-lessons__item__icon section-lessons__item__icon--completed' do %>
+    <i class="far fa-check-circle lesson-button__icon--completed"></i>
   <% end %>
 <% else %>
-  <%= link_to lesson_completions_path(lesson.id), method: :post, remote: true do %>
-    <i class="far fa-check-circle section-lessons__item__icon"></i>
+  <%= button_to lesson_completions_path(lesson.id), method: :post, remote: true, data: { disable_with: "<div class='lesson-button__icon lesson-button__icon--loading'></div>" }, class: 'section-lessons__item__icon' do %>
+    <i class="far fa-check-circle"></i>
   <% end %>
 <% end %>

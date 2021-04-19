@@ -20,6 +20,8 @@
       color: $pale-grey;
       opacity: 0.3;
       padding-left: 10px;
+      background-color: transparent;
+      display: flex;
 
       &--completed {
         color: $success-color;
