@@ -133,7 +133,7 @@ onSubmitTask = (e) => {
   e.preventDefault();
   this.setState({
     tasks: this.state.tasks.concat(this.state.task),
-    task: { text: '' }
+    task: { text: '' },
   });
 };
 ~~~
@@ -228,8 +228,8 @@ class App extends Component {
         text: e.target.value,
         id: this.state.task.id,
       },
-    })
-  }
+    });
+  };
 
   onSubmitTask = (e) => {
     e.preventDefault();
@@ -291,7 +291,7 @@ class App extends Component {
     this.state = {
       task: {text: '', id: uniqid()},
       tasks: [],
-    }
+    };
   }
 
   handleChange = (e) => {
@@ -300,19 +300,19 @@ class App extends Component {
         text: e.target.value,
         id: this.state.task.id,
       },
-    })
-  }
+    });
+  };
 
   onSubmitTask = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     this.setState({
       tasks: this.state.tasks.concat(this.state.task),
       task: {
         text: '', 
         id: uniqid()
       },
-    })
-  }
+    });
+  };
 
   render() {
     const { task, tasks } = this.state;
@@ -344,16 +344,16 @@ export default App;
 import React from "react";
 
 const Overview = (props) => {
-  const { tasks } = props
+  const { tasks } = props;
 
   return (
     <ul>
       {tasks.map((task) => {
-        return <li key={task.id}>{task.text}</li>
+        return <li key={task.id}>{task.text}</li>;
       })}
     </ul>
-  )
-}
+  );
+};
 
 export default Overview;
 ~~~
