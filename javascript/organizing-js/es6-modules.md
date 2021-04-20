@@ -3,21 +3,6 @@ Separate from the __module pattern__ that we discussed in an earlier lesson, "mo
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__ which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
-### Learning Outcomes
-After completing this lesson, you will be able to:
-
-- Explain what npm is and where it was commonly used before being adopted on the frontend.
-- Describe what `npm init` does and what `package.json` is.
-- Know how to install packages using npm.
-- Describe what a JavaScript module bundler like webpack is.
-- Explain what the concepts "entry" and "output" mean as relates to webpack.
-- Briefly explain what a development dependency is.
-- Explain what "transpiling code" means and how it relates to frontend development.
-- Briefly describe what a task runner is and how it's used in frontend development.
-- Describe how to write an npm automation script.
-- Explain one of the main benefits of writing code in modules.
-- Explain "named exports" and "default exports".
-
 ### The History of JavaScript
 
 Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions.. with good answers.
@@ -142,3 +127,19 @@ import {functionOne, functionTwo} from './myModule'
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 
 The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
+
+
+### What have we learned?
+If you can answer these questions then you're good. Otherwise, feel free to go back to concepts discussed above.
+
+- Explain what npm is and where it was commonly used before being adopted on the frontend.
+- Describe what `npm init` does and what `package.json` is.
+- Know how to install packages using npm.
+- Describe what a JavaScript module bundler like webpack is.
+- Explain what the concepts "entry" and "output" mean as relates to webpack.
+- Briefly explain what a development dependency is.
+- Explain what "transpiling code" means and how it relates to frontend development.
+- Briefly describe what a task runner is and how it's used in frontend development.
+- Describe how to write an npm automation script.
+- Explain one of the main benefits of writing code in modules.
+- Explain "named exports" and "default exports".
