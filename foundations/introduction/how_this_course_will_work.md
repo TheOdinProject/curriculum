@@ -34,7 +34,8 @@ In addition to this, you might also consider using a translation dictionary in y
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next (and all the cool stuff you can do with it).
 
-The courses that come after this one are designed to take that foundation and build it into an applied understanding of the material.  Those courses will focus on taking these raw building blocks and honing them into a highly functional skillset.  Once you've completed the Foundations course, you'll have built a strong foundation to take those next steps.
+The last lesson of this course will give you an opportunity to choose between a Full Stack JavaScript and Full Stack Rails path, both of which are designed
+to take the foundation built in this course and build it into an applied understanding of the material. Each path will focus on taking these raw building blocks and honing them into a highly functional skillset.
 
 The Odin Project is maintained by professionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
 
