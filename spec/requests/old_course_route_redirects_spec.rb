@@ -2,6 +2,11 @@ require 'rails_helper'
 
 RSpec.describe 'Old Course Route Redirects', type: :request do
   context 'when a request is made for the old foundations path' do
+    it 'redirects the old foundations path courses page route' do
+      get '/paths/foundations/courses'
+      expect(response).to redirect_to('/paths/foundations')
+    end
+
     it 'redirects the old foundations course page route' do
       get '/courses/foundations'
       expect(response).to redirect_to('/paths/foundations/courses/foundations')
@@ -14,6 +19,11 @@ RSpec.describe 'Old Course Route Redirects', type: :request do
   end
 
   context 'when a request is made for the old full stack ruby on rails path' do
+    it 'redirects the old full stack rails path courses page route' do
+      get '/paths/full-stack-ruby-on-rails/courses'
+      expect(response).to redirect_to('/paths/full-stack-ruby-on-rails')
+    end
+
     it 'redirects the old ruby course page route' do
       get '/courses/ruby-programming'
       expect(response).to redirect_to('/paths/full-stack-ruby-on-rails/courses/ruby-programming')
@@ -45,6 +55,11 @@ RSpec.describe 'Old Course Route Redirects', type: :request do
     end
 
     context 'when full stack javascript path' do
+      it 'redirects the old full stack javascript path courses page route' do
+        get '/paths/full-stack-javascript/courses'
+        expect(response).to redirect_to('/paths/full-stack-javascript')
+      end
+
       it 'redirects the old node js course page route' do
         get '/courses/nodejs'
         expect(response).to redirect_to('/paths/full-stack-javascript/courses/nodejs')

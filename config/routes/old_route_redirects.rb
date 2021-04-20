@@ -3,10 +3,12 @@
 # these redirects are needed while we move over to an interlaced path structure. They can be removed after the interlaced paths are out for a while.
 Rails.application.routes.draw do
   # redirect old foundation path routes
+  get '/paths/foundations/courses', to: redirect('/paths/foundations')
   get '/courses/foundations', to: redirect('/paths/foundations/courses/foundations')
   get '/courses/foundations/lessons/:id', to: redirect('/paths/foundations/courses/foundations/lessons/%{id}')
 
   # redirect old rails path routes
+  get '/paths/full-stack-ruby-on-rails/courses', to: redirect('/paths/full-stack-ruby-on-rails')
   get '/courses/ruby-programming', to: redirect('/paths/full-stack-ruby-on-rails/courses/ruby-programming')
   get '/courses/ruby-programming/lessons/:id',
       to: redirect('/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/%{id}')
@@ -19,6 +21,7 @@ Rails.application.routes.draw do
       to: redirect('/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/%{id}')
 
   # redirect old js pathroutes
+  get '/paths/full-stack-javascript/courses', to: redirect('/paths/full-stack-javascript')
   get '/courses/nodejs', to: redirect('/paths/full-stack-javascript/courses/nodejs')
   get '/courses/nodejs/lessons/:id', to: redirect('/paths/full-stack-javascript/courses/nodejs/lessons/%{id}')
 
