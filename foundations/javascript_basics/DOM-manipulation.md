@@ -334,7 +334,7 @@ Now that we have a handle on manipulating the DOM with JavaScript, the next step
 
 There are three primary ways to go about this: you can attach functions attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
 
-We're going to create 3 buttons that all alert "BUTTON" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
+We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
 
 #### method 1
 
