@@ -22,6 +22,7 @@ By the end of this lesson, you should be able to do the following:
  - If you haven't already, set your local default git branch to `main`. You can do so by running:  
  `git config --global init.defaultBranch main`
 - For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
+- During this lesson, you may encounter a warning message that states the `upstream branch doesn't exist`. This is not an error, nor a sign indicating you have done something wrong while following through the instructions. If you wish to further learn about this Git feature, please refer to [Git's Branch Management Documentation](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management).
 
 ### Assignment
 In this project, we'll walk through the basic Git workflow that you will use in all your projects.
