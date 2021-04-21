@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   acts_as_voter
-  before_validation :enroll_in_foundations
+  before_create :enroll_in_foundations
 
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable,
@@ -16,7 +16,7 @@ class User < ApplicationRecord
   has_many :user_providers, dependent: :destroy
   has_many :flags, foreign_key: :flagger_id, dependent: :destroy
   has_many :notifications, as: :recipient
-  belongs_to :path
+  belongs_to :path, optional: true
 
   def progress_for(course)
     @progress ||= Hash.new { |hash, c| hash[c] = CourseProgress.new(c, self) }
