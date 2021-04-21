@@ -15,7 +15,7 @@ There are three ways to open the Developer Tools menu:
 
 <div class="lesson-content__panel" markdown="1">
 
-Note: Google has updated some of the required sections below, and some elements have changed, but you can still follow along using the same functionality that they cover.
+Note: Google has updated some of the required sections below and some elements have changed, but you can still follow along using the same functionality that they cover.
 
 1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
     - Open DevTools
