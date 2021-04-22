@@ -25,7 +25,7 @@ class ProjectSubmissions::FlagsController < ApplicationController
   end
 
   def notify_discord_admins
-    return if Rails.env.development?
+    return unless Rails.env.production?
 
     DiscordNotifier.notify(
       Notifications::FlagSubmission.new(flag)

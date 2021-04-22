@@ -24,7 +24,7 @@ const Submission = forwardRef(({
   const livePreview = submission.live_preview_url.length > 0;
 
   return (
-    <div className="submissions__item" ref={ref}>
+    <div className="submissions__item" ref={ref} data-test-id="submission-item">
       <div className="submissions__left-container">
         <Like submission={submission} handleLikeToggle={handleLikeToggle} />
         <p className="submissions__submission-title">
@@ -37,9 +37,27 @@ const Submission = forwardRef(({
       </div>
 
       <div className="submissions__actions">
-        <a href={submission.repo_url} target="_blank" rel="noreferrer" className="submissions__button">View Code</a>
+        <a
+          href={submission.repo_url}
+          target="_blank"
+          rel="noreferrer"
+          className="submissions__button"
+          data-test-id="view-code-btn"
+        >
+          View Code
+        </a>
         {livePreview
-          && <a href={submission.live_preview_url} target="_blank" rel="noreferrer" className="submissions__button">Live Preview</a>}
+          && (
+          <a
+            href={submission.live_preview_url}
+            target="_blank"
+            rel="noreferrer"
+            className="submissions__button"
+            data-test-id="live-preview-btn"
+          >
+            Live Preview
+          </a>
+          )}
 
         {isCurrentUsersSubmission
           ? (
@@ -49,6 +67,7 @@ const Submission = forwardRef(({
               role="button"
               tabIndex={0}
               aria-label="edit-button"
+              data-test-id="edit-submission-btn"
             />
           )
           : (
@@ -56,6 +75,7 @@ const Submission = forwardRef(({
               className="link-button submissions__flag hint--top"
               aria-label="Report submission"
               type="button"
+              data-test-id="flag-btn"
               onClick={(e) => { e.preventDefault(); onFlag(submission); }}
             >
               <i className="fas fa-flag" />

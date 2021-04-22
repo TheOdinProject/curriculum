@@ -24,14 +24,14 @@ describe('CreateForm', () => {
       );
 
       await act(async () => {
-        const repoUrlInput = screen.getByTestId('repo-url');
-        const livePreviewUrlInput = screen.getByTestId('live-preview-url');
-        const isPublicToggle = screen.getByTestId('is-public-toggle');
+        const repoUrlInput = screen.getByTestId('repo-url-field');
+        const livePreviewUrlInput = screen.getByTestId('live-preview-url-field');
+        const isPublicToggle = screen.getByTestId('is-public-toggle-slider');
 
         fireEvent.change(repoUrlInput, { target: { value: 'https://github.com/repo-url' } });
         fireEvent.change(livePreviewUrlInput, { target: { value: 'https://live-preview.com' } });
         fireEvent.change(isPublicToggle, { target: { checked: false } });
-        fireEvent.click(screen.getByTestId('submit-button'));
+        fireEvent.click(screen.getByTestId('submit-btn'));
       });
     });
 
@@ -45,10 +45,49 @@ describe('CreateForm', () => {
 
     test('displays the close button', async () => {
       await act(async () => {
-        fireEvent.click(screen.getByTestId('close-button'));
+        fireEvent.click(screen.getByTestId('close-btn'));
       });
 
       expect(onClose).toHaveBeenCalledTimes(1);
+    });
+  });
+
+  describe('when url fields are not present', () => {
+    beforeEach(() => {
+      render(
+        <ProjectSubmissionContext.Provider value={{ lesson: { has_live_preview: true } }}>
+          <CreateForm
+            onSubmit={onSubmit}
+            userId={userId}
+            onClose={onClose}
+          />
+          ,
+        </ProjectSubmissionContext.Provider>,
+      );
+    });
+
+    it('validates repo_url', async () => {
+      await act(async () => {
+        const repoUrlInput = screen.getByTestId('repo-url-field');
+
+        fireEvent.change(repoUrlInput, { target: { value: '' } });
+        fireEvent.click(screen.getByTestId('submit-btn'));
+      });
+
+      expect(screen.getByText('Required')).toBeInTheDocument();
+      expect(onSubmit).toHaveBeenCalledTimes(0);
+    });
+
+    test('validates live_preview_url', async () => {
+      await act(async () => {
+        const livePreviewUrlInput = screen.getByTestId('live-preview-url-field');
+
+        fireEvent.change(livePreviewUrlInput, { target: { value: '' } });
+        fireEvent.click(screen.getByTestId('submit-btn'));
+      });
+
+      expect(screen.getByText('Required')).toBeInTheDocument();
+      expect(onSubmit).toHaveBeenCalledTimes(0);
     });
   });
 
@@ -68,10 +107,10 @@ describe('CreateForm', () => {
 
     it('validates repo_url', async () => {
       await act(async () => {
-        const repoUrlInput = screen.getByTestId('repo-url');
+        const repoUrlInput = screen.getByTestId('repo-url-field');
 
         fireEvent.change(repoUrlInput, { target: { value: 'not-a-url' } });
-        fireEvent.click(screen.getByTestId('submit-button'));
+        fireEvent.click(screen.getByTestId('submit-btn'));
       });
 
       expect(screen.getByText('Url must start with http or https')).toBeInTheDocument();
@@ -80,10 +119,10 @@ describe('CreateForm', () => {
 
     test('validates live_preview_url', async () => {
       await act(async () => {
-        const livePreviewUrlInput = screen.getByTestId('live-preview-url');
+        const livePreviewUrlInput = screen.getByTestId('live-preview-url-field');
 
         fireEvent.change(livePreviewUrlInput, { target: { value: 'not a url' } });
-        fireEvent.click(screen.getByTestId('submit-button'));
+        fireEvent.click(screen.getByTestId('submit-btn'));
       });
 
       expect(screen.getByText('Url must start with http or https')).toBeInTheDocument();
@@ -125,7 +164,7 @@ describe('CreateForm', () => {
     });
 
     test('does not display a submit button', () => {
-      expect(screen.queryByTestId('submit-button')).not.toBeInTheDocument();
+      expect(screen.queryByTestId('submit-btn')).not.toBeInTheDocument();
     });
 
     test('displays sign in instructions', () => {

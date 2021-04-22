@@ -22,7 +22,7 @@ const SubmissionsList = ({
   const hasSubmissions = submissions.length > 0;
 
   return (
-    <div>
+    <div data-test-id="submissions-list">
       { userSubmission
         ? (
           <Submission

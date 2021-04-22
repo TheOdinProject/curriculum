@@ -44,6 +44,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
             className="form__element"
             rows="5"
             name="reason"
+            data-test-id="flag-description-field"
             ref={
               register({
                 minLength: { value: 4, message: 'Must be at least 4 characters' },
@@ -60,7 +61,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
         )}
 
         <div className="form__section form__section--center-aligned">
-          <button disabled={formState.isSubmitting} className="button button--primary" type="submit">Flag</button>
+          <button disabled={formState.isSubmitting} className="button button--primary" type="submit" data-test-id="submit-flag-btn">Flag</button>
         </div>
       </form>
     </div>

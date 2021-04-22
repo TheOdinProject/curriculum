@@ -21,12 +21,13 @@ const Like = ({ submission, handleLikeToggle }) => {
         className="link-button submissions__like hint--top"
         type="button"
         aria-label={toolTipLabel()}
+        data-test-id="like-btn"
         onClick={(event) => {
           event.preventDefault();
           handleLikeToggle(submission, isCurrentUsersSubmission);
         }}
       >
-        {submission.likes}
+        <span data-test-id="number-of-likes">{submission.likes}</span>
         {' '}
         <i className={submission.is_liked_by_current_user ? 'fa fa-heart liked' : 'fa fa-heart'} aria-label="Like icon" />
       </button>

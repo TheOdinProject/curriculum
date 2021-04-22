@@ -28,7 +28,7 @@ const EditForm = ({
     return (
       <div className="text-center">
         <h1 className="accent">Thanks for Updating Your Solution!</h1>
-        <button type="button" className="button button--primary" onClick={onClose}>Close</button>
+        <button type="button" className="button button--primary" onClick={onClose} data-test-id="close-btn">Close</button>
       </div>
     );
   }
@@ -48,6 +48,7 @@ const EditForm = ({
             type="text"
             name="repo_url"
             placeholder="Repository URL"
+            data-test-id="repo-url-field"
             ref={register()}
           />
         </div>
@@ -67,6 +68,7 @@ const EditForm = ({
                 type="text"
                 placeholder="Live Preview URL"
                 name="live_preview_url"
+                data-test-id="live-preview-url-field"
                 ref={register()}
               />
             </div>
@@ -83,17 +85,17 @@ const EditForm = ({
 
           <div className="form__toggle-checkbox">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
-            <label htmlFor="is_public" className="toggle form__public-checkbox">
+            <label htmlFor="is_public" className="toggle form__public-checkbox" data-test-id="is-public-toggle-slider">
               <input id="is_public" className="toggle__input" type="checkbox" name="is_public" ref={register()} />
               <div className="toggle__fill round" />
             </label>
           </div>
 
           <div className="form__button-group">
-            <button type="submit" className="button button--danger" onClick={handleDelete}>Delete</button>
+            <button type="submit" className="button button--danger" onClick={handleDelete} data-test-id="delete-btn">Delete</button>
             &nbsp;
             &nbsp;
-            <button disabled={formState.isSubmitting} type="submit" className="button button--primary">Update</button>
+            <button disabled={formState.isSubmitting} type="submit" className="button button--primary" data-test-id="submit-btn">Update</button>
           </div>
         </div>
       </form>

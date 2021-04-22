@@ -146,7 +146,12 @@ const ProjectSubmissions = ({ submissions, userSubmission }) => {
 
         <div>
           { !userProjectSubmission && (
-            <button type="button" className="submissions__add button button--primary" onClick={toggleShowCreateModal}>
+            <button
+              type="button"
+              className="submissions__add button button--primary"
+              onClick={toggleShowCreateModal}
+              data-test-id="add_submission_btn"
+            >
               Add Solution
             </button>
           )}
