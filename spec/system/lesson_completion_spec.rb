@@ -16,9 +16,7 @@ RSpec.describe 'Lesson Completions', type: :system do
 
   it 'cannot complete a lesson when not logged in' do
     visit path_course_lesson_path(path, course, lesson)
-    find(:test_id, 'complete_btn').click
 
-    expect(find(:test_id, 'complete_btn')).not_to be(nil)
-    expect(find(:test_id, 'incomplete_btn')).not_to be(nil)
+    expect(find(:test_id, 'login_button')).to have_content('Login to track progress')
   end
 end
