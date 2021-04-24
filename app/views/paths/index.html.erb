@@ -13,7 +13,7 @@
             <% if current_user.nil? %>
               <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
             <% elsif current_user.path === path %>
-              <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button' %>
+              <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button', data: { test_id: path.title  } %>
             <% else %>
               <%= button_to 'Switch', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...' } %>
             <% end %>
@@ -44,7 +44,7 @@
               <% elsif current_user.path === path %>
                 <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button' %>
               <% else %>
-                <%= button_to 'Switch', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...' } %>
+                <%= button_to 'Switch', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Switching...', test_id: path.title } %>
               <% end %>
             </div>
             <div class="card-main__description">
