@@ -150,7 +150,7 @@ tasks: this.state.tasks.concat(this.state.task),
 
 It adds the task (whatever is in our input field when we submit the form) to our `tasks` array. Later we can map over this array to display all the tasks we submitted. Make sure that you **DON'T** directly assign state. That is also the reason we don't use the `push` method here. It would give us an error.
 
-After that, we set `task.text` in state to the initial object with `task.text` as an empty string, because we want our input field to be empty, in order to add another task.
+After that, we set `task` in state to the initial object with `task.text` as an empty string, because we want our input field to be empty, in order to add another task.
 
 We still haven't invoked those functions yet, so let's do that.
 
@@ -159,7 +159,7 @@ In your `App.js` component in your render method, add an onChange handler to you
 ~~~javascript
 <input
   onChange={this.handleChange}
-  value={this.state.task.text}
+  value={task.text}
   type="text"
   id="taskInput"
 />
@@ -217,7 +217,10 @@ class App extends Component {
     super();
 
     this.state = {
-      task: {text: '', id: uniqid()}
+      task: {
+        text: '',
+        id: uniqid()
+      }
       tasks: [],
     };
   }
@@ -235,7 +238,10 @@ class App extends Component {
     e.preventDefault();
     this.setState({
       tasks: this.state.tasks.concat(this.state.task),
-      task: {text: '', id: uniqid()},
+      task: {
+        text: '', 
+        id: uniqid()
+      },
     });
   };
 ~~~
@@ -283,13 +289,17 @@ Your finished files should look like this:
 
 import React, { Component } from "react";
 import Overview from "./components/Overview";
+import uniqid from "uniqid";
 
 class App extends Component {
   constructor() {
     super();
 
     this.state = {
-      task: {text: '', id: uniqid()},
+      task: {
+        text: '', 
+        id: uniqid()
+      },
       tasks: [],
     };
   }
