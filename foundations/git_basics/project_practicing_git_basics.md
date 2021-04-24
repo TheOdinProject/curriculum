@@ -95,8 +95,9 @@ This section contains questions for you to check your understanding of this less
 
 * How do you create a new repository on GitHub?
 * How do you copy a repository onto your local machine?
-* What does the name "origin" indicate about the remote connection?
-* What does `git status` do?
-* How do you move files to the staging area in git?
-* How do you commit files to the main branch in git?
-* How do you push your changes to the GitHub website?
+* What is the default name of your remote connection?
+* How do you check the status of your current repository?
+* How do you add files to the staging area in git?
+* How do you commit the files to the staging area and add a descriptive message?
+* How do you push your changes to your repository on GitHub?
+* How do you look at the history of your previous commits?
