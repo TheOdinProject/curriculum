@@ -89,3 +89,15 @@ For now, concentrate on using the basics of Git that you've learned here with al
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by [Chris Beams](https://github.com/cbeams) provides guidelines for writing neat and concise commit messages.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* How do you create a new repository on GitHub?
+* How do you copy a repository onto your local machine?
+* What is the default name of your remote connection?
+* How do you check the status of your current repository?
+* How do you add files to the staging area in git?
+* How do you commit the files to the staging area and add a descriptive message?
+* How do you push your changes to your repository on GitHub?
+* How do you look at the history of your previous commits?
