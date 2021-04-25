@@ -46,7 +46,7 @@ This section contains questions for you to check your understanding of this less
 * How do you select a specific element on your page with your browser's developer tools?
 * How do you change CSS in real time on specific elements of a web page with your browser's developer tools?
 * What does a strikethrough in a CSS element mean in your browser's developer tools?
-* How do you check every inhereted style for an element in your browser's developer tools?
+* How do you check every inherited style for an element in your browser's developer tools?
 * How do you edit HTML in real time in your browser's developer tools?
 * How do you toggle responsive design mode in your browser's developer tools?
 * Are changes made in your browser's developer tools permanent?
