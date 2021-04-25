@@ -21,3 +21,11 @@ As we covered back in the [Installations section](https://www.theodinproject.com
   2. Read over [this quick interview with Matt Jording](https://www.bizjournals.com/washington/inno/stories/news/2014/03/31/what-is-back-end-web-development.html) about what back end web development is.
 
 </div>
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What is Backend?
+* How many parts does backend consist of? Name them.
+* Where does the backend store its data?
