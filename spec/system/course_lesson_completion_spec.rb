@@ -1,29 +1,36 @@
 require 'rails_helper'
 
 RSpec.describe 'Course Lesson Completions', type: :system do
+  let!(:user) { create(:user) }
   let!(:path) { create(:path, default_path: true) }
   let!(:course) { create(:course, path: path) }
   let!(:section) { create(:section, course: course) }
   let!(:lesson) { create(:lesson, section: section) }
 
   context 'when user is signed in' do
-
     before do
-      sign_in(create(:user))
+      sign_in(user)
       visit path_course_path(path, course)
     end
 
     it 'can complete a lesson' do
       find(:test_id, 'lesson_complete_btn').click
 
-      expect(find(:test_id, 'lesson_incomplete_btn')).not_to be(nil)
+      expect(user.lesson_completions.pluck(:lesson_id)).to include(lesson.id)
+      expect(page).to have_selector('button[data-test-id="lesson_incomplete_btn"]')
+      expect(page).to have_no_selector('button[data-test-id="lesson_complete_btn"]')
     end
 
     it 'can change a completed lesson to incomplete' do
       find(:test_id, 'lesson_complete_btn').click
+
+      expect(user.lesson_completions.pluck(:lesson_id)).to include(lesson.id)
+
       find(:test_id, 'lesson_incomplete_btn').click
 
-      expect(find(:test_id, 'lesson_complete_btn')).not_to be(nil)
+      expect(user.lesson_completions.pluck(:lesson_id)).not_to include(lesson.id)
+      expect(page).to have_selector('button[data-test-id="lesson_complete_btn"]')
+      expect(page).to have_no_selector('button[data-test-id="lesson_incomplete_btn"]')
     end
   end
 
@@ -31,7 +38,8 @@ RSpec.describe 'Course Lesson Completions', type: :system do
     it 'cannot complete a lesson' do
       visit path_course_path(path, course)
 
-      expect(page).to have_no_button('.section-lessons__item__icon')
+      expect(page).to have_no_selector('button[data-test-id="lesson_complete_btn"]')
+      expect(page).to have_no_selector('button[data-test-id="lesson_incomplete_btn"]')
     end
   end
 end
