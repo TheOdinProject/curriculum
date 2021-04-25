@@ -38,3 +38,17 @@ Make sure you can do each of the following once you have finished the assignment
   3. Skim through the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools/) [(or Firefox's!)](https://developer.mozilla.org/en-US/docs/Tools). Chrome and Firefox are constantly enhancing and updating their developer tools.  The basic functionality is going to be the same of course, but it's not unusual for things to move around or change appearance as the tools evolve.  These docs should be your up-to-date resource.  If your version of DevTools doesn't look like the videos above, reference these docs to find out where everything went.
 
 </div>
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* How do you open developer tools in your browser?
+* How do you select a specific element on your page with your browser's developer tools?
+* How do you change CSS in real time on specific elements of a web page with your browser's developer tools?
+* What does a strikethrough in a CSS element mean in your browser's developer tools?
+* How do you check every inherited style for an element in your browser's developer tools?
+* How do you edit HTML in real time in your browser's developer tools?
+* How do you toggle responsive design mode in your browser's developer tools?
+* Are changes made in your browser's developer tools permanent?
+* How do you open the console in your browser's developer tools?
+* What is the best resource for learning about your browser's developer tools?
