@@ -3,65 +3,14 @@ Before you can understand how to program the web, you need a more rigorous under
 
 ### Learning Outcomes
 At the end of this lesson, you should be able to do the following:
-
-<details>
-  <summary>Describe what the internet is.</summary>
-  <ul><ul>
-    <li>The internet is a worldwide network of linked computers. Each of these computers can communicate with each other in a specific format.</li>
-  </ul></ul>
- </details>
- 
- <details>
-  <summary>Describe what packets are and how they are used to transfer data.</summary>
-  <ul><ul>
-    <li>Packets are the information of the internet. Packets are sent from the sender to the receiver in a specific format that contains all the information needed to communicate.</li>
-  </ul></ul>
- </details>
- 
-<details>
-  <summary>Understand the differences between a web page, web server, web browser and search engine.</summary>
-  <ul><ul>
-    <li>A web page is the page you look at in your browser.</li>
-    <li>A web server is the computer that has the code for how the webpage should look and act.</li>
-    <li>A web browser is a program on a computer that displays web pages.</li>
-    <li>A search engine is a web server that searches all other web servers for information. A user can then pull up the web page on their web browser and search for a site.</li>
-  </ul></ul>
- </details>
- 
- <details>
-  <summary>Briefly explain what a client is.</summary>
-  <ul><ul>
-    <li>A client is a computer or internet device that requests information from a server.</li>
-  </ul></ul>
- </details>
- 
- <details>
-  <summary>Briefly explain what a server is.</summary>
-  <ul><ul>
-    <li>A server is a computer that receives requests (as packets) from the client and responds with the appropriate data.</li>
-  </ul></ul>
- </details>
- 
- <details>
-  <summary>Explain what IP addresses are</summary>
-  <ul><ul>
-    <li>IP addresses are numerical identifications that specify a destination in a network.</li>
-   </ul></ul>
- </details>
-  
- <details>
-  <summary>Explain what DNS servers are.</summary>
-  <ul><ul>
-    <li>DNS Servers are the "phone book" of the internet. They translate domain names into IP addresses.</li>
-  </ul></ul>
- </details>
-  
- <details>
-  <summary>In your own words, explain what happens when you run a search on google.com.</summary>
-  <ul><ul>
-    <li>User sends request by clicking search button. Google receives the request, looks for the contents of the request in their databases, and sends back the result as a response.</li>
-  </ul></ul>
- </details>
+* Describe what the internet is.
+* Describe what packets are and how they are used to transfer data.
+* Understand the differences between a web page, web server, web browser and search engine.
+* Briefly explain what a client is.
+* Briefly explain what a server is.
+* Explain what IP addresses are.
+* Explain what DNS servers are.
+* In your own words, explain what happens when you run a search on google.com.
 
 ### Assignment
 
@@ -82,3 +31,20 @@ This section contains helpful links to other content. It isn't required, so cons
 * Consider buying the book [Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 * If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
 * Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!  
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What is a network?
+* What is the internet?
+* What is an IP address?
+* What is a router?
+* What is an ISP? 
+* What is a Packet? How are packets used to transfer data?
+* What is a client? What is a server?
+* What is a web page?
+* What is a web server?
+* What is a web browser?
+* What is a search engine?
+* What is a DNS request?
+* What browser are you currently using?
