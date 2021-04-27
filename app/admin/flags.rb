@@ -32,10 +32,15 @@ ActiveAdmin.register Flag do
         flag.project_submission.user.username
       end
       row :lesson do
-        link_to flag.project_submission.lesson.title, path_course_lesson_path(flag.project_submission.lesson.path,
-                                                                              flag.project_submission.lesson.course,
-                                                                              flag.project_submission.lesson),
-                target: '_blank'
+        link_to(
+          flag.project_submission.lesson.title,
+          path_course_lesson_path(
+            flag.project_submission.lesson.path,
+            flag.project_submission.lesson.course,
+            flag.project_submission.lesson
+          ),
+          target: '_blank'
+        )
       end
       row :repo_url do
         link_to flag.project_submission.repo_url, flag.project_submission.repo_url, target: '_blank'
