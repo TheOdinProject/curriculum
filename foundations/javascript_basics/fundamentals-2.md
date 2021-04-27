@@ -2,26 +2,17 @@
 There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to:
 
-* What are the eight data types of javascript?
-* Which data type is NOT primitive?
-* What is the difference between single, double, and backtick quotes for strings?
-* Which type of quote lets you embed variables/expressions into a string?
-* How do you embed variables/expressions into a string?
-* How do you escape characters in a string?
-* What is the difference between slice/substring/substr?
-* What are methods?
-* What are the three logical operators and what do they stand for?
-* What are the comparison operators?
-* What is nesting?
-* What are truthy and falsy values?
-* What are the falsy values in JavaScript?
-* What is the syntax for an if/else conditional?
-* What is the syntax for a switch statement?
-* What is the syntax for a ternary operator?
-* What is the relationship between null and undefined?
-* What are conditionals?
+* Name the eight data types in JavaScript.
+* Understand the difference between single, double, and backtick quotes.
+* Embed a variable/expression in a string.
+* Define what a method is.
+* Name the three logical operators.
+* Understand what the comparison operators are.
+* Understand what conditionals are.
+* Understand what nesting is.
+* Understand what truthy and falsy values are.
 
 ### Strings
 
@@ -64,3 +55,26 @@ Note: Feel free to browse the files on the left column in order to gain familari
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What are the eight data types in JavaScript?
+* Which data type is NOT primitive?
+* What is the relationship between null and undefined?
+* What is the difference between single, double, and backtick quotes for strings?
+* What is the term for embedding variables/expressions in a string?
+* Which type of quote lets you embed variables/expressions in a string?
+* How do you embed variables/expressions in a string?
+* How do you escape characters in a string?
+* What are methods?
+* What is the difference between slice/substring/substr?
+* What are the three logical operators and what do they stand for?
+* What are the comparison operators?
+* What are truthy and falsy values?
+* What are the falsy values in JavaScript?
+* What are conditionals?
+* What is the syntax for an if/else conditional?
+* What is the syntax for a switch statement?
+* What is the syntax for a ternary operator?
+* What is nesting?
