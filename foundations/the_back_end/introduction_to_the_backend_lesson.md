@@ -27,6 +27,6 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is back-end development?
-* How many parts does back-end consist of?
+* How many parts does the back-end consist of?
 * Name each part of the back-end.
 * Where does the back-end store its data?
