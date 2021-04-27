@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe 'Course Lesson Completions', type: :system do
+  include ButtonMatchers
+
   let!(:user) { create(:user) }
   let!(:path) { create(:path, default_path: true) }
   let!(:course) { create(:course, path: path) }
