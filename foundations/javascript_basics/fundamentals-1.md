@@ -79,3 +79,15 @@ Try the following exercises:
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 [Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* Which of the three variable declarations should you avoid and why?
+* What should you look out for when using the `+` operator with numbers and strings?
+* How does the `%` operator work?
+* When would you receive a `NaN` result?
+* How do you increment and decrement a number?
+* What is operator precedence and how is it handled in JS?
+* How do you access developer tools and the console?
+* How do you log information to the console?
