@@ -34,3 +34,12 @@ This section contains helpful links to other content. It isn't required, so cons
 * Watch [this awesome video](https://www.youtube.com/watch?v=gT0Lh1eYk78) explaining the big picture of the three core web technologies: HTML, CSS and JavaScript.
 * [This video](https://www.youtube.com/watch?v=BANChTkxYYY&list=PLwqG3V3cExWpCgHOcLEKg6z-InpjHr7MB) is another great introduction to how the various front-end technologies interact.
 * [Skills of a Successful Front-End Web Developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What does HTML stand for? 
+* What does CSS stand for? 
+* Which language is responsible for the semantic structure of a document?
+* Which language can change the font, text-size, or background-color of an element?
+* Name a few behaviors that javascript can be reposnsible for on a website.
