@@ -10,7 +10,6 @@ At the end of this lesson, you should be able to do the following:
 * Briefly explain what a server is.
 * Explain what IP addresses are.
 * Explain what DNS servers are.
-* In your own words, explain what happens when you run a search on google.com.
 
 ### Assignment
 
@@ -40,11 +39,13 @@ This section contains questions for you to check your understanding of this less
 * What is an IP address?
 * What is a router?
 * What is an ISP? 
-* What is a Packet? How are packets used to transfer data?
-* What is a client? What is a server?
+* What are packets and how are they used to transfer data?
+* What is a client? 
+* What is a server?
 * What is a web page?
 * What is a web server?
 * What is a web browser?
 * What is a search engine?
 * What is a DNS request?
 * What browser are you currently using?
+* In your own words, explain what happens when you run a search on google.com.
