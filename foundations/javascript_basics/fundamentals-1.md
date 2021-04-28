@@ -83,11 +83,15 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
+* Name the three ways to declare a variable?
 * Which of the three variable declarations should you avoid and why?
+* What rules should you follow when naming variables?
 * What should you look out for when using the `+` operator with numbers and strings?
 * How does the `%` operator work?
+* Explain the difference between == and ===.
 * When would you receive a `NaN` result?
 * How do you increment and decrement a number?
+* Explain the difference between prefixing and post-fixing increment/decrement operators.
 * What is operator precedence and how is it handled in JS?
 * How do you access developer tools and the console?
 * How do you log information to the console?
