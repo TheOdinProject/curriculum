@@ -325,7 +325,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    psych (3.3.0)
+    psych (3.3.1)
     public_suffix (4.0.6)
     puma (5.2.2)
       nio4r (~> 2.0)
@@ -388,7 +388,7 @@ GEM
       railties (>= 3.2)
       tilt
     redis (4.2.5)
-    reek (6.0.3)
+    reek (6.0.4)
       kwalify (~> 0.7.0)
       parser (~> 3.0.0)
       psych (~> 3.1)
