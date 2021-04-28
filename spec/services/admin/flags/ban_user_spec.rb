@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Admin::Flags::BanUser do
   let(:admin) { create(:user, admin: true) }
-  
+
   subject(:service) { described_class.call(admin, flag: flag) }
 
   let(:flag) { create(:flag, project_submission: project_submission) }
