@@ -12,11 +12,7 @@ module Admin
 
       def call
         flag.transaction do
-          flag.project_submission.update!(banned: true)
-          flag.project_submission.user.update!(banned: true)
-          flag.ban!
-          flag.resolved!
-          flag.update!(resolved_by_id: flag.flagger.id)
+          update_flag_for_ban(flag)
           @success = true
         end
 
@@ -30,6 +26,14 @@ module Admin
       private
 
       attr_reader :flag
+
+      def update_flag_for_ban(flag)
+        flag.project_submission.update!(banned: true)
+        flag.project_submission.user.update!(banned: true)
+        flag.ban!
+        flag.resolved!
+        flag.update!(resolved_by_id: flag.flagger.id)
+      end
     end
   end
 end
