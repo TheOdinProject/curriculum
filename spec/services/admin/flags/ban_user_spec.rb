@@ -25,6 +25,10 @@ RSpec.describe Admin::Flags::BanUser do
     it 'sets the flags status to resolved' do
       expect { service }.to change { flag.status }.from('active').to('resolved')
     end
+
+    it 'sets the resolved_by_id to the id of the current admin user' do
+      expect { service }.to change { flag.resolved_by_id }.from(0).to(admin.id)
+    end
   end
 
   describe '#success?' do
