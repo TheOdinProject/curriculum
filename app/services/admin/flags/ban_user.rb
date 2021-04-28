@@ -13,7 +13,7 @@ module Admin
 
       def call
         flag.transaction do
-          update_flag_for_ban(flag)
+          update_flag_for_ban
           @success = true
         end
 
@@ -28,7 +28,7 @@ module Admin
 
       attr_reader :flag, :admin
 
-      def update_flag_for_ban(flag)
+      def update_flag_for_ban
         flag.project_submission.update!(banned: true)
         flag.project_submission.user.update!(banned: true)
         flag.ban!
