@@ -34,7 +34,7 @@ Services like the OpenWeatherMap use API keys to track who is requesting the dat
 
 By signing up for a service and getting an API key you are letting the service track how much you are actually using. In many cases services are limited as to how much data they can request for free. With the weather app example, their free plan only allows you to make 60 requests per minute and also limits what types of data you can access ([details here if you're interested](https://openweathermap.org/price)). So, if your app became successful, you would probably need to pay for a better account.
 
-Luckily for us, the majority our apps are only going to be used by us and the people that view our portfolios. So we'll get by _just fine_ with free services.
+Luckily for us, the majority of our apps are only going to be used by us and the people that view our portfolios. So we'll get by _just fine_ with free services.
 
 Once you get a key (try this now if you like!) and waited for its activation (see [Do I need to activate my API key?](https://openweathermap.org/faq)) you can paste the URL into the browser again (including your key of course) and hopefully, you'll see a proper response:
 
