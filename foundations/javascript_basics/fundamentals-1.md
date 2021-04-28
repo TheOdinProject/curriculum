@@ -88,7 +88,7 @@ This section contains questions for you to check your understanding of this less
 * What rules should you follow when naming variables?
 * What should you look out for when using the `+` operator with numbers and strings?
 * How does the `%` operator work?
-* Explain the difference between == and ===.
+* Explain the difference between `==` and `===`.
 * When would you receive a `NaN` result?
 * How do you increment and decrement a number?
 * Explain the difference between prefixing and post-fixing increment/decrement operators.
