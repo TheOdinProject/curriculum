@@ -17,7 +17,7 @@ RSpec.describe Admin::Flags::Dismiss do
     end
 
     it 'sets the resolved_by_id to the id of the current admin user' do
-      expect { service }.to change { flag.resolved_by_id }.from(0).to(admin.id)
+      expect { service }.to change { flag.resolved_by_id }.from(nil).to(admin.id)
     end
   end
 
