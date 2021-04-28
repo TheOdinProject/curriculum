@@ -1,0 +1,50 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: rubocop
+    versions:
+    - 1.13.0
+  - dependency-name: rails
+    versions:
+    - 6.1.3.1
+  - dependency-name: listen
+    versions:
+    - 3.5.0
+  - dependency-name: webmock
+    versions:
+    - 3.11.2
+  - dependency-name: omniauth-github
+    versions:
+    - 2.0.0
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react-hook-form
+    versions:
+    - 6.15.3
+    - 6.15.4
+    - 6.15.5
+    - 7.0.0
+    - 7.0.6
+    - 7.3.4
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.2
+  - dependency-name: "@hookform/resolvers"
+    versions:
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+  - dependency-name: react-tabs
+    versions:
+    - 3.2.0
