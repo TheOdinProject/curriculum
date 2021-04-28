@@ -3,115 +3,14 @@
 One of the most unique and useful abilities of JavaScript is its ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
 
 ### Learning Outcomes
-<details>
-  <summary>What is DOM in relation to a webpage?</summary>
-  <ul>
-    <ul>
-      <li>The Document Object Model is a tree-like representation of the contents on a webpage or document.</li>
-    </ul>
-  </ul>
-</details>
+By the end of this lesson, you should be able to do the following:
 
-<details>
-<summary>What's the difference between a "node" and an "element"?</summary>
-  <ul>
-    <ul>
-      <li>A "node" is any object in the DOM hierarchy while an "element" is <b>one specific</b> node.</li>
-      <li>"Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".</li>
-    </ul>
-  </ul>
-</details>
-<details>
-<summary>How do you target nodes with "selectors"?</summary>
-  <ul>
-    <ul>
-      <li>There are several ways, with CSS style-selectors, to target a node.</li>
-      <li><code>&lt;div class="display"&gt;&lt;/div&gt;</code> can be selected as follows:
-        <ul>
-          <li><code>div</code></li>
-          <li><code>div.display</code></li>
-          <li><code>.display</code></li>
-        </ul>
-      </li>
-      <li>There are also relational selectors such as <code>firstElementChild</code> or <code>lastElementChild</code>.</li>
-      <li>Combined with "Query Selectors", this is how you can target a node using JavaScript</li>
-      <ul>i.e. <code>document.querySelector(".display");</code> would select the div above.</ul>
-    </ul>
-  </ul>
-</details>
-
-<details>
-  <summary>What are the basic methods for finding/adding/removing and altering DOM nodes?</summary>
-  <ul><ul>
-    <li>As mentioned above, you can find nodes in the DOM using query selectors.</li>
-    <li>To create an element, use <code>document.createElement(tagName[, options])</code></li>
-    <ul>
-      <li>i.e. <code>const div = document.createElement('div');</code> will create a div element. However, this div has not been added to the webpage yet.</li>
-    </ul>
-    <li>To append this element, use <code><i>parentNode</i>.appendChild(<i>childNode</i>)</code></li>
-    <ul>
-      <li>i.e. <code>parentNode.appendChild(div);</code></li>
-    </ul>
-    <li>To remove this element, <i>parentNode</i>.removeChild(<i>child</i>)</li>
-    <li>This will remove <i>child</i> from <i>parentNode</i> on the DOM and returns reference to <i>child</i>.</li>
-    <ul>
-      <li>i.e. <code>parentNode.removeChild(div);</code></li>
-    </ul>
-    <li>Once you have a reference to an element, as above, you can alter it in many ways.</li>
-    <ul>
-      <li><code>div.style.color = 'blue';</code> adds the indicated style rule</li>
-      <li><code>div.setAttribute('id', 'theDiv');</code> sets the id attribute of our div to <code>theDiv</code>.</li>
-    </ul>
-  </ul></ul>
-</details>
-
-<details>
-  <summary>What is the difference between a "nodelist" and an "array of nodes"?</summary>
-  <ul><ul>
-    <li>A "nodelist" looks like an array, but it is missing several methods that come with an Array.</li>
-    <li>A solution to this problem is to use the spread operator or Array.from() to convert a nodelist into an array.</li>
-  </ul></ul>
-</details>
-
-<details>
-  <summary>How do "events" and "listeners" work? What are three ways to use events in your code?</summary>
-  <ul><ul>
-    <li>"Events" are how you make your webpage dynamic. They are triggered by "listeners", and can fire when the page loads, when you click your mouse, when you push keys on your keyboard, and many, many more.</li>
-    <li>The three primary ways to use events are:</li>
-    <ol>
-      <li>By attaching scripts to event attributes on elements in the HTML document.</li>
-      <ul><li><code>&lt;button onclick="alert(this.tagName)"&gt;Click Me&lt;/button&gt;</code></li></ul>
-      <li>By setting the "on_event_" property on the DOM object in your JavaScript.</li>
-      <ul><code>
-        // the html file<br />
-        &lt;button id="btn"&gt;Click Me&lt;/button&gt;<br />
-        <br />
-        // the JavaScript file<br />
-        const btn = document.querySelector(&lsquo;&#35;btn&rsquo;);<br />
-        btn.onclick = (e) =&gt; alert(e.target.tagName);<br />
-      </code></ul>
-      <li>By attaching event listeners to the nodes in your JavaScript.</li>
-      <ul><code>
-        // the html file<br />
-        &lt;button id="btn"&gt;Click Me Too&lt;/button&gt;<br />
-        <br />
-        // the JavaScript file<br />
-        const btn = document.querySelector('#btn');<br />
-        btn.addEventListener(&lsquo;click&rsquo;, (e) => {<br />
-          &nbsp;&nbsp;alert(e.target.tagName);<br />
-        });<br />
-      </code></ul>
-    </ol>
-  </ul></ul>
-</details>
-
-<details>
-  <summary>How does "bubbling" work?</summary>
-  <ul><ul>
-    <li>Bubbling is a form of "event propagation."</li>
-    <li>It is an efficient method for firing an event on multiple elements -- starting from the innermost element -- and "bubbling" up to outer elements.</li>
-  </ul></ul>
-</details>
+* Explain what the DOM is in relation to a webpage.
+* Explain the difference between a "node" and an "element".
+* Explain how totarget nodes with "selectors".
+* Explain the basic methods for finding/adding/removing and altering DOM nodes.
+* Explain the difference between a "nodelist" and an "array of nodes".
+* Explain what "bubbling" is and how it works.
 
 ### DOM - Document Object Model
 
@@ -493,3 +392,19 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
 * [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
 * [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What is the DOM?
+* How do you target the nodes you want to work with?
+* How do you create an element in the DOM?
+* How do you add an element to the DOM?
+* How do you remove an element from the DOM?
+* How can you alter an element in the DOM?
+* When adding text to a DOM element, should you use textContent or innerHTML? Why?
+* Where should you include your Javascript tag in your HTML file when working with DOM nodes?
+* How do "events" and "listeners" work? 
+* What are three ways to use events in your code?
+* What are the benefits of using named functions in your listeners?
+* How do you attach listeners to groups of nodes?
