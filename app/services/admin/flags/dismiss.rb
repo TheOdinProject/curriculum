@@ -13,6 +13,7 @@ module Admin
       def call
         flag.resolved!
         flag.dismiss!
+        flag.update!(resolved_by_id: flag.flagger.id)
         @success = true
 
         self

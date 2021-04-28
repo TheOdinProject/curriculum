@@ -16,6 +16,7 @@ module Admin
           flag.project_submission.user.update!(banned: true)
           flag.ban!
           flag.resolved!
+          flag.update!(resolved_by_id: flag.flagger.id)
           @success = true
         end
 
