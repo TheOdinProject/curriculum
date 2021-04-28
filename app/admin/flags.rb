@@ -67,7 +67,7 @@ ActiveAdmin.register Flag do
 
   controller do
     def ban_flagged_user
-      result = Admin::Flags::BanUser.call(flag: resource)
+      result = Admin::Flags::BanUser.call(current_user, flag: resource)
 
       if result.success?
         redirect_to resource_path(resource), notice: 'Success: User has been banned.'
@@ -77,7 +77,7 @@ ActiveAdmin.register Flag do
     end
 
     def dismiss
-      result = Admin::Flags::Dismiss.call(flag: resource)
+      result = Admin::Flags::Dismiss.call(current_user, flag: resource)
 
       if result.success?
         redirect_to resource_path(resource), notice: 'Success: Flag has been dismissed.'

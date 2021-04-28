@@ -1,7 +1,8 @@
 module Admin
   module Flags
     class BanUser
-      def initialize(flag:)
+      def initialize(admin, flag:)
+        @admin = admin
         @flag = flag
         @success = false
       end
@@ -25,14 +26,14 @@ module Admin
 
       private
 
-      attr_reader :flag
+      attr_reader :flag, :admin
 
       def update_flag_for_ban(flag)
         flag.project_submission.update!(banned: true)
         flag.project_submission.user.update!(banned: true)
         flag.ban!
         flag.resolved!
-        flag.update!(resolved_by_id: flag.flagger.id)
+        flag.update!(resolved_by_id: admin.id)
       end
     end
   end
