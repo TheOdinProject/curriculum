@@ -108,7 +108,7 @@ This example may be hard to completely understand at this point in the lesson. T
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*. As indicated in this article, remember that you should not use `$global_variables` or `@@class_variables`.
+1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*. As indicated in this article, remember that you should not use `$global_variables`. Additionally, `@@class_variables` are rarely needed and easily misused.
 2. Read through these short, to-the-point variable lessons by Ruby Monstas:
       * [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
       * [Reusing Variables](http://ruby-for-beginners.rubymonstas.org/variables/reusing_names.html)
