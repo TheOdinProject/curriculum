@@ -7,7 +7,7 @@ By the end of this lesson, you should be able to do the following:
 
 * Explain what the DOM is in relation to a webpage.
 * Explain the difference between a "node" and an "element".
-* Explain how totarget nodes with "selectors".
+* Explain how to target nodes with "selectors".
 * Explain the basic methods for finding/adding/removing and altering DOM nodes.
 * Explain the difference between a "nodelist" and an "array of nodes".
 * Explain what "bubbling" is and how it works.
