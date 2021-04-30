@@ -34,3 +34,17 @@ This section contains helpful links to other content. It isn't required, so cons
 * Watch [this awesome video](https://www.youtube.com/watch?v=gT0Lh1eYk78) explaining the big picture of the three core web technologies: HTML, CSS and JavaScript.
 * [This video](https://www.youtube.com/watch?v=BANChTkxYYY&list=PLwqG3V3cExWpCgHOcLEKg6z-InpjHr7MB) is another great introduction to how the various front-end technologies interact.
 * [Skills of a Successful Front-End Web Developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* Which language is responsible for the semantic structure of a document?
+* Which language can change the font, text-size, or background-color of an element?
+* Name a few behaviors that javascript can be responsible for on a website.
+* What is the purpose of an opening tag and closing tag in an HTML element?
+* What is the selector in a CSS ruleset?
+* What is the property and property value in a CSS ruleset?
+* What is the declaration in a CSS ruleset?
+* How do you reference a file in the same directory as your HTML file?
+* How do you reference a file in a directory below your HTML file?
+* How do you reference a file in the directory above your HTML file?
