@@ -71,7 +71,7 @@ Once you have completed your project feel free to look at the other solutions to
 
 (the simple one with just a search box).
 
-Inside your project folder, create your index.html file
+Inside your project folder, create your index.html file.
 
 1. Tips:
    - DON'T BE A PERFECTIONIST! You're just trying to make it _look_ like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel. Any dropdown menus or form submissions or hover-highlighting should be ignored.
