@@ -409,5 +409,5 @@ This section contains questions for you to check your understanding of this less
 * What are three ways to use events in your code?
 * What are the benefits of using named functions in your listeners?
 * How do you attach listeners to groups of nodes?
-* What is the difference between the return values of querySelector and querySelectorAll?
+* What is the difference between the return values of `querySelector` and `querySelectorAll`?
 * What does a "nodelist" contain?
