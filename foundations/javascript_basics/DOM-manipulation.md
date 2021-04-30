@@ -405,6 +405,9 @@ This section contains questions for you to check your understanding of this less
 * When adding text to a DOM element, should you use textContent or innerHTML? Why?
 * Where should you include your Javascript tag in your HTML file when working with DOM nodes?
 * How do "events" and "listeners" work? 
+* Why are event listeners the preferred way to handle events?
 * What are three ways to use events in your code?
 * What are the benefits of using named functions in your listeners?
 * How do you attach listeners to groups of nodes?
+* What is the difference between the return values of querySelector and querySelectorAll?
+* What does a "nodelist" contain?
