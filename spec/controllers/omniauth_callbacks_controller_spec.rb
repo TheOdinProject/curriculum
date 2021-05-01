@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe OmniauthCallbacksController, type: :controller do
   let(:user_signed_in?) { true }
   let(:user) { create(:user) }
-  let(:auth) { OmniAuth.config.mock_auth[:github] }
+  let(:auth) { mock_oauth_provider(:github) }
   let(:persisted) { true }
 
   before do
@@ -57,12 +57,12 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
   describe 'GET failure' do
     it 'displays the failured omniauth flash' do
       get :failure
-      expect(flash[:alert]).to eql('Authentication failed.')
+      expect(flash[:alert]).to eql('Authentication failed')
     end
 
     it 'redirects to home page' do
       get :failure
-      expect(response).to redirect_to(root_path)
+      expect(response).to redirect_to(new_user_session_path)
     end
   end
 end

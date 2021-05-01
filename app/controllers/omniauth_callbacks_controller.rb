@@ -1,7 +1,4 @@
 class OmniauthCallbacksController < Devise::OmniauthCallbacksController
-  skip_before_action :verify_authenticity_token
-  before_action :authenticate_user!
-
   def github
     @user = UserProvider.find_user(auth)
 
@@ -19,8 +16,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   alias google github
 
   def failure
-    flash[:alert] = 'Authentication failed.'
-    redirect_to root_path
+    redirect_to new_user_session_path, alert: 'Authentication failed'
   end
 
   private
