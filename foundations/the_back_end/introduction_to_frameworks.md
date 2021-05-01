@@ -28,3 +28,12 @@ Look through these now and then use them to test yourself after doing the assign
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [StackOverflow: What is a Web Framework? How does it compare with LAMP?](http://stackoverflow.com/questions/4507506/what-is-a-web-framework-how-does-it-compare-with-lamp)
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+
+* What are the four general tasks that developers have to handle?
+* What problems does frameworks solve?
+* Name some popular front-end and back-end frameworks.
+* Describe the process of choosing a framework.
