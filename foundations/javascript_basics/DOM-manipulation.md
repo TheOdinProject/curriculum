@@ -306,7 +306,7 @@ btn.addEventListener('click', function (e) {
   console.log(e);
 });
 ~~~
-#### Note that function (e) is a callback from addEventListener. Further explanation of callbacks can be found [HERE.](https://briggs.dev/blog/understanding-callbacks)
+\*_Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://briggs.dev/blog/understanding-callbacks)._
 
 The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 
@@ -379,12 +379,12 @@ Manipulating web pages is the primary benefit of the JavaScript language!  These
    5. Display the running score, and announce a winner of the game once one player reaches 5 points.
    6. You will likely have to refactor (rework/rewrite) your original code to make it work for this.  That's OK!  Reworking old code is an important part of the programmer's life.
    7. Don't forget to go back and add your new version to the original Rock Paper Scissors Project!
+3. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above. 
 
 ### Additional Resources
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
-* [Event Capture, Propagation and Bubbling video by Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE)
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
 * [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
@@ -411,3 +411,4 @@ This section contains questions for you to check your understanding of this less
 * How do you attach listeners to groups of nodes?
 * What is the difference between the return values of `querySelector` and `querySelectorAll`?
 * What does a "nodelist" contain?
+* Explain the difference between "capture" and "bubbling".
