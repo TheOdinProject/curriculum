@@ -86,7 +86,7 @@ This section contains questions for you to check your understanding of this less
 </details>
 
 <details>
-<summary>What is the Git command used to remove track files with Git?</summary>
+<summary>What is the Git command used to remove tracked files with Git?</summary>
 <ul><ul>
   <li>Use <code>git reset</code> to remove track files.</li>
 </ul></ul>
