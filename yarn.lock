@@ -1351,56 +1351,56 @@
     webpack-cli "^3.3.12"
     webpack-sources "^1.4.3"
 
-"@sentry/browser@^6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-6.3.3.tgz#a0cb46f29b4f485eec331248969707cea2972a23"
-  integrity sha512-M3l4xdpU4fTNERnuXZ46ceMa+bAMdUOaSYbmflYt5GSkBuYS/eC8nAaCj//4CMT4JMwT3oUKYI5k6wDIKgyKMQ==
+"@sentry/browser@^6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-6.3.5.tgz#fc89538cf73752cd5b10060a914c6c5ece2d2893"
+  integrity sha512-fjkhPR5gLCGVWhbWjEoN64hnmTvfTLRCgWmYTc9SiGchWFoFEmLqZyF2uJFyt27+qamLQ9fN58nnv4Ly2yyxqg==
   dependencies:
-    "@sentry/core" "6.3.3"
-    "@sentry/types" "6.3.3"
-    "@sentry/utils" "6.3.3"
+    "@sentry/core" "6.3.5"
+    "@sentry/types" "6.3.5"
+    "@sentry/utils" "6.3.5"
     tslib "^1.9.3"
 
-"@sentry/core@6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-6.3.3.tgz#8200434d2d753b2b9991ff1d0dfac3e88fc41245"
-  integrity sha512-wbmXmhWHpbFLmXf9DBUOp9H5Ao+T8Ztn5KXoxDwBnsYXtgVIzQfdpRbtcNtvJJ/UPZ3H3rRHQ8zQTb5Ni99xYQ==
+"@sentry/core@6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-6.3.5.tgz#6b73de736eb9d0040be94cdbb06a744cd6b9172e"
+  integrity sha512-VR2ibDy33mryD0mT6d9fGhKjdNzS2FSwwZPe9GvmNOjkyjly/oV91BKVoYJneCqOeq8fyj2lvkJGKuupdJNDqg==
   dependencies:
-    "@sentry/hub" "6.3.3"
-    "@sentry/minimal" "6.3.3"
-    "@sentry/types" "6.3.3"
-    "@sentry/utils" "6.3.3"
+    "@sentry/hub" "6.3.5"
+    "@sentry/minimal" "6.3.5"
+    "@sentry/types" "6.3.5"
+    "@sentry/utils" "6.3.5"
     tslib "^1.9.3"
 
-"@sentry/hub@6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-6.3.3.tgz#5d4a5307ac32fe5af337c380be0dd7f8796ee1a4"
-  integrity sha512-vrJHrDKTCAL63dkNNll18Q1c7YjuIYYv5jY56RNUQpm+7sX4v+iw9giOI+iLbPKaGpEyraa17FeF/xO0SqIp9Q==
+"@sentry/hub@6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-6.3.5.tgz#c5bc6760f7e4e53e87149703b106804299060389"
+  integrity sha512-ZYFo7VYKwdPVjuV9BDFiYn+MpANn6eZMz5QDBfZ2dugIvIVbuOyOOLx8PSa3ZXJoVTZZ7s2wD2fi/ZxKjNjZOQ==
   dependencies:
-    "@sentry/types" "6.3.3"
-    "@sentry/utils" "6.3.3"
+    "@sentry/types" "6.3.5"
+    "@sentry/utils" "6.3.5"
     tslib "^1.9.3"
 
-"@sentry/minimal@6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-6.3.3.tgz#555d44ed68c2d775ec88711182971bf46021d426"
-  integrity sha512-MKspEQ5hhTMrbeiNvkRGgm/NX2gM/Mni0vDJjuqQFi2Cd3RwA4ZVO6yRr6XzFPtTGgDsrXg75lQ8rma96Qs8/g==
+"@sentry/minimal@6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-6.3.5.tgz#ef4894771243d01d81e91819400d2ecdcb34b411"
+  integrity sha512-4RqIGAU0+8iI/1sw0GYPTr4SUA88/i2+JPjFJ+qloh5ANVaNwhFPRChw+Ys9xpre8LV9JZrEsEf8AvQr4fkNbA==
   dependencies:
-    "@sentry/hub" "6.3.3"
-    "@sentry/types" "6.3.3"
+    "@sentry/hub" "6.3.5"
+    "@sentry/types" "6.3.5"
     tslib "^1.9.3"
 
-"@sentry/types@6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.3.3.tgz#ef469899fa209dfd4a5b03a29aeea400bb73b56c"
-  integrity sha512-UPHzhwqdjta7LCFfqNvJ5g79lRiXOxtgnIp7zlBkHU6yZs4fPnlBadljyi2gGFguN+C+XAukrbXUAq2mb+Mhdw==
+"@sentry/types@6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.3.5.tgz#d5eca7e76c250882ab78c01a8df894a9a9ca537d"
+  integrity sha512-tY/3pkAmGYJ3F0BtwInsdt/uclNvF8aNG7XHsTPQNzk7BkNVWjCXx0sjxi6CILirl5nwNxYxVeTr2ZYAEZ/dSQ==
 
-"@sentry/utils@6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.3.3.tgz#581491ce738f855d643758a4581609106166d611"
-  integrity sha512-Kz546LeF6Ff/FU53XUVaairMQYFc6sIHBvE5ReZmfDRpaR+qZnfIbWhfoIbSwyBbtF+T8/gcU7mcZpZQmM5jLw==
+"@sentry/utils@6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.3.5.tgz#a4805448cb0314d3d119688162aa695598a10bbb"
+  integrity sha512-kHUcZ37QYlNzz7c9LVdApITXHaNmQK7+sw/If3M/qpff1fd5XoecA8laLfcYuz+Cw5mRhVmdhPcCRM3Xi1IGXg==
   dependencies:
-    "@sentry/types" "6.3.3"
+    "@sentry/types" "6.3.5"
     tslib "^1.9.3"
 
 "@sinonjs/commons@^1.7.0":
