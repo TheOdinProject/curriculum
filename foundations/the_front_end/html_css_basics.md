@@ -48,3 +48,38 @@ This section contains helpful links to other content. It isn't required, so cons
     * The [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and the [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) from CSS Tricks are both excellent references.
     * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
     * Hop on over to [Flexbox Froggy](https://flexboxfroggy.com/) or dig into [Grid Garden](https://cssgridgarden.com/) to learn some concepts with a fun game!
+    
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+
+<details>
+<summary>How Many Heading Tags are available in HTML?</summary>
+<ul><ul>
+  <li>There are &lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;&lt;h6&gt; are available in html</li>
+</ul></ul>
+</details>
+<details>
+<summary>How To write a comment in HTML and CSS?</summary>
+<ul><ul>
+  <li>Use <code>&lt;!-- --&gt;</code> to write a comment in HTML</li>
+  <li>Use <code>/* */</code>to write a comment in CSS
+</ul></ul>
+</details>
+<details>
+<summary>What is the tag to link CSS File to HTML?</summary>
+<ul><ul>
+  <li>Use <code>&lt;link href="path to css file"&gt;</code> To link your CSS File</li>
+</ul></ul>
+</details>
+<details>
+<summary>What is a Selector in CSS?</summary>
+<ul><ul>
+  <li>CSS selectors are used to "find" (or select) the HTML elements you want to style.</li>
+</ul></ul>
+</details>
+<details>
+<summary>What is HTML stands for?</summary>
+<ul><ul>
+  <li>HTML stands for Hyper Text Markup Language</li>
+</ul></ul>
+</details>
