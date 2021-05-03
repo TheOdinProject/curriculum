@@ -335,7 +335,7 @@ This section contains questions for you to check your understanding of this less
 - What is a nested array and hash?
 - What data is useful to store in a nested array and hash?
 - How do you access data in a nested array and hash?
-- Why the `#dig` method is useful?
+- Why is the `#dig` method useful?
 - How do you add data to a nested array and hash?
 - How do you delete data in a nested array and hash?
 - How do you create a new nested array that is not mutable?
