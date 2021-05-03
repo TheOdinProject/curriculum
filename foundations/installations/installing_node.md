@@ -83,7 +83,7 @@ Now that we have `nvm` installed, we can install Node.
 Run:
 
 ~~~bash
-nvm install node --lts
+nvm install --lts
 ~~~
 
 This will install the most recent stable version of Node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
