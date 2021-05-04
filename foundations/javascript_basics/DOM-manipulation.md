@@ -70,7 +70,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 #### Element Creation
 
-* document.createElement\(tagName\[, options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
+* document.createElement\(tagName, \[options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
 ~~~JavaScript
 const div = document.createElement('div');
