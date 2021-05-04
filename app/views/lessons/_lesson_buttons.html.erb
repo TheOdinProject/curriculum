@@ -1,7 +1,8 @@
 <%= link_to 'View Course',
     path_course_path(course.path, course),
     title: "Go back to '#{lesson.course.title}'",
-    class: 'button button--secondary lesson-button-group__item lesson-button'
+    class: 'button button--secondary lesson-button-group__item lesson-button',
+    data: { test_id: 'view_course_btn' }
 %>
 
 <%= render 'lessons/lesson_completion_button', lesson: lesson, user: user %>
@@ -10,6 +11,7 @@
   <%= link_to 'Next Lesson',
       path_course_lesson_path(course.path, course, lesson.next_lesson),
       title: "Move on to '#{lesson.next_lesson.title}'",
-      class: "button #{next_lesson_button_state(lesson)} lesson-button-group__item lesson-button"
+      class: "button #{next_lesson_button_state(lesson)} lesson-button-group__item lesson-button",
+      data: { test_id: 'next_lesson_btn' }
   %>
 <% end %>
