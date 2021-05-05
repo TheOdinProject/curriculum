@@ -3,6 +3,7 @@ Before you can understand how to program the web, you need a more rigorous under
 
 ### Learning Outcomes
 At the end of this lesson, you should be able to do the following:
+
 * Describe what the internet is.
 * Describe what packets are and how they are used to transfer data.
 * Understand the differences between a web page, web server, web browser and search engine.
