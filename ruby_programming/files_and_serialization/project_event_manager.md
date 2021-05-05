@@ -1421,7 +1421,7 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  Dir.mkdir('output') unless Dir.exists?('output')
+  Dir.mkdir('output') unless Dir.exist?('output')
 
   filename = "output/thanks_#{id}.html"
 
@@ -1443,7 +1443,7 @@ We make a directory named "output" if a directory named "output" does not
 already exist.
 
 ~~~ruby
-Dir.mkdir('output') unless Dir.exists?('output')
+Dir.mkdir('output') unless Dir.exist?('output')
 ~~~
 
 * Save each form letter to a file based on the id of the attendee
@@ -1490,7 +1490,7 @@ def legislators_by_zipcode(zip)
 end
 
 def save_thank_you_letter(id,form_letter)
-  Dir.mkdir('output') unless Dir.exists?('output')
+  Dir.mkdir('output') unless Dir.exist?('output')
 
   filename = "output/thanks_#{id}.html"
 
