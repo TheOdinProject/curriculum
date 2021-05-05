@@ -13,21 +13,21 @@ RSpec.describe 'Navigating Lessons', type: :system do
 
       it 'moves to the next lesson in the section when clicked' do
         visit path_course_lesson_path(path, course, lesson)
-        find(:test_id, 'next_lesson_btn').click
+        find(:test_id, 'next-lesson-btn').click
 
-        expect(find(:test_id, 'lesson_title_header')).to have_text(/#{next_lesson.title}/i)
+        expect(find(:test_id, 'lesson-title-header')).to have_text(/#{next_lesson.title}/i)
       end
     end
 
     context 'when on the last lesson of a section' do
       let!(:next_section) { create(:section, course: course) }
-      let!(:next_section_lesson) { create(:lesson, section: section) }
+      let!(:next_section_lesson) { create(:lesson, section: next_section) }
 
       it 'moves to the first lesson in the next section when clicked' do
         visit path_course_lesson_path(path, course, lesson)
-        find(:test_id, 'next_lesson_btn').click
+        find(:test_id, 'next-lesson-btn').click
 
-        expect(find(:test_id, 'lesson_title_header')).to have_text(/#{next_section_lesson.title}/i)
+        expect(find(:test_id, 'lesson-title-header')).to have_text(/#{next_section_lesson.title}/i)
       end
     end
 
@@ -35,7 +35,7 @@ RSpec.describe 'Navigating Lessons', type: :system do
       it 'should not be present' do
         visit path_course_lesson_path(path, course, lesson)
 
-        expect(page).to have_no_selector('[data-test-id="next_lesson_btn"]')
+        expect(page).to have_no_selector('[data-test-id="next-lesson-btn"]')
       end
     end
   end
@@ -43,11 +43,11 @@ RSpec.describe 'Navigating Lessons', type: :system do
   describe 'the View Course button' do
     it 'directs to the course view' do
       visit path_course_lesson_path(path, course, lesson)
-      find(:test_id, 'view_course_btn').click
+      find(:test_id, 'view-course-btn').click
 
-      expect(find(:test_id, 'course_title_header')).to have_text(/#{course.title}/i)
+      expect(find(:test_id, 'course-title-header')).to have_text(/#{course.title}/i)
 
-      within '[data-test-id="course_section"]', match: :first do
+      within '[data-test-id="course-section"]', match: :first do
         expect(page).to have_text(/#{lesson.title}/i)
       end
     end
@@ -62,7 +62,7 @@ RSpec.describe 'Navigating Lessons', type: :system do
 
     it 'directs the user to the path selection page' do
       visit path_course_lesson_path(path, course, choose_path_lesson)
-      find(:test_id, 'choose_path_lesson_btn').click
+      find(:test_id, 'choose-path-lesson-btn').click
 
       expect(page).to have_current_path(paths_path)
     end

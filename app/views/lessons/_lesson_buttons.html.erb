@@ -2,7 +2,7 @@
     path_course_path(course.path, course),
     title: "Go back to '#{lesson.course.title}'",
     class: 'button button--secondary lesson-button-group__item lesson-button',
-    data: { test_id: 'view_course_btn' }
+    data: { test_id: 'view-course-btn' }
 %>
 
 <%= render 'lessons/lesson_completion_button', lesson: lesson, user: user %>
@@ -12,6 +12,6 @@
       path_course_lesson_path(course.path, course, lesson.next_lesson),
       title: "Move on to '#{lesson.next_lesson.title}'",
       class: "button #{next_lesson_button_state(lesson)} lesson-button-group__item lesson-button",
-      data: { test_id: 'next_lesson_btn' }
+      data: { test_id: 'next-lesson-btn' }
   %>
 <% end %>
