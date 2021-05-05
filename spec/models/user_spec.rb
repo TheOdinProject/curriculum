@@ -43,7 +43,7 @@ RSpec.describe User do
     let(:lesson) { create(:lesson) }
 
     context 'when the user has completed  the lesson' do
-      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, student: user) }
+      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, user: user) }
 
       it 'returns true' do
         expect(user.completed?(lesson)).to be(true)
@@ -67,21 +67,21 @@ RSpec.describe User do
         create(
           :lesson_completion,
           lesson: lesson_completed_last_week,
-          student: user,
+          user: user,
           created_at: Time.zone.today - 7.days
         )
 
         create(
           :lesson_completion,
           lesson: lesson_completed_yesterday,
-          student: user,
+          user: user,
           created_at: Time.zone.today - 1.day
         )
 
         create(
           :lesson_completion,
           lesson: lesson_completed_today,
-          student: user,
+          user: user,
           created_at: Time.zone.today
         )
       end
@@ -100,10 +100,10 @@ RSpec.describe User do
 
   describe '#lesson_completions_for_course' do
     it 'returns the users lesson completions for a course' do
-      create(:lesson_completion, student: user)
+      create(:lesson_completion, user: user)
       course = create(:course)
-      lesson_completion_one_for_course = create(:lesson_completion, course_id: course.id, student: user)
-      lesson_completion_two_for_course = create(:lesson_completion, course_id: course.id, student: user)
+      lesson_completion_one_for_course = create(:lesson_completion, course_id: course.id, user: user)
+      lesson_completion_two_for_course = create(:lesson_completion, course_id: course.id, user: user)
 
       expect(user.lesson_completions_for_course(course)).to contain_exactly(
         lesson_completion_one_for_course, lesson_completion_two_for_course

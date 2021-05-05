@@ -10,7 +10,7 @@ class User < ApplicationRecord
   validates :username, length: { in: 2..100 }
   validates :learning_goal, length: { maximum: 1700 }
 
-  has_many :lesson_completions, foreign_key: :student_id, dependent: :destroy
+  has_many :lesson_completions, dependent: :destroy
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :project_submissions, dependent: :destroy
   has_many :user_providers, dependent: :destroy

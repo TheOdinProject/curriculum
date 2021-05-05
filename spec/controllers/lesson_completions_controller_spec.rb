@@ -7,7 +7,7 @@ RSpec.describe LessonCompletionsController do
   let(:lesson_completion_attrs) do
     {
       lesson_id: lesson.id,
-      student_id: user.id
+      user: user.id
     }
   end
 
@@ -47,7 +47,7 @@ RSpec.describe LessonCompletionsController do
     end
 
     describe 'DELETE #destroy' do
-      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, student: user) }
+      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, user: user) }
 
       it 'destroys the lesson_completion object' do
         expect { delete :destroy, params: lesson_completion_attrs, xhr: true }

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_28_222030) do
+ActiveRecord::Schema.define(version: 2021_05_05_042630) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -77,17 +77,17 @@ ActiveRecord::Schema.define(version: 2021_04_28_222030) do
 
   create_table "lesson_completions", id: :serial, force: :cascade do |t|
     t.integer "lesson_id"
-    t.integer "student_id"
+    t.integer "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string "lesson_identifier_uuid", default: "", null: false
     t.integer "course_id"
     t.integer "path_id"
     t.index ["course_id"], name: "index_lesson_completions_on_course_id"
-    t.index ["lesson_id", "student_id"], name: "index_lesson_completions_on_lesson_id_and_student_id", unique: true
+    t.index ["lesson_id", "user_id"], name: "index_lesson_completions_on_lesson_id_and_user_id", unique: true
     t.index ["lesson_identifier_uuid"], name: "index_lesson_completions_on_lesson_identifier_uuid"
     t.index ["path_id"], name: "index_lesson_completions_on_path_id"
-    t.index ["student_id"], name: "index_lesson_completions_on_student_id"
+    t.index ["user_id"], name: "index_lesson_completions_on_user_id"
   end
 
   create_table "lessons", id: :serial, force: :cascade do |t|

@@ -11,7 +11,7 @@ RSpec.describe LessonsHelper do
 
     context 'when the current user has completed the lesson' do
       before do
-        create(:lesson_completion, student: current_user, lesson: lesson)
+        create(:lesson_completion, user: current_user, lesson: lesson)
       end
 
       it 'returns button primary class' do
