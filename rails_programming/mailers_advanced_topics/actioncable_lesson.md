@@ -343,7 +343,7 @@ bundle exec rails db:migrate
 Next we need a controller to for our messages. We only need a create action since we aren't doing anything else with them
 
 ~~~bash
-bundle exec rails generate controller messages create
+bundle exec rails generate controller messages
 ~~~
 
 Then in your `routes.rb` create the resource
