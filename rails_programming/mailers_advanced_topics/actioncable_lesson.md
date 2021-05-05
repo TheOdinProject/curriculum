@@ -369,7 +369,7 @@ end
 Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just remove the form inside of the div with the `message-form` id
 
 ~~~html
-<%= form_with model: @message do |f| %>
+<%= form_with model: @message, local: false do |f| %>
   <div class="field has-addons">
     <div class="control">
       <%= f.text_field :body, id: 'message-input', class: 'input' %>
