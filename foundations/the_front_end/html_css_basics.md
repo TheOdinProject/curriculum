@@ -59,4 +59,11 @@ This section contains questions for you to check your understanding of this less
 * Describe the components of the CSS Box Model.
 * In CSS, what is a breakpoint?
 * What is a div and how are they used?
-* What are the different ways to style a particular element in CSS, and which has precedence?
+* What are the twon main typography groups in CSS?. 
+* What is the “query string” in a URL and what does it do?
+* What is the difference between “pixels” and “em”?
+* How does inheritence/non-inheritence work, i.e. how does an element get its “default” styles?
+* What are two CSS attributes you can change to push an element around on the page?
+* What are the three different ways to include a CSS stylesheet in your project or use CSS to style a particular element?
+* What is the “default stylesheet” or “user agent stylesheet”?
+* What is the purpose of a CSS reset file?
