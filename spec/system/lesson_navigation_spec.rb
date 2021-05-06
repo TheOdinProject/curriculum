@@ -4,12 +4,16 @@ RSpec.describe 'Navigating Lessons', type: :system do
   let!(:user) { create(:user) }
   let!(:path) { create(:path, default_path: true) }
   let!(:course) { create(:course, path: path) }
-  let!(:section) { create(:section, course: course) }
-  let!(:lesson) { create(:lesson, section: section) }
+  let!(:section) { create(:section, position: 1, course: course) }
+  let!(:lesson) { create(:lesson, position: 1, section: section) }
+
+  before do
+    sign_in(user)
+  end
 
   describe 'the next lesson button' do
     context 'within the same section' do
-      let!(:next_lesson) { create(:lesson, section: section) }
+      let!(:next_lesson) { create(:lesson, position: 2, section: section) }
 
       it 'moves to the next lesson in the section when clicked' do
         visit path_course_lesson_path(path, course, lesson)
@@ -20,8 +24,8 @@ RSpec.describe 'Navigating Lessons', type: :system do
     end
 
     context 'when on the last lesson of a section' do
-      let!(:next_section) { create(:section, course: course) }
-      let!(:next_section_lesson) { create(:lesson, section: next_section) }
+      let!(:next_section) { create(:section, position: 2, course: course) }
+      let!(:next_section_lesson) { create(:lesson, position: 2, section: next_section) }
 
       it 'moves to the first lesson in the next section when clicked' do
         visit path_course_lesson_path(path, course, lesson)
@@ -54,11 +58,7 @@ RSpec.describe 'Navigating Lessons', type: :system do
   end
 
   describe 'Choose Path Lesson button' do
-    let!(:choose_path_lesson) { create(:lesson, section: section, choose_path_lesson: true) }
-
-    before do
-      sign_in(user)
-    end
+    let!(:choose_path_lesson) { create(:lesson, position: 2, section: section, choose_path_lesson: true) }
 
     it 'directs the user to the path selection page' do
       visit path_course_lesson_path(path, course, choose_path_lesson)
