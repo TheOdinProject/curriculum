@@ -53,9 +53,10 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What is the difference between HTML and CSS?
-* For accessibility in HTML, what is the attribute used to describe an image if it fails to load?
+* For accessibility in HTML, what is the attribute used to describe an image (on screen readers or if it fails to load)?
 * What is the difference between CSS Grid and Flexbox?
-* Should a website be designed for mobile first, or desktop first?
+* For a responsive website, should it be designed mobile-first or desktop-first?
 * Describe the components of the CSS Box Model.
 * In CSS, what is a breakpoint?
-* What is a div?
+* What is a div and how are they used?
+* What are the different ways to style a particular element in CSS, and which has precedence?
