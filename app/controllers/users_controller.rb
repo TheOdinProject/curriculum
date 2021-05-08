@@ -19,10 +19,6 @@ class UsersController < ApplicationController
     end
   end
 
-  def courses
-    Course.order(:position).includes(:lessons, sections: [:lessons])
-  end
-
   def user_params
     params.require(:user).permit(
       :email,

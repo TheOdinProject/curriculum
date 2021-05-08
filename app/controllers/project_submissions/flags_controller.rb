@@ -20,10 +20,6 @@ class ProjectSubmissions::FlagsController < ApplicationController
     params.permit(:project_submission_id, :reason).merge(flagger: current_user)
   end
 
-  def project_submission
-    @project_submission ||= ProjectSubmission.find(params[:project_submission_id])
-  end
-
   def notify_discord_admins
     return unless Rails.env.production?
 

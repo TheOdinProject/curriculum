@@ -14,10 +14,6 @@ class Lesson < ApplicationRecord
 
   validates :position, presence: true
 
-  def type
-    is_project? ? 'Project' : 'Lesson'
-  end
-
   def position_in_section
     section_lessons.where('position <= ?', position).count
   end

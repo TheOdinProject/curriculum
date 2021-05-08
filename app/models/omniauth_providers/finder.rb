@@ -35,9 +35,6 @@ module OmniauthProviders
         user.password = Devise.friendly_token[0, 20]
         user.avatar = auth.info.image
       end
-    rescue ActiveRecord::RecordInvalid
-      ::NewRelic::Agent.add_custom_attributes(auth)
-      raise
     end
     # rubocop:enable Metrics/AbcSize
   end

@@ -10,10 +10,6 @@ module ApplicationHelper
     "https://github.com/TheOdinProject/#{extension}"
   end
 
-  def forum_link
-    'https://forum.theodinproject.com'
-  end
-
   def title(input = nil)
     content_for(:title) { "#{input} | The Odin Project" } if input
   end
