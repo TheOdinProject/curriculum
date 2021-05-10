@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '~> 2.6'
 
-gem 'rails', '6.1.3.1'
+gem 'rails', '6.1.3.2'
 
 gem 'activeadmin'
 gem 'activeadmin_addons', '~> 1.7.1'
