@@ -265,7 +265,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.0)
+    marcel (1.0.1)
     memory_profiler (0.9.14)
     method_source (1.0.0)
     mime-types (3.3.1)
@@ -284,9 +284,9 @@ GEM
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    noticed (1.3.2)
+    noticed (1.4.1)
       http (>= 4.0.0)
-      rails (>= 6.0.0)
+      rails (>= 5.2.0)
     oauth2 (1.4.4)
       faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)
@@ -571,7 +571,7 @@ DEPENDENCIES
   listen
   newrelic_rpm
   nokogiri (~> 1.11.3)
-  noticed (~> 1.3)
+  noticed (~> 1.4)
   octokit (~> 4.21)
   omniauth-github
   omniauth-google-oauth2
