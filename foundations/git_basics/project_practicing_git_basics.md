@@ -44,35 +44,35 @@ In this project, we'll walk through the basic Git workflow that you will use in 
 1. Create a new file in the `git_test` folder called "README.md" with the command `touch README.md`.
   <a href="https://i.imgur.com/lVTmtF9.png"><img class="tutorial-img" src="https://i.imgur.com/lVTmtF9.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal. In the output, notice that your README.md file is shown in red, which means that this file is not staged.
-  <a href="https://i.imgur.com/vupVHMk.png"><img class="tutorial-img" src="https://i.imgur.com/vupVHMk.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/Z3IS3iL.png"><img class="tutorial-img" src="https://i.imgur.com/Z3IS3iL.png" title="source: imgur.com" /></a>
 3. Type `git add README.md`. This command adds your README.md file to the staging area in Git. Now, type `git status` again. In the output, notice that your file is now shown in green, which means that this file is now in the staging area.
-  <a href="https://i.imgur.com/sc332hP.png"><img class="tutorial-img" src="https://i.imgur.com/sc332hP.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/J1gXSvj.png"><img class="tutorial-img" src="https://i.imgur.com/J1gXSvj.png" title="source: imgur.com" /></a>
 4. Type `git commit -m "Add README.md"` and then type `git status` once more. The output should now say, "*nothing to commit, working tree clean*", indicating that your changes have been committed. 
-  <a href="https://i.imgur.com/edsid2Z.png"><img class="tutorial-img" src="https://i.imgur.com/edsid2Z.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/0SsF1lV.png"><img class="tutorial-img" src="https://i.imgur.com/0SsF1lV.png" title="source: imgur.com" /></a>
 5. Type `git log` and look at the output. You should see an entry for your "Add README.md" commit. You will also see details on the author who made the commit and the date and time for when the commit was made.
 
 #### Add Another File
 
 1. Create a new file in the `git_test` folder called `hello_world.txt`. In the terminal, type `git status`, and notice `hello_world.txt` is not staged.
-  <a href="https://i.imgur.com/G0wYpLj.png"><img class="tutorial-img" src="https://i.imgur.com/G0wYpLj.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/2KDdWft.png"><img class="tutorial-img" src="https://i.imgur.com/2KDdWft.png" title="source: imgur.com" /></a>
 2. Open README.md in your text editor of choice and add the text "This is (YourUsername)'s first git project!" and then save the file.
   <a href="https://i.imgur.com/YvYwHXM.png"><img class="tutorial-img" src="https://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
 3. Back in your terminal, type `git status`, and notice that README.md is now shown as modified, and not staged or committed.  This is because you made a change to it, and it is already a tracked file.
-  <a href="https://i.imgur.com/yKXgVzY.png"><img class="tutorial-img" src="https://i.imgur.com/yKXgVzY.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/v6pRrwW.png"><img class="tutorial-img" src="https://i.imgur.com/v6pRrwW.png" title="source: imgur.com" /></a>
 4. Add README.md to the staging area with `git add README.md`.
 5. Can you guess what `git status` will output now? README.md will be displayed in green text, while hello_world.txt will still be in red. This means that only README.md has been added to the staging area.
-  <a href="https://i.imgur.com/mDnFQpQ.png"><img class="tutorial-img" src="https://i.imgur.com/mDnFQpQ.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/sY0hUHH.png"><img class="tutorial-img" src="https://i.imgur.com/sY0hUHH.png" title="source: imgur.com" /></a>
 6. Now, add hello_world.txt to the staging area with a slightly different command: `git add .`, where the full stop means to add all files **in the current directory** that are not staged. Then, type `git status` once more, and everything should now be in the staging area. *(Note: You can use `git add -A` to add ALL unstaged files to the staging area within the repository)*
-  <a href="https://i.imgur.com/dCdSzdC.png"><img class="tutorial-img" src="https://i.imgur.com/dCdSzdC.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/E3Us1Rx.png"><img class="tutorial-img" src="https://i.imgur.com/E3Us1Rx.png" title="source: imgur.com" /></a>
 9. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message `git commit -m "Add hello_world.txt and edit README.md"`. Then, type `git status` once again, which will output "*nothing to commit*".
-  <a href="https://i.imgur.com/BrvqRNZ.png"><img class="tutorial-img" src="https://i.imgur.com/BrvqRNZ.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/8j8qCPE.png"><img class="tutorial-img" src="https://i.imgur.com/8j8qCPE.png" title="source: imgur.com" /></a>
 10. Take one last look at your commit history by typing `git log`. You should now see two entries.
 
 #### Push Your Work to GitHub
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
 1. Type `git push origin main`.
-  <a href="https://i.imgur.com/Fyo2Xaz.png"><img class="tutorial-img" src="https://i.imgur.com/Fyo2Xaz.png" title="source: imgur.com" /></a>
+  <a href="https://i.imgur.com/SMlW3bO.png"><img class="tutorial-img" src="https://i.imgur.com/SMlW3bO.png" title="source: imgur.com" /></a>
 2. Type `git status` one final time. It should output "*nothing to commit, working tree clean*".
   <a href="https://i.imgur.com/zvrr2ou.png"><img class="tutorial-img" src="https://i.imgur.com/zvrr2ou.png" title="source: imgur.com" /></a>
 3. When you reload the repository on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
