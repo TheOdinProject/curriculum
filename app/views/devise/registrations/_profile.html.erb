@@ -2,7 +2,7 @@
   <div class="settings-card card-main">
 
     <h2 class="accent settings-card__heading">Profile</h2>
-    <div class="settings-card__edit-button settings-card__edit-button--open"></div>
+    <div class="settings-card__edit-button settings-card__edit-button--open" data-test-id="user-edit-profile-btn"></div>
 
     <div class="settings-card__content">
       <div class="settings-card__picture">
@@ -11,12 +11,12 @@
 
       <div class="settings-view">
         <p class="form__label">Name</p>
-        <p class="form__element form__element--non-editable username push-down">
+        <p class="form__element form__element--non-editable username push-down" data-test-id="settings-view-username">
           <%= user.username %>
         </p>
 
         <p class="form__label">Email</p>
-        <p class="form__element form__element--non-editable email push-down">
+        <p class="form__element form__element--non-editable email push-down" data-test-id="settings-view-email">
           <%= user.email %>
         </p>
       </div>
@@ -28,15 +28,15 @@
 
         <div class="form__section">
           <%= form.label :name, class: 'form__label' %>
-          <%= form.text_field :username, class: 'form__element' %>
+          <%= form.text_field :username, class: 'form__element', data: { test_id: 'edit-username-input' } %>
         </div>
 
         <div class="form__section">
           <%= form.label :email, class: 'form__label' %>
-          <%= form.email_field :email, class: 'form__element' %>
+          <%= form.email_field :email, class: 'form__element', data: { test_id: 'edit-user-email-field' } %>
         </div>
 
-        <%= form.submit 'Update', class: 'button button--primary full-width' %>
+        <%= form.submit 'Update', class: 'button button--primary full-width', data: { test_id: 'edit-user-submit-btn' } %>
       <% end %>
     </div>
   </div>

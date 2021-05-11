@@ -1,12 +1,12 @@
 <div class="settings-section">
   <div class="settings-card card-main">
 
-    <div class="settings-card__edit-button settings-card__edit-button--open"></div>
+    <div class="settings-card__edit-button settings-card__edit-button--open" data-test-id="user-edit-learning-goal-btn"></div>
     <h2 class="accent settings-card__heading">Learning Goal</h2>
 
     <div class="settings-card__content">
       <div class="settings-view">
-        <p class="form__element--non-editable learning_goal">
+        <p class="form__element--non-editable learning_goal" data-test-id="settings-view-learning-goal">
           <%= display_learning_goal(user) %>
         </p>
       </div>
@@ -17,10 +17,10 @@
       %>
 
         <div class="form__section">
-          <%= form.text_field :learning_goal, class: 'form__element', maxlength: 100, size: 140 %>
+          <%= form.text_field :learning_goal, class: 'form__element', maxlength: 100, size: 140, data: { test_id: 'edit-learning-goal-text-field' } %>
         </div>
 
-        <%= form.submit 'Update', class: 'button button--primary full-width' %>
+        <%= form.submit 'Update', class: 'button button--primary full-width', data: { test_id: 'edit-learning-goal-submit-btn' } %>
       <% end %>
     </div>
   </div>
