@@ -91,9 +91,9 @@ ActiveAdmin.register Flag do
 
       if result.success?
         resource.project_submission.discard
-        redirect_to resource_path(resource), notice: 'Success: Project has been removed.'
+        redirect_to admin_flags_path, notice: 'Success: Submission has been removed.'
       else
-        redirect_to resource_path(resource), notice: 'Failure: Unable to remove project, please check logs.'
+        redirect_to admin_flags_path, notice: 'Failure: Unable to remove project, please check logs.'
       end
     end
   end
