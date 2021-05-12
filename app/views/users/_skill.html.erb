@@ -12,7 +12,7 @@
 
   <div class="skill__button-wrapper">
     <% if course_completed_by_user?(course, current_user) %>
-      <%= link_to 'Open', path_course_path(course.path, course), class: 'button button--transparent skill__button' %>
+      <%= link_to 'Open', path_course_path(course.path, course), class: 'button button--transparent skill__button', data: { test_id: "#{course.title.downcase}-open-btn" } %>
     <% elsif course_started_by_user?(course, current_user) %>
       <%= link_to 'Resume',
         path_course_lesson_url(
@@ -20,10 +20,12 @@
           course,
           next_lesson_to_complete(course, current_user.lesson_completions_for_course(course))
         ),
-        class: 'button button--primary skill__button'
+        class: 'button button--primary skill__button',
+        data: { test_id: "#{course.title.downcase}-resume-btn" }
       %>
     <% else %>
-      <%= link_to 'Start', path_course_url(course.path, course), class: 'button button--primary skill__button' %>
+      <%= link_to 'Start', path_course_url(course.path, course), class: 'button button--primary skill__button', data: {
+        test_id: "#{course.title.downcase}-start-btn" } %>
     <% end %>
   </div>
 </div>
