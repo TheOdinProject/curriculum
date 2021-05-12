@@ -87,9 +87,14 @@ ActiveAdmin.register Flag do
     end
 
     def remove_project_submission
-      resource.project_submission.destroy
+      result = Admin::Flags::RemoveSubmission.call(current_user, flag: resource)
 
-      redirect_to admin_flags_path, notice: 'Success: Submission has been removed.'
+      if result.success?
+        resource.project_submission.discard
+        redirect_to resource_path(resource), notice: 'Success: Project has been removed.'
+      else
+        redirect_to resource_path(resource), notice: 'Failure: Unable to remove project, please check logs.'
+      end
     end
   end
 end
