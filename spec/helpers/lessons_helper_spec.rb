@@ -66,5 +66,13 @@ RSpec.describe LessonsHelper do
         expect(helper.user_submission(current_user, lesson)).to be_nil
       end
     end
+
+    context 'when the user has had their submission soft deleted' do
+      let!(:soft_deleted_project_submission) { create(:project_submission, user: current_user, lesson: lesson, discarded_at: Time.zone.today) }
+
+      it 'returns nil' do
+        expect(helper.user_submission(current_user, lesson)).to be_nil
+      end
+    end
   end
 end

@@ -54,6 +54,12 @@ RSpec.describe 'Admin Flags', type: :system do
         expect(page).not_to have_content(submission_owner.username)
       end
     end
+
+    it 'shows the flag in the resolved list' do
+      visit '/admin/flags?scope=resolved'
+
+      expect(page).to have_content(flag.id)
+    end
   end
 
   context 'when handling the flag by banning the submission owner' do

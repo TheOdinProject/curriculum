@@ -19,8 +19,9 @@ RSpec.describe ProjectSubmission, type: :model do
   describe '.viewable' do
     let!(:banned_project_submission) { create(:project_submission, banned: true) }
     let!(:private_project_submission) { create(:project_submission, is_public: false) }
-    let!(:viewable_project_submission_one) { create(:project_submission) }
-    let!(:viewable_project_submission_two) { create(:project_submission) }
+    let!(:soft_deleted_project_submission)   { create(:project_submission, discarded_at: Time.zone.today) }
+    let!(:viewable_project_submission_one)   { create(:project_submission) }
+    let!(:viewable_project_submission_two)   { create(:project_submission) }
 
     it 'returns viewable project submissions' do
       expect(ProjectSubmission.viewable).to contain_exactly(
