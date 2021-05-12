@@ -47,7 +47,7 @@ In this project, we'll walk through the basic Git workflow that you will use in 
   <a href="https://i.imgur.com/Z3IS3iL.png"><img class="tutorial-img" src="https://i.imgur.com/Z3IS3iL.png" title="source: imgur.com" /></a>
 3. Type `git add README.md`. This command adds your README.md file to the staging area in Git. Now, type `git status` again. In the output, notice that your file is now shown in green, which means that this file is now in the staging area.
   <a href="https://i.imgur.com/J1gXSvj.png"><img class="tutorial-img" src="https://i.imgur.com/J1gXSvj.png" title="source: imgur.com" /></a>
-4. Type `git commit -m "Add README.md"` and then type `git status` once more. The output should now say, "*nothing to commit, working tree clean*", indicating that your changes have been committed. 
+4. Type `git commit -m "Add README.md"` and then type `git status` once more. The output should now say, "*nothing to commit, working tree clean*", indicating that your changes have been committed. Don't worry about the `upstream is gone` message you may see, this is totally normal and only showing because your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
   <a href="https://i.imgur.com/0SsF1lV.png"><img class="tutorial-img" src="https://i.imgur.com/0SsF1lV.png" title="source: imgur.com" /></a>
 5. Type `git log` and look at the output. You should see an entry for your "Add README.md" commit. You will also see details on the author who made the commit and the date and time for when the commit was made.
 
