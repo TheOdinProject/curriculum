@@ -56,7 +56,7 @@ RSpec.describe 'Admin Flags', type: :system do
     end
 
     it 'shows the flag in the resolved list' do
-      visit '/admin/flags?scope=resolved'
+      visit admin_flags_path(scope: 'resolved')
 
       expect(page).to have_content(flag.id)
     end

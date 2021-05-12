@@ -14,7 +14,7 @@ module LessonsHelper
   def user_submission(current_user, lesson)
     return if current_user.blank?
 
-    project_submission = current_user.project_submissions.find_by(lesson_id: lesson.id, discarded_at: nil)
+    project_submission = current_user.project_submissions.find_by(lesson_id: lesson.id)
     ProjectSubmissionSerializer.as_json(project_submission, current_user) if project_submission.present?
   end
 end

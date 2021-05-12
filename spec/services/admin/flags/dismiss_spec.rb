@@ -1,10 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Admin::Flags::Dismiss do
-  let(:admin) { create(:user, admin: true) }
-
   subject(:service) { described_class.call(admin, flag: flag) }
 
+  let(:admin) { create(:user, admin: true) }
   let(:flag) { create(:flag) }
 
   describe '#call' do

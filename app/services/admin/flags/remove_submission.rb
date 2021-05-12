@@ -12,6 +12,7 @@ module Admin
       end
 
       def call
+        flag.project_submission.discard
         flag.removed_project_submission!
         flag.resolved!
         flag.update!(resolved_by_id: admin.id)
