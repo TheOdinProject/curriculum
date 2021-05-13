@@ -127,7 +127,7 @@ end
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Conclusion'
-  section.description = "Now that you've had a healthy taste of the basics of web development, it's time to choose what speciality path you would like to take."
+  section.description = "Now that you've had a healthy taste of the basics of web development, it's time to choose what specialty path you would like to take."
   section.identifier_uuid = '22cbdd2f-785b-40c9-9c54-d21755974df7'
 
   section.add_lessons(
