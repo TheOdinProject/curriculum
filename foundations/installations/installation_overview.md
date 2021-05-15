@@ -24,15 +24,24 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 
 ### OS Options
 
-#### Mac
+<details markdown="block">
+<summary class="dropDown-header">Mac</summary>
 
 If you're using a Mac, you're in great shape. The Odin Project instructions assume a Unix-based system. By installing just a few programs, you will be up and running with your education in no time!
 
-#### Linux
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">Linux</summary>
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
-#### Virtual Machines and Dual-Boots
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">Windows</summary>
+
+Windows is **not natively supported** by the odin project on this website or our discord server; however, if you're currently using windows you can use either of the options below to keep your windows install while creating your development environment in Linux.
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
@@ -57,6 +66,7 @@ Still not convinced? Here are a few great reasons to install Linux:
 - **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform like Linux.
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
+</details>
 
 Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
 
