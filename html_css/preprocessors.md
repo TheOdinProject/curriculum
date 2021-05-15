@@ -4,16 +4,16 @@ Preprocessors (aka precompilers) can make your life much easier by eliminating c
 
 ### Learning Outcomes
 
-- What is a preprocessor?
-- Why do preprocessors rock?
-- What does it mean that a preprocessor "compiles to CSS"?
-- What is SASS/SCSS?
-- How can you use SASS to nest CSS?
-- How can you use SASS to work with variables in your code?
-- Why is it awesome to use mix-ins with SASS?
-- If you're not using Rails, how do you set up SASS?
-- What is LESS and how is it different from SASS?
-- What other preprocessors are out there?
+* What is a preprocessor?
+* Why do preprocessors rock?
+* What does it mean that a preprocessor "compiles to CSS"?
+* What is SASS/SCSS?
+* How can you use SASS to nest CSS?
+* How can you use SASS to work with variables in your code?
+* Why is it awesome to use mix-ins with SASS?
+* If you're not using Rails, how do you set up SASS?
+* What is LESS and how is it different from SASS?
+* What other preprocessors are out there?
 
 ### Assignment
 
