@@ -25,7 +25,7 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 ### OS Options
 
 <details markdown="block">
-<summary class="dropDown-header">Mac</summary>
+<summary class="dropDown-header">macOS</summary>
 
 If you're using a Mac, you're in great shape. The Odin Project instructions assume a Unix-based system. By installing just a few programs, you will be up and running with your education in no time!
 
