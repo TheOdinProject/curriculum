@@ -46,6 +46,8 @@ print();
 
 Our function `print()` should call on `add()`, which returns a variable named `c`, which currently has not been declared. The corresponding error is as follows:
 
+<img width="620" alt="Screen Shot 2021-05-17 at 12 15 06 PM" src="https://user-images.githubusercontent.com/22967723/118543770-90641980-b709-11eb-8c85-4f49195901bc.png">
+
 The stack trace tells us that:
 
 1. `c is not defined` in scope of `add()`, which is declared on line 5
@@ -68,6 +70,7 @@ console.log “Hello World!”
 ```
 
 will throw the following error, because we forgot the parenthesis for `console.log()`!
+<img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://user-images.githubusercontent.com/22967723/118543788-9823be00-b709-11eb-8f2a-3e4f64cee880.png">
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError
 
@@ -94,6 +97,7 @@ const str1 = "Hello";
 const str2 = "World!";
 const message = str1.push(str2);
 ```
+<img width="621" alt="Screen Shot 2021-05-17 at 12 14 12 PM" src="https://user-images.githubusercontent.com/22967723/118543650-6579c580-b709-11eb-981d-4bdb74966ba4.png">
 
 Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended!
 
