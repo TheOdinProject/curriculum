@@ -4,7 +4,7 @@ class GithubWebhooksController < ActionController::Base
   def github_push(payload)
     event = ::GithubPushEventAdaptor.new(payload)
 
-    UpdateLessonContentJob.perform_async(event.modified_urls) if event.merged_to_master?
+    UpdateLessonContentJob.perform_async(event.modified_urls) if event.merged_to_main?
   end
 
   private

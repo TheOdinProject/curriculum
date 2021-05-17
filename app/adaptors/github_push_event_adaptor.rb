@@ -3,8 +3,8 @@ class GithubPushEventAdaptor
     @payload = payload
   end
 
-  def merged_to_master?
-    payload[:ref] == 'refs/heads/master'
+  def merged_to_main?
+    payload[:ref] == 'refs/heads/main'
   end
 
   def modified_urls

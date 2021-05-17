@@ -11,20 +11,20 @@ RSpec.describe GithubPushEventAdaptor do
       }
     }
   end
-  let(:ref) { 'refs/heads/master' }
+  let(:ref) { 'refs/heads/main' }
 
-  describe '#merged_to_master?' do
-    context 'when the ref is master' do
+  describe '#merged_to_main?' do
+    context 'when the ref is main' do
       it 'returns true' do
-        expect(adaptor.merged_to_master?).to be(true)
+        expect(adaptor.merged_to_main?).to be(true)
       end
     end
 
-    context 'when the ref is not master' do
+    context 'when the ref is not main' do
       let(:ref) { 'some/other/branch' }
 
       it 'returns false' do
-        expect(adaptor.merged_to_master?).to be(false)
+        expect(adaptor.merged_to_main?).to be(false)
       end
     end
   end

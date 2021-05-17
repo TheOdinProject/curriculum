@@ -107,7 +107,7 @@ module ApplicationHelper
       {
         question: 'Can I use this curriculum to teach?',
         answer:
-          "<p>The Odin Project is licensed under two pieces: the curriculum and the main website.  The main website is a fully open-source project <a href='https://github.com/TheOdinProject/theodinproject/blob/master/license.txt'>under an MIT license</a>, so you can use the code for whatever you want.  The curriculum is currently licensed under a <a href='https://github.com/TheOdinProject/curriculum/blob/master/license.md'>Creative Commons license</a> which restricts it to noncommercial use without prior authorization.</p>
+          "<p>The Odin Project is licensed under two pieces: the curriculum and the main website.  The main website is a fully open-source project <a href='https://github.com/TheOdinProject/theodinproject/blob/main/license.txt'>under an MIT license</a>, so you can use the code for whatever you want.  The curriculum is currently licensed under a <a href='https://github.com/TheOdinProject/curriculum/blob/main/license.md'>Creative Commons license</a> which restricts it to noncommercial use without prior authorization.</p>
           <br />
           <p>This means you can use The Odin Project’s curriculum to teach at your club, meetup, or with your friends (In fact, we’d love it if you did that and told us how it went!). You can’t, however, use it to start a bootcamp without having a conversation first.  Please reach out with any questions to <a href='mailto: theodinprojectcontact@gmail.com'>theodinprojectcontact@gmail.com</a></p>"
       },

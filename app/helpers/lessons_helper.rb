@@ -8,7 +8,7 @@ module LessonsHelper
   end
 
   def github_edit_url(lesson)
-    github_link("curriculum/edit/master#{lesson.url}")
+    github_link("curriculum/edit/main#{lesson.url}")
   end
 
   def user_submission(current_user, lesson)
