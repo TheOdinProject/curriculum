@@ -20,6 +20,8 @@ console.log(c)
 ```
 
 This code will run, but it will throw an error. The first part of an error displays the type of error. In this example, we have a `ReferenceError`.
+<img width="615" alt="Screen Shot 2021-05-17 at 12 16 37 PM" src="https://user-images.githubusercontent.com/22967723/118543890-c1dce500-b709-11eb-94f3-bbd6757d4e31.png">
+
 
 We’ll learn more about the different error types later in the lesson. **Error types** denote the kind of error, which gives us clues about how to address them, and why they may arise.
 
