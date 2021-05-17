@@ -23,7 +23,7 @@ This code will run, but it will throw an error. The first part of an error displ
 <img width="615" alt="Screen Shot 2021-05-17 at 12 16 37 PM" src="https://user-images.githubusercontent.com/22967723/118543890-c1dce500-b709-11eb-94f3-bbd6757d4e31.png">
 
 
-We’ll learn more about the different error types later in the lesson. **Error types** denote the kind of error, which gives us clues about how to address them, and why they may arise.
+We’ll learn more about the different error types later in the lesson. Error types denote the kind of error, which gives us clues about how to address them, and why they may arise.
 
 In this case, a `ReferenceError` is an error that is thrown when one attempts to reference a variable that has not yet been declared. The error message also explains this, by stating that `c is not defined`. Different kinds of errors can have different messages based on what is actually causing the `ReferenceError`. For example, another message you may run into that is also a `ReferenceError` is `ReferenceError: can't access lexical declaration 'X' before initialization`. As we can see, this points to a completely different reason than our original `ReferenceError` above. Understanding both the error type and the error message is crucial to comprehending why you are receiving the error.
 
