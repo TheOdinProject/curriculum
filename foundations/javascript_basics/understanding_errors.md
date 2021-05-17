@@ -73,14 +73,13 @@ console.log “Hello World!”
 
 will throw the following error, because we forgot the parenthesis for `console.log()`!
 <img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://user-images.githubusercontent.com/22967723/118543788-9823be00-b709-11eb-8f2a-3e4f64cee880.png">
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError
+[MDN | SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 
 ## Reference Error
 
 We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError
+[MDN | ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
 ## Type Error
 
@@ -103,7 +102,7 @@ const message = str1.push(str2);
 
 Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended!
 
-TypeError - JavaScript | MDN
+[MDN | TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
 # Tips for Resolving Errors
 
@@ -119,12 +118,12 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 
 # Exercise:
 
-Work through this lesson on MDN. Be sure to download their starter code that has intentional errors.
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong
+Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
+
 
 # Additional Resources:
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+[MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 # Knowledge Check:
 
