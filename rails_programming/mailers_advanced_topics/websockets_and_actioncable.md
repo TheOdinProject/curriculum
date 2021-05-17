@@ -306,7 +306,7 @@ The connection only remains active while the http request remains unbroken. Refr
 
 <div class="lesson-content__panel" markdown="1">
   1. Make sure you've read through all of the [Rails Guides on Action Cable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
-  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
+  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 </div>
 
 ### Conclusion

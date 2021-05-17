@@ -8,7 +8,7 @@ In this project we will fork The Odin Project's curriculum repository to add you
 * Add an additional remote so you can update your fork to include any changes from the original repository.
 * Create a new branch, make changes and push your updates.
 * Create a pull request on GitHub so your changes can be merged.
-* Feel comfortable with the process outlined below 
+* Feel comfortable with the process outlined below
 * Be able to contribute to open source projects with pull requests of bug fixes or documentation improvements as you move through TheOdinProject.
 
 ## Your Task
@@ -26,44 +26,44 @@ In this project we will fork The Odin Project's curriculum repository to add you
   ```language-bash
   ~/curriculum$ git remote add upstream https://github.com/theodinproject/curriculum.git
   ```
-6. Now you can see, (using `git remote -v`) there are four remote branches. We can `fetch` and `push` to both `origin` and `upstream`. Though if you try to change the TheOdinProjects repository and `git push upstream master` you will see that it's not permitted:
+6. Now you can see, (using `git remote -v`) there are four remote branches. We can `fetch` and `push` to both `origin` and `upstream`. Though if you try to change the TheOdinProjects repository and `git push upstream main` you will see that it's not permitted:
   ```language-bash
-  curriculum$ git push upstream master
+  curriculum$ git push upstream main
   remote: Permission to theodinproject/curriculum.git denied to odin-student.
   fatal: unable to access 'https://github.com/theodinproject/curriculum.git/': The requested URL returned error: 403
   ```
-7. The response error 403 is the HTTP status code which basically means that you don't have access. The creator of the repository can assign who has admin and write access. TheOdinProject/curriculum is set up so you can still `fetch` and `pull`, just not `push`. So how do you make changes? 
+7. The response error 403 is the HTTP status code which basically means that you don't have access. The creator of the repository can assign who has admin and write access. TheOdinProject/curriculum is set up so you can still `fetch` and `pull`, just not `push`. So how do you make changes?
 8. To make changes, we will follow this process: Make new branch >> Pull any changes >> Make changes >> Add >> Commit >> Push to GitHub
 9. From there, GitHub allows us to make a pull request to the main TheOdinProject/curriculum repository. Let's get started.
 10. The first step is to create a branch called `new-student`:
   ```language-bash
   curriculum$ git checkout -b new-student
   ```
-11. You are now working on the new-student branch and can pull any changes to TheOdinProject/curriculum since you've last updated. To do this, type `git pull upstream master` into your terminal. If you've just forked this repository there may not be any changes.
+11. You are now working on the new-student branch and can pull any changes to TheOdinProject/curriculum since you've last updated. To do this, type `git pull upstream main` into your terminal. If you've just forked this repository there may not be any changes.
 
   ```language-bash
-  curriculum$ git pull upstream master
+  curriculum$ git pull upstream main
   ```
 
 12. It's now time to make your changes. Open `git/student_list.md` in your text editor and add your name and link to your GitHub in Markdown syntax on line two like so:
   ```
-  * [Odin-Student](https://github.com/odin-student)  
+  * [Odin-Student](https://github.com/odin-student)
   ```
 then save the file.
 13. The next steps are to add the changed file to the staging area and commit it.  To see what files have changed, you can use `git status`. Then, to add the files to statging area you type `git add git/student_list.md ` (you may have to change the file location if it's not the same). Lastly, you'll commit these changes by typing `git commit -m "Commit Message Here"`.  In the end, it will look something like this:
   ```language-bash
   curriculum$ git status
-  On branch master
+  On branch main
   << Truncated >>
   Changes not staged for commit:
       modified: git/student_list.md
-      
+
   curriculum$ git add git/student_list.md
-  
+
   curriculum$ git commit -m "add my name to student_list.md"
   [new-student d4aed63] add my name to student_list.md
   1 file changed, 1 insertations
-  
+
   curriculum$ git push origin new-student
   Counting objects: 7, done.
   << Truncated >>
@@ -76,7 +76,7 @@ Success!
   <a href="http://i.imgur.com/nPZpeHY.png"><img class="tutorial-img" src="http://i.imgur.com/nPZpeHY.png" title="Click Compare & Pull Request" /></a>
 15. Click on the Compare & Pull Request button. Optionally, you can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
   <a href="http://i.imgur.com/PEfej8w.png"><img class="tutorial-img" src="http://i.imgur.com/PEfej8w.png" title="Click Create Pull Request" /></a>
-16. The Odin moderator viewing the pull request can see a summary of all the lines you've changed before merging it into `TheOdinProject/curriculum:Master`.
+16. The Odin moderator viewing the pull request can see a summary of all the lines you've changed before merging it into `TheOdinProject/curriculum:Main`.
   <a href="http://i.imgur.com/XaRdf46.png"><img class="tutorial-img" src="http://i.imgur.com/XaRdf46.png" title="View changes to files" /></a>
 17. Success! Now all that is needed is for TheOdinProject to approve your submission. You've completed your first contribution to an open source project on GitHub. Although this was minor, the process for any contribution to a GitHub repository is the same as outlined here. So, when you have suggestions to improve the TheOdinProject's curriculum you can now create a pull request and help your fellow students. It's a team effort, go forth and help the open source community!
 
