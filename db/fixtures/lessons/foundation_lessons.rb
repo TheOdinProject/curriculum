@@ -180,7 +180,7 @@ def foundation_lessons
       is_project: false,
       url:'/foundations/javascript_basics/understanding_errors.md',
       identifier_uuid: '60cda1f9-a935-4337-b315-c11ff4834ae4'
-    }
+    },
     'Fundamentals Part 4' => {
       title: 'Fundamentals Part 4',
       description: 'Part 4 of our JS fundamentals course.',
