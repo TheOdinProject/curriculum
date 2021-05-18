@@ -29,7 +29,7 @@ We’ll learn more about the different error types later in the lesson. Error ty
 
 In this case, a `ReferenceError` is an error that is thrown when one attempts to reference a variable that is not currently declared within the scope where we attempted to reference the variable. The error message also explains this, by stating that `c is not defined`. Different kinds of errors can have different messages based on what is actually causing the `ReferenceError`. For example, another message you may run into that is also a `ReferenceError` is `ReferenceError: can't access lexical declaration 'X' before initialization`. As we can see, this points to a completely different reason than our original `ReferenceError` above. Understanding both the error type and the error message is crucial to comprehending why you are receiving the error.
 
-The next part of an error gives us the line of code, as well as the file in which you can find the error (in this case, our `script.js`). This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fifth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:5`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. 
+The next part of an error gives us the line of code, as well as the file in which you can find the error (in this case, our `script.js`). This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fifth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:5`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Additionally, sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. This may be shown as `at script.js:5:12`. 
 
 Another important part of an error is the stack trace. While the line number helps you locate the line in your code, the stack trace helps you understand when the error was thrown in your application, and what functions were called that lead up to running the lines of code responsible for the error. So for example, if we have the following code:
 
@@ -69,7 +69,7 @@ A syntax error occurs when the code you are trying to run is syntactically incor
 
 ```js
 function helloWorld() {
-console.log “Hello World!”
+  console.log “Hello World!”
 }
 ```
 
@@ -102,7 +102,7 @@ const message = str1.push(str2);
 ```
 <img width="621" alt="Screen Shot 2021-05-17 at 12 14 12 PM" src="https://user-images.githubusercontent.com/22967723/118543650-6579c580-b709-11eb-981d-4bdb74966ba4.png">
 
-Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended!
+Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the type you are trying to run a method or operation against. You'll likely find that it is not what you intend, or the operation or method is not compatible with that type.
 
 [MDN | TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
@@ -110,9 +110,11 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 At this point, you might be wondering how we can resolve these errors.
 
-1. The first and most important step is to Google the error! Chances are, you can find a fix on StackOverflow or in the documentation. If anything, you will receive more clarity as to why you are receiving this error.
-2. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions.
-3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting. You can set breakpoints, view the value of any given variable at any point in your application’s execution, and step through code line by line. It is an extremely valuable tool and every programmer should know how to use it.
+1. Read the error *carefully* and try to understand it on your own.
+2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If anything, you will receive more clarity as to why you are receiving this error.
+3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger.](https://developer.chrome.com/docs/devtools/javascript/). 
+4. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
+
 
 # Errors VS. Warnings
 
@@ -121,7 +123,6 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 # Exercise:
 
 Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
-
 
 # Additional Resources:
 
