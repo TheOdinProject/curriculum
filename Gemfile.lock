@@ -99,9 +99,9 @@ GEM
     bindex (0.8.1)
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
-    bootstrap (5.0.1)
+    bootstrap (4.6.0)
       autoprefixer-rails (>= 9.1.0)
-      popper_js (>= 2.9.2, < 3)
+      popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
     cancancan (3.2.1)
@@ -320,7 +320,7 @@ GEM
     parser (3.0.1.1)
       ast (~> 2.4.1)
     pg (1.2.3)
-    popper_js (2.9.2)
+    popper_js (1.16.0)
     premailer (1.13.1)
       addressable
       css_parser (>= 1.6.0)
@@ -550,7 +550,7 @@ DEPENDENCIES
   acts_as_votable
   better_errors
   binding_of_caller (~> 1.0)
-  bootstrap (>= 4.4.1)
+  bootstrap (= 4.6.0)
   cancancan
   capybara
   climate_control
