@@ -10,7 +10,9 @@ Reading and understanding error messages is a requirement as a developer. At fir
 
 # The Anatomy of an Error
 
-Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. Let’s assume we have written the following code:
+Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. **Note**: For all examples in this lesson, you should run the code in the browser's console.
+
+Let’s assume we have written the following code:
 
 ```js
 const a = “Hello”
