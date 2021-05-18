@@ -13,11 +13,11 @@ RSpec.describe Lesson do
 
   describe '.most_recent_updated_at' do
     before do
-      Timecop.freeze(Time.utc(2021, 4, 14))
+      travel_to Time.utc(2021, 4, 14)
     end
 
     after do
-      Timecop.return
+      travel_back
     end
 
     it 'returns the most recently updated_at time stamp' do

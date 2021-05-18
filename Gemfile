@@ -60,7 +60,6 @@ group :development, :test, :docker do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
-  gem 'timecop'
   gem 'vcr', '~> 6.0'
   gem 'webmock', '~> 3.13'
 end

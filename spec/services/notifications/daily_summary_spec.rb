@@ -5,11 +5,11 @@ RSpec.describe Notifications::DailySummary do
 
   describe '#message' do
     before do
-      Timecop.freeze(Time.utc(2020, 4, 10))
+      travel_to Time.utc(2020, 4, 10)
     end
 
     after do
-      Timecop.return
+      travel_back
     end
 
     it 'returns the daily summary message' do
