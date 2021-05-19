@@ -24,7 +24,7 @@ RSpec.describe 'Starting Course from User Dashboard', type: :system do
     end
   end
 
-  context 'when user switches to start new path' do
+  context 'when user selected a new path' do
     let!(:rails_path) { create(:path, title: 'Rails') }
     let!(:ruby_course) { create(:course, title: 'Ruby', path: rails_path) }
     let!(:ruby_intro_section) { create(:section, course: ruby_course) }
@@ -33,7 +33,7 @@ RSpec.describe 'Starting Course from User Dashboard', type: :system do
     before do
       sign_in(user)
       visit paths_path
-      find(:test_id, 'rails-switch-path-btn').click
+      find(:test_id, 'rails-select-path-btn').click
       visit dashboard_path
     end
 
