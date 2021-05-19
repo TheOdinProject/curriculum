@@ -43,10 +43,6 @@ gem 'turbolinks'
 gem 'uglifier', '~> 4.2'
 gem 'webpacker'
 
-group :production do
-  gem 'rails_12factor', '~> 0.0.3'
-end
-
 group :development, :test, :docker do
   gem 'capybara'
   gem 'climate_control'
