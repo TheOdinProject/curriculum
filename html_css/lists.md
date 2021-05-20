@@ -17,4 +17,5 @@ Ordered and unordered lists are heavily used in most websites.  It's not just fo
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
+* [Another great explanation of lists in HTML](https://html.com/lists/)
 * *Add Some!*
