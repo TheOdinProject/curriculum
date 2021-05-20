@@ -308,5 +308,14 @@ def ruby_lessons
       url: '/ruby_programming/basic_ruby/nested_collections.md',
       identifier_uuid: 'c871bb2d-c159-4fc8-93b4-3ee9a6c1818d',
     },
+    'Custom Enumerables' => {
+      title: 'Custom Enumerables',
+      description: "In this project, you'll recreate the magic behind many Enumerable methods",
+      is_project: true,
+      url: '/ruby_programming/advanced_ruby/project_enumerable.md',
+      accepts_submission: true,
+      has_live_preview: false,
+      identifier_uuid: 'cea1b51e-b97e-11eb-8529-0242ac130003',
+    },
   }
 end

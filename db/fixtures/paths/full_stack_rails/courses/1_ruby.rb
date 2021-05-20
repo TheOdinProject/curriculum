@@ -102,6 +102,7 @@ course.add_section do |section|
   section.add_lessons(
     ruby_lessons.fetch('Blocks'),
     ruby_lessons.fetch('Pattern Matching'),
+    ruby_lessons.fetch('Custom Enumerables'),
   )
 end
 
