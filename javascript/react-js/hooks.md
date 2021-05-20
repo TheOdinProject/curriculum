@@ -149,7 +149,8 @@ If you write a return statement like the above in a useEffect, it will do the sa
 
 <div class="lesson-content__panel" markdown="1">
 1. The React documentation provides a whole section on hooks. Read through all steps [here](https://reactjs.org/docs/hooks-intro.html). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
-2. Now go back to your CV Project and rewrite it using functional components and hooks.
+2. Now go back to your CV Project and rewrite it using functional components and hooks.  As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation) to work on a new feature.
+
 </div>
 
 ### Additional Resources
