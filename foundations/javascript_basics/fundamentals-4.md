@@ -24,7 +24,7 @@ We will teach you the art of actually writing these tests later in the course.  
 
 ### Good Luck!
 
-Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jasmine.  Solutions for the exercises can be found on the 'solutions' branch of that repo. 
+Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jest.  Solutions for the exercises can be found on the 'solutions' branch of that repo. 
 
 Complete the following exercises:
 
