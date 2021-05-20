@@ -14,12 +14,12 @@ Errors contain crucial information that can assist you in locating the code resp
 
 Let’s assume we have written the following code:
 
-```js
+~~~js
 const a = “Hello”
 const b = “World”
 
 console.log(c)
-```
+~~~
 
 This code will run, but it will throw an error. The first part of an error displays the type of error. In this example, we have a `ReferenceError`.
 <img width="615" alt="Screen Shot 2021-05-17 at 12 16 37 PM" src="https://user-images.githubusercontent.com/22967723/118543890-c1dce500-b709-11eb-94f3-bbd6757d4e31.png">
@@ -33,7 +33,7 @@ The next part of an error gives us the line of code, as well as the file in whic
 
 Another important part of an error is the stack trace. While the line number helps you locate the line in your code, the stack trace helps you understand when the error was thrown in your application, and what functions were called that lead up to running the lines of code responsible for the error. So for example, if we have the following code:
 
-```js
+~~~js
 const a = 5;
 const b = 10;
 
@@ -46,7 +46,7 @@ function print() {
 }
 
 print();
-```
+~~~
 
 Our function `print()` should call on `add()`, which returns a variable named `c`, which currently has not been declared. The corresponding error is as follows:
 
@@ -67,11 +67,11 @@ These are some of the most common errors you will encounter, so it’s important
 
 A syntax error occurs when the code you are trying to run is syntactically incorrect. For example this:
 
-```js
+~~~js
 function helloWorld() {
   console.log “Hello World!”
 }
-```
+~~~
 
 will throw the following error, because we forgot the parenthesis for `console.log()`!
 <img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://user-images.githubusercontent.com/22967723/118543788-9823be00-b709-11eb-8f2a-3e4f64cee880.png">
@@ -81,7 +81,7 @@ will throw the following error, because we forgot the parenthesis for `console.l
 
 We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist.
 
-[MDN | ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+[MDN - ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
 ## Type Error
 
@@ -95,16 +95,16 @@ Per MDN, a `TypeError` may be thrown when:
 
 Say we have two strings that you would like to combine to create one message such as below:
 
-```js
+~~~js
 const str1 = "Hello";
 const str2 = "World!";
 const message = str1.push(str2);
-```
+~~~
 <img width="621" alt="Screen Shot 2021-05-17 at 12 14 12 PM" src="https://user-images.githubusercontent.com/22967723/118543650-6579c580-b709-11eb-981d-4bdb74966ba4.png">
 
 Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the type you are trying to run a method or operation against. You'll likely find that it is not what you intend, or the operation or method is not compatible with that type.
 
-[MDN | TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+[MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
 # Tips for Resolving Errors
 
