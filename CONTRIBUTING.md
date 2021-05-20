@@ -1,7 +1,7 @@
 # Contributing Guide
 
 ## How to Contribute
-1. Find a [issue tagged with "help wanted"](https://github.com/TheOdinProject/theodinproject/labels/Help%20Wanted) to work on. Please comment on the issue to let others know you are working on it.
+1. Find a [issue tagged with "help wanted"](https://github.com/TheOdinProject/theodinproject/labels/Help%20Wanted) to work on. Depending on the issue, you can choose to work on one or more acceptance criteria. Please comment on the issue stating what you'd like to work on and wait to be assigned before working on it. If you would like to propose a change that is not covered in an open issue, you can create a new issue. **If the change is fairly small, such as fixing a typo or updating a link, you can submit a PR to propose the change.**
 
 2. Fork this repo on your local machine.
 
@@ -28,10 +28,9 @@
 	$ git checkout -b fix/fixed-bug-name
 	```
 
-4. When you have finished and are ready to submit a Pull request:
+4. When you have finished, ensure your markdown is correctly formatted and rendering properly using our [markdown preview](https://www.theodinproject.com/lessons/preview) tool.
 
-**Before you submit your pull request ensure your markdown is correctly formated and rendering properly**
-
+5. If the markdown if correctly formatted, you are ready to submit a pull request:
 **Push your branch to your fork**
 ```
 $ git push origin <your branch name here>
@@ -39,7 +38,7 @@ $ git push origin <your branch name here>
 **Create a pull request**
 * Go to your fork on Github after you have pushed up your branch. A new button should be visible near the top of the page. It will allow you to create a pull request to the original Odin Project Repo.
 
-* Please Link to the issue your pull request resolves in the body of your pull request.
+* If the PR is related to an existing issue, link it in the body of your pull request, such as "resolves #1234".
 
 ## Need Help with Anything Here?
-Please let us know if you require any help doing any of the steps in this guide in our [Contributing room in Discord](https://discordapp.com/channels/505093832157691914/540903304046182425)
+Please let us know if you require any help doing any of the steps in this guide in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425)
