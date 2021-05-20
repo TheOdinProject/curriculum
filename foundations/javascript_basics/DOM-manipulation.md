@@ -218,7 +218,7 @@ Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your 
 
 Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!
 
-Add the following elements to the container using ONLY javascript - do not add any HTML or CSS code.
+Add the following elements to the container using ONLY javascript and the DOM methods shown above.
 
 1. a `<p>` with red text that says "Hey I'm red!"
 2. an `<h3>` with blue text that says  "I'm a blue h3!"
