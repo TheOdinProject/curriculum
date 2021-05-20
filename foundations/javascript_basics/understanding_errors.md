@@ -1,14 +1,14 @@
-# Introduction
+### Introduction
 
 Reading and understanding error messages is a requirement as a developer. At first glance, many beginners shrink away from error messages as they appear to be “scary” and difficult to understand because they include terms one may not be familiar with. However, error messages provide developers with a treasure trove of knowledge, and tell you everything you need to know about how to resolve them! Being able to parse error messages and warnings without fear will enable you to be able to effectively debug your applications, receive meaningful help from others, and empower yourself to push forward when faced with an error.
 
-# Learning Outcomes
+### Learning Outcomes
 
 - Name at least three kinds of Javascript errors
 - Identify two parts of an error message that help you find where the error originates
 - Be able to understand how to research and resolve errors
 
-# The Anatomy of an Error
+### The Anatomy of an Error
 
 Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. **Note**: For all examples in this lesson, you should run the code in the browser's console.
 
@@ -59,11 +59,11 @@ The stack trace tells us that:
 3. `print()` itself was called on line 12.
    The stack trace allows you to follow the execution of functions to find the code responsible for throwing the error .
 
-# Common Types of Errors
+### Common Types of Errors
 
 These are some of the most common errors you will encounter, so it’s important to understand them.
 
-## Syntax Error
+#### Syntax Error
 
 A syntax error occurs when the code you are trying to run is syntactically incorrect. For example this:
 
@@ -77,13 +77,13 @@ will throw the following error, because we forgot the parenthesis for `console.l
 <img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://user-images.githubusercontent.com/22967723/118543788-9823be00-b709-11eb-8f2a-3e4f64cee880.png">
 [MDN | SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 
-## Reference Error
+#### Reference Error
 
 We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist.
 
 [MDN | ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
-## Type Error
+#### Type Error
 
 These errors are thrown for a few different reasons:
 
@@ -106,7 +106,7 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 [MDN | TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
-# Tips for Resolving Errors
+### Tips for Resolving Errors
 
 At this point, you might be wondering how we can resolve these errors.
 
@@ -116,19 +116,19 @@ At this point, you might be wondering how we can resolve these errors.
 4. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 
-# Errors VS. Warnings
+### Errors VS. Warnings
 
 Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address and resolve these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. While these colors are not a rule, frequently there will be a visual differentiation between the two regardless of the platform you are encountering them on.
 
-# Exercise:
+### Exercise:
 
 Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
-# Additional Resources:
+### Additional Resources:
 
 [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
-# Knowledge Check:
+### Knowledge Check:
 
 - What are three reasons why you may see a TypeError?
 - What is the key difference between an error and a warning?
