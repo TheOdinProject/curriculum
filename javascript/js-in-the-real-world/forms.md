@@ -8,7 +8,7 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 
 ### Warmup
 
-Go back to your 'Library' project and add simple validation to that form!  Don't let your users submit without filling in all the fields!
+Go back to your 'Library' project and add simple validation to that form!  Don't let your users submit without filling in all the fields! Don't let your users submit without filling in all the fields! Don't forget to use your git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation) to make a new branch, work on your feature and merge it back to main when it's all done.
 
 ### Project
 
