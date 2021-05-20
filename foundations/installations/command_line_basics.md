@@ -90,82 +90,16 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, are detailed enough to get started and light your inner curiosity.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-<details>
-<summary>What is the command line?</summary>
-<ul><ul>
-  <li>The command line is a way to interact with the computer using specific words called "commands".</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you open the command line on your computer?</summary>
-<ul><ul>
-  <li>On Linux: Open the programs menu and search for "Terminal". You can also open the terminal by pressing <code>CTRL</code> + <code>ALT</code> + <code>T</code>.</li>
-  <li>On Mac: Open your applications folder and find "Terminal".</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How can you navigate to a particular directory?</summary>
-<ul><ul>
-  <li>You can use the <code>cd</code> command to change directories.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Where will <code>cd</code> on its own navigate you to?</summary>
-<ul><ul>
-  <li>On Linux and Mac, it will navigate you home.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Where will <code>cd ..</code> navigate you to?</summary>
-<ul><ul>
-  <li>It will navigate you "up" one folder, that is, into the parent of the current directory.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you display the name of the directory you are currently in?</summary>
-<ul><ul>
-  <li>On Linux and Mac, use the <code>pwd</code> (print working directory) command.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you display the contents of the directory you are currently in?</summary>
-<ul><ul>
-  <li>On Linux and Mac, use the <code>ls</code> command. Use <code>ls -l</code> to display the files in a list.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you create a new directory?</summary>
-<ul><ul>
-  <li>You can do this using the <code>mkdir</code> command.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you create a new file?</summary>
-<ul><ul>
-  <li>On Linux and Mac, use the <code>touch</code> command, e.g., <code>touch new-file.txt</code>.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you destroy a directory or file?</summary>
-<ul><ul>
-  <li>On Linux and Mac, use the <code>rm</code> command. To destroy folders, use <code>rm -r</code> or <code>rmdir</code>.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>How do you rename a directory or file?</summary>
-<ul><ul>
-  <li>On Linux and Mac, use the <code>mv</code> command, e.g., <code>mv folder/old-file.txt folder/new-file.txt</code>.</li>
-</ul></ul>
-</details>
+* What is the command line?
+* How do you open the command line on your computer?
+* How can you navigate to a particular directory?
+* Where will <code>cd</code> on its own navigate you to?
+* Where will <code>cd ..</code> navigate you to?
+* How do you display the name of the directory you are currently in?
+* How do you display the contents of the directory you are currently in?
+* How do you create a new directory?
+* How do you create a new file?
+* How do you destroy a directory or file?
+* How do you rename a directory or file?
