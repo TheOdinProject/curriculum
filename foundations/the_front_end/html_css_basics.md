@@ -48,3 +48,22 @@ This section contains helpful links to other content. It isn't required, so cons
     * The [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and the [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) from CSS Tricks are both excellent references.
     * These [CSS FlexBox](https://youtu.be/FTlczfR82mQ) and [CSS Grid](https://youtu.be/EFafSYg-PkI) videos by [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) might be helpful for you as well!
     * Hop on over to [Flexbox Froggy](https://flexboxfroggy.com/) or dig into [Grid Garden](https://cssgridgarden.com/) to learn some concepts with a fun game!
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What is the difference between HTML and CSS?
+* For accessibility in HTML, what is the attribute used to describe an image (on screen readers or if it fails to load)?
+* What is the difference between CSS Grid and Flexbox?
+* For a responsive website, should it be designed mobile-first or desktop-first?
+* Describe the components of the CSS Box Model.
+* In CSS, what is a breakpoint?
+* What is a div and how are they used?
+* What are the two main groups of CSS properties that control typography style?
+* What is the “query string” in a URL and what does it do?
+* What is the difference between “pixels” and “em”?
+* How does inheritance work for CSS styles, i.e. how does an element get its “default” styles?
+* What are two CSS attributes you can change to push an element around on the page?
+* What are the three different ways to include a CSS stylesheet in your project or use CSS to style a particular element?
+* What is the “default stylesheet” or “user agent stylesheet”?
+* What is the purpose of a CSS reset file?
