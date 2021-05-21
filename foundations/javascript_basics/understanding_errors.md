@@ -15,8 +15,8 @@ Errors contain crucial information that can assist you in locating the code resp
 Let’s assume we have written the following code:
 
 ~~~js
-const a = “Hello”
-const b = “World”
+const a = "Hello"
+const b = "World"
 
 console.log(c)
 ~~~
@@ -69,7 +69,7 @@ A syntax error occurs when the code you are trying to run is syntactically incor
 
 ~~~js
 function helloWorld() {
-  console.log “Hello World!”
+  console.log "Hello World!"
 }
 ~~~
 
