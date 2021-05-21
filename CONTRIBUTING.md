@@ -4,7 +4,7 @@ Thank you for expressing interest in contributing to our curriculum!
 
 If you would like to contribute, but are not sure how, find an [issue tagged with "help wanted"](https://github.com/TheOdinProject/theodinproject/labels/Help%20Wanted) to work on.
 * Please comment on the issue stating what you'd like to work on and wait to be assigned before working on it. 
-* Depending on the issue, you can choose to work on one or more acceptance criteria. 
+* After being assigned, address each item listed in the acceptance criteria. 
 
 If you would like to propose a small change (fixing a typo, updating a link, etc.) that is not part of an existing issue, you are welcome to make the change and submit a PR.
 
