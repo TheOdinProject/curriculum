@@ -31,7 +31,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Test Yourself
 
 <div class="lesson-content__panel" markdown="1">
-  1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion.
+  1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion. Please note that recursion is a difficult concept to grasp, and you are not expected to recall any techniques from memory at this point. This quiz may take you some time to complete.
 </div>
 
 ### Additional Resources
