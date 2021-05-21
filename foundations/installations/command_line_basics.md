@@ -95,8 +95,8 @@ This section contains questions for you to check your understanding of this less
 * What is the command line?
 * How do you open the command line on your computer?
 * How can you navigate to a particular directory?
-* Where will <code>cd</code> on its own navigate you to?
-* Where will <code>cd ..</code> navigate you to?
+* Where will `cd` on its own navigate you to?
+* Where will `cd ..` navigate you to?
 * How do you display the name of the directory you are currently in?
 * How do you display the contents of the directory you are currently in?
 * How do you create a new directory?
