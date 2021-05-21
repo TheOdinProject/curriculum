@@ -72,5 +72,5 @@ This section contains questions for you to check your understanding of this less
 * What is the Git command used to view your commit history?
 * What is the Git command used to upload projects onto GitHub?
 * Explain the two-stage system that Git uses to save files.
-* Explain what <code>origin</code> is in <code>git push origin main</code>.
-* Explain what <code>main</code> is in <code>git push origin main</code>.
+* Explain what `origin` is in `git push origin main`.
+* Explain what `main` is in `git push origin main`.
