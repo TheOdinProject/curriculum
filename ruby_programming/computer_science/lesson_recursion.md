@@ -32,7 +32,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Test Yourself
 
 <div class="lesson-content__panel" markdown="1">
-  1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion.
+  1. Solve each of the questions from this [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion. You are not expected to answer them from memory at this point.
 </div>
 
 ### Additional Resources
