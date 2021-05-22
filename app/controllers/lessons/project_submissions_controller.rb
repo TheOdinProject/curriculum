@@ -25,7 +25,7 @@ module Lessons
 
       redirect_to(
         path_course_lesson_url(@lesson.course.path, @lesson.course, @lesson),
-        alert: 'That project does not accept submissions'
+        alert: 'This project does not accept submissions'
       )
     end
   end

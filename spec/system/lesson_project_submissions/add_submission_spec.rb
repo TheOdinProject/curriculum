@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Add a Project Submission', type: :system do
-  let(:lesson) { create(:lesson, is_project: true, accepts_submission: true, has_live_preview: true) }
+  let(:lesson) { create(:lesson, :project) }
 
   context 'when a user is signed in' do
     let(:user) { create(:user) }
