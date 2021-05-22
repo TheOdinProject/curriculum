@@ -522,7 +522,7 @@ in { a: 'ant' } => hash
   p hash
 end
 
-#=> { :a => 'apple', :b => 'ball' }
+#=> { :a => 'ant', :b => 'ball' }
 ~~~
 
 ### Ruby 3 patterns

@@ -137,7 +137,7 @@ If the question needs to have live code to fully understand or debug, ask them u
 #### 8. Do not answer googleable questions
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community. 
 
-Instead of answering these questions, politely use our bot command `/fg` with the search terms.
+Instead of answering these questions, politely ask them to google their question or use our bot command `/fg` with the search terms.
 
 #### 9. Do not answer questions covered in our curriculum.
 If you know that the answer is provided in our curriculum, ask them where they are at in the curriculum.

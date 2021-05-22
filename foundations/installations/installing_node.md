@@ -8,7 +8,8 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 ### Installing nvm
 
-### Installation on Linux
+<details>
+  <summary><b>Installation on Linux</b></summary>
 
 #### Step 0: Prerequisites 
 To install nvm properly, you'll need `curl`. Simply run the command below:
@@ -44,8 +45,12 @@ command -v nvm
 
 if this returns `nvm: command not found` close the terminal and re-open it.
 
-### Installation on macOS
+</details>
 
+<details>
+  <summary><b>Installation on macOS</b></summary>
+  <br/>
+  
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
 
 To create the `.zshrc` file and start the nvm installation, run the following commands:
@@ -73,6 +78,8 @@ nvm --version.
 ~~~
 
 For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+
+</details>
 
 ### Installing Node
 

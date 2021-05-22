@@ -343,7 +343,7 @@ bundle exec rails db:migrate
 Next we need a controller to for our messages. We only need a create action since we aren't doing anything else with them
 
 ~~~bash
-bundle exec rails generate controller messages create
+bundle exec rails generate controller messages
 ~~~
 
 Then in your `routes.rb` create the resource
@@ -369,7 +369,7 @@ end
 Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just remove the form inside of the div with the `message-form` id
 
 ~~~html
-<%= form_with model: @message do |f| %>
+<%= form_with model: @message, local: false do |f| %>
   <div class="field has-addons">
     <div class="control">
       <%= f.text_field :body, id: 'message-input', class: 'input' %>
