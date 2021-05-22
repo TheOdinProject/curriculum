@@ -62,76 +62,15 @@ This section contains helpful links to other content. It isn't required, so cons
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-<details>
-<summary>What is the Git command used to get a full copy of an existing Git repository from GitHub?</summary>
-<ul><ul>
-  <li>Use <code>git clone git@github.com:&lt;your-github-username&gt;/&lt;your-respository-name&gt;</code> to clone a GitHub repository onto your local machine.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What is the Git command used to check the status of your files?</summary>
-<ul><ul>
-  <li>Use <code>git status</code> to see any changes made since your last commit.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What is the Git command used to track files with Git?</summary>
-<ul><ul>
-  <li>Use <code>git add</code> to track files.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What is the Git command used to remove tracked files with Git?</summary>
-<ul><ul>
-  <li>Use <code>git reset</code> to remove track files.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What is the Git command used to commit files?</summary>
-<ul><ul>
-  <li>Use <code>git commit</code> to commit tracked files.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What is the Git command used to view your commit history?</summary>
-<ul><ul>
-  <li>Use <code>git log</code> to view your commit history.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What is the Git command used to upload projects onto GitHub?</summary>
-<ul><ul>
-  <li>Use <code>git push</code> to send your commit to GitHub.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Explain the two-stage system that Git uses to save files.</summary>
-<ul><ul>
-  <li>A <strong>save</strong> in Git is divided into two terminal commands: <code>add</code> and <code>commit</code>. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.</li>
-  <li><strong>Staging:</strong> Think of <code>add</code> as adjusting the number of people or elements to be included in a photo. With Git, you can select the changes you want to save with <code>git add</code>. Imagine a project that contains multiple files where changes have been made to several files. You want to save some of the changes you have made and leave some other changes to continue working on them.</li>
-  <li><strong>Committing:</strong> Think of <code>commit</code> as actually taking a photo, resulting in a snapshot. For example, to commit a file named README.md, type <code>git commit -m "Add README.md"</code>. The <code>-m</code> flag stands for "message" and must always be followed by a commit message inside quotation marks. In this example, the commit message was <code>"Add README.md"</code>.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Explain what <code>origin</code> is in <code>git push origin main</code>.</summary>
-<ul><ul>
-  <li>In Git, <code>origin</code> is a placeholder name for the URL of the remote repository. Git sets up the origin by default when it clones a remote repository. You can use <code>origin</code> to access the remote repository without having to enter a full URL every time. This also means that you can have multiple remotes for a repository by giving each a unique name.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Explain what <code>main</code> is in <code>git push origin main</code>.</summary>
-<ul><ul>
-  <li>In Git, <code>main</code> is the branch of the remote repository you want to push your changes to. We will get more into branches in a later lesson, but the main thing to remember is that <code>main</code> is the official branch in your projects where production-ready code lives.</li>
-</ul></ul>
-</details>
+* What is the Git command used to get a full copy of an existing Git repository from GitHub?
+* What is the Git command used to check the status of your files?
+* What is the Git command used to track files with Git?
+* What is the Git command used to remove tracked files with Git?
+* What is the Git command used to commit files?
+* What is the Git command used to view your commit history?
+* What is the Git command used to upload projects onto GitHub?
+* Explain the two-stage system that Git uses to save files.
+* Explain what `origin` is in `git push origin main`.
+* Explain what `main` is in `git push origin main`.
