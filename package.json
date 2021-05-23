@@ -34,6 +34,7 @@
     "regenerator-runtime": "^0.13.7",
     "stickyfilljs": "^2.1.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "stimulus": "^2.0.0",
     "toaster": "^0.1.2",
     "turbolinks": "^5.2.0",
     "validate.js": "^0.13.1",

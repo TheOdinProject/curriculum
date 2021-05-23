@@ -32,6 +32,8 @@ import '../src/js/admin_flash';
 import '../src/js/odinDropDownMenu';
 import '../src/js/scrollspy.min';
 
+import 'controllers';
+
 require('@rails/ujs').start();
 require('turbolinks').start();
 
