@@ -334,7 +334,7 @@ GEM
       method_source (~> 1.0)
     psych (3.3.1)
     public_suffix (4.0.6)
-    puma (5.3.1)
+    puma (5.3.2)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
