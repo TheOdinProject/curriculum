@@ -17,7 +17,7 @@
     "core-js": "^3.12.1",
     "hint.css": "^2.6.0",
     "jquery": "^3.6.0",
-    "js-base64": "^3.6.0",
+    "js-base64": "^3.6.1",
     "popper.js": "^1.16.1",
     "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
