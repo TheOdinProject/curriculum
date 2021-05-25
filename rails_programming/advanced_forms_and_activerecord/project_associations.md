@@ -26,7 +26,10 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 1. Model the data for your application, including the necessary tables.
 2. Create a new Rails application and Git repo called `private-events`.
 3. Update your README to be descriptive and link to this project.
-4. We will be using Devise for authentication in this project, complete the steps in their [Getting Started guide](https://github.com/heartcombo/devise#getting-started) up to and including the part where you have to run `rails db:migrate` 
+4. We will be using Devise for authentication in this project, complete the steps in their [Getting Started guide](https://github.com/heartcombo/devise#getting-started) up to and including the part where you have to run `rails db:migrate`
+5. Create a `Users` controller with a `show` action. Display the users email within a `<h1>` tag in the show view.
+6. When the user signs in, it should redirect them to their show page. Check out [devises guide](https://github.com/heartcombo/devise/wiki/How-To:-Redirect-to-a-specific-page-on-successful-sign-in-out) on how to do this. 
+
 
 #### Basic Events
 
