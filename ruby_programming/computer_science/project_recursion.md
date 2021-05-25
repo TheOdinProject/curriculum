@@ -5,7 +5,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 ### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Write a method `#fibs` which takes a number and returns that many members of the fibonacci sequence.  Use iteration for this solution.
+  1. Using iteration, write a method `#fibs` which takes a number and returns an array containing that many numbers from the fibonacci sequence.
   2. Now write another method `#fibs_rec` which solves the same problem recursively.  This can be done in just 3 lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
 </div>
 
