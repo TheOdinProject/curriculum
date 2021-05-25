@@ -4,5 +4,7 @@ FactoryBot.define do
     type { '' }
     params { '' }
     read_at { Time.zone.now }
+    url { '' }
+    message { '' }
   end
 end

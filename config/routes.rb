@@ -77,6 +77,8 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :notifications, only: %i[index update]
+
   match '/404' => 'errors#not_found', via: %i[get post patch delete]
 
   # Explicitly redirect deprecated routes (301)
