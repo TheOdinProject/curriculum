@@ -26,9 +26,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 1. Model the data for your application, including the necessary tables.
 2. Create a new Rails application and Git repo called `private-events`.
 3. Update your README to be descriptive and link to this project.
-4. Build and migrate your User model. Don't worry about validations.
-5. Create a simple Users controller and corresponding routes for `#new`, `#create`, and `#show` actions. You'll need to make a form where you can sign up a new user and a simple `#show` page. You should be getting better and faster at this type of vanilla controller/form/view building.
-6. Create a simple sign in function that doesn't require a password -- just enter the ID or name of the user you'd like to "sign in" as and click Okay. You can then save the ID of the "signed in" user in either the `session` hash or the `cookies` hash and retrieve it when necessary. It may be helpful to always display the name of the "signed in" user at the top.
+4. We will be using Devise for authentication in this project, complete the steps in their [Getting Started guide](https://github.com/heartcombo/devise#getting-started) up to and including the part where you have to run `rails db:migrate` 
 
 #### Basic Events
 
