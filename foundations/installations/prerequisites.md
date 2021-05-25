@@ -200,8 +200,6 @@ Once you have successfully met both of these requirements, you should be able to
 
 **Note for CloudReady users**
 
-Chrome OS/CloudReady users will need to install Git from source by following the instructions at this [Digital Ocean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source).
-
 Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
 
 </details>
