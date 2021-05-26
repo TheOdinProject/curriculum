@@ -220,7 +220,7 @@ class App extends Component {
       task: {
         text: '',
         id: uniqid()
-      }
+      },
       tasks: [],
     };
   }
