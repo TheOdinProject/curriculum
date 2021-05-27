@@ -133,7 +133,7 @@ app.post("/sign-up", (req, res, next) => {
   }).save(err => {
     if (err) { 
       return next(err);
-    };
+    }
     res.redirect("/");
   });
 });
