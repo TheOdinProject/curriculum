@@ -14,5 +14,5 @@ This application should also have at least two routes to give you a chance to ma
 6. Build individual card items for each of your products. Display an input field on it, which lets a user manually type in how many items they want to buy. Also, add an increment and decrement button next to it for fine-tuning. You can also display a title for each product as well as an "Add To Cart" button.
 7. Once a user has submitted their order, the amount on the cart itself should adjust.
 8. As usual, style your application so you can show it off!
-9. Lastly, push the project to GitHub!
+9. Lastly, push the project to GitHub! <a href="https://create-react-app.dev/docs/deployment/#github-pages">Follow this link for instructions on deploying router based react pages on GitHub.</a>.
 </div>
