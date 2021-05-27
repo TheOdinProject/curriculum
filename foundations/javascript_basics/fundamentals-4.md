@@ -29,9 +29,9 @@ Check out our exercises repository [here](https://github.com/TheOdinProject/java
 Complete the following exercises:
 
 - helloWorld
+- tempConversion
+- leapYears
+- sumAll
 - repeatString
 - reverseString
 - removeFromArray
-- sumAll
-- leapYears
-- tempConversion
