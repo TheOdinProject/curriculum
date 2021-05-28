@@ -36,3 +36,7 @@ Higher-order [components](https://reactjs.org/docs/higher-order-components.html)
 #### 6. More Hooks 
 
 There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your [own](https://reactjs.org/docs/hooks-custom.html).
+
+#### 7. Thinking in React
+
+Last but not least, An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a react based apllication.
