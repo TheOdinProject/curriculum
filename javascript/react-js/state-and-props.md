@@ -234,7 +234,7 @@ For the state in functional components, it is a little bit different. Before the
 
 ### Thinking in React
 
-An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a react based apllication.
+An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based apllication.
 
 ### Assignment
 
