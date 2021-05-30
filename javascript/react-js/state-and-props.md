@@ -232,10 +232,6 @@ For the state in functional components, it is a little bit different. Before the
 - How to handle state and props in a class component
 - Understanding setState()
 
-### Thinking in React
-
-An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based apllication.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -246,3 +242,4 @@ An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team 
 ### Additional Resources
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
+- An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based apllication.
