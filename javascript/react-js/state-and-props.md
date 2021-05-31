@@ -55,7 +55,7 @@ class App extends Component {
 export default App;
 ~~~
 
-Let's take a look at what is happening here. Above, there are two components, `MyComponent` and `App`. As you can see, `MyComponent` is a child component of `App`, which passes down a property called `title`. In this specific example, the title is set to "React". In `MyComponent`, we can access the title (React) that has been passed down with the syntax `this.props.title`. The curly brackets around it are always needed when you write JavaScript in React.
+Let's take a look at what is happening here. Above, there are two components, `MyComponent` and `App`. As you can see, `MyComponent` is a child component of `App`, which passes down a property called `title`. In this specific example, the title is set to "React". In `MyComponent`, we can access the title (React) that has been passed down with the syntax `this.props.title`. The curly brackets around it are always needed when you write JavaScript in JSX.
 _IMPORTANT_: Make sure you pass `props` to the constructor of the child component (MyComponent) as well as the `super()` method, otherwise you will not be able to access `this.props.title` in `MyComponent`.
 
 Now you might be wondering how props work with functions. Believe it or not, they work the same way!
