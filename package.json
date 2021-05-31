@@ -16,7 +16,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.6.0",
     "browserslist": "^4.16.6",
-    "core-js": "^3.12.1",
+    "core-js": "^3.13.1",
     "hint.css": "^2.6.0",
     "jquery": "^3.6.0",
     "js-base64": "^3.6.1",
