@@ -20,7 +20,6 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [Authentic Jobs](http://www.authenticjobs.com)
 * [StackOverflow Jobs](https://stackoverflow.com/jobs)
 * [CWJobs](http://cwjobs.co.uk)
-* [GitHub Jobs](https://jobs.github.com/)
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
 * [Dice.com](http://www.dice.com)
 * [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
