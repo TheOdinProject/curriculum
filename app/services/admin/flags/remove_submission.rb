@@ -1,14 +1,14 @@
 module Admin
   module Flags
     class RemoveSubmission
-      def initialize(admin, flag:)
+      def initialize(admin:, flag:)
         @admin = admin
         @flag = flag
         @success = false
       end
 
-      def self.call(*args)
-        new(*args).call
+      def self.call(**args)
+        new(**args).call
       end
 
       def call

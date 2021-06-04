@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Admin::Flags::RemoveSubmission do
-  subject(:service) { described_class.call(admin, flag: flag) }
+  subject(:service) { described_class.call(admin: admin, flag: flag) }
 
   let(:admin) { create(:user, admin: true) }
   let(:flag) { create(:flag) }
