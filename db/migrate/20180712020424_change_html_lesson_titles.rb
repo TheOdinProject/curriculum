@@ -20,7 +20,7 @@ class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
   end
 
   def change_section_titles(section_titles)
-    sections = section_titles.keys.map { |title| Section.find_by_title(title) }.compact
+    sections = section_titles.keys.filter_map { |title| Section.find_by_title(title) }.compact
 
     sections.each do |section|
       new_title = section_titles.fetch(section.title)
@@ -30,7 +30,7 @@ class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
   end
 
   def change_lesson_titles
-    lessons = lesson_titles.keys.map { |title| Lesson.find_by_title(title) }.compact
+    lessons = lesson_titles.keys.filter_map { |title| Lesson.find_by_title(title) }.compact
 
     lessons.each do |lesson|
       new_title = lesson_titles.fetch(lesson.title)
