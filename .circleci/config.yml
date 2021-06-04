@@ -4,7 +4,7 @@ version: 2.1
 executors:
   rails-executor:
     docker:
-      - image: circleci/ruby:2.6.6-stretch-node-browsers-legacy
+      - image: circleci/ruby:2.7.1-stretch-node-browsers-legacy
         environment:
           RAILS_ENV: test
           POSTGRES_USERNAME: postgres
