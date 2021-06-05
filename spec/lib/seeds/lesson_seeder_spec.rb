@@ -26,42 +26,42 @@ RSpec.describe Seeds::LessonSeeder do
     it 'creates a lesson with the given title' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.title).to eq('Ruby Lesson')
     end
 
     it 'creates a lesson with the given description' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.description).to eq('lesson description')
     end
 
     it 'creates a lesson with the given position' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.position).to eq(1)
     end
 
     it 'creates a lesson with a true is_project attribute' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.is_project).to be(true)
     end
 
     it 'creates a lesson with a true accepts_submission attribute' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.accepts_submission).to be(true)
     end
 
     it 'creates a lesson with a true has_live_preview attribute' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.has_live_preview).to be(true)
     end
 
@@ -78,21 +78,21 @@ RSpec.describe Seeds::LessonSeeder do
       it 'creates a lesson with a false is_project attribute' do
         lesson_seeder
 
-        lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+        lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
         expect(lesson.is_project).to be(false)
       end
 
       it 'creates a lesson with a false accepts_submission attribute' do
         lesson_seeder
 
-        lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+        lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
         expect(lesson.accepts_submission).to be(false)
       end
 
       it 'creates a lesson with a false has_live_preview attribute' do
         lesson_seeder
 
-        lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+        lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
         expect(lesson.has_live_preview).to be(false)
       end
     end
@@ -100,7 +100,7 @@ RSpec.describe Seeds::LessonSeeder do
     it 'creates a lesson with the given url' do
       lesson_seeder
 
-      lesson = Lesson.find_by_identifier_uuid('lesson_uuid')
+      lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
       expect(lesson.url).to eq('/github/lesson_path')
     end
 

@@ -1,4 +1,6 @@
-require: rubocop-performance
+require:
+  - rubocop-performance
+  - rubocop-rails
 
 AllCops:
   Include:
@@ -177,4 +179,7 @@ Performance/StringInclude:
   Enabled: true
 
 Style/FormatStringToken:
+  Enabled: false
+
+Rails/EnvironmentVariableAccess:
   Enabled: false

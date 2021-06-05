@@ -39,14 +39,15 @@ ActiveAdmin.register Flag do
             flag.project_submission.lesson.course,
             flag.project_submission.lesson
           ),
-          target: '_blank'
+          target: '_blank', rel: 'noopener'
         )
       end
       row :repo_url do
-        link_to flag.project_submission.repo_url, flag.project_submission.repo_url, target: '_blank'
+        link_to flag.project_submission.repo_url, flag.project_submission.repo_url, target: '_blank', rel: 'noopener'
       end
       row :live_preview_url do
-        link_to flag.project_submission.live_preview_url, flag.project_submission.live_preview_url, target: '_blank'
+        link_to flag.project_submission.live_preview_url, flag.project_submission.live_preview_url, target: '_blank',
+                                                                                                    rel: 'noopener'
       end
       row :status
       row :taken_action

@@ -18,7 +18,7 @@ class LessonCompletionsController < ApplicationController
   # rubocop: enable Metrics/AbcSize
 
   def destroy
-    lesson_completion = current_user.lesson_completions.find_by_lesson_id(lesson.id)
+    lesson_completion = current_user.lesson_completions.find_by(lesson_id: lesson.id)
 
     lesson_completion.destroy
     render :create

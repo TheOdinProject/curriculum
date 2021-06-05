@@ -6,6 +6,6 @@ module PathsHelper
         path_url(prerequisite),
         class: 'card-main__prerequisite-link'
       )
-    end.join(', ').html_safe
+    end.join(', ')
   end
 end

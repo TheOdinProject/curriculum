@@ -21,21 +21,21 @@ RSpec.describe Seeds::CourseSeeder do
     it 'create a course with the given title' do
       course_seeder
 
-      course = Course.find_by_identifier_uuid('course_uuid')
+      course = Course.find_by(identifier_uuid: 'course_uuid')
       expect(course.title).to eq('Foundations')
     end
 
     it 'create a course with the given description' do
       course_seeder
 
-      course = Course.find_by_identifier_uuid('course_uuid')
+      course = Course.find_by(identifier_uuid: 'course_uuid')
       expect(course.description).to eq('a foundation course')
     end
 
     it 'create a course with the given position' do
       course_seeder
 
-      course = Course.find_by_identifier_uuid('course_uuid')
+      course = Course.find_by(identifier_uuid: 'course_uuid')
       expect(course.position).to eq(1)
     end
 
@@ -51,7 +51,7 @@ RSpec.describe Seeds::CourseSeeder do
   end
 
   describe '#add_section' do
-    let(:course) { Course.find_by_identifier_uuid('course_uuid') }
+    let(:course) { Course.find_by(identifier_uuid: 'course_uuid') }
 
     it 'adds a section to the course' do
       course_seeder

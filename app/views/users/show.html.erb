@@ -10,7 +10,7 @@
       </div>
 
       <h2 class="profile-card__username" data-test-id="profile_username"><%= current_user.username %></h2>
-      <p class="profile-card__learning-goal" data-test-id='learning_goal'><%= display_dashboard_learning_goal(current_user) %></p>
+      <p class="profile-card__learning-goal" data-test-id='learning_goal'><%= display_dashboard_learning_goal(current_user).html_safe %></p>
     </div>
 
     <div class="skills">

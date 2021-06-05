@@ -1,41 +1,32 @@
 require 'rails_helper'
 
 RSpec.describe AdminFlash do
-  let(:admin_flashes) { [admin_flash, expired_admin_flash] }
-  let(:admin_flash) do
-    double('AdminFlash', id: 1, message: 'foo', expires: 1.days.from_now)
-  end
-
-  let(:expired_admin_flash) do
-    double('AdminFlash', id: 1, message: 'bar', expires: 1.days.ago)
-  end
-
-  let(:current_time) { '2016-10-21 12:52' }
-
   it { is_expected.to validate_presence_of(:message) }
   it { is_expected.to validate_presence_of(:expires) }
 
-  before do
-    allow(AdminFlash).to receive(:order)
-      .with('created_at desc')
-      .and_return(admin_flashes)
-
-    allow(Time).to receive(:now).and_return(current_time)
-
-    allow(admin_flashes).to receive(:where)
-      .with('expires >= ?', current_time)
-      .and_return([admin_flash])
-  end
-
   describe '.unexpired_messages' do
     it 'returns unexpired messages' do
-      expect(AdminFlash.unexpired_messages).to eql([admin_flash])
+      admin_flash_expires_tomorrow = create(:admin_flash, expires: 1.day.from_now)
+      admin_flash_expires_next_week = create(:admin_flash, expires: 1.week.from_now)
+      create(:admin_flash, expires: 1.hour.ago)
+
+      expect(AdminFlash.unexpired_messages).to contain_exactly(
+        admin_flash_expires_tomorrow, admin_flash_expires_next_week
+      )
     end
   end
 
   describe '.showable_messages' do
-    it 'returns array of messages that the user has not seen yet' do
-      expect(AdminFlash.showable_messages([2])).to eql([admin_flash])
+    it 'returns messages that the user has not seen yet' do
+      seen_unexpired_message = create(:admin_flash, expires: 1.week.from_now)
+      unseen_unexpired_message = create(:admin_flash, expires: 1.day.from_now)
+      create(:admin_flash, expires: 1.day.ago)
+
+      disabled_flash_ids = [seen_unexpired_message.id]
+
+      expect(AdminFlash.showable_messages(disabled_flash_ids)).to contain_exactly(
+        unseen_unexpired_message
+      )
     end
   end
 end

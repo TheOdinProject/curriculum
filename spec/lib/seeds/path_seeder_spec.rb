@@ -20,28 +20,28 @@ RSpec.describe Seeds::PathSeeder do
     it 'creates a path with the given title' do
       path_seeder
 
-      path = Path.find_by_identifier_uuid('path_uuid')
+      path = Path.find_by(identifier_uuid: 'path_uuid')
       expect(path.title).to eq('Foundations')
     end
 
     it 'creates a path with the given description' do
       path_seeder
 
-      path = Path.find_by_identifier_uuid('path_uuid')
+      path = Path.find_by(identifier_uuid: 'path_uuid')
       expect(path.description).to eq('a foundation path')
     end
 
     it 'creates a path with the given position' do
       path_seeder
 
-      path = Path.find_by_identifier_uuid('path_uuid')
+      path = Path.find_by(identifier_uuid: 'path_uuid')
       expect(path.position).to eq(1)
     end
 
     it 'creates a path with the given default path attribute' do
       path_seeder
 
-      path = Path.find_by_identifier_uuid('path_uuid')
+      path = Path.find_by(identifier_uuid: 'path_uuid')
       expect(path.default_path).to be(true)
     end
 
@@ -57,7 +57,7 @@ RSpec.describe Seeds::PathSeeder do
   end
 
   describe '#add_course' do
-    let(:path) { Path.find_by_identifier_uuid('path_uuid') }
+    let(:path) { Path.find_by(identifier_uuid: 'path_uuid') }
 
     it 'adds a course to the path' do
       path_seeder

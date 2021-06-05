@@ -1,4 +1,4 @@
-class Api::PointsController < ActionController::Base
+class Api::PointsController < ApplicationController
   before_action :authenticate, except: %i[index show]
 
   def index

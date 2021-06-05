@@ -14,28 +14,28 @@ class ChangeHtmlLessonTitles < ActiveRecord::Migration[5.0][5.0]
   private
 
   def change_course_title(old_title, new_title)
-    course = Course.find_by_title(old_title)
+    course = Course.find_by(title: old_title)
 
-    update_attributes(title: new_title) if course
+    update(title: new_title) if course
   end
 
   def change_section_titles(section_titles)
-    sections = section_titles.keys.filter_map { |title| Section.find_by_title(title) }.compact
+    sections = section_titles.keys.filter_map { |title| Section.find_by(title: title) }.compact
 
     sections.each do |section|
       new_title = section_titles.fetch(section.title)
 
-      section.update_attributes(title: new_title)
+      section.update(title: new_title)
     end
   end
 
   def change_lesson_titles
-    lessons = lesson_titles.keys.filter_map { |title| Lesson.find_by_title(title) }.compact
+    lessons = lesson_titles.keys.filter_map { |title| Lesson.find_by(title: title) }.compact
 
     lessons.each do |lesson|
       new_title = lesson_titles.fetch(lesson.title)
 
-      lesson.update_attributes(title: new_title)
+      lesson.update(title: new_title)
     end
   end
 

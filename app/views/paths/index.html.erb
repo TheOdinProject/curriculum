@@ -21,7 +21,7 @@
           <div class="card-main__description">
             <% if path.prerequisites.any? %>
               <p class="card-main__prerequisites">
-                <strong>Prerequisites: <%= prerequisites_list_for(path) %></strong>
+                <strong>Prerequisites: <%= prerequisites_list_for(path).html_safe %></strong>
               </p>
             <% end %>
             <p><%= path.description%></p>
@@ -50,7 +50,7 @@
             <div class="card-main__description">
               <% if path.prerequisites.any? %>
                 <p class="card-secondary__prerequisites">
-                  <strong>Prerequisites: <%= prerequisites_list_for(path) %></strong>
+                  <strong>Prerequisites: <%= prerequisites_list_for(path).html_safe %></strong>
                 </p>
               <% end %>
               <p>This path is intended to be taken after you have completed the Foundations course. <%= path.description%></p>

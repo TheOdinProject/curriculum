@@ -3,7 +3,7 @@
     <div class="section-lessons__item">
 
       <%= link_to path_course_lesson_url(course.path, course, lesson), class: 'section-lessons__item__link' do %>
-        <%= numbered_lesson_title(lesson, lesson_index) %>
+        <%= numbered_lesson_title(lesson, lesson_index).html_safe %>
       <% end %>
 
       <% if user_signed_in? %>

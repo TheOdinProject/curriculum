@@ -16,9 +16,9 @@ module OmniauthProviders
     let(:user_provider) { double('UserProvider') }
 
     before do
-      allow(UserProvider).to receive(:where)
+      allow(UserProvider).to receive(:find_by)
         .with(provider: 'github', uid: '123')
-        .and_return([user_provider])
+        .and_return(user_provider)
     end
 
     describe '#find' do

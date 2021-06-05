@@ -1,9 +1,9 @@
 module CourseHelper
   def numbered_lesson_title(lesson, lesson_index)
     if lesson.is_project?
-      "#{lesson_index + 1}. <strong>#{lesson.title}</strong>".html_safe
+      "#{lesson_index + 1}. <strong>#{lesson.title}</strong>"
     else
-      "#{lesson_index + 1}. #{lesson.title}".html_safe
+      "#{lesson_index + 1}. #{lesson.title}"
     end
   end
 

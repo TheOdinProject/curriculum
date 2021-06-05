@@ -7,7 +7,7 @@ class MarkdownConverter
   end
 
   def as_html
-    converted_markdown.html_safe
+    converted_markdown
   end
 
   private

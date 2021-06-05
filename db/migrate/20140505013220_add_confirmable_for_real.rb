@@ -1,3 +1,4 @@
+# rubocop: disable Rails/SkipsModelValidations
 class AddConfirmableForReal < ActiveRecord::Migration[5.0]
   # NOTE: You can't use change, as User.update_all with fail in the down migration
   def self.up
@@ -19,3 +20,4 @@ class AddConfirmableForReal < ActiveRecord::Migration[5.0]
     remove_columns :users, :unconfirmed_email # Only if using reconfirmable
   end
 end
+# rubocop: enable Rails/SkipsModelValidations

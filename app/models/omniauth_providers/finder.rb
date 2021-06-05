@@ -20,7 +20,7 @@ module OmniauthProviders
     private
 
     def omniauth_provider
-      @omniauth_provider ||= UserProvider.where(provider: auth.provider, uid: auth.uid).first
+      @omniauth_provider ||= UserProvider.find_by(provider: auth.provider, uid: auth.uid)
     end
 
     def new_user_provider

@@ -1,4 +1,4 @@
-class GithubWebhooksController < ActionController::Base
+class GithubWebhooksController < ApplicationController
   include GithubWebhook::Processor
 
   def github_push(payload)

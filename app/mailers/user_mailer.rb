@@ -1,4 +1,4 @@
-class UserMailer < ActionMailer::Base
+class UserMailer < ApplicationMailer
   default from: 'no-reply@theodinproject.com'
 
   def send_welcome_email_to(user)

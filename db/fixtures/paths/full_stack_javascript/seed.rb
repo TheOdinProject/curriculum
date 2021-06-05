@@ -14,7 +14,7 @@ load './db/fixtures/paths/full_stack_javascript/courses/3_node_js.rb'
 load './db/fixtures/paths/full_stack_javascript/courses/4_getting_hired.rb'
 
 # create path prerequisites
-@path.path.path_prerequisites.find_or_create_by!(prerequisite_id: Path.find_by_title('Foundations').id)
+@path.path.path_prerequisites.find_or_create_by!(prerequisite_id: Path.find_by(title: 'Foundations').id)
 
 # clean up any removed courses
 @path.delete_removed_courses

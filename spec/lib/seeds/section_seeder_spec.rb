@@ -21,21 +21,21 @@ RSpec.describe Seeds::SectionSeeder do
     it 'creates a section with the given title' do
       section_seeder
 
-      section = Section.find_by_identifier_uuid('section_uuid')
+      section = Section.find_by(identifier_uuid: 'section_uuid')
       expect(section.title).to eq('Basics Section')
     end
 
     it 'creates a section with the given description' do
       section_seeder
 
-      section = Section.find_by_identifier_uuid('section_uuid')
+      section = Section.find_by(identifier_uuid: 'section_uuid')
       expect(section.description).to eq('a basics section')
     end
 
     it 'creates a section with the given position' do
       section_seeder
 
-      section = Section.find_by_identifier_uuid('section_uuid')
+      section = Section.find_by(identifier_uuid: 'section_uuid')
       expect(section.position).to eq(1)
     end
 
@@ -57,7 +57,7 @@ RSpec.describe Seeds::SectionSeeder do
   end
 
   describe '#add_lessons' do
-    let(:section) { Section.find_by_identifier_uuid('section_uuid') }
+    let(:section) { Section.find_by(identifier_uuid: 'section_uuid') }
 
     it 'adds lessons to the section' do
       section_seeder

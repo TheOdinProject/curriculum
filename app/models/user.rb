@@ -14,8 +14,8 @@ class User < ApplicationRecord
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :project_submissions, dependent: :destroy
   has_many :user_providers, dependent: :destroy
-  has_many :flags, foreign_key: :flagger_id, dependent: :destroy
-  has_many :notifications, as: :recipient
+  has_many :flags, foreign_key: :flagger_id, dependent: :destroy, inverse_of: :flagger
+  has_many :notifications, as: :recipient, dependent: :destroy
   belongs_to :path, optional: true
 
   def progress_for(course)

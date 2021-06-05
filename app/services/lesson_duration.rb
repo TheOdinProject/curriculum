@@ -8,9 +8,7 @@ class LessonDuration
     ActiveSupport::Duration.build(average_duration.to_i).inspect
   end
 
-  def title
-    lesson.title
-  end
+  delegate :title, to: :lesson
 
   private
 

@@ -1,3 +1,4 @@
+# rubocop: disable Rails/LexicallyScopedActionFilter
 class RegistrationsController < Devise::RegistrationsController
   after_action :register_mailing_list, only: [:create]
   after_action :send_welcome_email, only: [:create]
@@ -27,6 +28,7 @@ class RegistrationsController < Devise::RegistrationsController
   end
 
   def production?
-    Rails.env.production? && !ENV['STAGING'].present?
+    Rails.env.production? && ENV['STAGING'].blank?
   end
 end
+# rubocop: enable Rails/LexicallyScopedActionFilter
