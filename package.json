@@ -54,6 +54,7 @@
   },
   "jest": {
     "clearMocks": true,
+    "testEnvironment": "jsdom",
     "testPathIgnorePatterns": [
       "<rootDir>/config/",
       "/node_modules/",
