@@ -67,6 +67,13 @@ def javascript_lessons
       url: '/javascript/organizing-js/es6-modules.md',
       identifier_uuid: '0169e4d1-e381-49e0-897b-f9364ac10e51',
     },
+    'Webpack' => {
+      title: 'Webpack',
+      description: 'Webpack',
+      is_project: false,
+      url: '/javascript/organizing-js/webpack.md',
+      identifier_uuid: 'eedfa6c8-b041-497d-ab37-565708a1b075',
+    },
     'Restaurant Page' => {
       title: 'Restaurant Page',
       description: 'Restaurant Page',
@@ -112,13 +119,6 @@ def javascript_lessons
       is_project: false,
       url: '/javascript/js-in-the-real-world/forms.md',
       identifier_uuid: 'c95fe496-2223-4c96-bf3f-9d8e3796d233',
-    },
-    'Webpack' => {
-      title: 'Webpack',
-      description: 'Webpack',
-      is_project: false,
-      url: '/javascript/js-in-the-real-world/webpack.md',
-      identifier_uuid: 'eedfa6c8-b041-497d-ab37-565708a1b075',
     },
     'ES?' => {
       title: 'ES?',

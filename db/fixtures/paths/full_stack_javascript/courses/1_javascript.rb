@@ -37,6 +37,7 @@ course.add_section do |section|
     javascript_lessons.fetch('Tic Tac Toe'),
     javascript_lessons.fetch('Classes'),
     javascript_lessons.fetch('ES6 Modules'),
+    javascript_lessons.fetch('Webpack'),
     javascript_lessons.fetch('Restaurant Page'),
     javascript_lessons.fetch('OOP Principles'),
     javascript_lessons.fetch('Todo List'),
@@ -55,7 +56,6 @@ course.add_section do |section|
     javascript_lessons.fetch('Linting'),
     javascript_lessons.fetch('Dynamic User Interface Interactions'),
     javascript_lessons.fetch('Forms'),
-    javascript_lessons.fetch('Webpack'),
     javascript_lessons.fetch('ES?'),
   )
 end
