@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
-  before_action :redirect_if_logged_in, only: :home
-
-  def home; end
+  def home
+    redirect_to dashboard_path if user_signed_in?
+  end
 
   def about; end
 
@@ -13,11 +13,5 @@ class StaticPagesController < ApplicationController
 
   def success_stories
     @success_stories = SuccessStory.all
-  end
-
-  private
-
-  def redirect_if_logged_in
-    redirect_to dashboard_path if current_user
   end
 end
