@@ -10,7 +10,7 @@ RSpec.describe Point do
     let(:user_points) { Point.create(discord_id: '1234') }
 
     it 'increments the points' do
-      expect { user_points.increment_points }.to change { user_points.points }.from(0).to(1)
+      expect { user_points.increment_points }.to change { user_points.reload.points }.from(0).to(1)
     end
   end
 end
