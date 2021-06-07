@@ -21,7 +21,7 @@
     "jquery": "^3.6.0",
     "js-base64": "^3.6.1",
     "popper.js": "^1.16.1",
-    "postcss": "^7",
+    "postcss": "^8",
     "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
