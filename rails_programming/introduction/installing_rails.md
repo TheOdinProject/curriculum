@@ -194,7 +194,7 @@ A message from GitHub stating, "The authenticity of host 'github.com'..." may ap
 
 After the terminal finishes its magic, return to your GitHub repository and refresh the page. You should see a lot of files, starting with a folder called "app".
 
-This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
+This marks the start of your Rails journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
 ### Step 3: Deploy Your Rails Application
 
