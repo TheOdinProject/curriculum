@@ -124,7 +124,7 @@ Since you've been using Git like a pro for all of your projects so far (you have
 Initialize a Git repo in your `my_first_rails_app` folder, then stage and commit all changes within it.
 
 #### Step 2.2 Initialize on GitHub, add the remote, and Push
-Make a repo on Github and make sure you **do not** initialize the repository with a README and Rails created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
+Make a repo on Github and make sure you **do not** initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
 
 #### Step 2.3 Confirm Git is Working Correctly
 Confirm that the push was successful and on GitHub you see all the folders and files made locally by Rails, starting with a folder called "app".
