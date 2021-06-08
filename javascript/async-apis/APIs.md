@@ -4,7 +4,7 @@ One of the most powerful things a web developer can do is fetching data from a s
 
 ### APIs
 
-Servers that are created for serving data for external use (in websites or apps) are often referred to as `API`s or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, the OpenWeatherMap API has several types of data that you can request. To get the current weather in a specific location, you need to request data from this URL:
 
@@ -22,13 +22,11 @@ Unless the implementation of that specific API has changed, you probably get an 
 {"code":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}
 ~~~
 
-This brings us to another point about APIs. In most cases, you have to sign up and get an API key to use them. Obtaining the API key is as simple as signing up on their website and using it is usually as easy as pasting it into the URL:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the data provider before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as in a URL query string parameter:
 
 ~~~
 http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1111111111
 ~~~
-
-(exactly how to include the key changes from service to service)
 
 Services like the OpenWeatherMap use API keys to track who is requesting the data they serve, and how much data they are requesting. The reason they do this is so that people can't take advantage of their service. Running servers, especially large ones costs money, and while each current weather request (or whatever) is relatively cheap, if the amount of requests gets too high the cost could be significant. Imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute!
 
