@@ -28,13 +28,17 @@ This brings us to another point about APIs. In most cases, you will have to crea
 http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1111111111
 ~~~
 
-Services like OpenWeatherMap use API keys to track who is requesting the data they serve, and how much data they are requesting. The reason they do this is so that people can't take advantage of their service. Running servers, especially large ones costs money, and while each current weather request (or whatever) is relatively cheap, if the amount of requests gets too high the cost could be significant. Imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute!
+As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
 
-By signing up for a service and getting an API key you are letting the service track how much you are actually using. In many cases services are limited as to how much data they can request for free. With the weather app example, their free plan only allows you to make 60 requests per minute and also limits what types of data you can access ([details here if you're interested](https://openweathermap.org/price)). So, if your app became successful, you would probably need to pay for a better account.
+On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. OpenWeatherMap, for example, provides not only a free tier but a variety of paid tiers that can cost upwards of 2000 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-Luckily for us, the majority of our apps are only going to be used by us and the people that view our portfolios. So we'll get by _just fine_ with free services.
+As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, OpenWeatherMap's free plan only allows your app to make 60 requests per minute, for a monthly total of 1 million requests, while the "Enterprise" tier allows up to 200,000 requests per minute! The free tier also comes with basic forecasting data, but not for a 30-day forecast ([details here if you're interested](https://openweathermap.org/price)). So, if your app becomes successful, you'll probably need to pay for a better account.
 
-Once you get a key (try this now if you like!) and waited for its activation (see [Do I need to activate my API key?](https://openweathermap.org/faq)) you can paste the URL into the browser again (including your key of course) and hopefully, you'll see a proper response:
+Because your API key is your key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
+
+At this point in the curriculum, though, this point is largely moot, as we'll leverage free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. The basics of securing and obfuscating API keys from GitHub and from your requests will be covered later in the curriculum.
+
+Back to OpenWeatherMap. Once you obtained your free key (try this now if you like!) and waited for its activation (see [Do I need to activate my API key?](https://openweathermap.org/faq)), you can now paste the URL (with the key) into the browser, and hopefully you'll see a proper response like the one below:
 
 ~~~JSON
 {"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
@@ -76,7 +80,7 @@ More recently, however, web browsers have begun to implement a new native functi
 ~~~javascript
 // URL (required), options (optional)
 fetch('https://url.com/some/url')
-  .then(function(response) { 
+  .then(function(response) {
     // Successful response :)
   })
   .catch(function(err) {
@@ -98,7 +102,7 @@ Go ahead and try that URL (with YOUR API key) in a browser. If everything goes w
 
 ### CORS
 
-A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points. 
+A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is simple. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
 
