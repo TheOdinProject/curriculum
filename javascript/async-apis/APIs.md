@@ -4,43 +4,45 @@ One of the most powerful things a web developer can do is fetching data from a s
 
 ### APIs
 
-Servers that are created for serving data for external use (in websites or apps) are often referred to as `API`s or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
-There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, the OpenWeatherMap API has several types of data that you can request. To get the current weather in a specific location, you need to request data from this URL:
+There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, the OpenWeatherMap API has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also add a state code or a country code) as a URL query string parameter, like so:
 
 ~~~
-api.openweathermap.org/data/2.5/weather?q=London,uk
+api.openweathermap.org/data/2.5/weather?q=London
 ~~~
 
-You'll want to switch out the city for the location you're requesting. The specifics for using any API are usually documented on the service's website. [Check here for the OpenWeatherMap API documentation](https://openweathermap.org/current).
+The specifics for using any API are usually documented on the service's website. [Check here for the OpenWeatherMap API documentation](https://openweathermap.org/current). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser...(we'll wait).
 
-If you haven't already, go ahead and paste the weather URL above into your browser...(we'll wait).
-
-Unless the implementation of that specific API has changed, you probably get an error like this:
+You'll probably get an error like this:
 
 ~~~
 {"code":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}
 ~~~
 
-This brings us to another point about APIs. In most cases, you have to sign up and get an API key to use them. Obtaining the API key is as simple as signing up on their website and using it is usually as easy as pasting it into the URL:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
 ~~~
-http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=1111111111
+http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
 ~~~
 
-(exactly how to include the key changes from service to service)
+As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
 
-Services like the OpenWeatherMap use API keys to track who is requesting the data they serve, and how much data they are requesting. The reason they do this is so that people can't take advantage of their service. Running servers, especially large ones costs money, and while each current weather request (or whatever) is relatively cheap, if the amount of requests gets too high the cost could be significant. Imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute!
+On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. OpenWeatherMap, for example, provides not only a free tier but a variety of paid tiers that can cost upwards of 2000 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-By signing up for a service and getting an API key you are letting the service track how much you are actually using. In many cases services are limited as to how much data they can request for free. With the weather app example, their free plan only allows you to make 60 requests per minute and also limits what types of data you can access ([details here if you're interested](https://openweathermap.org/price)). So, if your app became successful, you would probably need to pay for a better account.
+As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, OpenWeatherMap's free plan only allows your app to make 60 requests per minute, for a monthly total of 1 million requests, while the "Enterprise" tier allows up to 200,000 requests per minute! The free tier also comes with basic forecasting data, but it does not include data for a 30-day forecast ([details here if you're interested](https://openweathermap.org/price)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
-Luckily for us, the majority of our apps are only going to be used by us and the people that view our portfolios. So we'll get by _just fine_ with free services.
+Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
 
-Once you get a key (try this now if you like!) and waited for its activation (see [Do I need to activate my API key?](https://openweathermap.org/faq)) you can paste the URL into the browser again (including your key of course) and hopefully, you'll see a proper response:
+At this point in the curriculum, though, this point is largely moot. After all, we're leveraging free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. The basics of securing and obfuscating API keys from GitHub and from your requests will be covered later in the curriculum.
+
+Back to OpenWeatherMap. Go ahead and create an account to obtain an API key from their free tier. Once the key has been activated, which [can take up to 2 hours](https://openweathermap.org/faq), try making a new request with the city of your choice AND the API key passed in as query string parameters, like the example above. You'll hopefully see a proper response, something like:
 
 ~~~JSON
 {"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
 ~~~
+
+Congratulations on making your first API request!
 
 ### Fetching Data
 
@@ -78,7 +80,7 @@ More recently, however, web browsers have begun to implement a new native functi
 ~~~javascript
 // URL (required), options (optional)
 fetch('https://url.com/some/url')
-  .then(function(response) { 
+  .then(function(response) {
     // Successful response :)
   })
   .catch(function(err) {
@@ -100,7 +102,7 @@ Go ahead and try that URL (with YOUR API key) in a browser. If everything goes w
 
 ### CORS
 
-A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points. 
+A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is simple. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
 
