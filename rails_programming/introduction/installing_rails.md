@@ -59,7 +59,7 @@ You won't need to use Yarn for this tutorial but you do need it installed for Ra
 
 This is where things might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
-We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us. Then we'll tell Rails to create a template for us so that we can get up and running.
+We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us.
 
 ~~~bash
 cd ~/your_odin_project_directory
