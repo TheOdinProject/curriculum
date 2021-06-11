@@ -3,7 +3,7 @@
 ########################
 course = @path.add_course do |course|
   course.title = 'HTML and CSS'
-  course.description = "Good web design doesn't happen by accident. This course takes a deeper look at front-end design and development, expanding on what is covered in Foundations. You'll learn how to design and develop websites that look great in any device and you'll be equipped to deeply understand and create your own responsive design framework!"
+  course.description = "Good web design doesn't happen by accident. Now that you've gained a strong foundation in programming, this course takes a deeper look at front-end design, expanding on what is covered in Foundations. You'll learn how to design websites that look great on any device and you'll be equipped to deeply understand and create your own responsive design framework!"
   course.identifier_uuid = '70434eab-0ff2-4db5-9a4c-b78cebd010fe'
 end
 
