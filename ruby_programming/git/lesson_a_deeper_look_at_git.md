@@ -20,8 +20,8 @@ Look through these now and then use them to test yourself after doing the assign
 * How do you undo a recent commit?
 * What are branches?
 * How do you create a new branch to work on?
-* How do you push that (non-master) branch up to GitHub?
-* How do you merge the changes from your new branch into the master branch again?
+* How do you push that (non-main) branch up to GitHub?
+* How do you merge the changes from your new branch into the main branch again?
 * Why is working with feature branches useful?
 * What is the difference between using `$ git merge` and `$ git rebase`? (hint: history)
 * What is the difference between a "remote" and your local repo?
