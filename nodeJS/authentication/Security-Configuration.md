@@ -23,7 +23,7 @@ Digging into this package can be useful when creating bigger projects where app 
 
 1. The main important takeaway here is to KEEP YOUR SECRETS SECRET by never accidentally publishing them.
 2. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two projects are popular and widely used.
-3. Go back to your earlier projects and SECURE THEM!  As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation) to work on a new feature. You should be getting pretty used to this by now!
+3. Go back to your earlier projects and SECURE THEM!
 
 </div>
 
