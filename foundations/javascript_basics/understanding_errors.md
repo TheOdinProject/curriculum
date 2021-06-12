@@ -15,8 +15,8 @@ Errors contain crucial information that can assist you in locating the code resp
 Let’s assume we have written the following code:
 
 ~~~js
-const a = “Hello”
-const b = “World”
+const a = "Hello"
+const b = "World"
 
 console.log(c)
 ~~~
@@ -69,7 +69,7 @@ A syntax error occurs when the code you are trying to run is syntactically incor
 
 ~~~js
 function helloWorld() {
-  console.log “Hello World!”
+  console.log "Hello World!"
 }
 ~~~
 
@@ -112,7 +112,7 @@ At this point, you might be wondering how we can resolve these errors.
 
 1. Read the error *carefully* and try to understand it on your own.
 2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If anything, you will receive more clarity as to why you are receiving this error.
-3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger.](https://developer.chrome.com/docs/devtools/javascript/). 
+3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). 
 4. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 

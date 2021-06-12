@@ -81,6 +81,14 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 </details>
 
+<details markdown="block">
+<summary class="dropDown-header">Chrome OS/CloudReady
+</summary>
+
+You will need to install Git from source by following the instructions at this [Digital Ocean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source).
+
+</details>
+
 ### Step 2: Configure Git and GitHub
 
 #### Step 2.1: Setup Git
