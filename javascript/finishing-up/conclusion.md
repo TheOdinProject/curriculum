@@ -13,7 +13,6 @@ This section contains helpful links to other content. It isn't required, so cons
 - [(Video) React Native Tutorial for Beginners - Build a React Native App](https://youtu.be/0-S5a0eXPoc)
 - [(Video) JavaScript Pro Tips - Code This, NOT That](https://youtu.be/Mus_vwhTCq0)
 - [Giant meta-list of screencasts by Avdi Grimm](https://www.rubytapas.com/2016/06/30/new-list-programming-screencast-series/)
-- [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
 - [Visualization Tool Examples](https://www.toptal.com/designers/data-visualization/data-visualization-tools)
 - [Tips for using AWS](http://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 - [(Video) Development Workflow of 2013 by Paul Irish](http://www.youtube.com/watch?v=f7AU2Ozu8eo)
