@@ -218,7 +218,7 @@ Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your 
 
 Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!
 
-Add the following elements to the container using ONLY javascript - do not add any HTML or CSS code.
+Add the following elements to the container using ONLY javascript and the DOM methods shown above.
 
 1. a `<p>` with red text that says "Hey I'm red!"
 2. an `<h3>` with blue text that says  "I'm a blue h3!"
@@ -399,7 +399,6 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
-* [An introduction to DOM](https://leila-alderman.github.io/javascript/2018/12/05/Intro-to-the-Document-Object-Model.html)
 * [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
 * [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.

@@ -13,14 +13,6 @@ Before continuing, let's review a few best practices to keep in mind:
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/fbFCkYabZB). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
-**Reminder**: In this lesson you'll see shaded boxes that contain text like the one below.
-
-~~~bash
-whoami
-~~~
-
-Those are terminal commands and you'll need to enter them on the terminal in your operating system. Forgot how to open your terminal? Try googling "how to open terminal in [**your operating system**]".
-
 ### Your First Rails App
 
 ### Step 1: Create Your First Ruby on Rails Web Application
@@ -63,27 +55,14 @@ If you don't get a version number drop by the chatrooms for some assistance.
 
 You won't need to use Yarn for this tutorial but you do need it installed for Rails to set up Webpack correctly.
 
-#### Step 1.3: Lay the Groundwork
-
-Next, if you haven't already done it, we need to create a directory that will house our project. You can name it anything you like!
-
-~~~bash
-mkdir odin_on_rails
-~~~
-
-Then, move into the new directory:
-
-~~~bash
-cd odin_on_rails
-~~~
-
-#### Step 1.4: Create the Application
+#### Step 1.3: Create the Application
 
 This is where things might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
-We're going to start by telling Rails to initialize the application for us. Then, we'll tell Rails to create a template for us so that we can get up and running.
+We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us.
 
 ~~~bash
+cd ~/your_odin_project_directory
 rails new my_first_rails_app
 ~~~
 
@@ -118,7 +97,7 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### Step 1.5: Start Up Your App
+#### Step 1.4: Start Up Your App
 
 Now that you have created a Rails application, you can start it up and see if it works!
 
@@ -132,69 +111,32 @@ Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000
 
 Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where the Rails server is running, and type `Ctrl + C` to close the server.
 
-### Step 2: Initialize Git and Push to GitHub
+### Step 2: Git Groundwork
 
-To push our app to GitHub and Heroku, we need to use Git.
+Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.
 
-##### Step 2.1: Initialize git
-
-To tell Git we want to use version control on the directory we are in, we need to initialize it.
-
-Verify you're in the `my_first_rails_app` directory by using the `pwd` (print working directory) command.
-
-~~~bash
-$ pwd
-/home/you/odin_on_rails/my_first_rails_app
-~~~
-
-Then, initialize the Git repo (short for "repository"):
-
-~~~bash
-git init
-~~~
-
-#### Step 2.2: Commit Changes
-
-Now that Git is initialized, we need to tell Git to save all the files we have. First, we add our files to the staging area, which temporarily holds files before committing them. Don't worry if you don't understand all of this right now.
-
-To stage all our files, type
+#### Step 2.1 Stage and Commit Local Changes
+Rails will already have initialized Git for you when it was doing it's thing, so just stage and commit all of the work it's done so far.
 
 ~~~bash
 git add .
-~~~
-
-Then, we'll commit the files. Be sure to include the quotation marks.
-
-~~~bash
 git commit -m "initial commit"
 ~~~
 
-#### Step 2.3: Connect the Local Repository to the Remote Repository
+#### Step 2.2 Initialize on GitHub, add the remote, and Push
+Make a repo on Github and make sure you **do not** initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
 
-At this point, we have our files on our own computer and can track changes made to our files over time. But what if we want to share the files with another computer or have multiple people work on the same project? For this functionality, we need a GitHub repository.
-
-First, open [GitHub.com](https://github.com/) in your browser and sign in (if you aren't already). Next, look for your profile picture in the upper right-hand corner, click the "+" symbol next to it, and then click `New repository`. Give the repository a name (maybe `my_first_rails_app`?), and make sure you **do not** initialise the repository with a README and Rails created one already. Click `Create Repository`.
-
-On the next page, you'll see a bunch of commands listed. We're really only interested in the SSH URL at the top, so double check that `SSH` has been selected and then copy the URL.
-
-Now, switch back over to the terminal to connect the project and GitHub by running two simple commands:
-
-NOTE: Do not enter the `<` or `>` symbols. Replace those symbols and everything between them with the URL that you copied from GitHub.
+REMINDER: Do not enter the `<` or `>` symbols below. Replace those symbols and everything between them with the URL that you copied from GitHub.
 
 ~~~bash
-git remote add origin <SSH URL from above>
+git remote add origin <SSH URL from GitHub>
 git push -u origin main
 ~~~
 
-Remember to replace `<SSH URL from above>` with the URL that you copied.
+#### Step 2.3 Confirm Git is Working Correctly
+Confirm that the push was successful and on GitHub you see all the folders and files made locally by Rails, starting with a folder called "app".
 
-The terminal will start its work, pausing to verify your connection to GitHub.
-
-A message from GitHub stating, "The authenticity of host 'github.com'..." may appear during this process. You can type `yes` and hit `Enter` to continue.
-
-After the terminal finishes its magic, return to your GitHub repository and refresh the page. You should see a lot of files, starting with a folder called "app".
-
-This marks the start of your Odin journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
+This marks the start of your Rails journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
 ### Step 3: Deploy Your Rails Application
 
@@ -277,41 +219,12 @@ end
 
 Save the file. You can close VSCode now; the rest of the steps take place in the terminal.
 
-#### Step 3.3: Add Changes to Git
+#### Step 3.3: Add Changes to Git and GitHub
 
-Now that we have made some changes, we need to tell Git. This step is also required to successfully deploy to Heroku.
-
-First, we'll check which files have been updated by running
-
-~~~bash
-git status
-~~~
-
-The output should look similar to the example below:
-
-~~~bash
-$ git status
-On branch main
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	modified:   Gemfile
-	modified:   Gemfile.lock
-	modified:   config/routes.rb
-
-no changes added to commit (use "git add" and/or "git commit -a")
-~~~
-
-Great! Now, let's add the changes to staging:
+Stage and commit your changes so that the repo is ready for prime time when we push it to Heroku next!
 
 ~~~bash
 git add .
-~~~
-
-Then, commit the files in staging:
-
-~~~bash
 git commit -m 'updates for heroku deployment'
 ~~~
 

@@ -42,47 +42,11 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-<details>
-<summary>What kind of program is Git?</summary>
-<ul><ul>
-  <li>Git is a version control program.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>What are the differences between Git and a text editor in terms of what they save and their record keeping?</summary>
-<ul><ul>
-  <li>A text editor can only make and save changes to a file.</li>
-  <li>Git tracks changes to the files and their contents over time.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Does Git work at a local or remote level?</summary>
-<ul><ul>
-  <li>Git works on a local level. Any changes you make are saved locally with Git.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Does GitHub work at a local or remote level?</summary>
-<ul><ul>
-  <li>GitHub works on a remote level. You must push your local changes (using Git) to GitHub.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Why is Git useful for an individual developer?</summary>
-<ul><ul>
-  <li>Git is useful for creating snapshots of your work. If you realize halfway through that you've messed up, it's much easier to reset.</li>
-</ul></ul>
-</details>
-
-<details>
-<summary>Why are Git and GitHub useful for a team of developers?</summary>
-<ul><ul>
-  <li>Git and GitHub are useful for teams because they can merge code together. A developer can work on one part of the code while a second developer works on another part. They can then use Git and GitHub to easily combine their changes.</li>
-</ul></ul>
-</details>
+* What kind of program is Git?
+* What are the differences between Git and a text editor in terms of what they save and their record keeping?
+* Does Git work at a local or remote level?
+* Does GitHub work at a local or remote level?
+* Why is Git useful for an individual developer?
+* Why are Git and GitHub useful for a team of developers?

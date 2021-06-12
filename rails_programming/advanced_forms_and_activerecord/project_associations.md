@@ -21,44 +21,44 @@ A user can create events. A user can attend many events. An event can be attende
 We've gotten quite far here, so these tasks will only lay out the high level overview of what you're meant to build. You'll need to implement the details yourself. As usual, it's not meant to look pretty, just work. Design is all extra credit.
 
 <div class="lesson-content__panel" markdown="1">
-#### Setup and Sign In
 
-1. Model the data for your application, including the necessary tables.
-2. Create a new Rails application and Git repo called `private-events`.
+#### Setup
+
+1. Think about and spec out how to set up your data models for this application.
+2. Create a new `private-events` Rails app and GitHub repo. 
 3. Update your README to be descriptive and link to this project.
-4. Build and migrate your User model. Don't worry about validations.
-5. Create a simple Users controller and corresponding routes for `#new`, `#create`, and `#show` actions. You'll need to make a form where you can sign up a new user and a simple `#show` page. You should be getting better and faster at this type of vanilla controller/form/view building.
-6. Create a simple sign in function that doesn't require a password -- just enter the ID or name of the user you'd like to "sign in" as and click Okay. You can then save the ID of the "signed in" user in either the `session` hash or the `cookies` hash and retrieve it when necessary. It may be helpful to always display the name of the "signed in" user at the top.
 
-#### Basic Events
+#### Events and Users
 
-1. Build and migrate your Event model without any foreign keys. Don't worry about validations. Include the event's date in your model but don't worry about doing anything special with it yet.
-2. Add the association between the event creator (a User) and the event. Call this user the "creator". Add the foreign key to the Events model as necessary. You'll need to specify your association properties carefully (e.g. `:foreign_key`, `:class_name`, and `:source`).
-3. Modify your User's Show page to list all the events a user has created.
-4. Create an EventsController and corresponding routes to allow you to create an event (don't worry about editing or deleting events), show a single event, and list all events.
-5. The form for creating an event should just contain a `:description` field.
-6. The `#create` action should use the `#build` method of the association to create the new event with the user's ID prepopulated. You could easily also just use Event's `::new` method and manually enter the ID but... don't.
-7. The event's Show page should just display the creator of the event for now.
-8. Create the Event Index page to display all events.
+1. Build and migrate your Event model without any foreign keys or validations. Include the event's date in your model but don't worry about doing anything special with it yet.
+2. Create the EventsController and add an `#index` action that will display all of the events. Create a corresponding view and add a heading with your choice of wording.
+3. Set up [devise](https://github.com/heartcombo/devise) to handle authentication and create your User model. Set the `root_path` to be the Event's Index page.
+4. Add the association between the event creator (a User) and the event. Call this user the "creator". Add the foreign key to the Events model as necessary. You'll need to specify your association properties carefully (e.g. `:foreign_key`, `:class_name`, and `:source`).
+5. Have the User's Show page list all the events a user has created.
+6. Update the EventsController and corresponding routes to allow you to create a new event. The `#create` action should use the `#build` [association reference method](https://guides.rubyonrails.org/association_basics.html#detailed-association-reference) to create the new event with the user's ID prepopulated. You could use Event's `::new` method and manually enter the ID but... don't.
+7. Make the form for creating an event.
+8. Have the Event's Show page display the details of the event.
+9. Update the Event's Index to display all of the events. You do not need to worry about editing or deleting events.
 
 #### Event Attendance
 
-1. Now add the association between the event attendee (also a User) and the event. Call this user the "attendee". Call the event the "attended_event". You'll again need to juggle specially named foreign keys and classes and sources.
+1. Add the association between the event attendee (also a User) and the event. Call this user the "attendee". Call the event the "attended_event". You'll again need to juggle specially named foreign keys and classes and sources.
 2. Create and migrate all necessary tables and foreign keys. This will require a "through" table since an Event can have many Attendees and a single User (Attendee) can attend many Events... many-to-many.
-3. Now make an Event's Show page display a list of attendees.
-4. Make a User's Show page display a list of events they are attending.
-5. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occurring in the future ("Upcoming events"). You could do this by putting logic in your view. Don't have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`. You'll get some practice with working with dates as well as building some queries.
-6. Modify the Event Index page to list all events, separated into Past and Upcoming categories. Use a class method on Event (e.g. `Event.past`).
-7. Refactor the "upcoming" and "past" methods into simple scopes (remember scopes??).
-8. Put navigation links across the top to help you jump around.
-9. Extra Credit: Allow users to invite other users to events. Only allow invited users to attend an event.
-10. Push to GitHub.
+3. Create a Controller and corresponding routes for the "through" table that will allow a user to become an "attendee" of an event.
+4. Update the Event's Show page to display a list of attendees.
+5. Add to the User's Show page a list of their "attended_events".
+6. Separate this list of "attended_events" into either events that have occurred in the past or events that will occur in the future. You'll get some good practice building [queries](https://guides.rubyonrails.org/active_record_querying.html#array-conditions) and working with dates. Keep this logic in the view and do not put separate method calls in the controller.
+
+#### Finishing Touches
+1. Separate the past and upcoming events on the Event's Index page by creating two class methods on the Event model (e.g. `Event.past`).
+2. Refactor the past and upcoming class methods into simple [scopes](https://guides.rubyonrails.org/active_record_querying.html#scopes).
+3. Put navigation links across the top to help you jump around.
+4. Extra Credit: Allow users to edit and delete the events they created.
+5. Extra Credit: Allow users to remove themselves as an attendee to their "attended_events".
+6. Extra Credit: Allow users to invite other users to events and only allow invited users to attend an event.
 
 </div>
-
 
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
-- [ActiveRecord Querying](http://guides.rubyonrails.org/active_record_querying.html)
