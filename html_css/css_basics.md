@@ -32,3 +32,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Learn CSS Selectors Interactively Using CSS Diner](http://flukeout.github.io/)
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
+* [CSS Selectors Cheat Sheet](https://chl.li/cssSelectorCheatSheet)
