@@ -187,6 +187,8 @@ describe('submissions list', () => {
         </ProjectSubmissionContext.Provider>,
       );
 
+      expect(handleDelete).not.toHaveBeenCalled();
+
       fireEvent.click(screen.getByText('DELETE'));
 
       expect(handleDelete).toHaveBeenCalledTimes(1);
@@ -205,6 +207,8 @@ describe('submissions list', () => {
           />
         </ProjectSubmissionContext.Provider>,
       );
+
+      expect(handleDelete).not.toHaveBeenCalled();
 
       fireEvent.click(screen.getByText('DELETE'));
 
@@ -226,6 +230,8 @@ describe('submissions list', () => {
         </ProjectSubmissionContext.Provider>,
       );
 
+      expect(onFlag).not.toHaveBeenCalled();
+
       fireEvent.click(screen.getByText('FLAG'));
 
       expect(onFlag).toHaveBeenCalledTimes(1);
@@ -244,6 +250,8 @@ describe('submissions list', () => {
           />
         </ProjectSubmissionContext.Provider>,
       );
+
+      expect(onFlag).not.toHaveBeenCalled();
 
       fireEvent.click(screen.getByText('FLAG'));
 
@@ -265,6 +273,8 @@ describe('submissions list', () => {
         </ProjectSubmissionContext.Provider>,
       );
 
+      expect(handleUpdate).not.toHaveBeenCalled();
+
       fireEvent.click(screen.getByText('UPDATE'));
 
       expect(handleUpdate).toHaveBeenCalledTimes(1);
@@ -283,6 +293,8 @@ describe('submissions list', () => {
           />
         </ProjectSubmissionContext.Provider>,
       );
+
+      expect(handleUpdate).not.toHaveBeenCalled();
 
       fireEvent.click(screen.getByText('UPDATE'));
 
@@ -304,6 +316,8 @@ describe('submissions list', () => {
         </ProjectSubmissionContext.Provider>,
       );
 
+      expect(handleLikeToggle).not.toHaveBeenCalled();
+
       fireEvent.click(screen.getByText('LIKE'));
 
       expect(handleLikeToggle).toHaveBeenCalledTimes(1);
@@ -322,6 +336,8 @@ describe('submissions list', () => {
           />
         </ProjectSubmissionContext.Provider>,
       );
+
+      expect(handleLikeToggle).not.toHaveBeenCalled();
 
       fireEvent.click(screen.getByText('LIKE'));
 
