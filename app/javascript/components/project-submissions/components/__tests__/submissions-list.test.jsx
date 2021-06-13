@@ -63,6 +63,21 @@ describe('submissions list', () => {
       expect(screen.getByText('bar')).toBeInTheDocument();
       expect(screen.getByText('baz')).toBeInTheDocument();
     });
+
+    it('does not render any submissions when array is empty', () => {
+      render(
+        <ProjectSubmissionContext.Provider value={{ allSubmissionsPath: '#' }}>
+          <SubmissionsList
+            submissions={[]}
+            handleDelete={handleDelete}
+            handleUpdate={handleUpdate}
+            handleLikeToggle={handleLikeToggle}
+          />
+        </ProjectSubmissionContext.Provider>,
+      );
+
+      expect(screen.queryAllByTestId('submission').length).toBe(0);
+    });
   });
 
   describe('user submission', () => {
