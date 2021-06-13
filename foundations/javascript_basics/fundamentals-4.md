@@ -26,6 +26,8 @@ We will teach you the art of actually writing these tests later in the course.  
 
 Check out our exercises repository [here](https://github.com/TheOdinProject/javascript-exercises) and follow the directions in the [README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for setting up Jest.  Solutions for the exercises can be found on the 'solutions' branch of that repo. 
 
+**NOTE:** You must read the README for the repository and each individual exercise in order to do them correctly.  
+
 Complete the following exercises:
 
 - helloWorld
