@@ -124,6 +124,14 @@ The above command should return something similar to this:
 ruby 2.7.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
+ 
+#### Step 2.3: Install Ruby gems
+ 
+Now that we have installed Ruby, there is one gem that we should install. Bundler helps Ruby gems to maintain themselves and installing this now will be useful later. Inside the terminal, type:
+ 
+~~~bash
+gem install bundler
+~~~
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
@@ -256,7 +264,14 @@ $ ruby -v
 ruby 2.7.2pxx (20xx-xx-xx revision xxxxx)
 ~~~
 
-If you don't see the output above, log off and log back on, then try again.
+
+#### Step 3.4: Install Ruby gems
+ 
+Now that we have installed Ruby, there is one gem that we should install. Bundler helps Ruby gems to maintain themselves and installing this now will be useful later. Inside the terminal, type:
+ 
+~~~bash
+gem install bundler
+~~~
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
