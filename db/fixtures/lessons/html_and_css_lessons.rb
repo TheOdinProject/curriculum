@@ -187,15 +187,6 @@ def html_and_css_lessons
       url: '/html_css/css_frameworks.md',
       identifier_uuid: '54229a00-02f2-4aa8-87b3-0d471beb734d',
     },
-    'Using Bootstrap' => {
-      title: 'Using Bootstrap',
-      description: 'Test out working with the Bootstrap framework.  It may feel a bit odd at first but it makes your life MUCH easier once you figure out the gist of it. ',
-      is_project: true,
-      url: '/html_css/project_bootstrap.md',
-      accepts_submission: true,
-      has_live_preview: true,
-      identifier_uuid: 'd7c5eed1-7252-45e7-8946-199eed8b258b',
-    },
     'Animations, Subtle Effects and Compatibility' => {
       title: 'Animations, Subtle Effects and Compatibility',
       description: 'Dive into some of the more interesting stylistic tools at your disposal like transitions and animations that use only CSS3.',

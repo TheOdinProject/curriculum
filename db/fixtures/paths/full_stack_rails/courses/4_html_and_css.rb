@@ -89,7 +89,6 @@ course.add_section do |section|
     html_and_css_lessons.fetch('Responsive Design'),
     html_and_css_lessons.fetch('Building with Responsive Design'),
     html_and_css_lessons.fetch('CSS Frameworks like Bootstrap and Foundation'),
-    html_and_css_lessons.fetch('Using Bootstrap'),
   )
 end
 
