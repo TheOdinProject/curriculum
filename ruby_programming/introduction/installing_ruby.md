@@ -55,7 +55,7 @@ Now you're ready to install Ruby. We're going to use a tool called `rbenv`, whic
 
 #### Step 2.1: Install rbenv
 
-First, you need to clone the rbenv repository using `git`, which is a version control program you installed with the last command. You will become more familiar with this program later on.
+First, you need to clone the rbenv repository.
 
 ~~~bash
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
