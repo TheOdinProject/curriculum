@@ -10,7 +10,7 @@ Additionally, the process of overriding a framework's styling or debugging style
 
 For these reasons, this lesson is designed to teach you _about_ frameworks and what their role is, but we **strongly recommend that you continue to focus on the fundamentals of CSS as you continue through the curriculum.**
 
-Trust us, doing so will make you a better developer in the end.
+Doing so will make you a better developer in the end.
 
 ### Learning Outcomes
 
