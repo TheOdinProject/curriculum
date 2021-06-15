@@ -31,7 +31,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Knowledge Check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * What are the four general tasks that developers have to handle?
 * What problems do frameworks solve?
