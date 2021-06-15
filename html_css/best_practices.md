@@ -22,7 +22,7 @@ You'll also get the chance to review what was covered in previous sections by ch
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Put a box around every div on the page with [this Chrome extension](https://chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi) by Bradley Flood, or [this Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/pesticide-for-firefox/) by Daniel Oshiro.  It can help you deconstruct an existing page or debug your own layouts.
-* (A lightweight way to mimic above extension) If you don't want to install yet another extension, then you can add this simple line in any website using **devtools -> styles** or add it inside your own project.
+* (A lightweight way to mimic above extension) If you don't want to install yet another extension, then you can add this simple line in any website using **devtools -> styles** or add it inside your own project's CSS file.
 `* {
     outline: 2px solid red !important;
 }`
