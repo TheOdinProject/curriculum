@@ -28,7 +28,7 @@ A `ReferenceError` is thrown when one refers to a variable that is not declared 
 
 The next part of an error gives us the name of the file in which you can find the error (in this case, our `script.js`), and also the line number. This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fifth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:5`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. In our example, this would be `at script.js:5:12`. 
 
-Another important part of an error is the stack trace. While the line number helps you locate the line in your code, the stack trace helps you understand when the error was thrown in your application, and what functions were called that lead up to running the lines of code responsible for the error. So for example, if we have the following code:
+Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
 ~~~js
 const a = 5;
@@ -54,7 +54,8 @@ The stack trace tells us that:
 1. `c is not defined` in scope of `add()`, which is declared on line 5
 2. `add()` was called by `print()`, which was declared on line 9
 3. `print()` itself was called on line 12.
-   The stack trace allows you to follow the execution of functions to find the code responsible for throwing the error .
+
+Thus the stack trace lets you trace the evolution of an error back to its origin, which here is the declaration of `add()`.
 
 ### Common Types of Errors
 
@@ -62,7 +63,7 @@ These are some of the most common errors you will encounter, so it’s important
 
 #### Syntax Error
 
-A syntax error occurs when the code you are trying to run is syntactically incorrect. For example this:
+A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
 ~~~js
 function helloWorld() {
@@ -70,13 +71,13 @@ function helloWorld() {
 }
 ~~~
 
-will throw the following error, because we forgot the parenthesis for `console.log()`!
+will throw the following error, because we forgot the parentheses for `console.log()`!
 <img width="602" alt="Screen Shot 2021-05-17 at 12 15 11 PM" src="https://user-images.githubusercontent.com/22967723/118543788-9823be00-b709-11eb-8f2a-3e4f64cee880.png">
 [MDN - SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 
 #### Reference Error
 
-We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist.
+We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist (within the current scope) - or it has been spelt incorrectly!
 
 [MDN - ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
@@ -90,7 +91,7 @@ Per MDN, a `TypeError` may be thrown when:
 > - or when attempting to modify a value that cannot be changed;
 > - or when attempting to use a value in an inappropriate way.
 
-Say we have two strings that you would like to combine to create one message such as below:
+Say we have two strings that you would like to combine to create one message, such as below:
 
 ~~~js
 const str1 = "Hello";
@@ -99,7 +100,7 @@ const message = str1.push(str2);
 ~~~
 <img width="621" alt="Screen Shot 2021-05-17 at 12 14 12 PM" src="https://user-images.githubusercontent.com/22967723/118543650-6579c580-b709-11eb-981d-4bdb74966ba4.png">
 
-Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the type you are trying to run a method or operation against. You'll likely find that it is not what you intend, or the operation or method is not compatible with that type.
+Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
 
 [MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
@@ -108,14 +109,14 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 At this point, you might be wondering how we can resolve these errors.
 
 1. Read the error *carefully* and try to understand it on your own.
-2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If anything, you will receive more clarity as to why you are receiving this error.
+2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
 3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). 
 4. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 
 ### Errors VS. Warnings
 
-Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address and resolve these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. While these colors are not a rule, frequently there will be a visual differentiation between the two regardless of the platform you are encountering them on.
+Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. Though these colors are not a rule, frequently there will be a visual differentiation between the two, regardless of the platform you are encountering them on.
 
 ### Exercise:
 
