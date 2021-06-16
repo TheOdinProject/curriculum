@@ -10,7 +10,7 @@ Reading and understanding error messages is a requirement as a developer. At fir
 
 ### The Anatomy of an Error
 
-Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. **Note**: For all examples in this lesson, you should run the code in the browser's console.
+An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. **Note**: For all examples in this lesson, you should run the code in the browser's console.
 
 Let’s assume we have written the following code:
 
@@ -21,15 +21,12 @@ const b = "World"
 console.log(c)
 ~~~
 
-This code will run, but it will throw an error. The first part of an error displays the type of error. In this example, we have a `ReferenceError`.
-<img width="615" alt="Screen Shot 2021-05-17 at 12 16 37 PM" src="https://user-images.githubusercontent.com/22967723/118543890-c1dce500-b709-11eb-94f3-bbd6757d4e31.png">
+This code will run, but it will generate an error. In technical terms, this is called "throwing" an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. We’ll learn more about the different error types later in the lesson. In this example, we have a `ReferenceError`.
+<img width="615" alt="Screen Shot 2021-05-17 at 12 16 37 PM" src="https://user-images.githubusercontent.com/22967723/118543890-c1dce500-b709-11eb-94f3-bbd6757d4e31.png"> 
 
+A `ReferenceError` is thrown when one refers to a variable that is not declared and/or initialized within the current scope. In our case, the error message explains that the error has occurred because `c is not defined`. Different errors of this type have different messages based on what is causing the `ReferenceError`. For example, another message you may run into is `ReferenceError: can't access lexical declaration 'X' before initialization`. As we can see, this points to a completely different reason than our original `ReferenceError` above. Understanding both the error type and the error message is crucial to comprehending why you are receiving the error.
 
-We’ll learn more about the different error types later in the lesson. Error types denote the kind of error, which gives us clues about how to address them, and why they may arise.
-
-In this case, a `ReferenceError` is an error that is thrown when one attempts to reference a variable that is not currently declared within the scope where we attempted to reference the variable. The error message also explains this, by stating that `c is not defined`. Different kinds of errors can have different messages based on what is actually causing the `ReferenceError`. For example, another message you may run into that is also a `ReferenceError` is `ReferenceError: can't access lexical declaration 'X' before initialization`. As we can see, this points to a completely different reason than our original `ReferenceError` above. Understanding both the error type and the error message is crucial to comprehending why you are receiving the error.
-
-The next part of an error gives us the line of code, as well as the file in which you can find the error (in this case, our `script.js`). This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fifth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:5`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Additionally, sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. This may be shown as `at script.js:5:12`. 
+The next part of an error gives us the name of the file in which you can find the error (in this case, our `script.js`), and also the line number. This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fifth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:5`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. In our example, this would be `at script.js:5:12`. 
 
 Another important part of an error is the stack trace. While the line number helps you locate the line in your code, the stack trace helps you understand when the error was thrown in your application, and what functions were called that lead up to running the lines of code responsible for the error. So for example, if we have the following code:
 
