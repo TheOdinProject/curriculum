@@ -40,14 +40,15 @@ If you would like to propose a change that is not covered in an open issue, plea
 3. When you have finished, ensure your markdown is correctly formatted and rendering properly using our [markdown preview](https://www.theodinproject.com/lessons/preview) tool.
 
 4. If the markdown is correctly formatted, you are ready to submit a pull request:
-**Push your branch to your fork**
-```
-$ git push origin <your branch name here>
-```
-**Create a pull request**
-* Go to your fork on Github after you have pushed up your branch. A new button should be visible near the top of the page. It will allow you to create a pull request to the original Odin Project repo.
 
-* If the PR is related to an existing issue, link it in the body of your pull request, such as "resolves #1234".
+	**Push your branch to your fork**
+	```
+	$ git push origin <your branch name here>
+	```
+	**Create a pull request**
+	* Go to your fork on Github after you have pushed up your branch. A new button should be visible near the top of the page. It will allow you to create a pull request to the original Odin Project repo.
+
+	* If the PR is related to an existing issue, link it in the body of your pull request, such as "resolves #1234".
 
 ## Need Help with Anything Here?
 Please let us know if you require any help doing any of the steps in this guide in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
