@@ -107,23 +107,23 @@ You have three different options for the dependency array:
 
 1. Leave it empty. If you leave it empty the useEffect hook would look something like this:
 
-~~~javascript
+   ~~~javascript
 useEffect(() => {
   // Do something
 }, []);
 ~~~
 
-This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs **one time** when the component mounts (is inserted in the DOM tree)
+   This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs **one time** when the component mounts (is inserted in the DOM tree)
 
 2. Add a dependency to the array. Like we did it in our example code.
 
-~~~javascript
+   ~~~javascript
 useEffect(() => {
   // Do something
 }, [color]);
 ~~~
 
-This way, the useEffect hook will re-run anytime the dependency (color) changes. This is similar to a `componentDidUpdate` method, with the only difference that it only runs when a certain condition has changed.
+   This way, the useEffect hook will re-run anytime the dependency (color) changes. This is similar to a `componentDidUpdate` method, with the only difference that it only runs when a certain condition has changed.
 
 3. Leave out the dependency array.
 
