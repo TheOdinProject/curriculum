@@ -111,7 +111,7 @@ While your VM is running, do the following steps:
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste to and from the guest OS and your host OS, so when copying these commands you need to open TOP in your VM through your `Web Browser` by opening the **Whisker Menu** and typing in **Web Browser**.)_
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste to and from the guest OS and your host OS (Windows), so when copying these commands you need to open TOP in your VM through your `Web Browser` by opening the **Whisker Menu** and typing in **Web Browser**.)_
   7. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
   8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
@@ -139,6 +139,8 @@ Here are some tips to help you get started in a virtual environment:
 * All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed.
 
 * To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
+
+* To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (Right Ctrl) + E or click "View -> Take Screenshot" for a full screenshot, or you can click the "Whisker Menu" and type in "Screenshot", in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
