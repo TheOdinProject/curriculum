@@ -43,7 +43,7 @@ Afterwards we are declaring a function, which right now just sets a new count. I
 
 ### useEffect
 
-Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentDidUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
+Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
 
 ~~~javascript
 import React, { useState, useEffect } from "react";
