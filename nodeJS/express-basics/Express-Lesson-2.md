@@ -41,7 +41,7 @@ Without digging into the code prematurely, consider a very simple photo-uploadin
 
 We'll need two views, 1) the index, and 2) the display-photo view which will just display a single photo.
 
-Our controller then would be called by Express whenever we get an `app.get()` and would then use the details of the request to determine which view is shown, and which image is displayed depending on whether the user is requesting the index or a specific photo's page.
+Our controller then would be called by Express whenever we get an `app.get()` request. It would then use the details of the request to determine which view is shown, and which image is displayed depending on whether the user is requesting the index or a specific photo's page.
 
 If this is a little confusing at this point, don't worry about it too much.  You will be creating models, views, and controllers in the tutorial and it will all become much clearer once you see them in use.
 
