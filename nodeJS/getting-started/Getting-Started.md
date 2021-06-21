@@ -29,6 +29,10 @@ By the end of this lesson, you should be able to do the following:
   - The File Uploads and Email lessons are optional at this point but it might be useful to at least skim them so you can know where to look if you need that functionality.
 </div>
 
+### Additional Resources
+
+- Go through the "Getting Started" section of the new official [Node.js website](https://nodejs.dev/learn). It does a great job in introducing some of the core concepts of Node.js in a beginner-friendly manner. 
+
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
