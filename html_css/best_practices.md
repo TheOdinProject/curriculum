@@ -26,7 +26,7 @@ This section contains helpful links to other content. It isn't required, so cons
 `* {
     outline: 2px solid red !important;
 }`
- ( The asterisk (*) is known as the **CSS** universal **selector**. It can be used to select any and all types of elements in an HTML page. )
+ ( The asterisk (\*) is known as the CSS universal selector. It can be used to select any and all types of elements in an HTML page. )
 * [CSS Style Guide](http://codeguide.co/#css) by [Mark Otto](https://github.com/mdo), one of the creators of Bootstrap.
 * [CSS Reference](http://cssreference.io/), a visual guide to CSS, by [Jeremy Thomas](https://github.com/jgthms).
 * Add some!
