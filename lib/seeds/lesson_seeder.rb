@@ -12,7 +12,7 @@ module Seeds
 
     # rubocop: disable Metrics/AbcSize, Metrics/MethodLength
     def lesson
-      Lesson.seed(:identifier_uuid, :section_id) do |lesson|
+      Lesson.seed(:identifier_uuid, :course_id) do |lesson|
         lesson.identifier_uuid = attributes.fetch(:identifier_uuid)
         lesson.title = attributes.fetch(:title)
         lesson.description = attributes.fetch(:description)
@@ -22,6 +22,7 @@ module Seeds
         lesson.accepts_submission = attributes.fetch(:accepts_submission, false)
         lesson.has_live_preview = attributes.fetch(:has_live_preview, false)
         lesson.position = position
+        lesson.course_id = section.course_id
       end
     end
     # rubocop: enable Metrics/AbcSize, Metrics/MethodLength

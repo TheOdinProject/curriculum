@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_12_034228) do
+ActiveRecord::Schema.define(version: 2021_06_22_162155) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -105,7 +105,9 @@ ActiveRecord::Schema.define(version: 2021_05_12_034228) do
     t.boolean "has_live_preview", default: false, null: false
     t.boolean "choose_path_lesson", default: false, null: false
     t.string "identifier_uuid", default: "", null: false
-    t.index ["identifier_uuid", "section_id"], name: "index_lessons_on_identifier_uuid_and_section_id", unique: true
+    t.bigint "course_id"
+    t.index ["course_id"], name: "index_lessons_on_course_id"
+    t.index ["identifier_uuid", "course_id"], name: "index_lessons_on_identifier_uuid_and_course_id", unique: true
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
     t.index ["url"], name: "index_lessons_on_url"
@@ -248,6 +250,7 @@ ActiveRecord::Schema.define(version: 2021_05_12_034228) do
   add_foreign_key "flags", "project_submissions"
   add_foreign_key "flags", "users", column: "flagger_id"
   add_foreign_key "lesson_completions", "lessons", on_delete: :cascade
+  add_foreign_key "lessons", "courses"
   add_foreign_key "path_prerequisites", "paths"
   add_foreign_key "path_prerequisites", "paths", column: "prerequisite_id"
   add_foreign_key "project_submissions", "lessons"
