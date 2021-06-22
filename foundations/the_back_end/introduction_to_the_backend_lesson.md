@@ -20,8 +20,8 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 <div class="lesson-content__panel" markdown="1">
 
   1. Check out [this blog post on back end vs front end programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
-  2. [A good and short overview of the back end] (https://techterms.com/definition/backend).
-  3. A [much more detailed and thorough explanation] (https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the back end is provided by Codecademy, including a step-by-step breakdown of what happens in the back end when a browser makes a request to a server.  
+  2. [A good and short overview of the back end](https://techterms.com/definition/backend).
+  3. A [much more detailed and thorough explanation](https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the back end is provided by Codecademy, including a step-by-step breakdown of what happens in the back end when a browser makes a request to a server.  
 
 </div>
 
