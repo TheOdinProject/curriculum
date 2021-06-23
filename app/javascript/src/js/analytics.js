@@ -88,7 +88,7 @@ document.addEventListener('turbolinks:load', () => {
     });
 
     // Fire an event whenever an ad is clicked
-    $('.ad').on('click', 'a', (e) => {
+    $('.ad').on('click', (e) => {
       adId = $(e.target).parents('.ad').data('ad-id');
       _gaq.push(['_trackEvent', 'ad', 'click', adId, 1]);
     });
