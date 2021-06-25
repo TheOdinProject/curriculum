@@ -43,7 +43,7 @@ Afterwards we are declaring a function, which right now just sets a new count. I
 
 ### useEffect
 
-Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentDidUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
+Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above mentioned lifecycle methods can do. Let's have a closer look.
 
 ~~~javascript
 import React, { useState, useEffect } from "react";
@@ -149,7 +149,7 @@ If you write a return statement like the above in a useEffect, it will do the sa
 
 <div class="lesson-content__panel" markdown="1">
 1. The React documentation provides a whole section on hooks. Read through all steps [here](https://reactjs.org/docs/hooks-intro.html). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
-2. Now go back to your CV Project and rewrite it using functional components and hooks.
+2. Now go back to your CV Project and rewrite it using functional components and hooks.  
 </div>
 
 ### Additional Resources
