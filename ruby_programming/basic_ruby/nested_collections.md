@@ -323,6 +323,7 @@ Amazing! We have found a great solution to returning an array that only contains
 
 1. To learn more about using a hash with a nested array, read [this article](https://learn.co/lessons/nested-hash-iteration) from Learn.co.
 2. To learn more about using an array with a nested hash, read [the answer to this post](https://stackoverflow.com/questions/50529389/manipulating-output-from-an-array-of-nested-hashes-in-ruby) on Stack Overflow.
+3. Complete the [nested collections](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
 
