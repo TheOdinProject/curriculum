@@ -215,3 +215,6 @@ While we are pushing this API key to the frontend, this isn't something you shou
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
 </div>
+
+### Additional Resources
+- GitHub commits in public repository are visible to the public, meaning anyone can see and use it in a malicious manner. Thus, it's a good idea to secure sensitive info like API keys and Security keys so that you don't accidently push them into GitHub. Read [this article](https://dev.to/ptprashanttripathi/how-to-hide-api-key-in-github-repo-2ik9) to learn how to handle keys in a secure manner. This isn't a full-proof way to hide your keys but other advanced solutions are out of scope of this tutorial. You'll learn about it in later sections.
