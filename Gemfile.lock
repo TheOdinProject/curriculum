@@ -49,12 +49,12 @@ GEM
       kaminari (~> 1.0, >= 1.2.1)
       railties (>= 5.2, < 6.2)
       ransack (~> 2.1, >= 2.1.1)
-    activeadmin_addons (1.7.1)
+    activeadmin_addons (1.8.0)
       active_material
       railties
-      require_all (~> 1.5)
-      sass
-      select2-rails (~> 4.0)
+      require_all
+      sassc
+      sassc-rails
       xdan-datetimepicker-rails (~> 2.5.1)
     activejob (6.1.3.2)
       activesupport (= 6.1.3.2)
@@ -187,7 +187,7 @@ GEM
       cliver (~> 0.3)
       concurrent-ruby (~> 1.1)
       websocket-driver (>= 0.6, < 0.8)
-    ffi (1.15.0)
+    ffi (1.15.3)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -386,7 +386,7 @@ GEM
       activerecord (>= 5.2.4)
       activesupport (>= 5.2.4)
       i18n
-    rb-fsevent (0.10.4)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     react-rails (2.6.1)
@@ -402,7 +402,7 @@ GEM
       psych (~> 3.1)
       rainbow (>= 2.0, < 4.0)
     regexp_parser (2.1.1)
-    require_all (1.5.0)
+    require_all (3.0.0)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -450,11 +450,6 @@ GEM
     ruby-progressbar (1.11.0)
     ruby-statistics (2.1.2)
     ruby2_keywords (0.0.4)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -471,7 +466,6 @@ GEM
     seed-fu (2.3.9)
       activerecord (>= 3.1)
       activesupport (>= 3.1)
-    select2-rails (4.0.13)
     semantic_range (3.0.0)
     sentry-rails (4.5.2)
       railties (>= 5.0)
@@ -535,7 +529,7 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
-    websocket-driver (0.7.3)
+    websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xdan-datetimepicker-rails (2.5.4)
@@ -551,7 +545,7 @@ PLATFORMS
 DEPENDENCIES
   active_material
   activeadmin
-  activeadmin_addons (~> 1.7.1)
+  activeadmin_addons (~> 1.8.0)
   acts_as_votable
   better_errors
   binding_of_caller (~> 1.0)
