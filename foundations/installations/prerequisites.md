@@ -111,18 +111,19 @@ While your VM is running, do the following steps:
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
-  7. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
-  8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
-  9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
-  10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
-  11. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 12. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
-  12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
-  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  14. Once it finishes, close the terminal and the CD folder.
-  15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
-  16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
-  17. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + w` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
+  7. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
+  8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
+  9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
+  10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
+  11. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
+  12. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 12. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
+  13. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
+  14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
+  15. Once it finishes, close the terminal and the CD folder.
+  16. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
+  17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
+  18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 
@@ -138,6 +139,8 @@ Here are some tips to help you get started in a virtual environment:
 * All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed.
 
 * To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
+
+* To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (Right Ctrl) + E or click "View -> Take Screenshot" for a full screenshot, or you can click the "Whisker Menu" and type in "Screenshot", in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
 
 * All of the development that you'll do related to TOP will be done in the VM.
 
