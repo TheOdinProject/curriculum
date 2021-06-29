@@ -6,14 +6,14 @@ This section aims to provide you with all you need to know to get started with R
 
 React is one of the most powerful, widely used frontend frameworks.
 
-The landscape for frontend frameworks has been changing a lot over the last few years, so it is understandable to be scared of going for the "wrong" one.
+The landscape for frontend frameworks has been changing a lot over the last few years, so it is understandable to be worried about choosing the "wrong" one.
 [This article](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/) shows the recent development of frontend frameworks well. Once you start diving deeper into a framework, you will begin to love it. It makes your code easily scalable, more readable, and possibly a thousand times more efficient (just our modest estimation).
 
 Just to name a few reasons on why to learn React.js:
 
 - Reusability of components
 - Well supported due to its popularity
-- React is unopinionated, which means that it won't force you to follow any specific patterns or logic. It's all up to you.
+- React is not opinionated, which means that it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
 - Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML from our previous lessons.
 
 If you need more convincing, the recent [2020 StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020#technology-web-frameworks-all-respondents2) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
@@ -33,17 +33,17 @@ For example, this simple website could be divided into the following components:
 - `MainArticle`, which will be the component that renders your main content.
 - `NewsletterForm`, which is a simple form that lets a user input their email to receive the weekly newsletter.
 
-In React, each component is defined in an ES6 (ECMAScript 2015) module. ES6 introduced the `import` statement which allows you to import code from one module into another module. This allows us to write each component in a separate file and import all components to the parent component like so:
+In React, each component is defined in an ES6 (ECMAScript 2015) module. ES6 introduced the `import` statement which allows you to import code from one module into another module. This allows us to write each component in a separate file and import all components into the parent component like so:
 
 `import ExampleComponent from "./components/ExampleComponent"`
 
 In our case, that parent would be App.js.
 
-In the beginning, it might be a little bit difficult to figure out the best component structure, especially when state and props come into play. This topic will be discussed in the following sections.  For now, don't worry too much about the component structure. Understanding of best practices comes with experience. React components, in general, usually have parent and/or child components. This system of structuring your applications helps to keep your code organized and makes it easy to keep track of your components' relationships with each other.
+In the beginning, it might be a little bit difficult to figure out the best component structure, especially when state and props come into play. This topic will be discussed in the following sections. For now, don't worry too much about the component structure. Understanding of best practices comes with experience. React components, in general, usually have parent and/or child components. This system of structuring your applications helps to keep your code organized and makes it easy to keep track of your components' relationships with each other.
 
 To give you an example of a basic component, see the following code:
 
-~~~javascript
+```javascript
 import React, { Component } from 'react'
 
 class App extends Component {
@@ -63,39 +63,41 @@ class App extends Component {
 }
 
 export default App
-~~~
+```
 
-Does the code look foreign? Don't worry, it isn't as difficult as it looks. Let's walk through it step by step.
+Does the code look foreign? Don't worry, it isn't as complicated as it looks. Let's walk through it step by step.
 
-~~~javascript
-import React, { Component } from "react";
-~~~
+```javascript
+import React, { Component } from 'react';
+```
 
 With the above `import` statement, we are importing React and Component from the React library, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and not `React`, this is due to the way they are exported from the `react` module. Default exports are imported without curly brackets; everything else must be wrapped in curly brackets. Don't worry about this too much as we will get plenty of exposure to import and export statements soon.
 
-~~~javascript
+```javascript
 class App extends Component {
     {/* Some logic we haven't yet talked about. */}
 }
-~~~
+```
 
-Secondly, we are declaring the class component App. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every react component should have. One thing to notice is that React components, like all classes and factory functions, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
+Secondly, we are declaring the class component, `App`. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every React component should have. One thing to notice is that React components, like all classes and factory functions, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
 
-~~~javascript
+```javascript
 constructor() {
     super()
 }
-~~~
+```
 
 Next is the constructor. A constructor is not obligatory in a class component, but you will most likely encounter one because it becomes important when concepts like inheritance and state are involved. It is included here so you can get used to seeing it. You will usually see developers passing `props` as an argument to the constructor and also to the `super()` call, which must be called in any React constructor. Props will be discussed further in the next lesson. The idea here is to simply expose you to some terminology that we will be using in the future.
 
-~~~javascript
-{/* Some logic we haven't yet talked about. */}
-~~~
+```javascript
+{
+  /* Some logic we haven't yet talked about. */
+}
+```
 
 This syntax may look weird at first, but it is nothing more than a simple comment. In React, you write comments within curly brackets and `/* */`. There are sections of React components where the comments (denoted by `//`) we are used to are permissible. For now, we'll leave that as an exercise for you.
 
-~~~javascript
+```javascript
 render() {
     return (
         <div className="App">
@@ -103,11 +105,11 @@ render() {
         </div>
     )
 }
-~~~
+```
 
 The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually **JSX**. JSX is an HTML-like syntax that is "transpiled" (or converted) into JavaScript so a browser is able to process it. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. One thing you should know about JSX is that you can't use some JavaScript protected words as html attributes anymore, such as `class`, `onchange`, or `for`. Instead of `class` you will need to use `className`, instead of `onchange` you write `onChange`, and instead of `for`, you must use ... wait for it ... `htmlFor`. All attributes in JSX are written in camelCase and some have their names changed completely to avoid the transpiler getting too confused about whether you're assigning a label `for` an input, or instantiating a `for` loop. You should be fairly familiar with the camelCase naming convention from the naming of variables in JavaScript.
 
-The `render()`  function you see is the most used React "lifecycle" function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ top-level JSX element. When you want to return elements nested within one another, they need to be wrapped in a single parent element. For example:
+The `render()` function you see is the most used React "lifecycle" function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ top-level JSX element. When you want to return elements nested within one another, they need to be wrapped in a single parent element. For example:
 
 ```javascript
 // BAD - will throw an error!
@@ -131,35 +133,29 @@ render() {
 
 Finally, to be able to reuse this `App` component we created in other files of our project, we have to export the component. In our example, we export the component as the file's default export:
 
-~~~javascript
+```javascript
 export default App;
-~~~
+```
 
 If you have multiple components in one file, you could export each component separately by adding the `export` keyword before the declaration of the component, or you could export them all at once using this syntax:
 
 ```javascript
-export {
-    ComponentA,
-    ComponentB,
-    ComponentC
-}
+export { ComponentA, ComponentB, ComponentC };
 ```
 
 However, when you import them, they will each need to be wrapped in curly braces. If you export a component as a default, you can import it without the curly braces. If you export multiple components, you have to import them inside of curly brackets.
 
 If you're confused about this, take a minute to read up a little bit on ES6 [imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [exports](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export).
 
-So far, so good! We have already learned a lot about components in React. Using class components is one of two ways of defining components in react. The other, more modern, approach is to define the component as a function (like a factory function).
+So far, so good! We have already learned a lot about components in React. Using class components is one of two ways of defining components in React. The other, more modern, approach is to define the component as a function (like a factory function).
 
 A basic functional component looks something like this:
 
-~~~javascript
-import React from "react";
+```javascript
+import React from 'react';
 
 function App() {
-    return (
-        <div className="App">Hello World!</div>
-    )
+  return <div className="App">Hello World!</div>;
 }
 
 // OR (arrow-function syntax)
@@ -170,12 +166,10 @@ const App = () => {
 
 // OR (implicit return)
 
-const App = () => (
-    <div className="App">Hello World!</div>
-);
+const App = () => <div className="App">Hello World!</div>;
 
 export default App;
-~~~
+```
 
 As you can see, there are a few differences between functional and class components. With functional components:
 
