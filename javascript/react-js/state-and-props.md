@@ -46,7 +46,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MyComponent title='React' />
+        <MyComponent title="React" />
       </div>
     );
   }
@@ -104,7 +104,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MyComponent title='React' onButtonClicked={this.onClickBtn} />
+        <MyComponent title="React" onButtonClicked={this.onClickBtn} />
       </div>
     );
   }
@@ -249,7 +249,7 @@ import MyComponent from './MyComponent';
 function App() {
   return (
     <div>
-      <MyComponent title='Hello World' />
+      <MyComponent title="Hello World" />
     </div>
   );
 }
