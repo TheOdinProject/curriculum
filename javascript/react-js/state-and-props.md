@@ -16,17 +16,17 @@ Let's take the following example:
 import React, { Component } from 'react';
 
 class MyComponent extends Component {
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		return (
-			<div>
-				<h1>{this.props.title}</h1>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <h1>{this.props.title}</h1>
+      </div>
+    );
+  }
 }
 
 export default MyComponent;
@@ -39,17 +39,17 @@ import React, { Component } from 'react';
 import MyComponent from './MyComponent';
 
 class App extends Component {
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		return (
-			<div>
-				<MyComponent title='React' />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <MyComponent title='React' />
+      </div>
+    );
+  }
 }
 
 export default App;
@@ -67,18 +67,18 @@ Now, you might be wondering how props work with functions. Believe it or not, th
 import React, { Component } from 'react';
 
 class MyComponent extends Component {
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		return (
-			<div>
-				<h1>{this.props.title}</h1>
-				<button onClick={this.props.onButtonClicked}>Click Me!</button>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <h1>{this.props.title}</h1>
+        <button onClick={this.props.onButtonClicked}>Click Me!</button>
+      </div>
+    );
+  }
 }
 
 export default MyComponent;
@@ -91,23 +91,23 @@ import React, { Component } from 'react';
 import MyComponent from './MyComponent';
 
 class App extends Component {
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
 
-		this.onClickBtn = this.onClickBtn.bind(this);
-	}
+    this.onClickBtn = this.onClickBtn.bind(this);
+  }
 
-	onClickBtn() {
-		console.log('Button has been clicked!');
-	}
+  onClickBtn() {
+    console.log('Button has been clicked!');
+  }
 
-	render() {
-		return (
-			<div>
-				<MyComponent title='React' onButtonClicked={this.onClickBtn} />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <MyComponent title='React' onButtonClicked={this.onClickBtn} />
+      </div>
+    );
+  }
 }
 
 export default App;
@@ -135,20 +135,20 @@ As you can see when you are passing many properties or functions to a component,
 import React, { Component } from 'react';
 
 class MyComponent extends Component {
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		const { title, onButtonClicked } = this.props;
+  render() {
+    const { title, onButtonClicked } = this.props;
 
-		return (
-			<div>
-				<h1>{title}</h1>
-				<button onClick={onButtonClicked}>Click Me!</button>
-			</div>
-		);
-	}
+    return (
+      <div>
+        <h1>{title}</h1>
+        <button onClick={onButtonClicked}>Click Me!</button>
+      </div>
+    );
+  }
 }
 
 export default MyComponent;
@@ -168,30 +168,30 @@ The following example of our simple counter app shows how to define `state` in R
 import React, { Component } from 'react';
 
 class App extends Component {
-	constructor() {
-		super();
+  constructor() {
+    super();
 
-		this.state = {
-			count: 0,
-		};
+    this.state = {
+      count: 0,
+    };
 
-		this.countUp = this.countUp.bind(this);
-	}
+    this.countUp = this.countUp.bind(this);
+  }
 
-	countUp() {
-		this.setState({
-			count: this.state.count + 1,
-		});
-	}
+  countUp() {
+    this.setState({
+      count: this.state.count + 1,
+    });
+  }
 
-	render() {
-		return (
-			<div>
-				<button onClick={this.countUp}>Click Me!</button>
-				<p>{this.state.count}</p>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <button onClick={this.countUp}>Click Me!</button>
+        <p>{this.state.count}</p>
+      </div>
+    );
+  }
 }
 ```
 
@@ -214,11 +214,11 @@ Consider a webpage such as a forum where the "main" component of the site (we'll
 ```javascript
 // in the render method of App.js
 return (
-	<div>
-		<NavBar username={this.state.username} />
-		<Forum username={this.state.username} />
-		<Footer />
-	</div>
+  <div>
+    <NavBar username={this.state.username} />
+    <Forum username={this.state.username} />
+    <Footer />
+  </div>
 );
 ```
 
@@ -234,7 +234,7 @@ As we learned in the previous lesson, and repeatedly made reference to in this l
 import React from 'react';
 
 function MyComponent(props) {
-	return <div>{props.title}</div>;
+  return <div>{props.title}</div>;
 }
 
 export default MyComponent;
@@ -247,11 +247,11 @@ import React from 'react';
 import MyComponent from './MyComponent';
 
 function App() {
-	return (
-		<div>
-			<MyComponent title='Hello World' />
-		</div>
-	);
+  return (
+    <div>
+      <MyComponent title='Hello World' />
+    </div>
+  );
 }
 
 export default App;
@@ -261,7 +261,7 @@ Of course, we can also destructure from props here. By adding the line `const {t
 
 ```javascript
 function MyComponent({ title }) {
-	// rest of code
+  // rest of code
 }
 ```
 
