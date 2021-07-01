@@ -4,7 +4,7 @@ ruby '~> 2.7'
 gem 'rails', '6.1.3.2'
 
 gem 'activeadmin'
-gem 'activeadmin_addons', '~> 1.8.0'
+gem 'activeadmin_addons', '~> 1.8.2'
 gem 'active_material'
 gem 'acts_as_votable'
 gem 'bootstrap', '4.6.0'

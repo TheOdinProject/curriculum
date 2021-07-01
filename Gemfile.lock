@@ -49,7 +49,7 @@ GEM
       kaminari (~> 1.0, >= 1.2.1)
       railties (>= 5.2, < 6.2)
       ransack (~> 2.1, >= 2.1.1)
-    activeadmin_addons (1.8.0)
+    activeadmin_addons (1.8.2)
       active_material
       railties
       require_all
@@ -545,7 +545,7 @@ PLATFORMS
 DEPENDENCIES
   active_material
   activeadmin
-  activeadmin_addons (~> 1.8.0)
+  activeadmin_addons (~> 1.8.2)
   acts_as_votable
   better_errors
   binding_of_caller (~> 1.0)
