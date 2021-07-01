@@ -18,9 +18,13 @@ class Api::PointsController < ApplicationController
 
   def create
     user_points = Point.find_or_create_by(discord_id: params[:discord_id].to_i)
-    user_points.increment_points
+    value = params.fetch(:value, 1).to_i
 
-    render json: user_points
+    if user_points.increment_points_by(value)
+      render json: user_points
+    else
+      render json: { message: 'Unable to update points' }
+    end
   end
 
   private
