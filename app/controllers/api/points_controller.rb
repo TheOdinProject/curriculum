@@ -3,7 +3,7 @@ class Api::PointsController < ApplicationController
   before_action :authenticate, except: %i[index show]
 
   def index
-    render json: Point.all.order(points: :desc).limit(limit).offset(offset)
+    render json: Point.all.order(points: :desc).limit(params[:limit]).offset(params[:offset])
   end
 
   def show
@@ -24,14 +24,6 @@ class Api::PointsController < ApplicationController
   end
 
   private
-
-  def offset
-    params[:offset]
-  end
-
-  def limit
-    params[:limit]
-  end
 
   def authenticate
     authenticate_or_request_with_http_token do |token|
