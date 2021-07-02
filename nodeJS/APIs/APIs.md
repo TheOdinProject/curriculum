@@ -53,6 +53,3 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 1. [This article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design) is a good resource for understanding and [organizing](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths) RESTful APIs.
 1. Read and code along with [this tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) on setting up a REST API in Express. This is one of the best Express tutorials we've come across, it also talks about modular code organization, writing middleware, and links to some great extra info at the end.
 </div>
-
-### Additional Resources
-- A [simple](https://simple.wikipedia.org/wiki/Representational_state_transfer) example based definition of REST.

@@ -18,7 +18,7 @@ You'll get good at setting up apps quickly in the coming lessons by using more o
 3. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum.  Find it at [http://www.theodinproject.com](http://www.theodinproject.com)"
 4. Create and migrate a User model with `:username`, `:email` and `:password`.
 5. Add validations for presence to each field in the model.
-6. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `only:` option to specify just the `:new` and `:create` actions.
+6. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `:only` option to specify just the `:new` and `:create` actions.
 7. Build a new UsersController (either manually or via the `$ rails generate controller Users` generator).
 8. Write empty methods for `#new` and `#create` in your UsersController.
 9. Create your `#new` view in `app/views/users/new.html.erb`.
