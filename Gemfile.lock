@@ -99,6 +99,8 @@ GEM
     bindex (0.8.1)
     binding_of_caller (1.0.0)
       debug_inspector (>= 0.0.1)
+    bootsnap (1.7.5)
+      msgpack (~> 1.0)
     bootstrap (4.6.0)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
@@ -281,6 +283,7 @@ GEM
     mini_mime (1.1.0)
     mini_portile2 (2.5.3)
     minitest (5.14.4)
+    msgpack (1.4.2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
@@ -549,6 +552,7 @@ DEPENDENCIES
   acts_as_votable
   better_errors
   binding_of_caller (~> 1.0)
+  bootsnap (~> 1.7.5)
   bootstrap (= 4.6.0)
   cancancan
   capybara

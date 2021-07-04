@@ -1,0 +1,8 @@
+app/javascript
+app/assets/fonts
+app/assets/images
+app/assets/javascripts
+app/assets/stylesheets
+node_modules
+spec
+tmp/cache

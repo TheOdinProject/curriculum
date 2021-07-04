@@ -7,6 +7,7 @@ gem 'activeadmin'
 gem 'activeadmin_addons', '~> 1.8.2'
 gem 'active_material'
 gem 'acts_as_votable'
+gem 'bootsnap', '~> 1.7.5', require: false
 gem 'bootstrap', '4.6.0'
 gem 'cancancan'
 gem 'devise', '>= 4.7.1'
