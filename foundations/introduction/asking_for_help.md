@@ -4,8 +4,8 @@ Along your programming journey, you will inevitably need to ask questions in an 
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
- * Explain techniques for asking programming questions
- * Explain and avoid qualities of “bad” questions
+* Explain techniques for asking programming questions
+* Explain and avoid qualities of “bad” questions
 
 ### Tips for Getting The Best Help Possible
 
@@ -17,11 +17,11 @@ You can ask theoretical, vague questions, but you’re going to get theoretical,
 
 A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below: 
  
-> “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
+>“How do I complete Step 5 of the Rock Paper Scissors Assignment”?
 
 Keep in mind that you’re actually supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this: 
  
->  “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
+>“Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
 
 In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
 
