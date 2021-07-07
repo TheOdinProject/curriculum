@@ -31,6 +31,7 @@ course.add_section do |section|
     foundation_lessons.fetch('How this Course Will Work'),
     foundation_lessons.fetch('Introduction to Web Development'),
     foundation_lessons.fetch('Motivation and Mindset'),
+    foundation_lessons.fetch('Asking For Help'),
     foundation_lessons.fetch('Join the Odin Community'),
     foundation_lessons.fetch('How Does the Web Work?'),
   )
