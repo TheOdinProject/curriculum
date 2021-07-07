@@ -21,7 +21,7 @@ def foundation_lessons
       url: '/foundations/introduction/motivation_and_mindset.md',
       identifier_uuid: '276366c4-881b-4673-8e29-8f9ce8f3ae1d',
     },
-     'Asking For Help' => {
+    'Asking For Help' => {
       title: 'Asking For Help',
       description: 'Guidelines for asking for help in programming communities.',
       is_project: false,
