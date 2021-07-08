@@ -1,6 +1,8 @@
 class GithubWebhooksController < ApplicationController
   include GithubWebhook::Processor
 
+  skip_before_action :verify_authenticity_token
+
   def github_push(payload)
     event = ::GithubPushEventAdaptor.new(payload)
 
