@@ -251,7 +251,7 @@ Just as a refresher, here's a very basic controller setup for handling `#new` ac
   ...
 ~~~
 
-I wanted to show this again so you could remind yourself what's going on in the form's lifecycle.  The user presumably went to the path for the `#new` action, likely `http://www.yourapp.com/users/new`.  That ran the `#new` action, which created a new user object in memory (but not yet saved to the database) and rendered the `new.html.erb` view.  The view probably used `form_for` on `@user` to make things nice and easy for the developer.
+I wanted to show this again so you could remind yourself what's going on in the form's lifecycle.  The user presumably went to the path for the `#new` action, likely `http://www.yourapp.com/users/new`.  That ran the `#new` action, which created a new user object in memory (but not yet saved to the database) and rendered the `new.html.erb` view.  The view probably used `form_with model: @user` to make things nice and easy for the developer.
 
 Once the form gets submitted, the `#create` action will build another new User object with the parameters we explicitly tell it are okay.  Recall that our custom `#user_params` method will return the `params[:user]` hash for us, which lets `User.new` build us a complete new instance.  If that instance can be saved to the database, we're all good and we go to that user's `show.html.erb` page.
 
