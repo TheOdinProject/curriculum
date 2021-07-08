@@ -4,9 +4,10 @@ Along your programming journey, you will inevitably need to ask questions in an 
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
-- Explain techniques for asking programming questions
-- Explain and avoid qualities of “bad” questions
-- Ask effective and well formed questions
+
+* Explain techniques for asking programming questions
+* Explain and avoid qualities of “bad” questions
+* Ask effective and well formed questions
 
 ### Tips for Getting The Best Help Possible
 
