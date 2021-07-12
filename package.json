@@ -12,7 +12,7 @@
     "@sentry/browser": "^6.8.0",
     "autoprefixer": "^9",
     "axios": "^0.21.1",
-    "babel-plugin-prismjs": "^2.0.1",
+    "babel-plugin-prismjs": "^2.1.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.6.0",
     "browserslist": "^4.16.6",
