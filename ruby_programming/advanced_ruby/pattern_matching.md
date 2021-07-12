@@ -99,7 +99,7 @@ When we say pattern we aren't talking about design patterns which you may have c
 
 There are two possible return values from a pattern match statement. The first is `true` which is returned whenever there is a match, even when the match is the else clause in a statement. The second possible return value is a `NoMatchingPatternError` whenever no match can be found. In our examples below when we `puts` something inside a case statement we'll use `# =>` to show the value that will be printed by this. In your terminal though you'll see the value printed followed by `=> true` below. We'll omit that because it's not relevant to what we're trying to show you. Just be aware that the `true` you see is just the return value of the last thing evaluated. Standard Ruby behaviour.
 
-As you'll see though the point of a pattern match usually is to not only match against a pattern but also bind all of part of the match to one or more variables that you can then use outside of the pattern match expression.
+As you'll see though the point of a pattern match usually is to not only match against a pattern but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression.
 
 ### Object Pattern Match
 
