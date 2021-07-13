@@ -36,7 +36,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
   /* eslint-disable react/jsx-props-no-spreading */
   return (
     <div>
-      <h1 className="text-center accent">Flag Submission 1</h1>
+      <h1 className="text-center accent">Flag Submission</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <input
