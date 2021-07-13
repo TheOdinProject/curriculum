@@ -1,5 +1,5 @@
 import React from 'react';
-import { useForm } from 'react-hook-form-7';
+import { useForm } from 'react-hook-form';
 import { func, object, number } from 'prop-types';
 
 const FlagForm = ({ onSubmit, submission, userId }) => {

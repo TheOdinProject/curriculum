@@ -1,7 +1,7 @@
 import React from 'react';
-import { useForm } from 'react-hook-form-7';
+import { useForm } from 'react-hook-form';
 import { func, object } from 'prop-types';
-import { yupResolver } from '@hookform/resolvers';
+import { yupResolver } from '@hookform/resolvers/yup';
 
 import schema from '../schemas/project-submission-schema';
 

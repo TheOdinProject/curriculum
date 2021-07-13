@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import { useForm } from 'react-hook-form-7';
+import { useForm } from 'react-hook-form';
 import PropTypes from 'prop-types';
-import { yupResolver } from '@hookform/resolvers';
+import { yupResolver } from '@hookform/resolvers/yup';
 
 import schema from '../schemas/project-submission-schema';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';

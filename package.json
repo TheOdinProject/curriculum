@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
-    "@hookform/resolvers": "^0.1.1",
+    "@hookform/resolvers": "2.6.1",
     "@rails/ujs": "^6.1.4",
     "@rails/webpacker": "5.4.0",
     "@sentry/browser": "^6.8.0",
@@ -27,8 +27,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-flip-move": "^3.0.4",
-    "react-hook-form": "^6.15.1",
-    "react-hook-form-7": "npm:react-hook-form@7.11.0",
+    "react-hook-form": "7.11.0",
     "react-scrolllock": "^5.0.1",
     "react-tabs": "^3.2.2",
     "react_ujs": "^2.6.1",
