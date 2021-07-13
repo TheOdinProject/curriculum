@@ -10,7 +10,7 @@ In the previous lesson, you learned a lot about components and how to structure 
 
 Let's take the following example:
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React, { Component } from 'react';
@@ -30,9 +30,9 @@ class MyComponent extends Component {
 }
 
 export default MyComponent;
-```
+~~~
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from 'react';
@@ -53,7 +53,7 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
 Let's take a look at what is happening here. Above, there are two components, `MyComponent` and `App`. As you can see, `MyComponent` is imported into `App`, and then rendered as a child component of `App`. In the JSX where we implement `MyComponent`, we also pass down a property called `title`. This syntax should look familiar to you: it's the same way we assign attributes to HTML elements. In this specific example, we assign a "prop" (short for _property_, as in an object property) called `title` which we set to the value `"React"`. In `MyComponent`, we can access this "prop" from within `MyComponent` with the syntax `this.props.title`. This technique is called "passing props."
 
@@ -61,7 +61,7 @@ _IMPORTANT_: Make sure you pass `props` to the constructor of the child componen
 
 Now, you might be wondering how props work with functions. Believe it or not, they work the same way!
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React, { Component } from 'react';
@@ -82,9 +82,9 @@ class MyComponent extends Component {
 }
 
 export default MyComponent;
-```
+~~~
 
-```javascript
+~~~javascript
 // App.js
 
 import React, { Component } from 'react';
@@ -111,7 +111,7 @@ class App extends Component {
 }
 
 export default App;
-```
+~~~
 
 Ok, there is a little bit more going on here, but in the end, it works exactly as in the example before. First, there is `MyComponent`, which is essentially the same except one key difference: `{this.props.onButtonClicked}` is assigned to the `onClick` event of the component. Essentially, what this means is:
 
@@ -129,7 +129,7 @@ Now the only thing we have to do is bind the method to `this`; we do that in the
 
 As you can see when you are passing many properties or functions to a component, it can get quite exhausting to always refer to them with `this.props.someProperty`. [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to the rescue! We can alternatively write the above as follows:
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React, { Component } from 'react';
@@ -152,7 +152,7 @@ class MyComponent extends Component {
 }
 
 export default MyComponent;
-```
+~~~
 
 Here, we are destructuring `title` and `onButtonClicked` from `this.props`, which lets us refer to them with just their names. Make sure to destructure within the render method when using class components. In functional components, you would destructure outside of the return statement or inside the parameter parentheses of the functional component (more on those later).
 
@@ -164,7 +164,7 @@ The other main pillar of React is `state`. State is simply what we use to handle
 
 The following example of our simple counter app shows how to define `state` in React:
 
-```javascript
+~~~javascript
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -193,7 +193,7 @@ class App extends Component {
     );
   }
 }
-```
+~~~
 
 In the above component, we declared our state as an object with a property `count` set to an initial value of `0`. You **always** declare state in the constructor of a class component. Once again, this will work differently when we cover functional components later. The `setState` method we call inside the `countUp` method sets the state to a new value.
 
@@ -211,7 +211,7 @@ Yes! One of the greatest and most powerful features of React is the ability to p
 
 Consider a webpage such as a forum where the "main" component of the site (we'll call that component `Forum`) needed to know the user's username so that when they are viewing a post or reply they wrote, the author is shown as "me" instead of "user123". You'd probably want to keep that username as a piece of data in `state` so each user that visited the site and logged in could have this functionality. Now let's say on that same site, you want the login button on the navigation bar to change into the user's username to visually indicate to them that they are logged in. Instead of keeping this piece of state in both the `NavBar` and `Forum` component, we can keep it in their parent, `App`, and pass it down as a prop to both like so:
 
-```javascript
+~~~javascript
 // in the render method of App.js
 return (
   <div>
@@ -220,7 +220,7 @@ return (
     <Footer />
   </div>
 );
-```
+~~~
 
 Now, when the user logs in, both the `NavBar` and `Forum` components will update, but the `Footer` component (which doesn't need to know about that data) will not re-render. Pretty cool, right?
 
@@ -228,7 +228,7 @@ Now, when the user logs in, both the `NavBar` and `Forum` components will update
 
 As we learned in the previous lesson, and repeatedly made reference to in this lesson, React provides the ability to create components as _functions_ instead of classes. We call these functional components. They use somewhat different syntax than the class components we've discussed thus far, but they essentially do that same thing. In functional components, we don't pass `props` as an argument to the constructor, but instead just pass it as an argument to the component itself. Another major difference between functional and class components concerning props is the way you reference the props. You learned that in a class component, the props that have been passed down from the parent component can be used with this syntax: `this.props.someFunction`, however in functional components, we don't need to reference `this`, so we access `props` simply with: `props.someFunction`. That's the main difference with `props` between class and functional components. Let consider a quick example to solidify this:
 
-```javascript
+~~~javascript
 // MyComponent.js
 
 import React from 'react';
@@ -238,9 +238,9 @@ function MyComponent(props) {
 }
 
 export default MyComponent;
-```
+~~~
 
-```javascript
+~~~javascript
 // App.js
 
 import React from 'react';
@@ -255,15 +255,15 @@ function App() {
 }
 
 export default App;
-```
+~~~
 
 Of course, we can also destructure from props here. By adding the line `const {title} = props` above the return statement in `MyComponent.js` we can just refer to the title using `{title}`. Or, we can skip that line of code altogether if we destructure the prop inside the parameter parentheses like so:
 
-```javascript
+~~~javascript
 function MyComponent({ title }) {
   // rest of code
 }
-```
+~~~
 
 Using state in functional components is a bit different. Before the end of 2018, developers were not able to access state in functional components at all. Functional components were therefore just used for returning JSX logic with props. However, with the introduction of **React Hooks**, this changed. Now we can set and access state in functional components, and in the modern React landscape, they are often preferred over class components. React developers will be exposed to both kinds of components on the job, so it's imperative for us to be very familiar with both. The way React hooks work is the topic of one of the following lessons, so don't worry about it right now. We are setting you up to say "Hey! I remember that" when it's introduced.
 
