@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { useForm } from 'react-hook-form';
+import React from 'react';
+import { useForm } from 'react-hook-form-7';
 import { func, object } from 'prop-types';
 import { yupResolver } from '@hookform/resolvers';
 
@@ -9,7 +9,9 @@ const EditForm = ({
   submission, onSubmit, onClose, onDelete,
 }) => {
   const {
-    register, errors, handleSubmit, formState,
+    register,
+    handleSubmit,
+    formState,
   } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
@@ -18,6 +20,10 @@ const EditForm = ({
       is_public: submission.is_public,
     },
   });
+
+  const {
+    errors,
+  } = formState;
 
   const handleDelete = () => {
     onDelete(submission.id);
@@ -33,23 +39,23 @@ const EditForm = ({
     );
   }
 
+  /* eslint-disable react/jsx-props-no-spreading */
   return (
     <div>
       <h1 className="text-center accent">Edit Your Project</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
-        <input type="hidden" name="id" value={submission.id} ref={register()} />
-        <input type="hidden" name="lesson_id" value={submission.lesson_id} ref={register()} />
+        <input type="hidden" {...register('id')} value={submission.id} />
+        <input type="hidden" {...register('lesson_id')} value={submission.lesson_id} />
         <div className="form__section">
           <span className="form__icon fab fa-github" />
           <input
             autoFocus
             className="form__element form__element--with-icon"
             type="text"
-            name="repo_url"
+            {...register('repo_url')}
             placeholder="Repository URL"
             data-test-id="repo-url-field"
-            ref={register()}
           />
         </div>
         {errors.repo_url && (
@@ -67,9 +73,8 @@ const EditForm = ({
                 className="form__element form__element--with-icon"
                 type="text"
                 placeholder="Live Preview URL"
-                name="live_preview_url"
+                {...register('live_preview_url')}
                 data-test-id="live-preview-url-field"
-                ref={register()}
               />
             </div>
             {errors.live_preview_url && (
@@ -86,7 +91,7 @@ const EditForm = ({
           <div className="form__toggle-checkbox">
             <p className="bold">MAKE SOLUTION PUBLIC</p>
             <label htmlFor="is_public" className="toggle form__public-checkbox" data-test-id="is-public-toggle-slider">
-              <input id="is_public" className="toggle__input" type="checkbox" name="is_public" ref={register()} />
+              <input id="is_public" className="toggle__input" type="checkbox" {...register('is_public')} />
               <div className="toggle__fill round" />
             </label>
           </div>
@@ -101,6 +106,7 @@ const EditForm = ({
       </form>
     </div>
   );
+  /* eslint-enable react/jsx-props-no-spreading */
 };
 
 EditForm.propTypes = {
