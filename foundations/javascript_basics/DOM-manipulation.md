@@ -222,6 +222,8 @@ Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your 
 </head>
 ~~~
 
+> Read the second bullet point in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html) for more information, which also includes a link to additional script loading strategies.
+
 ### Exercise
 
 Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!
