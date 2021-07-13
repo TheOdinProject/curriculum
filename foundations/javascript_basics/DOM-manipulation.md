@@ -390,7 +390,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    c. Now let's merge our `rps-ui` branch into `main`, our current branch with `git merge rps-ui`.  
    d. If everything goes fine, our `rps-ui` branch is now successfully merged with main! Use `git log` and you'll see all the commits you've made to your feature branch on top of the commits you made to the main branch. Now for our final step!  
    e. Let's push our `main` branch into our remote repo by running `git push origin main` . Go to your Github repo and you'll see that our `main` branch will have all the changes and commits you made to the `rps-ui` branch. Congratulations! You've successfully pushed your first feature into your production branch!  
-   f. Now that we have all our code in the main branch, we don't really need our `rps-ui` branch anymore. Let's do some cleanup, both locally and in the remote repo. Delete the branch from our local repo with `git branch -d rps-ui` and also delete it from the remote repo on Github with `git push origin --delete rps-ui`. Congrats, we're all done with our cleanup!  
+   f. Now that we have all our code in the main branch, we don't really need our `rps-ui` branch anymore. Let's do some cleanup, both locally and in the remote repo. Delete the branch from our local repo with `git branch -d rps-ui` and also delete it from the remote repo on Github with `git push --delete origin rps-ui`. Congrats, we're all done with our cleanup!
 5. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 ### Additional Resources
