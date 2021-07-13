@@ -214,6 +214,14 @@ Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your 
 > **Important note:**
 > Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
+> Alternatively, you can link the JavaScript file in the `<head>` of your HTML document. Use the `<script>` tag with the `src` attribute containing the path to the JS file, and include the `defer` keyword to load the file *after* the HTML is parsed, as such:
+
+~~~html
+<head>
+  <script src="js-file.js" defer></script>
+</head>
+~~~
+
 ### Exercise
 
 Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!
