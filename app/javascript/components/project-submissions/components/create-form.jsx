@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form-7';
 import PropTypes from 'prop-types';
 import { yupResolver } from '@hookform/resolvers';
 
@@ -9,13 +9,19 @@ import ProjectSubmissionContext from '../ProjectSubmissionContext';
 const CreateForm = ({ onClose, onSubmit, userId }) => {
   const { lesson } = useContext(ProjectSubmissionContext);
   const {
-    register, handleSubmit, formState, errors,
+    register,
+    handleSubmit,
+    formState,
   } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
       is_public: true,
     },
   });
+
+  const {
+    errors,
+  } = formState;
 
   if (userId === null) {
     return (
@@ -41,6 +47,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
     );
   }
 
+  /* eslint-disable react/jsx-props-no-spreading */
   return (
     <div>
       <h1 className="text-center accent">Upload Your Project</h1>
@@ -52,10 +59,9 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
             autoFocus
             className="form__element form__element--with-icon"
             type="url"
-            name="repo_url"
+            {...register('repo_url')}
             placeholder="Repository URL"
             data-test-id="repo-url-field"
-            ref={register()}
           />
         </div>
         {errors.repo_url && (
@@ -74,9 +80,8 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
                 className="form__element form__element--with-icon"
                 type="url"
                 placeholder="Live Preview URL"
-                name="live_preview_url"
+                {...register('live_preview_url')}
                 data-test-id="live-preview-url-field"
-                ref={register()}
               />
             </div>
             { errors.live_preview_url && (
@@ -96,8 +101,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
                 id="is_public"
                 className="toggle__input"
                 type="checkbox"
-                name="is_public"
-                ref={register()}
+                {...register('is_public')}
               />
               <div className="toggle__fill" />
             </label>
@@ -115,6 +119,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
       </form>
     </div>
   );
+  /* eslint-enable react/jsx-props-no-spreading */
 };
 
 CreateForm.defaultProps = {
