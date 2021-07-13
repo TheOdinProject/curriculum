@@ -65,7 +65,6 @@ course.add_section do |section|
   section.add_lessons(
     foundation_lessons.fetch('Introduction to Git'),
     foundation_lessons.fetch('Git Basics'),
-    foundation_lessons.fetch('Practicing Git Basics'),
   )
 end
 

@@ -91,15 +91,6 @@ def foundation_lessons
       url: '/foundations/git_basics/git_basics.md',
       identifier_uuid: 'e48795b0-1df8-49c8-9c63-2072f31a36eb',
     },
-    'Practicing Git Basics' => {
-      title: 'Practicing Git Basics',
-      description: 'In this tutorial you will see how Git is used on a small project.',
-      is_project: true,
-      url: '/foundations/git_basics/project_practicing_git_basics.md',
-      accepts_submission: false,
-      has_live_preview: false,
-      identifier_uuid: '1b9a7591-32ae-4dd6-a94f-07b212da8c6a',
-    },
     'Introduction to the Front End' => {
       title: 'Introduction to the Front End',
       description: "An overview of what exactly the 'Front End' is",
