@@ -55,6 +55,7 @@ group :development, :test, :docker do
   gem 'rails-controller-testing'
   gem 'rake', '~> 13.0'
   gem 'rspec-rails'
+  gem 'rspec-retry', '~> 0.6.2'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'vcr', '~> 6.0'
