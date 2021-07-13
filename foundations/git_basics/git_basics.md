@@ -104,7 +104,7 @@ For example,
 * `git status` is read as `git | status | (no destination)`.
 
 ### Conclusion
-You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it. Therefore, we have a project coming right after this lesson where we'll walk you through the entire Git workflow, which is the exact same process you would use in a real project.
+You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
 
 The main thing to take away from this lesson is the **basic workflow**. The commands you've learned here are the ones you will be using the most often with Git.
 
