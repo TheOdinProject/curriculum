@@ -136,4 +136,9 @@
       color: $primary;
     }
   }
+
+  blockquote {
+    border-left: solid 1px $grey;
+    padding-left: 1em;
+  }
 }
