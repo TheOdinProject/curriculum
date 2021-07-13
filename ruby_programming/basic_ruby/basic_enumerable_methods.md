@@ -34,6 +34,7 @@ end
 
 invited_list #=> ["Sharon", "Leo", "Leila", "Arun"]
 ~~~
+_Warning:_ The __do__ is optional in a for loop in Ruby and may cause issues if used in IRB
 
 That's not too hard, but imagine having to do that for every party you host from now until the end of time! It might be easier to just stop hanging out with Brian.
 
