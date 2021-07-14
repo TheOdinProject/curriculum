@@ -19,13 +19,13 @@ By the end of this lesson, you should be able to:
 
 There are two ways to view the accessibility tree in Firefox: you can either right click on a page and select the "Inspect Accessibility Properties" option, or you can open the dev tools however you normally would and click the **Accessibility** tab. If you don't see this tab anywhere, then you will most likely need to enable it within the dev tools settings.
 
-INSERT IMAGE 04
+![Firefox's accessibility tree](https://user-images.githubusercontent.com/70952936/125674331-b8312e86-0453-42db-9f26-10ae18823918.jpg)
 
 As you can see from the image above, the accessibility tree in Firefox looks sort of like a more bare-bones version of the DOM. The only information listed is the role and the name property of each element on the page. You can expand each object to see its children's role and name properties, and you can continue doing so until you reach the end of that "branch". If you right click anywhere within the accessibility tree, you can even select a "Print to JSON" option, which will open the contents of the tree as JSON in a new browser tab.
 
 The accessibility tree itself isn't too complicated, so there's not actually a lot to go over. Did you notice anything different about the element picker tool, though?
 
-INSERT IMAGE 05
+![Firefox's picker tools comparison](https://user-images.githubusercontent.com/70952936/125674362-70bc34c9-73f2-46d2-bce5-877c8060327b.png)
 
 When you're in the **Inspector** tab, you can use the "element picker" tool to hover over an element on the page to see a visual representation of its box model, or you can click on an element and it will select that element in the **Inspector** tab. When you're in the **Accessibility** tab, though, this tool becomes an "accessible object picker" tool. Once you activate this tool you can hover over elements on the page to view some a11y information or you can click on an element to select it in the accessibility tree.
 
@@ -33,7 +33,7 @@ When you're in the **Inspector** tab, you can use the "element picker" tool to h
 
 There's only one way to view the accessibility tree within Chrome: open the dev tools however you normally would, then within the **Elements** tab select the **Accessibility** pane on the right side of the window (it should be in the same area as the **Styles** pane, though you may have to open the overflow menu). If you don't see this pane anywhere, you may need to enable an experimental feature if using an older version of Chrome.
 
-INSERT IMAGE 06
+![Chrome's accessibility tree](https://user-images.githubusercontent.com/70952936/125674441-44095206-0508-45d0-ab2d-31ed4a2d00cb.jpg)
 
 The first thing you'll notice about the accessibility tree in Chrome is that it's laid out a little differently compared to Firefox. It still lists the role and name property of each object, but it isn't separated into two separate columns. Another difference is how you're able to view the tree itself. In Firefox, regardless of which object you select, you'll still be able to see the entire tree at once. In Chrome, you only see one branch at a time. If you clicked on the `contentinfo` object from the image above, for example, the two `generic` branches would no longer be visible.
 
