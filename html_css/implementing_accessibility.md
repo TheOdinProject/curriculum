@@ -62,7 +62,7 @@ Even though adding color to a page can make it more visually appealing, using th
 
 #### Contrast Ratio
 
-INSERT IMAGE 01
+![Contrast ratio issues](https://user-images.githubusercontent.com/70952936/125673709-dd42bdf0-a4bc-4103-9a1b-e73e6c3bc85b.jpg)
 
 Can you easily read the text in all three (yes, three) examples from the image above? If you can't, then that's because the contrast ratio is too low. If you can, then consider me jealous of your eye sight, but you still need to provide an easily perceivable website for visually impaired users.
 
@@ -83,13 +83,13 @@ Both levels have exceptions that don't need to adhere to the required contrast r
 
 Now that you know to take the contrast ratio into account when adding color for text and backgrounds, let's see if you can tell which of the buttons in the image below is red:
 
-INSERT IMAGE 02
+![Color blindness simulation](https://user-images.githubusercontent.com/70952936/125673910-66b43803-3228-4920-98f8-80ac063ef344.jpg)
 
 The answer, by the way, is button 4. The image above is simulating achromatopsia, which is also known as total color blindness. This illustrates a key point when using color: **you shouldn't use color alone to convey information**. There may be exceptions where it's necessary to only use color, but generally you want to follow this rule. 
 
 Let's look at another example. Imagine a form that has an instruction stating that required fields are indicated by red text. If a user is color blind or otherwise has difficulty telling some colors apart, having to rely solely on the color of this text can make it difficult or even impossible to perceive or operate the page. Instead of only using color, a form could indicate all required fields with red text and an asterisk (though this isn't the only way to convey that a form input is required).
 
-INSERT IMAGE 03
+![Conveying information with color](https://user-images.githubusercontent.com/70952936/125674026-9baafc58-2339-48f4-8b12-892375b87ad7.jpg)
 
 #### Themes
 
