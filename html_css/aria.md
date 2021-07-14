@@ -244,17 +244,7 @@ You've seen just how powerful ARIA can be when used correctly, but it can be equ
     * The native HTMl element cannot be styled as required.
     * The feature you want to implement is not currently available in HTML.
 
-2. **Never change native semantics**, unless you have no other choice. For example:
-
-    ~~~html
-    <!-- Don't change the role of the <h2> element itself. -->
-    <h2 role='tab'>Tab Heading</h2>
-
-    <!-- Do wrap the <h2> element inside the <div> element that is given the tab role. -->
-    <div role='tab'>
-      <h2>Tab Heading</h2>
-    </div>
-    ~~~
+2. **Never change native semantics**, unless you have no other choice. For example, instead of doing `<h2 role='tab'>`, you would want to wrap your `<h2>` element inside of `<div role='tab'>`.
 
 3. **All interactive ARIA controls must be usable with a keyboard**. If you absolutely need to change the role of a `<div>` in order to create a custom widget, you need to ensure the element can receive focus and has keyboard event handling.
 
