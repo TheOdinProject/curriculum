@@ -18,7 +18,7 @@ Web accessibility is when websites don't have barriers that prevent interaction,
 
 There are different types of disabilities, including (but not limited to) auditory, physical/motor, cognitive, or visual. A disability can be permanent, such as a user who is completely blind, or it can be temporary, such as a user with a broken arm, and users may have multiple disabilities. Older users with changing abilities may even have similar conditions as those who have a disability.
 
-Situational limitations are a little different. Using a phone outside on a bright day, browsing a site with one hand while you're busy doing something else with the other, or living in an area where the internet is slow or the bandwith is expensive are all examples of situational limitations. These limitations, unlike a disability, occur to users only in specific situations, but are still important to keep in mind when developing a website.
+Situational limitations are a little different. Using a phone outside on a bright day, browsing a site with one hand while you're busy doing something else with the other, or living in an area where the internet is slow or the bandwidth is expensive are all examples of situational limitations. These limitations, unlike a disability, occur to users only in specific situations, but are still important to keep in mind when developing a website.
 
 ### Why Web Accessibility Matters
 
@@ -26,7 +26,7 @@ Imagine visiting a website where the text was too difficult to read due to font 
 
 When you develop a website, you're developing it for users, and you need that website to actually be *usable* by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.
 
-Go through [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how users with disabilities are affected by inaccessible sites. Then, watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how various web accessibility features can benefit everyone, not just users with disabilities. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on Youtube.
+Go through [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how users with disabilities are affected by inaccessible sites. Then, watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how various web accessibility features can benefit everyone, not just users with disabilities. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
 
 ### Web Content Accessibility Guidelines
 So now you know how important web accessibility can be for certain users, and how beneficial it can be for *all* users. But how do we know not only what should be a11y friendly, but how to make those things a11y friendly? Enter the Web Content Accessibility Guidelines (WCAG). The goal of the WCAG is to create a shared standard when it comes to web accessibility. Think of web accessibility as the destination, and the WCAG as the GPS that helps get us there. 
@@ -37,7 +37,7 @@ The WCAG are organized around four, core principles:
 
 1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. Light text on a light background could be difficult for some users with a visual impairment to perceive, for example.
 
-2. **Operable:** Users must be able to operate any user interfaces or navigation, and interfaces cannot require an interaction which the user cannot perform. A navigation bar with dropdown menus that only expand when a mouse cursor hovers over them, for example, would not be operable by keyboard users.
+2. **Operable:** Users must be able to operate any user interfaces or navigation, and interfaces cannot require an interaction which the user cannot perform. A navigation bar with drop-down menus that only expand when a mouse cursor hovers over them, for example, would not be operable by keyboard users.
 
 3. **Understandable:** Users must be able to understand any information or user interface that is presented to them. For example, if a user tried submitting a form and received an error such as "Error 23: Bad data", they wouldn't be able to understand what the error actually means or how to fix whatever caused the error.
 

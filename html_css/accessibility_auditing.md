@@ -21,7 +21,7 @@ There are two ways to view the accessibility tree in Firefox: you can either rig
 
 INSERT IMAGE 04
 
-As you can see from the image above, the accessibiltiy tree in Firefox looks sort of like a more barebones version of the DOM. The only information listed is the role and the name property of each element on the page. You can expand each object to see its children's role and name properties, and you can continue doing so until you reach the end of that "branch". If you right click anywhere within the accessibility tree, you can even select a "Print to JSON" option, which will open the contents of the tree as JSON in a new browser tab.
+As you can see from the image above, the accessibility tree in Firefox looks sort of like a more bare-bones version of the DOM. The only information listed is the role and the name property of each element on the page. You can expand each object to see its children's role and name properties, and you can continue doing so until you reach the end of that "branch". If you right click anywhere within the accessibility tree, you can even select a "Print to JSON" option, which will open the contents of the tree as JSON in a new browser tab.
 
 The accessibility tree itself isn't too complicated, so there's not actually a lot to go over. Did you notice anything different about the element picker tool, though?
 
@@ -71,7 +71,7 @@ Any other property, however, will only appear when it is actually applied to an 
 
 ### Checking Contrast Ratios
 
-In a previous lesson you were provided with a link to the WebAIM contrast checker tool, which you've hopefully tested out a little. Having to constantly use that tool to check every text color/background color combination can be a little tedious, though. Luckily, you can actually use your dev tools to check contrast ratios in a few simpler ways, each of which will show the numerical ratio as well as which comformity level it passes for the WCAG.
+In a previous lesson you were provided with a link to the WebAIM contrast checker tool, which you've hopefully tested out a little. Having to constantly use that tool to check every text color/background color combination can be a little tedious, though. Luckily, you can actually use your dev tools to check contrast ratios in a few simpler ways, each of which will show the numerical ratio as well as which conformity level it passes for the WCAG.
 
 In **Firefox**, right above the **Properties** section of the **Accessibility** tab is the **Checks** section. This section will list any contrast ratios in addition to other checks, such as whether an interactive element has a focus style. In order to view the color contrast for text, you may have to travel down a branch of the accessibility tree until you select a "text leaf" object.
 
@@ -89,7 +89,7 @@ The other two ways to check the contrast ratio are:
 Along the top of the Accessibility tab in **Firefox**, there are three additional tools that you can use when checking or auditing accessibility:
 
 * The "Check for issues" tool lets you display elements that have issues related to the contrast ratio, keyboard navigation, or text labels. This isn't too in depth of an audit, which is why we're mentioning it here, but it can still be handy as a sort of quick audit.
-* The "Simulate" tool lets you simluate different types of color blindness as well as contrast loss. This can be a useful tool to check whether certain colors may look too similar to someone that is color blind. Remember when you were asked to find the red button in an image that was simulating total color blindness in a previous lesson?
+* The "Simulate" tool lets you simulate different types of color blindness as well as contrast loss. This can be a useful tool to check whether certain colors may look too similar to someone that is color blind. Remember when you were asked to find the red button in an image that was simulating total color blindness in a previous lesson?
 * The "Show Tabbing Order" tool will display an overlay on the page, showing the order each tabbable element will receive focus when navigating the page with the Tab key.
 
 At the bottom of the dev tools in **Chrome**, next to the "Console" tool (not the **Console** tab at the very top of the dev tools), you can open a menu of additional tools. If you don't see this section within your dev tools, try going into the **Console** tab and clicking the "Issues" button along the top (it will either be labeled "No Issues" or it will include a number, e.g. "2 Issues").
@@ -120,8 +120,8 @@ Of course, one of the best ways to check the accessibility of your websites is t
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
 
-* The MDN [Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) page goes into more detail about using the Accessibility tab, including other properties each object in the accessibility tree has.
-* Chrome's [Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/) goes over the accessibility features in their dev tools, including a little more information regarding checking contrast ratios with the color picker from the Styles pane.
+* The MDN [Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) page goes into more detail about using the **Accessibility** tab, including other properties each object in the accessibility tree has.
+* Chrome's [Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/) goes over the accessibility features in their dev tools, including a little more information regarding checking contrast ratios with the color picker from the **Styles** pane.
 * [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/test-evaluate/involving-users/) goes over some helpful steps to take when you can get feedback from users.
-* [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibiltiy reasons.
+* [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibility reasons.
 * [screenreader-outputs](https://github.com/thatblindgeye/screenreader-outputs) is a GitHub repo that contains many examples of screen reader outputs. Sometimes nested elements or certain combinations of attributes and native labeling may result in accessible names or descriptions that are difficult to make sense of, so checking out this repo may help clear things up.

@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to:
 
 ### What is WAI-ARIA?
 
-WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessibile Rich Internet Applications specification. The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so. Think of ARIA as something that fills in the accessible gaps left by native HTML.
+WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so. Think of ARIA as something that fills in the accessible gaps left by native HTML.
 
 It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:
 
@@ -33,7 +33,7 @@ When you use ARIA, you must take additional steps to add in any missing semantic
 
 Before we get into some of the ARIA attributes available to us, it's important to know some basics of what the accessibility tree is, as it will help you understand just what those attributes are actually doing.
 
-The accessibility tree is based on the DOM, something you should be very familiar with by now. While the DOM represents nodes and objects that make up a webpage, the accessibility tree contains only the accessibility related information that will be used by assistive technologies. The way ARIA works is by modifying properties of the objects that make up this accessibility tree. Each of these objects has at least the following four properties:
+The accessibility tree is based on the DOM, something you should be very familiar with by now. While the DOM represents nodes and objects that make up a web page, the accessibility tree contains only the accessibility related information that will be used by assistive technologies. The way ARIA works is by modifying properties of the objects that make up this accessibility tree. Each of these objects has at least the following four properties:
 
 * **Name**: Also known as the "accessible name", this is what assistive technologies announce to a user and what separates elements of the same type from one another. The name may be set by one or more native labels, including the text contents of an element, the `<label>` element, or the `alt` attribute, to name a few.
 * **Description**: This is what assistive technologies announce in addition to its accessible name.
@@ -42,7 +42,7 @@ The accessibility tree is based on the DOM, something you should be very familia
 
 ### ARIA Labels
 
-ARIA labels help users of assistive technologies better understand the content on a webpage by overriding native labels or providing additional descriptive text. Unlike the `<label>` element, ARIA labels aren't limited to being used on only a select few elements, though they still have their own limitations.
+ARIA labels help users of assistive technologies better understand the content on a web page by overriding native labels or providing additional descriptive text. Unlike the `<label>` element, ARIA labels aren't limited to being used on only a select few elements, though they still have their own limitations.
 
 #### `aria-label`
 
@@ -281,6 +281,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 * [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=2&t=868s) is a 30 minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
 - [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=6) is another 30 minute video that covers some things mentioned in the previous lesson, but it also covers the accessibility tree, ARIA, and if you still need to be convinced, why using semantic HTML is important.
-* [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) is a great ARIA cheatsheet. The page has several examples of design patterns and widgets created using ARIA, a section regarding accessible names and descriptions (including how they're calculated), and more.
+* [ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) is a great ARIA cheat sheet. The page has several examples of design patterns and widgets created using ARIA, a section regarding accessible names and descriptions (including how they're calculated), and more.
 * [Accessible Rich Internet Applications 1.1](https://www.w3.org/TR/wai-aria-1.1/) goes into greater detail regarding ARIA roles, states, and properties.
 * [WAI-ARIA: aria-busy](https://www.digitala11y.com/aria-busy-state/) and [WAI-ARIA: aria-relevant](https://www.digitala11y.com/aria-relevant-properties/) are two other ARIA attributes that affect live regions. You may not need to use either, but they can still be useful to know about.
