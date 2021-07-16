@@ -70,9 +70,18 @@ Look through these now and then use them to test yourself after doing the assign
   6. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
   7. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional. It is recommended to install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide. 
       1. Read the [basic usage](https://docs.rubocop.org/rubocop/usage/basic_usage.html) of rubocop in the terminal. 
-      2. Your code editor may have extensions that will utilize rubocop. For example, VSCode has two extensions: 'VSCode Ruby' and 'Ruby'. The 'Ruby' extension allows a rubocop dropdown option for a setting called, Ruby: Format.
-      3. As you begin to use rubocop, you will be inundated with multiple offenses that seem minor. At this point in your Ruby knowledge, make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. Research the offenses that you do not understand. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file.
-      4. Please note: If you followed the above installations and the rubocop linter of your Ruby extension is still not highlighting offenses within VSCode, you may alternately try the ruby-rubocop extension. This extension lists potential problems if using a rvm or chruby environment and should only be used if you installed Ruby with rbenv as instructed in the Installing Ruby lesson. The ruby-rubocop extension also states that when autoCorrect is enabled, the history of changing file is broken.
+      2. To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
+
+~~~bash
+"ruby.lint": {
+  "rubocop": true,
+},
+~~~
+
+**If the above instructions do not work**, explore the initial configuration options in the extension's [documentation](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby). Another alternative is to try the [ruby-rubocop](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop) extension, but be aware of the potential problems listed in their documentation.
+
+As you begin to use rubocop, you will be inundated with multiple offenses that seem minor. At this point in your Ruby knowledge, make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. Research the offenses that you do not understand. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file.
+
 </div>
 
 ### Test Yourself
