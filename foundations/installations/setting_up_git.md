@@ -65,6 +65,15 @@ brew install git
 
 This will install the latest version of Git. Easy, right?
 
+Note: On an Apple Silicon Mac you might now encounter the following error: "brew command not found". This is due to Homebrew installing in a different directory than it is on an intel machine.
+To fix this issue, copy and paste the following into your terminal:
+
+~~~bash
+echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+~~~
+
+after reopening the terminal, the brew commands should work.
+
 #### Step 1.2: Verify version
 
 **Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
