@@ -29,6 +29,11 @@ Good web design doesn't happen by accident. This course takes a deeper look at f
   - Fonts and Typography - [lesson](typography.md)
   - CSS Grids - [lesson](css_grids.md)
   - [Project: Design Teardown](project_design.md)
+- Web Accessibility
+  - Introduction to Web Accessibility - [lesson](web_accessibility.md)
+  - Implementing Web Accessibility - [lesson](implementing_accessibility.md)
+  - WAI-ARIA - [lesson](aria.md)
+  - A11y Auditing - [lesson](accessibility_auditing.md)
 - Responsive Design and CSS Frameworks
   - Responsive Design - [lesson](responsive_design.md)
   - [Project: Building With Responsive Design](project_responsive.md)
