@@ -4,7 +4,7 @@ Introduced in Ruby 2.7, pattern matching uses specified patterns to match agains
 
 With Ruby 3, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end.
 
-If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortuantely at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
+If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortunately at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
 
 At the time of writing we still recommend Ruby 2.7 as Ruby 3 is quite new and it can take time for third party gems to update. You can install Ruby 3 and use the [rbenv local](https://github.com/rbenv/rbenv#rbenv-local) command to set rbenv only to Ruby 3 in the folder you create to test out any of the examples below. Alternatively you can just continue with Ruby 2.7, which will work for most of the examples, and then just read through the small section at the end on Ruby 3 patterns.
 
