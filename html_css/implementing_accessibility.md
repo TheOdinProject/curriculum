@@ -38,9 +38,9 @@ A sighted user would most likely have no trouble playing the game if the element
 
 ~~~html
 <div class='button-container'>
-  <button class='rock' type='button'>Rock</button>
-  <button class='paper' type='button'>Paper</button>
-  <button class='scissors' type='button'>Scissors</button>
+  <button class='rock'>Rock</button>
+  <button class='paper'>Paper</button>
+  <button class='scissors'>Scissors</button>
 </div>
 ~~~
 
@@ -78,6 +78,8 @@ Both levels have exceptions that don't need to adhere to the required contrast r
 * Text that is part of a logo or brand name.
 
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) is a fantastic tool for checking the contrast ratio. The page also has a link for a link contrast checker, which goes over what the contrast ratio should be if a text link isn't underlined (its default style).
+
+You can also check the contrast ratio of the text within an element using your browser's dev tools. In **Chrome**, you would click the "element picker" tool in the Elements tab, then hover over an element on the web page. You can do the same thing in **Firefox**, except you have to click the "accessible object picker" tool in the Accessibility tab instead.
 
 #### Conveying Information
 
