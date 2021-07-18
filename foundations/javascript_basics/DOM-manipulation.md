@@ -28,6 +28,8 @@ The DOM \(or Document Object Model\) is a tree-like representation of the conten
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a __parent__, with its __children__ on the next level, each on their own "branch".
 
+Watch [this video about how the DOM works](https://www.youtube.com/watch?v=2Tld4yyN_tw) to get a better understanding of the concept.
+
 ### Targeting Nodes with Selectors
 
 When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:
