@@ -42,7 +42,7 @@ gem 'sidekiq'
 gem 'sprockets', '~> 4.0.2'
 gem 'turbolinks'
 gem 'uglifier', '~> 4.2'
-gem 'view_component', '~> 2.32', require: 'view_component/engine'
+gem 'view_component', '~> 2.35', require: 'view_component/engine'
 gem 'webpacker'
 
 group :development, :test, :docker do

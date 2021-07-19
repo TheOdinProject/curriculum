@@ -522,8 +522,9 @@ GEM
     unicode_plot (0.0.4)
       enumerable-statistics (>= 2.0.1)
     vcr (6.0.0)
-    view_component (2.32.0)
-      activesupport (>= 5.0.0, < 7.0)
+    view_component (2.35.0)
+      activesupport (>= 5.0.0, < 8.0)
+      method_source (~> 1.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.1.0)
@@ -617,7 +618,7 @@ DEPENDENCIES
   turbolinks
   uglifier (~> 4.2)
   vcr (~> 6.0)
-  view_component (~> 2.32)
+  view_component (~> 2.35)
   web-console
   webmock (~> 3.13)
   webpacker
