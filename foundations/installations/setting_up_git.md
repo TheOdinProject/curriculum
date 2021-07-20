@@ -55,6 +55,10 @@ First, you'll need to install Homebrew.  Make sure you have checked the requirem
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
+Note: On an Apple Silicon Mac you will have an extra step to take.
+If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps". 
+This may all seem a bit intimidating but this is a great chance at overcoming those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) and you will make sure you will not encounter a "command not found: brew" error when doing the below Step 1.1: Update Git.
+
 #### Step 1.1: Update Git
 
 MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
@@ -64,15 +68,6 @@ brew install git
 ~~~
 
 This will install the latest version of Git. Easy, right?
-
-Note: On an Apple Silicon Mac you might now encounter the following error: "brew command not found". This is due to Homebrew installing in a different directory than it is on an intel machine.
-To fix this issue, copy and paste the following into your terminal:
-
-~~~bash
-echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
-~~~
-
-after reopening the terminal, the brew commands should work.
 
 #### Step 1.2: Verify version
 
