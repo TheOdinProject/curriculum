@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
-2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to do the exercises at the end!
+2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp) page near the bottom, and do the exercises at the end!
 3. Vocabulary time: a __method__ is a bit of functionality that is built into the language or into specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you learned a few methods that can be used on strings, such as `indexOf` and `search`. An exhaustive list of methods that can be used on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 ### Conditionals
