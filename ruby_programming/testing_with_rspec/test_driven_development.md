@@ -40,5 +40,3 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 2. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
 
 </div>
-
-### Additional Resources
