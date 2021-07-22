@@ -300,7 +300,7 @@ vehicles.collect { |name, data| name if data[:year] >= 2020 }
 #=> [nil, :caleb, :dave]
 ~~~
 
-Using `#collect` gets us a lot closer to only having the names of the new vehicle owners. If you look at this method in the documentation you will see that `#collect` and `#map` have the same functionality. Both of these methods use the return value of each interation, so when the if statement is false, it will return a nil value.
+Using `#collect` gets us a lot closer to only having the names of the new vehicle owners. If you look at this method in the documentation you will see that `#collect` and `#map` have the same functionality. Both of these methods use the return value of each iteration, so when the if statement is false, it will return a nil value.
 
 Nil values can cause problems down the road, so let's look through the documentation to see if we can find a method to help solve this problem. The `#compact` method returns an array (or hash) without nil values, so let's chain it on the end of the block.
 
