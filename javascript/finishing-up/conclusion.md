@@ -6,7 +6,7 @@ If you find something you don't know or aren't sure about, you should be, by now
 
 There's a whole world of exciting things you can learn. Further on the front-end side: React Native to build mobile apps, D3 for data visualization, other single-page MVC front-end frameworks, etc. All that stuff is best learned when you've got something you want to build that requires "the perfect tool for the job." If you're excited to expand your horizons further, you can now look at back-end technologies to start building full-stack applications. If you're on the Ruby on Rails path, you're already there if you've completed the preceding courses!
 
-So where do you go from here? BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. If your aim is a frontend position, you can even try to get a job, so someone else pays you to build. But focus on creating interesting software and use that to drive your education. However, we're not done yet. There is yet more to learn!
+So where do you go from here? BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. But focus on creating interesting software and use that to drive your education. However, we're not done yet. There is yet more to learn!
 
 ### Additional Resources
 
