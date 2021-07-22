@@ -17,16 +17,30 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-- Let's dive in and write your first bit of Node server-side code!  Go to the [w3 schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site):
-  - Node.js Intro
-  - Node.js Get Started
-  - Node.js Modules
-  - Node.js HTTP Module
-  - Node.js File System
-  - Node.js URL Module
-  - Node.js NPM
-  - Node.js Events
-  - The File Uploads and Email lessons are optional at this point but it might be useful to at least skim them so you can know where to look if you need that functionality.
+- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/learn) docs which you should follow along.
+  - Introduction
+    - Read the entire Quick Start section from [Introduction of Node.js](https://nodejs.dev/learn/introduction-to-nodejs) to [Differences between Node.js and the Browser](https://nodejs.dev/learn/differences-between-nodejs-and-the-browser). 
+  - Get Started
+    - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line) lesson.
+    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future!!
+  - HTTP Module
+    - Learn how to [Build an HTTP server](https://nodejs.dev/learn/build-an-http-server), and then [how to make HTTP requests with Node](https://nodejs.dev/learn/making-http-requests-with-nodejs).
+  - File System
+    - First, take a look at the [fs module](https://nodejs.dev/learn/the-nodejs-fs-module) that we use heavily for working with files in Node.
+    - Then, let's start [writing files](https://nodejs.dev/learn/writing-files-with-nodejs) in Node.
+    - Finally, we'll learn how to [read files](https://nodejs.dev/learn/reading-files-with-nodejs).
+  - The URL Class
+    - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
+  - NPM
+    - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
+    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
+  - Events
+    - Start with [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
+    - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
+
+- Optional Extra Credit!
+  - Although a bit outdated, the W3 Schools introduction to Node.js is super useful!  Go to the [w3 schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
+
 </div>
 
 ### Knowledge Check
@@ -57,3 +71,5 @@ This section contains questions for you to check your understanding of this less
 </ul></ul>
 </details>
 
+### Additional Resources
+- This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
