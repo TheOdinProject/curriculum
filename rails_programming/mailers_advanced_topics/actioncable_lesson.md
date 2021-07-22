@@ -447,7 +447,7 @@ def message_params
 end
 ~~~
 
-This should all be familar with the exception of `@message.as_json(include: :user)`. To send data to the client through the websocket server it must be in a json like format. If we just supplied `@message` then Rails would call `as_json` itself for us on the object. However, since we want to include the user association we need to call it ourselves.
+This should all be familiar with the exception of `@message.as_json(include: :user)`. To send data to the client through the websocket server it must be in a json like format. If we just supplied `@message` then Rails would call `as_json` itself for us on the object. However, since we want to include the user association we need to call it ourselves.
 
 We just have one last small change to make. If you put a console.log on `data` in the received function you'd see now `body` is a direct property of `data` so in our template function in `message_channel.js` we just need to change `${data.message.body}` to `${data.body}`.
 
