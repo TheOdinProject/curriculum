@@ -2,7 +2,7 @@
 
 Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistent) error messages.
 
-Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](https://skillcrush.com/2012/04/16/api/1346413073000/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
+Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read this FCC explanation](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
