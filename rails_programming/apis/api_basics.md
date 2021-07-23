@@ -128,7 +128,7 @@ See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/
 
 #### Rendering Nothing or Errors
 
-Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [This older blog](http://www.intridea.com/blog/2008/7/23/using-http-status-codes-for-rails-ajax-error-handling) for one approach or [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for another set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
+Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for a set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
 
 ~~~ruby
   # app/controllers/users_controller.rb
