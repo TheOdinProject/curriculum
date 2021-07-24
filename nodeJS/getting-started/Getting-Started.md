@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to do the following:
     - Read the entire Quick Start section from [Introduction of Node.js](https://nodejs.dev/learn/introduction-to-nodejs) to [Differences between Node.js and the Browser](https://nodejs.dev/learn/differences-between-nodejs-and-the-browser). 
   - Get Started
     - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line) lesson.
-    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future!!
+    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
     - Learn how to [Build an HTTP server](https://nodejs.dev/learn/build-an-http-server), and then [how to make HTTP requests with Node](https://nodejs.dev/learn/making-http-requests-with-nodejs).
   - File System
