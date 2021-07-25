@@ -47,7 +47,7 @@ Webpack _is_ a very powerful tool, and with that power comes a decent amount of 
 
 To get us started we are going to refer to the official documentation.
 
-1. Code along with the first four steps of [this tutorial](https://webpack.js.org/guides/getting-started/) ("Basic Setup" through "Using a Configuration")
+1. Code along with the all of the steps of [this tutorial](https://webpack.js.org/guides/getting-started/) ("Basic Setup" through "Conclusion")
 
 Let's discuss what's going on there. After installing webpack using npm we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
 
