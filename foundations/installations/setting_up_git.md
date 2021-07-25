@@ -57,7 +57,7 @@ First, you'll need to install Homebrew.  Make sure you have checked the requirem
 
 Note: On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps". 
-This may all seem a bit intimidating but this is a great chance at overcoming those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) and you will make sure you will not encounter a "command not found: brew" error when doing the below Step 1.1: Update Git.
+Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix. 
 
 #### Step 1.1: Update Git
 
