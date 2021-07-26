@@ -36,7 +36,7 @@ For if you just can't get enough UX/Design.  Don't get too sidetracked... eye on
 
 * [Hack Design's full 52-week free design course](http://hackdesign.org)
 * [52 Weeks of UX's free 52 weeks of UX articles](http://52weeksofux.com/)
-* [Introduction to Visual Hierarchy from Formed Function](http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy)
+* [Introduction to Visual Hierarchy from Formed Function](https://web.archive.org/web/20170223060444/http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy)
 * [Understanding Visual Hierarchy in Web Design from TutsPlus](http://webdesign.tutsplus.com/articles/design-theory/understanding-visual-hierarchy-in-web-design/)
 * [The Hierarchy of Design Elements from Jesse James Garrett](http://www.jjg.net/elements/pdf/elements_ch02.pdf)
 * [Videos from an Adobe Dev Evangelist](http://designupdate.com/) that describe various aspects of design.

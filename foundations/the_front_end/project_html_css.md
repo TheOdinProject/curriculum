@@ -34,8 +34,7 @@ If you do not know how to set up a repository, follow the instructions found in 
 If you are having trouble:
 
 - Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
-- Refer to the [cheat sheet](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
-- Review the [workflow](/courses/foundations/lessons/practicing-git-basics) in the Git Basics Project.
+- Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
