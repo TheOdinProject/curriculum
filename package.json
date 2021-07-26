@@ -31,7 +31,7 @@
     "react-scrolllock": "^5.0.1",
     "react-tabs": "^3.2.2",
     "react_ujs": "^2.6.1",
-    "regenerator-runtime": "^0.13.7",
+    "regenerator-runtime": "^0.13.9",
     "stickyfilljs": "^2.1.0",
     "stimulus": "^2.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
