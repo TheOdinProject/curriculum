@@ -41,7 +41,7 @@ Most APIs require a different type of "security clearance" for different request
 1. You can usually make innocuous requests like asking for Tweets (with Twitter's API of course) with straightforward and unauthenticated GET requests.  You can make these from any command line or a browser tool like [Chrome's Rest Client](http://getpostman.com). These types of API requests are usually severely rate limited to incentivize you to sign up.  
 2. The next layer is making requests that include your API key. These are still usually fairly innocuous things (like getting public data) and limited by the API's pricing tiers.
 3. More sensitive requests like asking for specific user data or submitting/modifying/deleting data will likely require you to use an authentication process involving your secret token.  We'll cover the basics of this in the project.  Rates for these requests are subject to the API pricing tiers.
-4. Oftentimes, you actually want to make requests on behalf of a user.  For instance, showing a user a dashboard of all his tweets and Facebook posts together would require asking Twitter for that user's tweets and Facebook for that user's posts.  This can involve a LOT of requests over a large user base, but luckily you're actually able to make them on the user's behalf by asking for the user's permission.  We'll cover this as well later, but basically you send the user to the API provider's site to sign in, then the API provider will give you a user-specific token to use when making requests on their behalf in the future.  Rates for this are usually more advantageous because they are covered in a per-user bucket.  We typically use the OAuth protocol for this, as described below.
+4. Oftentimes, you actually want to make requests on behalf of a user.  For instance, showing a user a dashboard of all their tweets and Facebook posts together would require asking Twitter for that user's tweets and Facebook for that user's posts.  This can involve a LOT of requests over a large user base, but luckily you're actually able to make them on the user's behalf by asking for the user's permission.  We'll cover this as well later, but basically you send the user to the API provider's site to sign in, then the API provider will give you a user-specific token to use when making requests on their behalf in the future.  Rates for this are usually more advantageous because they are covered in a per-user bucket.  We typically use the OAuth protocol for this, as described below.
 
 ### Versions
 
@@ -79,14 +79,14 @@ It should be noted that any time you develop using someone else's API, you're pu
 
 #### OAuth 2.0 Basics
 
-OAuth 2.0 is actually pretty complicated, so I'll just cover the basic process.  You don't really need to care how exactly it works behind the scenes until you start really developing with it or trying to create your own API that uses it.  You **will** need to understand the steps involved in the user experience because, well, the user is the reason you're building your application.
+OAuth 2.0 is actually pretty complicated, so we'll just cover the basic process.  You don't really need to care how exactly it works behind the scenes until you start really developing with it or trying to create your own API that uses it.  You **will** need to understand the steps involved in the user experience because, well, the user is the reason you're building your application.
 
 Basically (still using Facebook as an example):
 
 1. User tries to access a page on your app and you ask the user to login
 2. User chooses the "Login With Facebook" option
 3. User is redirected to a Facebook page asking them to review the permissions you are asking for and telling them to sign in.  The URI will contain parameters that tell Facebook who your application is and possibly which URI they should submit their response to (or maybe you specified this as a part of your API registration process with them).
-4. User decides you seem like a fun application so he'll allow you to see his email address and post to his timeline.  He signs in to his Facebook account.  Facebook creates an authorization code and sends it back to your application's callback URI.
+4. User decides you seem like a fun application so they'll allow you to see their email address and post to their timeline.  User signs in to their Facebook account.  Facebook creates an authorization code and sends it back to your application's callback URI.
 5. The user waits while your application takes that authorization code and uses it to ask Facebook for the real good stuff.  Facebook makes sure your application is the same one the user authorized, then POSTs back to you a unique authentication token for the user (which likely expires in 90 days) and any data you asked for up front (like email address).
 5. You store the user's unique token in your database and use it, along with your application key(s), to make any subsequent requests on the user's behalf.
 
@@ -98,7 +98,7 @@ This sounds horribly complicated! Someone must have made a gem for it...
 
 Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` (docs available [on GitHub](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API (see the list [HERE](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them.
 
-I'll leave it to the projects to walk through using Omniauth since it's much easier to learn by doing than reading a bunch of bullet points.
+We'll leave it to the projects to walk through using Omniauth since it's much easier to learn by doing than reading a bunch of bullet points.
 
 ### SDKs
 
