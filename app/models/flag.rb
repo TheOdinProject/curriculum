@@ -5,5 +5,5 @@ class Flag < ApplicationRecord
   validates :reason, presence: true
 
   enum status: { active: 0, resolved: 1 }
-  enum taken_action: { pending: 0, dismiss: 1, ban: 2, removed_project_submission: 3 }
+  enum taken_action: { pending: 0, dismiss: 1, ban: 2, removed_project_submission: 3, notified_user: 4 }
 end
