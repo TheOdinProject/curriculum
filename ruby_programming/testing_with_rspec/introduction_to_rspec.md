@@ -176,7 +176,7 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 
 Failed examples:
 
-rspec ./spec/calculator_spec.rb:5 # Calculator#add adds two numbers together
+rspec ./spec/calculator_spec.rb:5 # Calculator#add returns the sum of two numbers
 ~~~
 
 Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
