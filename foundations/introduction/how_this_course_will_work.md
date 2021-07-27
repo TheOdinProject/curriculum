@@ -20,6 +20,8 @@ This curriculum works by pulling together the best content from across the inter
 
 Most lessons will contain questions that you should be able to answer before moving on.  Some of the lessons will ask you to complete exercises. In addition, we provide several projects throughout the curriculum to help you grow your understanding by actually building things.
 
+Try not too think of The Odin Project, or programming, as a class in school. It's not material you learn all at once, take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow, and the further you roll, the more snow will stick to you. Sure, snow will also fall off of you, especially if it's not too wet and sticky, and you'll forget things often. But the more you keep rolling the more will stick to you, and the bigger and smarter you get.
+
 ### A Note About Language
 
 The Odin Project attracts people from all over the world who aspire to learn how to become developers. Please be aware that this curriculum is written in English, and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
