@@ -67,3 +67,4 @@ This section contains questions for you to check your understanding of this less
 * What are the three different ways to include a CSS stylesheet in your project or use CSS to style a particular element?
 * What is the “default stylesheet” or “user agent stylesheet”?
 * What is the purpose of a CSS reset file?
+* What is the !important rule in CSS?
