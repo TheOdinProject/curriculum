@@ -30,7 +30,7 @@ By the end of this lesson, you should be able to do the following:
 1. Read the [introductory lesson](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) on the MDN website.  It is long but its main purpose is to show you the various bits and pieces that you'll be learning in the rest of the tutorial.  If you want you can code along a bit, but most of the examples aren't really intended for you to follow 100%.
 *DO* read the entire thing!  Some of it will be a review, but that's OK! Follow the links that they give and at least look at them.  They are a vital part of this lesson and will often direct you to the relevant portion of the official express docs (which are quite good)! You'll want to be somewhat familiar with them when it comes time to do your own projects.
 2. If you've gotten this far, you should already have node and npm set up and running smoothly. The second lesson on MDN's website walks you through setting them up and goes on to talk about a couple of ways to install and get started with Express. Read the [second half](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment) of that article.
-3. Once you're all set up, take a look at the simple Node site you created in our first project. Rewrite it using express! You should be able to do this with just one app.js file and a few `app.get()`s.
+3. Once you're all set up, take a look at the simple Node site you created in our first project. Rewrite it using express! You should be able to do this with just one app.js file and a few `app.get()`s. 
 </div>
 
 

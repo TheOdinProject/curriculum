@@ -21,7 +21,7 @@ These skills will be helpful for you when you start building. Either try them yo
 
 As mentioned in the [introduction to Git](/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to set up a repository, follow the instructions found in [Project: Git Basics](/courses/foundations/lessons/practicing-git-basics) to learn how.
+If you do not know how to set up a repository, follow the instructions found in [Git Basics](/courses/foundations/lessons/git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
@@ -34,8 +34,7 @@ If you do not know how to set up a repository, follow the instructions found in 
 If you are having trouble:
 
 - Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
-- Refer to the [cheat sheet](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
-- Review the [workflow](/courses/foundations/lessons/practicing-git-basics) in the Git Basics Project.
+- Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 

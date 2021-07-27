@@ -22,7 +22,7 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 **IMPORTANT**
   
-Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://i.imgur.com/EjSLkCZ.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 #### Step 1.1: Download VirtualBox
 
@@ -42,57 +42,57 @@ Installing VirtualBox is very straightforward. It doesn’t require much technic
 
 Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
 
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/KKhCk0O.png" alt="The VirtualBox start screen" title="A new start">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/00.png" alt="The VirtualBox start screen" title="A new start">
 
 Click on the “New” button to create a virtual operating system. Give it a name of “Xubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. Continue by pressing “Next”, and choose the following options in the next steps:
 
-<img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/v5DB5VZ.png" alt="The VirtualBox Create Virtual Machine window" title="Xubuntu should make the Version be Ubuntu (64-bit) automatically">
+<img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png" alt="The VirtualBox Create Virtual Machine window" title="Xubuntu should make the Version be Ubuntu (64-bit) automatically">
 
 1. Memory size: Use 2048 MB or more if possible. Ideally, this amount should be about half of your computer’s maximum memory. For example, if you have 8 GB of RAM, allocate 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have).
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/U9OUMYy.png" alt="The VirtualBox RAM window" title="Please allow me to Google that for you">
+   <img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/02.png" alt="The VirtualBox RAM window" title="Please allow me to Google that for you">
 
 2. Hard disk: Click **“Create a virtual hard disk now”.**
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/NSUorQQ.png" alt="The VirtualBox Create Hard Disk window 1" title="This is the default selection">
+   <img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/03.png" alt="The VirtualBox Create Hard Disk window 1" title="This is the default selection">
 
 3. Hard disk file type: Choose the **VDI (VirtualBox disk image)** option.
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/O6UROTf.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
+   <img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/04.png" alt="The VirtualBox Create Virtual Hard Disk window 2" title="This is also the default selection">
    
 4. Storage on physical hard disk: **“Dynamically allocated”**.
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/LbU5cpc.png" alt="The VirtualBox Create Virtual Hard Disk window 3" title="Yet another default selection">
+   <img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/05.png" alt="The VirtualBox Create Virtual Hard Disk window 3" title="Yet another default selection">
   
 5. File location and size: We recommend **at least 20 GB** for the virtual hard disk.
    
-   <img style="border-style: solid; border-width: thin; width:initial; padding: 0em;" src="https://i.imgur.com/gR21gCK.png" alt="The VirtualBox Create Virtual Hard Disk window 4" title="You could make it 21 GB if you want">
+   <img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/07.png" alt="The VirtualBox Create Virtual Hard Disk window 4" title="You could make it 21 GB if you want">
 
 After completing the last step, click the **“Create”** button. Your new virtual OS should now appear in the menu. With **Xubuntu** selected, click on the **"Settings"** button on the navigation bar, highlighted in red below.
 
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/cmP2CH7.png" alt="The VirtualBox Home screen with Xubuntu" title="Or you can right-click Xubuntu and go to Settings">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/08.png" alt="The VirtualBox Home screen with Xubuntu" title="Or you can right-click Xubuntu and go to Settings">
 
  Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>. If you have a single core processor, you will not be able to change this setting.
  
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/WAW79ep.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
 If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. **All other settings should remain default.**
 
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/qtJdmAo.png" alt="The Xubuntu System Settings Display window" title="This feature works surprisingly well">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/10.png" alt="The Xubuntu System Settings Display window" title="This feature works surprisingly well">
 
 With all that complete, click **"OK"** to save the changes.
 
 You cannot install Xubuntu without mounting the ISO you downloaded earlier. We will do that now. Click on the section labeled **[Optical Drive] Empty** to the right of the text labeled **IDE Secondary Master** under **Storage** at the main VirtualBox screen, while Xubuntu is selected. This will open up a dropdown menu, click **Choose/Create a disk image...**.
 
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/GHEDUmv.png" alt="The VirtualBox Home Screen again" title="This is much easier now">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/12.png" alt="The VirtualBox Home Screen again" title="This is much easier now">
 
 The next window that opens, click on the Blue Circle with the Green Plus labeled **Add**, and locate your Xubuntu ISO file you downloaded earlier. Choose the ISO and click open.
 
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/1af8WwO.png" alt="The Xubuntu - Opticial Disk Selector screen" title="So much easier">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/13.png" alt="The Xubuntu - Optical Disk Selector screen" title="So much easier">
 
 You should now see the ISO on the Disk Selector screen. Click it and hit the **Choose** button at the bottom.
 
-<img style="width:initial; padding: 0em;" src="https://i.imgur.com/2c402Xx.png" alt="The Xubuntu - Opticial Disk Selector screen but with an ISO loaded" title="And it works">
+<img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/14.png" alt="The Xubuntu - Optical Disk Selector screen but with an ISO loaded" title="And it works">
 
 You can now start the VM by right clicking on the icon in the menu and by clicking the large "Start" arrow at the top.
 
@@ -106,23 +106,24 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 
 While your VM is running, do the following steps:
 
-  1. Click the **Whisker Menu** <img src="https://i.imgur.com/EjSLkCZ.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop.
+  1. Click the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop.
   2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
-  7. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
-  8. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
-  9. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
-  10. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
-  11. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 12. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
-  12. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
-  13. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  14. Once it finishes, close the terminal and the CD folder.
-  15. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
-  16. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
-  17. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + w` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
+  7. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
+  8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
+  9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
+  10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
+  11. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
+  12. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 13. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
+  13. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
+  14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
+  15. Once it finishes, close the terminal and the CD folder.
+  16. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
+  17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
+  18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
   
   **NOTE**: 
 
@@ -139,9 +140,11 @@ Here are some tips to help you get started in a virtual environment:
 
 * To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
 
+* To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (Right Ctrl) + E or click "View -> Take Screenshot" for a full screenshot, or you can click the "Whisker Menu" and type in "Screenshot", in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+
 * All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (Edit > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+* We recommend going full screen (View > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
 * If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
@@ -161,7 +164,7 @@ First, you need to download the version of Ubuntu you want to install on your co
 
 ### Step 2: Create a Bootable Flash Drive
 
-Next, follow [this guide](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
+Next, follow [this guide](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
 
 Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive.
 

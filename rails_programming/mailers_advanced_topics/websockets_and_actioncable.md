@@ -55,9 +55,9 @@ Once subscribed, each channel can then stream what are known as 'broadcastings' 
 
 There is quite a bit of terminology here, and also these are handled on both the client and server side, so it is a lot to consider, but Rails does a lot of the heavy lifting for us.
 
-When going through the layers of Action Cable it's helpful to have a real Rails app to refer to. If you still have your Rails install cars project on hand that would be ideal for looking through the files as we mention them here to get familar with where they are. If not just spinning up a new Rails app would also work fine.
+When going through the layers of Action Cable it's helpful to have a real Rails app to refer to. If you still have your Rails install cars project on hand that would be ideal for looking through the files as we mention them here to get familiar with where they are. If not just spinning up a new Rails app would also work fine.
 
-We'll handle server side and client side concerns seperately to try and keep things simple.
+We'll handle server side and client side concerns separately to try and keep things simple.
 
 Let's first look at the default files that come with a new Rails app for handling WebSockets. Then we can look at how to create a new channel and what comes with that.
 
@@ -288,7 +288,7 @@ room = Room.find(params[:room])
 
 This allows you to set multiple streams to the same channel by providing different parameters. When might this be useful? A couple of examples are registering to different chatrooms using the same channel object or how about subscribing to different notifications for different programming languages? They'd have to go through the same NotificationChannel but you would want to send relevant data only to those who subscribed to the relevant notification. Params are the way to do it.
 
-The second argument is another object containing three pre-defined functions. `connected()` and `disconnected()` are called when the channel first connects and disconnects from the server. `received(data)` is where you'll spend most of your time focusing. This is called everytime something is broadcast through the stream. What you do here will depend on your app but will usually involve appending something to the DOM, or alerting a user to a new message etc.
+The second argument is another object containing three pre-defined functions. `connected()` and `disconnected()` are called when the channel first connects and disconnects from the server. `received(data)` is where you'll spend most of your time focusing. This is called every time something is broadcast through the stream. What you do here will depend on your app but will usually involve appending something to the DOM, or alerting a user to a new message etc.
 
 You can add additional functions to the object to help you process the data. The data will be in json format.
 

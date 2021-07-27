@@ -68,7 +68,7 @@ While you may have learned React (or any other frontend framework) before, eithe
 
 1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5). There's a long, but *really* fantastic video linked in that article, don't skip it!
-3. Take a minute or two to browse through the main [Node.js website](https://nodejs.org/en/).  The getting-started article is a little *too* basic for our needs, and at this point the API documentation is probably a little too complicated for us to make use of just yet. But it will be very useful to become familiar with this resource as we progress.
+3. Take few minutes to go through the "Quick Start" section of the new official [Node.js website](https://nodejs.dev/learn).
 4. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>

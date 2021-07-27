@@ -4,7 +4,7 @@ Introduced in Ruby 2.7, pattern matching uses specified patterns to match agains
 
 With Ruby 3, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end.
 
-If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortuantely at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
+If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortunately at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
 
 At the time of writing we still recommend Ruby 2.7 as Ruby 3 is quite new and it can take time for third party gems to update. You can install Ruby 3 and use the [rbenv local](https://github.com/rbenv/rbenv#rbenv-local) command to set rbenv only to Ruby 3 in the folder you create to test out any of the examples below. Alternatively you can just continue with Ruby 2.7, which will work for most of the examples, and then just read through the small section at the end on Ruby 3 patterns.
 
@@ -99,7 +99,7 @@ When we say pattern we aren't talking about design patterns which you may have c
 
 There are two possible return values from a pattern match statement. The first is `true` which is returned whenever there is a match, even when the match is the else clause in a statement. The second possible return value is a `NoMatchingPatternError` whenever no match can be found. In our examples below when we `puts` something inside a case statement we'll use `# =>` to show the value that will be printed by this. In your terminal though you'll see the value printed followed by `=> true` below. We'll omit that because it's not relevant to what we're trying to show you. Just be aware that the `true` you see is just the return value of the last thing evaluated. Standard Ruby behaviour.
 
-As you'll see though the point of a pattern match usually is to not only match against a pattern but also bind all of part of the match to one or more variables that you can then use outside of the pattern match expression.
+As you'll see though the point of a pattern match usually is to not only match against a pattern but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression.
 
 ### Object Pattern Match
 

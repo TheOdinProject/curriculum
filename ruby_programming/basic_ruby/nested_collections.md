@@ -79,7 +79,7 @@ teacher_mailboxes.dig(0, 4)
 ### Creating a new nested array
 Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [documentation](https://ruby-doc.org/core-2.7.2/Array.html) the second optional argument, for the default value, should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array.
 
-To create an array of mutable objects, you will need to pass the default value to `Array.new` in a block, using curly braces, instead of the second optional argument. This creates *distinct copies* of the default value in the array, rather than references to the same default value.
+To create an array of immutable objects, you will need to pass the default value to `Array.new` in a block, using curly braces, instead of the second optional argument. This creates *distinct copies* of the default value in the array, rather than references to the same default value.
 
 To see this for yourself, let's look at two examples. This first example uses the second optional argument for the default value.
 
@@ -300,7 +300,7 @@ vehicles.collect { |name, data| name if data[:year] >= 2020 }
 #=> [nil, :caleb, :dave]
 ~~~
 
-Using `#collect` gets us a lot closer to only having the names of the new vehicle owners. If you look at this method in the documentation you will see that `#collect` and `#map` have the same functionality. Both of these methods use the return value of each interation, so when the if statement is false, it will return a nil value.
+Using `#collect` gets us a lot closer to only having the names of the new vehicle owners. If you look at this method in the documentation you will see that `#collect` and `#map` have the same functionality. Both of these methods use the return value of each iteration, so when the if statement is false, it will return a nil value.
 
 Nil values can cause problems down the road, so let's look through the documentation to see if we can find a method to help solve this problem. The `#compact` method returns an array (or hash) without nil values, so let's chain it on the end of the block.
 
@@ -323,6 +323,7 @@ Amazing! We have found a great solution to returning an array that only contains
 
 1. To learn more about using a hash with a nested array, read [this article](https://learn.co/lessons/nested-hash-iteration) from Learn.co.
 2. To learn more about using an array with a nested hash, read [the answer to this post](https://stackoverflow.com/questions/50529389/manipulating-output-from-an-array-of-nested-hashes-in-ruby) on Stack Overflow.
+3. Complete the [nested collections](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
 

@@ -71,6 +71,8 @@ As mentioned above, you can name your methods almost anything you want, but you 
 
 Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. Just like with variable names in Ruby, the convention for a method name with multiple words is to use **snake_case**, separating words with underscores.
 
+It's good practice to start the method name with a lower-case character, because names that start with capital letters are constants in Ruby. Check [here](https://stackoverflow.com/questions/10542354/what-are-the-restrictions-for-method-names-in-ruby) for more details.
+
 Here are some things you are not allowed to do with your method names:
 
 * You cannot name your method one of Ruby's approximately 40 reserved words, such as `end`, `while`, or `for`. Checkout the full list [here](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm).
