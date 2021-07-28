@@ -95,3 +95,4 @@ This section contains questions for you to check your understanding of this less
 * What is operator precedence and how is it handled in JS?
 * How do you access developer tools and the console?
 * How do you log information to the console?
+* What does unary plus operator do to string representations of integers?
