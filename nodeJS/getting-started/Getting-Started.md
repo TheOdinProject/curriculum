@@ -73,4 +73,4 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 - This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
-- This [crash course playlist of 12 episodes] (https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js, There are 12 videos in playlist you can consider them all.
+- This [crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js, There are 12 videos in playlist you can consider them all.
