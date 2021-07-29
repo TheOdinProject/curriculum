@@ -44,6 +44,10 @@ The accessibility tree is based on the DOM, something you should be very familia
 
 ARIA labels help users of assistive technologies better understand the content on a web page by overriding native labels or providing additional descriptive text. Unlike the `<label>` element, ARIA labels aren't limited to being used on only a select few elements, though they still have their own limitations.
 
+You may remember being warned against using the `id` attribute earlier in the curriculum. Normally, you want to avoid overusing `id` attributes or even using it when it isn't necessary (which more often than not, it isn't, and you should stick with using classes). There are several ARIA attributes, however, that actually *require* another element to have an `id`. 
+
+When using such ARIA attributes, you would provide an `id` to one element, and you would then pass in that `id` value as another element's ARIA attribute value. This creates a link between the elements, similar to how a `<label>` element's `for` attribute creates a link to an input's `id`. Of the three types of ARIA labels mentioned below, both `aria-labelledby` and `aria-describedby`are two of the ARIA attributes that require another element to be given an `id`.
+
 #### `aria-label`
 
 The `aria-label` attribute overrides any native label and modifies the name property in the accessibility tree, though it's best used when an element doesn't already have a native label. When you add `aria-label` to an element, you pass in a string as the value, which will become that elements accessible name. `aria-label` doesn't work on every HTML element, though. Adding the attribute to a plain `<div>` or a `<span>` will have no effect, unless you give those elements a role of some kind.
@@ -66,9 +70,9 @@ One thing you should avoid using `aria-label` for is trying to change how a word
 
 #### `aria-labelledby`
 
-The `aria-labelledby` attribute overrides both native labels as well as the `aria-label` attribute. When you use this attribute, you pass in a list of ID references as the value, somewhat similar to how the `<label>` element works with form inputs. This creates a relationship between elements, modifying the accessible name of the labeled element (the one with the `aria-labelledby` attribute) to a concatenated string of the text contents or `alt` attributes of the labeling elements (the ones whose ID are passed in). 
+The `aria-labelledby` attribute overrides both native labels as well as the `aria-label` attribute. When you use this attribute, the accessible name of the labeled element (the one with the `aria-labelledby` attribute) has its accessible name changed to a concatenated string of the text contents or `alt` attributes of the labeling elements (the ones whose `id` are passed in). 
 
-What's great about `aria-labelledby` is that you can pass in any number of ID references, and you can even have an element reference itself. One thing to keep in mind, though, is that you can't pass in the same reference multiple times, as any subsequent references after the first will be ignored.
+What's great about `aria-labelledby` is that you can pass in any number of `id` references, and you can even have an element reference itself. One thing to keep in mind, though, is that you can't pass in the same reference multiple times, as any subsequent references after the first will be ignored.
 
 ~~~html
 <h2 id='label'>Shirts</h2>
@@ -93,7 +97,7 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 
 #### `aria-describedby`
 
-The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute you pass in a list of ID references as the value, and the elements whose ID are passed in can also be visually hidden.
+The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` value are passed in can also be visually hidden.
 
 ~~~html
 <label>Password:
@@ -244,17 +248,7 @@ You've seen just how powerful ARIA can be when used correctly, but it can be equ
     * The native HTMl element cannot be styled as required.
     * The feature you want to implement is not currently available in HTML.
 
-2. **Never change native semantics**, unless you have no other choice. For example:
-
-    ~~~html
-    <!-- Don't change the role of the <h2> element itself. -->
-    <h2 role='tab'>Tab Heading</h2>
-
-    <!-- Do wrap the <h2> element inside the <div> element that is given the tab role. -->
-    <div role='tab'>
-      <h2>Tab Heading</h2>
-    </div>
-    ~~~
+2. **Never change native semantics**, unless you have no other choice. For example, instead of doing `<h2 role='tab'>`, you would want to wrap your `<h2>` element inside of `<div role='tab'>`.
 
 3. **All interactive ARIA controls must be usable with a keyboard**. If you absolutely need to change the role of a `<div>` in order to create a custom widget, you need to ensure the element can receive focus and has keyboard event handling.
 

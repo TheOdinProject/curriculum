@@ -19,21 +19,21 @@ By the end of this lesson, you should be able to:
 
 There are two ways to view the accessibility tree in Firefox: you can either right click on a page and select the "Inspect Accessibility Properties" option, or you can open the dev tools however you normally would and click the **Accessibility** tab. If you don't see this tab anywhere, then you will most likely need to enable it within the dev tools settings.
 
-INSERT IMAGE 04
+![Firefox's accessibility tree](https://user-images.githubusercontent.com/70952936/125674331-b8312e86-0453-42db-9f26-10ae18823918.jpg)
 
 As you can see from the image above, the accessibility tree in Firefox looks sort of like a more bare-bones version of the DOM. The only information listed is the role and the name property of each element on the page. You can expand each object to see its children's role and name properties, and you can continue doing so until you reach the end of that "branch". If you right click anywhere within the accessibility tree, you can even select a "Print to JSON" option, which will open the contents of the tree as JSON in a new browser tab.
 
 The accessibility tree itself isn't too complicated, so there's not actually a lot to go over. Did you notice anything different about the element picker tool, though?
 
-INSERT IMAGE 05
+![Firefox's picker tools comparison](https://user-images.githubusercontent.com/70952936/125674362-70bc34c9-73f2-46d2-bce5-877c8060327b.png)
 
 When you're in the **Inspector** tab, you can use the "element picker" tool to hover over an element on the page to see a visual representation of its box model, or you can click on an element and it will select that element in the **Inspector** tab. When you're in the **Accessibility** tab, though, this tool becomes an "accessible object picker" tool. Once you activate this tool you can hover over elements on the page to view some a11y information or you can click on an element to select it in the accessibility tree.
 
 ### Chrome's Accessibility Tree
 
-There's only one way to view the accessibility tree within Chrome: open the dev tools however you normally would, then within the **Elements** tab select the **Accessibility** pane on the right side of the window (it should be in the same area as the **Styles** pane, though you may have to open the overflow menu). If you don't see this pane anywhere, you may need to enable an experimental feature if using an older version of Chrome.
+There's only one way to view the accessibility tree within Chrome: open the dev tools however you normally would, then within the **Elements** tab select the **Accessibility** pane on the right side of the window (it should be in the same area as the **Styles** pane, though you may have to open the overflow menu). If you don't see this pane anywhere, you may need to enable an experimental feature within the dev tools.
 
-INSERT IMAGE 06
+![Chrome's accessibility tree](https://user-images.githubusercontent.com/70952936/125674441-44095206-0508-45d0-ab2d-31ed4a2d00cb.jpg)
 
 The first thing you'll notice about the accessibility tree in Chrome is that it's laid out a little differently compared to Firefox. It still lists the role and name property of each object, but it isn't separated into two separate columns. Another difference is how you're able to view the tree itself. In Firefox, regardless of which object you select, you'll still be able to see the entire tree at once. In Chrome, you only see one branch at a time. If you clicked on the `contentinfo` object from the image above, for example, the two `generic` branches would no longer be visible.
 
@@ -71,18 +71,11 @@ Any other property, however, will only appear when it is actually applied to an 
 
 ### Checking Contrast Ratios
 
-In a previous lesson you were provided with a link to the WebAIM contrast checker tool, which you've hopefully tested out a little. Having to constantly use that tool to check every text color/background color combination can be a little tedious, though. Luckily, you can actually use your dev tools to check contrast ratios in a few simpler ways, each of which will show the numerical ratio as well as which conformity level it passes for the WCAG.
+In a previous lesson you were provided with a link to the WebAIM contrast checker tool as well as one way you could check the contrast ratio in your browser's dev tools, both of which you've hopefully tested out a little. Between both Chrome and Firefox, there are a couple more options available to us for checking the contrast ratios in the dev tools.
 
 In **Firefox**, right above the **Properties** section of the **Accessibility** tab is the **Checks** section. This section will list any contrast ratios in addition to other checks, such as whether an interactive element has a focus style. In order to view the color contrast for text, you may have to travel down a branch of the accessibility tree until you select a "text leaf" object.
 
-The other two ways to check the contrast ratio are:
-* Clicking on the "accessible object picker" tool and hovering over an element on the page.
-* Going to the **Inspector** tab and within the **Styles** section, opening the color picker tool for the "color" property on an element.
-
-**Chrome** has only two ways to check the contrast ratios via the dev tools:
-
-* Clicking on the "element picker" tool and hovering over an element on the page.
-* Going to the **Elements** tab and within the **Styles** pane, opening the color picker tool for the "color" property on an element.
+You can also go to the **Inspector** tab and within the **Styles** section, open the color picker tool for the "color" property on an element. You can also use the color picker tool for a "color" property within **Chrome**, except under the **Elements** tab and within the **Styles** pane.
 
 ### Additional A11y Features in Dev Tools
 
