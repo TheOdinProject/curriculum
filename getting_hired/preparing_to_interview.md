@@ -46,7 +46,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Links
 
-* [Cracking the Coding Interview](https://www.academia.edu/38223757/Cracking_the_Coding_Interview_6th_Edition_189_Programming_Questions_and_Solutions) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
+* [Cracking the Coding Interview](https://www.academia.edu/36175368/Cracking_the_Coding_Interview_6th_Edition?auto=download) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)

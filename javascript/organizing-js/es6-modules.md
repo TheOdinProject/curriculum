@@ -22,7 +22,7 @@ After completing this lesson, you will be able to:
 
 Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions.. with good answers.
 
-- Read [this article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html) for a bit of a history lesson. It's long, but it puts what we're doing here in great perspective.  This article is a bit older, and those who have coded along with the example have frequently run into issues, so we don't suggest that you code along (you'll be following along with the offical Webpack documentation later). Nevertheless, this article is extremely important conceptually and really clarifies the 'WHY' of the rest of this lesson.
+- Read [this article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html) for a bit of a history lesson. It's long, but it puts what we're doing here in great perspective.  This article is a bit older, and those who have coded along with the example have frequently run into issues, so we don't suggest that you code along (you'll be following along with the official Webpack documentation later). Nevertheless, this article is extremely important conceptually and really clarifies the 'WHY' of the rest of this lesson.
 
 ### npm
 
@@ -47,7 +47,7 @@ Webpack _is_ a very powerful tool, and with that power comes a decent amount of 
 
 To get us started we are going to refer to the official documentation.
 
-1. Code along with the first four steps of [this tutorial](https://webpack.js.org/guides/getting-started/) ("Basic Setup" through "Using a Configuration")
+1. Code along with all of the steps of [this tutorial](https://webpack.js.org/guides/getting-started/) ("Basic Setup" through "Conclusion")
 
 Let's discuss what's going on there. After installing webpack using npm we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
 

@@ -20,7 +20,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### What is pseudo-code?
 
-Before we get into algorithms, we need to understand what pseudo-code is and how one writes pseudo-code. Pseudo-code isn't code that you run on your machine; it's code like your native language that you write down on a piece of paper or in some text editor as a way of "working out" how you'd solve a particular problem. It's a bit like working out a math problem on paper! Let us tackle a very simple problem. We wish to count in twos, from 0 to 10, and print the value! We shall write something english-like, like so:
+Before we get into algorithms, we need to understand what pseudo-code is and how one writes pseudo-code. Pseudo-code isn't code that you run on your machine; it's code like your native language that you write down on a piece of paper or in some text editor as a way of "working out" how you'd solve a particular problem. It's a bit like working out a math problem on paper! Let us tackle a very simple problem. We wish to count in twos, from 0 to 10, and print the value! We shall write something English-like, like so:
 
 ~~~ruby
   let n = 0
@@ -40,7 +40,7 @@ Good question! Think of this as more of a planning phase before you actually sta
 
 Can algorithm is a set of step by step instructions on how to solve a particular problem. Recall that just moments ago, we walked through the creation of some pseudo-code to count in twos? We had just wrote an `algorithm` to solve that problem! For such a fancy word, the actual meaning of it isn't all that fancy. When you browse YouTube and you find some YouTuber having a moan about the "YouTube Algorithm", they're just having a moan about the set of step by step instructions that YouTube has coded to decide on what to recommend, or whatever other things YouTube does behind the scenes.
 
-Typically, when someone mentions the word "algorithm" in a technical discussion, they are alluding to a publically known solution to an particular problem. If you've browsed around the internet in your research or otherwise did some prior learning/reading; you may have heard some of these problems / algorithms. `Mergesort` is an example of an algorithm designed to efficiently tackle the problem of `sorting` an `unsorted array`.
+Typically, when someone mentions the word "algorithm" in a technical discussion, they are alluding to a publicly known solution to an particular problem. If you've browsed around the internet in your research or otherwise did some prior learning/reading; you may have heard some of these problems / algorithms. `Mergesort` is an example of an algorithm designed to efficiently tackle the problem of `sorting` an `unsorted array`.
 
 Spoiler alert, later on in the course, you'll be asked to implement the very mentioned algorithm!
 

@@ -63,7 +63,7 @@ The classic example of an `Interval Search`, `Binary Search` starts off at the m
 
 In this lesson, we have gone into some detail about searching and sorting data arrays and ways of going about it, and also had a good laugh at Bogosort! We understand the strengths and weaknesses, on a high level, of some algorithms; as well as different approaches to this commonly faced problems!
 
-It should be stressed again, like in previous lessons; that most languages will have a well written, highly efficient search/sort algorithm(s) built into the language for you to use. These are written by people with a wealth of experience. As much as you should learn how to write these algorithms as an educational exercise or curiousity; you shouldn't "reinvent the wheel" in the real world unless you have a good, well researched reason to. Or if your boss demands it!
+It should be stressed again, like in previous lessons; that most languages will have a well written, highly efficient search/sort algorithm(s) built into the language for you to use. These are written by people with a wealth of experience. As much as you should learn how to write these algorithms as an educational exercise or curiosity; you shouldn't "reinvent the wheel" in the real world unless you have a good, well researched reason to. Or if your boss demands it!
 
 ### Assignment
 

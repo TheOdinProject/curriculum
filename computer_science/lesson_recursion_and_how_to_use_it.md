@@ -29,7 +29,7 @@ As described very briefly in the introduction, recursion is where a function cal
   print output of sum_of_squares(5)
 ~~~
 
-So what will happen here? We've defined our function, `sum_of_squares` to check if it's input is `equal to 1`, and if so, `return 1`. If this is not the case, We subtract 1 from the input and assign the value to `M`. We then take the sum of our original input `N` times by iself, and the output of `sum_of_squares` with input M. So what will this look like? Let's find out:
+So what will happen here? We've defined our function, `sum_of_squares` to check if it's input is `equal to 1`, and if so, `return 1`. If this is not the case, We subtract 1 from the input and assign the value to `M`. We then take the sum of our original input `N` times by itself, and the output of `sum_of_squares` with input M. So what will this look like? Let's find out:
 
 ~~~ruby
   sum_of_squares(5) = 5*5 + sum_of_squares(4)
