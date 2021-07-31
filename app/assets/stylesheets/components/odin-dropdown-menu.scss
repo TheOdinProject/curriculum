@@ -19,6 +19,7 @@
     border-radius: 10px;
     transform-origin: top right;
     transition: transform ease-in 0.2s, opacity ease-in 0.1s;
+    background-color: $white;
   }
 
   &__toggle {
