@@ -6,9 +6,11 @@ document.addEventListener('turbolinks:load', (element) => {
     const settingsViewForm = element.querySelector('.settings-view--hidden');
     const settingsView = element.querySelector('.settings-view');
 
-    toggler.addEventListener('click', () => {
-      switchViews();
-    });
+    if (toggler) {
+      toggler.addEventListener('click', () => {
+        switchViews();
+      });
+    }
 
     $(settingsViewForm).on('ajax:success', (event) => {
       const data = event.detail[0];

@@ -1,6 +1,6 @@
 <%= title('Settings') %>
 
-<div class="gradient">
+<div class="gradient pb-1">
   <div class="container">
     <h1 class="text-center accent">Settings</h1>
     <div class='col-lg-10 offset-lg-1'>
@@ -12,12 +12,8 @@
         <%= render 'devise/registrations/password', user: @user %>
       <% end %>
 
-      <%= link_to 'Delete my account',
-        registration_path(resource_name),
-        class: 'delete-account text-center',
-        data: { confirm: 'Are you sure?', test_id: 'user-account-delete-link' },
-        method: :delete
-      %>
+      <%= render 'devise/registrations/danger_zone', user: @user %>
+
     </div>
   </div>
 </div>

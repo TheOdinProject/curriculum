@@ -45,6 +45,7 @@ Rails.application.routes.draw do
 
   namespace :users do
     resources :paths, only: :create
+    resources :progress, only: :destroy
   end
   get 'dashboard' => 'users#show', as: :dashboard
 
