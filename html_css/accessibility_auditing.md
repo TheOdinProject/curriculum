@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should feel confident enough to start making your websites a little more accessible. To take things a step further, though, you'll need to learn how to view the accessibility tree in your dev tools and how to audit your web pages for any outstanding a11y issues.
+By now you should feel confident enough to start making your websites a little more accessible for a lot of users. What can really help you make sure you're implementing certain a11y features correctly, though, is learning how to view the accessibility tree in your dev tools and how to audit your web pages for any outstanding a11y issues.
 
 This lesson assumes you are using the most up to date version of your preferred browser. If you are unable to find any features mentioned in this lesson within your browser, you may need to update it or enable an accessibility setting or an experimental feature within the dev tools.
 
@@ -17,7 +17,7 @@ By the end of this lesson, you should be able to:
 
 ### Firefox's Accessibility Tree
 
-There are two ways to view the accessibility tree in Firefox: you can either right click on a page and select the "Inspect Accessibility Properties" option, or you can open the dev tools however you normally would and click the **Accessibility** tab. If you don't see this tab anywhere, then you will most likely need to enable it within the dev tools settings.
+There are two ways to view the accessibility tree in Firefox: you can either right click on a page and select the "Inspect Accessibility Properties" option, or you can open the dev tools however you normally would and click the **Accessibility** tab.
 
 ![Firefox's accessibility tree](https://user-images.githubusercontent.com/70952936/125674331-b8312e86-0453-42db-9f26-10ae18823918.jpg)
 
@@ -69,13 +69,11 @@ The "name" property will show the final computed value next to it, and immediate
 
 Any other property, however, will only appear when it is actually applied to an element. Most interactive elements will have a "Focusable" property, for example, and an element with the `aria-describedby` attribute will have both a "Description" and "Described by" property.
 
-### Checking Contrast Ratios
+### Firefox's Checks
 
-In a previous lesson you were provided with a link to the WebAIM contrast checker tool as well as one way you could check the contrast ratio in your browser's dev tools, both of which you've hopefully tested out a little. Between both Chrome and Firefox, there are a couple more options available to us for checking the contrast ratios in the dev tools.
+In the Accessible Colors lesson you were provided with a link to the WebAIM contrast checker tool as well as a couple of ways you could check the contrast ratio in your browser's dev tools, both of which you've hopefully tested out a little. Firefox has an additional way to check contrast ratios, which we waited to include here since it actualy provides a way to check for more than just contrast ratios.
 
-In **Firefox**, right above the **Properties** section of the **Accessibility** tab is the **Checks** section. This section will list any contrast ratios in addition to other checks, such as whether an interactive element has a focus style. In order to view the color contrast for text, you may have to travel down a branch of the accessibility tree until you select a "text leaf" object.
-
-You can also go to the **Inspector** tab and within the **Styles** section, open the color picker tool for the "color" property on an element. You can also use the color picker tool for a "color" property within **Chrome**, except under the **Elements** tab and within the **Styles** pane.
+Right above the **Properties** section of the **Accessibility** tab in Firefox is the **Checks** section. This section will list any contrast ratios in addition to other checks, such as whether an interactive element has a focus style. In order to view the color contrast for text, you may have to travel down a branch of the accessibility tree until you select a "text leaf" object.
 
 ### Additional A11y Features in Dev Tools
 
@@ -93,7 +91,7 @@ Another tool worth checking out is the "Issues" tool, which will list any potent
 
 ### Accessibility Auditing
 
-There are different ways to audit the accessibility of a web page, though we'll only cover a few in this lesson. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed or just didn't know existed.
+There are plenty of third party tools to audit the accessibility of a web page, each with their own pros and cons, though we're only going to mention three of those tools here. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. If you decide to utilize one of these tools, or another auditing tool if you prefer one you come across, you should focus on the concepts introduced in these lessons only.
 
 * [axe DevTools for Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) and [axe for Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) are extension-based tools. 
 
@@ -107,14 +105,15 @@ There are different ways to audit the accessibility of a web page, though we'll 
 
   WAVE will return a preview of the page with an overlay if icons on it, and issues are separated into categories of alerts, warnings, and contrast errors. Unfortunately the icons that are placed on the page may cause the layout to break, but that could be a minor issue if you're more focused on the a11y issues that are found.
 
-Of course, one of the best ways to check the accessibility of your websites is to get feedback from users who rely on these accessibility features. Obviously this isn't always an option, but when you can it will be worth hearing from those who may be affected by your site's accessibility.
+Of course, one of the best ways to check the accessibility of your websites is to get feedback from users who rely on these accessibility features. Obviously this isn't always an easy option, but when you can it will be worth hearing from those who may be affected by your site's accessibility (or lack of it).
 
 ### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
 
-* The MDN [Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) page goes into more detail about using the **Accessibility** tab, including other properties each object in the accessibility tree has.
-* Chrome's [Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/) goes over the accessibility features in their dev tools, including a little more information regarding checking contrast ratios with the color picker from the **Styles** pane.
+* The [MDN Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) and [Chrome's Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/) both go over some additional a11y features of their respective dev tools.
 * [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/test-evaluate/involving-users/) goes over some helpful steps to take when you can get feedback from users.
+* The [A11y Project Checklist](https://www.a11yproject.com/checklist/) covers many more success criteria that can be helpful for making your websites more accessible beyond what you've learned from these lessons.
+* The [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of success criteria along with techniques for how to satisfy them and links to understanding them in more detail. This tool is a great go-to when you're really ready to push your website to the next accessible level. If you often use animations, success criterion 2.2.2 ("Play, Stop, Hide") and all of the 2.3 success criteria are definitely worth reading.
 * [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibility reasons.
 * [screenreader-outputs](https://github.com/thatblindgeye/screenreader-outputs) is a GitHub repo that contains many examples of screen reader outputs. Sometimes nested elements or certain combinations of attributes and native labeling may result in accessible names or descriptions that are difficult to make sense of, so checking out this repo may help clear things up.

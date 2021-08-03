@@ -31,7 +31,10 @@ Good web design doesn't happen by accident. This course takes a deeper look at f
   - [Project: Design Teardown](project_design.md)
 - Web Accessibility
   - Introduction to Web Accessibility - [lesson](web_accessibility.md)
-  - Implementing Web Accessibility - [lesson](implementing_accessibility.md)
+  - Semantic HTML - [lesson](semantic_html.md)
+  - Accessible Colors - [lesson](accessible_colors.md)
+  - Keyboard Navigation - [lesson](keyboard_navigation.md)
+  - Meaningful Text - [lesson](meaningful_text.md)
   - WAI-ARIA - [lesson](aria.md)
   - A11y Auditing - [lesson](accessibility_auditing.md)
 - Responsive Design and CSS Frameworks
