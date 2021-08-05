@@ -44,7 +44,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 
 1. Add the association between the event attendee (also a User) and the event. Call this user the "attendee". Call the event the "attended_event". You'll again need to juggle specially named foreign keys and classes and sources.
 2. Create and migrate all necessary tables and foreign keys. This will require a "through" table since an Event can have many Attendees and a single User (Attendee) can attend many Events... many-to-many.
-3. Create a Controller and corresponding routes for the "through" table that will allow a user to become an "attendee" of an event.
+3. Create a Controller and corresponding routes for the "through" table that will allow a user to become an "attendee" of an event. This will also require creating some sort of interface in the view(s) where the user can indicate that they want to attend an event.
 4. Update the Event's Show page to display a list of attendees.
 5. Add to the User's Show page a list of their "attended_events".
 6. Separate this list of "attended_events" into either events that have occurred in the past or events that will occur in the future. You'll get some good practice building [queries](https://guides.rubyonrails.org/active_record_querying.html#array-conditions) and working with dates. Keep this logic in the view and do not put separate method calls in the controller.
