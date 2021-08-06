@@ -1,4 +1,4 @@
-Let's dive right in!
+Let's dive right in to JavaScript!
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
