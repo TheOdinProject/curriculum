@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### How to Run JavaScript Code
 
-All JavaScript we will be writing for the forseeable future will be ran via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Keep in mind that due to differences in the NodeJS environment and the browser environment, for now you should always default to running your JavaScript in the browser unless otherwise specified.
+All JavaScript we will be writing for the foreseeable future will be ran via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Keep in mind that due to differences in the NodeJS environment and the browser environment, for now you should always default to running your JavaScript in the browser unless otherwise specified.
 
 The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
 
