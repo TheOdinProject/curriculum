@@ -1,5 +1,5 @@
 if Rails.env.development? || ENV['STAGING']
-  names = %w[kevin rachel austin]
+  names = %w[kevin rachel austin sully]
 
   names.each do |name|
     User.find_or_create_by!(email: "#{name}@odin.com") do |user|
