@@ -1,11 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Admin::Flags::NotifyUser do
-  subject(:service) { described_class.call(admin: admin, flag: flag, notification: notification) }
+  subject(:service) { described_class.call(admin: admin, flag: flag) }
 
   let(:admin) { create(:user, admin: true) }
   let(:flag) { create(:flag, project_submission: project_submission) }
-  let(:notification) { double('Notifications::DeadLink', call: 'called') }
   let(:project_submission) { create(:project_submission, user: user) }
   let(:user) { create(:user) }
 

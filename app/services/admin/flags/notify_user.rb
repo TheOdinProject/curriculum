@@ -1,10 +1,9 @@
 module Admin
   module Flags
     class NotifyUser
-      def initialize(admin:, flag:, notification:)
+      def initialize(admin:, flag:)
         @admin = admin
         @flag = flag
-        @notification = notification
         @success = false
       end
 
@@ -18,7 +17,7 @@ module Admin
           flag.notified_user!
           flag.resolved!
           flag.update!(resolved_by_id: admin.id)
-          FlagNotification.with(flag: flag, message: message.content, url: message.url)
+          FlagNotification.with(flag: flag, title: message.title, message: message.content, url: message.url)
                           .deliver_later(flag.project_submission.user)
         end
       end
@@ -26,7 +25,7 @@ module Admin
 
       private
 
-      attr_reader :flag, :admin, :notification
+      attr_reader :flag, :admin
 
       def message
         Messages::DeadLink.new(flag)

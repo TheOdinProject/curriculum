@@ -8,20 +8,27 @@ module Messages
       @flag = flag
     end
 
-    # rubocop:disable Layout/LineLength
-    def content
-      "Hey #{username}, heads up your project submission for #{lesson_name} was flagged because it has a broken link. " \
-        'We aim to keep the submission lists useful and so we remove any submissions with broken links often. ' \
-        'When you get a moment, can you update your submission with the correct links for us please? ' \
-        "Otherwise we will have to remove it on #{date}."
+    def title
+      "One of your submissions has been flagged on #{flagged_date}"
     end
-    # rubocop:enable Layout/LineLength
+
+    def content
+      "Hey #{username}, your project #{lesson_name} has a broken link in your submission. " \
+        "Please update it by #{submission_deletion_date} so it doesn\'t get removed!"
+    end
 
     def url
-      lesson_url(flag.project_submission.lesson, only_path: true)
+      path_course_lesson_url(flag.project_submission.lesson.course.path,
+                             flag.project_submission.lesson.course,
+                             flag.project_submission.lesson,
+                             only_path: true)
     end
 
     private
+
+    def flagged_date
+      flag.created_at.strftime('%d %b %Y')
+    end
 
     def username
       flag.project_submission.user.username
@@ -31,7 +38,7 @@ module Messages
       flag.project_submission.lesson.title
     end
 
-    def date
+    def submission_deletion_date
       7.days.from_now.strftime('%d %b %Y')
     end
   end

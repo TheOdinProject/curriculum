@@ -6,9 +6,10 @@ class FlagNotification < Noticed::Base
       type: self.class.name,
       params: params[:flag],
       url: params[:url],
-      message: params[:message]
+      message: params[:message],
+      title: params[:title]
     }
   end
 
-  param :flag, :url, :message
+  param :flag, :url, :message, :title
 end

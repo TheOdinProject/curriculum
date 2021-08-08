@@ -1,0 +1,19 @@
+<%= link_to notification_path(@notification), method: :patch, class: "no-underline px-4 py-4" do %>
+  <li class="bg-white shadow overflow-hidden p-4 sm:rounded-md">
+    <div class="flex">
+      <div class="mr-4 flex-shrink-0">
+        <%= notification_read_status_icon %>
+      </div>
+      <div class="flex-col">
+        <div>
+          <p class="text-base font-semibold"><%= @notification.title.titleize %></p>
+        </div>
+        <div>
+          <p class="mt-1 text-base">
+            <%= @notification.message %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </li>
+<% end %>

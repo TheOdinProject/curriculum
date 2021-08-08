@@ -6,5 +6,6 @@ FactoryBot.define do
     read_at { Time.zone.now }
     url { '' }
     message { '' }
+    title { '' }
   end
 end
