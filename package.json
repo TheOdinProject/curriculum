@@ -9,7 +9,7 @@
     "@hookform/resolvers": "2.7.0",
     "@rails/ujs": "^6.1.4",
     "@rails/webpacker": "5.4.0",
-    "@sentry/browser": "^6.10.0",
+    "@sentry/browser": "^6.11.0",
     "autoprefixer": "^9",
     "axios": "^0.21.1",
     "babel-plugin-prismjs": "^2.1.0",
