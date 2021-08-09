@@ -534,8 +534,8 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webmock (3.13.0)
-      addressable (>= 2.3.6)
+    webmock (3.14.0)
+      addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
     webpacker (5.4.0)
@@ -622,7 +622,7 @@ DEPENDENCIES
   vcr (~> 6.0)
   view_component (~> 2.36)
   web-console
-  webmock (~> 3.13)
+  webmock (~> 3.14)
   webpacker
 
 RUBY VERSION

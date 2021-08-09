@@ -60,7 +60,7 @@ group :development, :test, :docker do
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'vcr', '~> 6.0'
-  gem 'webmock', '~> 3.13'
+  gem 'webmock', '~> 3.14'
 end
 
 group :development, :docker do
