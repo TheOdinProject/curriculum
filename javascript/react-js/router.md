@@ -84,7 +84,7 @@ ReactDOM.render(
 );
 ~~~
 
-Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile".
+Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
 In both cases, the "Hello from App" from our App component is displayed.
 
 There are two solutions to this problem.
