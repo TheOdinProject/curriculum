@@ -32,7 +32,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Linux</summary>
+<summary class="dropDown-header">Linux (Official Ubuntu Flavors)</summary>
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
