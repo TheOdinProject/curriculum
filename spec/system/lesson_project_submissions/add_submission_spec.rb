@@ -5,6 +5,7 @@ RSpec.describe 'Add a Project Submission', type: :system do
 
   context 'when a user is signed in' do
     let(:user) { create(:user) }
+    let(:another_user) { create(:user) }
 
     before do
       sign_in(user)
@@ -37,6 +38,7 @@ RSpec.describe 'Add a Project Submission', type: :system do
         end
 
         using_session('another_user') do
+          sign_in(another_user)
           visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
 
           within(:test_id, 'submissions-list') do
@@ -48,14 +50,10 @@ RSpec.describe 'Add a Project Submission', type: :system do
   end
 
   context 'when a user is not signed in' do
-    before do
-      visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
-    end
-
     it 'they cannot add a project submission' do
-      Pages::ProjectSubmissions::Form.new.open
+      visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
 
-      expect(page).to have_content('Please Sign in')
+      expect(page).not_to have_button('Add Solution')
     end
   end
 end

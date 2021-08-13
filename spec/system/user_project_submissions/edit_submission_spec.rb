@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Editing a Project Submission on the Dashboard', type: :system do
   let(:user) { create(:user) }
+  let(:another_user) { create(:user) }
   let(:lesson) { create(:lesson, :project) }
 
   before do
@@ -47,6 +48,7 @@ RSpec.describe 'Editing a Project Submission on the Dashboard', type: :system do
     end
 
     using_session('another_user') do
+      sign_in(another_user)
       visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
 
       within(:test_id, 'submissions-list') do

@@ -27,7 +27,7 @@
   <div class="container">
     <div class="card-main">
 
-      <% if @lesson.accepts_submission? %>
+      <% if user_signed_in? && @lesson.accepts_submission? %>
         <%= react_component(
           "project-submissions/index",
           {
