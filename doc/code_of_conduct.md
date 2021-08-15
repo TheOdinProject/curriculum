@@ -10,7 +10,7 @@ The Odin Project's online communities are intended to be informative and relaxin
 
 4. Do not post someone's personal information or post links to personal information.
 
-Additionally, The Odin Project and it's core members reserve the right to ban or otherwise disable the account(s) of users in defiance with this code of conduct or for any other reason they see fit.
+Additionally, The Odin Project and its core members reserve the right to ban or otherwise disable the account(s) of users in defiance with this code of conduct or for any other reason they see fit.
 
 ## Our Standards
 
