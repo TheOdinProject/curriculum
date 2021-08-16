@@ -125,7 +125,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
   <title>Document</title>
 </head>
 <body>
-  <img src="#" />
+  <img src="#">
   <script>
   </script>
 </body>
