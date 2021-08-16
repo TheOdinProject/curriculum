@@ -296,7 +296,7 @@ GEM
     netrc (0.11.0)
     newrelic_rpm (7.2.0)
     nio4r (2.5.7)
-    nokogiri (1.12.2)
+    nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     noticed (1.4.1)
@@ -585,7 +585,7 @@ DEPENDENCIES
   letter_opener (~> 1.4)
   listen
   newrelic_rpm
-  nokogiri (~> 1.12.2)
+  nokogiri (~> 1.12.3)
   noticed (~> 1.4)
   octokit (~> 4.21)
   omniauth-github
