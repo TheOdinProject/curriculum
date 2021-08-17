@@ -66,4 +66,12 @@ This section contains helpful links to other content. It isn't required, so cons
 * [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but it's examples are clear. The first 6 slides cover the material we've seen so far.
 
 ### Knowledge Check
-*
+* What is the difference between a block element and an inline element?
+* What is the difference between an inline element and an inline-block element?
+* What does the `box-sizing` css property do?
+* Is an `h1` block or inline?
+* Is `span` block or inline?
+* Is `button` block or inline?
+* Is `div` block or inline?
+* Would you use `margin` or `padding` to create more space between 2 elements?
+* Would you use `margin` or `padding` to create more space between the contents of an element and it's border?
