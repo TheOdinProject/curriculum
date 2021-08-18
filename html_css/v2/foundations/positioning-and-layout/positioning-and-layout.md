@@ -8,7 +8,7 @@ Now that you understand the basic syntax of HTML and CSS, we're going to get ser
 * You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`
 * You'll learn the difference between `block` and `inline` elements.
 
-Learning to position elements on a webpage is not that difficult once you understand just a few key concepts. Unfortunately many learners race through learning HTML and CSS to get to JavaScript and end up missing these fundamental concepts. This leads to frustration, pain ([and funny gifs](https://giphy.com/gifs/css-13FrpeVH09Zrb2)), because all of the JavaScript skills in the world are meaningless if you can't stick your elements on the page where you need them to be. So, with that in mind let's get started.
+Learning to position elements on a webpage is not that difficult once you understand just a few key concepts. Unfortunately many learners race through learning HTML and CSS to get to JavaScript and end up missing these fundamental concepts. This leads to frustration, pain ([and funny gifs](https://giphy.com/gifs/css-13FrpeVH09Zrb2)), because all of the JavaScript skills in the world are meaningless if you can't stick your elements on the page where you need them to be. So with that in mind, let's get started.
 
 ### The Box Model
 The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now will cause you much frustration down the line.
@@ -29,7 +29,7 @@ You can use the browser's inspector to add this css to this webpage if you want.
 
 When it comes down to it, laying out a webpage and positioning all of it's elements is basically just deciding how you are going to nest and stack these boxes.
 
-The only real complication here is that there are multiple ways to manipulate the size of these boxes, and the space between them using `margin`, `padding`, and `border`s. The assigned articles go into more depth on this concept, but to sum it up briefly: padding increases the space between the edge of a box and the content inside of it, margin increases the space between a box and any others that sit next to it, and borders add space (even if it's only a pixel or two) between the margin and the padding. Be sure to study the diagrams carefully.
+The only real complication here is that there are multiple ways to manipulate the size of these boxes, and the space between them using `margin`, `padding`, and `border`. The assigned articles go into more depth on this concept, but to sum it up briefly: padding increases the space between the edge of a box and the content inside of it, margin increases the space between a box and any others that sit next to it, and border adds space (even if it's only a pixel or two) between the margin and the padding. Be sure to study the diagrams carefully.
 
 ![the box model](./imgs/box-model.png)
 
