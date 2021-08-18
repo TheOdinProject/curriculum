@@ -148,4 +148,10 @@ This section contains helpful links to other content. It isn't required, so cons
 * This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
 
 ### Knowledge Check
-*
+* What's the difference between a flex container and a flex item?
+* How do you create a flex item?
+* how do you make flex items arrange themselves vertically instead of horizontally?
+* What is the difference between `justify-content` and `align-items`?
+* How do you use flexbox to completely center a div inside a flex container?
+* What are the 3 values defined in the shorthand `flex` property? (e.g. `flex: 1 1 auto`)?
+* What's the difference between `justify-content: space-between` and `justify-content: space-around`?
