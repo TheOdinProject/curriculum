@@ -38,7 +38,7 @@ The result should look something like this:
 
 ![initial](./imgs/01.png)
 
-We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex lines in your css and check out the result. Your 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width. 
+We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex lines in your css and check out the result. Your 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width.
 
 ![flexing](./imgs/02.png)
 
@@ -51,7 +51,7 @@ A flex container is any element that has `display: flex` on it. A flex item is a
 
 ![container-vs-child](./imgs/03.png)
 
-Somewhat confusingly, any element can be both a flex container _and_ a flex item. Said another way, you can also put `display: flex` on a flex item, and then use flexbox to arrange _its_ children. 
+Somewhat confusingly, any element can be both a flex container _and_ a flex item. Said another way, you can also put `display: flex` on a flex item, and then use flexbox to arrange _its_ children.
 
 ![nesting flex containers](./imgs/04.png)
 
@@ -68,7 +68,7 @@ The `flex` property is actually a shorthand for 3 properties that you can set on
 > Shorthand properties are CSS properties that let you set the values of multiple other CSS properteis simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
 > Source: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
-In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`. 
+In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
 
 ![flex shorthand](./imgs/10.png)
 
