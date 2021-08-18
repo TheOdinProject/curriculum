@@ -7,8 +7,6 @@ Let's go through it step by step. First of all, create a new project using `crea
 Once you've done that, let's create a new file called `Profile.js` inside the src directory, and add a basic functional component to it, which just contains an `h1` element.
 
 ~~~javascript
-import React from "react";
-
 const Profile = () => {
   return (
     <div>
@@ -23,8 +21,6 @@ export default Profile;
 And also make sure your `App.js` file looks like this:
 
 ~~~javascript
-import React from "react";
-
 const App = () => {
   return (
     <div>
@@ -42,7 +38,6 @@ While this is happening, we can create a new file called `Routes.js`, which is g
 Once the package is finished installing, you can add this code to your Routes.js file:
 
 ~~~javascript
-import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -84,7 +79,7 @@ ReactDOM.render(
 );
 ~~~
 
-Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile".
+Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
 In both cases, the "Hello from App" from our App component is displayed.
 
 There are two solutions to this problem.
