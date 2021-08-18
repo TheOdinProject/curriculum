@@ -155,7 +155,7 @@ This concept is an important one, so you've got some reading to do. Make sure yo
 1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
 2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 
-If you've understood the concept of the prototype, then this next bit about constructors will not be confusing at all!
+If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!
 
 ~~~javascript
 function Student(name, grade) {
@@ -171,7 +171,7 @@ Student.prototype.goToProm = function() {
 }
 ~~~
 
-If you're using constructors to make your objects, it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
+If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
 
 #### Recommended Method for Prototypal Inheritance
 
@@ -244,6 +244,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [this video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explain the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
 * [This video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains the `Object.create` method with useful details about it. He walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also, you can check out [this video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith for another point of view on extending objects by using `Object.create`.
-* [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by 
-Nicholas C. Zakas is really great for understanding OOP in JavaScript. It explains concepts simply and in-depth, and it explores JavaScript's object-oriented nature, describing the language's unique implementation of inheritance and other key characteristics. It's not free but it's very valuable.
+* [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) by 
+Nicholas C. Zakas is really great for understanding OOP in JavaScript. In this book, the author explains concepts simply and in-depth. He explores JavaScript's object-oriented nature, describing the language's unique implementation of inheritance and other key characteristics. The book isn't free but it's very valuable.
 * [This Stack Overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
