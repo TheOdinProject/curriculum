@@ -1,5 +1,7 @@
 ### Introduction
 
+By now you should be comfortable with basic CSS selectors.
+
 ### Learning Outcomes
 
 ### Parent and Sibling Selectors
@@ -49,3 +51,7 @@ This section contains helpful links to other content. It isn't required, so cons
 Note - has a selector tool which could be a good practice assignment.
 
 [CSS Tricks Selectors Reference](https://css-tricks.com/almanac/selectors/) - each link has a good amount of detail
+
+[Shay Howe Article](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
+
+[Shorter cheat sheet from FCC](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/)
