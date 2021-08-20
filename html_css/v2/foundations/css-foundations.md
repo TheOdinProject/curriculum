@@ -396,6 +396,15 @@ It's best to include both of these properties for `<img>` elements, even if you 
 
 ### Practice
 
+<!-- Ideas for possible exercises for the css-exercises repo, if needed:
+
+Provide a few different "desired outcome" images that would require the user to:
+- Add styles to 3 different elements, each using a different method for adding CSS to an HTMl file (inline, internal, external)
+- Add a class and ID to elements and add styles to them using class and ID selectors
+- Add a CSS rule that groups two elements, then add a unique rule for each element
+- Add a CSS rule that chains two selectors and a rule using the descendant combinator
+- Provide a small, completed HTML and CSS file where the user has to fix specificity and/or rule order issues -->
+
 Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
 It's completely open to how you actually style it, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Most of all, don't worry about whether what you create looks like it came out of 1995. This is just to practice and get used to writing CSS, not to make something to show off on your resume (and really were sites in the 90's that bad?).
