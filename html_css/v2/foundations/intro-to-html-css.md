@@ -11,7 +11,7 @@ If you want to get technical, HTML and CSS aren't _programming languages_ becaus
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. Read [this article](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS and JavaScript.
+1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS and JavaScript.
 </div>
 
 ### Additional Resources
