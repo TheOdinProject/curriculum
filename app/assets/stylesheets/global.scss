@@ -6,6 +6,9 @@ html {
 body {
   font-family: $body_fonts;
   padding-right: 0 !important; // a hacky fix to avoid 15px right padding added when a modal is displayed/hidden
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -114,4 +117,9 @@ textarea {
   background-color: $pale-grey-bg;
   font-family: $body-fonts;
   padding: 0.7rem 1rem 0.7rem 1rem;
+}
+
+// targets the div that wraps all content above the footer so we can push the footer down to the bottom of the vh
+#global-content-wrapper {
+  flex: 1;
 }

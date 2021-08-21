@@ -2,4 +2,5 @@
   <%= button_to "Dismiss Flag", dismiss_admin_flag_path, data: { confirm: "Are you sure?", test_id: "dismiss-flag-btn" }, disabled: flag.resolved? %>
   <%= button_to "Remove Submission", remove_project_submission_admin_flag_path, data: { confirm: "Are you sure?", test_id: "remove-submission-btn" }, disabled: flag.resolved? %>
   <%= button_to "Ban User", ban_flagged_user_admin_flag_path, data: { confirm: "Are you sure?", test_id: "ban-user-btn" }, disabled: flag.resolved? %>
+  <%= button_to "Notify Broken Link", notify_broken_link_admin_flag_path, data: { confirm: "Are you sure?", test_id: "notify-broken-link-btn" }, disabled: flag.resolved? %>
 </div>

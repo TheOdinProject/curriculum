@@ -14,6 +14,7 @@ ActiveAdmin.register Flag do
   member_action :ban_flagged_user, method: :post
   member_action :dismiss, method: :post
   member_action :remove_project_submission, method: :post
+  member_action :notify_broken_link, method: :post
 
   index do
     selectable_column
@@ -94,6 +95,16 @@ ActiveAdmin.register Flag do
         redirect_to admin_flags_path, notice: 'Success: Submission has been removed.'
       else
         redirect_to admin_flags_path, notice: 'Failure: Unable to remove project, please check logs.'
+      end
+    end
+
+    def notify_broken_link
+      result = Admin::Flags::NotifyUser.call(admin: current_user, flag: resource)
+
+      if result.success?
+        redirect_to resource_path(resource), notice: 'Success: User has been notified of broken link.'
+      else
+        redirect_to resource_path(resource), notice: 'Failure: Unable to notify user, please check logs.'
       end
     end
   end

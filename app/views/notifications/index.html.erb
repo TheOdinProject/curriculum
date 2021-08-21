@@ -1,5 +1,12 @@
 <div class="container">
   <ul class="space-y-3">
-    <%= render NotificationComponent.with_collection(@notifications) %>
+    <% unless @notifications.empty? %>
+      <%= render NotificationComponent.with_collection(@notifications) %>
+    <% else %>
+      <div class="text-center mx-auto">
+        <h3 class="text-lg leading-6 font-medium text-gray-900">No notifications yet</h3>
+        <p>Why not take your next lesson while you wait?</p>
+      </div>
+    <% end %>
   </ul>
 </div>

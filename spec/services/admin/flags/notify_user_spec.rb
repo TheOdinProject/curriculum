@@ -24,5 +24,9 @@ RSpec.describe Admin::Flags::NotifyUser do
     it 'creates a notification' do
       expect { service }.to change { Notification.count }.from(0).to(1)
     end
+
+    it 'updates the flag\'s project submission to set a discard at date seven days in the future' do
+      expect { service }.to change(project_submission, :discard_at).from(nil).to(7.days.from_now.all_day)
+    end
   end
 end

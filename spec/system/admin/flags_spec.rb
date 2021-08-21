@@ -32,6 +32,7 @@ RSpec.describe 'Admin Flags', type: :system do
       expect(find(:test_id, 'dismiss-flag-btn')).to be_disabled
       expect(find(:test_id, 'remove-submission-btn')).to be_disabled
       expect(find(:test_id, 'ban-user-btn')).to be_disabled
+      expect(find(:test_id, 'notify-broken-link-btn')).to be_disabled
     end
   end
 
@@ -78,6 +79,7 @@ RSpec.describe 'Admin Flags', type: :system do
       expect(find(:test_id, 'dismiss-flag-btn')).to be_disabled
       expect(find(:test_id, 'remove-submission-btn')).to be_disabled
       expect(find(:test_id, 'ban-user-btn')).to be_disabled
+      expect(find(:test_id, 'notify-broken-link-btn')).to be_disabled
     end
 
     it 'removes the submission from the lesson' do
@@ -98,6 +100,32 @@ RSpec.describe 'Admin Flags', type: :system do
         expect(page).to have_current_path(new_user_session_path)
         expect(find(:test_id, 'flash')).to have_text('Your user account has been banned')
       end
+    end
+  end
+
+  context 'when handling the flag by notifying the submission owner of a broken link' do
+    before do
+      page.accept_confirm do
+        find(:test_id, 'notify-broken-link-btn').click
+      end
+    end
+
+    it 'lets the admin know the user has been successfully notified of the broken link' do
+      expect(page).to have_current_path(admin_flag_path(flag))
+      expect(page).to have_content('Success: User has been notified of broken link.')
+    end
+
+    it 'disables the flag action buttons' do
+      expect(find(:test_id, 'dismiss-flag-btn')).to be_disabled
+      expect(find(:test_id, 'remove-submission-btn')).to be_disabled
+      expect(find(:test_id, 'ban-user-btn')).to be_disabled
+      expect(find(:test_id, 'notify-broken-link-btn')).to be_disabled
+    end
+
+    it 'shows the flag in the resolved list' do
+      visit admin_flags_path(scope: 'resolved')
+
+      expect(page).to have_content(flag.id)
     end
   end
 end

@@ -232,6 +232,10 @@ module ApplicationHelper
     end
   end
 
+  def unread_notifications?(user)
+    user.notifications.any?(&:unread?)
+  end
+
   private
 
   def custom_flash(flash_type)

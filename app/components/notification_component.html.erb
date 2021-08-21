@@ -1,4 +1,4 @@
-<%= link_to notification_path(@notification), method: :patch, class: "no-underline px-4 py-4" do %>
+<%= link_to notification_path(@notification), method: :patch, class: "no-underline px-4 py-4", data: { test_id: "notification-#{@notification.id}" } do %>
   <li class="bg-white shadow overflow-hidden p-4 sm:rounded-md">
     <div class="flex">
       <div class="mr-4 flex-shrink-0">
