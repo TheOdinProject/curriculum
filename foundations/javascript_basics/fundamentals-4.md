@@ -37,3 +37,9 @@ Complete the following exercises:
 - sumAll
 - leapYears
 - tempConversion
+- calculator
+- palindromes
+- fibonacci
+- getTheTitles
+- findTheOldest
+- caesar
