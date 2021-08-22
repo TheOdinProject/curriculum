@@ -52,7 +52,7 @@ course.add_section do |section|
 
   section.add_lessons(
     ruby_on_rails_lessons.fetch('Active Record Basics'),
-    ruby_on_rails_lessons.fetch('Building With Active Record'),
+    ruby_on_rails_lessons.fetch('Micro-Reddit'),
   )
 end
 
@@ -68,7 +68,7 @@ course.add_section do |section|
     ruby_on_rails_lessons.fetch('Form Basics'),
     ruby_on_rails_lessons.fetch('Forms'),
     ruby_on_rails_lessons.fetch('Sessions, Cookies and Authentication'),
-    ruby_on_rails_lessons.fetch('Authentication'),
+    ruby_on_rails_lessons.fetch('Members Only!'),
   )
 end
 
@@ -83,10 +83,10 @@ course.add_section do |section|
   section.add_lessons(
     ruby_on_rails_lessons.fetch('Active Record Queries'),
     ruby_on_rails_lessons.fetch('Active Record Associations'),
-    ruby_on_rails_lessons.fetch('Associations'),
+    ruby_on_rails_lessons.fetch('Private Events'),
     ruby_on_rails_lessons.fetch('Active Record Callbacks'),
     ruby_on_rails_lessons.fetch('Advanced Forms'),
-    ruby_on_rails_lessons.fetch('Building Advanced Forms'),
+    ruby_on_rails_lessons.fetch('Flight Booker'),
   )
 end
 
@@ -102,7 +102,7 @@ course.add_section do |section|
     ruby_on_rails_lessons.fetch('APIs and Building Your Own'),
     ruby_on_rails_lessons.fetch('Working With External APIs'),
     ruby_on_rails_lessons.fetch('Kittens API'),
-    ruby_on_rails_lessons.fetch('Using an API'),
+    ruby_on_rails_lessons.fetch('Flickr API'),
   )
 end
 
@@ -119,7 +119,7 @@ course.add_section do |section|
     ruby_on_rails_lessons.fetch('Sending Confirmation Emails'),
     ruby_on_rails_lessons.fetch('Advanced Topics'),
     ruby_on_rails_lessons.fetch('Websockets and Actioncable'),
-    ruby_on_rails_lessons.fetch('Final Project'),
+    ruby_on_rails_lessons.fetch('Rails Final Project'),
     ruby_on_rails_lessons.fetch('Conclusion'),
   )
 end

@@ -212,8 +212,8 @@ def javascript_lessons
       has_live_preview: true,
       identifier_uuid: '386dd44a-31dc-45dc-a535-cd5508365c86',
     },
-    'Final Project' => {
-      title: 'Final Project',
+    'JavaScript Final Project' => {
+      title: 'JavaScript Final Project',
       description: "Tie everything you've learned from every course so far into one project where you'll build your favorite website from scratch.",
       is_project: true,
       url: '/javascript/finishing-up/project_final_js.md',

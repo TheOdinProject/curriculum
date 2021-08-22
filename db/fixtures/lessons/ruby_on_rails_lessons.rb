@@ -88,8 +88,8 @@ def ruby_on_rails_lessons
       url: '/rails_programming/databases_and_activerecord/active_record_basics.md',
       identifier_uuid: '260d1def-c36c-4512-b8aa-223458f356b0',
     },
-    'Building With Active Record' => {
-      title: 'Building With Active Record',
+    'Micro-Reddit' => {
+      title: 'Micro-Reddit',
       description: "You'll start getting practice thinking data first before building something that acts a lot like Reddit.",
       is_project: true,
       url: '/rails_programming/databases_and_activerecord/project_ar_basics.md',
@@ -120,8 +120,8 @@ def ruby_on_rails_lessons
       url: '/rails_programming/forms_and_authentication/sessions_cookies_authentication.md',
       identifier_uuid: '95e85ce2-008a-4e1b-a553-664029025cf5',
     },
-    'Authentication' => {
-      title: 'Authentication',
+    'Members Only!' => {
+      title: 'Members Only!',
       description: "You'll build a closed community for sharing embarrassing gossip with the world.",
       is_project: true,
       url: '/rails_programming/forms_and_authentication/project_auth.md',
@@ -143,8 +143,8 @@ def ruby_on_rails_lessons
       url: '/rails_programming/advanced_forms_and_activerecord/active_record_associations.md',
       identifier_uuid: '211edb41-e48f-4da1-bec2-0271e900f266',
     },
-    'Associations' => {
-      title: 'Associations',
+    'Private Events' => {
+      title: 'Private Events',
       description: "Build a system to manage signups for you and your friends' special events.",
       is_project: true,
       url: '/rails_programming/advanced_forms_and_activerecord/project_associations.md',
@@ -166,8 +166,8 @@ def ruby_on_rails_lessons
       url: '/rails_programming/advanced_forms_and_activerecord/forms_advanced.md',
       identifier_uuid: 'a47db11b-de26-4e38-bd24-edb640319ca2',
     },
-    'Building Advanced Forms' => {
-      title: 'Building Advanced Forms',
+    'Flight Booker' => {
+      title: 'Flight Booker',
       description: 'Build an airline flight signup system, which is a nest of interesting complexities',
       is_project: true,
       url: '/rails_programming/advanced_forms_and_activerecord/project_forms_advanced.md',
@@ -198,8 +198,8 @@ def ruby_on_rails_lessons
       has_live_preview: true,
       identifier_uuid: '5d0433d7-f3f3-46fa-99e7-3bc5893a2599'
     },
-    'Using an API' => {
-      title: 'Using an API',
+    'Flickr API' => {
+      title: 'Flickr API',
       description: "In this project, you'll work with a third-party API.",
       is_project: true,
       url: '/rails_programming/apis/project_using_an_api.md',
@@ -237,8 +237,8 @@ def ruby_on_rails_lessons
       url: '/rails_programming/mailers_advanced_topics/websockets_and_actioncable.md',
       identifier_uuid: '949892d1-90af-46e0-a750-bedab0c5120b',
     },
-    'Final Project' => {
-      title: 'Final Project',
+    'Rails Final Project' => {
+      title: 'Rails Final Project',
       description: "There's a pretty popular social networking app you should build.  They may have made a movie about it.",
       is_project: true,
       url: '/rails_programming/mailers_advanced_topics/project_final.md',

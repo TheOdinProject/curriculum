@@ -14,8 +14,8 @@ def database_lessons
       url: '/databases/databases.md',
       identifier_uuid: '60439aa4-1f12-49e2-8cc9-515574e2ad71',
     },
-    'SQL' => {
-      title: 'SQL',
+    'SQL Zoo' => {
+      title: 'SQL Zoo',
       description: 'The best way to learn is by practice, so this project will give you plenty of opportunity to apply your new SQL powers (for good).',
       is_project: true,
       url: '/databases/project_databases.md',

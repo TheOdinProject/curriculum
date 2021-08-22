@@ -87,7 +87,7 @@ course.add_section do |section|
   section.add_lessons(
     ruby_lessons.fetch('Files and Serialization'),
     ruby_lessons.fetch('Event Manager'),
-    ruby_lessons.fetch('File I/O and Serialization'),
+    ruby_lessons.fetch('Hangman'),
   )
 end
 
@@ -136,7 +136,7 @@ course.add_section do |section|
   section.add_lessons(
     ruby_lessons.fetch('Test Driven Development'),
     ruby_lessons.fetch('Introduction to RSpec'),
-    ruby_lessons.fetch('Testing Your Ruby Code'),
+    ruby_lessons.fetch('Connect Four'),
   )
 end
 

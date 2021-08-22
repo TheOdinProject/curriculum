@@ -138,7 +138,7 @@ course.add_section do |section|
   section.identifier_uuid = 'd3a05406-615d-4645-85f2-0cba667f2749'
 
   section.add_lessons(
-    javascript_lessons.fetch('Final Project'),
+    javascript_lessons.fetch('JavaScript Final Project'),
     javascript_lessons.fetch('Conclusion'),
   )
 end

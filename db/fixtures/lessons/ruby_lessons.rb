@@ -168,8 +168,8 @@ def ruby_lessons
       has_live_preview: false,
       identifier_uuid: 'a47be9ab-7c78-44c2-b098-ec63d82af1cf',
     },
-    'File I/O and Serialization' => {
-      title: 'File I/O and Serialization',
+    'Hangman' => {
+      title: 'Hangman',
       description: "You'll get a chance to scrub an existing dataset and then work with dictionaries by building Hangman.",
       is_project: true,
       url: '/ruby_programming/files_and_serialization/project_file_io.md',
@@ -262,8 +262,8 @@ def ruby_lessons
       url: '/ruby_programming/testing_with_rspec/introduction_to_rspec.md',
       identifier_uuid: '34eb5b73-29a8-4d5b-8747-a2ccad75806e',
     },
-    'Testing Your Ruby Code' => {
-      title: 'Testing Your Ruby Code',
+    'Connect Four' => {
+      title: 'Connect Four',
       description: "The real way to learn is by doing, so you'll jump in the time machine and write some tests for prior projects.",
       is_project: true,
       url: '/ruby_programming/testing_with_rspec/project_testing_your_ruby_code.md',

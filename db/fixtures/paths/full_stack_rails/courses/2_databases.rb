@@ -18,7 +18,7 @@ course.add_section do |section|
   section.add_lessons(
     database_lessons.fetch('Databases'),
     database_lessons.fetch('Databases and SQL'),
-    database_lessons.fetch('SQL'),
+    database_lessons.fetch('SQL Zoo'),
   )
 end
 
