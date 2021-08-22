@@ -30,7 +30,10 @@ Google has updated some of the required sections in the below tutorials and some
     - JavaScript
         1. Debug JavaScript
         2. Pause your code with breakpoints
- 2. Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
+ 2. Alternatively, if you're using Firefox, take a look at [Firefox Developer Tools documentation](https://developer.mozilla.org/en-US/docs/Tools). Since you're mostly going to be using CSS- and JavaScript-related tools, also go through the following pages:
+    - DOM Property Viewer, Eyedropper and Style Editor in the [More Tools](https://developer.mozilla.org/en-US/docs/Tools#more_tools) section
+    - Introduction to the [browser console](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console) and the [command line](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console#browser_console_command_line)
+ 3. Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
 </div>
 
