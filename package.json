@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
-    "@hookform/resolvers": "2.7.1",
+    "@hookform/resolvers": "2.8.0",
     "@rails/ujs": "^6.1.4",
     "@rails/webpacker": "5.4.0",
     "@sentry/browser": "^6.11.0",
