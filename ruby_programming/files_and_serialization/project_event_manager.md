@@ -262,7 +262,7 @@ lines.each do |line|
 end
 ~~~
 
-When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop
+When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop.
 
 A problem with this solution is that the content of our header row could change
 in the future. Additional columns could be added or the existing columns
@@ -1534,7 +1534,7 @@ and well-formed.
 
 * If the phone number is less than 10 digits, assume that it is a bad number
 * If the phone number is 10 digits, assume that it is good
-* If the phone number is 11 digits and the first number is 1, trim the 1 and use the first 10 digits
+* If the phone number is 11 digits and the first number is 1, trim the 1 and use the remaining 10 digits
 * If the phone number is 11 digits and the first number is not 1, then it is a bad number
 * If the phone number is more than 11 digits, assume that it is a bad number
 
