@@ -14,7 +14,8 @@ These lessons will be listed in our 'foundations' track.
 - [HTML Foundations](./foundations/html-foundations.md)
 - [CSS Foundations](./foundations/css)
 - [Inspecting HTML and CSS](./foundations/inspecting-html-and-css.md)
-- [Positioning and Layout Introduction](./foundations/positioning-and-layout.md)
+- [The Box Model](./foundations/the-box-model/the-box-model.md)
+- [Block and Inline](./foundations/block-and-inline.md)
 - [Flexbox](./foundations/flexbox.md)
 - [Project](./foundations/html-css-foundations-project.md)
 
