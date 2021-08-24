@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to:
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on these in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair. 
 
-<!-- Insert Image -->
+![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
 The actual syntax will be slightly different depending on which method is used for adding CSS, but generally each method will all follow this structure.
 
