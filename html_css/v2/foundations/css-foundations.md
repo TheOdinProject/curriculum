@@ -21,7 +21,7 @@ The actual syntax will be slightly different depending on which method is used f
 
 ### Selectors
 
-Selectors simply refer to the HTML elements in which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're definitely ones you should get comfortable using first.
+Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 #### Universal Selector
 
@@ -97,7 +97,7 @@ ID selectors are similar to class selectors. They select an element with the giv
 
 Instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or to have links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
-The major differences between classes and IDs are that an element can only have **one** ID, an ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
+The major difference between classes and IDs is that an element can only have **one** ID. An ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
 
 #### Grouping Selector
 
@@ -156,7 +156,7 @@ We have two elements with the `subsection` class that has some sort of unique st
 }
 ~~~
 
-Notice how there isn't any space between the two selectors here. What `.subsection.header` does is it selects any element that has a class name of `subsection` *and* a class name of `header`. This basically works with any combination of selectors except multiple type selectors (since an element can't be two different types at once, and `divp` would try to select a literal `<divp>` element which doesn't exist).
+Notice how there isn't any space between the two selectors here. What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. This basically works with any combination of selectors except multiple type selectors (since an element can't be two different types at once, and `divp` would try to select a literal `<divp>` element which doesn't exist).
 
 #### Descendant Combinator
 
@@ -342,7 +342,7 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 ### Adding CSS to HTML
 
-Okay, we went over quite a bit so far. The only thing left for now is to go over *how* to add all of this CSS to our HTML, which there are three methods to do so.
+Okay, we went over quite a bit so far. The only thing left for now is to go over *how* to add all of this CSS to our HTML. There are three methods to do so.
 
 #### External CSS
 
@@ -434,7 +434,7 @@ Provide a few different "desired outcome" images that would require the user to:
 
 Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
-It's completely open to how you actually style it, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Most of all, don't worry about whether what you create looks like it came out of 1995. This is just to practice and get used to writing CSS, not to make something to show off on your resume (and really were sites in the 90's that bad?).
+It's completely open to how you actually style it, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume so feel free to go a little crazy for now.
 
 We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
