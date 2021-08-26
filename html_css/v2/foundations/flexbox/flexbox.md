@@ -1,5 +1,5 @@
 ### Introduction
-As you'll learn, there are _many_ ways to move elements around on a webpage. Over the years new methods have been developed, and older things have fallen out of style. Flexbox is a (relatively new)[https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2] way of manipulating elements in CSS, and when it was introduced it was _revolutionary_.
+As you'll learn, there are _many_ ways to move elements around on a webpage. Over the years new methods have been developed, and older things have fallen out of style. Flexbox is a [relatively new](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2) way of manipulating elements in CSS, and when it was introduced it was _revolutionary_.
 
 Because it is somewhat new as a technology, many resources put it near the end of their curriculum, but at this point it has become the default way of positioning elements for many developers. Flexbox will definitely be one of the most used tools in your toolbox, so why not learn it first?
 
@@ -142,7 +142,7 @@ Take your time going through the reading. There will be some review of the items
 
 > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
-GO back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget the instructions are in the README). Do the exercises in the 'flex' directory in this order:
+Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget the instructions are in the README). Do the exercises in the 'flex' directory in this order:
 
 1. flex-center
 2. flex-header
