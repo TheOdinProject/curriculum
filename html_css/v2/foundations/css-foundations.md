@@ -17,8 +17,6 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
-The actual syntax will be slightly different depending on which method is used for adding CSS, but generally each method will all follow this structure.
-
 ### Selectors
 
 Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
@@ -101,7 +99,7 @@ The major difference between classes and IDs is that an element can only have **
 
 #### Grouping Selector
 
-What if we had two groups of elements, each with some unique properties, but also some properties that both groups shared?
+What if we have two groups of elements that share some of their style declarations?
 
 ~~~css
 .read {
