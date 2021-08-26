@@ -11,7 +11,7 @@ As always feel free to open up you editor and run you own experiments with these
 ### Learning Outcomes
 
 * Understand how to use parent and sibling selectors
-* Recognise the difference pseudo classes and pseudo elements
+* Recognise the difference between pseudo classes and pseudo elements
 * Learn about some of the most useful and common pseudo elements and pseudo classes
 * Learn about the different ways to select an attribute or its parts
 
@@ -90,11 +90,20 @@ Before diving into pseudo-selectors, a quick note on the difference between pseu
 
 ## Pseudo Classes
 
-Todo
+* Cover the most common / useful ones, add a reference to a larger list - see links at bottom for candidates
+* dynamic ie :hover, :link, :visited, :active, :focus
+* structural ie :nth-child, :first-of-type, :root
+* other - :not(X), :target, :lang
+
 
 ## Pseduo Elements
 
 Todo
+
+* ::before / :: after
+* ::first-letter / ::first-line
+* ::marker
+* ::selection
 
 [MDN - Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
 [MDN - Pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
@@ -103,12 +112,15 @@ Todo
 
 Todo
 
-[general]
-A[general]
-begins with
-ends with
-wildcard
-or |
+* Cover why we want to target attributes
+* These are regex like and allow us to target different parts of the attribute
+
+* [general]
+* A[general]
+* begins with
+* ends with
+* wildcard
+* or |
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -133,11 +145,8 @@ This section contains helpful links to other content. It isn't required, so cons
 ## Potential links
 
 * [Pseduo Classes vs Pseudo Elements](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html)
-
 * [W3 Schools Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
 Note - has a selector tool which could be a good practice assignment.
-
 * [CSS Tricks Selectors Reference](https://css-tricks.com/almanac/selectors/) - each link has a good amount of detail
-
 * [Shorter cheat sheet from FCC](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/)
 * [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
