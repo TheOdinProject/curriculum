@@ -1,7 +1,7 @@
 ### Introduction
 As you'll learn, there are _many_ ways to move elements around on a webpage. Over the years new methods have been developed, and older things have fallen out of style. Flexbox is a [relatively new](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2) way of manipulating elements in CSS, and when it was introduced it was _revolutionary_.
 
-Because it is somewhat new as a technology, many resources put it near the end of their curriculum, but at this point it has become the default way of positioning elements for many developers. Flexbox will definitely be one of the most used tools in your toolbox, so why not learn it first?
+Because it is somewhat new as a technology, many resources put it near the end of their curriculum, but at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
 
 ### Learning Outcomes
 * You will learn how to position elements using flexbox.
@@ -10,7 +10,7 @@ Because it is somewhat new as a technology, many resources put it near the end o
 
 ### Let's Flex!
 
-Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, lets look at a simple demonstration.  Copy this HTML and CSS into a file (a repl.it project or codepen is also fine) and view it in a browser.
+Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration.  Copy this HTML and CSS into a file (a repl.it project or codepen is also fine) and view it in a browser.
 
 ~~~html
 <div class="flex-container">
@@ -38,16 +38,16 @@ The result should look something like this:
 
 ![initial](./imgs/01.png)
 
-We'll get into exactly what's going on here soon enough, but for now uncomment the two flex lines in your css and check out the result. Your 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have an equal width. 
+We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex lines in your css and check out the result. Your 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width. 
 
 ![flexing](./imgs/02.png)
 
-If you go and add another div to your html, inside of `.flex-container`, it will show up alongside the others, and everything will flex to make it fit.
+If you go and add another div to your HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to make it fit.
 
 #### Flex Containers and Flex Items
 As you've seen, flexbox isn't just a single css property, but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_ and some go on the _flex items_. This is a simple but important concept.
 
-A flex container is any element that has `display: flex` on it. A flex item, is any element that lives directly inside of a flex container.
+A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.
 
 ![container-vs-child](./imgs/03.png)
 
@@ -55,7 +55,7 @@ Somewhat confusingly, any element can be both a flex container _and_ a flex item
 
 ![nesting flex containers](./imgs/04.png)
 
-This method of creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The next image was achieved using _only_ flexbox to arrange, size and place the various elements. It is a _very_ powerful tool.
+This method of creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The next image was achieved using _only_ flexbox to arrange, size, and place the various elements. It is a _very_ powerful tool.
 
 ![complex example](./imgs/05.png)
 
@@ -72,12 +72,12 @@ The default direction for a flex container is horizontal, or `row` but you can c
 }
 ~~~
 
-No matter which direction you're using, you need to think of your flex-containers as having 2 axes, the main axis and the cross axis. In a `row` container, the main axis runs horizontally across the page in the same direction as `inline` elements which is _usually_ across the page from left to right and the cross axis runs from top to bottom horizontally. In a `column` container, the main axis runs vertically in the same direction as your `block` elements, from top to bottom, and the cross axis is horizontal.
+No matter which direction you're using, you need to think of your flex-containers as having 2 axes, the main axis, and the cross axis. In a `row` container, the main axis runs horizontally across the page in the same direction as `inline` elements which is _usually_ across the page from left to right while the cross axis runs from top to bottom horizontally. In a `column` container, the main axis runs vertically in the same direction as your `block` elements, from top to bottom, and the cross axis is horizontal.
 
 That definition was stated in overly technical terms because there is some important subtlety here. Stated more clearly: in _most_ circumstances, `row` puts the main axis horizontal, left-to-right, and `column` puts the main axis vertical, top-to-bottom. There are situations where that could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
 #### Aligning Across the Axes
-So far everything we've touched with flexbox has used the rule `flex: 1` on all flex items, which makes the items grow or shrink equally to fill all of the available space. Very often however, this is not the desired effect. Flex is also very useful for arranging items that have a specific size. Lets look at another example. Put the following code somewhere and follow along.
+So far everything we've touched with flexbox has used the rule `flex: 1` on all flex items, which makes the items grow or shrink equally to fill all of the available space. Very often, however, this is not the desired effect. Flex is also very useful for arranging items that have a specific size. Let's look at another example. Put the following code somewhere and follow along.
 
 ~~~html
 <div class="container">
@@ -128,7 +128,7 @@ One more very useful feature of flex is the `gap` property. Setting `gap` on a f
 
 There's more for you to learn in the reading below, but at this point surely you can see how immensely useful flexbox is. Using just the properties we've already covered you could already put together some impressive layouts!
 
-Take your time going through the reading. There will be some review of the items we've already covered here, but it goes into more depth and touches a few things that haven't been mentioned yet. Don't stress too much about trying to memorize every little detail yet, just code along with the examples and do your best to internalize everything that is _possible_ with flexbox. You'll have to reach for these resources again once you get to the practice exercises, but that's perfectly acceptable. The more you use this stuff the better it will stick in your mind... and you will be using it _constantly_. Have fun!
+Take your time going through the reading. There will be some review of the items we've already covered here, but it goes into more depth and touches on a few things that haven't been mentioned yet. Don't stress too much about trying to memorize every little detail yet, just code along with the examples and do your best to internalize everything that is _possible_ with flexbox. You'll have to reach for these resources again once you get to the practice exercises, but that's perfectly acceptable. The more you use this stuff the better it will stick in your mind... and you will be using it _constantly_. Have fun!
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -153,7 +153,6 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 7. flex-layout-2
 
 It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them then you will be in _really_ good shape moving forward.
-
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
