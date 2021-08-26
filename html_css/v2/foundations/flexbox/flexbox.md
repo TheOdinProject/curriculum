@@ -243,21 +243,6 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 
 It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them then you will be in _really_ good shape moving forward.
 
-
-> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
-
-Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget the instructions are in the README). Do the exercises in the 'flex' directory in this order:
-
-1. flex-center
-2. flex-header
-3. flex-header-2
-4. flex-information
-5. flex-modal
-6. flex-layout
-7. flex-layout-2
-
-It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them then you will be in _really_ good shape moving forward.
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 * [What the Flexbox!?](https://flexbox.io/) is a great free video course from Wes Bos. If videos are your thing, this is a great resource for you. It's a good refresher if you're having a hard time getting this stuff to stick.
