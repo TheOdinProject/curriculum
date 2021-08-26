@@ -231,7 +231,7 @@ Take your time going through the reading. There will be some review of the items
 
 > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
-GO back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget the instructions are in the README). Do the exercises in the 'flex' directory in this order:
+Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget the instructions are in the README). Do the exercises in the 'flex' directory in this order:
 
 1. flex-center
 2. flex-header
