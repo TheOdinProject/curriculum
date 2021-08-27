@@ -10,7 +10,7 @@ Because it is somewhat new as a technology, many resources put it near the end o
 
 ### Let's Flex!
 
-Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. Copy this HTML and CSS into a file (a repl.it project or codepen is also fine) and view it in a browser.
+Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. For all the exercises in this lesson, copy the code and follow along. It doesn't matter how you get it on a page (copy it into html/css files, use codepen, etc.), but following along, and taking the time to experiment with the various properties and values will help you retain this information.
 
 ~~~html
 <div class="flex-container">
