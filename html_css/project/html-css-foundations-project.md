@@ -17,19 +17,19 @@ As mentioned in the [introduction to Git](/courses/foundations/lessons/introduct
 If you do not know how to set up a repository, follow the instructions found in [Git Basics](/courses/foundations/lessons/git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
-2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
-3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/google-homepage.git` (use SSH).
+2. Create a new repo for this project on GitHub.com and call it `foundations-project` (instead of `git-test`).
+3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/foundations-project.git` (use SSH).
 
    - [Setting up SSH on GitHub](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github).
 
-4. Now `cd` into the `google-homepage` project directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
+4. Now `cd` into the `foundations-project` directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
 
 If you are having trouble:
 
 - Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
 - Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
-Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
+Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `foundations-project` folder?)
 
 _When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`._
 
