@@ -10,7 +10,7 @@ Because it is somewhat new as a technology, many resources put it near the end o
 
 ### Let's Flex!
 
-Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration.  Copy this HTML and CSS into a file (a repl.it project or codepen is also fine) and view it in a browser.
+Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. Copy this HTML and CSS into a file (a repl.it project or codepen is also fine) and view it in a browser.
 
 ~~~html
 <div class="flex-container">
@@ -63,9 +63,9 @@ The resources to follow will take you through the basics. Be sure to follow alon
 
 #### Growing and Shrinking
 
-The `flex` property is actually a shorthand for 3 properties that you can set on a flex-item. These properties affect how flex-items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
+The `display: flex` declaration is actually a shorthand for 3 properties that you can set on a flex-item. These properties affect how flex-items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
 
-> Shorthand properties are CSS properties that let you set the values of multiple other CSS properteis simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
+> Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
 > Source: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
 In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
@@ -76,7 +76,7 @@ The default value of the `flex` property is shown in the above screenshot: `flex
 
 `flex-grow` expects a single number as it's value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If you go back to our example from earlier and add `flex: 2` to just one of the divs, then that div would grow `2x` the size of the others.
 
-Here's that example, with the `flex` shorthand spelled out completely.
+In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
 ~~~html
 <div class="flex-container">
@@ -141,7 +141,7 @@ Here's an example. Note that we've also changed the `flex-basis` for reasons tha
 `flex-basis` simply sets the initial size of a flex-item, so any sort of `flex-grow`ing or `flex-shrink`ing would start from that baseline size. The shorthand value is `flex-basis: 0%`. The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly.  Using `auto` as a flex-basis tells the item to check for a width declaration (`width: 200px`).
 
 > #### important note about flex-basis
-> there is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`
+> There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`
 
 
 #### Axes
