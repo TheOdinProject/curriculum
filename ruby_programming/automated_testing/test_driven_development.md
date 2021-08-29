@@ -5,9 +5,9 @@ So far you’ve been learning how to test code that you’ve written, but there�
 ### Learning Outcomes
 Look through these now and use them to guide your learning. By the end of this lesson, expect to:
 
-* Learn what Test Driven Development is
-* Learn the advantages of Test Driven Development
-* Learn how to write code TDD style
+- Learn what Test Driven Development is
+- Learn the advantages of Test Driven Development
+- Learn how to write code TDD style
 
 ### What is TDD, and why do it?
 
@@ -19,7 +19,7 @@ Another benefit of writing code TDD style is that it *guarantees* that your code
 
 We should mention here though that not *everyone* agrees that TDD is the way to go. There are plenty of developers that write tests after the code is written. While you are free to decide how you want to write your tests in the applications you build, we strongly encourage you to follow TDD for now.
 
-### Red Green Refactor
+#### Red Green Refactor
 
 When you first write your test in Test Driven Development it is in what’s known as the `red` state, because when running the test it will fail and the output will be red. Once you’ve written a method that passes the test you are in the `green` state, as now the test passes and its output will be green. Once you’re passing your test you can `refactor` the method, using the test to ensure that your method is still working as intended after your refactor.
 
@@ -27,7 +27,7 @@ This development cycle is known as red-green-refactor, and it’s at the heart o
 
 One key aspect of the red-green-refactor cycle that *isn’t* in the name, is that the code you write to go from `red` to `green` should be the **minimum** amount required to pass the test. If you find that the functionality you’re adding actually does *more* than is being tested, that is a sign that your method is likely doing too much, or possibly that your tests aren’t testing all of the right functionality.
 
-### TDD Examples
+#### TDD Examples
 Let’s walk through a TDD approach to a basic class.
 
 Given the general problem:
@@ -196,7 +196,7 @@ TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet usin
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What does it mean for code to be test **driven**?
-* List four different advantages of TDD.
-* What is the 3 part development cycle used for TDD?
-* How much code should be written when going from the `red` state to the `green` state of the red-green-refactor cycle?
+- What does it mean for code to be test **driven**?
+- List four different advantages of TDD.
+- What is the 3 part development cycle used for TDD?
+- How much code should be written when going from the `red` state to the `green` state of the red-green-refactor cycle?
