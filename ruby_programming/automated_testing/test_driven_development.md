@@ -5,9 +5,9 @@ So far you’ve been learning how to test code that you’ve written, but there�
 ### Learning Outcomes
 Look through these now and use them to guide your learning. By the end of this lesson, expect to:
 
-Learn what Test Driven Development is
-Learn the advantages of Test Driven Development
-Learn how to write code TDD style
+* Learn what Test Driven Development is
+* Learn the advantages of Test Driven Development
+* Learn how to write code TDD style
 
 ### What is TDD, and why do it?
 
