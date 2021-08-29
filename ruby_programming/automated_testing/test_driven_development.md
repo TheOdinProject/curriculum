@@ -192,6 +192,10 @@ TODO: Exercise: TDD a value object
 
 TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet using mocks
 
+### Additional Resources
+
+Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
