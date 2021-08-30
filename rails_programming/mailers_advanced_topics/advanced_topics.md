@@ -27,7 +27,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Advanced Routing
 
-You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method.  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request.
+You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method).  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request.
 
 #### Singular Resources
 
