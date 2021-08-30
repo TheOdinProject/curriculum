@@ -10,6 +10,10 @@ Get your project as close as you can to the design but do not worry about gettin
 
 _Finally_, feel free to substitute your own content into this design. The images have some meaningless dummy-content, but if you want to make up a business and personalize this page, please feel free to do so! Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too.
 
+> #### A note about images on the web.
+> You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
+> Some good places to find free-to-use images on the web include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
+
 ### Setting up your project's GitHub repository
 
 As mentioned in the [introduction to Git](/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
@@ -26,10 +30,9 @@ If you do not know how to set up a repository, follow the instructions found in 
 
 If you are having trouble:
 
+- All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `foundations-project` folder?)
 - Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
 - Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
-
-Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `foundations-project` folder?)
 
 _When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`._
 
