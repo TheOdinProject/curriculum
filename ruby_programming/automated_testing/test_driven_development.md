@@ -162,7 +162,7 @@ describe Square do
 end
 ~~~
 
-Then write the minimum functionality required to make the tests pass:
+Run the test to make sure it fails like you expect, then write the minimum functionality required to make the tests pass:
 
 ~~~rb
 class Square
