@@ -32,7 +32,7 @@ Let’s walk through a TDD approach to a basic class.
 
 Given the general problem:
 
-Create a `Square` class that takes an integer on initialization for the length of each side, and has an `#area` method and a `#perimter` method which returns (as you probably guessed) the area and perimeter of the square respectively.
+Create a `Square` class that takes an integer on initialization for the length of each side, and has an `#area` method and a `#perimeter` method which returns (as you probably guessed) the area and perimeter of the square respectively.
 
 Start by making a directory to house this example, and then `lib` and `spec` directories to house the class and the specs respectively. Next, create the spec and class files. Lastly, open the example directory in your text editor so that you can start this TDD style!
 
