@@ -35,12 +35,12 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Skim through the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
+1. Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
 
-- "Overview"
-- "Open Chrome DevTools"
-- "CSS"
-- "Get Started With Viewing And Changing The DOM", but skim through any part that uses the JavaScript console.
+- [Overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here, just get familiar with _what_ tools are available in the DevTools rather than how to use all of them right now.
+- [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
+- [CSS](https://developer.chrome.com/docs/devtools/#css): be sure to follow along with any interactive instructions!
+- [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skim through any part that uses the JavaScript console.
 
 For Firefox users:
 
