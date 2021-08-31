@@ -43,3 +43,12 @@ Google has updated some of the required sections in the below tutorials and some
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 1. Learn the new Firefox Dev Tools in this [Video](https://youtu.be/yznVkCuohGg) by Wes Bos
+
+### Knowledge Check 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- How do you open developer tools?
+- How do you simulate a mobile device using developer tools?
+- What is a breakpoint?
+- How do you set a breakpoint?
+- What are breakpoints useful for?
