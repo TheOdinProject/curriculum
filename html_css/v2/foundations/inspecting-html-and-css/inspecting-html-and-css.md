@@ -14,21 +14,25 @@ Being able to inspect and debug your HTML and CSS is critical to frontend develo
 
 To open up the inspector, you can right click on any given element in a webpage and click "Inspect Element", or F12. For example, if you navigate to [our homepage](https://theodinproject.com/) and open the inspector, you might see something that looks a little bit like the below.
 
-INSERT IMAGE
+INSERT IMAGE 00
 
 Don't get overwhelmed with all of the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panes.
 
 ### Inspecting Elements
 
-In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specfic element. Alternatively, you may click the icon below and hover over any element on the page.
+In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you may click the blue-highlighted icon below and hover over any element on the page.
 
-INSERT IMAGE
+INSERT IMAGE 01
 
-When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten. Every selector and its rules affecting the element are displayed. This is a key tool that will assist in debugging your CSS, especially when you are attempting to set styles that are not being applied, and easily allows you to see if another selector may be affecting your rule.
+When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten. For example, if you use the inspector to click on the "Web Development Starts Here" header on the TOP homepage, on the right hand side you'll see all of the styles that are currently affecting the element, as seen below:
+
+INSERT IMAGE 02
 
 ### Testing Styles In The Inspector
 
-The Styles pane also allows you to edit styles directly in the browser. This won't affect your source code in your text editor, but it is extremley useful to quickly test out various attributes and values without needing to reload the page over and over again. You can click inside of any individual selector to add a new rule, or click on an existing attribute or value to alter it.
+The Styles pane also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule, or click on an existing attribute or value to alter it.
+
+In the below image, we have altered the value of `margin-bottom` in the `.hero__main-heading` class, and the webpage responds with the changes in real time. This won't affect your source code in your text editor, but it is extremely useful to quickly test out various attributes and values without needing to reload the page over and over again.
 
 ### Assignment
 
