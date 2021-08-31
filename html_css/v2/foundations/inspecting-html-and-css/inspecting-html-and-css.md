@@ -37,7 +37,7 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Skim through the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools) :
+1. Skim through the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
 
 - "Overview"
 - "Open Chrome DevTools"
