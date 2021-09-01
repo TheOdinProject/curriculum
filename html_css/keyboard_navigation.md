@@ -75,7 +75,7 @@ The tab order is the order in which elements on the page will receive focus when
 
 Sometimes you may find it necessary to either change the visual order of elements on a page using CSS (the `float` or `order` properties, for example), or the tab order of elements themselves using the `tabindex` attribute. Regardless of which method you may use, you should make sure the tab order matches the visual order of elements. If the tab order is different from the visual order, users could be left confused or frustrated trying to navigate the page with a keyboard, expecting one element to receive focus based on the visual layout and instead another element receives focus. 
 
-The best way to avoid this issue is to just place elements in your HTMl file in the order that you want them to actually receive focus. Watch [What is Focus?](https://www.youtube.com/watch?v=EFv9ubbZLKw&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=3) to see some issues that occur when trying to change the tab order, then watch [Controlling focus with tabindex](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=4) to see how using the `tabindex` attribute can affect the tab order.
+The best way to avoid this issue is to just place elements in your HTMl file in the order that you want them to actually receive focus.
 
 ### Hidden Content
 
@@ -86,6 +86,12 @@ If you don't properly hide such content, then keyboard users would be able to ta
 One way to prevent this frustrating behavior is to give each individual item in that hidden content a `tabindex` value of -1, since that prevents an element from receiving focus via the keyboard (though you can still give it focus with JavaScript's `focus()` method). While this fixes the issue for keyboard users, other assistive technologies would still have access to and could still announce this hidden content.
 
 A better solution is giving the container for the hidden content itself either the `display: none` or `visibility: hidden` CSS property when it's hidden, and removing or overriding that property when it's meant to be visible. This not only removes the menu items from the tab order, but it also prevents assistive technologies from announcing them.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+1. Watch [What is Focus?](https://www.youtube.com/watch?v=EFv9ubbZLKw&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=3) to see some issues that occur when trying to change the tab order, then watch [Controlling focus with tabindex](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=4) to see how using the `tabindex` attribute can affect the tab order.
+</div>
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

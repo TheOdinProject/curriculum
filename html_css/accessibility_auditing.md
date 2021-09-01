@@ -2,118 +2,51 @@
 
 By now you should feel confident enough to start making your websites a little more accessible for a lot of users. What can really help you make sure you're implementing certain a11y features correctly, though, is learning how to view the accessibility tree in your dev tools and how to audit your web pages for any outstanding a11y issues.
 
-This lesson assumes you are using the most up to date version of your preferred browser. If you are unable to find any features mentioned in this lesson within your browser, you may need to update it or enable an accessibility setting or an experimental feature within the dev tools.
-
-Since Microsoft Edge is now Chromium-based (as of versions released in January 2020 and after), many if not all accessibility features for the Chrome dev tools mentioned in this lesson should also work in Edge.
+This lessons covers both Chrome and Firefox, since there is a significant enough difference between both browsers' accessibility DevTools. Since Microsoft Edge is now Chromium-based (as of versions released in January 2020 and after), many if not all accessibility features for the Chrome DevTools mentioned in this lesson should also work in Edge.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
 
-* Inspect the accessibility tree.
-* View ARIA and other computed properties for an object in the accessibility tree.
-* Use the dev tools to check the contrast ratio of an element.
-* Simulate what a web page would look like to users that are color blind.
+* Open the accessibility section within your browser's DevTools.
 * Audit a web page with a third party auditing tool.
 
-### Firefox's Accessibility Tree
+### Accessibility DevTools
 
-There are two ways to view the accessibility tree in Firefox: you can either right click on a page and select the "Inspect Accessibility Properties" option, or you can open the dev tools however you normally would and click the **Accessibility** tab.
-
-![Firefox's accessibility tree](https://user-images.githubusercontent.com/70952936/125674331-b8312e86-0453-42db-9f26-10ae18823918.jpg)
-
-As you can see from the image above, the accessibility tree in Firefox looks sort of like a more bare-bones version of the DOM. The only information listed is the role and the name property of each element on the page. You can expand each object to see its children's role and name properties, and you can continue doing so until you reach the end of that "branch". If you right click anywhere within the accessibility tree, you can even select a "Print to JSON" option, which will open the contents of the tree as JSON in a new browser tab.
-
-The accessibility tree itself isn't too complicated, so there's not actually a lot to go over. Did you notice anything different about the element picker tool, though?
-
-![Firefox's picker tools comparison](https://user-images.githubusercontent.com/70952936/125674362-70bc34c9-73f2-46d2-bce5-877c8060327b.png)
-
-When you're in the **Inspector** tab, you can use the "element picker" tool to hover over an element on the page to see a visual representation of its box model, or you can click on an element and it will select that element in the **Inspector** tab. When you're in the **Accessibility** tab, though, this tool becomes an "accessible object picker" tool. Once you activate this tool you can hover over elements on the page to view some a11y information or you can click on an element to select it in the accessibility tree.
-
-### Chrome's Accessibility Tree
-
-There's only one way to view the accessibility tree within Chrome: open the dev tools however you normally would, then within the **Elements** tab select the **Accessibility** pane on the right side of the window (it should be in the same area as the **Styles** pane, though you may have to open the overflow menu). If you don't see this pane anywhere, you may need to enable an experimental feature within the dev tools.
-
-![Chrome's accessibility tree](https://user-images.githubusercontent.com/70952936/125674441-44095206-0508-45d0-ab2d-31ed4a2d00cb.jpg)
-
-The first thing you'll notice about the accessibility tree in Chrome is that it's laid out a little differently compared to Firefox. It still lists the role and name property of each object, but it isn't separated into two separate columns. Another difference is how you're able to view the tree itself. In Firefox, regardless of which object you select, you'll still be able to see the entire tree at once. In Chrome, you only see one branch at a time. If you clicked on the `contentinfo` object from the image above, for example, the two `generic` branches would no longer be visible.
-
-It is worth noting that you may be able to go into the Chrome dev tools settings and then into the **Experiments** section to check off the "Enable full accessibility tree view in the Elements panel" option. This will allow you to view an accessibility tree that is similar in style to Firefox's.
-
-### Firefox's Accessibility Properties
-
-Depending how you have your dev tools opened (as a separate window or docked), the **Properties** section will either be to the side or below the accessibility tree. There are several properties for each object in the accessibility tree, though we're only going to cover a few here. You should understand the name, role, description, and states properties from the previous lesson, but we'll go over them again as a refresher.
-
-* **Name:** This is the next best way to check what may be announced by assistive technologies if you're unable to use a screen reader yourself, or just want to quickly check the property. Keep in mind that what a screen reader announces may still vary based on a number of factors, but this can still be a good place to start.
-
-* **Role:** Depending on the role, assistive technologies may announce this property as well. Some roles listed in the dev tools may not be exactly the same as what gets announced, e.g. "pushbutton" is listed in the dev tools vs "button" actually getting announced for the `<button>` element.
-
-* **Description:** Depending on the browser and brand of assistive technology, this property may also get announced. Similar to the name property, this is the next best way to check what may be announced if you aren't able to use a screen reader or just want to quickly check.
-
-* **States:** A list of each accessible state an object currently has, both by default and any added via HTML or ARIA attributes. A link object, for example, may have states such as "focusable", "linked", and "enabled".
-
-* **Relations:** A list of the accessible relationships between the selected object and other objects. If an object is getting its name property from another element, such as a `<label>` element or via the `aria-labelledby` attribute, you would see the relationship listed here. It's worth noting that only elements that are visible on the page may appear within this property, though visually hidden elements would still provide a label.
-
-~~~html
-<!-- The input element will still have a name property value of "Name" -->
-<div id='label' style='display: none;'>Name:</div>
-<input type='text' aria-labelledby='label'>
-~~~
-
-### Chrome's Accessibility Properties
-
-Below the accessibility tree, Chrome has two important sections for accessibility properties. The **ARIA Attributes** section is, of course, where any ARIA attributes on an element are listed. This will include both the `role` attribute and any `aria-` attributes. Similar to how you are able to edit properties in the Styles pane, you can also edit the value of ARIA attributes listed here.
-
-The **Computed Properties** section will vary depending on the element, though every element will usually have both the name and role property. The role property is self explanatory, though the roles for certain elements in Chrome may be different compared to Firefox ("generic" in Chrome vs "section" in Firefox, for example). 
-
-The "name" property will show the final computed value next to it, and immediately beneath it there will be a list of the different sources of where that value could have come from (similar to Firefox's "Relations" property). `aria-labelledby`, `aria-label`, and `title` will usually always be listed, and the sources will be listed in order of precedence (with `aria-labelledby` having the highest precedence).
-
-Any other property, however, will only appear when it is actually applied to an element. Most interactive elements will have a "Focusable" property, for example, and an element with the `aria-describedby` attribute will have both a "Description" and "Described by" property.
-
-### Firefox's Checks
-
-In the Accessible Colors lesson you were provided with a link to the WebAIM contrast checker tool as well as a couple of ways you could check the contrast ratio in your browser's dev tools, both of which you've hopefully tested out a little. Firefox has an additional way to check contrast ratios, which we waited to include here since it actually provides a way to check for more than just contrast ratios.
-
-Right above the **Properties** section of the **Accessibility** tab in Firefox is the **Checks** section. This section will list any contrast ratios in addition to other checks, such as whether an interactive element has a focus style. In order to view the color contrast for text, you may have to travel down a branch of the accessibility tree until you select a "text leaf" object.
-
-### Additional A11y Features in Dev Tools
-
-Along the top of the Accessibility tab in **Firefox**, there are three additional tools that you can use when checking or auditing accessibility:
-
-* The "Check for issues" tool lets you display elements that have issues related to the contrast ratio, keyboard navigation, or text labels. This isn't too in depth of an audit, which is why we're mentioning it here, but it can still be handy as a sort of quick audit.
-* The "Simulate" tool lets you simulate different types of color blindness as well as contrast loss. This can be a useful tool to check whether certain colors may look too similar to someone that is color blind. Remember when you were asked to find the red button in an image that was simulating total color blindness in a previous lesson?
-* The "Show Tabbing Order" tool will display an overlay on the page, showing the order each tabbable element will receive focus when navigating the page with the Tab key.
-
-At the bottom of the dev tools in **Chrome**, next to the "Console" tool (not the **Console** tab at the very top of the dev tools), you can open a menu of additional tools. If you don't see this section within your dev tools, try going into the **Console** tab and clicking the "Issues" button along the top (it will either be labeled "No Issues" or it will include a number, e.g. "2 Issues").
-
-If you select the "Rendering" tool and scroll down, you'll be able to enable different "Emulate vision deficiencies" options. This allows you to simulate different types of color blindness or blurred vision on a page, similar to Firefox. There are some other options in the "Rendering" tool to check out as well. For example, the "Emulate CSS media feature prefers-reduced-motion" tool will simulate what your page would look like to a user who has enabled a setting on their browser or OS to prevent animations.
-
-Another tool worth checking out is the "Issues" tool, which will list any potential issues on the page such as color contrasts.
+Using your browser's DevTools is beyond useful for several things, from checking the styles applied to a page to debugging code, but you already know that! Here's something you may not know: you can even use the DevTools to look at various accessibility features as well, which can be great as a sort of "quick audit". You can check contrast ratios (as we mentioned in a previous lesson), view various accessibility properties, and view the accessibility tree, to name a few features.
 
 ### Accessibility Auditing
 
-There are plenty of third party tools to audit the accessibility of a web page, each with their own pros and cons, though we're only going to mention three of those tools here. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. If you decide to utilize one of these tools, or another auditing tool if you prefer one you come across, you should focus on the concepts introduced in these lessons only.
+There are plenty of third party tools to audit the accessibility of a web page, each with their own pros and cons, though we're only going to mention three of those tools here. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. If you decide to utilize one of these tools, or another auditing tool if you prefer one you come across, you should focus on fixing issues related to the concepts introduced in these lessons only for now.
 
-* [axe DevTools for Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) and [axe for Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) are extension-based tools. 
+* [axe DevTools for Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) and [axe for Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) are extension-based tools that return a list of issues ranked by severity level, and will note any issues for you to manually check.
 
-  Axe DevTools returns a list of any issues that are ranked by severity level, and it will also note any issues for you to manually check. For each issue, you'll be able to highlight the element on the page or inspect it within the DOM tree, and there will usually be a suggested way to resolve the issue.
+* [Lighthouse for Chrome](https://developers.google.com/web/tools/lighthouse) is available in the Chrome DevTools by default (it might also be listed as the Auditing tab) or it can be ran from the command line. The [Lighthouse Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/) is also available. Lighthouse provides more than just a11y auditing, including performance, best practices, search engine optimization (SEO), and progressive web app (PWA) if applicable. Any issues will be separated by category, and like the axe DevTools there may be a list of issues for you to manually check.
 
-* [Lighthouse for Chrome](https://developers.google.com/web/tools/lighthouse) is available in the Chrome dev tools by default (it might also be listed as the Auditing tab) or it can be ran from the command line. The [Lighthouse Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/) is also available.
-
-  Lighthouse provides more than just a11y auditing, including performance, best practices, search engine optimization (SEO), and progressive web app (PWA) if applicable. Any issues will be separated by category, and like the axe DevTools there may be a list of issues for you to manually check.
-
-* [WebAIM's WAVE](https://wave.webaim.org/) is a website based tool where you enter the URL of the page you want to audit, though there are also browser extension and API options. 
-
-  WAVE will return a preview of the page with an overlay if icons on it, and issues are separated into categories of alerts, warnings, and contrast errors. Unfortunately the icons that are placed on the page may cause the layout to break, but that could be a minor issue if you're more focused on the a11y issues that are found.
+* [WebAIM's WAVE](https://wave.webaim.org/) is a website based tool where you enter the URL of the page you want to audit, though there are also browser extension and API options. WAVE will return a preview of the page with an overlay if icons on it, and issues are separated into categories of alerts, warnings, and contrast errors. Unfortunately the icons that are placed on the page may cause the layout to break, but that could be a minor issue if you're more focused on the a11y issues that are found.
 
 Of course, one of the best ways to check the accessibility of your websites is to get feedback from users who rely on these accessibility features. Obviously this isn't always an easy option, but when you can it will be worth hearing from those who may be affected by your site's accessibility (or lack of it).
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+1. If your primary browser is Chrome, read the following resources:
+    * [Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/#pane), starting from the Accessibility pane section, provides a brief overview of Chrome's accessibility features in the DevTools. 
+    * [Emulate vision deficiencies](https://developer.chrome.com/blog/new-in-devtools-83/#vision-deficiencies) from the Chrome 83 update page. 
+    * The [Open the Issues tab](https://developer.chrome.com/docs/devtools/issues/#open) section. You can ignore any mentions of anything that isn't accessibility related on this page, as we just want you to know how to open this tab in your DevTools. Once you do, you'll be able to see a11y issues in addition to any other issues found.
+    * Although there will be differences between the browsers, such as the value of the role property or how a11y properties are presented, also check out the "Features of the Accessibility panel" section mentioned below for MDN's documentation. There is some useful information that, while more tailored to Firefox, can still be useful to a Chrome user.
+2. If your primary browser is Firefox, read through the following sections on [MDN's Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector):
+    * "Features of the Accessibility panel": Focus only on the name, role, value, description, states, and relations properties. For Chrome, states are presented within the Computed Properties of the Devtools, and relations are listed as several properties within the name property (`aria-labelledby`, `aria-label`, etc.).
+    * "Check for accessibility issues"
+    * "Simulate"
+    * "Accessibility picker"
+</div>
 
 ### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
 
-* The [MDN Accessibility Inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector) and [Chrome's Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/) both go over some additional a11y features of their respective dev tools.
 * [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/test-evaluate/involving-users/) goes over some helpful steps to take when you can get feedback from users.
 * The [A11y Project Checklist](https://www.a11yproject.com/checklist/) covers many more success criteria that can be helpful for making your websites more accessible beyond what you've learned from these lessons.
 * The [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of success criteria along with techniques for how to satisfy them and links to understanding them in more detail. This tool is a great go-to when you're really ready to push your website to the next accessible level. If you often use animations, success criterion 2.2.2 ("Play, Stop, Hide") and all of the 2.3 success criteria are definitely worth reading.
-* [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibility reasons.
+* [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibility topics.
 * [screenreader-outputs](https://github.com/thatblindgeye/screenreader-outputs) is a GitHub repo that contains many examples of screen reader outputs. Sometimes nested elements or certain combinations of attributes and native labeling may result in accessible names or descriptions that are difficult to make sense of, so checking out this repo may help clear things up.
