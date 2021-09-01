@@ -92,7 +92,7 @@ def find_verified_user
 end
 ~~~
 
-There are lots of ways to authorise a connection. You might want it to be available for all users, even those not logged in for example. There are a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
+There are lots of ways to authorise a connection. You might want it to be available for all users, even those not logged in for example. There is a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
 
 #### Channels
 
