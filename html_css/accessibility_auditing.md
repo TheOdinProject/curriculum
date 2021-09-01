@@ -1,8 +1,8 @@
 ### Introduction
 
-By now you should feel confident enough to start making your websites a little more accessible for a lot of users. What can really help you make sure you're implementing certain a11y features correctly, though, is learning how to view the accessibility tree in your dev tools and how to audit your web pages for any outstanding a11y issues.
+By now you should feel confident enough to start making your websites a little more accessible for a lot of users. What can really help you make sure you're implementing certain a11y features correctly, though, is learning how to view the accessibility tree in your DevTools and how to audit your web pages for any outstanding a11y issues.
 
-This lessons covers both Chrome and Firefox, since there is a significant enough difference between both browsers' accessibility DevTools. Since Microsoft Edge is now Chromium-based (as of versions released in January 2020 and after), many if not all accessibility features for the Chrome DevTools mentioned in this lesson should also work in Edge.
+This lesson covers both Chrome and Firefox, since there is a significant enough difference between both browsers' accessibility DevTools. Since Microsoft Edge is now Chromium-based (as of versions released in January 2020 and after), many if not all accessibility features for the Chrome DevTools mentioned in this lesson should also work in Edge.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
