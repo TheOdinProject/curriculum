@@ -22,3 +22,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge.
 * You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.
+* The first 30-minutes of this [video](https://youtu.be/rssgWqJq-14) will teach you how to see through of the magical syntax of Ruby on Rails and how to use pry to debug.

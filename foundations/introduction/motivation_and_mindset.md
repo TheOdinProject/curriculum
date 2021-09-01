@@ -140,6 +140,8 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
 Without further ado, let's jump in to learning web development!
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
 * [Managing inspiration and motivation](https://markmanson.net/do-something)
 * [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Improve your typing skills with Keybr.com](https://www.keybr.com/) Use this keyboard trainer if you find your typing speed is holding you back. We recommend to spend 5 mins everyday after you start your PC.
