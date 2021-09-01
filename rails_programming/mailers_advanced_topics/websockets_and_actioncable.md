@@ -274,7 +274,7 @@ consumer.subscriptions.create("RoomChannel", {
 
 Note it imports our consumer from the consumer.js file we discussed earlier. Then it calls `subscriptions.create` on the consumer. We don't need to really dive into how this works under the hood but we just need to understand a couple of key points.
 
-The first is that that the first argument is given as a string. This would try to connect to the `RoomChannel` channel on the server. It doesn't have to be a string though. Remember those parameters we discussed earlier, this is where you can pass them. Instead of a string you can instead pass an object. The first key-value pair must be in the format `channel: 'ChannelName'`, and then afterwards you can pass in any number of key-value pairs which becomes the parameters sent to the server to establish a connection. Let's say we want to send the id of a room to our RoomChannel. We could write that first line as follows
+The first is that the first argument is given as a string. This would try to connect to the `RoomChannel` channel on the server. It doesn't have to be a string though. Remember those parameters we discussed earlier, this is where you can pass them. Instead of a string you can instead pass an object. The first key-value pair must be in the format `channel: 'ChannelName'`, and then afterwards you can pass in any number of key-value pairs which becomes the parameters sent to the server to establish a connection. Let's say we want to send the id of a room to our RoomChannel. We could write that first line as follows
 
 ~~~javascript
 consumer.subscriptions.create({channel: 'RoomChannel', room: 1}, {
