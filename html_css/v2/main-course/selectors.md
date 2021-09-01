@@ -117,9 +117,32 @@ Have you ever wondered why links are blue but turn purple in unstyled HTML? It's
 
 ## Pseduo Elements
 
-Todo
+Pseudo elements give us a way to interact with
 
-* ::before / :: after
+They have the same specificty as normal elements (0,0,0,1).
+
+
+
+* `::before` and `::after` allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
+
+~~~html
+<style>
+  .emojify::before {
+  content: '😎 🥸 🤓';
+}
+
+.emojify::after {
+  content: '😎 🥸 🤓';
+}
+</style>
+<body>
+  <div> Let's <span class="emojify">emojify</span>this span!</div>
+</body>
+~~~
+
+Using `::before` and `::after` this way would give us this result: Let's 😎 🥸 🤓 emojify 😎 🥸 🤓 this span!
+
+
 * ::first-letter / ::first-line
 * ::marker
 * ::selection
@@ -130,6 +153,8 @@ Todo
 ### Attribute Selectors
 
 The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com`. Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
+
+Attribute selectors have the same specificty as classes and pseudo-classes (0,0,1,0).
 
 Let's look at some examples for basic usage.
 
@@ -195,7 +220,13 @@ To see what other things you can achieve with attribute selectors, such as searc
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider i  t supplemental for if you need to dive deeper into something.
+
+* [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
+* [The CSS Tricks Alamanc](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
+* [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes a an interactive selector tool if you'd like to play around with some hands on examples.
+* [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
+
 
 ### Knowledge Check
 
@@ -213,11 +244,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ## Potential links
 
-* [Pseduo Classes vs Pseudo Elements](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html)
-* [W3 Schools Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
-Note - has a selector tool which could be a good practice assignment.
-* [CSS Tricks Selectors Reference](https://css-tricks.com/almanac/selectors/) - each link has a good amount of detail
-* [Shorter cheat sheet from FCC](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/)
 * [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
 
 ## Potential in lesson notes
