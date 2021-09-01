@@ -71,7 +71,7 @@ Any other property, however, will only appear when it is actually applied to an 
 
 ### Firefox's Checks
 
-In the Accessible Colors lesson you were provided with a link to the WebAIM contrast checker tool as well as a couple of ways you could check the contrast ratio in your browser's dev tools, both of which you've hopefully tested out a little. Firefox has an additional way to check contrast ratios, which we waited to include here since it actualy provides a way to check for more than just contrast ratios.
+In the Accessible Colors lesson you were provided with a link to the WebAIM contrast checker tool as well as a couple of ways you could check the contrast ratio in your browser's dev tools, both of which you've hopefully tested out a little. Firefox has an additional way to check contrast ratios, which we waited to include here since it actually provides a way to check for more than just contrast ratios.
 
 Right above the **Properties** section of the **Accessibility** tab in Firefox is the **Checks** section. This section will list any contrast ratios in addition to other checks, such as whether an interactive element has a focus style. In order to view the color contrast for text, you may have to travel down a branch of the accessibility tree until you select a "text leaf" object.
 

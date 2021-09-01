@@ -27,7 +27,7 @@ The link in Example 2, however, not only makes sense in context for all users, b
 When you add links to a page, there are a few rules you should be following: 
 
 1. Make sure that the text contents of the `<a>` element somehow indicates where the link redirects to and that it's brief (around 100 characters). So avoid using phrases like "click here" or "this page".
-2. If a link would open or downlaod a file, include text that tells the user what kind of file it is as well as the file size.
+2. If a link would open or download a file, include text that tells the user what kind of file it is as well as the file size.
 3. If a link would automatically open in a new tab or window with the `target="_blank"` attribute, you should indicate this to the user in some way.
 
 ~~~html
