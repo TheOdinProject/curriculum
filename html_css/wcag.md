@@ -47,7 +47,7 @@ The second thing to keep in mind is that just taking those first few steps towar
 
 <div class="lesson-content__panel" markdown="1">
 1. Read through the [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) page. Don't worry about all of the other links for now. The goal of reading this page is to understand more of the included overview and to get familiar with the site itself for when you *do* need to visit other pages on it.
-2. Go through [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist), keeping in mind to read the important disclaimer. As the page notes, this is a simplified checklist of common WCAG techniques, which is perfect for those of us just starting out when it comes to implementing accessibility.
+2. Skim through [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist), keeping in mind to read the important disclaimer. For now the goal is just to get an idea of common accessibility issues, some of which you'll be ready to fix by the time you finish this set of lessons, rather than read through every issue listed on the page. Keep this resource bookmarked, though, as using it as your checklist when you start actively implementing accessibility will be really handy.
 </div>
 
 ### Knowledge Check
