@@ -43,24 +43,16 @@ Next we need to create a separate config for our testing environment. The config
 const mongoose = require("mongoose");
 const { MongoMemoryServer } = require("mongodb-memory-server");
 
-const mongoServer = new MongoMemoryServer();
+async function initializeMongoServer() {
+  const mongoServer = await MongoMemoryServer.create();
+  const mongoUri = mongoServer.getUri();
 
-mongoose.Promise = Promise;
-mongoServer.getConnectionString().then(mongoUri => {
-  const mongooseOpts = {
-    // options for mongoose 4.11.3 and above
-    autoReconnect: true,
-    reconnectTries: Number.MAX_VALUE,
-    reconnectInterval: 1000,
-    useNewUrlParser: true
-  };
-
-  mongoose.connect(mongoUri, mongooseOpts);
+  mongoose.connect(mongoUri);
 
   mongoose.connection.on("error", e => {
     if (e.message.code === "ETIMEDOUT") {
       console.log(e);
-      mongoose.connect(mongoUri, mongooseOpts);
+      mongoose.connect(mongoUri);
     }
     console.log(e);
   });
@@ -68,10 +60,12 @@ mongoServer.getConnectionString().then(mongoUri => {
   mongoose.connection.once("open", () => {
     console.log(`MongoDB successfully connected to ${mongoUri}`);
   });
-});
+}
+
+module.exports = initializeMongoServer;
 ~~~
 
-Now, if your tests are set up similarly to the tests in our last project you can simply require this file at the top of your testing file, then, when testing any operations that work on your mongo database they will use this testing one instead of your real one.
+Now, if your tests are set up similarly to the tests in our last project, you can simply call this function in your testing file, and then any operations that work on your mongo database will use this testing one instead of your real one.
 
 ### A couple of notes
 
