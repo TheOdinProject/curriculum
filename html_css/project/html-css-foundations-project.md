@@ -16,31 +16,7 @@ _Finally_, feel free to substitute your own content into this design. The images
 
 ### Setting up your project's GitHub repository
 
-As mentioned in the [introduction to Git](/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
-
-If you do not know how to set up a repository, follow the instructions found in [Git Basics](/courses/foundations/lessons/git-basics) to learn how.
-
-1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
-2. Create a new repo for this project on GitHub.com and call it `foundations-project` (instead of `git-test`).
-3. Then move that repository onto your local machine. The command should look like: `git clone git@github.com:username/foundations-project.git` (use SSH).
-
-   - [Setting up SSH on GitHub](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github).
-
-4. Now `cd` into the `foundations-project` directory that is now on your local machine; set up your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to review what you have learned.)
-
-If you are having trouble:
-
-- All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `foundations-project` folder?)
-- Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
-- Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
-
-_When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`._
-
-_When writing code, it's considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere._
-
-If you have entered `git push origin main` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
-
-Okay, that's enough Git for the moment -- time to actually build stuff!
+As we did in the Recipe project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the recipe project if you need a reminder on how to set it up.
 
 ### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
 
@@ -55,18 +31,16 @@ We know it may be tempting to look at the solutions when you get stuck or don't 
 
 Once you have completed your project feel free to look at the other solutions to see alternative ways the project was completed.
 
-*Note: It is okay to check the "Live Preview" to get an idea of layout and styling before starting but not the code files.*
-
 **DO NOT PEEK. Come ask for help in our discord server!**
 
 ### Assignment
 
 1. Download the design images and take a look at what you're going to be creating here. [INSERT LINK TO IMAGES HERE.. They're in the curriculum repo]
-1. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
-2. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and _then_ do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will end up making things take longer and may end up causing you more frustration.
-3. Many of the elements on this page are very similar to things you saw in our flexbox exercises... feel free to go back to those if you need a refresher.
-4. Do not worry about making your project look nice on a mobile device. We'll learn that later.
-5. When you finish, don't forget to push it up to github using the instructions above!
+2. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
+3. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and _then_ do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will end up making things take longer and may end up causing you more frustration.
+4. Many of the elements on this page are very similar to things you saw in our flexbox exercises... feel free to go back to those if you need a refresher.
+5. Do not worry about making your project look nice on a mobile device. We'll learn that later.
+6. When you finish, don't forget to push it up to GitHub!
 
 ### Viewing your project on the web
 
