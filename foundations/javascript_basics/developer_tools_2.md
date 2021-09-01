@@ -1,11 +1,15 @@
 ### Introduction
 Knowing how to use the Developer Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, and viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript.
+
 ### Learning outcomes
+
 After completing this lesson, you will be able to:
+
 - Simulate different devices with developer tools
 - View and change the DOM
 - Debug JavaScript 
 - Use breakpoints
+
 ### Opening Dev Tools
 
 There are three ways to open the Developer Tools menu:
@@ -47,8 +51,7 @@ Google has updated some of the required sections in the below tutorials and some
 ### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- How do you open developer tools?
-- How do you simulate a mobile device using developer tools?
-- What is a breakpoint?
-- How do you set a breakpoint?
-- What are breakpoints useful for?
+- <a href="#opening-dev-tools"> How do you open developer tools? </a>
+- <a href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you simulate a mobile device using developer tools?</a>
+- <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
+- <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>
