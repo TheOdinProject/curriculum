@@ -26,3 +26,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
   - The ability to manage comments (i.e. delete or edit them).
 6. How much work you want to put into the front-end code on this one is up to you.  Technically this is a back-end focused course so if you don't actually need or want a blog on your website feel free to focus mainly on getting a REST API up and running.
 </div>
+
+### Additional Resources
+- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alernatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API. 
+

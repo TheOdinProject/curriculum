@@ -1,4 +1,4 @@
-Let's dive right in!
+Let's dive right in to JavaScript!
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
@@ -17,25 +17,11 @@ Look through these now and then use them to test yourself after doing the assign
 * What are assignment operators?
 * What is the "Unary +" Operator?
 
-### Variables
+### How to Run JavaScript Code
 
-You can think of variables as simply "storage containers" for data in your code. Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.
+All JavaScript we will be writing in the majority of the Foundations course will be ran via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
-1. [This variable tutorial](http://javascript.info/variables) will explain you everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
-
-The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now. The precise differences between `var` and `let` will be explained later.
-
-### Numbers
-
-Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
-
-1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are good introductions to what you can accomplish with numbers in JS.
-2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view. There's much more that you can do with numbers, but this is all you need at the moment.
-3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
-
-### Practice!
-
-You can easily run your own JavaScript code from files you create on your computer.  The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
+The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
 
 ~~~html
 <!DOCTYPE html>
@@ -53,11 +39,29 @@ You can easily run your own JavaScript code from files you create on your comput
 </html>
 ~~~
 
-Save and open this file up in a web browser and then open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab, where you should see the output of our `console.log` statement.
+Save and open this file up in a web browser (you can use Live Server to do this!) and then open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab, where you should see the output of our `console.log` statement.
 
-> `console.log()` is the command to print something to the developer console in your browser.  Use it for all of the following exercises.
+> `console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console. We encourage you to code along with all of the examples in this and future lessons.
 
-Try the following exercises:
+### Variables
+
+You can think of variables as simply "storage containers" for data in your code. Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.
+
+1. [This variable tutorial](http://javascript.info/variables) will explain you everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
+
+The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now. The precise differences between `var` and `let` will be explained later.
+
+### Numbers
+
+Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
+
+1. [This W3Schools lesson](https://www.w3schools.com/js/js_numbers.asp) followed by [this one](https://www.w3schools.com/js/js_arithmetic.asp), are good introductions to what you can accomplish with numbers in JS.
+2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view. There's much more that you can do with numbers, but this is all you need at the moment.
+3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
+
+## Assignment
+
+Try the following exercises (and don't forget to use `console.log()`!):
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
 2. Add a sequence of 6 different numbers together.
@@ -95,3 +99,4 @@ This section contains questions for you to check your understanding of this less
 * What is operator precedence and how is it handled in JS?
 * How do you access developer tools and the console?
 * How do you log information to the console?
+* What does unary plus operator do to string representations of integers?

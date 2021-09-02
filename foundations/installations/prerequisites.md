@@ -30,7 +30,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 20.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.2.0-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
+There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 20.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/xubuntu-20.04.3-desktop-amd64.iso). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
 
 ### Step 2: Install VirtualBox and set up Xubuntu
 
@@ -113,7 +113,7 @@ While your VM is running, do the following steps:
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
   6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + w` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
   7. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
-  8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 8.
+  8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 9.
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   11. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
