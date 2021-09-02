@@ -5,7 +5,7 @@ Knowing how to use the Developer Tools inside your browser is an important skill
 
 After completing this lesson, you will be able to:
 
-- Simulate different devices with developer tools
+- Change screen size of a website with developer tools
 - View and change the DOM
 - Debug JavaScript 
 - Use breakpoints
@@ -52,6 +52,6 @@ Google has updated some of the required sections in the below tutorials and some
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a href="#opening-dev-tools"> How do you open developer tools? </a>
-- <a href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you simulate a mobile device using developer tools?</a>
+- <a href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you change screen size of a website using developer tools?</a>
 - <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
 - <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>
