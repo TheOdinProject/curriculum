@@ -7,7 +7,7 @@ Check out [this video from Harvard's CS50x on Bubble Sort](https://www.youtube.c
 
 There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort) that's worth taking a look at.
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" class="lesson-content__small-image" markdown="1">
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby_projects/bubble_sort/img/00.gif" class="lesson-content__small-image" markdown="1">
 
 ### Assignment
 

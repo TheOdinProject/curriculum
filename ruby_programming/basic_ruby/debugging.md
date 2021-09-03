@@ -14,13 +14,13 @@ By the end of this lesson, you should be able to do the following:
 ### Reading the Stack Trace
 When your Ruby program crashes after encountering a runtime error or exception, it will produce a wall of text known as a **stack trace** that is then output in your terminal. A stack trace looks something like this:
 
-<a href="https://i.imgur.com/UmoEQBD.png"><img class="tutorial-img" src="https://i.imgur.com/UmoEQBD.png" title="source: imgur.com" alt="sample stack trace"/></a>
+<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/00.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/00.png" title="source: imgur.com" alt="sample stack trace"/></a>
 
 Don't let the stack trace intimidate you. You don't need to read it all or even know what most of it means.
 
 The stack trace prints each line of code in your program that was executed before it crashed. The very first line of the stack trace will generally provide the most useful information about the error your program encountered:
 
-<a href="https://i.imgur.com/5LJDp9v.png"><img class="tutorial-img" src="https://i.imgur.com/5LJDp9v.png" title="source: imgur.com" alt="first line of stack trace" /></a>
+<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png" title="source: imgur.com" alt="first line of stack trace" /></a>
 
 First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-2.6/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-2.6/Exception.html) are *also* objects.
 
