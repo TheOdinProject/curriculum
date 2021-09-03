@@ -219,7 +219,7 @@ def html_and_css_lessons
     },
     'Introduction to Web Accessibility' => {
       title: 'Introduction to Web Accessibility',
-      description: 'Learn what Accessibility means to you as a web developer',
+      description: 'Learn what accessibility means to you as a web developer',
       is_project: false,
       url: '/html_css/web_accessibility.md',
       identifier_uuid: '77a24bd6-4023-4901-8b4e-b9d7d12fa349',
