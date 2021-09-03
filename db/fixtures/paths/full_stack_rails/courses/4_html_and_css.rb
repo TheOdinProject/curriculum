@@ -63,6 +63,25 @@ course.add_section do |section|
 end
 
 # +++++++++++++++++++++++
+# SECTION - Accessibility
+# +++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Accessibility'
+  section.description = "The websites you create will be viewed by a wide range of users, including those who rely on various accessibility features due to any number of disabilities or limitations. As important as it is to make your site look good, it's just as important to make it usable by as many different users as possible."
+  section.identifier_uuid = '5867ba24-9322-4219-93dd-eaeb05017349'
+
+  section.add_lessons(
+    html_and_css_lessons.fetch('Introduction to Web Accessibility')
+    html_and_css_lessons.fetch('The Web Content Accessibility Guidelines')
+    html_and_css_lessons.fetch('Semantic HTML')
+    html_and_css_lessons.fetch('Accessible Colors')
+    html_and_css_lessons.fetch('Keyboard Navigation')
+    html_and_css_lessons.fetch('Meaningful Text')
+    html_and_css_lessons.fetch('WAI-ARIA')
+    html_and_css_lessons.fetch('Accessibility Auditing')
+  )
+
+# +++++++++++++++++++++++
 # SECTION - Design and UX
 # +++++++++++++++++++++++
 course.add_section do |section|
