@@ -71,13 +71,13 @@ course.add_section do |section|
   section.identifier_uuid = '5867ba24-9322-4219-93dd-eaeb05017349'
 
   section.add_lessons(
-    html_and_css_lessons.fetch('Introduction to Web Accessibility')
-    html_and_css_lessons.fetch('The Web Content Accessibility Guidelines')
-    html_and_css_lessons.fetch('Semantic HTML')
-    html_and_css_lessons.fetch('Accessible Colors')
-    html_and_css_lessons.fetch('Keyboard Navigation')
-    html_and_css_lessons.fetch('Meaningful Text')
-    html_and_css_lessons.fetch('WAI-ARIA')
+    html_and_css_lessons.fetch('Introduction to Web Accessibility'),
+    html_and_css_lessons.fetch('The Web Content Accessibility Guidelines'),
+    html_and_css_lessons.fetch('Semantic HTML'),
+    html_and_css_lessons.fetch('Accessible Colors'),
+    html_and_css_lessons.fetch('Keyboard Navigation'),
+    html_and_css_lessons.fetch('Meaningful Text'),
+    html_and_css_lessons.fetch('WAI-ARIA'),
     html_and_css_lessons.fetch('Accessibility Auditing')
   )
 
