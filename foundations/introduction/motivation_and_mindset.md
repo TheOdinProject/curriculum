@@ -52,8 +52,6 @@ When learning, your mind will consistently switch between focus mode and diffuse
 
 It's important to know that your mind goes through these two states when learning because you can utilise this to make your learning more efficient. When stuck on a concept or project, taking a break to refresh and let your subconscious work on making connections more often than not yields a solution to your problem. The trick is to put effort into solving the problem first and then take a break.
 
-In short, understand it, practice it, and finally teach it.
-
 Teaching what you know to others is a great way to solidify what you have learned and can often reveal holes in your knowledge that you wouldn't have identified otherwise.
 
 You can practice this method of learning by helping others in our community.
@@ -61,6 +59,8 @@ You can practice this method of learning by helping others in our community.
 * To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
 * The Ruby Rogues have a [podcast on How to Learn](https://devchat.tv/ruby-rogues/131-rr-how-to-learn/), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
+
+In short, understand it, practice it, and finally teach it.
 
 ### What To Do When You're Stuck
 
