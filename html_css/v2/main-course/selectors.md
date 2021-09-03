@@ -230,8 +230,8 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Knowledge Check
 
-* How would you select a div inside a div inside a div?
-* What is the difference between `.myClass:hover` and `.myClass :hover` ?
+* How would you select a div inside a div inside a div? REDO
+* What is the difference between `div:first-line` and `div :first-line` What will each select?
 * How could you select all input elements with a type of text?
 
 
@@ -241,6 +241,8 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - Should :root get a special mention? Are CSS variables being covered elsewhere?
 - Touch on specificity rules of these?
+- Delete prettier file before PR
+- A note on old syntax? (: vs ::)
 
 ## Potential links
 
