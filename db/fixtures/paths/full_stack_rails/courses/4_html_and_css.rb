@@ -80,6 +80,7 @@ course.add_section do |section|
     html_and_css_lessons.fetch('WAI-ARIA'),
     html_and_css_lessons.fetch('Accessibility Auditing')
   )
+end
 
 # +++++++++++++++++++++++
 # SECTION - Design and UX
