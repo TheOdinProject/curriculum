@@ -68,7 +68,7 @@ end
 course.add_section do |section|
   section.title = 'Accessibility'
   section.description = "The websites you create will be viewed by a wide range of users, including those who rely on various accessibility features due to any number of disabilities or limitations. As important as it is to make your site look good, it's just as important to make it usable by as many different users as possible."
-  section.identifier_uuid = '5867ba24-9322-4219-93dd-eaeb05017349'
+  section.identifier_uuid = 'c4200ae6-e97d-4e7a-9cd6-18dfd443953e'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction to Web Accessibility'),
