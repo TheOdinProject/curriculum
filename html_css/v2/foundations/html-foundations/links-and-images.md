@@ -1,8 +1,8 @@
 ### Introduction
 
-Links are one of the key features of HTML. They allow us to link to other html pages on the web. In-fact this is why it's called the web, the internet is essentially a web of html pages connected to one another with links.
+Links are one of the key features of HTML. They allow us to link to other html pages on the web. In fact, this is why it's called the web. The internet is essentially a web of html pages connected to one another with links.
 
-In this lesson we will learn how to create links and add some visual flair to our websites by embedding images.
+In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
 ### Learning Outcomes
 
@@ -13,7 +13,7 @@ In this lesson we will learn how to create links and add some visual flair to ou
 
 ### Preparation
 
-To get some practice using links and images throughout this lesson we need a html project to work with. Create a new folder named `odin-links-and-images`.
+To get some practice using links and images throughout this lesson we need an html project to work with. Create a new folder named `odin-links-and-images`.
 
 Within that folder create a new file named `index.html` and paste the following into it:
 
@@ -41,9 +41,9 @@ Add the following to the body of the index.html page we created and open it in t
 <a>click me</a>
 ~~~
 
-You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using a html attribute.
+You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an html attribute.
 
-A html attribute gives additional information to a html element and always goes in the elements opening tag. An attribute is made up of two parts, a name and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+An html attribute gives additional information to an html element and always goes in the elements opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -51,20 +51,20 @@ Add the following href attribute to the anchor element we created previously and
 <a href="https://www.theodinproject.com/about">click me</a>
 ~~~
 
-By default the browser will give any text wrapped in an anchor tag a blue color and underline it to signify it is a link.
+By default, the browser will give any text wrapped in an anchor tag a blue color and underline it to signify it is a link.
 
-It's worth noting you can use anchor tags link to any kind of resource on the internet, not just other html documents. You can link to videos, pdf files, images and so on. But for the most part you will be linking to other html documents.
+It's worth noting you can use anchor tags link to any kind of resource on the internet, not just other html documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other html documents.
 
-### Absolute and Relative links
+### Absolute and Relative Links
 
-Generally there are two kinds of links we will create:
+Generally, there are two kinds of links we will create:
 
 1. Links to pages on other websites on the internet.
 2. Links to pages located on our own websites.
 
 #### Absolute Links
 
-Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
+Links to pages op other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
 We've already seen an absolute link in action. The link we created to The Odin Projects about page earlier was an absolute link as it contains the protocol and domain.
 
@@ -72,7 +72,7 @@ We've already seen an absolute link in action. The link we created to The Odin P
 
 #### Relative Links
 
-Links to other pages on our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
+Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
 Relative links only include the file path to the other page, *relative* to the page you are creating the link on. This is quite abstract, let's see this in action using an example.
 
@@ -128,7 +128,7 @@ Refresh the index page in the browser and try clicking the about link again, it 
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-If you think of the folder a website is located in as a house and each page on on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links on the other hand, are directions to an entirely different house.
+Think of the folder a website is located in as a house and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links on the other hand, are directions to an entirely different house.
 
 ### Images
 
