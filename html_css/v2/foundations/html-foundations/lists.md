@@ -1,6 +1,6 @@
 ### Introduction
 
-Whether it be imdb's top 250 movies list or the FBI's most wanted list, lists are everywhere on the web and you are going to need one eventually in your own webpages.
+Whether it be IMDB's top 250 movies or the FBI's most-wanted, lists are everywhere on the web and you are going to need one eventually in your webpages.
 
 Luckily, with HTML there are a couple of different types of lists are your disposal.
 
@@ -15,7 +15,7 @@ If you want to have a list of items where the order doesn't matter, like a shopp
 
 
 
-Unordered lists are created using the `<ul>` element and each individual item within the list is created using the list item element `<li>`.
+Unordered lists are created using the `<ul>` element and each item within the list is created using the list item element `<li>`.
 
 Each list item in an unordered list begins with a bullet point:
 
@@ -28,7 +28,7 @@ Each list item in an unordered list begins with a bullet point:
 
 ### Ordered Lists
 
-If you instead want to create a list of items where the order *does* matter, like step by step instructions for a recipe or your top 10 favourite TV shows then you can use an ordered list.
+If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe or your top 10 favorite TV shows then you can use an ordered list.
 
 Ordered lists are created using the `<ol>` element and each individual item within them, are again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
 
@@ -44,10 +44,10 @@ Ordered lists are created using the `<ol>` element and each individual item with
 <div class="lesson-content__panel" markdown="1">
 To get some practice using lists, create a new html document and create the following lists:
 
-1. An unordered shopping list of your favourite foods
+1. An unordered shopping list of your favorite foods
 2. An ordered list of todo's you need to get done today
 3. An unordered list of places you'd like to visit someday
-4. An ordered list of of your all time top 5 favourite video games or movies
+4. An ordered list of your all time top 5 favorite video games or movies
 </div>
 
 ### Additional Resources
