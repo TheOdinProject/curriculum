@@ -1,27 +1,27 @@
 ### Introduction
 
-All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson we will explore the different parts of this boilerplate and see how it all fits together.
+All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
 ### Learning Outcomes
 
-- How to write the basic boilerplate for a html document
+- How to write the basic boilerplate for an html document
 - How to open html documents in your browser
 
 ### Creating a HTML File
 
-To demonstrate html boilerplate we first need a html file to work with.
+To demonstrate html boilerplate we first need an html file to work with.
 
 Create a new folder on your computer and name it `html-boilerplate`. Within that folder create a new file and name it `index.html`.
 
-You're probably already familiar with a lot of different types of files. For example; doc, pdf and image files types.
+You're probably already familiar with a lot of different types of files. For example; doc, pdf, and image files types.
 
-To let the computer know we want to create a html file, we need to append the filename with the `.html` extension as we have done when creating the `index.html` file.
+To let the computer know we want to create an html file, we need to append the filename with the `.html` extension as we have done when creating the `index.html` file.
 
 Another thing worth noting is we named our html file `index`. We should always name the html file that will contain the homepage of our websites `index.html`. This is because web servers will, by default look for an index.html page when users land on our websites, and not having one will cause big problems.
 
 ### The DOCTYPE
 
-Every html page starts with a doctype declaration, the doctype's purpose is to inform the browser what version of html it should use to render the document in. The latest version of HTML is HTML5 and the doctype for that version is simply `<!DOCTYPE html>`
+Every html page starts with a doctype declaration, the doctype's purpose is to inform the browser what version of html it should use to render the document. The latest version of HTML is HTML5 and the doctype for that version is simply `<!DOCTYPE html>`
 
 The doctype for older versions of html were a bit more complicated. For example, this is the doctype declaration for HTML4:
 
@@ -35,7 +35,7 @@ Open the `index.html` file created earlier in your text editor and add `<!DOCTYP
 
 ### HTML Element
 
-After we declare the doctype, we need to provide a `<html>` element. This is whats known as the root element of the document, meaning that every other element in the document will be a descendant of it.
+After we declare the doctype, we need to provide a `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
 
 This becomes more important later on when we learn about manipulating html with JavaScript. For now, just know that the html element should be included on every html document.
 
@@ -49,11 +49,11 @@ Back in the index.html lets add the <html> element by typing out its opening and
 
 ### Head Element
 
-The `<head>` element is where we put important meta information **about** our webpages and stuff required for our webpages to render correctly in the browser. Whatever is included within the head element will not be displayed to the user.
+The `<head>` element is where we put important meta-information **about** our webpages and stuff required for our webpages to render correctly in the browser. Whatever is included within the head element will not be displayed to the user.
 
 #### Title Element
 
-One element we should always include in the head of a html document, is the title element:
+One element we should always include in the head of an html document is the title element:
 
  `<title>My First Webpage</title>`
 
@@ -65,9 +65,9 @@ If we didn't include a title element, the webpage's title would default to its f
 
 Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8"/>`.
 
-Setting the encoding is very important because it ensures that the webpage will display special symbols and character's from different languages correctly in the browser.
+Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
-There are many more elements that can go within the head of a html document. However, for now it's only crucial to know about the two elements we have covered here. But, we will introduce more elements that go into the head as and when we need them throughout the rest of the curriculum.
+There are many more elements that can go within the head of an html document. However, for now, it's only crucial to know about the two elements we have covered here. But, we will introduce more elements that go into the head as and when we need them throughout the rest of the curriculum.
 
 Back in our `index.html`, let's add a head element with a title and a charset meta element within it. The head element goes within the html element and should always be the first element under the opening `<html>` tag:
 
@@ -84,7 +84,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 
 ### Body Element
 
-The final element needed to complete the html boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go. The text, images, lists, links and so on.
+The final element needed to complete the html boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go. The text, images, lists, links, and so on.
 
 To complete the boilerplate, add a body element to the `index.html` file. The body element also goes within the html element and is always below the head element like so:
 
@@ -105,7 +105,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 The html boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  there are a couple of different options:
 
-1. You can drag and drop a html file from your text editor into the address bar of your favourite browser.
+1. You can drag and drop an html file from your text editor into the address bar of your favorite browser.
 2. You can find the html file in your file system and then double click it. This will open up the file in the default browser your system uses.
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
@@ -126,7 +126,7 @@ Back in the index.html file lets add a heading (more on these later) to the body
 </html>
 ~~~
 
-Now if you refresh the page in the browser, you should see the changes take affect and a heading  "Hello World!" will be displayed.
+Now if you refresh the page in the browser, you should see the changes take effect, and a heading  "Hello World!" will be displayed.
 
 ### Assignment
 
