@@ -1,8 +1,8 @@
 ### Introduction
 
-Most content on the web is text based and so you will find yourself needing to work with html text elements quite a bit.
+Most content on the web is text-based, so you will find yourself needing to work with html text elements quite a bit.
 
-In this lesson we will learn about some of the most common text based elements you are likely to use the most.
+In this lesson, we will learn about the text-based elements you are likely to use the most.
 
 ### Learning Outcomes
 
@@ -15,7 +15,7 @@ In this lesson we will learn about some of the most common text based elements y
 
 ### Paragraphs
 
-what would you expect the following text to output in a html page?
+what would you expect the following text to output on an html page?
 
 ~~~html
 <body>
@@ -37,7 +37,7 @@ It looks like two paragraphs of text. And so you might expect it to display in t
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-When the browser encounters new lines like this in your html it will compress it down into one single space. The result of which, is all our text is clumped together into one long line of text.
+When the browser encounters new lines like this in your html it will compress it down into one single space. The result of which is that all our text is clumped together into one long line of text.
 
 If we want to create paragraphs in html we need to use the paragraph element which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
 
@@ -56,7 +56,7 @@ Headings are different from other HTML text elements, they are displayed larger 
 
 There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that headings level. h1 is the most important and is larger than the other headings. And h6 is the lowest level and therefore the smallest of the headings.
 
-Headings are defined much like paragraphs. For example to create h1 heading, we wrap our heading text in a `<h1>` tag.
+Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
@@ -65,7 +65,7 @@ Headings are defined much like paragraphs. For example to create h1 heading, we 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Using the correct levels of headings is important as they provide a hierarchy to the content. A h1 headings should always be used for the heading of the overall page and the lower level headings should be used as the headings for content in smaller sections of the page.
+Using the correct levels of headings is important as they provide a hierarchy to the content. An h1 headings should always be used for the heading of the overall page and the lower level headings should be used as the headings for content in smaller sections of the page.
 
 ### Strong Element
 
@@ -91,7 +91,7 @@ But you will probably find yourself using the strong element much more in combin
 
 ### Em Element
 
-The em element makes text italic. It also semantically places emphasis on text which again affects things like screen readers. To define a emphasised element we wrap text content in a `<em>` tag.
+The em element makes text italic. It also semantically places emphasis on the text which again affects things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
 
 To use em on its own:
 
@@ -102,7 +102,7 @@ To use em on its own:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Again, like the strong element you will find yourself mostly using the em element with other text elements:
+Again, like the strong element, you will find yourself mostly using the em element with other text elements:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwWZzyj" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj">
@@ -126,7 +126,7 @@ For example in the following example the body element is the parent and the para
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Just like human relationships, HTML parent elements can have many children and elements at the same level of nesting are considered to be siblings.
+Just like human relationships, HTML parent elements can have many children.  Elements at the same level of nesting are considered to be siblings.
 
 For example, the two paragraphs in the following code are siblings since they are both children of the body tag and are at the same level of nesting as each other:
 
@@ -139,11 +139,11 @@ For example, the two paragraphs in the following code are siblings since they ar
 
 We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. It is recommended to indent any child elements by two spaces.
 
-The parent, child and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behaviour with JavaScript. For now however it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
+The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
 
 ### HTML Comments
 
-HTML comments are not visible to the browser, they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear or obvious about the code.
+HTML comments are not visible to the browser, they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
 Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end of the comment, for example:
 
@@ -164,7 +164,7 @@ Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end o
 
 ### Additional Resources
 
-- Note: In the examples you have probably noticed we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/),  it is used to generate dummy text you can use in place of real text as you build your sites.
+- Note: In the examples, you have probably noticed we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/),  it is used to generate dummy text you can use in place of real text as you build your sites.
 
 ### Knowledge Check
 
