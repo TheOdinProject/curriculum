@@ -1,5 +1,4 @@
 ### Introduction
-
 By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialised tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more specific and finely grained way.
 
 These selectors can be especially useful when you can't (or don't want to) change your HTML markup.
@@ -7,14 +6,12 @@ These selectors can be especially useful when you can't (or don't want to) chang
 As always feel free to open up your code editor and run you own experiments with these selectors - practice makes perfect!
 
 ### Learning Outcomes
-
 * Understand how to use parent and sibling selectors
 * Recognise the difference between pseudo classes and pseudo elements
 * Learn about some of the most useful and common pseudo elements and pseudo classes
 * Learn about the different ways to select an attribute or its parts
 
 ### Parent and Sibling Selectors
-
 Let's have a look at some ways we can access different divs _without_ referring to their classes. Here are three new seclectors to do just that.
 
 * `>` - the child selector
@@ -82,15 +79,14 @@ Finally, if we want to select all of an element's siblings and not just the firs
 }
 ~~~
 
-### Pseudo-Selectors
+These selectors don't have any special specificty rules - their specificity score will just be made up of their component parts.
 
-Before diving into pseudo-selectors, a quick note on the difference between pseudo-elements and pseudo-classes. Pseudo class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo elements are prefixed with two colons and used to target elements that _don't_ normally exist in the markup. If that doesn't make sense staight away, don't worry - we'll explore some examples below.
+
+### Pseudo-Selectors
+Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). Pseudo class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup. If that doesn't make sense staight away, don't worry - we'll explore some examples below.
 
 ## Pseudo Classes
-
-Pseudo-classes offer us different ways to target elments in our HTML. Broadly, we can split them into two different types - dynamic and structural.
-
-Dynamic pseudo-classes are generally a way to interact with elements based on their state. One of the most common applications for this is styling links.
+Pseudo-classes offer us different ways to target elments in our HTML. One of the broadest sub-catergories of pseudo-classes are structural
 
 Have you ever wondered why links are blue but turn purple in unstyled HTML? It's because broswers implement that styling by default. A simplified version of how they might do that could look like this.
 
@@ -115,15 +111,14 @@ Have you ever wondered why links are blue but turn purple in unstyled HTML? It's
 * other - :not(X), :target, :lang
 
 
-## Pseduo Elements
-
+## Pseduo Elements TODO
 Pseudo elements give us a way to interact with
 
 They have the same specificty as normal elements (0,0,0,1).
 
+There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
 
-
-* `::before` and `::after` allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
+* [`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
 ~~~html
 <style>
@@ -140,19 +135,20 @@ They have the same specificty as normal elements (0,0,0,1).
 </body>
 ~~~
 
-Using `::before` and `::after` this way would give us this result: Let's 😎 🥸 🤓 emojify 😎 🥸 🤓 this span!
+Using these pseduo-elements this way would give us this result:
 
+Let's 😎 🥸 🤓 emojify 😎 🥸 🤓 this span!
 
-* ::first-letter / ::first-line
-* ::marker
-* ::selection
-
-[MDN - Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
-[MDN - Pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
+* [`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
+* [`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::fisrst-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
+* [`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
+* There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a fuller list of what's possible.
 
 ### Attribute Selectors
 
-The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com`. Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
+The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com`.
+
+Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
 
 Attribute selectors have the same specificty as classes and pseudo-classes (0,0,1,0).
 
@@ -211,14 +207,13 @@ Sometimes we need to be more general in how we access these attributes. For exam
 To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-sstrings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
 
-
-### Assignment
+### Assignment REVIEW
 <div class="lesson-content__panel" markdown="1">
 1. Complete [CSS Diner](https://flukeout.github.io/). You should be familiar with most of the content in the first couple of exercises, but practice and review never hurt! Don't forget to read the examples and explanations on the right.
 2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/).
 </div>
 
-### Additional Resources
+### Additional Resources REVIEW
 
 This section contains helpful links to other content. It isn't required, so consider i  t supplemental for if you need to dive deeper into something.
 
@@ -226,9 +221,9 @@ This section contains helpful links to other content. It isn't required, so cons
 * [The CSS Tricks Alamanc](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
 * [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes a an interactive selector tool if you'd like to play around with some hands on examples.
 * [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
+* [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
 
-
-### Knowledge Check
+### Knowledge Check TODO
 
 * How would you select a div inside a div inside a div? REDO
 * What is the difference between `div:first-line` and `div :first-line` What will each select?
@@ -242,12 +237,11 @@ This section contains helpful links to other content. It isn't required, so cons
 - Should :root get a special mention? Are CSS variables being covered elsewhere?
 - Touch on specificity rules of these?
 - Delete prettier file before PR
-- A note on old syntax? (: vs ::)
-
-## Potential links
-
-* [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
+- A note on old syntax? (: vs :: for CSS3 Pseudo elements)
+- Originally used MDN links for things, switched to CSS tricks almanancs because it's slightly 'friendlier' and example based'
 
 ## Potential in lesson notes
 
 - * [Difference between :root and html](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html)
+
+https://www.theodinproject.com/lessons/preview
