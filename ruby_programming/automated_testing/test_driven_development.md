@@ -142,6 +142,9 @@ Looks like you’re good! Now do the `#perimeter` method! First write the test:
 require_relative '../lib/square'
 
 describe Square do
+
+  # omitted for brevity
+
   describe "#perimeter" do
     context 'when side length is 4' do
       let(:size_4_square) { described_class.new(4) }
