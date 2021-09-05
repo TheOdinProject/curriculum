@@ -86,7 +86,7 @@ describe Square do
     context 'when side length is 4' do
       let(:size_4_square) { described_class.new(4) }
 
-      it ‘returns 16’ do
+      it 'returns 16' do
         expect(size_4_square.area).to eq(16)
       end
     end
@@ -94,7 +94,7 @@ describe Square do
     context 'when side length is 6' do
       let(:size_6_square) { described_class.new(6) }
 
-      it ‘returns 36’ do
+      it 'returns 36' do
         expect(size_6_square.area).to eq(36)
       end
     end
@@ -146,7 +146,7 @@ describe Square do
     context 'when side length is 4' do
       let(:size_4_square) { described_class.new(4) }
 
-      it ‘returns 16’ do
+      it 'returns 16' do
         expect(size_4_square.perimeter).to eq(16)
       end
     end
@@ -154,7 +154,7 @@ describe Square do
     context 'when side length is 6' do
       let(:size_6_square) { described_class.new(6) }
 
-      it ‘returns 36’ do
+      it 'returns 36' do
         expect(size_6_square.perimeter).to eq(36)
       end
     end
@@ -172,7 +172,7 @@ class Square
 
   def area
     @side_length ** 2
-  End
+  end
 
   def perimeter
     @side_length * 4
