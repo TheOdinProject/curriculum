@@ -154,8 +154,8 @@ describe Square do
     context 'when side length is 6' do
       let(:size_6_square) { described_class.new(6) }
 
-      it 'returns 36' do
-        expect(size_6_square.perimeter).to eq(36)
+      it 'returns 24' do
+        expect(size_6_square.perimeter).to eq(24)
       end
     end
   end
