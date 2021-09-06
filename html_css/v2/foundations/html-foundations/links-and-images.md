@@ -13,22 +13,15 @@ In this lesson, we will learn how to create links and add some visual flair to o
 
 ### Preparation
 
-To get some practice using links and images throughout this lesson we need an html project to work with. Create a new folder named `odin-links-and-images`.
+To get some practice using links and images throughout this lesson we need an html project to work with.
 
-Within that folder create a new file named `index.html` and paste the following into it:
+1. Create a new folder named `odin-links-and-images`.
+2. Within that folder create a new file named `index.html`
+3. Fill in the usual html boilerplate
+4. Finally, add the following h1 to the body:
 
 ~~~html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Odin Links and Images</title>
-    <meta charset="UTF-8">
-  </head>
-
-  <body>
-    <h1>Homepage</h1>
-  </body>
-</html>
+<h1>Homepage</h1>
 ~~~
 
 ### Anchor Elements
@@ -196,7 +189,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 ### Additional Resources
 
-- [Interesting is hards treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [Interneting is hards treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
 

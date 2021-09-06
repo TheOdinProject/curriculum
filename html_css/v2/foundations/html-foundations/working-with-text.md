@@ -69,7 +69,7 @@ Using the correct levels of headings is important as they provide a hierarchy to
 
 ### Strong Element
 
-The `<strong>` element makes text bold. It also semantically marks text as important, this affects things like screen readers that users with visual impairments will rely on to use your website. To define a strong element we wrap text content in a `<strong>` tag.
+The `<strong>` element makes text bold. It also semantically marks text as important, this affects things like screen readers that users with visual impairments will rely on to use your website. The tone of voice on the screen reader will change to communicate the importance of the text within the strong element. To define a strong element we wrap text content in a `<strong>` tag.
 
 You can use strong on its own:
 
@@ -88,6 +88,8 @@ But you will probably find yourself using the strong element much more in combin
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+Sometimes you will want to make text bold without giving it an important meaning, you'll learn how to do that in the CSS lessons later in the curriculum.
 
 ### Em Element
 
