@@ -32,6 +32,8 @@ The Styles pane also allows you to edit styles directly in the browser. You can 
 
 In the below image, we have altered the value of `margin-bottom` in the `.hero__main-heading` class, and the webpage responds with the changes in real time. This won't affect your source code in your text editor, but it is extremely useful to quickly test out various attributes and values without needing to reload the page over and over again.
 
+![Changed styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/03.png)
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
