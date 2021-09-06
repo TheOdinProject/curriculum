@@ -1,6 +1,6 @@
 ### Introduction
 
-Most content on the web is text-based, so you will find yourself needing to work with html text elements quite a bit.
+Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
 In this lesson, we will learn about the text-based elements you are likely to use the most.
 
@@ -11,11 +11,11 @@ In this lesson, we will learn about the text-based elements you are likely to us
 - How to create bold text
 - How to create italicized text
 - The relationships between nested elements
-- How to create html comments
+- How to create HTML comments
 
 ### Paragraphs
 
-what would you expect the following text to output on an html page?
+What would you expect the following text to output on an HTML page?
 
 ~~~html
 <body>
@@ -37,9 +37,9 @@ It looks like two paragraphs of text. And so you might expect it to display in t
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-When the browser encounters new lines like this in your html it will compress it down into one single space. The result of which is that all our text is clumped together into one long line of text.
+When the browser encounters new lines like this in your HTML it will compress it down into one single space. The result of which is that all our text is clumped together into one long line of text.
 
-If we want to create paragraphs in html we need to use the paragraph element which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+If we want to create paragraphs in HTML we need to use the paragraph element which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
 
 Changing our example from before to use paragraph elements fixes the issue:
 
@@ -177,4 +177,4 @@ Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end o
 - What element should you use to make text italicized to add emphasis to it?
 - What relationship does an element have with any nested elements within it?
 - What relationship do two elements have if they are at the same level of nesting?
-- How do you create html comments?
+- How do you create HTML comments?

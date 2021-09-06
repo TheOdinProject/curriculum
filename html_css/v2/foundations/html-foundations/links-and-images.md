@@ -1,6 +1,6 @@
 ### Introduction
 
-Links are one of the key features of HTML. They allow us to link to other html pages on the web. In fact, this is why it's called the web. The internet is essentially a web of html pages connected to one another with links.
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web. The internet is essentially a web of HTML pages connected to one another with links.
 
 In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
@@ -13,11 +13,11 @@ In this lesson, we will learn how to create links and add some visual flair to o
 
 ### Preparation
 
-To get some practice using links and images throughout this lesson we need an html project to work with.
+To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
-1. Create a new folder named `odin-links-and-images`.
-2. Within that folder create a new file named `index.html`
-3. Fill in the usual html boilerplate
+1. Create a new directory named `odin-links-and-images`.
+2. Within that directory create a new file named `index.html`
+3. Fill in the usual HTML boilerplate
 4. Finally, add the following h1 to the body:
 
 ~~~html
@@ -26,7 +26,7 @@ To get some practice using links and images throughout this lesson we need an ht
 
 ### Anchor Elements
 
-To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another html element we want to be a link with a  `<a>` tag.
+To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag.
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
@@ -34,9 +34,9 @@ Add the following to the body of the index.html page we created and open it in t
 <a>click me</a>
 ~~~
 
-You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an html attribute.
+You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-An html attribute gives additional information to an html element and always goes in the elements opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+An HTML attribute gives additional information to an HTML element and always goes in the elements opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -46,7 +46,7 @@ Add the following href attribute to the anchor element we created previously and
 
 By default, the browser will give any text wrapped in an anchor tag a blue color and underline it to signify it is a link.
 
-It's worth noting you can use anchor tags link to any kind of resource on the internet, not just other html documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other html documents.
+It's worth noting you can use anchor tags link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
 ### Absolute and Relative Links
 
@@ -69,7 +69,7 @@ Links to other pages within our own website are called relative links. Relative 
 
 Relative links only include the file path to the other page, *relative* to the page you are creating the link on. This is quite abstract, let's see this in action using an example.
 
-Within the `odin-links-and-images` folder, create another HTML file named `about.html` and paste the following code into it:
+Within the `odin-links-and-images` directory, create another HTML file named `about.html` and paste the following code into it:
 
 ~~~html
 <!DOCTYPE html>
@@ -98,15 +98,15 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same folder. That means we can simply use the name of the about.html file `about.html` as the value of the href in the link.
+This works because the index and about page are in the same directory. That means we can simply use the name of the about.html file `about.html` as the value of the href in the link.
 
-But we will usually want to organize our website folders a little better. Normally we would only have the index.html at the root directory and all other html files in their own folder.
+But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
-Create a folder named `pages` within the `odin-relative-links` folder and move the `about.html` file into this new folder.
+Create a directory named `pages` within the `odin-relative-links` directory and move the `about.html` file into this new directory.
 
 Refresh the index page in the browser and then click on the about link. It will be now be broken. This is because the location of the about page file has changed.
 
-To fix this, we just need to update the about link href value to include the `pages/` folder since that is the new location of the about file *relative* to the index file.
+To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
 ~~~html
 <body>
@@ -121,7 +121,7 @@ Refresh the index page in the browser and try clicking the about link again, it 
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of the folder a website is located in as a house and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links on the other hand, are directions to an entirely different house.
+Think of the directory a website is located in as a house and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links on the other hand, are directions to an entirely different house.
 
 ### Images
 
@@ -142,8 +142,8 @@ For example, using an absolute path we can display an image located on The Odin 
 
 To use images that we have on our own websites, we can use a relative path.
 
-1. Create a new folder named `images` within the `odin-links-and-images` project.
-2. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images folder we just created.
+1. Create a new directory named `images` within the `odin-links-and-images` project.
+2. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
 3. Rename the image to `dog.jpg`
 
 Finally add the image to the `index.html` file:
@@ -160,6 +160,22 @@ Finally add the image to the `index.html` file:
 ~~~
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
+
+### Parent Directories
+What if we want to use the dog image in the about page? we would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
+
+To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
+
+~~~html
+<img src="../images/dog.jpg">
+~~~
+
+To break this down:
+1. First we are going to the parent directory of the pages directory which is `odin-links-and-images`.
+2. Then from the parent directory, we can go into the `images` directory.
+3. Finally we can access the `dog.jpg` file.
+
+Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
 ### Alt attribute
 
@@ -199,4 +215,5 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 - What is the difference between an absolute and relative link?
 - What element is used to create an image?
 - What two attributes do images always need to have?
+- How do you access a parent directory in a filepath?
 - What are the four main image formats that you can use for images on the web?
