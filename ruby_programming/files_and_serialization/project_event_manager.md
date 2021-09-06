@@ -52,7 +52,7 @@ underscore (often called *snake_case*).
 Open `lib/event_manager.rb` in your text editor and add the line:
 
 ~~~ruby
-puts 'EventManager Initialized!'
+puts 'Event Manager Initialized!'
 ~~~
 
 Validate that ruby is installed correctly and you have created the file correctly by running it from the root of your `event_manager` directory:
