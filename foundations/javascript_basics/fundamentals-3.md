@@ -37,3 +37,14 @@ For now, just write each function and test the output with `console.log`.
 3. Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
    1. `lastLetter("abcd")` should return `"d"`
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions">How do you invoke a function?</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions">What are anonymous functions?</a>
+- <a href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
+- <a href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
