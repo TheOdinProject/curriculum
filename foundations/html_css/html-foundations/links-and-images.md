@@ -171,6 +171,7 @@ To go to the parent directory we need to use two dots in the relative filepath l
 ~~~
 
 To break this down:
+
 1. First we are going to the parent directory of the pages directory which is `odin-links-and-images`.
 2. Then from the parent directory, we can go into the `images` directory.
 3. Finally we can access the `dog.jpg` file.
