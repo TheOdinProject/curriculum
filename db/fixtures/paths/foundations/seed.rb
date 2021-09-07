@@ -3,7 +3,7 @@
 # ************************
 path = Seeds::PathSeeder.create do |path|
   path.title = 'Foundations'
-  path.description = "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses."
+  path.description = "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do and the foundations you'll need for later courses."
   path.identifier_uuid = '33d7d165-e564-4ccd-9ac5-99b3ada05cd3'
   path.position = 1
   path.default_path = true
