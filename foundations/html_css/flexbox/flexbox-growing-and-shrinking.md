@@ -8,6 +8,7 @@ Let's look a little closer at what actually happened when you put `flex: 1` on t
 The `display: flex` declaration is actually a shorthand for 3 properties that you can set on a flex-item. These properties affect how flex-items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
 
 > Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
+>
 > Source: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
 In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
@@ -35,7 +36,7 @@ In the following example the `flex` shorthand has values for `flex-shrink` and `
 
 The default shrink factor is `flex-shrink: 1`, which means all items will shrink evenly. If you do _not_ want an item to shrink then you can specify `flex-shrink: 0;`. You can also specify higher numbers to make certain items shrink at a higher rate than normal.
 
-Here's an example. Note that we've also changed the `flex-basis` for reasons that will be explained shortly. If you shrink your browser window you'll notice that `.two` never gets smaller than the given width of 250px.
+Here's an example. Note that we've also changed the `flex-basis` for reasons that will be explained shortly. If you shrink your browser window you'll notice that `.two` never gets smaller than the given width of 250px, even though the `flex-grow` rule would otherwise specify that each element should be equally sized.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjJXZVz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/JjJXZVz">

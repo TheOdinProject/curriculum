@@ -68,6 +68,7 @@ It may take you a while to get through all of them, and the difficulty ramps up 
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+
 * [What the Flexbox!?](https://flexbox.io/) is a great free video course from Wes Bos. If videos are your thing, this is a great resource for you. It's a good refresher if you're having a hard time getting this stuff to stick.
 * [Flexbox froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
 * This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
