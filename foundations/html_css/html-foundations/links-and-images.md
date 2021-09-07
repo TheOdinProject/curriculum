@@ -155,7 +155,7 @@ Finally add the image to the `index.html` file:
 
 	<a href="pages/about.html">About</a>
 
-	<img src="image/dog.jpg">
+	<img src="images/dog.jpg">
 </body>
 ~~~
 
