@@ -73,7 +73,7 @@ end
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'The Front End (OLD)'
-  section.description = "Skip this section. These lessons will be removed shortly. We've left them up for a short time as a reference for people who were in progress when the new course was added."
+  section.description = "Skip this section. These lessons will be removed shortly. We've left them up for a short time as a reference for people who were in progress when the new material was added."
   section.identifier_uuid = '552d3718-14c6-4b0a-848d-2dcca271ac61'
 
   section.add_lessons(
@@ -84,10 +84,13 @@ course.add_section do |section|
   )
 end
 
+# +++++++++++++++++++++++++++++++
+# SECTION - HTML
+# +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'HTML and CSS (New Lessons!)'
-  section.description = 'This material is new and replaces the previous "Front End" section. Learn the basics of HTML and CSS, the fundamental building blocks of everything on the web.'
-  section.identifier_uuid = '3bb91b7f-1247-45c3-8c50-072c66f730c8'
+  section.description = 'This and the following sections are new material! Learn the foundations of HTML, a fundamental building block of everything on the web.'
+  section.identifier_uuid = '8b6abb7a-095f-4c1d-b81f-e348aaaf2894'
 
   section.add_lessons(
     foundation_lessons.fetch('Introduction to HTML and CSS'),
@@ -97,10 +100,34 @@ course.add_section do |section|
     foundation_lessons.fetch('Lists'),
     foundation_lessons.fetch('Links and Images'),
     foundation_lessons.fetch('Project: Recipes'),
+  )
+end
+
+# +++++++++++++++++++++++++++++++
+# SECTION - CSS Basics
+# +++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'CSS Foundations (New Lessons!)'
+  section.description = 'Learn how to make your HTML look they way you want by adding styles with CSS.'
+  section.identifier_uuid = 'd2476929-d71b-4b25-969b-8f7da6a40c94'
+
+  section.add_lessons(
     foundation_lessons.fetch('CSS Foundations'),
     foundation_lessons.fetch('Inspecting HTML and CSS'),
     foundation_lessons.fetch('The Box Model'),
     foundation_lessons.fetch('Block and Inline'),
+  )
+end
+
+# +++++++++++++++++++++++++++++++
+# SECTION - HTML
+# +++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Flexbox (New Lessons!)'
+  section.description = 'Learn how to put things exactly where you want them on you web projects using flexbox.'
+  section.identifier_uuid = '1cac0d64-f276-4999-8ff1-85d37797c312'
+
+  section.add_lessons(
     foundation_lessons.fetch('Flexbox: Introduction'),
     foundation_lessons.fetch('Flexbox: Growing and Shrinking'),
     foundation_lessons.fetch('Flexbox: Axes'),
