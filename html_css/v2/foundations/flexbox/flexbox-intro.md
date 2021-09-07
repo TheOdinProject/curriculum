@@ -34,15 +34,15 @@ As you've seen, flexbox isn't just a single css property, but a whole toolbox of
 
 A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.
 
-![container-vs-child](./imgs/03.png)
+![container-vs-child](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/03.png)
 
 Somewhat confusingly, any element can be both a flex container _and_ a flex item. Said another way, you can also put `display: flex` on a flex item, and then use flexbox to arrange _its_ children.
 
-![nesting flex containers](./imgs/04.png)
+![nesting flex containers](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/04.png)
 
 This method of creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The next image was achieved using _only_ flexbox to arrange, size, and place the various elements. It is a _very_ powerful tool.
 
-![complex example](./imgs/05.png)
+![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
 ### Knowledge Check
 * What's the difference between a flex container and a flex item?
