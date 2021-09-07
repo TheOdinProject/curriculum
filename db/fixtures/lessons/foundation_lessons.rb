@@ -288,6 +288,8 @@ def foundation_lessons
       is_project: true,
       url: '/foundations/html_css/html-foundations/project-recipes.md',
       identifier_uuid: '3c8ad955-4f4e-4555-86bc-98503e1b785d',
+      accepts_submission: true,
+      has_live_preview: true,
     },
     'CSS Foundations' => {
       title: 'CSS Foundations',
@@ -350,6 +352,8 @@ def foundation_lessons
       description: 'Build a complete landing page from a given web design.',
       is_project: true,
       url: '/foundations/html_css/project/html-css-foundations-project.md',
+      accepts_submission: true,
+      has_live_preview: true,
       identifier_uuid: '22e0c585-c146-4dab-9dc0-17a20f0ecbc5',
     },
   }
