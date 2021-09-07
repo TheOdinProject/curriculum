@@ -282,8 +282,8 @@ def foundation_lessons
       url: '/foundations/html_css/html-foundations/links-and-images.md',
       identifier_uuid: '01ce2c65-ae1c-40f2-9907-9397787d1478',
     },
-    'Project: Recipes' => {
-      title: 'Project: Recipes',
+    'Recipes' => {
+      title: 'Recipes',
       description: 'Create a full HTML project.',
       is_project: true,
       url: '/foundations/html_css/html-foundations/project-recipes.md',
@@ -317,36 +317,36 @@ def foundation_lessons
       url: '/foundations/html_css/block-and-inline.md',
       identifier_uuid: '25874e5c-2485-4e62-aaa5-5d6cf65b6b52',
     },
-    'Flexbox: Introduction' => {
-      title: 'Flexbox: Introduction',
+    'Introduction' => {
+      title: 'Introduction',
       description: "Let's get starting with flexbox",
       is_project: false,
       url: '/foundations/html_css/flexbox/flexbox-intro.md',
       identifier_uuid: '41a157af-b416-4744-bac0-ab5dabde1ad9',
     },
-    'Flexbox: Growing and Shrinking' => {
-      title: 'Flexbox: Growing and Shrinking',
+    'Growing and Shrinking' => {
+      title: 'Growing and Shrinking',
       description: 'Learn about growing and shrinking in flexbox.',
       is_project: false,
       url: '/foundations/html_css/flexbox/flexbox-growing-and-shrinking.md',
       identifier_uuid: '53439274-21df-447d-a6db-47c08beb5abf',
     },
-    'Flexbox: Axes' => {
-      title: 'Flexbox: Axes',
+    'Axes' => {
+      title: 'Axes',
       description: 'Learn about flexbox axes, and how to manipulate them.',
       is_project: false,
       url: '/foundations/html_css/flexbox/flexbox-axes.md',
       identifier_uuid: '14fa890f-8273-4bc8-b689-0fefdbdaf411',
     },
-    'Flexbox: Alignment' => {
-      title: 'Flexbox: Alignment',
+    'Alignment' => {
+      title: 'Alignment',
       description: 'Learn how to get flex-items where they need to be on your page.',
       is_project: false,
       url: '/foundations/html_css/flexbox/flexbox-alignment.md',
       identifier_uuid: '8036389c-02b8-4d8b-b001-5e477c1c4482',
     },
-    'Project: Landing Page' => {
-      title: 'Project: Landing Page',
+    'Landing Page' => {
+      title: 'Landing Page',
       description: 'Build a complete landing page from a given web design.',
       is_project: true,
       url: '/foundations/html_css/project/html-css-foundations-project.md',

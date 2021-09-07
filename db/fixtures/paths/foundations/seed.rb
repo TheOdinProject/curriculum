@@ -94,12 +94,12 @@ course.add_section do |section|
 
   section.add_lessons(
     foundation_lessons.fetch('Introduction to HTML and CSS'),
-    foundation_lessons.fetch('HTML Boilerplate'),
     foundation_lessons.fetch('Elements and Tags'),
+    foundation_lessons.fetch('HTML Boilerplate'),
     foundation_lessons.fetch('Working with Text'),
     foundation_lessons.fetch('Lists'),
     foundation_lessons.fetch('Links and Images'),
-    foundation_lessons.fetch('Project: Recipes'),
+    foundation_lessons.fetch('Recipes'),
   )
 end
 
@@ -128,11 +128,11 @@ course.add_section do |section|
   section.identifier_uuid = '1cac0d64-f276-4999-8ff1-85d37797c312'
 
   section.add_lessons(
-    foundation_lessons.fetch('Flexbox: Introduction'),
-    foundation_lessons.fetch('Flexbox: Growing and Shrinking'),
-    foundation_lessons.fetch('Flexbox: Axes'),
-    foundation_lessons.fetch('Flexbox: Alignment'),
-    foundation_lessons.fetch('Project: Landing Page'),
+    foundation_lessons.fetch('Introduction'),
+    foundation_lessons.fetch('Growing and Shrinking'),
+    foundation_lessons.fetch('Axes'),
+    foundation_lessons.fetch('Alignment'),
+    foundation_lessons.fetch('Landing Page'),
   )
 end
 
