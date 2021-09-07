@@ -72,8 +72,8 @@ end
 # SECTION - The Front End
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
-  section.title = 'The Front End'
-  section.description = "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and JavaScript. You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with JavaScript."
+  section.title = 'The Front End (OLD)'
+  section.description = "Skip this section. These lessons will be removed shortly. We've left them up for a short time as a reference for people who were in progress when the new course was added."
   section.identifier_uuid = '552d3718-14c6-4b0a-848d-2dcca271ac61'
 
   section.add_lessons(
@@ -81,6 +81,31 @@ course.add_section do |section|
     foundation_lessons.fetch('HTML and CSS Basics'),
     foundation_lessons.fetch('Developer Tools'),
     foundation_lessons.fetch('Google Homepage'),
+  )
+end
+
+course.add_section do |section|
+  section.title = 'HTML and CSS (New Lessons!)'
+  section.description = 'This material is new and replaces the previous "Front End" section. Learn the basics of HTML and CSS, the fundamental building blocks of everything on the web.'
+  section.identifier_uuid = 'UUID'
+
+  section.add_lessons(
+    foundation_lessons.fetch('Introduction to HTML and CSS'),
+    foundation_lessons.fetch('HTML Boilerplate'),
+    foundation_lessons.fetch('Elements and Tags'),
+    foundation_lessons.fetch('Working with Text'),
+    foundation_lessons.fetch('Lists'),
+    foundation_lessons.fetch('Links and Images'),
+    foundation_lessons.fetch('Project: Recipes'),
+    foundation_lessons.fetch('CSS Foundations'),
+    foundation_lessons.fetch('Inspecting HTML and CSS'),
+    foundation_lessons.fetch('The Box Model'),
+    foundation_lessons.fetch('Block and Inline'),
+    foundation_lessons.fetch('Flexbox: Introduction'),
+    foundation_lessons.fetch('Flexbox: Growing and Shrinking'),
+    foundation_lessons.fetch('Flexbox: Axes'),
+    foundation_lessons.fetch('Flexbox: Alignment'),
+    foundation_lessons.fetch('Project: Landing Page'),
   )
 end
 
