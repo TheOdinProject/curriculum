@@ -18,13 +18,13 @@ Adding `flex: 1` to `.item` will make each of the items grow to fill the availab
 
 Remove `flex: 1` from `.item` and add `justify-content: space-between` to `.container`. Doing so should give you something like this:
 
-![space between](./imgs/07.png)
+![space between](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/07.png)
 
 `justify-content` aligns items across the **main axis**. There are a few values that you can use here. You'll learn the rest of them in the reading assignments, but for now try changing it to `center`, which should center the boxes along the main-axis.
 
 To change the placement of items along the **cross axis** use `align-items`. Try getting the boxes to the center of the container by adding `align-items: center` to `.container`. The desired result should look like this:
 
-![centered](./imgs/08.png)
+![centered](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/08.png)
 
 Because `justify-content` and `align-items` are based on the main and cross axis of your container, their behavior changes when you change the flex-direction of a flex-container. The most common behavior is the default, that is, `justify-content` aligns items horizontally (because the main axis defaults to horizontal) and `align-items` aligns them vertically. One of the biggest sticking points that beginners have with flexbox is confusion about this behavior.
 
