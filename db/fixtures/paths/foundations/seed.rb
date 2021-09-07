@@ -87,7 +87,7 @@ end
 course.add_section do |section|
   section.title = 'HTML and CSS (New Lessons!)'
   section.description = 'This material is new and replaces the previous "Front End" section. Learn the basics of HTML and CSS, the fundamental building blocks of everything on the web.'
-  section.identifier_uuid = 'UUID'
+  section.identifier_uuid = '3bb91b7f-1247-45c3-8c50-072c66f730c8'
 
   section.add_lessons(
     foundation_lessons.fetch('Introduction to HTML and CSS'),
