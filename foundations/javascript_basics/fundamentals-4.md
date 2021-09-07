@@ -45,3 +45,18 @@ Complete the following exercises:
 - sumAll
 - leapYears
 - tempConversion
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a href="https://www.w3schools.com/js/js_arrays.asp">What is an array?</a>
+- <a href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
+- <a href="https://www.w3schools.com/js/js_arrays.asp">How do you access an array element?</a>
+- <a href="https://www.w3schools.com/js/js_arrays.asp">How do you change an array element?</a>
+- <a href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties</a>
+- <a href="https://www.w3schools.com/js/js_array_methods.asp">What are some useful array methods?</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother">What are loops useful for?</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break">What is the break statement?</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue">What is the continue statement?</a>
+- <a href="#test-driven-development">What is the advantage of writing automated tests?</a>
