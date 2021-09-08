@@ -23,6 +23,8 @@ We should mention here though that not *everyone* agrees that TDD is the way to 
 
 When you first write your test in Test Driven Development it is in what’s known as the `red` state, because when running the test it will fail and the output will be red. Once you’ve written a method that passes the test you are in the `green` state, as now the test passes and its output will be green. Once you’re passing your test you can `refactor` the method, using the test to ensure that your method is still working as intended after your refactor.
 
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/00.png" alt="Diagram showing the red-green-refactor cycle">
+
 This development cycle is known as red-green-refactor, and it’s at the heart of the TDD process. When following TDD you will iterate over each unit of work needed for your project with these three steps until you’re done!
 
 One key aspect of the red-green-refactor cycle that *isn’t* in the name, is that the code you write to go from `red` to `green` should be the **minimum** amount required to pass the test. If you find that the functionality you’re adding actually does *more* than is being tested, that is a sign that your method is likely doing too much, or possibly that your tests aren’t testing all of the right functionality.
@@ -104,7 +106,9 @@ end
 
 Alright, that should have you set up to test `#area`, now run the tests by entering `rspec` in the terminal!
 
-The result should be a *red* failure/error, since you haven’t implemented `Square` at all yet. This is the `red` stage of the red-green-refactor cycle mentioned earlier, so the next step is making it `green` by implementing the expected functionality! Do that in our `lib/square.rb` file now:
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/01.png" alt="screenshot of the error given when running the test suite at this time, it is a NameError: uninitialized constant Square. The text is red.">
+
+The result should be like the *red* failure/error above, since you haven’t implemented `Square` at all yet. This is the `red` stage of the red-green-refactor cycle mentioned earlier, so the next step is making it `green` by implementing the expected functionality! Do that in our `lib/square.rb` file now:
 
 ~~~rb
 class Square
@@ -118,7 +122,9 @@ class Square
 end
 ~~~
 
-And now if you run the test suite again you should get a nice *green* output indicating no failures! Try it by entering `rspec` in the terminal again.
+And now if you run the test suite again you should get a nice *green* output indicating no failures! Try it by entering `rspec` in the terminal again:
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/02.png" alt="screenshot showing that the two tests are now passing. The text is green.">
 
 Success! You are now on the green stage of the red-green-refactor cycle! Now you can refactor knowing that you can use the test to make sure to keep the existing functionality that you’ve built, maybe do:
 
@@ -134,7 +140,9 @@ class Square
 end
 ~~~
 
-Yeah, that’s a little cleaner! And you can run `rspec` again to make sure the tests still pass.
+Yeah, that’s a little cleaner! And you can run `rspec` again to make sure the tests still pass:
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/02.png" alt="screenshot showing that the two tests are still passing. The text is green.">
 
 Looks like you’re good! Now do the `#perimeter` method! First write the test:
 
@@ -165,7 +173,11 @@ describe Square do
 end
 ~~~
 
-Run the test to make sure it fails like you expect, then write the minimum functionality required to make the tests pass:
+Run the test to make sure it fails like you expect:
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/03.png" alt="screenshot showing that now two tests are passing and two are failing in the test suite. The error given is a NoMethodError: undefined method `perimeter` for #<Square:0x000055f96bad77e8 @side_length=6>. The text is red.">
+
+Now write the minimum functionality required to make the tests pass:
 
 ~~~rb
 class Square
@@ -183,7 +195,9 @@ class Square
 end
 ~~~
 
-Then run the tests to make sure they pass.
+Then run the tests to make sure they pass:
+
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/ab4656dabe528812c252eb7393452251a744e57b/ruby_programming/automated_testing/test_driven_development/imgs/04.png" alt="screenshot showing that now all four tests are passing in the test suite. The text is green.">
 
 Since this seems like it doesn’t need any refactoring we’re all done!
 
