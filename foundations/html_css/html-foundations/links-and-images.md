@@ -57,7 +57,7 @@ Generally, there are two kinds of links we will create:
 
 #### Absolute Links
 
-Links to pages op other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
+Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
 We've already seen an absolute link in action. The link we created to The Odin Projects about page earlier was an absolute link as it contains the protocol and domain.
 
