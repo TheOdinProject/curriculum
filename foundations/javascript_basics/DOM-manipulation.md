@@ -211,7 +211,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
-> **Important note:**
+### Important note:
 > Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 >
 > Alternatively, you can link the JavaScript file in the `<head>` of your HTML document. Use the `<script>` tag with the `src` attribute containing the path to the JS file, and include the `defer` keyword to load the file *after* the HTML is parsed, as such:
@@ -418,19 +418,19 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the DOM?
-* How do you target the nodes you want to work with?
-* How do you create an element in the DOM?
-* How do you add an element to the DOM?
-* How do you remove an element from the DOM?
-* How can you alter an element in the DOM?
-* When adding text to a DOM element, should you use textContent or innerHTML? Why?
-* Where should you include your Javascript tag in your HTML file when working with DOM nodes?
-* How do "events" and "listeners" work?
-* What are three ways to use events in your code?
-* Why are event listeners the preferred way to handle events?
-* What are the benefits of using named functions in your listeners?
-* How do you attach listeners to groups of nodes?
-* What is the difference between the return values of `querySelector` and `querySelectorAll`?
-* What does a "nodelist" contain?
-* Explain the difference between "capture" and "bubbling".
+* <a href="#dom---document-object-model">What is the DOM?</a>
+* <a href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
+* <a href="#element-creation">How do you create an element in the DOM?</a>
+* <a href="#append-elements">How do you add an element to the DOM?</a>
+* <a href="#remove-elements">How do you remove an element from the DOM?</a>
+* <a href="#altering-elements">How can you alter an element in the DOM?</a>
+* <a href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
+* <a href="#important-note">Where should you include your Javascript tag in your HTML file when working with DOM nodes?</a>
+* <a href="#events">How do "events" and "listeners" work?</a>
+* <a href="#events">What are three ways to use events in your code?</a>
+* <a href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
+* <a href="https://tarunbatra.com/blog/javascript/why-you-should-use-named-functions-in-javascript/">What are the benefits of using named functions in your listeners?</a>
+* <a href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
+* <a href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList">What does a "nodelist" contain?</a>
+* <a href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>
