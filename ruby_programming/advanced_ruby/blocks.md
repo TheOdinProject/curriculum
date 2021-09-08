@@ -439,7 +439,7 @@ arr.map(&:to_i)
 
 What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://ruby-doc.org/core-3.0.0/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
 
-(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.0/Object.html#method-i-send) for `#send` if you're interested.)
+(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.0/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
 
 The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.
 
