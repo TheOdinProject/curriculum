@@ -102,7 +102,7 @@ This works because the index and about page are in the same directory. That mean
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
-Create a directory named `pages` within the `odin-relative-links` directory and move the `about.html` file into this new directory.
+Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
 Refresh the index page in the browser and then click on the about link. It will be now be broken. This is because the location of the about page file has changed.
 
