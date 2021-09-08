@@ -630,7 +630,7 @@ age = 32
 job_title = 'leet coder'
 
 case data
-in [*, { name: ^name, age: ^age, first_language: first_language, job_title: ^job_title }]
+in [*, { name: ^name, age: ^age, first_language: first_language, job_title: ^job_title }, *]
 else
   first_language = nil
 end
