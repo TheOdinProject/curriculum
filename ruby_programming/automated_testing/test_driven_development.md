@@ -17,7 +17,7 @@ Following Test Driven Development is especially useful when you’re still learn
 
 Another benefit of writing code TDD style is that it *guarantees* that your code will be tested. When writing code with the intention of testing it after the fact, it’s very easy to put testing on the back burner for so long that it never happens, and testing *before* you write the code in question removes that temptation. As was mentioned in the introduction, TDD’ing a project means that you don’t have to manually test much if any functionality, and that time that you would’ve spent manually testing can add up quickly on a large project. One last benefit to the TDD approach is that it can help you better plan the design, and catch bugs earlier in the process because your tests are *driving* your development.
 
-We should mention here though that not *everyone* agrees that TDD is the way to go. There are plenty of developers that write tests after the code is written. While you are free to decide how you want to write your tests in the applications you build, we strongly encourage you to follow TDD for now.
+We should mention here though that not *everyone* agrees that TDD is the way to go. There are plenty of developers that write tests after the code is written. When you're first learning how to test it's probably best for you to write tests after your code, so that you can focus on learning testing in isolation. Feel free to try doing TDD once you feel more comfortable with testing though!
 
 #### Red Green Refactor
 
