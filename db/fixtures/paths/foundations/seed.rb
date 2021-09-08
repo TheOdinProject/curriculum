@@ -124,7 +124,7 @@ end
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Flexbox (New Lessons!)'
-  section.description = 'Learn how to put things exactly where you want them on you web projects using flexbox.'
+  section.description = 'Learn how to put things exactly where you want them on your web projects using flexbox.'
   section.identifier_uuid = '1cac0d64-f276-4999-8ff1-85d37797c312'
 
   section.add_lessons(
