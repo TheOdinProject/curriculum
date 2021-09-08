@@ -286,6 +286,15 @@ a_proc.call
 #=> this is a proc
 ~~~
 
+or you can just use 'proc'
+
+~~~ruby
+a_proc = proc { puts "this is a proc" }
+
+a_proc.call
+#=> this is a proc
+~~~
+
 Arguments are declared inside pipes `||`
 
 ~~~ruby
