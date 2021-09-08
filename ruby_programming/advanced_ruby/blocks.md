@@ -319,6 +319,19 @@ a_proc.call("apple")
 # => a: apple --- b:
 ~~~
 
+which is also why this is possible:
+
+~~~ruby
+nested_array = [[1, 2], [3, 4], [5, 6]]
+nested_array.select {|a, b| if a + b > 10 }
+
+# => [5, 6]
+~~~
+
+As you can see, `#select` has two arguments specified `|a, b|` but we pass it a single nested array which is only one argument, what happens is that the block automatically deconstructs the nested arrays passed into it and then compares their value to return us the answer.
+This happens because the block `{|a, b| if a + b > 10 }` is a proc. This property is not limited only to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
+You can read more about this here: [documentation](https://ruby-doc.org/core-2.7.2/Proc.html)
+
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
 ~~~ruby
