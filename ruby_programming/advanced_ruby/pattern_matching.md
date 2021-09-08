@@ -644,7 +644,7 @@ With pattern matching we do need to consider the case if there is no match, with
 
 ### Wrapping Up
 
-Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool you don't need to reach for it in any use case. For data structures that are shallow just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure, with many checks for `nil` and a lot of edge case handling then it might be time to see if pattern matching brings something to the table.
+Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool you don't need to reach for it in every use case. For data structures that are shallow just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure, with many checks for `nil` and a lot of edge case handling then it might be time to see if pattern matching brings something to the table.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
