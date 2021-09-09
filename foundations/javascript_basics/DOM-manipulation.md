@@ -418,19 +418,19 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a href="#dom---document-object-model">What is the DOM?</a>
-* <a href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
-* <a href="#element-creation">How do you create an element in the DOM?</a>
-* <a href="#append-elements">How do you add an element to the DOM?</a>
-* <a href="#remove-elements">How do you remove an element from the DOM?</a>
-* <a href="#altering-elements">How can you alter an element in the DOM?</a>
-* <a href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
-* <a href="#important-note">Where should you include your Javascript tag in your HTML file when working with DOM nodes?</a>
-* <a href="#events">How do "events" and "listeners" work?</a>
-* <a href="#events">What are three ways to use events in your code?</a>
-* <a href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
-* <a href="https://tarunbatra.com/blog/javascript/why-you-should-use-named-functions-in-javascript/">What are the benefits of using named functions in your listeners?</a>
-* <a href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
-* <a href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
-* <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList">What does a "nodelist" contain?</a>
-* <a href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>
+* <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
+* <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
+* <a class="knowledge-check-link" href="#element-creation">How do you create an element in the DOM?</a>
+* <a class="knowledge-check-link" href="#append-elements">How do you add an element to the DOM?</a>
+* <a class="knowledge-check-link" href="#remove-elements">How do you remove an element from the DOM?</a>
+* <a class="knowledge-check-link" href="#altering-elements">How can you alter an element in the DOM?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
+* <a class="knowledge-check-link" href="#important-note">Where should you include your Javascript tag in your HTML file when working with DOM nodes?</a>
+* <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
+* <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
+* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
+* <a class="knowledge-check-link" href="https://tarunbatra.com/blog/javascript/why-you-should-use-named-functions-in-javascript/">What are the benefits of using named functions in your listeners?</a>
+* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
+* <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList">What does a "nodelist" contain?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>
