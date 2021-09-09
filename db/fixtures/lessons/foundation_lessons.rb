@@ -135,11 +135,11 @@ def foundation_lessons
       url: '/foundations/javascript_basics/fundamentals-2.md',
       identifier_uuid: '06069c6b-8278-4023-be4f-336156621ba3',
     },
-    'Developer Tools 2' => {
-      title: 'Developer Tools 2',
-      description: 'covers using the dev tools from the perspective of a JS developer',
+    'JavaScript Developer Tools' => {
+      title: 'JavaScript Developer Tools',
+      description: 'Covers using the dev tools from the perspective of a JS developer',
       is_project: false,
-      url: '/foundations/javascript_basics/developer_tools_2.md',
+      url: '/foundations/javascript_basics/javascript_developer_tools.md',
       identifier_uuid: '60494609-9c68-4ddb-8b3b-96dc8afd876c',
     },
     'Fundamentals Part 3' => {

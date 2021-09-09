@@ -147,7 +147,7 @@ course.add_section do |section|
   section.add_lessons(
     foundation_lessons.fetch('Fundamentals Part 1'),
     foundation_lessons.fetch('Fundamentals Part 2'),
-    foundation_lessons.fetch('Developer Tools 2'),
+    foundation_lessons.fetch('JavaScript Developer Tools'),
     foundation_lessons.fetch('Fundamentals Part 3'),
     foundation_lessons.fetch('Problem Solving'),
     foundation_lessons.fetch('Understanding Errors'),
