@@ -19,17 +19,17 @@ Basically, every single thing on a webpage is a rectangular box. These boxes can
 }
 ~~~
 
-![boxes](./imgs/boxes.png)
+![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png)
 
 You can use the browser's inspector to add this css to this webpage if you want. Boxes in boxes!
 
-![lines](./imgs/odin-lined.png)
+![lines](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/odin-lined.png)
 
 OK, so there might be some circles in the above image... but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all of it's elements is basically just deciding how you are going to nest and stack these boxes.
 
 The only real complication here is that there are multiple ways to manipulate the size of these boxes, and the space between them using `margin`, `padding`, and `border`. The assigned articles go into more depth on this concept, but to sum it up briefly: padding increases the space between the edge of a box and the content inside of it, margin increases the space between a box and any others that sit next to it, and border adds space (even if it's only a pixel or two) between the margin and the padding. Be sure to study the diagrams carefully.
 
-![the box model](./imgs/box-model.png)
+![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/box-model.png)
 
 <div class="lesson-content__panel" markdown="1">
 1. [This video](https://www.youtube.com/watch?v=rIO5326FgPE) is a straightforward overview of the box model, padding and margin. Go ahead and watch this now, it informs everything else.

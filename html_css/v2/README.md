@@ -12,11 +12,14 @@ These lessons will be listed in our 'foundations' track.
 
 - [Introduction to HTML and CSS](./foundations/intro-to-html-css.md)
 - [HTML Foundations](./foundations/html-foundations.md)
-- [CSS Foundations](./foundations/css)
+- [CSS Foundations](./foundations/css-foundations.md)
 - [Inspecting HTML and CSS](./foundations/inspecting-html-and-css.md)
 - [The Box Model](./foundations/the-box-model/the-box-model.md)
 - [Block and Inline](./foundations/block-and-inline.md)
-- [Flexbox](./foundations/flexbox.md)
+- [Flexbox Introduction](./foundations/flexbox/flexbox-intro.md)
+- [Flexbox Growing and Shrinking](./foundations/flexbox/flexbox-growing-and-shrinking.md)
+- [Flexbox Axes](./foundations/flexbox/flexbox-axes.md)
+- [Flexbox Alignment](./foundations/flexbox/flexbox-alignment.md)
 - [Project](./foundations/html-css-foundations-project.md)
 
 ### Main Course
