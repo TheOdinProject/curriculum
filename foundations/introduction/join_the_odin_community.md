@@ -39,7 +39,7 @@ When asking your question, please remember to include the context:
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
-If the puzzle still can't be solved, push your project to GitHub or put your code in a [replit](https://replit.com) so that others can comb through and debug the code. You'll learn all about GitHub very soon.
+If you do share a screenshot of the output of your code, make sure to push your project to GitHub or put your corresponding code in a [replit](https://replit.com) so that others can comb through and debug the code. The screenshot of the output and the correlating code will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
 
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
