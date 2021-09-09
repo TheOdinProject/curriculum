@@ -118,13 +118,25 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
 ## Structural Pseduo-classes
 Structural pseduo-classes are a powerful way to select elements based on their position within the DOM.
 
-[`:root`](https://css-tricks.com/almanac/selectors/r/root/)
+[`:root`](https://css-tricks.com/almanac/selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
 
-[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that or the first or last sibling. Similiarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
+`:root` is generally the place where you will place your 'global' CSS rules that you want available everywhere - such as your custom properties and CSS variables, or rules such as `box-sizing: border-box;`.
 
-For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/)
+[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that or the first or last sibling.
 
+Similiarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
 
+For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/). This is a flexible pseudo-class with a few different uses.
+
+~~~css
+  .myList:nth-child(5) {/* Selects the 5th child of myList */}
+
+  .myList:nth-child(3n) { /* Selects every 3rd child of myList */}
+
+  .myList:nth-child(3n + 3) { /* This will select every 3rd child of myList, beginning with the 3rd */}
+
+  .myList:nth-child(even) (/* Selects every even child of myList */)
+  ~~~
 
 ### Pseduo-elements
 While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseduo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specifity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
@@ -235,7 +247,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes a an interactive selector tool if you'd like to play around with some hands on examples.
 * [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
 * [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
-
+* [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
+* [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
 ### Knowledge Check TODO
 
 * How would you select a div inside a div inside a div? REDO
@@ -259,3 +272,5 @@ https://www.theodinproject.com/lessons/preview
 - Add link to foundations [selectors](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations)
 - Should I use images, or codepen embeds ala foundations?
 - Refactor combinator example to use original example
+- Assignment vs extra resources?
+- Too long? If yes, editing or break it up?
