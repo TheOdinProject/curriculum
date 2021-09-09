@@ -165,6 +165,7 @@ Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end o
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - Note: In the examples, you have probably noticed we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/),  it is used to generate dummy text you can use in place of real text as you build your sites.
 
