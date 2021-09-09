@@ -42,9 +42,9 @@ For now, just write each function and test the output with `console.log`.
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions">How do you invoke a function?</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions">What are anonymous functions?</a>
-- <a href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
-- <a href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions">How do you invoke a function?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions">What are anonymous functions?</a>
+- <a class="knowledge-check-link" href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
