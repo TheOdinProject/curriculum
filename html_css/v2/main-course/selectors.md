@@ -11,12 +11,12 @@ As always feel free to open up your code editor and run you own experiments with
 * Learn about some of the most useful and common pseudo elements and pseudo classes
 * Learn about the different ways to select an attribute or its parts
 
-### Parent and Sibling Selectors
-Let's have a look at some ways we can access different divs _without_ referring to their classes. Here are three new seclectors to do just that.
+### Parent and Sibling Combinators
+Let's have a look at some ways we can access different divs _without_ referring to their classes. Here are three new selectors to do just that.
 
-* `>` - the child selector
-* `+` - the adjacaent sibling selector
-* `~` - the general sibling selector
+* `>` - the child combinator
+* `+` - the adjacaent sibling combinator
+* `~` - the general sibling combinator
 
 We'll tackle some practical examples using this sample markup.
 
@@ -34,7 +34,7 @@ We'll tackle some practical examples using this sample markup.
 </main>
 ~~~
 
-You should be pretty comfortable by now writing rules using the descendant selector. For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
+By now, you should be pretty comfortable writing rules using the descendant combinator you learned about in [foundations](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations). For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
 
 ~~~css
 main div {
@@ -42,7 +42,7 @@ main div {
 }
 ~~~
 
-But what if we wanted to be more specific and select _only_ the `child` or `grand-child` divs ? That's where the child selector `>` comes in handy. Unlike the descendant selector, it will only select direct children.
+But what if we wanted to be more specific and select _only_ the `child` or `grand-child` divs ? That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ~~~css
 /* This rule will only select divs with a class of child */
@@ -56,7 +56,7 @@ main > div > div {
 }
 ~~~
 
-Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacaent to our target, or on the same level of indentation, we can use the adjacaent sibling selector `+`.
+Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacaent to our target, or on the same level of indentation, we can use the adjacaent sibling combinator `+`.
 
 ~~~css
 /* This rule will only select the div with the classes child group2 */
@@ -70,7 +70,7 @@ Phrased another way, the child selector will select an element that is one level
 }
 ~~~
 
-Finally, if we want to select all of an element's siblings and not just the first one, we can use the general sibling selector `~`.
+Finally, if we want to select all of an element's siblings and not just the first one, we can use the general sibling combinator `~`.
 
 ~~~css
 /* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs*/
@@ -79,46 +79,61 @@ Finally, if we want to select all of an element's siblings and not just the firs
 }
 ~~~
 
-These selectors don't have any special specificty rules - their specificity score will just be made up of their component parts.
+Just like the descendant combinator, these selectors don't have any special specificty rules - their specificity score will just be made up of their component parts.
 
-
-### Pseudo-Selectors
+### Pseudo-selectors
 Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). Pseudo class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup. If that doesn't make sense staight away, don't worry - we'll explore some examples below.
 
-## Pseudo Classes
-Pseudo-classes offer us different ways to target elments in our HTML. One of the broadest sub-catergories of pseudo-classes are structural
+### Pseudo-classes
+Pseudo-classes offer us different ways to target elments in our HTML. There are quite a lot of them, and they came in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificty as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together
 
-Have you ever wondered why links are blue but turn purple in unstyled HTML? It's because broswers implement that styling by default. A simplified version of how they might do that could look like this.
+As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
+
+## Dynamic and User Action Pseudo-classes
+These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
+
+[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer. It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
+
+[:`active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
+
+Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because broswers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might like something like this:
 
 ~~~css
   /* This rule will apply to all links */
   a {
-    font-size: 18px;
+    text-decoration: underline;
   }
 
+  /* This will apply to unvisited links */
   a:link {
     color: blue;
   }
 
+  /* And you guessed it, this applies to all links the user has clicked on */
   a:visited {
     color: purple;
   }
 ~~~
 
-* Cover the most common / useful ones, add a reference to a larger list - see links at bottom for candidates
-* dynamic ie :hover, :link, :visited, :active, :focus
-* structural ie :nth-child, :first-of-type, :root
-* other - :not(X), :target, :lang
+## Structural Pseduo-classes
+Structural pseduo-classes are a powerful way to select elements based on their position within the DOM.
+
+[`:root`](https://css-tricks.com/almanac/selectors/r/root/)
+
+[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that or the first or last sibling. Similiarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
+
+For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/)
 
 
-## Pseduo Elements TODO
-Pseudo elements give us a way to interact with
 
-They have the same specificty as normal elements (0,0,0,1).
+### Pseduo-elements
+While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseduo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specifity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
 
-There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
+[`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
 
-* [`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
+[`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::first-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
+
+[`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
 ~~~html
 <style>
@@ -139,13 +154,11 @@ Using these pseduo-elements this way would give us this result:
 
 Let's 😎 🥸 🤓 emojify 😎 🥸 🤓 this span!
 
-* [`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
-* [`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::fisrst-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
-* [`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
-* There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a fuller list of what's possible.
+[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
+
+ There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a fuller list of what's possible.
 
 ### Attribute Selectors
-
 The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com`.
 
 Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
@@ -181,7 +194,8 @@ Sometimes we need to be more general in how we access these attributes. For exam
 
 ~~~css
 [class^='aus'] {
-  /* This will target class attributes that begin with 'aus':
+  /* Classes are attributes too!
+    This will target any class that begins with 'aus':
     class='austria'
     class='australia'
   */
@@ -214,8 +228,7 @@ To see what other things you can achieve with attribute selectors, such as searc
 </div>
 
 ### Additional Resources REVIEW
-
-This section contains helpful links to other content. It isn't required, so consider i  t supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
 * [The CSS Tricks Alamanc](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
@@ -234,7 +247,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Lesson Notes
 
-- Should :root get a special mention? Are CSS variables being covered elsewhere?
 - Touch on specificity rules of these?
 - Delete prettier file before PR
 - A note on old syntax? (: vs :: for CSS3 Pseudo elements)
@@ -242,6 +254,8 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ## Potential in lesson notes
 
-- * [Difference between :root and html](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html)
-
 https://www.theodinproject.com/lessons/preview
+
+- Add link to foundations [selectors](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations)
+- Should I use images, or codepen embeds ala foundations?
+- Refactor combinator example to use original example
