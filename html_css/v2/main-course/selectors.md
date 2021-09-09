@@ -136,7 +136,7 @@ For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/alm
   .myList:nth-child(3n + 3) { /* This will select every 3rd child of myList, beginning with the 3rd */}
 
   .myList:nth-child(even) (/* Selects every even child of myList */)
-  ~~~
+~~~
 
 ### Pseduo-elements
 While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseduo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specifity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
@@ -179,7 +179,7 @@ Attribute selectors have the same specificty as classes and pseudo-classes (0,0,
 
 Let's look at some examples for basic usage.
 
-* `[attribute]` - This general selector will select anything where the given attribute exists. It's value doesn't matter.
+* `[attribute]` - This general selector will select anything where the given attribute exists. Its value doesn't matter.
 * `selector[attribute]` - Optionally we can combine our attribute selectors with other types of selectors, such as class or element selectors.
 * `[attribute="value"]` - To get really specific, we can use `=` to match a specific attribute with a specific value.
 
@@ -200,8 +200,8 @@ Let's look at some examples for basic usage.
 Sometimes we need to be more general in how we access these attributes. For example, perhaps we're only interested in `img` elements where the `src` attribute's value ends in `.jpg`. For cases like this we have some attribute selectors that allow us to match a part of the attribute's value. If you've ever come across [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) before, these attributes use a similar syntax.
 
 
-* `[attribute^="value"]` - `^=` Will match strings from the start,
-* `[attribute$="value"]` - `$=` Will strings from the end,
+* `[attribute^="value"]` - `^=` Will match strings from the start.
+* `[attribute$="value"]` - `$=` Will strings from the end.
 * `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
 
 ~~~css
@@ -249,6 +249,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
 * [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
+
 ### Knowledge Check TODO
 
 * How would you select a div inside a div inside a div? REDO
