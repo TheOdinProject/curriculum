@@ -1,5 +1,5 @@
 ### Introduction
-By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialised tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more specific and finely grained way.
+By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialized tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more specific and finely grained way.
 
 These selectors can be especially useful when you can't (or don't want to) change your HTML markup.
 
@@ -7,7 +7,7 @@ As always feel free to open up your code editor and run you own experiments with
 
 ### Learning Outcomes
 * Understand how to use parent and sibling selectors
-* Recognise the difference between pseudo classes and pseudo elements
+* Recognize the difference between pseudo classes and pseudo elements
 * Learn about some of the most useful and common pseudo elements and pseudo classes
 * Learn about the different ways to select an attribute or its parts
 
@@ -15,7 +15,7 @@ As always feel free to open up your code editor and run you own experiments with
 Let's have a look at some ways we can access different divs _without_ referring to their classes. Here are three new selectors to do just that.
 
 * `>` - the child combinator
-* `+` - the adjacaent sibling combinator
+* `+` - the adjacent sibling combinator
 * `~` - the general sibling combinator
 
 We'll tackle some practical examples using this sample markup.
@@ -56,7 +56,7 @@ main > div > div {
 }
 ~~~
 
-Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacaent to our target, or on the same level of indentation, we can use the adjacaent sibling combinator `+`.
+Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
 
 ~~~css
 /* This rule will only select the div with the classes child group2 */
@@ -79,13 +79,13 @@ Finally, if we want to select all of an element's siblings and not just the firs
 }
 ~~~
 
-Just like the descendant combinator, these selectors don't have any special specificty rules - their specificity score will just be made up of their component parts.
+Just like the descendant combinator, these selectors don't have any special specificity rules - their specificity score will just be made up of their component parts.
 
 ### Pseudo-selectors
-Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). Pseudo class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup. If that doesn't make sense staight away, don't worry - we'll explore some examples below.
+Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup. If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
-Pseudo-classes offer us different ways to target elments in our HTML. There are quite a lot of them, and they came in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificty as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together
+Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together
 
 As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
 
@@ -96,7 +96,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 [:`active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
-Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because broswers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might like something like this:
+Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look like something like this:
 
 ~~~css
   /* This rule will apply to all links */
@@ -115,8 +115,8 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
   }
 ~~~
 
-## Structural Pseduo-classes
-Structural pseduo-classes are a powerful way to select elements based on their position within the DOM.
+## Structural Pseudo-classes
+Structural pseudo-classes are a powerful way to select elements based on their position within the DOM.
 
 [`:root`](https://css-tricks.com/almanac/selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
 
@@ -124,7 +124,7 @@ Structural pseduo-classes are a powerful way to select elements based on their p
 
 [`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that or the first or last sibling.
 
-Similiarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
+Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
 
 For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/). This is a flexible pseudo-class with a few different uses.
 
@@ -138,8 +138,8 @@ For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/alm
   .myList:nth-child(even) {/* Selects every even child of myList */}
 ~~~
 
-### Pseduo-elements
-While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseduo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specifity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
+### Pseudo-elements
+While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseudo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specificity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
 
 [`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
 
@@ -154,7 +154,7 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 }
 
 .emojify::after {
-  content: '😎 🥸 🤓';
+  content: '🤓 🥸 😎';
 }
 </style>
 <body>
@@ -162,9 +162,9 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 </body>
 ~~~
 
-Using these pseduo-elements this way would give us this result:
+Using these pseudo-elements this way would give us this result:
 
-Let's 😎 🥸 🤓 emojify 😎 🥸 🤓 this span!
+Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
 
 [`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
@@ -175,7 +175,7 @@ The last tool we're going to add to the box is attribute selectors. Recall that 
 
 Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
 
-Attribute selectors have the same specificty as classes and pseudo-classes (0,0,1,0).
+Attribute selectors have the same specificity as classes and pseudo-classes (0,0,1,0).
 
 Let's look at some examples for basic usage.
 
@@ -230,20 +230,20 @@ Sometimes we need to be more general in how we access these attributes. For exam
 }
 ~~~
 
-To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-sstrings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-strings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
 
 ### Assignment REVIEW
 <div class="lesson-content__panel" markdown="1">
 1. Complete [CSS Diner](https://flukeout.github.io/). You should be familiar with most of the content in the first couple of exercises, but practice and review never hurt! Don't forget to read the examples and explanations on the right.
-2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/).
+2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail.
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
-* [The CSS Tricks Alamanc](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
+* [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
 * [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes a an interactive selector tool if you'd like to play around with some hands on examples.
 * [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
 * [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
@@ -251,9 +251,9 @@ This section contains helpful links to other content. It isn't required, so cons
 * [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
 
 ### Knowledge Check
-* What is the difference between the child combinator and the decendant combinator?
+* What is the difference between the child combinator and the descendant combinator?
 * How does the syntax of pseudo-classes and pseudo-elements differ?
-* Do pseduo-classes exist somewhere in HTML? Do pseudo-elements?
+* Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?
 * Name two ways you could select every second child of an element, starting with the first.
 * What is the difference between `div:first-child` and `div :first-child`? What will each select?
 * What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?
@@ -268,7 +268,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - Touch on specificity rules of these?
 - Delete prettier file before PR
 - A note on old syntax? (: vs :: for CSS3 Pseudo elements)
-- Originally used MDN links for things, switched to CSS tricks almanancs because it's slightly 'friendlier' and example based'
+- Originally used MDN links for things, switched to CSS tricks almanacs because it's slightly 'friendlier' and example based'
 
 ## Potential in lesson notes
 
