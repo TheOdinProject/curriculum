@@ -162,7 +162,7 @@ Finally add the image to the `index.html` file:
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent Directories
-What if we want to use the dog image in the about page? we would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
+What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
