@@ -239,7 +239,7 @@ To see what other things you can achieve with attribute selectors, such as searc
 2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/).
 </div>
 
-### Additional Resources REVIEW
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
@@ -250,9 +250,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
 * [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
 
-### Knowledge Check TODO
-
-
+### Knowledge Check
 * What is the difference between the child combinator and the decendant combinator?
 * How does the syntax of pseudo-classes and pseudo-elements differ?
 * Do pseduo-classes exist somewhere in HTML? Do pseudo-elements?
