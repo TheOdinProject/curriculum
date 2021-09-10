@@ -31,11 +31,12 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 2. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can use with `vh` and `vw`
 </div>
 
-### Practice
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+
 * []()
 
 ### Knowledge Check
-*
+* Why would you want to use `em` or `rem` for font-size instead of `px`?
+* What are some instances where you might want to use `vh` and `vw`
+* What are some instances where you might want to use `px` instead of a relative unit?
