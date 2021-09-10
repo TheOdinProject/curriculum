@@ -135,7 +135,7 @@ For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/alm
 
   .myList:nth-child(3n + 3) { /* This will select every 3rd child of myList, beginning with the 3rd */}
 
-  .myList:nth-child(even) (/* Selects every even child of myList */)
+  .myList:nth-child(even) {/* Selects every even child of myList */}
 ~~~
 
 ### Pseduo-elements
@@ -252,9 +252,15 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Knowledge Check TODO
 
-* How would you select a div inside a div inside a div? REDO
-* What is the difference between `div:first-line` and `div :first-line` What will each select?
+
+* What is the difference between the child combinator and the decendant combinator?
+* How does the syntax of pseudo-classes and pseudo-elements differ?
+* Do pseduo-classes exist somewhere in HTML? Do pseudo-elements?
+* Name two ways you could select every second child of an element, starting with the first.
+* What is the difference between `div:first-child` and `div :first-child`? What will each select?
+* What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?
 * How could you select all input elements with a type of text?
+* How could you select all classes that begin with 'thunder' ?
 
 
 ### End --------------- Remove this and everything below before publishing
@@ -275,3 +281,4 @@ https://www.theodinproject.com/lessons/preview
 - Refactor combinator example to use original example
 - Assignment vs extra resources?
 - Too long? If yes, editing or break it up?
+- Check terminology - combinator specifics
