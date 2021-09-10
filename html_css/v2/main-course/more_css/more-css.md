@@ -39,9 +39,6 @@ Opacity is another easy one, that can be very useful in some circumstances.
 
 Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) for a definition and some examples.
 
-### Practice
-Head on back to our (CSS exercises)[https://github.com/TheOdinProject/css-exercises] repository, and complete the items inside the `more-css` directory.
-
 ### Additional Resources
 Throughout this lesson we have linked primarily to the MDN docs for each property... however there are _many_ useful reference sites across the web that can be useful and that may show up when searching these items.
 
