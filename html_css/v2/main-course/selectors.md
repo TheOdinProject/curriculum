@@ -96,7 +96,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 [:`active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
-Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look like something like this:
+Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look something like this:
 
 ~~~css
   /* This rule will apply to all links */
@@ -133,7 +133,7 @@ For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/alm
 
   .myList:nth-child(3n) { /* Selects every 3rd child of myList */}
 
-  .myList:nth-child(3n + 3) { /* This will select every 3rd child of myList, beginning with the 3rd */}
+  .myList:nth-child(3n + 3) { /* Selects every 3rd child of myList, beginning with the 3rd */}
 
   .myList:nth-child(even) {/* Selects every even child of myList */}
 ~~~
