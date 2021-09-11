@@ -196,13 +196,19 @@ Then, save the file. You can leave VSCode open since we're going to be coming ba
 
 #### Step 3.2.2: Install the new gems.
 
-Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
+Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. When we deploy the app, Heroku will install the gems in the `:production` group and ignore the ones in the `:development` and `:test` groups. Conversely, we don't need to install the gems in the `:production` group on our local machine, since they aren't being used for development. To accomplish this, we need to tell `Bundler` to ignore the `:production` group gems in this project by running
 
 ~~~bash
-bundle install --without production
+bundle config set --local without production
 ~~~
 
-We use `--without production` here because the pg gem relies on having the pg database installed locally. Without it the gem can't build the native extensions needed to interact with the database. That is something we would definitely recommend but not at this stage. An sqlite database is much easier to get up and running for development.
+We're not just saving disk space here; we also need to do this because the pg gem relies on having the pg (PostgreSQL) database installed locally. Without it, the gem can’t build the native extensions needed to interact with the database and we would get an error during installation. Using the same database in both development and production is something we would definitely recommend, but not at this stage. An sqlite database is much easier to get up and running for development, but sqlite isn't supported on Heroku, so we need to use PostgreSQL instead in production.
+
+Now we can install only the gems in the `:development` and `:test` groups on our local machine by simply running
+
+~~~bash
+bundle install
+~~~
 
 #### Step 3.2.3: Configure the Root Route
 
