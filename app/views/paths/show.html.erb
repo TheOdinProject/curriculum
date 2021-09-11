@@ -1,3 +1,5 @@
+<%= title(@path.title) %>
+
 <div class="container">
   <h1 class="text-center camel light curriculum-title"><%= @path.title %></h1>
   <% if user_signed_in? && current_user.path != @path %>
