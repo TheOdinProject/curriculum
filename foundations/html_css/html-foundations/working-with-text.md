@@ -147,7 +147,7 @@ The parent, child, and sibling relationships between elements will become much m
 
 HTML comments are not visible to the browser, they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
-Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end of the comment, for example:
+Writing an HTML comment is simple, we just put `<!--` and `-->` at either end of the comment, for example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
