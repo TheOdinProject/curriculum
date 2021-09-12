@@ -44,7 +44,7 @@ Now that you have VirtualBox installed, launch the program. Once open, you shoul
 
 <img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/00.png" alt="The VirtualBox start screen" title="A new start">
 
-Click on the “New” button to create a virtual operating system. Give it a name of “Xubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. If the 64-bit option is not present, you'll likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>. Continue by pressing “Next”, and choose the following options in the next steps:
+Click on the “New” button to create a virtual operating system. Give it a name of “Xubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. If the 64-bit option is not present, you'll likely need to [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios](enable virtualization in your computer’s BIOS/UEFI settings). Continue by pressing “Next”, and choose the following options in the next steps:
 
 <img style="border-style: solid; border-width: thin; padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png" alt="The VirtualBox Create Virtual Machine window" title="Xubuntu should make the Version be Ubuntu (64-bit) automatically">
 
@@ -72,7 +72,7 @@ After completing the last step, click the **“Create”** button. Your new virt
 
 <img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/08.png" alt="The VirtualBox Home screen with Xubuntu" title="Or you can right-click Xubuntu and go to Settings">
 
- Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>. If you have a single core processor, you will not be able to change this setting.
+ Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios](enable virtualization in your computer’s BIOS/UEFI settings). If you have a single core processor, you will not be able to change this setting.
  
 <img style="padding: 0em;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
