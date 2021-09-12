@@ -320,7 +320,7 @@ def foundation_lessons
       identifier_uuid: '25874e5c-2485-4e62-aaa5-5d6cf65b6b52',
     },
     'Introduction' => {
-      title: 'Introduction',
+      title: 'Introduction to Flexbox',
       description: "Let's get starting with flexbox",
       is_project: false,
       url: '/foundations/html_css/flexbox/flexbox-intro.md',
