@@ -39,5 +39,5 @@ Using the correct elements for content is called semantic HTML, we will explore 
 
 ### Knowledge Check
 
-- What is a a HTML tag?
+- What is a HTML tag?
 - What are the three parts of a HTML element?
