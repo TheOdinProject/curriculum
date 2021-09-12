@@ -650,5 +650,5 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 <div class="lesson-content__panel" markdown="1">
 
 1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
-2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstructkeys-and-deconstruct).
+2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
 </div>
