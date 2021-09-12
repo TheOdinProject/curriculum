@@ -4,7 +4,7 @@ version: 2.1
 executors:
   rails-executor:
     docker:
-      - image: circleci/ruby:2.7.3-buster-node-browsers
+      - image: circleci/ruby:2.7.4-buster-node-browsers
         environment:
           RAILS_ENV: test
           POSTGRES_USERNAME: postgres
