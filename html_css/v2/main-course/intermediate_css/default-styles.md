@@ -7,11 +7,11 @@ Browsers, by default, inject a little bit of style into your web projects. You m
 
 When you did the first HTML Recipe project, you will have noticed that some elements already have a little bit of style applied to them. An `h1`, for instance, is bigger and bolder than regular text. Links (`a`nchors) are blue and underlined. Lists (`ul` and `ol`) both have a bunch of padding surrounding them. Browsers accomplish this by inserting a little bit of css into every webpage. ([Here is Chrome's default html stylesheet](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/html.css))
 
-The problem with this is that there is no guarantee that different browsers will style everything the same. In general, inconsistencies are going to be pretty minor, but they DO exist.
+The problem with this is that there is no guarantee that different browsers will style everything the same. In general, inconsistencies are going to be pretty minor, but they DO exist. Also, in many cases as a developer you're going to end up undoing or redoing all of this default styling to make your site look exactly how you envision it.
 
-To counter this, many developers start their projects with a "CSS Reset"; a file that basically undoes browser defaults, so that every element behaves the same in every browser. 
+To counter this, many developers start their projects with a "CSS Reset"; a file that undoes browser defaults, so that every element behaves the same in every browser. 
 
-You don't _have_ to use a css reset. In many cases you're going to end up undoing, or redoing a lot of the styles that a reset will provide for you. Whether or not you want to use one is up to you... but give it a shot.
+You don't _have_ to use a css reset. In many cases you're going to end up undoing, or redoing a lot of the styles that a reset will provide for you. You can decide whether or not you want to use one on a regular basis, but it's worth taking the time to dig through a couple now. Understanding exactly how they're doing what they're doing is a useful exercise!
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">

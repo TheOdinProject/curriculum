@@ -1,7 +1,7 @@
 ### Introduction
 By now, you probably have a strong grasp of the important foundational concepts of CSS, but there is a lot more that you can do with CSS to make some truly spectacular looking websites. It's time to cover those useful little css features you can use to add some shine to your projects.
 
-There are a _lot_ of CSS properties. [A Recent CSS Tricks Article](https://css-tricks.com/how-many-css-properties-are-there/) says there are _hundreds_. Luckily, you don't have to memorize them all. The number that you actually are going to end up using on a regular basis is much smaller. This lesson is going to cover most of the items you'll end up using the most! The format of this lesson is a little different since it's essentially just a list of CSS properties. We'll give a little description of the property and then link you to some documentation where you can see all the various options available.
+There are a _lot_ of CSS properties. [A Recent CSS Tricks Article](https://css-tricks.com/how-many-css-properties-are-there/) says there are _hundreds_. Luckily, you don't have to memorize them all. The number that you actually are going to end up using on a regular basis is much smaller. This lesson is going to cover most of the items you'll end up using on a regular basis. The format of this lesson is a little different since it's essentially just a list of CSS properties. We'll give a little description of the property and then link you to some documentation where you can see all the available options.
 
 ### Learning Outcomes
 - You'll learn about a lot of useful css properties!
@@ -35,7 +35,7 @@ It is possible, using `overflow`, to define what happens when it's content is to
 Check out the [`overflow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
 #### Opacity
-Opacity is another easy one, that can be very useful in some circumstances.
+Opacity is another easy one that can be very useful in some circumstances.
 
 Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) for a definition and some examples.
 
@@ -51,3 +51,4 @@ Throughout this lesson we have linked primarily to the MDN docs for each propert
 * Which property would you use to add scrollbars to an element?
 * Which property would you use to add a shadow behind an element?
 * Which property would you use to create rounded corners on an element?
+* How would you use border-radius to make a circular element?
