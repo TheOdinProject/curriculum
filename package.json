@@ -28,7 +28,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-flip-move": "^3.0.4",
-    "react-hook-form": "7.15.0",
+    "react-hook-form": "7.15.3",
     "react-scrolllock": "^5.0.1",
     "react-tabs": "^3.2.2",
     "react_ujs": "^2.6.1",
