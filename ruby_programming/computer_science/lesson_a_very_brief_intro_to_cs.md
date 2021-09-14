@@ -20,7 +20,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
   1. Skim this [Introduction to Algorithms by David Malan](http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan) on TedEd to see how to think about algorithms.
-  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube. for a more structured look at solving problems using algorithms.
+  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
   3. Read [this Quora question about the importance of algorithms in web development](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development) to get some context for why we're going over this stuff.
   4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 </div>
