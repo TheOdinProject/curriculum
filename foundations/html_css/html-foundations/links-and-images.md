@@ -206,7 +206,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 ### Additional Resources
 
-- [Interneting is hard treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
 
