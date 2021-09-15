@@ -8,7 +8,7 @@ A brief summary about what this lesson is about and why the topics or concepts i
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-what the student is expected to know or be able to do by the end of this lesson
+what the learner is expected to know or be able to do by the end of this lesson
 
 *   Learning outcome 1
 *   Learning outcome 2
@@ -22,7 +22,7 @@ The list of resources the user will go through to learn about the topic of this 
 
 ### Exercises
 
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson. 
+A group of exercises (If Applicable) for the learner to complete in relation to the topic taught in the lesson. 
 
 ### Additional Resources
 

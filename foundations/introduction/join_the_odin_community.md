@@ -1,5 +1,5 @@
 ### Introduction
-Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/), [follow us on Twitter](https://twitter.com/TheOdinProject) and catch up on [Instagram](https://www.instagram.com/theodinproject/). Use #TheOdinProject to share your Odin Project progress, updates, thoughts and to see what other Odin students are up to!
+Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/), [follow us on Twitter](https://twitter.com/TheOdinProject) and catch up on [Instagram](https://www.instagram.com/theodinproject/). Use #TheOdinProject to share your Odin Project progress, updates, thoughts and to see what other Odin learners are up to!
 
 ### Why a community is awesome for you
 
@@ -146,14 +146,14 @@ If they have already been through that portion of the curriculum, politely direc
 #### 10. Answer the question before pointing out other problems
 When helping someone it can be easy to spot other problems in their code. Resolve the original question, before pointing out any other problems that need attention.
 
-#### 11. Encourage students to use a debugger
-It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `/debug`.
+#### 11. Encourage learners to use a debugger
+It is common for learners to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When learners are getting unexpected values, politely encourage them to use a debugger with our bot command `/debug`.
 
-#### 12. Watch for students that need to take a step back
-It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Often times, stepping away from a problem will help them see the bigger picture and how to solve it.
+#### 12. Watch for learners that need to take a step back
+It is common for learners to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Often times, stepping away from a problem will help them see the bigger picture and how to solve it.
 
-#### 13. Watch for students that are in over their head
-It is common for students to skip a lesson/project or think they know more than they actually do. When this situation arises, politely encourage them to go back and reread a section of the curriculum for more understanding.
+#### 13. Watch for learners that are in over their head
+It is common for learners to skip a lesson/project or think they know more than they actually do. When this situation arises, politely encourage them to go back and reread a section of the curriculum for more understanding.
   
 #### 14. Admit when the problem goes beyond your current knowledge
 It is common for the actual issue to go beyond the initial question. If it goes beyond your current knowledge, it is important to admit that you are unsure of the correct answer and let someone else help. 

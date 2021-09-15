@@ -1,8 +1,8 @@
 # Welcome to The Odin Project Curriculum
 
-The Odin Project (also known as TOP) is an open-source community for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help our students learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
+The Odin Project (also known as TOP) is an open-source community for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help learners gain the skills and build the impressive portfolio of projects they need to get hired as a web developer.
 
-The curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give students the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the student's portfolio.
+The curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give learners the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the learner's portfolio.
 
 Lessons are structured through a combination of original written content and a compilation of carefully curated resources from the web. This is where the contributing happens!
 
@@ -20,7 +20,7 @@ We are constantly making improvements to the curriculum, and new lessons are alw
 
 ### In flight curriculum initiatives
 #### HTML/CSS course rewrite
-We are in the process of completely rewriting all of our HTML and CSS content, from scratch.  Our current curriculum relies too heavily on freecodecamp, which many of our students report is somewhat of a slog.  Additionally, much of our later content is getting somewhat dated, so we are in need of a refresh.
+We are in the process of completely rewriting all of our HTML and CSS content, from scratch.  Our current curriculum relies too heavily on freecodecamp, which many learners report is somewhat of a slog.  Additionally, much of our later content is getting somewhat dated, so we are in need of a refresh.
 
 You can see what we're working on [here](https://github.com/TheOdinProject/top-meta/projects/2).
 

@@ -38,7 +38,7 @@ A brief summary about what this lesson is about and why the topics or concepts i
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-what the student is expected to know or be able to do by the end of this lesson
+what the learner is expected to know or be able to do by the end of this lesson
 
 *   Learning outcome 1
 *   Learning outcome 2
@@ -52,7 +52,7 @@ The list of resources the user will go through to learn about the topic of this 
 
 ### Exercises
 
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson. 
+A group of exercises (If Applicable) for the learner to complete in relation to the topic taught in the lesson. 
 
 ### Additional Resources
 
@@ -87,7 +87,7 @@ Should repeat learning outcomes with answers.
 
 ### Introduction 
 
-A brief introduction to the project and an over view of what the student will be building.
+A brief introduction to the project and an over view of what the learner will be building.
 
 ### Assignment
 
@@ -99,12 +99,12 @@ Describe the requirements or users stories for the project in detail.
 
 Links that may help with the project if any
 
-### Student Solutions
+### Peer Solutions
 
 Submit a solution with a pull request to this...
 
 <details markdown="block">
-  <summary> Show Student Solutions </summary>
+  <summary> Show Peer Solutions </summary>
 
   *   Add your solution below this line!
 

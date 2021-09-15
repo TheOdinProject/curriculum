@@ -80,7 +80,15 @@ The Odin Project isn't like college or university, it is self paced and allows y
 
 Deadlines cause un-needed stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines is a good way to rush concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but I bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high paying job _right-now_, you're not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
 
-Long story short: Don't worry, just go learn
+Long story short: Don't worry, just go learn.
+
+### Ownership in Learning
+
+People who work through our curriculum occassionally refer to themselves as "students".
+
+We would like to invite you to consider using "learner" instead.
+
+We strongly believe in self-directed learning. Using the word "student" creates the impression, and expectation, of a student-teacher relationship with others in the community. This kind of relationship can make people feel less responsible in their learning. When we think in terms of self-directed learning, the bulk of the responsibility now rests on the learner. Take ownership of your learning!
 
 ### Pitfalls to Avoid 
 The following are some of the pitfalls that beginners often encounter when learning how to program. Try your best to avoid these.
@@ -125,12 +133,12 @@ Physical distractions are distractions from your environment, like a TV in the b
 **Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
 
 #### Rabbit Holes
-Because we cover so much material on The Odin Project and link to so many high quality courses and tools, it is easy for students to get pulled into rabbit holes by spending time trying to learn all there is to know about a subject that they aren't ready for or won't benefit them much. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to know about web development are covered exactly when you need to know them.
+Because we cover so much material on The Odin Project and link to so many high quality courses and tools, it is easy for learners to get pulled into rabbit holes by spending time trying to learn all there is to know about a subject that they aren't ready for or won't benefit them much. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to know about web development are covered exactly when you need to know them.
 
 **Solution:** Stick to the path laid out as much as possible. Try to limit time spent going down rabbit holes as these sidetracks can really ruin your momentum.
 
 #### Comparing Yourself to Others
-Students often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration. 
+Learners often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration. 
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 

@@ -52,12 +52,12 @@ Build the following methods in your linked list class:
 2. `#remove_at(index)` that removes the node at the given `index`. (You will need to update the links of your nodes in the list when you remove a node.)
 </div>
 
-### Student Solutions
+### Peer Solutions
 
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_linked_lists.md) on the ruby course github repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
-  <summary> Show Student Solutions </summary>
+  <summary> Show Peer Solutions </summary>
 
 - Add your solution below this line!
 - [Xtrator's Solution (with extra credit)](https://github.com/xtrator/TOPsolutions/blob/master/linked-list.rb)

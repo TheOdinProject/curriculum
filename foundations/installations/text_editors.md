@@ -9,7 +9,7 @@ Rich text editors, such as Microsoft Word and Libre-Office Writer, are great for
 
 You can think of code editors as specialized web development tools. They are highly customizable and offer many features that will make your life easier. There is nothing worse than spending 2 hours trying to figure out why your program isn't working only to realize that you missed a closing bracket. Plugins, syntax highlighting, auto-closing of brackets and braces, and linting are just a few of the benefits of using a code editor. There are many text editors out there to choose from, but we suggest starting with VSCode.
 
-**VSCode** is an excellent free code editor. It has outstanding add-on support and great Git integration. VSCode is the most popular code editor among Odin's students and moderators, so support is easy to find in the community. You can download the .deb file and install it from [here](https://code.visualstudio.com/).
+**VSCode** is an excellent free code editor. It has outstanding add-on support and great Git integration. VSCode is the most popular code editor among Odin's learners and moderators, so support is easy to find in the community. You can download the .deb file and install it from [here](https://code.visualstudio.com/).
 
 Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. If you want to use something else, do it. However, using something other than VSCode may make it more difficult to get help in the chat room.
 

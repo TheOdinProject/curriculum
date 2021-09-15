@@ -2,7 +2,7 @@
 
 ### Introduction 
 
-A brief introduction to the project and an over view of what the student will be building.
+A brief introduction to the project and an over view of what the learner will be building.
 
 ### Assignment
 
@@ -14,12 +14,12 @@ Describe the requirements or users stories for the project in detail.
 
 Links that may help with the project if any
 
-### Student Solutions
+### Peer Solutions
 
 Submit a solution with a pull request to this...
 
 <details markdown="block">
-  <summary> Show Student Solutions </summary>
+  <summary> Show Peer Solutions </summary>
 
   * Add your solution below this line!
   * [Solution Title](https://somelinkToSolution)

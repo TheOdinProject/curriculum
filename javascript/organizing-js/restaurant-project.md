@@ -32,7 +32,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 1. Now remove those elements from the HTML (so leave only the `<html>`, `<body>`, and `<div id="content">` tags) and instead create them by using JavaScript only, e.g. by appending each new element to `div#content` once the page is first loaded. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of its own module and then import and call it inside of `index.js`.
 
-1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at the behavior of this student solution](https://eckben.github.io/bearysBreakfastBar/) for visual inspiration.
+1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at the behavior of this peer solution](https://eckben.github.io/bearysBreakfastBar/) for visual inspiration.
 
     1. Put the contents of each 'tab' inside of its own module. Each module will export a function that creates a div element, adds the appropriate content and styles to that element and then appends it to the DOM.
    

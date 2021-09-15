@@ -53,7 +53,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 ### Motivation
 
 Learning to code is incredibly rewarding but can also be difficult and frustrating.
-The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
+The strongest assets you can have as a learner are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 

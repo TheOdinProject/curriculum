@@ -1,4 +1,4 @@
-We are in the process of completely rewriting all of our HTML and CSS content, from scratch.  Our current curriculum relies too heavily on freecodecamp, which many of our students report is somewhat of a slog.  Additionally, much of our later content is getting somewhat dated, so we are in need of a refresh.
+We are in the process of completely rewriting all of our HTML and CSS content, from scratch.  Our current curriculum relies too heavily on freecodecamp, which many learners report is somewhat of a slog.  Additionally, much of our later content is getting somewhat dated, so we are in need of a refresh.
 
 You can see what we're working on [here](https://github.com/TheOdinProject/top-meta/projects/2).
 

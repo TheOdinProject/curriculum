@@ -45,7 +45,7 @@ Write a simple driver script that does the following:
 
 </div>
 
-**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a learner wrote and shared on Discord:
 
 ~~~ruby
 def pretty_print(node = @root, prefix = '', is_left = true)

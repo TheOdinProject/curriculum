@@ -51,7 +51,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
     8. Print out all elements in level, pre, post, and in order
 </div>
 
-**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a fellow learner wrote and shared on Discord:
 
 ~~~ruby
 def pretty_print(node = @root, prefix = '', is_left = true)
@@ -61,11 +61,11 @@ def pretty_print(node = @root, prefix = '', is_left = true)
 end
 ~~~
 
-### Student Solutions
+### Peer Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
 
 <details markdown="block">
-  <summary> Show Student Solutions </summary>
+  <summary> Show Peer Solutions </summary>
 
 * Add your solution below this line!
 * [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
@@ -315,11 +315,11 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 ~~~
 </div>
 
-### Student Solutions
+### Peer Solutions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
 
 <details markdown="block">
-  <summary> Show Student Solutions </summary>
+  <summary> Show Peer Solutions </summary>
 
 * Add your solution below this line!
 * [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
