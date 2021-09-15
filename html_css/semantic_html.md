@@ -50,13 +50,13 @@ When it comes to using semantic HTML correctly, you want to think about what you
 
 ~~~html
 <!-- Useful when you need the input itself to have an ID -->
-<label for='name-input'>Name</label>
-<input type="text" id="name" />
+<label for='name'>Name</label>
+<input type='text' id='name' />
 
 <!-- Look, Ma, no ID! -->
 <label>
   Name
-  <input type="text" />
+  <input type='text' />
 </label>
 ~~~
 
