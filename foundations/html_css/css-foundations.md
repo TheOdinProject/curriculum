@@ -55,7 +55,7 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 
 #### Class Selectors
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class in an HTML file and select it in CSS:
+Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
 ~~~html
 <!-- index.html -->
