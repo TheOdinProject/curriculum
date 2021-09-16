@@ -5,7 +5,7 @@
 * You'll learn what 'Responsive Design' is and why it's important.
 
 ### Terminology
-The phrase 'Responsive Design' is the most common phrase across the internet to refer to the concept we're talking about here. Unfortunately, it is a little bit misleading, because of the word 'design'. These lessons are not going to focus much on the actual _design_ of responsive websites, but the techniques you can use to implement responsivity on websites.
+The phrase 'Responsive Design' is the most common phrase across the internet to refer to the concept we're talking about here. Unfortunately, it is a little bit misleading, because of the word 'design'. These lessons are not going to focus much on the actual _design_ of responsive websites, but the techniques you can use to implement responsiveness on websites.
 
 The word 'design' refers to making decisions about what kinds of things look nice, crafting a user experience and deciding exactly what a project should look like. There might be some tidbits about that sprinkled throughout these lessons, but it is not the primary focus. HOWEVER, since this phrase has been pretty much universally adopted, it's the phrase we'll use here.
 
