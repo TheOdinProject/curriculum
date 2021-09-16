@@ -35,11 +35,11 @@ Open the `index.html` file created earlier in your text editor and add `<!DOCTYP
 
 ### HTML Element
 
-After we declare the doctype, we need to provide a `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
+After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
 
 This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the HTML element should be included on every HTML document.
 
-Back in the index.html lets add the <html> element by typing out its opening and closing tags like so:
+Back in the `index.html` lets add the `<html>` element by typing out its opening and closing tags like so:
 
 ~~~html
 <!DOCTYPE html>
@@ -103,14 +103,14 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 ### Viewing HTML Files in the Browser
 
-The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  there are a couple of different options:
+The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
-Back in the index.html file lets add a heading (more on these later) to the body and save the file:
+Back in the `index.html` file lets add a heading (more on these later) to the body and save the file:
 
 ~~~html
 <!DOCTYPE html>
@@ -129,21 +129,21 @@ Back in the index.html file lets add a heading (more on these later) to the body
 Now if you refresh the page in the browser, you should see the changes take effect, and a heading  "Hello World!" will be displayed.
 
 ### VSCode Shortcut
-VSCode has a built in shortcut you can use for generating all the boilerplate in one go. To trigger the shortcut, delete everything in the index.html file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects to build some muscle memory with how to write the boilerplate code.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch and follow along to Kevin Powells Brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=2)
+1. Watch and follow along to Kevin Powell's Brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=2)
 2. Build some muscle memory by deleting the contents of the `index.html` file and try writing out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
-3. Run your boilerplate through a [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool as they provide feedback on syntax errors you may be making often and aren't aware of. Such as missing closing tags and extra spaces in your HTML.
+3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool as they provide feedback on syntax errors you may be making often and aren't aware of. Such as missing closing tags and extra spaces in your HTML.
 </div>
 
 ### Additional Resources
 
-- Read through this article about what [Charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
+- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects so you can get used to that process and don't become reliant on extensions right away.
 
 ### Knowledge Check

@@ -5,7 +5,7 @@ Let's look a little closer at what actually happened when you put `flex: 1` on t
 
 ### The flex shorthand
 
-The `display: flex` declaration is actually a shorthand for 3 properties that you can set on a flex-item. These properties affect how flex-items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
+The `flex` declaration is actually a shorthand for 3 properties that you can set on a flex-item. These properties affect how flex-items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
 
 > Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
 >

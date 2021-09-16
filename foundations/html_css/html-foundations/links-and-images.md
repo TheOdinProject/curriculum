@@ -57,9 +57,9 @@ Generally, there are two kinds of links we will create:
 
 #### Absolute Links
 
-Links to pages op other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
+Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
-We've already seen an absolute link in action. The link we created to The Odin Projects about page earlier was an absolute link as it contains the protocol and domain.
+We've already seen an absolute link in action. The link we created to The Odin Project's About page earlier was an absolute link as it contains the protocol and domain.
 
 `https://www.theodinproject.com/about`
 
@@ -102,7 +102,7 @@ This works because the index and about page are in the same directory. That mean
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
-Create a directory named `pages` within the `odin-relative-links` directory and move the `about.html` file into this new directory.
+Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
 Refresh the index page in the browser and then click on the about link. It will be now be broken. This is because the location of the about page file has changed.
 
@@ -162,7 +162,7 @@ Finally add the image to the `index.html` file:
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent Directories
-What if we want to use the dog image in the about page? we would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
+What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
@@ -198,10 +198,10 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Watch Kevin Powells HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5)
-2. [Watch Kevin Powells HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6)
-3. [Watch Kevin Powells File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7)
-4. [Read about the four main image formats that can used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
+1. [Watch Kevin Powell's HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5)
+2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6)
+3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7)
+4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
 </div>
 
 ### Additional Resources

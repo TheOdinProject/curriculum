@@ -289,7 +289,7 @@ There are many helpful methods to use with nested hashes. Once you know what dat
 Let's look at an example using the vehicles nested hash. Let's say that we want to know who owns vehicles that are from 2020 or newer. At first glance in the documentation, it looks like `#select` would be a great method to use.
 
 ~~~ruby
-vehicles.select { |_name, data| data[:year] >= 2020 }
+vehicles.select { |name, data| data[:year] >= 2020 }
 #=> {:caleb=>{:year=>2020, :make=>"Honda", :model=>"Accord"}, :dave=>{:year=>2021, :make=>"Ford", :model=>"Escape"}}
 ~~~
 

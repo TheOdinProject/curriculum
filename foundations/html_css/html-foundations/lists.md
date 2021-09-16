@@ -2,7 +2,7 @@
 
 Whether it be IMDB's top 250 movies or the FBI's most-wanted, lists are everywhere on the web and you are going to need one eventually in your webpages.
 
-Luckily, with HTML there are a couple of different types of lists are your disposal.
+Luckily, with HTML there are a couple of different types of lists at your disposal.
 
 ### Learning Outcomes
 

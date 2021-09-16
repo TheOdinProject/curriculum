@@ -61,7 +61,7 @@ The error in Example 2 clearly tells you what input is invalid, so you now know 
 
 The error in Example 3 is even more meaningful. It not only tells you what input is invalid, but also how to fix the error. Generally when you inform a user of a form error, you should be informing them what input caused the error and, when possible, how to fix the error or why the error occurred in some way.
 
-Another way to provide meaningful text in forms is with instructions, such as when a password input lists any characters that the password must contain ("Must include at last one uppercase letter and one number..."). For instructions that are unique to an input, they should be placed alongside the input itself. Instructions that are more global across the form, such as indicating which inputs are required, should either be placed at the top of the form ("* indicates a required field"), or placed alongside the input or its label ("Name (required)").
+Another way to provide meaningful text in forms is with instructions, such as when a password input lists any characters that the password must contain ("Must include at least one uppercase letter and one number..."). For instructions that are unique to an input, they should be placed alongside the input itself. Instructions that are more global across the form, such as indicating which inputs are required, should either be placed at the top of the form ("* indicates a required field"), or placed alongside the input or its label ("Name (required)").
 
 ### Alternative Text
 
