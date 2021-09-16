@@ -12,7 +12,7 @@ The word 'design' refers to making decisions about what kinds of things look nic
 ### So what _IS_ it?
 Responsive design is creating websites that work correctly on any screen. Basically since the release of the first iPhone in 2007, it has become a _requirement_ that your web projects function correctly on everything from normal desktop monitors to tiny phone screens. 
 
-As you have likely discovered, this kind of responsivity doesn't often happen automatically, especially once your projects get more complex than simple text on a page. (Your first HTML-only recipe project probably worked just fine on a phone, aside from the images getting cut-off.) So, when it comes down to it, "Responsive Web Design" is a set of techniques you can use to make your sites work on any size screen. 
+As you have likely discovered, this kind of responsiveness doesn't often happen automatically, especially once your projects get more complex than simple text on a page. (Your first HTML-only recipe project probably worked just fine on a phone, aside from the images getting cut-off.) So, when it comes down to it, "Responsive Web Design" is a set of techniques you can use to make your sites work on any size screen. 
 
 There are ways to make your designs flexible enough that they work well on most screens, and there are ways to dramatically change the layout of your page at certain sizes. You'll probably end up relying on both in most of your projects.
 
