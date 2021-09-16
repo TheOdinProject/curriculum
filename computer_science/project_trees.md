@@ -51,7 +51,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
     8. Print out all elements in level, pre, post, and in order
 </div>
 
-**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a learner wrote and shared on Discord:
+**Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a member of our community wrote and shared on Discord:
 
 ~~~ruby
 def pretty_print(node = @root, prefix = '', is_left = true)

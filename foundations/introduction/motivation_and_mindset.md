@@ -84,7 +84,7 @@ Long story short: Don't worry, just go learn.
 
 ### Ownership in Learning
 
-People who work through our curriculum occassionally refer to themselves as "students".
+People who work through our curriculum occasionally refer to themselves as "students".
 
 We would like to invite you to consider using "learner" instead.
 
