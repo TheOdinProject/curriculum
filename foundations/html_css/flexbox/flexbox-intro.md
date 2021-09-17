@@ -11,6 +11,10 @@ In the following lessons:
 * You will learn about flex-containers and flex-items.
 * You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
+### Before we get started
+
+Flexbox layouts can get a little complicated. In a previous lesson you learned how to inspect and debug things using your browser's developer tools. Those tools will be _crucial_ for you in the following lessons. If something isn't behaving the way you expect, inspecting it in the developer tools should be you first step _every time_.
+
 ### Let's Flex!
 
 Flexbox is a way to arrange items into rows or columns where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. For all of the exercises here, take your time to inspect the code and really understand what's going on. Actually playing with the code yourself will make it much easier to retain this information.
