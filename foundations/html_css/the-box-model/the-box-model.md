@@ -43,4 +43,4 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 * What does the `box-sizing` css property do?
 * Would you use `margin` or `padding` to create more space between 2 elements?
-* Would you use `margin` or `padding` to create more space between the contents of an element and it's border?
+* Would you use `margin` or `padding` to create more space between the contents of an element and its border?
