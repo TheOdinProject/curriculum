@@ -205,6 +205,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - [Interneting is hards treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
