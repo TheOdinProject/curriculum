@@ -35,7 +35,7 @@ Using the correct elements for content is called semantic HTML, we will explore 
 
 ### Additional Resources
 
-- [Don't Fear the Internets video about HTML](http://www.dontfeartheinternet.com/02-html)
+- [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
 
 ### Knowledge Check
 
