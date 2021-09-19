@@ -3,8 +3,9 @@ Thanks for your interest in The Odin Project. In order to get PRs closed in a re
 -->
 
  - [ ] You have read [The Odin Projects Contributing Guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md).
-
-#### 1.Describe the changes made:
+ - [ ] The PR title summarizes the change and where it happened, for example: "Fixes punctuation in Clean Code lesson".
+ 
+#### 1.Describe the changes made and include why they are necessary or important:
 
 ...your text here
 
