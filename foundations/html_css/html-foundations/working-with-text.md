@@ -159,8 +159,8 @@ Writing an HTML comment is simple, we just put `<!--` and `-->` at either end of
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch Kevin Powells [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
-2. Watch Kevin Powells [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
+1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
+2. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
 3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, paragraphs and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) as the dummy text for the article content and headings.
 </div>
 
