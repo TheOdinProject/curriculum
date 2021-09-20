@@ -18,7 +18,7 @@ There are ways to make your designs flexible enough that they work well on most 
 
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * As usual MDN has a great article on [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design), but it goes quite a bit deeper than we need right now.
 
