@@ -17,9 +17,9 @@ Remember our Rock, Paper, Scissors example that *didn't* use semantic HTML from 
 ~~~html
 <!-- The `tabindex` attribute makes the `<div>` elements focusable. -->
 <div class='button-container'>
-  <div class='rock button' tabindex="0">Rock</div>
-  <div class='paper button' tabindex="0">Paper</div>
-  <div class='scissors button' tabindex="0">Scissors</div>
+  <div class='rock button' tabindex='0'>Rock</div>
+  <div class='paper button' tabindex='0'>Paper</div>
+  <div class='scissors button' tabindex='0'>Scissors</div>
 </div>
 ~~~
 ~~~javascript
@@ -33,11 +33,8 @@ function nameAlerter(e) {
 }
 
 buttons.forEach(button => {
-  button.addEventListener('click', nameReturner)
-})
-
-buttons.forEach(button => {
-  button.addEventListener('keydown', nameReturner)
+  button.addEventListener('click', nameAlerter)
+  button.addEventListener('keydown', nameAlerter)
 })
 ~~~
 
@@ -67,10 +64,10 @@ The tab order is the order in which elements on the page will receive focus when
 
 ~~~html
 <!-- This element is first in the tab order. -->
-<div tabindex="0">This is the first element listed in the HTML.</div>
+<div tabindex='0'>This is the first element listed in the HTML.</div>
 
 <!-- This element is second in the tab order. -->
-<div tabindex="0">This is the second element listed in the HTML.</div>
+<div tabindex='0'>This is the second element listed in the HTML.</div>
 ~~~
 
 Sometimes you may find it necessary to either change the visual order of elements on a page using CSS (the `float` or `order` properties, for example), or the tab order of elements themselves using the `tabindex` attribute. Regardless of which method you may use, you should make sure the tab order matches the visual order of elements. If the tab order is different from the visual order, users could be left confused or frustrated trying to navigate the page with a keyboard, expecting one element to receive focus based on the visual layout and instead another element receives focus. 

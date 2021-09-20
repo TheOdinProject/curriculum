@@ -30,4 +30,4 @@ Keep track of how long it takes between when the photo is first loaded and when 
 
 ### Optional Extensions:
 
-1. Load many images into your database and allow your use to select from among them before starting the game.
+1. Load many images into your database and allow the user to select from among them before starting the game.
