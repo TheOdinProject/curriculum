@@ -63,7 +63,7 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
 Next, we'll add some commands to allow rbenv to work properly. We can use the Linux `echo` command to make it easy.
 
-Note: Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
+Note: Run these commands one by one in sequence. They will not provide any output if not done properly. Again, be sure to copy and paste these commands.
 
 ~~~bash
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
