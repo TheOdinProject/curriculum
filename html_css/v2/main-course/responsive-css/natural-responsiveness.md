@@ -49,8 +49,6 @@ Here's a statement so obvious that it sounds like a joke: flexbox was _created_ 
 2. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
-### Practice
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
