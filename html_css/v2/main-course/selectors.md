@@ -152,13 +152,14 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 ~~~html
 <style>
   .emojify::before {
-  content: '😎 🥸 🤓';
+    content: '😎 🥸 🤓';
 }
 
-.emojify::after {
-  content: '🤓 🥸 😎';
+  .emojify::after {
+    content: '🤓 🥸 😎';
 }
 </style>
+
 <body>
   <div> Let's <span class="emojify">emojify</span>this span!</div>
 </body>
