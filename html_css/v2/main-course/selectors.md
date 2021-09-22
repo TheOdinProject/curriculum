@@ -3,6 +3,8 @@ By now you should be comfortable with basic CSS selectors and have no trouble gr
 
 These selectors can be especially useful when you can't (or don't want to) change your HTML markup.
 
+There are _a lot_ of advanced selectors, so going through every single one is outside the scope of this lesson. However, we'll go through some of the most useful and common ones, as well as arm you with the concepts and vocabulary to learn more on your own.
+
 As always feel free to open up your code editor and run you own experiments with these selectors - practice makes perfect!
 
 ### Learning Outcomes
@@ -12,7 +14,7 @@ As always feel free to open up your code editor and run you own experiments with
 * Learn about the different ways to select an attribute or its parts
 
 ### Parent and Sibling Combinators
-Let's have a look at some ways we can access different divs _without_ referring to their classes. Here are three new selectors to do just that.
+Let's have a look at some more ways we can access different elements _without_ referring to their classes. Here are three new selectors to do just that.
 
 * `>` - the child combinator
 * `+` - the adjacent sibling combinator
@@ -258,25 +260,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * What is the difference between `div:first-child` and `div :first-child`? What will each select?
 * What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?
 * How could you select all input elements with a type of text?
-* How could you select all classes that begin with 'thunder' ?
-
-
-### End --------------- Remove this and everything below before publishing
-
-### Lesson Notes
-
-- Touch on specificity rules of these?
-- Delete prettier file before PR
-- A note on old syntax? (: vs :: for CSS3 Pseudo elements)
-- Originally used MDN links for things, switched to CSS tricks almanacs because it's slightly 'friendlier' and example based'
-
-## Potential in lesson notes
-
-https://www.theodinproject.com/lessons/preview
-
-- Add link to foundations [selectors](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations)
-- Should I use images, or codepen embeds ala foundations?
-- Refactor combinator example to use original example
-- Assignment vs extra resources?
-- Too long? If yes, editing or break it up?
-- Check terminology - combinator specifics
+* How could you select all classes that begin with `thunder` ?
