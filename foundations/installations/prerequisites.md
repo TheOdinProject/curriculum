@@ -188,6 +188,18 @@ Installing Ubuntu is where the real changes start happening on your computer. Th
 
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
 
+#### Step 3.3: Configure BIOS/UEFI settings
+
+Now you are going to set up your boot settings so that when you boot your pc it will open up Ubuntu straight away and also give you the option to boot with Windows. 
+
+First you have to locate your BIOS/UEFI settings on your pc.
+For step-by-step instructions, please follow this [instruction guide](https://www.laptopmag.com/articles/access-bios-windows-10)
+
+Second you will need to locate the boot settings in your BIOS/UEFI.
+For step-by-step instructions, please follow this [instruction guide](https://www.lifewire.com/change-the-boot-order-in-bios-2624528)
+
+In the boot settings you are looking to change it to boot from Ubuntu. If you don't have this option you can also select USB.
+
 </details>
 
 <details markdown="block">
