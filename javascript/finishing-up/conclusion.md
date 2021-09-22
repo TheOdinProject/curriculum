@@ -1,4 +1,4 @@
-This is the end of the JavaScript course! At this point, you have a very solid skillst for front-end web development. With an understanding of sensible JavaScript code and ReactJS, you can create phenomenal and dynamic frontends.
+This is the end of the JavaScript course! At this point, you have a very solid skillset for front-end web development. With an understanding of sensible JavaScript code and ReactJS, you can create phenomenal and dynamic frontends.
 
 You should be able to use your newfound skillset to integrate your frontends with either Ruby on Rails or NodeJS - the backends Odin teaches. However, in fact, your frontend can integrate with any back-end technologies under the right circumstances! After all, you've spent time working with APIs from the frontend already!
 

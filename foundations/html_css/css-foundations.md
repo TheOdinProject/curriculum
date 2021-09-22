@@ -55,7 +55,7 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 
 #### Class Selectors
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class in an HTML file and select it in CSS:
+Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
 ~~~html
 <!-- index.html -->
@@ -438,6 +438,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 * Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied. 
 * [Changing the Font Family](https://www.bitdegree.org/learn/font-family-css#how-to-use-a-downloaded-font) goes over a few different ways on how to use custom fonts.

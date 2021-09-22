@@ -15,7 +15,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/courses/foundations/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 4. Create empty semantic HTML elements to enclose those sections.

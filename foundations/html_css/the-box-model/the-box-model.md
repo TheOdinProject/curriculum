@@ -1,6 +1,6 @@
 
 ### Introduction
-Now that you understand the basic syntax of HTML and CSS, we're going to get serious. The most important skills you need to master with CSS are _positioning_ and _layout_. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more so. After all, how may webpages can you find where absolutely every element is just stacked one on top of another?
+Now that you understand the basic syntax of HTML and CSS, we're going to get serious. The most important skills you need to master with CSS are _positioning_ and _layout_. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more so. After all, how many webpages can you find where absolutely every element is just stacked one on top of another?
 
 ### Learning Outcomes
 * You'll learn all about _the box model_.
@@ -41,6 +41,6 @@ The only real complication here is that there are multiple ways to manipulate th
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 ### Knowledge Check
-* What does the `box-sizing` css property do?
+* What does the `box-sizing` CSS property do?
 * Would you use `margin` or `padding` to create more space between 2 elements?
-* Would you use `margin` or `padding` to create more space between the contents of an element and it's border?
+* Would you use `margin` or `padding` to create more space between the contents of an element and its border?

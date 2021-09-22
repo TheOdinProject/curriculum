@@ -147,7 +147,7 @@ The parent, child, and sibling relationships between elements will become much m
 
 HTML comments are not visible to the browser, they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
-Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end of the comment, for example:
+Writing an HTML comment is simple, we just put `<!--` and `-->` at either end of the comment, for example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
@@ -159,12 +159,13 @@ Writing a HTML comment is simple, we just put `<!-—` and `-->` at either end o
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch Kevin Powells [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
-2. Watch Kevin Powells [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
+1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
+2. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
 3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, paragraphs and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) as the dummy text for the article content and headings.
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - Note: In the examples, you have probably noticed we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/),  it is used to generate dummy text you can use in place of real text as you build your sites.
 

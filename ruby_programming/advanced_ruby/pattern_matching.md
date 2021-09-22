@@ -630,7 +630,7 @@ age = 32
 job_title = 'leet coder'
 
 case data
-in [*, { name: ^name, age: ^age, first_language: first_language, job_title: ^job_title }]
+in [*, { name: ^name, age: ^age, first_language: first_language, job_title: ^job_title }, *]
 else
   first_language = nil
 end
@@ -644,11 +644,11 @@ With pattern matching we do need to consider the case if there is no match, with
 
 ### Wrapping Up
 
-Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool you don't need to reach for it in any use case. For data structures that are shallow just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure, with many checks for `nil` and a lot of edge case handling then it might be time to see if pattern matching brings something to the table.
+Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool you don't need to reach for it in every use case. For data structures that are shallow just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure, with many checks for `nil` and a lot of edge case handling then it might be time to see if pattern matching brings something to the table.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
 1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
-2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstructkeys-and-deconstruct).
+2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
 </div>
