@@ -1,6 +1,6 @@
 ### Introduction
 
-If you're programming with any other language, you pretty much start with a blank text file and go from there.  Programmers, the best of whom are pretty lazy folk (in a good way), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform.  So they batched that recycled code together and called it a framework.
+Programmers, the best of whom are pretty lazy folk (in a good way), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform.  So they batched that recycled code together and called it a framework.
 
 In addition to preventing repetition, frameworks provide great organization.  They tend to force you to organize your files and code in a way that keeps it highly modular and really clean.  When you start a new app with any framework, you're given dozens of folders already organized in a hierarchy which makes sense and follows good practice such as Model-View-Controller (MVC) separation principles.  It's not quite "color-by-numbers" for code, but it certainly keeps things ordered.
 

@@ -201,12 +201,13 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 1. [Watch Kevin Powell's HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5)
 2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6)
 3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7)
-4. [Read about the four main image formats that can used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
+4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [Interneting is hards treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
 

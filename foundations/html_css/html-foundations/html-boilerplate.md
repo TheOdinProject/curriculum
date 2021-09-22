@@ -129,7 +129,7 @@ Back in the `index.html` file lets add a heading (more on these later) to the bo
 Now if you refresh the page in the browser, you should see the changes take effect, and a heading  "Hello World!" will be displayed.
 
 ### VSCode Shortcut
-VSCode has a built in shortcut you can use for generating all the boilerplate in one go. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects to build some muscle memory with how to write the boilerplate code.
 
@@ -142,6 +142,7 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects so you can get used to that process and don't become reliant on extensions right away.

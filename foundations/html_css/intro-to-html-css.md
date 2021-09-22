@@ -15,7 +15,7 @@ If you want to get technical, HTML and CSS aren't _programming languages_ becaus
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content.  It isn't required, so consider it supplemental or if you need to dive deeper into something.
 
 * [This FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
 

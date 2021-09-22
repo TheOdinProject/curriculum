@@ -242,7 +242,6 @@ If we had used `Object.create` in this example, then we could safely edit the `N
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-<<<<<<< HEAD
 * [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explains the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
 * [This Video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [This Video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith to understand another point of view of extending objects from others by `Object.create`.
 * [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by 
@@ -257,10 +256,10 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
 - <a class="knowledge-check-link" href='#javascript-prototypical-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>
-=======
+
 * [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [this video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explain the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
 * [This video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains the `Object.create` method with useful details about it. He walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also, you can check out [this video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith for another point of view on extending objects by using `Object.create`.
 * [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) by 
 Nicholas C. Zakas is really great for understanding OOP in JavaScript. In this book, the author explains concepts simply and in-depth. He explores JavaScript's object-oriented nature, describing the language's unique implementation of inheritance and other key characteristics. The book isn't free but it's very valuable.
 * [This Stack Overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
->>>>>>> 9cadca4a7095b0a0a381d9184d5cabe7c89c5251
+- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does.</a>
