@@ -21,11 +21,11 @@ In your language of choice...
   6. Is there any noticeable differences in performance between the two programs? Can you figure out why?
 </div>
 
-### Peer Solutions
+### Peer Submissions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
-  <summary> Show Peer Solutions </summary>
+  <summary> Show Peer Submissions </summary>
 
 * Add your solution below this line!
 </details>
@@ -52,11 +52,11 @@ The first step is to actually understand what the merge sort algorithm is doing:
   3. (OPTIONAL) Build a second method `#merge_sort_iter` that achieves merging behaviour, but iteratively rather than recursively.
 </div>
 
-### Peer Solutions
+### Peer Submissions
 Submit a link below to this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_recursion.md) on the ruby course GitHub repo with your files in it by using a pull request. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.
 
 <details markdown="block">
-  <summary> Show Peer Solutions </summary>
+  <summary> Show Peer Submissions </summary>
 </details>
 
 ### Additional Resources

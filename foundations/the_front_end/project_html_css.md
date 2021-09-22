@@ -48,7 +48,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 ### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
 
-All of our projects have a "Peer Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you to compare your **completed** code to and see what other routes people have chosen to take with their project code and designs. 
+All of our projects have a "Peer Submissions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you to compare your **completed** code to and see what other routes people have chosen to take with their project code and designs. 
 
 We know it may be tempting to look at the solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
 

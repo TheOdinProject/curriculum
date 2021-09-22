@@ -99,12 +99,12 @@ Describe the requirements or users stories for the project in detail.
 
 Links that may help with the project if any
 
-### Peer Solutions
+### Peer Submissions
 
 Submit a solution with a pull request to this...
 
 <details markdown="block">
-  <summary> Show Peer Solutions </summary>
+  <summary> Show Peer Submissions </summary>
 
   *   Add your solution below this line!
 

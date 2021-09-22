@@ -61,11 +61,11 @@ def pretty_print(node = @root, prefix = '', is_left = true)
 end
 ~~~
 
-### Peer Solutions
+### Peer Submissions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
 
 <details markdown="block">
-  <summary> Show Peer Solutions </summary>
+  <summary> Show Peer Submissions </summary>
 
 * Add your solution below this line!
 * [nhleto's Solution](https://github.com/nhleto/Binary-Tree)
@@ -315,11 +315,11 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 ~~~
 </div>
 
-### Peer Solutions
+### Peer Submissions
 Submit a pull request with a link to your solution in this [file](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/computer_science/project_data_structures_algorithms.md) when your project is complete. See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for details on how.
 
 <details markdown="block">
-  <summary> Show Peer Solutions </summary>
+  <summary> Show Peer Submissions </summary>
 
 * Add your solution below this line!
 * [Risan's Solution](https://github.com/risanto/knight-travails) - [View in repl.it](https://repl.it/@Risanto/knight-travails#knight_moves.rb)
