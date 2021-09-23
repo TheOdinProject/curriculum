@@ -38,7 +38,7 @@ The only real complication here is that there are multiple ways to manipulate th
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+This section is reserved for supplemental helpful links to other content. If you know of any that you think are useful, please add them here!
 
 ### Knowledge Check
 * What does the `box-sizing` CSS property do?
