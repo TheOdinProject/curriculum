@@ -235,7 +235,7 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! Our curriculum currently uses version 2.7.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+We can now (finally) install Ruby! Our curriculum currently uses version 2.7.4, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 ~~~bash
 rbenv install 2.7.4 --verbose
@@ -249,7 +249,7 @@ Once Ruby is installed, you need to tell rbenv which version to use by default. 
 rbenv global 2.7.4
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.2:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.4:
 
 ~~~bash
 $ ruby -v

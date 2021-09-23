@@ -268,7 +268,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
 * [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
-* [Understanding Polymorphic Associations in Rails](https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
+* [Understanding Polymorphic Associations in Rails](https://web.archive.org/web/20210507031450/https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
 * [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
 * [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
 * [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
