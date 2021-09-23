@@ -40,8 +40,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421">What is the difference between objects and arrays?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">What is _Array.prototype.map()_ useful for?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">What is _Array.prototype.reduce()_ useful for?</a>
-- <a class="knowledge-check-link" href="https://www.c-sharpcorner.com/blogs/find-vs-filter-in-javascrtipt">What is the difference between _Array.prototype.find()_ and _Array.prototype.filter()_?</a>
