@@ -20,7 +20,7 @@
     "core-js": "^3.17.3",
     "hint.css": "^2.6.0",
     "jquery": "^3.6.0",
-    "js-base64": "^3.7.0",
+    "js-base64": "^3.7.2",
     "popper.js": "^1.16.1",
     "postcss": "^7",
     "prismjs": "^1.25.0",
