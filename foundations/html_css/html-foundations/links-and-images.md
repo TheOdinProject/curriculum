@@ -36,7 +36,7 @@ Add the following to the body of the index.html page we created and open it in t
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-An HTML attribute gives additional information to an HTML element and always goes in the elements opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
