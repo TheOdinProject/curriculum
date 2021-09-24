@@ -20,11 +20,11 @@ A full paragraph element looks like this:
 
 ![Elements Diagram](https://cdn.statically.io/gh/TheOdinProject/curriculum/5e4a39cf0c23dd96f988bbf8197a9370a50dc2c4/html_css/v2/foundations/html-foundations/imgs/element-diagram.png)
 
-You can think of elements as containers for content; the opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
+You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
 
 There are some HTML elements that do not have a closing tag. These are known as empty elements because they don't wrap any content. We will encounter a few of these in later lessons, but for the most part, elements will have both opening and closing tags.
 
-HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) which you can use to create all kinds of different elements. It is important to use the correct tags for content; using the correct tags can have a big impact on two things: how your webpages are ranked in search engines, and how accessible your sites are to users who rely on assistive technologies, like screen readers, to use the internet.
+HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) that you can use to create all kinds of different elements. It is important to use the correct tags for content. Using the correct tags can have a big impact on two aspects of your sites: how they are ranked in search engines; and how accessible they are to users who rely on assistive technologies, like screen readers, to use the internet.
 
 Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the curriculum.
 
