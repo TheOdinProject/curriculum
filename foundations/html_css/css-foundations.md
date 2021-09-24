@@ -17,6 +17,9 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
+> A note:
+> A `<div>` is one of the basic HTML elements. It is simply an empty container. In general it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+
 ### Selectors
 
 Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
