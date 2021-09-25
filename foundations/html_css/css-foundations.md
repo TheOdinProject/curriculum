@@ -17,6 +17,9 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
+> A note:
+> A `<div>` is one of the basic HTML elements. It is simply an empty container. In general it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+
 ### Selectors
 
 Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
@@ -194,7 +197,18 @@ There are some CSS properties that you're going to be using all the time, or at 
 
 The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
 
-Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX (`#ff0000`), RGB (`rgb(255, 0, 0)`), and HSL (`hsl(0, 100%, 50%)`) values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX,  RGB, and HSL values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+
+~~~css
+p {
+  /* hex example: */
+  color: #1100ff;
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+~~~
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
