@@ -14,6 +14,13 @@ def node_js_lessons
       url: '/nodeJS/getting-started/Getting-Started.md',
       identifier_uuid: 'e03532e7-1e00-4e47-a36e-a5cddeca0f43',
     },
+    'Debugging Node' => {
+      title: 'Debugging Node',
+      description: "You'll learn how to effectively debug NodeJS code.",
+      is_project: false,
+      url: '/nodeJS/getting-started/debugging-node.md',
+      identifier_uuid: '8c6f41d0-1e59-11ec-9621-0242ac130002',
+    },
     'Basic Informational Site' => {
       title: 'Basic Informational Site',
       description: "Use what you've learned to build a very simple website skeleton",
