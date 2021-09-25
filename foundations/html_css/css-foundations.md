@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson we're going to focus on what we believe are some foundational CSS concepts, things that anyone should know from the beginning, whether they are just starting out or simply need a refresher.
+In the previous lesson you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning - whether they are just starting out or simply need a refresher.
 
 ### Learning Outcomes
 
@@ -19,7 +19,7 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ### Selectors
 
-Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 #### Universal Selector
 
@@ -146,7 +146,7 @@ Another way to use selectors is to chain them as a list without any separation. 
 </div>
 ~~~
 
-We have two elements with the `subsection` class that has some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
+We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
 
 ~~~css
 .subsection.header {
@@ -374,7 +374,7 @@ A note on file names: `styles.css` is just what we went with as the file name he
 
 A couple of the pros to this method are:
 
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner
+1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner.
 2. We only need to edit the CSS in *one* place, which is especially handy for websites with multiple pages that all share similar styles.
 
 #### Internal CSS
@@ -425,7 +425,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 2. Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
-    It's completely open to how you actually style it, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume so feel free to go a little crazy for now.
+    How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume, so feel free to go a little crazy for now.
 
     We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
