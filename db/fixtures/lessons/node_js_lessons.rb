@@ -29,7 +29,7 @@ def node_js_lessons
       is_project: false,
       url: '/nodeJS/mongoDB/intro_to_mongodb.md',
       identifier_uuid: '32828188-1e58-11ec-9621-0242ac130002',
-    }
+    },
     'Introduction to Express' => {
       title: 'Introduction to Express',
       description: 'We look at Express for the first time and learn what it does for us',
