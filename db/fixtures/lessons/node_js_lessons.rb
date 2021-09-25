@@ -23,6 +23,13 @@ def node_js_lessons
       has_live_preview: true,
       identifier_uuid: 'de746d83-dcce-48f0-a0ba-72d117d0ac05',
     },
+    'Introduction to MongoDB' => {
+      title: 'Introduction to MongoDB',
+      description: 'Let\'s check out MongoDB and take a dedicated Mongo course',
+      is_project: false,
+      url: '/nodeJS/mongoDB/intro_to_mongodb.md',
+      identifier_uuid: '32828188-1e58-11ec-9621-0242ac130002',
+    }
     'Introduction to Express' => {
       title: 'Introduction to Express',
       description: 'We look at Express for the first time and learn what it does for us',
