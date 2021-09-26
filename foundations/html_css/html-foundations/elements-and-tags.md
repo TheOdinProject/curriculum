@@ -40,5 +40,5 @@ This section contains helpful links to other content.  It isn't required, so con
 
 ### Knowledge Check
 
-- What is a HTML tag?
-- What are the three parts of a HTML element?
+- What is an HTML tag?
+- What are the three parts of an HTML element?
