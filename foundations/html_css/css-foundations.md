@@ -4,12 +4,12 @@ In the previous lesson you learned how to write the HTML that determines how a w
 
 ### Learning Outcomes
 
-By the end of this lesson, you should be able to:
+By the end of this lesson, you should be able to
 
-* Add styles to HTML with CSS
-* Understand how to use the class and ID attributes
-* Add styles to specific elements using the correct selectors
-* Understand what the cascade does
+* Add styles to HTML with CSS.
+* Understand how to use the class and ID attributes.
+* Add styles to specific elements using the correct selectors.
+* Understand what the cascade does.
 
 ### Basic Syntax
 
@@ -249,7 +249,7 @@ The cascade is what determines which rules actually get applied to our HTML. The
 
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson.
+A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson:
 
 1. ID selectors (most specific selector)
 2. Class selectors
@@ -429,9 +429,9 @@ The first thing to note is that we don't actually use any selectors here, since 
 
 If you need to add a *unique* style for a *single* element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
-* It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated
-* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat
-* Any inline CSS will override the other two methods, which can cause unexpected results (while we won't dive into it here, this can actually be taken advantage of)
+* It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
+* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
+* Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of).
 
 ### Practice
 
