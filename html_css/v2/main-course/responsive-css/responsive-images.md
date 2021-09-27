@@ -5,7 +5,7 @@ Images require a little special care on responsive websites. This lesson will pr
 * You'll learn how to make your images behave properly when resizing them with CSS.
 * You'll learn how to serve up different images based on screen-size.
 
-### The basics
+### The Basics
 
 The most basic problem that you are going to face when working with responsive images is the aspect-ratio, or the relationship between width and height. If you shrink the width of an image on smaller screens, and do not also manipulate the height the image will appear distorted!
 
@@ -34,7 +34,7 @@ Here's a demo of `object-fit` on an image. Open this one up on CodePen and resiz
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Even _more_ control!
+### Even _More_ Control!
 It is also possible to literally use _different_ images for different screen sizes. This gives you the most control over exactly how your images are displayed at various resolutions. For example, instead of just trusting `object-fit` to keep the subject of a photograph in frame, you could present a cropped version of it on smaller screens. There are two ways of achieving this, but the most flexible is using the `<picture>` tag, which you'll see in the reading assignment.
 
 ### Assignment
@@ -45,7 +45,8 @@ It is also possible to literally use _different_ images for different screen siz
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
 * [Responsive Images 101](https://cloudfour.com/thinks/responsive-images-101-definitions/) is a good series of articles if you need another source.
 
 ### Knowledge Check
