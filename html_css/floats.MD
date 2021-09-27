@@ -12,13 +12,12 @@ The way that `float` works is that it takes an element out of the normal layout 
 
 Let's say we want a second paragraph to *not* wrap around the image, but to be displayed completely beneath the image. We can then use `clear: left;` to allow this second paragraph to clear a floated image. `clear`, and floatleft, right, or both to clear items which are floated to the left, right, or both directions.
 
-Let's talk about a problem that sometimes occurs with these two properties. Say you want to take your image, and your first paragraph, and put them into a box that will wrap those two elements. If we attempt to `float` the image so that the first paragraph wraps around it, and then `clear` the second paragraph past the wrapper - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniture layout within the page, inside of which everything is contained.
+### Problems with float
+While `float` was first used to wrap text around an image, as developers realised that you can float *anything*, the property quickly became a commonplace tool for creating creating webpage layouts. This led to problems such as the one we're about to discuss'.
 
-### History of Floats
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
-https://css-tricks.com/is-css-float-deprecated/
-While `float` was first used to wrap text around an image, it quickly became a commonplace tool for creating creating webpage layouts.  As time went by programmers began using it to create layoutsDiscuss the fact that floats were used for layout back in the day
-Mention that floats remove content from the normal document flow
+Say you want to take your image, and your first paragraph, and put them into a box that will wrap those two elements. If we attempt to `float` the image so that the first paragraph wraps around it, and then `clear` the second paragraph past the wrapper - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniture layout within the page, inside of which everything is contained.
+
+Problems such as this one used to require various hacks to work around, and are part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods).
 
 ### Shapes
 Discuss how shapes are used with'shape-outside'.
