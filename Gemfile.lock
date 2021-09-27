@@ -171,7 +171,7 @@ GEM
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
-    faraday (1.7.1)
+    faraday (1.8.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -476,7 +476,7 @@ GEM
       activerecord (>= 3.1)
       activesupport (>= 3.1)
     semantic_range (3.0.0)
-    sentry-rails (4.7.2)
+    sentry-rails (4.7.3)
       railties (>= 5.0)
       sentry-ruby-core (~> 4.7.0)
     sentry-ruby (4.7.2)
@@ -609,7 +609,7 @@ DEPENDENCIES
   ruby-progressbar (~> 1.11.0)
   sass-rails (~> 6.0)
   seed-fu (~> 2.3.9)
-  sentry-rails (~> 4.7.2)
+  sentry-rails (~> 4.7.3)
   sentry-ruby (~> 4.7.2)
   shoulda-matchers
   sidekiq
