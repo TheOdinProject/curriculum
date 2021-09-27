@@ -22,12 +22,25 @@ course.add_section do |section|
   )
 end
 
+# ++++++++++++++++++++++++++++++++
+# SECTION - MongoDB
+# ++++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'MongoDB'
+  section.description = "In this section you'll learn about creating and querying a MongoDB database, as well as the differences between relational databases and a NoSQL option like MongoDB."
+  section.identifier_uuid = '8cbb031e-1e58-11ec-9621-0242ac130002'
+
+  section.add_lessons(
+    node_js_lessons.fetch('Introduction to MongoDB'),
+  )
+end
+
 # +++++++++++++++++++++++++++
-# SECTION - Express & MongoDB
+# SECTION - Express & Mongoose
 # +++++++++++++++++++++++++++
 course.add_section do |section|
-  section.title = 'Express & MongoDB'
-  section.description = 'Here we finally get to Express, the most popular back-end JavaScript framework, and MongoDB, a non-relational database frequently paired with Node.'
+  section.title = 'Express & Mongoose'
+  section.description = 'Here we finally get to Express, the most popular back-end JavaScript framework, and learn to build applications with MongoDB using Mongoose.'
   section.identifier_uuid = '667788c1-67b9-4ed1-9b72-c5e8bc6f9009'
 
   section.add_lessons(
