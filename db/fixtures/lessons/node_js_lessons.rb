@@ -34,7 +34,7 @@ def node_js_lessons
       title: 'Introduction to MongoDB',
       description: 'Let\'s check out MongoDB and take a dedicated Mongo course',
       is_project: false,
-      url: '/nodeJS/mongoDB/intro_to_mongodb.md',
+      url: '/nodeJS/mongoDB/intro_to_mongoDB.md',
       identifier_uuid: '32828188-1e58-11ec-9621-0242ac130002',
     },
     'Introduction to Express' => {
