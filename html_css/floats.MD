@@ -26,14 +26,14 @@ While this may seem like it's not that different, things get really crazy when w
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. For some really quick practice using [float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats_skills), MDN created three quick exercises you can use to acquire familiarity with its proper use.
-2. 
+1. For some really quick practice using `float`, MDN created [three quick exercises](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats_skills) you can use to acquire familiarity with its proper use.
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
-* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has great documentation.
+* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation on `float`.
 
 ### Knowledge Check
 * What is the main use for floats in the present day?
 * Why should floats not be used for modifying the layout of a page?
+* What other shapes can be created for text to wrap around?
