@@ -1,5 +1,5 @@
 ### Introduction
-While today floats are mainly used for wrapping text around images, it's worthwhile to understand what they were previously used for and why we should steer away from using them for other purposes.
+While floats are currently used predominantly for wrapping text around images it's worthwhile to understand what they were previously used for, and why we should steer away from using them for other purposes.
 
 ### Learning Outcomes
 * You'll learn how to properly use floats. 
@@ -8,16 +8,16 @@ While today floats are mainly used for wrapping text around images, it's worthwh
 ### Present Day Use of Floats
 In the past `float` was commonly used to create entire webpage layouts. While we will discuss this later on in the lesson, it is important to know that in the present day `float` should **only** be used to wrap text around images. When working with layout, stick with Flexbox or Grid.
 
-The way that `float` works is that it takes an element out of the normal layout flow of the document, puts that element to the side, and lets the other content flow around it. So if an our element is an image, and we give it the property `float: left;`, it will now be taken out of the normal layout flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the image to the right of the image. 
+The way the `float` property works is that it takes an element out of the normal layout flow of the document, puts that element to the side, and lets the other content flow around it. So if our element is an image and we give it the property `float: left;`, it will now be taken out of the normal layout flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the image to the right of the image. 
 
-Let's say we want a second paragraph to *not* wrap around the image, but to be displayed completely beneath the image. We can then use `clear: left;` to allow this second paragraph to clear a floated image. `clear`, and floatleft, right, or both to clear items which are floated to the left, right, or both directions.
+Let's say we want a second paragraph to *not* wrap around the image, but to be displayed not only beneath the first paragraph but also entirely beneath the image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned left, right, or both to clear items which have been floated to the left, right, or in both directions.
 
 ### Problems with float
-While `float` was first used to wrap text around an image, as developers realised that you can float *anything*, the property quickly became a commonplace tool for creating creating webpage layouts. This led to problems such as the one we're about to discuss'.
+While `float` was first used to wrap text around an image, as developers realised that you can float *anything* the property quickly became a commonplace tool for creating creating webpage layouts. This led to problems such as the one we're about to discuss'.
 
-Say you want to take your image, and your first paragraph, and put them into a box that will wrap those two elements. If we attempt to `float` the image so that the first paragraph wraps around it, and then `clear` the second paragraph past the wrapper - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniture layout within the page, inside of which everything is contained.
+Say you want to take your image, and your first paragraph, and put them into a box that will contain those two elements. If we attempt to `float: left;` the image so that the first paragraph is on its right, and then `clear` the second paragraph past the box container - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniture layout within the page, inside of which everything is contained.
 
-Problems such as this one used to require various hacks to work around, and are part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods).
+Problems such as this one used to require various hacks to work around, and are part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods), and using CSS Grid or Flexbox is preferred.
 
 ### Shapes
 Wrapping text around images with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). 
