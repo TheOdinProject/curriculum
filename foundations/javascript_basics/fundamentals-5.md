@@ -42,5 +42,5 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">What is _Array.prototype.map()_ useful for?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">What is _Array.prototype.reduce()_ useful for?</a>
+- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is _Array.prototype.map()_ useful for?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is _Array.prototype.reduce()_ useful for?</a>
