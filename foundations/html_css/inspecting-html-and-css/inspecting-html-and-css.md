@@ -42,7 +42,7 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 - [Overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here, just get familiar with _what_ tools are available in the DevTools rather than how to use all of them right now.
 - [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
 - [CSS](https://developer.chrome.com/docs/devtools/#css): be sure to follow along with any interactive instructions!
-- [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skim through any part that uses the JavaScript console.
+- [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
 
 For Firefox users:
 
@@ -52,7 +52,6 @@ For Firefox users:
 </div>
 
 ### Additional Resources
-
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 ### Knowledge Check

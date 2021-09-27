@@ -41,6 +41,6 @@ The only real complication here is that there are multiple ways to manipulate th
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
 ### Knowledge Check
-* What does the `box-sizing` css property do?
+* What does the `box-sizing` CSS property do?
 * Would you use `margin` or `padding` to create more space between 2 elements?
-* Would you use `margin` or `padding` to create more space between the contents of an element and it's border?
+* Would you use `margin` or `padding` to create more space between the contents of an element and its border?

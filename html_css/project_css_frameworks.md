@@ -8,7 +8,7 @@ Once you're done setting up your framework, you will use it to clone any website
 You'll be creating your own grid-based framework.
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/courses/foundations/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
 2. Create a new CSS document.
 3. Think about the major elements that are required of a framework.  This includes a CSS reset, a fixed number of grids separated by "gutters", a way to make new rows, and default values for the font properties of elements.
 4. Write the CSS necessary to create a basic 12-column grid framework.  Check out the [960 Grid System documentation](http://960.gs) for a look at how they do it.  The complexity is up to you -- there's no need to go too crazy with details (you're not trying to rebuild Bootstrap).

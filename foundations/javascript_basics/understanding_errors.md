@@ -128,6 +128,6 @@ Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn
 
 ### Knowledge Check:
 
-- What are three reasons why you may see a TypeError?
-- What is the key difference between an error and a warning?
-- What is one method you can use to resolve an error?
+- <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
+- <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
+- <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>

@@ -40,7 +40,7 @@ To give you a good bit of practice, we have created some repl.it exercises for y
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
 To get started, create a free repl account and click "Fork" in order to have access to the exercises. 
-Note: Feel free to browse the files on the left column in order to gain familarity with it. 
+Note: Feel free to browse the files on the left column in order to gain familiarity with it. 
 
 - [Exercise 1](https://repl.it/@I3uckwheat/troubleshooting#troubleshooting.js)
   * In this exercise, you will be working out of the file called troubleshooting.js
