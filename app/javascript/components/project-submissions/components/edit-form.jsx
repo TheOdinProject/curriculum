@@ -41,7 +41,7 @@ const EditForm = ({
 
   /* eslint-disable react/jsx-props-no-spreading */
   return (
-    <div>
+    <div data-test-id="edit-form">
       <h1 className="text-center accent">Edit Your Project</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>

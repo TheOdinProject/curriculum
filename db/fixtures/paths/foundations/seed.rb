@@ -3,7 +3,7 @@
 # ************************
 path = Seeds::PathSeeder.create do |path|
   path.title = 'Foundations'
-  path.description = "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses."
+  path.description = "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do and the foundations you'll need for later courses."
   path.identifier_uuid = '33d7d165-e564-4ccd-9ac5-99b3ada05cd3'
   path.position = 1
   path.default_path = true
@@ -69,18 +69,54 @@ course.add_section do |section|
 end
 
 # +++++++++++++++++++++++++++++++
-# SECTION - The Front End
+# SECTION - HTML
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
-  section.title = 'The Front End'
-  section.description = "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and JavaScript. You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with JavaScript."
-  section.identifier_uuid = '552d3718-14c6-4b0a-848d-2dcca271ac61'
+  section.title = 'HTML Foundations'
+  section.description = 'Learn the foundations of HTML, a fundamental building block of everything on the web.'
+  section.identifier_uuid = '8b6abb7a-095f-4c1d-b81f-e348aaaf2894'
 
   section.add_lessons(
-    foundation_lessons.fetch('Introduction to the Front End'),
-    foundation_lessons.fetch('HTML and CSS Basics'),
-    foundation_lessons.fetch('Developer Tools'),
-    foundation_lessons.fetch('Google Homepage'),
+    foundation_lessons.fetch('Introduction to HTML and CSS'),
+    foundation_lessons.fetch('Elements and Tags'),
+    foundation_lessons.fetch('HTML Boilerplate'),
+    foundation_lessons.fetch('Working with Text'),
+    foundation_lessons.fetch('Lists'),
+    foundation_lessons.fetch('Links and Images'),
+    foundation_lessons.fetch('Recipes'),
+  )
+end
+
+# +++++++++++++++++++++++++++++++
+# SECTION - CSS Basics
+# +++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'CSS Foundations'
+  section.description = 'Learn how to make your HTML look the way you want by adding styles with CSS.'
+  section.identifier_uuid = 'd2476929-d71b-4b25-969b-8f7da6a40c94'
+
+  section.add_lessons(
+    foundation_lessons.fetch('CSS Foundations'),
+    foundation_lessons.fetch('Inspecting HTML and CSS'),
+    foundation_lessons.fetch('The Box Model'),
+    foundation_lessons.fetch('Block and Inline'),
+  )
+end
+
+# +++++++++++++++++++++++++++++++
+# SECTION - HTML
+# +++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Flexbox'
+  section.description = 'Learn how to put things exactly where you want them on your web projects using flexbox.'
+  section.identifier_uuid = '1cac0d64-f276-4999-8ff1-85d37797c312'
+
+  section.add_lessons(
+    foundation_lessons.fetch('Introduction'),
+    foundation_lessons.fetch('Growing and Shrinking'),
+    foundation_lessons.fetch('Axes'),
+    foundation_lessons.fetch('Alignment'),
+    foundation_lessons.fetch('Landing Page'),
   )
 end
 
@@ -95,7 +131,7 @@ course.add_section do |section|
   section.add_lessons(
     foundation_lessons.fetch('Fundamentals Part 1'),
     foundation_lessons.fetch('Fundamentals Part 2'),
-    foundation_lessons.fetch('Developer Tools 2'),
+    foundation_lessons.fetch('JavaScript Developer Tools'),
     foundation_lessons.fetch('Fundamentals Part 3'),
     foundation_lessons.fetch('Problem Solving'),
     foundation_lessons.fetch('Understanding Errors'),

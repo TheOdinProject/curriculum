@@ -77,6 +77,22 @@ course.add_section do |section|
   )
 end
 
+# ++++++++++++++++++++++++++++
+# SECTION - Testing JavaScript
+# ++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Testing JavaScript'
+  section.description = "Test driven development is an important skill in today's dev world. This section digs into the details of writing automated JavaScript tests."
+  section.identifier_uuid = 'c8526cf6-d66c-40f8-b03e-97c1f086d8c1'
+
+  section.add_lessons(
+    javascript_lessons.fetch('Testing Basics'),
+    javascript_lessons.fetch('Testing Practice'),
+    javascript_lessons.fetch('More Testing'),
+    javascript_lessons.fetch('Battleship'),
+  )
+end
+
 # ++++++++++++++++++
 # SECTION - React JS
 # ++++++++++++++++++
@@ -96,22 +112,6 @@ course.add_section do |section|
     react_lessons.fetch('Router'),
     react_lessons.fetch('Shopping Cart'),
     react_lessons.fetch('Advanced Concepts'),
-  )
-end
-
-# ++++++++++++++++++++++++++++
-# SECTION - Testing JavaScript
-# ++++++++++++++++++++++++++++
-course.add_section do |section|
-  section.title = 'Testing JavaScript'
-  section.description = "Test driven development is an important skill in today's dev world. This section digs into the details of writing automated JavaScript tests."
-  section.identifier_uuid = 'c8526cf6-d66c-40f8-b03e-97c1f086d8c1'
-
-  section.add_lessons(
-    javascript_lessons.fetch('Testing Basics'),
-    javascript_lessons.fetch('Testing Practice'),
-    javascript_lessons.fetch('More Testing'),
-    javascript_lessons.fetch('Battleship'),
   )
 end
 
