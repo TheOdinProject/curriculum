@@ -20,9 +20,9 @@ Say you want to take your image, and your first paragraph, and put them into a b
 Problems such as this one used to require various hacks to work around, and are part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods).
 
 ### Shapes
-Discuss how shapes are used with'shape-outside'.
-Discuss how shapes are used with the chrome shape-editor. 
-This is relatively niche behavior, but it is something fun that's worth mentioning!
+Wrapping text around images with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). 
+
+While this may seem like it's not that different, things get really crazy when we have a look at [Chrome's CSS Shapes Editor Extention](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp?hl=en-US). Whoa! While by no means necessary, this is a fascinating interactive tool that lets you create and adjust the shapes with an interactive editor.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -32,7 +32,7 @@ This is relatively niche behavior, but it is something fun that's worth mentioni
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
-* [For some practice using floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats_skills) MDN has some great quick exercises.
+* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has great documentation.
 
 ### Knowledge Check
 * What is the main use for floats in the present day?
