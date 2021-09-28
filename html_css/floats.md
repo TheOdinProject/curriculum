@@ -1,5 +1,5 @@
 ### Introduction
-While floats are currently used predominantly for wrapping text around images it's worthwhile to understand what they were previously used for, and why we should steer away from using them for other purposes.
+While floats are used predominantly for wrapping text around images, it's worth understanding what they were previously used for, and why we should steer away from using them for those purposes.
 
 ### Learning Outcomes
 * You'll learn how to properly use floats. 
