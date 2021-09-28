@@ -3,10 +3,11 @@ While floats are used predominantly for wrapping text around images, it's worth 
 
 ### Learning Outcomes
 * You'll learn how to properly use floats. 
-* You'll learn why to avoid using floats the way they were used in the past, and their history.
+* Learn how floats work and how to use them
+* Understand how floats were used in the past, and why to avoid these methods in the present
 
 ### Present Day Use of Floats
-In the past `float` was commonly used to create entire webpage layouts. While we will discuss this later on in the lesson, it is important to know that in the present day `float` should **only** be used to wrap text around images. When working with layout, stick with Flexbox or Grid.
+In the past, `float` was commonly used to create entire webpage layouts. While we will discuss this later on in the lesson, it is important to know that in the present day `float` should **only** be used to wrap text around images. When working with layouts, stick with Flexbox or Grid.
 
 The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is an image and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the right side of the image. 
 
@@ -17,7 +18,7 @@ While `float` was first used to wrap text around an image, developers soon reali
 
 Say you want to take your image and your first paragraph, and put them into a box that will contain those two elements. If we attempt to `float: left;` the image so that the first paragraph is on its right, and then `clear` a second paragraph past the box container - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniature layout within the page, inside of which everything is contained.
 
-Problems such as this one used to require various hacks to work around, and are part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods), and using CSS Grid or Flexbox is preferred.
+Problems such as this used to require various hacks to work around, and are part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods). Today, using CSS Grid or Flexbox is preferred.
 
 ### Shapes
 Wrapping text around images with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). 
@@ -31,7 +32,7 @@ While this may seem like it's not that different, things get really crazy when w
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
-* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation on `float`.
+* [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation.
 
 ### Knowledge Check
 * What is the main use for floats in the present day?
