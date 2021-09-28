@@ -1,5 +1,5 @@
 #######################
-# Course - Ruby
+# Course - NodeJS
 #######################
 course = @path.add_course do |course|
   course.title = 'NodeJS'
@@ -18,6 +18,7 @@ course.add_section do |section|
   section.add_lessons(
     node_js_lessons.fetch('Introduction: What is NodeJs'),
     node_js_lessons.fetch('Getting Started'),
+    node_js_lessons.fetch('Debugging Node'),
     node_js_lessons.fetch('Basic Informational Site'),
   )
 end
