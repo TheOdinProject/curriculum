@@ -7,9 +7,16 @@ Floats are used predominantly for wrapping text around images, or various shapes
 * Understand how floats were used in the past, and why to avoid these methods in the present
 
 ### Basic Use
-The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is an image and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the right side of the image. 
+The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is a box and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the box, will now wrap around the right side of the box. Let's see what this will look like. Let's see what this looks like below.
 
-Now, let's say we want a second paragraph in the same container to *not* wrap around the image, but to be displayed beneath **both** the first paragraph and the floated image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions.
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWgoPdY" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/mgrigoriev8109/pen/NWgoPdY">
+  </a> by mgrigoriev8109 (<a href="https://codepen.io/mgrigoriev8109">@mgrigoriev8109</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+Now, let's say we want a second paragraph in the same container to *not* wrap around the image, but to be displayed beneath **both** the first paragraph and the floated image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions. 
 
 Let's talk about a problem we might encounter using `float` and `clear`. Say you want to take your image and your first paragraph, and put them into a box that will contain those two elements. If we attempt to `float: left;` the image so that the first paragraph is on its right, and then `clear` a second paragraph past the box container - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniature layout within the page, inside of which everything is contained.
 
