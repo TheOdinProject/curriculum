@@ -24,7 +24,7 @@ Why do we even need or want this stuff? What do you gain from all of this added 
 
 - Read [this article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html) for a bit of a history lesson. It's long, but it puts what we're doing here in great perspective. This article is a bit older, and those who have coded along with the example have frequently run into issues, so we don't suggest that you code along (you'll be following along with the official Webpack documentation later). Nevertheless, this article is extremely important conceptually and really clarifies the 'WHY' of the rest of this lesson.
 
-### npm
+### npm <span id="npm-knowledge-check"></span>
 
 The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you installed the Jest testing framework to do our exercises.
 
@@ -51,7 +51,8 @@ To get us started, we are going to refer to the official documentation.
 
 Let's discuss what's going on there. After installing webpack using npm, we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
 
-There are a couple of key concepts to understanding how webpack works: __entry__ and __output__. In this example, we rearranged the files into a `src` and `dist` folder. Technically, we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our source files looking for any `import` statements and then compiles _all_ of the actual code we need to run our site into a single file inside of the `dist` folder (short for _distribution_). Our __entry__ file, then, is the main file that links (either directly or indirectly) to all of the other modules in our project. In this example, it is `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
+<span id="npm-knowledge-check"></span> 
+There are a couple of key concepts to understanding how webpack works - __entry__ and __output__. In this example, we rearranged the files into a `src` and `dist` folder. Technically we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files looking for any `import` statements and then compiles _all_ of the code we need to run our site into a single file inside of the `dist` folder (short for _distribution_). Our __entry__ file, then is the main application file that links (either directly or indirectly) to all of the other modules in our project. In this example, it is `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
@@ -77,6 +78,7 @@ import { functionOne } from './functionOne';
 functionOne(); // this should work as expected!
 ~~~
 
+<span id="module-knowledge-check"></span> 
 There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and re-use it very easily!
 
 There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
@@ -123,7 +125,8 @@ document.body.appendChild(component());
 
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
-There are 2 different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. As a general rule, if you want to export multiple functions, use named exports like so:
+<span id="exports-knowledge-check"></span> 
+There are 2 different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. As a general rule if you want to export multiple functions use named exports with this pattern:
 
 ~~~javascript
 // a file called myModule.js
@@ -145,23 +148,19 @@ import {functionOne, functionTwo} from './myModule';
 
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 
-However, if you do only need to export and import a _single_ object - variable, class or function - from a module, you can use the `default` keyword like so: 
+The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
 
-~~~javascript
-// file called src/singleExport.js
-let myValue = true;
-let defaultExport = 10;
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-export default defaultExport;
-~~~
-
-When importing a "default" export, you can call it anything. For instance:
-
-~~~javascript
-// src/index.js
-import myDefault from ./singleExport;
-
-console.log(myDefault); // 10
-~~~
-
-The various import/export methods are best explained in the docs that we linked earlier: [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
+- <a class="knowledge-check-link" href="#npm-knowledge-check">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>
+- <a class="knowledge-check-link" href="https://docs.npmjs.com/creating-a-package-json-file">Describe what `npm init` does and what `package.json` is.</a>
+- <a class="knowledge-check-link" href="https://docs.npmjs.com/downloading-and-installing-packages-locally">Know how to install packages using npm.</a>
+- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe what a JavaScript module bundler like webpack is.</a>
+- <a class="knowledge-check-link" href="#webpack-knowledge-check">Explain what the concepts "entry" and "output" mean as relates to webpack.</a>
+- <a class="knowledge-check-link" href="https://webpack.js.org/concepts/dependency-graph/">Briefly explain what a development dependency is.</a>
+- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what "transpiling code" means and how it relates to frontend development.</a>
+- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Briefly describe what a task runner is and how it's used in frontend development.</a>
+- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe how to write an npm automation script.</a>
+- <a class="knowledge-check-link" href="#module-knowledge-check">Explain one of the main benefits of writing code in modules.</a>
+- <a class="knowledge-check-link" href="#exports-knowledge-check">Explain "named exports" and "default exports".</a>
