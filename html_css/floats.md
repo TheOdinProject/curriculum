@@ -10,7 +10,7 @@ In the past `float` was commonly used to create entire webpage layouts. While we
 
 The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is an image and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the right side of the image. 
 
-Let's say we want a second paragraph to *not* wrap around the image, but to be displayed not only beneath the first paragraph but also entirely beneath the image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned left, right, or both to clear items which have been floated to the left, right, or in both directions.
+Now, let's say we want a second paragraph in the same container to *not* wrap around the image, but to be displayed beneath **both** the first paragraph and the floated image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions.
 
 ### Problems with float
 While `float` was first used to wrap text around an image, as developers realised that you can float *anything* the property quickly became a commonplace tool for creating creating webpage layouts. This led to problems such as the one we're about to discuss'.
