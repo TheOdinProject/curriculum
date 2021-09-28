@@ -8,7 +8,7 @@ While floats are used predominantly for wrapping text around images, it's worth 
 ### Present Day Use of Floats
 In the past `float` was commonly used to create entire webpage layouts. While we will discuss this later on in the lesson, it is important to know that in the present day `float` should **only** be used to wrap text around images. When working with layout, stick with Flexbox or Grid.
 
-The way the `float` property works is that it takes an element out of the normal layout flow of the document, puts that element to the side, and lets the other content flow around it. So if our element is an image and we give it the property `float: left;`, it will now be taken out of the normal layout flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the image to the right of the image. 
+The `float` property works by taking an element out of the normal document flow, putting that element to the side, and letting other content flow around it. So if our element is an image and we give it the property `float: left;`, it will now be taken out of the normal document flow and placed in the left-hand side of its container. The remaining content, such as a paragraph following the image, will now wrap around the right side of the image. 
 
 Let's say we want a second paragraph to *not* wrap around the image, but to be displayed not only beneath the first paragraph but also entirely beneath the image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned left, right, or both to clear items which have been floated to the left, right, or in both directions.
 
