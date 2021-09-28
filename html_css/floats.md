@@ -13,7 +13,7 @@ The `float` property works by taking an element out of the normal document flow,
 Now, let's say we want a second paragraph in the same container to *not* wrap around the image, but to be displayed beneath **both** the first paragraph and the floated image. We can then use `clear: left;` to allow this second paragraph to clear the image that has been floated left. `clear` can be assigned `left`, `right`, or `both` to clear items which have been floated to the left, right, or in both directions.
 
 ### Problems with float
-While `float` was first used to wrap text around an image, as developers realised that you can float *anything* the property quickly became a commonplace tool for creating creating webpage layouts. This led to problems such as the one we're about to discuss'.
+While `float` was first used to wrap text around an image, developers soon realized that you can float almost *anything*, and the property quickly became a commonplace tool for creating webpage layouts. However, this led to problems, such as the one we're about to discuss.
 
 Say you want to take your image, and your first paragraph, and put them into a box that will contain those two elements. If we attempt to `float: left;` the image so that the first paragraph is on its right, and then `clear` the second paragraph past the box container - it won't work! This happens because the float was taken out of the normal flow of the document, and even though the second paragraph comes after the first paragraph, it will no longer clear. The most modern solution to this problem is to use `display: flow-root`, which creates a miniture layout within the page, inside of which everything is contained.
 
