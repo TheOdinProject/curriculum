@@ -20,5 +20,5 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
-- <a href="https://www.mongodb.com/scale/nosql-vs-relational-databases">What is the difference between a relational database and a non-relational database?</a>
--
+* <a class="knowledge-check-link" href="https://www.mongodb.com/scale/nosql-vs-relational-databases">What is the difference between a relational database and a non-relational database?</a>
+
