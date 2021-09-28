@@ -18,8 +18,6 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/learn) docs which you should follow along.
-  - Introduction
-    - Read the entire Quick Start section from [Introduction of Node.js](https://nodejs.dev/learn/introduction-to-nodejs) to [Differences between Node.js and the Browser](https://nodejs.dev/learn/differences-between-nodejs-and-the-browser). 
   - Get Started
     - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line) lesson.
     - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
@@ -73,3 +71,4 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 - This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
+- This [crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js, There are 12 videos in playlist you can consider them all.

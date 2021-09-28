@@ -2,6 +2,13 @@
 
 Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Know how to distinguish hard to read code between easy to read code.
+- Use programming principles to make your code cleaner.
+- Write good comments.
+
 Consider the following 2 snippets of JavaScript:  
 ugly, hard to read code:
 
@@ -84,8 +91,14 @@ Read through these articles that discuss a few elements of writing good clean co
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
 * [Airbnb style guide](https://github.com/airbnb/javascript)  
 * [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+
+### Knowledge check
+- <a href="#writing-clean-code">Why is it important to write clean code?</a>
+- <a href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">Name 5 clean code principles previously mentioned</a>
+- <a href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">What is the difference between good comments and bad comments?</a>
