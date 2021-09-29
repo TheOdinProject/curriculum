@@ -23,7 +23,7 @@ myObject.property // 'Value!'
 myObject["obnoxious property"] // [Function]
 ~~~
 
-Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you can not use variables in dot notation:
+Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation:
 
 ~~~javascript
 const variable = 'property'
@@ -75,7 +75,7 @@ function printName(player) {
 }
 ~~~
 
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name you would have to remember the correct variable name and then manually `console.log` it:
+This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually `console.log` it:
 
 ~~~javascript
 console.log(playerOneName)
@@ -91,11 +91,11 @@ function gameOver(winningPlayer){
 }
 ~~~
 
-Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
+Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
-### Object Constructors
+### Object Constructors <span id='javascript-object-constructor'></span>
 
-When you have a specific type of object that you need to duplicate like our player or inventory items a better way to create them is using an object constructor, which is a function that looks like this:
+When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:
 
 ~~~javascript
 function Player(name, marker) {
@@ -111,7 +111,7 @@ const player = new Player('steve', 'X')
 console.log(player.name) // 'steve'
 ~~~
 
-Just like with objects created using the Object Literal method you can add functions to the object:
+Just like with objects created using the Object Literal method, you can add functions to the object:
 
 ~~~javascript
 function Player(name, marker) {
@@ -132,7 +132,7 @@ player2.sayName() // logs 'also steve'
 
 ### Exercise
 
-Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book
+Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book.
 
 Put a function into the constructor that can report the book info like so:
 
@@ -140,22 +140,22 @@ Put a function into the constructor that can report the book info like so:
 theHobbit.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ~~~
 
-note: it is almost _always_ best to `return` things rather than putting `console.log()` directly into the function. In this case, return the `info` string and log it after the function has been called:
+Note: It is almost _always_ best to `return` things rather than putting `console.log()` directly into the function. In this case, return the `info` string and log it after the function has been called:
 
 ~~~javascript
 console.log(theHobbit.info());
 ~~~
 
-### The Prototype
+### The Prototype <span id='javascript-prototype'></span>
 
 Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties.
 
 This concept is an important one, so you've got some reading to do. Make sure you really get this before moving on!
 
-1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics are 'Prototype-based inheritance' and the 'Prototype chain'
-2. To go a bit deeper into both the chain and inheritance spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: this article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
+1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
+2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 
-If you've understood the concept of the prototype then this next bit about constructors will not be confusing at all!
+If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!
 
 ~~~javascript
 function Student(name, grade) {
@@ -171,11 +171,11 @@ Student.prototype.goToProm = function() {
 }
 ~~~
 
-If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor like we did when they were first introduced that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
+If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
 
-#### Recommended Method for Prototypal Inheritance
+#### Recommended Method for Prototypal Inheritance <span id='javascript-prototypical-inheritance'></span>
 
-So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ( [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method.) `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes you use it like so:
+So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method). `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes, you use it like so:
 
 ~~~javascript
 function Student() {
@@ -197,7 +197,7 @@ carl.sayName() // console.logs "carl"
 carl.grade // 8
 ~~~
 
-You can probably figure out what's going on here. After creating the constructor for EighthGrader we set it's prototype to a new object that has a copy of `Student.prototype`.
+You can probably figure out what's going on here. After creating the constructor for EighthGrader, we set its prototype to a new object that has a copy of `Student.prototype`.
 
 A warning... this doesn't work:
 
@@ -237,7 +237,7 @@ const carl = new EighthGrader("carl")
 carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ~~~
 
-If we had used `Object.create` in this example then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
+If we had used `Object.create` in this example, then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
@@ -247,3 +247,12 @@ This section contains helpful links to other content. It isn't required, so cons
 * [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by 
 Nicholas C. Zakas is really great to understand OOP in javascript, which explains concepts simply and in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
 * [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href='#javascript-object-constructor'>Write an object constructor and instantiate the object.</a>
+- <a class="knowledge-check-link" href='#javascript-prototype'>Describe what a prototype is and how it can be used.</a>
+- <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
+- <a class="knowledge-check-link" href='#javascript-prototypical-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
+- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>

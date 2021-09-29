@@ -6,7 +6,6 @@ We're going to make a simple implementation of grade-school classic "rock paper 
 
 1. Identify three ways to include JavaScript in a page.
 2. Test it out! Write `console.log("Hello World");` in JavaScript and check to see if it displays in the browser's console.
-3. If you haven't used it already, this is where the [VSCode Live Server extension](https://www.theodinproject.com/courses/foundations/lessons/text-editors#additional-set-up-live-server-extension-for-vscod) becomes handy! 
 
 Finally, this is your first JavaScript program built from scratch, so don't forget the previous lesson on problem solving. Plan your solution out before writing any code, and test each piece as you build to ensure it is working before moving on to the next!
 

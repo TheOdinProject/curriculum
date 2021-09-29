@@ -1,6 +1,23 @@
 ### Introduction
 Knowing how to use the Developer Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, and viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript.
 
+### Learning outcomes
+
+After completing this lesson, you will be able to:
+
+- Change screen size of a website with developer tools
+- View and change the DOM
+- Debug JavaScript 
+- Use breakpoints
+- View and edit html in the Elements tab
+- View the Resources Panel to check the scripts running on a website 
+- Add CSS Pseudostate to a Class
+- View CSS Properties in Alphabetical Order
+- View and edit the Box Model of any Element in Chrome DevTools
+- View a page in print mode
+- Enable or Disable CSS Classes
+- Simulate media queries in Device Mode
+
 ### Opening Dev Tools
 
 There are three ways to open the Developer Tools menu:
@@ -38,3 +55,11 @@ Google has updated some of the required sections in the below tutorials and some
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 1. Learn the new Firefox Dev Tools in this [Video](https://youtu.be/yznVkCuohGg) by Wes Bos
+
+### Knowledge Check 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a href="#opening-dev-tools"> How do you open developer tools? </a>
+- <a href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you change screen size of a website using developer tools?</a>
+- <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
+- <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>
