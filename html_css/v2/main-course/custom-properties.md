@@ -1,10 +1,8 @@
 ### Introduction
 
-Custom properties (also known as CSS variables) can be a really useful and powerful tool when writing our CSS files. In short, they allows us to reference a CSS value however many times we want throughout a file. How is this any different or better than just using the value, you ask?
+Custom properties (also known as CSS variables) can be a really useful and powerful tool when writing our CSS files. In short, they allows us to reference a CSS value however many times we want throughout a file. By using custom properties, instead of having to update every single instance of a specific value ("This shade of red is too light, let's change the shade on all seven of these selectors"), we only need to update a single instance: the custom property itself. Not only that, but custom properties can help us keep colors consistent throughout a project, something that will be really helpful as projects get larger.
 
-By using custom properties, instead of having to update every single instance of a specific value ("This shade of red is too light, let's change the shade on all seven of these selectors"), we only need to update a single instance: the custom property itself.
-
-Not only that, but we can even use the same custom property in different selectors, giving each instance of the property a different value. This is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
+We can even redefine custom properties under different contexts, which is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
 
 ### Learning Outcomes
 
@@ -13,17 +11,21 @@ Not only that, but we can even use the same custom property in different selecto
 
 ### Using Custom Properties
 
-The syntax for declaring a custom property is really simple, and it's actually pretty similar to how we make a normal rule declaration:
+The syntax for declaring and accessing a custom property is really simple and not too different from how we write normal rule declarations:
 
 ~~~css
 .error-modal {
   --color-error-text: red;
+
+  color: var(--color-error-text);
 }
 ~~~
 
-That's it! First, we start with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of single hyphens to separate words is very important here because spaces are not valid (`--color error text` would not work).
+That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of single hyphens to separate words is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property. 
 
-Then we can store any valid CSS value in our newly declared custom property. Yes, *any valid CSS value*. So while we can use custom properties for something as simple as a color, we can also use them to store slightly more complex or even shorthand values:
+When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
+
+While we can use custom properties for something as simple as a color value, we can also use them to store slightly more complex or even shorthand values:
 
 ~~~css
 .error-modal {
@@ -32,27 +34,9 @@ Then we can store any valid CSS value in our newly declared custom property. Yes
 }
 ~~~
 
-So now we know how to declare a custom property, but how do we actually *access* it in a rule declaration? As simply as declaring it, of course:
-
-~~~css
-.error-modal {
-  /* declaring the custom properties */
-  --color-error-text: red;
-  --main-font: 1.25rem;
-  --modal-border: 1px solid black;
-
-  /* accessing those custom properties */
-  border: var(--modal-border);
-  color: var(--color-error-text);
-  font-size: var(--main-font);
-}
-~~~
-
-We use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
-
 ### Scope
 
-In the last example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector.
+In the first example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector. In the example below, only the element with the `cool-paragraph` class would get styled with a red background, while the `boring-paragraph` selector doesn't since it's not within the scope of where the custom property was declared. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
 
 ~~~html
 <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
@@ -71,8 +55,6 @@ In the last example above, you may have noticed that we declared and then access
 }
 ~~~
 
-In the above example, only the element with the `cool-paragraph` class gets styled with a red background, while the `boring-paragraph` selector doesn't since it's not within the scope of where the custom property was declared. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
-
 That doesn't mean a custom property can *only* be accessed on the selector it was declared for, though. The scope includes the selector the custom property was declared for as well as the selector's descendants. Let's take a look at a modified version of the above example:
 
 ~~~html
@@ -90,11 +72,11 @@ That doesn't mean a custom property can *only* be accessed on the selector it wa
 }
 ~~~
 
-Even though we declared our custom property on our `.cool-div` selector, we can still access it on its descendant `.cool-paragraph` selector. Thanks, dad! Er, thanks `cool-div`!
+Even though we declared our custom property on our `.cool-div` selector, we can still access it on the descendant `.cool-paragraph` selector.
 
 #### The `:root:` Selector
 
-While there may be times where you will want to limit the scope of a custom property, you may want to be able to use other custom properties on many, unrelated selectors. One work around would be declaring the same custom property on a bunch of selectors, but that defeats one of the purposes of using custom properties in the first place (the ease of changing multiple instances of a value at once).
+While there may be times where you will want to limit the scope of a custom property, you may want to be able to use other custom properties on many, unrelated selectors. One workaround would be declaring the same custom property on a bunch of selectors, but that defeats one of the purposes of using custom properties in the first place (the ease of changing multiple instances of a value at once).
 
 A better solution is declaring those custom properties on the `:root` selector, which is essentially the same thing as the `html` selector except it has a higher specificity.
 
@@ -119,13 +101,12 @@ A better solution is declaring those custom properties on the `:root` selector, 
 
 By declaring our custom property on the `:root` selector in the example above, we can access it on *any* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
 
-### Themes
+### Creating Themes with Custom Properties
 
-Beyond allowing us to access custom properties more globally, the `:root` selector gives us one way to add themes to our pages. Keep in mind that we're not covering every way to add theming in this lesson, as we just want to introduce you to a simple way that you can get a lot of use out of.
+Beyond allowing us to access custom properties more globally, the `:root` selector gives us one way to add themes to our pages:
 
 ~~~html
 <html class='dark'>
-<!-- our boilerplate... -->
   <body>
     <div class='themed-element'>Our themed text</div>
   </body>
@@ -148,11 +129,11 @@ Beyond allowing us to access custom properties more globally, the `:root` select
 }
 ~~~
 
-We just created some quick themes! So what is actually going on here? First, we added a `class` attribute on our `html` element in the HTML file so that we can have a more specific selector to add custom properties onto, and so that our page has a default theme.
+We just created some quick themes! First, we added a `class` attribute on our `html` element in the HTML file so that we can have a more specific selector to add custom properties onto, and so that our page has a default theme.
 
 In our CSS file we're just creating two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark`, and another for when it has a class of `light`. Then our `.themed-element` selector will use the values of the custom properties depending on which class is currently present on our root element.
 
-Besides just adding custom properties to the CSS file, we need to add in some JavaScript to handle changing the theme, as well as some interactive element for the user to actually change it (such as a toggle or a switch). At this point, we trust that you can easily find out how to do both of these since that's a little out of scope for this lesson.
+Besides just adding custom properties to the CSS file, we need to add in some JavaScript to handle changing the theme, as well as some interactive element for the user to actually change it (such as a toggle or a switch).
 
 #### Media Queries
 
@@ -161,17 +142,16 @@ Giving users the ability to toggle a theme themselves is great, but there's anot
 Instead of adding custom properties to the `:root` element depending on which class it has, we would add our custom properties on the `:root` element, without any class, inside of a `prefers-color-scheme` media query. Let's tweak our previous example a little bit to use this media query:
 
 ~~~css
+/*  */
+:root {
+  --color-background: rgb(255, 255, 255);
+  --color-text: rgb(18, 18, 18);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: rgb(18, 18, 18);
     --color-text: rgb(255, 255, 255);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-background: rgb(255, 255, 255);
-    --color-text: rgb(18, 18, 18);
   }
 }
 
@@ -181,10 +161,13 @@ Instead of adding custom properties to the `:root` element depending on which cl
 }
 ~~~
 
-This can be pretty helpful for users since it doesn't require them to change the theme to their preferred one. That said, you should be aware of some shortcomings of using this media query:
+In the example above, we first added custom properties on the `:root` element itself without any chained class selectors. This gives us a default theme in case a user doesn't have a preference set on their OS or user agent. In this case, we're using our "light" theme colors as the default. Then we add our `prefers-color-scheme` media query for when a user has a dark theme set in their preferences. 
+
+Using the `prefers-color-scheme` media query can be pretty helpful for users since it doesn't require them to manually change the theme to their preferred one. That said, you need to be aware of a few things when it comes to using this media query:
 
 1. Only `dark` and `light` are valid values for the media query, so you can't use it to implement any themes beyond these two basic ones.
-2. It doesn't allow users to change the theme themselves, which can still be important in cases where the user hasn't chosen a theme setting on their OS or user agent, or in case they actually prefer a different theme on your site for whatever reason.
+2. The `light` value for the media query is actually for either when a user has a light theme specified *or* when they have no preference set.
+2. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
 
 ### Assignment
 
