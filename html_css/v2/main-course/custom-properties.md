@@ -16,53 +16,31 @@ The syntax for declaring and accessing a custom property is really simple and no
 ~~~css
 .error-modal {
   --color-error-text: red;
+  --modal-border: 1px solid black;
+  --modal-font-size: calc(2rem + 5vw);
 
   color: var(--color-error-text);
+  border: var(--modal-border);
+  font-size: var(--modal-font-size);
 }
 ~~~
 
-That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of single hyphens to separate words is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property. 
+That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of single hyphens to separate words is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a simple color value, shorthand values, or even a more complex function, just to give you a few examples.
 
 When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
 
-While we can use custom properties for something as simple as a color value, we can also use them to store slightly more complex or even shorthand values:
-
-~~~css
-.error-modal {
-  --modal-border: 1px solid black;
-  --main-font: calc(2rem + 5vw);
-}
-~~~
-
 ### Scope
 
-In the first example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector. 
+In the first example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector. This scope includes the selector the custom property was declared for as well as any descendants of that selector. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
 
-In the example below, only the element with the `cool-paragraph` class would get styled with a red background, while the `boring-paragraph` selector doesn't since it's not within the scope of where the custom property was declared. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
-
-~~~html
-<p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
-
-<p class='boring-paragraph'>Lorem ipsum dolor sit amet.</p>
-~~~
-~~~css
-.cool-paragraph {
-  --main-bg: red;
-
-  background-color: var(--main-bg);
-}
-
-.boring-paragraph {
-  background-color: var(--main-bg);
-}
-~~~
-
-That doesn't mean a custom property can *only* be accessed on the selector it was declared for, though. The scope includes the selector the custom property was declared for as well as the selector's descendants. Let's take a look at a modified version of the above example:
+In the example below, only the element with the `cool-paragraph` class would get styled with a red background since it's a descendant of the element where our custom property is declared.
 
 ~~~html
 <div class='cool-div'>
-  <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
+  <p class='cool-paragraph'>Check out my cool, red background!</p>
 </div>
+
+<p class='boring-paragraph'>I'm not in scope so I'm not cool.</p>
 ~~~
 ~~~css
 .cool-div {
@@ -72,9 +50,11 @@ That doesn't mean a custom property can *only* be accessed on the selector it wa
 .cool-paragraph {
   background-color: var(--main-bg);
 }
-~~~
 
-Even though we declared our custom property on our `.cool-div` selector, we can still access it on its descendant, the `.cool-paragraph` selector.
+.boring-paragraph {
+  background-color: var(--main-bg);
+}
+~~~
 
 #### The `:root:` Selector
 
