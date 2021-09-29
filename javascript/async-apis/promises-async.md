@@ -82,7 +82,7 @@ Of course, there are many more occasions where one would want to use Promises be
 
 ### Knowledge Check
 
- - [What is a callback?](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function_)
+ - [What is a callback?](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
  - [What is a promise?](#promises)
  - [When should you use promises over callbacks?](http://callbackhell.com/)
  - [What does the `.then()` function do?](https://davidwalsh.name/promises)
