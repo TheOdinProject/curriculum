@@ -13,3 +13,12 @@ After completing this lesson, you will be able to:
 2. Read through [this tutorial](https://webpack.js.org/guides/output-management/) to learn how to let webpack manually manage your index.html and insert your bundle into the page for you!
 3. Finally, the first part of [this tutorial](https://webpack.js.org/guides/development/) talks about source maps, a handy way to track down which source file (index.js, a.js, b.js) an error is coming from when you use webpack to bundle them together. This is essential to debugging bundled code in your browser's DevTools. If the error comes from b.js the error will reference that file instead of the bundle. It also walks through an example of the `--watch` feature you _definitely_ should have taken note of above.
 4. You don't need to do the rest of the webpack tutorials at this time, but take a look at what's offered on the sidebar of their [guides page](https://webpack.js.org/guides/). There are several sweet features that you might want to use in future projects such as code-splitting, lazy-loading, and tree-shaking. Now that you have a handle on webpack's configuration system adding these features is as easy as using the right plugins and loaders!
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-css">How do you load CSS using webpack?</a>
+- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-images">How do you load images using webpack?</a>
+- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-fonts">How do you load fonts using webpack?</a>
+- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-data">How do you load data using webpack?</a>
+- <a class="knowledge-check-link" href="https://webpack.js.org/guides/development/">How would you track errors in bundled source code?</a>
