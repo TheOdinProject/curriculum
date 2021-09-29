@@ -28,7 +28,7 @@ Inline-block elements behave like inline elements, but with block-style padding 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
 
-* [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but it's examples are clear. The first 6 slides cover the material we've seen so far.
+* [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 
 ### Knowledge Check
 * What is the difference between a block element and an inline element?
