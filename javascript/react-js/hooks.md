@@ -91,7 +91,7 @@ export default App;
 ~~~
 Try it out to get an idea of what is happening. 
  
-Once you've done that, let's go through it in all detail.
+Once you've done that, let's go through it all in detail.
  
 You should already be familiar with the `useState` logic implemented. Basically, we are just saving a color in state and on click we are changing the color saved in state. This color is applied to our div element. Don't worry about all the inline styles of the div, the only important thing within this styles object is where we set the background to the color that is currently saved in state.
  
