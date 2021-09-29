@@ -36,7 +36,9 @@ While we can use custom properties for something as simple as a color value, we 
 
 ### Scope
 
-In the first example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector. In the example below, only the element with the `cool-paragraph` class would get styled with a red background, while the `boring-paragraph` selector doesn't since it's not within the scope of where the custom property was declared. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
+In the first example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector. 
+
+In the example below, only the element with the `cool-paragraph` class would get styled with a red background, while the `boring-paragraph` selector doesn't since it's not within the scope of where the custom property was declared. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
 
 ~~~html
 <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
@@ -72,7 +74,7 @@ That doesn't mean a custom property can *only* be accessed on the selector it wa
 }
 ~~~
 
-Even though we declared our custom property on our `.cool-div` selector, we can still access it on the descendant `.cool-paragraph` selector.
+Even though we declared our custom property on our `.cool-div` selector, we can still access it on its descendant, the `.cool-paragraph` selector.
 
 #### The `:root:` Selector
 
@@ -105,68 +107,32 @@ By declaring our custom property on the `:root` selector in the example above, w
 
 Beyond allowing us to access custom properties more globally, the `:root` selector gives us one way to add themes to our pages:
 
-~~~html
-<html class='dark'>
-  <body>
-    <div class='themed-element'>Our themed text</div>
-  </body>
-</html>
-~~~
-~~~css
-:root.dark {
-  --color-background: rgb(18, 18, 18);
-  --color-text: rgb(255, 255, 255);
-}
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PojVRMb" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PojVRMb">
+  theme toggle example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-:root.light {
-  --color-background: rgb(255, 255, 255);
-  --color-text: rgb(18, 18, 18);
-}
-
-.themed-element {
-  background-color: var(--color-background);
-  color: var(--color-text);
-}
-~~~
-
-We just created some quick themes! First, we added a `class` attribute on our `html` element in the HTML file so that we can have a more specific selector to add custom properties onto, and so that our page has a default theme.
-
-In our CSS file we're just creating two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark`, and another for when it has a class of `light`. Then our `.themed-element` selector will use the values of the custom properties depending on which class is currently present on our root element.
-
-Besides just adding custom properties to the CSS file, we need to add in some JavaScript to handle changing the theme, as well as some interactive element for the user to actually change it (such as a toggle or a switch).
+First we added a `class` attribute on our `html` element so that our page has a default theme. Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
 
 #### Media Queries
 
-Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have noticed on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser).
+Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have come across on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser). This can be accomplished with the `prefers-color-scheme` media query, which simply checks whether a user has selected a theme preference on their OS/user agent. As you view the example below, try changing the theme settings on your OS/user agent to see how the example updates in real time!
 
-Instead of adding custom properties to the `:root` element depending on which class it has, we would add our custom properties on the `:root` element, without any class, inside of a `prefers-color-scheme` media query. Let's tweak our previous example a little bit to use this media query:
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="powGZzE" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powGZzE">
+  theme query example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-~~~css
-/*  */
-:root {
-  --color-background: rgb(255, 255, 255);
-  --color-text: rgb(18, 18, 18);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: rgb(18, 18, 18);
-    --color-text: rgb(255, 255, 255);
-  }
-}
-
-.themed-element {
-  background-color: var(--color-background);
-  color: var(--color-text);
-}
-~~~
-
-In the example above, we first added custom properties on the `:root` element itself without any chained class selectors. This gives us a default theme in case a user doesn't have a preference set on their OS or user agent. In this case, we're using our "light" theme colors as the default. Then we add our `prefers-color-scheme` media query for when a user has a dark theme set in their preferences. 
+We first added custom properties on the `:root` element outside of the media query. This gives us a default theme in case a user doesn't have a preference set on their OS or user agent, or if a browser doesn't support the media query. In this case, we're using our "light" theme colors as the default. Then we added a `prefers-color-scheme` media query for when a user has a dark theme set in their preferences.
 
 Using the `prefers-color-scheme` media query can be pretty helpful for users since it doesn't require them to manually change the theme to their preferred one. That said, you need to be aware of a few things when it comes to using this media query:
 
 1. Only `dark` and `light` are valid values for the media query, so you can't use it to implement any themes beyond these two basic ones.
-2. The `light` value for the media query is actually for either when a user has a light theme specified *or* when they have no preference set.
+2. The `light` value for the media query is actually for when a user has a light theme specified *or* when they have no preference set.
 2. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
 
 ### Assignment
