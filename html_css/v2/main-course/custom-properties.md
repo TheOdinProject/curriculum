@@ -128,7 +128,7 @@ This section contains helpful links to other content. It isn’t required, so co
 
 ### Knowledge Check
 
-* How would you declare a custom property with a name of `text-color`?
-* How would you access a custom property with a name of `background-color`?
-* Where would you declare a custom property to have its scope be global and accessible by all other selectors?
-* Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?
+* <a class="knowledge-check-link" href='#using-custom-properties'>How would you declare a custom property with a name of `text-color`?</a>
+* <a class="knowledge-check-link" href='#using-custom-properties'>How would you access a custom property with a name of `background-color`?</a>
+* <a class="knowledge-check-link" href='#scope'>Where would you declare a custom property to have its scope be global and accessible by all other selectors?</a>
+* <a class="knowledge-check-link" href='#creating-themes-with-custom-properties'>Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?</a>
