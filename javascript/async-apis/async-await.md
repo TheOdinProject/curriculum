@@ -183,9 +183,9 @@ This code will behave exactly like the code from the last lesson, it just looks 
 
 ### Knowledge Check
 
- - [How do you declare an `async` function?](#the-async-keyword)
- - [What does the `async` keyword do?](#the-async-keyword)
- - [What does the `await` keyword do?](#the-await-keyword)
- - [What is returned from an `async` function?](https://javascript.info/async-await#summary)
- - [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
- - [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
+ - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
+ - <a class="knowledge-check-link" href="#the-async-keyword">What does the `async` keyword do?</a>
+ - <a class="knowledge-check-link" href="#the-await-keyword">What does the `await` keyword do?</a>
+ - <a class="knowledge-check-link" href="https://javascript.info/async-await#summary">What is returned from an `async` function?</a>
+ - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">What happens when an error is thrown inside an `async` function?</a>
+ - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">How can you handle errors inside an `async` function?</a>
