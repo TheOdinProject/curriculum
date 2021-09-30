@@ -33,10 +33,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 * What is the difference between a block element and an inline element?
 * What is the difference between an inline element and an inline-block element?
-* What does the `box-sizing` css property do?
 * Is an `h1` block or inline?
 * Is `span` block or inline?
 * Is `button` block or inline?
 * Is `div` block or inline?
-* Would you use `margin` or `padding` to create more space between 2 elements?
-* Would you use `margin` or `padding` to create more space between the contents of an element and its border?
