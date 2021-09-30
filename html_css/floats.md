@@ -18,7 +18,7 @@ Let's say we want a second paragraph in the same container to *not* wrap around 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Now talk about a problem we might encounter using `float`, `clear`, and additional containers. Say you want to take your box and your first paragraph, and put them into a another box that will contain those two elements. If we attempt to `float: left;` the box so that the first paragraph is on its right, and then `clear` a second paragraph past the box container, you'll see below that the second box doesn't wrap around both the first box, and the second text doesn't clear properly! 
+Now let's talk about a problem we might encounter using `float`, `clear`, and additional containers. Say you want to take your box and your first paragraph, and put them into a another box that will contain those two elements. If we attempt to `float: left;` the box so that the first paragraph is on its right, and then `clear` a second paragraph past the box container, you'll see below that the second box doesn't wrap around both the first box, and the second text doesn't clear properly! 
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vYZbXKX" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/mgrigoriev8109/pen/vYZbXKX">
@@ -39,7 +39,7 @@ This happens because the float was taken out of the normal flow of the document.
 ### Shapes
 Wrapping text around boxes with float is relatively straightforward, but you can also have fun with other shapes by using `shapes-outside`. This property allows text to wrap around various shapes, which you can read about in [this article by css-tricks](https://css-tricks.com/almanac/properties/s/shape-outside/). 
 
-While this may seem like it's not that different, things get really crazy when we have a look at [Chrome's CSS Shapes Editor Extention](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp?hl=en-US). Whoa! While by no means necessary, this is a fascinating interactive tool that lets you create and adjust the shapes with an interactive editor.
+While this may seem like it's not that different, things get really crazy when we have a look at [Chrome's CSS Shapes Editor Extension](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp?hl=en-US). Whoa! While by no means necessary, this is a fascinating interactive tool that lets you create and adjust the shapes with an interactive editor.
 
 ### History of Float
 While `float` was first used to wrap text around an image, developers soon realized that you can float almost *anything*, and the property quickly became a commonplace tool for creating webpage layouts. However, this led to problems such as the one we previously discussed, which before the time of `display: flow-root` was fixed by various hacks. This is part of the reason why using floats to create layouts is now considered a [legacy layout method](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods). When working with layouts, stick with Flexbox or Grid.
