@@ -109,7 +109,7 @@ Columns and rows don’t have to all share the same values either. Let’s chang
 }
 ~~~
 
-#### Explicit vs Implicit Grid
+### Explicit vs Implicit Grid
 
 Our example above produced a simple layout for the four grid items. But what happens if we added a fifth item to our container without changing our `grid-template-columns` or `grid-template-rows` properties?
 
@@ -166,7 +166,7 @@ Let’s say we want any new rows to stay the same value as our explicit row trac
 
 By default, CSS Grid will add additional content with implicit rows meaning the extra elements would keep being added further down the grid in a vertical fashion. It would be much less common to want extra content added horizontally along the grid, but that can be set using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
 
-#### Gap
+### Grid Gaps
 
 The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties or the gap can be set with the shorthand property `grid-gap` if you want the row and column gap to be the same.
 
@@ -238,8 +238,8 @@ Now that you’ve made a grid you can start to see how easy it is to control the
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-<a class="knowledge-check-link">Explain how to define a grid item.</a>
-<a class="knowledge-check-link">What is the space between lines on the grid?</a>
-<a class="knowledge-check-link">How do you set gutters (also known as alleys) in the grid?</a>
-<a class="knowledge-check-link">Describe what happens when you have more content than defined tracks.</a>
-<a class="knowledge-check-link">How could you change the size for those undefined tracks?</a>
+- <a class="knowledge-check-link" href='#setting-up-a-grid'>Explain how to define a grid item.</a>
+- <a class="knowledge-check-link" href='#setting-up-a-grid'>What is the space between lines on the grid?</a>
+- <a class="knowledge-check-link" href='#grid-gaps'>How do you set gutters (also known as alleys) in the grid?</a>
+- <a class="knowledge-check-link" href='#explicit-vs-implicit-grid'>Describe what happens when you have more content than defined tracks.</a>
+- <a class="knowledge-check-link" href='#explicit-vs-implicit-grid'>How could you change the size for those undefined tracks?</a>
