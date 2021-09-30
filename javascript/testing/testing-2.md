@@ -1,6 +1,15 @@
 ### Introduction
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
+
+### Learning Outcomes
+After completing this lesson , you will be able to:
+
+- Explain what pure functions are.
+- Explain why tightly coupled code is hard to test.
+- Explain what mocking is, with respect to TDD.
+- Write and understand mock functions.
+
 ### Pure Functions
 
 There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`.  
@@ -63,3 +72,11 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://facebook.github.io/jest/docs/en/mock-functions.html#content)
 5. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://facebook.github.io/jest/docs/en/webpack.html#content).
 </div>
+
+
+### Knowledge Checks
+
+- [What are pure functions and how are they different from normal functions?](#Pure-Functions)
+- [What is mocking?](#Mocking)
+- [Why would you need to write mock tests to test certain functions?](#Mocking)
+- [How to write mock tests?](https://www.youtube.com/watch?v=3PjdxjWK0F0)
