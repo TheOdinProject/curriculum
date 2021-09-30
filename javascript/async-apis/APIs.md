@@ -6,9 +6,9 @@ One of the most powerful things a web developer can do is fetching data from a s
 By the end of this lesson, you should be able to:
 
  - Explain what an API is
- - Explain how access to an API broadly works
- - Explain how you fetch and extract data from an API
- - Explain why your API request might be blocked by your browser, and how to fix this
+ - Explain broadly how access to an API works
+ - Explain how to fetch and extract data from an API
+ - Explain why your API request might be blocked by the browser, and how to fix this
 
 ### APIs
 
