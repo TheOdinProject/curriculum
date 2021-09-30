@@ -8,7 +8,7 @@ Intro paragraph.
 * When should you use a CSS animation?
 * What are the long and short hand notations for both?
 * What should you keep in mind regarding repaints?
-* What are keyframes and when are they used?
+* What are the two distinct parts of creating a keyframe animation?
 
 ### Transitions
 CSS transitions let you animate a change from an element's initial state to an end state. Think of an ordinary button element with a white background. When your mouse is away from the button, it's just sitting there. Boring. Then when you hover your mouse cursor over the button the background color smoothly transitions from white, to grey, to black, over a period of time. This is a CSS transition.
@@ -50,7 +50,7 @@ button:hover {
 
 The above transition will occur when the user hovers their mouse over the button as indicated by the `:hover` pseudo-class. Different pseudo-classes may be used such as `:active` or `:focus` and you can find the [full list here](https://developer.mozifont-sizella.org/en-US/docs/Web/CSS/Pseudo-classes). We will now explore each of those pseudo-classes one by one.
 
-Just kidding! A skim over that list to familiarise yourself with the CSS pseudo-classes will be enough. While you're there, you absolutely **should** read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions). Make sure to pay attention to the note about the `auto` value and some of the finer points around using transition on multiple properties at the same time. 
+Just kidding! A skim over that list to familiarise yourself with the CSS pseudo-classes will be enough. While you're there, you absolutely should read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions). Make sure to pay attention to the note about the `auto` value and some of the finer points around using transition on multiple properties at the same time. 
 
 ### Optimization
 
@@ -70,25 +70,56 @@ div:hover {
 }
 ~~~
 
-This has created a stacking context. If we were to make a bunch more stacking contexts through various other means (see [this article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for definitions) then, when it comes to rendering our initial transform, we would repaint not only our `div` element but also *every element that is stacked on top of it in the stack context*. If left unchecked, this can cause your once buttery-smooth transition to become slow and rough. This article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html) is a great example of catching and debugging a repaint issue in the wild.
+This has created a stacking context. If we were to make a bunch more stacking contexts through various other means (see [this article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for definitions) then, when it comes to rendering our initial transform, we would repaint not only our `div` element but also **every element that is stacked on top of it in the stack context**. If left unchecked, this can cause your once buttery-smooth transition to become slow and rough. This article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html) is a great example of catching and debugging a repaint issue in the wild.
 
-Also, you should keep your animations to only affecting `opacity` and `transform` if you want absolute best performance for animations on your web page. Yes, our first example above only carried out a simple `background-color` change, but even that was an expensive operation in itself. Have a read of this web.dev article for some handy hints on how to [create high-performance CSS animations](https://web.dev/animations-guide/). It also has a link to [CSS Triggers](https://csstriggers.com/) which will help you see how a CSS property will affect other elements on the page if it is animated. Look at the difference between the `opacity` and `background-color` properties.
+Also, you should keep your animations to only affecting `opacity` and `transform` if you want absolute best performance for animations on your web page. Yes, our first example above only carried out a simple `background-color` change, but even that was an expensive operation in itself. Have a read of this web.dev article for some handy hints on how to [create high-performance CSS animations](https://web.dev/animations-guide/). It also has a link to [CSS Triggers](https://csstriggers.com/) which will help you see how a CSS property will affect other elements on the page if it is animated. Look at the difference between the `background-color` and `transform` properties.
 
 Like we said earlier, optimization is a rabbit-hole so don't get too bogged down in the details here. What's important is that you have a solid understanding of these concepts and can apply them when necessary because hey, if you need to turn a button into a rainbow when it's hovered over, you better be able to transition that rainbow!
 
 ### Keyframe Animations
+Keyframe animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning keyframes if they are basically the same as transitions?", but there are some aspects of keyframes that make them better suited to plenty of situations.
+
+CSS transitions were designed to animate an element from one state to another. They *can* loop but they weren't designed for that, whereas keyframes were designed with the purpose of explicitly enabling loops.
+
+Transitions need a trigger (remember the pseudo-classes?) but keyframes do not. Once you have your elements in place and CSS defined, an animation will start running immediately  if that's what you told it to do. 
+
+Transitions are also not as flexible as using keyframes. When you define a transition, imagine you are sending that element on a journey in a straight line from point A to point B. Yes the `transition-timing-function` can add some variance to the timing of this change, but it doesn't compare to the amount of flexibility added by using keyframes.
+
+There are more differences between the methods than those described above, but hopefully you have a clearer idea of the differences between them now. If you need to change the opacity of an element when it is active, then a keyframe animation would be overkill. But if you need to carry out something more complicated, keyframes provide you the tools you need. 
+
+Let's look at some keyframe animation syntax. Like transitions, there is a long and short form of using animations. We have used the long form here so you can get to grips with some of the main animation sub-properties that you will use to get started. 
+
+~~~css
+#ball {
+  /* ... other css properties ... */
+  animation-duration: 3s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+~~~
+
+Note that this process has two distinct parts. The first part is the configuration stage where we define our animation sub-properties on the `#ball` element. Here we have an `animation-duration` of three seconds. This means that it will take three seconds for the `#ball` element to complete one animation cycle. Next we have defined the `animation-name` to be "bounce" which is essential for the `@keyframe` section coming up next. This is just a custom name that is not a particular CSS value. We could have called it "pineapples" if we so wished, but for our purposes "bounce" suits well. Then our `animation-iteration-count` is set to `infinite` which means this animation will run forever. You could set this to 1, 2, or as many iterations as you wish. Finally our `animation-direction` decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here we set it to `alternate`, which means that the `#ball` will smoothly animate back along the path it came from in reverse as opposed to skipping straight back to its original point.  
+
+Now we will cover defining the animation sequence itself using the `@keyframes` at-rule. You have seen that the `@keyframes` definition references the "bounce" name we defined earlier. Then, we use the `from` and `to` properties to change the `margin-top` of `#ball` from 100% to 0%. It's important to know that keyframes use a percentage to indicate the times for an animation to take place and that the `from` and `to` statements are actually aliases for `0%` and `100%` respectively. There is no hard and fast rule on whether or not you should use `from/to` or `0%/100%`. Just pick a style and be consistent with it.
+
+Next we will add another keyframe at 75% and use the short hand notation to give you a peek.
+
 
 * Cover the animation name, duration, iteration count, direction in long and short form
 * Longhand values can accept multiple values separated by commas
 * @keyframes then animation name
 * from (0%), to (100%), and then the % in between e.g. 75% 
-
-Example idea:
-* A ball in the center of a page
-* Make it orbit the center of the page? Can call it "orbit"
-* Make it orbit the center in one direction, then another, infinitely...
-
-
 
 
 ### Practice
