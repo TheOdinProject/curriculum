@@ -1,6 +1,6 @@
 ### Introduction
 
-Custom properties (also known as CSS variables) can be a really useful and powerful tool when writing our CSS files. In short, they allows us to reference a CSS value however many times we want throughout a file. By using custom properties, instead of having to update every single instance of a specific value ("This shade of red is too light, let's change the shade on all seven of these selectors"), we only need to update a single instance: the custom property itself. Not only that, but custom properties can help us keep colors consistent throughout a project, something that will be really helpful as projects get larger.
+Custom properties (also known as CSS variables) can be a really useful and powerful tool when writing our CSS files. In short, they allow us to reference a CSS value however many times we want throughout a file. By using custom properties, instead of having to update every single instance of a specific value ("This shade of red is too light, let's change the shade on all seven of these selectors"), we only need to update a single instance: the custom property itself. Not only that, but custom properties can help us keep colors consistent throughout a project, something that will be really helpful as projects get larger.
 
 We can even redefine custom properties under different contexts, which is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
 
