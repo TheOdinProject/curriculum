@@ -226,7 +226,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 ### Knowledge Check
 
- - [What is an API?](#APIs)
- - [How is access to an API restricted?](#APIs)
- - [How do you fetch and extract data from an API?](#fetching-data)
- - [Why might your API request be blocked by the browser, and how might you fix this?](#CORS)
+ - <a class="knowledge-check-link" href="#apis">What is an API?</a>
+ - <a class="knowledge-check-link" href="#apis">How is access to an API restricted?</a>
+ - <a class="knowledge-check-link" href="#fetching-data">How do you fetch and extract data from an API?</a>
+ - <a class="knowledge-check-link" href="#CORS">Why might your API request be blocked by the browser, and how might you fix this?</a>
