@@ -22,7 +22,7 @@ We can think about CSS Grid in terms of a container and items. Simply put, when 
 ~~~html
 <!-- index.html -->
 
-<div class=”container”>
+<div class="container">
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
@@ -37,17 +37,17 @@ We can think about CSS Grid in terms of a container and items. Simply put, when 
 }
 ~~~
 
-In this example, the parent element marked `class=”container"` becomes a grid container and each of the direct child elements below it become grid items. What’s easy about CSS Grid is that you don’t have to assign each child element a property. All of the direct child elements in a container will become grid items.
+In this example, the parent element marked `class="container"` becomes a grid container and each of the direct child elements below it become grid items. What’s easy about CSS Grid is that you don’t have to assign each child element a property. All of the direct child elements in a container will become grid items.
 
-Note that only the direct child elements will become grid items here. If we had another element as a child under one of *these* child elements it would not be a grid item. In the example below, the list element is not a grid item.
+Note that only the direct child elements will become grid items here. If we had another element as a child under one of *these* child elements it would not be a grid item. In the example below, the paragraph element is not a grid item:
 
 ~~~html
 <!-- index.html -->
 
-<div class=”container”>
+<div class="container">
   <div>Item 1</div>
   <div>Item 2</div>
-    <li>”I am not a grid item!”</li>
+    <p>I am not a grid item!</p>
   <div>Item 3</div>
   <div>Item 4</div>
 </div>
@@ -55,22 +55,22 @@ Note that only the direct child elements will become grid items here. If we had 
 
 #### Lines and Tracks in Grids, Oh My!
 
-If you’re coding along with our example you will notice it doesn’t look very grid-ish yet. A lot of resources on CSS Grid like to show you boxes and outlined grid tables right from the start. But if your grid container and grid items don’t have any borders you wouldn’t actually see these lines on the page. So don’t worry, they’re still there!
+Since you’re coding along with our example (right?) you will notice it doesn’t look very grid-ish yet. A lot of resources on CSS Grid like to show you boxes and outlined grid tables right from the start. But if your grid container and grid items don’t have any borders you wouldn’t actually see these lines on the page. So don’t worry, they’re still there!
 
-However if you inspect these elements on a webpage using developer tools, you would notice grid badges on the grid elements in the code. And under the Layout options of the dev tools you could select an overlay on the grid display on the page that shows these invisible lines, tracks and areas of the grid. You will read more about using a browser’s developer tools in the assignment below and learn more on lines, tracks and areas in the next lesson.
+If you inspect these elements on a webpage using developer tools, you would notice grid badges on the grid elements in the code. The Layout options of the dev tools allows you to select an overlay that can show these invisible lines, tracks and areas of the grid. You will read about using a browser’s developer tools in the assignment below and learn more on lines, tracks and areas in the next lesson.
 
 #### Columns and Rows
 
-Now that we have our grid container with several grid items all set up, it’s time to specify our columns and rows. This will define the grid track which is the space between lines on a grid. So we could set a column track to give us space between our columns and a row track to give us space between our rows. We will get into the specifics on tracks and lines in the next lesson, but for now let’s make some columns and rows.
+Now that we have our grid container with several grid items all set up, it’s time to specify our columns and rows. This will define the grid track (the space between lines on a grid). So we could set a column track to give us space between our columns and a row track to give us space between our rows. We will get into the specifics on tracks and lines in the next lesson, but for now let’s just make some columns and rows.
 
-The properties `grid-template-columns` and `grid-template-rows` make defining column and row tracks easy. For this lesson, we’ll stick to defining our columns and rows using pixels. In the upcoming lessons you’ll learn more about defining with percentages and fractional units too.
+The properties `grid-template-columns` and `grid-template-rows` make defining column and row tracks easy. For this lesson, we’ll stick to defining our columns and rows using pixels. In the upcoming lessons, you’ll learn more about defining with percentages and fractional units too.
 
 Going back to our grid container from above, let’s define two columns and two rows to place our four grid items:
 
 ~~~html
 <!-- index.html -->
 
-<div class=”container”>
+<div class="container">
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
@@ -105,7 +105,7 @@ Columns and rows don’t have to all share the same values either. Let’s chang
 
 .container {
   display: grid;
-  grid-template: 150px 150px / 100 px 50px;
+  grid-template: 150px 150px / 100px 50px;
 }
 ~~~
 
@@ -116,7 +116,7 @@ Our example above produced a simple layout for the four grid items. But what hap
 ~~~html
 <!-- index.html -->
 
-<div class=”container”>
+<div class="container">
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
@@ -134,18 +134,18 @@ Our example above produced a simple layout for the four grid items. But what hap
 }
 ~~~
 
-You’ll notice our fifth item was placed on the grid and it’s been slotted into a third row we had not defined. This is because of the implicit grid concept and it’s how CSS Grid is able to automatically place grid items when we haven’t explicitly defined the layout for them.
+You’ll notice our fifth item was placed on the grid and it’s been slotted into a third row we did not define. This is because of the implicit grid concept and it’s how CSS Grid is able to automatically place grid items when we haven’t explicitly defined the layout for them.
 
-When we use the `grid-template-columns` and  `grid-template-rows` properties, we are explicitly defining grid tracks to layout our grid items. But when the grid needs more grid tracks for more content it will implicitly define new grid tracks. By default, CSS Grid will implicitly add extra grid rows to the layout rather than extra grid columns. Additionally, the size values established from our `grid-template-columns` or `grid-template-rows` properties are not carried over into these implicit grid tracks. But we can define values for the implicit grid tracks.
+When we use the `grid-template-columns` and  `grid-template-rows` properties, we are explicitly defining grid tracks to lay out our grid items. But when the grid needs more tracks for extra content, it will implicitly define new grid tracks. By default, CSS Grid will implicitly add extra grid rows to the layout rather than extra grid columns. Additionally, the size values established from our `grid-template-columns` or `grid-template-rows` properties are not carried over into these implicit grid tracks. But we can define values for the implicit grid tracks.
 
-We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties. In this way we can ensure any new tracks the implicit grid makes for extra content are set at that values we define. 
+We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties. In this way we can ensure any new tracks the implicit grid makes for extra content are set at values that we defined. 
 
 Let’s say we want any new rows to stay the same value as our explicit row track sizes.
 
 ~~~html
 <!-- index.html -->
 
-<div class=”container”>
+<div class="container">
   <div>Item 1</div>
   <div>Item 2</div>
   <div>Item 3</div>
@@ -164,11 +164,11 @@ Let’s say we want any new rows to stay the same value as our explicit row trac
 }
 ~~~
 
-By default, CSS Grid will add additional content with implicit rows meaning the extra elements would keep being added further down the grid in a vertical fashion. It would be much less common to want extra content added horizontally along the grid, but that can be set using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
+By default, CSS Grid will add additional content with implicit rows. This means the extra elements would keep being added further down the grid in a vertical fashion. It would be much less common to want extra content added horizontally along the grid, *but* that can be set using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
 
 ### Grid Gaps
 
-The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties or the gap can be set with the shorthand property `grid-gap` if you want the row and column gap to be the same.
+The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties. The gap can also be set with the shorthand property `grid-gap` if you want the row and column gap to be the same.
 
 Before adding our grid gap properties let’s make things a little easier to see without relying on developer tools. We’ll go ahead and add a simple border around our grid items so we can get a better sense of their placement around each other:
 
@@ -218,22 +218,22 @@ Finally we’ll add a lot of gap to our rows to highlight the difference:
 }
 ~~~
 
-If we wanted the columns and rows to share the same gap value we could replace these properties with something like `grid-gap: 25px;`.
+If we wanted the columns and rows to share the same gap value we could replace the `column-gap` and `row-gap` properties with something like `grid-gap: 25px;`.
 
 ### Wrapping Up Our First Grid
 
-Now that you’ve made a grid you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also start to realize how CSS Grid can solve common layout problems. In the next couple lessons we will cover positioning elements and advanced grid attributes. But first, check out the links below that cover making the basics of a grid in more detail.
+Now that you’ve made a grid you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also realize how CSS Grid can solve common layout problems. In the next couple lessons we will cover positioning elements and advanced grid attributes. But first, check out the links below that cover making the basics of a grid in more detail.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-- Read Parts I, II and III from [CSS-Tricks Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- Read Parts I, II and III from [CSS-Tricks Complete Guide to Grid.](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - Watch this [short video](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) on Implicit vs Explicit Tracks from the Wes Bos CSS Grid course.
+- Look through the [Inspect CSS Grid](https://developer.chrome.com/docs/devtools/css/grid/) guide that explains how to view grids on a webpage using Chrome DevTools.
+- Also check out MDN's guide on using the [CSS Grid Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) to learn how to inspect grids using Firefox DevTools.
 </div>
 
 ### Additional Resources
-- The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces additional concepts.
-- [Inspect CSS Grid](https://developer.chrome.com/docs/devtools/css/grid/) will explain how to view grids on a webpage using Chrome DevTools.
-- [CSS Grid Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts) will review hot to inspect grids using Firefox DevTools.
+- The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces some additional concepts.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
