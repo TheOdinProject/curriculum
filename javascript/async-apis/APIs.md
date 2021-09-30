@@ -2,6 +2,14 @@
 
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+ - Explain what an API is
+ - Explain broadly how access to an API works
+ - Explain how to fetch and extract data from an API
+ - Explain why your API request might be blocked by the browser, and how to fix this
+
 ### APIs
 
 Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
@@ -215,3 +223,10 @@ While we are pushing this API key to the frontend, this isn't something you shou
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
 </div>
+
+### Knowledge Check
+
+ - <a class="knowledge-check-link" href="#apis">What is an API?</a>
+ - <a class="knowledge-check-link" href="#apis">How is access to an API restricted?</a>
+ - <a class="knowledge-check-link" href="#fetching-data">How do you fetch and extract data from an API?</a>
+ - <a class="knowledge-check-link" href="#CORS">Why might your API request be blocked by the browser, and how might you fix this?</a>
