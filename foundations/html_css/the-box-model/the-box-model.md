@@ -21,7 +21,7 @@ Basically, every single thing on a webpage is a rectangular box. These boxes can
 
 ![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png)
 
-You can use the browser's inspector to add CSS to this webpage if you want. Boxes in boxes!
+You can use the browser's inspector to add the CSS above to this web page if you want. Boxes in boxes!
 
 ![lines](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/odin-lined.png)
 
