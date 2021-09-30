@@ -29,6 +29,21 @@ That's it! First, we declare our custom property with a double hyphen followed b
 
 When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
 
+#### Fallback Values
+
+The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in *another* custom property as a fallback, which can have *its own* fallback value as well!
+
+~~~css
+.fallback {
+  --color-text: white;
+
+  background-color: var(--undeclared-property, black);
+  color: var(--undeclared-again, var(--color-text, yellow));
+}
+~~~
+
+In the above example, our `background-color` property would have a value of `black` and our `color` property would have a value of `white`. If the `--color-text` custom property was invalid or didn't exist, the fallback to our fallback would take over and the `color` property would have a value of `yellow`.
+
 ### Scope
 
 In the first example above, you may have noticed that we declared and then accessed our custom properties within the same declaration block. That's because the scope of a custom property is determined by the selector. This scope includes the selector the custom property was declared for as well as any descendants of that selector. If you're familiar with how scope works in JavaScript, this sort of behavior should feel a little similar.
