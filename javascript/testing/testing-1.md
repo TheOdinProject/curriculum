@@ -5,6 +5,17 @@ There are many test-running systems available in JavaScript: [Mocha](https://moc
 
 This lesson is going to center around __Jest__. The biggest reasons for this decision are that one of the best resources we've found for explaining JavaScript testing uses it and they have fantastic documentation.  In the end, writing tests is less about the syntax and more about the TDD philosophy.  The most important issues are knowing __why__ we write tests and __what__ we test rather than how.
 
+### learning outcomes 
+By the end of the lesson , you will be able to:
+
+- Explain what test driven development is.
+- Set up and use jest.
+- Explain why testing your codebase is necessary.
+- Understand what you need to test in your codebase.
+
+
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -14,3 +25,11 @@ This lesson is going to center around __Jest__. The biggest reasons for this dec
 4. Read and follow the [Using Matchers](https://facebook.github.io/jest/docs/en/using-matchers.html#content) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.  This video might be worth re-visiting after you've done some testing of your own.
 </div>
+
+
+### Knowledge Check
+
+- [What is TDD?](#Introduction)
+- [How to set up and use jest](https://facebook.github.io/jest/docs/en/getting-started.html#content)
+- [what are the benefits of writing tests?](http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/)
+- [what should you test in your codebase](https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not)
