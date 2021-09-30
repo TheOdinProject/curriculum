@@ -28,8 +28,7 @@ By the end of the lesson , you will be able to:
 
 
 ### Knowledge Check
-
-- [What is TDD?](#Introduction)
-- [How to set up and use jest](https://facebook.github.io/jest/docs/en/getting-started.html#content)
-- [what are the benefits of writing tests?](http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/)
-- [what should you test in your codebase](https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not)
+- <a class = "knowledge-check-link" href = "#Introduction">What is TDD?</a>
+- <a class = "knowledge-check-link" href = "https://facebook.github.io/jest/docs/en/getting-started.html#content">How to set up and use jest?</a>
+- <a class = "knowledge-check-link" href = "http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of writing unit tests?</a>
+- <a class = "knowledge-check-link" href = "https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not">What should you test in your codebase?</a>
