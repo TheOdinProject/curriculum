@@ -66,7 +66,7 @@ Phrased another way, the child selector will select an element that is one level
   /* Our cool CSS */
 }
 
-/* This rule will only select the div with the classes child group3 */
+/* This rule will only select the div with the class child group3 */
 .group1 + div + div {
   /* More cool CSS */
 }
@@ -171,7 +171,7 @@ Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
 
 [`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
- There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a fuller list of what's possible.
+ There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
 ### Attribute Selectors
 The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com`.
@@ -204,7 +204,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 
 
 * `[attribute^="value"]` - `^=` Will match strings from the start.
-* `[attribute$="value"]` - `$=` Will strings from the end.
+* `[attribute$="value"]` - `$=` Will match strings from the end.
 * `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
 
 ~~~css
