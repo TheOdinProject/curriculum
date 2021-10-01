@@ -9,12 +9,12 @@ You have learned various ways how to position elements on the screen and even th
  - You'll know the difference between each property and how to combine them.
 
 ### Static and Relative Positioning
-The difference between static and relative is fairly simple. Static is the default positioning of every element and properties top, right, bottom and left have no effect on statically positioned elements. Relative on the other hand is pretty much the same as static, but properties top, right bottom and left affect the specific element relative to itself.
+The difference between static and relative is fairly simple. Static is the default position of every element, and properties top, right, bottom and left have no affect on statically positioned elements. Relative on the other hand is pretty much the same as static, but properties top, right bottom and left affect the specific element relative to itself.
 
 ### Absolute Positioning
+Absolute positioning allows you to _absolutely_ position elements on the screen. Absolutely positioned elements will be relative to the next absolute or relative parent. Absolutely positioned elements are also removed from the normal flow of the document. To put it in simple terms: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using top, right bottom and left properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements.
 
 ### Fixed Positioning 
-
 ### Sticky Positioning
 
 ### Assignment
