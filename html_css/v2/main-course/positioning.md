@@ -9,6 +9,7 @@ You have learned various ways how to position elements on the screen and even th
  - You'll know the difference between each property and how to combine them.
 
 ### Static and Relative Positioning
+The difference between static and relative is fairly simple. Static is the default positioning of every element and properties top, right, bottom and left have no effect on statically positioned elements. Relative on the other hand is pretty much the same as static, but properties top, right bottom and left affect the specific element relative to itself.
 
 ### Absolute Positioning
 
