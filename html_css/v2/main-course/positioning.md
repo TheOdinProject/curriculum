@@ -21,6 +21,13 @@ Fixed elements are also removed from the normal flow of the document and are pos
 Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, but checking out the behavior of <a href="https://codepen.io/dudleystorey/pen/yNxPRy">this</a> example might clear things up for you.
 
 ### Assignment
+<div class="lesson-content__panel" markdown="1">
+1. <a href="https://www.youtube.com/watch?v=jx5jmI0UlXU">This</a> video is fast paced but provides good visual representation of different positioning behaviors. Go ahead and watch it.
+2. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">This MDN article</a> covers all of the conceptual details about positioning. 
+3. <a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">This CSS Tricks</a> page should give you a different insight on the topic. You should read it as well.
+4. Finally, <a href="https://www.kevinpowell.co/article/positition-fixed-vs-sticky/">this article</a> discusses the difference between fixed and sticky positioning, it's a great read to understand the difference better.
+</div>
+
 
 ### Additional Resources
 
