@@ -70,7 +70,7 @@ course.add_section do |section|
 
   section.add_lessons(
     javascript_lessons.fetch('JSON'),
-    javascript_lessons.fetch('Async'),
+    javascript_lessons.fetch('Asynchronous Code'),
     javascript_lessons.fetch('Working with APIs'),
     javascript_lessons.fetch('Async and Await'),
     javascript_lessons.fetch('Weather App'),
