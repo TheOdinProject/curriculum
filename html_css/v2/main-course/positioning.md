@@ -18,6 +18,8 @@ Absolute positioning allows you to _absolutely_ position elements on the screen.
 Fixed elements are also removed from the normal flow of the document and are positioned relative to the _viewport_. You basically use top, right bottom and left properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars.
 
 ### Sticky Positioning
+Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, but checking out the behavior of <a href="https://codepen.io/dudleystorey/pen/yNxPRy">this</a> example might clear things up for you.
+
 ### Assignment
 
 ### Additional Resources
