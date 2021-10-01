@@ -134,9 +134,9 @@ def javascript_lessons
       url: '/javascript/async-apis/json.md',
       identifier_uuid: 'ae0d44bf-60b7-4644-b61e-216a4a6b271b',
     },
-    'Async' => {
-      title: 'Async',
-      description: 'Async',
+    'Asynchronous Code' => {
+      title: 'Asynchronous Code',
+      description: 'Introduction to asynchronous programming',
       is_project: false,
       url: '/javascript/async-apis/promises-async.md',
       identifier_uuid: '31ab5898-fd2b-48c4-9070-0e8b622b0805',
