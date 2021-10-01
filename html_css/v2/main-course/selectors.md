@@ -61,12 +61,12 @@ main > div > div {
 Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
 
 ~~~css
-/* This rule will only select the div with the classes child group2 */
+/* This rule will only select the div with the class child group2 */
 .group1 + div {
   /* Our cool CSS */
 }
 
-/* This rule will only select the div with the classes child group3 */
+/* This rule will only select the div with the class child group3 */
 .group1 + div + div {
   /* More cool CSS */
 }
@@ -93,6 +93,8 @@ As always don't forget to check the [docs](https://developer.mozilla.org/en-US/d
 
 ## Dynamic and User Action Pseudo-classes
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
+
+[:`focus`](https://css-tricks.com/almanac/selectors/f/focus/)
 
 [`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer. It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
 
@@ -171,7 +173,7 @@ Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
 
 [`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
- There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a fuller list of what's possible.
+ There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
 ### Attribute Selectors
 The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `img='picture.jpg'` or `href="www.theodinproject.com`.
@@ -204,7 +206,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 
 
 * `[attribute^="value"]` - `^=` Will match strings from the start.
-* `[attribute$="value"]` - `$=` Will strings from the end.
+* `[attribute$="value"]` - `$=` Will match strings from the end.
 * `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
 
 ~~~css
@@ -236,7 +238,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-strings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
 
-### Assignment REVIEW
+### Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Complete [CSS Diner](https://flukeout.github.io/). You should be familiar with most of the content in the first couple of exercises, but practice and review never hurt! Don't forget to read the examples and explanations on the right.
 2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail.
