@@ -71,7 +71,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
    1. Type the following at the top of the script tag: `let a = 10`
    2. `console.log(a)` should print `10`
    3. Try the following: `9 * a`
-   4. and this: `let b = 7 * a` (returns undefined) and then `console.log(b)`
+   4. and this: `let b = 7 * a` (returns [undefined](https://developer.mozilla.org/en-US/docs/Glossary/undefined)) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:
    1. Declare a constant variable `max` with the value `57`
    2. Set another variable `actual` to `max - 13`
