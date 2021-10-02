@@ -26,7 +26,7 @@ We know it may be tempting to look at the solutions when you get stuck or don't 
 
 - All of the submitted projects are other *student* solutions. This means they are written by other people who are also still learning and may not necessarily be representative of "best practice" or high quality code.
 - Looking at solutions robs you of the chance to develop your problem solving and researching skills. In the real world, there will not always be "solutions" for you to look at, and you will have to come up with your own.
-- There are many different ways to achieve the same end result - it is not "one size fits all".
+- There are many different ways to achieve the same end result - it is not "one size fits all."
 - An Analogy: "Learning how to code from looking at completed code is like learning how to make pizza dough from looking at a baked pizza."  There is a lot more that goes into it than you might assume from only seeing the final product and not the process that led to it.
 
 Once you have completed your project, feel free to look at the other solutions to see alternative ways the project was completed.
