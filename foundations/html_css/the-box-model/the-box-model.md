@@ -41,6 +41,9 @@ The only real complication here is that there are multiple ways to manipulate th
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 ### Knowledge Check
+* From inside to outside, what is the order of box-model properties?
 * What does the `box-sizing` CSS property do?
 * Would you use `margin` or `padding` to create more space between 2 elements?
 * Would you use `margin` or `padding` to create more space between the contents of an element and its border?
+* Would you use `margin` or `padding` to increase the size of a button without changing the text size?
+* Would you use `margin` or `padding` to adjust how close to the edge of the window an element is?
