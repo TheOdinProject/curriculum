@@ -2,13 +2,13 @@
 
 Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them _will_ make you a better developer.
 
-### Learning Outcomes
-
-- Set up a linter and prettier to make your code better.
-
 1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
 3. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
+
+### Learning Outcomes
+
+- Set up a linter and prettier to make your code better.
 
 ### Linting
 
