@@ -1,15 +1,15 @@
 ### Introduction
 
-In the previous lesson you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson we're going to focus on what we believe are some foundational CSS concepts, things that anyone should know from the beginning, whether they are just starting out or simply need a refresher.
+In the previous lesson you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning - whether they are just starting out or simply need a refresher.
 
 ### Learning Outcomes
 
-By the end of this lesson, you should be able to:
+By the end of this lesson, you should be able to
 
-* Add styles to HTML with CSS
-* Understand how to use the class and ID attributes
-* Add styles to specific elements using the correct selectors
-* Understand what the cascade does
+* Add styles to HTML with CSS.
+* Understand how to use the class and ID attributes.
+* Add styles to specific elements using the correct selectors.
+* Understand what the cascade does.
 
 ### Basic Syntax
 
@@ -17,9 +17,12 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
+> A note:
+> A `<div>` is one of the basic HTML elements. It is simply an empty container. In general it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+
 ### Selectors
 
-Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 #### Universal Selector
 
@@ -55,7 +58,7 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 
 #### Class Selectors
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class in an HTML file and select it in CSS:
+Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
 ~~~html
 <!-- index.html -->
@@ -146,7 +149,7 @@ Another way to use selectors is to chain them as a list without any separation. 
 </div>
 ~~~
 
-We have two elements with the `subsection` class that has some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
+We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
 
 ~~~css
 .subsection.header {
@@ -194,7 +197,18 @@ There are some CSS properties that you're going to be using all the time, or at 
 
 The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
 
-Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX (`#ff0000`), RGB (`rgb(255, 0, 0)`), and HSL (`hsl(0, 100%, 50%)`) values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX,  RGB, and HSL values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+
+~~~css
+p {
+  /* hex example: */
+  color: #1100ff;
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+~~~
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
@@ -235,7 +249,7 @@ The cascade is what determines which rules actually get applied to our HTML. The
 
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson.
+A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson:
 
 1. ID selectors (most specific selector)
 2. Class selectors
@@ -374,7 +388,7 @@ A note on file names: `styles.css` is just what we went with as the file name he
 
 A couple of the pros to this method are:
 
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner
+1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner.
 2. We only need to edit the CSS in *one* place, which is especially handy for websites with multiple pages that all share similar styles.
 
 #### Internal CSS
@@ -415,9 +429,9 @@ The first thing to note is that we don't actually use any selectors here, since 
 
 If you need to add a *unique* style for a *single* element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
-* It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated
-* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat
-* Any inline CSS will override the other two methods, which can cause unexpected results (while we won't dive into it here, this can actually be taken advantage of)
+* It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
+* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
+* Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of).
 
 ### Practice
 
@@ -425,7 +439,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 2. Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
-    It's completely open to how you actually style it, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume so feel free to go a little crazy for now.
+    How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume, so feel free to go a little crazy for now.
 
     We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
@@ -438,6 +452,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 * Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied. 
 * [Changing the Font Family](https://www.bitdegree.org/learn/font-family-css#how-to-use-a-downloaded-font) goes over a few different ways on how to use custom fonts.

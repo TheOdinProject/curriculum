@@ -51,14 +51,14 @@ An important implication to notice here is that when you specify `flex-grow` or 
 
 `flex-basis` simply sets the initial size of a flex-item, so any sort of `flex-grow`ing or `flex-shrink`ing starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly. Using `auto` as a flex-basis tells the item to check for a width declaration (`width: 250px`).
 
-> #### important note about flex-basis
+> #### Important note about flex-basis:
 > There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`
 
 ### In practice...
 
 In practice you will likely not be using complex values for `flex-grow`, `flex-shrink` or `flex-basis`. Generally, you're most likely to use declarations like `flex: 1;` to make divs grow evenly and `flex-shrink: 0` to keep certain divs from shrinking.
 
-It _is_ possible to get fancy, and set up layouts where one columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
+It _is_ possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
 
 ### Knowledge Check
 * What are the 3 values defined in the shorthand `flex` property? (e.g. `flex: 1 1 auto`)?

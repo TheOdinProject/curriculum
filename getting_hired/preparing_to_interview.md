@@ -62,8 +62,8 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
-* [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
-* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms and data scructures. 
+* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data scructures.
+* [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
 
 ### Algorithms Training:
 

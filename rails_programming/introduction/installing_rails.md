@@ -41,11 +41,11 @@ With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javascript 
 
 Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
 
-Yarn is a Javascript package manager, much like Bundler for Ruby and allows you to easily manage your Javascript libraries.
+Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries.
 
 Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn. Follow the instructions step by step.
 
-You can verify the install by running the following command
+You can verify the install by running the following command:
 
 ~~~bash
 yarn --version
@@ -57,7 +57,7 @@ You won't need to use Yarn for this tutorial but you do need it installed for Ra
 
 #### Step 1.3: Create the Application
 
-This is where things might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
+This is where it might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
 We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us.
 
@@ -116,7 +116,7 @@ Go ahead and create a new car, and then refresh the page to verify it is working
 Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.
 
 #### Step 2.1 Stage and Commit Local Changes
-Rails will already have initialized Git for you when it was doing it's thing, so just stage and commit all of the work it's done so far.
+Rails will already have initialized Git for you when it was doing its thing, so just stage and commit all of the work it's done so far.
 
 ~~~bash
 git add .
@@ -196,13 +196,19 @@ Then, save the file. You can leave VSCode open since we're going to be coming ba
 
 #### Step 3.2.2: Install the new gems.
 
-Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. To do this, we can simply run
+Next, we need to tell Ruby, Git, and Heroku that we've changed the `Gemfile`. When we deploy the app, Heroku will install the gems in the `:production` group and ignore the ones in the `:development` and `:test` groups. Conversely, we don't need to install the gems in the `:production` group on our local machine, since they aren't being used for development. To accomplish this, we need to tell `Bundler` to ignore the `:production` group gems in this project by running
 
 ~~~bash
-bundle install --without production
+bundle config set --local without production
 ~~~
 
-We use `--without production` here because the pg gem relies on having the pg database installed locally. Without it the gem can't build the native extensions needed to interact with the database. That is something we would definitely recommend but not at this stage. An sqlite database is much easier to get up and running for development.
+We're not just saving disk space here; we also need to do this because the pg gem relies on having the pg (PostgreSQL) database installed locally. Without it, the gem can’t build the native extensions needed to interact with the database and we would get an error during installation. Using the same database in both development and production is something we would definitely recommend, but not at this stage. An sqlite database is much easier to get up and running for development, but sqlite isn't supported on Heroku, so we need to use PostgreSQL instead in production.
+
+Now we can install only the gems in the `:development` and `:test` groups on our local machine by simply running
+
+~~~bash
+bundle install
+~~~
 
 #### Step 3.2.3: Configure the Root Route
 

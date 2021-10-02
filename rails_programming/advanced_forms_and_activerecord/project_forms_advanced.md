@@ -32,7 +32,7 @@ This requires relatively vanilla forms that happen to be prepopulated with colle
 
 1. Create an Airport model (which basically just needs an airport code like "SFO" or "NYC") and use the `db/seeds.rb` file to create several of them.
 2. Create a Flight model (with the start and finish airport `id`s, start datetime and flight duration).
-3. Set up associations so you can ask `Flight.first.from_airport`, `Flight.first.to_airport` and get back Airport objects.  Same for `Airport.first.departing_flights` and `Airport.first.arriving_flights`, which should return a list of flight objects.
+3. Set up associations so you can ask `Flight.first.from_airport`, `Flight.first.to_airport` and get back Airport objects.  Same for `Airport.first.departing_flights` and `Airport.first.arriving_flights`, which should return a list of Flight objects.
 4. Seed your database with flights.
 5. You will search and view results in the same page.  Set up your FlightsController and routes to make the Index page (`/flights`) the root route.
 6. Create your search form on the `/flights` index page to submit using a GET (not POST) request back to the same URL.

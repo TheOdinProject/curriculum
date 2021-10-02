@@ -9,7 +9,7 @@ If you get totally stuck, drop by the chatroom. Someone will be there to point y
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Follow the instructions atop Odin's Google Homepage project](https://www.theodinproject.com/courses/foundations/lessons/html-css) to set up a git repository for this project.
+1. [Follow the instructions atop Odin's Recipes project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository) to set up a git repository for this project.
 2. Create a webpage with a 16x16 grid of square divs.
    1. Create the divs using JavaScript. Don't try making them by hand with copy and pasting in your html file!
    2. It's best to put your grid squares inside another "container" div \(which can go directly in your html\).

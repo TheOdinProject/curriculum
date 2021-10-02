@@ -93,7 +93,7 @@ function gameOver(winningPlayer){
 
 Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
-### Object Constructors
+### Object Constructors <span id='javascript-object-constructor'></span>
 
 When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:
 
@@ -146,7 +146,7 @@ Note: It is almost _always_ best to `return` things rather than putting `console
 console.log(theHobbit.info());
 ~~~
 
-### The Prototype
+### The Prototype <span id='javascript-prototype'></span>
 
 Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties.
 
@@ -173,7 +173,7 @@ Student.prototype.goToProm = function() {
 
 If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
 
-#### Recommended Method for Prototypal Inheritance
+#### Recommended Method for Prototypal Inheritance <span id='javascript-prototypical-inheritance'></span>
 
 So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method). `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes, you use it like so:
 
@@ -242,8 +242,17 @@ If we had used `Object.create` in this example, then we could safely edit the `N
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [this video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explain the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
-* [This video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains the `Object.create` method with useful details about it. He walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also, you can check out [this video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith for another point of view on extending objects by using `Object.create`.
-* [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) by 
-Nicholas C. Zakas is really great for understanding OOP in JavaScript. In this book, the author explains concepts simply and in-depth. He explores JavaScript's object-oriented nature, describing the language's unique implementation of inheritance and other key characteristics. The book isn't free but it's very valuable.
-* [This Stack Overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
+* [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explains the Prototype concept with graphics and simple language. Try using these resources if you want another perspective to understand the concept.
+* [This Video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [This Video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith to understand another point of view of extending objects from others by `Object.create`.
+* [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by 
+Nicholas C. Zakas is really great to understand OOP in javascript, which explains concepts simply and in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
+* [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href='#javascript-object-constructor'>Write an object constructor and instantiate the object.</a>
+- <a class="knowledge-check-link" href='#javascript-prototype'>Describe what a prototype is and how it can be used.</a>
+- <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
+- <a class="knowledge-check-link" href='#javascript-prototypical-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
+- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>

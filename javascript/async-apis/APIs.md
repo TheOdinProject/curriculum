@@ -2,6 +2,14 @@
 
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+ - Explain what an API is
+ - Explain broadly how access to an API works
+ - Explain how to fetch and extract data from an API
+ - Explain why your API request might be blocked by the browser, and how to fix this
+
 ### APIs
 
 Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
@@ -89,7 +97,7 @@ fetch('https://url.com/some/url')
 ~~~
 In case you've forgotten, scroll back up and look at how you would use XHR to do the same thing. While you're admiring how nice and clean that code is, notice the `.then()` and `.catch()` functions there. Do you remember what those are? (PROMISES!)
 
-Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that here](https://developers.giphy.com/docs/).
+Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that here](https://developers.giphy.com/docs/api#quick-start-guide).
 
 Giphy has several methods for searching and finding gifs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [here](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. If you put it all together correctly (with YOUR API key) you should get something like this:
 
@@ -211,7 +219,14 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
-2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs) of free, open APIs and let your imagination go wild.
+2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs) and [this list](https://github.com/public-apis/public-apis) of free, open APIs and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
 </div>
+
+### Knowledge Check
+
+ - <a class="knowledge-check-link" href="#apis">What is an API?</a>
+ - <a class="knowledge-check-link" href="#apis">How is access to an API restricted?</a>
+ - <a class="knowledge-check-link" href="#fetching-data">How do you fetch and extract data from an API?</a>
+ - <a class="knowledge-check-link" href="#CORS">Why might your API request be blocked by the browser, and how might you fix this?</a>

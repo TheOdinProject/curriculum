@@ -16,8 +16,8 @@ In this lesson, we will learn how to create links and add some visual flair to o
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
 1. Create a new directory named `odin-links-and-images`.
-2. Within that directory create a new file named `index.html`
-3. Fill in the usual HTML boilerplate
+2. Within that directory, create a new file named `index.html`.
+3. Fill in the usual HTML boilerplate.
 4. Finally, add the following h1 to the body:
 
 ~~~html
@@ -36,7 +36,7 @@ Add the following to the body of the index.html page we created and open it in t
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-An HTML attribute gives additional information to an HTML element and always goes in the elements opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is made up of two parts, a name, and a value. In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -52,8 +52,8 @@ It's worth noting you can use anchor tags link to any kind of resource on the in
 
 Generally, there are two kinds of links we will create:
 
-1. Links to pages on other websites on the internet.
-2. Links to pages located on our own websites.
+1. Links to pages on other websites on the internet
+2. Links to pages located on our own websites
 
 #### Absolute Links
 
@@ -144,7 +144,7 @@ To use images that we have on our own websites, we can use a relative path.
 
 1. Create a new directory named `images` within the `odin-links-and-images` project.
 2. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
-3. Rename the image to `dog.jpg`
+3. Rename the image to `dog.jpg`.
 
 Finally add the image to the `index.html` file:
 
@@ -162,7 +162,7 @@ Finally add the image to the `index.html` file:
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent Directories
-What if we want to use the dog image in the about page? we would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
+What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
@@ -172,9 +172,9 @@ To go to the parent directory we need to use two dots in the relative filepath l
 
 To break this down:
 
-1. First we are going to the parent directory of the pages directory which is `odin-links-and-images`.
-2. Then from the parent directory, we can go into the `images` directory.
-3. Finally we can access the `dog.jpg` file.
+1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
+2. Then, from the parent directory, we can go into the `images` directory.
+3. Finally, we can access the `dog.jpg` file.
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
@@ -198,15 +198,16 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Watch Kevin Powell's HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5)
-2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6)
-3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7)
-4. [Read about the four main image formats that can used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
+1. [Watch Kevin Powell's HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
+2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
+3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
+4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [Interneting is hards treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
 
