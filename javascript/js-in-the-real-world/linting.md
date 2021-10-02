@@ -35,3 +35,11 @@ Prettier is _awesome_. It is similar to a linter, but serves a slightly differen
 3. Setup is simple. [The homepage](https://prettier.io/) links to tutorials for most popular editors.
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
+
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/">What is linting?</a>
+- <a class="knowledge-check-link" href="https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/">Which problems can linting prevent?</a>
+- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=hkfBvpEfWdA">Why should you use prettier?</a>
