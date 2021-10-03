@@ -125,6 +125,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2).
 * [Learn Git Branching](https://learngitbranching.js.org/) is an interactive website to learn the basics of git branching by [Thomas Rokicki](https://github.com/CraftingGamerTom)
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) by [Chris Beams](https://github.com/cbeams) provides guidelines for writing neat and concise commit messages.
+* [Git & GitHub Crash Course For Beginners](https://youtu.be/SWYqp7iY_Tc) by Brad Traversy from his [Youtube channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
