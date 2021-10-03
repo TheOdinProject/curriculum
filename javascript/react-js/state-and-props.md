@@ -4,6 +4,15 @@ The last lesson was a lot of theory, but there is just a little bit more you hav
 
 Let's dive right into it. Feel free to code along with this lesson. Typing the code out will help you remember it significantly better.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+- Demonstrate how to pass functions, state, or other values between components as `props`
+- Describe the purpose of `state` in a React component
+- Explain the importance of using `setState()` instead of mutating state directly
+- Differentiate between class and functional components and the syntax with which they use props
+- Demonstrate how to attach event listeners to elements in React components
+
 ### Props
 
 In the previous lesson, you learned a lot about components and how to structure your application in a "React way". But how do we share values or even functionality between those components? Yes, you guessed it right, the answer is `props`. Props are one of the two major pillars of React, the very heart of what the framework was built on.
@@ -267,14 +276,6 @@ function MyComponent({ title }) {
 
 Using state in functional components is a bit different. Before the end of 2018, developers were not able to access state in functional components at all. Functional components were therefore just used for returning JSX logic with props. However, with the introduction of **React Hooks**, this changed. Now we can set and access state in functional components, and in the modern React landscape, they are often preferred over class components. React developers will be exposed to both kinds of components on the job, so it's imperative for us to be very familiar with both. The way React hooks work is the topic of one of the following lessons, so don't worry about it right now. We are setting you up to say "Hey! I remember that" when it's introduced.
 
-### Learning Outcomes
-
-- Demonstrate how to pass functions, state, or other values between components as `props`
-- Describe the purpose of `state` in a React component
-- Explain the importance of using setState() instead of mutating state directly
-- Differentiate between class and functional components and the syntax with which they use props
-- Demonstrate how to attach event listeners to elements in React components
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -286,3 +287,11 @@ Using state in functional components is a bit different. Before the end of 2018,
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
 - An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based application.
+
+### Knowledge Check
+
+- <a class="knowledge-check-link" href="#props">How do you pass functions, state, or other values between components?</a>
+- <a class="knowledge-check-link" href="#state">What is the purpose of `state` in a React component?</a>
+- <a class="knowledge-check-link" href="https://reactjs.org/docs/react-component.html#setstate">Explain the importance of using `setState()` instead of mutating state directly?</a>
+- <a class="knowledge-check-link" href="#state-and-props-in-functional-components">What is the difference between functional and class components and how does their syntax for handling props differ?</a>
+- <a class="knowledge-check-link" href="https://reactjs.org/docs/events.html">How do you attach event listeners to elements in React components?</a>
