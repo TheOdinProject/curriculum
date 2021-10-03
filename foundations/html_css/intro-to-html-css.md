@@ -20,6 +20,6 @@ This section contains helpful links to other content.  It isn't required, so con
 * [This FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
 
 ### Knowledge Check
-* What do HTML and CSS stand for?
-* Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?
-* Between HTML and CSS, which would you use for changing the font and background color of a button?
+* <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
+* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
+* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for changing the font and background color of a button?</a>
