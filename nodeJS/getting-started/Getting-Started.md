@@ -18,8 +18,6 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/learn) docs which you should follow along.
-  - Introduction
-    - Read the entire Quick Start section from [Introduction of Node.js](https://nodejs.dev/learn/introduction-to-nodejs) to [Differences between Node.js and the Browser](https://nodejs.dev/learn/differences-between-nodejs-and-the-browser). 
   - Get Started
     - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line) lesson.
     - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
@@ -35,9 +33,9 @@ By the end of this lesson, you should be able to do the following:
     - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
     - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
   - Events
-    - Start with [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
     - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
-
+    - Look into [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
+    
 - Optional Extra Credit!
   - Although a bit outdated, the W3 Schools introduction to Node.js is super useful!  Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
 

@@ -39,17 +39,17 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 </html>
 ~~~
 
-Save and open this file up in a web browser (you can use Live Server to do this!) and then open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab, where you should see the output of our `console.log` statement.
+Save and open this file up in a web browser (you can use Live Server to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
 
-> `console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console. We encourage you to code along with all of the examples in this and future lessons.
+> <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
 
 ### Variables
 
-You can think of variables as simply "storage containers" for data in your code. Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.
+You can think of variables as simply "storage containers" for data in your code. <span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
 
 1. [This variable tutorial](http://javascript.info/variables) will explain you everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
 
-The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now. The precise differences between `var` and `let` will be explained later.
+The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now.</span> The precise differences between `var` and `let` will be explained later.
 
 ### Numbers
 
@@ -87,16 +87,16 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* Name the three ways to declare a variable?
-* Which of the three variable declarations should you avoid and why?
-* What rules should you follow when naming variables?
-* What should you look out for when using the `+` operator with numbers and strings?
-* How does the `%` operator work?
-* Explain the difference between `==` and `===`.
-* When would you receive a `NaN` result?
-* How do you increment and decrement a number?
-* Explain the difference between prefixing and post-fixing increment/decrement operators.
-* What is operator precedence and how is it handled in JS?
-* How do you access developer tools and the console?
-* How do you log information to the console?
-* What does unary plus operator do to string representations of integers?
+* <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable?</a>
+* <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder"> How does the `%` operator work?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp"> Explain the difference between `==` and `===`.</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and post-fixing increment/decrement operators.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#operator-precedence">What is operator precedence and how is it handled in JS?</a>
+* <a class="knowledge-check-link" href="#access-devTools-console"> How do you access developer tools and the console?</a>
+* <a class="knowledge-check-link" href="#console-log">How do you log information to the console?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus operator do to string representations of integers?</a>

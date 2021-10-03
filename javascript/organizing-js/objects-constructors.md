@@ -255,4 +255,4 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='#javascript-prototype'>Describe what a prototype is and how it can be used.</a>
 - <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
 - <a class="knowledge-check-link" href='#javascript-prototypical-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does.</a>
+- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>

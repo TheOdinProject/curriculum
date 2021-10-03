@@ -1,6 +1,6 @@
 We've already introduced webpack in a previous lesson. It is the go-to tool across the web for bundling and compiling javascript code. There _are_ other options out there, but at this time none of them are as popular or widely used as webpack.
 
-In our last lesson we covered the first half of what webpack can do for you - bundling your modules. Another amazing feature is webpack's ability to process and manipulate your code during the compilation step. So, for example, if you would like to use [Sass](http://sass-lang.com/) to write your CSS, webpack can compile that for you. Webpack can manage your images and compress and optimize them for use on the web. Webpack can minify and uglify your code. There are tons of things webpack can do, but to access these functions we need to learn more about loaders and plugins.
+In our last lesson, we covered the first half of what webpack can do for you: bundling your modules. Another amazing feature is webpack's ability to process and manipulate your code during the compilation step. So, for example, if you would like to use [Sass](http://sass-lang.com/) to write your CSS, webpack can do that for you. Webpack can manage your images and compress and optimize them for use on the web. Webpack can [minify and uglify](https://stackoverflow.com/questions/33708197/does-it-make-sense-to-do-both-minify-and-uglify/33708348) your code. There are tons of things webpack can do, but to access these functions we need to learn more about loaders and plugins.
 
 ### Learning Outcomes
 After completing this lesson, you will be able to:
