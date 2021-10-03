@@ -1,5 +1,4 @@
 module.exports = {
-  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -12,7 +11,7 @@ module.exports = {
     }
   },
   purge: {
-    content: ["./app/**/*.html.erb"],
+    content: ["./app/**/*.html.erb", "./app/components/*.rb"],
   },
   variants: {
     extend: {},
