@@ -1,8 +1,8 @@
 ### Introduction
-With media queries it is possible to completely restyle your web projects based on the size of a user's screen. All of the lessons we've had so far have focused on making sure that the individual elements of your layout are as flexible as possible, but sometimes you will just need to shift things in your layout, or adjust values such as font-size or margins to accommodate specific sizes.
+With media queries it is possible to completely restyle your web projects based on the size of a user's screen. All of the lessons we've had so far have focused on making sure that the individual elements of your layout are as flexible as possible, but sometimes you will need to actually _change_ some of your css values to accommodate a specific screen size. These changes could be subtle shifts, such as adjusting margin, padding or font-size to squeeze more content onto the screen, or they could be big obvious shifts in layout. The nature of the exact changes will depend on your design, but the underlying technique is the same.
 
 ### Learning Outcomes
-* You'll learn how to implement media queries
+* You'll learn how to implement media queries to create fully responsive websites that look great on any device.
 
 ### Media Query Syntax
 
@@ -19,7 +19,7 @@ body {
 }
 ~~~
 
-In the above example, margin is changed based on screen size.  Specifically, on all screens _below or equal to_ 600px, the margin will be `8px`, and on all screens _above_ 600px, it will be `24px`.
+In the above example, margin is changed based on screen size.  Specifically, on all screens _below or equal to_ 600px, the margin will be `8px`, and on all screens _above_ `600px`, it will be `24px`.
 
 Really, that's all there is to it. You can create some complex shifting layouts with just this knowledge alone. You can create an unlimited number of media queries in a single document (Click the 'Edit on CodePen' button so you can resize your screen and see the changes):
 
@@ -45,15 +45,15 @@ You can also put any number of style definitions inside a media query:
 In all of the above examples our queries specify a `max-width` which will apply styles to any screen resolution _below_ the given style. Said another way: a `max-width` query will apply on any screen up to the defined `max-width`. It is also possible to define a `min-width`, which applies to screens that are _larger_ than the given value. `max-height` and `min-height` are also valid.
 
 #### Limit Media Queries
-As mentioned earlier, it is entirely possible to create an unlimited number of media queries effecting every possible screen size. It is best practice however to try to minimize your media-query usage and try to rely more on the natural flexibility of your layouts. Consider the second embedded example above ("my cool site"). Really, it only _needs_ one media query to accommodate all desktop and mobile sizes, and there's no real need to create more.
+As mentioned earlier, it is possible to create an unlimited number of media queries effecting every possible screen size. It is best practice, however, to minimize your media-query usage and rely more on the natural flexibility of your layouts. Consider the second embedded example above ("my cool site"). It only _needs_ one media query to accommodate all desktop and mobile sizes, and there's no real need to create more.
 
 #### Common Breakpoints
-'Breakpoint' is the term for the screen-size that triggers your media-query. You will find quite a lot of differing opinions on what exactly your breakpoints should be. In general though it's helpful to think about the kinds of devices and screens that your users will be using. Mobile phones are usually under 500px. Tablets are often between 500 and 1000px and anything larger than 1000px is likely to be a normal browser screen.
+'Breakpoint' is the term for the screen-size that triggers your media-query. You will find quite a lot of differing opinions on what exactly your breakpoints should be. In general though, it's helpful to think about the kinds of devices and screens that your users will be using. Mobile phones are usually under `500px`. Tablets are often between `500` and `1000px` and anything larger than `1000px` is likely to be a normal browser screen. Super wide screens are also becoming more common, which means that your site _could_ end up being viewed on a screen wider than `2000px`!
 
-This does _not_ mean, however that you should just start your project with a media queries for each device. Each project is going to have different requirements based on the design you're trying to achieve. As mentioned above, try to limit your breakpoints to just what you _need_. With many relatively simple layouts, you can get by with only one mobile-centric breakpoint somewhere around `500`-`600px`. More complex layouts might benefit from doing a full sized layout above `1200px`, an altered "tablet" layout between `600px` and `1200px` and mobile below `600px`. The real takeaway here is that it doesn't really matter exactly where you set your breakpoints... just do what makes sense for your project.
+This does _not_ mean that you should just start your project with a media queries for each device. Each project is going to have different requirements based on the design you're trying to achieve. As mentioned above, try to limit your breakpoints to just what you _need_. With many relatively simple layouts, you can get by with only one mobile-centric breakpoint somewhere around `500`-`600px`. More complex layouts might benefit from doing a full sized layout above `1200px`, an altered "tablet" layout between `600px` and `1200px` and mobile below `600px`. The real takeaway here is that it doesn't really matter exactly where you set your breakpoints... just do what makes sense for your project.
 
 #### Zooming!
-Something to be aware of: in most browsers, zooming in on a webpage will change the effective resolution of that page. So if your browser windows is exactly `1000px` wide, zooming in will cause the page to behave as if the screen is _smaller_, and will trigger media-queries based on the simulated/zoomed screen resolution. Zooming _out_ can be handy for debugging issues that arise on screens that are larger than your actual computer screen... and forgetting that you've zoomed in or out on a webpage can cause some real confusion when breakpoints refuse to trigger at the correct points.
+Something to be aware of: in most browsers, zooming in on a webpage will change the effective resolution of that page. So if your browser window is exactly `1000px` wide, zooming in will cause the page to behave as if the screen is _smaller_, and will trigger media-queries based on the simulated/zoomed screen resolution. Zooming _out_ can be handy for debugging issues that arise on screens that are larger than your actual computer screen... and forgetting that you've zoomed in or out on a webpage can cause some real confusion when breakpoints refuse to trigger at the correct points.
 
 ### Print Styles
 You'll often see media queries defined with the `screen` keyword like so:
