@@ -311,10 +311,10 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Numbers
-  <a class = "knowledge-check-link href = "https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#numbers">*What are the basic arithmetic operators you can use on numbers? </a>
-  <a class = "knowledge-check-link href = "https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#:~:text=remainder%20of%202)-,Integers%20and%20Floats,-There%20are%20two"* What's the difference between an integer and a float?</a>
-  <a class = "knowledge-check-link href = " https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#:~:text=Converting%20Number%20Types"* What method would you use to convert a float to an integer?</a>
- <a class = "knowledge-check-link href = "https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#:~:text=Converting%20Number%20Types " * What method would you use to convert an integer to a float? </a>
+*  <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#numbers">What are the basic arithmetic operators you can use on numbers? </a>
+*  <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#:~:text=remainder%20of%202)-,Integers%20and%20Floats,-There%20are%20two">What's the difference between an integer and a float?</a>
+*  <a class="knowledge-check-link" href = "https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#:~:text=Converting%20Number%20Types">What method would you use to convert a float to an integer?</a>
+* <a class="knowledge-check-link" href ="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/basic-data-types#:~:text=Converting%20Number%20Types">What method would you use to convert an integer to a float?</a>
 
 * Strings
   * What is a string?
