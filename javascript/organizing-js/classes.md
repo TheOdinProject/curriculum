@@ -37,13 +37,13 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-<a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Describe the pros and cons of using classes in JavaScript.</a>
-<a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
+* <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Describe the pros and cons of using classes in JavaScript.</a>
+* <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
 </a>
-<a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Explain the differences between using a class to define a constructor and other prototype methods.
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Explain the differences between using a class to define a constructor and other prototype methods.
 </a>
-<a class="knowledge-check-link" href="https://javascript.info/class">Explain what "getters" & "setters" are.</a>
-<a class="knowledge-check-link" href="https://javascript.info/class">Understand what computed names and class fields are.</a>
-<a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
-<a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Be able to use inheritance with classes.</a>
-<a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly talk about the conflict in JS with functional programming and classes.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/class">Explain what "getters" & "setters" are.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/class">Understand what computed names and class fields are.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Be able to use inheritance with classes.</a>
+* <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly talk about the conflict in JS with functional programming and classes.</a>
