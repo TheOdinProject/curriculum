@@ -39,7 +39,9 @@ People who volunteer in coding communities are here to help! But a question you 
 4. While asking for help is encouraged, it's important to avoid becoming a "help vampire" and be respectful of the communities or persons you are asking for help. [This resource](https://slash7.com/2006/12/22/vampires/) goes in depth to identify what a "help vampire" is, gives those who help others the tools to empower folks to ask questions effectively, and help the "help vampire" effectively. 
 
 
-### Knowledge Check:
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 - <a class="knowledge-check-link" href="#provide-code-knowledge-check">Name at least one thing your question should always include.</a>
 - <a class="knowledge-check-link" href="https://xyproblem.info/">Describe the “XY Problem”.</a>
 - <a class="knowledge-check-link" href="https://slash7.com/2006/12/22/vampires/">Describe three attributes of a "help vampire".</a>

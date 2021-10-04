@@ -56,6 +56,7 @@ This section contains helpful links to other content.  It isn't required, so con
 - [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - What HTML tag is used to create an unordered list?
 - What HTML tag is used to create an ordered list?

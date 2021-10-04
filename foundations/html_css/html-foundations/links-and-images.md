@@ -210,6 +210,7 @@ This section contains helpful links to other content.  It isn't required, so con
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - What element is used to create a link?
 - What is an attribute?
