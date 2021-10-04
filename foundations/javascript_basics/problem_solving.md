@@ -31,7 +31,7 @@ The first step to solving a problem is understanding exactly what the problem is
 
 ### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
-<span id="planning-stage">
+<span id="planning-stage"></span>
 Some of the questions you should answer at this stage of the process:
 
 * Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
@@ -40,7 +40,7 @@ Some of the questions you should answer at this stage of the process:
 * Given your inputs, what are the steps necessary to return the desired output?
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.</span>
-</span>
+
 #### Pseudo Code
 <span id="pseudo">Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
