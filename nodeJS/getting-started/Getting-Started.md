@@ -32,6 +32,7 @@ By the end of this lesson, you should be able to do the following:
   - NPM
     - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
     - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
+    - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
   - Events
     - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
     - Look into [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
