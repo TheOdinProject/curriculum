@@ -32,10 +32,11 @@ By the end of this lesson, you should be able to do the following:
   - NPM
     - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
     - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
+    - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
   - Events
-    - Start with [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
     - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
-
+    - Look into [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
+    
 - Optional Extra Credit!
   - Although a bit outdated, the W3 Schools introduction to Node.js is super useful!  Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
 
