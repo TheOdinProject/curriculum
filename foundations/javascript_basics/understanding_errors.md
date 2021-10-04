@@ -124,6 +124,8 @@ Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn
 
 ### Additional Resources:
 
+This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+
 [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 ### Knowledge Check:
