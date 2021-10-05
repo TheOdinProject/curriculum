@@ -47,7 +47,6 @@ Complete the following exercises:
 - tempConversion
 
 ### Knowledge Check
-
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What is an array?</a>

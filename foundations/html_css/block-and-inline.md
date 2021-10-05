@@ -31,6 +31,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * What is the difference between a block element and an inline element?
 * What is the difference between an inline element and an inline-block element?
 * Is an `h1` block or inline?
