@@ -170,6 +170,7 @@ This section contains helpful links to other content.  It isn't required, so con
 - Note: In the examples, you have probably noticed that we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/). It is used to generate dummy text you can use in place of real text as you build your sites.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - How do you create a paragraph in HTML?
 - How do you create a heading in HTML?
