@@ -9,7 +9,7 @@
     "@babel/preset-react": "^7.14.5",
     "@hookform/resolvers": "2.8.1",
     "@rails/ujs": "^6.1.4",
-    "@rails/webpacker": "5.4.2",
+    "@rails/webpacker": "5.4.3",
     "@sentry/browser": "^6.13.2",
     "autoprefixer": "^9",
     "axios": "^0.22.0",
