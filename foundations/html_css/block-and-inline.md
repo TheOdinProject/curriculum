@@ -6,7 +6,7 @@
 ### Block vs Inline
 The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models, and that you can change how a box is calculated by changing the `display` property.
 
-Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
+Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
 
 Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, it will behave like a part of the paragraph. ([Like this...](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) The link's text will sit alongside other words in that paragraph. Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
 
@@ -33,9 +33,9 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the difference between a block element and an inline element?
-* What is the difference between an inline element and an inline-block element?
-* Is an `h1` block or inline?
-* Is `span` block or inline?
-* Is `button` block or inline?
-* Is `div` block or inline?
+* <a class="knowledge-check-link" href="#block-inline-difference">What is the difference between a block element and an inline element?</a>
+* <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block">What is the difference between an inline element and an inline-block element?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is an `h1` block or inline?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `span` block or inline?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `button` block or inline?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `div` block or inline?</a>
