@@ -2,6 +2,16 @@
 
 This section aims to provide you with all you need to know to get started with React, to feel the power of a frontend framework, and to help you create highly scalable React applications. Before we jump into it, one question must be answered.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+- Understand the benefits of learning React
+- Explain what JSX is
+- Explain what a React component is
+- Explain the difference between a functional and class component
+- Explain how you would structure your application into components
+- Explain what `create-react-app` does
+
 ### Why React?
 
 React is one of the most powerful, widely used frontend frameworks.
@@ -199,15 +209,6 @@ In short, this line of code tells React to render the App component into the DOM
 
 If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you.
 
-### Learning Outcomes
-
-- Why should you learn React?
-- What is JSX?
-- What is a React Component?
-- What is the difference between a functional and a class component?
-- How should you structure your application into components?
-- What does `create-react-app` do?
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -219,3 +220,12 @@ If you want to get a better understanding of how create-react-app works and whic
 
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application without using create-react-app
+
+### Knowledge Check
+
+- <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>
+- <a class="knowledge-check-link" href="https://reactjs.org/docs/introducing-jsx.html">What is JSX?</a>
+- <a class="knowledge-check-link" href="#components">What is a React Component?</a>
+- <a class="knowledge-check-link" href="https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108">What is the difference between a functional and a class component?</a>
+- <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
+- <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a>

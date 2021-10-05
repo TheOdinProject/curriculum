@@ -10,6 +10,15 @@ It's not realistic for every website you create to be as simple as plain text on
 
 The rest of this lesson is a list of tips you can use to maintain natural responsiveness.
 
+### The Viewport Meta Tag
+When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simply simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
+
+For this reason, you should add this snippet into the `<head>` of your HTML file in just about every project you work on.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+It simply sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
+
 ### Avoid Fixed Width and Height
 
 The number one enemy of flexibility is a fixed width on an element. If you put `width: 600px` on anything, then it will never be able to shrink below that width, which ruins your chances of getting that thing to fit on most phone screens. Likewise, sticking a fixed height on an element can cause issues if the contents of that element run out of room.
@@ -45,8 +54,9 @@ Here's a statement so obvious that it sounds like a joke: flexbox was _created_ 
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall.
-2. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
+1. Read ["Using the viewport meta tag"](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag) on MDN to get a little more background and detail about the viewport meta tag and the nature of screen resolutions.
+2. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall.
+3. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
 ### Additional Resources

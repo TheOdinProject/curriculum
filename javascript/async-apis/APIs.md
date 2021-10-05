@@ -229,4 +229,4 @@ While we are pushing this API key to the frontend, this isn't something you shou
  - <a class="knowledge-check-link" href="#apis">What is an API?</a>
  - <a class="knowledge-check-link" href="#apis">How is access to an API restricted?</a>
  - <a class="knowledge-check-link" href="#fetching-data">How do you fetch and extract data from an API?</a>
- - <a class="knowledge-check-link" href="#CORS">Why might your API request be blocked by the browser, and how might you fix this?</a>
+ - <a class="knowledge-check-link" href="#cors">Why might your API request be blocked by the browser, and how might you fix this?</a>
