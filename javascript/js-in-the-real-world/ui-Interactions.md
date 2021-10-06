@@ -7,6 +7,10 @@ We aren't presenting any new content in this lesson - just giving you the chance
 
 > Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion! If you want to take a break and learn more about making stuff move [go watch this video](https://www.youtube.com/watch?v=8kK-cA99SA0).
 
+### Learning Outcomes
+
+- Practice everyday techniques used by JavaScript programmers.
+
 ### Drop-down Menus
 
 You know what we're talking about here. Picture a nav-bar or a button and when you click it the menu slides down nicely. As mentioned previously, you already know everything you need to create this element. Here are some things to keep in mind:
