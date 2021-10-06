@@ -49,5 +49,7 @@ This method of creating and nesting multiple flex containers and items is the pr
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * What's the difference between a flex container and a flex item?
 * How do you create a flex item?

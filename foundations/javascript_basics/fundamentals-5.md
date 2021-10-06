@@ -37,7 +37,6 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 </div>
 
 ### Knowledge Check
-
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>

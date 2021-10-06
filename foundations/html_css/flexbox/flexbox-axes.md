@@ -38,6 +38,8 @@ We've strayed from the point slightly... We were talking about flex-direction an
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * How do you make flex items arrange themselves vertically instead of horizontally?
 * In a `column` flex-container, what does `flex-basis` refer to?
 * In a `row` flex-container, what does `flex-basis` refer to?
