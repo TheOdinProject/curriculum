@@ -149,9 +149,14 @@
   .knowledge-check-link {
     color: inherit;
     text-decoration: inherit;
+    
     &:active, &:focus, &:hover, &:visited {
         color: inherit;
         text-decoration: none;
+    }
+    
+    & > code {
+      color: $pink;
     }
   }
 
