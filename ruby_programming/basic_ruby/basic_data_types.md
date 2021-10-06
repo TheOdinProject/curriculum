@@ -311,10 +311,10 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Numbers
-  * What are the basic arithmetic operators you can use on numbers?
-  * What's the difference between an integer and a float?
-  * What method would you use to convert a float to an integer?
-  * What method would you use to convert an integer to a float?
+  * <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
+  * <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
+  * <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
+  * <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
 
 * Strings
   * What is a string?
