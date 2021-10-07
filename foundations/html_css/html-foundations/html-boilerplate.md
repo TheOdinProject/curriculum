@@ -150,7 +150,8 @@ This section contains helpful links to other content.  It isn't required, so con
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- What is the purpose of the doctype declaration?
-- What is the HTML element?
-- What is the purpose of the head element?
-- What is the purpose of the body element?
+
+- <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
+- <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
+- <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
+- <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
