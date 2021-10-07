@@ -77,6 +77,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the difference between `justify-content` and `align-items`?
-* How do you use flexbox to completely center a div inside a flex container?
-* What's the difference between `justify-content: space-between` and `justify-content: space-around`?
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">What is the difference between `justify-content` and `align-items`?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">How do you use flexbox to completely center a div inside a flex container?</a>
+* <a class="knowledge-check-link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">What's the difference between `justify-content: space-between` and `justify-content: space-around`?</a>
