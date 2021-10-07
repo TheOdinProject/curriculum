@@ -7,12 +7,11 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
-- Understand that validating HTML forms before submitting them to a server helps to ensure data received from a user is in the desired format.
-- Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.
-- Write validation checks for HTML forms by using validation attributes.
-- Understand JavaScript Constraint Validation API provides more control and customization of form validation.
-- Use JavaScript to write custom error messages and add custom styling to the errors.
-- Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.
+- Understand the importance of validation in HTML forms.
+- Add validation attributes in HTML forms.
+- Understand Constraint Validation API for more control over form validation.
+- Add custom styling to validation errors.
+- Add validation using only JavaScript.
 
 ### Practice
 
