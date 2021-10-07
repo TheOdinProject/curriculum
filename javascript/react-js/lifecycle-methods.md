@@ -39,7 +39,9 @@ Common tasks that are done in this method are:
 
 ### ComponentDidUpdate
 
-This method is not called for the initial render, but any other time when the component updates. This method is a great place to work and operate on the DOM when the component has updated. For example you could do network requests. Just make sure to compare it to the current props.
+This method is not called for the initial render, but it is called any other time that the component updates. This means that this method is prone to infinite loops if used to update state in a way that would cause a re-render, and so it should include a conditional statement (Comparing the new props to the previous props?) to prevent that. 
+
+This method is a great place to work and operate on the DOM when the component has updated. It is also useful to send network requests when specific conditions are met. (For example if the user changed accounts, now there is a need to fetch the data for that new account.)
 
 ### ComponentWillUnmount
 
