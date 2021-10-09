@@ -39,7 +39,7 @@ It looks like two paragraphs of text, and so you might expect it to display in t
 
 When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
 
-If we want to create paragraphs in HTML, we need to use the paragraph element, which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+If we want to create paragraphs in HTML, <span id='create-paragraph-element'>we need to use the paragraph element</span>, which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
 
 Changing our example from before to use paragraph elements fixes the issue:
 
@@ -54,7 +54,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
-There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. h1 is the most important and is larger than the other headings, and h6 is the lowest level and therefore the smallest of the headings.
+<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. h1 is the most important and is larger than the other headings, and h6 is the lowest level and therefore the smallest of the headings.</span>
 
 Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
 
@@ -117,7 +117,7 @@ Again, like the strong element, you will find yourself mostly using the em eleme
 
 You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
 
-When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.
+<span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
 
 In the following example, the body element is the parent and the paragraph is the child:
 
@@ -128,7 +128,7 @@ In the following example, the body element is the parent and the paragraph is th
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Just as in human relationships, HTML parent elements can have many children.  Elements at the same level of nesting are considered to be siblings.
+Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
 
 For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are at the same level of nesting as each other:
 
@@ -171,12 +171,12 @@ This section contains helpful links to other content.  It isn't required, so con
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- How do you create a paragraph in HTML?
-- How do you create a heading in HTML?
-- How many different levels of headings are there and what is the difference between them?
-- What element should you use to make text bold and important?
-- What element should you use to make text italicized to add emphasis to it?
-- What relationship does an element have with any nested elements within it?
-- What relationship do two elements have if they are at the same level of nesting?
-- How do you create HTML comments?
+ 
+- <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>
+- <a class="knowledge-check-link" href='#headings'>How do you create a heading in HTML?</a>
+- <a class="knowledge-check-link" href='#different-heading-levels'>How many different levels of headings are there and what is the difference between them?</a>
+- <a class="knowledge-check-link" href='#strong-element'>What element should you use to make text bold and important?</a>
+- <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized to add emphasis to it?</a>
+- <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
+- <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
+- <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
