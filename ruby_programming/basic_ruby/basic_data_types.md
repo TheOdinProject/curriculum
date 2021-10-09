@@ -333,6 +333,6 @@ This section contains questions for you to check your understanding of this less
   * <a class="knowledge-check-link" href="#symbols-vs.-strings">What's the difference between a symbol and a string?</a>
 
 * Booleans
-  * What does `true` represent?
-  * What does `false` represent?
-  * What does `nil` represent?
+  * <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
+  * <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
+  * <a class="knowledge-check-link" href="#Nil">What does `nil` represent?</a>
