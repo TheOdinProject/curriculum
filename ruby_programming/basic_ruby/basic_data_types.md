@@ -328,9 +328,9 @@ This section contains questions for you to check your understanding of this less
   * <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
 
 * Symbols
-  * What is a symbol?
-  * How do you create a symbol?
-  * What's the difference between a symbol and a string?
+  * <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
+  * <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
+  * <a class="knowledge-check-link" href="#symbols-vs.-strings">What's the difference between a symbol and a string?</a>
 
 * Booleans
   * What does `true` represent?
