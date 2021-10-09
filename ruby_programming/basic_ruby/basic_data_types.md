@@ -330,7 +330,7 @@ This section contains questions for you to check your understanding of this less
 * Symbols
   * <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
   * <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
-  * <a class="knowledge-check-link" href="#symbols-vs.-strings">What's the difference between a symbol and a string?</a>
+  * <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
 
 * Booleans
   * <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
