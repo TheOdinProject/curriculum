@@ -335,4 +335,4 @@ This section contains questions for you to check your understanding of this less
 * Booleans
   * <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
   * <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
-  * <a class="knowledge-check-link" href="#Nil">What does `nil` represent?</a>
+  * <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
