@@ -8,7 +8,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 <div class="lesson-content__panel" markdown="1">
 
 1. Start the project the same way you began the webpack tutorial project.
-    1. run `npm init` in your project directory to generate a `package.json` file.
+    1. run `npm init -y` in your project directory to generate a `package.json` file.
     
     1. run `npm install webpack webpack-cli --save-dev` to install webpack to the node_modules directory of your project.
    
