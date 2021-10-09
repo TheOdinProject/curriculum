@@ -311,21 +311,21 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Numbers
-  * What are the basic arithmetic operators you can use on numbers?
-  * What's the difference between an integer and a float?
-  * What method would you use to convert a float to an integer?
-  * What method would you use to convert an integer to a float?
+  * <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
+  * <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
+  * <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
+  * <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
 
 * Strings
-  * What is a string?
-  * What are the differences between single and double quotes?
-  * What is string interpolation?
-  * How do you concatenate strings?
-  * What method would you use to change all the characters in your string to upper case?
-  * What method would you use to split up strings into arrays?
-  * What are escape characters?
-  * How do you access a specific character or substring?
-  * How do you convert other data types into strings?
+  * <a class="knowledge-check-link" href="#strings">What is a string?</a>
+  * <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
+  * <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
+  * <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
+  * <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
+  * <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
+  * <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
+  * <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
+  * <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
 
 * Symbols
   * What is a symbol?
