@@ -44,7 +44,7 @@ Add the following href attribute to the anchor element we created previously and
 <a href="https://www.theodinproject.com/about">click me</a>
 ~~~
 
-By default, any text wrapped with just the anchor tag (an anchor tag without any attributes) will look like plain text. If the text is wrapped in an anchor tag with the href attribute, the browser will give the text a blue color and underline it to signify it is a link.
+By default, any text wrapped with an anchor tag without a `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
 
 It's worth noting you can use anchor tags link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
