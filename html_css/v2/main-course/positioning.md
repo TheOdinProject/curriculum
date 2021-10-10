@@ -1,6 +1,6 @@
 ### Positioning
 
-You have learned various ways how to position elements on the screen and even though the methods you know so far are sufficient in most cases, these CSS rules are still very powerful and will certainly help you step up your CSS game!
+By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, flexbox and grid. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs, however, there are other methods at your disposal that can be very useful in some situations.
 
 ### Learning Outcomes
  - You'll learn how to use absolute positioning.
