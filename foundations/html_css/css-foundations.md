@@ -161,7 +161,7 @@ Notice how there isn't any space between the two selectors here. What `.subsecti
 
 #### Descendant Combinator
 
-Combinators allow us to combine multiple selectors differently than grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.
+Combinators allow us to combine multiple selectors differently than grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.</span>
 
 So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deeply. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
 
@@ -256,7 +256,7 @@ A CSS declaration that is more specific will take precedence over ones that are 
 3. Type selectors
 4. Universal selector and combinators (no specificity)
 
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, a class selector will always beat any number of type selectors, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
+Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
 
 Let's take a look at a few quick examples to visualize how specificity works.
 
@@ -453,10 +453,10 @@ This section contains helpful links to other content.  It isn't required, so con
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the main differences between external, internal, and inline CSS?
-* What is the syntax for class and ID selectors?
-* How would you apply a single rule to two different selectors?
-* Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?
-* What does the descendant combinator do?
-* Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+* <a class="knowledge-check-link" href="#external-css">What are the main differences between external, internal, and inline CSS?</a>
+* <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
+* <a class="knowledge-check-link" href="#grouping-selector">How would you apply a single rule to two different selectors?</a>
+* <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
+* <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
+* <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
 
