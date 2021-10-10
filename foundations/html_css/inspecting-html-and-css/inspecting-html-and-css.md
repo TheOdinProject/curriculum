@@ -59,4 +59,4 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
 - <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/css/overrides/#overview">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/css/">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
+- <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
