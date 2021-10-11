@@ -19,7 +19,7 @@ _position: absolute_ allows you to position something at an exact point on the s
 - icons on top of other elements
 
 ### Fixed Positioning 
-Fixed elements are also removed from the normal flow of the document and are positioned relative to the _viewport_. You basically use  _top_, _right_, _bottom_, and _left_ properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars.
+Fixed elements are also removed from the normal flow of the document and are positioned relative to the _viewport_. You basically use  _top_, _right_, _bottom_, and _left_ properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons. We have one of those at the very bottom right corner of the screen!
 
 ### Sticky Positioning
 Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, but checking out the behavior of <a href="https://codepen.io/theanam/pen/MPLBYy">this</a> example might clear things up for you.
