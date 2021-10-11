@@ -22,7 +22,7 @@ In the Elements pane, you can see the entire HTML structure of your page. You ca
 
 ![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
 
-When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten. For example, if you use the inspector to click on the "Web Development Starts Here" header on the TOP homepage, on the right hand side you'll see all of the styles that are currently affecting the element, as seen below:
+<span id="strikethrough">When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten. If you overcome some style that was strikethrough, then that style is overwritten by some other styles based on specificity rule, which you have learned in it the lesson [CSS Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations#the-cascade-of-css).</span> For example, if you use the inspector to click on the "Web Development Starts Here" header on the TOP homepage, on the right hand side you'll see all of the styles that are currently affecting the element, as seen below:
 
 ![Styles Pane](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/02.png)
 
@@ -58,5 +58,5 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/css/overrides/#overview">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
+- <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
 - <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
