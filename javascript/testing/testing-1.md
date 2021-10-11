@@ -31,4 +31,4 @@ By the end of the lesson , you will be able to:
 - <a class = "knowledge-check-link" href = "#Introduction">What is TDD?</a>
 - <a class = "knowledge-check-link" href = "https://facebook.github.io/jest/docs/en/getting-started.html#content">How to set up and use jest?</a>
 - <a class = "knowledge-check-link" href = "http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of writing unit tests?</a>
-- <a class = "knowledge-check-link" href = "https://dzone.com/articles/unit-testing-guidelines-what-to-test-and-what-not">What should you test in your codebase?</a>
+- <a class = "knowledge-check-link" href = "https://www.youtube.com/watch?v=URSWYvyc42M">What should you test in your codebase?</a>
