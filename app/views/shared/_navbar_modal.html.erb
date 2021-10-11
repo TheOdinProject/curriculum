@@ -29,6 +29,10 @@
           </li>
 
           <div class="dropdown-divider"></div>
+          <li class="nav-item <%= active_class(notifications_path) %>">
+            <%= link_to "Notifications", notifications_path, class: 'nav-link' %>
+          </li>
+
           <li class="nav-item <%= active_class(edit_user_registration_path) %>">
             <%= link_to "Settings", edit_user_registration_path, class: 'nav-link' %>
           </li>
