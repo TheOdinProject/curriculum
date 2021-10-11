@@ -203,6 +203,30 @@ RSpec.describe ApplicationHelper do
     end
   end
 
+  describe '#svg_icon' do
+    context 'when the provided filename does not exist' do
+      let(:filename) { 'bad_filename' }
+
+      it 'returns nil' do
+        expect(helper.svg_icon(filename)).to be_nil
+      end
+    end
+
+    context 'when the provided filename does exist' do
+      let(:filename) { 'good_filename' }
+      let(:svg) { '<svg>test svg</svg>' }
+
+      before do
+        allow(File).to receive(:exist?).and_return true
+        allow(File).to receive(:read).and_return svg
+      end
+
+      it 'returns the svg in an html safe way' do
+        expect(helper.svg_icon(filename)).to eq '<svg>test svg</svg>'
+      end
+    end
+  end
+
   describe '#unread_notifications' do
     let!(:user) { create(:user) }
 

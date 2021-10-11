@@ -33,11 +33,11 @@
 
         <li>
           <%= link_to notifications_path, data: { test_id: 'navbar-notification-icon' } do %>
-            <div class="relative h-6 w-6 text-notification hover:text-notification-hover">
+            <div class="relative text-notification hover:text-notification-hover">
               <% if unread_notifications?(current_user) %>
                 <span data-test-id="unread-notifications" class="absolute top-1 right-0.5 w-2 h-2 rounded-lg bg-new-notification"></span>
               <% end %>
-              <%= inline_svg_tag 'icons/icon-notification.svg', aria: true, title: 'notifications link', desc: 'a link to the notifications page' %>
+              <%= svg_icon 'icon-notification' %>
             </div>
           <% end %>
         </li>

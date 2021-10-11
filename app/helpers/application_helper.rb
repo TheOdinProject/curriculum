@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength
+# rubocop:disable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength, Rails/OutputSafety
 module ApplicationHelper
   require 'kramdown'
 
@@ -224,6 +224,14 @@ module ApplicationHelper
     end
   end
 
+  def svg_icon(filename)
+    file_path = Rails.root.join('app', 'assets', 'images', 'icons', "#{filename}.svg")
+
+    if File.exist?(file_path)
+      File.read(file_path).html_safe
+    end
+  end
+
   def unread_notifications?(user)
     user.notifications.any?(&:unread?)
   end
@@ -242,4 +250,4 @@ module ApplicationHelper
     'https://medium.com/the-odin-project'
   end
 end
-# rubocop:enable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength
+# rubocop:enable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength, Rails/OutputSafety
