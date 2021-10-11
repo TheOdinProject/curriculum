@@ -123,7 +123,7 @@ When the `<input>` element receives focus, a screen reader would announce, "Pass
 
 ### Hiding Content from the Accessibility Tree
 
-Similar to how you can visually hide elements with the `hidden` HTMl attribute or the `display`and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
+Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display`and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
 ~~~html
 <!-- Example 1 -->

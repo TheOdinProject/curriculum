@@ -77,5 +77,5 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 ### Knowledge Checks
 - <a class = "knowledge-check-link" href = "#Pure-Functions">What are pure functions and how are they different from normal functions?</a>
 - <a class = "knowledge-check-link" href = "#Mocking">What is mocking?</a>
-- <a class = "knowledge-check-link" href = "#Mocking">Why would you need to write mock tests to test certain functions?</a>
+- <a class = "knowledge-check-link" href = "#Mocking">Why would you need to write mock tests to test specific functions?</a>
 - <a class = "knowledge-check-link" href = "https://www.youtube.com/watch?v=3PjdxjWK0F0">How to write mock tests?</a>

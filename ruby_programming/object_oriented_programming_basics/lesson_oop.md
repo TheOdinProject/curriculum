@@ -97,7 +97,7 @@ As you begin to use rubocop, you will be inundated with multiple offenses that s
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [99 Bottles of OOP](https://sandimetz.com/99bottles), by Sandi Metz, described as "a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code." Available in Ruby and JavaScript (bundled together).
-* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://amzn.com/B0096BYG7C), also by Sandi Metz.
+* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://www.poodr.com/), also by Sandi Metz.
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).

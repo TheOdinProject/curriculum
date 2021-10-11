@@ -17,7 +17,7 @@ There are multiple options for linting your JavaScript, but the most popular (an
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to simply run the `eslint` command in your terminal with a specific file.
 2. Far more useful are linting plugins for your favorite text editor. Most editor plugins allow you to automatically lint your code as you are writing it, and will show the errors right in the editor, which makes resolving them _much_ simpler. We can't cover _every_ editor installation but some of the more popular are:
-   1. Visual Studio Code - [The Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [a tutorial](http://shripalsoni.com/blog/configure-eslint-in-visual-studio-code/).
+   1. Visual Studio Code - [The Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [a tutorial](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code).
    2. Sublime Text - [The Plugin](https://github.com/roadhump/SublimeLinter-eslint) and [a tutorial](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/).
    3. Atom - [The Plugin](https://atom.io/packages/linter-eslint) and [a tutorial](https://medium.freecodecamp.org/how-to-set-up-eslint-in-atom-to-contribute-to-freecodecamp-3467dee86e2c).
    4. Vim - [Use the ALE plugin](https://github.com/w0rp/ale). If you use vim you already know what you're getting into. ALE is a great plugin, but the setup and configuration can be a little tricky.

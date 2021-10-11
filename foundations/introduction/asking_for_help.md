@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Tips for Getting The Best Help Possible
 
-#### Always provide your code and the surrounding context. 
+#### <span id="provide-code-knowledge-check">Always provide your code and the surrounding context.</span>
 
 You can ask theoretical, vague questions, but you’re going to get theoretical, vague answers that probably won't be helpful to you and cause frustration on both ends as you and the person helping you dance around the real issue. The only time code doesn’t need to be provided is if you are asking a purely conceptual question outside of a specific project or code snippet. Additionally, provide as much context as is necessary, and zero in on the specific problem, such as pointing people to a specific function or line number in your code so people can give you the most relevant answers and quickly assist you.
 
@@ -40,8 +40,8 @@ People who volunteer in coding communities are here to help! But a question you 
 
 
 ### Knowledge Check:
-- Name at least one thing your question should always include.
-- Describe the “XY Problem”.
-- Describe three attributes of a "help vampire".
+- <a class="knowledge-check-link" href="#provide-code-knowledge-check">Name at least one thing your question should always include.</a>
+- <a class="knowledge-check-link" href="https://xyproblem.info/">Describe the “XY Problem”.</a>
+- <a class="knowledge-check-link" href="https://slash7.com/2006/12/22/vampires/">Describe three attributes of a "help vampire".</a>
 
 
