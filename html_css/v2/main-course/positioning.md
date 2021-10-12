@@ -29,6 +29,7 @@ In the following example, we are using absolute positioning to display text over
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+Disclaimer: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts.
 
 ### Fixed Positioning 
 Fixed elements are also removed from the normal flow of the document and are positioned relative to the _viewport_. You basically use  _top_, _right_, _bottom_, and _left_ properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons. We have one of those at the very bottom right corner of the screen!
