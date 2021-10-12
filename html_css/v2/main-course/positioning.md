@@ -18,8 +18,6 @@ The default positioning mode that you've gotten used to is ``position: static``.
 - image with a caption on it
 - icons on top of other elements
 
-[//]: # (I'm not actually exactly sure if this codepen embedding works properly)
-
 In the following example, we are using absolute positioning to display text over an image.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGrNqdv" data-editable="true" data-user="LeoKirasic" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
