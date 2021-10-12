@@ -1,6 +1,6 @@
 ### Positioning
 
-By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, flexbox and grid. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs, however, there are other methods at your disposal that can be very useful in some situations.
+By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, flexbox, and grid. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs, however, there are other methods at your disposal that can be very useful in some situations.
 
 ### Learning Outcomes
  - You'll learn how to use absolute positioning.
@@ -9,7 +9,7 @@ By now you have had quite a bit of practice moving elements around the screen us
  - You'll know the difference between each property and how to combine them.
 
 ### Static and Relative Positioning
-The default positioning mode that you've gotten used to is _position: static_.The difference between static and relative is fairly simple. Static is the default position of every element, and properties _top_, _right_, _bottom_, and _left_ have no affect on statically positioned elements. Relative on the other hand is pretty much the same as static, but properties  _top_, _ri....(etc.)_ affect the specific element relative to itself.
+The default positioning mode that you've gotten used to is _position: static_. The difference between static and relative is fairly simple. Static is the default position of every element, and properties _top_, _right_, _bottom_, and _left_ have no affect on statically positioned elements. Relative on the other hand is pretty much the same as static, but properties  _top_, _ri....(etc.)_ affect the specific element relative to itself.
 
 ### Absolute Positioning
 _position: absolute_ allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow. To put it in simple terms: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  _top_, _right_, _bottom_, and _left_ properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are: 
