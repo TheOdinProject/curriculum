@@ -61,4 +61,6 @@ In practice you will likely not be using complex values for `flex-grow`, `flex-s
 It _is_ possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
 
 ### Knowledge Check
-* What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#the-flex-shorthand">What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?</a>

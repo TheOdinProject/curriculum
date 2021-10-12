@@ -148,8 +148,9 @@ This section contains helpful links to other content.  It isn't required, so con
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- What is the purpose of the doctype declaration?
-- What is the HTML element?
-- What is the purpose of the head element?
-- What is the purpose of the body element?
+- <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
+- <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
+- <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
+- <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>

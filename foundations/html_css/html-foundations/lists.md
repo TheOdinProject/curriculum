@@ -13,7 +13,7 @@ Luckily, with HTML there are a couple of different types of lists at your dispos
 
 If you want to have a list of items where the order doesn't matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
 
-Unordered lists are created using the `<ul>` element, and each item within the list is created using the list item element `<li>`.
+Unordered lists are created using the `<ul>` element, and <span id="li"></span>each item within the list is created using the list item element `<li>`.
 
 Each list item in an unordered list begins with a bullet point:
 
@@ -56,7 +56,8 @@ This section contains helpful links to other content.  It isn't required, so con
 - [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- What HTML tag is used to create an unordered list?
-- What HTML tag is used to create an ordered list?
-- What HTML tag is used to create list items within both unordered and ordered lists?
+- <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>
+- <a class="knowledge-check-link" href="#ordered-lists">What HTML tag is used to create an ordered list?</a>
+- <a class="knowledge-check-link" href="#li">What HTML tag is used to create list items within both unordered and ordered lists?</a>
