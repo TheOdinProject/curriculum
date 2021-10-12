@@ -17,7 +17,7 @@ This lesson will show you how easy it is to make a grid layout without much work
 
 #### Grid Container
 
-We can think about CSS Grid in terms of a container and items. Simply put, when you make an element into a grid container, it will “contain” the whole grid. In CSS, an element is turned into a grid container with the property `display: grid` or `display: inline-grid`.
+We can think about CSS Grid in terms of a container and items. Simply put, when you make an element a grid container, it will “contain” the whole grid. In CSS, an element is turned into a grid container with the property `display: grid` or `display: inline-grid`.
 
 <div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWodzag" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
   <pre data-lang="html">&lt;div class="container">
@@ -53,7 +53,7 @@ But just as you learned in the flexbox lessons, grid items can *also* be grid co
 
 Since you’re coding along with our example (right?) you will notice it doesn’t look very grid-ish yet. A lot of resources on CSS Grid like to show you boxes and outlined grid tables right from the start. But if your grid container and grid items don’t have any borders you won't actually see these lines on the page. So don’t worry, they’re still there!
 
-If you inspect these elements on a webpage using developer tools, you would notice grid badges on the grid elements in the code. The Layout options of the dev tools allows you to select an overlay that can show these invisible lines, tracks and areas of the grid. You will read about using a browser’s developer tools in the assignment below and learn more on lines, tracks and areas in the next lesson.
+If you inspect these elements on a webpage using developer tools, you will notice grid badges on the grid elements in the code. The Layout options of the dev tools allows you to select an overlay that can show these invisible lines, tracks and areas of the grid. You will read about using a browser’s developer tools in the assignment below and learn more on lines, tracks and areas in the next lesson.
 
 #### Columns and Rows
 
@@ -77,6 +77,22 @@ Going back to our grid container from above, let’s define two columns and two 
 }</pre></div>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+If we want to add more columns or rows to our grid, we can simply define these values to make another track. Let's say we wanted to add a third column to our example: 
+
+<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="dyRBywm" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
+  <pre data-lang="html">&lt;div class="container">
+  &lt;div>Item 1&lt;/div>
+  &lt;div>Item 2&lt;/div>
+  &lt;div>Item 3&lt;/div>
+  &lt;div>Item 4&lt;/div>
+&lt;/div></pre>
+  <pre data-lang="css">.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px;
+}</pre></div>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 CSS Grid also includes a shorthand property for defining rows and columns. In our previous example we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
 
 ~~~css
@@ -84,11 +100,11 @@ CSS Grid also includes a shorthand property for defining rows and columns. In ou
 
 .container {
   display: grid;
-  grid-template: 50px 50px / 50px 50px;
+  grid-template: 50px 50px / 50px 50px 50px;
 }
 ~~~
 
-Columns and rows don’t have to all share the same values either. Let’s change the property values of our columns so that the first column is five times as wide as the second:
+Columns and rows don’t have to share all the same values either. Let’s change the property values of our columns so that the first column is five times as wide as the others:
 
 <div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="eYRaQLd" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
   <pre data-lang="html">&lt;div class="container">
@@ -99,13 +115,13 @@ Columns and rows don’t have to all share the same values either. Let’s chang
 &lt;/div></pre>
   <pre data-lang="css">.container {
   display: grid;
-  grid-template: 50px 50px / 250px 50px;
+  grid-template: 50px 50px / 250px 50px 50px;
 }</pre></div>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Explicit vs Implicit Grid
 
-Our original example produced a simple layout for the four grid items. But what happens if we added a fifth item to our container without changing our `grid-template-columns` or `grid-template-rows` properties?
+Let's go back to our original example of a simple 2x2 layout for four grid items. What happens if we add a fifth item to our container without changing our `grid-template-columns` or `grid-template-rows` properties?
 
 <div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGRyQQX" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
   <pre data-lang="html">&lt;div class="container">
@@ -124,7 +140,7 @@ Our original example produced a simple layout for the four grid items. But what 
 
 You’ll notice our fifth item was placed on the grid and it’s been slotted into a third row we did not define. This is because of the implicit grid concept and it’s how CSS Grid is able to automatically place grid items when we haven’t explicitly defined the layout for them.
 
-When we use the `grid-template-columns` and  `grid-template-rows` properties, we are explicitly defining grid tracks to lay out our grid items. But when the grid needs more tracks for extra content, it will implicitly define new grid tracks. By default, CSS Grid will implicitly add extra grid rows to the layout rather than extra grid columns. Additionally, the size values established from our `grid-template-columns` or `grid-template-rows` properties are not carried over into these implicit grid tracks. But we can define values for the implicit grid tracks.
+When we use the `grid-template-columns` and  `grid-template-rows` properties, we are explicitly defining grid tracks to lay out our grid items. But when the grid needs more tracks for extra content, it will implicitly define new grid tracks. Additionally, the size values established from our `grid-template-columns` or `grid-template-rows` properties are not carried over into these implicit grid tracks. But we can define values for the implicit grid tracks.
 
 We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties. In this way we can ensure any new tracks the implicit grid makes for extra content are set at values that we defined. 
 
@@ -143,7 +159,7 @@ Let’s say we want any new rows to stay the same value as our explicit row trac
 
 By default, CSS Grid will add additional content with implicit rows. This means the extra elements would keep being added further down the grid in a vertical fashion. It would be much less common to want extra content added horizontally along the grid, *but* that can be set using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
 
-### Grid Gaps
+### Gap
 
 The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties. The gap can also be set with the shorthand property `gap` if you want the row and column gap to be the same.
 
