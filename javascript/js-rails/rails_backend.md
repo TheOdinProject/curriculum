@@ -24,17 +24,17 @@ If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not 
 
 #### With Ruby on Rails
 
-* Refresher -- how do you set up a basic Rails app?
-* Refresher -- how do you load custom Javascript in a given Rails view page?
-* How does "unobtrusive Javascript" work?
-* How can you pass data from your Rails app to your Javascript?
-* Why would you want to use AJAX to load large batches of data?
+* Refresher -- How to set up a basic Rails application.
+* Refresher -- How to load custom Javascript in a given Rails view page.
+* How "unobtrusive Javascript" works.
+* How to pass data from your Rails application to your Javascript.
+* Why you should use AJAX to load large batches of data.
 
 #### With Firebase
 
-* Which services does Firebase offer?
-* How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?
-* How do you get your app to communicate with and/or pass data to and from the various Firebase services?
+* The services, which are offered by Firebase.
+* How to set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages).
+* How to set up your app to communicate with and/or pass data to and from the various Firebase services.
 
 ### Assignment
 
