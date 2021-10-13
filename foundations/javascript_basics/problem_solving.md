@@ -41,7 +41,7 @@ Some of the questions you should answer at this stage of the process:
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.</span>
 
-#### Pseudo Code
+### Pseudo Code
 <span id="pseudo">Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
 Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
