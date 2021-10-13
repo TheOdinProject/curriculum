@@ -43,6 +43,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What does the `box-sizing` CSS property do?
-* Would you use `margin` or `padding` to create more space between 2 elements?
-* Would you use `margin` or `padding` to create more space between the contents of an element and its border?
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model">What does the `box-sizing` CSS property do?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margin"> Would you use `margin` or `padding` to create more space between 2 elements?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#padding">Would you use `margin` or `padding` to create more space between the contents of an element and its border?</a>
