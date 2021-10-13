@@ -7,10 +7,11 @@ Lifecycle methods are special methods built-in to React, used to operate on comp
 One important thing to notice is that lifecycle methods can **only** be used in `class components`. In functional components we have other options. But more on that in the next lesson. Let's begin.
 
 ### Learning Outcomes
+By the end of this lesson, you should be able to:
 
-- Understanding the lifecycle of a component
-- Knowing the most important lifecycle methods
-- Understanding which tasks should be done in the different lifecycles
+- Explain the lifecycle of a component
+- Explain the most important lifecycle methods
+- Explain which tasks should be triggered at the various lifecycle stages of a component
 
 ### Lifecycle
 
@@ -62,3 +63,9 @@ A few examples are:
 ### Additional Resources
 
 - [Here](https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282) is another great resource for understanding React Lifecycle methods
+
+### Knowledge Checks
+
+- <a class="knowledge-check-link" href="#lifecycle">What is a component's lifecycle?</a>
+- <a class="knowledge-check-link" href="https://programmingwithmosh.com/javascript/react-lifecycle-methods/">Explain the most important lifecycle methods</a>
+- <a class="knowledge-check-link" href="https://reactjs.org/docs/react-component.html">Which tasks should be triggered at the various lifecycle stages of a component?</a>
