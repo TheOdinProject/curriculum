@@ -37,7 +37,7 @@ Look through these now and then use them to test yourself after doing the assign
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * A good page to bookmark for later reference is [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/) from CSS Tricks.
 * [W3 Schools' CSS tutorial](https://www.w3schools.com/css/)

@@ -25,7 +25,7 @@ Look through these now and then use them to test yourself after doing the assign
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [StackOverflow: What is a Web Framework? How does it compare with LAMP?](http://stackoverflow.com/questions/4507506/what-is-a-web-framework-how-does-it-compare-with-lamp)
 

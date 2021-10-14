@@ -142,7 +142,7 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.

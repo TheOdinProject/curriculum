@@ -24,7 +24,7 @@ At the end of this lesson, you should be able to do the following:
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Listen to [Part 1](https://twit.tv/shows/security-now/episodes/25?autostart=false) (starts around 8:30) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series.
 * Watch [A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
