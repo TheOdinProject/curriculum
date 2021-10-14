@@ -52,7 +52,7 @@ Google has updated some of the required sections in the below tutorials and some
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 1. Learn the new Firefox Dev Tools in this [Video](https://youtu.be/yznVkCuohGg) by Wes Bos
