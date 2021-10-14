@@ -25,8 +25,6 @@ By the end of this lesson, you should be able to:
 
 #### With Ruby on Rails
 
- - Refresher -- Explain how to set up a basic Rails application
- - Refresher -- Explain how to load custom Javascript in a given Rails view page
  - Explain how "unobtrusive Javascript" works
  - Explain how to pass data from your Rails application to your Javascript
  - Explain why you should use AJAX to load large batches of data
@@ -34,7 +32,7 @@ By the end of this lesson, you should be able to:
 #### With Firebase
 
  - Explain which services are offered by Firebase
- - Explain how to set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)
+ - Explain how to set up your app to use those services from Firebase Hosting
  - Explain how to set up your app to communicate with and/or pass data to and from the various Firebase services
 
 ### Assignment
