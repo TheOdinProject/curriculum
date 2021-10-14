@@ -18,6 +18,6 @@ In this project you'll clone the website of one of the most design-forward compa
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Add some!

@@ -383,5 +383,6 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 1. Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button.
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!

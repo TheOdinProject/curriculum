@@ -50,7 +50,7 @@ While `float` was first used to wrap text around an image, developers soon reali
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 * [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation.
 
 ### Knowledge Check
