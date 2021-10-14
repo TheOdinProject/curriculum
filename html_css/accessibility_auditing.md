@@ -43,7 +43,7 @@ Of course, one of the best ways to check the accessibility of your websites is t
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/test-evaluate/involving-users/) goes over some helpful steps to take when you can get feedback from users.
 * The [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of success criteria along with techniques for how to satisfy them and links to understanding them in more detail. This tool is a great go-to when you're really ready to push your website to the next accessible level. If you often use animations, success criterion 2.2.2 ("Play, Stop, Hide") and all of the 2.3 success criteria are definitely worth reading.

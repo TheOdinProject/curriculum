@@ -55,4 +55,6 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
 - A [simple](https://simple.wikipedia.org/wiki/Representational_state_transfer) example based definition of REST.

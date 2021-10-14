@@ -61,6 +61,7 @@ A few examples are:
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Here](https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282) is another great resource for understanding React Lifecycle methods
 

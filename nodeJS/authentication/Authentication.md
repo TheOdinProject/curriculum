@@ -330,7 +330,7 @@ You should now be able to log in using the new user you've created (the one with
 
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This article](https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195) goes into great detail about the passport local strategy and brings the magic that happens behind the scenes into the light. It provides a comprehensive foundation for how session-based authentication works using browser cookies along with backend sessions to manage users.
 

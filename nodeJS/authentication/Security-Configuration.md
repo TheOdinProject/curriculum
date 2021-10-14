@@ -28,5 +28,7 @@ Digging into this package can be useful when creating bigger projects where app 
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
 * If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
 
