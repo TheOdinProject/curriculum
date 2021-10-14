@@ -29,7 +29,7 @@ By the end of this lesson, you should be able to do the following:
 1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
-  <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/00.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/00.png" title="Create new repo using GitHub" /></a>
+  <a href="project_practicing_git_basics/imgs/00.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/00.png" title="Create new repo using GitHub" /></a>
 3. Give your repository the name "git_test" in the repository name input field, and create the repository by clicking the green "Create repository" button at the bottom of the page.
 4. This will redirect you to your new repository on GitHub. To copy this repository onto your local machine, select the SSH option and copy the line next to it.
   <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/01.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/01.png" title="Copy SSH link using GitHub" /></a>
