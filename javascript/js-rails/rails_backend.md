@@ -74,6 +74,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 #### With Firebase
 
-* <a class="knowledge-check-link" href="https://firebase.google.com/products-build" target="_blank">Which services does Firebase offer?</a>
-* <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" target="_blank">How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
-* <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" target="_blank">How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/products-build" target="_blank">Which services does Firebase offer?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" target="_blank">How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" target="_blank">How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>
