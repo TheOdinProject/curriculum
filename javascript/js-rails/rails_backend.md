@@ -21,20 +21,21 @@ Are you done? Good. Next, it's time to practice allowing your front end Javascri
 If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
 
 ### Learning Outcomes
+By the end of this lesson, you should be able to:
 
 #### With Ruby on Rails
 
-* Refresher -- How to set up a basic Rails application.
-* Refresher -- How to load custom Javascript in a given Rails view page.
-* How "unobtrusive Javascript" works.
-* How to pass data from your Rails application to your Javascript.
-* Why you should use AJAX to load large batches of data.
+ - Refresher -- Explain how to set up a basic Rails application
+ - Refresher -- Explain how to load custom Javascript in a given Rails view page
+ - Explain how "unobtrusive Javascript" works
+ - Explain how to pass data from your Rails application to your Javascript
+ - Explain why you should use AJAX to load large batches of data
 
 #### With Firebase
 
-* The services, which are offered by Firebase.
-* How to set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages).
-* How to set up your app to communicate with and/or pass data to and from the various Firebase services.
+ - Explain which services are offered by Firebase
+ - Explain how to set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)
+ - Explain how to set up your app to communicate with and/or pass data to and from the various Firebase services
 
 ### Assignment
 
