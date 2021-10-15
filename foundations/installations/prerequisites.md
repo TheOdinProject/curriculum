@@ -154,18 +154,18 @@ Here are some tips to help you get started in a virtual environment:
 
 You don't pull the plug on your everyday use computer, right? Why would you do the same to your virtual computer? When you click the X button and just close out your VM, you might as well say goodbye to your files. In this section, you'll understand three ways you can shut off your VM.
 
-#### 01 - Shutting down from inside the VM with UI
+#### Option 1 - Shutting down from inside the VM with UI
 
 Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
 
 <img src="prerequisites/imgs/VM_01.png" title="Power Icon" alt="Power Icon">
 <img src="prerequisites/imgs/VM_02.png" title="User Session Popup" alt="User Session Popup">
 
-#### 02 - Shutting down from inside the VM with the Terminal
+#### Option 2 - Shutting down from inside the VM with the Terminal
 
 Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown.
 
-#### 03 - Shutting down from outside the VM
+#### Option 3 - Shutting down from outside the VM
 
 The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled "Close Virtual Machine". This popup asks if you want to "Save the machine state", "Send the shutdown signal", or "Power off the machine".
 
