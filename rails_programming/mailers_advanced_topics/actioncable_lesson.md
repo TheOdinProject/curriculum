@@ -244,7 +244,7 @@ document.addEventListener("turbolinks:load", () => {
 
 Firstly, since JS assets are loaded in the head of our html, the Javascript files will be evaluated often before the DOM has rendered, so we first want to make sure the DOM has been created. We do this using the `turbolinks:load` event listener. Then we want to check if we are on a page with the form. It might seem obvious since we only have one page but you can never be too careful...
 
-Next if we are on a page with the form we add an event listener to it on its submit property. When the form is submitted we first prevent the default submit from happening. This stops the page rerendering. Then we grab the value from our input field and check it isn't an empty string. If it is we simply return and do nothing. If it isn't, then we create a JS object with a key named `body` which holds the value of our messageInput. If you're wondering why I did this under it's own object instead of just sending `message: messageInput` in the send method it's because often you'll submit more than one parameter, and when we do create a Message Model this is similar to how it will be returned from a controller.
+Next if we are on a page with the form we add an event listener to it on its submit property. When the form is submitted we first prevent the default submit from happening. This stops the page rerendering. Then we grab the value from our input field and check it isn't an empty string. If it is we simply return and do nothing. If it isn't, then we create a JS object with a key named `body` which holds the value of our messageInput. If you're wondering why I did this under its own object instead of just sending `message: messageInput` in the send method it's because often you'll submit more than one parameter, and when we do create a Message Model this is similar to how it will be returned from a controller.
 
 The last part of our code is the important bit. We call `send` on `messageChannel` and pass it an object with a key of `message` and a value of the message object we create earlier. You can see we create `messageChannel` in this line `const messageChannel = consumer.subscriptions.create("MessageChannel", {`. So it holds a reference to the channel created for message. When we call `send` on it, Rails knows to route it to the message_channel on the server side. If you save this file and refresh your browser if you have a rails server running you should be able to submit a message without the page refreshing. Check the server logs and you should see something like
 
@@ -423,7 +423,7 @@ Then in our index view let's iterate the messages and display them using the sam
 <% end %>
 ~~~
 
-Kudos is you noticed the N+1 problem we just introduced. By calling `message.user` for each message. Let's fix that in the hangouts controller index method
+Kudos if you noticed the N+1 problem we just introduced. By calling `message.user` for each message. Let's fix that in the hangouts controller index method
 
 ~~~ruby
 @messages = Message.includes(:user)
