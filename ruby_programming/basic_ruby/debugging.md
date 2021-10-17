@@ -194,7 +194,7 @@ Obviously, if available, the stack trace is the first place you should look when
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
 * Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.

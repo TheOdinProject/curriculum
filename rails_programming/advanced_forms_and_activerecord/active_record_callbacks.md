@@ -85,6 +85,6 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [WikiBooks Reference on Callbacks](http://en.wikibooks.org/wiki/Ruby_on_Rails/ActiveRecord/Callbacks)

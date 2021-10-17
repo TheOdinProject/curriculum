@@ -185,7 +185,7 @@ We've covered two of the more common use cases for complex forms -- pre-populati
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
 * [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)

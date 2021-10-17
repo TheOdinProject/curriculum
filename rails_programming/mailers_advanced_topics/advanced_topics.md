@@ -308,7 +308,7 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
 * [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
