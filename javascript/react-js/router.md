@@ -107,6 +107,7 @@ You should now have enough basics to get started with React routing. There are a
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
 - For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).

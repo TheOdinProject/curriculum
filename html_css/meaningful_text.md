@@ -88,7 +88,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [Making Accessible Links: 15 Golden Rules For Developers](https://www.sitepoint.com/15-rules-making-accessible-links/) is a little old, but is still a great list of 15 rules for creating, well, accessible links. Some of the rules the article goes over were mentioned in this lesson, but there are some other rules that can help make sure you're creating a11y friendly links.
 * [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) goes over a few different ways you can provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.

@@ -57,10 +57,13 @@ A few examples are:
 <div class="lesson-content__panel" markdown="1">
 1. Read [this article](https://programmingwithmosh.com/javascript/react-lifecycle-methods/) for a great overview of lifecycle methods in React.
 2. The React documentation is always a good source as it's well structured. In [this article](https://reactjs.org/docs/react-component.html) you can read more about lifecycle methods from the people who made it!
-3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical examples about how those methods work and when React calls them.
+3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical example about how those methods work and when React calls them.*
+
+*If you coded along with the last video, and you used `create-react-app` to setup your environment, you may have noticed that the last lifecycle method talked about, `componentDidCatch`, does not function the same way for you as in the video. You can read about it [here](https://stackoverflow.com/a/48354840).
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Here](https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282) is another great resource for understanding React Lifecycle methods
 
