@@ -39,7 +39,7 @@
     "toaster": "^0.1.2",
     "turbolinks": "^5.2.0",
     "validate.js": "^0.13.1",
-    "yup": "^0.32.9"
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
