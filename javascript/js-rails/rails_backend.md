@@ -64,11 +64,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 #### With Ruby on Rails
 
-* <a class="knowledge-check-link" href="#" target="_blank">Refresher -- how do you set up a basic Rails app?</a>
-* <a class="knowledge-check-link" href="#" target="_blank">Refresher -- how do you load custom Javascript in a given Rails view page?</a>
-* <a class="knowledge-check-link" href="#" target="_blank">How does "unobtrusive Javascript" work?</a>
-* <a class="knowledge-check-link" href="#" target="_blank">How can you pass data from your Rails app to your Javascript?</a>
-* <a class="knowledge-check-link" href="#" target="_blank">Why would you want to use AJAX to load large batches of data?</a>
+* Refresher -- how do you set up a basic Rails app?
+* Refresher -- how do you load custom Javascript in a given Rails view page?
+* How does "unobtrusive Javascript" work?
+* How can you pass data from your Rails app to your Javascript?
+* Why would you want to use AJAX to load large batches of data?
 
 #### With Firebase
 
