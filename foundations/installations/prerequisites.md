@@ -159,7 +159,7 @@ You don't pull the plug on your everyday use computer, right? Why would you do t
 Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
 
 <img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_01.png" title="Power Icon" alt="Power Icon">
-</br>
+<br/>
 <img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_02.png" title="User Session Popup" alt="User Session Popup">
 
 #### Option 2 - Shutting down from inside the VM with the Terminal
@@ -171,7 +171,7 @@ Simply enough, typing `poweroff` will do in this case. Your system will immediat
 The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled "Close Virtual Machine". This popup asks if you want to "Save the machine state", "Send the shutdown signal", or "Power off the machine".
 
 <img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_03.png" title="VM File Menu" alt="VM File Menu">
-</br>
+<br/>
 <img style="width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_04.png" title="Close Virtual Machine Menu" alt="Close Virtual Machine Menu">
 
 To be safe, click the "Send the shutdown signal" radio and hit OK. This will safely power down your VM and your files will not get corrupted.
