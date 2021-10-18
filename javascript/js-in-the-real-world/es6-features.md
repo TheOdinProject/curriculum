@@ -17,3 +17,4 @@ Fortunately there _is_ solution to this problem. [Babel](http://babeljs.io/) is 
 In all honesty, this is not something that you are going to _need_ to worry about on every project you're starting. All the ES6 features are present in the large majority of browsers used worldwide. But JavaScript is constantly changing, and as new features are announced and released, you can use Babel to try them out, often before they're available in _any_ browser!
 
 - Follow the instructions [here](https://github.com/babel/babel-loader) to install the babel-loader and use it with webpack. If you've already got webpack up and running in a project, adding babel is a cinch!
+- Read this [this article](https://blog.jakoblind.no/babel-preset-env/) to get a clue of what presets and plugins in Babel actually are and why you've added them. It will also show you; how to define the browser versions you want to support.
