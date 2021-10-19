@@ -1,5 +1,4 @@
 ActiveAdmin.register AdminFlash do
-
   permit_params :message, :expires
 
   form do |f|
