@@ -291,6 +291,8 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Knowledge Check
 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
 - <a class="knowledge-check-link" href="#props">How do you pass functions, state, or other values between components?</a>
 - <a class="knowledge-check-link" href="#state">What is the purpose of `state` in a React component?</a>
 - <a class="knowledge-check-link" href="https://reactjs.org/docs/react-component.html#setstate">Explain the importance of using `setState()` instead of mutating state directly?</a>
