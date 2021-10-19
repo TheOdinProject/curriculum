@@ -496,6 +496,3 @@ This section contains questions for you to check your understanding of this less
 - What's different between a lambda and a proc?
 - How do you convert a proc to a block?
 - How do you convert a block to a proc?
-
-
-
