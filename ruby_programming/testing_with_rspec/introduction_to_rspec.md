@@ -36,7 +36,7 @@ project
   |__spec
   |   |__spec_helper.rb
   |
-  |__.spec
+  |__.rspec
 ~~~
 
 That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?
