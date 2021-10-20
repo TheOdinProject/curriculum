@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Numbers
 You probably already know what numbers are, so there's no need to go into elaborate metaphors here. Ruby has all the typical math operators you would expect:
-ssss
+
 ~~~ruby
 # Addition
 1 + 1   #=> 2
