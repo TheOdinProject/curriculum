@@ -7,7 +7,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go back to the [Caesar Cipher Project](/courses/ruby-programming/lessons/caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases. As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation) to work on a new feature so you can work on your new code without fear.
+  1. Go back to the [Caesar Cipher Project](/courses/ruby-programming/lessons/caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases. As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to work on a new feature so you can work on your new code without fear.
   2. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder. 
   3. Write tests for your [Tic Tac Toe project](/courses/ruby-programming/lessons/tic-tac-toe).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
       1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method (or its equivalent) should trigger.
