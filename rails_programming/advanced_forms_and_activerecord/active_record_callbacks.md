@@ -17,11 +17,11 @@ Look through these now and then use them to test yourself after doing the assign
 Callbacks provide hooks into specific points (either before, after, or sometimes "around") in the life cycle of an object.  Those life cycle moments are:
 
 * **Initialization** -- When the object is first built OR whenever it is reloaded from the database and into memory (so any time you find it in a query).
-* **Validation** -- whenever Rails checks if the object is valid.  That could be when you're trying to save it or if you've manually run the `#valid?` method.
-* **Saving** -- The actual act of saving an already-built object to the database.  This is triggered any time the object is saved, not just the first time it is created.
+* **Validation** -- Whenever Rails checks if the object is valid. That could be when you're trying to save it or if you've manually run the `#valid?` method.
+* **Saving** -- The actual act of saving an already-built object to the database. This is triggered any time the object is saved, not just the first time it is created.
 * **Creating** -- The creation and saving of a new object.
 * **Updating** -- The updating of an existing object.
-* **Finding** -- When you've searched for the object.  Often gets triggered by Rails working with objects behind the scenes (e.g. when )
+* **Finding** -- The query of existing objects (e.g., `#all`, `#first`, `#find`). This is often triggered by Rails working with objects behind the scenes.
 
 You often get three choices for callbacks.  Not all object lifecycle steps support all callbacks, but the basic three are (using `create` as an example):
 
