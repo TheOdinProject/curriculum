@@ -57,7 +57,7 @@ By the end of this lesson, you should be able to do the following:
 #### Modify a file or two
 
 1. Open README.md in your text editor of choice. In this example we will opening the directory in Visual Studio Code.
-  <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/08.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/08.png" title="Add text file and check repo status again using CLI" /></a>
+  <a href="project_practicing_git_basics/imgs/11_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/11_new.png" title="Add text file and check repo status again using CLI" /></a>
 2. Add "Hello Odin!" to line 3 of README.md and save the file with "Ctrl+S".
   <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/09.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/09.png" title="Edit README using text editor" /></a>
 3. Back in your terminal (or in the fancy built-in terminal at the bottom of Visual Studio Code), type `git status` and notice that README.md is now shown as modified, and not staged or commited. This is because you made a change to it, and it is already a tracked file.
