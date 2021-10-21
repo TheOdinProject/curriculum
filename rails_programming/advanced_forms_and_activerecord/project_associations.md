@@ -57,7 +57,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 3. Put navigation links across the top to help you jump around.
 4. Extra Credit: Allow users to edit and delete the events they created.
 5. Extra Credit: Allow users to remove themselves as an attendee to their "attended_events".
-6. Extra Credit: Allow users to invite other users to events and only allow invited users to attend an event.
+6. Extra Credit: Make each event private and add the functionality for the event creator to invite specific users to an event.
 
 </div>
 
