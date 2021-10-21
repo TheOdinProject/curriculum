@@ -52,6 +52,7 @@ By the end of this lesson, you should be able to do the following:
 4. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*", this is totally normal and only showing because your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
   <a href="project_practicing_git_basics/imgs/09_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/09_new.png" title="Commit hello_world and check repo status again using CLI" /></a>
 5. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see details on the author who made the commit and the date and time for when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
+<a href="project_practicing_git_basics/imgs/10_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/10_new.png" title="Commit hello_world and check repo status again using CLI" /></a>
 
 #### Modify a file or two
 
