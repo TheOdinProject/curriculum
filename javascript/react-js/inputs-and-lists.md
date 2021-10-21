@@ -180,7 +180,7 @@ If you add an onSubmit handler to the form, your button must be of `type="submit
 
 Great, if you run your application now with `npm start` (or refresh the browser if it's still running), you will still see no changes, except that the page doesn't refresh when you submit something. That's because we haven't displayed anything yet. Let's do that now.
 
-<span id="render-list">Go to your `Overview.js` file in the components folder and add the following code:<span>
+<span id="render-list">Go to your `Overview.js` file in the components folder and add the following code:</span>
 
 ~~~javascript
 // Overview.js
@@ -392,5 +392,5 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#render-list">How do you render lists in React?</a>
-- <a class="knowledge-check-link" href="#handle-input-field">How do you handle input fields in React?</a>
-- <a class="knowledge-check-link" href="#handle-form">How do you handle forms in React?</a>
+- <a class="knowledge-check-link" href="#handle-input-field">How do you handle input field changes in React?</a>
+- <a class="knowledge-check-link" href="#handle-form">How do you handle form submission in React?</a>
