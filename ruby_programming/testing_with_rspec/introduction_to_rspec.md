@@ -36,7 +36,7 @@ project
   |__spec
   |   |__spec_helper.rb
   |
-  |__.spec
+  |__.rspec
 ~~~
 
 That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?
@@ -236,8 +236,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 </div>
 
 ### Additional Resources
-
-_This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something_
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
 - For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).

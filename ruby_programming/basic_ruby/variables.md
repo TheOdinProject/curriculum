@@ -117,7 +117,7 @@ This example may be hard to completely understand at this point in the lesson. T
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
 * To dive deeper into how variables point to memory locations on your computer, go through these short sections:
