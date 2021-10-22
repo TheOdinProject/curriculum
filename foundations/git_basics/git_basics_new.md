@@ -84,7 +84,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 2. Type `git status` one final time. It should output "*nothing to commit, working tree clean*".
   <a href="project_practicing_git_basics/imgs/19_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/19_new.png" title="Check repo status again to confirm local repo is up to date with remote using CLI" /></a>
 3. When you reload the repository on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
- <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/16.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/16.png" title="Verify repo changes are on GitHub" /></a>
+ <a href="project_practicing_git_basics/imgs/20_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/20_new.png" title="Verify repo changes are on GitHub" /></a>
 </div>
 
 ### Cheatsheet
