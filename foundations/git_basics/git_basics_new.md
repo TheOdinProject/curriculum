@@ -68,8 +68,7 @@ By the end of this lesson, you should be able to do the following:
 6. Open hello_world.txt, add some text to it, save and stage it. You can use `git add .` to add all files **in the current directory** to the staging area, or even `git add -A` to add ALL unstaged files to the staging area within the repository. Then, type `git status` once more, and everything should now be in the staging area.
   <a href="project_practicing_git_basics/imgs/15_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/15_new.png" title="Stage all other files in repo and check repo status again using CLI" /></a>
 7. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.MD and hello_world.txt"`. Then, type `git status` once again, which will output "*nothing to commit*".
-  <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/13.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/febe02abdad0d578925567d19e9eccc52ea123f4/foundations/git_basics/project_practicing_git_basics/imgs/13.png" title="Commit repo changes again and check repo status again using CLI" /></a>
-8. Take one last look at your commit history by typing `git log`. You should now see two entries.
+  <a href="project_practicing_git_basics/imgs/16_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/16_new.png" title="Commit repo changes again and check repo status again using CLI" /></a>
 
 #### Push Your Work to GitHub
 
