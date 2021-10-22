@@ -141,12 +141,33 @@ function spyLessonSections() {
   $('.scrollspy').scrollSpy({ scrollOffset: 50 });
 }
 
+function makeSimpleContentImagesClickable() {
+  const images = getElements('.lesson-content img');
+
+  // If there is already a wrapping anchor tag, we do not want to add another
+  [...images].filter(image => image.parentElement.nodeName !== 'a')
+  .forEach(makeImageChildOfAnchor);
+}
+
+function makeImageChildOfAnchor(image) {
+  const imageSrc = image.getAttribute('src');
+
+  const wrappingAnchor = document.createElement('a');
+  wrappingAnchor.href = imageSrc;
+  wrappingAnchor.setAttribute('target', '_blank');
+
+  // Append after image in DOM tree, then embed image into the anchor
+  image.after(wrappingAnchor);
+  wrappingAnchor.appendChild(image);
+}
+
 document.addEventListener('turbolinks:load', () => {
   if (!isLessonPage()) return;
 
   Prism.highlightAll();
   setTargetForExternalLinks();
   constructLessonSections();
+  makeSimpleContentImagesClickable();
 
   if (!window.matchMedia('(min-width: 992px)').matches) {
     return;
