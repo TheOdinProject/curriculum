@@ -104,7 +104,7 @@ For example,
 * `git status` is read as `git | status | (no destination)`.
 
 ### Notes Git Best Practices
-There's a lot to learn about using Git, but it is worth taking the time to learn some best practices so that you can be a better collaborator. Git is not only helpful when collaborating with others, as you will be relying on your own commit history in the future when revisiting old code.
+There's a lot to learn about using Git, but it is worth taking the time to highlight some best practices so that you can be a better collaborator. Git is not only helpful when collaborating with others, as you will be relying on your own commit history in the future when revisiting old code.
 
 Two helpful best practices to consider are **atomic commits** and leveraging those atomic commits to make your commit messages more useful to future collaborators.
 
