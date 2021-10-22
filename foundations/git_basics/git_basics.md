@@ -103,6 +103,15 @@ For example,
 * `git commit -m "message"` is read as `git | commit -m | "message"`; and
 * `git status` is read as `git | status | (no destination)`.
 
+### Notes Git Best Practices
+There's a lot to learn about using Git, but it is worth taking the time to learn some best practices so that you can be a better collaborator. Git is not only helpful when collaborating with others, as you will be relying on your own commit history in the future when revisiting old code.
+
+Two helpful best practices to consider are **atomic commits** and leveraging those atomic commits to make your commit messages more useful to future collaborators.
+
+An atomic commit is a commit that includes changes related to only one feature or task of your program. There are two main reasons to do this: first, if something you change turns out to cause some problems, it is easy to revert the specific change without losing other changes; and second, it enables you to write better commit messages.
+
+As for writing better commit messages, this [Chris Beams](https://github.com/cbeams) article on [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) provides excellent guidelines for writing neat and concise commit messages.
+
 ### Conclusion
 You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
 
