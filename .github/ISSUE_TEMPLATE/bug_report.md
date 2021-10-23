@@ -21,8 +21,8 @@ Example:
 -->
 
 
-#### Expected Behaviour
-<!-- What is the expected behaviour?
+#### Expected Behavior
+<!-- What is the expected behavior?
 
 Example:
 1. Log in
