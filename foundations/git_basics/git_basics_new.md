@@ -91,7 +91,7 @@ By the end of this lesson, you should be able to do the following:
 
     <a href="project_practicing_git_basics/imgs/14_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/14_new.png" title="Stage README changes and check repo status again using CLI" /></a>
 
-6. Open hello_world.txt, add some text to it, save and stage it. You can use `git add .` to add all files **in the current directory** to the staging area, or even `git add -A` to add ALL unstaged files to the staging area within the repository. Then, type `git status` once more, and everything should now be in the staging area.
+6. Open hello_world.txt, add some text to it, save and stage it. You can use `git add .` to add all files **in the current directory** to the staging area. Then, type `git status` once more, and everything should now be in the staging area.
 
     <a href="project_practicing_git_basics/imgs/15_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/15_new.png" title="Stage all other files in repo and check repo status again using CLI" /></a>
 
