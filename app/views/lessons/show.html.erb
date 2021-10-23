@@ -39,7 +39,7 @@
             userSubmission: user_submission(current_user, @lesson)
           }
         ) %>
-      <% else %>
+      <% else if @lesson.accepts_submission? %>
           <p>Please <%= link_to 'Log In', login_path, class: 'nav-link', data: { test_id: 'user-login-link' } %> or <%= link_to 'Sign Up', sign_up_path, class: 'nav-link', data: {test_id: 'sign_up'} %> to view user submissions for this project!</p>
       <% end %>
 
