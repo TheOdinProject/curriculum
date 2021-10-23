@@ -113,7 +113,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
     <a href="project_practicing_git_basics/imgs/18_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/18_new.png" title="Push changes to remote using CLI" /></a>
 
-2. Type `git status` one final time. It should output "*nothing to commit, working tree clean*".
+2. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
 
     <a href="project_practicing_git_basics/imgs/19_new.png"><img class="tutorial-img" src="project_practicing_git_basics/imgs/19_new.png" title="Check repo status again to confirm local repo is up to date with remote using CLI" /></a>
 
