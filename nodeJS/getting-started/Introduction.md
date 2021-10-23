@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 
 The [Node.js website](https://nodejs.org/en/about/) declares:
 
-> "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications."
+> <span id="what-is-node"> "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications."</span>
 
 This is a definition that requires a little unpacking.
 
@@ -82,4 +82,5 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- What is Node?
+<a class="knowledge-check-link" href="#what-is-node">What is Node?</a>
+
