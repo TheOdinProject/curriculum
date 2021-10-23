@@ -43,12 +43,15 @@ By the end of this lesson, you should be able to do the following:
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- What is a File System Module? How and why would you use it?
-- What is the command for installing a package locally in with npm?
-- What is the command for installing a package globally in with npm?
-- What is the difference between a global and local package install with npm?
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+
+<a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
+<a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
+<a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
+<a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
+
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
