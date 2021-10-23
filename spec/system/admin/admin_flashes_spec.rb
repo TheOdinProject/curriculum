@@ -12,7 +12,7 @@ RSpec.describe 'Admin Flashes', type: :system do
       visit new_admin_admin_flash_path
       fill_in :admin_flash_message, with: 'Test Message'
       fill_in :admin_flash_expires, with: '2022/01/01'
-      find_button('Create Admin flash').trigger("click")
+      find_button('Create Admin flash').trigger('click')
     end
 
     it 'displays the flash title on the index page' do
