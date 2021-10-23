@@ -10,7 +10,7 @@ So where do you go from here? BUILD! Build and build and build and build (see a 
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [(Video) React Native Tutorial for Beginners - Build a React Native App](https://youtu.be/0-S5a0eXPoc)
 - [(Video) JavaScript Pro Tips - Code This, NOT That](https://youtu.be/Mus_vwhTCq0)

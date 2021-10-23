@@ -101,6 +101,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [Skip Links](https://webaim.org/techniques/skipnav/) are another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.

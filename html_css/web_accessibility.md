@@ -40,7 +40,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [The Business Case for Digital Accessibility](https://www.w3.org/WAI/business-case/) goes over reasons for implementing accessibility beyond just being more inclusive to more users.
 * [How People with Disabilities Access Digital Content](https://www.youtube.com/watch?v=Lu7a5RU5lM0) is a rather long video (a whopping 45 minutes), but it goes over a lot of various assistive technologies and will offer you some more perspective on how users with disabilities may browse the websites you create.

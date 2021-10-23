@@ -53,7 +53,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * For another take on this, here's a [gem-laden Facebook clone](https://github.com/vysakh0/railsbook).
 * For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)

@@ -91,7 +91,7 @@ Read through these articles that discuss a few elements of writing good clean co
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)

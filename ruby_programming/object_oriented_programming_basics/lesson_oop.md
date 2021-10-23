@@ -94,7 +94,7 @@ As you begin to use rubocop, you will be inundated with multiple offenses that s
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [99 Bottles of OOP](https://sandimetz.com/99bottles), by Sandi Metz, described as "a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code." Available in Ruby and JavaScript (bundled together).
 * If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://www.poodr.com/), also by Sandi Metz.
