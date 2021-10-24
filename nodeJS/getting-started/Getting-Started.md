@@ -47,10 +47,10 @@ By the end of this lesson, you should be able to do the following:
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 
-<a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
-<a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
-<a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
-<a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
 
 
 ### Additional Resources
