@@ -99,7 +99,7 @@ By the end of this lesson, you should be able to do the following:
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/16.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/16.png" title="Commit repo changes again and check repo status again using CLI" /></a>
 
-  As an added bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck accidentally writing a commit message in <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>, this command will make Visual Studio Code open a new tab with the ability to write your commit message and a description below it: `git config --global core.editor "code --wait"`. Once you are done with your commit message, save and exit the tab.
+    As an added bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck accidentally writing a commit message in <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>, this command will make Visual Studio Code open a new tab with the ability to write your commit message and a description below it: `git config --global core.editor "code --wait"`. Once you are done with your commit message, save and exit the tab.
 
 8. Take one last look at your commit history by typing `git log`. You should now see three entries.
 
