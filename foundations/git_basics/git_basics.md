@@ -109,7 +109,7 @@ By the end of this lesson, you should be able to do the following:
 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
-1. <span id="git-push"></span>Type `git push`. If you wanted to be more specific, you could type `git push origin main`, but since we are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes.
+1. <span id="git-push"></span>Type `git push`. If you want to be more specific, you can type `git push origin main`, but since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes.
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/18.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/18.png" title="Push changes to remote using CLI" /></a>
 
