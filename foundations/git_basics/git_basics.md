@@ -74,7 +74,7 @@ By the end of this lesson, you should be able to do the following:
 
 #### Modify a file or two
 
-1. Open README.md in your text editor of choice. In this example we will opening the directory in Visual Studio Code.
+1. Open README.md in your text editor of choice. In this example, we will open the directory in Visual Studio Code.
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/11.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/11.png" title="Add text file and check repo status again using CLI" /></a>
 
