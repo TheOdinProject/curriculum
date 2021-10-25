@@ -19,7 +19,7 @@ This command needs administrative access and will ask for your sudo password. En
 
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
-If you are using a Mac that uses the [Apple M1 Chip](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/), Heroku's cli tool is not yet compatiable with this architechure. In order to install the Heroku cli and deploy from your Mac, you'll have to use a terminal with Rosetta. You can learn how to accomplish this [here](https://medium.com/geekculture/deploy-to-heroku-from-a-macbook-m1-heroku-cli-or-githubactions-868bc3a50935).  
+If you are using a Mac that uses the [Apple M1 Chip](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/), Heroku's CLI tool is not yet compatible with this architecture. In order to install the Heroku CLI and deploy from your Mac, you'll have to use a terminal with Rosetta. You can learn how to accomplish this [here](https://medium.com/geekculture/deploy-to-heroku-from-a-macbook-m1-heroku-cli-or-githubactions-868bc3a50935).  
 
 
 ### Step 3: Add your SSH Key to Heroku
