@@ -175,7 +175,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".include?("z")   #=> false
 ~~~
 
-**#upcase**
+<span id="upcase">**#upcase**</span>
 
 ~~~ruby
 "hello".upcase  #=> "HELLO"
@@ -207,7 +207,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".reverse  #=> "olleh"
 ~~~
 
-**#split**
+<span id="split">**#split**</span>
 
 ~~~ruby
 "hello world".split  #=> ["hello", "world"]
