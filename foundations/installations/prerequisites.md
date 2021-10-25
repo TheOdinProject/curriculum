@@ -119,8 +119,8 @@ While your VM is running, do the following steps:
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   11. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
-  12. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run` before proceeding to step 13. But if you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop.
-  13. In the new window that opens, right click on the white-space or any file/folder, and click **Open Terminal Here**.
+  12. Let's take a look at the contents of the CD image we just mounted. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop. Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, moving on to step 13.
+  13. In the window we opened in step 12, click File > Open Terminal Here - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number. As of this writing, the version number is `6.1.26`
   14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   15. Once it finishes, close the terminal and the CD folder.
   16. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
