@@ -47,6 +47,20 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 </html>
 ~~~
 
+### Lang Attribute
+
+We need to add a lang attribute to the `<html>` tag. So let's do it now.
+
+Back in the `index.html` let's add `lang="en"`(language is English) to the `<html>` tag.
+
+You can use other language codes for other languages [here](https://www.w3schools.com/tags/ref_language_codes.asp), too.
+
+~~~html
+<!DOCTYPE html>
+<html lang="en">
+</html>
+~~~
+
 ### Head Element
 
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser. Anything included within the head element will **not** be displayed to the user.
@@ -74,7 +88,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 ~~~html
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -90,7 +104,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -117,7 +131,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
