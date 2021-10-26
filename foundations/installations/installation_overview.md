@@ -22,7 +22,7 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 * Google, Google, Google.
 * Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
 
-For Chromebook users, your OS has choice effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
+For Chromebook users, your OS choice has effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
 
 ### OS Options
 
