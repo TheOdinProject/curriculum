@@ -62,8 +62,8 @@ This section contains questions for you to check your understanding of this less
 
 - <a class='knowledge-check-link' href='#crud'>What does CRUD stand for?</a>
 - <a class='knowledge-check-link' href='#model'>What does the Model in "MVC" refer to?</a>
-- - <a class='knowledge-check-link' href='#view'>What does the View in "MVC" refer to?</a>
-- - <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>
+- <a class='knowledge-check-link' href='#view'>What does the View in "MVC" refer to?</a>
+- <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>
 
 
 ### Additional Resources
