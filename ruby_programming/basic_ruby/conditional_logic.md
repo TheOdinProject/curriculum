@@ -312,7 +312,7 @@ However, if your conditional statements are complicated, then using an `if...els
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
  - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
  - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).

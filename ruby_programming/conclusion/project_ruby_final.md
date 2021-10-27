@@ -21,7 +21,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
 * [A series of hints from RubyQuiz](http://rubyquiz.com/quiz35.html), where this was one of their challenges.  You don't need these.  Resist the temptation!

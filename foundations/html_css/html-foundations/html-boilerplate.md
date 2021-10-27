@@ -107,6 +107,9 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
+3. You can use the terminal to open the file in your browser.
+  a. Ubuntu - Navigate to the directory containing the file and use firefox index.html or google-chrome index.html
+  b. macOS - Navigate to the directory containing the file and use open ./index.html
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 

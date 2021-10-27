@@ -476,6 +476,8 @@ After coming to grips with the information in this lesson you'll be a block, pro
 
 ### Knowledge Check
  
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+ 
 - What is a block?
 - How is a block like a method?
 - How is a block different from a method?
