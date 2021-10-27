@@ -46,7 +46,7 @@ age = 18
 age += 4 #=> 22
 ~~~
 
-<span id="similar-assignment-operators">There are similar assignment operators for all the common math operators</span>:
+<span id="non-add-assignment-operators">There are similar assignment operators for all the common math operators</span>:
 
 ~~~ruby
 age = 18
@@ -131,7 +131,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#introduction">What is a variable?</a>
 * <a class="knowledge-check-link" href="#declaring-a-variable">How do you assign a value or an expression to a variable?</a>
 * <a class="knowledge-check-link" href="#add-assignment-operator">What does the `+=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#similar-assignment-operators">What does the `-=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#similar-assignment-operators">What does the `*=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#similar-assignment-operators">What does the `/=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `-=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `*=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `/=` assignment operator do?</a>
 * <a class="knowledge-check-link" href="#how-to-name-variables">What are the variable naming conventions?</a>
