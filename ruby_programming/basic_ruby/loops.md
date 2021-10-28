@@ -158,10 +158,10 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * What is a loop and why it is useful?
- * What is a `loop` loop, and how would you use it?
- * What is a `while` loop, and how would you use it?
- * What is a `for` loop, and how would you use it?
- * What is a `#times` loop, and how would you use it?
- * What is an `until` loop, and how would you use it?
- * What are the `#upto` and `#downto` loops, and how would you use them?
+ * <a class="knowledge-check-link" href="#introduction">What is a loop and why it is useful?</a>
+ * <a class="knowledge-check-link" href="#loop">What is a `loop` loop, and how would you use it?</a>
+ * <a class="knowledge-check-link" href="#while-loop">What is a `while` loop, and how would you use it?</a>
+ * <a class="knowledge-check-link" href="#for-loop">What is a `for` loop, and how would you use it?</a>
+ * <a class="knowledge-check-link" href="#times-loop">What is a `#times` loop, and how would you use it?</a>
+ * <a class="knowledge-check-link" href="#until-loop">What is an `until` loop, and how would you use it?</a>
+ * <a class="knowledge-check-link" href="#upto-and-downto-loops">What are the `#upto` and `#downto` loops, and how would you use them?</a>
