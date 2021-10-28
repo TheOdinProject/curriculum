@@ -52,5 +52,5 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Implementation_issues">What are the limitations of using recursive solutions?</a>
 * <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Solving_difficult_problems">What types of problems are more suited for simple loops than recursion?</a>
 * <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">What is meant by "recursive depth"?</a>
-* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">What is a "stack overflow" (the concept, not the website)?</a>
+* <a class="knowledge-check-link" href="http://ruby.bastardsbook.com/chapters/recursion/">What is the "base case" in a recursive function?</a>
 * <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">Why is stack overflow relevant to a recursive problem?</a>
