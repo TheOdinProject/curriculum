@@ -49,6 +49,10 @@ class User < ApplicationRecord
     flags.where(taken_action: :dismiss)
   end
 
+  def started_course?(course)
+    lesson_completions.exists?(course_id: course.id)
+  end
+
   private
 
   def last_lesson_completed

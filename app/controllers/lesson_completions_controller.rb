@@ -1,27 +1,32 @@
 class LessonCompletionsController < ApplicationController
   before_action :authenticate_user!
 
-  # rubocop: disable Metrics/AbcSize
+  # rubocop: disable Metrics/AbcSize, Metrics/MethodLength
   def create
-    # raise params.inspect
-    current_user.lesson_completions.create(
+    lesson_completion = current_user.lesson_completions.new(
       lesson_id: lesson.id,
       lesson_identifier_uuid: lesson.identifier_uuid,
       course_id: lesson.course.id,
       path_id: lesson.course.path.id,
     )
 
-    if redirect_url.present?
-      redirect_to redirect_url
+    if lesson_completion.save
+      render json: lesson_completion, status: :created
+    else
+      render json: { errors: lesson_completion.errors.full_messages }, status: :unprocessable_entity
     end
   end
-  # rubocop: enable Metrics/AbcSize
+  # rubocop: enable Metrics/AbcSize, Metrics/MethodLength
 
   def destroy
     lesson_completion = current_user.lesson_completions.find_by(lesson_id: lesson.id)
 
-    lesson_completion.destroy
-    render :create
+    if lesson_completion.present?
+      lesson_completion.destroy
+      render json: {}, status: :ok
+    else
+      render json: { errors: ['Lesson completion not found'] }, status: :not_found
+    end
   end
 
   private
@@ -30,9 +35,5 @@ class LessonCompletionsController < ApplicationController
     @lesson ||= LessonDecorator.new(
       Lesson.find(params[:lesson_id])
     )
-  end
-
-  def redirect_url
-    params[:redirect_url]
   end
 end

@@ -6,12 +6,7 @@
         <%= numbered_lesson_title(lesson, lesson_index).html_safe %>
       <% end %>
 
-      <% if user_signed_in? %>
-        <div id="section-lessons__<%= lesson.id %>">
-          <%= render 'courses/course/lesson_completion_button', lesson: lesson, user: current_user %>
-        </div>
-      <% end %>
-
+      <%= render CompleteIconButtonComponent.new(lesson: lesson, current_user: current_user) %>
     </div>
   <% end %>
 </div>

@@ -1,6 +1,11 @@
 <div class="skill">
   <div class='skill__image'>
-    <%= render 'shared/course_badge', course: course, user: current_user, modifier: modifier_for_badge(course, current_user) %>
+    <%= render ProgressBadgeComponent.new(
+      course: course,
+      current_user: current_user,
+      modifier: modifier_for_badge(course, current_user) ,
+      url: courses_progress_path(course.id)
+    )%>
   </div>
 
   <div class="skill__details">
@@ -13,7 +18,7 @@
   <div class="skill__button-wrapper">
     <% if course_completed_by_user?(course, current_user) %>
       <%= link_to 'Open', path_course_path(course.path, course), class: 'button button--transparent skill__button', data: { test_id: "#{course.title.downcase}-open-btn" } %>
-    <% elsif course_started_by_user?(course, current_user) %>
+    <% elsif current_user.started_course?(course) %>
       <%= link_to 'Resume',
         path_course_lesson_url(
           course.path,

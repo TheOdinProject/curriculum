@@ -19,7 +19,4 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
   config.filter_rails_from_backtrace!
   config.order = 'random'
-
-  config.include ViewComponent::TestHelpers, type: :component
-  config.include Capybara::RSpecMatchers, type: :component
 end

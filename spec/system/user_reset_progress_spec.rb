@@ -9,7 +9,7 @@ RSpec.describe 'User Reset Progress', type: :system do
   let!(:rails_path) { create(:path, title: 'Rails') }
   let!(:rails_course) { create(:course, title: 'Rails', path: rails_path) }
   let!(:rails_lesson) { create(:lesson, course: rails_course) }
-  let!(:rails_completion) { create(:lesson_completion, lesson: rails_lesson, user: user) }
+  let!(:rails_completion) { create(:lesson_completion, lesson: rails_lesson, user: user, course: rails_course) }
 
   it 'deletes all lesson completions and resets to default path' do
     user.update(path: rails_path)

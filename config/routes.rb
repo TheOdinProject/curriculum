@@ -59,6 +59,10 @@ Rails.application.routes.draw do
     resource :preview, only: %i[show create]
   end
 
+  namespace :courses do
+    resources :progress, only: %i[show]
+  end
+
   resources :lessons, only: :show do
     resources :project_submissions, only: %i[index], controller: 'lessons/project_submissions'
 

@@ -10,7 +10,12 @@
       <div class="course-card-header <%= course_completed_class?(course, current_user) %>">
 
         <div class='course-card-header__image'>
-          <%= render 'shared/course_badge', course: course, user: current_user, modifier: '' %>
+          <%= render ProgressBadgeComponent.new(
+            course: course,
+            current_user: current_user,
+            modifier: '',
+            url: courses_progress_path(course.id)
+          )%>
         </div>
 
         <%= link_to path_course_url(course.path, course), class: 'course-card-header__link' do %>

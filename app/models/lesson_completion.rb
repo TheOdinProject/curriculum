@@ -1,6 +1,7 @@
 class LessonCompletion < ApplicationRecord
   belongs_to :user
   belongs_to :lesson
+  belongs_to :course, optional: true
 
   validates :user_id, :lesson_id, presence: true
 

@@ -93,12 +93,6 @@ RSpec.describe ApplicationHelper do
         )
       end
 
-      describe '#course_started_by_user?' do
-        it 'returns false' do
-          expect(helper.course_started_by_user?(course, user)).to eq(false)
-        end
-      end
-
       describe '#course_completed_by_user?' do
         it 'returns false' do
           expect(helper.course_completed_by_user?(course, user)).to eq(false)
@@ -127,12 +121,6 @@ RSpec.describe ApplicationHelper do
         )
       end
 
-      describe '#course_started_by_user?' do
-        it 'returns true' do
-          expect(helper.course_started_by_user?(course, user)).to eq(true)
-        end
-      end
-
       describe '#course_completed_by_user?' do
         it 'returns false' do
           expect(helper.course_completed_by_user?(course, user)).to eq(false)
@@ -159,12 +147,6 @@ RSpec.describe ApplicationHelper do
           completed?: true,
           percentage: 100
         )
-      end
-
-      describe '#course_started_by_user?' do
-        it 'returns true' do
-          expect(helper.course_started_by_user?(course, user)).to eq(true)
-        end
       end
 
       describe '#course_completed_by_user?' do

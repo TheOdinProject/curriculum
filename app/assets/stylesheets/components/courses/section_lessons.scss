@@ -6,31 +6,15 @@
     font-size: 1.5em;
     align-items: center;
     justify-content: space-between;
+    min-height: 59px;
 
     @include media-breakpoint-down(xs) {
       font-size: 1.2rem;
+      min-height: 52px;
     }
 
     &__link {
       color: $primary;
-    }
-
-    &__icon {
-      font-size: 2rem;
-      color: $pale-grey;
-      opacity: 0.3;
-      padding-left: 10px;
-      background-color: transparent;
-      display: flex;
-
-      &--completed {
-        color: $success-color;
-        opacity: 1;
-      }
-
-      @include media-breakpoint-down(xs) {
-        font-size: 1.7rem;
-      }
     }
   }
 }

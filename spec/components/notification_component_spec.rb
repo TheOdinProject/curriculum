@@ -2,10 +2,7 @@ require 'rails_helper'
 
 RSpec.describe NotificationComponent, type: :component do
   let(:notification) do
-    create(:notification,
-           id: 1,
-           title: 'test title',
-           message: 'test message')
+    create(:notification, id: 1, title: 'test title', message: 'test message')
   end
 
   before do

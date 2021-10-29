@@ -155,4 +155,22 @@ RSpec.describe User do
       expect(user.dismissed_flags).to contain_exactly(dismissed_flag)
     end
   end
+
+  describe '#started_course?' do
+    let(:course) { create(:course) }
+
+    context 'when the user has started the course' do
+      let!(:lesson_completion) { create(:lesson_completion, user: user, course: course) }
+
+      it 'returns true' do
+        expect(user.started_course?(course)).to be(true)
+      end
+    end
+
+    context 'when the user has not started the course' do
+      it 'returns false' do
+        expect(user.started_course?(course)).to be(false)
+      end
+    end
+  end
 end

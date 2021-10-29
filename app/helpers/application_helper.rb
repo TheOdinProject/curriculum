@@ -204,10 +204,6 @@ module ApplicationHelper
     user.progress_for(course).percentage
   end
 
-  def course_started_by_user?(course, user)
-    user.progress_for(course).started?
-  end
-
   def course_completed_by_user?(course, user)
     user.progress_for(course).completed?
   end

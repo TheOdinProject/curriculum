@@ -1,17 +1,25 @@
-<%= link_to 'View Course',
-    path_course_path(course.path, course),
-    title: "Go back to '#{lesson.course.title}'",
-    class: 'button button--secondary lesson-button-group__item lesson-button',
-    data: { test_id: 'view-course-btn' }
-%>
+<%= link_to path_course_path(course.path, course), title: "Go back to '#{lesson.course.title}'", class: 'button button--secondary lesson-button-group__item lesson-button', data: { test_id: 'view-course-btn' } do %>
+  <i class="lesson-button__icon far fa-map"></i>View Course
+<% end %>
 
-<%= render 'lessons/lesson_completion_button', lesson: lesson, user: user %>
+<% if user_signed_in? %>
+  <%= render CompleteButtonComponent.new(lesson: lesson, current_user: current_user) %>
+<% else %>
+  <%= link_to(
+    'Login to track progress',
+    login_path,
+    title: 'Go to login page',
+    class: 'button button--primary lesson-button-group__item lesson-button',
+    data: { test_id: 'login_button' }
+  )%>
+<% end %>
 
 <% if lesson.next_lesson %>
-  <%= link_to 'Next Lesson',
-      path_course_lesson_path(course.path, course, lesson.next_lesson),
-      title: "Move on to '#{lesson.next_lesson.title}'",
-      class: "button #{next_lesson_button_state(lesson)} lesson-button-group__item lesson-button",
-      data: { test_id: 'next-lesson-btn' }
-  %>
+  <%= link_to path_course_lesson_path(course.path, course, lesson.next_lesson), title: "Move on to '#{lesson.next_lesson.title}'", class: "button button--secondary lesson-button-group__item lesson-button", data: { test_id: 'next-lesson-btn' } do %>
+    <i class="lesson-button__icon far fa-arrow-alt-circle-right" aria-hidden="true"></i>Next Lesson
+   <% end %>
+<% elsif lesson.choose_path_lesson? %>
+  <%= link_to paths_url, class: 'button button--secondary lesson-button-group__item lesson-button', title: 'Choose Path', data: { test_id: "choose-path-lesson-btn" } do %>
+    <i class="lesson-button__icon fas fa-road" aria-hidden="true"></i>Choose Path
+  <% end %>
 <% end %>

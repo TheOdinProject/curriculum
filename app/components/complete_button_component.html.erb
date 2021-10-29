@@ -1,0 +1,25 @@
+
+<button
+  data-controller="complete-button"
+  data-complete-button-is-completed-value="<%= lesson_completed? %>"
+  data-complete-button-is-loading-value="false"
+  data-action="click->complete-button#toggle"
+  data-complete-button-id-param="<%= lesson.id %>"
+  data-complete-button-loading-class="complete-button--loading"
+  data-complete-button-completed-class="complete-button--completed"
+  data-test-id="complete-button"
+  class="button button--primary lesson-button-group__item complete-button"
+>
+  <span class="complete-button__loading-icon">
+    <%= inline_svg_tag 'icons/spinner.svg', class: 'animate-spin h-6', aria: true, title: 'loading', desc: 'loading spinner' %>
+  </span>
+
+  <span class="complete-button__content">
+    <span class="complete-button__completed-icon">
+      <%= inline_svg_tag 'icons/checkmark-circle-solid.svg', class: 'h-6', aria: true, title: 'check', desc: 'checkmark icon' %>
+    </span>
+
+    <span class="complete-button__text" data-complete-button-target="text"><%= text %></span>
+</span>
+</button>
+

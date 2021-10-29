@@ -1,0 +1,54 @@
+.complete-icon-button {
+  background: transparent;
+  padding-left: 10px;
+  color: $pale-grey;
+  opacity: 0.7;
+  position: relative;
+
+ &__loading-icon {
+   display: none;
+ }
+
+ &__completed-icon {
+   opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+ }
+
+  &--loading {
+    opacity: 0.9;
+
+    .complete-icon-button__completed-icon {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    .complete-icon-button__loading-icon {
+      display: block;
+    }
+  }
+
+  &--completed {
+    color: $success-color;
+    opacity: 0.9;
+    animation: complete .6s 1 alternate;
+
+    .complete-icon-button__completed-icon {
+      position: initial;
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes complete {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

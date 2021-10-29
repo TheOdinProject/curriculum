@@ -25,7 +25,6 @@ $back-color: #dddddd;
     right: 0.5rem;
     top:  0.5rem;
     bottom: 0.5rem;
-    transition: transform .2s ease;
 
     &:hover {
       .progress-circle__image {
@@ -93,7 +92,7 @@ $increment: 360 / $loops;
 $half: round($loops / 2);
 
 @for $i from 0 through $loops {
-  .progress-circle[data-progress=#{'"'+$i * $step+'"'}]:after {
+  .progress-circle[data-progress-percent-value=#{'"'+$i * $step+'"'}]:after {
     @if $i < $half {
       $next-deg: 90deg + $increment * $i;
       background-image: linear-gradient(90deg, $back-color 50%, transparent 50%, transparent), linear-gradient($next-deg, $success-color 50%, $back-color 50%, $back-color);

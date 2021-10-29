@@ -43,22 +43,6 @@
     }
   }
 
-  &--complete {
-    background-color: $button-disabled;
-
-    &:after {
-      content: 'Completed!';
-    }
-
-    &:hover {
-      background: $red-danger;
-
-      &:after {
-        content: 'Incomplete';
-      }
-    }
-  }
-
   @include media-breakpoint-down(sm) {
     padding: 1rem 2.5rem;
   }

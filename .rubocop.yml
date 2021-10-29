@@ -68,6 +68,8 @@ Lint/FloatComparison:
   Enabled: true
 
 Lint/MissingSuper:
+  Exclude:
+    - 'app/components/**/*'
   Enabled: true
 
 Lint/MixedRegexpCaptureTypes:

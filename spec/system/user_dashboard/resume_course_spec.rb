@@ -12,7 +12,7 @@ RSpec.describe 'Resuming Course from User Dashboard', type: :system do
     before do
       sign_in(user)
       visit path_course_lesson_path(default_path, foundations_course, lesson)
-      find(:test_id, 'complete_btn').click
+      find(:test_id, 'complete-button').click
       visit dashboard_path
     end
 

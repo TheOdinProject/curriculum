@@ -1,9 +1,0 @@
-<% if user_signed_in? %>
-  <%= render 'lessons/lesson_completion_state', lesson: lesson, user: user %>
-<% else %>
-  <%= link_to 'Login to track progress',
-      login_path,
-      title: 'Go to login page',
-      class: 'button button--primary lesson-button-group__item lesson-button',
-      data: { test_id: 'login_button' } %>
-<% end %>

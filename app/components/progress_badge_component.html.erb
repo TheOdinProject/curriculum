@@ -1,0 +1,23 @@
+<% if user_signed_in? && current_user.started_course?(course) %>
+  <%= link_to path_course_path(course.path, course) do %>
+    <div
+      data-controller="progress"
+      data-progress-url-value=<%= url %>
+      data-progress-percent-value="0"
+      data-action="update-progress@window->progress#fetchProgress"
+      class="course-badge progress-circle <%= modifier %>"
+    >
+      <div class="progress-circle__inner" data-test-id='progress-badge'>
+        <%= image_tag borderless_badge, alt: "#{course.title} badge", class: 'progress-circle__image' %>
+        <p class="bold progress-circle__content" data-progress-target="percentage"></p>
+        <p class="progress-circle__content">COMPLETE</p>
+      </div>
+    </div>
+  <% end %>
+<% else %>
+  <%= link_to path_course_path(course.path, course) do %>
+    <div class="course-badge" data-test-id='default-badge'>
+      <%= image_tag badge, alt: "#{course.title} badge", class: 'course-badge__image' %>
+    </div>
+  <% end %>
+<% end %>
