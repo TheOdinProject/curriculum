@@ -40,8 +40,9 @@ Note that only the direct child elements will become grid items here. If we had 
 
 <div class="container">
   <div>Item 1</div>
-  <div>Item 2</div>
+  <div>Item 2
     <p>I am not a grid item!</p>
+  </div>
   <div>Item 3</div>
   <div>Item 4</div>
 </div>
