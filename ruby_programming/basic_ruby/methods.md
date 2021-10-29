@@ -63,19 +63,19 @@ Let's break this example down:
  * `my_name` is the name of your new method. You can name your methods almost anything you want, but there are some constraints and conventions, which are described in the next section.
  * `"Joe Smith"` is the code inside the method body. All of the logic for your method is contained in the indented lines of the method body. This particular method returns a string when the method is called.
  * `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
- * To call the method, you simply need to use its name, as shown in the last line of the example.
+ * <span id="calling-a-method">To call the method, you simply need to use its name, as shown in the last line of the example.</span>
 
 ### Method Names
 
 As mentioned above, you can name your methods almost anything you want, but you shouldn't pick names haphazardly. There are certain conventions that are recommended in order to improve the readability and maintainability of your code.
 
-Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. Just like with variable names in Ruby, the convention for a method name with multiple words is to use **snake_case**, separating words with underscores.
+Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. <span id="snake-case">Just like with variable names in Ruby, the convention for a method name with multiple words is to use **snake_case**, separating words with underscores.</span>
 
 It's good practice to start the method name with a lower-case character, because names that start with capital letters are constants in Ruby. Check [here](https://stackoverflow.com/questions/10542354/what-are-the-restrictions-for-method-names-in-ruby) for more details.
 
 Here are some things you are not allowed to do with your method names:
 
-* You cannot name your method one of Ruby's approximately 40 reserved words, such as `end`, `while`, or `for`. Checkout the full list [here](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm).
+* <span id="reserved-words">You cannot name your method one of Ruby's approximately 40 reserved words, such as `end`, `while`, or `for`. Checkout the full list [here](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm).</span>
 * You cannot use any symbols other than `_`, `?`, `!`, and `=`.
 * You cannot use `?`, `!`, or `=` anywhere other than at the end of the name.
 * You cannot begin a method name with a number.
@@ -313,15 +313,15 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * How would you create your own method?
- * How would you call your new method?
- * How do you pass variables to your method?
- * How do you define default parameters for your method?
- * What is the difference between an explicit return and an implicit return?
- * What is the difference between `puts` and `return`?
- * How do you chain multiple methods together?
- * Give an example of a valid method name and an invalid method name.
- * What is snake case?
- * What are some of Ruby's reserved words?
- * What do you call a method that returns `true` or `false`? What is their naming convention?
- * What do bang methods do? What is their naming convention?
+ * <a class="knowledge-check-link" href="#creating-a-method">How would you create your own method?</a>
+ * <a class="knowledge-check-link" href="#calling-a-method">How would you call your new method?</a>
+ * <a class="knowledge-check-link" href="#parameters-and-arguments">How do you pass variables to your method?</a>
+ * <a class="knowledge-check-link" href="#default-parameters">How do you define default parameters for your method?</a>
+ * <a class="knowledge-check-link" href="#what-methods-return">What is the difference between an explicit return and an implicit return?</a>
+ * <a class="knowledge-check-link" href="#difference-between-puts-and-return">What is the difference between `puts` and `return`?</a>
+ * <a class="knowledge-check-link" href="#chaining-methods">How do you chain multiple methods together?</a>
+ * <a class="knowledge-check-link" href="#method-names">Give an example of a valid method name and an invalid method name.</a>
+ * <a class="knowledge-check-link" href="#snake-case">What is snake case?</a>
+ * <a class="knowledge-check-link" href="#reserved-words">What are some of Ruby's reserved words?</a>
+ * <a class="knowledge-check-link" href="#predicate-methods">What do you call a method that returns `true` or `false`? What is their naming convention?</a>
+ * <a class="knowledge-check-link" href="#bang-methods">What do bang methods do? What is their naming convention?</a>
