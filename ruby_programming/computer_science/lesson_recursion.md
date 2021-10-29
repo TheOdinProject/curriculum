@@ -16,7 +16,7 @@ Look through these now and then use them to test yourself after doing the assign
 * Why is recursion a useful technique for solving a big problem?
 * What are the limitations of using recursive solutions?
 * What types of problems are more suited for simple loops than recursion?
-* What is meant by "recursive depth?"
+* What is meant by "recursive depth"?
 * What is a "stack overflow" (the concept, not the website)?
 * Why is that relevant to a recursive problem?
 
@@ -43,3 +43,12 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Natashatherobot's blog post on Recursion in Ruby](https://web.archive.org/web/20210121055221/http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
 * [Functional Programming Techniques with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
 * [A breakdown of the recursive Fibonacci method](https://youtu.be/zg-ddPbzcKM) from Khan Academy
+
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#introduction">How would you briefly define a recursive function?</a>
+* <a class="knowledge-check-link" href="http://ruby.bastardsbook.com/chapters/recursion/">What is the point of recursion? Is it more efficient than using a plain loop?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/mz6tAJMVmfM?t=193">What are the 2 essential parts in a recursive function?</a>
+* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">Why is "stack overflow" relevant to a recursive problem?</a>
