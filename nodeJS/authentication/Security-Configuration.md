@@ -9,7 +9,9 @@ By the end of this lesson, you should be able to do the following:
 - Describe how environment variables are handled in version control.
 - Have familiarity with `nconf`'s hierarchical configuration.
 
-Essentially, in addition to using encryption to secure user passwords we need to make sure that important sensitive information such as our express.sessions secret, our mongoDB url (especially if it includes your username and password!) and any API keys that you might be using stay hidden. Details such as these should never get committed to a git repo or otherwise published.
+### Keep it secret, keep it safe
+
+Essentially, in addition to using encryption to secure user passwords we need to make sure that important sensitive information such as our express sessions secret, our mongoDB url (especially if it includes your username and password!) and any API keys that you might be using stay hidden. Details such as these should never get committed to a git repo or otherwise published.
 
 Hiding secrets is easily accomplished and there are a handful of ways to do it. One of the most common is using an npm package called [dotenv](https://github.com/motdotla/dotenv#readme). It's usage is simple. Simply create a file called `.env` in your project directory and fill it with variables that represent things you need to keep secret. **Important note:** you need to add this file to your `gitignore` so that it does not get committed to git!
 
@@ -28,7 +30,7 @@ Digging into this package can be useful when creating bigger projects where app 
 </div>
 
 ### Additional Resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
-
+- If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
