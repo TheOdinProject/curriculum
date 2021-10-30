@@ -155,7 +155,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='#intoduction'>What is an array and why is it useful?</a>
+ * <a class='knowledge-check-link' href='#introduction'>What is an array and why is it useful?</a>
  * <a class='knowledge-check-link' href='#creating-arrays'>What are two ways to create a new empty array?</a>
  * <a class='knowledge-check-link' href='#accessing-elements'>What are some ways of accessing the elements in an array?</a>
  * <a class='knowledge-check-link' href='#adding-and-removing-elements'>What are 3 ways to add data to an array?</a>
