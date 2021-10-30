@@ -305,6 +305,11 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 - Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
 </div>
 
+### Additional Resources
+
+- More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
+- If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
+
 ### Knowledge Check
 
 - <a class="knowledge-check-link" href="#repeat">How do you create several grid tracks of the same size without manually typing each one out?</a>
@@ -316,8 +321,3 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 - <a class="knowledge-check-link" href="#dynamic-minimum-and-maximum-sizes">Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?</a>
 - <a class="knowledge-check-link" href="#auto-fit-and-auto-fill">What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?</a>
 - <a class="knowledge-check-link" href="#auto-fit-and-auto-fill">What is the difference between `auto-fit` and `auto-fill`?</a>
-
-### Additional Resources
-
-- More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
-- If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
