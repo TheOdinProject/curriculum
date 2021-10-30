@@ -64,7 +64,7 @@ By the end of this lesson, you should be able to do the following:
 
 4. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*", this is totally normal and only showing because your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
 
-    "*Your branch is ahead of 'origin/main' by 1 commit*" this message just means that you now have newer screenshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
+    "*Your branch is ahead of 'origin/main' by 1 commit*" this message just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png" title="Commit hello_world and check repo status again using CLI" /></a>
 
