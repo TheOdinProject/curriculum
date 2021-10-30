@@ -21,7 +21,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Knowledge Check
 
-- <a class='knowledge-check-link' href='#assignment'>How do you define a route function in Express?</a>
-- <a class='knowledge-check-link' href='#assignment'>Name four HTTP verbs a route might need to handle.</a>
-- <a class='knowledge-check-link' href='#assignment'>What is a route parameter, and what syntax is used to define one in a route handler?</a>
-- <a class='knowledge-check-link' href='#assignment'>What is a route-handler callback function commonly called?</a>
+- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules'>How do you define a route function in Express?</a>
+- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#http_verbs'>Name four HTTP verbs a route might need to handle.</a>
+- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#route_parameters'>What is a route parameter, and what syntax is used to define one in a route handler?</a>
+- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_route-handler_callback_functions'>What is a route-handler callback function commonly called?</a>
