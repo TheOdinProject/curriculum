@@ -15,16 +15,16 @@ Essentially, in addition to using encryption to secure user passwords we need to
 
 Hiding secrets is easily accomplished and there are a handful of ways to do it. One of the most common is using an npm package called [dotenv](https://github.com/motdotla/dotenv#readme). Its usage is simple. Simply create a file called `.env` in your project directory and fill it with variables that represent things you need to keep secret using the syntax `[key]=[value]`, for example, `SECRET_KEY="something hard to guess"`. **Important note:** you need to add this file to your `gitignore` so that it does not get committed to git!
 
-A more robust option is the package [nconf](https://github.com/indexzero/nconf). It can be used in place of, or alongside dotenv. Basically, it allows you to define configuration files in multiple ways for ultimate flexibility. For example you could have a config.js file that kept all of your secrets, but also add the ability to override one of those secrets with a command-line argument.
+A more robust option is the package [nconf](https://github.com/indexzero/nconf). It can be used in place of or alongside of dotenv. Basically, it allows you to define configuration files in multiple ways for ultimate flexibility. For example, you could have a config.js file that kept all of your secrets, but also add the ability to override one of those secrets with a command-line argument.
 
-Digging into this package can be useful when creating bigger projects where app configuration needs to be a little more involved. This package makes it easy to configure things such as separate production and development databases, logging and debugging options or anything else.
+Digging into this package can be useful when creating bigger projects where app configuration needs to be a little more involved. This package makes it easy to configure things such as separate production and development databases, logging and debugging options, or anything else.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. The main important takeaway here is to KEEP YOUR SECRETS SECRET by never accidentally publishing them.
-2. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two projects are popular and widely used.
+2. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two packages are popular and widely used.
 3. Go back to your earlier projects and SECURE THEM!
 
 </div>
@@ -37,4 +37,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Knowledge Check
 
-- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'></a>
+- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What special kind of variable can be used on a server to store secrets?</a>
+- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What are two widely used packages that can be used to store and import these variables?</a>
+- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What is the name of the file `dotenv` looks for when injecting these variables into our app?</a>
