@@ -39,7 +39,7 @@ The only real complication here is that there are multiple ways to manipulate th
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 ### Knowledge Check
 * [From inside to outside, what is the order of box-model properties?](#the-box-model)
