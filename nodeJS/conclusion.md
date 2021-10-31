@@ -54,7 +54,7 @@ I want to emphasize again that the learning never really stops but also that you
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
 * More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)

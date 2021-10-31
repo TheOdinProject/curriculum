@@ -43,7 +43,7 @@ The only real complication here is that there are multiple ways to manipulate th
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 ### Knowledge Check
 

@@ -1,7 +1,5 @@
 ### Introduction
 
-Back in the Foundations course you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
-
 Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).
 
 The goal here isn't to produce an exact replica of the YouTube video page, but to focus on making the media elements show up.  That means two things -- embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
@@ -29,4 +27,4 @@ Also, don't worry about making the comment form work properly... your goal is to
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.

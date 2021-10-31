@@ -11,9 +11,9 @@ By the end of this lesson, you should be able to do the following:
 
 ### Templating Engines
 
-A templating engine is a tool that allows you to insert variables and simple logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses Pug (formerly known as Jade) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with `ejs`, which is _very_ similar to `erb` or `hbs` (handlebars), which also looks and feels a lot like HTML, and inserts the dynamic bits inside of double curly brackets. 
+A templating engine is a tool that allows you to insert variables and simple logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses Pug (formerly known as Jade) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
 
-It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs or handlebars to Pug simply because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
+It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs to Pug simply because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
 
 ### Middleware
 

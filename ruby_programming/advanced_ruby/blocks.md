@@ -16,7 +16,7 @@ A block can be declared as a single-line or multi-line block. Ruby convention is
 end
 ~~~
 
-Although you are familiar with how to write blocks in the context of enumberable methods, there are actually other interesting ways to use them in Ruby. For example, you can write your own methods that accept blocks and even store blocks as variables. By the end of this lesson, you'll have a newfound appreciation for the mighty block.
+Although you are familiar with how to write blocks in the context of enumerable methods, there are actually other interesting ways to use them in Ruby. For example, you can write your own methods that accept blocks and even store blocks as variables. By the end of this lesson, you'll have a newfound appreciation for the mighty block.
 
 ### Learning Outcomes
 
@@ -342,7 +342,7 @@ a_proc.call
 # => localJumpError (unexpected return)
 ~~~
 
-Note that if you try the above example on repl.it you won't get an error. This just has to do with repl.it manages the context of code. If you try it in irb then you'll get the expected error.
+Note that if you try the above example on repl.it you won't get an error. This just has to do with how repl.it manages the context of code. If you try it in irb then you'll get the expected error.
 
 If you return from a proc inside a method, the method is the context in which it was called and therefore it returns from the method before any of the other code below it is executed.
 
@@ -475,6 +475,8 @@ After coming to grips with the information in this lesson you'll be a block, pro
 </div>
 
 ### Knowledge Check
+ 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
  
 - What is a block?
 - How is a block like a method?
