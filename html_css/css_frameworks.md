@@ -34,7 +34,7 @@ Doing so will make you a better developer in the end.
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Bootstrap Docs](http://getbootstrap.com/)
 - [Foundation Docs](http://foundation.zurb.com/)

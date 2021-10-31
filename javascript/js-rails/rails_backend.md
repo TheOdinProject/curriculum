@@ -21,20 +21,19 @@ Are you done? Good. Next, it's time to practice allowing your front end Javascri
 If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
 
 ### Learning Outcomes
+By the end of this lesson, you should be able to:
 
 #### With Ruby on Rails
 
-* Refresher -- how do you set up a basic Rails app?
-* Refresher -- how do you load custom Javascript in a given Rails view page?
-* How does "unobtrusive Javascript" work?
-* How can you pass data from your Rails app to your Javascript?
-* Why would you want to use AJAX to load large batches of data?
+ - Explain how "unobtrusive Javascript" works
+ - Explain how to pass data from your Rails application to your Javascript
+ - Explain why you should use AJAX to load large batches of data
 
 #### With Firebase
 
-* Which services does Firebase offer?
-* How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?
-* How do you get your app to communicate with and/or pass data to and from the various Firebase services?
+ - Explain which services are offered by Firebase
+ - Explain how to set up your app to use those services from Firebase Hosting
+ - Explain how to set up your app to communicate with and/or pass data to and from the various Firebase services
 
 ### Assignment
 
@@ -51,12 +50,27 @@ If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not 
 <div class="lesson-content__panel" markdown="1">
 1. [Explore the different services offered by Firebase](https://firebase.google.com/products). Pay particular attention to [Cloud Firestore](https://firebase.google.com/products/firestore) for now. You may or may not also want to use [Firebase Hosting](https://firebase.google.com/products/hosting) and/or any of the other services offered by Firebase, particularly [Cloud Storage](https://firebase.google.com/products/storage) and [Authentication](https://firebase.google.com/products/auth), but you probably won't need any of those for your first Firebase project.
 2. If this is your first ever encounter with Firebase, we encourage you to do [this Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0), which will walk you through setting up a sample app on Firebase step by step.
-3. If you haven't already integrated one of your previous projects with Firebase, go back to one of them now (e.g. the library project or the to-do app), and [follow this guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend. **Caution:** if you're *not* going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), make sure to click the 'from the CDN' tab in step 3! Then, use what you learned in the codelab to make your own app actually interact with Firebase.
-
+3. If you haven't already integrated one of your previous projects with Firebase, go back to one of them now (e.g. the library project or the to-do app), and [follow this guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend. **Caution:** if you're *not* going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look at the section below Step 4, there should be a link, which directs you to the "Available Libraries" page. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Grabbing your Rails form CSRF token with Javascript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
 * [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
+
+### Knowledge Check
+
+#### With Ruby on Rails
+
+* Refresher -- how do you set up a basic Rails app?
+* Refresher -- how do you load custom Javascript in a given Rails view page?
+* How does "unobtrusive Javascript" work?
+* How can you pass data from your Rails app to your Javascript?
+* Why would you want to use AJAX to load large batches of data?
+
+#### With Firebase
+
+ - <a class="knowledge-check-link" href="https://firebase.google.com/products-build" target="_blank">Which services does Firebase offer?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" target="_blank">How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" target="_blank">How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>

@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do or answer the following:
 - Have familiarity with `supertest`'s documentation and methods.
 
 
-The most important, basic requirement for testing something in your code is that it be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
+The most important, basic requirement for testing something in your code is that it must be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
 In the case of routes, you already know how to do this using Express.Router. Below is a very simple example.
 

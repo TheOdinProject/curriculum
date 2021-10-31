@@ -22,6 +22,8 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 * Google, Google, Google.
 * Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
 
+For Chromebook users, your OS choice has effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
+
 ### OS Options
 
 <details markdown="block">
@@ -34,7 +36,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 <details markdown="block">
 <summary class="dropDown-header">Linux (Official Ubuntu Flavors)</summary>
 
-[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
+[Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **if you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
 </details>
 

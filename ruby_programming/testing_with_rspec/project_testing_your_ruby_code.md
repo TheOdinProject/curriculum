@@ -33,7 +33,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
 * [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)

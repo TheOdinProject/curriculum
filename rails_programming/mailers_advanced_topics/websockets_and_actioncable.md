@@ -148,7 +148,7 @@ You can see here it does try to create all files we would need and if any exist,
 
 ### Client-server interactions
 
-Let's take a closer look at the chat_channel.rb and chat_channel.js files that were created by the generator.
+Let's take a closer look at the room_channel.rb and room_channel.js files that were created by the generator.
 
 As mentioned earlier the generator will create a channel in the `app/channels` directory. In our example it was `room_channel.rb` which produces some boilerplate code
 
@@ -312,5 +312,3 @@ The connection only remains active while the http request remains unbroken. Refr
 ### Conclusion
 
 There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce WebSockets when you see a real opportunity to add value to your site.
-
-

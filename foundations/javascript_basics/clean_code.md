@@ -91,7 +91,7 @@ Read through these articles that discuss a few elements of writing good clean co
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
@@ -99,6 +99,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
 
 ### Knowledge check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 - <a href="#writing-clean-code">Why is it important to write clean code?</a>
 - <a href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">Name 5 clean code principles previously mentioned</a>
 - <a href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">What is the difference between good comments and bad comments?</a>

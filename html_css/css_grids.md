@@ -20,7 +20,7 @@ In this section, you'll get a look at how to use CSS to lay out the elements of 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Supplemental reading on the history of grids and why they're awesome](https://web.archive.org/web/20130906170258/http://www.subtraction.com/pics/0703/grids_are_good.pdf)
 * [Getting images to display fluidly in fluid grids, from A List Apart](http://alistapart.com/article/fluid-images)

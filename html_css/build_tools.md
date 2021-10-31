@@ -23,7 +23,7 @@ Don't get carried away with this stuff yet -- try to absorb what you can but don
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Workflow Orchestration for the Wary from A List Apart](http://alistapart.com/column/workflow-orchestration-for-the-wary)
 * [SO answer on using the Grunt automatic build tool](http://stackoverflow.com/questions/13713273/how-to-concatenate-and-minify-multiple-css-and-javascript-files-with-grunt-js)
