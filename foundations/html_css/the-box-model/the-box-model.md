@@ -15,11 +15,11 @@ The first important concept that you need to understand to be successful in CSS 
 
 Basically, every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by sticking a border on every item on the page like this:
 
-```css
+~~~css
 * {
   border: 2px solid red;
 }
-```
+~~~
 
 ![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png)
 
