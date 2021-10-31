@@ -84,7 +84,7 @@ Let's break down this syntax:
 * `{ |friend| puts "Hello, " + friend }` is a **block**, and the code inside this block is run for each element in your array. Because we have 5 friends in our array, this block will be run 5 times, once with each of the 5 elements.
 * Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. You can use any variable name that you find helpful here; in this example, we could have used `|x|`, but `|friend|` is more descriptive of what each element is. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `'Leila'`; and so on until it reaches the end of the array.
 
-What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:
+<span id="ruby-knowledge-check-do..end-vs-{...}">What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:</span>
 
 ~~~ruby
 my_array = [1, 2]
@@ -132,7 +132,7 @@ friends.each { |friend| friend.upcase }
 
 You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong---dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
-### The each_with_index Method
+<span id="the-each_with_index-method"></span>### The each_with_index Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
 
 For example, if we only want to print every other word from an array of strings, we can achieve this like so:
@@ -433,10 +433,10 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * What does the `#each` method do? What does it return?
- * What does the `#each_with_index` method do?
- * What does the `#map` method do?
- * What does the `#select` method do?
- * What does the `#reduce` method do?
- * When should you use `do...end` around a code block versus `{...}`?
- * Why should you avoid using the bang methods of enumerables?
+ * <a class="knowledge-check-link" href="#the-each-method">What does the `#each` method do? What does it return?</a>
+ * <a class="knowledge-check-link" href="#the-each_with_index-method">What does the `#each_with_index` method do?</a>
+ * <a class="knowledge-check-link" href="#the-map-method">What does the `#map` method do?</a>
+ * <a class="knowledge-check-link" href="#the-select-method">What does the `#select` method do?</a>
+ * <a class="knowledge-check-link" href="#the-reduce-method">What does the `#reduce` method do?</a>
+ * <a class="knowledge-check-link" href="#ruby-knowledge-check-do..end-vs-{...}">When should you use `do...end` around a code block versus `{...}`?</a>
+ * <a class="knowledge-check-link" href="#bang-methods">Why should you avoid using the bang methods of enumerables?</a>
