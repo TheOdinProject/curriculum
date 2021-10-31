@@ -194,7 +194,7 @@ Unlike `min()` and `max()`, it _can_ make sense to use static values for both ar
 }
 ~~~
 
-With our `grid-template-column` set with `minmax()` values, each grid item's width will grow and shrink with the grid container as it resizes horizontally. However, as the grid shrinks, the column tracks will stop shrinking at `150px`, and as the grid grows, they will stop growing at `200px`. Talk about flexibility! Check it out for yourself below:
+With our `grid-template-columns` set with `minmax()` values, each grid item's width will grow and shrink with the grid container as it resizes horizontally. However, as the grid shrinks, the column tracks will stop shrinking at `150px`, and as the grid grows, they will stop growing at `200px`. Talk about flexibility! Check it out for yourself below:
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="NWvjqJG" data-user="fortypercenttitanium" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/fortypercenttitanium/pen/NWvjqJG">
