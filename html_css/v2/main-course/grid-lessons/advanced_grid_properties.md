@@ -102,7 +102,7 @@ Let's take a look at what happens if we give our column and row tracks in the sa
 
 Notice how all of our grid items now fill up the entire width and height of the grid? Neat, right? Now, try resizing that example and see what happens. Even cooler!
 
-We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first 2 a track size of `2fr` and the remaining 3 a track a size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
+We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first two a track size of `2fr` and the remaining three a track a size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="poreaeg" data-user="fortypercenttitanium" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/fortypercenttitanium/pen/poreaeg">
