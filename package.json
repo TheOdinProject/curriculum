@@ -12,7 +12,7 @@
     "@rails/webpacker": "5.4.3",
     "@sentry/browser": "^6.13.3",
     "autoprefixer": "^9",
-    "axios": "^0.23.0",
+    "axios": "^0.24.0",
     "babel-plugin-prismjs": "^2.1.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.6.0",
