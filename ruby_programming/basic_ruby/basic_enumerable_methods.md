@@ -132,7 +132,7 @@ friends.each { |friend| friend.upcase }
 
 You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong---dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
-<span id="the-each_with_index-method"></span>### The each_with_index Method
+### The each_with_index Method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
 
 For example, if we only want to print every other word from an array of strings, we can achieve this like so:
@@ -434,7 +434,7 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class="knowledge-check-link" href="#the-each-method">What does the `#each` method do? What does it return?</a>
- * <a class="knowledge-check-link" href="#the-each_with_index-method">What does the `#each_with_index` method do?</a>
+ * <a class="knowledge-check-link" href="#the-eachwithindex-method">What does the `#each_with_index` method do?</a>
  * <a class="knowledge-check-link" href="#the-map-method">What does the `#map` method do?</a>
  * <a class="knowledge-check-link" href="#the-select-method">What does the `#select` method do?</a>
  * <a class="knowledge-check-link" href="#the-reduce-method">What does the `#reduce` method do?</a>
