@@ -33,13 +33,13 @@ All the properties here are simply to make our grid items look a bit nicer. They
 
 ##### `.grid-container`
 
-For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom left corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this codepen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
+For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom left corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
 
 We use `overflow: auto` to enable scrolling if we resize the container to be smaller than our grid can accommodate.
 
 We use the properties `gap` and `padding` to establish a "gutter" area to be able to visualize the grid items better.
 
-The `border` and `background-color` are included to make the container look more aesthetic.
+The `border` and `background-color` are included to make the container look nicer.
 
 ~~~css
 grid-template-rows: 150px 150px;
@@ -56,7 +56,7 @@ Enter, `repeat()`.
 
 ### Repeat
 
-`repeat()` is a CSS _function_ (yes, a function in a styling language, crazy!) that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's size. For example, in our setup above:
+`repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's size. For example, in our setup above:
 
 ~~~css
 .grid-container {
@@ -138,7 +138,7 @@ You may have noticed at this point that when you resize the grid as large as pos
 
 When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations.
 
-The `min()` and `max()` functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
+We learned about `min()` and `max()` in our previous lesson on CSS functions, but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
 
 You can supply as many arguments to these functions as you want:
 
@@ -149,7 +149,7 @@ You can supply as many arguments to these functions as you want:
 }
 ~~~
 
-Of course, it's silly to give these functions static units because the calculation is meaningless: the smallest or largest value will always be returned. In the above example, the grid rows will always have a size of `100px` (the smallest of the five values) and the grid columns will always have a size of `500px` (the largest of the five). But when we provide a dynamic value as one of these arguments, we unlock the real potential of these functions:
+Of course, it's silly to give these functions static units because the calculation is meaningless: the smallest or largest value will always be returned. In the above example, the grid rows will always have a size of `100px` (the smallest of the five values) and the grid columns will always have a size of `500px` (the largest of the five). But when we provide a dynamic value as one of these arguments, we unlock the real potential of these functions, especially in the context of Grid:
 
 ~~~css
 .grid-container {
@@ -205,7 +205,7 @@ With our `grid-template-columns` set with `minmax()` values, each grid item's wi
 
 #### `clamp()`
 
-Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not just within a grid container. Its syntax is as follows:
+Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not just within a grid container. As with `min()` and `max()`, we learned about it in a previous lesson, but let's do a quick review. The syntax is as follows:
 
 `clamp(minimum-size, ideal-size, maximum-size)`
 
@@ -238,7 +238,7 @@ Okay, now back to our grid:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Notice how the tracks stay at `20%` of the width of the container until they hit the minimum or maximum thresholds? Fun on a bun!
+Notice how the tracks stay at `20%` of the width of the container until they hit the minimum or maximum thresholds?
 
 Using `clamp()` and `minmax()` are fantastic methods for making grids more responsive while ensuring we don't hit critical breakpoints that make our website look bad. This is imperative when using images and elements that may have a tendency to overflow or render in undesirable ways when pushed to extreme sizes.
 
