@@ -59,7 +59,7 @@ This section contains questions for you to check your understanding of this less
 
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=6QS_Cup1YoI">What is the difference between a stack and a queue?</a>
 * <a class="knowledge-check-link" href="http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/">How would you implement stacks and queues in Ruby?</a>
-* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Data_structure#Examples">What is a (linked) list? What is a node?</a>
+* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Data_structure#Examples">What is a linked list? What is a node?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/T98PIp4omUA?t=20">What type of algorithm would you use to perform a binary search?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/86g8jAQug04?t=103">What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/gm8DUJJhmY4?t=499">What abstract data type would you use to defer/store nodes in a depth-first tree traversal?</a>
