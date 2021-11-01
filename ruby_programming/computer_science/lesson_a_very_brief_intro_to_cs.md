@@ -31,3 +31,11 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
 * [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
 * [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan">How to think about Algorithms?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/e_WfC8HwVB8">What is an Algorithm?</a>
+* <a class="knowledge-check-link" href="http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development">What is the importance of algorithms in web development?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=Rg-fO7rDsds">What is pseudocode?</a>
