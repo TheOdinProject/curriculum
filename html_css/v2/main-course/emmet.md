@@ -46,3 +46,6 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="#emmet">Why should you use emmet?</a>
 - <a class="knowledge-check-link" href="#emmet">What are some useful emmet abbreviations?</a>
+- <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create this element `<p class="text"></p>`?</a>
+- <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax expands to an element with a child element inside of it? For example: `<div><p></p></div>`</a>
+- <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create three elements with the same class?</a>
