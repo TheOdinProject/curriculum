@@ -2,6 +2,18 @@
 
 To really understand how Rails works, you need to have a solid base in the guts of the web.  You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+* Deconstruct an HTTP-message.
+* Name the 4 most common verbs used in HTTP-requests.
+* Describe the 7 RESTful actions we differentiate in Rails.
+* Recognize all components of a URL.
+* Identify the different components of an MVC-pattern and explain what their tasks are.
+* Describe what an API is and how it makes applications work together "seamless".
+* Explain what "cookies" and "sessions" are.
+* Know the difference between "authentication" and "authorization".
+
 ### HTTP
 
 HTTP is just a way of structuring the request-and-response conversation between your browser and the server.  Actually, it's not even a conversation since it is stateless... it's more of an "ask and receive".  The protocol outlines how that brief piece of dialogue should occur.
