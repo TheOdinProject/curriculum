@@ -37,3 +37,5 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 2. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a>Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 3. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on emmet. Go ahead and watch it.
 </div>
+
+### Additional Resources
