@@ -39,3 +39,10 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 </div>
 
 ### Additional Resources
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#emmet">Why should you use emmet?</a>
+- <a class="knowledge-check-link" href="#emmet">What are some useful emmet abbreviations?</a>
