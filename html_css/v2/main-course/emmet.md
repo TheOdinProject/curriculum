@@ -8,3 +8,24 @@ By the end of this lesson, you should be able to do the following:
 
 - Learn about some of the more useful emmet functions.
 - Set up custom emmet keybindings in vscode.
+
+### Emmet
+
+Emmet is a really useful tool for anyone that works with HTML and CSS a lot and luckily does not have that big of a learning curve because if you already know how to write HTML and CSS you'll have no trouble picking up emmet abbreviations.
+
+Let's start off by generating an HTML boilerplate with emmet. Opening up an empty html file in vscode and entering `!` should trigger emmet suggestions like so:
+
+<img src="https://i.imgur.com/pUgPS0S.png">
+Pressing enter should generate the following text:
+<img src="https://i.imgur.com/RFf5kit.png">
+We have just used one of many emmet abbreviations. There are lots of useful emmet abbreviations that you should check out, like <a href="https://docs.emmet.io/actions/wrap-with-abbreviation/">Wrap with Abbreviation</a> and <a href="https://docs.emmet.io/actions/remove-tag/">Remove Tag</a>. Definitely go through those before moving forward.
+
+Considering how useful these two are, we will be setting up vscode shortcuts for them.
+Start off by opening the keyboard shortcuts window. You can do so by clicking the icon on the bottom left and selecting keyboard shortcuts, or by pressing `Ctrl K` followed by `Ctrl S`.
+
+<img src="https://i.imgur.com/ZKrMLCR.png">
+
+After entering the keyboard shortcuts window, you should be able to access all of the emmet actions by searching for `Emmet:<action>`. In our case, it will be `Emmet:Wrap With Abbreviation`
+<img src="https://i.imgur.com/PnHroOq.png">
+You can now add a shortcut to it by clicking the plus sign and entering whichever key combination you would like for that specific action.
+You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
