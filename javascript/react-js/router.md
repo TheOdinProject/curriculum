@@ -7,6 +7,7 @@ By the end of this lesson, you should be able to:
 
 - Explain how you add page routing to a React project
 - Explain the core three components of React Router
+- Explain how to ensure accurate routing to React components
 
 ### React Router
 
@@ -124,4 +125,5 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
 - <a class="knowledge-check-link" href="#react-router">What are the three core components of React Router?</a>
+- <a class="knowledge-check-link" href="#react-router">How do you ensure that Router links are routed accurately?</a>
 
