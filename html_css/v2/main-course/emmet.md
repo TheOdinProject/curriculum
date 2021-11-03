@@ -29,3 +29,11 @@ After entering the keyboard shortcuts window, you should be able to access all o
 <img src="https://i.imgur.com/PnHroOq.png">
 You can now add a shortcut to it by clicking the plus sign and entering whichever key combination you would like for that specific action.
 You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+1. Take a look at the <a href="https://docs.emmet.io/cheat-sheet/">Emmet cheat sheet</a>. You don't have to memorize it, but it's good that you get familiar with different ways it can be used.
+2. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a>Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
+3. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on emmet. Go ahead and watch it.
+</div>
