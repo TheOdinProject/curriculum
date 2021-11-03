@@ -37,7 +37,7 @@ By the end of this lesson, you should be able to do the following:
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 

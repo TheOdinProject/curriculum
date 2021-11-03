@@ -284,11 +284,14 @@ Using state in functional components is a bit different. Before the end of 2018,
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
 - An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based application.
 
 ### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#props">How do you pass functions, state, or other values between components?</a>
 - <a class="knowledge-check-link" href="#state">What is the purpose of `state` in a React component?</a>

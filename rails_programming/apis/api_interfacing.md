@@ -121,7 +121,7 @@ APIs are fundamental to making rich web applications and they're also a lot of f
 Working with external APIs can be incredibly rewarding because you're able to leverage functionality that others have spent a lot of time perfecting but also incredibly frustrating because they're all different and you have to rely on gems which are doing things behind the scenes that you're not entirely sure of.  Over time, you'll start to see a lot of similarities between APIs and the procedure for working with them will feel more and more comfortable.  To help get you there, the next project will have you working with an API and your final project will have you implementing signin via API as well.  
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
 * [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)

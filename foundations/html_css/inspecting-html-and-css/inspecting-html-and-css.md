@@ -22,9 +22,10 @@ In the Elements pane, you can see the entire HTML structure of your page. You ca
 
 ![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
 
-When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten. For example, if you use the inspector to click on the "Web Development Starts Here" header on the TOP homepage, on the right hand side you'll see all of the styles that are currently affecting the element, as seen below:
+<span id="strikethrough">When an element is selected, the Styles tab will show all of the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text).</span> For example, if you use the inspector to click on the "Web Development Starts Here" header on the TOP homepage, on the right hand side you'll see all of the styles that are currently affecting the element, as seen below:
 
 ![Styles Pane](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/02.png)
+<img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png" alt="Overwritten style">
 
 ### Testing Styles In The Inspector
 
@@ -32,7 +33,7 @@ The Styles pane also allows you to edit styles directly in the browser. You can 
 
 In the below image, we have altered the value of `margin-bottom` in the `.hero__main-heading` class, and the webpage responds with the changes in real time. This won't affect the source code in your text editor, but it is extremely useful for quickly testing out various attributes and values without needing to reload the page over and over again.
 
-![Changed styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/03.png)
+![Changed styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/04.png)
 
 ### Assignment
 
@@ -52,11 +53,11 @@ For Firefox users:
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- How do you select a specific element on your page with your browser’s developer tools?
-- What does a strikethrough in a CSS element mean in your browser’s developer tools?
-- How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
+- <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
+- <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
+- <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
