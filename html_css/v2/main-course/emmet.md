@@ -33,9 +33,9 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Take a look at the <a href="https://docs.emmet.io/cheat-sheet/">Emmet cheat sheet</a>. You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
-2. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a> Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
-3. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on emmet. Go ahead and watch it.
+1. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on emmet. Go ahead and watch it.
+2. Take a look at the <a href="https://docs.emmet.io/cheat-sheet/">Emmet cheat sheet</a>. You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
+3. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a> Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 </div>
 
 ### Additional Resources
