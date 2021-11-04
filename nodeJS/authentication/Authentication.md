@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to do the following:
 #### Data Security/Safety
 
 - Describe what bcrypt is and its use.
-- Explain the importance of password hashing.
+- Describe what a hash is and explain the importance of password hashing.
 - Describe bcrypt's `compare` function.
 
 ### Set Up
@@ -295,6 +295,8 @@ Once it's installed you need to require it at the top of your app.js and then we
 
 #### Storing hashed passwords:
 
+Password hashes are the result of passing the user's password through a one-way hash function, which maps variable sized inputs to fixed size pseudo-random outputs. 
+
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ~~~javascript
@@ -304,9 +306,13 @@ bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
 });
 ~~~
 
+The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
+
+Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
+ 
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right, your password should have been transformed into a really long random string.
 
-It's important to note that _how_ hashing works is beyond the scope of this lesson. Password hashes are the result of passing the user's password through a [one-way hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
+It's important to note that _how_ hashing works is beyond the scope of this lesson. To learn more about the subject consider reading [This wikipedia article](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 
 #### Comparing hashed passwords:
 
@@ -344,3 +350,5 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This article](https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195) goes into great detail about the passport local strategy and brings the magic that happens behind the scenes into the light. It provides a comprehensive foundation for how session-based authentication works using browser cookies along with backend sessions to manage users.
 
 - If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK) by the same author who wrote the article above. You just need to watch the first 6 videos.
+
+- [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them. 
