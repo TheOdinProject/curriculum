@@ -48,7 +48,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 	**Create a pull request**
 	* Go to your fork on Github after you have pushed up your branch. A new button should be visible near the top of the page. It will allow you to create a pull request to the original Odin Project repo.
 
-        * Please fill out the pull request template in its entirety.
+	* Please fill out the pull request template in its entirety.
 
 	* Summarize the change in the pull request title, so that anyone can skim through our open pull requests to prevent making a duplicate PR. As a general guideline, the title should summarize the change and where it happened, for example: "Fixes punctuation in Clean Code lesson", "Updates specificity link in CSS lesson", and "Adds code example to Ruby Variable lesson".
 
@@ -56,7 +56,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 
 	* If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) and reference it with the `#` sign and the issue number. For example: "resolves #1234".
 
-        * If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
+	* If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
 
 ## Need Help with Anything Here?
 Please let us know if you require any help doing any of the steps in this guide in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
