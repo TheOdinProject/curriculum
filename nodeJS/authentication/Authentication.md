@@ -145,7 +145,7 @@ Let's reiterate: this is not a particularly safe way to create users in your dat
 
 Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passportJS website](http://www.passportjs.org/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project.
 
-PassportJS uses what they call _Strategies_ to authenticate users. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
+<span id='strategy'>PassportJS uses what they call _Strategies_ to authenticate users</span>. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
 
 We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialize())`.
 
@@ -173,7 +173,7 @@ This function is what will be called when we use the `passport.authenticate()` f
 
 ### Functions two and three: Sessions and serialization
 
-To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
+<span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
 
 ~~~javascript
 passport.serializeUser(function(user, done) {
@@ -310,7 +310,7 @@ It's important to note that _how_ hashing works is beyond the scope of this less
 
 #### Comparing hashed passwords:
 
-We will use the `bcrypt.compare()` function to validate the password input. The function compares the plain-text password in the request object to the hashed password.
+<span id='compare'>We will use the `bcrypt.compare()` function to validate the password input. The function compares the plain-text password in the request object to the hashed password</span>.
 
 Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function.
 
@@ -326,7 +326,16 @@ bcrypt.compare(password, user.password, (err, res) => {
 })
 ~~~
 
-You should now be able to log in using the new user you've created (the one with a hashed password).  Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security! (and a good reason to include bcrypt from the start on your next project)
+You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
+
+
+### Knowledge Checks 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>
+- <a class='knowledge-check-link' href='#cookie'>Why does passportJS create a cookie?</a>
+- <a class='knowledge-check-link' href='#compare'>What does the `bcrypt.compare()` function do?</a>
+- <a class='knowledge-check-link' href='#bcrypt'>Why should we include bcrypt when we begin a project?</a>
 
 
 ### Additional Resources
