@@ -35,15 +35,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan">If there are 100 people in the room which line of this algorithm never executes?</a>
-
-~~~pseudocode
-let N = 0 
-for each pair of people in room
-    Set N = N + 2
-If 1 person remains then
-    Set N = N + 1
-~~~
+* <a class="knowledge-check-link" href="http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan">Write an Algorithm to count the number of people in the room?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/e_WfC8HwVB8">What is an Algorithm?</a>
 * <a class="knowledge-check-link" href="http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development">What is the importance of algorithms in web development?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=Rg-fO7rDsds">What is pseudocode?</a>
