@@ -210,7 +210,7 @@ In the above component, we declared our state as an object with a property `coun
 
 In other words, you should never do something like: `this.state.count = 3`, or, `this.state.count++`. Instead, always use the [setState](https://reactjs.org/docs/react-component.html#setstate) method React provides to class components to modify the state. Keep this in mind - it can save you a lot of debugging when you are getting started with React. [This article](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/) does a great job analyzing many popular JavaScript methods concerning mutability. Take some time to read it so you can understand how easy it can be to accidentally mutate state.
 
-As we mentioned before, our `countUp()` method need to be bound in our constructor (using `bind`), so it knows what context to operate in. This is a result of how `this` works in JavaScript, see [this article](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) for a great explanation on why _this_ is the case.
+As we mentioned before, our `countUp()` method needs to be bound in our constructor (using `bind`), so it knows what context to operate in. This is a result of how `this` works in JavaScript, see [this article](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) for a great explanation on why _this_ is the case.
 
 In the `render` method, we access the current state through `this.state.count`. This syntax should look familiar to you by now because it is the same way we accessed props. And yes, you can also destructure state.
 
