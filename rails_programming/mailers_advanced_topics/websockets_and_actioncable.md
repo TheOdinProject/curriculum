@@ -8,12 +8,19 @@ There are often times where you want to keep that connection open so that the se
 Look through these now and then use them to test yourself after doing the assignment.
 
 * What is a WebSocket?
+* What kinds of problems can WebSockets help you solve?
 * What options did developers have before WebSockets to update a client without a user request?
 * What is a consumer?
 * What is a subscriber?
 * What is a channel?
 * What is a stream?
 * How can you broadcast to a stream from the server?
+* Where do you authorize incoming connections?
+* Where can you put logic that should be used across multiple channels?
+* What are ActionCable’s stream options?
+* What is the difference between `stream_from` and `stream_for`?
+* When should you use `stream_for`?
+* How can you use `broadcast_to`?
 
 ### What is a WebSocket?
 
@@ -31,7 +38,7 @@ We'll be rich! But, in a time before WebSockets, how are we going to solve it?
 
 We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are we could notify users of the new post and update their view and if there wasn't we can just return an empty response. This still involves opening and closing a request on the server. This was a technique know as polling and was one of the first ways websites tried to bring server updates to the client. The downside to this was one of efficiency. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
-Since we don't want the inefficiency of checking for an update when there isn't one. What if instead we allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we instead hold the request open on the server side. When we have a new post we can send that response to any open http requests being held and that will complete the http request and close the connection. Then the client can simply send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chatrooms did this.
+Since we don't want the inefficiency of checking for an update when there isn't one. What if instead we allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we instead hold the request open on the server side. When we have a new post we can send that response to any open http requests being held and that will complete the http request and close the connection. Then the client can simply send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chat rooms did this.
 
 There are some other approaches used, such as Java applets or Cross Frame Communication but ultimately they all had some pretty big drawbacks. The internet was not initially designed for these kinds of requests.
 
@@ -76,7 +83,7 @@ module ApplicationCable
 end
 ~~~
 
-You use the class above to authorize the incoming connection. You can use any logic you want to uniquely identify a user. If you use devise or a similar gem and only want logged in users to be authorised then you can use that to verify the incoming connection.
+You use the class above to authorize the incoming connection. You can use any logic you want to uniquely identify a user. If you use devise or a similar gem and only want logged in users to be authorized then you can use that to verify the incoming connection.
 
 You can see an example of how you would do that in the Rails Guides section on [Action Cable connections](https://guides.rubyonrails.org/action_cable_overview.html#connection-setup). Here they look for an encrypted cookie with user_id to verify a connection so would assume you set a cookie in this way. As you may know devise does set a cookie in the session. However because Action Cable operates on its own separate server for WebSockets, it doesn't have access to the session. Instead we can use the warden environment variable object. It does this as Devise is built on top of [Warden](https://github.com/wardencommunity/warden/wiki) and sets the user on the warden middleware object.
 
@@ -92,7 +99,7 @@ def find_verified_user
 end
 ~~~
 
-There are lots of ways to authorise a connection. You might want it to be available for all users, even those not logged in for example. There is a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
+There are lots of ways to authorize a connection. You might want it to be available for all users, even those not logged in for example. There is a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
 
 #### Channels
 
@@ -183,7 +190,7 @@ def subscribed
 end
 ~~~
 
-So you would reach for `stream_for` when you have a specific model you want to use for the stream. To give an example imagine our chat room scenario. You may want to subscribe to the chatroom and broadcast when a message is created in that room. Using `stream_for` means we can let Rails do the heavy lifting of setting up the stream so we can broadcast using the room object (this will make sense in a moment when we look at the broadcast options).
+<span id="when-to-use-stream-for">So you would reach for `stream_for`</span> when you have a specific model you want to use for the stream. To give an example imagine our chat room scenario. You may want to subscribe to the chatroom and broadcast when a message is created in that room. Using `stream_for` means we can let Rails do the heavy lifting of setting up the stream so we can broadcast using the room object (this will make sense in a moment when we look at the broadcast options).
 
 You can also pass parameters from the client to the server and use those to generate a stream. We'll look at how to do that on the client side shortly. On the server side it's not that much different from how you'd handle it in a controller
 
@@ -286,7 +293,7 @@ We could then access the parameters in the RoomChannel on the server side as
 room = Room.find(params[:room])
 ~~~
 
-This allows you to set multiple streams to the same channel by providing different parameters. When might this be useful? A couple of examples are registering to different chatrooms using the same channel object or how about subscribing to different notifications for different programming languages? They'd have to go through the same NotificationChannel but you would want to send relevant data only to those who subscribed to the relevant notification. Params are the way to do it.
+This allows you to set multiple streams to the same channel by providing different parameters.<span id="multiple-streams"> When might this be useful? </span>A couple of examples are registering to different chatrooms using the same channel object or how about subscribing to different notifications for different programming languages? They'd have to go through the same NotificationChannel but you would want to send relevant data only to those who subscribed to the relevant notification. Params are the way to do it.
 
 The second argument is another object containing three pre-defined functions. `connected()` and `disconnected()` are called when the channel first connects and disconnects from the server. `received(data)` is where you'll spend most of your time focusing. This is called every time something is broadcast through the stream. What you do here will depend on your app but will usually involve appending something to the DOM, or alerting a user to a new message etc.
 
@@ -308,6 +315,25 @@ The connection only remains active while the http request remains unbroken. Refr
   1. Make sure you've read through all of the [Rails Guides on Action Cable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
   2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 </div>
+
+### Knowledge Checks
+
+* <a class='knowledge-check-link' href='#what-is-a-websocket'>What is a WebSocket?</a>
+* <a class='knowledge-check-link' href='#what-is-a-websocket'>What kinds of problems can WebSockets help you solve?</a>
+* <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
+* <a class='knowledge-check-link' href='#terminology'>What is a consumer?</a>
+* <a class='knowledge-check-link' href='#terminology'>What is a subscriber?</a>
+* <a class='knowledge-check-link' href='#terminology'>What is a channel?</a>
+* <a class='knowledge-check-link' href='#terminology'>What is a stream?</a>
+* <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>
+* <a class='knowledge-check-link' href='#connections'>Where do you authorize incoming connections?</a>
+* <a class='knowledge-check-link' href='#channels'>Where can you put logic that should be used across multiple channels?</a>
+* <a class='knowledge-check-link' href='#streams'>What are ActionCable’s stream options?</a>
+* <a class='knowledge-check-link' href='#streams'>What is the difference between `stream_from` and `stream_for`?</a>
+* <a class='knowledge-check-link' href='#when-to-use-stream-for'>When should you use `stream_for`?</a>
+* <a class='knowledge-check-link' href='#broadcasting'>How can you use `broadcast_to`?</a>
+* <a class='knowledge-check-link' href='#client-subscriptions'>How do client subscriptions work?</a>
+* <a class='knowledge-check-link' href='#multiple-streams'>When would it be useful to have multiple streams to the same channel?</a>
 
 ### Conclusion
 
