@@ -204,7 +204,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='#reading-the-stack-trace'>"What is a stack trace?</a>
+ * <a class='knowledge-check-link' href='#reading-the-stack-trace'>What is a stack trace?</a>
  * <a class='knowledge-check-link' href='#most-useful-stack-trace-line'>What is generally the most useful line in a stack trace?</a>
  * <a class='knowledge-check-link' href='#stack-trace-first-line-info'>What are the two things you can learn from the first line of a stack trace?</a>
  * <a class='knowledge-check-link' href='#debugging-with-puts'>How do `puts` and Pry help you in the debugging process?</a>
