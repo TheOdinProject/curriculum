@@ -19,43 +19,20 @@ The Flex lessons covered positioning items along the two [axes](https://www.theo
 
 You’ll remember you can line up a nice row of flex items like this:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="eYEEVmo" data-editable="true" data-user="dm-murphy"  data-prefill='{"title":"First-Flex-Row","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="flex-container">
-  &lt;div class="one">&lt;/div>
-  &lt;div class="two">&lt;/div>
-  &lt;div class="three">&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.flex-container {
-  display: flex;
-}
-
-.flex-container div {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: 100px;
-  flex: 1;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYEEVmo" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/eYEEVmo">
+  First-Flex-Row</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Or a column like this:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="vYJJdLg" data-editable="true" data-user="dm-murphy"  data-prefill='{"title":"Second-Flex-Column","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="flex-container">
-  &lt;div class="one">&lt;/div>
-  &lt;div class="two">&lt;/div>
-  &lt;div class="three">&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-container div {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: 80px;
-  flex: 1 1 auto;
-}</pre></div>
+<p class="codepen" data-height="361" data-default-tab="css,result" data-slug-hash="vYJJdLg" data-editable="true" data-user="dm-murphy" style="height: 361px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/vYJJdLg">
+  Second-Flex-Column</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 For one-dimensional layouts, Flex offers a convienent tool without having to rely on floats or CSS hacks to align your items properly.
@@ -70,25 +47,11 @@ We know that was a frustrating one, but it's part of the point. While Flexbox al
 
 But setting up a two-dimensional layout of cards would be much simpler using CSS Grid:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="OJjjQzZ" data-editable="true" data-user="dm-murphy"  data-prefill='{"title":"Third-CodePen-Grid","tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="grid-container">
-  &lt;div class="card">&lt;/div>
-  &lt;div class="card">&lt;/div>
-  &lt;div class="card">&lt;/div>
-  &lt;div class="card">&lt;/div>
-  &lt;div class="card">&lt;/div>
-  &lt;div class="card">&lt;/div> 
-&lt;/div></pre>
-  <pre data-lang="css">.grid-container {
-  display: grid;
-  grid-template-columns: 75px 75px 75px;
-  grid-template-rows: 75px 75px;
-  gap: 32px;
-}
-
-.card {
-  background-color: peachpuff;  
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="OJjjQzZ" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/OJjjQzZ">
+  Third-CodePen-Grid</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### What the Grid?
