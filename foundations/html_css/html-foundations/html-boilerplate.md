@@ -63,7 +63,7 @@ If we didn't include a title element, the webpage's title would default to its f
 
 #### The Charset Meta Element
 
-Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8"/>`.
+Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="UTF-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
