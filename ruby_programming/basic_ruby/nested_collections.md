@@ -67,7 +67,7 @@ teacher_mailboxes[0][4]
 #=> nil
 ~~~
 
-<span id='dig-method-knowledge-check'>If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method.<span> This method can also be used when accessing a nonexistent index inside of an existing nested element.
+<span id='dig-method'>If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method.</span> This method can also be used when accessing a nonexistent index inside of an existing nested element.
 
 ~~~ruby
 teacher_mailboxes.dig(3, 0)
@@ -337,11 +337,11 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#nested-hashes'>What is a nested hash? What data is useful to store in a nested hash?</a>
 - <a class='knowledge-check-link' href='#accessing-elements'>How do you access elements in a nested array?</a>
 - <a class='knowledge-check-link' href='#accessing-data'>How do you access data in a nested hash?</a>
-- <a class='knowledge-check-link' href='#dig-method-knowledge-check'>Why is the `#dig` method useful?<a>
+- <a class='knowledge-check-link' href='#dig-method'>Why is the `#dig` method useful?</a>
 - <a class='knowledge-check-link' href='#adding-and-removing-elements'>How do you add elements to a nested array?</a>
 - <a class='knowledge-check-link' href='#adding-and-removing-data'>How do you add data to a nested hash?</a>
 - <a class='knowledge-check-link' href='#remove-elements-nested-array'>How do you delete elements from a nested array?</a>
 - <a class='knowledge-check-link' href='#deleting-data-nested-hash'>How do you delete data in a nested hash?</a>
 - <a class='knowledge-check-link' href='#create-immutable-nested-arrays'>How do you create a new nested array that is not mutable?</a>
-- <a class='knowledge-check-link' href='#iterating-over-nested-a-array'>How do you iterate over a nested array?</a>
+- <a class='knowledge-check-link' href='#iterating-over-a-nested-array'>How do you iterate over a nested array?</a>
 - <a class='knowledge-check-link' href='#methods'>How do you iterate over a nested hash?</a>
