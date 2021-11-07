@@ -33,7 +33,7 @@ export default App;
 ~~~
 
 Once you have this, install the package. Open a terminal and run `npm i react-router-dom`. This is going to install all the dependencies for us.
-While this is happening, we can create a new file called `RouteSwitch.js`, which is going to be the file that handles our `<Routes>`.
+While this is happening, we can create a new file called `RouteSwitch.js`, which is going to be the file that handles our routes.
 
 Once the package is finished installing, you can add this code to your RouteSwitch.js file:
 
