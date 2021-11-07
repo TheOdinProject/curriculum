@@ -104,7 +104,7 @@ But we will usually want to organize our website directories a little better. No
 
 Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
-Refresh the index page in the browser and then click on the about link. It will be now be broken. This is because the location of the about page file has changed.
+Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
 
 To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
