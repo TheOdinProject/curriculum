@@ -145,9 +145,11 @@ In the earlier section, `rotate`, `scale`, and `translate` transform functions a
 
 However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
+From here on, the examples get more complicated, so there will be more links to external resources which do an excellent job describing how each property works. Play around with these properties until you feel comfortable with them, but be careful not to fall down the [CSS Animation rabbit-hole](https://www.youtube.com/watch?v=CG__N4SS1Fc).
+
 #### Perspective
 
-This is the transform function value to set the distance from the user to the z = 0 plane.
+This is the transform function value to set the distance from the user to the z = 0 plane. Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis. If this sounds confusing, don't worry, it will be covered more later.
 
 ```css
 .element {
@@ -156,6 +158,8 @@ This is the transform function value to set the distance from the user to the z 
 ```
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
+
+For more details on how `perspective` works in regards to 3d transforms, [check out this CSS Tricks article.](https://css-tricks.com/how-css-perspective-works/).
 
 #### Rotate
 
@@ -170,14 +174,16 @@ These are the additional transform function values to rotate an element on a 3D 
 }
 ```
 
-Below is a CodePen that shows how the value affects the target element.
+Below is a CodePen that shows how the first three values affects the target element.
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="rNwbQpy" data-editable="true" data-user="shiroinegai" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/shiroinegai/pen/rNwbQpy">
-  Rotate  | CSS 3D Transforms</a> by Shiroi Negai (<a href="https://codepen.io/shiroinegai">@shiroinegai</a>)
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="yLojYgK" data-editable="true" data-user="fortypercenttitanium" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/fortypercenttitanium/pen/yLojYgK">
+  Rotate</a> by Alex Younger (<a href="https://codepen.io/fortypercenttitanium">@fortypercenttitanium</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+To learn about how `rotate3d` works, check out this great demonstration (<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()>) on MDN and [this one](https://www.quackit.com/css/functions/css_rotate3d_function.cfm) on Quackit.
 
 #### Scale
 
@@ -190,14 +196,7 @@ These are the additional transform function values to scale an element on a 3D p
 }
 ```
 
-Below is a CodePen that shows how the value affects the target element.
-
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="OJgYPwR" data-editable="true" data-user="shiroinegai" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/shiroinegai/pen/OJgYPwR">
-  Scale | CSS 3D Transforms</a> by Shiroi Negai (<a href="https://codepen.io/shiroinegai">@shiroinegai</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+See MDN's 3d cube in action with `scaleZ` [here](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()>) and `scale3d` [here](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()>).
 
 #### Translate
 
@@ -210,18 +209,20 @@ These are the additional transform function values to translate an element on a 
 }
 ```
 
-Below is a CodePen that shows how the value affects the target element.
+`translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the illusion of 3-dimensional distance from the rendered object. See a simple example below:
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="RwgmqXE" data-editable="true" data-user="shiroinegai" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/shiroinegai/pen/RwgmqXE">
-  Translate | CSS 3D Transforms</a> by Shiroi Negai (<a href="https://codepen.io/shiroinegai">@shiroinegai</a>)
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="yLojYjq" data-editable="true" data-user="fortypercenttitanium" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/fortypercenttitanium/pen/yLojYjq">
+  3d rotate</a> by Alex Younger (<a href="https://codepen.io/fortypercenttitanium">@fortypercenttitanium</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-#### Perspective on Parent vs Child Elements
+For a great demonstration on `translate3d` checkout the the [MDN cube again](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()>)!
 
-TODO
+#### More on Perspective
+
+`perspective` is an incredibly powerful function for CSS animations. As was mentioned earlier, the value set in perspective is essentially the distance on the z-axis from which the viewer is looking at the object in question. To get a better grasp on how it works, take some time to [read this article](https://css-tricks.com/how-css-perspective-works/) and even try to code along with it. You will get a better grasp of how it works once you try it out for yourself.
 
 #### Matrix
 
@@ -252,6 +253,7 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 
 - Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
 - For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
+- For more on the 3d transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
 
 ### Knowledge Check
 
