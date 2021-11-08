@@ -10,17 +10,10 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a WebSocket?
 * What kinds of problems can WebSockets help you solve?
 * What options did developers have before WebSockets to update a client without a user request?
-* What is a consumer?
-* What is a subscriber?
-* What is a channel?
-* What is a stream?
 * How can you broadcast to a stream from the server?
 * Where do you authorize incoming connections?
-* Where can you put logic that should be used across multiple channels?
 * What are ActionCable’s stream options?
 * What is the difference between `stream_from` and `stream_for`?
-* When should you use `stream_for`?
-* How can you use `broadcast_to`?
 
 ### What is a WebSocket?
 
@@ -321,19 +314,10 @@ The connection only remains active while the http request remains unbroken. Refr
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What is a WebSocket?</a>
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What kinds of problems can WebSockets help you solve?</a>
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
-* <a class='knowledge-check-link' href='#terminology'>What is a consumer?</a>
-* <a class='knowledge-check-link' href='#terminology'>What is a subscriber?</a>
-* <a class='knowledge-check-link' href='#terminology'>What is a channel?</a>
-* <a class='knowledge-check-link' href='#terminology'>What is a stream?</a>
 * <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>
 * <a class='knowledge-check-link' href='#connections'>Where do you authorize incoming connections?</a>
-* <a class='knowledge-check-link' href='#channels'>Where can you put logic that should be used across multiple channels?</a>
 * <a class='knowledge-check-link' href='#streams'>What are ActionCable’s stream options?</a>
 * <a class='knowledge-check-link' href='#streams'>What is the difference between `stream_from` and `stream_for`?</a>
-* <a class='knowledge-check-link' href='#when-to-use-stream-for'>When should you use `stream_for`?</a>
-* <a class='knowledge-check-link' href='#broadcasting'>How can you use `broadcast_to`?</a>
-* <a class='knowledge-check-link' href='#client-subscriptions'>How do client subscriptions work?</a>
-* <a class='knowledge-check-link' href='#multiple-streams'>When would it be useful to have multiple streams to the same channel?</a>
 
 ### Conclusion
 
