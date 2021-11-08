@@ -74,6 +74,6 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)

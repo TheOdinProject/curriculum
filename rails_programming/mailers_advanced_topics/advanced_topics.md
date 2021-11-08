@@ -201,7 +201,7 @@ This trick is useful for more than just passing stylesheet information... any ti
 
 What is "Metaprogramming"?  It's a great and useful concept that's used all over Rails and you can put it to work yourself too.  It's basically the idea that your application or script actually creates functions or methods or classes on the fly while it's running and can dynamically call them as well.  It's one of the great parts of using an interpreted language like Ruby... it's sort of baked into the language.  We'll just skim the surface here but you should definitely look into it more on your own once you feel comfortable with the nuts and bolts of Rails.
 
-An example of metaprogramming in action in Rails is with the route helpers.  When your Rails application fires up for the first time, it loads the `config/routes.rb` file, which might contain the line `get "home" => "static_pages#home"` so your users can type `http://www.yoursite.com/home` to get back to the home page.  Rails then creates a couple method for you, including the `home_path` and `home_url` helpers.  That's one part of metaprogramming!
+An example of metaprogramming in action in Rails is with the route helpers.  When your Rails application fires up for the first time, it loads the `config/routes.rb` file, which might contain the line `get "home" => "static_pages#home"` so your users can type `http://www.yoursite.com/home` to get back to the home page.  Rails then creates a couple methods for you, including the `home_path` and `home_url` helpers.  That's one part of metaprogramming!
 
 The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `#home_path` or `#home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
 
@@ -308,7 +308,7 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
 * [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)

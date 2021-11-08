@@ -218,7 +218,7 @@ That's really just a taste of the Rails controller, but you should have a pretty
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Controller & Routes Video Demo](https://vimeo.com/168501163)
 * [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)

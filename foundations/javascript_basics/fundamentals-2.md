@@ -52,7 +52,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
   * You will be working out of follow.js
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
 
@@ -69,7 +69,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you escape characters in a string?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What are methods?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between slice/substring/substr?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the three logical operators and what do they stand for?</a>
+* <a class="knowledge-check-link" href="http://javascript.info/logical-operators">What are the three logical operators and what do they stand for?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the comparison operators?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/comparison#boolean-is-the-result">What are truthy and falsy values?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/comparison#string-comparison">What are the falsy values in JavaScript?</a>

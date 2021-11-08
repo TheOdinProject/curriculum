@@ -107,4 +107,4 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.

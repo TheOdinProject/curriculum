@@ -67,7 +67,7 @@ teacher_mailboxes[0][4]
 #=> nil
 ~~~
 
-If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method. This method can also be used when accessing a nonexistent index inside of an existing nested element.
+<span id='dig-method'>If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method.</span> This method can also be used when accessing a nonexistent index inside of an existing nested element.
 
 ~~~ruby
 teacher_mailboxes.dig(3, 0)
@@ -94,7 +94,7 @@ mutable
 
 Changing the value of the first element in the first nested array, causes the first element to change in all three nested arrays! This same behavior will happen with strings, hashes, or any other mutable objects.
 
-Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.
+<span id='create-immutable-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
 
 ~~~ruby
 immutable = Array.new(3) { Array.new(2) }
@@ -119,7 +119,7 @@ test_scores
 #=> [[97, 76, 79, 93, 100], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81], [100, 99, 98, 97]]
 ~~~
 
-Using this similar syntax, you can add or remove elements from the entire nested array or from a specific nested element.
+<span id='remove-elements-nested-array'>Using this similar syntax, you can add or remove elements from the entire nested array or from a specific nested element.</span>
 
 ~~~ruby
 test_scores.pop
@@ -265,7 +265,7 @@ vehicles
 #=> {:alice=>{:year=>2019, :make=>"Toyota", :model=>"Corolla"}, :blake=>{:year=>2020, :make=>"Volkswagen", :model=>"Beetle"}, :caleb=>{:year=>2020, :make=>"Honda", :model=>"Accord"}, :dave=>{:year=>2021, :make=>"Ford", :model=>"Escape", :color=>"red"}}
 ~~~
 
-Deleting one of the nested hashes will be just like a regular hash. Let's say Blake has decided to sell his Beetle and backpack across Europe. So, let's delete Blake's car.
+<span id='deleting-data-nested-hash'>Deleting one of the nested hashes will be just like a regular hash.</span> Let's say Blake has decided to sell his Beetle and backpack across Europe. So, let's delete Blake's car.
 
 ~~~ruby
 vehicles.delete(:blake)
@@ -328,16 +328,20 @@ Amazing! We have found a great solution to returning an array that only contains
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- What is a nested array and hash?
-- What data is useful to store in a nested array and hash?
-- How do you access data in a nested array and hash?
-- Why is the `#dig` method useful?
-- How do you add data to a nested array and hash?
-- How do you delete data in a nested array and hash?
-- How do you create a new nested array that is not mutable?
-- How do you iterate over a nested array and hash?
+- <a class='knowledge-check-link' href='#nested-arrays'>What is a nested array? What data is useful to store in a nested array?</a>
+- <a class='knowledge-check-link' href='#nested-hashes'>What is a nested hash? What data is useful to store in a nested hash?</a>
+- <a class='knowledge-check-link' href='#accessing-elements'>How do you access elements in a nested array?</a>
+- <a class='knowledge-check-link' href='#accessing-data'>How do you access data in a nested hash?</a>
+- <a class='knowledge-check-link' href='#dig-method'>Why is the `#dig` method useful?</a>
+- <a class='knowledge-check-link' href='#adding-and-removing-elements'>How do you add elements to a nested array?</a>
+- <a class='knowledge-check-link' href='#adding-and-removing-data'>How do you add data to a nested hash?</a>
+- <a class='knowledge-check-link' href='#remove-elements-nested-array'>How do you delete elements from a nested array?</a>
+- <a class='knowledge-check-link' href='#deleting-data-nested-hash'>How do you delete data in a nested hash?</a>
+- <a class='knowledge-check-link' href='#create-immutable-nested-arrays'>How do you create a new nested array that is not mutable?</a>
+- <a class='knowledge-check-link' href='#iterating-over-a-nested-array'>How do you iterate over a nested array?</a>
+- <a class='knowledge-check-link' href='#methods'>How do you iterate over a nested hash?</a>

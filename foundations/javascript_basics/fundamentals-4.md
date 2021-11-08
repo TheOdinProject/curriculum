@@ -53,7 +53,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you access an array element?</a>
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you change an array element?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties?</a>
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_array_methods.asp">What are some useful array methods?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother">What are loops useful for?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break">What is the break statement?</a>

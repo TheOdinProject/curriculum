@@ -157,7 +157,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [An in-depth guide to ARIA roles](https://www.a11yproject.com/posts/2020-08-20-an-indepth-guide-to-aria-roles/#landmark-roles) goes over an ARIA attribute that alters the semantics of elements, which can allow you to create custom inputs, buttons, and more. Just keep in mind rule number one of the ARIA rules!
 * [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies. A word of warning if you decide to dive into this topic: the `assertive` live region may not work in the JAWS and NVDA screen readers, but the `role="alert"` attribute, which has an implicit live region of assertive, should.
