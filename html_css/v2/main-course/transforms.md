@@ -27,11 +27,11 @@ In this section, we'll go through 2D transforms with the following transform fun
 
 This is the transform function value to rotate an element on a 2D plane.
 
-```css
+~~~css
 .element {
   transform: rotate();
 }
-```
+~~~
 
 Below is a CodePen that shows how the value affects the target element.
 
@@ -46,13 +46,13 @@ Below is a CodePen that shows how the value affects the target element.
 
 These are the transform function values to scale an element on a 2D plane.
 
-```css
+~~~css
 .element {
   transform: scaleX();
   transform: scaleY();
   transform: scale();
 }
-```
+~~~
 
 Below is a CodePen that shows how each value affects the target element.
 
@@ -67,13 +67,13 @@ Below is a CodePen that shows how each value affects the target element.
 
 These are the transform function values to skew an element on a 2D plane.
 
-```css
+~~~css
 .element {
   transform: skewX();
   transform: skewY();
   transform: skew();
 }
-```
+~~~
 
 Below is a CodePen that shows how each value affects the target element.
 
@@ -88,13 +88,13 @@ Below is a CodePen that shows how each value affects the target element.
 
 These are the transform function values to translate an element on a 2D plane.
 
-```css
+~~~css
 .element {
   transform: translateX();
   transform: translateY();
   transform: translate();
 }
-```
+~~~
 
 Below is a CodePen that shows how each value affects the target element.
 
@@ -109,12 +109,12 @@ Below is a CodePen that shows how each value affects the target element.
 
 Now that you have a grasp of 2D transforms, we will learn how to chain them. Chaining multiple transforms is as simple as adding more transform functions with a space between each one. Take a look at the code below:
 
-```html
+~~~html
 <div class="red-box"></div>
 <div class="blue-box"></div>
-```
+~~~
 
-```css
+~~~css
 .red-box,
 .blue-box {
   position: absolute;
@@ -131,7 +131,7 @@ Now that you have a grasp of 2D transforms, we will learn how to chain them. Cha
   background: blue;
   transform: translate(200%) rotate(45deg);
 }
-```
+~~~
 
 There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes but in different orders. Make a guess on what happens to each box then open up [this CodePen](https://codepen.io/fortypercenttitanium/pen/OJjQgLm) to see if you were right.
 
@@ -151,11 +151,11 @@ From here on, the examples get more complicated, so there will be more links to 
 
 This is the transform function value to set the distance from the user to the z = 0 plane. Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis. If this sounds confusing, don't worry, it will be covered more later.
 
-```css
+~~~css
 .element {
   transform: perspective();
 }
-```
+~~~
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
@@ -165,14 +165,14 @@ For more details on how `perspective` works in regards to 3d transforms, [check 
 
 These are the additional transform function values to rotate an element on a 3D plane.
 
-```css
+~~~css
 .element {
   transform: rotateX();
   transform: rotateY();
   transform: rotateZ();
   transform: rotate3d();
 }
-```
+~~~
 
 Below is a CodePen that shows how the first three values affects the target element.
 
@@ -189,12 +189,12 @@ To learn about how `rotate3d` works, check out this great demonstration (<https:
 
 These are the additional transform function values to scale an element on a 3D plane.
 
-```css
+~~~css
 .element {
   transform: scaleZ();
   transform: scale3d();
 }
-```
+~~~
 
 See MDN's 3d cube in action with `scaleZ` [here](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()>) and `scale3d` [here](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()>).
 
@@ -202,12 +202,12 @@ See MDN's 3d cube in action with `scaleZ` [here](<https://developer.mozilla.org/
 
 These are the additional transform function values to translate an element on a 3D plane.
 
-```css
+~~~css
 .element {
   transform: translateZ();
   transform: translate3d();
 }
-```
+~~~
 
 `translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the illusion of 3-dimensional distance from the rendered object. See a simple example below:
 
@@ -228,18 +228,16 @@ For a great demonstration on `translate3d` checkout the the [MDN cube again](<ht
 
 While not strictly a 3D transform function, matrix is mentioned last in this lesson due to how uncommonly used it is. These are the transform function values for it.
 
-```css
+~~~css
 .element {
   transform: matrix();
   transform: matrix3d();
 }
-```
+~~~
 
-Below is a CodePen that shows how the value affects the target element.
+Matrix is a way of combining all transform functions into one. It is seldom used due to its poor readability, and almost never written by hand. Unless you have a very complex transformation to apply, you should use other transform function values instead.
 
-TODO
-
-Matrix is seldom used due to its poor readability. Unless you have a very complex transformation to apply, you should use other transform function values instead.
+It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them. Skim [this article](https://www.quackit.com/css/functions/css_matrix_function.cfm) to get the gist of `matrix`.
 
 ### Benefits of Transforms
 
@@ -250,11 +248,16 @@ The key benefit of using `transform` is that it occurs during **composition**. T
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in an upcoming lesson.
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
 - For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
 - For more on the 3d transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-TODO
+- <a class="knowledge-check-link" href="#2d-transforms">What are the four main functions of the `transform` property?</a>
+- <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
+- <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis?</a>
+- <a class="knowledge-check-link" href="#3d-transforms">What additional function is required for 3d transforms?</a>
