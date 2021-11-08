@@ -37,7 +37,7 @@ There's a lot to do here but stick with it!  We'll start with the Codecademy les
       2. To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
   8. Do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
   9. Do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
-  
+
 ~~~bash
 "ruby.lint": {
   "rubocop": true,
@@ -60,3 +60,13 @@ This section contains helpful links to other content. It isn't required, so cons
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
 
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is a class?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">When should you use a class?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What are getters and setters?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is inheritance?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">What is a scope?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">When is a new scope defined?</a>
