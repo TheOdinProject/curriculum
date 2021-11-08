@@ -144,7 +144,7 @@ Sometimes you just want to send out an HTTP error code without any response body
 
 #### Creating Dynamic Error Pages
 
-You can create your own error pages. See [this blog post](https://pooreffort.com/blog/custom-rails-error-pages).
+You can create your own error pages. See [this post](https://web-crunch.com/posts/custom-error-page-ruby-on-rails).
 
 Sometimes Heroku can require additional steps to properly display your error pages.  See [their error page docs here](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `app/public` directory first.
 
@@ -204,7 +204,7 @@ The best way to really figure out APIs is to build them and interface with them,
 In the next lesson, we'll cover working with other people's APIs, which can add all kinds of firepower to your own application.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
 * Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)

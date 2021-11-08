@@ -29,7 +29,7 @@ Look through these now and then use them to test yourself after doing the assign
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Watch [this awesome video](https://www.youtube.com/watch?v=gT0Lh1eYk78) explaining the big picture of the three core web technologies: HTML, CSS and JavaScript.
 * [This video](https://www.youtube.com/watch?v=BANChTkxYYY&list=PLwqG3V3cExWpCgHOcLEKg6z-InpjHr7MB) is another great introduction to how the various front-end technologies interact.

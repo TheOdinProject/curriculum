@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do or answer the following:
 - Have familiarity with `supertest`'s documentation and methods.
 
 
-The most important, basic requirement for testing something in your code is that it be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
+The most important, basic requirement for testing something in your code is that it must be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
 In the case of routes, you already know how to do this using Express.Router. Below is a very simple example.
 
@@ -54,7 +54,7 @@ module.exports = index;
 
 These two files, `app.js` and `index.js` simply define a couple of routes and then set up and start our express app. For the moment we do _not_ need to test `app.js` because it only contains code that starts and runs an express app!  It doesn't include any of our own logic so we don't need to test it. `index.js` however _does_ include some things that we want to test.
 
-To facilitate actually testing these routes we're going to use a library called [Supertest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
+To facilitate actually testing these routes we're going to use a library called [Supertest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest --save-dev` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
 
 In the examples below we're going to use Supertest inside of a Jest style describe/test block, but the syntax and use of these are common among most testing libraries, so the concepts should be easily replicated in Mocha with Chai or Jasmine or Tape or whatever testing library you prefer.
 

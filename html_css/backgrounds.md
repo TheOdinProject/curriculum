@@ -22,7 +22,7 @@ Backgrounds are usually ignored until they become a problem and then you're left
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CSS Backgrounds](http://www.w3schools.com/css/css_background.asp)
 * [Do you really understand CSS linear-gradients?](https://patrickbrosset.com/articles/2015-03-27-do-you-really-understand-CSS-linear-gradients/)

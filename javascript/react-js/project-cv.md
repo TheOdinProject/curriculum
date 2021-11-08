@@ -11,7 +11,7 @@ So let's get started.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Create a new project using `npx create-react-app cv-project`. If you need a reminder on how it works, check out the previous lessons. Don't forget to setup a GitHub repository for you project, to push your progress.
+1. Create a new project using `npx create-react-app cv-project`. If you need a reminder on how it works, check out the previous lessons. Don't forget to setup a GitHub repository for your project, to push your progress.
 2. Remove the boilerplate code created by `create-react-app`.
 3. Think about how to structure your application into components. Your application should include:
    1. A section to add general information like name, email, phone number.

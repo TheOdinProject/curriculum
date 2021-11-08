@@ -40,7 +40,7 @@ To give you a good bit of practice, we have created some repl.it exercises for y
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
 To get started, create a free repl account and click "Fork" in order to have access to the exercises. 
-Note: Feel free to browse the files on the left column in order to gain familarity with it. 
+Note: Feel free to browse the files on the left column in order to gain familiarity with it. 
 
 - [Exercise 1](https://repl.it/@I3uckwheat/troubleshooting#troubleshooting.js)
   * In this exercise, you will be working out of the file called troubleshooting.js
@@ -52,29 +52,29 @@ Note: Feel free to browse the files on the left column in order to gain familari
   * You will be working out of follow.js
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the eight data types in JavaScript?
-* Which data type is NOT primitive?
-* What is the relationship between null and undefined?
-* What is the difference between single, double, and backtick quotes for strings?
-* What is the term for embedding variables/expressions in a string?
-* Which type of quote lets you embed variables/expressions in a string?
-* How do you embed variables/expressions in a string?
-* How do you escape characters in a string?
-* What are methods?
-* What is the difference between slice/substring/substr?
-* What are the three logical operators and what do they stand for?
-* What are the comparison operators?
-* What are truthy and falsy values?
-* What are the falsy values in JavaScript?
-* What are conditionals?
-* What is the syntax for an if/else conditional?
-* What is the syntax for a switch statement?
-* What is the syntax for a ternary operator?
-* What is nesting?
+* <a class="knowledge-check-link" href="https://javascript.info/types#summary">What are the eight data types in JavaScript?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/types#objects-and-symbols">Which data type is NOT primitive?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/types#the-null-value">What is the relationship between null and undefined?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#single_quotes_vs._double_quotes">What is the difference between single, double, and backtick quotes for strings?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#template_literals"> What is the term for embedding variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#template_literals"> Which type of quote lets you embed variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#template_literals">How do you embed variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you escape characters in a string?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What are methods?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between slice/substring/substr?</a>
+* <a class="knowledge-check-link" href="http://javascript.info/logical-operators">What are the three logical operators and what do they stand for?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the comparison operators?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/comparison#boolean-is-the-result">What are truthy and falsy values?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/comparison#string-comparison">What are the falsy values in JavaScript?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_if_else.asp">What are conditionals?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if_..._else_syntax">What is the syntax for an if/else conditional?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements">What is the syntax for a switch statement?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator">What is the syntax for a ternary operator?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if_..._else">What is nesting?</a>

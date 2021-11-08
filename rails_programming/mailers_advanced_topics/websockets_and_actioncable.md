@@ -29,7 +29,7 @@ Let us imagine we've built an awesome new social media app, Chewbooka. A place t
 
 We'll be rich! But, in a time before WebSockets, how are we going to solve it?
 
-We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are we could notify users of the new post and update their view and if there wasn't we can just return an empty response. This still involves opening and closing a request on the sever. This was a technique know as polling and was one of the first ways websites tried to bring server updates to the client. The downside to this was one of efficiency. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
+We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are we could notify users of the new post and update their view and if there wasn't we can just return an empty response. This still involves opening and closing a request on the server. This was a technique know as polling and was one of the first ways websites tried to bring server updates to the client. The downside to this was one of efficiency. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
 Since we don't want the inefficiency of checking for an update when there isn't one. What if instead we allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we instead hold the request open on the server side. When we have a new post we can send that response to any open http requests being held and that will complete the http request and close the connection. Then the client can simply send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chatrooms did this.
 
@@ -92,7 +92,7 @@ def find_verified_user
 end
 ~~~
 
-There are lots of ways to authorise a connection. You might want it to be available for all users, even those not logged in for example. There are a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
+There are lots of ways to authorise a connection. You might want it to be available for all users, even those not logged in for example. There is a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
 
 #### Channels
 
@@ -148,7 +148,7 @@ You can see here it does try to create all files we would need and if any exist,
 
 ### Client-server interactions
 
-Let's take a closer look at the chat_channel.rb and chat_channel.js files that were created by the generator.
+Let's take a closer look at the room_channel.rb and room_channel.js files that were created by the generator.
 
 As mentioned earlier the generator will create a channel in the `app/channels` directory. In our example it was `room_channel.rb` which produces some boilerplate code
 
@@ -274,7 +274,7 @@ consumer.subscriptions.create("RoomChannel", {
 
 Note it imports our consumer from the consumer.js file we discussed earlier. Then it calls `subscriptions.create` on the consumer. We don't need to really dive into how this works under the hood but we just need to understand a couple of key points.
 
-The first is that that the first argument is given as a string. This would try to connect to the `RoomChannel` channel on the server. It doesn't have to be a string though. Remember those parameters we discussed earlier, this is where you can pass them. Instead of a string you can instead pass an object. The first key-value pair must be in the format `channel: 'ChannelName'`, and then afterwards you can pass in any number of key-value pairs which becomes the parameters sent to the server to establish a connection. Let's say we want to send the id of a room to our RoomChannel. We could write that first line as follows
+The first is that the first argument is given as a string. This would try to connect to the `RoomChannel` channel on the server. It doesn't have to be a string though. Remember those parameters we discussed earlier, this is where you can pass them. Instead of a string you can instead pass an object. The first key-value pair must be in the format `channel: 'ChannelName'`, and then afterwards you can pass in any number of key-value pairs which becomes the parameters sent to the server to establish a connection. Let's say we want to send the id of a room to our RoomChannel. We could write that first line as follows
 
 ~~~javascript
 consumer.subscriptions.create({channel: 'RoomChannel', room: 1}, {
@@ -312,5 +312,3 @@ The connection only remains active while the http request remains unbroken. Refr
 ### Conclusion
 
 There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce WebSockets when you see a real opportunity to add value to your site.
-
-

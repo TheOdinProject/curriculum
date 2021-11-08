@@ -52,7 +52,7 @@ underscore (often called *snake_case*).
 Open `lib/event_manager.rb` in your text editor and add the line:
 
 ~~~ruby
-puts 'EventManager Initialized!'
+puts 'Event Manager Initialized!'
 ~~~
 
 Validate that ruby is installed correctly and you have created the file correctly by running it from the root of your `event_manager` directory:
@@ -89,7 +89,7 @@ For this project we are going to use the following sample data:
 * [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees.csv)
 * [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are right directory and enter the following command:
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
 ~~~bash
 $ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv
@@ -262,7 +262,7 @@ lines.each do |line|
 end
 ~~~
 
-When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop
+When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop.
 
 A problem with this solution is that the content of our header row could change
 in the future. Additional columns could be added or the existing columns
@@ -1534,7 +1534,7 @@ and well-formed.
 
 * If the phone number is less than 10 digits, assume that it is a bad number
 * If the phone number is 10 digits, assume that it is good
-* If the phone number is 11 digits and the first number is 1, trim the 1 and use the first 10 digits
+* If the phone number is 11 digits and the first number is 1, trim the 1 and use the remaining 10 digits
 * If the phone number is 11 digits and the first number is not 1, then it is a bad number
 * If the phone number is more than 11 digits, assume that it is a bad number
 

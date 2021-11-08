@@ -39,7 +39,7 @@ By the end of this lesson, you should be able to do the following:
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/foundations/lessons/prerequisites).
 
   1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` (the `l` is a lowercase `L`). `ls` will show you the files and folders in the current directory (or will show nothing if the current directory is empty). Create a file called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
-  2. Read through [chapter 1 of Conquering the Command Line](http://conqueringthecommandline.com/book/basics).
+  2. Read through [chapter 1 of Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands/basics).
 </div>
 
 
@@ -81,7 +81,7 @@ In this exercise, you will practice creating files and directories and deleting 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [The art of command line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete pro-maker for beginners. It serves as a open source repository. This also has a lot of protips!
 * The online book [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to purchase and read the rest of the book if you like.

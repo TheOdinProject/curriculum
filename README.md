@@ -18,6 +18,12 @@ The Odin Project depends on open-source contributions to improve, grow, and thri
 ### Lessons/Courses in Development
 We are constantly making improvements to the curriculum, and new lessons are always in the works. However, writing new lessons is very time consuming and is done for free. If you would like to know specifics about work on new lessons, ask in the [Discord chat](https://discord.gg/fbFCkYabZB), or keep an eye on this repo.
 
+### In flight curriculum initiatives
+#### HTML/CSS course rewrite
+We are in the process of completely rewriting all of our HTML and CSS content, from scratch.  Our current curriculum relies too heavily on freecodecamp, which many of our students report is somewhat of a slog.  Additionally, much of our later content is getting somewhat dated, so we are in need of a refresh.
+
+You can see what we're working on [here](https://github.com/TheOdinProject/top-meta/projects/2).
+
 If you would like to help us develop any lessons, please read our [contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md) to find out how you can contribute.
 
 #### A non-exhaustive list of what you can contribute to help us:

@@ -4,7 +4,7 @@ As mentioned in the previous lesson, the lifecycle methods such as `componentDid
 
 **Hooks allow functional components to also have a lifecycle as well as a state.**
 
-Other than the basic hooks you will encounter in this section, there are many other hooks such as `useRef` or `useContext`, just to name two. React also provides the ability to write your own custom hooks. This changes the game between functional vs. class components. Functional components are no longer considered “dumb” components. Many programmers have increasingly begun to prefer functional components over class components. For more information have a look [here](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg)
+Other than the basic hooks you will encounter in this section, there are many other hooks such as `useRef` or `useContext`, just to name two. React also provides the ability to write your own custom hooks. This changes the game between functional vs. class components. Functional components are no longer considered “dumb” components. Many programmers have increasingly begun to prefer functional components over class components. For more information have a look [here](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg).
 
 Now we will discuss the most basic hooks.  Create a `create-react-app` and use the App.js file for the following examples. This won't actually create a lot of functionality, but when coding along you will remember everything better thanks to muscle memory.
 
@@ -91,7 +91,7 @@ export default App;
 ~~~
 Try it out to get an idea of what is happening. 
  
-Once you've done that, let's go through it in all detail.
+Once you've done that, let's go through it all in detail.
  
 You should already be familiar with the `useState` logic implemented. Basically, we are just saving a color in state and on click we are changing the color saved in state. This color is applied to our div element. Don't worry about all the inline styles of the div, the only important thing within this styles object is where we set the background to the color that is currently saved in state.
  
@@ -153,6 +153,8 @@ If you write a return statement like the above in a useEffect, it will do the sa
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Here](https://www.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
 * [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
+  * There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from https://swapi.co to https://swapi.dev.

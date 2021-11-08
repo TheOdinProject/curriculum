@@ -39,7 +39,7 @@ When asking your question, please remember to include the context:
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
-If the puzzle still can't be solved, push your project to GitHub or put your code in a [replit](https://replit.com) so that others can comb through and debug the code. You'll learn all about GitHub very soon.
+Screenshots are great for showing the output of commands in the command line or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount code, providing it in the discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or put your corresponding code in a [replit](https://replit.com) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
 
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
@@ -87,8 +87,8 @@ Your Multiple Lines of Colorful Code
   2. In a moment we're going to ask you to join the Discord community, here are some guidelines before you dive in: 
   
      * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
-     * **Don't 'Bomb' Chats:** Dont send multiple messages in a row, type out your whole message, then push send.	
-     * **Don't Exclude Anyone:**	These are public chats, if someone joins in on a conversation, include them!		
+     * **Don't 'Bomb' Chats:** Don't send multiple messages in a row; type out your whole message, then push send.	
+     * **Don't Exclude Anyone:**	These are public chats; if someone joins in on a conversation, include them!		
      * **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
      * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
      * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.

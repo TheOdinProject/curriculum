@@ -14,3 +14,9 @@ You can think of code editors as specialized web development tools. They are hig
 Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. If you want to use something else, do it. However, using something other than VSCode may make it more difficult to get help in the chat room.
 
 As a reminder, if you're using a **virtual machine**, you should install your text editor of choice **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but you'll want to be sure that you have this critical tool inside your VM.
+
+### Assignment
+<div class="lesson-content__panel" markdown="1">
+
+  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. Learn the basics of using this text editor by watching [these introductory videos](https://code.visualstudio.com/docs/introvideos/basics). Watch only the first video as the second involves installing Node.js which will not be needed at this stage.
+</div>

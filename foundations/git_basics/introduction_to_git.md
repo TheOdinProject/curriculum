@@ -2,13 +2,13 @@
 
 Git is like a really **epic save button** for your files and directories. Officially, Git is a version control system.
 
-A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
+<span id="text-editor-and-git"></span>A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
 
 `essay-draft1.doc`, `essay-draft2.doc`, `essay-final.doc`
 
 However, a *save* in Git records differences in the files and folders AND keeps a **historical record of each save**. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to GitHub for sharing and collaborating with other developers.
 
-While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+<span id="git-local"></span>While Git works on your *local* machine, <span id="github-remote"></span>GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
 
 In this lesson, we will briefly explore the history of Git, what it is, and what it's useful for.
 
@@ -37,16 +37,16 @@ By the end of this lesson, you should be able to do the following:
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What kind of program is Git?
-* What are the differences between Git and a text editor in terms of what they save and their record keeping?
-* Does Git work at a local or remote level?
-* Does GitHub work at a local or remote level?
-* Why is Git useful for an individual developer?
-* Why are Git and GitHub useful for a team of developers?
+* <a  class="knowledge-check-link" href="#introduction">What kind of program is Git?</a>
+* <a class="knowledge-check-link" href="#text-editor-and-git">What are the differences between Git and a text editor in terms of what they save and their record keeping?</a>
+* <a class="knowledge-check-link" href="#git-local">Does Git work at a local or remote level?</a>
+* <a class="knowledge-check-link" href="#github-remote">Does GitHub work at a local or remote level?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=8oRjP8yj2Wo">Why is Git useful for an individual developer?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=8oRjP8yj2Wo">Why are Git and GitHub useful for a team of developers?</a>
