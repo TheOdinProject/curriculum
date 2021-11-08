@@ -5,14 +5,14 @@ To really understand how Rails works, you need to have a solid base in the guts 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
-* Deconstruct an HTTP-message.
-* Name the 4 most common verbs used in HTTP-requests.
-* Describe the 7 RESTful actions we differentiate in Rails.
-* Recognize all components of a URL.
-* Identify the different components of an MVC-pattern and explain what their tasks are.
-* Describe what an API is and how it makes applications work together "seamless".
+* Explain the basics of HTTP.
+* Identify the 4 most commonly used HTTP verbs.
+* Identify the 7 RESTful routes of Rails.
+* Name the different components of a URL.
+* Explain the basics of MVC.
+* Describe what an API is.
 * Explain what "cookies" and "sessions" are.
-* Know the difference between "authentication" and "authorization".
+* Describe the difference between "authentication" and "authorization".
 
 ### HTTP
 
