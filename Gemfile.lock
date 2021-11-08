@@ -408,7 +408,7 @@ GEM
       execjs
       railties (>= 3.2)
       tilt
-    redis (4.4.0)
+    redis (4.5.1)
     reek (6.0.6)
       kwalify (~> 0.7.0)
       parser (~> 3.0.0)
@@ -493,7 +493,7 @@ GEM
       faraday
     shoulda-matchers (5.0.0)
       activesupport (>= 5.2.0)
-    sidekiq (6.2.2)
+    sidekiq (6.3.1)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
