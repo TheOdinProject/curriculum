@@ -148,10 +148,11 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">How do you call an HTTP-message that goes from client to server? How do you call one that goes the opposite direction? In which header would you encounter a "status code" and in which one an "action verb"?</a>
-* <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/">How do you call the additional information that is added after the path of a URL? Which symbols precede and separate this information?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">What do you call an HTTP message that goes from client to server?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">What do you call an HTTP message that goes from server to client?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">Which HTTP message would include a status code and which would include an action verb?</a>
+* <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/">What is the name of the additional information that is added after the path of a URL?</a>
 * <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/">What does MVC stand for?</a>
-* <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/">Which Rails-feature/script analyzes the URL to dispatch the right controller and is hence the precursor for all MVC-related actions?</a>
-* <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm">What is an "API"? Why does every right-minded website has one (or more)?</a>
+* <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm">What is an "API"?</a>
 * <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management">Why do you need "cookies" to continue your "session"?</a>
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/a-railsy-web-refresher#authorization">Explain the difference between "authentication" and "authorization".</a>
+* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/a-railsy-web-refresher#authorization">What is the difference between "authentication" and "authorization"?</a>
