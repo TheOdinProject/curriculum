@@ -65,7 +65,7 @@ end
 # ++++++++++++++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Asynchronous JavaScript and APIs'
-  section.description = 'Asynchronous JavaScript'
+  section.description = 'This section explores asynchronous JavaScript and event loops, and how it\'s useful in fetching data from web servers using APIs.'
   section.identifier_uuid = 'c26cc657-9d04-4d12-bc2e-1c8206696da7'
 
   section.add_lessons(
