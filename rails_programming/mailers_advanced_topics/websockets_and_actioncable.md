@@ -9,11 +9,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 * What is a WebSocket?
 * What kinds of problems can WebSockets help you solve?
-* What options did developers have before WebSockets to update a client without a user request?
-* How can you broadcast to a stream from the server?
-* Where do you authorize incoming connections?
-* What are ActionCable’s stream options?
-* What is the difference between `stream_from` and `stream_for`?
+* What is Action Cable?
 
 ### What is a WebSocket?
 
@@ -311,8 +307,6 @@ The connection only remains active while the http request remains unbroken. Refr
 
 ### Knowledge Checks
 
-* <a class='knowledge-check-link' href='#what-is-a-websocket'>What is a WebSocket?</a>
-* <a class='knowledge-check-link' href='#what-is-a-websocket'>What kinds of problems can WebSockets help you solve?</a>
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
 * <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>
 * <a class='knowledge-check-link' href='#connections'>Where do you authorize incoming connections?</a>
