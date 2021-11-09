@@ -36,6 +36,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What special kind of variable can be used on a server to store secrets?</a>
 - <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What are two widely used packages that can be used to store and import these variables?</a>
