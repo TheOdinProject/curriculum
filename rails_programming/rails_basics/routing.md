@@ -200,7 +200,7 @@ This section contains questions for you to check your understanding of this less
 
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router">What is the purpose of the Rails router?</a>
 * <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/routing#root">How do you assign the root of your application in the router?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">Assuming we have no knowledge of the HTTP-verb. Which 3 RESTful controller actions could be triggered by the `/posts/:id` -route?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">Assuming we have no knowledge of the HTTP-verb. Which 3 RESTful controller actions could be triggered by the `/photos/:id` -route?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#restricting-the-routes-created">How can you assign all 7 RESTful routes of a resource - minus the destroy-route - in just one line?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#path-and-url-helpers">How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/Q-BpqyOT3a8?t=886">Which Chrome extension can you use to simulate HTTP-requests with an API?</a>
