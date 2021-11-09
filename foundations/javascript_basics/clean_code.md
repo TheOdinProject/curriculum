@@ -101,6 +101,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a href="#writing-clean-code">Why is it important to write clean code?</a>
-- <a href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">Name 5 clean code principles previously mentioned</a>
-- <a href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">What is the difference between good comments and bad comments?</a>
+- <a class="knowledge-check-link" href="#writing-clean-code">Why is it important to write clean code?</a>
+- <a class="knowledge-check-link" href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">Name 5 clean code principles previously mentioned</a>
+- <a class="knowledge-check-link" href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">What is the difference between good comments and bad comments?</a>
