@@ -310,7 +310,7 @@ The connection only remains active while the http request remains unbroken. Refr
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
 * <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>
 * <a class='knowledge-check-link' href='#connections'>Where do you authorize incoming connections?</a>
-* <a class='knowledge-check-link' href='#streams'>What are ActionCable’s stream options?</a>
+* <a class='knowledge-check-link' href='#streams'>What are Action Cable’s stream options?</a>
 * <a class='knowledge-check-link' href='#streams'>What is the difference between `stream_from` and `stream_for`?</a>
 
 ### Conclusion
