@@ -183,7 +183,7 @@ def subscribed
 end
 ~~~
 
-<span id="when-to-use-stream-for">So you would reach for `stream_for`</span> when you have a specific model you want to use for the stream. To give an example imagine our chat room scenario. You may want to subscribe to the chatroom and broadcast when a message is created in that room. Using `stream_for` means we can let Rails do the heavy lifting of setting up the stream so we can broadcast using the room object (this will make sense in a moment when we look at the broadcast options).
+So you would reach for `stream_for` when you have a specific model you want to use for the stream. To give an example imagine our chat room scenario. You may want to subscribe to the chatroom and broadcast when a message is created in that room. Using `stream_for` means we can let Rails do the heavy lifting of setting up the stream so we can broadcast using the room object (this will make sense in a moment when we look at the broadcast options).
 
 You can also pass parameters from the client to the server and use those to generate a stream. We'll look at how to do that on the client side shortly. On the server side it's not that much different from how you'd handle it in a controller
 
@@ -286,7 +286,7 @@ We could then access the parameters in the RoomChannel on the server side as
 room = Room.find(params[:room])
 ~~~
 
-This allows you to set multiple streams to the same channel by providing different parameters.<span id="multiple-streams"> When might this be useful? </span>A couple of examples are registering to different chatrooms using the same channel object or how about subscribing to different notifications for different programming languages? They'd have to go through the same NotificationChannel but you would want to send relevant data only to those who subscribed to the relevant notification. Params are the way to do it.
+This allows you to set multiple streams to the same channel by providing different parameters. When might this be useful? A couple of examples are registering to different chatrooms using the same channel object or how about subscribing to different notifications for different programming languages? They'd have to go through the same NotificationChannel but you would want to send relevant data only to those who subscribed to the relevant notification. Params are the way to do it.
 
 The second argument is another object containing three pre-defined functions. `connected()` and `disconnected()` are called when the channel first connects and disconnects from the server. `received(data)` is where you'll spend most of your time focusing. This is called every time something is broadcast through the stream. What you do here will depend on your app but will usually involve appending something to the DOM, or alerting a user to a new message etc.
 
