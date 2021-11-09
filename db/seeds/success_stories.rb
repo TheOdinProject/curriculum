@@ -7,13 +7,6 @@ success_stories = [
     social_media_link: 'https://github.com/RobPando'
   },
   {
-    student_name: 'Olivia',
-    avatar_path_name: 'olivia.jpg',
-    story_content: 'Before I found TOP, I was jumping from course to course without really any guidance or community. I wanted to get a real development job and not operating an IT help desk, and I wanted to do it for free. After reading people’s success stories on Reddit on how they found a development job, many people praised the curriculum at TOP and how they got a job even before they finished it. I couldn’t believe it! So I decided to give it a shot. The self-paced structure, reading materials, and challenges was easy to understand and made me feel I was in control. I was even able to find a community to help guide and mentor me through the process. About eight months after I started, I got my first development gig - and I didn’t even finish the curriculum! Because of TOP, I can call myself a developer.',
-    job_title: 'Information Security Engineer',
-    social_media_link: 'https://codemethisolivia.com/',
-  },
-  {
     student_name: 'Cody Loyd',
     avatar_path_name: 'cody_loyd.jpg',
     story_content: 'Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front end web developer. Odin taught me all the most crucial skills in webdev and gave me an incredibly strong foundation for branching out and learning other pieces of the web-dev puzzle along the way.',
