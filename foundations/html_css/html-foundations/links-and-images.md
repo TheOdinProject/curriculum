@@ -20,19 +20,19 @@ To get some practice using links and images throughout this lesson we need an HT
 3. Fill in the usual HTML boilerplate.
 4. Finally, add the following h1 to the body:
 
-```html
+~~~html
 <h1>Homepage</h1>
-```
+~~~
 
 ### Anchor Elements
 
-To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a `<a>` tag.
+To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag.
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
-```html
+~~~html
 <a>click me</a>
-```
+~~~
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
@@ -40,9 +40,9 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
-```html
+~~~html
 <a href="https://www.theodinproject.com/about">click me</a>
-```
+~~~
 
 By default, the browser will give any text wrapped in an anchor tag a blue color and underline it to signify it is a link.
 
@@ -67,34 +67,34 @@ We've already seen an absolute link in action. The link we created to The Odin P
 
 Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
-Relative links only include the file path to the other page, _relative_ to the page you are creating the link on. This is quite abstract, let's see this in action using an example.
+Relative links only include the file path to the other page, *relative* to the page you are creating the link on. This is quite abstract, let's see this in action using an example.
 
 Within the `odin-links-and-images` directory, create another HTML file named `about.html` and paste the following code into it:
 
-```html
+~~~html
 <!DOCTYPE html>
 <html>
   <head>
     <title>Odin Links and Images</title>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
   </head>
 
   <body>
     <h1>About Page</h1>
   </body>
 </html>
-```
+~~~
 
 Back in the index page, add the following anchor element to create a link to the about page:
 
-```html
+~~~html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">click me</a>
+	<a href="https://www.theodinproject.com/about">click me</a>
 
-  <a href="about.html">About</a>
+	<a href="about.html">About</a>
 </body>
-```
+~~~
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
@@ -106,25 +106,26 @@ Create a directory named `pages` within the `odin-links-and-images` directory an
 
 Refresh the index page in the browser and then click on the about link. It will be now be broken. This is because the location of the about page file has changed.
 
-To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file _relative_ to the index file.
+To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
-```html
+~~~html
 <body>
   <h1>Homepage</h1>
   <a href="pages/about.html">About</a>
 </body>
-```
+~~~
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
 
 In many cases, this will work just fine. However, you can still run into unexpected issues with this approach. Prepending `./` before the link will in lots of cases do the trick. By adding  `./` you are specifying to your code that it should start at the `current` directory. 
 
-```html
+~~~html
 <body>
   <h1>Homepage</h1>
   <a href="./pages/about.html">About</a>
 </body>
-```
+~~~
+
 
 #### A Metaphor
 
@@ -157,28 +158,27 @@ To use images that we have on our own websites, we can use a relative path.
 
 Finally add the image to the `index.html` file:
 
-```html
+~~~html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">click me</a>
+	<a href="https://www.theodinproject.com/about">click me</a>
 
-  <a href="pages/about.html">About</a>
+	<a href="pages/about.html">About</a>
 
-  <img src="images/dog.jpg" />
+	<img src="images/dog.jpg">
 </body>
-```
+~~~
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent Directories
-
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
-```html
-<img src="../images/dog.jpg" />
-```
+~~~html
+<img src="../images/dog.jpg">
+~~~
 
 To break this down:
 
@@ -215,13 +215,11 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 </div>
 
 ### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
-
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>
