@@ -26,7 +26,7 @@ Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layo
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Try the interactive [Flexbox froggy](http://flexboxfroggy.com/) game.
 * This [MDN Flex article](https://developer.mozilla.org/en-US/docs/Web/CSS/flex), which shows examples of what you can achieve with Flexbox.

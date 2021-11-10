@@ -67,7 +67,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them, then you will be in _really_ good shape moving forward.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [What the Flexbox!?](https://flexbox.io/) is a great free video course from Wes Bos. If videos are your thing, this is a great resource for you. It's a good refresher if you're having a hard time getting this stuff to stick.
 * [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
@@ -77,6 +77,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the difference between `justify-content` and `align-items`?
-* How do you use flexbox to completely center a div inside a flex container?
-* What's the difference between `justify-content: space-between` and `justify-content: space-around`?
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">What is the difference between `justify-content` and `align-items`?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">How do you use flexbox to completely center a div inside a flex container?</a>
+* <a class="knowledge-check-link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">What's the difference between `justify-content: space-between` and `justify-content: space-around`?</a>

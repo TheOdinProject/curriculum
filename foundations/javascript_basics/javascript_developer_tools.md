@@ -52,7 +52,7 @@ Google has updated some of the required sections in the below tutorials and some
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 1. Learn the new Firefox Dev Tools in this [Video](https://youtu.be/yznVkCuohGg) by Wes Bos
@@ -60,7 +60,7 @@ This section contains helpful links to other content. It isn’t required, so co
 ### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a href="#opening-dev-tools"> How do you open developer tools? </a>
-- <a href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you change screen size of a website using developer tools?</a>
-- <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
-- <a href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>
+- <a class="knowledge-check-link" href="#opening-dev-tools"> How do you open developer tools? </a>
+- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you change screen size of a website using developer tools?</a>
+- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
+- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>

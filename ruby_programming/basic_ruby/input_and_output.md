@@ -89,8 +89,8 @@ This is a sentence.
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the two methods we can use to output data to the user's screen?
-* What is similar between these two output methods?
-* What is different between these two output methods?
-* What is the method you can use to get input from the user?
-* What is at least one difference between the output and input methods?
+* <a class="knowledge-check-link" href="#output-commands">What are the two methods we can use to output data to the user's screen? </a>
+* <a class="knowledge-check-link" href="#output-commands">What is similar between these two output methods? </a>
+* <a class="knowledge-check-link" href="#output-commands">What is different between these two output methods? </a>
+* <a class="knowledge-check-link" href="#input-commands">What is the method you can use to get input from the user? </a>
+* <a class="knowledge-check-link" href="#input-commands">What is at least one difference between the output and input methods? </a>
