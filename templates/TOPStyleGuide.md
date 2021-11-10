@@ -25,6 +25,8 @@ TOP uses Markdown for its lessons to be easily read and edited, and get properly
     1.  [Codeblocks](#codeblocks)
     1.  [Declare the language](#declare-the-language)
     1.  [Nest codeblocks within lists](#nest-codeblocks-within-lists)
+1.  [Links](#links)
+1.  [Images](#images)
 
 
 ## Lesson Layout
@@ -262,3 +264,28 @@ the list:
 
 *   Next bullet.
 ~~~
+
+## Links
+
+Long links make source Markdown difficult to read and break the 80 character wrapping. **Wherever possible, shorten your links**.
+
+### Use informative Markdown link titles
+
+Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
+
+Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
+
+~~~markdown
+See the [lesson guide](lesson.md) to see an example of the layout used for lessons.
+Or, check out the [project guide](project.md) for an example of the layout used for projects.
+~~~
+
+## Images
+
+Images in Markdown follow the same syntax as links, except they begin with `!`:
+
+~~~markdown
+![Odin Logo](/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg)
+~~~
+
+The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative.
