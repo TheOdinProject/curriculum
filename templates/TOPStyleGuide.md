@@ -4,10 +4,11 @@
 
 TOP uses Markdown for its lessons to be easily read and edited, and get properly formatted HTML for the TOP website. 
 
-**The two goals of this style guide are to help create:**
+**The goals of this style guide are to help create Markdown that is:**
 
-*   Simple Markdown for readability and editability.   
-*   Consist Markdown for consistency on the TOP site and to guide in the creation of new content.
+*   Readable for as many users as possible.
+*   Editable by any contributor.
+*   Consistent across the TOP website.
 
 **Contents:**
 
@@ -81,6 +82,7 @@ Should repeat learning outcomes with answers.
 
 </details>
 ~~~
+
 ## Project Layout
 
 ~~~markdown
@@ -116,11 +118,11 @@ Submit a solution with a pull request to this...
 
 ### ATX-style headings
 
+Use Heading 3 `###` and Title Case for section titles:
+
 ~~~markdown
 ### Section Header
 ~~~
-
-Use Heading 3 for section titles with Title Case
 
 ### Add spacing to headings
 
@@ -136,7 +138,7 @@ Text after...
 
 ### Sub-Headers
 
-Use `####` for sub-headers that are on their own line and `**Sub-header**` for inline.
+Use Heading 4 `####` for sub-headers that are on their own line and `**Sub-header**` for inline:
 
 ~~~markdown
 ...text before.
@@ -145,9 +147,8 @@ Use `####` for sub-headers that are on their own line and `**Sub-header**` for i
 
 Text after...
 
-**Sub-header:** Some text defining this sub-header...
+**Inline Sub-header:** Some text defining this sub-header...
 ~~~
-
 
 ## Lists
 
@@ -193,7 +194,7 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
 
 ### Mulit-line list items
 
-When list items, wrap into multiple lines consider adding newlines per item 
+When list items wrap into multiple lines, consider adding newlines per item 
 to make it more readable:
 
 ~~~markdown
@@ -206,7 +207,7 @@ to make it more readable:
 
 ~~~
 
-This will add a paragraph tag to your list item `<li><p></p></li>`
+This will add a paragraph tag to your list item: `<li><p></p></li>`
 
 ## Code
 
@@ -243,7 +244,7 @@ const obj = {
 
 #### Declare the language
 
-It is best practice to explicitly declare the language, so that neither the
+It is best practice to explicitly declare the language immediately after the opening tilde marks, so that neither the
 syntax highlighter nor the next editor must guess.
 
 
