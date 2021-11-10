@@ -129,7 +129,7 @@ Websites would be fairly boring if they could only display text. Luckily HTML pr
 
 To create an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag.
 
-Instead of wrapping content with an open and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
+Instead of wrapping content with an open and closing tag, it embeds an image into the page using a src (short for source) attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
