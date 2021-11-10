@@ -328,8 +328,9 @@ nested_array.select {|a, b| if a + b > 10 }
 # => [5, 6]
 ~~~
 
-As you can see, `#select` has two arguments specified `|a, b|` but we pass it a single nested array which is only one argument, what happens is that the block automatically deconstructs the nested arrays passed into it and then compares their value to return us the answer.
-This happens because the block `{|a, b| if a + b > 10 }` is a proc. This property is not limited only to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
+As you can see, `#select` has two arguments specified `|a, b|`, on each iteration we pass a single element of nested_array into the block. On the first iteration this is: `[1, 2]`, this array now, is deconstructed automatically (into a = 1, b = 2) and its values compared as specified. So on to the next rounds of iteration in which we pass `[3,4]`, `[7, 8]`, and `[5, 6]` one by one.
+This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lamda proc.
+This property is not limited to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
 You can read more about this here: [documentation](https://ruby-doc.org/core-2.7.2/Proc.html)
 
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
