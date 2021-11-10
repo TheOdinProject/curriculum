@@ -64,8 +64,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is a class?</a>
-- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">When should you use a class?</a>
+- <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects">What is a class?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What are getters and setters?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is inheritance?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">What is a scope?</a>
