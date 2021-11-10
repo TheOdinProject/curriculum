@@ -323,7 +323,7 @@ which is also why this is possible:
 
 ~~~ruby
 nested_array = [[1, 2], [3, 4], [5, 6]]
-nested_array.select {|a, b| if a + b > 10 }
+nested_array.select {|a, b| a + b > 10 }
 
 # => [5, 6]
 ~~~
