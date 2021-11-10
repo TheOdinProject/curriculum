@@ -5,7 +5,6 @@ When you think about a typical interaction between a client and website, a brows
 There are often times where you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have WebSockets and Action Cable brings WebSockets to Rails in an easy to use way.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment.
 
 * What is a WebSocket?
 * What kinds of problems can WebSockets help you solve?
