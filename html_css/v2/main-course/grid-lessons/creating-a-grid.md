@@ -19,16 +19,11 @@ This lesson will show you how easy it is to make a grid layout without much work
 
 We can think about CSS Grid in terms of a container and items. Simply put, when you make an element a grid container, it will “contain” the whole grid. In CSS, an element is turned into a grid container with the property `display: grid` or `display: inline-grid`.
 
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWodzag" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWodzag" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/MWodzag">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 In this example, the parent element marked `class="container"` becomes a grid container and each of the direct child elements below it automatically become grid items. What’s easy about CSS Grid is that you don’t have to assign each child element a property.
@@ -64,34 +59,20 @@ The properties `grid-template-columns` and `grid-template-rows` make defining co
 
 Going back to our grid container from above, let’s define two columns and two rows to place our four grid items:
 
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdwYQLG" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="mdwYQLG" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/mdwYQLG">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 If we want to add more columns or rows to our grid, we can simply define these values to make another track. Let's say we wanted to add a third column to our example: 
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="dyRBywm" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 50px 50px;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="dyRBywm" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/dyRBywm">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 CSS Grid also includes a shorthand property for defining rows and columns. In our previous example we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
@@ -107,36 +88,22 @@ CSS Grid also includes a shorthand property for defining rows and columns. In ou
 
 Columns and rows don’t have to share all the same values either. Let’s change the property values of our columns so that the first column is five times as wide as the others:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="eYRaQLd" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template: 50px 50px / 250px 50px 50px;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="eYRaQLd" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/eYRaQLd">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Explicit vs Implicit Grid
 
 Let's go back to our original example of a simple 2x2 layout for four grid items. What happens if we add a fifth item to our container without changing our `grid-template-columns` or `grid-template-rows` properties?
 
-<div class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGRyQQX" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-  &lt;div>Item 5&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGRyQQX" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/bGRyQQX">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 You’ll notice our fifth item was placed on the grid and it’s been slotted into a third row we did not define. This is because of the implicit grid concept and it’s how CSS Grid is able to automatically place grid items when we haven’t explicitly defined the layout for them.
@@ -166,65 +133,29 @@ The gap between grid rows and columns is known as the gutter or alley. Gap sizes
 
 Before adding our grid gap properties let’s make things a little easier to see without relying on developer tools. We’ll go ahead and add a simple border around our grid items so we can get a better sense of their placement around each other:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="zYzQMbz" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
-}
-
-.container > div {
-  border: 1px solid blue;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="zYzQMbz" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/zYzQMbz">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Next we’ll use a slight grid column gap to space out our two columns a bit:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="gORJQyE" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
-  column-gap: 10px;
-}
-
-.container > div {
-  border: 1px solid blue;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="gORJQyE" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/gORJQyE">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Finally we’ll add a lot of gap to our rows to highlight the difference:
 
-<div class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="wvebQLw" data-editable="true" data-user="dm-murphy"  data-prefill='{"tags":[],"scripts":[],"stylesheets":[]}'>
-  <pre data-lang="html">&lt;div class="container">
-  &lt;div>Item 1&lt;/div>
-  &lt;div>Item 2&lt;/div>
-  &lt;div>Item 3&lt;/div>
-  &lt;div>Item 4&lt;/div>
-&lt;/div></pre>
-  <pre data-lang="css">.container {
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
-  column-gap: 10px;
-  row-gap: 100px;
-}
-
-.container > div {
-  border: 1px solid blue;
-}</pre></div>
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="wvebQLw" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/wvebQLw">
+  Untitled</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 If we wanted the columns and rows to share the same gap value we could replace the `column-gap` and `row-gap` properties with something like `gap: 25px;`.
