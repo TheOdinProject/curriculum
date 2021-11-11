@@ -93,30 +93,39 @@ This section contains helpful links to related content. It isn’t required, so 
 
 ### Introduction 
 
-A brief introduction to the project and an over view of what the student will be building.
+A brief introduction.
+
+### Pre-Assignment Section Heading
+
+Pre-assignment section content.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Describe the requirements or users stories for the project in detail.
+
+1.  A requirement/user story.
+
+#### Extra Credit
+
+1.  An optional add-on/user story.
+
 </div>
 
-### Helpful Links
+### Post-Assignment Section Heading
 
-Links that may help with the project if any
-
-### Student Solutions
-
-Submit a solution with a pull request to this...
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-  *   Add your solution below this line!
-
-</details>
+Post-assignment section content.
 
 ~~~
+
+1. `### Introduction`: A brief summary on what the project is and an over view of what the user will be building. Replace the `A brief introduction.` text with your own project introduction.
+
+2. `### Pre-Assignment Section Heading`: *Optional*. A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `Pre-Assignment Section Heading` text with a proper section heading and the `Pre-assignment section content.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
+
+4.  `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A requirement/user story.` with your own requirement, then add any additional requirement items.
+
+5. `#### Extra Credit`: A numbered list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `An optional add-on/user story.` text with your own add-on, then add any additional optional add-ons. **If the project does not have any extra credit, remove the extra credit section from the assignment.**
+
+2. `### Post-Assignment Section Heading`: *Optional*. A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `Post-Assignment Section Heading` text with a proper section heading and the `Post-assignment section content.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
 
 ## Headings
 
