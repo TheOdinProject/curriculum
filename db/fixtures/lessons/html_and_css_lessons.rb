@@ -217,6 +217,7 @@ def html_and_css_lessons
       url: '/html_css/conclusion.md',
       identifier_uuid: '58c50ae7-76a9-443d-b6df-227ec3e8b11b',
     },
+    # Accessibility section
     'Introduction to Web Accessibility' => {
       title: 'Introduction to Web Accessibility',
       description: 'Learn what accessibility means to you as a web developer',
@@ -272,6 +273,186 @@ def html_and_css_lessons
       is_project: false,
       url: '/html_css/accessibility_auditing.md',
       identifier_uuid: 'ccb3b2ef-d54c-4836-9c94-6081458bf37c',
+    },
+    # Intermediate HTML
+    'Emmet' => {
+      title: 'Emmet',
+      description: 'Emmet is a useful tool for helping create and manipulate HTMl and CSS',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_html/emmet.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    # Intermediate CSS
+    'Default Styles' => {
+      title: 'Default Styles',
+      description: 'Learn about how browsers style your HTML.',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/default-styles.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'CSS Units' => {
+      title: 'CSS Units',
+      description: 'Check out the various units you can use in your stylesheets',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/css-units.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'More Text Styles' => {
+      title: 'More Text Styles',
+      description: 'Here we cover some more properties you can use to style text on your websites.',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/more-text-styles.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'More CSS Properties' => {
+      title: 'More CSS Properties',
+      description: 'CSS can do quite a lot! Here we cover some more properties you can use to make your sites pop!',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/enhancing-design-with-css.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Advanced Selectors' => {
+      title: 'Advanced Selectors',
+      description: 'You can do a lot more than just target specific classes and ids in your CSS...',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/selectors.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Positioning' => {
+      title: 'Positioning',
+      description: 'Learn some new methods for moving items around on a webpage.',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/positioning.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'CSS Functions' => {
+      title: 'CSS Functions',
+      description: 'Learn the function syntax, and some useful ways you can do calculations in CSS.',
+      is_project: false,
+      url: 'TODO: add file',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Custom Properties' => {
+      title: 'Custom Properties',
+      description: 'Learn how to use Variables in your CSS to avoid repeating common values like colors, and keep your styles consistent',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/custom-properties.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Browser Compatibility' => {
+      title: 'Browser Compatibility',
+      description: 'Brand new CSS features take a little time to make it into browsers. Learn how to know which features you can safely use in your projects.',
+      is_project: false,
+      url: 'TODO: add file',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Frameworks and Preprocessors' => {
+      title: 'Frameworks and Preprocessors',
+      description: 'Frameworks and Preprocessors are useful tools that you may want to investigate.',
+      is_project: false,
+      url: '/html_css/v2/main-course/intermediate_css/frameworks-preprocessors.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Project: Sign-up Form' => {
+      title: 'Project: Sign-up Form',
+      description: 'Learn about how browsers style your HTML.',
+      is_project: true,
+      url: '/html_css/v2/main-course/project-sign-up-form/project-sign-up-form.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    # Animation
+    'Transforms' => {
+      title: 'Transforms',
+      description: 'Before we get into animations, we need to learn about manipulating elements with CSS transforms.',
+      is_project: false,
+      url: '/html_css/v2/main-course/animation/transforms.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Transitions' => {
+      title: 'Transitions',
+      description: 'Our first kind of animation code is the transition',
+      is_project: false,
+      url: '/html_css/v2/main-course/animation/transitions.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Keyframes' => {
+      title: 'Keyframes',
+      description: 'More flexible than transitions are Keyframes',
+      is_project: false,
+      url: '/html_css/v2/main-course/animation/keyframes.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    #Grid
+    'Introduction to Grid' => {
+      title: 'Introduction to Grid',
+      description: "Introduction to CSS Grid",
+      is_project: false,
+      url: '/html_css/v2/main-course/grid-lessons/intro-to-grid.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Creating a Grid' => {
+      title: 'Creating a Grid',
+      description: "Let's get started by creating a Grid.",
+      is_project: false,
+      url: '/html_css/v2/main-course/grid-lessons/creating-a-grid.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Positioning Grid Elements' => {
+      title: 'Positioning Grid Elements',
+      description: "Learn how to manipulate elements within a grid.",
+      is_project: false,
+      url: 'TODO: insert URL',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Advanced Grid Properties' => {
+      title: 'Advanced Grid Properties',
+      description: "Learn some of the more useful, but advanced grid properties.",
+      is_project: false,
+      url: '/html_css/v2/main-course/grid-lessons/advanced-grid-properties.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Project: Grid' => {
+      title: 'Project: Grid',
+      description: "Use what you've learned to Complete this project",
+      is_project: true,
+      url: 'TODO: insert URL',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Grid vs. Flex' => {
+      title: 'Project: Grid',
+      description: "Finish our study of Grid by comparing it to Flexbox",
+      is_project: false,
+      url: 'TODO: insert URL',
+      identifier_uuid: 'UUID_HERE'
+    },
+    # Responsive Design
+    'Introduction to Responsive Design' => {
+      title: 'Introduction to Responsive Design',
+      description: "Learn what responsive design is, and why it's important",
+      is_project: false,
+      url: '/html_css/v2/main-course/responsive-css/responsive-css-introduction.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Natural Responsiveness' => {
+      title: 'Natural Responsiveness',
+      description: "Learn the importance of making your sites naturally responsive.",
+      is_project: false,
+      url: '/html_css/v2/main-course/responsive-css/natural-responsiveness.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Responsive Images' => {
+      title: 'Responsive Images',
+      description: "Some tricks relating specifically to making Images responsive.",
+      is_project: false,
+      url: '/html_css/v2/main-course/responsive-css/responsive-images.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Media Queries' => {
+      title: 'Media Queries',
+      description: "Finally, let's learn about media queries so you can change the layout of your site based on the size of the browser window.",
+      is_project: false,
+      url: '/html_css/v2/main-course/responsive-css/media-queries.md',
+      identifier_uuid: 'UUID_HERE'
     },
   }
 end
