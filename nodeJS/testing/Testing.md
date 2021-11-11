@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to do or answer the following:
 - Use the `supertest` module to test Express routes/controllers.
 - Describe how supertest handles our express application.
 - Explain the functionality `superagent` provides to supertest.
-- What is the purpose of `done`? What convenience does supertest provide concerning it?
+- Test asynchronous operations with use of the `done` parameter and supertest's methods.
 - Explain and have a firm understanding of `.expect()` method's functionality.
 - Have familiarity with `supertest`'s documentation and methods.
 
@@ -155,7 +155,6 @@ If we were using a real database here, then we would want to do something simila
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#about'>What is the motivation behind SuperTest?</a>
-- <a class='knowledge-check-link' href='#done'>What is done parameter, where does it come from and how can it be used with SuperTest's .expect() method?</a>
+- <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does supertest provide concerning it?</a>
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjuction with .expect() provided by SuperTest?</a>
 - <a class='knowledge-check-link' href='https://visionmedia.github.io/superagent#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>
-
