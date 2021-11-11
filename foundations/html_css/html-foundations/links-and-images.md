@@ -117,7 +117,7 @@ To fix this, we just need to update the about link href value to include the `pa
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
 
-In many cases, this will work just fine. However, you can still run into unexpected issues with this approach. Prepending `./` before the link will in lots of cases do the trick. By adding  `./` you are specifying to your code that it should start at the `current` directory. 
+In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory. 
 
 ~~~html
 <body>
