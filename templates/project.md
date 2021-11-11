@@ -1,27 +1,23 @@
-# Project Title
-
 ### Introduction 
 
-A brief introduction to the project and an over view of what the student will be building.
+A brief introduction.
+
+### Pre-Assignment Section Heading
+
+Pre-assignment section content.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Describe the requirements or users stories for the project in detail.
+
+1.  A requirement/user story.
+
+#### Extra Credit
+
+1.  An optional add-on/user story.
+
 </div>
 
-### Helpful Links
+### Post-Assignment Section Heading
 
-Links that may help with the project if any
-
-### Student Solutions
-
-Submit a solution with a pull request to this...
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-  * Add your solution below this line!
-  * [Solution Title](https://somelinkToSolution)
-
-</details>
+Post-assignment section content.
