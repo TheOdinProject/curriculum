@@ -134,7 +134,7 @@ Post-assignment section content.
 Use Heading 3 `###` and Title Case for section titles:
 
 ~~~markdown
-### Section Header
+### Section Heading
 ~~~
 
 ### Add spacing to headings
@@ -144,23 +144,23 @@ Prefer spacing after `###` and newlines before and after:
 ~~~markdown
 ...text before.
 
-### Section Header
+### Section Heading
 
 Text after...
 ~~~
 
-### Sub-Headers
+### Sub-Heading
 
-Use Heading 4 `####` for sub-headers that are on their own line and `**Sub-header**` for inline:
+Use Heading 4 `####` for sub-headings that are on their own line and `**Sub-heading**` for inline:
 
 ~~~markdown
 ...text before.
 
-#### Sub Header
+#### Sub Heading
 
 Text after...
 
-**Inline Sub-header:** Some text defining this sub-header...
+**Inline Sub-heading:** Some text defining this sub-heading...
 ~~~
 
 ## Lists
