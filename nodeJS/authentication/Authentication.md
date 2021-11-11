@@ -335,15 +335,6 @@ bcrypt.compare(password, user.password, (err, res) => {
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
 
-### Knowledge Checks 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>
-- <a class='knowledge-check-link' href='#cookie'>Why does passportJS create a cookie?</a>
-- <a class='knowledge-check-link' href='#compare'>What does the `bcrypt.compare()` function do?</a>
-- <a class='knowledge-check-link' href='#bcrypt'>Why should we include bcrypt when we begin a project?</a>
-
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
@@ -352,3 +343,12 @@ This section contains helpful links to other content. It isn't required, so cons
 - If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK) by the same author who wrote the article above. You just need to watch the first 6 videos.
 
 - [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them. 
+
+
+### Knowledge Checks 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>
+- <a class='knowledge-check-link' href='#cookie'>Why does passportJS create a cookie?</a>
+- <a class='knowledge-check-link' href='#compare'>What does the `bcrypt.compare()` function do?</a>
+- <a class='knowledge-check-link' href='#bcrypt'>Why should we include bcrypt when we begin a project?</a>

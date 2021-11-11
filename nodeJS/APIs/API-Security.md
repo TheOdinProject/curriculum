@@ -26,16 +26,16 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 </div>
 
 
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- [This article](https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/) goes even further in depth than the one that we posted above. It provides a little greater understanding but is harder to follow.
+- [This article](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c) covers the same thing as the above one, but is a little more concise.  Might be a good reference for when you're setting this up on your own later.
+
+
 ### Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8'>What is a JSON web token?</a>
 - <a class='knowledge-check-link' href='#secure-token'>What are two things a secure token will do?</a>
 - <a class='knowledge-check-link' href='#pass-token'>Where in the code is a secure token passed?</a>
-
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- [This article](https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/) goes even further in depth than the one that we posted above. It provides a little greater understanding but is harder to follow.
-- [This article](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c) covers the same thing as the above one, but is a little more concise.  Might be a good reference for when you're setting this up on your own later.
