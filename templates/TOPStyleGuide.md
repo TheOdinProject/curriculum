@@ -287,16 +287,18 @@ Markdown link syntax allows you to set a link title, just as HTML does. Use it w
 Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
 
 ~~~markdown
-See the [lesson guide](lesson.md) to see an example of the layout used for lessons.
-Or, check out the [project guide](project.md) for an example of the layout used for projects.
+See the [lesson template](lesson.md) for a more easily copyable lesson file.
+Or, check out the [project template](project.md) for a more easily copyable project file.
 ~~~
 
 ## Images
 
-Images in Markdown follow the same syntax as links, except they begin with `!`:
+Images in Markdown follow the same syntax as links, except they begin with an exclamation point `!`:
 
 ~~~markdown
-![Odin Logo](/assets/odin-logo-bd86cf893a3de1f1daceabc1377f58669776616a91ab70c601fd5c16a4686468.svg)
+![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/10.png)
 ~~~
 
-The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative.
+The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative, but shouldn't be overly verbose.
+
+In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page.
