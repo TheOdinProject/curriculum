@@ -43,6 +43,8 @@ A brief introduction.
 
 ### Learning Outcomes
 
+This section contains a general overview of topics that you will learn in this lesson.
+
 *   A learning outcome.
 
 ### Custom Section Heading
