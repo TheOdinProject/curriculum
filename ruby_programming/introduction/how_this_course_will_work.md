@@ -39,5 +39,6 @@ Consider the resources here optional, though we recommend them to help supplemen
 
 1. [The Codecademy Ruby course](https://www.codecademy.com/learn/learn-ruby) covers Ruby basics and OOP basics.
 2. [Chris Pine's Learn to Program book](https://pine.fm/LearnToProgram/) covers Ruby basics along with plenty of exercises.
+3. [why's (poignant) Guide to Ruby](http://poignant.guide/) covers Ruby basics using humor and narrative sidetracks.
 
 ### Okay, enough talk. Let's learn Ruby!

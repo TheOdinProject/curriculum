@@ -2,6 +2,18 @@
 
 To really understand how Rails works, you need to have a solid base in the guts of the web.  You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+* Explain the basics of HTTP.
+* Identify the 4 most commonly used HTTP verbs.
+* Identify the 7 RESTful routes of Rails.
+* Name the different components of a URL.
+* Explain the basics of MVC.
+* Describe what an API is.
+* Explain what "cookies" and "sessions" are.
+* Describe the difference between "authentication" and "authorization".
+
 ### HTTP
 
 HTTP is just a way of structuring the request-and-response conversation between your browser and the server.  Actually, it's not even a conversation since it is stateless... it's more of an "ask and receive".  The protocol outlines how that brief piece of dialogue should occur.
@@ -132,3 +144,15 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
 * [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">What do you call an HTTP message that goes from client to server?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">What do you call an HTTP message that goes from server to client?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">Which HTTP message would include a status code and which would include an action verb?</a>
+* <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/">What is the name of the additional information that is added after the path of a URL?</a>
+* <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/">What does MVC stand for?</a>
+* <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm">What is an "API"?</a>
+* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management">Why do you need "cookies" to continue your "session"?</a>
+* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/a-railsy-web-refresher#authorization">What is the difference between "authentication" and "authorization"?</a>
