@@ -26,7 +26,7 @@ Why do we even need or want this stuff? What do you gain from all of this added 
 
 ### npm
 
-The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you installed the Jest testing framework to do our exercises.
+The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you [installed the Jest testing framework](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to do our exercises.
 
 Read through the npm links below but don't worry about running any of the commands on your computer. This section is about growing your awareness of npm. You will have an opportunity to use what you learn here in upcoming projects.
 
