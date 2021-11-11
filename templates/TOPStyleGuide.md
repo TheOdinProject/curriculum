@@ -2,7 +2,7 @@
 
 [Inspired by google's styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)
 
-TOP uses Markdown for its lessons to be easily read and edited, and get properly formatted HTML for the TOP website. 
+TOP uses Markdown for its lessons and projects to be easily read and edited, and get properly formatted HTML for the TOP website. 
 
 **The goals of this style guide are to help create Markdown that is:**
 
@@ -29,63 +29,65 @@ TOP uses Markdown for its lessons to be easily read and edited, and get properly
 1.  [Images](#images)
 
 
-## Lesson Layout
+## Layouts
+
+In general, the following layouts should be used for all lessons and projects.
+
+### Lesson Layout
 
 ~~~markdown
 
 ### Introduction
 
-A brief summary about what this lesson is about and why the topics or concepts it covers are important.
+A brief introduction.
 
 ### Learning Outcomes
 
-*Look through these now and then use them to test yourself after doing the assignment*
+*   A learning outcome.
 
-what the student is expected to know or be able to do by the end of this lesson
+### Custom Section Heading
 
-*   Learning outcome 1
-*   Learning outcome 2
-*   Learning outcome 3
+Custom section content.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-The list of resources the user will go through to learn about the topic of this lesson. Have no more than 5 resources, ideally no more than three.
+1. A resource/task.
 </div>
-
-### Exercises
-
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson. 
-
-### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-Link to no more than three additional resources to avoid this section becoming too cluttered.
 
 ### Knowledge Check
 
-*This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-Should repeat learning outcomes with answers.
+*   <a class="knowledge-check-link" href="A knowledge check URL">A knowledge check question.</a>
 
-<details markdown="block">
-  <summary>Learning outcome 1.</summary>
-  
-  *   Learning outcome 1 answer
-  *   Learning outcome 1 answer
+### Additional Resources
 
-</details>
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-<details markdown="block">
-  <summary>Learning outcome 2.</summary>
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to the TOP curriculum.
 
-  *   Learning outcome 2 answer
-
-</details>
 ~~~
 
-## Project Layout
+1. `### Introduction`: A brief summary about what the lesson is about and why the topics or concepts it covers are important. Replace the `A brief introduction.` text with your own lesson introduction.
+
+2. `### Learning Outcomes`: A bulleted list of items that provide a general overview of what the student is expected to know or be able to do by the end of the lesson. Replace the `A learning outcome.` text with your own learning outcome, then add any additional bulleted learning outcome items. The lesson should ideally have no more than 7 learning outcomes, but this number might vary by lesson. **If the lesson does not have any learning outcomes, remove this entire section from the lesson.**
+
+3. `### Custom Section Heading`: A custom section that contains the main content of the lesson. Replace the `Custom Section Heading` text with a proper section heading and the `Custom section content.` text with your own content, then add any additional custom sections.
+
+4. `### Assignment`: A numbered list of external resources the user must read or tasks they must accomplish in order to complete the lesson. Each resource/task should include some brief text that better informs the user on why it is included in the assignment or what purpose it serves, as well as any additional instructions (e.g. what sections to read in an external resource or which exercises to complete). 
+
+    Replace the `A resource/task.` text with your own resource or task, then add any additional numbered assignment items. The assignment should ideally have no more than 3-5 resources and/or tasks. **If the lesson does not have an assignment, remove this entire section from the lesson.**
+
+5. `### Knowledge Checks`: A bulleted list of specific questions that a user should be able to answer by themselves after reading the lesson and completing the assignment. Each knowledge check should link either to a Heading 3 `###` section within the lesson or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check. 
+
+    Replace the `A knowledge check URL` text with the actual link to the section/resource and the `A knowledge check question.` text with your own question/problem that the user should be able to solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson **If the lesson does not have any knowledge checks, remove this entire section from the lesson.**
+
+    In order to link to a Heading 3 `###` section within the lesson, replace the `href` attribute for the knowledge check link with a `#` followed immediately by the section title in lowercase, with any spaces replaced with hyphens `-`. For example, the section `### Creating a Method` would be linked to with `href="#creating-a-method"`.
+
+6. `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of said content. **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the "It looks like this lesson doesn't have any additional resources yet..." text with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources. 
+
+### Project Layout
 
 ~~~markdown
 
