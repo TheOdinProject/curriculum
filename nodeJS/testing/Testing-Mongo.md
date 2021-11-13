@@ -72,3 +72,10 @@ Now, if your tests are set up similarly to the tests in our last project, you ca
 Since you are starting your tests with a fresh database it will probably be useful for you to use a `beforeAll` function in your testing suite to add a couple of items to the database before running tests.
 
 This is also not the only way to set up a testing environment! If you are using nconf, or command-line arguments or anything else to set up your development and production environments, you could easily add a `testing` environment that uses this `mongodb-memory-server`. The [Jest Docs](https://jestjs.io/docs/en/mongodb) demonstrate an alternative (but similar) setup to the simple one we have here. The common element here is that no matter how you accomplish it, our goal is to use this alternative DB when running our tests.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#but-do-you-even-need-to-test-that">What is the purpose of using a separate database for testing?</a>
+- <a class="knowledge-check-link" href="#mongodb-memory-server">How would you create and setup a testing database using the npm package `mongodb-memory-server`?</a>
+- <a class="knowledge-check-link" href="https://jestjs.io/docs/en/mongodb">What is an alternative method of database setup for your testing environment?</a>
