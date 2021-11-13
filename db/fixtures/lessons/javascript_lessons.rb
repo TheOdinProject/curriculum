@@ -177,7 +177,7 @@ def javascript_lessons
       is_project: true,
       url: '/javascript/testing/testing-practice.md',
       accepts_submission: true,
-      has_live_preview: true,
+      has_live_preview: false,
       identifier_uuid: '319ce38c-f68b-4bba-b9f7-25df452f0523',
     },
     'More Testing' => {
