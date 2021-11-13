@@ -124,6 +124,8 @@ Now let's make some cool animations! Go to the [CSS exercises repository](https:
 3. pop-up
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">What are the long and short-hand notations for CSS animations?</a>
 

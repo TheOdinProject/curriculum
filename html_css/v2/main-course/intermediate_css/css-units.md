@@ -37,6 +37,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * []()
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * Why would you want to use `em` or `rem` for font-size instead of `px`?
 * What are some instances where you might want to use `vh` and `vw`
 * What are some instances where you might want to use `px` instead of a relative unit?

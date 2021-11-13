@@ -46,6 +46,8 @@ Throughout this lesson we have linked primarily to the MDN docs for each propert
 * [W3 Schools](https://www.w3schools.com/cssref/) is another fine resource. We (the Odin authors) tend to prefer MDN, but there is nothing wrong with W3.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * Which property would you use to make an element transparent?
 * Which property would you use to make a background image tile?
 * Which property would you use to add scrollbars to an element?

@@ -83,6 +83,7 @@ This section contains helpful links to other content. It isn't required, so cons
 4. [This tutorial](https://scotch.io/tutorials/javascript-promises-for-dummies) is another good introduction.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
  - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function">What is a callback?</a>
  - <a class="knowledge-check-link" href="#promises">What is a promise?</a>
