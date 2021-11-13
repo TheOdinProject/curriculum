@@ -42,3 +42,20 @@ This section contains helpful links to other content. It isn't required, so cons
 * Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
 * Read [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
 * Watch [Using Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.
+
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class='knowledge-check-link' href=''>How do you amend a commit message that you just messed up?</a>
+* <a class='knowledge-check-link' href=''>How do you view the history of your most recent commits?</a> 
+* <a class='knowledge-check-link' href=''>What are two different uses for `$ git checkout`?</a> 
+* <a class='knowledge-check-link' href=''>How do you undo a recent commit?</a> 
+* <a class='knowledge-check-link' href=''>What are branches?</a> 
+* <a class='knowledge-check-link' href=''>How do you create a new branch to work on?</a> 
+* <a class='knowledge-check-link' href=''>How do you push that (non-main) branch up to GitHub?</a> 
+* <a class='knowledge-check-link' href=''>How do you merge the changes from your new branch into the main branch again?</a> 
+* <a class='knowledge-check-link' href=''>Why is working with feature branches useful?</a>
+* <a class='knowledge-check-link' href=''>What is the difference between using `$ git merge` and `$ git rebase`? (hint: history)</a>
+* <a class='knowledge-check-link' href=''>What is the difference between a "remote" and your local repo?</a>
+* <a class='knowledge-check-link' href=''>How do you add your GitHub repo as the remote?</a>
