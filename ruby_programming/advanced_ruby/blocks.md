@@ -4,7 +4,7 @@ You are already familiar with Ruby blocks from the [Basic Enumerable Methods](ht
 
 A very quick recap of the basics that you should already be familiar with...
 
-A block can be declared as a single-line or multi-line block. Ruby convention is to use `{}` for single-line blocks and `do..end` for multi-line blocks. You can pass parameters to a block by defining them inside pipes, i.e. `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
+<span id="block-basics">A block can be declared as a single-line or multi-line block. Ruby convention is to use `{}` for single-line blocks and `do..end` for multi-line blocks. You can pass parameters to a block by defining them inside pipes, i.e. `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.</span>
 
 ~~~ruby
 # Single-line block
@@ -69,7 +69,7 @@ double_vision { puts "How many fingers am I holding up?" }
 
 Millennial avocados, Batman. That's cool.
 
-We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to `yield`, and they'll be passed to the block as parameters. If you call `yield` more than once, you can pass a different argument each time if you wanted to.
+<span id="pass-arguments">We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to `yield`, and they'll be passed to the block as parameters. If you call `yield` more than once, you can pass a different argument each time if you wanted to.</span>
 
 ~~~ruby
 def love_language
@@ -103,7 +103,7 @@ end
 
 If another bank wanted to print their transactions another way it's no problem, they can supply their own block.
 
-What if instead you didn't want the caller to define how the transaction is printed, but just the format? Like any method call in Ruby, blocks have a return value. So when you call `yield`, it returns the last executed value from the block. Using the example above, if you instead moved the `p` from the block to inside the `#each` call, your method would be in control of how the transactions were printed. Maybe you only allow exporting to a .csv for example.
+What if instead you didn't want the caller to define how the transaction is printed, but just the format? <span id="return-value">Like any method call in Ruby, blocks have a return value.</span> So when you call `yield`, it returns the last executed value from the block. Using the example above, if you instead moved the `p` from the block to inside the `#each` call, your method would be in control of how the transactions were printed. Maybe you only allow exporting to a .csv for example.
 
 ~~~ruby
 @transactions = [10, -15, 25, 30, -24, -70, 999]
@@ -120,7 +120,7 @@ end
 #=> ["10.00", "-15.00", "25.00", "30.00", "-24.00", "-70.00", "999.00"]
 ~~~
 
-If you want to gather the value returned from the block, you can just assign it to a variable or collect it in a data structure.
+<span id="collect-return">If you want to gather the value returned from the block, you can just assign it to a variable or collect it in a data structure.</span>
 
 ~~~ruby
 @transactions = [10, -15, 25, 30, -24, -70, 999]
@@ -130,7 +130,7 @@ def transaction_statement
   @transactions.each do |transaction|
     formatted_transactions << yield(transaction) # We've put () around transaction just for clarity here but they aren't required.
   end
-  
+
   p formatted_transactions
 end
 
@@ -140,11 +140,11 @@ end
 #=> ["10.00", "-15.00", "25.00", "30.00", "-24.00", "-70.00", "999.00"]
 ~~~
 
-You can also write explicit return statements from a block. This works the same way as an explicit return works in a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).
+<span id="explicit-return">You can also write explicit return statements from a block. This works the same way as an explicit return works in a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).</span>
 
 In the above examples, the value that we yield to the block in `transaction_statement` is captured by the block and assigned to the named parameter (the variable inside the pipes, in this case `|transaction|`). This works the same way it does in enumerable methods like `#each` and `#map`.
 
-If you don't pass a value with `yield` and the block expects one, then the argument is assigned `nil`. 
+If you don't pass a value with `yield` and the block expects one, then the argument is assigned `nil`.
 
 ~~~ruby
 def say_something
@@ -204,7 +204,7 @@ simple_method
 
 Yep, an error. So how can you write a method that works whether or not the caller passes a block to it?
 
-Enter `block_given?`
+<span id="block-given">Enter `block_given?`</span>
 
 You can use this method as a conditional check inside your own method to see if a block was included by the caller. If so, `block_given?` returns `true`, otherwise it returns `false`. This lets you write your method so that it behaves differently depending on whether or not it receives a block.
 
@@ -432,7 +432,7 @@ What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. 
 
 (Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.0/Object.html#method-i-send) for `#send` if you're interested.)
 
-The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.
+<span id="proc-to-block">The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
 ~~~ruby
 def cool_method
@@ -475,24 +475,24 @@ After coming to grips with the information in this lesson you'll be a block, pro
 </div>
 
 ### Knowledge Check
- 
+
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
- 
-- What is a block?
-- How is a block like a method?
-- How is a block different from a method?
-- What are the two ways to declare a block?
-- How do you return data from a block?
-- How can your methods collect the return data from a block?
-- What happens if you include a `return` statement in a block?
-- Why would you use a block instead of just creating a method?
-- What does `yield` do?
-- How do you pass arguments to a block from within a method?
-- How do you check whether a block was actually passed in?
-- What is a proc?
-- What is a lambda?
-- What's the difference between a proc and a block?
-- When would you use a proc instead of a block?
-- What's different between a lambda and a proc?
-- How do you convert a proc to a block?
-- How do you convert a block to a proc?
+
+- <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">What is a block?</a>
+- <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">How is a block like a method?</a>
+- <a class="knowledge-check-link" href="#block-basics">How is a block different from a method?</a>
+- <a class="knowledge-check-link" href="#block-basics">What are the two ways to declare a block?</a>
+- <a class="knowledge-check-link" href="#return-value">How do you return data from a block?</a>
+- <a class="knowledge-check-link" href="#collect-return">How can your methods collect the return data from a block?</a>
+- <a class="knowledge-check-link" href="#explicit-return">What happens if you include a `return` statement in a block?</a>
+- <a class="knowledge-check-link" href="#lambdas">Why would you use a block instead of just creating a method?</a>
+- <a class="knowledge-check-link" href="#yield">What does `yield` do?</a>
+- <a class="knowledge-check-link" href="#pass-arguments">How do you pass arguments to a block from within a method?</a>
+- <a class="knowledge-check-link" href="#block-given">How do you check whether a block was actually passed in?</a>
+- <a class="knowledge-check-link" href="#procs">What is a proc?</a>
+- <a class="knowledge-check-link" href="#lambdas">What is a lambda?</a>
+- <a class="knowledge-check-link" href="#procs">What's the difference between a proc and a block?</a>
+- <a class="knowledge-check-link" href="procs">When would you use a proc instead of a block?</a>
+- <a class="knowledge-check-link" href="#procs-vs-lambdas">What's different between a lambda and a proc?</a>
+- <a class="knowledge-check-link" href="#proc-to-block">How do you convert a proc to a block?</a>
+- <a class="knowledge-check-link" href="#capturing-blocks">How do you convert a block to a proc?</a>
