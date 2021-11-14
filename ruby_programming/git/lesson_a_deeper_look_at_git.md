@@ -47,15 +47,15 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href=''>How do you amend a commit message that you just messed up?</a>
-* <a class='knowledge-check-link' href=''>How do you view the history of your most recent commits?</a> 
-* <a class='knowledge-check-link' href=''>What are two different uses for `$ git checkout`?</a> 
-* <a class='knowledge-check-link' href=''>How do you undo a recent commit?</a> 
-* <a class='knowledge-check-link' href=''>What are branches?</a> 
-* <a class='knowledge-check-link' href=''>How do you create a new branch to work on?</a> 
-* <a class='knowledge-check-link' href=''>How do you push that (non-main) branch up to GitHub?</a> 
-* <a class='knowledge-check-link' href=''>How do you merge the changes from your new branch into the main branch again?</a> 
-* <a class='knowledge-check-link' href=''>Why is working with feature branches useful?</a>
-* <a class='knowledge-check-link' href=''>What is the difference between using `$ git merge` and `$ git rebase`? (hint: history)</a>
-* <a class='knowledge-check-link' href=''>What is the difference between a "remote" and your local repo?</a>
-* <a class='knowledge-check-link' href=''>How do you add your GitHub repo as the remote?</a>
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How do you amend a commit message that you just messed up?</a>
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History'>How do you view the history of your most recent commits?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#_switching_branches'>What are two different uses for `$ git checkout`?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things#_unstaging'>How do you undo a recent commit?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>What are branches?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#_create_new_branch'>How do you create a new branch to work on?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#_pushing_branches'>How do you push that (non-main) branch up to GitHub?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merging'>How do you merge the changes from your new branch into the main branch again?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Why is working with feature branches useful?</a>
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Rebasing'>What is the difference between using `$ git merge` and `$ git rebase`? (hint: history)</a>
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes'>What is the difference between a "remote" and your local repo?</a>
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories'>How do you add your GitHub repo as the remote?</a>
