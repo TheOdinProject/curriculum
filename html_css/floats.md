@@ -54,6 +54,8 @@ This section contains helpful links to other content. It isn’t required, so co
 * [For a more in-depth look at float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) MDN has some great documentation.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * What is the main use for floats in the present day?
 * Why should floats not be used for modifying the layout of a page?
 * What other shapes can be created for text to wrap around?

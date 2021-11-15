@@ -50,6 +50,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Responsive Images 101](https://cloudfour.com/thinks/responsive-images-101-definitions/) is a good series of articles if you need another source.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * What is the main difference between `object-fit` and `background-size`?
 * How can you define a width and a height on an `img` without distorting it?
 * Why would you want to provide different images at different screen resolutions?
