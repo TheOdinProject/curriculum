@@ -26,7 +26,7 @@ Heroku will give you a random application name when you first deploy, something 
 
 *Note: If you change your app's name on Heroku, you'll probably need to manually update your Git remote so Git knows where to send your local application when you deploy to Heroku.*
 
-That domain name will always be yours on Heroku.  Obviously, in the real world, you want to link it to a custom domain of your own, e.g. `http://my_cool_domain.com`.  First you'll obviously need to purchase the domain from a registrar like GoDaddy or IWantMyName.  Try using [Domainr](http://domai.nr) to find new domains, it's great.
+That domain name will always be yours on Heroku.  Obviously, in the real world, you want to link it to a custom domain of your own, e.g. `http://my_cool_domain.com`.  First you'll obviously need to purchase the domain from a registrar like GoDaddy or IWantMyName.  Try using [Domainr](https://domainr.com) to find new domains, it's great.
 
 Once you have your own domain, you will need to go in and point it to your `herokuapp.com` subdomain by changing the appropriate entry in your CNAME file.  Where does `mail.yourapp.com` or `www.yourapp.com` or `calendar.yourapp.com` go? That file, which lives at your Registrar, basically defines where incoming requests should go.  These settings are relatively easy to change but take several hours to take effect.
 
@@ -51,22 +51,22 @@ Note that you'll probably be prompted for your billing information when installi
 
 If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later.
 
-We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 5.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails5).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
+We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 6.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails6).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
 * Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
 * Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
 * Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses.  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
 * Create a new Heroku application from the command line using `$ heroku create`.  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
-* Ready? Push using the command `$ git push heroku master`.
+* Ready? Push using the command `$ git push heroku main`.
 * But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`.  If you've set up seeds, you can also run them now.
 
 #### What's Going On?
 
-There's no magic here... When you created the new Heroku app, you also automatically set up the "heroku" remote to point to your application on Heroku.  When you execute `$ git push heroku master`, Git will just ship your code up to Heroku.
+There's no magic here... When you created the new Heroku app, you also automatically set up the "heroku" remote to point to your application on Heroku.  When you execute `$ git push heroku main`, Git will just ship your code up to Heroku.
 
 From there, Heroku more or less does what you do for your own localhost.  First, it will take the "slug" of code and files that you uploaded, identify your Ruby version, and run a `$ bundle install`.  It sets up your database connection and then runs the asset pipeline.
 
-We'll cover the Asset Pipeline in a future lesson and don't worry about this if you aren't familiar with it yet.  If you are... In development, Rails only partially executes the asset pipeline -- it runs all the preprocessors but serves asset files like stylesheets and javascripts individually (check your local server logs to see it serving dozens of individual files).  In production, Heroku will finish the job by not only running the preprocessors but also mashing your assets into those single files with the timestamp names (check out the source code of this page for an example -- as I type the stylesheet is called `assets/application-1fc71ddbb281c144b2ee4af31cf0e308.js`).
+In development, Rails only partially executes the asset pipeline -- it runs all the preprocessors but serves asset files like stylesheets and javascripts individually (check your local server logs to see it serving dozens of individual files).  In production, Heroku will finish the job by not only running the preprocessors but also mashing your assets into those single files with the timestamp names (check out the source code of this page for an example -- as I type the stylesheet is called `assets/application-1fc71ddbb281c144b2ee4af31cf0e308.js`).
 
 So it doesn't have to run this part of the asset pipeline (which won't actually change at all from one visit to the next) every single time a new HTTP request is served, Heroku will "precompile" the assets up front and serve them from the cache.
 
@@ -127,7 +127,7 @@ Dialing things back to the local environment, here are a few useful things to kn
 We won't have too much reading here because many of the links are interspersed with the sections above and, **if you're a complete beginner, you can safely skip this until later**.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails5) for a step-by-step guide to deploying.
+  1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails6) for a step-by-step guide to deploying.
   2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
 </div>
 
@@ -138,8 +138,7 @@ Deployment is one of the most satisfying parts of building an application... onc
 Best of all, once you can deploy an app to the interwebs, you're officially free to go into the world and build applications of your own.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file
 * [Converting from PostgreSQL to SQLite3](http://manuel.manuelles.nl/blog/2012/01/18/convert-postgresql-to-sqlite/)

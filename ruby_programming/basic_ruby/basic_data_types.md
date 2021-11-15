@@ -157,7 +157,7 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 #### Common String Methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/core-2.6/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/core-2.7.1/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
@@ -175,7 +175,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".include?("z")   #=> false
 ~~~
 
-**#upcase**
+<span id="upcase">**#upcase**</span>
 
 ~~~ruby
 "hello".upcase  #=> "HELLO"
@@ -207,7 +207,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".reverse  #=> "olleh"
 ~~~
 
-**#split**
+<span id="split">**#split**</span>
 
 ~~~ruby
 "hello world".split  #=> ["hello", "world"]
@@ -230,7 +230,7 @@ You'll read more about these methods and others in the assignment. The examples 
 
 "hello".insert(-1, " dude")     #=> "hello dude"
 
-"hello".split("")               #=> ["h", "e", "l", "l", "o"]
+"hello world".delete("l")       #=> "heo word"
 
 "!".prepend("hello, ", "world") #=> "hello, world!"
 ~~~
@@ -265,7 +265,7 @@ To create a symbol, simply put a colon at the beginning of some text:
 ~~~
 
 #### Symbols vs. Strings
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.6/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-2.7.1/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
 
 ~~~ruby
 "string" == "string"  #=> true
@@ -289,47 +289,50 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
-2. Read through these Ruby Monstas sections about data types:
-    * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-    * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-    * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-    * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
-3. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
+2. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
+3. Finally complete the basic data types exercises provided for this lesson:
+    * [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
+    * [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics)
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
     * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
     * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+* Read through these Ruby Monstas sections about data types:
+    * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+    * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+    * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+    * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Numbers
-  * What are the basic arithmetic operators you can use on numbers?
-  * What's the difference between an integer and a float?
-  * What method would you use to convert a float to an integer?
-  * What method would you use to convert an integer to a float?
+  * <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
+  * <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
+  * <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
+  * <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
 
 * Strings
-  * What is a string?
-  * What are the differences between single and double quotes?
-  * What is string interpolation?
-  * How do you concatenate strings?
-  * What method would you use to change all the characters in your string to upper case?
-  * What method would you use to split up strings into arrays?
-  * What are escape characters?
-  * How do you access a specific character or substring?
-  * How do you convert other data types into strings?
+  * <a class="knowledge-check-link" href="#strings">What is a string?</a>
+  * <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
+  * <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
+  * <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
+  * <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
+  * <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
+  * <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
+  * <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
+  * <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
 
 * Symbols
-  * What is a symbol?
-  * How do you create a symbol?
-  * What's the difference between a symbol and a string?
+  * <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
+  * <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
+  * <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
 
 * Booleans
-  * What does `true` represent?
-  * What does `false` represent?
-  * What does `nil` represent?
+  * <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
+  * <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
+  * <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>

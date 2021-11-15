@@ -20,12 +20,12 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 
 <div class="lesson-content__panel" markdown="1">
 1. Check out [Dive into HTML5](http://diveintohtml5.it/), which is a website and book on the cool stuff about HTML5.
-2. Look over [What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
+2. Look over [What are new features introduced in HTML5?](https://developer-interview.com/p/html-css/what-are-new-features-introduced-in-html5-57)
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [What's new in HTML5 from W3 schools](http://www.w3schools.com/html/html5_new_elements.asp)
-* [25 must-know HTML5 tips and techniques from tutsplus](http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/)
+* [HTML5 - New Tags (Elements) from tutorialspoint](https://www.tutorialspoint.com/html5/html5_new_tags.htm)
+* [28 must-know HTML5 tips and techniques from tutsplus](https://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520)
 * [Testing compliance of various tags in HTML5 with CanIUse?](http://caniuse.com)

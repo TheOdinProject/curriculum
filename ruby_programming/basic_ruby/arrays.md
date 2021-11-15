@@ -29,8 +29,8 @@ An array can also be created by calling the `Array.new` method. When you call th
 ~~~ruby
 Array.new               #=> []
 Array.new(3)            #=> [nil, nil, nil]
-Array.new(3, "Hello")   #=> ["Hello", "Hello", "Hello"]
-Array.new(3, Array.new) #=> [[], [], []]
+Array.new(3, 7)         #=> [7, 7, 7]
+Array.new(3, true)      #=> [true, true, true]
 ~~~
 
 ### Accessing Elements
@@ -73,8 +73,8 @@ The methods `#shift` and `#unshift` are used to add and remove elements at the b
 ~~~ruby
 num_array = [2, 3, 4]
 
-num_array.unshift(1)   #=> [1, 2, 3, 4]
-num_array.shift           #=> [1]
+num_array.unshift(1)      #=> [1, 2, 3, 4]
+num_array.shift           #=> 1
 num_array                 #=> [2, 3, 4]
 ~~~
 
@@ -141,11 +141,12 @@ Here is a brief look at some other common array methods you might run into:
 
 1. Read Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), following along with the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
 2. Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
-3. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://ruby-doc.org/core-2.6/Array.html). Were you close?
+3. Complete the [array](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
+4. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://ruby-doc.org/core-2.7.1/Array.html). Were you close?
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Look over the latest [Ruby API documentation](http://ruby-doc.org/) on arrays by clicking on "Core API" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object along with explanations and examples.
 * If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
@@ -154,8 +155,8 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * What is an array and why is it useful?
- * What are two ways to create a new empty array?
- * What are some ways of accessing the elements in an array?
- * What are 3 ways to add data to an array?
- * How can you remove elements from an array?
+ * <a class='knowledge-check-link' href='#introduction'>What is an array and why is it useful?</a>
+ * <a class='knowledge-check-link' href='#creating-arrays'>What are two ways to create a new empty array?</a>
+ * <a class='knowledge-check-link' href='#accessing-elements'>What are some ways of accessing the elements in an array?</a>
+ * <a class='knowledge-check-link' href='#adding-and-removing-elements'>What are 3 ways to add data to an array?</a>
+ * <a class='knowledge-check-link' href='#adding-and-removing-elements'>How can you remove elements from an array?</a>

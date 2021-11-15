@@ -124,7 +124,7 @@ There are a couple new aspects to this process.  You saw `#fields_for` in the [B
   <%= form_for @user do |f| %>
     ...
     <% 3.times do %>
-      <%= f.fields_for @user.shipping_address.build do |addy_form| %>
+      <%= f.fields_for @user.shipping_addresses.build do |addy_form| %>
         ...
         <%= addy_form.text_field :zip_code %>
         ...
@@ -172,9 +172,9 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#option-tags-from-a-collection-of-arbitrary-objects) section 3.3, which covers populating a form with a collection of objects.
-  2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 9, which covers accepting nested form data.
-  3. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 7, which covers the parameter conventions for nested forms.
+  1. Read the [Rails Guide on Forms](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
+  2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 10, which covers accepting nested form data.
+  3. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 8, which covers the parameter conventions for nested forms.
   4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the whitelisting of nested attributes in Rails 4.
 </div>
 
@@ -185,9 +185,9 @@ We've covered two of the more common use cases for complex forms -- pre-populati
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [Simple Form Documentation on Github](https://github.com/plataformatec/simple_form)
+* [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
 * [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
 * [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
 * [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)

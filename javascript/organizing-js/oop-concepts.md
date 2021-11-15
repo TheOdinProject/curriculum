@@ -12,11 +12,13 @@ By the end of this lesson, you should be able to do the following:
 
 Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words.. these principles are not _rules_- they're helpful guidelines.  
 
-As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on keep these things in mind when crafting new projects.
+As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on, keep these things in mind when crafting new projects.
 
 ### Single Responsibility
 
-One of the most important things to remember as you craft your objects is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility. Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a _really_ good idea to separate out your DOM stuff from the application logic.
+As you craft your objects, one of the most important things to remember is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility.
+
+Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a _really_ good idea to separate your DOM stuff from the application logic.
 
 So instead of this:
 
@@ -34,7 +36,7 @@ function isGameOver() {
 }
 ~~~
 
-You should extract all the DOM manipulation into it's own module and use it like so:
+You should extract all the DOM manipulation into its own module and use it like so:
 
 ~~~javascript
 function isGameOver() {
@@ -47,14 +49,11 @@ function isGameOver() {
 }
 ~~~
 
-In fact - the function `isGameOver` shouldn't be calling the DOM function anyway that should go elsewhere (directly in the game-loop)
+In fact - the function `isGameOver` shouldn't be calling the DOM function anyway. That should go elsewhere (directly in the game-loop).
 
-> The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. Both of the following articles mention the acronym __SOLID__ before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like.. but pay special attention to Single Responsibility.
+Another way to think about the Single Responsibility Principle is that a given method/class/component should have a single reason to change. Otherwise, if an object is trying to have multiple responsibilities, changing one aspect might affect another. 
 
-1. Read [This Article](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/).
-2. [This article](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
-3. ..and [one more](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure
-
+The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. You will read more about these principles in the assignment articles below. 
 
 
 ### Loosely Coupled Objects
@@ -63,5 +62,28 @@ Obviously, all of our objects are intended to work together to form our final ap
 
 This one is related pretty strongly to 'Single Responsibility' but takes a different angle. As an example, if we were writing a game and wanted to completely change how the User Interface worked, we should be able to do that without completely reworking the game logic. So we should be able to start off writing our game using primarily `console.logs()` and then add in a bunch of `DOM` functions later without touching the game logic.
 
-1. [This article](https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains it pretty well.
-2. The best book we've ever read on this subject is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free.. and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1.  The following articles mention the acronym __SOLID__ before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like.. but pay special attention to Single Responsibility.
+    1. Read [SOLID JavaScript: The Single Responsibility Principle](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/). **NOTE:** This article does make use of JQuery, one of the earliest and most popular JavaScript libraries prior to the ES6 standard. While The Odin Project does not teach JQuery and you are not expected to understand the example, be sure to focus less on the code itself and more on the SOLID concepts being expressed. 
+    2. [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
+    3. And read [S.O.L.I.D. The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure.
+2. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
+</div>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* The best book we've ever read on the subject of loose coupling is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free.. and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic. Alternatively, [99 Bottles of OOP](https://sandimetz.com/products) is written in both JavaScript and Ruby. It is written by the same author and may be a better option if you are brand new to OOP (it is not free either).
+
+* A nice summary of [OOP's most common principles using JavaScript](https://medium.com/better-programming/object-oriented-programming-in-javascript-b3bda28d3e81)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#single-responsibility">Explain the "Single Responsibility Principle".</a>
+- <a class="knowledge-check-link" href="https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa">Briefly explain the additional SOLID principles.</a>
+- <a class="knowledge-check-link" href="https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4">Explain what "tightly coupled" objects are and why we want to avoid them.</a>

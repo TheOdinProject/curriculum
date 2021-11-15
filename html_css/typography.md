@@ -20,11 +20,12 @@ Do what you can to get at least a familiarity with the high level decisions invo
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Shay Howe on Fonts and Typography](http://learn.shayhowe.com/html-css/typography)
-2. Browse through [A Beginner's Guide to Using Google Web Fonts by DesignShack](http://designshack.net/articles/css/a-beginners-guide-to-using-google-web-fonts/), but don't get too lost in the details.
-3. Browse the [Google Web Fonts](http://www.google.com/fonts) and see if any of them seem interesting to you.
+2. Read this article about Serif and Sans Serif fonts [Sans Serif vs Serif Font: Which Should You Use & When?](https://www.impactplus.com/blog/sans-serif-vs-serif-font-which-should-you-use-when)
+3. Browse through [A Beginner's Guide to Using Google Web Fonts by DesignShack](http://designshack.net/articles/css/a-beginners-guide-to-using-google-web-fonts/), but don't get too lost in the details.
+4. Browse the [Google Web Fonts](http://www.google.com/fonts) and see if any of them seem interesting to you.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Importing your own fonts](http://www.html5rocks.com/en/tutorials/webfonts/quick/)

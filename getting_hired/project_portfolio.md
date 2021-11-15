@@ -14,41 +14,32 @@ Remember to write some documentation for both technical and non-technical audien
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
-### Student Solutions (Personal Portfolio Sites)
-Send us a link to your portfolio site so we can show others! Submit a link to your live site and/or to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples.
+### Show Designs
+A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
 
 <details markdown="block">
-  <summary> Show Student Solutions </summary>
+  <summary> Links for designs </summary>
 
-* Add your solution below this line!
-* [Zakariye Yusuf's solution - Live website](https://zakariyeyusuf.com)
-* [Hammad Ahmed's solution](https://github.com/shammadahmed/shammadahmed.github.io) - [View in Browser](https://shammadahmed.github.io/)
-* [rvalentin1010's solution](https://github.com/rvalentin1010/rvalentin1010.github.io) - [View in Browser](https://rvalentin1010.github.io/)
-* [thghall's solution](https://github.com/theghall/portfolio) - [View in Browser](https://theghall.github.io/portfolio/)
-* [David Chapman's solution - Source Code](https://github.com/davidchappy/wp-portfoliosite) - [Live website](http://portfolio.dachapman.com/)
-* [Dennis Cope's solution - Live website](https://coped.dev/)
-* [Eric Gonzalez solution - Source Code](https://github.com/Twinpair/Personal-Website) - [Live website](https://www.eric-gonzalez.com/)
-* [Jonathan Yiv's solution Source Code](https://github.com/JonathanYiv/jonathanyiv.github.io) - [Live website](https://jonathanyiv.github.io)
-* [Brian Kang's solution - Source Code](https://github.com/bhkangw/PersonalPortfolio) - [Live website](https://www.briankang.co/)
-* [Javier Machin's solution - Live website](https://www.javiermachin.com/)
-* [Tommy's solution - Live website](https://tommyhoang.com)
-* [Scott Huang's solution - Source Code](https://github.com/scotth527/gatsby_blog) - [Live website](https://www.huangscott.com)
-* [Krzysztof Sordyl's solution - Source Code](https://github.com/Verthon/portfolio) - [Live website](https://sordyl.me)
-* [Brian Monaccio's Portfolio](https://brian-monaccio.netlify.app/) - [Github Repo](https://github.com/learnsometing/portfolio)
-* [Salvador Villalon's Solution](https://github.com/salvillalon45/salvillalon45.github.io) - [View in Browser](https://salvillalon45.github.io/)
-* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/portfolio) - [View in Browser](https://www.braxtonlemmon.com/)
-* [Ahmad Ali's Solution - Live website](https://www.ahmad-ali.co.uk/)
-* [Hammad Ahmed's Solution](https://github.com/shammadahmed/shammadahmed.github.io) - [View in Browser](https://shammadahmed.github.io/)
-* [rvalentin1010's Solution](https://github.com/rvalentin1010/rvalentin1010.github.io) - [View in Browser](https://rvalentin1010.github.io/)
-* [thghall's Solution](https://github.com/theghall/portfolio) - [View in Browser](https://theghall.github.io/portfolio/)
-* [David Chapman's Solution - Source Code](https://github.com/davidchappy/wp-portfoliosite) - [Live website](http://portfolio.dachapman.com/)
-* [Dennis Cope's Solution - Live website](https://coped.dev/)
-* [Eric Gonzalez Solution - Source Code](https://github.com/Twinpair/Personal-Website) - [Live website](https://www.eric-gonzalez.com/)
-* [Jonathan Yiv's Solution Source Code](https://github.com/JonathanYiv/jonathanyiv.github.io) - [Live website](https://jonathanyiv.github.io)
-* [Brian Kang's Solution - Source Code](https://github.com/bhkangw/PersonalPortfolio) - [Live website](https://www.briankang.co/)
-* [Javier Machin's Solution - Live website](https://www.javiermachin.com/)
-* [Tommy's Solution - Live website](https://tommyhoang.com)
-* [Scott Huang's Solution - Source Code](https://github.com/scotth527/gatsby_blog) - [Live website](https://www.huangscott.com)
-* [Krzysztof Sordyl's Solution - Source Code](https://github.com/Verthon/portfolio) - [Live website](https://sordyl.me)
-* [barrysweeney's Solution -Source Code](https://github.com/barrysweeney/personal-site) - [Live website](https://www.barrysweeney.com/)
+  * [Stratis Bakas](https://stratisbakas.com/)
+  * [Matt Farley](https://mattfarley.ca/)
+  * [Dejan Markovic](https://www.dejan.works/)
+  * [Rafael Caferati](https://caferati.me/)
+  * [Ian Lunn](https://ianlunn.co.uk/)
+  * [Ben Adam](https://benadam.me/)
+  * [Seb Kay](https://sebkay.com/)
+  * [Jonny MacEachern](https://jonny.me/)
+  * [Jack Jeznach](https://jacekjeznach.com/)
+  * [Andriy Chemerynskiy](https://andrewchmr.com/)
+  * [Chris Ota's Portfolio](https://www.otadesigns.com/)
+  * [Pierre Nel](https://pierre.io/)
+  * [Adrien Laurent's Portfolio](https://adrienlaurent.fr/)
+  * [Thomas' Portfolio](https://www.thomasbosc.com)
+  * [Timmy O’Mahony](https://timmyomahony.com/)
+  * [Elliot's Portfolio](https://elliotcondon.com/)
+  * [James Warner](https://jmswrnr.com/)
+  * [Tiago Sá's Portfolio](https://i-am-tiago.com/)
+  * [Patrick David](https://bepatrickdavid.com/)
+  * [Luis Krötz](https://luiskr.com/)
+  * [Leonid Kostetckyi](https://lk.emotion-agency.com/)
+  * [Alex Madeira](https://www.alexmadeira.com.br/)
 </details>

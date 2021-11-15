@@ -46,7 +46,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Links
 
-* [Cracking the Coding Interview](http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
+* [Cracking the Coding Interview](https://www.academia.edu/36175368/Cracking_the_Coding_Interview_6th_Edition?auto=download) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
@@ -62,18 +62,18 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
-* [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
-* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms and data scructures. 
+* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data scructures.
+* [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
 
 ### Algorithms Training:
 
-* [Udacity course on Algorithms](https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609) (asynchronous)
+* [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
 * [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
 
 ### Architecture:
 
-* [Teaching Software Architecture with Github](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
+* [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 ### The tech challenge
 

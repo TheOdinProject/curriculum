@@ -9,12 +9,12 @@ By the end of this lesson, you should be able to do or answer the following:
 - Use the `supertest` module to test Express routes/controllers.
 - Describe how supertest handles our express application.
 - Explain the functionality `superagent` provides to supertest.
-- What is the purpose of `done`? What convenience does supertest provide concerning it?
+- Describe what the `done` parameter is used for.
 - Explain and have a firm understanding of `.expect()` method's functionality.
 - Have familiarity with `supertest`'s documentation and methods.
 
 
-The most important, basic requirement for testing something in your code is that it be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
+The most important, basic requirement for testing something in your code is that it must be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
 In the case of routes, you already know how to do this using Express.Router. Below is a very simple example.
 
@@ -54,7 +54,7 @@ module.exports = index;
 
 These two files, `app.js` and `index.js` simply define a couple of routes and then set up and start our express app. For the moment we do _not_ need to test `app.js` because it only contains code that starts and runs an express app!  It doesn't include any of our own logic so we don't need to test it. `index.js` however _does_ include some things that we want to test.
 
-To facilitate actually testing these routes we're going to use a library called [Supertest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
+To facilitate actually testing these routes we're going to use a library called [Supertest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest --save-dev` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
 
 In the examples below we're going to use Supertest inside of a Jest style describe/test block, but the syntax and use of these are common among most testing libraries, so the concepts should be easily replicated in Mocha with Chai or Jasmine or Tape or whatever testing library you prefer.
 
@@ -112,7 +112,7 @@ app.use("/", index);
 
 The tests themselves are relatively simple thanks to the Supertest library! Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route, and then use it to make sure that the responses match the types and content that we expect. 
 
-Notice the parameter `done` that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, supertest allows us to pass it into the last `.expect` and calls it for us.  Thanks, supertest!
+Notice the parameter <span id="done">`done`</span> that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, supertest allows us to pass it into the last `.expect` and calls it for us.  Thanks, supertest!
 
 ~~~javascript
 test("index route works", done => {
@@ -142,7 +142,6 @@ test("testing route works", done => {
 
 If we were using a real database here, then we would want to do something similar using either a test or a mock database. We'll talk about setting something like that up in a separate lesson. Suffice it to say for now that you do not want to run test code on your production database!
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -151,3 +150,11 @@ If we were using a real database here, then we would want to do something simila
 2. Supertest actually pulls from another related project called Superagent.  Any method that you can call in Superagent you can also call from supertest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.
 </div>
 
+### Knowledge Checks
+ 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#about'>What is the motivation behind SuperTest?</a>
+- <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does supertest provide concerning it?</a>
+- <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjuction with .expect() provided by SuperTest?</a>
+- <a class='knowledge-check-link' href='https://visionmedia.github.io/superagent#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>

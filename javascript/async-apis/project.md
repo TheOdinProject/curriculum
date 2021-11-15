@@ -1,102 +1,25 @@
 ### Introduction
+
 Use everything we've been discussing to create a weather forecast site using the weather API from the previous lesson. You should be able to search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
 
 You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. (You could even use the Giphy API to find appropriate weather-related gifs and display them). Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
 
+### API Keys, Secrets, and Security
+
+Not all APIs are free, and depending on how they're set up, they can cost money per use. This makes them a prime target for people looking to use the API without paying by using **your** API key. They can also be rate-limited, and if someone has access to your API key they can use up all of your uses. One way to prevent this issue is to store your API keys on the server and never send them to the frontend in the first place, this is often done using environment variables and it makes the key available only on the server the code is deployed to.
+
+When talking about API keys and security you'll often hear "Never trust the client" (client meaning the frontend). Often this means not to trust that data coming *from* the client is valid, but it also means that you cannot trust anything we send *to* the client. Because of this, when you leak an API key, Github will alert you that you have committed an API key publicly. After following this project, and indeed exposing the API key, you may notice that Github will send you this alert. This is totally OK for this project as this API key is publicly available and there is no consequence for exposing it. This is not to say ALL keys are this way. Later during the backend courses you will learn ways to securely deal with these topics. 
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 1. Set up a blank HTML document with the appropriate links to your JavaScript and CSS files.
 2. Write the functions that hit the API. You're going to want functions that can take a location and return the weather data for that location. For now, just console.log() the information.
 3. Write the functions that _process_ the JSON data you're getting from the API and return an object with only the data you require for your app.
-4. Set up a simple form that will let users input their location and will fetch the weather info (still just console.log() it).
+4. Set up a simple form that will let users input their location and will fetch the weather info (still just `console.log()` it).
 5. Display the information on your webpage!
 6. Add any styling you like!
 7. Optional: add a 'loading' component that displays from the time the form is submitted until the information comes back from the API.
 8. Push that baby to github and share your solution below!
+</div>
 
-### Student Solutions
-To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/javascript/async-apis/project.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-* Add your solution below this line!
-* [Ylli's solution](https://github.com/yllabazi/weather-app) - [View in Browser](https://yllabazi.github.io/weather-app/)
-* [Zayeer's solution](https://github.com/Zayeer/weather-app) - [View in Browser](https://zayeer.github.io/weather-app/)
-* [Luky's Solution](https://github.com/lcyne/weather-app) - [View in Browser](https://lcyne.github.io/weather-app/)
-* [hieu-ng's Solution](https://github.com/hieu-ng/weather-app) - [View in Browser](https://hieu-ng.github.io/weather-app/)
-* [hu-ng's Solution](https://github.com/hu-ng/current-weather) - [View in Browser](https://hu-ng.github.io/current-weather/index.html)
-* [Kimberly's Solution](https://github.com/kimberlyohq/weather-app) - [View in Browser](https://kimberlyohq.github.io/weather-app/)
-* [Morgan's Solution](https://github.com/morganbonhomme/weather_app) - [View in Browser](https://morganbonhomme.github.io/weather_app/)
-* [Chaitanya's Solution](https://github.com/Chaitanya-Raj/weather_app) - [View in Browser](https://chaitanya-raj.github.io/weather_app/)
-* [Andrey's Solution](https://github.com/AndreySkopintsev/weather_app) - [View in Browser](https://andreyskopintsev.github.io/weather_app/)
-* [Ludo's Solution](https://github.com/ludocourbin/weather-app/) - [View in Browser](https://weather-app-ludo.netlify.app/)
-* [mjwills-inf's Solution](https://github.com/mjwills-inf/-TOP-weather/) - [View in Browser](https://mjwills-inf.github.io/-TOP-weather/)
-* [jc's Solution](https://github.com/avazkhan2808/project-weather) - [View in Browser](https://avazkhan2808.github.io/project-weather/)
-* [Andrea's Solution](https://github.com/fioriandrea/weather_app) - [View in Browser](https://fioriandrea.github.io/weather_app/)
-* [Lenny's Solution](https://github.com/Lenn-e/weather-app) - [View in Browser](https://lenn-e.github.io/weather-app/)
-* [Disco Trooper's Solution](https://github.com/disco-trooper/weather-app) - [View in Browser](https://disco-trooper.github.io/weather-app/)
-* [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/weather-app) - [View in Browser](https://kikupiku.github.io/weather-app/)
-* [Simon's Solution](https://github.com/Sim-frpt/weather-app) - [View in Browser](https://sim-frpt.github.io/weather-app/)
-* [Ini's Solution](https://github.com/ietienam/weather) - [View in Browser](https://ietienam.github.io/weather/)
-* [Edem's Solution](https://github.com/edemagbenyo/weather-app-vanillajs) - [View in Browsesr](http://edemagbenyo.com/weather-app-vanillajs/)
-* [James's Solution](https://github.com/ericksen-github/weather_api_app) - [View in Browser](https://ericksen-github.github.io/weather_api_app/)
-* [yldrmali's Solution](https://github.com/yldrmali/weather_app/tree/master) - [View in Browsesr](https://yldrmali.github.io/weather_app/)
-* [Kevin Vuong's Solution](https://github.com/fffear/weather-app) - [View in Browsesr](https://fffear.github.io/weather-app/)
-* [eapenzacharias's Solution](https://github.com/eapenzacharias/weatherapp) - [View in Browser](https://eapenzacharias.github.io/weatherapp/)
-* [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/weather-app) - [View in Browser](https://braxtonlemmon.github.io/weather-app/)
-* [Bollinca's Solution](https://github.com/bollinca/weather-app) - [View in Browser](https://bollinca.github.io/weather-app/)
-* [Julio's Solution](https://github.com/julio22b/weather-project) - [View in Browser](https://julio22b.github.io/weather-project/)
-* [Zakariye Yusuf's Solution](https://github.com/ZYusuf10/weatherForcast) - [View in Browser](https://zyusuf10.github.io/weatherForcast/)
-* [Martink-rsa's Solution](https://github.com/martink-rsa/weather-forecast) - [View in Browser](https://martink-rsa.github.io/weather-forecast/)
-* [Learnsometing's Solution](https://github.com/learnsometing/JS-weather-api-app) - [View in Browser](https://learnsometing.github.io/JS-weather-api-app/)
-* [Daniel Wesego's Solution](https://github.com/DanielMitiku/weather-app) - [View in Browser](https://danielmitiku.github.io/weather-app)
-* [Alain Suarez's Solution](https://gitlab.com/asuar/react-weather) - [View in Browser](https://asuar.gitlab.io/react-weather/)
-* [Bojo's Solution](https://github.com/BojoZahariev/Weather-App) - [View in Browser](https://bojozahariev.github.io/Weather-App/)
-* [Igorashs's Solution](https://github.com/igorashs/vue-weather-app) - [View in Browser](https://igorashs.github.io/vue-weather-app/)
-* [Vedat's Solution](https://github.com/mvedataydin/react-weather) - [View in Browser](https://mvedataydin.github.io/react-weather/)
-* [Solodov's Solution](https://github.com/solodov-dev/drops) - [View in Browser](https://solodov-dev.github.io/drops/)
-* [John Paul's Solution](https://github.com/Omulosi/weather-app) - [View in Browser](https://omulosi.github.io/weather-app/)
-* [Henry M. Kirya's Solution](https://github.com/harrika/oikendi) - [View in Browser](https://sveather.herokuapp.com/index.html)
-* [Eljoey's Solution](https://github.com/eljoey/weather-2) - [View in Browser](https://eljoey.github.io/weather-2/)
-* [ARaut9's Solution](https://github.com/ARaut9/weather_app) - [View in Browser](https://araut9.github.io/weather_app/)
-* [Jason McKee's Solution](https://github.com/jttmckee/vue-weather-app) - [View in Browser](https://jttmckee.github.io/vue-weather-app/)
-* [Max Garbers's Solution](https://github.com/bubblebooy/Odin-Javascript/tree/master/weather) - [Live preview](https://bubblebooy.github.io/Odin-Javascript/weather/build/index.html)
-* [Roman Alenskiy's Solution](https://github.com/romalenskiy/react-weather) - [Live preview](https://react-weather228.herokuapp.com)
-* [nmac's Solution](https://github.com/nmacawile/weather-map) - [View in Browser](https://nmacawile.github.io/weather-map)
-* [Javier Machin's Solution](https://github.com/Javier-Machin/react-weather-app) - [View in Browser](https://javier-machin.github.io/react-weather-app/)
-* [Waris's Solution](https://github.com/warisz/weather-app) - [View in Browser](https://cdn.rawgit.com/warisz/weather-app/323c36ae/index.html)
-* [VladL2C's Solution](https://vladl2c.github.io/weather-api/) - [View in Browser](https://vladl2c.github.io/weather-api/)
-* [Tamerlan1993's Solution](https://github.com/Tamerlan1993/hactktoberfest-2018/tree/master/weather-app) - [View in Browser](https://weather-app-vue.netlify.com/)
-* [Luján Fernaud's Solution](https://github.com/lujanfernaud/js-weather-compare) - [View in Browser](http://lujanfernaud.com/js-weather-compare/)
-* [gregthepeg's Solution](https://github.com/gregthepeg4/weatherapp) - [View in Browser](https://peaceful-dawn-67006.herokuapp.com/)
-* [brxck's Solution](https://github.com/brxck/odin-weather) - [View in Browser](http://brockmcelroy.com/odin-weather/)
-* [theghall's Promise Solution](https://github.com/theghall/odin-weather) - [theghall's async/await refactor](https://github.com/theghall/odin-weather-alt)
-* [Jmooree30's Solution](https://github.com/jmooree30/weather-app) - [View in Browser](https://jmooree30.github.io/weather-app/)
-* [Devon's Solution](https://github.com/defitjo/Weather-App) - [View in Browser](https://defitjo.github.io/Weather-App/)
-* [hmbeale's Solution](https://github.com/hmbeale/weather) - [View in Browser](http://hmbeale.github.io/weather/)
-* [Rémy's Solution](https://codepen.io/beumsk/pen/Xpbyxv) - [View in Browser](https://codepen.io/beumsk/full/Xpbyxv/)
-* [Sava's Solution](https://github.com/SavaVuckovic/Weather-App)
-* [Mike Smith's Solution](https://github.com/MikeSS281986/City-Weather-Search) - [View in Browser](https://city-weather-search.firebaseapp.com/)
-* [Alvaro Sanchez's Solution](https://github.com/heyalvaro/weather.js) - [View in Browser](http://heyalvaro.com/weather.js/)
-* [aznafro's Solution](https://github.com/aznafro/goodmorning) - [View in Browser](https://aznafro.github.io/goodmorning/)
-* [Areeba's Solution](https://github.com/AREEBAISHTIAQ/Weather-app) - [View in Browser](https://areebaishtiaq.github.io/Weather-app/)
-* [Taylor J's Solution](https://github.com/taylorjohannsen/weather-app) - [View in Browser](https://taylorjohannsen.github.io/weather-app/)
-* [Halkim's Solution](https://github.com/halkim44/react-weather-app) - [View in Browser](https://halkim44.github.io/react-weather-app/)
-* [JamCry's Solution](https://github.com/jamcry/js-weather-app) - [View in Browser](https://jamcry.github.io/js-weather-app/)
-* [Yash Boura's Solution](https://github.com/yashboura303/weatherappReact) - [View in Browser](https://yashweatherapp.netlify.com/)
-* [Krzysztof Sordyl's Solution](https://github.com/Verthon/Weather-App) - [View in Browser](https://verthon.github.io/Weather-App/)
-* [Aron's Solution](https://github.com/aronfischer/react_weather_app) - [View in Browser](https://aronfischer.github.io/react_weather_app/)
-* [Kelvin Liang's Solution](https://github.com/kelvin8773/odin-weather-app) - [View in Browser](https://my-weather-now.netlify.com/)
-* [Emil Dimitrov's Solution](https://github.com/edmtrv/weather-app) - [View in Browser](https://edmtrv.github.io/weather-app/)
-* [mmboyce's Solution](https://github.com/mmboyce/weather-app) - [View in Browser](https://mmboyce.github.io/weather-app/)
-* [JoshAubrey's Solution](https://github.com/JoshAubrey/weather-app) - [View in Browser](https://joshaubrey.github.io/weather-app/)
-* [0xtaf's Solution](https://github.com/0xtaf/weather-app) - [View in Browser](https://0xtaf.github.io/weather-app/)
-* [Hamohuh's Solution](https://github.com/hamohuh/weather-app/tree/master) - [View in Browser](https://hamohuh.github.io/weather-app/)
-* [barrysweeney's Solution](https://github.com/barrysweeney/weather-app) - [View in Browser](https://barrysweeney.github.io/weather-app/)
-* [ranmaru22's Solution](https://github.com/ranmaru22/my-weather) - [View in Browser](https://ranmaru22.github.io/my-weather/)
-* [Rey van den Berg's Solution](https://github.com/Rey810/Weather-App) - [View in Browser](https://rey810.github.io/Weather-App/)
-* [thecodediver's Solution](https://github.com/thecodediver/api_testing) - [View in Browser](https://thecodediver.github.io/api_testing/)
-* [m-rejdych's Solution](https://github.com/m-rejdych/Weather-App) - [View in Browser](https://m-rejdych.github.io/Weather-App/)
-* [Joe Thompson's Solution](https://github.com/jlthompso/weather) - [View in Browser](https://jlthompso.github.io/weather/)
-* [Ozan Sozuoz's Solution](https://github.com/ozansozuozgit/weather-app) - [View in Browser](https://ozansozuozgit.github.io/weather-app/)
-* [Ricardo's Solution](https://github.com/ricardo-gonzalez-villegas/weather-react-app/tree/master) - [View in Browser](https://ricardo-gonzalez-villegas.github.io/weather-react-app/)
-</details>

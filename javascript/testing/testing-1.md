@@ -8,8 +8,8 @@ This lesson is going to center around __Jest__. The biggest reasons for this dec
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Read this short article](https://medium.com/@gondy/the-importance-of-test-driven-development-f80b0d02edd8) that outlines the basic process and the benefits of TDD.
-2. Watch at least the first 3 videos of [this video series](https://www.youtube.com/watch?v=Eu35xM76kKY) about testing in JavaScript.  The first video focuses heavily on the WHY, while the next two go into more depth about the process.  Later videos in the series are _definitely_ worthwhile, but the first 3 are enough to get you up and running.
+1. [Read this short article](http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/) that outlines the basic process and the benefits of TDD.
+2. Watch at least the first 3 videos of [this video series](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr) about testing in JavaScript.  The first video focuses heavily on the WHY, while the next two go into more depth about the process.  Later videos in the series are _definitely_ worthwhile, but the first 3 are enough to get you up and running.
 3. Read and follow the [Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html#content) tutorial on the main Jest website.
 4. Read and follow the [Using Matchers](https://facebook.github.io/jest/docs/en/using-matchers.html#content) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.  This video might be worth re-visiting after you've done some testing of your own.

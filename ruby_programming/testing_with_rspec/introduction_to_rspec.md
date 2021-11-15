@@ -36,7 +36,7 @@ project
   |__spec
   |   |__spec_helper.rb
   |
-  |__.spec
+  |__.rspec
 ~~~
 
 That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?
@@ -57,7 +57,7 @@ As expected, the output will read:
   create   spec/spec_helper.rb
 ~~~
 
-Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in our [Discord](https://discord.gg/hvqVr6d) back-end channel.
+Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in our [Discord](https://discord.gg/fbFCkYabZB) back-end channel.
 
 ~~~bash
 No examples found.
@@ -176,10 +176,10 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 
 Failed examples:
 
-rspec ./spec/calculator_spec.rb:5 # Calculator#add adds two numbers together
+rspec ./spec/calculator_spec.rb:5 # Calculator#add returns the sum of two numbers
 ~~~
 
-Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-factor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
+Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
 
 Getting this method to "green" shouldn't be too difficult. RSpec clearly provides a reason for the failure: it expected the output to be `7` when we provided the method with `(5, 2)` as the parameters. Instead, it returned `nil`. Why might that be? Well, our `#add` _does_ take two parameters...but it does nothing with them! Add the minimum amount of code necessary to get your test to pass:
 
@@ -212,35 +212,33 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 1. Let's implement a new test case for your `#add` method, written out for you below. Run the test to see the failure. Write the minimum code necessary to get **both** tests to pass, then refactor if necessary.
 
-~~~ruby
-#spec/calculator_spec.rb
-
-describe Calculator do
-  describe "#add" do
-    it "returns the sum of two numbers" do
-      # removed for brevity
-    end
-
-    # add this
-    it "returns the sum of more than two numbers" do
-      calculator = Calculator.new
-      expect(calculator.add(2, 5, 7)).to eql(14)
-    end
-  end
-end
-~~~
+   ~~~ruby
+   #spec/calculator_spec.rb
+   
+   describe Calculator do
+     describe "#add" do
+       it "returns the sum of two numbers" do
+         # removed for brevity
+       end
+   
+       # add this
+       it "returns the sum of more than two numbers" do
+         calculator = Calculator.new
+         expect(calculator.add(2, 5, 7)).to eql(14)
+       end
+     end
+   end
+   ~~~
 
 2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
 3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
 4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, see the docs [here](https://relishapp.com/rspec/rspec-core/v/3-7/docs/configuration).
-5. Let's switch gears back to the [Debugging with Pry tutorial](https://learn.co/lessons/debugging-with-pry) that was used in a previous lesson. In the terminal, navigate to the project directory of [this repository](https://github.com/learn-co-students/debugging-with-pry-v-000). Follow along with Part II of the tutorial for an example of using Pry during testing. Note: use `rspec` (instead of `learn`) from the directory root, to run the test.
-
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-_This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something_
-
+- [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
 - For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
 - Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
 - Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.

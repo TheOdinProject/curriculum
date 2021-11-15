@@ -2,6 +2,18 @@
 
 To really understand how Rails works, you need to have a solid base in the guts of the web.  You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+* Explain the basics of HTTP.
+* Identify the 4 most commonly used HTTP verbs.
+* Identify the 7 RESTful routes of Rails.
+* Name the different components of a URL.
+* Explain the basics of MVC.
+* Describe what an API is.
+* Explain what "cookies" and "sessions" are.
+* Describe the difference between "authentication" and "authorization".
+
 ### HTTP
 
 HTTP is just a way of structuring the request-and-response conversation between your browser and the server.  Actually, it's not even a conversation since it is stateless... it's more of an "ask and receive".  The protocol outlines how that brief piece of dialogue should occur.
@@ -14,7 +26,7 @@ The other key component is that each request uses one of four main "verbs" -- GE
 
 ### REST
 
-REST is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
+REST (short for Representational state transfer) is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
 
 1. GET all the posts (aka **"index"** the posts)
 2. GET just one specific post (aka **"show"** that post)
@@ -22,7 +34,7 @@ REST is a term that you'll see coming up again and again because it's a very pow
 5. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
 4. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
 5. PUT (or PATCH) the data you just filled out for editing the post back to the server so it can actually perform the update (aka **"update"** the post)
-6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
+6. DELETE one specific post by sending a delete request to the server (aka **"destroy"** the post)
 
 The highlighted words correspond to standard Rails controller actions!
 
@@ -93,7 +105,7 @@ But we get ahead of ourselves a bit here... the main point is that you'll see "A
 
 ### Cookies
 
-You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other one.  Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.
+You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other.  Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.
 
 ...Unless they've given you some cookies (which they almost certainly have).  Cookies are little bits of data that your browser sends to the website every time you make a request to it.  From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests.  It preserves the *state* of your session.
 
@@ -128,7 +140,19 @@ On the server side, you will end up writing (or using) methods which restrict ac
 We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
 * [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">What do you call an HTTP message that goes from client to server?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">What do you call an HTTP message that goes from server to client?</a>
+* <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">Which HTTP message would include a status code and which would include an action verb?</a>
+* <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/">What is the name of the additional information that is added after the path of a URL?</a>
+* <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/">What does MVC stand for?</a>
+* <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm">What is an "API"?</a>
+* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management">Why do you need "cookies" to continue your "session"?</a>
+* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/a-railsy-web-refresher#authorization">What is the difference between "authentication" and "authorization"?</a>

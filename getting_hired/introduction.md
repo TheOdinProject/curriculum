@@ -6,10 +6,6 @@ This is as much an odds game as anything is, especially for first-time employees
 
 This course will lay out a structured path to follow which should help you avoid some of the pitfalls of just diving into the process without a plan.  **Read through this course completely once then use it step-by-step along the way as you go through the process**.  Good luck and get after it!
 
-### This is a Work In Progress!
-
-This course is currently under construction, which means that the explanations may not be as rich as you're used to from the other courses and some stuff may still be marked "TO-DO".  If you find anything out there which should be included, let us know!
-
 ### Format
 
 This course is structured a bit differently than the others because it's much more about you getting out there than it is about learning a specific skill or building a specific project.  There are a couple projects which you'll be asked to do but most of the structure here exists simply to scaffold your job search process.

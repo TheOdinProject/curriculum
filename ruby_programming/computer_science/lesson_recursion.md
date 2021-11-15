@@ -10,37 +10,45 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-### learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
 * Why is recursion a useful technique for solving a big problem?
 * What are the limitations of using recursive solutions?
 * What types of problems are more suited for simple loops than recursion?
-* What is meant by "recursive depth?"
+* What is meant by "recursive depth"?
 * What is a "stack overflow" (the concept, not the website)?
 * Why is that relevant to a recursive problem?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
-  2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:36!  (don't want to give away the project...)
-  3. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+  1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen.
+  2. Watch [this explanation of Recursion](https://www.youtube.com/watch?v=6oDQaB2one8) by Web Dev Simplified.
+  3. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
+  4. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
 </div>
 
 ### Test Yourself
 
 <div class="lesson-content__panel" markdown="1">
-  1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion.
+  1. Solve each of the questions from this [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion. You are not expected to answer them from memory at this point.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * ["What is Ruby Recursion and How Does It Work?"](http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work) on Stack Overflow
 * [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
-* [Natashatherobot's blog post on Recursion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
-* [Functional Programming Techniquest with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
-* [CS50 explanation of recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM)
+* [Natashatherobot's blog post on Recursion in Ruby](https://web.archive.org/web/20210121055221/http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
+* [Functional Programming Techniques with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top
 * [A breakdown of the recursive Fibonacci method](https://youtu.be/zg-ddPbzcKM) from Khan Academy
+
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#introduction">How would you briefly define a recursive function?</a>
+* <a class="knowledge-check-link" href="http://ruby.bastardsbook.com/chapters/recursion/">What is the point of recursion? Is it more efficient than using a plain loop?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/mz6tAJMVmfM?t=193">What are the 2 essential parts in a recursive function?</a>
+* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">Why is "stack overflow" relevant to a recursive problem?</a>

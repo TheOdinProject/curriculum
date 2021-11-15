@@ -6,7 +6,7 @@ Views live in the directory `app/views/controller_name/action_name.html.erb`, wh
 
 So the `Posts` controller running the `#index` action will implicitly render the `app/views/posts/index.html.erb` view when it's done.  You can explicitly tell your controller to render a differently named view by passing it as a parameter to the `render` function in your controller, but why?  This directory and naming structure helps you (and Rails) to always know where to find a given view.
 
-To use an instance variable from your controller, just call it the same way you would in the controller: `@user.first_name` or `@posts` or `@some_other_variable`.
+To use an instance variable from your view, just call it the same way you would in the controller: `@user.first_name` or `@posts` or `@some_other_variable`.
 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
@@ -31,7 +31,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 The first thing to note is that the named view template we render from the controller is actually not the entire webpage.  It doesn't contain the `<head>` tags or the `DOCTYPE` declaration or some of the other basic structure that's present in all pages.  Precisely because those things are present in all of your pages, the Rails creators were smart enough to turn that code into its own file called a "layout".  Layouts live in the directory `app/views/layouts`.
 
-For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the javascript and css files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
+For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the Javascript and CSS files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
 
 So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `#yield` method, which you saw when you learned about blocks.  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement but for now it's just that simple.
 
@@ -113,10 +113,17 @@ There's a lot you can do with partials and we won't dive into it all here, but o
 In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an [options hash](https://stackoverflow.com/questions/18407618/what-are-options-hashes).  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
 
 ~~~erb
-  <%= render "shared/your_partial", :locals => { :user => user } %>
+  <%= render partial: "shared/your_partial", :locals => { :user => user } %>
 ~~~  
 
-To use the variable in your partial file, you drop the `@` and call it like a normal variable.
+To use the variable in your partial file, you drop the `@` and call it like a normal variable. Note that you should use the `:locals` option if you're calling the `render` method with a `:partial` key. 
+
+There is a `render` shortcut that allows you to simply pass in variables without the need of using the `:locals` option:
+
+~~~erb
+  <%= render "shared/your_partial", :user => user %>
+~~~
+
 
 ### Implicit Partials
 
@@ -207,7 +214,7 @@ Will render something like:
   <img src="/assets/happy_cat.jpg">
 ~~~
 
-note: in production, your stylesheet and javascripts will all get mashed into one strangely-named file, so don't be alarmed if it's named something like `/assets/application-485ea683b962efeaa58dd8e32925dadf`
+Note: in production, your stylesheet and JavaScript will all get mashed into one strangely-named file, so don't be alarmed if it's named something like `/assets/application-485ea683b962efeaa58dd8e32925dadf`
 
 ### Forms
 
@@ -218,7 +225,8 @@ Rails offers several different helpers that help you create forms, and we'll go 
 Now that you've got a taste of the high-level stuff, read through the Rails Guides for a more detailed look at things.  The chapter below will actually start in the controller, where you need to let it know WHICH view file you want to render.  The second half of the chapter gets more into the view side of things.
 
 <div class="lesson-content__panel" markdown="1">
-1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
+
+  1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
 </div>
 
 ### Conclusion
@@ -226,4 +234,8 @@ Now that you've got a taste of the high-level stuff, read through the Rails Guid
 Views in general make up the user-facing side of your app.  It can be a bit tricky at first to imagine how you choose which view to render, what to include in that view and how to use partials, but a few iterations of working with Rails will show you the conventions pretty quickly.  Views will become second nature to you.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
+* [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
+* [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)

@@ -1,11 +1,11 @@
-Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.
+Good web design doesn't happen by accident. This course takes a deeper look at front-end design and development, expanding on what is covered in Foundations. You'll learn how to design and develop websites that look great in any device and you'll be equipped to deeply understand and create your own responsive design framework!
 
 ## The Outline
 
 - Basic HTML Page Structure
   - How This Course Will Work - [lesson](introduction.md)
   - HTML Basics - [lesson](html5_basics.md)
-  - Linking Internal and Extrernal Pages - [lesson](links.md)
+  - Linking Internal and External Pages - [lesson](links.md)
   - Working with Images, Video and Other Media - [lesson](images.md)
   - [Project: Embedding Images and Video](project_media.md)
   - What's New in HTML5 - [lesson](new_html5.md)
@@ -29,6 +29,15 @@ Good web design doesn't happen by accident. Learn how to make all that work you'
   - Fonts and Typography - [lesson](typography.md)
   - CSS Grids - [lesson](css_grids.md)
   - [Project: Design Teardown](project_design.md)
+- Web Accessibility
+  - Introduction to Web Accessibility - [lesson](web_accessibility.md)
+  - Web Content Accessibility Guidelines - [lesson](wcag.md)
+  - Semantic HTML - [lesson](semantic_html.md)
+  - Accessible Colors - [lesson](accessible_colors.md)
+  - Keyboard Navigation - [lesson](keyboard_navigation.md)
+  - Meaningful Text - [lesson](meaningful_text.md)
+  - WAI-ARIA - [lesson](aria.md)
+  - A11y Auditing - [lesson](accessibility_auditing.md)
 - Responsive Design and CSS Frameworks
   - Responsive Design - [lesson](responsive_design.md)
   - [Project: Building With Responsive Design](project_responsive.md)

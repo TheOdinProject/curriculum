@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 
 CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to. Thankfully, it's a relatively simple concept.
 
-CRUD stands for: _Create, Read, Update_ and _Delete_. These are the four basic functions that you will be building into your database driven apps.  Put simply, if you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
+CRUD stands for: <span id="crud">_Create, Read, Update_ and _Delete_</span>. These are the four basic functions that you will be building into your database driven apps.  Put simply, if you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
 
 In your library example then this simply means that we are going to be building the ability for users to `create` entries (add books, authors or genres to the database), `read` entries (or, retrieve lists of books and other things from the database), `update` entries (edit details of an entry), and `delete` entries (remove them from the database).
 
@@ -27,36 +27,46 @@ The CRUD operations roughly correlate to the HTTP methods that you can employ in
 
 ### MVC
 
-MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components, Models, Views and Controllers.
+MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers.
 
-**Models** are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers.
+<span id="model">**Models**</span> are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers.
 
-**Views** are of course the component that generates the UI for your application.  In our case, we've selected a templating engine that uses data supplied by a controller to display the desired information.
+<span id="view">**Views**</span> are, of course, the component that generates the UI for your application.  In our case, we've selected a templating engine that uses data supplied by a controller to display the desired information.
 
-**Controllers** are the components that decide what view to display and what information is going to be put into it.
+<span id="controller">**Controllers**</span> are the components that decide what view to display and what information is going to be put into it.
 
 #### MVC Example
 
-Without digging into the code prematurely, consider a very simple photo-uploading site. Users can upload and then view photos which are all listed on an index somewhere.  In this case, we'll have a model for our photos that would define how our photos are stored in the DB.  The model might specify that photos should be objects that have a `filename`, a `URL` and a `date-created` field.
+Without digging into the code prematurely, consider a very simple photo-uploading site. Users can upload and then view photos that are all listed on an index somewhere.  In this case, we'll have a model for our photos that would define how our photos are stored in the database (DB).  The model might specify that photos should be objects that have a `filename`, a `URL` and a `date-created` field.
 
-We'll need 2 views, the index and the display-photo view which will just display a single photo.
+We'll need two views, 1) the index, and 2) the display-photo view which will just display a single photo.
 
-Our controller then would be called by Express whenever we get an `app.get()` and would then use the details of the request to determine which view is shown, and which image is displayed depending on whether the user is requesting the index or a specific photo's page.
+Our controller then would be called by Express whenever we get an `app.get()` request. It would then use the details of the request to determine which view is shown, and which image is displayed depending on whether the user is requesting the index or a specific photo's page.
 
-If this is a little confusing at this point don't worry about it too much.  You will be creating Models, Views, and Controllers in the tutorial and it will all become much clearer once you see them in use.
+If this is a little confusing at this point, don't worry about it too much.  You will be creating models, views, and controllers in the tutorial and it will all become much clearer once you see them in use.
 
 ### Which database should I choose?
 
-One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few of your options but ultimately goes with using MongoDB. In this case the actual DB you use matters little.  If you later decide that you would rather use SQL or something else, you should be able to pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now.
+One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else, you should be able to pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now.
 
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Continue where we left off in the [MDN library tutorial!](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
+1. Continue where we left off with the [MDN library tutorial (Part 3)!](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 </div>
 
+### Knowledge Checks 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#crud'>What does CRUD stand for?</a>
+- <a class='knowledge-check-link' href='#model'>What does the Model in "MVC" refer to?</a>
+- <a class='knowledge-check-link' href='#view'>What does the View in "MVC" refer to?</a>
+- <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>
+
+
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
--better for a deeper explanation of MVC you could read [this article from freeCodeCamp](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30) 
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- For a deeper explanation of MVC you could read [this article from freeCodeCamp](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30).

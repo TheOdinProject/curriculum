@@ -53,7 +53,7 @@ You don't even need the `end` statement. Nice and concise!
 
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
-### Adding "else" and "elsif"
+### Adding else and elsif
 We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if...else` statement.
 
 ~~~ruby
@@ -173,7 +173,7 @@ All of the above operators also work on data types other than numbers, such as s
 ### Logical Operators
 Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not).
 
-There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. I recommend you read [this article](http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/) that explains the differences.
+There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. I recommend you read [this article](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/) that explains the differences.
 
 The `&&` operator returns `true` if **both** the left and right expressions return `true`.
 
@@ -227,7 +227,7 @@ grade = 'F'
 did_i_pass = case grade #=> create a variable `did_i_pass` and assign the result of a call to case with the variable grade passed in
   when 'A' then "Hell yeah!"
   when 'D' then "Don't tell your mother."
-  else "McDonald's is hiring!"
+  else "'YOU SHALL NOT PASS!' -Gandalf"
 end
 ~~~
 
@@ -241,12 +241,12 @@ grade = 'F'
 case grade
 when 'A'
   puts "You're a genius"
-  future_bank_account_balance += 5,000,000
+  future_bank_account_balance = 5_000_000
 when 'D'
   puts "Better luck next time"
   can_i_retire_soon = false
 else
-  puts "McDonald's is hiring!"
+  puts "'YOU SHALL NOT PASS!' -Gandalf"
   fml = true
 end
 ~~~
@@ -312,7 +312,7 @@ However, if your conditional statements are complicated, then using an `if...els
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
  - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
  - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
@@ -321,13 +321,13 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-  * What is a Boolean?
-  * What are "truthy" values?
-  * Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?
-  * When do you use `elsif`?
-  * When do you use `unless`?
-  * What do `||` and `&&` and `!` do?
-  * What is short circuit evaluation?
-  * What is returned by `puts("woah") || true`?
-  * What is the ternary operator?
-  * When should you use a case statement?
+  * <a class="knowledge-check-link" href="#boolean-logic">What is a Boolean?</a>
+  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">What are "truthy" values?</a>
+  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?</a>
+  * <a class="knowledge-check-link" href="#adding-else-and-elsif">When do you use `elsif`?</a>
+  * <a class="knowledge-check-link" href="#unless-statements">When do you use `unless`?</a>
+  * <a class="knowledge-check-link" href="#logical-operators">What do `||` and `&&` and `!` do?</a>
+  * <a class="knowledge-check-link" href="#logical-operators">What is short circuit evaluation?</a>
+  * <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control">What is returned by `puts("woah") || true`?</a>
+  * <a class="knowledge-check-link" href="#ternary-operator">What is the ternary operator?</a>
+  * <a class="knowledge-check-link" href="#case-statements">When should you use a case statement? </a>

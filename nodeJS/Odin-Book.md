@@ -4,7 +4,7 @@ You've come a long way, congratulations!  At this point you should feel comforta
 
 You'll be building Facebook.  As with our previous lessons, how much effort you want to put into the styling and front-end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, "liking", "friending", and the news feed.  You'll also implement signing in with the real Facebook using our old friend passportJS.
 
-Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.
+Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.)
 
 ### Assignment
 
@@ -41,14 +41,3 @@ This project will give you a chance to take a relatively high level set of requi
 3. Work your way down the list above!  Each step will involve a new challenge, but you've got the tools.
 4. You can populate data like users and posts with fake data using the [Faker](https://github.com/marak/Faker.js/) module from npm.  To accomplish this create a new JavaScript file named `seeds.js` which imports your mongoose models and uses the faker module to generate and save a bunch of new users.
 </div>
-
-### Student Solutions
-To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/Odin-Book.md) (located on The Odin Project's "curriculum" github repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-- Add your solution below this line!
-
-* [barrysweeney's Solution](https://github.com/barrysweeney/TOPBOOK) - [View in browser](https://calm-falls-42453.herokuapp.com/)
-</details>

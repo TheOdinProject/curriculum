@@ -23,32 +23,3 @@ By the end of this lesson, you should be able to do the following:
 1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
 2. Read about deploying your app in the [last article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment) in this tutorial.
 </div>
-
-### Student Solutions
-To add your solution to the list below, edit this [file](https://github.com/TheOdinProject/curriculum/blob/master/nodeJS/express-basics/Express-Lesson-5.md) (located on The Odin Project's "curriculum" GitHub repository). See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for more instructions.
-
-<details markdown="block">
-  <summary> Show Student Solutions </summary>
-
-- Add your solution below this line!
-- [Katarzyna Kaswen-Wilk's Solution](https://github.com/kikupiku/local-library) - [View in Browser](https://local-library-kikupiku.herokuapp.com/)
-- [Braxton Lemmon's Solution](https://github.com/braxtonlemmon/local-library-express) - [View in Browser](https://protected-journey-23901.herokuapp.com/catalog)
-- [Igorashs's Solution](https://github.com/igorashs/express-locallibrary) - [View in Browser](https://peaceful-refuge-59435.herokuapp.com/catalog)
-- [Kris Tobiasson's Solution](https://github.com/highpockets/express-locallibrary-tutorial.git) - [View in Browser](https://morning-basin-71826.herokuapp.com/catalog)
-- [Vanessacor's Solution](https://github.com/vanessacor/express-locallibrary-tutorial) - [View in Browser](https://limitless-wildwood-80852.herokuapp.com/catalog)
-- [Obylisk's Solution](https://github.com/obylisk/local-library) - [View in Browser](https://quiet-peak-91437.herokuapp.com/catalog)
-- [Henrique Sousa's Solution](https://github.com/Henrique-Sousa/express-locallibrary-tutorial) - [View in Browser](https://henriquesousa-locallibrary.herokuapp.com/)
-- [tracy2811's Solution](https://github.com/tracy2811/express-locallibrary-tutorial)
-- [Vollantre's Solution](https://github.com/vollantre/express-locallibrary-tutorial) - [View in Browser](https://afternoon-reaches-87917.herokuapp.com/)
-- [Alain Suarez's Solution](https://gitlab.com/asuar/express-local-library) - [View in Browser](https://nameless-ocean-77993.herokuapp.com/)
-- [Eljoey's Solution](https://github.com/eljoey/mdn_express_tut2) - [View in Browser](https://fierce-ocean-59692.herokuapp.com/)
-- [Vedat's Solution](https://github.com/mvedataydin/express-local-library) - [View in Browser](https://hidden-citadel-76837.herokuapp.com)
-- [djolesusername's Solution](https://github.com/djolesusername/libraryMDN) - [View in Browser](https://cool-library.herokuapp.com/catalog)
-- [Jake's Solution](https://github.com/jdonahue135/localLibrary) - [View in Browser](https://secure-shore-83072.herokuapp.com/)
-- [Ryan Floyd's Solution](https://github.com/MrRyanFloyd/express-local-library) - [View in Browser](https://secure-shelf-13534.herokuapp.com/)
-- [Mo's Solution](https://github.com/motr551/Library) - [View in Browser](https://motrlibrary.herokuapp.com/)
-- [Tayfun Sur's Solution](https://github.com/0xtaf/local-library) - [View in Browser](https://guarded-falls-62198.herokuapp.com/)
-- [barrysweeney's Solution](https://github.com/barrysweeney/express-library-tutorial) - [View in Browser](https://fathomless-beach-16334.herokuapp.com/catalog)
-- [ranmaru22's Solution](https://github.com/ranmaru22/local-library) - [View in Browser](https://agile-ocean-88291.herokuapp.com)
-
-</details>

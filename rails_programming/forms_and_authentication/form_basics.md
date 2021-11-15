@@ -1,6 +1,6 @@
 ### Introduction
 
-You should be familiar with forms, both as a normal Internet user and as an HTML coder who has done the [Introduction to Web Development course](https://www.theodinproject.com/courses/web-development-101). But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
+You should be familiar with forms, both as a normal Internet user and as an HTML coder who has done the [Foundations course](https://www.theodinproject.com/courses/foundations). But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
 
 Up until now, we've been thinking about Models in Rails on sort of a one-off basis.  The User model.  The Post model.  Sometimes we've had the models relate to each other via associations, like that a Post can `has_many` Comment objects.  Usually, though, we tend to silo our thoughts to only deal with one at a time.
 
@@ -18,8 +18,8 @@ Look through these now and then use them to test yourself after doing the assign
 * How can you nest attributes under a single hash in `params`?
 * Why is this useful?
 * What do you have to add/modify in your controller to handle nested `params`?
-* What special tags does Rails' `#form_tag` helper give you?
-* What is the difference between `#form_tag` and `#form_for` helpers?
+* What special tags does Rails' `#form_with` helper give you?
+* What is the difference between `#form_tag`, `#form_for` and `#form_with` helpers?
 * How do you access errors on a failed-to-save model object?
 * Which form helper automatically adds markup around errors?
 * How do you access your Update or Delete actions with a form?
@@ -71,7 +71,7 @@ So, if you want to create your own form that gets handled by Rails, you need to 
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 ~~~
 
-### Making Forms into `params`
+### Making Forms into params
 
 What about the other form inputs, the ones we actually care about?
 
@@ -109,16 +109,16 @@ Don't forget that you have to whitelist the params now in your controller using 
 
 This is cool stuff that you'll get a chance to play with in the project.
 
-### Form Helpers
+### Form Helpers: form_with
 
 Rails tries to make your life as easy as it can, so naturally it provides you with helper methods that automate some of the repetitive parts of creating forms.  That doesn't mean you don't need to know how to create forms the "old fashioned" way... it's actually MORE important to know your form fundamentals when using helpers because you'll need to really understand what's going on behind the scenes if something breaks.
 
-Start by making a form using the `form_tag` helper, which takes a block representing all the inputs to the form.  It takes care of the CSRF security token we talked about above by automatically creating the hidden input for it so you don't have to.  You pass it arguments to tell it which path to submit to (the default is the current page) and which method to use.  Then there are tag helpers that create the specified tags for you, like `text_field_tag` below.  All you need to specify there is what you want to call the field when it is submitted.
+Start by making a form using the `form_with` helper, which takes a block representing all the inputs to the form.  It takes care of the CSRF security token we talked about above by automatically creating the hidden input for it so you don't have to.  You pass it arguments to tell it which path to submit to (the default is the current page) and which method to use.  Then there are tag helpers that create the specified tags for you, like `text_field_tag` below.  All you need to specify there is what you want to call the field when it is submitted.
 
 ~~~bash
-  <%= form_tag("/search", method: "get") do %>
-    <%= label_tag(:q, "Search for:") %>
-    <%= text_field_tag(:q) %>
+  <%= form_with(url: "/search", method: "get") do %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag(:query) %>
     <%= submit_tag("Search") %>
   <% end %>
 ~~~
@@ -126,24 +126,36 @@ Start by making a form using the `form_tag` helper, which takes a block represen
 Creates the form:
 
 ~~~html
-  <form accept-charset="UTF-8" action="/search" method="get">
-    <label for="q">Search for:</label>
-    <input id="q" name="q" type="text" />
-    <input name="commit" type="submit" value="Search" />
+  <form accept-charset="UTF-8" action="/search" data-remote="true" method="get">
+    <label for="query">Search for:</label>
+    <input id="query" name="query" type="text" />
+    <input name="commit" type="submit" value="Search" data-disable-with="Search" />
   </form>
 ~~~
 
-The ID of the inputs matches the name.
-
 There are tag helpers for all the major tags and the options they accept are all a bit different.  See the reading assignment for more detail.
 
-### Handy Shortcuts: `form_for`
+There are a few things to take note of when using the `form_with` helper.
 
-No one wants to remember to specify which URL the form should submit to or write out a whole bunch of `*_tag` methods, so Rails gives you a shortcut in the form of the slightly more abstracted `form_for` method.  It's a whole lot like `form_tag` but does a bit more work for you.
+1. The ID of the inputs matches the name.
 
-Just pass `form_for` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to the correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_for` forms!
+2. The second line ends with `as JS` instead of the usual `as HTML` when you look at your output in your console after submitting a form. By default, all forms using form_with will submit data using an XHR (Ajax) request. This means that a full request cycle doesn't occur and the page doesn't reload when the form is submitted. In order to disable this, just include `local: true` when building your form like this.
 
-Where `form_tag` accepted a block without any arguments and the individual inputs had to be specified with `something_tag` syntax, `form_for` actually passes the block a form object and then you create the form fields based off that object.  It's conventional to call the argument simply `f`.
+~~~bash
+  <%= form_with(url: "/search", method: "get", local: true) do %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag(:query) %>
+    <%= submit_tag("Search") %>
+  <% end %>
+~~~
+
+You can also check your Network tab in your browser to see the requests in both cases.
+
+### Using models with the form_with helper
+
+More often than not, you'll want your form to act on the attributes of an existing model. Like specifying a title (or whatever other fields are required for your model) of a new news Article.
+
+Just pass `form_with` a model object, and it will make the form submit to the URL for that object, e.g. `@article` will submit to the correct URL for creating an Article.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_with` forms!
 
 From the Rails Guide:
 
@@ -155,31 +167,33 @@ From the Rails Guide:
 ~~~
 
 ~~~erb
-  #app/views/articles/new.html.erb
-  <%= form_for @article do |f| %>
-    <%= f.text_field :title %>
-    <%= f.text_area :body, size: "60x12" %>
-    <%= f.submit "Create" %>
+  # app/views/articles/new.html.erb
+  <%= form_with model: @article do |form| %>
+    <%= form.text_field :title %>
+    <%= form.submit "Create" %>
   <% end %>
 ~~~
 
-And the generated HTML is:
+This will produce the following HTML:
 
 ~~~html
-  <form accept-charset="UTF-8" action="/articles/create" method="post">
-    <input id="article_title" name="article[title]" type="text" />
-    <textarea id="article_body" name="article[body]" cols="60" rows="12"></textarea>
-    <input name="commit" type="submit" value="Create" />
-  </form>
+<form action="/articles" method="post" data-remote="true">
+  <input type="text" name="article[title]">
+  <input type="submit" value="Create">
+</form>
 ~~~
 
-Note that this helper nests the Article's attributes (the hard brackets in the `name` attribute should be the dead giveaway).
+The best part about `form_with` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
-The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
+### Deprecated form helpers: form_tag and form_for
+
+Before `form_with` was introduced in Rails 5.1, `form_tag` and `form_for` were used.  Both are now soft-deprecated but are likely to be seen in existing codebases. The difference between them is that [form_for](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for) takes a model whereas [form_tag](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) takes a URL (used when you need a form but don't have an underlying model). The [form_with](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) helper can be used with either a model `form_with(model: @user)` or a URL `form_with(url: users_path)`. 
+
+You can read about the `form_tag` and `form_for` helpers in an older version of the [Rails Guides](https://guides.rubyonrails.org/v5.2/form_helpers.html).
 
 ### Forms and Validations
 
-What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.
+What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some JavaScript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.
 
 You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `your_object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:
 
@@ -199,16 +213,16 @@ You'll probably want to display the errors so the user knows what went wrong.  R
 
 That will give the user a message telling him/her how many errors there are and then a message for each error.
 
-The best part about Rails form helpers... they handle errors automatically too!  If a form is rendered for a specific model object, like using `form_for @article` from the example above, Rails will check for errors and, if it finds any, it will automatically wrap a special `<div>` element around that field with the class `field_with_errors` so you can write whatever CSS you want to make it stand out.  Cool!
+The best part about Rails form helpers... they handle errors automatically too!  If a form is rendered for a specific model object, like using `form_with model: @article` from the example above, Rails will check for errors and, if it finds any, it will automatically wrap a special `<div>` element around that field with the class `field_with_errors` so you can write whatever CSS you want to make it stand out.  Cool!
 
 ### Making PATCH and DELETE Submissions
 
 Forms aren't really designed to natively delete objects because browsers only support GET and POST requests.  Rails gives you a way around that by sticking a hidden field named "\_method" into your form.  It tells Rails that you actually want to do either a PATCH (aka PUT) or DELETE request (whichever you specified), and might look like `<input name="_method" type="hidden" value="patch">`.
 
-You get Rails to add this to your form by passing an option to `form_for` or `form_tag` called `:method`, e.g.:
+You get Rails to add this to your form by passing an option to `form_with` called `:method`, e.g.:
 
 ~~~ruby
-  form_tag(search_path, method: "patch")
+  form_with(url: search_path, method: "patch")
 ~~~
 
 ### Controller-Side Refresher
@@ -237,19 +251,20 @@ Just as a refresher, here's a very basic controller setup for handling `#new` ac
   ...
 ~~~
 
-I wanted to show this again so you could remind yourself what's going on in the form's lifecycle.  The user presumably went to the path for the `#new` action, likely `http://www.yourapp.com/users/new`.  That ran the `#new` action, which created a new user object in memory (but not yet saved to the database) and rendered the `new.html.erb` view.  The view probably used `form_for` on `@user` to make things nice and easy for the developer.
+I wanted to show this again so you could remind yourself what's going on in the form's lifecycle.  The user presumably went to the path for the `#new` action, likely `http://www.yourapp.com/users/new`.  That ran the `#new` action, which created a new user object in memory (but not yet saved to the database) and rendered the `new.html.erb` view.  The view probably used `form_with model: @user` to make things nice and easy for the developer.
 
 Once the form gets submitted, the `#create` action will build another new User object with the parameters we explicitly tell it are okay.  Recall that our custom `#user_params` method will return the `params[:user]` hash for us, which lets `User.new` build us a complete new instance.  If that instance can be saved to the database, we're all good and we go to that user's `show.html.erb` page.
 
-If the `@user` cannot be saved, like because the `first_name` contains numbers, we will jump straight back to rendering the `new.html.erb` view, this time using the `@user` instance that will still have errors attached to it.  Our form should gracefully handle those errors by telling the user where he/she screwed up.
+If the `@user` cannot be saved, like because the `first_name` contains numbers, we will jump straight back to rendering the `new.html.erb` view, this time using the `@user` instance that will still have errors attached to it.  Our form should gracefully handle those errors by telling the user where they screwed up.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
   1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 to 3.2.
   2. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
-  3. Read sections 7.1 and 7.2 for the official explanation of how parameters are created from the `name` attribute.
+  3. Read sections 8.1 and 8.2 for the official explanation of how parameters are created from the `name` attribute.
   4. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
+  5. Skim through the official Rails API section on the [form_with helper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) to see various ways to use this helper tag.
 </div>
 
 ### Conclusion
@@ -257,4 +272,4 @@ If the `@user` cannot be saved, like because the `first_name` contains numbers, 
 At this point, you should have a solid understanding of how forms work in general and a pretty good feel for how Rails helps you out by generating them for you.  You'll get a chance to build a whole bunch of forms in the next few projects, so don't worry if it's not totally stuck for you yet.  Seeing it in action will make things click.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.

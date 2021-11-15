@@ -19,14 +19,14 @@ Flexbox is a new layout mode in CSS3 initially developed by Mozilla to make layo
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-* Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). This course consists of 20 videos covering Flexbox and are all available to [watch on Youtube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid). 
-* Once you have completed the course you can read through [CSS-Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) should you want more in depth information. 
+* Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). This course consists of 20 videos covering Flexbox and are all available to [watch on YouTube](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid). 
+* Once you have completed the course you can read through [CSS-Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) if you want more in depth information. 
 * Read through [Interneting is hard's](https://www.internetingishard.com/html-and-css/flexbox/) tutorial to see how to use Flexbox to help create flexible layouts.
 </div>
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Try the interactive [Flexbox froggy](http://flexboxfroggy.com/) game.
 * This [MDN Flex article](https://developer.mozilla.org/en-US/docs/Web/CSS/flex), which shows examples of what you can achieve with Flexbox.

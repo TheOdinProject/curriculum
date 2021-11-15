@@ -2,10 +2,12 @@
 Since JavaScript is the language of the web, there are some functions that by necessity are going to take a decent amount of time to complete, such as fetching data from a server to display on your site.  For this reason, JavaScript includes support for asynchronous functions, or to put it another way, functions that can happen in the background while the rest of your code executes.
 
 ### Learning Outcomes
-1. What is a callback?
-2. What's a promise?
-3. What are circumstances when promises are better than callbacks?
-4. What does the `.then()` function do?
+By the end of this lesson, you should be able to:
+
+ - Explain what a callback is
+ - Explain what a promise is
+ - Explain the circumstances under which promises are better than callbacks
+ - Explain what the `.then()` function does
 
 ### Callbacks
 In the recent past, the way that these were most commonly handled were with __callbacks__, and even now they are still used quite a lot in certain circumstances.
@@ -50,7 +52,7 @@ const pieceOfData = myData['whatever']
 
 We're going to run into trouble because when we try to extract `pieceOfData` out of the returned data, the function `getData()` will most likely still be fetching, so `myData` will not be the expected data, but will be `undefined`.  Sad.
 
-We need some way to solve this problem, and tell our code to wait until the data is done fetching to continue.  Promises solve this issue.  We'll leave learning the specific syntax for the articles you're about to read, but essentially Promises allow you do to this:
+We need some way to solve this problem, and tell our code to wait until the data is done fetching to continue.  Promises solve this issue.  We'll leave learning the specific syntax for the articles you're about to read, but essentially Promises allow you to do this:
 
 ~~~javascript
 const myData = getData() // if this is refactored to return a Promise...
@@ -60,19 +62,30 @@ myData.then(function(data){ // .then() tells it to wait until the promise is res
 })
 ~~~
 
-Of course there many more occasions where one would want to use Promises beyond fetching data, so learning these things now will be very useful to you.
+Of course, there are many more occasions where one would want to use Promises beyond fetching data, so learning these things now will be very useful to you.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [this article](https://davidwalsh.name/promises). It's a good starting place and it's short and to the point.
 2. Watch [this video](https://www.youtube.com/watch?v=2d7s3spWAzo).  It's a good place to get a feel for how one might actually use promises in the wild. Feel free to watch the other videos in the series, but they aren't strictly needed at this point.  The video also mentions the ES5/ES6 issue, don't worry about that at this point either.  All major browsers support Promises and we will teach you how to support older browsers in a later lesson.
-3. [This chapter from `You Don't Know JS`](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) goes __deep__ into the how and why of promises.  It's not the easiest read, but you'll be a promise professional if you take the time to properly digest it.  It's worth the effort.  The author also spends time talking about _callbacks_, which was the primary way of handling this stuff before Promises.  Callbacks are still used in some cases, but for this usage they are inadequate.  If you want the context for what he's discussing, read the [previous chapter](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) in his book.
+3. Watch [this video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.
+4. Read [Chapter 2: Callbacks](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) and [Chapter 3: Promises](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) from `You Don't Know JS`. In _Chapter 2_, the author explains the problems with callbacks and why callback hell will be your worst enemy (hint: it's the inversion of control and non-linear nature of callbacks). In _Chapter 3_, you go __deep__ into the how and why of promises. This chapter is not the easiest read, but you'll be a promise professional if you take the time to properly digest it.  It's worth the effort.
+
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
 1. [This](https://www.sitepoint.com/demystifying-javascript-closures-callbacks-iifes/) is another useful article about Callback functions in JavaScript.
 2. The [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) for Promises.  It might not be the best resource for _learning_ all about them, but once you've read a more friendly article or tutorial, this will probably be the place you return to for a refresher.
 3. [This video](https://www.youtube.com/watch?v=vQ3MoXnKfuQ) and [this one too](https://www.youtube.com/watch?v=yswb4SkDoj0) are both nice introductions to Promises if you need more repetition.
 4. [This tutorial](https://scotch.io/tutorials/javascript-promises-for-dummies) is another good introduction.
-5. [This video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) dives into the event loop and how asynchronous code works in JavaScript.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+ - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function">What is a callback?</a>
+ - <a class="knowledge-check-link" href="#promises">What is a promise?</a>
+ - <a class="knowledge-check-link" href="http://callbackhell.com/">When should you use promises over callbacks?</a>
+ - <a class="knowledge-check-link" href="https://davidwalsh.name/promises">What does the `.then()` function do?</a>

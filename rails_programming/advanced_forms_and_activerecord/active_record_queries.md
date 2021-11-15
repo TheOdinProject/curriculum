@@ -48,7 +48,7 @@ This behaviour can be a bit tricky to observe if you use something like the Rail
 
 #### Chaining Queries
 
-Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in ascending order (`Post.limit(5).order(created_at: :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
+Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in descending order (`Post.limit(5).order(created_at: :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
 
 This is the sort of behaviour that you just sort of expect to work, and Relations are what enables it to do so.
 
@@ -149,6 +149,12 @@ If the best way to make an application run faster is to reduce database calls, w
 
 Rails is well aware of your distress and has provided a simple solution -- "eager loading".  When you first grab the list of all users, you can tell Rails to also grab the cities at the same time (with just one additional query) and store them in memory until you'd like to call upon them.  Then `user.city` gets treated the same way as `user.name`... it doesn't run another query.  The trick is the `#includes` method.
 
+~~~ruby
+  User.all.includes(:city).each do |user|
+    puts user.city
+  end
+~~~
+
 `#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
 
 Note: One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
@@ -164,7 +170,7 @@ This is another way to help speed up your application if you've found pain point
 
 ### Scopes
 
-Scopes are underappreciated and awesome and very simple.  A scope is basically a custom chain of ActiveRecord methods that you can slap onto an existing Relation by calling its name like a normal method.  It's easiest to see in an example.
+Scopes are underappreciated, awesome and very simple.  A scope is basically a custom chain of ActiveRecord methods that you can slap onto an existing Relation by calling its name like a normal method.  It's easiest to see in an example.
 
 Let's say you let your user choose to filter your blog posts only for those marked "important":
 
@@ -212,16 +218,16 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 <div class="lesson-content__panel" markdown="1">
 
 ### Querying Basics
-1. Read the first 5 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
-2. Read section 20 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?` `any?` and `many?`.
-3. Read sections 6, 7, and 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
-4. Skim sections 8-11 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).  
-5. Read section 12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
-6. Read section 18 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
+1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
+2. Read section 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
+3. Read sections 7, 8 and 22 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
+4. Skim sections 9-12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).  
+5. Read section 13 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
+6. Read section 19 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
 
 ### Advanced Querying
-1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
-2. Read section 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
+1. Read section 15 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
+2. Read section 20 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
 </div>
 
 ### Conclusion
@@ -229,7 +235,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record.  At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods.  You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
 * [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
@@ -238,3 +244,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
 * [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
 * [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
+* [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)

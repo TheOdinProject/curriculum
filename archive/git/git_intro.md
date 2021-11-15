@@ -39,7 +39,7 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 <summary>Describe whether Git and GitHub work at a local or remote level</summary>
 <ul><ul>
   <li>Git works on a local level. Any changes you make are saved locally with Git.</li>
-  <li>GitHub works on a remote level.  You must push your changes made locally (using Git) to Github</li>
+  <li>GitHub works on a remote level.  You must push your changes made locally (using Git) to GitHub</li>
 </ul></ul>
 </details>
 

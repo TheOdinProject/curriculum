@@ -20,11 +20,12 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [Authentic Jobs](http://www.authenticjobs.com)
 * [StackOverflow Jobs](https://stackoverflow.com/jobs)
 * [CWJobs](http://cwjobs.co.uk)
-* [Github Jobs](https://jobs.github.com/)
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
 * [Dice.com](http://www.dice.com)
 * [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
-* [Join-Startups](http://join-startups.com) - open startup jobs in a dozen cities
+* [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities
+* [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups
+* [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote
 
 ### On Recruiters
 
