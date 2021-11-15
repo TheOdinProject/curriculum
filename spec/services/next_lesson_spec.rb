@@ -1,28 +1,42 @@
 require 'rails_helper'
 
 RSpec.describe NextLesson do
-  subject { NextLesson.new(course, lesson_completions) }
+  subject(:next_lesson) { NextLesson.new(course, lesson_completions) }
 
-  let(:course) { double('Course', lessons: lessons, id: 1) }
-  let(:lessons) { [lesson, next_lesson] }
-  let(:lesson) { double('Lesson', position: 1) }
-  let(:next_lesson) { double('Lesson', position: 2) }
-  let(:lesson_completions) { [lesson_completion] }
-  let(:lesson_completion) do
-    double(
-      'LessonCompletion',
-      lesson: lesson,
-      created_at: '10-11-2017'
-    )
-  end
+  let(:course) { create(:course) }
+  let!(:lesson_one) { create(:lesson, course: course) }
+  let!(:lesson_two) { create(:lesson, course: course) }
+  let!(:lesson_three) { create(:lesson, course: course) }
 
-  before do
-    allow(lesson).to receive(:course).and_return(course)
-  end
+  describe '#to_complete' do
+    context 'when there are incomplete lessons after the most recently completed lesson' do
+      let(:lesson_completions) { [create(:lesson_completion, lesson: lesson_one)] }
 
-  describe '#lesson' do
-    it 'returns the next lesson to complete' do
-      expect(subject.to_complete).to eql(next_lesson)
+      it 'returns the next incomplete lesson in the course' do
+        expect(next_lesson.to_complete).to eq(lesson_two)
+      end
+    end
+
+    context 'when there are no incomplete lessons after the most recently completed lesson' do
+      let(:lesson_completions) { [create(:lesson_completion, lesson: lesson_three)] }
+
+      it 'returns the first incomplete lesson remaining in the course' do
+        expect(next_lesson.to_complete).to eq(lesson_one)
+      end
+    end
+
+    context 'when there are no remaining incomplete lessons in the course' do
+      let(:lesson_completions) do
+        [
+          create(:lesson_completion, lesson: lesson_one),
+          create(:lesson_completion, lesson: lesson_two),
+          create(:lesson_completion, lesson: lesson_three)
+        ]
+      end
+
+      it 'returns nil' do
+        expect(next_lesson.to_complete).to eq(nil)
+      end
     end
   end
 end

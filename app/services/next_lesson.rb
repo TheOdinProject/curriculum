@@ -5,34 +5,24 @@ class NextLesson
   end
 
   def to_complete
-    next_lesson_to_complete || remaining_lesson_to_complete
+    next_uncompleted_lesson || remaining_lessons_to_complete.first
   end
 
   private
 
   attr_reader :course, :lesson_completions
 
-  def lessons_left_to_complete
-    course.lessons - lessons_already_completed
+  def next_uncompleted_lesson
+    remaining_lessons_to_complete.find do |lesson|
+      lesson.position > most_recent_completed_lesson.position
+    end
   end
 
-  def lessons_already_completed
-    lesson_completions.map(&:lesson)
+  def remaining_lessons_to_complete
+    (course.lessons - lesson_completions.map(&:lesson)).sort_by(&:position)
   end
 
-  def last_lesson_completion
-    lesson_completions.max_by(&:created_at)
-  end
-
-  def latest_completed_lesson
-    last_lesson_completion.lesson
-  end
-
-  def next_lesson_to_complete
-    FindLesson.new(latest_completed_lesson, course).next_lesson
-  end
-
-  def remaining_lesson_to_complete
-    lessons_left_to_complete.min_by(&:position)
+  def most_recent_completed_lesson
+    lesson_completions.max_by(&:created_at).lesson
   end
 end
