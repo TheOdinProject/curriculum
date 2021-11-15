@@ -65,7 +65,7 @@ As it stands this is a pretty sad unit. To make it less of an empty box and more
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Most of our rooms represent a single grid cell. But we have given ourselves a large living room (yay!) We positioned this item using `grid-column-start` and `grid-column-end`. Their property values represent the column grid lines we wish it to start and end with. 
+Most of our rooms represent a single grid cell. But we have given ourselves a large living room. (Yay!) We positioned this item using `grid-column-start` and `grid-column-end`. Their property values represent the column grid lines we wish it to start and end with. 
 
 You will also notice we have commented out property values for this item's grid row positioning. Uncomment the `grid-row-start` and `grid-row-end` properties to see how our living room can get even bigger by taking up the grid track between the first and third-row grid lines.
 
@@ -96,7 +96,7 @@ Our living room above can be written out like this:
 /* styles.css */
 
 #living-room {
-  grid-area: 1 / 1 / 3 / 6
+  grid-area: 1 / 1 / 3 / 6;
 }
 ~~~
 
@@ -110,7 +110,7 @@ So our living room can be written just like this:
 /* styles.css */
 
 #living-room {
-  grid-area: living-room
+  grid-area: living-room;
 }
 ~~~
 
