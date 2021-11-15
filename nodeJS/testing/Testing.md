@@ -9,7 +9,7 @@ By the end of this lesson, you should be able to do or answer the following:
 - Use the `supertest` module to test Express routes/controllers.
 - Describe how supertest handles our express application.
 - Explain the functionality `superagent` provides to supertest.
-- Test asynchronous operations with use of the `done` parameter and supertest's methods.
+- Describe what the `done` parameter is used for.
 - Explain and have a firm understanding of `.expect()` method's functionality.
 - Have familiarity with `supertest`'s documentation and methods.
 
