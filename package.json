@@ -13,7 +13,7 @@
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
     "@rails/ujs": "^6.1.4",
     "@rails/webpacker": "5.4.3",
-    "@sentry/browser": "^6.14.1",
+    "@sentry/browser": "^6.14.3",
     "autoprefixer": "^9",
     "axios": "^0.24.0",
     "babel-plugin-prismjs": "^2.1.0",
