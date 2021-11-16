@@ -64,6 +64,9 @@ success_stories = [
   }
 ]
 
-success_stories.each do |success_story|
-  SuccessStory.find_or_create_by!(success_story)
+seeded_stories = success_stories.flat_map do |success_story|
+  SuccessStory.seed(:student_name, success_story)
 end
+
+# destroy any removed seeds
+[SuccessStory.all - seeded_stories].flatten.each(&:destroy)
