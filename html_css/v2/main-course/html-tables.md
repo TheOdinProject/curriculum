@@ -1,6 +1,6 @@
 ### Introduction
 
-HTML Tables allow you to create two-dimensional tables made of rows and columns. In this lesson you will learn everything you need to know about HTML Tables.
+HTML Tables allow you to create two-dimensional tables made of rows and columns. In this lesson, you will learn everything you need to know about HTML Tables.
 
 ### Learning Outcomes
 
@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
 ### HTML Tables
 
 In the past, tables were often used to create page layouts due to the lack of CSS support. Nowadays, we use them for what they were intended: tabular data!
-Getting started with tables is pretty easy, you create a table with ``<table></table>`` tags and then put the elements for rows, columns, headers or anything else that's possible inside those table elements.
+Getting started with tables is pretty easy, you create a table with ``<table></table>`` tags and then put the elements for rows, columns, headers, or anything else that's possible inside those table elements.
 
 For example: 
 
@@ -26,8 +26,8 @@ In this codepen example we created a table element, containing two table row ele
 
 ### Assignment 
 <div class="lesson-content__panel" markdown="1">
-1. Read <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics">this basic</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced">this advanced</a> tutorial from MDN. It should teach you all the syntax behind it. It's pretty straight forward. Make sure to code along!
-2. Do <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data">this</a> assessment from MDN. It's good to put your newly learnt skills to practice!
+1. Read <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics">this basic</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced">this advanced</a> tutorial from MDN. It should teach you all the syntax behind it. It's pretty straightforward. Make sure to code along!
+2. Do <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data">this</a> assessment from MDN. It's good to put your newly learned skills to practice!
 </div>
 
 ### Additional Resources
