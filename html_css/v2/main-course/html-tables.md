@@ -1,6 +1,6 @@
 ### Introduction
 
-HTML Tables allow you to create two-dimensional tables made of rows and columns.
+HTML Tables allow you to create two-dimensional tables made of rows and columns. In this lesson you will learn everything you need to know about HTML Tables.
 
 ### Learning Outcomes
 
