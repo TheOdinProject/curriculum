@@ -29,3 +29,12 @@ For example:
 </div>
 
 ### Additional Resources
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#what_is_a_table_">What is a table?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#when_should_you_not_use_html_tables">Why is it a bad idea to use HTML Tables for page layout?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#adding_a_caption_to_your_table_with_caption">What are caption elements useful for?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#the_scope_attribute">What is the scope attribute?</a>
