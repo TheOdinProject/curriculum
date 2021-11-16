@@ -6,7 +6,7 @@ HTML Tables allow you to create two-dimensional tables made of rows and columns.
 
 By the end of this lesson, you should be able to do the following:
 
-- Create advanced table HTML tables.
+- Create advanced HTML tables.
 
 ### HTML Tables
 
