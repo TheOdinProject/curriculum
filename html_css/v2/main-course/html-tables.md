@@ -22,3 +22,8 @@ For example:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+### Assignment 
+<div class="lesson-content__panel" markdown="1">
+1. Read <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics">this basic</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced">this advanced</a> tutorial from MDN. It should teach you all the syntax behind it. It's pretty straight forward. Make sure to code along!
+2. Do <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data">this</a> assessment from MDN. It's good to put your newly learnt skills to practice!
+</div>
