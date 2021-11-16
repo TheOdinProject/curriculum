@@ -41,16 +41,16 @@ By default, the current version of Jest will not recognize ES6 import statements
 1. Install the @babel/preset-env package
 
 
-```
-npm i -D @babel/preset-env
-```
+    ```
+    npm i -D @babel/preset-env
+    ```
 
 2. Create a .babelrc file in the project's root with the following lines of code:
 
-``` 
-{
-  "presets": ["@babel/preset-env"]
- }
-```  
+    ``` 
+    {
+      "presets": ["@babel/preset-env"]
+     }
+    ```  
 
 This will allow you to use import statements. Note that in the Jest docs similar instructions are laid out [here](https://jestjs.io/docs/en/getting-started#using-babel).
