@@ -6,13 +6,13 @@ Let's practice!  This testing thing really is not that difficult, but it _is_ qu
 <div class="lesson-content__panel" markdown="1">
 Write tests for the following, and then make the tests pass!
 
-1. A `capitalize` function which takes a string and returns it with the first character capitalized.
+1. A `capitalize` function that takes a string and returns it with the first character capitalized.
 
-2. A `reverseString` function which takes a string and returns it reversed.
+2. A `reverseString` function that takes a string and returns it reversed.
 
-3. A `calculator` object that contains the basic operations: `add`, `subtract`, `divide`, and `multiply`.
+3. A `calculator` object that contains functions for the basic operations: `add`, `subtract`, `divide`, and `multiply`. Each of these functions should take two numbers and return the correct calculation.
 
-4. A `caesarCipher` function. [Read about it on this website](http://practicalcryptography.com/ciphers/caesar-cipher/).
+4. A `caesarCipher` function that takes a string and returns it with each character "shifted". Read more about how a Caesar cipher works on [this website](http://practicalcryptography.com/ciphers/caesar-cipher/).
 
    1. Don’t forget to test wrapping from `z` to `a`.
    2. Don’t forget to test keeping the same case.
