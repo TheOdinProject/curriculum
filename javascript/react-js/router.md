@@ -5,9 +5,7 @@ In this lecture we are going to learn a little bit about routing in React. Up un
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
 
-- Explain how you add page routing to a React project
-- Explain the core three components of React Router
-- Explain how to ensure accurate routing to React components
+- Explain how `react-router-dom` works
 
 ### React Router
 
