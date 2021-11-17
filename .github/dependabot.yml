@@ -4,7 +4,7 @@ updates:
   directory: "/"
   schedule:
     interval: weekly
-  open-pull-requests-limit: 10
+  open-pull-requests-limit: 5
   ignore:
   - dependency-name: rubocop
     versions:
@@ -25,7 +25,7 @@ updates:
   directory: "/"
   schedule:
     interval: weekly
-  open-pull-requests-limit: 10
+  open-pull-requests-limit: 5
   ignore:
   - dependency-name: react-hook-form
     versions:
