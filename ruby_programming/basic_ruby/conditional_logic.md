@@ -53,7 +53,7 @@ You don't even need the `end` statement. Nice and concise!
 
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
-### Adding "else" and "elsif"
+### Adding else and elsif
 We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if...else` statement.
 
 ~~~ruby
@@ -321,13 +321,13 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-  * What is a Boolean?
-  * What are "truthy" values?
-  * Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?
-  * When do you use `elsif`?
-  * When do you use `unless`?
-  * What do `||` and `&&` and `!` do?
-  * What is short circuit evaluation?
-  * What is returned by `puts("woah") || true`?
-  * What is the ternary operator?
-  * When should you use a case statement?
+  * <a class="knowledge-check-link" href="#boolean-logic">What is a Boolean?</a>
+  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">What are "truthy" values?</a>
+  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?</a>
+  * <a class="knowledge-check-link" href="#adding-else-and-elsif">When do you use `elsif`?</a>
+  * <a class="knowledge-check-link" href="#unless-statements">When do you use `unless`?</a>
+  * <a class="knowledge-check-link" href="#logical-operators">What do `||` and `&&` and `!` do?</a>
+  * <a class="knowledge-check-link" href="#logical-operators">What is short circuit evaluation?</a>
+  * <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control">What is returned by `puts("woah") || true`?</a>
+  * <a class="knowledge-check-link" href="#ternary-operator">What is the ternary operator?</a>
+  * <a class="knowledge-check-link" href="#case-statements">When should you use a case statement? </a>
