@@ -48,7 +48,7 @@ module ApplicationHelper
         answer:
           "<p>We won't have any of this 'Learn it all in two days!' BS.  You can't start from scratch and learn true web development in such a short period of time and you know it.  It's highly unlikely that you'll be employable after a weekend workshop or a one-month part-time course.</p>
           <br />
-          <p>On the other hand, you don't necessarily need to put in 4 years getting a CS degree.  80% of what they cover won't be used during a typical web developer's early career and it's not necessary to get hired.  So why not learn the 20% and learn the rest while you're getting paid on the job?</p>
+          <p>On the other hand, you don't necessarily need to put in 4 years getting a computer science degree.  80% of what they cover won't be used during a typical web developer's early career and it's not necessary to get hired.  So why not learn the 20% and learn the rest while you're getting paid on the job?</p>
           <br />
           <p>We've essentially distilled down what you most need to learn to hit that employable level, but it's still a healthy dose of learning.  There is no good way to estimate how long it will take you to reach that point, and we don't have any good way of getting data on how long it takes on average anyways.  If you're naturally more technical or come from a technical background, it may be a bit faster.  If you're less technical or brand new to all this, it will take longer.  Don't despair!  When you think about it, that's pretty much the same learning curve you had to climb to learn anything worthwhile so far in life.</p>"
       },
