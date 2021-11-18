@@ -1,3 +1,7 @@
+### Introduction
+
+Now that we can manipulate the DOM, it's time to revisit [Rock Paper Scissors](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors) and add a simple UI to it. Before we proceed, we need to get familiar with a very popular Git workflow. 
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
