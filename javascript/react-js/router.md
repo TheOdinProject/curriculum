@@ -63,7 +63,7 @@ const Routes = () => {
 export default Routes;
 ~~~
 
-So what is happening here? First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
+<span id="components">So what is happening here?</span> First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
 
 1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
 
@@ -89,7 +89,7 @@ ReactDOM.render(
 Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
 In both cases, the "Hello from App" from our App component is displayed.
 
-There are two solutions to this problem.
+<span id="routing">There are two solutions to this problem.</span>
 
 1. Order your Routes by specificity from top to bottom. Change the order of your two routes so that you have the route with the path equal to "/profile" on top of the homepage. If you check it out in the browser now, you should see the App component on the home route and the Profile component on the "/profile" route. The problem with this solution is that it might take a lot of work sorting them once your application has several routes.
 
@@ -122,6 +122,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Checks
 
 - <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
-- <a class="knowledge-check-link" href="#react-router">What are the three core components of React Router?</a>
-- <a class="knowledge-check-link" href="#react-router">How do you ensure that Router links are routed accurately?</a>
+- <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
+- <a class="knowledge-check-link" href="#routing">How do you ensure that Router links are routed accurately?</a>
 
