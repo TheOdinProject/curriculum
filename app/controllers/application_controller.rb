@@ -45,10 +45,6 @@ class ApplicationController < ActionController::Base
   end
 
   def storable_location?
-    request.get? && is_navigational_format? && !devise_controller? && !request.xhr? && lesson_path?
-  end
-
-  def lesson_path?
     controller_path == 'lessons' && action_name == 'show'
   end
 
