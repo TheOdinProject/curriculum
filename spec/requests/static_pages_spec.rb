@@ -2,24 +2,11 @@ require 'rails_helper'
 
 RSpec.describe 'Static Pages', type: :request do
   describe 'GET #home' do
-    context 'when guest user' do
-      it 'renders the home page' do
-        get home_path
+    it 'renders the home page' do
+      get home_path
 
-        expect(response).to have_http_status(200)
-        expect(response).to render_template(:home)
-      end
-    end
-
-    context 'when user is signed in' do
-      it 'redirects to the users dashboard' do
-        user = create(:user)
-
-        sign_in(user)
-        get home_path
-
-        expect(response).to redirect_to(dashboard_path)
-      end
+      expect(response).to have_http_status(200)
+      expect(response).to render_template(:home)
     end
   end
 

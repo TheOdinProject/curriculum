@@ -10,7 +10,13 @@ Rails.application.routes.draw do
 
   resource :github_webhooks, only: :create, defaults: { formats: :json }
 
-  root 'static_pages#home'
+  unauthenticated do
+    root 'static_pages#home'
+  end
+
+  authenticated :user do
+    root to: 'users#show', as: :dashboard
+  end
 
   devise_for :users, controllers: {
     registrations: 'registrations',
@@ -47,7 +53,6 @@ Rails.application.routes.draw do
     resources :paths, only: :create
     resources :progress, only: :destroy
   end
-  get 'dashboard' => 'users#show', as: :dashboard
 
   # Deprecated Route to Web Development 101 from external links
   get '/courses/web-development-101', to: redirect('/courses/foundations')
