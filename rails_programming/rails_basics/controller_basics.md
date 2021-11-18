@@ -224,4 +224,4 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#parameters">Which variable in your controller contains all the data sent in by the user?</a>
 * <a class="knowledge-check-link" href="#strong-parameters">Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#the-flash">When is a flash message shown?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#flash-now">In which case could the timing of a flash message be a problem and how do we adjust it?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#flash-now">How do we change when a flash is shown?</a>
