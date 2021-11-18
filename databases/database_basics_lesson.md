@@ -12,6 +12,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a database?
 * What are relational databases?
 * How are relational databases different from XML?
+* What's the difference between SQL and NoSQL?
 * What is SQL?
 * What is SQL used for?
 * How do you get all the records from a table in SQL?
@@ -24,6 +25,7 @@ Look through these now and then use them to test yourself after doing the assign
   1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data. (You do not need to go any further than the first page on introductions.)
   2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
   3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases.
+  4. Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out [this artcle](https://circleci.com/blog/SQL-vs-NoSQL-databases/) to learn the difference between SQL and NoSQL.
 
 </div>
 
