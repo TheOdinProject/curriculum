@@ -9,7 +9,7 @@
   <% end %>
   <p class="text-center path-description push-down-2x"><%= @path.description %></p>
 
-  <% @courses.each do |course| %>
+  <% @path.courses.each do |course| %>
     <%= render 'courses/course_card', course: course %>
   <% end %>
 
