@@ -69,3 +69,5 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is inheritance?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">What is a scope?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">When is a new scope defined?</a>
+- <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1#instancevariables">What do we use instance variables for?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">When should you not use class variables?</a>
