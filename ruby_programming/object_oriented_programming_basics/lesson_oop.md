@@ -8,46 +8,10 @@ There's a lot to do here but stick with it!  We'll start with the Codecademy les
 
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
 
-#### Classes and Methods:
-  * What is an implicit return?
-  * What is a class?
-  * When should you use a class?
-  * How do you create a class in your script file?
-  * What is an instance of a class?
-  * What is the difference between the Pascal Case and snake_case styles of naming?
-  * How do you instantiate a class?
-  * How do you set the state of your new instance?
-  * What should be done in the `#initialize` method?
-  * What is a class method?
-  * How is a class method different from an instance method?
-  * How are methods you already know like `#count` or `#sort` etc instance methods?
-  * What's the difference between how you declare a class method vs an instance method?
-  * What's the difference between how you call a class method vs an instance method?
-  * What is an instance variable?
-  * What's the difference between an instance variable and a 'regular' variable?
-  * What are "getter" and "setter" methods used for?
-  * What is the difference between a "getter" and a "setter" method?
-  * How do you make instance variables readable outside your class?  Writeable? Both at the same time?
-  * Can a class call its own class methods?
-  * What's the difference between when you would use a class variable and when you would use a constant?
-  * What's the difference between a class and a module?
-  * When would you use a class but not a module?
-  * How does inheritance work?
-  * Why is inheritance really useful?
-  * How do you extend a class?  What does that mean?
-  * What does `#super` do?  Why use it?
-
-#### Scope:
-  * What is scope?
-  * When can you start using a variable?
-  * When is a new scope defined?
-  * When are methods in scope?
-  * What is a private method?
-  * What is a protected method?
-  * How are private and protected methods different?
-  * What does "encapsulation" mean?
+- You will learn about classes.
+- You will learn about Methods.
+- You will learn about scope.
 
 ### Assignment
 
@@ -71,6 +35,8 @@ Look through these now and then use them to test yourself after doing the assign
   7. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional. It is recommended to install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide. 
       1. Read the [basic usage](https://docs.rubocop.org/rubocop/usage/basic_usage.html) of rubocop in the terminal. 
       2. To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
+  8. Do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
+  9. Do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
 
 ~~~bash
 "ruby.lint": {
@@ -84,15 +50,6 @@ As you begin to use rubocop, you will be inundated with multiple offenses that s
 
 </div>
 
-### Test Yourself
-
-<div class="lesson-content__panel" markdown="1">
-
-  1. Make sure you can do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
-  2. Make sure you can do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
-  3. Make sure you go back up and look at all the questions from the "Learning Outcomes" section. See if you can do most of them without looking back through the text.
-</div>
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
@@ -103,3 +60,14 @@ This section contains helpful links to other content. It isn't required, so cons
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
 
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects">What is a class?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What are getters and setters?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is inheritance?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">What is a scope?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">When is a new scope defined?</a>
+- <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1#instancevariables">What is the purpose of instance variables?</a>
+- <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is the difference between class variables and instance variables?</a>
