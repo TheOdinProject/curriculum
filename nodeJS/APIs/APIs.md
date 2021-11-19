@@ -64,6 +64,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - A [simple](https://simple.wikipedia.org/wiki/Representational_state_transfer) example based definition of REST.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#rest'>What does REST stand for?</a>
 - <a class='knowledge-check-link' href='#rest'>What are HTTP verbs and why are they important to an API?</a>

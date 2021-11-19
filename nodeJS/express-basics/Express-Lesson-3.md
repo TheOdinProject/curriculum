@@ -20,6 +20,7 @@ By the end of this lesson, you should be able to do the following:
 </div>
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules'>How do you define a route function in Express?</a>
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#http_verbs'>Name four HTTP verbs a route might need to handle.</a>

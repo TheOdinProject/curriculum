@@ -223,6 +223,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application without using create-react-app
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>
 - <a class="knowledge-check-link" href="https://reactjs.org/docs/introducing-jsx.html">What is JSX?</a>

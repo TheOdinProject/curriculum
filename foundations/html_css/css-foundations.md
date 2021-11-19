@@ -364,7 +364,7 @@ External CSS is the most common method you will come across, and it involves cre
 <!-- index.html -->
 
 <head>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 ~~~
 ~~~css
