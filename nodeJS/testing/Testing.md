@@ -156,5 +156,5 @@ This section contains questions for you to check your understanding of this less
 
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#about'>What is the motivation behind SuperTest?</a>
 - <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does supertest provide concerning it?</a>
-- <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjuction with .expect() provided by SuperTest?</a>
+- <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?</a>
 - <a class='knowledge-check-link' href='https://visionmedia.github.io/superagent#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>
