@@ -33,6 +33,8 @@ Ultimately frameworks can help you get up and running quickly, but they can cons
 
 Preprocessors (aka precompilers) are languages that help you write CSS more easily. They  reduce code repetition and provide all sorts of time-saving and code-saving features. Just for example: they allow you to write loops, join multiple stylesheets, and nest classes.
 
+CSS preprocessors are extensions to vanilla CSS that provide some extra functionality such as nesting, mixins, and variables.  When you run the processor, it takes your code and turns it into vanilla CSS that you can import into your project.
+
 Preprocessors do have some unique and helpful tools, but many of their most helpful features have been implemented in vanilla CSS, so it might not be worth the overhead of learning one unless you think you really need these features.
 
 Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [LESS](https://lesscss.org/)and [Stylus](https://stylus-lang.com/).
