@@ -49,7 +49,7 @@ This section contains questions for you to check your understanding of this less
 
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How do you amend a commit message that you just messed up?</a>
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History'>How do you view the history of your most recent commits?</a> 
-* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#_switching_branches'>What are two different uses for `$ git checkout`?</a> 
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#_switching_branches'>What are two different uses for `git checkout`?</a> 
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things#_unstaging'>How do you undo a recent commit?</a> 
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>What are branches?</a> 
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#_create_new_branch'>How do you create a new branch to work on?</a> 
