@@ -1,6 +1,6 @@
 ### Introduction
 
-SVGs are one of the most common image formats on the web. They can be a little confusing at first, but once you know how to use them, they are an incredibly powerful tool for creating high-quality, dynamic images for your website.
+SVGs are a very common image format on the web. They can be a little confusing at first, but once you know how to use them, they are an incredibly powerful tool for creating high-quality, dynamic images for your website.
 
 In this lesson, we will learn what exactly SVGs are, what they're used for, and how you can embed them in your websites.
 
@@ -55,7 +55,7 @@ So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right
 
 ### Anatomy of an SVG
 
-Now that you have a strong understanding of SVGs in *theory*, let's put that into practice!
+Typically, you will not want to create SVGs from scratch in your code.  Most often you will download the file or copy the code either from a website, or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="simple svg example" src="https://codepen.io/isaiahaiasi/embed/eYEeZRb?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/isaiahaiasi/pen/eYEeZRb">
@@ -72,25 +72,19 @@ Now that you have a strong understanding of SVGs in *theory*, let's put that int
 Play around with the code above and try to get a feel for what's happening. What happens when you change the viewBox dimensions? Or the attributes of an element?
 
 
-### Embedding SVGs (Outline)
+### Embedding SVGs
 
 There are two main approaches when deciding how to actually place the SVG in your document: linked, and inline.
 
-Linking SVGs works basically the same way as linking any other image. You can use an HTML image element such as `<img>`, or link it in your CSS using `background-image: url(./my-image.svg). They will still scale properly, but the contents of the SVG will not be accessible from the webpage.
+Linking SVGs works basically the same way as linking any other image. You can use an HTML image element such as `<img>`, or link it in your CSS using `background-image: url(./my-image.svg)`. They will still scale properly, but the contents of the SVG will not be accessible from the webpage.
 
 The alternative is to inline your SVGs by pasting their contents directly into your webpage's code, rather than linking to it as an image. It will still render correctly, but the SVG's properties will be visible to your code, which will allow you to alter the image dynamically via CSS or JavaScript.
 
 Inlining SVGs allow you to unlock their full potential, but it also comes with some serious drawbacks: it makes your code harder to read, makes your page less cacheable, and if it's a large SVG it might delay the rest of your HTML from loading.
 
-The "Developer Experience" issues that come with inlining SVGs can be improved by making use of build tools to inline the SVGs for you. If you're using a build tool like webpack, you can add a simple asset-loading rule to take your individual SVGs and inline them automatically at build-time. However, this adds its own layer of complexity, and also doesn't address the caching or loading issues.
+Some of the drawbacks of inlining svg code can be avoided once you've learned a front-end JavaScript framework like React, or a build-tool like webpack.  We aren't quite ready to get into those yet, so just keep that in the back of your mind.
 
-#### Inline style targeting example
-~~~xml
-<CODEPEN>
-  Highlight how you can target SVG elements with css,
-  and let the learner play with that to get a sense of how powerful it can be.
-</CODEPEN>
-~~~
+For now, just do which ever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak on the SVG code alongside your HTML.
 
 ### Additional Resources
 
@@ -108,8 +102,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 
 ### Knowledge Check
-
-NOTE - UPDATE FORMAT
 
 - What is the `xmlns` attribute?
 - What are some situations where you *wouldn't* want to use SVG?
