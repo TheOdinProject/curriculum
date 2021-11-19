@@ -40,3 +40,12 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 2. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
 
 </div>
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/test-driven-development#what-is-test-driven-development">What is the "red-green-refactor" cycle?</a>
+- <a class="knowledge-check-link" href="https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid#unit-tests">What is the difference between unit and integration tests?</a>
+- <a class="knowledge-check-link" href="https://www.madetech.com/blog/9-benefits-of-test-driven-development">How does TDD help in code refactoring?</a>
+
