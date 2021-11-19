@@ -27,6 +27,7 @@ TOP uses Markdown for its lessons and projects to be easily read and edited, and
     1.  [Nest codeblocks within lists](#nest-codeblocks-within-lists)
 1.  [Links](#links)
 1.  [Images](#images)
+1.  [Codepen Embeds](#codepen-embeds)
 
 
 ## Layouts
@@ -304,3 +305,16 @@ Images in Markdown follow the same syntax as links, except they begin with an ex
 The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative, but shouldn't be overly verbose.
 
 In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page.
+
+## Codepen Embeds
+
+In order to embed a Codepen example into a lesson, you must be in the editor view for the Codepen you wish to embed and then click the `Embed` button at the bottom right of the page.
+
+The following options should be selected when creating a Codepen embed:
+
+* **Default Tabs**: The "Result" tab must be selected in addition to one of the other three options (HTML, CSS, or JavaScript), depending on the main purpose of the Codepen. If the purpose is to show an HTML concept then the "HTML" option must also be selected, for example.
+* **Theme**: "Dark"
+* **Use Click-to-Load**: "Off"
+* **Make Code Editable**: "On"
+
+Finally, the **HTML (Recommended)** code option must be the one that is copy + pasted into the lesson.
