@@ -1,13 +1,13 @@
 ### Introduction
 
-You may have noticed that some property values you’ve worked with in CSS have a slightly different syntax. When the value is a word followed by a pair of parentheses () containing information between them - as in background-color: `rgb(0, 0, 0)` - you’re using CSS functions. 
+You may have noticed that some property values you’ve worked with in CSS have a slightly different syntax. When the value is a word followed by a pair of parentheses () containing information between them - as in background-color: `rgb(0, 0, 0)` - you’re using CSS functions.
 
 In this lesson, we’ll cover the basics of what a function is and some common ways they’re used in CSS.
 
 ### Learning outcomes
 
-* Recognize the basic parts of a CSS function
-* Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one
+- Recognize the basic parts of a CSS function
+- Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one
 
 ##### What is a function and how are they used in CSS?
 
@@ -18,17 +18,18 @@ As in other programming languages, functions are reusable pieces of code which p
 
 Here, the value of `color` is the function `rgb()`, which accepts arguments in the form of numbers. It processes those numbers to calculate the rgb color corresponding to the three values given. Similarly, the `background` property has a value of `linear-gradient(90deg, blue, red)`, which calculates the angle, starting color, and ending color of a gradient.
 
-Unlike other programming languages you’ll use in TOP, CSS does not allow us to create our own functions. Instead, the language comes bundled with a list of premade functions that will help you solve the most common styling problems. 
+Unlike other programming languages you’ll use in TOP, CSS does not allow us to create our own functions. Instead, the language comes bundled with a list of premade functions that will help you solve the most common styling problems.
 
 Besides defining colors, there are several CSS functions that are useful when designing a website’s layout and sizing. These become important when thinking about responsive design.
 
-Let’s  go over a few of these functions: `calc()`, `min()`, `max()`, and `clamp()`.
+Let’s go over a few of these functions: `calc()`, `min()`, `max()`, and `clamp()`.
 
 ##### calc()
+
 The most powerful use cases for calc include:
 
-* Mixing units
-* The ability to nest `calc( calc () - calc () )`
+- Mixing units
+- The ability to nest `calc( calc () - calc () )`
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="calc()" src="https://codepen.io/michaelleojacob/embed/NWgmevp?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/michaelleojacob/pen/NWgmevp">
@@ -70,7 +71,7 @@ If there are not `150px` available, the image will switch to `100%` of the paren
 
 ##### max()
 
-Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. 
+Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses.
 
 The max function is most useful when the viewing window is either exceptionally large, or the user increases the content size by using the browser’s zoom feature. Specifying the maximum possible size of a given element, for example, will prevent that element from infinitely filling the page as it expands.
 
@@ -78,24 +79,25 @@ Consider the following property of a given element:
 
 `width: max(100px, 1rem, 4em, 50%)`
 
-From this list of given sizes, max will select the largest that will possibly fit within the viewing window. 
+From this list of given sizes, max will select the largest that will possibly fit within the viewing window.
 
 You may not find a lot of use for max at first, but it is good tool to be aware of for projects where accessibility is important.
 
-
 ##### clamp()
 
-`clamp()` is a great way to make elements fluid and responsive. 
+`clamp()` is a great way to make elements fluid and responsive.
 `clamp()` takes 3 values.
 `font-size: clamp(320px, 80vw, 60rem);`
+
 1. `the smallest value`, 2. `the ideal value`, 3. `the largest value`
 
 You can find more about clamp from this interactive website [here](https://web.dev/min-max-clamp/).
 
-
 ### Assignment
 
-[Briefly read through the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+<div class="lesson-content__panel" markdown="1">
+[Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+</div>
 
 ### Additional Resources
 
@@ -105,8 +107,8 @@ This section contains helpful links to other content. It isn’t required, so co
 
 [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
 
-
 ### Knowledge Check
-* What are the four CSS math functions we covered above?
-* How do we use CSS math functions in our CSS?
-* How can CSS functions help make websites and applications more responsive?
+
+- What are the four CSS math functions we covered above?
+- How do we use CSS math functions in our CSS?
+- How can CSS functions help make websites and applications more responsive?
