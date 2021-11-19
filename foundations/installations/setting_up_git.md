@@ -125,6 +125,11 @@ git config --get user.name
 git config --get user.email
 ~~~
 
+You can also set up a default editor that `git` will use for more advanced commands. We will set up `git` to use VSCode as its default editor by typing
+~~~bash
+git config --global core.editor "code -w"
+~~~
+
 #### Step 2.2: Create a GitHub Account or Sign In
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
