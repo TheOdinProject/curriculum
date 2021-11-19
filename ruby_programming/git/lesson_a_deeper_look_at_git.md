@@ -58,4 +58,4 @@ This section contains questions for you to check your understanding of this less
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Why is working with feature branches useful?</a>
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Rebasing'>What is the difference between using `git merge` and `git rebase`?</a>
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes'>What is the difference between a "remote" and your local repo?</a>
-* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories'>How do you add your GitHub repo as the remote?</a>
+* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories'>How do you add your GitHub repo as a remote?</a>
