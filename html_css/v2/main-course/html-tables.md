@@ -10,8 +10,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### HTML Tables
 
-In the past, tables were often used to create page layouts due to the lack of CSS support. Nowadays, we use them for what they were intended: tabular data!
-Getting started with tables is pretty easy, you create a table with ``<table></table>`` tags and then put the elements for rows, columns, headers, or anything else that's possible inside those table elements.
+Some data just really needs to be displayed in a table. HTML tables might be less commonly used than buttons, links, lists and everything else you've learned so far, but there are some cases where they're the _perfect_ tool. Some of the more advanced features can get a little tricky to set up correctly but getting started with tables is pretty easy. You create a table with `<table></table>` tags and then put the elements for rows, columns, headers, or anything else that's possible inside those table elements.
 
 For example: 
 
