@@ -40,30 +40,52 @@ For the reasons above, **we recommend that you continue to focus on the fundamen
 
 ### Preprocessors Overview
 
-Preprocessors (aka precompilers) are languages that help you write CSS more easily. They  eliminate code repetition and provide all sorts of time-saving and code-saving features. Some popular preprocessors are [SASS](https://sass-lang.com/), [Less](https://lesscss.org/)and [Stylus](https://stylus-lang.com/),  If you've been using Rails, you'll be familiar with SASS already since it's baked in.  If you're not using Rails, you may need to add some additional steps to your workflow to get your preprocessor set up, but it's usually worth it.
+Preprocessors (aka precompilers) are languages that help you write CSS more easily. They  eliminate code repetition and provide all sorts of time-saving and code-saving features. Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [LESS](https://lesscss.org/)and [Stylus](https://stylus-lang.com/).
 
-There are some potential disadvantages to using preprocessors; see the reading below for a description.
+Note: If you've been using Rails, you'll be familiar with SASS already since it's baked in.  If you're not using Rails, you may need to add some additional steps to your workflow to get it set up, but it's usually worth it.
 
-Some of the useful features of preprocessors includ:
+Some of the useful features of preprocessors include:
 
-1. 
+1. Programming in CSS but with more options available to you.
+2. Including variables in your CSS (not an option in vanilla CSS).
+3. Including loops in your CSS (again not an option in vanilla CSS).
+4. Including if/else statement in your CSS (see the pattern here?).
+5. Allowing you to create reusable code.
+6. And a lot more features, depending on which preprocessor you use.
+
+As you can see, preprocessors are extremely helpful tools; however, there are some potential disadvantages to using them. See the reading below for one list of disadvantages.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1.
-2.
-3.
+1. Read [this brief overview of frameworks](https://medium.com/html-all-the-things/what-is-a-css-framework-f758ef0b1a11).
+2. Check out [this article](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/) on the pros and cons of using a framework vs. CSS grid.
+3. Read [this brief article](https://blog.zipboard.co/do-i-need-to-start-using-css-preprocessors-a72b525c180a) that takes a look at the three preprocessors mentioned above, and why they are useful.
+4. Read [this extremely brief article](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2) on why you should use a preprocessor.
+5. For balance, read [this list of the disadvantages of using a preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/).
 </div>
 
 ### Additional Resources
 
-* 
-*
-*
+* [Bootstrap documentation](https://bootstrapdocs.com/v3.0.3/docs/getting-started/)
+* [Foundation documentation](https://get.foundation/sites/docs/)
+* [Tailwind documentation](https://tailwindcss.com/docs)
+* [Bulma documentation](https://bulma.io/documentation/)
+* [SASS documentation](https://sass-lang.com/documentation)
+* [LESS documentation](https://lesscss.org/)
+* [Stylus documentation](https://stylus-lang.com/)
+
 
 ### Knowledge Check
 
--
--
--
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* [In your own words, describe what a CSS framework does.](https://www.browserstack.com/guide/top-css-frameworks)
+* [What are some popular CSS frameworks?](https://dev.to/thenerdydev/best-css-frameworks-in-2021-1f3p)
+* [What are some advantages of using a CSS framework?](https://speckyboy.com/discussing-the-pros-and-cons-of-using-a-css-framework/)
+* [What are some disadvantages of using a CSS framework?](https://speckyboy.com/discussing-the-pros-and-cons-of-using-a-css-framework/)
+* [When might it be better to use vanilla CSS over a framework?](https://dev.to/shubambhasin/vanilla-css-vs-css-frameworks-3ol7)
+* [In your own words, describe what a CSS preprocessor does.](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+* [What are some popular CSS preprocessors?](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+* [What are some of the useful features of CSS preprocessor?](https://www.freecodecamp.org/news/css-preprocessors/)
+* [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
