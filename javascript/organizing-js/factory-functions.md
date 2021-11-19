@@ -160,7 +160,7 @@ counter(); // 2
 counter(); // 3
 ~~~
 
-In this example, `counterCreator` initializes a local variable (`count`) and then returns a function. To use that function, we have to assign it to a variable (line 9). Then, every time we run the function it `console.log`s `count` and increments it. Keep in mind, `counter()` is calling the return value of `counterCreator`. As above, the function `counter` is a closure. It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
+In this example, `counterCreator` initializes a local variable (`count`) and then returns a function. To use that function, we have to assign it to a variable (line 9). Then, every time we run the function is logs `count` to the console and increments it. Keep in mind, `counter()` is calling the return value of `counterCreator`. As above, the function `counter` is a closure. It has access to the variable `count` and can both print and increment it, but there is no other way for our program to access that variable.
 
 <span id='private-functions-variables'></span>In the context of factory functions, closures allow us to create __private__ variables and functions. Private functions are functions that are used in the workings of our objects that are not intended to be used elsewhere in our program. In other words, even though our objects might only do one or two things, we are free to split our functions up as much as we want (allowing for cleaner, easier to read code) and only export the functions that the rest of the program is going to use. Using this terminology with our `printString` example from earlier, `capitalizeString` is a private function and `printString` is public.
 
