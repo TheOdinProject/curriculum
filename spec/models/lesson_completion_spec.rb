@@ -8,6 +8,7 @@ RSpec.describe LessonCompletion do
 
   it { is_expected.to validate_presence_of(:user_id) }
   it { is_expected.to validate_presence_of(:lesson_id) }
+  it { is_expected.to validate_uniqueness_of(:user_id).scoped_to(:lesson_id) }
 
   describe '.created_today' do
     let!(:lesson_completed_today) do
