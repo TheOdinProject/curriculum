@@ -11,21 +11,12 @@ To use an instance variable from your view, just call it the same way you would 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* What is a layout?
-* What's the difference between a "view template" and a "layout"?
-* What is a "Preprocessor"?
-* Why are preprocessors useful?
-* How do you make sure a preprocessor runs on your file?
-* What's the outputted filetype of a preprocessed `*.html.erb` file?  What about a `*.css.scss` file?
-* What is the difference between the `<%=`, `<%`, and `<%#` tags?
-* What is a view partial?
-* How do you insert a partial into your view?
-* How can you tell that a view file is a partial?
-* How do you pass a local variable to a partial?
-* What's the magical Rails shortcut for rendering a User?  A bunch of Users?
-* What are asset tags and why are they used?
+* Explain how view templates and layouts are organized in Rails.
+* Apply ERB in your view files.
+* Create and call a partial.
+* Create dynamic anchor tags in your view files.
 
 ### Layouts
 
