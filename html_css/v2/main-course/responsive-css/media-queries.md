@@ -84,5 +84,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * This [Media Query Tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) on FreeCodeCamp covers the same items we've touched on here.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * <a class="knowledge-check-link" href="#media-query-syntax">How do you define a media query to create a mobile layout for your site?</a>
 * <a class="knowledge-check-link" href="#tips">What is the difference between `max-width` and `min-width` in a media query definition?</a>

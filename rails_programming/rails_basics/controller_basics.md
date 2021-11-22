@@ -21,21 +21,13 @@ The controller's `#index` action would actually look as simple as:
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* Why is it important what you name your models, controllers, and views?
-* Where is the view file located that's rendered by default for a given controller?
-* What's the difference between a `#render` and a `#redirect_to`?
-* What happens to the controller's instance variables in each case?
-* What is a shortcut for redirecting to a specific Post (tip: this works in all kinds of places like `#link_to` and `#*_path`)
-* Does a method finish executing or get interrupted when it hits a `#render` or `#redirect_to`?
-* What happens if you have multiple renders or redirects?
-* What are Strong Parameters?
-* When can you just use the `params` hash directly and when do you need to specifically "whitelist" its contents?
-* What are "scalar" values?
-* What does `#require` do? `#permit`?
-* What's the `#flash`?
-* What's the difference between `#flash` and `#flash.now`?
+* Explain what goes on in a RESTful controller action.
+* Override an implicit render of the view-file.
+* Distinguish situations in which to use `redirect_to` or `render`.
+* Handle and restrict parameters and POST-data passed to your controller.
+* Display a flash message.
 
 ### Naming Matters
 
@@ -222,3 +214,14 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Controller & Routes Video Demo](https://vimeo.com/168501163)
 * [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark">What does a controller do?</a>
+* <a class="knowledge-check-link" href="#naming-matters">Why is it important to adhere to the Rails naming convention for your controllers and all of its methods?</a>
+* <a class="knowledge-check-link" href="#rendering-and-redirecting">What is the difference between `render` and `redirect_to`?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#parameters">Which variable in your controller contains all the data sent in by the user?</a>
+* <a class="knowledge-check-link" href="#strong-parameters">Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#the-flash">When is a flash message shown?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#flash-now">How do we change when a flash is shown?</a>

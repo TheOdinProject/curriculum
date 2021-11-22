@@ -311,6 +311,7 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#repeat">How do you create several grid tracks of the same size without manually typing each one out?</a>
 - <a class="knowledge-check-link" href="#fractional-units">What is the difference between a static and dynamic size value?</a>

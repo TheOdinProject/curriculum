@@ -24,9 +24,9 @@ Why do we even need or want this stuff? What do you gain from all of this added 
 
 - Read [this article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html) for a bit of a history lesson. It's long, but it puts what we're doing here in great perspective. This article is a bit older, and those who have coded along with the example have frequently run into issues, so we don't suggest that you code along (you'll be following along with the official Webpack documentation later). Nevertheless, this article is extremely important conceptually and really clarifies the 'WHY' of the rest of this lesson.
 
-### npm <span id="npm-knowledge-check"></span>
+### npm
 
-The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you installed the Jest testing framework to do our exercises.
+The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you [installed the Jest testing framework](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to do our exercises.
 
 Read through the npm links below but don't worry about running any of the commands on your computer. This section is about growing your awareness of npm. You will have an opportunity to use what you learn here in upcoming projects.
 
@@ -51,7 +51,7 @@ To get us started, we are going to refer to the official documentation.
 
 Let's discuss what's going on there. After installing webpack using npm, we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
 
-<span id="npm-knowledge-check"></span> 
+<span id="webpack-knowledge-check"></span> 
 There are a couple of key concepts to understanding how webpack works - __entry__ and __output__. In this example, we rearranged the files into a `src` and `dist` folder. Technically we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files looking for any `import` statements and then compiles _all_ of the code we need to run our site into a single file inside of the `dist` folder (short for _distribution_). Our __entry__ file, then is the main application file that links (either directly or indirectly) to all of the other modules in our project. In this example, it is `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
@@ -153,7 +153,7 @@ The various import/export methods are best explained in the docs that we linked 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#npm-knowledge-check">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>
+- <a class="knowledge-check-link" href="#npm">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>
 - <a class="knowledge-check-link" href="https://docs.npmjs.com/creating-a-package-json-file">Describe what `npm init` does and what `package.json` is.</a>
 - <a class="knowledge-check-link" href="https://docs.npmjs.com/downloading-and-installing-packages-locally">Know how to install packages using npm.</a>
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe what a JavaScript module bundler like webpack is.</a>

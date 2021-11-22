@@ -1,13 +1,14 @@
-### Arrays
-
-Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
-
 ### Learning Outcomes
 
 - Using arrays.
 - Using built-in array methods.
 - Using loops.
 - Getting your hands dirty with TDD exercises.
+
+
+### Arrays
+
+Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
 
 
 1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  
@@ -53,7 +54,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you access an array element?</a>
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you change an array element?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties?</a>
 - <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_array_methods.asp">What are some useful array methods?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother">What are loops useful for?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break">What is the break statement?</a>

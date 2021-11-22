@@ -256,6 +256,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * What is the difference between the child combinator and the descendant combinator?
 * How does the syntax of pseudo-classes and pseudo-elements differ?
 * Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?

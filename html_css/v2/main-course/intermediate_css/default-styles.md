@@ -27,4 +27,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [A Look at CSS Resets in 2018](https://bitsofco.de/a-look-at-css-resets-in-2018/) is another article that talks about the various resets out there.
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
 * Why would you want to use a CSS reset?
