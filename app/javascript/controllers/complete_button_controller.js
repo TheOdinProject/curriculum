@@ -15,7 +15,7 @@ export default class CompleteButton extends Controller {
     id: Number,
     isCompleted: Boolean,
     isLoading: Boolean,
-  }
+  };
 
   connect() {
     this.setState(this.isCompletedValue);

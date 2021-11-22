@@ -10,7 +10,7 @@ export default class ProgressController extends Controller {
   static values = {
     url: String,
     percent: String,
-  }
+  };
 
   initialize() {
     this.fetchProgress = debounce(this.fetchProgress, 400).bind(this);
