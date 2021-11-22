@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-document.addEventListener('turbolinks:load', (element) => {
+document.addEventListener('DOMContentLoaded', () => {
   Array.from(document.querySelectorAll('.settings-card')).forEach((element) => {
     const toggler = element.querySelector('.settings-card__edit-button--open');
     const settingsViewForm = element.querySelector('.settings-view--hidden');

@@ -1,4 +1,4 @@
-document.addEventListener('turbolinks:load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const dropdowns = document.querySelectorAll('.odin-dropdown');
 
   dropdowns.forEach((dropdown) => {

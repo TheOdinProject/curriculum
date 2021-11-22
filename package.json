@@ -41,7 +41,6 @@
     "regenerator-runtime": "^0.13.9",
     "stickyfilljs": "^2.1.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "turbolinks": "^5.2.0",
     "validate.js": "^0.13.1",
     "yup": "^0.32.11"
   },

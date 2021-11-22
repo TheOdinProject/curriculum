@@ -38,7 +38,7 @@ const constraints = {
   },
 };
 
-document.addEventListener('turbolinks:load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const forms = document.querySelectorAll('.form');
   if (!forms) return;
 

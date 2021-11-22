@@ -15,7 +15,6 @@
 // const imagePath = (name) => images(name, true)
 
 import Rails from '@rails/ujs';
-import Turbolinks from 'turbolinks';
 
 import '../layouts/application.css';
 
@@ -40,7 +39,6 @@ import '../src/js/scrollspy.min';
 import 'controllers';
 
 Rails.start();
-Turbolinks.start();
 
 const componentRequireContext = require.context('components', true);
 const ReactRailsUJS = require('react_ujs');

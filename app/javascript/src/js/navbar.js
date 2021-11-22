@@ -1,4 +1,4 @@
-document.addEventListener('turbolinks:load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const logoText = document.querySelector('.logo__text');
   const navToggle = document.querySelector('.navbar-toggler');
   const modalClose = document.querySelector('.close');

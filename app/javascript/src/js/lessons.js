@@ -30,7 +30,7 @@ function navigationElement(headingText) {
     `${'<div class="lesson-navigation__item">'
     + '<div class="lesson-navigation__circle"></div>'
     + '<div class="lesson-navigation__title">'
-    + '<a class="lesson-navigation__link grey" href="#'}${kebabCase(headingText)}" data-turbolinks="false">${headingText
+    + '<a class="lesson-navigation__link grey" href="#'}${kebabCase(headingText)}">${headingText
     }</a></div></div>`
   );
 }
@@ -161,7 +161,7 @@ function makeImageChildOfAnchor(image) {
   wrappingAnchor.appendChild(image);
 }
 
-document.addEventListener('turbolinks:load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   if (!isLessonPage()) return;
 
   Prism.highlightAll();

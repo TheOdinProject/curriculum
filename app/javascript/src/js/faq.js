@@ -19,4 +19,4 @@ function getOpenedCardSelector(element) {
   return `.faq-card a[href="#${openedCardId}"]`;
 }
 
-$(document).on('turbolinks:load', setup);
+$(document).on('DOMContentLoaded', setup);
