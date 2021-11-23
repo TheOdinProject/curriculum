@@ -125,7 +125,7 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-You can also set up a default editor that `git` will use for more advanced commands. We will set up `git` to use VSCode as its default editor by typing
+Certain `git` commands will require some input from you. At times, these inputs can be lengthy and `git` will open a default text editor for you to make changes. The default setting is usually GNU Nano, a command-line based text editor. If you want to, you can set the default editor to VSCode, which we already installed, by typing 
 ~~~bash
 git config --global core.editor "code -w"
 ~~~
