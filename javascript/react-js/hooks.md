@@ -8,6 +8,12 @@ Other than the basic hooks you will encounter in this section, there are many ot
 
 Now we will discuss the most basic hooks.  Create a `create-react-app` and use the App.js file for the following examples. This won't actually create a lot of functionality, but when coding along you will remember everything better thanks to muscle memory.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+- Explain how state is managed in a functional component
+- Explain how lifecycle methods work in a functional component
+
 ### useState
 
 So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:
@@ -37,7 +43,7 @@ Go try this out in the browser.
 
 First, we have to import the `useState` hook from react.
  
-Then we can declare a state like this: `const [count, setCount] = useState(0)`. This is the syntax to declare a state. The name "count" and "setCount" is totally up to us, we could also call it "something" and "somethingElse" but this wouldn't be very good, because then "somethingElse" would be called to set "something" in the state. It doesn't read as easily. The convention is to always call the second value like the first, just with a "set" in front. The `useState(0)` call initializes our state with the value we set in brackets (0).
+Then we can <span id='declare-state'>declare</span> a state like this: `const [count, setCount] = useState(0)`. This is the syntax to declare a state. The name "count" and "setCount" is totally up to us, we could also call it "something" and "somethingElse" but this wouldn't be very good, because then "somethingElse" would be called to set "something" in the state. It doesn't read as easily. The <span id='naming-convention'>convention</span> is to always call the second value like the first, just with a "set" in front. The `useState(0)` call initializes our state with the value we set in brackets (0).
  
 Afterwards we are declaring a function, which right now just sets a new count. In this case we are incrementing the current count with one. This function will be called anytime we click the button. In the div above the button we are just displaying the current state. One thing to mention and keep in mind here is that setting the state is an asynchronous task. Additionally, setting the state calls a re-render. That's the reason we see the new count when clicking the button. If it wouldn't trigger a re-render then we would still see the old count. Our component will update after setting the state. As mentioned in our last lecture, we might want to use this opportunity of updating to do some tasks. Unfortunately, we don't have any lifecycle methods in functional components, right?
 
@@ -103,7 +109,7 @@ The syntax is as follows:
 
 In the curly brackets you can write the code that will be executed. The dependency array at the end is optional, however, you will include it more often than not. A dependency is any state, prop, context that is used within the `useEffect` callback. You can also include state or props that are not. `useEffect` will trigger based on changes in the dependencies listed. ESLint will warn you if it expects a dependency, but one is not added, however, this is a warning and they are not **required**.
 
-You have three different options for the dependency array:
+You have three different options for the <span id='dependency'>dependency</span> array:
 
 1. Leave it empty. If you leave it empty the useEffect hook would look something like this:
 
@@ -158,3 +164,11 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Here](https://www.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
 * [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
   * There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from https://swapi.co to https://swapi.dev.
+
+  ### Knowledge Checks
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#declare-state">How do you declare state in a functional component?</a>
+- <a class="knowledge-check-link" href="#naming-convention">What is the correct naming convention for state values?</a>
+- <a class="knowledge-check-link" href="#useeffect">How do you mimic `componentDidMount`, `componentDidUpdate` and `componentWillUnmount` in a functional component?</a>
+- <a class="knowledge-check-link" href="#dependency">Explain how the dependency array in the `useEffect` hook impacts the effect of the hook?</a>
