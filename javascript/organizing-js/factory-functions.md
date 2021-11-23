@@ -250,10 +250,10 @@ Modules are actually very similar to factory functions. The main difference is h
 Meet a module:
 
 ~~~javascript
-var myModule = (function() {
+const myModule = (function() {
   'use strict';
 
-  var _privateProperty = 'Hello World';
+  const _privateProperty = 'Hello World';
 
   function _privateMethod() {
     console.log(_privateProperty);
