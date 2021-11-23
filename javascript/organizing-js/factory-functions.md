@@ -250,22 +250,21 @@ Modules are actually very similar to factory functions. The main difference is h
 Meet a module:
 
 ~~~javascript
-const calculator = (() => {
-  const add = (a, b) => a + b;
-  const sub = (a, b) => a - b;
-  const mul = (a, b) => a * b;
-  const div = (a, b) => a / b;
-  return {
-    add,
-    sub,
-    mul,
-    div,
-  };
-})();
+var myModule = (function() {
+  'use strict';
 
-calculator.add(3,5) // 8
-calculator.sub(6,2) // 4
-calculator.mul(14,5534) // 77476
+  var _privateProperty = 'Hello World';
+
+  function _privateMethod() {
+    console.log(_privateProperty);
+  }
+
+  return {
+    publicMethod: function() {
+      _privateMethod();
+    }
+  };
+})();
 ~~~
 
 The concepts are exactly the same as the factory function. However, instead of creating a factory that we can use over and over again to create multiple objects, the module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
@@ -275,9 +274,9 @@ The concepts are exactly the same as the factory function. However, instead of c
 - Additional example of creating and using a module pattern: [Module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm).
 - For those who prefer video lessons, here is an excellent YouTube series on modular JS that covers most of the content in this guide: [Modular Javascript](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f).
 
-In our calculator example above, the function inside the IIFE is a simple factory function, but we can just go ahead and assign the object to the variable `calculator` since we aren't going to need to be making lots of calculators, we only need one. Just like the factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
+In our calculator example above, the function inside the IIFE is a simple factory function, but we can just go ahead and assign the object to the variable `myModule` since we aren't going to need to be making lots of them, we only need one. Just like the factory example, we can have as many private functions and variables as we want, and they stay neatly organized, tucked away inside of our module, only exposing the functions we actually want to use in our program.
 
-<span id='name-spacing'></span>A useful side-effect of encapsulating the inner workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, and a function that added numbers and operators to our stack as the users input them? It is conceivable that we would want to call all three of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object, then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
+<span id='name-spacing'></span>A useful side-effect of encapsulating the inner workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, and a function that added numbers and operators to our stack as the users input them? It is conceivable that we would want to call all three of these functions by the same name which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object, then we would have no trouble: `myModule.publicMethod()`, `displayController.publicMethod()`, `operatorStack.publicMethod()`.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
