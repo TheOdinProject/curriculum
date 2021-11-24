@@ -2,6 +2,13 @@
 
 In this lecture we are going to learn a little bit about routing in React. Up until now we have only written one-page applications. Once your application has multiple pages, you need to set up a reliable routing system. This is to handle the component or page that should be rendered when navigating to a certain route. For this we are going to use a package called `react-router-dom`.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+- Explain how `react-router-dom` works
+
+### React Router
+
 Let's go through it step by step. First of all, create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons. (Just leave the index.js and the App.js files)
 
 Once you've done that, let's create a new file called `Profile.js` inside the src directory, and add a basic functional component to it, which just contains an `h1` element.
@@ -56,7 +63,7 @@ const RouteSwitch = () => {
 export default RouteSwitch;
 ~~~
 
-So what is happening here? First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
+<span id="components">So what is happening here?</span> First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
 
 1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
 
@@ -64,12 +71,12 @@ So what is happening here? First we are importing React, our two components (Pro
 
 3. **Routes**: Renders the first child Route that matches the location. In other words, the `Routes` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url *exactly* will be rendered; all others will be ignored. Important to note is that in previous versions of `react-router-dom` the `exact` keyword was needed to achieve this behavior.
 
-Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `Routes.js` to be the first. Your `index.js` should look something like this:
+Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `RouteSwitch.js` to be the first. Your `index.js` should look something like this:
 
 ~~~javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import RouteSwitch from "./Routes";
+import RouteSwitch from "./RouteSwitch";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -80,6 +87,22 @@ ReactDOM.render(
 ~~~
 
 Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
+
+In both cases, the "Hello from App" from our App component is displayed.
+
+<span id="routing">There are two solutions to this problem.</span>
+
+1. Order your Routes by specificity from top to bottom. Change the order of your two routes so that you have the route with the path equal to "/profile" on top of the homepage. If you check it out in the browser now, you should see the App component on the home route and the Profile component on the "/profile" route. The problem with this solution is that it might take a lot of work sorting them once your application has several routes.
+
+2. Add the `exact` keyword to your routes, like so:
+
+~~~javascript
+<Route exact path="/" component={App} />
+<Route exact path="/profile" component={Profile} />
+
+~~~
+
+The exact keyword specifies that the routes path has to match the URL path exactly, as opposed to finding the first character (or string of characters) in the routes list that matches the URL path.
 
 You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
@@ -96,3 +119,10 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
 - For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
+
+### Knowledge Checks
+
+- <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
+- <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
+- <a class="knowledge-check-link" href="#routing">How do you ensure that Router links are routed accurately?</a>
+
