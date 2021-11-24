@@ -480,19 +480,15 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">What is a block?</a>
 - <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">How is a block like a method?</a>
-- <a class="knowledge-check-link" href="#block-basics">How is a block different from a method?</a>
 - <a class="knowledge-check-link" href="#block-basics">What are the two ways to declare a block?</a>
 - <a class="knowledge-check-link" href="#return-value">How do you return data from a block?</a>
 - <a class="knowledge-check-link" href="#collect-return">How can your methods collect the return data from a block?</a>
 - <a class="knowledge-check-link" href="#explicit-return">What happens if you include a `return` statement in a block?</a>
-- <a class="knowledge-check-link" href="#lambdas">Why would you use a block instead of just creating a method?</a>
 - <a class="knowledge-check-link" href="#yield">What does `yield` do?</a>
 - <a class="knowledge-check-link" href="#pass-arguments">How do you pass arguments to a block from within a method?</a>
 - <a class="knowledge-check-link" href="#block-given">How do you check whether a block was actually passed in?</a>
 - <a class="knowledge-check-link" href="#procs">What is a proc?</a>
 - <a class="knowledge-check-link" href="#lambdas">What is a lambda?</a>
-- <a class="knowledge-check-link" href="#procs">What's the difference between a proc and a block?</a>
-- <a class="knowledge-check-link" href="procs">When would you use a proc instead of a block?</a>
 - <a class="knowledge-check-link" href="#procs-vs-lambdas">What's different between a lambda and a proc?</a>
 - <a class="knowledge-check-link" href="#proc-to-block">How do you convert a proc to a block?</a>
 - <a class="knowledge-check-link" href="#capturing-blocks">How do you convert a block to a proc?</a>
