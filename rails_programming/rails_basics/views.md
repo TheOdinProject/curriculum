@@ -238,5 +238,5 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#preprocessors">What is the difference between `<%`, `<%=` and `<%#`? </a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield">What exactly does `<%= yield %>` "yields" in `application.hmtl.erb`?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials">Why do we use partials?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections">What is the shortcut for rendering a collection in a partial?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections">What is the shortcut for rendering a collection as a series of partials?</a>
 * <a class="knowledge-check-link" href="#linkto">How do you dynamically link to another page of your Rails app?</a>
