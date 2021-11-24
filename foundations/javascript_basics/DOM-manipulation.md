@@ -293,6 +293,9 @@ Note that all 3 of these methods can be used with named functions like so:
 <!-- the html file -->
 <!-- METHOD 1 -->
 <button onclick="alertFunction()">CLICK ME BABY</button>
+
+<!-- METHOD 2&3 -->
+<button id="btn">Click Me Too</button>
 ~~~
 
 ~~~javascript
