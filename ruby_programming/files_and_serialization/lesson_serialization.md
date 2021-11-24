@@ -36,3 +36,11 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
 * [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 * [Short Example of Serialization](http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
+
+### Knowledge Check
+
+  * <a class='knowledge-check-link' href='https://thoughtbot.com/blog/io-in-ruby'>What does the IO object class do?</a>
+  * <a class='knowledge-check-link' href='https://www.youtube.com/watch?v=uS37TujnLRw'>How can you use the concept of serialization to store data?</a>
+  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are three different types of serialization?</a>
+  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are the benefits of each type of serialization mentioned?</a>
+  * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>How would i use a File object to go through the lines in a file?</a>
