@@ -165,7 +165,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
   * There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from https://swapi.co to https://swapi.dev.
 
-  ### Knowledge Checks
+### Knowledge Checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#declare-state">How do you declare state in a functional component?</a>
