@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to:
 
 ### Lifecycle
 
-As stated in the introduction, a component's lifecycle is the sequence of stages an instance of a component goes through in the DOM (or virtual DOM in React's case). Let me give you a quick example:
+As stated in the introduction, a component's lifecycle is the sequence of stages an instance of a component goes through in the DOM (or virtual DOM in React's case). Here's a quick example:
 
 1. Creation of the component (componentDidMount)
 2. Render of the component (render)
@@ -34,9 +34,9 @@ As the name already suggests, this method is run when the component is mounted, 
 
 Common tasks that are done in this method are:
 
-- Connect to web APIs or JavaScript frameworks.
-- Set Timers using setTimeout or setInterval.
-- Add event listeners.
+- Connect to web APIs or JavaScript frameworks
+- Set Timers using setTimeout or setInterval
+- Add event listeners
 
 ### ComponentDidUpdate
 
@@ -70,6 +70,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [Here](https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282) is another great resource for understanding React Lifecycle methods
 
 ### Knowledge Checks
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#lifecycle">What is a component's lifecycle?</a>
 - <a class="knowledge-check-link" href="https://programmingwithmosh.com/javascript/react-lifecycle-methods/">Explain the most important lifecycle methods</a>

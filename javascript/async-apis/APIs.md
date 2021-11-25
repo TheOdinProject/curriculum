@@ -225,6 +225,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 </div>
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
  - <a class="knowledge-check-link" href="#apis">What is an API?</a>
  - <a class="knowledge-check-link" href="#apis">How is access to an API restricted?</a>
