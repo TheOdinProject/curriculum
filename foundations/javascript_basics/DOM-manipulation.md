@@ -89,14 +89,14 @@ This function does NOT put your new element into the DOM - it simply creates it 
 
 #### Altering Elements
 
-When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
+When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding inline style information, adding/removing and altering attributes, changing classes, and more. In this example, we first create an element reference to the variable 'div'. Then we can apply changes to it.
 
 ~~~JavaScript
 const div = document.createElement('div');                     
 // create a new div referenced in the variable 'div'
 ~~~
 
-#### Adding inline style
+##### Adding inline style
 
 ~~~JavaScript
 div.style.color = 'blue';                                      
@@ -120,7 +120,7 @@ div.style['background-color'] // also works
 div.style.cssText = "background-color: white" // ok in a string
 ~~~
 
-#### Editing Attributes
+##### Editing Attributes
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
@@ -137,7 +137,7 @@ div.removeAttribute('id');
 
 See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
-#### Working with classes
+##### Working with classes
 
 ~~~JavaScript
 div.classList.add('new');                                      
@@ -153,7 +153,7 @@ div.classList.toggle('active');
 
 It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
 
-#### Adding text content
+##### Adding text content
 
 ~~~JavaScript
 div.textContent = 'Hello World!'                               
@@ -161,7 +161,7 @@ div.textContent = 'Hello World!'
 // inserts it in div
 ~~~
 
-#### Adding HTML content
+##### Adding HTML content
 
 ~~~JavaScript
 div.innerHTML = '<span>Hello World!</span>';                   
