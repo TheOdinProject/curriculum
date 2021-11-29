@@ -40,7 +40,8 @@ By the end of this lesson, you should be able to:
 #### With Ruby on Rails
 
 <div class="lesson-content__panel" markdown="1">
-1. [Check out "Using Javascript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html).  It is long and covers a lot of ground, but it's got great content.  Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
+
+1. [Check out "Using Javascript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html). It is long and covers a lot of ground, but it's got great content. Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
 2. [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) (just skim the top few sections).
 3. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
 </div>
@@ -48,6 +49,7 @@ By the end of this lesson, you should be able to:
 #### With Firebase
 
 <div class="lesson-content__panel" markdown="1">
+
 1. [Explore the different services offered by Firebase](https://firebase.google.com/products). Pay particular attention to [Cloud Firestore](https://firebase.google.com/products/firestore) for now. You may or may not also want to use [Firebase Hosting](https://firebase.google.com/products/hosting) and/or any of the other services offered by Firebase, particularly [Cloud Storage](https://firebase.google.com/products/storage) and [Authentication](https://firebase.google.com/products/auth), but you probably won't need any of those for your first Firebase project.
 2. If this is your first ever encounter with Firebase, we encourage you to do [this Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0), which will walk you through setting up a sample app on Firebase step by step.
 3. If you haven't already integrated one of your previous projects with Firebase, go back to one of them now (e.g. the library project or the to-do app), and [follow this guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend. **Caution:** if you're *not* going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look at the section below Step 4, there should be a link, which directs you to the "Available Libraries" page. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
