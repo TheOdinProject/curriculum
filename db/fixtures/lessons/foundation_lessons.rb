@@ -356,5 +356,12 @@ def foundation_lessons
       url: '/foundations/javascript_basics/DOM_manipulation_and_events.md',
       identifier_uuid: '9c8fa0eb-2f69-4fc7-87a9-4506bd43ca1f',
     },
+    'Revisiting Rock Paper Scissors' => {
+      title: 'Revisiting Rock Paper Scissors',
+      description: 'Let\'s apply our newfound knowledge of DOM and build our RPS\'s UI',
+      is_project: false,
+      url: '/foundations/javascript_basics/revisiting_rock_paper_scissors.md',
+      identifier_uuid: '7ff13edf-27d6-4edf-b0d0-863a632604d6',
+    },
   }
 end
