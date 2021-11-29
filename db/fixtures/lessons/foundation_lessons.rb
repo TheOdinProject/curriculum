@@ -349,5 +349,12 @@ def foundation_lessons
       has_live_preview: true,
       identifier_uuid: '22e0c585-c146-4dab-9dc0-17a20f0ecbc5',
     },
+    'DOM Manipulation and Events' => {
+      title: 'DOM Manipulation and Events',
+      description: 'Finally, let\'s learn how to make our webpages move.',
+      is_project: false,
+      url: '/foundations/javascript_basics/DOM_manipulation_and_events.md',
+      identifier_uuid: '9c8fa0eb-2f69-4fc7-87a9-4506bd43ca1f',
+    },
   }
 end
