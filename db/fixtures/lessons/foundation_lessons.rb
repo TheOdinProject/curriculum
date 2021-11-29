@@ -186,13 +186,6 @@ def foundation_lessons
       url: '/foundations/javascript_basics/fundamentals-4.md',
       identifier_uuid: '336b3336-c589-4e61-876f-1c0e60617da4',
     },
-    'DOM manipulation' => {
-      title: 'DOM manipulation',
-      description: 'Finally, lets learn how to make your webpages move!',
-      is_project: false,
-      url: '/foundations/javascript_basics/DOM-manipulation.md',
-      identifier_uuid: '7718816d-45eb-477d-9443-a8f1de2db22c',
-    },
     'Etch-a-Sketch' => {
       title: 'Etch-a-Sketch',
       description: 'etch-a-sketch',

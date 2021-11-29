@@ -138,7 +138,6 @@ course.add_section do |section|
     foundation_lessons.fetch('Rock Paper Scissors'),
     foundation_lessons.fetch('Clean Code'),
     foundation_lessons.fetch('Fundamentals Part 4'),
-    foundation_lessons.fetch('DOM manipulation'),
     foundation_lessons.fetch('Etch-a-Sketch'),
     foundation_lessons.fetch('Fundamentals Part 5'),
     foundation_lessons.fetch('Calculator'),
