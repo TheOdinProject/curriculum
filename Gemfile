@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '6.1.4.1'
 
 gem 'activeadmin'
-gem 'activeadmin_addons', '~> 1.8.3'
+gem 'activeadmin_addons', '~> 1.9.0'
 gem 'active_material'
 gem 'acts_as_votable'
 gem 'bootsnap', '~> 1.9.1', require: false
