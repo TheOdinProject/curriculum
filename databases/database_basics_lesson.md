@@ -32,7 +32,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-* Hunter Ducharme created [an e-book](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which is a great documentation on how to do all the basics in SQL.
+* Hunter Ducharme created [an e-book](https://hunter-ducharme.gitbook.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
