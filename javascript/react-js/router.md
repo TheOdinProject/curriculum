@@ -88,22 +88,6 @@ ReactDOM.render(
 
 Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
 
-In both cases, the "Hello from App" from our App component is displayed.
-
-<span id="routing">There are two solutions to this problem.</span>
-
-1. Order your Routes by specificity from top to bottom. Change the order of your two routes so that you have the route with the path equal to "/profile" on top of the homepage. If you check it out in the browser now, you should see the App component on the home route and the Profile component on the "/profile" route. The problem with this solution is that it might take a lot of work sorting them once your application has several routes.
-
-2. Add the `exact` keyword to your routes, like so:
-
-~~~javascript
-<Route exact path="/" component={App} />
-<Route exact path="/profile" component={Profile} />
-
-~~~
-
-The exact keyword specifies that the routes path has to match the URL path exactly, as opposed to finding the first character (or string of characters) in the routes list that matches the URL path.
-
 You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
@@ -121,6 +105,8 @@ This section contains helpful links to other content. It isn't required, so cons
 - For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
 
 ### Knowledge Checks
+
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
 - <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
