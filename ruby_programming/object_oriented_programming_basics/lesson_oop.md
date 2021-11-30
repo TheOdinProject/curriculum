@@ -32,11 +32,12 @@ There's a lot to do here but stick with it!  We'll start with the Codecademy les
       2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
   5. Read the article [Object Relationships in Basic Ruby](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48) to see an example of how two classes can interact.
   6. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
-  7. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional. It is recommended to install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide. 
+  7. Do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
+  8. Do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
+  9. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional. It is recommended to install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide. 
       1. Read the [basic usage](https://docs.rubocop.org/rubocop/usage/basic_usage.html) of rubocop in the terminal. 
       2. To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
-  8. Do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
-  9. Do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
+
 
 ~~~bash
 "ruby.lint": {
