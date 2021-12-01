@@ -1,13 +1,14 @@
-### Arrays
-
-Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
-
 ### Learning Outcomes
 
 - Using arrays.
 - Using built-in array methods.
 - Using loops.
 - Getting your hands dirty with TDD exercises.
+
+
+### Arrays
+
+Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
 
 
 1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  
