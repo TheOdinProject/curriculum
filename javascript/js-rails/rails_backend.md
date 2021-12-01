@@ -65,14 +65,13 @@ This section contains helpful links to other content. It isn't required, so cons
 
 #### With Ruby on Rails
 
-* Refresher: <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails#your-first-rails-app" target="_blank"> How do you set up a basic Rails app? </a>
-* Refresher: <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#locations" target="_blank"> How do you load custom Javascript in a given Rails view page? </a>
-* <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript" target="_blank">How does "unobtrusive Javascript" work?</a>
-* <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#parameters" target="_blank">How can you pass data from your Rails app to your Javascript?</a>
-* <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#an-introduction-to-ajax" target="_blank">Why would you want to use AJAX to load large batches of data?</a>
+* <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#locations" > How do you load custom Javascript in a given Rails view page? </a>
+* <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript" >How does "unobtrusive Javascript" work?</a>
+* <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#parameters" >How can you pass data from your Rails app to your Javascript?</a>
+* <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#an-introduction-to-ajax" >Why would you want to use AJAX to load large batches of data?</a>
 
 #### With Firebase
 
- - <a class="knowledge-check-link" href="https://firebase.google.com/products-build" target="_blank">Which services does Firebase offer?</a>
- - <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" target="_blank">How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
- - <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" target="_blank">How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/products-build" >Which services does Firebase offer?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" >How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
+ - <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" >How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>
