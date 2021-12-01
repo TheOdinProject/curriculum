@@ -20,9 +20,9 @@ Transitions are also not as flexible as using animations. When you define a tran
 
 Let's see an animation in action to see what we've been talking about. 
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="gOxbRoM" data-editable="true" data-user="programmurrr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/programmurrr/pen/gOxbRoM">
-  keyframes 1 longhand</a> by programmurrr (<a href="https://codepen.io/programmurrr">@programmurrr</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="jOGENZz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/jOGENZz">
+  keyframes 1 longhand</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -73,9 +73,9 @@ The `from/to` statement also defines one animation cycle. So if we were to set o
 
 Now it's time to add another keyframe to our animation, introduce the shorthand notation and glimpse a little into the added flexibility of the keyframe notation. Check out the live example below then have a look at the notation.
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="mdMywLP" data-editable="true" data-user="programmurrr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/programmurrr/pen/mdMywLP">
-  keyframes 2 shorthand</a> by programmurrr (<a href="https://codepen.io/programmurrr">@programmurrr</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="zYExOLQ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/zYExOLQ">
+  keyframes 2 shorthand</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
