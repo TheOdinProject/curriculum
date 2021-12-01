@@ -12,9 +12,9 @@ It's time to dive into the exciting world of CSS transitions and give your html 
 
 CSS transitions let you animate a change from an element's initial state to an end state. Think of an ordinary button element with a white background. When your mouse is away from the button, it's just sitting there. Boring. Then when you hover your mouse cursor over the button the background color smoothly transitions from white, to grey, to black, over a period of time. This is a CSS transition. Have a look at the codepen below to see one in action.
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="WNENagG" data-editable="true" data-user="programmurrr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/programmurrr/pen/WNENagG">
-  Transition longhand</a> by programmurrr (<a href="https://codepen.io/programmurrr">@programmurrr</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYGmYRm" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmYRm">
+  CSS Transition (longhand)</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
