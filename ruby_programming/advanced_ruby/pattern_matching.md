@@ -659,5 +659,5 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a> 
 - <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
-- <a class="knowledge-check-link" href="#array-pattern-match">Which different ways of array pattern matching are there?</a>
+- <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
 - <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>
