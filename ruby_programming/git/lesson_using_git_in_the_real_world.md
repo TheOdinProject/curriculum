@@ -2,10 +2,10 @@
 
 By the end of this lesson, you should be able to do the following:
 
-- Best practices to use in git commit
+- Explain best practices in git commit
 - Use git workflow to make an open source contribution
-- Explain common git terms and its uses
-- Have a better understanding of inner workings of git
+- Explain common git terms and uses
+- Understand inner workings of git
 
 ### Introduction
 
