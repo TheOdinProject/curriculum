@@ -167,3 +167,12 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
 * [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
 * [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#main-features">How does "asset concatenation" improves faster loading of your app?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets">How do you include an asset in your views or layout?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives">What does the `require_tree` method do in a manifest-file?</a>
+* <a class="knowledge-check-link" href="#the-asset-pipeline">Why would you namespace your stylesheets?</a>
+* <a class="knowledge-check-link" href="#un-escaping-html">How do you display `<p>hello world!</p>` in your app?</a>
