@@ -5,10 +5,9 @@ You've learned about Models, Views, and Controllers.  That's the nuts and bolts,
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* What is the "Asset Pipeline"?
-* What are "Manifest Files"?
-* Why would you namespace your stylesheets?
-* What does it mean to "Escape" HTML?
+* Explain how files are processed in the Asset Pipeline.
+* Organize stylesheets and images in your app.
+* Display raw HTML-code in your app.
 
 ### The Asset Pipeline
 
