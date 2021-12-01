@@ -32,7 +32,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - getTheTitles
 - findTheOldest
 
-Notes: Solutions for these exercises can be found in the 'solutions' branch of that repo
+Note: Solutions for these exercises can be found in the 'solutions' branch of that repo
 </div>
 
 ### Knowledge Check
