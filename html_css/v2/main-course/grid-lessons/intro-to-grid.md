@@ -19,18 +19,18 @@ The Flex lessons covered positioning items along the two [axes](https://www.theo
 
 You’ll remember you can line up a nice row of flex items like this:
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="eYEEVmo" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/eYEEVmo">
-  First-Flex-Row</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWeJbRy" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJbRy">
+  Single Row | CSS Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Or a column like this:
 
-<p class="codepen" data-height="361" data-default-tab="css,result" data-slug-hash="vYJJdLg" data-editable="true" data-user="dm-murphy" style="height: 361px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/vYJJdLg">
-  Second-Flex-Column</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWEYwoX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEYwoX">
+  Single Column | CSS Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -47,9 +47,9 @@ We know that was a frustrating one, but it's part of the point. While Flexbox al
 
 But setting up a two-dimensional layout of cards would be much simpler using CSS Grid:
 
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="OJjjQzZ" data-editable="true" data-user="dm-murphy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/dm-murphy/pen/OJjjQzZ">
-  Third-CodePen-Grid</a> by Daniel (<a href="https://codepen.io/dm-murphy">@dm-murphy</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="KKXwpZR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXwpZR">
+  2D Layout | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
