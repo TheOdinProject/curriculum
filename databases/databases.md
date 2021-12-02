@@ -129,7 +129,7 @@ You often see aliases (`AS`) used to rename columns or aggregate functions so yo
 Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
 ~~~sql
-  SELECT users.id, users.name, COUNT(*) AS posts_written
+  SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id;
@@ -140,7 +140,7 @@ See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates.  So say I only want to display users who have written more than 10 posts:
 
 ~~~sql
-  SELECT users.id, users.name, COUNT(*) AS posts_written
+  SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id
