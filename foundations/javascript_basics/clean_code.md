@@ -5,12 +5,13 @@ Developers spend SO MUCH more time reading code than writing it.  This is true e
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
-- Know how to distinguish hard to read code between easy to read code.
+- Know how to distinguish hard to read code from easy to read code.
 - Use programming principles to make your code cleaner.
 - Write good comments.
 
-Consider the following 2 snippets of JavaScript:  
-ugly, hard to read code:
+Consider the following two snippets of JavaScript:  
+
+This is ugly and hard to read code:
 
 ~~~javascript
 const x =
@@ -24,7 +25,7 @@ function(q){
 x([2, 2, 2]);
 ~~~
 
-clean and easy to read code:
+Now, this is clean and easy to read code:
 
 ~~~javascript
 const sumArray = function(array) {
