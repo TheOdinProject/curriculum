@@ -46,7 +46,7 @@ Add the following href attribute to the anchor element we created previously and
 
 By default, any text wrapped with an anchor tag without a `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
 
-It's worth noting you can use anchor tags link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
+It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
 ### Absolute and Relative Links
 
@@ -104,7 +104,7 @@ But we will usually want to organize our website directories a little better. No
 
 Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
-Refresh the index page in the browser and then click on the about link. It will be now be broken. This is because the location of the about page file has changed.
+Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
 
 To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
@@ -116,6 +116,16 @@ To fix this, we just need to update the about link href value to include the `pa
 ~~~
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
+
+In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory. 
+
+~~~html
+<body>
+  <h1>Homepage</h1>
+  <a href="./pages/about.html">About</a>
+</body>
+~~~
+
 
 #### A Metaphor
 
@@ -205,7 +215,8 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 

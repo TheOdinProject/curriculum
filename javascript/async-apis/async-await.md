@@ -177,11 +177,14 @@ This code will behave exactly like the code from the last lesson, it just looks 
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
 1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
 2. [This video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
 
 
 ### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
  - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
  - <a class="knowledge-check-link" href="#the-async-keyword">What does the `async` keyword do?</a>

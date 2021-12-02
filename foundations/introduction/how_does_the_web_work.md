@@ -24,7 +24,7 @@ At the end of this lesson, you should be able to do the following:
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental material for if you want to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Listen to [Part 1](https://twit.tv/shows/security-now/episodes/25?autostart=false) (starts around 8:30) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series.
 * Watch [A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
@@ -48,5 +48,5 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=BrXPcaRlBqo&feature=youtu.be">What is a web browser?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">What is a search engine?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=72snZctFFtA&t=45s">What is a DNS request?</a>
-* <a class="knowledge-check-link" href="https://www.whatsmybrowser.org/">What browser are you currently using?</a>
+* <a class="knowledge-check-link" href="https://www.whatsmybrowser.org/">Which browser are you currently using?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">In your own words, explain what happens when you run a search on google.com.</a>

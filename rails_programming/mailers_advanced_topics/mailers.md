@@ -40,7 +40,7 @@ Mailers allow you to use callbacks just like a normal controller, for instance t
 
 In the reading you'll see how to send mail using your Gmail account, but if you're building a real application you'll obviously want something a bit more robust.  There are several leading players in the space of sending your email for you.  Their whole job is to handle getting your mail delivered and opened so you can focus on building your application.  They are usually available as add-ons to Heroku (like New Relic was, which we saw in the lesson on deployment), so all you need to do is properly configure them.
 
-[SendGrid](https://addons.heroku.com/sendgrid#1500000) is the add-on used with this website for delivering welcome emails and the like and it's pretty straightforward.  See the [documentation here](https://devcenter.heroku.com/articles/sendgrid), which includes instructions for how you should set up your `config/environment.rb` file to get ActionMailer to interface with them.  You will need to use environment variables (or the `figaro` gem) again to avoid hard coding your password and username.
+[SendGrid](https://addons.heroku.com/sendgrid#1500000) is the add-on used with this website for delivering welcome emails and the like and it's pretty straightforward.  See the [documentation here](https://devcenter.heroku.com/articles/sendgrid), as well as [SendGrid's own documentation](https://docs.sendgrid.com/for-developers/sending-email/rubyonrails), which includes instructions for how you should set up your `config/environment.rb` file to get ActionMailer to interface with them.  You will need to use environment variables (or the `figaro` gem) again to avoid hard coding your password and username.
 
 Pricing for this, as most things, is free up until a certain usage tier.  While you're building toy apps, it will do just fine.  Other options are out there like [MailGun](https://addons.heroku.com/mailgun)—check out others in the email section of the [Heroku Addon Store](https://addons.heroku.com/#email-sms).
 
@@ -74,6 +74,6 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)

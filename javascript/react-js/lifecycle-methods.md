@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to:
 
 ### Lifecycle
 
-As stated in the introduction, a component's lifecycle is the sequence of stages an instance of a component goes through in the DOM (or virtual DOM in React's case). Let me give you a quick example:
+As stated in the introduction, a component's lifecycle is the sequence of stages an instance of a component goes through in the DOM (or virtual DOM in React's case). Here's a quick example:
 
 1. Creation of the component (componentDidMount)
 2. Render of the component (render)
@@ -34,13 +34,15 @@ As the name already suggests, this method is run when the component is mounted, 
 
 Common tasks that are done in this method are:
 
-- Connect to web APIs or JavaScript frameworks.
-- Set Timers using setTimeout or setInterval.
-- Add event listeners.
+- Connect to web APIs or JavaScript frameworks
+- Set Timers using setTimeout or setInterval
+- Add event listeners
 
 ### ComponentDidUpdate
 
-This method is not called for the initial render, but any other time when the component updates. This method is a great place to work and operate on the DOM when the component has updated. For example you could do network requests. Just make sure to compare it to the current props.
+This method is not called for the initial render, but it is called any other time that the component updates. This means that this method is prone to infinite loops if used to update state in a way that would cause a re-render, and so it should include a conditional statement to prevent that. For example, it could compare the new props with the previous props to make sure some value changed.
+
+This method is a great place to work and operate on the DOM when the component has updated. It is also useful to send network requests when specific conditions are met. For example, if a user changed accounts, we could now fetch the data for that new account during this lifecycle method.
 
 ### ComponentWillUnmount
 
@@ -57,14 +59,18 @@ A few examples are:
 <div class="lesson-content__panel" markdown="1">
 1. Read [this article](https://programmingwithmosh.com/javascript/react-lifecycle-methods/) for a great overview of lifecycle methods in React.
 2. The React documentation is always a good source as it's well structured. In [this article](https://reactjs.org/docs/react-component.html) you can read more about lifecycle methods from the people who made it!
-3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical examples about how those methods work and when React calls them.
+3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical example about how those methods work and when React calls them.*
+
+*If you coded along with the last video, and you used `create-react-app` to setup your environment, you may have noticed that the last lifecycle method talked about, `componentDidCatch`, does not function the same way for you as in the video. You can read about it [here](https://stackoverflow.com/a/48354840).
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Here](https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282) is another great resource for understanding React Lifecycle methods
 
 ### Knowledge Checks
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#lifecycle">What is a component's lifecycle?</a>
 - <a class="knowledge-check-link" href="https://programmingwithmosh.com/javascript/react-lifecycle-methods/">Explain the most important lifecycle methods</a>

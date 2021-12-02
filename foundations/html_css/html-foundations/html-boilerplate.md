@@ -63,7 +63,7 @@ If we didn't include a title element, the webpage's title would default to its f
 
 #### The Charset Meta Element
 
-Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8"/>`.
+Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
@@ -107,6 +107,11 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
+3. You can use the terminal to open the file in your browser.
+   
+   a. Ubuntu - Navigate to the directory containing the file and use firefox index.html or google-chrome index.html
+   
+   b. macOS - Navigate to the directory containing the file and use open ./index.html
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
@@ -136,13 +141,13 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch and follow along to Kevin Powell's Brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=2)
+1. Watch and follow along to Kevin Powell's Brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
 2. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.

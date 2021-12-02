@@ -71,7 +71,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exit
 ~~~
 
-After running the final `exit` command, you will need to close and open a new terminal (see Step 1.1 above).
+After running the final `exit` command, you will need to close out of all open terminals and open a new terminal (see Step 1.1 above).
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
@@ -167,7 +167,7 @@ Congratulations! You've installed the prerequisites!
 
 ### Step 2: Install Heroku
 
-Heroku is a place to host your Rails applications
+Heroku is a place to host your Rails applications.
 
 #### Step 2.1: Install Heroku
 

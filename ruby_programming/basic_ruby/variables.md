@@ -39,14 +39,14 @@ age = age + 4
 age #=> 22
 ~~~
 
-Because this is a common scenario, Ruby provides a nice shorthand assignment operator for doing this: `+=`.
+Because this is a common scenario, <span id="add-assignment-operator">Ruby provides a nice shorthand assignment operator for doing this: `+=`</span>.
 
 ~~~ruby
 age = 18
 age += 4 #=> 22
 ~~~
 
-There are similar assignment operators for all the common math operators:
+<span id="non-add-assignment-operators">There are similar assignment operators for all the common math operators</span>:
 
 ~~~ruby
 age = 18
@@ -117,7 +117,7 @@ This example may be hard to completely understand at this point in the lesson. T
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
 * To dive deeper into how variables point to memory locations on your computer, go through these short sections:
@@ -128,10 +128,10 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is a variable?
-* How do you assign a value or an expression to a variable?
-* What does the `+=` assignment operator do?
-* What does the `-=` assignment operator do?
-* What does the `*=` assignment operator do?
-* What does the `/=` assignment operator do?
-* What are the variable naming conventions?
+* <a class="knowledge-check-link" href="#introduction">What is a variable?</a>
+* <a class="knowledge-check-link" href="#declaring-a-variable">How do you assign a value or an expression to a variable?</a>
+* <a class="knowledge-check-link" href="#add-assignment-operator">What does the `+=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `-=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `*=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `/=` assignment operator do?</a>
+* <a class="knowledge-check-link" href="#how-to-name-variables">What are the variable naming conventions?</a>
