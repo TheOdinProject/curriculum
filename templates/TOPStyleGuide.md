@@ -2,7 +2,7 @@
 
 [Inspired by google's styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)
 
-TOP uses Markdown for its lessons and projects to be easily read and edited, and get properly formatted HTML for the TOP website. 
+TOP uses Markdown for its lessons and projects to be easily read and edited, and to get properly formatted HTML for the TOP website. 
 
 **The goals of this style guide are to help create Markdown that is:**
 
@@ -32,7 +32,7 @@ TOP uses Markdown for its lessons and projects to be easily read and edited, and
 
 ## Layouts
 
-In general, the following layouts should be used for all lessons and projects.
+In general, the following layouts should be used for all lessons and projects. Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
 
 ### Lesson Layout
 
@@ -82,13 +82,13 @@ This section contains helpful links to related content. It isn’t required, so 
 
     Replace the `A RESOURCE/TASK.` text with your own resource or task, then add any additional numbered assignment items. The assignment should ideally have no more than 3-5 resources and/or tasks. **If the lesson does not have an assignment, remove this entire section from the lesson.**
 
-5. `### Knowledge Checks`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing the assignment. Each knowledge check should only link either to a Heading 3 `###` section within the lesson or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check. 
+5. `### Knowledge Checks`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing the assignment. Each knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or by wrapping text in a `<span>` element with an `id` attribute) or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
 
     Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson **If the lesson does not have any knowledge checks, remove this entire section from the lesson.**
 
-    In order to link to a Heading 3 `###` section within the lesson, replace the `href` value for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase, with any spaces replaced with hyphens `-`. For example, a section titled `### Creating a Method` would be linked to with `href="#creating-a-method"`.
+    In order to link to a Heading 3 `###` within the lesson, replace the `href` value for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase with any spaces replaced with a hyphen `-`. In order to link to a `<span>` element within the lesson, replace the `href` value with the exact `id` attribute of the `<span>` element. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `href="#creating-a-method"`, and a `<span id="Knowledge-Check-3">` element would be linked to with `href="#Knowledge-Check-3"`.
 
-6. `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of said content. **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the first bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources. 
+6. `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the first bulleted resource item with your own resource (using Markdown syntax for links, covered later in this style guide), then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
 
 ### Project Layout
 
@@ -120,7 +120,7 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 ~~~
 
-1. `### Introduction`: A brief summary on what the project is and an over view of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
+1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
 
 2. `### PRE-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
 
@@ -262,7 +262,6 @@ const obj = {
 
 It is best practice to explicitly declare the language immediately after the opening tilde marks, so that neither the
 syntax highlighter nor the next editor must guess.
-
 
 #### Nest codeblocks within lists
 
