@@ -97,5 +97,5 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#small-commit'>How large should your commits be?</a>
 - <a class='knowledge-check-link' href='#commit-message'>What should your commit message describe?</a>
 - <a class='knowledge-check-link' href='https://www.git-tower.com/blog/version-control-best-practices/'>Can you commit unfinished feature?</a>
-- <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to the repository that you don't have access to?</a>
+- <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
 - <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history that is shared by others?</a>
