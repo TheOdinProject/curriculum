@@ -2,10 +2,10 @@
 
 By the end of this lesson, you should be able to do the following:
 
-- Explain best practices in git commit
-- Use git workflow to make an open source contribution
-- Explain common git terms and uses
-- Understand inner workings of git
+- Explain the best practices for Git commits
+- Use a Git workflow to make an open source contribution
+- Explain common Git terms and uses
+- Understand the inner workings of Git
 
 ### Introduction
 
@@ -96,6 +96,6 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#commit-often'>How often should you commit?</a>
 - <a class='knowledge-check-link' href='#small-commit'>How large should your commits be?</a>
 - <a class='knowledge-check-link' href='#commit-message'>What should your commit message describe?</a>
-- <a class='knowledge-check-link' href='https://www.git-tower.com/blog/version-control-best-practices/'>Can you commit unfinished feature?</a>
+- <a class='knowledge-check-link' href='https://www.git-tower.com/blog/version-control-best-practices/'>Should you commit unfinished features?</a>
 - <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
-- <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history that is shared by others?</a>
+- <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history in a repository that's shared with others?</a>
