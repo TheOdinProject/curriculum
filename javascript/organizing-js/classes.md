@@ -27,7 +27,7 @@ After this lesson and completing the assignments, you will be able to:
 
 ### Practice
 
-Go back to your "Library" example and refactor it to use `class` instead of plain constructors.  Don't forget to use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation) to work on a new feature. You should get used to working like this!
+Go back to your "Library" example and refactor it to use `class` instead of plain constructors.  Don't forget to use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to work on a new feature. You should get used to working like this!
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
