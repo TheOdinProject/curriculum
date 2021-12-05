@@ -1,4 +1,4 @@
-### Project: Sending Welcome Emails
+### Project: Sending Confirmation Emails
 
 Setting up a mailer is a relatively straightforward task. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
 
