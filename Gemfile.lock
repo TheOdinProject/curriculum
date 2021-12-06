@@ -305,7 +305,7 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
-    noticed (1.5.4)
+    noticed (1.5.5)
       http (>= 4.0.0)
       rails (>= 5.2.0)
     oauth2 (1.4.7)
