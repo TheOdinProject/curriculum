@@ -16,9 +16,9 @@ If, however, a developer is given a specific overall layout to adhere to and nee
 
 Content-First and Layout-First Design doesn't mean that the developer should limit themselves to only using Flexbox or Grid individually! Let's look at something that can happen when we attempt to create a one dimensional grid - a task many reserve for Flexbox.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYdzrqe" data-user="mgrigoriev8109" style="height: 300px; bqox-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/mgrigoriev8109/pen/zYdzrqe">
-  1-dimentional grid</a> by mgrigoriev8109 (<a href="https://codepen.io/mgrigoriev8109">@mgrigoriev8109</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdByJRV" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdByJRV">
+  1-Dimensional Grid | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -30,9 +30,9 @@ If you have one-dimensional content, Flexbox can make it easier to control how t
 
 Say you want your overall layout to be a grid, but you want the grid items to act as flex parents. This way, the grid items can be moved around using the precise two-dimensional placement Grid allows for, while also allowing the content inside the grid items to be capable of freely moving around using Flex. Check out this example from CSS-Tricks.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNewxNB" data-user="mgrigoriev8109" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/mgrigoriev8109/pen/oNewxNB">
-  grid flexbox combined</a> by mgrigoriev8109 (<a href="https://codepen.io/mgrigoriev8109">@mgrigoriev8109</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="vYeEOxN" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYeEOxN">
+  Combine Grid and Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
