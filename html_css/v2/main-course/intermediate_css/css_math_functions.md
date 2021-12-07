@@ -31,11 +31,13 @@ The most powerful use cases for calc include:
 - Mixing units
 - The ability to nest `calc( calc () - calc () )`
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="calc()" src="https://codepen.io/michaelleojacob/embed/NWgmevp?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/michaelleojacob/pen/NWgmevp">
-  calc()</a> by Michael Jacob (<a href="https://codepen.io/michaelleojacob">@michaelleojacob</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="OJxNxya" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/OJxNxya">
+  calc() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 Take a look at how `calc()` is being used here:
 `:root {`
 `--header: 3rem;`
@@ -55,11 +57,13 @@ I encourage you to take a moment and edit the codepen. Play around with the diff
 
 `min()` does an excellent job of helping us create responsive websites. Take a look at this example:
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="min" src="https://codepen.io/michaelleojacob/embed/jOwRgRZ?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/michaelleojacob/pen/jOwRgRZ">
-  min</a> by Michael Jacob (<a href="https://codepen.io/michaelleojacob">@michaelleojacob</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/RwLaLay">
+  min() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 `#odinPicture {`
   `max-height: 150px;`
   `width: min(150px, 100%);`

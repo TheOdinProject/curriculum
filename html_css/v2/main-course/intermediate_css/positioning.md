@@ -20,9 +20,9 @@ The default positioning mode that you've gotten used to is ``position: static``.
 
 In the following example, we are using absolute positioning to display text over an image.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGrNqdv" data-editable="true" data-user="LeoKirasic" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/leokirasic/pen/bGrNqdv">
-  Absolute positioning example</a> by LeoKirasic (<a href="https://codepen.io/LeoKirasic">@LeoKirasic</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
+  Absolute Position | CSS Positioning</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
