@@ -1,10 +1,10 @@
 ### Introduction
 
-At this point, you have written quite a bit of vanilla HTML and CSS, and learned many design techniques that you will continue to use as you grow as a developer. However, through your experiences, you have no doubt encountered a CSS framework or two. You may have also learned about preprocessors (aka precompilers). Both of these types of tools can make writing CSS more streamlined and less tedious.
+At this point, you have written quite a bit of vanilla HTML and CSS, and learned many design techniques that you will continue to use as you grow as a developer. Through your experiences, you have no doubt also encountered a CSS framework or two. In addition, you may have learned about preprocessors (aka precompilers). Both of these types of tools can make writing CSS more streamlined and less tedious.
 
 You should be aware that at this point in your learning, both frameworks and preprocessors are options for you, but that neither of them is necessary.
 
-A really important reason you need to know these topics is that frameworks and preprocessors are commonly found in workplaces. Many job requirements list Bootstrap, SASS, and related technology. So it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
+A really important reason to know about frameworks and preprocessors is that they are commonly found in the workplace. Many job requirements also include Bootstrap, SASS, and related technology. So it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
 
 ### Learning Outcomes
 
@@ -23,17 +23,17 @@ You should be aware that there are quite a few frameworks available to choose fr
 
 ### Disadvantages of Frameworks
 
-Frameworks are great for rapidly producing sites with interfaces that end users can easily interact with. However, once you've taken a tour through some of the more popular ones, like Bootstrap, you'll start noticing an awful lot of similarities between a lot of sites you encounter, due to similar use of frameworks. Another concern with frameworks is that too many new developers jump into learning frameworks too early in their education; the prospect of not having to keep practicing writing vanilla CSS is very tempting. As a result, these developers do not get enough CSS practice under their belts to solidify the fundamentals of that very important language.
+Frameworks are great for rapidly producing sites with interfaces that end users can easily interact with. However, once you've looked at some of the more popular ones (like Bootstrap), you'll start noticing an awful lot of similarities between a lot of websites you encounter. This is due to the similar use of frameworks, and is of course not ideal. Another concern with frameworks is that too many new developers jump into learning frameworks too early in their education: not having to practice writing vanilla CSS is a very tempting prospect! As a result, such developers do not get enough CSS practice under their belts to solidify the fundamentals of that very important language.
 
-Additionally, the process of overriding a framework's styling or debugging style issues on your page becomes very difficult if you haven't really mastered CSS fundamentals. It is imperative to understand what a framework is doing "under the hood" so you are equipped to handle these issues later (and trust us, you will have to).
+Additionally, the process of overriding a framework's styling, or debugging style issues on your page, becomes very difficult if you haven't really mastered CSS fundamentals. It is imperative to understand what a framework is doing "under the hood" so you are equipped to handle these issues later (and trust us, you will have to).
 
-Ultimately frameworks can help you get up and running quickly, but they can constrain you in the long run, and once you've started a project using one it can be difficult to remove it. Whether you use them for projects in the future is up to you!
+Ultimately, frameworks can help you get up and running quickly, but they can also constrain you in the long run, and once you've started a project using one it can be difficult to remove it. Whether you use them for projects in the future is up to you (or your employer)!
 
 ### Preprocessors Overview
 
-Preprocessors (aka precompilers) are languages that help you write CSS more easily. They  reduce code repetition and provide all sorts of time-saving and code-saving features. Just for example: they allow you to write loops, join multiple stylesheets, and nest classes.
+Preprocessors (aka precompilers) are languages that help you write CSS more easily. They reduce code repetition and provide all sorts of time-saving and code-saving features. Just for example, they allow you to write loops, join multiple stylesheets, and nest classes.
 
-CSS preprocessors are extensions to vanilla CSS that provide some extra functionality such as nesting, mixins, and variables.  When you run the processor, it takes your code and turns it into vanilla CSS that you can import into your project.
+CSS preprocessors are extensions to vanilla CSS that provide some extra functionality, such as nesting, mixins, and variables.  When you run the processor, it takes your code and turns it into vanilla CSS that you can import into your project.
 
 Preprocessors do have some unique and helpful tools, but many of their most helpful features have been implemented in vanilla CSS, so it might not be worth the overhead of learning one unless you think you really need these features.
 
