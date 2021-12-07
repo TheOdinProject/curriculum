@@ -87,7 +87,7 @@
     padding: 1.5em;
     margin: 20px 0 50px 0;
     border-radius: 10px;
-    
+
     ul:first-child {
       margin-bottom: 0;
     }
@@ -147,17 +147,16 @@
   }
 
   .knowledge-check-link {
-    color: inherit;
-    text-decoration: inherit;
-    
-    &:active, &:focus, &:hover, &:visited {
-        color: inherit;
-        text-decoration: none;
+    color: $primary;
+    text-decoration: underline;
+
+    &:hover {
+      color: $black;
+      text-decoration: none;
     }
-    
+
     & > code {
       color: $pink;
     }
   }
-
 }
