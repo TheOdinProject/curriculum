@@ -3,7 +3,7 @@ class ProjectSubmissionsController < ApplicationController
   before_action :find_project_submission, only: %i[update destroy]
 
   def create
-    project_submission = current_user.project_submissions.new(project_submission_params)
+    project_submission = current_user.project_submissions.create_or_find_by!(project_submission_params)
 
     if project_submission.save
       render json: ProjectSubmissionSerializer.as_json(project_submission), status: :ok

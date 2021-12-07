@@ -15,6 +15,7 @@ class ProjectSubmission < ApplicationRecord
   validates :repo_url, url: true
   validates :live_preview_url, allow_blank: true, url: true
   validates :repo_url, presence: { message: 'Required' }
+  validates :user_id, uniqueness: { scope: :lesson_id }
 
   scope :viewable, -> { where(is_public: true, banned: false, discarded_at: nil) }
   scope :created_today, -> { where('created_at >= ?', Time.zone.now.beginning_of_day) }
