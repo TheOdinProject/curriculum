@@ -43,7 +43,7 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions">How do you invoke a function?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions">What are anonymous functions?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions">What are anonymous functions?</a>
 - <a class="knowledge-check-link" href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
 - <a class="knowledge-check-link" href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
