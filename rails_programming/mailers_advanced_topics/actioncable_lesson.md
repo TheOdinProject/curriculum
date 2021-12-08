@@ -9,7 +9,7 @@ The app we'll build will be in two stages. The first stage will be an app for se
 First let's create the app
 
 ~~~bash
-rails new messager -T
+rails new messenger -T
 ~~~
 
 Add devise to the Gemfile
