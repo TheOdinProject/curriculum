@@ -252,5 +252,5 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#keyword-describe'>What does the keyword `describe` define?</a>
 - <a class='knowledge-check-link' href='#keyword-it'>What does the keyword `it` define?</a>
 - <a class='knowledge-check-link' href='#expect-clauses'>How many expect clauses can we write for one test case?</a>
-- <a class='knowledge-check-link' href='https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers'>What are some of Rspec's equality matchers?</a>
-- <a class='knowledge-check-link' href='#require'>How do we tell Rspec where to find the code to be tested?</a>
+- <a class='knowledge-check-link' href='https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers'>What are some of RSpec's equality matchers?</a>
+- <a class='knowledge-check-link' href='#require'>How do we tell RSpec where to find the code to be tested?</a>
