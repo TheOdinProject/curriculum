@@ -69,8 +69,10 @@ rails new my_first_rails_app
 This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this in the last few lines of output:
 
 ~~~bash
-Bundle complete! 18 Gemfile dependencies, 79 gems now installed.
-Use `bundle info <gem name>` to see where a bundled gem is installed.
+├─ websocket-extensions@0.1.4
+└─ ws@6.2.2
+Done in 4.33s.
+Webpacker successfully installed 🎉 🍰
 ~~~
 
 In the above process, Rails created a new directory for us. Let's `cd` into it now:
