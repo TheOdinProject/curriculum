@@ -62,8 +62,10 @@ This is where it might start to be difficult to follow just what is happening. I
 We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us.
 
 ~~~bash
-cd ~/your_odin_project_directory
-rails new my_first_rails_app
+├─ websocket-extensions@0.1.4
+└─ ws@6.2.2
+Done in 3.46s.
+Webpacker successfully installed 🎉 🍰
 ~~~
 
 This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this in the last few lines of output:
