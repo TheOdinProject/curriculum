@@ -17,9 +17,10 @@ What if you don't want your image to simply shrink (in both height and width)? `
 `background-position` and `background-size` are properties that work on elements with a background image, and do not work on normal `img` tags. You'll see some examples and specifics in the reading assignment later, but you can get quite a lot of control over the display and placement of background images by working with these properties. For example, `background-position: center` will make sure the image is always centered in it's container, even if the container is too small to fit the whole image. `background-size: cover` will resize the image so that it is always completely filling it's container while cropping as little as possible.
 
 Here's a little demo you can play with:
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="powxJXV" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="powxJXV" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powxJXV">
-  background demo</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  background | CSS Responsiveness</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -27,7 +28,8 @@ Here's a little demo you can play with:
 `object-fit` works similarly, but is meant for `img` tags. With the `object-fit` property you _can_ specify a width and height for your images and then tell an image how it is supposed to fit itself to those dimensions. The default value for `object-fit` is `fill`, which simply stretches the image to fit the dimensions, but much like `background-size` you can also tell it to `cover` or `contain` the image.
 
 Here's a demo of `object-fit` on an image. Open this one up on CodePen and resize the browser to see how the image reacts.
-<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="NWgOGGX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="NWgOGGX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/NWgOGGX">
   object-fit</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

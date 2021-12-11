@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Get introduced to frameworks by reading these brief articles from [Wired (originally from WebMonkey)](https://web.archive.org/web/20180402231229/https://www.wired.com/2010/02/get_started_with_web_frameworks/) and [Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
+  1. Get introduced to frameworks by reading this brief article from [Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
   2. Glance over [this article](https://rubygarage.org/blog/technology-stack-for-web-development) from RubyGarage or [this description](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks) from Mozilla's website to understand some of the thought process that goes into picking a framework.
 
 </div>

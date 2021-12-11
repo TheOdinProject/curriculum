@@ -44,3 +44,6 @@ This section contains helpful links to other content. It isn't required, so cons
   * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are the benefits of YAML vs JSON vs MessagePack serialization formats?</a>
   * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>How would you check if a file exists using the File object in the command line?</a>
   * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>In a Download directory containing 5 files. How would you count the number of files in that directory using the Dir object?</a>
+
+
+

@@ -126,7 +126,7 @@ Structural pseudo-classes are a powerful way to select elements based on their p
 
 `:root` is generally the place where you will place your 'global' CSS rules that you want available everywhere - such as your custom properties and CSS variables, or rules such as `box-sizing: border-box;`.
 
-[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that or the first or last sibling.
+[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that are the first or last sibling.
 
 Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
 

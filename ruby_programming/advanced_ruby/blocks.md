@@ -286,6 +286,15 @@ a_proc.call
 #=> this is a proc
 ~~~
 
+or you can just use 'proc'
+
+~~~ruby
+a_proc = proc { puts "this is a proc" }
+
+a_proc.call
+#=> this is a proc
+~~~
+
 Arguments are declared inside pipes `||`
 
 ~~~ruby
@@ -309,6 +318,20 @@ a_proc = Proc.new { |a, b| puts "a: #{a} --- b: #{b}" }
 a_proc.call("apple")
 # => a: apple --- b:
 ~~~
+
+which is also why this is possible:
+
+~~~ruby
+nested_array = [[1, 2], [3, 4], [5, 6]]
+nested_array.select {|a, b| a + b > 10 }
+
+# => [5, 6]
+~~~
+
+As you can see, `#select` has two arguments specified `|a, b|`, on each iteration we pass a single element of nested_array into the block. On the first iteration this is: `[1, 2]`, this array now, is deconstructed automatically (into a = 1, b = 2) and its values compared as specified. So on to the next rounds of iteration in which we pass `[3, 4]` and `[5, 6]` one by one.
+This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lamda proc.
+This property is not limited to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
+You can read more about this here: [documentation](https://ruby-doc.org/core-2.7.2/Proc.html)
 
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
@@ -430,7 +453,7 @@ arr.map(&:to_i)
 
 What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://ruby-doc.org/core-3.0.0/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
 
-(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.0/Object.html#method-i-send) for `#send` if you're interested.)
+(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.0/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
 
 <span id="proc-to-block">The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
