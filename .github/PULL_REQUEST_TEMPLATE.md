@@ -7,7 +7,7 @@ Thank you for taking the time to contribute to The Odin Project. In order to get
  - [ ] If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) and reference it with the `#` sign and the issue number.
  - [ ] If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
 
-#### 1.Describe the changes made and include why they are necessary or important:
+#### 1. Describe the changes made and include why they are necessary or important:
 
 ...your text here
 
