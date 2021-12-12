@@ -40,7 +40,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 
   * <a class='knowledge-check-link' href='https://thoughtbot.com/blog/io-in-ruby'>How would you go through the lines of a file using the IO object in the command line?</a>
-  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>How would you take the Array consisting of [1,2,3] and serialize the Array into a JSON string format?</a>
+  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>How would you take the Array `[1,2,3]` and serialize it into a JSON string format?</a>
   * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are the benefits of YAML vs JSON vs MessagePack serialization formats?</a>
   * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>How would you check if a file exists using the File object in the command line?</a>
   * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>In a Download directory containing 5 files, how would you count the number of files in that directory using the Dir object?</a>
