@@ -37,7 +37,7 @@ Sometimes there are also resources where it actually only makes sense for there 
 
 In this case, it doesn't make a whole lot of sense to display an "index" of dashboards, since there is only one (it just changes based on who is logged in).  We can also say that, for any of the other actions which would normally require an ID to differentiate which resource we're operating on (like `#show`), since there's only one, we no longer need the `id` parameter.
 
-The routes file line for a singular resource would look like:
+<span id='knowledge-check-1'>The routes file line for a singular resource would look like:</span>
 
 ~~~ruby
   # in config/routes.rb
@@ -60,7 +60,7 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 
 ### Nested Routes
 
-Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:
+Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. <span id='knowledge-check-2'>The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:</span>
 
 ~~~ruby
   # config/routes.rb
@@ -98,7 +98,7 @@ If this seems a bit confusing at first, you'll pick it up quickly when you actua
 
 #### Member and Collection Routes
 
-Sometimes you want to add another non-RESTful route to a resource.  If you'd like to add a route to just a single member of that resource, use the `#member` method:
+Sometimes you want to add another non-RESTful route to a resource.  <span id='knowledge-check-3'>If you'd like to add a route to just a single member of that resource, use the `#member` method:</span>
 
 ~~~ruby
   # config/routes.rb
@@ -113,7 +113,7 @@ Sometimes you want to add another non-RESTful route to a resource.  If you'd lik
 
 That route would map to the `courses#preview` action.  You can add as many as you'd like.
 
-If you'd like to add a non-RESTful route to the whole collection of your resource (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:
+<span id='knowledge-check-4'>If you'd like to add a non-RESTful route to the whole collection of your resource (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:</span>
 
 ~~~ruby
   # config/routes.rb
@@ -135,7 +135,7 @@ If any of this seems confusing, just play around with them and run `$ rake route
 
 #### Redirects and Wildcard Routes
 
-You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:
+<span id='knowledge-check-5'>You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:</span>
 
 ~~~ruby
   # config/routes.rb
@@ -150,7 +150,7 @@ In the example above, we've also renamed the route for convenience by using an a
 
 ### Advanced Layouts: Nesting Layouts and Passing Information
 
-We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway.
+<span id='knowledge-check-6'>We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway.</span>
 
 A better way of doing things is to tell your layout to do some stuff (whatever you might normally have your layout do) and then render *another* layout using the `render :template => "your_layout.html.erb"` method. You are sort of using your layouts like a view might use a view partial.
 
@@ -205,7 +205,7 @@ An example of metaprogramming in action in Rails is with the route helpers.  Whe
 
 The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `#home_path` or `#home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
 
-Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:
+<span id='knowledge-check-7'>Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:</span>
 
 ~~~bash
   > 1 + 2
@@ -316,3 +316,14 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
 * [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#knowledge-check-1">What would the routes file line for a singular resource look like?</a>
+* <a class="knowledge-check-link" href="#knowledge-check-2">How do you nest one resource inside another in the routes file?</a>
+* <a class="knowledge-check-link" href="#knowledge-check-3">When do you use the `#member` method?</a>
+* <a class="knowledge-check-link" href="#knowledge-check-4">When do you use the `#collection` method?</a>
+* <a class="knowledge-check-link" href="#knowledge-check-5">When do you use a redirect?</a>
+* <a class="knowledge-check-link" href="#knowledge-check-6">What are some techniques for rendering multiple layouts for one page?</a>
+* <a class="knowledge-check-link" href="#knowledge-check-7">What does the `#send` method do?</a>
