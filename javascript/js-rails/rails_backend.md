@@ -59,8 +59,14 @@ By the end of this lesson, you should be able to:
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+#### With Ruby on Rails
+
 * [Grabbing your Rails form CSRF token with Javascript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
 * [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
+
+#### With Firebase
+
+* This [video](https://www.youtube.com/watch?v=zQyrwxMPm88) to reinforce the learnings from [Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0).
 
 ### Knowledge Check
 
