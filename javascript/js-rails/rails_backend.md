@@ -18,7 +18,7 @@ Are you done? Good. Next, it's time to practice allowing your front end Javascri
 
 #### Outsourcing your backend to Firebase
 
-If you skipped Ruby and/or Ruby on Rails or are on a different path, you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
+If you skipped Ruby and/or Ruby on Rails or are on the [full-stack JavaScript path](https://www.theodinproject.com/paths/full-stack-javascript), you're not quite ready to build an entire web app from scratch. The good news: you don't have to! We will provide you with resources that guide you through setting up your backend on [Firebase](https://firebase.google.com).
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
@@ -51,8 +51,9 @@ By the end of this lesson, you should be able to:
 <div class="lesson-content__panel" markdown="1">
 
 1. [Explore the different services offered by Firebase](https://firebase.google.com/products). Pay particular attention to [Cloud Firestore](https://firebase.google.com/products/firestore) for now. You may or may not also want to use [Firebase Hosting](https://firebase.google.com/products/hosting) and/or any of the other services offered by Firebase, particularly [Cloud Storage](https://firebase.google.com/products/storage) and [Authentication](https://firebase.google.com/products/auth), but you probably won't need any of those for your first Firebase project.
-2. If this is your first ever encounter with Firebase, we encourage you to do [this Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0), which will walk you through setting up a sample app on Firebase step by step.
-3. If you haven't already integrated one of your previous projects with Firebase, go back to one of them now (e.g. the library project or the to-do app), and [follow this guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend. **Caution:** if you're *not* going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look at the section below Step 4, there should be a link, which directs you to the "Available Libraries" page. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
+2. Complete [this Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0), which will walk you through setting up a sample app on Firebase step by step.
+3. Go back to one of the previous projects (e.g. the library project or the to-do app), and [follow this guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend. 
+    1. **Caution:** If you're *not* going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look at the section below Step 4, there should be a link, which directs you to the "Available Libraries" page. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
 </div>
 
 ### Additional Resources
