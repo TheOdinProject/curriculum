@@ -164,9 +164,8 @@ In later Git lessons, we will cover some of the more advanced Git features, such
 
 For now, concentrate on using the basics of Git that you've learned here with all of your projects from now on. You will soon know each of the basic Git commands from memory!
 
-
 ### Bonus: Changing the Git Commit Message Editor
-As an added bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a> because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`. 
+As an added bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`. 
 
 There will be no confirmation or any output on the terminal after entering this command. When you want to make a commit with Visual Studio Code as the text editor, make sure to use the `git commit` command without the `-m` flag. Just type `git commit` and no message after that. Once you do this, a new tab will open, and you will be able to write your message, and optionally you will be able to provide more information below your message. When you are done with your commit message, save and exit the tab.
 
