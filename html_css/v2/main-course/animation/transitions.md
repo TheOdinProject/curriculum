@@ -86,7 +86,7 @@ What's important is that you have a solid understanding of these concepts and ca
 <div class="lesson-content_panel" markdown="1">
 1. Read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions). Make sure you code along with it to become familiar with the syntax.
 2. Check out this great article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html) about catching and debugging a repaint issue in the wild.
-3. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding pf the stacking context.
+3. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding of the stacking context.
 4. Learn some handy hints on how to create performant CSS animations by reading [this article](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
 5. Not all CSS properties are animatable. Keep [this list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties) of CSS-animatable properties handy for future reference. 
 </div>
