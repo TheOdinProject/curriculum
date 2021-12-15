@@ -14,7 +14,7 @@ Animations let you animate elements from one style configuration to another. Doe
 
 CSS transitions were designed to animate an element from one state to another. They *can* loop but they weren't designed for that, whereas animations were designed with the purpose of explicitly enabling loops.
 
-Transitions need a trigger in the form of a pseudo-class but animations do not. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do. 
+Transitions need a trigger, for example, the use of pseudo-classes like :hover or :focus, or by adding/removing a class via JS. Animations, on the other hand, do not. Once you have your elements in place and CSS defined, an animation will start running immediately if that's what you told it to do. 
 
 Transitions are also not as flexible as using animations. When you define a transition, imagine you are sending that element on a journey in a straight line from point A to point B. Yes the `transition-timing-function` can add some variation to the timing of this change, but it doesn't compare to the amount of flexibility added by using animations.
 
