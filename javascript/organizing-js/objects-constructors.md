@@ -167,7 +167,7 @@ Student.prototype.sayName = function() {
   console.log(this.name)
 }
 Student.prototype.goToProm = function() {
-  // eh.. go to prom?
+  console.log("Eh.. go to prom?")
 }
 ~~~
 
