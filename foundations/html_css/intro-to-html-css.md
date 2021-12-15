@@ -24,5 +24,5 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
-* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
-* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for changing the font and background color of a button?</a>
+* <a class="knowledge-check-link" href="#html-and-css">What is HTML used for?</a>
+* <a class="knowledge-check-link" href="#html-and-css">What is CSS used for?</a>
