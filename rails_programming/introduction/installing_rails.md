@@ -21,10 +21,12 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
 #### Step 1.1: Install Rails
 
+* At the time of writing this version 7 of Rails has just shipped so and we're currently updating our course. Until that is ready we're going to specify the using Rails 6. None of the Rails fundamentals have changed so you won't have to relearn everything once our course is updated*
+
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails
+gem install rails -v '6.1.4'
 ~~~
 
 Once the installation finishes, you can check if everything went well by restarting your terminal and running the following command:
@@ -63,7 +65,7 @@ We're going to start by navigating to the directory that you house your projects
 
 ~~~bash
 cd ~/your_odin_project_directory
-rails new my_first_rails_app
+rails _6.1.4_ new my_first_rails_app
 ~~~
 
 This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this in the last few lines of output:
