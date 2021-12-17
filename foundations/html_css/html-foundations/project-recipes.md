@@ -13,7 +13,7 @@ As mentioned in the [introduction to Git](/courses/foundations/lessons/introduct
 If you do not know how to set up a repository, follow the instructions found in [Git Basics](/courses/foundations/lessons/git-basics) to learn how.
 
 1. Create a new repo for this project on GitHub.com and call it `odin-recipes`.
-2. Move that repository onto your local machine. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
+2. Move that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
 3. Now `cd` into the `odin-recipes` project directory that is now on your local machine.
 4. Set up your `README.md` file and write a brief introduction describing what the current project is and what skills you will have demonstrated once you have completed it. (You can also do this as a self-reflection at the end of the project, which is a good way to review what you have learned.)
 
