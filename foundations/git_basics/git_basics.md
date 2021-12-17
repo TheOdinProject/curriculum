@@ -36,7 +36,7 @@ By the end of this lesson, you should be able to do the following:
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png" title="Copy SSH link using GitHub" /></a>
 
-5. In the command line on your local machine, let's make a new directory for all your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. If you're not sure you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
+5. In the command line on your local machine, let's make a new directory for all your Odin projects. Create a directory called `the_odin_project` with the `mkdir` command in your home folder. This repo is where all your future projects will go. If you're not sure you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png" title="Creating a new directory" /></a>
 
