@@ -297,7 +297,7 @@ Once it's installed you need to require it at the top of your app.js and then we
 
 Password hashes are the result of passing the user's password through a one-way hash function, which maps variable sized inputs to fixed size pseudo-random outputs. 
 
-Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
+Follow this [article](https://coderrocketfuel.com/article/store-passwords-in-mongodb-with-node-js-mongoose-and-bcrypt) along and edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ~~~javascript
 bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
