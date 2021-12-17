@@ -130,7 +130,11 @@ While your VM is running, do the following steps:
   **NOTE**:
 
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
-* If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"), please reboot your host (Windows/OSX) operating system. Afterwards, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
+* If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
+   
+   Suggestion 1: Reboot your host (Windows/OSX) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
+   
+   Suggestion 2: In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the Storage tab, under Controller: IDE, click on VBoxGuestAdditions.iso and make sure "Live CD/DVD" is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled "Live CD/DVD": under Controller: IDE, by selecting the blue circle dropdown on the right side of the window and clicking "Remove Disk from Virtual Drive". It is also suggested to uncheck "Live CD/DVD" at this point.
 * If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow these [instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
 * Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
 
