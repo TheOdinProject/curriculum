@@ -37,7 +37,7 @@ describe('Submission', () => {
   });
 
   describe('Tests for all submissions', () => {
-    test('Renders live preivew with valid live_preview_url', () => {
+    test('Renders live preview with valid live_preview_url', () => {
       ({ queryByTestId } = renderSubmissionComponent({
         ...defaultSubmission,
         live_preview_url: 'https://google.com',
