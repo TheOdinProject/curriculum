@@ -1,6 +1,6 @@
 ### Introduction
 
-Forms are one of the most critical parts of your site. They are your user's gateway into your back end – the user provides data in a form, and you do stuff with it.
+Forms are one of the most critical parts of your site. They are your user's gateway into your backend – the user provides data in a form, and you do stuff with it.
 
 You need to specify the proper types of inputs for each possible data item since there are often multiple ways to collect a piece of data, but only one way is easiest for your user.
 
@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to:
 The form element is a container element like the div element we learned earlier in the curriculum. The form element wraps all of the inputs a user will interact with on a form.
 
 The form element accepts two essential attributes; the first is the `action` attribute which takes a URL value that tells the form where it should send its data to be processed.
-Later in the curriculum, we will learn to hook backend systems up to front-end forms using this attribute. For now, it's only essential to know what the action attribute is used for.
+Later in the curriculum, we will learn to hook backend systems up to frontend forms using this attribute. For now, it's only essential to know what the action attribute is used for.
 
 The second is the `method` attribute which tells the browser [which HTTP request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) it should use to submit the form.
 The GET and POST request methods are the two you will find yourself using the most.
@@ -99,11 +99,11 @@ The name attribute serves as a reference to the data inputted into a form contro
 To get a better understanding of what this looks like we can submit a form to [httpbin](http://httpbin.org/). This service will send back a response which will let us view what data was submitted. Fill in the form below and click submit:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyVRMbq" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-<span>See the Pen <a href="[https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq](https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq)">
-form-basics-name-attribute</a> by TheOdinProject (<a href="[https://codepen.io/TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples)">@TheOdinProjectExamples</a>)
-on <a href="[https://codepen.io](https://codepen.io/)">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq">
+form-basics-name-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="[https://cpwebassets.codepen.io/assets/embed/ei.js](https://cpwebassets.codepen.io/assets/embed/ei.js)"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 The output we care about from the response is the "form" object. It should look something like this:
 
@@ -124,11 +124,11 @@ It's worth mentioning that you can use any of the form controls HTML provides ou
 For example you might want to have an input that gets some data from a user and display that somewhere else on the page with Javascript:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PoJjNYr" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-<span>See the Pen <a href="[https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr](https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr)">
-using-form-controls-outside-of-form</a> by TheOdinProject (<a href="[https://codepen.io/TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples)">@TheOdinProjectExamples</a>)
-on <a href="[https://codepen.io](https://codepen.io/)">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr">
+using-form-controls-outside-of-form</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io/">CodePen</a>.</span>
 </p>
-<script async src="[https://cpwebassets.codepen.io/assets/embed/ei.js](https://cpwebassets.codepen.io/assets/embed/ei.js)"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 We will need to manipulate data from form controls like this quite a bit when we get to the projects in the Fullstack JavaScript course.
 
