@@ -19,7 +19,7 @@
     "babel-plugin-prismjs": "^2.1.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.6.0",
-    "browserslist": "^4.18.1",
+    "browserslist": "^4.19.1",
     "core-js": "^3.19.3",
     "hint.css": "^2.7.0",
     "humps": "^2.0.1",
