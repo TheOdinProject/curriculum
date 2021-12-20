@@ -215,18 +215,19 @@ fruits.none? { |fruit| fruit.length > 6 }
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Use Ruby Any, All, None, and One](https://www.rubyguides.com/2018/10/any-all-none-one/) for alternative explanations for predicate enumerables.
+  2. Complete the [predicate enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* There are many more enumerable methods than are covered in this lesson (e.g., `#member?` and `#one?`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * Why is there a question mark after some method names?
- * What does the `#include?` method do?
- * What does the `#any?` method do?
- * What does the `#all?` method do?
- * What does the `#none?` method do?
+ * <a class="knowledge-check-link" href="#introduction">Why is there a question mark after some method names?</a>
+ * <a class="knowledge-check-link" href="#the-include-method">What does the `#include?` method do?</a>
+ * <a class="knowledge-check-link" href="#the-any-method">What does the `#any?` method do?</a>
+ * <a class="knowledge-check-link" href="#the-all-method">What does the `#all?` method do?</a>
+ * <a class="knowledge-check-link" href="#the-none-method">What does the `#none?` method do?</a>

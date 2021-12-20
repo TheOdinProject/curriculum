@@ -2,7 +2,7 @@
 
 Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistent) error messages.
 
-Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](https://skillcrush.com/2012/04/16/api/1346413073000/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
+Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read this FCC explanation](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
@@ -128,7 +128,7 @@ See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/
 
 #### Rendering Nothing or Errors
 
-Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [This older blog](http://www.intridea.com/blog/2008/7/23/using-http-status-codes-for-rails-ajax-error-handling) for one approach or [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for another set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
+Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [this blog](https://web.archive.org/web/20201128082344/https://www.mobomo.com/2008/07/using-http-status-codes-for-rails-ajax-error-handling/) for one view and [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for a set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
 
 ~~~ruby
   # app/controllers/users_controller.rb
@@ -144,7 +144,7 @@ Sometimes you just want to send out an HTTP error code without any response body
 
 #### Creating Dynamic Error Pages
 
-You can create your own error pages. See [this blog post](https://pooreffort.com/blog/custom-rails-error-pages).
+You can create your own error pages. See [this post](https://web-crunch.com/posts/custom-error-page-ruby-on-rails).
 
 Sometimes Heroku can require additional steps to properly display your error pages.  See [their error page docs here](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `app/public` directory first.
 
@@ -204,7 +204,7 @@ The best way to really figure out APIs is to build them and interface with them,
 In the next lesson, we'll cover working with other people's APIs, which can add all kinds of firepower to your own application.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
 * Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)

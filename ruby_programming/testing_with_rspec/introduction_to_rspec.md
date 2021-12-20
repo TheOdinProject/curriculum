@@ -36,7 +36,7 @@ project
   |__spec
   |   |__spec_helper.rb
   |
-  |__.spec
+  |__.rspec
 ~~~
 
 That's it. Within two steps, you're up and running with RSpec. That wasn't so hard, was it?
@@ -57,7 +57,7 @@ As expected, the output will read:
   create   spec/spec_helper.rb
 ~~~
 
-Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in our [Discord](https://discord.gg/hvqVr6d) back-end channel.
+Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in our [Discord](https://discord.gg/fbFCkYabZB) back-end channel.
 
 ~~~bash
 No examples found.
@@ -67,7 +67,7 @@ Finished in 0.00037 seconds (files took 0.21108 seconds to load)
 0 examples, 0 failures
 ~~~
 
-Let's add our first test. Let's say we want to create a calculator with a few methods that we want to test. True to TDD, we will write the tests prior to the code. The `spec/` folder is where all your tests will live. Using `touch` on the command line or through your text editor, create `calculator_spec.rb` within the `spec/` folder and add the following lines:
+Let's add our first test. Let's say we want to create a calculator with a few methods that we want to test. True to TDD, we will write the tests prior to the code. <span id='tests-folder'>The `spec/` folder is where all your tests will live</span>. Using `touch` on the command line or through your text editor, create `calculator_spec.rb` within the `spec/` folder and add the following lines:
 
 ~~~ruby
 #spec/calculator_spec.rb
@@ -84,7 +84,7 @@ end
 
 Let's go line by line.
 
-First, `describe` is an RSpec keyword that defines an "Example Group", or a collection of tests. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested, such as on the second line of our test above. When describing a class, the following syntax is also valid:
+<span id='keyword-describe'>First, `describe` is an RSpec keyword that defines an "Example Group", or a collection of tests</span>. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested, such as on the second line of our test above. When describing a class, the following syntax is also valid:
 
 ~~~ruby
 #spec/calculator_spec.rb
@@ -94,7 +94,7 @@ describe Calculator do
 end
 ~~~
 
-The `it` keyword defines an individual example (aka, test). `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
+<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
 
 ~~~ruby
   expect(calculator.add(5, 2)).to eql(7)
@@ -105,7 +105,7 @@ Simple, isn't it? One more time, from the top:
 1. `describe` the class
 2. `describe` the method example group. Conventionally, the string argument for instance methods are written as "#method", while string arguments for class methods are written as ".method".
 3. Write your test case/example with `it`.
-4. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. Also, limit one expect clause per test case.
+4. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. <span id='expect-clauses'>Also, limit one expect clause per test case</span>.
 
 #### Passing code
 
@@ -144,7 +144,7 @@ class Calculator
 end
 ~~~
 
-Finally, we must also tell the spec where the `Calculator` class is being defined. This is easily done with `require`:
+Finally, we must also tell the spec where the `Calculator` class is being defined. <span id='require'>This is easily done with `require`</span>:
 
 ~~~ruby
 #spec/calculator_spec.rb
@@ -176,7 +176,7 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 
 Failed examples:
 
-rspec ./spec/calculator_spec.rb:5 # Calculator#add adds two numbers together
+rspec ./spec/calculator_spec.rb:5 # Calculator#add returns the sum of two numbers
 ~~~
 
 Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
@@ -212,23 +212,23 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 1. Let's implement a new test case for your `#add` method, written out for you below. Run the test to see the failure. Write the minimum code necessary to get **both** tests to pass, then refactor if necessary.
 
-~~~ruby
-#spec/calculator_spec.rb
-
-describe Calculator do
-  describe "#add" do
-    it "returns the sum of two numbers" do
-      # removed for brevity
-    end
-
-    # add this
-    it "returns the sum of more than two numbers" do
-      calculator = Calculator.new
-      expect(calculator.add(2, 5, 7)).to eql(14)
-    end
-  end
-end
-~~~
+   ~~~ruby
+   #spec/calculator_spec.rb
+   
+   describe Calculator do
+     describe "#add" do
+       it "returns the sum of two numbers" do
+         # removed for brevity
+       end
+   
+       # add this
+       it "returns the sum of more than two numbers" do
+         calculator = Calculator.new
+         expect(calculator.add(2, 5, 7)).to eql(14)
+       end
+     end
+   end
+   ~~~
 
 2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
 3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
@@ -236,11 +236,21 @@ end
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-_This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something_
-
+- [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
 - For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
 - Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
 - Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
 - The [RSpec Cheat Sheet](https://www.dropbox.com/s/mij3d0bhi29outc/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
 - Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
+
+### Knowledge Checks 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#tests-folder'>What do you name the folder that contains your test files?</a>
+- <a class='knowledge-check-link' href='#keyword-describe'>What does the keyword `describe` define?</a>
+- <a class='knowledge-check-link' href='#keyword-it'>What does the keyword `it` define?</a>
+- <a class='knowledge-check-link' href='#expect-clauses'>How many expect clauses can you write for one test case?</a>
+- <a class='knowledge-check-link' href='https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers'>What are some of RSpec's equality matchers?</a>
+- <a class='knowledge-check-link' href='#require'>How do we tell RSpec where to find the code to be tested?</a>

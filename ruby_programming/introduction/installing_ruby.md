@@ -6,12 +6,12 @@ Before continuing, let's review a few best practices to keep in mind:
 
 * Copy and paste the commands to avoid typos.
 * Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances you might see a message in the terminal telling you to use sudo and install something with `apt` ignore that and follow _our_ instructions for now.
+* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow _our_ instructions for now.
 
 Now, let's get started!
 
 <details markdown="block">
-<summary class="dropDown-header">Ubuntu / Xubuntu / WSL
+<summary class="dropDown-header">Ubuntu / Xubuntu
 </summary>
 
 ### Step 1: Install Updates, Packages and Libraries
@@ -24,9 +24,7 @@ We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-If you're using WSL, open the "Ubuntu 18.04" program from your Start menu.
-
-**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`. In WSL, you can use `ctrl + c` to copy from the terminal, and you can right click at the prompt to paste the contents of the clipboard into the terminal, whether it's bash, PowerShell, or Command Prompt.
+**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`.
 
 #### Step 1.2: Update Linux
 
@@ -57,7 +55,7 @@ Now you're ready to install Ruby. We're going to use a tool called `rbenv`, whic
 
 #### Step 2.1: Install rbenv
 
-First, you need to clone the rbenv repository using `git`, which is a version control program you installed with the last command. You will become more familiar with this program later on.
+First, you need to clone the rbenv repository.
 
 ~~~bash
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
@@ -73,7 +71,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exit
 ~~~
 
-After running the final `exit` command, you will need to close and open a new terminal (see Step 1.1 above).
+After running the final `exit` command, you will need to close out of all open terminals and open a new terminal (see Step 1.1 above).
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
@@ -103,7 +101,7 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ~~~bash
-rbenv install 2.7.0 --verbose
+rbenv install 2.7.4 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
@@ -111,7 +109,7 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 When the last command is finished, set the Ruby version and verify that it's working:
 
 ~~~bash
-rbenv global 2.7.0
+rbenv global 2.7.4
 ~~~
 
 Then,
@@ -123,7 +121,7 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 2.7.0pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 2.7.4pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
@@ -169,7 +167,7 @@ Congratulations! You've installed the prerequisites!
 
 ### Step 2: Install Heroku
 
-Heroku is a place to host your Rails applications
+Heroku is a place to host your Rails applications.
 
 #### Step 2.1: Install Heroku
 
@@ -237,10 +235,10 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 #### Step 3.3: Install Ruby
 
-We can now (finally) install Ruby! We recommend using the latest version, which is currently 2.7.0:
+We can now (finally) install Ruby! Our curriculum currently uses version 2.7.4, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 ~~~bash
-rbenv install 2.7.0 --verbose
+rbenv install 2.7.4 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
@@ -248,14 +246,14 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
-rbenv global 2.7.0
+rbenv global 2.7.4
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.0:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 2.7.4:
 
 ~~~bash
 $ ruby -v
-ruby 2.7.0pxx (20xx-xx-xx revision xxxxx)
+ruby 2.7.4pxx (20xx-xx-xx revision xxxxx)
 ~~~
 
 If you don't see the output above, log off and log back on, then try again.
@@ -269,6 +267,6 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support (RuboCop). This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).

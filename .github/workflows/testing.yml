@@ -1,0 +1,15 @@
+name: codespell
+on: pull_request
+jobs:
+    codespell:
+        name: Check for spelling errors
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - uses: codespell-project/actions-codespell@master
+          with:
+            check_filenames: true
+            check_hidden: true
+            skip: ./.git,*.png,*.csv,./archive,./legacy_submissions
+            only_warn: 1
+            ignore_words_file: './.codespellignore'

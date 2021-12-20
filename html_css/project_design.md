@@ -12,7 +12,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 
 1. Go to [Smashing Magazine's website](http://smashingmagazine.com) and check out their homepage.  Think about where your eye got drawn to first, second, and third on the page.  What elements on the page carry the greatest visual weight?
 2. Think for a minute about whether or not they've achieved the right hierarchy for getting you to consume content on their site.  What's distracting?
-3. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
+3. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
 4. Create a new HTML document.
 5. Think about all the elements on the Smashing homepage and how they are grouped together.
 6. Copy the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
@@ -28,6 +28,6 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Add some!

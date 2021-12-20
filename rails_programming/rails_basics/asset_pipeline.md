@@ -12,17 +12,21 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### The Asset Pipeline
 
-Assets in your application are additional files that get called by the browser after your initial gob of HTML is received.  They include things like CSS stylesheets, Javascript files, images, videos etc... basically anything that requires an additional request to grab it.
+Assets in your application are additional files that get called by the browser after your initial gob of HTML is received. Assets is used to mean things like CSS stylesheets, Javascript files, images, videos etc... basically anything that requires an additional request to grab it. It used to be that the Asset Pipeline handled all assets but since the inclusion of Webpack and the webpacker gem to give Webpack some Rails type conventions, it is now better practice to handle Javascript assets through there. Webpacker now comes as standard in Rails 6 applications. If you ever work on legacy applications that haven't included the webpacker gem you may well find Javascript is still handled by the asset pipeline.
 
-Often times, it's easiest to organize your code for development purposes into many different files so you can keep track of them better.  But if the browser has to grab a dozen different CSS files, each one of those requests is going to slow things down.  Too many requests and you've harpooned your user's experience with your application.
+You should also note that as Webpack is itself a bundler much like the asset pipeline (although not identical) it can also handle stylesheets and assets, but current Rails recommended best practice is to allow the asset pipeline to handle them and use Webpack only for Javascript assets. It may well depend on where you end up working what convention they follow but as you learn more about Webpack you'll understand how Webpack differs from the Asset Pipeline as well as how to use both to handle any of the assets in your application. Here we will cover how the Asset Pipeline handles Javascript and in another lesson we will cover Webpack but for your own projects we suggest Webpack is the standard for Javascript code.
 
-A similar organizational issue has to do with storing things like images.  It's easier to keep them separate and separated in your directory but you want them to be really simple to link to so your image tags are robust.
+Getting back to the Asset Pipeline, often times, it's easiest to organize your code for development purposes into many different files so you can keep track of them better.  But if the browser has to grab a dozen different CSS files, each one of those requests is going to slow things down.  Too many requests and you've harpooned your user's experience with your application.
+
+A similar organizational issue has to do with storing things like images.  It's easier to keep them separated in your directory but you want them to be really simple to link to so your image tags are robust.
 
 Rails' solution to these problems is to flatten everything out and mash all your asset files together into one big one for each filetype (called "concatenation").  The process used to do this is the Asset Pipeline.  For your CSS files, this means that Rails will take all the individual `.css` files and just stack them on top of each other in one giant asset file.  It will then run an "uglifier" or "minifier" program on the file to remove extraneous spaces and make everything nice and small for shipping to the browser.
 
 Javascript files are the same -- all of them get smooshed together and then uglified before being shipped to the browser as one single file.  It's better to have one slightly larger file than to make several full HTTP requests.
 
 #### Manifest Files
+
+The below section on the Javascript manifest isn't relevant to new Rails 6 applications where Webpack is used. That will be covered in the Webpack lesson but just be aware you may come across this in older Rails projects so get an idea of how it works.
 
 Rails needs to know which files to include in that giant blob, so it uses so-called "manifest" files to determine this.  Your javascript manifest file will be `app/assets/javascripts/application.js`.  It looks commented out, but the lines starting with `//=` tell Rails which files to go find and include.  The comments in the file are pretty useful -- they say:
 
@@ -47,9 +51,11 @@ Rails needs to know which files to include in that giant blob, so it uses so-cal
 
 The `require_tree` helper method just grabs everything in the current directory.
 
-Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css.scss`:
+jquery also isn't now included out of the box. Rails now uses the rails_ujs instead so if you do end up using the asset pipeline exclusively (which you still can for Rails 6 applications) your javascript manifest may look a little different.
 
-~~~scss
+Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css`:
+
+~~~css
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -65,7 +71,9 @@ Your stylesheet manifest file operates on the same principle -- it's available a
  */
 ~~~
 
-Again, you see the `require_tree` helper method which brings in all CSS files in the current directory.
+Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put css sparingly into this top level file and instead use as much as possible the css stylesheet files created for you whenever you create a Controller in Rails. It generates a directory for views related to the controller where your HTML lives and it also creates a stylesheet in the same name. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat gifs then Rails will also create a `cat.scss` stylesheet where you can put css related to your cat views.
+
+You may be wondering why it creates an application.css main file but the extension for individual resources is `.scss`. This is [explained here](https://github.com/rails/sass-rails#important-note). Essentially for Rails to use the `require_tree` command it can only do this from a css file extension.
 
 Reading the comments, you can also see that a couple other directories are assumed to be a "local directory" and can be easily referenced as well, like the `lib/assets` and `vendor/assets` files.  Sometimes, if you start using a new gem (like some of the Twitter-Bootstrap gems) you manually need to add the new bootstrap stylesheets and javascripts to the manifest files to make sure your application actually includes them in the final output.
 
@@ -126,7 +134,7 @@ Remember the preprocessors we talked about in the previous lesson on Views?  Fil
 
 ### Un-Escaping HTML
 
-Let's say you're building a blog and you want to be able to write posts that include HTML code.  If you just write something like `this is the <strong>BODY</strong> of my post` and then try to display it in a view later, the `<strong>`tags will just be regular text... they will literally say '\<strong\>'.  That's called "escaping" the characters.
+Let's say you're building a blog and you want to be able to write posts that include HTML code.  If you just write something like `this is the <strong>BODY</strong> of my post` and then try to display it in a view later, the `<strong>` tags will just be regular text... they will literally say '\<strong\>'.  That's called "escaping" the characters.
 
 To get your views to actually render HTML as HTML, you need to let Rails know that the code is safe to run.  Otherwise, it's easy for a malicious attacker to inject code like `<script>` tags that cause major issues when you try to render them.
 
@@ -155,7 +163,7 @@ Some necessary and straightforward reading on the Asset Pipeline:
 The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
 * [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)

@@ -22,12 +22,14 @@ async function getPersonsInfo(name) {
 The second example looks much more like the kind of functions you are used to writing, however, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
 
 ### Learning Outcomes
-1. How do you declare an `async` function?
-2. What does the `async` keyword do?
-3. What does the `await` keyword do?
-4. What is returned from an `async` function?
-5. What happens when an error is thrown inside an `async` function?
-6. How can you handle errors inside an `async` function?
+By the end of this lesson, you should be able to:
+
+ - Explain how you declare an `async` function
+ - Explain what the `async` keyword does
+ - Explain what the `await` keyword does
+ - Explain what an `async` function returns
+ - Explain what happens when an error is thrown inside an `async` function
+ - Explain how you can handle errors inside an `async` function
 
 ### The async keyword
 The `async` keyword is what lets the javascript engine know that you are declaring an asynchronous function, this is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise, returning in an `async` function is the same as resolving a promise, likewise, throwing an error will reject the promise.
@@ -166,14 +168,27 @@ To use this function, we just simply need to call it with `getCats()` in our cod
 
 This code will behave exactly like the code from the last lesson, it just looks a bit different after refactoring. `async/await` are very useful tools when it comes to cleaning up asynchronous javascript code. It is important to remember `async/await` are just promises written in a different way. Do the assignments below, and dive deeper into the understanding of `async/await`.
 
-
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [this article](https://javascript.info/async-await) for a solid introduction to async/await. [this article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of it's use.
+1. Read [this article](https://javascript.info/async-await) for a solid introduction to async/await. [this article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of its use.
 2. Read [this article](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) for a more in-depth look at async/await, including how to handle errors.
 3. Watch [this video](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and it's purpose, along with a special trick.
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
 1. [This video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
 2. [This video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
+
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+ - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
+ - <a class="knowledge-check-link" href="#the-async-keyword">What does the `async` keyword do?</a>
+ - <a class="knowledge-check-link" href="#the-await-keyword">What does the `await` keyword do?</a>
+ - <a class="knowledge-check-link" href="https://javascript.info/async-await#summary">What is returned from an `async` function?</a>
+ - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">What happens when an error is thrown inside an `async` function?</a>
+ - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">How can you handle errors inside an `async` function?</a>

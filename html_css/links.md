@@ -14,11 +14,11 @@ Links are the glue holding the web together, so make sure you understand how to 
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Lena Shore's explanation of the difference between absolute and relative paths](http://www.lenashore.com/2011/12/the-difference-between-absolute-and-relative-paths/).
-2. Browse [Boogie Jack's article on link paths](http://www.boogiejack.com/server_paths.html).
+2. Read [CoffeeCup's Absolute vs. Relative Paths/Links](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/).
 3. Read [Six Revisions' article on link pseudo-classes](http://sixrevisions.com/css/link-pseudo-classes/) .
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Glance over [About.com's article on linking](http://webdesign.about.com/od/beginningtutorials/a/aa040502a.htm) if you need any additional support

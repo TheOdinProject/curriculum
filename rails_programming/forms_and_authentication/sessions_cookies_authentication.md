@@ -1,6 +1,6 @@
 ### Introduction
 
-"Sessions" are the idea that your user's state is somehow preserved when he/she clicks from one page to the next.  Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.
+"Sessions" are the idea that your user's state is somehow preserved when they click from one page to the next.  Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.
 
 In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
@@ -176,7 +176,7 @@ Configuration will be dependent on your use case.  Do you want to make the user 
 3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
 4. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
 5. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
-6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it the upcoming projects.
+6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
 </div>
 
 ### Conclusion
@@ -187,7 +187,7 @@ This lesson should have given you some appreciation for how complicated login sy
 
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
 * [All About Cookies (.org)](http://www.allaboutcookies.org/)

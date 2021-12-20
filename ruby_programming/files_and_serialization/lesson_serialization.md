@@ -25,14 +25,22 @@ Look through these now and then use them to test yourself after doing the assign
 <div class="lesson-content__panel" markdown="1">
   1. Read [Thoughtbot's I/O in Ruby](https://robots.thoughtbot.com/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
   2. Watch [icc0612's introduction to serialization](https://www.youtube.com/watch?v=uS37TujnLRw). It will explain the concept of serialization before you implement it in Ruby.
-  3. Read [Alan Skorkin's](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/) post about serialization. It's from 2010 so some of the code is outdated, but it's a good introduction to the subject.
-  4. Read [Choosing the Right Serialization Format](https://www.sitepoint.com/choosing-right-serialization-format/) for more information about the various serialization options you can choose from.
+  3. Read [Choosing the Right Serialization Format](https://www.sitepoint.com/choosing-right-serialization-format/) for more information about the various serialization options you can choose from.
+  4. Skim [Alan Skorkin's](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/) post about serialization. Some of the code examples are outdated, but this post still contains relevant information. If you want to follow along with the code examples, copy and paste them into your code editor and use word wrap.
   5. Read the [Chapter on File I/O](http://ruby.bastardsbook.com/chapters/io/) of the Bastard's Book of Ruby.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
 * [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 * [Short Example of Serialization](http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
+
+### Knowledge Check
+
+  * <a class='knowledge-check-link' href='https://thoughtbot.com/blog/io-in-ruby'>How would you go through the lines of a file using the IO object in the command line?</a>
+  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>How would you take the Array `[1,2,3]` and serialize it into a JSON string format?</a>
+  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are the benefits of YAML vs JSON vs MessagePack serialization formats?</a>
+  * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>How would you check if a file exists using the File object in the command line?</a>
+  * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>In a Download directory containing 5 files, how would you count the number of files in that directory using the Dir object?</a>

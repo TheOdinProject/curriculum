@@ -11,28 +11,50 @@ As a friendly reminder, Google and StackOverflow are your friends! We should be 
 
 Good Luck!
 
+### Learning Outcomes
+
+By the end of this lesson, you should be able to do the following:
+
+* Explain PropTypes.
+* Explain Styled Components.
+* Explain Redux and state management systems.
+* Explain higher-order Components.
+* Explain Routers in web pages.
+* Explain how to make your own React Hooks.
+
 ### Guide to Advanced React
 
-#### 1. PropTypes
+#### <span id="prop-types">1. PropTypes</span>
 
-One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using PropTypes. And if that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React.
+One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). And if that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React.
 
-#### 2. Styled Components
+#### <span id="styled-components">2. Styled Components</span>
 
-If you start writing larger applications you will, with certainty, encounter the problem that you might want to style buttons or anything else across your application similarly. One way you could solve this problem is through code duplication (writing even the most basic CSS for each button). However, this wouldn't be a very good (or clean) code. The styled-components package provides a cleaner way to do this. It allows you to give some default stylings to HTML elements, meaning you define a button with some basic styling and reuse this button throughout your application. This way there is no code duplication and it allows your application to be more scalable.
+If you start writing larger applications you will, with certainty, encounter the problem that you might want to style buttons or anything else across your application similarly. One way you could solve this problem is through code duplication (writing even the most basic CSS for each button). However, this wouldn't be a very good (or clean) code. The [styled-components](https://styled-components.com/docs) package provides a cleaner way to do this. It allows you to give some default stylings to HTML elements, meaning you define a button with some basic styling and reuse this button throughout your application. This way there is no code duplication and it allows your application to be more scalable.
 
-#### 3. Redux
+#### <span id="redux">3. Redux</span>
 
-You might have already heard about Redux. Redux is the most popular state management system out there. It is not a part of React, but the two can be very easily combined. Together, they make up an extremely powerful duo. The purpose is to store your application's state in a single place, commonly called a "store". You then dispatch actions to the store, where a reducer will handle the state changes. The primary benefit of using a state management library is to prevent having to pass props through multiple levels of the component tree. A state management library is often only recommended for larger applications.
+You might have already heard about Redux. [Redux](https://react-redux.js.org) is the most popular state management system out there. It is not a part of React, but the two can be very easily combined. Together, they make up an extremely powerful duo. The purpose is to store your application's state in a single place, commonly called a "store". You then dispatch actions to the store, where a reducer will handle the state changes. The primary benefit of using a state management library is to prevent having to pass props through multiple levels of the component tree. A state management library is often only recommended for larger applications.
 
-#### 4. Higher-order Components
+#### <span id="higher-order-components">4. Higher-order Components</span>
 
-Higher-order components are components that consume another component and return a third component.
+Higher-order [components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component.
 
-#### 5. withRouter (history, match, children object)
+#### <span id="with-router">5. withRouter (history, match, children object)</span>
 
-`withRouter` is one example of a higher-order component and is worth looking into it. By wrapping `withRouter` around one of your components, the component will get access to your history, match, and children objects, which provide some additional syntactic sugar. For example, you could use the history object to push a user from one route to another.
+[`withRouter`](https://reactrouter.com/core/api/withRouter) is one example of a higher-order component and is worth looking into it. By wrapping `withRouter` around one of your components, the component will get access to your history, match, and children objects, which provide some additional syntactic sugar. For example, you could use the history object to push a user from one route to another.
 
-#### 6. Hooks (We only discussed a few, but there are a lot more out there)
+#### <span id="more-hooks">6. More Hooks</span>
 
-There are a lot of hooks out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your own.
+There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your [own](https://reactjs.org/docs/hooks-custom.html).
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#prop-types">What are PropTypes and why can it be beneficial to use them?</a>
+- <a class="knowledge-check-link" href="#styled-components">What are Styled Components and how do they make your code cleaner?</a>
+- <a class="knowledge-check-link" href="#redux">What is Redux and why are state management systems used in many large applications?</a>
+- <a class="knowledge-check-link" href="#higher-order-components">What is a High-order Component?</a>
+- <a class="knowledge-check-link" href="#with-router">What is a Router in a web page and some of its benefits?</a>
+- <a class="knowledge-check-link" href="#more-hooks">How can you create your own Hooks?</a>

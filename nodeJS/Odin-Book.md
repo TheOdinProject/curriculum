@@ -4,7 +4,7 @@ You've come a long way, congratulations!  At this point you should feel comforta
 
 You'll be building Facebook.  As with our previous lessons, how much effort you want to put into the styling and front-end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, "liking", "friending", and the news feed.  You'll also implement signing in with the real Facebook using our old friend passportJS.
 
-Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.
+Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.)
 
 ### Assignment
 

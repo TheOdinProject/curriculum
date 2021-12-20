@@ -6,7 +6,7 @@ The page is very straightforward, so you should be able to clone it even if your
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 1. Go to [Mint.com's signup page](https://wwws.mint.com/login.event?task=S) and have a look around.  The form isn't exceptionally complicated.
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a blank HTML document.
 4. Plan out how the elements on the page need to be grouped together.
 5. Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer...) and make them the proper size and alignment.  It may be helpful to change their background colors while you're positioning them on the page.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
@@ -16,4 +16,4 @@ The page is very straightforward, so you should be able to clone it even if your
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.

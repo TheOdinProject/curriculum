@@ -1,10 +1,19 @@
+### Learning Outcomes
+
+By the end of this lesson, you should be able to do the following:
+
+- Explain the best practices for Git commits
+- Use a Git workflow to make an open source contribution
+- Explain common Git terms and uses
+- Understand the inner workings of Git
+
 ### Introduction
 
 Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
-You'll have your share of misadventures, but everyone does.  The best remedy is to commit early and often.  The smaller and more modular your commits are, the less that can go wrong if you mess one up.  
+You'll have your share of misadventures, but everyone does. <span id="commit-often">The best remedy is to commit early and often.<span>  <span id="small-commit">The smaller and more modular your commits are, the less that can go wrong if you mess one up.</span>  
 
-There's some debate out there about how to properly use Git in your workflow, but I try to think of it this way: Your commit message should fully describe (in present tense) what the commit includes, e.g. "add About section to navbar on static pages".  If you need to use a comma or the word "and", you've probably got too much stuff in your commit and should think about keeping your changes more modular and independent.
+There's some debate out there about how to properly use Git in your workflow, but I try to think of it this way: <span id="commit-message">Your commit message should fully describe (in present tense) what the commit includes, e.g. "add About section to navbar on static pages".</span>  If you need to use a comma or the word "and", you've probably got too much stuff in your commit and should think about keeping your changes more modular and independent.
 
 It can also be tempting to immediately fix bugs in your code or tweak some CSS as soon as you see it.  Everyone's guilty of that (ahem).  But it's really best to keep that pen and paper next to you, write down the thing you want to fix, and continue doing what you were doing.  Then, when you've committed your current feature or merged its feature branch or somehow extricated yourself from the current problem, go back and tackle the things you wanted to touch originally.  
 
@@ -16,11 +25,11 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 ### A Git Workflow For Open Source Contribution
 
-Let's say you want to contribute to the web application that powers this website(check it out [here](https://github.com/TheOdinProject/theodinproject)). _**NOTE**: this is not the curriculum repo that you have been submitting your project solutions to, this is the main Odin website that pulls the files from the curriculum in._
+Let's say you want to contribute to the web application that powers this website (check it out [here](https://github.com/TheOdinProject/theodinproject)).
 
-How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
+How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an open [issue](https://github.com/TheOdinProject/theodinproject/issues) and that it has been assigned to you. 
 
-The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`).  Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
+The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
 #### Initial Setup
 
@@ -36,32 +45,23 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 
 #### Ongoing Workflow
 
-We've got one main branch -- `master`.  `master` is for production-ready code.  Any code deployed to `master` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `master` branch.
+We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch.
 
 4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.
 5. Code, commit, code, commit, code, commit (see a pattern?)
-6. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `master` branch is probably out of date.  Fetch the most updated copy using `$ git fetch upstream`.
-7. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/master` among them.
-8. Now merge the upstream's changes into your local version of `master` using `$ git merge`.  Specifically, you'll first want to make sure you're on your `master` branch using `$ git checkout master` and then `$ git merge upstream/master` to merge in those upstream changes that we just fetched.  
+6. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `main` branch is probably out of date.  Fetch the most updated copy using `$ git fetch upstream`.
+7. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/main` among them.
+8. Now merge the upstream's changes into your local version of `main` using `$ git merge`.  Specifically, you'll first want to make sure you're on your `main` branch using `$ git checkout main` and then `$ git merge upstream/main` to merge in those upstream changes that we just fetched.  
 9. Note that a `$ git fetch upstream` followed by a `$ git merge upstream/some_branch` is the EXACT same thing as doing a `$ git pull upstream/some_branch`.  I prefer to split it up so I can explicitly walk through the steps.
-9. Now that your `master` branch is up-to-date with upstream, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `master` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `master`), you want it to be a clean and conflict-free merge.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  So do a `$ git checkout your_feature_name` to jump back onto your feature branch then a  `$ git merge master` to merge `master` into it.
+9. Now that your `main` branch is up-to-date with upstream, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `main` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `main`), you want it to be a clean and conflict-free merge.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  So do a `$ git checkout your_feature_name` to jump back onto your feature branch then a  `$ git merge main` to merge `main` into it.
 9. You may have merge conflicts... resolve those with `$ git mergetool` or just manually open up the files that have conflicts.  Basically, merge conflicts will insert markers into your conflicting files to denote what lines are part of the incoming code and which lines are part of your pre-existing code. You'll need to manually edit those files one-by-one (including removing the merge marker text) and then resave them.  Once you've finished fixing all the files that have conflicts, you need to commit your changes to finish the merge.
 
 #### Sending Your Pull Request
 
-10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `master`, the hard part is all over.  Merge into `master` with `$ git checkout master` followed by `$ git merge your_feature_name`.
-11. Now you want to send your local version of the `master` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin master` to ship `master` up to your fork on GitHub.
-12. Finally, submit a pull request to send your forked version of `master` back to the original `upstream` repository's `master` branch.  This can be done using GitHub's interface.  You just need to make sure you're sending it back to the `master` branch.
+10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over.  Merge into `main` with `$ git checkout main` followed by `$ git merge your_feature_name`.
+11. Now you want to send your local version of the `main` branch back up to your `origin` (your fork of the `upstream` repository). <span id="send-changes">You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.</span>  Use `$ git push origin main` to ship `main` up to your fork on GitHub.
+12. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to send your forked version of `main` back to the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 13. Shake your moneymaker, you're an OSS contributor!
-
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
-
-* How often should you commit?
-* How large should your commits be?
-* What should your commit messages say?
-* Can you commit unfinished features?
-* Which workflow should you use? (e.g. Merge? Topic Branches? Git-Flow? Rebase?)  Hint: There's no right answer.
 
 ### Assignment
 
@@ -72,7 +72,7 @@ Look through these now and then use them to test yourself after doing the assign
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental..
 
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
@@ -88,3 +88,14 @@ Sometimes (okay, maybe a lot of times) when you're working with Git, something g
 * [Oh sh!t git](http://ohshitgit.com/) is a quick reference to get you out of common Git problems.
 * This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
 * If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#commit-often'>How often should you commit?</a>
+- <a class='knowledge-check-link' href='#small-commit'>How large should your commits be?</a>
+- <a class='knowledge-check-link' href='#commit-message'>What should your commit message describe?</a>
+- <a class='knowledge-check-link' href='https://www.git-tower.com/blog/version-control-best-practices/'>Should you commit unfinished features?</a>
+- <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
+- <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history in a repository that's shared with others?</a>

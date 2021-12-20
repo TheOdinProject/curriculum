@@ -30,8 +30,9 @@ A head node is the first node in the list, a tail node is the last node in the l
 For a more thorough explanation, use these resources:
 
 1.  [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
-2.  [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
-3.  [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
+2.  [What's a Linked List, Anyway?](https://dev.to/vaidehijoshi/whats-a-linked-list-anyway)
+3.  [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
+4.  [A more verbose explanation with plenty of diagrams](https://web.archive.org/web/20200217010131/http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 ### Assignment
 
@@ -57,6 +58,8 @@ Build the following methods in your linked list class:
 
 ### Extra Credit
 
-1. `#insert_at(value, index)` that inserts the node with the provided `value` at the given `index`
-2. `#remove_at(index)` that removes the node at the given `index`. (You will need to update the links of your nodes in the list when you remove a node.)
+1. `#insert_at(value, index)` that inserts a new node with the provided `value` at the given `index`.
+2. `#remove_at(index)` that removes the node at the given `index`.
+
+**Extra Credit Tip:** When you insert or remove a node, consider how it will affect the existing nodes. Some of the nodes will need their `#next_node` link updated.
 </div>

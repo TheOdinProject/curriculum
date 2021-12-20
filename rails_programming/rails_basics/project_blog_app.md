@@ -8,18 +8,18 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
-  2. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
-  3. At the end of I3: Tags when you're attempting to delete your Article tags, you'll run into an error along the lines of "FOREIGN KEY constraint failed". You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
-  4. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
-  5. If you're feeling ambitious, add in authentication in section I5.
-  6. If you're feeling very ambitious, try doing the final Extras section I6.
+  1. Do the [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) project through section 8.2, from the Rails Guides. It gives a pretty good overview of the common commands you'll use when using Rails. Section 8.3 is causing a few problems (but should be fixed soon). However, if you want to explore additional functionality of deleting or basic authentication, you can do Section 9 and 10.
+  2. You should have Rails installed already so section 3.1 might not be relevant. It still might be prudent to run the `--version` commands to check you have everything you need though.
+  3. Make sure you commit to git regularly so if you run into any issues you can revert to an earlier commit without having to start over from scratch. As a rough guide look to commit at the end of each section.
+  4. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+  5. Try to make a mental note of the commands and generators you can use. Rails provides a lot of very helpful generators taking a lot of the pain out of creating different parts of a web application.
+  6. When you're finished push up your code to [github](https://github.com/)
   7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge.
-* If you want, you can take a look at [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) from last lesson again. This will help you add some extra features to your blog such as [deleting comments](http://guides.rubyonrails.org/getting_started.html#deleting-comments).
 * You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.
+* The first 30-minutes of this [video](https://youtu.be/rssgWqJq-14) will teach you how to see through of the magical syntax of Ruby on Rails and how to use pry to debug.

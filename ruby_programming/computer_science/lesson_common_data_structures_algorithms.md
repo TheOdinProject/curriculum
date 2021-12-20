@@ -32,18 +32,18 @@ Look through these now and then use them to test yourself after doing the assign
 <div class="lesson-content__panel" markdown="1">
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
   2. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
-  3. Read the [Gentle Introduction to Algorithms for Web Developers](http://www.giocc.com/a-gentle-introduction-to-algorithms-for-web-developers.html) for another basic look at what algorithms are.
+  3. Read [What is an Algorithm and How Does it Make You a Better Programmer](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
   4. Learn about how binary search works by watching [this video](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard's CS50 on YouTube.
   5. Now, we're going to focus on learning about binary search trees. Start by watching [this video](https://www.youtube.com/watch?v=FvdPo8PBQtc) to learn how a binary search tree is constructed from an unordered array.
-  4. Next, learn about the principles of queues and stacks, which are concepts used in breadth-first search and depth-first search, respectively, by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI).
-  5. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
+  6. Next, learn about the principles of queues and stacks, which are concepts used in breadth-first search and depth-first search, respectively, by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI).
+  7. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
       * [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
       * [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
       * [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 * [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
@@ -53,3 +53,13 @@ This section contains helpful links to other content. It isn't required, so cons
 * [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
 * [An article](https://www.crondose.com/2016/06/create-a-binary-search-tree-array/) that discusses how to construct a binary search tree from an unordered array.
 * [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=6QS_Cup1YoI">What is the difference between a stack and a queue?</a>
+* <a class="knowledge-check-link" href="http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/">How would you implement a queue in Ruby?</a>
+* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Data_structure#Examples">What is a linked list? What is a node?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/T98PIp4omUA?t=20">What type of algorithm would you use to perform a binary search?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/86g8jAQug04?t=103">What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/gm8DUJJhmY4?t=499">What abstract data type would you use to defer/store nodes in a depth-first tree traversal?</a>

@@ -21,12 +21,11 @@ There are cases, however, when you are going to want to test things that touch y
 
 We're going to use an npm package called `mongodb-memory-server`. You can see the specifics on their [github repo](https://github.com/nodkz/mongodb-memory-server), but basically this package will spin up a fresh in-memory mongoDB server that you can connect to with mongoose, and then use for your testing environment.  Since it's creating a fresh DB every time you don't have to worry about trying to keep your data in sync, or polluting your production database.
 
-Setting it up is actually pretty simple, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into it's own file as seen in the simple example below.
+Setting it up is actually pretty simple, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into its own file as seen in the simple example below.
 
 ~~~javascript
 //// mongoConfig.js
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
 const mongoDb = `YOUR MONGO URL`;
 
@@ -35,7 +34,7 @@ const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
 ~~~
 
-The above code should look very familiar to you by now.. it's the same setup code we've been using all along. The only difference is that we've moved it out to it's own file so that in our test files we can use a _different_ config file that sets up mongodb-memory-server for us. All you have to do now is `require("./mongoConfig")` in your `app.js` file.
+The above code should look very familiar to you by now.. it's the same setup code we've been using all along. The only difference is that we've moved it out to its own file so that in our test files we can use a _different_ config file that sets up mongodb-memory-server for us. All you have to do now is `require("./mongoConfig")` in your `app.js` file.
 
 Next we need to create a separate config for our testing environment. The config file that you can find on the `mongodb-memory-server` repo README should work just fine. Below is a slightly edited version of it. Copy this to a new file called `mongoConfigTesting.js`
 
@@ -44,24 +43,16 @@ Next we need to create a separate config for our testing environment. The config
 const mongoose = require("mongoose");
 const { MongoMemoryServer } = require("mongodb-memory-server");
 
-const mongoServer = new MongoMemoryServer();
+async function initializeMongoServer() {
+  const mongoServer = await MongoMemoryServer.create();
+  const mongoUri = mongoServer.getUri();
 
-mongoose.Promise = Promise;
-mongoServer.getConnectionString().then(mongoUri => {
-  const mongooseOpts = {
-    // options for mongoose 4.11.3 and above
-    autoReconnect: true,
-    reconnectTries: Number.MAX_VALUE,
-    reconnectInterval: 1000,
-    useNewUrlParser: true
-  };
-
-  mongoose.connect(mongoUri, mongooseOpts);
+  mongoose.connect(mongoUri);
 
   mongoose.connection.on("error", e => {
     if (e.message.code === "ETIMEDOUT") {
       console.log(e);
-      mongoose.connect(mongoUri, mongooseOpts);
+      mongoose.connect(mongoUri);
     }
     console.log(e);
   });
@@ -69,13 +60,22 @@ mongoServer.getConnectionString().then(mongoUri => {
   mongoose.connection.once("open", () => {
     console.log(`MongoDB successfully connected to ${mongoUri}`);
   });
-});
+}
+
+module.exports = initializeMongoServer;
 ~~~
 
-Now, if your tests are set up similarly to the tests in our last project you can simply require this file at the top of your testing file, then, when testing any operations that work on your mongo database they will use this testing one instead of your real one.
+Now, if your tests are set up similarly to the tests in our last project, you can simply call this function in your testing file, and then any operations that work on your mongo database will use this testing one instead of your real one.
 
 ### A couple of notes
 
 Since you are starting your tests with a fresh database it will probably be useful for you to use a `beforeAll` function in your testing suite to add a couple of items to the database before running tests.
 
 This is also not the only way to set up a testing environment! If you are using nconf, or command-line arguments or anything else to set up your development and production environments, you could easily add a `testing` environment that uses this `mongodb-memory-server`. The [Jest Docs](https://jestjs.io/docs/en/mongodb) demonstrate an alternative (but similar) setup to the simple one we have here. The common element here is that no matter how you accomplish it, our goal is to use this alternative DB when running our tests.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#but-do-you-even-need-to-test-that">What is the purpose of using a separate database for testing?</a>
+- <a class="knowledge-check-link" href="#mongodb-memory-server">How would you create and setup a testing database using the npm package `mongodb-memory-server`?</a>
+- <a class="knowledge-check-link" href="https://jestjs.io/docs/en/mongodb">What is an alternative method of database setup for your testing environment?</a>

@@ -1,0 +1,44 @@
+This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.
+
+## The Outline
+
+- The Basics
+  - How this Course Will Work - [lesson](the_basics/how_this_course_will_work.md)
+  - Introduction to Web Development - [lesson](the_basics/introduction_to_web_development.md)
+  - Gearing Up - [lesson](the_basics/gearing_up.md)
+  - Join the Odin Community - [lesson](the_basics/join_the_odin_community.md)
+  - How Does the Web Work? - [lesson](the_basics/how_does_the_web_work.md)
+- Installations
+  - Installation Overview - [lesson](installations/installation_overview.md)
+  - Prerequisites - [lesson](installations/prerequisites.md)
+  - Text Editors - [lesson](installations/text_editors.md)
+  - Command Line Basics - [lesson](installations/command_line_basics.md)
+  - Setting Up Git - [lesson](installations/setting_up_git.md)
+- Git Basics
+  - Introduction to Git - [lesson](git_basics/introduction_to_git.md)
+  - Git Basics - [lesson](git_basics/git_basics.md)
+  - [Project: Practicing Git Basics](git_basics/project_practicing_git_basics.md)
+- The Front End
+  - Introduction to the Front End - [lesson](the_front_end/introduction_to_the_front_end.md)
+  - HTML and CSS Basics - [lesson](the_front_end/html_css_basics.md)
+  - Developer Tools - [lesson](the_front_end/developer_tools.md)
+  - [Project: HTML/CSS](the_front_end/project_html_css.md)
+- JavaScript Basics
+  - Fundamentals Part 1 - [lesson](javascript_basics/fundamentals-1.md)
+  - Fundamentals Part 2 - [lesson](javascript_basics/fundamentals-2.md)
+  - Developer Tools 2 - [lesson](javascript_basics/developer_tools_2.md)
+  - Fundamentals Part 3 - [lesson](javascript_basics/fundamentals-3.md)
+  - Problem Solving - [lesson](javascript_basics/problem_solving.md)
+  - [Project: Rock Paper Scissors](javascript_basics/project_rock_paper_scissors.md)
+  - Clean Code - [lesson](javascript_basics/clean_code.md)
+  - Fundamentals Part 4 - [lesson](javascript_basics/fundamentals-4.md)
+  - DOM Manipulation and Events - [lesson](javascript_basics/DOM_manipulation_and_events.md)
+  - Revisiting Rock Paper Scissors - [lesson](javascript_basics/revisiting_rock_paper_scissors.md)
+  - [Project: Etch-a-Sketch](javascript_basics/project_etch_a_sketch.md)
+  - Fundamentals Part 5 - [lesson](javascript_basics/fundamentals-5.md)
+  - [Project: Calculator](javascript_basics/project_calculator.md)
+- The Back End
+  - Introduction to the Back End - [lesson](the_back_end/introduction_to_the_backend_lesson.md)
+  - Introduction to Frameworks - [lesson](the_back_end/introduction_to_frameworks.md)
+- Tying it All Together
+  - Conclusion - [lesson](tying_it_all_together/conclusion.md)

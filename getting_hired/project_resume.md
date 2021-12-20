@@ -12,8 +12,10 @@ Knowing that perspective, how can you play to it?  It's difficult if you're brea
 
 Remember: ONE PAGE.
 
-* [ResumeRepublic.com has a free tier with sample online resumes](https://www.resumerepublic.com/)
+* [This Career Tool Belt article lists 6 free resume builder websites](https://www.careertoolbelt.com/5-best-free-resume-builder-websites/)
+* [Novorésumé also has a free tier with templates available, as an alternate resource](https://novoresume.com/)
 * [Formatting could use some work, but here's an example resume from CareerCup.com](http://www.careercup.com/resume)
+* [Another great (totally free) resume builder](https://flowcv.io/)
 
 ### Optional Reading
 

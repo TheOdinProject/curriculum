@@ -137,10 +137,9 @@ That was really just a teaser about what Active Record can do. In the reading be
 
 #### Basic Active Record
 
-1. I'm assuming that you've already read and followed along with the example application that was created in the [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html) intro section of the Rails Guides. If you haven't, do that first!
-2. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
+1. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.
     * We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
-    * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ActiveRecord::Base to get its super powers.
+    * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ApplicationRecord to get its super powers.
 
 #### Migrations
 1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
@@ -167,6 +166,6 @@ It's easiest to start thinking about concrete relationships in the real world an
 It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started.  Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).

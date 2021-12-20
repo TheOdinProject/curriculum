@@ -16,21 +16,22 @@ After completing this tutorial, you will be able to:
 
 <div class="note">
 <p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/intermediate_ruby/project_event_manager.md">submit them to the project on GitHub</a>.</p>
+  please <a href="https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
 </div>
 
 ### What We're Doing in This Tutorial
 
-Imagine that a friend of yours runs a non-profit org around political activism.
+Imagine that a friend of yours runs a non-profit organization around political activism.
 A number of people have registered for an upcoming event. She has asked for your help in
-engaging these future attendees.
+engaging these future attendees. For the first task, she wants you to find the government 
+representatives for each attendee based on their zip code.
 
 ### Initial Setup
 
-Create a folder named `event_manager` wherever you want to store your project.
-In that folder, use your text editor to create a plain text file named
-`event_manager.rb`.
-
+Create a project directory folder named `event_manager` wherever you want to store 
+your project. In the project directory, create another folder named `lib` and inside 
+that folder create a plain text file named `event_manager.rb`. Using your command-line 
+interface (CLI), you can enter the following commands:
 
 ~~~bash
 $ mkdir event_manager
@@ -39,19 +40,19 @@ $ mkdir lib
 $ touch lib/event_manager.rb
 ~~~
 
-Creating and placing your `event_manager.rb` file in 'lib' directory is entirely
-optional, however, it adheres to a common convention within most ruby applications.
+Creating and placing your `event_manager.rb` file in `lib` directory is entirely
+optional; however, it adheres to a common convention within most ruby applications.
 The filepaths we use in this tutorial will assume that we have put our `event_manager.rb`
-file within the 'lib' directory.
+file within the `lib` directory.
 
-Ruby source file names are often times written all in lower-case characters and
-instead of camel-casing multiple words together they are instead separated by an
+Ruby source file names should be written all in lower-case characters and
+instead of camel-casing multiple words together, they are instead separated by an
 underscore (often called *snake_case*).
 
 Open `lib/event_manager.rb` in your text editor and add the line:
 
 ~~~ruby
-puts "EventManager Initialized!"
+puts 'Event Manager Initialized!'
 ~~~
 
 Validate that ruby is installed correctly and you have created the file correctly by running it from the root of your `event_manager` directory:
@@ -70,8 +71,10 @@ $ ruby lib/event_manager.rb
 -bash: ruby: command not found
 ~~~
 
-If the file was not created then you will be presented with the following error:
-message
+If this happens, see [the instructions for installing Ruby](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming).
+
+If the file was not created then you will be presented with the following error
+message:
 
 
 ~~~bash
@@ -79,16 +82,22 @@ $ ruby lib/event_manager.rb
 ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 ~~~
 
+If this happens, make sure the correct directory exists and try creating the file again.
+
 For this project we are going to use the following sample data:
 
-* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/intermediate_ruby/event_attendees.csv)
-* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/intermediate_ruby/event_attendees_full.csv)
+* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees.csv)
+* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees.csv)* csv file and save it in the root of `event_manager` directory.
-
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
 ~~~bash
-$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/ruby_course/master/ruby_programming/intermediate_ruby/event_attendees.csv
+$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv
+~~~
+
+After the file is downloaded, you should see something like:
+
+~~~bash
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  2125  100  2125    0     0   3269      0 --:--:-- --:--:-- --:--:-- 12073
@@ -118,22 +127,22 @@ The first few rows of the CSV file you downloaded look like this:
 
 [File](http://rubydoc.info/stdlib/core/File) is a core ruby class that allows
 you to perform a large number of operations on files on your filesystem. The
-most straightforward is `File.read`
+most straightforward is `File.read`.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = File.read "event_attendees.csv"
+contents = File.read('event_attendees.csv')
 puts contents
 ~~~
 
-Whether you use Single Quotes or Double Quotes does not matter. They are
-different in many ways but are essentially the same when representing a string
-of characters in this case as the initial greeting or the name of the file.
+In this example, it does not matter whether you use single quotes or double quotes. 
+There are differences, but they are essentially the same when representing a string 
+of characters, such as this initial greeting or the name of the file.
 
-We are assuming the file is present here. File has the ability to check if a
-file exists at the specified filepath on the filesystem through `File.exist?
-"event_attendees.csv"`.
+We are assuming the file is present here. However, it is a good practice to confirm 
+that a file exists. File has the ability to check if a file exists at the specified 
+filepath on the filesystem through `File.exist? "event_attendees.csv"`.
 
 
 ### Read the File Line By Line
@@ -141,22 +150,20 @@ file exists at the specified filepath on the filesystem through `File.exist?
 Reading and displaying the entire contents of the file showed us how to quickly
 access the data. Our goal is to display the first names of all the attendees.
 There are numerous [String](http://rubydoc.info/stdlib/core/String) methods
-that would allow us to manipulate this large string.
-
-Files can also be read in as an array of lines.
+that would allow us to manipulate this large string. Using `File.readlines` will 
+save each line as a separate item in an array.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   puts line
 end
 ~~~
 
-First we read in the entire contents of the file as an array of lines. Second
-we iterate over the entire collection of lines, one at a time, and output the
-contents of each line.
+First, we read the entire contents of the file as an array of lines. Second, we 
+iterate over the array of lines and output the contents of each line.
 
 ### Display the First Names of All Attendees
 
@@ -190,23 +197,22 @@ choosing to model your own data. These column names are our extreme
 example of a poorly formed external service. Great applications are often built
 on the backs of such services.
 
-We are interested in the 'first_Name' column. At the moment we have a string of
+We are interested in the `first_Name` column. At the moment, we have a string of
 text that represents the entire row. We need to convert the string into an
 array of columns. The separation of the columns can be identified by the comma
-',' separator. We want to split the string into pieces wherever we see a comma.
+`","` separator. We want to split the string into pieces wherever we see a comma.
 
 Ruby's
-[String#split](http://rubydoc.info/stdlib/core/String#split-instance_method)
-allows you to convert a string of text into an Array along a particular
-character.
-
+[String#split](http://rubydoc.info/stdlib/core/String#split-instance_method) 
+allows you to convert a string of text into an array along a particular character. 
 By default when you send the split message to the String without a parameter it
-will break the string apart along a space " " character.
+will break the string apart along each space `" "` character. Therefore, we need to 
+specify the comma `","` character to separate the columns.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   columns = line.split(",")
   p columns
@@ -214,16 +220,14 @@ end
 ~~~
 
 Within our array of columns we want to access our 'first_Name'. This would be
-the third column or third element at the array's second index `columns[2]`.
-
-Arrays start counting at 0 instead of 1. To get the idea, we would access the
-array's first element at `columns[0]`.
-
+the third column or third element at the array's second index `columns[2]`. 
+Remember, arrays start counting at 0 instead of 1, so `columns[0]` is how we 
+would access the array's first element, and `columns[2]` will give us the third.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   columns = line.split(",")
   name = columns[2]
@@ -235,21 +239,21 @@ end
 
 The header row was a great help to us in understanding the contents of the CSV
 file. However, the row itself does not represent an actual attendee. To ensure
-that we only output attendees we could remove the header row from the file, but
+that we only output attendees, we could remove the header row from the file, but
 that would make it difficult if we later returned to the file and tried to
 understand the columns of data.
 
 Another option is to ignore the first row when we display the names. Currently
-we handle all the rows exactly the same which makes it difficult to understand
+we handle all the rows exactly the same, which makes it difficult to understand
 which one is the header row.
 
 One way to solve this problem would be to skip the line when it exactly matches
 our current header row.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each do |line|
   next if line == " ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode\n"
   columns = line.split(",")
@@ -258,7 +262,7 @@ lines.each do |line|
 end
 ~~~
 
-When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop
+When this program is run, the `next if` line checks every line to see if it matches the provided string. If so, it skips that line from the rest of the loop.
 
 A problem with this solution is that the content of our header row could change
 in the future. Additional columns could be added or the existing columns
@@ -268,9 +272,9 @@ A second way to solve this problem is for us to track the index of the current
 line.
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 row_index = 0
 lines.each do |line|
   row_index = row_index + 1
@@ -285,9 +289,9 @@ This is a such a common operation that Array defines
 [Array#each_with_index](http://rubydoc.info/stdlib/core/Enumerable#each_with_index-instance_method).
 
 ~~~ruby
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-lines = File.readlines "event_attendees.csv"
+lines = File.readlines('event_attendees.csv')
 lines.each_with_index do |line,index|
   next if index == 0
   columns = line.split(",")
@@ -343,10 +347,10 @@ slower start up times.
 You can browse the many libraries available through the [documentation](http://rubydoc.info/stdlib).
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true
+contents = CSV.open('event_attendees.csv', headers: true)
 contents.each do |row|
   name = row[2]
   puts name
@@ -364,9 +368,9 @@ Instead of `read` or `readlines` we use CSV's `open` method to load our file.
 The library also supports the concept of headers and so we provide some
 additional parameters which state this file has headers.
 
-There are pros and cons to using an external library. A 'pro' is how easy this
-library makes it for us to express that our file has headers. A 'con' is that
-you have to learn how the library is implemented.
+There are pros and cons to using an external library. One of the pros is that 
+this library makes it easy for us to express that our file has headers. One of 
+the cons is that we have to learn how the library is implemented.
 
 ### Accessing Columns by their Names
 
@@ -376,13 +380,19 @@ formats for the column names. The CSV library provides an additional option
 which allows us to convert the header names to symbols.
 
 Converting the headers to symbols will make our column names more uniform and
-easier to remember. The header 'first_Name' will be converted to `:first_name`.
+easier to remember. The header "first_Name" will be converted to `:first_name` 
+and "HomePhone" will be converted to `:homephone`.
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true, 
+  header_converters: :symbol
+)
+
 contents.each do |row|
   name = row[:first_name]
   puts name
@@ -391,14 +401,18 @@ end
 
 ### Displaying the Zip Codes of All Attendees
 
-Accessing the zipcode is very easy using the header name. 'Zipcode' becomes
-`:zipcode`.
+Accessing the zipcode is very easy using the new header name, `:zipcode`.
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
+
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
@@ -416,20 +430,21 @@ have a problem....
 The zip codes in our small sample show us:
 
 * Most zip codes are correctly expressed as a five-digit number
-* Some zip codes are represented with less than a five-digit number
+* Some zip codes are represented with fewer than five digits
 * Some zip codes are missing
 
-Before we are able to figure out our attendees' representatives we need to
+Before we are able to figure out our attendees' representatives, we need to
 solve the second issue and the third issue.
 
-* Some zip codes are represented with less than a five-digit number
+* Some zip codes are represented with fewer than five digits
 
-If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/intermediate_ruby/event_attendees_full.csv) we would
-see that the majority of the shorter zip codes are from individuals from states
-in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text,
-which caused the leading zeros to be removed.
+If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees_full.csv), we would
+see that the majority of the shorter zip codes are from states in the 
+north-eastern part of the United States. Many zip codes there start with 0. This
+data was likely stored in the database as an integer, and not as text, which 
+caused the leading zeros to be removed.
 
-So in the case of zip codes of less than five-digits we will assume that we can
+So in the case of zip codes of fewer than five digits, we will assume that we can
 pad missing zeros to the front.
 
 * Some zip codes are missing
@@ -439,8 +454,8 @@ enter the data when they filled out the form. The zip code data was not likely
 marked as mandatory and so our future attendees were not presented with an
 error message.
 
-We could try and figure out the zip code based on the rest of the address
-provided. We could be wrong with our guess so instead we will use a default,
+We could try to figure out the zip code based on the rest of the address
+provided. But we could be wrong with our guess, so instead we will use a default,
 bad zip code of "00000".
 
 ### Pseudocode for Cleaning Zip Codes
@@ -449,17 +464,22 @@ Before we start to explore a solution with Ruby code it is often helpful to
 express what we are hoping to accomplish in English words.
 
 ~~~ruby
-require "csv"
-puts "EventManager initialized."
+require 'csv'
+puts 'EventManager initialized.'
 
-contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv', 
+  headers: true,
+  header_converters: :symbol
+)
+
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
 
   # if the zip code is exactly five digits, assume that it is ok
-  # if the zip code is more than 5 digits, truncate it to the first 5 digits
-  # if the zip code is less than 5 digits, add zeros to the front until it becomes five digits
+  # if the zip code is more than five digits, truncate it to the first five digits
+  # if the zip code is less than five digits, add zeros to the front until it becomes five digits
 
   puts "#{name} #{zipcode}"
  end
@@ -470,12 +490,12 @@ contents.each do |row|
 In the case when the zip code is five digits in length we have it easy. We
 simply want to do nothing.
 
-* if the zip code is more than 5 digits, truncate it to the first 5 digits
+* if the zip code is more than five digits, truncate it to the first five digits
 
 While zip codes can be expressed with additional resolution (more digits after
-a dash) we are only interested in the first five digits.
+a dash), we are only interested in the first five digits.
 
-* if the zip code is less than 5 digits, add zeros to the front until it
+* if the zip code is less than five digits, add zeros to the front until it
   becomes five digits
 
 There are many possible ways that we can solve this issue. These are a few
@@ -497,16 +517,20 @@ The following solution employs:
 ~~~ruby
 require 'csv'
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv', 
+  headers: true, 
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
 
   if zipcode.length < 5
-    zipcode = zipcode.rjust 5, "0"
+    zipcode = zipcode.rjust(5, '0')
   elsif zipcode.length > 5
     zipcode = zipcode[0..4]
   end
@@ -515,7 +539,7 @@ contents.each do |row|
 end
 ~~~
 
-When we run our application, we see the first few output correctly and then the
+When we run our application, we see the first few lines output correctly and then the
 application terminates.
 
 
@@ -533,7 +557,7 @@ lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:
 
 * What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
-Reviewing our CSV data we notice that the next row specifies no value. An empty
+Reviewing our CSV data, we notice that the next row specifies no value. An empty
 field translates into a nil instead of an empty string. This is a choice made by
 the CSV library maintainers. So we now need to handle this situation.
 
@@ -550,18 +574,22 @@ check for `nil?`.
 ~~~ruby
 require 'csv'
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
   zipcode = row[:zipcode]
 
   if zipcode.nil?
-    zipcode = "00000"
+    zipcode = '00000'
   elsif zipcode.length < 5
-    zipcode = zipcode.rjust 5, "0"
+    zipcode = zipcode.rjust(5, '0')
   elsif zipcode.length > 5
     zipcode = zipcode[0..4]
   end
@@ -603,7 +631,7 @@ examination we should ask ourselves:
 * Does the code clearly express what it is trying to accomplish?
 
 The implementation does a decent job at expressing what it accomplishes. The
-biggest problem is that it is expressing it near so many other concepts. To
+biggest problem is that it is expressing this near so many other concepts. To
 make this implementation clearer we should move this logic into its own method
 named `clean_zipcode`.
 
@@ -612,9 +640,9 @@ require 'csv'
 
 def clean_zipcode(zipcode)
   if zipcode.nil?
-    "00000"
+    '00000'
   elsif zipcode.length < 5
-    zipcode.rjust(5,"0")
+    zipcode.rjust(5, '0')
   elsif zipcode.length > 5
     zipcode[0..4]
   else
@@ -622,9 +650,13 @@ def clean_zipcode(zipcode)
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -640,7 +672,7 @@ like these help make your code cleaner and your intent clearer.
 
 ### Refactoring Clean Zip Codes
 
-With our clean zip code logic tucked away in our `clean_zipcode` method we can
+With our clean zip code logic tucked away in our `clean_zipcode` method, we can
 examine it further to see if we can make it even more succinct.
 
 * Coercion over Questions
@@ -648,7 +680,7 @@ examine it further to see if we can make it even more succinct.
 A good rule when developing in Ruby is to favor coercing values into similar
 values so that they will behave the same. We have a special case to deal
 specifically with a `nil` value. It would be much easier if instead of checking
-for a nil value we convert the `nil` into a string with
+for a nil value, we convert the `nil` into a string with
 [NilClass#to_s](http://rubydoc.info/stdlib/core/NilClass#to_s-instance_method).
 
 ~~~ruby
@@ -657,32 +689,33 @@ $ nil.to_s
 ~~~
 
 Examining
-[String#rjust](http://rubydoc.info/stdlib/core/String#rjust-instance_method) in
-irb we can see that when we provide values greater than 5 it performs no work.
-This means we apply it in both cases as it will have the same intended effect.
+[String#rjust](http://rubydoc.info/stdlib/core/String#rjust-instance_method) in 
+irb, we can see that when we provide a string with a length greater than five, 
+it performs no work. This means we can apply it in both cases, as it will have the 
+same intended effect.
 
 ~~~ruby
-$ "123456".rjust 5, "0"
+$ "123456".rjust(5, '0')
 => "123456"
 ~~~
 
 Lastly, examining
 [String#slice](http://rubydoc.info/stdlib/core/String#slice-instance_method) in
-irb we can see that for a number that is exactly five digits in length it has no
-effect. This also means we can apply it in cases when the zip code is five
-digits or more than five digits and it will have the same effect.
+irb, we can see that for a number that is exactly five digits in length, it has no
+effect. This also means we can apply it in cases when the zip code is five or more
+digits, and it will have the same effect.
 
 ~~~ruby
 $ "12345"[0..4]
 => "12345"
 ~~~
 
-Combining all of these steps together we can write a more succinct
+Combining all of these steps together, we can write a more succinct
 `clean_zipcode` method:
 
 ~~~ruby
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 ~~~
 
@@ -691,7 +724,7 @@ end
 We now have our list of attendees with their valid zip codes (at least for most
 of them). Using their zip code and the
 [Google Civic Information](https://developers.google.com/civic-information/)
-webservice we are able to query for the representatives for a given area.
+webservice, we are able to query for the representatives of a given area.
 
 The Civic Information API allows registered individuals (registration is free) to obtain some information about the representatives for each level of government for an address.
 
@@ -701,9 +734,11 @@ The Civic Information API allows registered individuals (registration is free) t
 
 ### Accessing the API
 
+Take a close look at this sample URL for accessing the Civic Information API:
+
 [https://www.googleapis.com/civicinfo/v2/representatives?address=80203&levels=country&roles=legislatorUpperBody&roles=legislatorLowerBody&key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw](https://www.googleapis.com/civicinfo/v2/representatives?address=80203&levels=country&roles=legislatorUpperBody&roles=legislatorLowerBody&key=AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw)
 
-Take a close look at that address. Here's how it breaks down:
+Here's how it breaks down:
 
 * `https://` : Use the Secure HTTP protocol
 * `www.googleapis.com/civicinfo/v2/` : The API server address on the internet
@@ -735,7 +770,7 @@ Successfully installed google-api-client-0.15.0
 1 gem installed
 ~~~
 
-If you recieve a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
+If you receive a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem. 
 
 ### Showing All Legislators in a Zip Code
 
@@ -743,7 +778,7 @@ The gem comes equipped with some vague example documentation. The documentation 
 available online with their [source code](https://github.com/google/google-api-ruby-client).
 
 Reading through the documentation on how to set up and use the
-google-api-client gem we find that we need to perform the following steps:
+google-api-client gem, we find that we need to perform the following steps:
 
 * Set the API Key
 * Send the query with the given criteria
@@ -775,12 +810,16 @@ civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
 civic_info.key = 'AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw'
 
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -788,16 +827,17 @@ contents.each do |row|
   zipcode = clean_zipcode(row[:zipcode])
 
   legislators = civic_info.representative_info_by_address(
-                            address: zipcode,
-                            levels: 'country',
-                            roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+    address: zipcode,
+    levels: 'country',
+    roles: ['legislatorUpperBody', 'legislatorLowerBody']
+  )
   legislators = legislators.officials
 
   puts "#{name} #{zipcode} #{legislators}"
 end
 ~~~
 
-Running our application we find an error.
+Running our application, we find an error.
 
 
 ~~~bash
@@ -805,7 +845,7 @@ $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
 
-What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
+What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
 
 ~~~ruby
 require 'csv'
@@ -815,12 +855,16 @@ civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
 civic_info.key = 'AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw'
 
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -829,12 +873,13 @@ contents.each do |row|
 
   begin
     legislators = civic_info.representative_info_by_address(
-                              address: zipcode,
-                              levels: 'country',
-                              roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+      address: zipcode,
+      levels: 'country',
+      roles: ['legislatorUpperBody', 'legislatorLowerBody']
+    )
     legislators = legislators.officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 
   puts "#{name} #{zipcode} #{legislators}"
@@ -852,8 +897,8 @@ We really want to capture the first name and last name of each legislator.
 Instead of outputting each raw legislator we want to print only their first
 name and last name. We will need to complete the following steps:
 
-* Iterate over the entire collection of legislators for the particular zip code.
-* For each legislator we want to find the representative's name.
+* For each zip code, iterate over the array of legislators.
+* For each legislator, we want to find the representative's name.
 * Add the name to a new collection of names.
 
 To do this, we can use the [map](https://ruby-doc.org/core-2.2.0/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
@@ -872,9 +917,9 @@ legislator_names = legislators.map(&:name)
 
 ### Cleanly Displaying Legislators
 
-If we were to replace `legislators` with `legislator_names` in our output we would be presented with a *slightly* better output.
+If we were to replace `legislators` with `legislator_names` in our output, we would be presented with a *slightly* better output.
 
-~~~
+~~~bash
 $ ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 ["Eleanor Norton"]
@@ -883,7 +928,7 @@ Sarah 33703 ["Marco Rubio", "Bill Nelson", "C. Young"]
 ...
 ~~~
 
-The problem now is that when using string interpolation, Ruby is converting our new array of legislator names into a string but Ruby does not know exactly how _you_ want to display the contents.
+The problem now is that when using string interpolation, Ruby is converting our new array of legislator names into a string, but Ruby does not know exactly how _you_ want to display the contents.
 
 We need to explicitly convert our array of legislator names to a string. This way we are sure it will output correctly. This could be tedious work except Array again comes to the rescue with the [Array#join](http://rubydoc.info/stdlib/core/Array#join-instance_method) method.
 
@@ -897,16 +942,17 @@ contents.each do |row|
 
   begin
     legislators = civic_info.representative_info_by_address(
-                                address: zipcode,
-                                levels: 'country',
-                                roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+      address: zipcode,
+      levels: 'country',
+      roles: ['legislatorUpperBody', 'legislatorLowerBody']
+    )
     legislators = legislators.officials
 
     legislator_names = legislators.map(&:name)
 
     legislators_string = legislator_names.join(", ")
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 
   puts "#{name} #{zipcode} #{legislators_string}"
@@ -939,7 +985,7 @@ how zip codes are handled. This dissimilarity breeds confusion when returning to
 the code.
 
 We want to extract our legislator names into a new method named
-`legislators_by_zipcode` which accepts a single zip code as a parameter
+`legislators_by_zipcode`, which accepts a single zip code as a parameter
 and returns a comma-separated string of legislator names.
 
 ~~~ruby
@@ -948,7 +994,7 @@ require 'google/apis/civicinfo_v2'
 
 
 def clean_zipcode(zipcode)
-  zipcode.to_s.rjust(5,"0")[0..4]
+  zipcode.to_s.rjust(5, '0')[0..4]
 end
 
 def legislators_by_zipcode(zip)
@@ -957,20 +1003,25 @@ def legislators_by_zipcode(zip)
 
   begin
     legislators = civic_info.representative_info_by_address(
-                                  address: zip,
-                                  levels: 'country',
-                                  roles: ['legislatorUpperBody', 'legislatorLowerBody'])
+      address: zip,
+      levels: 'country',
+      roles: ['legislatorUpperBody', 'legislatorLowerBody']
+    )
     legislators = legislators.officials
     legislator_names = legislators.map(&:name)
     legislator_names.join(", ")
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
 contents.each do |row|
   name = row[:first_name]
@@ -1065,7 +1116,7 @@ the template using the same File tools we used at the beginning of the exercise.
 Within our application we will load our template:
 
 ~~~ruby
-template_letter = File.read "form_letter.html"
+template_letter = File.read('form_letter.html')
 ~~~
 
 It is important to define the `form_letter.html` file in the root of project
@@ -1088,7 +1139,7 @@ Our template is a String of text which has two methods for replacing text:
 
 These two methods are almost identical save for one important difference. The
 method `gsub` returns a **new copy** of the original string with the values
-replaced. Where `gsub!` will replace the values in the original string.
+replaced. Whereas `gsub!` will replace the values in the original string.
 
 We have our template letter which we want to use for every attendee. It is
 important that we create a new copy of this letter for each attendee. If we
@@ -1096,7 +1147,7 @@ change the original template, they'd all have the same name! By making a copy
 and then changing the copy, we're sure everyone's name is unique.
 
 ~~~ruby
-template_letter = File.read "form_letter.html"
+template_letter = File.read('form_letter.html')
 
 contents.each do |row|
   name = row[:first_name]
@@ -1105,8 +1156,8 @@ contents.each do |row|
 
   legislators = legislators_by_zipcode(zipcode)
 
-  personal_letter = template_letter.gsub('FIRST_NAME',name)
-  personal_letter.gsub!('LEGISLATORS',legislators)
+  personal_letter = template_letter.gsub('FIRST_NAME', name)
+  personal_letter.gsub!('LEGISLATORS', legislators)
 
   puts personal_letter
 end
@@ -1124,21 +1175,21 @@ the other may not be immediately clear. The above template manipulation could
 have been written with just `gsub`:
 
 ~~~ruby
-personal_letter = template_letter.gsub('FIRST_NAME',name)
-personal_letter = personal_letter.gsub('LEGISLATORS',legislators)
+personal_letter = template_letter.gsub('FIRST_NAME', name)
+personal_letter = personal_letter.gsub('LEGISLATORS', legislators)
 ~~~
 
 ### Our Template System has Problems
 
-It is a treacherous road we start to walk defining our own templating language.
+It is a treacherous road we start to walk, defining our own templating language.
 Our current system has some flaws:
 
-* Using FIRST_NAME and LEGISLATORS to find and replace might cause us problems if later somehow this text appears in any of our template.
+* Using FIRST_NAME and LEGISLATORS to find and replace might cause us problems if later somehow this text appears in any of our templates.
 
 Though not likely, imagine if a person's name contained the word 'LEGISLATORS'.
-When we perform the second replacement operation that part of the person's name
+When we perform the second replacement operation, that part of the person's name
 would also be replaced. This is unlikely in our simple template, but as our
-template grows we may invite such disasters.
+template grows, we may invite such disasters.
 
 * We cannot represent multiple items very easily if they are surrounded by HTML.
 
@@ -1250,9 +1301,9 @@ return to the application.
 
 The use of the ERB tags to display the attendee's name is familiar from our previous example. The second use, when we display the legislators, is different. We are using the ERB tag that does not output the results `<% %>` to check if the legislators variable is an Array.
 
-If it is an array we output the name and website url of each legislator. This is a departure from what we originally implemented. Before we had to build the names of all the representatives. We intend now to give the template direct access to the array of legislators. We will let the template ask and display what it wants from each legislator.
+If it is an array, we output the name and website url of each legislator. This is a departure from what we originally implemented. Before we had to build the names of all the representatives. We intend now to give the template direct access to the array of legislators. We will let the template ask and display what it wants from each legislator.
 
-If `legislators` is not an Array it means that the `legislators_by_zipcode` method entered the rescue clause, which outputs a string. We simply want to display that string.
+If `legislators` is not an array, it means that the `legislators_by_zipcode` method entered the rescue clause, which outputs a string. We simply want to display that string.
 
 
 ### Using ERB
@@ -1283,15 +1334,19 @@ def legislators_by_zipcode(zip)
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
-template_letter = File.read "form_letter.erb"
+template_letter = File.read('form_letter.erb')
 erb_template = ERB.new template_letter
 
 contents.each do |row|
@@ -1308,7 +1363,7 @@ end
 
 * Require the ERB library
 
-First we need tell Ruby that we want it to load the ERB library. This is done
+First we need to tell Ruby that we want it to load the ERB library. This is done
 through the `require` method which accepts a parameter of the functionality to
 load.
 
@@ -1319,7 +1374,7 @@ contents as a string and provide them as a parameter when creating the new ERB
 template.
 
 ~~~ruby
-template_letter = File.read "form_letter.erb"
+template_letter = File.read('form_letter.erb')
 erb_template = ERB.new template_letter
 ~~~
 
@@ -1337,7 +1392,7 @@ def legislators_by_zipcode(zip)
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 ~~~
@@ -1366,11 +1421,11 @@ contents.each do |row|
 
   form_letter = erb_template.result(binding)
 
-  Dir.mkdir("output") unless Dir.exists? "output"
+  Dir.mkdir('output') unless Dir.exist?('output')
 
   filename = "output/thanks_#{id}.html"
 
-  File.open(filename,'w') do |file|
+  File.open(filename, 'w') do |file|
     file.puts form_letter
   end
 
@@ -1388,7 +1443,7 @@ We make a directory named "output" if a directory named "output" does not
 already exist.
 
 ~~~ruby
-Dir.mkdir("output") unless Dir.exists? "output"
+Dir.mkdir('output') unless Dir.exist?('output')
 ~~~
 
 * Save each form letter to a file based on the id of the attendee
@@ -1396,7 +1451,7 @@ Dir.mkdir("output") unless Dir.exists? "output"
 [File#open](http://rubydoc.info/stdlib/core/File#open-class_method) allows us
 to open a file for reading and writing. The first parameter is the name of the
 file. The second parameter is a flag that states how we want to open the file.
-The 'w' states we want to open the file for writing. If the file already exists
+The `w` states we want to open the file for writing. If the file already exists
 it will be destroyed.
 
 Afterwards we actually send the entire form letter content to the file
@@ -1407,7 +1462,7 @@ which we have been using up to this point.
 
 ### Moving Form Letter Generation to a Method
 
-Again, for the sake of writing clean and clear code we want to move the
+Again, for the sake of writing clean and clear code, we want to move the
 operation of saving the form letter to its own method:
 
 ~~~ruby
@@ -1430,25 +1485,29 @@ def legislators_by_zipcode(zip)
       roles: ['legislatorUpperBody', 'legislatorLowerBody']
     ).officials
   rescue
-    "You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials"
+    'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
   end
 end
 
 def save_thank_you_letter(id,form_letter)
-  Dir.mkdir("output") unless Dir.exists?("output")
+  Dir.mkdir('output') unless Dir.exist?('output')
 
   filename = "output/thanks_#{id}.html"
 
-  File.open(filename,'w') do |file|
+  File.open(filename, 'w') do |file|
     file.puts form_letter
   end
 end
 
-puts "EventManager initialized."
+puts 'EventManager initialized.'
 
-contents = CSV.open 'event_attendees.csv', headers: true, header_converters: :symbol
+contents = CSV.open(
+  'event_attendees.csv',
+  headers: true,
+  header_converters: :symbol
+)
 
-template_letter = File.read "form_letter.erb"
+template_letter = File.read('form_letter.erb')
 erb_template = ERB.new template_letter
 
 contents.each do |row|
@@ -1466,44 +1525,39 @@ end
 The method `save_thank_you_letter` requires the id of the attendee and the form letter
 output.
 
-## Iteration: Clean Phone Numbers
+## Assignment: Clean Phone Numbers
 
-Similar to the zip codes the phone numbers suffer from multiple formats and
+Similar to the zip codes, the phone numbers suffer from multiple formats and
 inconsistencies. If we wanted to allow individuals to sign up for mobile alerts
-with the phone numbers we would need to make sure all of the numbers are valid
+with the phone numbers, we would need to make sure all of the numbers are valid
 and well-formed.
 
-* If the phone number is less than 10 digits assume that it is a bad number
-* If the phone number is 10 digits assume that it is good
-* If the phone number is 11 digits and the first number is 1, trim the 1 and use the first 10 digits
+* If the phone number is less than 10 digits, assume that it is a bad number
+* If the phone number is 10 digits, assume that it is good
+* If the phone number is 11 digits and the first number is 1, trim the 1 and use the remaining 10 digits
 * If the phone number is 11 digits and the first number is not 1, then it is a bad number
-* If the phone number is more than 11 digits assume that it is a bad number
+* If the phone number is more than 11 digits, assume that it is a bad number
 
-## Iteration: Time Targeting
+## Assignment: Time Targeting
 
 The boss is already thinking about the next conference: "Next year I want to
 make better use of our Google and Facebook advertising. Find out which hours of
-the day the most people registered so we can run more ads during those hours."
+the day the most people registered, so we can run more ads during those hours."
 Interesting!
 
 Using the registration date and time we want to find out what the peak registration hours are.
 
-* Ruby has a [Date](http://rubydoc.info/stdlib/date/frames) library which contains classes for
-  [Date](http://rubydoc.info/stdlib/date/Date) and [DateTime](http://rubydoc.info/stdlib/date/DateTime).
+* Ruby has [Date](https://rubyapi.org/2.7/o/date) and [Time](https://rubyapi.org/2.7/o/time) classes that will be very useful for this task.
 
-* [DateTime#strptime](http://rubydoc.info/stdlib/date/DateTime#strptime-class_method) is a method that allows us to
-  parse date-time strings and convert them into Ruby objects.
+* For a quick overview, check out this [Ruby Guides](https://www.rubyguides.com/2015/12/ruby-time/) article. 
 
-* [DateTime#strftime](http://rubydoc.info/stdlib/date/DateTime#strftime-instance_method) is a good reference on the
-  characters necessary to match the specified date-time format.
+* Explore the documentation to become familiar with the available methods, especially `#strptime`, `#strftime`, and `#hour`.
 
-* Use [DateTime#hour](https://rubydoc.info/stdlib/date/DateTime#hour-instance_method) to find out the hour of the day.
-
-## Iteration: Day of the Week Targeting
+## Assignment: Day of the Week Targeting
 
 The big boss gets excited about the results from your hourly tabulations. It
 looks like there are some hours that are clearly more important than others.
 But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
-* Use [Date#wday](http://rubydoc.info/stdlib/date/Date#wday-instance_method) to find out the day of the week.
+* Use [Date#wday](https://rubyapi.org/2.7/o/date#method-i-wday) to find out the day of the week.

@@ -23,7 +23,19 @@ Before diving into the code, take a minute to think about how you are going to w
    1. [Todoist](https://en.todoist.com/)
    2. [Things](https://culturedcode.com/things/)
    3. [any.do](https://www.any.do/)
-7. Use localStorage to save user's projects and todos between sessions.
-8. Since you are probably already using webpack, adding external libraries from npm is a cinch!  You might want to consider using the following useful library in your code:
+7. Since you are probably already using webpack, adding external libraries from npm is a cinch!  You might want to consider using the following useful library in your code:
    1. [date-fns](https://github.com/date-fns/date-fns) gives you a bunch of handy functions for formatting and manipulating dates and times.
+8. We haven't learned any techniques for actually storing our data anywhere, so when the user refreshes the page, all of their todos will disappear! You should add some persistence to this todo app using the Web Storage API.
+   1. `localStorage` ([docs here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)) allows you to save data on the user's computer. The downside here is that the data is ONLY accessible on the computer that it was created on. Even so, it's pretty handy! Set up a function that saves the projects (and todos) to localStorage every time a new project (or todo) is created, and another function that looks for that data in localStorage when your app is first loaded. Additionally, here are a couple of quick tips to help you not get tripped up:
+      - Make sure your app doesn't crash if the data you may want retrieve from localStorage isn't there!
+      - localStorage uses [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) to send and store data, and when you retrieve the data, it will also be in JSON format. You will learn more about this language in a later lesson, but it doesn't hurt to get your feet wet now. Keep in mind you *cannot store functions in JSON*, so you'll have to figure out how to add methods back to your object properties once you fetch them. Good luck!
+
 </div>
+
+###  Want MORE practice?
+
+There is plenty of content after this project but at this point you've been exposed to many foundational concepts. You really can't spend too much time reviewing and practicing the fundamentals that we've covered and luckily for you there are several websites that offer just this type of thing. Seriously, the better you grasp and the more fluently you can use the fundamental building blocks, the easier the hard stuff is going to come to you when we get to it. Take a minute to check out the following links.
+
+- [Exercism](http://exercism.io/) - an Odin favorite.  Uses a neat command-line interface to download and submit exercises and allows you to give and get feedback on your solutions.
+- [CodeWars](https://www.codewars.com/) - A neat gamified system with leveled exercises.  As you complete more exercises you level up and access more difficult ones. To join the TOP clan: go to your account settings on the codewars website and add "The Odin Project" in the `Clan` field. 
+- [HackerRank](https://www.hackerrank.com/) - Similar in setup to CodeWars, but this site is more focused on interview question type tasks.  Some companies even use this site to interview candidates.

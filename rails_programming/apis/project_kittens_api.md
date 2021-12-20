@@ -65,7 +65,7 @@ We'll start by building our Kitten application to work normally in the browser w
 2. Update the README to describe the application and link back to this project.
 3. Build a Kitten model with attributes of `:name`, `:age`, `:cuteness`, and `:softness`.
 4. Build a KittensController and `:kittens` routes for all 7 RESTful actions.
-3. Set your default route to `KittensController#index`.
+3. Set your default route to `kittens#index`.
 5. Fill out each of your controller actions and their corresponding views to display a very basic HTML page -- `#index` should just list all Kittens, `#show` should display a single Kitten, `#new` should render a simple Kitten creation form, `#edit` should use the same form (which should be a partial used by both the New and Edit views) to Edit the Kitten, `#create` and `#update` should do their jobs.
 6. Make a `delete` link on the Kitten's Show and Edit pages, as well as next to each Kitten listed in the Index page.
 7. Implement a simple display of the `flash` hash which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
@@ -76,10 +76,10 @@ We'll start by building our Kitten application to work normally in the browser w
 Now it's time to make the Kittens resource available via API.
 
 1. Open a new command line tab and fire up IRB.  `> require 'rest-client'` (you may need to `$ gem install rest-client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
-2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
+2. Calling `#body` or `#to_s` on the `RestClient::Response` object `response` should return a sloppy mess of HTML.  If you check out your server output, it's probably processing as \*/\* (i.e. all media types), e.g. `Processing by KittensController#index as */*`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 4. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
-5. Test it out by making sure your RestClient calls return the proper JSON strings, e.g. `$ r = RestClient.get("http://localhost:3000/kittens", :accept => :json)`, `$ puts r.body`.
+5. Test it out by making sure your RestClient calls return the proper JSON strings, e.g. `> r = RestClient.get("http://localhost:3000/kittens", :accept => :json)`, `> puts r.body`.
 6. Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
 
 This project may seem simple, but now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it.  You could use JavaScript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place.  Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end.  It doesn't matter, since now you've got a RESTful API.
@@ -87,4 +87,4 @@ This project may seem simple, but now you've got a website that is both a normal
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.

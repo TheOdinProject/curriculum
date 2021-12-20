@@ -15,7 +15,7 @@ Make your websites dynamic and interactive with JavaScript! You'll create featur
   - ES6 Modules - [lesson](organizing-js/es6-modules.md)
   - [Project: Restaurant Page](organizing-js/restaurant-project.md)
   - OOP Principles - [lesson](organizing-js/oop-concepts.md)
-  - [Project: Todo List](organizing-js/project.md)
+  - [Project: Todo List](organizing-js/todo-project.md)
 - JavaScript in the Real World
   - Linting - [lesson](js-in-the-real-world/linting.md)
   - Dynamic User Interface Interactions - [lesson](js-in-the-real-world/ui-Interactions.md)
@@ -45,7 +45,7 @@ Make your websites dynamic and interactive with JavaScript! You'll create featur
   - More Testing - [lesson](testing/testing-2.md)
   - [Project: Battleship](testing/battleship-project.md)
 - JavaScript and Rails
-  - Using Ruby on Rails For Your Back End - [lesson](js-rails/rails_backend.md)
+  - Using Ruby on Rails or BaaS For Your Back End - [lesson](js-rails/rails_backend.md)
   - [Project: Where's Waldo (A Photo Tagging App)](js-rails/project_rails_backend.md)
 - Finishing Up with Javascript
   - [Project: Final Project](finishing-up/project_final_js.md)

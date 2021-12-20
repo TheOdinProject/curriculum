@@ -66,7 +66,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Get Started
 
 1. Just like in the warmup, plan out what data models you would need to allow users to be on the site (don't worry about login/logout or securing the passwords right now), to submit links ("posts"), and to comment on links.  Users do NOT need to be able to comment on comments... each comment refers to a Post.
-2. Generate a new rails app from the command line (`$ rails _5.2.1_ new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
+2. Generate a new rails app from the command line (`$ rails new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
 3. Generate your User model and fill out the migration to get the columns you want.
 4. Run the migration with `$ rails db:migrate`.  You can use `$ rails db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
@@ -84,7 +84,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 1. Create your Post model by referencing your data plan from the first step above, migrate the database, and add its validations.
 2. Test your validations from the console, remembering to reload or relaunch it between changes.
 3. Now set up your associations between User and Post models.  Did you remember to include the foreign key column (`user_id`) in your posts table?  If not, you can just add a new migration (`$ rails generate migration yourmigrationname`) and use the `#add_column` method mentioned above.
-4. If you've properly set up your associations, you should be able to use a few more methods in the console, including finding a User's Posts and finding the Post's User.  First test finding your lonely User's Posts -- `> User.first.posts`.  It should be an empty array since you haven't created posts, but it shouldn't throw an error at you.
+4. If you've properly set up your associations, you should be able to use a few more methods in the console, including finding a User's Posts and finding the Post's User.  First test finding your lone User's Posts -- `> User.first.posts`.  It should be an empty array since you haven't created posts, but it shouldn't throw an error at you.
 5. Build (but don't yet save) a new post from the console, called `p1`, something like `> p1 = Post.new(your_attributes_here)`.  Don't forget to include the ID of the user in your `user_id` field!
 6. Now build another post using the association to the user -- substitute `#new` with `#build` and run through the association instead -- `p2 = User.first.posts.build`.  Don't fill in any fields yet.  Examine the object that was created and you'll see that the ID field already got filled out for you, cool! This is a neat trick you'll learn about in the lesson on associations.
 7. Save your original new post `p1` so your user has officially written something.  Test that you can use the other side of the association by trying `> Post.first.user`, which should return the original User object whose ID you pointed to when building the post.  All has come full circle!
@@ -107,7 +107,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".
 * [JumpstartLab page on Model Relationships](http://tutorials.jumpstartlab.com/topics/models/relationships.html) has some good unique information on how to approach optimizing common associations.

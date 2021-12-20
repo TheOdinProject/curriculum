@@ -9,16 +9,22 @@ Lessons are structured through a combination of original written content and a c
 This repository houses the curricular content used in [The Odin Project](http://theodinproject.com) website. (cf. [this repository](https://github.com/TheOdinProject/theodinproject) which houses the front-end and back-end code.)
 
 
-The TOP community can be found in our [Discord chat rooms](https://discord.gg/hvqVr6d).
+The TOP community can be found in our [Discord chat rooms](https://discord.gg/fbFCkYabZB).
 
 ## Contributing
 
 The Odin Project depends on open-source contributions to improve, grow, and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community.
 
 ### Lessons/Courses in Development
-We are constantly making improvements to the curriculum, and new lessons are always in the works. However, writing new lessons is very time consuming and is done for free. If you would like to know specifics about work on new lessons, please checkout the [Forum](https://forum.theodinproject.com/) under "sprints", ask in the [Discord chat](https://discord.gg/hvqVr6d), or keep an eye on this repo.
+We are constantly making improvements to the curriculum, and new lessons are always in the works. However, writing new lessons is very time consuming and is done for free. If you would like to know specifics about work on new lessons, ask in the [Discord chat](https://discord.gg/fbFCkYabZB), or keep an eye on this repo.
 
-If you would like to help us develop any lessons, please read our [contributing guide](https://www.theodinproject.com/contributing) to find out how you can contribute.
+### In flight curriculum initiatives
+#### HTML/CSS course rewrite
+We are in the process of completely rewriting all of our HTML and CSS content, from scratch.  Our current curriculum relies too heavily on freecodecamp, which many of our students report is somewhat of a slog.  Additionally, much of our later content is getting somewhat dated, so we are in need of a refresh.
+
+You can see what we're working on [here](https://github.com/TheOdinProject/top-meta/projects/2).
+
+If you would like to help us develop any lessons, please read our [contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md) to find out how you can contribute.
 
 #### A non-exhaustive list of what you can contribute to help us:
 * correcting typos and other grammar errors,
@@ -27,7 +33,7 @@ If you would like to help us develop any lessons, please read our [contributing 
 * adding new resource links you think would make a lesson better, and
 * working on new lessons and projects. You can choose to work on parts of a lesson that are outlined in the progress list on [lesson plans](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) or you can work on completing an entire lesson yourself.
 
-To find out more about how you can contribute, please read our [contributing guide](https://www.theodinproject.com/contributing).
+To find out more about how you can contribute, please read our [contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md).
 
 ## Other helpful links
 
@@ -37,7 +43,7 @@ To find out more about how you can contribute, please read our [contributing gui
 
 **Happy Coding!**
 
-\* See [license.md](https://github.com/TheOdinProject/curriculum/blob/master/license.md) for usage details.
+\* See [license.md](https://github.com/TheOdinProject/curriculum/blob/main/license.md) for usage details.
 
 ___
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
@@ -57,4 +63,4 @@ Additionally, we have made our learning materials completely open source.  This 
 
 ## Contributing
 
-If you would like to contribute to this project, [please contact us here](https://discord.gg/hvqVr6d).
+If you would like to contribute to this project, [please contact us here](https://discord.gg/fbFCkYabZB).

@@ -10,11 +10,14 @@ Here, you'll build an app that feels a whole lot like a photo tagging app. You'l
 
 To start with, you'll need to choose a photo and identify where exactly each person is to start with and save that to your database. When the user clicks the photo, it should place a targeting box around the portion of the photo where the user has clicked. That box should contain a list of possible characters.
 
-When the user selects one of these characters, you should check with your Rails Backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
+When the user selects one of these characters, you should check with your Backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
 
 Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
-1. Set up a GitHub Repo for this project. Follow the instructions atop the [Google Homepage project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css) if you need help.
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+1. Set up a GitHub Repo for this project. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) if you need help.
 2. Think about what you'll need to do to get this all working together. This is where it's really helpful to think it completely through on paper or whiteboard ahead of time! A few minutes of thought can save you from wasting an hour of coding.
 3. If you're using Rails as your backend: create a new Rails application with just the bare bones required to load your HTML page for now. If you'll be using Firebase, this is a good time to create a new Firebase project for this app, and link to the necessary scripts at the bottom of your HTML page.
 4. Build the front end functionality without actually using any calls to the back end yet. Specifically, that means creating the JavaScript functionality which pops the targeting box and dropdown menu on the screen when the user clicks on the photo and removes it when the user clicks away.
@@ -23,11 +26,8 @@ Keep track of how long it takes between when the photo is first loaded and when 
 7. Add in the ability to time the user from when they first load the page and then display their "score" (time) when they successfully identify all characters. Create a popup that asks them to enter their name for the high scores table if they have earned it.
 8. Play with it!
 9. Push your solution to GitHub, Heroku, and/or Firebase Hosting and submit it below. This is a serious project, congratulations!
+</div>
 
 ### Optional Extensions:
 
-1. Load many images into your database and allow your use to select from among them before starting the game.
-
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+1. Load many images into your database and allow the user to select from among them before starting the game.

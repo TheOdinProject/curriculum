@@ -17,7 +17,7 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [W3Schools on Border Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)
 * [W3Schools on Box Shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
