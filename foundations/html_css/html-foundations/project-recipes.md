@@ -28,7 +28,7 @@ When you're building your project, you will probably end up doing several `git a
 
 When writing code, it's considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere.
 
-If you have entered `git push origin main` and typed out your username and password, when you refresh your GitHub page you should see new files added onto GitHub.
+If you have entered `git push origin main`, switch over to your browser and open your repository on Github, you should now see all the files you just pushed.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
