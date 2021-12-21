@@ -5,7 +5,7 @@
     "eslint": "eslint --max-warnings 0 './app/javascript/**/*.js'"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.16.3",
+    "@babel/eslint-parser": "^7.16.5",
     "@babel/plugin-proposal-private-methods": "^7.16.5",
     "@babel/preset-react": "^7.16.0",
     "@hookform/resolvers": "2.8.4",
