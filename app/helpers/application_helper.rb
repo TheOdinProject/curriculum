@@ -38,7 +38,7 @@ module ApplicationHelper
           <p>The curriculum has also been designed in a modular fashion, making skimming through lessons a breeze.</p>"
       },
       {
-        question: 'What is the goal of the The Odin Project?',
+        question: 'What is the goal of The Odin Project?',
         answer:
           '<p>The goal of The Odin Project is to provide a complete path for students to go from zero programming knowledge to employed as web developers while working with other students and picking up the skills to become self sufficient along the way.</p>'
 
