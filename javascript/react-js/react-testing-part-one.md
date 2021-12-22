@@ -1,6 +1,6 @@
 ### Introduction
 
-We've learned testing our vanilla JavaScript applications in the previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilites to our tests using the React Testing library.
+We've learned testing our vanilla JavaScript applications in the previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
 
 Read the [introduction](https://testing-library.com/docs/react-testing-library/intro) page of the library before we get started.
 
@@ -143,9 +143,9 @@ exports[`magnificent monkeys render 1`] = `
 
 It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails. 
 
-Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be acheived with snapshots [here](https://jestjs.io/docs/snapshot-testing)
+Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots [here](https://jestjs.io/docs/snapshot-testing)
 
-Snapshots might seem the best thing that's has happend to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snaphot passes, what does it convey about the correctness of the component? 
+Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
 
 The other issue with snapshots is false negatives. Even the insignificant of changes compels the test to fail. Fixing punctuation? Snapshot will fail. Replacing an HTML tag to a more semantic one? Snapshot will fail. This might cause us to lose our confidence in the test suite altogether. Snapshots aren't inherently bad; they do serve a purpose. But it's beneficial to understand when to snapshot, and when not to snapshot. 
 
@@ -155,7 +155,7 @@ The other issue with snapshots is false negatives. Even the insignificant of cha
 
 1. Take a glance at all of the available [query methods](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all. But it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use [test ids](https://testing-library.com/docs/queries/bytestid/).
 
-2. Read [fireEvent](https://testing-library.com/docs/dom-testing-library/api-events/) and [userEvent](https://testing-library.com/docs/ecosystem-user-event/) API docs to get a feel of how to acheive user simulation. 
+2. Read [fireEvent](https://testing-library.com/docs/dom-testing-library/api-events/) and [userEvent](https://testing-library.com/docs/ecosystem-user-event/) API docs to get a feel of how to achieve user simulation. 
 
 3. This [article](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the pros and cons of snapshot testing. And [this](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks) one does an excellent job of explaining what is snapshot testing in programming in general.
 
