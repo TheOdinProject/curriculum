@@ -10,7 +10,6 @@ By the end of this lesson, you should be able to:
 
 * Prepopulate a dropdown menu with objects
 * Describe the differences between the `#select_tag` and `#select` helpers
-* Know how to input values to `#options_for_select`
 * Make nested forms
 * Prepare models to create nested objects
 * Whitelist nested parameters
@@ -49,7 +48,7 @@ This creates a dropdown list with each user's name as an option.  Your `#create`
 
 But Rails provides some less verbose ways of doing the same thing, namely using the `#select_tag` helper in conjunction with the `#options_for_select` helper.  The `#select_tag` will create the surrounding tag while the `#options_for_select` gives `#select_tag` the array of options it needs.
 
-`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`:
+<span id='options-knowledge-check'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`:
 
 ~~~ruby
   # app/controllers/posts_controller.rb
@@ -68,7 +67,7 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
 
 So just pass `#select_tag` the name it should use for your chosen value and the collection and it will output the exact same thing!
 
-If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:
+<span id='select-knowledge-check'>If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:</span>
 
 ~~~ruby
   # app/views/posts/new.html.erb
@@ -106,7 +105,7 @@ As you can imagine, it's important to get the names and parameters properly list
 
 We'll do a broad overview of the process here:
 
-1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
+<span id='model-knowledge-check'>1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:<span>
 
 ~~~ruby
   # app/models/user.rb
@@ -198,11 +197,10 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>How do you prepopulate a dropdown menu with data?</a>
 - <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>
-- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>When would you use the `#select` helper?</a>
-- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>When using `#options_for_select`, what format does the array need to be in?</a>
+- <a class="knowledge-check-link" href='#select-knowledge-check'>When would you use the `#select` helper?</a>
+- <a class="knowledge-check-link" href='#options-knowledge-check'>When using `#options_for_select`, what format does the array need to be in?</a>
 - <a class="knowledge-check-link" href='#nested-forms'>How can you prevent users from having to submit multiple forms?</a>
-- <a class="knowledge-check-link" href='#nested-forms'>What do you add to the model that allows nested forms to create new objects?</a>
+- <a class="knowledge-check-link" href='#model-knowledge-check'>What do you add to the model that allows nested forms to create new objects?</a>
 - <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you whitelist the nested parameters in your controller?</a>
- - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>Can you delete something by leaving a form field (e.g. a checkbox) blank (unchecked)?</a>
+ - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>What happens if you leave a form field (e.g. a checkbox) blank (unchecked)?</a>
