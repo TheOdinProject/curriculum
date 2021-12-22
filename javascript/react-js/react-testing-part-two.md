@@ -118,7 +118,7 @@ jest.mock('../submission', () => ({ submission, isDashboardView }) => (
 
 We only render the bare minimum to realize the validity of the component we're testing. Next, we set up our props with fake data and mocked functions.
 
-Let's move towards our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, it's purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readibility purposes using `describe`.
+Let's move towards our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, it's purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readability purposes using `describe`.
 
 In the first suite, we make some assertions if the user has a submssion and then some assertions if the user does not. The other suites follow a similar pattern.
 
@@ -126,7 +126,7 @@ In the first suite, we make some assertions if the user has a submssion and then
 
 Feel free to flick through the other components and its tests. You'll see mocked functions. You'll see some unseen functions like `act`. You'll see custom render functions. It's fine if you don't understand it all, the goal is to gain familiarity.
 
-The other important thing to note is almost all the tests follow a certain pattern in terms of the way they're written. They follow the [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) pattern. It's a good idea to adopt the pattern sooner or later to make your tests more readible and ultimately better.
+The other important thing to note is almost all the tests follow a certain pattern in terms of the way they're written. They follow the [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) pattern. It's a good idea to adopt the pattern sooner or later to make your tests more readable and ultimately better.
 
 ### Assignment
 
