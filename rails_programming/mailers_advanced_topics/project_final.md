@@ -28,7 +28,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 9. Users can Comment on Posts.
 10. Posts should always display with the post content, author, comments and likes.
 11. Treat the Posts Index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users she is friends with.
-12. Users can create a Profile with a Photo.
+12. Users can create a Profile with their personal information and a photo. You can use [Gravatar](https://en.gravatar.com/) for this photo.
 13. The User Show page contains their Profile information, photo, and Posts.
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
 15. Sign in should use [OmniAuth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.

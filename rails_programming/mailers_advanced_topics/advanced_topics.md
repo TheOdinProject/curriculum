@@ -216,7 +216,7 @@ Ruby provides the `#send` method to save the day.  If you want to run a method o
 
 In an ordinary situation, there's no reason to use the `#send` method but if you don't know which method you're going to need to call, it's a lifesaver.  Just pass it the symbolized name of the method you want to run on that object and Ruby will go looking for it.
 
-But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
+But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
 
 ~~~ruby
   class Rubyist
@@ -297,7 +297,7 @@ There's a useful book written on anti-patterns, which can help you clean up your
   3. Read the same guide, sections 3.8-3.15 for a variety of different advanced routing topics including constraining the inputs to your routes and redirection.
   4. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
   5. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
-  6. If you're interested in peeking at metaprogramming, read through [http://ruby-metaprogramming.rubylearning.com/](http://ruby-metaprogramming.rubylearning.com/).  It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
+  6. If you're interested in peeking at metaprogramming, read through [this resource](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/).  It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
   7. Glance through [this Slideshare Presentation on SOLID](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) principles.
 </div>
 
@@ -313,6 +313,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
 * [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
-* [Ruby Metaprogramming](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
+* [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
 * [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)

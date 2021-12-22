@@ -150,7 +150,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * Look over the latest [Ruby API documentation](http://ruby-doc.org/) on arrays by clicking on "Core API" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object along with explanations and examples.
 * If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
-* Arrays also allow for **set operations**, which you can read about [here](http://blog.endpoint.com/2011/06/using-set-operators-with-ruby-arrays.html). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
+* Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

@@ -71,7 +71,7 @@ In the example below, only the element with the `cool-paragraph` class would get
 }
 ~~~
 
-#### The `:root:` Selector
+#### The `:root` Selector
 
 While there may be times where you will want to limit the scope of a custom property, you may want to be able to use other custom properties on many, unrelated selectors. One workaround would be declaring the same custom property on a bunch of selectors, but that defeats one of the purposes of using custom properties in the first place (the ease of changing multiple instances of a value at once).
 
