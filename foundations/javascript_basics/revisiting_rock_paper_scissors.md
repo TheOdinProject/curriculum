@@ -10,7 +10,7 @@ Like the branches in a tree (hence the name), all of the branches for a project 
 
 When you make commits on a specific branch those changes only exist on **that** branch, leaving all of your other branches exactly as they were when you branched off of them.
 
-This means that you can keep your `main` branch as a place for only finished features, that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*
+This means that you can keep your `main` branch as a place for only finished features that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*
 
 ### Using Branches
 
