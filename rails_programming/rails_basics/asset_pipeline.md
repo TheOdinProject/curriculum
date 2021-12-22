@@ -171,7 +171,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#main-features">How does "asset concatenation" optimizes loading of your app?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#main-features">How does "asset concatenation" optimize loading of your app?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets">How do you include an asset in your views or layout?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives">What does the `require_tree` method do in a manifest-file?</a>
 * <a class="knowledge-check-link" href="#the-asset-pipeline">Why would you namespace your stylesheets?</a>
