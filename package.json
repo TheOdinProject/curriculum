@@ -7,7 +7,7 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.16.5",
     "@babel/plugin-proposal-private-methods": "^7.16.5",
-    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-react": "^7.16.5",
     "@hookform/resolvers": "2.8.4",
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
