@@ -22,7 +22,7 @@ Once you’re done working on your feature branch and you’re ready to bring th
 
 Merges are done by using the command `git merge <branch_name>` which will take the changes you’ve committed in `branch_name` and add them to the branch that you’re currently on.
 
-Sometimes the same lines in a file will have been changed by two different branches, when this happens you will have a *merge conflict* when you try and merge those branches together. In order to finish merging the branches, you will have to first resolve the conflict, but we will go into detail about how to do so in a future lesson.
+Sometimes the same lines in a file will have been changed by two different branches. When this happens you will have a merge conflict when you try and merge those branches together. In order to finish merging the branches you will have to first resolve the conflict, which will be covered in a future lesson.
 
 When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name> if the branch has already been merged into `main` or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
 
