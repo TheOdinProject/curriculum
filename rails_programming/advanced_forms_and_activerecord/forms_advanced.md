@@ -5,15 +5,16 @@ You learned about the basics of building forms in HTML and Rails in previous les
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
 
-* How do you prepopulate a dropdown menu with data?
-* What is the difference between the `#select_tag` helper and the `#select` helper?
-* What format does the array you input to `#options_for_select` need to be in?
-* Why would you need to use a nested form?
-* What do you need to change in the model to allow nested forms to create new objects properly?
-* How do you whitelist the nested parameters properly in your controller?
-* Why can't you just delete something by leaving a form field (e.g. a checkbox) blank (unchecked)?
+By the end of this lesson, you should be able to:
+
+* Prepopulate a dropdown menu with objects
+* Describe the differences between the `#select_tag` and `#select` helpers
+* Know how to input values to `#options_for_select`
+* Make nested forms
+* Prepare models to create nested objects
+* Whitelist nested parameters
+* Allow dropdown fields or checkboxes to be set to `nil`
 
 ### Prepopulating `select` Tags with Collections
 
@@ -193,3 +194,15 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
 * [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
 * [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>How do you prepopulate a dropdown menu with data?</a>
+- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>
+- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>When would you use the `#select` helper?</a>
+- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>When using `#options_for_select`, what format does the array need to be in?</a>
+- <a class="knowledge-check-link" href='#nested-forms'>How can you prevent users from having to submit multiple forms?</a>
+- <a class="knowledge-check-link" href='#nested-forms'>What do you add to the model that allows nested forms to create new objects?</a>
+- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you whitelist the nested parameters in your controller?</a>
+ - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>Can you delete something by leaving a form field (e.g. a checkbox) blank (unchecked)?</a>
