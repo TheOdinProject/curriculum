@@ -26,7 +26,7 @@ Sometimes the same lines in a file will have been changed by two different branc
 
 When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main` or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
 
-### Using Branches to Share Code
+### Sharing Code
 
 Another great use case for branches is to share code with others that you might not want to commit to your main branch (or feature branch) at all. 
 
