@@ -2,6 +2,13 @@
 
 In this lecture we are going to learn a little bit about routing in React. Up until now we have only written one-page applications. Once your application has multiple pages, you need to set up a reliable routing system. This is to handle the component or page that should be rendered when navigating to a certain route. For this we are going to use a package called `react-router-dom`.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to:
+
+- Explain how `react-router-dom` works
+
+### React Router
+
 Let's go through it step by step. First of all, create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons. (Just leave the index.js and the App.js files)
 
 Once you've done that, let's create a new file called `Profile.js` inside the src directory, and add a basic functional component to it, which just contains an `h1` element.
@@ -56,20 +63,20 @@ const RouteSwitch = () => {
 export default RouteSwitch;
 ~~~
 
-So what is happening here? First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
+<span id="components">So what is happening here?</span> First we are importing React, our two components (Profile and App), and a few things from the package we just installed:
 
 1. **Route**: Those are our routes with a path, which equals the url path, and a component that should be rendered when we navigate to this url.
 
-2. **BrowserRouter**: Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion I have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
+2. **BrowserRouter**: Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion we have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
 
 3. **Routes**: Renders the first child Route that matches the location. In other words, the `Routes` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url *exactly* will be rendered; all others will be ignored. Important to note is that in previous versions of `react-router-dom` the `exact` keyword was needed to achieve this behavior.
 
-Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `Routes.js` to be the first. Your `index.js` should look something like this:
+Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `RouteSwitch.js` to be the first. Your `index.js` should look something like this:
 
 ~~~javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import RouteSwitch from "./Routes";
+import RouteSwitch from "./RouteSwitch";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -96,3 +103,12 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.
 - For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).
+
+### Knowledge Checks
+
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
+- <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
+- <a class="knowledge-check-link" href="#routing">How do you ensure that Router links are routed accurately?</a>
+

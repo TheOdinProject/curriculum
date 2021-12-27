@@ -9,7 +9,7 @@ By now you have had quite a bit of practice moving elements around the screen us
  - You'll know the difference between each property and how to combine them.
 
 ### Static and Relative Positioning
-The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` change the position of the specific element relative to its current position on the screen. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``ri....(etc.)`` affect the specific element relative to itself.
+The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``ri....(etc.)`` displace the element relative to it’s normal position in the flow of the document.
 
 ### Absolute Positioning
 ``position: absolute`` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in simple terms: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  ``top``, ``right``, ``bottom``, and ``left`` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are: 
@@ -20,9 +20,9 @@ The default positioning mode that you've gotten used to is ``position: static``.
 
 In the following example, we are using absolute positioning to display text over an image.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGrNqdv" data-editable="true" data-user="LeoKirasic" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/leokirasic/pen/bGrNqdv">
-  Absolute positioning example</a> by LeoKirasic (<a href="https://codepen.io/LeoKirasic">@LeoKirasic</a>)
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
+  Absolute Position | CSS Positioning</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

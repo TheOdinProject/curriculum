@@ -67,7 +67,7 @@ const playerTwo = {
 }
 ~~~
 
-At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits are huge! Let me demonstrate:
+At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
 
 ~~~javascript
 function printName(player) {
@@ -167,7 +167,7 @@ Student.prototype.sayName = function() {
   console.log(this.name)
 }
 Student.prototype.goToProm = function() {
-  // eh.. go to prom?
+  console.log("Eh.. go to prom?")
 }
 ~~~
 

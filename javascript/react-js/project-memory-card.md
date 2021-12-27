@@ -4,7 +4,7 @@ Here we go again with a new project! Let's make sure you understand the concepts
 
 ### How The Game Works
 
-Go play around [with the first student solution](https://heldersrvio.github.io/Memory-Card-Game/) to find out for yourself how the Memory game works. Although this example uses cartoon characters, you can use anything you like for your game.
+Go play around [with this student's solution](https://heldersrvio.github.io/Memory-Card-Game/) to find out for yourself how the Memory game works. Although this example uses cartoon characters, you can use anything you like for your game.
 
 ### Assignment
 
