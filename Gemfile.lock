@@ -492,7 +492,7 @@ GEM
     sentry-ruby-core (4.8.1)
       concurrent-ruby
       faraday
-    shoulda-matchers (5.0.0)
+    shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
     sidekiq (6.3.1)
       connection_pool (>= 2.2.2)
@@ -552,7 +552,7 @@ GEM
       rails (>= 3.2.16)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.5.1)
+    zeitwerk (2.5.2)
 
 PLATFORMS
   ruby
