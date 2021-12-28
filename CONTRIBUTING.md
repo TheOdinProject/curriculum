@@ -1,6 +1,7 @@
 # Contributing Guide
 
 Thank you for expressing interest in contributing to our curriculum!
+Please also ensure you carefully read everything here: https://github.com/TheOdinProject/curriculum/wiki
 
 If you would like to contribute, but are not sure how, find an [issue tagged with "help wanted"](https://github.com/TheOdinProject/theodinproject/labels/Help%20Wanted) to work on.
 * Please comment on the issue stating what you'd like to work on and wait to be assigned before working on it.
