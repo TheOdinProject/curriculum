@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe ProjectSubmissionSerializer do
-  subject { described_class.as_json(project_submission) }
+  subject { described_class.as_json(project_submission, current_user) }
 
   let(:project_submission) do
     create(
@@ -14,6 +14,7 @@ RSpec.describe ProjectSubmissionSerializer do
       lesson: lesson
     )
   end
+  let(:current_user) { create(:user) }
 
   let(:user) { create(:user, id: 123, username: 'A USERNAME') }
   let(:path) { create(:path, title: 'A Path') }
@@ -35,7 +36,7 @@ RSpec.describe ProjectSubmissionSerializer do
         lesson_path: '/paths/a-path/courses/a-course/lessons/a-lesson-title',
         lesson_has_live_preview: true,
         likes: 0,
-        is_liked_by_current_user: nil
+        is_liked_by_current_user: false
       }
     end
 

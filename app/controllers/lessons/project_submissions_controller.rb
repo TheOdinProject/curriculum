@@ -1,20 +1,32 @@
 module Lessons
   class ProjectSubmissionsController < ApplicationController
+    before_action :authenticate_user!
     before_action :set_lesson
     before_action :check_if_project_submitable
-    before_action :authenticate_user!
 
     def index
+      @user_submission = user_submission
+
       @project_submissions = Kaminari.paginate_array(
-        project_submissions,
-        total_count: project_submissions.size
+        public_project_submissions,
+        total_count: public_project_submissions.size
       ).page(params[:page]).per(15)
     end
 
     private
 
-    def project_submissions
-      ::LessonProjectSubmissionsQuery.new(@lesson).with_current_user_submission_first(current_user)
+    def user_submission
+      submission = project_submissions_query.current_user_submission
+
+      ProjectSubmissionSerializer.as_json(submission, current_user) if submission.present?
+    end
+
+    def public_project_submissions
+      project_submissions_query.public_submissions
+    end
+
+    def project_submissions_query
+      @project_submissions_query ||= ::LessonProjectSubmissionsQuery.new(lesson: @lesson, current_user: current_user)
     end
 
     def set_lesson

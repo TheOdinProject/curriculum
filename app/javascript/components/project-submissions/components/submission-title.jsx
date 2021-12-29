@@ -6,7 +6,7 @@ const SubmissionTitle = ({ submission, isDashboardView, isCurrentUsersSubmission
     return <a href={submission.lesson_path}>{ submission.lesson_title }</a>;
   }
   if (isCurrentUsersSubmission) {
-    return <a href="/dashboard">{submission.user_name}</a>;
+    return <a href="/">{submission.user_name}</a>;
   }
   return submission.user_name;
 };

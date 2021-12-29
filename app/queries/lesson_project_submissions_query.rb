@@ -1,18 +1,26 @@
 class LessonProjectSubmissionsQuery
-  def initialize(lesson, limit: nil)
+  def initialize(lesson:, current_user:, limit: nil)
     @lesson = lesson
+    @current_user = current_user
     @limit = limit
   end
 
-  def with_current_user_submission_first(user)
+  def current_user_submission
+    return if current_user.nil?
+
+    current_user.project_submissions.not_removed_by_admin.find_by(lesson: lesson)
+  end
+
+  def public_submissions
     lesson.project_submissions
-          .where
-          .not(user_id: user&.id)
-          .viewable.order(cached_votes_total: :desc, created_at: :desc)
+          .only_public
+          .not_removed_by_admin
+          .where.not(user: current_user)
+          .order(cached_votes_total: :desc, created_at: :desc)
           .limit(limit)
   end
 
   private
 
-  attr_reader :lesson, :limit
+  attr_reader :lesson, :limit, :current_user
 end

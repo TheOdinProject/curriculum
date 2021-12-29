@@ -6,7 +6,7 @@ class ProjectSubmissionsController < ApplicationController
     project_submission = current_user.project_submissions.create_or_find_by!(project_submission_params)
 
     if project_submission.save
-      render json: ProjectSubmissionSerializer.as_json(project_submission), status: :ok
+      render json: ProjectSubmissionSerializer.as_json(project_submission, current_user), status: :ok
     else
       render json: project_submission.errors, status: :unprocessable_entity
     end

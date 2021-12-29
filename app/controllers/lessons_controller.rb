@@ -1,21 +1,29 @@
 class LessonsController < ApplicationController
-  before_action :set_user
-
   def show
     @lesson = decorated_lesson
-    @project_submissions = project_submissions
+
+    if user_signed_in?
+      @project_submissions = public_project_submissions
+      @user_submission = current_user_submission
+    end
   end
 
   private
 
-  def set_user
-    return unless user_signed_in?
-
-    @user = User.includes(:completed_lessons).find(current_user.id)
+  def public_project_submissions
+    project_submissions_query.public_submissions.map do |submission|
+      ProjectSubmissionSerializer.as_json(submission, current_user) if submission.present?
+    end
   end
 
-  def project_submissions
-    ::LessonProjectSubmissionsQuery.new(@lesson, limit: 10).with_current_user_submission_first(current_user)
+  def current_user_submission
+    submission = project_submissions_query.current_user_submission
+
+    ProjectSubmissionSerializer.as_json(submission, current_user) if submission.present?
+  end
+
+  def project_submissions_query
+    ::LessonProjectSubmissionsQuery.new(lesson: @lesson, current_user: current_user, limit: 10)
   end
 
   def decorated_lesson

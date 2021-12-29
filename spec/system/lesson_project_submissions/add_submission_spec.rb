@@ -34,6 +34,7 @@ RSpec.describe 'Add a Project Submission', type: :system do
         form.close
 
         within(:test_id, 'submissions-list') do
+          page.driver.refresh
           expect(page).to have_content(user.username)
         end
 

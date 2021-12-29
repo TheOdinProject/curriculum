@@ -31,16 +31,18 @@
         <%= react_component(
           "project-submissions/index",
           {
-            userId: current_user&.id,
+            userId: current_user.id,
             course: @lesson.course.as_json,
             lesson: @lesson.as_json,
-            submissions: @project_submissions.map { |submission| ProjectSubmissionSerializer.as_json(submission, current_user) },
+            submissions: @project_submissions,
             allSubmissionsPath: lesson_project_submissions_path(@lesson.id),
-            userSubmission: user_submission(current_user, @lesson)
+            userSubmission: @user_submission
           }
         ) %>
       <% elsif @lesson.accepts_submission? %>
-          <p class="lesson-functions__call-to-login">Please <%= link_to 'Log In', login_path, class: 'lesson-functions__link' %> or <%= link_to 'Sign Up', sign_up_path, class: 'lesson-functions__link', data: {test_id: 'sign_up'} %> to view user submissions for this project!</p>
+          <p class="lesson-functions__call-to-login">
+            Please <%= link_to 'Log In', login_path, class: 'lesson-functions__link' %> or <%= link_to 'Sign Up', sign_up_path, class: 'lesson-functions__link', data: {test_id: 'sign_up'} %> to view user submissions for this project!
+          </p>
       <% end %>
 
       <div class="lesson-button-group">

@@ -29,8 +29,11 @@ module Admin
       attr_reader :flag, :admin
 
       def update_flag_for_ban
-        flag.project_submission.update!(banned: true)
-        flag.project_submission.user.update!(banned: true)
+        user = flag.project_submission.user
+
+        user.project_submissions.each(&:discard)
+        user.update!(banned: true)
+
         flag.ban!
         flag.resolved!
         flag.update!(resolved_by_id: admin.id)

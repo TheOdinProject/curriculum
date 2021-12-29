@@ -18,17 +18,27 @@ RSpec.describe ProjectSubmission, type: :model do
 
   it { is_expected.to validate_uniqueness_of(:user_id).scoped_to(:lesson_id) }
 
-  describe '.viewable' do
-    let!(:banned_project_submission) { create(:project_submission, banned: true) }
-    let!(:private_project_submission) { create(:project_submission, is_public: false) }
-    let!(:soft_deleted_project_submission)   { create(:project_submission, discarded_at: Time.zone.today) }
-    let!(:viewable_project_submission_one)   { create(:project_submission) }
-    let!(:viewable_project_submission_two)   { create(:project_submission) }
+  describe '.only_public' do
+    it 'returns public project submissions' do
+      public_project_submission_one = create(:project_submission)
+      public_project_submission_two = create(:project_submission)
+      create(:project_submission, is_public: false)
 
-    it 'returns viewable project submissions' do
-      expect(ProjectSubmission.viewable).to contain_exactly(
-        viewable_project_submission_one,
-        viewable_project_submission_two
+      expect(ProjectSubmission.only_public).to contain_exactly(
+        public_project_submission_one,
+        public_project_submission_two
+      )
+    end
+  end
+
+  describe '.not_removed_by_admin' do
+    it 'returns project submissions that have not been discarded' do
+      not_discarded_project_submission = create(:project_submission)
+      create(:project_submission, discarded_at: Time.zone.today)
+      create(:project_submission, discarded_at: Time.zone.today)
+
+      expect(ProjectSubmission.not_removed_by_admin).to contain_exactly(
+        not_discarded_project_submission
       )
     end
   end
@@ -80,9 +90,9 @@ RSpec.describe ProjectSubmission, type: :model do
       end
     end
 
-    context 'when the project_submission is not viewable' do
+    context 'when the project_submission has been removed by admin' do
       let(:project_submission) do
-        create(:project_submission, banned: true, discarded_at: 10.days.ago, is_public: false, discard_at: 6.days.ago)
+        create(:project_submission, discarded_at: 10.days.ago, discard_at: 6.days.ago)
       end
 
       it 'returns a list not including the project submission' do
@@ -116,12 +126,10 @@ RSpec.describe ProjectSubmission, type: :model do
     end
 
     context 'when any other attribute is updated' do
-      let(:banned) { false }
+      it 'does not modify update at' do
+        discardable_project_submission.update(is_public: false)
 
-      it 'doesn\'t modify update at' do
-        discardable_project_submission.update(banned: banned)
-
-        expect(discardable_project_submission.reload.discard_at).to eq discard_date
+        expect(discardable_project_submission.reload.discard_at).to eq(discard_date)
       end
     end
   end

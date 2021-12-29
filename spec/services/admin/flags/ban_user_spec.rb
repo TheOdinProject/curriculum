@@ -10,7 +10,7 @@ RSpec.describe Admin::Flags::BanUser do
 
   describe '#call' do
     it 'sets the flagged project submission to banned' do
-      expect { service }.to change { project_submission.banned }.from(false).to(true)
+      expect { service }.to change { project_submission.reload.discarded_at }.from(nil)
     end
 
     it 'sets the flagged project submissions owner to banned' do
