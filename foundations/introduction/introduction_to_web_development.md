@@ -57,7 +57,7 @@ The strongest assets you can have as a student are a desire to build, a problem-
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 
-Read [this comprehensive blog post from Happy Bear Software](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
+Read [this comprehensive blog post from Happy Bear Software](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
 
 ### Why Odin?
 
