@@ -4,7 +4,7 @@ Interviewing is right up there with public speaking in the hierarchy of fears fo
 
 Far be it from us to try and get you over that psychological hurdle but it's definitely best if you can actually treat the interviews as a chance to show off the cool stuff you've built and the interesting new skills you've learned.  The best interviews are enthusiastic conversations with technical depth.
 
-The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
+The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
 
 ### How the process works once you're in the funnel
 
