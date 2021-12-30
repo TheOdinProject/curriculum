@@ -1,6 +1,6 @@
 ### Introduction
 
-Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, this means that you can code the server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system.
+Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
 
 We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two so read carefully!
 
@@ -8,8 +8,8 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 ### Installing nvm
 
-<details>
-  <summary><b>Installation on Linux</b></summary>
+<details markdown="block">
+  <summary class="dropDown-header">Installation on Linux</summary>
 
 #### Step 0: Prerequisites 
 To install nvm properly, you'll need `curl`. Simply run the command below:
@@ -47,8 +47,8 @@ if this returns `nvm: command not found` close the terminal and re-open it.
 
 </details>
 
-<details>
-  <summary><b>Installation on macOS</b></summary>
+<details markdown="block">
+  <summary class="dropDown-header">Installation on macOS</summary>
   <br/>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
