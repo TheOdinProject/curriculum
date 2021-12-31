@@ -159,7 +159,7 @@ We have two elements with the `subsection` class that have some sort of unique s
 
 What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` selectors. This syntax basically works for chaining any combination of selectors, with the exception of type selectors.
 
-In general, type selectors can't be chained since an element can’t be two different types at once. Also, if you tried to chain the `div` and `p` type selectors like `divp`, it wouldn't work since the selector would try to find a literal `<divp>` element which doesn’t exist. 
+In general, type selectors can't be chained since an element can’t be two different types at once. Also, chaining two type selectors like `div` and `p`, would give us the selector `divp`. which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist. 
 
 #### Descendant Combinator
 
