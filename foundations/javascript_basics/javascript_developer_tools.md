@@ -22,11 +22,19 @@ After completing this lesson, you will be able to:
 
 There are three ways to open the Developer Tools menu:
 
-1. From the Browser Menu:
-    - Chrome: Select the `Chrome Menu` > `More Tools` > `Developer Tools`
-    - Firefox: Select the Firefox `Menu` > `Web Developer`> `Toggle Tools`  
+<details open markdown="block">
+<summary><b>Chrome</b></summary>
+1. Select the `Chrome Menu` > `More Tools` > `Developer Tools`
 2. Right-click anywhere on a webpage and select `Inspect`
-3. Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
+3. Use the keyboard shortcut `F12` or `Ctrl + Shift + C` (`Cmd + Opt + C` on Mac)
+</details>
+
+<details markdown="block">
+<summary><b>Firefox</b></summary>
+1. Select the `Firefox Menu` > `More tools` > `Web Developer Tools`
+2. Right-click anywhere on a webpage and select `Inspect` (or press `Q` after right-clicking)
+3. Use the keyboard shortcut `F12` or `Ctrl + Shift + I` (`Cmd + Opt + I` on Mac)
+</details>
 
 ### Assignment
 
