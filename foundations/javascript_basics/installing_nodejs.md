@@ -109,7 +109,7 @@ We need to tell `nvm` which version of Node to use when we run the `node` comman
 nvm use --lts
 ~~~
 
-We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilites with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after it's initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node. LTS versions can be identified by having an even number for the version. Non-LTS versions are odd-numbered.
+We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilites with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
 
 Now when you run `node -v` you should see `v16.xx.x` or something similar. 
 
