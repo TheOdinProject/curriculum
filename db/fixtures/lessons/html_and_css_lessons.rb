@@ -417,10 +417,10 @@ def html_and_css_lessons
       url: '/html_css/animation/keyframes.md',
       identifier_uuid: 'b57040da-48a4-4af6-9e0e-abc67deb3b07'
     },
-    #Grid
+    # Grid
     'Introduction to Grid' => {
       title: 'Introduction to Grid',
-      description: "Introduction to CSS Grid",
+      description: 'Introduction to CSS Grid',
       is_project: false,
       url: '/html_css/grid-lessons/intro-to-grid.md',
       identifier_uuid: '589f2842-3f7e-4b1d-8d1f-505136245368'
