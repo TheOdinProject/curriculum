@@ -8,12 +8,11 @@ In this section, we'll take a look at some of the options you have to make a for
 
 By the end of this lesson, you should be able to:
 
-* Prepopulate a dropdown menu with objects
-* Describe the differences between the `#select_tag` and `#select` helpers
+* Build dropdown menus
+* Work with model objects
 * Make nested forms
-* Prepare models to create nested objects
 * Whitelist nested parameters
-* Allow dropdown fields or checkboxes to be set to `nil`
+* Delete records via form fields
 
 ### Prepopulating `select` Tags with Collections
 
