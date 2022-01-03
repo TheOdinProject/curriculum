@@ -44,7 +44,7 @@ course.add_section do |section|
     html_and_css_lessons.fetch('Custom Properties'),
     html_and_css_lessons.fetch('Browser Compatibility'),
     html_and_css_lessons.fetch('Frameworks and Preprocessors'),
-    html_and_css_lessons.fetch('Project: Sign-up Form'),
+    html_and_css_lessons.fetch('Sign-up Form'),
   )
 end
 
@@ -76,7 +76,7 @@ course.add_section do |section|
     html_and_css_lessons.fetch('Creating a Grid'),
     html_and_css_lessons.fetch('Positioning Grid Elements'),
     html_and_css_lessons.fetch('Advanced Grid Properties'),
-    html_and_css_lessons.fetch('Project: Grid'),
+    html_and_css_lessons.fetch('Grid Holy Grail'),
     html_and_css_lessons.fetch('Grid vs. Flex'),
   )
 end

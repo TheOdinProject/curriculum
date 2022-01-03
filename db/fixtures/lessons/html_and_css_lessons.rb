@@ -279,7 +279,7 @@ def html_and_css_lessons
       title: 'Introduction',
       description: 'Lets go deeper into the world of HTML and CSS!',
       is_project: false,
-      url: '/html_css/intermediate_html/introduction.md',
+      url: '/html_css/intermediate_html/Introduction.md',
       identifier_uuid: 'c1209191-1c2b-4c26-a838-8c4d4c3d388b'
     },
     'Emmet' => {
@@ -388,8 +388,8 @@ def html_and_css_lessons
       url: '/html_css/intermediate_css/frameworks-preprocessors.md',
       identifier_uuid: '6bcc2cd9-8816-4481-bafb-7208fb1108a4'
     },
-    'Project: Sign-up Form' => {
-      title: 'Project: Sign-up Form',
+    'Sign-up Form' => {
+      title: 'Sign-up Form',
       description: 'Learn about how browsers style your HTML.',
       is_project: true,
       url: '/html_css/project-sign-up-form/project-sign-up-form.md',
@@ -436,28 +436,28 @@ def html_and_css_lessons
       title: 'Positioning Grid Elements',
       description: 'Learn how to manipulate elements within a grid.',
       is_project: false,
-      url: 'TODO: insert URL',
+      url: '/html_css/grid-lessons/positioning-grid-items.md',
       identifier_uuid: '48813f31-ecc6-44c5-8f72-e7e24ae5e702'
     },
     'Advanced Grid Properties' => {
       title: 'Advanced Grid Properties',
       description: 'Learn some of the more useful, but advanced grid properties.',
       is_project: false,
-      url: '/html_css/grid-lessons/advanced-grid-properties.md',
+      url: '/html_css/grid-lessons/advanced_grid_properties.md',
       identifier_uuid: '4247602b-1246-43e8-9769-22a64812f75a'
     },
-    'Project: Grid' => {
-      title: 'Project: Grid',
+    'Grid Holy Grail' => {
+      title: 'Holy Grail: Grid Version',
       description: "Use what you've learned to Complete this project",
       is_project: true,
-      url: 'TODO: insert URL',
+      url: 'html_css/grid-lessons/grid_project.md',
       identifier_uuid: 'da85e71c-c6d9-49c7-8ab2-3e776f17d863'
     },
     'Grid vs. Flex' => {
-      title: 'Project: Grid',
+      title: 'Conclusion',
       description: 'Finish our study of Grid by comparing it to Flexbox',
       is_project: false,
-      url: 'TODO: insert URL',
+      url: 'html_css/grid-lessons/grid-conclusion.md',
       identifier_uuid: 'eee5a7e7-bbcc-432b-bdfb-799276fc47c2'
     },
     # Responsive Design
