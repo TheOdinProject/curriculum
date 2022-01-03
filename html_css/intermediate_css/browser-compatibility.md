@@ -56,18 +56,15 @@ Mobile devices mostly consist of smartphones and tablets. The most popular mobil
 
 As you're developing your applications, you must also consider whether your application should be fully mobile compatible. There are a couple of specifics about mobile browsers that you need to keep in mind.
 
-<div class="lesson-content__panel" markdown="1">
-
     1. On iOS and iPadOS, Safari is technically the only supported browser. Yes, you can install Chrome or Firefox, and you can even set them as a default, but they are not full browsers. They are still using the Safari rendering engine (WebKit). Therefore, for your web application to work for the Apple users, you have to assure support for WebKit and other technologies used in Safari.
     Important to remember, that since mobile browsers are not a one to one comparison to desktop, a project that works in desktop version of Safari might still need more adjustments to work properly on mobile version of the browser.
     2. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that just because everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
 
-<div>
-
 ### Assignment
-
+<div class="lesson-content__panel" markdown="1">
 - Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
 - Read this article [about browsers on iOS](https://adactio.medium.com/web-browsers-on-ios-b120a9a75cce).
+<div>
 
 ### Additional Resources
 

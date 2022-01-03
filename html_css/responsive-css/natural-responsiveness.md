@@ -14,9 +14,11 @@ The rest of this lesson is a list of tips you can use to maintain natural respon
 When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simply simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
 
 For this reason, you should add this snippet into the `<head>` of your HTML file in just about every project you work on.
-```html
+
+~~~html
 <meta name="viewport" content="width=device-width, initial-scale=1">
-```
+~~~
+
 It simply sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
 
 ### Avoid Fixed Width and Height

@@ -9,12 +9,14 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 - Recognize the basic parts of a CSS function
 - Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one
 
-##### What is a function and how are they used in CSS?
+#### What is a function and how are they used in CSS?
 
 As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
-`color: hsl(230, 100%, 50%);`
-`background: linear-gradient(90deg, blue, red);`
+~~~css
+color: hsl(230, 100%, 50%);
+background: linear-gradient(90deg, blue, red);
+~~~
 
 Here, the value of `color` is the function `rgb()`, which accepts arguments in the form of numbers. It processes those numbers to calculate the rgb color corresponding to the three values given. Similarly, the `background` property has a value of `linear-gradient(90deg, blue, red)`, which calculates the angle, starting color, and ending color of a gradient.
 
@@ -24,7 +26,7 @@ Besides defining colors, there are several CSS functions that are useful when de
 
 Let’s go over a few of these functions: `calc()`, `min()`, `max()`, and `clamp()`.
 
-##### calc()
+#### calc()
 
 The most powerful use cases for calc include:
 
@@ -39,11 +41,15 @@ The most powerful use cases for calc include:
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Take a look at how `calc()` is being used here:
-`:root {`
-`--header: 3rem;`
-`--footer: 40px;`
-`--main: calc(100vh - calc(var(--header) + var(--footer)));`
-`}`
+
+~~~css
+:root {
+--header: 3rem;
+--footer: 40px;
+--main: calc(100vh - calc(var(--header) + var(--footer)));
+}
+~~~
+
 Setting main to equal the outcome of: `100vh - (3rem + 40px)`.
 To put it another way:  `main = 100vh - (header + footer)`.
 `calc()` is handling the math for us even though we are mixing vh, rem and px units.
@@ -53,7 +59,7 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 
 I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <img src="https://imgur.com/a/9iDhtL0" alt="editCodePen">
 
-##### min()
+#### min()
 
 `min()` does an excellent job of helping us create responsive websites. Take a look at this example:
 
@@ -64,16 +70,19 @@ I encourage you to take a moment and edit the codepen. Play around with the diff
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-`#odinPicture {`
-  `max-height: 150px;`
-  `width: min(150px, 100%);`
-`}`
+~~~css
+#odinPicture {
+  max-height: 150px;
+  width: min(150px, 100%);
+}
+~~~
+
 Focus on this line `width: min(150px, 100%);` we can make several observations:
 If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
 <br>You are able to do basic bath inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
-##### max()
+#### max()
 
 Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses.
 
@@ -81,13 +90,15 @@ The max function is most useful when the viewing window is either exceptionally 
 
 Consider the following property of a given element:
 
-`width: max(100px, 1rem, 4em, 50%)`
+~~~css
+width: max(100px, 1rem, 4em, 50%)
+~~~
 
 From this list of given sizes, max will select the largest that will possibly fit within the viewing window.
 
 You may not find a lot of use for max at first, but it is good tool to be aware of for projects where accessibility is important.
 
-##### clamp()
+#### clamp()
 
 `clamp()` is a great way to make elements fluid and responsive.
 `clamp()` takes 3 values.

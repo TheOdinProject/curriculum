@@ -82,8 +82,7 @@ The second thing to keep in mind is that you should keep your animations to only
 What's important is that you have a solid understanding of these concepts and can apply them when necessary because hey, if you need to turn a button into a rainbow when it's hovered over, you better be able to transition that rainbow!
 
 ### Assignment
-
-<div class="lesson-content_panel" markdown="1">
+<div class="lesson-content__panel" markdown="1">
 1. Read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), including the links in the [Defining transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#defining_transitions) section of the article. Make sure you code along with any examples to become familiar with the syntax.
 2. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding.
 3. Learn some handy hints on how to create performant CSS animations by reading [this article](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
