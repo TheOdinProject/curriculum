@@ -5,6 +5,14 @@ There are many test-running systems available in JavaScript: [Mocha](https://moc
 
 This lesson is going to center around __Jest__. The biggest reasons for this decision are that one of the best resources we've found for explaining JavaScript testing uses it and they have fantastic documentation.  In the end, writing tests is less about the syntax and more about the TDD philosophy.  The most important issues are knowing __why__ we write tests and __what__ we test rather than how.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Know the basics of TDD.
+- Get up and running with Jest.
+- Write basic tests.
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
