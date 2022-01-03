@@ -12,7 +12,6 @@ By the end of this lesson, you should be able to do the following:
 - Get up and running with Jest.
 - Write basic tests.
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -22,3 +21,10 @@ By the end of this lesson, you should be able to do the following:
 4. Read and follow the [Using Matchers](https://facebook.github.io/jest/docs/en/using-matchers.html#content) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.  This video might be worth re-visiting after you've done some testing of your own.
 </div>
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
+- <a class="knowledge-check-link" href="https://jestjs.io/docs/using-matchers#common-matchers">What are some common jest matchers?</a>
