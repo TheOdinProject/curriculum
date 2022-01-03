@@ -280,42 +280,42 @@ def html_and_css_lessons
       description: 'Lets go deeper into the world of HTML and CSS!',
       is_project: false,
       url: '/html_css/intermediate_html/introduction.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'c1209191-1c2b-4c26-a838-8c4d4c3d388b'
     },
     'Emmet' => {
       title: 'Emmet',
       description: 'Emmet is a useful tool for helping create and manipulate HTMl and CSS',
       is_project: false,
       url: '/html_css/intermediate_html/emmet.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '71254f29-7f01-47b3-b621-2a664d368675'
     },
     'Form Basics' => {
       title: 'Form Basics',
       description: 'Learn the basics of creating forms in HTML.',
       is_project: false,
       url: '/html_css/intermediate_html/form-basics.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '6029885a-94d7-4f8b-a558-f9b1d4f6beef'
     },
     'Form Validation' => {
       title: 'Form Validation',
       description: 'Learn the basics of validating forms in HTML.',
       is_project: false,
       url: '/html_css/intermediate_html/form-validations.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '969ae828-9847-416e-b978-64a75dc26a5c'
     },
     'SVG' => {
       title: 'SVG',
       description: 'SVG is neat!',
       is_project: false,
       url: '/html_css/intermediate_html/svgs.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '30c64bee-90ae-41c6-8880-1eec97c002e2'
     },
     'Tables' => {
       title: 'Tables',
       description: 'Tables are great when used appropriately!',
       is_project: false,
       url: '/html_css/intermediate_html/html-tables.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '92707e2c-5627-4de3-9fe8-04dac6a00482'
     },
     # Intermediate CSS
     'Default Styles' => {
@@ -323,77 +323,77 @@ def html_and_css_lessons
       description: 'Learn about how browsers style your HTML.',
       is_project: false,
       url: '/html_css/intermediate_css/default-styles.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'd490e207-39da-43da-afb0-6e37de0cefcf'
     },
     'CSS Units' => {
       title: 'CSS Units',
       description: 'Check out the various units you can use in your stylesheets',
       is_project: false,
       url: '/html_css/intermediate_css/css-units.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '2a114e3d-a2ff-4343-9b5f-25e13f78e5c5'
     },
     'More Text Styles' => {
       title: 'More Text Styles',
       description: 'Here we cover some more properties you can use to style text on your websites.',
       is_project: false,
       url: '/html_css/intermediate_css/more-text-styles.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'b29df942-302a-4f25-8b4f-6220a49fa15f'
     },
     'More CSS Properties' => {
       title: 'More CSS Properties',
       description: 'CSS can do quite a lot! Here we cover some more properties you can use to make your sites pop!',
       is_project: false,
       url: '/html_css/intermediate_css/enhancing-design-with-css.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'a5db6aab-f888-40c5-8f84-6867f2c88141'
     },
     'Advanced Selectors' => {
       title: 'Advanced Selectors',
       description: 'You can do a lot more than just target specific classes and ids in your CSS...',
       is_project: false,
       url: '/html_css/intermediate_css/selectors.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'cc9598a9-3152-4470-ad65-f9334b908be6'
     },
     'Positioning' => {
       title: 'Positioning',
       description: 'Learn some new methods for moving items around on a webpage.',
       is_project: false,
       url: '/html_css/intermediate_css/positioning.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '68b722bd-251e-4994-83f5-c4a27f31eadc'
     },
     'CSS Functions' => {
       title: 'CSS Functions',
       description: 'Learn the function syntax, and some useful ways you can do calculations in CSS.',
       is_project: false,
       url: '/html_css/intermediate_css/css_math_functions.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '65a64b3a-43cd-45a9-819e-a22718fdfded'
     },
     'Custom Properties' => {
       title: 'Custom Properties',
       description: 'Learn how to use Variables in your CSS to avoid repeating common values like colors, and keep your styles consistent',
       is_project: false,
       url: '/html_css/intermediate_css/custom-properties.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'b11ce418-a20f-4f2b-9993-f428d489b425'
     },
     'Browser Compatibility' => {
       title: 'Browser Compatibility',
       description: 'Brand new CSS features take a little time to make it into browsers. Learn how to know which features you can safely use in your projects.',
       is_project: false,
       url: '/html_css/intermediate_css/browser-compatibility.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'cc398a00-9065-4979-a8cc-41d9863f0db1'
     },
     'Frameworks and Preprocessors' => {
       title: 'Frameworks and Preprocessors',
       description: 'Frameworks and Preprocessors are useful tools that you may want to investigate.',
       is_project: false,
       url: '/html_css/intermediate_css/frameworks-preprocessors.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '6bcc2cd9-8816-4481-bafb-7208fb1108a4'
     },
     'Project: Sign-up Form' => {
       title: 'Project: Sign-up Form',
       description: 'Learn about how browsers style your HTML.',
       is_project: true,
       url: '/html_css/project-sign-up-form/project-sign-up-form.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '91ab41f2-9c9d-449a-8461-329a5f7ecb1e'
     },
     # Animation
     'Transforms' => {
@@ -401,21 +401,21 @@ def html_and_css_lessons
       description: 'Before we get into animations, we need to learn about manipulating elements with CSS transforms.',
       is_project: false,
       url: '/html_css/animation/transforms.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'bdd2e3ef-da70-4aa3-88ab-e941f0714a9b'
     },
     'Transitions' => {
       title: 'Transitions',
       description: 'Our first kind of animation code is the transition',
       is_project: false,
       url: '/html_css/animation/transitions.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'aec495c8-24b9-4678-9216-9a92f1b118ed'
     },
     'Keyframes' => {
       title: 'Keyframes',
       description: 'More flexible than transitions are Keyframes',
       is_project: false,
       url: '/html_css/animation/keyframes.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'b57040da-48a4-4af6-9e0e-abc67deb3b07'
     },
     #Grid
     'Introduction to Grid' => {
@@ -423,42 +423,42 @@ def html_and_css_lessons
       description: "Introduction to CSS Grid",
       is_project: false,
       url: '/html_css/grid-lessons/intro-to-grid.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '589f2842-3f7e-4b1d-8d1f-505136245368'
     },
     'Creating a Grid' => {
       title: 'Creating a Grid',
       description: "Let's get started by creating a Grid.",
       is_project: false,
       url: '/html_css/grid-lessons/creating-a-grid.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '5c95b05e-5e77-47ae-871a-400a0ce9684b'
     },
     'Positioning Grid Elements' => {
       title: 'Positioning Grid Elements',
       description: "Learn how to manipulate elements within a grid.",
       is_project: false,
       url: 'TODO: insert URL',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '48813f31-ecc6-44c5-8f72-e7e24ae5e702'
     },
     'Advanced Grid Properties' => {
       title: 'Advanced Grid Properties',
       description: "Learn some of the more useful, but advanced grid properties.",
       is_project: false,
       url: '/html_css/grid-lessons/advanced-grid-properties.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '4247602b-1246-43e8-9769-22a64812f75a'
     },
     'Project: Grid' => {
       title: 'Project: Grid',
       description: "Use what you've learned to Complete this project",
       is_project: true,
       url: 'TODO: insert URL',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'da85e71c-c6d9-49c7-8ab2-3e776f17d863'
     },
     'Grid vs. Flex' => {
       title: 'Project: Grid',
       description: "Finish our study of Grid by comparing it to Flexbox",
       is_project: false,
       url: 'TODO: insert URL',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'eee5a7e7-bbcc-432b-bdfb-799276fc47c2'
     },
     # Responsive Design
     'Introduction to Responsive Design' => {
@@ -466,28 +466,28 @@ def html_and_css_lessons
       description: "Learn what responsive design is, and why it's important",
       is_project: false,
       url: '/html_css/responsive-css/responsive-css-introduction.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '5af1f6bf-8719-4897-8efe-ff47e8bf5342'
     },
     'Natural Responsiveness' => {
       title: 'Natural Responsiveness',
       description: "Learn the importance of making your sites naturally responsive.",
       is_project: false,
       url: '/html_css/responsive-css/natural-responsiveness.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'b86ae699-a4b3-4894-b438-6274b52fea27'
     },
     'Responsive Images' => {
       title: 'Responsive Images',
       description: "Some tricks relating specifically to making Images responsive.",
       is_project: false,
       url: '/html_css/responsive-css/responsive-images.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: 'b34f989f-5f53-45dc-a457-4c2ca9a0e20a'
     },
     'Media Queries' => {
       title: 'Media Queries',
       description: "Finally, let's learn about media queries so you can change the layout of your site based on the size of the browser window.",
       is_project: false,
       url: '/html_css/responsive-css/media-queries.md',
-      identifier_uuid: 'UUID_HERE'
+      identifier_uuid: '61698363-3d2e-4f25-99d5-29ccdefdc856'
     },
   }
 end
