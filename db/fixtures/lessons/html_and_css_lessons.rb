@@ -222,64 +222,99 @@ def html_and_css_lessons
       title: 'Introduction to Web Accessibility',
       description: 'Learn what accessibility means to you as a web developer',
       is_project: false,
-      url: '/html_css/web_accessibility.md',
+      url: '/html_css/accessibility/web_accessibility.md',
       identifier_uuid: '77a24bd6-4023-4901-8b4e-b9d7d12fa349',
     },
     'The Web Content Accessibility Guidelines' => {
       title: 'The Web Content Accessibility Guidelines (WCAG)',
       description: 'Learn where to find and how to use the official guidelines for web content accessibility',
       is_project: false,
-      url: '/html_css/wcag.md',
+      url: '/html_css/accessibility/wcag.md',
       identifier_uuid: 'b2e7a279-01cf-4926-b375-fedb5b7e9eed',
     },
     'Semantic HTML' => {
       title: 'Semantic HTML',
       description: 'Learn the importance of using the right elements in the right places.',
       is_project: false,
-      url: '/html_css/semantic_html.md',
+      url: '/html_css/accessibility/semantic_html.md',
       identifier_uuid: '44c955e2-43ae-4f07-a0a4-7efabee6515c',
     },
     'Accessible Colors' => {
       title: 'Accessible Colors',
       description: 'Learn how to measure color contrast to maintain readability on your websites.',
       is_project: false,
-      url: '/html_css/accessible_colors.md',
+      url: '/html_css/accessibility/accessible_colors.md',
       identifier_uuid: 'cf510d74-cf6e-4394-a44a-958d921235a9',
     },
     'Keyboard Navigation' => {
       title: 'Keyboard Navigation',
       description: 'Learn how to ensure all users are able to access your site using only a keyboard.',
       is_project: false,
-      url: '/html_css/keyboard_navigation.md',
+      url: '/html_css/accessibility/keyboard_navigation.md',
       identifier_uuid: 'cb8acac5-3334-4f88-8e8f-3542cfba84ab',
     },
     'Meaningful Text' => {
       title: 'Meaningful Text',
       description: 'Learn the importance of being clear when labeling items on your website.',
       is_project: false,
-      url: '/html_css/meaningful_text.md',
+      url: '/html_css/accessibility/meaningful_text.md',
       identifier_uuid: '4d038307-3c21-47da-af3d-42e4be68ea8a',
     },
     'WAI-ARIA' => {
       title: 'WAI-ARIA',
       description: "Learn about ARIA, how to implement it, and when it's necessary.",
       is_project: false,
-      url: '/html_css/aria.md',
+      url: '/html_css/accessibility/aria.md',
       identifier_uuid: '40aeff0e-bf1d-46b7-830a-d5001e6c0b2e',
     },
     'Accessibility Auditing' => {
       title: 'Accessibility Auditing',
       description: 'Learn how to audit your own sites to check for and correct accessibility issues.',
       is_project: false,
-      url: '/html_css/accessibility_auditing.md',
+      url: '/html_css/accessibility/accessibility_auditing.md',
       identifier_uuid: 'ccb3b2ef-d54c-4836-9c94-6081458bf37c',
     },
     # Intermediate HTML
+    'Introduction' => {
+      title: 'Introduction',
+      description: 'Lets go deeper into the world of HTML and CSS!',
+      is_project: false,
+      url: '/html_css/intermediate_html/introduction.md',
+      identifier_uuid: 'UUID_HERE'
+    },
     'Emmet' => {
       title: 'Emmet',
       description: 'Emmet is a useful tool for helping create and manipulate HTMl and CSS',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_html/emmet.md',
+      url: '/html_css/intermediate_html/emmet.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Form Basics' => {
+      title: 'Form Basics',
+      description: 'Learn the basics of creating forms in HTML.',
+      is_project: false,
+      url: '/html_css/intermediate_html/form-basics.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Form Validation' => {
+      title: 'Form Validation',
+      description: 'Learn the basics of validating forms in HTML.',
+      is_project: false,
+      url: '/html_css/intermediate_html/form-validations.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'SVG' => {
+      title: 'SVG',
+      description: 'SVG is neat!',
+      is_project: false,
+      url: '/html_css/intermediate_html/svgs.md',
+      identifier_uuid: 'UUID_HERE'
+    },
+    'Tables' => {
+      title: 'Tables',
+      description: 'Tables are great when used appropriately!',
+      is_project: false,
+      url: '/html_css/intermediate_html/html-tables.md',
       identifier_uuid: 'UUID_HERE'
     },
     # Intermediate CSS
@@ -287,77 +322,77 @@ def html_and_css_lessons
       title: 'Default Styles',
       description: 'Learn about how browsers style your HTML.',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/default-styles.md',
+      url: '/html_css/intermediate_css/default-styles.md',
       identifier_uuid: 'UUID_HERE'
     },
     'CSS Units' => {
       title: 'CSS Units',
       description: 'Check out the various units you can use in your stylesheets',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/css-units.md',
+      url: '/html_css/intermediate_css/css-units.md',
       identifier_uuid: 'UUID_HERE'
     },
     'More Text Styles' => {
       title: 'More Text Styles',
       description: 'Here we cover some more properties you can use to style text on your websites.',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/more-text-styles.md',
+      url: '/html_css/intermediate_css/more-text-styles.md',
       identifier_uuid: 'UUID_HERE'
     },
     'More CSS Properties' => {
       title: 'More CSS Properties',
       description: 'CSS can do quite a lot! Here we cover some more properties you can use to make your sites pop!',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/enhancing-design-with-css.md',
+      url: '/html_css/intermediate_css/enhancing-design-with-css.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Advanced Selectors' => {
       title: 'Advanced Selectors',
       description: 'You can do a lot more than just target specific classes and ids in your CSS...',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/selectors.md',
+      url: '/html_css/intermediate_css/selectors.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Positioning' => {
       title: 'Positioning',
       description: 'Learn some new methods for moving items around on a webpage.',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/positioning.md',
+      url: '/html_css/intermediate_css/positioning.md',
       identifier_uuid: 'UUID_HERE'
     },
     'CSS Functions' => {
       title: 'CSS Functions',
       description: 'Learn the function syntax, and some useful ways you can do calculations in CSS.',
       is_project: false,
-      url: 'TODO: add file',
+      url: '/html_css/intermediate_css/css_math_functions.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Custom Properties' => {
       title: 'Custom Properties',
       description: 'Learn how to use Variables in your CSS to avoid repeating common values like colors, and keep your styles consistent',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/custom-properties.md',
+      url: '/html_css/intermediate_css/custom-properties.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Browser Compatibility' => {
       title: 'Browser Compatibility',
       description: 'Brand new CSS features take a little time to make it into browsers. Learn how to know which features you can safely use in your projects.',
       is_project: false,
-      url: 'TODO: add file',
+      url: '/html_css/intermediate_css/browser-compatibility.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Frameworks and Preprocessors' => {
       title: 'Frameworks and Preprocessors',
       description: 'Frameworks and Preprocessors are useful tools that you may want to investigate.',
       is_project: false,
-      url: '/html_css/v2/main-course/intermediate_css/frameworks-preprocessors.md',
+      url: '/html_css/intermediate_css/frameworks-preprocessors.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Project: Sign-up Form' => {
       title: 'Project: Sign-up Form',
       description: 'Learn about how browsers style your HTML.',
       is_project: true,
-      url: '/html_css/v2/main-course/project-sign-up-form/project-sign-up-form.md',
+      url: '/html_css/project-sign-up-form/project-sign-up-form.md',
       identifier_uuid: 'UUID_HERE'
     },
     # Animation
@@ -365,21 +400,21 @@ def html_and_css_lessons
       title: 'Transforms',
       description: 'Before we get into animations, we need to learn about manipulating elements with CSS transforms.',
       is_project: false,
-      url: '/html_css/v2/main-course/animation/transforms.md',
+      url: '/html_css/animation/transforms.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Transitions' => {
       title: 'Transitions',
       description: 'Our first kind of animation code is the transition',
       is_project: false,
-      url: '/html_css/v2/main-course/animation/transitions.md',
+      url: '/html_css/animation/transitions.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Keyframes' => {
       title: 'Keyframes',
       description: 'More flexible than transitions are Keyframes',
       is_project: false,
-      url: '/html_css/v2/main-course/animation/keyframes.md',
+      url: '/html_css/animation/keyframes.md',
       identifier_uuid: 'UUID_HERE'
     },
     #Grid
@@ -387,14 +422,14 @@ def html_and_css_lessons
       title: 'Introduction to Grid',
       description: "Introduction to CSS Grid",
       is_project: false,
-      url: '/html_css/v2/main-course/grid-lessons/intro-to-grid.md',
+      url: '/html_css/grid-lessons/intro-to-grid.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Creating a Grid' => {
       title: 'Creating a Grid',
       description: "Let's get started by creating a Grid.",
       is_project: false,
-      url: '/html_css/v2/main-course/grid-lessons/creating-a-grid.md',
+      url: '/html_css/grid-lessons/creating-a-grid.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Positioning Grid Elements' => {
@@ -408,7 +443,7 @@ def html_and_css_lessons
       title: 'Advanced Grid Properties',
       description: "Learn some of the more useful, but advanced grid properties.",
       is_project: false,
-      url: '/html_css/v2/main-course/grid-lessons/advanced-grid-properties.md',
+      url: '/html_css/grid-lessons/advanced-grid-properties.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Project: Grid' => {
@@ -430,28 +465,28 @@ def html_and_css_lessons
       title: 'Introduction to Responsive Design',
       description: "Learn what responsive design is, and why it's important",
       is_project: false,
-      url: '/html_css/v2/main-course/responsive-css/responsive-css-introduction.md',
+      url: '/html_css/responsive-css/responsive-css-introduction.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Natural Responsiveness' => {
       title: 'Natural Responsiveness',
       description: "Learn the importance of making your sites naturally responsive.",
       is_project: false,
-      url: '/html_css/v2/main-course/responsive-css/natural-responsiveness.md',
+      url: '/html_css/responsive-css/natural-responsiveness.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Responsive Images' => {
       title: 'Responsive Images',
       description: "Some tricks relating specifically to making Images responsive.",
       is_project: false,
-      url: '/html_css/v2/main-course/responsive-css/responsive-images.md',
+      url: '/html_css/responsive-css/responsive-images.md',
       identifier_uuid: 'UUID_HERE'
     },
     'Media Queries' => {
       title: 'Media Queries',
       description: "Finally, let's learn about media queries so you can change the layout of your site based on the size of the browser window.",
       is_project: false,
-      url: '/html_css/v2/main-course/responsive-css/media-queries.md',
+      url: '/html_css/responsive-css/media-queries.md',
       identifier_uuid: 'UUID_HERE'
     },
   }

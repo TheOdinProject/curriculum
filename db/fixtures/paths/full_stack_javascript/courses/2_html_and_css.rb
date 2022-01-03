@@ -16,7 +16,12 @@ course.add_section do |section|
   section.identifier_uuid = 'UUID_HERE'
 
   section.add_lessons(
+    html_and_css_lessons.fetch('Introduction'),
     html_and_css_lessons.fetch('Emmet'),
+    html_and_css_lessons.fetch('Form Basics'),
+    html_and_css_lessons.fetch('Form Validation'),
+    html_and_css_lessons.fetch('SVG'),
+    html_and_css_lessons.fetch('Tables'),
   )
 end
 
