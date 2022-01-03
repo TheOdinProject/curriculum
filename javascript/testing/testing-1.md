@@ -22,6 +22,8 @@ By the end of this lesson, you should be able to do the following:
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.  This video might be worth re-visiting after you've done some testing of your own.
 </div>
 
+### Additional Resources
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
