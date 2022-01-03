@@ -11,7 +11,7 @@ RSpec.describe 'Admin Flashes', type: :system do
     before do
       visit new_admin_admin_flash_path
       fill_in :admin_flash_message, with: 'Test Message'
-      fill_in :admin_flash_expires, with: '2022/01/01'
+      fill_in :admin_flash_expires, with: 10.days.from_now.to_date.to_s(:db)
       find_button('Create Admin flash').trigger('click')
     end
 
@@ -22,7 +22,7 @@ RSpec.describe 'Admin Flashes', type: :system do
 
     it 'displays the flash date on the index page' do
       visit admin_admin_flashes_path
-      expect(page).to have_content('January 01, 2022')
+      expect(page).to have_content(10.days.from_now.to_date.to_s(:long))
     end
 
     it 'displays the flash on the User Dashboard' do
