@@ -434,14 +434,14 @@ def html_and_css_lessons
     },
     'Positioning Grid Elements' => {
       title: 'Positioning Grid Elements',
-      description: "Learn how to manipulate elements within a grid.",
+      description: 'Learn how to manipulate elements within a grid.',
       is_project: false,
       url: 'TODO: insert URL',
       identifier_uuid: '48813f31-ecc6-44c5-8f72-e7e24ae5e702'
     },
     'Advanced Grid Properties' => {
       title: 'Advanced Grid Properties',
-      description: "Learn some of the more useful, but advanced grid properties.",
+      description: 'Learn some of the more useful, but advanced grid properties.',
       is_project: false,
       url: '/html_css/grid-lessons/advanced-grid-properties.md',
       identifier_uuid: '4247602b-1246-43e8-9769-22a64812f75a'
@@ -455,7 +455,7 @@ def html_and_css_lessons
     },
     'Grid vs. Flex' => {
       title: 'Project: Grid',
-      description: "Finish our study of Grid by comparing it to Flexbox",
+      description: 'Finish our study of Grid by comparing it to Flexbox',
       is_project: false,
       url: 'TODO: insert URL',
       identifier_uuid: 'eee5a7e7-bbcc-432b-bdfb-799276fc47c2'
@@ -470,14 +470,14 @@ def html_and_css_lessons
     },
     'Natural Responsiveness' => {
       title: 'Natural Responsiveness',
-      description: "Learn the importance of making your sites naturally responsive.",
+      description: 'Learn the importance of making your sites naturally responsive.',
       is_project: false,
       url: '/html_css/responsive-css/natural-responsiveness.md',
       identifier_uuid: 'b86ae699-a4b3-4894-b438-6274b52fea27'
     },
     'Responsive Images' => {
       title: 'Responsive Images',
-      description: "Some tricks relating specifically to making Images responsive.",
+      description: 'Some tricks relating specifically to making Images responsive.',
       is_project: false,
       url: '/html_css/responsive-css/responsive-images.md',
       identifier_uuid: 'b34f989f-5f53-45dc-a457-4c2ca9a0e20a'

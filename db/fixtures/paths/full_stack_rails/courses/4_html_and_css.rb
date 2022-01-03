@@ -68,7 +68,7 @@ end
 # +++++++++++++
 course.add_section do |section|
   section.title = 'Grid'
-  section.description = "Learn how to use the new CSS Grid syntax to build your layouts"
+  section.description = 'Learn how to use the new CSS Grid syntax to build your layouts'
   section.identifier_uuid = 'd4614f98-b9d5-494f-b551-8842d4aa73f9'
 
   section.add_lessons(
