@@ -4,7 +4,7 @@
 course = @path.add_course do |course|
   course.title = 'HTML and CSS'
   course.description = "It's time to dig in and become the CSS expert you deserve to be. After this course you'll be equipped to create web projects that look beautiful on any device!"
-  course.identifier_uuid = '70434eab-0ff2-4db5-9a4c-b78cebd010fe'
+  course.identifier_uuid = '6dee731e-4ef7-4986-9411-63ed9b2de9d9'
 end
 
 # +++++++++++++++++++++++++++++++++++
