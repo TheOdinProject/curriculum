@@ -52,9 +52,6 @@ For Firefox users:
 - [Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
