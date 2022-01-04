@@ -110,17 +110,16 @@ Go ahead and try that URL (with YOUR API key) in a browser. If everything goes w
 
 ### CORS
 
-A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
+A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
 
-Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is simple. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
+Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS), with fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
 
 ~~~javascript
 fetch('url.url.com/api', {
   mode: 'cors'
 });
 ~~~
-
-Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
+`mode: 'cors'` is the default value if that option is not provided by you. You will learn more about what options are available later in this section when you read the documentation link in your assignment.
 
 ### Let's Do This
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
