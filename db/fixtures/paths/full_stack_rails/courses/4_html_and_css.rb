@@ -13,7 +13,7 @@ end
 course.add_section do |section|
   section.title = 'Intermediate HTML Concepts'
   section.description = "In this section, we'll finish covering the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a page."
-  section.identifier_uuid = '5388096b-4926-47a7-8891-a1dfa53cf200'
+  section.identifier_uuid = '8c29791f-af76-4344-a5d3-96cc93b34178'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction'),
@@ -31,7 +31,7 @@ end
 course.add_section do |section|
   section.title = 'Intermediate CSS Concepts'
   section.description = "Our Foundations course taught you the basics of CSS, but here we'll really dive into what you need to know to make your web projects look however you want."
-  section.identifier_uuid = '92d15409-837a-44cb-9183-6a5fa5b7c5c2'
+  section.identifier_uuid = '1b1511bc-6373-4626-8d57-484ff7f78ee5'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Default Styles'),
@@ -54,7 +54,7 @@ end
 course.add_section do |section|
   section.title = 'Animation'
   section.description = "Let's learn how to make things MOVE."
-  section.identifier_uuid = '7fb7fd1a-3817-49e0-95d0-b46ecf1d5d7f'
+  section.identifier_uuid = '818a7e0e-2275-4d35-85cf-051d77c8d20e'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Transforms'),
@@ -69,7 +69,7 @@ end
 course.add_section do |section|
   section.title = 'Grid'
   section.description = 'Learn how to use the new CSS Grid syntax to build your layouts'
-  section.identifier_uuid = 'd4614f98-b9d5-494f-b551-8842d4aa73f9'
+  section.identifier_uuid = '36b2a55c-6fe4-447d-84a3-69a1644a63e6'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction to Grid'),
@@ -87,7 +87,7 @@ end
 course.add_section do |section|
   section.title = 'Accessibility'
   section.description = "The websites you create will be viewed by a wide range of users, including those who rely on various accessibility features due to any number of disabilities or limitations. As important as it is to make your site look good, it's just as important to make it usable by as many different users as possible."
-  section.identifier_uuid = 'c4200ae6-e97d-4e7a-9cd6-18dfd443953e'
+  section.identifier_uuid = '029e39a5-7361-4327-be72-c967e01d7273'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction to Web Accessibility'),
@@ -107,7 +107,7 @@ end
 course.add_section do |section|
   section.title = 'Responsive Design'
   section.description = 'These days you need to make sure your pages display easily on multiple viewport sizes by using fluid layouts and media queries.'
-  section.identifier_uuid = '556d8b4d-6f91-469f-b8eb-288e8a7d7642'
+  section.identifier_uuid = '5a3794b8-e05f-46b8-9b98-54e3c7decd40'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction to Responsive Design'),
