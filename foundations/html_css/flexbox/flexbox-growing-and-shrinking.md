@@ -53,6 +53,7 @@ An important implication to notice here is that when you specify `flex-grow` or 
 
 > #### Important note about flex-basis:
 > There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`
+> Another important note about this, is that when there is no dimensions specified, both fall back on the size of the content. Execpt flex: 1 allows for flex to shrink the content to it's smallest possible width. This can obviously lead to some unexpected results. Here's an example. <a href="https://stackoverflow.com/questions/47578958/the-difference-between-flex-basis-auto-and-0-zero/47579078">Example.</a>
 
 ### In practice...
 
