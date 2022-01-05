@@ -109,10 +109,8 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 3. You can use the terminal to open the file in your browser.
-   
-   a. Ubuntu - Navigate to the directory containing the file and use firefox index.html or google-chrome index.html
-   
-   b. macOS - Navigate to the directory containing the file and use open ./index.html
+   * `Ubuntu` - Navigate to the directory containing the file and use `firefox index.html` or `google-chrome index.html`
+   * `macOS` - Navigate to the directory containing the file and use `open ./index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
@@ -135,7 +133,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
 
 ### VSCode Shortcut
-VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the'.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory of how to write the boilerplate code.
 

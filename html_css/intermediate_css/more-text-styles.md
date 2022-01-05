@@ -12,6 +12,7 @@ In our foundations lesson, we covered changing the `font-family` of an element, 
  If you use the `font-family` property to change to a font like `impact` or `Times New Roman`, and those fonts do not happen to be installed on your user's computer, then a fallback font will be displayed.  If you have not defined a fallback, then the default HTML font will be used, which is often somewhat ugly. For this reason, it's common to see somewhat long stacks of fonts listed on projects. 
 
 One popular stack is this 'system font' stack. [Source: CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/)
+
 ~~~css
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -111,6 +112,7 @@ The examples on the [MDN reference page for text-shadow](https://developer.mozil
 This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside it's container isn't technically considered an `overflow` (that's confusing, I know.  Sorry.)
 
 The full snippet is:
+
 ~~~css
 .overflowing {
   white-space: nowrap;
