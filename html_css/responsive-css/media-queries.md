@@ -7,6 +7,7 @@ With media queries it is possible to completely restyle your web projects based 
 ### Media Query Syntax
 
 The basic syntax for media queries is actually very simple.
+
 ~~~css
 body {
   margin: 24px;

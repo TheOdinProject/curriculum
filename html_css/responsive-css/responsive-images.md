@@ -36,7 +36,7 @@ Here's a demo of `object-fit` on an image. Open this one up on CodePen and resiz
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Even _More_ Control!
+### Even More Control!
 It is also possible to literally use _different_ images for different screen sizes. This gives you the most control over exactly how your images are displayed at various resolutions. For example, instead of just trusting `object-fit` to keep the subject of a photograph in frame, you could present a cropped version of it on smaller screens. There are two ways of achieving this, but the most flexible is using the `<picture>` tag, which you'll see in the reading assignment.
 
 ### Assignment
