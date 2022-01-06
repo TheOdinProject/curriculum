@@ -1,9 +1,7 @@
 .odin-stat {
   padding: 20px !important;
 
-  @include media-breakpoint-down(md) {
-    text-align: center;
-  }
+  text-align: center;
 
   &__content {
     font-size: 2.25rem;
