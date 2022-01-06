@@ -136,7 +136,7 @@ An SSH key is a cryptographically secure identifier. It's like a really long pas
 First, we need to see if you have an SSH key already installed. Type this into the terminal and check the output with the information below:
 
 ~~~bash
-ls ~/.ssh/id_rsa.pub
+ls -la ~/.ssh
 ~~~
 
 If a message appears in the console containing the text "No such file or directory", then you do not yet have an SSH key, and you will need to create one. If no such message has appeared in the console output, you already have a key and can proceed to step 2.4.
@@ -149,8 +149,8 @@ To create a new SSH key, run the following command inside your terminal. The `-C
 ssh-keygen -C <youremail>
 ~~~
 
-* When it prompts you for a location to save the generated key, just push `Enter`.
-* Next, it will ask you for a password; enter one if you wish, but it's not required.
+When the terminal output prompts you for a location to save the generated key, just push `Enter`.
+Next, it will ask you for a password; enter one if you wish, but it's not required.
 
 #### Step 2.4: Link Your SSH Key with GitHub
 
