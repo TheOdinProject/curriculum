@@ -216,7 +216,7 @@ Often React testing is done with `react-testing-library`. Taking your learnings 
 
 ### React Developer Tools
 
-React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This video](https://www.youtube.com/watch?v=rb1GWqCJid4) will show you how to install React Developer Tools and some basic debugging you can do with it.
+React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) and [this video](https://www.youtube.com/watch?v=rb1GWqCJid4) will show you how to install React Developer Tools and some basic debugging you can do with it.
 
 ### Assignment
 
@@ -224,7 +224,6 @@ React Developer Tools is an extension to the browser developer tools which allow
 1. Read the first couple of pages of the react.js documentation. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. Once again, don't worry too much about those yet.
 2. Watch [this video](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) to get another quick explanation of React, and then watch these: ([one](https://www.youtube.com/watch?v=G40iHC-h0c0&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=4), [two](https://www.youtube.com/watch?v=9wK4gHoOh1g&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=5)) videos from the same series, which focus on components. Feel free to code along with the whole course if you enjoy it.
 3. Read [this](https://testing-library.com/docs/react-testing-library/intro) documentation on React testing.
-4. Do [these exercises](https://react-devtools-tutorial.vercel.app/element-selector-tool) to get familiar with what you can do with React Dev Tools.
 </div>
 
 ### Additional Resources
@@ -244,4 +243,4 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
 - <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a> 
 - <a class="knowledge-check-link" href="#testing">What is commonly used for testing React apps?</a> 
-- <a class="knowledge-check-link" href="#react-developer-tools">What can you do with React Developer Tools?</a>
+- <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using React Developer Tools</a>
