@@ -69,7 +69,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
    1. Answer should be approximately `0.24675`
 4. Let's use variables!
    1. Type the following at the top of the script tag: `let a = 10`
-   2. `console.log(a)` should print `10`
+   2. In the console `console.log(a)` should print `10`
    3. Try the following: `9 * a`
    4. and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:
