@@ -333,5 +333,12 @@ def foundation_lessons
       url: '/foundations/javascript_basics/revisiting_rock_paper_scissors.md',
       identifier_uuid: '7ff13edf-27d6-4edf-b0d0-863a632604d6',
     },
+    'Installing Node.js' => {
+      title: 'Installing Node.js',
+      description: 'Install Node.js to run JavaScript outside of your browser',
+      is_project: false,
+      url: '/foundations/javascript_basics/installing_nodejs.md',
+      identifier_uuid: 'cb20c3d0-7342-4769-b10c-61d1de11af02'
+    }
   }
 end
