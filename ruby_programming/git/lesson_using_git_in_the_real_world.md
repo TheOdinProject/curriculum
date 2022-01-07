@@ -2,7 +2,6 @@
 
 By the end of this lesson, you should be able to do the following:
 
-- Explain the best practices for Git commits
 - Use a Git workflow to make an open source contribution
 - Explain common Git terms and uses
 - Understand the inner workings of Git
@@ -11,21 +10,13 @@ By the end of this lesson, you should be able to do the following:
 
 Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
-You'll have your share of misadventures, but everyone does. <span id="commit-often">The best remedy is to commit early and often.<span>  <span id="small-commit">The smaller and more modular your commits are, the less that can go wrong if you mess one up.</span>  
-
-There's some debate out there about how to properly use Git in your workflow, but I try to think of it this way: <span id="commit-message">Your commit message should fully describe (in present tense) what the commit includes, e.g. "add About section to navbar on static pages".</span>  If you need to use a comma or the word "and", you've probably got too much stuff in your commit and should think about keeping your changes more modular and independent.
-
-It can also be tempting to immediately fix bugs in your code or tweak some CSS as soon as you see it.  Everyone's guilty of that (ahem).  But it's really best to keep that pen and paper next to you, write down the thing you want to fix, and continue doing what you were doing.  Then, when you've committed your current feature or merged its feature branch or somehow extricated yourself from the current problem, go back and tackle the things you wanted to touch originally.  
-
-Again, it's all designed to keep your workflow modular and the commits independent so you can easily jump around your Git timeline without messing up too many other things along the way.  The first time you need to go back and modify a single monolithic commit, you'll feel that pain and mend your ways.
-
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.  
 
 To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
 
 ### A Git Workflow For Open Source Contribution
 
-Let's say you want to contribute to the web application that powers this website (check it out [here](https://github.com/TheOdinProject/theodinproject)).
+Let's say you want to contribute to the web application that powers this website (it's a different repo than our curriculum content, you can check it out [here](https://github.com/TheOdinProject/theodinproject)).
 
 How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an open [issue](https://github.com/TheOdinProject/theodinproject/issues) and that it has been assigned to you. 
 
@@ -33,15 +24,9 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 
 #### Initial Setup
 
-1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub. **NTS add screenshot**
 2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub)
 3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
-4. If this is your first time using git, don't forget to set your username and email using:
-
-~~~bash
-  $ git config --global user.name "YOUR NAME"
-  $ git config --global user.email "YOUR_EMAIL@EXAMPLE.COM"
-~~~
 
 #### Ongoing Workflow
 
@@ -93,9 +78,5 @@ Sometimes (okay, maybe a lot of times) when you're working with Git, something g
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#commit-often'>How often should you commit?</a>
-- <a class='knowledge-check-link' href='#small-commit'>How large should your commits be?</a>
-- <a class='knowledge-check-link' href='#commit-message'>What should your commit message describe?</a>
-- <a class='knowledge-check-link' href='https://www.git-tower.com/blog/version-control-best-practices/'>Should you commit unfinished features?</a>
 - <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
 - <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history in a repository that's shared with others?</a>
