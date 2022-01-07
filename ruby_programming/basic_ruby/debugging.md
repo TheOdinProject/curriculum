@@ -129,7 +129,11 @@ end
 isogram?("Odin")
 ~~~
 
-When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. Thus, adding a `binding.pry` line in our code is similar to creating a breakpoint in JavaScript.
+When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. 
+
+For example, here `original_length` and `string_array` are in scope. However, `unique_length` is not in scope, because it is written after `binding.pry` and has not been evaluated yet.
+
+Thus, adding a `binding.pry` line in our code is similar to creating a breakpoint in JavaScript.
 
 To see this point in action, try running the following:
 
