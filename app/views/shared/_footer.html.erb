@@ -1,6 +1,8 @@
 <footer id="footer">
   <div class="footer-brand">
-    <%= render "shared/logo" %>
+     <%= link_to root_path, class: 'logo' do %>
+        <%= image_tag 'logo.svg' , alt: "Odin Logo" , class: 'hidden md:block h-15 w-auto' %>
+      <% end %>
   </div>
   <div class="footer-social">
     <%= link_to "https://github.com/TheOdinProject" do %><span aria-label="github" class="accent fab fa-github"/><% end %>

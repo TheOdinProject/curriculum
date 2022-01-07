@@ -5,7 +5,7 @@
     <h1 class="text-center page-heading-title">My Dashboard</h1>
 
     <div class="card-main profile-card">
-      <%= image_tag avatar_path(current_user.avatar), alt: "#{current_user.username}'s avatar", class: 'rounded-full w-24' %>
+      <%= render User::AvatarComponent.new(current_user: current_user, size_classes: ' w-24') %>
       <h2 class="profile-card__username text-2xl pl-4" data-test-id="profile_username"><%= current_user.username %></h2>
       <p class="profile-card__learning-goal" data-test-id='learning_goal'><%= display_dashboard_learning_goal(current_user).html_safe %></p>
     </div>

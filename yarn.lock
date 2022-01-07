@@ -4094,6 +4094,11 @@ ee-first@1.1.1:
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
+el-transition@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/el-transition/-/el-transition-0.0.7.tgz#714fd47aa46fc2ff3df7d59e789271aa09f247d0"
+  integrity sha512-a23pEa7ahqLmBIEqtxi8CdL6CRLF52ZoAwawDFTD1IDkegrL4iValQAj6IMEgIEXPSrXZtx/Nr/ej6ebov4uoA==
+
 electron-to-chromium@^1.4.17:
   version "1.4.24"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.24.tgz#9cf8a92d5729c480ee47ff0aa5555f57467ae2fa"
@@ -5256,6 +5261,11 @@ homedir-polyfill@^1.0.1:
   integrity sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==
   dependencies:
     parse-passwd "^1.0.0"
+
+hotkeys-js@>=3:
+  version "3.8.7"
+  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-3.8.7.tgz#c16cab978b53d7242f860ca3932e976b92399981"
+  integrity sha512-ckAx3EkUr5XjDwjEHDorHxRO2Kb7z6Z2Sxul4MbBkN8Nho7XDslQsgMJT+CiJ5Z4TgRxxvKHEpuLE3imzqy4Lg==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -9539,6 +9549,13 @@ stickyfilljs@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/stickyfilljs/-/stickyfilljs-2.1.0.tgz"
   integrity sha512-LkG0BXArL5HbW2O09IAXfnBQfpScgGqJuUDUrI3Ire5YKjRz/EhakIZEJogHwgXeQ4qnTicM9sK9uYfWN11qKg==
+
+stimulus-use@^0.50.0-2:
+  version "0.50.0-2"
+  resolved "https://registry.yarnpkg.com/stimulus-use/-/stimulus-use-0.50.0-2.tgz#7b019fa7618133f42b41bb5d4275fe2e92649819"
+  integrity sha512-vnYifIYeiRe2J0PlQ34mYHdOkLB7HVF55RdDErgOBkgHBAqC05vEIwt3xNuyayuhT5YboVmV0eJCfRN1sxumKg==
+  dependencies:
+    hotkeys-js ">=3"
 
 stream-browserify@^2.0.1:
   version "2.0.2"

@@ -6,7 +6,7 @@
 
     <div class="settings-card__content">
       <div class="settings-card__picture">
-        <%= image_tag avatar_path(user.avatar), alt: "Profile Picture", class: "rounded-full w-32 mx-auto" %>
+         <%= render User::AvatarComponent.new(current_user: current_user, size_classes: 'w-32') %>
       </div>
 
       <div class="settings-view">

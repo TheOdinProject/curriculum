@@ -7,10 +7,6 @@ module UsersHelper
     user.learning_goal.presence || 'No learning goal set yet.'
   end
 
-  def avatar_path(avatar)
-    avatar || image_path('odin-logo.svg')
-  end
-
   private
 
   def settings_link

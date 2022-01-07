@@ -36,21 +36,4 @@ RSpec.describe UsersHelper do
       end
     end
   end
-
-  describe '#avatar_path' do
-    let(:user) { build_stubbed(:user, avatar: learning_goal) }
-    let(:avatar) { 'http://www.github.com/image' }
-
-    it 'returns the users image path' do
-      expect(avatar_path(avatar)).to eq(avatar)
-    end
-
-    context 'when the user does not have a avatar' do
-      let(:avatar) { nil }
-
-      it 'returns the default Odin avatar' do
-        expect(avatar_path(avatar)).to eql('/images/odin-logo.svg')
-      end
-    end
-  end
 end

@@ -1,0 +1,7 @@
+<% if current_user.avatar.present? %>
+  <%= image_tag current_user.avatar, class: "#{size_classes} rounded-full", alt: 'user avatar' %>
+<% else %>
+  <span class="inline-block rounded-full overflow-hidden bg-gray-100 <%= size_classes %>">
+   <%= inline_svg_tag 'icons/user.svg', class: 'h-full w-full text-gray-300', aria: true, title: 'default user avatar' %>
+  </span>
+<% end %>

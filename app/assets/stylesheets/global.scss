@@ -115,8 +115,3 @@ textarea {
   background-color: $pale-grey-bg;
   padding: 0.7rem 1rem 0.7rem 1rem;
 }
-
-// targets the div that wraps all content above the footer so we can push the footer down to the bottom of the vh
-#global-content-wrapper {
-  flex: 1;
-}

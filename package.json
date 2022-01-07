@@ -21,6 +21,7 @@
     "bootstrap": "^4.6.0",
     "browserslist": "^4.19.1",
     "core-js": "^3.20.3",
+    "el-transition": "^0.0.7",
     "hint.css": "^2.7.0",
     "humps": "^2.0.1",
     "jquery": "^3.6.0",
@@ -41,6 +42,7 @@
     "react_ujs": "^2.6.1",
     "regenerator-runtime": "^0.13.9",
     "stickyfilljs": "^2.1.0",
+    "stimulus-use": "^0.50.0-2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "validate.js": "^0.13.1",
     "yup": "^0.32.11"

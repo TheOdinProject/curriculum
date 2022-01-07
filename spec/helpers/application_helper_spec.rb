@@ -44,30 +44,6 @@ RSpec.describe ApplicationHelper do
     end
   end
 
-  describe '#active_class' do
-    let(:path) { '/courses' }
-
-    context 'when the current page matches the path' do
-      before do
-        allow(helper).to receive(:current_page?).with(path).and_return(true)
-      end
-
-      it 'returns active' do
-        expect(helper.active_class(path)).to eql('active')
-      end
-    end
-
-    context 'when the current page does not match the path' do
-      before do
-        allow(helper).to receive(:current_page?).with(path).and_return(false)
-      end
-
-      it 'returns nil' do
-        expect(helper.active_class(path)).to be(nil)
-      end
-    end
-  end
-
   describe '#first_four_success_stories' do
     it 'returns the first four success stories' do
       expect(SuccessStory).to receive(:limit).with(4)

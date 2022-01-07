@@ -8,7 +8,7 @@ RSpec.describe 'User login', type: :system do
       it 'allows the user to sign in' do
         visit root_path
 
-        find(:test_id, 'user-login-link').click
+        find(:test_id, 'nav-login').click
 
         find(:test_id, 'email-field').fill_in with: user.email
         find(:test_id, 'password-field').fill_in with: user.password
@@ -23,7 +23,7 @@ RSpec.describe 'User login', type: :system do
       it 'notifies the user one or both of their credentials is invalid' do
         visit root_path
 
-        find(:test_id, 'user-login-link').click
+        find(:test_id, 'nav-login').click
 
         find(:test_id, 'submit-btn').click
 
@@ -35,7 +35,7 @@ RSpec.describe 'User login', type: :system do
       it 'notifies the user that the email is not valid' do
         visit root_path
 
-        find(:test_id, 'user-login-link').click
+        find(:test_id, 'nav-login').click
 
         find(:test_id, 'email-field').fill_in with: 'aaaaaaa'
         find(:test_id, 'password-field').fill_in with: user.password
@@ -48,7 +48,7 @@ RSpec.describe 'User login', type: :system do
       it 'notifies the user that the password is not valid' do
         visit root_path
 
-        find(:test_id, 'user-login-link').click
+        find(:test_id, 'nav-login').click
 
         find(:test_id, 'email-field').fill_in with: user.email
         find(:test_id, 'password-field').fill_in with: 'aaa'
@@ -70,7 +70,7 @@ RSpec.describe 'User login', type: :system do
     it 'logs in the user' do
       visit root_path
 
-      find(:test_id, 'user-login-link').click
+      find(:test_id, 'nav-login').click
 
       find(:test_id, 'github-btn').click
 
@@ -90,7 +90,7 @@ RSpec.describe 'User login', type: :system do
     it 'logs in the user' do
       visit root_path
 
-      find(:test_id, 'user-login-link').click
+      find(:test_id, 'nav-login').click
 
       find(:test_id, 'google-btn').click
 

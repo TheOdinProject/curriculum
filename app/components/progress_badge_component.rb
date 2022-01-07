@@ -13,11 +13,11 @@ class ProgressBadgeComponent < ViewComponent::Base
   attr_reader :course, :current_user, :modifier, :url
 
   def badge
-    course_badges.fetch(course.title, 'odin-logo.svg')
+    course_badges.fetch(course.title, 'icons/odin-icon.svg')
   end
 
   def borderless_badge
-    borderless_badges.fetch(course.title, 'odin-logo.svg')
+    borderless_badges.fetch(course.title, 'icons/odin-icon.svg')
   end
 
   def borderless_badges

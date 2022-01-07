@@ -1,90 +1,55 @@
-<%= render 'shared/navbar_modal' %>
+<%= render 'shared/off_canvas_menu' %>
 
-<div class="navbar navbar-expand-md navbar-light">
-  <div class="navbar-brand">
-    <%= render 'shared/logo' %>
-  </div>
-
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="modal" data-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="toggle-navigation">
-    <span class="navbar-toggler-icon open"></span>
-    <span class="sr-only">Open navigation</span>
-  </button>
-
-  <% if user_signed_in? %>
-    <nav class="collapse navbar-collapse">
-      <!-- Full Width Navbar -->
-      <ul class="navbar-nav ml-auto hidden-md-down">
-        <li class="nav-item <%= active_class(path_path(current_user.path)) %>">
-          <%= link_to 'My Path', path_url(current_user.path), class: 'nav-link' %>
-        </li>
-
-        <li class="nav-item <%= active_class(paths_url) %>">
-          <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
-        </li>
-
-        <li class="nav-item <%= active_class(chat_link) %>">
-          <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
-        </li>
-
-        <li class="nav-item px-2">
-          <%= render ThemeSwitcherComponent.new(theme: cookies[:theme]) %>
-        </li>
-
-        <li class="nav-link nav-divider">
-          <span class='divider'>
-          </span>
-        </li>
-
-        <li>
-          <%= link_to notifications_path, data: { test_id: 'navbar-notification-icon' } do %>
-            <div class="relative h-6 w-6 text-notification hover:text-notification-hover">
-              <% if unread_notifications?(current_user) %>
-                <span data-test-id="unread-notifications" class="absolute top-1 right-0.5 w-2 h-2 rounded-lg bg-new-notification"></span>
-              <% end %>
-              <%= inline_svg_tag 'icons/icon-notification.svg', aria: true, title: 'notifications link', desc: 'a link to the notifications page' %>
-            </div>
+<nav class="bg-white mb-8 sm:mb-16 md:mb-20 lg:mb-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3">
+    <div class="flex justify-between">
+      <div class="flex">
+        <div class="flex-shrink-0 flex items-center">
+          <%= link_to root_path, class: 'logo' do %>
+            <%= image_tag 'icons/odin-icon.svg' , alt: "Odin Logo" , class: 'block lg:hidden h-15 w-auto' %>
           <% end %>
-        </li>
 
-        <%= render 'shared/user_dropdown' %>
-      </ul>
-  <% else %>
-    <nav class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item <%= active_class(paths_url) %>">
-          <%= link_to 'All Paths', paths_url, class: 'nav-link' %>
-        </li>
+          <%= link_to root_path, class: 'logo' do %>
+            <%= image_tag 'logo.svg' , alt: "Odin Logo" , class: 'hidden lg:block h-15 w-auto' %>
+          <% end %>
+        </div>
 
-         <li class="nav-item <%= active_class(chat_link) %>">
-          <%= link_to "Community", chat_link, class: 'nav-link', target: '_blank', rel: 'noreferrer' %>
-        </li>
+      </div>
+      <div class="hidden sm:ml-6 sm:flex sm:items-center">
+        <% if user_signed_in? %>
+          <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+            <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
+            <%= render Nav::ItemComponent.new(path: chat_link, text: 'Community', test_id: 'nav-community') %>
+            <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
+          </div>
 
-        <li class="nav-item <%= active_class(about_path) %>">
-          <%= link_to 'About', about_path, class: 'nav-link' %>
-        </li>
+          <%= link_to notifications_path, class: " ml-3 bg-white p-1 rounded-full text-gray-400 relative hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500", data: { test_id: 'navbar-notification-icon' } do %>
+            <span class="sr-only">View notifications</span>
+            <% if unread_notifications?(current_user) %>
+                <span data-test-id="unread-notifications" class="absolute top-1 right-0.5 w-2 h-2 rounded-lg bg-gold-500"></span>
+              <% end %>
+            <%= inline_svg_tag "icons/bell.svg", class: "h-6 w-6", aria: true, title: "Notifications icon" %>
+          <% end %>
 
-        <li class="nav-item <%= active_class(faq_path) %>">
-          <%= link_to "FAQ", faq_path, class: 'nav-link' %>
-        </li>
+          <%= render User::ProfileDropdownComponent.new(current_user: current_user) %>
+        <% else %>
+          <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
+          <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
+          <%= render Nav::ItemComponent.new(path: chat_link, text: 'Community', test_id: 'nav-community') %>
+          <%= render Nav::ItemComponent.new(path: sign_up_path, text: 'Get Started', test_id: 'nav-signup') %>
+          <%= render Nav::ItemComponent.new(path: login_path, text: 'Log In', test_id: 'nav-login') %>
+        </div>
 
-        <li class="nav-item px-2">
-          <%= render ThemeSwitcherComponent.new(theme: cookies[:theme]) %>
-        </li>
+        <% end %>
+      </div>
 
-        <li class="nav-link nav-divider">
-          <span class='divider'>
-          </span>
-        </li>
-
-        <li class="nav-item <%= active_class(sign_up_path) %>">
-          <%= link_to 'Sign Up', sign_up_path, class: 'nav-link', data: {test_id: 'sign_up'} %>
-        </li>
-        <li class="nav-item <%= active_class(login_path) %>">
-          <%= link_to 'Log In', login_path, class: 'nav-link', data: { test_id: 'user-login-link' } %>
-        </li>
-      </ul>
-    </nav>
-  <% end %>
-    </ul>
-  </nav>
-</div>
+      <div class="-mr-2 flex items-center sm:hidden">
+        <button type="button" data-controller="custom-events" data-action="custom-events#emit" data-custom-events-event-name-value="openMobileMenu" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gold-500" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open mobile menu</span>
+          <%= inline_svg_tag "icons/ham-burger.svg", class: "block h-6 w-6", aria: true, title: "Open mobile menu button" %>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>

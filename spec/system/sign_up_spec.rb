@@ -5,7 +5,7 @@ RSpec.describe 'Sign Up', type: :system do
 
   before do
     visit root_path
-    find(:test_id, 'sign_up').click
+    find(:test_id, 'nav-signup').click
   end
 
   context 'when using email and password to sign up' do
