@@ -12,7 +12,7 @@ Please DM the @ModMail user with issues that need to be resolved with things on 
 
 #### 2. This community only supports the content in our curriculum
 
-All questions and advice should stay within the scope of our curriculum because we are only equipped to support our own material and recommendations. If you seek support on homework or personal projects, you should ask your teacher, a classmate, or another resource for help, even if the help you seek is for something covered by our curriculum.
+All questions and advice should stay within the scope of our curriculum because we are only equipped to support our own material and recommendations. Therefore, we do not support homework or personal projects, even if the topic is covered by our curriculum. You should instead ask your teacher, a classmate, or another resource for help.
 
 If you seek support on relationships, depression, mental illness, or anything else outside the scope of our curriculum, please seek out more equipped and professional resources.
 
@@ -56,9 +56,11 @@ We encourage questions, so do not worry about asking a "stupid question". Howeve
 
 -   **Do not ask to ask a question.** You have permission to ask questions, provided that it falls within our rules. We know you mean well, but it is somewhat inconsiderate to make people wait for your actual question. For more information, please read [Don't ask to ask, just ask](https://dontasktoask.com/).
 
--   **Use external services for code sharing.** Posting small snippets of code is acceptable, but anything longer than a few lines is hard to read and parse. Do not upload files for people to download. Use [Pastebin](http://pastebin.com/) for long error messages. Use [CodePen](https://codepen.io/), [Replit](https://replit.com/), or [CodeSandbox](https://codesandbox.io/) for code examples.
+-   **Use external services to share code.** Posting small snippets of code is acceptable, but anything longer than a few lines is hard to read and parse. Use [CodePen](https://codepen.io/), [Replit](https://replit.com/), or [CodeSandbox](https://codesandbox.io/) to share longer snippets of code, and [Pastebin](http://pastebin.com/) to share long error messages.
 
--   **Post screenshots when necessary, not photos.** If you need to share an image to provide additional context when seeking help, such as to show what your terminal or an error says, always post a screenshot using the default method for your computer or with a third party screenshot tool. Taking a picture of your screen from your phone provides a lower quality image, making it difficult for anyone to actually help.
+-   **Use screenshots to share other relevant information.** When you need to share an image of your terminal window or an error message, use a screenshot tool on your computer. If you are not familiar with this tool, you should research it using your favorite search engine. You should never take a photo of your screen with your phone, as that will provide a lower quality image that can be difficult for others to actually read.
+
+-   **Do not share files that require a user to download it.** It is impossible to tell whether a file contains malware or has some other malicious intent, so you should never share a file that requires users to download and open it on their own device.
 
 </div>
 
@@ -92,6 +94,6 @@ We expect everyone to handle themselves professionally and treat others respectf
 
 </div>
 
-#### 11. Be willing to change
+Our moderation team enforces these rules to keep our community a friendly, safe, and welcoming environment for everyone. If anyone repeatedly breaks rules, responds with negative/toxic attitudes, pushes the boundaries of our rules, or shows “[help vampire](https://slash7.com/2006/12/22/vampires/)” behavior, they will be banned.
 
-Not everything will result in a ban, but a lot of small things do add up. If you have been repeatedly told by a moderator to stop doing something, especially if your attitude and interactions within the community begin causing a toxic or unwelcoming environment, you may wind up being banned if you've proven to show zero effort in making changes. When you're informed about some form of behavior by a moderator, be open and willing to change your attitude to better fit the goals we wish to meet for our community.
+If you are notified about your behavior by a moderator, we encourage you to be open and willing to change. Our rules are very similar to the expectations in professional workplaces, so this will better prepare you to interact professionally with your future teammates.
