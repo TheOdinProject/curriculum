@@ -56,11 +56,11 @@ We encourage questions, so do not worry about asking a "stupid question". Howeve
 
 -   **Do not ask to ask a question.** You have permission to ask questions, provided that it falls within our rules. We know you mean well, but it is somewhat inconsiderate to make people wait for your actual question. For more information, please read [Don't ask to ask, just ask](https://dontasktoask.com/).
 
--   **Use external services to share code.** Posting small snippets of code is acceptable, but anything longer than a few lines is hard to read and parse. Use [CodePen](https://codepen.io/), [Replit](https://replit.com/), or [CodeSandbox](https://codesandbox.io/) to share longer snippets of code, and [Pastebin](http://pastebin.com/) to share long error messages.
+-   **Use external services to share code.** Posting small snippets of code is acceptable, but anything longer than a few lines is hard to read and parse. Use [CodePen](https://codepen.io/), [Replit](https://replit.com/), or [CodeSandbox](https://codesandbox.io/) to share longer snippets of code. If you want to share a text version of a long error message, use [Pastebin](http://pastebin.com/) instead.
 
 -   **Use screenshots to share other relevant information.** When you need to share an image of your terminal window or an error message, use a screenshot tool on your computer. If you are not familiar with this tool, you should research it using your favorite search engine. You should never take a photo of your screen with your phone, as that will provide a lower quality image that can be difficult for others to actually read.
 
--   **Do not share files that require a user to download it.** It is impossible to tell whether a file contains malware or has some other malicious intent, so you should never share a file that requires users to download and open it on their own device.
+-   **Do not share files that require a user to download it.** It is impossible to tell whether a file contains malware or has some other malicious intent. Therefore, you should never share a file that requires users to download and open it on their own device.
 
 </div>
 
