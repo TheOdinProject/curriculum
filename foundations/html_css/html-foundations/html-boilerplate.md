@@ -43,7 +43,7 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 </html>
 ~~~
 
@@ -75,7 +75,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 ~~~html
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -91,7 +91,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -118,7 +118,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
