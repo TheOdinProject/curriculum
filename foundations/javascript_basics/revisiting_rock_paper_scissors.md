@@ -14,9 +14,9 @@ This means that you can keep your `main` branch as a place for only finished fea
 
 ### Using Branches
 
-You can make new branches by using the command `git branch <branch_name>`. You can then switch to your new branch using `git switch <branch_name>`. You can also create a new branch and switch to it in a single command by using the `-c` (as in “create”) flag with `switch`, in the form `git switch -c <branch_name>`.
+You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
 
-You can see all of your current branches using `git branch` with no other arguments. The branch that you’re currently on will be indicated with an asterisk. If you want to change back to `main` from any other branch, you can do so just like switching to any other branch using `git switch main`.
+You can see all of your current branches using `git branch` with no other arguments. The branch that you’re currently on will be indicated with an asterisk. If you want to change back to `main` from any other branch, you can do so just like changing to any other branch using `git checkout main`.
 
 Once you’re done working on your feature branch and you’re ready to bring the commits that you’ve made on it to your main branch,  you need to perform what is known as a `merge`.
 
@@ -32,7 +32,7 @@ Another great use case for branches is to share code with others that you might 
 
 For example: if you have a bug in a new feature you’re working on that you can’t figure out, and it causes your code to break, you don’t want to commit that broken code and have it in your project’s “permanent record”. Thankfully, branches make it easy to share code on GitHub without having to commit problematic code where it can be seen in the future!
 
-1. Make a new branch (called `temp`) and switch to it with `git switch -c temp`
+1. Make a new branch (called `temp`) and change to it with `git checkout -b temp`
 2. Commit the current state of your code to your `temp` branch like you normally would
 3. Push your `temp` branch to your GitHub repo with `git push origin temp`
 4. You (or anyone else with the link to your repo!) can now select your `temp` branch using the branch selector dropdown [insert screenshot of branch dropdown here]
@@ -42,9 +42,9 @@ For example: if you have a bug in a new feature you’re working on that you can
 <div class="lesson-content__panel" markdown="1">
 
 1. Set up a new branch on your previous Rock Paper Scissors repo
-   1. Since we'll be making a UI for our Rock Paper Scissors game, make a new branch and switch to it with the command `git switch -c rps-ui`.  
+   1. Since we'll be making a UI for our Rock Paper Scissors game, make a new branch and change to it with the command `git checkout -b rps-ui`.  
    2. You are now working in the `rps-ui` branch, locally. However, this branch does not exist in your remote repo yet. If you go to your github repo page, you'll see that you only have 1 branch, which would be `main`. Let's push this new branch to your remote repo with the command `git push origin rps-ui`. Now, you'll see two branches in your Github repository!  
-   3. Make sure you are on the `rps-ui` branch. You can check this, with the `git branch` command. The branch you are currently on will have an (\*)asterisk next to it. If you're in another branch for some reason, switch to `rps-ui` with the command `git switch rps-ui`. Now you're all set to work on your new feature! Note: You can add files, commit to this branch, and push changes to your repo, just like you would with the main branch. Everything is the same except when you push the changes, you'd use `git push origin rps-ui` instead of `git push origin main`, since we're pushing to our new branch.  
+   3. Make sure you are on the `rps-ui` branch. You can check this, with the `git branch` command. The branch you are currently on will have an (\*)asterisk next to it. If you're in another branch for some reason, change to `rps-ui` with the command `git checkout rps-ui`. Now you're all set to work on your new feature! Note: You can add files, commit to this branch, and push changes to your repo, just like you would with the main branch. Everything is the same except when you push the changes, you'd use `git push origin rps-ui` instead of `git push origin main`, since we're pushing to our new branch.  
 2. In our UI, the player should be able to play the game by clicking on buttons rather than typing their answer in a prompt.  
    1. For now, remove the logic that plays exactly five rounds.  
    2. Create three buttons, one for each selection. Add an event listener to the buttons that calls your `playRound` function with the correct `playerSelection` every time a button is clicked. (you can keep the `console.log`s for this step)  
@@ -53,7 +53,7 @@ For example: if you have a bug in a new feature you’re working on that you can
    5. You will likely have to refactor (rework/rewrite) your original code to make it work for this. That's OK! Reworking old code is an important part of a programmer's life.  
    6. Once you're all done with your UI and make sure everything's satisfactory, it's time to merge our current branch `rps-ui` to our main branch.  
 3. Now let's take a look at how we can merge these changes back to our `main` branch.  
-   1. Switch to the branch we want to merge INTO i.e. `main` with the command `git switch main`. 
+   1. Checkout the branch we want to merge INTO i.e. `main` with the command `git checkout main`. 
    2. Now let's merge our `rps-ui` branch into `main`, our current branch, with `git merge rps-ui`.  
    3. If everything goes fine, our `rps-ui` branch is now successfully merged with main! Use `git log` and you'll see all the commits you've made to your feature branch on top of the commits you made to the main branch. Now for our final step!  
    4. Let's push our `main` branch into our remote repo by running `git push origin main` . Go to your Github repo and you'll see that our `main` branch will have all the changes and commits you made to the `rps-ui` branch. Congratulations! You've successfully pushed your first feature into your production branch!  
