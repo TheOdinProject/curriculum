@@ -214,6 +214,10 @@ If you want to get a better understanding of how create-react-app works and whic
 
 Often React testing is done with `react-testing-library`. Taking your learnings from the Battleship project, you should apply these concepts going forward in all your future projects, even with React.
 
+### React Developer Tools
+
+React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -239,3 +243,4 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
 - <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a> 
 - <a class="knowledge-check-link" href="#testing">What is commonly used for testing React apps?</a> 
+- <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools</a>
