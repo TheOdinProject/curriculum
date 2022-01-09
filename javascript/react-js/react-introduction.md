@@ -243,4 +243,4 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
 - <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a> 
 - <a class="knowledge-check-link" href="#testing">What is commonly used for testing React apps?</a> 
-- <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using React Developer Tools</a>
+- <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools</a>
