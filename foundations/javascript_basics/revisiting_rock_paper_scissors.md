@@ -35,7 +35,9 @@ For example: if you have a bug in a new feature you’re working on that you can
 1. Make a new branch (called `temp`) and change to it with `git checkout -b temp`
 2. Commit the current state of your code to your `temp` branch like you normally would
 3. Push your `temp` branch to your GitHub repo with `git push origin temp`
-4. You (or anyone else with the link to your repo!) can now select your `temp` branch using the branch selector dropdown.[insert screenshot of branch here] 
+4. You (or anyone else with the link to your repo!) can now select your `temp` branch using the branch selector dropdown.
+
+<img width="602" alt="Dropdown menu of branches on GitHub" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/32a651388da10d018d4143b066badf2c9f27dc93/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png">
 
 ### Assignment
 
