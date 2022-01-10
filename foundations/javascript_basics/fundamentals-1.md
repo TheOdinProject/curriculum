@@ -50,7 +50,7 @@ Another way to include is through an external script. This is very similar to li
   <script src="javascript.js"></script>
 ~~~
 
-Javascript files have the extension `.js` similar to `.css` for stylesheets. External javascript sheets are used for more complex scripts. Simple scripts such as logging to the console can stay within the script tag.
+JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
 ### Variables
 
