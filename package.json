@@ -30,7 +30,7 @@
     "popper.js": "^1.16.1",
     "postcss": "^7",
     "prismjs": "^1.25.0",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-flip-move": "^3.0.4",
