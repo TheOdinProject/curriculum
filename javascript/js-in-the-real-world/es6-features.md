@@ -1,7 +1,7 @@
 ### Introduction
 We've been throwing around the term __ES6__ since our very first lessons, but we haven't taken the time to properly explain what it means or to investigate the implications of it in our code.
 
-Put simply ES6 is a version of JavaScript that was officially released in the summer of 2015. It included _many_ new features that make writing JavaScript much easier and cleaner. If you have been following our lessons you have already been learning these new features because, well, ES6 is _just JavaScript_.
+Put simply, ES6 is a version of JavaScript that was officially released in the summer of 2015. It included _many_ new features that make writing JavaScript much easier and cleaner. If you have been following our lessons you have already been learning these new features because, well, ES6 is _just JavaScript_.
 
 You have probably also come across articles talking about features in ES7 or ES8 or ES2015 or ES2017 etc. Part of the confusion here is that right after the release of ES6, the committee that makes these decisions changed the naming scheme from 'version numbers' (ES5, ES6, ES7 etc.) to 'release years' (ES2015, ES2016, ES2017 etc.)
 
