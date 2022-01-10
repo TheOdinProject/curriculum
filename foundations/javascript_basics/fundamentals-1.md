@@ -44,7 +44,7 @@ Save and open this file up in a web browser (you can use Live Server to do this!
 
 > <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
 
-Another way to include is through an external script. This is very similar to linking external CSS docs to your website. 
+Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website. 
 
 ~~~html
   <script src="javascript.js"></script>
