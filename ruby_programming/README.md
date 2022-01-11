@@ -14,9 +14,10 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
   - Arrays - [lesson](basic_ruby/arrays.md)
   - Hashes - [lesson](basic_ruby/hashes.md)
   - Methods - [lesson](basic_ruby/methods.md)
+  - Debugging - [lesson](basic_ruby/debugging.md)
   - Basic Enumerable Methods - [lesson](basic_ruby/basic_enumerable_methods.md)
   - Predicate Enumerable Methods - [lesson](basic_ruby/predicate_enumerable_methods.md)
-  - Debugging - [lesson](basic_ruby/debugging.md)
+  - Nested Collections - [lesson](basic_ruby/nested_collections.md)
 - Basic Ruby Projects
   - [Caesar Cipher](basic_ruby_projects/caesar_cipher.md)
   - [Sub Strings](basic_ruby_projects/sub_strings.md)
@@ -29,7 +30,11 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
 - Files and Serialization
   - Files and Serialization - [lesson](files_and_serialization/lesson_serialization.md)
   - [Event Manager](files_and_serialization/project_event_manager.md)
-  - [File I/O and Serialization](files_and_serialization/project_file_io.md)
+  - [Hangman](files_and_serialization/project_file_io.md)
+- Advanced Ruby
+  - Blocks - [lesson](advanced_ruby/blocks.md)
+  - Pattern Matching - [lesson](advanced_ruby/pattern_matching.md)
+  - [Custom Enumerables](advanced_ruby/project_enumerable.md)
 - A Bit of Computer Science
   - A Very Brief Intro to CS - [lesson](computer_science/lesson_a_very_brief_intro_to_cs.md)
   - Recursive Methods - [lesson](computer_science/lesson_recursion.md)
@@ -41,7 +46,7 @@ Time to dive deep into Ruby, the language 'designed for programmer happiness.' Y
 - Testing Ruby with RSpec
   - Test Driven Development - [lesson](testing_with_rspec/test_driven_development.md)
   - Introduction to RSpec - [lesson](testing_with_rspec/introduction_to_rspec.md)
-  - [Testing Your Ruby Code](testing_with_rspec/project_testing_your_ruby_code.md)
+  - [Connect Four](testing_with_rspec/project_testing_your_ruby_code.md)
 - Git
   - A Deeper Look at Git - [lesson](git/lesson_a_deeper_look_at_git.md)
   - Using Git in the Real World - [lesson](git/lesson_using_git_in_the_real_world.md)
