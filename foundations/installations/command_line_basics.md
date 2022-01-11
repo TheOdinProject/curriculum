@@ -7,8 +7,10 @@ That black screen or window is the command line interface (CLI), where you're ab
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
 
 #### Test Drive Your Terminal
-Open a terminal on your computer.  
-- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.  
+Open a terminal on your computer.
+
+- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
 
 Before we do anything, take a look at the following text:
