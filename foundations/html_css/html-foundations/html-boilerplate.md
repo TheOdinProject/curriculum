@@ -43,9 +43,13 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 </html>
 ~~~
+
+#### What is the `lang` attribute? 
+
+`lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
 ### Head Element
 
@@ -75,7 +79,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 ~~~html
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -91,7 +95,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -118,7 +122,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -148,8 +152,9 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
+- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
+- If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
