@@ -9,7 +9,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 #### Test Drive Your Terminal
 Open a terminal on your computer.  
 - **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.  
-- **MacOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Mac's Spotlight search to open Terminal. Press 'CMD + SPACE' to open Spotlight, and search for "Terminal" and press 'RETURN' to open it.
+- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
 
 Before we do anything, take a look at the following text:
 ```
