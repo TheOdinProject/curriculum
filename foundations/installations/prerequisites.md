@@ -4,7 +4,7 @@ If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu
 
 **Please Note**: We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 
-### Setup
+### OS Installation
 
 **IMPORTANT**
 
