@@ -251,3 +251,73 @@ Once you have successfully met both of these requirements, you should be able to
 Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
 
 </details>
+
+### Google Chrome
+
+<details markdown="block">
+<summary class="dropDown-header">Linux</summary>
+
+#### Step 1: Download Google Chrome
+
+   - Open your **Terminal**
+   - Run the following command to download latest **Google Chrome** `.deb` package
+
+~~~bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+~~~
+
+#### Step 2: Install Google Chrome
+
+   - Enter the following command in your terminal to install **Google Chrome** `.deb` package
+
+~~~bash
+sudo apt install ./google-chrome-stable_current_amd64.deb
+~~~
+
+   - Enter your password, if needed
+
+#### Step 3: Delete the installer file
+
+~~~bash
+rm google-chrome-stable_current_amd64.deb
+~~~
+
+#### Step 4: Using Google Chrome
+You can start chrome in two ways,
+
+   - Click **Google Chrome** from the Applications menu
+   - **Or**, use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)*
+
+~~~bash
+google-chrome
+~~~
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">MacOS</summary>
+
+#### Step 1: Download Google Chrome
+
+   - [Visit](https://www.google.com/chrome/) Google Chrome download page
+   - Click **Download Chrome for Mac**
+
+#### Step 2: Install Google Chrome
+
+- Open the **Downloads** folder
+- Double click the file **googlechrome.dmg** 
+- Drag the Google Chrome icon to the **Applications** folder icon
+
+#### Step 3: Delete the installer file
+
+   - Open **Finder**
+   - Click the **arrow** next to Google Chrome in the sidebar
+   - Go to the **Downloads** folder
+   - Drag **googlechrome.dmg** to the trash
+
+#### Step 4: Using Google Chrome
+
+   - Go to your **Applications** folder
+   - Double click **Google Chrome**
+
+</details>
