@@ -37,11 +37,11 @@ This should display the version of Rails installed on your system indicating the
 
 #### Step 1.2: Install Yarn
 
-With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javascript module bundler, with Rails.
+You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to some of the ways that Javascript is bundled requires the usage of Yarn.
 
 Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
 
-Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries.
+Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries for the frameworks that do require bundling and compiling.
 
 Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn. Follow the instructions step by step.
 
@@ -52,8 +52,6 @@ yarn --version
 ~~~
 
 If you don't get a version number drop by the chatrooms for some assistance.
-
-You won't need to use Yarn for this tutorial but you do need it installed for Rails to set up Webpack correctly.
 
 #### Step 1.3: Create the Application
 
@@ -66,11 +64,23 @@ cd ~/your_odin_project_directory
 rails new my_first_rails_app
 ~~~
 
-This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this in the last few lines of output:
+This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this around the end of the terminal output:
 
 ~~~bash
-Bundle complete! 18 Gemfile dependencies, 79 gems now installed.
-Use `bundle info <gem name>` to see where a bundled gem is installed.
+Bundle complete! 16 Gemfile dependencies, 76 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+Switch development cable to use redis
+        gsub  config/cable.yml
+Create controllers directory
+      create  app/javascript/controllers
+      create  app/javascript/controllers/index.js
+      create  app/javascript/controllers/application.js
+      create  app/javascript/controllers/hello_controller.js
+Import Stimulus controllers
+      append  app/javascript/application.js
+Pin Stimulus
+      append  config/importmap.rb
+
 ~~~
 
 In the above process, Rails created a new directory for us. Let's `cd` into it now:
@@ -247,14 +257,6 @@ Now that we've committed the files, we can push to Heroku:
 ~~~bash
 git push heroku main
 ~~~
-
-  **UPDATE 2019-01-04:** If you run into an error on the next command stating that you need to use Bundler 2 or greater with this lockfile, you'll need to run:
-
-```
-heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
-```
-
-  and then run the `git push heroku main` command again.
 
 This will send the app you created to Heroku. There will be a lot of output in your console. Wait for it to finish.
 
