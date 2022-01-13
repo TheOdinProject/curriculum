@@ -163,7 +163,7 @@ Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green but
 Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
 
 ~~~bash
-cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_ed25519.pub
 ~~~
 
 Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address. 
