@@ -61,7 +61,7 @@ We're going to start by navigating to the directory that you house your projects
 
 ~~~bash
 cd ~/your_odin_project_directory
-rails _6.1.4_ new my_first_rails_app
+rails  new my_first_rails_app
 ~~~
 
 This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this around the end of the terminal output:
