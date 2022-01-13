@@ -59,7 +59,7 @@ If we had written this program with TDD it is very likely that it would have loo
 
 ### Mocking
 
-<span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test.
+<span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
 
 ### Assignment
 
@@ -76,6 +76,7 @@ This section contains questions for you to check your understanding of this less
 
 - <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
 - <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are the two requirements for a function to be pure?</a>
-- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What is an observable side effect in regards to a function?</a>
+- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are some of the side effects that can exist in a function?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What is mocking?</a>
+- <a class='knowledge-check-link' href='#mock-function-example'>When would you use a mock function?</a>
