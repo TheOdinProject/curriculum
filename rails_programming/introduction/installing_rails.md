@@ -21,12 +21,10 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
 #### Step 1.1: Install Rails
 
-* At the time of writing this version 7 of Rails has just shipped so and we're currently updating our course. Until that is ready we're going to specify the using Rails 6. None of the Rails fundamentals have changed so you won't have to relearn everything once our course is updated*
-
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails -v '6.1.4'
+gem install rails 
 ~~~
 
 Once the installation finishes, you can check if everything went well by restarting your terminal and running the following command:
