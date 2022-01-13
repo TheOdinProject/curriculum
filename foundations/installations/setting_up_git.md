@@ -133,13 +133,13 @@ Go to [GitHub.com](https://github.com/) and create an account! If you already ha
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
-First, we need to see if you have an ed25519 SSH key already installed. Type this into the terminal and check the output with the information below:
+First, we need to see if you have an Ed25519 algorithm SSH key already installed. Type this into the terminal and check the output with the information below:
 
 ~~~bash
 ls ~/.ssh/id_ed25519.pub
 ~~~
 
-If a message appears in the console containing the text "No such file or directory", then you do not yet have an ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
+If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
 
@@ -166,7 +166,7 @@ Now you need to copy your public SSH key. To do this, we're going to use a comma
 cat ~/.ssh/id_ed25519.pub
 ~~~
 
-Highlight and copy the output, which starts with `ssh-rsa` and ends with your email address. 
+Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address. 
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
