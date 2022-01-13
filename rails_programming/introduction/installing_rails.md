@@ -80,7 +80,7 @@ Import Stimulus controllers
       append  app/javascript/application.js
 Pin Stimulus
       append  config/importmap.rb
-
+  
 ~~~
 
 In the above process, Rails created a new directory for us. Let's `cd` into it now:
