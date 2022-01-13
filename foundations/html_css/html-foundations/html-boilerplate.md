@@ -43,13 +43,18 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 </html>
 ~~~
 
+#### What is the `lang` attribute? 
+
+`lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
+
 ### Head Element
 
-The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser. Anything included within the head element will **not** be displayed to the user.
+The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
+Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
 #### Title Element
 
@@ -74,7 +79,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 ~~~html
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -90,7 +95,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -108,10 +113,8 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 3. You can use the terminal to open the file in your browser.
-   
-   a. Ubuntu - Navigate to the directory containing the file and use firefox index.html or google-chrome index.html
-   
-   b. macOS - Navigate to the directory containing the file and use open ./index.html
+   * `Ubuntu` - Navigate to the directory containing the file and use `firefox index.html` or `google-chrome index.html`
+   * `macOS` - Navigate to the directory containing the file and use `open ./index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
@@ -119,7 +122,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -134,14 +137,14 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
 
 ### VSCode Shortcut
-VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the'.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory of how to write the boilerplate code.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch and follow along to Kevin Powell's Brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
+1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
 2. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 </div>
@@ -149,8 +152,9 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
+- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
+- If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

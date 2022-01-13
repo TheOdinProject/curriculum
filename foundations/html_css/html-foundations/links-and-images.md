@@ -9,7 +9,7 @@ In this lesson, we will learn how to create links and add some visual flair to o
 - How to create links to pages on other websites on the internet
 - How to create links to other pages on your own websites
 - The difference between absolute and relative links
-- How to create images in HTML
+- How to display an image on webpage using HTML
 
 ### Preparation
 
@@ -131,13 +131,13 @@ In many cases, this will work just fine; however, you can still run into unexpec
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of the directory a website is located in as a house and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links on the other hand, are directions to an entirely different house.
+Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions to an entirely different house.
 
 ### Images
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
 
-To create an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag.
+To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag.
 
 Instead of wrapping content with an open and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
@@ -190,7 +190,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt(alternative text) attribute.
+<span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
 The alt attribute is used to describe an image, it will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
@@ -227,7 +227,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#attribute">What is an attribute?</a>
 - <a class="knowledge-check-link" href="#where-to-go">What attribute tells links where to go to?</a>
 - <a class="knowledge-check-link" href="#absolute-and-relative-links">What is the difference between an absolute and relative link?</a>
-- <a class="knowledge-check-link" href="#images">What element is used to create an image?</a>
+- <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
 - <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
 - <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
 - <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
