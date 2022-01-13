@@ -13,6 +13,7 @@ In the following sections, we'll go over the steps for setting up your environme
 In the next few lessons, we will walk through these installation steps together:
 
 * Installing the [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) of your choice
+* Installing Google Chrome web browser
 * Installing a code editor
 * Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using)
 
