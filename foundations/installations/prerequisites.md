@@ -306,9 +306,9 @@ google-chrome
 
 #### Step 2: Install Google Chrome
 
-- Open the **Downloads** folder
-- Double click the file **googlechrome.dmg** 
-- Drag the Google Chrome icon to the **Applications** folder icon
+   - Open the **Downloads** folder
+   - Double click the file **googlechrome.dmg** 
+   - Drag the Google Chrome icon to the **Applications** folder icon
 
 #### Step 3: Delete the installer file
 
