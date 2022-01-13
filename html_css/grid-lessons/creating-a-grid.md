@@ -168,7 +168,7 @@ Now that you’ve made a grid you can start to see how easy it is to control the
 <div class="lesson-content__panel" markdown="1">
 - Read Parts I, II and III from [CSS-Tricks Complete Guide to Grid.](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - Watch this [short video](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) on Implicit vs Explicit Tracks from the Wes Bos CSS Grid course.
-- Look through the developer tools docs on inspecting CSS Grid for [Chrome](https://developer.chrome.com/docs/devtools/css/grid/) and [Firefox.](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts)
+- Look through the developer tools docs on inspecting CSS Grid for [Chrome.](https://developer.chrome.com/docs/devtools/css/grid/)
 </div>
 
 ### Additional Resources
