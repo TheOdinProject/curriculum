@@ -252,7 +252,9 @@ Currently there is a bug preventing CloudReady v83.4 from successfully installin
 
 </details>
 
-### Google Chrome
+### Google Chrome Installation
+
+Choose your Operating System:
 
 <details markdown="block">
 <summary class="dropDown-header">Linux</summary>
