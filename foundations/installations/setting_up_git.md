@@ -133,7 +133,7 @@ Go to [GitHub.com](https://github.com/) and create an account! If you already ha
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
-First, we need to see if you have an SSH key already installed. Type this into the terminal and check the output with the information below:
+First, we need to see if you have an ed25519 SSH key already installed. Type this into the terminal and check the output with the information below:
 
 ~~~bash
 ls ~/.ssh/id_rsa.pub
