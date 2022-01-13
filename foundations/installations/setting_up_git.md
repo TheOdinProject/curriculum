@@ -136,10 +136,10 @@ An SSH key is a cryptographically secure identifier. It's like a really long pas
 First, we need to see if you have an ed25519 SSH key already installed. Type this into the terminal and check the output with the information below:
 
 ~~~bash
-ls ~/.ssh/id_rsa.pub
+ls ~/.ssh/id_ed25519.pub
 ~~~
 
-If a message appears in the console containing the text "No such file or directory", then you do not yet have an SSH key, and you will need to create one. If no such message has appeared in the console output, you already have a key and can proceed to step 2.4.
+If a message appears in the console containing the text "No such file or directory", then you do not yet have an ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
 
