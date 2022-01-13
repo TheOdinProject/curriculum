@@ -76,7 +76,7 @@ This section contains questions for you to check your understanding of this less
 
 - <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
 - <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are the two requirements for a function to be pure?</a>
-- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are some of the side effects that can exist in a function?</a>
+- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are side effects and why is it important to identify them when testing a function?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What is mocking?</a>
 - <a class='knowledge-check-link' href='#mock-function-example'>When would you use a mock function?</a>
