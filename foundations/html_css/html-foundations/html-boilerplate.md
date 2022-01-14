@@ -110,10 +110,13 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
-1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
+> A note:
+> In order to avoid branching our lesson's instructions to accomodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to google chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.  
+
+1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 3. You can use the terminal to open the file in your browser.
-   * `Ubuntu` - Navigate to the directory containing the file and use `firefox index.html` or `google-chrome index.html`
+   * `Ubuntu` - Navigate to the directory containing the file and use `google-chrome index.html`
    * `macOS` - Navigate to the directory containing the file and use `open ./index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
