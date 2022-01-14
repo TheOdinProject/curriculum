@@ -16,14 +16,6 @@
     padding-right: 40px;
     border-right: 1px solid $pale-grey;
 
-    img {
-      width:100px;
-      height:100px;
-      margin: 0 auto;
-      border-radius:50%;
-      overflow: hidden;
-    }
-
     @include media-breakpoint-down(sm) {
       margin-bottom: 50px;
       margin-right: 0;

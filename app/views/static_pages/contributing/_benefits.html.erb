@@ -29,14 +29,14 @@
 
 <div class="benefits">
   <div class="container">
-    <h2 class="benefits__title">Why you should get involved</h2>
+    <h2 class="benefits__title text-2xl">Why you should get involved</h2>
     <div class="row">
       <% benefits.each do |benefit| %>
         <div class="col-lg-6 benefit">
           <%= image_tag benefit[:icon], alt: benefit[:alt_text], class: "benefit__image" %>
 
           <div class="benefit__details">
-            <h3 class="benefit__title"><%= benefit[:title] %></h3>
+            <h3 class="benefit__title text-xl"><%= benefit[:title] %></h3>
             <p class="benefit__text"><%= benefit[:body] %></p>
           </div>
         </div>

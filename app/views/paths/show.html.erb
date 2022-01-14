@@ -1,7 +1,7 @@
 <%= title(@path.title) %>
 
 <div class="container">
-  <h1 class="text-center camel light curriculum-title"><%= @path.title %></h1>
+  <h1 class="text-center page-heading-title"><%= @path.title %></h1>
   <% if user_signed_in? && current_user.path != @path %>
     <div class="select-container">
       <%= button_to 'Select Path', users_paths_path(path_id: @path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{@path.title.downcase}-select-path-btn" } %>

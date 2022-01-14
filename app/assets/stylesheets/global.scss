@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  font-family: $body_fonts;
   padding-right: 0 !important; // a hacky fix to avoid 15px right padding added when a modal is displayed/hidden
   min-height: 100vh;
   display: flex;
@@ -37,7 +36,6 @@ p {
 
 button {
   border: 0;
-  font-family: $body-fonts;
   padding: 0;
 }
 
@@ -115,7 +113,6 @@ ul {
 [type="password"],
 textarea {
   background-color: $pale-grey-bg;
-  font-family: $body-fonts;
   padding: 0.7rem 1rem 0.7rem 1rem;
 }
 

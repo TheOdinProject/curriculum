@@ -10,7 +10,7 @@
 
   <div class="skill__details">
     <%= link_to path_course_url(course.path, course), class: 'skill__link' do %>
-      <h3 class="skill__title"><%= course.title %></h3>
+      <h3 class="skill__title text-xl"><%= course.title %></h3>
     <% end %>
     <span class="skill__sub-title"><%= course.lessons.size %> lessons</span>
   </div>

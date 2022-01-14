@@ -14,14 +14,14 @@
 %>
 
 <div class='contributing-options'>
-  <h3 class="contributing-options__title push-down-2x">There are two main ways you can contribute:</h3>
+  <h3 class="contributing-options__title text-xl mb-4">There are two main ways you can contribute:</h3>
   <div class="col-lg-10 offset-lg-1 col-md-12">
     <div class="row row-eq-height">
 
       <% contributions.each do |contribution| %>
         <div class="col-lg-6">
           <div class="contributing-card card-main">
-            <h3 class="contributing-card__title"><%= contribution[:title] %></h3>
+            <h3 class="contributing-card__title text-xl mb-2"><%= contribution[:title] %></h3>
             <p class="contributing-card__description"><%= contribution[:description] %></p>
             <div class="contributing-card__button">
               <%= link_to 'View on GitHub', github_link(contribution[:path]), class: 'button button--primary', target: '_blank', rel: 'noreferrer' %>

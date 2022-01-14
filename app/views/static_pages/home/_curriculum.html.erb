@@ -1,7 +1,7 @@
 <div class="curriculum-details bg-whitesmoke">
   <div class="curriculum-details-title">
-    <h2 class="bold">Learn everything you need to know to become a web developer</h2>
-  </div> <!-- /.curriculum-details-title -->
+    <h2 class="font-bold text-2xl">Learn everything you need to know to become a web developer</h2>
+  </div>
 
   <div class="container">
     <div class="row">
@@ -9,21 +9,21 @@
         <div class="row curriculum-details-grid">
 
           <% available_courses.each do |course| %>
-            <%= link_to course[:path], :class =>"curriculum-details-tile align-items-center" do %>  
+            <%= link_to course[:path], :class =>"curriculum-details-tile align-items-center" do %>
               <%= image_tag course[:badge_image_url], alt: course[:badge_alt_text] %>
-                <h4 class="bold text-uppercase">
+                <h4 class="font-bold uppercase text-lg">
                   <%= course[:title] %>
                 </h4>
-            <% end %>      
+            <% end %>
           <% end %>
-          
+
         </div>
       </div>
-    </div> <!-- /.row -->
+    </div>
 
     <div class="text-center">
       <%= link_to 'Get Started', courses_path,
         class: 'button button--secondary' %>
-    </div> <!-- /.row -->
-  </div> <!-- /.container -->
+    </div>
+  </div>
 </div>

@@ -1,4 +1,6 @@
 /* turning off base styles for now as they overide heading sizes */
-/* @import "tailwindcss/base"; */
+@import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@import './typography.css';

@@ -1,11 +1,11 @@
 <div id="home-page">
   <div class="hero gradient">
     <header>
-      <h1 class="accent hero__main-heading"> Your Career in Web Development Starts Here </h1>
+      <h1 class="text-4xl font-light text-gold-500 mx-auto pb-4"> Your Career in Web Development Starts Here </h1>
       <div class="secondary hero__sub-heading">
         <p class="push-down">Our full stack curriculum is free and supported by a passionate open source community.</p>
         <% if Lesson.any? %>
-          <%= link_to "Last Curriculum Update: #{time_ago_in_words(Lesson.most_recent_updated_at)} ago", github_link("curriculum/commits"), target: :_blank %>
+          <%= link_to "Last Curriculum Update: #{time_ago_in_words(Lesson.most_recent_updated_at)} ago", github_link("curriculum/commits"), target: :_blank, class: "tracking-wide underline" %>
         <% end %>
       </div>
 

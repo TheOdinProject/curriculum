@@ -1,7 +1,7 @@
 <div class="how-it-works">
   <div class="how-it-works-title">
     <div class="container">
-      <h2 class="bold">How it works</h2>
+      <h2 class="text-2xl font-bold">How it works</h2>
       <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
     </div>
   </div> <!-- /.how-it-works-title -->
@@ -9,8 +9,8 @@
 
     <% how_it_works_tiles.each do |tile| %>
     <div class="tile">
-      <%= image_tag tile[:image], class: 'how-it-works-image', alt: 'how-it-works illustration' %>
-      <h4 class='bold subtitle'><%= tile[:subtitle]%></h4>
+      <%= image_tag tile[:image], class: 'how-it-works-image inline', alt: 'how-it-works illustration' %>
+      <h4 class='font-bold text-xl mt-8 mb-4'><%= tile[:subtitle]%></h4>
       <div class="description">
         <p><%= tile[:description]%></p>
       </div>

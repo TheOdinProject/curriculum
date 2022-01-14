@@ -1,12 +1,12 @@
 <div class="settings-section">
   <div class="settings-card card-main">
 
-    <h2 class="accent settings-card__heading">Profile</h2>
+    <h2 class="accent settings-card__heading text-2xl">Profile</h2>
     <div class="settings-card__edit-button settings-card__edit-button--open" data-test-id="user-edit-profile-btn"></div>
 
     <div class="settings-card__content">
       <div class="settings-card__picture">
-        <%= image_tag avatar_path(user.avatar), alt: "Profile Picture"%>
+        <%= image_tag avatar_path(user.avatar), alt: "Profile Picture", class: "rounded-full w-32 mx-auto" %>
       </div>
 
       <div class="settings-view">

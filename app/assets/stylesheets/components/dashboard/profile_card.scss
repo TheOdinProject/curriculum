@@ -9,19 +9,6 @@
     text-align: center;
   }
 
-  &__image {
-    width: 100px;
-    height: 100px;
-    background-color:#fff;
-    border-radius:50%;
-    margin-right: 2rem;
-
-    @include media-breakpoint-down(md) {
-      margin-right: 0;
-      margin-bottom: 1rem;
-    }
-  }
-
   &__username {
     margin-bottom: 0;
     flex-basis: 60%;

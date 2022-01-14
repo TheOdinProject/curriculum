@@ -2,15 +2,15 @@
 
 <div class="paths curriculum-background">
   <div class="container">
-    <h1 class="text-center camel card-list__title">All Paths</h1>
+    <h1 class="text-center page-heading-title mb-16">All Paths</h1>
     <% @paths.each do |path| %>
       <% if path.title === 'Foundations' %>
         <div class='card-main card-main--clickable'>
           <%= link_to '', path, class: 'card-main__link' %>
           <div class="card-main__header">
             <div>
-              <h2 class="foundations-title"><%= path.title %></h2>
-              <h2>Start here!</h2>
+              <h2 class="foundations-title mb-2"><%= path.title %></h2>
+              <h3 class="text-2xl">Start here!</h3>
             </div>
             <% if current_user.nil? %>
               <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
@@ -40,7 +40,7 @@
           <div class='card-main card-main--clickable'>
             <%= link_to '', path, class: 'card-main__link' %>
             <div class="card-secondary__header">
-              <h2 class="card-secondary__header-title"><%= path.title %></h2>
+              <h2 class="card-secondary__header-title mb-3xl"><%= path.title %></h2>
               <% if current_user.nil? %>
                 <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
               <% elsif current_user.path === path %>

@@ -1,0 +1,8 @@
+@layer components {
+  body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .page-heading-title {
+    @apply text-4xl mb-8 text-gold-500 font-light;
+  }
+}
