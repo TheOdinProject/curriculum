@@ -37,9 +37,9 @@ This should display the version of Rails installed on your system indicating the
 
 #### Step 1.2: Install Yarn
 
-You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to some of the ways that Javascript is bundled requires the usage of Yarn.
+You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to some of the ways that Javascript is bundled requires the usage of Yarn.
 
-Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
+Javascript libraries used to be managed through the asset pipeline in previous Rails versions but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks. 
 
 Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries for the frameworks that do require bundling and compiling.
 
