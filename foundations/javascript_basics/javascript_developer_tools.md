@@ -24,7 +24,6 @@ There are three ways to open the Developer Tools menu:
 
 1. From the Browser Menu:
     - Chrome: Select the `Chrome Menu` > `More Tools` > `Developer Tools`
-    - Firefox: Select the Firefox `Menu` > `Web Developer`> `Toggle Tools`  
 2. Right-click anywhere on a webpage and select `Inspect`
 3. Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
 
@@ -55,7 +54,6 @@ Google has updated some of the required sections in the below tutorials and some
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
-1. Learn the new Firefox Dev Tools in this [Video](https://youtu.be/yznVkCuohGg) by Wes Bos
 
 ### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

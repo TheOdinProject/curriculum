@@ -1,10 +1,10 @@
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors), you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) and **Google Chrome**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 **Please Note**: We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 
-### Setup
+### OS Installation
 
 **IMPORTANT**
 
@@ -23,6 +23,15 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 **IMPORTANT**
 
 Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+
+#### NOTICE FOR WINDOWS 11 USERS:
+
+Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
+system. This means that VirtualBox may not properly install or run on Windows 11, or that you could face serious bugs that hinder performance or cause
+crashes. It is recommended that you remain on Windows 10 until VirtualBox is supported or consider installing Linux using Dual-Boot with the assistance
+of the second guide on this lesson page.
+
+You can see the currently supported operating systems for VirtualBox hosting [in this section of their documentation.](https://www.virtualbox.org/manual/UserManual.html#hostossupport)
 
 #### Step 1.1: Download VirtualBox
 
@@ -114,7 +123,7 @@ While your VM is running, do the following steps:
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
   6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + w` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
-  7. Enter your password when it asks you to. _(__note__: Your password will not be visible in the terminal. This is a security feature to protect your password. Press `Enter` when done.)_
+  7. Enter your password when it asks you to. **(__note__: Your password will not be visible in the terminal. You will not see any feedback when you type. This is a security feature to protect your password. Press `Enter` when done.)**
   8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 9.
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
@@ -130,7 +139,11 @@ While your VM is running, do the following steps:
   **NOTE**:
 
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
-* If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"), please reboot your host (Windows/OSX) operating system. Afterwards, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
+* If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
+   
+   Suggestion 1: Reboot your host (Windows/OSX) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
+   
+   Suggestion 2: In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the Storage tab, under Controller: IDE, click on VBoxGuestAdditions.iso and make sure "Live CD/DVD" is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled "Live CD/DVD": under Controller: IDE, by selecting the blue circle dropdown on the right side of the window and clicking "Remove Disk from Virtual Drive". It is also suggested to uncheck "Live CD/DVD" at this point.
 * If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow these [instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
 * Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
 
@@ -215,6 +228,10 @@ If you would like to test out the version of Ubuntu on the flash drive, click 'T
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
 For step-by-step instructions, please follow this [installation guide](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0) from the creators of Ubuntu.
+   
+### Intel RST (Rapid Storage Technology)
+
+If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
 
 </details>
 
@@ -232,5 +249,77 @@ Once you have successfully met both of these requirements, you should be able to
 **Note for CloudReady users**
 
 Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
+
+</details>
+
+### Google Chrome Installation
+
+Choose your Operating System:
+
+<details markdown="block">
+<summary class="dropDown-header">Linux</summary>
+
+#### Step 1: Download Google Chrome
+
+   - Open your **Terminal**
+   - Run the following command to download latest **Google Chrome** `.deb` package
+
+~~~bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+~~~
+
+#### Step 2: Install Google Chrome
+
+   - Enter the following command in your terminal to install **Google Chrome** `.deb` package
+
+~~~bash
+sudo apt install ./google-chrome-stable_current_amd64.deb
+~~~
+
+   - Enter your password, if needed
+
+#### Step 3: Delete the installer file
+
+~~~bash
+rm google-chrome-stable_current_amd64.deb
+~~~
+
+#### Step 4: Using Google Chrome
+You can start chrome in two ways,
+
+   - Click **Google Chrome** from the Applications menu
+   - **Or**, use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)*
+
+~~~bash
+google-chrome
+~~~
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">MacOS</summary>
+
+#### Step 1: Download Google Chrome
+
+   - [Visit](https://www.google.com/chrome/) Google Chrome download page
+   - Click **Download Chrome for Mac**
+
+#### Step 2: Install Google Chrome
+
+   - Open the **Downloads** folder
+   - Double click the file **googlechrome.dmg** 
+   - Drag the Google Chrome icon to the **Applications** folder icon
+
+#### Step 3: Delete the installer file
+
+   - Open **Finder**
+   - Click the **arrow** next to Google Chrome in the sidebar
+   - Go to the **Downloads** folder
+   - Drag **googlechrome.dmg** to the trash
+
+#### Step 4: Using Google Chrome
+
+   - Go to your **Applications** folder
+   - Double click **Google Chrome**
 
 </details>

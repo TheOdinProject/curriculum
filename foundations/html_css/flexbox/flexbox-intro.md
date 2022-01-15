@@ -26,15 +26,15 @@ Flexbox is a way to arrange items into rows or columns, where those items will f
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex related lines in the above css and check out the result. All 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width.
+We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex related lines in the above CSS and check out the result. All 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width.
 
 If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to make it fit.
 
 > #### Note
-> If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
+> If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
 
 #### Flex Containers and Flex Items
-As you've seen, flexbox isn't just a single css property, but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_ and some go on the _flex items_. This is a simple but important concept.
+As you've seen, flexbox isn't just a single CSS property, but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_ and some go on the _flex items_. This is a simple but important concept.
 
 <span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.</span>
 

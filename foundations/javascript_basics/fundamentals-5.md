@@ -9,7 +9,7 @@
 
 Objects are a _very_ important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects.  The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
 
-1. [This JavaScript.info](http://javascript.info/object) article is the best place to get started with Objects.
+1. [This JavaScript.info](https://javascript.info/object) article is the best place to get started with Objects.
 2. [The MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
 ### Intermediate/Advanced Array Magic
@@ -40,5 +40,5 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
-- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is _Array.prototype.map()_ useful for?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is _Array.prototype.reduce()_ useful for?</a>
+- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is `Array.prototype.map()` useful for?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is `Array.prototype.reduce()` useful for?</a>

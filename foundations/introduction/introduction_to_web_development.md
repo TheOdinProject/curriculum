@@ -57,7 +57,7 @@ The strongest assets you can have as a student are a desire to build, a problem-
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 
-Read [this comprehensive blog post from Happy Bear Software](http://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
+Read [this comprehensive blog post from Happy Bear Software](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
 
 ### Why Odin?
 
@@ -100,4 +100,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
 * [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/): it's okay if it's really frustrating.
 * [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
-* [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
+* [Roadmap to becoming a web developer in 2022](https://github.com/kamranahmedse/developer-roadmap)
