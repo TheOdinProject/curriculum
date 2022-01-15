@@ -35,6 +35,7 @@ import '../src/js/navbar';
 import '../src/js/admin_flash';
 import '../src/js/odinDropDownMenu';
 import '../src/js/scrollspy.min';
+import '../src/js/darkModeBeta'
 
 import 'controllers';
 
