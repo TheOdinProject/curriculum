@@ -3,9 +3,6 @@ function enableDarkMode() {
   const navbar = document.querySelector('.navbar-nav');
   const userSelection = checkStorage();
   const darkModeButton = createIcon(userSelection);
-
-  darkModeButton.querySelector('button').addEventListener('click', toggleOption);
-
   navbar.appendChild(darkModeButton);
 }
 
@@ -23,7 +20,7 @@ function checkStorage() {
 async function toggleOption() {
   const isDarkModeEnabled = checkStorage();
   if (isDarkModeEnabled) {
-    document.removeChild(document.querySelector('#darkModeStyles'));
+    document.querySelector('#darkModeStyles').remove();
   } else {
     const result = await fetch('https://cdn.jsdelivr.net/gh/TheOdinProject/top-dark-theme@master/darkMode.css');
     const css = await result.text();
@@ -61,6 +58,7 @@ function createIcon(darkModeEnabled) {
       </li>`,
     );
   }
+  darkModeButton.querySelector('button').addEventListener('click', toggleOption);
   return darkModeButton;
 }
 
