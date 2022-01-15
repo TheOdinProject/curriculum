@@ -1,32 +1,30 @@
 /* eslint-disable no-use-before-define */
 function enableDarkMode() {
-  console.log('enabled');
   const navbar = document.querySelector('.navbar-nav');
   const userSelection = checkStorage();
-  const darkModeItem = createIcon(userSelection);
+  const darkModeButton = createIcon(userSelection);
 
-  darkModeItem.querySelector('button').addEventListener('click', toggleOption);
+  darkModeButton.querySelector('button').addEventListener('click', toggleOption);
 
-  navbar.appendChild(darkModeItem);
+  navbar.appendChild(darkModeButton);
 }
 
 function checkStorage() {
   const darkModeOption = localStorage.getItem('topDarkMode');
   // If it doesn't exist, set to false
   if (darkModeOption === null) {
-    localStorage.setItem('topDarkMode', false);
+    localStorage.setItem('topDarkMode', JSON.stringify(false));
     return false;
   }
   // If it exists, return user's selection
-  return darkModeOption;
+  return JSON.parse(darkModeOption);
 }
 
 async function toggleOption() {
-  const isDarkModeEnabled = localStorage.getItem('topDarkMode');
-  localStorage.setItem('topDarkMode', !isDarkModeEnabled);
-
+  const isDarkModeEnabled = checkStorage();
   if (isDarkModeEnabled) {
     document.removeChild(document.querySelector('#darkModeStyles'));
+    localStorage.setItem('topDarkMode', !isDarkModeEnabled);
   } else {
     const result = await fetch('https://cdn.jsdelivr.net/gh/TheOdinProject/top-dark-theme@master/darkMode.css');
     const css = await result.text();
