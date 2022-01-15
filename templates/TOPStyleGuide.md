@@ -1,3 +1,7 @@
+<!-- Learning Outcomes: Keep old verbiage and bullets; discuss with Bender and Sully -->
+<!-- Project Iterations/Steps: Keep; contact James -->
+<!-- Assignment vs Practice: remove links scattered throughout the lesson; keep Practice and Assignment separated -->
+
 # TOP Markdown Style Guide
 
 [Inspired by google's styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)
@@ -42,11 +46,11 @@ In general, the following layouts should be used for all lessons and projects. T
 
 A BRIEF INTRODUCTION.
 
-### Learning Outcomes
+### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   A LEARNING OUTCOME.
+*   A LESSON OVERVIEW ITEM.
 
 ### CUSTOM SECTION HEADING
 
@@ -55,7 +59,15 @@ CUSTOM SECTION CONTENT.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. A RESOURCE/TASK.
+1. AN ASSIGNMENT ITEM.
+    * AN INSTRUCTION ITEM
+</div>
+
+### Practice
+
+<div class="lesson-content__panel" markdown="1">
+1. A PRACTICE ITEM
+    * A TASK ITEM
 </div>
 
 ### Knowledge Check
@@ -72,23 +84,37 @@ This section contains helpful links to related content. It isn’t required, so 
 
 ~~~
 
-1. `### Introduction`: A brief summary on what the lesson is about and why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
+1. `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
 
-2. `### Learning Outcomes`: A bulleted list of items that provide a general overview of what the student is expected to know or be able to do by the end of the lesson. Replace the `A LEARNING OUTCOME.` text with your own learning outcome, then add any additional bulleted learning outcome items. The lesson should ideally have no more than 7 learning outcomes, but this number might vary by lesson. **If the lesson does not have any learning outcomes, remove this entire section from the lesson.**
+2. `### Lesson Overview`: A bulleted list of items that provide a general overview of what the user will learn about in the lesson. Lesson Overviews should include general, higher level statements that cover the core concepts of the lesson. They should serve and be phrased as a list of key items that a user should be expected to *learn about* throughout the lesson, rather than a list of things they should be able to *do* by the end of it.
 
-3. `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections.
+    Replace the `A LESSON OVERVIEW ITEM.` text with your own lesson overview item, then add any additional bulleted lesson overview items. The lesson should ideally have no more than 7 lesson overview items, but this number might vary by lesson. **If the lesson does not have a lesson overview, remove this entire section from the lesson.**
 
-4. `### Assignment`: A numbered list of external resources the user must read or tasks they must accomplish that counts towards completion of the lesson. Each resource/task should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves, as well as any additional instructions (e.g. what sections to read in an external resource or which exercises to complete). 
+3. `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections. **If the lesson does not have any custom sections, remove this entire section from the lesson.**
 
-    Replace the `A RESOURCE/TASK.` text with your own resource or task, then add any additional numbered assignment items. The assignment should ideally have no more than 3-5 resources and/or tasks. **If the lesson does not have an assignment, remove this entire section from the lesson.**
+4. `### Assignment`: A numbered list of external resources the user must read or watch in order to fully complete the lesson. Each resource should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, a resource should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any exercises within the resource, and whether the user should redirect themselves to additional links within the resource.
 
-5. `### Knowledge Checks`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing the assignment. Each knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or by wrapping text in a `<span>` element with an `id` attribute) or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
+    Replace the `AN ASSIGNMENT ITEM.` text with your own text and a link to the resource, then add any additional numbered assignment items. The assignment should ideally have no more than 3-5 assignment items. **If the lesson does not have an assignment, remove this entire section from the lesson.**
 
-    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson **If the lesson does not have any knowledge checks, remove this entire section from the lesson.**
+    If a resource includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items. If a user should only read specific sections within a resource, each individual section to be read should be its own bulleted instruction item. **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
-    In order to link to a Heading 3 `###` within the lesson, replace the `href` value for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase with any spaces replaced with a hyphen `-`. In order to link to a `<span>` element within the lesson, replace the `href` value with the exact `id` attribute of the `<span>` element. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `href="#creating-a-method"`, and a `<span id="Knowledge-Check-3">` element would be linked to with `href="#Knowledge-Check-3"`.
+5. `### Practice`: A numbered list of practice items that the user must do in order to fully complete the lesson. This can involve following a tutorial, revisiting an older project, completing exercises in one of our exercise repos, and so on.
 
-6. `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the first bulleted resource item with your own resource (using Markdown syntax for links, covered later in this style guide), then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
+    Replace the `A PRACTICE ITEM` text with instructions for what exactly the user must do, as well as a link when necessary. Then add any additional numbered practice items. **If the lesson does not have any practice, remove this entire section from the lesson.**
+
+    If a practice item only requires certain tasks within it to be completed, replace the `A TASK ITEM` text with a single task, then add any additional task items. Each individual task to be completed within a practice item should be its own bulleted task item. **If a practice item does not have any specific tasks to be completed, remove the bulleted `A TASK ITEM` text from it.**
+
+6. `### Knowledge Check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute) or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
+
+    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
+
+    In order to link to a Heading 3 `###` or Heading 4 `####` within the lesson, replace the `href` value for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase and any spaces replaced with a hyphen `-`. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `href="#creating-a-method"`.
+    
+    In order to link to a `<span>` element within the lesson, replace the `href` value with the exact `id` attribute of the `<span>` element (this will be case sensitive).  For example, a `<span id="Knowledge-Check-3">` element would be linked to with `href="#Knowledge-Check-3"`.
+
+7. `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
+
+    **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
 
 ### Project Layout
 
@@ -110,7 +136,7 @@ PRE-ASSIGNMENT SECTION CONTENT.
 
 #### Extra Credit
 
-1.  AN OPTIONAL ADD-ON/USER STORY.
+*   AN OPTIONAL ADD-ON/USER STORY.
 
 </div>
 
@@ -126,7 +152,7 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 4.  `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A REQUIREMENT/USER STORY.` with your own requirement, then add any additional numbered requirement items.
 
-5. `#### Extra Credit`: A numbered list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional numbered add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
+5. `#### Extra Credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
 2. `### POST-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
 
@@ -293,6 +319,10 @@ See the [lesson template](lesson.md) for a more easily copyable lesson file.
 Or, check out the [project template](project.md) for a more easily copyable project file.
 ~~~
 
+### Don't Place Links Throughout Lessons
+
+Links to required reading should not be placed throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional Resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of something unrelated to the lesson are fine to place outside of these two sections.
+
 ## Images
 
 Images in Markdown follow the same syntax as links, except they begin with an exclamation point `!`:
@@ -317,3 +347,9 @@ The following options should be selected when creating a Codepen embed:
 * **Make Code Editable**: "On"
 
 Finally, the **HTML (Recommended)** code option must be the one that is copy + pasted into the lesson.
+
+### Maintainer Instructions
+
+When a user adds a Codepen embed to a lesson, a maintainer should fork the embed to the official [TOP Codepen](https://codepen.io/TheOdinProjectExamples/) account. When necessary, the name of new pens should be updated to better reflect their purpose, e.g. `Simple SVG Example` for a pen showing a simple SVG or `max-width | CSS Responsiveness` for a pen about the `max-width` property.
+
+After forking a pen to the TOP account and ensuring the embeds options from above are selected, the lesson the original embed is from should be updated to include the forked, TOP version instead.
