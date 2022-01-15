@@ -1,4 +1,5 @@
 function enableDarkMode() {
+  console.log('enabled')
     const navbar = document.querySelector('.navbar-nav');
     const userSelection = checkStorage()
     const darkModeItem = createIcon(userSelection)
@@ -13,7 +14,6 @@ function enableDarkMode() {
 
     navbar.appendChild(darkModeItem);
 }
-// 
 
 function checkStorage(){
   const darkModeOption = localStorage.getItem('topDarkMode')
@@ -58,4 +58,6 @@ function createIcon(darkModeEnabled){
   return darkModeButton
 }
 
-enableDarkMode()
+
+document.addEventListener('DOMContentLoaded', () => enableDarkMode())
+
