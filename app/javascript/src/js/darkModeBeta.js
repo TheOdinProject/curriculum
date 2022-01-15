@@ -1,9 +1,12 @@
 /* eslint-disable no-use-before-define */
-function enableDarkMode() {
+async function enableDarkMode() {
   const navbar = document.querySelector('.navbar-nav');
   const userSelection = checkStorage();
   const darkModeButton = createIcon(userSelection);
   navbar.insertBefore(darkModeButton, navbar.lastElementChild);
+  if (userSelection) {
+    await loadStylesheet();
+  }
 }
 
 function checkStorage() {
@@ -66,6 +69,15 @@ function swapIcons(isDarkModeEnabled) {
   const navbar = document.querySelector('.navbar-nav');
   navbar.removeChild(currentButton);
   navbar.insertBefore(newButton, navbar.lastElementChild);
+}
+
+async function loadStylesheet() {
+  const result = await fetch('https://cdn.jsdelivr.net/gh/TheOdinProject/top-dark-theme@master/darkMode.css');
+  const css = await result.text();
+  const style = document.createElement('style');
+  style.innerText = css;
+  style.id = 'darkModeStyles';
+  document.querySelector('head').appendChild(style);
 }
 
 document.addEventListener('DOMContentLoaded', () => enableDarkMode());
