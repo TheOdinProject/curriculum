@@ -41,13 +41,13 @@ You can also use relational selectors \(i.e. `firstElementChild` or `lastElement
 
 ~~~JavaScript
 const container = document.querySelector('#container');
-// select the #container div (don't worry about the syntax, we'll get there)
+// selects the #container div (don't worry about the syntax, we'll get there)
 
 console.dir(container.firstElementChild);                      
-// select the first child of #container => .display
+// selects the first child of #container => .display
 
 const controls = document.querySelector('.controls');   
-// select the .controls div
+// selects the .controls div
 
 console.dir(controls.previousElementSibling);                  
 // selects the prior sibling => .display
@@ -93,7 +93,7 @@ When you have a reference to an element, you can use that reference to alter the
 
 ~~~JavaScript
 const div = document.createElement('div');                     
-// create a new div referenced in the variable 'div'
+// creates a new div referenced in the variable 'div'
 ~~~
 
 #### Adding inline style
@@ -124,7 +124,7 @@ div.style.cssText = "background-color: white" // ok in a string
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
-// if id exists update it to 'theDiv' else create an id
+// if id exists updates it to 'theDiv' else creates an id
 // with value "theDiv"
 
 div.getAttribute('id');                                        
@@ -144,11 +144,11 @@ div.classList.add('new');
 // adds class "new" to your new div
 
 div.classList.remove('new');                                   
-// remove "new" class from div
+// removes "new" class from div
 
 div.classList.toggle('active');                                
-// if div doesn't have class "active" then add it, or if
-// it does, then remove it
+// if div doesn't have class "active" then adds it, or if
+// it does, then removes it
 ~~~
 
 It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
