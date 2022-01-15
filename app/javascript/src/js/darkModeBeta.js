@@ -8,12 +8,10 @@ function enableDarkMode() {
 
 function checkStorage() {
   const darkModeOption = localStorage.getItem('topDarkMode');
-  // If it doesn't exist, set to false
   if (darkModeOption === null) {
     localStorage.setItem('topDarkMode', JSON.stringify(false));
     return false;
   }
-  // If it exists, return user's selection
   return JSON.parse(darkModeOption);
 }
 
