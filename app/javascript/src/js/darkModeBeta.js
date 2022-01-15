@@ -1,13 +1,13 @@
 /* eslint-disable no-use-before-define */
 async function enableDarkMode() {
   const userSelection = checkStorage();
-  toggleIcons(userSelection);
   if (userSelection) {
     await loadStylesheet();
   }
   document.querySelectorAll(
     '.dark-mode-button',
   ).forEach((button) => button.addEventListener('click', toggleOption));
+  toggleIcons(userSelection);
 }
 
 function checkStorage() {
@@ -54,4 +54,4 @@ async function loadStylesheet() {
   document.querySelector('head').appendChild(style);
 }
 
-document.addEventListener('DOMContentLoaded', () => enableDarkMode());
+window.addEventListener('load', () => enableDarkMode());
