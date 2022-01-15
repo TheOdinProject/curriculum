@@ -23,6 +23,9 @@
 
     <%= stylesheet_pack_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+    <% if cookies[:theme] == "dark" %>
+      <%= stylesheet_link_tag 'https://cdn.jsdelivr.net/gh/TheOdinProject/top-dark-theme@master/darkMode.css', media: 'all' %>
+    <% end %>
   </head>
 
   <body class="line-numbers">
