@@ -8,7 +8,7 @@ function enableDarkMode() {
 
     darkModeItem.querySelector("input").addEventListener('click', async e => {
         if(e.target.checked) {
-            const result = await fetch("https://raw.githubusercontent.com/TheOdinProject/top-dark-theme/master/darkMode.css");
+            const result = await fetch("https://cdn.jsdelivr.net/gh/TheOdinProject/top-dark-theme@master/darkMode.css");
             const css = await result.text();
             const style = document.createElement('style');
             style.innerText = css;
