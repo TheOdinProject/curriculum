@@ -4,7 +4,7 @@
 
 # TOP Markdown Style Guide
 
-[Inspired by google's styleguide](https://github.com/google/styleguide/edit/gh-pages/docguide/style.md)
+[Inspired by google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
 
 TOP uses Markdown for its lessons and projects to be easily read and edited, and to get properly formatted HTML for the TOP website. 
 
@@ -59,7 +59,7 @@ CUSTOM SECTION CONTENT.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. AN ASSIGNMENT ITEM.
+1. A RESOURCE ITEM.
     * AN INSTRUCTION ITEM
 </div>
 
@@ -94,7 +94,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
 4. `### Assignment`: A numbered list of external resources the user must read or watch in order to fully complete the lesson. Each resource should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, a resource should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any exercises within the resource, and whether the user should redirect themselves to additional links within the resource.
 
-    Replace the `AN ASSIGNMENT ITEM.` text with your own text and a link to the resource, then add any additional numbered assignment items. The assignment should ideally have no more than 3-5 assignment items. **If the lesson does not have an assignment, remove this entire section from the lesson.**
+    Replace the `A RESOURCE ITEM.` text with your own text and a link to the resource, then add any additional numbered resource items. The assignment should ideally have no more than 3-5 resource items. **If the lesson does not have an assignment, remove this entire section from the lesson.**
 
     If a resource includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items. If a user should only read specific sections within a resource, each individual section to be read should be its own bulleted instruction item. **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
@@ -160,32 +160,34 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 ### ATX-style headings
 
-Use Heading 3 `###` and Title Case for section titles:
+Use Heading 3 `###` and [Wikipedia Style Title Case](https://titlecaseconverter.com/rules/#WP) for main section titles:
 
 ~~~markdown
 ### Section Heading
 ~~~
+
+Use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Title Case, being sure to select the Wikipedia "Styles" option.
 
 ### Add spacing to headings
 
-Prefer spacing after `###` and newlines before and after:
+Prefer spacing after the hashes `###` of a heading, and newlines before and after a heading:
 
 ~~~markdown
-...text before.
+Text before...
 
 ### Section Heading
 
-Text after...
+...text after.
 ~~~
 
-### Sub-Heading
+### Sub-heading
 
-Use Heading 4 `####` for sub-headings that are on their own line and `**Sub-heading**` for inline:
+Use Title Case and either Heading 4 `####` for sub-headings that are on their own line or `**Sub-heading**` for inline:
 
 ~~~markdown
 ...text before.
 
-#### Sub Heading
+#### Sub-heading
 
 Text after...
 
@@ -319,9 +321,9 @@ See the [lesson template](lesson.md) for a more easily copyable lesson file.
 Or, check out the [project template](project.md) for a more easily copyable project file.
 ~~~
 
-### Don't Place Links Throughout Lessons
+### Don't place links throughout lessons
 
-Links to required reading should not be placed throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional Resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of something unrelated to the lesson are fine to place outside of these two sections.
+Links to required reading should not be placed throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional Resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of a term are fine to place outside of these two sections.
 
 ## Images
 
