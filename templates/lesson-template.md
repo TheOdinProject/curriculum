@@ -1,26 +1,38 @@
 ### Introduction
 
-A brief introduction.
+A BRIEF INTRODUCTION.
 
 ### Learning Outcomes
 
-*   A learning outcome.
+This section contains a general overview of topics that you will learn in this lesson.
 
-### Custom Section Heading
+*   A LESSON OVERVIEW ITEM.
 
-Custom section content.
+### CUSTOM SECTION HEADING
+
+CUSTOM SECTION CONTENT.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. A resource/task.
+
+1.  A RESOURCE ITEM
+    *   AN INSTRUCTION ITEM
+</div>
+
+### Practice
+
+<div class="lesson-content__panel" markdown="1">
+
+1.  A PRACTICE ITEM
+    *   A TASK ITEM
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="A knowledge check URL">A knowledge check question.</a>
+*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
 
 ### Additional Resources
 
