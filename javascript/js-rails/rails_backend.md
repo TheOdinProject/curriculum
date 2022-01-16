@@ -23,21 +23,31 @@ If you skipped Ruby and/or Ruby on Rails or are on the [full-stack JavaScript pa
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
 
-#### With Ruby on Rails
+<details markdown="block">
+<summary class="dropDown-header">With Ruby on Rails
+</summary>
 
  - Explain how "unobtrusive JavaScript" works
  - Explain how to pass data from your Rails application to your JavaScript
  - Explain why you should use AJAX to load large batches of data
 
-#### With Firebase
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">With Firebase
+</summary>
 
  - Explain which services are offered by Firebase
  - Explain how to set up your app to use those services from Firebase Hosting
  - Explain how to set up your app to communicate with and/or pass data to and from the various Firebase services
 
+</details>
+
 ### Assignment
 
-#### With Ruby on Rails
+<details markdown="block">
+<summary class="dropDown-header">With Ruby on Rails
+</summary>
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -46,7 +56,11 @@ By the end of this lesson, you should be able to:
 3. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
 </div>
 
-#### With Firebase
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">With Firebase
+</summary>
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -56,29 +70,47 @@ By the end of this lesson, you should be able to:
     * **Caution:** If you're *not* going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look at the section below Step 4, there should be a link, which directs you to the "Available Libraries" page. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
 </div>
 
+</details>
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-#### With Ruby on Rails
+<details markdown="block">
+<summary class="dropDown-header">With Ruby on Rails
+</summary>
 
 * [Grabbing your Rails form CSRF token with JavaScript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
 * [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
 
-#### With Firebase
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">With Firebase
+</summary>
 
 * This [video](https://www.youtube.com/watch?v=zQyrwxMPm88) to reinforce the learnings from [Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0).
 
+</details>
+
 ### Knowledge Check
 
-#### With Ruby on Rails
+<details markdown="block">
+<summary class="dropDown-header">With Ruby on Rails
+</summary>
 
 * <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#locations" > How do you load custom JavaScript in a given Rails view page? </a>
 * <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript" >How does "unobtrusive JavaScript" work?</a>
 * <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#parameters" >How can you pass data from your Rails app to your JavaScript?</a>
 * <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#an-introduction-to-ajax" >Why would you want to use AJAX to load large batches of data?</a>
 
-#### With Firebase
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">With Firebase
+</summary>
 
  - <a class="knowledge-check-link" href="https://firebase.google.com/products-build" >Which services does Firebase offer?</a>
  - <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" >How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
  - <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" >How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>
+
+</details>
