@@ -63,9 +63,9 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://javascript.info/types#objects-and-symbols">Which data type is NOT primitive?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/types#the-null-value">What is the relationship between null and undefined?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#single_quotes_vs._double_quotes">What is the difference between single, double, and backtick quotes for strings?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#template_literals"> What is the term for embedding variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#template_literals"> Which type of quote lets you embed variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#template_literals">How do you embed variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings"> What is the term for embedding variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings"> Which type of quote lets you embed variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">How do you embed variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you escape characters in a string?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What are methods?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between slice/substring/substr?</a>

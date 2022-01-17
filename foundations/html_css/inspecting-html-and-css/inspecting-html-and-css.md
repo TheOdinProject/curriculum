@@ -1,6 +1,6 @@
 ### Introduction
 
-Being able to inspect and debug your HTML and CSS is critical to frontend development. This lesson will take us through the Chrome Dev Tools, which allow you to see detailed information about your elements and CSS rules, as well as assist you in finding and fixing problems in your code. If you're using Firefox or some other non-Chrome browser, you can follow along, as the majority of the tools look and function similarly for each browser, but you may need to Google a bit or check out the documentation for your browser of choice if you get stuck.
+Being able to inspect and debug your HTML and CSS is critical to frontend development. This lesson will take us through the Chrome Dev Tools, which allow you to see detailed information about your elements and CSS rules, as well as assist you in finding and fixing problems in your code.
 
 ### Learning Outcomes
 
@@ -44,12 +44,6 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 - [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
 - [CSS](https://developer.chrome.com/docs/devtools/#css): be sure to follow along with any interactive instructions! Note that while you haven't used CSS Grid yet, you should still read the "Inspect CSS Grid" section in order to be familiar with how to inspect it in case you see it in the wild.
 - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
-
-For Firefox users:
-
-- [Firefox Dev Tools](https://developer.mozilla.org/en-US/docs/Tools)
-- [Style Editor](https://developer.mozilla.org/en-US/docs/Tools/Style_Editor)
-- [Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 </div>
 
 ### Additional Resources
