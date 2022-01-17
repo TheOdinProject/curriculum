@@ -80,7 +80,7 @@ You still need to pass it the `:post` parameter (which indicates that your form 
 
 The `:author_id` input to the `#select` helper above represents not just what the chosen value should be called (as in the `#select_tag`) but also which column name it represents in your original (in this case Post) model.  This may be a bit annoying at first since you can't just name your choice whatever you want.
 
-If you have a `#form_for` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
+If you have a `#form_with` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
 
 ~~~ruby
   # app/views/posts/new.html.erb
@@ -116,17 +116,17 @@ We'll do a broad overview of the process here:
 ~~~
 
 2. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
-3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_for` inside your existing `#form_for` form.
+3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
 
-There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_for`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
+There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
 ~~~ruby
-  <%= form_for @user do |f| %>
+  <%= form_with model: @user do |f| %>
     ...
     <% 3.times do %>
-      <%= f.fields_for @user.shipping_addresses.build do |addy_form| %>
+      <%= f.fields_for @user.shipping_addresses.build do |sub_form| %>
         ...
-        <%= addy_form.text_field :zip_code %>
+        <%= sub_form.text_field :zip_code %>
         ...
       <% end %>
     <% end %>
@@ -152,7 +152,7 @@ If you've got a `has_many :through` relationship, you'll likely need to go one a
 
 Sometimes, despite all the nice helpers Rails gives you, you just want to do something that's not standard.  You should first wonder whether this is the easiest and most straightforward way to do things.  If it passes the smell test, then go ahead and build your form.
 
-It's often easiest (and good practice while you're learning) to start with the most basic of HTML forms.  If you don't understand what's going on in the basic HTML (and remember to include your CSRF token), then you'll be hopeless trying to use helpers.  Once you've got a good handle on things, gradually bring in the Rails helpers like `#form_tag` and `#form_for`.
+It's often easiest (and good practice while you're learning) to start with the most basic of HTML forms.  If you don't understand what's going on in the basic HTML (and remember to include your CSRF token), then you'll be hopeless trying to use helpers.  Once you've got a good handle on things, gradually bring in the Rails helpers like `#form_tag` and `#form_with`.
 
 Don't get discouraged if you get some real head-scratcher moments when building nonstandard forms.  It just takes some experience to feel comfortable.  And if things are too out of hand, you may need to re-evaluate your approach (what exactly are you hoping to accomplish with your complex form?) and start again.
 
