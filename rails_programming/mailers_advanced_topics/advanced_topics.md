@@ -323,7 +323,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#singular-resources">What would the routes file line for a singular resource look like?</a>
 * <a class="knowledge-check-link" href="#nested-routes">How do you nest one resource inside another in the routes file?</a>
 * <a class="knowledge-check-link" href="#member-and-collection-routes">When do you use the `#member` method?</a>
-* <a class="knowledge-check-link" href="#member-and-collection-routes">When do you use the `#collection` method?</a>
 * <a class="knowledge-check-link" href="#redirects-and-wildcard-routes">When do you use a redirect?</a>
 * <a class="knowledge-check-link" href="#advanced-layouts-nesting-layouts-and-passing-information">What are some techniques for rendering multiple layouts for one page?</a>
 * <a class="knowledge-check-link" href="#metaprogramming-rails">What does the `#send` method do?</a>
+* <a class="knowledge-check-link" href="#design-patterns">What are the five design principles represented by the SOLID acronym?</a>
