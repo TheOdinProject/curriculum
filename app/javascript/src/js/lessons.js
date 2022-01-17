@@ -44,11 +44,12 @@ function getInnerText(heading) {
 }
 
 function isCommonHeading(heading) {
-  return LESSON_HEADINGS.indexOf(heading) > -1;
+  return LESSON_HEADINGS.includes(heading.trim());
 }
 
 function filterHeadings() {
   const lessonHeadings = getElements('.lesson-content h3');
+
   return Array.prototype.slice
     .call(lessonHeadings)
     .map(getInnerText)
