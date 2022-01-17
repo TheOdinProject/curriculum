@@ -12,6 +12,7 @@ Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully
   - Controllers - [lesson](rails_basics/controller_basics.md)
   - Views - [lesson](rails_basics/views.md)
   - The Asset Pipeline - [lesson](rails_basics/asset_pipeline.md)
+  - Rails 7 Import Map - [lesson](rails_basics/importmap.md)
   - Deployment - [lesson](rails_basics/deployment.md)
   - [Blog App](rails_basics/project_blog_app.md)
 - Active Record Basics
