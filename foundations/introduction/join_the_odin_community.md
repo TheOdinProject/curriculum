@@ -129,7 +129,7 @@ If the question does not reveal where they are in the curriculum, ask them so th
 If the question seems confusing or ambiguous, ask for more clarity, or politely link them to our bot command `/question`, which links to the [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) article.
 
 #### 7. Ask for live code
-If the question needs to have live code to fully understand or debug, ask them use [replit](https://replit.com) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
+If the question needs to have live code to fully understand or debug, ask them to use [replit](https://replit.com) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
 
 #### 8. Do not answer googleable questions
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community. 
