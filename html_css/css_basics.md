@@ -1,6 +1,6 @@
 ### Introduction
 
-This again should represent a review from what you've already covered in the [Foundations Lesson on HTML/CSS](/courses/foundations/lessons/html-and-css-basics), but if you're unable to answer the questions posed below in the "Learning Outcomes" section, you could probably benefit from the review of the basic stuff.
+This again should represent a review from what you've already covered in the [Foundations Lesson on HTML/CSS](/courses/foundations/lessons/introduction-to-html-and-css), but if you're unable to answer the questions posed below in the "Learning Outcomes" section, you could probably benefit from the review of the basic stuff.
 
 ### Learning Outcomes
 
