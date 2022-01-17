@@ -1,13 +1,24 @@
 ### Introduction
 You should be very familiar with the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods. To prove that there's no magic to it, you're going to rebuild those methods.
 
-### Assignment
+### (Beta) New Assignment
+<div class="lesson-content__panel" markdown="1">
+We have created a new repo where you can rebuild the enumerable methods and check they work as expected by running predefined tests against them.
+
+1. Fork and clone our [custom enumerables repo](https://github.com/TheOdinProject/custom_enumerable_project)
+2. Follow the [instructions in the README](https://github.com/TheOdinProject/custom_enumerable_project#installation) to get the repo setup locally
+3. Rebuild each of [the methods in this table](https://github.com/TheOdinProject/custom_enumerable_project#methods) and make sure they all pass the tests associated with them.
+4. (Optional) Let us know what you think of the new approach to this project in our [Ruby on Rails channel on Discord](https://discord.com/channels/505093832157691914/690591236922409012). We'd love to have your feedback!
+
+</div>
+
+### Old Assignment
 <div class="lesson-content__panel" markdown="1">
 
-  This project is a great opportunity to get comfortable using `yield` and the `#call` methods. 
-  
-  For this assignment, you will add your new methods onto the existing Enumerable module. Ruby makes this easy for you because any class or module can be modified by doing something like this:
-  
+This project is a great opportunity to get comfortable using `yield` and the `#call` methods.
+
+For this assignment, you will add your new methods onto the existing Enumerable module. Ruby makes this easy for you because any class or module can be modified by doing something like this:
+
 ~~~ruby
   module Enumerable
     def my_each
@@ -17,7 +28,7 @@ You should be very familiar with the Enumerable module that gets mixed into the 
 ~~~
 
   For each method, create a script to compare your method to Ruby's enumerable method, such as:
-  
+
 ~~~ruby
 puts "my_each vs. each"
 numbers = [1, 2, 3, 4, 5]
