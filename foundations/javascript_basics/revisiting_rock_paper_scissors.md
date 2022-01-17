@@ -53,7 +53,7 @@ For example: if you have a bug in a new feature you’re working on that you can
    3. Add a `div` for displaying results and change all of your `console.log`s into DOM methods.  
    4. Display the running score, and announce a winner of the game once one player reaches 5 points.  
    5. You will likely have to refactor (rework/rewrite) your original code to make it work for this. That's OK! Reworking old code is an important part of a programmer's life.  
-   6. Once you're all done with your UI and make sure everything's satisfactory, it's time to merge our current branch `rps-ui` to our main branch.  
+   6. Once you're all done with your UI and make sure everything's satisfactory, and your changes are commited to the `rps-ui` branch it's time to merge it to our main branch.
 3. Now let's take a look at how we can merge these changes back to our `main` branch.  
    1. Checkout the branch we want to merge INTO i.e. `main` with the command `git checkout main`. 
    2. Now let's merge our `rps-ui` branch into `main`, our current branch, with `git merge rps-ui`.  
