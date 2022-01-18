@@ -5,9 +5,9 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
- - How to create a repository on GitHub
- - How to get files to and from GitHub
- - How to take "snapshots" of your code
+ - Know how to create a repository on GitHub
+ - Know how to get files to and from GitHub
+ - Know how to take "snapshots" of your code
 
 ### Assignment
 
