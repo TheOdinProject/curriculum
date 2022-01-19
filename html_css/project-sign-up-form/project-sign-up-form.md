@@ -1,8 +1,6 @@
 ### Introduction
 This project is intended to give you a chance to flex some of the new items you've been absorbing over the past few lessons. This time it's a sign-up form for an imaginary service.
 
-![project](./sign-up-form.png)
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -11,7 +9,7 @@ This project is intended to give you a chance to flex some of the new items you'
 
 1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
 2. Set up your git repository (refer to past projects if you need a refresher).
-3. Download a full-resolution copy of [the design file](INSERT LINK HERE), and get a general idea for how you're going to need to lay things out in your HTML document.
+3. Download a full-resolution copy of [the design file](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/project-sign-up-form/sign-up-form.png), and get a general idea for how you're going to need to lay things out in your HTML document.
 
 #### Step 2: Gather Assets
 
