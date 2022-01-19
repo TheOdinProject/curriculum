@@ -1,7 +1,7 @@
 ### Introduction
 For your final HTML/CSS project, you're going to create a responsive personal portfolio site. When you get to the point that you want to start sharing your work, or applying for jobs it's useful to have a well-designed portfolio to share.
 
-We're providing a full design in 3 different sizes, full desktop, tablet and mobile, and this is the first real project where you should take your time and make sure that it looks acceptable at _any_ screensize.
+We're providing a full design in 3 different sizes, full desktop, tablet and mobile, and this is the first real project where you should take your time and make sure that it looks acceptable at _any_ screen size.
 
 Also, since this is your _personal_ portfolio feel free to tweak the design however you want. Pick your own fonts and colors and use something other than a stock-photo for your header... on this project more than any other, feel free to really make it your own!
 
