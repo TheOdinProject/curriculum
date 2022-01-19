@@ -22,7 +22,7 @@ Also, since this is your _personal_ portfolio feel free to tweak the design howe
 3. In the design we have icon-links for GitHub, LinkedIn and Twitter. Obviously feel free to add whatever links you want to your own site.  We got those icons from [https://devicon.dev/](https://devicon.dev/).
 4. Other icons (phone, email and external link) were downloaded as SVGs from [https://materialdesignicons.com/](https://materialdesignicons.com/).
 
-#### Step 2: Some Tips!
+#### Step 3: Some Tips!
 
 1. As you might expect, you can organize your work on this project however you please. We've given you many tips over the past several lessons, and you are likely already comfortable starting from a blank page. 
 2. If you like being told what to do: The author of this lesson feels most comfortable starting out with the larger sections of the layout, and then working from the top of the page to the bottom. In other words, get the various sections in more or less the right place (header, projects, contact etc.) while ignoring a lot of specific style and content details, then go back through from the top-to-bottom filling-in, styling and cleaning up everything.
