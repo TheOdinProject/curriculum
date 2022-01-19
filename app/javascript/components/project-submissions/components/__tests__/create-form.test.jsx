@@ -148,28 +148,4 @@ describe('CreateForm', () => {
       expect(screen.queryByTestId('live-preview-url')).not.toBeInTheDocument();
     });
   });
-
-  describe('When user is not logged in', () => {
-    beforeEach(() => {
-      render(
-        <ProjectSubmissionContext.Provider value={{ lesson: { has_live_preview: true } }}>
-          <CreateForm
-            onSubmit={onSubmit}
-            userId={null}
-            onClose={onClose}
-          />
-          ,
-        </ProjectSubmissionContext.Provider>,
-      );
-    });
-
-    test('does not display a submit button', () => {
-      expect(screen.queryByTestId('submit-btn')).not.toBeInTheDocument();
-    });
-
-    test('displays sign in instructions', () => {
-      expect(screen.queryByTestId('sign-in-instructions').innerHTML)
-        .toEqual('Please <a href="/login">sign in</a> to add a project submission.');
-    });
-  });
 });

@@ -9,25 +9,10 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
 
   const { errors } = formState;
 
-  if (userId === null) {
-    return (
-      <div className="text-center">
-        <h1 className="bold">Please Sign in</h1>
-        <p>
-          Please
-          {' '}
-          <a href="/login">sign in</a>
-          {' '}
-          to flag this project submission.
-        </p>
-      </div>
-    );
-  }
-
   if (formState.isSubmitSuccessful) {
     return (
-      <div className="text-center">
-        <h1 className="bold">Thanks for helping us keep our community safe!</h1>
+      <div className="text-center text-3xl">
+        <h2 className="bold">Thanks for helping us keep our community safe!</h2>
         <p>Our Moderators will review this issue shortly.</p>
       </div>
     );
@@ -36,7 +21,7 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
   /* eslint-disable react/jsx-props-no-spreading */
   return (
     <div>
-      <h1 className="text-center accent">Flag Submission</h1>
+      <h1 className="text-center page-heading-title">Flag Submission</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <input

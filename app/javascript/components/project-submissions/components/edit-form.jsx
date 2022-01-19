@@ -33,7 +33,7 @@ const EditForm = ({
   if (formState.isSubmitSuccessful) {
     return (
       <div className="text-center">
-        <h1 className="accent">Thanks for Updating Your Solution!</h1>
+        <h1 className="page-heading-title">Thanks for Updating Your Solution!</h1>
         <button type="button" className="button button--primary" onClick={onClose} data-test-id="close-btn">Close</button>
       </div>
     );
@@ -42,7 +42,7 @@ const EditForm = ({
   /* eslint-disable react/jsx-props-no-spreading */
   return (
     <div data-test-id="edit-form">
-      <h1 className="text-center accent">Edit Your Project</h1>
+      <h1 className="text-center page-heading-title">Edit Your Project</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <input type="hidden" {...register('id')} value={submission.id} />

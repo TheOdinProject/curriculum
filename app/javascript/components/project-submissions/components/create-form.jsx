@@ -23,25 +23,10 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
     errors,
   } = formState;
 
-  if (userId === null) {
-    return (
-      <div className="text-center">
-        <h1 className="bold">Please Sign in</h1>
-        <p data-test-id="sign-in-instructions">
-          Please
-          {' '}
-          <a href="/login">sign in</a>
-          {' '}
-          to add a project submission.
-        </p>
-      </div>
-    );
-  }
-
   if (formState.isSubmitSuccessful) {
     return (
       <div className="text-center">
-        <h1 className="accent" data-test-id="success-message">Thanks for Submitting Your Solution!</h1>
+        <h1 className="page-heading-title" data-test-id="success-message">Thanks for Submitting Your Solution!</h1>
         <button type="button" className="button button--primary" onClick={onClose} data-test-id="close-btn">Close</button>
       </div>
     );
@@ -50,7 +35,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
   /* eslint-disable react/jsx-props-no-spreading */
   return (
     <div>
-      <h1 className="text-center accent">Upload Your Project</h1>
+      <h1 className="text-center page-heading-title">Upload Your Project</h1>
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form__section">

@@ -11,20 +11,6 @@ describe('FlagForm', () => {
     onSubmit = jest.fn();
   });
 
-  describe('when the user is not signed in', () => {
-    test('prompts the user to sign in', () => {
-      render((
-        <FlagForm
-          userId={null}
-          onSubmit={onSubmit}
-          submission={{ id: 47 }}
-        />
-      ));
-
-      expect(screen.getByRole('link', { name: /sign in/i })).toBeInTheDocument();
-    });
-  });
-
   describe('when the reason is empty', () => {
     beforeEach(async () => {
       render(
