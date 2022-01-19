@@ -17,7 +17,7 @@ This project is intended to give you a chance to flex some of the new items you'
 2. Pick an external font for the 'logo' section. We've used [Norse Bold](https://github.com/TheOdinProject/theodinproject/blob/main/app/assets/fonts/Norse-Bold.otf), but you can use any font you like.
 3. For the image-sidebar, we've used [this Odin logo](INSERT LINK HERE). Again, feel free to replace it.
 
-#### Step 2: Some Tips!
+#### Step 3: Some Tips!
 
 1. How you attack this project is mostly up to you, but it is wise to begin by scaffolding out the structure of the page, and then take the various sections one by one.
 2. The area behind the "ODIN" logo is a div that has a dark, but semi-transparent background color. This enhances the readability of the text against the busy background image.
