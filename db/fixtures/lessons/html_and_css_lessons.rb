@@ -489,5 +489,12 @@ def html_and_css_lessons
       url: '/html_css/responsive-css/media-queries.md',
       identifier_uuid: '61698363-3d2e-4f25-99d5-29ccdefdc856'
     },
+    'Personal Portfolio' => {
+      title: 'Personal Portfolio',
+      description: 'Create a fully responsive personal portfolio.',
+      is_project: true,
+      url: '/html_css/project_portfolio/project-portfolio.md',
+      identifier_uuid: '0994b947-8e37-4d02-a370-744e5f952217'
+    },
   }
 end
