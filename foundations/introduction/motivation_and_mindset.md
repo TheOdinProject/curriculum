@@ -41,7 +41,7 @@ When you find yourself questioning your abilities, reflect on the successes you 
 To learn more about the growth mindset, check out these resources:
 
 * [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
-* [Grit](https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit)
+* [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
 * [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 
 ### The Learning Process
