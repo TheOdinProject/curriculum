@@ -3,8 +3,6 @@ class ApplicationController < ActionController::Base
 
   before_action :configure_permitted_parameters, if: :devise_controller?
   before_action :set_sentry_user, if: :current_user
-  before_action :set_theme
-
   before_action :store_user_location!, if: :storable_location?
 
   rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
@@ -59,15 +57,6 @@ class ApplicationController < ActionController::Base
 
     devise_parameter_sanitizer.permit(:account_update) do |u|
       u.permit(:email, :username, :current_password, :password, :password_confirmation, :learning_goal)
-    end
-  end
-
-  def set_theme
-    if params[:theme].present?
-      theme = params[:theme].to_sym
-      # session[:theme] = theme
-      cookies[:theme] = theme
-      redirect_to(request.referer || root_path)
     end
   end
 end
