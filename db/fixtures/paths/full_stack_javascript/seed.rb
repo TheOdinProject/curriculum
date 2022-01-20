@@ -8,8 +8,8 @@
   path.position = 3
 end
 
-load './db/fixtures/paths/full_stack_javascript/courses/1_javascript.rb'
 load './db/fixtures/paths/full_stack_javascript/courses/2_html_and_css.rb'
+load './db/fixtures/paths/full_stack_javascript/courses/1_javascript.rb'
 load './db/fixtures/paths/full_stack_javascript/courses/3_node_js.rb'
 load './db/fixtures/paths/full_stack_javascript/courses/4_getting_hired.rb'
 
