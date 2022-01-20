@@ -42,6 +42,8 @@ By the end of this lesson, you should be able to do the following:
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Git and GitHub in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
+* [What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
+* [What is Git](https://www.atlassian.com/git/tutorials/what-is-git)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
