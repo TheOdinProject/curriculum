@@ -43,7 +43,7 @@ This lesson includes recommendations, not the "right" or "wrong" way of using Fl
 ### Assignments
 <div class="lesson-content__panel" markdown="1">
 
-1. If you haven't already, read through the previously mentioned [article by CSS-Tricks](https://css-tricks.com/css-grid-replace-flexbox/
+1. If you haven't already, read through the previously mentioned [article by CSS-Tricks](https://css-tricks.com/css-grid-replace-flexbox/)
 
 2. To look at many different use cases for Grid, have a look at [this video by Wes Bos](https://www.youtube.com/watch?v=HYji_V2aYa0)
 
