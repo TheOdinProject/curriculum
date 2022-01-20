@@ -446,19 +446,19 @@ def html_and_css_lessons
       url: '/html_css/grid-lessons/advanced_grid_properties.md',
       identifier_uuid: '4247602b-1246-43e8-9769-22a64812f75a'
     },
-    'Grid Holy Grail' => {
-      title: 'Holy Grail: Grid Version',
-      description: "Use what you've learned to Complete this project",
-      is_project: true,
-      url: 'html_css/grid-lessons/grid_project.md',
-      identifier_uuid: 'da85e71c-c6d9-49c7-8ab2-3e776f17d863'
-    },
     'Grid vs. Flex' => {
       title: 'Conclusion',
       description: 'Finish our study of Grid by comparing it to Flexbox',
       is_project: false,
       url: 'html_css/grid-lessons/grid-conclusion.md',
       identifier_uuid: 'eee5a7e7-bbcc-432b-bdfb-799276fc47c2'
+    },
+    'Admin Dashboard' => {
+      title: 'Admin Dashboard',
+      description: "Use what you've learned to Complete this project",
+      is_project: true,
+      url: 'html_css/grid-lessons/project-dashboard/project-dashboard.md',
+      identifier_uuid: 'c35f0b7b-4d21-4d26-91e2-4af78519ae5f'
     },
     # Responsive Design
     'Introduction to Responsive Design' => {

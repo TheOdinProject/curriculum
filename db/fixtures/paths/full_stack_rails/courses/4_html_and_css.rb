@@ -76,8 +76,8 @@ course.add_section do |section|
     html_and_css_lessons.fetch('Creating a Grid'),
     html_and_css_lessons.fetch('Positioning Grid Elements'),
     html_and_css_lessons.fetch('Advanced Grid Properties'),
-    html_and_css_lessons.fetch('Grid Holy Grail'),
     html_and_css_lessons.fetch('Grid vs. Flex'),
+    html_and_css_lessons.fetch('Admin Dashboard'),
   )
 end
 
