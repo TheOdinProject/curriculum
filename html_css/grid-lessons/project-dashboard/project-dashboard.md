@@ -2,7 +2,7 @@
 
 Now that you've had plenty of practice using Grid, we are going to build a full dashboard design. For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work. Go back through the lessons or practice assignments if you need a refresher.
 
-![dashboard project](./dashboard-project.png)
+![dashboard project](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png)
 
 ### Assignment
 
@@ -12,7 +12,7 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 
 1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
 2. Set up your Git repository (refer to past projects if you need a refresher).
-3. Download a full-resolution copy of the [project design file](LINK) and get a general idea for how you're going to need to lay things out in your HTML document.
+3. Download a full-resolution copy of the [project design file](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png) and get a general idea for how you're going to need to lay things out in your HTML document.
 
 #### Step 2: Layout
 
