@@ -31,7 +31,7 @@ end
 course.add_section do |section|
   section.title = 'Intermediate CSS Concepts'
   section.description = "Our Foundations course taught you the basics of CSS, but here we'll really dive into what you need to know to make your web projects look however you want."
-  section.identifier_uuid = '92d15409-837a-44cb-9183-6a5fa5b7c5c2'
+  section.identifier_uuid = '0f2b3262-25b7-48d1-bc85-1a79df12e9e5'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Default Styles'),
@@ -54,7 +54,7 @@ end
 course.add_section do |section|
   section.title = 'Grid'
   section.description = 'Learn how to use the new CSS Grid syntax to build your layouts'
-  section.identifier_uuid = 'd4614f98-b9d5-494f-b551-8842d4aa73f9'
+  section.identifier_uuid = '8ec95c47-baf5-4116-ac61-0672f6a0ed09'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction to Grid'),
