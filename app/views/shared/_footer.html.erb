@@ -1,8 +1,6 @@
 <footer id="footer">
   <div class="footer-brand">
-     <%= link_to root_path, class: 'logo' do %>
-        <%= image_tag 'logo.svg' , alt: "Odin Logo" , class: 'hidden md:block h-15 w-auto' %>
-      <% end %>
+    <%= render LogoComponent.new(theme: cookies[:theme], classes: 'hidden md:block h-15 w-auto') %>
   </div>
   <div class="footer-social">
     <%= link_to "https://github.com/TheOdinProject" do %><span aria-label="github" class="accent fab fa-github"/><% end %>

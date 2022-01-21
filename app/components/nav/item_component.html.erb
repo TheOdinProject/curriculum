@@ -1,8 +1,8 @@
 <% if mobile %>
-  <%= link_to path, class: "text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-base font-medium #{'bg-gray-100 text-gray-900' if active?}", data: { test_id: test_id }  do %>
+  <%= link_to path, class: "odin-dark-nav-item text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-base font-medium #{'bg-gray-100 text-gray-900' if active?}", data: { test_id: test_id }  do %>
     <%= inline_svg_tag icon_path, class: "text-gray-400 group-hover:text-gray-500 mr-4 h-6 w-6", aria: true, title: "#{text} icon" %>
     <%= text %>
   <% end %>
 <% else %>
-  <%= link_to text, path, class: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-semibold #{ 'border-gold-500 text-gray-900' if active?}", data: { test_id: test_id } %>
+  <%= link_to text, path, class: "odin-dark-nav-item border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-semibold #{ 'border-gold-500 text-gray-900' if active?}", data: { test_id: test_id } %>
 <% end %>

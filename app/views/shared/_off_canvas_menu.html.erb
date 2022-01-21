@@ -12,10 +12,10 @@
     data-action="click->mobile-menu#close"
     class="fixed inset-0 bg-gray-600 bg-opacity-75 hidden"
     aria-hidden="true"
-    data-transition-enter="transition-opacity ease-linear duration-300"
+    data-transition-enter="transition-opacity ease-linear duration-200"
     data-transition-enter-start="transform opacity-0"
     data-transition-enter-end="transform opacity-100"
-    data-transition-leave="transition-opacity ease-linear duration-300"
+    data-transition-leave="transition-opacity ease-linear duration-200"
     data-transition-leave-start="transform opacity-100"
     data-transition-leave-end="transform opacity-0"
   >
@@ -23,11 +23,11 @@
 
     <div
       data-mobile-menu-target="menu"
-      class="relative flex-1 flex flex-col max-w-xs w-full bg-white focus:outline-none hidden"
-      data-transition-enter="transition ease-in-out duration-300 transform"
+      class="odin-dark-mobile-menu relative flex-1 flex flex-col max-w-xs w-full bg-white focus:outline-none hidden"
+      data-transition-enter="transition ease-in-out duration-200 transform"
       data-transition-enter-start="-translate-x-full"
       data-transition-enter-end="translate-x-0"
-      data-transition-leave="transition ease-in-out duration-300 transform"
+      data-transition-leave="transition ease-in-out duration-200 transform"
       data-transition-leave-start="translate-x-0"
       data-transition-leave-end="-translate-x-full"
     >
@@ -36,10 +36,10 @@
         data-mobile-menu-target="closeButton"
         class="absolute top-2 right-2 -mr-12 pt-3 hidden"
         data-action="click->mobile-menu#close"
-        data-transition-enter="transition ease-in-out duration-300"
+        data-transition-enter="transition ease-in-out duration-200"
         data-transition-enter-start="transform opacity-0"
         data-transition-enter-end="transform opacity-100"
-        data-transition-leave="transition ease-in duration-300"
+        data-transition-leave="transition ease-in duration-200"
         data-transition-leave-start="transform opacity-100"
         data-transition-leave-end="transform opacity-0"
       >
@@ -74,9 +74,11 @@
           <div class="px-2 space-y-1">
             <% if user_signed_in? %>
               <%= render Nav::ItemComponent.new(path: edit_user_registration_path, text: 'Settings', test_id: 'nav-settings', icon_path: 'icons/gear.svg', mobile: true) %>
+               <%= render ThemeSwitcherComponent.new(theme: cookies[:theme], mobile: true) %>
               <%= render Nav::ItemComponent.new(path: logout_path, text: 'Log out', test_id: 'nav-logout', icon_path: 'icons/log-out.svg', mobile: true) %>
             <% else %>
               <%= render Nav::ItemComponent.new(path: sign_up_path, text: 'Get started', test_id: 'nav-signup', icon_path: 'icons/lightning-bolt.svg', mobile: true) %>
+               <%= render ThemeSwitcherComponent.new(theme: cookies[:theme], mobile: true) %>
               <%= render Nav::ItemComponent.new(path: login_path, text: 'Log in', test_id: 'nav-login', icon_path: 'icons/log-in.svg', mobile: true) %>
             <% end %>
           </div>

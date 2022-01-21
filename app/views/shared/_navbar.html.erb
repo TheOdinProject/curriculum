@@ -1,21 +1,19 @@
 <%= render 'shared/off_canvas_menu' %>
 
-<nav class="bg-white mb-8 sm:mb-16 md:mb-20 lg:mb-24">
+<nav class="mb-8 sm:mb-16 md:mb-20 lg:mb-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-3">
     <div class="flex justify-between">
       <div class="flex">
         <div class="flex-shrink-0 flex items-center">
           <%= link_to root_path, class: 'logo' do %>
-            <%= image_tag 'icons/odin-icon.svg' , alt: "Odin Logo" , class: 'block lg:hidden h-15 w-auto' %>
+            <%= image_tag 'icons/odin-icon.svg' , alt: "Odin Logo" , class: 'block lg:hidden h-15 w-auto text-red-500' %>
           <% end %>
 
-          <%= link_to root_path, class: 'logo' do %>
-            <%= image_tag 'logo.svg' , alt: "Odin Logo" , class: 'hidden lg:block h-15 w-auto' %>
-          <% end %>
+          <%= render LogoComponent.new(theme: cookies[:theme], classes: 'hidden lg:block h-15 w-auto') %>
         </div>
 
       </div>
-      <div class="hidden sm:ml-6 sm:flex sm:items-center">
+      <div class="hidden md:ml-6 md:flex sm:items-center">
         <% if user_signed_in? %>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
@@ -23,7 +21,7 @@
             <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
           </div>
 
-          <%= link_to notifications_path, class: " ml-3 bg-white p-1 rounded-full text-gray-400 relative hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500", data: { test_id: 'navbar-notification-icon' } do %>
+          <%= link_to notifications_path, class: "odin-dark-nav-item ml-3 bg-white p-1 rounded-full text-gray-400 relative hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500", data: { test_id: 'navbar-notification-icon' } do %>
             <span class="sr-only">View notifications</span>
             <% if unread_notifications?(current_user) %>
                 <span data-test-id="unread-notifications" class="absolute top-1 right-0.5 w-2 h-2 rounded-lg bg-gold-500"></span>
@@ -31,20 +29,21 @@
             <%= inline_svg_tag "icons/bell.svg", class: "h-6 w-6", aria: true, title: "Notifications icon" %>
           <% end %>
 
-          <%= render User::ProfileDropdownComponent.new(current_user: current_user) %>
+          <%= render User::ProfileDropdownComponent.new(current_user: current_user, theme: cookies[:theme]) %>
         <% else %>
-          <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <div class="hidden md:ml-6 md:flex sm:space-x-8">
           <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
           <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
           <%= render Nav::ItemComponent.new(path: chat_link, text: 'Community', test_id: 'nav-community') %>
           <%= render Nav::ItemComponent.new(path: sign_up_path, text: 'Get Started', test_id: 'nav-signup') %>
           <%= render Nav::ItemComponent.new(path: login_path, text: 'Log In', test_id: 'nav-login') %>
+          <%= render ThemeSwitcherComponent.new(theme: cookies[:theme], icon_only: true) %>
         </div>
 
         <% end %>
       </div>
 
-      <div class="-mr-2 flex items-center sm:hidden">
+      <div class="-mr-2 flex items-center md:hidden">
         <button type="button" data-controller="custom-events" data-action="custom-events#emit" data-custom-events-event-name-value="openMobileMenu" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gold-500" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open mobile menu</span>
           <%= inline_svg_tag "icons/ham-burger.svg", class: "block h-6 w-6", aria: true, title: "Open mobile menu button" %>

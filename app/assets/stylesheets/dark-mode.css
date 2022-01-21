@@ -1,0 +1,116 @@
+:root {
+  --dark-bg-color: #121212;
+  --dark-bg-accent: #1a1a1a;
+  --dark-font-color: #b3b3b3;
+  --dark-header-color: #fff;
+  --dark-pseudocode-color: #e83e8c;
+}
+
+.section-lessons__item__link:hover,
+#student-solutions a:hover a:visited {
+  color: var(--dark-font-color) !important;
+  text-decoration: underline !important;
+}
+
+.button--transparent {
+  background-color: var(--dark-bg-accent) !important;
+  color: var(--dark-header-color) !important;
+  border: solid 3px var(--dark-font-color) !important;
+}
+
+body,
+.navbar,
+.card-main,
+.card-block,
+.card-header,
+#footer,
+.modal {
+  background-color: var(--dark-bg-color) !important;
+}
+
+.lesson-functions,
+.course-card,
+.gradient,
+.bg-whitesmoke,
+.lesson-content__panel,
+.odin-dropdown__menu,
+.benefits,
+.odin-dark-dropdown-menu {
+  background-image: none !important;
+  background-color: var(--dark-bg-accent) !important;
+}
+
+.curriculum-details-tile,
+.odin-dark-mobile-menu,
+.odin-dark-nav-item {
+  background-color: var(--dark-bg-color) !important;
+}
+
+h1,
+h2,
+h2.bold,
+h3,
+h4,
+h5,
+h6,
+.active,
+.course-card-header__title,
+.course-description__heading,
+.error-message__sub-title,
+.footer-link,
+.internal-link,
+.lesson-navigation__link,
+.nav-link,
+.text-notification,
+.viking-advert__brand-name,
+.viking-advert__pitch,
+.odin-dark-nav-item  {
+  color: var(--dark-header-color) !important;
+}
+
+.lesson-navigation__circle {
+  background-color: var(--dark-font-color) !important;
+}
+
+p,
+ol,
+li,
+a:hover,
+.accent:hover,
+.far,
+.form__element::placeholder,
+.form__link-section__item,
+.text-notification:hover,
+.lesson-button:hover i {
+  color: var(--dark-font-color) !important;
+}
+
+pre:not(.line-numbers) code {
+  color: var(--dark-pseudocode-color) !important;
+}
+
+progress-circle__image,
+progress-circle__inner {
+  background-color: var(--dark-bg-accent) !important;
+}
+
+.react-modal__body,
+.react-modal__body h1 {
+  background-color: var(--dark-bg-color) !important;
+  color: var(--dark-font-color) !important;
+}
+
+.react-modal__body .form__element {
+  background-color: var(--dark-bg-accent) !important;
+  color: var(--dark-font-color) !important;
+}
+
+.submissions__button {
+  color: var(--dark-bg-accent) !important;
+}
+
+.submissions__button:hover,
+.fa-map,
+.fa-arrow-alt-circle-right {
+  color: var(--dark-header-color) !important;
+}

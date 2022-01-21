@@ -2,7 +2,7 @@
   <div>
     <button type="button" data-action="click->dropdown#toggle" class="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
       <span class="sr-only">Open user menu</span>
-      <%= render User::AvatarComponent.new(current_user: current_user, size_classes: "h-9 w-9") %>
+      <%= render User::AvatarComponent.new(current_user: current_user, classes: "h-9 w-9") %>
     </button>
   </div>
 
@@ -14,28 +14,20 @@
     data-transition-leave="transition ease-in duration-75"
     data-transition-leave-start="transform opacity-100 scale-100"
     data-transition-leave-end="transform opacity-10 scale-95"
-    class="hidden origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+    class="odin-dark-dropdown-menu hidden origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
     role="menu"
     aria-orientation="vertical"
     aria-labelledby="user-menu-button"
     tabindex="-1"
   >
-
-
-
-    <%= link_to edit_user_registration_path, class: "text-gray-700 group flex items-center px-3 py-2 text-sm #{ 'bg-gray-100 text-gray-900' if current_page?(edit_user_registration_path) }" do %>
+    <%= link_to edit_user_registration_path, class: "odin-dark-nav-item text-gray-700 group flex items-center px-3 py-2 text-sm #{ 'bg-gray-100 text-gray-900' if current_page?(edit_user_registration_path) }" do %>
       <%= inline_svg_tag 'icons/gear-solid.svg', class: 'mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500', aria: true, title: 'settings icon' %>
       Settings
     <% end %>
 
-    <%= link_to edit_user_registration_path, class: "text-gray-700 group flex items-center px-3 py-2 text-sm #{ 'bg-gray-100 text-gray-900' if current_page?(edit_user_registration_path) }" do %>
-     <%= render ThemeSwitcherComponent.new(theme: cookies[:theme]) %>
-      Dark mode
-    <% end %>
+    <%= render ThemeSwitcherComponent.new(theme: theme) %>
 
-        <%= render ThemeSwitcherComponent.new(theme: cookies[:theme]) %>
-
-    <%= link_to logout_path, class: "text-gray-700 group flex items-center px-3 py-2 text-sm" do %>
+    <%= link_to logout_path, class: "odin-dark-nav-item text-gray-700 group flex items-center px-3 py-2 text-sm" do %>
       <%= inline_svg_tag 'icons/logout.svg', class: 'mr-3 h-5 w-5 text-gray-400 group-hover:text-gray-500', aria: true, title: 'settings icon' %>
       Log out
     <% end %>
