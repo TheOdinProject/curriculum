@@ -61,7 +61,9 @@ test("correct heading renders", () => {
 })
 ~~~
 
-Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Read about their differences [here](https://testing-library.com/docs/queries/about/).  
+Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through the [about queries](https://testing-library.com/docs/queries/about/) page. Pay extra attention to the "Types of Queries" and "Priority" section. 
+
+As stated by the React Testing Library docs, `ByRole` methods are the favoured methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries through `ByRole` ensures that our UI is accessible to everyone no matter what mode they use to navigate the webpage ( i.e mouse or assistive technologies). 
 
 ### Simulating User Events
 
@@ -109,7 +111,7 @@ test("magnificent monkeys renders", () => {
 
 test("radical rhinos renders after button click", () => {
   const { getByRole } = render(<App />);
-  const button = getByRole("button");
+  const button = getByRole("button", { name: "Click Me" });
 
   userEvent.click(button);
 
