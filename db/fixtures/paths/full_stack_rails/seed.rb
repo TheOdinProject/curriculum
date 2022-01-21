@@ -8,12 +8,13 @@
   path.position = 2
 end
 
-load './db/fixtures/paths/full_stack_rails/courses/1_ruby.rb'
-load './db/fixtures/paths/full_stack_rails/courses/2_databases.rb'
-load './db/fixtures/paths/full_stack_rails/courses/3_rails.rb'
-load './db/fixtures/paths/full_stack_rails/courses/4_html_and_css.rb'
-load './db/fixtures/paths/full_stack_rails/courses/5_javascript.rb'
-load './db/fixtures/paths/full_stack_rails/courses/6_getting_hired.rb'
+load './db/fixtures/paths/full_stack_rails/courses/ruby.rb'
+load './db/fixtures/paths/full_stack_rails/courses/intermediate_html_and_css.rb'
+load './db/fixtures/paths/full_stack_rails/courses/databases.rb'
+load './db/fixtures/paths/full_stack_rails/courses/rails.rb'
+load './db/fixtures/paths/full_stack_rails/courses/advanced_html_and_css.rb'
+load './db/fixtures/paths/full_stack_rails/courses/javascript.rb'
+load './db/fixtures/paths/full_stack_rails/courses/getting_hired.rb'
 
 # create path prerequisites
 @path.path.path_prerequisites.find_or_create_by!(prerequisite_id: Path.find_by(title: 'Foundations').id)
