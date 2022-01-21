@@ -305,6 +305,15 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 - Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
 </div>
 
+### Practice
+
+> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+
+Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
+
+1. grid-layout-2
+2. grid-layout-3
+
 ### Additional Resources
 
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
