@@ -150,13 +150,13 @@ Snapshot tests are fast and easy to write. One assertion saves us from writing m
 
 Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
 
-The other issue with snapshots is false negatives. Even the insignificant of changes compels the test to fail. Fixing punctuation? Snapshot will fail. Replacing an HTML tag to a more semantic one? Snapshot will fail. This might cause us to lose our confidence in the test suite altogether. Snapshots aren't inherently bad; they do serve a purpose. But it's beneficial to understand when to snapshot, and when not to snapshot. 
+The other issue with snapshots is false negatives. Even the most insignificant of changes compel the test to fail. Fixing punctuation? Snapshot will fail. Replacing an HTML tag to a more semantic one? Snapshot will fail. This might cause us to lose our confidence in the test suite altogether. Snapshots aren't inherently bad; they do serve a purpose. But it's beneficial to understand when to snapshot, and when not to snapshot. 
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Take a glance at all of the available [query methods](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all. But it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use [test ids](https://testing-library.com/docs/queries/bytestid/).
+1. Take a glance at all of the available [query methods](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use [test ids](https://testing-library.com/docs/queries/bytestid/).
 
 2. Read the [userEvent](https://testing-library.com/docs/ecosystem-user-event/) API docs to get a feel of how to achieve user simulation. 
 
