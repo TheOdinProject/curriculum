@@ -141,13 +141,13 @@ module ApplicationHelper
         badge_image_url: 'badge-html-css.svg',
         badge_alt_text: 'html css badge',
         title: 'Intermediate HTML+CSS',
-        path: '/courses/intermediate-html-and-css'
+        path: '/paths/full-stack-javascript/courses/intermediate-html-and-css'
       },
       {
         badge_image_url: 'badge-html-css.svg',
         badge_alt_text: 'html css badge',
         title: 'Advanced HTML+CSS',
-        path: '/courses/advanced-html-and-css'
+        path: '/paths/full-stack-javascript/courses/advanced-html-and-css'
       },
       {
         badge_image_url: 'badge-javascript.svg',
