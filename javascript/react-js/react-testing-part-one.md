@@ -15,11 +15,11 @@ TODO
 We'll need to import some packages atop our test file:
 
 ~~~javascript
-import React from "react"
-import { ... } from "@testing-library/react"
-import "@testing-library/jest-dom"  // optional
-import userEvent from "@testing-library/user-event" 
-import TestComponent from "path-to-test-component"
+import React from "react";
+import { ... } from "@testing-library/react";
+import "@testing-library/jest-dom";  // optional
+import userEvent from "@testing-library/user-event";
+import TestComponent from "path-to-test-component";
 ~~~
 
 * `@testing-library/react` will give us access to useful functions like `render` which we'll demonstrate later on.
@@ -41,24 +41,24 @@ First, we'll render the component using `render`. The API will return an object 
 ~~~javascript
 // App.js
 
-import React from "react"
+import React from "react";
 
-const App = () => <h1>Our First Test</h1>
+const App = () => <h1>Our First Test</h1>;
 
-export default App
+export default App;
 ~~~
 
 ~~~javascript
 // App.test.js
 
-import React from "react"
-import { render } from "@testing-library/react"
-import App from "./App"
+import React from "react";
+import { render } from "@testing-library/react";
+import App from "./App";
 
 test("correct heading renders", () => {
-    const { getByRole } = render(<App />)
-    expect(getByRole("heading").textContent).toMatch(/our first test/i)
-})
+    const { getByRole } = render(<App />);
+    expect(getByRole("heading").textContent).toMatch(/our first test/i);
+});
 ~~~
 
 Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through the [about queries](https://testing-library.com/docs/queries/about/) page. Pay extra attention to the "Types of Queries" and "Priority" section. 
