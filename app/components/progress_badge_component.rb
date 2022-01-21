@@ -20,6 +20,7 @@ class ProgressBadgeComponent < ViewComponent::Base
     borderless_badges.fetch(course.title, 'icons/odin-icon.svg')
   end
 
+  # rubocop:disable Metrics/MethodLength
   def borderless_badges
     {
       'Foundations' => 'badges/badge-foundations-borderless.svg',
