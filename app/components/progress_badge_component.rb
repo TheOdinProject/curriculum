@@ -48,4 +48,5 @@ class ProgressBadgeComponent < ViewComponent::Base
       'NodeJS' => 'badge-nodejs.svg'
     }
   end
+  # rubocop:enable Metrics/MethodLength
 end
