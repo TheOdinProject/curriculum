@@ -18,7 +18,7 @@ We'll need to import some packages atop our test file:
 import React from "react"
 import { ... } from "@testing-library/react"
 import "@testing-library/jest-dom"  // optional
-import userEvent from "@testing-library/user-event" // optional
+import userEvent from "@testing-library/user-event" 
 import TestComponent from "path-to-test-component"
 ~~~
 
@@ -26,7 +26,9 @@ import TestComponent from "path-to-test-component"
 
 * `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list [here](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use. 
 
-* `@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage. It's optional because we can import the `fireEvent` API from the `@testing-library/react` instead; `userEvent` builds off of `fireEvent` to provide extra features. 
+* `@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage. Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
+
+  > _Note: `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice._
 
 * No need to import `jest` since it will automatically detect test files (`*.test.js` or `*.test.jsx`).
 
@@ -96,7 +98,8 @@ Let's test if the button works as intended:
 // App.test.js
 
 import React from "react";
-import { render, fireEvent } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import App from "./App";
 
 test("magnificent monkeys renders", () => {
@@ -108,7 +111,7 @@ test("radical rhinos renders after button click", () => {
   const { getByRole } = render(<App />);
   const button = getByRole("button");
 
-  fireEvent.click(button);
+  userEvent.click(button);
 
   expect(getByRole("heading").textContent).toMatch(/radical rhinos/i);
 });
@@ -155,7 +158,7 @@ The other issue with snapshots is false negatives. Even the insignificant of cha
 
 1. Take a glance at all of the available [query methods](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all. But it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use [test ids](https://testing-library.com/docs/queries/bytestid/).
 
-2. Read [fireEvent](https://testing-library.com/docs/dom-testing-library/api-events/) and [userEvent](https://testing-library.com/docs/ecosystem-user-event/) API docs to get a feel of how to achieve user simulation. 
+2. Read the [userEvent](https://testing-library.com/docs/ecosystem-user-event/) API docs to get a feel of how to achieve user simulation. 
 
 3. This [article](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the pros and cons of snapshot testing. And [this](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks) one does an excellent job of explaining what is snapshot testing in programming in general.
 
