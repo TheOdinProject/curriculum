@@ -13,7 +13,7 @@ end
 course.add_section do |section|
   section.title = 'Intermediate HTML Concepts'
   section.description = "In this section, we'll finish covering the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a page."
-  section.identifier_uuid = '5388096b-4926-47a7-8891-a1dfa53cf200'
+  section.identifier_uuid = 'f39a1b48-54c8-49ee-adf0-cde244a40fa7'
 
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction'),
