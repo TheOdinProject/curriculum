@@ -7,7 +7,6 @@ course = @path.add_course do |course|
   course.identifier_uuid = '7175e35f-538a-4734-b62b-ec5d687346ce'
 end
 
-
 # +++++++++++++
 # SECTION - ANIMATION
 # +++++++++++++
