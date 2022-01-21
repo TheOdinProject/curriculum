@@ -24,7 +24,7 @@ import TestComponent from "path-to-test-component"
 
 * `@testing-library/react` will give us access to useful functions like `render` which we'll demonstrate later on.
 
-* `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list [here](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use. 
+* `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use. 
 
 * `@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage. Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
 
@@ -36,7 +36,7 @@ That's a lot of setup. But good news! If you're initializing your React reposito
 
 ### Our First Query
 
-First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do [here](https://testing-library.com/docs/react-testing-library/api/#render).
+First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in the [render docs](https://testing-library.com/docs/react-testing-library/api/#render).
 
 ~~~javascript
 // App.js
@@ -148,7 +148,7 @@ exports[`magnificent monkeys render 1`] = `
 
 It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails. 
 
-Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots [here](https://jestjs.io/docs/snapshot-testing)
+Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots in the [jest snapshot docs](https://jestjs.io/docs/snapshot-testing).
 
 Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
 
