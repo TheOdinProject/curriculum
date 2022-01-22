@@ -15,11 +15,14 @@ If you want to get technical, HTML and CSS aren't _programming languages_ becaus
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content.  It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [This FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
+* Bookmark [DevDocs.io](https://devdocs.io). Read the “Welcome” message. Massive API documentation collection that even works offline. Essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://freecodecamp.org))
 
 ### Knowledge Check
-* What do HTML and CSS stand for?
-* Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?
-* Between HTML and CSS, which would you use for changing the font and background color of a button?
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
+* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
+* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for changing the font and background color of a button?</a>

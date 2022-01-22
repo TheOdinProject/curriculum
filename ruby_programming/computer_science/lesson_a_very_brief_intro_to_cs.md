@@ -20,14 +20,21 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
   1. Skim this [Introduction to Algorithms by David Malan](http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan) on TedEd to see how to think about algorithms.
-  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube. for a more structured look at solving problems using algorithms.
+  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
   3. Read [this Quora question about the importance of algorithms in web development](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development) to get some context for why we're going over this stuff.
   4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
 * [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
 * [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://youtu.be/e_WfC8HwVB8">What is an Algorithm?</a>
+* <a class="knowledge-check-link" href="http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development">What is the importance of algorithms in web development?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=Rg-fO7rDsds">What is pseudocode?</a>

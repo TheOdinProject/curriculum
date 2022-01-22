@@ -21,10 +21,12 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
 #### Step 1.1: Install Rails
 
+* At the time of writing this version 7 of Rails has just shipped so and we're currently updating our course. Until that is ready we're going to specify the using Rails 6. None of the Rails fundamentals have changed so you won't have to relearn everything once our course is updated*
+
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails
+gem install rails -v '6.1.4'
 ~~~
 
 Once the installation finishes, you can check if everything went well by restarting your terminal and running the following command:
@@ -41,11 +43,11 @@ With Rails 6 came Webpacker, a Ruby Gem that integrates Webpack, the Javascript 
 
 Javascript libraries used to be managed through the asset pipeline in Rails but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
 
-Yarn is a Javascript package manager, much like Bundler for Ruby and allows you to easily manage your Javascript libraries.
+Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries.
 
 Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn. Follow the instructions step by step.
 
-You can verify the install by running the following command
+You can verify the install by running the following command:
 
 ~~~bash
 yarn --version
@@ -57,20 +59,22 @@ You won't need to use Yarn for this tutorial but you do need it installed for Ra
 
 #### Step 1.3: Create the Application
 
-This is where things might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
+This is where it might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
 We're going to start by navigating to the directory that you house your projects in, then telling Rails to initialize the application for us.
 
 ~~~bash
 cd ~/your_odin_project_directory
-rails new my_first_rails_app
+rails _6.1.4_ new my_first_rails_app
 ~~~
 
 This will do a bunch of things, and you'll see a lot of output in the terminal. If everything worked, you should see something similar to this in the last few lines of output:
 
 ~~~bash
-Bundle complete! 18 Gemfile dependencies, 79 gems now installed.
-Use `bundle info <gem name>` to see where a bundled gem is installed.
+├─ websocket-extensions@0.1.4
+└─ ws@6.2.2
+Done in 4.33s.
+Webpacker successfully installed 🎉 🍰
 ~~~
 
 In the above process, Rails created a new directory for us. Let's `cd` into it now:
@@ -116,7 +120,7 @@ Go ahead and create a new car, and then refresh the page to verify it is working
 Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.
 
 #### Step 2.1 Stage and Commit Local Changes
-Rails will already have initialized Git for you when it was doing it's thing, so just stage and commit all of the work it's done so far.
+Rails will already have initialized Git for you when it was doing its thing, so just stage and commit all of the work it's done so far.
 
 ~~~bash
 git add .

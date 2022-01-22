@@ -1,6 +1,15 @@
+### Learning Outcomes
+
+- Using arrays.
+- Using built-in array methods.
+- Using loops.
+- Getting your hands dirty with TDD exercises.
+
+
 ### Arrays
 
 Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them.  Luckily, JavaScript has a couple of data types that are used for just that.  An Array is simply an ordered collection of items (Strings, numbers, or other things).
+
 
 1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.  
 2. [This article](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods.  These fundamentals are something you'll use every day, so don't rush too much and miss out!
@@ -37,3 +46,17 @@ Complete the following exercises:
 - sumAll
 - leapYears
 - tempConversion
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What is an array?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you access an array element?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you change an array element?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_array_methods.asp">What are some useful array methods?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother">What are loops useful for?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break">What is the break statement?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue">What is the continue statement?</a>
+- <a class="knowledge-check-link" href="#test-driven-development">What is the advantage of writing automated tests?</a>

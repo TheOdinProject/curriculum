@@ -3,12 +3,11 @@
 You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* What is the "Asset Pipeline"?
-* What are "Manifest Files"?
-* Why would you namespace your stylesheets?
-* What does it mean to "Escape" HTML?
+* Explain how files are processed in the Asset Pipeline.
+* Organize stylesheets and images in your app.
+* Display raw HTML-code in your app.
 
 ### The Asset Pipeline
 
@@ -163,8 +162,17 @@ Some necessary and straightforward reading on the Asset Pipeline:
 The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
 * [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
 * [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#main-features">How does "asset concatenation" optimize loading of your app?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets">How do you include an asset in your views or layout?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives">What does the `require_tree` method do in a manifest-file?</a>
+* <a class="knowledge-check-link" href="#the-asset-pipeline">Why would you namespace your stylesheets?</a>
+* <a class="knowledge-check-link" href="#un-escaping-html">How do you display `<p>hello world!</p>` in your app?</a>

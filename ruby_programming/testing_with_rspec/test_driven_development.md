@@ -22,7 +22,7 @@ Colloquially, this process is often referred to as the "**red-green-refactor**" 
 
 Even if TDD intuitively seems like good practice, its utility is hotly debated even today. 
 
-No one is saying that tests aren't useful. Testing at [all levels](https://robots.thoughtbot.com/rails-test-types-and-the-testing-pyramid) is *crucial*. Testing ensures that your application is working as intended. More importantly, and perhaps less obviously, testing ensures developer confidence when it comes time to change existing code. Adding new features and dependencies increases the overall instability of your application, and a single misstep can have a cascading, crashing effect in faraway, unintended locations. Testing confirms that what you add works with what you already have. In a sense, it provides a safety net that leaves your application more open to change, and gives it room to grow and evolve as painlessly as possible.
+No one is saying that tests aren't useful. Testing at [all levels](https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid) is *crucial*. Testing ensures that your application is working as intended. More importantly, and perhaps less obviously, testing ensures developer confidence when it comes time to change existing code. Adding new features and dependencies increases the overall instability of your application, and a single misstep can have a cascading, crashing effect in faraway, unintended locations. Testing confirms that what you add works with what you already have. In a sense, it provides a safety net that leaves your application more open to change, and gives it room to grow and evolve as painlessly as possible.
 
 The real question is whether or not tests should *drive* development, or whether or not it's important for them to come *first*. Many developers write tests after they've written their code. There is definitely a longer list of pros than cons for having tests in general, no one will disagree with that. So should we test first? 
 
@@ -36,7 +36,16 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read up on [9 Benefits of Test-Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development) for additional insight on this practice. Note that these points may be more applicable to testing in general rather than TDD specifically, but they are still good points nonetheless.
+1. Read up on [9 Benefits of Test-Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development) for additional insight on this practice. Note that many of these points are not specific to TDD, but are also applicable to testing in general.
 2. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
 
 </div>
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#what-is-test-driven-development">What is the "red-green-refactor" cycle?</a>
+- <a class="knowledge-check-link" href="https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid">What is the difference between unit and integration tests?</a>
+- <a class="knowledge-check-link" href="https://www.madetech.com/blog/9-benefits-of-test-driven-development">How does TDD help in code refactoring?</a>
+

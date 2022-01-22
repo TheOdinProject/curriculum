@@ -17,7 +17,7 @@ Responsive design is creating websites that respond to the user's context, wheth
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Responsive Grids Tutorial from TutsPlus](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-basic-responsive-grid-plus-handy-css3-media-query-reporter/)
 * [Responsive Navigation Patterns from Brad Frost](https://bradfrost.com/blog/post/responsive-nav-patterns/)

@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 
 The [Node.js website](https://nodejs.org/en/about/) declares:
 
-> "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications."
+> <span id="what-is-node"> "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications."</span>
 
 This is a definition that requires a little unpacking.
 
@@ -67,23 +67,20 @@ While you may have learned React (or any other frontend framework) before, eithe
 <div class="lesson-content__panel" markdown="1">
 
 1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
-2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5). There's a long, but *really* fantastic video linked in that article, don't skip it!
-3. Take few minutes to go through the "Quick Start" section of the new official [Node.js website](https://nodejs.dev/learn).
-4. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
+2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
+3. What is the Node Event Loop? Check out this long, but *really* [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)... don't skip it!
+4. Take few minutes to go through the "Quick Start" section of the new official [Node.js website](https://nodejs.dev/learn).
+5. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-<details>
-<summary>What is Node?</summary>
-<ul><ul>
-  <li>Node.js is an open-source, cross-platform JavaScript runtime environment built to be run outside of the browser.</li>
-</ul></ul>
-</details>
+- <a class="knowledge-check-link" href="#what-is-node">What is Node?</a>
+

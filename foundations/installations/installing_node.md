@@ -2,7 +2,7 @@
 
 Node is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser, this means that you can code the server side of your application in JavaScript. To get started, there are some required tools we need before we can install Node on your system.
 
-We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in javascript environment. It can be easy to confuse these two so read carefully!
+We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two so read carefully!
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
@@ -96,7 +96,7 @@ nvm install --lts
 This will install the most recent stable version of Node, and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
 
 ~~~bash
-Downloading and installing Node v14.xx.x...
+Downloading and installing Node v16.xx.x...
 ~~~
 
 If not, close the terminal, re-open it and run `nvm install node` again.
@@ -109,6 +109,6 @@ We need to tell `nvm` which version of Node to use when we run the `node` comman
 nvm use node
 ~~~
 
-Now when you run `node -v` you should see `v14.xx.x` or something similar.
+Now when you run `node -v` you should see `v16.xx.x` or something similar.
 
 If you see that, you have successfully installed Node!

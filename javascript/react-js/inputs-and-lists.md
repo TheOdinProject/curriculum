@@ -138,7 +138,7 @@ onSubmitTask = (e) => {
 };
 ~~~
 
-Naturally, if we do not invoke those functions nothing will change in our application. So let's call them. The `handleChange` function will be our `onChange` handler for our input field. It sets the current `task` in state to whatever we type in our input field. The `onSubmitTask` function will be our `onSubmit` handler for our `form` element. The `onSubmit` handler of the form should be invoked by clicking the button.
+Naturally, if we do not invoke those functions nothing will change in our application. So let's call them. <span id="handle-input-field">The `handleChange` function will be our `onChange` handler for our input field. It sets the current `task` in state to whatever we type in our input field.</span> <span id="handle-form">The `onSubmitTask` function will be our `onSubmit` handler for our `form` element.</span> The `onSubmit` handler of the form should be invoked by clicking the button.
 
 In the `onSubmitTask` function, we first call `e.preventDefault()` because we don't want the default behavior of refreshing the form anytime we submit it. After that, we modify state.
 
@@ -180,7 +180,7 @@ If you add an onSubmit handler to the form, your button must be of `type="submit
 
 Great, if you run your application now with `npm start` (or refresh the browser if it's still running), you will still see no changes, except that the page doesn't refresh when you submit something. That's because we haven't displayed anything yet. Let's do that now.
 
-Go to your `Overview.js` file in the components folder and add the following code:
+<span id="render-list">Go to your `Overview.js` file in the components folder and add the following code:</span>
 
 ~~~javascript
 // Overview.js
@@ -383,5 +383,14 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 1. Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button.
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#render-list">How do you render lists in React?</a>
+- <a class="knowledge-check-link" href="#handle-input-field">How do you handle input field changes in React?</a>
+- <a class="knowledge-check-link" href="#handle-form">How do you handle form submission in React?</a>

@@ -1,4 +1,4 @@
-This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.
+This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses. Please note, this may be outdated. Use the website here instead: https://www.theodinproject.com/paths/foundations/courses/foundations
 
 ## The Outline
 
@@ -32,7 +32,8 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - [Project: Rock Paper Scissors](javascript_basics/project_rock_paper_scissors.md)
   - Clean Code - [lesson](javascript_basics/clean_code.md)
   - Fundamentals Part 4 - [lesson](javascript_basics/fundamentals-4.md)
-  - DOM Manipulation - [lesson](javascript_basics/DOM-manipulation.md)
+  - DOM Manipulation and Events - [lesson](javascript_basics/DOM_manipulation_and_events.md)
+  - Revisiting Rock Paper Scissors - [lesson](javascript_basics/revisiting_rock_paper_scissors.md)
   - [Project: Etch-a-Sketch](javascript_basics/project_etch_a_sketch.md)
   - Fundamentals Part 5 - [lesson](javascript_basics/fundamentals-5.md)
   - [Project: Calculator](javascript_basics/project_calculator.md)

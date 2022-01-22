@@ -89,14 +89,14 @@ This function does NOT put your new element into the DOM - it simply creates it 
 
 #### Altering Elements
 
-When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
+When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding inline style information, adding/removing and altering attributes, changing classes, and more. In this example, we first create an element reference to the variable 'div'. Then we can apply changes to it.
 
 ~~~JavaScript
 const div = document.createElement('div');                     
 // create a new div referenced in the variable 'div'
 ~~~
 
-#### Adding inline style
+##### Adding inline style
 
 ~~~JavaScript
 div.style.color = 'blue';                                      
@@ -120,7 +120,7 @@ div.style['background-color'] // also works
 div.style.cssText = "background-color: white" // ok in a string
 ~~~
 
-#### Editing Attributes
+##### Editing Attributes
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
@@ -137,7 +137,7 @@ div.removeAttribute('id');
 
 See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
-#### Working with classes
+##### Working with classes
 
 ~~~JavaScript
 div.classList.add('new');                                      
@@ -153,7 +153,7 @@ div.classList.toggle('active');
 
 It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
 
-#### Adding text content
+##### Adding text content
 
 ~~~JavaScript
 div.textContent = 'Hello World!'                               
@@ -161,7 +161,7 @@ div.textContent = 'Hello World!'
 // inserts it in div
 ~~~
 
-#### Adding HTML content
+##### Adding HTML content
 
 ~~~JavaScript
 div.innerHTML = '<span>Hello World!</span>';                   
@@ -211,7 +211,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
-> **Important note:**
+### Important note:
 > Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 >
 > Alternatively, you can link the JavaScript file in the `<head>` of your HTML document. Use the `<script>` tag with the `src` attribute containing the path to the JS file, and include the `defer` keyword to load the file *after* the HTML is parsed, as such:
@@ -241,7 +241,7 @@ Add the following elements to the container using ONLY javascript and the DOM me
 
 Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.
 
-There are three primary ways to go about this: you can attach functions attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
+There are three primary ways to go about this: you can attach functions' attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
 
 We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
 
@@ -404,7 +404,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 5. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
@@ -418,19 +418,19 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the DOM?
-* How do you target the nodes you want to work with?
-* How do you create an element in the DOM?
-* How do you add an element to the DOM?
-* How do you remove an element from the DOM?
-* How can you alter an element in the DOM?
-* When adding text to a DOM element, should you use textContent or innerHTML? Why?
-* Where should you include your Javascript tag in your HTML file when working with DOM nodes?
-* How do "events" and "listeners" work?
-* What are three ways to use events in your code?
-* Why are event listeners the preferred way to handle events?
-* What are the benefits of using named functions in your listeners?
-* How do you attach listeners to groups of nodes?
-* What is the difference between the return values of `querySelector` and `querySelectorAll`?
-* What does a "nodelist" contain?
-* Explain the difference between "capture" and "bubbling".
+* <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
+* <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
+* <a class="knowledge-check-link" href="#element-creation">How do you create an element in the DOM?</a>
+* <a class="knowledge-check-link" href="#append-elements">How do you add an element to the DOM?</a>
+* <a class="knowledge-check-link" href="#remove-elements">How do you remove an element from the DOM?</a>
+* <a class="knowledge-check-link" href="#altering-elements">How can you alter an element in the DOM?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
+* <a class="knowledge-check-link" href="#important-note">Where should you include your Javascript tag in your HTML file when working with DOM nodes?</a>
+* <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
+* <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
+* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
+* <a class="knowledge-check-link" href="#method-3">What are the benefits of using named functions in your listeners?</a>
+* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
+* <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
+* <a class="knowledge-check-link" href="#query-selectors">What does a "nodelist" contain?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>

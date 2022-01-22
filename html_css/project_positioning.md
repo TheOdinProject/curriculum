@@ -11,7 +11,7 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 
 <div class="lesson-content__panel" markdown="1">
 1. Go to [the article from newscientist in question](https://www.newscientist.com/article/2286218-ancient-lake-in-marss-gale-crater-may-have-actually-been-a-small-pond/) and have a look around.
-2. Follow the instructions atop the [Google Homepage project](/courses/foundations/lessons/html-css) to set up a GitHub repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "Inspect Element")!
@@ -21,6 +21,6 @@ Note: As usual, ignore any ads, comments or interactive elements (which use Java
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Add some!

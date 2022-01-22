@@ -17,7 +17,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a GitHub Repo for this project. Follow the instructions atop the [Google Homepage project](https://www.theodinproject.com/courses/foundations/lessons/html-css) if you need help.
+1. Set up a GitHub Repo for this project. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) if you need help.
 2. Think about what you'll need to do to get this all working together. This is where it's really helpful to think it completely through on paper or whiteboard ahead of time! A few minutes of thought can save you from wasting an hour of coding.
 3. If you're using Rails as your backend: create a new Rails application with just the bare bones required to load your HTML page for now. If you'll be using Firebase, this is a good time to create a new Firebase project for this app, and link to the necessary scripts at the bottom of your HTML page.
 4. Build the front end functionality without actually using any calls to the back end yet. Specifically, that means creating the JavaScript functionality which pops the targeting box and dropdown menu on the screen when the user clicks on the photo and removes it when the user clicks away.
@@ -30,4 +30,4 @@ Keep track of how long it takes between when the photo is first loaded and when 
 
 ### Optional Extensions:
 
-1. Load many images into your database and allow your use to select from among them before starting the game.
+1. Load many images into your database and allow the user to select from among them before starting the game.

@@ -1,15 +1,15 @@
 ### Introduction
 
-In the previous lesson you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson we're going to focus on what we believe are some foundational CSS concepts, things that anyone should know from the beginning, whether they are just starting out or simply need a refresher.
+In the previous lesson you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning - whether they are just starting out or simply need a refresher.
 
 ### Learning Outcomes
 
-By the end of this lesson, you should be able to:
+By the end of this lesson, you should be able to
 
-* Add styles to HTML with CSS
-* Understand how to use the class and ID attributes
-* Add styles to specific elements using the correct selectors
-* Understand what the cascade does
+* Add styles to HTML with CSS.
+* Understand how to use the class and ID attributes.
+* Add styles to specific elements using the correct selectors.
+* Understand what the cascade does.
 
 ### Basic Syntax
 
@@ -17,9 +17,12 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
+> A note:
+> A `<div>` is one of the basic HTML elements. It is simply an empty container. In general it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+
 ### Selectors
 
-Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following sub-sections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 #### Universal Selector
 
@@ -55,7 +58,7 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 
 #### Class Selectors
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class in an HTML file and select it in CSS:
+Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
 ~~~html
 <!-- index.html -->
@@ -146,7 +149,7 @@ Another way to use selectors is to chain them as a list without any separation. 
 </div>
 ~~~
 
-We have two elements with the `subsection` class that has some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
+We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
 
 ~~~css
 .subsection.header {
@@ -154,11 +157,13 @@ We have two elements with the `subsection` class that has some sort of unique st
 }
 ~~~
 
-Notice how there isn't any space between the two selectors here. What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. This basically works with any combination of selectors except multiple type selectors (since an element can't be two different types at once, and `divp` would try to select a literal `<divp>` element which doesn't exist).
+What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, with the exception of chaining more than one [type selector](#type-selectors).
+
+In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p`, would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist. 
 
 #### Descendant Combinator
 
-Combinators allow us to combine multiple selectors differently than grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.
+Combinators allow us to combine multiple selectors differently than grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.</span>
 
 So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deeply. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
 
@@ -194,7 +199,18 @@ There are some CSS properties that you're going to be using all the time, or at 
 
 The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
 
-Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX (`#ff0000`), RGB (`rgb(255, 0, 0)`), and HSL (`hsl(0, 100%, 50%)`) values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX,  RGB, and HSL values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
+
+~~~css
+p {
+  /* hex example: */
+  color: #1100ff;
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+~~~
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
@@ -235,14 +251,13 @@ The cascade is what determines which rules actually get applied to our HTML. The
 
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson.
+A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson:
 
 1. ID selectors (most specific selector)
 2. Class selectors
 3. Type selectors
-4. Universal selector and combinators (no specificity)
 
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, a class selector will always beat any number of type selectors, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
+Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
 
 Let's take a look at a few quick examples to visualize how specificity works.
 
@@ -291,6 +306,50 @@ In this final example, both rules are using ID and class selectors, so neither r
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
 
+Note: when comparing selectors you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+
+~~~css
+/* rule 1 */
+.class.second-class {
+  font-size: 12px;
+}
+
+/* rule 2 */
+.class .second-class {
+  font-size: 24px;
+}
+~~~
+
+Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining selector (no space) and rule 2 uses a descendant combinator (the empty space). But both rules have two classes and the combinator symbol itself does not add to the specificity.
+
+~~~css
+/* rule 1 */
+.class.second-class {
+  font-size: 12px;
+}
+
+/* rule 2 */
+.class > .second-class {
+  font-size: 24px;
+}
+~~~
+
+This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
+
+~~~css
+/* rule 1 */
+* {
+  color: black;
+}
+
+/* rule 2 */
+h1 {
+  color: orange;
+}
+~~~
+
+In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
+
 #### Inheritance
 
 Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. 
@@ -320,7 +379,7 @@ Despite the `parent` element having a higher specificity with an ID, the `child`
 
 #### Rule Order
 
-The final factor, the end of the line, the tie-breaker of the tie-breaker. Lets say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+The final factor, the end of the line, the tie-breaker of the tie-breaker. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
 Really simply, actually. Whichever rule was *last* defined is the winner.
 
@@ -350,7 +409,7 @@ External CSS is the most common method you will come across, and it involves cre
 <!-- index.html -->
 
 <head>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 ~~~
 ~~~css
@@ -374,7 +433,7 @@ A note on file names: `styles.css` is just what we went with as the file name he
 
 A couple of the pros to this method are:
 
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner
+1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner.
 2. We only need to edit the CSS in *one* place, which is especially handy for websites with multiple pages that all share similar styles.
 
 #### Internal CSS
@@ -415,9 +474,9 @@ The first thing to note is that we don't actually use any selectors here, since 
 
 If you need to add a *unique* style for a *single* element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
-* It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated
-* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat
-* Any inline CSS will override the other two methods, which can cause unexpected results (while we won't dive into it here, this can actually be taken advantage of)
+* It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
+* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
+* Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of).
 
 ### Practice
 
@@ -425,20 +484,24 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 2. Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
-    It's completely open to how you actually style it, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume so feel free to go a little crazy for now.
+    How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume, so feel free to go a little crazy for now.
 
     We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
-### Knowledge Check
-* What are the main differences between external, internal, and inline CSS?
-* What is the syntax for class and ID selectors?
-* How would you apply a single rule to two different selectors?
-* Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?
-* What does the descendant combinator do?
-* Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
-
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied. 
 * [Changing the Font Family](https://www.bitdegree.org/learn/font-family-css#how-to-use-a-downloaded-font) goes over a few different ways on how to use custom fonts.
 * [CSS Specificity](https://www.w3schools.com/css/css_specificity.asp) from W3Schools goes over how you can calculate the specificity of rules. This page mentions some selectors that we will go over in a later lesson, so don't worry about what they are or how to use them right now.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#external-css">What are the main differences between external, internal, and inline CSS?</a>
+* <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
+* <a class="knowledge-check-link" href="#grouping-selector">How would you apply a single rule to two different selectors?</a>
+* <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
+* <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
+* <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
+
