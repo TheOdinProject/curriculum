@@ -42,7 +42,8 @@ body,
 
 .curriculum-details-tile,
 .odin-dark-mobile-menu,
-.odin-dark-nav-item {
+.odin-dark-nav-item,
+.hero {
   background-color: var(--dark-bg-color) !important;
 }
 
