@@ -28,6 +28,7 @@ module.exports = {
     content: [
       "./app/**/*.html.erb",
       "./app/components/*.html.erb",
+      "./app/components/*.rb",
       "app/assets/images/icons/*svg"
     ],
   },
