@@ -53,9 +53,7 @@
 
       <div class="flex-1 h-0 pt-3 pb-4 overflow-y-auto">
         <div class="flex-shrink-0 flex items-center px-4">
-          <%= link_to root_path, class: 'logo' do %>
-            <%= image_tag 'logo.svg' , alt: "Odin Logo" , class: 'h-15 w-auto' %>
-          <% end %>
+          <%= render LogoComponent.new(theme: cookies[:theme], classes: 'h-15 w-auto') %>
         </div>
         <nav aria-label="Sidebar" class="mt-3">
           <div class="px-2 space-y-1">
