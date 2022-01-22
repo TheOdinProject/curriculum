@@ -16,8 +16,6 @@ Of course, you can't replicate every feature, and the user interface will probab
 5. Once you finish, push to GitHub and definitely submit your project below!
 </div>
 
-**Congratulations!**
-
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
