@@ -28,7 +28,7 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
+- <a class="knowledge-check-link" href="https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
 - <a class="knowledge-check-link" href="https://jestjs.io/docs/using-matchers#common-matchers">What are some common jest matchers?</a>
 - <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=699">How should you test incoming query messages?</a>
 - <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=792">Why should you not test implementation?</a>
