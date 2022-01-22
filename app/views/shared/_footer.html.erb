@@ -1,24 +1,38 @@
-<footer id="footer">
-  <div class="footer-brand">
-    <%= render LogoComponent.new(theme: cookies[:theme], classes: 'hidden md:block h-15 w-auto') %>
-  </div>
-  <div class="footer-social">
-    <%= link_to "https://github.com/TheOdinProject" do %><span aria-label="github" class="accent fab fa-github"/><% end %>
-    <%= link_to "https://discord.gg/V75WSQG" do %><span aria-label="discord chat" class="accent fab fa-discord"/><% end %>
-    <%= link_to "https://www.facebook.com/theodinproject/" do %><span aria-label="facebook" class="accent fab fa-facebook"/><% end %>
-    <%= link_to "https://twitter.com/TheOdinProject" do %><span aria-label="twitter" class="accent fab fa-twitter"/><% end %>
-  </div>
-  <div class="footer-links">
-    <div class="footer-links-container">
-      <%= link_to "About", about_path, class: "footer-link" %>
-      <%= link_to "FAQ", faq_path, class: "footer-link" %>
-      <%= link_to "Blog", medium_blog_path, target: "_blank", rel: "noreferrer", class: "footer-link" %>
-    </div>
-    <div class="footer-links-container">
-      <%= link_to "Success Stories", success_stories_path, class: "footer-link" %>
-      <%= link_to "Contribute", contributing_path, class: "footer-link" %>
-      <%= link_to "Terms of Use", terms_of_use_path, class: "footer-link" %>
-    </div>
-  </div>
+<footer>
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-3 mx-auto">
+    <div class="flex justify-center lg:justify-between py-5">
+      <div class="w-80">
+        <div class='flex-shrink-0 hidden lg:block items-center'>
+          <%= render LogoComponent.new(theme: cookies[:theme], classes: 'block h-15 w-auto') %>
+        </div>
 
+        <p class="py-4 hidden lg:block">High quality coding eduction created by an Open-Source community.</p>
+
+        <div class="flex justify-between">
+          <%= link_to "https://github.com/TheOdinProject" do %><span aria-label="github" class="text-gray-700 text-4xl hover:text-gray-900 fab fa-github odin-dark-icon"/><% end %>
+          <%= link_to "https://discord.gg/V75WSQG" do %><span aria-label="discord chat" class="text-gray-700 text-4xl hover:text-gray-900 fab fa-discord odin-dark-icon"/><% end %>
+          <%= link_to "https://www.facebook.com/theodinproject/" do %><span aria-label="facebook" class="text-gray-700 hover:text-gray-900 text-4xl fab fa-facebook odin-dark-icon"/><% end %>
+          <%= link_to "https://twitter.com/TheOdinProject" do %><span aria-label="twitter" class="text-gray-700 hover:text-gray-900 text-4xl fab fa-twitter odin-dark-icon"/><% end %>
+        </div>
+      </div>
+
+      <%= render "shared/footer_cta" %>
+    </div>
+
+    <div class="flex flex-col-reverse justify-between lg:flex-row items-center lg:pb-4 gap-y-6">
+      <p class="text-gold-600 text-base odin-dark-text">
+        Web design by Ada Chiu
+      </p>
+
+      <div class="flex items-center space-x-0 gap-x-8 gap-y-3 flex-wrap justify-center md:block md:space-x-10 odin-dark-text">
+        <%= link_to "About", about_path, class: "hover:text-gray-500" %>
+        <%= link_to "FAQ", faq_path, class: "hover:text-gray-500" %>
+        <%= link_to "Blog", medium_blog_path, target: "_blank", rel: "noreferrer", class: "hover:text-gray-500" %>
+        <%= link_to "Success Stories", success_stories_path, class: "hover:text-gray-500" %>
+        <%= link_to "Contribute", contributing_path, class: "hover:text-gray-400" %>
+        <%= link_to "Terms of Use", terms_of_use_path, class: "hover:text-gray-500" %>
+      </div>
+    </div>
+  </div>
 </footer>
+

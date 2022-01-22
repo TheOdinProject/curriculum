@@ -11,7 +11,7 @@
 
     <div class="form__section">
       <span class="fas fa-envelope form__icon"></span>
-      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element form__element--with-icon', data: {test_id: 'email_field'} %>
+      <%= form.email_field :email, required: true, value: params[:email], placeholder: 'Email', class: 'form__element form__element--with-icon', data: {test_id: 'email_field'} %>
     </div>
     <% if resource.errors[:email].present? %>
       <div class="form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>

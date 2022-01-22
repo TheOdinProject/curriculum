@@ -1,0 +1,21 @@
+<% if user_signed_in? %>
+  <div class="border border-gray-300 rounded-md p-8 hidden lg:block">
+    <h3 class="text-3xl font-bold text-gray-700">Have a question?</h2>
+    <p class="py-3 text-gray-800 text-md font-light w-96">Chat with the Odin community on Discord!</p>
+
+    <%= link_to chat_link, class:'inline-flex items-center px-14 py-3 border border-transparent text-lg font-medium rounded-md shadow-sm text-white bg-gray-700  hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500' do %>
+      Open Discord
+    <% end %>
+  </div>
+<% else %>
+  <div class="rounded-md px-8 pt-8 bg-gray-100 hidden lg:block odin-dark-bg-accent">
+    <h3 class="text-3xl font-bold pb-6">Start learning for free</h3>
+
+    <%= form_with url: sign_up_path, method: :get do |form| %>
+      <div class="p-1 flex rounded-md bg-white focus-within:ring-2 focus-within:ring-indigo-500 border border-gray-300">
+        <%= form.email_field :email, placeholder: 'Email Address', required: true, class: 'w-60 p-2 focus:outline-none bg-white block rounded-none lg:w-80 lg:text-md rounded-l-md' %>
+        <%= form.submit 'Get Started!', class: 'rounded-md bg-odin-green-500  text-white px-6 py-2 text-lg hover:bg-odin-green-600 focus:outline-none focus:ring-1 focus:ring-indigo-500' %>
+      </div>
+    <% end %>
+  </div>
+<% end %>

@@ -35,6 +35,7 @@ body,
 .lesson-content__panel,
 .odin-dropdown__menu,
 .benefits,
+.odin-dark-bg-accent,
 .odin-dark-dropdown-menu {
   background-image: none !important;
   background-color: var(--dark-bg-accent) !important;
@@ -43,6 +44,7 @@ body,
 .curriculum-details-tile,
 .odin-dark-mobile-menu,
 .odin-dark-nav-item,
+.odin-dark-bg,
 .hero {
   background-color: var(--dark-bg-color) !important;
 }
@@ -65,7 +67,9 @@ h6,
 .text-notification,
 .viking-advert__brand-name,
 .viking-advert__pitch,
-.odin-dark-nav-item  {
+.odin-dark-nav-item,
+.odin-dark-icon,
+.odin-dark-text  {
   color: var(--dark-header-color) !important;
 }
 
