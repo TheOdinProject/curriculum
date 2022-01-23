@@ -99,7 +99,7 @@ We start by importing a bunch of stuff like any other decent React component. Th
 
 By just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionList`.
 
-Go through its [test](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/__tests__/submissions-list.test.jsx) file. Again, don't worry if all of it doesn't make sense, we'll chew over it shortly.
+Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/__tests__/submissions-list.test.jsx). Again, don't worry if all of it doesn't make sense, we'll chew over it shortly.
 
 #### submissions-list.test.jsx
 
@@ -134,7 +134,7 @@ The other important thing to note is almost all the tests follow a certain patte
 
 1. Read about the [secrets of act(...) api](https://github.com/mrdulin/react-act-examples/blob/master/sync.md). Especially pay attention to the last bit about testing asynchronous code. You won't be using it everyday, but it's nice to be familiar.
 
-2. Read [this](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
+2. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
 
 3. We'll practice what we've learned with a simple exercise; a comment liker application.  
     1. It's task is simple. Fetch dummy comments from [jsonplaceholder](https://jsonplaceholder.typicode.com/). Add a like and a dislike button to each comment. Display a counter for likes/dislikes. Once a button is clicked, increment the desired count and delete the comment (optional).
