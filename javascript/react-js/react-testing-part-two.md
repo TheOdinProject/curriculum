@@ -89,7 +89,7 @@ Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdin
 
 #### submissions-list.jsx
 
-We start by importing a bunch of stuff like any other decent React component. There might be a couple of unfamiliar things on there; we don't have to worry too much about them. If we glance at the props, there are some functions in there, presumeably event handlers. Let's look at what the component renders.
+We start by importing a bunch of stuff like any other decent React component. There might be a couple of unfamiliar things on there; we don't have to worry too much about them. If we glance at the props, there are some functions in there, presumably event handlers. Let's look at what the component renders.
 
 1. If there's a `userSubmission`, it renders the `Submission` component
 2. If `hasSubmission` is true, sort the submissions and render them with `Submission`. Otherwise, a heading that says "No Submissions yet, be the first!"
@@ -118,7 +118,7 @@ We only render the bare minimum to realize the validity of the component we're t
 
 Let's move towards our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, it's purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readability purposes using `describe`.
 
-In the first suite, we make some assertions if the user has a submssion and then some assertions if the user does not. The other suites follow a similar pattern.
+In the first suite, we make some assertions if the user has a submission and then some assertions if the user does not. The other suites follow a similar pattern.
 
 #### Exploring Further
 
