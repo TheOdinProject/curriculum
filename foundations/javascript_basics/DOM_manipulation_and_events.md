@@ -147,7 +147,7 @@ div.classList.remove('new');
 // removes "new" class from div
 
 div.classList.toggle('active');                                
-// if div doesn't have class "active" then adds it, or if
+// if div doesn't have class "active" then add it, or if
 // it does, then removes it
 ~~~
 
