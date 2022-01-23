@@ -103,7 +103,7 @@ Go through its [test](https://github.com/TheOdinProject/theodinproject/blob/main
 
 We notice there are two child components of `SubmissionsList`. One of them is from a package called `react-flip-move`. External Code. We'll mock it. 
 
-The other one is `Submission`. On a glance, there might not seem a reason to mock `Submission`, but if we dig deeper `Submission` has a lot going on. It has many child components of its own. And they all of them must have been tested beforehand. It's not ideal to render them all if just want to test `SubmissionsList`. Notice how we mock it:
+Notice how we mock the `Submission` component:
 
 ~~~javascript 
 jest.mock('../submission', () => ({ submission, isDashboardView }) => (
