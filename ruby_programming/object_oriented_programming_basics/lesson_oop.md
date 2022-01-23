@@ -54,12 +54,13 @@ As you begin to use rubocop, you will be inundated with multiple offenses that s
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [99 Bottles of OOP](https://sandimetz.com/99bottles), by Sandi Metz, described as "a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code." Available in Ruby and JavaScript (bundled together).
-* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://www.poodr.com/), also by Sandi Metz.
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
+* Both of the below books are paid and optional, and not everyone agrees on exactly when you should read them. However, it **is** agreed that the resources are extremely valuable, therefore some guidelines have been set as to when you should attempt to (optionally) read them:
+  * Once you have gotten a few OOP projects completed (Tic-Tac-Toe, Mastermind, Hangman at minimum) you should be ready to read [99 Bottles of OOP](https://sandimetz.com/99bottles), by Sandi Metz, to start learning how to refactor your code in a more OOP way. This book is described as "a practical guide to writing cost-effective, maintainable, and pleasing object-oriented code." Available in Ruby and JavaScript (bundled together).
+  * Once you feel comfortable after learning to refactor existing code with 99 Bottles, the next logical step would be learning [Practical Object-Oriented Design in Ruby](https://www.poodr.com/), also by Sandi Metz.
 
 ### Knowledge Check
 
