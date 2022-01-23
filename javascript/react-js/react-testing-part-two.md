@@ -77,6 +77,8 @@ describe("Favorite Input", () => {
 Three tests and we are done with this component. Take some time to figure out what functions come from which package. 
 We mock the `onChange` handler using one of jest features, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show what other ways we could've tested the component. We use `beforeEach` to clump all the variable declarations in one place rather than defining them individually for each test.  
 
+But what if you want to set up mocks in every test rather than using `beforeEach`? That's perfectly fine as well. Having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. At the end of the day, how you structure your tests is up to you.
+
 #### Mocking Child Components
 
 You might have come across the concept of mocking modules. In React, when the component tree gets large, tests can become convoluted. Especially for components higher up the tree. That's why we mock child components. This is not something you'll come across often, nevertheless, it's beneficial to realize the concept in case you might need it in your own testing pursuits. 
