@@ -124,7 +124,7 @@ div.style.cssText = "background-color: white" // ok in a string
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
-// if id exists updates it to 'theDiv' else creates an id
+// if id exists, update it to 'theDiv', else create an id
 // with value "theDiv"
 
 div.getAttribute('id');                                        
