@@ -81,8 +81,6 @@ We mock the `onChange` handler using one of jest features, `jest.fn()`. For the 
 
 You might have come across the concept of mocking modules. In React, when the component tree gets large, tests can become convoluted. Especially for components higher up the tree. That's why we mock child components. This is not something you'll come across often, nevertheless, it's beneficial to realize the concept in case you might need it in your own testing pursuits. 
 
-Read [this](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
-
 ### React Testing in the Real World
 
 If you're a logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
@@ -134,7 +132,9 @@ The other important thing to note is almost all the tests follow a certain patte
 
 1. Read about the [secrets of act(...) api](https://github.com/mrdulin/react-act-examples/blob/master/sync.md). Especially pay attention to the last bit about testing asynchronous code. You won't be using it everyday, but it's nice to be familiar.
 
-2. We'll practice what we've learned with a simple exercise; a comment liker application.  
+2. Read [this](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
+
+3. We'll practice what we've learned with a simple exercise; a comment liker application.  
     1. It's task is simple. Fetch dummy comments from [jsonplaceholder](https://jsonplaceholder.typicode.com/). Add a like and a dislike button to each comment. Display a counter for likes/dislikes. Once a button is clicked, increment the desired count and delete the comment (optional).
     2. Start with a big button at the top of the webpage. When it's clicked, it'll initiate an API call to fetch the comments.
     3. You'll likely need to add components other than `App`. Probably a `CommentContainer`, `Counter`, `Like` more or less. You decide what works best for you. 
