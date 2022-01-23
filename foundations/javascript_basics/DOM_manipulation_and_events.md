@@ -148,7 +148,7 @@ div.classList.remove('new');
 
 div.classList.toggle('active');                                
 // if div doesn't have class "active" then add it, or if
-// it does, then removes it
+// it does, then remove it
 ~~~
 
 It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
