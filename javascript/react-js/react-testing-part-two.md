@@ -23,10 +23,10 @@ Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. S
 
 import React from "react";
 
-const FavoriteInput = ({ onChange, id }) => (
+const FavoriteInput = ({ onChange: onInputChange, id }) => (
   <label htmlFor={id}>
     What is your favorite wild animal?
-    <input id={id} onChange={onChange} />
+    <input id={id} onChange={onInputChange} />
   </label>
 );
 
