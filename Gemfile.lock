@@ -503,16 +503,14 @@ GEM
       activerecord (>= 3.1)
       activesupport (>= 3.1)
     semantic_range (3.0.0)
-    sentry-rails (4.8.3)
+    sentry-rails (5.0.0)
       railties (>= 5.0)
-      sentry-ruby-core (~> 4.8.3)
-    sentry-ruby (4.8.3)
+      sentry-ruby-core (~> 5.0.0)
+    sentry-ruby (5.0.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      faraday (~> 1.0)
-      sentry-ruby-core (= 4.8.3)
-    sentry-ruby-core (4.8.3)
+      sentry-ruby-core (= 5.0.0)
+    sentry-ruby-core (5.0.0)
       concurrent-ruby
-      faraday
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
     sidekiq (6.4.0)
@@ -636,8 +634,8 @@ DEPENDENCIES
   ruby-progressbar (~> 1.11.0)
   sass-rails (~> 6.0)
   seed-fu (~> 2.3.9)
-  sentry-rails (~> 4.8.3)
-  sentry-ruby (~> 4.8.3)
+  sentry-rails (~> 5.0.0)
+  sentry-ruby (~> 5.0.0)
   shoulda-matchers
   sidekiq
   simplecov
