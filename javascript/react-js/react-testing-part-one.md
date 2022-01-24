@@ -6,7 +6,11 @@ We've learned testing our vanilla JavaScript applications in the previous sectio
 
 By the end of this lesson, you should be able to do the following:
 
-TODO
+* Discern what packages will be needed to test a React app.
+* Write queries to get elements from the UI and test them.
+* Be able to simulate user events with the `userEvent` API.
+* Explain what a snapshot test is and how to carry out a snapshot test with Jest.
+* Point out the advantages and the shortcomings of snapshot tests.
 
 ### Setting Up
 
