@@ -45,7 +45,7 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 - [CSS](https://developer.chrome.com/docs/devtools/#css): be sure to follow along with any interactive instructions! Note that while you haven't used CSS Grid yet, you should still read the "Inspect CSS Grid" section in order to be familiar with how to inspect it in case you see it in the wild.
 - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
 </div>
-
+<!---Please do not delete empty additional resources!-->
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
