@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after going through th
 
 ### Changing History
 
-So let's say you're comfortable writing good commit messages and you're working with branches to have a good Git workflow going. But nobody is perfect, and as you're writing some beautiful code something goes wrong! Maybe you commit too early, and are missing a file. Maybe you mess up one of your commit messages, and omit a vital detail. 
+So let's say you're comfortable writing good commit messages and you're working with branches to have a good Git workflow going. But nobody is perfect, and as you're writing some beautiful code something goes wrong! Maybe you commit too early and are missing a file. Maybe you mess up one of your commit messages and omit a vital detail. 
 
 Let's look at some ways we can change recent and distant history to fit our needs. We're going to cover how to change our most recent commit. How to change multiple commit messages. How to reorder, and how to squash commits. How to split up commits. 
 
