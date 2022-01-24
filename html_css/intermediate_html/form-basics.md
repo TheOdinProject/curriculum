@@ -408,7 +408,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
 
   <label for="last_name">Last Name</label>
   <input type="text" id="last_name" name="last_name">
-<fieldset>
+</fieldset>
 ~~~
 
 **Legend**
