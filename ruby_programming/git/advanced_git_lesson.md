@@ -134,7 +134,7 @@ Remember when we were working with HEAD, aka the current commit we're viewing, w
 
 So now that we've learned about the various dangerous of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a seperate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurances of it. 
 
-<span id='force-with-lease-knowledge-check'>It is worth giving special mention to `git push --force-with-lease`</span>, a command which in some companies is the default option. The reason for this is that it's a fail-safe! It checks if the branch you're attempted to push to has been updated, and sends you an error if it has. This gives you an opportunity to, as mentioned before, `fetch` the work and update your local repository.
+<span id='force-with-lease'>It is worth giving special mention to `git push --force-with-lease`</span>, a command which in some companies is the default option. The reason for this is that it's a fail-safe! It checks if the branch you're attempted to push to has been updated, and sends you an error if it has. This gives you an opportunity to, as mentioned before, `fetch` the work and update your local repository.
 
 ## Merge Conflicts
 
@@ -145,8 +145,8 @@ Let's go straight to the source and read through [GitHub's documentation on merg
 
 ### Dangers and Best Practices
 
-Let's review the dangers we've addressed so far. I know, I know, it's scary stuff - but we have to be mindful or our coworkers might end up hating our guts! If you look back through this lesson you'll see a common thread. `amend`, `rebase`, `reset`, `push --force` are all especially dangerous when you're collaborating with others. <span id='dangers-knowledge-check'>These commands can destroy work your coworkers have created</span>. So keep that in mind. When attempting to rewrite history always check the dangers of the particular command you're using, and follow these best practices for the commands we've covered:
-<span id='best-practices-knowledge-check'>
+Let's review the dangers we've addressed so far. I know, I know, it's scary stuff - but we have to be mindful or our coworkers might end up hating our guts! If you look back through this lesson you'll see a common thread. `amend`, `rebase`, `reset`, `push --force` are all especially dangerous when you're collaborating with others. <span id='dangers'>These commands can destroy work your coworkers have created</span>. So keep that in mind. When attempting to rewrite history always check the dangers of the particular command you're using, and follow these best practices for the commands we've covered:
+<span id='best-practices'>
 1) If working on a team project make sure rewriting history is safe to do, and others know you're doing it.</span>
 2) Ideally stick to using these commands only on branches that you're working with by yourself.
 3) Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
@@ -181,7 +181,7 @@ This section contains questions for you to check your understanding of this less
 
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
-* <a class='knowledge-check-link' href='#force-with-lease-knowledge-check'>What is a safe way to push history changes to a remote repository?</a>
-* <a class='knowledge-check-link' href='#dangers-knowledge-check'>What are the dangers of history-changing operations</a>
-* <a class='knowledge-check-link' href='#best-practices-knowledge-check'>What are best practices of history-changing operations</a>
+* <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
+* <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations</a>
+* <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations</a>
 * <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers</a>
