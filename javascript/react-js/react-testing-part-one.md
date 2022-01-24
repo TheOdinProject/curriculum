@@ -34,7 +34,7 @@ That's a lot of setup. But good news! If you're initializing your React reposito
 
 ### Our First Query
 
-First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in the [render docs](https://testing-library.com/docs/react-testing-library/api/#render).
+First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
 
 ~~~javascript
 // App.js
@@ -59,7 +59,7 @@ test("correct heading renders", () => {
 });
 ~~~
 
-Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through the [about queries](https://testing-library.com/docs/queries/about/) page. Pay extra attention to the "Types of Queries" and "Priority" section. 
+Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" section. 
 
 As stated by the React Testing Library docs, `ByRole` methods are the favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e mouse or assistive technologies). 
 
@@ -146,7 +146,7 @@ exports[`magnificent monkeys render 1`] = `
 
 It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails. 
 
-Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots in the [jest snapshot docs](https://jestjs.io/docs/snapshot-testing).
+Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots in the [Jest snapshot docs](https://jestjs.io/docs/snapshot-testing).
 
 Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
 
@@ -158,11 +158,11 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Take a glance at all of the available [query methods](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use [test ids](https://testing-library.com/docs/queries/bytestid/).
+1. Take a glance at all of the available query methods on [the React Testing Library's cheatsheet page](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use test ids. Learn about test ids on [the React Testing Library's test id docs](https://testing-library.com/docs/queries/bytestid/).
 
-2. Read the [userEvent](https://testing-library.com/docs/ecosystem-user-event/) API docs to get a feel of how to achieve user simulation. 
+2. Read [the userEvent API docs](https://testing-library.com/docs/ecosystem-user-event/) to get a feel of how to achieve user simulation. 
 
-3. This [article](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the pros and cons of snapshot testing. And [this](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks) one does an excellent job of explaining what is snapshot testing in programming in general.
+3. This article on the [Pros and Cons of Jest Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what is snapshot testing in programming in general.
 
 </div>
 
@@ -170,9 +170,9 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- This [tutorial](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
+- This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
 
-- [This video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.
+- This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.
 
 
 ### Knowledge Check 
