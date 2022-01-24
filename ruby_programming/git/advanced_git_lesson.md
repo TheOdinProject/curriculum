@@ -150,7 +150,7 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
   - For `git amend` never amend commits that have been pushed to remote repositories
   - For `git rebase` never rebase a repository that others may work off of 
   - For `git reset` never reset commits thath have been pushed to remote repositories
-  - For `git push --force` only use it when appropriate, use it with caution, and      preferably default to using `git push --force-with-lease`
+  - For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`
 
 ### Branches Are Pointers
 
