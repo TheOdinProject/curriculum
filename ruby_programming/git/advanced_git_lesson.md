@@ -125,7 +125,7 @@ git revert HEAD~1
 git push origin feature-branch
 ~~~
 
-Remember when we were working with HEAD, aka the current commit we're viewing, while rebasing? What this would does is it would revert the changes to HEAD by 1 commit! Then we would push our new commit to whichever branch we're working on, which in this example is feature-branch. 
+Remember when we were working with HEAD, aka the current commit we're viewing, while rebasing? What this would do is it would revert the changes to HEAD by 1 commit! Then we would push our new commit to whichever branch we're working on, which in this example is feature-branch. 
 
 So now that we've learned about the various dangerous of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a seperate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurances of it. 
 
