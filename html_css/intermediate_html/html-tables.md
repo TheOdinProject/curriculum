@@ -29,8 +29,6 @@ In this codepen example we created a table element, containing two table row ele
 2. Do <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data">this</a> assessment from MDN. It's good to put your newly learned skills to practice!
 </div>
 
-### Additional Resources
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
