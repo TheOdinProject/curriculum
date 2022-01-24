@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.16.5",
-    "@babel/plugin-proposal-private-methods": "^7.16.7",
+    "@babel/plugin-proposal-private-methods": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@hookform/resolvers": "2.8.8",
     "@hotwired/stimulus": "^3.0.1",
