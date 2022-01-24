@@ -46,7 +46,7 @@ Remember to **only amend commits that have not been pushed anywhere!** The reaso
 
 Now let's say you have commits further back in your history that you want to modify. This is where the beautiful command `rebase` comes into play! We're going to get deeper into the complexities of `rebase` later on in this lesson, but for now we're going to start out with some very basic usage. 
 
-`rebase -i` is a command which allows you to interactively stop after each commit you're trying to modify, and then make whatever changes you wish. You do have to tell this command which is the last commit you want to edit, for example `git rebase -i HEAD~3` to edit the last three commits. Let's see what this looks like in action. Open up a project you've worked on and type in:
+`rebase -i` is a command which allows you to interactively stop after each commit you're trying to modify, and then make whatever changes you wish. You do have to tell this command which is the last commit you want to edit, for example `git rebase -i HEAD~3` to edit the last three commits. Let's see what this looks like in action. Open up a project you've worked on, and [create a new branch](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors). Now that we're somewhere safe where we can experiment, type in:
 
 ~~~bash
   $ git log
