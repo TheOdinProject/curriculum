@@ -5,12 +5,12 @@ There are some topics that we just haven't had a chance to get into yet but will
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* When do you use a singular Resource in your router and when do you use plural Resources?
-* When would you use nested routes?
-* When would you use a "member" route? A "collection" route?
-* When would you use multiple layouts?
+* What are singular resources?
+* What are nested routes?
+* What are member routes and collection routes?
+* What is nesting layouts?
 * What is metaprogramming?
-* What are Design Patterns?
+* What are design patterns?
 
 ### Advanced Routing
 
