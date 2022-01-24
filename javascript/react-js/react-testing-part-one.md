@@ -28,7 +28,7 @@ import TestComponent from "path-to-test-component";
 
 * `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use. 
 
-* `@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage. Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
+* <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
 
   > _Note: `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice._
 
@@ -65,7 +65,7 @@ test("correct heading renders", () => {
 
 Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" section. 
 
-As stated by the React Testing Library docs, `ByRole` methods are the favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e mouse or assistive technologies). 
+<span id="by-role-methods">As stated by the React Testing Library docs, `ByRole` methods are the favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e mouse or assistive technologies).</span>
 
 ### Simulating User Events
 
@@ -150,13 +150,13 @@ exports[`magnificent monkeys render 1`] = `
 
 It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails. 
 
-Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading. They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots in the [Jest snapshot docs](https://jestjs.io/docs/snapshot-testing).
+<span id="advantage-snapshot-tests">Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading.</span> They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots in the [Jest snapshot docs](https://jestjs.io/docs/snapshot-testing).
 
 Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
 
-Snapshot tests may cause false positives. Since we cannot ascertain the validity of the component from a snapshot test, a bug might go undetected. Over-reliance on snapshots can make developers more confident about their code than they should be. 
+<span id="disadvantage-snapshot-tests">Snapshot tests may cause false positives. Since we cannot ascertain the validity of the component from a snapshot test, a bug might go undetected. Over-reliance on snapshots can make developers more confident about their code than they should be. 
 
-The other issue with snapshots is false negatives. Even the most insignificant of changes compel the test to fail. Fixing punctuation? Snapshot will fail. Replacing an HTML tag to a more semantic one? Snapshot will fail. This might cause us to lose our confidence in the test suite altogether. Snapshots aren't inherently bad; they do serve a purpose. But it's beneficial to understand when to snapshot, and when not to snapshot. 
+The other issue with snapshots is false negatives. Even the most insignificant of changes compel the test to fail. Fixing punctuation? Snapshot will fail. Replacing an HTML tag to a more semantic one? Snapshot will fail. This might cause us to lose our confidence in the test suite altogether.</span> Snapshots aren't inherently bad; they do serve a purpose. But it's beneficial to understand when to snapshot, and when not to snapshot. 
 
 ### Assignment
 
@@ -183,4 +183,10 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-TODO
+* <a class="knowledge-check-links" href="#setting-up">What packages are required for React testing?</a>
+* <a class="knowledge-check-links" href="#user-event">What is the significance of the user-event package?</a>
+* <a class="knowledge-check-links" href="https://testing-library.com/docs/react-testing-library/api/#render">What does the `render` method do?</a>
+* <a class="knowledge-check-links" href="#by-role-methods">What is the most preferred method for querying?</a>
+* <a class="knowledge-check-links" href="#simulating-user-events">How to test for a click event with `userEvent`?</a>
+* <a class="knowledge-check-links" href="#advantage-snapshot-tests">What is the advantage of snapshot tests?</a>
+* <a class="knowledge-check-links" href="#disadvantage-snapshot-tests">What are the disadvantages of snapshot tests?</a>
