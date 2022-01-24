@@ -39,5 +39,5 @@ This project will give you a chance to take a relatively high level set of requi
 1. Think through the data architecture required to make this work.  There are lots of models and the relationship between them is more complicated than anything you've done before.  How are you going to model a user's list of friends and friend requests? Posts should be able to have likes and comments associated with them, how are you going to model that? Take some time to plan your approach before diving in.
 2. Start your app however you like, using the express-generator or from scratch.
 3. Work your way down the list above!  Each step will involve a new challenge, but you've got the tools.
-4. You can populate data like users and posts with fake data using the [Faker](https://github.com/marak/Faker.js/) module from npm.  To accomplish this create a new JavaScript file named `seeds.js` which imports your mongoose models and uses the faker module to generate and save a bunch of new users.
+4. You can populate data like users and posts with fake data using the [Faker](https://github.com/faker-js/faker) module from npm.  To accomplish this create a new JavaScript file named `seeds.js` which imports your mongoose models and uses the faker module to generate and save a bunch of new users.
 </div>

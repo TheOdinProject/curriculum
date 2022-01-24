@@ -9,7 +9,7 @@ After completing this lesson, you will be able to:
 - View and change the DOM
 - Debug JavaScript 
 - Use breakpoints
-- View and edit html in the Elements tab
+- View and edit HTML in the Elements tab
 - View the Resources Panel to check the scripts running on a website 
 - Add CSS Pseudostate to a Class
 - View CSS Properties in Alphabetical Order
