@@ -301,6 +301,7 @@ We can set the default selected radio button by adding the `checked` attribute t
 ~~~
 
 **Checkboxes**
+
 Checkboxes are similar to radio buttons in that that they allow users to choose from a set of predefined options. But unlike radio buttons, they allow multiple options to be selected at once.
 
 To create a checkbox, we use the input element with a type attribute of "checkbox":
