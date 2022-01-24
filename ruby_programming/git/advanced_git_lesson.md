@@ -1,6 +1,6 @@
 ### Introduction
 
-Git is a crucial skill to have whether you're just a hobbyist or you aim to become a professional web developer.  It's the "save" button on steroids and allows for seamless collaboration.  There really aren't all that many commands for you to learn, but sometimes the real difficulty of git comes from visualizing what's happening. 
+Git is a crucial skill to have whether you're just a hobbyist or you aim to become a professional web developer.  It's the "save" button on steroids and allows for seamless collaboration.  There really aren't all that many commands for you to learn, but sometimes the real difficulty of Git comes from visualizing what's happening. 
 
 In this lesson, we'll help with the visualization by diving deeper than just the `$ git add .` and `$ git commit` and `$ git push` commands you've mostly been using. We'll cover topics such as Remotes, Pointers, and Changing Git History. This will expand your understanding of what's actually going on under the hood with Git. 
 
@@ -10,7 +10,7 @@ It is **very important** to take a look at all of this before progressing any fu
 ### Learning Outcomes
 Look through these now and then use them to test yourself after going through the lesson:
 
-* Gain a deeper knowledge about git commands
+* Gain a deeper knowledge about Git commands
 * Learn about the different ways to change history
 * Learn how to work with remotes to change history
 * Explain the dangers of history-changing operations
@@ -82,7 +82,7 @@ These commit changes would be disasterous for me, so I won't *actually* do it, b
 
 ## Squashing Commits
 
-Using `squash` for your commits is a very handy way of keeping your git history tidy. Squashing makes it easier for others to understand the history of your project. This will become especially important when you begin to merge features in larger projects. What often happens when a feature is merged, is you end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
+Using `squash` for your commits is a very handy way of keeping your Git history tidy. Squashing makes it easier for others to understand the history of your project. This will become especially important when you begin to merge features in larger projects. What often happens when a feature is merged, is you end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
 
 Let's say I want to `squash` all three of the commits I previously worked with together into the first commit on the list, which is `Rewrite Introduction`. I would simply  `pick` that commit as the commit that the other two are being `squash`ed into:
 
@@ -96,7 +96,7 @@ That's it! When I save and exit the editor, the bottom two commits on that list 
 
 ## Splitting Up a Commit
 
-Before diving into Remotes, we're going to have a look at a handy git command called `reset`. Let's say one of my commits was `c85c71dd5 Add knight class and Add attack module`. That's a mouthful, and a bit much for one commit as you should have learned in the previous lesson on commits. So what we're going to do is split it up into two smaller commits, also using the interactive `rebase` tool. 
+Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's say one of my commits was `c85c71dd5 Add knight class and Add attack module`. That's a mouthful, and a bit much for one commit as you should have learned in the previous lesson on commits. So what we're going to do is split it up into two smaller commits, also using the interactive `rebase` tool. 
 
 We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`. What this does is it resets the commit. This allows us to add the files individually, commit them individually, and then `git rebase --continue` just like we did last time to finish up our changes. All together it would look something like this:
 
@@ -113,7 +113,7 @@ As always however, remember to **check that none of these commits are pushed to 
 
 ### Working With Remotes
 
-Thus far you've been working with remote repositories each time you've pushed or pulled from your own Github repository while working on the curriculum's various projects. In this section we're going to cover some slightly more advanced topics, which you might not have yet encountered or had to use. 
+Thus far you've been working with remote repositories each time you've pushed or pulled from your own GitHub repository while working on the curriculum's various projects. In this section we're going to cover some slightly more advanced topics, which you might not have yet encountered or had to use. 
 
 ## git push --force
 
@@ -165,7 +165,7 @@ Before we dive into branches, let's talk about commits. If we recall [first lear
 
 So what is a branch? Based off of your exposure, you might be visualizing a branch as a group of commits. This actually isn't the case! **A branch is actually a pointer to a single commit!** Hearing this your first thought might be *"Well if a branch is just a finger pointing at a single commit, how does that single commit know about all the commits that came before it?"*. The answer to the question is very simple, each commit is also a pointer, and points to the commit that came before it! Wow. This might be a lot to take in, so let's take a moment to absorb that fact. 
 
-Now that you've had a second to gather your thoughts and attempt to wrap your head around this concept, it might help to go back and look at a concrete example of pointers we used in this lesson. Let's think back to our use of `git rebase -i HEAD~3`. If you can remember, this command lets us edit the last 3 commits. Do you have any guesses on how git knew which 3 commits to edit? That's right, by using pointers! We start at HEAD, a special pointer for keeping track of the branch you're currently on. HEAD points to our most recent commit in the current branch. That commit points to the commit made directly before it, which we can call commit 2. That commit does the exact same, and points to the commit before it, which we can call commit 3. That's how `git rebase -i HEAD~3` starts with a HEAD pointer, and then uses more pointers to see which three commits to edit. 
+Now that you've had a second to gather your thoughts and attempt to wrap your head around this concept, it might help to go back and look at a concrete example of pointers we used in this lesson. Let's think back to our use of `git rebase -i HEAD~3`. If you can remember, this command lets us edit the last 3 commits. Do you have any guesses on how Git knew which 3 commits to edit? That's right, by using pointers! We start at HEAD, a special pointer for keeping track of the branch you're currently on. HEAD points to our most recent commit in the current branch. That commit points to the commit made directly before it, which we can call commit 2. That commit does the exact same, and points to the commit before it, which we can call commit 3. That's how `git rebase -i HEAD~3` starts with a HEAD pointer, and then uses more pointers to see which three commits to edit. 
 
 You might be feeling overwhelmed at this point, so let's recap what we've learned. A branch is simply a pointer to a single commit. A commit is a snapshot, and a pointer at the commit directly behind it in history. That's it!
 
