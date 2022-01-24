@@ -51,6 +51,7 @@ group :development, :test, :docker do
   gem 'climate_control'
   gem 'cuprite'
   gem 'dotenv-rails'
+  gem 'erb_lint', require: false
   gem 'factory_bot'
   gem 'factory_bot_rails', '~> 6'
   gem 'pry', '~> 0.14.1'

@@ -1,0 +1,82 @@
+EnableDefaultLinters: true
+linters:
+  ErbSafety:
+    enabled: true
+    better_html_config: .better-html.yml
+  Rubocop:
+    enabled: true
+    rubocop_config:
+      inherit_from:
+        - .rubocop.yml
+---
+exclude:
+  - '*vendor/*'
+  - '*app/views/svg/*'
+linters:
+  AllowedScriptType:
+    enabled: true
+  ClosingErbTagIndent:
+    enabled: true
+  DeprecatedClasses: # See https://github.com/Shopify/erb-lint#deprecatedclasses
+    enabled: true
+  ErbSafety: # Need to fix the remaining issues before this can be enabled
+    enabled: false
+    better_html_config: .better-html.yml
+  ExtraNewline:
+    enabled: true
+  FinalNewline:
+    enabled: true
+  HardCodedString:
+    enabled: false
+  NoJavascriptTagHelper:
+    enabled: true
+  ParserErrors:
+    enabled: true
+  RightTrim: # Disable closing tag trim
+    enabled: false
+  RequireInputAutocomplete:
+    enabled: false
+  RubocopText:
+    enabled: true
+  Rubocop:
+    enabled: true
+    rubocop_config:
+      inherit_from:
+        - .rubocop.yml
+      Layout/InitialIndentation:
+        Enabled: false
+      Layout/TrailingEmptyLines:
+        Enabled: false
+      Layout/TrailingWhitespace:
+        Enabled: false
+      Naming/FileName:
+        Enabled: false
+      Style/FrozenStringLiteralComment:
+        Enabled: false
+      Layout/LineLength: # This should be enabled eventually
+        Enabled: false
+      Lint/UselessAssignment:
+        Enabled: false
+      Rails/OutputSafety:
+        Enabled: false
+      Rails/Presence:
+        Enabled: false
+      Layout/LeadingEmptyLines:
+        Enabled: false
+      Style/RedundantCondition:
+        Enabled: false
+      Layout/HashAlignment:
+        Enabled: false
+      Rails/LinkToBlank:
+        Enabled: false
+
+  SelfClosingTag:
+    enabled: false
+  SpaceAroundErbTag:
+    enabled: true
+  SpaceInHtmlTag:
+    enabled: true
+  SpaceIndentation:
+    enabled: true
+  TrailingWhitespace:
+    enabled: true

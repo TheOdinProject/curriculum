@@ -9,9 +9,9 @@
       <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar" %> </div>
 
       <div class="success-content">
-	       <div class="details">
+         <div class="details">
            <p><%= link_to story.student_name, story.social_media_link, class: 'accent' %></p>
-	       </div>
+         </div>
          <p><%= story.story_content.truncate_words(30) %></p>
       </div>
     </div>
@@ -25,7 +25,6 @@
   <%= render 'shared/bottom_cta',
     button: sign_in_or_view_curriculum_button,
     heading: 'Start learning for free now!',
-    sub_heading: ''
-  %>
+    sub_heading: '' %>
 
 </div> <!-- /.success-stories -->
