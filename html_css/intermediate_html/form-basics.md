@@ -211,7 +211,7 @@ The select element renders a dropdown list where users can select an option. Syn
 To create a select dropdown, we use the `<select>` element. Any options we want to display within the select element are defined using `<option>` elements:
 
 ~~~html
-<select name="Car">
+<select name="Car"> 
   <option value="mercedes">Mercedes</option>
   <option value="tesla">Tesla</option>
   <option value="volvo" selected>Volvo</option>
@@ -408,7 +408,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
 
   <label for="last_name">Last Name</label>
   <input type="text" id="last_name" name="last_name">
-<fieldset>
+</fieldset>
 ~~~
 
 **Legend**
