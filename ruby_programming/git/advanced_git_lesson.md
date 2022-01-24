@@ -40,7 +40,7 @@ Let's say we execute a commit but *Uh-Oh!*, we're missing a file! Let's add our 
 
 What happened here is we first updated the staging area to includes the missing file, and replaced the last commit with our new one to include the missing file. If we wanted to, we could have changed the message of the commit and it would have overwritten the message of the past commit. 
 
-Remember to **only amend commits that have not been pushed anywhere!** 
+Remember to **only amend commits that have not been pushed anywhere!** The reason for this  is that `git commit --amend` does not simply edit the last commit, it *replaces that commit with an entirely new one*. This means that if you were to amend a commit other developers are basing their work on, you're effectively destroying a commit they could be basing their work off of. When rewriting history always make sure that you're doing so in a safe manner, and that your coworkers are aware of what you're doing. 
 
 ## Changing Multiple Commits
 
