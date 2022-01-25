@@ -414,7 +414,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
 
 **Legend**
 
-The legend element is used to give a field sets a heading or caption so the user can see what a grouping of inputs is for.
+The legend element is used to give a fieldset a heading or caption so the user can see what a grouping of inputs is for.
 
 To create a legend, we use the `<legend>` element with the text we want to display within its opening and closing tags. A legend should always come right after an opening fieldset tag:
 
