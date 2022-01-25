@@ -98,6 +98,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 ### Knowledge Check
 
-- What is the `xmlns` attribute?
-- What are some situations where you _wouldn't_ want to use SVG?
-- What are the benefits of "inlining" your SVGs? What are the drawbacks?
+- <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
+- <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
+- <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
