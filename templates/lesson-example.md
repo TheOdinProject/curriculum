@@ -4,7 +4,7 @@ This example takes snippets from the Box Model lesson in Foundations (with some 
 
 Now that you understand the basic syntax of HTML and CSS, we’re going to get serious. The most important skills you need to master with CSS are positioning and layout. Changing fonts and colors is a crucial skill, but being able to put things exactly where you want them on a webpage is even more crucial. After all, how many webpages can you find where absolutely every element is just stacked one on top of another?
 
-### Learning Outcomes
+### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 

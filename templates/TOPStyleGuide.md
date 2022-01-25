@@ -1,7 +1,3 @@
-<!-- Learning Outcomes: Keep old verbiage and bullets; discuss with Bender and Sully -->
-<!-- Project Iterations/Steps: Keep; contact James -->
-<!-- Assignment vs Practice: remove links scattered throughout the lesson; keep Practice and Assignment separated -->
-
 # TOP Markdown Style Guide
 
 [Inspired by google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
