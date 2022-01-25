@@ -34,7 +34,7 @@ The fact that SVG source-code is XML has a few key benefits.
 
 First, it means that it is _human readable_. If you were to open up a JPEG in a text editor, it would just look like gobbledygook. If you were to open up an SVG, however, it would look something like this:
 
-~~~html
+~~~xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <rect x=0 y=0 width=100 height=50 />
     <circle class="svg-circle" cx="50" cy="50" r="10"/>
