@@ -237,7 +237,7 @@ We can set one of the options to be the default selected element when the browse
 </select>
 ~~~
 
-We may also split the list of options into groups using the `<optgroup>` element. The optgroup element take a `label` attribute which the browser uses as the label for each group:
+We may also split the list of options into groups using the `<optgroup>` element. The optgroup element takes a `label` attribute which the browser uses as the label for each group:
 
 ~~~html
 <select name="fashion">
