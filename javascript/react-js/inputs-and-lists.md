@@ -185,19 +185,23 @@ Great, if you run your application now with `npm start` (or refresh the browser 
 ~~~javascript
 // Overview.js
 
-import React from "react";
+import React, { Component } from "react";
 
-const Overview = (props) => {
-  const { tasks } = props;
+class Overview extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-  return (
-    <ul>
-      {tasks.map((task) => {
-        return <li>{task.text}</li>;
-      })}
-    </ul>
-  );
-};
+  render() {
+    return (
+      <ul>
+        {this.props.tasks.map((task) => {
+          return <li>{task.text}</li>;
+        })}
+      </ul>
+    );
+  }
+}
 
 export default Overview;
 ~~~
@@ -249,19 +253,23 @@ class App extends Component {
 ~~~javascript
 // Overview.js
 
-import React from "react";
+import React, { Component } from "react";
 
-const Overview = (props) => {
-  const { tasks } = props;
+class Overview extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-  return (
-    <ul>
-      {tasks.map((task) => {
-        return <li key={task.id}>{task.text}</li>;
-      })}
-    </ul>
-  );
-};
+  render() {
+    return (
+      <ul>
+        {this.props.tasks.map((task) => {
+          return <li key={task.id}>{task.text}</li>;
+        })}
+      </ul>
+    );
+  }
+}
 
 export default Overview;
 ~~~
@@ -351,19 +359,23 @@ export default App;
 ~~~javascript
 // Overview.js
 
-import React from "react";
+import React, { Component } from "react";
 
-const Overview = (props) => {
-  const { tasks } = props;
+class Overview extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-  return (
-    <ul>
-      {tasks.map((task) => {
-        return <li key={task.id}>{task.text}</li>;
-      })}
-    </ul>
-  );
-};
+  render() {
+    return (
+      <ul>
+        {this.props.tasks.map((task) => {
+          return <li key={task.id}>{task.text}</li>;
+        })}
+      </ul>
+    );
+  }
+}
 
 export default Overview;
 ~~~
