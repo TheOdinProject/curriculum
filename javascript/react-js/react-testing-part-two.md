@@ -135,13 +135,20 @@ The other important thing to note is almost all the tests follow a certain patte
 1. Read about the [secrets of act(...) api](https://github.com/mrdulin/react-act-examples/blob/master/sync.md). Especially pay attention to the last bit about testing asynchronous code. You won't be using it everyday, but it's nice to be familiar.
 
 2. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
+ 
+</div>
 
-3. We'll practice what we've learned with a simple exercise; a comment liker application.  
-    1. It's task is simple. Fetch dummy comments from [jsonplaceholder](https://jsonplaceholder.typicode.com/). Add a like and a dislike button to each comment. Display a counter for likes/dislikes. Once a button is clicked, increment the desired count and delete the comment (optional).
-    2. Start with a big button at the top of the webpage. When it's clicked, it'll initiate an API call to fetch the comments.
-    3. You'll likely need to add components other than `App`. Probably a `CommentContainer`, `Counter`, `Like` more or less. You decide what works best for you. 
-    4. Make sure to test them accordingly. Mock, which can be mocked. Query, which can be queried. Simulate, which can be simulated. 
-    5. You don't have to style at all. The sole purpose of this exercise is to get a hands on experience with testing. 
+### Practice 
+
+<div class="lesson-content__panel" markdown="1">
+
+TODO: 1. Still needs to be approved. 2. Add a TOP Repo link for the code.
+
+1. We'll practice what we've learned with a simple exercise; a comment liker application.  
+    1. Fork and clone the [comment-liker-app repository](). 
+    2. Follow the instructions in the README.md to get started.
+    3. Mock, which can be mocked. Query, which can be queried. Simulate, which can be simulated. 
+
 </div>
 
 ### Knowledge Check
