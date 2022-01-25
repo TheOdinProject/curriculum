@@ -113,9 +113,9 @@ def javascript_lessons
       url: '/javascript/js-in-the-real-world/ui-Interactions.md',
       identifier_uuid: 'd6a88ccb-9fdb-4544-a363-4d7f1054e36f',
     },
-    'Forms' => {
-      title: 'Forms',
-      description: 'Forms',
+    'Form Validation with JavaScript' => {
+      title: 'Form Validation with JavaScript',
+      description: 'This lesson will cover the Constraint Validation API',
       is_project: false,
       url: '/javascript/js-in-the-real-world/forms.md',
       identifier_uuid: 'c95fe496-2223-4c96-bf3f-9d8e3796d233',
