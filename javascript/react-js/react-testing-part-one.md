@@ -187,6 +187,6 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-links" href="#user-event">What is the significance of the user-event package?</a>
 * <a class="knowledge-check-links" href="https://testing-library.com/docs/react-testing-library/api/#render">What does the `render` method do?</a>
 * <a class="knowledge-check-links" href="#by-role-methods">What is the most preferred method for querying?</a>
-* <a class="knowledge-check-links" href="#simulating-user-events">How to test for a click event with `userEvent`?</a>
+* <a class="knowledge-check-links" href="#simulating-user-events">How would you test for a click event with `userEvent`?</a>
 * <a class="knowledge-check-links" href="#advantage-snapshot-tests">What is the advantage of snapshot tests?</a>
 * <a class="knowledge-check-links" href="#disadvantage-snapshot-tests">What are the disadvantages of snapshot tests?</a>
