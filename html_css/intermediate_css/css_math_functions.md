@@ -14,7 +14,7 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
 ~~~css
-color: hsl(230, 100%, 50%);
+color: rgb(230, 100%, 50%);
 background: linear-gradient(90deg, blue, red);
 ~~~
 
