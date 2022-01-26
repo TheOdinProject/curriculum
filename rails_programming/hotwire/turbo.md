@@ -19,7 +19,6 @@ That's where the concept of a **single page application** comes in. This section
 *   When might you use a Turbo Frame?
 *   How do we use Turbo Streams to update our pages?
 *   What do we use Turbo Native for?
-*   What is redis and why do we need it?
 
 ### Single Page Applications (SPAs)
 
@@ -412,10 +411,6 @@ if you would like to learn more:
 ### Turbo Native
 
 The final piece of Turbo is something that you don't need to know much about for this course, other than it exists. Turbo Native is useful for wrapping your application inside of a mobile-friendly shell. If you are interested in mobile development and how you can use Turbo with it, you may enjoy looking at the demos for [iOS](https://github.com/hotwired/turbo-ios/blob/main/Demo/README.md) and [Android](https://github.com/hotwired/turbo-android/blob/main/demo/README.md) phones.
-
-### Redis, Turbo, & You
-
-Insert Redis info here after deciding what to do about it
 
 ### Assignment
 
