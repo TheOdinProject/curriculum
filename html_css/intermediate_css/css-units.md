@@ -20,7 +20,7 @@ Relative units are units that can change based on their context. There are sever
 
 Using a relative size like `rem` to define font sizes across your website _is_ recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect user's wishes with regards to font size. You'll learn more about this from the reading assignments.
 
-#### Viewport Units: vw and vh.
+#### Viewport Units
 
 The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` is equal to `1%` of the viewport height and `1vw` is equal to `1%` of the viewport width. These can be useful any time you want something to be sized relative to the viewport, examples including full-height heroes, full-screen app-like interfaces.
 
@@ -37,6 +37,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* Why would you want to use `em` or `rem` for font-size instead of `px`?
-* What are some instances where you might want to use `vh` and `vw`
-* What are some instances where you might want to use `px` instead of a relative unit?
+- <a class="knowledge-check-link" href='#em-and-rem'>Why would you want to use `em` or `rem` for font-size instead of `px`?</a>
+- <a class="knowledge-check-link" href='#viewport-units'>What are some instances where you might want to use `vh` and `vw`</a>
+- <a class="knowledge-check-link" href='https://codyloyd.com/2021/css-units/'>What are some instances where you might want to use `px` instead of a relative unit?</a>
