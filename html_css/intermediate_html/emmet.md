@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Emmet
 
-Emmet is a really useful tool for anyone that works a lot with HTML and CSS. Luckily Emmet does not have that big of a learning curve, and if you already know how to write HTML and CSS you'll have no trouble picking up Emmet abbreviations.
+Emmet is a really useful tool for anyone that works a lot with HTML and CSS. Luckily, Emmet does not have that big of a learning curve, and if you already know how to write HTML and CSS you'll have no trouble picking up Emmet abbreviations.
 
 Let's start off by generating an HTML boilerplate with Emmet. Opening up an empty html file in VS Code and entering `!` should trigger Emmet suggestions like so:
 
