@@ -457,8 +457,7 @@ Ideas:
 
 * [Turbo Reference Information](https://turbo.hotwired.dev/reference/drive)
 * [Official Hotwire Forums](https://discuss.hotwired.dev/)
-* Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening
-   with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font!
+* Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font!
 
 ### Knowledge Check
 
@@ -489,18 +488,14 @@ Ideas:
 <details markdown="block">
   <summary>What purpose does Turbo Drive serve?</summary>
 
-  *   Turbo Drive assists in speeding up page navigation by intercepting requests made by the user and
-      updating the page with the requested content rather than sending a complete fresh page. It also
-      speeds up loading by using the browser's cache when possible.
+  *   Turbo Drive assists in speeding up page navigation by intercepting requests made by the user and updating the page with the requested content rather than sending a complete fresh page. It also speeds up loading by using the browser's cache when possible.
 
 </details>
 
 <details markdown="block">
   <summary>How do we use a Turbo Frame?</summary>
 
-  *   By creating a `<% turbo_frame_tag %>` region on the 2+ pages we would like to connect. When making a request to a page
-      using a link inside of a Turbo Frame, Turbo will search for a Turbo Frame with the same `id` to replace the current page's
-      Turbo Frame content with.
+  *   By creating a `<% turbo_frame_tag %>` region on the 2+ pages we would like to connect. When making a request to a page using a link inside of a Turbo Frame, Turbo will search for a Turbo Frame with the same `id` to replace the current page's Turbo Frame content with.
 
 </details>
 
@@ -508,7 +503,6 @@ Ideas:
   <summary>How do we set up Turbo Streams?</summary>
 
   *   First, we tell our controller to respond with a `turbo_stream` format, rather than a `html` format. 
-  *   Second, we create a `turbo_stream.erb` file in our views folder with the same name as the controller action
-      (Rails conventions!) that contains the Turbo Stream's action and target destination.
+  *   Second, we create a `turbo_stream.erb` file in our views folder with the same name as the controller action (Rails conventions!) that contains the Turbo Stream's action and target destination.
 
 </details>
