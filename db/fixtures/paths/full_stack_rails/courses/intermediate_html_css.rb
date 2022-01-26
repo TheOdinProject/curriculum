@@ -12,7 +12,7 @@ end
 # +++++++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Intermediate HTML Concepts'
-  section.description = "In this section, we'll finish covering the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a page."
+  section.description = "In this section, we'll finish covering the whole range of HTML so you'll be completely comfortable with putting the right elements in the right places on a webpage."
   section.identifier_uuid = '8c29791f-af76-4344-a5d3-96cc93b34178'
 
   section.add_lessons(
@@ -30,7 +30,7 @@ end
 # +++++++++++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Intermediate CSS Concepts'
-  section.description = "Our Foundations course taught you the basics of CSS, but here we'll really dive into what you need to know to make your web projects look however you want."
+  section.description = "Our Foundations course taught you the basics of CSS, but here we'll dive into CSS concepts that'll make your web projects shine."
   section.identifier_uuid = '1b1511bc-6373-4626-8d57-484ff7f78ee5'
 
   section.add_lessons(
@@ -53,7 +53,7 @@ end
 # +++++++++++++
 course.add_section do |section|
   section.title = 'Grid'
-  section.description = 'Learn how to use the new CSS Grid syntax to build your layouts'
+  section.description = "In this section, you'll learn how to use the new CSS Grid syntax to build complex layouts."
   section.identifier_uuid = '36b2a55c-6fe4-447d-84a3-69a1644a63e6'
 
   section.add_lessons(
