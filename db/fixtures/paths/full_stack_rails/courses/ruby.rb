@@ -141,11 +141,11 @@ course.add_section do |section|
 end
 
 # +++++++++++++
-# SECTION - GIT
+# SECTION - Intermediate Git
 # +++++++++++++
 course.add_section do |section|
-  section.title = 'GIT'
-  section.description = "You should be familiar with the basic Git workflow since you've been using it to save your projects along the way (right?!). This section will start preparing you for for the more intermediate-level uses of Git that you'll find yourself doing."
+  section.title = 'Intermediate Git'
+  section.description = "You should be familiar with the basic Git workflow since you've been using it to save your projects along the way (right?!). This section will start preparing you for the more intermediate-level uses of Git that you'll find yourself doing."
   section.identifier_uuid = '4e059547-a8fd-426d-b546-24c2222106c6'
 
   section.add_lessons(
