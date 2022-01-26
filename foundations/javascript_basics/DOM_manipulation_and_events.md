@@ -41,13 +41,13 @@ You can also use relational selectors \(i.e. `firstElementChild` or `lastElement
 
 ~~~JavaScript
 const container = document.querySelector('#container');
-// select the #container div (don't worry about the syntax, we'll get there)
+// selects the #container div (don't worry about the syntax, we'll get there)
 
 console.dir(container.firstElementChild);                      
-// select the first child of #container => .display
+// selects the first child of #container => .display
 
 const controls = document.querySelector('.controls');   
-// select the .controls div
+// selects the .controls div
 
 console.dir(controls.previousElementSibling);                  
 // selects the prior sibling => .display
@@ -93,7 +93,7 @@ When you have a reference to an element, you can use that reference to alter the
 
 ~~~JavaScript
 const div = document.createElement('div');                     
-// create a new div referenced in the variable 'div'
+// creates a new div referenced in the variable 'div'
 ~~~
 
 #### Adding inline style
@@ -124,7 +124,7 @@ div.style.cssText = "background-color: white" // ok in a string
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
-// if id exists update it to 'theDiv' else create an id
+// if id exists, update it to 'theDiv', else create an id
 // with value "theDiv"
 
 div.getAttribute('id');                                        
@@ -144,7 +144,7 @@ div.classList.add('new');
 // adds class "new" to your new div
 
 div.classList.remove('new');                                   
-// remove "new" class from div
+// removes "new" class from div
 
 div.classList.toggle('active');                                
 // if div doesn't have class "active" then add it, or if
@@ -235,7 +235,7 @@ Add the following elements to the container using ONLY javascript and the DOM me
 3. a `<div>` with a black border and pink background color with the following elements inside of it:
    1. another `<h1>` that says "I'm in a div"
    2. a `<p>` that says "ME TOO!"
-   3. Hint for this one: after creating the div with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+   3. Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
 
 ### Events
 
@@ -380,7 +380,7 @@ You can find a more complete list with explanations of each event on [this page]
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
-1. Do the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project.  
+1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
 2. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 ### Additional Resources

@@ -1,6 +1,6 @@
 ### Welcome to The Odin Project
 
-The Odin Project is an open source community dedicated to providing the best information sources to take you from zero to full-stack developer.  More information can be found at The Odin Project's [about page](https://www.theodinproject.com/about).
+The Odin Project is an open source community dedicated to providing the best information sources to take you from zero to a full-stack developer.  More information can be found at The Odin Project's [about page](https://www.theodinproject.com/about).
 
 ### Introduction
 
@@ -30,7 +30,7 @@ If you are a non-English speaker, or English is not a primary language for you, 
 
 As another part of this preparation, we *highly* recommend spending extra time on topics and terms that you do not understand right away. We also encourage you to seek out additional resources that teach about these topics in your own native language so you can understand them more fully.
 
-In addition to this, you might also consider using a translation dictionary in your own language alongside of our curriculum so you can readily reference it as you go. We do not have any recommendations on these since there are such a wide variety of languages spoken throughout the world, but finding one may perhaps be a good first step in learning how to find useful tools online by searching. This is a skill you will utilize and improve as you progress in your learning to be a developer.
+In addition to this, you might also consider using a translation dictionary in your own language alongside our curriculum so you can readily reference it as you go. We do not have any recommendations on these since there are such a wide variety of languages spoken throughout the world, but finding one may perhaps be a good first step in learning how to find useful tools online by searching. This is a skill you will utilize and improve as you progress in your learning to be a developer.
 
 ### What Comes Next
 
@@ -39,10 +39,10 @@ Once you've completed this course, you should be pretty comfortable with the bui
 The last lesson of this course will give you an opportunity to choose between a Full Stack JavaScript and Full Stack Rails path, both of which are designed
 to take the foundation built in this course and build it into an applied understanding of the material. Each path will focus on taking these raw building blocks and honing them into a highly functional skillset.
 
-The Odin Project is maintained by professionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
+The Odin Project is maintained by professionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know that **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
 
-As you move forward, in the curriculum each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understanding the task at hand. 
+As you move forward, in the curriculum each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understand the task at hand. 
 
-Additional resources are the only thing that are considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding. 
+Additional resources are the only thing that is considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding. 
 
 **DO NOT SKIP ANYTHING!** 

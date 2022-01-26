@@ -41,7 +41,16 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 
 Save and open this file up in a web browser (you can use Live Server to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
 
+
 > <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
+
+Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website. 
+
+~~~html
+  <script src="javascript.js"></script>
+~~~
+
+JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
 ### Variables
 
@@ -59,7 +68,7 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
-## Assignment
+### Assignment
 
 Try the following exercises (and don't forget to use `console.log()`!):
 
@@ -69,7 +78,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
    1. Answer should be approximately `0.24675`
 4. Let's use variables!
    1. Type the following at the top of the script tag: `let a = 10`
-   2. `console.log(a)` should print `10`
+   2. In the console `console.log(a)` should print `10`
    3. Try the following: `9 * a`
    4. and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:

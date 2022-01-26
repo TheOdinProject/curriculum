@@ -5,15 +5,14 @@ You learned about the basics of building forms in HTML and Rails in previous les
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
 
-* How do you prepopulate a dropdown menu with data?
-* What is the difference between the `#select_tag` helper and the `#select` helper?
-* What format does the array you input to `#options_for_select` need to be in?
-* Why would you need to use a nested form?
-* What do you need to change in the model to allow nested forms to create new objects properly?
-* How do you whitelist the nested parameters properly in your controller?
-* Why can't you just delete something by leaving a form field (e.g. a checkbox) blank (unchecked)?
+By the end of this lesson, you should be able to:
+
+* Build dropdown menus
+* Work with model objects
+* Make nested forms
+* Whitelist nested parameters
+* Delete records via form fields
 
 ### Prepopulating `select` Tags with Collections
 
@@ -48,7 +47,7 @@ This creates a dropdown list with each user's name as an option.  Your `#create`
 
 But Rails provides some less verbose ways of doing the same thing, namely using the `#select_tag` helper in conjunction with the `#options_for_select` helper.  The `#select_tag` will create the surrounding tag while the `#options_for_select` gives `#select_tag` the array of options it needs.
 
-`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`:
+<span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`:
 
 ~~~ruby
   # app/controllers/posts_controller.rb
@@ -67,7 +66,7 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
 
 So just pass `#select_tag` the name it should use for your chosen value and the collection and it will output the exact same thing!
 
-If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:
+<span id='select-helper'>If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:</span>
 
 ~~~ruby
   # app/views/posts/new.html.erb
@@ -80,7 +79,7 @@ You still need to pass it the `:post` parameter (which indicates that your form 
 
 The `:author_id` input to the `#select` helper above represents not just what the chosen value should be called (as in the `#select_tag`) but also which column name it represents in your original (in this case Post) model.  This may be a bit annoying at first since you can't just name your choice whatever you want.
 
-If you have a `#form_for` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
+If you have a `#form_with` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
 
 ~~~ruby
   # app/views/posts/new.html.erb
@@ -105,7 +104,7 @@ As you can imagine, it's important to get the names and parameters properly list
 
 We'll do a broad overview of the process here:
 
-1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
+<span id='accepts_nested_attributes_for'>1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:<span>
 
 ~~~ruby
   # app/models/user.rb
@@ -116,17 +115,17 @@ We'll do a broad overview of the process here:
 ~~~
 
 2. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
-3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_for` inside your existing `#form_for` form.
+3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
 
-There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_for`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
+There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
 ~~~ruby
-  <%= form_for @user do |f| %>
+  <%= form_with model: @user do |f| %>
     ...
     <% 3.times do %>
-      <%= f.fields_for @user.shipping_addresses.build do |addy_form| %>
+      <%= f.fields_for @user.shipping_addresses.build do |sub_form| %>
         ...
-        <%= addy_form.text_field :zip_code %>
+        <%= sub_form.text_field :zip_code %>
         ...
       <% end %>
     <% end %>
@@ -152,7 +151,7 @@ If you've got a `has_many :through` relationship, you'll likely need to go one a
 
 Sometimes, despite all the nice helpers Rails gives you, you just want to do something that's not standard.  You should first wonder whether this is the easiest and most straightforward way to do things.  If it passes the smell test, then go ahead and build your form.
 
-It's often easiest (and good practice while you're learning) to start with the most basic of HTML forms.  If you don't understand what's going on in the basic HTML (and remember to include your CSRF token), then you'll be hopeless trying to use helpers.  Once you've got a good handle on things, gradually bring in the Rails helpers like `#form_tag` and `#form_for`.
+It's often easiest (and good practice while you're learning) to start with the most basic of HTML forms.  If you don't understand what's going on in the basic HTML (and remember to include your CSRF token), then you'll be hopeless trying to use helpers.  Once you've got a good handle on things, gradually bring in the Rails helpers like `#form_tag` and `#form_with`.
 
 Don't get discouraged if you get some real head-scratcher moments when building nonstandard forms.  It just takes some experience to feel comfortable.  And if things are too out of hand, you may need to re-evaluate your approach (what exactly are you hoping to accomplish with your complex form?) and start again.
 
@@ -193,3 +192,15 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
 * [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
 * [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>
+- <a class="knowledge-check-link" href='#options-for-select'>When using `#options_for_select`, what format does the array need to be in?</a>
+- <a class="knowledge-check-link" href='#select-helper'>When would you use the `#select` helper?</a>
+- <a class="knowledge-check-link" href='#nested-forms'>How can you prevent users from having to submit multiple forms?</a>
+- <a class="knowledge-check-link" href='#accepts_nested_attributes_for'>What do you add to the model that allows nested forms to create new objects?</a>
+- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you whitelist the nested parameters in your controller?</a>
+ - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>How can you set up a dropdown or checkbox to delete a record that already exists?</a>
+ 

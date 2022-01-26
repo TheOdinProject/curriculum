@@ -5,12 +5,32 @@ There are many test-running systems available in JavaScript: [Mocha](https://moc
 
 This lesson is going to center around __Jest__. The biggest reasons for this decision are that one of the best resources we've found for explaining JavaScript testing uses it and they have fantastic documentation.  In the end, writing tests is less about the syntax and more about the TDD philosophy.  The most important issues are knowing __why__ we write tests and __what__ we test rather than how.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Explain the basics of TDD.
+- Get up and running with Jest.
+- Write basic tests.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Read this short article](http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/) that outlines the basic process and the benefits of TDD.
+1. [Read this short article](https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/) that outlines the basic process and the benefits of TDD.
 2. Watch at least the first 3 videos of [this video series](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr) about testing in JavaScript.  The first video focuses heavily on the WHY, while the next two go into more depth about the process.  Later videos in the series are _definitely_ worthwhile, but the first 3 are enough to get you up and running.
 3. Read and follow the [Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html#content) tutorial on the main Jest website.
 4. Read and follow the [Using Matchers](https://facebook.github.io/jest/docs/en/using-matchers.html#content) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.  This video might be worth re-visiting after you've done some testing of your own.
 </div>
+
+### Additional Resources
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
+- <a class="knowledge-check-link" href="https://jestjs.io/docs/using-matchers#common-matchers">What are some common jest matchers?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=699">How should you test incoming query messages?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=792">Why should you not test implementation?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1102">Should you test private methods?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1370">Why should you not test messages with no side effects?</a>

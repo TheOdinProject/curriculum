@@ -1,9 +1,16 @@
 ### Introduction
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+- Explain what tightly coupled code is
+- Describe a pure function and how it relates to TDD
+- Explain what mocking is
+  
 ### Pure Functions
 
-There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`.  
+There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  <span id='tightly-coupled-code'>All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`</span>.  
 
 Tightly coupled code is hard to test! Imagine trying to write tests for a function like this:
 
@@ -52,7 +59,7 @@ If we had written this program with TDD it is very likely that it would have loo
 
 ### Mocking
 
-There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want.  For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test.
+<span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
 
 ### Assignment
 
@@ -63,3 +70,13 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://facebook.github.io/jest/docs/en/mock-functions.html#content)
 5. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://facebook.github.io/jest/docs/en/webpack.html#content).
 </div>
+
+### Knowledge Check 
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
+- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are the two requirements for a function to be pure?</a>
+- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are side effects and why is it important to identify them when testing a function?</a>
+- <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>
+- <a class='knowledge-check-link' href='#two-solutions'>What is mocking?</a>
+- <a class='knowledge-check-link' href='#mock-function-example'>When would you use a mock function?</a>

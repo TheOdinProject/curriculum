@@ -1,10 +1,10 @@
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors), you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) and **Google Chrome**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 **Please Note**: We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 
-### Setup
+### OS Installation
 
 **IMPORTANT**
 
@@ -23,6 +23,15 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 **IMPORTANT**
 
 Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+
+#### NOTICE FOR WINDOWS 11 USERS:
+
+Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
+system. This means that VirtualBox may not properly install or run on Windows 11, or that you could face serious bugs that hinder performance or cause
+crashes. It is recommended that you remain on Windows 10 until VirtualBox is supported or consider installing Linux using Dual-Boot with the assistance
+of the second guide on this lesson page.
+
+You can see the currently supported operating systems for VirtualBox hosting [in this section of their documentation.](https://www.virtualbox.org/manual/UserManual.html#hostossupport)
 
 #### Step 1.1: Download VirtualBox
 
@@ -44,7 +53,7 @@ Now that you have VirtualBox installed, launch the program. Once open, you shoul
 
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/00.png" alt="The VirtualBox start screen" title="A new start">
 
-Click on the “New” button to create a virtual operating system. Give it a name of “Xubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. Continue by pressing “Next”, and choose the following options in the next steps:
+Click on the “New” button to create a virtual operating system. Give it a name of “Xubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. If the 64-bit option is not present, you'll likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). Continue by pressing “Next”, and choose the following options in the next steps:
 
 <img style="border-style: solid; border-width: thin; padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png" alt="The VirtualBox Create Virtual Machine window" title="Xubuntu should make the Version be Ubuntu (64-bit) automatically">
 
@@ -72,9 +81,9 @@ After completing the last step, click the **“Create”** button. Your new virt
 
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/08.png" alt="The VirtualBox Home screen with Xubuntu" title="Or you can right-click Xubuntu and go to Settings">
 
- Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to <a href="https://www.google.com/search?q=enable+virtualization+windows" target="_blank">enable virtualization in your computer’s BIOS/UEFI settings</a>. If you have a single core processor, you will not be able to change this setting.
-
-<img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
+ Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). If you have a single core processor, you will not be able to change this setting.
+ 
+<img style="padding: 0em width: auto;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png" alt="The Xubuntu System Settings Processor window" title="Weirdly enough, some people still have single core processors">
 
 If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. **All other settings should remain default.**
 
@@ -240,5 +249,77 @@ Once you have successfully met both of these requirements, you should be able to
 **Note for CloudReady users**
 
 Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
+
+</details>
+
+### Google Chrome Installation
+
+Choose your Operating System:
+
+<details markdown="block">
+<summary class="dropDown-header">Linux</summary>
+
+#### Step 1: Download Google Chrome
+
+   - Open your **Terminal**
+   - Run the following command to download latest **Google Chrome** `.deb` package
+
+~~~bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+~~~
+
+#### Step 2: Install Google Chrome
+
+   - Enter the following command in your terminal to install **Google Chrome** `.deb` package
+
+~~~bash
+sudo apt install ./google-chrome-stable_current_amd64.deb
+~~~
+
+   - Enter your password, if needed
+
+#### Step 3: Delete the installer file
+
+~~~bash
+rm google-chrome-stable_current_amd64.deb
+~~~
+
+#### Step 4: Using Google Chrome
+You can start chrome in two ways,
+
+   - Click **Google Chrome** from the Applications menu
+   - **Or**, use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)*
+
+~~~bash
+google-chrome
+~~~
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">MacOS</summary>
+
+#### Step 1: Download Google Chrome
+
+   - [Visit](https://www.google.com/chrome/) Google Chrome download page
+   - Click **Download Chrome for Mac**
+
+#### Step 2: Install Google Chrome
+
+   - Open the **Downloads** folder
+   - Double click the file **googlechrome.dmg** 
+   - Drag the Google Chrome icon to the **Applications** folder icon
+
+#### Step 3: Delete the installer file
+
+   - Open **Finder**
+   - Click the **arrow** next to Google Chrome in the sidebar
+   - Go to the **Downloads** folder
+   - Drag **googlechrome.dmg** to the trash
+
+#### Step 4: Using Google Chrome
+
+   - Go to your **Applications** folder
+   - Double click **Google Chrome**
 
 </details>

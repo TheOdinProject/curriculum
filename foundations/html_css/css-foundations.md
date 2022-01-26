@@ -157,7 +157,9 @@ We have two elements with the `subsection` class that have some sort of unique s
 }
 ~~~
 
-Notice how there isn't any space between the two selectors here. What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. This basically works with any combination of selectors except multiple type selectors (since an element can't be two different types at once, and `divp` would try to select a literal `<divp>` element which doesn't exist).
+What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, with the exception of chaining more than one [type selector](#type-selectors).
+
+In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p`, would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist. 
 
 #### Descendant Combinator
 
@@ -492,6 +494,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied. 
 * [Changing the Font Family](https://www.bitdegree.org/learn/font-family-css#how-to-use-a-downloaded-font) goes over a few different ways on how to use custom fonts.
 * [CSS Specificity](https://www.w3schools.com/css/css_specificity.asp) from W3Schools goes over how you can calculate the specificity of rules. This page mentions some selectors that we will go over in a later lesson, so don't worry about what they are or how to use them right now.
+* [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; simply look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
