@@ -38,6 +38,8 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 3. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a> Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 </div>
 
+### Additional Resources
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
