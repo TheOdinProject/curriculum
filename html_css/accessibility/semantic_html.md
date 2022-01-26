@@ -1,6 +1,6 @@
 ### Introduction
 
-As useful as `<div>` and `<span>` elements can be as generic containers, they're not always the most a11y friendly elements to use. While it may be tempting or easier to just use them for everything, from containers to interactive areas, you should not only check whether there is a more appropriate element to use in certain situations, but also whether you're using an element correctly.
+As useful as `<div>` and `<span>` elements can be as generic containers, they're not always the most friendly elements to use. While it may be tempting or easier to just use them for everything, from containers to interactive areas, you should not only check whether there is a more appropriate element to use in certain situations, but also whether you're using an element correctly.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
