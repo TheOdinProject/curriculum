@@ -437,20 +437,6 @@ The final piece of Turbo is something that you don't need to know much about for
 
 </div>
 
-### Exercises
-
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson. 
-
-Ideas:
-
-* A task that requires the user to modify Turbo Drive actions
-* A task that requires the user to disable Turbo Drive. Maybe a basic dark mode stored in the HTML `head` that reads from a cookie,
-  as the `if` statement would not properly process during a Drive-based visit
-* Task to connect the `index` and `show` of some articles. Or the `show` and `edit`.
-* Task to append and prepend a post to a list of posts.
-* Task to stream an update after editing
-* Task to stream a deletion 
-
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
