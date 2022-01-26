@@ -12,7 +12,7 @@ That's where the concept of a **single page application** comes in. This section
 *Look through these now and then use them to test yourself after doing the assignment*
 
 *   What is a SPA?
-*   What are Turbolinks?
+*   What is Turbolinks?
 *   What is Hotwire?
 *   What is Turbo and the four components of it?
 *   What is the purpose of Turbo Drive?
@@ -28,7 +28,7 @@ implementation for web applications that loads only a single web document. Rathe
 
 #### Creating a Single Page Application in Rails
 
-There are various Javascript frameworks to help developers implement SPA functionality. You have possibly heard of some of them, such as AngularJS or ReactJS. However, Rails has it's own solution to creating the experience of a SPA without writing Javascript. This solution is a collection of libraries that are under the umbrella of Hotwire!
+There are various Javascript frameworks to help developers implement SPA functionality. You have possibly heard of some of them, such as AngularJS or ReactJS. However, Rails has its own solution to creating the experience of a SPA without writing Javascript. This solution is a collection of libraries that are under the umbrella of Hotwire!
 
 #### Hotwire
 
@@ -42,7 +42,7 @@ The lesson you are reading now is all about Turbo! We will cover Stimulus in ano
 
 #### Turbolinks
 
-Before we can talk about Turbo, we should briefly mention its predecessor, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (it's first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. Turbolinks would keep the current page instance alive and simply swap out the content between the `<body>` tags of the document. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
+Before we can talk about Turbo, we should briefly mention its predecessor, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (it's first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. Turbolinks would keep the current page instance alive and simply swap out the content between the `<body>` tags of the document. This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
 
 To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not shorthand for Turbolinks**. They are two different entities. 
 
@@ -210,7 +210,7 @@ Lets connect the `/show` and `/edit` pages of an Article!
 
 That's all we have to do! Turbo will recognize that our destination URL, the `/show` or `/edit` page, has a matching Turbo Frame and will replace the frame region with the content from the new page's frame! Something else to note is that this does work with forms as well. In our controller, if the `update` action contains `redirect_to @article`, then our Turbo Frame will be updated when we submit our form just like if we clicked a link.
 
-Now that we have frames connected, what about the things outside of the frame? Anything outside of the frame does not change. If we were going from `/show` to `/edit`, then the content outside of the frame would still be the same content of the `/show` page and we would receive any content from outside of the `/edit` frame either. The current page also does not change. We still stay on the `/show` page and if we were to refresh, we would still be here. We did not navigate to a new page, we only selected content from our destination and inserted it into our current page! (But using our previous knowledge of Turbo Drive, we can advance our history using `data-turbo-action` if we desire.)
+Now that we have frames connected, what about the things outside of the frame? Anything outside of the frame does not change. If we were going from `/show` to `/edit`, then the content outside of the frame would still be the same content of the `/show` page and we would not receive any content from outside of the `/edit` frame either. The current page also does not change. We still stay on the `/show` page and if we were to refresh, we would still be here. We did not navigate to a new page, we only selected content from our destination and inserted it into our current page! (But using our previous knowledge of Turbo Drive, we can advance our history using `data-turbo-action` if we desire.)
 
 #### Breaking out of a Turbo Frame
 
@@ -263,7 +263,7 @@ We can also make our frames **lazy loaded**. A lazy loaded frame will only fetch
 
 ### Turbo Stream
 
-Now we know how to set up our views to use Turbo Frames, but what about content that is being changed by our users? We can't put a Turbo Frame around something that doesn't exist yet! That's where Turbo Stream comes in. Turbo Streams send page changes as HTML wrapped in `<turbo-stream>` elements. Turbo streams have an *action* and a *target ID* to act the action onto. These streams can be sent in response to either a direct browser request, or by broadcasting over a websocket connection. This lesson will stick to the browser request implementation, broadcasting your streams is an advanced topic for another lesson! Turbo Streams can take the form of 7 different actions:
+Now we know how to set up our views to use Turbo Frames, but what about content that is being changed by our users? We can't put a Turbo Frame around something that doesn't exist yet! That's where Turbo Stream comes in. Turbo Streams send page changes as HTML wrapped in `<turbo-stream>` elements. Turbo Streams specify an action to perform and the target ID of the DOM element to update with this action. For instance, a Turbo Stream where `action="replace"` and `target="body"` would replace the HTML element where `id="body` with the new element being delivered over Turbo Stream. These streams can be sent in response to either a direct browser request, or by broadcasting over a websocket connection. This lesson will stick to the browser request implementation. Turbo Streams can take the form of 7 different actions:
 
 *  Append
 *  Prepend
