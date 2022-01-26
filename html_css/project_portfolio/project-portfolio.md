@@ -17,7 +17,7 @@ Also, since this is your _personal_ portfolio feel free to tweak the design howe
 
 #### Step 2: Gather Assets
 
-1. The portraits we've used in the design files are stock photos downloaded from [pexels.com](pexels.com). If you don't have a picture of yourself handy, feel free to go grab a placeholder for now.
+1. The portraits we've used in the design files are stock photos downloaded from [pexels.com](https://www.pexels.com/). If you don't have a picture of yourself handy, feel free to go grab a placeholder for now.
 2. Select your fonts! We're using `Playfair Display` and `Roboto` in the design, both available with Google fonts.
 3. In the design we have icon-links for GitHub, LinkedIn and Twitter. Obviously feel free to add whatever links you want to your own site.  We got those icons from [https://devicon.dev/](https://devicon.dev/).
 4. Other icons (phone, email and external link) were downloaded as SVGs from [https://materialdesignicons.com/](https://materialdesignicons.com/).

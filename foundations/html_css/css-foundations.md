@@ -494,6 +494,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied. 
 * [Changing the Font Family](https://www.bitdegree.org/learn/font-family-css#how-to-use-a-downloaded-font) goes over a few different ways on how to use custom fonts.
 * [CSS Specificity](https://www.w3schools.com/css/css_specificity.asp) from W3Schools goes over how you can calculate the specificity of rules. This page mentions some selectors that we will go over in a later lesson, so don't worry about what they are or how to use them right now.
+* [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; simply look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

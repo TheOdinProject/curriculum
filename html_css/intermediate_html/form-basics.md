@@ -83,7 +83,8 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 
 Placeholder text should be example text that demonstrates what should be entered and in what format.
 
-**The Name Attribute**
+
+<span id="the-name-attribute">**The Name Attribute**</span>
 
 We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend where we send our data know what each piece of data represents.
 
@@ -310,22 +311,22 @@ To create a checkbox, we use the input element with a `type` attribute of "check
 <h1>Pizza Toppings</h1>
 
 <div>
-  <input type="radio" id="child" name="topping" value="sausage">
+  <input type="checkbox" id="child" name="topping" value="sausage">
   <label for="sausage">Sausage</label>
 </div>
 
 <div>
-  <input type="radio" id="onions" name="topping" value="onions">
+  <input type="checkbox" id="onions" name="topping" value="onions">
   <label for="onions">Onions</label>
 </div>
 
 <div>
-  <input type="radio" id="pepperoni" name="topping" value="pepperoni">
+  <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
   <label for="pepperoni">Pepperoni</label>
 </div>
 
 <div>
-  <input type="radio" id="mushrooms" name="topping" value="mushrooms">
+  <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
   <label for="mushrooms">Mushrooms</label>
 </div>
 ~~~
@@ -413,6 +414,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
 ~~~
 
 **Legend**
+
 
 The legend element is used to give field sets a heading or caption so the user can see what a grouping of inputs is for.
 

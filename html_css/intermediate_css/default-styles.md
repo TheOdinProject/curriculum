@@ -5,7 +5,9 @@ Browsers, by default, inject a little bit of style into your web projects. You m
 - You'll learn about default browser styles
 - You'll learn how to use a CSS reset to remove, or change those default styles. 
 
-When you did the first HTML Recipe project, you will have noticed that some elements already have a little bit of style applied to them. An `h1`, for instance, is bigger and bolder than regular text. Links (`a`nchors) are blue and underlined. Lists (`ul` and `ol`) both have a bunch of padding surrounding them. Browsers accomplish this by inserting a little bit of css into every webpage. ([Here is Chrome's default html stylesheet](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/html.css))
+### Default Styles
+
+When you did the first HTML Recipe project, you will have noticed that some elements already have a little bit of style applied to them. An `h1`, for instance, is bigger and bolder than regular text. Links (`<a>`) are blue and underlined. Lists (`ul` and `ol`) both have a bunch of padding surrounding them. Browsers accomplish this by inserting a little bit of css into every webpage. ([Here is Chrome's default html stylesheet](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/html.css))
 
 The problem with this is that there is no guarantee that different browsers will style everything the same. In general, inconsistencies are going to be pretty minor, but they DO exist. Also, in many cases as a developer you're going to end up undoing or redoing all of this default styling to make your site look exactly how you envision it.
 
@@ -29,4 +31,4 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* Why would you want to use a CSS reset?
+- <a class="knowledge-check-link" href='#default-styles'>Why would you want to use a CSS reset?</a>
