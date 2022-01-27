@@ -91,7 +91,7 @@ We need to use labels so that users understand what the data entered into an inp
 We do this by adding a `name` attribute to our inputs:
 
 ~~~html
-<label for="firstName">First Name:</label>
+<label for="first_name">First Name:</label>
 <input type="text" id="first_name" name="first_name">
 ~~~
 
