@@ -54,8 +54,7 @@ For example: if you have a bug in a new feature you’re working on that you can
    4. Display the running score, and announce a winner of the game once one player reaches 5 points.  
    5. You will likely have to refactor (rework/rewrite) your original code to make it work for this. That's OK! Reworking old code is an important part of a programmer's life.  
    6. Once you're all done with your UI and made sure everything's satisfactory, commit your changes to the `rps-ui` branch.
-   7. Now it's time to merge it to our `main` branch.
-3. Let's take a look at how we can merge these changes back to our `main` branch.  
+3. Now let's take a look at how we can merge the changes from our `rps-ui` branch back to our `main` branch.
    1. Checkout the branch we want to merge INTO i.e. `main` with the command `git checkout main`. 
    2. Now let's merge our `rps-ui` branch into `main`, our current branch, with `git merge rps-ui`.  
    3. If everything goes fine, our `rps-ui` branch is now successfully merged with main! Use `git log` and you'll see all the commits you've made to your feature branch on top of the commits you made to the main branch. Now for our final step!  
