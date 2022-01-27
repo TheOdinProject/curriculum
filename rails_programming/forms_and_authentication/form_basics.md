@@ -270,10 +270,10 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics#railsifying-your-form">What is a CSRF Token and why is it necessary?</a>
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics#making-forms-into-params">What is the `name` attribute of a form input element and what does it do?</a>
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics#making-forms-into-params">How do you nest attributes under a single hash in `params`?</a>
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics#using-models-with-the-formwith-helper">How do you pass `form_with` a model object?</a>
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics#forms-and-validations">How do you access errors for a failed-to-save model object?</a>
-* <a class="knowledge-check-link" href="https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics#making-patch-and-delete-submissions">How do Rails forms make PATCH or DELETE requests?</a>
+* <a class="knowledge-check-link" href="#railsifying-your-form">What is a CSRF Token and why is it necessary?</a>
+* <a class="knowledge-check-link" href="#making-forms-into-params">What is the `name` attribute of a form input element and what does it do?</a>
+* <a class="knowledge-check-link" href="#making-forms-into-params">How do you nest attributes under a single hash in `params`?</a>
+* <a class="knowledge-check-link" href="#using-models-with-the-formwith-helper">How do you pass `form_with` a model object?</a>
+* <a class="knowledge-check-link" href="#forms-and-validations">How do you access errors for a failed-to-save model object?</a>
+* <a class="knowledge-check-link" href="#making-patch-and-delete-submissions">How do Rails forms make PATCH or DELETE requests?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/form_helpers.html#combining-them">What is one case where you may need an array of hashes within the `params` hash?</a>
