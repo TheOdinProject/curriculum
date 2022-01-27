@@ -116,7 +116,7 @@ function component() {
   const element = document.createElement('div');
 
   // use your function!
-  element.innerHTML = myName('Cody');
+  element.textContent = myName('Cody');
   return element;
 }
 
