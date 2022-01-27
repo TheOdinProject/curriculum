@@ -215,7 +215,7 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
 <select name="Car">
   <option value="mercedes">Mercedes</option>
   <option value="tesla">Tesla</option>
-  <option value="volvo" selected>Volvo</option>
+  <option value="volvo">Volvo</option>
   <option value="bmw">BMW</option>
   <option value="mini">Mini</option>
   <option value="ford">Ford</option>
