@@ -84,7 +84,7 @@ The error is gone which means esbuild was able to resolve it since it was proper
 npm i stimulus
 ~~~
 
-now let's run ```yarn run build``` in the terminal. Woah we still get the error below despite adding the stimulus package for esbuild what gives?
+Now let's run ```yarn run build``` in the terminal. Woah we still get the error below despite adding the stimulus package for esbuild what gives?
 
 ~~~bash
 
