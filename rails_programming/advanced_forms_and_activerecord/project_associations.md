@@ -40,7 +40,6 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 6. Update the EventsController and corresponding routes to allow you to create a new event. The `#create` action should use the `#build` association reference method to create the new event with the user's ID prepopulated. Find the right `#build` [association reference method](https://guides.rubyonrails.org/association_basics.html#detailed-association-reference) for the type of association you set up between your models. You could use Event's `::new` method and manually enter the ID but... don't.
 7. Make the form for creating an event.
 8. Have the Event's Show page display the details of the event.
-9. Update the Event's Index to display all of the events. You do not need to worry about editing or deleting events.
 
 #### Event Attendance
 
