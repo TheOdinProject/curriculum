@@ -311,7 +311,7 @@ To create a checkbox, we use the input element with a `type` attribute of "check
 <h1>Pizza Toppings</h1>
 
 <div>
-  <input type="checkbox" id="child" name="topping" value="sausage">
+  <input type="checkbox" id="sausage" name="topping" value="sausage">
   <label for="sausage">Sausage</label>
 </div>
 
