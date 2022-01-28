@@ -36,6 +36,8 @@ In general, the following layouts should be used for all lessons and projects. T
 
 When adding new lessons or projects, make a copy of either the [lesson template](lesson-template.md) or the [project template](project-template.md) in the appropriate folder where the new lesson/project should be placed. Then begin editing the template copy.
 
+The [lesson example](lesson-example.md) and [project example](project-example.md) files both show how this style guide can be put to use in an actual lesson/project. They don't cover every situation (the lesson example doesn't show a lesson with an assignment and one without, for example), but they should give you a better representation of how lessons/projects should look after this style guide is applied.
+
 ### Lesson Layout
 
 ~~~markdown
