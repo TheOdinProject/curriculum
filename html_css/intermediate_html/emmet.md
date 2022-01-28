@@ -7,7 +7,7 @@ Emmet is a plugin, built into VS Code, that helps you write HTML and CSS more ef
 By the end of this lesson, you should be able to do the following:
 
 - Use some of Emmet's most useful shortcuts.
-- Set up custom Emmet keybindings in VS Ccode.
+- Set up custom Emmet keybindings in VS Code.
 
 ### Emmet
 
