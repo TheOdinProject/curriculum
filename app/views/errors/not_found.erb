@@ -1,11 +1,15 @@
-<div class="error-page">
-  <div class="col-lg-10 offset-lg-1 col-sm-12">
-    <div class="error-message">
-      <h1 class="error-message__title">Looks like you're lost, Odinite!</h1>
-      <p class="error-message__sub-title">While you're here, maybe take a second to learn about <%= link_to 'HTTP status codes', 'https://en.wikipedia.org/wiki/List_of_HTTP_status_codes', class: 'error-message__link'%></p>
-      <p class="error-message__sub-title">Or just head back to <%= link_to 'theodinproject.com', home_path, class: 'error-message__link'%></p>
-    </div>
+<div class="bg-blue-400">
+  <div class="grid grid-cols-12">
+    <div class="col-span-12 lg:col-span-10 lg:col-start-2">
+      <div class="error-message">
+        <h1 class="error-message__title">Looks like you're lost, Odinite!</h1>
+        <p class="error-message__sub-title">While you're here, maybe take a second to learn about <%= link_to 'HTTP status codes', 'https://en.wikipedia.org/wiki/List_of_HTTP_status_codes', class: 'error-message__link'%></p>
+        <p class="error-message__sub-title">Or just head back to <%= link_to 'theodinproject.com', home_path, class: 'error-message__link'%></p>
+      </div>
 
-    <div class="error-page__image"></div>
+      <div class="h-40v">
+        <%= inline_svg_tag "404-island.svg", class: 'text-blue-400 w-full' %>
+      </div>
+    </div>
   </div>
 </div>
