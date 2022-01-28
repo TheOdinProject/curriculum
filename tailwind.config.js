@@ -36,8 +36,10 @@ module.exports = {
         'new-notification': 'rgba(206, 151, 62, 1)',
       },
       height: {
-        '20v': '20vh',
-        '40v': '40vh',
+        '60v': '60vh',
+      },
+      margin: {
+        '-25px': '-25px',
       },
     },
   },
