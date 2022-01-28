@@ -123,7 +123,6 @@ The full snippet is:
 
 You can see more detail and an example in [this CSS Tricks Article](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/).  (Be ready to go look that article up every time you want to use this.)
 
-
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
