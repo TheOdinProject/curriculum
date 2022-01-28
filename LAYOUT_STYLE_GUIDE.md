@@ -1,8 +1,8 @@
-# TOP Markdown Style Guide
+# Layout Style Guide
 
 [Inspired by google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
 
-TOP uses Markdown for its lessons and projects to be easily read and edited, and to get properly formatted HTML for the TOP website. 
+TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website. 
 
 **The goals of this style guide are to help create Markdown that is:**
 
@@ -34,9 +34,9 @@ TOP uses Markdown for its lessons and projects to be easily read and edited, and
 
 In general, the following layouts should be used for all lessons and projects. Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
 
-When adding new lessons or projects, make a copy of either the [lesson template](lesson-template.md) or the [project template](project-template.md) in the appropriate folder where the new lesson/project should be placed. Then begin editing the template copy.
+When adding new lessons or projects, make a copy of either the [lesson template](./templates/lesson-template.md) or the [project template](./templates/project-template.md) in the appropriate folder where the new lesson/project should be placed. Then begin editing the template copy.
 
-The [lesson example](lesson-example.md) and [project example](project-example.md) files both show how this style guide can be put to use in an actual lesson/project. They don't cover every situation (the lesson example doesn't show a lesson with an assignment and one without, for example), but they should give you a better representation of how lessons/projects should look after this style guide is applied.
+The [lesson example](./templates/lesson-example.md) and [project example](./templates/project-example.md) files both show how this style guide can be put to use in an actual lesson/project. They don't cover every situation (the lesson example doesn't show a lesson with an assignment and one without, for example), but they should give you a better representation of how lessons/projects should look after this style guide is applied.
 
 ### Lesson Layout
 
@@ -319,8 +319,8 @@ Markdown link syntax allows you to set a link title, just as HTML does. Use it w
 Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
 
 ~~~markdown
-See the [lesson template](lesson-template.md) for a more easily copyable lesson file.
-Or, check out the [project template](project-template.md) for a more easily copyable project file.
+See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
+Or, check out the [project template](./templates/project-template.md) for a more easily copyable project file.
 ~~~
 
 ### Don't place links throughout lessons
