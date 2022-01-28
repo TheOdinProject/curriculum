@@ -66,7 +66,7 @@ To create a label, we use the `<label>` element. The text we want displayed in t
 </form>
 ~~~
 
-Labels accept a `for` attribute, which associates it with a particular input.  The input we want to associate with a label needs an `id` attribute with the same value as the labels `for` attribute.
+Labels accept a `for` attribute, which associates it with a particular input.  The input we want to associate with a label needs an `id` attribute with the same value as the label's `for` attribute.
 
 When a label is associated with an input and is clicked, it will focus the cursor on that input, ready for the user to input some data. This helps make our forms more accessible to users who rely on assistive technologies.
 
