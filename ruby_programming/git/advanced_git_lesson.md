@@ -46,7 +46,7 @@ Remember to **only amend commits that have not been pushed anywhere!** The reaso
 
 Now let's say you have commits further back in your history that you want to modify. This is where the beautiful command `rebase` comes into play! We're going to get deeper into the complexities of `rebase` later on in this lesson, but for now we're going to start out with some very basic usage. 
 
-`rebase -i` is a command which allows you to interactively stop after each commit you're trying to modify, and then make whatever changes you wish. You do have to tell this command which is the last commit you want to edit, for example `git rebase -i HEAD~3` to edit the last three commits. Let's see what this looks like in action. Open up a project you've worked on, and [create a new branch](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors). Now that we're somewhere safe where we can experiment, type in:
+`rebase -i` is a command which allows you to interactively stop after each commit you're trying to modify, and then make whatever changes you wish. You do have to tell this command which is the last commit you want to edit, for example `git rebase -i HEAD~3` to edit the last three commits. Let's see what this looks like in action. Open up a project you've worked on, and create a new branch. If you need a refresher have a look at this [Rock Paper Scissors revisited lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors). Now that we're somewhere safe where we can experiment, type in:
 
 ~~~bash
   $ git log
@@ -163,9 +163,9 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 ### Branches Are Pointers
 
-While the focus of this lesson was more advanced tools for changing Git history, we're going into another advanced topic that might be hard for some to understand - Pointers. You've already learned about [branches](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) and how these hold multiple *alternate reality* versions of our files. Now we're going to discuss what that actually means under the hood, and what it means for branches to be pointers.
+While the focus of this lesson was more advanced tools for changing Git history, we're going into another advanced topic that might be hard for some to understand - Pointers. You've already learned about branches in the [Rock Paper Scissors revisited lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) and how these hold multiple *alternate reality* versions of our files. Now we're going to discuss what that actually means under the hood, and what it means for branches to be pointers.
 
-Before we dive into branches, let's talk about commits. If we recall [first learning about commits](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics), they were described as Snapshots. If it helps, think of this in a very literal sense. Every time you type in `git commit` your computer is taking a picture of all the file contents that have been staged with `git add`, in other words your entire tracked workspace gets copied. 
+Before we dive into branches, let's talk about commits. If we recall [commits lesson from foundations](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics), they were described as Snapshots. If it helps, think of this in a very literal sense. Every time you type in `git commit` your computer is taking a picture of all the file contents that have been staged with `git add`, in other words your entire tracked workspace gets copied. 
 
 So what is a branch? Based off of your exposure, you might be visualizing a branch as a group of commits. This actually isn't the case! **A branch is actually a pointer to a single commit!** Hearing this your first thought might be *"Well if a branch is just a finger pointing at a single commit, how does that single commit know about all the commits that came before it?"*. The answer to the question is very simple, each commit is also a pointer, and points to the commit that came before it! Wow. This might be a lot to take in, so let's take a moment to absorb that fact. 
 
@@ -176,10 +176,10 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 * Read [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
-* Watch [Using Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.
-* Read [Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.
-* Read [this chapter on Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
-* Read [this chapter on git Reset](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
+* Watch the video [Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.
+* Read the chapter on [Branches covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.
+* Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+* Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
