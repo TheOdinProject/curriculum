@@ -3,7 +3,7 @@
 
     <div class="form__section">
       <span class="fas fa-user form__icon"></span>
-      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element form__element--with-icon', data: {test_id: 'username_field'} %>
+      <%= form.text_field :username, required: true, autofocus: true, placeholder: 'Username', class: 'form__element form__element--with-icon', data: {test_id: 'username_field'} %>
     </div>
     <% if resource.errors[:username].present? %>
       <div class="form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
