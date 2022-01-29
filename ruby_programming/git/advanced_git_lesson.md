@@ -82,7 +82,7 @@ These commit changes would be disasterous for me, so I won't *actually* do it, b
 
 ## Squashing Commits
 
-Using `squash` for your commits is a very handy way of keeping your Git history tidy. Squashing makes it easier for others to understand the history of your project. This will become especially important when you begin to merge features in larger projects. What often happens when a feature is merged, is you end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
+Using `squash` for your commits is a very handy way of keeping your Git history tidy. It's important to know how to `squash`, because this process may be the standard on some development teams. Squashing makes it easier for others to understand the history of your project. What often happens when a feature is merged, is you end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
 
 Let's say I want to `squash` all three of the commits I previously worked with together into the first commit on the list, which is `Rewrite Introduction`. I would simply  `pick` that commit as the commit that the other two are being `squash`ed into:
 
