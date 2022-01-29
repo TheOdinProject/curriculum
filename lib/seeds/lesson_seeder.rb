@@ -24,6 +24,7 @@ module Seeds
         lesson.position = position
         lesson.course_id = section.course_id
         lesson.choose_path_lesson = attributes.fetch(:choose_path_lesson, false)
+        lesson.installation_lesson = attributes.fetch(:installation_lesson, false)
       end
     end
     # rubocop: enable Metrics/AbcSize, Metrics/MethodLength

@@ -65,6 +65,7 @@ Rails.application.routes.draw do
 
   namespace :lessons do
     resource :preview, only: %i[show create]
+    resources :installation_lessons, only: %i[index]
   end
 
   namespace :courses do

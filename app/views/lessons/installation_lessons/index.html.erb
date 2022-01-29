@@ -1,0 +1,9 @@
+<div class="container h-full">
+  <h1 class="page-heading-title">Installation Lessons Appendix</h1>
+
+  <ul>
+    <% @lessons.each do |lesson|%>
+     <li><%= link_to lesson.title, path_course_lesson_path(lesson.path, lesson.course, lesson) %></li>
+    <% end %>
+  </ul>
+</div>

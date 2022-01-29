@@ -11,6 +11,7 @@ class Lesson < ApplicationRecord
   has_many :completing_users, through: :lesson_completions, source: :user
 
   scope :most_recent_updated_at, -> { maximum(:updated_at) }
+  scope :installation_lessons, -> { where(installation_lesson: true) }
 
   validates :position, presence: true
 

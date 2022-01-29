@@ -29,6 +29,18 @@ RSpec.describe Lesson do
     end
   end
 
+  describe '.installation_lessons' do
+    it 'returns all the installation lessons' do
+      installation_lesson_one = create(:lesson, installation_lesson: true)
+      installation_lesson_two = create(:lesson, installation_lesson: true)
+      create(:lesson, installation_lesson: false)
+
+      expect(described_class.installation_lessons).to contain_exactly(
+        installation_lesson_one, installation_lesson_two
+      )
+    end
+  end
+
   describe '#position_in_section' do
     let(:section) { create(:section) }
     let(:first_lesson) { create(:lesson, position: 1, section: section) }
