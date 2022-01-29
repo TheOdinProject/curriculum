@@ -35,7 +35,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 1. Build and migrate your Event model without any foreign keys or validations. Include the event's date in your model but don't worry about doing anything special with it yet.
 2. Create the EventsController and add an `#index` action that will display all of the events. Create a corresponding view and add a heading with your choice of wording.
 3. Set up [devise](https://github.com/heartcombo/devise) to handle authentication and create your User model. Set the `root_path` to be the Event's Index page.
-4. Add the association between the event creator (a User) and the event. Call this user the "creator". Add the foreign key to the Event model as necessary. You'll need to specify your association properties carefully (e.g. `:foreign_key`, `:class_name`, and `:source`).
+4. Add the association between the event creator (a User) and the event. Call this user the "creator". Add the foreign key to the Event model as necessary. You'll need to specify your association properties carefully (e.g. `:foreign_key`, `:class_name`).
 5. Have the User's Show page list all the events a user has created.
 6. Update the EventsController and corresponding routes to allow you to create a new event. The `#create` action should use the `#build` association reference method to create the new event with the user's ID prepopulated. Find the right `#build` [association reference method](https://guides.rubyonrails.org/association_basics.html#detailed-association-reference) for the type of association you set up between your models. You could use Event's `::new` method and manually enter the ID but... don't.
 7. Make the form for creating an event.
