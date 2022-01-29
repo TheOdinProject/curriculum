@@ -77,7 +77,7 @@ Once youre satisfied with your changes, run
        git rebase --continue
 ~~~
 
-These commit changes would be disasterous for me, so I won't *actually* do it, but it's a great tool to keep in mind for your future projects. That's all there is to it! It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember to **only rebase commits that exist in your repository, never rebase commits others may work off of.**
+These commit changes would be disasterous for me, so I won't *actually* do it, but it's a great tool to keep in mind for your future projects. That's all there is to it! It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember to only rebase commits that exist in your repository. **If you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
 
 ## Squashing Commits
@@ -98,7 +98,7 @@ That's it! When I save and exit the editor, the bottom two commits on that list 
 
 Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's say one of my commits was `c85c71dd5 Add knight class and Add attack module`. That's a mouthful, and a bit much for one commit as you should have learned in the previous lesson on commits. So what we're going to do is split it up into two smaller commits, also using the interactive `rebase` tool. 
 
-We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`. What this does is it resets the commit. This allows us to add the files individually, commit them individually, and then `git rebase --continue` just like we did last time to finish up our changes. All together it would look something like this:
+We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`. What this does is it resets the commit to the one right before HEAD. This allows us to add the files individually, commit them individually, and then `git rebase --continue` just like we did last time to finish up our changes. All together it would look something like this:
 
 ~~~bash
 $ git reset HEAD^
@@ -109,7 +109,11 @@ $ git commit -m 'Add attack module'
 $ git rebase --continue
 ~~~
 
-As always however, remember to **check that none of these commits are pushed to shared repositories**.
+Let's start by looking a bit closer at what happened here. When you ran `git reset`, you reset the current branch by pointing HEAD at the commit right before it. At the same time, `git reset` also updated the index (the staging area) with the contents of wherever HEAD now pointed. So your staging area was also reset to what it was at the prior commit - which is great - because this allowed you to add the files we wanted one by now.
+
+Now let's say you want to move where HEAD points to, but *don't* want to touch the staging area. If you want to leave the index alone, you can use `git reset --soft`. This would only perform the first part of `git reset` where the HEAD is moved to point somewhere else.
+
+The last part of reset we want to touch upon is `git reset --hard`. What this does is it performs all the steps of `git reset`, moving the HEAD and updating the index, but it *also* updates the working directory. This is important to note because it can be dangerous, and can potentially destroy data. A hard reset overwrites the files in the working directory to make it look exactly like the staging area of wherever HEAD ends up pointing to. Similarly to `git commit --amend`, a hard reset is a destruction command which overwrites history. This doesn't mean you should completely avoid it if working with shared repositories on a team with other developers. You should, however, **make sure you know exactly why you're using it, and that your coworkers are also aware of how and why you're using it.**
 
 ### Working With Remotes
 
@@ -175,6 +179,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * Watch [Using Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example on how to use both rebase and merge.
 * Read [Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.
 * Read [this chapter on Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+* Read [this chapter on git Reset](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
