@@ -4,7 +4,7 @@ Validations allow us to set specific constraints or rules that determine what da
 
 Validations are a vital ingredient in well-designed forms. They help protect our backend systems from receiving incorrect data, and they help make the experience of interacting with our form as dead-stupid-simple as possible for our users.
 
-This lesson will explore some of the built-in validations you can use with HTML forms.
+This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into styling validations with CSS.
 
 ### Learning Outcomes
 
@@ -186,7 +186,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 <div class="lesson-content__panel" markdown="1">
 
 1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-    * Note: Halfway through, the doc covers the Constraint Validation API: a way to validate forms with javascript. We'll cover that in a future lesson, you can skip that part for now.
+    * Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson. 
 
 2. Read CSS Tricks brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
 
