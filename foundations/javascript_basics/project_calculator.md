@@ -36,4 +36,8 @@ Here are some use cases (abilities your project needs to have):
 8. EXTRA CREDIT: Make it look nice! This is a great project to practice your CSS skills. At least make the operations a different color from the keypad buttons.
 9. EXTRA CREDIT: Add a "backspace" button, so the user can undo if they click the wrong number.
 10. EXTRA CREDIT: Add keyboard support!
+
+### Additonal Resourses:
+- If you having trouble thinking about how the functions in your calculator should operate [here](https://www.calculator.org/CalcHelp/basics.html). 
+   - **Note:** You DO NOT have to implement all functons for all of the operators listed in the link. Use it as more of a guide on how the operators in your calculator should function. Implement more operators at your own discretion. 
 </div>
