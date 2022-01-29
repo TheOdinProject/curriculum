@@ -55,7 +55,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 
 	* Describe the changes in detail and explain why you think they are necessary and/or important.
 
-	* If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) and reference it with the `#` sign and the issue number. For example: "resolves #1234".
+	* If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) and reference it with the `#` sign and the issue number. For example: "resolves #1234".
 
 	* If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
 
