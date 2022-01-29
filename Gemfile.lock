@@ -171,7 +171,7 @@ GEM
     dotenv-rails (2.7.6)
       dotenv (= 2.7.6)
       railties (>= 3.2)
-    dry-initializer (3.1.0)
+    dry-initializer (3.1.1)
     enumerable-statistics (2.0.1)
     erb_lint (0.1.1)
       activesupport
@@ -595,7 +595,7 @@ DEPENDENCIES
   discard (~> 1.2)
   discordrb-webhooks
   dotenv-rails
-  dry-initializer (~> 3.1.0)
+  dry-initializer (~> 3.1.1)
   erb_lint
   factory_bot
   factory_bot_rails (~> 6)
