@@ -73,11 +73,11 @@ This would allow me to edit the `Rewrite Introduction` commit, switch its order 
 ~~~bash
 You can amend the commit now, with
        git commit --amend
-Once youre satisfied with your changes, run
+Once you're satisfied with your changes, run
        git rebase --continue
 ~~~
 
-These commit changes would be disasterous for me, so I won't *actually* do it, but it's a great tool to keep in mind for your future projects. That's all there is to it! It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember to only rebase commits that exist in your repository. **If you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
+These commit changes would be disastrous for me, so I won't *actually* do it, but it's a great tool to keep in mind for your future projects. That's all there is to it! It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember to only rebase commits that exist in your repository. **If you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
 
 ## Squashing Commits
@@ -123,7 +123,7 @@ Thus far you've been working with remote repositories each time you've pushed or
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote. 
 
-If you haven't updated your local branch, and you're attempting to `git push` a commit which would create a conflict on the remote repository, you'll get an error message. This is actually a great thing! This is a safety mechanism to prevent you from overwriting commits created by the people you're working with, which could be disasterous. You get the error because your history is outdated. 
+If you haven't updated your local branch, and you're attempting to `git push` a commit which would create a conflict on the remote repository, you'll get an error message. This is actually a great thing! This is a safety mechanism to prevent you from overwriting commits created by the people you're working with, which could be disastrous. You get the error because your history is outdated. 
 
 You might perform a brief query and find the command `git push --force`. This command overwrites the remote repository with your own local history. So what would happen we used this while working with others? You could potentially destroy their work! `git push --force` is a **very dangerous command, and should be used with caution when collaborating with others**. Instead, you can fix your outdated history error by updating your local history using `fetch`, `merge`, and then attempting to `push` again. 
 
@@ -136,7 +136,7 @@ git push origin feature-branch
 
 Remember when we were working with HEAD, aka the current commit we're viewing, while rebasing? What this would do is it would revert the changes to HEAD by 1 commit! Then we would push our new commit to whichever branch we're working on, which in this example is feature-branch. 
 
-So now that we've learned about the various dangerous of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a seperate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurances of it. 
+So now that we've learned about the various dangerous of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a separate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurrences of it. 
 
 <span id='force-with-lease'>It is worth giving special mention to `git push --force-with-lease`</span>, a command which in some companies is the default option. The reason for this is that it's a fail-safe! It checks if the branch you're attempted to push to has been updated, and sends you an error if it has. This gives you an opportunity to, as mentioned before, `fetch` the work and update your local repository.
 
