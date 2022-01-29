@@ -38,6 +38,6 @@ Here are some use cases (abilities your project needs to have):
 10. EXTRA CREDIT: Add keyboard support!
 
 ### Additonal Resourses:
-- If you having trouble thinking about how the functions in your calculator should operate [here](https://www.calculator.org/CalcHelp/basics.html). 
+- If you having trouble thinking about how the functions in your calculator should operate [here](https://www.calculator.org/CalcHelp/basics.html) is a link to a breakdown of basic calculator functions. 
    - **Note:** You DO NOT have to implement all functons for all of the operators listed in the link. Use it as more of a guide on how the operators in your calculator should function. Implement more operators at your own discretion. 
 </div>
