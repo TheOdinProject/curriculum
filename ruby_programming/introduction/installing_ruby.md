@@ -101,7 +101,7 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ~~~bash
-rbenv install 2.7.4 --verbose
+rbenv install 3.0.3 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
@@ -109,7 +109,7 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 When the last command is finished, set the Ruby version and verify that it's working:
 
 ~~~bash
-rbenv global 2.7.4
+rbenv global 3.0.3
 ~~~
 
 Then,
@@ -121,7 +121,7 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 2.7.4pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 3.0.3pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
