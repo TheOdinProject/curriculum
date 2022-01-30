@@ -109,6 +109,13 @@ There isn't a huge amount of reading to do here. But a couple of links just to g
   2. Read [This excellent article](https://rossta.net/blog/rails-apps-overpacking-with-webpacker.html) on some well known companies you've probably heard of who didn't create their dependency graphs well and ended up with huge Javascript downloads which slowed the initial load of their website. Something to keep in mind.
 </div>
 
+### Additional Resource
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+<div class='lesson-content__panel' markdown='1'>
+  Webpacker has been officially retired since Rails v7, it can still be used with rails but won't come prepackaged with it and also will not have new version releases. For now, this will not matter to you but it's worth knowing about. Read [Webpacker-master README](https://github.com/rails/webpacker/tree/master#readme)
+<div>
+
 ### Conclusion
 
 Rails is all about convention over configuration so you should be able to get up and running with Webpacker and, through that, Webpack with minimum fuss. Just stick to a limited number of pack files while you're getting to grips with it and you should be handling all your Javascript code like a boss in no time.
