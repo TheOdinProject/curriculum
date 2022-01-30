@@ -344,6 +344,13 @@ def foundation_lessons
       url: '/foundations/javascript_basics/installing_nodejs.md',
       identifier_uuid: 'cb20c3d0-7342-4769-b10c-61d1de11af02',
       installation_lesson: true,
+    },
+    'Commit Messages' => {
+      title: 'Commit Messages',
+      description: 'How and when to commit',
+      is_project: false,
+      url: '/foundations/html_css/html-foundations/commit-messages.md',
+      identifier_uuid: 'b52ad3a2-8167-11ec-a8a3-0242ac120002',
     }
   }
 end

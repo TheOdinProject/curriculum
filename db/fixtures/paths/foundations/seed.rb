@@ -83,6 +83,7 @@ course.add_section do |section|
     foundation_lessons.fetch('Working with Text'),
     foundation_lessons.fetch('Lists'),
     foundation_lessons.fetch('Links and Images'),
+    foundation_lessons.fetch('Commit Messages'),
     foundation_lessons.fetch('Recipes'),
   )
 end
