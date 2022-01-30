@@ -270,7 +270,7 @@ in [Integer, Integer]
   puts :no_match
 end
 
-# => NoMatchingPatternError ([1, 2, 3])
+# => [1, 2, 3] (NoMatchingPatternError)
 ~~~
 
 An error! Ruby appears to only match against arrays with the same number of elements. What if you want to match against only part of an array? Use the trusty splat `*`
@@ -485,7 +485,7 @@ in { a: 'ant', **rest }
   p rest
 end
 
-# => { b: 'ball', c: 'cat' }
+# => { :b => "ball", :c => "cat" }
 ~~~
 
 Something to be mindful of with hashes is that because a hash will match with only a subset of keys matching, you need to guard against situations where you don't want that behaviour
