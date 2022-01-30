@@ -9,6 +9,8 @@ As usual with these things, there are elements of this project that are not goin
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+Don't forget to commit early & often! You can reference the Commit Message lesson [here](https://www.theodinproject.com/paths/html_css/html-foundations/commit-messages.md)!
+
 Here are some use cases (abilities your project needs to have):
 
 1. Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators, so start by creating functions for the following items and testing them in your browser's console.
