@@ -105,7 +105,7 @@ Webpack builds a dependency graph for each pack file so it's possible, if differ
 There isn't a huge amount of reading to do here. But a couple of links just to get you a better understanding of Webpack.
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [The Webpacker gem README](https://github.com/rails/webpacker) to get an overview
+  1. Read [The Webpacker gem README](https://github.com/rails/webpacker/tree/5-x-stable#readme) to get an overview
   2. Read [This excellent article](https://rossta.net/blog/rails-apps-overpacking-with-webpacker.html) on some well known companies you've probably heard of who didn't create their dependency graphs well and ended up with huge Javascript downloads which slowed the initial load of their website. Something to keep in mind.
 </div>
 
