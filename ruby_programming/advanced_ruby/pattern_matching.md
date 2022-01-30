@@ -74,7 +74,7 @@ The case/in format is best used when there are multiple conditionals you could p
 
 ### Patterns
 
-There are multiple ways of potentially matching against an input. Patterns in Ruby 2.7 can be
+There are multiple ways of potentially matching against an input. Patterns can be
 
  - Any Ruby object which is matched using `===`. The Object Pattern.
  - A variable capture / Variable Pattern
@@ -84,7 +84,7 @@ There are multiple ways of potentially matching against an input. Patterns in Ru
  - An Array Pattern
  - A Hash Pattern
 
-With Ruby 3 you can use the above patterns while also having the following new additions
+You can use the above patterns while also having the following experimental additions
 
  - Rightward Assignment
  - A Find Pattern
