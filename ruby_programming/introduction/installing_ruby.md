@@ -89,7 +89,7 @@ rbenv -v
  from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number **similar** to this:
 
 ~~~bash
-rbenv 1.1.2-2-g4e92322
+rbenv 1.2.0-8-ga76c4aa
 ~~~
 
 If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
