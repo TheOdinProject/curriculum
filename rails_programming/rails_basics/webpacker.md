@@ -112,8 +112,8 @@ There isn't a huge amount of reading to do here. But a couple of links just to g
 ### Additional Resource
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-<div class='lesson-content__panel' markdown='1'>
-  Webpacker has been officially retired since Rails v7, it can still be used with rails but won't come prepackaged with it and also will not have new version releases. For now, this will not matter to you but it's worth knowing about. Read [Webpacker-master README](https://github.com/rails/webpacker/tree/master#readme)
+<div class="lesson-content__panel" markdown="1">
+ * Webpacker has been officially retired since Rails v7, it can still be used with rails but won't come prepackaged with it and also will not have new version releases. For now, this will not matter to you but it's worth knowing about. Read [Webpacker-master README](https://github.com/rails/webpacker/tree/master#readme)
 <div>
 
 ### Conclusion
