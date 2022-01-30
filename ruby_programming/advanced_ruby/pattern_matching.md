@@ -6,8 +6,6 @@ With Ruby 3.1, most parts of the pattern matching syntax are no longer considere
 
 If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortunately at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
 
-At the time of writing we still recommend Ruby 2.7 as Ruby 3 is quite new and it can take time for third party gems to update. You can install Ruby 3 and use the [rbenv local](https://github.com/rbenv/rbenv#rbenv-local) command to set rbenv only to Ruby 3 in the folder you create to test out any of the examples below. Alternatively you can just continue with Ruby 2.7, which will work for most of the examples, and then just read through the small section at the end on Ruby 3 patterns.
-
 ### Learning Outcomes
 
 By the end of this lesson, you should be able to do the following:
