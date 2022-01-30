@@ -525,7 +525,7 @@ end
 
 ### Ruby 3 patterns
 
-With Ruby 3 came a couple of new patterns. If you aren't using Ruby 3 at the time of writing you can install it if you like or just skim the below patterns and know they exist. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code.
+With Ruby 3 came a couple of new patterns. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code.
 
 ### Rightward assignment.
 
