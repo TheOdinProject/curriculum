@@ -70,7 +70,7 @@ You should have now see this error and a few other ones but don't fear!
 It's quite explicit in the issue. Resolve is just a fancy word for saying the bundler wasn't able to do anything with this import. Which makes sense as our testapp was set up initially with import maps instead of with esbuild or another bundler. Now let's see if we can resolve this in our ```app/javascript/application.js```. It looks fine so what gives? Remember that this Rails app was started with _import maps_ not a bundler. We need to install the package so that way it can be bundled appropriately. Now let's run the command below.
 
 ~~~bash
-npm i @hotwired/turbo-rails
+yarn add @hotwired/turbo-rails
 ~~~
 
 Now let's run 
@@ -78,10 +78,10 @@ Now let's run
 yarn run build
 ~~~
 
-The error is gone which means esbuild was able to resolve it since it was properly formatted. However that still leaves the ```✘ [ERROR] Could not resolve "controllers"```. Let's see if we can solve that to!. Remember what we said earlier about this error ```✘ [ERROR] Could not resolve "@hotwired/turbo-rails"```. We need to download the appropriate package so that esbuild can bundle it. Go ahead and enter the command below!
+The error is gone which means esbuild was able to resolve it since it was properly formatted. However that still leaves the ```✘ [ERROR] Could not resolve "controllers"```. Let's see if we can solve that to!. Remember what we said earlier about this error ```✘ [ERROR] Could not resolve "@hotwired/turbo-rails"```. We need to download the appropriate package so that esbuild can bundle it. Go ahead and enter the command below! 
 
 ~~~bash
-npm i stimulus
+yarn add stimulus
 ~~~
 
 Now let's run ```yarn run build``` in the terminal. Woah we still get the error below despite adding the stimulus package for esbuild what gives?
