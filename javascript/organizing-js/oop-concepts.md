@@ -1,7 +1,7 @@
 ### Introduction
 By this point, you will have learned and had a chance to practice the most common object-creation and organization patterns in JavaScript. But that is just the _tip_ of the iceberg. More important than learning the syntax for factory functions or modules is figuring out how to use them effectively.
 
-This whole series of lessons has been about the _Object-Oriented Programming_ (OOP) paradigm. The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
+This whole series of lessons has been about the __Object-Oriented Programming__ (OOP) paradigm. The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
