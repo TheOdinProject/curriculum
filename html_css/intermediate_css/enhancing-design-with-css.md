@@ -42,7 +42,7 @@ Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) 
 ### Additional Resources
 Throughout this lesson we have linked primarily to the MDN docs for each property... however there are _many_ useful reference sites across the web that can be useful and that may show up when searching these items.
 
-* [CSS Tricks](https://css-tricks.com/almanac/properties) has some really great content. Some of it feels less formal and official than the MDN docs, but that means they can be easier to digest.  Sometimes their examples could can be more useful. For example, check out their pages on the [background shorthand](https://css-tricks.com/almanac/properties/b/background/), or [overflow](https://css-tricks.com/almanac/properties/o/overflow).
+* [CSS Tricks](https://css-tricks.com/almanac/properties) has some really great content. Some of it feels less formal and official than the MDN docs, but that means they can be easier to digest.  Sometimes their examples could be more useful. For example, check out their pages on the [background shorthand](https://css-tricks.com/almanac/properties/b/background/), or [overflow](https://css-tricks.com/almanac/properties/o/overflow).
 * [W3 Schools](https://www.w3schools.com/cssref/) is another fine resource. We (the Odin authors) tend to prefer MDN, but there is nothing wrong with W3.
 
 ### Knowledge Check
