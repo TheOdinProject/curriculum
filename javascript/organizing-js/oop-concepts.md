@@ -67,10 +67,10 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The following articles mention the acronym __SOLID__ before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like.. but pay special attention to Single Responsibility.
-    1. Read [SOLID JavaScript: The Single Responsibility Principle](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/). **NOTE:** This article does make use of JQuery, one of the earliest and most popular JavaScript libraries prior to the ES6 standard. While The Odin Project does not teach JQuery and you are not expected to understand the example, be sure to focus less on the code itself and more on the SOLID concepts being expressed. 
-    2. [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/) hits the same topic, and also covers the rest of 'SOLID' concisely.
-    3. And read [S.O.L.I.D. The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa) for good measure.
+1.  The following resources cover SOLID. Single Responsibility is arguably the most important of the 5. Feel free to dig into the rest of the SOLID principles if you like ... but pay special attention to Single Responsibility:
+    1. Perhaps the best web resource available on SOLID is [this video series covering each of the principles in turn](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9). The creator is an adept teacher and provides clear and helpful examples. He also uses his own language to explain things - helpful for those struggling with the much-repeated official definitions.
+    2. Read [SOLID JavaScript: The Single Responsibility Principle](http://aspiringcraftsman.com/2011/12/08/solid-javascript-single-responsibility-principle/). **NOTE:** This article does make use of JQuery, one of the earliest and most popular JavaScript libraries prior to the ES6 standard. While The Odin Project does not teach JQuery and you are not expected to understand the example, be sure to focus less on the code itself and more on the SOLID concepts being expressed. 
+    3. [5 Principles that will make you a SOLID JavaScript Developer](https://thefullstack.xyz/solid-javascript/) treats the same topic, and also covers the rest of SOLID concisely.
 2. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
 </div>
 
@@ -79,7 +79,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * The best book we've ever read on the subject of loose coupling is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free.. and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic. Alternatively, [99 Bottles of OOP](https://sandimetz.com/products) is written in both JavaScript and Ruby. It is written by the same author and may be a better option if you are brand new to OOP (it is not free either).
 
-* A nice summary of [OOP's most common principles using JavaScript](https://medium.com/better-programming/object-oriented-programming-in-javascript-b3bda28d3e81)
+* This [MDN page on OOP as it relates to JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS) is a good and simple overview of the topic. The rest of the pages in the series and their various external links will consolidate your knowledge of objects in JavaScript.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
