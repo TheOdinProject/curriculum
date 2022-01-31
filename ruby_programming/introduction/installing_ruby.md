@@ -253,7 +253,7 @@ You can double check that this worked by typing `ruby -v` and checking that the 
 
 ~~~bash
 $ ruby -v
-ruby 3.0.3pxx (20xx-xx-xx revision xxxxx)
+ruby 3.0.3pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ~~~
 
 If you don't see the output above, log off and log back on, then try again.
