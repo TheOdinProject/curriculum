@@ -59,7 +59,7 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#block-inline-difference">What is the difference between a block element and an inline element?</a>
-* <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block">What is the difference between an inline element and an inline-block element?</a>
+* <a class="knowledge-check-link" href="https://www.samanthaming.com/pictorials/css-inline-vs-inlineblock-vs-block/">What is the difference between an inline element and an inline-block element?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is an `h1` block or inline?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `button` block or inline?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `div` block or inline?</a>
