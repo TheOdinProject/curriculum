@@ -235,7 +235,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 }
 ~~~
 
-To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-strings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+To see what other things you can achieve with attribute selectors, such as searching case insensitivity, or sub-strings separated by hyphens, have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
 
 ### Assignment
