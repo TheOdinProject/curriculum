@@ -26,6 +26,8 @@ class ProjectSubmission < ApplicationRecord
   private
 
   def live_preview_allowed
+    return if live_preview_url.blank?
+
     unless lesson && lesson.has_live_preview?
       errors.add(:live_preview_url, 'Live preview is not allowed for this project')
     end
