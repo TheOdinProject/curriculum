@@ -16,7 +16,7 @@ RSpec.describe Messages::DeadLink do
 
   let(:flagger) { create(:user, username: 'OdinUser') }
   let(:flagged_submission) { create(:project_submission, lesson: lesson, user: user) }
-  let(:lesson) { create(:lesson, title: 'test lesson1', section: section) }
+  let(:lesson) { create(:lesson, title: 'test lesson1', section: section, has_live_preview: true) }
   let(:section) { create(:section, course: course) }
   let(:course) { create(:course, title: 'test course99', path: path) }
   let(:path) { create(:path, title: 'test path99') }

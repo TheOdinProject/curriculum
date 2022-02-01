@@ -4,7 +4,7 @@ RSpec.describe 'Admin Flags', type: :system do
   let!(:flag) { create(:flag, project_submission: project_submission) }
   let(:user) { create(:user, admin: true) }
   let(:project_submission) { create(:project_submission, lesson: lesson, user: submission_owner) }
-  let(:lesson) { create(:lesson, is_project: true, accepts_submission: true) }
+  let(:lesson) { create(:lesson, is_project: true, accepts_submission: true, has_live_preview: true) }
   let(:submission_owner) { create(:user, username: 'Simon Bell', email: 'simon@example.com', password: 'pa55word') }
 
   before do

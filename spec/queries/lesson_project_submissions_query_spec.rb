@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe LessonProjectSubmissionsQuery do
   subject(:query) { described_class.new(lesson: lesson, current_user: current_user, limit: limit) }
 
-  let(:lesson) { create(:lesson) }
+  let(:lesson) { create(:lesson, has_live_preview: true) }
   let(:current_user) { create(:user) }
   let(:limit) { nil }
 

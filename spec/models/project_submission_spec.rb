@@ -18,6 +18,16 @@ RSpec.describe ProjectSubmission, type: :model do
 
   it { is_expected.to validate_uniqueness_of(:user_id).scoped_to(:lesson_id) }
 
+  context 'when live preview is not allowed' do
+    subject { build(:project_submission, lesson: create(:lesson, has_live_preview: false)) }
+
+    it do
+      is_expected.to_not allow_value('http://www.github.com/fff')
+        .for(:live_preview_url)
+        .with_message('Live preview is not allowed for this project')
+    end
+  end
+
   describe '.only_public' do
     it 'returns public project submissions' do
       public_project_submission_one = create(:project_submission)
