@@ -98,7 +98,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 [`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer. It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
 
-[:`active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
+[`:active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
 Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look something like this:
 
