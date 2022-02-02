@@ -23,12 +23,16 @@ Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. S
 
 import React from "react";
 
-const FavoriteInput = ({ onChange: onInputChange, id }) => (
-  <label htmlFor={id}>
-    What is your favorite wild animal?
-    <input id={id} onChange={onInputChange} />
-  </label>
-);
+const FavoriteInput = ({ onChange: onInputChange, id }) => {
+  const inputHandler = (event) => onInputChange(event.target.value);
+
+  return (
+    <label htmlFor={id}>
+      What is your favorite wild animal?
+      <input id={id} onChange={inputHandler} />
+    </label>
+  );
+};
 
 export default FavoriteInput;
 ~~~
@@ -39,45 +43,49 @@ Nothing fancy. `FavoriteInput` is a simple component with a couple props passed 
 // FavoriteInput.test.js
 
 import React from "react";
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 import FavoriteInput from "./FavoriteInput";
 
 describe("Favorite Input", () => {
-  let onChange;
-  let getByRole;
-  let input;
+  it("calls onChange correct number of times", () => {
+    const onChangeMock = jest.fn();
+    render(<FavoriteInput onChange={onChangeMock} />);
+    const input = screen.getByRole("textbox");
 
-  beforeEach(() => {
-    onChange = jest.fn();
-    ({ getByRole } = render(<FavoriteInput onChange={onChange} />));
-    input = getByRole("textbox");
-  });
-
-  test("calls onChange correct number of times", () => {
     userEvent.type(input, "Lion");
-    expect(onChange).toHaveBeenCalledTimes(4);
+
+    expect(onChangeMock).toHaveBeenCalledTimes(4);
   });
 
-  test("calls onChange with correct argument", () => {
+  it("calls onChange with correct argument(s) on each input", () => {
+    const onChangeMock = jest.fn();
+    render(<FavoriteInput onChange={onChangeMock} />);
+    const input = screen.getByRole("textbox");
+
     userEvent.type(input, "Ox");
 
-    expect(onChange.mock.calls[0][0].target.value).toMatch("O");
-    expect(onChange.mock.calls[1][0].target.value).toMatch("x");
+    expect(onChangeMock).toHaveBeenNthCalledWith(1, "O");
+    expect(onChangeMock).toHaveBeenNthCalledWith(2, "Ox");
   });
 
-  test("input has correct values", () => {
+  it("input has correct values", () => {
+    const onChangeMock = jest.fn();
+    render(<FavoriteInput onChange={onChangeMock} />);
+    const input = screen.getByRole("textbox");
+
     userEvent.type(input, "Whale");
+
     expect(input).toHaveValue("Whale");
   });
 });
 ~~~
 
 Three tests and we are done with this component. Take some time to figure out what functions come from which package. 
-We mock the `onChange` handler using one of jest features, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show what other ways we could've tested the component. We use `beforeEach` to clump all the variable declarations in one place rather than defining them individually for each test.  
+We mock the `onChange` handler using one of jest features, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show what other ways we could've tested the component.   
 
-But what if you want to set up mocks in every test rather than using `beforeEach`? That's perfectly fine as well. Having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. At the end of the day, how you structure your tests is up to you.
+But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting real long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
 
 #### Mocking Child Components
 
