@@ -2,7 +2,7 @@
 
 We've already covered some basics of React testing. Now's the time to dive deeper. 
 
-In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React component from this ([theodinproject.com](https://theodinproject.com)) website and understand how React tests are written in a real world application. To top it all off, we'll tackle the practice exercise at the end of this lesson to solidify what we've learned. 
+In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React component from this ([theodinproject.com](https://theodinproject.com)) website and understand how React tests are written in a real world application.
 
 ### Learning Outcomes
 
@@ -136,19 +136,6 @@ The other important thing to note is almost all the tests follow a certain patte
 
 2. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
  
-</div>
-
-### Practice 
-
-<div class="lesson-content__panel" markdown="1">
-
-TODO: 1. Still needs to be approved. 2. Add a TOP Repo link for the code.
-
-1. We'll practice what we've learned with a simple exercise; a comment liker application.  
-    1. Fork and clone the [comment-liker-app repository](). 
-    2. Follow the instructions in the README.md to get started.
-    3. Mock, which can be mocked. Query, which can be queried. Simulate, which can be simulated. 
-
 </div>
 
 ### Knowledge Check
