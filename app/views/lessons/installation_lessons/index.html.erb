@@ -1,9 +1,16 @@
 <div class="container h-full">
-  <h1 class="page-heading-title">Installation Lessons Appendix</h1>
+  <h1 class="page-heading-title text-center">Installation Lessons Appendix</h1>
 
   <ul>
+   
     <% @lessons.each do |lesson|%>
-     <li><%= link_to lesson.title, path_course_lesson_path(lesson.path, lesson.course, lesson) %></li>
+      
+      
+ 
+       <li> <p class = "text-1xl text-center m-3 text-gray-600"><%= link_to lesson.title, path_course_lesson_path(lesson.path, lesson.course, lesson), class: "underline hover:no-underline hover:text-gray-500 hover:border-gray-300" %> </p></li>
+   
+      
     <% end %>
+    
   </ul>
 </div>
