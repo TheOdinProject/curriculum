@@ -82,7 +82,6 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 ~~~
 
 Use placeholder text to demonstrate how text should be entered and formatted. 
-//fixed awkward wording and repetitive uses of "text" and "should be". 
 
 
 <span id="the-name-attribute">**The Name Attribute**</span>
