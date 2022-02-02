@@ -1,5 +1,7 @@
+<%= title('Installation Lessons Appendix') %>
 <div class="container h-full">
   <h1 class="page-heading-title text-center">Installation Lessons Appendix</h1>
+   
 
   <ul>
    
@@ -7,7 +9,7 @@
       
       
  
-       <li> <p class = "text-1xl text-center m-3 text-gray-600"><%= link_to lesson.title, path_course_lesson_path(lesson.path, lesson.course, lesson), class: "underline hover:no-underline hover:text-gray-500 hover:border-gray-300" %> </p></li>
+       <li> <p class = "text-1xl text-center m-3 text-gray-600"><%= link_to lesson.title, path_course_lesson_path(lesson.path, lesson.course, lesson), class: "underline hover:no-underline hover:text-gray-500" %> </p></li>
    
       
     <% end %>
