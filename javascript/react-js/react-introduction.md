@@ -232,6 +232,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application without using create-react-app.
 - [This video](https://www.youtube.com/watch?v=YQLn7ycfzEo) on react-testing-library.
+- [This video](https://www.youtube.com/watch?v=SAIdyBFHfVU) by Kent C Dodds explains how React works under the hood.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
