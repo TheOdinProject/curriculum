@@ -4,11 +4,11 @@ We've already covered some basics of React testing. Now's the time to dive deepe
 
 In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React component from this ([theodinproject.com](https://theodinproject.com)) website and understand how React tests are written in a real world application.
 
-### Learning Outcomes
+### Lesson Overview 
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
-TODO
+* Carry out mocks in the context of React testing.
 
 ### What is Mocking?
 
@@ -113,7 +113,7 @@ Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdin
 
 We notice there are two child components of `SubmissionsList`. One of them is from a package called `react-flip-move`. External Code. We'll mock it. 
 
-Notice how we mock the `Submission` component:
+<span id="mock-child-component">Notice how we mock the `Submission` component</span>:
 
 ~~~javascript 
 jest.mock('../submission', () => ({ submission, isDashboardView }) => (
@@ -148,9 +148,10 @@ The other important thing to note is almost all the tests follow a certain patte
 
 ### Knowledge Check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-TODO
+* <a class="knowledge-check-link" href="#testing-callback-handlers">How can you mock a callback handler?</a>
+* <a class="knowledge-check-link" href="#mock-child-component">How can you mock a child component?</a>
 
 ### Additional Resources
 
