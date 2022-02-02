@@ -177,7 +177,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 ### Knowledge Check 
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-links" href="#setting-up">What packages are required for React testing?</a>
 * <a class="knowledge-check-links" href="#user-event">What is the significance of the user-event package?</a>
