@@ -242,7 +242,7 @@ Notice how the tracks stay at `20%` of the width of the container until they hit
 
 Using `clamp()` and `minmax()` are fantastic methods for making grids more responsive while ensuring we don't hit critical breakpoints that make our website look bad. This is imperative when using images and elements that may have a tendency to overflow or render in undesirable ways when pushed to extreme sizes.
 
-### `auto-fit` and `auto-fill`
+### auto-fit and auto-fill
 
 These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
