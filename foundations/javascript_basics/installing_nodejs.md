@@ -23,7 +23,7 @@ sudo apt install curl
 Simply run this command:
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ~~~
 
 This will install `nvm`
@@ -60,7 +60,7 @@ touch ~/.zshrc
 ~~~
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ~~~
 
 Restart your terminal, or copy and paste the following into your terminal and press enter: 
