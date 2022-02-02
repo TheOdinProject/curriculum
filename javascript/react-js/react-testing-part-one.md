@@ -55,10 +55,13 @@ import React from "react";
 import { render } from "@testing-library/react";
 import App from "./App";
 
-test("correct heading renders", () => {
+describe("App component", () => {
+  it("renders correct heading", () => {
     const { getByRole } = render(<App />);
     expect(getByRole("heading").textContent).toMatch(/our first test/i);
+  });
 });
+
 ~~~
 
 Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" section. 
@@ -104,18 +107,20 @@ import { render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
 
-test("magnificent monkeys renders", () => {
-  const { container } = render(<App />);
-  expect(container).toMatchSnapshot();
-});
+describe("App component", () => {
+  it("renders magnificent monkeys", () => {
+    const { container } = render(<App />);
+    expect(container).toMatchSnapshot();
+  });
 
-test("radical rhinos renders after button click", () => {
-  const { getByRole } = render(<App />);
-  const button = getByRole("button", { name: "Click Me" });
+  it("renders radical rhinos after button click", () => {
+    const { getByRole } = render(<App />);
+    const button = getByRole("button", { name: "Click Me" });
 
-  userEvent.click(button);
+    userEvent.click(button);
 
-  expect(getByRole("heading").textContent).toMatch(/radical rhinos/i);
+    expect(getByRole("heading").textContent).toMatch(/radical rhinos/i);
+  });
 });
 ~~~
 
