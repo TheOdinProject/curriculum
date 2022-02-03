@@ -4,7 +4,7 @@ At this point, you have written quite a bit of vanilla HTML and CSS, and learned
 
 You should be aware that, at this point in your learning, both frameworks and preprocessors are options for you, but that neither of them is necessary.
 
-An important reason to know about frameworks and preprocessors is that they are are commonly found in the workplace. In addition, many job requirements include Bootstrap, SASS, and related technology. So it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
+An important reason to know about frameworks and preprocessors is that they are commonly found in the workplace. In addition, many job requirements include Bootstrap, SASS, and related technology. So it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
 
 ### Learning Outcomes
 

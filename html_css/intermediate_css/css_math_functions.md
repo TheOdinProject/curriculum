@@ -14,7 +14,7 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
 ~~~css
-color: hsl(230, 100%, 50%);
+color: rgb(0, 42, 255);
 background: linear-gradient(90deg, blue, red);
 ~~~
 
@@ -80,7 +80,7 @@ I encourage you to take a moment and edit the codepen. Play around with the diff
 Focus on this line `width: min(150px, 100%);` we can make several observations:
 If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
-<br>You are able to do basic bath inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
+<br>You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
 #### max()
 

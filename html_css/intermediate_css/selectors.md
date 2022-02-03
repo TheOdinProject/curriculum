@@ -94,11 +94,11 @@ As always don't forget to check the [docs](https://developer.mozilla.org/en-US/d
 ## Dynamic and User Action Pseudo-classes
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
 
-[:`focus`](https://css-tricks.com/almanac/selectors/f/focus/)
+[`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard. 
 
 [`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer. It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
 
-[:`active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
+[`:active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
 Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look something like this:
 
@@ -235,7 +235,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 }
 ~~~
 
-To see what other things you can achieve with attribute selectors, such as searching case insensitively, or sub-strings separated by hyphens have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+To see what other things you can achieve with attribute selectors, such as searching case insensitivity, or sub-strings separated by hyphens, have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
 
 ### Assignment
@@ -249,7 +249,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
 * [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
-* [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes a an interactive selector tool if you'd like to play around with some hands on examples.
+* [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes an interactive selector tool if you'd like to play around with some hands on examples.
 * [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
 * [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)

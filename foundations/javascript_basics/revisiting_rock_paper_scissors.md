@@ -49,12 +49,12 @@ For example: if you have a bug in a new feature you’re working on that you can
    3. Make sure you are on the `rps-ui` branch. You can check this, with the `git branch` command. The branch you are currently on will have an (\*)asterisk next to it. If you're in another branch for some reason, change to `rps-ui` with the command `git checkout rps-ui`. Now you're all set to work on your new feature! Note: You can add files, commit to this branch, and push changes to your repo, just like you would with the main branch. Everything is the same except when you push the changes, you'd use `git push origin rps-ui` instead of `git push origin main`, since we're pushing to our new branch.  
 2. In our UI, the player should be able to play the game by clicking on buttons rather than typing their answer in a prompt.  
    1. For now, remove the logic that plays exactly five rounds.  
-   2. Create three buttons, one for each selection. Add an event listener to the buttons that calls your `playRound` function with the correct `playerSelection` every time a button is clicked. (you can keep the `console.log`s for this step)  
+   2. Create three buttons, one for each selection. Add an event listener to the buttons that call your `playRound` function with the correct `playerSelection` every time a button is clicked. (you can keep the `console.log`s for this step)  
    3. Add a `div` for displaying results and change all of your `console.log`s into DOM methods.  
    4. Display the running score, and announce a winner of the game once one player reaches 5 points.  
    5. You will likely have to refactor (rework/rewrite) your original code to make it work for this. That's OK! Reworking old code is an important part of a programmer's life.  
-   6. Once you're all done with your UI and make sure everything's satisfactory, it's time to merge our current branch `rps-ui` to our main branch.  
-3. Now let's take a look at how we can merge these changes back to our `main` branch.  
+   6. Once you're all done with your UI and made sure everything's satisfactory, commit your changes to the `rps-ui` branch.
+3. Now let's take a look at how we can merge the changes from our `rps-ui` branch back to our `main` branch.
    1. Checkout the branch we want to merge INTO i.e. `main` with the command `git checkout main`. 
    2. Now let's merge our `rps-ui` branch into `main`, our current branch, with `git merge rps-ui`.  
    3. If everything goes fine, our `rps-ui` branch is now successfully merged with main! Use `git log` and you'll see all the commits you've made to your feature branch on top of the commits you made to the main branch. Now for our final step!  

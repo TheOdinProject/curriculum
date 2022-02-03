@@ -109,7 +109,7 @@ As you might expect, `text-shadow` adds a shadow around the text in the selected
 The examples on the [MDN reference page for text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) show how to use it.
 
 #### ellipsis
-This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside it's container isn't technically considered an `overflow` (that's confusing, I know.  Sorry.)
+This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, I know.  Sorry.)
 
 The full snippet is:
 
@@ -123,15 +123,13 @@ The full snippet is:
 
 You can see more detail and an example in [this CSS Tricks Article](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/).  (Be ready to go look that article up every time you want to use this.)
 
-
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
-* []()
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the 2 ways to add fonts that are not installed on a user's computer?
-* What is the 'system font stack' and why would you want to use it?
-* Which property would you use to increase or decrease the space between letters in a word?
-* Which property would you use to increase or decrease the space between lines in a paragraph?
+- <a class="knowledge-check-link" href='#online-font-libraries'>What are the 2 ways to add fonts that are not installed on a user's computer?</a>
+- <a class="knowledge-check-link" href='#the-system-font-stack'>What is the 'system font stack' and why would you want to use it?</a>
+- <a class="knowledge-check-link" href='#letter-spacing'>Which property would you use to increase or decrease the space between letters in a word?</a>
+- <a class="knowledge-check-link" href='#line-height'>Which property would you use to increase or decrease the space between lines in a paragraph?</a>

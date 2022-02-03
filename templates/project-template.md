@@ -1,0 +1,23 @@
+### Introduction 
+
+A BRIEF INTRODUCTION.
+
+### PRE-ASSIGNMENT SECTION HEADING
+
+PRE-ASSIGNMENT SECTION CONTENT.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1.  A REQUIREMENT/USER STORY.
+
+#### Extra Credit
+
+*   AN OPTIONAL ADD-ON/USER STORY.
+
+</div>
+
+### POST-ASSIGNMENT SECTION HEADING
+
+POST-ASSIGNMENT SECTION CONTENT.
