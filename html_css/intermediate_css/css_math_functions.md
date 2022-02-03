@@ -57,7 +57,7 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 
 **Note:** The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
 
-I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <img src="https://imgur.com/a/9iDhtL0" alt="editCodePen">
+I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <a href="https://codepen.io/TheOdinProjectExamples/pen/OJxNxya" target="_blank"><img src="https://i.imgur.com/W8SfelB.png" alt="editCodePen"></a>
 
 #### min()
 
