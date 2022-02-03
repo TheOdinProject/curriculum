@@ -4,7 +4,7 @@ Validations allow us to set specific constraints or rules that determine what da
 
 Validations are a vital ingredient in well-designed forms. They help protect our backend systems from receiving incorrect data, and they help make the experience of interacting with our form as dead-stupid-simple as possible for our users.
 
-This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into creating custom validations using JavaScript.
+This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into styling validations with CSS.
 
 ### Learning Outcomes
 
@@ -177,7 +177,7 @@ The built-in validations will take you far with ensuring your users enter the co
 
 Sometimes you will need to include validations that the built-in validations won't be able to do. For example, validating that a password input and password confirmation input have the same value or validating that a username has not already been taken. We are also limited with what we can do with styling the validation messages and the content within them.
 
-In this case, we will need to get creative and make custom validations using JavaScript and CSS. We'll dive into how to do this in the assignment.
+In this case, we will need to get creative and make custom validations using JavaScript and CSS. We'll dive into how to achieve validation via JavaScript in a future lesson.
 
 It's also worth noting client-side validations are not a silver bullet for ensuring users enter the correct data. To ensure the integrity of any user data coming into our systems, we should also have server-side validations in place. We will cover this side of validations later in the curriculum.
 
@@ -186,9 +186,11 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 <div class="lesson-content__panel" markdown="1">
 
 1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-2. SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/)
-3. Watch [Web Dev Simplified's JavaScript Form Validations Tutorial](https://www.youtube.com/watch?v=In0nB0ABaUk&ab_channel=WebDevSimplified)
-4. Read CSS Tricks brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
+    * Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson. 
+
+2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API".
+
+3. Read CSS Tricks brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
 
 </div>
 
