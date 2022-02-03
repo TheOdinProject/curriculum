@@ -79,6 +79,7 @@ def foundation_lessons
       is_project: false,
       url: '/foundations/installations/setting_up_git.md',
       identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
+      installation_lesson: true,
     },
     'Introduction to Git' => {
       title: 'Introduction to Git',
@@ -341,7 +342,8 @@ def foundation_lessons
       description: 'Install Node.js to run JavaScript outside of your browser',
       is_project: false,
       url: '/foundations/javascript_basics/installing_nodejs.md',
-      identifier_uuid: 'cb20c3d0-7342-4769-b10c-61d1de11af02'
+      identifier_uuid: 'cb20c3d0-7342-4769-b10c-61d1de11af02',
+      installation_lesson: true,
     }
   }
 end

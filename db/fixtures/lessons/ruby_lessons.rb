@@ -13,6 +13,7 @@ def ruby_lessons
       is_project: false,
       url: '/ruby_programming/introduction/installing_ruby.md',
       identifier_uuid: '99b7fe68-6673-4b51-9bea-4c1c0aad59d9',
+      installation_lesson: true,
     },
     'Basic Data Types' => {
       title: 'Basic Data Types',

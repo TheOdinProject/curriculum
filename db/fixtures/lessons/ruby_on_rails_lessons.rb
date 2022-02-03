@@ -22,6 +22,7 @@ def ruby_on_rails_lessons
       accepts_submission: false,
       has_live_preview: false,
       identifier_uuid: '9dbd5caa-a77d-4731-8897-542aae2984e3',
+      installation_lesson: true,
     },
     'A Railsy Web Refresher' => {
       title: 'A Railsy Web Refresher',
