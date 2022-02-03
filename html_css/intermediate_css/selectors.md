@@ -5,7 +5,7 @@ These selectors can be especially useful when you can't (or don't want to) chang
 
 There are _a lot_ of advanced selectors, so going through every single one is outside the scope of this lesson. However, we'll go through some of the most useful and common ones, as well as arm you with the concepts and vocabulary to learn more on your own.
 
-As always feel free to open up your code editor and run you own experiments with these selectors - practice makes perfect!
+As always feel free to open up your code editor and run your own experiments with these selectors - practice makes perfect!
 
 ### Learning Outcomes
 * Understand how to use parent and sibling selectors
