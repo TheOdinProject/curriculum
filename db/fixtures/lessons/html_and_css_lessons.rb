@@ -392,6 +392,8 @@ def html_and_css_lessons
       title: 'Sign-up Form',
       description: 'Learn about how browsers style your HTML.',
       is_project: true,
+      accepts_submission: true,
+      has_live_preview: true,
       url: '/html_css/project-sign-up-form/project-sign-up-form.md',
       identifier_uuid: '91ab41f2-9c9d-449a-8461-329a5f7ecb1e'
     },
@@ -457,6 +459,8 @@ def html_and_css_lessons
       title: 'Admin Dashboard',
       description: "Use what you've learned to Complete this project",
       is_project: true,
+      accepts_submission: true,
+      has_live_preview: true,
       url: 'html_css/grid-lessons/project-dashboard/project-dashboard.md',
       identifier_uuid: 'c35f0b7b-4d21-4d26-91e2-4af78519ae5f'
     },
@@ -493,6 +497,8 @@ def html_and_css_lessons
       title: 'Personal Portfolio',
       description: 'Create a fully responsive personal portfolio.',
       is_project: true,
+      accepts_submission: true,
+      has_live_preview: true,
       url: '/html_css/project_portfolio/project-portfolio.md',
       identifier_uuid: 'd99b0c9d-cc6c-44e6-bab0-1c9a83edcfa3'
     },
