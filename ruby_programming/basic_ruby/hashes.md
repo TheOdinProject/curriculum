@@ -128,7 +128,7 @@ hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 
 Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
 
-For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.7.1/Hash.html)
+For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Hash.html)
 
 ### Symbols as Hash Keys
 In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:
