@@ -224,7 +224,7 @@ maybe_block {} # {} is just an empty block
 # => executed regardless
 ~~~
 
-You may have already come across this in some of the enumerables. [#count](https://ruby-doc.org/core/Enumerable.html#method-i-count) is a method that can be called with or without a block. If called without an argument, it just returns the size of whatever it was called on. When called with an argument, it counts how many times that argument appears in the object it was called on. And with a block, it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of `#count` on the Ruby-Docs site, you'll see it's written in C, but even glancing over the unfamiliar C syntax, you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
+You may have already come across this in some of the enumerables. [#count](https://ruby-doc.org/core-3.0.3/Enumerable.html#method-i-count) is a method that can be called with or without a block. If called without an argument, it just returns the size of whatever it was called on. When called with an argument, it counts how many times that argument appears in the object it was called on. And with a block, it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of `#count` on the Ruby-Docs site, you'll see it's written in C, but even glancing over the unfamiliar C syntax, you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
 
 ### Lambdas
 
@@ -331,7 +331,7 @@ nested_array.select {|a, b| a + b > 10 }
 As you can see, `#select` has two arguments specified `|a, b|`, on each iteration we pass a single element of nested_array into the block. On the first iteration this is: `[1, 2]`, this array now, is deconstructed automatically (into a = 1, b = 2) and its values compared as specified. So on to the next rounds of iteration in which we pass `[3, 4]` and `[5, 6]` one by one.
 This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lamda proc.
 This property is not limited to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
-You can read more about this here: [documentation](https://ruby-doc.org/core/Proc.html)
+You can read more about this here: [documentation](https://ruby-doc.org/core-3.0.3/Proc.html)
 
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
@@ -451,9 +451,9 @@ arr.map(&:to_i)
 # => [1, 2, 3]
 ~~~
 
-What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://ruby-doc.org/core/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
+What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://ruby-doc.org/core-3.0.3/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
 
-(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
+(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.3/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
 
 <span id="proc-to-block">The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
