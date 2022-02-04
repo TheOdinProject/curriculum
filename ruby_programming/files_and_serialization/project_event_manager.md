@@ -1547,7 +1547,7 @@ Interesting!
 
 Using the registration date and time we want to find out what the peak registration hours are.
 
-* Ruby has [Date](https://rubyapi.org/2.7/o/date) and [Time](https://rubyapi.org/2.7/o/time) classes that will be very useful for this task.
+* Ruby has [Date](https://rubyapi.org/3.0/o/date) and [Time](https://rubyapi.org/3.0/o/time) classes that will be very useful for this task.
 
 * For a quick overview, check out this [Ruby Guides](https://www.rubyguides.com/2015/12/ruby-time/) article. 
 
@@ -1560,4 +1560,4 @@ looks like there are some hours that are clearly more important than others.
 But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
-* Use [Date#wday](https://rubyapi.org/2.7/o/date#method-i-wday) to find out the day of the week.
+* Use [Date#wday](https://rubyapi.org/3.0/o/date#method-i-wday) to find out the day of the week.
