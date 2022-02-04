@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Ruby's Built-in Methods
 
-One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-2.6.1/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-2.6.1/Integer.html) class.
+One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-3.0.3/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-3.0.3/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-3.0.3/Integer.html) class.
 
 If you're wondering about all of the pound signs (`#`), they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these ["hashtags"](https://help.twitter.com/en/using-twitter/how-to-use-hashtags). If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
 
@@ -35,9 +35,9 @@ Methods are typically called by adding `.method_name` after an instance of the o
 "anything".reverse
 ~~~
 
-In this case, [`#reverse`](https://ruby-doc.org/core-2.6.1/String.html#method-i-reverse) is a built-in method for [String](https://ruby-doc.org/core-2.6.1/String.html) objects.
+In this case, [`#reverse`](https://ruby-doc.org/core-3.0.3/String.html#method-i-reverse) is a built-in method for [String](https://ruby-doc.org/core-3.0.3/String.html) objects.
 
-However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://ruby-doc.org/core-2.6.1/Kernel.html) through the [Object class](https://ruby-doc.org/core-2.6.1/Object.html), but that's far more than you need to know right now.)
+However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://ruby-doc.org/core-3.0.3/Kernel.html) through the [Object class](https://ruby-doc.org/core-3.0.3/Object.html), but that's far more than you need to know right now.)
 
 ~~~ruby
 puts "anything" #=> anything
