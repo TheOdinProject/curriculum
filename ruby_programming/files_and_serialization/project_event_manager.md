@@ -845,7 +845,7 @@ $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
 
-What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
+What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-3.0.3/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
 
 ~~~ruby
 require 'csv'
@@ -901,7 +901,7 @@ name and last name. We will need to complete the following steps:
 * For each legislator, we want to find the representative's name.
 * Add the name to a new collection of names.
 
-To do this, we can use the [map](https://ruby-doc.org/core-2.2.0/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
+To do this, we can use the [map](https://ruby-doc.org/core-3.0.3/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
 
 ~~~ruby
 legislator_names = legislators.map do |legislator|
