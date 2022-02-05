@@ -1,5 +1,3 @@
-# Stimulus JS
-
 ### Introduction
 
 Remember JavaScript? What did we learn that for? Well, sometimes you want a bit more interactivity in your browser, 
@@ -9,7 +7,7 @@ controllers that give you that extra little bit of interactivity.
 
 ### Learning Outcomes
 
-*Look through these now and then use them to test yourself after doing the assignment*
+* Look through these now and then use them to test yourself after doing the assignment*
 
 After going through this lesson you should be able to
 
@@ -27,12 +25,12 @@ Stimulus is a modest framework. It leaves things mostly up to you, but gives you
 It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look an an HTML example
 from the handbook:
 
-```
+~~~html
 <div data-controller="clipboard">
   PIN: <input data-clipboard-target="source" type="text" value="3737" readonly>
   <button data-action="click->clipboard#copy">Copy to Clipboard</button>
 </div>
-```
+~~~
 
 Read carefully through the example, and pay special attention to the data attributes! Can you guess what it does?
 
@@ -55,10 +53,11 @@ It generally does not render HTML, instead it attaches behavior to your existing
 Through the consistent use of some data attributes we can read the HTML and can see where the HTML is enhanced.
 
 Look this HTML without the special data-attributes Stimulus uses:
-```html
-<input id="pin-code value="1337" readonly>
+
+~~~html
+<input id="pin-code" value="1337" readonly>
 <button id="pin-button">Copy to Clipboard</button>
-```
+~~~
 
 Probably something is supposed to happen, when you click that button. However you can't tell from the HTML
 alone how things are wired up. You have to search for some JavaScript that handles this behavior.
@@ -66,13 +65,13 @@ alone how things are wired up. You have to search for some JavaScript that handl
 So let's got through the basic aspects of Stimulus controllers. Don't worry if you don't understand
 everything on the first read through, the assignments will give more in depth information.
 
-### The stimulus controller
+### The Stimulus controller
 
 A Stimulus controller gets attached to a dom element by declaring it with the `data-controller` attribute.
 
-```html
+~~~html
 <input data-controller="input">
-```
+~~~
 
 This will attach a the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
 If you want to add a new
@@ -80,10 +79,10 @@ controller, create a file `some_name_controller.js` and it will be automatically
 
 An empty controller looks something like this:
 
-```javascript
+~~~javascript
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {}
-```
+~~~
 
 This controller does not do anything, it only shows how it imports the class `Controller` that we use as a basis.
 As you see, there is no mention of the name of the controller, the name is inferred from the file name 
@@ -98,15 +97,15 @@ execute javascript to react to a user click or input.
 
 So instead of `document.querySelector("button).addEventListener("click", showAlert)` we write the following HTML
 
-```html
+~~~html
 <div data-controller="alert">
   <button data-action="click->alert#show">Alert me!</button>
 </div>
-```
+~~~
 
 Now clicking the button will trigger the action of the associated Stimulus controller:
 
-```js
+~~~js
 // app/javascript/controllers/alert_controller.js
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
@@ -114,14 +113,14 @@ export default class extends Controller {
         alert("Hey from Stimulus");    
     }
 }
-```
+~~~
 
 ### Selecting / targeting elements
 
 You learned how to access dom elements with selectors, such as `document.querySelector` and `document.getElementById`.
 Again Stimulus gives you a way to declare elements you want to select in the HTML:
 
-```html
+~~~html
 <div data-controller="greeter">
   <input type="text" 
          data-action="click->greeter#greet" 
@@ -130,11 +129,11 @@ Again Stimulus gives you a way to declare elements you want to select in the HTM
   </input>
   <div data-greeter-target="output"></div>
 </div>
-```
+~~~
 
 Notice the `data-greeter-target`. Targets can then be used in your controller:
 
-```js
+~~~js
 // app/javascript/controllers/greeter_controller.js
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
@@ -143,7 +142,7 @@ export default class extends Controller {
         this.nameTarget.html = this.inputTarget.value     
     }
 }
-```
+~~~
 
 You need to declare your targets, but once you do, you can get the dom-element by using `this.nameTarget`.
 If you have need multiple targets of the same kind, you can get an array of dom-elements with `this.nameTargets`.
@@ -156,7 +155,8 @@ A Stimulus controller can have its internal state, meaning you can keep data in 
 to keep this to a minimum.
 
 So anything you define on `this` is available throughout the controller:
-```js
+
+~~~js
 export default class extends Controller {
     connect() {
         this.count = 0
@@ -166,11 +166,11 @@ export default class extends Controller {
         this.count++
     }
 }
-```
+~~~
 
 Stimulus also lets you declare specific value attributes, that allow you to listen to changes:
 
-```js
+~~~js
 // app/javascript/controllers/counter_controller.js
 export default class extends Controller {
     static values = { count: {type: Number, default: 0} }
@@ -183,15 +183,15 @@ export default class extends Controller {
         console.log(this.countValue)
     }
 }
-```
+~~~
 
 So here we declare a count value that we then interact with it, the `countValueChanges` function will automatically be
 called whenever the value changes. As we said Stimulus is HTML first. So the HTML actually shows the value on the 
 element where the controller lives:
 
-```html
+~~~html
 <div data-controller="counter" data-counter-count-value="0"></div>
-```
+~~~
 
 So the above HTML will always reflect the value of `this.countValue`. If you change the value through an action in the 
 controller, the HTML value will be updated. But also if you change the value in the HTML, the `countValueChange`
@@ -206,12 +206,13 @@ a specific CSS class on an element. But the class might be different every time,
 to toggle a `hidden` class, but sometimes an `active` one. For these situations you can configure your controller
 with an attribute to specify the CSS class to be used:
 
-```html
+~~~html
 <div data-controller="toggle" data-toggle-change-class="hidden"></div>
-```
+~~~
 
 And in your controller:
-```js
+
+~~~js
 // app/javascript/controllers/toggle_controller.js
 export default class extends Controller {
   static classes = [ "change" ]
@@ -220,8 +221,7 @@ export default class extends Controller {
     this.element.classList.toggle(this.changeClass)
   }
 }
-
-```
+~~~
 
 ### Set up stuff with the lifecycle functions
 
@@ -229,17 +229,17 @@ Often you will want to use Stimulus to use third party javascript libraries with
 normal select form input into a fancy interactive field with autocompletion and so forth. This means you want to execute
 some JavaScript whenever you got such a field.
 
-```html
+~~~html
 <select name="foods" id="foods" data-controller="select">
   <option value="Pizza">Pizza</option>
   ...
 </select>
-```
+~~~
 
 In this situation you don't have a user do anything you could react to, he probably just came from another page. For
 these situation you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
 
-```javascript
+~~~javascript
 import { Controller } from "@hotwired/stimulus"
 import Choices from 'choices.js'
 
@@ -248,7 +248,7 @@ export default class extends Controller {
     new Choices(this.element)
   }
 }
-```
+~~~
 So connect is a special function, that gets called whenever an element with the `data-controller="controller-name"`
 appears in the DOM. So the perfect solution to change things about the HTML that just appears on the page, that you
 need to change somehow.
@@ -258,14 +258,14 @@ need to change somehow.
 Because Stimulus lives between HTML and JavaScript it can be a bit confusing how to name controllers, actions and target.
 Some things use `camelCase` and some `kebab-case`. This little snippet helps to figure out what you need:
 
-```html
+~~~html
 <div data-controller="reset-input">
   <input 
     data-reset-input-target="twoWords"
     data-action="keyup->reset-input#updateButton"
   >
 </div>
-```
+~~~
 
 ### Summary
 
@@ -300,13 +300,13 @@ button.
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
 * Project: In a new rails app, create a `car` model that `:has_many` `variants`, make up some attributes. Then 
 create a form to edit a car, where you can dynamically add more variants using `:accepts_nested_attributes_for` and a
-stimulus controller that adds the form fields you need for a new variant entry. Bonus points for destroying existing 
+Stimulus controller that adds the form fields you need for a new variant entry. Bonus points for destroying existing 
 records when submitting.
 
 ### Additional Resources
 
 * [Better Stimulus](https://www.betterstimulus.com/) a good resource that shows best practices around Stimulus
-* [Stimulus Components](https://stimulus-components.netlify.app/) collection of reusable stimulus components to use
+* [Stimulus Components](https://stimulus-components.netlify.app/) collection of reusable Stimulus components to use
 
 ### Knowledge Check
 
@@ -322,11 +322,10 @@ the questions below on your own, clicking the small arrow to the left of the que
 <details markdown="block">
   <summary>How do you select dom element?</summary>
 
-3 parts
-
-* By adding a `data-my-thing-target?
-* by declaring it with `static targets = ["myThing"]`?
-* and using it in the controller with `this.myThingTarget` or `tis.myThingTargets`
+* Ther
+  * … add a `data-my-thing-target` to the html element
+  * … declare it with `static targets = ["myThing"]` in your controller
+  * … use it in the controller with `this.myThingTarget` or `tis.myThingTargets`
 </details>
 
 <details markdown="block">
