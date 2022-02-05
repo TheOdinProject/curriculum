@@ -19,7 +19,7 @@ const SubmissionsList = ({
   userSubmission,
 }) => {
   const { allSubmissionsPath } = useContext(ProjectSubmissionContext);
-  const hasSubmissions = submissions.length > 0;
+  const hasSubmissions = submissions.length > 0 || Boolean(userSubmission);
 
   return (
     <div data-test-id="submissions-list">
