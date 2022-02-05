@@ -322,7 +322,7 @@ the questions below on your own, clicking the small arrow to the left of the que
 <details markdown="block">
   <summary>How do you select dom element?</summary>
 
-* Ther
+* There are three aspects to it…
   * … add a `data-my-thing-target` to the html element
   * … declare it with `static targets = ["myThing"]` in your controller
   * … use it in the controller with `this.myThingTarget` or `tis.myThingTargets`
