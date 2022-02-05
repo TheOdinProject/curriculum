@@ -4,7 +4,7 @@ Feeling scared of the command line? You're not alone. We have this image of deve
 
 That black screen or window is the command line interface (CLI), where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
-In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't be intimidated by the prospect of using the command line for the first time.
+In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward. So don't let the prospect of using the command line for the first time intimidate you.
 
 #### Test Drive Your Terminal
 Open a terminal on your computer.
@@ -46,7 +46,7 @@ By the end of this lesson, you should be able to do the following:
 
 
 #### Use the Command Line Like a Pro
-There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. If they are forced to do something over and over again, the odds are good that they'll figure out a way to automate it instead. The good news is that you get to benefit from the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
+There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. When forced to do something over and over again, the odds are good that they'll figure out a way to automate it instead. The good news is that you get to benefit from the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
 
 First, you might have already noticed that copying and pasting inside the command line doesn't work the way that you'd expect. When you're inside the command line, you'll need to use `Ctrl+Shift+C` (Mac: `Cmd+C`) to copy and `Ctrl+Shift+V` (Mac: `Cmd+V`) to paste. For example, to copy and paste commands from your browser into the command line, you'll highlight the command text and use `Ctrl+C` as usual and then paste it in your terminal using `Ctrl+Shift+V`. Test it out!
 
@@ -58,9 +58,9 @@ $ cd D
 ```
 But once you've typed in a little bit more, it will complete the name for you, making it possible to write out the full file path above by typing as little as `cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]` (depending on what other folders exist on your computer). Test it out, and get comfortable with how this works. You're gonna love it.
 
-Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. This shortcut is also commonly used with Git (which is covered in detail later on) with commands like `git add .` to add all of the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. See the next section of this lesson for a more detailed example.
+Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all of its files in one go. This shortcut is also commonly used with Git (later on it's covered in detail) with commands like `git add .` to add all of the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all of the project files. See the next section of this lesson for a more detailed example.
 
-**A Note on typing passwords**: When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), the characters should not be visible to you as you type them. While you might think the terminal isn't responding, don't worry! This is a security feature to protect confidential information, similar to how password fields on websites use asterisks or dots. Your password is still being typed in the terminal.
+**A Note on typing passwords**: When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), the characters should not be visible to you as you type them. While you might think the terminal isn't responding, don't worry! This is a security feature to protect confidential information, similar to how password fields on websites use asterisks or dots. By not displaying the characters you write, the Terminal keeps your password secure.
 
 #### Opening files in VSCode from the Command Line
 
