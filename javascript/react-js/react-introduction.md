@@ -106,7 +106,7 @@ Next is the constructor. A constructor is not obligatory in a class component, b
 }
 ~~~
 
-This syntax may look weird at first, but it is nothing more than a simple comment. In React, you write comments within curly brackets and `/* */`. There are sections of React components where the comments (denoted by `//`) we are used to are permissible. For now, we'll leave that as an exercise for you.
+This syntax may look weird at first, but it is nothing more than a simple comment. In React, you write comments within curly brackets and `/* */`. There are sections of React components where the comments we are used to (denoted by `//`) are permissible. For now, we'll leave that as an exercise for you.
 
 ~~~javascript
 render() {
