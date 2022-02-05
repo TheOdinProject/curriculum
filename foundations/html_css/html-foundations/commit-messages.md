@@ -2,26 +2,29 @@
 
 This lesson will explain the importance of good commit messages, how to write them, when to commit and why having a history of good commits is so important!
 
-### Learning Outcomes
-
-By the end of this lesson, you should be able to:
-
-- Write a meaningful commit message
-- Understand why meaningful commit messages are important
-- Have a good understanding of when to commit
-
+### Lesson Overview
+This section contains a general overview of topics that you will learn in this lesson.
+- How to write a meaningful commit message
+- Why meaningful commit messages are important
+- When to commit
 
 ### Are commit messages so important they deserve their own lesson?
 
 Yes! Let me give you a quick list of reasons why:
 
-- When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will make you stand apart. 
+- When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out. 
 - Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
 - Having a good commit message history will also be helpful if you come back to a project you were working on after stepping away from it for a while. You likely won't remember your thought process and changes made when initially writing out the code. 
 
-### How to Write a Good Commit Message
+### Assignment 
 
-This article, [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/),  covers all the main bases on how to write good commit messages. The whole article is great and informative but the meat of the article is “The seven rules of a great commit message.”
+<div class="lesson-content__panel" markdown="1">
+
+1.  This article, [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/), covers all the main bases on how to write good commit messages. The whole article is great and informative but the meat of the article is “The seven rules of a great commit message.”
+
+</div>
+
+
 
 ### When to Commit
 
@@ -40,5 +43,8 @@ There will come a time when you are working on a project and you FINALLY get som
 - Commit early and often!
 
 ### Knowledge Check
-- What are two benefits of having well-written commit messages and a good commit history?
-- How many characters should the subject line of your commit message be?
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+*   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#intro">What are two benefits of having well-written commit messages and a good commit history?</a>
+*   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#wrap-72">How many characters should the subject line of your commit message be?</a>
