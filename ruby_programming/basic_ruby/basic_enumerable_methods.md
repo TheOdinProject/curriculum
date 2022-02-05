@@ -333,7 +333,7 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 
  1. Iteration 0:
     * result = {}
-    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] = 0` and `result["St. Mark's Bistro"] = 0`
+    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] == 0` and `result["St. Mark's Bistro"] == 0`
  2. Iteration 1:
     * The method runs `result["Bob's Dirty Burger Shack"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 1}
