@@ -46,7 +46,7 @@ describe('submissions list', () => {
       expect(screen.queryAllByTestId('submission')[2].textContent).toBe('baz');
     });
 
-    it('does not render any submissions when array is empty, an instead renders a no submissions message', () => {
+    it('does not render any submissions when array is empty and user submission not provided, and instead renders a no submissions message', () => {
       render(
         <ProjectSubmissionContext.Provider value={{ allSubmissionsPath: '#' }}>
           <SubmissionsList
@@ -98,6 +98,25 @@ describe('submissions list', () => {
       expect(screen.queryAllByTestId('submission').length).toBe(3);
       expect(screen.queryByText('foobar')).not.toBeInTheDocument();
     });
+
+    it('does not render no submissions message when array is empty but user submission is provided', () => {
+      render(
+        <ProjectSubmissionContext.Provider value={{ allSubmissionsPath: '#' }}>
+          <SubmissionsList
+            submissions={[]}
+            userSubmission={userSubmission}
+            handleDelete={handleDelete}
+            handleUpdate={handleUpdate}
+            handleLikeToggle={handleLikeToggle}
+          />
+        </ProjectSubmissionContext.Provider>,
+      );
+
+      expect(screen.getByText('foobar')).toBeInTheDocument();
+      expect(
+        screen.queryByText('No Submissions yet, be the first!'),
+      ).not.toBeInTheDocument();
+    })
   });
 
   describe('context', () => {
