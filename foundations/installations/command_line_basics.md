@@ -92,6 +92,9 @@ This section contains helpful links to other content. It isn't required, so cons
 * [ExplainShell.com](http://explainshell.com/) is a great resource for if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
 * [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf) contains a list of important commands that you can refer to regularly as you become familiar with using Linux. You can print it out so you can have a physical copy with you when you're not at your computer.
 * [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
+* [15+ Terminal Commands Every Developer Must Know](https://www.youtube.com/watch?v=CV-ven_rxhw) A video by WebDevSimplified who explains very good the most used commands like pwd , ls, clear, cd, mkdir, touch, cp, rm, nano, cat,Redirect Operators, echo, man,apt-get/sudo . 
+* [The Beginner's Guide To Terminal](https://www.youtube.com/watch?v=rIp4n3V0_NU&t) A video by Colt Steele for all those that are video learns for the basic  commands.
+* [The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners](https://www.youtube.com/watch?v=ZtqBQ68cfJc&t) Learn the 50 most popular Linux commands from Colt Steele. 
 * [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, are detailed enough to get started and light your inner curiosity.
 
 ### Knowledge Check
