@@ -50,14 +50,21 @@ So together these three attributes enable the following behavior: When a user `c
 `copy` of Stimulus controller `clipboard` with the input as a `source`. The yet-to-be-seen JavaScript controller will
 then take care of the rest and will copy the value of the source target to the users clipboard.
 
-Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimulus is a HTML first framework. It is
-generally not concerned with rendering html, but rather with attaching behavior to it with sprinkles of JavaScript.
-Trough the consistent use of those data attributes we can read the html and can discover how the html was enhanced,
-we don't have to guess which even listener might have been have been attached to an element or which element
-serves in certain role.
+Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimulus is a HTML first framework. 
+It generally does not render html, instead it attaches behavior to your existing html with sprinkles of JavaScript.
+Trough the consistent use of some data attributes we can read the html and can see where the html is enhanced.
 
-So let's got through the basic aspects of Stimulus controllers, don't worry if you don't get all on the first read
-through, the assignments will give more in depth information.
+Look this html without the special data-attributes Stimulus uses:
+```html
+<input id="pin-code value="1337" readonly>
+<button id="pin-button">Copy to Clipboard</button>
+```
+
+Probably something is supposed to happen, when you click that button. However you can't tell from the html
+alone how things are wired up. You have to search for some JavaScript that handles this behavior.
+
+So let's got through the basic aspects of Stimulus controllers. Don't worry if you don't understand
+everything on the first read through, the assignments will give more in depth information.
 
 ### The stimulus controller
 
@@ -67,8 +74,9 @@ A Stimulus controller gets attached to a dom element by declaring it with the `d
 <input data-controller="input">
 ```
 
-This will attach a the Stimulus controller that is located `app/javascript/input_controller.js`, if you want to add a new
-controller, create a file `some_name_controller.js` and it will be automatically loaded by Rails.
+This will attach a the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
+If you want to add a new
+controller, create a file `some_name_controller.js` and it will be automatically loaded.
 
 An empty controller looks something like this:
 
@@ -77,8 +85,8 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {}
 ```
 
-This controller does not do anything, it only shows how it imports tht base class `Controller` that we use a basis.
-As you see there is no mention of the name of the controller, the name is inferred from the file name 
+This controller does not do anything, it only shows how it imports the class `Controller` that we use as a basis.
+As you see, there is no mention of the name of the controller, the name is inferred from the file name 
 (`input_controller.js` becomes `input`).
 
 This creates a scope, all the following attributes will only work within the scope of that controller / dom element.
@@ -98,7 +106,7 @@ So instead of `document.querySelector("button).addEventListener("click", showAle
 
 Now clicking the button will trigger the action of the associated Stimulus controller:
 
-````js
+```js
 // app/javascript/controllers/alert_controller.js
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
@@ -106,7 +114,7 @@ export default class extends Controller {
         alert("Hey from Stimulus");    
     }
 }
-````
+```
 
 ### Selecting / targeting elements
 
@@ -126,7 +134,7 @@ Again Stimulus gives you a way to declare elements you want to select in the htm
 
 Notice the `data-greeter-target`. Targets can then be used in your controller:
 
-````js
+```js
 // app/javascript/controllers/greeter_controller.js
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
@@ -135,10 +143,11 @@ export default class extends Controller {
         this.nameTarget.html = this.inputTarget.value     
     }
 }
-````
+```
 
-You need to declare your targets, but once you do, you can get the dom-element by using `this.nameTarget`, or 
-if you have multiple: `this.nameTargets`. If you need to make your controllers to be smart about targets, you can
+You need to declare your targets, but once you do, you can get the dom-element by using `this.nameTarget`.
+If you have need multiple targets of the same kind, you can get an array of dom-elements with `this.nameTargets`.
+If you need to make your controllers to be smart about targets, you can
 also ask whether certain targets are available in the html with `this.hasNameTarget`.
 
 ### Keeping state
@@ -161,7 +170,7 @@ export default class extends Controller {
 
 Stimulus also lets you declare specific value attributes, that allow you to listen to changes:
 
-````js
+```js
 // app/javascript/controllers/counter_controller.js
 export default class extends Controller {
     static values = { count: {type: Number, default: 0} }
@@ -174,7 +183,7 @@ export default class extends Controller {
         console.log(this.countValue)
     }
 }
-````
+```
 
 So here we declare a count value that we then interact with it, the `countValueChanges` function will automatically be
 called whenever the value changes. As we said Stimulus is html first. So the html actually shows the value on the 
@@ -193,13 +202,13 @@ This may be a bit abstract for now, but opens up really interesting possibilitie
 ### Use class attributes to make your controllers more configurable
 
 Stimulus controllers are best written in a way, that they are reusable. Often you will want to toggle, remove or add
-a specific CSS class on an element. But the class might be different every time, for example you might sometimes want
+a specific CSS class on an element. But the class might be different every time, for example you sometimes want
 to toggle a `hidden` class, but sometimes an `active` one. For these situations you can configure your controller
-with an attribute to specific the CSS class to be used:
+with an attribute to specify the CSS class to be used:
 
-````html
+```html
 <div data-controller="toggle" data-toggle-change-class="hidden"></div>
-````
+```
 
 And in your controller:
 ```js
@@ -220,17 +229,17 @@ Often you will want to use Stimulus to use third party javascript libraries with
 normal select form input into a fancy interactive field with autocompletion and so forth. This means you want to execute
 some JavaScript whenever you got such a field.
 
-````html
+```html
 <select name="foods" id="foods" data-controller="select">
   <option value="Pizza">Pizza</option>
   ...
 </select>
-````
+```
 
 In this situation you don't have a user do anything you could react to, he probably just came from another page. For
 these situation you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
 
-````javascript
+```javascript
 import { Controller } from "@hotwired/stimulus"
 import Choices from 'choices.js'
 
@@ -239,7 +248,7 @@ export default class extends Controller {
     new Choices(this.element)
   }
 }
-````
+```
 So connect is a special function, that gets called whenever an element with the `data-controller="controller-name"`
 appears in the DOM. So the perfect solution to change things about the html that just appears on the page, that you
 need to change somehow.
@@ -264,8 +273,7 @@ haven't already, don't worry if not everything sticks, but you should know where
 
 ### Exercises
 
-To practice you create a new standard rails application or play around on a separate branch on one of your existing
-projects, Stimulus will be installed by default with Rails 7.0.
+To practice you create a new standard rails application. Stimulus will be installed by default with Rails 7.0.
 
 * Write some HTML that uses the example controller in `app/javascript/controllers/hello_controller.js`
 * Create you own toggle controller and use it in your view. It should be able shows/hide elements upon clicking some
