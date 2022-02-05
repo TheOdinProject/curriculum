@@ -4,7 +4,7 @@
 
 Remember JavaScript? What did we learn that for? Well, sometimes you want a bit more interactivity in your browser, 
 like hiding/showing a part of your page. Making a round trip to your server is impractical. That is where JavaScript
-comes in. So Rails suggest using Stimulus to augment your html. Stimulus gives you a way of creating and using reusable 
+comes in. So Rails suggest using Stimulus to augment your HTML. Stimulus gives you a way of creating and using reusable 
 controllers that give you that extra little bit of interactivity.
 
 ### Learning Outcomes
@@ -13,7 +13,7 @@ controllers that give you that extra little bit of interactivity.
 
 After going through this lesson you should be able to
 
-* explain how to attach Stimulus controllers to your html
+* explain how to attach Stimulus controllers to your HTML
 * how to use targets instead of query selectors
 * how to use action attributes instead of event listeners
 * where to keep state
@@ -24,7 +24,7 @@ After going through this lesson you should be able to
 ### The idea
 
 Stimulus is a modest framework. It leaves things mostly up to you, but gives you a consistent way of doing things.
-It uses html `data-attributes` to attach and configure behavior on your html. Let us look an an html example
+It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look an an HTML example
 from the handbook:
 
 ```
@@ -39,7 +39,7 @@ Read carefully through the example, and pay special attention to the data attrib
 This example is using three data attributes: `data-controller`, `data-clipboard-target`, `data-action`. So what is their
 purpose?
 
-* **data-controller** is set to `clipboard`. Which means: Hey Stimulus, we want to enhance this html with some clipboard
+* **data-controller** is set to `clipboard`. Which means: Hey Stimulus, we want to enhance this HTML with some clipboard
 behavior
 * **data-clipboard-target** is set to `source`. Which says: this is the the `source` we are gonna use for our clipboard
 controller
@@ -51,16 +51,16 @@ So together these three attributes enable the following behavior: When a user `c
 then take care of the rest and will copy the value of the source target to the users clipboard.
 
 Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimulus is a HTML first framework. 
-It generally does not render html, instead it attaches behavior to your existing html with sprinkles of JavaScript.
-Trough the consistent use of some data attributes we can read the html and can see where the html is enhanced.
+It generally does not render HTML, instead it attaches behavior to your existing HTML with sprinkles of JavaScript.
+Through the consistent use of some data attributes we can read the HTML and can see where the HTML is enhanced.
 
-Look this html without the special data-attributes Stimulus uses:
+Look this HTML without the special data-attributes Stimulus uses:
 ```html
 <input id="pin-code value="1337" readonly>
 <button id="pin-button">Copy to Clipboard</button>
 ```
 
-Probably something is supposed to happen, when you click that button. However you can't tell from the html
+Probably something is supposed to happen, when you click that button. However you can't tell from the HTML
 alone how things are wired up. You have to search for some JavaScript that handles this behavior.
 
 So let's got through the basic aspects of Stimulus controllers. Don't worry if you don't understand
@@ -96,7 +96,7 @@ This creates a scope, all the following attributes will only work within the sco
 You learned how to trigger events with event listeners, in Stimulus instead you use `data-action` attributes to
 execute javascript to react to a user click or input.
 
-So instead of `document.querySelector("button).addEventListener("click", showAlert)` we write the following html
+So instead of `document.querySelector("button).addEventListener("click", showAlert)` we write the following HTML
 
 ```html
 <div data-controller="alert">
@@ -119,7 +119,7 @@ export default class extends Controller {
 ### Selecting / targeting elements
 
 You learned how to access dom elements with selectors, such as `document.querySelector` and `document.getElementById`.
-Again Stimulus gives you a way to declare elements you want to select in the html:
+Again Stimulus gives you a way to declare elements you want to select in the HTML:
 
 ```html
 <div data-controller="greeter">
@@ -148,7 +148,7 @@ export default class extends Controller {
 You need to declare your targets, but once you do, you can get the dom-element by using `this.nameTarget`.
 If you have need multiple targets of the same kind, you can get an array of dom-elements with `this.nameTargets`.
 If you need to make your controllers to be smart about targets, you can
-also ask whether certain targets are available in the html with `this.hasNameTarget`.
+also ask whether certain targets are available in the HTML with `this.hasNameTarget`.
 
 ### Keeping state
 
@@ -186,15 +186,15 @@ export default class extends Controller {
 ```
 
 So here we declare a count value that we then interact with it, the `countValueChanges` function will automatically be
-called whenever the value changes. As we said Stimulus is html first. So the html actually shows the value on the 
+called whenever the value changes. As we said Stimulus is HTML first. So the HTML actually shows the value on the 
 element where the controller lives:
 
 ```html
 <div data-controller="counter" data-counter-count-value="0"></div>
 ```
 
-So the above html will always reflect the value of `this.countValue`. If you change the value through an action in the 
-controller, the html value will be updated. But also if you change the value in the html, the `countValueChange`
+So the above HTML will always reflect the value of `this.countValue`. If you change the value through an action in the 
+controller, the HTML value will be updated. But also if you change the value in the HTML, the `countValueChange`
 callback is called.
 
 This may be a bit abstract for now, but opens up really interesting possibilities for many use cases.
@@ -250,12 +250,26 @@ export default class extends Controller {
 }
 ```
 So connect is a special function, that gets called whenever an element with the `data-controller="controller-name"`
-appears in the DOM. So the perfect solution to change things about the html that just appears on the page, that you
+appears in the DOM. So the perfect solution to change things about the HTML that just appears on the page, that you
 need to change somehow.
+
+### A little hint on things containing multiple words
+
+Because Stimulus lives between HTML and JavaScript it can be a bit confusing how to name controllers, actions and target.
+Some things use `camelCase` and some `kebab-case`. This little snippet helps to figure out what you need:
+
+```html
+<div data-controller="reset-input">
+  <input 
+    data-reset-input-target="twoWords"
+    data-action="keyup->reset-input#updateButton"
+  >
+</div>
+```
 
 ### Summary
 
-Stimulus gives you a way to make your html more interactive, by using data attributes your html makes visible where
+Stimulus gives you a way to make your HTML more interactive, by using data attributes your HTML makes visible where
 your Javascript will interact with your HTML. This was just a broad introduction, please follow the assignments that will
 go more into depth.
 
@@ -281,7 +295,7 @@ button.
 * Make sure your toggle controller is reusable, try to make it do the following things:
   * Clicking a button, will show another element (like a dropdown menu)
   * Clicking an element, will hide the clicked element and show another
-  * Clicking an checkbox, will highlight the element containing
+  * Clicking an checkbox, will highlight the element containing the checkbox
 * Write a controller for text inputs with a limited length. Warn a user when he is close or over the maximum character
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
 * Project: In a new rails app, create a `car` model that `:has_many` `variants`, make up some attributes. Then 
@@ -293,3 +307,39 @@ records when submitting.
 
 * [Better Stimulus](https://www.betterstimulus.com/) a good resource that shows best practices around Stimulus
 * [Stimulus Components](https://stimulus-components.netlify.app/) collection of reusable stimulus components to use
+
+### Knowledge Check
+
+*This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering
+the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
+
+<details markdown="block">
+  <summary>When do you use Stimulus?</summary>
+
+* When you want functionality, where a roundtrip to a server would not make sense
+</details>
+
+<details markdown="block">
+  <summary>How do you select dom element?</summary>
+
+3 parts
+
+* By adding a `data-my-thing-target?
+* by declaring it with `static targets = ["myThing"]`?
+* and using it in the controller with `this.myThingTarget` or `tis.myThingTargets`
+</details>
+
+<details markdown="block">
+  <summary>How do you make your Stimulus controllers reusable?</summary>
+
+* By using abstract controllers, like `toggle` rather than one specific to the view, like `reveal-comments`
+* By making it configurable with `values` and `classes`
+</details>
+
+
+<details markdown="block">
+  <summary>How do you trigger actions on an event?</summary>
+
+* By using `data-action="click->some-controller#someAction"` on a HTML element
+* or`data-action="resize@window->gallery#layout"` for window events
+</details>
