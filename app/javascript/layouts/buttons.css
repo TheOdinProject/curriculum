@@ -1,0 +1,13 @@
+@layer components {
+  /* Prefixed with "top" due to Bootstrap conflicts */
+  .top-btn {
+    @apply inline-block rounded shadow py-4 px-10 md:px-14 border-0
+    text-base font-bold text-center no-underline text-white
+    cursor-pointer
+    hover:bg-opacity-80
+
+  }
+  .top-btn-primary {
+    @apply bg-odin-green
+  }
+}

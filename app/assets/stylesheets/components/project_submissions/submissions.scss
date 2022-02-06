@@ -1,33 +1,4 @@
 .submissions {
-  margin-bottom: 2em;
-  text-align: left;
-
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1.5em;
-    align-items: center;
-
-    @include media-breakpoint-down(sm) {
-      display: block;
-      text-align: center;
-    }
-  }
-
-  &__title {
-    font-size: 2.5em;
-    font-weight: 500;
-  }
-
-  &__project-title {
-    font-size: 1.5em;
-    color: $grey;
-
-    @include media-breakpoint-down(sm) {
-      margin-bottom: 1rem;
-    }
-  }
-
   &__item {
     border-top: solid 1px $very-pale-grey;
     display: flex;
@@ -87,15 +58,15 @@
 
       &:focus{
         outline:none
-      }  
-      
+      }
+
       @include media-breakpoint-down(sm) {
         position: absolute !important;
         top: 5px;
         right: 0;
       }
     }
-  }  
+  }
 
   &__actions {
     display: flex;

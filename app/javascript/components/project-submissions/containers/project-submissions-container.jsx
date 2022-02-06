@@ -114,18 +114,31 @@ const ProjectSubmissions = ({ submissions, userSubmission }) => {
   };
 
   return (
-    <div className="submissions">
-      <div className="submissions__header">
-        <div className="submissions__course">
-          <h3 className="submissions__title">Solutions:</h3>
-          <h4 data-test-id="course-lesson-title" className="submissions__project-title">
+    <div className="mb-8 text-left">
+      <div className="flex flex-col text-center md:flex-row md:justify-between">
+        {/* Set md:text-left below for higher specificity, since BS also uses text-center,
+        and does so with !important */}
+        <div className="md:text-left">
+          <h3 className="text-4xl font-medium">Solutions:</h3>
+          <h4 data-test-id="course-lesson-title" className="text-2xl text-gray-500 mb-4 md:mb-0">
             {course.title}
             : (
             {lesson.title}
             )
           </h4>
         </div>
-
+        <div>
+          { !userProjectSubmission && (
+            <button
+              type="button"
+              className="top-btn top-btn-primary"
+              onClick={toggleShowCreateModal}
+              data-test-id="add_submission_btn"
+            >
+              Add Solution
+            </button>
+          )}
+        </div>
         <Modal show={showCreateModal} handleClose={toggleShowCreateModal}>
           <CreateForm
             lessonId={lesson.id}
@@ -134,7 +147,6 @@ const ProjectSubmissions = ({ submissions, userSubmission }) => {
             userId={userId}
           />
         </Modal>
-
         <Modal show={showFlagModal} handleClose={toggleShowFlagModal}>
           <FlagForm
             submission={flaggedSubmission}
@@ -143,19 +155,6 @@ const ProjectSubmissions = ({ submissions, userSubmission }) => {
             userId={userId}
           />
         </Modal>
-
-        <div>
-          { !userProjectSubmission && (
-            <button
-              type="button"
-              className="submissions__add button button--primary"
-              onClick={toggleShowCreateModal}
-              data-test-id="add_submission_btn"
-            >
-              Add Solution
-            </button>
-          )}
-        </div>
       </div>
       <SubmissionsList
         submissions={projectSubmissions}

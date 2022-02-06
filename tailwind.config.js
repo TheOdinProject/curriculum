@@ -41,6 +41,9 @@ module.exports = {
       margin: {
         '-25px': '-25px',
       },
+      fontFamily: {
+        'close-button': '"Font Awesome 5 Free"', // spaces must be escaped
+      },
     },
   },
   purge: {
@@ -48,7 +51,8 @@ module.exports = {
       "./app/**/*.html.erb",
       "./app/components/*.html.erb",
       "./app/components/*.rb",
-      "app/assets/images/icons/*svg"
+      "./app/javascript/components/**/*.jsx",
+      "app/assets/images/icons/*svg",
     ],
   },
   variants: {
