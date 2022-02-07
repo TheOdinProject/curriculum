@@ -49,6 +49,11 @@ body,
   background-color: var(--dark-bg-color) !important;
 }
 
+.curriculum-details-tile:hover {
+  box-shadow: 0 10px 22px 0 rgba(100, 100, 100, 0.3) !important;
+  -webkit-box-shadow: 0 10px 22px 0 rgba(100, 100, 100, 0.3) !important;
+}
+
 h1,
 h2,
 h2.bold,

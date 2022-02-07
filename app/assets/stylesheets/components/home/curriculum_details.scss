@@ -33,6 +33,11 @@
       text-align: center;
       width: 254px;
       text-decoration: none;
+      transition: .1s ease-out;
+
+      &:hover {
+        @include box-shadow(0 10px 22px 0 rgba(0, 0, 0, 0.5));
+      }
 
       img {
         height: 160px;
