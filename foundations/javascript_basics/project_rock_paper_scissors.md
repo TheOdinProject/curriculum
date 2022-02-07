@@ -30,7 +30,7 @@ Finally, this is your first JavaScript program built from scratch, so don't forg
    console.log(playRound(playerSelection, computerSelection));
    ~~~
 
-6. Write a NEW function called `game()`. Call the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
+6. Write a NEW function called `game()`. Call the `playRound` function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
    1. Remember loops? This is a great opportunity to use one to play those five rounds:
 
       ~~~javascript
