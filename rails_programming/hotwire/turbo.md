@@ -41,7 +41,7 @@ The lesson you are reading now is all about Turbo! We will cover Stimulus in ano
 
 #### Turbolinks
 
-Before we can talk about Turbo, we should briefly mention its predecessor, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (it's first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. Turbolinks would keep the current page instance alive and simply swap out the content between the `<body>` tags of the document. This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
+Before we can talk about Turbo, we should briefly mention its predecessor, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (it's first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. Turbolinks would keep the current page instance alive and only swap out the content between the `<body>` tags of the document. This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
 
 To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not shorthand for Turbolinks**. They are two different entities. 
 
@@ -54,7 +54,7 @@ Here is a quick summary of the four Turbo techniques together. As you continue t
 1.  **Turbo Drive**: Turbo Drive is the direct ancestor of the previously mentioned Turbolinks. This portion of Turbo is responsible for accelerating link and form submissions by rendering pages using the browser's cache and browsing history.
 2.  **Turbo Frames**: Turbo Frames also help with fast navigation, but for predefined portions of a page. Rather than requesting an entire page, you can define a region of your HTML as a Turbo Frame and replace only the content inside of that region.
 3.  **Turbo Streams**: Turbo Stream delivers web page changes to instantly insert, update, or remove a region of the webpage. An example of this could be a user creating a new post and that post immediately inserts itself at the top of the post index feed without any refresh or redirection.
-4.  **Turbo Native**: Turbo Native is a technique that allows developers to achive the same Turbo style transitions on a mobile app for iOS or Android.
+4.  **Turbo Native**: Turbo Native is a technique that allows developers to achieve the same Turbo style transitions on a mobile app for iOS or Android.
 
 ### Turbo Drive
 
@@ -77,7 +77,7 @@ The application visit lifecycle can be summarized as:
 
 1.  Application visits begin when a user clicks a Turbo Drive enabled link (remember, Turbo Drive is enabled on links by default!).
 1.  An HTTP network request is issued. Turbo Drive receives it and will render the HTML.
-1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins.
+1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins, using the html for the previous visit of the same URL.
 1.  The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.
     * **Advance**: This is the default action and will result in a new entry being added to the browser history.
     * **Replace**: This action replaces the most recent browser history entry with the new location.
@@ -148,7 +148,7 @@ This showcases that you can disable and re-enable Turbo Drive in regions of your
 
 Imagine a piece of paper and cutting out a small square hole in it. You could change what you see through the hole by swapping out another piece of paper behind it, but the rest of the paper will always look the same. That's the idea of Turbo Frames! Turbo Frames allow us to predefine a portion of our page to be replaced during a request. Any links or forms inside of our frame will make a special request that results in only changing the frame. A page can also have multiple Turbo Frames!
 
-A frame is designated by wrapping a region inside of a `<turbo-frame>` element. Rails has a special tag for this, `<%= turbo_frame_tag %>`.
+A frame is designated by wrapping a region inside of a `<turbo-frame>` element. Rails has a special helper for this, `<%= turbo_frame_tag %>`.
 
 A basic Turbo Frame, using Rails helpers, may look like so:
 
@@ -166,7 +166,7 @@ which will generate:
 </turbo-frame>
 ~~~
 
-Super easy! Note that the frames have an ID. The ID is how Turbo is able to identify a frame to find out which one is which.
+Note that the frames have an ID. The ID is how Turbo is able to identify a frame to find out which one is which.
 With the Turbo Frame helper, you can substitute the ID for a variable. For instance:
 
 ~~~erb
@@ -181,9 +181,9 @@ The above example will generate a turbo frame for every article. Each frame will
 
 #### Connecting to Other Frames
 
-Now that we have our first frame, we need to connect it to another frame to swap the content out! This is very simple, all we have to do is create a link inside of a Turbo Frame where the requested view *also* has a Turbo Frame with the **same ID**.
+Now that we have our first frame, we can replace its content with a link that request new frame content. All we have to to is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
 
-Lets connect the `/show` and `/edit` pages of an Article!
+Let us replace the `/show` view with the `/edit` view on an article:
 
 ~~~erb
 # views/articles/show.html.erb
@@ -209,11 +209,11 @@ Lets connect the `/show` and `/edit` pages of an Article!
 
 That's all we have to do! Turbo will recognize that our destination URL, the `/show` or `/edit` page, has a matching Turbo Frame and will replace the frame region with the content from the new page's frame! Something else to note is that this does work with forms as well. In our controller, if the `update` action contains `redirect_to @article`, then our Turbo Frame will be updated when we submit our form just like if we clicked a link.
 
-Now that we have frames connected, what about the things outside of the frame? Anything outside of the frame does not change. If we were going from `/show` to `/edit`, then the content outside of the frame would still be the same content of the `/show` page and we would not receive any content from outside of the `/edit` frame either. The current page also does not change. We still stay on the `/show` page and if we were to refresh, we would still be here. We did not navigate to a new page, we only selected content from our destination and inserted it into our current page! (But using our previous knowledge of Turbo Drive, we can advance our history using `data-turbo-action` if we desire.)
+Now that we have our matching frames that can replace their content, what about the content located outside of the frame? Anything outside of the frame does not change. If we were going from `/show` to `/edit`, then the content outside of the frame would still be the same content of the `/show` page and we would not receive any content from outside of the `/edit` frame either. We did not navigate to a new page, we only requested new html from another route and inserted it into our current page! The current `url` also does not change. We will stay on the `/show` path, and if we refresh, we would still see the `/show` view. (Note that it is possible to change this default behaviour by making use of Turbo Drive's `data-turbo-action` to advance the browser history and update the current `url`.)
 
 #### Breaking out of a Turbo Frame
 
-Sometimes you may have a link inside of the Turbo Frame that you want to act as a normal page navigation. To do so, just add `data-turbo-frame="_top"` to the element. An example with a Rails link helper:
+Sometimes you may have a link inside of the Turbo Frame that you want to act as a normal page navigation. To do so, add `data-turbo-frame="_top"` to the element. An example with a Rails link helper:
 
 ~~~erb
 <%= link_to "Return to Article", @article, data: { turbo_frame: "_top" } %>
@@ -275,9 +275,9 @@ Now we know how to set up our views to use Turbo Frames, but what about content 
 Turbo Streams are delivered by use of our controller. Just like how your users make `html` requests and receive `view.html.erb` files, your users can receive `view.turbo_stream.erb` files! These are not standalone view files as you know them, they only contain a few lines and are a way of sending the user a Stream response instead of a new page.
 
 
-#### A Simple Append Stream
+#### Our First Turbo Stream
 
-Let's say that we have made a website where users can create posts. Combined with a `turbo_frame` with a `src:` attribute, we can include our `new` action form on the same page as our `index` feed! It may look something like this.
+Let's say that we have made a website where users can create posts. By adding a `turbo_frame` with a `src:` attribute that points to our `new_post_path`, and our `new` post view being wrapped in a `turbo_frame_tag` with a matching `id`, we can include our `new` action form on the same page as our `index` feed! It may look something like this.
 
 Our `index` view:
 
@@ -314,7 +314,7 @@ Our `_post` partial that every post will be rendered with:
 </div>
 ~~~
 
-Our simple controller:
+Our controller:
 
 ~~~ruby
 # controllers/posts_controller.rb
@@ -345,7 +345,7 @@ class PostsController < ApplicationController
 end
 ~~~
 
-This will result in our `posts#index` page loading and then another request being made to the `posts#new` action of our controller to insert the form! This also keeps our code DRY because if we simply tried adding a form partial on the index page, we would still have to repeat the `posts#new` controller action during the `posts#index` action.
+This will result in only the `posts#index` page loading initally and *then* another request being made to the `posts#new` action of our controller to insert the form! This also keeps our code DRY because if instead opted to add the form by use of a partial on the index page, we would still have to repeat the `posts#new` controller action during the `posts#index` action.
 
 However, if a user is to submit a post right now, something weird happens! The form window goes away, but there's no error. Where did the post go?? When we refresh the page, we see that the post did submit. What's happening here is that Rails doesn't know you are going to want a Turbo Stream so it can't automatically add your post yet. Instead it tries to redirect you to the page you are already on. **Turbo Drive** intercepts this and loads a cached version of the page, which does not have our form content in it, so the form goes away!
 
@@ -388,7 +388,7 @@ You create your Turbo Stream file inside of your `views` folder the same way as 
 
 That line is all we need! What this does is create a Turbo Stream packet with the `append` action. The target of the action is `"posts"`. This is the `<div>` with the `id="posts"` that contains all of our posts. Turbo Stream will locate the `<div>` and append our brand new `@post` to the bottom! Our newly created `@post` will even use the `_post.html.erb` partial to be in the proper layout as all of our other posts. For that, you can thank the Rails naming convention. If you are breaking from Rails convention, you can specify a partial to use inside of your `turbo_stream` template.
 
-And just like that, we can create a post and watch it show up on the list!
+Now that we have added the `format.turbo_stream` response to our controller and our `create.turbo_stream.erb` file, we can now create a post and watch it append to the list!
 
 #### Additional Turbo Stream Tips
 
@@ -406,7 +406,7 @@ if you would like to learn more:
 
     However, [you shouldn't do this for anything complex or chained](https://github.com/hotwired/turbo-rails/issues/77#issuecomment-757349251).
 
-3.  You may have noticed that when you submit a new Post, the text box doesn't clear out! That's why Hotwire comes with Stimulus. In the next lesson, we will cover how to create a simple Stimulus controller to reset the new post form.
+3.  You may have noticed that when you submit a new Post, the text box doesn't clear out! You need to reset the submission element in order for it to be empty again. Hotwire has a remedy for this problem by including Stimulus, a light JavaScript framework. Don't worry about Stimulus for this example though, the next lesson will cover how to write and make use of Stimulus Controllers.
 
 ### Turbo Native
 
