@@ -34,12 +34,11 @@ Finally, this is your first JavaScript program built from scratch, so don't forg
    1. Remember loops? This is a great opportunity to use one to play those five rounds:
 
       ~~~javascript
-      for (let i = 1; i <= 5; i++) {
+      for (let i = 0; i < 5; i++) {
          // your code here!
       }
       ~~~
 
-   1. Make sure there are no functions declared inside of the `game()` function.
    1. At this point you should be using `console.log()` to display the results of each round and the winner at the end.
    1. Use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
    1. Feel free to re-work your previous functions if you need to. Specifically, you might want to change the return value to something more useful.
