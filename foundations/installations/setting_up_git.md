@@ -23,7 +23,7 @@ sudo apt upgrade
 
 #### Step 1.2: Install git
 
-It's likely you have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
+You likely have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
 
 ~~~bash
 sudo add-apt-repository ppa:git-core/ppa
@@ -79,9 +79,9 @@ git --version
 
 If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
 1. Run `brew doctor`
-2. You will see an output similar to the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` in order to repair your installation of Homebrew, including `brew cleanup` at the end.
+2. You will see an output similar to the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
 ![Screen_Shot_2021-02-11_at_8 06 38_PM](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
-4. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest version. 
+4. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
 
