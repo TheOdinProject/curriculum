@@ -142,7 +142,7 @@ There are two boxes located at the same position. We chained `rotate` and `trans
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-If you guessed correctly, congratulations! Otherwise, you've now learned that when chaining multiple transforms, each transform function is applied from right to left. 
+If you guessed correctly, congratulations! Otherwise, you've now learned that when chaining multiple transforms, each transform function is applied from left to right. 
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
