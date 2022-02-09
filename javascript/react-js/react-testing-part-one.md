@@ -97,7 +97,7 @@ const App = () => {
 export default App;
 ~~~
 
-Let's test if the button works as intended:
+Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
 ~~~javascript
 // App.test.js
@@ -109,6 +109,7 @@ import App from "./App";
 
 describe("App component", () => {
   it("renders magnificent monkeys", () => {
+    // since screen does not have the container property, we'll destructure render to obtain container for this test
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });
@@ -125,8 +126,6 @@ describe("App component", () => {
 ~~~
 
 The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. 
-
-What's this `screen` object? `screen` is another utility that React Testing Library provides. It has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
 It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` jest function could prove handy.
 
