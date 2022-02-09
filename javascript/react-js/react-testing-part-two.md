@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is Mocking?
 
-If you've been following along our lessons, the concept of mocking has already been introduced in the earlier section and you might have even incorporated mocks in your [Battleship](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship) project. Let's look at how mocks'll help in testing React components.
+If you've been following along our lessons, the concept of mocking has already been introduced in the earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of this course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship). Let's look at how mocks'll help in testing React components.
 
 #### Testing Callback Handlers
 
@@ -85,7 +85,7 @@ describe("Favorite Input", () => {
 Three tests and we are done with this component. Take some time to figure out what functions come from which package. 
 We mock the `onChange` handler using one of jest features, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show what other ways we could've tested the component.   
 
-But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting real long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
+But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
 
 #### Mocking Child Components
 
