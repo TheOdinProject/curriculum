@@ -3,12 +3,12 @@ require 'rails_helper'
 RSpec.describe User::AvatarComponent, type: :component do
   context 'when the user has an avatar' do
     it 'renders the users avatar' do
-      user = create(:user, avatar: 'avatar.png')
+      user = create(:user, avatar: 'http://github/avatar.png')
       component = described_class.new(current_user: user, classes: 'w-12')
 
       render_inline(component)
 
-      expect(rendered_component).to have_css("img[src*='avatar.png']")
+      expect(rendered_component).to have_selector("img[src*='http://github/avatar.png']")
     end
   end
 
