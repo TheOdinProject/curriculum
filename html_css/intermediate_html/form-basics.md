@@ -391,7 +391,7 @@ To create a generic button, we use the button element with a `type` attribute of
 <button type="button">Click to Toggle</button>
 ~~~
 
-**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified.
+**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
 
 ### Organizing Form Elements
 
