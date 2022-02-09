@@ -363,7 +363,7 @@ The button element also accepts a `type` attribute that tells the browser which 
 
 **Submit Buttons**
 
-Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has value of submit by default, i.e if the `type` attribute is not specified of the value provided is invalid.
+Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has value of submit by default, i.e if the `type` is not specified or the value provided is invalid.
 
 To create a submit button, we use the button element with a `type` attribute of "submit":
 
