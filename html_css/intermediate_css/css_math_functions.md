@@ -61,7 +61,7 @@ I encourage you to take a moment and edit the codepen. Play around with the diff
 
 #### min()
 
-`min()` does an excellent job of helping us create responsive websites. Take a look at this example:
+`min()` does an excellent job of helping us create responsive websites. It selects the smallest value from within the parentheses. Take a look at this example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/RwLaLay">
