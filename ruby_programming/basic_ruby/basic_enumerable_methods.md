@@ -420,7 +420,7 @@ invited_friends(friends)
   1. Read through the Ruby Explained article on [Map, Select, and Other Enumerable Methods](https://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods).
   2. Follow along with this [How to Use The Ruby Map Method](https://www.rubyguides.com/2018/10/ruby-map-method/) tutorial from Ruby Guides.
   3. Follow along with this [Reducing Enumerable](https://medium.com/@baweaver/reducing-enumerable-part-one-the-journey-begins-ddc1d4108490) article by Brandon Weaver.
-  4. Complete the [basic enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+  4. Complete the [basic enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
 ### Additional Resources
