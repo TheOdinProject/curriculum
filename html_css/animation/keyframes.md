@@ -124,7 +124,6 @@ Hopefully this gives you a glimpse into the power the `@keyframes` syntax provid
 Now let's make some cool animations! Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do the exercises in the 'animation' folder in this order:
 
 1. button-hover
-2. drop-down
 3. pop-up
 
 ### Knowledge Check
