@@ -70,3 +70,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - For a deeper explanation of MVC you could read [this article from freeCodeCamp](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30).
+- This [crash course video](https://www.youtube.com/watch?v=DZBGEVgL2eE) from Web Dev Simplified gives a run-down of how you should expect to use MongoDB (Mongoose) in Node.js, as well as some advanced things you can do with object schemas.

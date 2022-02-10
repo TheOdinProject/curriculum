@@ -3,7 +3,7 @@ In previous lessons, you learned about loops as well as arrays and hashes. You w
 
 **Enumerables** are a set of convenient built-in methods in Ruby that are included as part of both arrays and hashes. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else the [Enumerable module](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-3.0.3/) to see what else the [Enumerable module](https://ruby-doc.org/core-3.0.3/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
@@ -191,7 +191,7 @@ friends.map { |friend| friend.upcase }
 
 We're back down to two lines of code, baby! Isn't it beautiful?
 
-Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://ruby-doc.org/core-2.6.1/String.html#method-i-gsub), that's easy peasy:
+Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://ruby-doc.org/core-3.0.3/String.html#method-i-gsub), that's easy peasy:
 
 ~~~ruby
 my_order = ['medium Big Mac', 'medium fries', 'medium milkshake']
@@ -333,7 +333,7 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 
  1. Iteration 0:
     * result = {}
-    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] = 0` and `result["St. Mark's Bistro"] = 0`
+    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] == 0` and `result["St. Mark's Bistro"] == 0`
  2. Iteration 1:
     * The method runs `result["Bob's Dirty Burger Shack"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 1}
@@ -428,7 +428,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
-* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.7.1/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Enumerable.html).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

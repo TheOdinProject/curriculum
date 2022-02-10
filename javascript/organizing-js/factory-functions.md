@@ -57,30 +57,30 @@ const jeff = new Person('jeff', 27);
 A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:
 
 ~~~javascript
-return {name: name, age: age, sayHello: sayHello}
+return {name: name, age: age, sayHello: sayHello};
 ~~~
 
 Put simply, if you are creating an object where you are referring to a variable that has the exact same name as the object property you're creating, you can condense it like so:
 
 ~~~javascript
-return {name, age, sayHello}
+return {name, age, sayHello};
 ~~~
 
 With that knowledge in your pocket, check out this little hack:
 
 ~~~javascript
-const name = "Maynard"
-const color = "red"
-const number = 34
-const food = "rice"
+const name = "Maynard";
+const color = "red";
+const number = 34;
+const food = "rice";
 
 // logging all of these variables might be a useful thing to do,
 // but doing it like this can be somewhat confusing.
-console.log(name, color, number, food) // Maynard red 34 rice
+console.log(name, color, number, food); // Maynard red 34 rice
 
 // if you simply turn them into an object with brackets,
 // the output is much easier to decipher:
-console.log({name, color, number, food})
+console.log({name, color, number, food});
  // { name: 'Maynard', color: 'red', number: 34, food: 'rice' }
 ~~~
 
@@ -194,7 +194,7 @@ const Player = (name, level) => {
       console.log(`${name} has damaged ${enemy.getName()}`);
     }
   };
-  return {attack, damage, getLevel, getName}
+  return {attack, damage, getLevel, getName};
 };
 
 const jimmie = Player('jim', 10);
@@ -212,30 +212,30 @@ In the constructors lesson, we looked fairly deeply into the concept of prototyp
 
 ~~~javascript
 const Person = (name) => {
-  const sayName = () => console.log(`my name is ${name}`)
-  return {sayName}
+  const sayName = () => console.log(`my name is ${name}`);
+  return {sayName};
 }
 
 const Nerd = (name) => {
   // simply create a person and pull out the sayName function with destructuring assignment syntax!
-  const {sayName} = Person(name)
-  const doSomethingNerdy = () => console.log('nerd stuff')
-  return {sayName, doSomethingNerdy}
+  const {sayName} = Person(name);
+  const doSomethingNerdy = () => console.log('nerd stuff');
+  return {sayName, doSomethingNerdy};
 }
 
-const jeff = Nerd('jeff')
+const jeff = Nerd('jeff');
 
-jeff.sayName() //my name is jeff
-jeff.doSomethingNerdy() // nerd stuff
+jeff.sayName(); //my name is jeff
+jeff.doSomethingNerdy(); // nerd stuff
 ~~~
 
 This pattern is _great_ because it allows you to pick and choose which functions you want to include in your new object. If you want to go ahead and lump ALL of another object in, you can certainly do that as well with `Object.assign` (read the docs for that one [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)).
 
 ~~~javascript
 const Nerd = (name) => {
-  const prototype = Person(name)
-  const doSomethingNerdy = () => console.log('nerd stuff')
-  return Object.assign({}, prototype, {doSomethingNerdy})
+  const prototype = Person(name);
+  const doSomethingNerdy = () => console.log('nerd stuff');
+  return Object.assign({}, prototype, {doSomethingNerdy});
 }
 ~~~
 
@@ -263,9 +263,9 @@ const calculator = (() => {
   };
 })();
 
-calculator.add(3,5) // 8
-calculator.sub(6,2) // 4
-calculator.mul(14,5534) // 77476
+calculator.add(3,5); // 8
+calculator.sub(6,2); // 4
+calculator.mul(14,5534); // 77476
 ~~~
 
 The concepts are exactly the same as the factory function. However, instead of creating a factory that we can use over and over again to create multiple objects, the module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).

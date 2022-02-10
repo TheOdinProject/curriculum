@@ -42,16 +42,18 @@ This lesson includes recommendations, not the "right" or "wrong" way of using Fl
 
 ### Assignments
 <div class="lesson-content__panel" markdown="1">
-1. If you haven't already, read through the previously mentioned [article by CSS-Tricks](https://css-tricks.com/css-grid-replace-flexbox/
+
+1. If you haven't already, read through the previously mentioned [article by CSS-Tricks](https://css-tricks.com/css-grid-replace-flexbox/)
 
 2. To look at many different use cases for Grid, have a look at [this video by Wes Bos](https://www.youtube.com/watch?v=HYji_V2aYa0)
 
 3. To gain some more insight on when to use Grid or Flexbox and why, read through this [article](https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184)
+</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* MDN wrote an in-depth article on the relationship between Grid and other layout methods [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
+- MDN wrote an in-depth article on the relationship between Grid and other layout methods [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

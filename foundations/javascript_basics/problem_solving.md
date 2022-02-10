@@ -20,7 +20,7 @@ In this lesson we will walk through a few techniques that can be used to help wi
 By the end of this lesson, you should be able to do the following:
 
 * Explain the three steps in the problem solving process.
-* Explain what pseudo code is and be able to use it to solve problems.
+* Explain what pseudocode is and be able to use it to solve problems.
 * Be able to break a problem down into subproblems.
 
 ### Understand the Problem
@@ -39,12 +39,12 @@ Some of the questions you should answer at this stage of the process:
 * What's the desired output?
 * Given your inputs, what are the steps necessary to return the desired output?
 
-The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.</span>
+The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
 
-### Pseudo Code
-<span id="pseudo">Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
+### Pseudocode
+<span id="pseudo">Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
-Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
+Here's an example of what the pseudocode for a simple program that prints all numbers up to an inputted number might look like:
 
 ~~~
 When the user inputs a number
@@ -53,7 +53,7 @@ While counter is smaller than user inputted number increment the counter by one
 Print the value of the counter variable
 ~~~
 
-This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
+This is a very simple program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
 
 ### Divide and Conquer
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
@@ -85,7 +85,7 @@ What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
 Given your inputs, what are the steps necessary to return the desired output?
-The algorithm in pseudo code for this problem:
+The algorithm in pseudocode for this problem:
 
 ~~~
 When a user inputs a number
@@ -233,7 +233,7 @@ Buzz
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
   2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
-  3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
+  3. Read this [What is Pseudocoding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 </div>
 
 ### Additional Resources
@@ -250,5 +250,5 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
 * <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
 * <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
-* <a class="knowledge-check-link" href="#pseudo">What is pseudo code?</a>
+* <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
 * <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>

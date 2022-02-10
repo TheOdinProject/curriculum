@@ -16,7 +16,7 @@ After completing this tutorial, you will be able to:
 
 <div class="note">
 <p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
+  please <a href="https://github.com/TheOdinProject/curriculum/blob/main/ruby_programming/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
 </div>
 
 ### What We're Doing in This Tutorial
@@ -86,13 +86,13 @@ If this happens, make sure the correct directory exists and try creating the fil
 
 For this project we are going to use the following sample data:
 
-* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees.csv)
-* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/master/ruby_programming/files_and_serialization/event_attendees_full.csv)
+* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby_programming/files_and_serialization/event_attendees.csv)
+* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby_programming/files_and_serialization/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
 ~~~bash
-$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees.csv
+$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby_programming/files_and_serialization/event_attendees.csv
 ~~~
 
 After the file is downloaded, you should see something like:
@@ -438,7 +438,7 @@ solve the second issue and the third issue.
 
 * Some zip codes are represented with fewer than five digits
 
-If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/master/ruby_programming/files_and_serialization/event_attendees_full.csv), we would
+If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby_programming/files_and_serialization/event_attendees_full.csv), we would
 see that the majority of the shorter zip codes are from states in the 
 north-eastern part of the United States. Many zip codes there start with 0. This
 data was likely stored in the database as an integer, and not as text, which 
@@ -845,7 +845,7 @@ $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ~~~
 
-What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-2.2.0/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
+What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://ruby-doc.org/core-3.0.3/Exception.html).  We can add a `begin` and `rescue` clause to the API search to handle any errors.
 
 ~~~ruby
 require 'csv'
@@ -901,7 +901,7 @@ name and last name. We will need to complete the following steps:
 * For each legislator, we want to find the representative's name.
 * Add the name to a new collection of names.
 
-To do this, we can use the [map](https://ruby-doc.org/core-2.2.0/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
+To do this, we can use the [map](https://ruby-doc.org/core-3.0.3/Array.html#method-i-map) function built into ruby.  It works just like `.each` but returns a new array of the data we want to include.
 
 ~~~ruby
 legislator_names = legislators.map do |legislator|
@@ -1547,7 +1547,7 @@ Interesting!
 
 Using the registration date and time we want to find out what the peak registration hours are.
 
-* Ruby has [Date](https://rubyapi.org/2.7/o/date) and [Time](https://rubyapi.org/2.7/o/time) classes that will be very useful for this task.
+* Ruby has [Date](https://rubyapi.org/3.0/o/date) and [Time](https://rubyapi.org/3.0/o/time) classes that will be very useful for this task.
 
 * For a quick overview, check out this [Ruby Guides](https://www.rubyguides.com/2015/12/ruby-time/) article. 
 
@@ -1560,4 +1560,4 @@ looks like there are some hours that are clearly more important than others.
 But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
-* Use [Date#wday](https://rubyapi.org/2.7/o/date#method-i-wday) to find out the day of the week.
+* Use [Date#wday](https://rubyapi.org/3.0/o/date#method-i-wday) to find out the day of the week.

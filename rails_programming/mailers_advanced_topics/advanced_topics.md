@@ -5,25 +5,12 @@ There are some topics that we just haven't had a chance to get into yet but will
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* When do you need to use a singular Resource vs a plural Resources in your router?
-* What is the "missing" route when using a singular Resource? (there are only 6 when you `$ rake routes`)  What else is missing from many of the other routes?
-* Why would you use nested routes?
-* What order do you specify their respective IDs? What are they called in `params`?
-* Why might you use a "member" route?
-* How are "member" and "collection" routes incredibly similar?  Slightly different?
-* How do you set up a redirect route that also passes along any parameters?
-* How do you name a route using an alias?
-* Why might you want to use nested or multiple layouts?
-* How would you (roughly) go about implementing this?
-* How can you pass variables between your layouts?
-* How do you `#yield` to `#content_for` content?
+* What are singular resources?
+* What are nested routes?
+* What are member routes and collection routes?
+* What is nesting layouts?
 * What is metaprogramming?
-* How do you use the `#send` method to run a method?
-* How do you create a new method on the fly?
-* When does Ruby call the `#method_missing` method?
-* How can you use `#method_missing` to your advantage?
-* What are Design Patterns?
-* What are the SOLID principles?
+* What are design patterns?
 
 ### Advanced Routing
 
@@ -98,7 +85,7 @@ If this seems a bit confusing at first, you'll pick it up quickly when you actua
 
 #### Member and Collection Routes
 
-Sometimes you want to add another non-RESTful route to a resource.  If you'd like to add a route to just a single member of that resource, use the `#member` method:
+Sometimes you want to add another non-RESTful route to a resource. If you'd like to add a route to just a single member of that resource, use the `#member` method:
 
 ~~~ruby
   # config/routes.rb
@@ -316,3 +303,14 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
 * [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#singular-resources">What would the routes file line for a singular resource look like?</a>
+* <a class="knowledge-check-link" href="#nested-routes">How do you nest one resource inside another in the routes file?</a>
+* <a class="knowledge-check-link" href="#member-and-collection-routes">When do you use the `#member` method?</a>
+* <a class="knowledge-check-link" href="#redirects-and-wildcard-routes">When do you use a redirect?</a>
+* <a class="knowledge-check-link" href="#advanced-layouts-nesting-layouts-and-passing-information">What are some techniques for rendering multiple layouts for one page?</a>
+* <a class="knowledge-check-link" href="#metaprogramming-rails">What does the `#send` method do?</a>
+* <a class="knowledge-check-link" href="#design-patterns">What are the five design principles represented by the SOLID acronym?</a>

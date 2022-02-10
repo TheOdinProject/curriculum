@@ -30,9 +30,9 @@ One thing to note is that in this example, `flex-direction: column` would not wo
 
 The reason for this is that the <span id='row-flex-basis'> flex shorthand expands `flex-basis` to `0`, which means that all `flex-grow`ing and `flex-shrink`ing would begin their calculations from `0`.</span> Empty divs by default have 0 height, so for our flex items to fill up the height of their container, they don't actually need to have any height at all.
 
-The example above fixed this by specifying `flex: 1 1 auto`, telling the flex items to default to their given `height`. We could also have fixed it by putting a height on the `.flex-container`, or by using `flex-grow: 1` instead of the shorthand.
+The example above fixed this by specifying `flex: 1 1 auto`, telling the flex items to default to their given `height`. We could also have fixed it by putting a height on the parent `.flex-container`, or by using `flex-grow: 1` instead of the shorthand.
 
-Another detail to notice: when we changed the <span id='column-flex-basis'>flex-direction to `column`, `flex-basis` referred to `height` instead of `width`.</span> Given the context this may be obvious, but it's something to be aware of.
+Another detail to notice: when we changed the <span id='column-flex-basis'>flex-direction to `column`, `flex-basis` refers to `height` instead of `width`.</span> Given the context this may be obvious, but it's something to be aware of.
 
 We've strayed from the point slightly... We were talking about flex-direction and axes. To bring it back home, the default behavior is `flex-direction: row` which arranges things horizontally. The reason this often works well without changing other details in the CSS is because block-level elements default to the full width of their parent. Changing things to vertical using `flex-direction: column` adds complexity because block-level elements default to the height of their content, and in this case there _is_ no content.
 

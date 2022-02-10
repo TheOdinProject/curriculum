@@ -7,6 +7,8 @@ If you would like to contribute, but are not sure how, find an [issue tagged wit
 * Please comment on the issue stating what you'd like to work on and wait to be assigned before working on it.
 * After being assigned, address each item listed in the acceptance criteria.
 
+Feel free to use [this markdown cheatsheet](https://github.com/tchapi/markdown-cheatsheet) if you are unfamiliar with the markdown syntax.
+
 If you would like to propose a small change (fixing a typo, updating a link, etc.) that is not part of an existing issue, you are welcome to make the change and submit a PR.
 
 If you would like to propose a change that is not covered in an open issue, please start by creating a new issue or discussing this in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
@@ -38,7 +40,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 	$ git checkout -b fix/fixed-bug-name
 	```
 
-3. When you have finished, ensure your markdown is correctly formatted and rendering properly using our [markdown preview](https://www.theodinproject.com/lessons/preview) tool.
+3. When you have finished, commit your latest changes and ensure your markdown is correctly formatted and rendering properly using our [markdown preview](https://www.theodinproject.com/lessons/preview) tool.
 
 4. If the markdown is correctly formatted, you are ready to submit a pull request:
 
@@ -55,7 +57,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 
 	* Describe the changes in detail and explain why you think they are necessary and/or important.
 
-	* If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) and reference it with the `#` sign and the issue number. For example: "resolves #1234".
+	* If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) and reference it with the `#` sign and the issue number. For example: "resolves #1234".
 
 	* If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
 

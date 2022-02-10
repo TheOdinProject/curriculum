@@ -96,7 +96,7 @@ To pull it all together, let's write a simple module and then include it in our 
 └── webpack.config.js
 ~~~
 
-In addition, you should be able to bundle and run webpack by simply typing `npx webpack` in the terminal.
+In addition, you should be able to bundle and run webpack by simply typing `npx webpack`in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
 
 Add a new file to the `src` directory called `myName.js` with the following contents:
 
@@ -116,7 +116,7 @@ function component() {
   const element = document.createElement('div');
 
   // use your function!
-  element.innerHTML = myName('Cody');
+  element.textContent = myName('Cody');
   return element;
 }
 
@@ -158,7 +158,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://docs.npmjs.com/downloading-and-installing-packages-locally">Know how to install packages using npm.</a>
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe what a JavaScript module bundler like webpack is.</a>
 - <a class="knowledge-check-link" href="#webpack-knowledge-check">Explain what the concepts "entry" and "output" mean as relates to webpack.</a>
-- <a class="knowledge-check-link" href="https://webpack.js.org/concepts/dependency-graph/">Briefly explain what a development dependency is.</a>
+- <a class="knowledge-check-link" href="https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege">Briefly explain what a development dependency is.</a>
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what "transpiling code" means and how it relates to frontend development.</a>
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Briefly describe what a task runner is and how it's used in frontend development.</a>
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe how to write an npm automation script.</a>

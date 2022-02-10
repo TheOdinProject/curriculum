@@ -32,12 +32,12 @@ The actual technical definition of REST is a little complicated (you can read ab
 REST APIs are resource based, which basically means that instead of having names like `/getPostComments` or `/savePostInDatabase` we refer **directly to the resource** (in this case, the blog post) and use HTTP verbs such as GET, POST, PUT, and DELETE to determine the action.
 Typically this takes the form of 2 URI's per resource, one for the whole collection and one for a single object in that collection, for example, you might get a list of blog-posts from `/posts` and then get a specific post from `/posts/:postid`. You can also nest collections in this way. To get the list of comments on a single post you would access `/posts/:postid/comments` and then to get a single comment: `/posts/:postid/comments/:commentid`. Below are some other simple examples of endpoints you could have.
 
-| Verb   | Action | Example                                    |
-| ------ | ------ | ------------------------------------------ |
-| POST   | Create | `POST /posts` Creates a new blog post      |
-| GET    | Read   | `GET /posts/:postid` Fetches a single post |
-| PUT    | Update | `PUT /posts/:postid` Updates a single post |
-| DELETE | Delete | `DELETE /posts` Deletes a single post      |
+| Verb   | Action | Example                                            |
+| ------ | ------ | -------------------------------------------------- |
+| POST   | Create | `POST /posts` Creates a new blog post              |
+| GET    | Read   | `GET /posts/:postid` Fetches a single post         |
+| PUT    | Update | `PUT /posts/:postid` Updates a single post         |
+| DELETE | Delete | `DELETE /posts/:postid` Deletes a single post      |
 
 Each part of an API URI specifies the resource. For example, `GET /posts` would return the entire list of blog posts while `GET /posts/:postid` specifies the exact blog post we want. We could nest further with `GET /posts/:postid/comments` to return a list of comments for that blog post or even `GET /posts/:id/comments/:commentid` for a very specific blog post comment.
 

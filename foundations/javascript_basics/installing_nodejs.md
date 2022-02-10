@@ -2,7 +2,7 @@
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
 
-We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two so read carefully!
+We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two, so read carefully!
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
@@ -23,14 +23,14 @@ sudo apt install curl
 Simply run this command:
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ~~~
 
 This will install `nvm`
 
 #### Step 2: Initializing `nvm`
 
-In the terminal there should be some directions on how to initialize `nvm`, if not, (or if you don't feel like copying from the terminal), run these commands:
+In the terminal there should be some directions on how to initialize `nvm`. If not, (or if you don't feel like copying from the terminal), run these commands:
 
 ~~~bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -43,7 +43,7 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ~~~
 
-if this returns `nvm: command not found` close the terminal and re-open it.
+if this returns `nvm: command not found`, close the terminal and re-open it.
 
 </details>
 
@@ -60,7 +60,7 @@ touch ~/.zshrc
 ~~~
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ~~~
 
 Restart your terminal, or copy and paste the following into your terminal and press enter: 
@@ -103,14 +103,14 @@ If not, close the terminal, re-open it and run `nvm install --lts` again.
 
 #### Step 2: Setting the Node Version
 
-We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy, just run the following command:
+We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy; just run the following command:
 
 ~~~bash
 nvm use --lts
 ~~~
 
-We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilites with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
+We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
 
-Now when you run `node -v` you should see `v16.xx.x` or something similar. 
+Now when you run `node -v`, you should see `v16.xx.x` or something similar. 
 
 If you see that, you have successfully installed Node!

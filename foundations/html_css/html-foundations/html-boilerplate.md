@@ -43,9 +43,13 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 </html>
 ~~~
+
+#### What is the `lang` attribute? 
+
+`lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
 ### Head Element
 
@@ -75,7 +79,7 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 ~~~html
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -91,7 +95,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -106,10 +110,13 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 
 The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
-1. You can drag and drop an HTML file from your text editor into the address bar of your favorite browser.
+> A note:
+> In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.  
+
+1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 3. You can use the terminal to open the file in your browser.
-   * `Ubuntu` - Navigate to the directory containing the file and use `firefox index.html` or `google-chrome index.html`
+   * `Ubuntu` - Navigate to the directory containing the file and use `google-chrome index.html`
    * `macOS` - Navigate to the directory containing the file and use `open ./index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
@@ -118,7 +125,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
@@ -148,8 +155,9 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding)
+- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
+- If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

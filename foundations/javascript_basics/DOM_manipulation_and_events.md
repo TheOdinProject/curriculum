@@ -41,13 +41,13 @@ You can also use relational selectors \(i.e. `firstElementChild` or `lastElement
 
 ~~~JavaScript
 const container = document.querySelector('#container');
-// select the #container div (don't worry about the syntax, we'll get there)
+// selects the #container div (don't worry about the syntax, we'll get there)
 
 console.dir(container.firstElementChild);                      
-// select the first child of #container => .display
+// selects the first child of #container => .display
 
 const controls = document.querySelector('.controls');   
-// select the .controls div
+// selects the .controls div
 
 console.dir(controls.previousElementSibling);                  
 // selects the prior sibling => .display
@@ -61,7 +61,7 @@ When your HTML code is parsed by a web browser, it is converted to the DOM as wa
 
 #### Query Selectors
 
-* _element_.querySelector\(_selector_\) returns reference to the first match of _selector_
+* _element_.querySelector\(_selector_\) returns a reference to the first match of _selector_
 * _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
 
 \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
@@ -76,7 +76,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 const div = document.createElement('div');
 ~~~
 
-This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
+This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text, etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
 #### Append Elements
 
@@ -85,7 +85,7 @@ This function does NOT put your new element into the DOM - it simply creates it 
 
 #### Remove Elements
 
-* _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns reference to _child_
+* _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns a reference to _child_
 
 #### Altering Elements
 
@@ -93,7 +93,7 @@ When you have a reference to an element, you can use that reference to alter the
 
 ~~~JavaScript
 const div = document.createElement('div');                     
-// create a new div referenced in the variable 'div'
+// creates a new div referenced in the variable 'div'
 ~~~
 
 #### Adding inline style
@@ -111,11 +111,11 @@ div.setAttribute('style', 'color: blue; background: white');
 
 See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
 
-Note that if you're accessing a kebab-cased css rule from JS, you'll either need to use camelcase or you'll need to use bracket notation instead of dot notation.
+Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need to use camelCase or you'll need to use bracket notation instead of dot notation.
 
 ~~~JavaScript
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
-div.style.backgroundColor // accesses the divs background-color style
+div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
 div.style.cssText = "background-color: white" // ok in a string
 ~~~
@@ -124,7 +124,7 @@ div.style.cssText = "background-color: white" // ok in a string
 
 ~~~JavaScript
 div.setAttribute('id', 'theDiv');                              
-// if id exists update it to 'theDiv' else create an id
+// if id exists, update it to 'theDiv', else create an id
 // with value "theDiv"
 
 div.getAttribute('id');                                        
@@ -135,7 +135,7 @@ div.removeAttribute('id');
 // removes specified attribute
 ~~~
 
-See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
+See MDN's section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
 #### Working with classes
 
@@ -144,14 +144,14 @@ div.classList.add('new');
 // adds class "new" to your new div
 
 div.classList.remove('new');                                   
-// remove "new" class from div
+// removes "new" class from div
 
 div.classList.toggle('active');                                
 // if div doesn't have class "active" then add it, or if
 // it does, then remove it
 ~~~
 
-It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
+It is often standard \(and cleaner\) to toggle a CSS style rather than adding and removing inline CSS.
 
 #### Adding text content
 
@@ -165,7 +165,7 @@ div.textContent = 'Hello World!'
 
 ~~~JavaScript
 div.innerHTML = '<span>Hello World!</span>';                   
-// renders the html inside div
+// renders the HTML inside div
 ~~~
 
 \*_Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused. Check out [this video](https://www.youtube.com/watch?v=ns1LX6mEvyM&ab_channel=WebDevSimplified) if you want to see an example of how._
@@ -173,7 +173,7 @@ div.innerHTML = '<span>Hello World!</span>';
 Let's take a minute to review what we've covered and give you a chance to practice this stuff before moving on.  Check out this example of creating and appending a DOM element to a webpage.
 
 ~~~html
-<!-- your html file: -->
+<!-- your HTML file: -->
 <body>
   <h1>
     THE TITLE OF YOUR WEBPAGE
@@ -183,7 +183,7 @@ Let's take a minute to review what we've covered and give you a chance to practi
 ~~~
 
 ~~~javascript
-// your javascript file
+// your JavaScript file
 const container = document.querySelector('#container');
 
 const content = document.createElement('div');
@@ -226,16 +226,16 @@ Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your 
 
 ### Exercise
 
-Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your javascript file, or put the javascript into a script tag on the page.  Make sure everything is working before moving on!
+Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your JavaScript file, or put the JavaScript into a script tag on the page.  Make sure everything is working before moving on!
 
-Add the following elements to the container using ONLY javascript and the DOM methods shown above.
+Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
 
 1. a `<p>` with red text that says "Hey I'm red!"
 2. an `<h3>` with blue text that says  "I'm a blue h3!"
 3. a `<div>` with a black border and pink background color with the following elements inside of it:
    1. another `<h1>` that says "I'm in a div"
    2. a `<p>` that says "ME TOO!"
-   3. Hint for this one: after creating the div with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+   3. Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
 
 ### Events
 
@@ -256,7 +256,7 @@ This solution is less than ideal because we're cluttering our HTML with JavaScri
 #### method 2
 
 ~~~HTML
-<!-- the html file -->
+<!-- the HTML file -->
 <button id="btn">Click Me</button>
 ~~~
 
@@ -273,7 +273,7 @@ This is a little better. We've moved the JS out of the HTML and into a JS file, 
 #### method 3
 
 ~~~html
-<!-- the html file -->
+<!-- the HTML file -->
 <button id="btn">Click Me Too</button>
 ~~~
 
@@ -290,7 +290,7 @@ Now, we maintain separation of concerns, and we also allow multiple event listen
 Note that all 3 of these methods can be used with named functions like so:
 
 ~~~html
-<!-- the html file -->
+<!-- the HTML file -->
 <!-- METHOD 1 -->
 <button onclick="alertFunction()">CLICK ME BABY</button>
 ~~~
@@ -336,11 +336,11 @@ btn.addEventListener('click', function (e) {
 });
 ~~~
 
-pretty cool eh?
+Pretty cool, eh?
 
 #### Attaching listeners to groups of nodes
 
-This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
+This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
 
 ~~~HTML
 <div id="container">
@@ -380,7 +380,7 @@ You can find a more complete list with explanations of each event on [this page]
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
-1. Do the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project.  
+1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
 2. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 ### Additional Resources
@@ -391,9 +391,9 @@ This section contains helpful links to other content. It isn't required, so cons
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
 * [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
-* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on DOM.
+* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
 * [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
-* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by Digital Ocean.
+* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
@@ -405,7 +405,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#remove-elements">How do you remove an element from the DOM?</a>
 * <a class="knowledge-check-link" href="#altering-elements">How can you alter an element in the DOM?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
-* <a class="knowledge-check-link" href="#important-note">Where should you include your Javascript tag in your HTML file when working with DOM nodes?</a>
+* <a class="knowledge-check-link" href="#important-note">Where should you include your JavaScript tag in your HTML file when working with DOM nodes?</a>
 * <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
 * <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
 * <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>

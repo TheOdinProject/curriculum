@@ -20,7 +20,7 @@ Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to
 The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users.
 Back-end developers use programming languages like Java, Python, and Ruby to work with data.
 
-**Full-stack developers** are comfortable working with both the front and back ends. In The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
+**Full-stack developers** are comfortable working with both the front and back ends. At The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
 
 For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
@@ -98,6 +98,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
 * [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
 * [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
-* [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/): it's okay if it's really frustrating.
+* [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
 * [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
-* [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
+* [Roadmap to becoming a web developer in 2022](https://github.com/kamranahmedse/developer-roadmap)
