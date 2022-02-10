@@ -165,13 +165,15 @@ Before you begin working on anything, make sure you follow these steps in order 
 
 Once you have the repo forked and cloned, and the upstream remote has been set, you can begin working on your issue:
 
-1. Create a new branch, replacing the `<your branch name>` with an actual branch name:
+1. Create a new branch, replacing the `<your branch name>` with an actual branch name that briefly explains the purpose of the branch in some way:
 
     ```bash
     git checkout -b <your branch name>
     
-    # An example:
-    git checkout -b flex_exercises
+    # Some examples:
+    git checkout -b flex_exercise_hints
+    git checkout -b knowledge_check_updates
+    git checkout -b fix_link_text
     ```
 
 2. Add commits as you work on your issue, replacing the `<your commit message>` text with your actual commit message:
