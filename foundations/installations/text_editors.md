@@ -20,3 +20,6 @@ As a reminder, if you're using a **virtual machine**, you should install your te
 
   1. Familiarizing yourself with VSCode will allow you to save time and become more productive. Learn the basics of using this text editor by watching [these introductory videos](https://code.visualstudio.com/docs/introvideos/basics). Watch only the first video as the second involves installing Node.js which will not be needed at this stage.
 </div>
+
+### Additional resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
