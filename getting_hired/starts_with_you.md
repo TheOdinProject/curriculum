@@ -1,6 +1,6 @@
 ### Introduction
 
-This lesson is all about getting YOUR shit together because if you don't understand yourself then you won't be happy with where you end up.  Take a minute to think inwards, it's worth it.
+This lesson is all about self-assessment and goal-setting. If you don't understand yourself, you won't be happy with where you end up.  Taking some time to introspect can make the process of getting hired a more manageable and strategic process.
 
 ### Where You Are Now
 
