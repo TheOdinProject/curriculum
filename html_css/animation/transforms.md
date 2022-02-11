@@ -144,7 +144,7 @@ There are two boxes located at the same position. We chained `rotate` and `trans
 
 If you guessed correctly, congratulations! But this is a tricky concept. There is a bit of debate on how to read a chain of transform functions. According to [MDN's transform docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values): "The transform functions are multiplied in order from left to right, meaning that composite transforms are effectively applied in order from right to left."
 
-To learn more about the "left to right" vs "right to left" interpretations, check out this visual article on [chaining transforms.](https://codepen.io/bali_balo/post/chaining-transforms).
+To learn more about the "left to right" vs "right to left" interpretations, check out this visual article on [chaining transforms](https://codepen.io/bali_balo/post/chaining-transforms).
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
