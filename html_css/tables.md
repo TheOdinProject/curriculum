@@ -18,6 +18,6 @@ Tables used to be pretty much the only game in town -- when you had data of any 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [An older tutorial on Tables from HTML Goodies](http://www.htmlgoodies.com/tutorials/tables/article.php/3479851)

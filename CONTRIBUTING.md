@@ -1,10 +1,13 @@
 # Contributing Guide
 
 Thank you for expressing interest in contributing to our curriculum!
+Please also ensure you carefully read everything here: https://github.com/TheOdinProject/curriculum/wiki
 
 If you would like to contribute, but are not sure how, find an [issue tagged with "help wanted"](https://github.com/TheOdinProject/theodinproject/labels/Help%20Wanted) to work on.
-* Please comment on the issue stating what you'd like to work on and wait to be assigned before working on it. 
-* After being assigned, address each item listed in the acceptance criteria. 
+* Please comment on the issue stating what you'd like to work on and wait to be assigned before working on it.
+* After being assigned, address each item listed in the acceptance criteria.
+
+Feel free to use [this markdown cheatsheet](https://github.com/tchapi/markdown-cheatsheet) if you are unfamiliar with the markdown syntax.
 
 If you would like to propose a small change (fixing a typo, updating a link, etc.) that is not part of an existing issue, you are welcome to make the change and submit a PR.
 
@@ -37,7 +40,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 	$ git checkout -b fix/fixed-bug-name
 	```
 
-3. When you have finished, ensure your markdown is correctly formatted and rendering properly using our [markdown preview](https://www.theodinproject.com/lessons/preview) tool.
+3. When you have finished, commit your latest changes and ensure your markdown is correctly formatted and rendering properly using our [markdown preview](https://www.theodinproject.com/lessons/preview) tool.
 
 4. If the markdown is correctly formatted, you are ready to submit a pull request:
 
@@ -48,9 +51,15 @@ If you would like to propose a change that is not covered in an open issue, plea
 	**Create a pull request**
 	* Go to your fork on Github after you have pushed up your branch. A new button should be visible near the top of the page. It will allow you to create a pull request to the original Odin Project repo.
 
-	* Summarize the change in the pull request title, so that anyone can skim through our open pull requests to prevent making a duplicate PR. As a general guideline, the title should summarize the change and where it happened, for example: "Fixes punctuation in Clean Code lesson", "Updates specificity link in CSS lesson", and "Adds code example to Ruby Variable lesson". 
+	* Please fill out the pull request template in its entirety.
 
-	* Fill out the pull request template in its entirety. Please describe the change in detail and explain why the change is necessary. If the PR is related to an existing issue, you should link the issue number in the PR, for example: "resolves #1234".
+	* Summarize the change in the pull request title, so that anyone can skim through our open pull requests to prevent making a duplicate PR. As a general guideline, the title should summarize the change and where it happened, for example: "Fixes punctuation in Clean Code lesson", "Updates specificity link in CSS lesson", and "Adds code example to Ruby Variable lesson".
+
+	* Describe the changes in detail and explain why you think they are necessary and/or important.
+
+	* If the PR is related to an open issue, use a [relevant keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) and reference it with the `#` sign and the issue number. For example: "resolves #1234".
+
+	* If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
 
 ## Need Help with Anything Here?
 Please let us know if you require any help doing any of the steps in this guide in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).

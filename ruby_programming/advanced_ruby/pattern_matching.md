@@ -2,11 +2,9 @@
 
 Introduced in Ruby 2.7, pattern matching uses specified patterns to match against some data. If the data conforms to the pattern there is a match and the data is deconstructed accordingly. If there is no match either you can supply a default value to return or else a `NoMatchingPatternError` is raised.
 
-With Ruby 3, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end.
+With Ruby 3.1, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end.
 
 If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortunately at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
-
-At the time of writing we still recommend Ruby 2.7 as Ruby 3 is quite new and it can take time for third party gems to update. You can install Ruby 3 and use the [rbenv local](https://github.com/rbenv/rbenv#rbenv-local) command to set rbenv only to Ruby 3 in the folder you create to test out any of the examples below. Alternatively you can just continue with Ruby 2.7, which will work for most of the examples, and then just read through the small section at the end on Ruby 3 patterns.
 
 ### Learning Outcomes
 
@@ -76,7 +74,7 @@ The case/in format is best used when there are multiple conditionals you could p
 
 ### Patterns
 
-There are multiple ways of potentially matching against an input. Patterns in Ruby 2.7 can be
+There are multiple ways of potentially matching against an input. Patterns can be
 
  - Any Ruby object which is matched using `===`. The Object Pattern.
  - A variable capture / Variable Pattern
@@ -86,7 +84,7 @@ There are multiple ways of potentially matching against an input. Patterns in Ru
  - An Array Pattern
  - A Hash Pattern
 
-With Ruby 3 you can use the above patterns while also having the following new additions
+You can use the above patterns while also having the following experimental additions
 
  - Rightward Assignment
  - A Find Pattern
@@ -272,7 +270,7 @@ in [Integer, Integer]
   puts :no_match
 end
 
-# => NoMatchingPatternError ([1, 2, 3])
+# => [1, 2, 3] (NoMatchingPatternError)
 ~~~
 
 An error! Ruby appears to only match against arrays with the same number of elements. What if you want to match against only part of an array? Use the trusty splat `*`
@@ -487,7 +485,7 @@ in { a: 'ant', **rest }
   p rest
 end
 
-# => { b: 'ball', c: 'cat' }
+# => { :b => "ball", :c => "cat" }
 ~~~
 
 Something to be mindful of with hashes is that because a hash will match with only a subset of keys matching, you need to guard against situations where you don't want that behaviour
@@ -527,7 +525,7 @@ end
 
 ### Ruby 3 patterns
 
-With Ruby 3 came a couple of new patterns. If you aren't using Ruby 3 at the time of writing you can install it if you like or just skim the below patterns and know they exist. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code.
+With Ruby 3 came a couple of new patterns. You may get a warning about these features being experimental and subject to change so they aren't yet considered ready for any production code.
 
 ### Rightward assignment.
 
@@ -652,3 +650,12 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
 </div>
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a> 
+- <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
+- <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
+- <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>

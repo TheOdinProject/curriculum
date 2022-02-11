@@ -11,15 +11,14 @@ If you open the routes file in your Rails app (located in `config/routes.rb`), y
 Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* What is the "Root" route?
-* What are the seven RESTful routes for a resource?
-* Which RESTful routes share the same URL but use different verbs?
-* How do you specify an ID or other variable in a route?
-* How can you easily write all seven RESTful routes in Rails?
-* How can you easily list out all the routes in your router?
-* What is the Rails helper method that creates the HTML for links?
+* Configure a root route.
+* Configure RESTful routes for a resource.
+* Configure customized routes for a resource.
+* Name and describe the 7 RESTful controller actions.
+* Obtain a list of all possible routes your current Rails application provides you with.
+* Apply helper methods to create a navigation link on your webpage.
 
 ### Root
 
@@ -191,7 +190,17 @@ You should have a good sense of what's going on in the routes file by now but pr
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
 * [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router">What is the purpose of the Rails router?</a>
+* <a class="knowledge-check-link" href="#root">How do you assign the root route of your application in the router?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">Assuming we have no knowledge of the HTTP-verb, which 3 RESTful controller actions could be triggered by the `/photos/:id` -route?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#restricting-the-routes-created">How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#path-and-url-helpers">How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?</a>
+* <a class="knowledge-check-link" href="https://youtu.be/Q-BpqyOT3a8?t=886">Which Chrome extension can you use to simulate HTTP-requests with an API?</a>

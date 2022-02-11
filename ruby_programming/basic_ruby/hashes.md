@@ -128,7 +128,7 @@ hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 
 Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
 
-For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.7.1/Hash.html)
+For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Hash.html)
 
 ### Symbols as Hash Keys
 In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:
@@ -167,18 +167,18 @@ japanese_cars[:honda]   #=> "Accord"
 
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. One of the delete examples is incorrect: deleting a key by setting its value to nil does not delete the key-value pair.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * What are the differences between hashes and arrays?
- * What are keys and values in a hash?
- * How can you create a new hash?
- * How can you populate a hash with data?
- * How can you change existing values within a hash?
- * How can you delete existing data from a hash?
- * How can you merge two hashes together?
- * Why is it preferred to use symbols as hash keys?
+- <a class='knowledge-check-link' href='#arrays-vs-hashes'>What are the differences between hashes and arrays?</a>
+- <a class='knowledge-check-link' href='#arrays-vs-hashes'>What are keys and values in a hash?</a>
+- <a class='knowledge-check-link' href='#creating-hashes'>How can you create a new hash?</a>
+- <a class='knowledge-check-link' href='#adding-and-changing-data'>How can you populate a hash with data?</a>
+- <a class='knowledge-check-link' href='#adding-and-changing-data'>How can you change existing values within a hash?</a>
+- <a class='knowledge-check-link' href='#removing-data'>How can you delete existing data from a hash?</a>
+- <a class='knowledge-check-link' href='#merging-two-hashes'>How can you merge two hashes together?</a>
+- <a class='knowledge-check-link' href='#symbols-as-hash-keys'>Why is it preferred to use symbols as hash keys?</a>

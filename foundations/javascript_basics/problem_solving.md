@@ -20,17 +20,18 @@ In this lesson we will walk through a few techniques that can be used to help wi
 By the end of this lesson, you should be able to do the following:
 
 * Explain the three steps in the problem solving process.
-* Explain what pseudo code is and be able to use it to solve problems.
+* Explain what pseudocode is and be able to use it to solve problems.
 * Be able to break a problem down into subproblems.
 
 ### Understand the Problem
-The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
+<span id="problem-solving-stages"></span>
+The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
 
-To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.
+<span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
 
 ### Plan
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
-
+<span id="planning-stage"></span>
 Some of the questions you should answer at this stage of the process:
 
 * Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
@@ -38,12 +39,12 @@ Some of the questions you should answer at this stage of the process:
 * What's the desired output?
 * Given your inputs, what are the steps necessary to return the desired output?
 
-The last question is where you will write out an algorithm to solve the problem. You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudo code.
+The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
 
-#### Pseudo Code
-Pseudo code is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.
+### Pseudocode
+<span id="pseudo">Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
-Here's an example of what the pseudo code for a simple program that prints all numbers up to an inputted number might look like:
+Here's an example of what the pseudocode for a simple program that prints all numbers up to an inputted number might look like:
 
 ~~~
 When the user inputs a number
@@ -52,14 +53,14 @@ While counter is smaller than user inputted number increment the counter by one
 Print the value of the counter variable
 ~~~
 
-This is a very simple program to demonstrate how pseudo code looks. There will be more examples of pseudo code included in the assignments.
+This is a very simple program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
 
 ### Divide and Conquer
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
 It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
+Many beginners try to solve the big problem in one go. **Don’t do this**. <span id="breaking-problem">If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.</span>
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
@@ -84,7 +85,7 @@ What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
 Given your inputs, what are the steps necessary to return the desired output?
-The algorithm in pseudo code for this problem:
+The algorithm in pseudocode for this problem:
 
 ~~~
 When a user inputs a number
@@ -232,11 +233,11 @@ Buzz
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
   2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
-  3. Read this [What is Pseudo Coding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
+  3. Read this [What is Pseudocoding](https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) (*not free*). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
 * Watch this [video on repetitive programming techniques](https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/).
@@ -244,10 +245,10 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are the three stages in the problem solving process?
-* Why is it important to clearly understand the problem first?
-* What can you do to help get a clearer understanding of the problem?
-* What are some of the things you should do in the planning stage of the problem solving process?
-* What is an algorithm?
-* What is pseudo code?
-* What are the advantages of breaking a problem down and solving the smaller problems?
+* <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
+* <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
+* <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
+* <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
+* <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
+* <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
+* <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>

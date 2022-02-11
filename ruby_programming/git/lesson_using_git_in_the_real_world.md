@@ -1,10 +1,19 @@
+### Learning Outcomes
+
+By the end of this lesson, you should be able to do the following:
+
+- Explain the best practices for Git commits
+- Use a Git workflow to make an open source contribution
+- Explain common Git terms and uses
+- Understand the inner workings of Git
+
 ### Introduction
 
 Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
-You'll have your share of misadventures, but everyone does.  The best remedy is to commit early and often.  The smaller and more modular your commits are, the less that can go wrong if you mess one up.  
+You'll have your share of misadventures, but everyone does. <span id="commit-often">The best remedy is to commit early and often.<span>  <span id="small-commit">The smaller and more modular your commits are, the less that can go wrong if you mess one up.</span>  
 
-There's some debate out there about how to properly use Git in your workflow, but I try to think of it this way: Your commit message should fully describe (in present tense) what the commit includes, e.g. "add About section to navbar on static pages".  If you need to use a comma or the word "and", you've probably got too much stuff in your commit and should think about keeping your changes more modular and independent.
+There's some debate out there about how to properly use Git in your workflow, but I try to think of it this way: <span id="commit-message">Your commit message should fully describe (in present tense) what the commit includes, e.g. "add About section to navbar on static pages".</span>  If you need to use a comma or the word "and", you've probably got too much stuff in your commit and should think about keeping your changes more modular and independent.
 
 It can also be tempting to immediately fix bugs in your code or tweak some CSS as soon as you see it.  Everyone's guilty of that (ahem).  But it's really best to keep that pen and paper next to you, write down the thing you want to fix, and continue doing what you were doing.  Then, when you've committed your current feature or merged its feature branch or somehow extricated yourself from the current problem, go back and tackle the things you wanted to touch originally.  
 
@@ -50,18 +59,9 @@ We've got one main branch -- `main`.  `main` is for production-ready code.  Any 
 #### Sending Your Pull Request
 
 10. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over.  Merge into `main` with `$ git checkout main` followed by `$ git merge your_feature_name`.
-11. Now you want to send your local version of the `main` branch back up to your `origin` (your fork of the `upstream` repository).  You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.  Use `$ git push origin main` to ship `main` up to your fork on GitHub.
+11. Now you want to send your local version of the `main` branch back up to your `origin` (your fork of the `upstream` repository). <span id="send-changes">You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.</span>  Use `$ git push origin main` to ship `main` up to your fork on GitHub.
 12. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to send your forked version of `main` back to the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 13. Shake your moneymaker, you're an OSS contributor!
-
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
-
-* How often should you commit?
-* How large should your commits be?
-* What should your commit messages say?
-* Can you commit unfinished features?
-* Which workflow should you use? (e.g. Merge? Topic Branches? Git-Flow? Rebase?)  Hint: There's no right answer.
 
 ### Assignment
 
@@ -72,7 +72,7 @@ Look through these now and then use them to test yourself after doing the assign
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental..
 
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
@@ -88,3 +88,14 @@ Sometimes (okay, maybe a lot of times) when you're working with Git, something g
 * [Oh sh!t git](http://ohshitgit.com/) is a quick reference to get you out of common Git problems.
 * This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
 * If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class='knowledge-check-link' href='#commit-often'>How often should you commit?</a>
+- <a class='knowledge-check-link' href='#small-commit'>How large should your commits be?</a>
+- <a class='knowledge-check-link' href='#commit-message'>What should your commit message describe?</a>
+- <a class='knowledge-check-link' href='https://www.git-tower.com/blog/version-control-best-practices/'>Should you commit unfinished features?</a>
+- <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
+- <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history in a repository that's shared with others?</a>

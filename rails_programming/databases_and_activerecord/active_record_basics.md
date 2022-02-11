@@ -83,7 +83,7 @@ Migrations are just a script, so how do you tell Rails to run that script and ac
 
 Why is this useful?  Obviously it lets you set up your database using user-friendly Ruby code instead of SQL, but it's more than that.  Over time, you'll build up a bunch of these migration files.  If you decide that you want to blow away your database and start from scratch, you can do that easily and then rerun the migrations.  If you decide to deploy to the web, you will run those same migrations and the production database will be there waiting for you... even if it's a different type of database!  Again, Active Record does the heavy lifting for you here so you can focus on building your website.
 
-The most immediately useful feature of migrations is when you've screwed something up because they're (usually) reversible.  Let's say you just migrated to create a new database column but forgot a column to store the user's email... oops! You can just type `$ rails db:rollback` and the last series of migrations that you ran will be reversed and you're back to where you were.  Then you just edit the file, rerun the migrations, and move on with your life.
+The most immediately useful feature of migrations is when you've screwed something up because they're (usually) reversible.  <span id='rollback-knowledge-check'>Let's say you just migrated to create a new database column but forgot a column to store the user's email... oops! You can just type `$ rails db:rollback` and the last series of migrations that you ran will be reversed and you're back to where you were.</span>  Then you just edit the file, rerun the migrations, and move on with your life.
 
 This introduces the last nuance of migrations that we'll talk about here -- reversibility.  For each method that you use in the migration, you want to specify how to reverse it if you have to.  The reverse of adding a table is dropping that table, of adding a column is removing the column and so on.  Many methods have a really obvious reverse case, so you don't need to explicitly state it and can set up the whole migration file using the `change` method.  But some of them do not, so you will need to separately specify `up` and `down` methods.  You'll read more about that in the assignment.
 
@@ -166,6 +166,15 @@ It's easiest to start thinking about concrete relationships in the real world an
 It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started.  Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+ * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_basics.html#naming-conventions'>Should Active Record model classes be singular or plural?</a> 
+ * <a class='knowledge-check-link' href='#rollback-knowledge-check'>Which rails command will undo a database migration?</a>
+ * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#presence'>What does the validation helper `presence: true` enforce?</a>
+ * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors'>How can you see why an instance of a model class has failed validation?</a>
+ * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one'>If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?</a>

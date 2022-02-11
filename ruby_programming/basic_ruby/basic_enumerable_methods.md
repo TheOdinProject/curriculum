@@ -3,7 +3,7 @@ In previous lessons, you learned about loops as well as arrays and hashes. You w
 
 **Enumerables** are a set of convenient built-in methods in Ruby that are included as part of both arrays and hashes. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else the [Enumerable module](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-3.0.3/) to see what else the [Enumerable module](https://ruby-doc.org/core-3.0.3/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
@@ -84,7 +84,7 @@ Let's break down this syntax:
 * `{ |friend| puts "Hello, " + friend }` is a **block**, and the code inside this block is run for each element in your array. Because we have 5 friends in our array, this block will be run 5 times, once with each of the 5 elements.
 * Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. You can use any variable name that you find helpful here; in this example, we could have used `|x|`, but `|friend|` is more descriptive of what each element is. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `'Leila'`; and so on until it reaches the end of the array.
 
-What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:
+<span id="ruby-knowledge-check-do..end-vs-{...}">What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:</span>
 
 ~~~ruby
 my_array = [1, 2]
@@ -191,7 +191,7 @@ friends.map { |friend| friend.upcase }
 
 We're back down to two lines of code, baby! Isn't it beautiful?
 
-Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://ruby-doc.org/core-2.6.1/String.html#method-i-gsub), that's easy peasy:
+Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://ruby-doc.org/core-3.0.3/String.html#method-i-gsub), that's easy peasy:
 
 ~~~ruby
 my_order = ['medium Big Mac', 'medium fries', 'medium milkshake']
@@ -333,7 +333,7 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 
  1. Iteration 0:
     * result = {}
-    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] = 0` and `result["St. Mark's Bistro"] = 0`
+    * Remember, this hash already has default values of `0`, so `result["Bob's Dirty Burger Shack"] == 0` and `result["St. Mark's Bistro"] == 0`
  2. Iteration 1:
     * The method runs `result["Bob's Dirty Burger Shack"] += 1`
     * result = {"Bob's Dirty Burger Shack" => 1}
@@ -424,19 +424,19 @@ invited_friends(friends)
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
-* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.7.1/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Enumerable.html).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * What does the `#each` method do? What does it return?
- * What does the `#each_with_index` method do?
- * What does the `#map` method do?
- * What does the `#select` method do?
- * What does the `#reduce` method do?
- * When should you use `do...end` around a code block versus `{...}`?
- * Why should you avoid using the bang methods of enumerables?
+ * <a class="knowledge-check-link" href="#the-each-method">What does the `#each` method do? What does it return?</a>
+ * <a class="knowledge-check-link" href="#the-eachwithindex-method">What does the `#each_with_index` method do?</a>
+ * <a class="knowledge-check-link" href="#the-map-method">What does the `#map` method do?</a>
+ * <a class="knowledge-check-link" href="#the-select-method">What does the `#select` method do?</a>
+ * <a class="knowledge-check-link" href="#the-reduce-method">What does the `#reduce` method do?</a>
+ * <a class="knowledge-check-link" href="#ruby-knowledge-check-do..end-vs-{...}">When should you use `do...end` around a code block versus `{...}`?</a>
+ * <a class="knowledge-check-link" href="#bang-methods">Why should you avoid using the bang methods of enumerables?</a>

@@ -22,11 +22,11 @@ console.log(c)
 ~~~
 
 This code will run, but it will generate an error. In technical terms, this is called "throwing" an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. We’ll learn more about the different error types later in the lesson. In this example, we have a `ReferenceError`.
-<img width="615" alt="Screen Shot 2021-05-17 at 12 16 37 PM" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/00.png"> 
+<img width="615" alt="Screen Shot 2021-12-29 at 1 54 55 PM" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/175b5ef2a1b4758a7b75f4ef43d7e27203e5707b/foundations/javascript_basics/understanding_errors/imgs/00.png"> 
 
 A `ReferenceError` is thrown when one refers to a variable that is not declared and/or initialized within the current scope. In our case, the error message explains that the error has occurred because `c is not defined`. Different errors of this type have different messages based on what is causing the `ReferenceError`. For example, another message you may run into is `ReferenceError: can't access lexical declaration 'X' before initialization`. As we can see, this points to a completely different reason than our original `ReferenceError` above. Understanding both the error type and the error message is crucial to comprehending why you are receiving the error.
 
-The next part of an error gives us the name of the file in which you can find the error (in this case, our `script.js`), and also the line number. This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fifth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:5`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. In our example, this would be `at script.js:5:12`. 
+The next part of an error gives us the name of the file in which you can find the error (in this case, our `script.js`), and also the line number. This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fourth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:4`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. In our example, this would be `at script.js:4:13`. 
 
 Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
@@ -118,15 +118,17 @@ At this point, you might be wondering how we can resolve these errors.
 
 Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. Though these colors are not a rule, frequently there will be a visual differentiation between the two, regardless of the platform you are encountering them on.
 
-### Exercise:
+### Exercise
 
 Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
-### Additional Resources:
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
-### Knowledge Check:
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
 - <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>

@@ -11,21 +11,12 @@ To use an instance variable from your view, just call it the same way you would 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* What is a layout?
-* What's the difference between a "view template" and a "layout"?
-* What is a "Preprocessor"?
-* Why are preprocessors useful?
-* How do you make sure a preprocessor runs on your file?
-* What's the outputted filetype of a preprocessed `*.html.erb` file?  What about a `*.css.scss` file?
-* What is the difference between the `<%=`, `<%`, and `<%#` tags?
-* What is a view partial?
-* How do you insert a partial into your view?
-* How can you tell that a view file is a partial?
-* How do you pass a local variable to a partial?
-* What's the magical Rails shortcut for rendering a User?  A bunch of Users?
-* What are asset tags and why are they used?
+* Explain how view templates and layouts are organized in Rails.
+* Apply ERB in your view files.
+* Create and call a partial.
+* Create dynamic anchor tags in your view files.
 
 ### Layouts
 
@@ -234,8 +225,18 @@ Now that you've got a taste of the high-level stuff, read through the Rails Guid
 Views in general make up the user-facing side of your app.  It can be a bit tricky at first to imagine how you choose which view to render, what to include in that view and how to use partials, but a few iterations of working with Rails will show you the conventions pretty quickly.  Views will become second nature to you.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
 * [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
 * [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#how-do-preprocessors-work">How do you make sure a preprocessor runs on your view file?</a>
+* <a class="knowledge-check-link" href="#preprocessors">What is the difference between `<%`, `<%=` and `<%#`? </a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield">What does including `<%= yield %>` in a layout do?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials">Why do we use partials?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections">What is the shortcut for rendering a collection as a series of partials?</a>
+* <a class="knowledge-check-link" href="#linkto">How do you dynamically link to another page of your Rails app?</a>

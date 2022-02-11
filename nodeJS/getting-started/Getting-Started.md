@@ -18,8 +18,6 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/learn) docs which you should follow along.
-  - Introduction
-    - Read the entire Quick Start section from [Introduction of Node.js](https://nodejs.dev/learn/introduction-to-nodejs) to [Differences between Node.js and the Browser](https://nodejs.dev/learn/differences-between-nodejs-and-the-browser). 
   - Get Started
     - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line) lesson.
     - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
@@ -34,43 +32,29 @@ By the end of this lesson, you should be able to do the following:
   - NPM
     - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
     - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
+    - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
   - Events
-    - Start with [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
     - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
-
+    - Look into [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
+    
 - Optional Extra Credit!
   - Although a bit outdated, the W3 Schools introduction to Node.js is super useful!  Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
 
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.
 
-<details>
-<summary>What is a File System Module? How and why would you use it?</summary>
-<ul><ul>
-  <li>The Node.js file system module allows you to work with the file system in your computer. It's included by using the require() method and can be used to read, create, update, delete, and rename files.</li>
-</ul></ul>
-</details>
-<details>
-<summary>What is the command for installing a package locally in with npm?</summary>
-<ul><ul>
-  <li>npm install `package-name`</li>
-</ul></ul>
-</details>
-<details>
-<summary>What is the command for installing a package globally in with npm?</summary>
-<ul><ul>
-  <li>npm install -g `package-name`</li>
-</ul></ul>
-</details>
-<details>
-<summary>What is the difference between a global and local package install with npm?</summary>
-<ul><ul>
-  <li>Global installs are available from anywhere on your computer, local installs are only available within a specified project.</li>
-</ul></ul>
-</details>
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
+
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
 - This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
 - This [crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js, There are 12 videos in playlist you can consider them all.

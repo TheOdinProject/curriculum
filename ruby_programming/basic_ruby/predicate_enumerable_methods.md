@@ -1,7 +1,7 @@
 ### Introduction
 In the previous lesson, you learned about some really handy enumerable methods like `#each`, `#map`, and `#select`. In this lesson, we're going to learn about *even more* enumerable methods! Woohoo! The party never ends here at The Odin Project!
 
-This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-2.6/) to see what else [Enumerable](https://ruby-doc.org/core-2.6.1/Enumerable.html) offers.
+This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-3.0.3/) to see what else [Enumerable](https://ruby-doc.org/core-3.0.3/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
@@ -219,15 +219,15 @@ fruits.none? { |fruit| fruit.length > 6 }
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* There are many more enumerable methods than are covered in this lesson (e.g., `#member?` and `#one?`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-2.5.0/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Enumerable.html).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * Why is there a question mark after some method names?
- * What does the `#include?` method do?
- * What does the `#any?` method do?
- * What does the `#all?` method do?
- * What does the `#none?` method do?
+ * <a class="knowledge-check-link" href="#introduction">Why is there a question mark after some method names?</a>
+ * <a class="knowledge-check-link" href="#the-include-method">What does the `#include?` method do?</a>
+ * <a class="knowledge-check-link" href="#the-any-method">What does the `#any?` method do?</a>
+ * <a class="knowledge-check-link" href="#the-all-method">What does the `#all?` method do?</a>
+ * <a class="knowledge-check-link" href="#the-none-method">What does the `#none?` method do?</a>
