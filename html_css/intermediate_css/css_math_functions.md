@@ -71,9 +71,11 @@ I encourage you to take a moment and edit the codepen. Play around with the diff
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ~~~css
-#odinPicture {
-  max-height: 150px;
+#iconHolder {
   width: min(150px, 100%);
+  height: min(150px, 100%);
+  box-sizing: border-box;
+  border: 6px solid blue;
 }
 ~~~
 
