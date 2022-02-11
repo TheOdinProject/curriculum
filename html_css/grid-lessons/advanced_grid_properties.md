@@ -211,7 +211,7 @@ Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not ju
 
 What this does is allow our item to resize itself until it reaches one of the minimum or maximum threshold values.
 
-Since `clamp()`'s purpose it to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
+Since `clamp()`'s purpose is to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
 
 Here is a simple non-grid example. We will look back at our grid in a moment:
 
