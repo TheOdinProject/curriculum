@@ -108,8 +108,6 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 
 1. `the smallest value`, 2. `the ideal value`, 3. `the largest value`
 
-You can find more about clamp from this interactive website [here](https://web.dev/min-max-clamp/).
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
