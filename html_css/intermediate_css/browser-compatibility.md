@@ -20,7 +20,7 @@ The release of Nexus was just the beginning though, as in the next decade people
 
 In 1995 the world got introduced to the first version of Internet Explorer, which became the dominant player in the market. At some point, Internet Explorer was used by more than 90% of all users. To counter this dominance, Netscape launched what would become Mozilla Foundation which develops and maintains Firefox. Soon after that, in 2003, Apple launched Safari, and in 2008, Google launched Chrome.
 
-You're most likely familiar with most, if not all these names. There is a lot of competition among the browsers still to this day, even though Chrome (and Chromium) is the dominant player in the market.
+You're most likely familiar with most, if not all these names. There is a lot of competition among the browsers still to this day, even though Chrome (and [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))) is the dominant player in the market.
 
 ### What is Browser Compatibility
 
@@ -76,4 +76,4 @@ Important to remember, that since mobile browsers are not a one to one compariso
 - What is the most used browser currently?
 - What was the original name of the first web browser?
 - How are mobile browsers different on Apple mobile operating systems from Android?
-- What is Chromium?
+
