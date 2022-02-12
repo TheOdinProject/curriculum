@@ -35,7 +35,7 @@ Every track has a start line and an end line. The lines are numbered from left t
 
 Grid lines are what we use to position grid items. We'll get to that in a minute, but first let's take a deeper look at grid lines using our developer tools.
 
-If you open up developer tools in Chrome, you can navigate to the Layout pane and find the Grid overlay display settings. Make sure that _show line numbers_ is enabled. Select the correct element from the Grid overlays (e.g. this might be our `div.container` if you are inspecting our CodePen.) You should now see an overlay of the grid lines. 
+If you open up developer tools in Chrome, you can navigate to the Layout panel and find the Grid overlay display settings. Make sure that _show line numbers_ is enabled. Select the correct element from the Grid overlays (e.g. this might be our `div.container` if you are inspecting our CodePen.) You should now see an overlay of the grid lines. 
 
 Notice that the developer tools also show negative lines opposite from the positive lines. You don't have to worry about the negative lines for now, but know that this gives you another option to use when positioning the grid items.
 
