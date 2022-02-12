@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 #### Before you start!
-- Recent changes to the way Github names the default branch mean you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
+- Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
 `git --version`
 - If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
 `git config --global init.defaultBranch main`
@@ -36,7 +36,7 @@ By the end of this lesson, you should be able to do the following:
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png" title="Copy SSH link using GitHub" /></a>
 
-5. In the command line on your local machine, let's make a new directory for all your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. If you're not sure you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
+5. Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png" title="Creating a new directory" /></a>
 
@@ -62,7 +62,7 @@ By the end of this lesson, you should be able to do the following:
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png" title="Stage hello_world and check repo status again using CLI" /></a>
 
-4. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is totally normal and only shows because your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
+4. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
 
     The message, "*Your branch is ahead of 'origin/main' by 1 commit*" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
@@ -172,7 +172,7 @@ There will be no confirmation or any output on the terminal after entering this 
 With that out of the way, now you can choose to use either `git commit -m <your message here>` or `git commit` and enter your message with Visual Studio Code!
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson. Review the above materials for answers if the questions below are hard to answer by yourself.
 
 * <a class="knowledge-check-link" href="#new-github-repo">How do you create a new repository on GitHub?</a>
 * <a class="knowledge-check-link" href="#github-to-local">How do you copy a repository onto your local machine from GitHub?</a>
