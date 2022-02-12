@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 #### Before you start!
-- Recent changes to the way Github names the default branch means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
+- Recent changes to the way Github names the default branch mean you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
 `git --version`
 - If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
 `git config --global init.defaultBranch main`
@@ -58,7 +58,7 @@ By the end of this lesson, you should be able to do the following:
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/07.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/07.png" title="Check status of repo using CLI" /></a>
 
-3. <span id="git-add"></span><span id="two-stages"></span>Type `git add hello_world.txt`. This command adds your hello_world.txt file to the staging area in Git. The staging area is part of the two-step process for making a commit in Git. Think of the staging area like a "waiting room" for your changes until you commit them. Now, type `git status` again. In the output, notice that your file is now shown in green, which means that this file is now in the staging area.
+3. <span id="git-add"></span><span id="two-stages"></span>Type `git add hello_world.txt`. This command adds your hello_world.txt file to the staging area in Git. The staging area is part of the two-step process for making a commit in Git. Think of the staging area as a "waiting room" for your changes until you commit them. Now, type `git status` again. In the output, notice that your file is now shown in green, which means that this file is now in the staging area.
 
     <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png" title="Stage hello_world and check repo status again using CLI" /></a>
 
@@ -129,7 +129,7 @@ This is a reference list of the most commonly used Git commands. (You might cons
 * Commands related to a remote repository:
   * `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
   * `git push` or `git push origin main` (Both accomplish the same goal in this context)
-* Commands related to workflow:
+* Commands related to the workflow:
   * `git add .`
   * `git commit -m "A message describing what you have done to make this snapshot different"`
 * Commands related to checking status or log history
@@ -165,7 +165,7 @@ In later Git lessons, we will cover some of the more advanced Git features, such
 For now, concentrate on using the basics of Git that you've learned here with all of your projects from now on. You will soon know each of the basic Git commands from memory!
 
 ### Bonus: Changing the Git Commit Message Editor
-As an added bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`. 
+As a bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`. 
 
 There will be no confirmation or any output on the terminal after entering this command. When you want to make a commit with Visual Studio Code as the text editor, make sure to use the `git commit` command without the `-m` flag. Just type `git commit` and no message after that. Once you do this, a new tab will open, and you will be able to write your message, and optionally you will be able to provide more information below your message. When you are done with your commit message, save and exit the tab.
 
