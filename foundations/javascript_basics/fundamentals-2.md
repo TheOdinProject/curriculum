@@ -7,7 +7,7 @@ By the end of this lesson, you should be able to:
 * Name the eight data types in JavaScript.
 * Understand the difference between single, double, and backtick quotes.
 * Embed a variable/expression in a string.
-* Define what a method is.
+* Understand what a method is.
 * Name the three logical operators.
 * Understand what the comparison operators are.
 * Understand what conditionals are.
@@ -67,8 +67,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings"> Which type of quote lets you embed variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">How do you embed variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you escape characters in a string?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What are methods?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between slice/substring/substr?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between the slice/substring/substr string methods?</a>
 * <a class="knowledge-check-link" href="http://javascript.info/logical-operators">What are the three logical operators and what do they stand for?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the comparison operators?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are truthy and falsy values?</a>
