@@ -55,9 +55,9 @@ To put it another way:  `main = 100vh - (header + footer)`.
 `calc()` is handling the math for us even though we are mixing vh, rem and px units.
 Combined with CSS variables, `calc()` can save us from the headache of repeating CSS rules.
 
-**Note:** The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
+I encourage you to take a moment and edit the CodePen above to understand how `calc()` is being used. Play around with the different units and sizes of the elements and see what results you get before moving on.
 
-I encourage you to take a moment and edit the codepen. Play around with the different units and sizes of the elements by clicking here: <img src="https://imgur.com/a/9iDhtL0" alt="editCodePen">
+**Note:** The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
 
 #### min()
 
