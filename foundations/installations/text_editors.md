@@ -28,7 +28,7 @@ Choose your Operating System:
    - Run the following command to download the latest **VSCode** `.deb` package
 
 ~~~bash
-curl -L -o code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 ~~~
 
 #### Step 2: Install VSCode
