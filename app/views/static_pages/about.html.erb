@@ -48,15 +48,15 @@
     <%= render 'static_pages/about/overview' %>
 
     <div class="container">
-      <div class="row contact">
-        <div class="col-md-6 odin-logo">
-          <%= image_tag 'about_page/odin-wink.gif', alt: 'Odin logo', class: 'img-responsive' %>
+      <div class="row contact flex justify-center items-center p-8">
+        <div class="col-md-6 flex justify-center">
+          <%= image_tag 'about_page/odin-mascot.svg', alt: 'Odin Mascot', class: 'h-72' %>
         </div>
 
         <div class="col-md-6 col-lg-5 contact-details">
           <h2 class="contact-details__heading text-2xl">Want to contact us?</h2>
 
-          <p class="contact-details__sub-heading">
+          <p class="pb-8">
             Connect with our friendly community on discord, a chat and networking platform or <a href="mailto:theodinprojectcontact@gmail.com">send us an email</a>.
           </p>
 
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="contribute">
+    <div class="contribute odin-dark-bg">
       <%= render 'shared/bottom_cta',
         button: contribute_button,
         heading: 'Help the Odin Project stay current and meaningful to all future students, please contribute!',
