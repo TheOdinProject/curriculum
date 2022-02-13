@@ -38,6 +38,9 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
+### Additional Resources
+If you would like a good visual overview of flexboxes and how they can be used, check out the following video: <a href="https://www.youtube.com/watch?v=u044iM9xsWU">Flexboxes Made Simple</a> by Kevin Powell. 
+
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
