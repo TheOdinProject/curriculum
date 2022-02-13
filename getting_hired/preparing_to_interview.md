@@ -46,7 +46,6 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 ### Links
 
-* [Cracking the Coding Interview](https://www.academia.edu/36175368/Cracking_the_Coding_Interview_6th_Edition?auto=download) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
@@ -56,6 +55,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * Read [40 Key Computer Science Concepts Explained In Layman’s Terms](http://carlcheo.com/compsci)
 * [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
 * [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)
+* [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
 
 ### Coding Test Questions:
 * [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
