@@ -13,7 +13,7 @@ You can think of code editors as specialized web development tools. They are hig
 
 Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. Keep in mind that means you will not able to get help if you are using a different text editor than VSCode for the curriculum.
 
-As a reminder, if you're using a **virtual machine**, you should install your text editor of choice **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but you'll want to be sure that you have this critical tool inside your VM.
+As a reminder, if you're using a **virtual machine**, you should install VSCode **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but you'll want to be sure that you have this critical tool inside your VM.
 
 ### VSCode Installation
 
