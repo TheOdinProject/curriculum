@@ -3,9 +3,9 @@
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 - [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
 - [ ] The title of this PR follows the `where the change occurs: brief description of change` format, e.g. `Intro to HTML and CSS lesson: Fix link text`
-- [ ] I have previewed any Markdown file(s) in the [Markdown preview tool](https://www.theodinproject.com/lessons/preview) to ensure the Markdown content is formatted correctly.
 
 <!-- Complete the following checkboxes ONLY IF they are applicable to your PR. You can complete these later if they are not currently applicable. -->
+- [ ] I have previewed all lesson file(s) included in this PR with the [Markdown preview tool](https://www.theodinproject.com/lessons/preview) to ensure the Markdown content is formatted correctly.
 - [ ] If one exists, I have linked a related open issue to this PR in Step 2 below
 - [ ] If changes were requested, I have made them and re-requested a review from the maintainer (top of the right sidebar)
 
