@@ -43,7 +43,7 @@ gem 'sentry-ruby', '~> 5.0.2'
 gem 'sidekiq'
 gem 'sprockets', '~> 4.0.2'
 gem 'uglifier', '~> 4.2'
-gem 'view_component', '~> 2.48'
+gem 'view_component', '~> 2.49'
 gem 'webpacker'
 
 group :development, :test, :docker do
