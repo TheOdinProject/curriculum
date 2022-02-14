@@ -25,11 +25,11 @@ You can see what we're working on [here](https://github.com/TheOdinProject/top-m
 If you would like to help us develop any lessons, please read our [contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md) to find out how you can contribute.
 
 #### A non-exhaustive list of what you can contribute to help us:
-* correcting typos and other grammar errors,
-* rewriting lesson sections to make them clearer and easier to understand,
-* fixing broken links,
-* adding new resource links you think would make a lesson better, and
-* working on new lessons and projects. You can choose to work on parts of a lesson that are outlined in the progress list on [lesson plans](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) or you can work on completing an entire lesson yourself.
+* Correcting typos and other grammar errors.
+* Rewriting lesson sections to make them clearer and easier to understand.
+* Fixing broken links.
+* Adding new resource links you think would make a lesson better.
+* Working on new lessons and projects. You can choose to work on parts of a lesson that are outlined in the progress list on [lesson plans](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) or you can work on completing an entire lesson yourself.
 
 To find out more about how you can contribute, please read our [contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md).
 
