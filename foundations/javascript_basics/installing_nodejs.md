@@ -114,3 +114,9 @@ We have told `nvm` to use the most recent LTS version of Node installed on our c
 Now when you run `node -v`, you should see `v16.xx.x` or something similar. 
 
 If you see that, you have successfully installed Node!
+
+### Using Node console  
+
+For convenience, Node provides a interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
+
+To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
