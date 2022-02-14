@@ -96,7 +96,7 @@ To pull it all together, let's write a simple module and then include it in our 
 └── webpack.config.js
 ~~~
 
-In addition, you should be able to bundle and run webpack by simply typing `npx webpack`in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
+In addition, you should be able to bundle and run webpack by simply typing `npx webpack` in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
 
 Add a new file to the `src` directory called `myName.js` with the following contents:
 
