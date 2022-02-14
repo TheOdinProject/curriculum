@@ -25,20 +25,20 @@ In this codepen example we created a table element, containing two table row ele
 
 ### Assignment 
 <div class="lesson-content__panel" markdown="1">
-1. Read <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics">this basic</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced">this advanced</a> tutorial from MDN. It should teach you all the syntax behind it. It's pretty straightforward. Make sure to code along!
-2. Do <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data">this</a> assessment from MDN. It's good to put your newly learned skills to practice!
+1. Read these [Tables Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) and [Tables Advanced](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) tutorials from MDN. They should teach you all the syntax behind HTML tables. It's pretty straightforward. Make sure to code along!
+2. Do this [Tables Assessment](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data) assessment from MDN. It's good to put your newly learned skills to practice!
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
 
-- Pencil & Paper published [a great article about things you can achieve with tables](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) if you dare to spend some time giving them some love. They suggest some good habits on how you should format your data which is pretty simple and makes a huge difference. These are not a list of must does to a table, but ideas worth keeping in mind for the next time a table is bothering you with how it looks. 
+- Pencil & Paper published a great [article about things you can achieve with tables](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) if you dare to spend some time giving them some love. They suggest some good habits on how you should format your data which is pretty simple and makes a huge difference. These are not a list of must does to a table, but ideas worth keeping in mind for the next time a table is bothering you with how it looks. 
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#what_is_a_table_">What is a table?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#when_should_you_not_use_html_tables">Why is it a bad idea to use HTML Tables for page layout?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#adding_a_caption_to_your_table_with_caption">What are caption elements useful for?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#the_scope_attribute">What is the scope attribute?</a>
+- [What is a table?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#what_is_a_table_)
+- [Why is it a bad idea to use HTML Tables for page layout?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#when_should_you_not_use_html_tables)
+- [What are caption elements useful for?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#adding_a_caption_to_your_table_with_caption)
+- [What is the scope attribute?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#the_scope_attribute)
