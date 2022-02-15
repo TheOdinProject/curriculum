@@ -9,7 +9,7 @@ Images require a little special care on responsive websites. This lesson will pr
 
 The most basic problem that you are going to face when working with responsive images is the aspect-ratio, or the relationship between width and height. If you shrink the width of an image on smaller screens, and do not also manipulate the height the image will appear distorted!
 
-The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: simply don't define both a width and a height. If an image is given a flexible width, and the height is set to `auto`, then it should retain it's aspect ratio correctly.
+The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: simply don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain it's aspect ratio correctly.</span>
 
 ### background-size, background-position and object-fit
 What if you don't want your image to simply shrink (in both height and width)? `background-size` and `object-fit` are two properties that can provide a little more flexibility (pun intended) with how aspect-ratios are handled.
@@ -41,7 +41,7 @@ It is also possible to literally use _different_ images for different screen siz
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. First check out the docs for [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position), and [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit). The demos on those pages should make their usage clear.
+1. <span id="object-fit-background-size-knowledge-check">First check out the docs for [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position), and [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit). The demos on those pages should make their usage clear.</span>
 2. MDN's [Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) is an introduction to serving up responsive images in HTML.
 3. CSS Tricks's [Guide to the Responsive Images Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/) is a great article that goes into more depth on how to actually implement responsive images.
 </div>
@@ -54,7 +54,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the main difference between `object-fit` and `background-size`?
-* How can you define a width and a height on an `img` without distorting it?
-* Why would you want to provide different images at different screen resolutions?
-* When would you want to use an `img` with a `srcset` vs a `picture`?
+* <a class='knowledge-check-link' href='#object-fit-background-size-knowledge-check'>What is the main difference between `object-fit` and `background-size`?</a>
+* <a class='knowledge-check-link' href='#aspect-ratio-knowledge-check'>How can you define a width and a height on an `img` without distorting it?</a>
+* <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#why_responsive_images'>Why would you want to provide different images at different screen resolutions?</a>
+* <a class='knowledge-check-link' href='https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/'>When would you want to use an `img` with a `srcset` vs a `picture`?</a>
