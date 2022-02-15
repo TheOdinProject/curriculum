@@ -47,5 +47,5 @@ This section contains helpful links to other content. It isn’t required, so co
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='https://developer.chrome.com/docs/devtools/accessibility/reference/#pane'>What are some of the various accessibility featues available in your browser's DevTools?</a>
+* <a class='knowledge-check-link' href='https://developer.chrome.com/docs/devtools/accessibility/reference/#pane'>What are some of the various accessibility features available in your browser's DevTools?</a>
 * <a class='knowledge-check-link' href='#chrome-default-tool-knowledge-check'>Which third party accessibility auditing tool is available in the Chrome DevTools by default?</a>
