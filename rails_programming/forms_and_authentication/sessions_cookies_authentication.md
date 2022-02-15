@@ -196,11 +196,7 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#using-cookies">How would you save a cookie to the browser if a users pet is a dog on their browser?</a>
-
 - <a class="knowledge-check-link" href="#login-check">How would you require a user is logged in _before_ running some code?</a>
-
 - <a class="knowledge-check-link" href="#http-authentication">Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?</a>
-
 - <a class="knowledge-check-link" href="#flash-message">How would you flash an error message on a users browser if they put a invalid username?</a>
-
 - <a class="knowledge-check-link" href="#using-devise">What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?</a>
