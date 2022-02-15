@@ -22,9 +22,9 @@ Here, the value of `color` is the function `rgb()`, which accepts arguments in t
 
 Unlike other programming languages you’ll use in TOP, CSS does not allow us to create our own functions. Instead, the language comes bundled with a list of premade functions that will help you solve the most common styling problems.
 
-Besides defining colors, there are several CSS functions that are useful when designing a website’s layout and sizing. These become important when thinking about responsive design.
+Besides defining colors, <span id='responsive-design-knowledge-check'>there are several CSS functions that are useful when designing a website’s layout and sizing<span>. These become important when thinking about responsive design.
 
-Let’s go over a few of these functions: `calc()`, `min()`, `max()`, and `clamp()`.
+Let’s go over a few of these functions: <span id='function-names-knowledge-check'>`calc()`, `min()`, `max()`, and `clamp()`.</span>
 
 #### calc()
 
@@ -124,6 +124,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 ### Knowledge Check
 
-- What are the four CSS math functions we covered above?
-- How do we use CSS math functions in our CSS?
-- How can CSS functions help make websites and applications more responsive?
+- <a class='knowledge-check-link' href='#function-names-knowledge-check'>What are the four CSS math functions we covered above?</a>
+- <a class='knowledge-check-link' href='#what-is-a-function-and-how-are-they-used-in-css'>How do we use CSS math functions in our CSS?</a>
+- <a class='knowledge-check-link' href='#responsive-design-knowledge-check'>How can CSS functions help make websites and applications more responsive?</a>
