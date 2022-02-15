@@ -132,7 +132,7 @@ Structural pseudo-classes are a powerful way to select elements based on their p
 
 Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
 
-For a more dynamic approach we can use <span id="2nd-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
+For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
 
 ~~~css
   .myList:nth-child(5) {/* Selects the 5th child of myList */}
@@ -261,10 +261,10 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#childvdesc-knowledge-check">What is the difference between the child combinator and the descendant combinator?</a>
-* <a class="knowledge-check-link" href="">How does the syntax of pseudo-classes and pseudo-elements differ?</a>
-* <a class="knowledge-check-link" href="">Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?</a>
-* <a class="knowledge-check-link" href="">Name two ways you could select every second child of an element, starting with the first.</a>
-* <a class="knowledge-check-link" href="">What is the difference between `div:first-child` and `div :first-child`? What will each select?</a>
-* <a class="knowledge-check-link" href="">What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?</a>
-* <a class="knowledge-check-link" href="">How could you select all input elements with a type of text?</a>
-* <a class="knowledge-check-link" href="">How could you select all classes that begin with `thunder` ?</a>
+* <a class="knowledge-check-link" href="#syntax-exist-knowledge-check">How does the syntax of pseudo-classes and pseudo-elements differ?</a>
+* <a class="knowledge-check-link" href="#syntax-exist-knowledge-check">Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?</a>
+* <a class="knowledge-check-link" href="#second-child-knowledge-check">Name two ways you could select every second child of an element, starting with the first.</a>
+* <a class="knowledge-check-link" href="#first-child-knowledge-check">What is the difference between `div:first-child` and `div :first-child`? What will each select?</a>
+* <a class="knowledge-check-link" href="#hover-active-knowledge-check">What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?</a>
+* <a class="knowledge-check-link" href="#type-text-knowledge-check">How could you select all input elements with a type of text?</a>
+* <a class="knowledge-check-link" href="#thunder-knowledge-check">How could you select all classes that begin with `thunder` ?</a>
