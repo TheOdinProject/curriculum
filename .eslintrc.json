@@ -21,7 +21,8 @@
   ],
   "rules": {
     "react/forbid-prop-types": 0,
-    "jsx-a11y/no-autofocus": 0
+    "jsx-a11y/no-autofocus": 0,
+    "max-len": ["error", 120]
   },
   "settings": {
     "import/resolver": {
