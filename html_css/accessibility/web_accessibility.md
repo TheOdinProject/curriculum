@@ -5,9 +5,10 @@ At this point in the curriculum you've learned incredibly valuable concepts in w
 What you may not have too much an understanding of, though, is the topic of accessibility, often referred to as "a11y" (due to there being 11 letters between the first and last letters). Unfortunately, this is a topic that many people either don't know much about, or just don't take into account when developing websites. If you fit into either of those two categories, you may have adopted some habits that aren't exactly a11y friendly. Before we get into how you can break away from such habits and begin implementing a11y friendly concepts, it's important to first understand some basic information about web accessibility.
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to:
 
-* Explain what web accessibility is.
+- Explain what web accessibility is.
 
 ### What is Web Accessibility?
 
@@ -21,9 +22,9 @@ Situational limitations are a little different. Using a phone outside on a brigh
 
 Let's first look at a non-web example to gain a little perspective. Imagine being in a multi-story building that has no elevator. For some people, this might only be an annoyance. "Huh, no elevator. I guess I'll walk up a few flights of stairs, then." A person that requires a wheelchair, however, would find it impossible, or at the very least much more difficult, to go anywhere beyond the first floor. Even if a person in a wheelchair had someone to lift the wheelchair up each step, it would be a much more difficult process. The point here is that an elevator would have made this building more accessible.
 
-The building is your website, and the elevator is a collection of various accessibility features and tools (...it's a pretty big elevator). When you develop a website, you're developing it for users, and you need that website to actually be *usable* by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.
+The building is your website, and the elevator is a collection of various accessibility features and tools (...it's a pretty big elevator). <span id='benefits-knowledge-check'>When you develop a website, you're developing it for users, and you need that website to actually be _usable_ by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.</span>
 
-One other pretty big reason that accessibility matters is that, depending on the country, there could actually be laws *requiring* accessibility to be implemented.
+One other pretty big reason that accessibility matters is that, depending on the country, there could actually be laws _requiring_ accessibility to be implemented.
 
 ### Assignment
 
@@ -33,15 +34,16 @@ One other pretty big reason that accessibility matters is that, depending on the
 </div>
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is web accessibility?
-* Who truly benefits from accessibility features?
+- <a class='knowledge-check-link' href="#what-is-web-accessibility">What is web accessibility?</a>
+- <a class='knowledge-check-link' href="#benefits-knowledge-check">Who truly benefits from accessibility features?</a>
 
 ### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [The Business Case for Digital Accessibility](https://www.w3.org/WAI/business-case/) goes over reasons for implementing accessibility beyond just being more inclusive to more users.
-* [How People with Disabilities Access Digital Content](https://www.youtube.com/watch?v=Lu7a5RU5lM0) is a rather long video (a whopping 45 minutes), but it goes over a lot of various assistive technologies and will offer you some more perspective on how users with disabilities may browse the websites you create.
-* [When we design for disability, we all benefit](https://www.youtube.com/watch?v=g2m97gPI70I) is a video featuring Elise Roy that furthers the point mentioned in this lesson, that accessibility benefits everyone. While this video is a more general overview that doesn't revolve around web development specifically, it can still be an eye-opening experience.
+- [The Business Case for Digital Accessibility](https://www.w3.org/WAI/business-case/) goes over reasons for implementing accessibility beyond just being more inclusive to more users.
+- [How People with Disabilities Access Digital Content](https://www.youtube.com/watch?v=Lu7a5RU5lM0) is a rather long video (a whopping 45 minutes), but it goes over a lot of various assistive technologies and will offer you some more perspective on how users with disabilities may browse the websites you create.
+- [When we design for disability, we all benefit](https://www.youtube.com/watch?v=g2m97gPI70I) is a video featuring Elise Roy that furthers the point mentioned in this lesson, that accessibility benefits everyone. While this video is a more general overview that doesn't revolve around web development specifically, it can still be an eye-opening experience.
