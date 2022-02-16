@@ -23,28 +23,24 @@ This will contain the key guide to avoid reader confusion. For example count? in
 1. How this course will work
     - learning outcome: Gain a roadmap of how the Rails course works
           - sub-goals 
-        -
     - resources used
       - NA
       - count: 0
 2. Preparing for deployment
 - learning outcome: Be able to create the basic setup of installing heroku for use.
       - sub-goals 
-        -
     - resources used
       - N/A
       - count: 0
 3. Installing Rails (project)
 - learning outcome: Install Rails and create a barebones Rails app.
       - sub-goals 
-        -
     - resources used
       - N/A
       - count: 0
 4. A railsy web refresher
 - learning outcome: Have a basic overview of some aspects of the web.
         - sub-goals 
-        -
     - resources used:
       - repeated? None
       - Assignments? None
@@ -56,7 +52,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 1. Routing
 - learning outcome: how to use RESTful routes in conjunction with the controller.
       - sub-goals 
-        -
     - resources used
       - Rails guides: => routing, sections: => sections 1-2.5, 3.1-3.4, 4.6, and 6.1, :format => text
       - Rest and HTTP explanation :format => video
@@ -64,21 +59,18 @@ This will contain the key guide to avoid reader confusion. For example count? in
 2. Controllers
 - learning outcome: Basic overview of how to use the controller to interact with their routes.
       - sub-goals 
-        -
     - resources used
       - Rails guides: => controllers, :section => 1 - 4.5.3 and 5.2., :format => text
       - count: 1
 3. Views
 - learning outcome: learners should have a basic idea of a view and how it can be used with the controller. 
       - sub-goals 
-        -
     - resources used 1 
       - rails guides, :format => text, :section => sections 1 through 3.4,
       - count:1
 4. Deployment
 - learning outcome: Should have a basic understanding of how to deploy their projects with Heroku.
       - sub-goals 
-        -
     - resources used
       - Heroku
       - Assignment? => 2
@@ -87,7 +79,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 5. Blog app (project)
 - learning outcome: should be able to walk through the basic steps of creating a app using MVC and CRUD.
       - sub-goals 
-        -
     - resources used
       - Heroku
       - Rails guide getting started 
@@ -100,7 +91,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 1. ActiveRecord basics
     - learning outcome: Gain a basic understanding of what and how to use active record
       - sub-goals 
-        -
     - resources used
       - Rails guide Active record basics
       - Rails guides Migration
@@ -110,7 +100,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 2. Micro-reddit (project)
     - learning outcome: Utilize previous lesson to create models with active record for a simple reddit clone
       - sub-goals 
-        -
     - resources used
       - N/A
       - count: 0
@@ -120,7 +109,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 1. The Asset Pipeline
 - learning outcome: Learners should have a basic understanding of how the Asset Pipelines works and how they can use it.
       - sub-goals 
-        -
     - resources used
       - Rails Guides, :section => 1 to 3., :format => text
       - count: 1
@@ -128,7 +116,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 -in-production? yes
 - learning outcome: Learners should have a basic idea of what import maps is and how to use it to pin different packages and modules.
     - sub-goals 
-        -
     - resources used
       - gem read me
       - [dhh artile on modern web apps without transpiling](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755)
@@ -141,7 +128,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 1. Form Basics
 - learning outcome: Be able to create a basic form using Rails methods.
     - sub-goals 
-        -
     - resources used
       - Rails guide on form helpers.
       - Rails guide on validation.
@@ -151,7 +137,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 2. Forms (project)
 - learning outcome: Practice creating a form utilizing the previous lesson
     - sub-goals 
-        -
     - resources used
       - external-link? 5
       - internal-lesson? 1
@@ -159,7 +144,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 3. Sessions, Cookies and Authentication
 - learning outcome: Become aware of authentication works with sessions and cookies and utlize devise.
     - sub-goals 
-        -
     - resources used
       - external-link? 6
       - Rails-guides controllers :count => 3
@@ -170,7 +154,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 4. Members only (project)
 - learning outcome: use previous lessons to create events where only members can see post authors.
     - sub-goals 
-        -
     - resources used
       - external-link? 4
       - twitter-tutorial count? 4
@@ -182,21 +165,18 @@ This will contain the key guide to avoid reader confusion. For example count? in
 1. ActiveRecord queries
 - learning outcome: gain a basic understanding of how to use rails queries
     - sub-goals 
-        -
     - resources used
       - rails querying guide link-count? 8
       - count:1
 2. ActiveRecord Associations
 - learning outcome: Get a basic understanding of how Rails Associations work.
     - sub-goals 
-        -
     - resources used
       - Rails association guide.
       - count: 1
 3. Private Events (project)
 - learning outcome: Utilize previous lessons to create private events that users can make.
     - sub-goals 
-        -
     - resources used
       - rails-guides scopes
       - rails-guides queries
@@ -204,7 +184,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 4. ActiveRecord callbacks
 - learning outcome: Gain a basic understanding of what rails callbacks are as well as how to use them
     - sub-goals 
-        -
     - resources used
       - rails-guide-on-callbacks
       - samuel-mullen :title => on when to use callbacks
@@ -212,7 +191,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 5. Advanced forms
 - learning outcome: learn how to use the more advanced features of rail forms such as nested attributes
     - sub-goals 
-        -
     - resources used
       - rails-gude for? forms
       - peter-rhoades how to use nested forms
@@ -220,7 +198,6 @@ This will contain the key guide to avoid reader confusion. For example count? in
 6. Flight Booker (project)
 - learning outcome: utilize previous lessons to create a flight signup using advanced forms
     - sub-goals 
-        -
     - resources used
       - stack-overflow count? 4
       - rails-api count? 2
