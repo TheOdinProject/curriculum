@@ -9,6 +9,10 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
   2. Now write another method `#fibs_rec` which solves the same problem recursively.  This can be done in just 3 lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
 </div>
 
+#### Understanding Recursive Fibonacci
+
+Did you get it figured out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this method, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonnaci Explained](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) is also very helpful!
+
 ### Project: Merge Sort
 
 We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.
