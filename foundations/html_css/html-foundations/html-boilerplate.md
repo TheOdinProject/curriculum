@@ -87,6 +87,32 @@ Back in our `index.html`, let's add a head element with a title and a charset me
 </html>
 ~~~
 
+#### The Viewport Meta Element
+
+You should include the following <meta> viewport element in all of your web pages:
+
+`<meta name="viewport" content="width=device-width, intial-scale=1.0">`
+
+Without the meta viewport tag, users will often be forced to zoom or scroll horizontally to view the content on an html page. The meta viewport tag helps to solve this user experience problem.
+
+This gives the browser instructions on how to control the page's dimensions and scaling. The `width=device-width` part sets the width of the html page to follow the screen which will vary based on the device used to view the page. 
+
+The `initial-scale=1.0` part sets the intial zoom level when the page is first loaded by the browser.
+
+Let's add this tag to our `index.html` file right after the charset meta element that we added earlier. The viewport tag should always go inside the head tag:
+
+~~~html
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>My First Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  </head>
+</html>
+~~~
+
 ### Body Element
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
@@ -99,6 +125,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
   </head>
 
   <body>
@@ -129,6 +156,7 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
   <head>
     <title>My First Webpage</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
   </head>
 
   <body>
@@ -158,6 +186,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
 - If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
+- Read more about why [Responsive Web Design and The Viewport on w3schools.com](https://www.w3schools.com/css/css_rwd_viewport.asp) are important concepts to consider when creating web pages
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
