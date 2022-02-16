@@ -200,7 +200,7 @@ def javascript_lessons
       title: "Where's Waldo (A Photo Tagging App)",
       description: "Pull together everything you've learned so far to create a \"Where's Waldo?\" game.",
       is_project: true,
-      url: '/javascript/js-rails/project_rails_backend.md',
+      url: '/javascript/js-and-the-backend/project_rails_backend.md',
       accepts_submission: true,
       has_live_preview: true,
       identifier_uuid: '386dd44a-31dc-45dc-a535-cd5508365c86',
