@@ -1,9 +1,9 @@
 ### Learning Outcomes
 
-- Using arrays.
-- Using built-in array methods.
-- Using loops.
-- Getting your hands dirty with TDD exercises.
+* Using arrays.
+* Using built-in array methods.
+* Using loops.
+* Getting your hands dirty with TDD exercises.
 
 ### Arrays
 
@@ -25,9 +25,9 @@ Test Driven Development \(TDD\) is a phrase you often hear in the dev world. It 
 
 In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a simple `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
-We will teach you the art of actually writing these tests later in the course. The following assignment has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
+We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
 
-### Assignment
+### Practice
 
 <div class="lesson-content__panel" markdown="1">
 Follow the steps below to get started. Once you complete Step 1, be sure to use the README for **_each individual exercise_** in order to do them correctly.
@@ -41,20 +41,20 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
    - sumAll
    - leapYears
    - tempConversion
-3. See how your solution compares to the exercise's given solution. Solutions for the exercises can be found on the 'solutions' branch of the repo.
+3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the 'solutions' branch of the repo.
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What is an array?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you access an array element?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you change an array element?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties?</a>
-- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_array_methods.asp">What are some useful array methods?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother">What are loops useful for?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break">What is the break statement?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue">What is the continue statement?</a>
-- <a class="knowledge-check-link" href="#test-driven-development">What is the advantage of writing automated tests?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What is an array?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you access an array element?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">How do you change an array element?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are some useful array properties?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_array_methods.asp">What are some useful array methods?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother">What are loops useful for?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break">What is the break statement?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue">What is the continue statement?</a>
+* <a class="knowledge-check-link" href="#test-driven-development">What is the advantage of writing automated tests?</a>
