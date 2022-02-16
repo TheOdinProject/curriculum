@@ -124,7 +124,7 @@ course.add_section do |section|
   section.identifier_uuid = '490be3db-7c28-43d8-a530-328a0ba8188b'
 
   section.add_lessons(
-    javascript_lessons.fetch('Using Ruby on Rails or BaaS For Your Back End'),
+    javascript_lessons.fetch('Using Ruby on Rails For Your Back End'),
     javascript_lessons.fetch("Where's Waldo (A Photo Tagging App)"),
   )
 end

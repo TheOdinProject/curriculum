@@ -196,13 +196,6 @@ def javascript_lessons
       has_live_preview: true,
       identifier_uuid: '62702165-7705-47ba-a308-dd39c561e057',
     },
-    'Using Ruby on Rails or BaaS For Your Back End' => {
-      title: 'Using Ruby on Rails or BaaS For Your Back End',
-      description: "You've got experience working with APIs, now it's time to treat your app like one.",
-      is_project: false,
-      url: '/javascript/js-rails/rails_backend.md',
-      identifier_uuid: '80eda4a3-02c9-489f-acef-bea2ba628e09',
-    },
     "Where's Waldo (A Photo Tagging App)" => {
       title: "Where's Waldo (A Photo Tagging App)",
       description: "Pull together everything you've learned so far to create a \"Where's Waldo?\" game.",
@@ -227,6 +220,20 @@ def javascript_lessons
       is_project: false,
       url: '/javascript/finishing-up/conclusion.md',
       identifier_uuid: '4b881c82-4cba-4090-a819-17aac12ccb46',
-    }
+    },
+    'Using Ruby on Rails For Your Back End' => {
+      title: 'Using Ruby on Rails For Your Back End',
+      description: "You've got experience working with APIs, now it's time to treat your app like one.",
+      is_project: false,
+      url: '/javascript/js-and-the-backend/rails_backend.md',
+      identifier_uuid: 'a7c364d4-c890-4b56-be03-f1091d56ded6',
+    },
+    'Using BaaS For Your Back End' => {
+      title: 'Using BaaS For Your Back End',
+      description: "You've got experience working with APIs, now it's time to treat your app like one.",
+      is_project: false,
+      url: '/javascript/js-and-the-backend/backend_as_a_service.md',
+      identifier_uuid: '754d54ae-c5b8-423a-8d1e-a9e0f192afcc',
+    },
   }
 end
