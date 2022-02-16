@@ -4,10 +4,6 @@ So, you've now learned a lot of juicy JavaScript, enabling you to make various c
 
 While Local Storage is great, it's not ideal: it only stores data on the computer from which the user is accessing the page. This approach does not allow for the app to 'remember' anything when the same user tries to access it again from a different device. For that, you're going to need a real backend.
 
-### OK, so... now what?
-
-You can learn how to build a back-end later using [Node.js](https://www.theodinproject.com/courses/nodejs). For now, you can outsource your backend functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/). For this lesson, we'll be using Firebase.
-
 ### Learning Outcomes
 
 By the end of this lesson, you should be able to:
@@ -15,6 +11,10 @@ By the end of this lesson, you should be able to:
  - Explain which services are offered by Firebase
  - Explain how to set up your app to use those services from Firebase Hosting
  - Explain how to set up your app to communicate with and/or pass data to and from the various Firebase services
+
+### OK, so... now what?
+
+You can learn how to build a back-end later using [Node.js](https://www.theodinproject.com/courses/nodejs). For now, you can outsource your backend functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/). For this lesson, we'll be learning Firebase.
 
 ### Assignment
 
