@@ -120,7 +120,7 @@ end
 # ++++++++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'JavaScript and the Backend'
-  section.description = "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end or how to outsource your backend to a Backend-as-a-Service company like Firebase."
+  section.description = "A real web app needs a back end in order to persist its data and do sensitive operations. Here you'll learn how to use ajax to send data requests to your Rails back end."
   section.identifier_uuid = '490be3db-7c28-43d8-a530-328a0ba8188b'
 
   section.add_lessons(
