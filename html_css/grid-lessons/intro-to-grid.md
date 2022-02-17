@@ -56,7 +56,7 @@ But setting up a two-dimensional layout of cards would be much simpler using CSS
 
 ### What the Grid?
 
-Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (yes, Wes Bos’ dad!) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thought demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017.
+Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (no relation to Wes Bos) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thought demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017.
 
 As shown above, Grid is often praised for easy placement of items in a two-dimensional layout. But Grid can be used for one-dimensional layouts too. One advantage for developers is if they start off with only one row of items, they can simply add additional rows later.
 

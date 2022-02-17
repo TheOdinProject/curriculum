@@ -27,7 +27,7 @@ The number one enemy of flexibility is a fixed width on an element. If you put `
 
 Obviously the context will determine what works in a given situation, but an easy fix in many cases is replacing `width` or `height` with `max-width` or `min-height` (`min-width` and `max-height` are also valid and may be useful depending on the context).
 
-In the following example, notice how the fixed width causes our div to overflow the screen! Change it to max-width and watch it shrink down to fit inside the box! Click on the 'Edit on CodePen' button to see it in a full resizable window. When a `max-width` is defined, the element will not exceed that width, but will shrink if the screen is too small to accommodate it.
+In the following example, notice how the <span id='fixed-width'>fixed width</span> causes our div to overflow the screen! Change it to max-width and watch it shrink down to fit inside the box! Click on the 'Edit on CodePen' button to see it in a full resizable window. When a `max-width` is defined, the element will not exceed that width, but will shrink if the screen is too small to accommodate it.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="GRMpreM" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/GRMpreM">
@@ -36,7 +36,7 @@ In the following example, notice how the fixed width causes our div to overflow 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-This example demonstrates the problem with static heights. On a full-sized screen the text would fit inside the pink box just fine, but here on this cramped embed, it overflows! What we want here is for the div to be `300px` in most cases, but to grow instead of causing an overflow when the text gets cramped. In this case changing `height: 300px` to `min-height: 300px` will fix the issue.
+This example demonstrates the problem with <span id='fixed-height'>static heights.</span> On a full-sized screen the text would fit inside the pink box just fine, but here on this cramped embed, it overflows! What we want here is for the div to be `300px` in most cases, but to grow instead of causing an overflow when the text gets cramped. In this case changing `height: 300px` to `min-height: 300px` will fix the issue.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="qBjxVYg" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjxVYg">
@@ -67,7 +67,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* Why should you avoid fixed width?
-* Why should you avoid fixed height?
-* In what situations might it be appropriate to use a fixed height or width?
-* Why should you avoid percentages?
+* <a class='knowledge-check-link' href='#fixed-width'>Why should you avoid fixed width?</a>
+* <a class='knowledge-check-link' href='#fixed-height'>Why should you avoid fixed height?</a>
+* <a class='knowledge-check-link' href='#when-fixed-widths-are-appropriate'>In what situations might it be appropriate to use a fixed height or width?</a>
+* <a class='knowledge-check-link' href='https://codyloyd.com/2021/percentages/'>Why should you avoid percentages?</a>

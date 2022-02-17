@@ -49,7 +49,6 @@ if this returns `nvm: command not found`, close the terminal and re-open it.
 
 <details markdown="block">
   <summary class="dropDown-header">Installation on macOS</summary>
-  <br/>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
 
@@ -114,3 +113,9 @@ We have told `nvm` to use the most recent LTS version of Node installed on our c
 Now when you run `node -v`, you should see `v16.xx.x` or something similar. 
 
 If you see that, you have successfully installed Node!
+
+### Using Node console  
+
+For convenience, Node provides a interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
+
+To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.

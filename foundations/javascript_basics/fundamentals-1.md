@@ -28,7 +28,7 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 <html>
 <head>
   <title>Page Title</title>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8">
 </head>
 <body>
   <script>

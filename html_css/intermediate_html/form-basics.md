@@ -363,7 +363,7 @@ The button element also accepts a `type` attribute that tells the browser which 
 
 **Submit Buttons**
 
-Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within.
+Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has value of submit by default, i.e if the `type` is not specified or the value provided is invalid.
 
 To create a submit button, we use the button element with a `type` attribute of "submit":
 
@@ -390,6 +390,8 @@ To create a generic button, we use the button element with a `type` attribute of
 ~~~html
 <button type="button">Click to Toggle</button>
 ~~~
+
+**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
 
 ### Organizing Form Elements
 

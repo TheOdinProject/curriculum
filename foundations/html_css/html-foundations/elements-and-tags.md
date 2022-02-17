@@ -30,7 +30,7 @@ Using the correct elements for content is called semantic HTML. We will explore 
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-  1. [Watch Kevin Powells Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
+  1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
 </div>
 
 ### Additional Resources
