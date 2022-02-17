@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Create a report to help us improve
-title: ""
+title: "Bug: "
 labels: "Status: Needs Review, Type: Bug"
 assignees: ""
 ---
@@ -11,23 +11,35 @@ assignees: ""
 <!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
 
 -   [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
--   [ ] The title of this issue follows the `where the change occurs: brief description of bug` format, e.g. `React section: Knowledge Checks don't link to resource`
+-   [ ] The title of this issue follows the `Bug: brief description of bug` format, e.g. `Bug: Lesson complete button does not update on click`
 
 <!-- The following checkbox is OPTIONAL. Completing it does not guarantee you will be assigned this issue, but rather lets us know you are interested in working on it. -->
 
 -   [ ] I would like to be assigned this issue to work on it
 
-**1. Description of the Bug**
+**1. Description of the Bug:**
 
 <!-- A clear and concise description of what the bug is. Include any screenshots that may help show the bug in action. -->
 
-**2. How To Reproduce**
+**2. How To Reproduce:**
 
-<!-- What steps one might need to take in order to reproduce this bug. -->
+<!--
+What steps one might need to take in order to reproduce this bug, e.g.:
+1. Log in
+2. Visit a lesson page
+3. Click the complete button
+4. The course progress bar does not increase
+-->
 
-**3. Expected Behavior**
+**3. Expected Behavior:**
 
-<!-- A brief description of what you expected to happen. -->
+<!--
+A brief description of what you expected to happen, e.g.:
+1. Log in
+2. Visit a lesson page
+3. Click the complete button
+4. The course progress bar will increase
+ -->
 
 **4. Desktop/Device:**
 
@@ -36,6 +48,6 @@ assignees: ""
 -   Browser: <!-- [e.g. chrome, safari] -->
 -   Version: <!-- [e.g. 22] -->
 
-**5. Additional Information**
+**5. Additional Information:**
 
 <!-- Any additional information about the bug. -->
