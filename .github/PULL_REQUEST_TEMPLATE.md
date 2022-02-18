@@ -17,7 +17,7 @@ Complete the following checkbox ONLY IF it is applicable to your PR. You can com
 <!--
 If this PR closes an open issue, replace the XXXXX below with the issue number, e.g. Closes #2013. Or if the issue is in another TOP repo replace the #XXXXX with the URL of the issue, e.g. Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX
 
-Otherwise, provide a clear and concise reason for your pull request, e.g. what problem it solves or what benefit it provides.
+Otherwise, provide a clear and concise reason for your pull request, e.g. what problem it solves or what benefit it provides. If this PR is related to, but does not close, another issue or PR, you can also link it as above without the 'Closes' keyword, e.g. "Related to #2013".
  -->
 Closes #XXXXX
 
