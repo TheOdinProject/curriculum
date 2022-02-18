@@ -102,10 +102,10 @@ const div = document.createElement('div');
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
-div.style.cssText = 'color: blue; background: white';          
+div.style.cssText = 'color: blue; background: white;';          
 // adds several style rules
 
-div.setAttribute('style', 'color: blue; background: white');    
+div.setAttribute('style', 'color: blue; background: white;');    
 // adds several style rules
 ~~~
 
