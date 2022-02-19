@@ -32,7 +32,7 @@ At this point you might be thinking, "18.66 pixels? 4.5:1? How the heck am I sup
 
 [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) is a fantastic tool for checking contrast ratios. Just enter the HEX code of the foreground and background colors and it calculates what conformance levels, if any, the contrast ratio passes. The page also has a link for a link contrast checker, which goes over what the contrast ratio should be if a text link isn't underlined.
 
-You can also check the contrast ratio of the text within an element using your <span id='dev-tools'>browser's dev tools</span>. In **Chrome**, you would click the "element picker" tool in the Elements tab, then hover over an element on the web page. If you select an element with text in the Elements tab, you can click on the color picker tool for the “color” property under Styles to view the contrast ratio as well.
+You can also check the contrast ratio of the text within an element using your <span id='dev-tools'>browser's dev tools</span>. In **Chrome**, you would click the "element picker" tool in the Elements tab, then hover over an element on the web page. If you select an element with text in the Elements tab, you can click on the color picker tool for the "color" property under Styles to view the contrast ratio as well.
 
 ### Conveying Information
 
