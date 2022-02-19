@@ -29,5 +29,5 @@ A bullet point list of one or more items outlining what was done in this PR to s
 
 
 **3. Additional Information:**
-<!-- Any additional information about the PR, such as any other issues or PRs related to it, a link to a Discord discussion, etc. -->
+<!-- Any additional information about the PR, such as a link to a Discord discussion, etc. -->
 
