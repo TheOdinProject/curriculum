@@ -4,6 +4,15 @@ You've had a good overview of how your browser will be interacting with your web
 
 We won't be digging into the advanced issues of deployment in this lesson... that's well outside the scope of this course.  The point here is to familiarize you with the basic deployment process and help you get your apps online in the first place.  Adding bells and whistles or speed optimizing your application will be left to your own curiosity.  You'll likely read through this now, get a sense for what's coming in the future, and then refer back to it when it's time to actually deploy some of your apps later on.
 
+### Learning Outcomes
+By the end of this lesson, you should be able to do the following:
+
+* Explain what Heroku is and how it works.
+* Set up Heroku and the gems it needs on your machine.
+* Get a general overview of deployment and what goes on behind the scenes.
+* Deploy your applications to heroku comfortably.
+* Understand and debug the basic errors on deployment.
+
 ### Heroku Overview
 
 It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2.
