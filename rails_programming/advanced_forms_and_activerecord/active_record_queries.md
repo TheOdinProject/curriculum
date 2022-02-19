@@ -243,8 +243,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 ### Knowledge Check
 
-* <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>What are the
-advantages of an Active Record relation over an array?</a>
+* <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>How does lazy evaluation help make Active Record more efficient?</a>
 * <a class='knowledge-check-link' href='#checking-for-existence'>How do you check whether a database already contains a record?</a>
 * <a class='knowledge-check-link' href='#more-assorted-querying-knowledge'>What is the difference between a `#where` query and a `#find` query?</a>
 * <a class='knowledge-check-link' href='#joins'>How do you join tables together in Rails?</a>
