@@ -18,9 +18,9 @@ There are plenty of third party tools to audit the accessibility of a web page, 
 
 * [axe DevTools for Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) is an extension-based tool that returns a list of issues ranked by severity level, and will note any issues for you to manually check.
 
-* [Lighthouse for Chrome](https://developers.google.com/web/tools/lighthouse) is available in the Chrome DevTools by default (it might also be listed as the Auditing tab) or it can be ran from the command line. Lighthouse provides more than just a11y auditing, including performance, best practices, search engine optimization (SEO), and progressive web app (PWA) if applicable. Any issues will be separated by category, and like the axe DevTools there may be a list of issues for you to manually check.
+* <span id="chrome-default-tool-knowledge-check">[Lighthouse for Chrome](https://developers.google.com/web/tools/lighthouse) is available in the Chrome DevTools by default (it might also be listed as the Auditing tab) or it can be ran from the command line. Lighthouse provides more than just a11y auditing, including performance, best practices, search engine optimization (SEO), and progressive web app (PWA) if applicable. Any issues will be separated by category, and like the axe DevTools there may be a list of issues for you to manually check.</span>
 
-* [WebAIM's WAVE](https://wave.webaim.org/) is a website based tool where you enter the URL of the page you want to audit, though there are also browser extension and API options. WAVE will return a preview of the page with an overlay if icons on it, and issues are separated into categories of alerts, warnings, and contrast errors. Unfortunately the icons that are placed on the page may cause the layout to break, but that could be a minor issue if you're more focused on the a11y issues that are found.
+* [WebAIM's WAVE](https://wave.webaim.org/) is a website based tool where you enter the URL of the page you want to audit, though there are also browser extension and API options. WAVE will return a preview of the page with an overlay of icons on it, and issues are separated into categories of alerts, warnings, and contrast errors. Unfortunately the icons that are placed on the page may cause the layout to break, but that could be a minor issue if you're more focused on the a11y issues that are found.
 
 Of course, one of the best ways to check the accessibility of your websites is to get feedback from users who rely on these accessibility features. Obviously this isn't always an easy option, but when you can it will be worth hearing from those who may be affected by your site's accessibility (or lack of it).
 
@@ -42,3 +42,10 @@ This section contains helpful links to other content. It isn’t required, so co
 * The [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of success criteria along with techniques for how to satisfy them and links to understanding them in more detail. This tool is a great go-to when you're really ready to push your website to the next accessible level. If you often use animations, success criterion 2.2.2 ("Play, Stop, Hide") and all of the 2.3 success criteria are definitely worth reading.
 * [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibility topics.
 * [screenreader-outputs](https://github.com/thatblindgeye/screenreader-outputs) is a GitHub repo that contains many examples of screen reader outputs. Sometimes nested elements or certain combinations of attributes and native labeling may result in accessible names or descriptions that are difficult to make sense of, so checking out this repo may help clear things up.
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class='knowledge-check-link' href='https://developer.chrome.com/docs/devtools/accessibility/reference/#pane'>What are some of the various accessibility features available in your browser's DevTools?</a>
+* <a class='knowledge-check-link' href='#chrome-default-tool-knowledge-check'>Which third party accessibility auditing tool is available in the Chrome DevTools by default?</a>
