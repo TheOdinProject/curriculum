@@ -8,9 +8,9 @@ We won't be digging into the advanced issues of deployment in this lesson... tha
 By the end of this lesson, you should be able to do the following:
 
 * Explain what Heroku is and how it works.
-* Set up Heroku and the gems it needs on your machine.
+* Set up a new application with heroku.
 * Get a general overview of deployment and what goes on behind the scenes.
-* Deploy your applications to heroku comfortably.
+* Deploy your applications to heroku.
 * Understand and debug the basic errors on deployment.
 
 ### Heroku Overview
@@ -152,3 +152,14 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file
 * [Converting from PostgreSQL to SQLite3](http://manuel.manuelles.nl/blog/2012/01/18/convert-postgresql-to-sqlite/)
 * [Webinar on Using Heroku in Production](https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* What are dynos? how do they work?
+* What are the two ways you can manage your application with heroku?
+* How do you create a new application with heroku?
+* Which of the database gems are supported by heroku?
+* What are asset errors? Why do they pop up?
+* How do you check the server output?
+* How can you run multiple rails apps at once?
