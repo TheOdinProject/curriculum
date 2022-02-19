@@ -207,7 +207,7 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    * Once you have switched to the correct branch on GitHub, click the "Contribute" dropdown and then click the "Open pull request" button.
 
 2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
-   * If a checkbox is not required and is not applicable to your PR, do not complete it. If you submit a PR to our main TOP repo that only involves making changes to documentaiton, for example, you would not need to run any tests.
+   * If a checkbox is not required and is not applicable to your PR, do not complete it. For example, if you submit a PR to our main TOP repo that only involves making changes to documentation, you would not need to run any tests.
    * The title of the PR must follow the format described in the PR template.
    * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
    * If the PR is not part of an open issue, be sure to describe the reason(s) for the change(s) in more detail in Step 1 of the PR template, as well as outlining the changes made in the PR in Step 2.
