@@ -13,16 +13,11 @@ There's a lot of material to read and cover, but it basically follows the idea "
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
-* What is an `ActiveRecord::Relation`?
-* What does Lazy Evaluation mean?
-* How do you make a relation evaluate into an array?
-* How do you check whether a database already contains a record?
-* Why is `#find_by` useful and how is it used?
-* What's the difference between what's returned using a `#where` query and a `#find` query?
-* How do you join tables together in Rails?
-* When can you use symbols / hashes and when do you need to use explicit strings for query parameters?
-* What are Scopes and why are they useful?
-* What needs to happen for a class method to act like a scope?
+* What is an Active Record relation?
+* What is lazy evaluation?
+* What are some commonly used Rails query methods?
+* What are N+1 queries and why are they a concern?
+* What are scopes?
 
 ### Relations and Lazy Evaluation
 
@@ -129,13 +124,13 @@ But if you're running queries like in the Post-Tag-count grouping example used a
   # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
 ~~~
 
-### N + 1 Queries and Eager Loading
+### N+1 Queries and Eager Loading
 
 If you want your application to run with any kind of efficiency at all, you should strive to reduce the number of queries that are run on your database as much as possible.  That means figuring out ahead of time exactly what you're looking for and then building the correct query to grab that thing one time only.
 
 It's okay to grab the SAME information multiple times... Rails caches the first result anyway so it doesn't result in a performance hit.  But there are situations where you force the `ActiveRecord::Relation` that is returned by a query to execute itself immediately and then you try to run queries on each member of the collection.  That's a whole lot of queries and can quickly slow your application down to a snail's pace.
 
-The N + 1 query problem is the classic case of this -- you grab all the records for your users (`User.all`) then loop through each user and call an association it has, like the city the user lives in (`user.city`).  For this example we're assuming an association exists between User and City, where User `belongs_to` a City.  This might look like:
+The N+1 query problem is the classic case of this -- you grab all the records for your users (`User.all`) then loop through each user and call an association it has, like the city the user lives in (`user.city`).  For this example we're assuming an association exists between User and City, where User `belongs_to` a City.  This might look like:
 
 ~~~ruby
   User.all.each do |user|
@@ -245,3 +240,13 @@ This section contains helpful links to other content. It isn't required, so cons
 * [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
 * [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
 * [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
+
+### Knowledge Check
+
+* <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>How does lazy evaluation help make Active Record more efficient?</a>
+* <a class='knowledge-check-link' href='#checking-for-existence'>How do you check whether a database already contains a record?</a>
+* <a class='knowledge-check-link' href='#more-assorted-querying-knowledge'>What is the difference between a `#where` query and a `#find` query?</a>
+* <a class='knowledge-check-link' href='#joins'>How do you join tables together in Rails?</a>
+* <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What is an example of an N+1 query?</a>
+* <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What method is used to deal with an N+1 query?</a>
+* <a class='knowledge-check-link' href='#scopes'>When would you use a class method in place of a scope?</a>
