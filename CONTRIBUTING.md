@@ -47,8 +47,8 @@ The labels that get applied to issues and PRs in our repos have specific meaning
 
 ### Type Labels
 * **Accessibility**: Involves an accessibility feature or requires accessibility review
-* **Bug**: Something isn't working as intended
-* **Chore**: Involves changes to the build process or internal tooling
+* **Bug**: Involves something that isn't working as intended
+* **Chore**: Involves changes with no user-facing value, to the build process/internal tooling, refactors, etc. 
 * **Documentation**: Involves an update to the documentation
 * **Duplicate**: This issue/PR already exists
 * **Easy Fix**: Involves a minor fix such as grammar, syntax, etc.
@@ -128,8 +128,9 @@ If you would like to work on an existing issue in a repo:
 1. If you would like to make a simple change that is not part of an existing issue, you are welcome to skip the next step and just submit a PR with your proposed change(s).
 
 2. Create a new issue and **read the issue template in its entirety and fill out all applicable sections**. If you aren't sure how to create an issue, you can read the GitHub documentation on [creating an issue from a repository](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository).
-   * The title of the issue should follow a format similar to `file, exercise/lesson, or folder: brief description of issue`. This makes it easier for anyone to quickly see what an issue is for, reducing the possibility of a duplicate issue from being made.
+   * The title of the issue must follow the format described in the issue template.
    * If you would like to be assigned the issue you are creating, complete the applicable checkbox in the issue template. Note that this does not guarantee that you will be assigned the issue, but rather it lets maintainers know that you are interested.
+   * The more information you are able to provide in your issue, the better.
 
 ### Setting Up Your Local Clone
 
@@ -206,17 +207,15 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    * Once you have switched to the correct branch on GitHub, click the "Contribute" dropdown and then click the "Open pull request" button.
 
 2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
-   * If a checkbox is not required and is not applicable to your PR, do not complete it. If your PR isn't related to an open issue, for example, you shouldn't complete the checkbox for linking an issue.
-   * The title of the PR should follow the format described in the PR template, which is usually some variation of `file, exercise/lesson, or folder: brief description of changes`. This makes it easier for anyone to quickly see what a PR is for, reducing the possibility of a duplicate PR from being made.
-   * Be sure you describe the change(s) you are proposing in more detail in Step 1 of the PR template. If the PR is not related to an open issue, you should also include why your proposed changes are beneficial or what problem(s) it solves. This gives maintainers the information to consider when deciding whether a PR should be merged.
-   * If the PR is related to an open issue, be sure to link that issue in Step 2 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
+   * If a checkbox is not required and is not applicable to your PR, do not complete it. If you submit a PR to our main TOP repo that only involves making changes to documentaiton, for example, you would not need to run any tests.
+   * The title of the PR must follow the format described in the PR template.
+   * If the PR is meant to close an open issue, you must link that issue in Step 1 of your PR. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
 
 3. At this point a maintainer will either leave general comments, request changes, or approve and merge your PR.
    * It is important to respond to any comments or requested changes in a timely manner, otherwise your PR may be closed without being merged due to inactivity.
-   * After pushing any requested changes to the branch you opened the PR with, be sure to re-request a review from the maintainer that requested those changes at the top of the right sidebar:
+   * After pushing any requested changes to the branch you opened the PR with, be sure to re-request a review from the maintainer that requested those changes at the top of the right sidebar (this will only appear when a maintainer is assigned as a reviewer or has requested changes):
 
       ![Reviewers section of GitHub's sidebar](https://user-images.githubusercontent.com/70952936/150647064-4fdd59d1-82a4-4f18-894d-0e43a5ee0ffb.jpg)
-
 
 ## Further Help
 Please let us know if you require any further help with any of the steps in this guide in our [contribution-suggestions-bugs-discussions Discord channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
