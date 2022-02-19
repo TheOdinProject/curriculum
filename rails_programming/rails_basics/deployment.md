@@ -10,7 +10,8 @@ By the end of this lesson, you should be able to do the following:
 * Explain what Heroku is and how it works.
 * Set up a new application with heroku.
 * Get a general overview of deployment and what goes on behind the scenes.
-* Deploy your applications to heroku.
+* Deploy your applications to heroku and manage them from the command line.
+* Set up a custom domain for your application.
 * Understand and debug the basic errors on deployment.
 
 ### Heroku Overview
@@ -21,13 +22,13 @@ Heroku is great for beginners because it's a free and "simple" push-to-deploy sy
 
 #### Instances and Traffic
 
-Heroku works by giving you virtual "Dynos" which run your app.  Basically, one dyno means one instance of your application running at one time.  That's sort of like having a single computer run your app, like you do on Localhost.  Multiple dynos is like having several copies of your app running simultaneously, which allows you to handle more traffic.  The cool thing about Rails is that you can always fire up more instances of your application if you start getting too much traffic and users start having to wait for their requests to be filled.
+Heroku works by giving you virtual "Dynos" which run your app.<span id="dyno-knowledge-check"> Basically, one dyno means one instance of your application running at one time.  That's sort of like having a single computer run your app, like you do on Localhost.</span> Multiple dynos is like having several copies of your app running simultaneously, which allows you to handle more traffic.  The cool thing about Rails is that you can always fire up more instances of your application if you start getting too much traffic and users start having to wait for their requests to be filled.
 
 For most of your apps, one dyno is plenty enough.  You can support a lot of traffic using just a single dyno, and Heroku gives you your first one for free. Unfortunately, if you don't visit your app for a while, Heroku will "shut down" the dyno and basically stop running your app continuously.  They don't want to waste resources supporting the thousands of apps that no one visits.
 
 This means that, the first time someone visits your site in a while, it will take 30-40 seconds to "fire up" a dyno with your app on it.  There are a couple solutions to this -- you can pay for an additional dyno, in which case Heroku will never idle any of your dynos, or you can set up another service to periodically ping your application (e.g. NewRelic, see below).
 
-Heroku lets you do your application management either from the command line (using the "Heroku CLI" set of commands) or by going to their website and clicking around.  Pretty much all the functions are available in both places, which is handy.
+<span id="management-knowledge-check">Heroku lets you do your application management either from the command line (using the "Heroku CLI" set of commands) or by going to their website and clicking around.</span>  Pretty much all the functions are available in both places, which is handy.
 
 #### Domains and Naming
 
@@ -64,8 +65,8 @@ We'll do a quick overview of how it will work. It's not meant to be a step-by-st
 
 * Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
 * Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
-* Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses.  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
-* Create a new Heroku application from the command line using `$ heroku create`.  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
+* Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up <span id="db-knowledge-check">PostgreSQL for production since it's the only database Heroku uses.</span>  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
+* <span id="new-app-knowledge-check">Create a new Heroku application from the command line using `$ heroku create`.</span>  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
 * Ready? Push using the command `$ git push heroku main`.
 * But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`.  If you've set up seeds, you can also run them now.
 
@@ -104,7 +105,7 @@ Your very first few times, you'll probably run into relatively straightforward e
 
 Another common early mistake is forgetting to include a gem (or forgetting to put it in the correct section of your gemfile -- remember we're in the `production` section, not the `development` section).
 
-Once the early errors are bypassed, another really common class of errors is related to the asset pipeline.  I'm not going to claim to understand where all these come from -- I've had asset pipeline issues dozens of times before and you can probably expect them as well.  For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets.  You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images (this should be apparent if you've got errors in your browser's console).
+Once the early errors are bypassed, another really common class of errors is <span id="asset-error-knowledge-check">related to the asset pipeline.  I'm not going to claim to understand where all these come from -- I've had asset pipeline issues dozens of times before and you can probably expect them as well.  For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets.  You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images</span> (this should be apparent if you've got errors in your browser's console).
 
 Deployment errors, including those with asset precompilation, are often solved by modifying your Rails configuration files.  The two main files you'll probably find yourself needing to edit are `config/environments/production.rb` (most common) and `config/initializers/some_gem.rb` (if a gem needs to be configured). Often the stuff you read on Stack Overflow will tell you to add or edit one of the options, e.g. `config.assets.compile = false`.  Bear with it.
 
@@ -112,7 +113,7 @@ For fixing a precompilation issue, you may also be prompted to manually precompi
 
 ### 500's While Running the Application
 
-No one likes getting that bland "We're sorry but something went wrong" message from Heroku.  They serve up a 500 error regardless of which error your application threw, which makes it doubly frustrating to diagnose them.  You'll want to open up the Heroku logs (`$ heroku logs -t`) to check out the server output.
+No one likes getting that bland "We're sorry but something went wrong" message from Heroku.  They serve up a 500 error regardless of which error your application threw, which makes it doubly frustrating to diagnose them.  <span id="logs-knowledge-check">You'll want to open up the Heroku logs (`$ heroku logs -t`) to check out the server output.</span>
 
 If this is your first deployment and your very first page served up a 500, did you remember to migrate your database?  That's a common one.
 
@@ -129,7 +130,7 @@ To get your environment variables to Heroku, you can either manage them using a 
 
 Dialing things back to the local environment, here are a few useful things to know to help you work more efficiently in development:
 
-* Use `$ rails server -p 3001` to create a Rails server on a different port (in the example, port 3001).  This way you can run multiple Rails apps at the same time.  Just go to http://localhost:3001 now to access the new app.
+* <span id="localhost-knowledge-check">Use `$ rails server -p 3001` to create a Rails server on a different port (in the example, port 3001).</span>  This way you can run multiple Rails apps at the same time.  Just go to http://localhost:3001 now to access the new app.
 
 ## Assignment
 
@@ -156,10 +157,10 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What are dynos? how do they work?
-* What are the two ways you can manage your application with heroku?
-* How do you create a new application with heroku?
-* Which of the database gems are supported by heroku?
-* What are asset errors? Why do they pop up?
-* How do you check the server output?
-* How can you run multiple rails apps at once?
+* <a class="knowledge-check-link" href="#dyno-knowledge-check">What are dynos? how do they work?</a>
+* <a class="knowledge-check-link" href="#management-knowledge-check">What are the two ways you can manage your application with heroku?</a>
+* <a class="knowledge-check-link" href="#new-app-knowledge-check">How do you create a new application with heroku?</a>
+* <a class="knowledge-check-link" href="#db-knowledge-check">Which of the database gems are supported by heroku?</a>
+* <a class="knowledge-check-link" href="#asset-error-knowledge-check">What are asset errors? Why do they pop up?</a>
+* <a class="knowledge-check-link" href="#logs-knowledge-check">How do you check the server output?</a>
+* <a class="knowledge-check-link" href="#localhost-knowledge-check">How can you run multiple rails apps at once?</a>
