@@ -128,7 +128,7 @@ hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 
 Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
 
-For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-2.7.1/Hash.html)
+For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Hash.html)
 
 ### Symbols as Hash Keys
 In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:
@@ -162,7 +162,7 @@ japanese_cars[:honda]   #=> "Accord"
 <div class="lesson-content__panel" markdown="1">
 
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
-2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/master/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
+2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
 </div>
 
 

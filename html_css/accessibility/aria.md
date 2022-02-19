@@ -14,9 +14,9 @@ By the end of this lesson, you should be able to:
 
 ### What is WAI-ARIA?
 
-WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so. Think of ARIA as something that fills in the accessible gaps left by native HTML.
+WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. <span id="wai-aria-purpose">The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so.</span> Think of ARIA as something that fills in the accessible gaps left by native HTML.
 
-It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:
+<span id="aria-limitations">It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:</span>
 
 * modify an element's appearance,
 * modify an element's behavior,
@@ -54,7 +54,7 @@ ARIA labels help users of assistive technologies better understand the content o
 
 You may remember being warned against using the `id` attribute earlier in the curriculum. To briefly recap, normally you want to avoid overusing `id` attributes or even using it when it isn't necessary (which more often than not, it isn't, and you should stick with using classes). There are several ARIA attributes, however, that actually *require* another element to have an `id`. 
 
-When using such ARIA attributes, you would provide an `id` to one element, and you would then pass in that `id` value as another element's ARIA attribute value. This creates a link between the elements, similar to how a `<label>` element's `for` attribute creates a link to an input's `id`. Of the three types of ARIA labels mentioned below, both `aria-labelledby` and `aria-describedby`are two of the ARIA attributes that require another element to be given an `id`.
+When using such ARIA attributes, you would provide an `id` to one element, and you would then pass in that `id` value as another element's ARIA attribute value. This creates a link between the elements, similar to how a `<label>` element's `for` attribute creates a link to an input's `id`. Of the three types of ARIA labels mentioned below, both `aria-labelledby` and `aria-describedby` are two of the ARIA attributes that require another element to be given an `id`.
 
 #### `aria-label`
 
@@ -139,7 +139,7 @@ Similar to how you can visually hide elements with the `hidden` HTML attribute o
 </button>
 ~~~
 
-While both of the above examples would look visually identical, the button in Example 1 would be announced by a screen reader as, "Add add book, button". The text content of the `<span>` and the text content of the button itself are concatenated as the accessible name of the button. The button in Example 2, however, hides the `<span>` from the accessibility tree so its text contents *isn't* added to the button's accessible name, meaning a screen reader would correctly announce "Add book, button".
+While both of the above examples would look visually identical, the button in Example 1 would be announced by a screen reader as, "Add add book, button". The text content of the `<span>` and the text content of the button itself are concatenated as the accessible name of the button. The button in Example 2, however, hides the `<span>` from the accessibility tree so its text content *isn't* added to the button's accessible name, meaning a screen reader would correctly announce "Add book, button".
 
 Be careful when using this attribute, though. When you give an element `aria-hidden='true'`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden='false'` to a child element won't have any effect if one of its parents still has `aria-hidden='true'`, either.
 
@@ -148,12 +148,12 @@ You should also be careful not to give an element `aria-hidden='true'` if it is 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What purpose does WAI-ARIA serve?
-* What are the four things ARIA can't do?
-* What are the five rules of ARIA?
-* What is the accessibility tree?
-* What are the differences between the three ARIA labels?
-* What does the `aria-hidden` attribute do?
+* <a class='knowledge-check-link' href='#wai-aria-purpose'>What purpose does WAI-ARIA serve?</a>
+* <a class='knowledge-check-link' href='#aria-limitations'>What are the four things ARIA can't do?</a>
+* <a class='knowledge-check-link' href='#the-five-rules-of-aria'>What are the five rules of ARIA?</a>
+* <a class='knowledge-check-link' href='#the-accessibility-tree'>What is the accessibility tree?</a>
+* <a class='knowledge-check-link' href='#aria-labels'>What are the differences between the three ARIA labels?</a>
+* <a class='knowledge-check-link' href='#hiding-content-from-the-accessibility-tree'>What does the `aria-hidden` attribute do?</a>
 
 ### Additional Resources
 
