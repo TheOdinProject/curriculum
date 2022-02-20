@@ -19,7 +19,7 @@ It's important to understand that while the WCAG can be incredibly helpful for b
 
 The WCAG are organized around four, core principles that should be kept in mind when implementing any sort of accessibility feature:
 
-1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. Light text on a light background could be difficult for some users with a visual impairment to perceive, for example.
+1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. For example, Light text on a light background could be difficult for some users with a visual impairment to perceive.
 
 2. **Operable:** Users must be able to operate any user interfaces or navigation, and interfaces cannot require an interaction which the user cannot perform. A navigation bar with drop-down menus that only expand when a mouse cursor hovers over them, for example, would not be operable by keyboard users giving those menu items focus.
 
