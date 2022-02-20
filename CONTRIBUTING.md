@@ -17,7 +17,7 @@ Thank you for expressing interest in contributing to The Odin Project (TOP)! Whe
 
 ## Curriculum Structure
 
-Between our website, repos, and Discord server, you're bound to see certain terms being used in regards to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
+Between our website, repos, and Discord server, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
 
 * **Path**: The broadest level of the curriculum structure. When you first start TOP, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
@@ -105,7 +105,7 @@ Before submitting a PR for any of our exercise repos, you must make sure any tes
 
 It's important that you look through any open issues or PRs in a repo before attempting to submit a new issue or work on a change, regardless of the complexity. This will help avoid any duplicates from being made, as well as prevent more than one person working on the same thing at the same time.
 
-If your proposal already exists in an open issue or PR, but you feel therer are details missing, comment on the issue/PR to let those involved know of those missing details.
+If your proposal already exists in an open issue or PR, but you feel there are details missing, comment on the issue/PR to let those involved know of those missing details.
 
 ### Being Assigned an Issue
 
@@ -138,7 +138,7 @@ Before you begin working on anything, make sure you follow these steps in order 
 
 1. Fork this repo to your own GitHub account. If you don't know how to do so, follow the GitHub documentation on how to [fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
-2. Clone this repo to your local machine with one of the commands below. Be sure the `<your username>` text is replaced with your actual GitHub username, and the `<repo name>` with the actual repo name. You can also read the GitHub documentaiton on [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+2. Clone this repo to your local machine with one of the commands below. Be sure the `<your username>` text is replaced with your actual GitHub username, and the `<repo name>` with the actual repo name. You can also read the GitHub documentation on [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
     ```bash
     # If you have SSH set up with Git:
