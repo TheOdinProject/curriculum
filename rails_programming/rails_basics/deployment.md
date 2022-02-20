@@ -28,7 +28,7 @@ For most of your apps, one dyno is plenty enough.  You can support a lot of traf
 
 This means that, the first time someone visits your site in a while, it will take 30-40 seconds to "fire up" a dyno with your app on it.  There are a couple solutions to this -- you can pay for an additional dyno, in which case Heroku will never idle any of your dynos, or you can set up another service to periodically ping your application (e.g. NewRelic, see below).
 
-<span id="management-knowledge-check">Heroku lets you do your application management either from the command line (using the "Heroku CLI" set of commands) or by going to their website and clicking around.</span>  Pretty much all the functions are available in both places, which is handy.
+Heroku lets you do your application management either from the command line (using the "Heroku CLI" set of commands) or by going to their website and clicking around.  Pretty much all the functions are available in both places, which is handy.
 
 #### Domains and Naming
 
@@ -36,7 +36,7 @@ Heroku will give you a random application name when you first deploy, something 
 
 *Note: If you change your app's name on Heroku, you'll probably need to manually update your Git remote so Git knows where to send your local application when you deploy to Heroku.*
 
-That domain name will always be yours on Heroku.  Obviously, in the real world, you want to link it to a custom domain of your own, e.g. `http://my_cool_domain.com`.  First you'll obviously need to purchase the domain from a registrar like GoDaddy or IWantMyName.  Try using [Domainr](https://domainr.com) to find new domains, it's great.
+That domain name will always be yours on Heroku.  Obviously, in the real world, you want to link it to a custom domain of your own, e.g. `http://my_cool_domain.com`.<span id="domain-knowledge-check">  First you'll obviously need to purchase the domain from a registrar like GoDaddy or IWantMyName.  Try using [Domainr](https://domainr.com) to find new domains, it's great.</span>
 
 Once you have your own domain, you will need to go in and point it to your `herokuapp.com` subdomain by changing the appropriate entry in your CNAME file.  Where does `mail.yourapp.com` or `www.yourapp.com` or `calendar.yourapp.com` go? That file, which lives at your Registrar, basically defines where incoming requests should go.  These settings are relatively easy to change but take several hours to take effect.
 
@@ -105,9 +105,9 @@ Your very first few times, you'll probably run into relatively straightforward e
 
 Another common early mistake is forgetting to include a gem (or forgetting to put it in the correct section of your gemfile -- remember we're in the `production` section, not the `development` section).
 
-Once the early errors are bypassed, another really common class of errors is <span id="asset-error-knowledge-check">related to the asset pipeline.  I'm not going to claim to understand where all these come from -- I've had asset pipeline issues dozens of times before and you can probably expect them as well.  For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets.  You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images</span> (this should be apparent if you've got errors in your browser's console).
+Once the early errors are bypassed, another really common class of errors is related to the asset pipeline.  I'm not going to claim to understand where all these come from -- I've had asset pipeline issues dozens of times before and you can probably expect them as well.  For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets.  You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images (this should be apparent if you've got errors in your browser's console).
 
-Deployment errors, including those with asset precompilation, are often solved by modifying your Rails configuration files.  The two main files you'll probably find yourself needing to edit are `config/environments/production.rb` (most common) and `config/initializers/some_gem.rb` (if a gem needs to be configured). Often the stuff you read on Stack Overflow will tell you to add or edit one of the options, e.g. `config.assets.compile = false`.  Bear with it.
+<span id="asset-error-knowledge-check">Deployment errors, including those with asset precompilation, are often solved by modifying your Rails configuration files.</span>  The two main files you'll probably find yourself needing to edit are `config/environments/production.rb` (most common) and `config/initializers/some_gem.rb` (if a gem needs to be configured). Often the stuff you read on Stack Overflow will tell you to add or edit one of the options, e.g. `config.assets.compile = false`.  Bear with it.
 
 For fixing a precompilation issue, you may also be prompted to manually precompile the assets yourself and then just pass Heroku the resulting file.  Sometimes this works... it's not a magic bullet and it gets to be a pain when you need to re-run the compilation command yourself every time you deploy changes to assets.
 
@@ -130,7 +130,7 @@ To get your environment variables to Heroku, you can either manage them using a 
 
 Dialing things back to the local environment, here are a few useful things to know to help you work more efficiently in development:
 
-* <span id="localhost-knowledge-check">Use `$ rails server -p 3001` to create a Rails server on a different port (in the example, port 3001).</span>  This way you can run multiple Rails apps at the same time.  Just go to http://localhost:3001 now to access the new app.
+* Use `$ rails server -p 3001` to create a Rails server on a different port (in the example, port 3001).  This way you can run multiple Rails apps at the same time.  Just go to http://localhost:3001 now to access the new app.
 
 ## Assignment
 
@@ -157,10 +157,9 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="#dyno-knowledge-check">What are dynos? how do they work?</a>
-* <a class="knowledge-check-link" href="#management-knowledge-check">What are the two ways you can manage your application with heroku?</a>
+* <a class="knowledge-check-link" href="#dyno-knowledge-check">What are dynos? How many of them are required to run your application?</a>
+* <a class="knowledge-check-link" href="#domain-knowledge-check">What are the steps required in order to change my application's domain name to `https://the-cool-app.com`?</a>
 * <a class="knowledge-check-link" href="#new-app-knowledge-check">How do you create a new application with heroku?</a>
 * <a class="knowledge-check-link" href="#db-knowledge-check">Which of the database gems are supported by heroku?</a>
-* <a class="knowledge-check-link" href="#asset-error-knowledge-check">What are asset errors? Why do they pop up?</a>
+* <a class="knowledge-check-link" href="#asset-error-knowledge-check">What are some common ways to tackle deployment errors such as those related to asset pipeline?</a>
 * <a class="knowledge-check-link" href="#logs-knowledge-check">How do you check the server output?</a>
-* <a class="knowledge-check-link" href="#localhost-knowledge-check">How can you run multiple rails apps at once?</a>
