@@ -101,6 +101,15 @@ Before starting any work on our main website repo, you must read and follow the 
 
 Before submitting a PR for any of our exercise repos, you must make sure any tests still pass or that any images showing desired outcomes are still accurate.
 
+<hr>
+
+#### [Odinbot Repo](https://github.com/TheOdinProject/odin-bot-v2)
+
+Before attempting to make any changes, be sure to read the following Wiki pages:
+* [Odinbit Commands](https://github.com/TheOdinProject/odin-bot-v2/wiki/Commands) for how to register a new command and how the callback function for a command works
+* [Odinbot Testing](https://github.com/TheOdinProject/odin-bot-v2/wiki/Testing) for how to setup or update test files for commands
+* [Getting Started](https://github.com/TheOdinProject/odin-bot-v2/wiki/Getting-Started) for how to setup Odinbot on your own server
+
 ### Check Before Doing Anything
 
 It's important that you look through any open issues or PRs in a repo before attempting to submit a new issue or work on a change, regardless of the complexity. This will help avoid any duplicates from being made, as well as prevent more than one person working on the same thing at the same time.
