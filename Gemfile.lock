@@ -260,7 +260,7 @@ GEM
     http-cookie (1.0.4)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
-    i18n (1.9.1)
+    i18n (1.10.0)
       concurrent-ruby (~> 1.0)
     inherited_resources (1.13.1)
       actionpack (>= 5.2, < 7.1)
@@ -503,13 +503,13 @@ GEM
       activerecord (>= 3.1)
       activesupport (>= 3.1)
     semantic_range (3.0.0)
-    sentry-rails (5.0.2)
+    sentry-rails (5.1.0)
       railties (>= 5.0)
-      sentry-ruby-core (~> 5.0.2)
-    sentry-ruby (5.0.2)
+      sentry-ruby-core (~> 5.1.0)
+    sentry-ruby (5.1.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      sentry-ruby-core (= 5.0.2)
-    sentry-ruby-core (5.0.2)
+      sentry-ruby-core (= 5.1.0)
+    sentry-ruby-core (5.1.0)
       concurrent-ruby
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
@@ -634,8 +634,8 @@ DEPENDENCIES
   ruby-progressbar (~> 1.11.0)
   sass-rails (~> 6.0)
   seed-fu (~> 2.3.9)
-  sentry-rails (~> 5.0.2)
-  sentry-ruby (~> 5.0.2)
+  sentry-rails (~> 5.1.0)
+  sentry-ruby (~> 5.1.0)
   shoulda-matchers
   sidekiq
   simplecov
