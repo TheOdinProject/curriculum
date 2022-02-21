@@ -103,16 +103,12 @@ Before submitting a PR for any of our exercise repos, you must make sure any tes
 
 <hr>
 
-#### [Odinbot Repo](https://github.com/TheOdinProject/odin-bot-v2)
-
-Before attempting to make any changes, be sure to read the following Wiki pages:
 #### [Odin-Bot Repo](https://github.com/TheOdinProject/odin-bot-v2)
 
 Before attempting to make any changes, be sure to read the following Wiki pages:
 * [Odin-Bot Commands](https://github.com/TheOdinProject/odin-bot-v2/wiki/Commands) for how to register a new command and how the callback function for a command works
 * [Odin-Bot Testing](https://github.com/TheOdinProject/odin-bot-v2/wiki/Testing) for how to setup or update test files for commands
 * [Getting Started](https://github.com/TheOdinProject/odin-bot-v2/wiki/Getting-Started) for how to setup Odin-Bot on your own server
-
 
 ### Check Before Doing Anything
 
