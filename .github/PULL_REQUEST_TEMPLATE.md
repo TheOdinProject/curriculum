@@ -1,20 +1,31 @@
-<!-- Thank you for taking the time to contribute to The Odin Project. In order to get pull requests (PRs) closed in a reasonable amount of time, you must include a baseline of information about the changes you are proposing. Please read this template in its entirety before filling it out to ensure that it is filled out correctly. -->
+<!-- Thank you for taking the time to contribute to The Odin Project. In order to get a pull request (PR) closed in a reasonable amount of time, you must include a baseline of information about the changes you are proposing. Please read this template in its entirety before filling it out to ensure that it is filled out correctly. -->
 
-<!-- Complete the following REQUIRED checkboxes by replacing the whitespace between the square brackets with an 'x', e.g. [x]. -->
-- [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
-- [ ] The title of this PR follows the `where the change occurs: brief description of change` format, e.g. `Intro to HTML and CSS lesson: Fix link text`
+Complete the following REQUIRED checkboxes:
+<!-- While editing this template, replace the whitespace between the square brackets with an 'x', e.g. [x] -->
+-   [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
+-   [ ] The title of this PR follows the `location of change: brief description of change` format, e.g. `Intro to HTML and CSS lesson: Fix link text`
 
-<!-- Complete the following checkboxes ONLY IF they are applicable to your PR. You can complete these later if they are not currently applicable. -->
-- [ ] I have previewed all lesson file(s) included in this PR with the [Markdown preview tool](https://www.theodinproject.com/lessons/preview) to ensure the Markdown content is formatted correctly.
-- [ ] If one exists, I have linked a related open issue to this PR in Step 2 below
-- [ ] If changes were requested, I have made them and re-requested a review from the maintainer (top of the right sidebar)
+Complete the following checkboxes ONLY IF they are applicable to your PR. You can complete them later if they are not currently applicable:
+-   [ ] I have previewed all lesson files included in this PR with the [Markdown preview tool](https://www.theodinproject.com/lessons/preview) to ensure the Markdown content is formatted correctly
+-   [ ] I have ensured all lesson files included in this PR follow the [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md)
 
-**1. Description of the Changes**
-<!-- A clear and concise description of your changes. If this PR is not related to an open issue also include why you are proposing these changes, such as what benefits the changes have or what problem(s) they solve. --> 
+<hr>
 
+**1. Because:**
+<!--
+If this PR closes an open issue, replace the XXXXX below with the issue number, e.g. Closes #2013. Or if the issue is in another TOP repo replace the #XXXXX with the URL of the issue, e.g. Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX
 
-**2. Related Issue**
-<!-- If the PR is not related to any open issue, skip this step. 
-
-Otherwise, replace the XXXXX with the issue number, e.g. Closes #2013, or if the issue is in another TOP repo replace #XXXXX with the URL of the issue, e.g. Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX -->
+Otherwise, provide a clear and concise reason for your pull request, e.g. what problem it solves or what benefit it provides. If this PR is related to, but does not close, another issue or PR, you can also link it as above without the 'Closes' keyword, e.g. "Related to #2013".
+ -->
 Closes #XXXXX
+
+
+**2. This PR:**
+<!--
+A bullet point list of one or more items outlining what was done in this PR to solve the problem(s) or implement the feature/enhancement.
+ -->
+
+
+**3. Additional Information:**
+<!-- Any additional information about the PR, such as a link to a Discord discussion, etc. -->
+
