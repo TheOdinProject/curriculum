@@ -3,13 +3,14 @@ Tracking down and fixing both errors and unexpected behavior in your code is an 
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
-### Learning Outcomes
+### Lesson Overview
 By the end of this lesson, you should be able to do the following:
 
- - Describe what a stack trace is.
- - Explain how you can use a stack trace to debug your code.
- - Explain how you can use `puts` and Pry to debug your code.
- - Explain how you should decide to start with debugging.
+ * What a stack trace is.
+ * How you can use a stack trace to debug your code.
+ * How you can use `puts` and Pry to debug your code.
+ * How to debug with the VSCode Ruby Debugger
+ * How you should decide to start with debugging.
 
 ### Reading the Stack Trace
 When your Ruby program crashes after encountering a runtime error or exception, it will produce a wall of text known as a **stack trace** that is then output in your terminal. A stack trace looks something like this:
@@ -22,7 +23,7 @@ The stack trace prints each line of code in your program that was executed befor
 
 <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png" title="source: imgur.com" alt="first line of stack trace" /></a>
 
-<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-3.0.3/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-3.0.3/Exception.html) are *also* objects.</span>
+<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-2.7.4/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-2.7.4/Exception.html) are *also* objects.</span>
 
 There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
@@ -90,14 +91,14 @@ irb(main):013:0> isogram?("Odin")
 => false
 ~~~
 
-Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-3.0.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-2.7.4/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
 Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
-This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-3.0.3/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
+This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-2.7.4/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
 ~~~ruby
 puts "Using puts:"
@@ -197,8 +198,13 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers everything about debugging in more depth.
+1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
 2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
+3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem, and adjust the Configuration. 
+4. If you're having a hard time figuring out how to navigate to your launch.json file in order to change the Configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
+5. Now that everything is installed and configured, set a breakpoint and Run the debugger! Play around with the functionality, this should all look very familiar to you, as the concepts are the same as those you learned in the [Javascript Developer Tools lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/javascript-developer-tools).
+6. Read through the [Ruby Debugger GitHub documentation](https://github.com/ruby/debug) to see if you can figure out how to set breakpoints with `binding.break` and play around with the debugger's version of `binding.pry`.
+7. Although VSCode's debugger is a beautiful tool that can make debugging much quicker and simpler, many companies won't be using it - and will want you to be familiar with `pry` - so make sure to practice using it in any way you can - whether that's through using `require 'debug'` and  `binding.break` or by using `require 'pry-byebug'` and `binding.pry`.
 </div>
 
 ### Additional Resources
