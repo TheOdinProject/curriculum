@@ -81,7 +81,7 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 <input type="text" id="first_name" placeholder="Bob...">
 ~~~
 
-Placeholder text should be example text that demonstrates what should be entered and in what format.
+Use placeholder text to demonstrate how text should be entered and formatted. 
 
 
 <span id="the-name-attribute">**The Name Attribute**</span>
@@ -303,7 +303,7 @@ We can set the default selected radio button by adding the `checked` attribute t
 
 **Checkboxes**
 
-Checkboxes are similar to radio buttons in that that they allow users to choose from a set of predefined options. But unlike radio buttons, they allow multiple options to be selected at once.
+Checkboxes are similar to radio buttons in that they allow users to choose from a set of predefined options. But unlike radio buttons, they allow multiple options to be selected at once.
 
 To create a checkbox, we use the input element with a `type` attribute of "checkbox":
 
@@ -363,7 +363,7 @@ The button element also accepts a `type` attribute that tells the browser which 
 
 **Submit Buttons**
 
-Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within.
+Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has value of submit by default, i.e if the `type` is not specified or the value provided is invalid.
 
 To create a submit button, we use the button element with a `type` attribute of "submit":
 
@@ -390,6 +390,8 @@ To create a generic button, we use the button element with a `type` attribute of
 ~~~html
 <button type="button">Click to Toggle</button>
 ~~~
+
+**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
 
 ### Organizing Form Elements
 
@@ -487,7 +489,7 @@ Text-based form controls like text, email, password and text areas are reasonabl
 
 Things get more tricky when creating custom styles for radio buttons and checkboxes. But there are many [guides](https://moderncss.dev/pure-css-custom-checkbox-style) out there you can use to achieve your desired design. There have also been [new CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color) made available in recent times to make styling radio buttons and checkboxes much easier.
 
-Certain aspects of other elements are downright impossible to style, for example, calendar of date pickers. If we want custom styles for these, we will have to build custom form control with JavaScript or use one of the many JavaScript libraries that provide us with ready-made solutions.
+Certain aspects of other elements are downright impossible to style, for example, calendar or date pickers. If we want custom styles for these, we will have to build custom form controls with JavaScript or use one of the many JavaScript libraries that provide us with ready-made solutions.
 
 ### Assignment
 

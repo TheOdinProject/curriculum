@@ -1,3 +1,4 @@
+### Introduction
 Let's look a little closer at what actually happened when you put `flex: 1` on those flex items in the last lesson.
 
 ### Learning Outcomes

@@ -22,7 +22,7 @@ The stack trace prints each line of code in your program that was executed befor
 
 <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/basic_ruby/debugging/imgs/01.png" title="source: imgur.com" alt="first line of stack trace" /></a>
 
-<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-2.7.4/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-2.7.4/Exception.html) are *also* objects.</span>
+<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 30 of the file `lib/bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-3.0.3/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-3.0.3/Exception.html) are *also* objects.</span>
 
 There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
@@ -90,14 +90,14 @@ irb(main):013:0> isogram?("Odin")
 => false
 ~~~
 
-Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-2.7.4/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-3.0.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
 Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
-This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-2.7.4/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
+This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-3.0.3/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
 ~~~ruby
 puts "Using puts:"

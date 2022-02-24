@@ -33,7 +33,7 @@ All the properties here are simply to make our grid items look a bit nicer. They
 
 ##### `.grid-container`
 
-For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom left corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
+For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom right corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
 
 We use `overflow: auto` to enable scrolling if we resize the container to be smaller than our grid can accommodate.
 
@@ -211,7 +211,7 @@ Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not ju
 
 What this does is allow our item to resize itself until it reaches one of the minimum or maximum threshold values.
 
-Since `clamp()`'s purpose it to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
+Since `clamp()`'s purpose is to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
 
 Here is a simple non-grid example. We will look back at our grid in a moment:
 
@@ -242,9 +242,9 @@ Notice how the tracks stay at `20%` of the width of the container until they hit
 
 Using `clamp()` and `minmax()` are fantastic methods for making grids more responsive while ensuring we don't hit critical breakpoints that make our website look bad. This is imperative when using images and elements that may have a tendency to overflow or render in undesirable ways when pushed to extreme sizes.
 
-### `auto-fit` and `auto-fill`
+### auto-fit and auto-fill
 
-These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
+These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that are flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
 According to the W3 specification, both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
 

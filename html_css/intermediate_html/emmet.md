@@ -35,10 +35,13 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 <div class="lesson-content__panel" markdown="1">
 1. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on Emmet. Go ahead and watch it.
 2. Take a look at the <a href="https://docs.emmet.io/cheat-sheet/">Emmet cheat sheet</a>. You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
-3. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a> Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
+3. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a>. Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* [Emmet Keybindings](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings) by [Andrés Gutiérrez](https://agutierrezr.github.io/), is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don't know what to map to which keys. 
 
 ### Knowledge Check
 

@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to:
 * Name the 4 principles of the WCAG.
 
 ### Web Content Accessibility Guidelines
-The WCAG exist in order to help create a shared standard when it comes to web accessibility. Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it. 
+<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span> Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it. 
 
 It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are simply guidelines, and they will only help us make websites *more* accessible.
 
@@ -19,7 +19,7 @@ It's important to understand that while the WCAG can be incredibly helpful for b
 
 The WCAG are organized around four, core principles that should be kept in mind when implementing any sort of accessibility feature:
 
-1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. Light text on a light background could be difficult for some users with a visual impairment to perceive, for example.
+1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. For example, Light text on a light background could be difficult for some users with a visual impairment to perceive.
 
 2. **Operable:** Users must be able to operate any user interfaces or navigation, and interfaces cannot require an interaction which the user cannot perform. A navigation bar with drop-down menus that only expand when a mouse cursor hovers over them, for example, would not be operable by keyboard users giving those menu items focus.
 
@@ -53,8 +53,8 @@ The second thing to keep in mind is that just taking those first few steps towar
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the purpose of the Web Content Accessibility Guidelines?
-* What are the 4 principles of the WCAG?
+- <a class="knowledge-check-link" href="#wcag-purpose">What is the purpose of the Web Content Accessibility Guidelines?</a>
+- <a class="knowledge-check-link" href="#the-four-principles">What are the 4 principles of the WCAG?</a>
 
 ### Additional Resources
 

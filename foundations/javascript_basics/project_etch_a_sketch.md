@@ -12,10 +12,10 @@ If you get totally stuck, drop by the chatroom. Someone will be there to point y
 
 Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/html_css/html-foundations/commit-messages.md)!
 
-1. [Follow the instructions atop Odin's Recipes project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository) to set up a git repository for this project.
+1. [Follow the instructions atop Odin's Recipes project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository) to set up a Git repository for this project.
 2. Create a webpage with a 16x16 grid of square divs.
-   1. Create the divs using JavaScript. Don't try making them by hand with copy and pasting in your html file!
-   2. It's best to put your grid squares inside another "container" div \(which can go directly in your html\).
+   1. Create the divs using JavaScript. Don't try making them by hand with copy and pasting in your HTML file!
+   2. It's best to put your grid squares inside another "container" div \(which can go directly in your HTML\).
    3. There are several different ways to make the divs appear as a grid \(versus just one on each line\). Feel free to use any or play with each of them:
       1. float/clear
       2. inline-block

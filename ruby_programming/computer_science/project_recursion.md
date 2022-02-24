@@ -5,9 +5,13 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 ### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Using iteration, write a method `#fibs` which takes a number and returns an array containing that many numbers from the fibonacci sequence.
+  1. Using iteration, write a method `#fibs` which takes a number and returns an array containing that many numbers from the fibonacci sequence. Using an example input of `8`, this method should return the array `[0, 1, 1, 2, 3, 5, 8, 13]`.
   2. Now write another method `#fibs_rec` which solves the same problem recursively.  This can be done in just 3 lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
 </div>
+
+#### Understanding Recursive Fibonacci
+
+Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this method, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonnaci Explained](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) is also very helpful!
 
 ### Project: Merge Sort
 
@@ -19,9 +23,10 @@ It can be a bit strange to wrap your head around, but just remember you're "divi
 
 The first step is to actually understand what the merge sort algorithm is doing:
 
-1. Check out [this introductory video](https://youtu.be/Ns7tGNbtvV4) from Harvard's CS50x course.
-2. Check out [this more detailed explanation](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) by David J. Malan (watch only until 1:14:00).
+1. Check out this [introductory video from Harvard's CS50x course](https://youtu.be/Ns7tGNbtvV4).
+2. Check out this more [detailed video explanation by David J. Malan](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) (watch only until 1:14:00).
 3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
+4. (Optional) Play with this [Merge Sort Visualizer](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) to get a better feel for exactly what is happening during a Merge Sort.
 
 ### Assignment 2
 <div class="lesson-content__panel" markdown="1">

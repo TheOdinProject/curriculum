@@ -1,6 +1,6 @@
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) and **Google Chrome**, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 **Please Note**: We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 
@@ -124,7 +124,7 @@ While your VM is running, do the following steps:
   5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
   6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + w` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
   7. Enter your password when it asks you to. **(__note__: Your password will not be visible in the terminal. You will not see any feedback when you type. This is a security feature to protect your password. Press `Enter` when done.)**
-  8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt-get install build-essential` and enter your password. Otherwise, move on to Step 9.
+  8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt install build-essential` and enter your password. Otherwise, move on to Step 9.
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   11. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
@@ -231,7 +231,7 @@ For step-by-step instructions, please follow this [installation guide](https://t
    
 ### Intel RST (Rapid Storage Technology)
 
-If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
+If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
 
 </details>
 
