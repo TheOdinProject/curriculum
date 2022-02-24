@@ -24,6 +24,8 @@ If you are having trouble:
 - Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
 #### Tips on when to commit
+Don't forget everything we went over in the [previous lesson](https://www.theodinproject.com/paths/html_css/html-foundations/commit-messages.md) about commit messages!
+
 When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`.
 
 When writing code, it's considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere.
