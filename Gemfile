@@ -46,7 +46,7 @@ gem 'uglifier', '~> 4.2'
 gem 'view_component', '~> 2.49'
 gem 'webpacker'
 
-group :development, :test, :docker do
+group :development, :test do
   gem 'capybara'
   gem 'climate_control'
   gem 'cuprite'
@@ -65,7 +65,7 @@ group :development, :test, :docker do
   gem 'webmock', '~> 3.14'
 end
 
-group :development, :docker do
+group :development do
   gem 'better_errors'
   gem 'binding_of_caller', '~> 1.0'
   gem 'derailed'

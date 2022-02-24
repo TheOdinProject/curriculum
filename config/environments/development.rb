@@ -65,9 +65,6 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-  # Allow web console for docker environments, RFC1918 Reserved IP Range
-  config.web_console.allowed_ips = '172.16.0.0/12'
-
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
 
