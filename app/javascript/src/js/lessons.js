@@ -8,9 +8,10 @@ const LESSON_HEADINGS = [
   'Assignment',
   'Assignment 1',
   'Assignment 2',
-  'Additional Resources',
+  'Practice',
   'Exercises',
   'Knowledge Check',
+  'Additional Resources',
 ];
 
 function getElements(selector) {
@@ -26,13 +27,12 @@ function kebabCase(text) {
 }
 
 function navigationElement(headingText) {
-  return (
-    `${'<div class="lesson-navigation__item">'
-    + '<div class="lesson-navigation__circle"></div>'
-    + '<div class="lesson-navigation__title">'
-    + '<a class="lesson-navigation__link grey" href="#'}${kebabCase(headingText)}">${headingText
-    }</a></div></div>`
-  );
+  return `${
+    '<div class="lesson-navigation__item">' +
+    '<div class="lesson-navigation__circle"></div>' +
+    '<div class="lesson-navigation__title">' +
+    '<a class="lesson-navigation__link grey" href="#'
+  }${kebabCase(headingText)}">${headingText}</a></div></div>`;
 }
 
 function lessonNavigation(headings) {
@@ -89,7 +89,8 @@ function constructLessonNavigation() {
     lessonColumn.classList.add('justify-content-center');
   } else {
     const lessonNavigationHTML = lessonNavigation(commonHeadings);
-    const lessonNavigationElement = document.querySelector('.lesson-navigation');
+    const lessonNavigationElement =
+      document.querySelector('.lesson-navigation');
     lessonNavigationElement.innerHTML = lessonNavigationHTML;
     addActiveClass();
     Stickyfill.add(lessonNavigationElement);
@@ -119,8 +120,10 @@ function buildScrollSpy(heading) {
 
   heading.parentNode.insertBefore(section, heading);
 
-  while (heading.nextElementSibling !== null
-    && heading.nextElementSibling.tagName !== 'H3') {
+  while (
+    heading.nextElementSibling !== null &&
+    heading.nextElementSibling.tagName !== 'H3'
+  ) {
     section.appendChild(heading.nextElementSibling);
   }
 
@@ -146,8 +149,9 @@ function makeSimpleContentImagesClickable() {
   const images = getElements('.lesson-content img');
 
   // If there is already a wrapping anchor tag, we do not want to add another
-  [...images].filter(image => image.parentElement.nodeName !== 'a')
-  .forEach(makeImageChildOfAnchor);
+  [...images]
+    .filter((image) => image.parentElement.nodeName !== 'a')
+    .forEach(makeImageChildOfAnchor);
 }
 
 function makeImageChildOfAnchor(image) {
