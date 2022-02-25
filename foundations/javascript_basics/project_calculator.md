@@ -9,7 +9,7 @@ As usual with these things, there are elements of this project that are not goin
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/html_css/html-foundations/commit-messages.md)!
+Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
 Here are some use cases (abilities your project needs to have):
 
