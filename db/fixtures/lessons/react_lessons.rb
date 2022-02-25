@@ -75,6 +75,20 @@ def react_lessons
       is_project: false,
       url: '/javascript/react-js/advanced-concepts.md',
       identifier_uuid: 'e2a290b1-cc94-498b-ba32-a40ddfbf2a3a',
+    },
+    'React Testing Part 1' => {
+      title: 'React Testing Part 1',
+      description: 'React Testing Part 1',
+      is_project: false,
+      url: '/javascript/react-js/react-testing-part-one.md',
+      identifier_uuid: 'eb121904-73da-4e2a-9c54-d42bcd9f69a4',
+    },
+    'React Testing Part 2' => {
+      title: 'React Testing Part 2',
+      description: 'React Testing Part 2',
+      is_project: false,
+      url: '/javascript/react-js/react-testing-part-two.md',
+      identifier_uuid: 'cae4657e-6f16-4603-ab20-acc1a560cdab',
     }
   }
 end
