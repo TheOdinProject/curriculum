@@ -178,13 +178,13 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-links" href="#setting-up">What packages are required for React testing?</a>
-* <a class="knowledge-check-links" href="#user-event">What is the significance of the user-event package?</a>
-* <a class="knowledge-check-links" href="https://testing-library.com/docs/react-testing-library/api/#render">What does the `render` method do?</a>
-* <a class="knowledge-check-links" href="#by-role-methods">What is the most preferred method for querying?</a>
-* <a class="knowledge-check-links" href="#simulating-user-events">How would you test for a click event with `userEvent`?</a>
-* <a class="knowledge-check-links" href="#advantage-snapshot-tests">What is the advantage of snapshot tests?</a>
-* <a class="knowledge-check-links" href="#disadvantage-snapshot-tests">What are the disadvantages of snapshot tests?</a>
+* <a class="knowledge-check-link" href="#setting-up">What packages are required for React testing?</a>
+* <a class="knowledge-check-link" href="#user-event">What is the significance of the user-event package?</a>
+* <a class="knowledge-check-link" href="https://testing-library.com/docs/react-testing-library/api/#render">What does the `render` method do?</a>
+* <a class="knowledge-check-link" href="#by-role-methods">What is the most preferred method for querying?</a>
+* <a class="knowledge-check-link" href="#simulating-user-events">How would you test for a click event with `userEvent`?</a>
+* <a class="knowledge-check-link" href="#advantage-snapshot-tests">What is the advantage of snapshot tests?</a>
+* <a class="knowledge-check-link" href="#disadvantage-snapshot-tests">What are the disadvantages of snapshot tests?</a>
 
 ### Additional Resources
 
