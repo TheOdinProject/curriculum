@@ -56,9 +56,17 @@ Back in the `index.html` lets add the `<html>` element by typing out its opening
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
+#### The Charset Meta Element
+
+We should always have the meta tag for the charset encoding of the webpage in the head element: `<meta charset="utf-8">`.
+
+Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+
+There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head as and when we need them throughout the rest of the curriculum.
+
 #### Title Element
 
-One element we should always include in the head of an HTML document is the title element:
+Another element we should always include in the head of an HTML document is the title element:
 
  `<title>My First Webpage</title>`
 
@@ -66,23 +74,15 @@ The title element is used to give webpages a human-readable title which is displ
 
 If we didn't include a title element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 
-#### The Charset Meta Element
-
-Another important element we should always have in the head element is the meta tag for the charset encoding of the webpage: `<meta charset="utf-8">`.
-
-Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
-
-There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head as and when we need them throughout the rest of the curriculum.
-
-Back in our `index.html`, let's add a head element with a title and a charset meta element within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
+Back in our `index.html`, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
 
 ~~~html
 <!DOCTYPE html>
 
 <html lang="en">
   <head>
-    <title>My First Webpage</title>
     <meta charset="UTF-8">
+    <title>My First Webpage</title>
   </head>
 </html>
 ~~~
@@ -97,8 +97,8 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My First Webpage</title>
     <meta charset="UTF-8">
+    <title>My First Webpage</title>
   </head>
 
   <body>
@@ -127,8 +127,8 @@ Back in the `index.html` file, lets add a heading (more on these later) to the b
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My First Webpage</title>
     <meta charset="UTF-8">
+    <title>My First Webpage</title>
   </head>
 
   <body>
