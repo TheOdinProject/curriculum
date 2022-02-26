@@ -174,7 +174,8 @@ Now that you've had a second to gather your thoughts and attempt to wrap your he
 You might be feeling overwhelmed at this point, so let's recap what we've learned. A branch is simply a pointer to a single commit. A commit is a snapshot, and a pointer at the commit directly behind it in history. That's it!
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to other content. It isn't required, so consider it supplemental..
+
 * Read this [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
 * Watch this [video about Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example of how to use both rebase and merge.
 * Read the chapter on [Branches covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.
