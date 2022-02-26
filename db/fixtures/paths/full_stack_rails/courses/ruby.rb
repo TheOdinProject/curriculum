@@ -119,6 +119,7 @@ course.add_section do |section|
     ruby_lessons.fetch('Recursive Methods'),
     ruby_lessons.fetch('Recursion'),
     ruby_lessons.fetch('Common Data Structures and Algorithms'),
+    ruby_lessons.fetch('A Deeper Look at Git'),
     ruby_lessons.fetch('Linked Lists'),
     ruby_lessons.fetch('Binary Search Trees'),
     ruby_lessons.fetch('Knights Travails'),
@@ -149,7 +150,6 @@ course.add_section do |section|
   section.identifier_uuid = '4e059547-a8fd-426d-b546-24c2222106c6'
 
   section.add_lessons(
-    ruby_lessons.fetch('A Deeper Look at Git'),
     ruby_lessons.fetch('Using Git in the Real World'),
   )
 end

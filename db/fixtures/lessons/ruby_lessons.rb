@@ -222,6 +222,13 @@ def ruby_lessons
       url: '/ruby_programming/computer_science/lesson_common_data_structures_algorithms.md',
       identifier_uuid: '5aeae574-0b2a-4899-b3e6-c6230fd8b6f5',
     },
+    'A Deeper Look at Git' => {
+      title: 'A Deeper Look at Git',
+      description: 'Beyond just `$ git add` and `$ git commit`...',
+      is_project: false,
+      url: '/ruby_programming/git/lesson_a_deeper_look_at_git.md',
+      identifier_uuid: '52b17564-0e1d-4c4f-adfa-acba53bf9126',
+    },
     'Linked Lists' => {
       title: 'Linked Lists',
       description: 'Build one of the most fundamental data structures.',
@@ -271,13 +278,6 @@ def ruby_lessons
       accepts_submission: true,
       has_live_preview: true,
       identifier_uuid: '33440cca-8fbf-46fe-9265-67d938fe1d8c',
-    },
-    'A Deeper Look at Git' => {
-      title: 'A Deeper Look at Git',
-      description: 'Beyond just `$ git add` and `$ git commit`...',
-      is_project: false,
-      url: '/ruby_programming/git/lesson_a_deeper_look_at_git.md',
-      identifier_uuid: '52b17564-0e1d-4c4f-adfa-acba53bf9126',
     },
     'Using Git in the Real World' => {
       title: 'Using Git in the Real World',

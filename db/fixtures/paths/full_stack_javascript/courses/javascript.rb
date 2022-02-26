@@ -88,6 +88,7 @@ course.add_section do |section|
   section.add_lessons(
     javascript_lessons.fetch('Testing Basics'),
     javascript_lessons.fetch('Testing Practice'),
+    javascript_lessons.fetch('A Deeper Look at Git'),
     javascript_lessons.fetch('More Testing'),
     javascript_lessons.fetch('Battleship'),
   )
