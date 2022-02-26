@@ -157,8 +157,8 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="#dyno-knowledge-check">What are dynos? How many of them are required to run your application?</a>
-* <a class="knowledge-check-link" href="#domain-knowledge-check">What are the steps required in order to change my application's domain name to `https://the-cool-app.com`?</a>
+* <a class="knowledge-check-link" href="#dyno-knowledge-check">What's the minimum number of dynos you need to run your app on Heroku?</a>
+* <a class="knowledge-check-link" href="#domain-knowledge-check">What are the steps required in order to change your application's domain name to `https://the-cool-app.com`?</a>
 * <a class="knowledge-check-link" href="#new-app-knowledge-check">How do you create a new application with heroku?</a>
 * <a class="knowledge-check-link" href="#db-knowledge-check">Which of the database gems are supported by heroku?</a>
 * <a class="knowledge-check-link" href="#asset-error-knowledge-check">What are some common ways to tackle deployment errors such as those related to asset pipeline?</a>
