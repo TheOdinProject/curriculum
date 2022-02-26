@@ -8,15 +8,10 @@ The actual production of the email is what we'll cover here... i.e. how do you m
 Look through these now and then use them to test yourself after doing the assignment.
 
 * What is a mailer?
-* How do you set up a new mailer from the command line?
 * How are mailers similar to controllers?  To models?
-* How do you pass instance variables from the mailer to the mailer view?
-* Why do you need both a text and HTML version of your mails?
-* How do you send an email directly from the Rails console?
-* How can you take advantage of add-ons and third-party programs to send email?
-* What is the `letter_opener` gem good for?
-* Why can't you use `*_path` link helpers in mailer views?
-* How do you style up a pretty looking HTML email?
+* Why do you need both a text and an HTML version of your mailers?
+* What is an email add-on used for?
+* What is the `letter_opener` gem used for?
 
 ### Brief Overview
 
@@ -77,3 +72,12 @@ Sending email is just a slightly different way of using the same patterns you've
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)
+
+### Knowledge Check
+
+* <a class='knowledge-check-link' href='#brief-overview'>How do you create a new mailer from the command line?</a>
+* <a class='knowledge-check-link' href='#brief-overview'>Where do you store the actual email in your application?</a>
+* <a class='knowledge-check-link' href='#brief-overview'>How do you send an email directly from the Rails console?</a>
+* <a class='knowledge-check-link' href='#callbacks'>How do you use callbacks with mailers?</a>
+* <a class='knowledge-check-link' href='#email-wisdom'>How do you write links in mailer views?</a>
+* <a class='knowledge-check-link' href='#email-wisdom'>How do you style an HTML email?</a>
