@@ -24,29 +24,29 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 
 #### Initial Setup
 
-0. Read [the contributing guide](https://github.com/TheOdinProject/theodinproject/wiki/Contributing-Guide) for the project
-1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub. **NTS add screenshot**
-2. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub)
-3. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
+1. Read [the contributing guide](https://github.com/TheOdinProject/theodinproject/wiki/Contributing-Guide) for the project
+1. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+1. Clone your forked repository onto your local machine using something like `$ git clone git@github.com:your_user_name_here/theodinproject.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub)
+1. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `$ git remote add upstream git@github.com:TheOdinProject/theodinproject.git` inside the project folder `theodinproject`.
 
 #### Ongoing Workflow
 
 We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch.
 
-4. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.
-5. Code, commit, code, commit, code, commit (see a pattern?)
-6. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `main` branch is probably out of date.  Fetch the most updated copy using `$ git fetch upstream`.
-7. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/main` among them.
-8. Now merge the upstream's changes into your local version of `main` using `$ git merge`.  Specifically, you'll first want to make sure you're on your `main` branch using `$ git checkout main` and then `$ git merge upstream/main` to merge in those upstream changes that we just fetched.  
-9. Note that a `$ git fetch upstream` followed by a `$ git merge upstream/some_branch` is the EXACT same thing as doing a `$ git pull upstream/some_branch`.  I prefer to split it up so I can explicitly walk through the steps.
-10. Now that your `main` branch is up-to-date with upstream, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `main` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `main`), you want it to be a clean and conflict-free merge.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  So do a `$ git checkout your_feature_name` to jump back onto your feature branch then a  `$ git merge main` to merge `main` into it.
-11. You may have merge conflicts... resolve those using the skills you learned in the Advanced Git lesson! **NTS ADD LINK**
+1. Create a new feature branch for whatever feature you want to build, using `$ git checkout -b your_feature_name`.
+1. Code, commit, code, commit, code, commit (see a pattern?)
+1. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `main` branch is probably out of date.  Fetch the most updated copy using `$ git fetch upstream`.
+1. Type `$ git branch --all` to see a list of all the branches, including the ones that are normally hidden (e.g. the remote branches you just grabbed).  You should see `upstream/main` among them.
+1. Now merge the upstream's changes into your local version of `main` using `$ git merge`.  Specifically, you'll first want to make sure you're on your `main` branch using `$ git checkout main` and then `$ git merge upstream/main` to merge in those upstream changes that we just fetched.  
+1. Note that a `$ git fetch upstream` followed by a `$ git merge upstream/some_branch` is the EXACT same thing as doing a `$ git pull upstream/some_branch`.  I prefer to split it up so I can explicitly walk through the steps.
+1. Now that your `main` branch is up-to-date with upstream, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `main` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `main`), you want it to be a clean and conflict-free merge if possible.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  Run `$ git checkout your_feature_name` to jump back onto your feature branch, then  `$ git merge main` to merge `main` into it.
+1. You may have merge conflicts... resolve those using the skills you learned in [the Deeper Look at Git lesson](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/a-deeper-look-at-git)!
 #### Sending Your Pull Request
 
-12. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over. All that's left is to make the Pull Request (often abbreviated as PR) against our `upstream` repo on GitHub!
-13. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). <span id="send-changes">You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.</span>  Use `$ git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
-14. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
-15. Shake your moneymaker, you're an OSS contributor!
+1. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over. All that's left is to make the Pull Request (often abbreviated as PR) against our `upstream` repo on GitHub!
+1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). <span id="send-changes">You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.</span>  Use `$ git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
+1. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
+1. Shake your moneymaker, you're an OSS contributor!
 
 ### Assignment
 
@@ -71,7 +71,7 @@ This section contains helpful links to other content. It isn't required, so cons
 Sometimes (okay, maybe a lot of times) when you're working with Git, something goes terribly wrong. Don't panic! Git is designed to help you recover from your misfortune. These resources will help you get back on track towards version control nirvana:
 
 * [Oh sh!t git](http://ohshitgit.com/) is a quick reference to get you out of common Git problems.
-* This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
+* This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various 
 * If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.
 
 ### Knowledge Check
