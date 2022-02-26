@@ -1,10 +1,3 @@
-### Learning Outcomes
-
-By the end of this lesson, you should be able to do the following:
-
-- Use a Git workflow to make an open source contribution
-- Understand the inner workings of Git
-
 ### Introduction
 
 Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
@@ -12,6 +5,12 @@ Git basics are very simple, but it sometimes feels like a bottomless pit when yo
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.  
 
 To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
+
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+* Using Git to make open source contributions
 
 ### A Git Workflow For Open Source Contribution
 
@@ -51,6 +50,15 @@ We've got one main branch -- `main`.  `main` is for production-ready code.  Any 
   1. Read through this great resource to get a solid understanding of [how git works](http://think-like-a-git.net/)
 </div>
 
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class='knowledge-check-link' href='#initial-setup'>What name is typically given for a Git remote that points to a repo that's been forked? </a>
+* <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
+* <a class='knowledge-check-link' href='#ongoing-workflow'>What should you do immediately before merging your feature branch into main?</a>
+
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental..
 
@@ -69,10 +77,3 @@ Sometimes (okay, maybe a lot of times) when you're working with Git, something g
 * [Oh sh!t git](http://ohshitgit.com/) is a quick reference to get you out of common Git problems.
 * This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various 
 * If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.
-
-### Knowledge Check
-
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- <a class='knowledge-check-link' href='#send-changes'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
-- <a class='knowledge-check-link' href='http://sethrobertson.github.io/GitBestPractices/#pubonce'>Should you rewrite the public history in a repository that's shared with others?</a>
