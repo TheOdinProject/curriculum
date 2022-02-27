@@ -159,6 +159,27 @@ We have two elements with the `subsection` class that have some sort of unique s
 
 What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, with the exception of chaining more than one [type selector](#type-selectors).
 
+This can also be used to chain a class and an ID, as shown below:
+
+~~~html
+<div>
+  <div class="subsection header">Latest Posts</div>
+  <p class="subsection" id="preview">This is where a preview for a post might go.</p>
+</div>
+~~~
+
+You can take the two elements above and combine them with the following:
+
+~~~css
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+~~~
+
 In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p`, would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist. 
 
 #### Descendant Combinator
