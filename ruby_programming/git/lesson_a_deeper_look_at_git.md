@@ -22,6 +22,7 @@ Look through these now and then use them to test yourself after going through th
 So let's say you're comfortable writing good commit messages and you're working with branches to have a good Git workflow going. But nobody is perfect, and as you're writing some beautiful code something goes wrong! Maybe you commit too early and are missing a file. Maybe you mess up one of your commit messages and omit a vital detail. 
 
 Let's look at some ways we can change recent and distant history to fit our needs. We're going to cover how to:
+
 - Change our most recent commit
 - Change multiple commit messages
 - Reorder commits
