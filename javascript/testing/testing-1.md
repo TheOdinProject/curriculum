@@ -29,7 +29,3 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
 - <a class="knowledge-check-link" href="https://jestjs.io/docs/using-matchers#common-matchers">What are some common jest matchers?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=699">How should you test incoming query messages?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=792">Why should you not test implementation?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1102">Should you test private methods?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1370">Why should you not test messages with no side effects?</a>
