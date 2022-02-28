@@ -506,10 +506,10 @@ GEM
     sentry-rails (5.1.0)
       railties (>= 5.0)
       sentry-ruby-core (~> 5.1.0)
-    sentry-ruby (5.1.0)
+    sentry-ruby (5.1.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      sentry-ruby-core (= 5.1.0)
-    sentry-ruby-core (5.1.0)
+      sentry-ruby-core (= 5.1.1)
+    sentry-ruby-core (5.1.1)
       concurrent-ruby
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
@@ -635,7 +635,7 @@ DEPENDENCIES
   sass-rails (~> 6.0)
   seed-fu (~> 2.3.9)
   sentry-rails (~> 5.1.0)
-  sentry-ruby (~> 5.1.0)
+  sentry-ruby (~> 5.1.1)
   shoulda-matchers
   sidekiq
   simplecov
