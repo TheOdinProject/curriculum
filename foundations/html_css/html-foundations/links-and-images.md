@@ -1,6 +1,6 @@
 ### Introduction
 
-Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web. The internet is essentially a web of HTML pages connected to one another with links.
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web.
 
 In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
