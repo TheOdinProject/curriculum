@@ -36,15 +36,19 @@ If you start writing larger applications you will, with certainty, encounter the
 
 You might have already heard about Redux. [Redux](https://react-redux.js.org) is the most popular state management system out there. It is not a part of React, but the two can be very easily combined. Together, they make up an extremely powerful duo. The purpose is to store your application's state in a single place, commonly called a "store". You then dispatch actions to the store, where a reducer will handle the state changes. The primary benefit of using a state management library is to prevent having to pass props through multiple levels of the component tree. A state management library is often only recommended for larger applications.
 
-#### <span id="higher-order-components">4. Higher-order Components</span>
+#### <span id="context-api">4. Context API</span>
+
+As your application becomes larger and you have multiple components to ensure reusability, you might find yourself passing props through a a lot of components in the middle or you might have a lot of components that require the same props. This pattern is known as `prop drilling` and to help avoid this, React provides the Context API that lets a parent component provide data to all the components in its tree without having to pass props. Imagine you have implemented an optional dark theme in your website and quite a few of your components require this theme data to correctly style itself - having a `context` of your theme will allow all children components have access to this data. The [Context API beta docs](https://beta.reactjs.org/learn/passing-data-deeply-with-context) is a great resource to further explore and practice your learning.
+
+#### <span id="higher-order-components">5. Higher-order Components</span>
 
 Higher-order [components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component.
 
-#### <span id="with-router">5. withRouter (history, match, children object)</span>
+#### <span id="with-router">6. withRouter (history, match, children object)</span>
 
 [`withRouter`](https://reactrouter.com/core/api/withRouter) is one example of a higher-order component and is worth looking into it. By wrapping `withRouter` around one of your components, the component will get access to your history, match, and children objects, which provide some additional syntactic sugar. For example, you could use the history object to push a user from one route to another.
 
-#### <span id="more-hooks">6. More Hooks</span>
+#### <span id="more-hooks">7. More Hooks</span>
 
 There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your [own](https://reactjs.org/docs/hooks-custom.html).
 
