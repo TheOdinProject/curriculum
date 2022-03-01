@@ -38,7 +38,9 @@ You might have already heard about Redux. [Redux](https://react-redux.js.org) is
 
 #### <span id="context-api">4. Context API</span>
 
-As your application becomes larger and you have multiple components to ensure reusability, you might find yourself passing props through a a lot of components in the middle or you might have a lot of components that require the same props. This pattern is known as `prop drilling` and to help avoid this, React provides the Context API that lets a parent component provide data to all the components in its tree without having to pass props. Imagine you have implemented an optional dark theme in your website and quite a few of your components require this theme data to correctly style itself - having a `context` of your theme will allow all children components have access to this data. The [Context API beta docs](https://beta.reactjs.org/learn/passing-data-deeply-with-context) is a great resource to further explore and practice your learning.
+As your application becomes larger and you have multiple components to ensure reusability, you might find yourself passing props through a lot of components in the middle or you might have a lot of components that require the same props. This pattern is known as `prop drilling`. To help avoid this, React provides the Context API that lets a parent component provide data to all the components in its tree without having to pass props. Imagine that you have implemented an optional dark theme in your website and quite a few of your components require this theme data to correctly style itself - having a `context` of your theme will allow all children components to have access to this data. 
+
+The [Passing Data Deeply with Context webpage](https://beta.reactjs.org/learn/passing-data-deeply-with-context) on React Docs Beta does an excellent job of explaining on how to use the Context API. Furthermore, if you wish to learn more advanced concepts in React, [React Docs Beta](https://beta.reactjs.org/) is a great resource to dig into.
 
 #### <span id="higher-order-components">5. Higher-order Components</span>
 
@@ -56,9 +58,10 @@ There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out th
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#prop-types">What are PropTypes and why can it be beneficial to use them?</a>
-- <a class="knowledge-check-link" href="#styled-components">What are Styled Components and how do they make your code cleaner?</a>
-- <a class="knowledge-check-link" href="#redux">What is Redux and why are state management systems used in many large applications?</a>
-- <a class="knowledge-check-link" href="#higher-order-components">What is a High-order Component?</a>
-- <a class="knowledge-check-link" href="#with-router">What is a Router in a web page and some of its benefits?</a>
-- <a class="knowledge-check-link" href="#more-hooks">How can you create your own Hooks?</a>
+* <a class="knowledge-check-link" href="#prop-types">What are PropTypes and why can it be beneficial to use them?</a>
+* <a class="knowledge-check-link" href="#styled-components">What are Styled Components and how do they make your code cleaner?</a>
+* <a class="knowledge-check-link" href="#redux">What is Redux and why are state management systems used in many large applications?</a>
+* <a class="knowledge-check-link" href="#context-api">What is prop drilling and how can you use Context API to avoid it?</a>
+* <a class="knowledge-check-link" href="#higher-order-components">What is a High-order Component?</a>
+* <a class="knowledge-check-link" href="#with-router">What is a Router in a web page and some of its benefits?</a>
+* <a class="knowledge-check-link" href="#more-hooks">How can you create your own Hooks?</a>
