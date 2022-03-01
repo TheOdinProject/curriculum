@@ -91,7 +91,6 @@ GEM
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
     bcrypt (3.1.16)
-    benchmark-ips (2.8.3)
     better_errors (2.9.1)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
@@ -105,8 +104,6 @@ GEM
       parser (>= 2.4)
       smart_properties
     bindex (0.8.1)
-    binding_of_caller (1.0.0)
-      debug_inspector (>= 0.0.1)
     bootsnap (1.10.3)
       msgpack (~> 1.2)
     bootstrap (4.6.0)
@@ -137,20 +134,6 @@ GEM
     cuprite (0.13)
       capybara (>= 2.1, < 4)
       ferrum (~> 0.11.0)
-    debug_inspector (1.0.0)
-    derailed (0.1.0)
-      derailed_benchmarks
-    derailed_benchmarks (1.7.0)
-      benchmark-ips (~> 2)
-      get_process_mem (~> 0)
-      heapy (~> 0)
-      memory_profiler (~> 0)
-      mini_histogram (~> 0)
-      rack (>= 1)
-      rake (> 10, < 14)
-      ruby-statistics (>= 2.1)
-      thor (>= 0.19, < 2)
-      unicode_plot (>= 0.0.4, < 1.0.0)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     devise (4.8.1)
@@ -172,7 +155,6 @@ GEM
       dotenv (= 2.7.6)
       railties (>= 3.2)
     dry-initializer (3.1.1)
-    enumerable-statistics (2.0.1)
     erb_lint (0.1.1)
       activesupport
       better_html (~> 1.0.7)
@@ -225,8 +207,6 @@ GEM
     formtastic_i18n (0.7.0)
     friendly_id (5.4.2)
       activerecord (>= 4.0.0)
-    get_process_mem (0.2.7)
-      ffi (~> 1.0)
     gibbon (3.4.4)
       faraday (>= 1.0)
       multi_json (>= 1.11.0)
@@ -247,8 +227,6 @@ GEM
       activesupport (>= 5.2)
     hashdiff (1.0.1)
     hashie (3.6.0)
-    heapy (0.2.0)
-      thor
     html_tokenizer (0.0.7)
     htmlentities (4.3.4)
     http (5.0.4)
@@ -289,7 +267,6 @@ GEM
     kaminari-core (1.2.2)
     kramdown (2.3.1)
       rexml
-    kwalify (0.7.2)
     launchy (2.5.0)
       addressable (~> 2.7)
     letter_opener (1.7.0)
@@ -307,12 +284,10 @@ GEM
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
     matrix (0.4.2)
-    memory_profiler (0.9.14)
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.1104)
-    mini_histogram (0.1.3)
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
     minitest (5.15.0)
@@ -369,9 +344,6 @@ GEM
     premailer-rails (1.11.1)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
-    pry (0.14.1)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
     public_suffix (4.0.6)
     puma (5.6.2)
       nio4r (~> 2.0)
@@ -431,10 +403,6 @@ GEM
       railties (>= 3.2)
       tilt
     redis (4.6.0)
-    reek (6.1.0)
-      kwalify (~> 0.7.0)
-      parser (~> 3.1.0)
-      rainbow (>= 2.0, < 4.0)
     regexp_parser (2.2.0)
     require_all (3.0.0)
     responders (3.0.1)
@@ -484,7 +452,6 @@ GEM
       rack (>= 1.1)
       rubocop (>= 1.7.0, < 2.0)
     ruby-progressbar (1.11.0)
-    ruby-statistics (2.1.2)
     ruby2_keywords (0.0.5)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -536,14 +503,10 @@ GEM
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8)
     unicode-display_width (2.1.0)
-    unicode_plot (0.0.4)
-      enumerable-statistics (>= 2.0.1)
     vcr (6.0.0)
     view_component (2.49.1)
       activesupport (>= 5.0.0, < 8.0)
@@ -578,74 +541,65 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_material
-  activeadmin
-  activeadmin_addons (~> 1.9.0)
-  acts_as_votable
-  better_errors
-  binding_of_caller (~> 1.0)
-  bootsnap (~> 1.10.3)
+  active_material (~> 1.5)
+  activeadmin (~> 2.10)
+  activeadmin_addons (~> 1.9)
+  acts_as_votable (~> 0.13)
+  better_errors (~> 2.9)
+  bootsnap (~> 1.10)
   bootstrap (= 4.6.0)
-  cancancan
-  capybara
-  climate_control
-  cuprite
-  derailed
-  devise (>= 4.7.1)
+  cancancan (~> 3.3)
+  capybara (~> 3.36)
+  climate_control (~> 1.0)
+  cuprite (~> 0.13)
+  devise (~> 4.8)
   discard (~> 1.2)
-  discordrb-webhooks
-  dotenv-rails
-  dry-initializer (~> 3.1.1)
-  erb_lint
-  factory_bot
-  factory_bot_rails (~> 6)
+  discordrb-webhooks (~> 3.4)
+  dotenv-rails (~> 2.7)
+  dry-initializer (~> 3.1)
+  erb_lint (~> 0.1)
+  factory_bot_rails (~> 6.2)
   friendly_id (~> 5.4)
-  gibbon (~> 3.4.4)
+  gibbon (~> 3.4)
   github_api (~> 0.19)
-  github_webhook (~> 1.4.0)
+  github_webhook (~> 1.4)
   inline_svg (~> 1.8)
-  jquery-rails (~> 4.4.0)
+  jquery-rails (~> 4.4)
   kaminari (~> 1.2)
-  kramdown (>= 2.3.1)
-  letter_opener (~> 1.4)
-  listen
-  newrelic_rpm
-  nokogiri (~> 1.13.3)
+  kramdown (~> 2.3)
+  letter_opener (~> 1.7)
+  listen (~> 3.7)
+  newrelic_rpm (~> 8.5)
   noticed (~> 1.5)
   octokit (~> 4.22)
-  omniauth-github
-  omniauth-google-oauth2
-  omniauth-rails_csrf_protection
+  omniauth-github (~> 2.0)
+  omniauth-google-oauth2 (~> 1.0)
+  omniauth-rails_csrf_protection (~> 1.0)
   pg (~> 1.3)
   premailer-rails (~> 1.11)
-  pry (~> 0.14.1)
-  puma
-  rack-attack
+  puma (~> 5.6)
+  rack-attack (~> 6.6)
   rails (= 6.1.4.6)
-  rails-controller-testing
-  rake (~> 13.0)
-  react-rails
-  reek
-  rspec-rails
-  rspec-retry (~> 0.6.2)
-  rubocop (>= 1.12.1)
-  rubocop-performance (>= 1.10.2)
+  rails-controller-testing (~> 1.0)
+  react-rails (~> 2.6)
+  rspec-rails (~> 5.1)
+  rspec-retry (~> 0.6)
+  rubocop (~> 1.25)
+  rubocop-performance (~> 1.13)
   rubocop-rails (~> 2.13)
-  ruby-progressbar (~> 1.11.0)
+  ruby-progressbar (~> 1.11)
   sass-rails (~> 6.0)
-  seed-fu (~> 2.3.9)
-  sentry-rails (~> 5.1.0)
-  sentry-ruby (~> 5.1.1)
-  shoulda-matchers
-  sidekiq
-  simplecov
-  sprockets (~> 4.0.2)
-  uglifier (~> 4.2)
+  seed-fu (~> 2.3)
+  sentry-rails (~> 5.1)
+  sentry-ruby (~> 5.1)
+  shoulda-matchers (~> 5.1)
+  sidekiq (~> 6.4)
+  simplecov (~> 0.21)
   vcr (~> 6.0)
   view_component (~> 2.49)
-  web-console
+  web-console (~> 4.2)
   webmock (~> 3.14)
-  webpacker
+  webpacker (~> 5.4)
 
 RUBY VERSION
    ruby 2.7.4p191
