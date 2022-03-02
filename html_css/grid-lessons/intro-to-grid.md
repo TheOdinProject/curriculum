@@ -35,7 +35,7 @@ Or a column like this:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-For one-dimensional layouts, Flex offers a convienent tool without having to rely on floats or CSS hacks to align your items properly.
+For one-dimensional layouts, Flex offers a convenient tool without having to rely on floats or CSS hacks to align your items properly.
 
 For two-dimensional layouts, you learned a little bit about `flex-wrap`, which allows you to take your flex items and wrap them to the next line. This can be done with either a row that wraps to another row, or a column that wraps to another column. 
 
