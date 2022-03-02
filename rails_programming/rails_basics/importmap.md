@@ -135,6 +135,18 @@ pin "md5", to: "https://cdn.jsdelivr.net/npm/md5@2.3.0/md5.js"
 <link rel="modulepreload" href="https://ga.jspm.io/npm:@github/hotkey@1.4.4/dist/index.js">
 ~~~
 
+### Importmap considerations
+
+While importmaps are a great way to get started with Rails, and will allow you to quickly make use of Javascript libraries without having to worry about bundling and transpiling, there are some wider considerations you need to be aware of.
+
+The first  consideration is dependency management. This is when the package you are using depends on other packages for their use. Using importmaps locks the version of dependencies as required by the package you are using, but what if you add another package that relies on the same dependency but a different version? You'll start getting errors and tracking them down can be tricky. Importmaps don't at this stage manage dependencies and so are best used when your reliance on third party packages is minimal.
+
+Dependency management also feeds into the next consideration. How do you manage versioning of your libraries to keep them up to date? If you use something like webpack that requires an explicit package.json file that maps libraries to version and then a lock file to manage all the dependencies you can then rely on services such as Github's [Dependabot](https://github.com/dependabot) to keep those packages up to date for you by submitting pull requests against your github repo to update the packages. When using importmaps there isn't currently a way to do this, so you'll need to manage those updates yourself. If there's a security critical update for a library you rely on and you aren't aware of that? You can leave your app exposed to anyone who can exploit that.
+
+One other main consideration is when using importmaps you have much less control over asset bundling, so if do require anything more complicated that just importing the third party package code to your app then importmaps won't work. It can't transpile or bundle any code. In that case you'll need another option which we cover in a later lesson.
+
+All of the above may have you wondering why you'd use importmaps all things considered. I'd say they actually reflect the Rails way really well. Have a simple default option that you can use for as long as possible and then when your requirements grow outside of that you have other options to reach for which will add another layer of complexity but will be justified. With Webpacker that complexity was thrown at you even if you didn't require it. So start with importmaps for all of your applications and only look to change that when you need to.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
