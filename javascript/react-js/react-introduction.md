@@ -11,7 +11,6 @@ By the end of this lesson, you should be able to:
 - Explain the difference between a functional and class component
 - Explain how you would structure your application into components
 - Explain what `create-react-app` does
-- Explain how to use `react-testing-library`
 
 ### Why React?
 
@@ -210,10 +209,6 @@ In short, this line of code tells React to render the App component into the DOM
 
 If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you.
 
-### Testing
-
-Often React testing is done with `react-testing-library`. Taking your learnings from the Battleship project, you should apply these concepts going forward in all your future projects, even with React.
-
 ### React Developer Tools
 
 React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it.
@@ -223,7 +218,7 @@ React Developer Tools is an extension to the browser developer tools which allow
 <div class="lesson-content__panel" markdown="1">
 1. Read the first couple of pages of the react.js documentation. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. Once again, don't worry too much about those yet.
 2. Watch [this video](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) to get another quick explanation of React, and then watch these: ([one](https://www.youtube.com/watch?v=G40iHC-h0c0&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=4), [two](https://www.youtube.com/watch?v=9wK4gHoOh1g&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=5)) videos from the same series, which focus on components. Feel free to code along with the whole course if you enjoy it.
-3. Read [this](https://testing-library.com/docs/react-testing-library/intro) documentation on React testing.
+
 </div>
 
 ### Additional Resources
@@ -231,7 +226,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application without using create-react-app.
-- [This video](https://www.youtube.com/watch?v=YQLn7ycfzEo) on react-testing-library.
 - [This video](https://www.youtube.com/watch?v=SAIdyBFHfVU) by Kent C Dodds explains how React works under the hood.
 
 ### Knowledge Check
@@ -243,5 +237,4 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108">What is the difference between a functional and a class component?</a>
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
 - <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a> 
-- <a class="knowledge-check-link" href="#testing">What is commonly used for testing React apps?</a> 
 - <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools</a>
