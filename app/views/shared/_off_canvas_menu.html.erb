@@ -60,6 +60,7 @@
             <% if user_signed_in? %>
               <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard', icon_path: 'icons/home.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths', icon_path: 'icons/map.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: notifications_path, text: 'Notifications', test_id: 'nav-notifications', icon_path: 'icons/bell.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: chat_link, text: 'Community', test_id: 'nav-community', icon_path: 'icons/speech-bubbles.svg', mobile: true) %>
             <% else %>
               <%= render Nav::ItemComponent.new(path: root_path, text: 'Home', test_id: 'nav-home', icon_path: 'icons/home.svg', mobile: true) %>
