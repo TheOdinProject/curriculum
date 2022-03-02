@@ -44,12 +44,6 @@ We've got one main branch -- `main`.  `main` is for production-ready code.  Any 
 1. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 1. Shake your moneymaker, you're an OSS contributor!
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-  1. Read through this great resource to get a solid understanding of [how git works](http://think-like-a-git.net/)
-</div>
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
