@@ -151,8 +151,6 @@ Two helpful best practices to consider are **atomic commits** and leveraging tho
 
 An atomic commit is a commit that includes changes related to only one feature or task of your program. There are two main reasons for doing this: first, if something you change turns out to cause some problems, it is easy to revert the specific change without losing other changes; and second, it enables you to write better commit messages.
 
-As for writing better commit messages, this [Chris Beams](https://github.com/cbeams) article on [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) provides excellent guidelines for writing neat and concise commit messages.
-
 ### Conclusion
 You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
 
