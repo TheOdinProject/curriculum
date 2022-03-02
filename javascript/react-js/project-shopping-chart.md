@@ -13,6 +13,7 @@ This application should also have at least two routes to give you a chance to ma
 5. On your shopping cart route, a user should see a sticky bar (it can be just a top section as well), which displays the number of items currently in the cart. You should also have a button next to it where you can go to the cart to checkout and pay (however we are not going to implement this logic here).
 6. Build individual card items for each of your products. Display an input field on it, which lets a user manually type in how many items they want to buy. Also, add an increment and decrement button next to it for fine-tuning. You can also display a title for each product as well as an "Add To Cart" button.
 7. Once a user has submitted their order, the amount on the cart itself should adjust.
-8. As usual, style your application so you can show it off!
-9. Lastly, push the project to GitHub! Follow [this link](https://create-react-app.dev/docs/deployment/#github-pages) for instructions on how to deploy React applications with client-side routing to Github Pages.
+8. Make sure to test your app thoroughly using the React Testing Library. Take care that you don't directly test `react-router-dom`, since it is an external library and the developers working on it must have tested the library already.
+9. As usual, style your application so you can show it off!
+10. Lastly, push the project to GitHub! Follow [this link](https://create-react-app.dev/docs/deployment/#github-pages) for instructions on how to deploy React applications with client-side routing to Github Pages.
 </div>

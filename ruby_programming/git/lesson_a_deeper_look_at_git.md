@@ -23,6 +23,7 @@ This section contains a general overview of topics that you will learn in this l
 So let's say you're comfortable writing good commit messages and you're working with branches to have a good Git workflow going. But nobody is perfect, and as you're writing some beautiful code something goes wrong! Maybe you commit too early and are missing a file. Maybe you mess up one of your commit messages and omit a vital detail. 
 
 Let's look at some ways we can change recent and distant history to fit our needs. We're going to cover how to:
+
 - Change our most recent commit
 - Change multiple commit messages
 - Reorder commits
@@ -144,6 +145,7 @@ So now that we've learned about the various dangerous of `git push --force`, you
 ### Dangers and Best Practices
 
 Let's review the dangers we've addressed so far. I know, I know, it's scary stuff - but we have to be mindful or our coworkers might end up hating our guts! If you look back through this lesson you'll see a common thread. `amend`, `rebase`, `reset`, `push --force` are all especially dangerous when you're collaborating with others. <span id='dangers'>These commands can destroy work your coworkers have created</span>. So keep that in mind. When attempting to rewrite history always check the dangers of the particular command you're using, and follow these best practices for the commands we've covered:
+
 <span id='best-practices'></span>
 
 1.  If working on a team project make sure rewriting history is safe to do, and others know you're doing it.

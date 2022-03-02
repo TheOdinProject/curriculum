@@ -81,3 +81,7 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What is mocking?</a>
 - <a class='knowledge-check-link' href='#mock-function-example'>When would you use a mock function?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=699">How should you test incoming query messages?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=792">Why should you not test implementation?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1102">Should you test private methods?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1370">Why should you not test messages with no side effects?</a>

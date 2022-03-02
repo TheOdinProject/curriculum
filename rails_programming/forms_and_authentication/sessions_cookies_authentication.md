@@ -1,8 +1,8 @@
 ### Introduction
 
-"Sessions" are the idea that your user's state is somehow preserved when they click from one page to the next.  Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.
+"Sessions" are the idea that your user's state is somehow preserved when they click from one page to the next. Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.
 
-In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
+In this lesson you'll learn about sessions, browser cookies,and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
@@ -28,7 +28,7 @@ Cookies, Sessions and Flashes are three special objects that Rails gives you in 
 
 Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if she gets disconnected or to store simple site display preferences.  You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
 
-To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.
+<span id="using-cookies">To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.</span>
 
 With each new request to your server, the browser will send along all the cookies and you can access them in your controllers and views like a normal hash.  You can also set their expiration dates, for example using syntax like `cookies[:name] = { value: "cookies YUM", expires: Time.now + 3600}`.
 
@@ -75,7 +75,7 @@ If you want to pop up "Thanks for signing up!" on the user's browser after runni
 
 The flash is there to save the day!  Just store `flash[:success]` (or whatever you'd like it called) and it will be available to your view on the next new request.  As soon as the view accesses the hash, Rails erases the data so you don't have it show up every time the user hits a new page.  So clean, so convenient.
 
-What about cases where the user can't sign up because of failed validations?  In this case, the typical `#create` action would just `render` the `#new` action using the existing instance variables.  Since it's not a totally new request, you'll want to have your error message available immediately.  That's why there's the handy `flash.now` hash, e.g. `flash.now[:error] = "Fix your submission!"`.  Just like the regular flash, this one self destructs automatically after opening.
+<span id="flash-message">What about cases where the user can't sign up because of failed validations?  In this case, the typical `#create` action would just `render` the `#new` action using the existing instance variables.  Since it's not a totally new request, you'll want to have your error message available immediately.  That's why there's the handy `flash.now` hash, e.g. `flash.now[:error] = "Fix your submission!"`.  Just like the regular flash, this one self destructs automatically after opening.
 
 You still have to write view code to display the flash messages.  It's common to write a short view helper that will pin any available flash message(s) to the top of the browser.  You might also add a class to the message which will allow you to write some custom CSS, for instance turning `:success` messages green and `:error` messages red.
 
@@ -89,9 +89,9 @@ You still have to write view code to display the flash messages.  It's common to
 
 ### Controller Filters
 
-Before we talk about authentication, we need to cover controller filters.  The idea of these filters is to run some code in your controller at very specific times, for instance before any other code has been run.  That's important because, if a user is requesting to run an action they haven't been authorized for, you need to nip that request in the bud and send back the appropriate error/redirect before they're able to do anything else.  You're basically "filtering out" unauthorized requests.
+</span>Before we talk about authentication, we need to cover controller filters.  The idea of these filters is to run some code in your controller at very specific times, for instance before any other code has been run.  That's important because, if a user is requesting to run an action they haven't been authorized for, you need to nip that request in the bud and send back the appropriate error/redirect before they're able to do anything else.  You're basically "filtering out" unauthorized requests.
 
-We do this through the use of a "before filter", which takes the name of the method we want to run:
+<span id="login-check">We do this through the use of a "before filter", which takes the name of the method we want to run:
 
 ~~~ruby
   # app/controllers/users_controller
@@ -104,7 +104,7 @@ We do this through the use of a "before filter", which takes the name of the met
   end
 ~~~
 
-The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
+</span>The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
 
 You can specify to only apply the filter for specific actions by specifying the `only` option, e.g. `before_action :require_login, only: [:edit, :update]`.  The opposite applies by using the `:except` option... it will run for all actions except those specified.
 
@@ -122,11 +122,11 @@ Authentication and authorization go hand in hand -- you first authenticate someo
 
 ### Basic and Digest Authentication
 
-If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a simple form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.
+<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a simple form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.
 
 For a slightly more secure (over HTTP) authentication system, use HTTP Digest Authentication.  We'll again not cover it here.  It relies on a `#before_action` running a method which calls upon `#authenticate_or_request_with_http_digest`, which takes a block that should return the "correct" password that should have been provided.
 
-The problem with both of these is that they hard code user names and passwords in your controller (or somewhere), so it's really just a band-aid solution.
+The problem with both of these is that they hard code user names and passwords in your controller (or somewhere), so it's really just a band-aid solution.</span>
 
 ### Rolling Your Own Auth
 
@@ -162,9 +162,9 @@ A generic step-by-step overview:
 
 ### Devise
 
-Devise is a gem which has been built to handle all this stuff for you.  It's ultimately better than rolling your own auth because they've covered a lot of the edge cases and security loopholes that you might not think about.  Devise lets you interface with more advanced authentication systems for talking to APIs like OAuth.  So it's quite useful down the road.
+<span id="using-devise">Devise is a gem which has been built to handle all this stuff for you.  It's ultimately better than rolling your own auth because they've covered a lot of the edge cases and security loopholes that you might not think about.  Devise lets you interface with more advanced authentication systems for talking to APIs like OAuth.  So it's quite useful down the road.
 
-In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.
+In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.</span>
 
 Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset his password (the `Recoverable` module)?
 
@@ -191,3 +191,12 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
 * [All About Cookies (.org)](http://www.allaboutcookies.org/)
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- <a class="knowledge-check-link" href="#using-cookies">How would you save a cookie to the browser if a users pet is a dog on their browser?</a>
+- <a class="knowledge-check-link" href="#login-check">How would you require a user is logged in _before_ running some code?</a>
+- <a class="knowledge-check-link" href="#http-authentication">Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?</a>
+- <a class="knowledge-check-link" href="#flash-message">How would you flash an error message on a users browser if they put a invalid username?</a>
+- <a class="knowledge-check-link" href="#using-devise">What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?</a>

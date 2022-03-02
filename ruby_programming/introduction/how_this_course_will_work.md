@@ -33,9 +33,9 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
 </div>
 
 ### Optional Ruby Materials
-The resources listed below cover Ruby basics, and you may want to go through these on the side while going through the first section of this Ruby Basics course. Repetition is the mother of all learning after all!
+The resources listed below cover Ruby basics, and you may want to take a look at these as you go through the first section of this Ruby Basics course. Repetition is the mother of all learning after all!
 
-Consider the resources here optional, though we recommend them to help supplement your learning.
+Consider the resources here optional; we recommend them as supplemental resources only.
 
 1. [The Codecademy Ruby course](https://www.codecademy.com/learn/learn-ruby) covers Ruby basics and OOP basics.
 2. [Chris Pine's Learn to Program book](https://pine.fm/LearnToProgram/) covers Ruby basics along with plenty of exercises.
