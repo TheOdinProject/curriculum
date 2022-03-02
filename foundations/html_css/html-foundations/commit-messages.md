@@ -48,4 +48,4 @@ There will come a time when you are working on a project and you FINALLY get som
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 *   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#intro">What are two benefits of having well-written commit messages and a good commit history?</a>
-*   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#wrap-72">How many characters should the subject line of your commit message be?</a>
+*   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#limit-50">How many characters should the subject line of your commit message be?</a>
