@@ -7,7 +7,7 @@ All HTML documents have the same basic structure or boilerplate that needs to be
 - How to write the basic boilerplate for an HTML document
 - How to open HTML documents in your browser
 
-### Creating a HTML File
+### Creating an HTML File
 
 To demonstrate HTML boilerplate, we first need an HTML file to work with.
 
@@ -62,7 +62,7 @@ We should always have the meta tag for the charset encoding of the webpage in th
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
-There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head as and when we need them throughout the rest of the curriculum.
+There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
 #### Title Element
 
