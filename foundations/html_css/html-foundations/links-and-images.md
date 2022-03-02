@@ -73,7 +73,7 @@ Within the `odin-links-and-images` directory, create another HTML file named `ab
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Odin Links and Images</title>
     <meta charset="UTF-8">
