@@ -1,4 +1,5 @@
 def html_and_css_lessons
+  {
     # Accessibility section
     'Introduction to Web Accessibility' => {
       title: 'Introduction to Web Accessibility',
