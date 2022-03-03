@@ -32,13 +32,4 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
   4. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting. 
 </div>
 
-### Optional Ruby Materials
-The resources listed below cover Ruby basics, and you may want to take a look at these as you go through the first section of this Ruby Basics course. Repetition is the mother of all learning after all!
-
-Consider the resources here optional; we recommend them as supplemental resources only.
-
-1. [The Codecademy Ruby course](https://www.codecademy.com/learn/learn-ruby) covers Ruby basics and OOP basics.
-2. [Chris Pine's Learn to Program book](https://pine.fm/LearnToProgram/) covers Ruby basics along with plenty of exercises.
-3. [why's (poignant) Guide to Ruby](http://poignant.guide/) covers Ruby basics using humor and narrative sidetracks.
-
 ### Okay, enough talk. Let's learn Ruby!
