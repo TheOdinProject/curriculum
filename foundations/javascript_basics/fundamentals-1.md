@@ -68,7 +68,7 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
-### Assignment
+### Practice
 
 <div class="lesson-content__panel" markdown="1">
 Try the following exercises (and don't forget to use `console.log()`!):
