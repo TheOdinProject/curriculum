@@ -163,7 +163,7 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 <div class="lesson-content__panel" markdown="1">
   1. Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
   2. Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
-  3. Go through the basics at [Part 1](http://www.sqlcourse.com/index.html) and the advanced at [Part 2](http://www.sqlcourse2.com/index.html) of SQL Course
+  3. Go through the basics at [Part 1](https://www.sqlcourse.com/beginner-course/) and the advanced at [Part 2](https://www.sqlcourse.com/advanced-course/) of SQL Course
 </div>
 
 ### Conclusion
