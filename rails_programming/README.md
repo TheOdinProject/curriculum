@@ -41,3 +41,5 @@ Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully
   - Advanced Topics - [lesson](mailers_advanced_topics/advanced_topics.md)
   - [Final Project](mailers_advanced_topics/project_final.md)
   - Conclusion - [lesson](mailers_advanced_topics/conclusion.md)
+- Rails Sprinkles
+  - JS Bundling - [lesson](rails_sprinkles/js_bundling.md)
