@@ -44,13 +44,6 @@ RSpec.describe ApplicationHelper do
     end
   end
 
-  describe '#first_four_success_stories' do
-    it 'returns the first four success stories' do
-      expect(SuccessStory).to receive(:limit).with(4)
-      helper.first_four_success_stories
-    end
-  end
-
   context 'course progress' do
     let(:user) { double('User') }
     let(:course) { double('Course') }

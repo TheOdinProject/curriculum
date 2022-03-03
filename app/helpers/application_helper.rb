@@ -18,10 +18,6 @@ module ApplicationHelper
     bootstrap_classes.fetch(flash_type, custom_flash(flash_type))
   end
 
-  def first_four_success_stories
-    SuccessStory.limit(4)
-  end
-
   def faq_items
     [
       {

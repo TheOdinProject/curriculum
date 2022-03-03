@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
-  def home; end
+  def home
+    @success_stories = SuccessStory.limit(4)
+  end
 
   def about; end
 
