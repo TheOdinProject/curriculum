@@ -28,7 +28,7 @@ def ruby_on_rails_lessons
       title: 'A Railsy Web Refresher',
       description: "We're not just using the Web, we're living it.  This lesson will get you up to speed on how.",
       is_project: false,
-      url: '/rails_programming/rails_basics/web_refresher.md',
+      url: '/rails_programming/introduction/web_refresher.md',
       identifier_uuid: '03151914-6ea0-4bbf-aafe-0ace33855bf6',
     },
     'Routing' => {
@@ -51,13 +51,6 @@ def ruby_on_rails_lessons
       is_project: false,
       url: '/rails_programming/rails_basics/views.md',
       identifier_uuid: 'c0299335-f370-4e80-9286-7fd2d6b8e351',
-    },
-    'The Asset Pipeline' => {
-      title: 'The Asset Pipeline',
-      description: 'This lesson explains how Rails handles all the behind-the-scenes stuff to get your CSS, Image files and other assets served quickly and efficiently and how you can use that process.',
-      is_project: false,
-      url: '/rails_programming/rails_basics/asset_pipeline.md',
-      identifier_uuid: '13a13e03-9a3c-4ffc-88cb-25b03a4f5b66',
     },
     'Webpacker' => {
       title: 'Webpacker',
@@ -97,6 +90,20 @@ def ruby_on_rails_lessons
       accepts_submission: true,
       has_live_preview: false,
       identifier_uuid: 'f46373db-e4e2-4aec-866e-b0123fc7928e',
+    },
+    'The Asset Pipeline' => {
+      title: 'The Asset Pipeline',
+      description: 'This lesson explains how Rails handles all the behind-the-scenes stuff to get your CSS, Image files and other assets served quickly and efficiently and how you can use that process.',
+      is_project: false,
+      url: '/rails_programming/the_asset_pipeline/asset_pipeline.md',
+      identifier_uuid: '13a13e03-9a3c-4ffc-88cb-25b03a4f5b66',
+    },
+    'Importmaps' => {
+      title: 'Importmaps',
+      description: 'This lesson explains the default Rails way of handling third party Javascript libraries in your application.',
+      is_project: false,
+      url: '/rails_programming/the_asset_pipeline/importmap.md',
+      identifier_uuid: '7520e06d-0b98-4be5-ae4a-9a38c93af4d9',
     },
     'Form Basics' => {
       title: 'Form Basics',
@@ -207,6 +214,34 @@ def ruby_on_rails_lessons
       accepts_submission: true,
       has_live_preview: true,
       identifier_uuid: '2adcd199-34b4-47e0-875c-0df9ecd61ea9',
+    },
+    'CSS Bundling' => {
+      title: 'CSS Bundling',
+      description: "If the standard Rails way of handling CSS is no longer suitable, you'll need another CSS Bundling option. We cover this here.",
+      is_project: false,
+      url: '/rails_programming/rails_sprinkles/css_bundling.md',
+      identifier_uuid: '383a783c-99e7-4172-a9bd-e33cd52f80a8',
+    },
+    'JS Bundling' => {
+      title: 'JS Bundling',
+      description: "Importmaps can only take you so far. Eventually you'll need something a little more powerful.",
+      is_project: false,
+      url: '/rails_programming/rails_sprinkles/js_bundling.md',
+      identifier_uuid: '175530d0-6189-4b52-93d7-3df48fb10ba6',
+    },
+    'Turbo' => {
+      title: 'Turbo',
+      description: 'An incredibly powerful tool for bringing pages to life without full page reloads. Turbo is the Rails way of SPA-like functionality.',
+      is_project: false,
+      url: '/rails_programming/rails_sprinkles/turbo.md',
+      identifier_uuid: '76a38dbf-9f39-40af-8d55-59b4f4fb58de',
+    },
+    'Stimulus' => {
+      title: 'Stimulus',
+      description: 'If you want an easy to use, Rails-like way of sprinkling some Javascript code into your application then look no further than StimulusJS.',
+      is_project: false,
+      url: '/rails_programming/rails_sprinkles/stimulus_js.md',
+      identifier_uuid: 'a6f18c3c-c1dc-4301-9655-68341a78bdf9',
     },
     'Mailers' => {
       title: 'Mailers',

@@ -19,6 +19,7 @@ course.add_section do |section|
     ruby_on_rails_lessons.fetch('How this Course Will Work'),
     ruby_on_rails_lessons.fetch('Preparing for Deployment'),
     ruby_on_rails_lessons.fetch('Installing Rails'),
+    ruby_on_rails_lessons.fetch('A Railsy Web Refresher')
   )
 end
 
@@ -31,12 +32,9 @@ course.add_section do |section|
   section.identifier_uuid = '8ffa853e-e5d0-44d8-a61c-4a620601c422'
 
   section.add_lessons(
-    ruby_on_rails_lessons.fetch('A Railsy Web Refresher'),
     ruby_on_rails_lessons.fetch('Routing'),
     ruby_on_rails_lessons.fetch('Controllers'),
     ruby_on_rails_lessons.fetch('Views'),
-    ruby_on_rails_lessons.fetch('The Asset Pipeline'),
-    ruby_on_rails_lessons.fetch('Webpacker'),
     ruby_on_rails_lessons.fetch('Deployment'),
     ruby_on_rails_lessons.fetch('Blog App'),
   )
@@ -53,6 +51,20 @@ course.add_section do |section|
   section.add_lessons(
     ruby_on_rails_lessons.fetch('Active Record Basics'),
     ruby_on_rails_lessons.fetch('Micro-Reddit'),
+  )
+end
+
+# ++++++++++++++++++++++++++++
+# SECTION - The Asset Pipeline
+# ++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'The Asset Pipeline'
+  section.description = 'This section covers the Asset Pipeline. Rails way of processing assets such as CSS, Javascript and Images.'
+  section.identifier_uuid = 'db80ec29-a228-483c-b52b-c137c4ec0824'
+
+  section.add_lessons(
+    ruby_on_rails_lessons.fetch('The Asset Pipeline'),
+    ruby_on_rails_lessons.fetch('Importmaps'),
   )
 end
 
@@ -95,7 +107,7 @@ end
 # ++++++++++++++
 course.add_section do |section|
   section.title = 'APIs'
-  section.description = 'In this penultimate section we will explore harnessing the powers of other apps via their APIs and creating our own.'
+  section.description = 'In this section we will explore harnessing the powers of other apps via their APIs and creating our own.'
   section.identifier_uuid = '0e7e7a73-8d9c-484f-8339-e63125ae89d3'
 
   section.add_lessons(
@@ -103,6 +115,22 @@ course.add_section do |section|
     ruby_on_rails_lessons.fetch('Working With External APIs'),
     ruby_on_rails_lessons.fetch('Kittens API'),
     ruby_on_rails_lessons.fetch('Flickr API'),
+  )
+end
+
+# +++++++++++++++++++++++++
+# SECTION - Rails Sprinkles
+# +++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Rails Sprinkles'
+  section.description = 'In this penultimate section we will explore how Rails sprinkles in additional features when the core stack is no longer suitable for your needs.'
+  section.identifier_uuid = '16811b40-90cc-4e15-a81b-722d47cc6bc1'
+
+  section.add_lessons(
+    ruby_on_rails_lessons.fetch('CSS Bundling'),
+    ruby_on_rails_lessons.fetch('JS Bundling'),
+    ruby_on_rails_lessons.fetch('Turbo'),
+    ruby_on_rails_lessons.fetch('Stimulus'),
   )
 end
 
