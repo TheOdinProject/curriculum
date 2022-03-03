@@ -154,6 +154,7 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 1. First things first. [Briefly look over the `importmap-rails` gem README on github](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
 2. Read [David Heinemeier Hansson's article](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755) on Modern web apps without JavaScript bundling or transpiling. He describes the why and how of the `importmap` addition to Rails 7.
+3. Appsignal produce a good [Importmaps under the hood](https://blog.appsignal.com/2022/03/02/import-maps-under-the-hood-in-rails-7.html) article that is well worth a read to get a bit more information on what we covered above.
 
 </div>
 
