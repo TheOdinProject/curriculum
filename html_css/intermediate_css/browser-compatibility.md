@@ -26,7 +26,7 @@ You're most likely familiar with most, if not all these names.<span id="most-use
 
 Today, it is impossible to imagine the Web without the use of browsers. We have witnessed a shift from standalone applications to HTML5 and Progressive Web Apps that allow applications to fully function within a browser. For example, Microsoft Word and Excel for the longest time could only be executed via a standalone application. Now, you can utilize those applications through any browser without the need to install any files.
 
-As companies compete for the market share, different browsers are using different engines to display information on the web page. For example, Chrome and Chromium utilize Blink, while Safari uses its proprietary WebKit.
+As companies compete for the market share, different browsers are using different engines to display information on the web page. For example, Chrome and Chromium utilize Blink, while Safari uses WebKit.
 
 Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good of performance in other browsers is secondary.
 
