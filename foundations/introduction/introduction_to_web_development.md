@@ -81,7 +81,7 @@ In this course, "Foundations" you'll take a journey through the entire spectrum 
 
 The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
-Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
+Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
 
 Yes, it's going to be challenging.
 
