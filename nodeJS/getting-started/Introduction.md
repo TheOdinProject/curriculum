@@ -12,7 +12,7 @@ By the end of this lesson, you should be able to do the following:
  - Write a simple "hello world" application and run it in the console of your machine.
  - Understand what Node.js really is.
 
-## What _is_ Node?  
+### What _is_ Node?  
 
 The [Node.js website](https://nodejs.org/en/about/) declares:
 
