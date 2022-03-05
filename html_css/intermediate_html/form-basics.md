@@ -99,10 +99,10 @@ The `name` attribute serves as a reference to the data inputted into a form cont
 
 To get a better understanding of what this looks like we can submit a form to [httpbin](http://httpbin.org/). This service will send back a response which will let us view what data was submitted. Fill in the form below and click submit:
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyVRMbq" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq">
-form-basics-name-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-on <a href="https://codepen.io">CodePen</a>.</span>
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyVRMbq" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq">
+  form-basics-name-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -124,10 +124,10 @@ It's worth mentioning that you can use any of the form controls HTML provides ou
 
 For example you might want to have an input that gets some data from a user and display that somewhere else on the page with Javascript:
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PoJjNYr" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr">
-using-form-controls-outside-of-form</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-on <a href="https://codepen.io/">CodePen</a>.</span>
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="PoJjNYr" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr">
+  using-form-controls-outside-of-form</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
