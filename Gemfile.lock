@@ -351,6 +351,8 @@ GEM
     rack (2.2.3)
     rack-attack (6.6.0)
       rack (>= 1.0, < 3)
+    rack-mini-profiler (3.0.0)
+      rack (>= 1.2.0)
     rack-protection (2.1.0)
       rack
     rack-proxy (0.7.0)
@@ -582,6 +584,7 @@ DEPENDENCIES
   premailer-rails (~> 1.11)
   puma (~> 5.6)
   rack-attack (~> 6.6)
+  rack-mini-profiler
   rails (= 6.1.4.6)
   rails-controller-testing (~> 1.0)
   react-rails (~> 2.6)
