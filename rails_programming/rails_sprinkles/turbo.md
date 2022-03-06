@@ -345,7 +345,7 @@ class PostsController < ApplicationController
 end
 ~~~
 
-This will result in only the `posts#index` page loading initally and *then* another request being made to the `posts#new` action of our controller to insert the form! This also keeps our code DRY because if instead opted to add the form by use of a partial on the index page, we would still have to repeat the `posts#new` controller action during the `posts#index` action.
+This will result in only the `posts#index` page loading initially and *then* another request being made to the `posts#new` action of our controller to insert the form! This also keeps our code DRY because if instead opted to add the form by use of a partial on the index page, we would still have to repeat the `posts#new` controller action during the `posts#index` action.
 
 However, if a user is to submit a post right now, something weird happens! The form window goes away, but there's no error. Where did the post go?? When we refresh the page, we see that the post did submit. What's happening here is that Rails doesn't know you are going to want a Turbo Stream so it can't automatically add your post yet. Instead it tries to redirect you to the page you are already on. **Turbo Drive** intercepts this and loads a cached version of the page, which does not have our form content in it, so the form goes away!
 
