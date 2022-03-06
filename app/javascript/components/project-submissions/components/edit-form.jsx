@@ -51,7 +51,7 @@ const EditForm = ({
           <span className="form__icon fab fa-github" />
           <input
             autoFocus
-            className="form__element form__element--with-icon"
+            className="form__element form__element--with-icon dark-form-input"
             type="text"
             {...register('repo_url')}
             placeholder="Repository URL"
@@ -70,7 +70,7 @@ const EditForm = ({
             <div className="form__section">
               <span className="form__icon fas fa-link" />
               <input
-                className="form__element form__element--with-icon"
+                className="form__element form__element--with-icon dark-form-input"
                 type="text"
                 placeholder="Live Preview URL"
                 {...register('live_preview_url')}

@@ -4,6 +4,7 @@
   --dark-font-color: #b3b3b3;
   --dark-header-color: #fff;
   --dark-pseudocode-color: #e83e8c;
+  --dark-input-bg-color: #313131;
 }
 
 .section-lessons__item__link:hover,
@@ -89,11 +90,16 @@ li,
 a:hover,
 .accent:hover,
 .far,
+.form__element,
 .form__element::placeholder,
 .form__link-section__item,
 .text-notification:hover,
 .lesson-button:hover i {
   color: var(--dark-font-color) !important;
+}
+
+.dark-form-input {
+  background-color: var(--dark-input-bg-color) !important;
 }
 
 pre:not(.line-numbers) code {
