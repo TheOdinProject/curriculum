@@ -24,7 +24,7 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 ### Submitting a Solution
 If you're planning to submit a live demo with your student solution, one of the easiest ways to do that is using Repl.it. To do this:
 
-1. Go to [Repl.it](https://repl.it)
+1. Go to [replit.com](https://replit.com)
 2. Create a new repl
 3. Select Node.js as the language
 4. Enter the url for your submission github repo and click "Import from GitHub"
