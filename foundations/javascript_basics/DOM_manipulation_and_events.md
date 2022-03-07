@@ -361,7 +361,6 @@ buttons.forEach((button) => {
   button.addEventListener('click', () => {
     alert(button.id);
   });
-});
 ~~~
 
 This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but it's enough to get you started with some exercises.  In our examples so far we have been using the 'click' event exclusively, but there are _many_ more available to you.  
