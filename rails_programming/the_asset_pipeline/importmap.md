@@ -164,7 +164,7 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 1. [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
 2. [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
-3. [The import map specificiation](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
+3. [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
 
 ### Knowledge Check
 
