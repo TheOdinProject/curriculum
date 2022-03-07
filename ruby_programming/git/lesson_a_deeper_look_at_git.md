@@ -121,7 +121,7 @@ The last part of reset we want to touch upon is `git reset --hard`. What this do
 
 Thus far you've been working with remote repositories each time you've pushed or pulled from your own GitHub repository while working on the curriculum's various projects. In this section we're going to cover some slightly more advanced topics, which you might not have yet encountered or had to use. 
 
-#### git push --force
+#### git push -\-force
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote. 
 
@@ -149,14 +149,14 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 <span id='best-practices'></span>
 
 1.  If working on a team project, make sure rewriting history is safe to do and others know you're doing it.
-1.  Ideally, stick to using these commands only on branches that you're working with by yourself.
-1.  Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
-1.  Don't push after every single commit, changing published history should be avoided when possible.
-1.  Regarding the specific commands we've covered:
+2.  Ideally, stick to using these commands only on branches that you're working with by yourself.
+3.  Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
+4.  Don't push after every single commit, changing published history should be avoided when possible.
+5.  Regarding the specific commands we've covered:
     1.  For `git amend` never amend commits that have been pushed to remote repositories.
-    1.  For `git rebase` never rebase a repository that others may work off of.
-    1.  For `git reset` never reset commits that have been pushed to remote repositories.
-    1.  For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`.
+    2.  For `git rebase` never rebase a repository that others may work off of.
+    3.  For `git reset` never reset commits that have been pushed to remote repositories.
+    4.  For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`.
 
 ### Branches Are Pointers
 
