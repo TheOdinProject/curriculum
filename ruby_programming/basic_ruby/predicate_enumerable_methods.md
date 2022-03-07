@@ -3,7 +3,7 @@ In the previous lesson, you learned about some really handy enumerable methods l
 
 This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-3.0.3/) to see what else [Enumerable](https://ruby-doc.org/core-3.0.3/Enumerable.html) offers.
 
-For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:

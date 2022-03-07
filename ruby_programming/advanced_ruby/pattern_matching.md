@@ -4,7 +4,7 @@ Introduced in Ruby 2.7, pattern matching uses specified patterns to match agains
 
 With Ruby 3.1, most parts of the pattern matching syntax are no longer considered experimental and so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first but there are times it can definitely simplify Ruby code. However, there are a couple of new patterns with Ruby 3 which we'll introduce at the end.
 
-If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortunately at the time of writing this means you can't use repl.it as it's still stuck in the dark ages on Ruby 2.5
+If you want to play with the examples make sure you're on at least Ruby 2.7. Unfortunately at the time of writing this means you can't use replit.com as it's still stuck in the dark ages on Ruby 2.5
 
 ### Learning Outcomes
 
