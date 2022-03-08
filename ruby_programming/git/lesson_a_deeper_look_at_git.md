@@ -30,13 +30,23 @@ Let's look at some ways we can change recent and distant history to fit our need
 - Squash commits together
 - Split up commits 
 
-#### Changing The Last Commit
+#### Getting Set Up
 
-Let's say we execute a commit but *Uh-Oh!*, we're missing a file! Let's add our missing file and run `$ git commit --amend`
+Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history changing operations. Go to GitHub, and as you have in the past create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned, and create some new files! Once you're in the repository follow along with the following commands. Look them up if you're confused about anything that's happening.
 
 ~~~bash
-  $ git commit -m 'Initial commit missing a file'
-  $ git add missing_file
+  $ touch test{1..4}.md
+  $ git add test1.md && git commit -m 'Create first file'
+  $ git add test2.md && git commit -m 'Create send file'
+  $ git add test3.md && git commit -m 'Create third file and create fourth file'
+~~~
+
+#### Changing The Last Commit
+
+So if we look at the last commit we made *Uh-Oh!*, if you type in `git status` and `git log` you can see we forgot to add a file! Let's add our missing file and run `$ git commit --amend`
+
+~~~bash
+  $ git add test4.md
   $ git commit --amend
 ~~~
 
@@ -46,31 +56,23 @@ Remember to **only amend commits that have not been pushed anywhere!** The reaso
 
 #### Changing Multiple Commits
 
-Now let's say you have commits further back in your history that you want to modify. This is where the beautiful command `rebase` comes into play! We're going to get deeper into the complexities of `rebase` later on in this lesson, but for now we're going to start out with some very basic usage. 
+Now let's say we have commits further back in our history that we want to modify. This is where the beautiful command `rebase` comes into play! We're going to get deeper into the complexities of `rebase` later on in this lesson, but for now we're going to start out with some very basic usage. 
 
-`rebase -i` is a command which allows you to interactively stop after each commit you're trying to modify, and then make whatever changes you wish. You do have to tell this command which is the last commit you want to edit. For example, `git rebase -i HEAD~3` allows you to edit the last three commits. Let's see what this looks like in action. Open up a project you've worked on and create a new branch. If you need a refresher, have a look at this [Rock Paper Scissors revisited lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors). Now that we're somewhere safe where we can experiment, type in:
+`rebase -i` is a command which allows us to interactively stop after each commit we're trying to modify, and then make whatever changes we wish. We do have to tell this command which is the last commit we want to edit. For example, `git rebase -i HEAD~2` allows us to edit the last two commits. Let's see what this looks like in action, go ahead and type in:
 
 ~~~bash
   $ git log
-  $ git rebase -i HEAD~3
+  $ git rebase -i HEAD~2
 ~~~
 
-You should notice that when rebasing, the commits are listed in opposite order compared to how you see them when you use `log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. What I see when I run `git rebase -i HEAD~3` while writing this lesson on Advanced Git Topics is a list of my last three commits:
+You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would simply remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like! 
 
 ~~~bash
-pick c85c71dd5 Rewrite Introduction
-pick 4ad2c8df6 Add information on using amend
-pick 729db1da4 Begin work on Remotes
+edit eacf39d Create send file
+pick 92ad0af Create third file and create fourth file
 ~~~
 
-If I wanted to edit one of them, I would change the word `pick` to be `edit` for the appropriate commit. If I wanted to remove a commit, I would simply remove it from the list, and if I wanted to change their order, I would change their position in the list. Let's see what all three would look like! 
-
-~~~bash
-pick 4ad2c8df6 Add information on using amend
-edit c85c71dd5 Rewrite Introduction
-~~~
-
-This would allow me to edit the `Rewrite Introduction` commit, switch its order with the `Add information on using amend` commit, and completely remove the most recent `Begin work on Remotes` commit. When I'm certain I want to do this, I'll save and exit the editor, which will allow me to edit my commit with the following instructions:
+This would allow us to edit the typo in the `Create send file` commit to be `Create second file`. Perform similar changes in your interactive rebase tool, but don't copy and paste the above code since it won't work. Save and exit the editor, which will allow us to edit the commit with the following instructions:
 
 ~~~bash
 You can amend the commit now, with
@@ -79,41 +81,38 @@ Once you're satisfied with your changes, run
        git rebase --continue
 ~~~
 
-These commit changes would be disastrous for me, so I won't *actually* do it, but it's a great tool to keep in mind for your future projects. That's all there is to it! It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember to only rebase commits that exist in your repository. **If you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
+So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
 
 #### Squashing Commits
 
-Using `squash` for your commits is a very handy way of keeping your Git history tidy. It's important to know how to `squash`, because this process may be the standard on some development teams. Squashing makes it easier for others to understand the history of your project. What often happens when a feature is merged, is you end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
+Using `squash` for our commits is a very handy way of keeping our Git history tidy. It's important to know how to `squash`, because this process may be the standard on some development teams. Squashing makes it easier for others to understand the history of your project. What often happens when a feature is merged, is we end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
 
-Let's say I want to `squash` all three of the commits I previously worked with together into the first commit on the list, which is `Rewrite Introduction`. I would simply  `pick` that commit as the commit that the other two are being `squash`ed into:
+Let's say we want to `squash` the second commit into the first commit on the list, which is `Create first file`. First let's rebase all the way back to our root commit by typing `git rebase -i --root`. Now what we'll do is `pick` that first commit, as the one which the second commit is being `squash`ed into:
 
 ~~~bash
-pick c85c71dd5 Rewrite Introduction
-squash 4ad2c8df6 Add information on using amend
-squash 729db1da4 Begin work on Remotes
+pick e30ff48 Create first file
+squash 92aa6f3 Create second file
+pick 05e5413 Create third file and create fourth file
 ~~~
 
-That's it! When I save and exit the editor, the bottom two commits on that list get squashed into the top commit. 
+Rename the commit to `Create first and second file`, then finish the rebase with `git rebase --continue`. That's it! Run `git log` and see how the first two commits got squashed together. 
 
 #### Splitting Up a Commit
 
-Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's say one of my commits was `c85c71dd5 Add knight class and Add attack module`. That's a mouthful, and a bit much for one commit as you should have learned in the previous lesson on commits. So what we're going to do is split it up into two smaller commits by, once again, using the interactive `rebase` tool. 
+Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for conveniece, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool. 
 
-We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, commit them individually, and then `git rebase --continue` just like we did last time to finish up our changes. All together it would look something like this:
+We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, add, and commit them individually. All together it would look something like this:
 
 ~~~bash
 $ git reset HEAD^
-$ git add lib/knight.rb
-$ git commit -m 'Add knight class'
-$ git add lib/movement.rb
-$ git commit -m 'Add attack module'
-$ git rebase --continue
+$ git add test3.md && git commit -m 'Create third file'
+$ git add test4.md && git commit -m 'Create fourth file'
 ~~~
 
-Let's start by looking a bit closer at what happened here. When you ran `git reset`, you reset the current branch by pointing HEAD at the commit right before it. At the same time, `git reset` also updated the index (the staging area) with the contents of wherever HEAD now pointed. So your staging area was also reset to what it was at the prior commit - which is great - because this allowed you to add and commit both files separately.
+Let's start by looking a bit closer at what happened here. When you ran `git reset`, you reset the current branch by pointing HEAD at the commit right before it. At the same time, `git reset` also updated the index (the staging area) with the contents of wherever HEAD now pointed. So our staging area was also reset to what it was at the prior commit - which is great - because this allowed us to add and commit both files separately.
 
-Now let's say you want to move where HEAD points to but *don't* want to touch the staging area. If you want to leave the index alone, you can use `git reset --soft`. This would only perform the first part of `git reset` where the HEAD is moved to point somewhere else.
+Now let's say we want to move where HEAD points to but *don't* want to touch the staging area. If we want to leave the index alone, you can use `git reset --soft`. This would only perform the first part of `git reset` where the HEAD is moved to point somewhere else.
 
 The last part of reset we want to touch upon is `git reset --hard`. What this does is it performs all the steps of `git reset`, moving the HEAD and updating the index, but it *also* updates the working directory. This is important to note because it can be dangerous as it can potentially destroy data. A hard reset overwrites the files in the working directory to make it look exactly like the staging area of wherever HEAD ends up pointing to. Similarly to `git commit --amend`, a hard reset is a destructive command which overwrites history. This doesn't mean you should completely avoid it if working with shared repositories on a team with other developers. You should, however, **make sure you know exactly why you're using it, and that your coworkers are also aware of how and why you're using it.**
 
@@ -127,16 +126,35 @@ Let's say you're no longer working on a project all by yourself, but with someon
 
 If you haven't updated your local branch, and you're attempting to `git push` a commit which would create a conflict on the remote repository, you'll get an error message. This is actually a great thing! This is a safety mechanism to prevent you from overwriting commits created by the people you're working with, which could be disastrous. You get the error because your history is outdated. 
 
-You might perform a brief query and find the command `git push --force`. This command overwrites the remote repository with your own local history. So what would happen if we used this while working with others? You could potentially destroy their work! `git push --force` is a **very dangerous command, and it should be used with caution when collaborating with others**. Instead, you can fix your outdated history error by updating your local history using `fetch`, `merge`, and then attempting to `push` again. 
-
-Let's say alternatively that you pushed a commit, and *oops* made a mistake. You want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If you're ever considering using it, always check if it's appropriate and if you can use a safer command instead. If you're collaborating with others and want to *undo* a commit you just made, you can instead use `git revert`! 
+You might perform a brief query and find the command `git push --force`. This command overwrites the remote repository with your own local history. So what would happen if we used this while working with others? Well let's see what would happen when we're working with ourselves. Type the following commands into your terminal, and when the interactive rebase tool pops up remove our commit for `Create fourth file`:
 
 ~~~bash
-git revert HEAD~1
-git push origin feature-branch
+$ git push origin main
+$ git rebase -i --root
+$ git push --force
+$ git log
 ~~~
 
-Remember when we were working with HEAD, aka the current commit we're viewing, while rebasing? What this would do is it would revert the changes to HEAD by 1 commit! Then we would push our new commit to whichever branch we're working on, which in this example is feature-branch. 
+Huh, that's interesting, we don't see our fourth file on our local system. Let's check our GitHub repository, is our file test4.md there? 
+
+No! We just destroyed it, which in this scenario is the danger - you could potentially destroy the work of those you're collaborating with! `git push --force` is a **very dangerous command, and it should be used with caution when collaborating with others**. Instead, you can fix your outdated history error by updating your local history using `fetch`, `merge`, and then attempting to `push` again. 
+
+Let's consider a different scenario:
+
+~~~bash
+$ touch test4.md
+$ git add test4.md && git commit -m "Create fifth file"
+$ git push origin main
+$ git log
+~~~
+We look at our commit message and realize *oops*, we made a mistake. We want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert`! 
+
+~~~bash
+git revert HEAD
+git push origin main
+~~~
+
+Remember when we were working with HEAD, aka the current commit we're viewing, while rebasing? What this would do is it would revert the changes to HEAD! Then we would push our new commit to whichever branch we're working on, which in this example is main even though normally our work would most likely be on a feature-branch. 
 
 So now that we've learned about the various dangerous of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a separate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurrences of it. 
 
