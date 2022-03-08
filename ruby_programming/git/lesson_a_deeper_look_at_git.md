@@ -37,7 +37,7 @@ Before we get started with the lesson, let's create a Git playground in which we
 ~~~bash
   $ touch test{1..4}.md
   $ git add test1.md && git commit -m 'Create first file'
-  $ git add test2.md && git commit -m 'Create second file'
+  $ git add test2.md && git commit -m 'Create seond file'
   $ git add test3.md && git commit -m 'Create third file and create fourth file'
 ~~~
 
@@ -68,11 +68,11 @@ Now let's say we have commits further back in our history that we want to modify
 You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would simply remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like! 
 
 ~~~bash
-pick eacf39d Create second file
-edit 92ad0af Create third file and create footh file
+edit eacf39d Create seond file
+pick 92ad0af Create third file and create fourth file
 ~~~
 
-This would allow us to edit the `Create third file and create footh file` commit. Perform similar changes in your interactive rebase tool, but don't copy and paste the above code since it won't work. Save and exit the editor, which will allow us to edit the commit with the following instructions:
+This would allow us to edit the type in the `Create seond file` commit. Perform similar changes in your interactive rebase tool, but don't copy and paste the above code since it won't work. Save and exit the editor, which will allow us to edit the commit with the following instructions:
 
 ~~~bash
 You can amend the commit now, with
@@ -81,7 +81,7 @@ Once you're satisfied with your changes, run
        git rebase --continue
 ~~~
 
-So let's edit our commit by typing `git commit --amend`, fixing the typo to `Create third and create fourth file`, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
+So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
 
 #### Squashing Commits
