@@ -5,7 +5,7 @@ In previous lessons, you learned about loops as well as arrays and hashes. You w
 
 We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-3.0.3/) to see what else the [Enumerable module](https://ruby-doc.org/core-3.0.3/Enumerable.html) offers.
 
-For all of the examples throughout this lesson, feel free to follow along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:

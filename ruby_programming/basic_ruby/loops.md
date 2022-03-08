@@ -6,7 +6,7 @@ Like me, you've probably experienced real-life loops when you were given detenti
 
 If you find yourself needing to repeat an action more than once in your code, you probably need loops in your life.
 
-For all of the examples in this lesson, you should code along in irb or [repl.it](https://repl.it/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples in this lesson, you should code along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
