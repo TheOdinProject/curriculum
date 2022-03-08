@@ -32,7 +32,7 @@ Let's look at some ways we can change recent and distant history to fit our need
 
 #### Getting Set Up
 
-Before we get started with the lesson, let's create a git playground in which we can safely follow along with the code and perform history changing operations. Go to GitHub, and as you have in the past create a new repository. Call it whatever you'd like, and clone this repository on your local system. Now, let's `cd` into the repository we just cloned, and create some new files! Once you're in the repository follow along with the following commands. Look them up if you're confused about anything that's happening - the more practice we get using our Linux Terminal the better. 
+Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history changing operations. Go to GitHub, and as you have in the past create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned, and create some new files! Once you're in the repository follow along with the following commands. Look them up if you're confused about anything that's happening.
 
 ~~~bash
 $ touch test{1..4}.md
