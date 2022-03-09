@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Are commit messages so important they deserve their own lesson?
 
-Yes! Let me give you a quick list of reasons why:
+Yes! Let us give you a quick list of reasons why:
 
 - When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out. 
 - Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
