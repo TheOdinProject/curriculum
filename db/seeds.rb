@@ -8,6 +8,7 @@ load './db/fixtures/lessons/javascript_lessons.rb'
 load './db/fixtures/lessons/react_lessons.rb'
 load './db/fixtures/lessons/getting_hired_lessons.rb'
 load './db/fixtures/lessons/node_js_lessons.rb'
+load './db/fixtures/lessons/git_lessons.rb'
 
 SeedFu.seed
 

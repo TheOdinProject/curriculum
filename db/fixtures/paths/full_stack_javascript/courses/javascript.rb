@@ -88,7 +88,7 @@ course.add_section do |section|
   section.add_lessons(
     javascript_lessons.fetch('Testing Basics'),
     javascript_lessons.fetch('Testing Practice'),
-    javascript_lessons.fetch('A Deeper Look at Git'),
+    git_lessons.fetch('A Deeper Look at Git'),
     javascript_lessons.fetch('More Testing'),
     javascript_lessons.fetch('Battleship'),
   )
@@ -115,6 +115,7 @@ course.add_section do |section|
     react_lessons.fetch('React Testing Part 2'),
     react_lessons.fetch('Shopping Cart'),
     react_lessons.fetch('Advanced Concepts'),
+    git_lessons.fetch('Using Git in the Real World'),
   )
 end
 

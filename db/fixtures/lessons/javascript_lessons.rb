@@ -180,13 +180,6 @@ def javascript_lessons
       has_live_preview: false,
       identifier_uuid: '319ce38c-f68b-4bba-b9f7-25df452f0523',
     },
-    'A Deeper Look at Git' => {
-      title: 'A Deeper Look at Git',
-      description: 'Beyond just `$ git add` and `$ git commit`...',
-      is_project: false,
-      url: '/ruby_programming/git/lesson_a_deeper_look_at_git.md',
-      identifier_uuid: '20b0c8c0-6117-4304-b09a-b15497add8c5',
-    },
     'More Testing' => {
       title: 'More Testing',
       description: 'More Testing',
