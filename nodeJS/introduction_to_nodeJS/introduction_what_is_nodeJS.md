@@ -51,14 +51,12 @@ This process is almost exactly like the way that you would use `addEventListener
 
 Let's look at a quick real-world example:
 
-```javascript
-http
-  .createServer(function (req, res) {
-    res.writeHead(200, { "Content-Type": "text/html" });
-    res.end("Hello World!");
-  })
-  .listen(8080);
-```
+~~~javascript
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);
+~~~
 
 This snippet is from the very first lesson in a tutorial that you'll be following very soon. Basically this code is creating a server and saying, "any time we get a network request, run this callback function". This function happens to respond with the text 'Hello World!'. So if you go to a browser and navigate to the correct address and port, you would see that text on your screen.
 
