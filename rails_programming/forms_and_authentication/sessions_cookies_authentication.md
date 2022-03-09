@@ -75,7 +75,7 @@ If you want to pop up "Thanks for signing up!" on the user's browser after runni
 
 The flash is there to save the day!  Just store `flash[:success]` (or whatever you'd like it called) and it will be available to your view on the next new request.  As soon as the view accesses the hash, Rails erases the data so you don't have it show up every time the user hits a new page.  So clean, so convenient.
 
-<span id="flash-message">What about cases where the user can't sign up because of failed validations?  In this case, the typical `#create` action would just `render` the `#new` action using the existing instance variables.  Since it's not a totally new request, you'll want to have your error message available immediately.  That's why there's the handy `flash.now` hash, e.g. `flash.now[:error] = "Fix your submission!"`.  Just like the regular flash, this one self destructs automatically after opening.
+<span id="flash-message">What about cases where the user can't sign up because of failed validations?  In this case, the typical `#create` action would just `render` the `#new` action using the existing instance variables.  Since it's not a totally new request, you'll want to have your error message available immediately.  That's why there's the handy `flash.now` hash, e.g. `flash.now[:error] = "Fix your submission!"`.  Just like the regular flash, this one self destructs automatically after opening.</span>
 
 You still have to write view code to display the flash messages.  It's common to write a short view helper that will pin any available flash message(s) to the top of the browser.  You might also add a class to the message which will allow you to write some custom CSS, for instance turning `:success` messages green and `:error` messages red.
 
@@ -89,9 +89,9 @@ You still have to write view code to display the flash messages.  It's common to
 
 ### Controller Filters
 
-</span>Before we talk about authentication, we need to cover controller filters.  The idea of these filters is to run some code in your controller at very specific times, for instance before any other code has been run.  That's important because, if a user is requesting to run an action they haven't been authorized for, you need to nip that request in the bud and send back the appropriate error/redirect before they're able to do anything else.  You're basically "filtering out" unauthorized requests.
+Before we talk about authentication, we need to cover controller filters.  The idea of these filters is to run some code in your controller at very specific times, for instance before any other code has been run.  That's important because, if a user is requesting to run an action they haven't been authorized for, you need to nip that request in the bud and send back the appropriate error/redirect before they're able to do anything else.  You're basically "filtering out" unauthorized requests.
 
-<span id="login-check">We do this through the use of a "before filter", which takes the name of the method we want to run:
+<span id="login-check">We do this through the use of a "before filter", which takes the name of the method we want to run:</span>
 
 ~~~ruby
   # app/controllers/users_controller
@@ -104,7 +104,7 @@ You still have to write view code to display the flash messages.  It's common to
   end
 ~~~
 
-</span>The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
+The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
 
 You can specify to only apply the filter for specific actions by specifying the `only` option, e.g. `before_action :require_login, only: [:edit, :update]`.  The opposite applies by using the `:except` option... it will run for all actions except those specified.
 
@@ -122,11 +122,11 @@ Authentication and authorization go hand in hand -- you first authenticate someo
 
 ### Basic and Digest Authentication
 
-<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a simple form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.
+<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a simple form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.</span>
 
 For a slightly more secure (over HTTP) authentication system, use HTTP Digest Authentication.  We'll again not cover it here.  It relies on a `#before_action` running a method which calls upon `#authenticate_or_request_with_http_digest`, which takes a block that should return the "correct" password that should have been provided.
 
-The problem with both of these is that they hard code user names and passwords in your controller (or somewhere), so it's really just a band-aid solution.</span>
+The problem with both of these is that they hard code user names and passwords in your controller (or somewhere), so it's really just a band-aid solution.
 
 ### Rolling Your Own Auth
 
@@ -162,9 +162,9 @@ A generic step-by-step overview:
 
 ### Devise
 
-<span id="using-devise">Devise is a gem which has been built to handle all this stuff for you.  It's ultimately better than rolling your own auth because they've covered a lot of the edge cases and security loopholes that you might not think about.  Devise lets you interface with more advanced authentication systems for talking to APIs like OAuth.  So it's quite useful down the road.
+<span id="using-devise">Devise is a gem which has been built to handle all this stuff for you.  It's ultimately better than rolling your own auth because they've covered a lot of the edge cases and security loopholes that you might not think about.  Devise lets you interface with more advanced authentication systems for talking to APIs like OAuth.  So it's quite useful down the road.</span>
 
-In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.</span>
+In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.
 
 Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset his password (the `Recoverable` module)?
 
