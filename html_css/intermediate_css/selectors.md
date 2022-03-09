@@ -264,7 +264,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#syntax-exist-knowledge-check">How does the syntax of pseudo-classes and pseudo-elements differ?</a>
 * <a class="knowledge-check-link" href="#syntax-exist-knowledge-check">Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?</a>
 * <a class="knowledge-check-link" href="#second-child-knowledge-check">Name two ways you could select every second child of an element, starting with the first.</a>
-* <a class="knowledge-check-link" href="#first-child-knowledge-check">What is the difference between `div:first-child` and `div :first-child`? What will each select?</a>
+* <a class="knowledge-check-link" href="#first-child-knowledge-check">What is the difference between `div:first-child` and `div:last-child`? What will each select?</a>
 * <a class="knowledge-check-link" href="#hover-active-knowledge-check">What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?</a>
 * <a class="knowledge-check-link" href="#type-text-knowledge-check">How could you select all input elements with a type of text?</a>
 * <a class="knowledge-check-link" href="#thunder-knowledge-check">How could you select all classes that begin with `thunder` ?</a>
