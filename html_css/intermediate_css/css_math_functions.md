@@ -118,9 +118,8 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-[Check out this article](https://web.dev/min-max-clamp/) for a more in-depth look `min`, `max`, and `clamp` in action, with animated examples.
-
-[This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
+- [Check out this article](https://web.dev/min-max-clamp/) for a more in-depth look `min`, `max`, and `clamp` in action, with animated examples.
+- [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
 
 ### Knowledge Check
 
