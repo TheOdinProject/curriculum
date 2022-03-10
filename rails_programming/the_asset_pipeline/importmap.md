@@ -1,5 +1,3 @@
-# Rails Import Maps
-
 ### Introduction
 
 Prior to Rails 7, there was a long running issue with how Javascript third-party packages should be managed in a Rails application. The original approach was to wrap the Javascript in a Ruby Gem and release it. While this did bring about versioning and stability, it also made it slow to update to the latest releases of libraries as you needed to wait for the maintainers of the Ruby Gem to update it, test it, and release a new version of the Gem.
