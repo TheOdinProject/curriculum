@@ -72,7 +72,7 @@ HTML allows us to apply as many validations as we wish to a form control. For ex
 
 This gives us much more scope to control what users input.
 
-### Minimum and Maximum Validations
+### Number Range Validations
 
 Just like we often need to control the length of text-based form controls, there will be many situations where we will want to control the range of values users can enter into number based form controls.
 
