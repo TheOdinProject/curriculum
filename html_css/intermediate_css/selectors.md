@@ -93,7 +93,7 @@ Pseudo-classes offer us different ways to target elements in our HTML. There are
 
 As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
 
-## Dynamic and User Action Pseudo-classes
+#### Dynamic and User Action Pseudo-classes
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
 
 [`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard. 
@@ -121,7 +121,7 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
   }
 ~~~
 
-## Structural Pseudo-classes
+#### Structural Pseudo-classes
 Structural pseudo-classes are a powerful way to select elements based on their position within the DOM.
 
 [`:root`](https://css-tricks.com/almanac/selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
