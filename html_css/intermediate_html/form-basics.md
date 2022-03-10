@@ -340,7 +340,7 @@ We can also have a single checkbox when we want users to toggle if they want som
 </div>
 ~~~
 
-We can set a checkboxes to be checked by default on page load by giving them a `checked` attribute:
+We can set checkboxes to be checked by default on page load by giving them a `checked` attribute:
 
 ~~~html
 <div>
