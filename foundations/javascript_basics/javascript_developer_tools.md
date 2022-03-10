@@ -20,10 +20,9 @@ After completing this lesson, you will be able to:
 
 ### Opening Dev Tools
 
-There are three ways to open the Developer Tools menu:
+There are three ways to open the Chrome Developer Tools menu:
 
-1. From the Browser Menu:
-    - Chrome: Select the `Chrome Menu` > `More Tools` > `Developer Tools`
+1. From the `Chrome Menu` > `More Tools` > `Developer Tools`
 2. Right-click anywhere on a webpage and select `Inspect`
 3. Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
 
@@ -33,16 +32,16 @@ There are three ways to open the Developer Tools menu:
 
 Google has updated some of the required sections in the below tutorials and some elements have changed or no longer exist, but you can still follow along using the same functionality and tools that they cover. For example, you may be asked to inspect a button that is no longer on the page- you can still follow along and inspect existing elements without issue.
 
-1. Head to the [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
-    - Open DevTools
+1. Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
+    - Open Chrome DevTools
     - CSS
         1. View and change CSS
         2. CSS features reference
+    - Get Started With Viewing And Changing The DOM
     - Console
         1. Console overview
     - Mobile Simulation
         1. Simulate mobile devices with Device Mode
-    - Get Started With Viewing And Changing The DOM
     - JavaScript
         1. Debug JavaScript
         2. Pause your code with breakpoints
