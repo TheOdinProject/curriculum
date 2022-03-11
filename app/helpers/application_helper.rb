@@ -231,9 +231,5 @@ module ApplicationHelper
   def bootstrap_classes
     { 'notice' => 'alert-success', 'alert' => 'alert-danger' }
   end
-
-  def medium_blog_path
-    'https://medium.com/the-odin-project'
-  end
 end
 # rubocop:enable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength
