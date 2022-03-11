@@ -152,19 +152,29 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 ## Headings
 
+### Title Case
+
+Headings should always use [Wikipedia Style Title Case](https://titlecaseconverter.com/rules/#WP):
+
+~~~markdown
+### This Is Wikipedia Style Title Case
+
+### This is not Wikipedia style title case
+~~~
+
+You can use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Wikipedia Title Case; just select the Wikipedia "Styles" option.
+
 ### ATX-style headings
 
-Use Heading 3 `###` and [Wikipedia Style Title Case](https://titlecaseconverter.com/rules/#WP) for main section titles:
+Use Heading 3 `###`  for main section titles ("Lesson Overview", "Assignment", custom sections, etc):
 
 ~~~markdown
 ### Section Heading
 ~~~
 
-Use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Title Case, being sure to select the Wikipedia "Styles" option.
-
 ### Sub-heading
 
-Use Title Case and either Heading 4 `####` for sub-headings that are on their own line or `**Sub-heading**` for inline:
+Use either Heading 4 `####` for sub-headings that are on their own line or `**Sub-heading**` for inline:
 
 ~~~markdown
 ...text before.
