@@ -62,6 +62,7 @@ CUSTOM SECTION CONTENT.
 
 1.  A RESOURCE OR EXERCISE ITEM
     *   AN INSTRUCTION ITEM
+
 </div>
 
 ### Knowledge Check
