@@ -52,13 +52,6 @@ def ruby_on_rails_lessons
       url: '/rails_programming/rails_basics/views.md',
       identifier_uuid: 'c0299335-f370-4e80-9286-7fd2d6b8e351',
     },
-    'Webpacker' => {
-      title: 'Webpacker',
-      description: 'This lesson explains how Rails handles Javascript using Webpack, how it builds the dependency graph, and how you can ensure the pack files only load what they need to keep file sizes minimal',
-      is_project: false,
-      url: '/rails_programming/rails_basics/webpacker.md',
-      identifier_uuid: '7798211e-e6b6-4d7c-98c6-8203e3668a57',
-    },
     'Deployment' => {
       title: 'Deployment',
       description: "There's nothing quite like seeing your application on a real website.  We'll show you how it's done.",
