@@ -131,7 +131,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions to an entirely different house.
+Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions from a fixed global origin called "root" and denoted `/` (the entrance of the house).
 
 ### Images
 
@@ -219,6 +219,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [What happened the day Google decided links starting with root (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
