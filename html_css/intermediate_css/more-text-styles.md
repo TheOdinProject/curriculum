@@ -109,7 +109,7 @@ As you might expect, `text-shadow` adds a shadow around the text in the selected
 The examples on the [MDN reference page for text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) show how to use it.
 
 #### ellipsis
-This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, I know.  Sorry.)
+This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
 
 The full snippet is:
 
