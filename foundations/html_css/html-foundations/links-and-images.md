@@ -131,7 +131,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of the internet as a town, the directory in which your website is located as a museum, and each page on your website as a room in the museum. Relative links are directions from the current room (the museum movie room) to another room (the museum shop). Absolute links, on the other hand, are directions from a fixed global origin called "root" to all possible locations, and denoted `/` (the town tourist office).
+Think of your hostname (www.town.com) as a town, the directory in which your website is located (`www.town.com/museum/`) as a museum, and each page on your website as a room in the museum (`www.town.com/museum/movie_room.html` and `www.town.com/museum/shops/coffee_shop.html`). Relative links like `./shops/coffee_shop.html`) are directions from the current room (the museum movie room `www.town.com/museum/movie_room.html`) to another room (the museum shop `www.town.com/museum/shops/coffee_shop.html`). Absolute links, on the other hand, are full directions using both the hostname (`www.town.com`) and the path from that hostname (`www.town.com/museum/shops/coffee_shop.html`).
 
 ### Images
 
@@ -219,7 +219,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
-- [What happened the day Google decided links starting with root (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+- [What happened the day Google decided links included (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
