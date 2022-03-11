@@ -131,7 +131,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of your domain name (`town.com`) as a town, the directory in which your website is located (`town.com/museum/`) as a museum, and each page on your website as a room in the museum (`town.com/museum/movie_room.html` and `town.com/museum/shops/coffee_shop.html`). Relative links like `./shops/coffee_shop.html` are directions from the current room (the museum movie room `town.com/museum/movie_room.html`) to another room (the museum shop). Absolute links, on the other hand, are full directions using both the domain name (`town.com`) and the path from that domain name: `town.com/museum/shops/coffee_shop.html`.
+Think of your domain name (`town.com`) as a town, the directory in which your website is located (`/museum`) as a museum, and each page on your website as a room in the museum (`/museum/movie_room.html` and `/museum/shops/coffee_shop.html`). Relative links like `./shops/coffee_shop.html` are directions from the current room (the museum movie room `/museum/movie_room.html`) to another room (the museum shop). Absolute links, on the other hand, are full directions including the protocol (`https`), domain name (`town.com`) and the path from that domain name (`/museum/shops/coffee_shop.html`): `https://town.com/museum/shops/coffee_shop.html`.
 
 ### Images
 
