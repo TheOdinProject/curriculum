@@ -131,7 +131,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions from a fixed global origin called "root" and denoted `/` (the entrance of the house).
+Think of the internet as a town, the directory in which your website is located as a museum, and each page on your website as a room in the museum. Relative links are directions from the current room (the movie theatre) to another room (the museum shop). Absolute links, on the other hand, are directions from a fixed global origin called "root" to all possible locations, and denoted `/` (the town tourist office).
 
 ### Images
 
