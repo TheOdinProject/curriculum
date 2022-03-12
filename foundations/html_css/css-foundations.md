@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to
 
 ### Basic Syntax
 
-At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on these in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair. 
+At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
@@ -77,7 +77,7 @@ Class selectors will select all elements with the given class, which is just an 
 
 Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be unique, so you can use the same class on as many elements as you want.
 
-Another thing you can do with the class attribute is add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
+Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
 #### ID Selectors
 
@@ -96,7 +96,7 @@ ID selectors are similar to class selectors. They select an element with the giv
 }
 ~~~
 
-Instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or to have links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
+Instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
 The major difference between classes and IDs is that an element can only have **one** ID. An ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
 
@@ -136,7 +136,7 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 }
 ~~~
 
-Both of the examples above (with and without grouping) will have the same result, but the second example reduces repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
+Both of the examples above (with and without grouping) will have the same result, but the second example reduces the repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
 
 #### Chaining Selectors
 
@@ -149,7 +149,7 @@ Another way to use selectors is to chain them as a list without any separation. 
 </div>
 ~~~
 
-We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain the two class selectors together in our CSS like so:
+We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain both the class selectors together in our CSS like so:
 
 ~~~css
 .subsection.header {
@@ -184,9 +184,9 @@ In general, you can't chain more than one type selector since an element can’t
 
 #### Descendant Combinator
 
-Combinators allow us to combine multiple selectors differently than grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.</span>
+Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.</span>
 
-So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deeply. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
+So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deep. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
 
 ~~~html
 <!-- index.html -->
@@ -237,7 +237,7 @@ Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/c
 
 #### Typography Basics and `text-align`
 
-`font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or "generic family name" like `sans-serif` (generic family names never use quotes).
+`font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `sans-serif` (generic family names never use quotes).
 
 If a browser cannot find or does not support the first font in a list, it will use the next one, then the next one and so on until it finds a supported and valid font. This is why it's best practice to include a list of values for this property, starting with the font you want to be used most and ending with a generic font family as a fallback, e.g. `font-family: "Times New Roman", sans-serif;`
 
@@ -264,9 +264,9 @@ It's best to include both of these properties for `<img>` elements, even if you 
 
 ### The Cascade of CSS
 
-Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between itself and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
+Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
 
-So if you end up with some unexpected behavior like this it's either because of these default styles, or due to not understanding how a property works or not understanding this little thing called the cascade. 
+So if you end up with some unexpected behavior like this it's either because of these default styles or due to not understanding how a property works or not understanding this little thing called the cascade.
 
 The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this, three of which we'll go over to hopefully help you avoid (as many of) those frustrating "I hate CSS" moments.
 
@@ -402,7 +402,7 @@ Despite the `parent` element having a higher specificity with an ID, the `child`
 
 The final factor, the end of the line, the tie-breaker of the tie-breaker. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
-Really simply, actually. Whichever rule was *last* defined is the winner.
+Really simply, actually. Whichever rule was the *last* defined is the winner.
 
 ~~~css
 /* styles.css */
@@ -454,12 +454,11 @@ A note on file names: `styles.css` is just what we went with as the file name he
 
 A couple of the pros to this method are:
 
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and makes things look cleaner.
-2. We only need to edit the CSS in *one* place, which is especially handy for websites with multiple pages that all share similar styles.
+1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
 
 #### Internal CSS
 
-Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itself instead of creating a completely separate file. With the internal method, you place all of the rules inside of a pair of opening and closing `<style>` tags, which are then placed inside of the opening and closing `<head>` tags of your HTML file. Since the styles are being placed directly inside of the `<head>` tags, we no longer need a `<link>` element that the external method requires.
+Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itself instead of creating a completely separate file. With the internal method, you place all the rules inside of a pair of opening and closing `<style>` tags, which are then placed inside of the opening and closing `<head>` tags of your HTML file. Since the styles are being placed directly inside of the `<head>` tags, we no longer need a `<link>` element that the external method requires.
 
 Besides these differences, the syntax is exactly the same as the external method (selector, curly braces, declarations):
 
@@ -479,7 +478,7 @@ Besides these differences, the syntax is exactly the same as the external method
 <body>...</body>
 ~~~
 
-This method can be useful for adding unique styles to a *single page* of a website, but it doesn't keep things separated like the external method, and depending how many rules and declarations there are it can cause the HTML file to get pretty big.
+This method can be useful for adding unique styles to a *single page* of a website, but it doesn't keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
 
 #### Inline CSS
 
