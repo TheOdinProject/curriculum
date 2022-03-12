@@ -235,7 +235,7 @@ def html_and_css_lessons
       title: 'Conclusion',
       description: 'Finish our study of Grid by comparing it to Flexbox',
       is_project: false,
-      url: 'html_css/grid-lessons/grid-conclusion.md',
+      url: '/html_css/grid-lessons/grid-conclusion.md',
       identifier_uuid: 'eee5a7e7-bbcc-432b-bdfb-799276fc47c2'
     },
     'Admin Dashboard' => {
@@ -244,7 +244,7 @@ def html_and_css_lessons
       is_project: true,
       accepts_submission: true,
       has_live_preview: true,
-      url: 'html_css/grid-lessons/project-dashboard/project-dashboard.md',
+      url: '/html_css/grid-lessons/project-dashboard/project-dashboard.md',
       identifier_uuid: 'c35f0b7b-4d21-4d26-91e2-4af78519ae5f'
     },
     # Responsive Design
