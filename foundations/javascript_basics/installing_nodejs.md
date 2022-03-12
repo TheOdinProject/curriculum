@@ -51,6 +51,8 @@ if this returns `nvm: command not found`, close the terminal and re-open it.
   <summary class="dropDown-header">Installation on macOS</summary>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
+  
+If using an version of MacOS that is before 10.15 you can optionally update the shell from bash to zsh. This is done by following the instructions in the terminal or by entering the command `chsh - s /bin/zsh` followed by your password when prompted.
 
 To create the `.zshrc` file and start the nvm installation, run the following commands:
 
