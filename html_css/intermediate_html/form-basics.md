@@ -122,7 +122,7 @@ Try changing the `name` attributes of some of the input fields in the form and t
 
 It's worth mentioning that you can use any of the form controls HTML provides outside of the `<form>` element, even when you don't have a backend server where you can send data.
 
-For example you might want to have an input that gets some data from a user and display that somewhere else on the page with Javascript:
+For example you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="PoJjNYr" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr">
@@ -403,7 +403,7 @@ Luckily, HTML provides a couple of elements that help us make organizing forms i
 
 The fieldset element is a container element that allows us to group related form inputs into one logical unit.
 
-To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we want to group together go within the open and closing fieldset tags:
+To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we want to group together go within the opening and closing fieldset tags:
 
 ~~~html
 <fieldset>
