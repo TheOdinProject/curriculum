@@ -192,7 +192,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
-The alt attribute is used to describe an image, it will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
+The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
 This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
 
