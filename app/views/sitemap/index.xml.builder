@@ -25,11 +25,6 @@ xml.urlset(
     xml.changefreq("monthly")
     xml.priority(1.00)
   end
-  xml.url do
-    xml.loc "#{curriculum_url}"
-    xml.changefreq("monthly")
-    xml.priority(0.80)
-  end
 
   # Individual courses and lessons
   @courses.each do |course|

@@ -1,6 +1,6 @@
 # rubocop:disable Lint/MissingCopEnableDirective, Metrics/BlockLength
 Rails.application.routes.draw do
-  draw(:old_route_redirects)
+  draw(:redirects)
   ActiveAdmin.routes(self)
 
   require 'sidekiq/web'
@@ -57,12 +57,6 @@ Rails.application.routes.draw do
     resources :progress, only: :destroy
   end
 
-  # Deprecated Route to Web Development 101 from external links
-  get '/courses/web-development-101', to: redirect('/courses/foundations')
-  get '/courses/web-development-101/%{id}', to: redirect('/courses/foundations/%{id}')
-
-  get '/courses' => redirect('/paths')
-
   namespace :lessons do
     resource :preview, only: %i[show create]
     resources :installation_lessons, only: %i[index]
@@ -84,7 +78,6 @@ Rails.application.routes.draw do
     resources :likes, controller: 'project_submissions/likes'
   end
 
-  get '/paths/web-development-101', to: redirect('/paths/foundations')
   resources :paths, only: %i[index show] do
     resources :courses, only: %i[index show] do
       resources :lessons, only: %i[show]
@@ -95,11 +88,4 @@ Rails.application.routes.draw do
   resource :themes, only: :update
 
   match '/404' => 'errors#not_found', via: %i[get post patch delete]
-
-  # Explicitly redirect deprecated routes (301)
-  get '/courses/curriculum' => redirect('/courses')
-  get 'curriculum' => redirect('/courses')
-  get 'scheduler' => redirect('/courses')
-  get '/tracks', to: redirect('/paths')
-  get '/tracks/:id', to: redirect('/paths/%{id}')
 end

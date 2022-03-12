@@ -27,7 +27,7 @@ RSpec.describe ButtonHelper do
 
   describe '#curriculum_button' do
     it 'returns the curriculum button' do
-      expect(helper.curriculum_button).to eq('<a class="button button--primary" href="/curriculum">Curriculum</a>')
+      expect(helper.curriculum_button).to eq('<a class="button button--primary" href="/paths">Curriculum</a>')
     end
   end
 
