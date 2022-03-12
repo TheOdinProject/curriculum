@@ -318,7 +318,7 @@ In the example above, despite rule 2 having more class selectors than ID selecto
 }
 
 /* rule 2 */
-#subsection .main .list  {
+#subsection .main .list {
   color: red;
 }
 ~~~
@@ -392,7 +392,7 @@ The exception to this is when directly targeting an element, as this always beat
 }
 
 .child {
-  color: blue
+  color: blue;
 }
 ~~~
 
