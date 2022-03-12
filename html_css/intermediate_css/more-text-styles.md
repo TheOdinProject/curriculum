@@ -73,6 +73,7 @@ Typically used to make a font italic. You learned about the HTML `<em>` tag, whi
 For example, if you want all your header text to be italic you should use `font-style` to accomplish this. If you want some text in the _middle of a sentence_ to appear italic in order to emphasize that text, it is appropriate to use an `em` element. The [MDN doc on the Emphasis Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) puts stress on our point above.
 
 We should use `font-style: italic;` if italics is required for styling purposes.
+
 ~~~css
 h1 {
   font-style: italic;
@@ -80,6 +81,7 @@ h1 {
 ~~~
 
 We should use the `em` element if italics is required for emphasis.
+
 ~~~html
 <p>I <em>never</em> said he stole your money</p>
 <p>I never said <em>he</em> stole your money</p>
