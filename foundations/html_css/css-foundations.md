@@ -157,7 +157,7 @@ We have two elements with the `subsection` class that have some sort of unique s
 }
 ~~~
 
-What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, with the exception of chaining more than one [type selector](#type-selectors).
+What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](#type-selectors).
 
 This can also be used to chain a class and an ID, as shown below:
 
@@ -210,7 +210,7 @@ So something like `.ancestor .child` would select an element with the class `chi
 
 In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) won't be. Was your guess correct?
 
-There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that require this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
+There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
 ### Properties to Get Started With
 
@@ -272,7 +272,7 @@ The cascade is what determines which rules actually get applied to our HTML. The
 
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over ones that are less specific. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. There are other selectors that contribute to specificity, but we're focusing only on the ones mentioned in this lesson:
+A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones mentioned in this lesson:
 
 1. ID selectors (most specific selector)
 2. Class selectors
@@ -420,7 +420,7 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 ### Adding CSS to HTML
 
-Okay, we went over quite a bit so far. The only thing left for now is to go over *how* to add all of this CSS to our HTML. There are three methods to do so.
+Okay, we went over quite a bit so far. The only thing left for now is to go over *how* to add all this CSS to our HTML. There are three methods to do so.
 
 #### External CSS
 
@@ -455,6 +455,7 @@ A note on file names: `styles.css` is just what we went with as the file name he
 A couple of the pros to this method are:
 
 1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
+2. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
 
 #### Internal CSS
 
@@ -495,7 +496,7 @@ The first thing to note is that we don't actually use any selectors here, since 
 If you need to add a *unique* style for a *single* element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
 * It can get pretty messy pretty quickly once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
-* If you want multiple elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
+* If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 * Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of).
 
 ### Practice
