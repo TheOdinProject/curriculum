@@ -22,7 +22,7 @@ module ButtonHelper
   def chat_button
     link_to(
       'Open Discord',
-      chat_link,
+      ODIN_CHAT_URL,
       class: 'button button--secondary',
       target: '_blank',
       rel: 'noreferrer'

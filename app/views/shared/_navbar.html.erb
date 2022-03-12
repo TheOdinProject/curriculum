@@ -17,7 +17,7 @@
         <% if user_signed_in? %>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
-            <%= render Nav::ItemComponent.new(path: chat_link, text: 'Community', test_id: 'nav-community') %>
+            <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community') %>
             <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
           </div>
 
@@ -34,7 +34,7 @@
           <div class="hidden md:ml-6 md:flex sm:space-x-8">
           <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
           <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
-          <%= render Nav::ItemComponent.new(path: chat_link, text: 'Community', test_id: 'nav-community') %>
+          <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community') %>
           <%= render Nav::ItemComponent.new(path: sign_up_path, text: 'Get Started', test_id: 'nav-signup') %>
           <%= render Nav::ItemComponent.new(path: login_path, text: 'Log In', test_id: 'nav-login') %>
           <%= render ThemeSwitcherComponent.new(theme: cookies[:theme], icon_only: true) %>

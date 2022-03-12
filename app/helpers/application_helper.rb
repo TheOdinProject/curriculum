@@ -2,10 +2,6 @@
 module ApplicationHelper
   require 'kramdown'
 
-  def chat_link
-    'https://discord.gg/fbFCkYabZB'
-  end
-
   def github_link(extension = '')
     "https://github.com/TheOdinProject/#{extension}"
   end
@@ -106,7 +102,7 @@ module ApplicationHelper
       {
         question: 'How can I get in touch?',
         answer:
-        "<p>If you have questions about The Odin Project itself, feel free to <a href='mailto:theodinprojectcontact@gmail.com'>contact us</a>.  There is also a friendly Odin community in our <a target='_blank' rel='noreferrer' href=#{chat_link}>Discord chat rooms.</a></p>"
+        "<p>If you have questions about The Odin Project itself, feel free to <a href='mailto:theodinprojectcontact@gmail.com'>contact us</a>.  There is also a friendly Odin community in our <a target='_blank' rel='noreferrer' href=#{ODIN_CHAT_URL}>Discord chat rooms.</a></p>"
       }
     ]
   end

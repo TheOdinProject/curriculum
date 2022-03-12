@@ -1,12 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe ApplicationHelper do
-  describe '#chat_link' do
-    it 'returns the chat url' do
-      expect(chat_link).to eq('https://discord.gg/fbFCkYabZB')
-    end
-  end
-
   describe 'title' do
     it 'sets the title' do
       helper.title('Courses')

@@ -44,17 +44,17 @@ $(() => {
 
   // Fire an event when a user clicks on the Discord chat link in the individual lesson page
   $("a:contains('Open Discord')").on('click', (e) => {
-    _gaq.push(['_trackEvent', 'discord_chat', 'click_discord_chat_link', 'lesson_page', 1]);
+    _gaq.push(['_trackEvent', 'chat', 'click_chat_link', 'lesson_page', 1]);
   });
 
   // Fire an event when a user clicks on the floating chat button
   $('.chat-floating-btn').click((e) => {
-    _gaq.push(['_trackEvent', 'discord_chat', 'click_discord_chat_floating_button', 'global', 1]);
+    _gaq.push(['_trackEvent', 'chat', 'click_chat_floating_button', 'global', 1]);
   });
 
   // Fire an event when a user clicks on the Discord chat link in the navbar
   $('.discord-chat-link').on('click', (e) => {
-    _gaq.push(['_trackEvent', 'discord_chat', 'click_discord_chat_link', 'navbar', 1]);
+    _gaq.push(['_trackEvent', 'chat', 'click_chat_link', 'navbar', 1]);
   });
 
   // Fire an event whenever someone tries to sign in the standard way
