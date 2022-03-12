@@ -39,7 +39,7 @@ After we declare the doctype, we need to provide an `<html>` element. This is wh
 
 This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the HTML element should be included on every HTML document.
 
-Back in the `index.html` lets add the `<html>` element by typing out its opening and closing tags, like so:
+Back in the `index.html` file, let's add the `<html>` element by typing out its opening and closing tags, like so:
 
 ~~~html
 <!DOCTYPE html>
@@ -74,7 +74,7 @@ The title element is used to give webpages a human-readable title which is displ
 
 If we didn't include a title element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 
-Back in our `index.html`, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
+Back in our `index.html` file, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
 
 ~~~html
 <!DOCTYPE html>
@@ -121,7 +121,7 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
-Back in the `index.html` file, lets add a heading (more on these later) to the body, and save the file:
+Back in the `index.html` file, let's add a heading (more on these later) to the body, and save the file:
 
 ~~~html
 <!DOCTYPE html>
