@@ -81,7 +81,7 @@ Another thing you can do with the class attribute is to add multiple classes to 
 
 #### ID Selectors
 
-ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element: 
+ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element:
 
 ~~~html
 <!-- index.html -->
@@ -121,7 +121,7 @@ What if we have two groups of elements that share some of their style declaratio
 Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations, but otherwise have several of their own unique declarations. To cut down on the repetition, we can group these two selectors together as a comma-separated list:
 
 ~~~css
-.read, 
+.read,
 .unread {
   color: white;
   background-color: black;
@@ -373,7 +373,7 @@ In this example, rule 2 would have higher specificity and the `orange` value wou
 
 #### Inheritance
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. 
+Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
 
 The exception to this is when directly targeting an element, as this always beats inheritance:
 
@@ -507,12 +507,12 @@ If you need to add a *unique* style for a *single* element, this method can work
 
    How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume, so feel free to go a little crazy for now.
 
-    We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
+   We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied. 
+* [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
 * [Changing the Font Family](https://www.bitdegree.org/learn/font-family-css#how-to-use-a-downloaded-font) describes a few different approaches to using custom fonts.
 * [CSS Specificity](https://www.w3schools.com/css/css_specificity.asp) from W3Schools goes over how you can calculate the specificity of rules. This page mentions some selectors that we will go over in a later lesson, so don't worry about what they are or how to use them right now.
 * [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; simply look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
