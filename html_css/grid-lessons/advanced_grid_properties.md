@@ -27,11 +27,11 @@ We're going to approach this lesson hands-on. Let's set up a grid with five colu
 
 In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that _isn't_ related to the lesson so you can understand why it is being used.
 
-##### `.grid-item, p, img` selectors
+#### `.grid-item, p, img` selectors
 
 All the properties here are simply to make our grid items look a bit nicer. They are all relatively straightforward, so no need to dive into specifics.
 
-##### `.grid-container`
+#### `.grid-container`
 
 For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom right corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
 
