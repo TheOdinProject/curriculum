@@ -30,7 +30,7 @@ When you're building your project, you will probably end up doing several `git a
 
 When writing code, it's considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere.
 
-After you have entered `git push origin main`, switch over to your browser and open your repository on Github, you should now see all the files you just pushed.
+After you have entered `git push origin main`, switch over to your browser and open your repository on GitHub. You should now see all the files you just pushed.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
@@ -38,7 +38,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 <div class="lesson-content__panel" markdown="1">
 
-#### Iteration 1: Initial structure
+#### Iteration 1: Initial Structure
 
 1. Within the `odin-recipes` directory, create an `index.html` file.
 2. Fill it out with the usual boilerplate HTML and add an `h1` heading "Odin Recipes" to the body.
