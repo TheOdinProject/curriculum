@@ -103,10 +103,17 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 #### clamp()
 
 `clamp()` is a great way to make elements fluid and responsive.
-`clamp()` takes 3 values.
-`font-size: clamp(320px, 80vw, 60rem);`
+`clamp()` takes 3 values:
 
-1. `the smallest value`, 2. `the ideal value`, 3. `the largest value`
+~~~css
+font-size: clamp(320px, 80vw, 60rem);
+~~~
+
+1. the smallest value (320px)
+2. the ideal value (80vw)
+3. the largest value (60rem)
+
+The `clamp()` CCS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The middle value of 80vw would be the ideal font-size.
 
 ### Assignment
 
