@@ -134,7 +134,7 @@ You can also mix static units (like `px`) and dynamic units (like `fr`):
 
 You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
 
-### Minimum and Maximum Track Sizes: `min()` and `max()`
+### Minimum and Maximum Track Sizes: min() and max()
 
 When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations.
 
