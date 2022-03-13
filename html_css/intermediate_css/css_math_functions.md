@@ -106,7 +106,9 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 `clamp()` takes 3 values:
 
 ~~~css
-font-size: clamp(320px, 80vw, 60rem);
+h1 {
+  font-size: clamp(320px, 80vw, 60rem);
+}
 ~~~
 
 1. the smallest value (320px)
