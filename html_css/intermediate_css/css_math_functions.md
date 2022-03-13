@@ -113,7 +113,7 @@ font-size: clamp(320px, 80vw, 60rem);
 2. the ideal value (80vw)
 3. the largest value (60rem)
 
-The `clamp()` CCS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The middle value of 80vw would be the ideal font-size.
+The `clamp()` CSS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The ideal font-size would be 80vw.
 
 ### Assignment
 
