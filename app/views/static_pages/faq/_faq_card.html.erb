@@ -1,17 +1,16 @@
-<div class="card faq-card">
-  <a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#faq-item-<%= index %>" aria-expanded="true" aria-controls="faq-item-<%= index %>">
+<div class="card faq-card" data-controller="reveal"> 
+  <a role="button" data-action="click->reveal#toggle"> 
     <div class="card-header faq-card-header" role="tab">
       <h2 class="secondary bold faq-question-title text-2xl">
         <%= faq_item[:question] %>
       </h2>
-      <i class="fas fa-plus camel expander"></i>
-      <i class="fas fa-minus camel minimizer"></i>
-    </div> <!-- /.card-header-->
+      <i class="fas fa-chevron-down text-xl text-gray-500""></i>
+    </div>
   </a>
 
-  <div id="faq-item-<%= index %>" class="collapse" role="tabpanel" aria-labelledby="faq-item-<%= index %>">
+  <div class="hidden" data-reveal-target="content">
     <div class="card-block">
       <%= faq_item[:answer].html_safe %>
     </div>
-  </div> <!-- /.collapse -->
-</div> <!-- /.faq-card -->
+  </div>
+</div> 
