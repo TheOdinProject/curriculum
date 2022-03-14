@@ -81,11 +81,11 @@ This function does NOT put your new element into the DOM - it simply creates it 
 #### Append Elements
 
 * _parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
-* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_
+* _parentNode_.insertBefore\(_childNode_, _referenceNode_\) inserts _childNode_ into _parentNode_ before _referenceNode_
 
 #### Remove Elements
 
-* _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns a reference to _child_
+* _parentNode_.removeChild\(_childNode_\) removes _childNode_ from _parentNode_ on the DOM and returns a reference to _childNode_
 
 #### Altering Elements
 
