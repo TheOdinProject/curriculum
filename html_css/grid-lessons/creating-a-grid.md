@@ -129,7 +129,7 @@ By default, CSS Grid will add additional content with implicit rows. This means 
 
 ### Gap
 
-The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties. The gap can also be set with the shorthand property `gap` if you want the row and column gap to be the same.
+The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties. Furthermore, we can use a shorthand property called `gap` to set both `row-gap` and `column-gap`.
 
 Before adding our grid gap properties let’s make things a little easier to see without relying on developer tools. We’ll go ahead and add a simple border around our grid items so we can get a better sense of their placement around each other:
 
@@ -158,7 +158,9 @@ Finally we’ll add a lot of gap to our rows to highlight the difference:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-If we wanted the columns and rows to share the same gap value we could replace the `column-gap` and `row-gap` properties with something like `gap: 25px;`.
+Alternatively, we can set both the `row-gap` and `column-gap` by just using `gap`. For example: `gap: 10px 20px;` where the first value contains the `row-gap` and the second value contains the `column-gap`. Try using `gap` to change the `row-gap` and `column-gap` values with the example syntax. 
+
+If we wanted the columns and rows to share the same gap value we can omit the `column-gap` property so it looks something like `gap: 25px;`. When a `column-gap` isn't specified, the value of the `column-gap` is assumed to be the same value as the `row-gap`.
 
 ### Wrapping Up Our First Grid
 
