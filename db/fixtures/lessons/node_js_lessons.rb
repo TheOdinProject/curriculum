@@ -62,7 +62,7 @@ def node_js_lessons
       title: 'Preparing for Deployment',
       description: 'Get setup to use Heroku to deploy our web applications',
       is_project: false,
-      url: '/rails_programming/introduction/preparing_for_deployment.md',
+      url: '/ruby_on_rails/introduction/preparing_for_deployment.md',
       identifier_uuid: '7eec89f0-5619-4dc7-a8b9-af009d36c288',
     },
     'Mini Message Board' => {
