@@ -49,7 +49,7 @@ Asking your questions in a readable format helps everyone debug them better. Her
 
 If you're having trouble on the command line, make sure to include both your input and the error message you're getting.
 
-In the chat rooms, code can be displayed differently from normal sentences by using **backticks** (\`\`), which can be found above the Tab key on US and UK keyboards. Backticks are not the same as single quotation marks (''), which are found to the left of the Enter key.
+In the chat rooms, code can be displayed differently from normal sentences by using **backticks** (\`\`), which can be found above the Tab key on US and UK keyboards. On Macbook keyboards it is located between the 'Z' and Left Shift keys. Backticks are not the same as single quotation marks (''), which are found to the left of the Enter key.
 
 **For a single line of code:** use one backtick before and after your code.
 
