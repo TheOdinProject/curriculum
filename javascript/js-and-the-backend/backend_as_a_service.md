@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to:
 
 ### OK, so... now what?
 
-You can learn how to build a back-end later using [Node.js](https://www.theodinproject.com/courses/nodejs). For now, you can outsource your backend functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/). For this lesson, we'll be learning Firebase.
+You can learn how to build a back-end later using [Node.js](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs). For now, you can outsource your backend functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/). For this lesson, we'll be learning Firebase.
 
 ### Assignment
 

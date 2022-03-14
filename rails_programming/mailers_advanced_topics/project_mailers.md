@@ -4,7 +4,7 @@ Setting up a mailer is a relatively straightforward task. It's very similar to b
 
 ### Assignment
 
-You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lessons/building-advanced-forms) and having it send out a "You have booked your ticket" confirmation email to all Passengers when they are created as part of the booking process. Make sure to send out one email to each Passenger in the Booking, not just one for the whole Booking. (Alternatively, you can use one of your other projects, as long as it has users registering.)
+You'll be dusting off your [Flight Booker project](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/building-advanced-forms) and having it send out a "You have booked your ticket" confirmation email to all Passengers when they are created as part of the booking process. Make sure to send out one email to each Passenger in the Booking, not just one for the whole Booking. (Alternatively, you can use one of your other projects, as long as it has users registering.)
 
 <div class="lesson-content__panel" markdown="1">
 1. Locate and load up the project file.
