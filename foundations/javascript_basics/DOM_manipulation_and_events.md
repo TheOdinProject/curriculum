@@ -235,7 +235,7 @@ Add the following elements to the container using ONLY JavaScript and the DOM me
 3. a `<div>` with a black border and pink background color with the following elements inside of it:
    1. another `<h1>` that says "I'm in a div"
    2. a `<p>` that says "ME TOO!"
-   3. Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+   3. Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container. Inserting into the DOM is a slow operation, so it's better to work in the memory first and then append the whole thing all at once.
 
 ### Events
 
