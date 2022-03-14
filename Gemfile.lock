@@ -301,7 +301,7 @@ GEM
     nokogiri (1.13.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    noticed (1.5.8)
+    noticed (1.5.9)
       http (>= 4.0.0)
       rails (>= 5.2.0)
     oauth2 (1.4.7)
@@ -510,7 +510,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8)
+    unf_ext (0.0.8.1)
     unicode-display_width (2.1.0)
     vcr (6.1.0)
     view_component (2.49.1)
