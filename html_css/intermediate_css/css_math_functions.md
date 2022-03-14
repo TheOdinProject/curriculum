@@ -120,7 +120,8 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-[Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+1. [Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+2. Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
 </div>
 
 ### Additional Resources
