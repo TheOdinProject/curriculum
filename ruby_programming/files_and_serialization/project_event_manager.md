@@ -1051,7 +1051,7 @@ Something that looks like:
 ~~~html
 <html>
 <head>
-  <meta charset='utf-8'>
+  <meta charset='UTF-8'>
   <title>Thank You!</title>
 </head>
 <body>
@@ -1269,7 +1269,7 @@ return to the application.
 ~~~erb
 <html>
 <head>
-  <meta charset='utf-8'>
+  <meta charset='UTF-8'>
   <title>Thank You!</title>
 </head>
 <body>
