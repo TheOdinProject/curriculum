@@ -1,5 +1,5 @@
 ### Introduction
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.
+In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.
 
 There are multiple ways to define objects but in most cases, it is best to use the __object literal__ syntax as follows:
 
@@ -33,7 +33,7 @@ myObject.variable // this gives us 'undefined' because it's looking for a proper
 myObject[variable] // this is equivalent to myObject['property'] and returns 'Value!'
 ~~~
 
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/courses/foundations/lessons/fundamentals-part-5) from our JavaScript Basics course.
+If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) from our JavaScript Basics course.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:

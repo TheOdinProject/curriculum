@@ -20,7 +20,7 @@ If you do not know how to set up a repository, follow the instructions found in 
 If you are having trouble:
 
 - All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `odin-recipes` folder?).
-- Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
+- Ensure you followed the steps [here on Step 2.3](/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
 - Refer to the [workflow](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
 #### Tips on when to commit

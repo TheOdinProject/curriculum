@@ -8,7 +8,7 @@ That said, some languages are more popular and practical than others.  If you're
 
 Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python and Java (not to be confused with JavaScript). Just as I can say "Which way to the nearest pub?" in Swedish, French, Italian, English, and Bad English, so too can all of those languages perform almost exactly the same functions, just using different syntax.
 
-As we covered back in the [Installations section](https://www.theodinproject.com/courses/foundations/lessons/installation-overview), the front-end languages live in the browser so there are no extra installations required.  For the reasons listed above, the back-end languages do require you to install them on your computer in order to get them running. NodeJS has already been installed as it is required in the JavaScript section of Foundations. Ruby and Rails are installed in their own respective sections as they aren't required until then.
+As we covered back in the [Installations section](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/installation-overview), the front-end languages live in the browser so there are no extra installations required.  For the reasons listed above, the back-end languages do require you to install them on your computer in order to get them running. NodeJS has already been installed as it is required in the JavaScript section of Foundations. Ruby and Rails are installed in their own respective sections as they aren't required until then.
 
 ### Learning Outcomes
 
