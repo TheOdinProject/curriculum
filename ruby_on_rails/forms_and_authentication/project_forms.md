@@ -43,7 +43,7 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
 
    ~~~bash
    Started POST "/users" for 127.0.0.1 at 2013-12-12 13:04:19 -0800
-   Processing by UsersController#create as HTML
+   Processing by UsersController#create as TURBO_STREAM
    Parameters: {"authenticity_token"=>"WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "username"=>"foobar", "email"=>"foo@bar.com", "password"=>"[FILTERED]"}
    ~~~
 That looks a whole lot like what you normally see when Rails does it, right?
@@ -57,7 +57,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
      if @user.save
        redirect_to new_user_path
      else
-       render :new
+       render :new, status: :unprocessable_entity
      end
    end
    ~~~

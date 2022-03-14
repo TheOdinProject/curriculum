@@ -20,19 +20,11 @@ If a lot of what follows seems confusing, don't worry! A lot of Turbo Drive happ
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What is Turbolinks?
 * What is the purpose of Turbo Drive?
 * How does Turbo Drive handle page navigation?
 * What are the two kinds of page visit types in Turbo?
 * How can you disable Turbo Drive?
-
-### Turbolinks
-
-Before we can talk about Turbo, we should briefly mention its predecessor, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (its first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. The goal of Turbolinks was to capture the request for any clicked links in your web application and, if that link was to another page in your web app and not to an outside resource, then Turbolinks would keep the current page instance alive and only swap out the content between the `<body>` tags of the document. Because it didn't do a full page redirect it was faster because it didn't have to attempt to download any resources in the head part of the document when they were unlikely to have unchanged.
-
-This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
-
-To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not shorthand for Turbolinks**. They are two different entities.
+* What is Turbolinks?
 
 ### Turbo Drive
 
@@ -130,7 +122,9 @@ If you don't understand some of the information as it is explained below just wa
 
 While most link requests are issued as GET requests, forms are different. You often submit forms as a POST, PATCH or DELETE request in order to manipulate some data that lives on the server.
 
-Turbo Drive intercepts all Form Submissions by default and submits them itself to the server on your behalf. What you must keep in mind going forwards into the form lessons is that when Turbo expects the server usually to return an HTTP status of HTTP 303. This is a redirect response. Think of it like this, after you submit a form usually you want to do be directed somewhere afterwards. That could be back to the same page with a blank form ready for another submission, or it could be to view the resource you just created with the form, but you expect to be redirected away from the current page with the completed form on it. There are two exceptions to this expectation
+Turbo Drive intercepts all Form Submissions by default and submits them to the server on your behalf. As we advance into the form lessons, you must remember that Turbo expects the server to return an HTTP status of HTTP 303 or, in other words, a redirect.
+
+Think of it like this, after you submit a form usually you want to do be directed somewhere afterwards. That could be back to the same page with a blank form ready for another submission, or it could be to view the resource you just created with the form, but you expect to be redirected away from the current page with the completed form on it. There are two exceptions to this expectation
 
 1. When the server responds with a 4XX status code. This is common if you submit a form with the wrong information in it and the server will respond with a 422 Unprocessable Entity status
 2. When the server responds with a 5XX status code of which the most common is 500 Internal Server Error.
@@ -143,6 +137,14 @@ The reason is that if you've ever submitted a form and refreshed the page before
 2. It could try and navigate to the action that the form submits to.
 
 If it navigated to the form action it would do so as a new GET request, but since forms issued POST requests the server might not be set up to handle a GET request to that url and you'd get an error. Because Turbolinks didn't handle form submissions this is what actually happened in previous versions of Rails. This is why Turbo Drive went with option 1, it stays on the current URL in your browser and therefore it appears to the user that nothing has happened. You must therefore ensure you always respond with one of the valid status codes mentioned above with forms.
+
+### Turbolinks
+
+Before we finish up, we should briefly mention the predecessor to Turbo, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (its first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. The goal of Turbolinks was to capture the request for any clicked links in your web application and, if that link was to another page in your web app and not to an outside resource, then Turbolinks would keep the current page instance alive and only swap out the content between the `<body>` tags of the document. Because it didn't do a full page redirect it was faster because it didn't have to attempt to download any resources in the head part of the document when they were unlikely to have unchanged.
+
+This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
+
+To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not shorthand for Turbolinks**. They are two different entities.
 
 ### Assignment
 
