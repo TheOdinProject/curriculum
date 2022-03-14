@@ -70,6 +70,6 @@ group :test do
   gem 'rspec-retry', '~> 0.6'
   gem 'shoulda-matchers', '~> 5.1'
   gem 'simplecov', '~> 0.21', require: false
-  gem 'vcr', '~> 6.0'
+  gem 'vcr', '~> 6.1'
   gem 'webmock', '~> 3.14'
 end
