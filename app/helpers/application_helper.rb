@@ -145,43 +145,43 @@ module ApplicationHelper
         badge_image_url: 'badge-javascript.svg',
         badge_alt_text: 'javascript badge',
         title: 'JavaScript',
-        path: '/courses/javascript'
+        path: '/paths/full-stack-javascript/courses/javascript'
       },
       {
         badge_image_url: 'badge-git.svg',
         badge_alt_text: 'git badge',
         title: 'Git',
-        path: '/courses/web-development-101#git-basics'
+        path: '/paths/foundations/courses/foundations#git-basics'
       },
       {
         badge_image_url: 'badge-database.svg',
         badge_alt_text: 'databases badge',
         title: 'Databases',
-        path: '/courses/databases'
+        path: '/paths/full-stack-ruby-on-rails/courses/databases'
       },
       {
         badge_image_url: 'badge-ruby.svg',
         badge_alt_text: 'ruby badge',
         title: 'Ruby',
-        path: '/courses/ruby-programming'
+        path: '/paths/full-stack-ruby-on-rails/courses/ruby-programming'
       },
       {
         badge_image_url: 'badge-ruby-on-rails.svg',
         badge_alt_text: 'ruby on rails badge',
         title: 'Ruby on Rails',
-        path: '/courses/ruby-on-rails'
+        path: '/paths/full-stack-ruby-on-rails/courses/ruby-on-rails'
       },
       {
         badge_image_url: 'badge-nodejs.svg',
         badge_alt_text: 'nodejs badge',
         title: 'NodeJS',
-        path: '/courses/nodejs'
+        path: '/paths/full-stack-javascript/courses/nodejs'
       },
       {
         badge_image_url: 'badge-getting-hired.svg',
         badge_alt_text: 'getting hired badge',
         title: 'Getting Hired',
-        path: '/courses/getting-hired'
+        path: '/paths/full-stack-javascript/courses/getting-hired'
       }
     ]
   end
