@@ -299,12 +299,6 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-- Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
-</div>
-
 ### Practice
 
 > When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
