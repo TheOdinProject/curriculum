@@ -47,18 +47,18 @@
 
   ul,
   ol {
-    line-height: 1.9;
-  }
-
-  ul, ol {
+    border: none;
     padding-left: 1.25em;
     color: $grey;
     line-height: 1.9;
     margin-bottom: 50px;
+  }
 
-    li {
-      border: none;
-      list-style-type: disc;
+  ul {
+    list-style-type: disc;
+
+    ul {
+      list-style-type: circle;
     }
   }
 
@@ -69,8 +69,10 @@
   }
 
   ol {
-    li {
-      list-style: decimal;
+    list-style-type: decimal;
+
+    ol {
+      list-style-type: lower-latin;
     }
   }
 
