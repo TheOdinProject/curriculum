@@ -49,7 +49,8 @@ Take a look at how `calc()` is being used here:
 --main: calc(100vh - calc(var(--header) + var(--footer)));
 }
 ~~~
-
+- `--header`, `--footer`, and `--main` are all examples of CSS variables. You will be learning about these in the next lesson.
+  
 Setting main to equal the outcome of: `100vh - (3rem + 40px)`.
 To put it another way:  `main = 100vh - (header + footer)`.
 `calc()` is handling the math for us even though we are mixing vh, rem and px units.
