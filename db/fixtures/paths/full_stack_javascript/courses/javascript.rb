@@ -88,9 +88,22 @@ course.add_section do |section|
   section.add_lessons(
     javascript_lessons.fetch('Testing Basics'),
     javascript_lessons.fetch('Testing Practice'),
-    git_lessons.fetch('A Deeper Look at Git'),
     javascript_lessons.fetch('More Testing'),
     javascript_lessons.fetch('Battleship'),
+  )
+end
+
+# +++++++++++++
+# SECTION - Intermediate Git
+# +++++++++++++
+course.add_section do |section|
+  section.title = 'Intermediate Git'
+  section.description = "You should be familiar with the basic Git workflow since you've been using it to save your projects along the way (right?!). This section will start preparing you for the more intermediate-level uses of Git that you'll find yourself doing."
+  section.identifier_uuid = '90e786c3-fe63-427f-82be-067810318b19'
+
+  section.add_lessons(
+    git_lessons.fetch('A Deeper Look at Git'),
+    git_lessons.fetch('Using Git in the Real World'),
   )
 end
 
@@ -115,7 +128,6 @@ course.add_section do |section|
     react_lessons.fetch('React Testing Part 2'),
     react_lessons.fetch('Shopping Cart'),
     react_lessons.fetch('Advanced Concepts'),
-    git_lessons.fetch('Using Git in the Real World'),
   )
 end
 
