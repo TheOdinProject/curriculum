@@ -63,8 +63,8 @@ course.add_section do |section|
   section.identifier_uuid = '7fbf3991-88d4-4564-9982-dce53328f037'
 
   section.add_lessons(
-    foundation_lessons.fetch('Introduction to Git'),
-    foundation_lessons.fetch('Git Basics'),
+    git_lessons.fetch('Introduction to Git'),
+    git_lessons.fetch('Git Basics'),
   )
 end
 
@@ -83,7 +83,7 @@ course.add_section do |section|
     foundation_lessons.fetch('Working with Text'),
     foundation_lessons.fetch('Lists'),
     foundation_lessons.fetch('Links and Images'),
-    foundation_lessons.fetch('Commit Messages'),
+    git_lessons.fetch('Commit Messages'),
     foundation_lessons.fetch('Recipes'),
   )
 end

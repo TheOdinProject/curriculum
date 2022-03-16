@@ -81,20 +81,6 @@ def foundation_lessons
       identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
       installation_lesson: true,
     },
-    'Introduction to Git' => {
-      title: 'Introduction to Git',
-      description: "A high level overview of what Git is and why it's so useful",
-      is_project: false,
-      url: '/foundations/git_basics/introduction_to_git.md',
-      identifier_uuid: '12ba3e27-8391-4f98-917a-b34b7babc23b',
-    },
-    'Git Basics' => {
-      title: 'Git Basics',
-      description: "Now that you know what Git is it's time to learn how to use it.",
-      is_project: false,
-      url: '/foundations/git_basics/git_basics.md',
-      identifier_uuid: 'e48795b0-1df8-49c8-9c63-2072f31a36eb',
-    },
     'Fundamentals Part 1' => {
       title: 'Fundamentals Part 1',
       description: "You'll get a chance to start picking up the programming fundamentals you need to make your webpages dynamic",
@@ -345,12 +331,5 @@ def foundation_lessons
       identifier_uuid: 'cb20c3d0-7342-4769-b10c-61d1de11af02',
       installation_lesson: true,
     },
-    'Commit Messages' => {
-      title: 'Commit Messages',
-      description: 'How and when to commit',
-      is_project: false,
-      url: '/foundations/html_css/html-foundations/commit-messages.md',
-      identifier_uuid: 'b52ad3a2-8167-11ec-a8a3-0242ac120002',
-    }
   }
 end
