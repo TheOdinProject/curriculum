@@ -231,8 +231,8 @@ def html_and_css_lessons
       url: '/html_css/grid-lessons/advanced_grid_properties.md',
       identifier_uuid: '4247602b-1246-43e8-9769-22a64812f75a'
     },
-    'Grid vs. Flex' => {
-      title: 'Conclusion',
+    'Using Flexbox and Grid' => {
+      title: 'Using Flexbox and Grid',
       description: 'Finish our study of Grid by comparing it to Flexbox',
       is_project: false,
       url: '/html_css/grid-lessons/grid-conclusion.md',
