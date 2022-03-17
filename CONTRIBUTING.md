@@ -91,8 +91,17 @@ Before submitting a PR for an existing or a new lesson, you must use our [Lesson
 
 #### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
 
-Before starting any work on our main website repo, you must read and follow the instructions found on [The Odin Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki). These instructions will help you get the TOP app running locally, and help you with adding new paths, courses, sections, and lessons.
-  
+Before starting any work on our main website repo, you must read and follow the instructions found on [The Odin Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki), specifically the pages regarding running TOP locally and adding new paths, courses, sections, and lessons.
+
+Before submitting a PR to our website repo, you must run the following tests in your local clone to ensure they all pass:
+
+  ```bash
+  rubocop
+  yarn eslint
+  rspec
+  yarn test
+  ```
+
 <hr>
 
 #### Exercise Repos
