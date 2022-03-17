@@ -76,7 +76,7 @@ Write a program that allows the user to enter a number, print each number betwee
 
 #### Plan
 Does your program have an interface? What will it look like?
-Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
+Our FizzBuzz solution will be a browser console program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
 
 What inputs will your program have? Will the user enter data or will you get input from somewhere else?
 The user will enter a number from a prompt (popup box).
