@@ -15,5 +15,5 @@ This application should also have at least two routes to give you a chance to ma
 7. Once a user has submitted their order, the amount on the cart itself should adjust.
 8. Make sure to test your app thoroughly using the React Testing Library. Take care that you don't directly test `react-router-dom`, since it is an external library and the developers working on it must have tested the library already.
 9. As usual, style your application so you can show it off!
-10. Lastly, push the project to GitHub! Follow [this link](https://create-react-app.dev/docs/deployment/#github-pages) for instructions on how to deploy React applications with client-side routing to Github Pages. Be aware that the page will stay blank, unless you provide a basename to the `<BrowserRouter />`. For a more detailed description, read (this part of the docs)[https://reactrouter.com/docs/en/v6/api#router].
+10. Lastly, push the project to GitHub! Follow [this link](https://create-react-app.dev/docs/deployment/#github-pages) for instructions on how to deploy React applications with client-side routing to Github Pages. Be aware that the page will stay blank, unless you provide a basename to the `<BrowserRouter />`. For a more detailed description, read [this part of the docs](https://reactrouter.com/docs/en/v6/api#router).
 </div>
