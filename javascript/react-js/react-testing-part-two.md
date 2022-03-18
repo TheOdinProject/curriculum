@@ -1,20 +1,20 @@
-### Introduction
+## Introduction
 
 We've already covered some basics of React testing. Now's the time to dive deeper. 
 
 In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React component from this ([theodinproject.com](https://theodinproject.com)) website and understand how React tests are written in a real world application.
 
-### Lesson Overview 
+## Lesson Overview 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 * Carry out mocks in the context of React testing.
 
-### What is Mocking?
+## What is Mocking?
 
 If you've been following along our lessons, the concept of mocking has already been introduced in the earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of this course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship). Let's look at how mocks'll help in testing React components.
 
-#### Testing Callback Handlers
+## Testing Callback Handlers
 
 Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple input component:
 
@@ -87,11 +87,11 @@ We mock the `onChange` handler using one of jest features, `jest.fn()`. For the 
 
 But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
 
-#### Mocking Child Components
+## Mocking Child Components
 
 You might have come across the concept of mocking modules. In React, when the component tree gets large, tests can become convoluted. Especially for components higher up the tree. That's why we mock child components. This is not something you'll come across often, nevertheless, it's beneficial to realize the concept in case you might need it in your own testing pursuits. 
 
-### React Testing in the Real World
+## React Testing in the Real World
 
 If you're a logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
 
@@ -130,13 +130,13 @@ Let's move towards our first assertion. Don't worry too much about the `ProjectS
 
 In the first suite, we make some assertions if the user has a submission and then some assertions if the user does not. The other suites follow a similar pattern.
 
-#### Exploring Further
+## Exploring Further
 
 Feel free to flick through the other components and its tests. You'll see mocked functions. You'll see some unseen functions like `act`. You'll see custom render functions. It's fine if you don't understand it all, the goal is to gain familiarity.
 
 The other important thing to note is almost all the tests follow a certain pattern in terms of the way they're written. They follow the [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) pattern. It's a good idea to adopt the pattern sooner or later to make your tests more readable and ultimately better.
 
-### Assignment
+## Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -146,14 +146,14 @@ The other important thing to note is almost all the tests follow a certain patte
  
 </div>
 
-### Knowledge Check
+## Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#testing-callback-handlers">How can you mock a callback handler?</a>
 * <a class="knowledge-check-link" href="#mock-child-component">How can you mock a child component?</a>
 
-### Additional Resources
+## Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
