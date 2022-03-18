@@ -48,7 +48,7 @@ Take your time going through the reading. There will be some review of the items
 2. [Aligning Items in a Flex Container](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) goes into more depth on the topic of axes and `align-items` vs `justify-content`.
 3. [Typical use cases of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox) is one more MDN article that covers some more practical tips. Don't skip the interactive sections! Playing around with this stuff is how you learn it!
 4. The [CSS Tricks "Guide to Flexbox"](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is a classic. There isn't any new information for you here, but the images and examples are super helpful. This one is a great cheat sheet that you'll probably return to often. (Keep it handy for the practice exercises!)
-5. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (don't forget that the instructions are in the README). Do the exercises in the 'flex' directory in the following order:
+5. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (don't forget that the instructions are in the README). Do the exercises in the 'flex' directory in the order that they are listed. It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them, then you will be in _really_ good shape moving forward.
     * 01-flex-center
     * 02-flex-header
     * 03-flex-header-2
@@ -56,7 +56,6 @@ Take your time going through the reading. There will be some review of the items
     * 05-flex-modal
     * 06-flex-layout
     * 07-flex-layout-2
-    * It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them, then you will be in _really_ good shape moving forward.
 </div>
 
 ### Additional Resources
