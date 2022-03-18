@@ -29,7 +29,13 @@ You can use the browser's inspector to add the CSS above to this web page if you
 
 OK, so there might be some circles in the above image... but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all of its elements is basically just deciding how you are going to nest and stack these boxes.
 
-The only real complication here is that there are multiple ways to manipulate the size of these boxes, and the space between them, using `margin`, `padding`, and `border`. The assigned articles go into more depth on this concept, but to sum it up briefly: padding increases the space between the edge of a box and the content inside of it; margin increases the space between a box and any others that sit next to it; and border adds space (even if it's only a pixel or two) between the margin and the padding. Be sure to study the diagrams carefully.
+The only real complication here is that there are multiple ways to manipulate the size of these boxes, and the space between them, using `padding`, `margin`, and `border`. The assigned articles go into more depth on this concept, but to sum it up briefly: 
+
+*   `padding` increases the space between the edge of a box and the content inside of it. 
+*   `margin` increases the space between a box and any others that sit next to it. 
+*   `border` adds space (even if it's only a pixel or two) between the margin and the padding. 
+
+Be sure to study the diagrams carefully.
 
 ![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/box-model.png)
 
