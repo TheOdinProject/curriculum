@@ -8,11 +8,11 @@ While Local Storage is great, it's not ideal: it only stores data on the compute
 
 Where you go from here will depend in part on what you've learned so far. If you are on the [full-stack Ruby on Rails path](https://www.theodinproject.com/paths/full-stack-ruby-on-rails), hooray: you already have all of the tools you need to build your own full-fledged web app from scratch!
 
-If not, never fear: you can learn how to build a back-end later using [Node.js](https://www.theodinproject.com/courses/nodejs). For now, you can outsource your backend functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/).
+If not, never fear: you can learn how to build a back-end later using [Node.js](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs). For now, you can outsource your backend functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/).
 
 #### Building your own backend with Ruby on Rails
 
-For those of you who are on the [full-stack Ruby on Rails path](https://www.theodinproject.com/paths/full-stack-ruby-on-rails), the next step is obvious: you get to build your own backend with Rails! In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
+For those of you who are on the [full-stack Ruby on Rails path](https://www.theodinproject.com/paths/full-stack-ruby-on-rails), the next step is obvious: you get to build your own backend with Rails! In preparation, reread the [Rails lesson on building an API](paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 
 Are you done? Good. Next, it's time to practice allowing your front end JavaScript to talk to your Rails backend using AJAX.  We'll cover some best practices for how to pass data from one to another, but otherwise it's up to you: you've got everything you need to put together those final pieces of the web development puzzle.
 

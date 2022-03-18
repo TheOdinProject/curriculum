@@ -16,7 +16,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Basic Stuff
 
-If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-basics-ruby-on-rails) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
+If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/active-record-basics-ruby-on-rails) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
 #### Foreign Keys and Class Names
 

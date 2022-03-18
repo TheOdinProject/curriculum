@@ -2,7 +2,7 @@
 
 Over the next few lessons we will cover CSS Grid and make page layouts much easier. First we’ll take a quick look back at Flexbox (remember Flexbox!?) and then learn about Grid. 
 
-The following lessons will show you how to create a grid, position grid items and use some advanced properties. We are ultimately working towards building a Grid project and then we will wrap up with a deeper comparison between Flex and Grid.
+The following lessons will show you how to create a grid, position grid items and use some advanced properties. Then we will take a deeper look between Flexbox and Grid. Ultimately we are working towards building a dashboard project using Grid.
 
 ### Learning Outcomes
 

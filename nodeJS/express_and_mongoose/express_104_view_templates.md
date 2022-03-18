@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async" title="Asynchronous flow control using async">Why do we use the async module?"</a>
+- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async" title="Asynchronous flow control using async">Why do we use the async module?</a>
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#why_is_this_needed" title="Permalink to Why is this needed?">Why are async methods needed and what do they avoid?</a>
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_parallel" title="Permalink to Asynchronous operations in parallel">How do we run multiple asynchronous operations in parallel?</a>
 - <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_series" title="Permalink to Asynchronous operations in series">How do we run multiple asynchronous operations in series?</a>

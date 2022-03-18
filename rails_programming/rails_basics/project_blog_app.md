@@ -14,7 +14,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
   4. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
   5. Try to make a mental note of the commands and generators you can use. Rails provides a lot of very helpful generators taking a lot of the pain out of creating different parts of a web application.
   6. When you're finished push up your code to [github](https://github.com/)
-  7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment)
+  7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/deployment)
 </div>
 
 ### Additional Resources

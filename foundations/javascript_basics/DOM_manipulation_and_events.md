@@ -316,7 +316,7 @@ btn.addEventListener('click', function (e) {
   console.log(e);
 });
 ~~~
-\*_Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://briggs.dev/blog/understanding-callbacks)._
+\*_Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://dev.to/i3uckwheat/understanding-callbacks-2o9e)._
 
 The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 

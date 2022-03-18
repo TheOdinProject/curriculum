@@ -206,6 +206,6 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 - <a class="knowledge-check-link" href='#required-validation'>What does the required validation do?</a>
 - <a class="knowledge-check-link" href='#text-length-validations'>What validations can you use for checking text length?</a>
-- <a class="knowledge-check-link" href='#minimum-and-maximum-validations'>How can you validate the minimum and maximum of numeric inputs?</a>
+- <a class="knowledge-check-link" href='#number-range-validations'>How can you validate the minimum and maximum of numeric inputs?</a>
 - <a class="knowledge-check-link" href='#pattern-validations'>What can you use the pattern validation for?</a>
 - <a class="knowledge-check-link" href='#styling-validations'>What pseudo css selectors are available for styling valid and invalid inputs?</a>

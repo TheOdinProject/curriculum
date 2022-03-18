@@ -71,7 +71,7 @@ $ ruby lib/event_manager.rb
 -bash: ruby: command not found
 ~~~
 
-If this happens, see [the instructions for installing Ruby](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming).
+If this happens, see [the instructions for installing Ruby](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/installing-ruby-ruby-programming).
 
 If the file was not created then you will be presented with the following error
 message:
@@ -1051,7 +1051,7 @@ Something that looks like:
 ~~~html
 <html>
 <head>
-  <meta charset='utf-8'>
+  <meta charset='UTF-8'>
   <title>Thank You!</title>
 </head>
 <body>
@@ -1269,7 +1269,7 @@ return to the application.
 ~~~erb
 <html>
 <head>
-  <meta charset='utf-8'>
+  <meta charset='UTF-8'>
   <title>Thank You!</title>
 </head>
 <body>

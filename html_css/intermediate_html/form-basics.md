@@ -397,7 +397,7 @@ To create a generic button, we use the button element with a `type` attribute of
 
 Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
 
-Luckily, HTML provides a couple of elements that help us make organizing forms into visually distinct and manageable to digest sections a breeze.
+Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
 
 **Fieldset Element**
 
@@ -517,5 +517,5 @@ Certain aspects of other elements are downright impossible to style, for example
 - <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>
 - <a class="knowledge-check-link" href='#the-name-attribute'>What is the `name` attribute for?</a>
 - <a class="knowledge-check-link" href='#selection-elements'>What are the three most common form controls you can use for allowing users to select predefined options?</a>
-- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in html?</a>
+- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in HTML?</a>
 - <a class="knowledge-check-link" href='#a-note-on-styling-forms'>What are the two most challenging aspects of styling forms?</a>
