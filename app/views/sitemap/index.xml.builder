@@ -36,7 +36,7 @@ xml.urlset(
 
     course.lessons.each do |lesson|
       xml.url do
-        xml.loc "#{path_course_lesson_url(course.path, course, lesson)}"
+        xml.loc "#{lesson_url(lesson)}"
         xml.lastmod lesson.updated_at.strftime("%F")
         xml.changefreq("daily")
         xml.priority(1.00)

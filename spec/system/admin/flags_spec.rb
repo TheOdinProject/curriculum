@@ -49,7 +49,7 @@ RSpec.describe 'Admin Flags', type: :system do
     end
 
     it 'removes the submission from the lesson page' do
-      visit path_course_lesson_path(lesson.course.path, lesson.course, lesson)
+      visit lesson_path(lesson)
 
       within(:test_id, 'submissions-list') do
         expect(page).not_to have_content(submission_owner.username)
@@ -83,7 +83,7 @@ RSpec.describe 'Admin Flags', type: :system do
     end
 
     it 'removes the submission from the lesson' do
-      visit path_course_lesson_path(lesson.course.path, lesson.course, lesson)
+      visit lesson_path(lesson)
 
       within(:test_id, 'submissions-list') do
         expect(page).not_to have_content(submission_owner.username)

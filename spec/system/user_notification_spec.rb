@@ -52,7 +52,7 @@ RSpec.describe 'User Notifications' do
 
       find(:test_id, "notification-#{submission_owner.notifications.first.id}").click
 
-      expect(page).to have_current_path path_course_lesson_path(lesson.course.path, lesson.course, lesson)
+      expect(page).to have_current_path lesson_path(lesson)
     end
   end
 

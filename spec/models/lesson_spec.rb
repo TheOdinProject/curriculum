@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Lesson do
-  subject(:lesson) { described_class.new }
+  subject(:lesson) { create(:lesson) }
 
   it { is_expected.to belong_to(:section) }
   it { is_expected.to have_one(:course).through(:section) }
@@ -38,6 +38,64 @@ RSpec.describe Lesson do
       expect(described_class.installation_lessons).to contain_exactly(
         installation_lesson_one, installation_lesson_two
       )
+    end
+  end
+
+  describe 'slug' do
+    context 'by default' do
+      it 'returns the course and lesson title as the slug' do
+        course = create(:course, title: 'course title')
+        lesson = create(:lesson, title: 'lesson title', course: course)
+
+        expect(lesson.slug).to eql('course-title-lesson-title')
+      end
+    end
+
+    context 'for lesson shared across paths' do
+      it 'returns the path, course and lesson title as the slug' do
+        path = create(:path, short_title: 'path title')
+        course = create(:course, title: 'course title', path: path)
+        create(:lesson, title: 'lesson title', course: course)
+        shared_lesson = create(:lesson, title: 'lesson title', course: course)
+
+        expect(shared_lesson.slug).to eql('path-title-course-title-lesson-title')
+      end
+    end
+
+    context 'when path and course title are the same' do
+      it 'returns the just the course and lesson title as the slug' do
+        path = create(:path, short_title: 'foundations')
+        course = create(:course, title: 'foundations', path: path)
+        lesson = create(:lesson, title: 'lesson title', course: course)
+
+        expect(lesson.slug).to eql('foundations-lesson-title')
+      end
+    end
+
+    context 'when course and lesson title are the same' do
+      it 'returns the just the course and lesson title as the slug' do
+        path = create(:path, short_title: 'path title')
+        course = create(:course, title: 'databases', path: path)
+        lesson = create(:lesson, title: 'databases', course: course)
+
+        expect(lesson.slug).to eql('databases')
+      end
+    end
+
+    context 'when three or more lessons share the same slug canidates' do
+      before do
+        allow(SecureRandom).to receive(:hex).with(2).and_return('1234')
+      end
+
+      it 'returns default slug canidate post fixed with the random hex' do
+        path = create(:path, short_title: 'path title')
+        course = create(:course, title: 'course title', path: path)
+        create(:lesson, title: 'lesson title', course: course)
+        create(:lesson, title: 'lesson title', course: course)
+        lesson_three = create(:lesson, title: 'lesson title', course: course)
+
+        expect(lesson_three.slug).to eql('path-title-course-title-lesson-title-1234')
+      end
     end
   end
 

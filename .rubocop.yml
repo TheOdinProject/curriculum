@@ -49,6 +49,9 @@ Layout/EmptyLinesAroundAttributeAccessor:
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 

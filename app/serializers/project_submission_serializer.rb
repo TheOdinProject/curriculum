@@ -21,7 +21,7 @@ class ProjectSubmissionSerializer
       user_id: project_submission.user.id,
       lesson_id: lesson.id,
       lesson_title: lesson.title,
-      lesson_path: path_course_lesson_path(lesson.course.path, lesson.course, lesson),
+      lesson_path: lesson_path(lesson),
       lesson_has_live_preview: lesson.has_live_preview,
       likes: project_submission.votes_for.size,
       is_liked_by_current_user: current_user.voted_for?(project_submission),

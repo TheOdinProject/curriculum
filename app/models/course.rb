@@ -9,6 +9,8 @@ class Course < ApplicationRecord
 
   validates :position, presence: true
 
+  delegate :short_title, to: :path, prefix: true
+
   def progress_for(user)
     user.progress_for(self)
   end

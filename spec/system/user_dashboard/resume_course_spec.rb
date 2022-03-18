@@ -11,7 +11,7 @@ RSpec.describe 'Resuming Course from User Dashboard', type: :system do
   context 'when user has completed first lesson in course' do
     before do
       sign_in(user)
-      visit path_course_lesson_path(default_path, foundations_course, lesson)
+      visit lesson_path(lesson)
       find(:test_id, 'complete-button').click
       visit dashboard_path
     end
@@ -23,7 +23,7 @@ RSpec.describe 'Resuming Course from User Dashboard', type: :system do
     it 'successfully resumes next incomplete lesson' do
       find(:test_id, 'foundations-resume-btn').click
 
-      expect(page).to have_current_path(path_course_lesson_path(default_path, foundations_course, incomplete_lesson))
+      expect(page).to have_current_path(lesson_path(incomplete_lesson))
     end
   end
 end

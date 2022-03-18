@@ -2,7 +2,7 @@
   <% lessons.each_with_index do |lesson, lesson_index| %>
     <div class="section-lessons__item">
 
-      <%= link_to path_course_lesson_url(course.path, course, lesson), class: 'section-lessons__item__link tracking-wide' do %>
+      <%= link_to lesson_url(lesson), class: 'section-lessons__item__link tracking-wide' do %>
         <%= numbered_lesson_title(lesson, lesson_index).html_safe %>
       <% end %>
 

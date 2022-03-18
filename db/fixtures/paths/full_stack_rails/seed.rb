@@ -3,6 +3,7 @@
 # ***************************
 @path = Seeds::PathSeeder.create do |path|
   path.title = 'Full Stack Ruby on Rails'
+  path.short_title = 'Rails Path'
   path.description = "This path takes you through our entire Ruby on Rails curriculum. The courses should be taken in the order that they are displayed. You'll learn everything you need to know to create beautiful responsive websites from scratch using Ruby on Rails."
   path.identifier_uuid = '16109529-1526-4800-be11-0f655bcfb4cc'
   path.position = 2

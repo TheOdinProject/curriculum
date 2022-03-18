@@ -18,10 +18,7 @@ module Messages
     end
 
     def url
-      path_course_lesson_url(flag.project_submission.lesson.course.path,
-                             flag.project_submission.lesson.course,
-                             flag.project_submission.lesson,
-                             only_path: true)
+      lesson_url(flag.project_submission.lesson, only_path: true)
     end
 
     private

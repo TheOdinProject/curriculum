@@ -3,6 +3,7 @@
 # *****************************
 @path = Seeds::PathSeeder.create do |path|
   path.title = 'Full Stack JavaScript'
+  path.short_title = 'Node Path'
   path.description = "This path takes you through our entire JavaScript curriculum. The courses should be taken in the order that they are displayed. You'll learn everything you need to know to create beautiful responsive websites from scratch using JavaScript and NodeJs."
   path.identifier_uuid = '624d152c-b522-4f7a-86aa-8f2d9c84b951'
   path.position = 3

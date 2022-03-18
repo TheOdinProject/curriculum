@@ -27,8 +27,6 @@ class LessonContentImporter
     lesson.update!(content: content_converted_to_html) if content_needs_updated?
   rescue Octokit::Error => e
     log_error(e.message)
-  rescue ActiveRecord::RecordInvalid => e
-    log_error(e.record.errors.full_messages)
   end
 
   private

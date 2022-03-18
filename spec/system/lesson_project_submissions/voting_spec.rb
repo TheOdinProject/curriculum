@@ -7,7 +7,7 @@ RSpec.describe 'Voting on Project Submissions', type: :system do
 
   before do
     sign_in(user)
-    visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
+    visit lesson_path(lesson)
   end
 
   it 'a user can vote on another users submission' do

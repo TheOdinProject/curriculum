@@ -2,15 +2,12 @@ require 'rails_helper'
 
 RSpec.describe 'Lesson Completions', type: :system do
   let!(:user) { create(:user) }
-  let!(:path) { create(:path, default_path: true) }
-  let!(:course) { create(:course, path: path) }
-  let!(:section) { create(:section, course: course) }
-  let!(:lesson) { create(:lesson, section: section) }
+  let!(:lesson) { create(:lesson) }
 
   context 'when user is signed in' do
     before do
       sign_in(user)
-      visit path_course_lesson_path(path, course, lesson)
+      visit lesson_path(lesson)
     end
 
     it 'can complete a lesson' do
@@ -37,7 +34,7 @@ RSpec.describe 'Lesson Completions', type: :system do
 
   context 'when user is not signed in' do
     it 'cannot complete a lesson' do
-      visit path_course_lesson_path(path, course, lesson)
+      visit lesson_path(lesson)
 
       expect(page).not_to have_button('Mark Complete')
       expect(page).not_to have_button('Lesson Completed')

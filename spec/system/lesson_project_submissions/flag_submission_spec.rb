@@ -7,7 +7,7 @@ RSpec.describe 'Flagging a Project Submission', type: :system do
 
   before do
     sign_in(user)
-    visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
+    visit lesson_path(lesson)
   end
 
   it 'successfully flags a submission' do

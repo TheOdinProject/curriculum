@@ -37,7 +37,7 @@ module Lessons
       return if @lesson.accepts_submission?
 
       redirect_to(
-        path_course_lesson_url(@lesson.course.path, @lesson.course, @lesson),
+        lesson_url(@lesson),
         alert: 'This project does not accept submissions'
       )
     end

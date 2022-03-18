@@ -49,7 +49,7 @@ RSpec.describe 'Editing a Project Submission on the Dashboard', type: :system do
 
     using_session('another_user') do
       sign_in(another_user)
-      visit path_course_lesson_path(lesson.section.course.path, lesson.section.course, lesson)
+      visit lesson_path(lesson)
 
       within(:test_id, 'submissions-list') do
         expect(page).not_to have_content(user.username)

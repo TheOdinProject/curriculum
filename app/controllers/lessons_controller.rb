@@ -31,10 +31,6 @@ class LessonsController < ApplicationController
   end
 
   def lesson
-    course.lessons.find(params[:id])
-  end
-
-  def course
-    Path.find(params[:path_id]).courses.find(params[:course_id])
+    Lesson.find(params[:id])
   end
 end

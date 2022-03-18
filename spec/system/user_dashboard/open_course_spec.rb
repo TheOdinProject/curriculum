@@ -11,10 +11,10 @@ RSpec.describe 'Opening Course from User Dashboard', type: :system do
   context 'when user has completed a course' do
     before do
       sign_in(user)
-      visit path_course_lesson_path(default_path, foundations_course, first_lesson)
+      visit lesson_path(first_lesson)
       find(:test_id, 'complete-button').click
 
-      visit path_course_lesson_path(default_path, foundations_course, second_lesson)
+      visit lesson_path(second_lesson)
       find(:test_id, 'complete-button').click
 
       visit dashboard_path

@@ -5,7 +5,7 @@ module Seeds
   class PathSeeder
     include Helpers
 
-    attr_accessor :identifier_uuid, :title, :description, :position, :default_path
+    attr_accessor :identifier_uuid, :title, :description, :position, :default_path, :short_title
 
     def initialize
       @seeded_courses = []
@@ -22,6 +22,7 @@ module Seeds
       @path ||= ::Path.seed(:identifier_uuid) do |path|
         path.identifier_uuid = identifier_uuid
         path.title = title
+        path.short_title = short_title
         path.description = description
         path.position = position
         path.default_path = default_path || false
