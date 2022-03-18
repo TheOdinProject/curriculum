@@ -86,7 +86,7 @@ Use placeholder text to demonstrate how text should be entered and formatted.
 
 <span id="the-name-attribute">**The Name Attribute**</span>
 
-We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend where we send our data know what each piece of data represents.
+We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend know when we send our data what each piece of data represents.
 
 We do this by adding a `name` attribute to our inputs:
 
