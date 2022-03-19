@@ -11,20 +11,12 @@ This lesson will cover some general steps that are common across APIs and will d
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment.
 
-* What's the best way to locate an API's docs?
-* What are the steps you'll almost always have to go through when setting up your app to use an API?
-* What is an API key?
+* How do you set up your app to use an API?
 * How is API use typically controlled?
-* How do you avoid including an API's secret token in your GitHub repo (e.g. hard coding it)?
-* Why is it important to know which API version you're using?
-* What is a RESTful API and why does that make your life easier?
-* What (basically) is OAuth?
-* Why would a user prefer to sign into your site using Facebook instead of giving you a new password?
-* How (basically) does this process work from the user's perspective?
-* How (basically) does this process work from your (the application developer's) perspective?
-* What are the basic rules of thumb for not abusing APIs?
-* What is OmniAuth and why does it save you tons of time/pain?
-* What is an SDK and why are they useful for working with APIs?
+* What is a RESTful API, and how can it make your life easier?
+* What is OAuth?
+* What is OmniAuth?
+* What is an SDK?
 
 ### First Steps
 
@@ -127,3 +119,13 @@ This section contains helpful links to other content. It isn't required, so cons
 * [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
 * Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over integrating a third party API with Rails 5.
 * See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a simple rails app using the OMDB API, an open source movie database.
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#introduction">What's the best way to locate an API's docs?</a>
+* <a class="knowledge-check-link" href="#first-steps">What is an API key?</a>
+* <a class="knowledge-check-link" href="#first-steps">How do you avoid including an API's secret token in your GitHub repo (e.g. hard coding it)?</a>
+* <a class="knowledge-check-link" href="#versions">Why is it important to know which API version you're using?</a>
+* <a class="knowledge-check-link" href="#oauth-and-login-via-api">Why would a user prefer to sign into your site using Facebook instead of giving you a new password?</a>
+* <a class="knowledge-check-link" href="#api-rates-and-security-tokens">What are the different types of "security clearance" for the different types of API requests you can make?</a>
