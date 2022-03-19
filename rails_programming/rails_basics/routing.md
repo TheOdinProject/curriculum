@@ -193,7 +193,7 @@ You should have a good sense of what's going on in the routes file by now but pr
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
-* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest
+* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -204,3 +204,4 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#restricting-the-routes-created">How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#path-and-url-helpers">How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/Q-BpqyOT3a8?t=886">Which Chrome extension can you use to simulate HTTP-requests with an API?</a>
+
