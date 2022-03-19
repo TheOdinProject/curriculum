@@ -204,3 +204,4 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#restricting-the-routes-created">How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#path-and-url-helpers">How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/Q-BpqyOT3a8?t=886">Which Chrome extension can you use to simulate HTTP-requests with an API?</a>
+
