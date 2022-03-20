@@ -49,7 +49,7 @@ body {
 Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
 
 #### Downloaded Fonts
-It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use as you would any other font-family.
+It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use as you would any other font-family. As you can see this font-file extenstion is different than you may have seen elsewhere in the curriculum. There multiple different types of font file formats and can read more in depth about [here](https://fileinfo.com/filetypes/font). Please take care when choosing a font file format however, because some are not universally support by browsers. A list of browers and the font formats they support can be found [here](https://www.w3schools.com/css/css3_fonts.asp).
 
 ~~~css
 @font-face {
