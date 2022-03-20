@@ -4,6 +4,7 @@ import Prism from 'prismjs';
 
 const LESSON_HEADINGS = [
   'Introduction',
+  'Lesson Overview',
   'Learning Outcomes',
   'Assignment',
   'Assignment 1',
