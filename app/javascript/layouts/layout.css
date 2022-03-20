@@ -1,0 +1,5 @@
+@layer components {
+  .tmp-container-spacer {
+    @apply py-16 sm:pt-24 sm:pb-32;
+  }
+}

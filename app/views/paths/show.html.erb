@@ -1,6 +1,6 @@
 <%= title(@path.title) %>
 
-<div class="container">
+<div class="container tmp-container-spacer">
   <h1 class="text-center page-heading-title"><%= @path.title %></h1>
   <% if user_signed_in? && current_user.path != @path %>
     <div class="select-container">
