@@ -44,6 +44,7 @@ Rails.application.routes.draw do
   get 'styleguide' => 'static_pages#style_guide'
   get 'success_stories' => 'static_pages#success_stories'
   get 'community_rules' => 'static_pages#community_rules'
+  get 'community_moderation' => 'static_pages#community_moderation'
   get 'before_asking' => 'static_pages#before_asking'
   get 'how_to_ask' => 'static_pages#how_to_ask'
   get 'sitemap' => 'sitemap#index', defaults: { format: 'xml' }

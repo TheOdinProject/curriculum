@@ -1,11 +1,13 @@
 <%= title('How to Ask Technical Questions') %>
+<% filename = 'app/views/static_pages/dashboard_steps/how_to_ask.md' %>
 
 <div class="gradient pb-1">
   <div class="col-xl-8 offset-xl-2">
     <div class="lesson-content">
-      <% f = File.open('app/views/static_pages/dashboard_steps/how_to_ask.md', 'r:UTF-8') %>
+      <% f = File.open(filename, 'r:UTF-8') %>
       <%= MarkdownConverter.new(f.read).as_html.html_safe %>
       <% f.close %>
     </div>
+    <%= render "static_pages/dashboard_steps/github_link", filename: filename  %>
   </div>
 </div>
