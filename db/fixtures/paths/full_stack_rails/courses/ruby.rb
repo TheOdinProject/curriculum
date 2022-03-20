@@ -2,7 +2,7 @@
 # Course - Ruby
 #######################
 course = @path.add_course do |course|
-  course.title = 'Ruby Programming'
+  course.title = 'Ruby'
   course.description = "Time to dive deep into Ruby, the language 'designed for programmer happiness.' You'll cover object-oriented design, testing, and data structures – essential knowledge for learning other programming languages, too!"
   course.identifier_uuid = '643bf355-19f1-4326-a4ad-8ec57f9ea254'
 end
