@@ -1,6 +1,6 @@
 ### Introduction
 
-We've learned testing our vanilla JavaScript applications in the previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
+We've learned testing our vanilla JavaScript applications in a previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
 
 ### Lesson Overview 
 
