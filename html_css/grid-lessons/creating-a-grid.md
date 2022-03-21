@@ -158,7 +158,7 @@ Finally we’ll add a lot of gap to our rows to highlight the difference:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-You can also try playing with the shorthand gap to set both the row-gap and column-gap in the above CodePen.
+You can also try playing with the shorthand `gap` to set both the `row-gap` and `column-gap` in the above CodePen.
 
 ### Wrapping Up Our First Grid
 
