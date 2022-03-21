@@ -8,7 +8,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-proposal-private-methods": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
-    "@fortawesome/fontawesome-free": "^6.0.0",
+    "@fortawesome/fontawesome-free": "^6.1.0",
     "@hookform/resolvers": "2.8.8",
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
