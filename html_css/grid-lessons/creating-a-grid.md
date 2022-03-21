@@ -158,9 +158,7 @@ Finally we’ll add a lot of gap to our rows to highlight the difference:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Alternatively, we can set both the `row-gap` and `column-gap` by just using `gap`. For example: `gap: 10px 20px;` where the first value contains the `row-gap` and the second value contains the `column-gap`. Try using `gap` to change the `row-gap` and `column-gap` values with the example syntax. 
-
-If we wanted the columns and rows to share the same gap value we can omit the `column-gap` property so it looks something like `gap: 25px;`. When a `column-gap` isn't specified, the value of the `column-gap` is assumed to be the same value as the `row-gap`.
+You can also try playing with the shorthand gap to set both the row-gap and column-gap in the above CodePen.
 
 ### Wrapping Up Our First Grid
 
