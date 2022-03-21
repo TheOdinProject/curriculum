@@ -49,7 +49,8 @@ Take a look at how `calc()` is being used here:
 --main: calc(100vh - calc(var(--header) + var(--footer)));
 }
 ~~~
-
+- `--header`, `--footer`, and `--main` are all examples of CSS variables. You will be learning about these in the next lesson.
+  
 Setting main to equal the outcome of: `100vh - (3rem + 40px)`.
 To put it another way:  `main = 100vh - (header + footer)`.
 `calc()` is handling the math for us even though we are mixing vh, rem and px units.
@@ -120,7 +121,8 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-[Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+1. [Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+2. Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
 </div>
 
 ### Additional Resources

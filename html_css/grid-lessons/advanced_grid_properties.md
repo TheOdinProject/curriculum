@@ -138,7 +138,7 @@ You may have noticed at this point that when you resize the grid as large as pos
 
 When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations.
 
-We learned about `min()` and `max()` in our previous lesson on CSS functions, but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
+We learned about `min()` and `max()` in our previous [lesson on CSS functions](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/css-functions), but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
 
 You can supply as many arguments to these functions as you want:
 
@@ -246,7 +246,7 @@ Using `clamp()` and `minmax()` are fantastic methods for making grids more respo
 
 These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that are flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
-According to the W3 specification, both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
+According to the [W3 specification on auto-fill and auto-fit](https://www.w3.org/TR/css-grid-1/#auto-repeat), both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
 
 ~~~css
 .simple-example {
@@ -298,12 +298,6 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
-
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-- Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
-</div>
 
 ### Practice
 
