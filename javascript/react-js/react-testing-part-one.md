@@ -1,6 +1,6 @@
 ### Introduction
 
-We've learned testing our vanilla JavaScript applications in a previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
+We've learned how to test our vanilla JavaScript applications in a previous section. Testing is indeed a powerful tool that allows us to write maintainable and flexible code. If you've followed along with our lessons so far, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
 
 ### Lesson Overview 
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Setting Up
 
-We'll need to import some packages atop our test file:
+We'll need to import some packages inside our test file:
 
 ~~~javascript
 import React from "react";
@@ -36,7 +36,7 @@ That's a lot of setup. But good news! If you're initializing your React reposito
 
 ### Our First Query
 
-First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
+First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs](https://testing-library.com/docs/react-testing-library/api/#render).
 
 ~~~javascript
 // App.js
