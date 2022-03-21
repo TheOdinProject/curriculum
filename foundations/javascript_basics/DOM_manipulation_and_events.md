@@ -109,7 +109,7 @@ div.setAttribute('style', 'color: blue; background: white');
 // adds several style rules
 ~~~
 
-See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
+See DOM Enlightenment's [section on CSS Style rules](https://web.archive.org/web/20220204042643/http://domenlightenment.com/#6.2) for more info on inline styles.
 
 Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need to use camelCase or you'll need to use bracket notation instead of dot notation.
 
@@ -388,7 +388,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
-* [DOM Enlightenment](http://domenlightenment.com/)
+* [DOM Enlightenment](https://web.archive.org/web/20220204042643/http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
 * [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
 * This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
