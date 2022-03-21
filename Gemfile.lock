@@ -260,7 +260,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
-    kramdown (2.3.1)
+    kramdown (2.3.2)
       rexml
     launchy (2.5.0)
       addressable (~> 2.7)
