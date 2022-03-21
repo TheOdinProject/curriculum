@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Setting Up
 
-We'll need to import some packages inside of our test file:
+We'll need to import some packages inside of our testing file:
 
 ~~~javascript
 import React from "react";
