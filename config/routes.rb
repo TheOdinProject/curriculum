@@ -80,7 +80,7 @@ Rails.application.routes.draw do
   end
 
   resources :paths, only: %i[index show] do
-    resources :courses, only: %i[index show] do
+    resources :courses, only: :show do
       resources :lessons, only: %i[show]
     end
   end
