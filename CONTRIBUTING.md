@@ -195,7 +195,7 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    git commit -m "Update solution files"
    ```
 
-3. Sync your work with the upstream remote every so often. Follow the [ongoing workflow](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/using-git-in-the-real-world#ongoing-workflow) instructions in our Using Git in the Real World lesson.
+3. Sync your work with the upstream remote every so often. Follow the [ongoing workflow](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby/lessons/using-git-in-the-real-world#ongoing-workflow) instructions in our Using Git in the Real World lesson.
 
 4. Push your branch to your forked repo, replacing the `<your branch name>` with the branch you've been working on locally:
 

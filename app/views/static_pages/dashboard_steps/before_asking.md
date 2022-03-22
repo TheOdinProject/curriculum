@@ -41,7 +41,7 @@ It is important to check your code for typos, because they can result in a wide 
 
 #### Debug Your Code
 
-When your code has unexpected behavior, the most important tool at your disposal is a debugger. This may sound like overkill, but look at all of your variables at every point in your code. Be assured that your code is doing exactly what you instructed it to do. The problem is that you are misunderstanding what you told it to do. Your job is to investigate where the misunderstanding is taking place. For even more information, check out [JavaScript's DevTools](https://developer.chrome.com/docs/devtools/javascript/) or [Ruby's pry-byebug](/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/debugging#debugging-with-pry-byebug).
+When your code has unexpected behavior, the most important tool at your disposal is a debugger. This may sound like overkill, but look at all of your variables at every point in your code. Be assured that your code is doing exactly what you instructed it to do. The problem is that you are misunderstanding what you told it to do. Your job is to investigate where the misunderstanding is taking place. For even more information, check out [JavaScript's DevTools](https://developer.chrome.com/docs/devtools/javascript/) or [Ruby's pry-byebug](/paths/full-stack-ruby-on-rails/courses/ruby/lessons/debugging#debugging-with-pry-byebug).
 
 #### Read Documentation Thoroughly
 

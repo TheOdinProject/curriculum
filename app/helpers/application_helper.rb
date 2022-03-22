@@ -45,7 +45,7 @@ module ApplicationHelper
         answer:
           "<p>  All students are initially enrolled into the <a href='courses/foundations'>Foundations Course</a>. This will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer. Foundations introduces HTML, CSS, JavaScript, Git and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites! Once Foundations is complete, students have two paths to choose from: <a href='paths/full-stack-ruby-on-rails'>Fullstack Ruby on Rails</a> and <a href='paths/full-stack-javascript'>Fullstack JavaScript</a> </p>
           <br />
-          <p> The Full Stack Ruby on Rails path takes a back-to-front approach to fullstack development. We start with a <a href='courses/ruby-programming'>strong foundation in Ruby</a> and an understanding of databases before migrating into <a href='courses/ruby-on-rails'>Ruby on Rails</a> (which is a framework built using Ruby). Then you'll polish your front-end skills with a journey into <a href='courses/html-and-css'>HTML and CSS</a> before learning to make your websites flow, load quickly and look great with <a href='courses/javascript'>JavaScript</a>. </p>
+          <p> The Full Stack Ruby on Rails path takes a back-to-front approach to fullstack development. We start with a <a href='/paths/full-stack-ruby-on-rails/courses/ruby'>strong foundation in Ruby</a> and an understanding of databases before migrating into <a href='courses/ruby-on-rails'>Ruby on Rails</a> (which is a framework built using Ruby). Then you'll polish your front-end skills with a journey into <a href='courses/html-and-css'>HTML and CSS</a> before learning to make your websites flow, load quickly and look great with <a href='courses/javascript'>JavaScript</a>. </p>
           <br />
           <p> The Full Stack Javascript path maintains our front-end momentum from Foundations by delving into <a href='courses/javascript'>Javascript.</a> Once you've got a solid foundation here, you'll take a deeper look at front-end design with <a href='courses/html-and-css'>HTML and CSS</a> before taking your JavaScript skills to the server-side with Express and MongoDB in <a href='courses/nodejs'>NodeJS</a>. </p>
           <br />
@@ -163,7 +163,7 @@ module ApplicationHelper
         badge_image_url: 'badge-ruby.svg',
         badge_alt_text: 'ruby badge',
         title: 'Ruby',
-        path: '/paths/full-stack-ruby-on-rails/courses/ruby-programming'
+        path: '/paths/full-stack-ruby-on-rails/courses/ruby'
       },
       {
         badge_image_url: 'badge-ruby-on-rails.svg',
