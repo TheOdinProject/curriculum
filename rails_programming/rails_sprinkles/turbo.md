@@ -124,7 +124,7 @@ This creates a link that will use the `DELETE` method. However, it is suggested 
 
 There will be times where you do not want Turbo Drive to control navigation and want a full page reset.
 
-You can disable Turbo Drive by adding `data-turbo="false` directly on your links or on the parent containing them.
+You can disable Turbo Drive by adding `data-turbo="false"` directly on your links or on the parent containing them.
 
 For instance:
 
@@ -259,7 +259,7 @@ We can also make our frames **lazy loaded**. A lazy loaded frame will only fetch
 
 ### Turbo Stream
 
-Now we know how to set up our views to use Turbo Frames, but what about content that is being changed by our users? We can't put a Turbo Frame around something that doesn't exist yet! That's where Turbo Stream comes in. Turbo Streams send page changes as HTML wrapped in `<turbo-stream>` elements. Turbo Streams specify an action to perform and the target ID of the DOM element to update with this action. For instance, a Turbo Stream where `action="replace"` and `target="body"` would replace the HTML element where `id="body` with the new element being delivered over Turbo Stream. These streams can be sent in response to either a direct browser request, or by broadcasting over a websocket connection. This lesson will stick to the browser request implementation. Turbo Streams can take the form of 7 different actions:
+Now we know how to set up our views to use Turbo Frames, but what about content that is being changed by our users? We can't put a Turbo Frame around something that doesn't exist yet! That's where Turbo Stream comes in. Turbo Streams send page changes as HTML wrapped in `<turbo-stream>` elements. Turbo Streams specify an action to perform and the target ID of the DOM element to update with this action. For instance, a Turbo Stream where `action="replace"` and `target="body"` would replace the HTML element where `id="body"` with the new element being delivered over Turbo Stream. These streams can be sent in response to either a direct browser request, or by broadcasting over a websocket connection. This lesson will stick to the browser request implementation. Turbo Streams can take the form of 7 different actions:
 
 *  Append
 *  Prepend
