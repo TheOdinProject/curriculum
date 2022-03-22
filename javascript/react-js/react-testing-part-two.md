@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is Mocking?
 
-If you've been following along our lessons, the concept of mocking has already been introduced in the earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of this course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship). Let's look at how mocks'll help in testing React components.
+If you've been following along with our lessons so far, the concept of mocking has already been introduced in an earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of this course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/battleship). Let's look at how mocks will help in testing React components.
 
 #### Testing Callback Handlers
 
@@ -83,7 +83,7 @@ describe("Favorite Input", () => {
 ~~~
 
 Three tests and we are done with this component. Take some time to figure out what functions come from which package. 
-We mock the `onChange` handler using one of jest features, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show what other ways we could've tested the component.   
+We mock the `onChange` handler using one of Jest's functions, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show another way we could've tested the component.   
 
 But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
 
@@ -95,11 +95,11 @@ You might have come across the concept of mocking modules. In React, when the co
 
 If you're a logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
 
-Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is we don't have to understand it all to follow along this lesson!
+Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is that we don't have to understand it all to follow along with this lesson!
 
 #### submissions-list.jsx
 
-We start by importing a bunch of stuff like any other decent React component. There might be a couple of unfamiliar things on there; we don't have to worry too much about them. If we glance at the props, there are some functions in there, presumably event handlers. Let's look at what the component renders.
+We start by importing a bunch of stuff like any other decent React component. There might be a couple of unfamiliar things on there; we don't have to worry too much about them. If we take a glance at the props, there are some functions in there, presumably event handlers. Let's look at what the component renders.
 
 1. If there's a `userSubmission`, it renders the `Submission` component
 2. If `hasSubmission` is true, sort the submissions and render them with `Submission`. Otherwise, a heading that says "No Submissions yet, be the first!"
@@ -132,9 +132,9 @@ In the first suite, we make some assertions if the user has a submission and the
 
 #### Exploring Further
 
-Feel free to flick through the other components and its tests. You'll see mocked functions. You'll see some unseen functions like `act`. You'll see custom render functions. It's fine if you don't understand it all, the goal is to gain familiarity.
+Feel free to flick through the other components and their tests. You'll see mocked functions. You'll see some unseen functions like `act`. You'll see custom render functions. It's fine if you don't understand it all, the goal is to gain familiarity.
 
-The other important thing to note is almost all the tests follow a certain pattern in terms of the way they're written. They follow the [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) pattern. It's a good idea to adopt the pattern sooner or later to make your tests more readable and ultimately better.
+The other important thing to note is almost all the tests follow a certain pattern in terms of the way they're written. They follow the [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert) pattern. It's a good idea to adopt this pattern sooner or later to make your tests more readable and ultimately better.
 
 ### Assignment
 
