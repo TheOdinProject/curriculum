@@ -119,7 +119,7 @@ GEM
       xpath (~> 3.2)
     climate_control (1.0.1)
     cliver (0.3.2)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     connection_pool (2.2.5)
     crack (0.4.5)
       rexml
@@ -470,10 +470,10 @@ GEM
     sentry-rails (5.2.0)
       railties (>= 5.0)
       sentry-ruby-core (~> 5.2.0)
-    sentry-ruby (5.2.0)
+    sentry-ruby (5.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      sentry-ruby-core (= 5.2.0)
-    sentry-ruby-core (5.2.0)
+      sentry-ruby-core (= 5.2.1)
+    sentry-ruby-core (5.2.1)
       concurrent-ruby
     sentry-sidekiq (5.2.0)
       sentry-ruby-core (~> 5.2.0)
