@@ -8,9 +8,9 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 ### Setting Up Your Project's GitHub Repository
 
-As mentioned in the [introduction to Git](/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [introduction to Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to set up a repository, follow the instructions found in [Git Basics](/courses/foundations/lessons/git-basics) to learn how.
+If you do not know how to set up a repository, follow the instructions found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how.
 
 1. Create a new repo for this project on GitHub.com and call it `odin-recipes`.
 2. Move that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
@@ -20,8 +20,8 @@ If you do not know how to set up a repository, follow the instructions found in 
 If you are having trouble:
 
 - All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `odin-recipes` folder?).
-- Ensure you followed the steps [here on Step 2.3](/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
-- Refer to the [workflow](/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
+- Ensure you followed the steps [here on Step 2.3](/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
+- Refer to the [workflow](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
 #### Tips on when to commit
 Don't forget everything we went over in the [previous lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) about commit messages!
@@ -30,7 +30,7 @@ When you're building your project, you will probably end up doing several `git a
 
 When writing code, it's considered best practice to commit early and often. Commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere.
 
-After you have entered `git push origin main`, switch over to your browser and open your repository on Github, you should now see all the files you just pushed.
+After you have entered `git push origin main`, switch over to your browser and open your repository on GitHub. You should now see all the files you just pushed.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
@@ -38,7 +38,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 <div class="lesson-content__panel" markdown="1">
 
-#### Iteration 1: Initial structure
+#### Iteration 1: Initial Structure
 
 1. Within the `odin-recipes` directory, create an `index.html` file.
 2. Fill it out with the usual boilerplate HTML and add an `h1` heading "Odin Recipes" to the body.

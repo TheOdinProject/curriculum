@@ -81,7 +81,7 @@ Now let's run
 yarn run build
 ~~~
 
-The error is gone which means esbuild was able to resolve it since it was properly formatted. However that still leaves the ```✘ [ERROR] Could not resolve "controllers"```. Let's see if we can solve that to!. Remember what we said earlier about this error ```✘ [ERROR] Could not resolve "@hotwired/turbo-rails"```. We need to download the appropriate package so that esbuild can bundle it. Go ahead and enter the command below! 
+The error is gone which means esbuild was able to resolve it since it was properly formatted. However that still leaves the ```✘ [ERROR] Could not resolve "controllers"```. Let's see if we can solve that too!. Remember what we said earlier about this error ```✘ [ERROR] Could not resolve "@hotwired/turbo-rails"```. We need to download the appropriate package so that esbuild can bundle it. Go ahead and enter the command below! 
 
 ~~~bash
 yarn add stimulus
@@ -128,7 +128,7 @@ info All dependencies
 
 A key difference here is that within the terminal output you will see more output as well as that info output from ESBuild as this command is ran. Let's take a look at the results for our rails application.
 
-In our ```package.json``` file that is where our script build is kept. Here you will see the command that was run by rails when building app. Going into the ```app/javascript/application.js``` you can see what was imported. A important caveat with ESBuild is that in ```app/javascript/controllers/index.js``` you need to run a command to add all your controllers to the ```index.js``` file. That command is 
+In our ```package.json``` file that is where our script build is kept. Here you will see the command that was run by rails when building app. Going into the ```app/javascript/application.js``` you can see what was imported. An important caveat with ESBuild is that in ```app/javascript/controllers/index.js``` you need to run a command to add all your controllers to the ```index.js``` file. That command is 
 
 ~~~bash
 ./bin/rails stimulus:manifest:update
@@ -150,7 +150,7 @@ This may make you wonder why use import maps at all. Being able to use all of th
 
 ### Webpacker
 
-Some of you may have heard of webpacker or can come across it in the wild so it's worth mentioning as it was used for quite a few years for Rails 6. <span id='webpacker-introduction'>webpacker was a ruby gem created to work with webpack itself which allowed Rails to use ES6 (short for ECMAScript 6 which was introduced to standardize javascript) as it required transpilation for use with browsers at that time. In the context of rails the webpacker builds a map of your Javascript code to build a dependency graph allowing it to generate bundles of code. Rails would grab a pack from app/javascript/packs and download it when that form is visited by the user. </span>
+Some of you may have heard of webpacker or can come across it in the wild so it's worth mentioning as it was used for quite a few years for Rails 6. <span id='webpacker-introduction'>Webpacker was a ruby gem created to work with webpack itself which allowed Rails to use ES6 (short for ECMAScript 6 which was introduced to standardize javascript) as it required transpilation for use with browsers at that time. In the context of rails the webpacker builds a map of your Javascript code to build a dependency graph allowing it to generate bundles of code. Rails would grab a pack from app/javascript/packs and download it when that form is visited by the user. </span>
 
 With Rubygems we use a Gemfile and with Webpacker we use a package.json to manage your Javascript libraries. The main difference is that with a Gemfile you need to open it and manually add the gem and version and then run bundle but with Webpack we can use Yarn from the terminal to add a library like so. 
 
@@ -158,7 +158,7 @@ With Rubygems we use a Gemfile and with Webpacker we use a package.json to manag
 yarn add bootstrap
 ~~~
 
-You would then be able reference it within your pack file and now be able to use it! 
+You would then be able to reference it within your pack file and now be able to use it! 
 
 While you may come across this in the wild it is important to note that Rails 7 does not use it any longer and replaces with JSBundling. If you want to use bundling make sure to use one of the bundlers listed earlier in the lesson.
 

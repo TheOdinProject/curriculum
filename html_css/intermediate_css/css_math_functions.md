@@ -49,7 +49,8 @@ Take a look at how `calc()` is being used here:
 --main: calc(100vh - calc(var(--header) + var(--footer)));
 }
 ~~~
-
+- `--header`, `--footer`, and `--main` are all examples of CSS variables. You will be learning about these in the next lesson.
+  
 Setting main to equal the outcome of: `100vh - (3rem + 40px)`.
 To put it another way:  `main = 100vh - (header + footer)`.
 `calc()` is handling the math for us even though we are mixing vh, rem and px units.
@@ -103,15 +104,25 @@ You may not find a lot of use for max at first, but it is good tool to be aware 
 #### clamp()
 
 `clamp()` is a great way to make elements fluid and responsive.
-`clamp()` takes 3 values.
-`font-size: clamp(320px, 80vw, 60rem);`
+`clamp()` takes 3 values:
 
-1. `the smallest value`, 2. `the ideal value`, 3. `the largest value`
+~~~css
+h1 {
+  font-size: clamp(320px, 80vw, 60rem);
+}
+~~~
+
+1. the smallest value (320px)
+2. the ideal value (80vw)
+3. the largest value (60rem)
+
+The `clamp()` CSS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The ideal font-size would be 80vw.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-[Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+1. [Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
+2. Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
 </div>
 
 ### Additional Resources

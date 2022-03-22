@@ -19,7 +19,7 @@ The `transform` property takes in one or more CSS transform functions as its val
 
 Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" simply refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
 
-### 2D Transforms
+### Two-Dimensional Transforms
 
 In this section, we'll go through 2D transforms with the following transform functions: `rotate`, `scale`, `skew`, and `translate`.
 
@@ -148,7 +148,7 @@ To learn more about the "left to right" vs "right to left" interpretations, chec
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
-### 3D Transforms
+### Three-Dimensional Transforms
 
 The `rotate`, `scale`, and `translate` transform functions aren't limited to just the 2D plane. They work for the 3D plane as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
@@ -262,7 +262,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#2d-transforms">What are the four main functions of the `transform` property?</a>
+- <a class="knowledge-check-link" href="#two-dimensional-transforms">What are the four main functions of the `transform` property?</a>
 - <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
 - <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#3d-transforms">What additional function is required for 3D transforms?</a>
+- <a class="knowledge-check-link" href="#three-dimensional-transforms">What additional function is required for 3D transforms?</a>

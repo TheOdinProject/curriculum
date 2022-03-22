@@ -59,5 +59,5 @@ This section contains helpful links to other content. It isn’t required, so co
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#content-first-vs-layout-first-design'>When might you use Flexbox over Grid?</a>
-- <a class="knowledge-check-link" href='#ontent-first-vs-layout-first-design'>When might you use Grid over Flexbox?</a>
+- <a class="knowledge-check-link" href='#content-first-vs-layout-first-design'>When might you use Grid over Flexbox?</a>
 - <a class="knowledge-check-link" href='#combining-flexbox-and-grid'>When might you use the two of these tools together?</a>

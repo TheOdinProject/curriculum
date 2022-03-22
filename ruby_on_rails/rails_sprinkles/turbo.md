@@ -1,6 +1,3 @@
-
-# Hotwire: Turbo
-
 ### Introduction
 
 When a user makes a request to your application, your controller is the part of MVC that receives it and responds with the `.html.erb` view file. As you've been working on your applications so far, you may have been creating views with similar features and layouts. What if there was a way to only change the parts of our views that are different and not have to bother with updating content that we don't intend to change in the first place? We could cut down on loading times for the user and the amount of data our application has to send out!
