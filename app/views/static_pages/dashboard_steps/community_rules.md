@@ -48,7 +48,7 @@ We encourage questions, so do not worry about asking a "stupid question". Howeve
 
 -   **Ask questions in the proper channel.** We have specific channels for every section in our curriculum, so please find the best one to ask your question. While asking questions regarding The Odin Project or our curriculum is allowed in our #odin-general channel, you should seek a more appropriate channel if there is already an active conversation.
 
--   **Post your question in one and only one channel.** Cross posting will not get you an answer sooner, and it will split the discussion into redundant and/or conflicting answers.
+-   **Post your question in one and only one channel.** Crossposting will not get you an answer sooner, and it will split the discussion into redundant and/or conflicting answers.
 
 -   **Stay online after asking a question.** Most of the time, answers are not simple and straight-forward. Therefore, you should be prepared to stick around and discuss it with those trying to help.
 
