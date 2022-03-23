@@ -10,7 +10,7 @@ Like the branches in a tree (hence the name), all of the branches for a project 
 
 When you make commits on a specific branch those changes only exist on **that** branch, leaving all of your other branches exactly as they were when you branched off of them.
 
-This means that you can keep your `main` branch as a place for only finished features that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*
+This means that you can keep your `main` branch as a place for only finished features that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*.
 
 ### Using Branches
 
@@ -24,7 +24,7 @@ Merges are done by using the command `git merge <branch_name>` which will take t
 
 Sometimes the same lines in a file will have been changed by two different branches. When this happens you will have a merge conflict when you try and merge those branches together. In order to finish merging the branches you will have to first resolve the conflict, which will be covered in a future lesson.
 
-When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main` or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
+When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main`, or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
 
 ### Sharing Code
 
