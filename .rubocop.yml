@@ -185,3 +185,6 @@ Style/FormatStringToken:
 
 Rails/EnvironmentVariableAccess:
   Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
