@@ -131,3 +131,7 @@ progress-circle__inner {
 .fa-arrow-alt-circle-right {
   color: var(--dark-header-color) !important;
 }
+
+.progress-circle__content {
+  color: var(--dark-bg-accent) !important;
+}
