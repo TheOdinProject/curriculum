@@ -69,9 +69,9 @@ export default RouteSwitch;
 
 2. **BrowserRouter**: Is a router, which uses the history API (`pushState`, `replaceState` and the `popstate` event) to keep your UI in sync with the URL. For completion we have to mention that there are other options than `BrowserRouter`, but for your current projects you can assume that `BrowserRouter` is at the root of all your projects.
 
-3. <span id="routing">**Routes**: Renders the first child Route that matches the location. In other words, the `Routes` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url *exactly* will be rendered; all others will be ignored. Important to note is that in previous versions of `react-router-dom` the `exact` keyword was needed to achieve this behavior.</span>
+3. **Routes**: Renders the first child Route that matches the location. In other words, the `Routes` component is going to look through all your Routes and checks their path. The first Route, whose path matches the url *exactly* will be rendered; all others will be ignored. Important to note is that in previous versions of `react-router-dom` the `exact` keyword was needed to achieve this behavior.
 
-Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `RouteSwitch.js` to be the first. Your `index.js` should look something like this:
+<span id="routing"> Let's check this behavior in the browser for better understanding. But before we do that we have to do one more thing: change our `index.js` file. This is because we don't want our `App.js` file to be the first file to be called when our application runs. Instead, we want our `RouteSwitch.js` to be the first.</span> Your `index.js` should look something like this:
 
 ~~~javascript
 import React from "react";
