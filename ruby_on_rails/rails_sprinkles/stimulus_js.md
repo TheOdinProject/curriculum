@@ -22,7 +22,7 @@ After going through this lesson you should be able to
 ### The idea
 
 Stimulus is a modest framework. It leaves things mostly up to you, but gives you a consistent way of doing things.
-It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look an an HTML example
+It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look at an HTML example
 from the handbook:
 
 ~~~html
@@ -41,7 +41,7 @@ purpose?
 behavior
 * **data-clipboard-target** is set to `source`. Which says: this is the the `source` we are gonna use for our clipboard
 controller
-* **data-action** is set to `click->clipboard#copy`. Which means: On a click invoke the `copy`action the our clipboard
+* **data-action** is set to `click->clipboard#copy`. Which means: On a click invoke the `copy` action of our clipboard
 controller
 
 So together these three attributes enable the following behavior: When a user `click`s on the button, use the function
@@ -62,7 +62,7 @@ Look this HTML without the special data-attributes Stimulus uses:
 Probably something is supposed to happen, when you click that button. However you can't tell from the HTML
 alone how things are wired up. You have to search for some JavaScript that handles this behavior.
 
-So let's got through the basic aspects of Stimulus controllers. Don't worry if you don't understand
+So let's get through the basic aspects of Stimulus controllers. Don't worry if you don't understand
 everything on the first read through, the assignments will give more in depth information.
 
 ### The Stimulus controller
@@ -73,7 +73,7 @@ A Stimulus controller gets attached to a dom element by declaring it with the `d
 <input data-controller="input">
 ~~~
 
-This will attach a the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
+This will attach the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
 If you want to add a new
 controller, create a file `some_name_controller.js` and it will be automatically loaded.
 
@@ -95,7 +95,7 @@ This creates a scope, all the following attributes will only work within the sco
 You learned how to trigger events with event listeners, in Stimulus instead you use `data-action` attributes to
 execute javascript to react to a user click or input.
 
-So instead of `document.querySelector("button).addEventListener("click", showAlert)` we write the following HTML
+So instead of `document.querySelector("button").addEventListener("click", showAlert)` we write the following HTML
 
 ~~~html
 <div data-controller="alert">
@@ -237,7 +237,7 @@ some JavaScript whenever you got such a field.
 ~~~
 
 In this situation you don't have a user do anything you could react to, he probably just came from another page. For
-these situation you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
+these situations you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
 
 ~~~javascript
 import { Controller } from "@hotwired/stimulus"
