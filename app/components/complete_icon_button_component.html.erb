@@ -8,13 +8,13 @@
   data-complete-button-loading-class="complete-icon-button--loading"
   data-complete-button-completed-class="complete-icon-button--completed"
   data-test-id="complete-button"
-  class="complete-icon-button"
+  class="complete-icon-button h-8 sm:h-9"
 >
   <span class="complete-icon-button__loading-icon" data-complete-button-target="loading">
     <%= inline_svg_tag 'icons/spinner.svg', class: 'animate-spin h-7 sm:h-8', aria: true, title: 'loading', desc: 'loading spinner' %>
   </span>
   <span class="complete-icon-button__completed-icon">
-    <%= inline_svg_tag 'icons/checkmark-circle-solid.svg', class: 'h-8 sm:h-9', aria: true, title: 'check', desc: 'checkmark icon' %>
+    <%= inline_svg_tag 'icons/checkmark-circle-solid.svg', class: 'min-h-full', aria: true, title: 'check', desc: 'checkmark icon' %>
   </span>
 
 </button>
