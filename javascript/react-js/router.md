@@ -97,7 +97,7 @@ You should now have enough basics to get started with React routing. There are a
 2. Browse a little bit through the React Router [documentation](https://reactrouter.com/docs/en/v6/getting-started/overview). You don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. This is a great resource to refer back to.
 3. Watch [this](https://www.youtube.com/watch?v=Law7wfdg_ls) video for reviewing. You should already be familiar with those concepts.*
 
-  ***Note:** What we have learned in this lesson is the lastest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
+  ***Note:** What we have learned in this lesson is the latest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
 </div>
 
 ### Additional Resources
@@ -106,7 +106,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This video by The Net Ninja](https://www.youtube.com/watch?v=QUz3k2O3ZJU&ab_channel=TheNetNinja) is an excellent review of what we learned here.*
 - For some extra practice/review, check out [this article](https://css-tricks.com/learning-react-router/).*
 
-  ***Note:** What we have learned in this lesson is the lastest version of React Router (v6). However, in these resources, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
+  ***Note:** What we have learned in this lesson is the latest version of React Router (v6). However, in these resources, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
 
 ### Knowledge Checks
 
