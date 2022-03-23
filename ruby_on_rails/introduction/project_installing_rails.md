@@ -80,7 +80,7 @@ Create controllers directory
 Import Stimulus controllers
       append  app/javascript/application.js
 Pin Stimulus
-      append  config/importmap.r
+      append  config/importmap.rb
       
 ~~~
 
