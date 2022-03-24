@@ -122,7 +122,7 @@ Try changing the `name` attributes of some of the input fields in the form and t
 
 It's worth mentioning that you can use any of the form controls HTML provides outside of the `<form>` element, even when you don't have a backend server where you can send data.
 
-For example you might want to have an input that gets some data from a user and display that somewhere else on the page with Javascript:
+For example you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="PoJjNYr" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr">
@@ -391,19 +391,19 @@ To create a generic button, we use the button element with a `type` attribute of
 <button type="button">Click to Toggle</button>
 ~~~
 
-**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
+**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try to make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
 
 ### Organizing Form Elements
 
 Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
 
-Luckily, HTML provides a couple of elements that help us make organizing forms into visually distinct and manageable to digest sections a breeze.
+Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
 
 **Fieldset Element**
 
 The fieldset element is a container element that allows us to group related form inputs into one logical unit.
 
-To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we want to group together go within the open and closing fieldset tags:
+To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we want to group together go within the opening and closing fieldset tags:
 
 ~~~html
 <fieldset>
@@ -517,5 +517,5 @@ Certain aspects of other elements are downright impossible to style, for example
 - <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>
 - <a class="knowledge-check-link" href='#the-name-attribute'>What is the `name` attribute for?</a>
 - <a class="knowledge-check-link" href='#selection-elements'>What are the three most common form controls you can use for allowing users to select predefined options?</a>
-- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in html?</a>
+- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in HTML?</a>
 - <a class="knowledge-check-link" href='#a-note-on-styling-forms'>What are the two most challenging aspects of styling forms?</a>

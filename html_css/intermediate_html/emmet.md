@@ -21,9 +21,9 @@ Pressing enter should generate the following text:
 We have just used one of many Emmet abbreviations. There are lots of useful Emmet abbreviations that you should check out, like <a href="https://docs.emmet.io/actions/wrap-with-abbreviation/">Wrap with Abbreviation</a> and <a href="https://docs.emmet.io/actions/remove-tag/">Remove Tag</a>. Definitely go through those before moving forward.
 
 Considering how useful these two are, we will be setting up VS Code shortcuts for them.
-Start off by opening the keyboard shortcuts window. You can do so by clicking the icon on the bottom left and selecting keyboard shortcuts, or by pressing `Ctrl K` followed by `Ctrl S`.
+Start off by opening the keyboard shortcuts window. You can do so by clicking the cog icon on the bottom left and selecting keyboard shortcuts, or by pressing `Cmd + K` followed by `Cmd S`.
 
-<img src="https://i.imgur.com/ZKrMLCR.png">
+<img src="https://i.imgur.com/cre60k5.png">
 
 After entering the keyboard shortcuts window, you should be able to access all of the Emmet actions by searching for `Emmet:<action>`. In our case, it will be `Emmet:Wrap With Abbreviation`
 <img src="https://i.imgur.com/PnHroOq.png">

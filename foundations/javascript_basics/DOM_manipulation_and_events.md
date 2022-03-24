@@ -102,10 +102,10 @@ const div = document.createElement('div');
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
-div.style.cssText = 'color: blue; background: white';          
+div.style.cssText = 'color: blue; background: white;';          
 // adds several style rules
 
-div.setAttribute('style', 'color: blue; background: white');    
+div.setAttribute('style', 'color: blue; background: white;');    
 // adds several style rules
 ~~~
 
@@ -117,7 +117,7 @@ Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
-div.style.cssText = "background-color: white" // ok in a string
+div.style.cssText = "background-color: white;" // ok in a string
 ~~~
 
 #### Editing Attributes
@@ -316,7 +316,7 @@ btn.addEventListener('click', function (e) {
   console.log(e);
 });
 ~~~
-\*_Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://briggs.dev/blog/understanding-callbacks)._
+\*_Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://dev.to/i3uckwheat/understanding-callbacks-2o9e)._
 
 The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 
