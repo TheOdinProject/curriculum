@@ -36,7 +36,7 @@ That's a lot of setup. But good news! If you're initializing your React reposito
 
 ### Our First Query
 
-First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs](https://testing-library.com/docs/react-testing-library/api/#render).
+First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
 
 ~~~javascript
 // App.js
