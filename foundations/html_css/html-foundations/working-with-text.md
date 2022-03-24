@@ -180,4 +180,3 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
 - <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
 - <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
-<br />
