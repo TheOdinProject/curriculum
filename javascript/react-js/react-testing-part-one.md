@@ -1,6 +1,6 @@
 ### Introduction
 
-We've learned testing our vanilla JavaScript applications in the previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
+We've learned how to test our vanilla JavaScript applications in a previous section. Testing is indeed a powerful tool that allows us to write maintainable and flexible code. If you've followed along with our lessons so far, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
 
 ### Lesson Overview 
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Setting Up
 
-We'll need to import some packages atop our test file:
+We'll need to import some packages inside of our testing file:
 
 ~~~javascript
 import React from "react";
