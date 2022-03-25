@@ -1,7 +1,7 @@
 <%= title("Notifications") %>
 
 <div class="container tmp-container-spacer h-full">
-  <h1 class="text-center page-heading-title mb-16">Notifications</h1>
+  <h1 class="page-heading-title">Notifications</h1>
   <ul class="space-y-3">
     <% unless @notifications.empty? %>
       <%= render NotificationComponent.with_collection(@notifications) %>
