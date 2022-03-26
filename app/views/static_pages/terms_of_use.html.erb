@@ -1,8 +1,9 @@
 <%= title('Terms of Use') %>
 
 <div class="gradient">
-  <div class="container tmp-container-spacer terms_of_use">
-    <div class="card-main">
+  <div class="container tmp-container-spacer">
+    <h1 class="page-heading-title">Terms of Use</h1>
+    <div class="card-main lesson-content">
       <% f = File.open('legal_terms_of_use.md', 'r:UTF-8') %>
       <%= MarkdownConverter.new(f.read).as_html.html_safe %>
       <% f.close %>

@@ -1,4 +1,4 @@
-# Terms of Use
+### Introduction
 
 This document should be read in conjunction with Thinkful's [privacy policy](https://www.thinkful.com/privacy-policy/) and [terms of service](https://www.thinkful.com/terms-of-service/).
 
