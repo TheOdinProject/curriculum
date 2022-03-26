@@ -2,7 +2,7 @@ ruby File.read('.ruby-version').strip
 
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.4.6'
+gem 'rails', '7.0.2.3'
 
 gem 'activeadmin', '~> 2.11'
 gem 'activeadmin_addons', '~> 1.9'
