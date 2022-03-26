@@ -147,7 +147,7 @@ If they have already been through that portion of the curriculum, politely direc
 When helping someone it can be easy to spot other problems in their code. Resolve the original question, before pointing out any other problems that need attention.
 
 #### 11. Encourage students to use a debugger
-It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `/debug`.
+It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `!debug`.
 
 #### 12. Watch for students that need to take a step back
 It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Often times, stepping away from a problem will help them see the bigger picture and how to solve it.
