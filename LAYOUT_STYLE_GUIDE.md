@@ -300,6 +300,18 @@ const obj = {
 It is best practice to explicitly declare the language immediately after the opening tilde marks, so that neither the
 syntax highlighter nor the next editor must guess.
 
+#### No Extraneous Characters
+
+Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
+
+```bash
+// The below example is incorrect
+$ cd Documents
+
+// The below is correct
+cd Documents
+```
+
 #### Nest codeblocks within lists
 
 If you need a codeblock within a list, make sure to indent it so as to not break
