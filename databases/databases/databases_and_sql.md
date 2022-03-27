@@ -52,7 +52,7 @@ Look through these now and then use them to test yourself after doing the assign
 * `ORDER BY`
 * `COUNT`
 
-#### Functions
+#### Functions:
 * `GROUP BY`
 * `HAVING`
 * `AVG`
@@ -61,7 +61,7 @@ Look through these now and then use them to test yourself after doing the assign
 * `MAX`
 * `SUM`
 
-#### Other Stuff
+#### Other Stuff:
 * What are Indexes good for?
 * What's the difference between `WHERE` and `HAVING`?
 
