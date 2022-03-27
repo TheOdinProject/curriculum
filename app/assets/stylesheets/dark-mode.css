@@ -52,8 +52,8 @@ body,
 }
 
 .curriculum-details-tile:hover {
-  box-shadow: 0 10px 22px 0 rgba(100, 100, 100, 0.3) !important;
-  -webkit-box-shadow: 0 10px 22px 0 rgba(100, 100, 100, 0.3) !important;
+  box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
 h1,
