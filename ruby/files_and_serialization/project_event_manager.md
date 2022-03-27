@@ -16,7 +16,7 @@ After completing this tutorial, you will be able to:
 
 <div class="note">
 <p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/curriculum/blob/main/ruby_programming/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
+  please <a href="https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
 </div>
 
 ### What We're Doing in This Tutorial
@@ -86,13 +86,13 @@ If this happens, make sure the correct directory exists and try creating the fil
 
 For this project we are going to use the following sample data:
 
-* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby_programming/files_and_serialization/event_attendees.csv)
-* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby_programming/files_and_serialization/event_attendees_full.csv)
+* [Small Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv)
+* [Large Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees_full.csv)
 
-Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby_programming/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
+Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
 ~~~bash
-$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby_programming/files_and_serialization/event_attendees.csv
+$ curl -o event_attendees.csv https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees.csv
 ~~~
 
 After the file is downloaded, you should see something like:
@@ -438,7 +438,7 @@ solve the second issue and the third issue.
 
 * Some zip codes are represented with fewer than five digits
 
-If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby_programming/files_and_serialization/event_attendees_full.csv), we would
+If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees_full.csv), we would
 see that the majority of the shorter zip codes are from states in the
 north-eastern part of the United States. Many zip codes there start with 0. This
 data was likely stored in the database as an integer, and not as text, which
