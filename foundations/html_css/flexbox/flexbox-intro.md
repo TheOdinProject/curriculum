@@ -26,7 +26,7 @@ Flexbox is a way to arrange items into rows or columns, where those items will f
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex related lines in the above CSS and check out the result. All 3 divs should now be arranged horizontally. If you resize your browser you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width.
+We'll get into exactly what's going on here soon enough, but for now, uncomment the two flex related lines in the above CSS and check out the result. All 3 divs should now be arranged horizontally. If you resize the results frame with the "1x", ".5x" and ".25x" buttons you'll also see that the divs will 'flex'. They will fill the available area, and will each have equal width.
 
 If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to make it fit.
 
