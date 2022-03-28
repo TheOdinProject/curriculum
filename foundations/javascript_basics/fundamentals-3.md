@@ -28,7 +28,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Practice
 
-Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review the instructions from [Fundamentals Part 1](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-1#practice).
+Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review the instructions from [Fundamentals Part 1](https://www.theodinproject.com/lessons/foundations-fundamentals-part-1#how-to-run-javascript-code).
 
 For now, just write each function and test the output with `console.log`.
 
