@@ -1,6 +1,6 @@
 ### Introduction
 
-Over the next few lessons we will cover CSS Grid and make page layouts much easier. First we’ll take a quick look back at Flexbox (remember Flexbox!?) and then learn about Grid. 
+Over the next few lessons we will cover CSS Grid and make page layouts much easier. First we’ll take a quick look back at Flexbox (remember Flexbox!?) and then learn about Grid.
 
 The following lessons will show you how to create a grid, position grid items and use some advanced properties. Then we will take a deeper look between Flexbox and Grid. Ultimately we are working towards building a dashboard project using Grid.
 
@@ -13,9 +13,9 @@ By the end of this lesson, you should be able to:
 
 ### A Look Back at Flex
 
-In the Foundations course you learned a lot about Flexbox. If you’ve been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you’re completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-flexbox) again to get up to speed.
+In the Foundations course you learned a lot about Flexbox. If you’ve been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you’re completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox) again to get up to speed.
 
-The Flex lessons covered positioning items along the two [axes](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/axes) (main and cross) and how to set their [alignment.](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/alignment) You also learned how to make your flex items [grow, shrink or change their size.](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/growing-and-shrinking) This is the real beauty of Flexbox as items can, well, “flex” to stretch out or shrink down. 
+The Flex lessons covered positioning items along the two [axes](https://www.theodinproject.com/lessons/foundations-axes) (main and cross) and how to set their [alignment.](https://www.theodinproject.com/lessons/foundations-alignment) You also learned how to make your flex items [grow, shrink or change their size.](https://www.theodinproject.com/lessons/-foundations-growing-and-shrinking) This is the real beauty of Flexbox as items can, well, “flex” to stretch out or shrink down.
 
 You’ll remember you can line up a nice row of flex items like this:
 
@@ -37,13 +37,13 @@ Or a column like this:
 
 For one-dimensional layouts, Flex offers a convenient tool without having to rely on floats or CSS hacks to align your items properly.
 
-For two-dimensional layouts, you learned a little bit about `flex-wrap`, which allows you to take your flex items and wrap them to the next line. This can be done with either a row that wraps to another row, or a column that wraps to another column. 
+For two-dimensional layouts, you learned a little bit about `flex-wrap`, which allows you to take your flex items and wrap them to the next line. This can be done with either a row that wraps to another row, or a column that wraps to another column.
 
 Remember how much fun you had solving the card layout in this exercise?
 
 [![flex-exercise-desired-outcome.png](https://i.postimg.cc/vZ81HMkB/flex-exercise-desired-outcome.png)](https://github.com/TheOdinProject/css-exercises/tree/main/flex/07-flex-layout-2)
 
-We know that was a frustrating one, but it's part of the point. While Flexbox allows you to build a layout of rows and columns together, it isn’t always easy. 
+We know that was a frustrating one, but it's part of the point. While Flexbox allows you to build a layout of rows and columns together, it isn’t always easy.
 
 But setting up a two-dimensional layout of cards would be much simpler using CSS Grid:
 

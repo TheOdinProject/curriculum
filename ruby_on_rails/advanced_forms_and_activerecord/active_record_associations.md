@@ -16,7 +16,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Basic Stuff
 
-If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/active-record-basics-ruby-on-rails) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
+If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
 #### Foreign Keys and Class Names
 
@@ -50,9 +50,9 @@ But what if you want to have two types of users that the post belongs to -- the 
   end
 ~~~
 
-In this case, Rails will automatically look for the foreign key named after the association, e.g. `author_id` or `editor_id`, in the Posts table.  
+In this case, Rails will automatically look for the foreign key named after the association, e.g. `author_id` or `editor_id`, in the Posts table.
 
-If you called the association something which didn't correspond exactly to what you'd named the foreign key in your table, you need to tell Rails that as well.  This should be obvious if you think of this relationship from the side of the User.  The User will have some posts for which she is an author and others for which she is an editor.  You'll need to rename the association on the User's side as well to keep things crystal clear, for instance splitting up `authored_posts` from `edited_posts`.  
+If you called the association something which didn't correspond exactly to what you'd named the foreign key in your table, you need to tell Rails that as well.  This should be obvious if you think of this relationship from the side of the User.  The User will have some posts for which she is an author and others for which she is an editor.  You'll need to rename the association on the User's side as well to keep things crystal clear, for instance splitting up `authored_posts` from `edited_posts`.
 
 But now Rails doesn't have the foggiest idea where to look and what to look for.  By default, if you ask for `User.first.authored_posts` it will go looking in the `authored_posts` table for a foreign key called `user_id` (neither of which exist).  To get it pointing at the right table, we again need to specify the `:class_name` and to get it using the correct foreign key, we need to specify the right `:foreign_key`.  For instance:
 
@@ -68,7 +68,7 @@ The basic gist of this is simple -- assume that Rails is looking for the foreign
 
 #### Source
 
-Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, I should point out that there's one additional step required if you're using a creatively named `has_many :through` association.  Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.  
+Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, I should point out that there's one additional step required if you're using a creatively named `has_many :through` association.  Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.
 
 For example, perhaps we change the example above so a Post actually can have multiple Authors (but still only one editor).  We'll need to create a new table, which we'll call `post_authorings`.  `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`.  You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just simply `post_id` and `user_id` but it will require us to inform Rails of the change.  Our models look like:
 
@@ -102,7 +102,7 @@ And our data model looks like:
 | ---------- | ---------- |
 | name       | *string*   |
 | created_at | *datetime* |
-| updated_at | *datetime* | 
+| updated_at | *datetime* |
 
 | **posts**  |            |
 | -----------| ---------- |
@@ -127,7 +127,7 @@ It may be helpful to illustrate what Rails is doing.  In the example above, if y
 2. Once we're at the `PostAuthoring` model, to get to the `author`, we'll need to use the `:belongs_to` association and it'll be called `post_author`. We know this because we used the `:source` option.  If we hadn't used the `:source` option in the original has-many-through association, we would have been looking for `belongs_to :author` instead.
 3. Now we've got all the information we need to structure our SQL joins and grab the list of authors for the post.
 
-It sounds a bit wonky but it's just the same logic as before -- if Rails can't tell based on its assumptions which associations or class names or foreign keys you're supposed to use, you need to specify them yourself using `:source` or `:foreign_key` or `:class_name`.  It takes some practice but you'll get it.  Usually you know something's up if you get error messages of the flavor `ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column`.  
+It sounds a bit wonky but it's just the same logic as before -- if Rails can't tell based on its assumptions which associations or class names or foreign keys you're supposed to use, you need to specify them yourself using `:source` or `:foreign_key` or `:class_name`.  It takes some practice but you'll get it.  Usually you know something's up if you get error messages of the flavor `ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column`.
 
 Once you do get things figured out, it can still be helpful to look in your Rails server output to see which joins are being done to build the SQL query.  That's a great window into what your associations are doing behind the scenes (because in the end, it's all about figuring out the correct SQL query to run).
 
@@ -138,7 +138,7 @@ We'll cover polymorphism here but, if your head is really spinning from the othe
 Polymorphic associations can be a bit of a head scratcher at first and aren't terribly common, but are well suited for their use case. They use a big word to describe a pretty straightforward concept -- what if you have a single model that can belong to a bunch of different types of models?  For example, let's say you're building a service like Facebook where users can comment on any of the different types of things posted by other users (like text, pictures, images).  How do you make it okay to comment on all these different types of objects using just a single Comment model?
 
 
-In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture or a Video (or whatever you're commenting on).  You would have a foreign key called something like `post_id` in your Comments table.  Now if we want to be able to comment on multiple types of things, we need to figure out a different way of dealing with the foreign key because a single foreign key could be referencing a post, an image, a video etc and we don't know which one... it's ambiguous.  You could just make a different column for each one, e.g. `post_id`, `image_id`, `video_id`, but that is terribly inelegant and hardcoded (imagine if there were 100 different types of posts we want to be able to comment on!).  We need to stick with a single foreign key column.  
+In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture or a Video (or whatever you're commenting on).  You would have a foreign key called something like `post_id` in your Comments table.  Now if we want to be able to comment on multiple types of things, we need to figure out a different way of dealing with the foreign key because a single foreign key could be referencing a post, an image, a video etc and we don't know which one... it's ambiguous.  You could just make a different column for each one, e.g. `post_id`, `image_id`, `video_id`, but that is terribly inelegant and hardcoded (imagine if there were 100 different types of posts we want to be able to comment on!).  We need to stick with a single foreign key column.
 
 <span id='polymorphic-column-knowledge-check'>We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background as long as it knows you're working with a polymorphic association.</span>
 
@@ -181,7 +181,7 @@ On the other side of the association, you just treat your comment like any other
   end
 ~~~
 
-Rails does the rest of the work for you.  Any time you ask a Picture for all its comments (`Picture.first.comments`), Rails will return just the comments that belong to that picture without you having to worry about anything else.  
+Rails does the rest of the work for you.  Any time you ask a Picture for all its comments (`Picture.first.comments`), Rails will return just the comments that belong to that picture without you having to worry about anything else.
 
 ### Self Joins
 
@@ -276,7 +276,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='#foreign-keys-and-class-names'>What two pieces of information will Rails assume by default for associations?</a> 
+ * <a class='knowledge-check-link' href='#foreign-keys-and-class-names'>What two pieces of information will Rails assume by default for associations?</a>
  * <a class='knowledge-check-link' href='#source-option-knowledge-check'>Which type of association may require the `:source` option to be specified?</a>
  * <a class='knowledge-check-link' href='#automatic-foreign-key-knowledge-check'>What is populated automatically when an object is created by an association?</a>
  * <a class='knowledge-check-link' href='#polymorphic-column-knowledge-check'>Can a polymorphic association use a single column foreign key?</a>

@@ -29,7 +29,7 @@ By the end of this lesson, you should be able to do the following:
 
 #### Warmup
 
-Go back to your 'Library' project and add simple validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done.
+Go back to your 'Library' project and add simple validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done.
 
 #### Project
 
@@ -42,7 +42,7 @@ The form doesn't need to actually submit, but you should give an error message i
 3. Write the simple form elements.
 4. Add the JavaScript code that checks validation as the user progresses through the form.  When a user leaves a form field, it should automatically validate that field.
 5. Test out all possible cases.
-6. Don't forget to style validations with CSS. You can go through our [Form Validation lesson](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/form-validation) for a refresher. 
+6. Don't forget to style validations with CSS. You can go through our [Form Validation lesson](https://www.theodinproject.com/lessons/intermediate-html-and-css-form-validation) for a refresher.
 
 </div>
 

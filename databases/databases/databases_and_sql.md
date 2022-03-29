@@ -52,7 +52,7 @@ Look through these now and then use them to test yourself after doing the assign
 * `ORDER BY`
 * `COUNT`
 
-#### Functions
+#### Functions:
 * `GROUP BY`
 * `HAVING`
 * `AVG`
@@ -61,7 +61,7 @@ Look through these now and then use them to test yourself after doing the assign
 * `MAX`
 * `SUM`
 
-#### Other Stuff
+#### Other Stuff:
 * What are Indexes good for?
 * What's the difference between `WHERE` and `HAVING`?
 
@@ -177,7 +177,7 @@ The next step, once you've had a chance to practice this all in the project, is 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* Odinite Hunter D made his excellent notes into a [GitHub Book on SQL](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which you should totally check out if you want a decent resource.
+* Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
 * [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
 * [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
 * [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.

@@ -102,7 +102,7 @@ Let's take a look at what happens if we give our column and row tracks in the sa
 
 Notice how all of our grid items now fill up the entire width and height of the grid? Neat, right? Now, try resizing that example and see what happens. Even cooler!
 
-We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first two a track size of `2fr` and the remaining three a track a size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
+We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first two a track size of `2fr` and the remaining three a track size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="QWqwwJG" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/QWqwwJG">
@@ -138,7 +138,7 @@ You may have noticed at this point that when you resize the grid as large as pos
 
 When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations.
 
-We learned about `min()` and `max()` in our previous [lesson on CSS functions](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/css-functions), but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
+We learned about `min()` and `max()` in our previous [lesson on CSS functions](https://www.theodinproject.com/lessons/intermediate-html-and-css-css-functions), but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
 
 You can supply as many arguments to these functions as you want:
 

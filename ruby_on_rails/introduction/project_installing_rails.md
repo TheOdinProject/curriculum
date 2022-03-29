@@ -1,6 +1,6 @@
 ### Introduction
 
-If you went through the [Ruby course](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/installing-ruby-ruby-programming) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/installing-ruby-ruby-programming) as you will need Ruby installed before we tackle installing Rails.
+If you went through the [Ruby course](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby) you will have already installed Ruby. But if you haven't done that, then now is the time to [install it](https://www.theodinproject.com/lessons/ruby-installing-ruby) as you will need Ruby installed before we tackle installing Rails.
 
 With Ruby installed, you're all set to install Rails and create our first Rails app to ensure everything went smoothly.
 
@@ -24,7 +24,7 @@ Don't worry if you don't totally understand what you are doing in these next ste
 We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
 
 ~~~bash
-gem install rails 
+gem install rails
 ~~~
 
 Once the installation finishes, you can check if everything went well by restarting your terminal and running the following command:
@@ -39,7 +39,7 @@ This should display the version of Rails installed on your system indicating the
 
 You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to some of the ways that Javascript is bundled requires the usage of Yarn.
 
-Javascript libraries used to be managed through the asset pipeline in previous Rails versions but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks. 
+Javascript libraries used to be managed through the asset pipeline in previous Rails versions but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
 
 Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries for the frameworks that do require bundling and compiling.
 
@@ -80,8 +80,8 @@ Create controllers directory
 Import Stimulus controllers
       append  app/javascript/application.js
 Pin Stimulus
-      append  config/importmap.r
-      
+      append  config/importmap.rb
+
 ~~~
 
 In the above process, Rails created a new directory for us. Let's `cd` into it now:
@@ -153,7 +153,7 @@ This marks the start of your Rails journey! Later on, you'll be able to look bac
 
 Now that you've created your first Rails application, it's time to deploy it so that you can show the whole world! This process will allow you to send a link to people so they can see your app working.
 
-Recall, in the [previous lesson](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson.
+Recall, in the [previous lesson](https://www.theodinproject.com/lessons/ruby-on-rails-preparing-for-deployment) we set up our Heroku account to deploy our web applications. If you have not already done so, go back and complete the lesson.
 
 #### Step 3.1: Create a Heroku Application
 

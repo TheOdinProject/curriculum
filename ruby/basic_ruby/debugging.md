@@ -57,9 +57,9 @@ irb(main):001:1* def isogram?(string)
 irb(main):002:1*   original_length = string.length
 irb(main):003:1*   string_array = string.downcase.split
 irb(main):004:1*   unique_length = string_array.uniq.length
-irb(main):005:1*   
+irb(main):005:1*
 irb(main):006:1*   p unique_length
-irb(main):007:1*   
+irb(main):007:1*
 irb(main):008:1*   original_length == unique_length
 irb(main):009:0> end
 => :isogram?
@@ -74,13 +74,13 @@ irb(main):010:0> isogram?("Odin")
 irb(main):001:1* def isogram?(string)
 irb(main):002:1*   original_length = string.length
 irb(main):003:1*   string_array = string.downcase.split
-irb(main):004:1*   
+irb(main):004:1*
 irb(main):005:1*   p string_array
-irb(main):006:1*   
+irb(main):006:1*
 irb(main):007:1*   unique_length = string_array.uniq.length
-irb(main):008:1*   
+irb(main):008:1*
 irb(main):009:1*   p unique_length
-irb(main):010:1* 
+irb(main):010:1*
 irb(main):011:1*   original_length == unique_length
 irb(main):012:0> end
 => :isogram?
@@ -107,7 +107,7 @@ p []
 ~~~
 
 ### Debugging with Pry-byebug
-[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.  
+[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.
 
 To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
 
@@ -129,7 +129,7 @@ end
 isogram?("Odin")
 ~~~
 
-When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session. 
+When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session.
 
 For example, here `original_length` and `string_array` are in scope. However, `unique_length` is not in scope, because it is written after `binding.pry` and has not been evaluated yet.
 
@@ -155,7 +155,7 @@ yell_greeting("bob")
 
 During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.
 
-Using the same example above, you can use one of pry-byebug's commands to figure out what `name = name.upcase` will return. You won't need to quit the session or add another `binding.pry` beneath it. Enter `next` to step over to the next line.   
+Using the same example above, you can use one of pry-byebug's commands to figure out what `name = name.upcase` will return. You won't need to quit the session or add another `binding.pry` beneath it. Enter `next` to step over to the next line.
 
 ~~~ruby
 [1] pry(main)> name
@@ -166,9 +166,9 @@ Using the same example above, you can use one of pry-byebug's commands to figure
 
      5: def yell_greeting(string)
      6:   name = string
-     7: 
+     7:
      8:   binding.pry
-     9: 
+     9:
     10:   name = name.upcase
  => 11:   greeting = "WASSAP, #{name}!"
     12:   puts greeting
@@ -199,11 +199,11 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
 2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the Configuration inside your VSCode's `launch.json` file. 
-4. If you're having a hard time figuring out how to navigate to your launch.json file in order to change the Configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging). 
+3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the Configuration inside your VSCode's `launch.json` file.
+4. If you're having a hard time figuring out how to navigate to your launch.json file in order to change the Configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
 5. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rbdg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-6. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the <a href='#debugging-with-pry-byebug'>Debugging with pry-byebug</a> Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file. 
-7. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck. 
+6. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the <a href='#debugging-with-pry-byebug'>Debugging with pry-byebug</a> Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
+7. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
 8. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
