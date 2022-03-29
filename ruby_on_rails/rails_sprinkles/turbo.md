@@ -9,10 +9,8 @@ That's where the concept of a **single page application** comes in. This section
 *Look through these now and then use them to test yourself after doing the assignment*
 
 *   What is a SPA?
-*   What is Turbolinks?
 *   What is Hotwire?
 *   What is Turbo and the four components of it?
-*   What is the purpose of Turbo Drive?
 *   When might you use a Turbo Frame?
 *   How do we use Turbo Streams to update our pages?
 *   What do we use Turbo Native for?
@@ -36,108 +34,16 @@ In Rails 7, all new applications include Hotwire by default. Hotwire is actually
 
 The lesson you are reading now is all about Turbo! We will cover Stimulus in another lesson. Strada is a currently unreleased framework that aims to work alongside Turbo to deliver responsive mobile applications. You don't need to worry about Strada for the scope of this course, just be familiar with the name as you will see it mentioned from time-to-time.
 
-#### Turbolinks
-
-Before we can talk about Turbo, we should briefly mention its predecessor, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (it's first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. Turbolinks would keep the current page instance alive and only swap out the content between the `<body>` tags of the document. This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
-
-To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not shorthand for Turbolinks**. They are two different entities. 
-
 ### Turbo
 
 Turbo is the heart of the Hotwire umbrella. The goal of Turbo is to use four different techniques to create the experience of a speedy SPA without having to write any Javascript!
 
 Here is a quick summary of the four Turbo techniques together. As you continue to read this lesson, we will look at each piece more in-depth
 
-1.  **Turbo Drive**: Turbo Drive is the direct ancestor of the previously mentioned Turbolinks. This portion of Turbo is responsible for accelerating link and form submissions by rendering pages using the browser's cache and browsing history.
-2.  **Turbo Frames**: Turbo Frames also help with fast navigation, but for predefined portions of a page. Rather than requesting an entire page, you can define a region of your HTML as a Turbo Frame and replace only the content inside of that region.
+1.  **Turbo Drive**: We already covered this in an earlier lesson.
+2.  **Turbo Frames**: Turbo Frames, like Turbo Drive, also help with fast navigation, but for predefined portions of a page. Rather than requesting an entire page, you can define a region of your HTML as a Turbo Frame and replace only the content inside of that region.
 3.  **Turbo Streams**: Turbo Stream delivers web page changes to instantly insert, update, or remove a region of the webpage. An example of this could be a user creating a new post and that post immediately inserts itself at the top of the post index feed without any refresh or redirection.
 4.  **Turbo Native**: Turbo Native is a technique that allows developers to achieve the same Turbo style transitions on a mobile app for iOS or Android.
-
-### Turbo Drive
-
-As mentioned above, Turbo Drive is the portion of Turbo that accelerates overall page navigation. Turbo Drive watches for when a user clicks a link or submits a form, handles the request being made by the user, and then updates the page for the user without a full reload! This is the default behavior without any set up required. However, it is still important to understand what exactly Turbo Drive is doing in case you need to manually modify or disable its behavior in some portions of your web page.
-
-#### Page Navigation
-
-Turbo Drive defines page navigation as a *visit* to a *location* (URL) with an *action*.
-
-A visit is the navigation lifecycle that begins when a user clicks a link and lasts until the page is rendered. This includes the HTTP request, the user's browser history being updated, restoring the page from cache (if applicable), rendering the final response, and updating the user's scroll position.
-
-There are two kinds of visits:
-
-1.  **Application visit**, a visit with a Drive action of *advance* or *replace*.
-2.  **Restoration visit**, a visit with a Drive action of *restore*.
-
-#### Application Visit
-
-The application visit lifecycle can be summarized as:
-
-1.  Application visits begin when a user clicks a Turbo Drive enabled link (remember, Turbo Drive is enabled on links by default!).
-1.  An HTTP network request is issued. Turbo Drive receives it and will render the HTML.
-1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins, using the html for the previous visit of the same URL.
-1.  The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.
-    * **Advance**: This is the default action and will result in a new entry being added to the browser history.
-    * **Replace**: This action replaces the most recent browser history entry with the new location.
-
-To change the action of a Turbo Drive link, you can use data attributes inside of your Rails link tags
-
-~~~erb
-<%= link_to "Edit Article", edit_article_path(@article), data: { turbo_action: "replace" } %>
-~~~
-
-which will generate:
-
-~~~html
-<a href="..." data-turbo-action="replace">Edit Article</a>
-~~~
-
-
-#### Restoration Visit
-
-The restoration visit lifecycle can be summarized as:
-
-1.  Restoration visits begin when the user navigates using the browser's forward & back buttons
-1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins. Otherwise, it will retrieve a fresh copy of the page over the network
-1.  The browser's scroll position is saved on every page before navigating away and will return to this saved position.
-
-Restoration visits are visits with the action of *restore*. This is used by Turbo Drive internally and you **should not** annotate a link with an action of restore.
-
-#### HTTP Request Methods
-
-By default, link clicks are sent with `GET` requests. However, Turbo Drive will scan `<a>` tags in your application for the `turbo-method` attribute to override the `GET` action. 
-
-For instance:
-
-~~~erb
-<%= link_to "Delete Article", article_path(@article), data: { turbo_method: "delete" }  %>
-~~~
-
-which will generate:
-
-~~~html
-<a href="..." data-turbo-method="delete">Delete Article</a>
-~~~
-
-This creates a link that will use the `DELETE` method. However, it is suggested that you use a button or form for anything that isn't a `GET` request
-
-#### Disable Turbo Drive
-
-There will be times where you do not want Turbo Drive to control navigation and want a full page reset.
-
-You can disable Turbo Drive by adding `data-turbo="false` directly on your links or on the parent containing them.
-
-For instance:
-
-~~~erb
-<div data-turbo="false">
-  <%= link_to "foo", "bar" %>
-  <%= link_to "baz", "qux", data: { turbo: "true" } %>
-</div>
-~~~
-
-In the above example, we created a parent div with `data-turbo="false"`, which disables Turbo Drive on all elements inside of it. However, we also added `data: { turbo: "true" }` to the second `link_to`. This will turn Turbo Drive back on for that particular element.
-
-This showcases that you can disable and re-enable Turbo Drive in regions of your website and select specific elements to enable or disable it on. Remember that when using ERB tags (like `link_to`) we use the syntax style of `data: { foo: "bar" }` rather than the HTML style of `data-foo="bar"`
 
 ### Turbo Frames
 
@@ -465,13 +371,6 @@ The final piece of Turbo is something that you don't need to know much about for
   <summary>What is Hotwire?</summary>
 
   *   Hotwire is the umbrella term for the Rails SPA suite containing Turbo, Stimulus, & Strada.
-
-</details>
-
-<details markdown="block">
-  <summary>What purpose does Turbo Drive serve?</summary>
-
-  *   Turbo Drive assists in speeding up page navigation by intercepting requests made by the user and updating the page with the requested content rather than sending a complete fresh page. It also speeds up loading by using the browser's cache when possible.
 
 </details>
 

@@ -69,7 +69,7 @@ Let's see it in code:
         redirect_to post_path(@post.id) # go to show page for @post
       else
         # code to set up error message
-        render :new
+        render :new, status: :unprocessable_entity
       end
     end
   end
@@ -143,7 +143,7 @@ So our `#create` action above can now be filled out a bit more:
         redirect_to post_path(@post.id) # go to show page for @post
       else
         # code to set up error message
-        render :new
+        render :new, status: :unprocessable_entity
       end
     end
 
@@ -187,7 +187,7 @@ Now the full controller code can be written out for our `#create` action:
         redirect_to @post # go to show page for @post
       else
         flash.now[:error] = "Rats! Fix your mistakes, please."
-        render :new
+        render :new, status: :unprocessable_entity
       end
     end
 
