@@ -16,7 +16,7 @@ _Finally_, feel free to substitute your own content into this design. The images
 
 ### Setting up your project's GitHub repository
 
-As we did in the Recipe project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the recipe project if you need a reminder on how to set it up.
+As we did in the Recipe project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the [recipe project](https://www.theodinproject.com/lessons/foundations-recipes) if you need a reminder on how to set it up.
 
 ### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
 
