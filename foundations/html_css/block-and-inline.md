@@ -1,5 +1,5 @@
-### Introduction
-The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models, and that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
+  ### Introduction
+The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models and that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
 
 ### Learning Outcomes
 * You'll learn about "Normal flow."
