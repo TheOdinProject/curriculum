@@ -7,7 +7,6 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     if @user.persisted?
       @user.remember_me = true
       sign_in_and_redirect @user
-      set_flash_message(:notice, :success, kind: provider_title)
     else
       session['devise.github_data'] = auth
       redirect_to new_user_registration_url
@@ -20,10 +19,6 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
   private
-
-  def provider_title
-    auth.provider.capitalize
-  end
 
   def update_users_avatar
     @user.update!(avatar: avatar_from_provider)
