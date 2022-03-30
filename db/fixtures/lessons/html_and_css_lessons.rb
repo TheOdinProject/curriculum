@@ -5,56 +5,56 @@ def html_and_css_lessons
       title: 'Introduction to Web Accessibility',
       description: 'Learn what accessibility means to you as a web developer',
       is_project: false,
-      url: '/html_css/accessibility/web_accessibility.md',
+      url: '/advanced_html_css/accessibility/introduction_to_web_accessibility.md',
       identifier_uuid: '77a24bd6-4023-4901-8b4e-b9d7d12fa349',
     },
     'The Web Content Accessibility Guidelines' => {
       title: 'The Web Content Accessibility Guidelines (WCAG)',
       description: 'Learn where to find and how to use the official guidelines for web content accessibility',
       is_project: false,
-      url: '/html_css/accessibility/wcag.md',
+      url: '/advanced_html_css/accessibility/the_web_content_accessibility_guidelines_wcag.md',
       identifier_uuid: 'b2e7a279-01cf-4926-b375-fedb5b7e9eed',
     },
     'Semantic HTML' => {
       title: 'Semantic HTML',
       description: 'Learn the importance of using the right elements in the right places.',
       is_project: false,
-      url: '/html_css/accessibility/semantic_html.md',
+      url: '/advanced_html_css/accessibility/semantic_html.md',
       identifier_uuid: '44c955e2-43ae-4f07-a0a4-7efabee6515c',
     },
     'Accessible Colors' => {
       title: 'Accessible Colors',
       description: 'Learn how to measure color contrast to maintain readability on your websites.',
       is_project: false,
-      url: '/html_css/accessibility/accessible_colors.md',
+      url: '/advanced_html_css/accessibility/accessible_colors.md',
       identifier_uuid: 'cf510d74-cf6e-4394-a44a-958d921235a9',
     },
     'Keyboard Navigation' => {
       title: 'Keyboard Navigation',
       description: 'Learn how to ensure all users are able to access your site using only a keyboard.',
       is_project: false,
-      url: '/html_css/accessibility/keyboard_navigation.md',
+      url: '/advanced_html_css/accessibility/keyboard_navigation.md',
       identifier_uuid: 'cb8acac5-3334-4f88-8e8f-3542cfba84ab',
     },
     'Meaningful Text' => {
       title: 'Meaningful Text',
       description: 'Learn the importance of being clear when labeling items on your website.',
       is_project: false,
-      url: '/html_css/accessibility/meaningful_text.md',
+      url: '/advanced_html_css/accessibility/meaningful_text.md',
       identifier_uuid: '4d038307-3c21-47da-af3d-42e4be68ea8a',
     },
     'WAI-ARIA' => {
       title: 'WAI-ARIA',
       description: "Learn about ARIA, how to implement it, and when it's necessary.",
       is_project: false,
-      url: '/html_css/accessibility/aria.md',
+      url: '/advanced_html_css/accessibility/wai_aria.md',
       identifier_uuid: '40aeff0e-bf1d-46b7-830a-d5001e6c0b2e',
     },
     'Accessibility Auditing' => {
       title: 'Accessibility Auditing',
       description: 'Learn how to audit your own sites to check for and correct accessibility issues.',
       is_project: false,
-      url: '/html_css/accessibility/accessibility_auditing.md',
+      url: '/advanced_html_css/accessibility/accessibility_auditing.md',
       identifier_uuid: 'ccb3b2ef-d54c-4836-9c94-6081458bf37c',
     },
     # Intermediate HTML
@@ -185,21 +185,21 @@ def html_and_css_lessons
       title: 'Transforms',
       description: 'Before we get into animations, we need to learn about manipulating elements with CSS transforms.',
       is_project: false,
-      url: '/html_css/animation/transforms.md',
+      url: '/advanced_html_css/animation/transforms.md',
       identifier_uuid: 'bdd2e3ef-da70-4aa3-88ab-e941f0714a9b'
     },
     'Transitions' => {
       title: 'Transitions',
       description: 'Our first kind of animation code is the transition',
       is_project: false,
-      url: '/html_css/animation/transitions.md',
+      url: '/advanced_html_css/animation/transitions.md',
       identifier_uuid: 'aec495c8-24b9-4678-9216-9a92f1b118ed'
     },
     'Keyframes' => {
       title: 'Keyframes',
       description: 'More flexible than transitions are Keyframes',
       is_project: false,
-      url: '/html_css/animation/keyframes.md',
+      url: '/advanced_html_css/animation/keyframes.md',
       identifier_uuid: 'b57040da-48a4-4af6-9e0e-abc67deb3b07'
     },
     # Grid
@@ -252,28 +252,28 @@ def html_and_css_lessons
       title: 'Introduction to Responsive Design',
       description: "Learn what responsive design is, and why it's important",
       is_project: false,
-      url: '/html_css/responsive-css/responsive-css-introduction.md',
+      url: '/advanced_html_css/responsive_design/introduction_to_responsive_design.md',
       identifier_uuid: '5af1f6bf-8719-4897-8efe-ff47e8bf5342'
     },
     'Natural Responsiveness' => {
       title: 'Natural Responsiveness',
       description: 'Learn the importance of making your sites naturally responsive.',
       is_project: false,
-      url: '/html_css/responsive-css/natural-responsiveness.md',
+      url: '/advanced_html_css/responsive_design/natural_responsiveness.md',
       identifier_uuid: 'b86ae699-a4b3-4894-b438-6274b52fea27'
     },
     'Responsive Images' => {
       title: 'Responsive Images',
       description: 'Some tricks relating specifically to making Images responsive.',
       is_project: false,
-      url: '/html_css/responsive-css/responsive-images.md',
+      url: '/advanced_html_css/responsive_design/responsive_images.md',
       identifier_uuid: 'b34f989f-5f53-45dc-a457-4c2ca9a0e20a'
     },
     'Media Queries' => {
       title: 'Media Queries',
       description: "Finally, let's learn about media queries so you can change the layout of your site based on the size of the browser window.",
       is_project: false,
-      url: '/html_css/responsive-css/media-queries.md',
+      url: '/advanced_html_css/responsive_design/media_queries.md',
       identifier_uuid: '61698363-3d2e-4f25-99d5-29ccdefdc856'
     },
     'Personal Portfolio' => {
@@ -282,7 +282,7 @@ def html_and_css_lessons
       is_project: true,
       accepts_submission: true,
       has_live_preview: true,
-      url: '/html_css/project_portfolio/project-portfolio.md',
+      url: '/advanced_html_css/responsive_design/project_personal_portfolio.md',
       identifier_uuid: 'd99b0c9d-cc6c-44e6-bab0-1c9a83edcfa3'
     },
   }
