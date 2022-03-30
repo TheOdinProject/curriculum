@@ -1,5 +1,5 @@
   ### Introduction
-The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models and that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
+The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models. It also mentions that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
 
 ### Learning Outcomes
 * You'll learn about "Normal flow."
@@ -15,9 +15,9 @@ Inline elements, however, do not start on a new line. They appear in line with w
 Inline-block elements behave like inline elements, but with block-style padding and margin. Inline-block is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
 ### Divs and Spans
-We can't talk about the block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser the text it contains is to be displayed as a paragraph, and strong elements tell the browser the text within is important etc. Divs and spans, on the other hand, give no particular meaning to their content. They are just generic boxes that can contain anything.
+We can't talk about the block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, Divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
 
-Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements we can give an id or class so we can target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to position them on the page correctly. Divs and spans provide us with the ability to do this.
+Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements. We can give an id or class to target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to correctly position them on the page. Divs and spans provide us with the ability to do this.
 
 Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to _divide_ the page into different blocks and apply styling to those blocks.
 
@@ -28,7 +28,7 @@ Div is a block-level element by default. It is commonly used as a container elem
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Span is an inline-level element by default. It is commonly used to group text content and inline HTML elements so we can apply styling to them.
+Span is an inline-level element by default. It is generally used to group text content and inline HTML elements to apply styling to them.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abLLPor" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abLLPor">
