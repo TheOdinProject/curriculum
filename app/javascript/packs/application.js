@@ -31,7 +31,6 @@ import '../src/js/formValidations';
 import '../src/js/lessons';
 import '../src/js/bootstrapScripts';
 import '../src/js/settings';
-import '../src/js/admin_flash';
 import '../src/js/scrollspy.min';
 
 import 'controllers';
