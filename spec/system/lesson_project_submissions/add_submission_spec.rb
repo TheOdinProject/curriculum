@@ -25,7 +25,7 @@ RSpec.describe 'Add a Project Submission', type: :system do
       expect(page).to have_no_button('Add Solution')
     end
 
-    context 'setting a submission as private' do
+    context 'when setting a submission as private' do
       it 'will display the submission for the submission owner but not for other users' do
         form = Pages::ProjectSubmissions::Form.new.open.fill_in
 

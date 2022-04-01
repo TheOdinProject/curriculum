@@ -38,7 +38,7 @@ RSpec.describe ApplicationHelper do
     end
   end
 
-  context 'course progress' do
+  describe 'course progress' do
     let(:user) { double('User') }
     let(:course) { double('Course') }
     let(:course_progress) { double('CourseProgress') }

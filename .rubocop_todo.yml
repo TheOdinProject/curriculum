@@ -43,20 +43,6 @@ RSpec/Capybara/VisibilityMatcher:
   Exclude:
     - 'spec/system/all_lesson_project_submissions_spec.rb'
 
-# Offense count: 11
-# Configuration parameters: Prefixes.
-# Prefixes: when, with, without
-RSpec/ContextWording:
-  Exclude:
-    - 'spec/helpers/application_helper_spec.rb'
-    - 'spec/jobs/discard_project_submission_job_spec.rb'
-    - 'spec/models/lesson_spec.rb'
-    - 'spec/system/lesson_navigation_spec.rb'
-    - 'spec/system/lesson_project_submissions/add_submission_spec.rb'
-    - 'spec/system/select_path_spec.rb'
-    - 'spec/system/user_account_spec.rb'
-    - 'spec/system/user_login_spec.rb'
-
 # Offense count: 2
 # Configuration parameters: IgnoredMetadata.
 RSpec/DescribeClass:

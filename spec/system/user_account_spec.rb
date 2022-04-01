@@ -15,8 +15,8 @@ RSpec.describe 'User Accounts', type: :system do
     visit edit_user_registration_path
   end
 
-  describe('editing profile details') do
-    context 'updating a valid name and email address' do
+  describe 'editing profile details' do
+    context 'when updating with a valid name and email address' do
       it 'updates successfully' do
         expect(find(:test_id, 'settings-view-username').text).to eq 'Jeremy Beagle'
         expect(find(:test_id, 'settings-view-email')).to have_content 'jezza@beagle.com'
@@ -36,7 +36,7 @@ RSpec.describe 'User Accounts', type: :system do
     end
   end
 
-  describe('editing the learning goal') do
+  describe 'editing the learning goal' do
     it 'saves the changes' do
       expect(find(:test_id, 'settings-view-learning-goal')).to have_content 'Javascript'
 
@@ -51,7 +51,7 @@ RSpec.describe 'User Accounts', type: :system do
     end
   end
 
-  describe('clicking the delete account link') do
+  describe 'clicking the delete account link' do
     context 'when the user confirms to proceed' do
       it 'deletes their account' do
         expect do

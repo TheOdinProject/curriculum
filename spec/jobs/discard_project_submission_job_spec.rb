@@ -4,7 +4,7 @@ RSpec.describe DiscardProjectSubmissionJob, type: :job do
   subject(:job) { described_class.new }
 
   describe '#perform' do
-    context 'if the project_submission hasn\'t been updated for more than 7 days' do
+    context "when the project_submission hasn't been updated for more than 7 days" do
       let!(:project_submission) { create(:project_submission, discard_at: 7.days.from_now) }
 
       it 'discards the project_submission' do

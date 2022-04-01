@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'User login', type: :system do
   let!(:user) { create(:user, email: 'odinstudent@example.com') }
 
-  context 'using an email and password' do
+  context 'when using an email and password' do
     context 'with valid credentials' do
       it 'allows the user to sign in' do
         visit root_path

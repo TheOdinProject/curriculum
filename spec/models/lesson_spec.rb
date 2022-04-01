@@ -42,16 +42,14 @@ RSpec.describe Lesson do
   end
 
   describe 'slug' do
-    context 'by default' do
-      it 'returns the course and lesson title as the slug' do
-        course = create(:course, title: 'course title')
-        lesson = create(:lesson, title: 'lesson title', course: course)
+    it 'returns the course and lesson title as the slug' do
+      course = create(:course, title: 'course title')
+      lesson = create(:lesson, title: 'lesson title', course: course)
 
-        expect(lesson.slug).to eql('course-title-lesson-title')
-      end
+      expect(lesson.slug).to eql('course-title-lesson-title')
     end
 
-    context 'for lesson shared across paths' do
+    context 'when lesson is shared across paths' do
       it 'returns the path, course and lesson title as the slug' do
         path = create(:path, short_title: 'path title')
         course = create(:course, title: 'course title', path: path)

@@ -11,7 +11,7 @@ RSpec.describe 'Navigating Lessons', type: :system do
   end
 
   describe 'the next lesson button' do
-    context 'within the same section' do
+    context 'when the next lesson is within the same section' do
       let!(:next_lesson) { create(:lesson, position: 2, section: section) }
 
       it 'moves to the next lesson in the section when clicked' do
@@ -34,7 +34,7 @@ RSpec.describe 'Navigating Lessons', type: :system do
       end
     end
 
-    context 'on last lesson in the course' do
+    context 'when on last lesson in the course' do
       it 'should not be present' do
         visit lesson_path(lesson)
 
