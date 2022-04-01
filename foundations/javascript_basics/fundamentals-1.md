@@ -1,7 +1,8 @@
 Let's dive right in to JavaScript!
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * How do you declare a variable?
 * What are three different ways to declare a variable?
@@ -98,18 +99,19 @@ This section contains helpful links to other content. It isn't required, so cons
 [Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable?</a>
 * <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder"> How does the `%` operator work?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp"> Explain the difference between `==` and `===`.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the `%` operator work?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between `==` and `===`.</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and post-fixing increment/decrement operators.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#operator-precedence">What is operator precedence and how is it handled in JS?</a>
-* <a class="knowledge-check-link" href="#access-devTools-console"> How do you access developer tools and the console?</a>
+* <a class="knowledge-check-link" href="#access-devTools-console">How do you access developer tools and the console?</a>
 * <a class="knowledge-check-link" href="#console-log">How do you log information to the console?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus operator do to string representations of integers?</a>
