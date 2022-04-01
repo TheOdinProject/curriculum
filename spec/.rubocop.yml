@@ -3,3 +3,14 @@ inherit_from:
 
 Metrics/BlockLength:
   Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/ExpectChange:
+  EnforcedStyle: block
+
+RSpec/MultipleExpectations:
+  Max: 3
+  Exclude:
+    - 'system/**/*'
