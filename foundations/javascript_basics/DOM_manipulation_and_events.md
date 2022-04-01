@@ -370,7 +370,6 @@ Some useful events include:
 
 - click
 - dblclick
-- keypress
 - keydown
 - keyup
 
