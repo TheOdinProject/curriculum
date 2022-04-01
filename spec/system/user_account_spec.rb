@@ -58,7 +58,7 @@ RSpec.describe 'User Accounts', type: :system do
           accept_confirm do
             find(:test_id, 'user-account-delete-link').click
           end
-        end.to change(User, :count).by(-1)
+        end.to change { User.count }.by(-1)
 
         expect(page).to have_current_path(new_user_session_path)
         expect(find(:test_id, 'flash'))

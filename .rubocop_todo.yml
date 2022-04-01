@@ -99,17 +99,6 @@ RSpec/ExcessiveDocstringSpacing:
   Exclude:
     - 'spec/models/user_spec.rb'
 
-# Offense count: 10
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: method_call, block
-RSpec/ExpectChange:
-  Exclude:
-    - 'spec/models/point_spec.rb'
-    - 'spec/requests/api/points_spec.rb'
-    - 'spec/services/admin/flags/notify_user_spec.rb'
-    - 'spec/system/user_account_spec.rb'
-
 # Offense count: 4
 # This cop supports safe auto-correction (--auto-correct).
 RSpec/FactoryBot/SyntaxMethods:

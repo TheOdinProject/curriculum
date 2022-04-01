@@ -10,23 +10,23 @@ RSpec.describe Point do
     let(:user_points) { Point.create(discord_id: '1234') }
 
     it 'increments the points by 1' do
-      expect { user_points.increment_points_by(1) }.to change(user_points, :points).from(0).to(1)
+      expect { user_points.increment_points_by(1) }.to change { user_points.reload.points }.from(0).to(1)
     end
 
     it 'increments the points by 2' do
-      expect { user_points.increment_points_by(2) }.to change(user_points, :points).from(0).to(2)
+      expect { user_points.increment_points_by(2) }.to change { user_points.reload.points }.from(0).to(2)
     end
 
     it 'increments the points by 5' do
-      expect { user_points.increment_points_by(5) }.to change(user_points, :points).from(0).to(5)
+      expect { user_points.increment_points_by(5) }.to change { user_points.reload.points }.from(0).to(5)
     end
 
     it 'does not increment the points by 0' do
-      expect { user_points.increment_points_by(0) }.not_to change(user_points, :points)
+      expect { user_points.increment_points_by(0) }.not_to change { user_points.reload.points }
     end
 
     it 'does not increment the points by 6' do
-      expect { user_points.increment_points_by(6) }.not_to change(user_points, :points)
+      expect { user_points.increment_points_by(6) }.not_to change { user_points.reload.points }
     end
   end
 end
