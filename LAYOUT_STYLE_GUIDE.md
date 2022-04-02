@@ -165,6 +165,18 @@ Headings should always use [Wikipedia Style Title Case](https://titlecaseconvert
 
 You can use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Wikipedia Title Case; just select the Wikipedia "Styles" option.
 
+### No Code Snippets
+
+Headings should never contain any code snippets.
+
+```markdown
+<!-- Wrong -->
+### The `id` Property
+
+<!-- Right -->
+### The id Property
+```
+
 ### ATX-style headings
 
 Use Heading 3 `###`  for main section titles ("Lesson Overview", "Assignment", custom sections, etc):
