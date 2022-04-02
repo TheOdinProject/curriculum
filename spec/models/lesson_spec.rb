@@ -104,9 +104,9 @@ RSpec.describe Lesson do
     let(:third_lesson) { create(:lesson, position: 3, section: section) }
 
     it 'returns the position of the lesson in the section' do
-      expect(first_lesson.position_in_section).to eql(1)
-      expect(second_lesson.position_in_section).to eql(2)
-      expect(third_lesson.position_in_section).to eql(3)
+      expect(first_lesson.position_in_section).to be(1)
+      expect(second_lesson.position_in_section).to be(2)
+      expect(third_lesson.position_in_section).to be(3)
     end
   end
 

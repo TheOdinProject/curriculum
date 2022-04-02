@@ -50,7 +50,7 @@ module Api
 
         it 'returns a 200 status code' do
           get :index, params: params
-          expect(response.status).to eql(200)
+          expect(response.status).to be(200)
         end
 
         it 'renders serialized courses in json format' do
@@ -75,7 +75,7 @@ module Api
       context 'when not authenticated' do
         it 'does not allow access' do
           get :index, params: params
-          expect(response.status).to eql(401)
+          expect(response.status).to be(401)
         end
       end
     end

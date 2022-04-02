@@ -11,7 +11,7 @@ RSpec.describe UserMailer, type: :mailer do
     end
 
     it 'includes an attachment' do
-      expect(welcome_email.attachments.count).to eql(1)
+      expect(welcome_email.attachments.count).to eq(1)
     end
 
     it 'renders the correct attachment' do

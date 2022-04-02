@@ -35,7 +35,7 @@ RSpec.describe NextLesson do
       end
 
       it 'returns nil' do
-        expect(next_lesson.to_complete).to eq(nil)
+        expect(next_lesson.to_complete).to be_nil
       end
     end
   end

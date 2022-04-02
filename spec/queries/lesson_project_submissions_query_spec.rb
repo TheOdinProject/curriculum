@@ -18,7 +18,7 @@ RSpec.describe LessonProjectSubmissionsQuery do
 
     context 'when the current user is present and they do not have a submission' do
       it 'returns nil' do
-        expect(query.current_user_submission).to eq(nil)
+        expect(query.current_user_submission).to be_nil
       end
     end
 
@@ -26,7 +26,7 @@ RSpec.describe LessonProjectSubmissionsQuery do
       let(:current_user) { nil }
 
       it 'returns nil' do
-        expect(query.current_user_submission).to eq(nil)
+        expect(query.current_user_submission).to be_nil
       end
     end
   end

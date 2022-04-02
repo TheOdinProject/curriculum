@@ -6,25 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 6
-# This cop supports safe auto-correction (--auto-correct).
-RSpec/BeEq:
-  Exclude:
-    - 'spec/helpers/application_helper_spec.rb'
-    - 'spec/queries/lesson_project_submissions_query_spec.rb'
-    - 'spec/services/next_lesson_spec.rb'
-
-# Offense count: 12
-# This cop supports safe auto-correction (--auto-correct).
-RSpec/BeEql:
-  Exclude:
-    - 'spec/controllers/api/lesson_completions_controller_spec.rb'
-    - 'spec/helpers/application_helper_spec.rb'
-    - 'spec/mailers/user_mailer_spec.rb'
-    - 'spec/models/lesson_spec.rb'
-    - 'spec/services/discord_notifier_spec.rb'
-    - 'spec/services/find_lesson_spec.rb'
-
 # Offense count: 2
 # This cop supports safe auto-correction (--auto-correct).
 RSpec/BeNil:

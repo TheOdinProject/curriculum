@@ -9,7 +9,7 @@ RSpec.describe DiscordNotifier do
     it 'sends the notification to discord' do
       VCR.use_cassette('discord_notification', record: :once, match_requests_on: [:method]) do
         response = described_class.notify(notification)
-        expect(response.code).to eql(204)
+        expect(response.code).to be(204)
       end
     end
   end

@@ -58,13 +58,13 @@ RSpec.describe ApplicationHelper do
 
       describe '#course_completed_by_user?' do
         it 'returns false' do
-          expect(helper.course_completed_by_user?(course, user)).to eq(false)
+          expect(helper.course_completed_by_user?(course, user)).to be(false)
         end
       end
 
       describe '#percentage_completed_by_user' do
         it 'returns 0' do
-          expect(helper.percentage_completed_by_user(course, user)).to eql(0)
+          expect(helper.percentage_completed_by_user(course, user)).to be(0)
         end
       end
 
@@ -86,13 +86,13 @@ RSpec.describe ApplicationHelper do
 
       describe '#course_completed_by_user?' do
         it 'returns false' do
-          expect(helper.course_completed_by_user?(course, user)).to eq(false)
+          expect(helper.course_completed_by_user?(course, user)).to be(false)
         end
       end
 
       describe '#percentage_completed_by_user' do
         it 'returns 30' do
-          expect(helper.percentage_completed_by_user(course, user)).to eql(30)
+          expect(helper.percentage_completed_by_user(course, user)).to be(30)
         end
       end
 
@@ -114,13 +114,13 @@ RSpec.describe ApplicationHelper do
 
       describe '#course_completed_by_user?' do
         it 'returns true' do
-          expect(helper.course_completed_by_user?(course, user)).to eq(true)
+          expect(helper.course_completed_by_user?(course, user)).to be(true)
         end
       end
 
       describe '#percentage_completed_by_user' do
         it 'returns 100' do
-          expect(helper.percentage_completed_by_user(course, user)).to eql(100)
+          expect(helper.percentage_completed_by_user(course, user)).to be(100)
         end
       end
 
