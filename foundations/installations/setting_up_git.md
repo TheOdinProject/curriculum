@@ -180,3 +180,9 @@ Follow the directions in [this article from GitHub](https://help.github.com/en/a
 You've completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!
 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
