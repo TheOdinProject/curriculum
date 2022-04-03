@@ -1,7 +1,10 @@
 ### Introduction
 So here it is: it's time to actually start _making things_. This section will teach you the basics of HTML and CSS, the two foundational building blocks of pretty much everything on the web.
 
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
 * Get a basic overview of HTML, CSS and how they work together.
 
 ### HTML and CSS
@@ -21,7 +24,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * Bookmark [DevDocs.io](https://devdocs.io). Read the “Welcome” message. Massive API documentation collection that even works offline. An essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://freecodecamp.org))
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
 * <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
