@@ -37,7 +37,7 @@ Use LinkedIn if you're not allergic to it.  Again, this is about getting your pe
 Other sites, like Brand Yourself below, will describe a bit better how to take on your web presence, but just make sure your narrative is being told the way you want it to.
 
 * [Brand Yourself helps you... brand... yourself.  Basic services are free.](http://brandyourself.com)
-* [Control Your Online Reputation from Monster](http://career-advice.monster.com/job-search/getting-started/control-your-online-reputation/article.aspx)
+* [Control Your Online Reputation from Monster](https://web.archive.org/web/20201123201302/https://www.monster.com/career-advice/article/control-your-online-reputation)
 * [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence)
 * [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab)
 
