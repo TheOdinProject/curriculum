@@ -1,8 +1,9 @@
 ### Introduction
 There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Name the eight data types in JavaScript.
 * Understand the difference between single, double, and backtick quotes.
@@ -57,14 +58,15 @@ This section contains helpful links to other content. It isn't required, so cons
 * [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="https://javascript.info/types#summary">What are the eight data types in JavaScript?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/types#objects-and-symbols">Which data type is NOT primitive?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/types#the-null-value">What is the relationship between null and undefined?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#single_quotes_vs._double_quotes">What is the difference between single, double, and backtick quotes for strings?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings"> What is the term for embedding variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings"> Which type of quote lets you embed variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">What is the term for embedding variables/expressions in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">Which type of quote lets you embed variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">How do you embed variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you escape characters in a string?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between the slice/substring/substr string methods?</a>

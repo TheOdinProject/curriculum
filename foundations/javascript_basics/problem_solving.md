@@ -16,8 +16,9 @@ The best way to improve your problem solving ability is by building experience b
 
 In this lesson we will walk through a few techniques that can be used to help with the problem solving process.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Explain the three steps in the problem solving process.
 * Explain what pseudocode is and be able to use it to solve problems.
@@ -245,7 +246,8 @@ This section contains helpful links to other content. It isn't required, so cons
 * Watch this [video on repetitive programming techniques](https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/resources/basic-programming-techniques/).
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
 * <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
