@@ -93,7 +93,7 @@ RSpec.describe User do
 
     context 'when the user does not have any completed lessons' do
       it 'returns nil' do
-        expect(user.latest_completed_lesson).to be(nil)
+        expect(user.latest_completed_lesson).to be_nil
       end
     end
   end

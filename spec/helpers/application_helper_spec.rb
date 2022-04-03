@@ -9,7 +9,7 @@ RSpec.describe ApplicationHelper do
 
     context 'when there is no input' do
       it 'returns nil' do
-        expect(title).to be nil
+        expect(title).to be_nil
       end
     end
   end

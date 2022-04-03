@@ -20,7 +20,7 @@ RSpec.describe 'View all Project Submissions for a Lesson', type: :system do
       click_on('Next')
 
       within(:test_id, 'submissions-list') do
-        expect(page).to have_selector('[data-test-id="submission-item"]', count: 5, visible: false)
+        expect(page).to have_selector('[data-test-id="submission-item"]', count: 5, visible: :all)
       end
     end
   end

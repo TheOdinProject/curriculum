@@ -7,24 +7,6 @@
 # versions of RuboCop, may require this file to be generated again.
 
 # Offense count: 2
-# This cop supports safe auto-correction (--auto-correct).
-RSpec/BeNil:
-  Exclude:
-    - 'spec/helpers/application_helper_spec.rb'
-    - 'spec/models/user_spec.rb'
-
-# Offense count: 2
-RSpec/BeforeAfterAll:
-  Exclude:
-    - 'spec/tasks/curriculum_spec.rb'
-    - 'spec/tasks/project_submissions_spec.rb'
-
-# Offense count: 1
-RSpec/Capybara/VisibilityMatcher:
-  Exclude:
-    - 'spec/system/all_lesson_project_submissions_spec.rb'
-
-# Offense count: 2
 # Configuration parameters: IgnoredMetadata.
 RSpec/DescribeClass:
   Exclude:
