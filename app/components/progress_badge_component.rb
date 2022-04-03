@@ -1,16 +1,22 @@
 class ProgressBadgeComponent < ViewComponent::Base
+  RADIUS = 9
+
   delegate :user_signed_in?, :percentage_completed_by_user, to: :helpers
 
-  def initialize(course:, current_user:, url:, modifier: '')
+  def initialize(course:, current_user:, url:, show_badge: true)
     @course = course
     @current_user = current_user
-    @modifier = modifier
     @url = url
+    @show_badge = show_badge
   end
 
   private
 
-  attr_reader :course, :current_user, :modifier, :url
+  attr_reader :course, :current_user, :url, :show_badge
+
+  def circumference
+    RADIUS * 2 * Math::PI
+  end
 
   def badge
     course_badges.fetch(course.title, 'icons/odin-icon.svg')
@@ -18,6 +24,14 @@ class ProgressBadgeComponent < ViewComponent::Base
 
   def borderless_badge
     borderless_badges.fetch(course.title, 'icons/odin-icon.svg')
+  end
+
+  def show_badge?
+    if show_badge || current_user.progress_for(course).completed?
+      'visible'
+    else
+      'invisible'
+    end
   end
 
   # rubocop:disable Metrics/MethodLength

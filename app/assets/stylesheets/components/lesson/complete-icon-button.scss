@@ -29,7 +29,7 @@
   }
 
   &--completed {
-    color: $success-color;
+    color: $button-primary;
     opacity: 0.9;
     animation: complete .6s 1 alternate;
 

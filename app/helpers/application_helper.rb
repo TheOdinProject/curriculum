@@ -206,14 +206,6 @@ module ApplicationHelper
     NextLesson.new(course, completed_lessons).to_complete
   end
 
-  def modifier_for_badge(course, user)
-    if course_completed_by_user?(course, user)
-      'progress-circle--completed'
-    else
-      'progress-circle--show-progress'
-    end
-  end
-
   def unread_notifications?(user)
     user.notifications.any?(&:unread?)
   end

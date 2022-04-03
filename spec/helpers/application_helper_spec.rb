@@ -67,12 +67,6 @@ RSpec.describe ApplicationHelper do
           expect(helper.percentage_completed_by_user(course, user)).to be(0)
         end
       end
-
-      describe '#modifier_for_badge' do
-        it 'returns the course show progress modifier for the course badge' do
-          expect(helper.modifier_for_badge(course, user)).to eql('progress-circle--show-progress')
-        end
-      end
     end
 
     context 'when user has started the course' do
@@ -95,12 +89,6 @@ RSpec.describe ApplicationHelper do
           expect(helper.percentage_completed_by_user(course, user)).to be(30)
         end
       end
-
-      describe '#modifier_for_badge' do
-        it 'returns the course show progress modifier for the course badge' do
-          expect(helper.modifier_for_badge(course, user)).to eql('progress-circle--show-progress')
-        end
-      end
     end
 
     context 'when user has completed the course' do
@@ -121,12 +109,6 @@ RSpec.describe ApplicationHelper do
       describe '#percentage_completed_by_user' do
         it 'returns 100' do
           expect(helper.percentage_completed_by_user(course, user)).to be(100)
-        end
-      end
-
-      describe '#modifier_for_badge' do
-        it 'returns the course completed modifier for the course badge' do
-          expect(helper.modifier_for_badge(course, user)).to eql('progress-circle--completed')
         end
       end
     end

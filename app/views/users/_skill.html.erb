@@ -3,8 +3,8 @@
     <%= render ProgressBadgeComponent.new(
       course: course,
       current_user: current_user,
-      modifier: modifier_for_badge(course, current_user) ,
-      url: courses_progress_path(course.id)
+      url: courses_progress_path(course.id),
+      show_badge: false,
     )%>
   </div>
 

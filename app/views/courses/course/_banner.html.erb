@@ -1,14 +1,13 @@
-<div class="banner">
-  <div class='banner__badge'>
+<div class="mb-6">
+  <div class='flex justify-center'>
     <%= render ProgressBadgeComponent.new(
       course: course,
       current_user: current_user,
-      modifier: '',
       url: courses_progress_path(course.id)
     )%>
   </div>
 
-  <%= link_to path_course_url(course.path, course), class: 'course-card-header__link' do %>
-    <h1 class="banner__title text-4xl font-light mx-auto" data-test-id="course-title-header"><%= course.title %></h1>
+  <%= link_to path_course_url(course.path, course), class: 'no-underline' do %>
+    <h1 class="mt-4 text-center text-4xl font-light mx-auto" data-test-id="course-title-header"><%= course.title %></h1>
   <% end %>
 </div>
