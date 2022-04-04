@@ -62,7 +62,7 @@ Span is an inline-level element by default. It is generally used to group text c
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [This tutorial](http://web.archive.org/web/20210813033024/https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 

@@ -4,10 +4,12 @@ Whether it be IMDB's top 250 movies or the FBI's most wanted, lists are everywhe
 
 Luckily, with HTML there are a couple of different types of lists at your disposal.
 
-### Learning Outcomes
+### Lesson Overview
 
-- How to create an unordered list
-- How to create an ordered list
+This section contains a general overview of topics that you will learn in this lesson.
+
+* How to create an unordered list
+* How to create an ordered list
 
 ### Unordered Lists
 
@@ -56,8 +58,9 @@ This section contains helpful links to other content. It isn't required, so cons
 - [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>
-- <a class="knowledge-check-link" href="#ordered-lists">What HTML tag is used to create an ordered list?</a>
-- <a class="knowledge-check-link" href="#li">What HTML tag is used to create list items within both unordered and ordered lists?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+* <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>
+* <a class="knowledge-check-link" href="#ordered-lists">What HTML tag is used to create an ordered list?</a>
+* <a class="knowledge-check-link" href="#li">What HTML tag is used to create list items within both unordered and ordered lists?</a>

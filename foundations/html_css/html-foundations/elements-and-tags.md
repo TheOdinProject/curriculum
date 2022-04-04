@@ -2,11 +2,12 @@
 
 HTML (HyperText Markup Language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+### Lesson Overview
 
-- Explain what HTML Tags are
-- Explain what HTML elements are
+This section contains a general overview of topics that you will learn in this lesson.
+
+* Explain what HTML Tags are
+* Explain what HTML elements are
 
 ### Elements and Tags
 
@@ -39,7 +40,8 @@ This section contains helpful links to other content. It isn't required, so cons
 - [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
-- <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+* <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
+* <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>

@@ -119,3 +119,9 @@ If you see that, you have successfully installed Node!
 For convenience, Node provides a interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
