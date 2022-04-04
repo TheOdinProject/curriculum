@@ -170,7 +170,7 @@ Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
- *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
   
