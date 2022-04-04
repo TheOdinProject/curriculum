@@ -135,3 +135,7 @@ progress-circle__inner {
 .progress-circle__content {
   color: var(--dark-bg-accent) !important;
 }
+
+.advert__icon {
+  filter: invert(1);
+}
