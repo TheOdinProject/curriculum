@@ -6,9 +6,9 @@ This lesson will explain the importance of good commit messages, how to write th
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to write a meaningful commit message
-- Why meaningful commit messages are important
-- When to commit
+* How to write a meaningful commit message
+* Why meaningful commit messages are important
+* When to commit
 
 ### Are commit messages so important they deserve their own lesson?
 
