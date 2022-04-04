@@ -16,8 +16,9 @@ The best way to improve your problem solving ability is by building experience b
 
 In this lesson we will walk through a few techniques that can be used to help with the problem solving process.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Explain the three steps in the problem solving process.
 * Explain what pseudocode is and be able to use it to solve problems.
@@ -76,10 +77,10 @@ Write a program that allows the user to enter a number, print each number betwee
 
 #### Plan
 Does your program have an interface? What will it look like?
-Our FizzBuzz solution will be a command line program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
+Our FizzBuzz solution will be a browser console program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
 
 What inputs will your program have? Will the user enter data or will you get input from somewhere else?
-The user will enter a number from the command line.
+The user will enter a number from a prompt (popup box).
 
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
@@ -242,10 +243,11 @@ Buzz
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) (*not free*). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
-* Watch this [video on repetitive programming techniques](https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/).
+* Watch this [video on repetitive programming techniques](https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/resources/basic-programming-techniques/).
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
 * <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>

@@ -74,7 +74,7 @@ Your Multiple Lines of Colorful Code
 ### Chat features
 
 * Have fun with giphys: type `/giphy hi` to say hi to everyone.
-* Type `/help` for more information on chat commands.
+* Type `!help` for more information on chat commands.
 * Show your appreciation to those who help you with `@username ++`.
 * Don't forget to visit all the available rooms!
 
@@ -126,7 +126,7 @@ If you do not have much time to help, please let someone else answer the questio
 If the question does not reveal where they are in the curriculum, ask them so that you can adjust your expectations to their knowledge level.
 
 #### 6. Ask for clarifications
-If the question seems confusing or ambiguous, ask for more clarity, or politely link them to our bot command `/question`, which links to the [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) article.
+If the question seems confusing or ambiguous, ask for more clarity, or politely link them to our bot command `!question`, which links to the [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) article.
 
 #### 7. Ask for live code
 If the question needs to have live code to fully understand or debug, ask them to use [replit](https://replit.com) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
@@ -134,7 +134,7 @@ If the question needs to have live code to fully understand or debug, ask them t
 #### 8. Do not answer googleable questions
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community. 
 
-Instead of answering these questions, politely ask them to google their question or use our bot command `/google` with the search terms.
+Instead of answering these questions, politely ask them to google their question or use our bot command `!google` with the search terms.
 
 #### 9. Do not answer questions covered in our curriculum.
 If you know that the answer is provided in our curriculum, ask them where they are at in the curriculum.
@@ -147,7 +147,7 @@ If they have already been through that portion of the curriculum, politely direc
 When helping someone it can be easy to spot other problems in their code. Resolve the original question, before pointing out any other problems that need attention.
 
 #### 11. Encourage students to use a debugger
-It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `/debug`.
+It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `!debug`.
 
 #### 12. Watch for students that need to take a step back
 It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Often times, stepping away from a problem will help them see the bigger picture and how to solve it.

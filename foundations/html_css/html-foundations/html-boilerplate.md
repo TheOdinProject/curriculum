@@ -2,10 +2,12 @@
 
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
-### Learning Outcomes
+### Lesson Overview
 
-- How to write the basic boilerplate for an HTML document
-- How to open HTML documents in your browser
+This section contains a general overview of topics that you will learn in this lesson.
+
+* How to write the basic boilerplate for an HTML document
+* How to open HTML documents in your browser
 
 ### Creating an HTML File
 
@@ -39,7 +41,7 @@ After we declare the doctype, we need to provide an `<html>` element. This is wh
 
 This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the HTML element should be included on every HTML document.
 
-Back in the `index.html` lets add the `<html>` element by typing out its opening and closing tags, like so:
+Back in the `index.html` file, let's add the `<html>` element by typing out its opening and closing tags, like so:
 
 ~~~html
 <!DOCTYPE html>
@@ -74,7 +76,7 @@ The title element is used to give webpages a human-readable title which is displ
 
 If we didn't include a title element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 
-Back in our `index.html`, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
+Back in our `index.html` file, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
 
 ~~~html
 <!DOCTYPE html>
@@ -121,7 +123,7 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
-Back in the `index.html` file, lets add a heading (more on these later) to the body, and save the file:
+Back in the `index.html` file, let's add a heading (more on these later) to the body, and save the file:
 
 ~~~html
 <!DOCTYPE html>
@@ -160,9 +162,10 @@ This section contains helpful links to other content. It isn't required, so cons
 - If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
-- <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-- <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
-- <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+* <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
+* <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
+* <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
+* <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>

@@ -16,7 +16,7 @@ _Finally_, feel free to substitute your own content into this design. The images
 
 ### Setting up your project's GitHub repository
 
-As we did in the Recipe project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the recipe project if you need a reminder on how to set it up.
+As we did in the Recipes project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes) if you need a reminder on how to set it up.
 
 ### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
 
@@ -42,7 +42,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
     1. The font that's being used in the images is roboto.
     2. Hero text is the statement that appears at the top of a web page.
 2. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
-3. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and _then_ do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will end up making things take longer and may end up causing you more frustration. (Note: you don't need to use more than one stylesheet. Using only one CSS file is adequate for this project).
+3. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and _then_ do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration. (Note: you don't need to use more than one stylesheet. Using only one CSS file is adequate for this project).
 4. Many of the elements on this page are very similar to things you saw in our flexbox exercises... feel free to go back to those if you need a refresher.
 5. Do not worry about making your project look nice on a mobile device. We'll learn that later.
 6. When you finish, don't forget to push it up to GitHub!

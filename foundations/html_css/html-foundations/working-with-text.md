@@ -4,14 +4,16 @@ Most content on the web is text-based, so you will find yourself needing to work
 
 In this lesson, we will learn about the text-based elements you are likely to use the most.
 
-### Learning Outcomes
+### Lesson Overview
 
-- How to create paragraphs
-- How to create headings
-- How to create bold text
-- How to create italicized text
-- The relationships between nested elements
-- How to create HTML comments
+This section contains a general overview of topics that you will learn in this lesson.
+
+* How to create paragraphs
+* How to create headings
+* How to create bold text
+* How to create italicized text
+* The relationships between nested elements
+* How to create HTML comments
 
 ### Paragraphs
 
@@ -161,22 +163,23 @@ Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of
 <div class="lesson-content__panel" markdown="1">
 1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
 2. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) as the dummy text for the article content and headings.
+3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites.
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Note: In the examples, you have probably noticed that we used some strange looking text. This is [Lorem Ipsum](https://loremipsum.io/). It is used to generate dummy text you can use in place of real text as you build your sites.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+  
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
  
-- <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>
-- <a class="knowledge-check-link" href='#headings'>How do you create a heading in HTML?</a>
-- <a class="knowledge-check-link" href='#different-heading-levels'>How many different levels of headings are there and what is the difference between them?</a>
-- <a class="knowledge-check-link" href='#strong-element'>What element should you use to make text bold and important?</a>
-- <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized to add emphasis to it?</a>
-- <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
-- <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
-- <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
+* <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>
+* <a class="knowledge-check-link" href='#headings'>How do you create a heading in HTML?</a>
+* <a class="knowledge-check-link" href='#different-heading-levels'>How many different levels of headings are there and what is the difference between them?</a>
+* <a class="knowledge-check-link" href='#strong-element'>What element should you use to make text bold and important?</a>
+* <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized to add emphasis to it?</a>
+* <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
+* <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
+* <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>

@@ -24,10 +24,6 @@ As stated in the introduction, a component's lifecycle is the sequence of stages
 
 A component can be in different states of its "life", and in React we can use those states to handle certain tasks.
 
-### Render
-
-We are already familiar with the render method in React, each class component needs to contain a render method, and it is fairly simple to understand. The render method contains all the logic your component should display on the screen. It might also contain a null value, if you don't want to show anything. (Conditional rendering! Look it up!)
-
 ### ComponentDidMount
 
 As the name already suggests, this method is run when the component is mounted, meaning when it is inserted in the DOM tree.
@@ -37,6 +33,10 @@ Common tasks that are done in this method are:
 - Connect to web APIs or JavaScript frameworks
 - Set Timers using setTimeout or setInterval
 - Add event listeners
+
+### Render
+
+We are already familiar with the render method in React, each class component needs to contain a render method, and it is fairly simple to understand. The render method contains all the logic your component should display on the screen. It might also contain a null value, if you don't want to show anything. (Conditional rendering! Look it up!)
 
 ### ComponentDidUpdate
 

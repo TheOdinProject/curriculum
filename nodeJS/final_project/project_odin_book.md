@@ -1,4 +1,4 @@
-## Project: Building Facebook
+### Introduction
 
 You've come a long way, congratulations!  At this point you should feel comfortable with building new Express applications and using MongoDB to model and store data.  This project will require you to put all of that knowledge to the test.  It's not going to be easy, but should be well within your capabilities and it will be a _great_ portfolio piece.
 

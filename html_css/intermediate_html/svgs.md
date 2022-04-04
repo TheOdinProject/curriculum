@@ -2,7 +2,7 @@
 
 SVGs are a very common image format on the web. They can be a little confusing at first, but once you know how to use them, they are an incredibly powerful tool for creating high-quality, dynamic images for your website.
 
-In this lesson, we will learn what exactly SVGs are, what they're used for, and how you can embed them in your websites.
+In this lesson, we will learn exactly what SVGs are, what they're used for, and how you can embed them in your websites.
 
 ### Learning Outcomes
 
@@ -20,7 +20,7 @@ SVGs are often used for:
 2. Graphs/Charts
 3. Large, simple images
 4. Patterned backgrounds
-5. Applying effects to other elements via svg filters
+5. Applying effects to other elements via SVG filters
 
 ### Okay, but what are they?
 
@@ -32,7 +32,7 @@ SVGs have another interesting aspect to them: they're defined using XML. XML (ak
 
 The fact that SVG source-code is XML has a few key benefits.
 
-First, it means that it is _human readable_. If you were to open up a JPEG in a text editor, it would just look like gobbledygook. If you were to open up an SVG, however, it would look something like this:
+First, it means that it is _human-readable_. If you were to open up a JPEG in a text editor, it would just look like gobbledygook. If you were to open up an SVG, however, it would look something like this:
 
 ~~~xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -60,7 +60,7 @@ Typically, you will not want to create SVGs from scratch in your code. Most ofte
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-1. `xmlns` - stands for "XML NameSpace." This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
+1. `xmlns` - stands for "XML NameSpace." This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
 2. `viewBox` - defines the bounds of your SVG. When you have to define the positions of different points of the elements in your SVG, this is what that's referencing. It also defines the aspect ratio _and_ the origin of your SVG. So it's doing quite a lot! Be sure to play around with different values in the example above to get a feel for how it affects the shapes.
 3. `class`, `id` - these attributes function just like they do in HTML. Using these in SVGs allows you to easily target an element via CSS or JavaScript, or to reuse an element via the `use` elements.
 4. Elements such as `<circle>`, `<rect>`, `<path>`, and `<text>` are defined by the SVG namespace. These are our basic building-blocks. Although you can make extremely complex images with SVG, they are mostly created with just a dozen or so of these basic elements. You can see a complete list of SVG elements [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Element).
@@ -76,11 +76,11 @@ Linking SVGs works basically the same way as linking any other image. You can us
 
 The alternative is to inline your SVGs by pasting their contents directly into your webpage's code, rather than linking to it as an image. It will still render correctly, but the SVG's properties will be visible to your code, which will allow you to alter the image dynamically via CSS or JavaScript.
 
-Inlining SVGs allow you to unlock their full potential, but it also comes with some serious drawbacks: it makes your code harder to read, makes your page less cacheable, and if it's a large SVG it might delay the rest of your HTML from loading.
+Inlining SVGs allows you to unlock their full potential, but it also comes with some serious drawbacks: it makes your code harder to read, makes your page less cacheable, and if it's a large SVG it might delay the rest of your HTML from loading.
 
-Some of the drawbacks of inlining svg code can be avoided once you've learned a front-end JavaScript framework like React, or a build-tool like webpack. We aren't quite ready to get into those yet, so just keep that in the back of your mind.
+Some of the drawbacks of inlining SVG code can be avoided once you've learned a front-end JavaScript framework like React, or a build-tool like webpack. We aren't quite ready to get into those yet, so just keep that in the back of your mind.
 
-For now, just do which ever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak on the SVG code alongside your HTML.
+For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
 ### Additional Resources
 

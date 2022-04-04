@@ -18,7 +18,6 @@ Start with your network, even if it's small.  Reach out to your Facebook friends
 Try checking out these links for job boards.  The more technically-focused, the better:
 
 * [Authentic Jobs](http://www.authenticjobs.com)
-* [StackOverflow Jobs](https://stackoverflow.com/jobs)
 * [CWJobs](http://cwjobs.co.uk)
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
 * [Dice.com](http://www.dice.com)
