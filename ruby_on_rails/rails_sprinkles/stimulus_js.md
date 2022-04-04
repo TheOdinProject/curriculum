@@ -41,7 +41,7 @@ purpose?
 behavior
 * **data-clipboard-target** is set to `source`. Which says: this is the the `source` we are gonna use for our clipboard
 controller
-* **data-action** is set to `click->clipboard#copy`. Which means: On a click invoke the `copy`action the our clipboard
+* **data-action** is set to `click->clipboard#copy`. Which means: On a click invoke the `copy` action from our clipboard
 controller
 
 So together these three attributes enable the following behavior: When a user `click`s on the button, use the function
