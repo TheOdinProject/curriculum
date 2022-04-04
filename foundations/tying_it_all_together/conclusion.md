@@ -13,6 +13,7 @@ Arguments about learning the languages used in your area may sound convincing, b
 To help you make a decision, here are some perks of each technology:
 
 #### Ruby and Ruby On Rails: 
+
 * Opinionated 
   - You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
   - You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
@@ -25,6 +26,7 @@ To help you make a decision, here are some perks of each technology:
   - Object-oriented programming (OOP) is the Ruby way; many other languages are primarily OOP-based.
 
 #### JavaScript/Node & Express
+
 * Un-opinionated
   - There is no standard way of doing things. You are going to have to decide the structure of projects yourself, for better or worse.
 * Very fast
