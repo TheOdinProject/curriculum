@@ -1,4 +1,4 @@
-### Learning Outcomes
+### Lesson Overview
 
 - Creating objects.
 - Accessing object properties.
