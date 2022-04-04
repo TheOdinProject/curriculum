@@ -2,7 +2,7 @@
 
 Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
-### Learning Outcomes
+### Lesson Overview
 By the end of this lesson, you should be able to do the following:
 
 - Know how to distinguish hard to read code from easy to read code.
