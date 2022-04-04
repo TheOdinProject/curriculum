@@ -1,4 +1,4 @@
-### Learning Outcomes
+### Lesson Overview
 
 * Using arrays.
 * Using built-in array methods.
