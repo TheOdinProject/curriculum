@@ -18,7 +18,7 @@ RSpec.describe LessonCompletion do
     end
 
     it 'returns lessons completed today' do
-      expect(LessonCompletion.created_today).to contain_exactly(lesson_completed_today)
+      expect(described_class.created_today).to contain_exactly(lesson_completed_today)
     end
   end
 end

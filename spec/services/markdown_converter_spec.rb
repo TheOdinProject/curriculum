@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe MarkdownConverter do
-  subject(:markdown_converter) { MarkdownConverter.new(markdown) }
+  subject(:markdown_converter) { described_class.new(markdown) }
 
   let(:markdown) { 'Some markdown' }
   let(:kramdown) do

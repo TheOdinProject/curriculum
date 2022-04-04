@@ -1,13 +1,13 @@
 require 'rails_helper'
 
 RSpec.describe Point do
-  subject { Point.new(discord_id: '123') }
+  subject { described_class.new(discord_id: '123') }
 
   it { is_expected.to validate_presence_of(:discord_id) }
   it { is_expected.to validate_uniqueness_of(:discord_id).case_insensitive }
 
   describe '#increment_points_by' do
-    let(:user_points) { Point.create(discord_id: '1234') }
+    let(:user_points) { described_class.create(discord_id: '1234') }
 
     it 'increments the points by 1' do
       expect { user_points.increment_points_by(1) }.to change { user_points.reload.points }.from(0).to(1)

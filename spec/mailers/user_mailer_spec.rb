@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe UserMailer, type: :mailer do
   describe '#send_welcome_email_to' do
-    subject(:welcome_email) { UserMailer.send_welcome_email_to(user) }
+    subject(:welcome_email) { described_class.send_welcome_email_to(user) }
 
     let(:user) { create(:user, email: 'kevin@example.com') }
 

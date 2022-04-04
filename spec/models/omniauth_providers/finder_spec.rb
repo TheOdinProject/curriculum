@@ -2,7 +2,7 @@ require 'rails_helper'
 
 module OmniauthProviders
   RSpec.describe Finder do
-    subject { Finder.new(auth) }
+    subject { described_class.new(auth) }
 
     let(:auth) { double('Auth', info: info, uid: '123', provider: 'github') }
     let(:info) do

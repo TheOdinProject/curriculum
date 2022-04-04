@@ -11,7 +11,7 @@ class LessonCompletions
 end
 
 RSpec.describe CourseProgress do
-  subject { CourseProgress.new(course, user) }
+  subject { described_class.new(course, user) }
 
   let(:lessons) { [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }
   let(:course) { double('Course', lesson_ids: lessons) }

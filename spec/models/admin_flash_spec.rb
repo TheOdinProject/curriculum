@@ -10,7 +10,7 @@ RSpec.describe AdminFlash do
       admin_flash_expires_next_week = create(:admin_flash, expires: 1.week.from_now)
       create(:admin_flash, expires: 1.hour.ago)
 
-      expect(AdminFlash.unexpired_messages).to contain_exactly(
+      expect(described_class.unexpired_messages).to contain_exactly(
         admin_flash_expires_tomorrow, admin_flash_expires_next_week
       )
     end
@@ -24,7 +24,7 @@ RSpec.describe AdminFlash do
 
       disabled_flash_ids = [seen_unexpired_message.id]
 
-      expect(AdminFlash.showable_messages(disabled_flash_ids)).to contain_exactly(
+      expect(described_class.showable_messages(disabled_flash_ids)).to contain_exactly(
         unseen_unexpired_message
       )
     end

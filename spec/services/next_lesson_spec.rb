@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe NextLesson do
-  subject(:next_lesson) { NextLesson.new(course, lesson_completions) }
+  subject(:next_lesson) { described_class.new(course, lesson_completions) }
 
   let(:course) { create(:course) }
   let!(:lesson_one) { create(:lesson, course: course) }

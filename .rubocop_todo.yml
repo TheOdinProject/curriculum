@@ -6,20 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 2
-# Configuration parameters: IgnoredMetadata.
-RSpec/DescribeClass:
-  Exclude:
-    - 'spec/tasks/curriculum_spec.rb'
-    - 'spec/tasks/project_submissions_spec.rb'
-
-# Offense count: 25
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: SkipBlocks, EnforcedStyle.
-# SupportedStyles: described_class, explicit
-RSpec/DescribedClass:
-  Enabled: false
-
 # Offense count: 1
 # This cop supports safe auto-correction (--auto-correct).
 # Configuration parameters: AllowConsecutiveOneLiners.

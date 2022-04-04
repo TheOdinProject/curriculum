@@ -14,3 +14,7 @@ RSpec/MultipleExpectations:
   Max: 3
   Exclude:
     - 'system/**/*'
+
+RSpec/DescribeClass:
+  Exclude:
+    - 'tasks/**/*'

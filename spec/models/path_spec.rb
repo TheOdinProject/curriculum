@@ -17,7 +17,7 @@ RSpec.describe Path do
     let!(:non_default_path) { create(:path) }
 
     it 'returns the default path users should be enrolled in when they sign up' do
-      expect(Path.default_path).to eq(default_path)
+      expect(described_class.default_path).to eq(default_path)
     end
   end
 end

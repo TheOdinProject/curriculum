@@ -1,5 +1,5 @@
 require 'rails_helper'
 
 describe FactoryBot do
-  it { FactoryBot.lint traits: true }
+  it { described_class.lint traits: true }
 end

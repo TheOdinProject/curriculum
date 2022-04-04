@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe LessonContentImporter do
-  subject { LessonContentImporter.new(lesson) }
+  subject { described_class.new(lesson) }
 
   let(:lesson) do
     create(:lesson, content: lesson_content, title: 'Ruby Basics', url: '/ruby_basics/variables')
@@ -28,8 +28,8 @@ RSpec.describe LessonContentImporter do
     end
 
     it 'updates the content for all lessons' do
-      expect(LessonContentImporter).to receive(:for).thrice
-      LessonContentImporter.import_all
+      expect(described_class).to receive(:for).thrice
+      described_class.import_all
     end
   end
 

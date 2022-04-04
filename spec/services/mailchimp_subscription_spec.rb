@@ -49,7 +49,7 @@ RSpec.describe MailchimpSubscription do
       it 'sends the error to new relic' do
         expect(NewRelic::Agent).to receive(:notice_error)
 
-        MailchimpSubscription.new(options).create
+        described_class.new(options).create
       end
     end
   end

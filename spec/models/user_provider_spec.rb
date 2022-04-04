@@ -4,7 +4,7 @@ RSpec.describe UserProvider do
   it { is_expected.to belong_to(:user) }
 
   describe '.find_user' do
-    subject { UserProvider.find_user(auth) }
+    subject { described_class.find_user(auth) }
 
     let(:auth) { double('Auth') }
     let(:user_provider_finder) { double('UserProviderFinder', user: user) }

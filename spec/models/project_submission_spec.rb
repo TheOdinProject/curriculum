@@ -34,7 +34,7 @@ RSpec.describe ProjectSubmission, type: :model do
       public_project_submission_two = create(:project_submission)
       create(:project_submission, is_public: false)
 
-      expect(ProjectSubmission.only_public).to contain_exactly(
+      expect(described_class.only_public).to contain_exactly(
         public_project_submission_one,
         public_project_submission_two
       )
@@ -47,7 +47,7 @@ RSpec.describe ProjectSubmission, type: :model do
       create(:project_submission, discarded_at: Time.zone.today)
       create(:project_submission, discarded_at: Time.zone.today)
 
-      expect(ProjectSubmission.not_removed_by_admin).to contain_exactly(
+      expect(described_class.not_removed_by_admin).to contain_exactly(
         not_discarded_project_submission
       )
     end
@@ -63,7 +63,7 @@ RSpec.describe ProjectSubmission, type: :model do
     end
 
     it 'returns projects submission created today' do
-      expect(ProjectSubmission.created_today).to contain_exactly(project_submission_created_today)
+      expect(described_class.created_today).to contain_exactly(project_submission_created_today)
     end
   end
 
