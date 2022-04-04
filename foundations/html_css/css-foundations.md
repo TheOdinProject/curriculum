@@ -260,6 +260,8 @@ img {
 }
 ~~~
 
+For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
+
 It's best to include both of these properties for `<img>` elements, even if you don't plan on adjusting the values from the image file's original ones. When these values aren't included, if an image takes longer to load than the rest of the page contents, the image won't take up any space on the page at first, but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be "reserved" on the page and will just appear as a blank space until the image loads.
 
 ### The Cascade of CSS
