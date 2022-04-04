@@ -25,15 +25,15 @@ It returns your username. Cool!
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will need you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what the command line is.
-- Open the command line on your computer.
-- Use the command line to navigate directories and display directory contents.
-- Use the command line to create a new directory and a new file.
-- Use the command line to rename or destroy a directory and a file.
-- Use the command line to open a file or folder in a program.
+* Describe what the command line is.
+* Open the command line on your computer.
+* Use the command line to navigate directories and display directory contents.
+* Use the command line to create a new directory and a new file.
+* Use the command line to rename or destroy a directory and a file.
+* Use the command line to open a file or folder in a program.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
