@@ -2,12 +2,12 @@
 
 Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe (no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard).
 
-That black screen or window is the command line interface (CLI), where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
+<span id="command-line"></span>That black screen or window is the command line interface (CLI), where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward. So don't let the prospect of using the command line for the first time intimidate you.
 
 #### Test Drive Your Terminal
-Open a terminal on your computer.
+<span id="open-command-line"></span>Open a terminal on your computer.
 
 - **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
 
@@ -25,8 +25,8 @@ It returns your username. Cool!
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will need you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
-### Lesson Overview
-This section contains a general overview of topics that you will learn in this lesson.
+### Lesson Overview 
+By the end of this lesson, you should be able to do the following:
 
 * Describe what the command line is.
 * Open the command line on your computer.
@@ -40,7 +40,7 @@ This section contains a general overview of topics that you will learn in this l
 
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/foundations/lessons/prerequisites).
 
-  1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` (the `l` is a lowercase `L`). `ls` will show you the files and folders in the current directory (or will show nothing if the current directory is empty). Create a file called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
+  1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` (the `l` is a lowercase `L`). `ls` will show you the files and folders in the current directory (or will show nothing if the current directory is empty). <span id="create-file"></span>Create a file called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
   2. Read through [chapter 1 of Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands/basics).
 </div>
 
@@ -97,14 +97,14 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* What is the command line?
-* How do you open the command line on your computer?
-* How can you navigate to a particular directory?
-* Where will `cd` on its own navigate you to?
-* Where will `cd ..` navigate you to?
-* How do you display the name of the directory you are currently in?
-* How do you display the contents of the directory you are currently in?
-* How do you create a new directory?
-* How do you create a new file?
-* How do you destroy a directory or file?
+* <a class="knowledge-check-link" href="#command-line">What is the command line?</a>
+* <a class="knowledge-check-link" href="#open-command-line">How do you open the command line on your computer?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd">How can you navigate to a particular directory?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31">Where will `cd` on its own navigate you to?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30">Where will `cd ..` navigate you to?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd">How do you display the name of the directory you are currently in?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls">How do you display the contents of the directory you are currently in?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7">How do you create a new directory?</a>
+* <a class="knowledge-check-link" href="#create-file">How do you create a new file?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9">How do you destroy a directory or file?</a>
 * How do you rename a directory or file?
