@@ -51,11 +51,12 @@ To get some practice using lists, create a new HTML document and create the foll
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-- [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-- [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+*   [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+*   [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
 
 ### Knowledge Check
 
