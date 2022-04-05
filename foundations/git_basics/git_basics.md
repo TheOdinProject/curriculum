@@ -2,8 +2,9 @@
 
 In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time. So if you can get these down, you'll be more than halfway done mastering Git!
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - How to create a repository on GitHub
  - How to get files to and from GitHub
@@ -170,7 +171,8 @@ There will be no confirmation or any output on the terminal after entering this 
 With that out of the way, now you can choose to use either `git commit -m <your message here>` or `git commit` and enter your message with Visual Studio Code!
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. Review the above materials for answers if the questions below are hard to answer by yourself.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#new-github-repo">How do you create a new repository on GitHub?</a>
 * <a class="knowledge-check-link" href="#github-to-local">How do you copy a repository onto your local machine from GitHub?</a>
