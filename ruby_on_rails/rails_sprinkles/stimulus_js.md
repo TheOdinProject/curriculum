@@ -62,7 +62,7 @@ Look at this HTML without the special data-attributes Stimulus uses:
 Probably something is supposed to happen, when you click that button. However you can't tell from the HTML
 alone how things are wired up. You have to search for some JavaScript that handles this behavior.
 
-So let's got through the basic aspects of Stimulus controllers. Don't worry if you don't understand
+So let's go through the basic aspects of Stimulus controllers. Don't worry if you don't understand
 everything on the first read through, the assignments will give more in depth information.
 
 ### The Stimulus controller
