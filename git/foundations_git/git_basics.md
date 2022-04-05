@@ -3,6 +3,7 @@
 In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time. So if you can get these down, you'll be more than halfway done mastering Git!
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to do the following:
 
  - How to create a repository on GitHub
@@ -14,6 +15,7 @@ By the end of this lesson, you should be able to do the following:
 <div class="lesson-content__panel" markdown="1">
 
 #### Before you start!
+
 - Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
 `git --version`
 - If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
@@ -145,6 +147,7 @@ For example,
 * `git status` is read as `git | status | (no destination)`.
 
 ### Git Best Practices
+
 There's a lot to learn about using Git. But it is worth taking the time to highlight some best practices so that you can be a better collaborator. Git is not only helpful when collaborating with others. It's also useful when working independently. You will be relying more and more on your own commit history in the future when revisiting old code.
 
 Two helpful best practices to consider are **atomic commits** and leveraging those atomic commits to make your commit messages more useful to future collaborators.
@@ -152,6 +155,7 @@ Two helpful best practices to consider are **atomic commits** and leveraging tho
 An atomic commit is a commit that includes changes related to only one feature or task of your program. There are two main reasons for doing this: first, if something you change turns out to cause some problems, it is easy to revert the specific change without losing other changes; and second, it enables you to write better commit messages.
 
 ### Conclusion
+
 You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
 
 The main thing to take away from this lesson is the **basic workflow**. The commands you've learned here are the ones you will be using the most often with Git.
@@ -163,6 +167,7 @@ In later Git lessons, we will cover some of the more advanced Git features, such
 For now, concentrate on using the basics of Git that you've learned here for all of your projects from now on. You will soon know each of the basic Git commands from memory!
 
 ### Bonus: Changing the Git Commit Message Editor
+
 As a bonus to this section, if you are using *Visual Studio Code* (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`. 
 
 There will be no confirmation or any output on the terminal after entering this command. To make a commit with Visual Studio Code as the text editor, make sure to use the `git commit` command without the `-m` flag. Just type `git commit` and no message after that. Once you do this, a new tab will open. Now you can write your message, and provide more information if you want, right below it. After typing your commit message, save it and exit the tab.
@@ -170,6 +175,7 @@ There will be no confirmation or any output on the terminal after entering this 
 With that out of the way, now you can choose to use either `git commit -m <your message here>` or `git commit` and enter your message with Visual Studio Code!
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. Review the above materials for answers if the questions below are hard to answer by yourself.
 
 * <a class="knowledge-check-link" href="#new-github-repo">How do you create a new repository on GitHub?</a>
@@ -183,3 +189,9 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#git-commit">How do you commit the files in the staging area and add a descriptive message?</a>
 * <a class="knowledge-check-link" href="#git-push">How do you push your changes to your repository on GitHub?</a>
 * <a class="knowledge-check-link" href="#git-log">How do you look at the history of your previous commits?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+  
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
