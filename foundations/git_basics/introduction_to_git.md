@@ -20,8 +20,9 @@ Finally, you will set up a project with Git that will serve as a template for yo
 
 For now, let's learn what Git is and why it's so powerful!
 
-### Learning Outcomes:
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what Git and GitHub are and the differences between the two.
  - Describe the differences between Git and a text editor in terms of what they save and their record keeping.
@@ -46,9 +47,10 @@ This section contains helpful links to other content. It isn't required, so cons
 * [What is Git](https://www.atlassian.com/git/tutorials/what-is-git)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a  class="knowledge-check-link" href="#introduction">What kind of program is Git?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+* <a class="knowledge-check-link" href="#introduction">What kind of program is Git?</a>
 * <a class="knowledge-check-link" href="#text-editor-and-git">What are the differences between Git and a text editor in terms of what they save and their record keeping?</a>
 * <a class="knowledge-check-link" href="#git-local">Does Git work at a local or remote level?</a>
 * <a class="knowledge-check-link" href="#github-remote">Does GitHub work at a local or remote level?</a>
