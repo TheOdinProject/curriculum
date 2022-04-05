@@ -52,7 +52,7 @@ Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimu
 It generally does not render HTML, instead it attaches behavior to your existing HTML with sprinkles of JavaScript.
 Through the consistent use of some data attributes we can read the HTML and can see where the HTML is enhanced.
 
-Look this HTML without the special data-attributes Stimulus uses:
+Look at this HTML without the special data-attributes Stimulus uses:
 
 ~~~html
 <input id="pin-code" value="1337" readonly>
