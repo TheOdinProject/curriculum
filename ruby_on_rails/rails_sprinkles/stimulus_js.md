@@ -95,7 +95,7 @@ This creates a scope, all the following attributes will only work within the sco
 You learned how to trigger events with event listeners, in Stimulus instead you use `data-action` attributes to
 execute javascript to react to a user click or input.
 
-So instead of `document.querySelector("button).addEventListener("click", showAlert)` we write the following HTML
+So instead of `document.querySelector("button").addEventListener("click", showAlert)` we write the following HTML
 
 ~~~html
 <div data-controller="alert">
