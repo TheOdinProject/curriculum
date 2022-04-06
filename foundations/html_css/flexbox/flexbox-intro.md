@@ -28,7 +28,7 @@ Flexbox is a way to arrange items into rows or columns. These items will flex (i
 
 We'll get into exactly what's going on here soon enough. But for now, uncomment the two flex related lines in the above CSS and check out the result. All 3 divs should now be arranged horizontally. If you resize the results frame with the "1x", ".5x" and ".25x" buttons you'll also see that the divs will 'flex'. They will fill the available area and will each have equal width.
 
-If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to make it fit.
+If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to fit within the available area.
 
 > #### Note
 > If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
@@ -44,7 +44,7 @@ Somewhat confusingly, any element can be both a flex container _and_ a flex item
 
 ![nesting flex containers](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/04.png)
 
-This method of creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The next image was achieved using _only_ flexbox to arrange, size, and place the various elements. Flexbox is a _very_ powerful tool.
+Creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The following image was achieved using _only_ flexbox to arrange, size, and place the various elements. Flexbox is a _very_ powerful tool.
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
