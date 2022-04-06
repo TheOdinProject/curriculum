@@ -4,7 +4,7 @@ Prior to Rails 7, there was a long running issue with how Javascript third-party
 
 Rails 6 tried to fix this solution by creating a wrapper Gem around [webpack](https://webpack.js.org/). The gem, called Webpacker, used Rails' famous convention over configuration to give the ability to use the latest JS libraries but with some sensible defaults. This wasn't without issue though, the main one being that you needed to have a deeper understanding of Webpacker if you wanted to move away from those conventions. Unfortunately it didn't solve the issues it was meant to and a new approach was needed.
 
-With Rails 7 we have [importmap](https://github.com/rails/importmap-rails). This approach to managing JavaScript in your applications was chosen for a couple of reasons. First ES6 is now supported by all browsers that matter. Chrome, Edge, Safari, and Firefox. Secondly, HTTP2 is now the norm meaning you can have a single connection that responds to the client with multiple small files. Now you can get rid of your bundler for JavaScript.
+With Rails 7 we have [importmap](https://github.com/rails/importmap-rails). This approach to managing JavaScript in your applications was chosen for a couple of reasons. First ES6 is now supported by all browsers that matter. Chrome, Edge, Safari, and Firefox. Secondly, HTTP/2 is now the norm meaning you can have a single connection that responds to the client with multiple small files. Now you can get rid of your bundler for JavaScript.
 
 ### Learning Outcomes
 
