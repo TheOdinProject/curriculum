@@ -17,7 +17,7 @@ Flexbox layouts can get a little complicated. In a previous lesson, you learned 
 
 ### Let's Flex!
 
-Flexbox is a way to arrange items into rows or columns, where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. For all of the exercises here, take your time to inspect the code and really understand what's going on. Actually, playing with the code yourself will make it much easier to retain this information.
+Flexbox is a way to arrange items into rows or columns, where those items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. For all of the exercises here, take your time to inspect the code and really understand what's going on. In fact, playing with the code yourself will make it much easier to retain this information.
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="QWgNxrp" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/QWgNxrp">
@@ -34,7 +34,7 @@ If you add another div to the HTML, inside of `.flex-container`, it will show up
 > If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
 
 #### Flex Containers and Flex Items
-As you've seen, flexbox isn't just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_ and some go on the _flex items_. This is a simple but important concept.
+As you've seen, flexbox isn't just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_, while some go on the _flex items_. This is a simple yet important concept.
 
 <span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.</span>
 
