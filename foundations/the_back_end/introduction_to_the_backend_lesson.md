@@ -26,9 +26,16 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 </div>
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://techterms.com/definition/backend">What is back-end development?</a>
 * <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture/">How many parts does the backend consist of?</a>
 * <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Name each part of the backend.</a>
 * <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Where does the backend store its data?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+ 
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
