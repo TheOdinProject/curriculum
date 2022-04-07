@@ -1,6 +1,24 @@
 require 'rails_helper'
 
 RSpec.describe CourseHelper do
+  describe '#numbered_lesson_title' do
+    context 'when the lesson is not a project' do
+      let!(:lesson) { create(:lesson, title: 'Ruby Basics') }
+
+      it 'returns the lesson title prepended with its number' do
+        expect(helper.numbered_lesson_title(lesson, 1)).to eql('2. Ruby Basics')
+      end
+    end
+
+    context 'when lesson is a project' do
+      let(:lesson) { create(:lesson, is_project: true, title: 'Ruby Basics') }
+
+      it 'returns the lesson title enclosed in a strong tag' do
+        expect(helper.numbered_lesson_title(lesson, 2)).to eql('3. <strong>Ruby Basics</strong>')
+      end
+    end
+  end
+
   describe '#course_completed_class?' do
     let(:user) { instance_double(User) }
     let(:course) { instance_double(Course) }

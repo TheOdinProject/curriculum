@@ -1,7 +1,6 @@
 class CoursesController < ApplicationController
   def show
-    @course = course
-    @sections = course.sections.includes(:lessons)
+    @course = CourseDecorator.new(course)
   end
 
   private

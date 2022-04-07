@@ -1,14 +1,20 @@
 <%= title(@course.title) %>
 
-<div class="gradient odin-dark-bg">
-  <div class="content-container">
-    <%= render 'courses/course/banner', course: @course %>
+<div class="gradient">
+  <div class="container tmp-container-spacer">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
 
-    <div class="mb-6">
-      <h2 class="text-xl font-semibold text-gray-500">Overview</h2>
-      <p class="text-gray-500"><%= @course.description %></p>
+        <%= render 'courses/course/banner',course: @course %>
+
+        <div class="course-description">
+          <h2 class="course-description__heading text-2xl">Overview</h2>
+          <p><%= @course.description %></p>
+        </div>
+
+        <%= render 'courses/course/sections', sections: @course.sections, course: @course %>
+
+      </div>
     </div>
-
-    <%= render @sections, locals: { course: @course } %>
   </div>
 </div>
