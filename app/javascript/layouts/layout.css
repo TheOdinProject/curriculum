@@ -2,4 +2,12 @@
   .tmp-container-spacer {
     @apply py-16 sm:pt-24 sm:pb-32;
   }
+
+  .page-container {
+    @apply max-w-7xl mx-auto py-10 px-4 sm:py-14 sm:px-6 lg:px-8;
+  }
+
+  .content-container {
+    @apply max-w-screen-md mx-auto py-16 px-4 sm:pt-24 sm:pb-32 sm:px-6 lg:px-8;
+  }
 }

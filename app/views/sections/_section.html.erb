@@ -1,0 +1,21 @@
+<%= render CardComponent.new(classes: "mb-10 odin-dark-bg-accent") do |card| %>
+  <% card.header do %>
+    <%= link_to  "##{section.title.parameterize}", id: section.title.parameterize, class: 'no-underline' do %>
+      <h3 class="text-2xl font-semibold pb-4 text-gray-600 hover:text-gray-800">
+        <%= section.title %>
+      </h3>
+    <% end %>
+    <p class="text-gray-500"><%= section.description %></p>
+  <% end %>
+
+  <% card.body do %>
+    <div class="flex flex-col space-y-5" data-test-id="course-section">
+      <% section.lessons.each_with_index do |lesson, lesson_index| %>
+        <div class="flex text-2xl justify-between space-x-5 items-center flex-shrink-1">
+          <%= render Lessons::TitleLinkComponent.new(lesson: lesson, lesson_number: lesson_index + 1)%>
+          <%= render CompleteIconButtonComponent.new(lesson: lesson, current_user: current_user) %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+<% end %>
