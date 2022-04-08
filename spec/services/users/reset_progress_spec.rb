@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Users::ResetProgress do
   subject(:service) { described_class.call(user) }
+
   let!(:user) { create(:user, path: foundations_path) }
   let!(:foundations_path) { create(:path, default_path: true) }
   let!(:first_completion) { create(:lesson_completion, lesson: create(:lesson), user: user) }

@@ -8,6 +8,7 @@ RSpec.describe Flag do
 
   it { is_expected.to validate_presence_of(:reason) }
   it { is_expected.to define_enum_for(:status).with_values(%i[active resolved]) }
+
   it do
     is_expected.to define_enum_for(:taken_action)
       .with_values(%i[pending dismiss ban removed_project_submission notified_user])
