@@ -18,3 +18,4 @@ RSpec/MultipleExpectations:
 RSpec/DescribeClass:
   Exclude:
     - 'tasks/**/*'
+    - 'seeds/**/*'
