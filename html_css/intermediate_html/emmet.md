@@ -15,18 +15,18 @@ Emmet is a really useful tool for anyone that works a lot with HTML and CSS. Luc
 
 Let's start off by generating an HTML boilerplate with Emmet. Opening up an empty html file in VS Code and entering `!` should trigger Emmet suggestions like so:
 
-<img src="https://i.imgur.com/pUgPS0S.png">
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/c8172ce697e4fcb7be9a9fdf6a5ef6741e15ae64/html_css/intermediate_html/emmet/00.png">
 Pressing enter should generate the following text:
-<img src="https://i.imgur.com/RFf5kit.png">
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/c8172ce697e4fcb7be9a9fdf6a5ef6741e15ae64/html_css/intermediate_html/emmet/01.png">
 We have just used one of many Emmet abbreviations. There are lots of useful Emmet abbreviations that you should check out, like <a href="https://docs.emmet.io/actions/wrap-with-abbreviation/">Wrap with Abbreviation</a> and <a href="https://docs.emmet.io/actions/remove-tag/">Remove Tag</a>. Definitely go through those before moving forward.
 
 Considering how useful these two are, we will be setting up VS Code shortcuts for them.
 Start off by opening the keyboard shortcuts window. You can do so by clicking the cog icon on the bottom left and selecting keyboard shortcuts, or by pressing `Cmd + K` followed by `Cmd S`.
 
-<img src="https://i.imgur.com/cre60k5.png">
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/c8172ce697e4fcb7be9a9fdf6a5ef6741e15ae64/html_css/intermediate_html/emmet/02.png">
 
 After entering the keyboard shortcuts window, you should be able to access all of the Emmet actions by searching for `Emmet:<action>`. In our case, it will be `Emmet:Wrap With Abbreviation`
-<img src="https://i.imgur.com/PnHroOq.png">
+<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/c8172ce697e4fcb7be9a9fdf6a5ef6741e15ae64/html_css/intermediate_html/emmet/03.png">
 You can now add a shortcut to it by clicking the plus sign and entering whichever key combination you would like for that specific action.
 You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
@@ -41,7 +41,7 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [Emmet Keybindings](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings) by [Andrés Gutiérrez](https://agutierrezr.github.io/), is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don't know what to map to which keys. 
+* [Emmet Keybindings](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings) by [Andrés Gutiérrez](https://agutierrezr.github.io/), is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don't know what to map to which keys.
 
 ### Knowledge Check
 
