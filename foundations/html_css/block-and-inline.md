@@ -1,7 +1,10 @@
 ### Introduction
 The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models, and that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
 
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
 * You'll learn about "Normal flow."
 * You'll learn the difference between `block` and `inline` elements.
 * You'll learn which elements default to `block` and which elements default to `inline`.
@@ -57,7 +60,8 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [This tutorial](http://web.archive.org/web/20210813033024/https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#block-inline-difference">What is the difference between a block element and an inline element?</a>
 * <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block">What is the difference between an inline element and an inline-block element?</a>
