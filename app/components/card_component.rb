@@ -3,8 +3,15 @@ class CardComponent < ViewComponent::Base
   renders_one :body, Card::BodyComponent
   renders_one :footer, Card::FooterComponent
 
-  def initialize(classes: '')
+  def initialize(classes: '', data_attributes: {})
     @classes = classes
+    @data_attributes = data_attributes
+  end
+
+  def data_attributes
+    @data_attributes
+      .map { |key, value| "data-#{key.to_s.dasherize}=#{value.to_s.dasherize}" }
+      .join(' ')
   end
 
   private
