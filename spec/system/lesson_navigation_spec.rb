@@ -35,7 +35,7 @@ RSpec.describe 'Navigating Lessons', type: :system do
     end
 
     context 'when on last lesson in the course' do
-      it 'should not be present' do
+      it 'is not present' do
         visit lesson_path(lesson)
 
         expect(page).to have_no_selector('[data-test-id="next-lesson-btn"]')

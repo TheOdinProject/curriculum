@@ -9,7 +9,7 @@ describe ':curriculum' do
 
   describe 'curriculum:update_content' do
     let!(:lesson) do
-      FactoryBot.create(
+      create(
         :lesson,
         url: '/README.md',
         content: nil,

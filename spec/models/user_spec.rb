@@ -42,7 +42,7 @@ RSpec.describe User do
   describe '#completed?' do
     let(:lesson) { create(:lesson) }
 
-    context 'when the user has completed  the lesson' do
+    context 'when the user has completed the lesson' do
       let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, user: user) }
 
       it 'returns true' do

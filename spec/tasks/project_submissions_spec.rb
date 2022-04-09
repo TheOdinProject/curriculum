@@ -16,7 +16,7 @@ describe ':project_submissions' do
   describe 'project_submissions:discard' do
     context 'with a discardable project submission' do
       let(:project_submission) do
-        FactoryBot.create(
+        create(
           :project_submission,
           discard_at: 1.day.ago
         )
@@ -30,7 +30,7 @@ describe ':project_submissions' do
 
     context 'with a non discardable project submission' do
       let(:project_submission) do
-        FactoryBot.create(:project_submission)
+        create(:project_submission)
       end
 
       it 'does not discard it' do

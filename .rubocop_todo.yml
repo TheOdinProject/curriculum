@@ -6,35 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 4
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: CustomTransform, IgnoredWords.
-RSpec/ExampleWording:
-  Exclude:
-    - 'spec/services/course_progress_spec.rb'
-    - 'spec/system/lesson_navigation_spec.rb'
-
-# Offense count: 1
-# This cop supports safe auto-correction (--auto-correct).
-RSpec/ExcessiveDocstringSpacing:
-  Exclude:
-    - 'spec/models/user_spec.rb'
-
-# Offense count: 4
-# This cop supports safe auto-correction (--auto-correct).
-RSpec/FactoryBot/SyntaxMethods:
-  Exclude:
-    - 'spec/controllers/registrations_controller_spec.rb'
-    - 'spec/tasks/curriculum_spec.rb'
-    - 'spec/tasks/project_submissions_spec.rb'
-
-# Offense count: 1
-# Configuration parameters: Include, CustomTransform, IgnoreMethods, SpecSuffixOnly.
-# Include: **/*_spec*rb*, **/spec/**/*
-RSpec/FilePath:
-  Exclude:
-    - 'spec/factories_spec.rb'
-
 # Offense count: 2
 # This cop supports safe auto-correction (--auto-correct).
 # Configuration parameters: EnforcedStyle.

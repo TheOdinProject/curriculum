@@ -24,7 +24,7 @@ RSpec.describe CourseProgress do
     it { is_expected.not_to be_completed }
 
     describe '#percentage' do
-      it 'should be at 0%' do
+      it 'returns 0%' do
         expect(subject.percentage).to eq(0)
       end
     end
@@ -37,7 +37,7 @@ RSpec.describe CourseProgress do
     it { is_expected.not_to be_completed }
 
     describe '#percentage' do
-      it 'should be at 30%' do
+      it 'returns 30%' do
         expect(subject.percentage).to eq(30)
       end
     end
@@ -50,7 +50,7 @@ RSpec.describe CourseProgress do
     it { is_expected.to be_completed }
 
     describe '#percentage' do
-      it 'should be at 100%' do
+      it 'returns 100%' do
         expect(subject.percentage).to eq(100)
       end
     end

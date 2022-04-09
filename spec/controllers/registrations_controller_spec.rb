@@ -37,7 +37,7 @@ RSpec.describe RegistrationsController do
   end
 
   describe 'PATCH #update' do
-    let(:user) { FactoryBot.create(:user) }
+    let(:user) { create(:user) }
     let(:updated_attributes) do
       {
         email: 'kevin@email.com',
