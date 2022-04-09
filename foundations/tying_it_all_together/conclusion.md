@@ -13,6 +13,7 @@ Arguments about learning the languages used in your area may sound convincing, b
 To help you make a decision, here are some perks of each technology:
 
 #### Ruby and Ruby On Rails: 
+
 * Opinionated 
   - You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
   - You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
@@ -25,6 +26,7 @@ To help you make a decision, here are some perks of each technology:
   - Object-oriented programming (OOP) is the Ruby way; many other languages are primarily OOP-based.
 
 #### JavaScript/Node & Express
+
 * Un-opinionated
   - There is no standard way of doing things. You are going to have to decide the structure of projects yourself, for better or worse.
 * Very fast
@@ -41,3 +43,9 @@ In the end, it doesn't matter which path you take. It's only important that you 
 Get ready, because this is only the beginning. Now it's time to delve deeper into the areas covered by Foundations. There are some fantastic projects in the courses that follow which will challenge you to the limit, but you'll come out the other side ready to go and make your mark in the programming world. 
 
 The journey has just begun!
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+ 
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
