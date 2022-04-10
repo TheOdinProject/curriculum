@@ -89,8 +89,14 @@ It's also a chance for you to test them out.  If you've gotten this far in the p
 
 ### A Note on Compensation
 
-Do. Not. Provide. Compensation. Expectations.
+Be mindful when providing your salary expectations. Companies will always ask you "how much do you expect to get paid", often in the initial phone screen. Providing a single concrete number can be the opposite of beneficial, because you may offer a number higher than their range and thus be deemed too expensive, or you may have come in too low and they now know they may be able to cap your offered compensation at a lower number than they might have. It's safest to provide a range (e.g. "I am looking for something between $80,000 - $90,000.") in order to better meet their budget and also allow some wiggle room for negotiations. 
 
-Companies will always ask you "how much do you expect to get paid".  Your answer?  "I expect to get paid a fair market rate" (unless you're a bit cocky and decide you should get paid above market.  See how that goes.).  There's nothing you can possibly gain from providing an expectation for comp.  If it's lower than what they would have offered you, you just capped what they'll offer you.  If it's higher, they may just scuttle the process because you're too expensive.
+Once you have an offer, you can check it against fair market rate by asking other people (hopefully you've got some people by now who you might ask) or going to the below resources to compare. While "junior" doesn't equate to being underpaid, do be mindful to adjust for years of experience (0-1) as to get the most accurate picture.
 
-Once you have an offer, you can check it against fair market rate by asking other people (hopefully you've got some people by now who you might ask) or going to [Glassdoor](http://glassdoor.com) (just remember you're junior so won't get "average").  But the real point is to not shoot yourself in the foot when they ask.
+- [Levels.fyi](https://www.levels.fyi/)
+- [Glassdoor](https://www.glassdoor.com/Salaries/index.htm)
+- [Comparably](https://www.comparably.com/)
+- [Payscale](https://www.payscale.com/)
+- [Talent](https://www.talent.com/salary)
+
+Finally, if a recruiter has reached out to you, it can also be helpful to ask what the budget for the role is up front. However, this must be done tactfully. If you have not been asked your compensation expectations and have not been told the budget up front in the initial message, it can be a great way to understand if both parties are wasting each other's time, but do keep in mind that asking must be done in a respectful manner. It can be helpful to phrase this ask by saying, "Is there an allocated salary range for the role?" or somehting similar. 
