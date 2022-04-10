@@ -2,9 +2,9 @@
 
 In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In this lesson, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or simply need a refresher.
 
-### Learning Outcomes
+### Lesson Overview
 
-By the end of this lesson, you should be able to
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Add styles to HTML with CSS.
 * Understand how to use the class and ID attributes.
@@ -259,6 +259,8 @@ img {
   width: 500px;
 }
 ~~~
+
+For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
 
 It's best to include both of these properties for `<img>` elements, even if you don't plan on adjusting the values from the image file's original ones. When these values aren't included, if an image takes longer to load than the rest of the page contents, the image won't take up any space on the page at first, but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be "reserved" on the page and will just appear as a blank space until the image loads.
 
@@ -519,7 +521,8 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; simply look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#external-css">What are the main differences between external, internal, and inline CSS?</a>
 * <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>

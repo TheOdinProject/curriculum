@@ -218,9 +218,9 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [Interneting Is Hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+*   [Interneting Is Hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 
 ### Knowledge Check
 

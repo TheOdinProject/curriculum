@@ -41,7 +41,7 @@ purpose?
 behavior
 * **data-clipboard-target** is set to `source`. Which says: this is the the `source` we are gonna use for our clipboard
 controller
-* **data-action** is set to `click->clipboard#copy`. Which means: On a click invoke the `copy`action the our clipboard
+* **data-action** is set to `click->clipboard#copy`. Which means: On a click invoke the `copy` action from our clipboard
 controller
 
 So together these three attributes enable the following behavior: When a user `click`s on the button, use the function
@@ -52,7 +52,7 @@ Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimu
 It generally does not render HTML, instead it attaches behavior to your existing HTML with sprinkles of JavaScript.
 Through the consistent use of some data attributes we can read the HTML and can see where the HTML is enhanced.
 
-Look this HTML without the special data-attributes Stimulus uses:
+Look at this HTML without the special data-attributes Stimulus uses:
 
 ~~~html
 <input id="pin-code" value="1337" readonly>
@@ -62,7 +62,7 @@ Look this HTML without the special data-attributes Stimulus uses:
 Probably something is supposed to happen, when you click that button. However you can't tell from the HTML
 alone how things are wired up. You have to search for some JavaScript that handles this behavior.
 
-So let's got through the basic aspects of Stimulus controllers. Don't worry if you don't understand
+So let's go through the basic aspects of Stimulus controllers. Don't worry if you don't understand
 everything on the first read through, the assignments will give more in depth information.
 
 ### The Stimulus controller
@@ -95,7 +95,7 @@ This creates a scope, all the following attributes will only work within the sco
 You learned how to trigger events with event listeners, in Stimulus instead you use `data-action` attributes to
 execute javascript to react to a user click or input.
 
-So instead of `document.querySelector("button).addEventListener("click", showAlert)` we write the following HTML
+So instead of `document.querySelector("button").addEventListener("click", showAlert)` we write the following HTML
 
 ~~~html
 <div data-controller="alert">
