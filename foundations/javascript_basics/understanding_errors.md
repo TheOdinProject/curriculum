@@ -2,7 +2,9 @@
 
 Reading and understanding error messages is a requirement as a developer. At first glance, many beginners shrink away from error messages as they appear to be “scary” and difficult to understand because they include terms one may not be familiar with. However, error messages provide developers with a treasure trove of knowledge, and tell you everything you need to know about how to resolve them! Being able to parse error messages and warnings without fear will enable you to be able to effectively debug your applications, receive meaningful help from others, and empower yourself to push forward when faced with an error.
 
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Name at least three kinds of Javascript errors
 - Identify two parts of an error message that help you find where the error originates
@@ -128,7 +130,8 @@ This section contains helpful links to other content. It isn't required, so cons
 [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
 - <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>

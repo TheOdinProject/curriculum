@@ -36,7 +36,7 @@ We'll tackle some practical examples using this sample markup.
 </main>
 ~~~
 
-By now, you should be pretty comfortable writing rules using the descendant combinator you learned about in [foundations](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations). For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
+By now, you should be pretty comfortable writing rules using the descendant combinator you learned about in [foundations](https://www.theodinproject.com/lessons/foundations-css-foundations). For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
 
 ~~~css
 main div {
@@ -96,7 +96,7 @@ As always don't forget to check the [docs](https://developer.mozilla.org/en-US/d
 #### Dynamic and User Action Pseudo-classes
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
 
-[`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard. 
+[`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
 
 <span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
 
@@ -130,7 +130,7 @@ Structural pseudo-classes are a powerful way to select elements based on their p
 
 <span id="first-child-knowledge-check">[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/)</span> and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that are the first or last sibling.
 
-Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that have no children at all, or just one.
+Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) will match elements that have no children at all, and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that don't have any siblings.
 
 For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
 

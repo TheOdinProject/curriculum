@@ -27,11 +27,11 @@ We're going to approach this lesson hands-on. Let's set up a grid with five colu
 
 In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that _isn't_ related to the lesson so you can understand why it is being used.
 
-##### `.grid-item, p, img` selectors
+#### `.grid-item, p, img` selectors
 
 All the properties here are simply to make our grid items look a bit nicer. They are all relatively straightforward, so no need to dive into specifics.
 
-##### `.grid-container`
+#### `.grid-container`
 
 For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom right corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
 
@@ -102,7 +102,7 @@ Let's take a look at what happens if we give our column and row tracks in the sa
 
 Notice how all of our grid items now fill up the entire width and height of the grid? Neat, right? Now, try resizing that example and see what happens. Even cooler!
 
-We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first two a track size of `2fr` and the remaining three a track a size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
+We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first two a track size of `2fr` and the remaining three a track size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="QWqwwJG" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/QWqwwJG">
@@ -134,11 +134,11 @@ You can also mix static units (like `px`) and dynamic units (like `fr`):
 
 You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
 
-### Minimum and Maximum Track Sizes: `min()` and `max()`
+### Minimum and Maximum Track Sizes: min() and max()
 
 When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations.
 
-We learned about `min()` and `max()` in our previous lesson on CSS functions, but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
+We learned about `min()` and `max()` in our previous [lesson on CSS functions](https://www.theodinproject.com/lessons/intermediate-html-and-css-css-functions), but a bit of review can't hurt. Both of these functions will return a value based on the arguments you supply them. `min()` will return the smallest of all the values passed in, and `max()` will return the largest. For example, `min(100px, 200px)` will return a value of `100px` every time, while `max(100px, 200px)` will return a value of `200px` every time.
 
 You can supply as many arguments to these functions as you want:
 
@@ -246,7 +246,7 @@ Using `clamp()` and `minmax()` are fantastic methods for making grids more respo
 
 These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that are flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
-According to the W3 specification, both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
+According to the [W3 specification on auto-fill and auto-fit](https://www.w3.org/TR/css-grid-1/#auto-repeat), both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
 
 ~~~css
 .simple-example {
@@ -298,12 +298,6 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
-
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-- Read [this great article](https://web.dev/min-max-clamp/) comparing `min()`, `max()`, and `clamp()`.
-</div>
 
 ### Practice
 

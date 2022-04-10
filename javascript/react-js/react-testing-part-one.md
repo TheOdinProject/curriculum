@@ -1,6 +1,6 @@
 ### Introduction
 
-We've learned testing our vanilla JavaScript applications in the previous section. Testing is indeed a powerful tool that allows to write maintainable and flexible code. If you've followed along our lessons, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
+We've learned how to test our vanilla JavaScript applications in a previous section. Testing is indeed a powerful tool that allows us to write maintainable and flexible code. If you've followed along with our lessons so far, we've been using the [Jest](https://jestjs.io/) framework. For React, we'll keep using Jest and add more capabilities to our tests using the React Testing library.
 
 ### Lesson Overview 
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Setting Up
 
-We'll need to import some packages atop our test file:
+We'll need to import some packages inside of our testing file:
 
 ~~~javascript
 import React from "react";
@@ -64,7 +64,7 @@ describe("App component", () => {
 
 ~~~
 
-Execute `npm test App.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" section. 
+Execute `npm test App.test.js` on the terminal and you'll see that test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" section. 
 
 <span id="by-role-methods">As stated by the React Testing Library docs, `ByRole` methods are the favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e mouse or assistive technologies).</span>
 

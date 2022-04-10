@@ -13,10 +13,10 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 **Contents:**
 
 1.  [Lesson layout](#lesson-layout)
-1.  [Project layout](#Project-layout)
+1.  [Project layout](#project-layout)
 1.  [Headings](#headings)
     1.  [ATX-style headings](#atx-style-headings)
-    1.  [Add spacing to headings](#add-spacing-to-headings)
+1.  [Newlines](#newlines)
 1.  [Lists](#lists)
     1.  [Use lazy numbering for long lists](#use-lazy-numbering-for-long-lists)
     1.  [Nested list spacing](#nested-list-spacing)
@@ -60,16 +60,9 @@ CUSTOM SECTION CONTENT.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM
+1.  A RESOURCE OR EXERCISE ITEM
     *   AN INSTRUCTION ITEM
-</div>
 
-### Practice
-
-<div class="lesson-content__panel" markdown="1">
-
-1.  A PRACTICE ITEM
-    *   A TASK ITEM
 </div>
 
 ### Knowledge Check
@@ -94,27 +87,27 @@ This section contains helpful links to related content. It isn’t required, so 
 
 3.  `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections. **If the lesson does not have any custom sections, remove this entire section from the lesson.**
 
-4.  `### Assignment`: A numbered list of external resources the user must read or watch in order to fully complete the lesson. Each resource should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, a resource should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any exercises within the resource, and whether the user should redirect themselves to additional links within the resource.
+4.  `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson. 
 
-    Replace the `A RESOURCE ITEM.` text with your own text and a link to the resource, then add any additional numbered resource items. The assignment should ideally have no more than 3-5 resource items. **If the lesson does not have an assignment, remove this entire section from the lesson.**
+    Each assignment item should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, an assignment item should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any specific exercises, and whether the user should redirect themselves to additional links within the resource.
 
-    If a resource includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items. If a user should only read specific sections within a resource, each individual section to be read should be its own bulleted instruction item. **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
+    Replace the `A RESOURCE OR EXERCISE ITEM.` text with your own text and a link to the resource or exercise (or any applicable instructions if an exercise isn't external), then add any additional numbered assignment items. The lesson should ideally have no more than 3-5 assignment items (reading several sections on a web page or completing a folder of 5 exercises would be considered a single assignment item). **If the lesson does not have an assignment, remove this entire section from the lesson.**
 
-5.  `### Practice`: A numbered list of practice items that the user must do in order to fully complete the lesson. This can involve following a tutorial, revisiting an older project, completing exercises in one of our exercise repos, and so on.
+    If an assignment item includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items. 
+    
+    If a user should only read specific sections within a resource (e.g. "Skip Chapter 7") or complete only specific exercises (e.g. "Complete the first two exercises in the repo"), each instruction item should be its own bullet. 
+    
+    **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
-    Replace the `A PRACTICE ITEM` text with instructions for what exactly the user must do, as well as a link when necessary. Then add any additional numbered practice items. **If the lesson does not have any practice, remove this entire section from the lesson.**
+5.  `### Knowledge Check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute) or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
 
-    If a practice item only requires certain tasks within it to be completed, replace the `A TASK ITEM` text with a single task, then add any additional task items. Each individual task to be completed within a practice item should be its own bulleted task item. **If a practice item does not have any specific tasks to be completed, remove the bulleted `A TASK ITEM` text from it.**
-
-6.  `### Knowledge Check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute) or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
-
-    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
+    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson. **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
 
     In order to link to a Heading 3 `###` or Heading 4 `####` within the lesson, replace the `href` value for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase and any spaces replaced with a hyphen `-`. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `href="#creating-a-method"`.
     
     In order to link to a `<span>` element within the lesson, replace the `href` value with the exact `id` attribute of the `<span>` element (this will be case sensitive).  For example, a `<span id="Knowledge-Check-3">` element would be linked to with `href="#Knowledge-Check-3"`.
 
-7.  `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
+6.  `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
 
     **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
 
@@ -160,31 +153,41 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 ## Headings
 
-### ATX-style headings
+### Title Case
 
-Use Heading 3 `###` and [Wikipedia Style Title Case](https://titlecaseconverter.com/rules/#WP) for main section titles:
+Headings should always use [Wikipedia Style Title Case](https://titlecaseconverter.com/rules/#WP):
 
 ~~~markdown
-### Section Heading
+### This Is Wikipedia Style Title Case
+
+### This is not Wikipedia style title case
 ~~~
 
-Use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Title Case, being sure to select the Wikipedia "Styles" option.
+You can use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Wikipedia Title Case; just select the Wikipedia "Styles" option.
 
-### Add spacing to headings
+### No Code Snippets
 
-Prefer spacing after the hashes `###` of a heading, and newlines before and after a heading:
+Headings should never contain any code snippets.
+
+```markdown
+<!-- Wrong -->
+### The `id` Property
+
+<!-- Right -->
+### The id Property
+```
+
+### ATX-style headings
+
+Use Heading 3 `###`  for main section titles ("Lesson Overview", "Assignment", custom sections, etc):
 
 ~~~markdown
-Text before...
-
 ### Section Heading
-
-...text after.
 ~~~
 
 ### Sub-heading
 
-Use Title Case and either Heading 4 `####` for sub-headings that are on their own line or `**Sub-heading**` for inline:
+Use either Heading 4 `####` for sub-headings that are on their own line or `**Sub-heading**` for inline:
 
 ~~~markdown
 ...text before.
@@ -194,6 +197,22 @@ Use Title Case and either Heading 4 `####` for sub-headings that are on their ow
 Text after...
 
 **Inline Sub-heading:** Some text defining this sub-heading...
+~~~
+
+## Newlines
+
+Each Markdown file should have an empty newline at the very end, after all of the file's contents. 
+
+Always add a newline before and after a heading, a list, an Assignment panel, or any other content that is not strictly text:
+
+~~~markdown
+Content before...
+
+### Section Heading
+
+1. A list item
+
+...content after.
 ~~~
 
 ## Lists
@@ -293,6 +312,18 @@ const obj = {
 It is best practice to explicitly declare the language immediately after the opening tilde marks, so that neither the
 syntax highlighter nor the next editor must guess.
 
+#### No Extraneous Characters
+
+Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
+
+```bash
+// The below example is incorrect
+$ cd Documents
+
+// The below is correct
+cd Documents
+```
+
 #### Nest codeblocks within lists
 
 If you need a codeblock within a list, make sure to indent it so as to not break
@@ -337,7 +368,7 @@ Images in Markdown follow the same syntax as links, except they begin with an ex
 
 The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative, but shouldn't be overly verbose.
 
-In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page.
+In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page to get a statically URL as seen in the codeblock above.
 
 ## Codepen Embeds
 

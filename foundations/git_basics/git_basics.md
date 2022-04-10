@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to do the following:
 
 #### Create the Repository
 
-1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
+1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
 

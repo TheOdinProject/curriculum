@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to:
 
 ### Building your own backend with Ruby on Rails
 
-Since you've already learned Ruby on Rails in our [full-stack Ruby on Rails path](https://www.theodinproject.com/paths/full-stack-ruby-on-rails), the next step is obvious: you get to build your own backend with Rails! In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
+Since you've already learned Ruby on Rails in our [full-stack Ruby on Rails path](https://www.theodinproject.com/paths/full-stack-ruby-on-rails), the next step is obvious: you get to build your own backend with Rails! In preparation, reread the [Rails lesson on building an API](https://www.theodinproject.com/lessons/ruby-on-rails-apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 
 Are you done? Good. Next, it's time to practice allowing your front end JavaScript to talk to your Rails backend using AJAX.  We'll cover some best practices for how to pass data from one to another, but otherwise it's up to you: you've got everything you need to put together those final pieces of the web development puzzle.
 

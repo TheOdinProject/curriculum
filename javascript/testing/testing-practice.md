@@ -1,6 +1,27 @@
 ### Introduction
 Let's practice!  This testing thing really is not that difficult, but it _is_ quite new.  The only way to get comfortable with it is to spend some time doing it.
 
+### Using ES6 import statements with Jest
+
+By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may do the following:
+
+1. Install the @babel/preset-env package
+
+
+    ```
+    npm i -D @babel/preset-env
+    ```
+
+2. Create a .babelrc file in the project's root with the following lines of code:
+
+    ``` 
+    {
+      "presets": ["@babel/preset-env"]
+     }
+    ```  
+
+This will allow you to use import statements. Note that in the Jest docs similar instructions are laid out [here](https://jestjs.io/docs/en/getting-started#using-babel).
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -33,24 +54,3 @@ Write tests for the following, and then make the tests pass!
    };
    ~~~
 </div>
-
-### Special Note on using ES6 import statements with Jest
-
-By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may do the following:
-
-1. Install the @babel/preset-env package
-
-
-    ```
-    npm i -D @babel/preset-env
-    ```
-
-2. Create a .babelrc file in the project's root with the following lines of code:
-
-    ``` 
-    {
-      "presets": ["@babel/preset-env"]
-     }
-    ```  
-
-This will allow you to use import statements. Note that in the Jest docs similar instructions are laid out [here](https://jestjs.io/docs/en/getting-started#using-babel).

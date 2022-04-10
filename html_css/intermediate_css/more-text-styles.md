@@ -1,9 +1,9 @@
 ### Introduction
-You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful css properties that can be used when working with text.
+You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful CSS properties that can be used when working with text.
 
 ### Learning Outcomes
 * You'll learn how to use custom fonts on your web projects.
-* You'll learn some more text-related css properties.
+* You'll learn some more text-related CSS properties.
 
 ### Fonts
 In our foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
@@ -49,7 +49,7 @@ body {
 Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
 
 #### Downloaded Fonts
-It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use as you would any other font-family.
+It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use as you would any other font-family. There are multiple types of font file formats and you can read more in depth about them on [fileinfo.com's page on Font File Formats](https://fileinfo.com/filetypes/font). Please take care when choosing a font file format however, because some are not universally supported by browsers. A list of browsers and the font formats they support can be found on [W3 Schools' page on CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp).
 
 ~~~css
 @font-face {
@@ -68,12 +68,24 @@ This method _may_ be more reliable than relying on an third-party font API, but 
 You learned the basics of manipulating fonts in our foundations lessons, but there is quite a bit more that you can do with CSS when it comes to manipulating text styles. These rules are all relatively simple and self-explanatory. You can refer to the docs for any questions you might have.
 
 #### font-style
-Typically used to make a font italic. You learned about the HTML `<em>` tag which uses an italic font, but `<em>` _also_ signifies that the text it wraps is significant, or should be emphasized in some way. A good rule of thumb to follow is that if you just want text to be italic (or bold, underlined, highlighted, etc.), use a CSS property. Otherwise if text should have some sort of semantic emphasis, use the correct HTML element. For example, if you want all your header text to be italic you should use `font-style` to accomplish this. If you want some text in the _middle of a sentence_ to appear italic in order to emphasize that text, it is appropriate to use an `em` element.
+Typically used to make a font italic. You learned about the HTML `<em>` tag, which uses an italic font, but `<em>` _also_ signifies that the text it wraps is significant or should be emphasized in some way. A good rule of thumb to follow is that if you just want text to be italic (or bold, underlined, highlighted, etc.), use a CSS property. Otherwise, if text should have some sort of semantic emphasis, use the correct HTML element.
+
+For example, if you want all your header text to be italic you should use `font-style` to accomplish this. If you want some text in the _middle of a sentence_ to appear italic in order to emphasize that text, it is appropriate to use an `em` element. The [MDN doc on the Emphasis Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) puts stress on our point above.
+
+We should use `font-style: italic;` if italics is required for styling purposes.
 
 ~~~css
 h1 {
   font-style: italic;
 }
+~~~
+
+We should use the `em` element if italics is required for emphasis.
+
+~~~html
+<p>I <em>never</em> said he stole your money</p>
+<p>I never said <em>he</em> stole your money</p>
+<p>I never said he stole <em>your</em> money</p>
 ~~~
 
 #### letter-spacing
@@ -109,7 +121,7 @@ As you might expect, `text-shadow` adds a shadow around the text in the selected
 The examples on the [MDN reference page for text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) show how to use it.
 
 #### ellipsis
-This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, I know.  Sorry.)
+This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
 
 The full snippet is:
 

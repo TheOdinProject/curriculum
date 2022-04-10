@@ -1,8 +1,8 @@
 ### Introduction
 Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.
 
-### Learning Outcomes
-At the end of this lesson, you should be able to do the following:
+### Lesson Overview
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Describe what the internet is.
 * Describe what packets are and how they are used to transfer data.
@@ -33,7 +33,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!  
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work">What is a network?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=7_LPdttKXPc&t=46s">What is the internet?</a>

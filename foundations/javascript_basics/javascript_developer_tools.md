@@ -1,9 +1,9 @@
 ### Introduction
 Knowing how to use the Developer Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, and viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript.
 
-### Learning outcomes
+### Lesson Overview
 
-After completing this lesson, you will be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Change screen size of a website with developer tools
 - View and change the DOM
@@ -54,10 +54,11 @@ This section contains helpful links to other content. It isn't required, so cons
 
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 
-### Knowledge Check 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+### Knowledge Check
 
-- <a class="knowledge-check-link" href="#opening-dev-tools"> How do you open developer tools? </a>
-- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/device-mode/"> How do you change screen size of a website using developer tools?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- <a class="knowledge-check-link" href="#opening-dev-tools">How do you open developer tools? </a>
+- <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/device-mode/">How do you change screen size of a website using developer tools?</a>
 - <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
 - <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>

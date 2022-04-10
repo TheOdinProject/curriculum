@@ -1,7 +1,10 @@
 ### Introduction
 The MDN box model article linked in the previous lesson mentions that different display types have subtly different box models, and that you can change how a box is calculated by changing the `display` property. We will explore the different display values you can use further in this lesson.
 
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
 * You'll learn about "Normal flow."
 * You'll learn the difference between `block` and `inline` elements.
 * You'll learn which elements default to `block` and which elements default to `inline`.
@@ -19,7 +22,7 @@ We can't talk about block and inline elements without discussing divs and spans.
 
 Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements we can give an id or class so we can target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to position them on the page correctly. Divs and spans provide us with the ability to do this.
 
-Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allows us to _divide_ the page into different blocks and apply styling to those blocks.
+Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to _divide_ the page into different blocks and apply styling to those blocks.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR">
@@ -51,12 +54,14 @@ Span is an inline-level element by default. It is commonly used to group text co
 
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [This tutorial](http://web.archive.org/web/20210813033024/https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#block-inline-difference">What is the difference between a block element and an inline element?</a>
 * <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block">What is the difference between an inline element and an inline-block element?</a>

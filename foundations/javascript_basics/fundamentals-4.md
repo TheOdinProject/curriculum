@@ -44,6 +44,12 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the 'solutions' branch of the repo.
 </div>
 
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

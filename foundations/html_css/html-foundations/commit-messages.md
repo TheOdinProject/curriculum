@@ -6,9 +6,9 @@ This lesson will explain the importance of good commit messages, how to write th
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to write a meaningful commit message
-- Why meaningful commit messages are important
-- When to commit
+* How to write a meaningful commit message
+* Why meaningful commit messages are important
+* When to commit
 
 ### Are commit messages so important they deserve their own lesson?
 
@@ -45,6 +45,12 @@ There will come a time when you are working on a project and you FINALLY get som
 - Avoid using vague commit messages such as "saved" or "updated"
 - Commit early and often!
 
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+ 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
