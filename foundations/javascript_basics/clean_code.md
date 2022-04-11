@@ -100,7 +100,7 @@ This section contains helpful links to related content. It isn’t required, so 
 * [Airbnb style guide](https://github.com/airbnb/javascript)  
 * [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
 
-### Knowledge check
+### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
