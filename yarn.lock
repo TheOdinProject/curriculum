@@ -1876,6 +1876,7 @@
     element-closest "^2.0.2"
     eventlistener-polyfill "^1.0.5"
     mutation-observer-inner-html-shim "^1.0.0"
+
 "@tailwindcss/typography@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.4.1.tgz#51ddbceea6a0ee9902c649dbe58871c81a831212"
@@ -8879,12 +8880,12 @@ react@^16.14.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
-react_ujs@^2.6.0, react_ujs@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/react_ujs/-/react_ujs-2.6.1.tgz"
-  integrity sha512-9M33/A8cubStkZ2cpJSimcTD0RlCWiqXF6e90IQmMw/Caf/W0dtAzOtHtiQE3JjLbt/nhRR7NLPxMfnlm141ig==
+react_ujs@^2.6.1, react_ujs@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/react_ujs/-/react_ujs-2.6.2.tgz#28230c4082c6e99ecfe8cf59a8a95f3562fe89c5"
+  integrity sha512-4WH91hVZp0533LsTjbcd9uI9xS/7/e4QkFbDpDjy8Pr7GuUt1gE+cM0zml7Ii9aSUDl2A/zzkUrLN5X9akmViQ==
   dependencies:
-    react_ujs "^2.6.0"
+    react_ujs "^2.6.1"
 
 read-cache@^1.0.0:
   version "1.0.0"
