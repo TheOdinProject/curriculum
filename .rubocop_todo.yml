@@ -6,15 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 2
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: single_line_only, single_statement_only, disallow
-RSpec/ImplicitSubject:
-  Exclude:
-    - 'spec/models/flag_spec.rb'
-    - 'spec/models/project_submission_spec.rb'
-
 # Offense count: 21
 RSpec/LetSetup:
   Exclude:
@@ -74,21 +65,6 @@ RSpec/NotToNot:
   Exclude:
     - 'spec/models/project_submission_spec.rb'
     - 'spec/models/user_spec.rb'
-
-# Offense count: 4
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: numeric, symbolic
-RSpec/Rails/HttpStatus:
-  Exclude:
-    - 'spec/requests/static_pages_spec.rb'
-
-# Offense count: 2
-# This cop supports safe auto-correction (--auto-correct).
-RSpec/ScatteredLet:
-  Exclude:
-    - 'spec/system/lesson_project_submissions/edit_submission_spec.rb'
-    - 'spec/system/user_project_submissions/edit_submission_spec.rb'
 
 # Offense count: 30
 # Configuration parameters: IgnoreNameless, IgnoreSymbolicNames.

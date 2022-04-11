@@ -3,18 +3,17 @@ require 'rails_helper'
 RSpec.describe 'Editing a Project Submission', type: :system do
   let(:user) { create(:user) }
   let(:lesson) { create(:lesson, :project) }
-
-  before do
-    sign_in(user)
-    visit lesson_path(lesson)
-    Pages::ProjectSubmissions::Form.fill_in_and_submit
-  end
-
   let(:edited_field_values) do
     {
       repo_url: 'https://github.com/edited-project-repo-url',
       live_preview_url: 'http://edited-live-preview-url.com'
     }
+  end
+
+  before do
+    sign_in(user)
+    visit lesson_path(lesson)
+    Pages::ProjectSubmissions::Form.fill_in_and_submit
   end
 
   it 'successfully edits a submission' do

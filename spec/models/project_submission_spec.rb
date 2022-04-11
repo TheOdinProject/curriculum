@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe ProjectSubmission, type: :model do
-  subject { create(:project_submission) }
+  subject(:project_submission) { create(:project_submission) }
 
   it { is_expected.to belong_to(:user) }
   it { is_expected.to belong_to(:lesson) }
@@ -19,10 +19,12 @@ RSpec.describe ProjectSubmission, type: :model do
   it { is_expected.to validate_uniqueness_of(:user_id).scoped_to(:lesson_id) }
 
   context 'when live preview is not allowed' do
-    subject { build(:project_submission, lesson: create(:lesson, has_live_preview: false)) }
+    subject(:project_submission) do
+      build(:project_submission, lesson: create(:lesson, has_live_preview: false))
+    end
 
     it do
-      is_expected.to_not allow_value('http://www.github.com/fff')
+      expect(project_submission).to_not allow_value('http://www.github.com/fff')
         .for(:live_preview_url)
         .with_message('Live preview is not allowed for this project')
     end

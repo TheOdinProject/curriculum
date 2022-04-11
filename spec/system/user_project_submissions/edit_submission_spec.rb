@@ -4,18 +4,17 @@ RSpec.describe 'Editing a Project Submission on the Dashboard', type: :system do
   let(:user) { create(:user) }
   let(:another_user) { create(:user) }
   let(:lesson) { create(:lesson, :project) }
-
-  before do
-    create(:project_submission, user: user, lesson: lesson)
-    sign_in(user)
-    visit dashboard_path
-  end
-
   let(:edited_field_values) do
     {
       repo_url: 'https://github.com/edited-project-repo-url',
       live_preview_url: 'http://edited-live-preview-url.com'
     }
+  end
+
+  before do
+    create(:project_submission, user: user, lesson: lesson)
+    sign_in(user)
+    visit dashboard_path
   end
 
   it 'successfully edits a submission' do
