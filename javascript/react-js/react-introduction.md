@@ -211,7 +211,7 @@ If you want to get a better understanding of how create-react-app works and whic
 
 ### React Developer Tools
 
-React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it.
+React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. Go [here](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and add React Developer Tools Chrome extension.
 
 ### Assignment
 
