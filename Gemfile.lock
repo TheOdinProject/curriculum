@@ -293,7 +293,7 @@ GEM
     netrc (0.11.0)
     newrelic_rpm (8.5.0)
     nio4r (2.5.8)
-    nokogiri (1.13.3)
+    nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     noticed (1.5.9)
