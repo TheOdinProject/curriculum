@@ -201,9 +201,16 @@ If you want to see all the things we have discussed in action, go ahead and run 
 
 ### Index.js and App.js
 
-Two of the most important files create-react-app includes for you are index.js and App.js. `index.js` is the "entry point" of your application by default. Open up your index.js file and check out this line:
+Two of the most important files create-react-app includes for you are index.js and App.js. `index.js` is the "entry point" of your application by default. Open up your index.js file and check out this:
 
-`ReactDOM.render(<App />, document.getElementById('root'))`
+~~~javascript
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+~~~
 
 In short, this line of code tells React to render the App component into the DOM, and more specifically, into the element with the id "root". Every create-react-app project has a root div, which is visible in the index.html file in your public directory. If you decide to name your main application component something other than `App.js`, make sure to change its name in `index.js` as well.
 
