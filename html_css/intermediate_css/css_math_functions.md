@@ -87,9 +87,7 @@ If there are not `150px` available, the image will switch to `100%` of the paren
 
 #### max()
 
-Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses.
-
-The max function is most useful when the viewing window is either exceptionally large, or the user increases the content size by using the browser’s zoom feature. Specifying the maximum possible size of a given element, for example, will prevent that element from infinitely filling the page as it expands.
+Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a _minimum_ allowed value for a property.
 
 Consider the following property of a given element:
 
@@ -97,8 +95,9 @@ Consider the following property of a given element:
 width: max(100px, 1rem, 4em, 50%)
 ~~~
 
-From this list of given sizes, max will select the largest that will possibly fit within the viewing window.
+From this list of given sizes, max will select the largest one.
 
+The max function is most useful when the viewing window is either exceptionally small, or the user increases the content size by using the browser’s zoom feature.
 You may not find a lot of use for max at first, but it is good tool to be aware of for projects where accessibility is important.
 
 #### clamp()
