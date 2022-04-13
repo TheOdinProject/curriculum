@@ -1,6 +1,6 @@
 import { Controller } from '@hotwired/stimulus';
 
-export default class AdminFlashController extends Controller {
+export default class AnnouncementController extends Controller {
   static values = {
     expiresAt: String,
     id: Number,
@@ -8,6 +8,6 @@ export default class AdminFlashController extends Controller {
 
   hide() {
     const expiresAt = new Date(this.expiresAtValue).toUTCString();
-    document.cookie = `admin_flash_${this.idValue}=disabled; expires=${expiresAt}; path=/`;
+    document.cookie = `announcement_${this.idValue}=disabled; expires=${expiresAt}; path=/`;
   }
 }

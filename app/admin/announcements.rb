@@ -1,4 +1,4 @@
-ActiveAdmin.register AdminFlash do
+ActiveAdmin.register Announcement do
   permit_params :message, :expires
 
   form do |f|

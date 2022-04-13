@@ -1,8 +1,0 @@
-<div class="container">
-  <% AdminFlash.showable_messages(disabled_flash_ids_from_cookies).each do |admin_flash|  %>
-    <div class="alert alert-success fade show admin-flash">
-      <button class="close" data-controller="admin-flash" data-admin-flash-expires-at-value="<%= admin_flash.expires.to_datetime %>" data-admin-flash-id-value="<%= admin_flash.id %>" data-dismiss="alert" data-action="click->admin-flash#hide" data-flash-target="close">&times;</button>
-      <%= admin_flash.message.html_safe %>
-    </div>
-  <% end %>
-</div>
