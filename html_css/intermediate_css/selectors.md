@@ -182,7 +182,7 @@ The last tool we're going to add to the box is attribute selectors. Recall that 
 
 Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
 
-Attribute selectors have the same specificity as classes and pseudo-classes (0,0,1,0).
+Attribute selectors have the same specificity as classes and pseudo-classes (0, 0, 1, 0).
 
 Let's look at some examples for basic usage.
 
