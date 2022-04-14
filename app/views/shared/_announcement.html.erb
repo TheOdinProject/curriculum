@@ -1,7 +1,7 @@
 <div class="container">
   <% Announcement.showable_messages(disabled_announcement_ids).each do |announcement|  %>
     <div class="alert alert-success fade show announcement">
-      <button class="close" data-controller="announcement" data-announcement-expires-at-value="<%= announcement.expires.to_datetime %>" data-announcement-id-value="<%= announcement.id %>" data-dismiss="alert" data-action="click->announcement#hide" data-flash-target="close">&times;</button>
+      <button class="close" data-controller="announcement" data-announcement-expires-at-value="<%= announcement.expires_at.to_datetime %>" data-announcement-id-value="<%= announcement.id %>" data-dismiss="alert" data-action="click->announcement#hide" data-flash-target="close">&times;</button>
       <%= announcement.message.html_safe %>
     </div>
   <% end %>

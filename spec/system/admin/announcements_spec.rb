@@ -11,7 +11,7 @@ RSpec.describe 'Announcements', type: :system do
     before do
       visit new_admin_announcement_path
       fill_in :announcement_message, with: 'Test Message'
-      fill_in :announcement_expires, with: 10.days.from_now.to_date.to_s(:db)
+      fill_in :announcement_expires_at, with: 10.days.from_now.to_date.to_s(:db)
       find_button('Create Announcement').trigger('click')
     end
 
