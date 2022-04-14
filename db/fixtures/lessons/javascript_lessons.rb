@@ -120,9 +120,9 @@ def javascript_lessons
       url: '/javascript/javascript_in_the_real_world/form_validation_with_javascript.md',
       identifier_uuid: 'c95fe496-2223-4c96-bf3f-9d8e3796d233',
     },
-    'ES?' => {
-      title: 'ES?',
-      description: 'ES?',
+    'What is ES6?' => {
+      title: 'What is ES6?',
+      description: 'What is ES6?',
       is_project: false,
       url: '/javascript/javascript_in_the_real_world/what_is_es6.md',
       identifier_uuid: 'f5c4b108-adf8-41af-bf3b-a38dd409a67d',

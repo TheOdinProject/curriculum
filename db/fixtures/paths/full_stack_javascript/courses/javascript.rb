@@ -56,7 +56,7 @@ course.add_section do |section|
     javascript_lessons.fetch('Linting'),
     javascript_lessons.fetch('Dynamic User Interface Interactions'),
     javascript_lessons.fetch('Form Validation with JavaScript'),
-    javascript_lessons.fetch('ES?'),
+    javascript_lessons.fetch('What is ES6?'),
   )
 end
 
