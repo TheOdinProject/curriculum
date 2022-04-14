@@ -68,4 +68,5 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   Open source is great for collaborating. So mastering Git's basics is the minimum requirement. Actively learn Git workflows with this [interactive **Visual Git Cheatsheet**](https://ndpsoftware.com/git-cheatsheet.html#loc=index;) by Andrew Peterson. 
+*   Make pushing your local commits to remote branches **easier** with the command `git push -u origin <branch>`. It automatically links the local branch you push with the remote one. [Read this educative.io article](https://www.educative.io/edpresso/what-is-the-git-push--u-remote-branch-name-command) by Talha Ashar and commit faster to a remote branch with a simple `git push` command.  
