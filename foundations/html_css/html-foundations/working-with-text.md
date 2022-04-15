@@ -71,7 +71,7 @@ Using the correct level of heading is important as levels provide a hierarchy to
 
 ### Strong Element
 
-The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on a screen reader will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag.
+The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag.
 
 You can use strong on its own:
 
@@ -95,7 +95,7 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 ### Em Element
 
-The em element makes text italic. It also semantically places emphasis on the text, which again affects things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
+The em element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
 
 To use em on its own:
 
