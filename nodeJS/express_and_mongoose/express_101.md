@@ -65,11 +65,9 @@ app.use(myLogger)
 
 As a final detail, the order that middleware gets executed in your app matters!  Middleware functions will always run in the order that they are instantiated using `app.use()`.
 
-### Using git
+### Using Git
 
-if you choose to use git when completing this tutorial (you should!) then you will want to add a  `.gitignore` file to make sure you do not commit/upload your `node_modules` folder to GitHub. `node_modules` is the directory where all of your project's dependencies are installed (it's where the code for express is downloaded) and it can get quite large. References to all of these dependencies are stored in the `package.json` file anyway, so anyone that wants to clone and work on the project simply has to run `npm install` to download and install all those dependencies anyway, so uploading them to GitHub is a waste of time and space.
-
-- [This article](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) explains the process. You just need to create a file called `.gitignore` and put `node_modules` on a line inside that file.
+As you work through this tutorial, put the node_modules folder in a .gitignore folder.
 
 ### Assignment
 
