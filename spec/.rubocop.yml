@@ -10,6 +10,9 @@ RSpec/ExampleLength:
 RSpec/ExpectChange:
   EnforcedStyle: block
 
+Lint/UselessAssignment:
+  Enabled: false
+
 RSpec/MultipleExpectations:
   Max: 3
   Exclude:

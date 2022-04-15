@@ -56,58 +56,62 @@ RSpec.describe ProjectSubmission, type: :model do
   end
 
   describe '.created_today' do
-    let!(:project_submission_created_today) do
-      create(:project_submission, created_at: Time.zone.today)
-    end
-
-    let!(:project_submission_not_not_created_today) do
-      create(:project_submission, created_at: Time.zone.today - 2.days)
-    end
-
     it 'returns projects submission created today' do
+      project_submission_created_today = create(
+        :project_submission,
+        created_at: Time.zone.today
+      )
+
+      project_submission_not_not_created_today = create(
+        :project_submission,
+        created_at: Time.zone.today - 2.days
+      )
+
       expect(described_class.created_today).to contain_exactly(project_submission_created_today)
     end
   end
 
   describe '.discardable' do
     context 'when the project submission discard_at date is in the past' do
-      let(:project_submission) { create(:project_submission, discard_at: 8.days.ago) }
-
       it 'returns a list including the project submission' do
+        project_submission = create(:project_submission, discard_at: 8.days.ago)
+
         expect(described_class.discardable).to include(project_submission)
       end
     end
 
     context 'when the project submission discard_at date is in the future' do
-      let(:project_submission) { create(:project_submission, discard_at: 1.day.from_now) }
-
       it 'returns a list not including the project submission' do
+        project_submission = create(:project_submission, discard_at: 1.day.from_now)
+
         expect(described_class.discardable).not_to include(project_submission)
       end
     end
 
     context 'when the project submission discard_at date is today' do
-      let(:project_submission) { create(:project_submission, discard_at: 5.minutes.ago) }
-
       it 'returns a list including the project submission' do
+        project_submission = create(:project_submission, discard_at: 5.minutes.ago)
+
         expect(described_class.discardable).to include(project_submission)
       end
     end
 
     context 'when the project submission discard_at date is nil' do
-      let(:project_submission) { create(:project_submission, discard_at: nil) }
-
       it 'returns a list not including the project submission' do
+        project_submission = create(:project_submission, discard_at: nil)
+
         expect(described_class.discardable).not_to include(project_submission)
       end
     end
 
     context 'when the project_submission has been removed by admin' do
-      let(:project_submission) do
-        create(:project_submission, discarded_at: 10.days.ago, discard_at: 6.days.ago)
-      end
-
       it 'returns a list not including the project submission' do
+        project_submission = create(
+          :project_submission,
+          discarded_at: 10.days.ago,
+          discard_at: 6.days.ago
+        )
+
         expect(described_class.discardable).not_to include(project_submission)
       end
     end
@@ -118,9 +122,9 @@ RSpec.describe ProjectSubmission, type: :model do
     let(:discard_date) { DateTime.new(2021, 9, 1) }
 
     context 'when the repo url is being updated' do
-      let(:repo_url) { 'https://www.legitrepo.com' }
-
       it 'sets discard_at to nil' do
+        repo_url = 'https://www.legitrepo.com'
+
         discardable_project_submission.update(repo_url: repo_url)
 
         expect(discardable_project_submission.reload.discard_at).to be_nil
@@ -128,9 +132,9 @@ RSpec.describe ProjectSubmission, type: :model do
     end
 
     context 'when the live_preview_url is being updated' do
-      let(:live_preview_url) { 'https://legitlivepreview.com' }
-
       it 'sets discard_at to nil' do
+        live_preview_url = 'https://legitlivepreview.com'
+
         discardable_project_submission.update(live_preview_url: live_preview_url)
 
         expect(discardable_project_submission.reload.discard_at).to be_nil

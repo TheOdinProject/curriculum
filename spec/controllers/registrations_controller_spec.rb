@@ -16,8 +16,11 @@ RSpec.describe RegistrationsController do
         password_confirmation: 'foobar1',
       }
     end
-    let!(:path) { create(:path, id: 1) }
     let(:user) { User.create(user_attributes) }
+
+    before do
+      create(:path, id: 1)
+    end
 
     it 'redirects to the dashboard' do
       post :create, params: { user: user_attributes }

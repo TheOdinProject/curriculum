@@ -6,23 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 21
-RSpec/LetSetup:
-  Exclude:
-    - 'spec/controllers/registrations_controller_spec.rb'
-    - 'spec/helpers/application_helper_spec.rb'
-    - 'spec/helpers/paths_helper_spec.rb'
-    - 'spec/jobs/mailing_list_job_spec.rb'
-    - 'spec/jobs/update_lesson_content_job_spec.rb'
-    - 'spec/models/lesson_completion_spec.rb'
-    - 'spec/models/path_spec.rb'
-    - 'spec/models/project_submission_spec.rb'
-    - 'spec/models/user_spec.rb'
-    - 'spec/services/users/reset_progress_spec.rb'
-    - 'spec/system/lesson_project_submissions/voting_spec.rb'
-    - 'spec/system/user_dashboard/start_course_spec.rb'
-    - 'spec/system/user_reset_progress_spec.rb'
-
 # Offense count: 2
 RSpec/MessageChain:
   Exclude:

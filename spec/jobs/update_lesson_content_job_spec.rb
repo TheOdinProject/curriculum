@@ -4,11 +4,11 @@ RSpec.describe UpdateLessonContentJob do
   subject(:job) { described_class.new }
 
   describe '#perform' do
-    let!(:lesson_one) { create(:lesson, url: '/lesson_one_github_url') }
-    let!(:lesson_two) { create(:lesson, url: '/lesson_two_github_url') }
-    let!(:lesson_three) { create(:lesson, url: '/lesson_three_github_url') }
-
     it 'updates the content of the lessons' do
+      lesson_one = create(:lesson, url: '/lesson_one_github_url')
+      lesson_two = create(:lesson, url: '/lesson_two_github_url')
+      create(:lesson, url: '/lesson_three_github_url')
+
       VCR.use_cassette('update_lesson_content', record: :once, match_requests_on: [:method]) do
         response = job.perform(['/lesson_one_github_url', '/lesson_two_github_url'])
 

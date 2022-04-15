@@ -3,9 +3,10 @@ require 'rails_helper'
 RSpec.describe 'Voting on Project Submissions', type: :system do
   let(:user) { create(:user) }
   let(:lesson) { create(:lesson, :project) }
-  let!(:project_submission) { create(:project_submission, lesson: lesson) }
 
   before do
+    create(:project_submission, lesson: lesson)
+
     sign_in(user)
     visit lesson_path(lesson)
   end

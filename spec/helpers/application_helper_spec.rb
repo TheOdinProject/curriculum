@@ -134,17 +134,17 @@ RSpec.describe ApplicationHelper do
     let!(:user) { create(:user) }
 
     context 'when the user has unread notifications' do
-      let!(:unread_notification) { create(:notification, recipient: user, read_at: nil) }
-
       it 'returns true' do
+        create(:notification, recipient: user, read_at: nil)
+
         expect(helper.unread_notifications?(user)).to be true
       end
     end
 
     context 'when the user has no unread notifications' do
-      let!(:read_notification) { create(:notification, recipient: user, read_at: Time.zone.now) }
-
       it 'returns false' do
+        create(:notification, recipient: user, read_at: Time.zone.now)
+
         expect(helper.unread_notifications?(user)).to be false
       end
     end

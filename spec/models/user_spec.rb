@@ -43,9 +43,9 @@ RSpec.describe User do
     let(:lesson) { create(:lesson) }
 
     context 'when the user has completed the lesson' do
-      let!(:lesson_completion) { create(:lesson_completion, lesson: lesson, user: user) }
-
       it 'returns true' do
+        create(:lesson_completion, lesson: lesson, user: user)
+
         expect(user.completed?(lesson)).to be(true)
       end
     end
@@ -148,10 +148,10 @@ RSpec.describe User do
   end
 
   describe '#dismissed_flags' do
-    let!(:non_dismissed_flag) { create(:flag, flagger: user, taken_action: :ban) }
-    let!(:dismissed_flag) { create(:flag, flagger: user, taken_action: :dismiss) }
-
     it 'returns flags the user has made that have been dismissed' do
+      non_dismissed_flag = create(:flag, flagger: user, taken_action: :ban)
+      dismissed_flag = create(:flag, flagger: user, taken_action: :dismiss)
+
       expect(user.dismissed_flags).to contain_exactly(dismissed_flag)
     end
   end
@@ -160,9 +160,9 @@ RSpec.describe User do
     let(:course) { create(:course) }
 
     context 'when the user has started the course' do
-      let!(:lesson_completion) { create(:lesson_completion, user: user, course: course) }
-
       it 'returns true' do
+        lesson_completion = create(:lesson_completion, user: user, course: course)
+
         expect(user.started_course?(course)).to be(true)
       end
     end
