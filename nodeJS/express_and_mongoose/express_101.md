@@ -67,7 +67,7 @@ As a final detail, the order that middleware gets executed in your app matters! 
 
 ### Using Git
 
-As you work through this tutorial, put the node_modules folder in a .gitignore folder.
+As you work through this tutorial, put the `node_modules` folder in a `.gitignore` folder.
 
 ### Assignment
 
