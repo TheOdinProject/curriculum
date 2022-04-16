@@ -7,4 +7,3 @@ Files end up here for one or more of the following reasons:
 - Lesson was replaced by another lesson
 - Lesson was deemed outdated and consequently removed from the curriculum
 - and more...
-- 
