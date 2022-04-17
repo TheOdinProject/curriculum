@@ -118,7 +118,7 @@ The important distinction between the "scalar" parameter values like strings and
 To "allowlist", or explicitly allow, parameters, you use the methods `require` and `permit`.  Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used.  For example:
 
 ~~~ruby
-  def allowlisted_post_params
+  def allowed_post_params
     params.require(:post).permit(:title,:body,:author_id)
   end
 ~~~
@@ -137,7 +137,7 @@ So our `#create` action above can now be filled out a bit more:
     # We know this will get run once we've received the submitted
     # form from our new action above (remember your REST actions??)
     def create
-      @post = Post.new(allowlisted_post_params) # see method below
+      @post = Post.new(allowed_post_params) # see method below
       if @post.save
         # code to set up congratulations message
         redirect_to post_path(@post.id) # go to show page for @post
@@ -151,7 +151,7 @@ So our `#create` action above can now be filled out a bit more:
 
     # gives us back just the hash containing the params we need to
     # to create or update a post
-    def allowlisted_post_params
+    def allowed_post_params
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
@@ -181,7 +181,7 @@ Now the full controller code can be written out for our `#create` action:
     # We know this will get run once we've received the submitted
     # form from our new action above (remember your REST actions??)
     def create
-      @post = Post.new(allowlisted_post_params)
+      @post = Post.new(allowed_post_params)
       if @post.save
         flash[:success] = "Great! Your post has been created!"
         redirect_to @post # go to show page for @post
@@ -193,7 +193,7 @@ Now the full controller code can be written out for our `#create` action:
 
     private
 
-    def allowlisted_post_params
+    def allowed_post_params
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
