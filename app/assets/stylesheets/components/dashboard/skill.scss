@@ -6,15 +6,10 @@
   border-bottom: 1px solid $very-pale-grey;
   color: $grey;
 
-  @include media-breakpoint-down(md) {
-    flex-direction: column;
-    text-align: center;
-  }
-
   &__image {
     padding-right: 1.5em;
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(sm) {
       padding-right: 0;
       margin-bottom: 1em;
     }
@@ -33,19 +28,5 @@
   &__sub-title {
     font-size: 0.81em;
     text-transform: uppercase;
-  }
-
-  &__button-wrapper {
-    margin-left: auto;
-    width: 11.6rem;
-
-    @include media-breakpoint-down(md) {
-      margin: 0 auto;
-      padding-top: 1.5em;
-    }
-  }
-
-  &__button {
-    width: 100%;
   }
 }

@@ -13,7 +13,7 @@ RSpec.describe 'Selecting Paths', type: :system do
     it 'allows a user to select a path' do
       visit paths_path
 
-      expect(find(:test_id, 'foundations-resume-path-btn').value).to eq('Resume')
+      expect(find(:test_id, 'foundations-resume-path-btn').text).to eq('Resume')
       expect(find(:test_id, 'rails-select-path-btn').value).to eq('Select')
 
       find(:test_id, 'rails-select-path-btn').click

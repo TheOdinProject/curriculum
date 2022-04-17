@@ -13,11 +13,11 @@
               <h3 class="text-2xl">Start here!</h3>
             </div>
             <% if current_user.nil? %>
-              <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
+              <%= link_to 'View Path', path_url(path), class: 'button button--secondary px-10 card-main__button' %>
             <% elsif current_user.path === path %>
-              <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button', data: { test_id: "#{path.title.downcase}-resume-path-btn"  } %>
+              <%= link_to 'Resume', path_url(path), class: 'button button--primary px-10 card-main__button', data: { test_id: "#{path.title.downcase}-resume-path-btn"  } %>
             <% else %>
-              <%= button_to 'Select', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...' } %>
+              <%= button_to 'Select', users_paths_path(path_id: path.id), class: 'button button--secondary px-10 card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...' } %>
             <% end %>
           </div>
           <div class="card-main__description">
@@ -42,11 +42,11 @@
             <div class="card-secondary__header">
               <h2 class="card-secondary__header-title mb-3xl"><%= path.title %></h2>
               <% if current_user.nil? %>
-                <%= button_to 'View Path', path_url(path), method: :get, class: 'button button--secondary card-main__button' %>
+                <%= link_to 'View Path', path_url(path), class: 'button button--secondary px-10 card-main__button' %>
               <% elsif current_user.path === path %>
-                <%= button_to 'Resume', path_url(path), method: :get, class: 'button button--primary card-main__button' %>
+                <%= link_to 'Resume', path_url(path), class: 'button button--primary px-10 card-main__button' %>
               <% else %>
-                <%= button_to 'Select', users_paths_path(path_id: path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{path.title.downcase}-select-path-btn" } %>
+                <%= button_to 'Select', users_paths_path(path_id: path.id), class: 'button button--secondary px-10 card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{path.title.downcase}-select-path-btn" } %>
               <% end %>
             </div>
             <div class="card-main__description">

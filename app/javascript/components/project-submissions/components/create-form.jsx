@@ -95,7 +95,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
           <button
             disabled={formState.isSubmitting}
             type="submit"
-            className="button button--primary"
+            className="button button--primary button--medium"
             data-test-id="submit-btn"
           >
             Submit

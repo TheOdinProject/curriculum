@@ -1,6 +1,6 @@
 .lesson-button-group {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   @include media-breakpoint-down(md) {
     flex-direction: column;

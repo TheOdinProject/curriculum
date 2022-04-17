@@ -1,13 +1,42 @@
 @layer components {
-  /* Prefixed with "top" due to Bootstrap conflicts */
-  .top-btn {
-    @apply inline-block rounded shadow py-4 px-10 md:px-14 border-0
-    text-base font-bold text-center no-underline text-white
-    cursor-pointer
-    hover:bg-opacity-80
-
+  .button {
+    min-width: 100px;
+    @apply inline-flex items-center px-6 justify-center py-3 border border-transparent
+    text-base font-medium rounded-md shadow-sm text-white focus:outline-none
+    focus:ring-2 focus:ring-offset-2 hover:text-white focus:text-white
   }
-  .top-btn-primary {
-    @apply bg-odin-green
+
+  .button--primary {
+    @apply bg-odin-green hover:bg-odin-green-600 focus:ring-odin-green-400
+  }
+
+  .button--secondary {
+    @apply bg-gold hover:bg-gold-600 focus:ring-gold-400
+  }
+
+  .button--danger {
+    @apply bg-red-600 hover:bg-red-800 focus:ring-red-400
+  }
+
+  .button--clear {
+    @apply border-gray-300 text-gray-700 hover:text-gray-700 bg-transparent hover:bg-gray-50
+    focus:ring-gray-400 focus:text-gray-700
+  }
+
+  .button--dark {
+    @apply bg-gray-700  hover:bg-gray-800 focus:ring-gray-600
+  }
+
+  .button--github {
+    @apply bg-gray-900 hover:bg-gray-800 focus:ring-gray-600
+  }
+
+  .button--google {
+    @apply bg-blue-500 hover:bg-blue-600 focus:ring-blue-400
+  }
+
+  .button--medium {
+    @apply px-4 py-2
   }
 }
+

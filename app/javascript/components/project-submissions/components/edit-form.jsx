@@ -97,10 +97,10 @@ const EditForm = ({
           </div>
 
           <div className="form__button-group">
-            <button type="submit" className="button button--danger" onClick={handleDelete} data-test-id="delete-btn">Delete</button>
+            <button type="submit" className="button button--danger button--medium" onClick={handleDelete} data-test-id="delete-btn">Delete</button>
             &nbsp;
             &nbsp;
-            <button disabled={formState.isSubmitting} type="submit" className="button button--primary" data-test-id="submit-btn">Update</button>
+            <button disabled={formState.isSubmitting} type="submit" className="button button--primary button--medium" data-test-id="submit-btn">Update</button>
           </div>
         </div>
       </form>

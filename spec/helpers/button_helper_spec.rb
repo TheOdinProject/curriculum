@@ -13,21 +13,21 @@ RSpec.describe ButtonHelper do
 
   describe '#login_button' do
     it 'returns a login button' do
-      expect(helper.login_button).to eq('<a class="button button--transparent" href="/users/sign_in">Login</a>')
+      expect(helper.login_button).to eq('<a class="button button--clear" href="/users/sign_in">Login</a>')
     end
   end
 
   describe '#create_new_account_button' do
     it 'returns a create new account button' do
       expect(helper.create_new_account_button).to eq(
-        '<a class="button button--transparent" href="/users/sign_up">Create new account</a>'
+        '<a class="button button--clear" href="/users/sign_up">Create new account</a>'
       )
     end
   end
 
   describe '#curriculum_button' do
     it 'returns the curriculum button' do
-      expect(helper.curriculum_button).to eq('<a class="button button--primary" href="/paths">Curriculum</a>')
+      expect(helper.curriculum_button).to eq('<a class="button button--primary" href="/paths">View Curriculum</a>')
     end
   end
 

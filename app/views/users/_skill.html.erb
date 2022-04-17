@@ -1,31 +1,33 @@
-<div class="skill">
-  <div class='skill__image'>
-    <%= render ProgressBadgeComponent.new(
-      course: course,
-      current_user: current_user,
-      url: courses_progress_path(course.id),
-      show_badge: false,
-    )%>
+<div class="skill justify-between flex-col text-center md:flex-row md:text-left">
+  <div class="flex items-center flex-col md:flex-row">
+    <div class='skill__image'>
+      <%= render ProgressBadgeComponent.new(
+        course: course,
+        current_user: current_user,
+        url: courses_progress_path(course.id),
+        show_badge: false,
+      )%>
+    </div>
+
+    <div class="skill__details">
+      <%= link_to path_course_url(course.path, course), class: 'skill__link' do %>
+        <h3 class="skill__title text-xl"><%= course.title %></h3>
+      <% end %>
+      <span class="skill__sub-title"><%= course.lessons.size %> lessons</span>
+    </div>
   </div>
 
-  <div class="skill__details">
-    <%= link_to path_course_url(course.path, course), class: 'skill__link' do %>
-      <h3 class="skill__title text-xl"><%= course.title %></h3>
-    <% end %>
-    <span class="skill__sub-title"><%= course.lessons.size %> lessons</span>
-  </div>
-
-  <div class="skill__button-wrapper">
+  <div class="pt-4 md:pt-0">
     <% if course_completed_by_user?(course, current_user) %>
-      <%= link_to 'Open', path_course_path(course.path, course), class: 'button button--transparent skill__button', data: { test_id: "#{course.title.downcase}-open-btn" } %>
+      <%= link_to 'Open', path_course_path(course.path, course), class: 'button button--clear button--medium', data: { test_id: "#{course.title.downcase}-open-btn" } %>
     <% elsif current_user.started_course?(course) %>
       <%= link_to 'Resume',
         lesson_url(next_lesson_to_complete(course, current_user.lesson_completions_for_course(course))),
-        class: 'button button--primary skill__button',
+        class: 'button button--primary button--medium',
         data: { test_id: "#{course.title.downcase}-resume-btn" }
       %>
     <% else %>
-      <%= link_to 'Start', path_course_url(course.path, course), class: 'button button--primary skill__button', data: {
+      <%= link_to 'Start', path_course_url(course.path, course), class: 'button button--primary button--medium', data: {
         test_id: "#{course.title.downcase}-start-btn" } %>
     <% end %>
   </div>

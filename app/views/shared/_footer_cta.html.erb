@@ -3,7 +3,7 @@
     <h3 class="text-3xl font-bold text-gray-700">Have a question?</h2>
     <p class="py-3 text-gray-800 text-md font-light w-96">Chat with the Odin community on Discord!</p>
 
-    <%= link_to ODIN_CHAT_URL, class:'inline-flex items-center px-14 py-3 border border-transparent text-lg font-medium rounded-md shadow-sm text-white bg-gray-700  hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500' do %>
+    <%= link_to ODIN_CHAT_URL, class: "button button--dark text-lg px-14" do %>
       Open Discord
     <% end %>
   </div>
@@ -14,7 +14,7 @@
     <%= form_with url: sign_up_path, method: :get do |form| %>
       <div class="p-1 flex rounded-md bg-white focus-within:ring-2 focus-within:ring-indigo-500 border border-gray-300">
         <%= form.email_field :email, placeholder: 'Email Address', required: true, class: 'w-60 p-2 focus:outline-none bg-white block rounded-none lg:w-80 lg:text-md rounded-l-md' %>
-        <%= form.submit 'Get Started!', class: 'rounded-md bg-odin-green-500  text-white px-6 py-2 text-lg hover:bg-odin-green-600 focus:outline-none focus:ring-1 focus:ring-indigo-500' %>
+        <%= form.submit 'Get Started!', class: 'button button--primary py-2' %>
       </div>
     <% end %>
   </div>
