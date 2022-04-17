@@ -4,13 +4,13 @@ As you'll learn, there are _many_ ways to move elements around on a web page. Ov
 
 Because it is somewhat new as a technology, many resources put it near the end of their curriculum. But at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
 
-### Learning Outcomes
+### Lesson Overview
 
-In the following lessons: 
+This section contains a general overview of topics that you will learn in this lesson.
 
-*   You will learn how to position elements using flexbox.
-*   You will learn about flex containers and flex items.
-*   You will learn how to create useful components and layouts that go beyond just stacking and centering items.
+- You will learn how to position elements using flexbox.
+- You will learn about flex containers and flex items.
+- You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
 ### Before we get started
 
@@ -27,7 +27,11 @@ Flexbox is a way to arrange items into rows or columns. These items will flex (i
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We'll get into exactly what's going on here soon enough. But for now, uncomment the two flex related lines in the above CSS and check out the result. All 3 divs should now be arranged horizontally. If you resize the results frame with the "1x", ".5x" and ".25x" buttons you'll also see that the divs will 'flex'. They will fill the available area and will each have equal width.
+We'll get into exactly what's going on here soon enough. But for now, let's uncomment the two flex related CSS declarations in the above Codepen by removing the `/*` and `*/` tags surrounding them, then check out the result.
+
+**A Note on Comments**: Comments prevent the browser from interpreting lines as code, and are wrapped between specific tags. CSS uses `/*`as an opening comment tag and `*/` as a closing comment tag, while HTML and JavaScript have their own syntax. Commented out lines of code can be 're-enabled' simply by removing the comment tags surrounding the code.
+
+All 3 divs should now be arranged horizontally. If you resize the results frame with the "1x", ".5x" and ".25x" buttons you'll also see that the divs will 'flex'. They will fill the available area and will each have equal width.
 
 If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to fit within the available area.
 
@@ -51,7 +55,7 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ### Knowledge Check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
-*   <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
+- <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
+- <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
