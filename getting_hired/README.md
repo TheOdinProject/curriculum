@@ -1,6 +1,6 @@
 # Getting Hired
 
-This folder contains lesson markdown files that make up the <Getting Hired> course. This course exists in the [Full Stack Ruby On Rails](<https://www.theodinproject.com/paths/full-stack-ruby-on-rails>) and [Full Stack JavaScript](<https://www.theodinproject.com/paths/full-stack-javascript>) path on the Odin Project Website.
+This folder contains lesson markdown files that make up the <Getting Hired> course. This course exists in the [Full Stack Ruby On Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) and [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript) path on the Odin Project Website.
 
 ## Course Outline
 
@@ -19,10 +19,10 @@ instead.
 6. [**Project: Building Your Personal Website**](preparing_for_job_search/project_portfolio.md)
 ### Applying to and Interviewing for Jobs
 
-1. [Collecting Job Leads](applying_and_interview/collect_leads.md)
-2. [Qualifying Job Leads](preparing_for_job_search/qualify_leads.md)
-3. [**Project: Building Your Resume**](preparing_for_job_search/project_resume.md)
-4. [Applying for Web Development Jobs](preparing_for_job_search/applying.md)
-5. [Preparing to Interview and Interviewing](<preparing_for_job_search/prearing_to_interview_and_interviewing.md)
-6. [Handling a Job Offer](preparing_for_job_search/handling_an_offer.md)
-7. [Conclusion](preparing_for_job_search/conclusion.md)
+1. [Collecting Job Leads](applying_and_interviewing/collect_leads.md)
+2. [Qualifying Job Leads](applying_and_interviewing/qualify_leads.md)
+3. [**Project: Building Your Resume**](applying_and_interviewing/project_resume.md)
+4. [Applying for Web Development Jobs](applying_and_interviewing/applying.md)
+5. [Preparing to Interview and Interviewing](applying_and_interviewing/preparing_to_interview_and_interviewing.md)
+6. [Handling a Job Offer](applying_and_interviewing/handling_an_offer.md)
+7. [Conclusion](applying_and_interviewing/conclusion.md)
