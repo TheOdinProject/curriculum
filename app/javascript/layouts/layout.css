@@ -10,4 +10,8 @@
   .content-container {
     @apply max-w-screen-md mx-auto py-16 px-4 sm:pt-24 sm:pb-32 sm:px-6 lg:px-8;
   }
+
+  .content-container-lg {
+    @apply max-w-screen-lg mx-auto py-16 px-4 sm:pt-24 sm:pb-32 sm:px-6 lg:px-8;
+  }
 }
