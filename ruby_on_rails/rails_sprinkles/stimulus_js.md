@@ -46,7 +46,7 @@ controller
 
 So together these three attributes enable the following behavior: When a user `click`s on the button, use the function
 `copy` of Stimulus controller `clipboard` with the input as a `source`. The yet-to-be-seen JavaScript controller will
-then take care of the rest and will copy the value of the source target to the users clipboard.
+then take care of the rest and will copy the value of the source target to the user's clipboard.
 
 Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimulus is a HTML first framework. 
 It generally does not render HTML, instead it attaches behavior to your existing HTML with sprinkles of JavaScript.
