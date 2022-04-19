@@ -257,7 +257,7 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
 *   3 spaces after a bullet.
 ~~~
 
-### Mulit-line list items
+### Multi-line list items
 
 When list items wrap into multiple lines, consider adding newlines per item 
 to make it more readable:
