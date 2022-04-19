@@ -73,7 +73,7 @@ A Stimulus controller gets attached to a dom element by declaring it with the `d
 <input data-controller="input">
 ~~~
 
-This will attach a the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
+This will attach the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
 If you want to add a new
 controller, create a file `some_name_controller.js` and it will be automatically loaded.
 
