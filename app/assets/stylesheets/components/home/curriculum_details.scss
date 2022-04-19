@@ -20,13 +20,13 @@
     @include media-breakpoint-down(xs) {
       flex-direction: column;
     }
-    
+
     .curriculum-details-tile {
       @include box-shadow(0 7px 16px 0 rgba(0, 0, 0, 0.05));
       background: $white;
       display: flex;
       flex-direction: column;
-      height: 256px;
+      align-items: center;
       margin: 0 30px 30px 0;
       max-width: 254px;
       padding: 23px 46px 25px;
@@ -67,11 +67,9 @@
       }
 
       @include media-breakpoint-down(xs) {
-        height: 150px;
         margin: 0 auto 15px;
         padding: 25px;
-        width: 270px;
-        max-width: 270px;
+        max-width: 200px;
 
         h4 {
           text-align: center;
