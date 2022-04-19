@@ -67,7 +67,7 @@ everything on the first read through, the assignments will give more in depth in
 
 ### The Stimulus controller
 
-A Stimulus controller gets attached to a dom element by declaring it with the `data-controller` attribute.
+A Stimulus controller gets attached to a DOM element by declaring it with the `data-controller` attribute.
 
 ~~~html
 <input data-controller="input">
