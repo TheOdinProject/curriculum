@@ -60,7 +60,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 
 ### Knowledge Check
 
- This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="https://javascript.info/types#summary">What are the eight data types in JavaScript?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/types#objects-and-symbols">Which data type is NOT primitive?</a>
