@@ -123,7 +123,7 @@ To explicitly allow parameters, you use the methods `require` and `permit`.  Bas
   end
 ~~~
 
-This will allowlist and return the hash of only those params that you specified (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ).  If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
+This will return the hash of only those params that you explicitly allow (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ).  If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
 
 It can be inconvenient, but it's Rails protecting you from bad users.  You'll usually package these strong parameter helpers up in their own private method at the bottom of your controllers, then call that method where you need to get those specific params.
 
