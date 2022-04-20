@@ -10,8 +10,8 @@ Your Inventory app should have categories and items, so when the user goes to th
 
 1. Before you begin, take a moment to write down all of the models you'll need and the fields that should go in them. It might help to grab a pencil and some paper and literally draw a diagram like you saw in the [MDN tutorial on databases](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose#Designing_the_LocalLibrary_models).
 
-- Items should at least have: a name, description, category, price, number-in-stock and URL, though you should feel free to add more fields if it seems relevant to the type of business you've chosen.
-- Categories should at least have a name, a description and a URL.
+    - Items should at least have: a name, description, category, price, number-in-stock and URL, though you should feel free to add more fields if it seems relevant to the type of business you've chosen.
+    - Categories should at least have a name, a description and a URL.
 
 2. We're going to follow the basic path that was demonstrated by the MDN tutorial to set up and flesh out your app, so first choose a templating language and generate the boilerplate skeleton with express-generator.
 3. Create a new Mongo Collection using the web-interface as demonstrated in the tutorial and then set up your database schemas and models.

@@ -257,7 +257,7 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
 *   3 spaces after a bullet.
 ~~~
 
-### Mulit-line list items
+### Multi-line list items
 
 When list items wrap into multiple lines, consider adding newlines per item 
 to make it more readable:
@@ -273,6 +273,17 @@ to make it more readable:
 ~~~
 
 This will add a paragraph tag to your list item: `<li><p></p></li>`
+
+### Unordered Lists
+
+Unordered lists are created using either hyphens `-` or asterisks `*`. They both give the same results, so it doesn't matter which one is used, but sticking to one way keeps the source markdown consistent.
+
+~~~markdown
+
+- This is a list item made using a hyphen.
+* This is a list item made using an asterisk.
+
+~~~
 
 ## Code
 

@@ -46,7 +46,7 @@ controller
 
 So together these three attributes enable the following behavior: When a user `click`s on the button, use the function
 `copy` of Stimulus controller `clipboard` with the input as a `source`. The yet-to-be-seen JavaScript controller will
-then take care of the rest and will copy the value of the source target to the users clipboard.
+then take care of the rest and will copy the value of the source target to the user's clipboard.
 
 Wasn't this supposed to be a JavaScript lesson? Yes, but the point is that Stimulus is a HTML first framework. 
 It generally does not render HTML, instead it attaches behavior to your existing HTML with sprinkles of JavaScript.
@@ -67,13 +67,13 @@ everything on the first read through, the assignments will give more in depth in
 
 ### The Stimulus controller
 
-A Stimulus controller gets attached to a dom element by declaring it with the `data-controller` attribute.
+A Stimulus controller gets attached to a DOM element by declaring it with the `data-controller` attribute.
 
 ~~~html
 <input data-controller="input">
 ~~~
 
-This will attach a the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
+This will attach the Stimulus controller that is located in `app/javascript/controllers/input_controller.js`. 
 If you want to add a new
 controller, create a file `some_name_controller.js` and it will be automatically loaded.
 
@@ -88,7 +88,7 @@ This controller does not do anything, it only shows how it imports the class `Co
 As you see, there is no mention of the name of the controller, the name is inferred from the file name 
 (`input_controller.js` becomes `input`).
 
-This creates a scope, all the following attributes will only work within the scope of that controller / dom element.
+This creates a scope, all the following attributes will only work within the scope of that controller / DOM element.
 
 ### Triggering an action
 
@@ -117,7 +117,7 @@ export default class extends Controller {
 
 ### Selecting / targeting elements
 
-You learned how to access dom elements with selectors, such as `document.querySelector` and `document.getElementById`.
+You learned how to access DOM elements with selectors, such as `document.querySelector` and `document.getElementById`.
 Again Stimulus gives you a way to declare elements you want to select in the HTML:
 
 ~~~html
@@ -144,8 +144,8 @@ export default class extends Controller {
 }
 ~~~
 
-You need to declare your targets, but once you do, you can get the dom-element by using `this.nameTarget`.
-If you have need multiple targets of the same kind, you can get an array of dom-elements with `this.nameTargets`.
+You need to declare your targets, but once you do, you can get the DOM element by using `this.nameTarget`.
+If you have need multiple targets of the same kind, you can get an array of DOM elements with `this.nameTargets`.
 If you need to make your controllers to be smart about targets, you can
 also ask whether certain targets are available in the HTML with `this.hasNameTarget`.
 
@@ -320,7 +320,7 @@ the questions below on your own, clicking the small arrow to the left of the que
 </details>
 
 <details markdown="block">
-  <summary>How do you select dom element?</summary>
+  <summary>How do you select a DOM element?</summary>
 
 * There are three aspects to it…
   * … add a `data-my-thing-target` to the html element
