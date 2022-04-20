@@ -9,7 +9,7 @@
           <% @success_stories.each do |story| %>
             <div class="card-main success-story">
               <div class="row">
-                <div class="col-xs-12 photo">
+                <div class="col-xs-12 photo flex justify-center">
                   <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar", class: "img-fluid" %>
                 </div>
                 <div class="col-xs-12 info">
