@@ -77,7 +77,7 @@ Each one of these inputs is structured slightly differently, but there are some 
 
 Will result in your `params` hash containing a key called `description` that you can access as normal, e.g. `params[:description]`, inside your controller.  That's also why some inputs like radio buttons (where `type="radio"`) use the `name` attribute to know which radio buttons should be grouped together such that clicking one of them will unclick the others.  The `name` attribute is surprisingly important!
 
-Now another thing we talked about in the controller section was nesting data.  You'll often want to tuck submitted data neatly into a hash instead of keeping them all at the top level.  This can be useful because, as we saw with controllers, it lets you do a one-line `#create` (once you've whitelisted the parameters with `#require` and `#permit`).  When you access `params[:user]`, it's actually a hash containing all the user's attributes, for instance `{first_name: "foo", last_name: "bar", email: "foo@bar.com"}`.  How do you get your forms to submit parameters like this?  It's easy!
+Now another thing we talked about in the controller section was nesting data.  You'll often want to tuck submitted data neatly into a hash instead of keeping them all at the top level.  This can be useful because, as we saw with controllers, it lets you do a one-line `#create` (once you've allowed the parameters with `#require` and `#permit`).  When you access `params[:user]`, it's actually a hash containing all the user's attributes, for instance `{first_name: "foo", last_name: "bar", email: "foo@bar.com"}`.  How do you get your forms to submit parameters like this?  It's easy!
 
 It all comes back to the `name` attribute of your form inputs. Just use hard brackets to nest data like so:
 
@@ -97,7 +97,7 @@ Those inputs will now get transformed into a nested hash under the `:user` key. 
 
 Specific parameters of the `params` hash are accessed like any other nested hash `params[:user][:email]`.
 
-Don't forget that you have to whitelist the params now in your controller using `require` and `permit` because they are a hash instead of just a flat string.  See the Controller section below for a refresher on the controller side of things.
+Don't forget that you have to allow the params now in your controller using `require` and `permit` because they are a hash instead of just a flat string.  See the Controller section below for a refresher on the controller side of things.
 
 This is cool stuff that you'll get a chance to play with in the project.
 
