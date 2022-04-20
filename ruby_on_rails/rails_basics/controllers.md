@@ -113,9 +113,9 @@ In our example, we will assume that our `params[:post]` is giving us a hash of P
 
 The important distinction between the "scalar" parameter values like strings and more complex parameters like hashes and arrays is that Rails 4 implemented some protections in the controller, called "Strong Parameters".  This is so the user can't send you harmful data (like automatically setting themselves as an admin user when they create an account).  To do this, Rails makes you explicitly verify that you are willing to accept certain items of a hash or array.
 
-*Note: This used to be done in Rails 3 by setting `attr_accessible` in the model to allowlist attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.*
+*Note: This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.*
 
-To "allowlist", or explicitly allow, parameters, you use the methods `require` and `permit`.  Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used.  For example:
+To explicitly allow parameters, you use the methods `require` and `permit`.  Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used.  For example:
 
 ~~~ruby
   def allowed_post_params
