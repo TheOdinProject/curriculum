@@ -39,6 +39,10 @@ For now, just write each function and test the output with `console.log`.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
    1. `lastLetter("abcd")` should return `"d"`
 
+### Additional Resources
+
+ *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
