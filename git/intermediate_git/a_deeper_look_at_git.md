@@ -100,7 +100,7 @@ Rename the commit to `Create first and second file`, then finish the rebase with
 
 #### Splitting Up a Commit
 
-Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for conveniece, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
+Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for convenience, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
 
 We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, add, and commit them individually. All together it would look something like this:
 
@@ -156,7 +156,7 @@ git push origin main
 
 Remember when we were working with HEAD, aka the current commit we're viewing, while rebasing? What this would do is it would revert the changes to HEAD! Then we would push our new commit to whichever branch we're working on, which in this example is main even though normally our work would most likely be on a feature-branch.
 
-So now that we've learned about the various dangerous of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a separate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurrences of it.
+So now that we've learned about the various dangers of `git push --force`, you're probably wondering why it exists and when to use it. A very common scenario in which developers use `git push --force` is updating pull requests. Collaborative work is covered more in depth in a separate lesson, but the take-away from this section should be that the `--force` option should be used only when you are certain that it is appropriate. There are also less common scenarios, such as when sensitive information is accidentally uploaded to a repository and you want to remove all occurrences of it.
 
 <span id='force-with-lease'>It is worth giving special mention to `git push --force-with-lease`</span>, a command which in some companies is the default option. The reason for this is that it's a fail-safe! It checks if the branch you're attempting to push to has been updated and sends you an error if it has. This gives you an opportunity to, as mentioned before, `fetch` the work and update your local repository.
 

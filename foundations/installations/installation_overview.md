@@ -8,7 +8,7 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 ### The Installation Plan
 
-In the following sections, we'll go over the steps for setting up your environment. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
+In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, this is an informative lesson. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
 
 In the next few lessons, we will walk through these installation steps together:
 

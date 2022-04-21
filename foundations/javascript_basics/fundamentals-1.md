@@ -94,9 +94,10 @@ _* As you might have noticed by running Javascript code in the console, the cons
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-[Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ *   [Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
 
 ### Knowledge Check
 

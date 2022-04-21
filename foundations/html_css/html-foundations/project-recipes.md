@@ -77,4 +77,4 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - go to your GitHub repo on the web and click the **Settings** button.
 - click on **Pages** on the left side bar.
 - change the **Source** from _none_ to _main branch_ and click Save.
-- it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+- it may take a few minutes (the GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
