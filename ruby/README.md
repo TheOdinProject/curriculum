@@ -49,9 +49,6 @@ instead.
   5. [**Project: Linked Lists**](computer_science/project_linked_lists.md)
   6. [**Project: Binary Search Trees**](computer_science/project_binary_search_trees.md)
   7. [**Project: Knight Travails**](computer_science/project_knights_travails.md)
-### Intermediate Git
-  1. [A Deeper Look at Git](../git/intermediate_git/a_deeper_look_at_git.md)
-  2. [Using Git in the Real World](../git/intermediate_git/using_git_in_the_real_world.md)
 ### Testing Ruby with RSpec
   1. [Test Driven Development](testing_ruby_with_rspec/test_driven_development.md)
   2. [Introduction to RSpec](testing_ruby_with_rspec/introduction_to_rspec.md)
