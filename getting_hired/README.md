@@ -1,6 +1,6 @@
 # Getting Hired
 
-This folder contains lesson markdown files that make up the <Getting Hired> course. This course exists in the [Full Stack Ruby On Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) and [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript) path on the Odin Project Website.
+This folder contains lesson markdown files that make up the Getting Hired course. This course exists in the [Full Stack Ruby On Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) and [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript) path on the Odin Project Website.
 
 ## Course Outline
 
