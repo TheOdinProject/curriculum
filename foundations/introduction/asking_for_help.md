@@ -48,4 +48,8 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://xyproblem.info/">Describe the “XY Problem”.</a>
 * <a class="knowledge-check-link" href="https://slash7.com/2006/12/22/vampires/">Describe three attributes of a "help vampire".</a>
 
+### Additional Resources
 
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+ 
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
