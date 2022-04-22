@@ -83,6 +83,7 @@ You should be able to grasp how `calc()` is used in the above CodePen embed. We 
 Focus on this line `width: min(150px, 100%);` we can make several observations:
 If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
+In the first case `min()` selects `150px`, since `150px` is the smaller (the minimum) between `150px` and `100%` of the parent's width; in the second, it chooses `100%`. `min()` behaves as a boundary for the _maximum_ allowed value, which in this example is `150px`.
 <br>You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
 #### max()
