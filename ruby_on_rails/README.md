@@ -14,7 +14,7 @@ The following list represents how the lessons are divided into sections and pres
 4. [A Railsy Web Refresher](introduction/web_refresher.md)
 ### Rails Basics
 1. [Routing](rails_basics/routing.md)
-2. [Controllers](rails_basics/controller_basics.md)
+2. [Controllers](rails_basics/controller.md)
 3. [Views](rails_basics/views.md)
 4. [Deployment](rails_basics/deployment.md)
 5. [**Project: Blog App**](rails_basics/project_blog_app.md)
