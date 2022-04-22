@@ -112,8 +112,11 @@ RSpec.describe Lesson do
 
   describe '#import' do
     it 'uses the lesson content importer to get lesson content from github' do
-      expect(LessonContentImporter).to receive(:for).with(lesson)
+      allow(LessonContentImporter).to receive(:for)
+
       lesson.import_content_from_github
+
+      expect(LessonContentImporter).to have_received(:for).with(lesson)
     end
   end
 end

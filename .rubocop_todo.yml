@@ -6,21 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 2
-RSpec/MessageChain:
-  Exclude:
-    - 'spec/services/lesson_content_importer_spec.rb'
-
-# Offense count: 5
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: have_received, receive
-RSpec/MessageSpies:
-  Exclude:
-    - 'spec/controllers/registrations_controller_spec.rb'
-    - 'spec/models/lesson_spec.rb'
-    - 'spec/services/lesson_content_importer_spec.rb'
-    - 'spec/services/mailchimp_subscription_spec.rb'
-
 # Offense count: 20
 # Configuration parameters: AllowSubject.
 RSpec/MultipleMemoizedHelpers:

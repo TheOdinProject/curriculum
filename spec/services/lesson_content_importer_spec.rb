@@ -16,20 +16,18 @@ RSpec.describe LessonContentImporter do
       .with('theodinproject/curriculum', path: '/ruby_basics/variables')
       .and_return(lesson_content_from_github)
 
-    allow(Base64).to receive_message_chain(:decode64, :force_encoding)
-      .and_return(decoded_lesson_content)
+    allow(Base64).to receive(:decode64).and_return(decoded_lesson_content)
+    allow(decoded_lesson_content).to receive(:force_encoding).and_return(decoded_lesson_content)
   end
 
   describe '.import_all' do
-    let(:lessons) { create_list(:lesson, 3) }
-
-    before do
-      lessons
-    end
-
     it 'updates the content for all lessons' do
-      expect(described_class).to receive(:for).thrice
+      lessons = create_list(:lesson, 3)
+      allow(described_class).to receive(:for)
+
       described_class.import_all
+
+      expect(described_class).to have_received(:for).thrice
     end
   end
 
@@ -57,13 +55,16 @@ RSpec.describe LessonContentImporter do
               body: { error: 'problem' }
             )
           )
+
+        allow(Rails.logger).to receive(:error)
       end
 
       it 'logs the error' do
-        expect(Rails).to receive_message_chain(:logger, :error)
-          .with("Failed to import 'Ruby Basics' message: GET : 403 - Error: problem")
-
         subject.import
+
+        expect(Rails.logger).to have_received(:error).with(
+          "Failed to import 'Ruby Basics' message: GET : 403 - Error: problem"
+        )
       end
     end
   end

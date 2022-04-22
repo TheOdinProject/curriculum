@@ -33,23 +33,25 @@ RSpec.describe MailchimpSubscription do
     before do
       allow(Gibbon::Request).to receive(:new).and_return(request)
       allow(request).to receive(:lists).and_return(mailchimp_list)
-      allow(members).to receive(:create).with(body: subscriber_details)
+      allow(members).to receive(:create)
     end
 
     it 'creates a mailchimp subscription' do
-      expect(members).to receive(:create)
       subject
+
+      expect(members).to have_received(:create).with(body: subscriber_details)
     end
 
     context 'when an error occurs with mail chimp' do
       before do
         allow(members).to receive(:create).and_raise(Gibbon::MailChimpError)
+        allow(NewRelic::Agent).to receive(:notice_error)
       end
 
       it 'sends the error to new relic' do
-        expect(NewRelic::Agent).to receive(:notice_error)
-
         described_class.new(options).create
+
+        expect(NewRelic::Agent).to have_received(:notice_error)
       end
     end
   end

@@ -28,14 +28,14 @@ RSpec.describe RegistrationsController do
     end
 
     it 'registers the new user on the mailchimp mailing list', if: ENV['MAIL_CHIMP_LIST_ID'] do
-      expect(MailchimpSubscription).to receive(:create)
+      post :create, params: { user: user_attributes }
+
+      expect(MailchimpSubscription).to have_received(:create)
         .with(
           email: user.email,
           username: user.username,
           signup_date: user.created_at
         )
-
-      post :create, params: { user: user_attributes }
     end
   end
 
