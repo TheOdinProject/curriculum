@@ -97,7 +97,7 @@ _* As you might have noticed by running Javascript code in the console, the cons
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 [Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)  
-[What's the difference between using "let" and "var"? - Stackoverflow](What's the difference between using "let" and "var"?)
+[What's the difference between using "let" and "var"? - Stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
 
 ### Knowledge Check
 
