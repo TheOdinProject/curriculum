@@ -325,7 +325,7 @@ the questions below on your own, clicking the small arrow to the left of the que
 * There are three aspects to it…
   * … add a `data-my-thing-target` to the html element
   * … declare it with `static targets = ["myThing"]` in your controller
-  * … use it in the controller with `this.myThingTarget` or `tis.myThingTargets`
+  * … use it in the controller with `this.myThingTarget` or `this.myThingTargets`
 </details>
 
 <details markdown="block">
@@ -340,5 +340,5 @@ the questions below on your own, clicking the small arrow to the left of the que
   <summary>How do you trigger actions on an event?</summary>
 
 * By using `data-action="click->some-controller#someAction"` on a HTML element
-* or`data-action="resize@window->gallery#layout"` for window events
+* or `data-action="resize@window->gallery#layout"` for window events
 </details>
