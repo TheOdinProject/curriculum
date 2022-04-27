@@ -126,7 +126,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 ### Note/warning
 
-When trying to make simple changes to the files in your repo, such as attempting to fix a typo in your README.md you might be tempted to make this change directly via Github. However, it is best to avoid this as it will cause issues with your branches diverging and merging/resetting them is too complicated at this stage (it is covered in a future lesson), for now it is advised to make any changes via your local files then commit and push them using git commands in your terminal once ready.
+When trying to make simple changes to the files in your repo, such as attempting to fix a typo in your README.md you might be tempted to make this change directly via Github. However, it is best to avoid this as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson), for now it is advised to make any changes via your local files then commit and push them using Git commands in your terminal once ready.
 
 ### Cheatsheet
 
