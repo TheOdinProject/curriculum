@@ -257,7 +257,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
-    kramdown (2.3.2)
+    kramdown (2.4.0)
       rexml
     launchy (2.5.0)
       addressable (~> 2.7)
@@ -557,7 +557,7 @@ DEPENDENCIES
   inline_svg (~> 1.8)
   jquery-rails (~> 4.4)
   kaminari (~> 1.2)
-  kramdown (~> 2.3)
+  kramdown (~> 2.4)
   letter_opener (~> 1.8)
   listen (~> 3.7)
   newrelic_rpm (~> 8.6)
