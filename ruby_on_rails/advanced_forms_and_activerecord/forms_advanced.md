@@ -137,7 +137,7 @@ Note that we could (and should) also have built the new shipping_address objects
 
 The `#accepts_nested_attributes_for` method is fairly straightforward and the docs should be helpful.
 
-The reading will cover more about whitelisting the nested parameters.
+The reading will cover more about allowing the nested parameters.
 
 ### Deleting Nested Form Objects
 
@@ -174,7 +174,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
   1. Read the [Rails Guide on Forms](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
   2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 10, which covers accepting nested form data.
   3. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 8, which covers the parameter conventions for nested forms.
-  4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the whitelisting of nested attributes in Rails 4.
+  4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the allowing of nested attributes in Rails 4.
 </div>
 
 ### Conclusion
@@ -201,6 +201,6 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='#select-helper'>When would you use the `#select` helper?</a>
 - <a class="knowledge-check-link" href='#nested-forms'>How can you prevent users from having to submit multiple forms?</a>
 - <a class="knowledge-check-link" href='#accepts_nested_attributes_for'>What do you add to the model that allows nested forms to create new objects?</a>
-- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you whitelist the nested parameters in your controller?</a>
+- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you allow the nested parameters in your controller?</a>
  - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>How can you set up a dropdown or checkbox to delete a record that already exists?</a>
  
