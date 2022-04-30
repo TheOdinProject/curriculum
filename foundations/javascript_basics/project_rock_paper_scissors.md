@@ -33,7 +33,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
    ~~~
 
 6. Write a NEW function called `game()`. Call the `playRound` function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
-   1. Remember loops? This is a great opportunity to use one to play those five rounds:
+   1. [Remember loops?](https://www.theodinproject.com/lessons/foundations-problem-solving#solving-fizz-buzz) This is a great opportunity to use one to play those five rounds:
 
       ~~~javascript
       for (let i = 0; i < 5; i++) {

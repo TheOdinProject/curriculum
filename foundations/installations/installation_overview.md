@@ -8,7 +8,7 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 ### The Installation Plan
 
-In the following sections, we'll go over the steps for setting up your environment. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
+In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, this is an informative lesson. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
 
 In the next few lessons, we will walk through these installation steps together:
 
@@ -80,3 +80,9 @@ Before we can continue, we must first stress one detail of importance:
 **We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment.** Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
 
 With that out of the way, we need to set up an appropriate development environment!
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

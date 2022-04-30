@@ -165,6 +165,18 @@ Headings should always use [Wikipedia Style Title Case](https://titlecaseconvert
 
 You can use the [Title Case Converter](https://titlecaseconverter.com/) tool to help convert text to Wikipedia Title Case; just select the Wikipedia "Styles" option.
 
+### No Code Snippets
+
+Headings should never contain any code snippets.
+
+```markdown
+<!-- Wrong -->
+### The `id` Property
+
+<!-- Right -->
+### The id Property
+```
+
 ### ATX-style headings
 
 Use Heading 3 `###`  for main section titles ("Lesson Overview", "Assignment", custom sections, etc):
@@ -245,7 +257,7 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
 *   3 spaces after a bullet.
 ~~~
 
-### Mulit-line list items
+### Multi-line list items
 
 When list items wrap into multiple lines, consider adding newlines per item 
 to make it more readable:
@@ -261,6 +273,17 @@ to make it more readable:
 ~~~
 
 This will add a paragraph tag to your list item: `<li><p></p></li>`
+
+### Unordered Lists
+
+Unordered lists are created using either hyphens `-` or asterisks `*`. They both give the same results, so it doesn't matter which one is used, but sticking to one way keeps the source markdown consistent.
+
+~~~markdown
+
+- This is a list item made using a hyphen.
+* This is a list item made using an asterisk.
+
+~~~
 
 ## Code
 
@@ -299,6 +322,18 @@ const obj = {
 
 It is best practice to explicitly declare the language immediately after the opening tilde marks, so that neither the
 syntax highlighter nor the next editor must guess.
+
+#### No Extraneous Characters
+
+Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
+
+```bash
+// The below example is incorrect
+$ cd Documents
+
+// The below is correct
+cd Documents
+```
 
 #### Nest codeblocks within lists
 
@@ -344,7 +379,7 @@ Images in Markdown follow the same syntax as links, except they begin with an ex
 
 The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative, but shouldn't be overly verbose.
 
-In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page.
+In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page to get a statically URL as seen in the codeblock above.
 
 ## Codepen Embeds
 

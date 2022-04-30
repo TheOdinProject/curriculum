@@ -1,9 +1,9 @@
 ### Introduction
-You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful css properties that can be used when working with text.
+You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful CSS properties that can be used when working with text.
 
 ### Learning Outcomes
 * You'll learn how to use custom fonts on your web projects.
-* You'll learn some more text-related css properties.
+* You'll learn some more text-related CSS properties.
 
 ### Fonts
 In our foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
@@ -49,7 +49,7 @@ body {
 Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
 
 #### Downloaded Fonts
-It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use as you would any other font-family.
+It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use as you would any other font-family. There are multiple types of font file formats and you can read more in depth about them on [fileinfo.com's page on Font File Formats](https://fileinfo.com/filetypes/font). Please take care when choosing a font file format however, because some are not universally supported by browsers. A list of browsers and the font formats they support can be found on [W3 Schools' page on CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp).
 
 ~~~css
 @font-face {

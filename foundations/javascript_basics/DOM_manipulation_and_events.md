@@ -2,8 +2,9 @@
 
 One of the most unique and useful abilities of JavaScript is its ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Explain what the DOM is in relation to a webpage.
 * Explain the difference between a "node" and an "element".
@@ -102,10 +103,10 @@ const div = document.createElement('div');
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
-div.style.cssText = 'color: blue; background: white';          
+div.style.cssText = 'color: blue; background: white;';          
 // adds several style rules
 
-div.setAttribute('style', 'color: blue; background: white');    
+div.setAttribute('style', 'color: blue; background: white;');    
 // adds several style rules
 ~~~
 
@@ -117,7 +118,7 @@ Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
-div.style.cssText = "background-color: white" // ok in a string
+div.style.cssText = "background-color: white;" // ok in a string
 ~~~
 
 #### Editing Attributes
@@ -370,7 +371,6 @@ Some useful events include:
 
 - click
 - dblclick
-- keypress
 - keydown
 - keyup
 
@@ -383,20 +383,9 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
 2. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
-* [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
-* [DOM Enlightenment](http://domenlightenment.com/)
-* [JavaScript30](https://JavaScript30.com)
-* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
-* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
-* [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
-* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
-
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
 * <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
@@ -414,3 +403,14 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
 * <a class="knowledge-check-link" href="#query-selectors">What does a "nodelist" contain?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>
+
+### Additional Resources
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+* [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
+* [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
+* [DOM Enlightenment](http://domenlightenment.com/)
+* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
+* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
+* [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
+* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.

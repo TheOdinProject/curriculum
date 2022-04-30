@@ -54,7 +54,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 The recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on google or the site [recipe site](https://www.allrecipes.com/) we linked to earlier.
+1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or the [recipe site](https://www.allrecipes.com/) we linked to earlier.
 2. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 3.  Under the description, add an "Ingredients" heading followed by an **unordered list** of the ingredients needed for the recipe.
 4. Finally, under the ingredients list, add a "Steps" heading followed by an **ordered list** of the steps needed for making the dish.
@@ -77,4 +77,4 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - go to your GitHub repo on the web and click the **Settings** button.
 - click on **Pages** on the left side bar.
 - change the **Source** from _none_ to _main branch_ and click Save.
-- it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+- it may take a few minutes (the GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).

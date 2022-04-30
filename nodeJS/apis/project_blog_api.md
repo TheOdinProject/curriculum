@@ -1,6 +1,6 @@
 ### Introduction
 
-Do you know what you need? You need a Blog. Or maybe you don't, or maybe you already have one, in any case, this project will be a great way to practice and see the benefits of creating an API only backend. We're actually going to create the backend and _two_ different front-ends for accessing and editing your blog posts. One of the front-end sites will be for people that want to read and comment on your posts while the other one will be just for you to write, edit and publish your posts. 
+Do you know what you need? You need a Blog. Or maybe you don't, or maybe you already have one, in any case, this project will be a great way to practice and see the benefits of creating an API only backend. We're actually going to create the backend and _two_ different front-ends for accessing and editing your blog posts. One of the front-end sites will be for people that want to read and comment on your posts while the other one will be just for you to write, edit and publish your posts.
 
 Why are we setting it up like this? Because we can! If you already have a portfolio site and you want to add your blog posts to that site feel free to do that instead of creating a new site just for that. The important exercise here is setting up the API and then accessing it from the outside. There are some security benefits to setting up separate websites for blog consumption and blog editing, but really we're just doing it like this to demonstrate the power and flexibility of separating your backend code from your frontend code.
 
@@ -18,7 +18,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 2. Set up your express app, and define the models in mongoose.
 3. Set up your routes and controllers!  Think about RESTful organization for this one.  Most of the examples in the previous lesson were centered around posts and comments so this shouldn't be too tricky.
   - You can test your routes however you want. Using `curl` in a terminal is one handy way, but it can be just as effective to use a web browser. There are some platforms that allow you to send `PUT` and `POST` requests without needing to set up and fill out HTML forms. [Postman](https://www.postman.com/downloads/) is probably the most popular.
-4. Once your API is working you can focus on your front-end code. Really, how you go about this is up to you.  If you are comfortable with a front-end framework then go for it! If you're happier using plain HTML and CSS that's fine too. All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results.  Working with fetch and APIs from a front-end perspective is covered in [this lesson](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/working-with-apis)
+4. Once your API is working you can focus on your front-end code. Really, how you go about this is up to you.  If you are comfortable with a front-end framework then go for it! If you're happier using plain HTML and CSS that's fine too. All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results.  Working with fetch and APIs from a front-end perspective is covered in [this lesson](https://www.theodinproject.com/lessons/javascript-working-with-apis)
 5. Create a second website for authoring and editing your posts. You can set this up however you like but the following features might be useful:
   - A list of all posts that shows whether or not they have been published.
   - A button to publish unpublished posts, or to unpublish published ones!
@@ -30,5 +30,5 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alernatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API. 
+- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alernatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API.
 

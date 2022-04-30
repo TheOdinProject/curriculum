@@ -44,13 +44,9 @@ The [Passing Data Deeply with Context webpage](https://beta.reactjs.org/learn/pa
 
 #### <span id="higher-order-components">5. Higher-order Components</span>
 
-Higher-order [components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component.
+Higher-order [components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component. This [article on HOC's by Smashing Magazine](https://www.smashingmagazine.com/2020/06/higher-order-components-react/) shows different use cases and provides some great comparisons to help you understand.
 
-#### <span id="with-router">6. withRouter (history, match, children object)</span>
-
-[`withRouter`](https://reactrouter.com/core/api/withRouter) is one example of a higher-order component and is worth looking into it. By wrapping `withRouter` around one of your components, the component will get access to your history, match, and children objects, which provide some additional syntactic sugar. For example, you could use the history object to push a user from one route to another.
-
-#### <span id="more-hooks">7. More Hooks</span>
+#### <span id="more-hooks">6. More Hooks</span>
 
 There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your [own](https://reactjs.org/docs/hooks-custom.html).
 
@@ -63,5 +59,4 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#redux">What is Redux and why are state management systems used in many large applications?</a>
 * <a class="knowledge-check-link" href="#context-api">What is prop drilling and how can you use Context API to avoid it?</a>
 * <a class="knowledge-check-link" href="#higher-order-components">What is a High-order Component?</a>
-* <a class="knowledge-check-link" href="#with-router">What is a Router in a web page and some of its benefits?</a>
 * <a class="knowledge-check-link" href="#more-hooks">How can you create your own Hooks?</a>

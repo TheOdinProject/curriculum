@@ -2,10 +2,12 @@
 
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
-### Learning Outcomes
+### Lesson Overview
 
-- How to write the basic boilerplate for an HTML document
-- How to open HTML documents in your browser
+This section contains a general overview of topics that you will learn in this lesson.
+
+* How to write the basic boilerplate for an HTML document
+* How to open HTML documents in your browser
 
 ### Creating an HTML File
 
@@ -153,16 +155,18 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
-- Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
-- If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
+*   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
+*   If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
-- <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-- <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
-- <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+* <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
+* <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
+* <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
+* <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>

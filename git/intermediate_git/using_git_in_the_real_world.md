@@ -2,7 +2,7 @@
 
 Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
-The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.  
+The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.
 
 To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
 
@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Let's say you want to contribute to the web application that powers this website (it's a different repo than our curriculum content, [this is our site repo](https://github.com/TheOdinProject/theodinproject)).
 
-How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an [open issue on our repo](https://github.com/TheOdinProject/theodinproject/issues) and that it has been assigned to you. 
+How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an [open issue on our repo](https://github.com/TheOdinProject/theodinproject/issues) and that it has been assigned to you.
 
 The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
@@ -31,12 +31,12 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 
 We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` (on the original repo, not on your fork) will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch.
 
-1. Create a new feature branch for whatever feature you want to build, and add commits following the same practices that you learned about in the [branching section of our Revisiting Rock Paper Scissors lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/revisiting-rock-paper-scissors#using-branches).
+1. Create a new feature branch for whatever feature you want to build, and add commits following the same practices that you learned about in the [branching section of our Revisiting Rock Paper Scissors lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors#using-branches).
 2. When you're done with your feature, odds are that someone has made changes to the upstream repository in the meantime.  That means that your `main` branch is probably out of date.  Fetch the most updated copy using `git fetch upstream`.
-3. Now merge the upstream's changes into your local version of `main` using `git merge`.  Specifically, you'll first want to make sure you're on your `main` branch using `git checkout main` and then `git merge upstream/main` to merge in those upstream changes that we just fetched.  
+3. Now merge the upstream's changes into your local version of `main` using `git merge`.  Specifically, you'll first want to make sure you're on your `main` branch using `git checkout main` and then `git merge upstream/main` to merge in those upstream changes that we just fetched.
 4. Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` is the EXACT same thing as doing a `git pull upstream/some_branch`.  We prefer to split it up here so that we can explicitly walk through the steps.
 5. Now that your `main` branch is up-to-date with upstream, you need to merge it into your feature branch.  Yes, that is correct and it seems odd at first.  Don't you want to merge the feature branch into the `main` branch instead?  Yes, you do, *but not yet*.  **Your feature branch is dirty.**  You don't know if it has any conflicts which might creep up.  Any time you are merging in more "senior" branches (e.g. merging the feature into `main`), you want it to be a clean and conflict-free merge if possible.  So you first merge the "senior" branch into your dirty branch to resolve those conflicts.  Run `git checkout your_feature_name` to jump back onto your feature branch, then  `git merge main` to merge `main` into it.
-6. You may have merge conflicts... resolve those using the skills you learned in [the Deeper Look at Git lesson](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/a-deeper-look-at-git)!
+6. You may have merge conflicts... resolve those using the skills you learned in [the Deeper Look at Git lesson](https://www.theodinproject.com/lessons/ruby-a-deeper-look-at-git)!
 
 #### Sending Your Pull Request
 

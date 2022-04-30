@@ -86,7 +86,7 @@ Use placeholder text to demonstrate how text should be entered and formatted.
 
 <span id="the-name-attribute">**The Name Attribute**</span>
 
-We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend where we send our data know what each piece of data represents.
+We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
 
 We do this by adding a `name` attribute to our inputs:
 
@@ -363,7 +363,7 @@ The button element also accepts a `type` attribute that tells the browser which 
 
 **Submit Buttons**
 
-Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has value of submit by default, i.e if the `type` is not specified or the value provided is invalid.
+Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has a value of submit by default, i.e. if the `type` is not specified or the value provided is invalid.
 
 To create a submit button, we use the button element with a `type` attribute of "submit":
 
@@ -503,7 +503,7 @@ Certain aspects of other elements are downright impossible to style, for example
 ####Styling Forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
-2. Read and follow along to [the internetingishard guide to forms](https://www.internetingishard.com/html-and-css/forms/)
+2. Read and follow along to [the internetingishard guide to forms](https://web.archive.org/web/20210515225808/https://www.internetingishard.com/html-and-css/forms/)
 
 </div>
 
