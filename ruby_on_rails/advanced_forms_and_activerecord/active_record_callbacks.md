@@ -93,6 +93,5 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class='knowledge-check-link' href='https://www.theodinproject.com/lessons/ruby-on-rails-active-record-callbacks#using-callbacks'>How do you register a callback?</a>
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#relational-callbacks'>How can you implement a user's images being destroyed if said user is destroyed?</a>
   * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#using-if-and-unless-with-a-symbol'>What's the difference between using a symbol or a Proc for a conditional callback?</a>
   * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks'>When are transaction callbacks most useful?</a>
