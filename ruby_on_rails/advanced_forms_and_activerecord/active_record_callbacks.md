@@ -97,4 +97,3 @@ This section contains questions for you to check your understanding of this less
   * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#using-if-and-unless-with-a-symbol'>What's the difference between using a symbol or a Proc for a conditional callback?</a>
   * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#callback-classes'>How can you reuse callback methods in other models?</a>
   * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks'>When are transaction callbacks most useful?</a>
-  * <a class='knowledge-check-link' href='https://samuelmullen.com/2012/01/guidelines-for-using-activerecord-callbacks/'>How implications come with stubbing callbacks during testing?</a>
