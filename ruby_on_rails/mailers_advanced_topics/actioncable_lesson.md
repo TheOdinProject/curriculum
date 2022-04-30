@@ -109,7 +109,7 @@ Now if you were to spin up a server and open localhost in a browser you should n
 
 Let's now deal with setting up the server connection. As we covered in the Action Cable lesson, the connection manages all the channels that a client subscribes to and deals with authentication and authorization.
 
-If you open up `app/channels/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Action Cable, with the only difference being we can use the user details set on the warden object environment variable.
+If you open up `app/channels/application_cable/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Action Cable, with the only difference being we can use the user details set on the warden object environment variable.
 
 ~~~ruby
 module ApplicationCable
