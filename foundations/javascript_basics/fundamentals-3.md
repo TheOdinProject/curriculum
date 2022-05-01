@@ -41,7 +41,9 @@ For now, just write each function and test the output with `console.log`.
 
 ### Additional Resources
 
- *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ *   Learn about the 'arguments' object on [this page](https://www.w3schools.com/js/js_function_parameters.asp) about function parameters.
 
 ### Knowledge Check
 
