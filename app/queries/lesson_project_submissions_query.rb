@@ -8,7 +8,7 @@ class LessonProjectSubmissionsQuery
   def current_user_submission
     return if current_user.nil?
 
-    current_user.project_submissions.not_removed_by_admin.find_by(lesson: lesson)
+    current_user.project_submissions.not_removed_by_admin.find_by(lesson:)
   end
 
   def public_submissions

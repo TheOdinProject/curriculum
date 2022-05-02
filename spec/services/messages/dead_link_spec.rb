@@ -8,14 +8,14 @@ RSpec.describe Messages::DeadLink do
       :flag,
       created_at: Time.zone.local(2021, 8, 1),
       id: 120,
-      flagger: flagger,
+      flagger:,
       project_submission: flagged_submission,
       reason: 'I find it offensive'
     )
   end
 
   let(:flagger) { create(:user, username: 'OdinUser') }
-  let(:flagged_submission) { create(:project_submission, lesson: lesson, user: user) }
+  let(:flagged_submission) { create(:project_submission, lesson:, user:) }
   let(:lesson) { create(:lesson, title: 'test lesson1', has_live_preview: true) }
   let(:user) { create(:user, username: 'testuser1') }
 

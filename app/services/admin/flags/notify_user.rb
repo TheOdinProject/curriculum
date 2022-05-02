@@ -17,7 +17,7 @@ module Admin
           flag.notified_user!
           flag.resolved!
           flag.update!(resolved_by_id: admin.id)
-          FlagNotification.with(flag: flag, title: message.title, message: message.content, url: message.url)
+          FlagNotification.with(flag:, title: message.title, message: message.content, url: message.url)
                           .deliver_later(flag.project_submission.user)
           flag.project_submission.update(discard_at: 7.days.from_now)
           @success = true

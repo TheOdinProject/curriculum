@@ -5,7 +5,7 @@ RSpec.describe GithubPushEventAdaptor do
 
   let(:payload) do
     {
-      ref: ref,
+      ref:,
       head_commit: {
         modified: ['url/one', 'url/two'],
       }

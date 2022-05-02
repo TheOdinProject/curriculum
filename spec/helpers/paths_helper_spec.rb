@@ -8,7 +8,7 @@ RSpec.describe PathsHelper do
     context 'when the path only has one pprerequisite' do
       it 'returns prerequisites list with one item' do
         prerequisite_path = create(:path, title: 'prerequisite path')
-        create(:path_prerequisite, path: path, prerequisite: prerequisite_path)
+        create(:path_prerequisite, path:, prerequisite: prerequisite_path)
 
         expect(helper.prerequisites_list_for(path)).to eql(
           '<a class="card-main__prerequisite-link" href="http://test.host/paths/prerequisite-path">prerequisite path</a>'
@@ -20,8 +20,8 @@ RSpec.describe PathsHelper do
       it 'returns prerequisites seperated by commas' do
         prerequisite_path_one = create(:path, title: 'prerequisite path one')
         prerequisite_path_two = create(:path, title: 'prerequisite path two')
-        create(:path_prerequisite, path: path, prerequisite: prerequisite_path_one)
-        create(:path_prerequisite, path: path, prerequisite: prerequisite_path_two)
+        create(:path_prerequisite, path:, prerequisite: prerequisite_path_one)
+        create(:path_prerequisite, path:, prerequisite: prerequisite_path_two)
 
         expect(helper.prerequisites_list_for(path)).to eql(
           '<a class="card-main__prerequisite-link" href="http://test.host/paths/prerequisite-path-one">prerequisite path one</a>, ' \

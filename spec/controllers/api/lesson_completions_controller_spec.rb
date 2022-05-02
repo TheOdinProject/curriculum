@@ -2,7 +2,7 @@ require 'rails_helper'
 
 module Api
   RSpec.describe LessonCompletionsController do
-    let(:params) { { start_date: start_date, end_date: end_date } }
+    let(:params) { { start_date:, end_date: } }
     let(:start_date) { '2019/01/01' }
     let(:end_date) { '2019/01/31' }
     let!(:course) { create(:course, title: 'Foundations', position: 1) }

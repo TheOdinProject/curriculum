@@ -136,6 +136,7 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.5.0)
+    digest (3.1.0)
     discard (1.2.1)
       activerecord (>= 4.2, < 8)
     discordrb-webhooks (3.4.2)
@@ -287,6 +288,20 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
+    net-imap (0.2.3)
+      digest
+      net-protocol
+      strscan
+    net-pop (0.1.1)
+      digest
+      net-protocol
+      timeout
+    net-protocol (0.1.3)
+      timeout
+    net-smtp (0.3.1)
+      digest
+      net-protocol
+      timeout
     netrc (0.11.0)
     newrelic_rpm (8.6.0)
     nio4r (2.5.8)
@@ -490,9 +505,11 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    strscan (3.0.1)
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
+    timeout (0.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
@@ -560,6 +577,9 @@ DEPENDENCIES
   kramdown (~> 2.4)
   letter_opener (~> 1.8)
   listen (~> 3.7)
+  net-imap
+  net-pop
+  net-smtp
   newrelic_rpm (~> 8.6)
   noticed (~> 1.5)
   octokit (~> 4.22)
@@ -595,7 +615,7 @@ DEPENDENCIES
   webpacker (~> 5.4)
 
 RUBY VERSION
-   ruby 3.0.3p157
+   ruby 3.1.2p20
 
 BUNDLED WITH
-   2.2.33
+   2.3.12

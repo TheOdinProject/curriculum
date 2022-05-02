@@ -29,7 +29,7 @@ class MailchimpSubscription
     {
       email_address: email,
       status: :subscribed,
-      merge_fields: merge_fields
+      merge_fields:
     }
   end
 

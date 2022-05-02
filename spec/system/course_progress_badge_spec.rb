@@ -2,10 +2,10 @@ require 'rails_helper'
 
 RSpec.describe 'Course Progress Badge', type: :system do
   let!(:path) { create(:path, default_path: true) }
-  let!(:course) { create(:course, path: path) }
-  let!(:section) { create(:section, course: course) }
-  let!(:first_lesson) { create(:lesson, section: section) }
-  let!(:second_lesson) { create(:lesson, section: section) }
+  let!(:course) { create(:course, path:) }
+  let!(:section) { create(:section, course:) }
+  let!(:first_lesson) { create(:lesson, section:) }
+  let!(:second_lesson) { create(:lesson, section:) }
   let!(:user) { create(:user) }
 
   before do

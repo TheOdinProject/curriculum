@@ -23,7 +23,7 @@ class LessonsController < ApplicationController
   end
 
   def project_submissions_query
-    ::LessonProjectSubmissionsQuery.new(lesson: @lesson, current_user: current_user, limit: 10)
+    ::LessonProjectSubmissionsQuery.new(lesson: @lesson, current_user:, limit: 10)
   end
 
   def decorated_lesson

@@ -11,29 +11,29 @@ RSpec.describe FlagNotification do
 
   describe 'database delivery' do
     it 'allows a valid FlagNotification to be saved' do
-      expect { flag_notification.with(flag: flag, title: title, url: url, message: message).deliver(recipient) }
+      expect { flag_notification.with(flag:, title:, url:, message:).deliver(recipient) }
         .to change { Notification.count }.from(0).to(1)
     end
   end
 
   describe 'param' do
     it 'requires flag to be present in the params' do
-      expect { flag_notification.with(title: title, url: url, message: message).deliver(recipient) }
+      expect { flag_notification.with(title:, url:, message:).deliver(recipient) }
         .to raise_error(Noticed::ValidationError, /flag is missing/)
     end
 
     it 'requires url to be present in the params' do
-      expect { flag_notification.with(flag: flag, title: title, message: message).deliver(recipient) }
+      expect { flag_notification.with(flag:, title:, message:).deliver(recipient) }
         .to raise_error(Noticed::ValidationError, /url is missing/)
     end
 
     it 'requires message to be present in the params' do
-      expect { flag_notification.with(flag: flag, title: title, url: url).deliver(recipient) }
+      expect { flag_notification.with(flag:, title:, url:).deliver(recipient) }
         .to raise_error(Noticed::ValidationError, /message is missing/)
     end
 
     it 'requires title to be present in the params' do
-      expect { flag_notification.with(flag: flag, url: url, message: message).deliver(recipient) }
+      expect { flag_notification.with(flag:, url:, message:).deliver(recipient) }
         .to raise_error(Noticed::ValidationError, /title is missing/)
     end
   end

@@ -10,8 +10,8 @@ RSpec.describe 'User Reset Progress', type: :system do
   let!(:rails_lesson) { create(:lesson, course: rails_course) }
 
   before do
-    create(:lesson_completion, lesson: foundation_lesson, user: user)
-    create(:lesson_completion, lesson: rails_lesson, user: user, course: rails_course)
+    create(:lesson_completion, lesson: foundation_lesson, user:)
+    create(:lesson_completion, lesson: rails_lesson, user:, course: rails_course)
 
     user.update(path: rails_path)
     sign_in(user)

@@ -5,8 +5,8 @@ RSpec.describe 'Static Pages', type: :request do
     context 'when path has more than one course' do
       it 'renders the path page' do
         path = create(:path)
-        create(:course, path: path)
-        create(:course, path: path)
+        create(:course, path:)
+        create(:course, path:)
 
         get path_url(path)
 
@@ -17,7 +17,7 @@ RSpec.describe 'Static Pages', type: :request do
     context 'when path only has one course' do
       it 'redirects to the course' do
         path = create(:path)
-        course = create(:course, path: path)
+        course = create(:course, path:)
 
         get path_url(path)
 

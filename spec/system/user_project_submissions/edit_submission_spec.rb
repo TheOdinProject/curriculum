@@ -12,7 +12,7 @@ RSpec.describe 'Editing a Project Submission on the Dashboard', type: :system do
   end
 
   before do
-    create(:project_submission, user: user, lesson: lesson)
+    create(:project_submission, user:, lesson:)
     sign_in(user)
     visit dashboard_path
   end

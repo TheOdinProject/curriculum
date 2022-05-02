@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Flagging a Project Submission', type: :system do
   let(:user) { create(:user) }
   let(:lesson) { create(:lesson, :project) }
-  let!(:project_submission) { create(:project_submission, lesson: lesson) }
+  let!(:project_submission) { create(:project_submission, lesson:) }
 
   before do
     sign_in(user)

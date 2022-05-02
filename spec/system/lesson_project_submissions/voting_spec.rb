@@ -5,7 +5,7 @@ RSpec.describe 'Voting on Project Submissions', type: :system do
   let(:lesson) { create(:lesson, :project) }
 
   before do
-    create(:project_submission, lesson: lesson)
+    create(:project_submission, lesson:)
 
     sign_in(user)
     visit lesson_path(lesson)

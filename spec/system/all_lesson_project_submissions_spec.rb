@@ -7,7 +7,7 @@ RSpec.describe 'View all Project Submissions for a Lesson', type: :system do
     let(:lesson) { create(:lesson, :project) }
 
     it 'paginates the results' do
-      create_list(:project_submission, 20, lesson: lesson)
+      create_list(:project_submission, 20, lesson:)
 
       sign_in(user)
       visit lesson_path(lesson)

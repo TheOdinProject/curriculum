@@ -4,7 +4,7 @@ RSpec.describe 'Voting on User Submissions on the Dashboard', type: :system do
   before do
     user = create(:user)
 
-    create(:project_submission, user: user)
+    create(:project_submission, user:)
     sign_in(user)
     visit dashboard_path
   end

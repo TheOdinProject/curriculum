@@ -17,8 +17,8 @@ module Seeds
       @section = section
     end
 
-    def self.create(course, position, &block)
-      new(course, position, &block)
+    def self.create(course, position, &)
+      new(course, position, &)
     end
 
     def section

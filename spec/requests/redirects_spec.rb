@@ -16,7 +16,7 @@ RSpec.describe 'Redirects', type: :request do
   describe 'when a request is made to a nested path lesson' do
     it 'redirects the deeply nested path lesson to a unnested lesson' do
       course = create(:course, title: 'test course')
-      create(:lesson, course: course, title: 'test lesson')
+      create(:lesson, course:, title: 'test lesson')
 
       get '/paths/a-path/courses/test-course/lessons/test-course-test-lesson'
 

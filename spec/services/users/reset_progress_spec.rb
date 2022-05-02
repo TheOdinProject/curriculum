@@ -7,8 +7,8 @@ RSpec.describe Users::ResetProgress do
   let!(:foundations_path) { create(:path, default_path: true) }
 
   before do
-    create(:lesson_completion, lesson: create(:lesson), user: user)
-    create(:lesson_completion, lesson: create(:lesson), user: user)
+    create(:lesson_completion, lesson: create(:lesson), user:)
+    create(:lesson_completion, lesson: create(:lesson), user:)
   end
 
   describe '#call' do

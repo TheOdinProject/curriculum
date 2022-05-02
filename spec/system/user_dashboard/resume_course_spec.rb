@@ -4,8 +4,8 @@ RSpec.describe 'Resuming Course from User Dashboard', type: :system do
   let!(:default_path) { create(:path, default_path: true) }
   let!(:foundations_course) { create(:course, title: 'Foundations', path: default_path) }
   let!(:section) { create(:section, course: foundations_course) }
-  let!(:lesson) { create(:lesson, section: section) }
-  let!(:incomplete_lesson) { create(:lesson, section: section) }
+  let!(:lesson) { create(:lesson, section:) }
+  let!(:incomplete_lesson) { create(:lesson, section:) }
   let!(:user) { create(:user) }
 
   context 'when user has completed first lesson in course' do

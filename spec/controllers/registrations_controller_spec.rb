@@ -11,7 +11,7 @@ RSpec.describe RegistrationsController do
     let(:user_attributes) do
       {
         username: 'kevin',
-        email: email,
+        email:,
         password: 'foobar1',
         password_confirmation: 'foobar1',
       }

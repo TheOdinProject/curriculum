@@ -108,8 +108,8 @@ RSpec.describe Seeds::CourseSeeder do
 
     it 'deletes lessons that are in the db but removed from the seeds file' do
       course = create(:course, identifier_uuid: 'course_uuid')
-      section_one = create(:section, identifier_uuid: 'section_uuid_1', course: course)
-      section_two = create(:section, identifier_uuid: 'section_uuid_2', course: course)
+      section_one = create(:section, identifier_uuid: 'section_uuid_1', course:)
+      section_two = create(:section, identifier_uuid: 'section_uuid_2', course:)
 
       create(:lesson, section: section_one, course_id: course.id, identifier_uuid: 'lesson_uuid_1')
       lesson_two = create(:lesson, section: section_two, course_id: course.id, identifier_uuid: 'lesson_uuid_2')

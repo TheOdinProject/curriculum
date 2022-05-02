@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe 'Course Lesson Completions', type: :system do
   let!(:user) { create(:user) }
   let!(:path) { create(:path, default_path: true) }
-  let!(:course) { create(:course, path: path) }
-  let!(:section) { create(:section, course: course) }
-  let!(:lesson) { create(:lesson, section: section) }
+  let!(:course) { create(:course, path:) }
+  let!(:section) { create(:section, course:) }
+  let!(:lesson) { create(:lesson, section:) }
 
   context 'when user is signed in' do
     before do

@@ -72,3 +72,10 @@ group :test do
   gem 'vcr', '~> 6.1'
   gem 'webmock', '~> 3.14'
 end
+
+# TODO: These gems are no longer default in Ruby 3.1 and have to be declared explicity, or Rspec will break.
+# They can be removed once upgraded to Rails 7.0.1 + as they are properly declared as a dependency in that version
+# See https://stackoverflow.com/questions/70500220/rails-7-ruby-3-1-loaderror-cannot-load-such-file-net-smtp
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'

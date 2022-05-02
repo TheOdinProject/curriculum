@@ -4,8 +4,8 @@ RSpec.describe 'Opening Course from User Dashboard', type: :system do
   let!(:default_path) { create(:path, default_path: true) }
   let!(:foundations_course) { create(:course, title: 'Foundations', path: default_path) }
   let!(:section) { create(:section, course: foundations_course) }
-  let!(:first_lesson) { create(:lesson, section: section) }
-  let!(:second_lesson) { create(:lesson, section: section) }
+  let!(:first_lesson) { create(:lesson, section:) }
+  let!(:second_lesson) { create(:lesson, section:) }
   let!(:user) { create(:user) }
 
   context 'when user has completed a course' do

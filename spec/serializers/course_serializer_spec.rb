@@ -7,7 +7,7 @@ RSpec.describe CourseSerializer do
     double(
       'Section',
       title: 'Foundations',
-      sections: sections,
+      sections:,
     )
   end
   let(:between_dates) do

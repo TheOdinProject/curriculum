@@ -5,8 +5,8 @@ RSpec.describe CompleteIconButtonComponent, type: :component do
   let(:user) { create(:user) }
 
   it 'renders the icon button with the lesson complete state' do
-    create(:lesson_completion, lesson: lesson, user: user)
-    component = described_class.new(lesson: lesson, current_user: user)
+    create(:lesson_completion, lesson:, user:)
+    component = described_class.new(lesson:, current_user: user)
 
     render_inline(component)
 
@@ -16,7 +16,7 @@ RSpec.describe CompleteIconButtonComponent, type: :component do
   end
 
   it 'renders the icon button with lesson incomplete state' do
-    component = described_class.new(lesson: lesson, current_user: user)
+    component = described_class.new(lesson:, current_user: user)
 
     render_inline(component)
 

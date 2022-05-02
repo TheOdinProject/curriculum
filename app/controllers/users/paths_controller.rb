@@ -4,7 +4,7 @@ module Users
     rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
     def create
-      if current_user.update(path: path)
+      if current_user.update(path:)
         redirect_to path, notice: "You have selected the #{path.title} path"
       else
         redirect_to :back, notice: "Unable to select the #{path.title} path"

@@ -6,7 +6,7 @@ RSpec.describe NotificationComponent, type: :component do
   end
 
   before do
-    render_inline(described_class.new(notification: notification))
+    render_inline(described_class.new(notification:))
   end
 
   it 'renders the component with a link to the notification\'s url' do

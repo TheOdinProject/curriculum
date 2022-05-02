@@ -4,7 +4,7 @@ RSpec.describe LessonSerializer do
   subject { described_class.as_json(lesson, between_dates) }
 
   let(:lesson) do
-    double('Lesson', title: 'Overview', lesson_completions: lesson_completions)
+    double('Lesson', title: 'Overview', lesson_completions:)
   end
   let(:between_dates) do
     (DateTime.parse('2019/01/01')..DateTime.parse('2019/12/31'))

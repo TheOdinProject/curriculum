@@ -12,7 +12,7 @@ end
 Capybara.singleton_class.prepend(Module.new do
   attr_accessor :last_used_session
 
-  def using_session(name, &block)
+  def using_session(name, &)
     self.last_used_session = name
     super
   ensure

@@ -44,7 +44,7 @@ RSpec.describe Lesson do
   describe 'slug' do
     it 'returns the course and lesson title as the slug' do
       course = create(:course, title: 'course title')
-      lesson = create(:lesson, title: 'lesson title', course: course)
+      lesson = create(:lesson, title: 'lesson title', course:)
 
       expect(lesson.slug).to eql('course-title-lesson-title')
     end
@@ -52,9 +52,9 @@ RSpec.describe Lesson do
     context 'when lesson is shared across paths' do
       it 'returns the path, course and lesson title as the slug' do
         path = create(:path, short_title: 'path title')
-        course = create(:course, title: 'course title', path: path)
-        create(:lesson, title: 'lesson title', course: course)
-        shared_lesson = create(:lesson, title: 'lesson title', course: course)
+        course = create(:course, title: 'course title', path:)
+        create(:lesson, title: 'lesson title', course:)
+        shared_lesson = create(:lesson, title: 'lesson title', course:)
 
         expect(shared_lesson.slug).to eql('path-title-course-title-lesson-title')
       end
@@ -63,8 +63,8 @@ RSpec.describe Lesson do
     context 'when path and course title are the same' do
       it 'returns the just the course and lesson title as the slug' do
         path = create(:path, short_title: 'foundations')
-        course = create(:course, title: 'foundations', path: path)
-        lesson = create(:lesson, title: 'lesson title', course: course)
+        course = create(:course, title: 'foundations', path:)
+        lesson = create(:lesson, title: 'lesson title', course:)
 
         expect(lesson.slug).to eql('foundations-lesson-title')
       end
@@ -73,8 +73,8 @@ RSpec.describe Lesson do
     context 'when course and lesson title are the same' do
       it 'returns the just the course and lesson title as the slug' do
         path = create(:path, short_title: 'path title')
-        course = create(:course, title: 'databases', path: path)
-        lesson = create(:lesson, title: 'databases', course: course)
+        course = create(:course, title: 'databases', path:)
+        lesson = create(:lesson, title: 'databases', course:)
 
         expect(lesson.slug).to eql('databases')
       end
@@ -87,10 +87,10 @@ RSpec.describe Lesson do
 
       it 'returns default slug canidate post fixed with the random hex' do
         path = create(:path, short_title: 'path title')
-        course = create(:course, title: 'course title', path: path)
-        create(:lesson, title: 'lesson title', course: course)
-        create(:lesson, title: 'lesson title', course: course)
-        lesson_three = create(:lesson, title: 'lesson title', course: course)
+        course = create(:course, title: 'course title', path:)
+        create(:lesson, title: 'lesson title', course:)
+        create(:lesson, title: 'lesson title', course:)
+        lesson_three = create(:lesson, title: 'lesson title', course:)
 
         expect(lesson_three.slug).to eql('path-title-course-title-lesson-title-1234')
       end
@@ -99,9 +99,9 @@ RSpec.describe Lesson do
 
   describe '#position_in_section' do
     let(:section) { create(:section) }
-    let(:first_lesson) { create(:lesson, position: 1, section: section) }
-    let(:second_lesson) { create(:lesson, position: 2, section: section) }
-    let(:third_lesson) { create(:lesson, position: 3, section: section) }
+    let(:first_lesson) { create(:lesson, position: 1, section:) }
+    let(:second_lesson) { create(:lesson, position: 2, section:) }
+    let(:third_lesson) { create(:lesson, position: 3, section:) }
 
     it 'returns the position of the lesson in the section' do
       expect(first_lesson.position_in_section).to be(1)

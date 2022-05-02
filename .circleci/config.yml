@@ -1,10 +1,13 @@
 ---
 version: 2.1
 
+orbs:
+  browser-tools: circleci/browser-tools@1.3
+
 executors:
   rails-executor:
     docker:
-      - image: circleci/ruby:3.0.3-buster-node-browsers-legacy
+      - image: cimg/ruby:3.1.2-browsers
         environment:
           RAILS_ENV: test
           POSTGRES_USERNAME: postgres
@@ -49,6 +52,13 @@ jobs:
   tests:
     executor: rails-executor
     steps:
+      - browser-tools/install-chrome
+      - browser-tools/install-chromedriver
+      - run:
+          command:
+            google-chrome --version
+            chromedriver --version
+          name: Check install
       - build-app
       - run: yarn test
       - run: bundle exec rspec

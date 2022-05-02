@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe SectionDecorator do
   subject(:section_decorator) { described_class.new(section) }
 
-  let(:section) { instance_double(Section, lessons: lessons) }
+  let(:section) { instance_double(Section, lessons:) }
   let(:lessons) { [lesson] }
   let(:lesson) { instance_double(Lesson) }
 

@@ -14,8 +14,8 @@ module Seeds
       @path = path
     end
 
-    def self.create(&block)
-      new(&block)
+    def self.create(&)
+      new(&)
     end
 
     def path
@@ -29,8 +29,8 @@ module Seeds
       end.first
     end
 
-    def add_course(&block)
-      Seeds::CourseSeeder.create(path, course_position, &block).tap do |seeded_course|
+    def add_course(&)
+      Seeds::CourseSeeder.create(path, course_position, &).tap do |seeded_course|
         seeded_courses.push(seeded_course)
       end
     end

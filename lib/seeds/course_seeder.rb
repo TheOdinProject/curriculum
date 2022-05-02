@@ -16,12 +16,12 @@ module Seeds
       @course = course
     end
 
-    def self.create(path, position, &block)
-      new(path, position, &block)
+    def self.create(path, position, &)
+      new(path, position, &)
     end
 
-    def add_section(&block)
-      Seeds::SectionSeeder.create(course, section_position, &block).tap do |section|
+    def add_section(&)
+      Seeds::SectionSeeder.create(course, section_position, &).tap do |section|
         seeded_sections.push(section)
       end
     end

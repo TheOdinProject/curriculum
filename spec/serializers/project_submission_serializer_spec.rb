@@ -10,8 +10,8 @@ RSpec.describe ProjectSubmissionSerializer do
       repo_url: 'https://www.repourl.com/path',
       live_preview_url: 'https://www.livepreviewurl.com/path',
       is_public: false,
-      user: user,
-      lesson: lesson
+      user:,
+      lesson:
     )
   end
 

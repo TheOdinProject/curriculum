@@ -26,7 +26,7 @@ module Lessons
     end
 
     def project_submissions_query
-      @project_submissions_query ||= ::LessonProjectSubmissionsQuery.new(lesson: @lesson, current_user: current_user)
+      @project_submissions_query ||= ::LessonProjectSubmissionsQuery.new(lesson: @lesson, current_user:)
     end
 
     def set_lesson

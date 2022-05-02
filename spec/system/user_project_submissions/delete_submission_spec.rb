@@ -5,7 +5,7 @@ RSpec.describe 'Deleting a Project Submission on the Dashboard', type: :system d
   let(:lesson) { create(:lesson, :project) }
 
   before do
-    create(:project_submission, user: user, lesson: lesson)
+    create(:project_submission, user:, lesson:)
     sign_in(user)
     visit dashboard_path
   end

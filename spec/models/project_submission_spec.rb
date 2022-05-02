@@ -125,7 +125,7 @@ RSpec.describe ProjectSubmission, type: :model do
       it 'sets discard_at to nil' do
         repo_url = 'https://www.legitrepo.com'
 
-        discardable_project_submission.update(repo_url: repo_url)
+        discardable_project_submission.update(repo_url:)
 
         expect(discardable_project_submission.reload.discard_at).to be_nil
       end
@@ -135,7 +135,7 @@ RSpec.describe ProjectSubmission, type: :model do
       it 'sets discard_at to nil' do
         live_preview_url = 'https://legitlivepreview.com'
 
-        discardable_project_submission.update(live_preview_url: live_preview_url)
+        discardable_project_submission.update(live_preview_url:)
 
         expect(discardable_project_submission.reload.discard_at).to be_nil
       end

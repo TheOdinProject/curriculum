@@ -59,7 +59,7 @@ ActiveAdmin.register Flag do
         "#{flags.count} (#{active} active, #{resolved} resolved)"
       end
 
-      render 'flag_actions', flag: flag
+      render 'flag_actions', flag:
     end
   end
 

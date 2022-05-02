@@ -7,7 +7,7 @@ RSpec.describe UserProvider do
     subject { described_class.find_user(auth) }
 
     let(:auth) { double('Auth') }
-    let(:user_provider_finder) { double('UserProviderFinder', user: user) }
+    let(:user_provider_finder) { double('UserProviderFinder', user:) }
     let(:user) { double('User') }
 
     before do

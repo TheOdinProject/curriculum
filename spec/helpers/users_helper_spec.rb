@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe UsersHelper do
   describe '#display_dashboard_learning_goal' do
-    let(:user) { build_stubbed(:user, learning_goal: learning_goal) }
+    let(:user) { build_stubbed(:user, learning_goal:) }
     let(:learning_goal) { 'To be the best' }
 
     it 'returns the users learning goal' do
@@ -21,7 +21,7 @@ RSpec.describe UsersHelper do
   end
 
   describe '#display_learning_goal' do
-    let(:user) { build_stubbed(:user, learning_goal: learning_goal) }
+    let(:user) { build_stubbed(:user, learning_goal:) }
     let(:learning_goal) { 'To be the best' }
 
     it 'returns the users learning goal' do

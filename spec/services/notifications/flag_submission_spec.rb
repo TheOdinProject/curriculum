@@ -7,7 +7,7 @@ RSpec.describe Notifications::FlagSubmission do
     create(
       :flag,
       id: 120,
-      flagger: flagger,
+      flagger:,
       project_submission: flagged_submission,
       reason: 'I find it offensive'
     )

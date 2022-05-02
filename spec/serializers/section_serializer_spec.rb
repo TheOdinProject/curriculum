@@ -7,7 +7,7 @@ RSpec.describe SectionSerializer do
     double(
       'Section',
       title: 'Installations',
-      lessons: lessons,
+      lessons:,
     )
   end
 

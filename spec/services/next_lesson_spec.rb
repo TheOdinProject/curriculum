@@ -4,9 +4,9 @@ RSpec.describe NextLesson do
   subject(:next_lesson) { described_class.new(course, lesson_completions) }
 
   let(:course) { create(:course) }
-  let!(:lesson_one) { create(:lesson, course: course) }
-  let!(:lesson_two) { create(:lesson, course: course) }
-  let!(:lesson_three) { create(:lesson, course: course) }
+  let!(:lesson_one) { create(:lesson, course:) }
+  let!(:lesson_two) { create(:lesson, course:) }
+  let!(:lesson_three) { create(:lesson, course:) }
 
   describe '#to_complete' do
     context 'when there are incomplete lessons after the most recently completed lesson' do

@@ -5,9 +5,9 @@ RSpec.describe MailchimpSubscription do
 
   let(:options) do
     {
-      email: email,
-      username: username,
-      signup_date: signup_date,
+      email:,
+      username:,
+      signup_date:,
     }
   end
   let(:email) { 'kevin@fizbaz.com' }
@@ -27,7 +27,7 @@ RSpec.describe MailchimpSubscription do
 
   describe '#create' do
     let(:request) { double('Gibbon::Request') }
-    let(:mailchimp_list) { double('MailChimp::List', members: members) }
+    let(:mailchimp_list) { double('MailChimp::List', members:) }
     let(:members) { double('Members') }
 
     before do

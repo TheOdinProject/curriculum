@@ -46,7 +46,7 @@ RSpec.describe Seeds::SectionSeeder do
           identifier_uuid: 'section_uuid',
           title: 'Intermediate Section',
           position: 2,
-          course: course
+          course:
         )
 
         expect { section_seeder }.to change { existing_section.reload.title }

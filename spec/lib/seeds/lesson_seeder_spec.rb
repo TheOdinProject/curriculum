@@ -4,7 +4,7 @@ require 'rails_helper'
 RSpec.describe Seeds::LessonSeeder do
   subject(:lesson_seeder) { described_class.create(section, position, attributes) }
 
-  let(:section) { create(:section, course: course) }
+  let(:section) { create(:section, course:) }
   let(:course) { create(:course) }
   let(:position) { 1 }
   let(:attributes) do
@@ -112,7 +112,7 @@ RSpec.describe Seeds::LessonSeeder do
           identifier_uuid: 'lesson_uuid',
           title: 'JS Lesson',
           position: 2,
-          section: section,
+          section:,
           course_id: course.id,
         )
 

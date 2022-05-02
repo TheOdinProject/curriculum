@@ -4,7 +4,7 @@ module OmniauthProviders
   RSpec.describe Finder do
     subject { described_class.new(auth) }
 
-    let(:auth) { double('Auth', info: info, uid: '123', provider: 'github') }
+    let(:auth) { double('Auth', info:, uid: '123', provider: 'github') }
     let(:info) do
       double(
         'Info',
