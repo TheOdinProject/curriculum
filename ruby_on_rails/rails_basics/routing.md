@@ -6,7 +6,7 @@ The Router is basically just a matching service.  It looks at the HTTP verb (GET
 
 The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called `params` that you can later use in your controller.  That's good for things like form submissions so that you later can use that form data to create or modify objects.
 
-If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way.
+If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a link to the Rails Guides routing section. This resource does a good job of explaining how it works, so you're never in much danger of losing your way.
 
 Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
