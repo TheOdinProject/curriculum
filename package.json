@@ -14,7 +14,7 @@
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
     "@rails/ujs": "^7.0.2",
     "@rails/webpacker": "5.4.3",
-    "@sentry/browser": "^6.19.6",
+    "@sentry/browser": "^6.19.7",
     "@stimulus/polyfills": "^2.0.0",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^9",
