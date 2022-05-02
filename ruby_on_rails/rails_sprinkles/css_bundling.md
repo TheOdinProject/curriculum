@@ -44,7 +44,7 @@ rails new myapp --css bootstrap
 
 For an existing application you just need to follow the following steps
 
-* Add `gem css-bundling-rails` to your Gemfile
+* Add `gem 'cssbundling-rails'` to your Gemfile
 * Run `bundle install` in the command line
 * Use the generator provided by the gem to install the tooling you need `./bin/rails css:install:[tailwind|bootstrap|bulma|postcss|sass]`, so again using bootstrap as an example you'd write `./bin/rails css:install:bootstrap`.
 
@@ -74,7 +74,7 @@ If you find yourself wanting more than the standard Rails way of producing style
 
 ### Assignment
 
-There isn't much more to what we've covered above but there are a couple of ideas below  
+There isn't much more to what we've covered above but there are a couple of ideas below
 
 <div class="lesson-content__panel" markdown="1">
   1. Read the [gems README](https://github.com/rails/cssbundling-rails) as the FAQ has some information about using the gem and it gets updated from time to time with new information.
