@@ -41,7 +41,7 @@ For now, just write each function and test the output with `console.log`.
 
 ### Additional Resources
 
- *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+[What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
 
 ### Knowledge Check
 
