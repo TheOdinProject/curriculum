@@ -281,7 +281,7 @@ with Stimulus
 * Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial) it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker
 we will use the new rails standard of using import maps.
-* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/lifecycle-callbacks), if you 
+* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you 
 haven't already, don't worry if not everything sticks, but you should know where to look up these things.
 </div>
 
