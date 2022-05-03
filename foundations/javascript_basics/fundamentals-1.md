@@ -97,7 +97,7 @@ _* As you might have noticed by running Javascript code in the console, the cons
 
  This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   [Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+ *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
 
