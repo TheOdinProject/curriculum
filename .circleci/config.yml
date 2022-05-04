@@ -12,8 +12,8 @@ executors:
           RAILS_ENV: test
           POSTGRES_USERNAME: postgres
           POSTGRES_PASSWORD: password
-      - image: circleci/redis:alpine
-      - image: circleci/postgres:12.2-ram
+      - image: cimg/redis:6.2.6
+      - image: cimg/postgres:14.2
         environment:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: password
