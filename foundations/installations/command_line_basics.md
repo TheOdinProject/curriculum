@@ -35,13 +35,21 @@ By the end of this lesson, you should be able to do the following:
 - Use the command line to rename or destroy a directory and a file.
 - Use the command line to open a file or folder in a program.
 
-### Assignment
+### NEW Assignment
 <div class="lesson-content__panel" markdown="1">
 
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/foundations/lessons/prerequisites).
 
-  1. Before diving into the command line lesson, you'll want to know how to create a file. You can do so with the `touch` command. Open your terminal and enter `ls` (the `l` is a lowercase `L`). `ls` will show you the files and folders in the current directory (or will show nothing if the current directory is empty). Create a file called `test.txt` by entering this in your terminal: `touch test.txt`. Now enter `ls` once again. You should see `test.txt` listed in the output. You can also create more than one file at once using the `touch` command. Enter `touch index.html script.js style.css` and press the enter. Then enter `ls` once more. You should see the files in the output. Here is a small way that the terminal reveals its power. How long would it have taken to create all three of those files with your mouse? Thanks, terminal.
-  2. Read through [chapter 1 of Conquering the Command Line](https://www.softcover.io/read/fc6c09de/unix_commands/basics).
+1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
+    
+    - Setup (this step is required to complete some of the exercises within the following lessons)
+    - Introducing the Shell
+    - Navigating Files and Directories
+    - Working With Files and Directories
+    - Pipes and Filters
+    
+2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
+
 </div>
 
 
@@ -74,12 +82,14 @@ MacOS can do this too, but you need to set it up. After installing VSCode, launc
 In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
 <div class="lesson-content__panel" markdown="1">
-  1. Create a new directory in your home directory with the name `test`.
-  2. Navigate to the `test` directory.
-  3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-  4. Open your newly created file in VSCode and make some changes, save the file, and close it.
-  5. Navigate back out of the `test` directory.
-  6. Delete the `test` directory.
+
+1. Create a new directory in your home directory with the name `test`.
+2. Navigate to the `test` directory.
+3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+4. Open your newly created file in VSCode and make some changes, save the file, and close it.
+5. Navigate back out of the `test` directory.
+6. Delete the `test` directory.
+
 </div>
 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
