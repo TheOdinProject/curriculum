@@ -12,6 +12,8 @@ Finally, this is your first JavaScript program built from scratch, so don't forg
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
+
 1. Start a new Git repo for your project.
 2. Create a blank HTML document with a script tag (Hint: it is best practice to link an external .js file).  This game is going to be played completely from the console, so don't worry about putting anything else in there.
 3. Your game is going to play against the computer, so begin with a function called `computerPlay` that will randomly return either 'Rock', 'Paper' or 'Scissors'.  We'll use this function in the game to make the computer's play. *Tip: use the console to make sure this is returning the expected output before moving to the next step!*
@@ -31,7 +33,7 @@ Finally, this is your first JavaScript program built from scratch, so don't forg
    ~~~
 
 6. Write a NEW function called `game()`. Call the `playRound` function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
-   1. Remember loops? This is a great opportunity to use one to play those five rounds:
+   1. [Remember loops?](https://www.theodinproject.com/lessons/foundations-problem-solving#solving-fizz-buzz) This is a great opportunity to use one to play those five rounds:
 
       ~~~javascript
       for (let i = 0; i < 5; i++) {

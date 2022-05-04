@@ -72,12 +72,12 @@ HTML allows us to apply as many validations as we wish to a form control. For ex
 
 This gives us much more scope to control what users input.
 
-### Minimum and Maximum Validations
+### Number Range Validations
 
 Just like we often need to control the length of text-based form controls, there will be many situations where we will want to control the range of values users can enter into number based form controls.
 
 We can do this with the min and max attributes, which allows us to set the lower and upper bounds of the value entered into the form control.
-The min and max attributes only work with number based form controls such as the number, dates and time inputs.
+The min and max attributes only work with number-based form controls such as the number, dates and time inputs.
 You can view the complete list of supported elements on [MDN's documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
 
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
@@ -206,6 +206,6 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 - <a class="knowledge-check-link" href='#required-validation'>What does the required validation do?</a>
 - <a class="knowledge-check-link" href='#text-length-validations'>What validations can you use for checking text length?</a>
-- <a class="knowledge-check-link" href='#minimum-and-maximum-validations'>How can you validate the minimum and maximum of numeric inputs?</a>
+- <a class="knowledge-check-link" href='#number-range-validations'>How can you validate the minimum and maximum of numeric inputs?</a>
 - <a class="knowledge-check-link" href='#pattern-validations'>What can you use the pattern validation for?</a>
 - <a class="knowledge-check-link" href='#styling-validations'>What pseudo css selectors are available for styling valid and invalid inputs?</a>

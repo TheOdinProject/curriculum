@@ -2,12 +2,12 @@
 
 Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe (no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard).
 
-That black screen or window is the command line interface (CLI), where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
+That black screen or window is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward. So don't let the prospect of using the command line for the first time intimidate you.
 
 #### Test Drive Your Terminal
-Open a terminal on your computer.
+<span id="open-command-line">Open a terminal</span> on your computer.
 
 - **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
 
@@ -25,20 +25,20 @@ It returns your username. Cool!
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will need you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what the command line is.
-- Open the command line on your computer.
-- Use the command line to navigate directories and display directory contents.
-- Use the command line to create a new directory and a new file.
-- Use the command line to rename or destroy a directory and a file.
-- Use the command line to open a file or folder in a program.
+* Describe what the command line is.
+* Open the command line on your computer.
+* Use the command line to navigate directories and display directory contents.
+* Use the command line to create a new directory and a new file.
+* Use the command line to rename or destroy a directory and a file.
+* Use the command line to open a file or folder in a program.
 
 ### NEW Assignment
 <div class="lesson-content__panel" markdown="1">
 
-**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/courses/foundations/lessons/prerequisites).
+**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     
@@ -95,7 +95,7 @@ In this exercise, you will practice creating files and directories and deleting 
 That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete beginner's pro-maker. It serves as an open-source repository. This also has a lot of pro tips!
 * The online book, [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to buy and read the rest of the book if you like.
@@ -105,16 +105,16 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, detailed enough to get you started and light your inner curiosity.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* What is the command line?
-* How do you open the command line on your computer?
-* How can you navigate to a particular directory?
-* Where will `cd` on its own navigate you to?
-* Where will `cd ..` navigate you to?
-* How do you display the name of the directory you are currently in?
-* How do you display the contents of the directory you are currently in?
-* How do you create a new directory?
-* How do you create a new file?
-* How do you destroy a directory or file?
-* How do you rename a directory or file?
+* <a class="knowledge-check-link" href="#command-line">What is the command line?</a>
+* <a class="knowledge-check-link" href="#open-command-line">How do you open the command line on your computer?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd">How can you navigate to a particular directory?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31">Where will `cd` on its own navigate you to?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30">Where will `cd ..` navigate you to?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd">How do you display the name of the directory you are currently in?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls">How do you display the contents of the directory you are currently in?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7">How do you create a new directory?</a>
+* <a class="knowledge-check-link" href="#create-file">How do you create a new file?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9">How do you destroy a directory or file?</a>
+* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10">How do you rename a directory or file?</a>

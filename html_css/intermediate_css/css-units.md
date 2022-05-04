@@ -18,7 +18,7 @@ Relative units are units that can change based on their context. There are sever
 
 `1rem` is the `font-size` of the root element (either `:root` or `html`). The math works the same with `rem` as it did with `em`, but without the added complexity of keeping track of the parent's font size. Relying on `em` could mean that a particular size could change if the context changes, which is very likely not the behavior you want.
 
-Using a relative size like `rem` to define font sizes across your website _is_ recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect user's wishes with regards to font size. You'll learn more about this from the reading assignments.
+Using a relative size like `rem` to define font sizes across your website _is_ recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect a user's wishes regarding font size. You'll learn more about this from the reading assignments.
 
 #### Viewport Units
 
@@ -28,7 +28,7 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 <div class="lesson-content__panel" markdown="1">
 1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) covers all the available units.
 2. The article [CSS units](https://codyloyd.com/2021/css-units/) goes in depth on how and when you might want to use `em`, `rem`, or `px`.
-3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`
+3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
 </div>
 
 ### Additional Resources
@@ -38,5 +38,5 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#em-and-rem'>Why would you want to use `em` or `rem` for font-size instead of `px`?</a>
-- <a class="knowledge-check-link" href='#viewport-units'>What are some instances where you might want to use `vh` and `vw`</a>
+- <a class="knowledge-check-link" href='#viewport-units'>What are some instances where you might want to use `vh` and `vw`?</a>
 - <a class="knowledge-check-link" href='https://codyloyd.com/2021/css-units/'>What are some instances where you might want to use `px` instead of a relative unit?</a>

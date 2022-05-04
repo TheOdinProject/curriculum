@@ -81,7 +81,7 @@ In this course, "Foundations" you'll take a journey through the entire spectrum 
 
 The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
-Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
+Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
 
 Yes, it's going to be challenging.
 
@@ -92,7 +92,8 @@ And it might even be life changing, too.
 *What are you waiting for?*
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)

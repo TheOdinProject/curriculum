@@ -1,15 +1,17 @@
 ### Introduction
 
-Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web. The internet is essentially a web of HTML pages connected to one another with links.
+Links are one of the key features of HTML. They allow us to link to other HTML pages on the web. In fact, this is why it's called the web.
 
 In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
-### Learning Outcomes
+### Lesson Overview
 
-- How to create links to pages on other websites on the internet
-- How to create links to other pages on your own websites
-- The difference between absolute and relative links
-- How to display an image on webpage using HTML
+This section contains a general overview of topics that you will learn in this lesson.
+
+* How to create links to pages on other websites on the internet
+* How to create links to other pages on your own websites
+* The difference between absolute and relative links
+* How to display an image on webpage using HTML
 
 ### Preparation
 
@@ -26,7 +28,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 ### Anchor Elements
 
-To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag.
+To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
@@ -73,10 +75,10 @@ Within the `odin-links-and-images` directory, create another HTML file named `ab
 
 ~~~html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Odin Links and Images</title>
     <meta charset="UTF-8">
+    <title>Odin Links and Images</title>
   </head>
 
   <body>
@@ -98,7 +100,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can simply use the name of the about.html file `about.html` as the value of the href in the link.
+This works because the index and about page are in the same directory. That means we can simply use its name (`about.html`) as the link's href value.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
@@ -131,7 +133,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
-Think of the directory in which a website is located as a house, and each page on the website as a room in that house. Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). Absolute links, on the other hand, are directions to an entirely different house.
+Think of your domain name (`town.com`) as a town, the directory in which your website is located (`/museum`) as a museum, and each page on your website as a room in the museum (`/museum/movie_room.html` and `/museum/shops/coffee_shop.html`). Relative links like `./shops/coffee_shop.html` are directions from the current room (the museum movie room `/museum/movie_room.html`) to another room (the museum shop). Absolute links, on the other hand, are full directions including the protocol (`https`), domain name (`town.com`) and the path from that domain name (`/museum/shops/coffee_shop.html`): `https://town.com/museum/shops/coffee_shop.html`.
 
 ### Images
 
@@ -139,7 +141,7 @@ Websites would be fairly boring if they could only display text. Luckily HTML pr
 
 To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag.
 
-Instead of wrapping content with an open and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
+Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
@@ -174,7 +176,7 @@ Save the `index.html` file and open it in a browser to view Charles in all his g
 ### Parent Directories
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
-<span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Lets see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
+<span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
 ~~~html
 <img src="../images/dog.jpg">
@@ -192,7 +194,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
-The alt attribute is used to describe an image, it will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
+The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
 This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
 
@@ -208,7 +210,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Watch Kevin Powell's HTML Links video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
+1. [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
 2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
 3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
 4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
@@ -216,18 +218,21 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>
-- <a class="knowledge-check-link" href="#attribute">What is an attribute?</a>
-- <a class="knowledge-check-link" href="#where-to-go">What attribute tells links where to go to?</a>
-- <a class="knowledge-check-link" href="#absolute-and-relative-links">What is the difference between an absolute and relative link?</a>
-- <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
-- <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
-- <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
-- <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+* <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>
+* <a class="knowledge-check-link" href="#attribute">What is an attribute?</a>
+* <a class="knowledge-check-link" href="#where-to-go">What attribute tells links where to go to?</a>
+* <a class="knowledge-check-link" href="#absolute-and-relative-links">What is the difference between an absolute and relative link?</a>
+* <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
+* <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
+* <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
+* <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>

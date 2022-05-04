@@ -66,9 +66,10 @@ If we had written this program with TDD it is very likely that it would have loo
 <div class="lesson-content__panel" markdown="1">
 1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
 2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  These two articles ([one](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4) and [two](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)) might be a little extreme, but they contain several really good points about program architecture and testing.
-3. Now that you have some practice and context for TDD, [this section](https://facebook.github.io/jest/docs/en/setup-teardown.html#content) of the Jest docs will probably make good sense to you.
-4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://facebook.github.io/jest/docs/en/mock-functions.html#content)
-5. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://facebook.github.io/jest/docs/en/webpack.html#content).
+3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
+4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://facebook.github.io/jest/docs/en/mock-functions.html#content).
+5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
+6. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://facebook.github.io/jest/docs/en/webpack.html#content).
 </div>
 
 ### Knowledge Check 
@@ -80,3 +81,7 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>
 - <a class='knowledge-check-link' href='#two-solutions'>What is mocking?</a>
 - <a class='knowledge-check-link' href='#mock-function-example'>When would you use a mock function?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=699">How should you test incoming query messages?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=792">Why should you not test implementation?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1102">Should you test private methods?</a>
+- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1370">Why should you not test messages with no side effects?</a>

@@ -1,7 +1,8 @@
 Let's dive right in to JavaScript!
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * How do you declare a variable?
 * What are three different ways to declare a variable?
@@ -27,8 +28,8 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Title</title>
   <meta charset="UTF-8">
+  <title>Page Title</title>
 </head>
 <body>
   <script>
@@ -68,8 +69,9 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 3. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
-### Assignment
+### Practice
 
+<div class="lesson-content__panel" markdown="1">
 Try the following exercises (and don't forget to use `console.log()`!):
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
@@ -89,25 +91,28 @@ Try the following exercises (and don't forget to use `console.log()`!):
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line.`_
+</div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-[Hacker Noon on why you shouldn't use `var` anymore](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable?</a>
 * <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder"> How does the `%` operator work?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp"> Explain the difference between `==` and `===`.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the `%` operator work?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between `==` and `===`.</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and post-fixing increment/decrement operators.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#operator-precedence">What is operator precedence and how is it handled in JS?</a>
-* <a class="knowledge-check-link" href="#access-devTools-console"> How do you access developer tools and the console?</a>
+* <a class="knowledge-check-link" href="#access-devTools-console">How do you access developer tools and the console?</a>
 * <a class="knowledge-check-link" href="#console-log">How do you log information to the console?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus operator do to string representations of integers?</a>
