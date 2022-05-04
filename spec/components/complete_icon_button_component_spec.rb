@@ -10,7 +10,7 @@ RSpec.describe CompleteIconButtonComponent, type: :component do
 
     render_inline(component)
 
-    expect(rendered_component).to have_css(
+    expect(page).to have_css(
       ".complete-icon-button[data-complete-button-is-completed-value='true']"
     )
   end
@@ -20,7 +20,7 @@ RSpec.describe CompleteIconButtonComponent, type: :component do
 
     render_inline(component)
 
-    expect(rendered_component).to have_css(
+    expect(page).to have_css(
       ".complete-icon-button[data-complete-button-is-completed-value='false']"
     )
   end

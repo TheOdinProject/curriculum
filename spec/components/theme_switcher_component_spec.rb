@@ -7,7 +7,7 @@ RSpec.describe ThemeSwitcherComponent, type: :component do
 
       render_inline(component)
 
-      expect(rendered_component).to have_link(href: '/themes?theme=light')
+      expect(page).to have_link(href: '/themes?theme=light')
     end
   end
 
@@ -17,7 +17,7 @@ RSpec.describe ThemeSwitcherComponent, type: :component do
 
       render_inline(component)
 
-      expect(rendered_component).to have_link(href: '/themes?theme=dark')
+      expect(page).to have_link(href: '/themes?theme=dark')
     end
   end
 end

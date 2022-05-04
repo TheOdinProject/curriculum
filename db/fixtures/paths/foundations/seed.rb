@@ -18,6 +18,7 @@ course = path.add_course do |course|
   course.title = 'Foundations'
   course.description = "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses."
   course.identifier_uuid = '783e9b72-a447-4f49-a9b3-b62826d68e04'
+  course.badge_uri = 'badge-foundations.svg'
 end
 
 # +++++++++++++++++++++++++++++++

@@ -5,6 +5,8 @@ course = @path.add_course do |course|
   course.title = 'Advanced HTML and CSS'
   course.description = "It's time to dig in and become the CSS expert you deserve to be. After this course you'll be equipped to create web projects that look beautiful on any device!"
   course.identifier_uuid = 'd4e151c0-e31d-4ee0-baeb-16693c3c80d0'
+  course.show_on_homepage = true
+  course.badge_uri = 'badge-html-css.svg'
 end
 
 # +++++++++++++

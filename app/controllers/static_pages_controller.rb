@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
   def home
     @success_stories = SuccessStory.limit(4)
+    @courses = Course.badges
   end
 
   def about; end

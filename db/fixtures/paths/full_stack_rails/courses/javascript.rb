@@ -5,6 +5,7 @@ course = @path.add_course do |course|
   course.title = 'JavaScript'
   course.description = "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming principles, and build single page applications with React."
   course.identifier_uuid = 'be963a26-8c2a-4af9-ac19-d68b526b5bc5'
+  course.badge_uri = 'badge-javascript.svg'
 end
 
 # ++++++++++++++++++++++

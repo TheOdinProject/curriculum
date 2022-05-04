@@ -5,6 +5,7 @@ course = @path.add_course do |course|
   course.title = 'Intermediate HTML and CSS'
   course.description = "Let's learn a little more about what you can do with HTML and CSS."
   course.identifier_uuid = '6dee731e-4ef7-4986-9411-63ed9b2de9d9'
+  course.badge_uri = 'badge-html-css.svg'
 end
 
 # +++++++++++++++++++++++++++++++++++

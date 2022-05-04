@@ -42,7 +42,7 @@ body,
   background-color: var(--dark-bg-accent) !important;
 }
 
-.curriculum-details-tile,
+.course-badge-tile,
 .odin-dark-mobile-menu,
 .odin-dark-nav-item,
 .odin-dark-bg,
@@ -55,7 +55,7 @@ body,
   color: var(--dark-font-color) !important;
 }
 
-.curriculum-details-tile:hover {
+.course-badge-tile:hover {
   box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.5) !important;
   -webkit-box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.5) !important;
 }

@@ -13,8 +13,8 @@ RSpec.describe Nav::ItemComponent, type: :component do
 
       render_inline(component)
 
-      expect(rendered_component).to have_link('Home', href: '/home')
-      expect(rendered_component).to have_content('Home icon')
+      expect(page).to have_link('Home', href: '/home')
+      expect(page).to have_content('Home icon')
     end
   end
 
@@ -30,7 +30,7 @@ RSpec.describe Nav::ItemComponent, type: :component do
 
       render_inline(component)
 
-      expect(rendered_component).to have_link('Home', href: '/home')
+      expect(page).to have_link('Home', href: '/home')
     end
   end
 end

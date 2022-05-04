@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength
+# rubocop:disable Metrics/MethodLength, Layout/LineLength
 module ApplicationHelper
   require 'kramdown'
 
@@ -30,65 +30,6 @@ module ApplicationHelper
         image: 'img-connect.svg',
         subtitle: 'Connect',
         description: 'You’re not alone. Learn and get help from our friendly community of beginner and experienced developers.'
-      }
-    ]
-  end
-
-  def available_courses
-    [
-      {
-        badge_image_url: 'badge-html-css.svg',
-        badge_alt_text: 'html css badge',
-        title: 'Intermediate HTML+CSS',
-        path: '/paths/full-stack-javascript/courses/intermediate-html-and-css'
-      },
-      {
-        badge_image_url: 'badge-html-css.svg',
-        badge_alt_text: 'html css badge',
-        title: 'Advanced HTML+CSS',
-        path: '/paths/full-stack-javascript/courses/advanced-html-and-css'
-      },
-      {
-        badge_image_url: 'badge-javascript.svg',
-        badge_alt_text: 'javascript badge',
-        title: 'JavaScript',
-        path: '/paths/full-stack-javascript/courses/javascript'
-      },
-      {
-        badge_image_url: 'badge-git.svg',
-        badge_alt_text: 'git badge',
-        title: 'Git',
-        path: '/paths/foundations/courses/foundations#git-basics'
-      },
-      {
-        badge_image_url: 'badge-database.svg',
-        badge_alt_text: 'databases badge',
-        title: 'Databases',
-        path: '/paths/full-stack-ruby-on-rails/courses/databases'
-      },
-      {
-        badge_image_url: 'badge-ruby.svg',
-        badge_alt_text: 'ruby badge',
-        title: 'Ruby',
-        path: '/paths/full-stack-ruby-on-rails/courses/ruby'
-      },
-      {
-        badge_image_url: 'badge-ruby-on-rails.svg',
-        badge_alt_text: 'ruby on rails badge',
-        title: 'Ruby on Rails',
-        path: '/paths/full-stack-ruby-on-rails/courses/ruby-on-rails'
-      },
-      {
-        badge_image_url: 'badge-nodejs.svg',
-        badge_alt_text: 'nodejs badge',
-        title: 'NodeJS',
-        path: '/paths/full-stack-javascript/courses/nodejs'
-      },
-      {
-        badge_image_url: 'badge-getting-hired.svg',
-        badge_alt_text: 'getting hired badge',
-        title: 'Getting Hired',
-        path: '/paths/full-stack-javascript/courses/getting-hired'
       }
     ]
   end
@@ -127,4 +68,4 @@ module ApplicationHelper
     { 'notice' => 'alert-success', 'alert' => 'alert-danger' }
   end
 end
-# rubocop:enable Metrics/MethodLength, Layout/LineLength, Metrics/ModuleLength
+# rubocop:enable Metrics/MethodLength, Layout/LineLength
