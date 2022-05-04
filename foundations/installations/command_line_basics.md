@@ -35,7 +35,7 @@ This section contains a general overview of topics that you will learn in this l
 * Use the command line to rename or destroy a directory and a file.
 * Use the command line to open a file or folder in a program.
 
-### NEW Assignment
+### Assignment
 <div class="lesson-content__panel" markdown="1">
 
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
