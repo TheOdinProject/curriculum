@@ -162,6 +162,9 @@ Style/SlicingWithRange:
 Style/StringConcatenation:
   Enabled: true
 
+Style/FetchEnvVar:
+  Enabled: false
+
 Performance/AncestorsInclude:
   Enabled: true
 
