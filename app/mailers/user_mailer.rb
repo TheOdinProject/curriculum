@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default from: 'contact@theodinproject.com'
+  default from: 'The Odin Project <contact@theodinproject.com>'
 
   def send_welcome_email_to(user)
     @user = user
