@@ -42,6 +42,7 @@ For now, just write each function and test the output with `console.log`.
 ### Additional Resources
 
 [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
+[Examples of simple "function" with `console.log` output](https://github.com/Zarinha/TOP_JsExercises)
 
 ### Knowledge Check
 
