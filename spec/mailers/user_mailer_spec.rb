@@ -7,7 +7,7 @@ RSpec.describe UserMailer, type: :mailer do
     let(:user) { create(:user, email: 'kevin@example.com') }
 
     it 'renders the correct sender address' do
-      expect(welcome_email.from).to eql(['no-reply@theodinproject.com'])
+      expect(welcome_email.from).to eql(['contact@theodinproject.com'])
     end
 
     it 'includes an attachment' do
