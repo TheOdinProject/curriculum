@@ -75,7 +75,7 @@ Phrased another way, the child selector will select an element that is one level
 Finally, if we want to select all of an element's siblings and not just the first one, we can use the general sibling combinator `~`.
 
 ~~~css
-/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs*/
+/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
 .group1 ~ div {
   /* Our cool CSS */
 }
@@ -87,7 +87,7 @@ Just like the descendant combinator, these selectors don't have any special spec
 Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
-Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together
+Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together.
 
 **Note:** The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from [this article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
 
