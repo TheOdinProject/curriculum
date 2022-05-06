@@ -30,7 +30,7 @@ In usage it's pretty simple, but keep in mind that it's best used sparingly, and
 Read the [`box-shadow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow).
 
 #### Overflow
-It is possible, using `overflow`, to define what happens when it's content is too big to fit. The most common usage is likely to add scrollbars to an element inside a webpage, for example a `card` style element with scrollable content.
+It is possible, using `overflow`, to define what happens to an element when its content is too big to fit. The most common usage is likely to add scrollbars to an element inside a webpage, for example a `card` style element with scrollable content.
 
 Check out the [`overflow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
