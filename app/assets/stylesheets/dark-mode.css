@@ -51,6 +51,10 @@ body,
   background: var(--dark-bg-color) !important;
 }
 
+.odin-dark-link {
+  color: var(--dark-font-color) !important;
+}
+
 .curriculum-details-tile:hover {
   box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.5) !important;
   -webkit-box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.5) !important;
