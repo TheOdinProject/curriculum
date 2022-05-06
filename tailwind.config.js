@@ -44,6 +44,12 @@ module.exports = {
       margin: {
         '-25px': '-25px',
       },
+      textColor: {
+        primary: '#4a4a4a',
+      },
+      padding: {
+        '2px': '2px',
+      },
     },
   },
   purge: {

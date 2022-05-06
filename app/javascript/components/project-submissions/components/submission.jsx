@@ -11,6 +11,16 @@ import Like from './like';
 
 const noop = () => { };
 
+const submissionItemClassnames = `
+  relative py-4
+  border-solid border-t border-gray-300
+  flex flex-col md:flex-row justify-between items-center
+`;
+
+const submissionButtonClassnames = `
+  button button--gray font-semibold
+`;
+
 const Submission = forwardRef(({
   submission, handleUpdate, onFlag, handleDelete, isDashboardView, handleLikeToggle,
 }, ref) => {
@@ -24,10 +34,10 @@ const Submission = forwardRef(({
   const livePreview = submission.live_preview_url.length > 0;
 
   return (
-    <div className="submissions__item" ref={ref} data-test-id="submission-item">
-      <div className="submissions__left-container">
+    <div className={submissionItemClassnames} ref={ref} data-test-id="submission-item">
+      <div className="flex items-center mb-4 md:mb-0">
         <Like submission={submission} handleLikeToggle={handleLikeToggle} />
-        <p className="submissions__submission-title">
+        <p className="font-semibold text-xl break-words">
           <SubmissionTitle
             submission={submission}
             isCurrentUsersSubmission={isCurrentUsersSubmission}
@@ -36,12 +46,12 @@ const Submission = forwardRef(({
         </p>
       </div>
 
-      <div className="submissions__actions">
+      <div className="flex flex-col md:flex-row md:items-center">
         <a
           href={submission.repo_url}
           target="_blank"
           rel="noreferrer"
-          className="submissions__button"
+          className={`${submissionButtonClassnames} md:mr-4`}
           data-test-id="view-code-btn"
         >
           View Code
@@ -52,7 +62,7 @@ const Submission = forwardRef(({
             href={submission.live_preview_url}
             target="_blank"
             rel="noreferrer"
-            className="submissions__button"
+            className={`${submissionButtonClassnames} mt-5 md:mt-0 md:mr-4`}
             data-test-id="live-preview-btn"
           >
             Live Preview
@@ -62,17 +72,19 @@ const Submission = forwardRef(({
         {isCurrentUsersSubmission
           ? (
             <div
-              className="submissions__button--edit"
+              className="submissions-flag text-gray-500 hover:text-black"
               onMouseDown={toggleShowEditModal}
               role="button"
               tabIndex={0}
               aria-label="edit-button"
               data-test-id="edit-submission-btn"
-            />
+            >
+              <i className="fas fa-edit" />
+            </div>
           )
           : (
             <button
-              className="link-button submissions__flag hint--top"
+              className="submissions-flag text-gray-300 hint--top"
               aria-label="Report submission"
               type="button"
               data-test-id="flag-btn"

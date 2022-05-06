@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const LessonContentInput = ({ content }) => (
-  <div className="lesson-content"><div dangerouslySetInnerHTML={{ __html: content }} /></div>
+  <div className="lesson-content min-h-screen"><div dangerouslySetInnerHTML={{ __html: content }} /></div>
 );
 
 LessonContentInput.defaultProps = {

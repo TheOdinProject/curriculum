@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { func, object, number } from 'prop-types';
 
-const FlagForm = ({ onSubmit, submission, userId }) => {
+const FlagForm = ({ onSubmit, submission }) => {
   const {
     register, handleSubmit, formState,
   } = useForm();
@@ -29,11 +29,11 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
           {...register('project_submission_id')}
           value={submission.id}
         />
-        <div className="form__section">
+        <div className="form-section">
           <textarea
             autoFocus
             placeholder="Please be as detailed as possible"
-            className="form__element dark-form-input"
+            className="form-element"
             rows="5"
             {...register('reason', {
               minLength: { value: 4, message: 'Must be at least 4 characters' },
@@ -43,14 +43,21 @@ const FlagForm = ({ onSubmit, submission, userId }) => {
           />
         </div>
         {errors.reason && (
-        <div className="form__error-message push-down">
+        <div className="form-error">
           {' '}
           {errors.reason.message}
         </div>
         )}
 
-        <div className="form__section form__section--center-aligned">
-          <button disabled={formState.isSubmitting} className="button button--primary" type="submit" data-test-id="submit-flag-btn">Flag</button>
+        <div className="form-section form-section-center">
+          <button
+            disabled={formState.isSubmitting}
+            className="button button--primary"
+            type="submit"
+            data-test-id="submit-flag-btn"
+          >
+            Flag
+          </button>
         </div>
       </form>
     </div>

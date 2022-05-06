@@ -1,0 +1,7 @@
+@layer components {
+  /* Use important to override position:relative from hint--top */
+  .submissions-flag {
+    @apply absolute md:relative
+    top-1.5 md:top-0 right-0 !important
+  }
+}

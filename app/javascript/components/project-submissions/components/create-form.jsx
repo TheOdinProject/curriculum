@@ -1,12 +1,14 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import PropTypes from 'prop-types';
 import { yupResolver } from '@hookform/resolvers/yup';
 
 import schema from '../schemas/project-submission-schema';
 import ProjectSubmissionContext from '../ProjectSubmissionContext';
+import Toggle from './toggle';
 
-const CreateForm = ({ onClose, onSubmit, userId }) => {
+const CreateForm = ({ onClose, onSubmit }) => {
+  const [isToggled, setIsToggled] = useState(true);
   const { lesson } = useContext(ProjectSubmissionContext);
   const {
     register,
@@ -15,9 +17,17 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
   } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
-      is_public: true,
+      is_public: isToggled,
     },
   });
+
+  const handleOnClickToggle = () => {
+    setIsToggled(!isToggled);
+  };
+
+  const handleSubmitCallback = async (data) => (
+    onSubmit({ ...data, is_public: isToggled })
+  );
 
   const {
     errors,
@@ -27,7 +37,14 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
     return (
       <div className="text-center">
         <h1 className="page-heading-title" data-test-id="success-message">Thanks for Submitting Your Solution!</h1>
-        <button type="button" className="button button--primary" onClick={onClose} data-test-id="close-btn">Close</button>
+        <button
+          type="button"
+          className="button button--primary"
+          onClick={onClose}
+          data-test-id="close-btn"
+        >
+          Close
+        </button>
       </div>
     );
   }
@@ -37,12 +54,12 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
     <div>
       <h1 className="text-center page-heading-title">Upload Your Project</h1>
 
-      <form className="form" onSubmit={handleSubmit(onSubmit)}>
-        <div className="form__section">
-          <span className="form__icon fab fa-github" />
+      <form className="form" onSubmit={handleSubmit(handleSubmitCallback)}>
+        <div className="form-section">
+          <span className="form-icon fab fa-github" />
           <input
             autoFocus
-            className="form__element form__element--with-icon dark-form-input"
+            className="form-element-with-icon"
             type="url"
             {...register('repo_url')}
             placeholder="Repository URL"
@@ -50,7 +67,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
           />
         </div>
         {errors.repo_url && (
-        <div className="form__error-message push-down" data-test-id="error-message">
+        <div className="form-error" data-test-id="error-message">
           {' '}
           {errors.repo_url.message}
         </div>
@@ -59,10 +76,10 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
         { lesson.has_live_preview
           && (
           <>
-            <div className="form__section">
-              <span className="form__icon fas fa-link" />
+            <div className="form-section">
+              <span className="form-icon fas fa-link" />
               <input
-                className="form__element form__element--with-icon dark-form-input"
+                className="form-element-with-icon"
                 type="url"
                 placeholder="Live Preview URL"
                 {...register('live_preview_url')}
@@ -70,7 +87,7 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
               />
             </div>
             { errors.live_preview_url && (
-            <div className="form__error-message push-down" data-test-id="error-message">
+            <div className="form-error" data-test-id="error-message">
               {' '}
               {errors.live_preview_url.message}
             </div>
@@ -78,24 +95,17 @@ const CreateForm = ({ onClose, onSubmit, userId }) => {
           </>
           )}
 
-        <div className="form__section form__section--center-aligned form__section--bottom">
-          <div className="form__toggle-checkbox">
-            <p className="bold">MAKE SOLUTION PUBLIC</p>
-            <label htmlFor="is_public" className="toggle form__public-checkbox" data-test-id="is-public-toggle-slider">
-              <input
-                id="is_public"
-                className="toggle__input"
-                type="checkbox"
-                {...register('is_public')}
-              />
-              <div className="toggle__fill" />
-            </label>
-          </div>
+        <div className="form-section form-section-center lg:flex-row lg:justify-center mb-0">
+          <Toggle
+            label="MAKE SOLUTION PUBLIC"
+            onClick={handleOnClickToggle}
+            isToggled={isToggled}
+          />
 
           <button
             disabled={formState.isSubmitting}
             type="submit"
-            className="button button--primary button--medium"
+            className="button button--primary"
             data-test-id="submit-btn"
           >
             Submit

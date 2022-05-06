@@ -8,7 +8,7 @@ const LessonContentInput = ({ onChange, content }) => {
 
   return (
     <textarea
-      className="lesson-preview__input form__element"
+      className="w-full min-h-screen p-4 form-element"
       placeholder="Lesson content..."
       onChange={handleOnChange}
       value={content}

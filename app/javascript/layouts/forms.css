@@ -1,0 +1,29 @@
+@layer components {
+  .form {
+    @apply p-4
+  }
+
+  .form-element {
+    @apply w-full py-4 px-2 border-none text-primary focus:outline-none placeholder-gray-400 placeholder-opacity-75
+  }
+
+  .form-element-with-icon {
+    @apply form-element py-4 pl-14 pr-2
+  }
+
+  .form-error {
+    @apply text-red-500 font-bold -mt-5 mb-4
+  }
+
+  .form-icon {
+    @apply absolute text-2xl left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2
+  }
+
+  .form-section {
+    @apply relative mb-5
+  }
+
+  .form-section-center {
+    @apply flex flex-col items-center
+  }
+}
