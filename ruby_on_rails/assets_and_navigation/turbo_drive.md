@@ -97,7 +97,7 @@ This creates a link that will use the `DELETE` method. However, it is suggested 
 
 There will be times where you do not want Turbo Drive to control navigation and want a full page reset.
 
-You can disable Turbo Drive by adding `data-turbo="false` directly on your links or on the parent containing them.
+You can disable Turbo Drive by adding `data-turbo="false"` directly on your links or on the parent containing them.
 
 For instance:
 
@@ -131,7 +131,7 @@ Think of it like this, after you submit a form usually you want to do be directe
 
 If the server responds with any other status, Turbo won't be able to handle it and it will appear as though nothing has happened as the page won't update. The one thing to keep in mind with this is the HTTP 200 status. This is returned when a request has succeeded so it might seem strange at first that Turbo can't handle this type of request.
 
-The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect.Browsers handle this case by offering to submit the form again as a post request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options.
+The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a post request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options.
 
 1. It can either stay on the current URL in your browser; or
 2. It could try and navigate to the action that the form submits to.
@@ -140,7 +140,7 @@ If it navigated to the form action it would do so as a new GET request, but sinc
 
 ### Turbolinks
 
-Before we finish up, we should briefly mention the predecessor to Turbo, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (its first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. The goal of Turbolinks was to capture the request for any clicked links in your web application and, if that link was to another page in your web app and not to an outside resource, then Turbolinks would keep the current page instance alive and only swap out the content between the `<body>` tags of the document. Because it didn't do a full page redirect it was faster because it didn't have to attempt to download any resources in the head part of the document when they were unlikely to have unchanged.
+Before we finish up, we should briefly mention the predecessor to Turbo, Turbolinks. Turbolinks is **no longer in active development**! Despite that, it's still worth mentioning as it has been around for a while (its first major release was 2013) and it's possible that you will encounter existing applications or online articles that mention Turbolinks. The goal of Turbolinks was to capture the request for any clicked links in your web application and, if that link was to another page in your web app and not to an outside resource, then Turbolinks would keep the current page instance alive and only swap out the content between the `<body>` tags of the document. It didn't require a full page reload (and was therefore faster) because it didn't have to download any resources in the head part of the document when they were unlikely to have changed.
 
 This only applied when navigating pages with links, it did not intercept form submissions. While Turbolinks is no longer actively developed, the concept behind it has evolved into a new framework now known as Turbo.
 
