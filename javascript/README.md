@@ -1,6 +1,6 @@
 # JavaScript
 
-This folder contains lesson markdown files that make up the JavaScript course. This course exists in the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript?/) path on the Odin Project Website.
+This folder contains lesson markdown files that make up the JavaScript course. This course exists in the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript?/) and the [Full Stack Ruby on Rails](add_link_here) paths on the Odin Project Website.
 
 ## Course Outline
 
