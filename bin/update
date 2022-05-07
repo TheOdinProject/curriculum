@@ -18,8 +18,17 @@ chdir APP_ROOT do
   system! 'gem install bundler --conservative'
   system('bundle check') || system!('bundle install')
 
+  # Update JavaScript dependencies
+  system! 'bin/yarn'
+
   puts "\n== Updating database =="
   system! 'bin/rails db:migrate'
+
+  puts "\n== Updating seeds =="
+  system! 'bin/rails db:seed'
+
+  puts "\n== Updating curriculum =="
+  system! 'rails curriculum:update_content'
 
   puts "\n== Removing old logs and tempfiles =="
   system! 'bin/rails log:clear tmp:clear'

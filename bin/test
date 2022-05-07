@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+puts "\n== Running linters =="
+puts 'Rubocop:'
+system 'bundle exec rubocop'
+puts 'ESlint:'
+system 'yarn eslint'
+
+puts "\n== Running specs =="
+puts 'Rspec:'
+system 'bundle exec rspec'
+puts 'Jest:'
+system 'yarn test'
