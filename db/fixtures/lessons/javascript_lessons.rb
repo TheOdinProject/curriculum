@@ -191,7 +191,7 @@ def javascript_lessons
       title: 'Battleship',
       description: 'Battleship',
       is_project: true,
-      url: '/javascript/testing_javacript/project_battleship.md',
+      url: '/javascript/testing_javascript/project_battleship.md',
       accepts_submission: true,
       has_live_preview: true,
       identifier_uuid: '62702165-7705-47ba-a308-dd39c561e057',
