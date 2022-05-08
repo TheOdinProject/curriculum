@@ -1,6 +1,6 @@
 # JavaScript
 
-This folder contains lesson markdown files that make up the JavaScript course. This course exists in the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript?/) and the [Full Stack Ruby on Rails](add_link_here) paths on the Odin Project Website.
+This folder contains lesson markdown files that make up the JavaScript course. This course exists in the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript?/) and the [Full Stack Ruby on Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/javascript) paths on the Odin Project Website.
 
 ## Course Outline
 
@@ -54,7 +54,7 @@ The following list represents how the lessons are divided into sections and pres
 12. [Advanced Concepts](react_js/advanced_concepts.md)
 ### JavaScript and the Backend
 1. - [Using BaaS For Your Back End](javascript_and_the_backend/using_baas_for_your_backend.md) (Exclusive to the Full Stack JavaScript path)
-   - [Using Ruby on Rails For Your Back End](add_file_link_here) (Exclusive to the Full Stack Ruby on Rails path)
+   - [Using Ruby on Rails For Your Back End](javascript_and_the_backend/using_rails_for_your_backend.md) (Exclusive to the Full Stack Ruby on Rails path)
 2. [**Project: Where's Waldo (A Photo Tagging App)**](javascript_and_the_backend/project_wheres_waldo_a_photo_tagging_app.md)
 ### Finishing Up with JavaScript
 1. [**Project: JavaScript Final Project**](finishing_up_with_javascript/project_javascript_final.md)
