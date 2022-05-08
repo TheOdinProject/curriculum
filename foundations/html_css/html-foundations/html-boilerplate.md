@@ -154,14 +154,6 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
-*   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
-*   If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -170,3 +162,11 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
 * <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
 * <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
+*   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away.
+*   If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
