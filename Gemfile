@@ -60,7 +60,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara', '~> 3.36'
+  gem 'capybara', '~> 3.37'
   gem 'climate_control', '~> 1.0'
   gem 'cuprite', '~> 0.13'
   gem 'erb_lint', '~> 0.1', require: false
