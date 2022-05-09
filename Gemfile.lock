@@ -40,14 +40,14 @@ GEM
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
     active_material (1.5.2)
-    activeadmin (2.12.0)
+    activeadmin (2.13.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (>= 3.1, < 5.0)
       formtastic_i18n (~> 0.4)
       inherited_resources (~> 1.7)
       jquery-rails (~> 4.2)
       kaminari (~> 1.0, >= 1.2.1)
-      railties (>= 6.0, < 7.1)
+      railties (>= 6.1, < 7.1)
       ransack (>= 2.1.1, < 4)
     activeadmin_addons (1.9.0)
       active_material
@@ -551,7 +551,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_material (~> 1.5)
-  activeadmin (~> 2.12)
+  activeadmin (~> 2.13)
   activeadmin_addons (~> 1.9)
   acts_as_votable (~> 0.13)
   bootsnap (~> 1.11)
