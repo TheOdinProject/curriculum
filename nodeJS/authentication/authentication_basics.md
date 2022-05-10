@@ -147,7 +147,7 @@ Now that we have the ability to put users in our database, let's allow them to l
 
 <span id='strategy'>PassportJS uses what they call _Strategies_ to authenticate users</span>. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
 
-We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialize())`.
+We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add then somewhere before the line that initializes passport for us: `app.use(passport.initialize())`.
 
 #### Function one : setting up the LocalStrategy
 ~~~javascript
