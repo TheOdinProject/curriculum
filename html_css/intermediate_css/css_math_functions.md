@@ -92,10 +92,10 @@ Max works the same way as min, only in reverse. It will select the largest possi
 Consider the following property of a given element:
 
 ~~~css
-width: max(100px, 1rem, 4em, 50%)
+width: max(100px, 4em, 50%);
 ~~~
 
-From this list of given sizes, max will select the largest one.
+From this list of given sizes, `max()` will select the largest one. As long as `4em` or `50%` result in lengths longer than `100px`, `max()` will select (the bigger) one of them. If they are smaller than `100px` (maybe as a cause of user's font size preferences, or their browser's window size or zoom level), then `100px` wil win out as the largest. You can think of `100px` in this example as a guard value: `width` here won't ever be set to less than `100px`.
 
 The max function is most useful when the viewing window is either exceptionally small, or the user increases the content size by using the browser’s zoom feature.
 You may not find a lot of use for max at first, but it is good tool to be aware of for projects where accessibility is important.
