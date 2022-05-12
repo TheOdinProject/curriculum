@@ -28,7 +28,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 ### Anchor Elements
 
-To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag.
+To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
@@ -100,7 +100,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can simply use the name of the about.html file `about.html` as the value of the href in the link.
+This works because the index and about page are in the same directory. That means we can simply use its name (`about.html`) as the link's href value.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
