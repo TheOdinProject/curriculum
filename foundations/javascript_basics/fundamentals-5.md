@@ -34,6 +34,8 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - getTheTitles
 - findTheOldest
 
+Don't remember how to do them? No worries! [Here](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) you have a refresher on how to work with Node.js
+
 Note: Solutions for these exercises can be found in the 'solutions' branch of that repo
 </div>
 
