@@ -75,34 +75,4 @@
       }
     }
   }
-
-  .contribute {
-    background: linear-gradient(white, $light-grey);
-    margin: 0;
-  }
-
-  .goldbar {
-    border-top: solid $primary 2px;
-    position: relative;
-    padding: 20px 0 26px 40px;
-
-    &:before {
-      content: "";
-      display: block;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      position: absolute;
-      top: -10px;
-      left: 0;
-      background: $primary;
-    }
-  }
-}
-
-@media (min-width: 942px) {
-  .intro {
-    width: 80%;
-    margin: auto;
-  }
 }
