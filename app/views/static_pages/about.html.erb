@@ -41,6 +41,7 @@
         <div class="col-lg-8 offset-lg-2">
           <h2 class="bold text-center beliefs-heading text-2xl">Our Beliefs</h2>
           <%= render partial: 'static_pages/about/belief', collection: beliefs, as: :belief %>
+          <%= render(AboutBeliefComponent.with_collection(beliefs)) %>
         </div>
       </div>
     </div>
