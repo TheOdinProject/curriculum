@@ -13,29 +13,6 @@
       width: 100%;
       margin-bottom: 60px;
     }
-
-    .belief {
-      padding-bottom: 60px;
-
-      .belief-illustration {
-        justify-content: center;
-        display: flex;
-
-        @media screen and (max-width: 575px) {
-          justify-content: center;
-        }
-      }
-
-      .belief-description {
-        .belief-short-text {
-          padding-bottom: 1em;
-        }
-        @media screen and (max-width: 575px) {
-          margin-top: 40px;
-          text-align: center;
-        }
-      }
-    }
   }
 
   .story {
