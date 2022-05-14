@@ -52,8 +52,7 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-*   https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/
+*   https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/ is an article which goes indepth on how we can utilize css             overview in developer tools to check the colours ,font-styles, media-queries etc. used on a particular webpage .
 
 ### Knowledge Check
 
