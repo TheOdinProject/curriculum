@@ -86,7 +86,7 @@ workflows:
       - seeds
       - heroku/deploy-via-git:
           force: true
-          app-name: the-odin-project-staging
+          app-name: theodinproject
           branch: main
           requires:
             - tests
