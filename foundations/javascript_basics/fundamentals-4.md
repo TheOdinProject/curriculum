@@ -43,7 +43,7 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
    - sumAll
    - leapYears
    - tempConversion
-3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the 'solutions' branch of the repo.
+3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the ['solutions' branch](https://github.com/TheOdinProject/javascript-exercises/tree/solutions) of the repo.
 </div>
 
 ### Additional Resources
