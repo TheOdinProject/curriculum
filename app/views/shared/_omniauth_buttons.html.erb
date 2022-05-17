@@ -1,6 +1,9 @@
-<% resource_class.omniauth_providers.each do |provider| %>
-  <%= button_to omniauth_authorize_path(resource_name, provider), class: "button button--#{provider} oauth-button full-width push-down", data: { test_id: "#{provider}-btn" } do %>
-    <i class="fab fa-<%= provider%> mr-2"></i>
-    <%= provider.to_s.titleize %>
-  <% end %>
+<%= button_to omniauth_authorize_path(resource_name, :github), class: "button button--github oauth-button full-width push-down", data: { test_id: "github-btn" } do %>
+  <i class="fab fa-github mr-2"></i>
+  Github
+<% end %>
+
+<%= button_to omniauth_authorize_path(resource_name, :google), class: "button button--google oauth-button full-width push-down", data: { test_id: "google-btn" } do %>
+  <i class="fab fa-google mr-2"></i>
+  Google
 <% end %>
