@@ -19,7 +19,9 @@ Our rules have different levels of severity and zaps are given at the discretion
 * "Chat bombing", aka posting many short (ususally 4-5 or fewer words) messages in rapid succession, repeatedly sending parts of thoughts (incomplete, non-standalone sentences or fragments) in new messages. (Use shift + enter and send ONE message where possible or edit your message)
 * Discussing mental health issues in depth or seeking mental health help from other users
 * Inappropriate User Profile - Profile Picture, Username/Nickname, Bio (E.g. suggestive or inappropriate memes)
-* "Crossposting", aka posting the same message to different channels (asking for help in multiple channels at once)
+* Crossposting or Duplicate Posts
+    * Examples:  posting the same message to different channels or asking for help in multiple channels at once.
+    * You should allow at least **30 minutes** for a reply. While you are waiting, make sure that you posted in the most relevant channel, provided a [detailed question](https://www.theodinproject.com/how_to_ask), and continue trouble-shooting. It is recommended to edit your post with the results of things you have tried. If your post gets buried, you may repost your question, otherwise, you may direct people to your question in a more active channel.
 
 #### 1 Zap (WARNING)
 
