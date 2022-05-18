@@ -91,7 +91,7 @@ This section contains helpful links to other content. It isn’t required, so co
 3. If you want to get started making your own SVGs, you'll want some sort of visual editor.
    1. [This is a great little SVG editor](https://yqnn.github.io/svg-path-editor) for learning how the SVG markup works. It not only shows the XML, but also lets you see the "commands" you're using to generate the SVG. This website isn't really designed for making complex graphics, though.
    2. For that, an excellent option is [Inkscape](https://inkscape.org/), which is not only free but open source!
-   3. And if you're really invested in creating your own SVGs, you might want to check out some of the powerful paid options out there, such as [Affinity Designer](https://affinity.serif.com/designer/).
+   3. And if you're really interested in creating your own SVGs, you might want to check out some of the powerful paid options out there, such as [Affinity Designer](https://affinity.serif.com/designer/).
 4. If you want to use SVGs to generate images programmatically, there are at least two major, modern libraries for that: [snap.svg](http://snapsvg.io/) and [SVG.js](https://svgjs.dev/docs/3.0/).
 5. For data visualization, [d3](https://d3js.org/) has been the standard for many, many years.
 6. If you're interested in some of the more advanced things you can do with SVGs, check out [this video on SVG animation](https://www.youtube.com/watch?v=UTHgr6NLeEw), and this article on [SVG Filters, and Why They're Awesome](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)!
