@@ -56,7 +56,7 @@ Enter, `repeat()`.
 
 ### Repeat
 
-`repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's size. For example, in our setup above:
+`repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's or row's size. For example, in our setup above:
 
 ~~~css
 .grid-container {
@@ -85,7 +85,7 @@ Check it out for yourself!
 
 ### Fractional units
 
-Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
+Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way". The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
 
 The most basic way to make our grid items dynamic is by using **fractional units**, also known as `fr`.
 
