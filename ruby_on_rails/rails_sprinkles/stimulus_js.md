@@ -22,7 +22,7 @@ After going through this lesson you should be able to
 ### The idea
 
 Stimulus is a modest framework. It leaves things mostly up to you, but gives you a consistent way of doing things.
-It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look an an HTML example
+It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look at an HTML example
 from the handbook:
 
 ~~~html
@@ -237,7 +237,7 @@ some JavaScript whenever you got such a field.
 ~~~
 
 In this situation you don't have a user do anything you could react to, he probably just came from another page. For
-these situation you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
+these situations you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
 
 ~~~javascript
 import { Controller } from "@hotwired/stimulus"
