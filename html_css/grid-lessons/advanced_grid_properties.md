@@ -85,7 +85,7 @@ Check it out for yourself!
 
 ### Fractional units
 
-Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way". The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
+Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
 
 The most basic way to make our grid items dynamic is by using **fractional units**, also known as `fr`.
 
