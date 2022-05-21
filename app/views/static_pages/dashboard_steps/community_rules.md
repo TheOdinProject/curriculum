@@ -8,7 +8,7 @@ We expect everyone to handle themselves in a professional manner and follow the 
 
 If you are given a warning by our moderation team, please consider our point of view and be willing to change without taking it personally or being argumentative. Our rules are very similar to the expectations in professional workplaces, so this will better prepare you to interact professionally with your future teammates.
 
-Our rules have different levels of severity and zaps are given at the discretion of the moderator team. Zaps accumulate over time if rules continue to be broken to ensure the well-being of our entire community.
+Our rules have different levels of severity and zaps are given at the discretion of the moderator team. Repeated offenses automatically increase to the next penalty tier. Zaps accumulate over time if rules continue to be broken to ensure the well-being of our entire community.
 
 10 total zaps result in a ban.
 
@@ -28,10 +28,10 @@ Our rules have different levels of severity and zaps are given at the discretion
 Minor violations such as:
 
 * A second infraction of any 0 Zap issues above
-* "Mini-modding"
-  * Enforcement of any of the rules instead of notifying moderators (see example below)
-  * Please leave moderation action to the moderators
-  * Use ModMail to report rule breaking or if you see something you’re unsure about in the community
+* "Mini-modding" or non-moderators expressing authority
+  * Our moderation team has been trained to handle rule breaking in a private and respectful manner. Although we know you mean well, do not instruct another user in an authoritative manner. This leads to public disagreements which creates an unwelcoming environment.
+  * Example: You telling another user that they broke a rule.
+  * Alternative: Use ModMail to report rule breaking or if you see something you’re unsure about in the community
 * Asking for advice/help on homework or personal projects, even if the topic is covered by our curriculum
 * Mild unprofessionalism:
   * Drug related conversation
@@ -78,15 +78,11 @@ Extreme severity violations such as:
 * Piracy
 * Any other behavior deemed unacceptable and deserving of a ban by the moderation team, such as not correcting “[help vampire](https://slash7.com/2006/12/22/vampires/)” behaviors.
 
-#### Decay Example
+#### Example of Decaying Zaps
 
 Zaps decay at a rate of 1 zap per week. E.g., if you receive 5 zaps on a Friday, the following Friday you will have 4, the Friday after that you will have 3, and so forth. This means higher level infractions remain on record for a longer period of time, and more strongly jeopardize your ability to participate in the server if rules are continued to be broken.
 
-#### Zap Examples
-
-**Repeated offenses increase to the next penalty tier.**
-
-**Scenario:**
+#### Example of Increasing Zaps for Repeated Offenses
 
 1. Kierra is warned about dogpiling once, which earns her zero zaps as it is a first warning for a minor violation.
 2. Two days later, Kierra is warned about dogpiling again, and earns a single zap as she has already been warned. She now has 1 zap.
@@ -94,18 +90,16 @@ Zaps decay at a rate of 1 zap per week. E.g., if you receive 5 zaps on a Friday,
 4. The day after that, Kierra is warned about dogpiling and earns 5 zaps, for a total of 8 zaps.
 5. The next time Kierra is warned about dogpiling, she earns 10 zaps and is now banned from the server as she has accumulated 18 zaps.
 
+#### Example of Mini-Modding
 
-**What is mini-modding?**
-
-While we love having a community that can hold one another accountable and point individuals to the right direction, ultimately moderation should be done by moderators, not regular users, so we can maintain a welcoming and friendly chat environment. Mini-modding means that a non-moderator user is enforcing the rules or speaking for the team of which they are not a part of. When individuals who are not part of the moderation team or who do not maintain the platform begin enforcing rules or speaking for the team, it is up to the team to mitigate any public arguments that often occur, or to correct users who have spoken out of turn for the team.
-
-**Scenario:**
-
-1. Darius posts a question about Rock Paper Scissors in #odin-general and in #javascript-help-1
-2. Jacob replies to Darius saying, "No crossposting, see the #rules"
+1. Darius posts a question about needing help on a freelance project.
+2. Jacob replies to Darius saying, "We do not support personal projects, see the rules"
 3. Darius is now upset because of the terseness of Jacob's reply and the two are now arguing.
+4. Jacob should have instead reported this to @ModMail so a member of the moderation team could privately address this issue with Darius.
 
-Jacob should have instead reported this to @ModMail so the proper individuals can notify Darius of the rules in private.
+Instructing another user in an authoritative manner leads to public disagreements which creates an unwelcoming environment. Instead, Jacob should have reported this to @ModMail so a member of the moderation team could notify Darius of the rules in private.
+
+#### Conclusion
 
 This is not a comprehensive list of all possible scenarios and zaps are made at the discretion of the moderation team if particular behaviors are inappropriate but not otherwise explicitly covered. Please DM @ModMail if you would like to discuss this matrix or any moderation activity (whether you are on the receiving end or not).
 
