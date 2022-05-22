@@ -191,7 +191,7 @@ There are more differences which we will encounter when discussing props, state,
 
 For further understanding of React components, [this short article](https://dev.to/sarah_chima/an-introduction-to-react-components-cke) provides a great overview.
 
-For further understanding of the difference between functional and class based components, read [this article](https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108). They discuss concepts like state and lifecycle methods, which we haven't talked about yet, so don't spend too much time getting hung up or trying to memorize the differences. However, it may be helpful to bookmark this page because it will prove useful later on in the course when we do learn about them. Rest assured, we will expand on the question of "which type of component should I use?" later.
+For further understanding of the difference between functional and class based components, read [this article](https://dev.to/colocodes/react-class-components-vs-function-components-23m6). They discuss concepts like state and lifecycle methods, which we haven't talked about yet, so don't spend too much time getting hung up or trying to memorize the differences. However, it may be helpful to bookmark this page because it will prove useful later on in the course when we do learn about them. Rest assured, we will expand on the question of "which type of component should I use?" later.
 
 ### Create-react-app
 
