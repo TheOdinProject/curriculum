@@ -45,7 +45,7 @@
     "react_ujs": "^2.6.2",
     "regenerator-runtime": "^0.13.9",
     "stickyfilljs": "^2.1.0",
-    "stimulus-use": "^0.50.0-2",
+    "stimulus-use": "^0.50.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "validate.js": "^0.13.1",
     "yup": "^0.32.11"
