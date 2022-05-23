@@ -14,7 +14,7 @@ One way to think about the different uses of Grid and Flexbox is to consider whe
 
 If, however, a developer is given a specific overall layout to adhere to and needs explicit placement of elements in two dimensions, using both rows **and** columns, then Grid would be much better suited. 
 
-Content-First and Layout-First Design doesn't mean that the developer should limit themselves to only using Flexbox or Grid individually! Let's look at something that can happen when we attempt to create a one dimensional grid - a task many reserve for Flexbox.
+Content-First and Layout-First Design doesn't mean that the developer should limit themselves to only using Flexbox or Grid individually! Let's look at something that can happen when we attempt to create a one dimensional grid - a task may reserve for Flexbox.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdByJRV" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdByJRV">
