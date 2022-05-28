@@ -144,7 +144,7 @@ end
 # +++++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Testing Ruby with RSpec'
-  section.description = "You've been briefly introduced to testing in Ruby a couple of times before in the Foundations course, but now you're going to really learn why testing can be hugely helpful and how to apply it to your own projects."
+  section.description = "You've been briefly introduced to testing in Ruby a couple of times before in this course, but now you're going to really learn why testing can be hugely helpful and how to apply it to your own projects."
   section.identifier_uuid = '1e8d5245-ed37-498e-a06e-be208aced01f'
 
   section.add_lessons(
