@@ -239,6 +239,14 @@ carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName f
 
 If we had used `Object.create` in this example, then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
 
+### The this Keyword
+
+You might have noticed us using the `this` keyword in object constructors and prototype methods in the above examples.
+
+`this` is a special keyword and changes based on *how* a function is invoked, and factors such as whether it is used inside an arrow function, object constructor or a bound function. It isn't always intuitive and can throw you off due to its numerous quirks.
+
+Dmitri Pavlutin's excellent [article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and you should have a solid understanding of `this` after reading it. Pay special attention to the pitfalls that are mentioned in each section.
+
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
