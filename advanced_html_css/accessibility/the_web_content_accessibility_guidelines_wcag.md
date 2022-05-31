@@ -19,7 +19,7 @@ It's important to understand that while the WCAG can be incredibly helpful for b
 
 The WCAG are organized around four, core principles that should be kept in mind when implementing any sort of accessibility feature:
 
-1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. For example, Light text on a light background could be difficult for some users with a visual impairment to perceive.
+1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. For example, light text on a light background could be difficult for some users with a visual impairment to perceive.
 
 2. **Operable:** Users must be able to operate any user interfaces or navigation, and interfaces cannot require an interaction which the user cannot perform. A navigation bar with drop-down menus that only expand when a mouse cursor hovers over them, for example, would not be operable by keyboard users giving those menu items focus.
 
@@ -37,7 +37,7 @@ Conformance levels get mentioned at a couple of other points in these lessons, a
 
 ### (Before) Implementing Accessibility
 
-The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover *every* facet of accessibility. The goal of these lessons is just to introduce you to some of the more common or simpler concepts that you should get into the habit of checking for moving forward.
+The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover *every* facet of accessibility. The goal of these lessons are just to introduce you to some of the more common or simpler concepts that you should get into the habit of checking for moving forward.
 
 Even though we're only introducing you to some of these a11y concepts, you may still worry that your site isn't accessible enough. The first thing to keep in mind is that **no site will ever be 100% accessible**, so don't try to aim for such an impossible goal. Sometimes the purpose or concept of a site even requires some things to not be accessible in certain ways.
 
