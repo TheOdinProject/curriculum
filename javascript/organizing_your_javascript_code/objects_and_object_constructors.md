@@ -246,7 +246,7 @@ If we had used `Object.create` in this example, then we could safely edit the `N
    1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
    2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 2. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
-Dmitri Pavlutin's excellent [article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and you should have a solid understanding of `this` after reading it. Pay special attention to the pitfalls mentioned in each section.
+Dmitri Pavlutin's excellent [article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and covers how it changes in various situations. You should have a solid understanding of `this` after reading it. Pay special attention to the pitfalls mentioned in each section.
 </div>
 
 ### Additional Resources
