@@ -150,10 +150,7 @@ console.log(theHobbit.info());
 
 Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties.
 
-This concept is an important one, so you've got some reading to do. Make sure you really get this before moving on!
-
-1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
-2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
+The concept of the prototype is an important one, so you’ve got some reading to do, which you'll find in the Assignment section below. Make sure you really get it before moving on!
 
 If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!
 
@@ -239,13 +236,17 @@ carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName f
 
 If we had used `Object.create` in this example, then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
 
-### The this Keyword
 
-You might have noticed us using the `this` keyword in object constructors and prototype methods in the above examples.
+### Assignment
 
-`this` is a special keyword and changes based on *how* a function is invoked, and factors such as whether it is used inside an arrow function, object constructor or a bound function. It isn't always intuitive and can throw you off due to its numerous quirks.
+<div class="lesson-content__panel" markdown="1">
 
-Dmitri Pavlutin's excellent [article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and you should have a solid understanding of `this` after reading it. Pay special attention to the pitfalls that are mentioned in each section.
+1. Read up on the concept of the prototype from the articles below. 
+   1. [This article](https://web.archive.org/web/20200513181548/https://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
+   2. To go a bit deeper into both the chain and inheritance, spend some time with [this great article](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
+2. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
+Dmitri Pavlutin's excellent [article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and you should have a solid understanding of `this` after reading it. Pay special attention to the pitfalls mentioned in each section.
+</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
