@@ -15,8 +15,6 @@ Run this command:
 curl https://cli-assets.heroku.com/install.sh | sh
 ~~~
 
-This command needs administrative access and will ask for your sudo password. Enter the password of your computer account and press enter to continue.
-
 Then, type `heroku version`, which should return something similar to `heroku/7.5.1 linux-x64 node-v10.5.0`.
 
 If you are using a Mac that uses the [Apple M1 Chip](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/), and have any issues running the above command instead check the Mac install instructions on [the Heroku CLI install page](https://devcenter.heroku.com/articles/heroku-cli) and try the Mac command of
