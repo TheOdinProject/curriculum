@@ -39,6 +39,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners.
 - [This](https://www.youtube.com/watch?v=L72fhGm1tfE) video crash course provides you with all the basic concepts.
+- Web Dev Simplified's [Express JS crash course](https://www.youtube.com/watch?v=SccSCuHhOw0&ab_channel=WebDevSimplified) also packs a ton of great information into a 35 minute video.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
