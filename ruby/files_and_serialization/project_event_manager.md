@@ -172,7 +172,7 @@ first name. That requires us to look at the current contents of our Event
 Attendees file.
 
 ~~~ruby
- ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode
+ID,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode
 1,11/12/08 10:47,Allison,Nguyen,arannon@jumpstartlab.com,6154385000,3155 19th St NW,Washington,DC,20010
 ~~~
 
