@@ -73,7 +73,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
 * [Flexbox Zombies](https://mastery.games/flexboxzombies/) is another gamified take on flexbox. Free, but requires an account.
