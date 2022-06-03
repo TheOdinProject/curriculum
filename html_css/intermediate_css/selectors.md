@@ -151,6 +151,8 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 
 [`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::first-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
 
+[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
+
 [`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
 ~~~html
@@ -172,8 +174,6 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 Using these pseudo-elements this way would give us this result:
 
 Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
-
-[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
  There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
