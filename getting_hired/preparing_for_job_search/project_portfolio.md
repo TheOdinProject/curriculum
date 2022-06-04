@@ -41,5 +41,4 @@ A list of portfolios of professional developers. Students should analyze these s
   * [Patrick David](https://bepatrickdavid.com/)
   * [Luis Krötz](https://luiskr.com/)
   * [Leonid Kostetckyi](https://lk.emotion-agency.com/)
-  * [Alex Madeira](https://www.alexmadeira.com.br/)
 </details>

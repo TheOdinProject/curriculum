@@ -33,7 +33,7 @@ Because `justify-content` and `align-items` are based on the main and cross axis
 
 #### GAP
 
-One more very useful feature of flex is the `gap` property. Setting `gap` on a flex container simply adds a specified space between flex items, very similar to adding a margin to the items themselves. `gap` is a _very_ new property so it doesn't show up in very many resources yet, but it works reliably in all modern browsers, so it is safe to use and is very handy! Adding `gap: 8px` to the centered example above produces the result below.
+One more very useful feature of flex is the `gap` property. Setting `gap` on a flex container simply adds a specified space between flex items, very similar to adding a margin to the items themselves. `gap` is a _new_ property so it doesn't show up in many resources yet, but it works reliably in all modern browsers, so it is safe to use and very handy! Adding `gap: 8px` to the centered example above produces the result below.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBjZyea" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjZyea">
@@ -63,15 +63,6 @@ Take your time going through the reading. There will be some review of the items
     * 07-flex-layout-2
 </div>
 
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
-- [Flexbox Zombies](https://mastery.games/flexboxzombies/) is another gamified take on flexbox. Free, but requires an account.
-- This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
-- [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA) is a nice resource by Traversy Media.
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -79,3 +70,12 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">What is the difference between `justify-content` and `align-items`?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">How do you use flexbox to completely center a div inside a flex container?</a>
 - <a class="knowledge-check-link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">What's the difference between `justify-content: space-between` and `justify-content: space-around`?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+* [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
+* [Flexbox Zombies](https://mastery.games/flexboxzombies/) is another gamified take on flexbox. Free, but requires an account.
+* This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
+* [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA) is a nice resource by Traversy Media.

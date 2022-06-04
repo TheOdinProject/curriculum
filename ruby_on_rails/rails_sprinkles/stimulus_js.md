@@ -22,7 +22,7 @@ After going through this lesson you should be able to
 ### The idea
 
 Stimulus is a modest framework. It leaves things mostly up to you, but gives you a consistent way of doing things.
-It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look an an HTML example
+It uses HTML `data-attributes` to attach and configure behavior on your HTML. Let us look at an HTML example
 from the handbook:
 
 ~~~html
@@ -237,7 +237,7 @@ some JavaScript whenever you got such a field.
 ~~~
 
 In this situation you don't have a user do anything you could react to, he probably just came from another page. For
-these situation you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
+these situations you can use the lifecycle methods Stimulus. We'll cover only the most important one for now: `connect`
 
 ~~~javascript
 import { Controller } from "@hotwired/stimulus"
@@ -281,7 +281,7 @@ with Stimulus
 * Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial) it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker
 we will use the new rails standard of using import maps.
-* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/lifecycle-callbacks), if you 
+* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you 
 haven't already, don't worry if not everything sticks, but you should know where to look up these things.
 </div>
 

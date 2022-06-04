@@ -59,3 +59,9 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
 - <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

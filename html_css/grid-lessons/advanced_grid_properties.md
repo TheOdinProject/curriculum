@@ -56,7 +56,7 @@ Enter, `repeat()`.
 
 ### Repeat
 
-`repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual column's size. For example, in our setup above:
+`repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual track's size. For example, in our setup above:
 
 ~~~css
 .grid-container {
