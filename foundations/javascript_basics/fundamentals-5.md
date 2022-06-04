@@ -34,6 +34,8 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - getTheTitles
 - findTheOldest
 
+Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) for a refresher.
+
 Note: Solutions for these exercises can be found in the 'solutions' branch of that repo
 </div>
 
