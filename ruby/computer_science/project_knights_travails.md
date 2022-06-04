@@ -11,7 +11,7 @@ All the possible places you can end up after one move look like this:
 <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/computer_science/project_knights_travails/imgs/01.png">
 
 ### Assignment
-Your task is to build a function `knight_moves` that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
+Your task is to build a function `knight_moves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
 
