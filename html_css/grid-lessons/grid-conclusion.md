@@ -1,5 +1,6 @@
 ### Introduction
-Some may tell you there is a debate on the use of Grid vs. Flexbox and whether or not one is superior to the other. The reality is much simpler - these are complementary tools that can work together, and each has its own place in the world of CSS. 
+
+Whenever you research either Flexbox or Grid, you’re sure to find many “experts” claiming one is better than the other. The reality is much simpler - each has its place in the world of CSS but they work best as complementary tools. In this lesson, we’ll go over what to consider when choosing a Flexbox or Grid based layout and how we can have the best of both worlds by using them together. 
 
 ### Learning Outcomes
 
@@ -10,11 +11,13 @@ By the end of this lesson, you should be able to:
 * Know when you might want to use the two together
 
 ### Content First vs Layout First Design
-One way to think about the different uses of Grid and Flexbox is to consider whether your design originates with the content, or from the overall layout. If starting with the content, and working from the smallest parts outwards, then a developer is using Content-First Design. This is a great opportunity to use Flexbox because of the flexibility it provides in manipulating code in one dimension - along either rows **or** columns. 
+One way to think about the different uses of Grid and Flexbox is to consider whether your design is based around the content or the overall layout. 
 
-If, however, a developer is given a specific overall layout to adhere to and needs explicit placement of elements in two dimensions, using both rows **and** columns, then Grid would be much better suited. 
+Content-first design bases a layout around the content being positioned. This means the exact positioning can vary based on the size of the content itself. Content-first designs usually work better with Flexbox as it creates a more fluid layout than a Grid.
 
-Content-First and Layout-First Design doesn't mean that the developer should limit themselves to only using Flexbox or Grid individually! Let's look at something that can happen when we attempt to create a one dimensional grid - a task many reserve for Flexbox.
+Layout-first design emphasizes on the exact positioning of content within a webpage. This means you'll have more fine grain control over the design but will have to make sure your content fits within your layout. Layout-first designs usually work better with Grid as you can easily create an overarching design for your content with explict placement options. 
+
+Though Content-first design usually work best with Flexbox and Layout-first designs usually work best with Grid, there's no need to restrict yourself with either. Let's look at an example of a one dimensional grid. Most people would rather use Flexbox for a design like this but Grid can get the job done as well! 
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdByJRV" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdByJRV">
@@ -23,7 +26,7 @@ Content-First and Layout-First Design doesn't mean that the developer should lim
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-It works and looks absolutely *beautiful*! However, if we have to move these individual boxes around in the future, doing so with Flexbox would be much simpler. 
+It works and looks absolutely *beautiful*! However, if we ever want to move around these boxes in the future, it likely would be much easier to do with Flexbox. 
 
 ### Combining Flexbox and Grid
 If you have one-dimensional content, Flexbox can make it easier to control how that content is positioned in a Flex container. If, on the other hand, you want to accurately place content on a complex layout in two-dimensions, Grid can be simpler to use.
