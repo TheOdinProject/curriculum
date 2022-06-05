@@ -403,4 +403,4 @@ After forking a pen to the TOP account and ensuring the embeds options from abov
 
 ## English
 
-As a general note, TOP follows American English and American style punctuation.
+As a general note, TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
