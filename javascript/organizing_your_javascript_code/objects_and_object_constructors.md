@@ -43,7 +43,7 @@ By the end of this lesson, you should be able to do the following:
 - Explain prototypal inheritance.
 - Understand the basic do's and don't's of prototypical inheritance.
 - Explain what `Object.create` does.
-- Explain what the `this` keyword is and how it changes in various situations.
+- Explain what the `this` keyword is.
 
 ### Objects as a Design Pattern
 
@@ -267,4 +267,4 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
 - <a class="knowledge-check-link" href='#recommended-method-for-prototypal-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>
-- <a class="knowledge-check-link" href='https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/'>Explain what the `this` keyword is and how it changes in various situations.</a>
+- <a class="knowledge-check-link" href='https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/'>How does `this` behave in different situations?</a>
