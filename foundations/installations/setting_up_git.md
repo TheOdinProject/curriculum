@@ -20,7 +20,8 @@ Run these commands in the terminal to update the Linux system:
 sudo apt update
 sudo apt upgrade
 ~~~
-
+### step 1.1 :Update the system for an arch base
+  sudo pacman -Syyu
 #### Step 1.2: Install git
 
 You likely have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
@@ -30,7 +31,8 @@ sudo add-apt-repository ppa:git-core/ppa
 sudo apt update
 sudo apt install git
 ~~~
-
+### step 1.2 :Install git for an arch base
+  sudo pacman -S git
 #### Step 1.3: Verify version
 
 Make sure your git version is **at least** 2.28 by running this command:
