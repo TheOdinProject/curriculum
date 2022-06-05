@@ -83,6 +83,8 @@ Once you're satisfied with your changes, run
 
 So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
+There's a good chance your terminal will be using VIM to edit your changes. At first, it seems confusing but it is really not once you get the hang of it. This video is a great overview of the commands you will need to use VIM: https://www.youtube.com/watch?v=AWayLpQHJeE
+
 
 #### Squashing Commits
 
