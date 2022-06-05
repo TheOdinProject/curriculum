@@ -1,6 +1,6 @@
 ### Introduction
 
-Whenever you research either Flexbox or Grid, you’re sure to find many “experts” claiming one is better than the other. The reality is much simpler - each has its place in the world of CSS but they work best as complementary tools. In this lesson, we’ll go over what to consider when choosing a Flexbox or Grid based layout and how we can have the best of both worlds by using them together. 
+Whenever you research either Flexbox or Grid, you’re sure to find many “*experts*” claiming one is better than the other. The reality is much simpler - each has its place in the world of CSS but they work best as complementary tools. In this lesson, we’ll go over what to consider when choosing a Flexbox or Grid based layout and how we can have the best of both worlds by using them together. 
 
 ### Learning Outcomes
 
@@ -17,7 +17,7 @@ Content-first design bases a layout around the content being positioned. This me
 
 Layout-first design emphasizes on the exact positioning of content within a webpage. This means you'll have more fine grain control over the design but will have to make sure your content fits within your layout. Layout-first designs usually work better with Grid as you can easily create an overarching design for your content with explict placement options. 
 
-Though Content-first design usually work best with Flexbox and Layout-first designs usually work best with Grid, there's no need to restrict yourself with either. Let's look at an example of a one dimensional grid. Most people would rather use Flexbox for a design like this but Grid can get the job done as well! 
+Though content-first designs usually work best with Flexbox and layout-first designs usually work best with Grid, there's no need to restrict yourself with either. Let's look at an example of a one dimensional grid. Most people would use Flexbox for a design like this but Grid can get the job done as well! 
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdByJRV" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdByJRV">
