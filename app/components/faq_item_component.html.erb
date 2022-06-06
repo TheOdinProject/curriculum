@@ -2,16 +2,14 @@
   <dt class="text-lg">
     <button type="button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" aria-expanded="false" data-action="click->reveal#toggle" data-test-id="faq-question">
       <h3 class="font-semibold text-gray-900 secondary bold m-0 p-1 text-xl">
-        <%= question %>
+        <%= item.fetch(:question) %>
       </h3>
       <span class="ml-6 h-7 flex items-center">
-        <%= inline_svg_tag 'icons/icon-chevron-down.svg',
-                           class: 'rotate-0 h-6 w-6 transform',
-                           data: { reveal_target: 'icon' } %>
+        <%= inline_svg_tag 'icons/icon-chevron-down.svg', class: 'rotate-0 h-6 w-6 transform', data: { reveal_target: 'icon' } %>
       </span>
     </button>
   </dt>
   <dd class="mt-2 pr-12 hidden prose-lg prose-gold" data-reveal-target="content" data-test-id="faq-answer">
-    <%= answer %>
+    <%= item.fetch(:answer).html_safe %>
   </dd>
 </div>
