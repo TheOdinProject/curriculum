@@ -48,7 +48,7 @@ group :development do
   gem 'listen', '~> 3.7'
   gem 'rack-mini-profiler'
   gem 'rubocop', '~> 1.30', require: false
-  gem 'rubocop-performance', '~> 1.13', require: false
+  gem 'rubocop-performance', '~> 1.14', require: false
   gem 'rubocop-rails', '~> 2.14', require: false
   gem 'rubocop-rspec', '~> 2.11', require: false
   gem 'web-console', '~> 4.2'
