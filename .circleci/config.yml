@@ -3,7 +3,6 @@ version: 2.1
 
 orbs:
   browser-tools: circleci/browser-tools@1.3
-  heroku: circleci/heroku@1.2.6
 
 executors:
   rails-executor:
@@ -84,15 +83,3 @@ workflows:
       - tests
       - linters
       - seeds
-      - heroku/deploy-via-git:
-          force: true
-          app-name: theodinproject
-          branch: main
-          requires:
-            - tests
-            - linters
-            - seeds
-          filters:
-            branches:
-              only:
-                - main
