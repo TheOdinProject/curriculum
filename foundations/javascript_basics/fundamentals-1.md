@@ -1,4 +1,4 @@
-Let's dive right in to JavaScript!
+Let's dive right into JavaScript!
 
 ### Lesson Overview
 
