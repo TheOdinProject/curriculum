@@ -256,7 +256,7 @@ An `unless` statement works in the opposite way as an `if` statement: it only pr
 
 ~~~ruby
 age = 18
-unless age < 17
+unless age < 18
   puts "Get a job."
 end
 ~~~
@@ -265,9 +265,9 @@ Just like with `if` statements, you can write a simple `unless` statement on one
 
 ~~~ruby
 age = 18
-puts "Welcome to a life of debt." unless age < 17
+puts "Welcome to a life of debt." unless age < 18
 
-unless age < 17
+unless age < 18
   puts "Down with that sort of thing."
 else
   puts "Careful now!"
@@ -283,7 +283,7 @@ Its syntax is `conditional statement ? <execute if true> : <execute if false>`. 
 
 ~~~ruby
 age = 18
-response = age < 17 ? "You still have your entire life ahead of you." : "You're all grown up."
+response = age < 18 ? "You still have your entire life ahead of you." : "You're all grown up."
 puts response #=> "You're all grown up."
 ~~~
 
@@ -293,7 +293,7 @@ Writing this as an `if...else` statement would be much more verbose:
 
 ~~~ruby
 age = 18
-if age < 17
+if age < 18
   response = "You still have your entire life ahead of you."
 else
   response = "You're all grown up."
