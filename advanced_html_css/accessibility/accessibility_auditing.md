@@ -34,6 +34,13 @@ Of course, one of the best ways to check the accessibility of your websites is t
     * Although there will be differences between the browsers, such as the value of the role property or how a11y properties are presented, also check out the "Features of the Accessibility panel" section mentioned below for MDN's documentation. There is some useful information that, while more tailored to Firefox, can still be useful to a Chrome user.
 </div>
 
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class='knowledge-check-link' href='https://developer.chrome.com/docs/devtools/accessibility/reference/#pane'>What are some of the various accessibility features available in your browser's DevTools?</a>
+* <a class='knowledge-check-link' href='#chrome-default-tool-knowledge-check'>Which third party accessibility auditing tool is available in the Chrome DevTools by default?</a>
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
@@ -42,10 +49,3 @@ This section contains helpful links to other content. It isn’t required, so co
 * The [WCAG Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) provides a list of success criteria along with techniques for how to satisfy them and links to understanding them in more detail. This tool is a great go-to when you're really ready to push your website to the next accessible level. If you often use animations, success criterion 2.2.2 ("Play, Stop, Hide") and all of the 2.3 success criteria are definitely worth reading.
 * [A11ycasts Playlist](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g). We've included several videos from this playlist in these lessons, but there are other videos worth checking out for various accessibility topics.
 * [screenreader-outputs](https://github.com/thatblindgeye/screenreader-outputs) is a GitHub repo that contains many examples of screen reader outputs. Sometimes nested elements or certain combinations of attributes and native labeling may result in accessible names or descriptions that are difficult to make sense of, so checking out this repo may help clear things up.
-
-### Knowledge Check
-
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-* <a class='knowledge-check-link' href='https://developer.chrome.com/docs/devtools/accessibility/reference/#pane'>What are some of the various accessibility features available in your browser's DevTools?</a>
-* <a class='knowledge-check-link' href='#chrome-default-tool-knowledge-check'>Which third party accessibility auditing tool is available in the Chrome DevTools by default?</a>
