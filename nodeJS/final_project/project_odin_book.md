@@ -32,7 +32,8 @@ This project will give you a chance to take a relatively high level set of requi
 
 1. Make posts also allow images (either just via a url, or by uploading one.)
 2. Allow Users to upload and update their own profile photo.
-3. Make it pretty!
+3. Create a guest sign-in functionality that allows visitors to bypass the login screen without creating an account or supplying credentials. This is especially useful if you are planning on putting this project on your résumé - most recruiters, hiring managers, etc. will not take the time to create an account. This feature will give them an opportunity to look at your hard work without going through a tedious sign-up process.
+4. Make it pretty!
 
 #### Getting Started
 
