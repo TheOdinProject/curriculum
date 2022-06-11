@@ -31,4 +31,4 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
 * <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
 * <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for changing the font and background color of a button?</a>
-* <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/">What is the diffrence between HTML, CSS and JavaScript?</a>
+* <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/">What is the difference between HTML, CSS and JavaScript?</a>
