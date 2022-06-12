@@ -188,4 +188,4 @@ You probably felt like you were way in over your head, and you probably didn't u
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is an implimintation of public-key cryptography, also known as asymmetric cryptography. Having basic understanding of how it works can help you understand what SSH key is about.
-*   [Asymmetric Encryption - Simply expalined] a short video explaining Asymmetric Encription.
+*   [Asymmetric Encryption - Simply expalined](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encription.
