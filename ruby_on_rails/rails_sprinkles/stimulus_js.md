@@ -276,12 +276,12 @@ go into more depth.
 
 <div class="lesson-content__panel" markdown="1">
 * Read the [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/origin) to get an overview of how to code
-with Stimulus
+with Stimulus.
 * Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker as
 we will use the new rails standard of using import maps.
 * Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you 
-haven't already. dDn't worry if not everything sticks, but you should know where to look up what you need.
+haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
 ### Exercises
