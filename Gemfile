@@ -40,7 +40,7 @@ gem 'sentry-rails', '~> 5.3'
 gem 'sentry-ruby', '~> 5.3'
 gem 'sentry-sidekiq', '~> 5.3'
 gem 'sidekiq', '~> 6.5'
-gem 'view_component', '~> 2.56'
+gem 'view_component', '~> 2.57'
 gem 'webpacker', '~> 5.4'
 
 group :development do
