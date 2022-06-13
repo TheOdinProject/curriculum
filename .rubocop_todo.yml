@@ -19,7 +19,6 @@ RSpec/NamedSubject:
     - 'spec/models/user_provider_spec.rb'
     - 'spec/services/course_progress_spec.rb'
     - 'spec/services/lesson_content_importer_spec.rb'
-    - 'spec/services/mailchimp_subscription_spec.rb'
 
 # Offense count: 9
 RSpec/NestedGroups:
@@ -47,7 +46,6 @@ RSpec/VerifiedDoubles:
     - 'spec/serializers/section_serializer_spec.rb'
     - 'spec/services/course_progress_spec.rb'
     - 'spec/services/discord_notifier_spec.rb'
-    - 'spec/services/mailchimp_subscription_spec.rb'
     - 'spec/services/markdown_converter_spec.rb'
 
 # Offense count: 135

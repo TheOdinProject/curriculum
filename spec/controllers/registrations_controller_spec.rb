@@ -6,7 +6,6 @@ RSpec.describe RegistrationsController do
   end
 
   describe 'POST #create' do
-    let(:list_id) { ENV['MAILCHIMP_LIST_ID'] }
     let(:email) { 'kevin@bazfiz.com' }
     let(:user_attributes) do
       {
@@ -25,17 +24,6 @@ RSpec.describe RegistrationsController do
     it 'redirects to the dashboard' do
       post :create, params: { user: user_attributes }
       expect(response).to redirect_to(dashboard_path)
-    end
-
-    it 'registers the new user on the mailchimp mailing list', if: ENV['MAIL_CHIMP_LIST_ID'] do
-      post :create, params: { user: user_attributes }
-
-      expect(MailchimpSubscription).to have_received(:create)
-        .with(
-          email: user.email,
-          username: user.username,
-          signup_date: user.created_at
-        )
     end
   end
 
