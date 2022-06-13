@@ -61,9 +61,6 @@ Here's a statement so obvious that it sounds like a joke: flexbox was _created_ 
 3. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -71,3 +68,6 @@ This section contains questions for you to check your understanding of this less
 * <a class='knowledge-check-link' href='#fixed-height'>Why should you avoid fixed height?</a>
 * <a class='knowledge-check-link' href='#when-fixed-widths-are-appropriate'>In what situations might it be appropriate to use a fixed height or width?</a>
 * <a class='knowledge-check-link' href='https://codyloyd.com/2021/percentages/'>Why should you avoid percentages?</a>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
