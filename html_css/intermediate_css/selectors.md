@@ -135,13 +135,13 @@ Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) will mat
 For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
 
 ~~~css
-  .myList:nth-child(5) {/* Selects the 5th child of myList */}
+  .myList:nth-child(5) {/* Selects the 5th element with class myList */}
 
-  .myList:nth-child(3n) { /* Selects every 3rd child of myList */}
+  .myList:nth-child(3n) { /* Selects every 3rd element with class myList */}
 
-  .myList:nth-child(3n + 3) { /* Selects every 3rd child of myList, beginning with the 3rd */}
+  .myList:nth-child(3n + 3) { /* Selects every 3rd element with class myList, beginning with the 3rd */}
 
-  .myList:nth-child(even) {/* Selects every even child of myList */}
+  .myList:nth-child(even) {/* Selects every even element with class myList */}
 ~~~
 
 ### Pseudo-elements
