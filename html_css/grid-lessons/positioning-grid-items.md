@@ -155,6 +155,8 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 1. grid-layout-1
 
 ### Additional Resources
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
 - Play through levels 1 - 17 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items. Note the rest of the levels go beyond the scope of this lesson.
 - If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas) 
 - To learn more about alignment and centering items read through these MDN Docs on [Box Alignment in CSS Grid Layout.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout)
