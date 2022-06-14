@@ -128,6 +128,13 @@ git config --get user.name
 git config --get user.email
 ~~~
 
+**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure GitHub to ignore them, pesky .DS_Store files will show up in your commits.
+
+~~~bash
+echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+~~~
+
 #### Step 2.2: Create a GitHub Account or Sign In
 
 Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
