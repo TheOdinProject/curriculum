@@ -29,7 +29,7 @@ In many ways, TDD is much more productive than writing code without tests. If we
 
 We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
 
-### Practice
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 Follow the steps below to get started. Once you complete Step 1, be sure to use the README for **_each individual exercise_** in order to do them correctly.
