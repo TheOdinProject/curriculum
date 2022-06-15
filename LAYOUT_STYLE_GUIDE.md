@@ -28,6 +28,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1.  [Links](#links)
 1.  [Images](#images)
 1.  [Codepen Embeds](#codepen-embeds)
+1.  [English Writing Style](#english-writing-style)
 
 
 ## Layouts
@@ -399,3 +400,7 @@ Finally, the **HTML (Recommended)** code option must be the one that is copy + p
 When a user adds a Codepen embed to a lesson, a maintainer should fork the embed to the official [TOP Codepen](https://codepen.io/TheOdinProjectExamples/) account. When necessary, the name of new pens should be updated to better reflect their purpose, e.g. `Simple SVG Example` for a pen showing a simple SVG or `max-width | CSS Responsiveness` for a pen about the `max-width` property.
 
 After forking a pen to the TOP account and ensuring the embeds options from above are selected, the lesson the original embed is from should be updated to include the forked, TOP version instead.
+
+## English Writing Style
+
+As a general note, TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
