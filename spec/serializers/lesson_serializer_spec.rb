@@ -3,16 +3,10 @@ require 'rails_helper'
 RSpec.describe LessonSerializer do
   subject { described_class.as_json(lesson, between_dates) }
 
-  let(:lesson) do
-    double('Lesson', title: 'Overview', lesson_completions:)
-  end
-  let(:between_dates) do
-    (DateTime.parse('2019/01/01')..DateTime.parse('2019/12/31'))
-  end
+  let(:lesson) { instance_double(Lesson, title: 'Overview', lesson_completions:) }
+  let(:between_dates) { (DateTime.parse('2019/01/01')..DateTime.parse('2019/12/31')) }
   let(:lesson_completions) { [lesson_completion] }
-  let(:lesson_completion) do
-    double('LessonCompletion', created_at: '2019/01/10')
-  end
+  let(:lesson_completion) { instance_double(LessonCompletion, created_at: '2019/01/10') }
 
   describe '#as_json' do
     let(:serialized_lesson) do

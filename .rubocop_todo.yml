@@ -33,21 +33,6 @@ RSpec/NotToNot:
     - 'spec/models/project_submission_spec.rb'
     - 'spec/models/user_spec.rb'
 
-# Offense count: 30
-# Configuration parameters: IgnoreNameless, IgnoreSymbolicNames.
-RSpec/VerifiedDoubles:
-  Exclude:
-    - 'spec/helpers/application_helper_spec.rb'
-    - 'spec/models/omniauth_providers/builder_spec.rb'
-    - 'spec/models/omniauth_providers/finder_spec.rb'
-    - 'spec/models/user_provider_spec.rb'
-    - 'spec/serializers/course_serializer_spec.rb'
-    - 'spec/serializers/lesson_serializer_spec.rb'
-    - 'spec/serializers/section_serializer_spec.rb'
-    - 'spec/services/course_progress_spec.rb'
-    - 'spec/services/discord_notifier_spec.rb'
-    - 'spec/services/markdown_converter_spec.rb'
-
 # Offense count: 135
 # This cop supports safe auto-correction (--auto-correct).
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.

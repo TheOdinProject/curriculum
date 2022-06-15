@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe DiscordNotifier do
   let(:notification) do
-    double('Notification', message: 'A MESSAGE', destination: 'https://A-DESTINATION')
+    instance_double(Notifications::DailySummary, message: 'A MESSAGE', destination: 'https://A-DESTINATION')
   end
 
   describe '#notify' do

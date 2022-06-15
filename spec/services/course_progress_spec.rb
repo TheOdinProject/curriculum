@@ -14,8 +14,8 @@ RSpec.describe CourseProgress do
   subject { described_class.new(course, user) }
 
   let(:lessons) { [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }
-  let(:course) { double('Course', lesson_ids: lessons) }
-  let(:user) { double('User', lesson_completions: LessonCompletions.new(completed_lessons)) }
+  let(:course) { instance_double(Course, lesson_ids: lessons) }
+  let(:user) { instance_double(User, lesson_completions: LessonCompletions.new(completed_lessons)) }
 
   context 'when user has not started the course' do
     let(:completed_lessons) { [] }

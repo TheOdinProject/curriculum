@@ -39,9 +39,9 @@ RSpec.describe ApplicationHelper do
   end
 
   describe 'course progress' do
-    let(:user) { double('User') }
-    let(:course) { double('Course') }
-    let(:course_progress) { double('CourseProgress') }
+    let(:user) { instance_double(User) }
+    let(:course) { instance_double(Course) }
+    let(:course_progress) { instance_double(CourseProgress) }
 
     before do
       allow(user).to receive(:progress_for).with(course).and_return(course_progress)
@@ -115,11 +115,11 @@ RSpec.describe ApplicationHelper do
   end
 
   describe '#next_lesson_to_complete' do
-    let(:course) { double('Course') }
+    let(:course) { instance_double(Course) }
     let(:lesson_completions) { [lesson_completion] }
-    let(:lesson_completion) { double('LessonCompletion') }
-    let(:next_lesson) { double('NextLesson', to_complete: lesson_to_complete) }
-    let(:lesson_to_complete) { double('Lesson') }
+    let(:lesson_completion) { instance_double(LessonCompletion) }
+    let(:next_lesson) { instance_double(NextLesson, to_complete: lesson_to_complete) }
+    let(:lesson_to_complete) { instance_double(Lesson) }
 
     before do
       allow(NextLesson).to receive(:new).with(course, lesson_completions).and_return(next_lesson)

@@ -5,7 +5,7 @@ module OmniauthProviders
     describe '#build' do
       subject(:builder) { described_class.new(auth, user) }
 
-      let(:auth) { double('Auth', provider: 'github', uid: '123') }
+      let(:auth) { OmniAuth::AuthHash.new(provider: 'github', uid: '123') }
       let(:user) { create(:user) }
 
       it 'creates a new user provider' do
