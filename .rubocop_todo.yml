@@ -10,32 +10,3 @@
 # Configuration parameters: AllowSubject.
 RSpec/MultipleMemoizedHelpers:
   Max: 9
-
-# Offense count: 10
-# Configuration parameters: IgnoreSharedExamples.
-RSpec/NamedSubject:
-  Exclude:
-    - 'spec/models/omniauth_providers/finder_spec.rb'
-    - 'spec/models/user_provider_spec.rb'
-    - 'spec/services/course_progress_spec.rb'
-    - 'spec/services/lesson_content_importer_spec.rb'
-
-# Offense count: 9
-RSpec/NestedGroups:
-  Max: 4
-
-# Offense count: 4
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: not_to, to_not
-RSpec/NotToNot:
-  Exclude:
-    - 'spec/models/project_submission_spec.rb'
-    - 'spec/models/user_spec.rb'
-
-# Offense count: 135
-# This cop supports safe auto-correction (--auto-correct).
-# Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
-# URISchemes: http, https
-Layout/LineLength:
-  Max: 1251

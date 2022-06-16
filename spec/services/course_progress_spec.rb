@@ -11,7 +11,7 @@ class LessonCompletions
 end
 
 RSpec.describe CourseProgress do
-  subject { described_class.new(course, user) }
+  subject(:course_progress) { described_class.new(course, user) }
 
   let(:lessons) { [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }
   let(:course) { instance_double(Course, lesson_ids: lessons) }
@@ -25,7 +25,7 @@ RSpec.describe CourseProgress do
 
     describe '#percentage' do
       it 'returns 0%' do
-        expect(subject.percentage).to eq(0)
+        expect(course_progress.percentage).to eq(0)
       end
     end
   end
@@ -38,7 +38,7 @@ RSpec.describe CourseProgress do
 
     describe '#percentage' do
       it 'returns 30%' do
-        expect(subject.percentage).to eq(30)
+        expect(course_progress.percentage).to eq(30)
       end
     end
   end
@@ -51,7 +51,7 @@ RSpec.describe CourseProgress do
 
     describe '#percentage' do
       it 'returns 100%' do
-        expect(subject.percentage).to eq(100)
+        expect(course_progress.percentage).to eq(100)
       end
     end
   end

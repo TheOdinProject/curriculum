@@ -5,7 +5,7 @@ RSpec.describe User do
 
   it { is_expected.to validate_uniqueness_of(:email).ignoring_case_sensitivity }
   it { is_expected.to allow_value('example@email.com').for(:email) }
-  it { is_expected.to_not allow_value('bademail').for(:email) }
+  it { is_expected.not_to allow_value('bademail').for(:email) }
   it { is_expected.to validate_length_of(:username).is_at_least(2).is_at_most(100) }
   it { is_expected.to validate_length_of(:learning_goal).is_at_most(1700) }
 

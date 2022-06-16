@@ -38,79 +38,61 @@ RSpec.describe ApplicationHelper do
     end
   end
 
-  describe 'course progress' do
+  describe '#percentage_completed_by_user' do
+    subject(:percentage_completed_by_user) { helper.percentage_completed_by_user(course, user) }
+
+    let(:course) { instance_double(Course) }
+    let(:user) { instance_double(User) }
+
+    before do
+      allow(user).to receive(:progress_for).and_return(course_progress)
+    end
+
+    context 'when user has not started the course' do
+      let(:course_progress) { instance_double(CourseProgress, percentage: 0) }
+
+      it 'returns 0%' do
+        expect(percentage_completed_by_user).to eq(0)
+      end
+    end
+
+    context 'when user has started the course' do
+      let(:course_progress) { instance_double(CourseProgress, percentage: 30) }
+
+      it 'returns 30%' do
+        expect(percentage_completed_by_user).to eq(30)
+      end
+    end
+
+    context 'when user has completed the course' do
+      let(:course_progress) { instance_double(CourseProgress, percentage: 100) }
+
+      it 'returns 100%' do
+        expect(percentage_completed_by_user).to eq(100)
+      end
+    end
+  end
+
+  describe '#course_completed_by_user?' do
+    subject(:course_completed_by_user?) { helper.course_completed_by_user?(course, user) }
+
     let(:user) { instance_double(User) }
     let(:course) { instance_double(Course) }
-    let(:course_progress) { instance_double(CourseProgress) }
 
     before do
       allow(user).to receive(:progress_for).with(course).and_return(course_progress)
     end
 
-    context 'when user has not started the course' do
-      before do
-        allow(course_progress).to receive_messages(
-          started?: false,
-          completed?: false,
-          percentage: 0
-        )
-      end
+    context 'when the user has completed the course' do
+      let(:course_progress) { instance_double(CourseProgress, completed?: true) }
 
-      describe '#course_completed_by_user?' do
-        it 'returns false' do
-          expect(helper.course_completed_by_user?(course, user)).to be(false)
-        end
-      end
-
-      describe '#percentage_completed_by_user' do
-        it 'returns 0' do
-          expect(helper.percentage_completed_by_user(course, user)).to be(0)
-        end
-      end
+      it { is_expected.to be(true) }
     end
 
-    context 'when user has started the course' do
-      before do
-        allow(course_progress).to receive_messages(
-          started?: true,
-          completed?: false,
-          percentage: 30
-        )
-      end
+    context 'when the user has not completed the course' do
+      let(:course_progress) { instance_double(CourseProgress, completed?: false) }
 
-      describe '#course_completed_by_user?' do
-        it 'returns false' do
-          expect(helper.course_completed_by_user?(course, user)).to be(false)
-        end
-      end
-
-      describe '#percentage_completed_by_user' do
-        it 'returns 30' do
-          expect(helper.percentage_completed_by_user(course, user)).to be(30)
-        end
-      end
-    end
-
-    context 'when user has completed the course' do
-      before do
-        allow(course_progress).to receive_messages(
-          started?: true,
-          completed?: true,
-          percentage: 100
-        )
-      end
-
-      describe '#course_completed_by_user?' do
-        it 'returns true' do
-          expect(helper.course_completed_by_user?(course, user)).to be(true)
-        end
-      end
-
-      describe '#percentage_completed_by_user' do
-        it 'returns 100' do
-          expect(helper.percentage_completed_by_user(course, user)).to be(100)
-        end
-      end
+      it { is_expected.to be(false) }
     end
   end
 

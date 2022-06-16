@@ -2,7 +2,7 @@ require 'rails_helper'
 
 module OmniauthProviders
   RSpec.describe Finder do
-    subject { described_class.new(auth) }
+    subject(:finder) { described_class.new(auth) }
 
     let(:auth) do
       OmniAuth::AuthHash.new(
@@ -26,7 +26,7 @@ module OmniauthProviders
 
     describe '#find' do
       it 'returns the user provider' do
-        expect(subject.find).to eql(user_provider)
+        expect(finder.find).to eql(user_provider)
       end
 
       context 'when a user provider cannot be found' do
@@ -48,7 +48,7 @@ module OmniauthProviders
         end
 
         it 'returns a new user provider' do
-          expect(subject.find).to eql(new_user_provider)
+          expect(finder.find).to eql(new_user_provider)
         end
       end
     end

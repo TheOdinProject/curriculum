@@ -10,11 +10,11 @@ RSpec.describe ProjectSubmission, type: :model do
   it { is_expected.to validate_presence_of(:repo_url).with_message('Required') }
   it { is_expected.to allow_value('http://www.github.com/fff').for(:repo_url) }
   it { is_expected.to allow_value('https://www.github.com/fff').for(:repo_url) }
-  it { is_expected.to_not allow_value('not_a_url').for(:repo_url) }
+  it { is_expected.not_to allow_value('not_a_url').for(:repo_url) }
 
   it { is_expected.to allow_value('http://www.github.com/fff').for(:live_preview_url) }
   it { is_expected.to allow_value('https://www.github.com/fff').for(:live_preview_url) }
-  it { is_expected.to_not allow_value('not_a_url').for(:live_preview_url) }
+  it { is_expected.not_to allow_value('not_a_url').for(:live_preview_url) }
 
   it { is_expected.to validate_uniqueness_of(:user_id).scoped_to(:lesson_id) }
 
@@ -24,7 +24,7 @@ RSpec.describe ProjectSubmission, type: :model do
     end
 
     it do
-      expect(project_submission).to_not allow_value('http://www.github.com/fff')
+      expect(project_submission).not_to allow_value('http://www.github.com/fff')
         .for(:live_preview_url)
         .with_message('Live preview is not allowed for this project')
     end
