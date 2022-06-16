@@ -246,7 +246,7 @@ It is enough for you to know *that* these functions exist and generally how they
 
 ### Benefits of Transforms
 
-In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
+In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
 
 The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://csstriggers.com/).
 
