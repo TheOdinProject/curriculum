@@ -1,6 +1,6 @@
 ### Introduction
 
-Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
+Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whomever will need to use, maintain, or further develop your code, please learn to write readable code.
 
 ### Lesson Overview
 
