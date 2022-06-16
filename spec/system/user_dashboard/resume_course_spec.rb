@@ -3,16 +3,17 @@ require 'rails_helper'
 RSpec.describe 'Resuming Course from User Dashboard', type: :system do
   let!(:default_path) { create(:path, default_path: true) }
   let!(:foundations_course) { create(:course, title: 'Foundations', path: default_path) }
-  let!(:section) { create(:section, course: foundations_course) }
-  let!(:lesson) { create(:lesson, section:) }
-  let!(:incomplete_lesson) { create(:lesson, section:) }
-  let!(:user) { create(:user) }
+  let!(:incomplete_lesson) { create(:lesson, course: foundations_course) }
 
   context 'when user has completed first lesson in course' do
     before do
-      sign_in(user)
+      lesson = create(:lesson, course: foundations_course)
+
+      sign_in(create(:user))
+
       visit lesson_path(lesson)
       find(:test_id, 'complete-button').click
+
       visit dashboard_path
     end
 

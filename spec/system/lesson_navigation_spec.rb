@@ -1,13 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe 'Navigating Lessons', type: :system do
-  let!(:user) { create(:user) }
   let!(:course) { create(:course) }
   let!(:section) { create(:section, position: 1, course:) }
   let!(:lesson) { create(:lesson, position: 1, section:) }
 
   before do
-    sign_in(user)
+    sign_in(create(:user))
   end
 
   describe 'the next lesson button' do

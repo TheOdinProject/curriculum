@@ -4,12 +4,13 @@ RSpec.describe 'User Reset Progress', type: :system do
   let!(:user) { create(:user) }
   let!(:foundations_path) { create(:path, title: 'Foundations', default_path: true) }
   let!(:foundation_course) { create(:course, title: 'Foundations', path: foundations_path) }
-  let!(:foundation_lesson) { create(:lesson, course: foundation_course) }
   let!(:rails_path) { create(:path, title: 'Rails') }
   let!(:rails_course) { create(:course, title: 'Rails', path: rails_path) }
-  let!(:rails_lesson) { create(:lesson, course: rails_course) }
 
   before do
+    foundation_lesson = create(:lesson, course: foundation_course)
+    rails_lesson = create(:lesson, course: rails_course)
+
     create(:lesson_completion, lesson: foundation_lesson, user:)
     create(:lesson_completion, lesson: rails_lesson, user:, course: rails_course)
 

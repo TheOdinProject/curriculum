@@ -3,9 +3,8 @@ require 'rails_helper'
 RSpec.describe CourseSerializer do
   subject { described_class.as_json(course, between_dates) }
 
-  let(:course) { instance_double(Course, title: 'Foundations', sections:) }
+  let(:course) { instance_double(Course, title: 'Foundations', sections: [section]) }
   let(:between_dates) { (DateTime.parse('2019/01/01')..DateTime.parse('2019/12/31')) }
-  let(:sections) { [section] }
   let(:section) { instance_double(Section) }
   let(:serialized_section) do
     {
