@@ -8,6 +8,6 @@ RSpec.describe CardComponent, type: :component do
 
     render_inline(component)
 
-    expect(page).to have_css("div[data-controller='navbar'][data-navbar-target='menu-state']")
+    expect(rendered_component).to have_css("div[data-controller='navbar'][data-navbar-target='menu-state']")
   end
 end

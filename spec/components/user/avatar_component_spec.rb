@@ -8,7 +8,7 @@ RSpec.describe User::AvatarComponent, type: :component do
 
       render_inline(component)
 
-      expect(page).to have_selector("img[src*='http://github/avatar.png']")
+      expect(rendered_component).to have_selector("img[src*='http://github/avatar.png']")
     end
   end
 
@@ -19,7 +19,7 @@ RSpec.describe User::AvatarComponent, type: :component do
 
       render_inline(component)
 
-      expect(page).to have_content('default user avatar')
+      expect(rendered_component).to have_content('default user avatar')
     end
   end
 end
