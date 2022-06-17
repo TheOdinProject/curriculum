@@ -11,6 +11,8 @@ class Course < ApplicationRecord
 
   delegate :short_title, to: :path, prefix: true
 
+  scope :badges, -> { Course.where(show_on_homepage: true) }
+
   def progress_for(user)
     user.progress_for(self)
   end

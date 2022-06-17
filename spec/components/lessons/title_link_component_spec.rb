@@ -8,7 +8,7 @@ RSpec.describe Lessons::TitleLinkComponent, type: :component do
 
       render_inline(component)
 
-      expect(rendered_component).to have_content('1. Project: HTML Basics')
+      expect(page).to have_content('1. Project: HTML Basics')
     end
   end
 
@@ -19,7 +19,7 @@ RSpec.describe Lessons::TitleLinkComponent, type: :component do
 
       render_inline(component)
 
-      expect(rendered_component).to have_content('1. HTML Basics')
+      expect(page).to have_content('1. HTML Basics')
     end
   end
 end

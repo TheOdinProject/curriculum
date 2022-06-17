@@ -10,7 +10,7 @@ RSpec.describe CompleteButtonComponent, type: :component do
 
     render_inline(component)
 
-    expect(rendered_component).to have_button('Lesson Completed')
+    expect(page).to have_button('Lesson Completed')
   end
 
   it 'renders the button with lesson incomplete state' do
@@ -18,6 +18,6 @@ RSpec.describe CompleteButtonComponent, type: :component do
 
     render_inline(component)
 
-    expect(rendered_component).to have_button('Mark Complete')
+    expect(page).to have_button('Mark Complete')
   end
 end

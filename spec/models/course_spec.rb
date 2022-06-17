@@ -9,6 +9,15 @@ RSpec.describe Course do
 
   it { is_expected.to validate_presence_of(:position) }
 
+  describe '.badges' do
+    it 'only displays homepage badges' do
+      create_list(:course, 2)
+      course_three = create(:course, show_on_homepage: true)
+
+      expect(described_class.badges).to contain_exactly(course_three)
+    end
+  end
+
   describe '#progress_for' do
     let(:course) { build_stubbed(:course) }
     let(:user) { build_stubbed(:user) }

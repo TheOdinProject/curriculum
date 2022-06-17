@@ -7,16 +7,14 @@
     <div class="row">
       <div class="col-xl-10 offset-xl-1">
         <div class="row curriculum-details-grid">
-
-          <% available_courses.each do |course| %>
-            <%= link_to course[:path], class: "curriculum-details-tile" do %>
-              <%= image_tag course[:badge_image_url], alt: course[:badge_alt_text] %>
-                <h4 class="font-bold uppercase text-lg">
-                  <%= course[:title] %>
-                </h4>
+          <% courses.each do |course| %>
+            <%= link_to path_course_path(course.path, course), class: "course-badge-tile" do %>
+              <%= image_tag course.badge_uri, alt: "#{course.title.downcase} badge" %>
+              <h4 class="font-bold uppercase text-lg">
+                <%= course.title %>
+              </h4>
             <% end %>
           <% end %>
-
         </div>
       </div>
     </div>

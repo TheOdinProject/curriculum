@@ -6,6 +6,8 @@ course = @path.add_course do |course|
   course.title = 'Getting Hired'
   course.description = "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career."
   course.identifier_uuid = '1fac6c55-479c-4202-936b-2992c0e4815c'
+  course.show_on_homepage = true
+  course.badge_uri = 'badge-getting-hired.svg'
 end
 
 # +++++++++++++++++++++++++++++++++++++++
