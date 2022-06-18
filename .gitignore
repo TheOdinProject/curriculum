@@ -85,3 +85,6 @@ pickle-email-*.html
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Spec example persistence / failure tracking
+/spec/examples.txt
