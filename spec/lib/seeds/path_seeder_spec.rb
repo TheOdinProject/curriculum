@@ -67,6 +67,7 @@ RSpec.describe Seeds::PathSeeder do
           course.identifier_uuid = 'course_uuid'
           course.title = 'Ruby'
           course.description = 'A Ruby course'
+          course.badge_uri = 'ruby-soho.jpeg'
         end
       end.to change { path.courses.count }.from(0).to(1)
     end
@@ -77,18 +78,21 @@ RSpec.describe Seeds::PathSeeder do
           course.identifier_uuid = 'course_uuid_1'
           course.title = 'Ruby'
           course.description = 'A Ruby course'
+          course.badge_uri = 'ruby-soho.jpeg'
         end
 
         course_two = path_seeder.add_course do |course|
           course.identifier_uuid = 'course_uuid_2'
           course.title = 'Rails'
           course.description = 'A Rails course'
+          course.badge_uri = 'choo-choo-choose-you.bmp'
         end
 
         course_three = path_seeder.add_course do |course|
           course.identifier_uuid = 'course_uuid_3'
           course.title = 'JS'
           course.description = 'A JS course'
+          course.badge_uri = 'jolly-smith.jpg'
         end
 
         expect(course_one.course.position).to eq(1)
@@ -106,6 +110,7 @@ RSpec.describe Seeds::PathSeeder do
 
       path_seeder.add_course do |course|
         course.identifier_uuid = 'course_uuid_2'
+        course.badge_uri = 'nothing-to-see-here.svg'
       end
 
       path_seeder.delete_removed_courses

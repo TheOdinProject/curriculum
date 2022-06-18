@@ -7,6 +7,7 @@ RSpec.describe Seeds::CourseSeeder do
       course.identifier_uuid = 'course_uuid'
       course.title = 'Foundations'
       course.description = 'a foundation course'
+      course.badge_uri = 'foo-ndations.svg'
     end
   end
 
