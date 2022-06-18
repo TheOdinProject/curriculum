@@ -50,6 +50,7 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [Bootstrap documentation](https://bootstrapdocs.com/v3.0.3/docs/getting-started/)
 * [Tailwind documentation](https://tailwindcss.com/docs)
