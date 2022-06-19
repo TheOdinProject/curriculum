@@ -1,0 +1,23 @@
+*{
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-center{
+    display: flex;
+    flex-grow: 3;
+}
+
+.header-right{
+    display: flex;
+    flex-grow: 2;
+}
