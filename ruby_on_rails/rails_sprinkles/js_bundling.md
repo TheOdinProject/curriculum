@@ -13,7 +13,7 @@ This lesson will go over the new jsbundling-rails gem and some of the pros and c
 
 ### jsbundling options
 
-Before we install the jsbundling gem let's go over a few of the options. <span id='bundle-options'></span>The three options are esbuild, rollup and webpack. Esbuild is a fast lightweight bundler written in the GO language whereas other bundlers may be slower, but have more features which can make the bundler take longer to run. Esbuild manages to be fast through being built from scratch and a variety of methods such as utilizing parallelism to use all available CPU cores. If you're interested in reading more about Esbuild you can find the documentation [here](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md). Rollup is another bundler that allows you to utilize a JavaScript syntax for importing and exporting functions and data so they can be shared between separate scripts then changing them to existing supported formats. If you want to take a deeper dive into how to utilize Rollup you can find the documentation [here](https://rollupjs.org/guide/en/#introduction). The final bundler provided through jsbundling is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application. If you want to take a deeper dive into Webpack go [here](https://webpack.js.org/concepts/). Now that you have been introduced into the bundlers provided through jsbundling let's go into setting up jsbundling.
+Before we install the jsbundling gem let's go over a few of the options. <span id='bundle-options'></span>The three options are esbuild, rollup and webpack. Esbuild is a fast lightweight bundler written in the GO language whereas other bundlers may be slower, but have more features which can make the bundler take longer to run. Esbuild manages to be fast through being built from scratch and a variety of methods such as utilizing parallelism to use all available CPU cores. If you're interested in reading more about esbuild you can find the documentation [here](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md). Rollup is another bundler that allows you to utilize a JavaScript syntax for importing and exporting functions and data so they can be shared between separate scripts then changing them to existing supported formats. If you want to take a deeper dive into how to utilize Rollup you can find the documentation [here](https://rollupjs.org/guide/en/#introduction). The final bundler provided through jsbundling is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application. If you want to take a deeper dive into Webpack go [here](https://webpack.js.org/concepts/). Now that you have been introduced into the bundlers provided through jsbundling let's go into setting up jsbundling.
 
 
 ### Using Yarn Build Watch
@@ -106,7 +106,7 @@ Go ahead and enter the below command.
 rails new myapp -j <replace the text and <> with your bundler choice>
 ~~~
 
-Let's walk through an example with ESBuild. In the terminal entering this command will start the Rails app creation process.
+Let's walk through an example with esbuild. In the terminal entering this command will start the Rails app creation process.
 
 ~~~bash
 rails new bundling -j esbuild
@@ -126,9 +126,9 @@ info All dependencies
 └─ @hotwired/stimulus@3.0.1
 ~~~
 
-A key difference here is that within the terminal output you will see more output as well as that info output from ESBuild as this command is ran. Let's take a look at the results for our Rails application.
+A key difference here is that within the terminal output you will see more output as well as that info output from esbuild as this command is ran. Let's take a look at the results for our Rails application.
 
-In our ```package.json``` file that is where our script build is kept. Here you will see the command that was run by Rails when building app. Going into the ```app/javascript/application.js``` you can see what was imported. An important caveat with ESBuild is that in ```app/javascript/controllers/index.js``` you need to run a command to add all your controllers to the ```index.js``` file. That command is 
+In our ```package.json``` file that is where our script build is kept. Here you will see the command that was run by Rails when building app. Going into the ```app/javascript/application.js``` you can see what was imported. An important caveat with esbuild is that in ```app/javascript/controllers/index.js``` you need to run a command to add all your controllers to the ```index.js``` file. That command is 
 
 ~~~bash
 ./bin/rails stimulus:manifest:update
