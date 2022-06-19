@@ -16,7 +16,7 @@ module Seeds
         lesson.identifier_uuid = attributes.fetch(:identifier_uuid)
         lesson.title = attributes.fetch(:title)
         lesson.description = attributes.fetch(:description)
-        lesson.url = attributes.fetch(:url)
+        lesson.github_path = attributes.fetch(:github_path)
         lesson.section_id = section.id
         lesson.is_project = attributes.fetch(:is_project, false)
         lesson.accepts_submission = attributes.fetch(:accepts_submission, false)

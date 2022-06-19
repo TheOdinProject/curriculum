@@ -11,7 +11,7 @@ describe ':curriculum' do
     let!(:lesson) do
       create(
         :lesson,
-        url: '/README.md',
+        github_path: '/README.md',
         content: nil,
       )
     end

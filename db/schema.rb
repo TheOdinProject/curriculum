@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_18_032614) do
+ActiveRecord::Schema.define(version: 2022_06_19_133130) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -94,7 +94,7 @@ ActiveRecord::Schema.define(version: 2022_06_18_032614) do
 
   create_table "lessons", id: :serial, force: :cascade do |t|
     t.string "title", limit: 255
-    t.string "url", limit: 255
+    t.string "github_path", limit: 255
     t.integer "position", null: false
     t.text "description"
     t.boolean "is_project", default: false
@@ -110,11 +110,11 @@ ActiveRecord::Schema.define(version: 2022_06_18_032614) do
     t.bigint "course_id"
     t.boolean "installation_lesson", default: false
     t.index ["course_id"], name: "index_lessons_on_course_id"
+    t.index ["github_path"], name: "index_lessons_on_github_path"
     t.index ["identifier_uuid", "course_id"], name: "index_lessons_on_identifier_uuid_and_course_id", unique: true
     t.index ["installation_lesson"], name: "index_lessons_on_installation_lesson"
     t.index ["position"], name: "index_lessons_on_position"
     t.index ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true
-    t.index ["url"], name: "index_lessons_on_url"
   end
 
   create_table "notifications", force: :cascade do |t|

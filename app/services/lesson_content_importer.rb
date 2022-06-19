@@ -44,7 +44,7 @@ class LessonContentImporter
   end
 
   def github_response
-    Octokit.contents('theodinproject/curriculum', path: lesson.url)
+    Octokit.contents('theodinproject/curriculum', path: lesson.github_path)
   end
 
   def log_error(message)

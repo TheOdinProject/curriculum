@@ -4,7 +4,7 @@ RSpec.describe LessonContentImporter do
   subject(:importer) { described_class.new(lesson) }
 
   let(:lesson) do
-    create(:lesson, content: lesson_content, title: 'Ruby Basics', url: '/ruby_basics/variables')
+    create(:lesson, content: lesson_content, title: 'Ruby Basics', github_path: '/ruby_basics/variables')
   end
 
   let(:lesson_content) { "<p>Hello World</p>\n" }

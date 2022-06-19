@@ -124,7 +124,7 @@ RSpec.describe Seeds::CourseSeeder do
             identifier_uuid: 'lesson_uuid_2',
             title: 'A Lesson Title',
             description: 'The lessons description',
-            url: '/github/lesson',
+            github_path: '/github/lesson',
           }
         )
       end

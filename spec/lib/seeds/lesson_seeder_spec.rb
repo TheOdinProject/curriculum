@@ -12,7 +12,7 @@ RSpec.describe Seeds::LessonSeeder do
       title: 'Ruby Lesson',
       identifier_uuid: 'lesson_uuid',
       description: 'lesson description',
-      url: '/github/lesson_path',
+      github_path: '/github/lesson_path',
       is_project: true,
       accepts_submission: true,
       has_live_preview: true,
@@ -72,7 +72,7 @@ RSpec.describe Seeds::LessonSeeder do
           title: 'Ruby Lesson',
           identifier_uuid: 'lesson_uuid',
           description: 'lesson description',
-          url: '/github/lesson_path',
+          github_path: '/github/lesson_path',
         }
       end
 
@@ -102,7 +102,7 @@ RSpec.describe Seeds::LessonSeeder do
       lesson_seeder
 
       lesson = Lesson.find_by(identifier_uuid: 'lesson_uuid')
-      expect(lesson.url).to eq('/github/lesson_path')
+      expect(lesson.github_path).to eq('/github/lesson_path')
     end
 
     context 'when the lesson already exists' do
