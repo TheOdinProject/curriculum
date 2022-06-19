@@ -16,6 +16,7 @@ class User < ApplicationRecord
   has_many :user_providers, dependent: :destroy
   has_many :flags, foreign_key: :flagger_id, dependent: :destroy, inverse_of: :flagger
   has_many :notifications, as: :recipient, dependent: :destroy
+  has_many :announcements, dependent: nil
   belongs_to :path, optional: true
 
   def progress_for(course)

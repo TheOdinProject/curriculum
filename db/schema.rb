@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_19_133130) do
+ActiveRecord::Schema.define(version: 2022_06_21_121447) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 2022_06_19_133130) do
     t.datetime "updated_at", null: false
     t.string "message", limit: 255
     t.datetime "expires_at", null: false
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_announcements_on_user_id"
   end
 
   create_table "courses", id: :serial, force: :cascade do |t|
@@ -255,6 +257,7 @@ ActiveRecord::Schema.define(version: 2022_06_19_133130) do
     t.index ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope"
   end
 
+  add_foreign_key "announcements", "users"
   add_foreign_key "flags", "project_submissions"
   add_foreign_key "flags", "users", column: "flagger_id"
   add_foreign_key "lesson_completions", "lessons", on_delete: :cascade
