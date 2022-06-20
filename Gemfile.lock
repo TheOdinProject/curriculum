@@ -149,7 +149,7 @@ GEM
       dotenv (= 2.7.6)
       railties (>= 3.2)
     dry-initializer (3.1.1)
-    erb_lint (0.1.1)
+    erb_lint (0.1.3)
       activesupport
       better_html (~> 1.0.7)
       html_tokenizer
@@ -378,7 +378,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.2)
+    rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
     railties (6.1.4.6)
       actionpack (= 6.1.4.6)
