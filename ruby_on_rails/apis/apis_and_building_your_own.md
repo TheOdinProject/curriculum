@@ -11,16 +11,12 @@ When you build applications that have more dynamic front-end functionality (as c
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* How does Rails know which type of file you are expecting back when you make an HTTP request?
-* What is the purpose of the `#respond_to` method?
-* How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?
-* What are the two steps performed behind the scenes by the `#to_json` method?
-* How do you tell a controller action to render nothing but an error message?
-* How do you build your own custom error messages?
-* Why can't you use session-based controller authentication methods if you want people to access your API programmatically?
-* What is "Service Oriented Architecture?"
+* Create a Rails Controller action capable of returning JSON and XML responses.
+* Create an API for a model that hides certain attributes from consumers of your API.
+* Create custom error messages for responding to faulty requests.
+* Explain Service Oriented Architecture. 
 
 ### API Basics
 
