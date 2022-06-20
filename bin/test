@@ -1,13 +1,23 @@
 #!/usr/bin/env ruby
 
+results = { 'Rubocop' => false, 'RSpec' => false, 'ESLint' => false, 'Jest' => false }
 puts "\n== Running linters =="
 puts 'Rubocop:'
-system 'bundle exec rubocop'
+results['Rubocop'] = system 'bundle exec rubocop'
+
 puts 'ESlint:'
-system 'yarn eslint'
+results['ESLint'] = system 'yarn eslint'
 
 puts "\n== Running specs =="
 puts 'Rspec:'
-system 'bundle exec rspec'
+results['RSpec'] = system 'bundle exec rspec'
 puts 'Jest:'
-system 'yarn test'
+results['Jest'] = system 'yarn test'
+
+puts "\n== Final Results =="
+puts results.map {|k,v| "#{k.ljust(7)} #{v == true ? '✅' : '❌' }" }
+if results.values.all? { |v| v == true }
+  puts 'All tests passing! 🎉'
+else
+  puts 'Failing tests! 😭'
+end
