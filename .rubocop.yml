@@ -195,3 +195,8 @@ Rails/EnvironmentVariableAccess:
 
 Rails/I18nLocaleTexts:
   Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'config/environments/*'
+  Enabled: true
