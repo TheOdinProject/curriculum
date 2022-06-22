@@ -86,6 +86,6 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#tips">What is the difference between `max-width` and `min-width` in a media query definition?</a>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * This [Media Query Tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) on FreeCodeCamp covers the same items we've touched on here.
