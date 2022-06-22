@@ -40,6 +40,8 @@ To help you make a decision, here are some perks of each technology:
 
 In the end, it doesn't matter which path you take. It's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? [Click here](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371).
 
+<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/2f280a2764a66cb9679f545a71aaa628b94cec3e/foundations/tying_it_all_together/imgs/wheel_decide.PNG"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/2f280a2764a66cb9679f545a71aaa628b94cec3e/foundations/tying_it_all_together/imgs/wheel_decide.PNG" title="Let Wheel Decide this one maybe" /></a>
+
 Get ready, because this is only the beginning. Now it's time to delve deeper into the areas covered by Foundations. There are some fantastic projects in the courses that follow which will challenge you to the limit, but you'll come out the other side ready to go and make your mark in the programming world. 
 
 The journey has just begun!
