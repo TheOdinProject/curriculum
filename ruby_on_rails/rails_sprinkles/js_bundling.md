@@ -59,7 +59,7 @@ Remember the three options for the bundler are esbuild, rollup and webpack and y
 ./bin/rails javascript:install:<replace the text and <> with your bundler choice>
 ~~~
 
-You should have now see this error and a few other ones but don't fear!
+You should now see this error and a few other ones but don't fear!
 
 ~~~bash
 ✘ [ERROR] Could not resolve "@hotwired/turbo-rails"
