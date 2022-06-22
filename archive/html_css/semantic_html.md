@@ -75,7 +75,7 @@ Headings are the `<h1>` through `<h6>` elements, and like the name implies, thes
 * `<nav>`
 * `<section>`
 
-By properly using landmarks and headings, you provide users of assistive technologies a more operable and understandbale page: not only can screen readers navigate a page via landmarks and headings by using quick navigation keyboard commands (or opening a menu in their screen reader), but these elements also have their roles announced to provide additional context.
+By properly using landmarks and headings, you provide users of assistive technologies a more operable and understandbale page: not only can screen readers navigate a page via landmarks and headings by opening a menu in their screen reader, but these elements also have their roles announced to provide additional context.
 
 If you were to use only `<div>` elements to act as these landmarks and headings, maybe adding in some CSS to visually style them, then a screen reader user would have to go through the entire page just to get to a specific section, and they may not be able to actually tell what is a heading or a landmark on the page.
 
