@@ -67,6 +67,7 @@ Important to remember, that since mobile browsers are not a one to one compariso
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
 - Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).

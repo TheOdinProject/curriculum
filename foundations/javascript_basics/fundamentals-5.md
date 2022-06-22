@@ -34,6 +34,8 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - getTheTitles
 - findTheOldest
 
+Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) for a refresher.
+
 Note: Solutions for these exercises can be found in the 'solutions' branch of that repo
 </div>
 
@@ -50,4 +52,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   Learn about the 'arguments' object on this [page about function parameters](https://www.w3schools.com/js/js_function_parameters.asp).

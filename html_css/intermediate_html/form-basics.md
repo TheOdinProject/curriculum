@@ -86,7 +86,7 @@ Use placeholder text to demonstrate how text should be entered and formatted.
 
 <span id="the-name-attribute">**The Name Attribute**</span>
 
-We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend where we send our data know what each piece of data represents.
+We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
 
 We do this by adding a `name` attribute to our inputs:
 
@@ -195,7 +195,7 @@ Unlike input elements, Textarea elements do have a closing tag. This allows you 
 <textarea>Some initial content</textarea>
 ~~~
 
-Text area elements accept a couple of unique attributes that other form controls do not. These are the `rows` and `cols` attributes. They allow you to control the initial height(rows) and width(cols) of the text area:
+Text area elements accept a couple of unique attributes that other form controls do not. These are the `rows` and `cols` attributes. They allow you to control the initial height (rows) and width (cols) of the text area:
 
 ~~~html
 <textarea rows="20" cols="60"></textarea>
@@ -203,7 +203,7 @@ Text area elements accept a couple of unique attributes that other form controls
 
 ### Selection Elements
 
-Sometimes you will want users to select a value from a predefined list. This is where select elements will come in useful.
+Sometimes you will want users to select a value from a predefined list. This is where select elements will be useful.
 
 **Select Dropdown**
 

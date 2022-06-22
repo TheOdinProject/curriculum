@@ -24,7 +24,7 @@ SVGs are often used for:
 
 ### Okay, but what are they?
 
-"SVG" stands for "Scalable Vector Graphic." Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
+"SVG" stands for "Scalable Vector Graphic". Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
 
 With vector graphics on the other hand, there's no grid. Instead, you have formulas for different shapes and lines. Since these are just formulas, it doesn't matter how large or small you want them to appear--they can scale to any size you want, and it will have no effect on the quality or the size of the file.
 
@@ -60,9 +60,9 @@ Typically, you will not want to create SVGs from scratch in your code. Most ofte
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-1. `xmlns` - stands for "XML NameSpace." This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
+1. `xmlns` - stands for "XML NameSpace". This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
 2. `viewBox` - defines the bounds of your SVG. When you have to define the positions of different points of the elements in your SVG, this is what that's referencing. It also defines the aspect ratio _and_ the origin of your SVG. So it's doing quite a lot! Be sure to play around with different values in the example above to get a feel for how it affects the shapes.
-3. `class`, `id` - these attributes function just like they do in HTML. Using these in SVGs allows you to easily target an element via CSS or JavaScript, or to reuse an element via the `use` elements.
+3. `class`, `id` - these attributes function just like they do in HTML. Using these in SVGs allows you to easily target an element via CSS or JavaScript, or to reuse an element via the [`use` element](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use).
 4. Elements such as `<circle>`, `<rect>`, `<path>`, and `<text>` are defined by the SVG namespace. These are our basic building-blocks. Although you can make extremely complex images with SVG, they are mostly created with just a dozen or so of these basic elements. You can see a complete list of SVG elements [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Element).
 5. Many SVG attributes, such as `fill` and `stroke`, can be [changed in your CSS](https://css-tricks.com/svg-properties-and-css/).
 

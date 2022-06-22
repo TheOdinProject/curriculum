@@ -149,7 +149,7 @@ The parent, child, and sibling relationships between elements will become much m
 
 HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
-Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of the comment. For example:
+Writing an HTML comment is simple: We just enclose the comment with `<!--` and `-->` tags. For example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
@@ -166,12 +166,6 @@ Writing an HTML comment is simple: we just put `<!--` and `-->` at either end of
 3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites.
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
 ### Knowledge Check
   
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -184,3 +178,9 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
 * <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
 * <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

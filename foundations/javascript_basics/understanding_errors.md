@@ -79,7 +79,7 @@ will throw the following error, because we forgot the parentheses for `console.l
 
 #### Reference Error
 
-We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist (within the current scope) - or it has been spelt incorrectly!
+We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist (within the current scope) - or it has been spelled incorrectly!
 
 [MDN - ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
@@ -125,9 +125,10 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-[MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ *   [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 ### Knowledge Check
 

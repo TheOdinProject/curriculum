@@ -53,9 +53,10 @@ Note: Feel free to browse the files on the left column in order to gain familiar
   * You will be working out of follow.js
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ *   [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
 
 ### Knowledge Check
 

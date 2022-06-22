@@ -113,17 +113,17 @@ In our example, we will assume that our `params[:post]` is giving us a hash of P
 
 The important distinction between the "scalar" parameter values like strings and more complex parameters like hashes and arrays is that Rails 4 implemented some protections in the controller, called "Strong Parameters".  This is so the user can't send you harmful data (like automatically setting themselves as an admin user when they create an account).  To do this, Rails makes you explicitly verify that you are willing to accept certain items of a hash or array.
 
-*Note: This used to be done in Rails 3 by setting `attr_accessible` in the model to whitelist attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.*
+*Note: This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.*
 
-To "whitelist", or explicitly allow, parameters, you use the methods `require` and `permit`.  Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used.  For example:
+To explicitly allow parameters, you use the methods `require` and `permit`.  Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used.  For example:
 
 ~~~ruby
-  def whitelisted_post_params
+  def allowed_post_params
     params.require(:post).permit(:title,:body,:author_id)
   end
 ~~~
 
-This will whitelist and return the hash of only those params that you specified (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ).  If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
+This will return the hash of only those params that you explicitly allow (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ).  If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
 
 It can be inconvenient, but it's Rails protecting you from bad users.  You'll usually package these strong parameter helpers up in their own private method at the bottom of your controllers, then call that method where you need to get those specific params.
 
@@ -137,7 +137,7 @@ So our `#create` action above can now be filled out a bit more:
     # We know this will get run once we've received the submitted
     # form from our new action above (remember your REST actions??)
     def create
-      @post = Post.new(whitelisted_post_params) # see method below
+      @post = Post.new(allowed_post_params) # see method below
       if @post.save
         # code to set up congratulations message
         redirect_to post_path(@post.id) # go to show page for @post
@@ -151,7 +151,7 @@ So our `#create` action above can now be filled out a bit more:
 
     # gives us back just the hash containing the params we need to
     # to create or update a post
-    def whitelisted_post_params
+    def allowed_post_params
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
@@ -181,7 +181,7 @@ Now the full controller code can be written out for our `#create` action:
     # We know this will get run once we've received the submitted
     # form from our new action above (remember your REST actions??)
     def create
-      @post = Post.new(whitelisted_post_params)
+      @post = Post.new(allowed_post_params)
       if @post.save
         flash[:success] = "Great! Your post has been created!"
         redirect_to @post # go to show page for @post
@@ -193,7 +193,7 @@ Now the full controller code can be written out for our `#create` action:
 
     private
 
-    def whitelisted_post_params
+    def allowed_post_params
       params.require(:post).permit(:title,:body,:author_id)
     end
   end

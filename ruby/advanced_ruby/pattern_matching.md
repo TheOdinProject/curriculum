@@ -167,7 +167,7 @@ end
 puts a
 #=> 1
 ~~~
- 
+
 Above you might have thought you were comparing the value held in the initial `a` variable against the value `1` from the case statement but what actually happened is a variable assignment pattern match. To avoid this Ruby provides the pin operator `^` which instead then matches against a variable of that name.
 
 ~~~ruby
@@ -647,15 +647,15 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
+1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out [this guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly [this section](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
 </div>
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
-- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a> 
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a>
 - <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
 - <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
 - <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>

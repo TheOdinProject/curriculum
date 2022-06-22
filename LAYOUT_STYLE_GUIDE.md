@@ -28,6 +28,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1.  [Links](#links)
 1.  [Images](#images)
 1.  [Codepen Embeds](#codepen-embeds)
+1.  [English Writing Style](#english-writing-style)
 
 
 ## Layouts
@@ -257,7 +258,7 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
 *   3 spaces after a bullet.
 ~~~
 
-### Mulit-line list items
+### Multi-line list items
 
 When list items wrap into multiple lines, consider adding newlines per item 
 to make it more readable:
@@ -273,6 +274,17 @@ to make it more readable:
 ~~~
 
 This will add a paragraph tag to your list item: `<li><p></p></li>`
+
+### Unordered Lists
+
+Unordered lists are created using either hyphens `-` or asterisks `*`. They both give the same results, so it doesn't matter which one is used, but sticking to one way keeps the source markdown consistent.
+
+~~~markdown
+
+- This is a list item made using a hyphen.
+* This is a list item made using an asterisk.
+
+~~~
 
 ## Code
 
@@ -388,3 +400,7 @@ Finally, the **HTML (Recommended)** code option must be the one that is copy + p
 When a user adds a Codepen embed to a lesson, a maintainer should fork the embed to the official [TOP Codepen](https://codepen.io/TheOdinProjectExamples/) account. When necessary, the name of new pens should be updated to better reflect their purpose, e.g. `Simple SVG Example` for a pen showing a simple SVG or `max-width | CSS Responsiveness` for a pen about the `max-width` property.
 
 After forking a pen to the TOP account and ensuring the embeds options from above are selected, the lesson the original embed is from should be updated to include the forked, TOP version instead.
+
+## English Writing Style
+
+As a general note, TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.

@@ -50,14 +50,6 @@ To get some practice using lists, create a new HTML document and create the foll
 4. An ordered list of your all time top 5 favorite video games or movies
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-*   [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-*   [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -65,3 +57,11 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>
 * <a class="knowledge-check-link" href="#ordered-lists">What HTML tag is used to create an ordered list?</a>
 * <a class="knowledge-check-link" href="#li">What HTML tag is used to create list items within both unordered and ordered lists?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+*   [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+*   [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)

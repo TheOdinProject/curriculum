@@ -12,7 +12,7 @@ To start with, you'll need to choose a photo and identify where exactly each per
 
 When the user selects one of these characters, you should check with your Backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
 
-Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of!
+Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). *Note: do this if you're using rails as your backend. Firebase users don't need to add a timer on the backend, instead add one on the front end.* Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of! 
 
 ### Assignment
 

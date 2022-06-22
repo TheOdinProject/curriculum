@@ -75,7 +75,7 @@ Phrased another way, the child selector will select an element that is one level
 Finally, if we want to select all of an element's siblings and not just the first one, we can use the general sibling combinator `~`.
 
 ~~~css
-/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs*/
+/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
 .group1 ~ div {
   /* Our cool CSS */
 }
@@ -87,7 +87,7 @@ Just like the descendant combinator, these selectors don't have any special spec
 Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
-Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together
+Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together.
 
 **Note:** The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from [this article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
 
@@ -98,7 +98,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 [`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
 
-<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
+<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the user's mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
 
 [`:active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
@@ -135,13 +135,13 @@ Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) will mat
 For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
 
 ~~~css
-  .myList:nth-child(5) {/* Selects the 5th child of myList */}
+  .myList:nth-child(5) {/* Selects the 5th element with class myList */}
 
-  .myList:nth-child(3n) { /* Selects every 3rd child of myList */}
+  .myList:nth-child(3n) { /* Selects every 3rd element with class myList */}
 
-  .myList:nth-child(3n + 3) { /* Selects every 3rd child of myList, beginning with the 3rd */}
+  .myList:nth-child(3n + 3) { /* Selects every 3rd element with class myList, beginning with the 3rd */}
 
-  .myList:nth-child(even) {/* Selects every even child of myList */}
+  .myList:nth-child(even) {/* Selects every even element with class myList */}
 ~~~
 
 ### Pseudo-elements
@@ -150,6 +150,8 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 [`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
 
 [`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::first-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
+
+[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
 [`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
@@ -172,8 +174,6 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 Using these pseudo-elements this way would give us this result:
 
 Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
-
-[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
  There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 

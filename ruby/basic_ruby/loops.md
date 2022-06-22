@@ -87,7 +87,7 @@ Much more readable! This code is guaranteed to get you a "yes".
 
 ### Ranges
 
-What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://ruby-doc.org/core-3.0.3/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
+What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://ruby-doc.org/core-3.1.2/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
 
 ~~~ruby
 (1..5)      # inclusive range: 1, 2, 3, 4, 5
@@ -127,7 +127,7 @@ I'm sure you can guess what that code does. Ruby is easily readable that way!
 end
 ~~~
 
-Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`. 
+Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
 
 ### Upto and Downto Loops
 
@@ -145,7 +145,7 @@ If you need to step through a series of numbers (or even letters) within a speci
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*. 
+1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*.
 2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 </div>
 

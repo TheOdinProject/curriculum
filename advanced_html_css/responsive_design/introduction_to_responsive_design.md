@@ -19,13 +19,12 @@ There are ways to make your designs flexible enough that they work well on most 
 ### What screens sizes should you support?
 The smallest phones in common circulation rarely get smaller than `320px`, so that should serve as a reliable lower end target. If your website works as low as `320px` width, then it should work on any small device. The upper limit is a little harder to clarify. These days super-duper-ultra-wide monitors aren't uncommon, so you should plan for the possibility that your site could be viewed on some ridiculously wide monitor. Often, this is accomplished by setting up a max-width for _all_ of your content and then centering that on the page. With a setup like that your content will look fine even on super-wide resolutions.
 
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class='knowledge-check-link' href='#what-is-responsive-design'>What is Responsive Design?</a>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * As usual, MDN has a great article on [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design), but it goes quite a bit deeper than we need right now.
-
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-* <a class='knowledge-check-link' href='#what-is-responsive-design'>What is Responsive Design?</a>

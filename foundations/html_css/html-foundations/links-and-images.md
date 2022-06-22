@@ -28,7 +28,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 ### Anchor Elements
 
-To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a  `<a>` tag.
+To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
@@ -100,7 +100,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can simply use the name of the about.html file `about.html` as the value of the href in the link.
+This works because the index and about page are in the same directory. That means we can simply use its name (`about.html`) as the link's href value.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 
@@ -216,14 +216,6 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-- [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
-- [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
-
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -236,3 +228,10 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
 * <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
 * <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
+- [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)

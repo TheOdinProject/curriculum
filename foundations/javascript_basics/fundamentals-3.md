@@ -1,4 +1,5 @@
-### Functions
+### Introduction
+
 Things are about to get _really_ exciting. So far you have been writing an impressive amount of code to solve various problems, but that code has not been as useful as it could be. Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code. That's the power of functions, and they're used _constantly_ in JavaScript.
 
 ### Lesson Overview
@@ -8,6 +9,8 @@ This section contains a general overview of topics that you will learn in this l
 - Define and invoke different kinds of functions.
 - Use the return value.
 - Explain function scope.
+
+### Functions
 
 1. [This lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start. Don't worry as there may be some functions that can be beyond the reach of this particular lesson, but do pay special attention to the sections on 'Function Scope'. Scope is a topic that commonly trips up both beginner and intermediate coders, so it pays to spend some time with it upfront.  
 2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
@@ -38,6 +41,12 @@ For now, just write each function and test the output with `console.log`.
 3. Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
    1. `lastLetter("abcd")` should return `"d"`
+
+### Additional Resources
+
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
 
 ### Knowledge Check
 

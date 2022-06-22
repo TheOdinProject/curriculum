@@ -77,7 +77,7 @@ Once you start to feel comfortable with the tools, start hacking on open source 
 
 Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development.
 
-In this course, "Foundations" you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on.
+In this "Foundations" course, you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on.
 
 The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
@@ -92,7 +92,8 @@ And it might even be life changing, too.
 *What are you waiting for?*
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)

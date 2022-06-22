@@ -33,26 +33,26 @@ There are three ways to open the Chrome Developer Tools menu:
 Google has updated some of the required sections in the below tutorials and some elements have changed or no longer exist, but you can still follow along using the same functionality and tools that they cover. For example, you may be asked to inspect a button that is no longer on the page- you can still follow along and inspect existing elements without issue.
 
 1. Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
-    - Open Chrome DevTools
     - CSS
-        1. View and change CSS
-        2. CSS features reference
-    - Get Started With Viewing And Changing The DOM
+        1. [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
+        2. [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
+    - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
     - Console
-        1. Console overview
+        1. [Console overview](https://developer.chrome.com/docs/devtools/console/)
     - Mobile Simulation
-        1. Simulate mobile devices with Device Mode
+        1. [Simulate mobile devices with Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
     - JavaScript
-        1. Debug JavaScript
-        2. Pause your code with breakpoints
+        1. [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
+        2. [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
  2. Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
+ This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+ *   Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 
 ### Knowledge Check
 

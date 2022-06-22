@@ -123,7 +123,7 @@ When the `<input>` element receives focus, a screen reader would announce, "Pass
 
 ### Hiding Content from the Accessibility Tree
 
-Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display`and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
+Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display` and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
 ~~~html
 <!-- Example 1 -->
@@ -161,6 +161,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 * [An in-depth guide to ARIA roles](https://www.a11yproject.com/posts/2020-08-20-an-indepth-guide-to-aria-roles/#landmark-roles) goes over an ARIA attribute that alters the semantics of elements, which can allow you to create custom inputs, buttons, and more. Just keep in mind rule number one of the ARIA rules!
 * [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies. A word of warning if you decide to dive into this topic: the `assertive` live region may not work in the JAWS and NVDA screen readers, but the `role="alert"` attribute, which has an implicit live region of assertive, should.
-* [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=2&t=868s) is a 30 minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
+* [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc) is a 30 minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
 - [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=6) is another 30 minute video that covers some things mentioned in the previous lessons, but it also covers the accessibility tree, ARIA, and if you still need to be convinced, why using semantic HTML is important.
 

@@ -52,7 +52,7 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   [This article about how we can utilize css overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.
 
 ### Knowledge Check
 
