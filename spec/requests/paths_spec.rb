@@ -10,7 +10,7 @@ RSpec.describe 'Static Pages', type: :request do
 
         get path_url(path)
 
-        expect(response).to render_template(:show)
+        expect(response).to have_http_status(:ok)
       end
     end
 

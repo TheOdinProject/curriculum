@@ -64,7 +64,6 @@ group :test do
   gem 'cuprite', '~> 0.13'
   gem 'erb_lint', '~> 0.1', require: false
   gem 'factory_bot_rails', '~> 6.2'
-  gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-retry', '~> 0.6'
   gem 'shoulda-matchers', '~> 5.1'
   gem 'simplecov', '~> 0.21', require: false

@@ -6,7 +6,6 @@ RSpec.describe 'Static Pages', type: :request do
       get home_path
 
       expect(response).to have_http_status(:ok)
-      expect(response).to render_template(:home)
     end
   end
 
@@ -15,7 +14,6 @@ RSpec.describe 'Static Pages', type: :request do
       get about_path
 
       expect(response).to have_http_status(:ok)
-      expect(response).to render_template(:about)
     end
   end
 
@@ -24,7 +22,6 @@ RSpec.describe 'Static Pages', type: :request do
       get terms_of_use_path
 
       expect(response).to have_http_status(:ok)
-      expect(response).to render_template(:terms_of_use)
     end
   end
 
@@ -33,7 +30,6 @@ RSpec.describe 'Static Pages', type: :request do
       get success_stories_path
 
       expect(response).to have_http_status(:ok)
-      expect(response).to render_template(:success_stories)
     end
   end
 end

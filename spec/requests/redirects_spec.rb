@@ -22,9 +22,6 @@ RSpec.describe 'Redirects', type: :request do
 
       expect(response).to redirect_to('/lessons/test-course-test-lesson')
       expect(response).to have_http_status(:moved_permanently)
-      follow_redirect!
-
-      expect(response).to render_template(:show)
     end
 
     context "when the course doesn't exist" do
@@ -33,9 +30,6 @@ RSpec.describe 'Redirects', type: :request do
 
         expect(response).to redirect_to('/paths')
         expect(response).to have_http_status(:moved_permanently)
-        follow_redirect!
-
-        expect(response).to render_template(:index)
       end
     end
 
@@ -47,9 +41,6 @@ RSpec.describe 'Redirects', type: :request do
 
         expect(response).to redirect_to('/paths')
         expect(response).to have_http_status(:moved_permanently)
-        follow_redirect!
-
-        expect(response).to render_template(:index)
       end
     end
   end
