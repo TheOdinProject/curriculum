@@ -6,9 +6,9 @@ Needless to say, whilst learning to code, you'll be spending most of your time o
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Understand computer software and hardware
-* Able to take screenshots
-* Importance of passwords
+* Computer software and hardware
+* How to take screenshots
+* The importance of strong passwords
 
 ### Assignment
 
