@@ -185,6 +185,14 @@ SOA is a big deal.  There are certainly a lot of issues that crop up when you're
 
 You probably won't be worrying too much about SOA while building "toy" applications for yourself but it will certainly come up if you find yourself working at a tech company and it's a good principle to become familiar with.
 
+### Conclusion
+
+We'll get more into using your application as an API during the course on JavaScript.  In that course, you'll build some full stack apps that use JavaScript AJAX calls to smooth out the user experience, which basically involves asking your Rails app for some XML or JSON data instead of a full HTML page.  Then you'll get to build some single page JavaScript apps which rely on the API provided by your Rails app for all the necessary database data but otherwise completely run the show on the front end.
+
+The best way to really figure out APIs is to build them and interface with them, so we'll focus on that in the projects.
+
+In the next lesson, we'll cover working with other people's APIs, which can add all kinds of firepower to your own application.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -203,14 +211,6 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://web-crunch.com/posts/custom-error-page-ruby-on-rails">How do you build your own custom error messages?</a>
 * <a class="knowledge-check-link" href="#api-tokens">Why can't you use session-based controller authentication methods if you want people to access your API programmatically?</a>
 * <a class="knowledge-check-link" href="#service-oriented-architecture-soa">What is "Service Oriented Architecture?</a>
-
-### Conclusion
-
-We'll get more into using your application as an API during the course on JavaScript.  In that course, you'll build some full stack apps that use JavaScript AJAX calls to smooth out the user experience, which basically involves asking your Rails app for some XML or JSON data instead of a full HTML page.  Then you'll get to build some single page JavaScript apps which rely on the API provided by your Rails app for all the necessary database data but otherwise completely run the show on the front end.
-
-The best way to really figure out APIs is to build them and interface with them, so we'll focus on that in the projects.
-
-In the next lesson, we'll cover working with other people's APIs, which can add all kinds of firepower to your own application.
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
