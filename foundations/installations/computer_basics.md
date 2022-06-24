@@ -39,4 +39,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* In case of disabilities and/or other restrictions, checkout [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
