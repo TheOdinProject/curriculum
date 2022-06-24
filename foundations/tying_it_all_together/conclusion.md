@@ -44,6 +44,8 @@ In the end, it doesn't matter which path you take. It's only important that you 
 
 <iframe src="https://wheeldecide.com/e.php?c1=Ruby+on+Rails&c2=Node&col=rgy&t=The+Odin+Project+Path+Wheel&time=7" width="250" height="250" scrolling="no" frameborder="0"></iframe>
 
+Feel free to share the results in chat!
+
 Get ready, because this is only the beginning. Now it's time to delve deeper into the areas covered by Foundations. There are some fantastic projects in the courses that follow which will challenge you to the limit, but you'll come out the other side ready to go and make your mark in the programming world.
 
 The journey has just begun!
