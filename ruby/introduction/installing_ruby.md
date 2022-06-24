@@ -125,6 +125,12 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
+If you've already installed `rbenv`, we'll need to update the `ruby-build` plugin. As such, let's pull in the latest Ruby version definition:
+
+~~~bash
+git -C "$(rbenv root)"/plugins/ruby-build pull
+~~~
+
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
 
