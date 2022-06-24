@@ -194,7 +194,7 @@ Now you're ready to install Ruby. We're going to use a tool called `rbenv`, whic
 To install `rbenv`, run the following in your terminal:
 
 ~~~bash
-brew install rbenv
+brew install rbenv ruby-build
 ~~~
 
 Then, run this command:
@@ -263,6 +263,18 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ~~~
 
 If you don't see the output above, log off and log back on, then try again.
+
+If you've already installed `rbenv`, we'll need to install `ruby-build`:
+
+~~~bash
+brew install ruby-build
+~~~
+
+If you've already installed `ruby-build`, we'll need to update it:
+
+~~~bash
+brew upgrade ruby-build
+~~~
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
