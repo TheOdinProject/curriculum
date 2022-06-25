@@ -26,7 +26,7 @@ end
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Introduction'
-  section.description = "This section will introduce you to the world of web development and The Odin Project."
+  section.description = 'This section will introduce you to the world of web development and The Odin Project.'
   section.identifier_uuid = '472bf0bc-2667-4206-84ea-43498b1d67f9'
 
   section.add_lessons(
@@ -39,7 +39,7 @@ course.add_section do |section|
 end
 
 # +++++++++++++++++++++++++++++++
-# SECTION - Prerequisites 
+# SECTION - Prerequisites
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Prerequisites'
