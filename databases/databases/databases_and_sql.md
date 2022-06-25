@@ -52,7 +52,7 @@ Look through these now and then use them to test yourself after doing the assign
 * `ORDER BY`
 * `COUNT`
 
-#### Functions
+#### Functions:
 * `GROUP BY`
 * `HAVING`
 * `AVG`
@@ -61,7 +61,7 @@ Look through these now and then use them to test yourself after doing the assign
 * `MAX`
 * `SUM`
 
-#### Other Stuff
+#### Other Stuff:
 * What are Indexes good for?
 * What's the difference between `WHERE` and `HAVING`?
 
@@ -87,7 +87,7 @@ Once your database is set up and you've got empty tables to work with, you use S
 
 <span id='command-parts'>Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses")</span>.  If you just do an action on a table without specifying conditions, it will apply to the whole database and you'll probably break something.
 
-For "Destroy" queries, the classic mistake is typing `DELETE * FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE * FROM users WHERE users.id = 1`.  You can do all kinds of common sense things like using `>`, `<`, `<=` etc. comparison operators to specify groups of rows to run commands on or logical operators like `AND`, `OR`, `NOT` etc to chain multiple clauses together, e.g. `DELETE * FROM users WHERE id > 12 AND name = 'foo'`.
+For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things like using `>`, `<`, `<=` etc. comparison operators to specify groups of rows to run commands on or logical operators like `AND`, `OR`, `NOT` etc to chain multiple clauses together, e.g. `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
 
 "Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into and then which values to put in those columns, which looks something like `INSERT INTO Users (name, email) VALUES ('foobar','foo@bar.com');`.  This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
 
@@ -177,7 +177,7 @@ The next step, once you've had a chance to practice this all in the project, is 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* Odinite Hunter D made his excellent notes into a [GitHub Book on SQL](https://app.gitbook.com/@hunter-ducharme/s/sql-basics/) which you should totally check out if you want a decent resource.
+* Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
 * [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
 * [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
 * [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.

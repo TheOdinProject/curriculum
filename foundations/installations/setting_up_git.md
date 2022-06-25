@@ -71,6 +71,8 @@ This will install the latest version of Git. Easy, right?
 
 #### Step 1.2: Verify version
 
+If you have just installed and/or updated Git from the previous step, first close that terminal window.
+  
 **Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
 
 ~~~bash
@@ -124,6 +126,13 @@ To verify that things are working properly, enter these commands and verify whet
 ~~~bash
 git config --get user.name
 git config --get user.email
+~~~
+
+**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure GitHub to ignore them, pesky .DS_Store files will show up in your commits.
+
+~~~bash
+echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 ~~~
 
 #### Step 2.2: Create a GitHub Account or Sign In
@@ -180,3 +189,9 @@ Follow the directions in [this article from GitHub](https://help.github.com/en/a
 You've completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!
 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -24,4 +24,4 @@ In this lesson you will learn all of the different ways you can undo changes wit
 
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-* [A very techincal explanation of git reset from pro git](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) 
+* [A very techincal explanation of git reset from pro git](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)

@@ -257,7 +257,7 @@ Currently there is a bug preventing CloudReady v83.4 from successfully installin
 #### Why Google Chrome?
 
 Because our lessons use Google Chrome, and Chrome/Chromium are overwhelmingly used by developers and consumers, the recommendations we make are very intentional.
-Look at this [breakdown of browser market shares](https://gs.statcounter.com/browser-market-share#monthly-202110-202110-bar) and see what other folks are using the most
+Look at this [usage share of web browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables) and see what other folks are using the most.
 
 Choose your Operating System:
 
@@ -328,3 +328,9 @@ google-chrome
    - Double click **Google Chrome**
 
 </details>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -1,4 +1,6 @@
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Creating objects.
 - Accessing object properties.
@@ -32,13 +34,22 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 - getTheTitles
 - findTheOldest
 
+Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) for a refresher.
+
 Note: Solutions for these exercises can be found in the 'solutions' branch of that repo
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
 - <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is `Array.prototype.map()` useful for?</a>
 - <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is `Array.prototype.reduce()` useful for?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   Learn about the 'arguments' object on this [page about function parameters](https://www.w3schools.com/js/js_function_parameters.asp).
