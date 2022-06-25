@@ -331,5 +331,12 @@ def foundation_lessons
       identifier_uuid: 'cb20c3d0-7342-4769-b10c-61d1de11af02',
       installation_lesson: true,
     },
+    'Computer Basics' => {
+      title: 'Computer Basics',
+      description: 'Learn the basics of using your computer',
+      is_project: false,
+      github_path: '/foundations/installations/computer_basics.md',
+      identifier_uuid: 'f23e289e-8134-4ec6-9ea1-31148661e609',
+    }
   }
 end

@@ -48,6 +48,7 @@ course.add_section do |section|
   section.identifier_uuid = 'a6ff8570-b301-4275-8cb4-1847a8f8ae25'
 
   section.add_lessons(
+    foundation_lessons.fetch('Computer Basics'),
     foundation_lessons.fetch('Installation Overview'),
     foundation_lessons.fetch('Prerequisites'),
     foundation_lessons.fetch('Text Editors'),
