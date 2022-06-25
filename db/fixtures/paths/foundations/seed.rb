@@ -26,7 +26,7 @@ end
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Introduction'
-  section.description = "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development."
+  section.description = "This section will introduce you to the world of web development and The Odin Project."
   section.identifier_uuid = '472bf0bc-2667-4206-84ea-43498b1d67f9'
 
   section.add_lessons(
@@ -35,22 +35,22 @@ course.add_section do |section|
     foundation_lessons.fetch('Motivation and Mindset'),
     foundation_lessons.fetch('Asking For Help'),
     foundation_lessons.fetch('Join the Odin Community'),
-    foundation_lessons.fetch('How Does the Web Work?'),
   )
 end
 
 # +++++++++++++++++++++++++++++++
-# SECTION - Installations
+# SECTION - Prerequisites 
 # +++++++++++++++++++++++++++++++
 course.add_section do |section|
-  section.title = 'Installations'
-  section.description = 'In this section you will configure your development environment and install some software necessary for web development.'
+  section.title = 'Prerequisites'
+  section.description = 'In this section you\'ll acquire the baseline knowledge before getting into programming. Additionally, you\'ll configure your development environment and install some software necessary for web development.'
   section.identifier_uuid = 'a6ff8570-b301-4275-8cb4-1847a8f8ae25'
 
   section.add_lessons(
     foundation_lessons.fetch('Computer Basics'),
+    foundation_lessons.fetch('How Does the Web Work?'),
     foundation_lessons.fetch('Installation Overview'),
-    foundation_lessons.fetch('Prerequisites'),
+    foundation_lessons.fetch('Installations'),
     foundation_lessons.fetch('Text Editors'),
     foundation_lessons.fetch('Command Line Basics'),
     foundation_lessons.fetch('Setting Up Git'),

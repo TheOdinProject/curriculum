@@ -39,7 +39,7 @@ def foundation_lessons
       title: 'How Does the Web Work?',
       description: "It's tough to program web sites without understanding how the web actually works!",
       is_project: false,
-      github_path: '/foundations/introduction/how_does_the_web_work.md',
+      github_path: '/foundations/installations/how_does_the_web_work.md',
       identifier_uuid: '1218a4a0-c92e-465b-b7c5-322ca5731a5f',
     },
     'Installation Overview' => {
@@ -50,11 +50,11 @@ def foundation_lessons
       identifier_uuid: 'ef45c208-6ebf-4fff-ba92-1d7584d3a9f2',
       installation_lesson: true,
     },
-    'Prerequisites' => {
-      title: 'Prerequisites',
+    'Installations' => {
+      title: 'Installations',
       description: 'Before we can install Ruby and Rails...',
       is_project: false,
-      github_path: '/foundations/installations/prerequisites.md',
+      github_path: '/foundations/installations/installations.md',
       identifier_uuid: '93dbf0e1-3c06-46a8-8640-1d537e2e723b',
       installation_lesson: true,
     },
