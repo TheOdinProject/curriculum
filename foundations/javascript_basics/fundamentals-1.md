@@ -59,7 +59,7 @@ You can think of variables as simply "storage containers" for data in your code.
 
 1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
 
-The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now.</span> The precise differences between `var` and `let` will be explained later.
+The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you. Just stick to `let` (and `const`) for now.</span> The precise differences between `var` and `let` will be explained later.
 
 ### Numbers
 
@@ -79,10 +79,10 @@ Try the following exercises (and don't forget to use `console.log()`!):
 3. Print the solution to the following equation: `(4 + 6 + 9) / 77`
    1. Answer should be approximately `0.24675`
 4. Let's use variables!
-   1. Type the following at the top of the script tag: `let a = 10`
+   1. Type the following at the top of the script tag: `const a = 10`
    2. In the console `console.log(a)` should print `10`
    3. Try the following: `9 * a`
-   4. and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
+   4. and this: `const b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:
    1. Declare a constant variable `max` with the value `57`
    2. Set another variable `actual` to `max - 13`
@@ -90,7 +90,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
    4. If you type `percentage` in the console and press enter you should see a value like `0.7719`
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
-_* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
+_* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `const b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
 </div>
 
 ### Additional Resources
