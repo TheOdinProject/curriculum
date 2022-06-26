@@ -23,8 +23,6 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 
 ### Assignment
 
-You have been through a _ton_ of content, and it would not be surprising if you were feeling rather overwhelmed at this point.  Let's take a little time to slow down and practice this stuff with more coding exercises.  I'll warn you now: some of these get pretty difficult, but if you've done the lessons you should have covered everything you need to know to solve them.  Don't be afraid to go back and review if you find that you can't remember something, that's part of the process.  If you get stuck come join us in the chatroom!
-
 <div class="lesson-content__panel" markdown="1">
 At this point you just need a little more practice!  Go back to the [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the Fundamentals 4 project and complete the following:
 
