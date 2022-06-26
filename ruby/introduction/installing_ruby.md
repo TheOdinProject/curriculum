@@ -149,8 +149,6 @@ where x represents the version available at the time you installed Ruby.
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
 
-
-
 </details>
 
 
@@ -264,6 +262,14 @@ rbenv install 3.1.2 --verbose
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
+#### Updating a Previous Install
+
+If you've already installed `ruby-build`, we may have to update it:
+
+~~~bash
+brew upgrade ruby-build
+~~~
+
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
@@ -279,21 +285,7 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 
 If you don't see the output above, log off and log back on, then try again.
 
-If you've already installed `rbenv`, we'll need to install `ruby-build`:
-
-~~~bash
-brew install ruby-build
-~~~
-
-If you've already installed `ruby-build`, we'll need to update it:
-
-~~~bash
-brew upgrade ruby-build
-~~~
-
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
-
 
 
 </details>
