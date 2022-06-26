@@ -62,7 +62,7 @@ h1 {
 }
 ~~~
 
-This method _may_ be more reliable than relying on an third-party font API, but it is always wise to include a fallback.
+This method _may_ be more reliable than relying on a third-party font API, but it is always wise to include a fallback.
 
 ### Text Styles
 You learned the basics of manipulating fonts in our foundations lessons, but there is quite a bit more that you can do with CSS when it comes to manipulating text styles. These rules are all relatively simple and self-explanatory. You can refer to the docs for any questions you might have.

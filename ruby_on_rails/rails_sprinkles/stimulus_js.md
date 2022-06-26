@@ -185,7 +185,7 @@ export default class extends Controller {
 }
 ~~~
 
-So here we declare a count value that we then interact with: the `countValueChanges` function will automatically be
+So here we declare a count value that we then interact with: the `countValueChanged` function will automatically be
 called whenever the value changes. As we said Stimulus is HTML first. So the HTML actually shows the value on the 
 element where the controller lives:
 

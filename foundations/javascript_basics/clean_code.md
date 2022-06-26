@@ -1,4 +1,4 @@
-### Writing Clean Code
+### Introduction
 
 Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
@@ -9,6 +9,8 @@ This section contains a general overview of topics that you will learn in this l
 - Know how to distinguish hard to read code from easy to read code.
 - Use programming principles to make your code cleaner.
 - Write good comments.
+
+### Writing Clean Code
 
 Consider the following two snippets of JavaScript:  
 

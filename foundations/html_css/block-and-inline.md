@@ -57,7 +57,7 @@ Span is an inline-level element by default. It can be used to group text content
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "margin-and-padding-1" and "margin-and-padding-2".
+1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2".
 
 </div>
 
