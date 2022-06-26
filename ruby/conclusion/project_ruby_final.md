@@ -26,4 +26,5 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
 * [Chess notation for humans and computers](https://en.wikipedia.org/wiki/Chess_notation)
-* [A series of hints from RubyQuiz](http://rubyquiz.com/quiz35.html), where this was one of their challenges.  You don't need these.  Resist the temptation!
+* If you're feeling stuck, you should vist the community Discord!
+* You don't need this...  resist the temptation! Here is [a discussion of this problem from RubyQuiz](http://rubyquiz.com/quiz35.html). Be warned, this resource contains a blueprint for how to complete this project. That means, if you decide to peruse it, you won't get the opportunity to dig into this problem.
