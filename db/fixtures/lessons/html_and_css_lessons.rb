@@ -72,20 +72,6 @@ def html_and_css_lessons
       github_path: '/html_css/intermediate_html/emmet.md',
       identifier_uuid: '71254f29-7f01-47b3-b621-2a664d368675'
     },
-    'Form Basics' => {
-      title: 'Form Basics',
-      description: 'Learn the basics of creating forms in HTML.',
-      is_project: false,
-      github_path: '/html_css/intermediate_html/form-basics.md',
-      identifier_uuid: '6029885a-94d7-4f8b-a558-f9b1d4f6beef'
-    },
-    'Form Validation' => {
-      title: 'Form Validation',
-      description: 'Learn the basics of validating forms in HTML.',
-      is_project: false,
-      github_path: '/html_css/intermediate_html/form-validations.md',
-      identifier_uuid: '969ae828-9847-416e-b978-64a75dc26a5c'
-    },
     'SVG' => {
       title: 'SVG',
       description: 'SVG is neat!',
@@ -171,15 +157,6 @@ def html_and_css_lessons
       github_path: '/html_css/intermediate_css/frameworks-preprocessors.md',
       identifier_uuid: '6bcc2cd9-8816-4481-bafb-7208fb1108a4'
     },
-    'Sign-up Form' => {
-      title: 'Sign-up Form',
-      description: 'Learn about how browsers style your HTML.',
-      is_project: true,
-      accepts_submission: true,
-      has_live_preview: true,
-      github_path: '/html_css/project-sign-up-form/project-sign-up-form.md',
-      identifier_uuid: '91ab41f2-9c9d-449a-8461-329a5f7ecb1e'
-    },
     # Animation
     'Transforms' => {
       title: 'Transforms',
@@ -201,6 +178,30 @@ def html_and_css_lessons
       is_project: false,
       github_path: '/advanced_html_css/animation/keyframes.md',
       identifier_uuid: 'b57040da-48a4-4af6-9e0e-abc67deb3b07'
+    },
+    # Forms
+    'Form Basics' => {
+      title: 'Form Basics',
+      description: 'Learn the basics of creating forms in HTML.',
+      is_project: false,
+      github_path: '/html_css/forms/form-basics.md',
+      identifier_uuid: '6029885a-94d7-4f8b-a558-f9b1d4f6beef'
+    },
+    'Form Validation' => {
+      title: 'Form Validation',
+      description: 'Learn the basics of validating forms in HTML.',
+      is_project: false,
+      github_path: '/html_css/forms/form-validations.md',
+      identifier_uuid: '969ae828-9847-416e-b978-64a75dc26a5c'
+    },
+    'Sign-up Form' => {
+      title: 'Sign-up Form',
+      description: 'Learn about how browsers style your HTML.',
+      is_project: true,
+      accepts_submission: true,
+      has_live_preview: true,
+      github_path: '/html_css/project-sign-up-form/project-sign-up-form.md',
+      identifier_uuid: '91ab41f2-9c9d-449a-8461-329a5f7ecb1e'
     },
     # Grid
     'Introduction to Grid' => {

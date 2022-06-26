@@ -20,8 +20,6 @@ course.add_section do |section|
   section.add_lessons(
     html_and_css_lessons.fetch('Introduction'),
     html_and_css_lessons.fetch('Emmet'),
-    html_and_css_lessons.fetch('Form Basics'),
-    html_and_css_lessons.fetch('Form Validation'),
     html_and_css_lessons.fetch('SVG'),
     html_and_css_lessons.fetch('Tables'),
   )
@@ -46,6 +44,20 @@ course.add_section do |section|
     html_and_css_lessons.fetch('Custom Properties'),
     html_and_css_lessons.fetch('Browser Compatibility'),
     html_and_css_lessons.fetch('Frameworks and Preprocessors'),
+  )
+end
+
+# +++++++++++++++++++++++++++++++++++++++
+# SECTION - Forms
+# +++++++++++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'Forms'
+  section.description = "Forms are a crucial building block for getting input from your users. In this section you'll learn some of the basics you'll need to create a functioning form."
+  section.identifier_uuid = 'c99dbcec-f515-11ec-b939-0242ac120002'
+
+  section.add_lessons(
+    html_and_css_lessons.fetch('Form Basics'),
+    html_and_css_lessons.fetch('Form Validation'),
     html_and_css_lessons.fetch('Sign-up Form'),
   )
 end
