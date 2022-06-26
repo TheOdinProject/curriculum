@@ -106,7 +106,27 @@ rbenv install 3.1.2 --verbose
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
-When the last command is finished, set the Ruby version and verify that it's working:
+#### Troubleshooting
+
+You may get this error message:
+
+~~~bash
+ruby-build: definition not found: x.x.x
+
+See all available versions with `rbenv install --list'.
+
+If the version you need is missing, try upgrading ruby-build:
+
+  git -C /home/itorja/.rbenv/plugins/ruby-build pull
+~~~
+
+We could try running the suggested command accordingly:
+
+~~~bash
+git -C "$(rbenv root)"/plugins/ruby-build pull
+~~~
+
+Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
 rbenv global 3.1.2
@@ -125,11 +145,6 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
-If you've already installed `rbenv`, we'll need to update the `ruby-build` plugin. As such, let's pull in the latest Ruby version definition:
-
-~~~bash
-git -C "$(rbenv root)"/plugins/ruby-build pull
-~~~
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
