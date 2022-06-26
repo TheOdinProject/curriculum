@@ -84,7 +84,7 @@ Your Multiple Lines of Colorful Code
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-  2. Now, Sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
+  2. Now, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
   
      * **Link your GitHub to your Discord profile:** `Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile"` is toggled on. So others can see what you're working on and vice versa! 
 
