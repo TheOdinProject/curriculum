@@ -10,7 +10,7 @@ gem 'active_material', '~> 1.5'
 gem 'acts_as_votable', '~> 0.13'
 gem 'bootsnap', '~> 1.12', require: false
 gem 'bootstrap', '4.6.0'
-gem 'cancancan', '~> 3.3'
+gem 'cancancan', '~> 3.4'
 gem 'devise', '~> 4.8'
 gem 'discard', '~> 1.2'
 gem 'discordrb-webhooks', '~> 3.4'
