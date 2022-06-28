@@ -33,7 +33,9 @@ Read through the npm links below but don't worry about running any of the comman
 1. Take a couple minutes to read the [About npm](https://docs.npmjs.com/getting-started/what-is-npm) page - a great introduction to npm.
 2. [This tutorial](https://docs.npmjs.com/downloading-and-installing-packages-locally) teaches you how to install packages with npm.
 3. [This tutorial](https://docs.npmjs.com/creating-a-package-json-file) covers the `package.json` file, which you can use to manage your project's dependencies.
-4. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
+4. Read [this article on development dependencies](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege) to learn what they are and how to use them.
+5. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
+
 
 ### Yarn?
 
