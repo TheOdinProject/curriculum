@@ -286,7 +286,7 @@ Let's take a look at a few quick examples to visualize how specificity works.
 
 ~~~css
 /* rule 1 */
-.subsection {
+.list {
   color: blue;
 }
 
