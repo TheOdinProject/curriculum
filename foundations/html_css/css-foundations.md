@@ -413,7 +413,7 @@ Really simply, actually. Whichever rule was the *last* defined is the winner.
   color: red;
 }
 
-.warning {
+.alert {
   color: yellow;
 }
 ~~~
