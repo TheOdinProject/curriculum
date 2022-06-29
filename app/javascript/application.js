@@ -16,7 +16,7 @@
 
 import Rails from '@rails/ujs';
 
-import '../layouts/application.css';
+import './layouts/application.css';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -25,19 +25,19 @@ import 'hint.css/hint.min.css';
 import 'notyf/notyf.min.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-import '../src/js/analytics';
-import '../src/js/axiosWithCsrf';
-import '../src/js/formValidations';
-import '../src/js/lessons';
-import '../src/js/bootstrapScripts';
-import '../src/js/settings';
-import '../src/js/scrollspy.min';
+import './src/js/analytics';
+import './src/js/axiosWithCsrf';
+import './src/js/formValidations';
+import './src/js/lessons';
+import './src/js/bootstrapScripts';
+import './src/js/settings';
+import './src/js/scrollspy.min';
 
 import 'controllers';
 
 Rails.start();
 
-const componentRequireContext = require.context('components', true);
+const componentRequireContext = require.context('./components', true);
 const ReactRailsUJS = require('react_ujs');
 
 ReactRailsUJS.useContext(componentRequireContext);

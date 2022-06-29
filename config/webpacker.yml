@@ -1,22 +1,20 @@
-# Note: You must restart bin/webpack-dev-server for changes to take effect
+# Note: You must restart bin/webpacker-dev-server for changes to take effect
 
 default: &default
   source_path: app/javascript
-  source_entry_path: packs
+  source_entry_path: /
   public_root_path: public
   public_output_path: packs
-  cache_path: tmp/cache/webpacker
-  check_yarn_integrity: false
+  cache_path: tmp/webpacker
   webpack_compile_output: true
 
-  # Additional paths webpack should lookup modules
+  # Additional paths webpack should look up modules
+  # ['app/assets', 'engine/foo/app/assets']
   additional_paths: ["app/components"]
-  resolved_paths: []
 
   # Reload manifest.json on all requests so we reload latest compiled packs
   cache_manifest: false
-
-  # Extract and emit a css file
+  
   extract_css: true
 
   static_assets_extensions:
@@ -49,32 +47,37 @@ default: &default
     - .jpeg
     - .jpg
 
-development: &development
+development:
   <<: *default
   compile: true
-
-  # Verifies that correct packages and versions are installed by inspecting package.json, yarn.lock, and node_modules
-  check_yarn_integrity: true
 
   # Reference: https://webpack.js.org/configuration/dev-server/
   dev_server:
     https: false
     host: localhost
     port: 3035
-    public: localhost:3035
+    # Hot Module Replacement updates modules while the application is running without a full reload
     hmr: false
-    # Inline should be set to true if using HMR
-    inline: true
-    overlay: true
+    # Defaults to the inverse of hmr. Uncomment to manually set this.
+    # live_reload: true
+    client:
+      # Should we show a full-screen overlay in the browser when there are compiler errors or warnings?
+      overlay: true
+      # May also be a string
+      # webSocketURL:
+      #  hostname: "0.0.0.0"
+      #  pathname: "/ws"
+      #  port: 8080
+    # Should we use gzip compression?
     compress: true
-    disable_host_check: true
-    use_local_ip: false
-    quiet: false
-    pretty: false
+    # Note that apps that do not check the host are vulnerable to DNS rebinding attacks
+    allowed_hosts: "all"
+    pretty: true
     headers:
       'Access-Control-Allow-Origin': '*'
-    watch_options:
-      ignored: '**/node_modules/**'
+    static:
+      watch:
+        ignored: '**/node_modules/**'
 
 test:
   <<: *default
@@ -88,9 +91,6 @@ production:
 
   # Production depends on precompilation of packs prior to booting for performance.
   compile: false
-
-  # Extract and emit a css file
-  extract_css: true
 
   # Cache manifest.json for performance
   cache_manifest: true

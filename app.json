@@ -13,6 +13,9 @@
           "url": "https://github.com/carwow/heroku-buildpack-cacheload.git"
         },
         {
+          "url": "heroku/nodejs"
+        },
+        {
           "url": "heroku/ruby"
         },
         {
