@@ -150,6 +150,14 @@
     margin-bottom: 30px;
   }
 
+  .gold-border {
+    border: 1px solid $primary;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left-width: 10px;
+    margin: 2rem 0;
+  }
+
   .knowledge-check-link {
     color: $primary;
     text-decoration: underline;
