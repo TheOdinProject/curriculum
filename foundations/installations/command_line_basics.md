@@ -50,7 +50,7 @@ This section contains a general overview of topics that you will learn in this l
     
 2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
 
-3. In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
+3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
     1. Create a new directory in your home directory with the name `test`.
     2. Navigate to the `test` directory.
