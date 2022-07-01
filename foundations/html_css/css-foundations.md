@@ -312,7 +312,7 @@ Now, let's change things a little bit:
 <!-- index.html -->
 
 <div class="main">
-  <div class="list", property="subsection"></div>
+  <div class="list" id="subsection"></div>
 </div>
 ~~~
 ~~~css
