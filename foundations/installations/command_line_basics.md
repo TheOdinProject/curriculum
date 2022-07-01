@@ -59,7 +59,7 @@ This section contains a general overview of topics that you will learn in this l
     5. Navigate back out of the `test` directory.
     6. Delete the `test` directory.
 
-    That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
+    That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 </div>
 
