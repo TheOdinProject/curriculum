@@ -77,7 +77,7 @@ h1 {
 ~~~
 
 #### letter-spacing
-Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. Can also be aesthetically pleasing in some cases, like headers.
+Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. It can also be aesthetically pleasing in some cases, like headers.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWomjGr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWomjGr">
@@ -89,7 +89,7 @@ Letter spacing does what you would expect.... it changes the space between lette
 Obviously, use this sparingly and with care. Do not make your site hard to read!
 
 #### line-height
-Line height adjusts the space between lines in wrapped text. Adding a little line-height can increase readability
+Line height adjusts the space between lines in wrapped text. Adding a little line-height can increase readability.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="vYZmXzY" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYZmXzY">
@@ -101,7 +101,7 @@ Line height adjusts the space between lines in wrapped text. Adding a little lin
 #### text-transform
 Text transform simply changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
 
-Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
 
 #### text-shadow
 As you might expect, `text-shadow` adds a shadow around the text in the selected element. This one is best used sparingly, but can be used to great effect in headings or other presentational text.
