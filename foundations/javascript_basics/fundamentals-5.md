@@ -1,4 +1,6 @@
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Creating objects.
 - Accessing object properties.
@@ -19,26 +21,33 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos.  To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
 2. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
 
-### Practice
-
-You have been through a _ton_ of content, and it would not be surprising if you were feeling rather overwhelmed at this point.  Let's take a little time to slow down and practice this stuff with more coding exercises.  I'll warn you now: some of these get pretty difficult, but if you've done the lessons you should have covered everything you need to know to solve them.  Don't be afraid to go back and review if you find that you can't remember something, that's part of the process.  If you get stuck come join us in the chatroom!
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 At this point you just need a little more practice!  Go back to the [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the Fundamentals 4 project and complete the following:
 
-- calculator
-- palindromes
-- fibonacci
-- getTheTitles
-- findTheOldest
+* calculator
+* palindromes
+* fibonacci
+* getTheTitles
+* findTheOldest
+
+Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) for a refresher. If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our Discord!
 
 Note: Solutions for these exercises can be found in the 'solutions' branch of that repo
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
 - <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is `Array.prototype.map()` useful for?</a>
 - <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is `Array.prototype.reduce()` useful for?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   Learn about the 'arguments' object on this [page about function parameters](https://www.w3schools.com/js/js_function_parameters.asp).

@@ -8,10 +8,12 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
 1.   Use `express-generator` to set up a basic project using whichever templating language you prefer. If you want, you can set it all up manually -- it doesn't really take that much longer.
      * Hint: here are links to some of the more popular templating language docs: [PUG](https://pugjs.org/api/getting-started.html), [EJS](https://ejs.co/#docs), [Handlebars](https://handlebarsjs.com/guide/)
-2.  Initialize a Git repo in your project directory with       
+2.   Initialize a Git repo in your project directory with
+     
      ~~~bash
      git init
      ~~~
+     
      Create a `.gitignore` file in your project directory that includes `node_modules`.  
 3.   We are going to have 2 routes, the index (`"/"`) and a new-message form (`"/new"`). The generator already created a router for our index, so find that file and open it up.  It can be found at `routes/index.js`. There is already a `router.get()` method for `"/"` that should be rendering your index view, so lets add some messages to it.
 4.   Create an array at the top of your index router called `messages` and put a couple of sample messages inside of it like this:

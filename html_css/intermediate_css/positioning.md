@@ -9,7 +9,7 @@ By now you have had quite a bit of practice moving elements around the screen us
  - You'll know the difference between each property and how to combine them.
 
 ### Static and Relative Positioning
-The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``ri....(etc.)`` displace the element relative to it’s normal position in the flow of the document.
+The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``ri....(etc.)`` displace the element relative to its normal position in the flow of the document.
 
 ### Absolute Positioning
 ``position: absolute`` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in simple terms: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  ``top``, ``right``, ``bottom``, and ``left`` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are: 
@@ -43,11 +43,14 @@ Sticky elements will act like normal elements until you scroll past them, then t
 4. Finally, <a href="https://www.kevinpowell.co/article/positition-fixed-vs-sticky/">this article</a> discusses the difference between fixed and sticky positioning, it's a great read to understand the difference better.
 </div>
 
-### Additional Resources
-
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#static-and-relative-positioning">What is the difference between static and relative positioning?</a>
 - <a class="knowledge-check-link" href="#absolute-positioning">What is absolute positioning useful for?</a>
 - <a class="knowledge-check-link" href="https://www.kevinpowell.co/article/positition-fixed-vs-sticky/">What is the difference between fixed and sticky positioning?</a>
+
+### Additional Resources
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

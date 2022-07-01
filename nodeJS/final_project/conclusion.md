@@ -25,11 +25,11 @@ Caching makes your application faster by reducing database calls. Check out this
 
 Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://www.digitalocean.com/docs/droplets/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
 
-A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal. 
+A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
 
 #### Relational Data
 
-Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/courses/databases) is a great place to start to digging into relational databases and SQL.
+Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/paths/full-stack-ruby-on-rails/courses/databases) is a great place to start to digging into relational databases and SQL.
 
 ### Other Resources
 

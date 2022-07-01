@@ -1,4 +1,6 @@
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Using arrays.
 * Using built-in array methods.
@@ -27,7 +29,7 @@ In many ways, TDD is much more productive than writing code without tests. If we
 
 We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
 
-### Practice
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 Follow the steps below to get started. Once you complete Step 1, be sure to use the README for **_each individual exercise_** in order to do them correctly.
@@ -41,12 +43,18 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
    - sumAll
    - leapYears
    - tempConversion
-3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the 'solutions' branch of the repo.
+3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the ['solutions' branch](https://github.com/TheOdinProject/javascript-exercises/tree/solutions) of the repo.
 </div>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What is an array?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_arrays.asp">What are arrays useful for?</a>
