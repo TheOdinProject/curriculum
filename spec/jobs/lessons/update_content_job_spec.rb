@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe UpdateLessonContentJob do
+RSpec.describe Lessons::UpdateContentJob do
   subject(:job) { described_class.new }
 
   describe '#perform' do
