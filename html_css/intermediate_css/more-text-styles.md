@@ -6,7 +6,7 @@ You've already done a bit of text-manipulation in our Foundations lessons. This 
 * You'll learn some more text-related css properties.
 
 ### Fonts
-In our foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
+In our Foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
 
 #### The System Font Stack
  If you use the `font-family` property to change to a font like `impact` or `Times New Roman`, and those fonts do not happen to be installed on your user's computer, then a fallback font will be displayed.  If you have not defined a fallback, then the default HTML font will be used, which is often somewhat ugly. For this reason, it's common to see somewhat long stacks of fonts listed on projects. 
@@ -65,7 +65,7 @@ h1 {
 This method _may_ be more reliable than relying on an third-party font API, but it is always wise to include a fallback.
 
 ### Text Styles
-You learned the basics of manipulating fonts in our foundations lessons, but there is quite a bit more that you can do with CSS when it comes to manipulating text styles. These rules are all relatively simple and self-explanatory. You can refer to the docs for any questions you might have.
+You learned the basics of manipulating fonts in our Foundations lessons, but there is quite a bit more that you can do with CSS when it comes to manipulating text styles. These rules are all relatively simple and self-explanatory. You can refer to the docs for any questions you might have.
 
 #### font-style
 Typically used to make a font italic. You learned about the HTML `<em>` tag which uses an italic font, but `<em>` _also_ signifies that the text it wraps is significant, or should be emphasized in some way. A good rule of thumb to follow is that if you just want text to be italic (or bold, underlined, highlighted, etc.), use a CSS property. Otherwise if text should have some sort of semantic emphasis, use the correct HTML element. For example, if you want all your header text to be italic you should use `font-style` to accomplish this. If you want some text in the _middle of a sentence_ to appear italic in order to emphasize that text, it is appropriate to use an `em` element.
