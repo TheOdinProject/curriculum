@@ -53,7 +53,6 @@ Note: Feel free to browse the files on the left column in order to gain familiar
   * You will be working out of math.js  
 - [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
   * You will be working out of follow.js
-
 </div>
 
 ### Additional Resources
