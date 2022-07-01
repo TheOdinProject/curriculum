@@ -43,7 +43,7 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
 ~~~html
-<a href="https://www.theodinproject.com/about">click me</a>
+<a href="https://wwww.theodinproject.com/about">click me</a>
 ~~~
 
 By default, any text wrapped with an anchor tag without a `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
@@ -63,7 +63,7 @@ Links to pages on other websites on the internet are called absolute links. A ty
 
 We've already seen an absolute link in action. The link we created to The Odin Project's About page earlier was an absolute link as it contains the protocol and domain.
 
-`https://www.theodinproject.com/about`
+`https://wwww.theodinproject.com/about`
 
 #### Relative Links
 
