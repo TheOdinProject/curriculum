@@ -14,13 +14,13 @@ RSpec.describe 'Selecting Paths', type: :system do
       visit paths_path
 
       expect(find(:test_id, 'foundations-resume-path-btn').text).to eq('Resume')
-      expect(find(:test_id, 'rails-select-path-btn').value).to eq('Select')
+      expect(find(:test_id, 'rails-select-path-btn').text).to eq('Select')
 
       find(:test_id, 'rails-select-path-btn').click
 
-      expect(page).to have_css '.alert-success'
-      expect(find(:test_id, 'flash')).to have_text 'You have selected the Rails path'
-      expect(user.reload.path).to eq rails_path
+      expect(page).to have_css('.alert-success')
+      expect(find(:test_id, 'flash')).to have_text('You have selected the Rails path')
+      expect(user.reload.path).to eq(rails_path)
     end
   end
 
@@ -29,9 +29,9 @@ RSpec.describe 'Selecting Paths', type: :system do
       visit path_path(rails_path)
       find(:test_id, 'rails-select-path-btn').click
 
-      expect(page).to have_css '.alert-success'
-      expect(find(:test_id, 'flash')).to have_text 'You have selected the Rails path'
-      expect(user.reload.path).to eq rails_path
+      expect(page).to have_css('.alert-success')
+      expect(find(:test_id, 'flash')).to have_text('You have selected the Rails path')
+      expect(user.reload.path).to eq(rails_path)
     end
   end
 end

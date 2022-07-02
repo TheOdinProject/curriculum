@@ -1,0 +1,9 @@
+<% if current_user.on_path?(path) %>
+  <%= button_to path_url(path), method: :get, class: "button button--primary #{classes}", data: { test_id: "#{path.title.downcase}-resume-path-btn" } do %>
+    Resume
+  <% end %>
+<% else %>
+  <%= button_to users_paths_path(path_id: path.id), class: "button button--primary #{classes}", data: { test_id: "#{path.title.downcase}-select-path-btn" } do %>
+    Select
+  <% end %>
+<% end %>

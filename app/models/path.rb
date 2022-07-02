@@ -12,6 +12,8 @@ class Path < ApplicationRecord
   validates :description, presence: true
   validates :position, presence: true
 
+  scope :fullstack_paths, -> { where.not(default_path: true) }
+
   def self.default_path
     find_by(default_path: true)
   end

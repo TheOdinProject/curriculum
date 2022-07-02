@@ -5,7 +5,7 @@ module Seeds
   class PathSeeder
     include Helpers
 
-    attr_accessor :identifier_uuid, :title, :description, :position, :default_path, :short_title
+    attr_accessor :identifier_uuid, :title, :description, :position, :default_path, :short_title, :badge_uri
 
     def initialize
       @seeded_courses = []
@@ -18,7 +18,7 @@ module Seeds
       new(&)
     end
 
-    def path
+    def path # rubocop:disable Metrics/AbcSize
       @path ||= ::Path.seed(:identifier_uuid) do |path|
         path.identifier_uuid = identifier_uuid
         path.title = title
@@ -26,6 +26,7 @@ module Seeds
         path.description = description
         path.position = position
         path.default_path = default_path || false
+        path.badge_uri = badge_uri
       end.first
     end
 

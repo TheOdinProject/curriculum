@@ -1,65 +1,75 @@
 <%= title("All Paths") %>
 
-<div class="paths curriculum-background">
-  <div class="container tmp-container-spacer">
-    <h1 class="page-heading-title">All Paths</h1>
-    <% @paths.each do |path| %>
-      <% if path.title === 'Foundations' %>
-        <div class='card-main card-main--clickable'>
-          <%= link_to '', path, class: 'card-main__link' %>
-          <div class="card-main__header">
-            <div>
-              <h2 class="foundations-title mb-2"><%= path.title %></h2>
-              <h3 class="text-2xl">Start here!</h3>
-            </div>
-            <% if current_user.nil? %>
-              <%= link_to 'View Path', path_url(path), class: 'button button--secondary px-10 card-main__button' %>
-            <% elsif current_user.path === path %>
-              <%= link_to 'Resume', path_url(path), class: 'button button--primary px-10 card-main__button', data: { test_id: "#{path.title.downcase}-resume-path-btn"  } %>
-            <% else %>
-              <%= button_to 'Select', users_paths_path(path_id: path.id), class: 'button button--secondary px-10 card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...' } %>
-            <% end %>
-          </div>
-          <div class="card-main__description">
-            <% if path.prerequisites.any? %>
-              <p class="card-main__prerequisites">
-                <strong>Prerequisites: <%= prerequisites_list_for(path).html_safe %></strong>
-              </p>
-            <% end %>
-            <p><%= path.description%></p>
-          </div>
+<div class="content-container-lg">
+  <h1 class="page-heading-title">All Paths</h1>
+
+  <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+    <% card.header(classes: 'flex justify-between items-center flex-col sm:flex-row space-y-4 sm:space-y-0') do %>
+      <div class="flex flex-col space-y-5 sm:space-x-6 sm:space-y-0 sm:flex-row items-center">
+        <%= link_to path_path(@foundations) do %>
+          <%= image_tag @foundations.badge_uri, alt: "#{@foundations.title} badge", class: 'w-24 h-24' %>
+        <% end %>
+        <div class="flex items-center flex-col sm:block">
+          <h3 class="text-1xl mb-1 text-gold-600">START HERE</h3>
+          <%= link_to path_path(@foundations), class: "no-underline" do %>
+            <h2 class="text-3xl font-semibold">Foundations</h2>
+          <% end %>
         </div>
-      <% end %>
+      </div>
     <% end %>
 
-    <hr>
+    <% card.body do %>
+      <p class="text-gray-700 leading-normal text-base"><%= @foundations.description %></p>
+    <% end %>
 
-    <div class="paths-grid">
-      <% @paths.each do |path| %>
-        <% if not path.title === 'Foundations' %>
-          <div class='card-main card-main--clickable'>
-            <%= link_to '', path, class: 'card-main__link' %>
-            <div class="card-secondary__header">
-              <h2 class="card-secondary__header-title mb-3xl"><%= path.title %></h2>
-              <% if current_user.nil? %>
-                <%= link_to 'View Path', path_url(path), class: 'button button--secondary px-10 card-main__button' %>
-              <% elsif current_user.path === path %>
-                <%= link_to 'Resume', path_url(path), class: 'button button--primary px-10 card-main__button' %>
-              <% else %>
-                <%= button_to 'Select', users_paths_path(path_id: path.id), class: 'button button--secondary px-10 card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{path.title.downcase}-select-path-btn" } %>
+    <% card.footer do |card| %>
+      <div class="flex space-x-6 justify-center sm:items-center sm:justify-start">
+        <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-16 py-3')%>
+        <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: @foundations) %>
+      </div>
+      <% end %>
+  <% end %>
+
+  <div class="relative mb-10 mt-10">
+    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+      <div class="w-full border-t border-gray-300"></div>
+    </div>
+    <div class="relative flex justify-center">
+      <span class="px-3 bg-white text-2xl font-semibold text-gray-900 odin-dark-bg odin-dark-text"> Then choose a learning path: </span>
+    </div>
+  </div>
+
+  <div class="flex gap-x-10 gap-y-6 flex-col md:flex-row">
+    <% @fullstack_paths.each do |path| %>
+
+      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+        <% card.header(classes: 'flex flex-col justify-between items-center') do %>
+          <%= link_to path_path(path) do %>
+            <%= image_tag path.badge_uri, alt: "#{path.title} badge", class: 'w-28 h-28' %>
+          <% end %>
+
+          <div class="w-full flex justify-between pt-6">
+            <p class="text-lg text-gold-600">PATH</p>
+            <p class="text-lg text-gray-500"><%= path.courses.size %> Courses</p>
+          </div>
+        <% end %>
+
+        <% card.body do %>
+          <div class="md:h-52">
+              <%= link_to path_path(path), class: "no-underline" do %>
+                <h2 class="text-2xl font-semibold pb-4"><%= path.title %></h2>
               <% end %>
-            </div>
-            <div class="card-main__description">
-              <% if path.prerequisites.any? %>
-                <p class="card-secondary__prerequisites">
-                  <strong>Prerequisites: <%= prerequisites_list_for(path).html_safe %></strong>
-                </p>
-              <% end %>
-              <p>This path is intended to be taken after you have completed the Foundations course. <%= path.description%></p>
-            </div>
+            <p class="text-gray-700 leading-normal text-base"><%= path.description %></p>
+          </div>
+        <% end %>
+
+        <% card.footer do %>
+          <div class="flex space-x-6 items-center justify-center sm:justify-start md:justify-center">
+            <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: path, classes: 'px-16 md:px-10 py-3 w-full') %>
+            <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: path, classes: 'md:px-10') %>
           </div>
         <% end %>
       <% end %>
-    </div>
+    <% end%>
   </div>
 </div>

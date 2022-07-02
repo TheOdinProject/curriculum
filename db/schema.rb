@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_21_121447) do
+ActiveRecord::Schema.define(version: 2022_07_02_170539) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -154,6 +154,7 @@ ActiveRecord::Schema.define(version: 2022_06_21_121447) do
     t.boolean "default_path", default: false, null: false
     t.string "identifier_uuid", default: "", null: false
     t.string "short_title"
+    t.string "badge_uri"
     t.index ["identifier_uuid"], name: "index_paths_on_identifier_uuid", unique: true
     t.index ["slug"], name: "index_paths_on_slug", unique: true
   end

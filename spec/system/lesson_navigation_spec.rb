@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Navigating Lessons', type: :system do
-  let!(:course) { create(:course) }
+  let!(:course) { create(:course, path: create(:path, default_path: true)) }
   let!(:section) { create(:section, position: 1, course:) }
   let!(:lesson) { create(:lesson, position: 1, section:) }
 
@@ -56,9 +56,9 @@ RSpec.describe 'Navigating Lessons', type: :system do
   end
 
   describe 'Choose Path Lesson button' do
-    let!(:choose_path_lesson) { create(:lesson, position: 2, section:, choose_path_lesson: true) }
-
     it 'directs the user to the path selection page' do
+      choose_path_lesson = create(:lesson, position: 2, section:, choose_path_lesson: true)
+
       visit lesson_path(choose_path_lesson)
       find(:test_id, 'choose-path-lesson-btn').click
 

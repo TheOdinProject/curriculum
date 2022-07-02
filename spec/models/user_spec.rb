@@ -173,4 +173,20 @@ RSpec.describe User do
       end
     end
   end
+
+  describe '#on_path?' do
+    it 'returns true when the user is on the path' do
+      path = create(:path)
+      user = create(:user, path:)
+
+      expect(user.on_path?(path)).to be(true)
+    end
+
+    it 'returns false when the user is not on the path' do
+      path = create(:path)
+      user = create(:user)
+
+      expect(user.on_path?(path)).to be(false)
+    end
+  end
 end

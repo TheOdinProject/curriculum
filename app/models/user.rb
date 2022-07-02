@@ -54,6 +54,10 @@ class User < ApplicationRecord
     lesson_completions.exists?(course_id: course.id)
   end
 
+  def on_path?(path)
+    self.path == path
+  end
+
   private
 
   def last_lesson_completed

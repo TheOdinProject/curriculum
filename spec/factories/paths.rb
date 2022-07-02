@@ -4,5 +4,6 @@ FactoryBot.define do
     sequence(:position) { |n| n }
     description { 'A Path' }
     identifier_uuid { SecureRandom.uuid }
+    badge_uri { 'badge-foundations.svg' }
   end
 end
