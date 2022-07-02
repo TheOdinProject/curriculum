@@ -24,13 +24,13 @@ There are multiple options for linting your JavaScript, but the most popular (an
    1. Visual Studio Code - [The Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [a tutorial](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code).
    2. Sublime Text - [The Plugin](https://github.com/roadhump/SublimeLinter-eslint) and [a tutorial](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/).
    3. Atom - [The Plugin](https://atom.io/packages/linter-eslint) and [a tutorial](https://medium.freecodecamp.org/how-to-set-up-eslint-in-atom-to-contribute-to-freecodecamp-3467dee86e2c).
-   4. Vim - [Use the ALE plugin](https://github.com/w0rp/ale). If you use vim you already know what you're getting into. ALE is a great plugin, but the setup and configuration can be a little tricky.
+   4. Vim - [Use the ALE plugin](https://github.com/dense-analysis/ale). If you use Vim you already know what you're getting into. ALE is a great plugin, but the setup and configuration can be a little tricky.
 
 ### Prettier
 
 Prettier is _awesome_. It is similar to a linter, but serves a slightly different function. Prettier will take your JS code and then automatically format it according to a set of rules. Unlike a linter, it's not looking for style errors, but specifically targeting the layout of your code and making intelligent decisions about things like spaces, indentation levels and line-breaks.
 
-1. [This quick talk](https://www.youtube.com/watch?v=hkfBvpEfWdA) from prettier's creator is a great introduction.
+1. [This quick talk](https://www.youtube.com/watch?v=hkfBvpEfWdA) from Prettier's creator is a great introduction.
 2. Give it a test drive [here](https://prettier.io/playground). Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
 3. Setup is simple. [The homepage](https://prettier.io/) links to tutorials for most popular editors.
 
@@ -42,4 +42,4 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/">What is linting?</a>
 - <a class="knowledge-check-link" href="https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/">Which problems can linting prevent?</a>
-- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=hkfBvpEfWdA">Why should you use prettier?</a>
+- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=hkfBvpEfWdA">Why should you use Prettier?</a>

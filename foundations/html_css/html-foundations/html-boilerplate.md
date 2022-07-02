@@ -64,8 +64,6 @@ We should always have the meta tag for the charset encoding of the webpage in th
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
-There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
-
 #### Title Element
 
 Another element we should always include in the head of an HTML document is the title element:
@@ -75,6 +73,8 @@ Another element we should always include in the head of an HTML document is the 
 The title element is used to give webpages a human-readable title which is displayed in our webpage's browser tab.
 
 If we didn't include a title element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
+
+There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
 Back in our `index.html` file, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
 

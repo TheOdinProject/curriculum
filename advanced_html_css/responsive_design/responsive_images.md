@@ -46,11 +46,6 @@ It is also possible to literally use _different_ images for different screen siz
 3. CSS Tricks's [Guide to the Responsive Images Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/) is a great article that goes into more depth on how to actually implement responsive images.
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Responsive Images 101](https://cloudfour.com/thinks/responsive-images-101-definitions/) is a good series of articles if you need another source.
-
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -58,3 +53,8 @@ This section contains questions for you to check your understanding of this less
 * <a class='knowledge-check-link' href='#aspect-ratio-knowledge-check'>How can you define a width and a height on an `img` without distorting it?</a>
 * <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#why_responsive_images'>Why would you want to provide different images at different screen resolutions?</a>
 * <a class='knowledge-check-link' href='https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/'>When would you want to use an `img` with a `srcset` vs a `picture`?</a>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* [Responsive Images 101](https://cloudfour.com/thinks/responsive-images-101-definitions/) is a good series of articles if you need another source.

@@ -84,7 +84,11 @@ Your Multiple Lines of Colorful Code
 
   1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-  2. In a moment we're going to ask you to join the Discord community, here are some guidelines before you dive in: 
+  2. Now, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
+  
+     * **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile"` is toggled on. This will allow others to see what you're working on and vice versa! 
+
+  3. Here are some guidelines before you dive in: 
   
      * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
      * **Don't 'Bomb' Chats:** Don't send multiple messages in a row; type out your whole message, then push send.	
@@ -93,12 +97,6 @@ Your Multiple Lines of Colorful Code
      * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
      * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
      * **Read the Rules and FAQ:** Upon joining, you will find yourself having to read through our rules. Please take the time to read and understand our rules and FAQ.
-
-  3. Finally, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
-
-     **Link your GitHub to your Discord profile:** So others can see what you're working on and vice versa!
-
-     * Discord Settings > Connections > Click GitHub icon > Allow Access > Make sure "Display on profile" is toggled on.
 
 </div>
 
