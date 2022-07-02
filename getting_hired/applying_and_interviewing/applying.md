@@ -4,7 +4,7 @@ The next step is to actually apply.  Don't send all your applications out at onc
 
 <div class="lesson-note" markdown="1>
 
-Note: This is NOT an excuse to procrastinate or only send out one application a day.  You should have a definite goal for number of applications per day.  3? 5? 10?
+This is NOT an excuse to procrastinate or only send out one application a day.  You should have a definite goal for number of applications per day.  3? 5? 10?
 
 </div>
 

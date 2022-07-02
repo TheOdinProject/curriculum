@@ -31,7 +31,7 @@ We'll get into exactly what's going on here soon enough. But for now, let's unco
 
 <div class="lesson-note" markdown="1">
 
-**A Note on Comments**: Comments prevent the browser from interpreting lines as code, and are wrapped between specific tags. CSS uses `/*`as an opening comment tag and `*/` as a closing comment tag, while HTML and JavaScript have their own syntax. Commented out lines of code can be 're-enabled' simply by removing the comment tags surrounding the code.
+Comments prevent the browser from interpreting lines as code, and are wrapped between specific tags. CSS uses `/*`as an opening comment tag and `*/` as a closing comment tag, while HTML and JavaScript have their own syntax. Commented out lines of code can be 're-enabled' simply by removing the comment tags surrounding the code.
 
 </div>
 
@@ -42,7 +42,7 @@ If you add another div to the HTML, inside of `.flex-container`, it will show up
 
 <div class="lesson-note" markdown="1">
 
-**Note**: If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
+If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
 
 </div>
 

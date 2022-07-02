@@ -98,7 +98,7 @@ You should now have enough basics to get started with React routing. There are a
 3. Watch this [video on React Router by Dev Ed](https://www.youtube.com/watch?v=Law7wfdg_ls) for reviewing. You should already be familiar with those concepts.
     *  <div class="lesson-note" markdown="1">
 
-       **Note:** What we have learned in this lesson is the latest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
+       What we have learned in this lesson is the latest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
 
        </div>
 </div>
