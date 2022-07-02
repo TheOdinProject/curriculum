@@ -34,7 +34,9 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
-### Practice
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 
 To give you a good bit of practice, we have created some replit.com exercises for you to play with. We believe that it's best to practice programming on your _own_ computer, rather than in an online environment, but we'll get to that soon enough.
 
@@ -51,6 +53,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
   * You will be working out of math.js  
 - [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
   * You will be working out of follow.js
+</div>
 
 ### Additional Resources
 

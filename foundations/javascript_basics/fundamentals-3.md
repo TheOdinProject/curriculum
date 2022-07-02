@@ -30,7 +30,9 @@ This section contains a general overview of topics that you will learn in this l
 5. Now, read [this article](http://javascript.info/function-expressions) about functions in JavaScript to give you a little more context, and read [this article](http://javascript.info/arrow-functions-basics) for an introduction to a relatively new feature in modern JavaScript called the `arrow function`. Arrow functions are useful but not crucial, so don't worry about them too much just yet. We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
 6. Finally, read [this article](https://www.javascripttutorial.net/javascript-call-stack/) about call stacks and how `return` works in the context of chained function calls. Don't worry if you don't fully understand this yet, but it's important to keep in mind where your `return`ed values are going. This doubles as a bit of early computer science as well. 
 
-### Practice
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 
 Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review the instructions from [Fundamentals Part 1](https://www.theodinproject.com/lessons/foundations-fundamentals-part-1#how-to-run-javascript-code).
 
@@ -41,6 +43,7 @@ For now, just write each function and test the output with `console.log`.
 3. Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
    1. `lastLetter("abcd")` should return `"d"`
+</div>
 
 ### Additional Resources
 
