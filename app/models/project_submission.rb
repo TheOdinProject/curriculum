@@ -6,7 +6,6 @@ class ProjectSubmission < ApplicationRecord
   end
 
   acts_as_votable
-  paginates_per 15
 
   belongs_to :user
   belongs_to :lesson

@@ -7,10 +7,7 @@ module Lessons
     def index
       @user_submission = user_submission
 
-      @project_submissions = Kaminari.paginate_array(
-        public_project_submissions,
-        total_count: public_project_submissions.size
-      ).page(params[:page]).per(15)
+      @pagy, @project_submissions = pagy(public_project_submissions, items: 15)
     end
 
     private

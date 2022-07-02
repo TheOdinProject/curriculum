@@ -1,6 +1,7 @@
 # rubocop:disable Metrics/MethodLength, Layout/LineLength
 module ApplicationHelper
   require 'kramdown'
+  include Pagy::Frontend
 
   def github_link(extension = '')
     "https://github.com/TheOdinProject/#{extension}"
