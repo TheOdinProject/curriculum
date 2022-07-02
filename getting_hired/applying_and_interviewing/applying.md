@@ -2,7 +2,11 @@
 
 The next step is to actually apply.  Don't send all your applications out at once! You'll get totally overwhelmed if you start hearing back from people and need to complete tasks all at once.  Treat it like an iterative process where you'll send out several applications each day, learn from any mistakes you can identify based on feedback from the process, and try again the next day.  
 
-Note: This is NOT an excuse to procrastinate or only send out one application a day.  You should have a definite goal for number of applications per day.  3? 5? 10?
+<div class="lesson-note" markdown="1>
+
+This is NOT an excuse to procrastinate or only send out one application a day.  You should have a definite goal for number of applications per day.  3? 5? 10?
+
+</div>
 
 Over time, you will work your way through your excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
 
