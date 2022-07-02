@@ -1,0 +1,28 @@
+<%= render CardComponent.new(classes: "mb-16 odin-dark-bg-accent relative") do |card| %>
+  <% card.header do %>
+    <% if user_signed_in? && course_completed_by_user?(course, current_user) %>
+      <div class="absolute top-0 left-0 bg-odin-green text-white w-full text-center py-1 font-semibold">
+        Completed <i class="far fa-check-circle "></i>
+      </div>
+    <% end %>
+
+    <div class="flex flex-col items-center justify-between space-y-5 border-b border-gray-200 py-6 md:flex-row md:space-y-0">
+      <div class="flex flex-col items-center space-y-4 md:flex-row md:space-x-6 text-center md:space-y-0">
+        <%= render ProgressBadgeComponent.new(course: course, current_user: current_user, url: courses_progress_path(course.id)) %>
+
+        <%= link_to path_course_url(course.path, course), class: '' do %>
+          <h2 id=<%= course.title.parameterize %> class="font-bold text-lg uppercase md:text-left">
+            <%= course.title %>
+          </h2>
+          <span class="uppercase text-sm text-gray-400"><%= course.lessons.size %> lessons</span>
+        <% end %>
+      </div>
+
+      <%= link_to 'Open Course', path_course_url(course.path, course), class: "button button--clear" %>
+    </div>
+  <% end %>
+
+  <% card.body do %>
+     <p><%= course.description %></p>
+  <% end %>
+<% end %>

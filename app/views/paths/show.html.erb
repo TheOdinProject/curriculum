@@ -1,17 +1,20 @@
 <%= title(@path.title) %>
 
-<div class="container tmp-container-spacer">
-  <h1 class="page-heading-title"><%= @path.title %></h1>
-  <% if user_signed_in? && current_user.path != @path %>
-    <div class="select-container">
-      <%= button_to 'Select Path', users_paths_path(path_id: @path.id), class: 'button button--secondary card-main__button', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{@path.title.downcase}-select-path-btn" } %>
+<div class="content-container-lg">
+  <section class="flex flex-col justify-between items-start space-y-8 mb-12 md:flex-row md:items-center md:space-y-0">
+    <div>
+      <h1 class="page-heading-title text-left m-0"><%= @path.title %></h1>
+      <p class="text-left max-w-lg lg:max-w-xl"><%= @path.description %></p>
     </div>
-  <% end %>
-  <p class="text-center path-description push-down-2x"><%= @path.description %></p>
 
-  <% @path.courses.each do |course| %>
-    <%= render 'courses/course_card', course: course %>
-  <% end %>
+    <% if current_user&.path != @path %>
+      <%= button_to 'Select Path', users_paths_path(path_id: @path.id), class: 'button button--secondary', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{@path.title.downcase}-select-path-btn" } %>
+    <% else %>
+      <%= button_to 'Selected Path', "", class: 'button', disabled: true, remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{@path.title.downcase}-select-path-btn" } %>
+    <% end %>
+  </section>
+
+  <%= render @path.courses %>
 
   <% unless user_signed_in? %>
     <p class="text-center path-description">
