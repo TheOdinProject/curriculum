@@ -86,7 +86,7 @@ Your Multiple Lines of Colorful Code
 
   2. Now, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
   
-     * **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile"` is toggled on. This will allow others to see what you're working on and vice versa! 
+     * **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa! 
 
   3. Here are some guidelines before you dive in: 
   
