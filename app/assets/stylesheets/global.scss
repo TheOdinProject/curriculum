@@ -106,6 +106,6 @@ ul {
 [type="email"],
 [type="password"],
 textarea {
-  background-color: $pale-grey-bg;
+  background-color: var(--dark-input-bg-color, $pale-grey-bg);
   padding: 0.7rem 1rem 0.7rem 1rem;
 }
