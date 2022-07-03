@@ -10,15 +10,15 @@ Get your project as close as you can to the design, but do not worry about getti
 
 _Finally_, feel free to substitute your own content into this design. The images have some meaningless dummy content, but if you want to make up a business and personalize this page, please feel free to do so! Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too.
 
-> #### A note about images on the web
+> #### a Note About Images on the Web
 > You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
 > Some good places to find free-to-use images on the web include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
 
-### Setting up your project's GitHub repository
+### Setting Up Your Project's GitHub Repository
 
 As we did in the Recipes project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes) if you need a reminder on how to set it up.
 
-### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
+### Warning About Looking at Other People's Finished Project Code Before You Have Completed Your Own
 
 All of our projects have a "Student Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you both to compare your completed code with and see what other routes people have chosen to take with their project code and designs.
 
@@ -48,7 +48,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 6. When you finish, don't forget to push it up to GitHub!
 </div>
 
-### Viewing your project on the web
+### Viewing Your Project on the Web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
 
@@ -61,3 +61,4 @@ There are a couple of ways to go about publishing your project, but the simplest
 - Click on **Pages** on the left side bar.
 - Change the **Source** from _none_ to _main branch_ and click Save.
 - It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+  

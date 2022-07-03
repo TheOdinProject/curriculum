@@ -1,3 +1,7 @@
+### Introduction
+
+Let's see how the orientation of items within a flex container can be controlled using the `flex-direciton` property.
+
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
@@ -55,3 +59,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+  
