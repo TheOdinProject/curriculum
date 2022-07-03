@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-Goodwill Community Foundation (GCF) resources are excellent to get you acquainted with the basics. They have accompanying videos and illustrations and are easy to read. The following readings should be sufficient, although you are welcome to explore more of GCF's resources.
+Goodwill Community Foundation (GCF) resources are excellent to get you acquainted with the basics. Theyfgf have accompanying videos and illustrations and are easy to read. The following readings should be sufficient, although you are welcome to explore more of GCF's resources.
 
 1. [What is a computer?](https://edu.gcfglobal.org/en/computerbasics/what-is-a-computer/1/)
 2. [What is an operating system?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
