@@ -1,4 +1,5 @@
 ### Introduction
+
 Knowing how to use the Developer Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, and viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript.
 
 ### Lesson Overview
@@ -7,10 +8,10 @@ This section contains a general overview of topics that you will learn in this l
 
 - Change screen size of a website with developer tools
 - View and change the DOM
-- Debug JavaScript 
+- Debug JavaScript
 - Use breakpoints
 - View and edit HTML in the Elements tab
-- View the Resources Panel to check the scripts running on a website 
+- View the Resources Panel to check the scripts running on a website
 - Add CSS Pseudostate to a Class
 - View CSS Properties in Alphabetical Order
 - View and edit the Box Model of any Element in Chrome DevTools
@@ -44,7 +45,7 @@ Google has updated some of the required sections in the below tutorials and some
     - JavaScript
         1. [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
         2. [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
- 2. Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
+2. Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
 </div>
 
@@ -52,7 +53,7 @@ Google has updated some of the required sections in the below tutorials and some
 
  This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
+- Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 
 ### Knowledge Check
 
