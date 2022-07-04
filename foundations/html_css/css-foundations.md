@@ -291,7 +291,6 @@ Consider the following HTML and CSS code:
   <div class="list subsection"></div>
 </div>
 ~~~
-
 ~~~css
 /* rule 1 */
 .subsection {
