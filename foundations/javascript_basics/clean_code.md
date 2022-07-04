@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Use programming principles to make your code cleaner.
 - Write good comments.
 
-### Writing Clean Code
+### Introduction
 
 Consider the following two snippets of JavaScript:  
 
