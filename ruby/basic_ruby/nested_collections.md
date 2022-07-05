@@ -328,7 +328,9 @@ Amazing! We have found a great solution to returning an array that only contains
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section doesn't contains helpful links to other content yet! 
+Any suggestions ?
+Contribute on Github!
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
