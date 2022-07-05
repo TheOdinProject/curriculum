@@ -40,7 +40,7 @@ For a more thorough explanation, use these resources:
   You will need two classes:
 
 1. `LinkedList` class, which will represent the full list.
-2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
+2. `Node` class, containing a `@value` instance variable and a `@next_node` instance variable linking to the next node, set both as `nil` by default.
 
 Build the following methods in your linked list class:
 
