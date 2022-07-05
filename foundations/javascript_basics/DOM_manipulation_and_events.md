@@ -40,7 +40,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 You can also use relational selectors \(i.e. `firstElementChild` or `lastElementChild` etc.\) with special properties owned by the nodes.
 
-~~~JavaScript
+~~~javascript
 const container = document.querySelector('#container');
 // selects the #container div (don't worry about the syntax, we'll get there)
 
@@ -73,7 +73,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 *   document.createElement\(tagName, \[options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
-~~~JavaScript
+~~~javascript
 const div = document.createElement('div');
 ~~~
 
@@ -92,14 +92,14 @@ This function does NOT put your new element into the DOM - it simply creates it 
 
 When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
-~~~JavaScript
+~~~javascript
 const div = document.createElement('div');                     
 // creates a new div referenced in the variable 'div'
 ~~~
 
 #### Adding inline style
 
-~~~JavaScript
+~~~javascript
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
@@ -114,7 +114,7 @@ See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com
 
 Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need to use camelCase or you'll need to use bracket notation instead of dot notation.
 
-~~~JavaScript
+~~~javascript
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
@@ -123,7 +123,7 @@ div.style.cssText = "background-color: white;" // ok in a string
 
 #### Editing Attributes
 
-~~~JavaScript
+~~~javascript
 div.setAttribute('id', 'theDiv');                              
 // if id exists, update it to 'theDiv', else create an id
 // with value "theDiv"
@@ -140,7 +140,7 @@ See MDN's section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/
 
 #### Working with classes
 
-~~~JavaScript
+~~~javascript
 div.classList.add('new');                                      
 // adds class "new" to your new div
 
@@ -156,7 +156,7 @@ It is often standard \(and cleaner\) to toggle a CSS style rather than adding an
 
 #### Adding text content
 
-~~~JavaScript
+~~~javascript
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and
 // inserts it in div
@@ -164,7 +164,7 @@ div.textContent = 'Hello World!'
 
 #### Adding HTML content
 
-~~~JavaScript
+~~~javascript
 div.innerHTML = '<span>Hello World!</span>';                   
 // renders the HTML inside div
 ~~~
@@ -259,12 +259,12 @@ This solution is less than ideal because we're cluttering our HTML with JavaScri
 
 #### method 2
 
-~~~HTML
+~~~html
 <!-- the HTML file -->
 <button id="btn">Click Me</button>
 ~~~
 
-~~~JavaScript
+~~~javascript
 // the JavaScript file
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
@@ -281,7 +281,7 @@ This is a little better. We've moved the JS out of the HTML and into a JS file, 
 <button id="btn">Click Me Too</button>
 ~~~
 
-~~~JavaScript
+~~~javascript
 // the JavaScript file
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
@@ -354,7 +354,7 @@ This might seem like a lot of code if you're attaching lots of similar event lis
 </div>
 ~~~
 
-~~~JavaScript
+~~~javascript
 // buttons is a node list. It looks and acts much like an array.
 const buttons = document.querySelectorAll('button');
 
