@@ -8,7 +8,7 @@ const toggleBodyClassNames = `
   border-2 border-transparent rounded-full
   cursor-pointer
   transition-colors ease-in-out duration-200
-  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-odin-green
+  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-700
 `;
 
 const toggleSpanClassNames = `
@@ -27,7 +27,7 @@ const Toggle = ({ label, isToggled, onClick }) => (
         id="is_public"
         type="button"
         onClick={onClick}
-        className={`${toggleBodyClassNames} ${isToggled ? 'bg-odin-green' : 'bg-gray-200'}`}
+        className={`${toggleBodyClassNames} ${isToggled ? 'bg-teal-700' : 'bg-gray-200'}`}
         role="switch"
         aria-checked={isToggled}
       >

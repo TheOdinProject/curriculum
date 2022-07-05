@@ -9,7 +9,7 @@ const modalCloseBtn = `
   absolute inline
   top-4 right-4 m-0 p-0 border-0
   bg-transparent
-  text-odin-green hover:text-black text-xl font-black
+  text-teal-700 hover:text-black text-xl font-black
   cursor-pointer
 `;
 

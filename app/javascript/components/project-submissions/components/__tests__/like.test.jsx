@@ -19,7 +19,7 @@ describe('Like', () => {
     const iconNode = getByLabelText('Like icon');
 
     expect(anchorNode).toBeTruthy();
-    expect(iconNode).not.toHaveClass('text-odin-green');
+    expect(iconNode).not.toHaveClass('text-teal-700');
   });
 
   test('Indicates user can like submission', () => {
@@ -37,10 +37,10 @@ describe('Like', () => {
     const iconNode = getByLabelText('Like icon');
 
     expect(anchorNode).toBeTruthy();
-    expect(iconNode).not.toHaveClass('text-odin-green');
+    expect(iconNode).not.toHaveClass('text-teal-700');
   });
 
-  test('Indicates user has text-odin-green submission', () => {
+  test('Indicates user has text-teal-700 submission', () => {
     const { queryByLabelText, getByLabelText } = render(
       <ProjectSubmissionContext.Provider value={{ userId: 1 }}>
         <Like
@@ -55,7 +55,7 @@ describe('Like', () => {
     const iconNode = getByLabelText('Like icon');
 
     expect(anchorNode).toBeTruthy();
-    expect(iconNode).toHaveClass('text-odin-green');
+    expect(iconNode).toHaveClass('text-teal-700');
   });
 
   test('Calls toggle like handler when clicked', () => {

@@ -1,8 +1,11 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
+        teal:  colors.teal,
         transitionProperty: {
           'stroke-dashoffset': 'stroke-dashoffset'
         },
@@ -18,19 +21,6 @@ module.exports = {
           '700': '#7C5920',
           '800': '#503914',
           '900': '#231909'
-        },
-        'odin-green': {
-          DEFAULT: '#63BFC4',
-          '50': '#E8F6F6',
-          '100': '#D9F0F1',
-          '200': '#BCE3E6',
-          '300': '#9ED7DA',
-          '400': '#81CBCF',
-          '500': '#63BFC4',
-          '600': '#42A8AD',
-          '700': '#328085',
-          '800': '#23595C',
-          '900': '#133233',
         },
         'nav-link-read': 'rgba(74, 74, 74, 0.7)',
         'nav-link-unread': 'rgba(206, 151, 62, 0.7)',

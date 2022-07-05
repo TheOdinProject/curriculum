@@ -1,7 +1,7 @@
 <%= render CardComponent.new(classes: "mb-16 odin-dark-bg-accent relative") do |card| %>
   <% card.header do %>
     <% if user_signed_in? && course_completed_by_user?(course, current_user) %>
-      <div class="absolute top-0 left-0 bg-odin-green text-white w-full text-center py-1 font-semibold">
+      <div class="absolute top-0 left-0 bg-teal-700 text-white w-full text-center py-1 font-semibold">
         Completed <i class="far fa-check-circle "></i>
       </div>
     <% end %>

@@ -10,7 +10,7 @@
     <% if current_user&.path != @path %>
       <%= button_to 'Select Path', users_paths_path(path_id: @path.id), class: 'button button--secondary', remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{@path.title.downcase}-select-path-btn" } %>
     <% else %>
-      <%= button_to 'Selected Path', "", class: 'button', disabled: true, remote: false, method: :post, data: { disable_with: 'Selecting...', test_id: "#{@path.title.downcase}-select-path-btn" } %>
+      <%= button_to 'Selected Path', "", class: 'button button--disabled', disabled: true %>
     <% end %>
   </section>
 

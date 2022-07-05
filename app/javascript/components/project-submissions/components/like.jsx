@@ -5,7 +5,7 @@ import ProjectSubmissionContext from '../ProjectSubmissionContext';
 const Like = ({ submission, handleLikeToggle }) => {
   const { userId } = useContext(ProjectSubmissionContext);
 
-  const spanClassnames = submission.is_liked_by_current_user ? 'fa fa-heart text-odin-green' : 'fa fa-heart';
+  const spanClassnames = submission.is_liked_by_current_user ? 'fa fa-heart text-teal-700' : 'fa fa-heart';
 
   const toolTipLabel = () => {
     if (!userId) { return 'Log in to like!'; }

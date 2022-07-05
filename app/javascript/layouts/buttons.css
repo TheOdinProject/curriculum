@@ -6,12 +6,12 @@
     focus:ring-2 focus:ring-offset-2 hover:text-white focus:text-white
   }
 
-  .button:disabled {
-    @apply bg-gray-300 text-gray-500 focus:ring-gray-300
+  .button--disabled {
+    @apply bg-gray-300 text-gray-500 focus:ring-gray-300 hover:text-gray-500
   }
 
   .button--primary {
-    @apply bg-odin-green hover:bg-odin-green-600 focus:ring-odin-green-400
+    @apply bg-teal-700 hover:bg-teal-700 focus:ring-teal-600
   }
 
   .button--secondary {
