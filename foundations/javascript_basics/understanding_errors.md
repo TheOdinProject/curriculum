@@ -6,9 +6,9 @@ Reading and understanding error messages is a requirement as a developer. At fir
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Name at least three kinds of Javascript errors
-- Identify two parts of an error message that help you find where the error originates
-- Be able to understand how to research and resolve errors
+* Name at least three kinds of Javascript errors
+* Identify two parts of an error message that help you find where the error originates
+* Be able to understand how to research and resolve errors
 
 ### The Anatomy of an Error
 
@@ -124,19 +124,19 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 
 <div class="lesson-content__panel" markdown="1">
 
-Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
+1. Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 </div>
 
 ### Additional Resources
 
  This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+ * [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
-- <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
-- <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>
+* <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
+* <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
+* <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>
