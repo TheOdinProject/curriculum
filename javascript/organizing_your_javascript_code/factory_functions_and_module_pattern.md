@@ -270,7 +270,7 @@ calculator.mul(14,5534); // 77476
 
 The concepts are exactly the same as the factory function. However, instead of creating a factory that we can use over and over again to create multiple objects, the module pattern wraps the factory in an IIFE (Immediately Invoked Function Expression).
 
-- Read up about IIFE's in [this article](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple: write a function, wrap it in parentheses, and then immediately call the function by adding `()` to the end of it.
+- Read up about IIFE's in [this article](https://web.archive.org/web/20220525205331/http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html). The concept is simple: write a function, wrap it in parentheses, and then immediately call the function by adding `()` to the end of it.
 - An example of creating and using a module pattern: [JavaScript Module Pattern Basics](https://coryrylan.com/blog/javascript-module-pattern-basics).
 - Additional example of creating and using a module pattern: [Module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm).
 - For those who prefer video lessons, here is an excellent YouTube series on modular JS that covers most of the content in this guide: [Modular Javascript](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f).
