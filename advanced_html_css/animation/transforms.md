@@ -8,10 +8,10 @@ You have likely seen it in action on many of your favorite websites! Transforms 
 
 By the end of this lesson, you will know:
 
-- How to use 2D transforms.
-- How to use 3D transforms.
-- How to chain multiple transforms.
-- The benefits of using the `transform` property.
+* How to use 2D transforms.
+* How to use 3D transforms.
+* How to chain multiple transforms.
+* The benefits of using the `transform` property.
 
 ### Basics of Transforms
 
@@ -255,14 +255,14 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
-- For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
-- For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
+* Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
+* For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
+* For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#two-dimensional-transforms">What are the four main functions of the `transform` property?</a>
-- <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#three-dimensional-transforms">What additional function is required for 3D transforms?</a>
+* <a class="knowledge-check-link" href="#two-dimensional-transforms">What are the four main functions of the `transform` property?</a>
+* <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
+* <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis? </a>
+* <a class="knowledge-check-link" href="#three-dimensional-transforms">What additional function is required for 3D transforms?</a>
