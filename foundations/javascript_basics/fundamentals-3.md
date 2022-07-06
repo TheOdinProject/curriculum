@@ -6,9 +6,9 @@ Things are about to get _really_ exciting. So far you have been writing an impre
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Define and invoke different kinds of functions.
-- Use the return value.
-- Explain function scope.
+* Define and invoke different kinds of functions.
+* Use the return value.
+* Explain function scope.
 
 ### Functions
 
@@ -42,22 +42,22 @@ For now, just write each function and test the output with `console.log`.
 2. Write a function called `multiply` that takes 2 numbers and returns their product.
 3. Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
-   1. `lastLetter("abcd")` should return `"d"`
+   * `lastLetter("abcd")` should return `"d"`
 </div>
 
 ### Additional Resources
 
  This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
+* [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions">How do you invoke a function?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions">What are anonymous functions?</a>
-- <a class="knowledge-check-link" href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
-- <a class="knowledge-check-link" href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">What are functions useful for?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions">How do you invoke a function?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions">What are anonymous functions?</a>
+* <a class="knowledge-check-link" href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
