@@ -107,13 +107,13 @@ Look through these now and then use them to test yourself after doing the assign
   4. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so)
   5. Glance over this list of [Escape Characters](https://docs.ruby-lang.org/en/2.7.0/syntax/literals_rdoc.html#label-Strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
   6. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
-      1. [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
-      2. [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
-      3. [Ruby Explained: Strings](http://www.eriktrautman.com/posts/ruby-explained-strings)
-      4. [Ruby Explained: Arrays](http://www.eriktrautman.com/posts/ruby-explained-arrays)
-      5. [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes)
-      6. [Ruby Explained: Dates and Times](http://www.eriktrautman.com/posts/ruby-explained-dates-and-times)
-      6. [Ruby Explained: Other Random Tidbits](http://www.eriktrautman.com/posts/ruby-explained-other-random-tidbits)
+      * [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
+      * [Ruby Explained: Objects and Methods](http://www.eriktrautman.com/posts/ruby-explained-objects-and-methods)
+      * [Ruby Explained: Strings](http://www.eriktrautman.com/posts/ruby-explained-strings)
+      * [Ruby Explained: Arrays](http://www.eriktrautman.com/posts/ruby-explained-arrays)
+      * [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes)
+      * [Ruby Explained: Dates and Times](http://www.eriktrautman.com/posts/ruby-explained-dates-and-times)
+      * [Ruby Explained: Other Random Tidbits](http://www.eriktrautman.com/posts/ruby-explained-other-random-tidbits)
 </div>
 
 ### Test Yourself
