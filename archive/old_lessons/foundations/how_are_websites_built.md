@@ -25,8 +25,8 @@ Maybe that's directly relevant to the startup you're hoping to build or maybe it
 
 ### Your Assignment:
 1. Start by refreshing your understanding of the web application itself by reading through the short article, [Models, Views, and Controllers, Oh My!: Anatomy of a Rails App](http://blog.roberteshleman.com/2014/07/07/models-views-and-controllers-oh-my-anatomy-of-a-rails-app/) by Robert Eshleman.  Pay particular attention to what's happening on the client vs the server side. Then take a look at a more in depth series by Albert Park: [part one](http://www.albertpark.io/anatomy-of-a-rails-application-part-i-views/), and [part two](http://www.albertpark.io/anatomy-of-a-rails-application-part-ii-controllers/).  It gets a bit more into the guts of what Rails is doing with views and controllers, and this will be valuable for understanding what you'll be building later on.
-1. Read Lee Edwards' answer to the Quora question ["What's an Efficient Web App Development Process"](https://www.quora.com/Whats-an-efficient-web-app-development-process/answer/Lee-Edwards?srid=upjL5) to get better acquainted with the actual flow of app production.  He is a developer at Pivotal Labs, which uses Agile Development methodologies.
-2. Zoom out even more and think about the startups and companies that are building web applications by reading through the [ThoughtBot Playbook](http://playbook.thoughtbot.com/), an online playbook for how to build a product (and work with ThoughtBot consultants, of course).
+2. Read Lee Edwards' answer to the Quora question ["What's an Efficient Web App Development Process"](https://www.quora.com/Whats-an-efficient-web-app-development-process/answer/Lee-Edwards?srid=upjL5) to get better acquainted with the actual flow of app production.  He is a developer at Pivotal Labs, which uses Agile Development methodologies.
+3. Zoom out even more and think about the startups and companies that are building web applications by reading through the [ThoughtBot Playbook](http://playbook.thoughtbot.com/), an online playbook for how to build a product (and work with ThoughtBot consultants, of course).
 
 
 ### Additional Resources
