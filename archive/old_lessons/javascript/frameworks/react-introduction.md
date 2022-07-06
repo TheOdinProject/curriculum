@@ -25,5 +25,5 @@ Facebook has made getting started with React really easy. They have developed a 
 
 ### Additional Resources
 
-- [This course](https://www.udemy.com/react-the-complete-guide-incl-redux/?siteID=vedj0cWlu2Y-lLrWBTqwmP6ifgZP6OyP8A&LSNPUBID=vedj0cWlu2Y) is not free, but if you like video courses it's worth the discount price you can often get from udemy.
-- [An _extensive_ list of react resources.](https://github.com/enaqx/awesome-react)
+* [This course](https://www.udemy.com/react-the-complete-guide-incl-redux/?siteID=vedj0cWlu2Y-lLrWBTqwmP6ifgZP6OyP8A&LSNPUBID=vedj0cWlu2Y) is not free, but if you like video courses it's worth the discount price you can often get from udemy.
+* [An _extensive_ list of react resources.](https://github.com/enaqx/awesome-react)
