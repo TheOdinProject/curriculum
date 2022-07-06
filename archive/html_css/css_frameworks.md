@@ -14,14 +14,14 @@ Doing so will make you a better developer in the end.
 
 ### Learning Outcomes
 
-- What are CSS frameworks?
-- How do frameworks actually work?
-- How do you interact with the framework to get the look you want?
-- What is Twitter Bootstrap?
-- What is Zurb Foundation?
-- What is TailwindCSS?
-- What other frameworks can you find out there?
-- What are the disadvantages of using frameworks?
+* What are CSS frameworks?
+* How do frameworks actually work?
+* How do you interact with the framework to get the look you want?
+* What is Twitter Bootstrap?
+* What is Zurb Foundation?
+* What is TailwindCSS?
+* What other frameworks can you find out there?
+* What are the disadvantages of using frameworks?
 
 ### Assignment
 
@@ -36,6 +36,6 @@ Doing so will make you a better developer in the end.
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [Bootstrap Docs](http://getbootstrap.com/)
-- [Foundation Docs](http://foundation.zurb.com/)
-- [TailwindCSS Docs](https://tailwindcss.com/)
+* [Bootstrap Docs](http://getbootstrap.com/)
+* [Foundation Docs](http://foundation.zurb.com/)
+* [TailwindCSS Docs](https://tailwindcss.com/)
