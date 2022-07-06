@@ -3,13 +3,13 @@
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
-  * A great option is [Live Share for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack). It is a free plugin for VSCode that allows you to easily share your workspace with other VSCode users remotely. If you're both using VSCode already, this might be the best option for you.
-  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
-  * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
+* A great option is [Live Share for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack). It is a free plugin for VSCode that allows you to easily share your workspace with other VSCode users remotely. If you're both using VSCode already, this might be the best option for you.
+* If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
+* Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
 * Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
-  * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
-  * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
-  * Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)
+* Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
+* The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
+* Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)
 
 
 ### Installing the Software
