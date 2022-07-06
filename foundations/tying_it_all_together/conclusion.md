@@ -14,7 +14,7 @@ Arguments about learning the languages used in your area may sound convincing, b
 
 To help you make a decision, here are some perks of each technology:
 
-#### Ruby and Ruby On Rails
+### Ruby and Ruby On Rails
 
 - Opinionated
   - You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
