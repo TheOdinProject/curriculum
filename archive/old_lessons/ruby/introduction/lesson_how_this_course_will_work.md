@@ -13,10 +13,10 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 #### In each lesson:
 
 1. We'll introduce the topic briefly and provide you with a list of things you should pay attention to.
-1. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
-2. At the end of most lessons will be exercises to help you solidify your knowledge of the material.
-3. Every few lessons you will be asked to build a larger project.  These are best done with a friend.
-2. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
+2. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
+3. At the end of most lessons will be exercises to help you solidify your knowledge of the material.
+4. Every few lessons you will be asked to build a larger project.  These are best done with a friend.
+5. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
 
 
 ### Two Paths Forward
@@ -36,7 +36,7 @@ Everyone is coming into this with a different goal in mind, so to accommodate th
 Some things you just won't pick up right away or their coverage by main resources will fall short of your expectations.  Luckily there are lots of options for places to shore up your understanding:
 
 1. The best free online book: Dan Nguyen's [Bastard's Book of Ruby](http://ruby.bastardsbook.com/).  Basically, if you don't like the content we've roped together, this is your resource to shore up your understanding.
-1. Another free online book: Zed Shaw's [Learn Code the Hard Way](https://learnrubythehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
-2. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0).  This, too, is a bit outdated.
+2. Another free online book: Zed Shaw's [Learn Code the Hard Way](https://learnrubythehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
+3. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0).  This, too, is a bit outdated.
 
 ### Okay, enough talk... Let's get started learning Ruby!
