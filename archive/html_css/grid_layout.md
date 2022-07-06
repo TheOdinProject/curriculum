@@ -5,20 +5,20 @@ Grid was introduced to fill this need.
 
 
 ### Learning Outcomes
-- What is a grid?
-- How do you create a grid container?
-- How do you create a fixed track size?
-- How do you create a flexible track size?
-- What is the difference between an implicit and explicit grid?
-- How is the fr unit used?
-- How do you place items into a precise location on the grid?
-- How does Grid handle overlapping content?
-- What are grid lines and how are they used?
-- How do you position items against the grid line?
-- What is a grid cell?
-- What are grid areas and how are they used to layout content?
-- What are gutters (also known as alleys) in the grid?
-- How can you nest grids?
+* What is a grid?
+* How do you create a grid container?
+* How do you create a fixed track size?
+* How do you create a flexible track size?
+* What is the difference between an implicit and explicit grid?
+* How is the fr unit used?
+* How do you place items into a precise location on the grid?
+* How does Grid handle overlapping content?
+* What are grid lines and how are they used?
+* How do you position items against the grid line?
+* What is a grid cell?
+* What are grid areas and how are they used to layout content?
+* What are gutters (also known as alleys) in the grid?
+* How can you nest grids?
 
 ### Overview
 Grid layout introduces a two-dimensional grid system which works with columns and rows. This compares against the mainly one dimensional alternatives where you fix the layout to either columns or rows. The result is the ability to create complex layouts in a simple and clean way as you aren't required to include anything in your HTML markup as you would with tools like Bootstrap.
@@ -42,13 +42,13 @@ Grid is now supported in all major browsers meaning you can use it right away to
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-- Complete [CSS Grid Garden](http://cssgridgarden.com/). An awesome resource for learning the basics of CSS Grid through 28 levels.
-- Check out the videos at [Grid by Example](https://gridbyexample.com/video). They are nice and short and cover all the major areas of CSS Grid.
-- Wes Bos has a [CSS Grid course](https://cssgrid.io/) which goes really in depth on the subject.
+1. Complete [CSS Grid Garden](http://cssgridgarden.com/). An awesome resource for learning the basics of CSS Grid through 28 levels.
+2. Check out the videos at [Grid by Example](https://gridbyexample.com/video). They are nice and short and cover all the major areas of CSS Grid.
+3. Wes Bos has a [CSS Grid course](https://cssgrid.io/) which goes really in depth on the subject.
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-- The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.
-- This [Rachel Andrew YouTube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options.
+* The [MDN Grid pages](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) are a great place to review CSS Grid and make sure you are comfortable with the main areas of the specification.
+* This [Rachel Andrew YouTube Video](https://youtu.be/N5Lt1SLqBmQ) is a great video on using Grid over other options.
