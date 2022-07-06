@@ -92,24 +92,24 @@ Look through these now and then use them to test yourself after doing the assign
 
 <div class="lesson-content__panel" markdown="1">
   1. Do the [Codecademy Ruby sections 2-8](https://www.codecademy.com/learn/learn-ruby), including:
-      1. Control Flow in Ruby
-      2. Project: Thith Meanth War!
-      2. Looping with Ruby
-      3. Project: Redacted!
-      3. Arrays and Hashes
-      4. Blocks and Sorting
-      4. Project: Ordering your Library
-      5. Hashes and Symbols
-      6. Project: A Night at the Movies
-      7. The Zen of Ruby
-      8. The Refactor Factory
-      9. Blocks, Procs, and Lambdas
+      * Control Flow in Ruby
+      * Project: Thith Meanth War!
+      * Looping with Ruby
+      * Project: Redacted!
+      * Arrays and Hashes
+      * Blocks and Sorting
+      * Project: Ordering your Library
+      * Hashes and Symbols
+      * Project: A Night at the Movies
+      * The Zen of Ruby
+      * The Refactor Factory
+      * Blocks, Procs, and Lambdas
   2. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
-      1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
-      2. [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
-      3. [Ruby Explained: Blocks, Procs, and Lambdas, aka "Closures"](http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures)
-      4. [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
-      5. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
+      * [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
+      * [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
+      * [Ruby Explained: Blocks, Procs, and Lambdas, aka "Closures"](http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures)
+      * [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
+      * [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
 </div>
 
 ### Test Yourself
