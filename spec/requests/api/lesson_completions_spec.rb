@@ -132,7 +132,7 @@ RSpec.describe 'Lesson Completions', type: :request do
       it 'does not allow access' do
         get api_lesson_completions_path, params: { start_date: 4.days.ago.to_s }, headers: authentication_header
 
-        expect(response.status).to be(401)
+        expect(response).to have_http_status(:unauthorized)
       end
     end
   end

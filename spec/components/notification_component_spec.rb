@@ -10,7 +10,7 @@ RSpec.describe NotificationComponent, type: :component do
   end
 
   it 'renders the component with a link to the notification\'s url' do
-    expect(page).to have_selector "a[href='/notifications/1']"
+    expect(page).to have_link(nil, href: '/notifications/1')
   end
 
   it 'renders the component with the notification\'s title titleized' do
