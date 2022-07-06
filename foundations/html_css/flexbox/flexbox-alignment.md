@@ -4,7 +4,7 @@ So far everything we've touched with flexbox has used the rule `flex: 1` on all 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn how to align items inside a flex container both vertically and horizontally.
+* You'll learn how to align items inside a flex container both vertically and horizontally.
 
 Let's look at another example.
 
