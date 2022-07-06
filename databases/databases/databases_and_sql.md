@@ -186,11 +186,11 @@ This section contains helpful links to other content. It isn’t required, so co
 ### Knowledge Checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#foreign-key'>What is the difference between a foreign key and a primary key?</a>
-- <a class='knowledge-check-link' href='#schema'>Where is the setup information for your database stored?</a>
-- <a class='knowledge-check-link' href='#command-parts'>What are the important parts of a SQL command?</a>
-- <a class='knowledge-check-link' href='#sql-read'>Which SQL statement is associated with "Read" from the CRUD acronym?</a>
-- <a class='knowledge-check-link' href='#inner-join'>Which `JOIN` statement keeps only the rows from both tables where they match up?</a>
-- <a class='knowledge-check-link' href='#aggregate-function'>How do you use an aggregate function?</a>
-- <a class='knowledge-check-link' href='#having-function'>In which situation would you use the `HAVING` function?</a>
-- <a class='knowledge-check-link' href='#sql-is-faster-than-ruby'>Why can't I just use Ruby to process my database data?</a>
+* <a class='knowledge-check-link' href='#foreign-key'>What is the difference between a foreign key and a primary key?</a>
+* <a class='knowledge-check-link' href='#schema'>Where is the setup information for your database stored?</a>
+* <a class='knowledge-check-link' href='#command-parts'>What are the important parts of a SQL command?</a>
+* <a class='knowledge-check-link' href='#sql-read'>Which SQL statement is associated with "Read" from the CRUD acronym?</a>
+* <a class='knowledge-check-link' href='#inner-join'>Which `JOIN` statement keeps only the rows from both tables where they match up?</a>
+* <a class='knowledge-check-link' href='#aggregate-function'>How do you use an aggregate function?</a>
+* <a class='knowledge-check-link' href='#having-function'>In which situation would you use the `HAVING` function?</a>
+* <a class='knowledge-check-link' href='#sql-is-faster-than-ruby'>Why can't I just use Ruby to process my database data?</a>
