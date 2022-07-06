@@ -27,9 +27,9 @@ You'll do some brief reading/viewing here but the main takeaway should be that S
 
 ### Assignment
 
-2. For a quick video overview of SSL, [watch this video](http://www.youtube.com/watch?v=iQsKdtjwtYI).  It's more important to understand the "Why use SSL" than the "How to use SSL".  The section on Certificates at the end is also useful.
-1. To understand the basics of HTTPS and SSL, check out [this article](http://www.hongkiat.com/blog/ssl-certs-guide/).
-2. Skim through Smashing Magazine's list of some [common security mistakes](http://coding.smashingmagazine.com/2010/10/18/common-security-mistakes-in-web-applications/) from a 2010 article.  It references PHP code but the vulnerabilities are language agnostic.
+1. For a quick video overview of SSL, [watch this video](http://www.youtube.com/watch?v=iQsKdtjwtYI).  It's more important to understand the "Why use SSL" than the "How to use SSL".  The section on Certificates at the end is also useful.
+2. To understand the basics of HTTPS and SSL, check out [this article](http://www.hongkiat.com/blog/ssl-certs-guide/).
+3. Skim through Smashing Magazine's list of some [common security mistakes](http://coding.smashingmagazine.com/2010/10/18/common-security-mistakes-in-web-applications/) from a 2010 article.  It references PHP code but the vulnerabilities are language agnostic.
 
 ### Additional Resources
 
