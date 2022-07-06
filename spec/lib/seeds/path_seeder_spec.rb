@@ -9,6 +9,7 @@ RSpec.describe Seeds::PathSeeder do
       path.description = 'a foundation path'
       path.position = 1
       path.default_path = true
+      path.badge_uri = 'foundations_path_badge.svg'
     end
   end
 
