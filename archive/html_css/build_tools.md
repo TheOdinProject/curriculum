@@ -19,7 +19,7 @@ Don't get carried away with this stuff yet -- try to absorb what you can but don
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [Grunt for People Who Think Things Like Grunt are Weird and Hard by Chris Coyier](http://24ways.org/2013/grunt-is-not-weird-and-hard/)
-3. [Get up and Running with Grunt from Smashing Magazine](http://coding.smashingmagazine.com/2013/10/29/get-up-running-grunt/)
+2. [Get up and Running with Grunt from Smashing Magazine](http://coding.smashingmagazine.com/2013/10/29/get-up-running-grunt/)
 </div>
 
 ### Additional Resources
