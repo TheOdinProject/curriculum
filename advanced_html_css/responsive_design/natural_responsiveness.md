@@ -4,11 +4,11 @@ The first step to making responsive websites is using techniques that are _natur
 ### Learning Outcomes
 * You'll learn a few tips for keeping your sites naturally responsive
 
-Plain HTML, with no CSS is responsive. [Check this out](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
+* Plain HTML, with no CSS is responsive. [Check this out](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
-It's not realistic for every website you create to be as simple as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't _that_ much extra you need to do to make your sites properly responsive.
+* It's not realistic for every website you create to be as simple as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't _that_ much extra you need to do to make your sites properly responsive.
 
-The rest of this lesson is a list of tips you can use to maintain natural responsiveness.
+* The rest of this lesson is a list of tips you can use to maintain natural responsiveness.
 
 ### The Viewport Meta Tag
 When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simply simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
