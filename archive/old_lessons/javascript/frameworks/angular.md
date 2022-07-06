@@ -16,21 +16,21 @@ The first thing to know if you want to give Angular a try is that it's built wit
 
 Some of the main benefits of using Angular are:
 
-- It's well supported on the main platforms (web, desktop and mobile)
-- It's built on design pattern principles so when code is written well it remains maintainable as the project scales
-- It comes with many tools out of the box that you'll need on a day to day basis. Forms, validations and AJAX requests all come with dynamic page support so you can get crafting incredibly quickly
-- It encourages decoupling of concerns. This means components are injected where needed which ensures changes to parts of your application don't break other parts
-- Application logic is kept away from your views keeping your HTML clean
-- Testing is actively encouraged so Angular was built with unit testing and application testing support embedded.
+* It's well supported on the main platforms (web, desktop and mobile)
+* It's built on design pattern principles so when code is written well it remains maintainable as the project scales
+* It comes with many tools out of the box that you'll need on a day to day basis. Forms, validations and AJAX requests all come with dynamic page support so you can get crafting incredibly quickly
+* It encourages decoupling of concerns. This means components are injected where needed which ensures changes to parts of your application don't break other parts
+* Application logic is kept away from your views keeping your HTML clean
+* Testing is actively encouraged so Angular was built with unit testing and application testing support embedded.
 
 Importantly, Angular is also actively maintained by a very large community which includes Google. Knowing your chosen framework is going to be updated to keep it current is a necessity for production applications. You can't afford to rewrite sites in a new framework often.
 
 While there are many positives to choosing Angular there are some drawbacks.
 
-- Because of its coupling to Typescript you will need to learn that to really grok Angular. Any examples you see online will be written in it and any support you'll receive from the community will probably assume you're using Typescript
-- Angular makes good use of the command line so you'll need to delve into the Angular CLI
-- The Node Package Manager(npm) is used extensively so you'll need a firm grasp of that
-- Tests can become very complex but essential when the app grows so you need a solid understanding of test principles
+* Because of its coupling to Typescript you will need to learn that to really grok Angular. Any examples you see online will be written in it and any support you'll receive from the community will probably assume you're using Typescript
+* Angular makes good use of the command line so you'll need to delve into the Angular CLI
+* The Node Package Manager(npm) is used extensively so you'll need a firm grasp of that
+* Tests can become very complex but essential when the app grows so you need a solid understanding of test principles
 
 Aside from Angular's coupling to Typescript all those other drawbacks can be found in other frameworks too so they aren't necessarily a reason to avoid Angular.
 
@@ -50,6 +50,6 @@ You will need node and npm installed. I personally prefer to use [nvm](https://g
 
 ### Additional Resources
 
-- Angular has their [own tutorial](https://angular.io/tutorial) you can try
-- [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6
-- These 33 free [interactive screencasts](https://scrimba.com/g/gyourfirstangularapp) by Dan Wahlin take you from beginner to advanced to help you gain a solid understanding of the Angular framework
+* Angular has their [own tutorial](https://angular.io/tutorial) you can try
+* [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6
+* These 33 free [interactive screencasts](https://scrimba.com/g/gyourfirstangularapp) by Dan Wahlin take you from beginner to advanced to help you gain a solid understanding of the Angular framework
