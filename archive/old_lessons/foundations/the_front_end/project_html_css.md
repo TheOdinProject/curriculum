@@ -9,13 +9,13 @@ Using the browser's developer tools (right-clicking something on the page and cl
 These skills will be helpful for you when you start building. Either try them yourself or at least make sure you know how to do it:
 
 1. Two ways to move a div around on the page
-1. Stick a div onto the bottom or top of the page
-1. Identify the background color of an existing webpage
-1. Grab the URL for an image from an existing webpage
-1. Center an element horizontally
-1. Identify three ways you can include your CSS styles in a page
-1. Understand how to use classes and ids to target CSS at specific elements on the page
-1. Build a very basic form (even if it doesn't "go" anywhere)
+2. Stick a div onto the bottom or top of the page
+3. Identify the background color of an existing webpage
+4. Grab the URL for an image from an existing webpage
+5. Center an element horizontally
+6. Identify three ways you can include your CSS styles in a page
+7. Understand how to use classes and ids to target CSS at specific elements on the page
+8. Build a very basic form (even if it doesn't "go" anywhere)
 
 ### Setting Up Your Project's GitHub Repository (optional)
 
@@ -73,13 +73,13 @@ Once you have completed your project feel free to look at the other solutions to
 Inside your project folder, create your index.html file.
 
 1. Tips:
-   - DON'T BE A PERFECTIONIST! You're just trying to make it _look_ like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel. Any dropdown menus or form submissions or hover-highlighting should be ignored.
-   - USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google it!
-   - Now is a good time to [set up the live server extension](https://youtu.be/mGORIVStWWc) in VSCode, if you haven't already. This extension will save you from the hassle of refreshing the browser window repeatedly to see changes made in your code and will automatically load the most recent change in the browser window.
-   - If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the CSS property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
-   - [Use this image in place of the actual Google logo to avoid getting flagged as malicious](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png)
-   - [Here's a cached page of the Google home page for reference in case the original logo is not there.](https://web.archive.org/web/20191130234759/https://www.google.com/)
-   - [Here's a link to the Google Material Icons page. This is a great resource for free to use open source icons.](https://fonts.google.com/icons)
+   * DON'T BE A PERFECTIONIST! You're just trying to make it _look_ like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel. Any dropdown menus or form submissions or hover-highlighting should be ignored.
+   * USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google it!
+   * Now is a good time to [set up the live server extension](https://youtu.be/mGORIVStWWc) in VSCode, if you haven't already. This extension will save you from the hassle of refreshing the browser window repeatedly to see changes made in your code and will automatically load the most recent change in the browser window.
+   * If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the CSS property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
+   * [Use this image in place of the actual Google logo to avoid getting flagged as malicious](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png)
+   * [Here's a cached page of the Google home page for reference in case the original logo is not there.](https://web.archive.org/web/20191130234759/https://www.google.com/)
+   * [Here's a link to the Google Material Icons page. This is a great resource for free to use open source icons.](https://fonts.google.com/icons)
 2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally. You can either download the Google logo or link directly to its URL on the web in your `<img>` tag.
 3. Next do the navbar across the top, first building the content and then trying to position it. Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
 4. Finally, put in the footer, which should be very similar to the top navbar.
@@ -112,6 +112,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
 
-- If you want to see the art of CSS, check out the [Style Stage](https://stylestage.dev/), which collects submissions that use identical HTML and modify only the CSS to create wildly different (and beautiful) sites.
-- Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro). Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
-- Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
+* If you want to see the art of CSS, check out the [Style Stage](https://stylestage.dev/), which collects submissions that use identical HTML and modify only the CSS to create wildly different (and beautiful) sites.
+* Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro). Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
+* Learn more about GitHub using [this tutorial](https://try.github.io) or read more in [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1).
