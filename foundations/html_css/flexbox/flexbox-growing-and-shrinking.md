@@ -6,21 +6,21 @@ Let's look a little closer at what actually happened when you put `flex: 1` on t
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
+* You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
 
 ### The flex shorthand
 
 The `flex` declaration is actually a shorthand for 3 properties that you can set on a flex item. These properties affect how flex items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
 
-> Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
->
-> Source: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+* Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) stylesheets, saving time and energy.
+
+* Source: [Shorthand properties on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
 In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
 
 ![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/10.png)
 
-The default value of the `flex` property is shown in the above screenshot: `flex-grow: 0`, `flex-shrink: 1`, `flex-basis: 0%`. Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`, so when we put `flex: 1` on our divs, we were actually specifying `flex: 1 1 0%`.
+* The default value of the `flex` property is shown in the above screenshot: `flex-grow: 0`, `flex-shrink: 1`, `flex-basis: 0%`. Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`, so when we put `flex: 1` on our divs, we were actually specifying `flex: 1 1 0%`.
 
 ### flex-grow
 
@@ -70,7 +70,7 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#the-flex-shorthand">What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?</a>
+* <a class="knowledge-check-link" href="#the-flex-shorthand">What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?</a>
 
 ### Additional Resources
 
