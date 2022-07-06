@@ -10,6 +10,12 @@ Sentry.init({
   allowUrls: [
     /https?:\/\/(www\.)?theodinproject\.com/,
   ],
+  ignoreErrors: [
+    'Possible side-effect in debug-evaluate',
+    'Unexpected end of input',
+    'Invalid or unexpected token',
+    'missing ) after argument list',
+  ],
 });
 
 Sentry.configureScope((scope) => {
