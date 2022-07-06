@@ -9,9 +9,9 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 #### Test Drive Your Terminal
 <span id="open-command-line">Open a terminal</span> on your computer.
 
-- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+* **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
 
-- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
+* **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
 
 Before we do anything, take a look at the following text:
 ```
@@ -52,12 +52,12 @@ This section contains a general overview of topics that you will learn in this l
 
 3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
-    1. Create a new directory in your home directory with the name `test`.
-    2. Navigate to the `test` directory.
-    3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
-    5. Navigate back out of the `test` directory.
-    6. Delete the `test` directory.
+    * Create a new directory in your home directory with the name `test`.
+    * Navigate to the `test` directory.
+    * Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    * Open your newly created file in VSCode and make some changes, save the file, and close it.
+    * Navigate back out of the `test` directory.
+    * Delete the `test` directory.
 
     That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
