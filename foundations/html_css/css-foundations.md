@@ -216,7 +216,7 @@ There's really no limit to how many combinators you can add to a rule, so `.one 
 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will simply be enough to help get you started.
 
-#### `color` and `background-color`
+#### color and background-color
 
 The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
 
@@ -235,7 +235,7 @@ p {
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
-#### Typography Basics and `text-align`
+#### Typography Basics and text-align
 
 `font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `sans-serif` (generic family names never use quotes).
 
