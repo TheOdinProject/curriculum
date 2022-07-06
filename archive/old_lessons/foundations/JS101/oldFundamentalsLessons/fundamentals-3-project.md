@@ -6,13 +6,13 @@ You have been through a _ton_ of content, and it would not be surprising if you 
 
 At this point you just need a little more practice!  Go back to the [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the Fundamentals 2 project and complete the following:
 
-* calculator
-* simonSays
-* palindromes
-* snakeCase
-* caesar
-* fibonacci
-* pigLatin
+1. calculator
+2. simonSays
+3. palindromes
+4. snakeCase
+5. caesar
+6. fibonacci
+7. pigLatin
 
 ### Want MORE practice?
 
