@@ -19,18 +19,18 @@ You can ask theoretical, vague questions, but you’re going to get theoretical,
 
 A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below: 
  
-- “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
+* “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
 
 Keep in mind that you’re actually supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this: 
  
-- “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
+* “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
 
-In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
+* In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
 
-Now, if you’re completely stuck with where to start, it’s completely fine to let people know that you’re stuck. Asking where you can start and what you can research to get on the right track empowers you to be able to resolve issues largely on your own in the future, and might even empower you to help others with the same issue later on. It is also recommended that you share your pseudo code so people can nudge you in the right direction or correct any misunderstandings you may have.
+* Now, if you’re completely stuck with where to start, it’s completely fine to let people know that you’re stuck. Asking where you can start and what you can research to get on the right track empowers you to be able to resolve issues largely on your own in the future, and might even empower you to help others with the same issue later on. It is also recommended that you share your pseudo code so people can nudge you in the right direction or correct any misunderstandings you may have.
 
 #### Don’t take asking for more context to heart! 
-People who volunteer in coding communities are here to help! But a question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgement and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly do want to help you, they will ask for more information when needed!
+* People who volunteer in coding communities are here to help! But a question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgement and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly do want to help you, they will ask for more information when needed!
 
 ### Assignment
 
