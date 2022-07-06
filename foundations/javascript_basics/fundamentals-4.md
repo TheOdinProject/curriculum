@@ -36,13 +36,13 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 
 1. Set up the files and Jest by carefully following the directions in the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme).
 2. Now that you have cloned the repository and run `npm install` to install Jest, complete these exercises in the following order:
-   - helloWorld (This exercise is intentionally very simple to ensure that you have set up everything properly!)
-   - repeatString
-   - reverseString
-   - removeFromArray
-   - sumAll
-   - leapYears
-   - tempConversion
+   * helloWorld (This exercise is intentionally very simple to ensure that you have set up everything properly!)
+   * repeatString
+   * reverseString
+   * removeFromArray
+   * sumAll
+   * leapYears
+   * tempConversion
 3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the ['solutions' branch](https://github.com/TheOdinProject/javascript-exercises/tree/solutions) of the repo.
 </div>
 
