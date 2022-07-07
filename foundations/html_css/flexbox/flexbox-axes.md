@@ -2,8 +2,8 @@
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn about the 2 "axes" of a flex container.
-- You'll learn how to change those axes to arrange your content in columns instead of rows.
+* You'll learn about the 2 "axes" of a flex container.
+* You'll learn how to change those axes to arrange your content in columns instead of rows.
 
 The most confusing thing about flexbox is that it can work either horizontally or vertically, and the way some rules work changes a bit depending on which direction you are working with.
 
@@ -45,13 +45,13 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href='#flex-vertical'>How do you make flex items arrange themselves vertically instead of horizontally?</a>
-- <a class="knowledge-check-link" href='#column-flex-basis'>In a `column` flex-container, what does `flex-basis` refer to?</a>
-- <a class="knowledge-check-link" href='#row-flex-basis'>In a `row` flex-container, what does `flex-basis` refer to?</a>
-- <a class="knowledge-check-link" href='#flex-axes'>Why do the previous two questions have different answers?</a>
+* <a class="knowledge-check-link" href='#flex-vertical'>How do you make flex items arrange themselves vertically instead of horizontally?</a>
+* <a class="knowledge-check-link" href='#column-flex-basis'>In a `column` flex-container, what does `flex-basis` refer to?</a>
+* <a class="knowledge-check-link" href='#row-flex-basis'>In a `row` flex-container, what does `flex-basis` refer to?</a>
+* <a class="knowledge-check-link" href='#flex-axes'>Why do the previous two questions have different answers?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
