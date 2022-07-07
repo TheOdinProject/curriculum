@@ -20,9 +20,9 @@ In this lesson we will walk through a few techniques that can be used to help wi
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Explain the three steps in the problem solving process.
-* Explain what pseudocode is and be able to use it to solve problems.
-* Be able to break a problem down into subproblems.
+*   Explain the three steps in the problem solving process.
+*   Explain what pseudocode is and be able to use it to solve problems.
+*   Be able to break a problem down into subproblems.
 
 ### Understand the Problem
 <span id="problem-solving-stages"></span>
@@ -35,10 +35,10 @@ Now that you know what you're aiming to solve, don't jump into coding just yet. 
 <span id="planning-stage"></span>
 Some of the questions you should answer at this stage of the process:
 
-* Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
-* What inputs will your program have? Will the user enter data or will you get input from somewhere else?
-* What's the desired output?
-* Given your inputs, what are the steps necessary to return the desired output?
+*   Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
+*   What inputs will your program have? Will the user enter data or will you get input from somewhere else?
+*   What's the desired output?
+*   Given your inputs, what are the steps necessary to return the desired output?
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
 
@@ -233,9 +233,9 @@ Buzz
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
-  2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
-  3. Read this [What is Pseudocoding](https://web.archive.org/web/20211229231605/https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
+  1.  Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
+  2.  Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
+  3.  Read this [What is Pseudocoding](https://web.archive.org/web/20211229231605/https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 
 </div>
 
@@ -250,10 +250,10 @@ Buzz
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
-* <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
-* <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
-* <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
-* <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
-* <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
-* <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>
+*   <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
+*   <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
+*   <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
+*   <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
+*   <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
+*   <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
+*   <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>
