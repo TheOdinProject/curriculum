@@ -160,7 +160,7 @@ ssh-keygen -t ed25519 -C <youremail>
 ~~~
 
 * When it prompts you for a location to save the generated key, just push `Enter`.
-* Next, it will ask you for a password; enter one if you wish, but it's not required.
+* Next, it will ask you for a passphrase; enter one if you wish, but it's not required.
 
 #### Step 2.4: Link Your SSH Key with GitHub
 
