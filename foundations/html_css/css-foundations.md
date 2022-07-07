@@ -284,6 +284,7 @@ Specificity will only be taken into account when an element has multiple, confli
 
 Let's take a look at a few quick examples to visualize how specificity works. 
 Consider the following HTML and CSS code:
+
 ~~~html
 <!-- index.html -->
 
