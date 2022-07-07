@@ -155,7 +155,9 @@ For example, using an absolute path we can display an image located on The Odin 
 To use images that we have on our own websites, we can use a relative path.
 
 1.  Create a new directory named `images` within the `odin-links-and-images` project.
+
 2.  Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
+
 3.  Rename the image to `dog.jpg`.
 
 Finally add the image to the `index.html` file:
