@@ -74,7 +74,7 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 2. This <a href="https://css-tricks.com/almanac/properties/f/flex/">article</a> helps give a more brief overview of the common flex shorthand values along with a live demo to help visualize it
 
-3. This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex"> MDN Doc </a> summarizes the entire flex short hand values as well as introduce some new syntax
+3. This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex"> MDN Doc </a> summarizes the entire flex short hand values as well as introduces some new syntax that hasn't been covered in the previous 2 articles.
 
 </div>
 
