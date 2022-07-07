@@ -6,9 +6,9 @@ Reading and understanding error messages is a requirement as a developer. At fir
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Name at least three kinds of Javascript errors
-- Identify two parts of an error message that help you find where the error originates
-- Be able to understand how to research and resolve errors
+-   Name at least three kinds of Javascript errors
+-   Identify two parts of an error message that help you find where the error originates
+-   Be able to understand how to research and resolve errors
 
 ### The Anatomy of an Error
 
@@ -53,9 +53,9 @@ Our function `print()` should call on `add()`, which returns a variable named `c
 
 The stack trace tells us that:
 
-1. `c is not defined` in scope of `add()`, which is declared on line 5
-2. `add()` was called by `print()`, which was declared on line 9
-3. `print()` itself was called on line 12.
+1.  `c is not defined` in scope of `add()`, which is declared on line 5
+2.  `add()` was called by `print()`, which was declared on line 9
+3.  `print()` itself was called on line 12.
 
 Thus the stack trace lets you trace the evolution of an error back to its origin, which here is the declaration of `add()`.
 
@@ -89,9 +89,9 @@ These errors are thrown for a few different reasons:
 
 Per MDN, a `TypeError` may be thrown when:
 
-> - an operand or argument passed to a function is incompatible with the type expected by that operator or function;
-> - or when attempting to modify a value that cannot be changed;
-> - or when attempting to use a value in an inappropriate way.
+> -   an operand or argument passed to a function is incompatible with the type expected by that operator or function;
+> -   or when attempting to modify a value that cannot be changed;
+> -   or when attempting to use a value in an inappropriate way.
 
 Say we have two strings that you would like to combine to create one message, such as below:
 
@@ -110,10 +110,10 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 At this point, you might be wondering how we can resolve these errors.
 
-1. Read the error *carefully* and try to understand it on your own.
-2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
-3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). 
-4. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
+1.  Read the error *carefully* and try to understand it on your own.
+2.  Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
+3.  Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). 
+4.  Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 
 ### Errors VS. Warnings
@@ -124,7 +124,7 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 
 <div class="lesson-content__panel" markdown="1">
 
-Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
+1.  Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 </div>
 
 ### Additional Resources
@@ -137,6 +137,6 @@ Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
-- <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
-- <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>
+-   <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
+-   <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
+-   <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>
