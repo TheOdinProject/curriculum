@@ -70,8 +70,9 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common"> this section </a> to understand the basic values of common flex shorthands
+1. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common"> this section </a> to understand the basic values of common flex shorthand values
 
+2. This <a href="https://css-tricks.com/almanac/properties/f/flex/">article</a> helps give a more brief overview of the common flex shorthand values along with a live demo to help visualize it
 </div>
 
 ### Knowledge Check
