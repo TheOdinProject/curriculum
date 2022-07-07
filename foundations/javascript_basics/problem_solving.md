@@ -47,7 +47,7 @@ The last question is where you will write out an algorithm to solve the problem.
 
 Here's an example of what the pseudocode for a simple program that prints all numbers up to an inputted number might look like:
 
-~~~
+~~~text
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number increment the counter by one
@@ -88,7 +88,7 @@ The desired output is a list of numbers from 1 to the number the user entered. B
 Given your inputs, what are the steps necessary to return the desired output?
 The algorithm in pseudocode for this problem:
 
-~~~
+~~~text
 When a user inputs a number
 Loop from 1 to the entered number
 If the current number is divisible by 3 then print "Fizz"
