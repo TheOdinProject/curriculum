@@ -16,7 +16,7 @@ An error is a type of object built into the JS language, consisting of a name/ty
 
 Let’s assume we have written the following code:
 
-~~~js
+~~~javascript
 const a = "Hello"
 const b = "World"
 
@@ -32,7 +32,7 @@ The next part of an error gives us the name of the file in which you can find th
 
 Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
-~~~js
+~~~javascript
 const a = 5;
 const b = 10;
 
@@ -67,7 +67,7 @@ These are some of the most common errors you will encounter, so it’s important
 
 A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
-~~~js
+~~~javascript
 function helloWorld() {
   console.log "Hello World!"
 }
@@ -95,7 +95,7 @@ Per MDN, a `TypeError` may be thrown when:
 
 Say we have two strings that you would like to combine to create one message, such as below:
 
-~~~js
+~~~javascript
 const str1 = "Hello";
 const str2 = "World!";
 const message = str1.push(str2);
