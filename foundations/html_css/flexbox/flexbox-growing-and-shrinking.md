@@ -73,6 +73,9 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 1. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common"> this section </a> to understand the basic values of common flex shorthand values
 
 2. This <a href="https://css-tricks.com/almanac/properties/f/flex/">article</a> helps give a more brief overview of the common flex shorthand values along with a live demo to help visualize it
+
+3. This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex"> MDN Doc </a> summarizes the entire flex short hand values as well as introduce some new syntax
+
 </div>
 
 ### Knowledge Check
