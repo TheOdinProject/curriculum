@@ -6,8 +6,8 @@ All HTML documents have the same basic structure or boilerplate that needs to be
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to write the basic boilerplate for an HTML document
-* How to open HTML documents in your browser
+*   How to write the basic boilerplate for an HTML document
+*   How to open HTML documents in your browser
 
 ### Creating an HTML File
 
@@ -115,11 +115,11 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 > A note:
 > In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.  
 
-1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
-2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
-3. You can use the terminal to open the file in your browser.
-   * `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
-   * `macOS` - Navigate to the directory containing the file and type `open ./index.html`
+1.  You can drag and drop an HTML file from your text editor into the address bar of your browser.
+2.  You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
+3.  You can use the terminal to open the file in your browser.
+   *   `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
+   *   `macOS` - Navigate to the directory containing the file and type `open ./index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
@@ -149,19 +149,19 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
-2. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
-3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
+1.  Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
+2.  Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
+3.  Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
-* <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-* <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
-* <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+*   <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
+*   <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
+*   <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
+*   <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
 
 ### Additional Resources
 
