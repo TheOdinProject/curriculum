@@ -50,9 +50,9 @@ Google has updated some of the required sections in the below tutorials and some
 
 ### Additional Resources
 
- This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
+*   Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
 
 ### Knowledge Check
 
