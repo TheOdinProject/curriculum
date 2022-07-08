@@ -404,7 +404,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#important-note">Where should you include your JavaScript tag in your HTML file when working with DOM nodes?</a>
 * <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
 * <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
-* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
+* <a class="knowledge-check-link" href="#events">Why are event listeners the preferred way to handle events?</a>
 * <a class="knowledge-check-link" href="#method-3">What are the benefits of using named functions in your listeners?</a>
 * <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
 * <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
