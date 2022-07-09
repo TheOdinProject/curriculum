@@ -1,32 +1,38 @@
-<div class="card-main advert">
-  <div class="advert__header">
-    <h2 class="advert__pitch">Are you interested in accelerating your web development learning experience?</h2>
-    <%= link_to "https://www.thinkful.com/?utm_source=odin&utm_medium=cpc&utm_campaign=odin-homepage&utm_content=web-dev-3-icons", class: "button button--primary ad"  do%>
-      Get started
-    <% end %>
-  </div>
-  <div class="advert__body">
-    <a href="https://www.thinkful.com/?utm_source=odin&utm_medium=cpc&utm_campaign=odin-homepage&utm_content=tf-logo" alt="Thinkful" class="advert__brand-anchor ad">
-        <div class="advert__brand">
-          <%= image_tag 'advert/thinkful-logo.svg', alt: 'Thinkful Logo', class: 'advert__logo' %>
-          <h2 class="advert__brand-name">Thinkful</h2>
-        </div>
+<%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+  <% card.header do %>
+    <div class="flex justify-between gap-x-16 items-center border-b-2 border-gray-200 pb-6 flex-col space-y-6 md:flex-row md:space-y-0">
+      <h2 class="text-2xl text-gray-500 text-center w-2/3 md:text-left">
+        Are you interested in accelerating your web development learning experience?
+      </h2>
+      <%= link_to "https://www.thinkful.com/?utm_source=odin&utm_medium=cpc&utm_campaign=odin-homepage&utm_content=web-dev-3-icons", class: "button button--primary" do %>
+        Get started
+      <% end %>
+    </div>
+  <% end %>
+
+  <% card.body(classes: 'flex justify-between flex-col items-center space-y-6 lg:space-y-0 lg:flex-row') do %>
+    <a href="https://www.thinkful.com/?utm_source=odin&utm_medium=cpc&utm_campaign=odin-homepage&utm_content=tf-logo" alt="Thinkful" class="text-gray-800">
+      <div class="flex items-center space-x-4">
+        <%= image_tag 'advert/thinkful-logo.svg', alt: 'Thinkful Logo', class: 'w-14 h-14' %>
+        <h2 class="text-2xl font-bold">Thinkful</h2>
+      </div>
     </a>
-    <ul class="advert__icons-group">
-      <li class="advert__icons-group-item">
-        <%= image_tag 'advert/icon-calendar.svg', alt: '5-6 months', class: 'advert__icon' %>
-        <p class="advert__icon-text">5-6 months</p>
+
+    <ul class="flex items-center space-y-10 flex-col md:flex-row md:space-y-0 md:space-x-10">
+      <li class="flex items-center flex-col">
+        <%= image_tag 'advert/icon-calendar.svg', alt: '5-6 months', class: 'h-10 odin-dark-advert-icon' %>
+        <p class="font-bold text-gray-800">5-6 months</p>
       </li>
 
-      <li class="advert__icons-group-item">
-        <%= image_tag 'advert/icon-guarantee.svg', alt: 'Job Guarantee', class: 'advert__icon' %>
-        <p class="advert__icon-text">Job Guarantee</p>
+      <li class="flex items-center flex-col">
+        <%= image_tag 'advert/icon-guarantee.svg', alt: 'Job Guarantee', class: 'h-10 odin-dark-advert-icon' %>
+        <p class="font-bold text-gray-800">Job Guarantee</p>
       </li>
 
-      <li class="advert__icons-group-item">
-        <%= image_tag 'advert/icon-mentor.svg', alt: '1-on-1 Mentorship', class: 'advert__icon' %>
-        <p class="advert__icon-text">1-on-1 Mentorship</p>
+      <li class="flex items-center flex-col">
+        <%= image_tag 'advert/icon-mentor.svg', alt: '1-on-1 Mentorship', class: 'h-10 odin-dark-advert-icon' %>
+        <p class="font-bold text-gray-800">1-on-1 Mentorship</p>
       </li>
     </ul>
-  </div>
-</div>
+  <% end %>
+<% end %>

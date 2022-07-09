@@ -131,7 +131,7 @@ pre:not(.line-numbers) code {
   color: var(--dark-header-color) !important;
 }
 
-.advert__icon {
+.odin-dark-advert-icon {
   filter: invert(1);
 }
 
