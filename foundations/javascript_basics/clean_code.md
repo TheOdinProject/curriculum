@@ -56,35 +56,35 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 3.  Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should indent the second line __2__ levels, and should try to break immediately _after_ an operator or comma:
 
-~~~javascript
-let reallyReallyLongLine = something + somethingElse + anotherThing +
-  howManyTacos + oneMoreReallyLongThing;
-~~~
+    ~~~javascript
+    let reallyReallyLongLine = something + somethingElse + anotherThing +
+      howManyTacos + oneMoreReallyLongThing;
+    ~~~
 
    ​
 
 4.  Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
-~~~javascript
+    ~~~javascript
 // Good
-const numberOfThings = 10;
-const myName = "Thor";
-const selected = true;
+    const numberOfThings = 10;
+    const myName = "Thor";
+    const selected = true;
 
-// Bad (these start with verbs, could be confused for functions)
-const getCount = 10;
-const isSelected = true;
+    // Bad (these start with verbs, could be confused for functions)
+    const getCount = 10;
+    const isSelected = true;
 
-// Good
-function getCount() {
-  return numberOfThings;
-}
+    // Good
+    function getCount() {
+      return numberOfThings;
+    }
 
-// Bad (it's a noun)
-function myName() {
-  return "Thor";
-}
-~~~
+    // Bad (it's a noun)
+    function myName() {
+      return "Thor";
+    }
+    ~~~
 
 
 ### Assignment
