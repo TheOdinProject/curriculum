@@ -16,6 +16,11 @@
           <% end %>
         </div>
       </div>
+
+      <div class="space-x-6 justify-center hidden md:flex">
+        <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-12')%>
+        <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-12') %>
+      </div>
     <% end %>
 
     <% card.body do %>
@@ -23,11 +28,11 @@
     <% end %>
 
     <% card.footer do |card| %>
-      <div class="flex space-x-6 justify-center sm:items-center sm:justify-start">
-        <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-16 py-3')%>
-        <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: @foundations) %>
+      <div class="flex space-x-6 justify-center sm:items-center sm:justify-start md:hidden">
+        <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-16')%>
+        <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-16') %>
       </div>
-      <% end %>
+    <% end %>
   <% end %>
 
   <div class="relative mb-10 mt-10">
@@ -35,14 +40,14 @@
       <div class="w-full border-t border-gray-300"></div>
     </div>
     <div class="relative flex justify-center">
-      <span class="px-3 bg-white text-2xl font-semibold text-gray-900 odin-dark-bg odin-dark-text"> Then choose a learning path: </span>
+      <span class="px-3 bg-white text-2xl font-semibold text-gray-900 odin-dark-bg odin-dark-text"> Then choose a learning path:</span>
     </div>
   </div>
 
   <div class="flex gap-x-10 gap-y-6 flex-col md:flex-row">
     <% @fullstack_paths.each do |path| %>
 
-      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+      <%= render CardComponent.new(classes: 'flex flex-col odin-dark-bg-accent') do |card| %>
         <% card.header(classes: 'flex flex-col justify-between items-center') do %>
           <%= link_to path_path(path) do %>
             <%= image_tag path.badge_uri, alt: "#{path.title} badge", class: 'w-28 h-28' %>
@@ -54,19 +59,22 @@
           </div>
         <% end %>
 
-        <% card.body do %>
-          <div class="md:h-52">
-              <%= link_to path_path(path), class: "no-underline" do %>
-                <h2 class="text-2xl font-semibold pb-4"><%= path.title %></h2>
-              <% end %>
-            <p class="text-gray-700 leading-normal text-base"><%= path.description %></p>
-          </div>
+        <% card.body(classes: "flex-grow") do %>
+          <%= link_to path_path(path), class: "no-underline" do %>
+            <h2 class="text-2xl font-semibold pb-4">
+              <%= path.title %>
+            </h2>
+          <% end %>
+
+          <p class="text-gray-700 leading-normal text-base">
+            <%= path.description %>
+          </p>
         <% end %>
 
         <% card.footer do %>
-          <div class="flex space-x-6 items-center justify-center sm:justify-start md:justify-center">
-            <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: path, classes: 'px-16 md:px-10 py-3 w-full') %>
-            <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: path, classes: 'md:px-10') %>
+          <div class="flex space-x-6 items-center justify-center sm:justify-start">
+            <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: path, classes: 'px-16 md:px-8 lg:px-12') %>
+            <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: path, classes: 'px-16 md:px-8 lg:px-12') %>
           </div>
         <% end %>
       <% end %>

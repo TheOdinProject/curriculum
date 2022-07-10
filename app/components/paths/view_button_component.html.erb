@@ -1,9 +1,9 @@
 <% if current_user.present? %>
- <%= button_to path_url(path), method: :get, class: "button button--clear odin-dark-clear-button px-16 py-3 #{classes}" do %>
+ <%= button_to path_url(path), method: :get, class: "button button--clear odin-dark-clear-button #{classes}" do %>
     View
   <% end %>
 <% else %>
-  <%= button_to path_url(path), method: :get, class: "button button--dark px-16 py-3 #{classes}" do %>
+  <%= button_to path_url(path), method: :get, class: "button button--dark #{classes}" do %>
     Explore
   <% end %>
 <% end %>
