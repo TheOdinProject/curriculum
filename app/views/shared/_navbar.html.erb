@@ -16,9 +16,9 @@
       <div class="hidden md:ml-6 md:flex sm:items-center">
         <% if user_signed_in? %>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+             <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
             <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
             <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community') %>
-            <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
           </div>
 
           <%= link_to notifications_path, class: "odin-dark-nav-item ml-3 bg-white p-1 rounded-full text-gray-400 relative hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500", data: { test_id: 'navbar-notification-icon' } do %>

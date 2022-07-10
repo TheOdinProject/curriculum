@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   end
 
   authenticated :user do
-    root to: 'users#show', as: :dashboard
+    root to: redirect('/dashboard'), as: :authenticated_root
   end
 
   devise_for :users, controllers: {
@@ -50,7 +50,8 @@ Rails.application.routes.draw do
 
   # failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
-  resources :users, only: %i[show update]
+  resources :users, only: %i[update]
+  get 'dashboard' => 'users#show', as: :dashboard
 
   namespace :users do
     resources :paths, only: :create
