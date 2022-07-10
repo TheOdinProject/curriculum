@@ -29,7 +29,7 @@ In the Elements pane, you can see the entire HTML structure of your page. You ca
 ![Styles Pane](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/02.png)
 <img style="padding: 0em; width: auto" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png" alt="Overwritten style">
 
-### Testing Styles In The Inspector
+### Testing Styles in the Inspector
 
 The Styles pane also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule or click on an existing attribute or value to alter it.
 
