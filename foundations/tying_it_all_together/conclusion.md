@@ -15,15 +15,15 @@ To help you make a decision, here are some perks of each technology:
 #### Ruby and Ruby On Rails
 
 *   Opinionated
-  * You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
-  * You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
+    *   You don't have to make decisions on the structure of your projects. This helps when moving into projects built by others.
+    *   You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
 *   Elegant
-  * Brings a lot of tools to help you develop things in a way that makes your code easy to read.
-  * Often times, solutions in Ruby are much more concise than other languages.
+    *   Brings a lot of tools to help you develop things in a way that makes your code easy to read.
+    *   Often times, solutions in Ruby are much more concise than other languages.
 *   Rapid development
-  * Rails helps you build applications very quickly. This means you can make a greater number of interesting projects than others in the same time frame.
+    *   Rails helps you build applications very quickly. This means you can make a greater number of interesting projects than others in the same time frame.
 *   Single paradigm
-  * Object-oriented programming (OOP) is the Ruby way; many other languages are primarily OOP-based.
+    *   Object-oriented programming (OOP) is the Ruby way; many other languages are primarily OOP-based.
 
 #### JavaScript/Node & Express
 
