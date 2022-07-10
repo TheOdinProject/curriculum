@@ -190,7 +190,7 @@ To break this down:
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
-### Alt attribute
+### Alt Attribute
 
 <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
@@ -210,10 +210,12 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
 2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
 3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
 4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
+
 </div>
 
 ### Knowledge Check

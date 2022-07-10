@@ -48,7 +48,7 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 <html lang="en"></html>
 ```
 
-#### What is the lang attribute?
+#### What Is the Lang attribute?
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
@@ -82,7 +82,7 @@ Back in our `index.html` file, let's add a head element with a charset meta elem
 
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <title>My First Webpage</title>
     </head>
 </html>
@@ -98,7 +98,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <title>My First Webpage</title>
     </head>
 
@@ -127,7 +127,7 @@ Back in the `index.html` file, let's add a heading (more on these later) to the 
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <title>My First Webpage</title>
     </head>
 
@@ -148,9 +148,11 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
 2. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
+
 </div>
 
 ### Knowledge Check

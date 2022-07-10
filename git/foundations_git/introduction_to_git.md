@@ -37,6 +37,7 @@ This section contains a general overview of topics that you will learn in this l
   3. Watch [this video](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) for some history on Git and GitHub, and make sure you know the difference between the two. Git is a technology used in the command line while GitHub is a [website](https://github.com/) you can visit.
   4. If you haven't yet installed Git, visit the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
   5. Take a look at The Odin Project's very own [GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all our [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
+
 </div>
 
 ### Knowledge Check

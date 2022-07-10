@@ -23,7 +23,7 @@ If you are having trouble:
 -   Ensure you followed the steps [here on Step 2.3](/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
 -   Refer to the [workflow](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
-### Tips on when to commit
+### Tips on When to Commit
 
 Don't forget everything we went over in the [previous lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) about commit messages!
 
@@ -64,9 +64,9 @@ The recipe page should have the following content:
 
 1. Add two more recipes with identical page structures to the recipe page you've already created.
 2. Don't forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren't all on one line.
- </div>
+</div>
 
-### Viewing your project on the web
+### Viewing Your Project on the Web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
 
