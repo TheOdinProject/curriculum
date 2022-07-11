@@ -8,7 +8,10 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 ### Lesson Overview
 
+This section contains a general overview of topics that you will learn in this lesson.
 
+-   Learn how to Install Node Version Manager and Node Package Manager
+-   Learn how to run Node console
 
 ### Installing nvm
 
