@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 -   Learn how to Install Node Version Manager and Node Package Manager
 -   Learn how to run Node console
 
-### Installing nvm
+### Installing NVM
 
 <details markdown="block">
   <summary class="dropDown-header">Installation on Linux</summary>
