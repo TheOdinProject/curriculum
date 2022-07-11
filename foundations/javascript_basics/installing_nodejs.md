@@ -31,7 +31,7 @@ Note: You may need to update Ubuntu to the latest version for the Curl installat
 sudo apt update && sudo apt upgrade
 ~~~ 
   
-#### Step 1: Downloading and Installing `nvm`
+#### Step 1: Downloading and Installing NVM
 
 Simply run this command:
 
@@ -41,7 +41,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 This will install `nvm`
 
-#### Step 2: Initializing `nvm`
+#### Step 2: Initializing NVM
 
 In the terminal there should be some directions on how to initialize `nvm`. If not, (or if you don't feel like copying from the terminal), run these commands:
 
