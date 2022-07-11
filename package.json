@@ -11,7 +11,7 @@
     "@babel/plugin-proposal-private-methods": "^7.18.6",
     "@babel/preset-react": "^7.18.6",
     "@fortawesome/fontawesome-free": "^6.1.1",
-    "@hookform/resolvers": "2.9.3",
+    "@hookform/resolvers": "2.9.5",
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
     "@rails/ujs": "^7.0.3",

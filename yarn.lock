@@ -1590,10 +1590,10 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@hookform/resolvers@2.9.3":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.3.tgz#13f6934cfe705e24fac094da377e0621adcfc424"
-  integrity sha512-Eqc/qgjq0VX/TU0a5D2O+yR/kAKflnjaVlYFC1wI2qBm/sgjKTXxv27ijLwHUoHPIF+MUkB/VuQqHJ5DcmbCww==
+"@hookform/resolvers@2.9.5":
+  version "2.9.5"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.5.tgz#adfa2d240a9315f4ab6ff4c63621d22d1b574c07"
+  integrity sha512-4XABrKdE4GpX6v2RZ+Ij1Wrl9qPEl5ZvVhFxROY+SZhP/6TU8gPw0LO4ZS9/GgIbTx3Pw1U8HmcXVAoGOq+7iA==
 
 "@hotwired/stimulus-webpack-helpers@^1.0.1":
   version "1.0.1"
