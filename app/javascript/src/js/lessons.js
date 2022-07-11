@@ -1,6 +1,5 @@
 /* eslint-disable */
 import Stickyfill from 'stickyfilljs';
-import Prism from 'prismjs';
 
 const LESSON_HEADINGS = [
   'Introduction',
@@ -149,7 +148,6 @@ function spyLessonSections() {
 document.addEventListener('DOMContentLoaded', () => {
   if (!isLessonPage()) return;
 
-  Prism.highlightAll();
   setTargetForExternalLinks();
   constructLessonSections();
 
