@@ -133,6 +133,10 @@ For convenience, Node provides an interactive console which lets you run and edi
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
 
+### Assignment
+
+### Knowledge Check
+
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
