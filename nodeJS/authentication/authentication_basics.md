@@ -263,7 +263,7 @@ So, this code checks to see if there is a user defined... if so it offers a welc
 As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
 ~~~javascript
-app.get("/log-out", (req, res) => {
+app.get("/log-out", (req, res, next) => {
   req.logout(function (err) {
     if (err) {
       return next(err);
