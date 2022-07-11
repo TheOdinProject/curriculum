@@ -6,6 +6,10 @@ We're going to install it using `nvm` (Node Version Manager), because it makes i
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
+### Lesson Overview
+
+
+
 ### Installing nvm
 
 <details markdown="block">
