@@ -116,7 +116,7 @@ The output we care about from the response is the "form" object. It should look 
   },
 ~~~
 
-Try changing the `name` attributes of some of the input fields in the form and then submitting again to see how form data in the response changes.
+Try changing the `name` attributes of some of the input fields in the form and removing the attribute entirely, then submit the form again to see how the form data in the response changes.
 
 **Using Form Controls Outside of Forms**
 
