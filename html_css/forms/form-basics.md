@@ -175,7 +175,7 @@ To create a date input, we use the input element with a `type` attribute of "dat
 
 **Text Area**
 
-The text area element provides an input box that can accept text that spans multiple lines like user comments and reviews. It can also be resized by clicking and dragging the bottom right corner to make it bigger or smaller.
+While technically not an input element, the text area element provides an input box that can accept text that spans multiple lines like user comments and reviews. It can also be resized by clicking and dragging the bottom right corner to make it bigger or smaller.
 
 To create a text area, we use the `<textarea>` element:
 
