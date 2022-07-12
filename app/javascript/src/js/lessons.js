@@ -56,13 +56,6 @@ function filterHeadings() {
     .filter(isCommonHeading);
 }
 
-function setTargetForExternalLinks() {
-  getElements('.lesson-content a[href^=http]').forEach((externalLink) => {
-    externalLink.setAttribute('target', '_blank');
-    externalLink.setAttribute('rel', 'noreferrer');
-  });
-}
-
 function addActiveClass() {
   const links = getElements('.lesson-navigation__link');
 
@@ -148,7 +141,6 @@ function spyLessonSections() {
 document.addEventListener('DOMContentLoaded', () => {
   if (!isLessonPage()) return;
 
-  setTargetForExternalLinks();
   constructLessonSections();
 
   if (!window.matchMedia('(min-width: 992px)').matches) {
