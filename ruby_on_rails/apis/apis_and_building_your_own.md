@@ -11,16 +11,12 @@ When you build applications that have more dynamic front-end functionality (as c
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
 ### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+By the end of this lesson, you should be able to do the following:
 
-* How does Rails know which type of file you are expecting back when you make an HTTP request?
-* What is the purpose of the `#respond_to` method?
-* How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?
-* What are the two steps performed behind the scenes by the `#to_json` method?
-* How do you tell a controller action to render nothing but an error message?
-* How do you build your own custom error messages?
-* Why can't you use session-based controller authentication methods if you want people to access your API programmatically?
-* What is "Service Oriented Architecture?"
+* Create a Rails Controller action capable of returning JSON and XML responses.
+* Create an API for a model that hides certain attributes from consumers of your API.
+* Create custom error messages for responding to faulty requests.
+* Explain Service Oriented Architecture. 
 
 ### API Basics
 
@@ -38,7 +34,7 @@ You might want to make your Rails application entirely into an API backend for a
 
 #### The Basics
 
-If you want your Rails app to return JSON instead of HTML, you need to tell your controller to do so.  The cool thing is that the same controller action can return different things depending on whether your user is making a normal request from a browser or an API call from the command line.  It determines which type of request is being made based on the extension of the file asked for, e.g. `example.xml` or `example.json`.  
+If you want your Rails app to return JSON instead of HTML, you need to tell your controller to do so.  The cool thing is that the same controller action can return different things depending on whether your user is making a normal request from a browser or an API call from the command line. <span id="http-request-format">It determines which type of request is being made based on the extension of the file asked for, e.g. `example.xml` or `example.json`.</span>  
 
 You can see which file type Rails thinks you want by checking your server log:
 
@@ -88,7 +84,7 @@ Let's say you want to make sure you don't return the user's email address with t
 
 In the old days, you'd just overwrite your own version of `#to_json` but these days you don't need to do that -- you will actually overwrite the `#as_json` method instead.  The `#as_json` method is used by `#to_json`, so modifying it will implicitly change the output of `#to_json`, but in a very specific way.  
 
-`#to_json` does two things -- it runs `#as_json` and gets back a hash of attributes which will need to be rendered as JSON.  Then it will actually perform the rendering into JSON using `ActiveSupport::json.encode`.  So by modifying `#as_json`, you're more specifically targeting the part of the `#to_json` method that you actually want to change.
+<span id="to-json-steps">`#to_json` does two things -- it runs `#as_json` and gets back a hash of attributes which will need to be rendered as JSON.  Then it will actually perform the rendering into JSON using `ActiveSupport::json.encode`.</span>  So by modifying `#as_json`, you're more specifically targeting the part of the `#to_json` method that you actually want to change.
 
 In our case, we'll do this by modifying `#as_json` in our model to return only the attributes we want:
 
@@ -128,14 +124,15 @@ See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/
 
 #### Rendering Nothing or Errors
 
-Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [this blog](https://web.archive.org/web/20201128082344/https://www.mobomo.com/2008/07/using-http-status-codes-for-rails-ajax-error-handling/) for one view and [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for a set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
+Sometimes you just want to send out an HTTP error code without any response body. [Rails guides](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses) once again comes in really handy with an elegant solution for this problem. 
+Here's a simple example (again we are just rendering the error in all cases):
 
 ~~~ruby
   # app/controllers/users_controller.rb
   class UsersController < ApplicationController
-  
+ 
     def index
-      render :nothing => true, :status => 404
+      head :not_found 
     end
     
   end
@@ -152,7 +149,7 @@ Sometimes Heroku can require additional steps to properly display your error pag
 
 Let's say you want to only allow an API call if your user is logged in.  Your existing controller authentication will work to cover this as well -- just make sure you've got the right `#before_action` set up (e.g. `before_action :require_login`).  This might be the case if both logged in and non-logged-in users will be viewing the page but each should see different data.  You don't want your not-logged-in-users to be able to make API requests for sensitive data just like you wouldn't want them to be able to visit an unauthorized HTML page.
 
-If you want to handle requests from an application that isn't a web browser (e.g. the command line), you can't rely on browser cookies to authenticate you.  That's why most APIs issue custom tokens to each authorized user which must be sent along with the request as part of the authentication process.  We'll talk a bit more about tokens in the next lesson.
+<span id="api-tokens">If you want to handle requests from an application that isn't a web browser (e.g. the command line), you can't rely on browser cookies to authenticate you.  That's why most APIs issue custom tokens to each authorized user which must be sent along with the request as part of the authentication process.</span>  We'll talk a bit more about tokens in the next lesson.
 
 #### Next Steps
 
@@ -188,13 +185,6 @@ SOA is a big deal.  There are certainly a lot of issues that crop up when you're
 
 You probably won't be worrying too much about SOA while building "toy" applications for yourself but it will certainly come up if you find yourself working at a tech company and it's a good principle to become familiar with.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data) section 7 to learn about rendering JSON and XML.
-  2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
-</div>
-
 ### Conclusion
 
 We'll get more into using your application as an API during the course on JavaScript.  In that course, you'll build some full stack apps that use JavaScript AJAX calls to smooth out the user experience, which basically involves asking your Rails app for some XML or JSON data instead of a full HTML page.  Then you'll get to build some single page JavaScript apps which rely on the API provided by your Rails app for all the necessary database data but otherwise completely run the show on the front end.
@@ -202,6 +192,25 @@ We'll get more into using your application as an API during the course on JavaSc
 The best way to really figure out APIs is to build them and interface with them, so we'll focus on that in the projects.
 
 In the next lesson, we'll cover working with other people's APIs, which can add all kinds of firepower to your own application.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data) section 7 to learn about rendering JSON and XML.
+  2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
+</div>
+
+### Knowledge Check
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+* <a class="knowledge-check-link" href="#http-request-format">How does Rails know which type of file you are expecting back when you make an HTTP request?</a>
+* <a class="knowledge-check-link" href="#rendering-json-or-xml">What is the purpose of the `#respond_to` method?</a>
+* <a class="knowledge-check-link" href="#specifying-attributes-to-return">How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?</a>
+* <a class="knowledge-check-link" href="#to-json-steps">What are the two steps performed behind the scenes by the `#to_json` method?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses">How do you tell a controller action to render nothing but an error message?</a>
+* <a class="knowledge-check-link" href="https://web-crunch.com/posts/custom-error-page-ruby-on-rails">How do you build your own custom error messages?</a>
+* <a class="knowledge-check-link" href="#api-tokens">Why can't you use session-based controller authentication methods if you want people to access your API programmatically?</a>
+* <a class="knowledge-check-link" href="#service-oriented-architecture-soa">What is "Service Oriented Architecture?</a>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.

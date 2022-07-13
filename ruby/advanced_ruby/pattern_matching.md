@@ -167,7 +167,7 @@ end
 puts a
 #=> 1
 ~~~
- 
+
 Above you might have thought you were comparing the value held in the initial `a` variable against the value `1` from the case statement but what actually happened is a variable assignment pattern match. To avoid this Ruby provides the pin operator `^` which instead then matches against a variable of that name.
 
 ~~~ruby
@@ -655,7 +655,7 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
-- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a> 
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a>
 - <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
 - <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
 - <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>

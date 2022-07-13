@@ -18,7 +18,7 @@ CRUD is a concept that comes up a lot in web development, and it's the type of t
 
 CRUD stands for: <span id="crud">_Create, Read, Update_ and _Delete_</span>. These are the four basic functions that you will be building into your database driven apps.  Put simply, if you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
 
-In your library example then this simply means that we are going to be building the ability for users to `create` entries (add books, authors or genres to the database), `read` entries (or, retrieve lists of books and other things from the database), `update` entries (edit details of an entry), and `delete` entries (remove them from the database).
+In your library example, this simply means that we are going to be building the ability for users to `create` entries (add books, authors or genres to the database), `read` entries (or, retrieve lists of books and other things from the database), `update` entries (edit details of an entry), and `delete` entries (remove them from the database).
 
 Of course, this is simply a concept and not some sort of rule that must be followed.  You may not want to allow users to do all of these actions, or you may want to limit which users can do what at any given time.  For example, if you are creating a social networking site, you might only allow users to `read` the profile information of their friends or connections, and you might not want to allow people to `delete` things at all.
 

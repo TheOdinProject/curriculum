@@ -1,4 +1,4 @@
-### Writing Clean Code
+### Introduction
 
 Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
@@ -9,6 +9,8 @@ This section contains a general overview of topics that you will learn in this l
 - Know how to distinguish hard to read code from easy to read code.
 - Use programming principles to make your code cleaner.
 - Write good comments.
+
+### Writing Clean Code
 
 Consider the following two snippets of JavaScript:  
 
@@ -87,10 +89,11 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 ### Assignment
 
-Read through these articles that discuss a few elements of writing good clean code.
+<div class="lesson-content__panel" markdown="1">
 
 1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
+</div>
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

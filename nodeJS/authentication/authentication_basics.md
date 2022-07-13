@@ -263,8 +263,12 @@ As one last step... let's make that log out link actually work for us. As you ca
 
 ~~~javascript
 app.get("/log-out", (req, res) => {
-  req.logout();
-  res.redirect("/");
+  req.logout(function (err) {
+    if (err) {
+      return next(err);
+    }
+    res.redirect("/");
+  });
 });
 ~~~
 

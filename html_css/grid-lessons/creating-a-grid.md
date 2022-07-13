@@ -172,6 +172,8 @@ Now that you’ve made a grid you can start to see how easy it is to control the
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
 - The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces some additional concepts.
 
 ### Knowledge Check

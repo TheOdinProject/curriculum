@@ -11,27 +11,27 @@ By the end of this lesson, you should be able to do the following:
  - Describe how to merge two hashes.
 
 ### Arrays vs. Hashes
-You're sitting in your cubicle, diligently working away (because you would never dream of slacking off at work), when lunch time rolls around. You need to grab a bite to eat, but how are you going to go about requesting food? For the purposes of this parable, you have two options: a vending machine or a nice restaurant. 
+You're sitting in your cubicle, diligently working away (because you would never dream of slacking off at work), when lunch time rolls around. You need to grab a bite to eat, but how are you going to go about requesting food? For the purposes of this parable, you have two options: a vending machine or a nice restaurant.
 
 If you were to go to the vending machine, you would see nice, orderly rows of food where each option is labeled with a number. These labels are the indices of the vending machine array. It's important to note that the indices are not interchangeable: "12" will always come before "13" and after "11". You request your food by using an index to tell the vending machine what you want. It understands the index and returns whatever lives in that spot. Mmmmm, nothing like a lunch of Flamin' Hot Cheetos and Diet Coke! You are a programmer, after all.
 
 Your other option is to sit yourself down at a table covered with a nice white tablecloth, where a pleasant waiter will see to your every need. The first thing they will do is bring you a menu, which for those of you that have only been eating out of vending machines so far in your life, lists out all of your dining options labeled with the name of the dish, such as ["sublimated artichoke frittata" or "whole pork belly, market acorns, and activated shell bean"](http://www.brooklynbarmenus.com/). In this menu hash, the dish names are called **keys**: they are the labels that are used to identify your dining options. The food that those dish names represent are the **values** that the keys point to. To order your food, you give your waiter the key (you tell him the name of the dish you want), and he returns the value of that key (food that matches the description on the menu). Mmmmm, nothing like a lunch of free-range bison with corn and peach compote and an IPA! You are a programmer, after all.
 
-There are two important differences to note between the vending machine array and the menu hash. First, it's far easier for us to use the names of things to find what we're looking for than to have to translate what we want into numerical indices. This is a huge advantage of using a hash: no more having to count out array elements to request what we want! Second, the items on a menu can appear in any order, and we'll still get exactly what we want as long as we use the correct name. This unordered aspect of hashes isn't true for arrays, which are highly dependent on order. 
+There are two important differences to note between the vending machine array and the menu hash. First, it's far easier for us to use the names of things to find what we're looking for than to have to translate what we want into numerical indices. This is a huge advantage of using a hash: no more having to count out array elements to request what we want! Second, the items on a menu can appear in any order, and we'll still get exactly what we want as long as we use the correct name. This unordered aspect of hashes isn't true for arrays, which are highly dependent on order.
 
 ### Creating Hashes
-Let's dive in and create a hash! 
+Let's dive in and create a hash!
 
 ~~~ruby
-my_hash = { 
-  "a random word" => "ahoy", 
-  "Dorothy's math test score" => 94, 
+my_hash = {
+  "a random word" => "ahoy",
+  "Dorothy's math test score" => 94,
   "an array" => [1, 2, 3],
-  "an empty hash within a hash" => {} 
+  "an empty hash within a hash" => {}
 }
 ~~~
 
-This example shows the most basic way to create a hash, which is to use the hash literal of curly braces (`{}`). 
+This example shows the most basic way to create a hash, which is to use the hash literal of curly braces (`{}`).
 
 The above hash has four keys that point to four different values. For example, the first key, `"a random word"`, points to the value `"ahoy"`. As you can see, the values of a hash can be a number, a string, an array, or even another hash. Keys and values are associated with a special operator called a **hash rocket**: `=>`.
 
@@ -66,7 +66,7 @@ If you try to access a key that doesn't exist in the hash, it will return `nil`:
 shoes["hiking"]   #=> nil
 ~~~
 
-Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreak havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash. 
+Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreak havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash.
 
 ~~~ruby
 shoes.fetch("hiking")   #=> KeyError: key not found: "hiking"
@@ -108,9 +108,9 @@ Hashes respond to many of the same methods as arrays do since they both employ R
 A couple of useful methods that are specific to hashes are the `#keys` and `#values` methods, which very unsurprisingly return the keys and values of a hash, respectively. Note that both of these methods return *arrays*.
 
 ~~~ruby
-books = { 
-  "Infinite Jest" => "David Foster Wallace", 
-  "Into the Wild" => "Jon Krakauer" 
+books = {
+  "Infinite Jest" => "David Foster Wallace",
+  "Into the Wild" => "Jon Krakauer"
 }
 
 books.keys      #=> ["Infinite Jest", "Into the Wild"]
@@ -126,29 +126,29 @@ hash2 = { "b" => 254, "c" => 300 }
 hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 ~~~
 
-Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same. 
+Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same.
 
-For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-3.0.3/Hash.html)
+For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-3.1.2/Hash.html)
 
 ### Symbols as Hash Keys
 In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:
 
 ~~~ruby
-# 'Rocket' syntax 
-american_cars = { 
-  :chevrolet => "Corvette", 
-  :ford => "Mustang", 
-  :dodge => "Ram" 
+# 'Rocket' syntax
+american_cars = {
+  :chevrolet => "Corvette",
+  :ford => "Mustang",
+  :dodge => "Ram"
 }
 # 'Symbols' syntax
-japanese_cars = { 
-  honda: "Accord", 
-  toyota: "Corolla", 
-  nissan: "Altima" 
+japanese_cars = {
+  honda: "Accord",
+  toyota: "Corolla",
+  nissan: "Altima"
 }
 ~~~
 
-That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" } or you'll get a syntax error. 
+That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" } or you'll get a syntax error.
 
 When you use the cleaner 'symbols' syntax to create a hash, you'll still need to use the standard symbol syntax when you're trying to access a value. In other words, regardless of which of the above two syntax options you use when creating a hash, they both create symbol keys that are accessed the same way.
 
@@ -162,7 +162,7 @@ japanese_cars[:honda]   #=> "Accord"
 <div class="lesson-content__panel" markdown="1">
 
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [replit.com](https://replit.com/languages/ruby).
-2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
+2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
 

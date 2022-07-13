@@ -96,7 +96,11 @@ You should now have enough basics to get started with React routing. There are a
 1. Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
 2. Browse a little bit through the React Router [documentation](https://reactrouter.com/docs/en/v6/getting-started/overview). You don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. This is a great resource to refer back to.
 3. Watch this [video on React Router by Dev Ed](https://www.youtube.com/watch?v=Law7wfdg_ls) for reviewing. You should already be familiar with those concepts.
-    *  **Note:** What we have learned in this lesson is the latest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
+    *  <div class="lesson-note" markdown="1">
+
+       What we have learned in this lesson is the latest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
+
+       </div>
 </div>
 
 ### Additional Resources

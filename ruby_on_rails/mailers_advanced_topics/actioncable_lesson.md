@@ -109,7 +109,7 @@ Now if you were to spin up a server and open localhost in a browser you should n
 
 Let's now deal with setting up the server connection. As we covered in the Action Cable lesson, the connection manages all the channels that a client subscribes to and deals with authentication and authorization.
 
-If you open up `app/channels/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Action Cable, with the only difference being we can use the user details set on the warden object environment variable.
+If you open up `app/channels/application_cable/connection.rb` we can authorise a connection when the user logs in. The code is pretty identical to the [connection](https://guides.rubyonrails.org/action_cable_overview.html#server-side-components-connections) found in the Rails Guides on Action Cable, with the only difference being we can use the user details set on the warden object environment variable.
 
 ~~~ruby
 module ApplicationCable
@@ -226,7 +226,7 @@ Yours will have some comments that aren't important, but you will need to verify
 Right at the bottom of our `message_channel.js` file add the following code
 
 ~~~js
-document.addEventListener("turbolinks:load", () => {
+document.addEventListener("turbo:load", () => {
   let form = document.querySelector('#message-form')
   if(form) {
     form.addEventListener('submit', (e) => {
@@ -242,7 +242,7 @@ document.addEventListener("turbolinks:load", () => {
 })
 ~~~
 
-Firstly, since JS assets are loaded in the head of our html, the Javascript files will be evaluated often before the DOM has rendered, so we first want to make sure the DOM has been created. We do this using the `turbolinks:load` event listener. Then we want to check if we are on a page with the form. It might seem obvious since we only have one page but you can never be too careful...
+Firstly, since JS assets are loaded in the head of our html, the Javascript files will be evaluated often before the DOM has rendered, so we first want to make sure the DOM has been created. We do this using the `turbo:load` event listener. Then we want to check if we are on a page with the form. It might seem obvious since we only have one page but you can never be too careful...
 
 Next if we are on a page with the form we add an event listener to it on its submit property. When the form is submitted we first prevent the default submit from happening. This stops the page rerendering. Then we grab the value from our input field and check it isn't an empty string. If it is we simply return and do nothing. If it isn't, then we create a JS object with a key named `body` which holds the value of our messageInput. If you're wondering why I did this under its own object instead of just sending `message: messageInput` in the send method it's because often you'll submit more than one parameter, and when we do create a Message Model this is similar to how it will be returned from a controller.
 
@@ -384,7 +384,7 @@ Then in our hangouts index view we can change the form to use `form_with`. You d
 If you try and submit a message now it will still work. That's because in our `message_channel.js` file we still have the code hijacking the submit event and preventing the default. You should now delete the bit of the code. Open the `message_channel.js` file and delete
 
 ~~~js
-document.addEventListener("turbolinks:load", () => {
+document.addEventListener("turbo:load", () => {
   let form = document.querySelector('#message-form')
   if(form) {
     form.addEventListener('submit', (e) => {

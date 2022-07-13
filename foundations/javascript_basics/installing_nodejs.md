@@ -17,7 +17,13 @@ To install nvm properly, you'll need `curl`. Simply run the command below:
 ~~~bash
 sudo apt install curl
 ~~~ 
+  
+Note: You may need to update Ubuntu to the latest version for the Curl installation to complete. If so, run the command below:
 
+~~~bash
+sudo apt update && sudo apt upgrade
+~~~ 
+  
 #### Step 1: Downloading and Installing `nvm`
 
 Simply run this command:
