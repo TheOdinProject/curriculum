@@ -142,3 +142,7 @@ pre:not(.line-numbers) code {
 .odin-dark-clear-button:hover {
   color: black !important;
 }
+
+.skill__sub-title {
+  color: var(--dark-font-color) !important;
+}
