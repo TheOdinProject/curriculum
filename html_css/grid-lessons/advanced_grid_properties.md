@@ -33,7 +33,9 @@ All the properties here are simply to make our grid items look a bit nicer. They
 
 #### `.grid-container`
 
-For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom right corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid. It should be noted that if you are viewing this CodePen example directly on the lesson (embedded), you would do well to use the zoom feature to view it at 0.5x or 0.25x.
+For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom right corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid.
+
+**Change Zoom Levels:** Make sure to view the CodePen embeds at 0.5x or 0.25x so that there's room to resize the container. 
 
 We use `overflow: auto` to enable scrolling if we resize the container to be smaller than our grid can accommodate.
 
@@ -309,6 +311,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 2. grid-layout-3
 
 ### Additional Resources
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).

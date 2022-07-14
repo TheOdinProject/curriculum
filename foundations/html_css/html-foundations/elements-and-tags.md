@@ -34,15 +34,15 @@ Using the correct elements for content is called semantic HTML. We will explore 
   1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
 * <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)

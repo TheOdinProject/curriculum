@@ -255,8 +255,8 @@ end
 An `unless` statement works in the opposite way as an `if` statement: it only processes the code in the block if the expression evaluates to `false`. There isn't much more to it.
 
 ~~~ruby
-age = 18
-unless age < 17
+age = 19
+unless age < 18
   puts "Get a job."
 end
 ~~~
@@ -264,10 +264,10 @@ end
 Just like with `if` statements, you can write a simple `unless` statement on one line, and you can also add an `else` clause.
 
 ~~~ruby
-age = 18
-puts "Welcome to a life of debt." unless age < 17
+age = 19
+puts "Welcome to a life of debt." unless age < 18
 
-unless age < 17
+unless age < 18
   puts "Down with that sort of thing."
 else
   puts "Careful now!"
@@ -282,8 +282,8 @@ The ternary operator is a one-line `if...else` statement that can make your code
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
 ~~~ruby
-age = 18
-response = age < 17 ? "You still have your entire life ahead of you." : "You're all grown up."
+age = 19
+response = age < 18 ? "You still have your entire life ahead of you." : "You're all grown up."
 puts response #=> "You're all grown up."
 ~~~
 
@@ -292,8 +292,8 @@ Here, because the expression evaluated to `false`, the code after the `:` was as
 Writing this as an `if...else` statement would be much more verbose:
 
 ~~~ruby
-age = 18
-if age < 17
+age = 19
+if age < 18
   response = "You still have your entire life ahead of you."
 else
   response = "You're all grown up."

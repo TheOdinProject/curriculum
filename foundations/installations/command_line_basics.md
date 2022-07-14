@@ -42,16 +42,26 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     
-    - Setup (Download the exercise files, but skip the Software Install step, you already have everything you need)
-    - Introducing the Shell
-    - Navigating Files and Directories
-    - Working With Files and Directories
-    - Pipes and Filters
+    * Setup (Download the exercise files, but skip the Software Install step, you already have everything you need)
+    * Introducing the Shell
+    * Navigating Files and Directories
+    * Working With Files and Directories
+    * Pipes and Filters
     
 2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
 
-</div>
+3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
+    1. Create a new directory in your home directory with the name `test`.
+    2. Navigate to the `test` directory.
+    3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
+    5. Navigate back out of the `test` directory.
+    6. Delete the `test` directory.
+
+    That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
+
+</div>
 
 #### Use the Command Line Like a Pro
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. When forced to do something over and over again, the odds are good that they'll figure out a way to automate it instead. The good news is that you get to take advantage of the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
@@ -66,7 +76,7 @@ $ cd D
 ```
 But once you've typed in a little bit more, it will complete the name for you, making it possible to write out the full file path above by typing as little as `cd Doc[tab]O[tab]f[tab]j[tab]cal[tab]` (depending on what other folders exist on your computer). Test it out, and get comfortable with how this works. You're gonna love it.
 
-Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all its files in one go. This shortcut is also commonly used with Git (later on it's covered in detail) with commands like `git add .` to add all the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period) to open up all the project files. See the next section of this lesson for a more detailed example.
+Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all its files in one go. This shortcut is also commonly used with Git (later on it's covered in detail) with commands like `git add .` to add all the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period). It will launch VS Code and open up the project folder in the sidebar. See the next section of this lesson for a more detailed example.
 
 **A Note on typing passwords**: When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), the characters should not be visible to you as you type them. While you might think the terminal isn't responding, don't worry! This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the Terminal keeps your password secure.
 
@@ -77,22 +87,6 @@ On Windows and Linux, you can open VSCode from the command line by typing `code`
 ##### MacOS Users:
 
 MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
-
-### Exercise
-In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
-
-<div class="lesson-content__panel" markdown="1">
-
-1. Create a new directory in your home directory with the name `test`.
-2. Navigate to the `test` directory.
-3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-4. Open your newly created file in VSCode and make some changes, save the file, and close it.
-5. Navigate back out of the `test` directory.
-6. Delete the `test` directory.
-
-</div>
-
-That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
@@ -115,6 +109,6 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd">How do you display the name of the directory you are currently in?</a>
 * <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls">How do you display the contents of the directory you are currently in?</a>
 * <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7">How do you create a new directory?</a>
-* <a class="knowledge-check-link" href="#create-file">How do you create a new file?</a>
+* <a class="knowledge-check-link" href="https://swcarpentry.github.io/shell-novice/03-create/index.html#create-a-text-file">How do you create a new file?</a>
 * <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9">How do you destroy a directory or file?</a>
 * <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10">How do you rename a directory or file?</a>

@@ -238,7 +238,13 @@ Save the file. You can close VSCode now; the rest of the steps take place in the
 
 #### Step 3.3: Add Changes to Git and GitHub
 
-Stage and commit your changes so that the repo is ready for prime time when we push it to Heroku next!
+First, run:
+
+~~~bash
+bundle lock --add-platform x86_64-linux --add-platform ruby
+~~~
+
+Now, you can stage and commit your changes so that the repo is ready for prime time when we push it to Heroku next!
 
 ~~~bash
 git add .

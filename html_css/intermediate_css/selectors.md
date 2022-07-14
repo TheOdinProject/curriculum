@@ -89,7 +89,7 @@ Before diving into pseudo-selectors, a quick note on the difference between [pse
 ### Pseudo-classes
 Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together.
 
-**Note:** The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from [this article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+**Note:** The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from [this article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/).
 
 As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
 
@@ -98,7 +98,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 [`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
 
-<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the users mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop down menu.
+<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the user's mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop-down menu.
 
 [`:active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
@@ -130,18 +130,18 @@ Structural pseudo-classes are a powerful way to select elements based on their p
 
 <span id="first-child-knowledge-check">[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/)</span> and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that are the first or last sibling.
 
-Similarly [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) will match elements that have no children at all, and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that don't have any siblings.
+Similarly, [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) will match elements that have no children at all, and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that don't have any siblings.
 
 For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
 
 ~~~css
-  .myList:nth-child(5) {/* Selects the 5th child of myList */}
+  .myList:nth-child(5) {/* Selects the 5th element with class myList */}
 
-  .myList:nth-child(3n) { /* Selects every 3rd child of myList */}
+  .myList:nth-child(3n) { /* Selects every 3rd element with class myList */}
 
-  .myList:nth-child(3n + 3) { /* Selects every 3rd child of myList, beginning with the 3rd */}
+  .myList:nth-child(3n + 3) { /* Selects every 3rd element with class myList, beginning with the 3rd */}
 
-  .myList:nth-child(even) {/* Selects every even child of myList */}
+  .myList:nth-child(even) {/* Selects every even element with class myList */}
 ~~~
 
 ### Pseudo-elements
@@ -150,6 +150,8 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 [`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
 
 [`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::first-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
+
+[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
 [`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
@@ -172,8 +174,6 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 Using these pseudo-elements this way would give us this result:
 
 Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
-
-[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
  There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
@@ -267,4 +267,4 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#first-child-knowledge-check">What is the difference between `div:first-child` and `div:last-child`? What will each select?</a>
 * <a class="knowledge-check-link" href="#hover-active-knowledge-check">What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?</a>
 * <a class="knowledge-check-link" href="#type-text-knowledge-check">How could you select all input elements with a type of text?</a>
-* <a class="knowledge-check-link" href="#thunder-knowledge-check">How could you select all classes that begin with `thunder` ?</a>
+* <a class="knowledge-check-link" href="#thunder-knowledge-check">How could you select all classes that begin with `thunder`?</a>
