@@ -76,10 +76,7 @@ function constructLessonNavigation() {
   const commonHeadings = filterHeadings();
 
   if (commonHeadings.length < 2) {
-    const navigationColumn = document.querySelector('.lesson .col-lg-3');
-    const lessonColumn = document.querySelector('.lesson .row');
-    navigationColumn.classList.add('d-none');
-    lessonColumn.classList.add('justify-content-center');
+    return;
   } else {
     const lessonNavigationHTML = lessonNavigation(commonHeadings);
     const lessonNavigationElement =

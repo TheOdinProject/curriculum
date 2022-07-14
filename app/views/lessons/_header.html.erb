@@ -1,0 +1,21 @@
+<header class="mb-16 grid grid-cols-12">
+  <div class="flex space-x-4 items-center col-span-full md:col-start-3 xl:col-start-2">
+    <%= render ProgressBadgeComponent.new(
+        course: lesson.course,
+        current_user: current_user,
+        url: courses_progress_path(lesson.course.id)
+    )%>
+
+    <div>
+      <h1 class="text-2xl font-bold capitalize text-gray-700 min-w-full" data-test-id="lesson-title-header">
+        <%= lesson.title %>
+      </h1>
+
+      <%= link_to path_course_url(lesson.course.path, lesson.course), class: 'no-underline' do %>
+        <h2 class="min-w-full text-lg text-gray-500" data-test-id="course-title-header">
+          <%= lesson.course.title %> Course
+        </h2>
+      <% end %>
+    </div>
+  </div>
+</header>

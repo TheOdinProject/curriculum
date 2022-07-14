@@ -39,13 +39,13 @@
           <div class="w-2 h-2 bg-gray-300 rounded-full"></div>
           <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
         </div>
-        <p class="transition-opacity delay-200 duration-500 ease-in-out opacity-0 text-sm text-gray-400 leading-5 break-words w-20 text-center font-semibold" data-progress-target="percentage"></p>
+        <p class="transition-opacity delay-200 duration-500 ease-in-out opacity-0 text-xs sm:text-sm text-gray-400 leading-5 break-words w-16 sm:w-20 text-center font-semibold" data-progress-target="percentage"></p>
       </span>
     </div>
   <% end %>
 <% else %>
   <%= link_to path_course_path(course.path, course) do %>
-    <div class="shadow-md rounded-full flex h-24 w-24 sm:h-28 sm:w-28" data-test-id='default-badge'>
+    <div class="shadow-md rounded-full flex h-24 w-24 sm:h-28 sm:w-28 odin-dark-bg-accent" data-test-id='default-badge'>
       <%= image_tag badge, alt: "#{course.title} badge", class: 'p-2.5' %>
     </div>
   <% end %>

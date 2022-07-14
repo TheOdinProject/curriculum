@@ -4,9 +4,9 @@
   h3 {
     margin-bottom: 20px;
     margin-top: 50px;
-    font-weight: bold;
+    font-weight: 600;
     color: $text-primary;
-    font-size: 1.5em;
+    font-size: 1.25em;
     width: fit-content;
 
     &:first-child {
@@ -22,7 +22,7 @@
 
   h4 {
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 500;
     color: $text-primary;
     font-size: 18px;
     letter-spacing: 0.3px;
@@ -130,9 +130,9 @@
   }
 
   details .dropDown-header {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-bottom: 1em;
-    font-weight: bold;
+    font-weight: 500;
     color: $text-primary;
     cursor: pointer;
 
