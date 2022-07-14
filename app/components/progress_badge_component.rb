@@ -25,7 +25,7 @@ class ProgressBadgeComponent < ViewComponent::Base
   def borderless_badge
     badge_uri = @course.badge_uri.split('.').first
 
-    "badges/#{badge_uri}-borderless" || fallback_icon
+    "badges/#{badge_uri}-borderless.svg" || fallback_icon
   end
 
   def fallback_icon
