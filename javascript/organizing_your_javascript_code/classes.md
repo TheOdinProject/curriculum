@@ -20,9 +20,10 @@ After this lesson and completing the assignments, you will be able to:
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently. "Getters and Setters" are a useful feature!
-2. [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. Look especially at the 'extends' and 'Mixins' sections. React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core React component which gives you access to all their built-in functionality.
-3. [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some pros and cons for classes.  There are many people who think that class syntax is misleading for Javascript, and thus Factory Functions (from the previous lesson) are inherently better. __WE__ are not saying that classes are bad!  We just want you to be informed on the opinions of both sides.
+1. [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to speed on "Getters and Setters".
+2. [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently.
+3. [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. Look especially at the 'extends' and 'Mixins' sections. React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core React component which gives you access to all their built-in functionality.
+4. [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some pros and cons for classes.  There are many people who think that class syntax is misleading for Javascript, and thus Factory Functions (from the previous lesson) are inherently better. __WE__ are not saying that classes are bad!  We just want you to be informed on the opinions of both sides.
 </div>
 
 ### Practice
@@ -41,7 +42,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
 </a>
 * <a class="knowledge-check-link" href="https://javascript.info/class#not-just-a-syntactic-sugar">Explain the differences between using an object constructor and a class.</a>
-* <a class="knowledge-check-link" href="https://javascript.info/class">Explain what "getters" & "setters" are.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/property-accessors">Explain what "getters" & "setters" are.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/class">Understand what computed names and class fields are.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Be able to use inheritance with classes.</a>
