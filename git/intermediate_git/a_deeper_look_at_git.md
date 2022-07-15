@@ -37,7 +37,7 @@ Before we get started with the lesson, let's create a Git playground in which we
 ~~~bash
   $ touch test{1..4}.md
   $ git add test1.md && git commit -m 'Create first file'
-  $ git add test2.md && git commit -m 'Create send file'
+  $ git add test2.md && git commit -m 'Create second file'
   $ git add test3.md && git commit -m 'Create third file and create fourth file'
 ~~~
 
