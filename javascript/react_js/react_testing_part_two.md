@@ -93,7 +93,7 @@ You might have come across the concept of mocking modules. In React, when the co
 
 ### React Testing in the Real World
 
-If you're a logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
+If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
 
 Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is that we don't have to understand it all to follow along with this lesson!
 

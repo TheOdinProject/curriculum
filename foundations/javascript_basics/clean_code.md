@@ -89,10 +89,11 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 ### Assignment
 
-Read through these articles that discuss a few elements of writing good clean code.
+<div class="lesson-content__panel" markdown="1">
 
 1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
 2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
+</div>
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

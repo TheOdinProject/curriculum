@@ -6,7 +6,7 @@ You've already done a bit of text-manipulation in our Foundations lessons. This 
 * You'll learn some more text-related CSS properties.
 
 ### Fonts
-In our foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
+In our Foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
 
 #### The System Font Stack
  If you use the `font-family` property to change to a font like `impact` or `Times New Roman`, and those fonts do not happen to be installed on your user's computer, then a fallback font will be displayed.  If you have not defined a fallback, then the default HTML font will be used, which is often somewhat ugly. For this reason, it's common to see somewhat long stacks of fonts listed on projects. 
@@ -65,7 +65,7 @@ h1 {
 This method _may_ be more reliable than relying on a third-party font API, but it is always wise to include a fallback.
 
 ### Text Styles
-You learned the basics of manipulating fonts in our foundations lessons, but there is quite a bit more that you can do with CSS when it comes to manipulating text styles. These rules are all relatively simple and self-explanatory. You can refer to the docs for any questions you might have.
+You learned the basics of manipulating fonts in our Foundations lessons, but there is quite a bit more that you can do with CSS when it comes to manipulating text styles. These rules are all relatively simple and self-explanatory. You can refer to the docs for any questions you might have.
 
 #### font-style
 Typically used to make a font italic. You learned about the HTML `<em>` tag, which uses an italic font, but `<em>` _also_ signifies that the text it wraps is significant or should be emphasized in some way. A good rule of thumb to follow is that if you just want text to be italic (or bold, underlined, highlighted, etc.), use a CSS property. Otherwise, if text should have some sort of semantic emphasis, use the correct HTML element.
@@ -89,7 +89,7 @@ We should use the `em` element if italics is required for emphasis.
 ~~~
 
 #### letter-spacing
-Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. Can also be aesthetically pleasing in some cases, like headers.
+Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. It can also be aesthetically pleasing in some cases, like headers.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWomjGr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWomjGr">
@@ -101,7 +101,7 @@ Letter spacing does what you would expect.... it changes the space between lette
 Obviously, use this sparingly and with care. Do not make your site hard to read!
 
 #### line-height
-Line height adjusts the space between lines in wrapped text. Adding a little line-height can increase readability
+Line height adjusts the space between lines in wrapped text. Adding a little line-height can increase readability.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="vYZmXzY" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYZmXzY">
@@ -113,7 +113,7 @@ Line height adjusts the space between lines in wrapped text. Adding a little lin
 #### text-transform
 Text transform simply changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
 
-Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
 
 #### text-shadow
 As you might expect, `text-shadow` adds a shadow around the text in the selected element. This one is best used sparingly, but can be used to great effect in headings or other presentational text.
