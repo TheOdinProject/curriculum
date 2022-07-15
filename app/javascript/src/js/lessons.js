@@ -94,30 +94,7 @@ function isLessonPage() {
 function constructLessonSections() {
   const lessonHeadings = getElements('.lesson-content h3');
 
-  lessonHeadings.forEach(buildScrollSpy);
   lessonHeadings.forEach(constructInternalLinks);
-}
-
-function buildScrollSpy(heading) {
-  const id = heading.getAttribute('id');
-  heading.removeAttribute('id');
-  const section = document.createElement('div');
-  section.setAttribute('id', id);
-
-  if (isCommonHeading(heading.innerText)) {
-    section.classList.add('scrollspy');
-  }
-
-  heading.parentNode.insertBefore(section, heading);
-
-  while (
-    heading.nextElementSibling !== null &&
-    heading.nextElementSibling.tagName !== 'H3'
-  ) {
-    section.appendChild(heading.nextElementSibling);
-  }
-
-  section.insertBefore(heading, section.firstChild);
 }
 
 function constructInternalLinks(heading) {
