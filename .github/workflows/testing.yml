@@ -1,5 +1,8 @@
 name: codespell
 on: pull_request
+permissions:
+  contents: read
+
 jobs:
     codespell:
         name: Check for spelling errors
