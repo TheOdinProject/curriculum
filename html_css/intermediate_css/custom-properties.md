@@ -139,7 +139,7 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 
 ### Additional Resources
 
-1. [This video](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction to CSS custom properties. Go ahead and watch it.
+1. This [video on CSS custom properties](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction. Go ahead and watch it.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
