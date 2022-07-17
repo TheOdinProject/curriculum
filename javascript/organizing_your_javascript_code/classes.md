@@ -10,7 +10,7 @@ After this lesson and completing the assignments, you will be able to:
 
 - Describe the pros and cons of using classes in JavaScript.
 - Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
-- Explain the differences between using an object constructor and a class.
+- Explain the differences between an object constructor and a class.
 - Explain what "getters" & "setters" are.
 - Understand what computed names and class fields are.
 - Describe function binding.
@@ -41,7 +41,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Describe the pros and cons of using classes in JavaScript.</a>
 * <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
 </a>
-* <a class="knowledge-check-link" href="https://javascript.info/class#not-just-a-syntactic-sugar">Explain the differences between using an object constructor and a class.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/class#not-just-a-syntactic-sugar">Explain the differences between an object constructor and a class.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/property-accessors">Explain what "getters" & "setters" are.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/class">Understand what computed names and class fields are.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
