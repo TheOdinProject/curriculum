@@ -24,7 +24,7 @@
         <% end %>
       <% end %>
 
-      <div class="col-span-3 sm:col-span-2">
+      <div class="col-span-3 lg:col-span-2">
         <%= render CardComponent.new(classes: 'h-full') do |card| %>
           <% card.header(classes: 'px-4') do %>
             <h3 class="font-bold text-4xl">Origin of The Odin Project</h3>
@@ -37,7 +37,7 @@
         <% end %>
       </div>
 
-      <div class="col-span-3 sm:col-span-1">
+      <div class="col-span-3 lg:col-span-1">
         <%= render CardComponent.new do |card| %>
           <% card.header(classes: 'flex px-4 align-middle') do %>
             <a href="https://www.github.com/theodinproject" target="_blank"><i class="fab fa-github fa-3x"></i></a>
