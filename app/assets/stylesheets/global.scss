@@ -5,9 +5,6 @@ html {
 
 body {
   padding-right: 0 !important; // a hacky fix to avoid 15px right padding added when a modal is displayed/hidden
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 a {
