@@ -50,6 +50,10 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 3. Work your way down the list above!  Each step will involve a new challenge but you've got the tools.
 4. You can populate data like users and posts using the [Faker](https://github.com/stympy/faker) gem, which is basically just a library of sample names and emails.  It may just be easier, though, for you to write your own seeds in the `db/seeds.rb` file, which gets run if you type `$ rake db:seed`.
 
+#### Final Step 
+
+1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.    
+
 </div>
 
 ### Additional Resources

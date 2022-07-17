@@ -41,3 +41,7 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 3. This project does not have to be responsive, but if you'd like to you can expand or shrink the project cards section when resizing the browser window.
 4. You don't have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
 5. Don't forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
+
+#### Step 6: Section Feedback 
+
+1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSf_hNwIjvqcPZyl9Lx41mgJNQKp04qOro03SI8ABw4Zp7U_4w/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
