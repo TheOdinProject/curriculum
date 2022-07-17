@@ -16,8 +16,6 @@
 
 import Rails from '@rails/ujs';
 
-import './layouts/application.css';
-
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import 'bootstrap/dist/js/bootstrap';
