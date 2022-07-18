@@ -161,7 +161,7 @@ end
 # ++++++++++++++++++++
 course.add_section do |section|
   section.title = 'Conclusion'
-  section.description = "You've come an exceptional distance already, now there's just the matter of wrapping it all together into one coherant package and creating something real. This is your Final Exam and a major feather in your cap. Once you've completed this section, you should have the confidence to tackle pretty much anything."
+  section.description = "You've come an exceptional distance already, now there's just the matter of wrapping it all together into one coherent package and creating something real. This is your Final Exam and a major feather in your cap. Once you've completed this section, you should have the confidence to tackle pretty much anything."
   section.identifier_uuid = '42521d3c-c22e-481f-9885-9ef1156897c6'
 
   section.add_lessons(
