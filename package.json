@@ -23,7 +23,7 @@
     "@sentry/browser": "^7.6.0",
     "@stimulus/polyfills": "^2.0.0",
     "@tailwindcss/typography": "^0.4.1",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10",
     "axios": "^0.27.2",
     "babel-loader": "8",
     "babel-plugin-prismjs": "^2.1.0",
