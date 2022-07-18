@@ -1,6 +1,6 @@
 <footer>
   <div class="max-w-7xl px-4 sm:px-6 lg:px-8 py-3 mx-auto">
-    <div class="flex justify-center lg:justify-between py-5">
+    <div class="flex justify-center lg:justify-between py-8">
       <div class="w-80">
         <div class='flex-shrink-0 hidden lg:block items-center'>
           <%= render LogoComponent.new(theme: cookies[:theme], classes: 'block h-15 w-auto') %>
@@ -19,11 +19,7 @@
       <%= render "shared/footer_cta" %>
     </div>
 
-    <div class="flex flex-col-reverse justify-between lg:flex-row items-center lg:pb-4 gap-y-6">
-      <a href="https://www.adachiu.design" class="text-gold-600 text-base odin-dark-text">
-        Web design by Ada Chiu
-      </a>
-
+    <div class="flex lg:flex-row items-center lg:pb-4 gap-y-6 pt-6">
       <div class="flex items-center space-x-0 gap-x-8 gap-y-3 flex-wrap justify-center md:block md:space-x-10 odin-dark-text">
         <%= link_to "About", about_path, class: "hover:text-gray-500" %>
         <%= link_to "FAQ", faq_path, class: "hover:text-gray-500", data: { test_id: 'faq-link' } %>
