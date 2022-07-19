@@ -36,7 +36,7 @@
           <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
           <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community') %>
           <%= render Nav::ItemComponent.new(path: login_path, text: 'Log In', test_id: 'nav-login') %>
-          <%= link_to 'Get Started', sign_up_path, class: 'button button--primary button--medium', data: { test_id: 'nav-signup' } %>
+          <%= link_to 'Get Started', sign_up_path, class: 'button button--primary md:px-2 md:py-2 lg:px-4', data: { test_id: 'nav-signup' } %>
           <%= render ThemeSwitcherComponent.new(theme: cookies[:theme], icon_only: true) %>
         </div>
 

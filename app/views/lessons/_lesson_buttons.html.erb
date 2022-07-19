@@ -1,24 +1,26 @@
-<%= link_to path_course_path(course.path, course), class: 'button button--secondary lesson-button-group__item lesson-button', data: { test_id: 'view-course-btn' } do %>
-  <i class="lesson-button__icon far fa-map"></i>View Course
-<% end %>
-
-<% if user_signed_in? %>
-  <%= render CompleteButtonComponent.new(lesson: lesson, current_user: current_user) %>
-<% else %>
-  <%= link_to(
-    'Login to track progress',
-    login_path,
-    class: 'button button--primary lesson-button-group__item lesson-button',
-    data: { test_id: 'login_button' }
-  )%>
-<% end %>
-
-<% if lesson.next_lesson %>
-  <%= link_to lesson_path(lesson.next_lesson), class: "button button--secondary lesson-button-group__item lesson-button", data: { test_id: 'next-lesson-btn' } do %>
-    <i class="lesson-button__icon far fa-arrow-alt-circle-right" aria-hidden="true"></i>Next Lesson
-   <% end %>
-<% elsif lesson.choose_path_lesson? %>
-  <%= link_to paths_url, class: 'button button--secondary lesson-button-group__item lesson-button', data: { test_id: "choose-path-lesson-btn" } do %>
-    <i class="lesson-button__icon fas fa-road" aria-hidden="true"></i>Choose Path
+<div class="flex flex-col justify-center max-w-sm mx-auto space-y-6 md:max-w-full md:space-y-0 md:flex-row md:space-x-7">
+  <%= link_to path_course_path(course.path, course), class: 'button button--secondary', data: { test_id: 'view-course-btn' } do %>
+    <i class=" pr-2 text-lg far fa-map"></i>View Course
   <% end %>
-<% end %>
+
+  <% if user_signed_in? %>
+    <%= render CompleteButtonComponent.new(lesson: lesson, current_user: current_user) %>
+  <% else %>
+    <%= link_to(
+      'Login to track progress',
+      login_path,
+      class: 'button button--primary',
+      data: { test_id: 'login_button' }
+    )%>
+  <% end %>
+
+  <% if lesson.next_lesson %>
+    <%= link_to lesson_path(lesson.next_lesson), class: "button button--secondary", data: { test_id: 'next-lesson-btn' } do %>
+      <i class="pr-2 text-lg far fa-arrow-alt-circle-right" aria-hidden="true"></i>Next Lesson
+    <% end %>
+  <% elsif lesson.choose_path_lesson? %>
+    <%= link_to paths_url, class: 'button button--secondary', data: { test_id: "choose-path-lesson-btn" } do %>
+      <i class="pr-2 text-lg fas fa-road" aria-hidden="true"></i>Choose Path
+    <% end %>
+  <% end %>
+</div>
