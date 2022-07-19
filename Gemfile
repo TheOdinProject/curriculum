@@ -38,7 +38,7 @@ gem 'seed-fu', '~> 2.3'
 gem 'sentry-rails', '~> 5.3'
 gem 'sentry-ruby', '~> 5.3'
 gem 'sentry-sidekiq', '~> 5.3'
-gem 'shakapacker', '6.4.1'
+gem 'shakapacker', '6.5.0'
 gem 'sidekiq', '~> 6.5'
 gem 'view_component', '~> 2.61'
 
