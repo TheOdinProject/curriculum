@@ -29,8 +29,8 @@
 
     <% card.footer do |card| %>
       <div class="flex space-x-6 justify-center sm:items-center sm:justify-start md:hidden">
-        <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-16')%>
-        <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-16') %>
+        <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-10')%>
+        <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: @foundations, classes: 'px-10') %>
       </div>
     <% end %>
   <% end %>
@@ -73,8 +73,8 @@
 
         <% card.footer do %>
           <div class="flex space-x-6 items-center justify-center sm:justify-start">
-            <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: path, classes: 'px-16 md:px-8 lg:px-12') %>
-            <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: path, classes: 'px-16 md:px-8 lg:px-12') %>
+            <%= render Paths::SelectButtonComponent.new(current_user: current_user, path: path, classes: 'px-10 lg:px-12') %>
+            <%= render Paths::ViewButtonComponent.new(current_user: current_user, path: path, classes: 'px-10 lg:px-12') %>
           </div>
         <% end %>
       <% end %>
