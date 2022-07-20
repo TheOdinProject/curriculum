@@ -74,7 +74,7 @@ With the Turbo Frame helper, you can substitute the ID for a variable. For insta
 
 ~~~erb
 <% @articles.each do |article| %>
-  <%= turbo_frame_tag article %>
+  <%= turbo_frame_tag article do %>
     <%= article.title %>
   <% end %>
 <% end %>
