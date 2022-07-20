@@ -8,14 +8,12 @@ namespace :curriculum do
   namespace :content do
     desc 'Import all lessons content from GitHub'
     task import: :environment do
-      Rails.logger.info 'Importing lesson content...'
+      progressbar = ProgressBar.create total: Lesson.count, format: '%t: |%w%i| Completed: %c %a %e'
 
-      Lesson.all.each_with_index do |lesson, i|
-        Rails.logger.info "Importing #{i + 1}/#{Lesson.count}: #{lesson.title}"
+      Lesson.all.each do |lesson|
         lesson.import_content_from_github
+        progressbar.increment
       end
-
-      Rails.logger.info 'Lesson content import complete.'
     end
 
     desc 'Verify that all lessons have content'
