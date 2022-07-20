@@ -5,8 +5,8 @@
   <%= render 'lessons/header', lesson: @lesson %>
 
   <main class="grid grid-cols-12 gap-x-6">
-    <article class="col-span-full md:col-span-8 md:col-start-3 xl:col-span-8 xl:col-start-2 ">
-      <div class="lesson-content max-w-prose text-lg" data-controller="clickable-images syntax-highlighting external-link-targets">
+    <article class="col-span-full xl:col-span-8 xl:col-start-2">
+      <div class="lesson-content max-w-prose mx-auto xl:mx-0 text-lg" data-controller="clickable-images syntax-highlighting external-link-targets">
         <%= @lesson.content.html_safe %>
       </div>
     </article>
