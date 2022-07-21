@@ -12,6 +12,7 @@ RSpec.describe Kramdown::DocumentSections do
 
           ### Second header
           Test second header
+            ### nested header
 
           ### Third header
           Test third header
@@ -31,6 +32,7 @@ RSpec.describe Kramdown::DocumentSections do
 
           </section><section id='second-header' class='scrollspy' markdown='1'>### Second header
           Test second header
+            ### nested header
 
           </section><section id='third-header' class='scrollspy' markdown='1'>### Third header
           Test third header
