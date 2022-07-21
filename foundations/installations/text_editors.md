@@ -94,7 +94,7 @@ More advanced users might want to install VSCode using the built-in `apt` packag
   1. Familiarizing yourself with VSCode will allow you to save time and become more productive. Learn the basics of using this text editor by watching [these introductory videos](https://code.visualstudio.com/docs/introvideos/basics). Watch only the first video as the second involves installing Node.js which will not be needed at this stage.
 </div>
 
-### Additional resources
+### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.

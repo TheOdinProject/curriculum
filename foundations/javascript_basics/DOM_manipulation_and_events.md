@@ -212,18 +212,21 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
-### Important note:
-> Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
->
-> Alternatively, you can link the JavaScript file in the `<head>` of your HTML document. Use the `<script>` tag with the `src` attribute containing the path to the JS file, and include the `defer` keyword to load the file *after* the HTML is parsed, as such:
->
->~~~html
-><head>
->  <script src="js-file.js" defer></script>
-></head>
->~~~
->
-> Read the second bullet point in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html) for more information, which also includes a link to additional script loading strategies.
+<div class="lesson-note" markdown="1">
+
+Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
+
+Alternatively, you can link the JavaScript file in the `<head>` of your HTML document. Use the `<script>` tag with the `src` attribute containing the path to the JS file, and include the `defer` keyword to load the file *after* the HTML is parsed, as such:
+
+~~~html
+<head>
+  <script src="js-file.js" defer></script>
+</head>
+~~~
+
+Read the second bullet point in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html) for more information, which also includes a link to additional script loading strategies.
+
+</div>
 
 ### Exercise
 
@@ -376,12 +379,16 @@ Some useful events include:
 
 You can find a more complete list with explanations of each event on [this page](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
-### Practice
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
 1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
 2. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
+
+</div>
 
 ### Knowledge Check
 
@@ -397,7 +404,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#important-note">Where should you include your JavaScript tag in your HTML file when working with DOM nodes?</a>
 * <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
 * <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
-* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
+* <a class="knowledge-check-link" href="#events">Why are event listeners the preferred way to handle events?</a>
 * <a class="knowledge-check-link" href="#method-3">What are the benefits of using named functions in your listeners?</a>
 * <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
 * <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>

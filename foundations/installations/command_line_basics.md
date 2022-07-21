@@ -42,16 +42,26 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     
-    - Setup (Download the exercise files, but skip the Install Software step, you already have everything you need)
-    - Introducing the Shell
-    - Navigating Files and Directories
-    - Working With Files and Directories
-    - Pipes and Filters
+    * Setup (Download the exercise files, but skip the Software Install step, you already have everything you need)
+    * Introducing the Shell
+    * Navigating Files and Directories
+    * Working With Files and Directories
+    * Pipes and Filters
     
 2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
 
-</div>
+3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
+    1. Create a new directory in your home directory with the name `test`.
+    2. Navigate to the `test` directory.
+    3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
+    5. Navigate back out of the `test` directory.
+    6. Delete the `test` directory.
+
+    That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
+
+</div>
 
 #### Use the Command Line Like a Pro
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. When forced to do something over and over again, the odds are good that they'll figure out a way to automate it instead. The good news is that you get to take advantage of the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
@@ -77,22 +87,6 @@ On Windows and Linux, you can open VSCode from the command line by typing `code`
 ##### MacOS Users:
 
 MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
-
-### Exercise
-In this exercise, you will practice creating files and directories and deleting them. You'll need to enter the commands for this exercise in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
-
-<div class="lesson-content__panel" markdown="1">
-
-1. Create a new directory in your home directory with the name `test`.
-2. Navigate to the `test` directory.
-3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-4. Open your newly created file in VSCode and make some changes, save the file, and close it.
-5. Navigate back out of the `test` directory.
-6. Delete the `test` directory.
-
-</div>
-
-That's it--you're done with command line basics! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
