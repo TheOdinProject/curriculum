@@ -66,6 +66,21 @@ In practice you will likely not be using complex values for `flex-grow`, `flex-s
 
 It _is_ possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common">this section</a> to understand the basic values of common flex shorthand values
+
+2. This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex">MDN Doc</a> summarizes the entire flex short hand values as well as introduces some new syntax that hasn't been covered in the previous 2 articles.
+
+3. This <a href="https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/">CSS Tricks</a> article that explains the individual flex-grow, flex-shrink and flex-basis in detail
+
+4. Finally, Watch this <a href="https://www.youtube.com/watch?v=vh-ZpSIcwI8">video</a> to help summarize the concepts of flex-grow, flex-shrink, and flex basis that were covered in the previous article.
+5. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common"> this section </a> to understand the basic values of common flex shorthands
+
+</div>
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -76,4 +91,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
