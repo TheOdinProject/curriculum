@@ -77,7 +77,6 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 3. This <a href="https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/">CSS Tricks</a> article that explains the individual flex-grow, flex-shrink and flex-basis in detail
 
 4. Finally, Watch this <a href="https://www.youtube.com/watch?v=vh-ZpSIcwI8">video</a> to help summarize the concepts of flex-grow, flex-shrink, and flex basis that were covered in the previous article.
-5. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common"> this section </a> to understand the basic values of common flex shorthands
 
 </div>
 
