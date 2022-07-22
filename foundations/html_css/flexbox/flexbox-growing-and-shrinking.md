@@ -72,7 +72,7 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 1. Read <a href ="https://www.w3.org/TR/css-flexbox-1/#flex-common">W3C's flex section</a> to understand the basic values of common flex shorthand values
 
-2. This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex">MDN Doc</a> summarizes the entire flex short hand values as well as introduces some new syntax that hasn't been covered in the previous 2 articles.
+2. This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex">MDN Doc</a> summarizes the entire flex short hand values as well as introduces some new syntax that hasn't been covered in the previous article.
 
 3. This <a href="https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/">CSS Tricks</a> article explains the individual flex-grow, flex-shrink and flex-basis properties in detail
 
