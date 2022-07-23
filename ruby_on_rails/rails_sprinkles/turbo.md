@@ -92,7 +92,7 @@ Let us replace the `/show` view with the `/edit` view on an article:
 # views/articles/show.html.erb
 
 ...
-<%= turbo_frame_tag @article %>
+<%= turbo_frame_tag @article do %>
   Content for our article!
   <%= link_to "Edit Article", edit_article_path(@article) %>
 <% end %>
@@ -103,7 +103,7 @@ Let us replace the `/show` view with the `/edit` view on an article:
 # views/articles/edit.html.erb
 
 ...
-<%= turbo_frame_tag @article %>
+<%= turbo_frame_tag @article do %>
   Form to edit the article
   <%= link_to "Return to Article", @article %>
 <% end %>
