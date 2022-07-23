@@ -91,35 +91,12 @@ function isLessonPage() {
   return document.querySelector('.lesson') !== null;
 }
 
-function constructLessonSections() {
-  const lessonHeadings = getElements('.lesson-content h3');
-
-  lessonHeadings.forEach(constructInternalLinks);
-}
-
-function constructInternalLinks(heading) {
-  const uri = location.href.replace(location.hash, '');
-  const { id } = heading.parentElement;
-  const internalLink = document.createElement('a');
-  internalLink.setAttribute('href', `${uri}#${id}`);
-  internalLink.textContent = heading.textContent;
-  internalLink.className = 'internal-link';
-  heading.appendChild(internalLink);
-  heading.firstChild.remove();
-}
-
-function spyLessonSections() {
-  $('.scrollspy').scrollSpy({ scrollOffset: 50 });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   if (!isLessonPage()) return;
-
-  constructLessonSections();
 
   if (!window.matchMedia('(min-width: 992px)').matches) {
     return;
   }
+
   constructLessonNavigation();
-  spyLessonSections();
 });

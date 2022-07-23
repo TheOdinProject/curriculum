@@ -1,4 +1,5 @@
 require './lib/kramdown/document_sections'
+require './lib/kramdown/converter/odin_html'
 
 class MarkdownConverter
   def initialize(markdown)
@@ -9,7 +10,7 @@ class MarkdownConverter
     sections = Kramdown::DocumentSections.new(markdown).all_sections
 
     if sections.any?
-      sections.map { |section| Kramdown::Document.new(section.content).to_html }.join
+      sections.map { |section| Kramdown::Document.new(section.content, auto_ids: false).to_html }.join
     else
       Kramdown::Document.new(markdown).to_html
     end
