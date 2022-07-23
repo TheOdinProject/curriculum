@@ -1,4 +1,4 @@
-### Project: Hangman
+### Introduction
 
 Files are a great way to save and reload a game, so we'll give it a shot here by building [Hangman](https://en.wikipedia.org/wiki/Hangman_(game)).
 
