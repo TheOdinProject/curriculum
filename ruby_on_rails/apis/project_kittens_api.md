@@ -41,7 +41,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
     Which looks like:
 
-    <img src="http://farm4.staticflickr.com/3805/11357337313_6dd795c9c6.jpg">
+    ![A Dog in snow](http://farm4.staticflickr.com/3805/11357337313_6dd795c9c6.jpg)
 
     We could also add in additional parameters like `size` on the end.
 
