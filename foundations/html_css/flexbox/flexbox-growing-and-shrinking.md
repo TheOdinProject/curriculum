@@ -58,7 +58,7 @@ An important implication to notice here is that when you specify `flex-grow` or 
 
 ### flex-auto
 
-`flex auto` is one of the short hands of flex. When flex auto is called it can be the inherits the values of `flex-grow: 1 flex-shrink: 1 and flex:basis: auto` or `flex 1 1 auto`
+`flex auto` is one of the short hands of flex. When flex auto is called it can be the inherits the values of `flex-grow: 1 flex-shrink: 1 and flex:basis: auto` or `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex short hand.
 
 > #### Important note about flex-basis:
 >
