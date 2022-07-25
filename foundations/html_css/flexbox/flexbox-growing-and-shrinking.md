@@ -22,6 +22,8 @@ In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and 
 
 The default value of the `flex` property is shown in the above screenshot: `flex-grow: 0`, `flex-shrink: 1`, `flex-basis: 0%`. Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`, so when we put `flex: 1` on our divs, we were actually specifying `flex: 1 1 0%`.
 
+### flex-auto
+
 ### flex-grow
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
