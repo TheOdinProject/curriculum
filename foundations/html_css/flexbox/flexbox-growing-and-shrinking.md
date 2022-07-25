@@ -22,8 +22,6 @@ In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and 
 
 The default value of the `flex` property is shown in the above screenshot: `flex-grow: 0`, `flex-shrink: 1`, `flex-basis: 0%`. Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`, so when we put `flex: 1` on our divs, we were actually specifying `flex: 1 1 0%`.
 
-### flex-auto
-
 ### flex-grow
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
@@ -57,6 +55,10 @@ An important implication to notice here is that when you specify `flex-grow` or 
 ### flex-basis
 
 `flex-basis` simply sets the initial size of a flex item, so any sort of `flex-grow`ing or `flex-shrink`ing starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. The reason we had to change it to `auto` in the `flex-shrink` example is that with the basis set to `0`, those items would ignore the item's width, and everything would shrink evenly. Using `auto` as a flex-basis tells the item to check for a width declaration (`width: 250px`).
+
+### flex-auto
+
+`flex auto` is one of the short hands of flex. When flex auto is called it can be the inherits the values of `flex-grow: 1 flex-shrink: 1 and flex:basis: auto` or `flex 1 1 auto`
 
 > #### Important note about flex-basis:
 >
