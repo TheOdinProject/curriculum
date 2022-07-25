@@ -6,24 +6,9 @@
         { "process": "worker", "quantity": 1 }
       ],
       "buildpacks": [
-        {
-          "url": "https://github.com/gaffneyc/heroku-buildpack-jemalloc.git"
-        },
-        {
-          "url": "https://github.com/carwow/heroku-buildpack-cacheload.git"
-        },
-        {
-          "url": "heroku/nodejs"
-        },
-        {
-          "url": "heroku/ruby"
-        },
-        {
-          "url": "https://github.com/carwow/heroku-buildpack-cachesave.git"
-        },
-        {
-          "url": "https://github.com/carwow/heroku-buildpack-cleanup.git"
-        }
+        { "url": "https://github.com/gaffneyc/heroku-buildpack-jemalloc.git" },
+        { "url": "heroku/nodejs" },
+        { "url": "heroku/ruby" }
       ],
       "addons": [
         "heroku-postgresql:hobby-dev",
