@@ -18,14 +18,8 @@ CUSTOM SECTION CONTENT.
 
 1.  A RESOURCE ITEM
     *   AN INSTRUCTION ITEM
-</div>
-
-### Practice
-
-<div class="lesson-content__panel" markdown="1">
-
-1.  A PRACTICE ITEM
-    *   A TASK ITEM
+2. A PRACTICE ITEM
+    * A TASK ITEM
 </div>
 
 ### Knowledge Check
