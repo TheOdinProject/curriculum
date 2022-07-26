@@ -8,10 +8,10 @@ removed without reallocation of any other elements.
 In some programming languages the size of an array is a concern and one of the ways
 to overcome that problem and allow dynamically allocated data is using linked lists.
 
-Luckily in **Ruby** arrays aren't limited to a certain size, so you don't have to think
+Luckily in **Ruby** and **Javascript** arrays aren't limited to a certain size, so you don't have to think
 about overcoming that limitation.
 
-So if array size is not a limitation in Ruby, are linked lists really necessary?
+So if array size is not a limitation, are linked lists really necessary?
 The short answer to that is _no_; however, it's the simplest of the dynamic data
 structures and it will give you a solid foundation, so you can understand more
 complex data structures like graphs and binary trees with more ease.
@@ -39,8 +39,8 @@ For a more thorough explanation, use these resources:
 <div class="lesson-content__panel" markdown="1">
   You will need two classes:
 
-1. `LinkedList` class, which will represent the full list.
-2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
+1. `LinkedList` class / object, which will represent the full list.
+2. `Node` class / object, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
 
 Build the following methods in your linked list class:
 
