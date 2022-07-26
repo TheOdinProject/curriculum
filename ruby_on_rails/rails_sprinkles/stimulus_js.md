@@ -139,7 +139,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
     static targets = ["name", "output"]
     greet() {
-        this.nameTarget.html = this.inputTarget.value     
+        this.nameTarget.html = this.outputTarget.value
     }
 }
 ~~~
