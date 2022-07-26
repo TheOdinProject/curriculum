@@ -1,4 +1,4 @@
-'Status: Needs Review':
+'Status: Needs Triage':
   - '**/*'
 
 'Course: Advanced HTML/CSS':
@@ -25,7 +25,7 @@
 'Course: Ruby on Rails':
   - 'ruby_on_rails/**/*'
 
-'Type: Foundations':
+'Course: Foundations':
   - 'foundations/**/*'
 
 'Type: Chore':
