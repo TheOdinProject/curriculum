@@ -60,9 +60,9 @@ An important implication to notice here is that when you specify `flex-grow` or 
 >
 > There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: auto`.
 
-#### What is flex: auto?
-
-If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note however we didn't fully introduce it. `flex: auto` is one of the short hands of flex. When `flex: auto` is called it inherits the values of `flex-grow: 1 flex-shrink: 1 flex:basis: auto` or `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex short hand despite the name being "auto" which may be slightly confusing at first.
+> #### What is flex: auto?
+>
+> If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note however we didn't fully introduce it. `flex: auto` is one of the short hands of flex. When `flex: auto` is called it inherits the values of `flex-grow: 1 flex-shrink: 1 flex-basis: auto` or `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex short hand despite the name being "auto" which may be slightly confusing at first.
 
 ### In practice...
 
