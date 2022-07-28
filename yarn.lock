@@ -1122,10 +1122,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fortawesome/fontawesome-free@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.1.1.tgz#bf5d45611ab74890be386712a0e5d998c65ee2a1"
-  integrity sha512-J/3yg2AIXc9wznaVqpHVX3Wa5jwKovVF0AMYSnbmcXTiL3PpRPfF58pzWucCwEiCJBp+hCNRLWClTomD8SseKg==
+"@fortawesome/fontawesome-free@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.1.2.tgz#d18880eddeadd42b1c64cb559f2f3d13d47a4a64"
+  integrity sha512-XwWADtfdSN73/udaFm+1mnGIj/ShDZNFMe/PRoqv3FhQ4GNI2PUN70yFTPsjq65Lw2C9i4TG5/hTbxXIXVCiqQ==
 
 "@gar/promisify@^1.0.1":
   version "1.1.3"
