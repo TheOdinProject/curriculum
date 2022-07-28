@@ -47,7 +47,7 @@ RSpec.describe MarkdownConverter do
 
         html_result = <<~HTML
           <section id="content" class="scrollspy">
-            <h1>Unsectionable Header</h1>
+            <h1 id="unsectionable-header">Unsectionable Header</h1>
             <p>some content</p>
 
           </section>
