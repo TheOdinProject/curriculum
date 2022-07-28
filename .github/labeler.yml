@@ -10,6 +10,9 @@
 'Content: Getting Hired':
   - 'getting_hired/**/*'
 
+'Content: Git':
+  - 'git/**/*'
+
 'Content: Intermediate HTML/CSS':
   - 'html_css/**/*'
 
