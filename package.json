@@ -29,7 +29,7 @@
     "babel-plugin-prismjs": "^2.1.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "^4.6.0",
-    "browserslist": "^4.21.1",
+    "browserslist": "^4.21.3",
     "core-js": "^3.23.5",
     "compression-webpack-plugin": "9",
     "css-loader": "^6.7.1",
