@@ -21,7 +21,7 @@ Pressing enter should generate the following text:
 
 ![Generating boilerplate HTML](https://cdn.statically.io/gh/TheOdinProject/curriculum/1953c1f219a8b321e7ecef9ebcb92834f50ffb9f/html_css/intermediate_html/emmet/imgs/01.png)
 
-We have just used one of many Emmet abbreviations. There are lots of useful Emmet abbreviations that you should check out, like <a href="https://docs.emmet.io/actions/wrap-with-abbreviation/">Wrap with Abbreviation</a> and <a href="https://docs.emmet.io/actions/remove-tag/">Remove Tag</a>. Definitely go through those before moving forward.
+We have just used one of many Emmet abbreviations. There are lots of useful Emmet abbreviations that you should check out, like [Wrap with Abbreviation](https://docs.emmet.io/actions/wrap-with-abbreviation/) and [Remove Tag](https://docs.emmet.io/actions/remove-tag/). Definitely go through those before moving forward.
 
 Considering how useful these two are, we will be setting up VS Code shortcuts for them.
 Start off by opening the keyboard shortcuts window. You can do so by clicking the cog icon on the bottom left and selecting keyboard shortcuts, or by pressing `Cmd + K` followed by `Cmd + S`.
@@ -38,9 +38,10 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. <a href="https://www.youtube.com/watch?v=V8vizNQKtx0">This</a> is a good video on Emmet. Go ahead and watch it.
-2. Take a look at the <a href="https://docs.emmet.io/cheat-sheet/">Emmet cheat sheet</a>. You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
-3. Go through the <a href="https://docs.emmet.io/">Emmet documentation</a>. Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
+
+1. [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it.
+2. Take a look at the [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/). You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
+3. Go through the [Emmet documentation](https://docs.emmet.io/). Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 </div>
 
 ### Additional Resources
