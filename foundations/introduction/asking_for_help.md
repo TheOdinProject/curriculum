@@ -3,19 +3,20 @@
 Along your programming journey, you will inevitably need to ask questions in an online coding community like ours, or in conversations with your colleagues. While asking questions may seem rather simple, in a programming environment it is essential to ask well formed questions with as much context as needed so you can get the most out of asking for help. In essence, “help others help you!” This lesson will provide you with the tools to effectively ask questions in communities such as our Discord chat, Stack Overflow, and in the workplace!
 
 ### Lesson Overview
+
 This section contains a general overview of topics that you will learn in this lesson.
 
 * Explain techniques for asking programming questions
 * Explain and avoid qualities of “bad” questions
 * Ask effective and well formed questions
 
-### Tips for Getting The Best Help Possible
+### Tips for Getting the Best Help Possible
 
-#### <span id="provide-code-knowledge-check">Always provide your code and the surrounding context.</span>
+#### <span id="provide-code-knowledge-check">Always Provide Your Code and the Surrounding Context</span>
 
 You can ask theoretical, vague questions, but you’re going to get theoretical, vague answers that probably won't be helpful to you and cause frustration on both ends as you and the person helping you dance around the real issue. The only time code doesn’t need to be provided is if you are asking a purely conceptual question outside of a specific project or code snippet. Additionally, provide as much context as is necessary, and zero in on the specific problem, such as pointing people to a specific function or line number in your code so people can give you the most relevant answers and quickly assist you.
 
-#### Ask about the problem at hand, not the solution itself. 
+#### Ask About the Problem at Hand, Not the Solution Itself
 
 A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below: 
  
@@ -29,8 +30,9 @@ In sharing your attempt, people know what you’ve tried and won’t suggest thi
 
 Now, if you’re completely stuck with where to start, it’s completely fine to let people know that you’re stuck. Asking where you can start and what you can research to get on the right track empowers you to be able to resolve issues largely on your own in the future, and might even empower you to help others with the same issue later on. It is also recommended that you share your pseudo code so people can nudge you in the right direction or correct any misunderstandings you may have.
 
-#### Don’t take asking for more context to heart! 
-People who volunteer in coding communities are here to help! But a question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgement and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly do want to help you, they will ask for more information when needed!
+#### Don’t Take Asking for More Context to Heart
+
+People who volunteer in coding communities are here to help! But a question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgment and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly do want to help you, they will ask for more information when needed!
 
 ### Assignment
 
@@ -42,6 +44,7 @@ People who volunteer in coding communities are here to help! But a question you 
 </div>
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#provide-code-knowledge-check">Name at least one thing your question should always include.</a>

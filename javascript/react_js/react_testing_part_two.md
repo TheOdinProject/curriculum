@@ -39,6 +39,8 @@ export default FavoriteInput;
 
 Nothing fancy. `FavoriteInput` is a simple component with a couple props passed in. We're interested in the `onChange` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user types in the input box. Let's test it.
 
+<span id="testing-callback-handlers">Notice how we mock and test the `onChange` function</span>:
+
 ~~~javascript
 // FavoriteInput.test.js
 
@@ -93,7 +95,7 @@ You might have come across the concept of mocking modules. In React, when the co
 
 ### React Testing in the Real World
 
-If you're a logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
+If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
 
 Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is that we don't have to understand it all to follow along with this lesson!
 

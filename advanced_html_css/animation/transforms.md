@@ -227,7 +227,7 @@ These are the additional transform function values to translate an element on a 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-For a great demonstration on `translate3d` checkout the the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
+For a great demonstration on `translate3d` checkout the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
 
 #### Matrix
 

@@ -1,5 +1,5 @@
 ### Introduction
-Separate from the __module pattern__ that we discussed in an earlier lesson, "modules" is a feature that arrived with ES6. Browser support for this feature is quite slim at this point, but is slowly improving, and until all modern browsers support it, we can make it work using an external module bundler. ES6 modules are starting to appear in many code bases around the net and getting them up and running will give us a chance to explore some new parts of the JavaScript ecosystem, so it's going to be a worthy excursion!
+Separate from the __module pattern__ that we discussed in an earlier lesson, "modules" is a feature that arrived with ES6. ES6 modules are starting to appear in many code bases around the net and getting them up and running will give us a chance to explore some new parts of the JavaScript ecosystem, so it's going to be a worthy excursion!
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__, which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
@@ -33,7 +33,9 @@ Read through the npm links below but don't worry about running any of the comman
 1. Take a couple minutes to read the [About npm](https://docs.npmjs.com/getting-started/what-is-npm) page - a great introduction to npm.
 2. [This tutorial](https://docs.npmjs.com/downloading-and-installing-packages-locally) teaches you how to install packages with npm.
 3. [This tutorial](https://docs.npmjs.com/creating-a-package-json-file) covers the `package.json` file, which you can use to manage your project's dependencies.
-4. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
+4. Read [this article on development dependencies](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege) to learn what they are and how to use them.
+5. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
+
 
 ### Yarn?
 
@@ -81,7 +83,7 @@ functionOne(); // this should work as expected!
 <span id="module-knowledge-check"></span> 
 There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and re-use it very easily!
 
-There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
+There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). With the introduction of ES6 Modules, the module pattern (IIFEs) is not needed anymore, though you might still encounter them in the wild. By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
 
 To pull it all together, let's write a simple module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
 
@@ -149,6 +151,7 @@ import {functionOne, functionTwo} from './myModule';
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 
 The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
+Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

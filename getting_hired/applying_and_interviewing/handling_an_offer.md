@@ -8,7 +8,8 @@ One big factor is compensation.  The person making the offer usually has discret
 
 What's the best thing you can do?  GET ANOTHER OFFER!  There's nothing nearly as good when negotiating as another offer from another company which gives you the ability to walk away.  You shouldn't be shamelessly callous and capitalistic about it (the goal isn't to piss off everyone who gave you offers), but do take advantage of this!
 
-Not only that, but remember all those companies that dragged their feet and you hadn't heard back from?  Send every one of them (who you are realistically interested in) an email explaining that you have an offer and need to make a decision relatively quickly.  See if that doesn't help them speed you along in the process and maybe get you that other offer.  As soon as you have an offer to work with, you suddenly have all that social proof you never had before since you haven't worked anywhere else.  Use it.  
+Not only that, but remember all those companies that dragged their feet and you hadn't heard back from?  Send every one of them (who you are realistically interested in) an email explaining that you have an offer and need to make a decision relatively quickly.  See if that doesn't help them speed you along in the process and maybe get you that other offer.  As soon as you have an offer to work with, you suddenly have all that social proof you never had before since you haven't worked anywhere else.  Use it.
+
 Once you've worked through your negotiation and hopefully had the chance to rank multiple offers, the decision must be made.  That's a good choice to have to make.  Congratulations!  Now you get paid to keep learning.
 
 ### Links

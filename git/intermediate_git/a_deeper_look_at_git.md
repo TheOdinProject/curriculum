@@ -184,7 +184,7 @@ Before we dive into branches, let's talk about commits. If you recall this [Git 
 
 So what is a branch? Based off of your exposure, you might be visualizing a branch as a group of commits. This actually isn't the case! **A branch is actually a pointer to a single commit!** Hearing this, your first thought might be *"Well if a branch is just a finger pointing at a single commit, how does that single commit know about all the commits that came before it?"* The answer to this question is very simple: Each commit is also a pointer that points to the commit that came before it! Wow. This might be a lot to take in, so let's take a moment to absorb that fact.
 
-Now that you've had a second to gather your thoughts and attempt to wrap your head around this concept, it might help to go back and look at a concrete example of pointers we used in this lesson. Let's think back to our use of `git rebase -i HEAD~3`. If you can remember, this command lets us edit the last 3 commits. Do you have any guesses on how Git knew which 3 commits to edit? That's right, by using pointers! We start at HEAD, which is a special pointer for keeping track of the branch you're currently on. HEAD points to our most recent commit in the current branch. That commit points to the commit made directly before it, which we can call commit 2. Commit 2 does the exact same and points to the commit before it, which we can call commit 3. That's how `git rebase -i HEAD~3` starts with a HEAD pointer, and then follows subsequent pointers to find which three commits to edit.
+Now that you've had a second to gather your thoughts and attempt to wrap your head around this concept, it might help to go back and look at a concrete example of pointers we used in this lesson. Let's think back to our use of `git rebase -i HEAD~2`. If you can remember, this command lets us edit the last two commits. Do you have any guesses on how Git knew which two commits to edit? That's right, by using pointers! We start at HEAD, which is a special pointer for keeping track of the branch you're currently on. HEAD points to our most recent commit in the current branch. That commit points to the commit made directly before it, which we can call commit two. That's how `git rebase -i HEAD~2` starts with a HEAD pointer, and then follows subsequent pointers to find which two commits to edit.
 
 You might be feeling overwhelmed at this point, so let's recap what we've learned. A branch is simply a pointer to a single commit. A commit is a snapshot, and it's a pointer to the commit directly behind it in history. That's it!
 
@@ -196,7 +196,7 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
     *   It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a simple solution.
 
 2.  Read [think-like-a-git](http://think-like-a-git.net/)
-    *   Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of git.
+    *   Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
 </div>
 
 
@@ -217,6 +217,6 @@ This section contains questions for you to check your understanding of this less
 *   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
 *   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
 *   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
-*   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations</a>
-*   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations</a>
-*   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers</a>
+*   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
+*   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
+*   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers.</a>

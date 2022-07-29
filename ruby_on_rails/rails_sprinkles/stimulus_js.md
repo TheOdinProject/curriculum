@@ -7,7 +7,7 @@ controllers that give you an extra little bit of interactivity.
 
 ### Learning Outcomes
 
-* Look through these now and then use them to test yourself after doing the assignment*
+*Look through these now and then use them to test yourself after doing the assignment*
 
 After going through this lesson you should be able to explain:
 

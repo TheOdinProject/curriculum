@@ -1,0 +1,32 @@
+'Status: Needs Triage':
+  - '**/*'
+
+'Course: Advanced HTML/CSS':
+  - 'advanced_html_css/**/*'
+
+'Course: Databases':
+  - 'databases/**/*'
+
+'Course: Getting Hired':
+  - 'getting_hired/**/*'
+
+'Course: Intermediate HTML/CSS':
+  - 'html_css/**/*'
+
+'Course: JavaScript':
+  - 'javascript/**/*'
+
+'Course: NodeJS':
+  - 'nodeJS/**/*'
+
+'Course: Ruby':
+  - 'ruby/**/*'
+
+'Course: Ruby on Rails':
+  - 'ruby_on_rails/**/*'
+
+'Course: Foundations':
+  - 'foundations/**/*'
+
+'Type: Chore':
+  - 'archive/**/*'
