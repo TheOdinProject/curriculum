@@ -62,7 +62,7 @@ An important implication to notice here is that when you specify `flex-grow` or 
 
 > #### What is flex: auto?
 >
-> If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note however we didn't fully introduce it. `flex: auto` is one of the short hands of flex. When `auto` is defined as a flex parameter it is equivalent to the values of `flex-grow: 1 flex-shrink: 1 flex-basis: auto` or `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex short hand despite the name being "auto" which may be slightly confusing at first. You will encounter and learn more about flex: auto and it's potential use-cases when reading through the assignment section.
+> If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note. However we didn't fully introduce it. `flex: auto` is one of the short hands of flex. When `auto` is defined as a flex keyword it is equivalent to the values of `flex-grow: 1`, `flex-shrink: 1` and `flex-basis: auto` or to `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex short hand despite the name being "auto" which may be slightly confusing at first. You will encounter and learn more about `flex: auto` and its potential use-cases when reading through the assignment section.
 
 ### In practice...
 
