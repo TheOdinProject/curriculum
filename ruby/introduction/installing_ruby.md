@@ -254,19 +254,20 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 We can now (finally) install Ruby! Our curriculum currently uses version 3.1.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
+First, let's upgrade `ruby-build`:
+
+~~~bash
+brew upgrade ruby-build
+~~~
+
+Now we're ready to install our desired version of Ruby:
+
 ~~~bash
 rbenv install 3.1.2 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
-#### Updating a Previous Install
-
-If you've already installed `ruby-build`, we may have to update it:
-
-~~~bash
-brew upgrade ruby-build
-~~~
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
