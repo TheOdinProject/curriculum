@@ -105,6 +105,10 @@ a:hover,
   background-color: var(--dark-input-bg-color) !important;
 }
 
+.form-element-with-icon, .form-icon {
+  color: var( --dark-header-color) !important;
+}
+
 pre:not(.line-numbers) code {
   color: var(--dark-pseudocode-color) !important;
 }

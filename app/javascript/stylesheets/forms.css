@@ -4,7 +4,7 @@
   }
 
   .form-element {
-    @apply w-full py-4 px-2 border-none text-grey-dark focus:outline-none placeholder-gray-400 placeholder-opacity-75
+    @apply w-full py-4 px-2 border-none text-primary focus:outline-none placeholder-gray-400 placeholder-opacity-75
   }
 
   .form-element-with-icon {
@@ -16,7 +16,7 @@
   }
 
   .form-icon {
-    @apply absolute text-2xl text-grey-dark left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2
+    @apply absolute text-2xl text-primary left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2
   }
 
   .form-section {
