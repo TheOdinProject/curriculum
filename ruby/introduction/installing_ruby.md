@@ -106,8 +106,6 @@ rbenv install 3.1.2 --verbose
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
-#### Troubleshooting
-
 You may get this error message:
 
 ~~~bash
@@ -120,7 +118,7 @@ If the version you need is missing, try upgrading ruby-build:
   git -C /home/itorja/.rbenv/plugins/ruby-build pull
 ~~~
 
-We could try running the suggested command accordingly:
+If so, we run the suggested command:
 
 ~~~bash
 git -C "$(rbenv root)"/plugins/ruby-build pull
