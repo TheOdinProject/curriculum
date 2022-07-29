@@ -23,7 +23,7 @@ This section contains a general overview of topics that you will learn in this l
 
   1.  Check out [this blog post on backend vs frontend programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
   2.  [A good and short overview of the backend](https://techterms.com/definition/backend).
-  3.  A [much more detailed and thorough explanation](https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the backend is provided by Codecademy, including a step-by-step breakdown of what happens in the backend when a browser makes a request to a server.  
+  3.  [A much more detailed and thorough explanation](https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the backend is provided by Codecademy, including a step-by-step breakdown of what happens in the backend when a browser makes a request to a server.  
 
 </div>
 
