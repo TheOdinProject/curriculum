@@ -8,21 +8,11 @@ body {
 }
 
 a {
-  text-decoration: none;
+  color: $primary;
 
   &:hover, &:focus {
-    color: $black;
     text-decoration: none;
-  }
-}
-
-[href]:not([class]) {
-    color: $primary;
-    text-decoration: underline;
-
-    &:hover {
-    color: $black;
-    text-decoration: none;
+    color: inherit;
   }
 }
 

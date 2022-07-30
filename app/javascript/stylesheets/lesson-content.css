@@ -1,0 +1,37 @@
+@layer components {
+  .lesson-content__panel {
+    @apply bg-gray-100 p-6 rounded-lg;
+  }
+
+  .lesson-content__panel > *:first-child {
+    @apply mt-0;
+  }
+
+  .lesson-content__panel code {
+    @apply bg-gray-200;
+  }
+
+  .lesson-note {
+    @apply bg-gray-50 p-4 border-l-4 border-gold;
+  }
+
+  .lesson-note > *:first-child {
+    @apply mt-0;
+  }
+
+  .lesson-note > *:last-child {
+    @apply mb-0;
+  }
+
+  .lesson-content a > code {
+    @apply text-pink-500;
+  }
+
+  .lesson-content a > strong {
+    @apply text-current;
+  }
+
+  .lesson-content > section:first-child > h3 {
+    @apply mt-0;
+  }
+}

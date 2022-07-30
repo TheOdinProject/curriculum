@@ -1,13 +1,26 @@
-@layer components {
+
+@layer base {
   body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
+  p:not(.lesson-content p) {
+    @apply text-gray-600 text-lg tracking-wide;
+  }
+}
+
+@layer components {
   .page-heading-title {
     @apply text-3xl text-gray-900 font-semibold pb-10 text-center mx-auto;
   }
 
-  p {
-    @apply text-gray-500 text-lg tracking-wide;
+  .anchor-link {
+    @apply text-gray-600 flex relative items-center;
+  }
+
+  .anchor-link:hover:before {
+    content: "\f0c1";
+    font-family: "Font Awesome 5 Free";
+    @apply text-gray-500 text-xs absolute -left-5 font-semibold hidden sm:block;
   }
 }

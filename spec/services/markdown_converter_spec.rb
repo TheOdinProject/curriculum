@@ -17,17 +17,17 @@ RSpec.describe MarkdownConverter do
 
       result = <<~HTML
         <section id="first-section-header" class="scrollspy">
-          <h3><a href="#first-section-header" class="internal-link">First section header</a></h3>
+          <h3><a href="#first-section-header" class="anchor-link">First section header</a></h3>
           <p>some content</p>
 
         </section>
         <section id="second-section-header" class="scrollspy">
-          <h3><a href="#second-section-header" class="internal-link">Second section header</a></h3>
+          <h3><a href="#second-section-header" class="anchor-link">Second section header</a></h3>
           <p>some content</p>
 
         </section>
         <section id="third-section-header" class="scrollspy">
-          <h3><a href="#third-section-header" class="internal-link">Third section header</a></h3>
+          <h3><a href="#third-section-header" class="anchor-link">Third section header</a></h3>
           <p>some content</p>
         </section>
       HTML
@@ -52,7 +52,7 @@ RSpec.describe MarkdownConverter do
 
           </section>
           <section id="sectionable-header" class="scrollspy">
-            <h3><a href="#sectionable-header" class="internal-link">Sectionable Header</a></h3>
+            <h3><a href="#sectionable-header" class="anchor-link">Sectionable Header</a></h3>
             <p>some content</p>
           </section>
         HTML
@@ -118,7 +118,7 @@ RSpec.describe MarkdownConverter do
 
         html_result = <<~HTML
           <section id="its-a-header" class="scrollspy">
-            <h3><a href="#its-a-header" class="internal-link">It’s a header</a></h3>
+            <h3><a href="#its-a-header" class="anchor-link">It’s a header</a></h3>
             <p>content</p>
           </section>
         HTML

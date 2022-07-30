@@ -26,7 +26,7 @@ module Kramdown
       def convert_header(element, indent)
         if element.options[:level] == LEVEL_THREE_HEADER
           section_anchor = "##{generate_id(element.options[:raw_text]).parameterize}"
-          body = "<a#{html_attributes({ href: section_anchor, class: 'internal-link' })}>#{inner(element, indent)}</a>"
+          body = "<a#{html_attributes({ href: section_anchor, class: 'anchor-link' })}>#{inner(element, indent)}</a>"
 
           format_as_block_html('h3', element.attr, body, indent)
         else
