@@ -31,7 +31,7 @@
     "bootstrap": "^4.6.0",
     "browserslist": "^4.21.3",
     "core-js": "^3.24.1",
-    "compression-webpack-plugin": "9",
+    "compression-webpack-plugin": "10",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
     "el-transition": "^0.0.7",
