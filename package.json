@@ -15,7 +15,7 @@
     "@babel/preset-env": "7",
     "@babel/runtime": "7",
     "@fortawesome/fontawesome-free": "^6.1.2",
-    "@hookform/resolvers": "2.9.5",
+    "@hookform/resolvers": "2.9.7",
     "@hotwired/stimulus": "^3.1.0",
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
     "@rails/ujs": "^7.0.3",
