@@ -14,13 +14,13 @@ By the end of this lesson, you should be able to do the following:
 ### Reading the Stack Trace
 When your Ruby program crashes after encountering a runtime error or exception, it will produce a wall of text known as a **stack trace** that is then output in your terminal. A stack trace looks something like this:
 
-<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png" alt="sample stack trace"/></a>
+![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
 
 Don't let the stack trace intimidate you. You don't need to read it all or even know what most of it means.
 
 The stack trace prints each line of code in your program that was executed before it crashed. <span id='most-useful-stack-trace-line'>The very first line of the stack trace</span> will generally provide the most useful information about the error your program encountered:
 
-<a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png"><img class="tutorial-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png" alt="first line of stack trace" /></a>
+![First line of stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png)
 
 <span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-3.1.2/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-3.1.2/Exception.html) are *also* objects.</span>
 
@@ -202,9 +202,11 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the Configuration inside your VSCode's `launch.json` file.
 4. If you're having a hard time figuring out how to navigate to your launch.json file in order to change the Configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
 5. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rbdg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-6. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the <a href='#debugging-with-pry-byebug'>Debugging with pry-byebug</a> Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
+6. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
 7. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
 8. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+
+* NOTE: When you reach the final exercise that uses `pry-byebug`, you'll want to run the tests without `bundle exec`. This will avoid load errors in your `debugging-exercises.rb` file. The command to use is `rpsec spec/debugging_exercises_spec.rb`.
 </div>
 
 ### Additional Resources
