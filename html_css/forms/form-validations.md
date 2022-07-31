@@ -111,7 +111,7 @@ Try submitting the form with seven passengers to see the validation in action.
 ### Pattern Validations
 
 To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
-Real-world applications would be checking a credit card number or a zipcode is in the correct format.
+Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
 
 To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format. 5 numbers followed by an optional dash and 4 more numbers:
 
