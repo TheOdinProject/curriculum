@@ -18,7 +18,7 @@ The `flex` declaration is actually a shorthand for 3 properties that you can set
 
 In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
 
-![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/10.png)
+![flex shorthand](https://cdn.statically.io/gh/Hamza-Aziane/top-curriculum/4ebd6ac6abdb09d95731f3975372193543af1e08/foundations/html_css/flexbox/imgs/10.png)
 
 In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0%`.
 
