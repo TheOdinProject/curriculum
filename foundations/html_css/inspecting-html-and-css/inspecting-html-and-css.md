@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 To open up the inspector, you can right-click on any element of a webpage and click "Inspect Element" or press F12. For example, if you navigate to [our homepage](https://theodinproject.com/) and open the inspector, you might see something that looks a little bit like the image below. (Note that if you are already logged in to TOP you will not see the page shown below. If you want to stay logged in, use Incognito mode or your browser's equivalent to separately view the page.)
 
-![Chrome Inspector](https://github.com/exertustfm/curriculum/blob/foundations_in_html_css_inspector/foundations/html_css/inspecting-html-and-css/imgs/05.png)
+![Chrome Inspector](https://cdn.statically.io/gh/TheOdinProject/curriculum/562a02e291d57dd288fca6fd917304f81a99d6e4/foundations/html_css/inspecting-html-and-css/imgs/05.png)
 
 Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panes.
 
