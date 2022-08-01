@@ -20,7 +20,7 @@ In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and 
 
 ![flex shorthand](https://cdn.statically.io/gh/Hamza-Aziane/top-curriculum/4ebd6ac6abdb09d95731f3975372193543af1e08/foundations/html_css/flexbox/imgs/10.png)
 
-In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0%`.
+In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
 
 ### flex-grow
 
