@@ -12,9 +12,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### The Inspector
 
-To open up the inspector, you can right-click on any element of a webpage and click "Inspect Element" or press F12. For example, and open the inspector for this page you're on, you might see something that looks a little bit like the image below.
+To open up the inspector, you can right-click on any element of a webpage and click "Inspect Element" or press F12. For example, open the inspector on this lesson, you might see something that looks a little bit like the image below.
 
-![Chrome Inspector](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/00.png)
+![Chrome Inspector](https://cdn.statically.io/gh/Hoslok-1/curriculum/replacing_screenshots_issue%2324305/foundations/html_css/inspecting-html-and-css/imgs/00.png)
 
 Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panes.
 
@@ -22,13 +22,13 @@ Don't get overwhelmed with all the tools you're now seeing! For this lesson, we 
 
 In the Elements pane, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
-![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
+![Inspector Icon](https://cdn.statically.io/gh/Hoslok-1/curriculum/replacing_screenshots_issue%2324305/foundations/html_css/inspecting-html-and-css/imgs/01.png)
 
 <span id="strikethrough">When an element is selected, the Styles tab will show all the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text).</span> For example, if you use the inspector to expand the div class "page container lesson" on this webpage, on the right hand side you'll see all the styles that are currently affecting the element, as seen below: 
 
-![Styles Pane](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/02.png)
+![Styles Pane](https://cdn.statically.io/gh/Hoslok-1/curriculum/replacing_screenshots_issue%2324305/foundations/html_css/inspecting-html-and-css/imgs/02.png)
 
-![Overwritten style](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png)
+![Overwritten style](https://cdn.statically.io/gh/Hoslok-1/curriculum/replacing_screenshots_issue%2324305/foundations/html_css/inspecting-html-and-css/imgs/03.png)
 
 ### Testing Styles In The Inspector
 
@@ -36,7 +36,7 @@ The Styles pane also allows you to edit styles directly in the browser. You can 
 
 In the below image, we have altered the value of `font-size` in the `.text-2xl` class, and the webpage responds with the changes in real-time. This won't affect the source code in your text editor, but it is extremely useful for quickly testing out various attributes and values without needing to reload the page over and over again.
 
-![Changed styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/04.png)
+![Changed styles](https://cdn.statically.io/gh/Hoslok-1/curriculum/replacing_screenshots_issue%2324305/foundations/html_css/inspecting-html-and-css/imgs/04.png)
 
 ### Assignment
 
