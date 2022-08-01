@@ -342,7 +342,7 @@ GEM
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
-    pg (1.4.1)
+    pg (1.4.2)
     popper_js (1.16.0)
     public_suffix (4.0.7)
     puma (5.6.4)
