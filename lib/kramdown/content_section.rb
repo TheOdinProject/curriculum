@@ -12,7 +12,7 @@ module Kramdown
     end
 
     def content
-      "<section id='#{title.parameterize}' class='scrollspy' markdown='1'>#{formatted_content}</section>"
+      "<section id='#{title.parameterize}' markdown='1'>#{formatted_content}</section>"
     end
 
     def start

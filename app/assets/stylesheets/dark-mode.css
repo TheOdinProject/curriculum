@@ -6,6 +6,7 @@
   --dark-pseudocode-color: #e83e8c;
   --dark-input-bg-color: #313131;
   --dark-code-bg-color: #282a36;
+  --dark-font-light-gray-color: #9CA3AF;
 }
 
 .section-lessons__item__link:hover,
@@ -173,4 +174,20 @@ pre code {
 
 .prose h3 a {
   color: var(--dark-font-color) !important;
+}
+
+[data-lesson-toc-target="toc"] li {
+  color: var(--dark-font-light-gray-color) !important;
+}
+
+[data-lesson-toc-target="toc"] li.toc-item-active {
+  color: var(--dark-font-color) !important;
+}
+
+.odin-dark-light-gray-font {
+  color: var(--dark-font-light-gray-color) !important;
+}
+
+.toc-item-active {
+  background-color: var(--dark-bg-accent) !important;
 }

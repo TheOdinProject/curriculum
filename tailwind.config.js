@@ -40,6 +40,7 @@ module.exports = {
       }),
       colors: {
         teal:  colors.teal,
+        'blue-gray': colors.blueGray,
         transitionProperty: {
           'stroke-dashoffset': 'stroke-dashoffset'
         },
@@ -85,11 +86,13 @@ module.exports = {
       "app/assets/images/icons/*svg",
     ],
     options: {
-      safelist: ['lesson-note', 'lesson-content__panel', 'anchor-link'],
+      safelist: ['lesson-note', 'lesson-content__panel', 'anchor-link', 'toc-item-active'],
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      fontWeight: ['hover', 'focus'],
+    },
   },
   corePlugins: {
     container: false,

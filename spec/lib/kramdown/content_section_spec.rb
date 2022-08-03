@@ -8,7 +8,7 @@ RSpec.describe Kramdown::ContentSection do
       section = described_class.new(title: 'section title', content: "some markdown\n")
 
       expect(section.content).to eq(
-        "<section id='section-title' class='scrollspy' markdown='1'>some markdown\n</section>"
+        "<section id='section-title' markdown='1'>some markdown\n</section>"
       )
     end
 
@@ -17,7 +17,7 @@ RSpec.describe Kramdown::ContentSection do
         section = described_class.new(title: 'section title', content: 'some markdown')
 
         expect(section.content).to eq(
-          "<section id='section-title' class='scrollspy' markdown='1'>some markdown\n</section>"
+          "<section id='section-title' markdown='1'>some markdown\n</section>"
         )
       end
     end
