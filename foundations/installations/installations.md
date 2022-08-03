@@ -122,12 +122,12 @@ While your VM is running, do the following steps:
   8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt install build-essential` and enter your password. Otherwise, move on to Step 9.
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
-  11. Wait for the CD image to mount, it will show the CD on the desktop as solid, not transparent, and a window will show on the top right of the VM screen saying it was successfully mounted.
-  12. Let's take a look at the contents of the CD image we just mounted. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the CD icon on the VM desktop. Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
+  11. Wait for the CD image to mount, a window will show on the top right of the VM screen saying it was successfully mounted.
+  12. Let's take a look at the contents of the CD image we just mounted. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called Home on the VM desktop. Afterwards, click on a CD under Devices on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
   13. In the window we opened in step 12, click File > **Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
   14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   15. Once it finishes, close the terminal and the CD folder.
-  16. Right-click CD on the VM desktop and click **Eject Volume**. It will not eject if the CD folder is open.
+  16. Right-click CD under Devices in the File Manager window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
   17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
   18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
