@@ -32,7 +32,7 @@ If none of the above ways make the most sense to provide the relevant source, he
 
 * If you are asking about a long error message or server logs, use [pastebin](http://pastebin.com/) to share it.
 * If you are asking about a terminal command, use a screenshot. In Discord, you can drag and drop the screenshot file or you use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, then you should research this using your favorite search engine.
-* To share a few lines of code, use backticks to create a code block in Discord. For more detailed instructions, use our bot command `/code` in the #bot-spam-playground channel.
+* To share a few lines of code, use backticks to create a code block in Discord. For more detailed instructions, use our bot command `!code` in the #bot-spam-playground channel.
 * If you need to share multiple pieces of code that work together, it might make sense to share a link to your GitHub repo. Be sure to make it as easy as possible for others to help you by providing detailed information (file names, function/method names, and line numbers).
 
 If your question does not provide the relevant source, you will only receive theoretical and vague answers. This often causes frustration for everyone. You may become frustrated because the answers are not helpful. Those helping may become frustrated because as you add new information, the meaning of your original question changes and they wasted time trying to answer it. If you truly want to ask a purely conceptual question, you should indicate this in your question in lieu of a relevant source.
