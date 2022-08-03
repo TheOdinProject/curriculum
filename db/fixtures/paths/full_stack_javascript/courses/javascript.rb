@@ -79,6 +79,25 @@ course.add_section do |section|
   )
 end
 
+# ++++++++++++++++++++++++++++++++++++++++++
+# SECTION - A Bit of Computer Science
+# ++++++++++++++++++++++++++++++++++++++++++
+course.add_section do |section|
+  section.title = 'A Bit of Computer Science'
+  section.description = "In this section, you'll learn some fundamental computer science concepts that will help you when solving problems with a bit more complexity than just simple web serving.  You get to try on your engineering hat and solve some pretty nifty problems."
+  section.identifier_uuid = 'e470decc-864a-479f-917c-d999c131aa79'
+
+  section.add_lessons(
+    javascript_lessons.fetch('A Very Brief Intro to CS'),
+    javascript_lessons.fetch('Recursive Methods'),
+    javascript_lessons.fetch('Recursion'),
+    javascript_lessons.fetch('Common Data Structures and Algorithms'),
+    javascript_lessons.fetch('Linked Lists'),
+    javascript_lessons.fetch('Binary Search Trees'),
+    javascript_lessons.fetch('Knights Travails'),
+  )
+end
+
 # ++++++++++++++++++++++++++++
 # SECTION - Testing JavaScript
 # ++++++++++++++++++++++++++++
