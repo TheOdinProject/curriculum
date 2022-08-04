@@ -79,7 +79,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are truthy and falsy values?</a>
 *   <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are the falsy values in JavaScript?</a>
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_if_else.asp">What are conditionals?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if_..._else_syntax">What is the syntax for an if/else conditional?</a>
+*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax">What is the syntax for an if/else conditional?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements">What is the syntax for a switch statement?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator">What is the syntax for a ternary operator?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if_..._else">What is nesting?</a>
+*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else">What is nesting?</a>
