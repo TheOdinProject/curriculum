@@ -6,7 +6,7 @@ Let's look a little closer at what actually happened when you put `flex: 1` on t
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
+-   You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
 
 ### The flex shorthand
 
@@ -88,10 +88,10 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#the-flex-shorthand">What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?</a>
+-   <a class="knowledge-check-link" href="#the-flex-shorthand">What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
