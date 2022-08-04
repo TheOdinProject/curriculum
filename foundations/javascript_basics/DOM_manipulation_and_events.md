@@ -97,7 +97,7 @@ const div = document.createElement('div');
 // creates a new div referenced in the variable 'div'
 ~~~
 
-#### Adding inline style
+#### Adding Inline Style
 
 ~~~javascript
 div.style.color = 'blue';                                      
