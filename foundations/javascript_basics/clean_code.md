@@ -54,11 +54,24 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 2. Semicolons: Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.  Just do it!
 
-3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should indent the second line __2__ levels, and should try to break immediately _after_ an operator or comma:
+3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should try to break immediately _after_ an operator or comma. Then, there are a few ways to format continuation lines. For example, you can:
+
+   - indent continuation lines by one level,
+   - vertically align continuation lines with the first variable,
+   - or some other format entirely. The rules aren't set in stone and vary from work environment to work environment, but remember to be consistent.
 
    ~~~javascript
-   let reallyReallyLongLine = something + somethingElse + anotherThing +
-   		howManyTacos + oneMoreReallyLongThing;
+   // One possible format
+   let reallyReallyLongLine =
+     something +
+     somethingElse +
+     anotherThing +
+     howManyTacos +
+     oneMoreReallyLongThing;
+
+   // Another possible format
+   let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
+                                     howManyTacos + oneMoreReallyLongThing;
    ~~~
 
    ​

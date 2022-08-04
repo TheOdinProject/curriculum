@@ -18,9 +18,11 @@ The `flex` declaration is actually a shorthand for 3 properties that you can set
 
 In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and `flex-basis`.
 
-![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/10.png)
+![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/0cc6b26bb0c4b94524369d327c97a8fb11e83b6b/foundations/html_css/flexbox/imgs/10.png)
 
-The default value of the `flex` property is shown in the above screenshot: `flex-grow: 0`, `flex-shrink: 1`, `flex-basis: 0%`. Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`, so when we put `flex: 1` on our divs, we were actually specifying `flex: 1 1 0%`.
+In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
+
+Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
 ### flex-grow
 
@@ -58,13 +60,29 @@ An important implication to notice here is that when you specify `flex-grow` or 
 
 > #### Important note about flex-basis:
 >
-> There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand, or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`. You could also use the predefined value `flex: auto`, which is equivalent to `flex: 1 1 auto`
+> There is a difference between the default value of `flex-basis` and the way the `flex` shorthand defines it if no `flex-basis` is given. The actual default value for `flex-basis` is `auto`, but when you specify `flex: 1` on an element, it interprets that as `flex: 1 1 0`. If you want to _only_ adjust an item's `flex-grow` you can simply do so directly, without the shorthand. Or you can be more verbose and use the full 3 value shorthand `flex: 1 1 auto`, which is also equivalent to using `flex: auto`.
+
+> #### What is flex: auto?
+>
+> If you noticed, we mentioned a new flex shorthand `flex: auto` in the previous note. However we didn't fully introduce it. `flex: auto` is one of the short hands of flex. When `auto` is defined as a flex keyword it is equivalent to the values of `flex-grow: 1`, `flex-shrink: 1` and `flex-basis: auto` or to `flex: 1 1 auto` using the flex shorthand. Note that `flex: auto` is not the default value when using the flex short hand despite the name being "auto" which may be slightly confusing at first. You will encounter and learn more about `flex: auto` and its potential use-cases when reading through the assignment section.
 
 ### In practice...
 
 In practice you will likely not be using complex values for `flex-grow`, `flex-shrink` or `flex-basis`. Generally, you're most likely to use declarations like `flex: 1;` to make divs grow evenly and `flex-shrink: 0` to keep certain divs from shrinking.
 
 It _is_ possible to get fancy, and set up layouts where some columns relate to each other in a specific ratio, so it's useful to know that you can use other values, but those are relatively rare.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read [W3C's flex section](https://www.w3.org/TR/css-flexbox-1/#flex-common) to understand the basic values of common flex shorthand values
+
+2. This [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex short hand values as well as introduces some new syntax that hasn't been covered in the previous article.
+
+3. This [CSS Tricks](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/) article explains the individual flex-grow, flex-shrink and flex-basis properties in detail
+
+</div>
 
 ### Knowledge Check
 
@@ -76,4 +94,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

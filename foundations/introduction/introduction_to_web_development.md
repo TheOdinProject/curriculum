@@ -1,6 +1,6 @@
-### What Do Web Developers Do?
+### Introduction
 
-In short, web developers build and maintain websites.
+What do web developers do? In short, they build and maintain websites.
 
 Web developers often work for clients who are trying to get their product or service onto the web.
 The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
@@ -56,8 +56,6 @@ Learning to code is incredibly rewarding but can also be difficult and frustrati
 The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
-
-Read [this comprehensive blog post from Happy Bear Software](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
 
 ### Why Odin?
 

@@ -8,7 +8,7 @@ The other handy thing that goes on when a request enters your application is tha
 
 If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a link to the Rails Guides routing section. This resource does a good job of explaining how it works, so you're never in much danger of losing your way.
 
-Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
+Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but when learning Rails it's easy to get hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
