@@ -111,9 +111,9 @@ Try submitting the form with seven passengers to see the validation in action.
 ### Pattern Validations
 
 To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
-Real-world applications would be checking a credit card number or a zipcode is in the correct format.
+Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
 
-To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format. 5 numbers followed by an optional dash and 4 more numbers:
+To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzrQqRK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/YzrQqRK">
@@ -145,7 +145,7 @@ It is also good practice to use a `placeholder` attribute to show users an examp
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-The pattern attribute can only be used on `<input>` elements. Some input elements already validate data that matches a certain pattern. For example the email input field which will make sure a valid email is entered and the url input element which will check to ensure the url starts with http or https:
+The pattern attribute can only be used on `<input>` elements. Some input elements already validate data that matches a certain pattern. For example, the email input field will make sure a valid email is entered and the url input element will check to ensure the URL starts with http or https:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="eYGRZbK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGRZbK">

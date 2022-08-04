@@ -116,7 +116,7 @@ The output we care about from the response is the "form" object. It should look 
   },
 ~~~
 
-Try changing the `name` attributes of some of the input fields in the form and then submitting again to see how form data in the response changes.
+Try changing the `name` attributes of some of the input fields in the form and removing the attribute entirely, then submit the form again to see how the form data in the response changes.
 
 **Using Form Controls Outside of Forms**
 
@@ -133,9 +133,9 @@ For example you might want to have an input that gets some data from a user and 
 
 We will need to manipulate data from form controls like this quite a bit when we get to the projects in the Fullstack JavaScript course.
 
-**Email Input**
+**The Type Attribute**
 
-Email inputs are specialized text inputs just for email addresses. They are different from text inputs in that they will display a different keyboard which will include the @ symbol on mobile devices to make entering email addresses easier.
+`Email inputs` are specialized text inputs just for email addresses. They are different from text inputs in that they will display a different keyboard which will include the @ symbol on mobile devices to make entering email addresses easier.
 
 They also validate that the user has entered a correctly formatted email address, but there will be more on validations later.
 
@@ -146,9 +146,7 @@ To create an email input, we use an input element with `type` attribute of "emai
 <input type="email" id="user_email" name="email" placeholder="you@example.com">
 ~~~
 
-**Password Input**
-
-Password inputs are another specialized text input. They differ from regular text inputs in that they mask the inputted data with asterisks(*) to prevent anyone from seeing what has been entered.
+`Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with asterisks(*) to prevent anyone from seeing what has been entered.
 
 A password input can be created using an input element with a type of "password":
 
@@ -157,9 +155,7 @@ A password input can be created using an input element with a type of "password"
 <input type="password" id="user_password" name="password">
 ~~~
 
-**Number Input**
-
-The number input only accepts number values and ignores any other characters the user tries to enter.
+The `number input` only accepts number values and ignores any other characters the user tries to enter.
 
 We create a number input using the input element with a `type` attribute of "number":
 
@@ -168,9 +164,7 @@ We create a number input using the input element with a `type` attribute of "num
 <input type="number" id="amount" name="amount">
 ~~~
 
-**Date Input**
-
-To collect dates from a user, we can use a date input. This input is unique because it provides a better user experience for choosing dates by rendering a simple date picker calendar.
+To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a simple date picker calendar.
 
 To create a date input, we use the input element with a `type` attribute of "date":
 
@@ -181,7 +175,7 @@ To create a date input, we use the input element with a `type` attribute of "dat
 
 **Text Area**
 
-The text area element provides an input box that can accept text that spans multiple lines like user comments and reviews. It can also be resized by clicking and dragging the bottom right corner to make it bigger or smaller.
+While technically not an input element, the text area element provides an input box that can accept text that spans multiple lines like user comments and reviews. It can also be resized by clicking and dragging the bottom right corner to make it bigger or smaller.
 
 To create a text area, we use the `<textarea>` element:
 
