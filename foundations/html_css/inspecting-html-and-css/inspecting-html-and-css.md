@@ -6,9 +6,9 @@ Being able to inspect and debug your HTML and CSS is critical to frontend develo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You will know how to access the element inspector.
-- You will know how to select and inspect specific elements.
-- You will know how to test out HTML and CSS in the inspector.
+-   You will know how to access the element inspector.
+-   You will know how to select and inspect specific elements.
+-   You will know how to test out HTML and CSS in the inspector.
 
 ### The Inspector
 
@@ -30,7 +30,7 @@ In the Elements pane, you can see the entire HTML structure of your page. You ca
 
 ![Overwritten style](https://cdn.statically.io/gh/TheOdinProject/curriculum/f8fd38fc62578d8e8368f5303126215a492847f0/foundations/html_css/inspecting-html-and-css/imgs/03.png)
 
-### Testing Styles In The Inspector
+### Testing Styles in the Inspector
 
 The Styles pane also allows you to edit styles directly in the browser. You can click inside of any individual selector to add a new rule or click on an existing attribute or value to alter it.
 
@@ -59,6 +59,6 @@ This section contains helpful links to related content. It isn’t required, so 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
+-   <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
+-   <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
+-   <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>

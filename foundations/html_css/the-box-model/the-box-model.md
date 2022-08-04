@@ -51,12 +51,6 @@ Be sure to study the diagrams carefully.
 
 </div>
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   [This W3Schools tutorial on CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp) provides an interactive playground to test your box model skills with exercises.
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -67,3 +61,10 @@ This section contains questions for you to check your understanding of this less
 *   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders'>Would you use `margin` or `padding` to create more space between 2 elements?</a>
 *   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders'>Would you use `margin` or `padding` to create more space between the contents of an element and its border?</a>
 *   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders'>Would you use `margin` or `padding` if you wanted two elements to overlap each other?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [This W3Schools tutorial on CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp) provides an interactive playground to test your box model skills with exercises.
+

@@ -70,3 +70,9 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `button` block or inline?</a>
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `div` block or inline?</a>
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `span` block or inline?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
