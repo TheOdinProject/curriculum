@@ -54,4 +54,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This]([url](https://flexbox.malven.co/)) cheatsheet has some useful references to flex and its properties.
+*   [This flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
