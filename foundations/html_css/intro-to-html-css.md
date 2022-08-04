@@ -6,7 +6,7 @@ So here it is: it's time to actually start _making things_. This section will te
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Get a basic overview of HTML, CSS and how they work together.
+*   Get a basic overview of HTML, CSS and how they work together.
 
 ### HTML and CSS
 
@@ -17,7 +17,7 @@ Many great resources out there keep referring to HTML and CSS as _programming la
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
+1.  Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
 </div>
 
 ### Knowledge Check
@@ -35,4 +35,3 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   [This FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
 *   Bookmark [DevDocs.io](https://devdocs.io). Read the “Welcome” message. Massive API documentation collection that even works offline. An essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://freecodecamp.org))
-

@@ -61,10 +61,10 @@ Note that you'll probably be prompted for your billing information when installi
 
 If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later.
 
-We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 6.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails6).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
+We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 7.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails7).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
 * Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
-* Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
+* Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application.
 * Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up <span id="db-knowledge-check">PostgreSQL for production since it's the only database Heroku uses.</span>  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
 * <span id="new-app-knowledge-check">Create a new Heroku application from the command line using `$ heroku create`.</span>  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
 * Ready? Push using the command `$ git push heroku main`.
