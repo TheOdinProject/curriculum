@@ -142,7 +142,7 @@ That was really just a teaser about what Active Record can do. In the reading be
     * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ApplicationRecord to get its super powers.
 
 #### Migrations
-1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
+1. Read the [Migrations chapter of Rails Guides](http://guides.rubyonrails.org/active_record_migrations.html).
     * Don't worry about 3.6-3.8.
     * Just skim section 7.
     * Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
@@ -173,7 +173,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_basics.html#naming-conventions'>Should Active Record model classes be singular or plural?</a> 
+ * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_basics.html#naming-conventions'>Should Active Record model classes be singular or plural?</a>
  * <a class='knowledge-check-link' href='#rollback-knowledge-check'>Which rails command will undo a database migration?</a>
  * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#presence'>What does the validation helper `presence: true` enforce?</a>
  * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors'>How can you see why an instance of a model class has failed validation?</a>

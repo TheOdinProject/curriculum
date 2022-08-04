@@ -6,10 +6,10 @@ In the previous lesson, you learned how to write the HTML that determines how a 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Add styles to HTML with CSS.
-* Understand how to use the class and ID attributes.
-* Add styles to specific elements using the correct selectors.
-* Understand what the cascade does.
+*   Add styles to HTML with CSS.
+*   Understand how to use the class and ID attributes.
+*   Add styles to specific elements using the correct selectors.
+*   Understand what the cascade does.
 
 ### Basic Syntax
 
@@ -17,8 +17,11 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 ![Basic CSS syntax](https://user-images.githubusercontent.com/70952936/130702428-4808becb-cbc4-4a4d-8fa7-f9aa5409768d.jpg)
 
-> A note:
-> A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+<div class="lesson-note" markdown="1">
+
+#### Note
+A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+</div>
 
 ### Selectors
 
@@ -282,7 +285,16 @@ A CSS declaration that is more specific will take precedence over less specific 
 
 Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of anything less specific than it. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
 
-Let's take a look at a few quick examples to visualize how specificity works.
+Let's take a look at a few quick examples to visualize how specificity works. 
+Consider the following HTML and CSS code:
+
+~~~html
+<!-- index.html -->
+
+<div class="main">
+  <div class="list subsection"></div>
+</div>
+~~~
 
 ~~~css
 /* rule 1 */
@@ -298,6 +310,15 @@ Let's take a look at a few quick examples to visualize how specificity works.
 
 In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red;` declaration would take precedence.
 
+Now, let's change things a little bit:
+
+~~~html
+<!-- index.html -->
+
+<div class="main">
+  <div class="list" id="subsection"></div>
+</div>
+~~~
 ~~~css
 /* rule 1 */
 #subsection {
@@ -503,9 +524,9 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 ### Practice
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `06-cascade-fix`.
+1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `06-cascade-fix`.
 
-2. Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
+2.  Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
    How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume, so feel free to go a little crazy for now.
 
@@ -524,10 +545,10 @@ This section contains helpful links to related content. It isn’t required, so 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#external-css">What are the main differences between external, internal, and inline CSS?</a>
-* <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
-* <a class="knowledge-check-link" href="#grouping-selector">How would you apply a single rule to two different selectors?</a>
-* <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
-* <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
-* <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
+*   <a class="knowledge-check-link" href="#external-css">What are the main differences between external, internal, and inline CSS?</a>
+*   <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
+*   <a class="knowledge-check-link" href="#grouping-selector">How would you apply a single rule to two different selectors?</a>
+*   <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
+*   <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
+*   <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
 

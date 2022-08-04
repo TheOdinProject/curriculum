@@ -42,7 +42,7 @@ The form doesn't need to actually submit, but you should give an error message i
 3. Write the simple form elements.
 4. Add the JavaScript code that checks validation as the user progresses through the form.  When a user leaves a form field, it should automatically validate that field.
 5. Test out all possible cases.
-6. Don't forget to style validations with CSS. You can go through our [Form Validation lesson](https://www.theodinproject.com/lessons/intermediate-html-and-css-form-validation) for a refresher.
+6. Don't forget to style validations with CSS by using the `:valid` and `:invalid` psuedo-classes!
 
 </div>
 
