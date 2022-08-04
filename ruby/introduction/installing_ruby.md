@@ -198,14 +198,24 @@ This command will install the command line interface for Heroku, a free website 
 
 ### Step 3: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to manage Ruby versions.
 
-#### Step 3.1: Install rbenv
+#### Step 3.1: Install ruby-build
+
+First, let's install `ruby-build`:
+
+~~~bash
+brew install ruby-build
+~~~
+
+`ruby-build` will make it possible to install our Ruby version of choice.
+
+#### Step 3.2: Install rbenv
 
 To install `rbenv`, run the following in your terminal:
 
 ~~~bash
-brew install rbenv ruby-build
+brew install rbenv
 ~~~
 
 Then, run this command:
@@ -267,7 +277,6 @@ rbenv install 3.1.2 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
-
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
