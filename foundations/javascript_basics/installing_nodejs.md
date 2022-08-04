@@ -45,7 +45,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 You can verify `nvm` is installed by running the command:
 
-~~~BASH
+~~~bash
 command -v nvm
 ~~~
 

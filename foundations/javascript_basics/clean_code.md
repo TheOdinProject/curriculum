@@ -50,9 +50,9 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 ### Rules of Thumb
 
-1. Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation.
+1.  Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation.
 
-2. Semicolons: Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.  Just do it!
+2.  Semicolons: Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.  Just do it!
 
 3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should try to break immediately _after_ an operator or comma. Then, there are a few ways to format continuation lines. For example, you can:
 
@@ -73,53 +73,53 @@ There are many different opinions on what constitutes great JavaScript code.  Th
    let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
                                      howManyTacos + oneMoreReallyLongThing;
    ~~~
-
+   
    ​
 
-4. Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
+4.  Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
-   ~~~javascript
-   // Good
-   const numberOfThings = 10;
-   const myName = "Thor";
-   const selected = true;
+    ~~~javascript
+// Good
+    const numberOfThings = 10;
+    const myName = "Thor";
+    const selected = true;
 
-   // Bad (these start with verbs, could be confused for functions)
-   const getCount = 10;
-   const isSelected = true;
+    // Bad (these start with verbs, could be confused for functions)
+    const getCount = 10;
+    const isSelected = true;
 
-   // Good
-   function getCount() {
-     return numberOfThings;
-   }
+    // Good
+    function getCount() {
+      return numberOfThings;
+    }
 
-   // Bad (it's a noun)
-   function myName() {
-     return "Thor";
-   }
-   ~~~
+    // Bad (it's a noun)
+    function myName() {
+      return "Thor";
+    }
+    ~~~
 
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
-2. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
+1.  [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
+2.  [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 </div>
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
-* THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
-* [Airbnb style guide](https://github.com/airbnb/javascript)  
-* [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+*   [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
+*   THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
+*   [Airbnb style guide](https://github.com/airbnb/javascript)  
+*   [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#writing-clean-code">Why is it important to write clean code?</a>
-- <a class="knowledge-check-link" href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">Name 5 clean code principles previously mentioned</a>
-- <a class="knowledge-check-link" href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">What is the difference between good comments and bad comments?</a>
+*   <a class="knowledge-check-link" href="#writing-clean-code">Why is it important to write clean code?</a>
+*   <a class="knowledge-check-link" href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">Name 5 clean code principles previously mentioned</a>
+*   <a class="knowledge-check-link" href="https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/">What is the difference between good comments and bad comments?</a>
