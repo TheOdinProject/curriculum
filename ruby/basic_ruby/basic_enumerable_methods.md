@@ -304,8 +304,8 @@ votes = ["Bob's Dirty Burger Shack", "St. Mark's Bistro", "Bob's Dirty Burger Sh
 
 votes.reduce(Hash.new(0)) do |result, vote|
   result[vote] += 1
-  result
 end
+result
 #=> {"Bob's Dirty Burger Shack"=>2, "St. Mark's Bistro"=>1}
 ~~~
 
