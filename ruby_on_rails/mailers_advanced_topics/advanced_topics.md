@@ -150,10 +150,10 @@ In this case, you would tell your `static_pages.html.erb` layout to call the `ap
 ~~~ruby
   # app/views/layouts/static_pages.html.erb
 
-  <% content_for :stylesheets do %\>\
+  <% content_for :stylesheets do %>
     #navbar {display: none}
-  <% end % >
-  <%= render :template => "layouts/application" %\>\
+  <% end %>
+  <%= render :template => "layouts/application" %>
 ~~~
 
 Then your `application.html.erb` layout needs to be set up to catch that content and use it, for instance by adding this `#yield` line:

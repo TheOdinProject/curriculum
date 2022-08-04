@@ -5,7 +5,7 @@ So here it is: it's time to actually start _making things_. This section will te
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Get a basic overview of HTML, CSS and how they work together.
+*   Get a basic overview of HTML, CSS and how they work together.
 
 ### HTML and CSS
 HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. HTML is the raw data that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. CSS is what adds _style_ to those plain elements. HTML puts information on a webpage, and CSS positions that information, gives it color, changes the font, and makes it look great!
@@ -14,7 +14,7 @@ Many great resources out there keep referring to HTML and CSS as _programming la
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
+1.  Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
 </div>
 
 ### Additional Resources
@@ -28,7 +28,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
-* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
-* <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for changing the font and background color of a button?</a>
-* <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/">What is the difference between HTML, CSS and JavaScript?</a>
+*   <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML">What do HTML and CSS stand for?</a>
+*   <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?</a>
+*   <a class="knowledge-check-link" href="#html-and-css">Between HTML and CSS, which would you use for changing the font and background color of a button?</a>
+*   <a class="knowledge-check-link" href="https://brytdesigns.com/html-css-javascript-whats-the-difference/">What is the difference between HTML, CSS and JavaScript?</a>
