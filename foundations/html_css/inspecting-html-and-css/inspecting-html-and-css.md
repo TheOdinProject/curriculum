@@ -6,9 +6,9 @@ Being able to inspect and debug your HTML and CSS is critical to frontend develo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You will know how to access the element inspector.
-- You will know how to select and inspect specific elements.
-- You will know how to test out HTML and CSS in the inspector.
+-   You will know how to access the element inspector.
+-   You will know how to select and inspect specific elements.
+-   You will know how to test out HTML and CSS in the inspector.
 
 ### The Inspector
 
@@ -43,10 +43,10 @@ In the below image, we have altered the value of `margin-bottom` in the `.hero__
 <div class="lesson-content__panel" markdown="1">
 Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
 
-- [Overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here; just get familiar with _what_ tools are available in the DevTools, rather than how to use all of them right now.
-- [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
-- [View and change CSS](https://developer.chrome.com/docs/devtools/css): be sure to follow along with any interactive instructions!
-- [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
+-   [Overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here; just get familiar with _what_ tools are available in the DevTools, rather than how to use all of them right now.
+-   [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): similar to what we went over above, but with some nice extras.
+-   [View and change CSS](https://developer.chrome.com/docs/devtools/css): be sure to follow along with any interactive instructions!
+-   [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/): skip through any part that uses the JavaScript console.
 </div>
 
 ### Additional Resources
@@ -59,6 +59,6 @@ This section contains helpful links to related content. It isn’t required, so 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
+-   <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
+-   <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS element mean in your browser’s developer tools?</a>
+-   <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
