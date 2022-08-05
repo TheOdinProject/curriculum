@@ -40,6 +40,6 @@ Using prettier makes coding faster and easier! You don't have to worry about nai
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/">What is linting?</a>
-- <a class="knowledge-check-link" href="https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/">Which problems can linting prevent?</a>
+- <a class="knowledge-check-link" href="https://mikecavaliere.com/posts/javascript-linting-what-developers-need-to-know">What is linting?</a>
+- <a class="knowledge-check-link" href="https://mikecavaliere.com/posts/javascript-linting-what-developers-need-to-know">Which problems can linting prevent?</a>
 - <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=hkfBvpEfWdA">Why should you use Prettier?</a>
