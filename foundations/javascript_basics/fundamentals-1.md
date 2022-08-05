@@ -103,7 +103,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable?</a>
+*   <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable</a>
 *   <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
 *   <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
 *   <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>
