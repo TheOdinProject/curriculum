@@ -48,5 +48,3 @@ Here are some use cases (abilities your project needs to have):
 * Add a "backspace" button, so the user can undo if they click the wrong number.
 * Add keyboard support!
 </div>
-
-### POST-ASSIGNMENT SECTION HEADING
