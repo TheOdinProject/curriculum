@@ -56,7 +56,7 @@ console.dir(controls.previousElementSibling);
 
 So you're identifying a certain node based on its relationships to the nodes around it.
 
-### DOM methods
+### DOM Methods
 
 When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above.  One of the primary differences is that these nodes are objects that have many properties and methods attached to them.  These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes.
 
@@ -138,7 +138,7 @@ div.removeAttribute('id');
 
 See MDN's section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
-#### Working with classes
+#### Working with Classes
 
 ~~~javascript
 div.classList.add('new');                                      
@@ -154,7 +154,7 @@ div.classList.toggle('active');
 
 It is often standard \(and cleaner\) to toggle a CSS style rather than adding and removing inline CSS.
 
-#### Adding text content
+#### Adding Text Content
 
 ~~~javascript
 div.textContent = 'Hello World!'                               
@@ -162,7 +162,7 @@ div.textContent = 'Hello World!'
 // inserts it in div
 ~~~
 
-#### Adding HTML content
+#### Adding HTML Content
 
 ~~~javascript
 div.innerHTML = '<span>Hello World!</span>';                   
@@ -249,7 +249,7 @@ There are three primary ways to go about this: you can attach functions' attribu
 
 We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
 
-#### method 1
+#### Method 1
 
 ~~~html
 <button onclick="alert('Hello World')">Click Me</button>
@@ -257,7 +257,7 @@ We're going to create 3 buttons that all alert "Hello World" when clicked.  Try 
 
 This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
 
-#### method 2
+#### Method 2
 
 ~~~html
 <!-- the HTML file -->
@@ -274,7 +274,7 @@ btn.onclick = () => alert("Hello World");
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
-#### method 3
+#### Method 3
 
 ~~~html
 <!-- the HTML file -->
@@ -342,7 +342,7 @@ btn.addEventListener('click', function (e) {
 
 Pretty cool, eh?
 
-#### Attaching listeners to groups of nodes
+#### Attaching Listeners to Groups of Nodes
 
 This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
 
