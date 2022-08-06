@@ -65,11 +65,14 @@ Your new recipe page should have the following content:
 2. Don't forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren't all on one line. 
 
 Example: 
-  <ul>
+~~~html 
+ <ul>
     <li><a href="yourrecipe.html">Recipe Title 1</a>.</li>
     <li><a href="yourrecipe.html">Recipe Title 2</a></li>
     <li><a href="yourrecipe.html">Recipe Title 3</a></li>
   </ul>
+~~~
+Same issue here. The layout style guide has information on adding code blocks.
   
 Your links won't be flashy, but for now just focus on building them out.
 </div>
