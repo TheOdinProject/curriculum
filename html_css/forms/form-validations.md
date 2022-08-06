@@ -190,14 +190,14 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API".
 
-3. Read CSS Tricks brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
+3. Read CSS Tricks' brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
 
 </div>
 
 ### Additional Resources
 
 - Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
-- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do and don'ts for form validation UX.
+- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do's and don'ts for form validation UX.
 - [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design
 - [Regular expressions clearly explained](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4) goes over several real world examples of regular expression patterns and walks through what they're doing step by step. This resource can be useful if you don't just want to copy + paste popular patterns, and instead want to know what a pattern is actually doing.
 - One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.
