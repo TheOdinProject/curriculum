@@ -42,10 +42,9 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 
 Save and open this file up in a web browser (you can use Live Server to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
 
-
 > <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
 
-Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website. 
+Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website.
 
 ~~~html
   <script src="javascript.js"></script>
@@ -77,17 +76,17 @@ Try the following exercises (and don't forget to use `console.log()`!):
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
 2. Add a sequence of 6 different numbers together.
 3. Print the solution to the following equation: `(4 + 6 + 9) / 77`
-   1. Answer should be approximately `0.24675`
+    * Answer should be approximately `0.24675`
 4. Let's use variables!
-   1. Type the following at the top of the script tag: `let a = 10`
-   2. In the console `console.log(a)` should print `10`
-   3. Try the following: `9 * a`
-   4. and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
+    * Type the following at the top of the script tag: `let a = 10`
+    * In the console `console.log(a)` should print `10`
+    * Try the following: `9 * a`
+    * and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:
-   1. Declare a constant variable `max` with the value `57`
-   2. Set another variable `actual` to `max - 13`
-   3. Set another variable `percentage` to `actual / max`
-   4. If you type `percentage` in the console and press enter you should see a value like `0.7719`
+    * Declare a constant variable `max` with the value `57`
+    * Set another variable `actual` to `max - 13`
+    * Set another variable `percentage` to `actual / max`
+    * If you type `percentage` in the console and press enter you should see a value like `0.7719`
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
@@ -95,15 +94,15 @@ _* As you might have noticed by running Javascript code in the console, the cons
 
 ### Additional Resources
 
- This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable?</a>
+* <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable</a>
 * <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>

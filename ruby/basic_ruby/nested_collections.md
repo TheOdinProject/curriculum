@@ -211,7 +211,7 @@ end
 The results are different, because now it is determining if **all** of the nested arrays contain **any** number over 80. This returns true, because each of the nested arrays have at least one number over 80.
 
 ### Nested Hashes
-The hashes that you've seen so far have single key/value pairs. However, just like arrays, they can be nested, or multidimensional. Nested hashes are very common way to store complex associated data.
+The hashes that you've seen so far have single key/value pairs. However, just like arrays, they can be nested, or multidimensional. Nested hashes are a very common way to store complex associated data.
 
 ~~~ruby
 vehicles = {

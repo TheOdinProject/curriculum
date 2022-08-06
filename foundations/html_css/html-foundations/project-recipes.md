@@ -76,7 +76,6 @@ The recipe page should have the following content:
 
 2.  Don't forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren't all on one line.
 
-</div>
 
 ### Viewing Your Project on the Web
 

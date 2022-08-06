@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Creating an HTML File
 
-To demonstrate HTML boilerplate, we first need an HTML file to work with.
+To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
 Create a new folder on your computer and name it `html-boilerplate`. Within that folder create a new file and name it `index.html`.
 
