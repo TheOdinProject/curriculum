@@ -35,7 +35,7 @@ export default class LessonTocController extends Controller {
 
   buildTocItems() {
     this.headings().forEach((heading) => {
-      this.tocTarget.insertAdjacentHTML('beforeend', this.tocItem(heading));
+      this.tocTarget.insertAdjacentHTML('beforeend', this.tocItem(heading.toLowerCase()));
     });
   }
 
