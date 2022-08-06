@@ -1,6 +1,6 @@
-### What Do Web Developers Do?
+### Introduction
 
-In short, web developers build and maintain websites.
+What do web developers do? In short, they build and maintain websites.
 
 Web developers often work for clients who are trying to get their product or service onto the web.
 The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
@@ -28,7 +28,7 @@ For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers
 
 Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
-Large tech companies, such as Google, Facebook, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities.
+Large tech companies, such as Google, Meta, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities.
 
 Startups are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. Startups often offer slightly lower salaries and require longer hours, but they may also offer equity in the company and highly unique environments.
 
@@ -56,8 +56,6 @@ Learning to code is incredibly rewarding but can also be difficult and frustrati
 The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
-
-Read [this comprehensive blog post from Happy Bear Software](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
 
 ### Why Odin?
 

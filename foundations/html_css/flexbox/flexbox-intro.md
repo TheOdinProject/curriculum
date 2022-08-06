@@ -8,9 +8,9 @@ Because it is somewhat new as a technology, many resources put it near the end o
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You will learn how to position elements using flexbox.
-- You will learn about flex containers and flex items.
-- You will learn how to create useful components and layouts that go beyond just stacking and centering items.
+-   You will learn how to position elements using flexbox.
+-   You will learn about flex containers and flex items.
+-   You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
 ### Before we get started
 
@@ -66,11 +66,11 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
-- <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
+-   <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
+-   <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* [This Flexbox tutorial](https://www.internetingishard.com/html-and-css/flexbox/) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
