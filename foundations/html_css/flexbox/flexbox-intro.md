@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 -   You will learn about flex containers and flex items.
 -   You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
-### Before we get started
+### Before We Get Started
 
 Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser's developer tools. Those tools will be _crucial_ for you in the following lessons. If something isn't behaving the way you expect, inspecting it in the developer tools should be your first step _every time_.
 
