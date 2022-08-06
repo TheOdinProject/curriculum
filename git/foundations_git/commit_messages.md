@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 *   Why meaningful commit messages are important
 *   When to commit
 
-### Are commit messages so important they deserve their own lesson?
+### Are Commit Messages So Important They Deserve Their Own Lesson?
 
 Yes! Let me give you a quick list of reasons why:
 
