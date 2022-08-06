@@ -8,8 +8,8 @@ Luckily, with HTML there are a couple of different types of lists at your dispos
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to create an unordered list
-* How to create an ordered list
+*   How to create an unordered list
+*   How to create an ordered list
 
 ### Unordered Lists
 
@@ -44,19 +44,20 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 <div class="lesson-content__panel" markdown="1">
 To get some practice using lists, create a new HTML document and create the following lists:
 
-1. An unordered shopping list of your favorite foods
-2. An ordered list of todo's you need to get done today
-3. An unordered list of places you'd like to visit someday
-4. An ordered list of your all time top 5 favorite video games or movies
+1.  An unordered shopping list of your favorite foods
+2.  An ordered list of todo's you need to get done today
+3.  An unordered list of places you'd like to visit someday
+4.  An ordered list of your all time top 5 favorite video games or movies
+
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>
-* <a class="knowledge-check-link" href="#ordered-lists">What HTML tag is used to create an ordered list?</a>
-* <a class="knowledge-check-link" href="#li">What HTML tag is used to create list items within both unordered and ordered lists?</a>
+*   <a class="knowledge-check-link" href="#unordered-lists">What HTML tag is used to create an unordered list?</a>
+*   <a class="knowledge-check-link" href="#ordered-lists">What HTML tag is used to create an ordered list?</a>
+*   <a class="knowledge-check-link" href="#li">What HTML tag is used to create list items within both unordered and ordered lists?</a>
 
 ### Additional Resources
 
@@ -65,3 +66,4 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 *   [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 *   [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
+

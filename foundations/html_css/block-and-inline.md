@@ -50,23 +50,9 @@ Span is an inline-level element by default. It can be used to group text content
 1.  The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
 2.  W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 3.  The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
+4.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2".
 
 </div>
-
-### Practice
-
-<div class="lesson-content__panel" markdown="1">
-
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2".
-
-</div>
-
-
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 
 ### Knowledge Check
 
@@ -78,3 +64,9 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `button` block or inline?</a>
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `div` block or inline?</a>
 *   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `span` block or inline?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
