@@ -9,7 +9,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 #### Test Drive Your Terminal
 <span id="open-command-line">Open a terminal</span> on your computer.
 
-- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+- **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
 
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
 
@@ -82,9 +82,9 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 #### Opening files in VSCode from the Command Line
 
-**For Windows and Linux users:** You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
+- **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
-**For MacOS users:** Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+- **MacOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
