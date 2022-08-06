@@ -78,7 +78,7 @@ The recipe page should have the following content:
 
 </div>
 
-### Viewing your project on the web
+### Viewing Your Project on the Web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
 
