@@ -80,7 +80,6 @@ Example:
     <li><a href="yourrecipe.html">Recipe Title 3</a></li>
   </ul>
 ~~~
-Same issue here. The layout style guide has information on adding code blocks.
   
 Your links won't be flashy, but for now just focus on building them out.
 </div>
