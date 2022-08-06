@@ -40,7 +40,7 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 </html>
 ~~~
 
-Save and open this file up in a web browser (you can use Live Server to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
+Save and open this file up in a web browser (you can use ["Live Server" on Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
 
 
 > <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
