@@ -8,6 +8,10 @@ There's a whole world of exciting things you can learn. Further on the front-end
 
 So where do you go from here? BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. But focus on creating interesting software and use that to drive your education. However, we're not done yet. There is yet more to learn!
 
+#### Final Step: Give Your Feedback
+
+1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.   
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.

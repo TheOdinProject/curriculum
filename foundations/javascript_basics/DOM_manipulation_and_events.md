@@ -6,12 +6,12 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Explain what the DOM is in relation to a webpage.
-* Explain the difference between a "node" and an "element".
-* Explain how to target nodes with "selectors".
-* Explain the basic methods for finding/adding/removing and altering DOM nodes.
-* Explain the difference between a "nodelist" and an "array of nodes".
-* Explain what "bubbling" is and how it works.
+*   Explain what the DOM is in relation to a webpage.
+*   Explain the difference between a "node" and an "element".
+*   Explain how to target nodes with "selectors".
+*   Explain the basic methods for finding/adding/removing and altering DOM nodes.
+*   Explain the difference between a "nodelist" and an "array of nodes".
+*   Explain what "bubbling" is and how it works.
 
 ### DOM - Document Object Model
 
@@ -33,14 +33,14 @@ In the above example, the `<div class="display"></div>` is a "child" of `<div id
 
 When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:
 
-* div.display
-* .display
-* \#container &gt; .display
-* div\#container &gt; div.display
+*   div.display
+*   .display
+*   \#container &gt; .display
+*   div\#container &gt; div.display
 
 You can also use relational selectors \(i.e. `firstElementChild` or `lastElementChild` etc.\) with special properties owned by the nodes.
 
-~~~JavaScript
+~~~javascript
 const container = document.querySelector('#container');
 // selects the #container div (don't worry about the syntax, we'll get there)
 
@@ -56,14 +56,14 @@ console.dir(controls.previousElementSibling);
 
 So you're identifying a certain node based on its relationships to the nodes around it.
 
-### DOM methods
+### DOM Methods
 
 When your HTML code is parsed by a web browser, it is converted to the DOM as was mentioned above.  One of the primary differences is that these nodes are objects that have many properties and methods attached to them.  These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes.
 
 #### Query Selectors
 
-* _element_.querySelector\(_selector_\) returns a reference to the first match of _selector_
-* _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
+*   _element_.querySelector\(_selector_\) returns a reference to the first match of _selector_
+*   _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
 
 \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
 
@@ -71,9 +71,9 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 #### Element Creation
 
-* document.createElement\(tagName, \[options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
+*   document.createElement\(tagName, \[options\]\) creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
-~~~JavaScript
+~~~javascript
 const div = document.createElement('div');
 ~~~
 
@@ -81,25 +81,25 @@ This function does NOT put your new element into the DOM - it simply creates it 
 
 #### Append Elements
 
-* _parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
-* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_
+*   _parentNode_.appendChild\(_childNode_\) appends _childNode_ as the last child of _parentNode_
+*   _parentNode_.insertBefore\(_newNode_, _referenceNode_\) inserts _newNode_ into _parentNode_ before _referenceNode_
 
 #### Remove Elements
 
-* _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns a reference to _child_
+*   _parentNode_.removeChild\(_child_\) removes _child_ from _parentNode_ on the DOM and returns a reference to _child_
 
 #### Altering Elements
 
 When you have a reference to an element, you can use that reference to alter the element's own properties. This allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
-~~~JavaScript
+~~~javascript
 const div = document.createElement('div');                     
 // creates a new div referenced in the variable 'div'
 ~~~
 
-#### Adding inline style
+#### Adding Inline Style
 
-~~~JavaScript
+~~~javascript
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
@@ -114,7 +114,7 @@ See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com
 
 Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need to use camelCase or you'll need to use bracket notation instead of dot notation.
 
-~~~JavaScript
+~~~javascript
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
@@ -123,7 +123,7 @@ div.style.cssText = "background-color: white;" // ok in a string
 
 #### Editing Attributes
 
-~~~JavaScript
+~~~javascript
 div.setAttribute('id', 'theDiv');                              
 // if id exists, update it to 'theDiv', else create an id
 // with value "theDiv"
@@ -138,9 +138,9 @@ div.removeAttribute('id');
 
 See MDN's section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
-#### Working with classes
+#### Working with Classes
 
-~~~JavaScript
+~~~javascript
 div.classList.add('new');                                      
 // adds class "new" to your new div
 
@@ -154,17 +154,17 @@ div.classList.toggle('active');
 
 It is often standard \(and cleaner\) to toggle a CSS style rather than adding and removing inline CSS.
 
-#### Adding text content
+#### Adding Text Content
 
-~~~JavaScript
+~~~javascript
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and
 // inserts it in div
 ~~~
 
-#### Adding HTML content
+#### Adding HTML Content
 
-~~~JavaScript
+~~~javascript
 div.innerHTML = '<span>Hello World!</span>';                   
 // renders the HTML inside div
 ~~~
@@ -212,7 +212,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
-<div class="lesson-note" markdown="1">
+<div id="important-note" class="lesson-note" markdown="1">
 
 Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
@@ -234,12 +234,12 @@ Copy the example above into files on your own computer.  To make it work you'll 
 
 Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
 
-1. a `<p>` with red text that says "Hey I'm red!"
-2. an `<h3>` with blue text that says  "I'm a blue h3!"
-3. a `<div>` with a black border and pink background color with the following elements inside of it:
-   1. another `<h1>` that says "I'm in a div"
-   2. a `<p>` that says "ME TOO!"
-   3. Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+1.  a `<p>` with red text that says "Hey I'm red!"
+2.  an `<h3>` with blue text that says  "I'm a blue h3!"
+3.  a `<div>` with a black border and pink background color with the following elements inside of it:
+    1.  another `<h1>` that says "I'm in a div"
+    2.  a `<p>` that says "ME TOO!"
+    3.  Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
 
 ### Events
 
@@ -249,7 +249,7 @@ There are three primary ways to go about this: you can attach functions' attribu
 
 We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
 
-#### method 1
+#### Method 1
 
 ~~~html
 <button onclick="alert('Hello World')">Click Me</button>
@@ -257,14 +257,14 @@ We're going to create 3 buttons that all alert "Hello World" when clicked.  Try 
 
 This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
 
-#### method 2
+#### Method 2
 
-~~~HTML
+~~~html
 <!-- the HTML file -->
 <button id="btn">Click Me</button>
 ~~~
 
-~~~JavaScript
+~~~javascript
 // the JavaScript file
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
@@ -274,14 +274,14 @@ btn.onclick = () => alert("Hello World");
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
-#### method 3
+#### Method 3
 
 ~~~html
 <!-- the HTML file -->
 <button id="btn">Click Me Too</button>
 ~~~
 
-~~~JavaScript
+~~~javascript
 // the JavaScript file
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
@@ -342,7 +342,7 @@ btn.addEventListener('click', function (e) {
 
 Pretty cool, eh?
 
-#### Attaching listeners to groups of nodes
+#### Attaching Listeners to Groups of Nodes
 
 This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
 
@@ -354,7 +354,7 @@ This might seem like a lot of code if you're attaching lots of similar event lis
 </div>
 ~~~
 
-~~~JavaScript
+~~~javascript
 // buttons is a node list. It looks and acts much like an array.
 const buttons = document.querySelectorAll('button');
 
@@ -372,10 +372,10 @@ This is just the tip of the iceberg when it comes to DOM manipulation and event 
 
 Some useful events include:
 
-- click
-- dblclick
-- keydown
-- keyup
+*   click
+*   dblclick
+*   keydown
+*   keyup
 
 You can find a more complete list with explanations of each event on [this page](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
@@ -385,8 +385,8 @@ You can find a more complete list with explanations of each event on [this page]
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
-1. Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
-2. Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
+1.  Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
+2.  Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 </div>
 
@@ -394,30 +394,30 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
-* <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
-* <a class="knowledge-check-link" href="#element-creation">How do you create an element in the DOM?</a>
-* <a class="knowledge-check-link" href="#append-elements">How do you add an element to the DOM?</a>
-* <a class="knowledge-check-link" href="#remove-elements">How do you remove an element from the DOM?</a>
-* <a class="knowledge-check-link" href="#altering-elements">How can you alter an element in the DOM?</a>
-* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
-* <a class="knowledge-check-link" href="#important-note">Where should you include your JavaScript tag in your HTML file when working with DOM nodes?</a>
-* <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
-* <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
-* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
-* <a class="knowledge-check-link" href="#method-3">What are the benefits of using named functions in your listeners?</a>
-* <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
-* <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
-* <a class="knowledge-check-link" href="#query-selectors">What does a "nodelist" contain?</a>
-* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>
+*   <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
+*   <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
+*   <a class="knowledge-check-link" href="#element-creation">How do you create an element in the DOM?</a>
+*   <a class="knowledge-check-link" href="#append-elements">How do you add an element to the DOM?</a>
+*   <a class="knowledge-check-link" href="#remove-elements">How do you remove an element from the DOM?</a>
+*   <a class="knowledge-check-link" href="#altering-elements">How can you alter an element in the DOM?</a>
+*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=ns1LX6mEvyM">When adding text to a DOM element, should you use textContent or innerHTML? Why?</a>
+*   <a class="knowledge-check-link" href="#important-note">Where should you include your JavaScript tag in your HTML file when working with DOM nodes?</a>
+*   <a class="knowledge-check-link" href="#events">How do "events" and "listeners" work?</a>
+*   <a class="knowledge-check-link" href="#events">What are three ways to use events in your code?</a>
+*   <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">Why are event listeners the preferred way to handle events?</a>
+*   <a class="knowledge-check-link" href="#method-3">What are the benefits of using named functions in your listeners?</a>
+*   <a class="knowledge-check-link" href="#attaching-listeners-to-groups-of-nodes">How do you attach listeners to groups of nodes?</a>
+*   <a class="knowledge-check-link" href="#query-selectors">What is the difference between the return values of `querySelector` and `querySelectorAll`?</a>
+*   <a class="knowledge-check-link" href="#query-selectors">What does a "nodelist" contain?</a>
+*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=F1anRyL37lE">Explain the difference between "capture" and "bubbling".</a>
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
-* [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
-* [DOM Enlightenment](http://domenlightenment.com/)
-* [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
-* This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
-* [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
-* [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
+*   [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
+*   [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
+*   [DOM Enlightenment](http://domenlightenment.com/)
+*   [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
+*   This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
+*   [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
+*   [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.

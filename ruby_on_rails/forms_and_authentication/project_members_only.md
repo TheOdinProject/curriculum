@@ -2,18 +2,6 @@
 
 In these projects, you'll be working to implement authentication systems so users can only access areas of a site they are authorized to.
 
-### Warm Up: Building a Twitter Clone
-
-In this project you'll follow along to Andy Leverenz's brilliant Building a Twitter Clone screen casts. You'll be building a light weight version of Twitter and get lot of healthy experience with using Devise in the process.
-
-### Your Task
-
-<div class="lesson-content__panel" markdown="1">
-  1. Complete [A Twitter Clone Lets Build with Ruby on Rails Part 1](https://www.youtube.com/watch?time_continue=1&v=5gUysPm64a4&feature=emb_logo)
-  2. Complete [A Twitter Clone Lets Build with Ruby on Rails Part 2](https://www.youtube.com/watch?v=ZxkbFOe3lRY&t)
-  3. Complete [A Twitter Clone Lets Build with Ruby on Rails Part 3](https://www.youtube.com/watch?v=V4h7-hR_WME)
-</div>
-
 ### Project: Members Only!
 
 In this project, you'll be building an exclusive clubhouse where your members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
@@ -56,3 +44,5 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Railscasts #250 Authentication from Scratch](http://railscasts.com/episodes/250-authentication-from-scratch-revised)
 * [Railscasts #274 Remember Me & Reset Password](http://railscasts.com/episodes/274-remember-me-reset-password)
+* Watch [A Twitter Clone Lets Build with Ruby on Rails Part 1](https://www.youtube.com/watch?v=loYfUpwoLlM&t=3s)
+and [A Twitter Clone Lets Build with Ruby on Rails Part 2](https://www.youtube.com/watch?v=fyj70TbS75c&t=474s). If you still need more inspiration for this project or want more insight then the rest of this tutorial series is a good resource.

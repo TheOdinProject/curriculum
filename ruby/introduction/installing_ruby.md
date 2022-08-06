@@ -106,7 +106,25 @@ rbenv install 3.1.2 --verbose
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
-When the last command is finished, set the Ruby version and verify that it's working:
+You may get this error message:
+
+~~~bash
+ruby-build: definition not found: x.x.x
+
+See all available versions with `rbenv install --list'.
+
+If the version you need is missing, try upgrading ruby-build:
+
+  git -C /home/itorja/.rbenv/plugins/ruby-build pull
+~~~
+
+If so, we run the suggested command:
+
+~~~bash
+git -C "$(rbenv root)"/plugins/ruby-build pull
+~~~
+
+Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
 rbenv global 3.1.2
@@ -125,9 +143,8 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
+
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
-
 
 
 </details>
@@ -181,9 +198,19 @@ This command will install the command line interface for Heroku, a free website 
 
 ### Step 3: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to manage Ruby versions.
 
-#### Step 3.1: Install rbenv
+#### Step 3.1: Install ruby-build
+
+First, let's install `ruby-build`:
+
+~~~bash
+brew install ruby-build
+~~~
+
+`ruby-build` will make it possible to install our Ruby version of choice.
+
+#### Step 3.2: Install rbenv
 
 To install `rbenv`, run the following in your terminal:
 
@@ -237,6 +264,14 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 We can now (finally) install Ruby! Our curriculum currently uses version 3.1.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
+First, let's upgrade `ruby-build`:
+
+~~~bash
+brew upgrade ruby-build
+~~~
+
+Now we're ready to install our desired version of Ruby:
+
 ~~~bash
 rbenv install 3.1.2 --verbose
 ~~~
@@ -259,8 +294,6 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 If you don't see the output above, log off and log back on, then try again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
-
 
 
 </details>

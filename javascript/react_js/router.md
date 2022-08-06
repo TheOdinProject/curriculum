@@ -5,9 +5,16 @@ In this lecture we are going to learn a little bit about routing in React. Up un
 ### Learning Outcomes
 By the end of this lesson, you should be able to:
 
+- Understand what client-side routing is
 - Explain how `react-router-dom` works
 
-### React Router
+### Client-Side Routing
+
+<span id="client-side-routing">Client side routing is internal handling of routes inside the JS file that is rendered to the client(front-end). Client Side Routing helps in building Single-page applications(SPAs) without refreshing as the user navigates. For example when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.</span>
+ 
+React router is the standard routing library for React Applications. By using React routers, we can specify which component can be rendered based on the route. From version 4, react router uses [dynamic routes](https://v5.reactrouter.com/web/guides/philosophy/dynamic-routing) (routing that takes place as your app is rendering).
+
+### How To Use React Router
 
 Let's go through it step by step. First of all, create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons. (Just leave the index.js and the App.js files)
 
@@ -113,6 +120,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
+- <a class="knowledge-check-link" href="#client-side-routing">What is Client-side routing?</a>
 - <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
 - <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
 - <a class="knowledge-check-link" href="#routing">How do you ensure that Router links are routed accurately?</a>

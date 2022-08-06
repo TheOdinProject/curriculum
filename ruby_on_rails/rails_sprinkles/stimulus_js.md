@@ -7,7 +7,7 @@ controllers that give you an extra little bit of interactivity.
 
 ### Learning Outcomes
 
-* Look through these now and then use them to test yourself after doing the assignment*
+*Look through these now and then use them to test yourself after doing the assignment*
 
 After going through this lesson you should be able to explain:
 
@@ -139,7 +139,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
     static targets = ["name", "output"]
     greet() {
-        this.nameTarget.html = this.inputTarget.value     
+        this.nameTarget.html = this.outputTarget.value
     }
 }
 ~~~

@@ -14,16 +14,16 @@ As we covered back in the [Installations section](https://www.theodinproject.com
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* What is the difference between front-end and back-end development?
-* Why are we required to install back-end languages on our computer (besides to run them)?
+*   What is the difference between front-end and back-end development?
+*   Why are we required to install back-end languages on our computer (besides to run them)?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Check out [this blog post on backend vs frontend programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
-  2. [A good and short overview of the backend](https://techterms.com/definition/backend).
-  3. A [much more detailed and thorough explanation](https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the backend is provided by Codecademy, including a step-by-step breakdown of what happens in the backend when a browser makes a request to a server.  
+  1.  Check out [this blog post on backend vs frontend programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
+  2.  [A good and short overview of the backend](https://techterms.com/definition/backend).
+  3.  [A much more detailed and thorough explanation](https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the backend is provided by Codecademy, including a step-by-step breakdown of what happens in the backend when a browser makes a request to a server.  
 
 </div>
 
@@ -31,10 +31,10 @@ This section contains a general overview of topics that you will learn in this l
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="https://techterms.com/definition/backend">What is back-end development?</a>
-* <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture/">How many parts does the backend consist of?</a>
-* <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Name each part of the backend.</a>
-* <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Where does the backend store its data?</a>
+*   <a class="knowledge-check-link" href="https://techterms.com/definition/backend">What is back-end development?</a>
+*   <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture/">How many parts does the backend consist of?</a>
+*   <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Name each part of the backend.</a>
+*   <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Where does the backend store its data?</a>
 
 ### Additional Resources
 
