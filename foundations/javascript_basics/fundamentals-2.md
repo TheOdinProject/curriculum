@@ -1,4 +1,5 @@
 ### Introduction
+
 There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ### Lesson Overview
@@ -42,24 +43,25 @@ To give you a good bit of practice, we have created some replit.com exercises fo
 
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-To get started, create a free repl account and click "Fork" in order to have access to the exercises. 
-Note: Feel free to browse the files on the left column in order to gain familiarity with it. 
+To get started, create a free repl account and click "Fork" in order to have access to the exercises.
+Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
-1.  [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
-    *   In this exercise, you will be working out of the file called troubleshooting.js
-2.  [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
-    *   You will be working out of script.js 
-3.  [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
-    *   You will be working out of math.js  
-4.  [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
-    *   You will be working out of follow.js
+*  [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
+  *  In this exercise, you will be working out of the file called troubleshooting.js
+*  [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
+  *  You will be working out of script.js
+*  [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
+  *  You will be working out of math.js  
+*  [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
+  *  You will be working out of follow.js
+
 </div>
 
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-*   [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
+*  [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
 
 ### Knowledge Check
 

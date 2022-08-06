@@ -42,10 +42,9 @@ The simplest way to get started is to simply create an HTML file with the JavaSc
 
 Save and open this file up in a web browser (you can use Live Server to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
 
-
 > <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
 
-Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website. 
+Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website.
 
 ~~~html
   <script src="javascript.js"></script>
@@ -97,7 +96,7 @@ _* As you might have noticed by running Javascript code in the console, the cons
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*  It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
 
