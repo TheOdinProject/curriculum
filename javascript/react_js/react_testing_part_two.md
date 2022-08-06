@@ -39,6 +39,8 @@ export default FavoriteInput;
 
 Nothing fancy. `FavoriteInput` is a simple component with a couple props passed in. We're interested in the `onChange` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user types in the input box. Let's test it.
 
+<span id="testing-callback-handlers">Notice how we mock and test the `onChange` function</span>:
+
 ~~~javascript
 // FavoriteInput.test.js
 
