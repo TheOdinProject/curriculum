@@ -1,6 +1,6 @@
 ### Introduction
 
-Let's see how the orientation of items within a flex container can be controlled using the `flex-direciton` property.
+Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
 
 ### Lesson Overview
 
