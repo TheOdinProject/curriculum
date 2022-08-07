@@ -1,16 +1,17 @@
-<div class="curriculum-details bg-whitesmoke">
-  <div class="curriculum-details-title">
-    <h2 class="font-bold text-2xl">Learn everything you need to know to become a web developer</h2>
+<div class="py-16 bg-whitesmoke">
+  <div class="text-center mb-10 md:mb-16">
+    <h2 class="font-bold text-2xl px-4">Learn everything you need to know to become a web developer</h2>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-10 offset-xl-1">
-        <div class="row curriculum-details-grid">
+  <div class="page-container">
+    <div class="flex flex-row flex-wrap">
+      <div class="w-full lg:w-5/6 mx-auto">
+        <div class="flex flex-row flex-wrap justify-center mb-4">
           <% courses.each do |course| %>
-            <%= link_to path_course_path(course.path, course), class: "course-badge-tile" do %>
-              <%= image_tag course.badge_uri, alt: "#{course.title.downcase} badge" %>
-              <h4 class="font-bold uppercase text-lg">
+            <%= link_to path_course_path(course.path, course), 
+              class: "w-60 sm:w-64 bg-white py-6 px-12 flex flex-col items-center text-center hover:shadow-2xl m-4 course-badge-tile" do %>
+              <%= image_tag course.badge_uri, alt: "#{course.title.downcase} badge", class: "h-20 w-20 sm:h-40 sm:w-40" %>
+              <h4 class="font-bold uppercase text-lg mt-4">
                 <%= course.title %>
               </h4>
             <% end %>

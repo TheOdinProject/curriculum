@@ -1,16 +1,16 @@
-<div class="success-stories gradient">
-  <div class="success-stories-title">
+<div class="w-full gradient">
+  <div class="text-center pt-16">
     <h2 class="font-bold text-2xl">Success Stories</h2>
   </div>
 
-  <div class="success-stories-container">
+  <div class="max-w-7xl mx-auto mt-8 sm:mt-24 flex flex-nowrap xl:flex-wrap flex-col xl:flex-row items-center">
     <% @success_stories.each do |story| %>
-    <div class="success-story">
-      <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar" %> </div>
+    <div class="px-6 sm:px-0 max-w-xl xl:max-w-none xl:w-1/2 flex pb-9">
+      <div class="w-16 sm:w-24 text-center pt-4 sm:flex justify-center"> <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar", class: "w-12 h-12 rounded-full" %> </div>
 
-      <div class="success-content">
-         <div class="details">
-           <p><%= link_to story.student_name, story.social_media_link, class: 'accent' %></p>
+      <div class="flex-1">
+         <div class="flex flex-row items-center">
+           <p><%= link_to story.student_name, story.social_media_link, class: 'text-gold' %></p>
          </div>
          <p><%= story.story_content.truncate_words(30) %></p>
       </div>
@@ -18,13 +18,13 @@
     <% end %>
   </div>
 
-  <div class="success-stories-read-more">
-    <%= link_to 'Read more success stories', success_stories_path, class: 'odin-dark-link secondary' %>
-  </div> <!-- /.success-stories-read-more -->
+  <div class="flex justify-center">
+    <%= link_to 'Read more success stories', success_stories_path, class: 'odin-dark-link text-gray-600' %>
+  </div>
 
   <%= render 'shared/bottom_cta',
     button: sign_in_or_view_curriculum_button,
     heading: 'Start learning for free now!',
     sub_heading: '' %>
 
-</div> <!-- /.success-stories -->
+</div>
