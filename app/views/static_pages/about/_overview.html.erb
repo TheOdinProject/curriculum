@@ -10,14 +10,14 @@
         <% end %>
       <% end %>
 
-      <%= render CardComponent.new do |card| %>
+      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
         <% card.body(classes: 'py-4 text-center' ) do %>
           <p class="font-bold text-gray-400 text-4xl">5000+</p>
           <p>Contributors</p>
         <% end %>
       <% end %>
 
-      <%= render CardComponent.new do |card| %>
+      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
         <% card.body(classes: 'py-4 text-center' ) do %>
           <p class="font-bold text-gray-400 text-4xl">2013</p>
           <p>Founded</p>
@@ -25,7 +25,7 @@
       <% end %>
 
       <div class="col-span-3 lg:col-span-2">
-        <%= render CardComponent.new(classes: 'h-full') do |card| %>
+        <%= render CardComponent.new(classes: 'h-full odin-dark-bg-accent') do |card| %>
           <% card.header(classes: 'px-4') do %>
             <h3 class="font-bold text-4xl">Origin of The Odin Project</h3>
           <% end %>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="col-span-3 lg:col-span-1">
-        <%= render CardComponent.new do |card| %>
+        <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
           <% card.header(classes: 'flex px-4 align-middle') do %>
             <a href="https://www.github.com/theodinproject" target="_blank"><i class="fab fa-github fa-3x"></i></a>
             <h3 class="font-bold text-4xl text-gray-400 inline-block ml-4">Open Source</h3>
