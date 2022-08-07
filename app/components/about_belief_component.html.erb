@@ -1,9 +1,9 @@
-<div class="sm:grid sm:grid-cols-12 pb-14">
-  <div class="flex sm:col-span-2 sm:pr-4 justify-center ">
+<div class="sm:grid sm:grid-cols-12 sm:gap-x-6 pb-14">
+  <div class="flex sm:col-span-2 justify-center ">
     <%= image_tag @belief[:image_path], alt: @belief[:image_alt], class: "w-20 h-20" %>
   </div>
 
-  <div class="sm:col-span-10 sm:pl-4 text-center sm:text-left">
+  <div class="sm:col-span-10 text-center sm:text-left">
     <h3 class="pt-10 sm:pt-0 pb-4 text-xl">
       <strong>
         <%= @belief[:short_text] %>
