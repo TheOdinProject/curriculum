@@ -11,7 +11,7 @@ After this lesson and completing the assignments, you will be able to:
 - Describe the pros and cons of using classes in JavaScript.
 - Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
 - Explain the differences between an object constructor and a class.
-- Explain what "getters" & "setters" are.
+- Explain what "getters" and "setters" are.
 - Understand what computed names and class fields are.
 - Describe function binding.
 - Use inheritance with classes.
