@@ -3,21 +3,21 @@
     <h2 class="mb-12 text-gold text-center text-2xl font-bold">Overview of The Odin Project</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-16">
-      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+      <%= render CardComponent.new(classes: 'col-span-3 lg:col-span-1 odin-dark-bg-accent') do |card| %>
         <% card.body(classes: 'py-4 text-center' ) do %>
           <p class="font-bold text-gray-400 text-4xl"><%= User.count %></p>
           <p>Learners</p>
         <% end %>
       <% end %>
 
-      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+      <%= render CardComponent.new(classes: 'col-span-3 lg:col-span-1 odin-dark-bg-accent') do |card| %>
         <% card.body(classes: 'py-4 text-center' ) do %>
           <p class="font-bold text-gray-400 text-4xl">5000+</p>
           <p>Contributors</p>
         <% end %>
       <% end %>
 
-      <%= render CardComponent.new(classes: 'odin-dark-bg-accent') do |card| %>
+      <%= render CardComponent.new(classes: 'col-span-3 lg:col-span-1 odin-dark-bg-accent') do |card| %>
         <% card.body(classes: 'py-4 text-center' ) do %>
           <p class="font-bold text-gray-400 text-4xl">2013</p>
           <p>Founded</p>
