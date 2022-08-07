@@ -15,7 +15,7 @@ After this lesson and completing the assignments, you will be able to:
 - Understand what computed names and class fields are.
 - Describe function binding.
 - Use inheritance with classes.
-- Explain why favoring Composition over Inheritance is suggested.
+- Understand why composition is generally preferred to inheritance.
 
 ### Assignment
 
