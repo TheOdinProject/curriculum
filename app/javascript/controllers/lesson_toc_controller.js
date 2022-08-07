@@ -35,7 +35,7 @@ export default class LessonTocController extends Controller {
 
   buildTocItems() {
     this.headings().forEach((heading) => {
-      this.tocTarget.insertAdjacentHTML('beforeend', this.tocItem(heading.toLowerCase()));
+      this.tocTarget.insertAdjacentHTML('beforeend', this.tocItem(heading));
     });
   }
 
@@ -49,6 +49,8 @@ export default class LessonTocController extends Controller {
   }
 
   tocItem(heading) {
-    return `<li class="p-2 pl-4"><a class="${this.itemClassesValue}" href="#${kebabCase(heading)}">${heading}</a></li>`;
+    const id = kebabCase(heading.toLowerCase());
+
+    return `<li class="p-2 pl-4"><a class="${this.itemClassesValue}" href="#${id}">${heading}</a></li>`;
   }
 }
