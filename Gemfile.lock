@@ -400,7 +400,7 @@ GEM
       execjs
       railties (>= 3.2)
       tilt
-    redis (4.6.0)
+    redis (4.7.1)
     regexp_parser (2.5.0)
     require_all (3.0.0)
     responders (3.0.1)
@@ -488,10 +488,10 @@ GEM
       semantic_range (>= 2.3.0)
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
-    sidekiq (6.5.1)
+    sidekiq (6.5.3)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
-      redis (>= 4.2.0)
+      redis (>= 4.5.0)
     simplecov (0.21.2)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
