@@ -44,7 +44,7 @@
     "notyf": "^3.10.0",
     "pnp-webpack-plugin": "1",
     "popper.js": "^1.16.1",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.16",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^7.0.1",
