@@ -1,7 +1,7 @@
 <div class="skill justify-between flex-col text-center md:flex-row md:text-left">
   <div class="flex items-center flex-col md:flex-row">
     <div class='skill__image'>
-      <%= render ProgressBadgeComponent.new(
+      <%= render Progress::BadgeComponent.new(
         course: course,
         current_user: current_user,
         url: courses_progress_path(course.id),

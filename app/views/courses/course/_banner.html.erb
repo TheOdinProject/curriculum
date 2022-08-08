@@ -1,6 +1,6 @@
 <div class="mb-6">
   <div class='flex justify-center'>
-    <%= render ProgressBadgeComponent.new(
+    <%= render Progress::BadgeComponent.new(
       course: course,
       current_user: current_user,
       url: courses_progress_path(course.id)

@@ -4,7 +4,7 @@
   <% end %>
 
   <% if user_signed_in? %>
-    <%= render CompleteButtonComponent.new(lesson: lesson, current_user: current_user) %>
+    <%= render Complete::ButtonComponent.new(lesson: lesson, current_user: current_user) %>
   <% else %>
     <%= link_to(
       'Login to track progress',

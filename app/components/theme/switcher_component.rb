@@ -1,4 +1,4 @@
-class ThemeSwitcherComponent < ViewComponent::Base
+class Theme::SwitcherComponent < ViewComponent::Base
   def initialize(theme:, mobile: false, icon_only: false)
     @theme = theme
     @mobile = mobile

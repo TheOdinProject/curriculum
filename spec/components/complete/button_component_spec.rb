@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe CompleteButtonComponent, type: :component do
+RSpec.describe Complete::ButtonComponent, type: :component do
   let(:lesson) { create(:lesson, id: 1002) }
   let(:user) { create(:user) }
 

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ThemeSwitcherComponent, type: :component do
+RSpec.describe Theme::SwitcherComponent, type: :component do
   context 'when dark mode is enabled' do
     it 'renders the light mode button' do
       component = described_class.new(theme: 'dark')

@@ -6,7 +6,7 @@
     <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
       <dl class="space-y-6 divide-y divide-gray-200">
         <% t("faq_items").each do |item| %>
-          <%= render FaqItemComponent.new(item: item) %>
+          <%= render Faq::ItemComponent.new(item: item) %>
         <% end %>
       </dl>
     </div>

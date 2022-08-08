@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ProgressBadgeComponent, type: :component do
+RSpec.describe Progress::BadgeComponent, type: :component do
   let(:course) { create(:course) }
   let!(:section) { create(:section, course:) }
   let!(:lesson) { create(:lesson, section:) }

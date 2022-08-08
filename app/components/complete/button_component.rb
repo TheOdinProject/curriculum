@@ -1,4 +1,4 @@
-class CompleteButtonComponent < ViewComponent::Base
+class Complete::ButtonComponent < ViewComponent::Base
   def initialize(lesson:, current_user:)
     @lesson = lesson
     @current_user = current_user

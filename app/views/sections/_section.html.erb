@@ -13,7 +13,7 @@
       <% section.lessons.each_with_index do |lesson, lesson_index| %>
         <div class="flex text-2xl justify-between space-x-5 items-center flex-shrink-1">
           <%= render Lessons::TitleLinkComponent.new(lesson: lesson, lesson_number: lesson_index + 1)%>
-          <%= render CompleteIconButtonComponent.new(lesson: lesson, current_user: current_user) %>
+          <%= render Complete::IconComponent.new(lesson: lesson, current_user: current_user) %>
         </div>
       <% end %>
     </div>

@@ -1,6 +1,6 @@
 <header class="mb-16 grid grid-cols-12">
   <div class="flex space-y-4 items-center flex-col col-span-full justify-center xl:space-x-4 xl:flex-row xl:justify-start xl:col-start-2">
-    <%= render ProgressBadgeComponent.new(
+    <%= render Progress::BadgeComponent.new(
         course: lesson.course,
         current_user: current_user,
         url: courses_progress_path(lesson.course.id)
