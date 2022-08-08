@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 -   You'll learn the 3 properties that are defined by the `flex` shorthand, and how to use them individually.
 
-### the Flex Shorthand
+### The Flex Shorthand
 
 The `flex` declaration is actually a shorthand for 3 properties that you can set on a flex item. These properties affect how flex items size themselves within their container. You've seen some shorthand properties before, but we haven't officially defined them yet.
 
