@@ -1,3 +1,7 @@
+### Introduction
+
+Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
+
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.

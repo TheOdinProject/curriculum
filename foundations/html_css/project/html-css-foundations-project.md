@@ -20,11 +20,11 @@ Some good places to find free-to-use images on the web include [Pexels](https://
   
 </div>
 
-### Setting up your project's GitHub repository
+### Setting Up Your Project's GitHub Repository
 
 As we did in the Recipes project, go ahead and set up a git repository before beginning work on this project. Git and GitHub are going to act as a portfolio for you moving forward, so you need to keep everything in there! Look back at the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes) if you need a reminder on how to set it up.
 
-### Warning About Looking at Other People's Finished Project Code Before You have Completed Your Own
+### Warning About Looking at Other People's Finished Project Code Before You Have Completed Your Own
 
 All of our projects have a "Student Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you both to compare your completed code with and see what other routes people have chosen to take with their project code and designs.
 
@@ -54,7 +54,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 6. When you finish, don't forget to push it up to GitHub!
 </div>
 
-### Viewing your project on the web
+### Viewing Your Project on the Web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
 
@@ -67,3 +67,4 @@ There are a couple of ways to go about publishing your project, but the simplest
 - Click on **Pages** on the left side bar.
 - Change the **Source** from _none_ to _main branch_ and click Save.
 - It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+  
