@@ -39,7 +39,7 @@ purpose?
 
 * **data-controller** is set to `clipboard`, which says "Hey Stimulus, we want to enhance this HTML with some clipboard
 behavior."
-* **data-clipboard-target** is set to `source`, which says "This is the the `source` we are gonna use for our clipboard
+* **data-clipboard-target** is set to `source`, which says "This is the `source` we are gonna use for our clipboard
 controller."
 * **data-action** is set to `click->clipboard#copy`, which says "On a click invoke the `copy` action from our clipboard
 controller."
