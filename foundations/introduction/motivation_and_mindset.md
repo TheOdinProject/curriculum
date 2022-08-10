@@ -15,10 +15,7 @@ Take a moment to think about why you have decided to learn programming.
 
 Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
-To give your motivation a bit of a boost, you can read about the success of others:
-
-* [A woman who taught herself enough to land a job in 5 months](https://newcodegirl.blogspot.com/2015/04/i-made-it-job-contract-signed.html)
-* [A 32 year old who taught himself programming using The Odin Project over a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
+To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/705776663497277490) channel.
 
 
 ### Growth Mindset

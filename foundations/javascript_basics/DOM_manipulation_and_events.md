@@ -394,7 +394,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
+*   <a class="knowledge-check-link" href="#dom-document-object-model">What is the DOM?</a>
 *   <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
 *   <a class="knowledge-check-link" href="#element-creation">How do you create an element in the DOM?</a>
 *   <a class="knowledge-check-link" href="#append-elements">How do you add an element to the DOM?</a>
