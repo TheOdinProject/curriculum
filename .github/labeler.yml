@@ -14,7 +14,7 @@
   - 'git/**/*'
 
 'Content: Intermediate HTML/CSS':
-  - 'html_css/**/*'
+  - 'intermediate_html_css/**/*'
 
 'Content: JavaScript':
   - 'javascript/**/*'
