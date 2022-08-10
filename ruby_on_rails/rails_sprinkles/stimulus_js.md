@@ -294,7 +294,7 @@ button.
 * Make sure your toggle controller is reusable. Try to make it do the following things:
   * Clicking a button will show another element (like a dropdown menu)
   * Clicking an element will hide the clicked element and show another
-  * Clicking an checkbox will highlight the element containing the checkbox
+  * Clicking a checkbox will highlight the element containing the checkbox
 * Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
 * Project: In a new rails app, create a `car` model that `:has_many` `variants`; make up some attributes. Then 
