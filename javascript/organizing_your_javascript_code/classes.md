@@ -32,8 +32,7 @@ After this lesson and completing the assignments, you will be able to:
     component which gives you access to all their built-in functionality.
 
 1.  [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some 
-    pros and cons for classes. [FunFunFunction's video on Composition over Inheritance] 
-    (https://www.youtube.com/watch?v=wfMtDGfHWpA) elaborates on the cons mentioned in the article and does 
+    pros and cons for classes. [FunFunFunction's video on Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA) elaborates on the cons mentioned in the article and does 
     a great job of going over the topic. Many people think that class syntax is misleading for JavaScript and 
     Inheritance is best avoided, and thus Factory Functions (from the previous lesson) that use Composition are 
     inherently better. __WE__ are not saying that classes are bad or that Inheritance should never be used! We just 
