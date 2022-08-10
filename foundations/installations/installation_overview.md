@@ -8,7 +8,7 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 ### The Installation Plan
 
-In the following sections, we'll go over the steps for setting up your environment. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
+In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, this is an informative lesson. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
 
 In the next few lessons, we will walk through these installation steps together:
 
@@ -47,16 +47,6 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-#### NOTICE FOR WINDOWS 11 USERS:
-
-Windows 11 released in October 2021. VirtualBox (the program that runs your Virtual Machine) does not currently support Windows 11 as a host operating
-system. This means that VirtualBox may not properly install or run on Windows 11, or that you could face serious bugs that hinder performance or cause
-crashes.
-
-If you are using Windows 11 on the computer that you will be installing a Linux environment to, it is recommended that you install Linux via Dual-Booting, rather than installing via a virtual machine.
-
-You can see the currently supported operating systems for VirtualBox hosting [in this section of their documentation.](https://www.virtualbox.org/manual/UserManual.html#hostossupport)
-
 ### Concerned About Installing A New OS?
 
 "Woah, woah, woah! I like my OS just fine the way it is!"
@@ -80,3 +70,9 @@ Before we can continue, we must first stress one detail of importance:
 **We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment.** Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
 
 With that out of the way, we need to set up an appropriate development environment!
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

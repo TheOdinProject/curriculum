@@ -1,6 +1,6 @@
 Unit Testing is important for many reasons that we probably don't need to cover right now. If you've already taken our basic JavaScript course you've already encountered Unit Testing, and the point of _this_ lesson is not to teach you the philosophy or mechanics of writing tests, but how they apply to our Express applications and APIs.
 
-If you haven't finished our [front-end javascript course](https://www.theodinproject.com/courses/javascript), go back and take a look at those lessons before progressing.
+If you haven't finished our [front-end javascript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
 
 ### Learning Outcomes
 

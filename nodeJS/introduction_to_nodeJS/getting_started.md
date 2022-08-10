@@ -1,6 +1,6 @@
-Like we learned in the introduction lesson, Node.js is really just JavaScript. So a basic understanding of JavaScript is necessary in order to understand Node. For this reason, it is highly recommended that you take our prerequisite [JavaScript course](https://www.theodinproject.com/courses/javascript) before continuing with this course.
+Like we learned in the introduction lesson, Node.js is really just JavaScript. So a basic understanding of JavaScript is necessary in order to understand Node. For this reason, it is highly recommended that you take our prerequisite [JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript) before continuing with this course.
 
-This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes right after this assignment will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
+This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes at the end of this section will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
@@ -57,4 +57,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
-- This [crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js, There are 12 videos in playlist you can consider them all.
+- This [crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js. There are 12 videos in this playlist, you can consider them all.

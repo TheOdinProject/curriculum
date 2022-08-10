@@ -1,6 +1,6 @@
-### What Do Web Developers Do?
+### Introduction
 
-In short, web developers build and maintain websites.
+What do web developers do? In short, they build and maintain websites.
 
 Web developers often work for clients who are trying to get their product or service onto the web.
 The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
@@ -28,7 +28,7 @@ For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers
 
 Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
-Large tech companies, such as Google, Facebook, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities.
+Large tech companies, such as Google, Meta, and Amazon, have very stringent hiring requirements. If you successfully meet these expectations, they offer excellent pay, benefits, and opportunities.
 
 Startups are a bit like the wild west. For a junior developer, it can feel like a trial by fire because of the pace of development. Startups often offer slightly lower salaries and require longer hours, but they may also offer equity in the company and highly unique environments.
 
@@ -57,8 +57,6 @@ The strongest assets you can have as a student are a desire to build, a problem-
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 
-Read [this comprehensive blog post from Happy Bear Software](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) about the journey to getting hired as a brief introduction to what you will face ahead.
-
 ### Why Odin?
 
 I want you to know that this will not be easy.
@@ -77,7 +75,7 @@ Once you start to feel comfortable with the tools, start hacking on open source 
 
 Hopefully, you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career. This has only been a teaser into the world of web development.
 
-In this course, "Foundations" you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on.
+In this "Foundations" course, you'll take a journey through the entire spectrum of topics that you will eventually need to know. This course jumps around to a variety of topics that you may be totally unfamiliar with, providing you a small taste of each and then moving on.
 
 The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
@@ -92,7 +90,8 @@ And it might even be life changing, too.
 *What are you waiting for?*
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)

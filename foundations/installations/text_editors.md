@@ -11,7 +11,7 @@ You can think of code editors as specialized web development tools. They are hig
 
 **Visual Studio Code**, or just VSCode as it's commonly referred to, is an excellent free code editor. It has outstanding add-on support and great Git integration. VSCode is the most popular code editor among Odin's students and moderators, so support is easy to find in the community.
 
-Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. Keep in mind that means you will not able to get help if you are using a different text editor than VSCode for the curriculum.
+Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. Keep in mind that this means you will not be able to get help if you are using a different text editor other than VSCode for the curriculum.
 
 As a reminder, if you're using a **virtual machine**, you should install VSCode **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but you'll want to be sure that you have this critical tool inside your VM.
 
@@ -91,11 +91,11 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. Learn the basics of using this text editor by watching [these introductory videos](https://code.visualstudio.com/docs/introvideos/basics). Watch only the first video as the second involves installing Node.js which will not be needed at this stage.
+  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+### Additional Resources
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
 * These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.
