@@ -104,7 +104,7 @@ const str2 = "World!";
 const message = str1.push(str2);
 ~~~
 
-![Screen Shot 2021-05-17 at 12 14 12 PM](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/03.png)
+![Screenshot of TypeError message in Chrome](https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png)
 
 Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
 
