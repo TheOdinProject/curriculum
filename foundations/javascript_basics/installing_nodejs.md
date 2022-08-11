@@ -6,7 +6,14 @@ We're going to install it using `nvm` (Node Version Manager), because it makes i
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
-### Installing nvm
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+-   Learn how to Install Node Version Manager and Node Package Manager
+-   Learn how to run Node console
+
+### Installing NVM
 
 <details markdown="block">
   <summary class="dropDown-header">Installation on Linux</summary>
@@ -24,7 +31,7 @@ Note: You may need to update Ubuntu to the latest version for the Curl installat
 sudo apt update && sudo apt upgrade
 ~~~ 
   
-#### Step 1: Downloading and Installing `nvm`
+#### Step 1: Downloading and Installing NVM
 
 Simply run this command:
 
@@ -34,7 +41,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 This will install `nvm`
 
-#### Step 2: Initializing `nvm`
+#### Step 2: Initializing NVM
 
 In the terminal there should be some directions on how to initialize `nvm`. If not, (or if you don't feel like copying from the terminal), run these commands:
 
@@ -120,11 +127,15 @@ Now when you run `node -v`, you should see `v16.xx.x` or something similar.
 
 If you see that, you have successfully installed Node!
 
-### Using Node console  
+### Using Node Console  
 
 For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
+
+### Assignment
+
+### Knowledge Check
 
 ### Additional Resources
 

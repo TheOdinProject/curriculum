@@ -1,4 +1,5 @@
 ### Introduction
+
 Before we start digging into some pretty nifty JavaScript, we need to begin talking about *problem solving*: the most important skill a developer needs.
 
 Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
