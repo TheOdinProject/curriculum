@@ -12,7 +12,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe what Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
-- Refreshed on prior learning material (routes, templates, middleware).
+- Review prior learning material (routes, templates, middleware).
 - Use PassportJS to set up user authentication with Express.
 
 #### Data Security/Safety
