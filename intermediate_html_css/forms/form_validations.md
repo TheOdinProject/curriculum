@@ -167,7 +167,7 @@ To see this in action, we will be using our email and website example that we lo
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First of all, we target any valid inputs and give them a green border. Our email and URL inputs initially have a green border since they are not required fields and are valid.
+First of all, we target any valid inputs and give them a green border. Our email and URL inputs initially have a green border since they are not (required?) fields and are valid.
 
 When a field is invalid, we give it a red border instead. Try entering an invalid email address and URL to see how this looks.
 
