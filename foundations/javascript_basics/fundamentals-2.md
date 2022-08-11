@@ -61,7 +61,8 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
+
+*  While Regular Expressions is rarely the solution you actually want to use. You can use this as a resource to better understand how to use regex as another tool for strings. Keep in mind there are other solutions you can use for handling strings that are preferable to Regular Expressions typically. [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
 
 ### Knowledge Check
 
