@@ -1,5 +1,4 @@
 ### Introduction
-
 Do you know what you need? You need a Blog. Or maybe you don't, or maybe you already have one, in any case, this project will be a great way to practice and see the benefits of creating an API only backend. We're actually going to create the backend and _two_ different front-ends for accessing and editing your blog posts. One of the front-end sites will be for people that want to read and comment on your posts while the other one will be just for you to write, edit and publish your posts.
 
 Why are we setting it up like this? Because we can! If you already have a portfolio site and you want to add your blog posts to that site feel free to do that instead of creating a new site just for that. The important exercise here is setting up the API and then accessing it from the outside. There are some security benefits to setting up separate websites for blog consumption and blog editing, but really we're just doing it like this to demonstrate the power and flexibility of separating your backend code from your frontend code.
