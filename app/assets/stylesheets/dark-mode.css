@@ -9,7 +9,6 @@
   --dark-font-light-gray-color: #9CA3AF;
 }
 
-.section-lessons__item__link:hover,
 #student-solutions a:hover a:visited {
   color: var(--dark-font-color) !important;
   text-decoration: underline !important;
@@ -31,7 +30,6 @@ body,
   background-color: var(--dark-bg-color) !important;
 }
 
-.course-card,
 .gradient,
 .bg-whitesmoke,
 .lesson-content__panel,
@@ -69,12 +67,9 @@ h4,
 h5,
 h6,
 .active,
-.course-card-header__title,
-.course-description__heading,
 .error-message__sub-title,
 .footer-link,
 .anchor-link,
-.lesson-navigation__link,
 .nav-link,
 .text-notification,
 .viking-advert__brand-name,
@@ -98,8 +93,7 @@ a:hover,
 .form__element,
 .form__element::placeholder,
 .form__link-section__item,
-.text-notification:hover,
-.lesson-button:hover i {
+.text-notification:hover {
   color: var(--dark-font-color) !important;
 }
 
