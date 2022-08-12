@@ -57,7 +57,7 @@ This is a fast and straightforward project where you'll set up a Rails app to be
 
 <div class="lesson-content__panel" markdown="1">
 
-### HTML
+#### HTML
 
 We'll start by building our Kitten application to work normally in the browser with HTML.
 
@@ -71,7 +71,7 @@ We'll start by building our Kitten application to work normally in the browser w
 7. Implement a simple display of the `flash` hash which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
 8. Test out your Kitten creation machine to make sure all your controller actions are running properly.
 
-### JSON API
+#### JSON API
 
 Now it's time to make the Kittens resource available via API.
 
