@@ -27,7 +27,7 @@ To help you make a decision, here are some perks of each technology:
 - Single paradigm
   - Object-oriented programming (OOP) is the Ruby way; many other languages are primarily OOP-based.
 
-### JavaScript/Node & Express
+### JavaScript - Node & Express
 
 - Un-opinionated
   - There is no standard way of doing things. You are going to have to decide the structure of projects yourself, for better or worse.
