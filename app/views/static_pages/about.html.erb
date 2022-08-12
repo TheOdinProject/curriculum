@@ -30,28 +30,30 @@
 <div class="StaticPagesController">
   <div id="about">
     <div class="container tmp-container-spacer">
-      <div class="text-center pb-16">
-        <h1 class="page-heading-title">About The Odin Project</h1>
-        <p class="m-auto col-lg-8 offset-lg-2">
-          The Odin Project is one of those "What I wish I had when I was learning" resources.  Not everyone has access to a computer science education or the funds to attend an intensive coding school and neither of those is right for everyone anyway.  This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.
-        </p>
-      </div>
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 md:col-start-3 md:col-span-8">
+          <div class="text-center pb-16">
+            <h1 class="page-heading-title">About The Odin Project</h1>
+            <p>
+              The Odin Project is one of those "What I wish I had when I was learning" resources.  Not everyone has access to a computer science education or the funds to attend an intensive coding school and neither of those is right for everyone anyway.  This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.
+            </p>
+          </div>
 
-      <div class="col-lg-8 offset-lg-2">
-        <h2 class="bold text-center text-2xl mb-10">Our Beliefs</h2>
-        <%= render(AboutPage::BeliefComponent.with_collection(beliefs)) %>
+          <h2 class="bold text-center text-2xl mb-10">Our Beliefs</h2>
+          <%= render(AboutPage::BeliefComponent.with_collection(beliefs)) %>
+        </div>
       </div>
     </div>
 
     <%= render 'static_pages/about/overview' %>
 
     <div class="container">
-      <div class="row contact flex justify-center items-center p-8">
-        <div class="col-md-6 flex justify-center">
+      <div class="flex p-8">
+        <div class="flex-1 flex justify-center">
           <%= image_tag 'about_page/odin-mascot.svg', alt: 'Odin Mascot', class: 'h-72' %>
         </div>
 
-        <div class="col-md-6 col-lg-5 mt-8 md:mt-0 text-center">
+        <div class="flex-1 mt-8 md:mt-0 text-center">
           <h2 class="mb-4 font-bold text-2xl">Want to contact us?</h2>
 
           <p class="pb-8">
