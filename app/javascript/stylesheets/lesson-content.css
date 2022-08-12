@@ -39,15 +39,11 @@
     scroll-margin-top: 40px;
   }
 
-  [data-lesson-toc-target="toc"] li a {
-    @apply hover:text-gold-600;
-  }
-
   [data-lesson-toc-target="toc"] li {
     @apply border-l-2
   }
 
   .toc-item-active {
-    @apply text-blue-gray-800 bg-blue-gray-100 border-l-2 border-blue-gray-600;
+    @apply text-blue-gray-800 bg-blue-gray-100 border-l-2 border-gold;
   }
 }

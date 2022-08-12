@@ -4,7 +4,7 @@
 
   <%= render 'lessons/header', lesson: @lesson %>
 
-  <main class="grid grid-cols-12 gap-x-6" data-controller="lesson-toc" data-lesson-toc-item-classes-value="no-underline hover:text-blue-gray-800">
+  <main class="grid grid-cols-12 gap-x-6" data-controller="lesson-toc" data-lesson-toc-item-classes-value="no-underline font-medium hover:text-blue-gray-800">
     <article class="col-span-full xl:col-span-7 xl:col-start-2">
       <div class="lesson-content max-w-prose mx-auto xl:mx-0 prose prose-lg prose-gold" data-controller="syntax-highlighting" data-lesson-toc-target="lessonContent">
         <%= @lesson.content.html_safe %>
@@ -13,8 +13,8 @@
 
     <aside class="col-span-3 col-start-10 justify-self-end hidden xl:block">
       <div class="sticky top-12 pb-20">
-        <h4 class="text-xl font-semibold pb-4 text-blue-gray-700 odin-dark-light-gray-font">Lesson Contents</h4>
-        <ul class="flex flex-col text-blue-gray-700" data-lesson-toc-target="toc"></ul>
+        <h4 class="text-xl font-semibold pb-4 text-blue-gray-600 odin-dark-light-gray-font">Lesson Contents</h4>
+        <ul class="flex flex-col text-blue-gray-500" data-lesson-toc-target="toc"></ul>
       </div>
     </aside>
   </main>
