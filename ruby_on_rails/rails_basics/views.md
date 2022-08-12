@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to do the following:
 
 The first thing to note is that the named view template we render from the controller is actually not the entire webpage.  It doesn't contain the `<head>` tags or the `DOCTYPE` declaration or some of the other basic structure that's present in all pages.  Precisely because those things are present in all of your pages, the Rails creators were smart enough to turn that code into its own file called a "layout".  Layouts live in the directory `app/views/layouts`.
 
-For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the Javascript and CSS files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
+For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the JavaScript and CSS files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
 
 So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `#yield` method, which you saw when you learned about blocks.  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement but for now it's just that simple.
 
@@ -76,7 +76,7 @@ The important thing to note about the above code execution is that it is all don
 
 Rails starts from the outside in with extra extensions.  So it first processes the file using ERB, then treats it as regular HTML.  That's fine because ERB by definition outputs good clean HTML, like we saw above.  
 
-There are other preprocessors you'll run into as well.  `.css.scss` files use the SASS preprocessor and become regular CSS files.  `.js.coffee` files, which use the Coffeescript preprocessor, become regular Javascript after being run.  In both these cases, the preprocessor's language makes your life easier by giving you some additional tools you can use (like having loops and working with variables) and compiles back down into a plain vanilla CSS or Javascript or HTML.
+There are other preprocessors you'll run into as well.  `.css.scss` files use the SASS preprocessor and become regular CSS files.  `.js.coffee` files, which use the Coffeescript preprocessor, become regular JavaScript after being run.  In both these cases, the preprocessor's language makes your life easier by giving you some additional tools you can use (like having loops and working with variables) and compiles back down into a plain vanilla CSS or JavaScript or HTML.
 
 The point is, there are many different preprocessors.  They are usually gems that either already come with Rails or can easily be attached to it.  Rails then runs them automatically, so all you have to worry about is whether your file has the right extension(s) to tell the preprocessor to run.  
 
@@ -118,7 +118,7 @@ There is a `render` shortcut that allows you to simply pass in variables without
 
 ### Implicit Partials
 
-As usual, there are some things you would end up doing so many times that Rails has given you a short cut.  One of these is the act of rendering a model object like a User or a Post.  If you want a list of all your users, you could write out the HTML and ERB code for displaying a single user's first name, last name, email etc many times directly in your `app/views/users/index.html.erb` file or you could keep that code in some sort of `each` loop.  
+As usual, there are some things you would end up doing so many times that Rails has given you a shortcut.  One of these is the act of rendering a model object like a User or a Post.  If you want a list of all your users, you could write out the HTML and ERB code for displaying a single user's first name, last name, email etc. many times directly in your `app/views/users/index.html.erb` file or you could keep that code in some sort of `each` loop.  
 
 But it's usually best to make the User into its own partial called `_user.html.erb` so you can re-use it in other cases as well.  The basic way of calling this might be something just like we saw above, which looks like:
 
@@ -141,7 +141,7 @@ And in your partial:
 
 It may seem strange to have only one line in a partial, but trust me that it usually doesn't stay that way for long so it's worth getting the hang of.
 
-So if that's the basic way, what's the magical Rails way?  Just tell it to render the User object directly, e.g.
+So if that's the basic way, what's the magical Rails way?  Just tell it to render the User object directly, e.g.:
 
 ~~~erb
   # app/views/index.html.erb
@@ -189,7 +189,7 @@ It's the Rails way.  And recall that `users_path` generates a relative URL like 
 
 ### Asset Tags
 
-As you may have seen in the application layout file we talked about above, Rails gives you helper methods that output HTML tags to grab CSS or Javascript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
+As you may have seen in the application layout file we talked about above, Rails gives you helper methods that output HTML tags to grab CSS or JavaScript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
 
 ~~~erb
   <%= stylesheet_link_tag "your_stylesheet" %>
