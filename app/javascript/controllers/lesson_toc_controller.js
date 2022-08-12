@@ -1,5 +1,4 @@
 import { Controller } from '@hotwired/stimulus';
-import { kebabCase } from 'lodash';
 
 export default class LessonTocController extends Controller {
   static targets = ['toc', 'lessonContent'];
@@ -43,14 +42,14 @@ export default class LessonTocController extends Controller {
     return (
       Array
         .from(this.lessonContentTarget.querySelectorAll('h3'))
-        .map((heading) => heading.innerText)
-        .filter((heading) => heading)
+        .map((heading) => heading)
+        .filter((heading) => heading.innerText)
     );
   }
 
   tocItem(heading) {
-    const id = kebabCase(heading.toLowerCase());
+    const id = heading.firstChild.getAttribute('href');
 
-    return `<li class="p-2 pl-4"><a class="${this.itemClassesValue}" href="#${id}">${heading}</a></li>`;
+    return `<li class="p-2 pl-4"><a class="${this.itemClassesValue}" href="${id}">${heading.innerText}</a></li>`;
   }
 }
