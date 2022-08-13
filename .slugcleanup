@@ -1,4 +1,5 @@
 app/javascript
+app/assets/images
 app/assets/javascripts
 app/assets/stylesheets
 node_modules

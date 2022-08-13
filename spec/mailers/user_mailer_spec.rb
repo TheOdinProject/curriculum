@@ -10,6 +10,14 @@ RSpec.describe UserMailer, type: :mailer do
       expect(welcome_email.from).to eql(['contact@theodinproject.com'])
     end
 
+    it 'includes an attachment' do
+      expect(welcome_email.attachments.count).to eq(1)
+    end
+
+    it 'renders the correct attachment' do
+      expect(welcome_email.attachments[0].filename).to eql('logo.svg')
+    end
+
     it 'renders the correct subject' do
       expect(welcome_email.subject)
         .to eql('Getting started with The Odin Project')
