@@ -1,3 +1,8 @@
+spec
+doc
+.github
+.rubocop
+
 # Ignore any javascript test files outside of spec/
 *.test.js
 *.test.jsx
