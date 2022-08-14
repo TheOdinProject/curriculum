@@ -7,7 +7,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: '#334155',
+            color: theme('colors.blue-gray.600'),
             code: {
               color: theme('colors.pink'),
               backgroundColor: theme('colors.gray.100'),
@@ -25,6 +25,7 @@ module.exports = {
               a: {
                 color: '#0f172a',
                 'text-decoration': 'none',
+                'font-weight': '600',
               },
             },
             details: {
