@@ -50,7 +50,7 @@ Rails needs to know which files to include in that giant blob, so it uses so-cal
 
 The `require_tree` helper method just grabs everything in the current directory.
 
-jquery also isn't now included out of the box. Rails now uses the rails_ujs instead so if you do end up using the asset pipeline exclusively (which you still can for Rails 6 applications) your JavaScript manifest may look a little different.
+jQuery also isn't now included out of the box. Rails now uses the rails_ujs instead so if you do end up using the asset pipeline exclusively (which you still can for Rails 6 applications) your JavaScript manifest may look a little different.
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css`:
 
@@ -70,7 +70,7 @@ Your stylesheet manifest file operates on the same principle -- it's available a
  */
 ~~~
 
-Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put css sparingly into this top level file and instead use as much as possible the css stylesheet files created for you whenever you create a Controller in Rails. It generates a directory for views related to the controller where your HTML lives and it also creates a stylesheet in the same name. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat gifs then Rails will also create a `cat.scss` stylesheet where you can put css related to your cat views.
+Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put css sparingly into this top level file and instead use as much as possible the CSS stylesheet files created for you whenever you create a Controller in Rails. It generates a directory for views related to the controller where your HTML lives and it also creates a stylesheet in the same name. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat gifs then Rails will also create a `cat.scss` stylesheet where you can put CSS related to your cat views.
 
 You may be wondering why it creates an application.css main file but the extension for individual resources is `.scss`. This is [explained here](https://github.com/rails/sass-rails#important-note). Essentially for Rails to use the `require_tree` command it can only do this from a css file extension.
 
@@ -92,7 +92,7 @@ In theory, you could override styles from your stylesheets stored at `app/assets
 
 Let's also assume that you really like using `.container` classes to keep your `<div>` elements neatly organized.  The solution is to use "Namespacing", which means that you basically nest your classes beneath some sort of variable or function name.  This is actually a principle that gets used a LOT, so it's important to understand it.  You'll see it with stylesheets, JavaScripts, modules of code and more.
 
-The basic idea is to be able to say "all this code/css/whatever inside here only belongs to XYZ".  You sort of fence it off.  It's best explained with an example:
+The basic idea is to be able to say "all this code/CSS/whatever inside here only belongs to XYZ".  You sort of fence it off.  It's best explained with an example:
 
 ~~~html
    <!-- app/views/users/show.html.erb -->
