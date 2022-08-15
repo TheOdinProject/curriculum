@@ -59,7 +59,7 @@
     "react-tabs": "4.2.1",
     "react_ujs": "^2.6.2",
     "regenerator-runtime": "^0.13.9",
-    "sass": "^1.54.3",
+    "sass": "^1.54.4",
     "sass-loader": "^13.0.2",
     "shakapacker": "6.5.0",
     "stickyfilljs": "^2.1.0",
