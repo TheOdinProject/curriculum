@@ -26,7 +26,7 @@ instead.
 6. [Positioning](intermediate_css_concepts/positioning.md)
 7. [CSS Functions](intermediate_css_concepts/css_functions.md)
 8. [Custom Properties](intermediate_css_concepts/css_functions.md)
-9. [Browser Compability](intermediate_css_concepts/browser_compatibility.md)
+9. [Browser Compatibility](intermediate_css_concepts/browser_compatibility.md)
 10. [Frameworks and Preprocessors](intermediate_css_concepts/frameworks_and_preprocessors.md)
 
 ### Forms
