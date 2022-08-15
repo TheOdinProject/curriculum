@@ -44,7 +44,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
+* [This video series from Codevolution](https://youtube.com/playlist?list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP) really provides it all. Watch it for a greater understanding.
 * [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 * [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 * [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
