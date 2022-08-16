@@ -142,8 +142,6 @@ Students often compare themselves to others who are farther along in their codin
 
 Learning any new skill is a journey full of speed bumps and obstacles to be overcome. We hope that the principles laid out here will put you in a much better position to succeed and get the most out of The Odin Project.
 
-Without further ado, let's jump into learning web development!
-
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
