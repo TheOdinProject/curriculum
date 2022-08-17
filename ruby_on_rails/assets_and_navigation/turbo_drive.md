@@ -8,7 +8,7 @@ Hotwire is actually an umbrella term for three different frameworks. These frame
 2.  Stimulus
 3.  Strada
 
-Stimulus is something we'll cover later and you don't need to worry about Strada for the scope of this course, just be familiar with the name as you will see it mentioned from time-to-time.
+Stimulus is something we'll cover later and you don't need to worry about Strada for the scope of this course, just be familiar with the name as you will see it mentioned from time to time.
 
 Turbo itself is also an umbrella term for several different techniques for creating fast and modern web applications. The technique we're going to focus on here is the one whose behaviour is part of Rails' core behaviour, Turbo Drive. The other techniques we'll cover in the Advanced Turbo lesson later.
 
