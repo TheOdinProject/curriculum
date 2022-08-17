@@ -45,7 +45,7 @@ Write a simple driver script that does the following:
 
 </div>
 
-**Tip:** If you would like to visualize your binary search tree, here is a `prettyPrint()` function that will `console.log` your tree in a structured format. This function will expect to receive the root of your tree as an argument.
+**Tip:** If you would like to visualize your binary search tree, here is a `prettyPrint()` function that will `console.log` your tree in a structured format. This function will expect to receive the root of your tree as the value for the `node` parameter.
 
 ~~~javascript
 const prettyPrint = (node, prefix = '', isLeft = true) => {
