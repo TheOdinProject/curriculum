@@ -76,9 +76,9 @@ Example:
 
 ~~~html 
  <ul>
-    <li><a href="yourrecipe.html">Recipe Title 1</a>.</li>
-    <li><a href="yourrecipe.html">Recipe Title 2</a></li>
-    <li><a href="yourrecipe.html">Recipe Title 3</a></li>
+    <li><a href="recipes/yourrecipe.html">Recipe Title 1</a>.</li>
+    <li><a href="recipes/yourrecipe.html">Recipe Title 2</a></li>
+    <li><a href="recipes/yourrecipe.html">Recipe Title 3</a></li>
   </ul>
 ~~~
   
