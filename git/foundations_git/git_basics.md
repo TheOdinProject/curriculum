@@ -200,4 +200,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- <a class="additional-resorces" href="https://youtube.com/playlist?list=PLozRqGzj97d02YjR5JVqDwN2K0cAiT7VK">This</a> playlist by THE CODING TRAIN provides a good understanding of git and github.
