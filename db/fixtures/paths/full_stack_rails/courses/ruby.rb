@@ -102,8 +102,8 @@ course.add_section do |section|
   section.identifier_uuid = 'bf5655dc-bd79-4cb4-b8c8-6f018f940f08'
 
   section.add_lessons(
-    ruby_lessons.fetch('Blocks'),
     ruby_lessons.fetch('Pattern Matching'),
+    ruby_lessons.fetch('Blocks'),
     ruby_lessons.fetch('Custom Enumerables'),
   )
 end
