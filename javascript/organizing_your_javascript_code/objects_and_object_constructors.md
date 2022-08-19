@@ -151,6 +151,43 @@ console.log(theHobbit.info());
 
 Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties.
 
+To elaborate, there are two kinds of `prototype`, which are intertwined with each other. The _first_ kind is the one that exists on a **function**, which is referred to as `Player.prototype` in the case of the `Player` function in the previous example. 
+
+The _second_ kind is the one which exists on _all_ objects in JavaScript as a special property. This second `prototype` is referred to in a _non-standard_ way as, reusing our example, `player1.__proto__`, or `player2.__proto__`. This `__proto__` property comes into existence when an object is created, and is set to refer to the first kind of `prototype`. That is, in our example, `player1.__proto__` and `player2.__proto__` will have the value `Player.prototype`. You can test this in your browser console by defining `Player`, and creating the `player1` and `player2` objects.
+
+~~~javascript
+function Player(name, marker) {
+  this.name = name
+  this.marker = marker
+  this.sayName = function() {
+    console.log(name)
+  }
+}
+
+const player1 = new Player('steve', 'X')
+const player2 = new Player('also steve', 'O')
+
+// returns true for both player objects
+player1.__proto__ === Player.prototype
+player2.__proto__ === Player.prototype
+~~~
+
+However, you might have noticed that we mentioned `__proto__` is a non-standard way of referring to an object's `prototype` property. The MDN Docs [recommends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto) using [Object.getPrototypeOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf).
+
+So, our code above becomes:
+
+~~~javascript
+// returns true for both player objects
+Object.getPrototypeOf(player1) === Player.prototype
+Object.getPrototypeOf(player2) === Player.prototype
+~~~
+
+Note: 
+1. You might also find that `__proto__` is also referred to as `[[Prototype]]` which is from the JavaScript language specification.
+2. If you tried something like `Player.prototype.__proto__`, or you have a `__proto__` value which is equal to `null` and are confused, read on to find the explanation in the **Prototypal Inheritance** section!
+
+Now that you know that every object created by calling `new Player()` has its `__proto__` / `[[Prototype]]` special property set to refer to the `Player.prototype` value, let's move on!
+
 The concept of the prototype is an important one, so you’ve got some reading to do, which you'll find in the Assignment section below. Make sure you really get it before moving on!
 
 If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!
