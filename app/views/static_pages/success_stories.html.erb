@@ -1,30 +1,29 @@
 <%= title('Success Stories') %>
 
 <div class='gradient'>
-  <div class="container tmp-container-spacer">
-    <div class="success-stories-page">
+  <div class="page-container">
+    <div>
       <h1 class="page-heading-title">Success Stories</h1>
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
+      <div class="flex flex-row justify-center">
+        <div class="max-w-screen-lg">
           <% @success_stories.each do |story| %>
-            <div class="card-main success-story">
-              <div class="row">
-                <div class="col-xs-12 photo flex justify-center">
-                  <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar", class: "img-fluid" %>
+            <div class="p-6 sm:p-10 relative rounded-xl mb-9 sm:mb-14 bg-white odin-dark-bg shadow-xl">
+              <div class="flex flex-col sm:flex-row items-center">
+                <div class="w-20 h-20 sm:mr-4 flex justify-center rounded-full overflow-hidden">
+                  <%= image_tag "success_stories/#{story.avatar_path_name}", alt: "#{story.student_name}'s avatar", class: "w-full" %>
                 </div>
-                <div class="col-xs-12 info">
-                  <p class="student-name">
-                    <span class="bold"><%= link_to story.student_name, story.social_media_link, class: 'accent' %>,</span>
-                    <span class="grey student-title"><%= story.job_title %></span>
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12 success-content">
-                  <p class="grey"><%= story.story_content %></p>
+                <div class="flex items-center justify-center">
+                  <div class="flex flex-col sm:flex-row">
+                    <p class="mt-1 sm:mt-0 font-bold text-cente mx-auto sm:mr-1"><%= link_to story.student_name, story.social_media_link, class: 'text-gold' %></p>
+                    <p class="text-gray-500"><%= story.job_title %></p>
+                  </div>
                 </div>
               </div>
-            </div>
+                <div class="mt-4">
+                  <p class="text-gray-800"><%= story.story_content %></p>
+                </div>
+              </div>
+            
           <% end %>
         </div>
       </div>
