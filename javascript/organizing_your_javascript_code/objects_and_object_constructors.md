@@ -182,8 +182,10 @@ Object.getPrototypeOf(player1) === Player.prototype
 Object.getPrototypeOf(player2) === Player.prototype
 ~~~
 
-Note: 
+Notes: 
+
 1. You might also find that `__proto__` is also referred to as `[[Prototype]]` which is from the JavaScript language specification.
+
 2. If you tried something like `Player.prototype.__proto__`, or you have a `__proto__` value which is equal to `null` and are confused, read on to find the explanation in the **Prototypal Inheritance** section!
 
 Now that you know that every object created by calling `new Player()` has its `__proto__` / `[[Prototype]]` special property set to refer to the `Player.prototype` value, let's move on!
