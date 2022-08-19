@@ -206,7 +206,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 7. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
 8. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
-* NOTE: When you reach the final exercise that uses `pry-byebug`, you'll want to run the tests without `bundle exec`. This will avoid load errors in your `debugging-exercises.rb` file. The command to use is `rpsec spec/debugging_exercises_spec.rb`.
+* NOTE: When you reach the final exercise that uses `pry-byebug`, you'll want to run the tests without `bundle exec`. This will avoid load errors in your `debugging-exercises.rb` file. The command to use is `rspec spec/debugging_exercises_spec.rb`.
 </div>
 
 ### Additional Resources
