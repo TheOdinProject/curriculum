@@ -190,9 +190,7 @@ Notes:
 
 Now that you know that every object created by calling `new Player()` has its `__proto__` / `[[Prototype]]` special property set to refer to the `Player.prototype` value, let's move on!
 
-The concept of the prototype is an important one, so you’ve got some reading to do, which you'll find in the Assignment section below. Make sure you really get it before moving on!
-
-If you've understood the concept of the prototype, this next bit about constructors will not be confusing at all!
+To expand on the first kind of `prototype`, that is, the one that exists on the `Player` object constructor as `Player.prototype`, it is best to define functions on this `prototype` property. To explain, let's take another example where we create `Student` objects by defining a `Student` object constructor:
 
 ~~~javascript
 function Student(name, grade) {
@@ -208,7 +206,22 @@ Student.prototype.goToProm = function() {
 }
 ~~~
 
-If you're using constructors to make your objects it is best to define functions on the `prototype` of that object. Doing so means that a single instance of each function will be shared between all of the Student objects. If we declare the function directly in the constructor, like we did when they were first introduced, that function would be duplicated every time a new Student is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
+In the above code, defining functions of the object on the `prototype` means that a single instance of each function will be shared between all of the `Student` objects. If we declare the function directly in the constructor (like we did in the `Player` example) the `sayName` and `goToProm` functions would be duplicated _every_ time a new `Student` is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
+
+To finally bring the concepts of `__proto__` / `[[Prototype]]` and `prototype` together - we can see from the following code that since the `Student` objects' `__proto__` values point to `Student.prototype`,  the `student1` and the `student2` objects both have access to the functions which were defined on `Student.prototype`.
+
+~~~javascript
+student1 = new Student("Harvey", 8);
+student2 = new Student("James", 4);
+
+student1.sayName(); // Harvey
+student1.goToProm(); // Eh.. go to prom?
+
+student2.sayName();  // James
+student2.goToProm(); // Eh.. go to prom?
+~~~
+
+The concept of the prototype is an important one, so you’ve got some reading to do, which you'll find in the Assignment section below. Make sure you really get it before moving on!
 
 #### Recommended Method for Prototypal Inheritance
 
