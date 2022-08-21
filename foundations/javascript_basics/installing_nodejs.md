@@ -141,4 +141,4 @@ To run the Node console, open up your terminal and type `node`. Type `.exit` to 
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   [This](https://nodejs.org/en/about/) document from Node.js® is a great source of information regarding it's aspects.
