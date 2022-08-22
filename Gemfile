@@ -41,7 +41,7 @@ gem 'sentry-ruby', '~> 5.4'
 gem 'sentry-sidekiq', '~> 5.4'
 gem 'shakapacker', '6.5.1'
 gem 'sidekiq', '~> 6.5'
-gem 'view_component', '~> 2.66'
+gem 'view_component', '~> 2.69'
 
 group :development do
   gem 'letter_opener', '~> 1.8'
