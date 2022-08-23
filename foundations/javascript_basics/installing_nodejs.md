@@ -20,6 +20,8 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Step 0: Prerequisites 
 To install nvm properly, you'll need `curl`. Simply run the command below:
+  
+Note: You can paste a command in the terminal by using the keyboard shortcut Ctrl+Shift+V or Cmd+Shift+c
 
 ~~~bash
 sudo apt install curl
