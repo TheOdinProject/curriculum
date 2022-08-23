@@ -12,12 +12,12 @@ This section contains a general overview of topics that you will learn in this l
 * What are operators, operands, and operations?
 * What is concatenation and what happens when you add numbers and strings together?
 * What are the different types of operators in JavaScript?
-* What is the difference between `==` and `===`?
+* What is the difference between loose equality(==) and strict equality(===)?
 * What are operator precedence values?
-* What are the increment/decrement operators?
-* What is the difference between prefixing and post-fixing them?
-* What are assignment operators?
-* What is the "Unary +" Operator?
+* What are the increment(++)/decrement(--) operators?
+* What is the difference between prefixing and postfixing them?
+* What are assignment(=) operators?
+* What is the Unary Plus(+) Operator?
 
 ### How to Run JavaScript Code
 
@@ -106,13 +106,15 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable</a>
 * <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the `%` operator work?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between `==` and `===`.</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and post-fixing increment/decrement operators.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What happens when you add numbers and strings together?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the Modulus(%)* operator work?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between loose equality(==) and strict equality(===).</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN`(Not a Number) result?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment(++) and decrement(--) a number?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and postfixing increment(++)/decrement(--) operators.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#operator-precedence">What is operator precedence and how is it handled in JS?</a>
 * <a class="knowledge-check-link" href="#access-devTools-console">How do you access developer tools and the console?</a>
 * <a class="knowledge-check-link" href="#console-log">How do you log information to the console?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus operator do to string representations of integers?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus(+) operator do to string representations of integers?</a>
+
+\* `%` is also called the remainder operator
