@@ -42,7 +42,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     
-    * Setup (Download the exercise files, but skip the Software Install step, you already have everything you need)
+    * Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already)
     * Introducing the Shell
     * Navigating Files and Directories
     * Working With Files and Directories
