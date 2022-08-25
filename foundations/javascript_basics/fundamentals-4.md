@@ -34,7 +34,7 @@ We will teach you the art of actually writing these tests later in the course. T
 <div class="lesson-content__panel" markdown="1">
 Follow the steps below to get started. Once you complete Step 1, be sure to use the README for **_each individual exercise_** in order to do them correctly.
 
-1. Set up the files and Jest by carefully following the directions in the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme).
+1. Set up the files and Rest by carefully following the directions in the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme).
 2. Now that you have cloned the repository and run `npm install` to install Jest, complete these exercises in the following order:
     * helloWorld (This exercise is intentionally very simple to ensure that you have set up everything properly!)
     * repeatString
