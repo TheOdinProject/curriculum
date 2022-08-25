@@ -1,3 +1,14 @@
+<div class="lesson-note" markdown="1">
+
+### Important! 
+
+Starting November 22, 2022, Heroku will stop offering their free product plans (which includes deployment). You can read more on [their blog post](https://blog.heroku.com/next-chapter).
+
+We will be replacing the following instructions with an alternative soon.
+
+</div>
+
+
 ### Introduction
 We have one thing to attend to before progressing in our web development journey. We are putting in all of this hard work to make great projects, so naturally we want to show them off to the world, right? In future lessons, we will be **deploying** our applications to a cloud platform, Heroku. Heroku will enable us to run, build, and operate our web applications in the cloud!
 
