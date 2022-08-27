@@ -89,7 +89,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Chrome OS/CloudReady
+<summary class="dropDown-header">ChromeOS
 </summary>
 
 You will need to install Git from the source by following the instructions from this [Digital Ocean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source).

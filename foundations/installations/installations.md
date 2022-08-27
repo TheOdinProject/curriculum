@@ -234,19 +234,17 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Chrome OS/CloudReady
+<summary class="dropDown-header">ChromeOS/ChromeOS Flex
 </summary>
 
-With the recent addition of Linux (Beta), the Chrome OS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
+With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
-1. You have a [supported Chromebook](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
-2. You can install [Linux (Beta)](https://support.google.com/chromebook/answer/9145439?hl=en)
+1. You have a supported Chromebook:  
+    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)  
+    * [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
+2. You can install [Linux](https://support.google.com/chromebook/answer/9145439?hl=en)
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
-
-**Note for CloudReady users**
-
-Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
 
 </details>
 
