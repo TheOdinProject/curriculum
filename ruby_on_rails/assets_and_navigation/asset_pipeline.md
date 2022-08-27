@@ -70,7 +70,7 @@ Your stylesheet manifest file operates on the same principle -- it's available a
  */
 ~~~
 
-Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put css sparingly into this top level file and instead use as much as possible the CSS stylesheet files created for you whenever you create a Controller in Rails. It generates a directory for views related to the controller where your HTML lives and it also creates a stylesheet in the same name. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat GIFs then Rails will also create a `cat.scss` stylesheet where you can put CSS related to your cat views.
+Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put CSS sparingly into this top level file and instead use as much as possible the CSS stylesheet files created for you whenever you create a Controller in Rails. It generates a directory for views related to the controller where your HTML lives and it also creates a stylesheet in the same name. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat GIFs then Rails will also create a `cat.scss` stylesheet where you can put CSS related to your cat views.
 
 You may be wondering why it creates an application.css main file but the extension for individual resources is `.scss`. This is [explained here](https://github.com/rails/sass-rails#important-note). Essentially for Rails to use the `require_tree` command it can only do this from a css file extension.
 
