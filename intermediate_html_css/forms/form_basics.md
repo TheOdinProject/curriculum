@@ -61,8 +61,8 @@ To create a label, we use the `<label>` element. The text we want displayed in t
 
 ~~~html
 <form action="example.com/path" method="post">
-  <label for="firstName">First Name:</label>
-  <input type="text" id="firstName">
+  <label for="first_name">First Name:</label>
+  <input type="text" id="first_name">
 </form>
 ~~~
 
