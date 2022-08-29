@@ -148,15 +148,15 @@ The other important thing to note is almost all the tests follow a certain patte
 
 </div>
 
+### Additional Resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * <a class="knowledge-check-link" href="#testing-callback-handlers">How can you mock a callback handler?</a>
 * <a class="knowledge-check-link" href="#mock-child-component">How can you mock a child component?</a>
-
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
