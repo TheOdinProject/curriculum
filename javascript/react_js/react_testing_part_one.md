@@ -174,6 +174,14 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 </div>
 
+### Additional Resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
+
+- This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.
+
 ### Knowledge Check 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -185,11 +193,3 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#simulating-user-events">How would you test for a click event with `userEvent`?</a>
 * <a class="knowledge-check-link" href="#advantage-snapshot-tests">What is the advantage of snapshot tests?</a>
 * <a class="knowledge-check-link" href="#disadvantage-snapshot-tests">What are the disadvantages of snapshot tests?</a>
-
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
-
-- This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.
