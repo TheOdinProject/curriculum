@@ -44,7 +44,7 @@ Once you have completed your project, feel free to look at the other solutions t
 <div class="lesson-content__panel" markdown="1">
 Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
-1. Download the design images and take a look at what you're going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png)
+1. Download the design images and take a look at what you're going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png)
     1. The font that's being used in the images is roboto.
     2. Hero text is the statement that appears at the top of a web page.
 2. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
@@ -63,7 +63,8 @@ GitHub allows you to publish web projects directly from a GitHub repository. Doi
 There are a couple of ways to go about publishing your project, but the simplest is the following:
 
 - Make sure that the main HTML file of your project is called `index.html`. If it is not, you need to rename it.
-- Go to your GitHub repo on the web and click the **Settings** button.
+- Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
+    ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/03.png)
 - Click on **Pages** on the left side bar.
 - Change the **Source** from _none_ to _main branch_ and click Save.
 - It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
