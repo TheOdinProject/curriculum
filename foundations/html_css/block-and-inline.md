@@ -6,7 +6,7 @@ The MDN box model article linked in the previous lesson mentions that different 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   You'll learn about "Normal flow."
+*   You'll learn about "Normal flow".
 *   You'll learn the difference between `block` and `inline` elements.
 *   You'll learn which elements default to `block` and which elements default to `inline`.
 *   You'll learn what divs and spans are.
