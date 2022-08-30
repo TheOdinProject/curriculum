@@ -10,13 +10,13 @@ By the end of this lesson, you should be able to do the following:
 - Briefly explain the additional SOLID principles.
 - Explain what "tightly coupled" objects are and why we want to avoid them.
 
-Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words.. these principles are not _rules_- they're helpful guidelines.  
+Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words... these principles are not _rules_- they're helpful guidelines.  
 
 As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on, keep these things in mind when crafting new projects.
 
 ### Single Responsibility
 
-As you craft your objects, one of the most important things to remember is the __Single Responsibility Principle__ which states that a class (or object or module.. you get the point) should only have _one_ responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility.
+As you craft your objects, one of the most important things to remember is the __Single Responsibility Principle__ which states that a class (or object or module... you get the point) should only have _one_ responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility.
 
 Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a _really_ good idea to separate your DOM stuff from the application logic.
 
