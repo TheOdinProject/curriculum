@@ -31,7 +31,6 @@ This section contains questions for you to check your understanding of this less
 
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">What is a web server?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is a network?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">What is a web server ?</a>
 *   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=7_LPdttKXPc&t=46s" target="_blank">What is the internet?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is an IP address?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is a router?</a>
@@ -40,7 +39,6 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers" target="_blank">What is a client?</a> 
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers" target="_blank">What is a server?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines" target="_blank">What is a web page?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines" target="_blank">What is a web server?</a>
 *   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=BrXPcaRlBqo&feature=youtu.be" target="_blank">What is a web browser?</a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">What is a search engine?</a>
 *   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=72snZctFFtA&t=45s" target="_blank">What is a DNS request?</a>
