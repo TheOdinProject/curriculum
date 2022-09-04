@@ -32,7 +32,7 @@ By the end of this lesson, you should be able to do the following:
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
     - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
-    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
+    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-packagejson-guide).
     - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
   - Events
     - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
