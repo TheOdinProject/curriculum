@@ -38,7 +38,7 @@ All of this, and sometimes _much more_ is required to get a React project and de
 
 ### Simplifying The Process
 
-Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief as you find out that we can get started with a _single terminal command_.
+Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief as you learn that we can get started with a _single terminal command_.
 
 This terminal command is a feature of the beginner-friendly [Create React App](https://create-react-app.dev/), a tool developed by the folks over at Meta which we will be using from here on out. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
 
@@ -59,7 +59,7 @@ $ cd my-first-react-app
 $ npm start
 ~~~
 
-Provided that everything has worked according to plan, you should be greeted with a new browser tab containing a lovely spinning React logo:
+Provided that everything has gone according to plan, you should be greeted with a new browser tab containing a lovely spinning React logo:
 
 ![Create React App Starting Page](./setting_up_a_react_environment/imgs/cra_start.png)
 
@@ -67,7 +67,7 @@ Congratulations! You've created your first React app.
 
 ### Delving Deeper
 
-Let's take a closer look at our new project. Inside you will find some folders, `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files, the `README.md` contains some useful information that you should take the time to skim through now.
+Let's take a closer look at our new project. Inside you will find some folders, as well as `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files. The `README.md` contains some useful information that you should take the time to skim through now.
 
 The `public` folder is where all of the static assets related to your app will go, this could include images, icons, information files for the browser, and perhaps most importantly—the `index.html` file.
 
@@ -93,7 +93,7 @@ root.render(
 reportWebVitals();
 ~~~
 
-Whoa! There's quite a lot here. You are not expected to understand much of this (if any) right now. Here's a brief rundown of what is happening here:
+Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening here:
 
 1. We import `React` itself, and its fellow `ReactDOM` package.
 2. We import some CSS styling (you may recognize this syntax from the Webpack material).
