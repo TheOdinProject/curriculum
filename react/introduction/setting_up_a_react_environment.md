@@ -40,7 +40,7 @@ All of this, and sometimes _much more_ is required to get a React project and de
 
 Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief as you find out that we can get started with a _single terminal command_.
 
-This terminal command is a feature of the beginner-friendly [Create React App](https://create-react-app.dev/), a tool developed by the folks over at Facebook which we will be using from here on out. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
+This terminal command is a feature of the beginner-friendly [Create React App](https://create-react-app.dev/), a tool developed by the folks over at Meta which we will be using from here on out. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
 
 ### Creating A React App
 
@@ -95,7 +95,7 @@ reportWebVitals();
 
 Whoa! There's quite a lot here. You are not expected to understand much of this (if any) right now. Here's a brief rundown of what is happening here:
 
-1. We import React itself, and it's fellow ReactDOM package.
+1. We import `React` itself, and its fellow `ReactDOM` package.
 2. We import some CSS styling (you may recognize this syntax from the Webpack material).
 3. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 4. We import the `reportWebVitals()` function, which can be used for app analytics.
@@ -107,7 +107,7 @@ All of this may understandably look unlike anything you've seen up until now, bu
 
 ### Keeping It Clean
 
-Another of the useful features of Create React App is that it ships with [ESLint](https://www.theodinproject.com/lessons/node-path-javascript-linting). You may also set up Prettier to help keep your React code as clean as can be.
+Another of the useful features of Create React App is that it ships with [ESLint](https://www.theodinproject.com/lessons/node-path-javascript-linting). You may also set up [Prettier](https://prettier.io/) to help keep your React code as clean as can be.
 
 ### Developer Tools
 
