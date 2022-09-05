@@ -69,7 +69,7 @@ Congratulations! You've created your first React app.
 
 Let's take a closer look at our new project. Inside you will find some folders, as well as `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files. The `README.md` contains some useful information that you should take the time to skim through now.
 
-The `public` folder is where all of the static assets related to your app will go, this could include images, icons, information files for the browser, and perhaps most importantly—the `index.html` file.
+The `public` folder is where all of the static assets related to your app will go. This could include images, icons, information files for the browser, and perhaps most importantly—the `index.html` file.
 
 Inside of the `src` folder is where you will find the code that runs your app. Let's open the `index.js` file and see if we can understand what's going on:
 
@@ -107,13 +107,13 @@ All of this may understandably look unlike anything you've seen up until now, bu
 
 ### Keeping It Clean
 
-Another of the useful features of Create React App is that it ships with [ESLint](https://www.theodinproject.com/lessons/node-path-javascript-linting). You may also set up [Prettier](https://prettier.io/) to help keep your React code as clean as can be.
+Another of the useful features of Create React App is that it ships with [ESLint](https://www.theodinproject.com/lessons/node-path-javascript-linting). You could also set up [Prettier](https://prettier.io/) to help keep your React code as clean as can be.
 
 ### Developer Tools
 
 As you progress with React, your projects will undoubtedly become larger and larger, and include more and more components, with increasing levels of functionality.
 
-When this happens, it becomes very useful to be able to track and modify aspects of your app while the page is loaded in the browser, to aid in this we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
+When this happens, it becomes very useful to be able to track and modify aspects of your app while the page is loaded in the browser. To aid in this we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
 
 We recommend installing this and becoming comfortable with using it as early as possible to assist in debugging and improving your development experience.
 
