@@ -298,7 +298,9 @@ be sure to test out all the examples!
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
+* <a class="knowledge-check-link" href="#rendering-a-list-of-elements-in-jsx">How do you render a list of elements/components in JSX?</a>
+* <a class="knowledge-check-link" href="#conditionally-rendering-ui">What are the ways you could render UI conditionally?</a>
+* <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx">How would you conditionally return JSX?</a>
 
 ### Additional Resources
 
