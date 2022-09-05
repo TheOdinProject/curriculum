@@ -32,9 +32,9 @@ function App() {
 ~~~
 
 It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, 
-we will be dealing with a list rather than hard coding each animal. We can simplify this process by using a list to which we 
-can apply the `map` method to map over the list. You have previously learned that we can embed expressions insidef JSX with 
-curly braces. SO let us do just that:  
+we will be dealing with a list rather than hard coding each animal. We can simplify this process by using a list of which we 
+can apply the `map` method to map over the list. You have previously learned that we can embed expressions inside JSX with 
+curly braces. So let us do just that:  
 
 ~~~javascript
 function App() {
@@ -63,7 +63,7 @@ you are dealing with a dynamic list where you add or remove elements. Since we a
 ### Rendering a Different Component  
 
 <div class="lesson-note" markdown="1">
-We will use `props` here, and you will learn more about them in a future lesson. We will just be writing a simple implementaiton.
+We will use `props` here, and you will learn more about them in a future lesson. We will just be writing a simple implementation.
 </div>  
 
 ~~~javascript
@@ -99,7 +99,7 @@ you will still need to pass the animals to the property, but now you will use `p
 ### Conditionally Rendering UI  
 
 Let us make some decisions within our component. What if we only want to render an animal that starts with the letter L? 
-To make these decisions, we would use some soft of conditional expression. Let us continue using the code we have written above.  
+To make these decisions, we would use some sort of conditional expression. Let us continue using the code we have written above.  
 
 #### Using Ternary Operator  
 
@@ -162,7 +162,7 @@ function App() {
 ~~~
 
 We will leverage the return value of `startsWith` With the && operator. If the result of the `startsWith` function is `true`, 
-then it returns the second operand, which is the `<li>` element, and renders it. Otherwise, if the conditiona is `false` it just gets ignored.  
+then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.  
 
 In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? 
 So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX 
@@ -288,9 +288,9 @@ So be sure to test things out!
 <div class="lesson-content__panel" markdown="1">
 
 1.  The React Docs Beta has an excellent guide on rendering lists. Explore more on what you can do
- [here]("https://beta.reactjs.org/learn/rendering-lists"). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
+    [here]("https://beta.reactjs.org/learn/rendering-lists"). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
 2.  From the same docs, strengthen your understanding of conditional rendering [here]("https://beta.reactjs.org/learn/conditional-rendering")
-be sure to test out all the examples!
+    be sure to test out all the examples!
 
 </div>
 
@@ -298,9 +298,9 @@ be sure to test out all the examples!
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#rendering-a-list-of-elements-in-jsx">How do you render a list of elements/components in JSX?</a>
-* <a class="knowledge-check-link" href="#conditionally-rendering-ui">What are the ways you could render UI conditionally?</a>
-* <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx">How would you conditionally return JSX?</a>
+*   <a class="knowledge-check-link" href="#rendering-a-list-of-elements-in-jsx">How do you render a list of elements/components in JSX?</a>
+*   <a class="knowledge-check-link" href="#conditionally-rendering-ui">What are the ways you could render UI conditionally?</a>
+*   <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx">How would you conditionally return JSX?</a>
 
 ### Additional Resources
 
