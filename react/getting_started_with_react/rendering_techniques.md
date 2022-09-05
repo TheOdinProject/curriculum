@@ -96,7 +96,192 @@ This component accepts a `props` which is an object containing the `animals` tha
 we wrote `<List animals={animals}>` Do note that you can name it anything, for example `<List animalList={animals} />` 
 you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`  
 
+### Conditionally Rendering UI  
 
+Let us make some decisions within our component. What if we only want to render an animal that starts with the letter L? 
+To make these decisions, we would use some soft of conditional expression. Let us continue using the code we have written above.  
+
+#### Using Ternary Operator  
+
+One way to conditionally render an element is with a ternary operator, using a bollean value to decide what to render:  
+
+~~~javascript
+function List(props) {
+  return (
+    <ul>
+      {props.animals.map((animal) => {
+        return animal.startsWith("L") ? <li key={animal}>{animal}</li> : null;
+      })}
+    </ul>
+  );
+}
+
+function App() {
+  const animals = ["Lion", "Cow", "Snake", "Lizard"];
+
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <List animals={animals} />
+    </div>
+  );
+}
+~~~
+
+We are using the String method `startsWith` to check if the `animal` starts with the letter L. This method either 
+returns true or false.  
+
+If the animal starts with the letter L, then we return the `<li>` element, which renders the particular animal. 
+Otherwise, we return `null` to indicate that no element will be rendered.  
+
+#### Using the && Operator  
+
+Another quick way of conditionally rendering an element is by using the && operator.  
+
+~~~javascript
+function List(props) {
+  return (
+    <ul>
+      {props.animals.map((animal) => {
+        return animal.startsWith("L") && <li key={animal}>{animal}</li>;
+      })}
+    </ul>
+  );
+}
+
+function App() {
+  const animals = ["Lion", "Cow", "Snake", "Lizard"];
+
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <List animals={animals} />
+    </div>
+  );
+}
+~~~
+
+We will leverage the return value of `startsWith` With the && operator. If the result of the `startsWith` function is `true`, 
+then it returns the second operand, which is the `<li>` element, and renders it. Otherwise, if the conditiona is `false` it just gets ignored.  
+
+In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? 
+So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX 
+and will be rendered completely fine, so be sure to be aware of that!  
+
+We are not limited to rendering an element or nothing with `null` we can also decide whether to render an element or another element.  
+
+#### Other Ways to Render Conditionally  
+
+We can also use `if`, `if/else`, and `switch` to conditionally render something.    
+
+This time we will remove all the animals from the list, and we will also have two conditions:  
+
+1. Check if the `animals` property is provided  
+2. Check if the `animals` length is greater than 0  
+
+We will frequently be dealing with lists in the future, and we also need to consider what to render if the list is empty or 
+does not exist at all. You certainly would not want to see a blank page, would you? Let us try to implement that:  
+
+~~~javascript
+function List(props) {
+  if (!props.animals) {
+    return <div>Loading...</div>;
+  }
+
+  if (props.animals.length === 0) {
+    return <div>There are no animals in the list!</div>;
+  }
+
+  return (
+    <ul>
+      {props.animals.map((animal) => {
+        return <li key={animal}>{animal}</li>;
+      })}
+    </ul>
+  );
+}
+
+function App() {
+  const animals = [];
+
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <List animals={animals} />
+    </div>
+  );
+}
+~~~
+
+In our `<List />` component, we have two `if` statements acting as a guard that immediately returns an element based on the condition.  
+
+One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. 
+In this case, our list is empty, so the second if statement executes, it will immediately return the `<div>` element that contains the 
+text "There are no animals in the list"  
+
+If we remove the `animals` property:  
+
+~~~javascript
+function App() {
+  const animals = [];
+
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <List />
+    </div>
+  );
+}
+~~~
+
+The first `if` statement will now execute and return a `<div>` with the text "Loading..." This is often the case when you are 
+fetching from an API, since it might take some time to actually retrieve the data, it is good practice to show an indicator for that.  
+
+If none of those checks passed, then we have the data we need to render the list successfully. Try it out by adding 
+items to the `animals` list and adding the property back.  
+
+You can, Of course, also accomplish this with the ternary and && operators.  
+
+~~~javascript
+function List(props) {
+  return (
+    <ul>
+      {props.animals.map((animal) => {
+        return <li key={animal}>{animal}</li>;
+      })}
+    </ul>
+  );
+}
+
+function App() {
+  const animals = [];
+
+  return (
+    <div>
+      <h1>Animals: </h1>
+      {animals.length > 0 ? (
+        <List animals={animals} />
+      ) : (
+        <div>There are no animals in the list!</div>
+      )}
+    </div>
+  );
+}
+// or
+function App() {
+  const animals = [];
+
+  return (
+    <div>
+      <h1>Animals: </h1>
+      {animals.length > 0 && <List animals={animals} />}
+      {animals.length === 0 && <div>There are no animals in the list!</div>}
+    </div>
+  );
+}
+~~~
+
+So be sure to test thigns out!  
 
 ### Assignment
 
