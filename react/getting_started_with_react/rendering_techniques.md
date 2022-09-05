@@ -31,7 +31,7 @@ function App() {
 }
 ~~~
 
-It is perfectly acceptable, but what if we want to render more than just four? It can be tedous and long, and most of the time, 
+It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, 
 we will be dealing with a list rather than hard coding each animal. We can simplify this process by using a list to which we 
 can apply the `map` method to map over the list. You have previously learned that we can embed expressions insidef JSX with 
 curly braces. SO let us do just that:  
@@ -103,7 +103,7 @@ To make these decisions, we would use some soft of conditional expression. Let u
 
 #### Using Ternary Operator  
 
-One way to conditionally render an element is with a ternary operator, using a bollean value to decide what to render:  
+One way to conditionally render an element is with a ternary operator, using a boolean value to decide what to render:  
 
 ~~~javascript
 function List(props) {
@@ -281,7 +281,7 @@ function App() {
 }
 ~~~
 
-So be sure to test thigns out!  
+So be sure to test things out!  
 
 ### Assignment
 
