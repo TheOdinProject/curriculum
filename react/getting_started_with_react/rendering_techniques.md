@@ -176,8 +176,8 @@ We can also use `if`, `if/else`, and `switch` to conditionally render something.
 
 This time we will remove all the animals from the list, and we will also have two conditions:  
 
-1. Check if the `animals` property is provided  
-2. Check if the `animals` length is greater than 0  
+1.  Check if the `animals` property is provided  
+2.  Check if the `animals` length is greater than 0  
 
 We will frequently be dealing with lists in the future, and we also need to consider what to render if the list is empty or 
 does not exist at all. You certainly would not want to see a blank page, would you? Let us try to implement that:  
@@ -287,10 +287,11 @@ So be sure to test thigns out!
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM
-    *   AN INSTRUCTION ITEM
-2. A PRACTICE ITEM
-    * A TASK ITEM
+1.  The React Docs Beta has an excellent guide on rendering lists. Explore more on what you can do
+ [here]("https://beta.reactjs.org/learn/rendering-lists"). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
+2.  From the same docs, strengthen your understanding of conditional rendering [here]("https://beta.reactjs.org/learn/conditional-rendering")
+be sure to test out all the examples!
+
 </div>
 
 ### Knowledge Check
