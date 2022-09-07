@@ -66,7 +66,7 @@ function List(props) {
   return (
     <ul>
       {props.animals.map((animal) => {
-        return <ListItem key={animal}>{animal}</ListItem>;
+        return <ListItem key={animal} animal={animal} />;
       })}
     </ul>
   );
@@ -88,7 +88,7 @@ We have moved our `<ul>` element to a different component called `<List />`. It 
 
 This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>`. Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
 
-We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts a `props`, and using `props.animal` to render the text. This kind of pattern is very useful because a component can have their own state, unlike a regular element.
+We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts a `props`, and using `props.animal` to render the text. This kind of pattern is very useful because a component can have their own state, unlike a regular element. It should now render the same thing. 
 
 ### Conditionally Rendering UI
 
