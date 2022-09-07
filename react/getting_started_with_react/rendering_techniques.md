@@ -16,17 +16,17 @@ Let us say we want to create a component that lists multiple animals. We can do 
 
 ~~~javascript
 function App() {
-    return (
-        <div>
-            <h1>Animals: </h1>
-            <ul>
-                <li>Lion</li>
-                <li>Cow</li>
-                <li>Snake</li>
-                <li>Lizard</li>
-            </ul>
-        </div>
-    )
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <ul>
+        <li>Lion</li>
+        <li>Cow</li>
+        <li>Snake</li>
+        <li>Lizard</li>
+      </ul>
+    </div>
+  );
 }
 ~~~
 
@@ -34,17 +34,17 @@ It is perfectly acceptable, but what if we want to render more than just four? I
 
 ~~~javascript
 function App() {
-    const animals = ["Lion", "Cow", "Snake", "Lizard"];
-    return (
-        <div>
-            <h1>Animals: </h1>
-            <ul>
-                {animals.map((animal) => {
-                    return <li key={animal}>{animal}</li>
-                })}
-            </ul>
-        </div>
-    )
+  const animals = ["Lion", "Cow", "Snake", "Lizard"];
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <ul>
+        {animals.map((animal) => {
+          return <li key={animal}>{animal}</li>;
+        })}
+      </ul>
+    </div>
+  );
 }
 ~~~
 
@@ -60,13 +60,13 @@ We will use `props` here, and you will learn more about them in a future lesson.
 
 ~~~javascript
 function List(props) {
-    return (
-        <ul>
-            {props.animal.map((animal) => {
-                return <li key={animal}>{animal}</li>
-            })}
-        </ul>
-    )
+  return (
+    <ul>
+      {props.animals.map((animal) => {
+        return <ListItem key={animal}>{animal}</ListItem>;
+      })}
+    </ul>
+  );
 }
 
 function App() {
