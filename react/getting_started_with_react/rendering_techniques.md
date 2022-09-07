@@ -7,9 +7,8 @@ elements and conditionally render UI in JSX.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*  Rendering a list of elements in JSX
-*  Rendering components instead of elements
-*  How you can conditionally render UI
+*  Render a list of elements/components in JSX
+*  Conditionally render UI
 
 ### Rendering a List of Elements in JSX
 
@@ -31,7 +30,7 @@ function App() {
 }
 ~~~
 
-It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a list rather than hard coding each animal. We can simplify this process by using a list of which we can apply the `map` method to map over the list. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
+It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
 
 ~~~javascript
 function App() {
@@ -51,9 +50,9 @@ function App() {
 
 We have defined an array called `animals` which contains what we have previously written. Now inside our JSX, we used `map` to map over each animal in the list and return the `li` element, adding `animal` as its text. It should now render the same as the previous snippet we wrote. It is now more dynamic and easy to handle.
 
-You may be curious as to what the `key` is in our `<li>` element. We will dive into how keys work in the next lesson. But, to explain briefly, It is to let React know the identity of each element in the list, React must know this information if you are dealing with a dynamic list where you add or remove elements. Since we are only dealing with a static list, it does not matter for now.
+You may be curious as to what the `key` is in our `<li>` element. We will dive into how keys work in the next lesson. But, to explain briefly, it is to let React know the identity of each element in the list, React must know this information if you are dealing with a dynamic list where you add or remove elements. Since we are only dealing with a static list, it does not matter for now.
 
-### Rendering a Different Component
+### Rendering a List of Components in JSX
 
 <div class="lesson-note" markdown="1">
 We will use `props` here, and you will learn more about them in a future lesson. We will just be writing a simple implementation.
@@ -82,9 +81,9 @@ function App() {
 }
 ~~~
 
-We have moved our `<ul>` element to a different component called `<List />` It still returns the `<ul>` element, but we can do a lot more with it as a component
+We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
-This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>` Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`
+This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>`. Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`
 
 ### Conditionally Rendering UI
 
@@ -119,7 +118,7 @@ function App() {
 
 We are using the String method `startsWith` to check if the `animal` starts with the letter L. This method either returns true or false.
 
-If the animal starts with the letter L, then we return the `<li>` element, which renders the particular animal Otherwise, we return `null` to indicate that no element will be rendered.
+If the animal starts with the letter L, then we return the `<li>` element, which renders the particular animal. Otherwise, we return `null` to indicate that no element will be rendered.
 
 #### Using the && Operator
 
@@ -158,7 +157,7 @@ We are not limited to rendering an element or nothing with `null` we can also de
 
 We can also use `if`, `if/else`, and `switch` to conditionally render something.
 
-This time we will remove all the animals from the list, and we will also have two conditions:
+This time we will have two conditions:
 
 1.  Check if the `animals` property is provided
 2.  Check if the `animals` length is greater than 0
@@ -198,7 +197,7 @@ function App() {
 
 In our `<List />` component, we have two `if` statements acting as a guard that immediately returns an element based on the condition.
 
-One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. In this case, our list is empty, so the second if statement executes, it will immediately return the `<div>` element that contains the text "There are no animals in the list"
+One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. In this case, our list is empty, so the second if statement executes, it will immediately return the `<div>` element that contains the text "There are no animals in the list".
 
 If we remove the `animals` property:
 
@@ -266,10 +265,8 @@ So be sure to test things out!
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The React Docs Beta has an excellent guide on rendering lists. Explore more on what you can do
-    [here]("https://beta.reactjs.org/learn/rendering-lists"). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
-2.  From the same docs, strengthen your understanding of conditional rendering [here]("https://beta.reactjs.org/learn/conditional-rendering")
-    be sure to test out all the examples!
+1.  The React Docs Beta has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://beta.reactjs.org/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
+2.  From the same docs, strengthen your understanding of [conditional rendering](https://beta.reactjs.org/learn/conditional-rendering). Be sure to test out all the examples!
 
 </div>
 
