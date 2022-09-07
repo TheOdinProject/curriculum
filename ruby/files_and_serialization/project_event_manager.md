@@ -1,3 +1,4 @@
+### Introduction
 Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](http://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
 
 ### Learning Goals
@@ -14,9 +15,8 @@ After completing this tutorial, you will be able to:
   the [Google API Client Gem](https://github.com/google/google-api-ruby-client)
 * use [ERB](http://rubydoc.info/stdlib/erb/ERB) (Embedded Ruby) for templating
 
-<div class="note">
-<p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
+<div class="lesson-note" markdown="1">
+  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [submit them to the project on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
 </div>
 
 ### What We're Doing in This Tutorial

@@ -9,7 +9,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 #### Test Drive Your Terminal
 <span id="open-command-line">Open a terminal</span> on your computer.
 
-- **Linux**: open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+- **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
 
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
 
@@ -42,7 +42,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     
-    * Setup (Download the exercise files, but skip the Software Install step, you already have everything you need)
+    * Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already)
     * Introducing the Shell
     * Navigating Files and Directories
     * Working With Files and Directories
@@ -82,11 +82,9 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 #### Opening files in VSCode from the Command Line
 
-On Windows and Linux, you can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
+- **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
-##### MacOS Users:
-
-MacOS can do this too, but you need to set it up. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+- **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

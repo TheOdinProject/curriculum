@@ -111,9 +111,9 @@ Try submitting the form with seven passengers to see the validation in action.
 ### Pattern Validations
 
 To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
-Real-world applications would be checking a credit card number or a zipcode is in the correct format.
+Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
 
-To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format. 5 numbers followed by an optional dash and 4 more numbers:
+To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzrQqRK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/YzrQqRK">
@@ -145,7 +145,7 @@ It is also good practice to use a `placeholder` attribute to show users an examp
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-The pattern attribute can only be used on `<input>` elements. Some input elements already validate data that matches a certain pattern. For example the email input field which will make sure a valid email is entered and the url input element which will check to ensure the url starts with http or https:
+The pattern attribute can only be used on `<input>` elements. Some input elements already validate data that matches a certain pattern. For example, the email input field will make sure a valid email is entered and the url input element will check to ensure the URL starts with http or https:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="eYGRZbK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGRZbK">
@@ -190,22 +190,22 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API".
 
-3. Read CSS Tricks brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
+3. Read CSS Tricks' brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
 
 </div>
 
 ### Additional Resources
 
-- Check out [html5pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
-- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do and don'ts for form validation UX.
-- [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design
+- Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
+- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do's and don'ts for form validation UX.
+- Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
 - [Regular expressions clearly explained](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4) goes over several real world examples of regular expression patterns and walks through what they're doing step by step. This resource can be useful if you don't just want to copy + paste popular patterns, and instead want to know what a pattern is actually doing.
 - One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.
 
 ### Knowledge Check
 
-- <a class="knowledge-check-link" href='#required-validation'>What does the required validation do?</a>
+- <a class="knowledge-check-link" href='#required-validation'>What does the <code>required</code> validation do?</a>
 - <a class="knowledge-check-link" href='#text-length-validations'>What validations can you use for checking text length?</a>
 - <a class="knowledge-check-link" href='#number-range-validations'>How can you validate the minimum and maximum of numeric inputs?</a>
 - <a class="knowledge-check-link" href='#pattern-validations'>What can you use the pattern validation for?</a>
-- <a class="knowledge-check-link" href='#styling-validations'>What pseudo css selectors are available for styling valid and invalid inputs?</a>
+- <a class="knowledge-check-link" href='#styling-validations'>What pseudo CSS selectors are available for styling valid and invalid inputs?</a>

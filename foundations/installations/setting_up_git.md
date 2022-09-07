@@ -89,7 +89,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Chrome OS/CloudReady
+<summary class="dropDown-header">ChromeOS
 </summary>
 
 You will need to install Git from the source by following the instructions from this [Digital Ocean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source).
@@ -194,4 +194,5 @@ You probably felt like you were way in over your head, and you probably didn't u
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
+* [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.

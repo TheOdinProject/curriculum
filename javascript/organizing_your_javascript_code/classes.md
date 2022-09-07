@@ -10,19 +10,35 @@ After this lesson and completing the assignments, you will be able to:
 
 - Describe the pros and cons of using classes in JavaScript.
 - Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
-- Explain the differences between using a class to define a constructor and other prototype methods.
-- Explain what "getters" & "setters" are.
+- Explain the differences between an object constructor and a class.
+- Explain what "getters" and "setters" are.
 - Understand what computed names and class fields are.
 - Describe function binding.
-- Be able to use inheritance with classes.
-- Briefly talk about the conflict in JS with functional programming and classes.
+- Use inheritance with classes.
+- Understand why composition is generally preferred to inheritance.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently. "Getters and Setters" are a useful feature!
-2. [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. Look especially at the 'extends' and 'Mixins' sections. React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core React component which gives you access to all their built-in functionality.
-3. [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some pros and cons for classes.  There are many people who think that class syntax is misleading for Javascript, and thus Factory Functions (from the previous lesson) are inherently better. __WE__ are not saying that classes are bad!  We just want you to be informed on the opinions of both sides.
+
+1.  [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to 
+    speed on "Getters and Setters".
+    
+1.  [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax 
+    confidently.
+
+1.  [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a 
+    great resource for going a little deeper. Look especially at the 'extends' and 'Mixins' sections. React (and other 
+    frameworks) uses classes in this way. You create your components and make them `extend` the core React 
+    component which gives you access to all their built-in functionality.
+
+1.  [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some 
+    pros and cons for classes. [FunFunFunction's video on Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
+    elaborates on the cons mentioned in the article and does 
+    a great job of going over the topic. Many people think that class syntax is misleading for JavaScript and 
+    Inheritance is best avoided, and thus Factory Functions (from the previous lesson) that use Composition are 
+    inherently better. __WE__ are not saying that classes are bad or that Inheritance should never be used! We just 
+    want you to be informed of the opinions of both sides.
 </div>
 
 ### Practice
@@ -38,13 +54,14 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Describe the pros and cons of using classes in JavaScript.</a>
-* <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
+* <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">How does JavaScript's object creation differ from a language like Java or Ruby?
 </a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Explain the differences between using a class to define a constructor and other prototype methods.
-</a>
-* <a class="knowledge-check-link" href="https://javascript.info/class">Explain what "getters" & "setters" are.</a>
-* <a class="knowledge-check-link" href="https://javascript.info/class">Understand what computed names and class fields are.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/class#not-just-a-syntactic-sugar">Explain the differences between object constructors and classes.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/property-accessors">What are "getters" & "setters"?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/class">Describe computed names and class fields.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
 * <a class="knowledge-check-link" href="(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)">Describe static properties.</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Be able to use inheritance with classes.</a>
 * <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly talk about the conflict in JS with functional programming and classes.</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">How is inheritance used with classes?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Why is favoring Composition over Inheritance suggested?</a>

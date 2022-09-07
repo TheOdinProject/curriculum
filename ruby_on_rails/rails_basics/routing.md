@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Root
 
-The most important (and simplest) route in your file is the root url... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
+The most important (and simplest) route in your file is the root URL... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
 
 ~~~ruby
   root to: "kittens#index"  #kittens controller, index action (method)
@@ -68,7 +68,7 @@ Each of these routes is basically a Ruby method that matches that particular URL
 
 You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
 
-### The Rails Way to Write Restful Routes
+### The Rails Way to Write RESTful Routes
 
 Rails knows you want to use those seven actions all the time... so they came up with a handy helper method which lets you do in one line what we just wrote in seven lines in our resources file:
 
@@ -193,7 +193,7 @@ You should have a good sense of what's going on in the routes file by now but pr
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
-* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
+* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on Rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

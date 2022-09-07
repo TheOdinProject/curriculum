@@ -1,3 +1,4 @@
+### Introduction
 Like we learned in the introduction lesson, Node.js is really just JavaScript. So a basic understanding of JavaScript is necessary in order to understand Node. For this reason, it is highly recommended that you take our prerequisite [JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript) before continuing with this course.
 
 This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes at the end of this section will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
@@ -31,7 +32,7 @@ By the end of this lesson, you should be able to do the following:
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
     - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
-    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
+    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-packagejson-guide).
     - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
   - Events
     - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.

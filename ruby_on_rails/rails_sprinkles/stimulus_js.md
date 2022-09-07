@@ -39,7 +39,7 @@ purpose?
 
 * **data-controller** is set to `clipboard`, which says "Hey Stimulus, we want to enhance this HTML with some clipboard
 behavior."
-* **data-clipboard-target** is set to `source`, which says "This is the the `source` we are gonna use for our clipboard
+* **data-clipboard-target** is set to `source`, which says "This is the `source` we are gonna use for our clipboard
 controller."
 * **data-action** is set to `click->clipboard#copy`, which says "On a click invoke the `copy` action from our clipboard
 controller."
@@ -139,7 +139,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
     static targets = ["name", "output"]
     greet() {
-        this.nameTarget.html = this.inputTarget.value     
+        this.nameTarget.html = this.outputTarget.value
     }
 }
 ~~~
@@ -294,7 +294,7 @@ button.
 * Make sure your toggle controller is reusable. Try to make it do the following things:
   * Clicking a button will show another element (like a dropdown menu)
   * Clicking an element will hide the clicked element and show another
-  * Clicking an checkbox will highlight the element containing the checkbox
+  * Clicking a checkbox will highlight the element containing the checkbox
 * Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
 * Project: In a new rails app, create a `car` model that `:has_many` `variants`; make up some attributes. Then 
