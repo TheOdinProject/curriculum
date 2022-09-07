@@ -228,16 +228,20 @@ You can, Of course, also accomplish this with just the ternary and && operators.
 
 ~~~javascript
 function List(props) {
-  return !props.animals ? (
-    <div>Loading...</div>
-  ) : props.animals.length > 0 ? (
-    <ul>
-      {props.animals.map((animal) => {
-        return <li key={animal}>{animal}</li>;
-      })}
-    </ul>
-  ) : (
-    <div>There are no animals in the list!</div>
+  return (
+    <>
+      {!props.animals ? (
+        <div>Loading...</div>
+      ) : props.animals.length > 0 ? (
+        <ul>
+          {props.animals.map((animal) => {
+            return <li key={animal}>{animal}</li>;
+          })}
+        </ul>
+      ) : (
+        <div>There are no animals in the list!</div>
+      )}
+    </>
   );
 }
 
