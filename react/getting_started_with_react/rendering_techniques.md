@@ -1,14 +1,13 @@
 ### Introduction
 
-Now that we have learned how JSX works and how to write it. This lesson will cover how we can render multiple
-elements and conditionally render UI in JSX.
+Now that we have learned how JSX works and how to write it. This lesson will cover how we can render multiple elements and conditionally render UI in JSX.
 
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*  Render a list of elements/components in JSX
-*  Conditionally render UI
+*   Render a list of elements/components in JSX
+*   Conditionally render UI
 
 ### Rendering a List of Elements in JSX
 
