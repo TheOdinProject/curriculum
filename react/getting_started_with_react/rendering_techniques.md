@@ -224,48 +224,53 @@ The first `if` statement will now execute and return a `<div>` with the text "Lo
 
 If none of those checks passed, then we have the data we need to render the list successfully. Try it out by adding items to the `animals` list and adding the property back.
 
-You can, Of course, also accomplish this with the ternary and && operators.
+You can, Of course, also accomplish this with just the ternary and && operators.
 
 ~~~javascript
 function List(props) {
-  return (
+  return !props.animals ? (
+    <div>Loading...</div>
+  ) : props.animals.length > 0 ? (
     <ul>
       {props.animals.map((animal) => {
         return <li key={animal}>{animal}</li>;
       })}
     </ul>
+  ) : (
+    <div>There are no animals in the list!</div>
   );
 }
 
-function App() {
-  const animals = [];
-
-  return (
-    <div>
-      <h1>Animals: </h1>
-      {animals.length > 0 ? (
-        <List animals={animals} />
-      ) : (
-        <div>There are no animals in the list!</div>
-      )}
-    </div>
-  );
-}
 // or
+function List(props) {
+  return (
+    <>
+      {!props.animals && <div>Loading...</div>}
+      {props.animals && props.animals.length > 0 && (
+        <ul>
+          {props.animals.map((animal) => {
+            return <li key={animal}>{animal}</li>;
+          })}
+        </ul>
+      )}
+      {props.animals && props.animals.length === 0 && <div>There are no animals in the list!</div>}
+    </>
+  );
+}
+
 function App() {
   const animals = [];
 
   return (
     <div>
       <h1>Animals: </h1>
-      {animals.length > 0 && <List animals={animals} />}
-      {animals.length === 0 && <div>There are no animals in the list!</div>}
+      <List animals={animals} />
     </div>
   );
 }
 ~~~
 
-So be sure to test things out!
+Nesting ternaries and multiple && operators can be intimidating to look at, so be sure to test things out!
 
 ### Assignment
 
