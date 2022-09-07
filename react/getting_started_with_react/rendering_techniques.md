@@ -59,6 +59,10 @@ We will use `props` here, and you will learn more about them in a future lesson.
 </div>
 
 ~~~javascript
+function ListItem(props) {
+  return <li>{props.animal}</li>
+}
+
 function List(props) {
   return (
     <ul>
@@ -83,11 +87,13 @@ function App() {
 
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
-This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>`. Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`
+This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>`. Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
+
+We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts a `props`, and using `props.animal` to render the text. This kind of pattern is very useful because a component can have their own state, unlike a regular element.
 
 ### Conditionally Rendering UI
 
-Let us make some decisions within our component. What if we only want to render an animal that starts with the letter L? To make these decisions, we would use some sort of conditional expression. Let us continue using the code we have written above.
+Let us make some decisions within our component. What if we only want to render an animal that starts with the letter L? To make these decisions, we would use some sort of conditional expression. Let us continue using the code above, but for brevity's sake, we will be removing the `<ListItem />` component.
 
 #### Using Ternary Operator
 
