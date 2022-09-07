@@ -61,7 +61,5 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://javascript.info/class">Describe computed names and class fields.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
 * <a class="knowledge-check-link" href="(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)">Describe static properties.</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Be able to use inheritance with classes.</a>
-* <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Briefly talk about the conflict in JS with functional programming and classes.</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">How is inheritance used with classes?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Why is favoring Composition over Inheritance suggested?</a>
