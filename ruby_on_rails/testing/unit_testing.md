@@ -4,7 +4,7 @@ You may remember testing from the Ruby section and the emphasis on the importanc
 
 ### Lesson Overview
 
-This lesson will cover a few points.
+This section contains a general overview of topics that you will learn in this lesson.
 
 *   What are unit tests?
 *   Why are unit tests important?
@@ -12,7 +12,7 @@ This lesson will cover a few points.
 
 ## What are unit tests?
 
-A unit test is testing a single unit of code to ensure that method/unit works as it is supposed to! In Ruby on Rails you will also hear them reffered to as model tests. These model tests specifically are used to test the logic behind your objects. This can include validating user logins, user form submissions and other logic between models. Such as if you need to ensure your object method for generating discounts work properly. It's important as you scale your projects to ensure that the logic behind your models works as your project consistently expands. This helps make the project more maintainable as bugs will be caught earlier rather than when your project gets larger and those bugs become harder to to debug!
+A unit test is testing a single unit of code to ensure that method/unit works as it is supposed to! In Ruby on Rails your models are one of the areas that should be covered with unit tests. These model tests specifically are used to test the logic behind your model objects. This can include validating user inputs from form submissions and other logic between models. Such as if you need to ensure your object method for generating discounts work properly. It's important as you scale your projects to ensure that the logic behind your models works as your project consistently expands. This helps make the project more maintainable as the tests provide a safety net to ensure existing functionality continues working as expected when models need to be expanded or modified. 
 
 Earlier you used RSpec for testing projects in the Ruby section. While Ruby on Rails comes with it's own testing framework. RSpec is a very popular framework for testing even in Ruby on Rail's. As such we will be using RSpec for the Ruby on Rails testing section. 
 
@@ -24,25 +24,15 @@ First we add it the development and test group of the gemfile. Navigate to the g
 
 ~~~
 
-gem 'rspec-rails', '~> 6.0.0'
+group :development, :test do
+  gem 'rspec-rails'
+end
 
 ~~~
 
-Next in your terminal run the following two commands separately.
+Next visit the [rails installation guide] to finish the rest of the steps. Afterwards you will see an additional spec folder on the top level of your project.
 
-~~~
-
-bundle install
-
-~~~
-
-~~~
-
-rails generate rspec:install
-
-~~~
-
-Now the appropriate files should have been installed.
+There you will find different folders for different areas of your application such as controllers, models, system, etc. When you use the command to generate a model, controller, etc. The spec file will be created in the corresponding folder to the object that you created. If you create a spec file manually make sure your creating in the correct folder, such as a controller spec file within the controller folder. There will also be a rails_helper and spec_helper file. These RSpec files are where you can configure your test runs.
 
 ## Example test
 
@@ -50,7 +40,7 @@ Each model should have it's own spec file within the spec/models folder. This wi
 
 ~~~
 
-rails generate model x
+rails generate model <model_name>
 
 ~~~
 
