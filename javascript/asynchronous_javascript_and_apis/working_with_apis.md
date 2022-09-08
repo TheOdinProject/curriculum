@@ -20,7 +20,7 @@ There are multiple ways of requesting data from an API, but all of them basicall
 api.openweathermap.org/data/2.5/weather?q=London
 ~~~
 
-The specifics for using any API are usually documented on the service's website. [Check here for the OpenWeatherMap API documentation](https://openweathermap.org/current). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser...(we'll wait).
+The specifics for using any API are usually documented on the service's website. [Check here for the OpenWeatherMap API documentation](https://openweathermap.org/current). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
 You'll probably get an error like this:
 
@@ -36,7 +36,7 @@ http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
 
 As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
 
-On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. OpenWeatherMap, for example, provides not only a free tier but a variety of paid tiers that can cost upwards of 2000 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world....you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
+On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. OpenWeatherMap, for example, provides not only a free tier but a variety of paid tiers that can cost upwards of 2000 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
 As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, OpenWeatherMap's free plan only allows your app to make 60 requests per minute, for a monthly total of 1 million requests, while the "Enterprise" tier allows up to 200,000 requests per minute! The free tier also comes with basic forecasting data, but it does not include data for a 30-day forecast ([details here if you're interested](https://openweathermap.org/price)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
