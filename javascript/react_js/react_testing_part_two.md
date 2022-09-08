@@ -107,7 +107,7 @@ We start by importing a bunch of stuff like any other decent React component. Th
 2. If `hasSubmissions` is true, sort the submissions and render them with `Submission`. Otherwise, a heading that says "No Submissions yet, be the first!"
 3. If  `allSubmissionsPath` is true, it renders a `<p>` tag.
 
-By just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionList`.
+By just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionsList`.
 
 Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/__tests__/submissions-list.test.jsx). Again, don't worry if all of it doesn't make sense, we'll chew over it shortly.
 

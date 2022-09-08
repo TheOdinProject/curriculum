@@ -126,7 +126,7 @@ While your VM is running, do the following steps:
   12. Let's take a look at the contents of the CD image we just mounted. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called Home on the VM desktop. Afterwards, click on a CD under Devices on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
   13. In the window we opened in step 12, click File > **Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
   14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  15. Once it finishes, close the terminal and the CD folder.
+  15. Once it finishes, close the terminal.
   16. Right-click CD under Devices in the File Manager window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
   17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
   18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
@@ -234,19 +234,17 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">Chrome OS/CloudReady
+<summary class="dropDown-header">ChromeOS/ChromeOS Flex
 </summary>
 
-With the recent addition of Linux (Beta), the Chrome OS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
+With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
-1. You have a [supported Chromebook](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
-2. You can install [Linux (Beta)](https://support.google.com/chromebook/answer/9145439?hl=en)
+1. You have a supported Chromebook:  
+    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)  
+    * [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
+2. You can install [Linux](https://support.google.com/chromebook/answer/9145439?hl=en)
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
-
-**Note for CloudReady users**
-
-Currently there is a bug preventing CloudReady v83.4 from successfully installing Linux (Beta). This was resolved in version 85.2.
 
 </details>
 

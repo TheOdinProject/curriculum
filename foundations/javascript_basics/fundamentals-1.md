@@ -108,7 +108,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What should you look out for when using the `+` operator with numbers and strings?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the `%` operator work?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between `==` and `===`.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/comparison">Explain the difference between `==` and `===`.</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and post-fixing increment/decrement operators.</a>

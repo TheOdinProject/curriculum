@@ -32,11 +32,11 @@ In addition, when you ask your questions, you should help the community help you
 
 When asking your question, please remember to include the context:
 
-* What do you think the problem is?
-* What exactly do you want to happen?
-* What is actually happening?
-* How did you get there?
-* What have you tried so far?
+*   What do you think the problem is?
+*   What exactly do you want to happen?
+*   What is actually happening?
+*   How did you get there?
+*   What have you tried so far?
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask Google.
 
@@ -74,55 +74,55 @@ Your Multiple Lines of Colorful Code
 
 ### Chat Features
 
-* Have fun with giphys: type `/giphy hi` to say hi to everyone.
-* Type `!help` for more information on chat commands.
-* Show your appreciation to those who help you with `@username ++`.
-* Don't forget to visit all the available rooms!
+*   Have fun with giphys: type `/giphy hi` to say hi to everyone.
+*   Type `!help` for more information on chat commands.
+*   Show your appreciation to those who help you with `@username ++`.
+*   Don't forget to visit all the available rooms!
 
 
 ### How to Help Others Solve Coding Problems
 
 Not only is it important to know how to ask an effective question, it is also important to know how to help others effectively. Please take a moment to review these guidelines so that you will have proper expectations of the help you will receive in our Discord community. In addition, come back and review these guidelines when you are ready to start helping others.
 
-#### 1. Instead of Answering the Question, Guide Them to the Answer
+#### 1.  Instead of Answering the Question, Guide Them to the Answer
 
 Unless the problem is a simple typo or syntax error, it is more beneficial to guide them to find their own answer. This approach will teach good debugging skills and will increase their ability to solve future problems.
 
 Start by asking probing questions, such as "What have you already tried?", “What do you expect this function to do?”, or “What do you think that error means?”.
 
-#### 2. Help Only When You Are Certain of the Answer
+#### 2.  Help Only When You Are Certain of the Answer
 
 If you are not 100% certain of the answer, you may end up doing more harm than good, so please let someone else answer it.
 
 Do not worry about how long someone has to wait for an answer. The right answer is worth the wait.
 
-#### 3. Help Only When No One Else Is Currently Helping
+#### 3.  Help Only When No One Else Is Currently Helping
 
 If somebody is already getting help, do not jump in the middle of the conversation. We know you mean well, but it is overwhelming for the person receiving help to follow multiple conversations. 
 
-#### 4. Help Only When You Have Plenty of Time
+#### 4.  Help Only When You Have Plenty of Time
 
 If you do not have much time to help, please let someone else answer the question.
 
-#### 5. Adjust Your Expectations to Their Level
+#### 5.  Adjust Your Expectations to Their Level
 
 If the question does not reveal where they are in the curriculum, ask them so that you can adjust your expectations to their knowledge level.
 
-#### 6. Ask for Clarifications
+#### 6.  Ask for Clarifications
 
 If the question seems confusing or ambiguous, ask for more clarity, or politely link them to our bot command `!question`, which links to the [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) article.
 
-#### 7. Ask for Live Code
+#### 7.  Ask for Live Code
 
 If the question needs to have live code to fully understand or debug, ask them to use [replit](https://replit.com) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
 
-#### 8. Do Not Answer Googleable Questions
+#### 8.  Do Not Answer Googleable Questions
 
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community. 
 
 Instead of answering these questions, politely ask them to google their question or use our bot command `!google` with the search terms.
 
-#### 9. Do Not Answer Questions Covered in Our Curriculum
+#### 9.  Do Not Answer Questions Covered in Our Curriculum
 
 If you know that the answer is provided in our curriculum, ask them where they are at in the curriculum.
 
@@ -130,33 +130,33 @@ If they have not reached that portion of the curriculum, let them know they will
 
 If they have already been through that portion of the curriculum, politely direct to review that lesson.
 
-#### 10. Answer the Question Before Pointing Out Other Problems
+#### 10.  Answer the Question Before Pointing Out Other Problems
 
 When helping someone it can be easy to spot other problems in their code. Resolve the original question, before pointing out any other problems that need attention.
 
-#### 11. Encourage Students to Use a Debugger
+#### 11.  Encourage Students to Use a Debugger
 
 It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `!debug`.
 
-#### 12. Watch for Students That Need to Take a Step Back
+#### 12.  Watch for Students That Need to Take a Step Back
 
 It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Often times, stepping away from a problem will help them see the bigger picture and how to solve it.
 
-#### 13. Watch for Students That Are in over Their Head
+#### 13.  Watch for Students That Are in over Their Head
 
 It is common for students to skip a lesson/project or think they know more than they actually do. When this situation arises, politely encourage them to go back and reread a section of the curriculum for more understanding.
   
-#### 14. Admit When the Problem Goes Beyond Your Current Knowledge
+#### 14.  Admit When the Problem Goes Beyond Your Current Knowledge
 
 It is common for the actual issue to go beyond the initial question. If it goes beyond your current knowledge, it is important to admit that you are unsure of the correct answer and let someone else help. 
 
 After digging deeper into the problem, they might be able to continue troubleshooting on their own or they can wait for someone more experienced to help.
 
-#### 15. Be Patient
+#### 15.  Be Patient
 
 Helping others solve a problem is not always easy. Remember to be patient as they struggle through the problem.
 
-#### 16. Duck Out of the Conversation If You Get Frustrated
+#### 16.  Duck Out of the Conversation If You Get Frustrated
 
 Sometimes there are misunderstandings and interactions go poorly. You are a volunteer and are not obligated to help when things get out of hand. Politely duck out of the conversation and let someone else step up.
 
@@ -165,21 +165,21 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
+1.  First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-  2. Now, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
+2.  Now, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
   
-     * **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa! 
+    *   **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa! 
 
-  3. Here are some guidelines before you dive in: 
+3. Here are some guidelines before you dive in: 
   
-     * **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
-     * **Don't 'Bomb' Chats:** Don't send multiple messages in a row; type out your whole message, then push send.	
-     * **Don't Exclude Anyone:**	These are public chats; if someone joins in on a conversation, include them!		
-     * **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
-     * **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all. 
-     * **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
-     * **Read the Rules and FAQ:** Upon joining, you will find yourself having to read through our rules. Please take the time to read and understand our rules and FAQ.
+    *   **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
+    *   **Don't 'Bomb' Chats:** Don't send multiple messages in a row; type out your whole message, then push send.	
+    *   **Don't Exclude Anyone:**	These are public chats; if someone joins in on a conversation, include them!		
+    *   **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+    *   **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.      
+    *   **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
+    *   **Read the Rules and FAQ:** Upon joining, you will find yourself having to read through our rules. Please take the time to read and understand our rules and FAQ.
 
 </div>
 
