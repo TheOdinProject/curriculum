@@ -193,6 +193,8 @@ For further understanding of React components, [this short article](https://dev.
 
 For further understanding of the difference between functional and class based components, read [this article](https://dev.to/colocodes/react-class-components-vs-function-components-23m6). They discuss concepts like state and lifecycle methods, which we haven't talked about yet, so don't spend too much time getting hung up or trying to memorize the differences. However, it may be helpful to bookmark this page because it will prove useful later on in the course when we do learn about them. Rest assured, we will expand on the question of "which type of component should I use?" later.
 
+One thing to note is that since the introduction of React 16.8 and hooks (which the curriculum will cover!), most new React code has tended to favor using function components. [This article](https://hackernoon.com/react-functional-components-are-the-future) covers a bit of history about the two types of components to provide some context about why this is the case. While it is not controversial to say that function components are the future, it is still valuable to understand how class components work as many code bases will contain them for older features that pre-date the introduction of hooks.
+
 ### Create-react-app
 
 Developers at Facebook came up with a great tool called `create-react-app`, which sets up a complete React application for you. By running one command, it does all the necessary setup and configuration for you to immediately start working on your project.
