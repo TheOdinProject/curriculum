@@ -8,15 +8,15 @@ This lesson is going to cover starting a new React project on your own machine, 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How React projects can be created locally.
-* Describing the difficulties when starting a React project without the appropriate tools.
-* Listing some of the popular tools and methods for scaffolding a new React project.
-* Explaining what Create React App is.
-* Setting up your workflow to develop efficiently within your new project.
+* How React projects can be created.
+* Why to use premade tools for creating React projects.
+* How to use Create React App.
+* How to format the code in React projects.
+* What are React Developer Tools.
 
 ### Many Paths
 
-There are multiple ways to start using React in your projects, from attaching a set of `<script>` tags which serve React from a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network), to robust [toolchains](https://en.wikipedia.org/wiki/Toolchain) that are highly configurable and allow for increased scalability and optimization.
+There are multiple ways to start using React in your projects, from attaching a set of `<script>` tags which serve React from a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network), to robust [toolchains](https://en.wikipedia.org/wiki/Toolchain) and [frameworks](https://en.wikipedia.org/wiki/Web_framework) that are highly configurable and allow for increased scalability and optimization.
 
 Some examples of these toolchains:
 
@@ -40,23 +40,23 @@ All of this, and sometimes _much more_ is required to get a React project and de
 
 Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief as you learn that we can get started with a _single terminal command_.
 
-This terminal command is a feature of the beginner-friendly [Create React App](https://create-react-app.dev/), a tool developed by the folks over at Meta which we will be using from here on out. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
+This terminal command is a feature of the beginner-friendly [Create React App](https://create-react-app.dev/), or CRA for short, a tool developed by the folks over at Meta which we will be using from here on out. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
 
 ### Creating A React App
 
 Fire up a terminal instance, `cd` over to the folder containing your projects and enter the following command:
 
 ~~~
-$ npx create-react-app my-first-react-app
+npx create-react-app my-first-react-app
 ~~~
 
-Note that we use `npx` here (not `npm`), this is not a typo, `npx` is a package runner that allows the execution of packages without them being installed locally on your machine. [Check here](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/) for more information.
+Note that we use `npx` here (not `npm`), this is not a typo, `npx` is a package runner that allows the execution of packages without them being installed locally on your machine. [Check out this Geeks for Geeks article on the difference between `npx` and `npm`.](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
 
 Once this process has completed, we should confirm that all has gone well:
 
 ~~~
-$ cd my-first-react-app
-$ npm start
+cd my-first-react-app
+npm start
 ~~~
 
 Provided that everything has gone according to plan, you should be greeted with a new browser tab containing a lovely spinning React logo:
@@ -71,7 +71,7 @@ Let's take a closer look at our new project. Inside you will find some folders, 
 
 The `public` folder is where all of the static assets related to your app will go. This could include images, icons, information files for the browser, and perhaps most importantly—the `index.html` file.
 
-Inside of the `src` folder is where you will find the code that runs your app. Let's open the `index.js` file and see if we can understand what's going on:
+Inside of the `src` folder is where you will find the code that runs your app. The `index.js` file here serves as the entry point of the application. Let's open the `index.js` file and see if we can understand what's going on:
 
 ~~~js
 import React from 'react';
@@ -107,22 +107,22 @@ All of this may understandably look unlike anything you've seen up until now, bu
 
 ### Keeping It Clean
 
-Another of the useful features of Create React App is that it ships with [ESLint](https://www.theodinproject.com/lessons/node-path-javascript-linting). You could also set up [Prettier](https://prettier.io/) to help keep your React code as clean as can be.
+Another of the useful features of Create React App is that it ships with [ESLint](https://eslint.org/). You could also set up [Prettier](https://prettier.io/) to help keep your React code as clean as can be.
 
 ### Developer Tools
 
 As you progress with React, your projects will undoubtedly become larger and larger, and include more and more components, with increasing levels of functionality.
 
-When this happens, it becomes very useful to be able to track and modify aspects of your app while the page is loaded in the browser. To aid in this we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
+When this happens, it becomes very useful to be able to track (and make live changes to) the moving parts inside of your app for the purposes of understanding and debugging your code. To this end we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
 
-We recommend installing this and becoming comfortable with using it as early as possible to assist in debugging and improving your development experience.
+We recommend installing this and becoming comfortable with using it as early as possible as it is an invaluable tool for effective React development.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Review this material by reading through the [Getting Started](https://create-react-app.dev/docs/getting-started) page in the Create React App docs.
-2. Check out this [guide for React Developer Tools](https://www.geeksforgeeks.org/react-developer-tools/) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the language).
+1. Review this material by reading through [CRA's Getting Started page](https://create-react-app.dev/docs/getting-started).
+2. Check out this [guide for React Developer Tools](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the language).
 3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
 </div>
 
@@ -133,9 +133,9 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#many-paths">What are some of the ways we can start a new React project?</a>
 * <a class="knowledge-check-link" href="#many-paths">Why should we initially be using premade toolchains instead of making our own?</a>
 * <a class="knowledge-check-link" href="#simplifying-the-process">What is Create React App, why would we use it?</a>
-* <a class="knowledge-check-link" href="#creating-a-react-app">What command can we run to Create a new React app?</a>
-* <a class="knowledge-check-link" href="#delving-deeper">What might we find in the `public` folder?</a>
-* <a class="knowledge-check-link" href="#delving-deeper">What might we find in the `src` folder?</a>
+* <a class="knowledge-check-link" href="#creating-a-react-app">What command can we run to scaffold a new React project using CRA?</a>
+* <a class="knowledge-check-link" href="#delving-deeper">What is in the `public` folder?</a>
+* <a class="knowledge-check-link" href="#delving-deeper">What is in the `src` folder?</a>
 * <a class="knowledge-check-link" href="#developer-tools">Why are the React Developer Tools useful?</a>
 
 ### Additional Resources
