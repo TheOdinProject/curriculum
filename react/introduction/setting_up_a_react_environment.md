@@ -98,7 +98,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 2. We import some CSS styling (you may recognize this syntax from the Webpack material).
 3. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 4. We import the `reportWebVitals()` function, which can be used for app analytics.
-5. We create a `root` object, and assign it an element from within our `index.html`.
+5. We create a `root` object by invoking `React.createRoot` with an element from our `index.html`.
 6. We invoke the `render` method which is attached to our `root` object, with some very interesting looking syntax inside the parameter.
 7. We call the function `reportWebVitals()`, at this stage this can safely be ignored.
 
