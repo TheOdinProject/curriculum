@@ -25,6 +25,8 @@ Since we know that ReactJS is used for building user interfaces. We can come to 
 1.  If you haven't already, browse through the <a href="https://reactjs.org/"> React Website </a>. Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
 
 2.  Read this <a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/"> FreeCodeCamp article </a> discussing the differences between a Javascript Library and a Framework
+
+3.  Lastly, skim this <a href="https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html">in-depth article</a> which explains the major benefits of using React.
 </div>
 
 ### Practice
