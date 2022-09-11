@@ -23,6 +23,8 @@ Since we know that ReactJS is used for building user interfaces. We can come to 
 <div class="lesson-content__panel" markdown="1">
 
 1.  If you haven't already, browse through the <a href="https://reactjs.org/"> React Website </a>. Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
+
+2.  Read this <a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/"> FreeCodeCamp article </a> discussing the differences between a Javascript Library and a Framework
 </div>
 
 ### Practice
