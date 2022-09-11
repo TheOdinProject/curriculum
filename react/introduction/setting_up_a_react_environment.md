@@ -9,7 +9,6 @@ This lesson is going to cover starting a new React project on your own machine, 
 This section contains a general overview of topics that you will learn in this lesson.
 
 * How React projects can be created.
-* Why to use premade tools for creating React projects.
 * How to use Create React App.
 * How to format the code in React projects.
 * What are React Developer Tools.
@@ -29,9 +28,9 @@ Why do we need these toolchains? Can't we just make our own as we see fit?
 
 Yes, but it's _hard_. React is a complex beast and there are many moving parts. Before you can start writing any sort of code that provides functionality, you would need to configure _at least_ the following:
 
-* Package Management (NPM, Yarn)
-* Module bundling (Webpack, Parcel)
-* Compilation (Babel)
+* Package Management ([NPM](https://www.npmjs.com/), [Yarn](https://yarnpkg.com/))
+* Module bundling ([Webpack](https://webpack.js.org/), [Parcel](https://parceljs.org/))
+* Compilation ([Babel](https://babeljs.io/))
 * React itself
 
 All of this, and sometimes _much more_ is required to get a React project and development environment up and running.
