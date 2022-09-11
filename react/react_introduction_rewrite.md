@@ -22,7 +22,7 @@ Since we know that ReactJS is used for building user interfaces. We can come to 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM \* AN INSTRUCTION ITEM
+1.  If you haven't already, browse through the <a href="https://reactjs.org/"> React Website </a>. Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
 </div>
 
 ### Practice
