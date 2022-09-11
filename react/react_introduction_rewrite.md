@@ -1,6 +1,6 @@
 ### Introduction
 
-This section aims to provide you with all the background information you'll need too understand what React is, and why we're choosing to cover it in our curriculum.
+This section aims to provide you with all the background information you'll need in order to understand what React is, and why we're choosing to cover it in our curriculum.
 
 ### Lesson Overview
 
