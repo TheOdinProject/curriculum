@@ -99,7 +99,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 3. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 4. We import the `reportWebVitals()` function, which can be used for app analytics.
 5. We create a `root` object by invoking `React.createRoot` with an element from our `index.html`.
-6. We invoke the `render` method which is attached to our `root` object, with some very interesting looking syntax inside the parameter.
+6. We invoke the `render` method which is attached to our `root` object, with some very interesting looking syntax inside the parentheses.
 7. We call the function `reportWebVitals()`, at this stage this can safely be ignored.
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and _much more_.
