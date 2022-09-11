@@ -6,7 +6,9 @@ This section aims to provide you with all the background information you'll need
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- Understand the differences between a Javascript Library and Framework
+- Understand the benefits of learning React
+- Understand what is react
 
 ### What Is React?
 
