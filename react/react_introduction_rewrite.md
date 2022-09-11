@@ -49,7 +49,8 @@ _Convinced and excited? Great, because it's going to change your life! Let's div
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
+- <a class="knowledge-check-link" href="#what-is-react">What is the purpose of React?</a>
+- <a class="knowledge-check-link" href="#why-cover-react">What are two beenfits of using React?</a>
 
 ### Additional Resources
 
