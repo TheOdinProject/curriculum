@@ -18,6 +18,22 @@ Since we know that ReactJS is used for building user interfaces. We can come to 
 
 ### Why Cover React?
 
+React is one of the most powerful, widely used frontend frameworks.
+
+The landscape for frontend frameworks has been changing a lot over the last few years, so it is understandable to be worried about choosing the "wrong" one.
+[This article](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/) shows the recent development of frontend frameworks well. Once you start diving deeper into a framework, you will begin to love it. It makes your code easily scalable, more readable, and possibly a thousand times more efficient (just our modest estimation).
+
+Just to name a few reasons on why to learn React.js:
+
+- Reusability of components
+- Well supported due to its popularity
+- React is not opinionated, which means that it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
+- Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML from our previous lessons.
+
+If you need more convincing, the recent [2022 StackOverflow Developer Survey](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
+
+_Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
