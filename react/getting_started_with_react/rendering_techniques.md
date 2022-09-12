@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Rendering a List of Elements in JSX
 
-Let us say we want to create a component that lists multiple animals. We can do so by doing:
+Let us say we want to create a component that lists multiple animals:
 
 ~~~javascript
 function App() {
@@ -47,14 +47,30 @@ function App() {
 }
 ~~~
 
-We have defined an array called `animals` which contains what we have previously written. Now inside our JSX, we used `map` to map over each animal in the list and return the `li` element, adding `animal` as its text. It should now render the same as the previous snippet we wrote. It is now more dynamic and easy to handle.
+We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical: 
+
+~~~js
+function App() {
+  const animals = ["Lion", "Cow", "Snake", "Lizard"];
+  const animalsList = animals.map((animal) => <li key={animal}>animal</li>)
+  
+  return (
+    <div>
+      <h1>Animals: </h1>
+      <ul>
+        {animalsList}
+      </ul>
+    </div>
+  );
+}
+~~~
 
 You may be curious as to what the `key` is in our `<li>` element. We will dive into how keys work in the next lesson. But, to explain briefly, it is to let React know the identity of each element in the list, React must know this information if you are dealing with a dynamic list where you add or remove elements. Since we are only dealing with a static list, it does not matter for now.
 
 ### Rendering a List of Components in JSX
 
 <div class="lesson-note" markdown="1">
-We will use `props` here, and you will learn more about them in a future lesson. We will just be writing a simple implementation.
+We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a simple implementation.
 </div>
 
 ~~~javascript
@@ -152,7 +168,7 @@ function App() {
 }
 ~~~
 
-We will leverage the return value of `startsWith` With the && operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.
+We will leverage the return value of `startsWith` with the && operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.
 
 In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX and will be rendered completely fine, so be sure to be aware of that!
 
