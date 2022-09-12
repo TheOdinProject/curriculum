@@ -104,7 +104,7 @@ We have moved our `<ul>` element to a different component called `<List />`. It 
 
 This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>`. Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
 
-We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts a `props`, and using `props.animal` to render the text. This kind of pattern is very useful because a component can have their own state, unlike a regular element. It should now render the same thing. 
+We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts a `props`, and using `props.animal` to render the text. It should now render the same thing. 
 
 ### Conditionally Rendering UI
 
@@ -171,8 +171,6 @@ function App() {
 We will leverage the return value of `startsWith` with the && operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.
 
 In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX and will be rendered completely fine, so be sure to be aware of that!
-
-We are not limited to rendering an element or nothing with `null` we can also decide whether to render an element or another element.
 
 #### Other Ways to Render Conditionally
 
