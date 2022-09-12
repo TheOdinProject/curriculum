@@ -49,7 +49,7 @@ function App() {
 
 We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical: 
 
-~~~js
+~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
   const animalsList = animals.map((animal) => <li key={animal}>animal</li>)
