@@ -17,7 +17,7 @@ Before we do anything, take a look at the following text:
 ```
 $ whoami
 ```
-This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press enter on your keyboard.
+This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` signifies, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press enter on your keyboard.
 
 It returns your username. Cool!
 
