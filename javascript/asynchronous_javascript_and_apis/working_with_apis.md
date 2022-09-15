@@ -123,7 +123,7 @@ fetch('url.url.com/api', {
 Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
 
 ### Let's Do This
-For now, we're going to keep all of this in a single HTML file. So go ahead and \ one with a single blank image tag and an empty script tag in the body.
+For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
 ~~~HTML
 <!DOCTYPE html>
