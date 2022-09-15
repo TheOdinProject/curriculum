@@ -170,7 +170,7 @@ With that out of the way, now you can choose to use either `git commit -m <your 
 
 ### Conclusion
 
-You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
+You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you practice it.
 
 The main thing to take away from this lesson is the **basic workflow**. The commands you've learned here are the ones you will be using the most often with Git.
 
