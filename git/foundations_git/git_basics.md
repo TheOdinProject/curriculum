@@ -172,7 +172,7 @@ With that out of the way, now you can choose to use either `git commit -m <your 
 
 You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
 
-The main thing to take away from this lesson is the **basic workflow**. The commands you've learned here are the ones you will be using the most often with Git.
+The main thing to take away from this lesson is the **basic workflow**. The commands you've learned here are the ones you will be using the most often with Git in this wast journey.
 
 Don't worry if you don't know all the commands yet or if they aren't quite sticking in your memory yet. They will soon be seared into your brain as you use them over and over in future Odin projects.
 
