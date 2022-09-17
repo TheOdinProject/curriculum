@@ -1,13 +1,15 @@
 ### Introduction
 
-You're likely somewhat familiar with JSX from previous react lessons, in this lesson we're going to explain _what_ it is,
-and how to use it in your react apps.
+You're likely somewhat familiar with JSX from previous react lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your react apps.
 
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- What JSX is.
+- Why we use JSX.
+- Differences between JSX and html.
+- How to write and take advantage of JSX's features.
 
 ### CUSTOM SECTION HEADING
 
