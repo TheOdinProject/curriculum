@@ -11,9 +11,11 @@ This section contains a general overview of topics that you will learn in this l
 - Differences between JSX and html.
 - How to write and take advantage of JSX's features.
 
-### CUSTOM SECTION HEADING
+### What is JSX?
 
-CUSTOM SECTION CONTENT.
+JSX is a syntax extension for Javascript that lets you write HTML-like markup inside a Javascript file. It's not required to use JSX when writing react components, but it does make writing them more simple and concise.
+
+Under the hood, JSX elements compile down to react (try logging a JSX component in the console to see for yourself).
 
 ### Assignment
 
