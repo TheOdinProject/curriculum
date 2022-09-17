@@ -1,6 +1,7 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+You're likely somewhat familiar with JSX from previous react lessons, in this lesson we're going to explain _what_ it is,
+and how to use it in your react apps.
 
 ### Lesson Overview
 
