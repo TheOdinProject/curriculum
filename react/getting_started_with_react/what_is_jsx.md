@@ -209,9 +209,10 @@ Now that we've applied all of the fixes to the errors that react gave us, this i
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM
-    - AN INSTRUCTION ITEM
-2.  A PRACTICE ITEM \* A TASK ITEM
+1.  Read through the react beta docs [Writing markup with JSX page](https://beta.reactjs.org/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
+
+2.  Read through the react beta docs [Javascript in JSX page](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
+
 </div>
 
 ### Knowledge Check
