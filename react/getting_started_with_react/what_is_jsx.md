@@ -35,7 +35,7 @@ If you were to take some valid HTML and copy it straight into your react compone
 
    Correct:
 
-   ```jsx
+   ~~~jsx
    function App() {
      return (
        <>
@@ -45,18 +45,18 @@ If you were to take some valid HTML and copy it straight into your react compone
        // Could replace <></>with <div></div>f
      );
    }
-   ```
+   ~~~
 
    Incorrect:
 
-   ```jsx
+   ~~~jsx
    function App() {
      return (
          <h1>Example h1</h1>
          <h2>Example h2</h2>
      );
    }
-   ```
+   ~~~
 
 2. Close all tags.
 
@@ -66,7 +66,7 @@ If you were to take some valid HTML and copy it straight into your react compone
 
    Correct:
 
-   ```jsx
+   ~~~jsx
    function App() {
      return (
        <>
@@ -75,11 +75,11 @@ If you were to take some valid HTML and copy it straight into your react compone
        </>
      );
    }
-   ```
+   ~~~
 
    Incorrect:
 
-   ```jsx
+   ~~~jsx
    function App() {
      return (
          <>
@@ -88,7 +88,7 @@ If you were to take some valid HTML and copy it straight into your react compone
          </>
      );
    }
-   ```
+   ~~~
 
 3. camelCase **Most** things.
 
@@ -96,7 +96,7 @@ If you were to take some valid HTML and copy it straight into your react compone
 
    Correct:
 
-   ```jsx
+   ~~~jsx
    function App() {
      return (
        <>
@@ -108,11 +108,11 @@ If you were to take some valid HTML and copy it straight into your react compone
        </>
      );
    }
-   ```
+   ~~~
 
    Incorrect:
 
-   ```jsx
+   ~~~jsx
    function App() {
      return (
        <>
@@ -124,11 +124,11 @@ If you were to take some valid HTML and copy it straight into your react compone
        </>
      );
    }
-   ```
+   ~~~
 
 Now that we've covered the Rules of JSX, we'll go through the conversion of a chunk of HTML to JSX.
 
-```jsx
+~~~jsx
 <h1>Test title</h1>
 <ol class="test-list">
   <li>List item 1
@@ -139,14 +139,14 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
    <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
 </svg>
 <form><input type="text"></form>
-```
+~~~
 
 If you try to return this from a react component, you would get many errors, so we are going to fix that! I would recommend following along with this in your own react
 environment.(If you don't want to create a new react app locally, go to [react.new](https://react.new/) to have a quick react environment up and going in your web browser.
 
 The first issue we get is that this would not return a single root element, so let's give it a container.
 
-```jsx
+~~~jsx
 <div>
   <h1>Test title</h1>
   <ol class="test-list">
@@ -159,13 +159,13 @@ The first issue we get is that this would not return a single root element, so l
   </svg>
   <form><input type="text"></form>
 </div>
-```
+~~~
 
 You should see that another error appears now that we've fixed the initial one. This doesn't mean we created the error with our previous changes, just that react wasn't showing this one yet.
 
 Now, onto the second issue, which is that we haven't closed all of our tags, in particular, the `<li>` and the `<input>`.
 
-```jsx
+~~~jsx
 <div>
   <h1>Test title</h1>
   <ol class="test-list">
@@ -180,13 +180,13 @@ Now, onto the second issue, which is that we haven't closed all of our tags, in 
     <input type="text" />
   </form>
 </div>
-```
+~~~
 
 If you are following along, at this point you will stop seeing an error being rendered on-screen, this time it will be in the console.
 
 The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `class` and the `stroke-width`.
 
-```jsx
+~~~jsx
 <div>
   <h1>Test title</h1>
   <ol className="test-list">
@@ -201,7 +201,7 @@ The last issue is that we haven't camelCased our attributes, and so are using in
     <input type="text" />
   </form>
 </div>
-```
+~~~
 
 Now that we've applied all of the fixes to the errors that react gave us, this is fully fledged JSX code that can be used in a react component without any issues.
 
