@@ -219,7 +219,10 @@ Now that we've applied all of the fixes to the errors that react gave us, this i
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
+- <a class="knowledge-check-link" href="#what-is-jsx">What is JSX?</a>
+- <a class="knowledge-check-link" href="#why-do-we-use-jsx">Why do we use JSX?</a>
+- <a class="knowledge-check-link" href="#converting-html-to-jsx">What are the three rules of JSX?</a>
+- <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world">How do you reference a dynamic value inside of your JSX?</a>
 
 ### Additional Resources
 
