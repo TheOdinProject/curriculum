@@ -14,9 +14,9 @@ This section contains a general overview of topics that you will learn in this l
 
 React according to their <a href="https://reactjs.org/"> official website </a> is "A JavaScript library for building user interfaces" however lets break this down a bit further.
 
-Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks. 
+Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks.
 
-Similarly, React provides powerful primitives (built-in functions/modules) that allows us to build user interfaces of varying complexities. Throughout this course, we'll learn all about the functionality React provides and learn to build cool applications. 
+Similarly, React provides powerful primitives (built-in functions/modules) that allows us to build user interfaces of varying complexities. Throughout this course, we'll learn all about the functionality React provides and learn to build cool applications.
 
 ### Why Cover React?
 
@@ -34,16 +34,15 @@ Just to name a few reasons on why to learn React:
 
 If you need more convincing, the recent [2022 StackOverflow Developer Survey](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  If you haven't already, browse through the <a href="https://reactjs.org/"> React Website </a>. Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
+1.  If you haven't already, browse through the [React Website](https://reactjs.org/). Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
 
-2.  Read this <a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/"> FreeCodeCamp article </a> discussing the differences between a Javascript Library and a Framework
+2.  Read this [FreeCodeCamp article](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/) discussing the differences between a Javascript Library and a Framework
 
-3.  Lastly, skim this <a href="https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html">in-depth article</a> which explains the major benefits of using React.
+3.  Lastly, skim this [in-depth article](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html) which explains the major benefits of using React.
 </div>
 
 ### Knowledge Check
