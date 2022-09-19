@@ -25,7 +25,7 @@ React is one of the most powerful, widely used frontend frameworks.
 The landscape for frontend frameworks has been changing a lot over the last few years, so it is understandable to be worried about choosing the "wrong" one.
 [This article on the lifecycle of JavaScript frameworks](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/) shows the recent development of frontend frameworks well. Once you start diving deeper into a framework, you will begin to love it. It makes your code easily scalable, more readable, and possibly a thousand times more efficient (just our modest estimation).
 
-Just to name a few reasons on why to learn React.js:
+Just to name a few reasons on why to learn React:
 
 - Reusability of components
 - Well supported due to its popularity
