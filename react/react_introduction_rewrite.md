@@ -51,7 +51,7 @@ If you need more convincing, the recent [2022 StackOverflow Developer Survey](ht
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#what-is-react">What is the purpose of React?</a>
-- <a class="knowledge-check-link" href="#why-cover-react">What are two beenfits of using React?</a>
+- <a class="knowledge-check-link" href="#why-cover-react">What are benefits of using React?</a>
 
 ### Additional Resources
 
