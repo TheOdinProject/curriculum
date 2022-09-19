@@ -34,7 +34,6 @@ Just to name a few reasons on why to learn React:
 
 If you need more convincing, the recent [2022 StackOverflow Developer Survey](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
-_Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
 
 ### Assignment
 
