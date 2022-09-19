@@ -14,9 +14,9 @@ This section contains a general overview of topics that you will learn in this l
 
 React according to their <a href="https://reactjs.org/"> official website </a> is "A JavaScript library for building user interfaces" however lets break this down a bit further.
 
-Generally speaking, A JavaScript library is a collection of code that's designed to make our lives easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. A JavaScript Library contains pre-written code "snippets" that can be reused/reimplemented in our own ways to make building things a little bit easier for ourselves.
+Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks. 
 
-Since we know that ReactJS is used for building user interfaces. We can come to the conclusion that ReactJS is a JavaScript Library in which their pre-written code base help us build user interfaces easier and quicker.
+Similarly, React provides powerful primitives (built-in functions/modules) that allows us to build user interfaces of varying complexities. Throughout this course, we'll learn all about the functionality React provides and learn to build cool applications. 
 
 ### Why Cover React?
 
