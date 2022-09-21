@@ -172,7 +172,7 @@ This section contains questions for you to check your understanding of this less
 
 *   <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
 *   <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-*   <a class="knowledge-check-link" href="#html-attributes">What is an HTML Attribute?</a>
+*   <a class="knowledge-check-link" href="#html-attributes">What is a HTML attribute?</a>
 *   <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
 *   <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
 
