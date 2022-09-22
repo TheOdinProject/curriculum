@@ -116,7 +116,7 @@ Error: while executing gem ... (Gem::Exception)
     OpenSSL is not available. Install OpenSSL and rebuild Ruby (preferred) or us non-HTTPS sources
 ~~~
 
-Ensure that Ubuntu is up to date and upgraded 
+
 
 To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
 
