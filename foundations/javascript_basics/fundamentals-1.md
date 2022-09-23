@@ -79,9 +79,9 @@ Try the following exercises (and don't forget to use `console.log()`!):
 3. Print the solution to the following equation: `(4 + 6 + 9) / 77`
     * Answer should be approximately `0.24675`
 4. Let's use variables!
-    * Type the following at the top of the script tag: `let a = 10`
+    * Type this statement at the top of the script tag: `let a = 10`
     * In the console `console.log(a)` should print `10`
-    * Try the following: `9 * a`
+    * Try the following in the console: `9 * a`
     * and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 5. You should be getting the hang of this by now... try this sequence:
     * Declare a constant variable `max` with the value `57`

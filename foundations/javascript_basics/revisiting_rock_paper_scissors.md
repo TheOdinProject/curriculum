@@ -39,8 +39,8 @@ For example: if you have a bug in a new feature you’re working on that you can
 1.  Set up a new branch on your previous Rock Paper Scissors repo
     1.  Since we'll be making a UI for our Rock Paper Scissors game, make a new branch and change to it with the command `git checkout -b rps-ui`. 
     1.  You are now working in the `rps-ui` branch, locally. However, this branch does not exist in your remote repo yet. If you go to your github repo page, you'll see that you only have 1 branch, which would be `main`. Let's push this new branch to your remote repo with the command `git push origin rps-ui`. Now, you'll see two branches in your GitHub repository! You can select the new branch on GitHub using the dropdown branch selector shown in the screenshot below.
-   
-        <img alt="Dropdown menu of branches on GitHub" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/32a651388da10d018d4143b066badf2c9f27dc93/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png">
+           
+           <img alt="Dropdown menu of branches on GitHub" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/46c18d8445051e016b1e415fe0227a0fa33cc825/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png">
 
     1.  Make sure you are on the `rps-ui` branch. You can check this, with the `git branch` command. The branch you are currently on will have an (\*)asterisk next to it. If you're in another branch for some reason, change to `rps-ui` with the command `git checkout rps-ui`. Now you're all set to work on your new feature! Note: You can add files, commit to this branch, and push changes to your repo, just like you would with the main branch. Everything is the same except when you push the changes, you'd use `git push origin rps-ui` instead of `git push origin main`, since we're pushing to our new branch.
 1.  In our UI, the player should be able to play the game by clicking on buttons rather than typing their answer in a prompt.
@@ -49,7 +49,7 @@ For example: if you have a bug in a new feature you’re working on that you can
     1.  Add a `div` for displaying results and change all of your `console.log`s into DOM methods.
     1.  Display the running score, and announce a winner of the game once one player reaches 5 points.
     1.  You will likely have to refactor (rework/rewrite) your original code to make it work for this. That's OK! Reworking old code is an important part of a programmer's life.
-   1.  Once you're all done with your UI and made sure everything's satisfactory, commit your changes to the `rps-ui` branch.
+1.  Once you're all done with your UI and made sure everything's satisfactory, commit your changes to the `rps-ui` branch.
 1.  Now let's take a look at how we can merge the changes from our `rps-ui` branch back to our `main` branch.
     1.  Checkout the branch we want to merge INTO i.e. `main` with the command `git checkout main`.
     1.  Now let's merge our `rps-ui` branch into `main`, our current branch, with `git merge rps-ui`.
