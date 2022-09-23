@@ -54,6 +54,7 @@ Go through the following sections of the [official Chrome DevTools docs](https:/
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [This article about how we can utilize css overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.
+*   Want to see those invisible boundaries created by `div`s and other transparent elements without having to manually set a border? Check out Pesticide, a browser extension that will surely make your styling journey much smoother: [Chrome](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pesticide-for-firefox/)
 
 ### Knowledge Check
 
