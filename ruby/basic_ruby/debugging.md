@@ -111,7 +111,7 @@ p []
 
 To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program. If you encounter an error like this:
 
-~~~ruby
+~~~bash
 Error: while executing gem ... (Gem::Exception)
     OpenSSL is not available. Install OpenSSL and rebuild Ruby (preferred) or us non-HTTPS sources
 ~~~
