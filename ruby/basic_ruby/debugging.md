@@ -118,7 +118,7 @@ Error: while executing gem ... (Gem::Exception)
 
 Ensure that Ubuntu is up to date and upgraded by using these commands in order (These commands will require user password input):
 
-~~~ruby
+~~~bash
 sudo apt update
 sudo apt upgrade
 ~~~
