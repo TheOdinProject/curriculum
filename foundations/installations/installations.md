@@ -68,7 +68,7 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
    ![The VirtualBox Create Virtual Hard Disk window 3](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/05.png)
 
-5. File location and size: We recommend **at least 20 GB** for the virtual hard disk.
+5. File location and size: We recommend **at least 30 GB** for the virtual hard disk.
 
    ![The VirtualBox Create Virtual Hard Disk window 4](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/07.png)
 
