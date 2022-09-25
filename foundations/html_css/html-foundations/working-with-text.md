@@ -56,7 +56,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
-<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. h1 is the most important and is larger than the other headings, and h6 is the lowest level and therefore the smallest of the headings.</span>
+<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
 
 Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
 
@@ -185,5 +185,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   [The semantic difference between <strong> and <b> or <em> and <i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
 
