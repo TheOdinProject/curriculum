@@ -18,10 +18,10 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/learn) docs which you should follow along.
+- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/en/learn) docs which you should follow along.
   - Get Started
     - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/en/learn/run-nodejs-scripts-from-the-command-line) lesson.
-    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/en/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
+    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/en/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
     - Learn how to [Build an HTTP server](https://nodejs.dev/en/learn/build-an-http-server), and then [how to make HTTP requests with Node](https://nodejs.dev/en/learn/making-http-requests-with-nodejs).
   - File System
@@ -31,9 +31,9 @@ By the end of this lesson, you should be able to do the following:
   - The URL Class
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
-    - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
-    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-packagejson-guide).
-    - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
+    - Let's get an [introduction](https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager) to NPM.
+    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/en/learn/the-packagejson-guide).
+    - And the differences between [NPM global and local packages](https://nodejs.dev/en/learn/npm-global-or-local-packages).
   - Events
     - Follow along the [Event Emitter](https://nodejs.dev/en/learn/the-nodejs-event-emitter) section.
     - Look into [this](https://nodejs.dev/en/learn/the-nodejs-events-module) section to see the `events` module.
@@ -48,10 +48,10 @@ By the end of this lesson, you should be able to do the following:
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/en/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/en/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/en/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
+- <a class="knowledge-check-link" href="https://nodejs.dev/en/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
 
 
 ### Additional Resources
