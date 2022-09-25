@@ -592,7 +592,7 @@ end
 # => [7, 8, 9]
 ~~~
 
-As a last example, we'll consider a common use case which will hopefully show where the find pattern could be a better fit than a conventional Ruby solution. It's not uncommon in Ruby to find yourself with an array of hashes or JSON data, and you might need to locate a record from that data. You need to match that data on a few hash keys. The data might look something this.
+As a last example, we'll consider a common use case which will hopefully show where the find pattern could be a better fit than a conventional Ruby solution. It's not uncommon in Ruby to find yourself with an array of hashes or JSON data, and you might need to locate a record from that data. You need to match that data on a few hash keys. The data might look something like this.
 
 ~~~ruby
 data = [
