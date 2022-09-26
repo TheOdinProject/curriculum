@@ -42,7 +42,7 @@ const sumArray = function(array) {
 sumArray([2, 2, 2]);
 ~~~
 
-Believe it or not, both of those functions do the exact same thing \(in the exact same way!\), and both of them are perfectly valid code, but obviously the second one is much easier to follow.  Imagine you're working on a project with someone else and they've written the first function... how long is it going to take you to figure out what's going on there so you can do your work?  Imagine you're working on a project all by yourself and YOU wrote the first function a week or two ago... chances are good that you aren't going to remember exactly what you were up to there and it's _still_ going to take you a good while to figure it all out again.
+Believe it or not, both of those functions do the exact same thing \(in the exact same way!\), and both of them are perfectly valid code, but obviously the second one is much easier to follow.  Imagine you're working on a project with someone else and they've written the first function... how long is it going to take you to figure out what's going on there so you can do your work?  Imagine you're working on a project all by yourself and YOU wrote the first function a week or two ago... chances are good that you aren't going to remember exactly what you were up to there and it's _still_ going to take you a good while to figure it all out again. By aiming to build __readable__ code from the start, you are helping your future self and any other party with exposure to your code. 
 
 The second one, however, is much easier to follow.  Even if you don't know exactly what everything in the code is doing, things are named clearly enough that you could guess, and the indentation is consistent enough that it's easy to parse the different parts of the function.
 
@@ -124,3 +124,4 @@ This section contains helpful links to related content. It isn’t required, so 
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
 * [Airbnb style guide](https://github.com/airbnb/javascript)  
 * [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+* Too much to remember? Let this [VSCode plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) take some of the heavy lifting off your hands.
