@@ -1,6 +1,6 @@
 ### Introduction
 
-You're likely somewhat familiar with JSX from previous react lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your react apps.
+You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your React apps.
 
 ### Lesson Overview
 
@@ -8,24 +8,24 @@ This section contains a general overview of topics that you will learn in this l
 
 - What JSX is.
 - Why we use JSX.
-- Differences between JSX and html.
+- Differences between JSX and HTML.
 - How to write and take advantage of JSX's features.
 
 ### What is JSX?
 
-JSX is a syntax extension for Javascript that lets you write HTML-like markup inside a Javascript file. It's not required to use JSX when writing react components, but it does make writing them more simple and concise.
+JSX is a syntax extension for Javascript that lets you write HTML-like markup inside a Javascript file. It's not required to use JSX when writing React components, but it does make writing them more simple and concise.
 
-Under the hood, JSX elements compile down to react (try logging a JSX component in the console to see for yourself).
+Under the hood, JSX elements compile down to React (try logging a JSX component in the console to see for yourself).
 
 ### Why do we use JSX?
 
 Most of the time in apps, rendering logic and markup are inherently coupled, but we typically separate them by having our logic and markup in separate files. JSX allows React to separate concerns by containing both rendering logic and content in the same place (a component).
 
-On top of this, it's a more intuitive, visual way to work with the UI inside your code, and allows react to show more useful error and warning messages.
+On top of this, it's a more intuitive, visual way to work with the UI inside your code, and allows React to show more useful error and warning messages.
 
 ### Converting HTML to JSX
 
-If you were to take some valid HTML and copy it straight into your react component, it would not work. This is due to some of the rules JSX implements, that aren't present in HTML.
+If you were to take some valid HTML and copy it straight into your React component, it would not work. This is due to some of the rules JSX implements, that aren't present in HTML.
 
 #### Rules of JSX:
 
@@ -141,8 +141,8 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 <form><input type="text"></form>
 ~~~
 
-If you try to return this from a react component, you would get many errors, so we are going to fix that! I would recommend following along with this in your own react
-environment.(If you don't want to create a new react app locally, go to [react.new](https://react.new/) to have a quick react environment up and going in your web browser.
+If you try to return this from a React component, you would get many errors, so we are going to fix that! I would recommend following along with this in your own React
+environment.(If you don't want to create a new React app locally, go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
 
 The first issue we get is that this would not return a single root element, so let's give it a container.
 
@@ -161,7 +161,7 @@ The first issue we get is that this would not return a single root element, so l
 </div>
 ~~~
 
-You should see that another error appears now that we've fixed the initial one. This doesn't mean we created the error with our previous changes, just that react wasn't showing this one yet.
+You should see that another error appears now that we've fixed the initial one. This doesn't mean we created the error with our previous changes, just that React wasn't showing this one yet.
 
 Now, onto the second issue, which is that we haven't closed all of our tags, in particular, the `<li>` and the `<input>`.
 
@@ -203,15 +203,15 @@ The last issue is that we haven't camelCased our attributes, and so are using in
 </div>
 ~~~
 
-Now that we've applied all of the fixes to the errors that react gave us, this is fully fledged JSX code that can be used in a react component without any issues.
+Now that we've applied all of the fixes to the errors that React gave us, this is fully fledged JSX code that can be used in a React component without any issues.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the react beta docs [Writing markup with JSX page](https://beta.reactjs.org/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
+1.  Read through the React beta docs [Writing markup with JSX page](https://beta.reactjs.org/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
 
-2.  Read through the react beta docs [Javascript in JSX page](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
+2.  Read through the React beta docs [Javascript in JSX page](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
 
 </div>
 
