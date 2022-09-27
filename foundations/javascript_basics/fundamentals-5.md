@@ -47,6 +47,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is `Array.prototype.map()` useful for?</a>
 * <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is `Array.prototype.reduce()` useful for?</a>
+* Did well on the Fundamentals Part 4 exercises? <a class="knowledge-check-link" href="https://leetcode.com/problems/climbing-stairs/">Try out an interview question!</a> (Don't fret, you've solved this one already!)
 
 ### Additional Resources
 
