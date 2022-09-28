@@ -27,7 +27,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 
 1. Check out this [introductory video from Harvard's CS50x course](https://youtu.be/Ns7tGNbtvV4).
 2. Check out this more [detailed video explanation by David J. Malan](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) (watch only until 1:14:00).
-3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
+3. [The concept of merging](https://youtu.be/6pV2IF0fgKY) and [Merge Sort -- How it Works part ](https://youtu.be/mB5HXBb_HY8) on YouTube give you a more formal look at this problem if you're still unclear.
 4. (Optional) Play with this [Merge Sort Visualizer](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) to get a better feel for exactly what is happening during a Merge Sort.
 
 ### Assignment 2
