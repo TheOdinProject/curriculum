@@ -277,7 +277,7 @@ This will add a paragraph tag to your list item: `<li><p></p></li>`
 
 ### Unordered Lists
 
-The prefered way to create Unordered Lists for The Odin Projectare created using hyphens `-`. Both hyphens and asterisks give the same results, but sticking to one way keeps the source markdown consistent.
+The preferred way to create unordered lists for The Odin Project is by using hyphens `-`. Both hyphens and asterisks give the same results, but sticking to one way keeps the source markdown consistent.
 
 ~~~markdown
 
