@@ -1,6 +1,6 @@
 ### Introduction
 
-Rails has always promoted itself as a framework that makes building a web application easy, but in a world built around the demands of users expecting lightning fast responses as well as increasingly complex UI it wasn't easy for Rails to offer a compelling vision for how they saw a way through that complexity while sticking to core Rails philosophies. However just before the release of Rails 7 we finally got a glimpse of how the Rails team saw the future of meeting these demands. Hotwire!
+Rails has always promoted itself as a framework that makes building a web application easy. But, in a world built around the demands of users expecting lightning fast responses as well as increasingly complex UI, it wasn't easy for Rails to offer a compelling vision for how they saw a way through that complexity while sticking to core Rails philosophies. However just before the release of Rails 7 we finally got a glimpse of how the Rails team saw the future of meeting these demands. Hotwire!
 
 Hotwire is actually an umbrella term for three different frameworks. These frameworks are:
 
