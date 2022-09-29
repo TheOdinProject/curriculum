@@ -185,4 +185,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This](https://www.w3schools.com/html/html_formatting.asp) article from W3Schools contains some great exercise to practice working with text in HTML.
+*   [HTML Text Formatting](https://www.w3schools.com/html/html_formatting.asp) article from W3Schools contains some great exercise to practice working with text in HTML.
+*   [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
