@@ -10,35 +10,35 @@ This section contains a general overview of topics that you will learn in this l
 *   How are components created?
 *   Where do components live?
 
-### WHAT ARE COMPONENTS
+### What are components
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. If it helps, think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element. Before we go any further, let's look at a React element. 
 
-```react
+~~~jsx
 const element = <h1>The Odin Project rocks!</h1>;
-```
+~~~
 
 Beautiful! But what exactly is happening here? We're using JSX to produce an element, and assigning it to the constant variable `element`. We'll go into JSX more in the next lesson, but for now it's enough to know that JSX is essentially an HTML-*like* syntax which is converted into JavaScript. 
 
 If you haven't already, go back to your previous React project and display "Hello, World!" by creating a React element, and passing it as an argument into your project's `root.render()` function.
 
-### HOW TO CREATE COMPONENTS
+### How to create components
 
 To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Is it really that simple? Let's have a look.
 
-```react
+~~~jsx
 function Greeting() {
   return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
-```
+~~~
 
 This might look awfully familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
-### WHERE DO COMPONENTS LIVE
+### Where do components live
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! First, compare your `index.js` file to this newly created file, and try to guess what it's missing in order to work. We haven't imported anything! Let's import `React` in order to turn our `Greeting()` function into a functional React component. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
 
-```react
+~~~jsx
 import React from 'react'
 
 function Greeting() {
@@ -46,11 +46,11 @@ function Greeting() {
 }
 
 export default Greeting;
-```
+~~~
 
 Are we done? Well let's think about this - we're declared our functional component, and exported it, but does `index.js` know about it yet? Nope! Let's fix that. Let's look at `index.js`, we can see that `root.render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
-```react
+~~~jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -68,7 +68,7 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-```
+~~~
 
 And just like that, you've successfully imported and used your first custom-made component, congratulations!
 
