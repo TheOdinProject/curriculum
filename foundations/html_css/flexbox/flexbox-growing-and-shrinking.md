@@ -94,4 +94,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*  It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*  [check out this video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explaining how flexbox works and why.
