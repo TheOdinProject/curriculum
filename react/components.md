@@ -1,0 +1,96 @@
+### Introduction
+
+Introduction to React components, what they do, and how to write them. In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the [Setting Up A React Environment lesson](https://github.com/TheOdinProject/top-meta/issues/221), but try not to copy and paste any code while you're coding along. 
+
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+*   What are components?
+*   How are components created?
+*   Where do components live?
+
+### WHAT ARE COMPONENTS
+
+The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. If it helps, think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element. Before we go any further, let's look at a React element. 
+
+```react
+const element = <h1>The Odin Project rocks!</h1>;
+```
+
+Beautiful! But what exactly is happening here? We're using JSX to produce an element, and assigning it to the constant variable `element`. We'll go into JSX more in the next lesson, but for now it's enough to know that JSX is essentially an HTML-*like* syntax which is converted into JavaScript. 
+
+If you haven't already, go back to your previous React project and display "Hello, World!" by creating a React element, and passing it as an argument into your project's `root.render()` function.
+
+### HOW TO CREATE COMPONENTS
+
+To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Is it really that simple? Let's have a look.
+
+```react
+function Greeting() {
+  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
+}
+```
+
+This might look awfully familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
+
+### WHERE DO COMPONENTS LIVE
+
+So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! First, compare your `index.js` file to this newly created file, and try to guess what it's missing in order to work. We haven't imported anything! Let's import `React` in order to turn our `Greeting()` function into a functional React component. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
+
+```react
+import React from 'react'
+
+function Greeting() {
+  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
+}
+
+export default Greeting;
+```
+
+Are we done? Well let's think about this - we're declared our functional component, and exported it, but does `index.js` know about it yet? Nope! Let's fix that. Let's look at `index.js`, we can see that `root.render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
+
+```react
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Greeting from './greeting.js';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Greeting />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+```
+
+And just like that, you've successfully imported and used your first custom-made component, congratulations!
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1.  Set up another project all on your own, displaying whatever your heart desires
+    *   Use the [Setting Up A React Environment](https://github.com/TheOdinProject/top-meta/issues/221) lesson as a reference
+    *   While components normally get exported as defaults, try using some named exports instead of default exports. If unsure of how to do this, consult your best friend - [MDN its export documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
+</div>
+
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+*   <a class="knowledge-check-link" href="#what-are-components">What does a React element look like?</a>
+*   <a class="knowledge-check-link" href="#how-to-create-components">How would you create a functional component?</a>
+*   <a class="knowledge-check-link" href="#where-do-components-live">How do you export and then import a component?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   Geeks for Geeks has a quick [ReactJS Functional Components tutorial](https://www.geeksforgeeks.org/reactjs-functional-components/). It introduces some new ways of calling functional components you can play around with if you feel a burning desire to do so. For the time being don't worry too much about Class components, which the resource also goes into. 
