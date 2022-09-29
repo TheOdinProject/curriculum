@@ -1,6 +1,6 @@
 ### Introduction
 
-Rails has always promoted itself as a framework that makes building a web application easy. But, in a world built around the demands of users expecting lightning fast responses as well as increasingly complex UI, it wasn't easy for Rails to offer a compelling vision for how they saw a way through that complexity while sticking to core Rails philosophies. However just before the release of Rails 7 we finally got a glimpse of how the Rails team saw the future of meeting these demands. Hotwire!
+Rails has always promoted itself as a framework that makes building a web application easy. But, in a world built around the demands of users expecting lightning fast responses as well as increasingly complex UI, it wasn't easy for Rails to offer a compelling vision for how they saw a way through that complexity while sticking to core Rails philosophies. However, just before the release of Rails 7 we finally got a glimpse of how the Rails team saw the future of meeting these demands. Hotwire!
 
 Hotwire is actually an umbrella term for three different frameworks. These frameworks are:
 
@@ -69,8 +69,8 @@ which will generate:
 
 The restoration visit lifecycle can be summarized as:
 
-1.  Restoration visits begin when the user navigates using the browser's forward & back buttons
-1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins. Otherwise, it will retrieve a fresh copy of the page over the network
+1.  Restoration visits begin when the user navigates using the browser's forward & back buttons.
+1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins. Otherwise, it will retrieve a fresh copy of the page over the network.
 1.  The browser's scroll position is saved on every page before navigating away and will return to this saved position.
 
 Restoration visits are visits with the action of *restore*. This is used by Turbo Drive internally and you **should not** annotate a link with an action of restore.
@@ -110,7 +110,7 @@ For instance:
 
 In the above example, we created a parent div with `data-turbo="false"`, which disables Turbo Drive on all elements inside of it. However, we also added `data: { turbo: "true" }` to the second `link_to`. This will turn Turbo Drive back on for that particular element.
 
-This showcases that you can disable and re-enable Turbo Drive in regions of your website and select specific elements to enable or disable it on. Remember that when using ERB tags (like `link_to`) we use the syntax style of `data: { foo: "bar" }` rather than the HTML style of `data-foo="bar"`
+This showcases that you can disable and re-enable Turbo Drive in regions of your website and select specific elements to enable or disable it on. Remember that when using ERB tags (like `link_to`) we use the syntax style of `data: { foo: "bar" }` rather than the HTML style of `data-foo="bar"`.
 
 ### Forms
 
@@ -124,14 +124,14 @@ While most link requests are issued as GET requests, forms are different. You of
 
 Turbo Drive intercepts all Form Submissions by default and submits them to the server on your behalf. As we advance into the form lessons, you must remember that Turbo expects the server to return an HTTP status of HTTP 303 or, in other words, a redirect.
 
-Think of it like this, after you submit a form usually you want to do be directed somewhere afterwards. That could be back to the same page with a blank form ready for another submission, or it could be to view the resource you just created with the form, but you expect to be redirected away from the current page with the completed form on it. There are two exceptions to this expectation
+Think of it like this, after you submit a form usually you want to do be directed somewhere afterwards. That could be back to the same page with a blank form ready for another submission, or it could be to view the resource you just created with the form, but you expect to be redirected away from the current page with the completed form on it. There are two exceptions to this expectation:
 
-1. When the server responds with a 4XX status code. This is common if you submit a form with the wrong information in it and the server will respond with a 422 Unprocessable Entity status
+1. When the server responds with a 4XX status code. This is common if you submit a form with the wrong information in it and the server will respond with a 422 Unprocessable Entity status.
 2. When the server responds with a 5XX status code of which the most common is 500 Internal Server Error.
 
 If the server responds with any other status, Turbo won't be able to handle it and it will appear as though nothing has happened as the page won't update. The one thing to keep in mind with this is the HTTP 200 status. This is returned when a request has succeeded so it might seem strange at first that Turbo can't handle this type of request.
 
-The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a post request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options.
+The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a post request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options:
 
 1. It can either stay on the current URL in your browser; or
 2. It could try and navigate to the action that the form submits to.
