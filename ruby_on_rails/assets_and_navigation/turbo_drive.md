@@ -47,7 +47,7 @@ The application visit lifecycle can be summarized as:
 
 1.  Application visits begin when a user clicks a Turbo Drive enabled link (remember, Turbo Drive is enabled on links by default!).
 1.  An HTTP network request is issued. Turbo Drive receives it and will render the HTML.
-1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins, using the html for the previous visit of the same URL.
+1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins, using the HTML for the previous visit of the same URL.
 1.  The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.
     * **Advance**: This is the default action and will result in a new entry being added to the browser history.
     * **Replace**: This action replaces the most recent browser history entry with the new location.
@@ -116,7 +116,7 @@ This showcases that you can disable and re-enable Turbo Drive in regions of your
 
 We cover Rails forms much deeper later, but because they are entwined with Turbo Drive we do need to cover some common information that will come together in the forms lessons that follow.
 
-If you don't understand some of the information as it is explained below just wait until the form basics lesson and it should all come together.
+If you don't understand some of the information as it is explained below just wait until the Form Basics lesson and it should all come together.
 
 #### Form Submissions
 
@@ -131,12 +131,12 @@ Think of it like this, after you submit a form usually you want to do be directe
 
 If the server responds with any other status, Turbo won't be able to handle it and it will appear as though nothing has happened as the page won't update. The one thing to keep in mind with this is the HTTP 200 status. This is returned when a request has succeeded so it might seem strange at first that Turbo can't handle this type of request.
 
-The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a post request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options:
+The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a POST request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options:
 
 1. It can either stay on the current URL in your browser; or
 2. It could try and navigate to the action that the form submits to.
 
-If it navigated to the form action it would do so as a new GET request, but since forms issued POST requests the server might not be set up to handle a GET request to that url and you'd get an error. Because Turbolinks didn't handle form submissions this is what actually happened in previous versions of Rails. This is why Turbo Drive went with option 1, it stays on the current URL in your browser and therefore it appears to the user that nothing has happened. You must therefore ensure you always respond with one of the valid status codes mentioned above with forms.
+If it navigated to the form action it would do so as a new GET request, but since forms issued POST requests the server might not be set up to handle a GET request to that URL and you'd get an error. Because Turbolinks didn't handle form submissions this is what actually happened in previous versions of Rails. This is why Turbo Drive went with option 1, it stays on the current URL in your browser and therefore it appears to the user that nothing has happened. You must therefore ensure you always respond with one of the valid status codes mentioned above with forms.
 
 ### Turbolinks
 
