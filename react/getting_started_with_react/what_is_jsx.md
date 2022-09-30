@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 JSX is a syntax extension for Javascript that lets you write HTML-like markup inside a Javascript file. It's not required to use JSX when writing React components, but it does make writing them more simple and concise.
 
-Under the hood, JSX elements compile down to React (try logging a JSX component in the console to see for yourself).
+Essentially, JSX is syntactic sugar for the React [createElement](https://reactjs.org/docs/react-api.html#createelement) function. This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
 
 ### Why do we use JSX?
 
