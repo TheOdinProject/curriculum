@@ -141,7 +141,7 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 <form><input type="text"></form>
 ~~~
 
-If you try to return this from a React component, you would get many errors, so we are going to fix that! I would recommend following along with this in your own React
+If you try to return this from a React component, you would get many errors, so we are going to fix that! We would recommend following along with this in your own React
 environment.(If you don't want to create a new React app locally, go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
 
 The first issue we get is that this would not return a single root element, so let's give it a container.
