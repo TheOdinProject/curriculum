@@ -122,11 +122,8 @@ Again Stimulus gives you a way to declare elements you want to select in the HTM
 
 ~~~html
 <div data-controller="greeter">
-  <input type="text" 
-         data-action="click->greeter#greet" 
-         data-greeter-target="name">
-    Alert me!
-  </input>
+  <input type="text" data-greeter-target="name">
+  <button data-action="click->greeter#greet">Greet me</button>
   <div data-greeter-target="output"></div>
 </div>
 ~~~
@@ -139,7 +136,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
     static targets = ["name", "output"]
     greet() {
-        this.nameTarget.html = this.outputTarget.value
+        this.outputTarget.innerHTML = `Hello ${this.nameTarget.value}!`
     }
 }
 ~~~
