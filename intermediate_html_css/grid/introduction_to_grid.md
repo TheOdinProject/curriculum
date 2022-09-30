@@ -69,6 +69,7 @@ While some people thought CSS Grid was here to replace Flexbox, you will learn b
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
+- Watch [Flexbox vs. CSS Grid — Which is Better?](https://www.youtube.com/watch?v=hs3piaN4b5I) for a visual representation of the use cases for Flexbox vs CSS Grid
 - Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)
 
