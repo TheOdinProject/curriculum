@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What Is React?
 
-React according to their <a href="https://reactjs.org/"> official website </a> is "A JavaScript library for building user interfaces" however lets break this down a bit further.
+React according to their [official website](https://reactjs.org/) is "A JavaScript library for building user interfaces" however lets break this down a bit further.
 
 Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks.
 
