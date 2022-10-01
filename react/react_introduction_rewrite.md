@@ -40,11 +40,11 @@ If you need more convincing, the recent [2022 StackOverflow Developer Survey](ht
 
 1.  If you haven't already, browse through the [React Website](https://reactjs.org/). Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
 
-2.  Glance at [this article](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/) which outlines the history of React.
+2.  Glance at [this article which outlines the history of React](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/).
 
-3.  Read this [FreeCodeCamp article](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/) discussing the differences between a Javascript Library and a Framework
+3.  Read this [FreeCodeCamp article discussing the differences between a JavaScript library and framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/).
 
-4.  Lastly, skim this [in-depth article](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html) which explains the major benefits of using React.
+4.  Lastly, skim this [in-depth article which explains the major benefits of using React](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html).
 </div>
 
 ### Knowledge Check
