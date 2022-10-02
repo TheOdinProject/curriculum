@@ -42,4 +42,5 @@ The first step is to actually understand what the merge sort algorithm is doing:
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
+* Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
 * For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
