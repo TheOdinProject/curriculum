@@ -26,7 +26,7 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 **IMPORTANT**
 
-Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 #### Step 1.1: Download VirtualBox
 
@@ -112,7 +112,7 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 
 While your VM is running, do the following steps:
 
-  1. Click the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop.
+  1. Click the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop.
   2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
@@ -164,7 +164,7 @@ You don't pull the plug on your everyday use computer, right? Why would you do t
 
 #### Option 1 - Shutting down from inside the VM with UI
 
-Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
+Clicking on the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
 
 ![Power Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_01.png)
 <br/>
