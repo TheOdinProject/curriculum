@@ -107,7 +107,7 @@ The syntax is as follows:
 
 `useEffect(() => {}, [])`
 
-In the curly brackets you can write the code that will be executed. The dependency array at the end is optional, however, you will include it more often than not. A dependency is any state, prop, context that is used within the `useEffect` callback. You can also include state or props that are not. `useEffect` will trigger based on changes in the dependencies listed. ESLint will warn you if it expects a dependency, but one is not added, however, this is a warning and they are not **required**.
+In the curly brackets you can write the code that will be executed. The dependency array at the end is optional, however, you will include it more often than not. A dependency is any state, prop or context that is used within the `useEffect` callback, but you can also include state or props that are not. `useEffect` will trigger based on changes in the dependencies listed. ESLint will warn you if it expects a dependency, however, this is a warning and they are not **required**.
 
 You have three different options for the <span id='dependency'>dependency</span> array:
 
