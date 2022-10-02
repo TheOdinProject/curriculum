@@ -36,6 +36,10 @@ Prettier is _awesome_. It is similar to a linter, but serves a slightly differen
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
 
+### Note on using Eslint and Prettier together
+
+Using eslint and prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all eslint rules that are unnecessary or might conflict with Prettier.
+
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
