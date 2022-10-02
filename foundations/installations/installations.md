@@ -226,7 +226,7 @@ If you would like to test out the version of Ubuntu on the flash drive, click 'T
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
 For step-by-step instructions, please follow this [installation guide](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73) from the Dave’s RoboShack.
-   
+
 ### Intel RST (Rapid Storage Technology)
 
 If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
@@ -239,8 +239,8 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
-1. You have a supported Chromebook:  
-    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)  
+1. You have a supported Chromebook:
+    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
     * [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
 2. You can install [Linux](https://support.google.com/chromebook/answer/9145439?hl=en)
 
@@ -289,11 +289,13 @@ rm google-chrome-stable_current_amd64.deb
 You can start chrome in two ways,
 
    - Click **Google Chrome** from the Applications menu
-   - **Or**, use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)*
+   - **Or**, use the `google-chrome` command from the terminal
 
 ~~~bash
 google-chrome
 ~~~
+
+_(__note__: Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
 
 </details>
 
