@@ -279,6 +279,8 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
    - Enter your password, if needed
 
+   _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+
 #### Step 3: Delete the installer file
 
 ~~~bash
