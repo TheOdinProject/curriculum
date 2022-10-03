@@ -77,8 +77,7 @@ And just like that, you've successfully imported and used your first custom-made
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Set up another project all on your own, displaying whatever your heart desires
-    *   Use the [Setting Up A React Environment](https://github.com/TheOdinProject/top-meta/issues/221) lesson as a reference
+1.  It's time to create some new components! Use the same project, but play around with it, try displaying something like your favorite food.
     *   While components normally get exported as defaults, try using some named exports instead of default exports. If unsure of how to do this, consult your best friend - [MDN its export documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
 </div>
 
