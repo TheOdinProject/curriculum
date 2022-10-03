@@ -51,7 +51,7 @@ So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right
 
 ### Anatomy of an SVG
 
-Typically, you will not want to create SVGs from scratch in your code. Most often you will download the file or copy the code either from a website, or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
+Typically, you will not want to create SVGs from scratch in your code. Most often, you will download the file or copy the code either from a website or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="NWaGdmL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/NWaGdmL">

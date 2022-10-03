@@ -72,7 +72,7 @@ The tab order is the order in which elements on the page will receive focus when
 
 Sometimes you may find it necessary to either change the visual order of elements on a page using CSS (the `float` or `order` properties, for example), or the tab order of elements themselves using the `tabindex` attribute. Regardless of which method you may use, you should make sure the tab order matches the visual order of elements. If the tab order is different from the visual order, users could be left confused or frustrated trying to navigate the page with a keyboard, expecting one element to receive focus based on the visual layout and instead another element receives focus. 
 
-The best way to avoid this issue is to just place elements in your HTMl file in the order that you want them to actually receive focus.
+The best way to avoid this issue is to just place elements in your HTML file in the order that you want them to actually receive focus.
 
 ### Hidden Content
 

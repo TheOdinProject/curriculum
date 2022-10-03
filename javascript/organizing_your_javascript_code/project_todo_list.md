@@ -16,7 +16,7 @@ Before diving into the code, take a minute to think about how you are going to w
 4. You should separate your application logic (i.e. creating new todos, setting todos as complete, changing todo priority etc.) from the DOM-related stuff, so keep all of those things in separate modules.
 5. The look of the User Interface is up to you, but it should be able to do the following:
    1. view all projects
-   2. view all todos in each project (probably just the title and duedate.. perhaps changing color for different priorities)
+   2. view all todos in each project (probably just the title and duedate... perhaps changing color for different priorities)
    3. expand a single todo to see/edit its details
    4. delete a todo
 6. For inspiration, check out the following great todo apps. (look at screenshots, watch their introduction videos etc.)

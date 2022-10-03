@@ -6,9 +6,9 @@ Along your programming journey, you will inevitably need to ask questions in an 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Explain techniques for asking programming questions
-* Explain and avoid qualities of “bad” questions
-* Ask effective and well formed questions
+*   Explain techniques for asking programming questions
+*   Explain and avoid qualities of “bad” questions
+*   Ask effective and well formed questions
 
 ### Tips for Getting the Best Help Possible
 
@@ -20,11 +20,11 @@ You can ask theoretical, vague questions, but you’re going to get theoretical,
 
 A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below: 
  
-- “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
+-   “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
 
 Keep in mind that you’re actually supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this: 
  
-- “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
+-   “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
 
 In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
 
@@ -32,24 +32,24 @@ Now, if you’re completely stuck with where to start, it’s completely fine to
 
 #### Don’t Take Asking for More Context to Heart
 
-People who volunteer in coding communities are here to help! But a question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgement and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly do want to help you, they will ask for more information when needed!
+People who volunteer in coding communities are here to help! But a question you may feel is coherent and “obvious” probably isn’t if you are being asked for more context. While something may seem "obvious" to a beginner, it's sometimes nowhere near "obvious" to an expert. An expert knows about many, many more situations that could cause an issue someone is experiencing, and would want to refrain from sending a learner down the wrong path. People take time out of their day to help, so make it as easy as possible for them to help you! There’s probably a good reason why they need more information, so trust their judgment and experience when they ask. Many people who help in coding chats are unpaid volunteers, and are in no way obligated to answer your query. But because they truly do want to help you, they will ask for more information when needed!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read and bookmark [this amazing article by Gordon Zhu](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article. The video linked in this article is no longer available but that is not an issue since we explain debugging in detail later in the curriculum.
-2. Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions. 
-3. Check out [this article](https://stackoverflow.com/help/how-to-ask) from the world’s most popular programming help resource, Stack Overflow.
-4. While asking for help is encouraged, it's important to avoid becoming a "help vampire" and be respectful of the communities or persons you are asking for help. [This resource](https://slash7.com/2006/12/22/vampires/) goes in depth to identify what a "help vampire" is, gives those who help others the tools to empower folks to ask questions effectively, and help the "help vampire" effectively. 
+1.  Read and bookmark [this amazing article by Gordon Zhu](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article. The video linked in this article is no longer available but that is not an issue since we explain debugging in detail later in the curriculum.
+2.  Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions. 
+3.  Check out [this article](https://stackoverflow.com/help/how-to-ask) from the world’s most popular programming help resource, Stack Overflow.
+4.  While asking for help is encouraged, it's important to avoid becoming a "help vampire" and be respectful of the communities or persons you are asking for help. [This resource](https://slash7.com/2006/12/22/vampires/) goes in depth to identify what a "help vampire" is, gives those who help others the tools to empower folks to ask questions effectively, and help the "help vampire" effectively. 
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#provide-code-knowledge-check">Name at least one thing your question should always include.</a>
-* <a class="knowledge-check-link" href="https://xyproblem.info/">Describe the “XY Problem”.</a>
-* <a class="knowledge-check-link" href="https://slash7.com/2006/12/22/vampires/">Describe three attributes of a "help vampire".</a>
+*   <a class="knowledge-check-link" href="#provide-code-knowledge-check">Name at least one thing your question should always include.</a>
+*   <a class="knowledge-check-link" href="https://xyproblem.info/">Describe the “XY Problem”.</a>
+*   <a class="knowledge-check-link" href="https://slash7.com/2006/12/22/vampires/">Describe three attributes of a "help vampire".</a>
 
 ### Additional Resources
 

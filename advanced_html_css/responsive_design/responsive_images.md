@@ -9,7 +9,7 @@ Images require a little special care on responsive websites. This lesson will pr
 
 The most basic problem that you are going to face when working with responsive images is the aspect-ratio, or the relationship between width and height. If you shrink the width of an image on smaller screens, and do not also manipulate the height the image will appear distorted!
 
-The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: simply don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain it's aspect ratio correctly.</span>
+The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: simply don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain its aspect ratio correctly.</span>
 
 ### background-size, background-position and object-fit
 What if you don't want your image to simply shrink (in both height and width)? `background-size` and `object-fit` are two properties that can provide a little more flexibility (pun intended) with how aspect-ratios are handled.

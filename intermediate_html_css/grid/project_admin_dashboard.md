@@ -2,7 +2,7 @@
 
 Now that you've had plenty of practice using Grid, we are going to build a full dashboard design. For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work. Go back through the lessons or practice assignments if you need a refresher.
 
-![dashboard project](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png)
+![dashboard project](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
 
 ### Assignment
 
@@ -12,7 +12,7 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 
 1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
 2. Set up your Git repository (refer to past projects if you need a refresher).
-3. Download a full-resolution copy of the [project design file](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png) and get a general idea for how you're going to need to lay things out in your HTML document.
+3. Download a full-resolution copy of the [project design file](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png) and get a general idea for how you're going to need to lay things out in your HTML document.
 
 #### Step 2: Layout
 
@@ -36,7 +36,7 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 
 #### Step 5: Some Tips!
 
-1. When building the layout, apply background colors or borders to your containers to help you visualize your grid
+1. When building the layout, apply background colors or borders to your containers to help you visualize your grid.
 2. It's up to you whether to use pixels, `fr` units or both for your grid tracks. 
 3. This project does not have to be responsive, but if you'd like to you can expand or shrink the project cards section when resizing the browser window.
 4. You don't have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
@@ -45,3 +45,5 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 #### Step 6: Section Feedback 
 
 1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSf_hNwIjvqcPZyl9Lx41mgJNQKp04qOro03SI8ABw4Zp7U_4w/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
+
+</div>

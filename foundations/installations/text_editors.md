@@ -41,6 +41,8 @@ sudo apt install ./code-latest.deb
 
    - If prompted, enter your password
 
+   _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+
 #### Step 3: Delete the installer file
 
 ~~~bash
@@ -72,7 +74,7 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 #### Step 2: Install VSCode
 
    - Open the **Downloads** folder
-   - Double click the file **VSCode-darwin-universal.zip** 
+   - Double click the file **VSCode-darwin-universal.zip**
    - Drag the **Visual Studio Code.app** icon to the **Applications** folder icon
 
 #### Step 3: Delete the installer file
@@ -91,7 +93,7 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. Learn the basics of using this text editor by watching [these introductory videos](https://code.visualstudio.com/docs/introvideos/basics). Watch only the first video as the second involves installing Node.js which will not be needed at this stage.
+  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer.
 </div>
 
 ### Additional Resources

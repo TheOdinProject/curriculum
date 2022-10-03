@@ -12,9 +12,9 @@ The _problem_ with JavaScript constantly updating and adding features is that it
 
 For most of us, this has not been an issue because you are almost definitely using a new browser that automatically updates itself when a new version is released. But in the real world, if you're selling products to customers you can't control which browsers people will use to connect to your site.
 
-Fortunately there _is_ solution to this problem. [Babel](http://babeljs.io/) is a tool that takes your modern JavaScript code and __transpiles__ it to code that older browsers can understand. It can be used from the command line with a simple command, and can also easily be added to your webpack configuration. With the babel-loader.
+Fortunately there _is_ a solution to this problem. [Babel](http://babeljs.io/) is a tool that takes your modern JavaScript code and __transpiles__ it to code that older browsers can understand. It can be used from the command line with a simple command, and can also easily be added to your webpack configuration. With the babel-loader.
 
 In all honesty, this is not something that you are going to _need_ to worry about on every project you're starting. All the ES6 features are present in the large majority of browsers used worldwide. But JavaScript is constantly changing, and as new features are announced and released, you can use Babel to try them out, often before they're available in _any_ browser!
 
 - Follow the instructions [here](https://github.com/babel/babel-loader) to install the babel-loader and use it with webpack. If you've already got webpack up and running in a project, adding babel is a cinch!
-- Read this [this article](https://blog.jakoblind.no/babel-preset-env/) to better understand presets and plugins in Babel. It will also show you how to target specific browser versions you want to support.
+- Read [this article](https://blog.jakoblind.no/babel-preset-env/) to better understand presets and plugins in Babel. It will also show you how to target specific browser versions you want to support.

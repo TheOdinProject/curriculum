@@ -55,7 +55,7 @@ This section contains questions for you to check your understanding of this less
 
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental..
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)

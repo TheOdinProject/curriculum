@@ -29,14 +29,15 @@ You can learn how to build a back-end later using [Node.js](https://www.theodinp
 
 </div>
 
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* This [youtube video](https://www.youtube.com/watch?v=zQyrwxMPm88) to reinforce the learnings from [Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0).
-
 ### Knowledge Check
 
  - <a class="knowledge-check-link" href="https://firebase.google.com/products-build" >Which services does Firebase offer?</a>
  - <a class="knowledge-check-link" href="https://firebase.google.com/docs/web/setup?hl=en" >How do you set up your app to use those services from Firebase Hosting and/or from an external host (like GitHub Pages)?</a>
  - <a class="knowledge-check-link" href="https://firebase.google.com/codelabs/firebase-web#5" >How do you get your app to communicate with and/or pass data to and from the various Firebase services?</a>
+
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* This [youtube video](https://www.youtube.com/watch?v=zQyrwxMPm88) to reinforce the learnings from [Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0).

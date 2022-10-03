@@ -1,3 +1,4 @@
+### Introduction
 Creating users and allowing them to log in and out of your web apps is a crucial functionality that we are finally ready to learn! There is quite a bit of setup involved here, but thankfully none of it is too tricky. You'll be up and running in no time! In this lesson, we're going to be using [passportJS](https://www.passportjs.org), an excellent middleware to handle our authentication and sessions for us.
 
 We're going to be building a very minimal express app that will allow users to sign up, log in, and log out. For now, we're just going to keep everything except the views in one file to make for easier demonstration, but in a real-world project, it is best practice to split our concerns and functionality into separate modules.
@@ -12,7 +13,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe what Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
-- Refreshed on prior learning material (routes, templates, middleware).
+- Review prior learning material (routes, templates, middleware).
 - Use PassportJS to set up user authentication with Express.
 
 #### Data Security/Safety
@@ -262,7 +263,7 @@ So, this code checks to see if there is a user defined... if so it offers a welc
 As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
 ~~~javascript
-app.get("/log-out", (req, res) => {
+app.get("/log-out", (req, res, next) => {
   req.logout(function (err) {
     if (err) {
       return next(err);
