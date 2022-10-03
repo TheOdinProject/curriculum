@@ -24,7 +24,7 @@ We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-**Quick tip:** In Linux, you can copy from the terminal with `Ctrl + Shift + V` and paste with `Ctrl + Shift + V`.
+**Quick tip:** In Linux, you can copy from the terminal with `Ctrl + Shift + C` and paste with `Ctrl + Shift + V`.
 
 #### Step 1.2: Update Linux
 
