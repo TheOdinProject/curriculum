@@ -131,7 +131,7 @@ Your regular operating system (Windows in this case) is called the **Host**, and
   17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
   18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
-  #### NOTE:
+#### NOTE:
 
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
 * If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
