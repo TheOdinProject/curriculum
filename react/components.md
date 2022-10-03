@@ -14,6 +14,8 @@ This section contains a general overview of topics that you will learn in this l
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
+!{Component Example](./imgs/00.png)
+
 For example, this simple website could be broken into the following components:
 
 - `App`, which represents your main application and will be the parent of all other components.
