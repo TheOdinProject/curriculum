@@ -1,4 +1,5 @@
 ### Introduction
+
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
 
 ### Why can't I use Microsoft Word?
@@ -50,6 +51,7 @@ rm code-latest.deb
 ~~~
 
 #### Step 4: Using VSCode
+   
 You can start VSCode in two ways,
 
    - Click **Visual Studio Code** from the Applications menu
@@ -60,6 +62,7 @@ code
 ~~~
 
 #### Alternative Installation
+   
 More advanced users might want to install VSCode using the built-in `apt` package manager. This allows VSCode to be kept up to date automatically. Instructions on how to set this up can be found on [this webpage](https://code.visualstudio.com/docs/setup/linux).
 
 </details>
@@ -91,12 +94,14 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 </details>
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
   1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer.
 </div>
 
 ### Additional Resources
+
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
