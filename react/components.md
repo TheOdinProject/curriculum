@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 *   How are components created?
 *   Where do components live?
 
-### WHAT ARE COMPONENTS
+### What Are Components
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
@@ -31,7 +31,7 @@ Beautiful! But what exactly is happening here? We're using JSX to produce an ele
 
 If you haven't already, go back to your previous React project and display "Hello, World!" by creating a React element, and passing it as an argument into your project's `root.render()` function.
 
-### HOW TO CREATE COMPONENTS
+### How To Create Components
 
 To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Is it really that simple? Let's have a look.
 
@@ -43,7 +43,7 @@ function Greeting() {
 
 This might look awfully familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
-### WHERE DO COMPONENTS LIVE
+### Where Do Components Live
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! First, compare your `index.js` file to this newly created file, and try to guess what it's missing in order to work. We haven't imported anything! Let's import `React` in order to turn our `Greeting()` function into a functional React component. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
 
