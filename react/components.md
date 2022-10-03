@@ -1,6 +1,6 @@
 ### Introduction
 
-Introduction to React components, what they do, and how to write them. In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the [Setting Up A React Environment lesson](https://github.com/TheOdinProject/top-meta/issues/221), but try not to copy and paste any code while you're coding along. 
+In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the [Setting Up A React Environment lesson](https://github.com/TheOdinProject/top-meta/issues/221), but try not to copy and paste any code while you're coding along. 
 
 ### Lesson Overview
 
