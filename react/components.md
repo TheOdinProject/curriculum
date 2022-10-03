@@ -21,15 +21,7 @@ For example, this simple website could be broken into the following components:
 - `MainArticle`, which will be the component that renders your main content.
 - `NewsletterForm`, which is a simple form that lets a user input their email to receive the weekly newsletter.
 
-If it helps, think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element. Before we go any further, let's look at a React element. 
-
-```react
-const element = <h1>The Odin Project rocks!</h1>;
-```
-
-Beautiful! But what exactly is happening here? We're using JSX to produce an element, and assigning it to the constant variable `element`. We'll go into JSX more in the next lesson, but for now it's enough to know that JSX is essentially an HTML-*like* syntax which is converted into JavaScript. 
-
-If you haven't already, go back to your previous React project and display "Hello, World!" by creating a React element, and passing it as an argument into your project's `root.render()` function.
+Think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element.
 
 ### How To Create Components
 
@@ -41,7 +33,7 @@ function Greeting() {
 }
 ```
 
-This might look awfully familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
+This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
 ### Where Do Components Live
 
