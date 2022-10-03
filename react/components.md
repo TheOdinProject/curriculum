@@ -49,7 +49,7 @@ function Greeting() {
 export default Greeting;
 ```
 
-Are we done? Well let's think about this - we're declared our functional component, and exported it, but does `index.js` know about it yet? Nope! Let's fix that. Let's look at `index.js`, we can see that `root.render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
+Are we done? Well let's think about this - we're declared our component, and exported it, but does `index.js` know about it yet? Nope! Let's fix that. Let's look at `index.js`, we can see that `root.render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
 ```react
 import React from 'react';
