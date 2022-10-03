@@ -24,20 +24,20 @@ We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`.
+**Quick tip:** In Linux, you can copy from the terminal with `Ctrl + Shift + V` and paste with `Ctrl + Shift + V`.
 
 #### Step 1.2: Update Linux
 
 The rest of the installation will take place inside the terminal window.
 
-First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
+First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `Enter`.
 
 ~~~bash
 sudo apt update
 sudo apt upgrade
 ~~~
 
-When it prompts you, press `y` and then `enter`.
+When it prompts you, press `Y` and then `Enter`.
 
 #### Step 1.3: Install Packages and Libraries
 
@@ -47,7 +47,7 @@ Next, you need to install some required packages that do not come preinstalled. 
 sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ~~~
 
-When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing `enter`.
+When it prompts you, press `Y` and then `Enter`. You may or may not have to type your password after pressing `Enter`.
 
 ### Step 2: Install Ruby
 
@@ -300,6 +300,6 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl + Shift + X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).
