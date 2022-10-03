@@ -12,7 +12,16 @@ This section contains a general overview of topics that you will learn in this l
 
 ### WHAT ARE COMPONENTS
 
-The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. If it helps, think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element. Before we go any further, let's look at a React element. 
+The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
+
+For example, this simple website could be broken into the following components:
+
+- `App`, which represents your main application and will be the parent of all other components.
+- `Navbar`, which will be the navigation bar.
+- `MainArticle`, which will be the component that renders your main content.
+- `NewsletterForm`, which is a simple form that lets a user input their email to receive the weekly newsletter.
+
+If it helps, think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element. Before we go any further, let's look at a React element. 
 
 ```react
 const element = <h1>The Odin Project rocks!</h1>;
