@@ -37,7 +37,7 @@ This might look mostly familiar to you - it's a simple JavaScript function, whic
 
 ### Where Do Components Live
 
-So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! First, compare your `index.js` file to this newly created file, and try to guess what it's missing in order to work. We haven't imported anything! Let's import `React` in order to turn our `Greeting()` function into a functional React component. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
+So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! Let's import `React` in order to turn our `Greeting()` function into a functional React component. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
 
 ```react
 import React from 'react'
