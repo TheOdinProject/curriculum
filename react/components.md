@@ -10,11 +10,21 @@ This section contains a general overview of topics that you will learn in this l
 *   How are components created?
 *   Where do components live?
 
+<<<<<<< HEAD
 ### What Are Components
+=======
+### What are components
+>>>>>>> edadaa6d07ec9fa02302eda3cff0bd83eb5ab8a8
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
+<<<<<<< HEAD
 For example, this simple website could be broken into the following components:
+=======
+~~~jsx
+const element = <h1>The Odin Project rocks!</h1>;
+~~~
+>>>>>>> edadaa6d07ec9fa02302eda3cff0bd83eb5ab8a8
 
 - `App`, which represents your main application and will be the parent of all other components.
 - `Navbar`, which will be the navigation bar.
@@ -23,23 +33,31 @@ For example, this simple website could be broken into the following components:
 
 Think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element.
 
+<<<<<<< HEAD
 ### How To Create Components
+=======
+### How to create components
+>>>>>>> edadaa6d07ec9fa02302eda3cff0bd83eb5ab8a8
 
 To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Is it really that simple? Let's have a look.
 
-```react
+~~~jsx
 function Greeting() {
   return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
-```
+~~~
 
 This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
+<<<<<<< HEAD
 ### Where Do Components Live
+=======
+### Where do components live
+>>>>>>> edadaa6d07ec9fa02302eda3cff0bd83eb5ab8a8
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! Let's import `React` in order to turn our `Greeting()` function into a functional React component. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
 
-```react
+~~~jsx
 import React from 'react'
 
 function Greeting() {
@@ -47,11 +65,11 @@ function Greeting() {
 }
 
 export default Greeting;
-```
+~~~
 
 Are we done? Well let's think about this - we're declared our component, and exported it, but does `index.js` know about it yet? Nope! Let's fix that. Let's look at `index.js`, we can see that `root.render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
-```react
+~~~jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -69,7 +87,7 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-```
+~~~
 
 And just like that, you've successfully imported and used your first custom-made component, congratulations!
 
