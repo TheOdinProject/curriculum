@@ -8,16 +8,17 @@ This is where it all begins! A hands-on introduction to all of the essential too
   - Motivation and Mindset - [lesson](introduction/motivation_and_mindset.md)
   - Asking For Help - [lesson](introduction/asking_for_help.md)
   - Join the Odin Community - [lesson](introduction/join_the_odin_community.md)
-  - How Does the Web Work? - [lesson](introduction/how_does_the_web_work.md)
-- Installations
+- Prerequisites
+  - Computer Basics - [lesson](installations/computer_basics.md)
+  - How Does the Web Work? - [lesson](installations/how_does_the_web_work.md)
   - Installation Overview - [lesson](installations/installation_overview.md)
-  - Prerequisites - [lesson](installations/prerequisites.md)
+  - Installations - [lesson](installations/installations.md)
   - Text Editors - [lesson](installations/text_editors.md)
   - Command Line Basics - [lesson](installations/command_line_basics.md)
   - Setting Up Git - [lesson](installations/setting_up_git.md)
 - Git Basics
-  - Introduction to Git - [lesson](git_basics/introduction_to_git.md)
-  - Git Basics - [lesson](git_basics/git_basics.md)
+  - Introduction to Git - [lesson](../git/foundations_git/introduction_to_git.md)
+  - Git Basics - [lesson](../git/foundations_git/git_basics.md)
 - HTML Foundations
   - Introduction to HTML and CSS - [lesson](html_css/intro-to-html-css.md)
   - Elements and Tags - [lesson](html_css/html-foundations/elements-and-tags.md)
