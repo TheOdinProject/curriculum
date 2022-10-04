@@ -230,6 +230,20 @@ Read the second bullet point in [this MDN article](https://developer.mozilla.org
 
 ### Exercise
 
+~~~html
+<!-- Example -->
+<body>
+  <h1>
+    THE TITLE OF YOUR WEBPAGE
+  </h1>
+  <div id="container">
+  	<div class="content">
+      This is the glorious text-content!
+    </div>
+  </div>
+</body>
+~~~
+
 Copy the example above into files on your own computer.  To make it work you'll need to supply the rest of the HTML skeleton and either link your JavaScript file, or put the JavaScript into a script tag on the page.  Make sure everything is working before moving on!
 
 Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
