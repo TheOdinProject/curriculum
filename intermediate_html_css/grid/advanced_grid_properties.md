@@ -310,6 +310,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 1. grid-layout-2
 2. grid-layout-3
 </div>
+
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
