@@ -49,13 +49,14 @@ If the version number is less than 2.28, follow the instructions again.
 </summary>
 
 #### Step 1.0: Install Homebrew
+  
 First, you'll need to install Homebrew.  Make sure you have checked the requirements [here](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
 ~~~bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-Note: On an Apple Silicon Mac you will have an extra step to take.
+**Note:** On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps". 
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix. 
 
@@ -83,7 +84,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 1. Run `brew doctor`
 2. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
-![Screen_Shot_2021-02-11_at_8 06 38_PM](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
+![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
 3. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
