@@ -49,7 +49,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 * [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
 * In this exercise, you will be working out of the file called troubleshooting.js
 * [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
-* You will be working out of script.js
+* You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
 * [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
 * You will be working out of math.js
 * [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
