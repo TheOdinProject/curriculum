@@ -38,7 +38,8 @@ Using prettier makes coding faster and easier! You don't have to worry about nai
 
 ### Note on using Eslint and Prettier together
 
-Using eslint and prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all eslint rules that are unnecessary or might conflict with Prettier.
+Using eslint and prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all eslint rules that are unnecessary or might conflict with Prettier. Doing just this is enough to resolev the conflict and get them both working smoothly with one another.
+Another way to address the conflict is to use `eslint-plugin-prettier`. It lets you run prettier as if it was a linter rule. However, doing this is **not recommended**. You can learn more about it [here](https://prettier.io/docs/en/integrating-with-linters.html#notes)
 
 ### Knowledge check
 
