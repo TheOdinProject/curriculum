@@ -84,13 +84,15 @@ For now, just do whichever works best for your use-case. Linking is generally cl
 
 ### Knowledge Check
 
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
 -   <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
 -   <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
 -   <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 1.  There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), and [The Noun Project](https://thenounproject.com/term/free/).
 2.  If you want a deep-dive into the details of SVGs and their elements, the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is a great place to start.
