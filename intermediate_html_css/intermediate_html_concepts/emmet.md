@@ -6,8 +6,8 @@ Emmet is a plugin, built into VS Code, that helps you write HTML and CSS more ef
 
 By the end of this lesson, you should be able to do the following:
 
-- Use some of Emmet's most useful shortcuts.
-- Set up custom Emmet keybindings in VS Code.
+-   Use some of Emmet's most useful shortcuts.
+-   Set up custom Emmet keybindings in VS Code.
 
 ### Emmet
 
@@ -39,22 +39,24 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it.
-2. Take a look at the [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/). You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
-3. Go through the [Emmet documentation](https://docs.emmet.io/). Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
+1.  [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it.
+2.  Take a look at the [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/). You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
+3.  Go through the [Emmet documentation](https://docs.emmet.io/). Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
+
 </div>
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Emmet Keybindings](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings) by [Andrés Gutiérrez](https://agutierrezr.github.io/), is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don't know what to map to which keys.
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#emmet">Why should you use Emmet?</a>
-- <a class="knowledge-check-link" href="#emmet">What are some useful Emmet abbreviations?</a>
-- <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create this element `<p class="text"></p>`?</a>
-- <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax expands to an element with a child element inside of it? For example: `<div><p></p></div>`</a>
-- <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create three elements that have the same class name?</a>
+-   <a class="knowledge-check-link" href="#emmet">Why should you use Emmet?</a>
+-   <a class="knowledge-check-link" href="#emmet">What are some useful Emmet abbreviations?</a>
+-   <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create this element `<p class="text"></p>`?</a>
+-   <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax expands to an element with a child element inside of it? For example: `<div><p></p></div>`</a>
+-   <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create three elements that have the same class name?</a>
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+-   [Emmet Keybindings](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings) by [Andrés Gutiérrez](https://agutierrezr.github.io/), is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don't know what to map to which keys.
