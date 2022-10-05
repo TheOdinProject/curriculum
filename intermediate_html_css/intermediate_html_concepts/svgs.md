@@ -6,9 +6,9 @@ In this lesson, we will learn exactly what SVGs are, what they're used for, and 
 
 ### Learning Outcomes
 
-1. What SVGs, Vector Graphics, and XML are
-2. How to create simple SVGs and add them to your websites
-3. When to use SVGs, and when a different image format would be more appropriate
+-   What SVGs, Vector Graphics, and XML are
+-   How to create simple SVGs and add them to your websites
+-   When to use SVGs, and when a different image format would be more appropriate
 
 ### What are SVGs?
 
@@ -16,11 +16,11 @@ SVGs are a _scalable_ image format, which means they will easily scale to any si
 
 SVGs are often used for:
 
-1. Icons
-2. Graphs/Charts
-3. Large, simple images
-4. Patterned backgrounds
-5. Applying effects to other elements via SVG filters
+1.  Icons
+2.  Graphs/Charts
+3.  Large, simple images
+4.  Patterned backgrounds
+5.  Applying effects to other elements via SVG filters
 
 ### Okay, but what are they?
 
@@ -60,11 +60,11 @@ Typically, you will not want to create SVGs from scratch in your code. Most ofte
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-1. `xmlns` - stands for "XML NameSpace". This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
-2. `viewBox` - defines the bounds of your SVG. When you have to define the positions of different points of the elements in your SVG, this is what that's referencing. It also defines the aspect ratio _and_ the origin of your SVG. So it's doing quite a lot! Be sure to play around with different values in the example above to get a feel for how it affects the shapes.
-3. `class`, `id` - these attributes function just like they do in HTML. Using these in SVGs allows you to easily target an element via CSS or JavaScript, or to reuse an element via the [`use` element](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use).
-4. Elements such as `<circle>`, `<rect>`, `<path>`, and `<text>` are defined by the SVG namespace. These are our basic building-blocks. Although you can make extremely complex images with SVG, they are mostly created with just a dozen or so of these basic elements. You can see a complete list of SVG elements [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Element).
-5. Many SVG attributes, such as `fill` and `stroke`, can be [changed in your CSS](https://css-tricks.com/svg-properties-and-css/).
+1.  `xmlns` - stands for "XML NameSpace". This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
+2.  `viewBox` - defines the bounds of your SVG. When you have to define the positions of different points of the elements in your SVG, this is what that's referencing. It also defines the aspect ratio _and_ the origin of your SVG. So it's doing quite a lot! Be sure to play around with different values in the example above to get a feel for how it affects the shapes.
+3.  `class`, `id` - these attributes function just like they do in HTML. Using these in SVGs allows you to easily target an element via CSS or JavaScript, or to reuse an element via the [`use` element](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use).
+4.  Elements such as `<circle>`, `<rect>`, `<path>`, and `<text>` are defined by the SVG namespace. These are our basic building-blocks. Although you can make extremely complex images with SVG, they are mostly created with just a dozen or so of these basic elements. You can see a complete list of SVG elements [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Element).
+5.  Many SVG attributes, such as `fill` and `stroke`, can be [changed in your CSS](https://css-tricks.com/svg-properties-and-css/).
 
 Play around with the code above and try to get a feel for what's happening. What happens when you change the viewBox dimensions? Or the attributes of an element?
 
@@ -82,22 +82,22 @@ Some of the drawbacks of inlining SVG code can be avoided once you've learned a 
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
+### Knowledge Check
+
+-   <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
+-   <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
+-   <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
 
-1. There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), and [The Noun Project](https://thenounproject.com/term/free/).
-2. If you want a deep-dive into the details of SVGs and their elements, the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is a great place to start.
-3. If you want to get started making your own SVGs, you'll want some sort of visual editor.
-   1. [This is a great little SVG editor](https://yqnn.github.io/svg-path-editor) for learning how the SVG markup works. It not only shows the XML, but also lets you see the "commands" you're using to generate the SVG. This website isn't really designed for making complex graphics, though.
-   2. For that, an excellent option is [Inkscape](https://inkscape.org/), which is not only free but open source!
-   3. And if you're really invested in creating your own SVGs, you might want to check out some of the powerful paid options out there, such as [Affinity Designer](https://affinity.serif.com/designer/).
-4. If you want to use SVGs to generate images programmatically, there are at least two major, modern libraries for that: [snap.svg](http://snapsvg.io/) and [SVG.js](https://svgjs.dev/docs/3.0/).
-5. For data visualization, [d3](https://d3js.org/) has been the standard for many, many years.
-6. If you're interested in some of the more advanced things you can do with SVGs, check out [this video on SVG animation](https://www.youtube.com/watch?v=UTHgr6NLeEw), and this article on [SVG Filters, and Why They're Awesome](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)!
-
-### Knowledge Check
-
-- <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
-- <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
-- <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
+1.  There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), and [The Noun Project](https://thenounproject.com/term/free/).
+2.  If you want a deep-dive into the details of SVGs and their elements, the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is a great place to start.
+3.  If you want to get started making your own SVGs, you'll want some sort of visual editor.
+    1.  [This is a great little SVG editor](https://yqnn.github.io/svg-path-editor) for learning how the SVG markup works. It not only shows the XML, but also lets you see the "commands" you're using to generate the SVG. This website isn't really designed for making complex graphics, though.
+    2.  For that, an excellent option is [Inkscape](https://inkscape.org/), which is not only free but open source!
+    3.  And if you're really invested in creating your own SVGs, you might want to check out some of the powerful paid options out there, such as [Affinity Designer](https://affinity.serif.com/designer/).
+4.  If you want to use SVGs to generate images programmatically, there are at least two major, modern libraries for that: [snap.svg](http://snapsvg.io/) and [SVG.js](https://svgjs.dev/docs/3.0/).
+5.  For data visualization, [d3](https://d3js.org/) has been the standard for many, many years.
+6.  If you're interested in some of the more advanced things you can do with SVGs, check out [this video on SVG animation](https://www.youtube.com/watch?v=UTHgr6NLeEw), and this article on [SVG Filters, and Why They're Awesome](https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome/)!
