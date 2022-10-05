@@ -60,7 +60,7 @@ npm start
 
 Provided that everything has gone according to plan, you should be greeted with a new browser tab containing a lovely spinning React logo:
 
-![Create React App Starting Page](./setting_up_a_react_environment/imgs/cra_start.png)
+![Create React App Starting Page](https://cdn.statically.io/gh/TheOdinProject/curriculum/57b310c24455ef4862b08a7828fd7a912e80a34a/react/introduction/setting_up_a_react_environment/imgs/cra_start.png)
 
 Congratulations! You've created your first React app.
 
