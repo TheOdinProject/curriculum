@@ -77,5 +77,5 @@ This section contains helpful links to other content. It isn’t required, so co
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#a-look-back-at-flex'>How can you use Flex to make a two-dimensional layout?</a>
-- <a class="knowledge-check-link" href='#what-the-grid'>Why was CSS Grid introduced?</a>
+- <a class="knowledge-check-link" href='#what-is-grid'>Why was CSS Grid introduced?</a>
 - <a class="knowledge-check-link" href='#what-the-grid'>Which CSS layout module would you use to easily make equal sized items in a container?</a>
