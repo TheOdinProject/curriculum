@@ -79,8 +79,8 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
 </div>
 
-### Knowledge Checks 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+### Knowledge Check 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#middleware'>What is middleware?</a>
 - <a class='knowledge-check-link' href='#req'>What is the `req` object?</a>
