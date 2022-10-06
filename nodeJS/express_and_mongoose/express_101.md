@@ -87,3 +87,9 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#res'>What is the `res` object?</a>
 - <a class='knowledge-check-link' href='#next'>Why is `next` important?</a>
 - <a class='knowledge-check-link' href='#app-use'>What does `app.use` do?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
