@@ -37,11 +37,11 @@ The other end of the process is what the controller does when it's done.  Once R
 
 ### Rendering and Redirecting
 
-Although Rails will implicitly render a view file that is named the same thing as your controller action, there are plenty of situations when you might want to override it.  A main case for this is when you actually want to completely redirect the user to a new page instead of rendering the result of your controller action.
+Although Rails will implicitly render a view file that is named the same thing as your controller action, there are plenty of situations when you might want to override it.  A main case for this is when you actually want to completely redirect the user to a new page instead of rendering the result of your controller action.  
 
 Redirects typically occur after controller actions where you've submitted information like to create a new Post.  There's no reason to have a `create.html.erb` view file that gets displayed once a post has been created... we usually just want to see the post we created and so we'll redirect over to the Show page for that post.  The distinction here is that your application treats a redirect as *a completely new HTTP request*... so it would enter through the router again, look for the Show page corresponding to that post, and render it normally.  That also means that any instance variables you set in your original `#create` controller action are wiped out along the way.
 
-If that's the common way to deal with successfully creating an object, how about when it fails for some reason (like the user entered a too-short post title)?  In that case, you can just render the view for another controller action, often the same action that created the form you just submitted (so the `#new` action).
+If that's the common way to deal with successfully creating an object, how about when it fails for some reason (like the user entered a too-short post title)?  In that case, you can just render the view for another controller action, often the same action that created the form you just submitted (so the `#new` action).  
 
 The trick here is that the view page gets passed the instance variables from your *current* controller action.  So let's say that you tried to `#create` a Post and stored it to `@post` but it failed to save.  You then rendered the `#new` action's view and that view will receive the `@post` you were just working with in the `#create` action.  This is great because you don't have to wipe the form completely clean (which is really annoying as a user) -- you can just identify the fields that failed and have the user resubmit.  It may sound a bit abstract now but you'll see the difference quickly when building.
 
@@ -77,7 +77,7 @@ Let's see it in code:
 
 So the thing to pay attention to is that, if we successfully are able to save our new post in the database, we redirect to that post's show page.  Note that a shortcut you'll see plenty of times is, instead of writing `redirect_to post_path(@post.id)`, just write `redirect_to @post` because Rails knows people did that so often that they gave you the option of writing it shorthand.  We'll use this in the example as we develop it further.
 
-The error condition in the `#create` action above is going to render the same form that we rendered in the `#new` action, though this time `@post` will be the Post object that we tried and failed to save, so it will also have some errors attached to it which can be used to highlight in red which form fields were the culprits.
+The error condition in the `#create` action above is going to render the same form that we rendered in the `#new` action, though this time `@post` will be the Post object that we tried and failed to save, so it will also have some errors attached to it which can be used to highlight in red which form fields were the culprits.  
 
 ### Multiple Render/Redirects
 
@@ -101,7 +101,7 @@ In any case where the user is male, you'll get hit with a multiple render error 
 
 In the example above, we saw `... code here to set up a new @post based on form info ...`.  Okay, how do we grab that info?  We keep saying that the router packages up all the parameters that were sent with the original HTTP request, but how do we access them?
 
-With the `params` hash!  It acts just like a normal Ruby hash and contains the parameters of the request, stored as `:key => value` pairs.  So how do we get the ID of the post we're asking for? `params[:id]`.  You can access any parameters this way which have "scalar values", e.g. strings, numbers, booleans, `nil`... anything that's "flat".
+With the `params` hash!  It acts just like a normal Ruby hash and contains the parameters of the request, stored as `:key => value` pairs.  So how do we get the ID of the post we're asking for? `params[:id]`.  You can access any parameters this way which have "scalar values", e.g. strings, numbers, booleans, `nil`... anything that's "flat".  
 
 Some forms will submit every field as a top level scalar entry in the params hash, e.g. `params[:post_title]` might be "test post" and `params[:post_body]` might be "body of post" etc and these you can access with no issues.  You have control over this, as you'll learn in the lessons on forms.
 
@@ -167,9 +167,9 @@ The reason you can use any key is because you will have to write a snippet of co
 
 One last distinction, though, goes back to the difference between a redirect and a render.  Remember, a redirect submits a completely new HTTP request, effectively leaving our application in the dust and starting over from the top.  We lose all our data... except for the flash.  The flash is specifically designed to travel with that HTTP request so you have access to it when you get redirected to the next page.
 
-Render doesn't go that far -- it just uses a view file that's part of your application's normal flow and you have access to all your instance variables in that file.  Because the flash is special, you actually have to use `flash.now` instead of `flash` when you are just rendering a view instead of submitting a whole new request.  That would look like `flash.now[:error] = "Rats! Fix your mistakes, please."`.
+Render doesn't go that far -- it just uses a view file that's part of your application's normal flow and you have access to all your instance variables in that file.  Because the flash is special, you actually have to use `flash.now` instead of `flash` when you are just rendering a view instead of submitting a whole new request.  That would look like `flash.now[:error] = "Rats! Fix your mistakes, please."`.  
 
-The distinction between `flash` and `flash.now` just lets Rails know when it will need to make the flash available to you... if you used `flash` when you should have used `flash.now`, you'll just start seeing your messages showing up a "page too late" and it should be obvious what went wrong.
+The distinction between `flash` and `flash.now` just lets Rails know when it will need to make the flash available to you... if you used `flash` when you should have used `flash.now`, you'll just start seeing your messages showing up a "page too late" and it should be obvious what went wrong.  
 
 Now the full controller code can be written out for our `#create` action:
 
@@ -203,7 +203,7 @@ So that action did a fair bit of stuff -- grab the form data, make a new post, t
 
 ### Assignment
 
-That's really just a taste of the Rails controller, but you should have a pretty good idea of what's going on and what tricks you can use.
+That's really just a taste of the Rails controller, but you should have a pretty good idea of what's going on and what tricks you can use.  
 
 <div class="lesson-content__panel" markdown="1">
   1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
