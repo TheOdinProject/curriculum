@@ -86,7 +86,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Edit README using text editor](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/12.png)
 
-3.  Back in your terminal (or in the fancy built-in terminal in Visual Studio Code with *Ctrl + \` * ), type `git status`. You'll notice that README.md is now shown as not staged or committed.
+3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing Ctrl + ` (backtick). Then type `git status`. You'll notice that README.md is now shown as not staged or committed.
 
     ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
 
