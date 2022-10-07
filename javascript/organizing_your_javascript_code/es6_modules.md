@@ -1,10 +1,12 @@
 ### Introduction
+
 Separate from the __module pattern__ that we discussed in an earlier lesson, "modules" is a feature that arrived with ES6. ES6 modules are starting to appear in many code bases around the net and getting them up and running will give us a chance to explore some new parts of the JavaScript ecosystem, so it's going to be a worthy excursion!
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__, which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
-### Learning Outcomes
-After completing this lesson, you will be able to:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain what npm is and where it was commonly used before being adopted on the frontend.
 - Describe what `npm init` does and what `package.json` is.
@@ -154,6 +156,7 @@ The various import/export methods are best explained in the docs that we linked 
 Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>
