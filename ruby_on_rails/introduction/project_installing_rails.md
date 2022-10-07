@@ -43,7 +43,7 @@ JavaScript libraries used to be managed through the asset pipeline in previous R
 
 Yarn is a JavaScript package manager, much like Bundler for Ruby, and allows you to easily manage your JavaScript libraries for the frameworks that do require bundling and compiling.
 
-Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn. Follow the instructions step by step.
+Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable). The easiest way to install Yarn is to run the `npm` command shown on the page. This will install Yarn Classic, which is the version we want.
 
 You can verify the install by running the following command:
 
