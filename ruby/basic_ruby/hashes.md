@@ -169,7 +169,7 @@ japanese_cars[:honda]   #=> "Accord"
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair. Instead, it sets the key's value to `nil`.
+* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
