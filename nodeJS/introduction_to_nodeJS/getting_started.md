@@ -27,23 +27,23 @@ By the end of this lesson, you should be able to do the following:
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/en/learn) docs which you should follow along.
   - Get Started
-    - Learn how to run Node.js scripts from the terminal in ~~[this](https://nodejs.dev/en/learn/run-nodejs-scripts-from-the-command-line)~~ [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md) lesson.
-    - Learn quickly about .env files and how we use them ~~[here](https://nodejs.dev/en/learn/how-to-read-environment-variables-from-nodejs)~~ [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-environment-variables.en.md)! This will become very important in the future when working with databases and other sensitive credentials!
+    - Learn how to run Node.js scripts from the terminal in [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md) lesson.
+    - Learn quickly about .env files and how we use them [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-environment-variables.en.md)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
-    - Learn how to ~~[Build an HTTP server](https://nodejs.dev/en/learn/build-an-http-server)~~ [Build an HTTP server](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-http-server.en.md), and then ~~[how to make HTTP requests with Node](https://nodejs.dev/en/learn/making-http-requests-with-nodejs)~~ [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
+    - Learn how to [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
   - File System
-    - First, take a look at the ~~[fs module](https://nodejs.dev/en/learn/the-nodejs-fs-module)~~ [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
-    - Then, let's start ~~[writing files](https://nodejs.dev/en/learn/writing-files-with-nodejs)~~ [writing files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-writing-files.en.md) in Node.
-    - Finally, we'll learn how to ~~[read files](https://nodejs.dev/en/learn/reading-files-with-nodejs)~~ [read files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-reading-files.en.md).
+    - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
+    - Then, let's start [writing files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-writing-files.en.md) in Node.
+    - Finally, we'll learn how to [read files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-reading-files.en.md).
   - The URL Class
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
-    - Let's get an ~~[introduction](https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager)~~ [introduction](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm.en.md) to NPM.
-    - After that, it's time to quickly get introduced to the ~~[package.json file](https://nodejs.dev/en/learn/the-packagejson-guide)~~ [package.json file](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/package-json.en.md).
-    - And the differences between ~~[NPM global and local packages](https://nodejs.dev/en/learn/npm-global-or-local-packages)~~ [NPM global and local packages](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md).
+    - Let's get an [introduction](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm.en.md) to NPM.
+    - After that, it's time to quickly get introduced to the [package.json file](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/package-json.en.md).
+    - And the differences between [NPM global and local packages](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md).
   - Events
-    - Follow along the ~~[Event Emitter](https://nodejs.dev/en/learn/the-nodejs-event-emitter)~~ [Event Emitter](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/asynchronous-work/node-event-emitter.en.md) section.
-    - Look into ~~[this](https://nodejs.dev/en/learn/the-nodejs-events-module)~~ [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
+    - Follow along the [Event Emitter](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/asynchronous-work/node-event-emitter.en.md) section.
+    - Look into [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
     
 - Optional Extra Credit!
   - Although a bit outdated, the W3 Schools introduction to Node.js is super useful!  Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
