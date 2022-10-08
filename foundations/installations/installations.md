@@ -48,7 +48,7 @@ Now that you have VirtualBox installed, launch the program. Once open, you shoul
 
 ![The VirtualBox start screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/00.png)
 
-Click on the “New” button to create a virtual operating system. Give it a name of “Xubuntu”, leave the “Machine Folder” as is, set the “Type” to “Linux” and be sure “Version” is set to “Ubuntu (64-bit)”. If the 64-bit option is not present, you'll likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). Continue by pressing “Next”, and choose the following options in the next steps:
+Click on the **New** button to create a virtual operating system. Give it a name of **"Xubuntu"**, leave the **Machine Folder** as is, set the **Type** to **Linux** and be sure **Version** is set to **Ubuntu (64-bit)**. If the 64-bit option is not present, you'll likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). Continue by pressing **Next**, and choose the following options in the next steps:
 
 ![Xubuntu should make the Version be Ubuntu (64-bit) automatically](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png)
 
@@ -56,7 +56,7 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
    ![Please allow me to Google that for you](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/02.png)
 
-**2. Hard disk:** Click **“Create a virtual hard disk now”.**
+**2. Hard disk:** Choose the **Create a virtual hard disk now** option.
 
    ![The VirtualBox Create Hard Disk window 1](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/03.png)
 
@@ -64,7 +64,7 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
    ![The VirtualBox Create Virtual Hard Disk window 2](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/04.png)
 
-**4. Storage on physical hard disk:** **“Dynamically allocated”**.
+**4. Storage on physical hard disk:** Choose the **Dynamically allocated** option.
 
    ![The VirtualBox Create Virtual Hard Disk window 3](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/05.png)
 
@@ -72,19 +72,19 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
    ![The VirtualBox Create Virtual Hard Disk window 4](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/07.png)
 
-After completing the last step, click the **“Create”** button. Your new virtual OS should now appear in the menu. With **Xubuntu** selected, click on the **"Settings"** button on the navigation bar, highlighted in red below.
+After completing the last step, click the **Create** button. Your new virtual OS should now appear in the menu. With **Xubuntu** selected, click on the **Settings** button on the navigation bar, highlighted in red below.
 
 ![The VirtualBox Home screen with Xubuntu](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/08.png)
 
- Click on the **“System”** tab and then the **“Processor”** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). If you have a single core processor, you will not be able to change this setting.
+ Click on the **System** tab and then the **Processor** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). If you have a single core processor, you will not be able to change this setting.
 
 ![The Xubuntu System Settings Processor window](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png)
 
-If you have more than one monitor, you can create additional monitors by increasing the **"Monitor Count"** attribute in the **"Display"** tab. Please be sure to increase the **"Video Memory"** slider until it is in the green. **All other settings should remain default.**
+If you have more than one monitor, you can create additional monitors by increasing the **Monitor Count** attribute in the **Display** tab. Please be sure to increase the **Video Memory** slider until it is in the green. **All other settings should remain default.**
 
 ![The Xubuntu System Settings Display window](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/10.png)
 
-With all that complete, click **"OK"** to save the changes.
+With all that complete, click **OK** to save the changes.
 
 You cannot install Xubuntu without mounting the ISO you downloaded earlier. We will do that now. Click on the section labeled **[Optical Drive] Empty** to the right of the text labeled **IDE Secondary Master** under **Storage** at the main VirtualBox screen, while Xubuntu is selected. This will open up a dropdown menu, click **Choose/Create a disk image...**.
 
@@ -98,13 +98,13 @@ You should now see the ISO on the Disk Selector screen. Click it and hit the **C
 
 ![The Xubuntu - Optical Disk Selector screen but with an ISO loaded](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/14.png)
 
-You can now start the VM by right clicking on the icon in the menu and by clicking the large "Start" arrow at the top.
+You can now start the VM by right clicking on the icon in the menu and by clicking the large **Start** arrow at the top.
 
-When the VM starts up, you'll be asked to install Xubuntu. All of the default options can be left alone, including the Installation type ("Erase disk and install Ubuntu"). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
+When the VM starts up, you'll be asked to install Xubuntu. All of the default options can be left alone, including the Installation type (**Erase disk and install Ubuntu**). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
 
 The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
 
-When the installation is finished and asks you to **"Please remove the installation medium, then press ENTER"**, simply press ENTER. No need to remove anything.
+When the installation is finished and asks you to **"Please remove the installation medium, then press ENTER"**, simply press `Enter`. No need to remove anything.
 
 ### Step 3: Install and Enable Guest Additions
 
@@ -115,31 +115,31 @@ Your regular operating system (Windows in this case) is called the **Host**, and
   1. Click the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop.
   2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
   3. Install all available updates. If there are no available updates, move on to Step 5.
-  4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
-  5. Open a terminal with `ctrl + alt + t` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + w` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
+  4. If the **Software Updater** is stuck waiting for an **"unattended upgrade"** to finish, reboot the VM and start again from Step 1.
+  5. Open a terminal with `Left Ctrl + Alt + T` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
+  6. Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`. _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + W` (the Windows key should be between the left ctrl and alt keys) or opening the **Whisker Menu** and typing in **Web Browser**.)_
   7. Enter your password when it asks you to. **(__note__: Your password will not be visible in the terminal. You will not see any feedback when you type. This is a security feature to protect your password. Press `Enter` when done.)**
   8. If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt install build-essential` and enter your password. Otherwise, move on to Step 9.
   9. Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
   10. Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
   11. Wait for the CD image to mount, a window will show on the top right of the VM screen saying it was successfully mounted.
-  12. Let's take a look at the contents of the CD image we just mounted. If you see a File Manager window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called Home on the VM desktop. Afterwards, click on a CD under Devices on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
-  13. In the window we opened in step 12, click File > **Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
+  12. Let's take a look at the contents of the CD image we just mounted. If you see a **File Manager** window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called **Home** on VM's desktop. Afterwards, click on a CD under **Devices** on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
+  13. In the window we opened in step 12, click **File -> Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
   14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   15. Once it finishes, close the terminal.
-  16. Right-click CD under Devices in the File Manager window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
+  16. Right-click CD under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
   17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
   18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
 #### NOTE:
 
-- If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
-- If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
+- If upon trying to start the VM you only get a black screen, close and "power off" the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- If you receive an error when trying to mount the Guest Additions CD image (**"Unable to insert the virtual optical disk"**):
 
    **Suggestion 1:** Reboot your host (Windows) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
 
-   **Suggestion 2:** In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the Storage tab, under Controller: IDE, click on VBoxGuestAdditions.iso and make sure "Live CD/DVD" is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled "Live CD/DVD": under Controller: IDE, by selecting the blue circle dropdown on the right side of the window and clicking "Remove Disk from Virtual Drive". It is also suggested to uncheck "Live CD/DVD" at this point.
-- If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow [these instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
+   **Suggestion 2:** In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the **Storage** tab, under **Controller: IDE**, click on `VBoxGuestAdditions.iso` and make sure **Live CD/DVD** is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled **Live CD/DVD**: under **Controller: IDE**, by selecting the blue circle dropdown on the right side of the window and clicking **Remove Disk from Virtual Drive**. It is also suggested to uncheck **Live CD/DVD** at this point.
+- If you encounter the error **"VirtualBox-Error: Failed to open a session for the virtual machine..."** you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow [these instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
 - Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
 
 ### Step 4: Understand Your New VM
@@ -150,13 +150,13 @@ Here are some tips to help you get started in a virtual environment:
 
 - To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
 
-- To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (Right Ctrl) + E or click "View -> Take Screenshot" for a full screenshot, or you can click the "Whisker Menu" and type in "Screenshot", in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+- To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (`Right Ctrl`) + E or click **View -> Take Screenshot** for a full screenshot, or you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
 
 - All of the development that you'll do related to TOP will be done in the VM.
 
-- We recommend going full screen (View > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+- We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
-- If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+- If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 ### Step 5: Safely shutting down your VM
 
@@ -164,7 +164,7 @@ You don't pull the plug on your everyday use computer, right? Why would you do t
 
 #### Option 1 - Shutting down from inside the VM with UI
 
-Clicking on the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
+Clicking on the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**.
 
 ![Power Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_01.png)
 <br/>
@@ -177,7 +177,7 @@ Simply enough, typing `poweroff` will do in this case. Your system will immediat
 
 #### Option 3 - Shutting down from outside the VM
 
-The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled "Close Virtual Machine". This popup asks if you want to "Save the machine state", "Send the shutdown signal", or "Power off the machine".
+The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled **Close Virtual Machine**. This popup asks if you want to **Save the machine state**, **Send the shutdown signal**, or **Power off the machine**.
 
 ![VM File Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_03.png)
 
@@ -185,7 +185,7 @@ The last way to accomplish this goal of safely shutting down is by using the VM 
 
 ![Close Virtual Machine Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_04.png)
 
-To be safe, click the "Send the shutdown signal" radio and hit OK. This will safely power down your VM and your files will not get corrupted.
+To be safe, click the **Send the shutdown signal** radio and hit OK. This will safely power down your VM and your files will not get corrupted.
 
 </details>
 
