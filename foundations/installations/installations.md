@@ -133,30 +133,30 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 
 #### NOTE:
 
-* If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
-* If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
+- If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
+- If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
 
    **Suggestion 1:** Reboot your host (Windows/OSX) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
 
    **Suggestion 2:** In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the Storage tab, under Controller: IDE, click on VBoxGuestAdditions.iso and make sure "Live CD/DVD" is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled "Live CD/DVD": under Controller: IDE, by selecting the blue circle dropdown on the right side of the window and clicking "Remove Disk from Virtual Drive". It is also suggested to uncheck "Live CD/DVD" at this point.
-* If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow these [instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
-* Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
+- If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow these [instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
+- Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
 
 ### Step 4: Understand Your New VM
 
 Here are some tips to help you get started in a virtual environment:
 
-* All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed.
+- All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed.
 
-* To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
+- To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
 
-* To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (Right Ctrl) + E or click "View -> Take Screenshot" for a full screenshot, or you can click the "Whisker Menu" and type in "Screenshot", in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+- To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (Right Ctrl) + E or click "View -> Take Screenshot" for a full screenshot, or you can click the "Whisker Menu" and type in "Screenshot", in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
 
-* All of the development that you'll do related to TOP will be done in the VM.
+- All of the development that you'll do related to TOP will be done in the VM.
 
-* We recommend going full screen (View > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+- We recommend going full screen (View > Full-screen Mode) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
-* If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+- If you added additional monitors in the "Display" tab of your VM settings, with the VM running, clicking "View" -> "Virtual Screen 2" -> "Enable". You can run fullscreen with multiple monitors, but it may ask for more "Video Memory", which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 ### Step 5: Safely shutting down your VM
 
@@ -213,9 +213,9 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
-* Insert the flash drive into the computer.
-* Reboot the computer.
-* Select the flash drive as the bootable device instead of the hard drive.
+- Insert the flash drive into the computer.
+- Reboot the computer.
+- Select the flash drive as the bootable device instead of the hard drive.
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 
@@ -240,8 +240,8 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
 1. You have a supported Chromebook:
-    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
-    * [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
+    - [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
+    - [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
 2. You can install [Linux](https://support.google.com/chromebook/answer/9145439?hl=en)
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
@@ -288,7 +288,7 @@ rm google-chrome-stable_current_amd64.deb
 ~~~
 
 #### Step 4: Using Google Chrome
-   
+
 You can start chrome in two ways,
 
    - Click **Google Chrome** from the Applications menu
@@ -334,4 +334,4 @@ _(__note__: Chrome is going to use this terminal to output various messages and 
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
