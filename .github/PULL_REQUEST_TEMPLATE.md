@@ -1,10 +1,10 @@
 <!-- Thank you for taking the time to contribute to The Odin Project. In order to get this pull request (PR) merged in a reasonable amount of time, you must complete this entire template. -->
 
-## Purpose
+## Because
 <!-- Summarize the purpose or reasons for this PR, e.g. what problem it solves or what benefit it provides. -->
 
 
-## List of Changes
+## This PR
 <!-- A bullet point list of one or more items describing the specific changes. -->
 
 
