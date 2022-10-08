@@ -152,17 +152,19 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 
 Here are some tips to help you get started in a virtual environment:
 
-- All your work should happen in the VM. You will install everything you need for coding, including your text editor, Ruby, and Rails inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed.
+- All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
 
-- To install software on your VM, you will follow the Ubuntu installation instructions from inside the Xubuntu VM.
+- To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 
-- To take a screenshot (which you might need when asking for help on our Discord), you can either press the Host Key (`Right Ctrl`) + E or click **View -> Take Screenshot** for a full screenshot, or you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+- You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
+   - **Inside the VM:** you can use `Shift + PrtSrc` to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+   - **On your host (Windows):** you can use a shortcut of the Host Key (`Right Ctrl + E`) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of `Windows + Shift + S` to take screenshots of portion of your screen.
 
-- All of the development that you'll do related to TOP will be done in the VM.
+- **Remember:** all of the development that you'll do related to TOP should be done in the VM.
 
 - We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 
-- If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+- If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 ### Step 5: Safely shutting down your VM
 
