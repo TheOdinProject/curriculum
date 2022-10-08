@@ -6,7 +6,9 @@ Code style is important! Having a consistent set of style rules for things such 
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
 3. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
 
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Set up a linter and prettier to make your code better.
 
