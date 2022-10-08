@@ -134,7 +134,7 @@ Your regular operating system (Windows in this case) is called the **Host**, and
   14. In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   15. Once it finishes, close the terminal.
   16. Right-click CD under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
-  17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
+  17. Reboot your VM. Do this by opening your terminal (`Left Ctrl + Alt + T`) then typing in `reboot` and finally hitting `Enter`.
   18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
 #### NOTE:
