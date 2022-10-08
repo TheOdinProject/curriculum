@@ -102,11 +102,13 @@ You should now see the ISO on the Disk Selector screen. Click it and hit the **C
 
 You can now start the VM by right clicking on the icon in the menu and by clicking the large **Start** arrow at the top.
 
-When the VM starts up, you'll be asked to install Xubuntu. All of the default options can be left alone, including the Installation type (**Erase disk and install Ubuntu**). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
+When the VM starts up, you'll see a black and white menu. Choose the top option, **Try or Install Xubuntu**. After a while you'll see a window where you can choose **Try Xubuntu** or **Install Xubuntu**. Pick **Install Xubuntu**.
+
+All of the default options can be left alone, including the Installation type (**Erase disk and install Ubuntu**). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
 
 The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
 
-When the installation is finished and asks you to **"Please remove the installation medium, then press ENTER"**, simply press `Enter`. No need to remove anything.
+When the installation is finished it will ask you to restart. Click **Restart Now**. Then it should ask you to **"Please remove the installation medium, then press ENTER"**, simply press `Enter`. No need to remove anything. If it does not ask you to do so after a while, try pressing `Enter` anyway. The VM should now reboot.
 
 ### Step 3: Install and Enable Guest Additions
 
