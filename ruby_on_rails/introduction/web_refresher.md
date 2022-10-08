@@ -127,7 +127,7 @@ It's also how some ads seem to follow you from one website to another -- another
 
 On the server side, you'll interact with cookies and session variables quite a bit.  As mentioned above, one of the main uses of these is to determine who the user is, or "authentication".  You'll basically retrieve the cookie that the user sends you, use it to find that user in your database, and (if the user exists) then you can display the customized web page for that user.
 
-It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily the nice folks at [Platformatec](http://plataformatec.com.br/) created a very handy gem called ["Devise"](https://github.com/plataformatec/devise) which takes care of all this stuff for you.  In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
+It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily the nice folks at [Platformatec](http://plataformatec.com.br/) created a very handy gem called ["Devise"](https://github.com/heartcombo/devise) which takes care of all this stuff for you.  In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
 
 ### Authorization
 
