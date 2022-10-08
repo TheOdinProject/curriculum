@@ -94,6 +94,8 @@ You cannot install Xubuntu without mounting the ISO you downloaded earlier. We w
 
 The next window that opens, click on the Blue Circle with the Green Plus labeled **Add**, and locate your Xubuntu ISO file you downloaded earlier. Choose the ISO and click open.
 
+_(__note__: The `.iso` is most likely in your `Downloads` folder to which you'll have to navigate. If you can't find it there you either told the browser to save it somewhere else or forgot to download it - go back to **Step 1.2.** for a download link.)_
+
 ![The Xubuntu - Optical Disk Selector screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/13.png)
 
 You should now see the ISO on the Disk Selector screen. Click it and hit the **Choose** button at the bottom.
