@@ -6,11 +6,15 @@ A BRIEF INTRODUCTION.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   A LESSON OVERVIEW ITEM.
+- A LESSON OVERVIEW ITEM.
 
-### CUSTOM SECTION HEADING
+### The What's And Why's
 
-CUSTOM SECTION CONTENT.
+In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way since React was introduced.
+
+If you look into any older React codebase, you'll notice a lot of classes. These are known as class-based components. Prior to February 2019, functional components were also called state-less, as there was no way to manage state in them. This was changed when hooks were introduced, leading to less verbose and 'neater' components.
+
+In your career, chances are, you will be dealing with legacy code, so there will be days where you would be dealing with class components. To meet this issue, we take a peek into the works and intricacies of a class-based component, and how they work.
 
 ### Assignment
 
