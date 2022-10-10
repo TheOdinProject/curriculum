@@ -257,10 +257,21 @@ And there we go, we have successfully made our first class-based component, as e
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM
-    *   AN INSTRUCTION ITEM
-2. A PRACTICE ITEM
-    * A TASK ITEM
+For the purposes of this assignment, we take the simple class-based component that we built. There is an interactive example provided at the end, where you can work on.
+
+1.  Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
+
+2.  Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
+
+3.  Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
+
+<iframe src='https://codesandbox.io/embed/component-comparisions-difgyb?fontsize=14&hidenavigation=1&theme=dark'
+        style='width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;'
+        title='Component comparisions'
+        allow='accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking'
+        sandbox='allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts'
+></iframe>
+
 </div>
 
 ### Knowledge Check
