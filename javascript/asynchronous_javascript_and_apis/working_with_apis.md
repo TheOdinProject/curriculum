@@ -2,8 +2,9 @@
 
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what an API is
  - Explain broadly how access to an API works
@@ -218,13 +219,16 @@ While we are pushing this API key to the frontend, this isn't something you shou
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
 2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs) and [this list](https://github.com/public-apis/public-apis) of free, open APIs and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
+
 </div>
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
  - <a class="knowledge-check-link" href="#apis">What is an API?</a>
