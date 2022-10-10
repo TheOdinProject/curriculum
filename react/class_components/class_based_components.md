@@ -1,12 +1,15 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+All the components by far, have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and the significance of the different elements seen in one.
 
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- A note on the relevance of class components.
+- Covers the structure of a class component, the uses of the constructor and render method.
+- Discusses the ways to use props and state in class components.
+- Highlights the uses of `this` in class components.
 
 ### The What's And Why's
 
@@ -72,7 +75,9 @@ export default FunctionalInput;
 
 That was a solid chunk of code. Take a while, sip some water and read it a couple of times.
 
-Now, we try to recreate it as a class-based component. The first thing it should have, is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties, and we can write components by simply extending the given class, as shown below:
+#### The Start Of A Class-Based Component
+
+Now, let's try to recreate it as a class-based component. The first thing it should have, is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by simply extending the given class, as shown below:
 
 ~~~jsx
 import React, { Component } from 'react';
@@ -94,9 +99,11 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-A class is incomplete without a constructor, so let's add one.
+#### The Use Of A Constructor And Props
 
-The props, that get passed into this component, gets passed into the class' `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in _this_ case, refers to the component. If you’re really curious about what `super` actually does, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
+A class is generally incomplete without a constructor, so let's add one.
+
+The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in _this_ case, refers to the component. If you’re really curious about what `super` actually does, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
 
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
@@ -113,7 +120,9 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-Now, we can access the props inside of our class component. Our next issue is to find a way to render our JSX.
+#### Way To Render JSX
+
+Now that the props can be accessed inside of the class component, the next issue is to find a way to render the JSX.
 
 Well, you can do that by returning your JSX from a `render` method! You can use the props that you declared in the constructor too!
 
@@ -147,7 +156,9 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-Notice how we used the props that `this` provides now, instead of just `name` as we did, initially?
+Notice how the props get provided by `this`, unlike the functional component that we saw, initially?
+
+#### How To Use State And Manage Context
 
 Next comes the state. In a class-based component, the state gets initialized as a part of the constructor.
 
@@ -186,9 +197,9 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-We can now use the pre-defined `setState` method to set it again! Remember, state must not be mutated, so a new state must be set, every time.
+The pre-defined `setState` method can be used to set it again! Remember, state must not be mutated, so a new state must be set, every time.
 
-Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever we declare a method, we must `bind` the `this` of the method to that of the class, in order to access it, as by default, the methods in a class are not bound by default. Usually, we do this inside the constructor and not at runtime [in the render method].
+<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
 
 ~~~jsx
 import React, { Component } from 'react';
@@ -278,10 +289,13 @@ For the purposes of this assignment, we take the simple class-based component th
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
+*   <a class="knowledge-check-link" href="#the-use-of-a-constructor-and-props">How do props get used in a class-based component?</a>
+*   <a class="knowledge-check-link" href="#way-to-render-jsx">How does JSX get displayed?</a>
+*   <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
+*   <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
