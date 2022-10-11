@@ -7,9 +7,7 @@ You're likely somewhat familiar with JSX from previous React lessons, in this le
 This section contains a general overview of topics that you will learn in this lesson.
 
 - What JSX is.
-- Why we use JSX.
 - Differences between JSX and HTML.
-- How to write and take advantage of JSX's features.
 
 ### What is JSX?
 
