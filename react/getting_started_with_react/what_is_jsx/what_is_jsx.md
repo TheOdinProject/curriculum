@@ -126,6 +126,8 @@ If you were to take some valid HTML and copy it straight into your React compone
    }
    ~~~
 
+### Converting HTML to JSX
+
 Now that we've covered the Rules of JSX, we'll go through the conversion of a chunk of HTML to JSX.
 
 ~~~jsx
