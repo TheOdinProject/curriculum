@@ -38,3 +38,10 @@ This section contains questions for you to check your understanding of this less
 - [How do we nest elements and define attributes in Pug?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer/#template_syntax, "Permalink to Template syntax")
 - [What is a base template and how do we extend it?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer/#extending_templates, "Permalink to Extending templates")
 - [Why do we use luxon instead of the regular date format?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Date_formatting_using_moment, "Permalink to Create the virtual property")
+
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
