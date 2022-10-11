@@ -46,7 +46,7 @@ If you were to take some valid HTML and copy it straight into your React compone
          <h1>Example h1</h1>
          <h2>Example h2</h2>
        </>
-       // Could replace <></>with <div></div>f
+       // Could replace <></>with <div></div>
      );
    }
    ~~~
