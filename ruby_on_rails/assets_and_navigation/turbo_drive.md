@@ -16,15 +16,15 @@ Links and Forms are the bedrock of most web applications. You need links to navi
 
 If a lot of what follows seems confusing, don't worry! A lot of Turbo Drive happens under the hood and therefore it means we often need to discuss the concept rather than the implementation. This can make it harder initially to grok, but luckily it does also mean you can often just go about your business and never have to actively think about it.
 
-### Learning Outcomes
+### Lesson Overview
 
-*Look through these now and then use them to test yourself after doing the assignment*
+This section contains a general overview of topics that you will learn in this lesson.
 
-* What is the purpose of Turbo Drive?
-* How does Turbo Drive handle page navigation?
-* What are the two kinds of page visit types in Turbo?
-* How can you disable Turbo Drive?
-* What is Turbolinks?
+- What is the purpose of Turbo Drive?
+- How does Turbo Drive handle page navigation?
+- What are the two kinds of page visit types in Turbo?
+- How can you disable Turbo Drive?
+- What is Turbolinks?
 
 ### Turbo Drive
 

@@ -6,7 +6,9 @@ Code style is important! Having a consistent set of style rules for things such 
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
 3. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
 
-### Learning Outcomes
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Set up a linter and prettier to make your code better.
 
@@ -35,6 +37,11 @@ Prettier is _awesome_. It is similar to a linter, but serves a slightly differen
 3. Setup is simple. [The homepage](https://prettier.io/) links to tutorials for most popular editors.
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
+
+### Note on using Eslint and Prettier together
+
+Using ESLint and Prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all ESLint rules that are unnecessary or might conflict with Prettier. Doing just this is enough to resolve the conflict and get them both working smoothly with one another.
+Another way to address the conflict is to use `eslint-plugin-prettier`. It lets you run Prettier as if it were a rule in ESLint. However, doing this is **not recommended**. You can learn more about it [here](https://prettier.io/docs/en/integrating-with-linters.html#notes)
 
 ### Knowledge check
 

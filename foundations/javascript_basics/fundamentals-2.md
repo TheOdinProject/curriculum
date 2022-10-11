@@ -43,13 +43,13 @@ To give you a good bit of practice, we have created some replit.com exercises fo
 
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-To get started, create a free repl account and click "Fork" or "Remix" in order to have access to the exercises.
+To get started, create a free replit account and click "Fork" or "Remix" in order to have access to the exercises.
 Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
 * [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
 * In this exercise, you will be working out of the file called troubleshooting.js
 * [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
-* You will be working out of script.js
+* You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
 * [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
 * You will be working out of math.js
 * [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)

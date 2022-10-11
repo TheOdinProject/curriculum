@@ -4,8 +4,9 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 
 In this lesson, we'll cover the Constraint Validation API: a way to validate forms on the frontend with JavaScript.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand the importance of validation in HTML forms.
 - Understand Constraint Validation API for more control over form validation.
@@ -47,7 +48,8 @@ The form doesn't need to actually submit, but you should give an error message i
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation'>Understand the importance of validating HTML forms before submitting them to a server.</a>
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation'>Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.</a>
