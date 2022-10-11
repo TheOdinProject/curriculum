@@ -25,11 +25,9 @@ Most of the time in apps, rendering logic and markup are inherently coupled, but
 
 On top of this, it's a more intuitive, visual way to work with the UI inside your code, and allows React to show more useful error and warning messages.
 
-### Converting HTML to JSX
+### Rules of JSX
 
 If you were to take some valid HTML and copy it straight into your React component, it would not work. This is due to some of the rules JSX implements, that aren't present in HTML.
-
-#### Rules of JSX:
 
 1. Return a single root element.
 
