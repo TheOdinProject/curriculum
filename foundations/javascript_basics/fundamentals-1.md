@@ -12,12 +12,12 @@ This section contains a general overview of topics that you will learn in this l
 * What are operators, operands, and operations?
 * What is concatenation and what happens when you add numbers and strings together?
 * What are the different types of operators in JavaScript?
-* What is the difference between loose equality(==) and strict equality(===)?
+* What is the difference between == and ===?
 * What are operator precedence values?
-* What are the increment(++)/decrement(--) operators?
+* What are the increment/decrement operators?
 * What is the difference between prefixing and postfixing them?
-* What are assignment(=) operators?
-* What is the Unary Plus(+) Operator?
+* What are assignment operators?
+* What is the Unary Plus Operator?
 
 ### How to Run JavaScript Code
 
@@ -59,7 +59,7 @@ You can think of variables as simply "storage containers" for data in your code.
 
 1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
 
-The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now.</span> The precise differences between `var` and `let` is explained [here](https://javascript.info/var).
+The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now.</span>
 
 ### Numbers
 
@@ -97,7 +97,7 @@ _* As you might have noticed by running Javascript code in the console, the cons
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
 
 ### Knowledge Check
 
@@ -107,14 +107,13 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What happens when you add numbers and strings together?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the Modulus(%)* operator work?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between loose equality(==) and strict equality(===).</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN`(Not a Number) result?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment(++) and decrement(--) a number?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and postfixing increment(++)/decrement(--) operators.</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the Modulo (%), or Remainder, operator work?</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between == and ===.</a>
+* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and postfixing increment/decrement operators.</a>
 * <a class="knowledge-check-link" href="https://javascript.info/operators#operator-precedence">What is operator precedence and how is it handled in JS?</a>
 * <a class="knowledge-check-link" href="#access-devTools-console">How do you access developer tools and the console?</a>
 * <a class="knowledge-check-link" href="#console-log">How do you log information to the console?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus(+) operator do to string representations of integers?</a>
+* <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus operator do to string representations of integers? eg. +"10"</a>
 
-\* `%` is also called the remainder operator
