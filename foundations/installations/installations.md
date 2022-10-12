@@ -8,11 +8,13 @@ We can only support the operating systems indicated above. Our instructions have
 
 </div>
 
-### OS Installation
+### 1: OS Installation
 
 #### IMPORTANT
 
 This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device.
+
+Pick your method of installation below:
 
 <details markdown="block">
 <summary class="dropDown-header">Virtual Machine (Recommended)
@@ -248,7 +250,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 </details>
 
-### Google Chrome Installation
+### 2: Google Chrome Installation
 
 #### Why Google Chrome?
 
