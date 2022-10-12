@@ -158,7 +158,7 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 
 2.  Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
-3.  Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
+3.  Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/) or alternatively this [HTML validator](https://www.freeformatter.com/html-validator.html). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 
 </div>
 
@@ -175,7 +175,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
+*   Read through this article about what [charsets you should use with your HTML pages](https://www.positioniseverything.net/html-encoding/).
 
 *   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the value defined in your `meta-charset` attribute. This could potentially hide some characters on your site not being encoded in the way you expect.
 

@@ -83,3 +83,4 @@ This section contains helpful links to related content. It isn’t required, so 
 * [Flexbox Zombies](https://mastery.games/flexboxzombies/) is another gamified take on flexbox. Free, but requires an account.
 * This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
 * [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA) is a nice resource by Traversy Media.
+* [Learn flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU) by Kevin Powell explains flexbox very well in this video.

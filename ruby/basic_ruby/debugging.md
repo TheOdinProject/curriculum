@@ -109,7 +109,19 @@ p []
 ### Debugging with Pry-byebug
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.
 
-To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
+To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program. If you encounter an error like this:
+
+~~~bash
+Error: while executing gem ... (Gem::Exception)
+    OpenSSL is not available. Install OpenSSL and rebuild Ruby (preferred) or us non-HTTPS sources
+~~~
+
+Ensure that Ubuntu is up to date and upgraded by using these commands in order (These commands will require user password input):
+
+~~~bash
+sudo apt update
+sudo apt upgrade
+~~~
 
 To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
 
@@ -199,12 +211,11 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
 2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the Configuration inside your VSCode's `launch.json` file.
-4. If you're having a hard time figuring out how to navigate to your launch.json file in order to change the Configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
-5. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rbdg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-6. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
-7. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
-8. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the configuration inside your VSCode's `launch.json` file. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
+4. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rbdg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
+5. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
+6. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
+7. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 * NOTE: When you reach the final exercise that uses `pry-byebug`, you'll want to run the tests without `bundle exec`. This will avoid load errors in your `debugging-exercises.rb` file. The command to use is `rspec spec/debugging_exercises_spec.rb`.
 </div>

@@ -301,14 +301,15 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
 
-### Practice
-
-> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+### Assignment
+<div class="lesson-content__panel" markdown="1">
+When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
 Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
 
 1. grid-layout-2
 2. grid-layout-3
+</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.

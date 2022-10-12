@@ -1,6 +1,6 @@
 ### Introduction
 
-It's time to put all of the HTML knowledge you have been acquiring so far into practice. In this project, you are going to build a basic recipe website.
+It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a basic recipe website.
 
 The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished. Not unless you're into [brutalist web design](https://brutalistwebsites.com/), that is.
 
@@ -53,7 +53,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 1.  Create a new directory within the `odin-recipes` directory and name it `recipes`.
 2.  Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can [find a recipe to use here](https://www.allrecipes.com/).
 3.  For now, just include an `h1` heading with the recipe's name as its content.
-4.  Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
+4.  Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
 
 #### Iteration 3:  Recipe Page Content
 
@@ -76,7 +76,7 @@ Example:
 
 ~~~html 
  <ul>
-    <li><a href="recipes/yourrecipe.html">Recipe Title 1</a>.</li>
+    <li><a href="recipes/yourrecipe.html">Recipe Title 1</a></li>
     <li><a href="recipes/yourrecipe.html">Recipe Title 2</a></li>
     <li><a href="recipes/yourrecipe.html">Recipe Title 3</a></li>
   </ul>
@@ -93,10 +93,10 @@ GitHub allows you to publish web projects directly from a GitHub repository. Doi
 
 There are a couple of ways to go about doing this, but the simplest is this:
 
--   make sure that the main HTML file of your project is called `index.html`. If it is not, you will need to rename it.
--   go to **your GitHub repo** on the web.
--   click on the **Settings** button from the panel at the top.
--   click on **Pages** on the left side bar.
--   change the **Branch** from _none_ to _main branch_ and click Save.
--   it may take a few minutes (the GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+-   Make sure that the main HTML file of your project is called `index.html`. If it is not, you will need to rename it.
+-   Go to **your GitHub repo** on the web.
+-   Click on the **Settings** button from the panel at the top.
+-   Click on **Pages** on the left side bar.
+-   Change the **Branch** from _none_ to _main branch_ and click **Save**.
+-   It may take a few minutes (The GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
 

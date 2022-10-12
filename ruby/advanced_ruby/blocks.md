@@ -455,7 +455,7 @@ What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. 
 
 (Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.1.2/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
 
-<span id="proc-to-block">The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
+<span id="proc-to-block">The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
 ~~~ruby
 def cool_method

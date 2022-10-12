@@ -190,7 +190,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API".
 
-3. Read CSS Tricks' brilliant [Form Validation UX in HTML and CSS Guide](https://css-tricks.com/form-validation-ux-html-css/)
+3. Read Silo Creative's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
 
 </div>
 

@@ -61,8 +61,8 @@ To create a label, we use the `<label>` element. The text we want displayed in t
 
 ~~~html
 <form action="example.com/path" method="post">
-  <label for="firstName">First Name:</label>
-  <input type="text" id="firstName">
+  <label for="first_name">First Name:</label>
+  <input type="text" id="first_name">
 </form>
 ~~~
 
@@ -497,7 +497,7 @@ Certain aspects of other elements are downright impossible to style, for example
 ####Styling Forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
-2. Read and follow along to [the internetingishard guide to forms](https://web.archive.org/web/20210515225808/https://www.internetingishard.com/html-and-css/forms/)
+2. Read and follow along to [the internetingishard guide to forms](https://www.internetingishard.com/html-and-css/forms/)
 
 </div>
 

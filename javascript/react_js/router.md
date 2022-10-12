@@ -10,9 +10,9 @@ By the end of this lesson, you should be able to:
 
 ### Client-Side Routing
 
-<span id="client-side-routing">Client side routing is internal handling of routes inside the JS file that is rendered to the client(front-end). Client Side Routing helps in building Single-page applications(SPAs) without refreshing as the user navigates. For example when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.</span>
+<span id="client-side-routing">Client-side routing is internal handling of routes inside the JS file that is rendered to the client (front-end). Client-side routing helps in building single-page applications (SPAs) without refreshing as the user navigates. For example when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.</span>
  
-React router is the standard routing library for React Applications. By using React routers, we can specify which component can be rendered based on the route. From version 4, react router uses [dynamic routes](https://v5.reactrouter.com/web/guides/philosophy/dynamic-routing) (routing that takes place as your app is rendering).
+React Router is the standard routing library for React applications. By using React routers, we can specify which component can be rendered based on the route. From version 4, react router uses [dynamic routes](https://v5.reactrouter.com/web/guides/philosophy/dynamic-routing) (routing that takes place as your app is rendering).
 
 ### How To Use React Router
 

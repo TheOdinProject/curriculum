@@ -89,12 +89,12 @@ Once your database is set up and you've got empty tables to work with, you use S
 
 For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things like using `>`, `<`, `<=` etc. comparison operators to specify groups of rows to run commands on or logical operators like `AND`, `OR`, `NOT` etc to chain multiple clauses together, e.g. `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
 
-"Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into and then which values to put in those columns, which looks something like `INSERT INTO Users (name, email) VALUES ('foobar','foo@bar.com');`.  This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
+"Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into and then which values to put in those columns, which looks something like `INSERT INTO users (name, email) VALUES ('foobar','foo@bar.com');`.  This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
 
 "Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique):
 
 ~~~sql
-  UPDATE Users
+  UPDATE users
   SET name='barfoo', email='bar@foo.com'
   WHERE email='foo@bar.com';
 ~~~
