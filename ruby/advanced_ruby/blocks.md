@@ -494,7 +494,7 @@ After coming to grips with the information in this lesson you'll be a block, pro
 <div class="lesson-content__panel" markdown="1">
 
 1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
-2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. I really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 </div>
 
 ### Knowledge Check

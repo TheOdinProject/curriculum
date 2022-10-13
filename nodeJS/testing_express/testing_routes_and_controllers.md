@@ -125,7 +125,7 @@ test("index route works", done => {
 });
 ~~~
 
-Our second test is very similar to the first one, but tests the `post` method. You can (and should) read about all the possible functions on the supertest readme, so I won't go into the details of every step here. The last bit however is important to us. By this point in your JavaScript career, you should be familiar with Promises, so the `.then()` syntax should be familiar. In this case we wait for the POST request to finish and then we call the GET request when that promise resolves to check if that item has been pushed into the array.
+Our second test is very similar to the first one, but tests the `post` method. You can (and should) read about all the possible functions on the supertest readme, so we won't go into the details of every step here. The last bit however is important to us. By this point in your JavaScript career, you should be familiar with Promises, so the `.then()` syntax should be familiar. In this case we wait for the POST request to finish and then we call the GET request when that promise resolves to check if that item has been pushed into the array.
 
 ~~~javascript
 test("testing route works", done => {
