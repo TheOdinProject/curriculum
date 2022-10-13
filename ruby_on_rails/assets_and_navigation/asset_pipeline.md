@@ -107,7 +107,7 @@ Now this container and all the code inside of it is also within the `.user` clas
 
 ~~~css
   /* app/assets/stylesheets/user.css.scss */
-  /* Note: I'm not going to use SCSS code because we haven't covered it yet */
+  /* Note: We're not going to use SCSS code because we haven't covered it yet */
   .user .container{
     // style stuff
   }
@@ -115,7 +115,7 @@ Now this container and all the code inside of it is also within the `.user` clas
 
 This is good because we're now specifically targeting containers used by User pages.
 
-The same principle applies to JavaScript, though I won't cover it here because that's material for a later course.
+The same principle applies to JavaScript, though we won't cover it here because that's material for a later course.
 
 So anytime you want to make only a portion of your stylesheets or JavaScript code available to a specific set of views, try namespacing it.
 
