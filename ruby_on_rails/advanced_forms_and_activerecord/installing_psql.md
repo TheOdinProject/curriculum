@@ -35,9 +35,9 @@ As applications get larger, setting up these different environments can help dev
 ### Environment Variables
 The foundation of any environment is the operating system which provides ways to store local variables. Not surprisingly, these are known as environment variables.
 
-Why are environment variables important? After all, the information could be added to the git repository (and by extension Github). But while those tools are excellent for storing and sharing code, sensitive information like API keys or database passwords should not be shared. Using environment variables, this type of private data can only be accessed locally which means the application gets the information it needs without exposing it to the world.
+Why are environment variables important? After all, the information could be added to the git repository (and by extension Github). While tools like git and Github are excellent for storing and sharing code, sensitive information like API keys or passwords should be kept private. Using environment variables, this type of private data can only be accessed locally which means the application gets the information it needs without exposing it to the world.
 
-Rails actually uses the environment to set up its own internal environment variable. If nothing in the environment tells Rails that it is a production environment, then [Rails will assume a development environment](https://github.com/rails/rails/blob/main/railties/lib/rails.rb#L67).
+Rails uses the environment to set up its own internal environment variable. The framework will look for a `RAILS_ENV` variable in the environment, and if it's missing or not set to `production` then [Rails will assume it is in a development environment](https://github.com/rails/rails/blob/main/railties/lib/rails.rb#L67). Isn't that cool?
 
 We will use an environment variable to set up PostgreSQL credentials for our Rails apps.
 
