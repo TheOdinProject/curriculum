@@ -9,7 +9,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
   2. Now write another method `fibsRec` which solves the same problem recursively.  This can be done in just a couple of lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
 </div>
 
-In order to run these functions you'll need to run it from somewhere. You can run scripts from the command line using the node command installed with nodejs. You can read about the common ways to do this [here](https://nodejs.dev/en/learn/run-nodejs-scripts-from-the-command-line/)
+In order to run these functions you'll need to run it from somewhere. You can run scripts from the command line using the node command installed with nodejs. You can read about the common ways to do this [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md).
 
 #### Understanding Recursive Fibonacci
 
@@ -42,4 +42,5 @@ The first step is to actually understand what the merge sort algorithm is doing:
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
+* Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
 * For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)

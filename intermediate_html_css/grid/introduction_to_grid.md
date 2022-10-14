@@ -54,7 +54,7 @@ But setting up a two-dimensional layout of cards would be much simpler using CSS
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### What the Grid?
+### What is Grid?
 
 Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (no relation to Wes Bos) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thought demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017.
 
@@ -69,6 +69,7 @@ While some people thought CSS Grid was here to replace Flexbox, you will learn b
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
+- Watch [Flexbox vs. CSS Grid — Which is Better?](https://www.youtube.com/watch?v=hs3piaN4b5I) for a visual representation of the use cases for Flexbox vs CSS Grid
 - Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)
 
@@ -76,5 +77,5 @@ This section contains helpful links to other content. It isn’t required, so co
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#a-look-back-at-flex'>How can you use Flex to make a two-dimensional layout?</a>
-- <a class="knowledge-check-link" href='#what-the-grid'>Why was CSS Grid introduced?</a>
+- <a class="knowledge-check-link" href='#what-is-grid'>Why was CSS Grid introduced?</a>
 - <a class="knowledge-check-link" href='#what-the-grid'>Which CSS layout module would you use to easily make equal sized items in a container?</a>

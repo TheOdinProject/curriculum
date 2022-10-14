@@ -2,7 +2,7 @@
 
 Callbacks are a common way for you to execute code at specific times in the life cycle of an Active Record object, for instance just before it is created, after it is saved, or after it is destroyed.  These can be very useful if you've got something to execute whenever an object hits one of those lifecycle points, like modifying the user's email to be lowercase when creating her account.  Callbacks are a way of saying something like "Hey Active Record, when you've finished creating a new User object, give me a call so I can run this method before anything else happens."
 
-This is a brief section on a useful topic.  The Rails Guide reading provides good coverage of it, so my summary will be necessarily brief.
+This is a brief section on a useful topic.  The Rails Guide reading provides good coverage of it, so our summary will be necessarily brief.
 
 ### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
