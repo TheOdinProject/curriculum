@@ -160,7 +160,7 @@ grant all privileges on database <role_database_name> to <role_name>;
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.5 Saving Access Information in the Environment
-After finishing our configuration, the last step is save the information into the environment to access later.
+After finishing our configuration, the last step is save it into the environment to access later.
 
 In order to save our password to the environment, we can run this command:
 
@@ -168,9 +168,11 @@ In order to save our password to the environment, we can run this command:
 echo 'export DATABASE_PASSWORD="<role_password>"' >> ~/.bashrc
 ~~~
 
-Note here the name we've chosen for our environment variable: `DATABASE_PASSWORD`. Also, remember to update `<role_password>` in the command to what was set above! After entering the command, this variable lives in our environment.
+Note here the name we've chosen for our environment variable: `DATABASE_PASSWORD`. Also, remember to update `<role_password>` in the command to what was set above!
 
-Let's test it out with the short assignment below.
+Now, this variable lives in our environment for us to use. As the variable is new, we'll want to reload the environment so that we can access it. To reload the environment, you can close and re-open your terminal.
+
+Once that's done, we can move to testing it out!
 
 </details>
 
@@ -201,17 +203,17 @@ Let's navigate into the app directory and set up our database credentials.
 cd <app_name>
 ~~~
 
-We can set up the database username and password in `config/database.yml`. Below, we've simply added the two properties `username` and `password` to the end of the `default` section.
+We can set up the database username and password in `config/database.yml` by adding entries with our information:
 
-~~~yml
+~~~diff
 default: &default
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: <role_name> # role we set up previously
-  password: <%= ENV['DATABASE_PASSWORD'] %> # variable we added previously
++  username: <role_name> # role previously added
++  password: <%= ENV['DATABASE_PASSWORD'] %> # variable previously added
 ~~~
 
 Save the file, and we can see Rails work its magic:
