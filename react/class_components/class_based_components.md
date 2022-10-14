@@ -19,21 +19,21 @@ If you look into any older React codebase, you'll notice a lot of classes. These
 
 In your career, chances are, you will be dealing with legacy code, so there will be days where you would be dealing with class components. To meet this issue, we take a peek into the works and intricacies of a class-based component, and how they work.
 
-### Building a Class Component
+### Building A Class Component
 
 As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, re-usable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
 
 ~~~jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const FunctionalInput = ({ name }) => {
-  /* 
+  /*
     We declare two state variables and their setters,
-    one to store the To-Do's 
-	and the other to store the value of the input field 
+    one to store the To-Do's
+    and the other to store the value of the input field
   */
-  const [todos, setTodos] = useState([]);
-  const [inputVal, setInputVal] = useState('');
+  const [todos, setTodos] = useState(["Just some demo tasks", "As an example"]);
+  const [inputVal, setInputVal] = useState("");
 
   const handleInputChange = (e) => {
     setInputVal(e.target.value);
@@ -41,8 +41,8 @@ const FunctionalInput = ({ name }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setTodos((todos) => [...todos, inputVal]);
-    setInputVal('');
+    setTodos((todo) => [...todo, inputVal]);
+    setInputVal("");
   };
 
   return (
@@ -50,14 +50,14 @@ const FunctionalInput = ({ name }) => {
       <h3>{name}</h3>
       {/* The input field to enter To-Do's */}
       <form onSubmit={handleSubmit}>
-        <label htmlFor='task-entry'>Enter a task: </label>
+        <label htmlFor="task-entry">Enter a task: </label>
         <input
-          type='text'
-          name='task-entry'
+          type="text"
+          name="task-entry"
           value={inputVal}
           onChange={handleInputChange}
         />
-        <button type='submit'>Submit</button>
+        <button type="submit">Submit</button>
       </form>
       <h4>All the tasks!</h4>
       {/* The list of all the To-Do's, displayed */}
@@ -77,10 +77,10 @@ That was a solid chunk of code. Take a while, sip some water and read it a coupl
 
 #### The Start Of A Class-Based Component
 
-Now, let's try to recreate it as a class-based component. The first thing it should have, is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by simply extending the given class, as shown below:
+Now, let's try to recreate it as a class-based component. The first thing it should have is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by simply extending the given class, as shown below:
 
 ~~~jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class ClassInput extends Component {
   // Some code goes here
@@ -88,7 +88,7 @@ class ClassInput extends Component {
 
 /*
   This can also be written as:
-  
+
   import React from 'react';
   class ClassInput extends React.Component {}
   export default ClassInput;
@@ -108,7 +108,7 @@ The props, that get passed into this component, gets passed into the class's `co
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
 ~~~jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -127,7 +127,7 @@ Now that the props can be accessed inside of the class component, the next issue
 Well, you can do that by returning your JSX from a `render` method! You can use the props that you declared in the constructor too!
 
 ~~~jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -141,9 +141,9 @@ class ClassInput extends Component {
         <h3>{this.props.name}</h3>
         {/* The input field to enter To-Do's */}
         <form>
-          <label htmlFor='task-entry'>Enter a task: </label>
-          <input type='text' name='task-entry' />
-          <button type='submit'>Submit</button>
+          <label htmlFor="task-entry">Enter a task: </label>
+          <input type="text" name="task-entry" />
+          <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
         {/* The list of all the To-Do's, displayed */}
@@ -163,7 +163,7 @@ Notice how the props get provided by `this`, unlike the functional component tha
 Next comes the state. In a class-based component, the state gets initialized as a part of the constructor.
 
 ~~~jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -171,7 +171,7 @@ class ClassInput extends Component {
 
     this.state = {
       todos: [],
-      inputVal: '',
+      inputVal: "",
     };
   }
   // Some more code goes here
@@ -182,9 +182,9 @@ class ClassInput extends Component {
         <h3>{this.props.name}</h3>
         {/* The input field to enter To-Do's */}
         <form>
-          <label htmlFor='task-entry'>Enter a task: </label>
-          <input type='text' name='task-entry' />
-          <button type='submit'>Submit</button>
+          <label htmlFor="task-entry">Enter a task: </label>
+          <input type="text" name="task-entry" />
+          <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
         {/* The list of all the To-Do's, displayed */}
@@ -202,7 +202,7 @@ The pre-defined `setState` method can be used to set it again! Remember, state m
 <span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
 
 ~~~jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -210,7 +210,7 @@ class ClassInput extends Component {
 
     this.state = {
       todos: [],
-      inputVal: '',
+      inputVal: "",
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -218,18 +218,18 @@ class ClassInput extends Component {
   }
 
   handleInputChange(e) {
-    this.setState({
-      ...this.state,
+    this.setState((state) => ({
+      ...state,
       inputVal: e.target.value,
-    });
+    }));
   }
 
   handleSubmit(e) {
     e.preventDefault();
-    this.setState({
-      todos: this.state.todos.concat(this.state.inputVal),
-      inputVal: '',
-    });
+    this.setState((state) => ({
+      todos: state.todos.concat(state.inputVal),
+      inputVal: "",
+    }));
   }
 
   render() {
@@ -238,14 +238,14 @@ class ClassInput extends Component {
         <h3>{this.props.name}</h3>
         {/* The input field to enter To-Do's */}
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor='task-entry'>Enter a task: </label>
+          <label htmlFor="task-entry">Enter a task: </label>
           <input
-            type='text'
-            name='task-entry'
+            type="text"
+            name="task-entry"
             value={this.state.inputVal}
             onChange={this.handleInputChange}
           />
-          <button type='submit'>Submit</button>
+          <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
         {/* The list of all the To-Do's, displayed */}
@@ -289,13 +289,13 @@ For the purposes of this assignment, we take the simple class-based component th
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#the-use-of-a-constructor-and-props">How do props get used in a class-based component?</a>
-*   <a class="knowledge-check-link" href="#way-to-render-jsx">How does JSX get displayed?</a>
-*   <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
-*   <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
+- <a class="knowledge-check-link" href="#the-use-of-a-constructor-and-props">How do props get used in a class-based component?</a>
+- <a class="knowledge-check-link" href="#way-to-render-jsx">How does JSX get displayed?</a>
+- <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
+- <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
+- In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
