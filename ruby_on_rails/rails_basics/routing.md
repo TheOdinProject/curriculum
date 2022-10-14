@@ -83,7 +83,7 @@ That's it.  That is a Ruby method which basically just outputs those seven route
 
 ### Rails Routes and Route Helpers
 
-With that above line in my routes file, what do my routes look like?  If you type `$ rails routes` on the command line, it'll output all the routes your application knows, which look like:
+With that above line in our routes file, what do our routes look like?  If you type `$ rails routes` on the command line, it'll output all the routes your application knows, which look like:
 
 ~~~bash
   edit_post  GET  /posts/:id/edit(.:format)  posts#edit
@@ -161,7 +161,7 @@ Just to drive home that routes correspond directly to controller actions, a very
 
 Remember that you can run `$ rails routes` in the project directory to see all of the routes with their corresponding controllers and actions.
 
-### I Don't Want All Seven Routes!
+### We Don't Want All Seven Routes!
 
 Sometimes you just don't want all seven of the RESTful routes that `resources` provides.  Easy, either specify just the ones you want using `only` or just the ones you DON'T want using `except`:
 
