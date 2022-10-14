@@ -195,7 +195,7 @@ rails new <app_name> --database=postgresql
 ~~~
 
 #### Configuring Rails Using Environment Variables
-Let's change into the app directory and see if we can set up our database.
+Let's navigate into the app directory and set up our database credentials.
 
 ~~~bash
 cd <app_name>
