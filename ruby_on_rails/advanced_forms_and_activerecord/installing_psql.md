@@ -223,12 +223,14 @@ psql postgres
 ~~~
 
 And you should see a prompt like this
+
 ~~~
 psql (14.x (Homebrew))
 Type "help" for help.
 
 postgres=#
 ~~~
+
 Input `\du`, hit Return, and check that your MacOS username is the listed role name.
 
 #### 3.2 Creating the Role Database
