@@ -180,7 +180,112 @@ Once that's done, we can move to testing it out!
 <summary class="dropDown-header">macOS
 </summary>
 
-Content here
+### Step 1: Make sure the system is up to date
+Before running commands with homebrew, you'll want to make sure things are up to date. Run the following commands.
+
+~~~~bash
+brew update
+brew upgrade
+~~~~
+
+If your terminal doesn't recognize `brew`, then you'll need to go and install homebrew. You can find it and other installs in the curriculum [here](https://www.theodinproject.com/lessons/installation_lessons).
+
+### Step 2: Install the PostgreSQL packages
+Now that we've ensured our packages are up to date, we will use brew to install PostgreSQL.
+
+~~~bash
+brew install postgresql@14
+~~~
+
+After installation is complete, let's start the server using this command:
+
+~~~bash
+brew services start postgresql@14
+~~~
+
+If you are unsure about whether postgres is active, it's possible to check with this command:
+
+~~~bash
+brew services info postgresql@14
+~~~
+
+Got an error, or don't see an active service? Come visit the Discord for some help!
+
+If the postgres service is active, move on to the next step.
+
+### Step 3: Setting up PostgreSQL
+PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
+
+#### 3.1 PostgreSQL Roles
+PostgreSQL authenticates via roles. A role is like a user, and by default, the install on MacOS should have a role set up with your MacOS username. If you're not sure of your username, you can run the command `whoami` in your terminal to get it. To verify that you have a role in postgres matching your username, enter the following command:
+
+~~~bash
+psql postgres
+~~~
+
+And you should see a prompt like this
+~~~
+psql (14.x (Homebrew))
+Type "help" for help.
+
+postgres=#
+~~~
+Input `\du`, hit Return, and check that your MacOS username is the listed role name.
+
+#### 3.2 Creating the Role Database
+One other important step in setting up postgres is that each role must have its own database of the same name. We need this to login as the role matching our username. While still in the postgres session prompt, type the following command to create the new database. Make sure you include the semicolon.
+
+~~~
+CREATE DATABASE <username>;
+~~~
+
+Now our role is fully set up: we've got `<role_name>` and that role has a database. Enter the command `\q` to exit the interactive terminal for `postgres`.
+
+#### 3.3 Securing Our New Role
+One important thing that we have to do is to set up a password for our new role so that the data is protected. Now that our role is set up, we can actually use it to administer the postgres server. All you have to do is enter this command to get into the PostgreSQL prompt for the database matching your user:
+
+~~~bash
+psql
+~~~
+
+You should now see the postgres prompt come up like this:
+
+~~~
+<role_name>=#
+~~~
+
+If you don't see a similar prompt, then reach out on Discord for some help. 
+
+If you **do** see a similar prompt, then we can create a password for the role like so:
+
+~~~
+\password <role_name>
+~~~
+
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+
+~~~
+grant all privileges on database <role_database_name> to <role_name>;
+~~~
+
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+
+#### 3.4 Saving Access Information in the Environment
+After finishing our configuration, the last step is save it into the environment to access later.
+
+In order to save our password to the environment, we can run this command:
+
+~~~bash
+echo 'export DATABASE_PASSWORD="<role_password>"' >> ~/.zshrc
+~~~
+
+Note here the name we've chosen for our environment variable: `DATABASE_PASSWORD`. Also, remember to update `<role_password>` in the command to what was set above!
+
+Now, this variable lives in our environment for us to use. As the variable is new, we'll want to reload the environment so that we can access it. To reload the environment, you can close and re-open your terminal.
+
+Once that's done, we can move to testing it out!
+
+</details>
 
 </details>
 
