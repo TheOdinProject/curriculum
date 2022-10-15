@@ -208,7 +208,7 @@ If you are unsure about whether postgres is active, it's possible to check with 
 brew services info postgresql@14
 ~~~
 
-Got an error, or don't see an active service? Come visit the Discord for some help!
+Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
 
 If the postgres service is active, move on to the next step.
 
