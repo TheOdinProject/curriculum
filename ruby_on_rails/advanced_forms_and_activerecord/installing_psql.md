@@ -10,10 +10,10 @@ It is also sensible to make sure the application development environment is as c
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Discuss what an environment is and how it can impact our application
-- Briefly discuss environment variables and how to utilize them
-- Install PostgreSQL and set it up
-- Set up a bare Rails application to test our database installation
+-  What an environment is and how it can impact our application
+-  What environment variables are and how to utilize them
+-  How to install PostgreSQL and set it up
+-  How to set up a bare Rails application to use a specific database
 
 ### Environments and Pipelines
 
@@ -21,10 +21,10 @@ In the context of application development, an environment is the collection of t
 
 There are four basic types of environments that are typically set up together. The application that's being developed will then progress through these steps, which are grouped together in a "production pipeline":
 
-1. The development environment is where developers can make changes, add features and improve the code without impacting actual users.
-1. The test environment is set up to facilitate testing of the application. This environment may use different tools and configuration settings (like more verbose logging) to validate a program's behavior and identify bugs.
-1. The staging environment usually mirrors the production environment but deployments are not meant to be public.
-1. The production environment runs the application so that it is accessible by users.
+1,  The development environment is where developers can make changes, add features and improve the code without impacting actual users.
+1,  The test environment is set up to facilitate testing of the application. This environment may use different tools and configuration settings (like more verbose logging) to validate a program's behavior and identify bugs.
+1,  The staging environment usually mirrors the production environment but deployments are not meant to be public.
+1,  The production environment runs the application so that it is accessible by users.
 
 Because an environment is a collection of tools and configurations, they come in handy as a place to store secrets or other information that may change based on the intended use the application.
 
@@ -43,7 +43,7 @@ We will use an environment variable to set up PostgreSQL credentials for our Rai
 
 ### Installing PostgreSQL
 
-If you've been following the curriculum, then you should already have all the supporting bits and pieces installed. If not, please go back and refer to those lessons before continuing. You'll want to confirm that node.js, Ruby, Rails and yarn are all installed.
+If you've been following the curriculum, then you should already have all the supporting bits and pieces installed. If not, please go back and refer to [those lessons](https://www.theodinproject.com/lessons/installation_lessons) before continuing. You'll want to confirm that node.js, Ruby, Rails and yarn are all installed.
 
 Pick your operating system below to get the relevant steps for installing PostgreSQL.
 
@@ -54,8 +54,6 @@ Pick your operating system below to get the relevant steps for installing Postgr
 ### Step 1: Make sure the system is up to date
 Before installing PostgreSQL, it's a good idea to make sure the operating system is up to date.
 
-In Ubuntu, press `Ctrl + Alt + T` to open a new terminal. As a quick reminder, copy and pasting to the terminal in Ubuntu requires doing `Ctrl + Shift + C` and `Ctrl + Shift + V`.
-
 <div class="lesson-note" markdown="1">
 #### Note
 We will be using `sudo` quite a bit. As you follow these instructions, you may be (re-)prompted for your password. Remember that there will be no visual feedback when you type in your password.
@@ -64,8 +62,7 @@ We will be using `sudo` quite a bit. As you follow these instructions, you may b
 To update our system, type in these commands:
 
 ~~~~bash
-sudo apt update
-sudo apt upgrade
+sudo apt update && sudo apt upgrade
 ~~~~
 
 Be sure to review any prompts before pressing `Y` and `Enter`. While they typically advise you about additional space required for updates, this might not be the case!
@@ -83,13 +80,13 @@ After installation is complete, let's start the server using this command:
 sudo systemctl start postgresql.service
 ~~~
 
-If you are unsure about whether postgre is active, it's possible to check with this command:
+If you are unsure about whether `postgresql` is active, it's possible to check with this command:
 
 ~~~bash
 service postgresql status
 ~~~
 
-Got an error, or don't see an active service? Come visit the Discord for some help!
+Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
 
 If postgre is active, you can press `Q` to quit the status screen and move on to the next step.
 
@@ -143,7 +140,7 @@ You should see the PostgreSQL prompt come up with the new role we just created, 
 <role_name>=#
 ~~~
 
-If you don't see a similar prompt, then reach out on Discord for some help. 
+If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. 
 
 If you **do** see a similar prompt, then we can create a password for the role like so:
 
@@ -158,6 +155,8 @@ grant all privileges on database <role_database_name> to <role_name>;
 ~~~
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+
+This role and password combination enables us to log in to the PostgreSQL service to perform operations, so let's save this into the environment so local Rails apps can do those things.
 
 #### 3.5 Saving Access Information in the Environment
 After finishing our configuration, the last step is save it into the environment to access later.
@@ -228,12 +227,12 @@ Rails should create the two databases, and as a final check we can start the Rai
 rails s
 ~~~
 
-Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to the Discord community and get some help!
+Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to the [Discord](https://discord.gg/V75WSQG) community and get some help!
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   RubyGuides has a good [introduction to environment variables](https://www.rubyguides.com/2019/01/ruby-environment-variables/) that has a lot of information.
--   DigitalOcean has a fantastic [guide to setting up PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-22-04) that you can also check out.
--   We set up a role in this guide because [PostgreSQL peer authentication](https://www.postgresql.org/docs/current/auth-peer.html) makes local authorization easy if we do that.
+-    RubyGuides has a good [introduction to environment variables](https://www.rubyguides.com/2019/01/ruby-environment-variables/) that has a lot of information.
+-    DigitalOcean has a fantastic [guide to setting up PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-22-04) that you can also check out.
+-    We set up a role in this guide because [PostgreSQL peer authentication](https://www.postgresql.org/docs/current/auth-peer.html) makes local authorization easy if we do that.
