@@ -180,7 +180,7 @@ Once that's done, we can move to testing it out!
 </summary>
 
 ### Step 1: Make sure the system is up to date
-Before running commands with homebrew, you'll want to make sure things are up to date. Run the following commands.
+Before running commands with homebrew, you'll want to make sure things are up to date. Run the following commands one by one:
 
 ~~~~bash
 brew update
