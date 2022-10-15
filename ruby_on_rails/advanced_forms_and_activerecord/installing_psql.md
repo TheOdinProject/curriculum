@@ -10,10 +10,10 @@ It is also sensible to make sure the application development environment is as c
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--  What an environment is and how it can impact our application
--  What environment variables are and how to utilize them
--  How to install PostgreSQL and set it up
--  How to set up a bare Rails application to use a specific database
+-  What an environment is and how it can impact our application.
+-  What environment variables are and how to utilize them.
+-  How to install PostgreSQL and set it up.
+-  How to set up a bare Rails application to use a specific database.
 
 ### Environments and Pipelines
 
