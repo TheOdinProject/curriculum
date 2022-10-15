@@ -111,7 +111,7 @@ You'll want to take note of your Linux username so we can create the right role!
 With all your information ready, let's create a role in Postgre! The command to do so is:
 
 ~~~bash
-sudo -u postgres createuser --interactive
+sudo -i -u postgres createuser --interactive
 ~~~
 
 Make sure that you enter your Linux user name as the name of the role, and be sure to make that user a superuser. Setting up a role this way means that we leverage "peer authentication" which makes using the local database very easy from Rails.
@@ -122,7 +122,7 @@ One other important step in setting up Postgre is that each role must have its o
 You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
 
 ~~~bash
-sudo -u postgres createdb <linux_username>
+sudo -i -u postgres createdb <linux_username>
 ~~~
 
 Now our role is fully set up: we've got `<role_name>` and that role has a database.
