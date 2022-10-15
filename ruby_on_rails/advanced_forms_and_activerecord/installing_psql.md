@@ -286,7 +286,6 @@ Once that's done, we can move to testing it out!
 
 </details>
 
-</details>
 
 ### Creating a Rails Application Backed by PostgreSQL
 Now that we've installed and configured our local PostgreSQL server, let's generate a new Rails application to make sure everything is working.
