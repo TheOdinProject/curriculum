@@ -30,6 +30,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
         *   Go willy-nilly and add  `console.log` statements in your JavaScript to see if it's actually being loaded.
 3.  Set up a "hover" effect so that the grid divs change color when your mouse passes over them, leaving a \(pixelated\) trail through your grid like a pen would.
     *   Hint: "Hovering" is what happens when your mouse enters a div and ends when your mouse leaves it. You can set up event listeners for either of those events as a starting point.
+    * If you are running into an issue where the cursor displays a disabled symbol when you retrace a block, read up on `event.preventDefault();` [here](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault).
     *   There are multiple ways to change the color of the divs, including:
         *   adding a new class to the div.
         *   changing the div's background color using JavaScript.
