@@ -21,9 +21,10 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
 ~~~
 
 ### Axes
-
 <span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In _most_ circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
-
+<br>
+<img src="https://samanthaming.gumlet.io/flexbox30/4-flexbox-axes.jpg.gz" alt="main axes and cross axes" title="image Title" width="300" height="300"/>
+<br>
 In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically.
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="BaZKPdw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
