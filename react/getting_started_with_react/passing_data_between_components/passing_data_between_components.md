@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should be starting to understand just how powerful React and reusable components can be, but you may be left wondering ‘How can I share information between components?’ or ‘Am I able to customise the behaviour of my components each time I use them?'. In this lesson, we will learn about React props (short for properties) and how to use props to pass data between components. 
+By now you should be starting to understand just how powerful React and reusable components can be, but you may be left wondering ‘How can I share information between components?’ or ‘Am I able to customize the behavior of my components each time I use them?'. In this lesson, we will learn about React props (short for properties) and how to use props to pass data between components. 
 
 ### Lesson Overview
 
@@ -61,7 +61,7 @@ export default function App() {
   )
 }
 ```
-This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colours, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication. 
+This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication. 
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
@@ -150,13 +150,13 @@ export default function App() {
 ```
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`. 
 
-Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customisable React components. You can even pass functions as props! However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
+Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. You can even pass functions as props! However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React Docs Beta on [Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with differnt prop values.
+1.  Read through the React Docs Beta on [Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
 </div>
 
 ### Knowledge Check
