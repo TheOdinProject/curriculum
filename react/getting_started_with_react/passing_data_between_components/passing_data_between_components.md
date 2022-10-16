@@ -17,7 +17,7 @@ In React, data is transferred from parent components to child components via pro
 
 Now that we know *how* data transfers between components, let's explore *why* this might be a useful feature in React. Consider the following `Button` component, which then gets rendered multiple times within our `App` component.
 
-```javascript
+~~~jsx
 function Button() {
   return (
     <button>Click Me!</button>
@@ -33,12 +33,12 @@ export default function App() {
     </div>
   )
 }
-```
+~~~
 So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem. 
 
 What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
 
-```javascript
+~~~jsx
 function Button() {
   return (
     <button>Click Me!</button>
@@ -60,12 +60,12 @@ export default function App() {
     </div>
   )
 }
-```
+~~~
 This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication. 
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
-```javascript
+~~~jsx
 function Button(props) {
 
   const buttonStyle = {
@@ -87,7 +87,7 @@ export default function App() {
     </div>
   );
 }
-```
+~~~
 There are a few things going on here.
 
 - The `Button` functional component now receives `props` as a function argument. The individual properties are then referenced within the component via `props.propertyName`.
@@ -98,7 +98,7 @@ There are a few things going on here.
 
 A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructing in action in the example below.
 
-```javascript
+~~~jsx
 function Button({ text, color, fontSize }) {
   const buttonStyle = {
     color: color,
@@ -117,12 +117,12 @@ export default function App() {
     </div>
   );
 }
-```
+~~~
 ### Default Props
 
 You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default props that will be used by the component in the absence of supplied values.
 
-```javascript
+~~~jsx
 function Button({ text, color, fontSize }) {
   const buttonStyle = {
     color: color,
@@ -147,7 +147,7 @@ export default function App() {
     </div>
   );
 }
-```
+~~~
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`. 
 
 Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. You can even pass functions as props! However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
