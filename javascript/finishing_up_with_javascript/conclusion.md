@@ -1,19 +1,25 @@
 ### The end of the JavaScript course! 
-At this point, you have a very solid skillset for front-end web development. With an understanding of sensible JavaScript code and ReactJS, you can create phenomenal and dynamic frontends.
+Completing the JavaScript course is a major milestone! Congratulations! 
 
-You should be able to use your newfound skillset to integrate your frontends with either Ruby on Rails or NodeJS - the backends Odin teaches. However, in fact, your frontend can integrate with any back-end technologies under the right circumstances! After all, you've spent time working with APIs from the frontend already!
+However, there is still more to go. If you're following the Ruby on Rails path, you've already learned how to build a back-end, but there is one more section, Getting Hired, with excellent content on finding a developer job. 
 
-If you find something you don't know or aren't sure about, you should be, by now, a pro at Googling your way to an answer, looking at docs, and cruising through Stack Overflow posts. You've got all the tools you need to be a developer. And, really, the big secret is that you've been a web developer for some time already.
+If you're following the JavaScript path, you'll complete: 
 
-There's a whole world of exciting things you can learn. Further on the front-end side: React Native to build mobile apps, D3 for data visualization, other single-page MVC front-end frameworks, etc. All that stuff is best learned when you've got something you want to build that requires "the perfect tool for the job." If you're excited to expand your horizons further, you can now look at back-end technologies to start building full-stack applications. If you're on the Ruby on Rails path, you're already there if you've completed the preceding courses!
+- An Advanced HTML and CSS section
+- A NodeJS section where you'll learn to build a back-end
+- And finally, the Getting Hired section
 
-So where do you go from here? BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. But focus on creating interesting software and use that to drive your education. However, we're not done yet. There is yet more to learn!
+At this point, you can create phenomenal and dynamic frontends. These will integrate with the back-ends The Odin Project teaches, Ruby on Rails or Node JS, plus any back-end technologies under the right circumstances! After all, you've spent time working with APIs from the front-end already!
 
-If you're following the Ruby on Rails path, there is one more section, Getting Hired, with excellent content on finding a developer job. If you're following the JavaScript path, you'll complete an Advanced HTML and CSS section, a NodeJS section, and then the Getting Hired section.
+If you find something you don't know or aren't sure about, by now you're a pro at Googling your way to an answer, looking at docs, and cruising through Stack Overflow posts. You've got all the tools you need to be a developer. And, really, the big secret is that you've been a web developer for some time already.
+
+There's a whole world of exciting things you can learn on the front-end side: React Native to build mobile apps, D3 for data visualization, other single-page MVC front-end frameworks, etc. The best way to learn these things is through a project you want to build where you pick the most useful tool for the job.
+
+Whichever path you're on, BUILD! Build and build and build and build (see a theme in this curriculum yet?). Use what you've learned to create great projects. Focusing on creating interesting software is the best way to drive your education.
 
 #### Give Your Feedback
 
-1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link). Getting your feedback is important so we can continue to improve the curriculum and get an idea of users' experience.   
+1. Before you move on to the next section, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link). Getting your feedback is important so we can continue to improve the curriculum and get an idea of users' experience.   
 
 ### Additional Resources
 
