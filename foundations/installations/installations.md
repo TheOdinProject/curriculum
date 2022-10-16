@@ -125,7 +125,7 @@ Your regular operating system (Windows in this case) is called the **Host**, and
   1.  Open a terminal with `Left Ctrl + Alt + T` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
   1.  Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`.
 
-      _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + W` (the `Windows` key should be between the `Left Ctrl` and `Left Alt` keys) or opening the **Whisker Menu** and typing in **Web Browser**. To paste into the terminal either right-click in the terminal and choose **Paste** or use `Shift + Left Ctrl + V`.)_
+      _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your **Web Browser** by pressing `Windows + W` (the `Windows` key should be between the `Left Ctrl` and `Left Alt` keys) or opening the **Whisker Menu** and typing in **Web Browser**. To paste into the terminal either right-click in the terminal and choose **Paste** or use `Shift + Left Ctrl + V`.)_
   1.  Enter your password when it asks you to.
 
       _(__note__: Your password will not be visible in the terminal. You will not see any feedback when you type. This is a security feature to protect your password. Press `Enter` when done.)_
