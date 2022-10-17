@@ -137,7 +137,7 @@ Your regular operating system (Windows in this case) is called the **Host**, and
   1.  In the window we opened in step 12, click **File -> Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
   1.  In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
   1.  Once it finishes, close the terminal.
-  1.  Right-click CD under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
+  1.  Right-click the CD starting with `VBox_GAs` under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
   1.  Reboot your VM. Do this by opening your terminal (`Left Ctrl + Alt + T`) then typing in `reboot` and finally hitting `Enter`.
   1.  You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
