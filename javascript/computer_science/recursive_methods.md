@@ -10,15 +10,16 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment
+### Lesson Overview
 
-* Why is recursion a useful technique for solving a big problem?
-* What are the limitations of using recursive solutions?
-* What types of problems are more suited for simple loops than recursion?
-* What is meant by "recursive depth"?
-* What is a "stack overflow" (the concept, not the website)?
-* Why is that relevant to a recursive problem?
+This section contains a general overview of topics that you will learn in this lesson.
+
+-  Why is recursion a useful technique for solving a big problem?
+-  What are the limitations of using recursive solutions?
+-  What types of problems are more suited for simple loops than recursion?
+-  What is meant by "recursive depth"?
+-  What is a "stack overflow" (the concept, not the website)?
+-  Why is that relevant to a recursive problem?
 
 ### Assignment
 
@@ -35,16 +36,18 @@ Look through these now and then use them to test yourself after doing the assign
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
 </div>
 
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+-  <a class="knowledge-check-link" href="#introduction">How would you briefly define a recursive function?</a>
+-  <a class="knowledge-check-link" href="http://ruby.bastardsbook.com/chapters/recursion/">What is the point of recursion? Is it more efficient than using a plain loop?</a>
+-  <a class="knowledge-check-link" href="https://youtu.be/mz6tAJMVmfM?t=193">What are the 2 essential parts in a recursive function?</a>
+-  <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">Why is "stack overflow" relevant to a recursive problem?</a>
+
 ### Additional Resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
-* [A good resources of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
-
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-* <a class="knowledge-check-link" href="#introduction">How would you briefly define a recursive function?</a>
-* <a class="knowledge-check-link" href="http://ruby.bastardsbook.com/chapters/recursion/">What is the point of recursion? Is it more efficient than using a plain loop?</a>
-* <a class="knowledge-check-link" href="https://youtu.be/mz6tAJMVmfM?t=193">What are the 2 essential parts in a recursive function?</a>
-* <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">Why is "stack overflow" relevant to a recursive problem?</a>
+-  [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
+-  [A good resources of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
