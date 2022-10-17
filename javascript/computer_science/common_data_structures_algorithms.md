@@ -15,18 +15,12 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 This section contains a general overview of topics that you will learn in this lesson.
 
 -  What is a data structure?
--  What is a stack?
--  What is a queue?
--  What's the difference between a stack and a queue?
--  What is a stack useful for?
--  What is a queue useful for?
+-  What are stacks and queues?
 -  What's the best way to implement stacks and queues in Javascript (hint: think simple)?
 -  Why bother having many different search algorithms?
--  What is breadth-first-search (BFS)?
--  What is depth-first-search (DFS)?
+-  What are breadth-first-search (BFS) and depth-first-search (DFS)?
 -  What situations would you want to use BFS?
 -  What situations would you want to use DFS instead?
--  When would BFS be impractical?
 
 ### Assignment
 
