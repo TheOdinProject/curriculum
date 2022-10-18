@@ -28,7 +28,7 @@ There are four basic types of environments that are typically set up together. T
 1.  The staging environment usually mirrors the production environment but deployments are not meant to be public.
 1.  The production environment runs the application so that it is accessible by users.
 
-Because an environment is a collection of tools and configurations, they come in handy as a place to store secrets or other information that may change based on the intended use the application.
+Because an environment is a collection of tools and configurations, they come in handy as a place to store secrets or other information that may change based on the application's intended use.
 
 For example, the local database server might have different credentials than the production one or maybe there are more analytics and logging requirements for a production deployment.
 
