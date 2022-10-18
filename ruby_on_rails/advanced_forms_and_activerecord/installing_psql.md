@@ -49,7 +49,7 @@ We will use an environment variable to set up PostgreSQL credentials for our Rai
 
 If you've been following the curriculum, then you should already have all the supporting bits and pieces installed. If not, please go back and refer to [those lessons](https://www.theodinproject.com/lessons/installation_lessons) before continuing. You'll want to confirm that node.js, Ruby, Rails and yarn are all installed.
 
-Pick your operating system below to get the relevant steps for installing PostgreSQL.
+Pick your operating system below to get the appropriate steps for installing PostgreSQL.
 
 <details markdown="block">
 <summary class="dropDown-header">Ubuntu
