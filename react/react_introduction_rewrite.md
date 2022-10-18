@@ -6,9 +6,7 @@ This lesson will provide you with information on what React is, its brief histor
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand the differences between a Javascript Library and Framework
-- Understand the benefits of learning React
-- Understand what is react
+- Understand what is React
 
 ### What Is React?
 
