@@ -4,7 +4,7 @@ One of the great things about the Rails' convention over configuration philosoph
 
 For the apps written so far, it's probably not a big deal. As we progress to writing larger applications, though, it will become increasingly sensible to make sure that data persists even after a restart or hibernation.
 
-It is also sensible to make sure the application development environment is as close to the production environment as possible. This helps to avoid problems that stem from using different tools in different environments.
+It is also safer to make sure the application development environment is as close to the production environment as possible. This helps to avoid problems that stem from using different tools in different environments.
 
 ### Lesson Overview
 
