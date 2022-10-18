@@ -1,6 +1,6 @@
 ### Introduction
 
-One of the great things about Rails is that it comes with some sensible defaults so that you can get started quickly. However, SQLite is typically not used for production. One major issue is that many hosting providers have ephemeral file systems which means your database can be deleted.
+One of the great things about the Rails' convention over configuration philosophy is it provides sensible defaults out of the box so that you can get started quickly. However, SQLite is typically not used for production. One major issue is that many hosting providers have ephemeral file systems which means your database can be deleted.
 
 For the apps written so far, it's probably not a big deal. As we progress to writing larger applications, though, it will become increasingly sensible to make sure that data persists even after a restart or hibernation.
 
