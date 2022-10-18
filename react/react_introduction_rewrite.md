@@ -38,7 +38,7 @@ If you need more convincing, the recent [2022 StackOverflow Developer Survey](ht
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  If you haven't already, browse through the [React Website](https://reactjs.org/). Don't go too indepth and dive into documentation however do read the introduction/homepage to gage an idea of how React works.
+1.  If you haven't already, browse through the [React Website](https://reactjs.org/). Don't go too indepth and dive into documentation however do read the introduction/homepage to gauge an idea of how React works.
 
 2.  Glance at [this article which outlines the history of React](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/).
 
