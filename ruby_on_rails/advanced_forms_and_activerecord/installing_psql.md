@@ -23,7 +23,7 @@ There are four basic types of environments that are typically set up together. T
 
 <span id="pipeline"></span>
 
-1.  The development environment is where developers can make changes, add features and improve the code without impacting actual users.
+1.  The development environment is typically the developers local machine. Where they can safely make changes, add features and improve the code without impacting actual users.
 1.  The test environment is set up to facilitate testing of the application. This environment may use different tools and configuration settings (like more verbose logging) to validate a program's behavior and identify bugs.
 1.  The staging environment usually mirrors the production environment but deployments are not meant to be public.
 1.  The production environment runs the application so that it is accessible by users.
