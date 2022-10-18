@@ -35,7 +35,7 @@ For example, the local database server might have different credentials than the
 As applications get larger, setting up these different environments can help developers deliver their best work while making sure changes (or bugs) don't negatively affect users.
 
 ### Environment Variables
-<span id="env_var">The foundation of any environment is the operating system, and they provide ways to store local variables. Not surprisingly, these are known as environment variables.</span>
+<span id="env_var">The foundation of any environment is the operating system, which provides ways to store local variables. Not surprisingly, these are known as environment variables.</span>
 
 Why are environment variables important? After all, the information could be added to the git repository (and by extension Github). While tools like git and Github are excellent for storing, versioning and sharing code; sensitive information like API keys or passwords should be kept private. Even if you remove the private data from the current commit, it may still live on in the commit history!
 
