@@ -30,7 +30,7 @@ There are four basic types of environments that are typically set up together. T
 
 Because an environment is a collection of tools and configurations, they come in handy as a place to store secrets or other information that may change based on the application's intended use.
 
-For example, the local database server might have different credentials than the production one or maybe there are more analytics and logging requirements for a production deployment.
+For example, the local database server might have different credentials than the production database or maybe there are more analytics and logging requirements for production deployment.
 
 As applications get larger, setting up these different environments can help developers deliver their best work while making sure changes (or bugs) don't negatively affect users.
 
