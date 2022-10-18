@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 In the context of application development, an environment is the collection of tools, configurations and conventions that developers write and run code with. An environment usually consists of an operating system and other software packages on top of that operating system. Some of that software, like `code`, helps write software while others, like `rbenv`, provide tools and configurations to help run software.
 
-There are four basic types of environments that are typically set up together. The application that's being developed will then progress through these steps, which are grouped together in a "production pipeline":
+There are four basic types of environments that are typically set up together. The application that's being developed will then progress through these environments, which are grouped together in a "production pipeline":
 
 <span id="pipeline"></span>
 
