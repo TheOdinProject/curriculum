@@ -62,7 +62,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 
-*  Regular expressions, commonly known as regex, is a tool that matches or locates patterns in strings for string validation. Although it shouldn't be your immediate solution this early on, you can still use this resource to better understand how websites know that `myemail@com` isn't a valid email address. Keep in mind that there does exist other solutions to filter out strings and regex is considered a very slow operation. 
+- Regular expressions, commonly known as regex, are a tool that matches or locates patterns in strings for string validation. Although it shouldn't be your immediate solution this early on, you can still use this resource to understand how websites know that `myemail@com` isn't a valid email address. On top of that, other solutions to filter out strings exist, and regex is considered a slow operation.
 
 - [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
 - [When to use Regex vs Built in String Methods? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
