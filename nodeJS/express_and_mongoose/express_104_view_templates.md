@@ -30,14 +30,14 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- [Why do we use the async module?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async, "Asynchronous flow control using async")
-- [Why are async methods needed and what do they avoid?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#why_is_this_needed, "Permalink to Why is this needed?")
-- [How do we run multiple asynchronous operations in parallel?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_parallel, "Permalink to Asynchronous operations in parallel")
-- [How do we run multiple asynchronous operations in series?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_series, "Permalink to Asynchronous operations in series")
-- [When do we use `async.waterfall()` instead of `async.series()` ?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#dependent_asynchronous_operations_in_series, "Permalink to Dependent asynchronous operations in series")
-- [How do we nest elements and define attributes in Pug?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer/#template_syntax, "Permalink to Template syntax")
-- [What is a base template and how do we extend it?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer/#extending_templates, "Permalink to Extending templates")
-- [Why do we use luxon instead of the regular date format?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Date_formatting_using_moment, "Permalink to Create the virtual property")
+- [Why do we use the async module?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async)
+- [Why are async methods needed and what do they avoid?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#why_is_this_needed)
+- [How do we run multiple asynchronous operations in parallel?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_parallel)
+- [How do we run multiple asynchronous operations in series?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#asynchronous_operations_in_series)
+- [When do we use `async.waterfall()` instead of `async.series()` ?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/flow_control_using_async/#dependent_asynchronous_operations_in_series)
+- [How do we nest elements and define attributes in Pug?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer/#template_syntax)
+- [What is a base template and how do we extend it?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Template_primer/#extending_templates)
+- [Why do we use luxon instead of the regular date format?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Date_formatting_using_moment)
 
 
 ### Additional Resources

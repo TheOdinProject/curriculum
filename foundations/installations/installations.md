@@ -32,7 +32,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.1: Download VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts.
+[Click here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1 "VirtualBox Downloads") and download VirtualBox for Windows hosts. Don't worry about it saying "(Old Builds)" - the version at the top (6.1.40 at the time of writing) is still fresh and supported by Oracle.
 
 #### Step 1.2: Download Xubuntu
 
