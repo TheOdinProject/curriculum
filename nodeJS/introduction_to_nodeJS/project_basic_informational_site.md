@@ -22,7 +22,7 @@ If you get stuck at anytime, feel free to go back to the tutorial from the previ
 </div>
 
 ### Submitting a Solution
-If you're planning to submit a live demo with your student solution, one of the easiest ways to do that is using Repl.it. To do this:
+If you're planning to submit a live demo with your student solution, one of the easiest ways to do that is using Replit. To do this:
 
 1. Go to [replit.com](https://replit.com)
 2. Create a new repl
