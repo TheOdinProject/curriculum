@@ -132,7 +132,7 @@ most straightforward is `File.read`.
 ~~~ruby
 puts 'EventManager initialized.'
 
-contents = File.read('event_attendees.csv')
+contents = File.read('../event_attendees.csv')
 puts contents
 ~~~
 
@@ -156,7 +156,7 @@ save each line as a separate item in an array.
 ~~~ruby
 puts 'EventManager initialized.'
 
-lines = File.readlines('event_attendees.csv')
+lines = File.readlines('../event_attendees.csv')
 lines.each do |line|
   puts line
 end
@@ -212,7 +212,7 @@ specify the comma `","` character to separate the columns.
 ~~~ruby
 puts 'EventManager initialized.'
 
-lines = File.readlines('event_attendees.csv')
+lines = File.readlines('../event_attendees.csv')
 lines.each do |line|
   columns = line.split(",")
   p columns
@@ -227,7 +227,7 @@ would access the array's first element, and `columns[2]` will give us the third.
 ~~~ruby
 puts 'EventManager initialized.'
 
-lines = File.readlines('event_attendees.csv')
+lines = File.readlines('../event_attendees.csv')
 lines.each do |line|
   columns = line.split(",")
   name = columns[2]
@@ -253,7 +253,7 @@ our current header row.
 ~~~ruby
 puts 'EventManager initialized.'
 
-lines = File.readlines('event_attendees.csv')
+lines = File.readlines('../event_attendees.csv')
 lines.each do |line|
   next if line == " ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode\n"
   columns = line.split(",")
@@ -274,7 +274,7 @@ line.
 ~~~ruby
 puts 'EventManager initialized.'
 
-lines = File.readlines('event_attendees.csv')
+lines = File.readlines('../event_attendees.csv')
 row_index = 0
 lines.each do |line|
   row_index = row_index + 1
@@ -291,7 +291,7 @@ This is a such a common operation that Array defines
 ~~~ruby
 puts 'EventManager initialized.'
 
-lines = File.readlines('event_attendees.csv')
+lines = File.readlines('../event_attendees.csv')
 lines.each_with_index do |line,index|
   next if index == 0
   columns = line.split(",")
@@ -350,7 +350,7 @@ You can browse the many libraries available through the [documentation](http://r
 require 'csv'
 puts 'EventManager initialized.'
 
-contents = CSV.open('event_attendees.csv', headers: true)
+contents = CSV.open('../event_attendees.csv', headers: true)
 contents.each do |row|
   name = row[2]
   puts name
@@ -388,7 +388,7 @@ require 'csv'
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -408,7 +408,7 @@ require 'csv'
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -468,7 +468,7 @@ require 'csv'
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -520,7 +520,7 @@ require 'csv'
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -577,7 +577,7 @@ require 'csv'
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -653,7 +653,7 @@ end
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -816,7 +816,7 @@ end
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -861,7 +861,7 @@ end
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -1018,7 +1018,7 @@ end
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
@@ -1116,7 +1116,7 @@ the template using the same File tools we used at the beginning of the exercise.
 Within our application we will load our template:
 
 ~~~ruby
-template_letter = File.read('form_letter.html')
+template_letter = File.read('../form_letter.html')
 ~~~
 
 It is important to define the `form_letter.html` file in the root of project
@@ -1147,7 +1147,7 @@ change the original template, they'd all have the same name! By making a copy
 and then changing the copy, we're sure everyone's name is unique.
 
 ~~~ruby
-template_letter = File.read('form_letter.html')
+template_letter = File.read('../form_letter.html')
 
 contents.each do |row|
   name = row[:first_name]
@@ -1341,12 +1341,12 @@ end
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
 
-template_letter = File.read('form_letter.erb')
+template_letter = File.read('../form_letter.erb')
 erb_template = ERB.new template_letter
 
 contents.each do |row|
@@ -1374,7 +1374,7 @@ contents as a string and provide them as a parameter when creating the new ERB
 template.
 
 ~~~ruby
-template_letter = File.read('form_letter.erb')
+template_letter = File.read('../form_letter.erb')
 erb_template = ERB.new template_letter
 ~~~
 
@@ -1502,12 +1502,12 @@ end
 puts 'EventManager initialized.'
 
 contents = CSV.open(
-  'event_attendees.csv',
+  '../event_attendees.csv',
   headers: true,
   header_converters: :symbol
 )
 
-template_letter = File.read('form_letter.erb')
+template_letter = File.read('../form_letter.erb')
 erb_template = ERB.new template_letter
 
 contents.each do |row|
