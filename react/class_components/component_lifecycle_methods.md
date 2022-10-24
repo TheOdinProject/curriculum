@@ -16,6 +16,10 @@ The render function is the most used lifecycle method, and one that you've come 
 
 This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to do anything that is reliant on the component, such as drawing on a canvas element that you just rendered.
 
+### ComponentWillUnmount
+
+This is the last lifecycle method, which is called before a component is unmounted and destroyed. In this method you should be performing cleanup actions, so that would be cancelling network requests, clearing timers, etc.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
