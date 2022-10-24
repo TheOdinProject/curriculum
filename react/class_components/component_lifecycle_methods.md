@@ -12,6 +12,10 @@ This section contains a general overview of topics that you will learn in this l
 ### Render
 The render function is the most used lifecycle method, and one that you've come across in the last class components lesson. It is the only required lifecycle method in a class component. It runs on mount and update of a component. Render should be pure, meaning it doesn't modify component state, returns the same thing each time it's called (given the same inputs), and doesn't directly interact with the browser. 
 
+### ComponentDidMount
+
+This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to do anything that is reliant on the component, such as drawing on a canvas element that you just rendered.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
