@@ -1,6 +1,6 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+In the previous section, you've dealt with the component lifecycle through the useEffect function. This is how you've run code based on a components lifecycle stage so far, but in class components we have to use specific lifecycle methods instead. In this lesson, we are going to cover said methods.
 
 ### Lesson Overview
 
