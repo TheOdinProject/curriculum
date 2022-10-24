@@ -8,11 +8,13 @@ We can only support the operating systems indicated above. Our instructions have
 
 </div>
 
-### OS Installation
+### 1: OS Installation
 
-**IMPORTANT**
+#### IMPORTANT
 
 This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device.
+
+Pick your method of installation below:
 
 <details markdown="block">
 <summary class="dropDown-header">Virtual Machine (Recommended)
@@ -24,13 +26,13 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
-**IMPORTANT**
+#### IMPORTANT
 
-Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 #### Step 1.1: Download VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads "VirtualBox Downloads") and download VirtualBox for Windows hosts.
+[Click here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1 "VirtualBox Downloads") and download VirtualBox for Windows hosts. Don't worry about it saying "(Old Builds)" - the version at the top (6.1.40 at the time of writing) is still fresh and supported by Oracle.
 
 #### Step 1.2: Download Xubuntu
 
@@ -52,23 +54,23 @@ Click on the “New” button to create a virtual operating system. Give it a na
 
 ![Xubuntu should make the Version be Ubuntu (64-bit) automatically](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png)
 
-1. Memory size: Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!<br/>**Note:** Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
+**1. Memory size:** Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, please click [here](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!<br/>**Note:** Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
 
    ![Please allow me to Google that for you](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/02.png)
 
-2. Hard disk: Click **“Create a virtual hard disk now”.**
+**2. Hard disk:** Click **“Create a virtual hard disk now”.**
 
    ![The VirtualBox Create Hard Disk window 1](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/03.png)
 
-3. Hard disk file type: Choose the **VDI (VirtualBox disk image)** option.
+**3. Hard disk file type:** Choose the **VDI (VirtualBox disk image)** option.
 
    ![The VirtualBox Create Virtual Hard Disk window 2](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/04.png)
 
-4. Storage on physical hard disk: **“Dynamically allocated”**.
+**4. Storage on physical hard disk:** **“Dynamically allocated”**.
 
    ![The VirtualBox Create Virtual Hard Disk window 3](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/05.png)
 
-5. File location and size: We recommend **at least 30 GB** for the virtual hard disk.
+**5. File location and size:** We recommend **at least 30 GB** for the virtual hard disk.
 
    ![The VirtualBox Create Virtual Hard Disk window 4](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/07.png)
 
@@ -110,9 +112,9 @@ When the installation is finished and asks you to **"Please remove the installat
 
 Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
 
-While your VM is running, do the following steps:
+#### While your VM is running, do the following steps:
 
-  1. Click the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> on the top left of the desktop.
+  1. Click the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop.
   2. Type `Software Updater` in the text field that opens up and click on the item with the same name.
   3. Install all available updates. If there are no available updates, move on to Step 5.
   4. If the **Software Updater** is stuck waiting for an **unattended upgrade** to finish, reboot the VM and start again from Step 1.
@@ -131,14 +133,14 @@ While your VM is running, do the following steps:
   17. Reboot your VM (which you can do by typing `reboot` and hitting enter in a terminal).
   18. You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
-  **NOTE**:
+#### NOTE:
 
 * If upon trying to start the VM you only get a black screen, close and "power off" the VM, click "Settings -> Display" and make sure "Enable 3D Acceleration" is UNCHECKED, and Video memory is set to AT LEAST 128mb.
 * If you receive an error when trying to mount the Guest Additions CD image ("Unable to insert the virtual optical disk"):
 
-   Suggestion 1: Reboot your host (Windows/OSX) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
+   **Suggestion 1:** Reboot your host (Windows/OSX) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
 
-   Suggestion 2: In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the Storage tab, under Controller: IDE, click on VBoxGuestAdditions.iso and make sure "Live CD/DVD" is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled "Live CD/DVD": under Controller: IDE, by selecting the blue circle dropdown on the right side of the window and clicking "Remove Disk from Virtual Drive". It is also suggested to uncheck "Live CD/DVD" at this point.
+   **Suggestion 2:** In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the Storage tab, under Controller: IDE, click on VBoxGuestAdditions.iso and make sure "Live CD/DVD" is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled "Live CD/DVD": under Controller: IDE, by selecting the blue circle dropdown on the right side of the window and clicking "Remove Disk from Virtual Drive". It is also suggested to uncheck "Live CD/DVD" at this point.
 * If you encounter the error "VirtualBox-Error: Failed to open a session for the virtual machine..." you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow these [instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
 * Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
 
@@ -164,7 +166,7 @@ You don't pull the plug on your everyday use computer, right? Why would you do t
 
 #### Option 1 - Shutting down from inside the VM with UI
 
-Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" style="width:25px" title="The Whisker Menu Icon" alt="Whisker Menu Icon"> and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
+Clicking on the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) and clicking the power icon will give you several options on how to modify your session, including Shutting Down.
 
 ![Power Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_01.png)
 <br/>
@@ -193,7 +195,7 @@ To be safe, click the "Send the shutdown signal" radio and hit OK. This will saf
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
 </summary>
 
-**Read this entire section before starting**
+### Read this entire section before starting
 
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
@@ -226,7 +228,7 @@ If you would like to test out the version of Ubuntu on the flash drive, click 'T
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
 For step-by-step instructions, please follow this [installation guide](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73) from the Dave’s RoboShack.
-   
+
 ### Intel RST (Rapid Storage Technology)
 
 If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
@@ -239,8 +241,8 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
-1. You have a supported Chromebook:  
-    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)  
+1. You have a supported Chromebook:
+    * [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
     * [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
 2. You can install [Linux](https://support.google.com/chromebook/answer/9145439?hl=en)
 
@@ -248,7 +250,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 </details>
 
-### Google Chrome Installation
+### 2: Google Chrome Installation
 
 #### Why Google Chrome?
 
@@ -279,6 +281,8 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
    - Enter your password, if needed
 
+   _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+
 #### Step 3: Delete the installer file
 
 ~~~bash
@@ -286,14 +290,17 @@ rm google-chrome-stable_current_amd64.deb
 ~~~
 
 #### Step 4: Using Google Chrome
+   
 You can start chrome in two ways,
 
    - Click **Google Chrome** from the Applications menu
-   - **Or**, use the `google-chrome` command from the terminal *(Don't worry about the messages printed in the terminal)*
+   - **Or**, use the `google-chrome` command from the terminal
 
 ~~~bash
 google-chrome
 ~~~
+
+_(__note__: Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
 
 </details>
 

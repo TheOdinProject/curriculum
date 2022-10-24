@@ -79,7 +79,7 @@ teacher_mailboxes.dig(0, 4)
 ### Creating a new nested array
 Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [documentation](https://ruby-doc.org/core-3.1.2/Array.html) the second optional argument, for the default value, should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array.
 
-To create an array of mutable objects (string, array, hash, etc), you will need to pass the default value for `Array.new` via a block, using curly braces, instead of the second optional argument. The code in the block gets evaluated for every slot in the array, creating multiple objects to initialize the array with, rather than references to the same object.
+To create an immutable array of mutable objects (string, array, hash, etc), you will need to pass the default value for `Array.new` via a block, using curly braces, instead of the second optional argument. The code in the block gets evaluated for every slot in the array, creating multiple objects to initialize the array with, rather than references to the same object.
 
 To see this for yourself, let's look at two examples. This first example uses the second optional argument for the default value.
 
@@ -131,7 +131,7 @@ test_scores
 ~~~
 
 ### Iterating over a nested array
-Let's break down how to iterate over a nested array using the `#each_with_index` method. I find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row.
+Let's break down how to iterate over a nested array using the `#each_with_index` method. You might find it helpful to think of a nested array as having rows and columns. Each row is the nested element and each column is the index of the nested element. When we iterate over the teacher_mailboxes example, each element will be one row.
 
 ~~~ruby
 teacher_mailboxes.each_with_index do |row, row_index|
@@ -284,7 +284,7 @@ vehicles
 ~~~
 
 ### Methods
-There are many helpful methods to use with nested hashes. Once you know what data you need from a nested hash, I have found that browsing through the documentation and experimenting with them in IRB is the best way for me to understand how they work.
+There are many helpful methods to use with nested hashes. Once you know what data you need from a nested hash, you might find that browsing through the documentation and experimenting with them in IRB is the best way for you to understand how they work.
 
 Let's look at an example using the vehicles nested hash. Let's say that we want to know who owns vehicles that are from 2020 or newer. At first glance in the documentation, it looks like `#select` would be a great method to use.
 
@@ -316,7 +316,7 @@ vehicles.filter_map { |name, data| name if data[:year] >= 2020 }
 #=> [:caleb, :dave]
 ~~~
 
-Amazing! We have found a great solution to returning an array that only contains the names of the owners of vehicles from 2020 or newer! Plus, we got experience using other methods that you will probably use in the future. I have found some really useful methods by exploring the documentation when I have a specific use case in mind.
+Amazing! We have found a great solution to returning an array that only contains the names of the owners of vehicles from 2020 or newer! Plus, we got experience using other methods that you will probably use in the future. We have found some really useful methods by exploring the documentation when we have a specific use case in mind.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -328,7 +328,10 @@ Amazing! We have found a great solution to returning an array that only contains
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

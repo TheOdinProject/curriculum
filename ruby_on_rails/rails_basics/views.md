@@ -47,7 +47,7 @@ If this is confusing, here's an example:  Say we want to display the first names
     </ul>
   <% else %>
     <strong>You must sign in!</strong>
-<% end %>
+  <% end %>
 ~~~
 
 Remember to close your statements and loops with `<% end %>`!  (You'll forget a few times.)

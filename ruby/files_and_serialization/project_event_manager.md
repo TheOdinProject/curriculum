@@ -1287,7 +1287,7 @@ return to the application.
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
-          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
+          <td><%= "#{legislator.urls.join(" ")}" unless legislator.urls.nil? %></td>
         </tr>
         <% end %>
     <% else %>

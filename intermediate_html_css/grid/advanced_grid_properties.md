@@ -104,7 +104,7 @@ Let's take a look at what happens if we give our column and row tracks in the sa
 
 Notice how all of our grid items now fill up the entire width and height of the grid? Neat, right? Now, try resizing that example and see what happens. Even cooler!
 
-We can also tell our grid items to distribute the remaining space disproportionately. For example, if I divide my 5 columns up by giving the first two a track size of `2fr` and the remaining three a track size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
+We can also tell our grid items to distribute the remaining space disproportionately. For example, if we divide the 5 columns up by giving the first two a track size of `2fr` and the remaining three a track size of `1fr`, the first two tracks will be given twice as much remaining space as the others. Compare this example to the previous one:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="QWqwwJG" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/QWqwwJG">
@@ -301,14 +301,15 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
 
-### Practice
-
-> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+### Assignment
+<div class="lesson-content__panel" markdown="1">
+When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
 Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
 
 1. grid-layout-2
 2. grid-layout-3
+</div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
