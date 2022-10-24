@@ -6,7 +6,8 @@ In the previous section, you've dealt with the component lifecycle through the u
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   A LESSON OVERVIEW ITEM.
+*   What the different lifecycle methods are.
+*   How we can use these lifecycle methods in our app.
 
 ### CUSTOM SECTION HEADING
 
