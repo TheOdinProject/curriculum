@@ -9,9 +9,8 @@ This section contains a general overview of topics that you will learn in this l
 *   What the different lifecycle methods are.
 *   How we can use these lifecycle methods in our app.
 
-### CUSTOM SECTION HEADING
-
-CUSTOM SECTION CONTENT.
+### Render
+The render function is the most used lifecycle method, and one that you've come across in the last class components lesson. It is the only required lifecycle method in a class component. It runs on mount and update of a component. Render should be pure, meaning it doesn't modify component state, returns the same thing each time it's called (given the same inputs), and doesn't directly interact with the browser. 
 
 ### Assignment
 
