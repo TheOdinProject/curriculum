@@ -1,8 +1,8 @@
 ### Introduction
 
-In the previous section, you've dealt with the component lifecycle through the useEffect function. This is how you've run code based on a components lifecycle stage so far, but in class components we have to use specific lifecycle methods instead. In this lesson, we are going to cover said methods.
+In the previous section, you've dealt with the component lifecycle through the useEffect function. This is how you've run code based on a components lifecycle stage so far, but in class components we have to use specific lifecycle methods instead.
 
-We'll start with a short recap of what a components lifecycle is. There are three stages to a components life, mounting, updating and unmounting.
+We'll start with a short recap of what a components lifecycle is. There are three stages to a components life, mounting, updating and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
 
 ### Lesson Overview
 
