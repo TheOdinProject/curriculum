@@ -32,10 +32,7 @@ This is the last lifecycle method, which is called before a component is unmount
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM
-    *   AN INSTRUCTION ITEM
-2. A PRACTICE ITEM
-    * A TASK ITEM
+1.  Check out this [lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
 </div>
 
 ### Knowledge Check
