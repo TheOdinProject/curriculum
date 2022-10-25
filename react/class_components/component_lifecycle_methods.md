@@ -43,7 +43,10 @@ This is the last lifecycle method, which is called before a component is unmount
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
+*   <a class="knowledge-check-link" href="#render">What is the only required lifecycle method?</a>
+*   <a class="knowledge-check-link" href="#componentdidmount">What lifecycle method should you use for initial data fetching?</a>
+*   <a class="knowledge-check-link" href="#componentdidupdate">When you want to act upon change of the DOM, or of state, what lifecycle method would you use?</a>
+*   <a class="knowledge-check-link" href="#componentwillunmount">When performing cleanup actions, what lifecycle method should be used?</a>
 
 ### Additional Resources
 
