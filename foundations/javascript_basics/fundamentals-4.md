@@ -50,6 +50,7 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
 - [Breaking Down JavaScript for Loops - Medium](https://medium.com/@cyclonestudios/loop-ception-breaking-down-nested-for-loops-in-javascript-e3387ca1d6fc)
 
 ### Knowledge Check
