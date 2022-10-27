@@ -238,5 +238,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
--   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+-   [Blacklisted: When Google Classified the Entire Web using (`/`) as Malware](https://medium.com/dataseries/blacklisted-when-google-classified-the-entire-web-as-malware-d8ad8d78f737)
 
