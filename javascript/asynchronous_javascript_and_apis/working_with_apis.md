@@ -212,7 +212,7 @@ Running the file should now log the URL of the image. All that's left to do is s
 
 If all goes well, you should see a new image on the page every time you refresh!
 
-If you've gotten lost along the way, check out [this jsbin project](http://jsbin.com/canofar/edit?html,output). Besides the glorious styling, this is what your version should look like.
+If you've gotten lost along the way, check out this [jsbin project](http://jsbin.com/canofar/edit?html,output). Besides the glorious styling, this is what your version should look like.
 
 While we are pushing this API key to the frontend, this isn't something you should do with any key that is not free, anything on the client is public knowledge. Handling keys that are unsafe to push to the frontend will be taught in later sections if you haven't been exposed in the Ruby course.
 
