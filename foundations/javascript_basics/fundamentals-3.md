@@ -28,21 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
     Feel free to experiment with the code on your own and replace `'Goat'` with your favorite animal. Notice how we can change the argument to anything we like? Try changing `animal` in the function declaration and in the function body, too. What happens when you do?
 
-Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`. Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without console.logging what it returns, nothing would appear in the console **but** nonetheless the function would return that string. 
-    ~~~javascript
-     function favoriteAnimal(animal) {
-       return animal + " is my favorite animal!"
-     }
-
-     function exclaimTruth(statement) {
-       return 'It is indeed true that: ' + statement
-     }
-
-     theTruth = exclaimTruth(favoriteAnimal('Goat'))
-     console.log(theTruth)
-    ~~~
-
-    Thanks to the `console.log(theTruth)` this code snippet would print `It is indeed true that: Goat is my favorite animal!` to the console. Neat, huh?
+    Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`. Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without console.logging what it returns, nothing would appear in the console **but** nonetheless the function would return that string.
 
 4.  Next, read [this article](http://javascript.info/function-basics) from Javascript.info. We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation. This article covers one of the more useful new abilities: 'default parameters'. \(NOTE: The last "task" at the end of this lesson uses loops, which you will learn about in the next lesson.  Don't worry about that one.\)
 5.  Now, read [this article](http://javascript.info/function-expressions) about functions in JavaScript to give you a little more context, and read [this article](http://javascript.info/arrow-functions-basics) for an introduction to a relatively new feature in modern JavaScript called the `arrow function`. Arrow functions are useful but not crucial, so don't worry about them too much just yet. We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
