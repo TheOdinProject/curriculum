@@ -20,33 +20,33 @@ by the end of the lesson you should be able to answer the following:
 
 ### Where do keys matter?
 
-For this lesson we will be primarily talking about `arrays` in React. Ideally an `array of objects`.
+For this lesson we will be primarily talking about `arrays` or lists in React. Ideally an `array` of `objects`.
 
 ### Why does React need keys?
 
 Lets imagine you take notes while working through The Odin Project.
-Maybe you use index cards, lined paper, graph paper, sketch out your designs, or draw in general.
+Maybe you use index cards, lined paper, graph paper, or sketch out your designs on these notes.
 
 Now if these notes are in a pile, we can think of them as an `array` and each one having a particular `index` in the list.
 
 What happens if we want to reorder the list, or remove a note from the list. Maybe we need to find an old note in the middle of the pile.
 
-It gets a bit confusing to manage data this way.
+It gets a bit confusing to manage and keep track of which papers are still in order.
 
-One solution might be to add a `key` of some kind on each page about what that note covers.
+One solution might be to add a summary or `key` of some kind to each page about what that note covers.
 
 Similarly `keys` help React to keep track of the items in a list. `keys` allow React to know when to render, what to render, when to re render, and when not to re render.
 
 
 ### What does it matter if the keys match or do not match?
 
-If an item in an array changes, keys are how react knows what to change on the dom.
+If an item in an array changes, keys tell React what dom elements have changed.
 
 Say a single item in the middle of the array changes. Now we could re render the entire list, or we could just update that one single item. React uses `keys` to identify that particular item in the dom, and re-render that single item in the dom.
 
-Should the `keys` NOT match, the entire list will re-render because React does not know how to identify or target the specific item that was changed.
+When an item is changed in the array, React will go through each `key`. If the `key` does NOT match, react will leave that list item alone. If React finds a match, it will update that item in the dom accordingly.
 
-As long as `keys` remain consistent and unqiue, React can handle the dom efficiently and effectively.
+As long as `keys` remain consistent and unique, React can handle the dom efficiently and effectively.
 
 ### What are keys?
 
@@ -89,7 +89,7 @@ Without keys, React would not be able to handle the dom as elegantly as it does.
 
 - Using index as a key should be a last resort.
 
-- !! do not do `key={uniqid()} !!` **unless** you are absolutely sure you know what you are doing, and want this particular behavior. This is marked as an `anti-pattern` in React docs.
+- !! do not do `key={uuid()} !!` **unless** you are absolutely sure you know what you are doing, and want this particular behavior. This is marked as an `anti-pattern` in React docs.
 
 - `key={Math.random()}` or `key={uuid()}` will force a re render of the entire list any time the list is changed. This is extremely slow, and inefficient and should be considered an `anti-pattern` in React.
 
@@ -104,9 +104,9 @@ Iterating over a list of objects that have a unique identifier.
 Best practice would be to add a unique ID when the item is created.
 
 ~~~jsx
-// In this example lets say when someone creates a new todo, the todo constructor adds `id: uniqid()`
+// In this example lets say when someone creates a new todo, the todo constructor adds `id: uuid()`
 const todos = [
-  { task: 'mow the yard', id: '1j32b51bk' }, // `id: uniqid()` on todo creation
+  { task: 'mow the yard', id: '1j32b51bk' }, // `id: uuid()` on todo creation
   { task: 'Work on Odin Projects', id: '41hgi12gi' },
   { task: 'feed the cat', id: '12ih412b412b4' },
 ];
@@ -121,7 +121,7 @@ function TodoList() {
 
 Better than plain `index`.
 
-When working with an array of primitive values, we wont have a unique id property to pass to key. One idea that would work better than just using `index` as the `key` would be to concatinate `array[index] + index` as this is more likely to be a unique value.
+When working with an array of primitive values, we wont have a unique id property to pass to key. One idea that would work better than just using `index` as the `key` would be to concatenate `array[index] + index` as this is more likely to be a unique value.
 
 ~~~jsx
 const todos = ['mow the yard', 'Work on Odin Projects', 'feed the cat'];
@@ -140,7 +140,7 @@ Using index correctly
 If a list will never be modified **or** stictly manipulated by `push()` + `pop()` we can use index.
 
 ~~~jsx
-const months = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 function MonthList(){
     return (
@@ -165,7 +165,7 @@ const todos = [
   { task: 'feed the cat' },
 ];
 
-const iterateTodos = todos.map((todo) => (<li key={uniqid()}>{todo.task}</li>));
+const iterateTodos = todos.map((todo) => (<li key={uuid()}>{todo.task}</li>));
 
 function TodoList() {
   return <ul>{iterateTodos}</ul>;
@@ -191,8 +191,8 @@ This next example should be avoided and can be considered an anti-pattern in Rea
 generating keys in this way will cause the `keys` to never match up between renders, leading to all your components and DOM being recreated every time. Not only is this slow, but it will also lose any user input inside the list items. Instead, use a stable ID based on the data.
 
 
-DONT DO:
-```jsx
+DO NOT DO:
+~~~jsx
 const todos = ['odin', 'lunch', 'more odin', 'laundry']
 const RenderList = () => {
   return (
@@ -207,23 +207,23 @@ const RenderList = () => {
     </div>
   )
 }
-```
+~~~
 
 DO:
-```jsx
-const newTodo = ({task, prio}) => {
+~~~jsx
+const newTodo = ({task, priority}) => {
   return {
     task,
-    prio,
+    priority,
     id: uuid()  // id in included WHEN a todo is created
   }
 }
 
 const todos = [
-  newTodo({task: 'odin', , prio: 'high'}), // id generated on creation
-  newTodo({task: 'lunch', prio: 'low' }),
-  newTodo({task: 'more odin', prio:'high'}),
-  newTodo({task: 'laundry', prio:'medium' })
+  newTodo({task: 'odin', , priority: 'high'}), // id generated on creation
+  newTodo({task: 'lunch', priority: 'low' }),
+  newTodo({task: 'more odin', priority:'high'}),
+  newTodo({task: 'laundry', priority:'medium' })
   ];
 
   const RenderList = () => {
@@ -233,20 +233,18 @@ const todos = [
         return (
           <div key={todo.id}>
             task: {todo.task}
-            priority: {todo.prio}
+            priority: {todo.priority}
           </div>
         )
       })}
       </div>
     )
   }
-
-
-```
+~~~
 
 ### Assignment
 
-Read this article: <a href="https://www.developerway.com/posts/react-key-attribute">how to use correctly use keys with examples demonstrating preformance and re-renders.</a>
+Read this article: <a href="https://www.developerway.com/posts/react-key-attribute">how to use correctly use keys with examples demonstrating performance and re-renders.</a>
 
 Short video demonstrating <a href="https://youtu.be/xlPxnc5uUPQ">Index as Key being an Anti-pattern</a>
 
