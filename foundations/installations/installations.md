@@ -52,25 +52,35 @@ Click on the **New** button to create a virtual operating system. Give it a name
 
 ![Xubuntu should make the Version be Ubuntu (64-bit) automatically](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png)
 
-**1.  Memory size:** Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
+#### Step 2.2.1: Memory size:
 
-_(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
+Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
+
+ _(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
 
    ![Please allow me to Google that for you](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/02.png)
 
-**2.  Hard disk:** Choose the **Create a virtual hard disk now** option.
+#### Step 2.2.2: Hard disk:
+
+Choose the **Create a virtual hard disk now** option.
 
    ![The VirtualBox Create Hard Disk window 1](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/03.png)
 
-**3.  Hard disk file type:** Choose the **VDI (VirtualBox disk image)** option.
+#### Step 2.2.3: Hard disk file type:
+
+Choose the **VDI (VirtualBox disk image)** option.
 
    ![The VirtualBox Create Virtual Hard Disk window 2](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/04.png)
 
-**4.  Storage on physical hard disk:** Choose the **Dynamically allocated** option.
+#### Step 2.2.4:  Storage on physical hard disk:
+
+Choose the **Dynamically allocated** option.
 
    ![The VirtualBox Create Virtual Hard Disk window 3](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/05.png)
 
-**5.  File location and size:** We recommend **at least 30 GB** for the virtual hard disk.
+#### Step 2.2.5: File location and size:
+
+We recommend **at least 30 GB** for the virtual hard disk.
 
    ![The VirtualBox Create Virtual Hard Disk window 4](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/07.png)
 
