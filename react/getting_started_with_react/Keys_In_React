@@ -1,0 +1,270 @@
+### Introduction
+
+How to use keys in React effectively.
+
+### Lesson Overview
+
+by the end of the lesson you should be able to answer the following:
+
+- Why does React need keys
+
+- How to use keys
+
+- How do keys impact rendering, and re-rendering.
+
+- Where to get keys
+
+- Patterns to avoid when using keys
+
+- Can we use index as a key
+
+### Where do keys matter?
+
+For this lesson we will be primarily talking about `arrays` in React. Ideally an `array of objects`.
+
+### Why does React need keys?
+
+Lets imagine you take notes while working through The Odin Project.
+Maybe you use index cards, lined paper, graph paper, sketch out your designs, or draw in general.
+
+Now if these notes are in a pile, we can think of them as an `array` and each one having a particular `index` in the list.
+
+What happens if we want to reorder the list, or remove a note from the list. Maybe we need to find an old note in the middle of the pile.
+
+It gets a bit confusing to manage data this way.
+
+One solution might be to add a `key` of some kind on each page about what that note covers.
+
+Similarly `keys` help React to keep track of the items in a list. `keys` allow React to know when to render, what to render, when to re render, and when not to re render.
+
+
+### What does it matter if the keys match or do not match?
+
+If an item in an array changes, keys are how react knows what to change on the dom.
+
+Say a single item in the middle of the array changes. Now we could re render the entire list, or we could just update that one single item. React uses `keys` to identify that particular item in the dom, and re-render that single item in the dom.
+
+Should the `keys` NOT match, the entire list will re-render because React does not know how to identify or target the specific item that was changed.
+
+As long as `keys` remain consistent and unqiue, React can handle the dom efficiently and effectively.
+
+### What are keys?
+
+`keys` are `strings`
+
+`keys` connect the DOM item with the item in the data.
+
+`keys` are compared in the virtual dom when the dom is rendered or re rendered.
+
+When rendering a list in React, `keys` are used to help React keep track of which item(s) in the list have changed, are added, or are removed.
+
+When list items are moved, added or deleted, React uses keys to see which items in the dom need to be moved, added, or deleted.
+
+Without keys, React would not be able to handle the dom as elegantly as it does.
+
+### What to use as a key
+
+- Data from a database *most databases will generate a unique id on entry creation*
+
+- Generated IDs on item creation. This could be an incrementing counter, or a package like `uuid`.
+
+
+### Rules for using keys
+
+- Each item in a list should have a unique key.
+
+- Key should never change between renders
+
+### When is it ok to use index as a key?
+
+- List is static
+
+- Items are only ever added to the END of the list
+
+- Items are never removed, reordered or changed within a list
+
+- List is never filtered
+
+### What to avoid or watch out for when using keys
+
+- Using index as a key should be a last resort.
+
+- !! do not do `key={uniqid()} !!` **unless** you are absolutely sure you know what you are doing, and want this particular behavior. This is marked as an `anti-pattern` in React docs.
+
+- `key={Math.random()}` or `key={uuid()}` will force a re render of the entire list any time the list is changed. This is extremely slow, and inefficient and should be considered an `anti-pattern` in React.
+
+- Keys should typically be added when and where the `.map()` method is used.
+
+### Examples
+
+Ideal situation.
+
+Iterating over a list of objects that have a unique identifier.
+
+Best practice would be to add a unique ID when the item is created.
+
+~~~jsx
+// In this example lets say when someone creates a new todo, the todo constructor adds `id: uniqid()`
+const todos = [
+  { task: 'mow the yard', id: '1j32b51bk' }, // `id: uniqid()` on todo creation
+  { task: 'Work on Odin Projects', id: '41hgi12gi' },
+  { task: 'feed the cat', id: '12ih412b412b4' },
+];
+
+// here we are using the already generated id as the key.
+const iterateTodos = todos.map((todo) => <div key={todo.id}>{todo.task}</div>);
+
+function TodoList() {
+  return <div>{iterateTodos}</div>;
+}
+~~~
+
+Better than plain `index`.
+
+When working with an array of primitive values, we wont have a unique id property to pass to key. One idea that would work better than just using `index` as the `key` would be to concatinate `array[index] + index` as this is more likely to be a unique value.
+
+~~~jsx
+const todos = ['mow the yard', 'Work on Odin Projects', 'feed the cat'];
+
+const iterateTodos = todos.map((todo, index) => (
+  <div key={`${todo}_${index}`}>{todo}</div>
+));
+
+function TodoList() {
+  return <div>{iterateTodos}</div>;
+}
+~~~
+
+Using index correctly
+
+If a list will never be modified **or** stictly manipulated by `push()` + `pop()` we can use index.
+
+~~~jsx
+const months = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+function MonthList(){
+    return (
+        <ul>
+            {months.map((month, index) => (<li key={index}>{month}</li>))}
+        </ul>
+    )
+}
+
+const
+~~~
+
+bad
+
+this approach will cause a complete re work of every list item any time one changes.
+
+~~~jsx
+// !! this will cause the entire list to be destroyed and be re-created every render! !!
+const todos = [
+  { task: 'mow the yard' },
+  { task: 'Work on Odin Projects' },
+  { task: 'feed the cat' },
+];
+
+const iterateTodos = todos.map((todo) => (<li key={uniqid()}>{todo.task}</li>));
+
+function TodoList() {
+  return <ul>{iterateTodos}</ul>;
+}
+~~~
+
+Also bad
+
+This will cause unintended behavior when modifying, or filtering array element positions.
+Considering that todos would likely be updated, changed, filtered or etc, we would NOT want to use index as our key.
+
+~~~jsx
+const todos = ['mow the yard', 'Work on Odin Projects', 'feed the cat'];
+
+const iterateTodos = todos.map((todo, index) => (<div key={index}>{todo}</div>));
+
+function TodoList() {
+  return <div>{iterateTodos}</div>;
+}
+~~~
+
+This next example should be avoided and can be considered an anti-pattern in React.
+generating keys in this way will cause the `keys` to never match up between renders, leading to all your components and DOM being recreated every time. Not only is this slow, but it will also lose any user input inside the list items. Instead, use a stable ID based on the data.
+
+
+DONT DO:
+```jsx
+const todos = ['odin', 'lunch', 'more odin', 'laundry']
+const RenderList = () => {
+  return (
+    <div>
+      {todos.map((todo) => {
+        return (
+          <div key={uuid()}>
+            <div>{todo}</div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+```
+
+DO:
+```jsx
+const newTodo = ({task, prio}) => {
+  return {
+    task,
+    prio,
+    id: uuid()  // id in included WHEN a todo is created
+  }
+}
+
+const todos = [
+  newTodo({task: 'odin', , prio: 'high'}), // id generated on creation
+  newTodo({task: 'lunch', prio: 'low' }),
+  newTodo({task: 'more odin', prio:'high'}),
+  newTodo({task: 'laundry', prio:'medium' })
+  ];
+
+  const RenderList = () => {
+    return (
+      <div>
+      {todos.map((todo) => {
+        return (
+          <div key={todo.id}>
+            task: {todo.task}
+            priority: {todo.prio}
+          </div>
+        )
+      })}
+      </div>
+    )
+  }
+
+
+```
+
+### Assignment
+
+Read this article: <a href="https://www.developerway.com/posts/react-key-attribute">how to use correctly use keys with examples demonstrating preformance and re-renders.</a>
+
+Short video demonstrating <a href="https://youtu.be/xlPxnc5uUPQ">Index as Key being an Anti-pattern</a>
+
+### Knowledge Check
+
+- [What are keys](#what-are-keys)
+- [What are the rules for using keys?](#rules-for-using-keys)
+- [When can we use index as a key?](#when-is-it-ok-to-use-index-as-a-key)
+- [Why does React need keys](#why-does-react-need-keys)
+- [How to use keys](#examples)
+- [How do keys impact rendering, and re-rendering](#what-does-it-matter-if-the-keys-match-or-do-not-match)
+- [Where to get keys](#what-to-use-as-a-key)
+- [Patterns to avoid when using keys](#what-to-avoid-or-watch-out-for-when-using-keys)
+
+
+
+
+### Additional Resources
+
+<a href="https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key
+">React Beta Docs</a>
