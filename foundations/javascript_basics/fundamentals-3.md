@@ -28,8 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
     Feel free to experiment with the code on your own and replace `'Goat'` with your favorite animal. Notice how we can change the argument to anything we like? Try changing `animal` in the function declaration and in the function body, too. What happens when you do?
 
-    Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. If we just called the function without console.logging what it returns, nothing would appear in the console **but** nonetheless the function would return that string. This is useful because we can pass in function calls as arguments to other functions, like so:
-
+Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`. Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without console.logging what it returns, nothing would appear in the console **but** nonetheless the function would return that string. 
     ~~~javascript
      function favoriteAnimal(animal) {
        return animal + " is my favorite animal!"
