@@ -14,7 +14,7 @@ Example: You are building a blog for your startup which will have multiple autho
 
 This might look like:
 
-Note: I'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically*
+Note: We'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically*
 
 * Authors
 

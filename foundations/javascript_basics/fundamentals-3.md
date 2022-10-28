@@ -50,6 +50,13 @@ For now, just write each function and test the output with `console.log`.
 
 </div>
 
+### Additional Resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope))
+- [How JavaScript Code is executed?](https://youtu.be/iLWTnMzWtj4)
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -60,9 +67,3 @@ This section contains questions for you to check your understanding of this less
 -   <a class="knowledge-check-link" href ="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts">What is function scope?</a>
 -   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values">What are return values?</a>
 -   <a class="knowledge-check-link" href="https://javascript.info/arrow-functions-basics">What are arrow functions?</a>
-
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
--   [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)

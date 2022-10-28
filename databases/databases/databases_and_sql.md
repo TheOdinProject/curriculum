@@ -6,7 +6,7 @@ In more straightforward cases, you might want to display all users who signed up
 
 All of those examples involve you engaging with your database.  Luckily, many databases (the ones we'll be focusing on) speak SQL and luckily SQL really only has a dozen or so words that you'll consistently use out of a few dozen total.  So it's not a large language, it's much more about the concepts behind it.
 
-You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important.  I actually think of Excel tables moving in my head and combining with each other and reshuffling as necessary. To each their own.
+You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. We actually think of Excel tables moving in our head and combining with each other and reshuffling as necessary. To each their own.
 
 We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
@@ -18,52 +18,17 @@ SQL is one of those topics that's been stored away in dusty old technical manual
 
 Though the prevalence of web applications these days has grown the demand among new users to focus on understanding the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
+This section contains a general overview of topics that you will learn in this lesson.
 
-#### Important Concepts:
-
-* What is the Primary Key?
-* What are Foreign Keys?
-* What is a Schema?
-
-#### Statements:
-* `SELECT`
-* `CREATE TABLE`
-* `DROP TABLE`
-* `CREATE INDEX`
-* `DROP INDEX`
-* `UPDATE`
-* `DELETE`
-* `INSERT INTO`
-* `CREATE DATABASE`
-* `DROP DATABASE`
-* `COMMIT` (concept)
-* `ROLLBACK` (concept)
-
-#### Clauses:
-* `DISTINCT`
-* `WHERE`
-* `IN`
-* `AND`
-* `OR`
-* `BETWEEN`
-* `LIKE`
-* `ORDER BY`
-* `COUNT`
-
-#### Functions:
-* `GROUP BY`
-* `HAVING`
-* `AVG`
-* `COUNT`
-* `MIN`
-* `MAX`
-* `SUM`
-
-#### Other Stuff:
-* What are Indexes good for?
-* What's the difference between `WHERE` and `HAVING`?
+-   What a Primary Key is.
+-   What Foreign Keys are.
+-   What a Schema is.
+-   How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
+-   How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
+-   How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
+-   What Indexes are good for.
+-   What the difference between `WHERE` and `HAVING` is.
 
 ### The World's Fastest Semi-Complete Explanation of SQL
 
@@ -107,14 +72,14 @@ A close cousin of `SELECT`, for if you only want unique values of a column, is `
 
 If you want to get all the posts created by a given user, you need to tell SQL which columns it should use to zip the tables together with the `ON` clause. Perform the "zipping" with the `JOIN` command.  But wait, if you mash two tables together where the data doesn't perfectly match up (e.g. there are multiple posts for one user), which rows do you actually keep?  There are four different possibilities:
 
-Note: the "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.
+_(__note:__ the "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.)_
 
-*See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.*
+*See ["A Visual Explanation of SQL Joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.*
 
 1. `INNER JOIN`, aka `JOIN` -- Your best friend and 95% of what you'll use.  <span id='inner-join'>Keeps only the rows from both tables where they match up</span>.  If you asked for all the posts for all users (`SELECT * FROM users JOIN posts ON users.id = posts.user_id`), it would return only the users who have actually written posts and only posts which have specified their author in the `user_id` column.  If an author has written multiple posts, there will be multiple rows returned (but the columns containing the user data will just be repeated).
-1. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
-2. `RIGHT OUTER JOIN` -- the opposite... keep all rows in the right table.
-3. `FULL OUTER JOIN` -- Keep all rows from all tables, even if there are mismatches between them.  Set any mismatched cells to `NULL`.
+2. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
+3. `RIGHT OUTER JOIN` -- the opposite... keep all rows in the right table.
+4. `FULL OUTER JOIN` -- Keep all rows from all tables, even if there are mismatches between them.  Set any mismatched cells to `NULL`.
 
 Joins naturally let you specify conditions too, like if you only want the posts from a specific user: `SELECT * FROM users JOIN posts ON users.id = posts.user_id WHERE users.id = 42`.
 
@@ -135,9 +100,9 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
   GROUP BY users.id;
 ~~~
 
-See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
+See [W3 Schools' article](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
 
-The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say I only want to display users who have written more than 10 posts:
+The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
 ~~~sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
@@ -147,7 +112,7 @@ The last nifty trick is if you want to only display a subset of your data.  In a
   HAVING posts_written >= 10;
 ~~~
 
-Try going back to [the W3 example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
+Try going back to [the W3 Schools' example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 
 You probably got lost somewhere in the above explanation and that's just fine... it's covering way more stuff than anyone can pick up in 10 minutes.  The assigned reading will do a better job of explaining things but, more importantly, you'll get plenty of opportunities to solidify your understanding by applying it in the project.  If you've still got blind spots, check out the Additional Resources section below.  Fear not and stick with it!
 
@@ -161,9 +126,9 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
-  2. Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
-  3. Go through the basics at [Part 1](https://www.sqlcourse.com/beginner-course/) and the advanced at [Part 2](https://www.sqlcourse.com/advanced-course/) of SQL Course
+  1.  Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
+  2.  Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
+  3.  Go through the basics at [Part 1](https://www.sqlcourse.com/beginner-course/) and the advanced at [Part 2](https://www.sqlcourse.com/advanced-course/) of SQL Course
 </div>
 
 ### Conclusion
@@ -174,23 +139,23 @@ If you never quite get to the point where you're comfortable with the really adv
 
 The next step, once you've had a chance to practice this all in the project, is to apply it to Rails with Active Record.  You'll quickly find that Active Record makes your life much, much, much better.  Just don't forget about ol' SQL when you've moved onto those better and brighter things, okay?
 
+### Knowledge Checks
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+-   <a class='knowledge-check-link' href='#foreign-key'>What is the difference between a foreign key and a primary key?</a>
+-   <a class='knowledge-check-link' href='#schema'>Where is the setup information for your database stored?</a>
+-   <a class='knowledge-check-link' href='#command-parts'>What are the important parts of a SQL command?</a>
+-   <a class='knowledge-check-link' href='#sql-read'>Which SQL statement is associated with "Read" from the CRUD acronym?</a>
+-   <a class='knowledge-check-link' href='#inner-join'>Which `JOIN` statement keeps only the rows from both tables where they match up?</a>
+-   <a class='knowledge-check-link' href='#aggregate-function'>How do you use an aggregate function?</a>
+-   <a class='knowledge-check-link' href='#having-function'>In which situation would you use the `HAVING` function?</a>
+-   <a class='knowledge-check-link' href='#sql-is-faster-than-ruby'>Why can't I just use Ruby to process my database data?</a>
+
 ### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
-* [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
-* [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
-* [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
-* If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/).
-
-### Knowledge Checks 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- <a class='knowledge-check-link' href='#foreign-key'>What is the difference between a foreign key and a primary key?</a>
-- <a class='knowledge-check-link' href='#schema'>Where is the setup information for your database stored?</a>
-- <a class='knowledge-check-link' href='#command-parts'>What are the important parts of a SQL command?</a>
-- <a class='knowledge-check-link' href='#sql-read'>Which SQL statement is associated with "Read" from the CRUD acronym?</a>
-- <a class='knowledge-check-link' href='#inner-join'>Which `JOIN` statement keeps only the rows from both tables where they match up?</a>
-- <a class='knowledge-check-link' href='#aggregate-function'>How do you use an aggregate function?</a>
-- <a class='knowledge-check-link' href='#having-function'>In which situation would you use the `HAVING` function?</a>
-- <a class='knowledge-check-link' href='#sql-is-faster-than-ruby'>Why can't I just use Ruby to process my database data?</a>
+-   Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
+-   [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
+-   [A Beginners Guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
+-   [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
+-   If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/).

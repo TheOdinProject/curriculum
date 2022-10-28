@@ -18,7 +18,7 @@ Many great resources out there keep referring to HTML and CSS as _programming la
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
+1.  Read [HTML vs CSS vs JavaScript](https://web.archive.org/web/20220814090513/https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
 
 </div>
 
