@@ -119,27 +119,27 @@ Your regular operating system (Windows in this case) is called the **Host**, and
 #### While your VM is running, do the following steps:
 
   1.  Click the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop.
-  2.  Type `Software Updater` in the text field that opens up and click on the item with the same name.
-  3.  Install all available updates. If there are no available updates, move on to Step 5.
-  4.  If the **Software Updater** is stuck waiting for an **"unattended upgrade"** to finish, reboot the VM and start again from Step 1.
-  5.  Open a terminal with `Left Ctrl + Alt + T` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  6.  Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`.
+  1.  Type `Software Updater` in the text field that opens up and click on the item with the same name.
+  1.  Install all available updates. If there are no available updates, move on to Step 5.
+  1.  If the **Software Updater** is stuck waiting for an **"unattended upgrade"** to finish, reboot the VM and start again from Step 1.
+  1.  Open a terminal with `Left Ctrl + Alt + T` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
+  1.  Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`.
 
-      _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your `Web Browser` by pressing `Windows + W` (the `Windows` key should be between the `Left Ctrl` and `Left Alt` keys) or opening the **Whisker Menu** and typing in **Web Browser**. To paste into the terminal either right-click in the terminal and choose **Paste** or use `Shift + Left Ctrl + V`.)_
-  7.  Enter your password when it asks you to.
+      _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your **Web Browser** by pressing `Windows + W` (the `Windows` key should be between the `Left Ctrl` and `Left Alt` keys) or opening the **Whisker Menu** and typing in **Web Browser**. To paste into the terminal either right-click in the terminal and choose **Paste** or use `Shift + Left Ctrl + V`.)_
+  1.  Enter your password when it asks you to.
 
       _(__note__: Your password will not be visible in the terminal. You will not see any feedback when you type. This is a security feature to protect your password. Press `Enter` when done.)_
-  8.  If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt install build-essential` and enter your password. Otherwise, move on to Step 9.
-  9.  Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
-  10.  Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
-  11.  Wait for the CD image to mount, a window will show on the top right of the VM screen saying it was successfully mounted.
-  12.  Let's take a look at the contents of the CD image we just mounted. If you see a **File Manager** window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called **Home** on VM's desktop. Afterwards, click on a CD under **Devices** on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
-  13.  In the window we opened in step 12, click **File -> Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
-  14.  In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  15.  Once it finishes, close the terminal.
-  16.  Right-click CD under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
-  17.  Reboot your VM. Do this by opening your terminal (`Left Ctrl + Alt + T`) then typing in `reboot` and finally hitting `Enter`.
-  18.  You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+  1.  If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt install build-essential` and enter your password. Otherwise, move on to Step 9.
+  1.  Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
+  1.  Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
+  1.  Wait for the CD image to mount, a window will show on the top right of the VM screen saying it was successfully mounted.
+  1.  Let's take a look at the contents of the CD image we just mounted. If you see a **File Manager** window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called **Home** on VM's desktop. Afterwards, click on a CD under **Devices** on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
+  1.  In the window we opened in step 12, click **File -> Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
+  1.  In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
+  1.  Once it finishes, close the terminal.
+  1.  Right-click the CD starting with `VBox_GAs` under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
+  1.  Reboot your VM. Do this by opening your terminal (`Left Ctrl + Alt + T`) then typing in `reboot` and finally hitting `Enter`.
+  1.  You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
 
 #### NOTE:
 
