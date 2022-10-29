@@ -72,7 +72,7 @@ Choose the **VDI (VirtualBox disk image)** option.
 
    ![The VirtualBox Create Virtual Hard Disk window 2](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/04.png)
 
-#### Step 2.2.4:  Storage on physical hard disk
+#### Step 2.2.4: Storage on physical hard disk
 
 Choose the **Dynamically allocated** option.
 
