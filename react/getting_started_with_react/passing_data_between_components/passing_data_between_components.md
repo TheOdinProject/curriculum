@@ -150,6 +150,20 @@ export default function App() {
 ~~~
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`. 
 
+You can also combine default props and prop destructuring. Here's how it looks in action.
+
+~~~jsx
+function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
+  const buttonStyle = {
+    color: color,
+    fontSize: fontSize + "px"
+  };
+
+  return <button style={buttonStyle}>{text}</button>;
+}
+
+~~~
+
 Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. You can even pass functions as props! However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
 
 ### Assignment
@@ -165,7 +179,7 @@ This section contains questions for you to check your understanding of this less
 
 *   <a class="knowledge-check-link" href="#data-transfer-in-react">How does data flow between React components? From child to parent? From parent to child? Both?</a>
 *   <a class="knowledge-check-link" href="#using-props-in-react">Why do we use props in React?</a>
-*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">How do we define default properties on a React component? What are some benefits in doing so?</a>
+*   <a class="knowledge-check-link" href="#default-props">How do we define default properties on a React component? What are some benefits in doing so?</a>
 
 ### Additional Resources
 
