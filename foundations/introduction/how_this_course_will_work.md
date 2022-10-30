@@ -22,7 +22,7 @@ Try not to think of The Odin Project, or programming, as a class in school. It's
 
 ### A Note About Language
 
-The Odin Project attracts people from all over the world who aspire to learn how to become developers. Please be aware that this curriculum is written in English and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
+The Odin Project attracts people from all over the world who aspire to learn how to become developers. Please note that, this curriculum is written in English and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
 
 If you are a non-English speaker, or English is not a primary language for you, this fact is not meant to discourage you, but to prepare you. 
 
