@@ -276,7 +276,7 @@ my_numbers.reduce { |sum, number| sum + number }
 #=> 26
 ~~~
 
-Woah! What?! There's a lot happening here, so let's walk through what it's doing step by step.
+Whoa! What?! There's a lot happening here, so let's walk through what it's doing step by step.
 
 The first block variable in the `#reduce` enumerable (`sum` in this example) is known as the **accumulator**. The result of each iteration is stored in the accumulator and then passed to the next iteration. The accumulator is also the value that the `#reduce` method returns at the end of its work. By default, the initial value of the accumulator is the first element in the collection, so for each step of the iteration, we would have the following:
 
@@ -347,7 +347,7 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 Note that this example returns a hash with several `key => value` pairs. So even though the result is more complicated, `#reduce` still just returns one object, a hash.
 
 ### Bang Methods
-Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidentally lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our invitation list would *permanently* remove him from our friends list. Whoah! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
+Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidentally lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our invitation list would *permanently* remove him from our friends list. Whoa! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
 
 To see this principle in action, let's go back to an earlier example where we wrote each of our friends' names in all caps:
 

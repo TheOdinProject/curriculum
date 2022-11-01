@@ -27,3 +27,10 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#http_verbs'>Name four HTTP verbs a route might need to handle.</a>
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#route_parameters'>What is a route parameter, and what syntax is used to define one in a route handler?</a>
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_route-handler_callback_functions'>What is a route-handler callback function commonly called?</a>
+
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

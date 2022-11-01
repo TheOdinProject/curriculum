@@ -84,7 +84,7 @@ Now we have the blueprints for our full apartment. If you take a look at the `#k
 
 One problem with our floor plan is that the bathroom and kitchen are on opposite ends of the apartment. We would save money on the plumbing by placing these two rooms back to back. Take a minute now and see if you can change the starting and ending positions for the bathroom, bedroom and closet so that the bathroom is right next to the kitchen. You can use either the long or shorthand properties here.
 
-### `grid-area`
+### grid-area
 
 You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing. 
 

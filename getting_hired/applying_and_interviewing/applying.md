@@ -36,7 +36,7 @@ It's also important to note that if you're not gaining traction getting response
 
 ### Cover Letters
 
-Some positions require you to also submit cover letters.  In my own experience, I've rarely actually seen the cover letter that an applicant has submitted for a job posting.  They have a magical way of getting lost or ignored.  If someone's spending < 10 seconds looking at your resume at first, why are they going to read a long cover letter?  
+Some positions require you to also submit cover letters.  In our own experience, we've rarely actually seen the cover letter that an applicant has submitted for a job posting.  They have a magical way of getting lost or ignored.  If someone's spending < 10 seconds looking at your resume at first, why are they going to read a long cover letter?  
 
 Though they may not look at your cover letter during the first pass, if your resume looks interesting then the cover letter has a way of becoming more important.  The hiring manager wants to make sure the story he crafted in his head is even more awesome in reality when hearing it from the applicant's own words.  So it's important to not use meaningless buzzwords and platitudes in your cover letter but instead focus on providing a concise but descriptive (and specific) letter answering the key questions we've talked about before (are you capable and driven?).
 

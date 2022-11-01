@@ -638,7 +638,7 @@ puts first_language
 # => italian
 ~~~
 
-With pattern matching, we do need to consider the case if there is no match. Without the else clause, we'd get the no matching pattern error. But that is exactly what the else clause is for in the case statement. We get a couple of benefits from doing it this way. Firstly, we can bind the `first_language` value to a variable right there in the pattern. Secondly, and I acknowledge this is somewhat subjective, but I find it beneficial in the case statement to see exactly what kind of data structure I'm trying to match against. This can be useful when getting to grips with code where the data may come from a third party API. And remember, this is still a very simplistic example. In the real world, data can be nested several levels deep which can lead to a horrible tangle of spaghetti code when trying to make sure you can locate a value several levels deep. What if you had to dive 6 levels, but grab a value or two along the way from a couple of the higher levels? No problem with pattern matching.
+With pattern matching, we do need to consider the case if there is no match. Without the else clause, we'd get the no matching pattern error. But that is exactly what the else clause is for in the case statement. We get a couple of benefits from doing it this way. Firstly, we can bind the `first_language` value to a variable right there in the pattern. Secondly, and we acknowledge this is somewhat subjective, but we find it beneficial in the case statement to see exactly what kind of data structure we're trying to match against. This can be useful when getting to grips with code where the data may come from a third party API. And remember, this is still a very simplistic example. In the real world, data can be nested several levels deep which can lead to a horrible tangle of spaghetti code when trying to make sure you can locate a value several levels deep. What if you had to dive 6 levels, but grab a value or two along the way from a couple of the higher levels? No problem with pattern matching.
 
 ### Wrapping Up
 
@@ -650,6 +650,12 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 1. Start with the [Ruby docs](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method, but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out this [guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly this section on [matching objects](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
 </div>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.
+* [Pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html) from Ruby References (Github) covers some more practical uses
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

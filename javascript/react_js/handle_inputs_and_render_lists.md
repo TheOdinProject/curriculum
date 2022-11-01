@@ -45,7 +45,7 @@ export default App;
 4. Make sure to clean the `index.js` as well. It should look something similar to this:
 
 ~~~javascript
-// Index.js
+// index.js
 
 import React from "react";
 import ReactDOM from "react-dom/client";
