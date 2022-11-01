@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 * Why meaningful commit messages are important
 * When to commit
 
-### Are commit messages so important they deserve their own lesson?
+### Are Commit Messages So Important They Deserve Their Own Lesson?
 
 Yes! Let me give you a quick list of reasons why:
 
@@ -51,3 +51,4 @@ This section contains questions for you to check your understanding of this less
 
 *   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#intro">What are two benefits of having well-written commit messages and a good commit history?</a>
 *   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#limit-50">How many characters should the subject line of your commit message be?</a>
+<br/>

@@ -49,7 +49,7 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 </html>
 ~~~
 
-#### What is the `lang` attribute? 
+#### What Is the Lang Attribute? 
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
@@ -142,6 +142,7 @@ Back in the `index.html` file, let's add a heading (more on these later) to the 
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
 
 ### VSCode Shortcut
+
 VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the '.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
@@ -149,9 +150,11 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
 2. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 3. Run your boilerplate through an [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
+
 </div>
 
 ### Knowledge Check
@@ -170,3 +173,4 @@ This section contains helpful links to related content. It isn’t required, so 
 *   Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
 *   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the value defined in your `meta-charset` attribute. This could potentially hide some characters on your site not being encoded in the way you expect.
 *   If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
+<br/>

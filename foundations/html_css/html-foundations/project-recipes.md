@@ -23,7 +23,8 @@ If you are having trouble:
 - Ensure you followed the steps [here on Step 2.3](/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
 - Refer to the [workflow](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
-#### Tips on when to commit
+### Tips on When to Commit
+
 Don't forget everything we went over in the [previous lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) about commit messages!
 
 When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`.
@@ -65,7 +66,7 @@ The recipe page should have the following content:
 2. Don't forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren't all on one line.
 </div>
 
-### Viewing your project on the web
+### Viewing Your Project on the Web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
 
@@ -79,3 +80,4 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - click on **Pages** on the left side bar.
 - change the **Source** from _none_ to _main branch_ and click Save.
 - it may take a few minutes (the GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
+<br/>

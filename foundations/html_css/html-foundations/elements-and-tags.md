@@ -30,8 +30,11 @@ HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/do
 Using the correct elements for content is called semantic HTML. We will explore this in much more depth later on in the curriculum.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
+
   1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
+
 </div>
 
 ### Knowledge Check
@@ -46,3 +49,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
+<br/>

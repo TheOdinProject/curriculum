@@ -65,3 +65,4 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 *   [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 *   [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
+<br/>

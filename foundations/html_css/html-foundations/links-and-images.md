@@ -174,6 +174,7 @@ Finally add the image to the `index.html` file:
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent Directories
+
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
@@ -190,7 +191,7 @@ To break this down:
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
-### Alt attribute
+### Alt Attribute
 
 <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
@@ -210,10 +211,12 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
 2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
 3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
 4. [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
+
 </div>
 
 ### Knowledge Check
@@ -235,3 +238,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+<br/>
