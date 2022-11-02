@@ -82,7 +82,7 @@ The simplest new concept is how to check whether an object actually exists yet o
 
 #### Arguments
 
-There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  I prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
+There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  We prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
 
 1. `User.where(email: "foo@bar.com")`
 2. `User.where("email" => "foo@bar.com")`
@@ -104,7 +104,7 @@ The key thing to note is that `#find` returns the actual record while `#where` r
 
 ### Aggregations
 
-Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if I want to get a count of all the blog posts categorized by each tag. I might write something like:
+Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if we want to get a count of all the blog posts categorized by each tag. We might write something like:
 
 ~~~bash
   Post.joins(:tags).group("tags.name").count
@@ -152,7 +152,11 @@ Rails is well aware of your distress and has provided a simple solution -- "eage
 
 `#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
 
-Note: One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+<div class="lesson-note" markdown="1">
+
+Note: One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+
+</div>
 
 Almost as useful is the `#pluck` method, which is covered in the Rails Guide.  `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array.  `#pluck` just gives you the resulting array right away:
 

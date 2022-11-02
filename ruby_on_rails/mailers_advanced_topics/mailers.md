@@ -1,6 +1,6 @@
 ### Introduction
 
-Email is under-appreciated in its complexity on many levels.  I certainly didn't think about it much until I needed to actually bake it into my apps.  But what goes on behind the scenes, especially after hitting "send", is pretty impressive... lots of bouncing around the architecture of the internet, bypassing firewalls, and navigating SPAM filters.  Luckily all this can be handled by some specialty Heroku add-ons or other third parties.
+Email is under-appreciated in its complexity on many levels. You certainly won't think about it much until you need to actually bake it into your apps.  But what goes on behind the scenes, especially after hitting "send", is pretty impressive... lots of bouncing around the architecture of the internet, bypassing firewalls, and navigating SPAM filters.  Luckily all this can be handled by some specialty Heroku add-ons or other third parties.
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 

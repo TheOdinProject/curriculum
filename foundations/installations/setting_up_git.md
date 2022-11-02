@@ -49,13 +49,14 @@ If the version number is less than 2.28, follow the instructions again.
 </summary>
 
 #### Step 1.0: Install Homebrew
+  
 First, you'll need to install Homebrew.  Make sure you have checked the requirements [here](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
 ~~~bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-Note: On an Apple Silicon Mac you will have an extra step to take.
+**Note:** On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps". 
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix. 
 
@@ -83,7 +84,7 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 1. Run `brew doctor`
 2. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
-![Screen_Shot_2021-02-11_at_8 06 38_PM](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
+![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
 3. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
@@ -98,7 +99,17 @@ You will need to install Git from the source by following the instructions from 
 
 ### Step 2: Configure Git and GitHub
 
-#### Step 2.1: Setup Git
+#### Step 2.1: Create a GitHub Account
+
+Go to [GitHub.com](https://github.com/) and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don't want your email address to be publicly available, make sure you tick the following two boxes on the [Email Settings](https://github.com/settings/emails) page after you have signed in:
+
+![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/770be14190139683dbe9933ca5e9393c797c63f2/foundations/installations/setting_up_git/imgs/01.png)
+
+Having these two options enabled will prevent you accidentally exposing your personal email address when working with Git and GitHub.
+
+You may also notice an email address under the **Keep my email addresses private** option, this is your private GitHub email address. If you plan to use this, make note of it now as you will need it when setting up Git in the next step.
+
+#### Step 2.2: Setup Git
 
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
@@ -107,6 +118,12 @@ The commands below will configure Git. Be sure to enter your own information ins
 ~~~bash
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
+~~~
+
+If you opted to use the private GitHub email address, the second command will look something like this:
+
+~~~bash
+git config --global user.email "123456789+odin@users.noreply.github.com" # Remember to use your own private GitHub email here.
 ~~~
 
 GitHub recently changed the default branch on new repositories from `master` to `main`. Change the default branch for Git using this command:
@@ -121,6 +138,12 @@ To enable colorful output with `git`, type
 git config --global color.ui auto
 ~~~
 
+You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
+
+~~~bash
+git config --global pull.rebase false
+~~~
+
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ~~~bash
@@ -128,16 +151,12 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure GitHub to ignore them, pesky .DS_Store files will show up in your commits.
+**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits.
 
 ~~~bash
 echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ~~~
-
-#### Step 2.2: Create a GitHub Account or Sign In
-
-Go to [GitHub.com](https://github.com/) and create an account! If you already have an account, sign in. You do not need to use the same email address you used before, but it might be a good idea to use the same one to keep things simple.
 
 #### Step 2.3: Create an SSH Key
 

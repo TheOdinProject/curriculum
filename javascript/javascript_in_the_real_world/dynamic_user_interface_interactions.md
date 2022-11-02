@@ -1,4 +1,5 @@
 ### Introduction
+
 JavaScript is a very powerful language. It is capable of creating complex web applications that work _everywhere_. But it is just as often used on a smaller scale. JavaScript is the glue that holds even less flashy websites together- it makes drop-downs drop down and image sliders slide.  
 
 Fortunately, at this point, you already have all the tools you need to make these items without resorting to using a bloated framework like bootstrap. (Nothing against bootstrap... you just do _not_ need it! Good for you!)
@@ -7,9 +8,11 @@ We aren't presenting any new content in this lesson - just giving you the chance
 
 > Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion! If you want to take a break and learn more about making stuff move [go watch this video](https://www.youtube.com/watch?v=8kK-cA99SA0).
 
-### Learning Outcomes
+### Lesson Overview
 
-- Practice everyday techniques used by JavaScript programmers.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- General techniques that are used by JavaScript programmers everyday.
 
 ### Drop-down Menus
 

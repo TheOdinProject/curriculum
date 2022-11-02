@@ -148,7 +148,7 @@ japanese_cars = {
 }
 ~~~
 
-That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" } or you'll get a syntax error.
+That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try `{ 9: "value" }` or you'll get a syntax error.
 
 When you use the cleaner 'symbols' syntax to create a hash, you'll still need to use the standard symbol syntax when you're trying to access a value. In other words, regardless of which of the above two syntax options you use when creating a hash, they both create symbol keys that are accessed the same way.
 
@@ -169,7 +169,7 @@ japanese_cars[:honda]   #=> "Accord"
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. One of the delete examples is incorrect: deleting a key by setting its value to nil does not delete the key-value pair.
+* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
