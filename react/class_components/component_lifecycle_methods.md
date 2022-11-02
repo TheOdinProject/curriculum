@@ -28,6 +28,26 @@ In this method you should be updating anything that needs to be changed in respo
 
 This is the last lifecycle method, which is called before a component is unmounted and destroyed. In this method you should be performing cleanup actions, so that would be cancelling network requests, clearing timers, etc.
 
+### useEffect()
+
+Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of componentDidMount, componentDidUpdate, and componentWillUnmount. Which method/methods it relates to varies based on it's dependency array, and if it returns anything.
+
+*   An empty dependency array would be equivalent to `componentDidMount`.
+*   A dependency array with a value/values in it would be similar to `componentDidUpdate`, but only ran when the dependency provided changes.
+*   No dependency array would be equivalent to `componentDidMount` and `componentDidUpdate` combined.
+*   A return function inside of a `useEffect()` hook would be equivalent to `componentWillUnmount`.
+
+For example:
+
+~~~js
+    useEffect(() => {
+        placeholderFunction()
+        return () => clearUpFunction()
+    }, [])
+~~~
+
+In this snippet, the useEffect contains the functionality of `componentDidMount`, and `componentWillUnmount` via the return function.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
