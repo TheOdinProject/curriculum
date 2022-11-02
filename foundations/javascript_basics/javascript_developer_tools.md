@@ -45,7 +45,6 @@ Google has updated some of the required sections in the below tutorials and some
     -  JavaScript
         1.  [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
         2.  [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-2.  Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
 
 </div>
 
