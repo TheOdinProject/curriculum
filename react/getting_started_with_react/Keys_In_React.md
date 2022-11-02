@@ -1,6 +1,6 @@
 ### Introduction
 
-How to use keys in React effectively.
+In this lesson we will cover what keys are in React, rendering a list, and touch on when and how React knows to render or re render.
 
 ### Lesson Overview
 
@@ -18,35 +18,45 @@ by the end of the lesson you should be able to answer the following:
 
 - Can we use index as a key
 
-### Where do keys matter?
-
-For this lesson we will be primarily talking about `arrays` or lists in React. Ideally an `array` of `objects`.
 
 ### Why does React need keys?
 
 Lets imagine you take notes while working through The Odin Project.
-Maybe you use index cards, lined paper, graph paper, or sketch out your designs on these notes.
+Maybe you use index cards, or lined paper.
 
 Now if these notes are in a pile, we can think of them as an `array` and each one having a particular `index` in the list.
 
+The paper at the bottom of the pile is the first note you made or `note[0]`, the one directly on top of it being the second note or `note[1]`.
+
 What happens if we want to reorder the list, or remove a note from the list. Maybe we need to find an old note in the middle of the pile.
+
+`Note 14` just became `note 3`, but `note 4` was removed, does that mean `note 5` just became `note 4`? does every note after `note 5` have to be re indexed?
 
 It gets a bit confusing to manage and keep track of which papers are still in order.
 
-One solution might be to add a summary or `key` of some kind to each page about what that note covers.
+One solution might be to add a unique summary or `key` of some kind to each page about what that note covers.
+
+This way no matter where that specific `note` moves to in the pile, we know which note it is.
 
 Similarly `keys` help React to keep track of the items in a list. `keys` allow React to know when to render, what to render, when to re render, and when not to re render.
 
 
 ### What does it matter if the keys match or do not match?
 
-If an item in an array changes, keys tell React what dom elements have changed.
+If an item in an array changes, keys help React decide which dom elements have changed.
 
-Say a single item in the middle of the array changes. Now we could re render the entire list, or we could just update that one single item. React uses `keys` to identify that particular item in the dom, and re-render that single item in the dom.
+If a single item in a list where to change, one of two things *should* happen:
+Either
+We completely re render the entire list
+Or
+Hunt down that one specific item that was changed and only re render that item.
 
-When an item is changed in the array, React will go through each `key`. If the `key` does NOT match, react will leave that list item alone. If React finds a match, it will update that item in the dom accordingly.
+Assuming we want to hunt down that one specific item that was changed, we can track the changed item by looking at the `key` of the arr item changed, and the `key` of each item in the dom as it pertains to the list.
 
-As long as `keys` remain consistent and unique, React can handle the dom efficiently and effectively.
+React will go through each `key` and look for a match. If the `key` does NOT match the item being changed, react will leave that list item alone.
+If React DOES find a match, it will update that item in the dom accordingly.
+
+As long as `keys` remain consistent and unique, React can handle the dom effectively and efficiently.
 
 ### What are keys?
 
@@ -54,13 +64,13 @@ As long as `keys` remain consistent and unique, React can handle the dom efficie
 
 `keys` connect the DOM item with the item in the data.
 
-`keys` are compared in the virtual dom when the dom is rendered or re rendered.
+`keys` help us keep track of our state (logic) and our dom.
 
-When rendering a list in React, `keys` are used to help React keep track of which item(s) in the list have changed, are added, or are removed.
+`keys` tell React when the dom should be rendered or re rendered.
 
-When list items are moved, added or deleted, React uses keys to see which items in the dom need to be moved, added, or deleted.
+When list items are moved, added or deleted, React uses `keys` to see which items in the dom need to be moved, added, or deleted.
 
-Without keys, React would not be able to handle the dom as elegantly as it does.
+Without `keys`, React would not be able to handle the dom as elegantly as it does.
 
 ### What to use as a key
 
@@ -68,12 +78,13 @@ Without keys, React would not be able to handle the dom as elegantly as it does.
 
 - Generated IDs on item creation. This could be an incrementing counter, or a package like `uuid`.
 
-
 ### Rules for using keys
 
-- Each item in a list should have a unique key.
+- Each item in a list should have a unique key
 
 - Key should never change between renders
+
+- Keys should be added when and where the `.map()` method is used.
 
 ### When is it ok to use index as a key?
 
@@ -87,13 +98,11 @@ Without keys, React would not be able to handle the dom as elegantly as it does.
 
 ### What to avoid or watch out for when using keys
 
-- Using index as a key should be a last resort.
+- Using index as a key should be a last resort
 
-- !! do not do `key={uuid()} !!` **unless** you are absolutely sure you know what you are doing, and want this particular behavior. This is marked as an `anti-pattern` in React docs.
+-  do NOT use `!! key={uuid()} !!` **unless** you are absolutely sure you know what you are doing, and want this particular behavior. This is marked as an `anti-pattern` in React docs.
 
-- `key={Math.random()}` or `key={uuid()}` will force a re render of the entire list any time the list is changed. This is extremely slow, and inefficient and should be considered an `anti-pattern` in React.
-
-- Keys should typically be added when and where the `.map()` method is used.
+`key={Math.random()}` or `key={uuid()}` will force a re render of the entire list every time any item in the list is changed. This is extremely slow, and inefficient and should be considered an `anti-pattern` in React.
 
 ### Examples
 
