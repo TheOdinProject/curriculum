@@ -45,6 +45,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+* [Data Structures & Algorithms: A Quick Rundown](https://medium.com/@issacndavis/data-structures-algorithms-a-quick-rundown-1756d805c69e)
 * [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 * [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 * [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
