@@ -65,7 +65,7 @@ This section contains questions for you to check your understanding of this less
 
 *   <a class="knowledge-check-link" href="#what-are-unit-tests">What are unit tests?</a>
 *   <a class="knowledge-check-link" href="#what-are-unit-tests">Why utilize unit tests?</a>
-*   <a class="knowledge-check-link" href="#example-test">How would i test if a post doesn't accept comments?</a>
+*   <a class="knowledge-check-link" href="#example-test">How would I test if a post doesn't accept comments?</a>
 
 ### Additional Resources
 
