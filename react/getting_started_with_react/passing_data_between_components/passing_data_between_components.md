@@ -6,8 +6,8 @@ By now you should be starting to understand just how powerful React and reusable
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Passing data between components
-* Using this data to create customizable reusable components
+* Passing data between components.
+* Using data to create customizable reusable components.
 
 ### Data Transfer in React
 
@@ -237,6 +237,7 @@ export default function App() {
 
 When supplying a parameter to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the parameter. Like the previous example, this is to prevent the function being called during the render.
 
+There are also other ways to implement this behavior. Hint: [curried functions!](https://javascript.info/currying-partials)
 
 Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
 
