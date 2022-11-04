@@ -6,18 +6,17 @@ All the components by far, have been functional in style and syntax. This is com
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A note on the relevance of class components.
-- Covers the structure of a class component, the uses of the constructor and render method.
-- Discusses the ways to use props and state in class components.
-- Highlights the uses of `this` in class components.
+- Learn the structure of a class component and how they are written.
+- How to use props and state in class components.
+- Highlight the uses of `this` in class components.
 
 ### The What's And Why's
 
-In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way since React was introduced.
+In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way when React was introduced.
 
 If you look into any older React codebase, you'll notice a lot of classes. These are known as class-based components. Prior to February 2019, functional components were also called state-less, as there was no way to manage state in them. This was changed when hooks were introduced, leading to less verbose and 'neater' components.
 
-In your career, chances are, you will be dealing with legacy code, so there will be days where you would be dealing with class components. To meet this issue, we take a peek into the works and intricacies of a class-based component, and how they work.
+In your career, chances are, you will be dealing with legacy code, so there will be days where you would be dealing with class components. Let's peek into the intricacies of a class-based component, and how they work.
 
 ### Building A Class Component
 
@@ -27,11 +26,6 @@ As we already know about functional components, let us build a class-based compo
 import React, { useState } from "react";
 
 const FunctionalInput = ({ name }) => {
-  /*
-    We declare two state variables and their setters,
-    one to store the To-Do's
-    and the other to store the value of the input field
-  */
   const [todos, setTodos] = useState(["Just some demo tasks", "As an example"]);
   const [inputVal, setInputVal] = useState("");
 
@@ -48,7 +42,6 @@ const FunctionalInput = ({ name }) => {
   return (
     <section>
       <h3>{name}</h3>
-      {/* The input field to enter To-Do's */}
       <form onSubmit={handleSubmit}>
         <label htmlFor="task-entry">Enter a task: </label>
         <input
@@ -60,7 +53,6 @@ const FunctionalInput = ({ name }) => {
         <button type="submit">Submit</button>
       </form>
       <h4>All the tasks!</h4>
-      {/* The list of all the To-Do's, displayed */}
       <ul>
         {todos.map((todo) => (
           <li key={todo}>{todo}</li>
@@ -180,14 +172,12 @@ class ClassInput extends Component {
     return (
       <section>
         <h3>{this.props.name}</h3>
-        {/* The input field to enter To-Do's */}
         <form>
           <label htmlFor="task-entry">Enter a task: </label>
           <input type="text" name="task-entry" />
           <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
-        {/* The list of all the To-Do's, displayed */}
         <ul></ul>
       </section>
     );
@@ -236,7 +226,6 @@ class ClassInput extends Component {
     return (
       <section>
         <h3>{this.props.name}</h3>
-        {/* The input field to enter To-Do's */}
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="task-entry">Enter a task: </label>
           <input
@@ -248,7 +237,6 @@ class ClassInput extends Component {
           <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
-        {/* The list of all the To-Do's, displayed */}
         <ul>
           {this.state.todos.map((todo) => (
             <li key={todo}>{todo}</li>
