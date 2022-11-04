@@ -44,7 +44,7 @@ rails generate model <model_name>
 
 ~~~
 
-Here is an example of what a test should look like. You can checkout the [gem repository](https://github.com/rspec/rspec-rails/tree/6-0-maintenance) for more information on the gem specifically. 
+Here is an example of what a test should look like. You can find an additional example and other helpful information on the [rspec-rails gem repository](https://github.com/rspec/rspec-rails/tree/6-0-maintenance#rspec-dsl-basics-or-how-do-i-write-a-spec).
 
 ~~~
 
