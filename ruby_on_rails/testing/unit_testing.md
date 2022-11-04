@@ -30,7 +30,7 @@ end
 
 ~~~
 
-Next visit the [rails installation guide](https://github.com/rspec/rspec-rails#installation) to finish the rest of the steps. Afterwards you will see an additional spec folder on the top level of your project.
+Next visit the [rspec-rails installation guide](https://github.com/rspec/rspec-rails#installation) to finish the rest of the steps. Afterwards you will see an additional spec folder on the top level of your project.
 
 There you will find different folders for different areas of your application such as controllers, models, system, etc. When you use the command to generate a model, controller, etc. The spec file will be created in the corresponding folder to the object that you created. If you create a spec file manually, make sure you're creating it in the correct folder, such as a controller spec file within the controller folder. There will also be a rails_helper and spec_helper files. These RSpec files are where you can configure your test environment.
 
