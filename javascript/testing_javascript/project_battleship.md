@@ -1,4 +1,5 @@
 ### Introduction
+
 It's time to really flex your muscles.  Test Driven Development can certainly feel uncomfortable at first, but becomes more natural with practice.  We're going to implement the classic game 'Battleship'.  If you've never played it, or need a refresher you can read about it [here](https://en.wikipedia.org/wiki/Battleship_(game)) and you can play an online version [here](http://en.battleship-game.org/).
 
 Since we're doing TDD, it's important that you don't get overwhelmed.  Simply take it one step at a time.  Write a test, then make it pass.
@@ -8,6 +9,7 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Begin your app by creating the `Ship` factory function.
    1. Your 'ships' will be objects that include their length, the number of times they've been hit and whether or not they've been sunk.
    2. __REMEMBER__ you only have to test your object's public interface.  Only methods or properties that are used outside of your 'ship' object need unit tests.
@@ -33,4 +35,5 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
    1. There are several options available for letting users place their ships.  You can let them type coordinates for each ship, or investigate implementing drag and drop.
    2. You can polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
    3. Optionally, create a 2 player option that lets users take turns by passing the device back and forth.  If you're going to go this route, make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
+   
 </div>

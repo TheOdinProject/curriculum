@@ -1,4 +1,5 @@
 ### Introduction
+
 Let's practice!  This testing thing really is not that difficult, but it _is_ quite new.  The only way to get comfortable with it is to spend some time doing it.
 
 ### Using ES6 import statements with Jest
@@ -53,4 +54,5 @@ Write tests for the following, and then make the tests pass!
      length: 6
    };
    ~~~
+  
 </div>

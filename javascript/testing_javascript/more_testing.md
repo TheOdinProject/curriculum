@@ -1,8 +1,10 @@
 ### Introduction
+
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain what tightly coupled code is
 - Describe a pure function and how it relates to TDD
@@ -64,15 +66,18 @@ If we had written this program with TDD it is very likely that it would have loo
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
 2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  These two articles ([one](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4) and [two](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)) might be a little extreme, but they contain several really good points about program architecture and testing.
 3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://jestjs.io/docs/mock-functions).
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
 6. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://jestjs.io/docs/webpack).
+
 </div>
 
 ### Knowledge Check 
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
