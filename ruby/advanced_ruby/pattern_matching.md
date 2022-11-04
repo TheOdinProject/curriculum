@@ -651,6 +651,12 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 2. One thing we didn't cover here is matching your own objects. We did mention implementing the `===` method, but there are a couple of other methods you can implement that will allow you to use array and hash pattern matching. Check out this [guide to pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html), particularly this section on [matching objects](https://rubyreferences.github.io/rubyref/language/pattern-matching.html#matching-non-primitive-objects-deconstruct_keys-and-deconstruct).
 </div>
 
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.
+* [Pattern matching](https://rubyreferences.github.io/rubyref/language/pattern-matching.html) from Ruby References (Github) covers some more practical uses
+
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
