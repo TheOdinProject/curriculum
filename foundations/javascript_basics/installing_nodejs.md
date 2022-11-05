@@ -108,7 +108,7 @@ nvm install --lts
 This will install the most recent stable version of Node in 'long-term support' (LTS), and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output:
 
 ~~~bash
-Downloading and installing Node v16.xx.x...
+Downloading and installing Node v18.xx.x...
 ~~~
 
 If not, close the terminal, re-open it and run `nvm install --lts` again.
@@ -123,7 +123,7 @@ nvm use --lts
 
 We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
 
-Now when you run `node -v`, you should see `v16.xx.x` or something similar. 
+Now when you run `node -v`, you should see `v18.xx.x` or something similar. 
 
 If you see that, you have successfully installed Node!
 
