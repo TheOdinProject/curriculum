@@ -23,6 +23,10 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 </div>
 
+### Values and Units
+
+When you are specifying any property in your CSS file, there could be applicable values depending on the property. To understand what the various values and their units could be, please go through this page [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units).
+
 ### Selectors
 
 Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
