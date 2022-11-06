@@ -42,7 +42,7 @@ For example:
 ~~~js
     useEffect(() => {
         placeholderFunction()
-        return () => clearUpFunction()
+        return () => cleanupFunction()
     }, [])
 ~~~
 
