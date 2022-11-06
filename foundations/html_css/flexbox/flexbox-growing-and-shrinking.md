@@ -22,7 +22,7 @@ In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and 
 
 In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
 
-Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
+Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow` and `flex-shrink`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
 #### Flex-Grow
 
