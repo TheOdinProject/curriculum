@@ -138,6 +138,12 @@ To enable colorful output with `git`, type
 git config --global color.ui auto
 ~~~
 
+You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
+
+~~~bash
+git config --global pull.rebase false
+~~~
+
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ~~~bash
@@ -145,7 +151,7 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure GitHub to ignore them, pesky .DS_Store files will show up in your commits.
+**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits.
 
 ~~~bash
 echo .DS_Store >> ~/.gitignore_global

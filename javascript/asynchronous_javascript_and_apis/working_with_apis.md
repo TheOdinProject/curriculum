@@ -2,8 +2,9 @@
 
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what an API is
  - Explain broadly how access to an API works
@@ -25,13 +26,13 @@ The specifics for using any API are usually documented on the service's website.
 You'll probably get an error like this:
 
 ~~~
-{"code":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}
+{"code":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
 ~~~
 
 This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
 ~~~
-http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
+https://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
 ~~~
 
 As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
@@ -211,20 +212,23 @@ Running the file should now log the URL of the image. All that's left to do is s
 
 If all goes well, you should see a new image on the page every time you refresh!
 
-If you've gotten lost along the way, check out [this jsbin project](http://jsbin.com/canofar/edit?html,output). Besides the glorious styling, this is what your version should look like.
+If you've gotten lost along the way, check out this [jsbin project](http://jsbin.com/canofar/edit?html,output). Besides the glorious styling, this is what your version should look like.
 
 While we are pushing this API key to the frontend, this isn't something you should do with any key that is not free, anything on the client is public knowledge. Handling keys that are unsafe to push to the frontend will be taught in later sections if you haven't been exposed in the Ruby course.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
-2. Check out [this list](https://github.com/abhishekbanthia/Public-APIs) and [this list](https://github.com/public-apis/public-apis) of free, open APIs and let your imagination go wild.
+
+1. Read this [Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
+2. Check out This list of [Public API](https://github.com/abhishekbanthia/Public-APIs) and This [Public API](https://github.com/public-apis/public-apis) of free, open APIs and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to the end of the promise chain in case Giphy doesn't find any gifs with the searched keyword. Add a default image, or an error message if the search fails.
+
 </div>
 
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
  - <a class="knowledge-check-link" href="#apis">What is an API?</a>
