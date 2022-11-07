@@ -46,7 +46,7 @@ For example:
     }, [])
 ~~~
 
-In this snippet, the useEffect contains the functionality of `componentDidMount`, and `componentWillUnmount` via the return function.
+In this snippet, the useEffect contains the functionality of `componentDidMount`, and `componentWillUnmount` via the return function. This example doesn't have the `componentDidUpdate` functionality because of an empty dependency array.
 
 ### Assignment
 
