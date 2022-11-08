@@ -23,9 +23,9 @@ With this approach, you'll ship many small JavaScript files instead of one big J
 
 #### How do import maps work?
 
-The first thing to know is that import maps are not a Rails specific solution. They are an existing solution that the Rails team thought would be the best way to bring Javascript to Rails applications as a sane default. The basic premise is that you can import Javascript libraries into your application just referencing them by name rather than having to reference the exact location of where the library can be found. Import maps are essentially string substitution for "bare module specifiers". If you're not familiar with "bare module specifiers" they look like this: `import React from "react"`. However just writing imports this way isn't something currently valid as a way to load in Javascript code to the current file. The valid ways to do this currently are defined under something called the ESM loader spec which if you really want to, you can read more about from the [Node docs](https://nodejs.org/api/esm.html)
+The first thing to know is that import maps are not a Rails specific solution. They are an existing solution that the Rails team thought would be the best way to bring JavaScript to Rails applications as a sane default. The basic premise is that you can import JavaScript libraries into your application just referencing them by name rather than having to reference the exact location of where the library can be found. Import maps are essentially string substitution for "bare module specifiers". If you're not familiar with "bare module specifiers" they look like this: `import React from "react"`. However just writing imports this way isn't something currently valid as a way to load in JavaScript code to the current file. The valid ways to do this currently are defined under something called the ESM loader spec which if you really want to, you can read more about from the [Node docs](https://nodejs.org/api/esm.html)
 
-In order to be ESM compatible, you must provide one of the following specifiers when loading Javascript code
+In order to be ESM compatible, you must provide one of the following specifiers when loading JavaScript code
 
 - Absolute path:
     `import React from "/Users/Odin/projects/TOP/node_modules/react"`
@@ -79,7 +79,7 @@ Pinning "scheduler" to https://ga.jspm.io/npm:scheduler@0.20.2/index.js
 }
 ~~~
 
-The two dependencies `react` and `react-dom` resolve to four total dependencies. Now you can import them in your Javascript code.
+The two dependencies `react` and `react-dom` resolve to four total dependencies. Now you can import them in your JavaScript code.
 
 ~~~JS
 import React from "react"
@@ -135,11 +135,11 @@ pin "md5", to: "https://cdn.jsdelivr.net/npm/md5@2.3.0/md5.js"
 
 ### Importmap considerations
 
-While importmaps are a great way to get started with Rails, and will allow you to quickly make use of Javascript libraries without having to worry about bundling and transpiling, there are some wider considerations you need to be aware of.
+While importmaps are a great way to get started with Rails, and will allow you to quickly make use of JavaScript libraries without having to worry about bundling and transpiling, there are some wider considerations you need to be aware of.
 
 The first  consideration is dependency management. This is when the package you are using depends on other packages for their use. Using importmaps locks the version of dependencies as required by the package you are using, but what if you add another package that relies on the same dependency but a different version? You'll start getting errors and tracking them down can be tricky. Importmaps don't at this stage manage dependencies and so are best used when your reliance on third party packages is minimal.
 
-Dependency management also feeds into the next consideration. How do you manage versioning of your libraries to keep them up to date? If you use something like webpack that requires an explicit package.json file that maps libraries to version and then a lock file to manage all the dependencies you can then rely on services such as Github's [Dependabot](https://github.com/dependabot) to keep those packages up to date for you by submitting pull requests against your github repo to update the packages. When using importmaps there isn't currently a way to do this, so you'll need to manage those updates yourself. If there's a security critical update for a library you rely on and you aren't aware of that? You can leave your app exposed to anyone who can exploit that.
+Dependency management also feeds into the next consideration. How do you manage versioning of your libraries to keep them up to date? If you use something like webpack that requires an explicit package.json file that maps libraries to version and then a lock file to manage all the dependencies you can then rely on services such as GitHub's [Dependabot](https://github.com/dependabot) to keep those packages up to date for you by submitting pull requests against your GitHub repo to update the packages. When using importmaps there isn't currently a way to do this, so you'll need to manage those updates yourself. If there's a security critical update for a library you rely on and you aren't aware of that? You can leave your app exposed to anyone who can exploit that.
 
 One other main consideration is when using importmaps you have much less control over asset bundling, so if you do require anything more complicated than just importing the third party package code to your app then importmaps won't work. It can't transpile or bundle any code. In that case you'll need another option which we cover in a later lesson.
 
@@ -150,7 +150,7 @@ All of the above may have you wondering why you'd use importmaps all things cons
 <div class="lesson-content__panel" markdown="1">
 Since Rails 7 is relatively new there aren't a ton of resources available yet. That being said here are some that are worth taking a look at:
 
-1. First things first. [Briefly look over the `importmap-rails` gem README on github](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
+1. First things first. [Briefly look over the `importmap-rails` gem README on GitHub](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
 2. Read [David Heinemeier Hansson's article](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755) on Modern web apps without JavaScript bundling or transpiling. He describes the why and how of the `importmap` addition to Rails 7.
 3. Appsignal produce a good [Importmaps under the hood](https://blog.appsignal.com/2022/03/02/import-maps-under-the-hood-in-rails-7.html) article that is well worth a read to get a bit more information on what we covered above.
 
