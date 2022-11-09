@@ -131,7 +131,7 @@ Rails will already have initialized Git for you when it was doing its thing, so 
 
 ~~~bash
 git add .
-git commit -m "initial commit"
+git commit -m "Initial commit"
 ~~~
 
 #### Step 2.2 Initialize on GitHub, add the remote, and Push
@@ -248,7 +248,7 @@ Now, you can stage and commit your changes so that the repo is ready for prime t
 
 ~~~bash
 git add .
-git commit -m 'updates for heroku deployment'
+git commit -m 'Updates for heroku deployment'
 ~~~
 
 While we're here, we might as well push our changes to GitHub too:
