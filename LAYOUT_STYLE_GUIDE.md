@@ -6,9 +6,9 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 
 **The goals of this style guide are to help create Markdown that is:**
 
-*   Readable for as many users as possible.
-*   Editable by any contributor.
-*   Consistent across the TOP website.
+-   Readable for as many users as possible.
+-   Editable by any contributor.
+-   Consistent across the TOP website.
 
 **Contents:**
 
@@ -51,7 +51,7 @@ A BRIEF INTRODUCTION.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   A LESSON OVERVIEW ITEM.
+-   A LESSON OVERVIEW ITEM.
 
 ### CUSTOM SECTION HEADING
 
@@ -62,7 +62,7 @@ CUSTOM SECTION CONTENT.
 <div class="lesson-content__panel" markdown="1">
 
 1.  A RESOURCE OR EXERCISE ITEM
-    *   AN INSTRUCTION ITEM
+    -   AN INSTRUCTION ITEM
 
 </div>
 
@@ -70,13 +70,13 @@ CUSTOM SECTION CONTENT.
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
+- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ~~~
 
@@ -104,9 +104,9 @@ This section contains helpful links to related content. It isn’t required, so 
 
     Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson. **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
 
-    In order to link to a Heading 3 `###` or Heading 4 `####` within the lesson, replace the `href` value for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase and any spaces replaced with a hyphen `-`. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `href="#creating-a-method"`.
+    In order to link to a Heading 3 `###` or Heading 4 `####` within the lesson, replace the value within the parenthesis for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase and any spaces replaced with a hyphen `-`. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `(#creating-a-method)`.
     
-    In order to link to a `<span>` element within the lesson, replace the `href` value with the exact `id` attribute of the `<span>` element (this will be case sensitive).  For example, a `<span id="Knowledge-Check-3">` element would be linked to with `href="#Knowledge-Check-3"`.
+    In order to link to a `<span>` element within the lesson, replace the value within the parenthesis with the exact `id` attribute of the `<span>` element (this will be case sensitive).  For example, a `<span id="Knowledge-Check-3">` element would be linked to with `(#Knowledge-Check-3)`.
 
 6.  `### Additional Resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
 
@@ -132,7 +132,7 @@ PRE-ASSIGNMENT SECTION CONTENT.
 
 #### Extra Credit
 
-*   AN OPTIONAL ADD-ON/USER STORY.
+-   AN OPTIONAL ADD-ON/USER STORY.
 
 </div>
 
@@ -250,12 +250,12 @@ When nesting lists, use a 4 space indent for both numbered and bulleted lists:
     4 space indent for wrapped text.
 2.  2 spaces again.
 
-*   3 spaces after a bullet.
+-   3 spaces after a bullet.
     4 space indent for wrapped text.
     1.  2 spaces after a numbered list.
         8 space indent for the wrapped text of a nested list.
     2.  Looks nice, don't it?
-*   3 spaces after a bullet.
+-   3 spaces after a bullet.
 ~~~
 
 ### Multi-line list items
@@ -277,12 +277,13 @@ This will add a paragraph tag to your list item: `<li><p></p></li>`
 
 ### Unordered Lists
 
-Unordered lists are created using either hyphens `-` or asterisks `*`. They both give the same results, so it doesn't matter which one is used, but sticking to one way keeps the source markdown consistent.
+The preferred way to create unordered lists for The Odin Project is by using hyphens `-`. Both hyphens and asterisks give the same results, but sticking to one way keeps the source markdown consistent.
 
 ~~~markdown
 
 - This is a list item made using a hyphen.
-* This is a list item made using an asterisk.
+- This is a list item made using a hyphen.
+- This is a list item made using a hyphen.
 
 ~~~
 
@@ -342,13 +343,13 @@ If you need a codeblock within a list, make sure to indent it so as to not break
 the list:
 
 ~~~markdown
-*   Bullet.
+-   Bullet.
 
     ~~~ruby
     puts foo;
     ~~~
 
-*   Next bullet.
+-   Next bullet.
 ~~~
 
 ## Links

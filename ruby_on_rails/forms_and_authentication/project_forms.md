@@ -6,7 +6,7 @@ These projects will give you a chance to actually build some forms, both using n
 
 In this project, you'll build a form the old fashioned way and then the Rails way.
 
-### Your Task
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 #### Set up the Back End
@@ -98,6 +98,3 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 5. Save this project to Git and upload to GitHub.
 
 </div>
-
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.

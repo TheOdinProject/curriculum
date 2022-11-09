@@ -6,12 +6,12 @@ All HTML documents have the same basic structure or boilerplate that needs to be
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to write the basic boilerplate for an HTML document
-* How to open HTML documents in your browser
+*   How to write the basic boilerplate for an HTML document
+*   How to open HTML documents in your browser
 
 ### Creating an HTML File
 
-To demonstrate HTML boilerplate, we first need an HTML file to work with.
+To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
 Create a new folder on your computer and name it `html-boilerplate`. Within that folder create a new file and name it `index.html`.
 
@@ -115,11 +115,14 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 > A note:
 > In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.  
 
-1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
-2. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
-3. You can use the terminal to open the file in your browser.
-   * `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
-   * `macOS` - Navigate to the directory containing the file and type `open ./index.html`
+1.  You can drag and drop an HTML file from your text editor into the address bar of your browser.
+
+2.  You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
+
+3.  You can use the terminal to open the file in your browser.
+
+    *   `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
+    *   `macOS` - Navigate to the directory containing the file and type `open ./index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
@@ -161,16 +164,17 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
-* <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-* <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
-* <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+*   <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
+*   <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
+*   <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
+*   <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   Read through this article about what [charsets you should use with your HTML pages](https://www.bitdegree.org/learn/html-encoding).
+*   Read through this article about what [charsets you should use with your HTML pages](https://www.positioniseverything.net/html-encoding/).
 *   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. In this way you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the value defined in your `meta-charset` attribute. This could potentially hide some characters on your site not being encoded in the way you expect.
 *   If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
+
 <br/>

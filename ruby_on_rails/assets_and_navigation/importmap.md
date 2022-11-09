@@ -6,14 +6,14 @@ Rails 6 tried to fix this solution by creating a wrapper Gem around [webpack](ht
 
 With Rails 7 we have [importmap](https://github.com/rails/importmap-rails). This approach to managing JavaScript in your applications was chosen for a couple of reasons. First ES6 is now supported by all browsers that matter. Chrome, Edge, Safari, and Firefox. Secondly, HTTP/2 is now the norm meaning you can have a single connection that responds to the client with multiple small files. Now you can get rid of your bundler for JavaScript.
 
-### Learning Outcomes
+### Lesson Overview
 
-*Look through these now and then use them to test yourself after doing the assignment*
+This section contains a general overview of topics that you will learn in this lesson.
 
-* What are Import maps?
-* How do Import maps work?
-* How do you use Import maps?
-* What are `pin`s?
+- What are Import maps?
+- How do Import maps work?
+- How do you use Import maps?
+- What are `pin`s?
 
 ### Import Maps
 
@@ -27,13 +27,13 @@ The first thing to know is that import maps are not a Rails specific solution. T
 
 In order to be ESM compatible, you must provide one of the following specifiers when loading Javascript code
 
-* Absolute path:
+- Absolute path:
     `import React from "/Users/Odin/projects/TOP/node_modules/react"`
 
-* Relative path:
+- Relative path:
     `import React from "./node_modules/react"`
 
-* HTTP path:
+- HTTP path:
     `import React from "https://ga.jspm.io/npm:react@17.0.1/index.js"`
 
 The `importmap-rails` gem provides an API for mapping the "bare module specifiers" to 1 of the 3 ways of loading ESM JavaScript packages.
@@ -143,7 +143,7 @@ Dependency management also feeds into the next consideration. How do you manage 
 
 One other main consideration is when using importmaps you have much less control over asset bundling, so if you do require anything more complicated than just importing the third party package code to your app then importmaps won't work. It can't transpile or bundle any code. In that case you'll need another option which we cover in a later lesson.
 
-All of the above may have you wondering why you'd use importmaps all things considered. I'd say they actually reflect the Rails way really well. Have a simple default option that you can use for as long as possible and then when your requirements grow outside of that you have other options to reach for which will add another layer of complexity but will be justified. With Webpacker that complexity was thrown at you even if you didn't require it. So start with importmaps for all of your applications and only look to change that when you need to.
+All of the above may have you wondering why you'd use importmaps all things considered. We'd say they actually reflect the Rails way really well. Have a simple default option that you can use for as long as possible and then when your requirements grow outside of that you have other options to reach for which will add another layer of complexity but will be justified. With Webpacker that complexity was thrown at you even if you didn't require it. So start with importmaps for all of your applications and only look to change that when you need to.
 
 ### Assignment
 
@@ -158,7 +158,7 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 ### Additional Resources
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 1. [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
 2. [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
@@ -166,8 +166,8 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 ### Knowledge Check
 
-*This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#import-maps-with-npm-packages">Can you use import maps with npm packages?</a>
-* <a class="knowledge-check-link" href="#downloading-vendor-files">How do you download vendor files using import maps?</a>
-* <a class="knowledge-check-link" href="#preloading-pinned-modules">How can you preload pinned modules?</a>
+- <a class="knowledge-check-link" href="#import-maps-with-npm-packages">Can you use import maps with npm packages?</a>
+- <a class="knowledge-check-link" href="#downloading-vendor-files">How do you download vendor files using import maps?</a>
+- <a class="knowledge-check-link" href="#preloading-pinned-modules">How can you preload pinned modules?</a>

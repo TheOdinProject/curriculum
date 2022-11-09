@@ -8,12 +8,12 @@ In this lesson, we will learn about the text-based elements you are likely to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to create paragraphs
-* How to create headings
-* How to create bold text
-* How to create italicized text
-* The relationships between nested elements
-* How to create HTML comments
+*   How to create paragraphs
+*   How to create headings
+*   How to create bold text
+*   How to create italicized text
+*   The relationships between nested elements
+*   How to create HTML comments
 
 ### Paragraphs
 
@@ -56,7 +56,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
-<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. h1 is the most important and is larger than the other headings, and h6 is the lowest level and therefore the smallest of the headings.</span>
+<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
 
 Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
 
@@ -161,23 +161,25 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
-2. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites.
+
+1.  Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
+2.  Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
+3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites.
+
 </div>
 
 ### Knowledge Check
   
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
  
-* <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>
-* <a class="knowledge-check-link" href='#headings'>How do you create a heading in HTML?</a>
-* <a class="knowledge-check-link" href='#different-heading-levels'>How many different levels of headings are there and what is the difference between them?</a>
-* <a class="knowledge-check-link" href='#strong-element'>What element should you use to make text bold and important?</a>
-* <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized to add emphasis to it?</a>
-* <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
-* <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
-* <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
+*   <a class="knowledge-check-link" href='#create-paragraph-element'>How do you create a paragraph in HTML?</a>
+*   <a class="knowledge-check-link" href='#headings'>How do you create a heading in HTML?</a>
+*   <a class="knowledge-check-link" href='#different-heading-levels'>How many different levels of headings are there and what is the difference between them?</a>
+*   <a class="knowledge-check-link" href='#strong-element'>What element should you use to make text bold and important?</a>
+*   <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized to add emphasis to it?</a>
+*   <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
+*   <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
+*   <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
 
 ### Additional Resources
 
@@ -185,3 +187,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 <br/>
+

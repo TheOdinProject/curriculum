@@ -1,4 +1,5 @@
 ### Introduction
+
 There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ### Lesson Overview
@@ -29,7 +30,7 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
-3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators.
+3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators. A little heads up regarding this reading's tasks; there will be questions where you see `alert()` (with a number or string inside of the parenthesis), what's happening here will be discussed later in the curriculum. Some of the answers may not make sense now but they are accurate and will come to be understood as you progress in the curriculum. Don't worry too much about it now!
 4. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
 5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
@@ -42,24 +43,29 @@ To give you a good bit of practice, we have created some replit.com exercises fo
 
 Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-To get started, create a free repl account and click "Fork" in order to have access to the exercises. 
-Note: Feel free to browse the files on the left column in order to gain familiarity with it. 
+To get started, create a free replit account and click "Fork" or "Remix" in order to have access to the exercises.
+Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
-- [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
-  * In this exercise, you will be working out of the file called troubleshooting.js
-- [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
-  * You will be working out of script.js 
-- [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
-  * You will be working out of math.js  
-- [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
-  * You will be working out of follow.js
+* [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
+* In this exercise, you will be working out of the file called troubleshooting.js
+* [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
+* You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
+* [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
+* You will be working out of math.js
+* [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
+* You will be working out of follow.js
+
 </div>
 
 ### Additional Resources
 
- This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD)
+
+- Regular expressions, commonly known as regex, are a tool that matches or locates patterns in strings for string validation. Although it shouldn't be your immediate solution this early on, you can still use this resource to understand how websites know that `myemail@com` isn't a valid email address. On top of that, other solutions to filter out strings exist, and regex is considered a slow operation.
+
+- [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
+- [When to use Regex vs Built in String Methods? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope).)
 
 ### Knowledge Check
 
@@ -79,7 +85,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are truthy and falsy values?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are the falsy values in JavaScript?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_if_else.asp">What are conditionals?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if_..._else_syntax">What is the syntax for an if/else conditional?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax">What is the syntax for an if/else conditional?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements">What is the syntax for a switch statement?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator">What is the syntax for a ternary operator?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if_..._else">What is nesting?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else">What is nesting?</a>

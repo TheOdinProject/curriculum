@@ -1,5 +1,4 @@
 ### Introduction
-
 You've come a long way, congratulations!  At this point you should feel comfortable with building new Express applications and using MongoDB to model and store data.  This project will require you to put all of that knowledge to the test.  It's not going to be easy, but should be well within your capabilities and it will be a _great_ portfolio piece.
 
 You'll be building Facebook.  As with our previous lessons, how much effort you want to put into the styling and front-end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, "liking", "friending", and the news feed.  You'll also implement signing in with the real Facebook using our old friend passportJS.
@@ -7,7 +6,6 @@ You'll be building Facebook.  As with our previous lessons, how much effort you 
 Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.)
 
 ### Assignment
-
 Build Facebook!  You'll build a large portion of the core Facebook user functionality in this project. We won't be worrying about some of the more flashy front-end stuff unless you really want to, but you shouldn't need it to get a nice user experience.
 
 This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website. You'll need to do some of your own research and read the documentation for a few of the modules we'll be using. Keep the following requirements in mind.  We'll cover specific steps to get started below this list.

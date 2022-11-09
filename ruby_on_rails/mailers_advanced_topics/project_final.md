@@ -17,7 +17,7 @@ This project will give you a chance to take a relatively high level set of requi
 Keep the following requirements in mind.  We'll cover specific steps to get started below this list:
 
 <div class="lesson-content__panel" markdown="1">
-1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails4) for setup info.
+1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails7) for setup info.
 2. Users must sign in to see anything except the sign in page.
 3. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 4. Users can send Friend Requests to other Users.
@@ -39,7 +39,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 #### Extra Credit
 
 1. Make posts also allow images (either just via a URL or, more complicated, by uploading one).
-2. Use the [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
+2. Use the [Active Storage](https://guides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
 3. Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
 4. Style it up nicely! We'll dive into HTML/CSS in the next course.
 
@@ -49,6 +49,10 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 2. Build the new PostgreSQL Rails app `$ rails new odin-facebook --database=postgresql`, initialize the Git repo and update the README to link back to this page.
 3. Work your way down the list above!  Each step will involve a new challenge but you've got the tools.
 4. You can populate data like users and posts using the [Faker](https://github.com/stympy/faker) gem, which is basically just a library of sample names and emails.  It may just be easier, though, for you to write your own seeds in the `db/seeds.rb` file, which gets run if you type `$ rake db:seed`.
+
+#### Final Step
+
+1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
 
 </div>
 

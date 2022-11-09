@@ -8,19 +8,19 @@ In this lesson, we will learn how to create links and add some visual flair to o
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to create links to pages on other websites on the internet
-* How to create links to other pages on your own websites
-* The difference between absolute and relative links
-* How to display an image on webpage using HTML
+*   How to create links to pages on other websites on the internet
+*   How to create links to other pages on your own websites
+*   The difference between absolute and relative links
+*   How to display an image on webpage using HTML
 
 ### Preparation
 
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
-1. Create a new directory named `odin-links-and-images`.
-2. Within that directory, create a new file named `index.html`.
-3. Fill in the usual HTML boilerplate.
-4. Finally, add the following h1 to the body:
+1.  Create a new directory named `odin-links-and-images`.
+2.  Within that directory, create a new file named `index.html`.
+3.  Fill in the usual HTML boilerplate.
+4.  Finally, add the following h1 to the body:
 
 ~~~html
 <h1>Homepage</h1>
@@ -38,7 +38,7 @@ Add the following to the body of the index.html page we created and open it in t
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is made up of two parts, a name, and a value. <span id="where-to-go"></span>In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -54,8 +54,8 @@ It's worth noting you can use anchor tags to link to any kind of resource on the
 
 Generally, there are two kinds of links we will create:
 
-1. Links to pages on other websites on the internet
-2. Links to pages located on our own websites
+1.  Links to pages on other websites on the internet
+2.  Links to pages located on our own websites
 
 #### Absolute Links
 
@@ -139,7 +139,7 @@ Think of your domain name (`town.com`) as a town, the directory in which your we
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
 
-To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag.
+To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is self-closing. Empty, self-closing HTML elements do not need a closing tag.
 
 Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
@@ -154,9 +154,11 @@ For example, using an absolute path we can display an image located on The Odin 
 
 To use images that we have on our own websites, we can use a relative path.
 
-1. Create a new directory named `images` within the `odin-links-and-images` project.
-2. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
-3. Rename the image to `dog.jpg`.
+1.  Create a new directory named `images` within the `odin-links-and-images` project.
+
+2.  Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
+
+3.  Rename the image to `dog.jpg`.
 
 Finally add the image to the `index.html` file:
 
@@ -185,9 +187,9 @@ What if we want to use the dog image in the about page? We would first have to g
 
 To break this down:
 
-1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
-2. Then, from the parent directory, we can go into the `images` directory.
-3. Finally, we can access the `dog.jpg` file.
+1.  First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
+2.  Then, from the parent directory, we can go into the `images` directory.
+3.  Finally, we can access the `dog.jpg` file.
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
@@ -223,14 +225,14 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>
-* <a class="knowledge-check-link" href="#attribute">What is an attribute?</a>
-* <a class="knowledge-check-link" href="#where-to-go">What attribute tells links where to go to?</a>
-* <a class="knowledge-check-link" href="#absolute-and-relative-links">What is the difference between an absolute and relative link?</a>
-* <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
-* <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
-* <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
-* <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
+*   <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>
+*   <a class="knowledge-check-link" href="#attribute">What is an attribute?</a>
+*   <a class="knowledge-check-link" href="#where-to-go">What attribute tells links where to go to?</a>
+*   <a class="knowledge-check-link" href="#absolute-and-relative-links">What is the difference between an absolute and relative link?</a>
+*   <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
+*   <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
+*   <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
+*   <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
 
 ### Additional Resources
 
@@ -239,3 +241,4 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 <br/>
+

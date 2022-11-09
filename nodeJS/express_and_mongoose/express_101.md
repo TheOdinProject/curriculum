@@ -1,3 +1,4 @@
+### Introduction
 In the last lesson, we set the stage by explaining quite a bit of the background information you'll need to really understand what's going on as we start to dive into Express. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
 
 ### Learning Outcomes
@@ -78,11 +79,17 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
 </div>
 
-### Knowledge Checks 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+### Knowledge Check 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#middleware'>What is middleware?</a>
 - <a class='knowledge-check-link' href='#req'>What is the `req` object?</a>
 - <a class='knowledge-check-link' href='#res'>What is the `res` object?</a>
 - <a class='knowledge-check-link' href='#next'>Why is `next` important?</a>
 - <a class='knowledge-check-link' href='#app-use'>What does `app.use` do?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

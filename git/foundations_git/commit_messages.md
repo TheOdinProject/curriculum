@@ -6,18 +6,17 @@ This lesson will explain the importance of good commit messages, how to write th
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to write a meaningful commit message
-* Why meaningful commit messages are important
-* When to commit
+*   How to write a meaningful commit message
+*   Why meaningful commit messages are important
+*   When to commit
 
 ### Are Commit Messages So Important They Deserve Their Own Lesson?
 
 Yes! Let me give you a quick list of reasons why:
 
-- When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out. 
-- Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
-- Having a good commit message history will also be helpful if you come back to a project you were working on after stepping away from it for a while. You likely won't remember your thought process and changes made when initially writing out the code. 
-
+-   When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out. 
+-   Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
+-   Having a good commit message history will also be helpful if you come back to a project you were working on after stepping away from it for a while. You likely won't remember your thought process and changes made when initially writing out the code. 
 
 ### When to Commit
 
@@ -37,13 +36,12 @@ There will come a time when you are working on a project and you FINALLY get som
 
 </div>
 
-
 ### Tips and Things to Remember:
 
-- Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct
-- Use an active voice: "Fix card generator"
-- Avoid using vague commit messages such as "saved" or "updated"
-- Commit early and often!
+-   Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct
+-   Use an active voice: "Fix card generator"
+-   Avoid using vague commit messages such as "saved" or "updated"
+-   Commit early and often!
 
 ### Knowledge Check
 
@@ -52,3 +50,4 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#intro">What are two benefits of having well-written commit messages and a good commit history?</a>
 *   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#limit-50">How many characters should the subject line of your commit message be?</a>
 <br/>
+

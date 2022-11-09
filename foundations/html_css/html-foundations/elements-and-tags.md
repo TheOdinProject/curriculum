@@ -6,8 +6,8 @@ HTML (HyperText Markup Language) defines the structure and content of webpages. 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Explain what HTML Tags are
-* Explain what HTML elements are
+*   Explain what HTML Tags are
+*   Explain what HTML elements are
 
 ### Elements and Tags
 
@@ -23,7 +23,7 @@ A full paragraph element looks like this:
 
 You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
 
-There are some HTML elements that do not have a closing tag. These are known as empty elements because they don't wrap any content. We will encounter a few of these in later lessons, but for the most part, elements will have both opening and closing tags.
+There are some HTML elements that do not have a closing tag. These elements often look like this: `<br />` or `<img/>`, but some can also be used without the closing forward slash such as `<br>` or `<img>`. These are known as self-closing tags or empty elements because they don't wrap any content. We will encounter a few of these in later lessons, but for the most part, elements will have both opening and closing tags.
 
 HTML has a [vast list of predefined tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) that you can use to create all kinds of different elements. It is important to use the correct tags for content. Using the correct tags can have a big impact on two aspects of your sites: how they are ranked in search engines; and how accessible they are to users who rely on assistive technologies, like screen readers, to use the internet.
 
@@ -33,7 +33,7 @@ Using the correct elements for content is called semantic HTML. We will explore 
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
+1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
 
 </div>
 
@@ -41,12 +41,13 @@ Using the correct elements for content is called semantic HTML. We will explore 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
-* <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>
+*   <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
+*   <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
+
 <br/>

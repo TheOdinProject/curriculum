@@ -1,3 +1,4 @@
+### Introduction
 You've reached the end of the scope of this course and should feel pretty good about your Rails skills.  That doesn't mean you should feel like you understand everything, but you should be able to build a Rails application with the kind of functionality which is actually useful in the real world.  It probably won't look too pretty, but that will come in the next few courses.
 
 This isn't the last course in the curriculum and you've got quite a way to go before hitting that "full stack" point, but it's as far as we'll get with Rails and it's pretty darn far.  Despite how far you've come, it's up to you to keep building stuff, asking questions, and digging deeper into both Rails and best practices of software engineering in general.

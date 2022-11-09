@@ -1,3 +1,4 @@
+### Introduction
 Up until this point, you've likely only relied on the browser's DevTools to debug your code. <span id="two-ways">When it comes to debugging Node and server side code, VS Code has a handy built-in debugger that you can use to debug directly in your editor! Additionally, you can also set Google Chrome up to debug Node and get the full benefits of the Chrome DevTools. </span> Ultimately, this lesson will familiarize you with the Node debugger, which is a critical tool at this point in your learning, and will likely be a key tool you use daily in your professional life.
 
 ### Learning Outcomes
@@ -20,4 +21,4 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#two-ways">What are two ways to debug Node in VS Code?</a>
+- <a class="knowledge-check-link" href="#two-ways">What are two ways to debug Node?</a>
