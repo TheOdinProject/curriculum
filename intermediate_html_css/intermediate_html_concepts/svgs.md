@@ -94,7 +94,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-1.  There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), and [The Noun Project](https://thenounproject.com/term/free/).
+1.  There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), [The Noun Project](https://thenounproject.com/term/free/), and [Ionicons](https://ionic.io/ionicons).
 2.  If you want a deep-dive into the details of SVGs and their elements, the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is a great place to start.
 3.  If you want to get started making your own SVGs, you'll want some sort of visual editor.
     1.  [This is a great little SVG editor](https://yqnn.github.io/svg-path-editor) for learning how the SVG markup works. It not only shows the XML, but also lets you see the "commands" you're using to generate the SVG. This website isn't really designed for making complex graphics, though.
