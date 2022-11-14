@@ -149,9 +149,73 @@ console.log(theHobbit.info());
 
 ### The Prototype
 
-Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the prototype is another object that the original object _inherits_ from, which is to say, the original object has access to all of its prototype's methods and properties.
+Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the `prototype` is another object that the original object _inherits_ from, which is to say, the original object has access to all of its `prototype`'s methods and properties.
 
-To elaborate, there are two kinds of `prototype`, which are intertwined with each other. The _first_ kind is the one that exists on a **function**, which is referred to as `Player.prototype` in the case of the `Player` function in the previous example. 
+Let's break it down.
+
+#### 1. All objects in JavaScript have a `prototype`
+
+Pretty straightforward sentence here! Every object in JavaScript has a `prototype`. So for example, the `player1` and `player2` objects from before, (created with the `Player(name, marker)` object constructor) also have a `prototype`. Now, what does having a `prototype` mean? What even is a `prototype` of an object?
+
+#### 2. Stated simply, the `prototype` is another object...
+
+This sentence also seems pretty straightforward! The `prototype` is just another object - again, like the `player1` and the `player2` objects. The `prototype` object can have properties and functions, just as these `Player` objects have properties like `.name`, `.marker`, and functions like `.sayName()` attached to them.
+
+#### 3. ...that the original object _inherits_ from, and has access to all of its `prototype`'s methods and properties
+
+Here, the "original object" refers to an object like `player1` or `player2`. These objects are said to "inherit", or simply said, these objects have access to the `prototype`'s properties or functions, if they have been defined. For example, if there was a `.sayHello()` function defined on the `prototype`, `player1` can access the function just as if it was it's own function - `player1.sayHello()`. But it's not just `player1` who can call the `.sayHello()` function, even `player2` can call it, since it's defined on the `prototype`! Read on to know the details of how it works and how you could do this yourself!
+
+#### Accessing an object's `prototype`
+
+Conceptually, you now might feel like you know, or at least have an idea of what a `prototype` of an object is. But how do you _know_ or actually _see_ what the prototype of an object is? Let's find out. You can try running the following code in the developer console of your browser. (Make sure you've created the `player1` and `player2` objects from before!)
+
+~~~javascript
+player1.__proto__ === Player.prototype // returns true
+player2.__proto__ === Player.prototype // returns true
+~~~
+
+<!-- Every object has a `__proto__` property attached to it on its creation. This `__proto__` property refers to the object's `prototype`. The object's `prototype` is usually the _value_ of the Object Constructor's `.prototype` _property_. So in our example, as you can see in the code, every `Player` object has a `.__proto__` property, referring to the `Player()` object constructor's `.prototype` property, _and this property contains the actual_ `prototype` _object_! -->
+
+Now, to understand this code, let's use the three points from earlier:
+
+1. **All objects in JavaScript have a `prototype`**:
+
+   1a. You can check the object's `prototype` by using the `.__proto__` property of the object, like `player1.__proto__`.
+
+   1b. This `.__proto__` property refers to the `.prototype` property of the Object Constructor - `player1.__proto__ === Player.prototype`.
+
+2. **The prototype is another object**: 
+
+   2a. The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object. 
+   
+   2b. The _reference_ to this value of `Player.prototype` is stored in every `Player` object's `.__proto__` property, every time a `Player` object is created. 
+   
+   2c. Hence, you get a `true` value returned when you compute `player1.__proto__ === Player.prototype`.
+
+3. **...that the original object _inherits_ from, and has access to all of its prototype's methods and properties**: 
+
+   3a. As said in the earlier point, every `Player` object's `.__proto__` property refers to `Player.prototype`: `player1.__proto__ === player2.__proto__` (returns `true`).
+   
+   3b. So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
+   
+Point 3b needs a little more explanation. Consider the following code:
+
+~~~javascript
+Player.prototype.sayHello = function() {
+   console.log("Hello, I'm a player!");
+}
+
+player1.sayHello() // logs "Hello, I'm a player!"
+player2.sayHello() // logs "Hello, I'm a player!"
+~~~
+
+Do you see how you defined the `.sayHello` function on the `Player.prototype` object and how it became available for the `player1` and the `player2` objects to use? Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype, i.e., `Player.prototype`.
+
+<!-- --------------------------------------------------------------- -->
+
+<!-- To elaborate, there are two "kinds" of `prototype`, which are intertwined with each other. The _first_ "kind" is the one that exists on a **function**, which is referred to as `Player.prototype` in the case of the `Player` function in the previous example. 
+
+Note: There really is only one kind of `prototype`. We differentiate it here just for being able to understand it. If it doesn't make sense yet, you can come back and read this note later on, after reading the **Prototypal Inheritance** section.
 
 The _second_ kind is the one which exists on _all_ objects in JavaScript as a special property. This second `prototype` is referred to in a _non-standard_ way as, reusing our example, `player1.__proto__`, or `player2.__proto__`. This `__proto__` property comes into existence when an object is created, and is set to refer to the first kind of `prototype`. That is, in our example, `player1.__proto__` and `player2.__proto__` will have the value `Player.prototype`. You can test this in your browser console by defining `Player`, and creating the `player1` and `player2` objects.
 
@@ -259,7 +323,7 @@ Essentially, this is how JavaScript makes use of `prototype` and `__proto__` - b
 
 However, this chain does not go on forever, and if you have already tried logging the value of `Object.prototype.__proto__`, you would find that it is `null`, thus indicating the end of the chain. And it is at the end of this chain that if the specific property or function is not found, `undefined` is returned.
 
-Note: Every `prototype` object inherits from `Object.prototype` by default.
+Note: Every `prototype` object inherits from `Object.prototype` by default. -->
 
 
 #### Recommended Method for Prototypal Inheritance
