@@ -19,7 +19,7 @@ Closing tags tell the browser where an element ends. They are almost the same as
 
 A full paragraph element looks like this:
 
-![Elements Diagram](https://cdn.statically.io/gh/TheOdinProject/curriculum/5e4a39cf0c23dd96f988bbf8197a9370a50dc2c4/html_css/v2/foundations/html-foundations/imgs/element-diagram.png)
+![Elements Diagram](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/00.png)
 
 You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
 
