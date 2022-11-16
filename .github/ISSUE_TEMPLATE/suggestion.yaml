@@ -54,7 +54,7 @@ body:
     id: contact
     attributes:
       label: (Optional) Discord Name
-      description: Optionally provide your discord name to help co-ordinate changes there if necessary
+      description: Optionally provide your discord name to help coordinate changes there if necessary
       placeholder: ex. odinite#1234
     validations:
       required: false
