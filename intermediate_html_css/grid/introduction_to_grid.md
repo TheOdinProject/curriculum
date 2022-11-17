@@ -78,4 +78,4 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href='#a-look-back-at-flex'>How can you use Flex to make a two-dimensional layout?</a>
 - <a class="knowledge-check-link" href='#what-is-grid'>Why was CSS Grid introduced?</a>
-- <a class="knowledge-check-link" href='#what-the-grid'>Which CSS layout module would you use to easily make equal sized items in a container?</a>
+- <a class="knowledge-check-link" href='#what-is-grid'>Which CSS layout module would you use to easily make equal sized items in a container?</a>
