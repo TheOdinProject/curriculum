@@ -128,7 +128,7 @@ end
 def transaction_statement
   formatted_transactions = []
   @transactions.each do |transaction|
-    formatted_transactions << yield(transaction) # We've put () around transaction just for clarity here but they aren't required.
+    formatted_transactions << yield(transaction)
   end
 
   p formatted_transactions
