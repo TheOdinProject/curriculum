@@ -51,3 +51,8 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://cbea.ms/git-commit/#limit-50">How many characters should the subject line of your commit message be?</a>
 <br/>
 
+### Additional Resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+-   One way to formulate high information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
