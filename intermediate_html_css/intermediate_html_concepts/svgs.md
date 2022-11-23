@@ -78,7 +78,7 @@ The alternative is to inline your SVGs by pasting their contents directly into y
 
 Inlining SVGs allows you to unlock their full potential, but it also comes with some serious drawbacks: it makes your code harder to read, makes your page less cacheable, and if it's a large SVG it might delay the rest of your HTML from loading.
 
-Some of the drawbacks of inlining SVG code can be avoided once you've learned a front-end JavaScript framework like React, or a build-tool like webpack. We aren't quite ready to get into those yet, so just keep that in the back of your mind.
+Some of the drawbacks of inlining SVG code can be avoided once you've learned a front-end JavaScript library like React, or a build-tool like webpack. We aren't quite ready to get into those yet, so just keep that in the back of your mind.
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
