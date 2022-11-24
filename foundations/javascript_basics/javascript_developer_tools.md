@@ -38,14 +38,13 @@ Google has updated some of the required sections in the below tutorials and some
         1.  [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
         2.  [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
     -  [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
-    -  Console
-        1.  [Console overview](https://developer.chrome.com/docs/devtools/console/)
     -  Mobile Simulation
         1.  [Simulate mobile devices with Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
     -  JavaScript
         1.  [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/)
         2.  [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-2.  Then, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the JavaScript Console.
+        
+2. Then, watch [the console overview video and read through the page](https://developer.chrome.com/docs/devtools/console/) to familiarize yourself with the console and its usage.
 
 </div>
 
