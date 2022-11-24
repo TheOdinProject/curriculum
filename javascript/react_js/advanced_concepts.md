@@ -18,8 +18,8 @@ By the end of this lesson, you should be able to do the following:
 * Explain PropTypes.
 * Explain Styled Components.
 * Explain Redux and state management systems.
+* Explain how Context API works.
 * Explain higher-order Components.
-* Explain Routers in web pages.
 * Explain how to make your own React Hooks.
 
 ### Guide to Advanced React

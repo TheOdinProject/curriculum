@@ -17,9 +17,9 @@ Finally, we'll cover additional useful topics like how to send emails from your 
 
 ### Our Tools and Texts
 
-The most important resource that we'll leverage is the [Rails Guides](http://guides.rubyonrails.org/). As well as the rails API which also provides Rails methods that you can specifically search for if need be. You can find that [here](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html).
+The most important resource that we'll leverage is [the Rails Guides](http://guides.rubyonrails.org/). We'll use these guides along with [the Rails API](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html), which allows you to search for specific Rails methods.
 
-The Guides are comprehensive, basically a completely open-source textbook and reference manual for Rails.  At times they'll get a bit more technical than you might like, and it may be okay to skim some of that.  When you Google for a solution later, if it's not showing up on Stack Overflow then it's probably going to give you a link to the guides.
+The Rails Guides are so comprehensive that they are essentially a completely open-source textbook and reference manual for Rails.  At times, they'll get a bit more technical and in-depth than you might like, and it may be okay to skim at that point.  When you Google for help as you build your projects, if you don't find a direct solution on Stack Overflow, then your best bet will be to dive into the relevant Rails Guides links.
 
 
 ### Additional Resources

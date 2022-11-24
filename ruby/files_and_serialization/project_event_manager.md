@@ -176,7 +176,7 @@ ID,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcod
 1,11/12/08 10:47,Allison,Nguyen,arannon@jumpstartlab.com,6154385000,3155 19th St NW,Washington,DC,20010
 ~~~
 
-The first row contains header information. This row provides descriptional text
+The first row contains header information. This row provides descriptive text
 for each column of data. It tells us the data columns are laid out as follows
 from left-to-right:
 
@@ -1561,3 +1561,4 @@ But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
 * Use [Date#wday](https://rubyapi.org/3.1/o/date#method-i-wday) to find out the day of the week.
+

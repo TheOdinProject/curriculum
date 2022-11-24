@@ -26,13 +26,13 @@ The specifics for using any API are usually documented on the service's website.
 You'll probably get an error like this:
 
 ~~~
-{"code":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}
+{"code":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
 ~~~
 
 This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
 ~~~
-http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
+https://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
 ~~~
 
 As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
