@@ -8,7 +8,7 @@ The work is typically very project focused and involves collaborating with a tea
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
 Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
-For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
+For more details, Wikipedia describes the breadth of the web development profession in their [entry on web development](https://en.wikipedia.org/wiki/Web_development).
 
 ### Types of Web Developers
 
