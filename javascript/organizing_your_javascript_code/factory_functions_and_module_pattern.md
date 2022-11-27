@@ -53,6 +53,8 @@ const Person = function(name, age) {
 const jeff = new Person('jeff', 27);
 ~~~
 
+Note that factory functions do not utilize [the prototype](https://www.theodinproject.com/lessons/node-path-javascript-objects-and-object-constructors#the-prototype), which does come with a performance penalty. However, as a general rule, this peanalty isn't significant unless you're creating thousands of objects.
+
 #### Object Shorthand
 
 A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:
