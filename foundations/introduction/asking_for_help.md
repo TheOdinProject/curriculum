@@ -37,7 +37,7 @@ People who volunteer in coding communities are here to help! But a question you 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1.  Read and bookmark [this amazing article by Gordon Zhu](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article. The video linked in this article is no longer available but that is not an issue since we explain debugging in detail later in the curriculum.
+1.  Read and bookmark [this amazing article by Gordon Zhu](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
 2.  Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions. 
 3.  Check out [this article](https://stackoverflow.com/help/how-to-ask) from the world’s most popular programming help resource, Stack Overflow.
 4.  While asking for help is encouraged, it's important to avoid becoming a "help vampire" and be respectful of the communities or persons you are asking for help. [This resource](https://slash7.com/2006/12/22/vampires/) goes in depth to identify what a "help vampire" is, gives those who help others the tools to empower folks to ask questions effectively, and help the "help vampire" effectively. 
