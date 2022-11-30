@@ -24,7 +24,7 @@ In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`,
 
 Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
-For an interactive explanation and demo of the flex shorthand, check out this scrim:
+For an interactive explanation and demo of the flex shorthand, check out this Scrim:
 
 <iframe src="https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv?embed=odin,no-sidebar,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
 
@@ -87,7 +87,7 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 3. This [CSS Tricks](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/) article explains the individual flex-grow, flex-shrink and flex-basis properties in detail
 
-4. Watch this interactive scrim for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario:
+4. Watch this interactive Scrim for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario:
 
 <iframe src="https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv?embed=odin,no-sidebar,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
 
