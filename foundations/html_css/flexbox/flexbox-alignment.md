@@ -35,6 +35,15 @@ To change the placement of items along the **cross axis** use `align-items`. Try
 
 Because `justify-content` and `align-items` are based on the main and cross axis of your container, their behavior changes when you change the flex-direction of a flex-container. For example, when you change `flex-direction` to `column`, `justify-content` aligns vertically and `align-items` aligns horizontally. The most common behavior, however, is the default, i.e. `justify-content` aligns items horizontally (because the main axis defaults to horizontal), and `align-items` aligns them vertically. One of the biggest sticking points that beginners have with flexbox is confusion when this behavior changes.
 
+Check out this Scrim for an interactive demo of how `justify-content` and it's different properties behave:
+
+<iframe src="https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,no-sidebar,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
+
+This next Scrim covers the behavior of `align-items`, how to perfectly center an element on a page using flexbox and much more:
+
+<iframe src="https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9?embed=odin,no-sidebar,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
+
+
 #### Gap
 
 One more very useful feature of flex is the `gap` property. Setting `gap` on a flex container simply adds a specified space between flex items, very similar to adding a margin to the items themselves. `gap` is a _new_ property so it doesn't show up in many resources yet, but it works reliably in all modern browsers, so it is safe to use and very handy! Adding `gap: 8px` to the centered example above produces the result below.
