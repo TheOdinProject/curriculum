@@ -48,7 +48,7 @@ If it's hard to see what's going on in the small embedded CodePen, feel free to 
 
 For an more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw?embed=odin,no-sidebar,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw?embed=odin,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
 
 #### Flex Containers and Flex Items
 
