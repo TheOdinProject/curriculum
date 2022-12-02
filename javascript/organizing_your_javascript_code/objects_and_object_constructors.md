@@ -258,74 +258,95 @@ Note:
 
 1. Every `prototype` object inherits from `Object.prototype` by default.
 
-2. An object's `.__proto__` property can only point to ONE `prototype` object at a time. 
+2. An object's `.__proto__` property can only point to _one_ `prototype` object at a time. 
 
 #### Recommended Method for Prototypal Inheritance
 
-So far you have seen several ways of making an object inherit the prototype from another object. At this point in history, the recommended way of setting the prototype of an object is `Object.create` ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) is the documentation for that method). `Object.create` very simply returns a new object with the specified prototype and any additional properties you want to add. For our purposes, you use it like so:
+Now, how do you utilise Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, we can use `Object.setPrototypeOf()` to 'set' or mutate it. Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
 
 ~~~javascript
-function Student() {
+function Person(name) {
+  this.name = name
 }
 
-Student.prototype.sayName = function() {
-  console.log(this.name)
+Person.prototype.sayName = function() {
+  console.log(`Hello, I'm ${this.name}!`)
 }
 
-function EighthGrader(name) {
-  this.name = name
-  this.grade = 8
+function Player(name, marker) {
+  this.name = name
+  this.marker = marker
 }
 
-EighthGrader.prototype = Object.create(Student.prototype)
+Player.prototype.getMarker = function() {
+  console.log(`My marker is '${this.marker}'`)
+}
 
-const carl = new EighthGrader("carl")
-carl.sayName() // console.logs "carl"
-carl.grade // 8
+// Make `Player` objects inherit from `Person`
+// Set Player.prototype.__proto__ to refer to Person.prototype
+// instead of Object.prototype
+Object.setPrototypeOf(Player.prototype, Person.prototype)
+
+const player1 = new Player('steve', 'X')
+const player2 = new Player('also steve', 'O')
+
+player1.sayName() // Hello, I'm steve!
+player2.sayName() // Hello, I'm also steve!
+
+player1.getMarker() // My marker is 'X'
+player2.getMarker() // My marker is 'O'
 ~~~
 
-You can probably figure out what's going on here. After creating the constructor for EighthGrader, we set its prototype to a new object that has a copy of `Student.prototype`.
+From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function, which takes two arguments, and sets the `.__proto__` / `[[Prototype]]` of the first argument to the `prototype` object provided through the second argument. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
+
+Note:
+
+Though it seems to be an easy way to set up Prototypal Inheritance using `Object.setPrototypeOf()`, the prototype chain has to be set up using this function _before_ creating any objects. Using `setPrototypeOf()` after objects have already been created can result in performance issues.
 
 A warning... this doesn't work:
 
 ~~~javascript
-EighthGrader.prototype = Student.prototype
+Player.prototype = Person.prototype
 ~~~
 
-because it will literally set EighthGrader's prototype to Student.prototype (i.e. not a copy), which could cause problems if you want to edit something in the future. Consider one more example:
+because it will set `Player.prototype` to directly refer to `Person.prototype` (i.e. not a copy), which could cause problems if you want to edit something in the future. Consider one more example:
 
 ~~~javascript
-function Student() {
+function Person(name) {
+  this.name = name
 }
 
-Student.prototype.sayName = function() {
-  console.log(this.name)
+Person.prototype.sayName = function() {
+  console.log(`Hello, I'm ${this.name}!`)
 }
 
-function EighthGrader(name) {
+function Player(name, marker) {
+  this.name = name
+  this.marker = marker
+}
+
+// Don't do this!
+// Use Object.setPrototypeOf(Player.prototype, Person.prototype)
+Player.prototype = Person.prototype
+
+function Enemy(name) {
   this.name = name
-  this.grade = 8
+  this.marker = '^'
 }
 
-// don't do this!!!
-EighthGrader.prototype = Student.prototype
+// Not again!
+// Use Object.setPrototypeOf(Enemy.prototype, Person.prototype)
+Enemy.prototype = Person.prototype
 
-function NinthGrader(name) {
-  this.name = name
-  this.grade = 9
+Enemy.prototype.sayName = function() { 
+  console.log('HAHAHAHAHAHA')
 }
 
-// noooo! not again!
-NinthGrader.prototype = Student.prototype
-
-NinthGrader.prototype.sayName = function() {console.log("HAHAHAHAHAHA")}
-
-const carl = new EighthGrader("carl")
-carl.sayName() //uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
+const carl = new Player('carl', 'X')
+carl.sayName() // Uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ~~~
 
-If we had used `Object.create` in this example, then we could safely edit the `NinthGrader.prototype.sayName` function without changing the function for `EighthGrader` as well.
-
+If we had used `Object.setPrototypeOf()` in this example, then we could safely edit the `Enemy.prototype.sayName` function without changing the function for `Player` as well.
 
 ### Assignment
 
