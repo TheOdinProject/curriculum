@@ -176,7 +176,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href='#headings'>How do you create a heading in HTML?</a>
 *   <a class="knowledge-check-link" href='#different-heading-levels'>How many different levels of headings are there and what is the difference between them?</a>
 *   <a class="knowledge-check-link" href='#strong-element'>What element should you use to make text bold and important?</a>
-*   <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized to add emphasis to it?</a>
+*   <a class="knowledge-check-link" href='#em-element'>What element should you use to make text italicized and emphasize it?</a>
 *   <a class="knowledge-check-link" href='#nested-relationship'>What relationship does an element have with any nested elements within it?</a>
 *   <a class="knowledge-check-link" href='#elements-same-level'>What relationship do two elements have if they are at the same level of nesting?</a>
 *   <a class="knowledge-check-link" href='#html-comments'>How do you create HTML comments?</a>
