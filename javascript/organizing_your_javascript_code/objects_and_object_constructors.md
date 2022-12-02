@@ -153,19 +153,19 @@ Before we go much further, there's something important you need to understand ab
 
 Let's break it down.
 
-#### 1. All objects in JavaScript have a `prototype`
+#### 1. All objects in JavaScript have a prototype
 
 Pretty straightforward sentence here! Every object in JavaScript has a `prototype`. So for example, the `player1` and `player2` objects from before, (created with the `Player(name, marker)` object constructor) also have a `prototype`. Now, what does having a `prototype` mean? What even is a `prototype` of an object?
 
-#### 2. Stated simply, the `prototype` is another object...
+#### 2. Stated simply, the prototype is another object...
 
 This sentence also seems pretty straightforward! The `prototype` _is just another object_ - again, like the `player1` and the `player2` objects. The `prototype` object can have properties and functions, just as these `Player` objects have properties like `.name`, `.marker`, and functions like `.sayName()` attached to them.
 
-#### 3. ...that the original object _inherits_ from, and has access to all of its `prototype`'s methods and properties
+#### 3. ...that the original object _inherits_ from, and has access to all of its prototype's methods and properties
 
 Here, the "original object" refers to an object like `player1` or `player2`. These objects are said to "inherit", or simply said, these objects have access to the `prototype`'s properties or functions, if they have been defined. For example, if there was a `.sayHello()` function defined on the `prototype`, `player1` can access the function just as if it was it's own function - `player1.sayHello()`. But it's not just `player1` who can call the `.sayHello()` function, even `player2` can call it, since it's defined on the `prototype`! Read on to know the details of how it works and how you could do this yourself!
 
-#### Accessing an object's `prototype`
+#### Accessing an object's prototype
 
 Conceptually, you now might feel like you know, or at least have an idea of what a `prototype` of an object is. But how do you _know_ or actually _see_ what the prototype of an object is? Let's find out. You can try running the following code in the developer console of your browser. (Make sure you've created the `player1` and `player2` objects from before!)
 
@@ -209,7 +209,7 @@ player2.sayHello() // logs "Hello, I'm a player!"
 
 Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype (`Player.prototype`).
 
-#### `Object.getPrototypeOf()` vs. `.__proto__` vs. `[[Prototype]]`
+#### Object.getPrototypeOf() vs. .__proto__ vs. [[Prototype]]
 
 As you have seen above, accessing an object's `prototype` was done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and it is recommended to access an object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function. The same code can thus be rewritten to become:
 
