@@ -209,81 +209,18 @@ player2.sayHello() // logs "Hello, I'm a player!"
 
 Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype (`Player.prototype`).
 
-<!-- --------------------------------------------------------------- -->
+#### `Object.getPrototypeOf()` vs. `.__proto__` vs. `[[Prototype]]`
 
-<!-- To elaborate, there are two "kinds" of `prototype`, which are intertwined with each other. The _first_ "kind" is the one that exists on a **function**, which is referred to as `Player.prototype` in the case of the `Player` function in the previous example. 
-
-Note: There really is only one kind of `prototype`. We differentiate it here just for being able to understand it. If it doesn't make sense yet, you can come back and read this note later on, after reading the **Prototypal Inheritance** section.
-
-The _second_ kind is the one which exists on _all_ objects in JavaScript as a special property. This second `prototype` is referred to in a _non-standard_ way as, reusing our example, `player1.__proto__`, or `player2.__proto__`. This `__proto__` property comes into existence when an object is created, and is set to refer to the first kind of `prototype`. That is, in our example, `player1.__proto__` and `player2.__proto__` will have the value `Player.prototype`. You can test this in your browser console by defining `Player`, and creating the `player1` and `player2` objects.
+As you have seen above, accessing an object's `prototype` was done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and it is recommended to access an object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function. The same code can thus be rewritten to become:
 
 ~~~javascript
-function Player(name, marker) {
-  this.name = name
-  this.marker = marker
-  this.sayName = function() {
-    console.log(name)
-  }
-}
-
-const player1 = new Player('steve', 'X')
-const player2 = new Player('also steve', 'O')
-
-// returns true for both player objects
-player1.__proto__ === Player.prototype
-player2.__proto__ === Player.prototype
+Object.getPrototypeOf(player1) === Player.prototype // returns true
+Object.getPrototypeOf(player2) === Player.prototype // returns true
 ~~~
 
-However, you might have noticed that we mentioned `__proto__` is a non-standard way of referring to an object's `prototype` property. The MDN Docs [recommends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto) using [Object.getPrototypeOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf).
+In some places you might also come across `[[Prototype]]`, which is just another way of talking about the `.__proto__` property of an object, like `player1.[[Prototype]]`.
 
-So, our code above becomes:
-
-~~~javascript
-// returns true for both player objects
-Object.getPrototypeOf(player1) === Player.prototype
-Object.getPrototypeOf(player2) === Player.prototype
-~~~
-
-Notes: 
-
-1. You might also find that `__proto__` is also referred to as `[[Prototype]]` which is from the JavaScript language specification.
-
-2. If you tried something like `Player.prototype.__proto__`, or you have a `__proto__` value which is equal to `null` and are confused, read on to find the explanation in the **Prototypal Inheritance** section!
-
-Now that you know that every object created by calling `new Player()` has its `__proto__` / `[[Prototype]]` special property set to refer to the `Player.prototype` value, let's move on!
-
-To expand on the first kind of `prototype`, that is, the one that exists on the `Player` object constructor as `Player.prototype`, it is best to define functions on this `prototype` property. To explain, let's take another example where we create `Student` objects by defining a `Student` object constructor:
-
-~~~javascript
-function Student(name, grade) {
-  this.name = name
-  this.grade = grade
-}
-
-Student.prototype.sayName = function() {
-  console.log(this.name)
-}
-Student.prototype.goToProm = function() {
-  console.log("Eh.. go to prom?")
-}
-~~~
-
-In the above code, defining functions of the object on the `prototype` means that a single instance of each function will be shared between all of the `Student` objects. If we declare the function directly in the constructor (like we did in the `Player` example) the `sayName` and `goToProm` functions would be duplicated _every_ time a new `Student` is created. In this example, that wouldn't really matter much, but in a project that is creating thousands of objects, it really can make a difference.
-
-To finally bring the concepts of `__proto__` / `[[Prototype]]` and `prototype` together - we can see from the following code that since the `Student` objects' `__proto__` values point to `Student.prototype`,  the `student1` and the `student2` objects both have access to the functions which were defined on `Student.prototype`.
-
-~~~javascript
-student1 = new Student("Harvey", 8);
-student2 = new Student("James", 4);
-
-student1.sayName(); // Harvey
-student1.goToProm(); // Eh.. go to prom?
-
-student2.sayName();  // James
-student2.goToProm(); // Eh.. go to prom?
-~~~
-
-The concept of the prototype is an important one, so you’ve got some reading to do, which you'll find in the Assignment section below. Make sure you really get it before moving on!
+This explanation about the `prototype` might have been a lot, so remember to take a breather before moving on!
 
 #### Prototypal Inheritance
 
