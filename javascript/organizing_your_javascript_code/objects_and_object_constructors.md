@@ -159,7 +159,7 @@ Pretty straightforward sentence here! Every object in JavaScript has a `prototyp
 
 #### 2. Stated simply, the `prototype` is another object...
 
-This sentence also seems pretty straightforward! The `prototype` is just another object - again, like the `player1` and the `player2` objects. The `prototype` object can have properties and functions, just as these `Player` objects have properties like `.name`, `.marker`, and functions like `.sayName()` attached to them.
+This sentence also seems pretty straightforward! The `prototype` _is just another object_ - again, like the `player1` and the `player2` objects. The `prototype` object can have properties and functions, just as these `Player` objects have properties like `.name`, `.marker`, and functions like `.sayName()` attached to them.
 
 #### 3. ...that the original object _inherits_ from, and has access to all of its `prototype`'s methods and properties
 
@@ -174,15 +174,13 @@ player1.__proto__ === Player.prototype // returns true
 player2.__proto__ === Player.prototype // returns true
 ~~~
 
-<!-- Every object has a `__proto__` property attached to it on its creation. This `__proto__` property refers to the object's `prototype`. The object's `prototype` is usually the _value_ of the Object Constructor's `.prototype` _property_. So in our example, as you can see in the code, every `Player` object has a `.__proto__` property, referring to the `Player()` object constructor's `.prototype` property, _and this property contains the actual_ `prototype` _object_! -->
-
 Now, to understand this code, let's use the three points from earlier:
 
 1. **All objects in JavaScript have a `prototype`**:
 
    1a. You can check the object's `prototype` by using the `.__proto__` property of the object, like `player1.__proto__`.
 
-   1b. This `.__proto__` property refers to the `.prototype` property of the Object Constructor - `player1.__proto__ === Player.prototype`.
+   1b. This `.__proto__` property refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `player1.__proto__ === Player.prototype`.
 
 2. **The prototype is another object**: 
 
@@ -198,7 +196,7 @@ Now, to understand this code, let's use the three points from earlier:
    
    3b. So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
    
-Point 3b needs a little more explanation. Consider the following code:
+Point 3b needs a little more explanation. What does defining 'on the `prototype`' mean? Consider the following code:
 
 ~~~javascript
 Player.prototype.sayHello = function() {
@@ -209,7 +207,7 @@ player1.sayHello() // logs "Hello, I'm a player!"
 player2.sayHello() // logs "Hello, I'm a player!"
 ~~~
 
-Do you see how you defined the `.sayHello` function on the `Player.prototype` object and how it became available for the `player1` and the `player2` objects to use? Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype, i.e., `Player.prototype`.
+Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype (`Player.prototype`).
 
 <!-- --------------------------------------------------------------- -->
 
