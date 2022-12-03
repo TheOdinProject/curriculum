@@ -287,7 +287,7 @@ rbenv global 3.1.2
 You can double check that this worked by typing `ruby -v` and checking that the output says version 3.1.2:
 
 ~~~bash
-$ ruby -v
+ruby -v
 ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ~~~
 

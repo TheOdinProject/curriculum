@@ -39,7 +39,7 @@ Typically this takes the form of 2 URI's per resource, one for the whole collect
 | PUT    | Update | `PUT /posts/:postid` Updates a single post         |
 | DELETE | Delete | `DELETE /posts/:postid` Deletes a single post      |
 
-Each part of an API URI specifies the resource. For example, `GET /posts` would return the entire list of blog posts while `GET /posts/:postid` specifies the exact blog post we want. We could nest further with `GET /posts/:postid/comments` to return a list of comments for that blog post or even `GET /posts/:id/comments/:commentid` for a very specific blog post comment.
+Each part of an API URI specifies the resource. For example, `GET /posts` would return the entire list of blog posts while `GET /posts/:postid` specifies the exact blog post we want. We could nest further with `GET /posts/:postid/comments` to return a list of comments for that blog post or even `GET /posts/:postid/comments/:commentid` for a very specific blog post comment.
 
 ### CORS
 

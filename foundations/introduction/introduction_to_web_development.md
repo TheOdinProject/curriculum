@@ -18,7 +18,7 @@ The **front end** is the stuff you see on the website in your browser, including
 Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
 
 The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users.
-Back-end developers use programming languages like Java, Python, and Ruby to work with data.
+Back-end developers use programming languages like Java, Python, Ruby, and JavaScript to work with data.
 
 **Full-stack developers** are comfortable working with both the front and back ends. At The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
 
