@@ -57,7 +57,7 @@ A few examples are:
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [this article](https://programmingwithmosh.com/javascript/react-lifecycle-methods/) for a great overview of lifecycle methods in React.
+1. Read [this article](https://www.w3schools.com/react/react_lifecycle.asp)  for a great overview of lifecycle methods in React.
 2. The React documentation is always a good source as it's well structured. In [this article](https://reactjs.org/docs/react-component.html) you can read more about lifecycle methods from the people who made it!
 3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical example about how those methods work and when React calls them.*
 
