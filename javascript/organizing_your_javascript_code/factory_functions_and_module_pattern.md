@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
-### Factory function introduction
+### Factory Function Introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
