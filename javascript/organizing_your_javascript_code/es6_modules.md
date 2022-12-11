@@ -47,7 +47,7 @@ At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a re
 
 Webpack is simply a tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
 
-Webpack _is_ a very powerful tool, and with that power comes a decent amount of complexity - just look at the sample config file on [this page](https://webpack.js.org/configuration/) 😱. Don't let it scare you off! The basic configuration is not difficult and proficiency with webpack looks _amazing_ on resumes.
+Webpack _is_ a very powerful tool, and with that power comes a decent amount of complexity. Don't let it scare you off! The basic configuration is not difficult and proficiency with webpack looks _amazing_ on resumes.
 
 To get us started, we are going to refer to the official documentation.
 

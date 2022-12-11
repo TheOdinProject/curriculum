@@ -20,7 +20,7 @@ This project will give you a chance to take a relatively high level set of requi
 6. Users can like posts.
 7. Users can comment on posts.
 8. Posts should always display with the post content, author, comments and likes.
-9. Treat the Posts index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users she is friends with.
+9. Treat the Posts index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users they are friends with.
 10. Users can create  Profile with a photo (you can get this from the real facebook when you sign in using passport)
 11. The User Show page contains their profile information, profile photo and posts.
 12. The Users Index page lists all users and buttons for sending friend requests to those who are not already friends or who don't already have a pending request.
