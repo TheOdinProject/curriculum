@@ -1,6 +1,6 @@
 ### Introduction
 
-There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
+There are a few extremely common types of data that you will encounter in JavaScript, and these fundamental lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ### Lesson Overview
 
