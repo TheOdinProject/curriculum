@@ -126,7 +126,7 @@ When the installation is finished it will ask you to restart. Click **Restart No
 
 ### Step 3: Install and Enable Guest Additions
 
-Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as full-screen guest mode.
+Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as higher resolutions - it will resize automatically to the size of its window and if you're using fullscreen, actually use the resolution of your screen for display.
 
 #### While your VM is running, do the following steps:
 
