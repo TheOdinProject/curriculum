@@ -110,6 +110,8 @@ The above code should create a little popup box that asks the user for a number.
 
 With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
 
+You can read more about for loops and how they're used in this MDN article: [For Loops | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for).
+
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 
