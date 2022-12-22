@@ -28,7 +28,7 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 #### IMPORTANT
 
-Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 #### Step 1.1: Download VirtualBox
 
@@ -116,7 +116,7 @@ Due to how the unattended installation is configured by VirtualBox, your account
 
 #### Step 3.1: Navigate to Users and Group
 
-First, click on the ![Blue-white rodent Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
+First, click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
 
    ![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](./installations/imgs/11_users_and_groups.png)
 
@@ -136,7 +136,7 @@ And then click **OK**. You will be greeted with a password prompt - it's the sam
 
 #### Step 3.3: Reboot your VM
 
-Now that this is all done, you can close those windows and reboot your VM. You can open a `Terminal` window by doing <kbd>CTRL + ALT + T</kbd> and type in `reboot` and then press <kbd>Enter</kbd> to execute the command. Alternatively, you can click on the ![Blue-white rodent Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) , then click on the power icon in bottom right and pick **Restart**.
+Now that this is all done, you can close those windows and reboot your VM. You can open a `Terminal` window by doing <kbd>CTRL + ALT + T</kbd> and type in `reboot` and then press <kbd>Enter</kbd> to execute the command. Alternatively, you can click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , then click on the power icon in bottom right and pick **Restart**.
 
    ![You might want to take note of other options that you see in this menu.](./installations/imgs/14_logout.png)
 
@@ -173,14 +173,14 @@ Here are some tips to help you get started in a virtual environment:
 #### Frequent Issues/Questions:
 
 -   If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
--   If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these SO instructions for more information](https://askubuntu.com/questions/285689/increase-mouse-wheel-scroll-speed/304653#304653). Google is looking to release a fix Q1 2023 so `imwheel` should not be needed after that patch is released.
+-   If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
 -   Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 -   Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
 -   **VM performance tips**:
   -   When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
   -   Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
   -   If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
-  -   Do look out for the ![:vboxturtle:](https://cdn.discordapp.com/emojis/984544432407855255.webp?size=44&quality=lossless) icon in bottom right of your VM window, if you have it, here's a link [https://forums.virtualbox.org/viewtopic.php?f=25&t=99390](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390 "https://forums.virtualbox.org/viewtopic.php?f=25&t=99390") to get rid of it. You want to have the ![:vboxv:](https://cdn.discordapp.com/emojis/984544467803586680.webp?size=44&quality=lossless) icon instead. If you don't see a ![:vboxturtle:](https://cdn.discordapp.com/emojis/984544432407855255.webp?size=44&quality=lossless) or a ![:vboxv:](https://cdn.discordapp.com/emojis/984544467803586680.webp?size=44&quality=lossless) in bottom right, you have to exit full screen mode to see them.
+  -   Do look out for the <img src="./installations/imgs/17_turtle.webp" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="./installations/imgs/18_vboxV.webp" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="./installations/imgs/17_turtle.webp" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="./installations/imgs/18_vboxV.webp" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
   -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
 
 
@@ -190,7 +190,7 @@ You don't pull the plug on your everyday use computer, right? Why would you do t
 
 #### Option 1 - Shutting down from inside the VM with UI
 
-Clicking on the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**. Yep, that's the same place you might've used to **Restart** before!
+Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**. Yep, that's the same place you might've used to **Restart** before!
 
 #### Option 2 - Shutting down from inside the VM with the Terminal
 
