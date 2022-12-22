@@ -59,7 +59,7 @@ Now that you have VirtualBox installed, launch the program. Once open, you shoul
 
    ![The VirtualBox start screen](./installations/imgs/03_start_screen.png)
 
-Click on the **New** button to create a virtual operating system. Give it a name of **"Xubuntu"**, if you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder. Leave **Skip Unattended Installation** as it is.
+Click on the **New** button to create a virtual operating system. Give it a name of **Xubuntu**, if you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder. Leave **Skip Unattended Installation** as it is.
 
    ![Half of the options being greyed out is normal. Don't worry about it.](./installations/imgs/04_install_start.png)
 
@@ -140,22 +140,20 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 
    ![You might want to take note of other options that you see in this menu.](./installations/imgs/14_logout.png)
 
-<br/>
-
    ![Not the most exciting of menus, but take note of the Shut Down option.](./installations/imgs/15_restart.png)
 
 #### Step 3.4: Test your newly gained `sudo` privileges
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
-```bash
+~~~bash
 sudo apt install
 sudo apt upgrade
-```
+~~~
 
 You will be asked for your password after using the first one - type it in and use <kbd>Enter</kbd> to provide your terminal with the password. There is no visual feedback about what you're typing in but you are indeed doing so.
 
-After `sudo apt upgrade` runs for a while you will be asked whether you want to install things - do so to update your machine. If you have any issues, do not hesitate to come over to our [Discord server](https://discord.gg/V75WSQG)and ask for help in the `#virtualbox-help` channel.
+After `sudo apt upgrade` runs for a while you will be asked whether you want to install things - do so to update your machine. If you have any issues, do not hesitate to come over to our [Discord server](https://discord.gg/V75WSQG) and ask for help in the `#virtualbox-help` channel.
 
 ### Step 4: Understand Your New VM
 
@@ -163,17 +161,12 @@ Here are some tips to help you get started in a virtual environment:
 
 -   Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
 -   All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
-
 -   To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
-
 -   You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
-    -   **Inside the VM:** you can use `Shift + PrtSrc` to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
-    -   **On your host (Windows):** you can use a shortcut of the Host Key (`Right Ctrl + E`) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of `Windows + Shift + S` to take screenshots of portion of your screen.
-
+    -   **Inside the VM:** you can use <kbd>Shift + PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+    -   **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl + E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key + Shift + S</kbd> to take screenshots of portion of your screen.
 -   **Remember:** all of the development that you'll do related to TOP should be done in the VM.
-
 -   We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
-
 -   If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 
@@ -208,8 +201,6 @@ Simply enough, typing `poweroff` will do in this case. Your system will immediat
 The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled **Close Virtual Machine**. This popup asks if you want to **Save the machine state**, **Send the shutdown signal**, or **Power off the machine**.
 
 ![VM File Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_03.png)
-
-<br/>
 
 ![Close Virtual Machine Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_04.png)
 
