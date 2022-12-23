@@ -90,7 +90,7 @@ As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (
 
    ![Don't Pre-allocate Full Size.](./installations/imgs/07_virtual_hard_disk.png)
 
-Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM at least 30GB of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
+Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM **at least 30GB** of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
 
 
 #### Step 2.2.4: Begin the unattended installation
@@ -105,7 +105,7 @@ It is possible that you'll receive an error like this one after clicking **Finis
 
    ![The error shows up on the right side of the VirtualBox window and can be a little differently worded.](./installations/imgs/09_virtualization_error.png)
 
-It means you have to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). [Alternative set of instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). If you have an AMD CPU, you're probably looking for something called `SVM` to enable, for Intel CPUs, `Intel Virtualization Technology`. The error should tell you what it is looking for. After you deal with it, just **Start** the machine and let things happen, you'll now that the process has finished when you see a login screen:
+It means you have to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). [Alternative set of instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). If you have an AMD CPU, you're probably looking for something called `SVM` to enable, for Intel CPUs, `Intel Virtualization Technology`. The error should tell you what it is looking for. After you deal with it, just **Start** the machine and let things happen, you'll know that the process has finished when you see a login screen:
 
    ![You can already make your VM full screen or just maximize the window.](./installations/imgs/10_login_screen.png)
 
@@ -177,10 +177,10 @@ Here are some tips to help you get started in a virtual environment:
 -   Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 -   Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
 -   **VM performance tips**:
-  -   When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
-  -   Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
-  -   If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
-  -   Do look out for the <img src="./installations/imgs/17_turtle.webp" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="./installations/imgs/18_vboxV.webp" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="./installations/imgs/17_turtle.webp" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="./installations/imgs/18_vboxV.webp" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
+    -   When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
+    -   Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
+    -   If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
+    -   Do look out for the <img src="./installations/imgs/17_turtle.webp" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="./installations/imgs/18_vboxV.webp" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="./installations/imgs/17_turtle.webp" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="./installations/imgs/18_vboxV.webp" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
   -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
 
 
