@@ -300,6 +300,7 @@ Note that all 3 of these methods can be used with named functions like so:
 ~~~
 
 ~~~javascript
+// the JavaScript file
 function alertFunction() {
   alert("YAY! YOU DID IT!");
 }
