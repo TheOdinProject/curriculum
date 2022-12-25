@@ -4,6 +4,17 @@ You've had a good overview of how your browser will be interacting with your web
 
 We won't be digging into the advanced issues of deployment in this lesson... that's well outside the scope of this course.  The point here is to familiarize you with the basic deployment process and help you get your apps online in the first place.  Adding bells and whistles or speed optimizing your application will be left to your own curiosity.  You'll likely read through this now, get a sense for what's coming in the future, and then refer back to it when it's time to actually deploy some of your apps later on.
 
+
+<div class="lesson-note" markdown="1">
+
+### Important!
+
+As of November 28, 2022, Heroku has stopped offering their free product plans (which includes deployment). You can read more on [their blog post](https://blog.heroku.com/next-chapter).
+
+We will be replacing the following instructions with an alternative soon.
+
+</div>
+
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
