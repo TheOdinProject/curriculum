@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Important Notice
 
-Currently MongoDB is not available on Ubuntu 22.04 or it's equivalent flavours. If you are using a 22.04-based distribution, keep this in mind when you get to the steps to installing MongoDB locally. There has been [work done](https://jira.mongodb.org/browse/SERVER-62300) by the MongoDB team, but it has not yet been released. This note will be removed or updated when there is further news on the availability for 22.04 distributions.
+Currently MongoDB is not available on Ubuntu 22.04 or its equivalent flavours. If you are using a 22.04-based distribution, keep this in mind when you get to the steps to installing MongoDB locally. There has been [work done](https://jira.mongodb.org/browse/SERVER-62300) by the MongoDB team, but it has not yet been released. This note will be removed or updated when there is further news on the availability for 22.04 distributions.
 
 </div>
 
