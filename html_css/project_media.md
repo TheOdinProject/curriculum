@@ -1,30 +1,115 @@
-### Introduction
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Player</title>
+  <style>
+    /* CSS styles go here */
+    body {
+  font-family: Arial, sans-serif;
+}
 
-Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
-The goal here isn't to produce an exact replica of the YouTube video page, but to focus on making the media elements show up.  That means two things -- embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-How far you go from there in terms of styling is up to you -- some of you will already be more comfortable with CSS than others, so knock yourself out.
+nav li {
+  flex: 1;
+}
 
-There are other elements on the YouTube page which are produced with Javascript and you don't need to worry about them -- basically, anything that changes the page by clicking on it is wired up using Javascript.  An example is the "Show more" link below the description, which dynamically expands to show more.  Again, don't worry about these dynamic elements!.
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-Also, don't worry about making the comment form work properly... your goal is to make the page look similar and display video.
+nav a:hover {
+  background-color: #111;
+}
 
-### Assignment
+main {
+  display: flex;
+  margin: 20px;
+}
 
-<div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
-2. Create a blank HTML document.
-3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
-4. Create empty semantic HTML elements to enclose those sections.
-5. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
-6. Now let's start filling in those divs with content by creating the navbar.
-7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=lJIrF4YjHfQ&feature=emb_title).
-8. Embed a YouTube video of your choice into your page.
-9. Next, build the sidebar section where previews of suggested videos show up.  Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
-10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.  Ignore the icons (many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them).
-11. Push your solution up to GitHub.
-</div>
+#video {
+  width: 560px;
+}
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+aside {
+  width: 240px;
+  margin-left: 20px;
+}
+
+aside h2 {
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <!-- navbar content goes here -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- main content goes here -->
+    <div id="video">
+      <!-- embed YouTube video here -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <aside>
+      <!-- sidebar content goes here -->
+      <h2>Suggested Videos</h2>
+      <ul>
+        <li><img src="thumbnail-1.jpg" alt="Vida thumbnail"></li>
+        <li><img src="thumbnail-2.jpg" alt="Vida thumbnail"></li>
+        <li><img src="thumbnail-3.jpg" alt="Vida thumbnail"></li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <!-- footer content goes here -->
+    <p>Copyright 2023</p>
+  </footer>
+</body>
+</html>
+
+
+
