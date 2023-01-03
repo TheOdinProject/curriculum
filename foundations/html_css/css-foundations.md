@@ -333,20 +333,31 @@ Now, let's change things a little bit:
 
 In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue;` declaration would take precedence.
 
+Let's consider one final example:
+
+~~~html
+<!-- index.html -->
+
+<div class="main">
+  <div class="list">
+    <div id="subsection"></div>
+  </div>
+</div>
+~~~
 ~~~css
 /* rule 1 */
-#subsection .list {
+.list #subsection {
   background-color: yellow;
   color: blue;
 }
 
 /* rule 2 */
-#subsection .main .list {
+.main .list #subsection {
   color: red;
 }
 ~~~
 
-In this final example, both rules are using ID and class selectors, so neither rule is using a more specific selector than the other. The cascade then checks the amounts of each selector type. Both rules only have one ID selector, but rule 2 has more class selectors, so rule 2 has a higher specificity!
+In this example, both rules are using ID and class selectors, so neither rule is using a more specific selector than the other. The cascade then checks the amounts of each selector type. Both rules only have one ID selector, but rule 2 has more class selectors, so rule 2 has a higher specificity!
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
 
