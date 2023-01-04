@@ -38,7 +38,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider [using a different mirror](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one.
 
-### Step 2: Install VirtualBox and set up Xubuntu
+### Step 2: Install VirtualBox and Set Up Xubuntu
 
 #### Step 2.1: Install VirtualBox
 
@@ -86,14 +86,14 @@ _(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes?
 
 As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is and click **Next** to continue.
 
-#### Step 2.2.3: Virtual Hard disk
+#### Step 2.2.3: Virtual Hard Disk
 
    ![Don't Pre-allocate Full Size.](./installations/imgs/07_virtual_hard_disk.png)
 
 Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM **at least 30GB** of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
 
 
-#### Step 2.2.4: Begin the unattended installation
+#### Step 2.2.4: Begin the Unattended Installation
 
 Click **Next** to be taken to a **Summary** page, on which you can simply click **Finish** to begin the process of unattended installation. The neat thing about it? It installs the OS and GuestAdditions on its own, without your input! Just let it do its own thing, you will know it is finished when you will see a login screen like this one in the **Preview** section:
 
@@ -110,7 +110,7 @@ It means you have to [enable virtualization in your computer’s BIOS/UEFI setti
    ![You can already make your VM full screen or just maximize the window.](./installations/imgs/10_login_screen.png)
 
 
-### Step 3: Setting correct `sudo` permissions
+### Step 3: Setting Correct sudo Permissions
 
 Due to how the unattended installation is configured by VirtualBox, your account doesn't have proper `sudo` permissions. Think of them as the equivalent to `Run as administrator` on your Windows machine - you can imagine why it would be important to have them in order.
 
@@ -126,7 +126,7 @@ In the window that just came up you want to click on **Manage Groups**, click so
 
    ![You will find the search functionality like this in many corners of Xubuntu.](./installations/imgs/12_sudo_group.png)
 
-#### Step 3.2: Add yourself to `sudo`
+#### Step 3.2: Add Yourself to sudo
 
 With `sudo` selected, click **Preferences** and in the window that shows up tick your user's name like this:
 
@@ -134,7 +134,7 @@ With `sudo` selected, click **Preferences** and in the window that shows up tick
 
 And then click **OK**. You will be greeted with a password prompt - it's the same one you logged in with.
 
-#### Step 3.3: Reboot your VM
+#### Step 3.3: Reboot Your VM
 
 Now that this is all done, you can close those windows and reboot your VM. You can open a `Terminal` window by doing <kbd>CTRL + ALT + T</kbd> and type in `reboot` and then press <kbd>Enter</kbd> to execute the command. Alternatively, you can click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , then click on the power icon in bottom right and pick **Restart**.
 
@@ -142,7 +142,7 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 
    ![Not the most exciting of menus, but take note of the Shut Down option.](./installations/imgs/15_restart.png)
 
-#### Step 3.4: Test your newly gained `sudo` privileges
+#### Step 3.4: Test Your Newly Gained sudo Privileges
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
@@ -184,19 +184,19 @@ Here are some tips to help you get started in a virtual environment:
   -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
 
 
-### Step 5: Safely shutting down your VM
+### Step 5: Safely Shutting Down Your VM
 
 You don't pull the plug on your everyday use computer, right? Why would you do the same to your virtual computer? When you click the X button and just close out your VM, you might as well say goodbye to your files. In this section, you'll understand three ways you can shut off your VM.
 
-#### Option 1 - Shutting down from inside the VM with UI
+#### Option 1 - Shutting Down from Inside the VM with UI
 
 Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**. Yep, that's the same place you might've used to **Restart** before!
 
-#### Option 2 - Shutting down from inside the VM with the Terminal
+#### Option 2 - Shutting Down from Inside the VM with the Terminal
 
 Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown.
 
-#### Option 3 - Shutting down from outside the VM
+#### Option 3 - Shutting Down from Outside the VM
 
 The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled **Close Virtual Machine**. This popup asks if you want to **Save the machine state**, **Send the shutdown signal**, or **Power off the machine**.
 
@@ -212,7 +212,7 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
 </summary>
 
-### Read this entire section before starting
+### Read This Entire Section Before Starting
 
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
@@ -292,15 +292,15 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
    -   Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-~~~bash
-sudo apt install ./google-chrome-stable_current_amd64.deb
-~~~
+       ~~~bash
+       sudo apt install ./google-chrome-stable_current_amd64.deb
+       ~~~
 
    -   Enter your password, if needed
 
    _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
 
-#### Step 3: Delete the installer file
+#### Step 3: Delete the Installer File
 
 ~~~bash
 rm google-chrome-stable_current_amd64.deb
@@ -335,7 +335,7 @@ _(__note__: Chrome is going to use this terminal to output various messages and 
    -   Double click the file **googlechrome.dmg**
    -   Drag the Google Chrome icon to the **Applications** folder icon
 
-#### Step 3: Delete the installer file
+#### Step 3: Delete the Installer File
 
    -   Open **Finder**
    -   Click the **arrow** next to Google Chrome in the sidebar
