@@ -143,7 +143,7 @@ Here's a simple example (again we are just rendering the error in all cases):
 
 You can create your own error pages. See [this post](https://web-crunch.com/posts/custom-error-page-ruby-on-rails).
 
-Sometimes Heroku can require additional steps to properly display your error pages.  See [their error page docs here](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `app/public` directory first.
+Sometimes Heroku can require additional steps to properly display your error pages.  See [their error page docs here](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `yourproject/public` directory first.
 
 #### External Facing Security
 
