@@ -51,7 +51,7 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Breaking Down JavaScript for Loops - Medium](https://medium.com/@cyclonestudios/loop-ception-breaking-down-nested-for-loops-in-javascript-e3387ca1d6fc)
 
 ### Knowledge Check
 
