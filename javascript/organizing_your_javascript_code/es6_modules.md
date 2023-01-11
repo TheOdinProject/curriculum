@@ -41,7 +41,7 @@ Read through the npm links below but don't worry about running any of the comman
 
 ### Yarn?
 
-At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a replacement for the default `npm`. For the most part, it does the same things, though it _does_ have a few more features. Recent versions of `npm` have incorporated some of the best features of Yarn, so using it won't offer you any real advantages at this point in your career. It _is_ a fine project, however, and may be worth your consideration in the future.
+At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a replacement for the default `npm`. For the most part, it does the same things, though it _does_ have a few more features. Recent versions of `npm` have incorporated some of the best features of Yarn, so using it won't offer you any real advantages at this point in your career. It _is_ a fine project manager, however, and may be worth your consideration in the future.
 
 ### Webpack
 
