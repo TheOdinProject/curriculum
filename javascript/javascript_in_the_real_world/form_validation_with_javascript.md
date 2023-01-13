@@ -46,6 +46,16 @@ The form doesn't need to actually submit, but you should give an error message i
 6. Don't forget to style validations with CSS by using the `:valid` and `:invalid` pseudo-classes!
 
 </div>
+=======================================================================================
+TCHASINGA JACQUES
+=======================================================================================
+My idea contribution About this project..  I reackon it could be better to some hiden and animation function 
+by Using DOM(document object model)== HTML so like everyone know the true function of "querySelector"
+that will be helpfull  for our Website to include more interConnection and bring up  the Website so flexing 
+and more Useful 
+      Ex: of code Idea 
+     
+    
 
 ### Knowledge Check
 
