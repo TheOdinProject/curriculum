@@ -32,19 +32,19 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
 1.  The URL contains the REST endpoint we looked at before, along with our search query and some other options like the API key and format. If you copy and paste that into your browser, you'll see the same batch of output.
 1.  If you look back on the [main API docs page](http://www.flickr.com/services/api/) in the "Read these first" box, there's a link that says [URLs](http://www.flickr.com/services/api/misc.urls.html). Follow that link.
-1.  Flickr's API requires two steps to actually display a photo -- you need to get a photo's meta information (which we just received in our search results) and then you need to piece it together into a URL that Flickr can understand to actually retrieve the photo. The format they suggest is:
+1.  Flickr's API requires two steps to actually display a photo -- you need to get a photo's meta information (which we just received in our search results) and then you need to piece it together into a URL that Flickr can understand to actually retrieve the photo. The format they call typical is:
 
-    `http://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg`
+    `https://live.staticflickr.com/{server-id}/{id}_{secret}_{size-suffix}.jpg`
 
     We can plug in values from the previously retrieved photo to display a photo:
 
-    `http://farm4.staticflickr.com/3805/11357337313_6dd795c9c6.jpg`
+    `https://live.staticflickr.com/3805/11357337313_6dd795c9c6.jpg`
 
     Which looks like:
 
-    ![A Dog in snow](http://farm4.staticflickr.com/3805/11357337313_6dd795c9c6.jpg)
+    ![A Dog in snow](https://live.staticflickr.com/3805/11357337313_6dd795c9c6.jpg)
 
-    We could also add in additional parameters like `size` on the end.
+    As you can see, omitting `_{size-suffix}` works and defaults to the longest edge being 500px.
 
 1.  Tada! Every API is different and you've got to read through their documentation to understand the basic format of using it. Sometimes it can be helpful to search for a [YouTube](http://www.youtube.com) or [NetTuts](http://code.tutsplus.com) video with a quick overview as well.
 
