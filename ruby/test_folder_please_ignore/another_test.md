@@ -1,8 +1,8 @@
 ---
-title: Frontmatter Parsing Test
-description: A thrilling exploration of possible features
+title: Testing Part Deux
+description: Bolding going where no tester has gone before
 is_project: false
-github_path: /ruby/test_folder_please_ignore/frontmatter_test.md
+github_path: /ruby/test_folder_please_ignore/another_test.md
 identifier_uuid: 18353520-4175-460f-8e4c-9ca5f0c5894d
 path: full_stack_rails
 course: ruby
@@ -12,19 +12,20 @@ section: introduction
 
 This is the introduction for some content
 
-### Test 1
+### Test 2
 
-First file
+Second file
 
 ### Assignment
 
 This is a description for the assignment
 
+
+
 <div class="lesson-content__panel" markdown="1">
   1. Do a thing
   2. Possibly do another thing
 </div>
-
 
 ### Additional Resources
 
