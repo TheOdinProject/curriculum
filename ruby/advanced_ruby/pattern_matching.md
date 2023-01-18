@@ -95,7 +95,28 @@ When we say "pattern", we aren't talking about design patterns which you may hav
 
 ### Return Values
 
-There are two possible return values from a pattern match statement. The first is `true`, which is returned whenever there is a match, even when the match is the else clause in a statement. The second possible return value is a `NoMatchingPatternError` whenever no match can be found. In our examples below, when we `puts` something inside a case statement, we'll use `# =>` to show the value that will be printed by this. In your terminal, though, you'll see the value printed followed by `=> true` below. We'll omit that because it's not relevant to what we're trying to show you. Just be aware that the `true` you see is just the return value of the last thing evaluated. Standard Ruby behaviour.
+There are two possible outcomes for a pattern match statement - either there is a match or there is no match. If there is a match, it will return the last evaluated value in the body of the matching branch. 
+If there are no matches, the pattern matching statement will return `NoMatchingPatternError`.
+Consider the following example, where the variable `result` is assigned the value 3.
+
+~~~ruby
+grade = 'C'
+
+result = case grade
+  in 'A' then 1
+  in 'B' then 2
+  in 'C' then 3
+  else 0
+end
+
+puts result
+#=> 3
+~~~
+
+When we `puts` something inside a case statement, we'll use `#=>` to show what `puts` will print. 
+In your terminal, however, you'll see the value printed followed by `=> nil`, since `puts` returns `nil`. 
+We'll omit that because it's not relevant to what we're trying to show you. 
+Just be aware that the `nil` you see is just the return value of `puts`. Standard Ruby behaviour.
 
 As you'll see, though, the point of a pattern match usually is to not only match against a pattern, but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression.
 
