@@ -18,7 +18,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
     { "id": "11357337313", "owner": "84645040@N00", "secret": "6dd795c9c6", "server": "3805", "farm": 4, "title": "Gavin-Feb2013-0127", "ispublic": 1, "isfriend": 0, "isfamily": 0 },
     ~~~
 
-    More interestingly, you can see the URL they used to make the request below that. I've broken it apart here to show the parameters more clearly:
+    More interestingly, you can see the URL they used to make the request below that. Let's break it apart here to show the parameters more clearly:
 
     ~~~bash
     http://api.flickr.com/services/rest/
