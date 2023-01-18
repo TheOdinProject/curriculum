@@ -24,7 +24,7 @@ SVGs are often used for:
 
 ### Okay, but what are they?
 
-"SVG" stands for "Scalable Vector Graphic". Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
+"SVG" stands for "Scalable Vector Graphics". Vector graphics are simply images defined by math, as opposed to traditional "raster graphics," where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
 
 With vector graphics on the other hand, there's no grid. Instead, you have formulas for different shapes and lines. Since these are just formulas, it doesn't matter how large or small you want them to appear--they can scale to any size you want, and it will have no effect on the quality or the size of the file.
 
@@ -78,7 +78,7 @@ The alternative is to inline your SVGs by pasting their contents directly into y
 
 Inlining SVGs allows you to unlock their full potential, but it also comes with some serious drawbacks: it makes your code harder to read, makes your page less cacheable, and if it's a large SVG it might delay the rest of your HTML from loading.
 
-Some of the drawbacks of inlining SVG code can be avoided once you've learned a front-end JavaScript framework like React, or a build-tool like webpack. We aren't quite ready to get into those yet, so just keep that in the back of your mind.
+Some of the drawbacks of inlining SVG code can be avoided once you've learned a front-end JavaScript library like React, or a build-tool like webpack. We aren't quite ready to get into those yet, so just keep that in the back of your mind.
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
@@ -94,7 +94,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-1.  There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), and [The Noun Project](https://thenounproject.com/term/free/).
+1.  There are lots of great free SVG icon libraries. A few worth checking out: [Material icons](https://fonts.google.com/icons), [Feather icons](https://feathericons.com/), [The Noun Project](https://thenounproject.com/term/free/), and [Ionicons](https://ionic.io/ionicons).
 2.  If you want a deep-dive into the details of SVGs and their elements, the [MDN tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is a great place to start.
 3.  If you want to get started making your own SVGs, you'll want some sort of visual editor.
     1.  [This is a great little SVG editor](https://yqnn.github.io/svg-path-editor) for learning how the SVG markup works. It not only shows the XML, but also lets you see the "commands" you're using to generate the SVG. This website isn't really designed for making complex graphics, though.

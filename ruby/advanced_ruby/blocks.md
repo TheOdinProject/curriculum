@@ -128,7 +128,7 @@ end
 def transaction_statement
   formatted_transactions = []
   @transactions.each do |transaction|
-    formatted_transactions << yield(transaction) # We've put () around transaction just for clarity here but they aren't required.
+    formatted_transactions << yield(transaction)
   end
 
   p formatted_transactions
@@ -336,12 +336,12 @@ You can read more about this here: [documentation](https://ruby-doc.org/core-3.1
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
 ~~~ruby
-a_proc = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
+a_lambda = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
 
-a_proc.call("apple")
+a_lambda.call("apple")
 # => wrong number of Arguments (given 1, expected 2) (ArgumentError)
 
-a_proc.call("apple", "banana", "cake")
+a_lambda.call("apple", "banana", "cake")
 # => wrong number of Arguments (given 3, expected 2) (ArgumentError)
 ~~~
 

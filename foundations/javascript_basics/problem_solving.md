@@ -6,8 +6,7 @@ Problem solving is the core thing software developers do. The programming langua
 
 V. Anton Spraul defines problem solving in programming as:
 
-> "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
-- Think Like a Programmer
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br /> - Think Like a Programmer
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
@@ -27,7 +26,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Understand the Problem
 <span id="problem-solving-stages"></span>
-The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
+The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem, you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
 
 <span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
 
@@ -74,7 +73,7 @@ To demonstrate this workflow in action, let's solve a common programming exercis
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both three and five without a remainder print `FizzBuzz`.
+Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both 3 and 5 without a remainder print `FizzBuzz`.
 
 #### Plan
 Does your program have an interface? What will it look like?
@@ -109,7 +108,7 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. **Note**: We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
 
-With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
+With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for):
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));

@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
-### Factory function introduction
+### Factory Function Introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
@@ -111,7 +111,7 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
 1. [This video](https://www.youtube.com/watch?v=SBwoFkRjZvE) is simple and clear! Start here.
 
-2. [This article](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
+2. [This article](https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
 
   - The previous article is great, but there is one inaccurate statement:
 
