@@ -51,7 +51,7 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [Breaking Down JavaScript for Loops - Medium](https://medium.com/@cyclonestudios/loop-ception-breaking-down-nested-for-loops-in-javascript-e3387ca1d6fc)
+- If you're confused about how nested `for` loops work, [Breaking down nested for loops in JavaScript](https://medium.com/@cyclonestudios/loop-ception-breaking-down-nested-for-loops-in-javascript-e3387ca1d6fc) can help clear things up. If you did the tasks from the "Loops" section above, the example here should look familiar!
 
 ### Knowledge Check
 
