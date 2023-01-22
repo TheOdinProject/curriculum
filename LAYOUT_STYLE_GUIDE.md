@@ -226,38 +226,68 @@ Markdown is smart enough to let the resulting HTML render your numbered lists co
 
 ### Nested lists
 
-When nesting lists, use a 4 space indent for both numbered and bulleted lists:
+When nesting lists, use a 2 space indent when nesting inside a bulleted list and a 3 space indent when nesting inside a numbered list. The following Markdown:
 
 ~~~markdown
+1. The first item
+2. A second item
+   - A sub-item for the second item with 3 spaces before the hyphen
+
+- A bulleted list item
+  - A sub-bullet with a 2 space indent 
+- A new list item
+~~~
+
+Will result in the following output:
 
 1. The first item
 2. A second item
-    - A sub-item for the second item with 4 spaces before the hyphen
+  - A sub-item for the second item with 4 spaces before the hyphen
 
-~~~
+- A bulleted list item
+  - A sub-bullet with a 4 space indent 
+- A new list item
 
 ### Multi-line list items
 
-When list items wrap should wrap onto multiple lines, such as to create a line break between a lengthy list item, use a 4 space indent on the new line:
+When list items should wrap onto multiple lines – such as to create a line break between a lengthy list item – insert an empty line before and after each wrapped line and use a 2 to 3 space indent on the wrapped line. You should use a 2 space indent for bulleted lists and a 3 space indent for numbered lists. The following Markdown:
 
 ~~~markdown
+1. This is a lengthy list item.
 
-1. This is a lengthy list item...
-    On a new line we indent with 4 spaces so that the content of the list item is visually split up.
-2. This is a completely new list item.
+   This is related information to the first item, but visually separated out.
 
+2. A new list item
+
+- This is a lengthy bulleted list item.
+
+  This is related information to the first item, but visually separated out.
+
+- A new bulleted list item
 ~~~
+
+Will result in the following output:
+
+1. This is a lengthy list item.
+
+   This is related information to the first item, but visually separated out.
+
+2. A new list item
+
+- This is a lengthy bulleted list item.
+
+  This is related information to the first item, but visually separated out.
+
+- A new bulleted list item 
 
 ### Unordered lists
 
 The preferred way to create unordered lists for The Odin Project is by using hyphens `-`. Both hyphens and asterisks give the same results, but sticking to one way keeps the source markdown consistent.
 
 ~~~markdown
-
 - This is a list item made using a hyphen.
 - This is a list item made using a hyphen.
 - This is a list item made using a hyphen.
-
 ~~~
 
 ## Code
@@ -265,24 +295,19 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations and field names:
+literally. Use them for short code quotations, field names, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
 
-...which is why we can call `taco.printString()` but not `taco.capitalizeString()`. 
-~~~
+...which is why we can call `taco.printString()` but not `taco.capitalizeString()`.
 
-Use inline code when referring to file types in an abstract sense, rather than a
-specific file:
-
-~~~markdown
-Be sure to update your `README.md`!
+Create a new file named `styles.css` first.
 ~~~
 
 ### Codeblocks
 
-For code quotations longer than a single line, use a codeblock with tilde marks:
+For code quotations longer than a single line, use a codeblock with 3 opening anc closing tilde marks:
 
 <pre>
 ~~~javascript
@@ -312,18 +337,33 @@ cd Documents
 
 #### Nest codeblocks within lists
 
-If you need a codeblock within a list, make sure to use a 4 space indent on the opening and closing tilde marks so as to not break
-the list:
+If you need a codeblock within a list, you should follow the same indenting rules for [multi-line list items](#multi-line-list-items), with the codeblock being indented with 2 spaces for a bulleted list item and 3 spaces for a numbered list item. The following Markdown:
 
-~~~markdown
+<pre>
 - Bullet.
 
-    ~~~ruby
-    puts foo with a 4 space indent;
-    ~~~
+  ~~~javascript
+  // We start indenting with 2 space for the codeblock
+  function tester() {
+    const yay = 'From here we can indent like we normally would'
+  }
+  ~~~
 
 - Next bullet.
-~~~
+</pre>
+
+Will result in the following output:
+
+- Bullet.
+
+  ~~~javascript
+  // We start indenting with 2 space for the codeblock
+  function tester() {
+    const yay = 'From here we can indent like we normally would'
+  }
+  ~~~
+
+- Next bullet.
 
 ## Links
 
@@ -340,9 +380,9 @@ See the [lesson template](./templates/lesson-template.md) for a more easily copy
 Or, check out the [project template](./templates/project-template.md) for a more easily copyable project file.
 ~~~
 
-### Don't place links throughout lessons
+### Don't scatter links throughout lessons
 
-Links to required reading should not be placed throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional Resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of a term are fine to place outside of these two sections.
+Links to required reading should not be scattered throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of a term are fine to place outside of these two sections.
 
 ## Images
 
