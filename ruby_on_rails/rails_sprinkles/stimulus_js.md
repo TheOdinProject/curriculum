@@ -294,10 +294,11 @@ button.
   * Clicking a checkbox will highlight the element containing the checkbox
 * Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
-* Project: In a new Rails app, create a `car` model that `:has_many` `variants`; make up some attributes. Then 
-create a form to edit a car in which you can dynamically add more variants using `:accepts_nested_attributes_for` and a
-Stimulus controller (that adds the form fields you need for a new variant entry). Bonus points for destroying existing 
-records when submitting.
+* **Project**: 
+Go back to you **Flight Booker** project and improve it:
+  * Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)) tag)
+  * Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
+  * Prevent removing the last set of passenger details.
 
 ### Additional Resources
 
