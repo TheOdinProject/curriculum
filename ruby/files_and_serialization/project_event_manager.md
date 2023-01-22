@@ -1,3 +1,4 @@
+### Introduction
 Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](http://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
 
 ### Learning Goals
@@ -14,9 +15,8 @@ After completing this tutorial, you will be able to:
   the [Google API Client Gem](https://github.com/google/google-api-ruby-client)
 * use [ERB](http://rubydoc.info/stdlib/erb/ERB) (Embedded Ruby) for templating
 
-<div class="note">
-<p>This tutorial is open source. If you notice errors, typos, or have questions/suggestions,
-  please <a href="https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md">submit them to the project on GitHub</a>.</p>
+<div class="lesson-note" markdown="1">
+  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [submit them to the project on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
 </div>
 
 ### What We're Doing in This Tutorial
@@ -176,7 +176,7 @@ ID,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcod
 1,11/12/08 10:47,Allison,Nguyen,arannon@jumpstartlab.com,6154385000,3155 19th St NW,Washington,DC,20010
 ~~~
 
-The first row contains header information. This row provides descriptional text
+The first row contains header information. This row provides descriptive text
 for each column of data. It tells us the data columns are laid out as follows
 from left-to-right:
 
@@ -1287,7 +1287,7 @@ return to the application.
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
-          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
+          <td><%= "#{legislator.urls.join(" ")}" unless legislator.urls.nil? %></td>
         </tr>
         <% end %>
     <% else %>
@@ -1561,3 +1561,4 @@ But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
 * Use [Date#wday](https://rubyapi.org/3.1/o/date#method-i-wday) to find out the day of the week.
+

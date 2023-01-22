@@ -37,13 +37,13 @@ This should display the version of Rails installed on your system indicating the
 
 #### Step 1.2: Install Yarn
 
-You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to some of the ways that Javascript is bundled requires the usage of Yarn.
+You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to the way some JavaScript is bundled requiring the usage of Yarn.
 
-Javascript libraries used to be managed through the asset pipeline in previous Rails versions but as Javascript progressed it became a little dated and made it hard to integrate the latest Javascript libraries and frameworks.
+JavaScript libraries used to be managed through the asset pipeline in previous Rails versions but as JavaScript progressed it became a little dated and made it hard to integrate the latest JavaScript libraries and frameworks.
 
-Yarn is a Javascript package manager, much like Bundler for Ruby, and allows you to easily manage your Javascript libraries for the frameworks that do require bundling and compiling.
+Yarn is a JavaScript package manager, much like Bundler for Ruby, and allows you to easily manage your JavaScript libraries for the frameworks that do require bundling and compiling.
 
-Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and from the dropdown box choose the operating system you are using. It will then present you with instructions on how to install Yarn. Follow the instructions step by step.
+Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable). The easiest way to install Yarn is to run the `npm` command shown on the page. This will install Yarn Classic, which is the version we want.
 
 You can verify the install by running the following command:
 
@@ -131,7 +131,7 @@ Rails will already have initialized Git for you when it was doing its thing, so 
 
 ~~~bash
 git add .
-git commit -m "initial commit"
+git commit -m "Initial commit"
 ~~~
 
 #### Step 2.2 Initialize on GitHub, add the remote, and Push
@@ -248,7 +248,7 @@ Now, you can stage and commit your changes so that the repo is ready for prime t
 
 ~~~bash
 git add .
-git commit -m 'updates for heroku deployment'
+git commit -m 'Updates for heroku deployment'
 ~~~
 
 While we're here, we might as well push our changes to GitHub too:

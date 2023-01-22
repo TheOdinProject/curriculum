@@ -14,7 +14,7 @@ Example: You are building a blog for your startup which will have multiple autho
 
 This might look like:
 
-Note: I'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically*
+Note: We'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically*
 
 * Authors
 
@@ -59,6 +59,14 @@ Remember, if you feel like you will be hard coding data multiple times, it's pro
 
 Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of it called `micro-reddit`.  In this project, you'll build the data structures necessary to support link submissions and commenting.  We won't build a front end for it because we don't need to... you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
 
+Speaking of the console, here are a few convenient shortcut commands you can use:
+
+- `rails c` (for `rails console`)
+- `rails s` (for `rails server`)
+- `rails g ...` (for `rails generate ...`)
+
+Feel free to use whatever you feel more comfortable with. We'll still refer to the full commands in the following lessons for clarity.
+
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
@@ -72,7 +80,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 
 #### Playing with Validations
 
-1. In a new tab, open up the `$ rails console`.  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.
+1. In a new tab, open up the `$ rails console` (you may use `rails c` for short).  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.
 2. Check whether your new user is actually valid (e.g. will it save if we tried?).  `> u.valid?` will run all the validations.  It comes up `true`... surprise! We haven't written any validations so that's to be expected.  It's also a problem because we don't want to have users running around with blank usernames.
 3. Implement the user validations you thought of in the first step in your `app/models/user.rb` file.  These might involve constraints on the size of the username and that it must be present (otherwise you'll potentially have users with no usernames!) and that it must be unique.
 4. Reload your console using `> reload!`.  You'll need to do this every time you make changes to your app so the console can reload the current version.  If it still seems broken, just `> quit` out of it and relaunch (sometimes `#reload!` doesn't seem to do the trick).  Build another new user but don't save it yet by using `> u2 = User.new`. Run `> u2.valid?` again to run the validations and it should come up false. Good.

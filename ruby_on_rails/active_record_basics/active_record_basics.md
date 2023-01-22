@@ -22,13 +22,13 @@ What is Active Record anyway?  Recall that Rails is actually seven Ruby gems tha
 
 ORM stands for Object-Relational-Mapping.  It basically means that Active Record takes data which is stored in a database table using rows and columns, which needs to be modified or retrieved by writing SQL statements (if you're using a SQL database), and it lets you interact with that data as though it was a normal Ruby object.
 
-So if I want to get an array containing a listing of all the users, instead of writing code to initiate a connection to the database, then doing some sort of `SELECT * FROM users` query, and converting those results into an array, I can just type `User.all` and Active Record gives me that array filled with User objects that I can play with as I'd like.  Wow!
+So if you want to get an array containing a listing of all the users, instead of writing code to initiate a connection to the database, then doing some sort of `SELECT * FROM users` query, and converting those results into an array, you can just type `User.all` and Active Record gives us that array filled with User objects that we can play with as we like.  Wow!
 
 Even more impressive, it doesn't really matter which type of database you're using (as long as you've set up the `config/database.yml` file properly), Active Record smooths out all the differences between those databases for you so you don't have to think about it.  You focus on writing code for your application, and Active Record will think about the nitty gritty details of connecting you to your database.  It also means that if you switch from one database to another, you don't actually need to change any major application code, just some configuration files.  Sounds logical, right?
 
 ### Rails Models
 
-That's a step ahead of ourselves, though, because first it makes sense to think about what the relationship is between Rails and a database anyway.  It's actually pretty straightforward -- you want to store information about your users, so you create a database table called `users`.  You want to be able to access that data from your application, so you create a model called `User`, which is really just a Ruby file which inherits from Active Record and thus gets to use all the handy methods I was alluding to earlier like `all` and `find` and `create`.  One table corresponds with one model which inherits from Active Record.
+That's a step ahead of ourselves, though, because first it makes sense to think about what the relationship is between Rails and a database anyway.  It's actually pretty straightforward -- you want to store information about your users, so you create a database table called `users`.  You want to be able to access that data from your application, so you create a model called `User`, which is really just a Ruby file which inherits from Active Record and thus gets to use all the handy methods we were alluding to earlier like `all` and `find` and `create`.  One table corresponds with one model which inherits from Active Record.
 
 #### 30 Seconds About Working With Models
 
@@ -89,11 +89,11 @@ This introduces the last nuance of migrations that we'll talk about here -- reve
 
 A final note, you never want to rollback migrations unless you've screwed something up.  In situations where you have a legitimate case for removing a column (because you no longer need it for any purpose), you actually create a new migration that removes that column using the `remove_column` method.  It preserves the database.  Once you get advanced with this stuff, you can build a database just using the schema file... You're not there yet :)
 
-#### How Much Database Stuff do I Need to Know?
+#### How Much Database Stuff do We Need to Know?
 
 Migrations don't involve writing SQL, but you do need to understand enough about databases to know how you want yours structured!  Which columns do you want?  Which ones should be indexed (and why)? Should you set a default value?  What data type will be stored in your column... a string or text?
 
-These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [Databases course](/paths/full-stack-ruby-on-rails/courses/databases).
+These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what we're talking about, you'll need to go back and read up on basic databases in the [Databases course](/paths/full-stack-ruby-on-rails/courses/databases).
 
 ### Basic Validations
 
@@ -142,7 +142,7 @@ That was really just a teaser about what Active Record can do. In the reading be
     * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file and the class name is named after the table in your database (but singular), and that class inherits from ApplicationRecord to get its super powers.
 
 #### Migrations
-1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).
+1. Read the [Migrations chapter of Rails Guides](http://guides.rubyonrails.org/active_record_migrations.html).
     * Don't worry about 3.6-3.8.
     * Just skim section 7.
     * Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
@@ -173,7 +173,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_basics.html#naming-conventions'>Should Active Record model classes be singular or plural?</a> 
+ * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_basics.html#naming-conventions'>Should Active Record model classes be singular or plural?</a>
  * <a class='knowledge-check-link' href='#rollback-knowledge-check'>Which rails command will undo a database migration?</a>
  * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#presence'>What does the validation helper `presence: true` enforce?</a>
  * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors'>How can you see why an instance of a model class has failed validation?</a>

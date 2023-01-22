@@ -61,10 +61,10 @@ Note that you'll probably be prompted for your billing information when installi
 
 If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later.
 
-We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 6.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails6).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
+We'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 7.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails7).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
 * Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
-* Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
+* Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application.
 * Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up <span id="db-knowledge-check">PostgreSQL for production since it's the only database Heroku uses.</span>  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
 * <span id="new-app-knowledge-check">Create a new Heroku application from the command line using `$ heroku create`.</span>  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
 * Ready? Push using the command `$ git push heroku main`.
@@ -76,7 +76,7 @@ There's no magic here... When you created the new Heroku app, you also automatic
 
 From there, Heroku more or less does what you do for your own localhost.  First, it will take the "slug" of code and files that you uploaded, identify your Ruby version, and run a `$ bundle install`.  It sets up your database connection and then runs the asset pipeline.
 
-In development, Rails only partially executes the asset pipeline -- it runs all the preprocessors but serves asset files like stylesheets and javascripts individually (check your local server logs to see it serving dozens of individual files).  In production, Heroku will finish the job by not only running the preprocessors but also mashing your assets into those single files with the timestamp names (check out the source code of this page for an example -- as I type the stylesheet is called `assets/application-1fc71ddbb281c144b2ee4af31cf0e308.js`).
+In development, Rails only partially executes the asset pipeline -- it runs all the preprocessors but serves asset files like stylesheets and javascripts individually (check your local server logs to see it serving dozens of individual files).  In production, Heroku will finish the job by not only running the preprocessors but also mashing your assets into those single files with the timestamp names (check out the source code of this page for an example -- as we type the stylesheet is called `assets/application-1fc71ddbb281c144b2ee4af31cf0e308.js`).
 
 So it doesn't have to run this part of the asset pipeline (which won't actually change at all from one visit to the next) every single time a new HTTP request is served, Heroku will "precompile" the assets up front and serve them from the cache.
 
@@ -105,7 +105,7 @@ Your very first few times, you'll probably run into relatively straightforward e
 
 Another common early mistake is forgetting to include a gem (or forgetting to put it in the correct section of your gemfile -- remember we're in the `production` section, not the `development` section).
 
-Once the early errors are bypassed, another really common class of errors is related to the asset pipeline.  I'm not going to claim to understand where all these come from -- I've had asset pipeline issues dozens of times before and you can probably expect them as well.  For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets.  You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images (this should be apparent if you've got errors in your browser's console).
+Once the early errors are bypassed, another really common class of errors is related to the asset pipeline. We're not going to claim to understand where all these come from -- we've had asset pipeline issues dozens of times before and you can probably expect them as well.  For some reason, some gems and configurations seem to mess with Heroku's ability to precompile assets.  You may encounter an asset error when the deployment fails or if your application seems to be unable to locate stylesheets or images (this should be apparent if you've got errors in your browser's console).
 
 <span id="asset-error-knowledge-check">Deployment errors, including those with asset precompilation, are often solved by modifying your Rails configuration files.</span>  The two main files you'll probably find yourself needing to edit are `config/environments/production.rb` (most common) and `config/initializers/some_gem.rb` (if a gem needs to be configured). Often the stuff you read on Stack Overflow will tell you to add or edit one of the options, e.g. `config.assets.compile = false`.  Bear with it.
 
@@ -137,7 +137,7 @@ Dialing things back to the local environment, here are a few useful things to kn
 We won't have too much reading here because many of the links are interspersed with the sections above and, **if you're a complete beginner, you can safely skip this until later**.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails6) for a step-by-step guide to deploying.
+  1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails7) for a step-by-step guide to deploying.
   2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
 </div>
 

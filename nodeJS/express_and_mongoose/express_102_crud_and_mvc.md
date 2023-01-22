@@ -1,3 +1,4 @@
+### Introduction
 After setting up the skeleton for your project it's time to set up the database.  As usual, there's quite a bit of background information that you will find useful as you progress.
 
 ### Learning Outcomes
@@ -45,7 +46,7 @@ Our controller then would be called by Express whenever we get an `app.get()` re
 
 If this is a little confusing at this point, don't worry about it too much.  You will be creating models, views, and controllers in the tutorial and it will all become much clearer once you see them in use.
 
-### Which database should I choose?
+### Which database should You choose?
 
 One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else, you should be able to pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now.
 

@@ -1,3 +1,4 @@
+### Introduction
 You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built Facebook!
 
 This isn't the last course in the curriculum, as there is a Getting Hired course remaining. But you're now at that period where you can consider yourself a "full stack" developer. You've learned how to write beautiful and intuitive front-ends for your applications and now back-end technologies to give those sites some cool features. Despite how far you've come, it's up to you to keep building stuff, ask questions, and dig deeper into both NodeJS and best practices of software engineering in general.

@@ -1,12 +1,12 @@
 ### Introduction
+
 Before we start digging into some pretty nifty JavaScript, we need to begin talking about *problem solving*: the most important skill a developer needs.
 
 Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
 
 V. Anton Spraul defines problem solving in programming as:
 
-> "Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
-- Think Like a Programmer
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br /> - Think Like a Programmer
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
@@ -20,13 +20,13 @@ In this lesson we will walk through a few techniques that can be used to help wi
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Explain the three steps in the problem solving process.
-* Explain what pseudocode is and be able to use it to solve problems.
-* Be able to break a problem down into subproblems.
+*   Explain the three steps in the problem solving process.
+*   Explain what pseudocode is and be able to use it to solve problems.
+*   Be able to break a problem down into subproblems.
 
 ### Understand the Problem
 <span id="problem-solving-stages"></span>
-The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
+The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem, you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
 
 <span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
 
@@ -35,10 +35,10 @@ Now that you know what you're aiming to solve, don't jump into coding just yet. 
 <span id="planning-stage"></span>
 Some of the questions you should answer at this stage of the process:
 
-* Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
-* What inputs will your program have? Will the user enter data or will you get input from somewhere else?
-* What's the desired output?
-* Given your inputs, what are the steps necessary to return the desired output?
+*   Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
+*   What inputs will your program have? Will the user enter data or will you get input from somewhere else?
+*   What's the desired output?
+*   Given your inputs, what are the steps necessary to return the desired output?
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
 
@@ -47,7 +47,7 @@ The last question is where you will write out an algorithm to solve the problem.
 
 Here's an example of what the pseudocode for a simple program that prints all numbers up to an inputted number might look like:
 
-~~~
+~~~text
 When the user inputs a number
 Initialize a counter variable and set its value to zero
 While counter is smaller than user inputted number increment the counter by one
@@ -73,7 +73,7 @@ To demonstrate this workflow in action, let's solve a common programming exercis
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
 
-Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by three without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both three and five without a remainder print `FizzBuzz`.
+Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both 3 and 5 without a remainder print `FizzBuzz`.
 
 #### Plan
 Does your program have an interface? What will it look like?
@@ -88,7 +88,7 @@ The desired output is a list of numbers from 1 to the number the user entered. B
 Given your inputs, what are the steps necessary to return the desired output?
 The algorithm in pseudocode for this problem:
 
-~~~
+~~~text
 When a user inputs a number
 Loop from 1 to the entered number
 If the current number is divisible by 3 then print "Fizz"
@@ -108,7 +108,7 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. **Note**: We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
 
-With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the for-loop:
+With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for):
 
 ~~~javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
@@ -233,27 +233,27 @@ Buzz
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
-  2. Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
-  3. Read this [What is Pseudocoding](https://web.archive.org/web/20211229231605/https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
+  1.  Read [How to Think Like a Programmer - Lessons in Problem Solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/) by Richard Reis.
+  2.  Watch [How to Begin Thinking Like a Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) by Coding Tech. It's an hour long but packed full of information and definitely worth your time watching.
+  3.  Read this [What is Pseudocoding](https://web.archive.org/web/20211229231605/https://www.vikingcodeschool.com/software-engineering-basics/what-is-pseudo-coding) article from The Viking Code School.
 
 </div>
 
 ### Additional Resources
 
- This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
- *   Read [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) (*not free*). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
- *   Watch this [video on repetitive programming techniques](https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/resources/basic-programming-techniques/).
+*   Read [Think Like a Programmer: An Introduction to Creative Problem Solving](https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246/ref=sr_1_3?ie=UTF8&qid=1540326000&sr=8-3&keywords=think+like+a+programmer) (*not free*). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
+*   Watch this [video on repetitive programming techniques](https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/resources/basic-programming-techniques/).
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
-* <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
-* <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
-* <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
-* <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
-* <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
-* <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>
+*   <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
+*   <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
+*   <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
+*   <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
+*   <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
+*   <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
+*   <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>

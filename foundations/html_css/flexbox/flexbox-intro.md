@@ -1,18 +1,18 @@
 ### Introduction
 
-As you'll learn, there are _many_ ways to move elements around on a web page. Over the years, new methods have been developed, and older things have fallen out of style. Flexbox is a [relatively new](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2) way of manipulating elements in CSS, and when introduced, it was _revolutionary_.
+As you'll learn, there are _many_ ways to move elements around on a web page. New methods have been developed over the years and older things have fallen out of style. Flexbox is a [relatively new](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2) way of manipulating elements in CSS, and its debut was _revolutionary_.
 
-Because it is somewhat new as a technology, many resources put it near the end of their curriculum. But at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
+Many resources put it near the end of their curriculum because it is somewhat new as a technology. But at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
 
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You will learn how to position elements using flexbox.
-- You will learn about flex containers and flex items.
-- You will learn how to create useful components and layouts that go beyond just stacking and centering items.
+-   You will learn how to position elements using flexbox.
+-   You will learn about flex containers and flex items.
+-   You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
-### Before we get started
+### Before We Get Started
 
 Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser's developer tools. Those tools will be _crucial_ for you in the following lessons. If something isn't behaving the way you expect, inspecting it in the developer tools should be your first step _every time_.
 
@@ -29,13 +29,26 @@ Flexbox is a way to arrange items into rows or columns. These items will flex (i
 
 We'll get into exactly what's going on here soon enough. But for now, let's uncomment the two flex related CSS declarations in the above Codepen by removing the `/*` and `*/` tags surrounding them, then check out the result.
 
-**A Note on Comments**: Comments prevent the browser from interpreting lines as code, and are wrapped between specific tags. CSS uses `/*`as an opening comment tag and `*/` as a closing comment tag, while HTML and JavaScript have their own syntax. Commented out lines of code can be 're-enabled' simply by removing the comment tags surrounding the code.
+<div class="lesson-note" markdown="1">
+
+Comments prevent the browser from interpreting lines as code, and are wrapped between specific tags. CSS uses `/*`as an opening comment tag and `*/` as a closing comment tag, while HTML and JavaScript have their own syntax. Commented out lines of code can be 're-enabled' simply by removing the comment tags surrounding the code.
+
+</div>
 
 All 3 divs should now be arranged horizontally. If you resize the results frame with the "1x", ".5x" and ".25x" buttons you'll also see that the divs will 'flex'. They will fill the available area and will each have equal width.
 
 If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to fit within the available area.
 
-**Note**: If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
+
+<div class="lesson-note" markdown="1">
+
+If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
+
+</div>
+
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw?embed=odin,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
 
 #### Flex Containers and Flex Items
 
@@ -57,11 +70,11 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
-- <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
+-   <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
+-   <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* [This Flexbox tutorial](https://www.internetingishard.com/html-and-css/flexbox/) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.

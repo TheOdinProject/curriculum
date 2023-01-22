@@ -11,7 +11,7 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
-<summary class="dropDown-header">Ubuntu / Xubuntu
+<summary class="dropDown-header">Linux
 </summary>
 
 ### Step 1: Install Updates, Packages and Libraries
@@ -24,20 +24,20 @@ We'll use the terminal to install all of the programs.
 
 If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`.
+**Quick tip:** In Linux, you can copy from the terminal with `Ctrl + Shift + C` and paste with `Ctrl + Shift + V`.
 
 #### Step 1.2: Update Linux
 
 The rest of the installation will take place inside the terminal window.
 
-First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
+First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `Enter`.
 
 ~~~bash
 sudo apt update
 sudo apt upgrade
 ~~~
 
-When it prompts you, press `y` and then `enter`.
+When it prompts you, press `Y` and then `Enter`.
 
 #### Step 1.3: Install Packages and Libraries
 
@@ -47,7 +47,7 @@ Next, you need to install some required packages that do not come preinstalled. 
 sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ~~~
 
-When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing `enter`.
+When it prompts you, press `Y` and then `Enter`. You may or may not have to type your password after pressing `Enter`.
 
 ### Step 2: Install Ruby
 
@@ -106,7 +106,25 @@ rbenv install 3.1.2 --verbose
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
-When the last command is finished, set the Ruby version and verify that it's working:
+You may get this error message:
+
+~~~bash
+ruby-build: definition not found: x.x.x
+
+See all available versions with `rbenv install --list'.
+
+If the version you need is missing, try upgrading ruby-build:
+
+  git -C /home/itorja/.rbenv/plugins/ruby-build pull
+~~~
+
+If so, we run the suggested command:
+
+~~~bash
+git -C "$(rbenv root)"/plugins/ruby-build pull
+~~~
+
+Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
 rbenv global 3.1.2
@@ -125,9 +143,8 @@ ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
+
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
-
 
 
 </details>
@@ -158,7 +175,7 @@ Type `xcode-select --install` in your terminal and press `enter`. You may need t
 The next program you need to install is [Homebrew](https://brew.sh/), which makes it easy to install other programs you'll need. From inside the terminal, type the following:
 
 ~~~bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
 You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
@@ -181,9 +198,19 @@ This command will install the command line interface for Heroku, a free website 
 
 ### Step 3: Install Ruby
 
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to manage Ruby versions.
 
-#### Step 3.1: Install rbenv
+#### Step 3.1: Install ruby-build
+
+First, let's install `ruby-build`:
+
+~~~bash
+brew install ruby-build
+~~~
+
+`ruby-build` will make it possible to install our Ruby version of choice.
+
+#### Step 3.2: Install rbenv
 
 To install `rbenv`, run the following in your terminal:
 
@@ -237,6 +264,14 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 We can now (finally) install Ruby! Our curriculum currently uses version 3.1.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
+First, let's upgrade `ruby-build`:
+
+~~~bash
+brew upgrade ruby-build
+~~~
+
+Now we're ready to install our desired version of Ruby:
+
 ~~~bash
 rbenv install 3.1.2 --verbose
 ~~~
@@ -252,7 +287,7 @@ rbenv global 3.1.2
 You can double check that this worked by typing `ruby -v` and checking that the output says version 3.1.2:
 
 ~~~bash
-$ ruby -v
+ruby -v
 ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ~~~
 
@@ -261,12 +296,10 @@ If you don't see the output above, log off and log back on, then try again.
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
 
-
-
 </details>
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl + Shift + X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).

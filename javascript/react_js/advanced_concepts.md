@@ -18,8 +18,8 @@ By the end of this lesson, you should be able to do the following:
 * Explain PropTypes.
 * Explain Styled Components.
 * Explain Redux and state management systems.
+* Explain how Context API works.
 * Explain higher-order Components.
-* Explain Routers in web pages.
 * Explain how to make your own React Hooks.
 
 ### Guide to Advanced React
@@ -44,7 +44,7 @@ The [Passing Data Deeply with Context webpage](https://beta.reactjs.org/learn/pa
 
 #### <span id="higher-order-components">5. Higher-order Components</span>
 
-Higher-order [components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component. This [article on HOC's by Smashing Magazine](https://www.smashingmagazine.com/2020/06/higher-order-components-react/) shows different use cases and provides some great comparisons to help you understand.
+[Higher-order components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component. This [article on HOC's by Smashing Magazine](https://www.smashingmagazine.com/2020/06/higher-order-components-react/) shows different use cases and provides some great comparisons to help you understand.
 
 #### <span id="more-hooks">6. More Hooks</span>
 

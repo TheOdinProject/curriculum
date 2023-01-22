@@ -29,28 +29,29 @@ In many ways, TDD is much more productive than writing code without tests. If we
 
 We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
 
-### Practice
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 Follow the steps below to get started. Once you complete Step 1, be sure to use the README for **_each individual exercise_** in order to do them correctly.
 
 1. Set up the files and Jest by carefully following the directions in the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme).
 2. Now that you have cloned the repository and run `npm install` to install Jest, complete these exercises in the following order:
-   - helloWorld (This exercise is intentionally very simple to ensure that you have set up everything properly!)
-   - repeatString
-   - reverseString
-   - removeFromArray
-   - sumAll
-   - leapYears
-   - tempConversion
+    * helloWorld (This exercise is intentionally very simple to ensure that you have set up everything properly!)
+    * repeatString
+    * reverseString
+    * removeFromArray
+    * sumAll
+    * leapYears
+    * tempConversion
 3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found on the ['solutions' branch](https://github.com/TheOdinProject/javascript-exercises/tree/solutions) of the repo.
+
 </div>
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ### Knowledge Check
 
