@@ -82,8 +82,8 @@ If you go in the direction of learning TypeScript, our recommendation would be p
 <div class="lesson-content__panel" markdown="1">
 
 1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
-2. Read [this article](https://blog.logrocket.com/validate-react-props-proptypes/) for a more in-depth look into the benefits and use cases of PropTypes.
-3. [This](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application) StackOverflow thread goes into the differences of TypeScript and PropTypes. Give it a read!
+2. You can even set up custom validators in PropTypes. Read [this article on using PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/) for a more in-depth look into the benefits and use cases of PropTypes.
+3. [This StackOverflow thread goes into the differences of TypeScript and PropTypes. ](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)Give it a read!
 
 </div>
 
