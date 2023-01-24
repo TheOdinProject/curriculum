@@ -23,6 +23,7 @@ This section contains a general overview of topics that you will learn in this l
   4. Read up on the [differences](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines) between a web page, a web server, and a search engine.
   5. Watch this [Google short](https://youtu.be/BrXPcaRlBqo) explaining what a web browser is. Then, find out what web browser you are using right [now](https://www.whatsmybrowser.org/).
   6. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
+  7. Watch the [How The Internet Works + History of the Web](https://academy.zerotomastery.io/courses/697434/lectures/12529642) sections of this series. 
 </div> 
 
 ### Knowledge Check
