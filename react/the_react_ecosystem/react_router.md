@@ -1,6 +1,6 @@
 ### Introduction
 
-Up until this point in the curriculum, we have been building one-page applications. However, for any larger scale application, we are going to have multiple pages. Thankfully, the browser allows client-side Javascript to manage the way a user can navigate, with the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API). We can leverage the power of this to manage routing in React with the help of a package like `react-router-dom`.
+Up until this point in the curriculum, we have been building one-page applications. However, for any larger scale application, we are going to have multiple pages. Thankfully, the browser allows client-side Javascript to manage the way a user can navigate, with the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API). We can leverage the power of this to manage routing in React with the help of a package like React Router.
 
 ### Lesson Overview
 
@@ -33,9 +33,9 @@ Here is where we reiterate, **the chicken needs to be reheated**. In a general m
 
 ### A Reactive Solution
 
-While this allows for nicer, app-like interactions (since you are controlling the routes, you can make fancy css animations across route changes), a lot of caveats can be missed. Browsers reloads notify screen-readers of new content to read, so you will need to notify screen-readers of route updates manually. However, with the help of a robust library, you can often address these concerns!
+While client-side routing allows for nicer, app-like interactions (since you are controlling the routes, you can make fancy CSS animations across route changes), a lot of caveats can be missed. Browsers reloads notify screen-readers of new content to read, so you will need to notify screen-readers of route updates manually. However, with the help of a robust library, you can often address these concerns!
 
-React Router is a standard routing library for React applications. By using react-router, we can specify react components, that can be rendered based on the route.
+React Router is a standard routing library for React applications. By using React Router, we can specify React components, that can be rendered based on the route, and so much more. Let's dive in!
 
 ### Adding A Router
 
@@ -76,7 +76,7 @@ const App = () => {
 export default App;
 ~~~
 
-Now it's time to add the router! In **React Router v6.7.0**, it is recommended to add routes in form of an object. Add the following to `root.js`, we will talk about what is happening in a little bit.
+Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects. Add the following to `root.js`, we will talk about what is happening in a little bit.
 
 ~~~jsx
 import React from "react";
@@ -103,12 +103,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile" It works! But what is happening here?
+Once this is done, go ahead and run `npm start` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
 
-1. We import `createBrowserRouter` and `RouterProvider` from "react-router-dom".
+1. We import `createBrowserRouter` and `RouterProvider` from React Router.
 2. `createBrowserRouter` is used to create the configuration for a router by simply passing arguments in the form of an array of routes.
-3. This generated configuration is then rendered in, by passing it to the `RouterProvider` component.
-4. The configuration array contains objects with two mandatory keys, the path and the corresponding element to be rendered.
+3. The configuration array contains objects with two mandatory keys, the path and the corresponding element to be rendered.
+4. This generated configuration is then rendered in, by passing it to the `RouterProvider` component.
 
 ### The Link Element
 
@@ -147,10 +147,10 @@ import { Link } from "react-router-dom";
 
 const Popeye = () => {
   return (
-    <p>
-      Hi, I am Popeye! I love to eat Spinach!{" "}
+    <>
+      <p>Hi, I am Popeye! I love to eat Spinach!</p>
       <Link to="/">Click here to go back</Link>
-    </p>
+    </>
   );
 };
 
@@ -162,10 +162,10 @@ import { Link } from "react-router-dom";
 
 const Spinach = () => {
   return (
-    <p>
-      Hi, I am Spinach! Popeye loves to eat me!{" "}
+    <>
+      <p>Hi, I am Spinach! Popeye loves to eat me!</p>
       <Link to="/">Click here to go back</Link>
-    </p>
+    </>
   );
 };
 
@@ -225,7 +225,7 @@ const Profile = () => {
 export default Profile;
 ~~~
 
-Check out the "/profile", "/profile/popeye" and "/profile/spinach" pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
+Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
 
 If you want to render something as a default component when no path is added to profile, you can add an index route to the children! Create a default profile component.
 
@@ -237,7 +237,7 @@ const DefaultProfile = () => {
 export default DefaultProfile;
 ~~~
 
-Now, add an index tag with the DefaultProfile as a child to the "/profile" route.
+Now, add an index tag with the DefaultProfile as a child to the `/profile` route.
 
 ~~~jsx
 import React from "react";
@@ -272,9 +272,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-If you visit the "/profile" path now, you should be able to see some default content where the `Outlet` is rendered when the index path is rendered!
+If you visit the `/profile` path now, you should be able to see some default content where the `Outlet` is rendered when the index path is rendered!
 
-But this example brings another dillemma. Sometimes, we want to read what was provided to the path and render content accordingly. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
+But this example brings another dillemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
 
 ~~~jsx
 import React from "react";
@@ -301,7 +301,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-The colon (:) has special meaning, turning the path section after it, into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook or with loaders and more, but we will use a basic example with useParams here. We can thus rewrite the profile component as the following:
+The colon (:) has special meaning, turning the path section after it, into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the profile component as the following:
 
 ~~~jsx
 import { useParams } from "react-router-dom";
@@ -334,7 +334,7 @@ export default Profile;
 
 ### Handling Bad Urls
 
-But alas, the index path doesn't work with this anymore, as in the "/profile" path, no params are actually passed. Actually, the "/profile" path doesn't make much sense without an actual name, else whose profile is it supposed to show, right? So, the application shows an error! This can't be good, so how do you show a default page in case the user visits a wrong or unused path? You can pass in an `errorElement` argument here! Create a basic "Not Found" page:
+But alas, the index path doesn't work with this anymore, as in the `/profile` path, no params are actually passed. Actually, the `/profile` path doesn't make much sense without an actual name, else whose profile is it supposed to show, right? So, the application shows an error! This can't be good, so how do you show a default page in case the user visits a wrong or unused path? You can pass in an `errorElement` argument here! Create a basic "Not Found" page:
 
 ~~~jsx
 import { Link } from "react-router-dom";
@@ -353,7 +353,7 @@ const ErrorPage = () => {
 export default ErrorPage;
 ~~~
 
-Add in the `errorElement` to the configuration, and check it out! The "/profile", or any unmentioned paths render an error page!
+Add in the `errorElement` to the configuration, and check it out! The `/profile`, or any unmentioned paths render an error page!
 
 ~~~jsx
 import React from "react";
@@ -386,7 +386,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 Often, you will face a need to decide when a certain route is rendered or not. One use case is authentication, where you may want to render certain routes based on if the user is logged in or not. While there are many ways to do so, one of the easiest ways can be to conditionally creating a config for the router.
 
-But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a react component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them seperate. Create a new `Router.js` component and move your routes to it.
+But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them seperate. Create a new `Router.js` component and move your routes to it.
 
 ~~~jsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -457,7 +457,7 @@ const Router = () => {
 export default Router;
 ~~~
 
-Let us create two buttons, to toggle this state in `App.js`, and change the "/profile" link to a "/protected" so that it can be used to indicate a protected route.
+Let us create two buttons, to toggle this state in `App.js`, and change the `/profile` link to a `/protected` so that it can be used to indicate a protected route.
 
 ~~~jsx
 import { Link } from "react-router-dom";
@@ -516,7 +516,7 @@ const Protected = () => {
 export default Protected;
 ~~~
 
-Now, We can pass the routes conditionally to the `createBrowserRouter` methods based on if the user is logged in. Else, we can use another one of `react-router-dom`s components, `<Navigate>` to redirect the user back to another page, in this instance, let it be Popeye's profile page.
+Now, We can pass the routes conditionally to the `createBrowserRouter` methods based on if the user is logged in. Else, we can use another one of React Router's components, `<Navigate>` to redirect the user back to another page, in this instance, let it be Popeye's profile page.
 
 ~~~jsx
 import { useState } from "react";
