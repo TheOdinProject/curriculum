@@ -97,7 +97,7 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer.
+  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't concern yourself with installing Git just yet, that will be covered in a few lessons.
 </div>
 
 ### Additional Resources
