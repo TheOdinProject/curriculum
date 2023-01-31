@@ -182,25 +182,11 @@ You will be prompted to enter your password. When typing your password, you may 
 
 Congratulations! You've installed the prerequisites!
 
-### Step 2: Install Heroku
-
-Heroku is a place to host your Rails applications.
-
-#### Step 2.1: Install Heroku
-
-Next, install Heroku:
-
-~~~bash
-brew install heroku/brew/heroku
-~~~
-
-This command will install the command line interface for Heroku, a free website that can host your Ruby on Rails applications. You'll learn more about this later.
-
-### Step 3: Install Ruby
+### Step 2: Install Ruby
 
 Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to manage Ruby versions.
 
-#### Step 3.1: Install ruby-build
+#### Step 2.1: Install ruby-build
 
 First, let's install `ruby-build`:
 
@@ -210,7 +196,7 @@ brew install ruby-build
 
 `ruby-build` will make it possible to install our Ruby version of choice.
 
-#### Step 3.2: Install rbenv
+#### Step 2.2: Install rbenv
 
 To install `rbenv`, run the following in your terminal:
 
@@ -260,7 +246,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
-#### Step 3.3: Install Ruby
+#### Step 2.3: Install Ruby
 
 We can now (finally) install Ruby! Our curriculum currently uses version 3.1.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
