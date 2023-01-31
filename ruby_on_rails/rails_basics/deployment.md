@@ -75,7 +75,7 @@ Luckily, there are still plenty of other great options out there. The downside i
 
 You can host most of your projects for free using a combination of the different providers we recommend. But you'll have a bit more leg work to do. You'll have to create an account and get familiar with a few different providers.
 
-If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all you're apps from one place.
+If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all of your apps from one place.
 
 Whatever you're circumstances, we've got you covered. Here are the PaaS providers we recommend.
 
@@ -191,7 +191,7 @@ If the logs tell you, the application crashes before it even boots and does not 
 
 A common cause of 500 errors in Rails after deployment is forgetting you migrate the database. If you're getting a 500 error and have new database migrations in the latest changes. Run `rails db:migrate` on your production database to get it up and running again.
 
-#### Going further with troubleshooting tools
+#### Going Further with Troubleshooting Tools
 As your application grows, you'll want to get more sophisticated with your error-tracking tools. For example, you can use services like [Sentry](https://sentry.io/) to track and monitor errors using a slick, easy-to-use interface and get notified when they happen.
 
 These services will give you more information about the error and the request that caused it, saving you a ton of time. But, setting up and using these services are out of the scope of this lesson. You can get by just fine with the logs and the Rails console for your first few apps.
