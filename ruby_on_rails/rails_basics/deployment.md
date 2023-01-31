@@ -77,7 +77,7 @@ You can host most of your projects for free using a combination of the different
 
 If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all you're apps from one place.
 
-Whatever you're circumstances, we've got you covered. Here are the PaaS providers we recommend.
+Whatever your circumstances, we've got you covered. Here are the PaaS providers we recommend.
 
 ---
 
