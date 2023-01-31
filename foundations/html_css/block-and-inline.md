@@ -19,6 +19,18 @@ Inline elements, however, do not start on a new line. They appear in line with w
 
 Inline-block elements behave like inline elements, but with block-style padding and margin. Inline-block is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
+Here's a table comparing and contrasting `block`, `inline-block`, and `inline`:
+
+|                                                                    |       `block`      |   `inline-block`   |          `inline`         |
+|:------------------------------------------------------------------:|:------------------:|:------------------:|:-------------------------:|
+|                            **behavior**                            |                    |                    |                           |
+| breaks into a new line                                             |          ✅         |          ❌         |             ❌             |
+| `width` and `height` respected                                     |          ✅         |          ✅         |             ❌             |
+| if `width` not specified,                                          |  as wide as parent | as wide as content | as wide as content always |
+| if `height` not specified,                                         | as tall as content | as tall as content | as tall as content always |
+| horizontal `margin`, `border`, and `padding` push away other boxes |          ✅         |          ✅         |              ✅            |
+| vertical `margin`, `border`, and `padding` push away other boxes   |          ✅         |          ✅         |              ❌            |
+
 ### Divs and Spans
 
 We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
