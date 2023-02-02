@@ -52,6 +52,7 @@ While this is happening, we can create a new file called `RouteSwitch.js`, which
 Once the package is finished installing, you can add this code to your RouteSwitch.js file:
 
 ~~~javascript
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
