@@ -160,6 +160,7 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 Here are some tips to help you get started in a virtual environment:
 
 -   Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
+    ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
 -   All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
 -   To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 -   You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
