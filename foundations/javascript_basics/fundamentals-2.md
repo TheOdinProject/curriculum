@@ -65,7 +65,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - Regular expressions, commonly known as regex, are a tool that matches or locates patterns in strings for string validation. Although it shouldn't be your immediate solution this early on, you can still use this resource to understand how websites know that `myemail@com` isn't a valid email address. On top of that, other solutions to filter out strings exist, and regex is considered a slow operation.
 
 - [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
-- [When to use Regex vs Built in String Methods? - stackoverflow](https://stackoverflow.com/questions/1062572/when-to-use-regex-vs-built-in-string-methods#:~:text=Regex%20is%20instrinsically%20a%20process,methods%20of%20the%20String%20class.)
+- [When to avoid regular expressions](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions).
 
 ### Knowledge Check
 
@@ -78,7 +78,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">What is the term for embedding variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">Which type of quote lets you embed variables/expressions in a string?</a>
 * <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">How do you embed variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you escape characters in a string?</a>
+* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you use escape characters in a string?</a>
 * <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between the slice/substring/substr string methods?</a>
 * <a class="knowledge-check-link" href="http://javascript.info/logical-operators">What are the three logical operators and what do they stand for?</a>
 * <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the comparison operators?</a>
