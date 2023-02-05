@@ -255,7 +255,7 @@ We're going to create 3 buttons that all alert "Hello World" when clicked.  Try 
 <button onclick="alert('Hello World')">Click Me</button>
 ~~~
 
-This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only set 1 "onclick" property per DOM element.
+This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only set 1 "onclick" property per DOM element, so we're unable to run multiple separate functions in response to a click event using this method.
 
 #### Method 2
 
