@@ -65,7 +65,7 @@ With NodeJS, we will be using MongoDB, a popular open-source database. Many PaaS
 1. Use Railway, a PaaS with integrated MongoDB database services, or
 1. Use any of PaaS service, and connect it to a [MongoDB Atlas](https://www.mongodb.com/atlas/database) instance. The instructions in their [getting started guide](https://www.mongodb.com/docs/atlas/getting-started/) make it easy!
 
-Either choice isn't too difficult to setup, but if you're having trouble with one, it's always nice to have a fallback option!
+Either choice isn't too difficult to setup, but it's always nice to have a fallback option! Later in this course, we will be following the MDN tutorial's instructions on deploying both our app and database connection to Railway. For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson. However, If you're having too much trouble, don't fret. Just come back to it later once you've finished the MDN tutorial and have that bit of deployment experience under your belt.
 
 #### Domain Names
 
@@ -81,7 +81,7 @@ Once you have your domain, you need to point it to your project. The provider yo
 
 ### Our Recommended PaaS Services
 
-Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted. But they unfortunately discontinued their free tier in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted. But they unfortunately discontinued it in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is that they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
@@ -182,7 +182,7 @@ There are two stages of the deployment process where you are most likely to enco
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
-Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with Javascript. The error output will tell you exactly what went wrong.
+Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with Javascript/NodeJS. The error output will tell you exactly what went wrong.
 
 If you don't recognize the error or what might cause it, your next step will be to copy and paste it into your favorite online search engine. You'll likely find a Stack Overflow post with a solution. You can get support in our Discord server if searching doesn't lead to anything conclusive.
 
@@ -217,8 +217,11 @@ This will be where the Git skills you've been learning will start to really pay 
 <div class="lesson-content__panel" markdown="1">
 
 1. Deploy your [Mini Message Board project](https://www.theodinproject.com/lessons/nodejs-mini-message-board) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io in conjunction with MongoDB Atlas for your database. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
-_ Use one of the linked deploy guides for your PaaS provider to help you through the process.
-_ If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
+   - Use one of the linked deploy guides for your PaaS provider to help you through the process.
+   - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
+   - If for some reason the deployment is still too difficult, and you just can't seem to get it to work, move onto the next project and come back once you've deployed your MDN project. The steps in their tutorial hold your hand a bit more through the process and will give you the confidence you need to deploy this project.
+1. Once you've hosted your app and fired up your database, you'll need to provide the Express app with a MongoDB connection URL that points to the database. If you're planning to publish your code on GitHub you will need to hide this URL for your database from prying eyes because it contains both your username and password. The simplest approach is to push your code to a private repository, however, if you want to show-off your code to the world, assign the connection URL to an environment variable and access it with the help of the [Dotenv](https://github.com/motdotla/dotenv) package. This [Medium article](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) does a great job of explaining what they are, and how to use them with Express.
+
 </div>
 
 ### Knowledge Check
