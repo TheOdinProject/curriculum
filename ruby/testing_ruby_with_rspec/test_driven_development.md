@@ -44,7 +44,7 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+* [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
 * [This series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.
    
 ### Knowledge Check
