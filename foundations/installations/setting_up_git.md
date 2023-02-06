@@ -203,7 +203,11 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 Follow the directions in [this article from GitHub](https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection **(Don't forget to omit the `$` when you copy and paste the code!)**. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 
-If you see a message **Host key verification failed**, use **ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts** to add GitHub to the list of known hosts.
+If you see a message **Host key verification failed**, use the following command line code to add GitHub to the list of known hosts.
+
+~~~bash
+ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+~~~
 
 ### Step 3: Let us know how it went!
 
