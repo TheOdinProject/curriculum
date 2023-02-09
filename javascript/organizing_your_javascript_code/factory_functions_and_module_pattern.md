@@ -4,7 +4,7 @@ Object constructors are one of about a million ways to start organizing your cod
 
 _However..._
 
-There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This article](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
+There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [Constructors are bad for JavaScript](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
 
 One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all. If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
