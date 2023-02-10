@@ -306,6 +306,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 +  username: <role_name> # role previously added
 +  password: <%= ENV['DATABASE_PASSWORD'] %> # variable previously added
+# You must remove the '+' signs to be able to migrate your database
 ~~~
 
 Save the file, and we can see Rails work its magic:

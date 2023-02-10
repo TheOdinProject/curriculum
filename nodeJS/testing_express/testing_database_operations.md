@@ -33,7 +33,7 @@ const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
 ~~~
 
-The above code should look very familiar to you by now.. it's the same setup code we've been using all along. The only difference is that we've moved it out to its own file so that in our test files we can use a _different_ config file that sets up mongodb-memory-server for us. All you have to do now is `require("./mongoConfig")` in your `app.js` file.
+The above code should look very familiar to you by now... it's the same setup code we've been using all along. The only difference is that we've moved it out to its own file so that in our test files we can use a _different_ config file that sets up mongodb-memory-server for us. All you have to do now is `require("./mongoConfig")` in your `app.js` file.
 
 Next we need to create a separate config for our testing environment. The config file that you can find on the `mongodb-memory-server` repo README should work just fine. Below is a slightly edited version of it. Copy this to a new file called `mongoConfigTesting.js`
 

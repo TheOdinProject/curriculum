@@ -4,7 +4,7 @@ Object constructors are one of about a million ways to start organizing your cod
 
 _However..._
 
-There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
+There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [Constructors are bad for JavaScript](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
 
 One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all. If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
-### Factory function introduction
+### Factory Function Introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
@@ -111,7 +111,7 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
 1. [This video](https://www.youtube.com/watch?v=SBwoFkRjZvE) is simple and clear! Start here.
 
-2. [This article](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
+2. [This article](https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
 
   - The previous article is great, but there is one inaccurate statement:
 

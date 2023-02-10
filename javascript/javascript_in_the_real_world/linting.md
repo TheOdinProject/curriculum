@@ -1,6 +1,10 @@
+### Introduction
+
+Before we dive all the way into the Code, we are going to take a moment to improve your editor setup. Doing this now will make things much easier for you going forward. This lesson will give you some information about code style, and then give you some tools to help you maintain consistent code-style throughout your projects.  In some cases it can even help adjust things like indentation for you!
+
 ### Style Guides
 
-Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them _will_ make you a better developer.
+Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them _will_ make you a better developer. 
 
 1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
@@ -38,9 +42,10 @@ Prettier is _awesome_. It is similar to a linter, but serves a slightly differen
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
 
-### Note on using Eslint and Prettier together
+### Using ESlint and Prettier
 
-Using ESLint and Prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all ESLint rules that are unnecessary or might conflict with Prettier. Doing just this is enough to resolve the conflict and get them both working smoothly with one another.
+We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
+However, using ESLint and Prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all ESLint rules that are unnecessary or might conflict with Prettier. Doing just this is enough to resolve the conflict and get them both working smoothly with one another.
 Another way to address the conflict is to use `eslint-plugin-prettier`. It lets you run Prettier as if it were a rule in ESLint. However, doing this is **not recommended**. You can learn more about it [here](https://prettier.io/docs/en/integrating-with-linters.html#notes)
 
 ### Knowledge check

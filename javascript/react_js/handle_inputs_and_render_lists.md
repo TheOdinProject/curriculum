@@ -378,7 +378,7 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 2. Implement a delete button for each task. The delete button should remove the specific task from the state array. Don't forget to never directly assign state. If you want you can use [Font Awesome](https://fontawesome.com/) for the icon.
    **Tip**: You can remove each task by its id, but for that you have to save the task id together with the task title.
 
-### **Hard:**
+### **Hard**
 
 1. Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button.
 

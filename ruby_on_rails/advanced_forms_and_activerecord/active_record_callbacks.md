@@ -77,7 +77,7 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 
 <div class="lesson-content__panel" markdown="1">
   1. Read through the [Rails Guide on Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)
-  2. Read [this post from Samuel Mullen](http://samuelmullen.com/2012/01/guidelines-for-using-activerecord-callbacks/) on guidelines for using callbacks.
+  2. Read [this post from Samuel Mullen](https://samuelmullen.com/articles/guidelines-for-using-activerecord-callbacks) on guidelines for using callbacks.
 </div>
 
 ### Conclusion
