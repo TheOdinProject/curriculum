@@ -49,5 +49,3 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
-
-<br/>
