@@ -17,7 +17,7 @@ This project will give you a chance to take a relatively high level set of requi
 Keep the following requirements in mind.  We'll cover specific steps to get started below this list:
 
 <div class="lesson-content__panel" markdown="1">
-1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails7) for setup info.
+1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment will go much more smoothly.
 2. Users must sign in to see anything except the sign in page.
 3. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 4. Users can send Friend Requests to other Users.
@@ -33,8 +33,8 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
 15. Sign in should use [OmniAuth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
 16. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
-17. Deploy your App to Heroku.
-18. Set up the [SendGrid add-on](https://devcenter.heroku.com/articles/sendgrid) and start sending real emails. It's free for low usage tiers.
+17. Deploy your App to a hosting provider.
+18. Set up an email provider and start sending real emails.
 
 #### Extra Credit
 

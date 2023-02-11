@@ -26,6 +26,6 @@ By the end of this lesson, you should be able to do the following:
 1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
 2. Read about deploying your app in the [last article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment) in this tutorial.
 
-Warning: If you're planning to publish your code on GitHub you will need to hide the MongoDB connection URL for your initial database from prying eyes because it contains both your username and password. One approach is to push your code to a private repository or, if you want to show-off your code to the world, assign it to an environment variable and access it with the help of the [Dotenv](https://github.com/motdotla/dotenv) package. This [Medium article](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) does a great job of explaining what they are, and how to use them with Express. Once you've hosted your app on Railway you'll be creating a new database with them and can use the instructions in the MDN tutorial to manage environment variables through the Railway dashboard.
+Reminder: Make sure to hide your MongoDB connection URL! Once you've hosted your app on Railway you'll be creating a new database with them and can use the instructions in the MDN tutorial to manage environment variables through the Railway dashboard.
 
 </div>
