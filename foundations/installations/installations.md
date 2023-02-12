@@ -319,7 +319,7 @@ You can start chrome in two ways,
 google-chrome
 ~~~
 
-_(__note__: Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
+_(__note__: Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &> /dev/null` instead, which will run the command in the background and hide any messages it may output.)_
 
 </details>
 
