@@ -100,7 +100,6 @@ In our case, we'll do this by modifying `#as_json` in our model to return only t
     # Option 2: Working with the default #as_json method
     def as_json(options={})
       super({ only: [:name] }.merge(options))
-      super(options)
     end
     
   end
