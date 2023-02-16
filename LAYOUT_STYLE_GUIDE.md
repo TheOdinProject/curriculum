@@ -242,10 +242,10 @@ Will result in the following output:
 
 1. The first item
 2. A second item
-  - A sub-item for the second item with 4 spaces before the hyphen
+   - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
-  - A sub-bullet with a 4 space indent 
+  - A sub-bullet with a 2 space indent 
 - A new list item
 
 ### Multi-line list items

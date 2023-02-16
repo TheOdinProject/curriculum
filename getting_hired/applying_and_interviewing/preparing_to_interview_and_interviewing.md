@@ -28,7 +28,7 @@ FINAL NOTE -- this is not one-size-fits-all and many companies skip the light st
 
 * [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
 * [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
-* [A much more technical phone screen from Coding Horror](http://www.codinghorror.com/blog/2008/01/getting-the-interview-phone-screen-right.html)
+* [A much more technical phone screen from Coding Horror](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)
 
 ### The Tech Interview
 

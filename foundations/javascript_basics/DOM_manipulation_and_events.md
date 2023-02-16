@@ -245,7 +245,7 @@ Add the following elements to the container using ONLY JavaScript and the DOM me
 
 Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.
 
-There are three primary ways to go about this: you can attach functions' attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
+There are three primary ways to go about this: You can specify function attributes directly on your HTML elements, you can set properties of form `on[eventType]` (`onclick`, `onmousedown`, etc.) on the DOM nodes in your JavaScript, or you can attach event listeners to the DOM nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
 
 We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
 
@@ -255,7 +255,7 @@ We're going to create 3 buttons that all alert "Hello World" when clicked.  Try 
 <button onclick="alert('Hello World')">Click Me</button>
 ~~~
 
-This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
+This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only set one "onclick" property per DOM element, so we're unable to run multiple separate functions in response to a click event using this method.
 
 #### Method 2
 
