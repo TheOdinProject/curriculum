@@ -18,14 +18,14 @@ Client-side routing is the type of routing where Javascript takes over the duty 
 
 Say you are cooking some chicken. If you want to cook it well and nice, you will have to:
 
-1. Put the chicken in the microwave and set it to cook with appropriate time and heating
-2. Wait till the microwave gives out that satisfying **ding**
+1. Put the chicken in the oven and set it to cook with appropriate time and heating
+2. Wait till the dish gives out that satisfying smell
 3. Start munching!
 
-This is common to all websites, you set the microwave up for what you want (visit any URL, like https://theodinproject.com/), wait for the microwave to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
+This is common to all websites, you set the oven up for what you want (visit any URL, like https://theodinproject.com/), wait for the oven to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
 
 1. Add the spices to the chicken
-2. Put it back into the microwave and set it up to be reheated
+2. Put it back into the oven and set it up to be reheated
 3. Wait for it to be nice and warm
 4. Now you can eat it!
 
@@ -112,7 +112,7 @@ Once this is done, go ahead and run `npm start` and check out both routes: the h
 
 ### The Link Element
 
-But you may notice, when we click the links in the navbar, the browser is reloading for the next URL instead of using React Router. This isn't what was promised! To help with this, React Router exports a custom `Link` element to be used instead of the regular `a` tag. We can replace the `a` tag in our navbar with the `Link` element.
+But you may notice, when we click the links in the navbar, the browser is reloading for the next URL instead of using React Router. This isn't what was promised! To help with this, [React Router exports a custom `Link` element](https://reactrouter.com/en/main/components/link) to be used instead of the regular `a` tag. We can replace the `a` tag in our navbar with the `Link` element.
 
 ~~~jsx
 import { Link } from "react-router-dom";
@@ -205,7 +205,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-This allows us to render the child component alongside the parent, through an `Outlet`! We can rewrite the Profile component to add an `Outlet` which will get replaced by the various profiles when that route is visited!
+This allows us to render the child component alongside the parent, through an [`Outlet`](https://reactrouter.com/en/main/components/outlet)! We can rewrite the Profile component to add an `Outlet` which will get replaced by the various profiles when that route is visited!
 
 ~~~jsx
 import { Outlet } from "react-router-dom";
@@ -382,9 +382,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-### Protected Routes
-
-Often, you will face a need to decide when a certain route is rendered or not. One use case is authentication, where you may want to render certain routes based on if the user is logged in or not. While there are many ways to do so, one of the easiest ways can be to conditionally creating a config for the router.
+### Refactoring The Routing
 
 But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them seperate. Create a new `Router.js` component and move your routes to it.
 
@@ -427,146 +425,24 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-This seems so much nicer, right? Now, coming back to the topic of authentication. Let us create a mock authentication process so we can demonstate how protected routes can be implemented. Create a `isLoggedIn` state variable in the Routes component to store if or not an user is logged in, and pass it and it's setter to the home page. This is usually managed with some function or hook, but for convenience, we can assume this to be our authentication method. So, our `Routes.js` looks like:
+This seems so much nicer, right?
 
-~~~jsx
-import { useState } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
-import Profile from "./Profile";
-import ErrorPage from "./ErrorPage";
+### Protected Routes And Navigation
 
-const Router = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+Often, you will face a need to decide when a certain route is rendered or not. One use case is authentication, where you may want to render certain routes based on if the user is logged in or not. If they are logged in, you may want to show some information about the user like [here at the dashboard](https://www.theodinproject.com/dashboard). While there are many ways to do so, one of the easiest ways can be to conditionally creating a config for the router.
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: "profile/:name",
-      element: <Profile />,
-    },
-  ]);
+You will often come across the need to reroute the user to a different URL yourself. This is where the [`<Navigate />`](https://reactrouter.com/en/main/components/navigate) component gets used, as it reroutes the user to the desired URL when it is rendered. The component itself is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
-  return <RouterProvider router={router} />;
-};
-
-export default Router;
-~~~
-
-Let us create two buttons, to toggle this state in `App.js`, and change the `/profile` link to a `/protected` so that it can be used to indicate a protected route.
-
-~~~jsx
-import { Link } from "react-router-dom";
-
-const App = ({ isLoggedIn, setIsLoggedIn }) => {
-  function login() {
-    setIsLoggedIn(true);
-  }
-
-  function logout() {
-    setIsLoggedIn(false);
-  }
-
-  return (
-    <div>
-      <h1>Hello from the main page of the app!</h1>
-      <p>{isLoggedIn ? "You are logged in!" : "You are not logged in!"}</p>
-      <hr />
-      <button type="button" onClick={login}>
-        Login
-      </button> <button type="button" onClick={logout}>
-        Logout
-      </button>
-      <hr />
-      <p>Here are some examples of links to other pages</p>
-      <nav>
-        <ul>
-          <li>
-            <Link to="protected">Protected page</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
-};
-
-export default App;
-~~~
-
-Now, let us create a component that should only be allowed to be seen by logged-in users. Let us call it `Protected.js`
-
-~~~jsx
-import { Link } from "react-router-dom";
-
-const Protected = () => {
-  return (
-    <div>
-      <p>Hey! You should only see this if you are logged in!</p>
-      <p>
-        <Link to="/">Click here</Link> to go back to the home page
-      </p>
-    </div>
-  );
-};
-
-export default Protected;
-~~~
-
-Now, We can pass the routes conditionally to the `createBrowserRouter` methods based on if the user is logged in. Else, we can use another one of React Router's components, `<Navigate>` to redirect the user back to another page, in this instance, let it be Popeye's profile page.
-
-~~~jsx
-import { useState } from "react";
-import {
-  createBrowserRouter,
-  Navigate,
-  RouterProvider,
-} from "react-router-dom";
-import App from "./App";
-import Profile from "./Profile";
-import ErrorPage from "./ErrorPage";
-import Protected from "./Protected";
-
-const Router = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const routes = (condition) => [
-    {
-      path: "/",
-      element: <App isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: "profile/:name",
-      element: <Profile />,
-    },
-    {
-      path: "protected",
-      element: condition ? <Protected /> : <Navigate to="/profile/popeye" />,
-    },
-  ];
-
-  const router = createBrowserRouter(routes(isLoggedIn));
-
-  return <RouterProvider router={router} />;
-};
-
-export default Router;
-~~~
-
-Here, the routes is a function that accepts a condition to see if the user is logged in. It uses that to generate a configuration of routes which are then passed on to the `createBrowserRouter` method to finally make the router.
+You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [This article](https://bholmes.dev/blog/spas-clientside-routing/) by Ben Holmes goes through a lot of the routing concepts concisely.
+1.  [This article on SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
 2.  Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
-3.  The [React Router tutorial](https://reactrouter.com/en/6.7.0/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read into it, and ask about, if you don't understand something. You are not expected to understand most of it in your first read.
-4.  Browse through the [React Router documentation](https://reactrouter.com/en/6.7.0). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
+3.  The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
+4.  Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
 
 </div>
 
@@ -586,4 +462,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Among the many ways to make protected routes, a few ways are provided below:
+    - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
+    - [This demostration project](https://github.com/iammanishshrma/react-protected-routes/tree/master/src/components) creates a special Protected Route component that conditionally displays elements as necessary.
