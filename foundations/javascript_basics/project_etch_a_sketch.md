@@ -16,6 +16,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 2.  Create a webpage with a 16x16 grid of square divs.
     *   Create the divs using JavaScript. Don't try making them by hand with copy and pasting in your HTML file!
     *   It's best to put your grid squares inside another "container" div \(which can go directly in your HTML\).
+    *   The [following](https://cssgridgarden.com) site can help you understand the concept of grids better, you may check it out if you feel the need.
     *   There are several different ways to make the divs appear as a grid \(versus just one on each line\). Feel free to use any or play with each of them:
         *   float/clear
         *   inline-block
