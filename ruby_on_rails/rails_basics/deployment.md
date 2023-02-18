@@ -1,5 +1,5 @@
 ### Introduction
-Before continuing our web development journey, we must address one important task - showcasing our hard work to the world.
+Before continuing our web development journey, we must address one important task—showcasing our hard work to the world.
 
 Whether it's to share our creations with friends, create a portfolio for future employers, or launch an online business, we need to host our applications somewhere others can publicly access on the internet.
 
@@ -18,14 +18,14 @@ This section contains a general overview of topics that you will learn in this l
 ### What are Hosting Providers?
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
-You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
+You've already had some experience using a hosting provider when you deployed projects to Github Pages earlier in the curriculum. GitHub Pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
 
 #### Static vs Dynamic Sites
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. Twitter is a good example; every Twitter user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side language such as Ruby and a database.
 
-This additional tech prohibits us from using GitHub Pages for hosting our Ruby on Rails apps. GitHub pages cannot run Ruby code and doesn't have database services we can use.
+This additional tech prohibits us from using GitHub Pages for hosting our Ruby on Rails apps. GitHub Pages cannot run Ruby code and doesn't have database services we can use.
 
 Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/) and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
 
@@ -53,7 +53,7 @@ The second most important thing PaaS providers give you is databases. They make 
 
 Many providers even manage the database for you by setting up automatic backups, ensuring the database is constantly updated with the latest critical security patches and ongoing maintenance that keeps your databases up and running smoothly.
 
-The peace of mind this affords you can't be overstated. You never want to be in a position where you're waking at 4 am to multiple alerts. Your database is on the fritz because of some security patch you forgot to apply, and there are no backups to fall back on.
+The peace of mind this affords you can't be overstated. You never want to be in a position where you're waking at 4 a.m. to multiple alerts. Your database is on the fritz because of some security patch you forgot to apply, and there are no backups to fall back on.
 
 With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but still beat having to set up a database from scratch.
 
@@ -73,7 +73,7 @@ Choosing a PaaS provider was once a simple decision. Heroku had a free tier that
 
 Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
-You can host most of your projects for free using a combination of the different providers we recommend. But you'll have a bit more leg work to do. You'll have to create an account and get familiar with a few different providers.
+You can host most of your projects for free using a combination of the different providers we recommend. But you'll have a bit more legwork to do. You'll have to create an account and get familiar with a few different providers.
 
 If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all of your apps from one place.
 
@@ -104,7 +104,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - Railway has a simple deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
-- $20 a month should be enough to host four applications
+- $20 a month should be enough to host four applications.
 
 **Free plan**
 
@@ -143,9 +143,9 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - Heroku has a straightforward deployment process using a combination of a simple and well-documented CLI tool and Git.
 - Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
-- The $5 per month eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
-- Heroku's lowest-tier Postgresql databases cost $5 per month, effectively costing each application $5 to host.
-- $20 a month will be enough to host three applications. $5 eco plan for 1000 server hours + an additional $5 for each app.
+- The $5 per month Eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
+- Heroku's lowest-tier PostgreSQL databases cost $5 per month, effectively costing each application $5 to host.
+- $20 a month will be enough to host three applications. $5 Eco plan for 1000 server hours + an additional $5 for each app.
 
 **Free plan**
 
