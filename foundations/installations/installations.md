@@ -149,7 +149,7 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
 ~~~bash
-sudo apt install
+sudo apt update
 sudo apt upgrade
 ~~~
 
