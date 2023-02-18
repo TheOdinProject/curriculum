@@ -93,13 +93,13 @@ In our case, we'll do this by modifying `#as_json` in our model to return only t
   class User < ActiveRecord::Base
 
     # Option 1: Purely overriding the #as_json method
-    def as_json(options={})
+    def as_json(_options={})
       { :name => self.name }  # NOT including the email field
     end
 
     # Option 2: Working with the default #as_json method
     def as_json(options={})
-      super(:only => [:name])
+      super({ only: [:name] }.merge(options))
     end
     
   end
