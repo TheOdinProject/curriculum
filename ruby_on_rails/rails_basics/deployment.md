@@ -46,7 +46,7 @@ The first and most crucial thing PaaS providers give you are virtual "computers"
 
 The cool thing about Rails is that you can always fire up more instances of your application if you get too much traffic and users have to wait for their requests to be filled.
 
-For most of your apps, one instance is plenty enough. You can support a lot of traffic using just a single instance. Many of the PaaS providers we will recommend later in this lesson give you your first one for free.
+For most of your apps, one instance is plenty. You can support a lot of traffic using just a single instance. Many of the PaaS providers we will recommend later in this lesson give you your first one for free.
 
 #### Databases
 The second most important thing PaaS providers give you is databases. They make it easy to spin up a new database for each app by doing all the setup and configuration for you.
@@ -69,7 +69,7 @@ To find a new domain, try using [Domainr](https://domainr.com/).
 Once you have your domain, you need to point it to your project. The provider you are using will have exhaustive documentation on using custom domain names on their platform.
 
 ### Our Recommended PaaS Services
-Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted. But, they, unfortunately, discontinued their free tier in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small apps as you wanted. Unfortunately, they discontinued their free tier in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
