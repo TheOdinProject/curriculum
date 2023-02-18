@@ -32,7 +32,7 @@ Luckily, many hosting providers do offer everything we need. They range from the
 ### What is a PaaS?
 Platform as a Service is a specific kind of hosting provider. The most important thing to know about them is they are much easier to use and more approachable for beginners than other hosting providers. They manage many of the low-level nitty-gritty details with the underlying server infrastructure. Allowing us as developers to focus more of our time on building our applications instead of configuring and managing the servers they run on.
 
-Taking the landlord metaphor, we used earlier a little further. A PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. While you, the developer, focuses on furnishing, decorating and living in the space.
+Taking our landlord metaphor a little further, a PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. While you, the developer, focus on furnishing, decorating and living in the space.
 
 It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering Ruby on Rails without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
 
@@ -55,14 +55,14 @@ Many providers even manage the database for you by setting up automatic backups,
 
 The peace of mind this affords you can't be overstated. You never want to be in a position where you're waking at 4 am to multiple alerts. Your database is on the fritz because of some security patch you forgot to apply, and there are no backups to fall back on.
 
-With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but still beats having to set up a database from scratch.
+With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but still beat having to set up a database from scratch.
 
 #### Domain Names
 PaaS providers will give you a random domain name when you first deploy. In Heroku's case, something zen-like "afternoon-falls-4209". If you want to visit the app, you can go directly to `http://afternoon-falls-4209.herokuapp.com` to see your app live on the web in all its glory.
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
 
-In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name. You'll first need to purchase a domain from a registrar like [GoDaddy](https://www.godaddy.com/) or [IWantMyName](https://iwantmyname.com/).
+In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains your PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [GoDaddy](https://www.godaddy.com/) or [IWantMyName](https://iwantmyname.com/).
 
 To find a new domain, try using [Domainr](https://domainr.com/).
 
@@ -71,7 +71,7 @@ Once you have your domain, you need to point it to your project. The provider yo
 ### Our Recommended PaaS Services
 Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted. But, they, unfortunately, discontinued their free tier in 2022.
 
-Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible. We're going to recommend a range of options instead of just one.
+Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
 You can host most of your projects for free using a combination of the different providers we recommend. But you'll have a bit more leg work to do. You'll have to create an account and get familiar with a few different providers.
 
@@ -187,9 +187,9 @@ The application logs are the output of your application as it's running. It tell
 
 So if you're getting a 500 error, you can open up the logs and watch them closely as you refresh the page on your app in the browser to reproduce the error. This will either tell you exactly what the problem is or generate some leads you can use to dig further.
 
-If the logs tell you, the application crashes before it even boots and does not give you anything more to go on. The next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
+If the logs tell you the application crashes before it even boots and do not give you anything more to go on, the next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
 
-A common cause of 500 errors in Rails after deployment is forgetting you migrate the database. If you're getting a 500 error and have new database migrations in the latest changes. Run `rails db:migrate` on your production database to get it up and running again.
+A common cause of 500 errors in Rails after deployment is forgetting to migrate the database. If you're getting a 500 error and have new database migrations in the latest changes, run `rails db:migrate` on your production database to get it up and running again.
 
 #### Going Further with Troubleshooting Tools
 As your application grows, you'll want to get more sophisticated with your error-tracking tools. For example, you can use services like [Sentry](https://sentry.io/) to track and monitor errors using a slick, easy-to-use interface and get notified when they happen.
