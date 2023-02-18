@@ -197,7 +197,5 @@ This section contains questions for you to check your understanding of this less
 -   [How do you look at the history of your previous commits?](#git-log)
 
 ### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+Cheatsheet by Github got Git:
+https://education.github.com/git-cheat-sheet-education.pdf
