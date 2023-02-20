@@ -65,20 +65,6 @@ If React DOES find a match, it will update that item in the dom accordingly.
 
 As long as `keys` remain consistent and unique, React can handle the dom effectively and efficiently.
 
-### What are keys?
-
-`keys` are `strings`
-
-`keys` connect the DOM item with the item in data.
-
-`keys` help us keep track of our state (logic) and our dom.
-
-`keys` tell React when the dom should be rendered or re rendered.
-
-When list items are moved, added or deleted, React uses `keys` to see which items in the dom need to be moved, added, or deleted.
-
-Without `keys`, React would not be able to handle the dom as elegantly as it does.
-
 ### What to use as a key
 
 - Data from a database _most databases will generate a unique id on entry creation_
