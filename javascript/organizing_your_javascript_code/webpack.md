@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through [this tutorial](https://www.youtube.com/watch?v=5IG4UmULyoA). An excellent, concise tutorial that explains the most important things. Follow with an example in the video!
+1. Watch and follow along with [Fireship's Module Bundlers Explained video](https://www.youtube.com/watch?v=5IG4UmULyoA) to get a great overview and some hands on experience with webpack.
 2. Go through [this tutorial](https://webpack.js.org/guides/asset-management/) to see examples of using webpack to manage your website's assets.
 3. Read through [this tutorial](https://webpack.js.org/guides/output-management/) to learn how to let webpack automatically manage your index.html and insert your bundle into the page for you!
 4. Finally, the first part of [this tutorial](https://webpack.js.org/guides/development/) talks about source maps, a handy way to track down which source file (index.js, a.js, b.js) an error is coming from when you use webpack to bundle them together. This is essential to debugging bundled code in your browser's DevTools. If the error comes from b.js the error will reference that file instead of the bundle. It also walks through an example of the `--watch` feature you _definitely_ should have taken note of above.
