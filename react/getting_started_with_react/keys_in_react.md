@@ -65,13 +65,15 @@ If React DOES find a match, it will update that item in the dom accordingly.
 
 As long as `keys` remain consistent and unique, React can handle the dom effectively and efficiently.
 
-### What to use as a key
+### Using keys
+
+What should you use as a key?:
 
 - Data from a database _most databases will generate a unique id on entry creation_
 
 - Generated IDs on item creation. This could be an incrementing counter, or a package like `uuid`.
 
-### Rules for using keys
+Rules for using keys:
 
 - Each item in a list should have a unique key
 
@@ -79,7 +81,7 @@ As long as `keys` remain consistent and unique, React can handle the dom effecti
 
 - Keys should be added when and where the `.map()` method is used.
 
-### When is it ok to use index as a key?
+When can you use index as a key?:
 
 - List is static
 
@@ -89,7 +91,7 @@ As long as `keys` remain consistent and unique, React can handle the dom effecti
 
 - List is never filtered
 
-### What to avoid or watch out for when using keys
+What to avoid when deciding what to use as a key:
 
 - Using index as a key should be a last resort
 
@@ -97,7 +99,7 @@ As long as `keys` remain consistent and unique, React can handle the dom effecti
 
 `key={Math.random()}` or `key={uuid()}` will force a re render of the entire list every time any item in the list is changed. This is extremely slow, and inefficient and should be considered an `anti-pattern` in React.
 
-### Examples
+Now let's dive into some examples of using keys.
 
 Ideal situation.
 
@@ -193,6 +195,7 @@ This next example should be avoided and can be considered an anti-pattern in Rea
 generating keys in this way will cause the `keys` to never match up between renders, leading to all your components and DOM being recreated every time. Not only is this slow, but it will also lose any user input inside the list items. Instead, use a stable ID based on the data.
 
 DO NOT DO:
+<br>
 
 ```jsx
 const todos = ["odin", "lunch", "more odin", "laundry"];
@@ -212,6 +215,7 @@ const RenderList = () => {
 ```
 
 DO:
+<br>
 
 ```jsx
 const newTodo = ({task, priority}) => {
