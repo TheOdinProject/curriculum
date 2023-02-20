@@ -101,11 +101,9 @@ What to avoid when deciding what to use as a key:
 
 Now let's dive into some examples of using keys.
 
-Ideal situation.
+This is an ideal situation, iterating over a list of objects that have a unique identifier.
 
-Iterating over a list of objects that have a unique identifier.
-
-Best practice would be to add a unique ID when the item is created.
+Best practice would be to add a unique ID when that item is created.
 
 ```jsx
 // In this example lets say when someone creates a new todo, the todo constructor adds `id: uuid()`
@@ -139,9 +137,10 @@ function TodoList() {
 }
 ```
 
-Using index correctly
+Correctly using index as a key:
 
 If a list will never be modified **or** stictly manipulated by `push()` + `pop()` we can use index.
+<br>
 
 ```jsx
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -157,9 +156,10 @@ function MonthList(){
 const
 ```
 
-bad
+Incorrectly using index as a key:
 
 this approach will cause a complete re work of every list item any time one changes.
+<br>
 
 ```jsx
 // !! this will cause the entire list to be destroyed and be re-created every render! !!
@@ -176,10 +176,11 @@ function TodoList() {
 }
 ```
 
-Also bad
+Incorrectly using index as a key:
 
 This will cause unintended behavior when modifying, or filtering array element positions.
 Considering that todos would likely be updated, changed, filtered or etc, we would NOT want to use index as our key.
+<br>
 
 ```jsx
 const todos = ["mow the yard", "Work on Odin Projects", "feed the cat"];
@@ -190,6 +191,8 @@ function TodoList() {
   return <div>{iterateTodos}</div>;
 }
 ```
+
+Incorrectly using keys:
 
 This next example should be avoided and can be considered an anti-pattern in React.
 generating keys in this way will cause the `keys` to never match up between renders, leading to all your components and DOM being recreated every time. Not only is this slow, but it will also lose any user input inside the list items. Instead, use a stable ID based on the data.
@@ -213,6 +216,8 @@ const RenderList = () => {
   );
 };
 ```
+
+Correctly using keys:
 
 DO:
 <br>
