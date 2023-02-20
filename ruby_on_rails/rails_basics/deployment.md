@@ -187,7 +187,7 @@ The application logs are the output of your application as it's running. It tell
 
 So if you're getting a 500 error, you can open up the logs and watch them closely as you refresh the page on your app in the browser to reproduce the error. This will either tell you exactly what the problem is or generate some leads you can use to dig further.
 
-If the logs tell you the application crashes before it even boots and do not give you anything more to go on, the next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
+If the logs tell you the application crashes before it even boots and gives you nothing else to go on, the next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
 
 A common cause of 500 errors in Rails after deployment is forgetting to migrate the database. If you're getting a 500 error and have new database migrations in the latest changes, run `rails db:migrate` on your production database to get it up and running again.
 
