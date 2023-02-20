@@ -123,7 +123,7 @@ function TodoList() {
 
 Better than plain `index`.
 
-When working with an array of primitive values, we wont have a unique id property to pass to key. One idea that would work better than just using `index` as the `key` would be to concatenate `array[index] + index` as this is more likely to be a unique value.
+When working with an array of primitive values, we won't have a unique id property to pass to key. One idea that would work better than just using `index` as the `key` would be to concatenate `array[index] + index` as this is more likely to be a unique value.
 
 ```jsx
 const todos = ["mow the yard", "Work on Odin Projects", "feed the cat"];
