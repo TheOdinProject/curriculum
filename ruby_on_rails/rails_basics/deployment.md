@@ -1,5 +1,5 @@
 ### Introduction
-Before continuing our web development journey, we must address one important task—showcasing our hard work to the world.
+Before continuing our web development journey, we must address one important task: showcasing our hard work to the world.
 
 Whether it's to share our creations with friends, create a portfolio for future employers, or launch an online business, we need to host our applications somewhere others can publicly access on the internet.
 
@@ -55,7 +55,7 @@ Many providers even manage the database for you by setting up automatic backups,
 
 The peace of mind this affords you can't be overstated. You never want to be in a position where you're waking at 4 a.m. to multiple alerts. Your database is on the fritz because of some security patch you forgot to apply, and there are no backups to fall back on.
 
-With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but still beat having to set up a database from scratch.
+With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but it still beats having to set up a database from scratch.
 
 #### Domain Names
 PaaS providers will give you a random domain name when you first deploy. In Heroku's case, something zen-like "afternoon-falls-4209". If you want to visit the app, you can go directly to `http://afternoon-falls-4209.herokuapp.com` to see your app live on the web in all its glory.
@@ -187,7 +187,7 @@ The application logs are the output of your application as it's running. It tell
 
 So if you're getting a 500 error, you can open up the logs and watch them closely as you refresh the page on your app in the browser to reproduce the error. This will either tell you exactly what the problem is or generate some leads you can use to dig further.
 
-If the logs tell you the application crashes before it even boots and gives you nothing else to go on, the next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
+If the logs tell you the application crashes before it even boots and give you nothing else to go on, the next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
 
 A common cause of 500 errors in Rails after deployment is forgetting to migrate the database. If you're getting a 500 error and have new database migrations in the latest changes, run `rails db:migrate` on your production database to get it up and running again.
 
