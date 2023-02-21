@@ -1,5 +1,5 @@
 ### Introduction
-Before continuing our web development journey, we must address one important task - showcasing our hard work to the world.
+Before continuing our web development journey, we must address one important task: showcasing our hard work to the world.
 
 Whether it's to share our creations with friends, create a portfolio for future employers, or launch an online business, we need to host our applications somewhere others can publicly access on the internet.
 
@@ -18,21 +18,21 @@ This section contains a general overview of topics that you will learn in this l
 ### What are Hosting Providers?
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
-You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
+You've already had some experience using a hosting provider when you deployed projects to Github Pages earlier in the curriculum. GitHub Pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
 
 #### Static vs Dynamic Sites
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. Twitter is a good example; every Twitter user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side language such as Ruby and a database.
 
-This additional tech prohibits us from using GitHub Pages for hosting our Ruby on Rails apps. GitHub pages cannot run Ruby code and doesn't have database services we can use.
+This additional tech prohibits us from using GitHub Pages for hosting our Ruby on Rails apps. GitHub Pages cannot run Ruby code and doesn't have database services we can use.
 
 Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/) and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
 Platform as a Service is a specific kind of hosting provider. The most important thing to know about them is they are much easier to use and more approachable for beginners than other hosting providers. They manage many of the low-level nitty-gritty details with the underlying server infrastructure. Allowing us as developers to focus more of our time on building our applications instead of configuring and managing the servers they run on.
 
-Taking the landlord metaphor, we used earlier a little further. A PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. While you, the developer, focuses on furnishing, decorating and living in the space.
+Taking our landlord metaphor a little further, a PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. While you, the developer, focus on furnishing, decorating and living in the space.
 
 It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering Ruby on Rails without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
 
@@ -46,34 +46,34 @@ The first and most crucial thing PaaS providers give you are virtual "computers"
 
 The cool thing about Rails is that you can always fire up more instances of your application if you get too much traffic and users have to wait for their requests to be filled.
 
-For most of your apps, one instance is plenty enough. You can support a lot of traffic using just a single instance. Many of the PaaS providers we will recommend later in this lesson give you your first one for free.
+For most of your apps, one instance is plenty. You can support a lot of traffic using just a single instance. Many of the PaaS providers we will recommend later in this lesson give you your first one for free.
 
 #### Databases
 The second most important thing PaaS providers give you is databases. They make it easy to spin up a new database for each app by doing all the setup and configuration for you.
 
 Many providers even manage the database for you by setting up automatic backups, ensuring the database is constantly updated with the latest critical security patches and ongoing maintenance that keeps your databases up and running smoothly.
 
-The peace of mind this affords you can't be overstated. You never want to be in a position where you're waking at 4 am to multiple alerts. Your database is on the fritz because of some security patch you forgot to apply, and there are no backups to fall back on.
+The peace of mind this affords you can't be overstated. You never want to be in a position where you're waking at 4 a.m. to multiple alerts. Your database is on the fritz because of some security patch you forgot to apply, and there are no backups to fall back on.
 
-With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but still beats having to set up a database from scratch.
+With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but it still beats having to set up a database from scratch.
 
 #### Domain Names
 PaaS providers will give you a random domain name when you first deploy. In Heroku's case, something zen-like "afternoon-falls-4209". If you want to visit the app, you can go directly to `http://afternoon-falls-4209.herokuapp.com` to see your app live on the web in all its glory.
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
 
-In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name. You'll first need to purchase a domain from a registrar like [GoDaddy](https://www.godaddy.com/) or [IWantMyName](https://iwantmyname.com/).
+In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains your PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [GoDaddy](https://www.godaddy.com/) or [IWantMyName](https://iwantmyname.com/).
 
 To find a new domain, try using [Domainr](https://domainr.com/).
 
 Once you have your domain, you need to point it to your project. The provider you are using will have exhaustive documentation on using custom domain names on their platform.
 
 ### Our Recommended PaaS Services
-Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted. But, they, unfortunately, discontinued their free tier in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small apps as you wanted. Unfortunately, they discontinued their free tier in 2022.
 
-Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible. We're going to recommend a range of options instead of just one.
+Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
-You can host most of your projects for free using a combination of the different providers we recommend. But you'll have a bit more leg work to do. You'll have to create an account and get familiar with a few different providers.
+You can host most of your projects for free using a combination of the different providers we recommend. But you'll have a bit more legwork to do. You'll have to create an account and get familiar with a few different providers.
 
 If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all of your apps from one place.
 
@@ -104,7 +104,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - Railway has a simple deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
-- $20 a month should be enough to host four applications
+- $20 a month should be enough to host four applications.
 
 **Free plan**
 
@@ -143,9 +143,9 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - Heroku has a straightforward deployment process using a combination of a simple and well-documented CLI tool and Git.
 - Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
-- The $5 per month eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
-- Heroku's lowest-tier Postgresql databases cost $5 per month, effectively costing each application $5 to host.
-- $20 a month will be enough to host three applications. $5 eco plan for 1000 server hours + an additional $5 for each app.
+- The $5 per month Eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
+- Heroku's lowest-tier PostgreSQL databases cost $5 per month, effectively costing each application $5 to host.
+- $20 a month will be enough to host three applications. $5 Eco plan for 1000 server hours + an additional $5 for each app.
 
 **Free plan**
 
@@ -187,9 +187,9 @@ The application logs are the output of your application as it's running. It tell
 
 So if you're getting a 500 error, you can open up the logs and watch them closely as you refresh the page on your app in the browser to reproduce the error. This will either tell you exactly what the problem is or generate some leads you can use to dig further.
 
-If the logs tell you, the application crashes before it even boots and does not give you anything more to go on. The next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
+If the logs tell you the application crashes before it even boots and give you nothing else to go on, the next tool to reach for is the Rails console. The Rails console boots your app, so just opening it in production can produce a better error message that will tell you exactly why the app is crashing and what part of the app is causing it.
 
-A common cause of 500 errors in Rails after deployment is forgetting you migrate the database. If you're getting a 500 error and have new database migrations in the latest changes. Run `rails db:migrate` on your production database to get it up and running again.
+A common cause of 500 errors in Rails after deployment is forgetting to migrate the database. If you're getting a 500 error and have new database migrations in the latest changes, run `rails db:migrate` on your production database to get it up and running again.
 
 #### Going Further with Troubleshooting Tools
 As your application grows, you'll want to get more sophisticated with your error-tracking tools. For example, you can use services like [Sentry](https://sentry.io/) to track and monitor errors using a slick, easy-to-use interface and get notified when they happen.
