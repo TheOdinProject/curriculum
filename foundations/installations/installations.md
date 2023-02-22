@@ -130,7 +130,7 @@ In the window that just came up you want to click on **Manage Groups**, click so
 
 #### Step 3.2: Add Yourself to sudo
 
-With `sudo` selected, click **Preferences** and in the window that shows up tick your user's name like this:
+With `sudo` selected, click **Properties** and in the window that shows up tick your user's name like this:
 
    ![No need to touch anything else.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/13_sudo_properties.png)
 
