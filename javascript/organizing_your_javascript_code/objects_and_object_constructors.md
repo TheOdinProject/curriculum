@@ -47,6 +47,10 @@ This section contains a general overview of topics that you will learn in this l
 - Explain what `Object.create` does.
 - Explain what the `this` keyword is.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/co2624f87981575448091d5a2?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
 ### Objects as a Design Pattern
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:
