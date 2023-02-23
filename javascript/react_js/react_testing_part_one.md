@@ -129,6 +129,19 @@ The tests speak for themselves. In the first test, we utilize snapshots to check
 
 It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` jest function could prove handy.
 
+On the second test, we see that `userEvent.click()` is directly invoked from the `userEvent` import. The [recommended approach](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent) for newer versions of the `userEvent` library is to use `userEvent.setup()`. We could rewrite the test as follows:
+
+
+  ~~~javascript
+  it("renders radical rhinos after button click", async () => {
+    render(<App />);
+    const button = screen.getByRole("button", { name: "Click Me" });
+    const user = userEvent.setup();
+    await user.click(button);
+    expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
+  });
+  ~~~
+
 ### What are Snapshots?
 
 Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the _"magnificent monkeys renders"_ test was:
