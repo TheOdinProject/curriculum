@@ -67,6 +67,20 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 *   Take a break: Allow your diffuse learning state to work on the problem.
 *   Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
+### A Note on AI Code Generation
+
+As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMS) and generative AIs for code completion (like GitHub Co-Pilot) and code generation (like ChatGPT).
+
+While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, writes about [ChatGPT](https://blog.humphd.org/cheatgpt/) and its potentially negative impacts on core learning. It is a good read about the pitfalls of using generative AI in an educational context.
+
+For learners that are new to programming, tools like ChatGPT or Github Co-pilot can result in some blindspots and gaps in your knowledge.
+1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
+1. Asking good questions is a skill in and of itself, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
+1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good over all understanding to be able to determine if the output is good or bad.
+1. Learning how to provide good prompts to an AI tool is a skill in and of itself, but it is a skill that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
+
+Ultimately, the choice to use an AI tool is down to your particular circumstances, but learners should be aware that these tools are not generally recommended while learning.
+
 ### Managing Your Study Time
 
 You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
