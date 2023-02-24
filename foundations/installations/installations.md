@@ -86,7 +86,7 @@ For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate 
 
 _(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
 
-As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is and click **Next** to continue.
+As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is - that is **unchecked** - and click **Next** to continue.
 
 #### Step 2.2.3: Virtual Hard Disk
 
