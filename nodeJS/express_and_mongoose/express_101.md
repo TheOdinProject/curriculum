@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:
 
 A templating engine is a tool that allows you to insert variables and simple logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses [Pug (formerly known as Jade)](https://pugjs.org) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
 
-It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs to Pug simply because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
+It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs over Pug simply because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
 
 ### Middleware
 
@@ -79,11 +79,17 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
 </div>
 
-### Knowledge Checks 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+### Knowledge Check 
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#middleware'>What is middleware?</a>
 - <a class='knowledge-check-link' href='#req'>What is the `req` object?</a>
 - <a class='knowledge-check-link' href='#res'>What is the `res` object?</a>
 - <a class='knowledge-check-link' href='#next'>Why is `next` important?</a>
 - <a class='knowledge-check-link' href='#app-use'>What does `app.use` do?</a>
+
+### Additional Resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

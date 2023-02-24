@@ -3,6 +3,13 @@ Like we learned in the introduction lesson, Node.js is really just JavaScript. S
 
 This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes at the end of this section will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
 
+<div class="lesson-note" markdown="1">
+
+### Important Notice
+Recently the NodeJS.dev team removed a large amount of content from their website. Several of those removed pages were linked to in this lesson. Until we find a replacement for that content we will be linking directly to the markdown files on their GitHub repository. The formatting may look a bit odd, but the content should still be just as good.
+
+</div>
+
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
@@ -18,25 +25,25 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/learn) docs which you should follow along.
+- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/en/learn) docs which you should follow along.
   - Get Started
-    - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/learn/run-nodejs-scripts-from-the-command-line) lesson.
-    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
+    - Learn how to run Node.js scripts from the terminal in [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md) lesson.
+    - Learn quickly about .env files and how we use them [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-environment-variables.en.md)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
-    - Learn how to [Build an HTTP server](https://nodejs.dev/learn/build-an-http-server), and then [how to make HTTP requests with Node](https://nodejs.dev/learn/making-http-requests-with-nodejs).
+    - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
   - File System
-    - First, take a look at the [fs module](https://nodejs.dev/learn/the-nodejs-fs-module) that we use heavily for working with files in Node.
-    - Then, let's start [writing files](https://nodejs.dev/learn/writing-files-with-nodejs) in Node.
-    - Finally, we'll learn how to [read files](https://nodejs.dev/learn/reading-files-with-nodejs).
+    - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
+    - Then, let's start [writing files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-writing-files.en.md) in Node.
+    - Finally, we'll learn how to [read files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-reading-files.en.md).
   - The URL Class
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
-    - Let's get an [introduction](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager) to NPM.
-    - After that, it's time to quickly get introduced to the [package.json file](https://nodejs.dev/learn/the-package-json-guide).
-    - And the differences between [NPM global and local packages](https://nodejs.dev/learn/npm-global-or-local-packages).
+    - Let's get an [introduction](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm.en.md) to NPM.
+    - After that, it's time to quickly get introduced to the [package.json file](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/package-json.en.md).
+    - And the differences between [NPM global and local packages](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md).
   - Events
-    - Follow along the [Event Emitter](https://nodejs.dev/learn/the-nodejs-event-emitter) section.
-    - Look into [this](https://nodejs.dev/learn/the-nodejs-events-module) section to see the `events` module.
+    - Follow along the [Event Emitter](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/asynchronous-work/node-event-emitter.en.md) section.
+    - Look into [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
     
 - Optional Extra Credit!
   - Although a bit outdated, the W3 Schools introduction to Node.js is super useful!  Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
@@ -48,10 +55,10 @@ By the end of this lesson, you should be able to do the following:
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/the-nodejs-fs-module">What is a File System Module? How and why would you use it?</a>
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package locally in with npm?</a>
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the command for installing a package globally in with npm?</a>
-- <a class="knowledge-check-link" href="https://nodejs.dev/learn/npm-global-or-local-packages">What is the difference between a global and local package install with npm?</a>
+- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md">What is a File System Module? How and why would you use it?</a>
+- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the command for installing a package locally in with npm?</a>
+- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the command for installing a package globally in with npm?</a>
+- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the difference between a global and local package install with npm?</a>
 
 
 ### Additional Resources

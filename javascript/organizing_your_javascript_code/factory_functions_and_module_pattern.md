@@ -4,17 +4,18 @@ Object constructors are one of about a million ways to start organizing your cod
 
 _However..._
 
-There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
+There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [Constructors are bad for JavaScript](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
 
 One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all. If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
 The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way, and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe common bugs you might run into using constructors.
-- Write a factory method that returns an object.
+- How to write a factory method that returns an object.
 - Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).
 - Explain what Closure is and how it impacts private functions & variables.
 - Describe how private functions & variables are useful.
@@ -23,7 +24,11 @@ By the end of this lesson, you should be able to do the following:
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
-### Factory function introduction
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/c2aaKzcV?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
+### Factory Function Introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
@@ -110,9 +115,9 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
 1. [This video](https://www.youtube.com/watch?v=SBwoFkRjZvE) is simple and clear! Start here.
 
-2. [This article](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
+2. [This article](https://ultimatecourses.com/blog/everything-you-wanted-to-know-about-javascript-scope) starts simple and reiterates what the video covered, but goes deeper and is more specific about the appropriate terminology. At the end, he defines __closure__ _and_ describes the __module__ pattern, both of which we'll talk about more soon.
 
-  * The previous article is great, but there is one inaccurate statement:
+  - The previous article is great, but there is one inaccurate statement:
 
     > All scopes in JavaScript are created with `Function Scope` *only*, they aren’t created by `for` or `while` loops or expression statements like `if` or `switch`. New functions = new scope - that’s the rule
 
@@ -279,12 +284,8 @@ In our calculator example above, the function inside the IIFE is a simple factor
 
 <span id='name-spacing'></span>A useful side-effect of encapsulating the inner workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, and a function that added numbers and operators to our stack as the users input them? It is conceivable that we would want to call all three of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object, then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/'> Describe common bugs you might run into using constructors.</a>
@@ -296,3 +297,9 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='#the-module-pattern'> Explain the module pattern.</a>
 - <a class="knowledge-check-link" href='http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html'> Describe IIFE. What does it stand for?</a>
 - <a class="knowledge-check-link" href='#name-spacing'> Briefly explain namespacing and how it's useful.</a>
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)

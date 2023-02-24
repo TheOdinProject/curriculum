@@ -23,3 +23,4 @@ This section contains helpful links to other content. It isn't required, so cons
 - [A Rock Solid, Modern Web Stack—Rails 5 API + ActiveAdmin + Create React App on Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack)
 - [How to Build a React App that Works with a Rails 5.1 API](https://www.sitepoint.com/react-rails-5-1/)
 - [Firebase Documentation](https://firebase.google.com/)
+- [Introduction to using React with Typescript](https://profy.dev/article/react-typescript)

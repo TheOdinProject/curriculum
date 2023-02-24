@@ -128,7 +128,7 @@ end
 def transaction_statement
   formatted_transactions = []
   @transactions.each do |transaction|
-    formatted_transactions << yield(transaction) # We've put () around transaction just for clarity here but they aren't required.
+    formatted_transactions << yield(transaction)
   end
 
   p formatted_transactions
@@ -336,12 +336,12 @@ You can read more about this here: [documentation](https://ruby-doc.org/core-3.1
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
 ~~~ruby
-a_proc = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
+a_lambda = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
 
-a_proc.call("apple")
+a_lambda.call("apple")
 # => wrong number of Arguments (given 1, expected 2) (ArgumentError)
 
-a_proc.call("apple", "banana", "cake")
+a_lambda.call("apple", "banana", "cake")
 # => wrong number of Arguments (given 3, expected 2) (ArgumentError)
 ~~~
 
@@ -455,7 +455,7 @@ What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. 
 
 (Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.1.2/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
 
-<span id="proc-to-block">The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
+<span id="proc-to-block">The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
 ~~~ruby
 def cool_method
@@ -494,7 +494,7 @@ After coming to grips with the information in this lesson you'll be a block, pro
 <div class="lesson-content__panel" markdown="1">
 
 1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
-2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. I really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 </div>
 
 ### Knowledge Check

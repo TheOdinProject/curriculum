@@ -44,7 +44,7 @@ In the end, it doesn't matter which path you take. It's only important that you 
 
 ### Still Can’t Decide, Let the Spinner Settle Your Fate
 
-<iframe src="https://wheeldecide.com/e.php?c1=Ruby+on+Rails&c2=Node&col=rgy&t=The+Odin+Project+Path+Wheel&time=7" width="250" height="250" scrolling="no" frameborder="0"></iframe>
+<iframe src="https://wheeldecide.com/e.php?c1=Ruby+on+Rails&c2=Node&col=rgy&t=The+Odin+Project+Path+Wheel&time=7" sandbox="allow-scripts allow-same-origin" width="250" height="250" scrolling="no" frameborder="0"></iframe>
 
 Feel free to share the results in chat!
 
