@@ -168,6 +168,9 @@ First, we need to see if you have an Ed25519 algorithm SSH key already installed
 ls ~/.ssh/id_ed25519.pub
 ~~~
 
+Windows Users: If you are getting "'ls' is not recognized as an internal or external command,
+operable program or batch file." Use PowerShell instead of the CMD, you can continue from this step forward. 
+
 If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
 To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are.
@@ -194,6 +197,8 @@ Now you need to copy your public SSH key. To do this, we're going to use a comma
 ~~~bash
 cat ~/.ssh/id_ed25519.pub
 ~~~
+Windows Users: If you are getting "'cat' is not recognized as an internal or external command,
+operable program or batch file." Use PowerShell instead of the CMD, you can continue from this step forward.
 
 Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address.
 
