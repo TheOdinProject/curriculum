@@ -69,18 +69,18 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 
 ### A Note on AI Code Generation
 
-As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMS) and generative AIs for code completion (like GitHub Co-Pilot) and code generation (like ChatGPT).
 As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
 
 While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, writes about [ChatGPT](https://blog.humphd.org/cheatgpt/) and its potentially negative impacts on core learning. It is a good read about the pitfalls of using generative AI in an educational context.
 
 For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
 1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
-1. Asking good questions is a skill in and of itself, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
-1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good over all understanding to be able to determine if the output is good or bad.
-1. Learning how to provide good prompts to an AI tool is a skill in and of itself, but it is a skill that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
 1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
+1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good overall understanding to be able to determine if the output is good or bad.
 1. While learning how to provide good prompts to an AI tool is a skill, it is one that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
+1. Large Language Models are designed to produce a "reasonable continuation" and learners should understand at least at a superficial level what these models are doing. Stephen Wolfram has [an excellent article](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) exploring this topic. It's a long read, but well worth it.
+1. AI tools are designed to answer questions and are not designed to help learners develop research and problem solving skills. If you ask an AI for information, it will provide information to you. If you ask a human, they may invite you to share your understanding of the problem and offer some guidance on how to discover a solution.
+1. Without practice in research, problem solving and critical thinking, interviews could be a struggle since it is very likely that applicants would not be allowed to use AI tools.
 
 Ultimately, the choice to use an AI tool is down to your particular circumstances, but learners should be aware that these tools are not generally recommended while learning.
 
