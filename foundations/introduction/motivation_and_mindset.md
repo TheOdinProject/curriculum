@@ -79,6 +79,8 @@ For learners that are new to programming, tools like ChatGPT or Github Copilot c
 1. Asking good questions is a skill in and of itself, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
 1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good over all understanding to be able to determine if the output is good or bad.
 1. Learning how to provide good prompts to an AI tool is a skill in and of itself, but it is a skill that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
+1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
+1. While learning how to provide good prompts to an AI tool is a skill, it is one that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
 
 Ultimately, the choice to use an AI tool is down to your particular circumstances, but learners should be aware that these tools are not generally recommended while learning.
 
