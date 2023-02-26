@@ -19,7 +19,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 1.  Create a new directory named `odin-links-and-images`.
 2.  Within that directory, create a new file named `index.html`.
-3.  Fill in the usual HTML boilerplate.
+3.  Open the file in VS Code and fill in the usual HTML boilerplate.
 4.  Finally, add the following h1 to the body:
 
 ~~~html
