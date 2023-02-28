@@ -42,4 +42,5 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
     1. Recall that the __source branch__ for GitHub Pages is set in your repository's settings.
+    2. DISCLAIMER: your /images and style.css and main.js and index.html ALL NEED to be in the same folder!
 </div>
