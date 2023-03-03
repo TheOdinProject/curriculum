@@ -104,7 +104,7 @@ Now it's time to make the Kittens resource available via API.
 
     ~~~irb
     json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
-    puts json_respone.body
+    puts json_response.body
     ~~~
 
 1.  Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
