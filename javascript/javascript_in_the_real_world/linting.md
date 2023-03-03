@@ -52,6 +52,6 @@ Another way to address the conflict is to use `eslint-plugin-prettier`. It lets 
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- [What is linting](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
+- [What is linting?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
 - [Which problems can linting prevent?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
 - [Why should you use Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
