@@ -112,6 +112,8 @@ You can try to run `psql` now, but you will get an error that the database does 
 sudo -i -u postgres createdb <linux_username>
 ~~~
 
+*note: If your username has any capital letters, you must surround it in quotes when running the above command*
+
 Now our role is fully set up: we've got `<role_name>` and that role has a database.
 
 #### 3.4 Securing Our New Role
@@ -222,6 +224,8 @@ One other important step in setting up PostgreSQL is that each role must have it
 ~~~
 CREATE DATABASE <username>;
 ~~~
+
+*note: If your username has any capital letters, you must surround it in quotes when running the above command*
 
 Now our role is fully set up: we've got `<role_name>` and that role has a database. Enter the command `\q` to exit the interactive terminal for `postgres`.
 
