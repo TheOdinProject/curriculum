@@ -108,11 +108,13 @@ One other important step in setting up PostgreSQL is that each role must have it
 
 You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
 
+<div class="lesson-note" markdown="1">
+  If your username has any capital letters, you must surround it in quotes when running the below command.
+</div>
+
 ~~~bash
 sudo -i -u postgres createdb <linux_username>
 ~~~
-
-*note: If your username has any capital letters, you must surround it in quotes when running the above command*
 
 Now our role is fully set up: we've got `<role_name>` and that role has a database.
 
@@ -221,11 +223,13 @@ Input `\du`, hit Return, and check that your MacOS username is the listed role n
 #### 3.2 Creating the Role Database
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. We need this to login as the role matching our username. While still in the PostgreSQL session prompt, type the following command to create the new database. Make sure you include the semicolon.
 
+<div class="lesson-note" markdown="1">
+  If your username has any capital letters, you must surround it in quotes when running the below command.
+</div>
+
 ~~~
 CREATE DATABASE <username>;
 ~~~
-
-*note: If your username has any capital letters, you must surround it in quotes when running the above command*
 
 Now our role is fully set up: we've got `<role_name>` and that role has a database. Enter the command `\q` to exit the interactive terminal for `postgres`.
 
