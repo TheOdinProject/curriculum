@@ -262,6 +262,8 @@ Short video demonstrating <a href="https://youtu.be/xlPxnc5uUPQ">Index as Key be
 
 ### Knowledge Check
 
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
 - [What are keys](#what-are-keys)
 - [What are the rules for using keys?](#rules-for-using-keys)
 - [When can we use index as a key?](#when-is-it-ok-to-use-index-as-a-key)
@@ -273,5 +275,6 @@ Short video demonstrating <a href="https://youtu.be/xlPxnc5uUPQ">Index as Key be
 
 ### Additional Resources
 
-<a href="https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key
-">React Beta Docs</a>
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [React Beta Docs](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key)
