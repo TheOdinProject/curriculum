@@ -140,5 +140,8 @@ To run the Node console, open up your terminal and type `node`. Type `.exit` to 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+- [Installing Nodejs](https://nodejs.dev/en/learn/how-to-install-nodejs/)
+- [Node According to Microsoft](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
+- [Node tuts](http://nodetuts.com/)
 
 *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
