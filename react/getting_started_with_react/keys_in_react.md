@@ -20,27 +20,25 @@ By the end of the lesson you should be able to answer the following:
 
 ### Why does React need keys?
 
-Lets imagine you take notes while working through The Odin Project.
+Using an example, let's talk about taking notes for school or work.
 
-Maybe you use index cards, or lined paper.
+Maybe you sort notes by date, subject, or topic order.
 
-Now if these notes are in a pile, we can think of them as an `array` and each one having a particular `index` in the list.
+If a note is out of place, you can tell quickly by the way you have ordered them.
 
-The paper at the bottom of the pile is the first note you made or `note[0]`, the one directly on top of it being the second note or `note[1]`.
+This is the same way react handles _keys_ and knowing when to RE-ORDER _(re-render)_ the _notes_
 
-What happens if we want to reorder the list, or remove a note from the list. Maybe we need to find an old note in the middle of the pile.
+If notes taken on the 16th and 27th of the same month get swapped, you know very clearly which two notes are _out of place_
 
-If `note[4]` was removed, does that mean `note[5]` just became `note[4]`? does every note after `note[5]` have to be re indexed?
+The same way react can tell if two elements move places, it uses _key_ as our _date_ to tell what has moved
 
-If we reorder or _sort_ the notes, we might end up in a situation where our previous `note[14]` might become our new `note[3]`.
+If the _note_ taken on the 16th were to move, we will always know it has moved, and can deal with it appropriately.
 
-It gets a bit confusing to manage and keep track of which papers are still in order.
+So, how does this work in react?
 
-One solution might be to add a unique summary or `key` of some kind to each page.
+React can see the _keys_ both before and after keys have changed.
 
-This way no matter where that specific `note` moves to in the pile, we know which note it is.
-
-Similarly `keys` help React to keep track of the items in a list. `keys` allow React to know when to render, what to render, when to re render, and when not to re render.
+If _key_ [0] were to move from the front of the list, to the middle of the list, react knows the _keys_ have changed, and to trigger a re-render. Very similar to how we know if a note has moved and to trigger us to take action (re-ordering).
 
 ### What does it matter if the keys match or do not match?
 
