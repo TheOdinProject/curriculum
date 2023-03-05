@@ -187,4 +187,4 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
  
-*   For more information on formatting, check out [Disord Markdown 101](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-).
+*   For more information on formatting, check out [Discord Markdown 101](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-).
