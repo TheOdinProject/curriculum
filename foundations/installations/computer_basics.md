@@ -41,4 +41,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 * Checkout [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
 
-* Watch [Computer Basics](https://youtu.be/y2kg3MOk1sY).
+* If you feel like spending more time learning on this topic, checkout [FreeCodeCamp's excellent course on Computer basics](https://youtu.be/y2kg3MOk1sY)
