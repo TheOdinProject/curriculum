@@ -39,6 +39,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* Checkout [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
+- Checkout [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
 
 * If you feel like spending more time learning about this topic, check out [FreeCodeCamp's excellent course on computer basics](https://youtu.be/y2kg3MOk1sY)
