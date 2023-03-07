@@ -263,7 +263,7 @@ This section contains questions for you to check your understanding of this less
 - [Describe what a prototype is and how it can be used.](#the-prototype)
 - [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
 - [Understand the basic do's and don't's of prototypical inheritance.](#recommended-method-for-prototypal-inheritance)
-- [Explain what `Object.create` does](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+- [Explain what `Object.create` does.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 - [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
 ### Additional Resources
