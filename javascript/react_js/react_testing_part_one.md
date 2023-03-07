@@ -99,12 +99,26 @@ export default App;
 
 Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
+When testing React components, it's important to ensure that all state updates and DOM changes are fully processed before making any assertions about them. The act() function is used for this purpose. When a component updates state or makes changes to the DOM, React batches these updates together for performance reasons. However, this means that any changes may not be immediately visible. Wrapping interactions with the component (such as clicking a button) in act() ensures that all state updates and DOM changes are fully processed before proceeding with the next line of code.
+
+To use act(), you first need to install the react-test-renderer package using npm install --save-dev react-test-renderer.
+Why use "npm install --save-dev react-test-renderer" can't you just run "npm install react-test-renderer"?
+
+You can use npm install react-test-renderer to install the react-test-renderer package. However, if you want to save it as a development dependency in your project, you should use the --save-dev flag.
+
+The --save-dev flag saves the package as a development dependency in your project's package.json file under the devDependencies key. This is useful because development dependencies are not installed when someone runs npm install on your project's codebase, which can save time and disk space.
+
+In the case of react-test-renderer, it is a testing library, which means that it's only needed during development and testing, not in production. Therefore, it makes sense to save it as a development dependency using --save-dev.
+
+Once installed, you can import act from the package in your test file. Then, you can wrap any code that changes state or causes a side effect in act() to ensure that React properly flushes any updates before your assertions are run. For example, you can wrap a userEvent.click() call in act() to ensure that any state updates caused by the click event are properly applied before your assertions are run.
+
 ~~~javascript
 // App.test.js
 
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { act } from "react-test-renderer"; // Importing act from react-test-renderer
 import App from "./App";
 
 describe("App component", () => {
@@ -118,7 +132,9 @@ describe("App component", () => {
     render(<App />);
     const button = screen.getByRole("button", { name: "Click Me" });
 
-    userEvent.click(button);
+    act(() => { // Wrapping userEvent.click function in act
+      userEvent.click(button);
+    });
 
     expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   });
