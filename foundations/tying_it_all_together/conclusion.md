@@ -56,4 +56,4 @@ The journey has just begun!
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* If you are still confuse, Checkout this article to get more facts, prons and cons about both languages [Cloud-Infrastucter- service article](https://cloudinfrastructureservices.co.uk/ruby-on-rails-vs-javascript-whats-the-difference/).
