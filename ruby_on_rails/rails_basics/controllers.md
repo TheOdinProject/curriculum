@@ -20,15 +20,15 @@ The controller's `#index` action would actually look as simple as:
 
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
-### Learning Outcomes
+### Lesson Overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what goes on in a RESTful controller action.
-- Override an implicit render of the view-file.
-- Distinguish situations in which to use `redirect_to` or `render`.
-- Handle and restrict parameters and POST-data passed to your controller.
-- Display a flash message.
+- What goes on in a RESTful controller action.
+- Overriding an implicit render of the view-file.
+- Situations in which to use `redirect_to` versus `render`.
+- Handling and restricting parameters and POST-data passed to your controller.
+- The flash message and how to display it.
 
 ### Naming Matters
 
