@@ -38,3 +38,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [StackOverflow: What is a Web Framework? How does it compare with LAMP?](http://stackoverflow.com/questions/4507506/what-is-a-web-framework-how-does-it-compare-with-lamp)
+
+*   If you feel spending more time reading on this topic, check out this [Excellent article](https://www.contentful.com/blog/what-is-a-framework/)
