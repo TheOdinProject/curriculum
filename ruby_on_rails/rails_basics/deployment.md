@@ -9,11 +9,11 @@ In this lesson, we will learn how to deploy our apps to a hosting provider, allo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Understand what a hosting provider is
-* Understand the difference between static and dynamic sites
-* Understand what a PaaS is and how they work
-* Know how to deploy to a PaaS provider
-* Know how to troubleshoot common deployment issues
+- What a hosting provider is.
+- The difference between static and dynamic sites.
+- What a PaaS is and how they work.
+- How to deploy to a PaaS provider.
+- How to troubleshoot common deployment issues.
 
 ### What are Hosting Providers?
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
