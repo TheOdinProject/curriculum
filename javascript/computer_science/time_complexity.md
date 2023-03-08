@@ -223,7 +223,7 @@ The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 
 
 If Big O gives us the worst case scenario of how our algorithm will scale, what alternatives are there?
 
-#### Big &#937; (Omage Notation)
+#### Big &#937; (Omega Notation)
 
 Omega Notations gives us the best case scenario for an algorithm. To understand where this might be let's look at a method and discuss how we can measure its complexity.
 
@@ -314,10 +314,10 @@ Therefore you also need to ensure the code you write is as efficient as it can b
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="big-o">What is Big O?</a>
-*   <a class="knowledge-check-link" href="big-o-notation">What are the Big O Notations?</a>
-*   <a class="knowledge-check-link" href="why-big-o">Why use Big O?</a>
-*   <a class="knowledge-check-link" href="big-omega">Why is Big Omega and why isn't it as useful?</a>
+*   <a class="knowledge-check-link" href="#what-is-big-o">What is Big O?</a>
+*   <a class="knowledge-check-link" href="#big-o-notation">What are the Big O Notations?</a>
+*   <a class="knowledge-check-link" href="#why-big-o">Why use Big O?</a>
+*   <a class="knowledge-check-link" href="#big-937-omega-notation">Why is Big Omega and why isn't it as useful?</a>
 
 ### Additional Resources
 
