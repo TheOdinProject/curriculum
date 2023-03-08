@@ -146,9 +146,9 @@ On top of these considerations you also need to balance the readability of your 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="what-do-we-mean-by-space-complexity">What is space complexity?</a>
-*   <a class="knowledge-check-link" href="measuring-space-complexity">How do we measure space complexity?</a>
-*   <a class="knowledge-check-link" href="other-considerations">What are the main considerations we should consider before optimising code?</a>
+*   <a class="knowledge-check-link" href="#what-do-we-mean-by-space-complexity">What is space complexity?</a>
+*   <a class="knowledge-check-link" href="#measuring-space-complexity">How do we measure space complexity?</a>
+*   <a class="knowledge-check-link" href="#other-considerations">What are the main considerations we should consider before optimising code?</a>
 
 ### Additional Resources
 
