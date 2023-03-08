@@ -99,11 +99,15 @@ export default App;
 
 Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
+React Testing Library also provides the `act()` function, you can wrap any code that changes state or causes a side effect in act() to ensure that React properly flushes any updates before your assertions are run. For example, you can wrap a `userEvent.click()` call in `act()` to ensure that any state updates caused by the click event are properly applied before your assertions are run.
+
+When testing React components, it's important to ensure that all state updates and DOM changes are fully processed before making any assertions about them. The `act()` function is used for this purpose. When a component updates state or makes changes to the DOM, React batches these updates together for performance reasons. However, this means that any changes may not be immediately visible. Wrapping interactions with the component (such as clicking a button) in `act()` ensures that all state updates and DOM changes are fully processed before proceeding with the next line of code.
+
 ~~~javascript
 // App.test.js
 
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
 
@@ -118,7 +122,9 @@ describe("App component", () => {
     render(<App />);
     const button = screen.getByRole("button", { name: "Click Me" });
 
-    userEvent.click(button);
+    act(() => { // Wrapping userEvent.click function in act
+      userEvent.click(button);
+    });
 
     expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   });
