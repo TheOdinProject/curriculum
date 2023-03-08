@@ -141,7 +141,7 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
-One such algorithm that does this is Binary Search. It only works on sorted arrays but if you have an array of 10 items in sorted order 
+One such algorithm that does this is Binary Search. It only works on sorted arrays but if you have an array of 10 items in sorted order
 
 ~~~ruby
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -223,7 +223,7 @@ The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 
 
 If Big O gives us the worst case scenario of how our algorithm will scale, what alternatives are there?
 
-#### Big &#937; (Omage Notation)
+#### Big &#937; (Omega Notation)
 
 Omega Notations gives us the best case scenario for an algorithm. To understand where this might be let's look at a method and discuss how we can measure its complexity.
 
