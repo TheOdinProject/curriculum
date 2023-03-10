@@ -259,12 +259,12 @@ If we had used `Object.create` in this example, then we could safely edit the `N
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#object-constructors'>Write an object constructor and instantiate the object.</a>
-- <a class="knowledge-check-link" href='#the-prototype'>Describe what a prototype is and how it can be used.</a>
-- <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
-- <a class="knowledge-check-link" href='#recommended-method-for-prototypal-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>
-- <a class="knowledge-check-link" href='https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/'>How does `this` behave in different situations?</a>
+- [Write an object constructor and instantiate the object.](#object-constructors)
+- [Describe what a prototype is and how it can be used.](#the-prototype)
+- [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
+- [Understand the basic do's and don't's of prototypical inheritance.](#recommended-method-for-prototypal-inheritance)
+- [Explain what `Object.create` does.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+- [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
 ### Additional Resources
 
