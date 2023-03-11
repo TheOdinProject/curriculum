@@ -26,7 +26,7 @@ You'll probably be asked about some of the technical things you've listed on you
 
 FINAL NOTE -- this is not one-size-fits-all and many companies skip the light stuff and dive right into a technical screen so you've got to be prepared just in case!  The Coding Horror link below is more descriptive about that case.
 
-* [Mastering the phone screen by Monster](https://web.archive.org/web/20220512215006/https://www.monster.com/career-advice/article/mastering-the-phone-interview)
+* [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
 * [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
 * [A much more technical phone screen from Coding Horror](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)
 
