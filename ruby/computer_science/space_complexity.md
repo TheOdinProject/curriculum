@@ -4,7 +4,7 @@ In the last lesson we focused on measuring complexity from the perspective of ti
 
 In this lesson we'll focus on space complexity and see how the same notations we've already learned can be used to measure how a change in input for our algorithms can affect the amount of memory it uses.
 
-When we talk about memory. We mean primary memory which is the working memory available to your system to execute algorithms. You can read more about the topic in this [GeeksforGeeks Primary Memory article](https://www.geeksforgeeks.org/primary-memory/).
+When we talk about memory, we mean primary memory which is the working memory available to your system to execute algorithms. You can read more about the topic in this [GeeksforGeeks Primary Memory article](https://www.geeksforgeeks.org/primary-memory/).
 
 ### Lesson Overview
 
@@ -51,7 +51,7 @@ Let's work through some examples. We won't go through every possible complexity 
 
 #### O(1) - Constant Complexity
 
-Consider this example
+Consider this example.
 
 ~~~ruby
 def multiply(num1, num2)
@@ -80,7 +80,7 @@ We wrote this in a slightly more verbose way than you'd normally write it in Rub
 
 Why did we make a copy of the array? That will be discussed in a later section.
 
-The complexity is replicated no matter the data structure
+The complexity is replicated no matter the data structure.
 
 ~~~ruby
 def sum_hash_values(hash)
@@ -119,7 +119,7 @@ def sum_arr(arr)
 end
 ~~~
 
-When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by that data structure when calculating its space complexity. If you didn't count it, then it would be easy for all our methods to have great space usage on paper because we put the onus on the caller to allocate that space. If we did count it, but the data structure was created for use by many different methods then is the space complexity for all those methods O(N) when they aren't utilising additional space. Then consider that if your method receives an array as an input and loops it, then an index must be created for the loop which uses additional space.
+When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by that data structure when calculating its space complexity. If you didn't count it, then it would be easy for all our methods to have great space usage on paper because we put the onus on the caller to allocate that space. If we did count it, but the data structure was created for use by many different methods then the space complexity for all those methods is O(N) when they aren't utilising additional space. Then consider that if your method receives an array as an input and loops it, then an index must be created for the loop which uses additional space.
 
 The first answer to [analyzing space complexity](https://cs.stackexchange.com/questions/127933/analyzing-space-complexity-of-passing-data-to-function-by-reference) provides some great context to the question and gives some thought provoking answers.
 
@@ -129,9 +129,9 @@ Ultimately when you consider Big O measures the worst case scenario it would be 
 
 Measuring the complexity of your algorithms, whether time or space, can be difficult. It takes practice and consideration. For most practice code you write it's not something that will cross your mind, especially as you wrestle with getting your code to work.
 
-Once your code is working though, and you might be looking to refactor it, it's definitely worth taking a moment to consider if the code is as efficient as it could be. Are you creating unnecessary variables? Or does your algorithm use a data structure with a worse time complexity for what it's mostly used for than another data structure would have been.
+Once your code is working though, and you might be looking to refactor it, it's definitely worth taking a moment to consider if the code is as efficient as it could be. Are you creating unnecessary variables? Or does your algorithm use a data structure with a worse time complexity for what it's mostly used for than another data structure would have been?
 
-On top of these considerations you also need to balance the readability of your code. If you start introducing [memoization](https://en.wikipedia.org/wiki/Memoization) in order to make your code more efficient, does it mean it's much harder to understand? Is that trade off worth it? Ultimately you need to take a call on it. Our advice would be to consider the readability first, and look to refactor for better efficiency if there is a clear impact on performance.
+On top of these considerations you also need to balance the readability of your code. If you start introducing [memoization](https://en.wikipedia.org/wiki/Memoization) in order to make your code more efficient, does it mean it's much harder to understand? Is that trade off worth it? Ultimately you need to make a call on it. Our advice would be to consider the readability first, and look to refactor for better efficiency if there is a clear impact on performance.
 
 ### Assignment
 
