@@ -146,7 +146,7 @@ To create an email input, we use an input element with `type` attribute of "emai
 <input type="email" id="user_email" name="email" placeholder="you@example.com">
 ~~~
 
-`Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with asterisks(*) to prevent anyone from seeing what has been entered.
+`Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with another character – usually an asterisk (*) or bullet point (•) – to prevent anyone from seeing what has been entered.
 
 A password input can be created using an input element with a type of "password":
 
