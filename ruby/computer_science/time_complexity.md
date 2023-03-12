@@ -1,6 +1,6 @@
 ### Introduction
 
-You've written a lot of code up to this point, and you've hopefully moved on from just trying to write code that works, to now considering code readability and maintainability. You might spend some time considering how you can create the necessary abstractions so that your code stays easy to work with even as the requirements for it grows.
+You've written a lot of code up to this point, and you've hopefully moved on from just trying to write code that works, to now considering code readability and maintainability. You might spend some time considering how you can create the necessary abstractions so that your code stays easy to work with even as the requirements for it grow.
 
 Code readability and maintainability are super important. After all, you will likely spend as much, if not more, time reading code than writing it. You need to make sure new features are integrated with ease.
 
@@ -98,7 +98,7 @@ It's also worth noting that the Notations given below for Big O also apply to Om
 
 Big O gives us a consistent way to measure the efficiency of an algorithm. It gives us a measurement for the time it takes for an algorithm to run as the input grows so that you can directly compare the performance of two algorithms and pick the best one.
 
-Big O is not a piece of code you can put your algorithm into and it tells you how efficient it is. You will need to measure how the number of steps changes as the data grows and using this you can apply a Big O Notation to it and measure it against other algorithms. In many cases you'll be using a data structure in which the ways you interact with it are well known, and in that case it's easier to judge how it will scale as the input changes.
+Big O is not a piece of code you can put your algorithm into that tells you how efficient it is. You will need to measure how the number of steps changes as the data grows and using this you can apply a Big O Notation to it and measure it against other algorithms. In many cases you'll be using a data structure in which the ways you interact with it are well known, and in that case it's easier to judge how it will scale as the input changes.
 
 Firstly we'll summarise the Big O Notations and then provide a little more context for each one. The reading materials will dive into greater detail.
 
@@ -161,7 +161,7 @@ arr = [6, 7, 8, -, -]
 
 We can keep doing this until we have an array of just one item. If it matches the number we're looking for we've found it, if not then it isn't in the array.
 
-The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for
+The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for.
 
 | Size | Steps |
 | ----------- | ----------- |
@@ -213,9 +213,9 @@ You want to avoid this if at all possible otherwise you won't be processing much
 
 #### O(N!) - Factorial Complexity
 
-A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
+A factorial is the product of the sequence of _n_ integers. For example, the factorial of 4 (written as 4!) is 4 * 3 * 2 * 1.
 
-You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out how all the combinations you can make from the array. That is a Factorial complexity. It's manageable for a small number of items but the leap with each new item in a dataset can be huge.
+You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out how all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items but the leap with each new item in a dataset can be huge.
 
 The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
@@ -245,19 +245,19 @@ Omega Notation isn't considered as useful because it is unlikely our item will o
 
 While Omega Notation measures the best case scenario for an algorithm's efficiency, and Big O measures the worst case, Theta looks to give the exact value or a useful range between narrow upper and lower bounds.
 
-If we had some code that looped every item in an array then it doesn't matter the size of the array, our algorithm will always run in `O(N)` time in it's best and worst case scenario. In that case we know it's exact performance in all scenarios is `O(N)` and that is the Theta performance of our algorithm. For other algorithms then Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
+If we had some code that looped every item in an array then it doesn't matter the size of the array, our algorithm will always run in `O(N)` time in its best and worst case scenario. In that case we know its exact performance in all scenarios is `O(N)` and that is the Theta performance of our algorithm. For other algorithms then Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
 
 This is just a simplistic explanation to try to make the topic approachable. If you do happen to be mathematically minded then you'll find more detailed explanations with a quick search online.
 
 ### Why Big O
 
-Now we've touched on the different ways we can measure an algorithm's efficiency, it's hopefully clear on why it is that we choose to use the worst case scenario when measuring the efficiency of that algorithm.
+Now we've touched on the different ways we can measure an algorithm's efficiency, you're hopefully clear on why it is that we choose to use the worst case scenario when measuring the efficiency of that algorithm.
 
 Using a worst case scenario we can make sure our algorithm will scale in all outcomes. If we write an algorithm that could potentially run in constant time, but could also run in linear time in the worst case, it can only scale as the input grows if it still works when the worst case does happen. You need to be confident your code won't lock up and leave users frustrated if you suddenly get an input of a million items instead of 10.
 
 ### Algorithms with the same complexity
 
-If we write two algorithms with the same complexity. Does that mean they're equally good to use? We'll answer this question with two code examples which we'll then discuss a bit further to try and answer the question
+If we write two algorithms with the same complexity, does that mean they're equally good to use? We'll answer this question with two code examples which we'll then discuss a bit further to try and answer the question.
 
 The first example is some code we've seen already, our `odd_numbers` method.
 
@@ -277,7 +277,7 @@ end
 
 The time complexity of this algorithm is `O(N)` As the data size increases the number of steps of our algorithm increases at the same rate.
 
-Let's look at another version
+Let's look at another version.
 
 ~~~ruby
 def odd_numbers(max_number)
@@ -293,7 +293,7 @@ def odd_numbers(max_number)
 end
 ~~~
 
-Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime. Well for an input of `n` the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as I've mentioned earlier, Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
+Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime? Well for an input of `n` the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as mentioned earlier, Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
 
 Therefore you also need to ensure the code you write is as efficient as it can be within its time complexity.
 
