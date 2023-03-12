@@ -89,7 +89,7 @@ class App extends Component {
 }
 ~~~
 
-Secondly, we are declaring the class component, `App`. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every React component should have. One thing to notice is that React components, like all classes and factory functions, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
+Secondly, we are declaring the class component, `App`. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every React component should have. One thing to notice is that React components, like all classes and object constructors, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
 
 ~~~javascript
 constructor() {
