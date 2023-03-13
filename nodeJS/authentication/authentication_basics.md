@@ -167,7 +167,7 @@ passport.use(
       };
       return done(null, user);
     } catch(err) {
-      return done(null, false, { message: "LocalStrategy was unable to authenticate" });
+      return done(err);
     };
   });
 );
