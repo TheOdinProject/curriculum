@@ -161,7 +161,7 @@ We have to call our foreign key something a bit different from the normal case s
 "Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done simply:
 
 ~~~ruby
-  # app/models/comments.rb
+  # app/models/comment.rb
   class Comment < ActiveRecord::Base
     belongs_to :commentable, polymorphic: true
   end
