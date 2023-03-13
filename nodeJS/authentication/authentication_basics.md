@@ -50,7 +50,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const mongoDb = "YOUR MONGO URL HERE";
-mongoose.set('strictQuery', false);
 mongoose.connect(mongoDb, { useUnifiedTopology: true, useNewUrlParser: true });
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
@@ -160,12 +159,15 @@ passport.use(
   new LocalStrategy(async(username, password, done) => {
     try {
       const user = await User.findOne({ username: username });
+      if (!user) {
+        return done(null, false, { message: "Incorrect username" });
+      };
       if (user.password !== password) {
         return done(null, false, { message: "Incorrect password" });
       };
       return done(null, user);
     } catch(err) {
-      return done(null, false, { message: "Incorrect username" });
+      return done(null, false, { message: "LocalStrategy was unable to authenticate" });
     };
   });
 );
