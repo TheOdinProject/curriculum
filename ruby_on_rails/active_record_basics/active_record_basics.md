@@ -74,8 +74,6 @@ If you dive into that file, you'll see that there's not much in it except anothe
 
 If you want to only create the database migration file (without the Model or any of the test files), just use `$ rails generate migration NameYourMigration`.  You'll end up using this one more once you've got things up and running since you'll probably be modifying your data table instead of creating a new one.  There's a syntax for specifying additional parameters when you call this (which you'll see in the reading), but there's no need to remember that syntax because you can also manually go in and edit the migration file yourself.
 
-Unless you passed the Rails generator the column names you wanted, in which case they would show up automatically in the migration fields.  Generators let you [pass in arguments](http://guides.rubyonrails.org/command_line.html#rails-generate) to do even more for you.
-
 #### What Are They?
 
 So what's a migration?  A migration is basically a script that tells Rails how you want to set up or change a database.  It's the other part of Active Record magic that allows you to avoid manually going in and writing SQL code to create your database table.  You just specify the correct Ruby method (like the aptly named `create_table`) and its parameters and you're almost good to go.
