@@ -131,7 +131,7 @@ For example you might want to have an input that gets some data from a user and 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We will need to manipulate data from form controls like this quite a bit when we get to the projects in the Fullstack JavaScript course.
+We will need to manipulate data from form controls like this in projects later in the curriculum.
 
 **The Type Attribute**
 
