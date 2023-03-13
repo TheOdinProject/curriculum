@@ -73,7 +73,7 @@ PaaS providers will give you a random domain name when you first deploy. In Hero
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
 
-In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [GoDaddy](https://www.godaddy.com/) or [IWantMyName](https://iwantmyname.com/).
+In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [Porkbun](https://porkbun.com/) or [NameSilo](https://www.namesilo.com/).
 
 To find a new domain, try using [Domainr](https://domainr.com/).
 
