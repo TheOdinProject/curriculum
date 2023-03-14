@@ -10,10 +10,10 @@ With Rails 7 we have [importmap](https://github.com/rails/importmap-rails). This
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are Import maps?
-- How do Import maps work?
-- How do you use Import maps?
-- What are `pin`s?
+- What Import maps are.
+- How Import maps work.
+- How to use Import maps.
+- What `pin`s are.
 
 ### Import Maps
 
