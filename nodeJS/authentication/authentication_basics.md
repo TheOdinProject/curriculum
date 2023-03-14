@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to do the following:
 - Describe what Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
-- Review prior learning material (routes, templates, middleware).
+- Review prior learning material (routes, templates, middleware, async/await, and promises).
 - Use PassportJS to set up user authentication with Express.
 
 #### Data Security/Safety
@@ -31,6 +31,8 @@ To begin, let's set up a very minimal express app with a single MongoDB model fo
 ~~~
 npm install express express-session mongoose passport passport-local ejs
 ~~~
+
+**Mongoose Update**: With the new 7.0.1 version of Mongoose callbacks are no longer supported when querying a database. A promise will be returned instead, meaning that you will now have to use async/await or promises to achieve the same results. If you need a refresher on async/await you can find it in the [Async And Await Lesson](https://www.theodinproject.com/lessons/node-path-javascript-async-and-await) from the JavaScript Course. As you progress through this lesson you will see a blend of using async/await with try/catch blocks as well as other functions that use callbacks, which you've seen as you've progressed through the NodeJS course. You can read more about this change [here](https://mongoosejs.com/docs/migrating_to_7.html).
 
 Next, let's create our `app.js`:
 
@@ -127,16 +129,17 @@ app.get("/sign-up", (req, res) => res.render("sign-up-form"));
 Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitation, and using plain text to store passwords...).
 
 ~~~javascript
-app.post("/sign-up", (req, res, next) => {
-  const user = new User({
-    username: req.body.username,
-    password: req.body.password
-  }).save(err => {
-    if (err) { 
-      return next(err);
-    }
+app.post("/sign-up", async (req, res, next) => {
+  try {
+    const user = new User({
+      username: req.body.username,
+      password: req.body.password
+    });
+    const result = await user.save();
     res.redirect("/");
-  });
+  } catch(err) {
+    return next(err);
+  };
 });
 ~~~
 
@@ -153,20 +156,20 @@ We need to add 3 functions to our app.js file, and then add an app.post for our 
 #### Function one : setting up the LocalStrategy
 ~~~javascript
 passport.use(
-  new LocalStrategy((username, password, done) => {
-    User.findOne({ username: username }, (err, user) => {
-      if (err) { 
-        return done(err);
-      }
+  new LocalStrategy(async(username, password, done) => {
+    try {
+      const user = await User.findOne({ username: username });
       if (!user) {
         return done(null, false, { message: "Incorrect username" });
-      }
+      };
       if (user.password !== password) {
         return done(null, false, { message: "Incorrect password" });
-      }
+      };
       return done(null, user);
-    });
-  })
+    } catch(err) {
+      return done(err);
+    };
+  });
 );
 ~~~
 
@@ -181,10 +184,13 @@ passport.serializeUser(function(user, done) {
   done(null, user.id);
 });
 
-passport.deserializeUser(function(id, done) {
-  User.findById(id, function(err, user) {
-    done(err, user);
-  });
+passport.deserializeUser(async function(id, done) {
+  try {
+    const user = await User.findById(id);
+    done(null, user);
+  } catch(err) {
+    done(err);
+  };
 });
 ~~~
 
@@ -305,7 +311,7 @@ Password hashes are the result of passing the user's password through a one-way 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ~~~javascript
-bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
+bcrypt.hash("somePassword", 10, async (err, hashedPassword) => {
   // if err, do something
   // otherwise, store hashedPassword in DB
 });
