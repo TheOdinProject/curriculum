@@ -20,11 +20,11 @@ If a lot of what follows seems confusing, don't worry! A lot of Turbo Drive happ
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is the purpose of Turbo Drive?
-- How does Turbo Drive handle page navigation?
-- What are the two kinds of page visit types in Turbo?
-- How can you disable Turbo Drive?
-- What is Turbolinks?
+- The purpose of Turbo Drive.
+- How Turbo Drive handles page navigation.
+- The two kinds of page visit types in Turbo.
+- How to disable Turbo Drive.
+- What Turbolinks is.
 
 ### Turbo Drive
 
