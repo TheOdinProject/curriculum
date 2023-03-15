@@ -67,6 +67,23 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 *   Take a break: Allow your diffuse learning state to work on the problem.
 *   Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
+### A Note on AI Code Generation
+
+As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
+
+While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humpd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
+
+For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
+1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
+1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
+1. Learning to talk about the code that one writes is another important skill. In a professional environment, it is highly likely that you will be doing code reviews where you have to explain the how and why behind what you are presenting. Using the Odin community to ask good questions about your code when you require help can help develop this skill as well.
+1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good overall understanding to be able to determine if the output is good or bad.
+1. While learning how to provide good prompts to an AI tool is a skill, it is one that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
+1. AI tools are designed to answer questions and are not designed to help learners develop research and problem solving skills. If you ask an AI for information, it will provide information to you. If you ask a human, they may invite you to share your understanding of the problem and offer some guidance on how to discover a solution.
+1. Without practice in research, problem solving and critical thinking, interviews could be a struggle since it is very likely that applicants would not be allowed to use AI tools.
+
+We do not recommend using AI tools for your learning.
+
 ### Managing Your Study Time
 
 You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
