@@ -74,6 +74,7 @@ As technology advances, we have seen some incredible tools emerge that can help 
 While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humpd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
 
 For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
+
 1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
 1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
 1. Learning to talk about the code that one writes is another important skill. In a professional environment, it is highly likely that you will be doing code reviews where you have to explain the how and why behind what you are presenting. Using the Odin community to ask good questions about your code when you require help can help develop this skill as well.
