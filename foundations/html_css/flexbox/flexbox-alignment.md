@@ -94,4 +94,3 @@ This section contains helpful links to related content. It isn’t required, so 
 * This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
 * [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA) is a nice resource by Traversy Media.
 * [Learn flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU) by Kevin Powell explains flexbox very well in this video.
-* [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) An interactive guide to using the CSS Flexbox layout module.
