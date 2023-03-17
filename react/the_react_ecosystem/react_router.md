@@ -22,14 +22,14 @@ Say you are cooking some chicken. If you want to cook it well and nice, you will
 2. Wait till the dish gives out that satisfying smell
 3. Start munching!
 
-This is common to all websites, you set the oven up for what you want (visit any URL, like https://theodinproject.com/), wait for the oven to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
+This is common to all websites, you set the oven up for what you want (visit any URL, like [https://theodinproject.com/](https://theodinproject.com/)), wait for the oven to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
 
 1. Add the spices to the chicken
 2. Put it back into the oven and set it up to be reheated
 3. Wait for it to be nice and warm
 4. Now you can eat it!
 
-Here is where we reiterate, **the chicken needs to be reheated**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring the microwave to the table to ensure that you don't run into the "missing spices" issues. The data is rendered with Javascript, instead of letting the browser handle it.
+Here is where we reiterate, **the chicken needs to be reheated**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring the microwave to the table to ensure that you don't run into the "missing spices" issues. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
 
 ### A Reactive Solution
 
@@ -76,7 +76,13 @@ const App = () => {
 export default App;
 ~~~
 
-Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects. Add the following to `root.js`, we will talk about what is happening in a little bit.
+Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects. 
+
+Let us install the React Router package:
+
+`npm install react-router-dom`
+
+Add the following to `root.js`, we will talk about what is happening in a little bit.
 
 ~~~jsx
 import React from "react";
@@ -136,7 +142,7 @@ const App = () => {
 export default App;
 ~~~
 
-And now, we don't get the browser reloading everytime we click the link on the navbar!
+And now, we don't get the browser reloading every time we click the link on the navbar!
 
 ### Nested Routes, Outlets And Dynamic Segments
 
@@ -320,7 +326,7 @@ const Profile = () => {
       <h2>The profile visited is here:</h2>
       {name === "popeye" ? (
         <Popeye />
-      ) : name === "Spinach" ? (
+      ) : name === "spinach" ? (
         <Spinach />
       ) : (
         <DefaultProfile />
@@ -384,7 +390,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ### Refactoring The Routing
 
-But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them seperate. Create a new `Router.js` component and move your routes to it.
+But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them separate. Create a new `Router.js` component and move your routes to it.
 
 ~~~jsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -431,7 +437,7 @@ This seems so much nicer, right?
 
 Often, you will face a need to decide when a certain route is rendered or not. One use case is authentication, where you may want to render certain routes based on if the user is logged in or not. If they are logged in, you may want to show some information about the user like [here at the dashboard](https://www.theodinproject.com/dashboard). While there are many ways to do so, one of the easiest ways can be to conditionally creating a config for the router.
 
-You will often come across the need to reroute the user to a different URL yourself. This is where the [`<Navigate />`](https://reactrouter.com/en/main/components/navigate) component gets used, as it reroutes the user to the desired URL when it is rendered. The component itself is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
+You will often come across the need to reroute the user to a different URL programmatically. This is where the [`<Navigate />`](https://reactrouter.com/en/main/components/navigate) component gets used, as it reroutes the user to the desired URL when it is rendered. The component itself is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
 You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
@@ -456,7 +462,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#nested-routes-outlets-and-dynamic-segments">How do you create nested routes?</a>
 - <a class="knowledge-check-link" href="#dynamic-segments">What do you mean by dynamic segments or URL params?</a>
 - <a class="knowledge-check-link" href="#handling-bad-urls">How do you add a "catch-all" route?</a>
-- <a class="knowledge-check-link" href="#protected-routes">How do you create protected routes?</a>
+- <a class="knowledge-check-link" href="#protected-routes-and-navigation">How do you create protected routes?</a>
 
 ### Additional Resources
 
@@ -464,4 +470,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 - Among the many ways to make protected routes, a few ways are provided below:
     - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
-    - [This demostration project](https://github.com/iammanishshrma/react-protected-routes/tree/master/src/components) creates a special Protected Route component that conditionally displays elements as necessary.
+    - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/tree/master/src/components) creates a special Protected Route component that conditionally displays elements as necessary.
