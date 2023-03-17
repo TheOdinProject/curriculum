@@ -5,7 +5,7 @@
 * You'll learn what "Responsive Design" is and why it's important.
 
 ### Terminology
-"Responsive Design" is the term used to describe creating websites that _respond_ to changes in browser size in order to create something that works on any device. Unfortunately, that phrase is a little bit misleading, because of the word 'design'. These lessons are not going to focus much on the actual _design_ of responsive websites, but the techniques you can use to implement responsiveness on websites.
+"Responsive Design" is the term used to describe creating websites that _respond_ to changes in browser size in order to create something that works on any device. Unfortunately, that phrase is a little bit misleading, due to the word 'design'. These lessons are not going to focus much on the actual _design_ of responsive websites, but the techniques you can use to implement responsiveness on websites.
 
 The word 'design' refers to making decisions about what kinds of things look nice, crafting a user experience, and deciding exactly what a project should look like. There might be some tidbits about that sprinkled throughout these lessons, but it is not the primary focus. _However_, since this phrase has been pretty much universally adopted, it's the phrase we'll use here.
 

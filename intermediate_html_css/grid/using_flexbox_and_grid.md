@@ -38,7 +38,7 @@ Say you want your overall layout to be a grid, but you want the grid items to ac
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Closing opinion
-This lesson includes recommendations, not the "right" or "wrong" way of using Flexbox or Grid. Ultimately, it comes down to personal preference and what a developer feels is easier for whatever the given task might be. At this point you have both of these tools in your toolbox and got a sneak peak at how they can be used together or one in place of the other. The best way to learn Flexbox and Grid is to build many projects with both of them and develop your own opinion about which to use in different circumstances.
+This lesson includes recommendations, not the "right" or "wrong" way of using Flexbox or Grid. Ultimately, it comes down to personal preference and what a developer feels is easier for whatever the given task might be. At this point you have both of these tools in your toolbox and got a sneak peek at how they can be used together or one in place of the other. The best way to learn Flexbox and Grid is to build many projects with both of them and develop your own opinion about which to use in different circumstances.
 
 ### Assignments
 <div class="lesson-content__panel" markdown="1">

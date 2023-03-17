@@ -403,7 +403,7 @@ h1 {
 }
 ~~~
 
-In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
+In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value. In the case of multiple declarations having the same specificity, the last CSS rule declaration is evaluated and applied.
 
 #### Inheritance
 

@@ -36,7 +36,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 
 Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) for a refresher. If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our Discord!
 
-Note: Solutions for these exercises can be found in the ['solutions' branch](https://github.com/TheOdinProject/javascript-exercises/tree/solutions) of that repo.
+Note: Solutions for these exercises can be found in the 'solutions' folder of each exercise.
 </div>
 
 ### Knowledge Check

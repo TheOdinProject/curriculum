@@ -10,13 +10,14 @@ To use an instance variable from your view, just call it the same way you would 
 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
 
-* Explain how view templates and layouts are organized in Rails.
-* Apply ERB in your view files.
-* Create and call a partial.
-* Create dynamic anchor tags in your view files.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- The organization of view templates and layouts in Rails.
+- Applying ERB in your view files.
+- Partials and how to create and call them.
+- Creating dynamic anchor tags in your view files.
 
 ### Layouts
 

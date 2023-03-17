@@ -24,6 +24,10 @@ This section contains a general overview of topics that you will learn in this l
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/c2aaKzcV?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
 ### Factory Function Introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
