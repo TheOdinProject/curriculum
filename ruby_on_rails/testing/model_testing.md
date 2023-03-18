@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ## What are model tests?
 
-A model test is a unit test in the context of Ruby on Rails. Model tests in this case are designed to test the business logic of your models. Let's say you need to test a custom validation method for your blog post. In this case you would need to reach into the model aspect of your testing skillset. Before you write the RSpec there will be a few tools you will need to familiarize yourself with.
+A model test is a unit test in the context of Ruby on Rails. When testing our models we usually want to focus on testing the business logic. Essentially what goes on behind each model that enables the user experience to work correctly. This could mean ensuring promotion tickets prices are correct, only correct form data is accepted, custom user verification etc. It's important to note that each model should have it's own file in the `spec/models` file. This is helpful for keeping your model tests organized and readable.
 
 ## Setting the test
 
@@ -38,7 +38,9 @@ end
 
 ~~~
 
-Make sure to require this file in `rails_helper.rb`. We will briefly cover what a factory will look like and some things to keep in mind when creating your data. While you can require the file by adding `require support/factory_bot` to the top of the file. Rails also provides this in the commented out line `Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }` which enables you to load all of the support files when booting up. This is useful for not having to manually add all of the support files and avoids issues if you forget to add a file for example. The last thing you might be wondering is how the test database clears itself in between it's tests. Rail's does this automatically for you, however if Rail's is not doing it for you make sure your following the instructions in the rails_helper.rb file and make sure to ask in the [Discord](https://discord.com/channels/505093832157691914/690591236922409012)! There is also a alternative option in the additional resources section if need be for database cleaning.
+Make sure to require this file in `rails_helper.rb`. We will briefly cover what a factory will look like and some things to keep in mind when creating your data. While you can require the file by adding `require support/factory_bot` to the top of the file. Rails also provides this in the commented out line `Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }` which enables you to load all of the support files when booting up. This is useful for not having to manually add all of the support files and avoids issues if you forget to add a file for example. 
+
+The last thing you might be wondering is how the test database clears itself in between it's tests. Rail's does this automatically for you, however if Rail's is not doing it for you make sure your following the instructions in the rails_helper.rb file and make sure to ask in the [Discord](https://discord.com/channels/505093832157691914/690591236922409012) first! There is also a alternative option in the additional resources section if need be for database cleaning.
 
 ## Creating a factory
 
@@ -57,68 +59,55 @@ end
 
 ~~~
 
-When creating a factory bot record you have the choice of using the `create(:user)` which returns a saved instance of the object from your database or `build(:user)` which returns an unsaved instance of an object. You might be wondering how we avoid objects hanging around in the database. Thankfully RSpec includes the ability to clear the database in between tests. However if you do find that RSpec's database clearing isn't fitting your needs here you can check the additional resources for alternatives.
+When creating a factory bot record you have the choice of using the `create(:user)` which returns a saved instance of the object from your database or `build(:user)` which returns an unsaved instance of an object. 
 
 ## Example model test
 
-When testing our models we usually want to focus on testing the business logic. Essentially what goes on behind each model that enables the user experience to work correctly. This could mean ensuring promotion tickets prices are correct, only correct form data is accepted, custom user verification etc. Below are a few examples along with an explanation to explain it more in depth. It's important to note that each model should have it's own file in the `spec/models` file. This is helpful for keeping your model tests organized and readable.
-
-This is the failing example where we expect the pass to not pass.
+In the following example one of the things we often see when users sign up is that sites will ask for an email to send a user notifications for example. RSpec can help you test this by utilizing model tests. Let's take a look at what a requiring a user email would look like in a model and the corresponding tests. 
 
 ~~~
 
-#first we would want to check our spec/factories file.
-#To make sure it's set up properly.
-#It should look like the following.
-
-FactoryBot.define do
-
-  factory :user do 
-    user_name { "userwithout a number" }
-  end 
-
-end
-
-RSpec.describe User, type: :model do
-  #define test expectations
-  it "verifies the user has a number."
-  #We then build a user.
-    user = build(:user) 
-    #Then we check for the expected outcome.
-    expect(user.save). to eql(false)
+class EmailValidator < ActiveModel::EachValidator
+  def validate_each(record, attribute, value)
+    unless value =~ /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
+      record.errors.add attribute, (options[:message] || "is not an email")
+    end
   end
 end
 
-~~~
-
-To break it down a little bit further first we define what we expect the result to be in the `it "verifies the user has a number."`. After describing the expected outcome we build a user. It's important to note while you can save the object to the database in this case we only are testing it's attributes and thus don't need to save it to the database when creating it. In fact the final step where we are verifying a user we test whether we can save it at all. Notice how in the factory bot file we don't add a number and thus when we save we expect Rails to return false. So the next question is how do we test this without creating another factory in the factory bot file? Let's run another example.
-
-~~~
-
-#For this passing test we can keep the factory as is.
-
-FactoryBot.define do
-
-  factory :user do 
-    user_name { "userwithout a number" }
-  end 
-
+class User < ApplicationRecord
+  validates :email, presence: true, email: true
 end
 
+~~~
+ 
+In the above code we add our own validator to the email validation. [Validate each](https://guides.rubyonrails.org/active_record_validations.html#custom-validators). By using validate the model will call on the validator to ensure the presence of valid characters. That then brings us to the following RSpec test where we will write the context and what we expect the outcome to be. The validate_each method is also where you would make changes as well if the test failed to pass.
+
+~~~
+
 RSpec.describe User, type: :model do
-  #define test expectations
-  it "verifies the user has a number."
-  #We then build a user. 
-  #However this time we add or change the attributes as needed.
-    user = build(:user, user_name: "userwitha1") 
-    #Then we check for the expected outcome.
-    expect(user.save). to eql(true)
+  describe '#valid?' do
+    context "when the user does not have an email address" do
+      user =  build(:user)
+
+      it "will not be valid" do
+        expect(user.valid?).to be false
+      end
+    end
+    
+    context "when the user has an email address" do
+      user =  build(:user, email_address: "jdoe@example.com")
+
+      it "will be valid" do
+        expect(user.valid?).to be true 
+      end
+    end
   end
 end
 
-~~~
+~~~ 
 
-A key difference to note is that when building the user we add a number. Therefore unlike the previous example the user can be saved and therefore the save is successful and Rails return true. However you might be wondering how this connects back to our models as the tests defines our user model. If the test fails then you would go back to your model file in the app and make the necessary adjustments to pass the test. The Factory bot [repository](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md#setup) has excellent information for diving in deeper and it's highly reccomended to read through it to understand factory bot better. As well as keeping the RSpec [documentation](https://relishapp.com/rspec/rspec-expectations/docs/built-in-matchers) handy when you need to look up the various matchers for your test or another aspect of RSpec.
+One thing to note is that we have two tests. We want to test both that it only accepts valid characters while having a separate test for rejecting the invalid ones. The other thing to note is that you can set attributes when creating a factory record as well rather than going back to the factory file. The Factory bot [repository](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md#setup) has excellent information for diving in deeper and it's highly reccomended to read through it to understand factory bot better. 
 
 ### Knowledge Check
 
