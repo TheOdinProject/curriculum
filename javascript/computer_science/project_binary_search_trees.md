@@ -19,7 +19,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
     ~~~javascript
     const prettyPrint = (node, prefix = '', isLeft = true) => {
-      if (node == null) {
+      if (node === null) {
          return;
       }
       if (node.right !== null) {
