@@ -11,6 +11,10 @@ This section contains a general overview of topics that you will learn in this l
  - Explain the circumstances under which promises are better than callbacks
  - Explain what the `.then()` function does
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+
 ### Callbacks
 
 In the recent past, the way that these were most commonly handled were with __callbacks__, and even now they are still used quite a lot in certain circumstances.

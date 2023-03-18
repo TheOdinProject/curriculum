@@ -25,7 +25,7 @@ To install nvm properly, you'll need `curl`. Simply run the command below:
 sudo apt install curl
 ~~~ 
   
-Note: You may need to update Ubuntu to the latest version for the Curl installation to complete. If so, run the command below:
+Note: You may need to update the Ubuntu package lists to the latest version for the Curl installation to complete. If so, run the command below:
 
 ~~~bash
 sudo apt update && sudo apt upgrade
@@ -36,7 +36,7 @@ sudo apt update && sudo apt upgrade
 Simply run this command:
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ~~~
 
 This will install `nvm`
@@ -72,7 +72,7 @@ touch ~/.zshrc
 ~~~
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ~~~
 
 Restart your terminal, or copy and paste the following into your terminal and press enter: 
@@ -132,10 +132,6 @@ If you see that, you have successfully installed Node!
 For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
-
-### Assignment
-
-### Knowledge Check
 
 ### Additional Resources
 

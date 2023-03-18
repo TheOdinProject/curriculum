@@ -53,7 +53,7 @@ index.post("/test", (req, res) => {
 module.exports = index;
 ~~~
 
-These two files, `app.js` and `index.js` simply define a couple of routes and then set up and start our express app. For the moment we do _not_ need to test `app.js` because it only contains code that starts and runs an express app!. It doesn't include any of our own logic so we don't need to test it. `index.js` however _does_ include some things that we want to test.
+These two files, `app.js` and `index.js` simply define a couple of routes and then set up and start our express app. For the moment we do _not_ need to test `app.js` because it only contains code that starts and runs an express app! It doesn't include any of our own logic so we don't need to test it. `index.js` however _does_ include some things that we want to test.
 
 To facilitate actually testing these routes we're going to use a library called [SuperTest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest --save-dev` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
 
@@ -111,7 +111,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/", index);
 ~~~
 
-The tests themselves are relatively simple thanks to the SuperTest library!. Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route, and then use it to make sure that the responses match the types and content that we expect. 
+The tests themselves are relatively simple, thanks to the SuperTest library! Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route, and then use it to make sure that the responses match the types and content that we expect. 
 
 Notice the parameter <span id="done">`done`</span> that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, SuperTest allows us to pass it into the last `.expect` and calls it for us.  Thanks, SuperTest!
 
@@ -148,7 +148,7 @@ If we were using a real database here, then we would want to do something simila
 <div class="lesson-content__panel" markdown="1">
 
 1. Make sure that you read through the [SuperTest docs](https://github.com/visionmedia/supertest) 
-2. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](http://visionmedia.github.io/superagent/) as well.
+2. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
 </div>
 
 ### Knowledge Checks
@@ -158,4 +158,4 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#about'>What is the motivation behind SuperTest?</a>
 - <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does SuperTest provide concerning it?</a>
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?</a>
-- <a class='knowledge-check-link' href='https://visionmedia.github.io/superagent#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>
+- <a class='knowledge-check-link' href='https://ladjs.github.io/superagent/#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>

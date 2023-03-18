@@ -33,6 +33,10 @@ This section contains a general overview of topics that you will learn in this l
  - Explain what happens when an error is thrown inside an `async` function
  - Explain how you can handle errors inside an `async` function
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+
 ### The async keyword
 
 The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function. This is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise; returning in an `async` function is the same as resolving a promise. Likewise, throwing an error will reject the promise.

@@ -8,13 +8,14 @@ If data is the most important piece of a web application, then how Rails handles
 
 Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high-level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment.
+### Lesson Overview
 
-* What is an ORM?
-* Why is Active Record more useful than just using SQL?
-* What are the two steps required to make a new row in your database table with ActiveRecord?
-* What are "generators" in Rails?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What an ORM is.
+- How and why Active Record can be more useful than just using SQL.
+- The two steps required to make a new row in your database table with Active Record.
+- "Generators" in Rails.
 
 ### What is an ORM?
 
@@ -72,8 +73,6 @@ The model file that the generator creates is just a bare-bones model file in the
 If you dive into that file, you'll see that there's not much in it except another bare-bones Ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
 
 If you want to only create the database migration file (without the Model or any of the test files), just use `$ rails generate migration NameYourMigration`.  You'll end up using this one more once you've got things up and running since you'll probably be modifying your data table instead of creating a new one.  There's a syntax for specifying additional parameters when you call this (which you'll see in the reading), but there's no need to remember that syntax because you can also manually go in and edit the migration file yourself.
-
-Unless you passed the Rails generator the column names you wanted, in which case they would show up automatically in the migration fields.  Generators let you [pass in arguments](http://guides.rubyonrails.org/command_line.html#rails-generate) to do even more for you.
 
 #### What Are They?
 
