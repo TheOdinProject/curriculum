@@ -19,6 +19,9 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
     ~~~javascript
     const prettyPrint = (node, prefix = '', isLeft = true) => {
+      if (node === null) {
+         return;
+      }
       if (node.right !== null) {
         prettyPrint(node.right, `${prefix}${isLeft ? '│   ' : '    '}`, false);
       }
