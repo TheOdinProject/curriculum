@@ -20,9 +20,4 @@ Of course, you can't replicate every feature, and the user interface will probab
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [What is a monorepo?](https://monorepo.tools/#what-is-a-monorepo) - the first and second section go into the what and why of a monorepo.
-- [Rails and React Monorepo](https://www.smashingboxes.com/post/rails-and-react-monorepo-a-perfect-balance-of-speed-and-sustainability) - Learn the different ways to organize a React and Rails application.
-- [How to Build a fullstack Rails 7 backend with React Frontend](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04)
-- [A MERN stack overview and tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)
-- [Firebase Documentation](https://firebase.google.com/)
-- [Introduction to using React with Typescript](https://profy.dev/article/react-typescript)
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
