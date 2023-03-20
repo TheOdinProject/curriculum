@@ -232,7 +232,7 @@ const Nerd = (name) => {
 
 const jeff = Nerd('jeff');
 
-jeff.sayName(); //my name is jeff
+jeff.sayName(); // my name is jeff
 jeff.doSomethingNerdy(); // nerd stuff
 ~~~
 
