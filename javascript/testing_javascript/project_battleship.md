@@ -24,7 +24,7 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
    2. The game is played against the computer, so make the 'computer' capable of making random plays.  The AI does not have to be smart, but it should know whether or not a given move is legal. (i.e. it shouldn't shoot the same coordinate twice).
 4. Create the main game loop and a module for DOM interaction.
    1. At _this_ point it is appropriate to begin crafting your User Interface.
-   2. The game loop should set up a new game by creating Players and Gameboards.  For now just populate each Gameboard with predetermined or random coordinates.  You can implement a system for allowing players to place their ships later.
+   2. The game loop should set up a new game by creating Players and Gameboards.  For now just populate each Gameboard with predetermined coordinates.  You can implement a system for allowing players to place their ships later.
    3. We'll leave the HTML implementation up to you for now, but you should display both the player's boards and render them using information from the Gameboard class.
       1. You need methods to render the gameboards and to take user input for attacking.  For attacks, let the user click on a coordinate in the enemy Gameboard.
    4. The game loop should step through the game turn by turn using only methods from other objects.  If at any point you are tempted to write a new function inside the game loop, step back and figure out which class or module that function should belong to.
