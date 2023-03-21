@@ -164,7 +164,7 @@ An atomic commit is a commit that includes changes related to only one feature o
 
 If you are using _Visual Studio Code_ (and you should be if you're following this curriculum), there's a way to ensure that if you use `git commit` without the message flag (`-m`), you won't get stuck writing your commit message in in [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
 
-Setting this up is a good idea in case you accidentally omit the flag, but also can just be generally useful.  There is no downside to doing so (unless you love using Vim as your text editor.  But most learners prefer using VS Code).
+Setting this up is a good idea in case you accidentally omit the flag, but also can just be generally useful. Unless you love using Vim, there is no downside to changing your git commit message editor.  A lot of learners prefer writing commit messages in the comfort of VS Code.
 Setting this up leaves you the option to write your commit messages via either the terminal or VS Code.
 
 This command should set the configuration.  Type (or copy & paste) this command into your terminal and hit Enter (do include the quotes): 
