@@ -63,17 +63,17 @@ When creating a factory bot record you have the choice of using the `create(:use
 
 ## Example model test
 
-In the following example one of the things we often see when users sign up is that sites will ask for an email to send a user notifications for example. RSpec can help you test this by utilizing model tests. Let's take a look at what a requiring a user email would look like in a model and the corresponding tests. 
+In the following example one of the things we often see when users sign up is that sites will ask for an email to send a user notifications for example. RSpec can help you test this by utilizing model tests. Let's take a look at what a requiring the presence of a user email would look like in a model and the corresponding tests. 
 
 ~~~
 
 class User < ApplicationRecord
-  validates :email, presence: true, email: true
+  validates :email, presence: true
 end
 
 ~~~
  
-In the above code validates will check for the presence of the email.. [Validate each](https://guides.rubyonrails.org/active_record_validations.html#custom-validators). By using validate the model will call on the validator to ensure the presence of valid characters. That then brings us to the following RSpec test where we will write the context and what we expect the outcome to be. The validate_each method is also where you would make changes as well if the test failed to pass.
+In the above code validates will check for the presence of the email. By using validates the model will check the following conditions which in this case is that the email is present when the record is created. That then brings us to the following RSpec test where we will write the context and what we expect the outcome to be. 
 
 ~~~
 
@@ -99,7 +99,7 @@ end
 
 ~~~ 
 
-One thing to note is that we have two tests. We want to test both that it only accepts valid characters while having a separate test for rejecting the invalid ones. The other thing to note is that you can set attributes when creating a factory record as well rather than going back to the factory file. The Factory bot [repository](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md#setup) has excellent information for diving in deeper and it's highly recommended to read through it to understand factory bot better. 
+One thing to note is that we have two tests. We want to test both the successful conditions while having a separate test for rejecting the invalid condition. The other thing to note is that you can set attributes when creating a factory record as well rather than going back to the factory file. The Factory bot [repository](https://github.com/thoughtbot/factory_bot/blob/main/GETTING_STARTED.md#setup) has excellent information for diving in deeper and it's highly recommended to read through it to understand factory bot better. 
 
 ### Knowledge Check
 
@@ -115,3 +115,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   For an example of a model test and having a useful resource. You can visit [code with Jason](https://www.codewithjason.com/write-model-tests-part/).
 *   For an alternative if RSpecs built in database cleaner isn't working for testing. You can find it [here](https://thoughtbot.com/blog/how-we-test-rails-applications#database-cleaner).
+*   A [resource](https://www.betterspecs.org/#factories) for going over some of the best practices for tests.
