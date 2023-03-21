@@ -44,7 +44,7 @@ The last thing you might be wondering is how the test database clears itself in 
 
 ## Creating a factory
 
-Below is an example of a user factory. Notice that the factory will be a User class based off of the name of your factory. You can also define as many attributes as you want and it can be useful to focus on adding only the attributes your testing and adding them as need be.
+Below is an example of a user factory. Notice that the factory will be a User class based off of the name of your factory. You can also define as many attributes as you want and it can be useful to focus on adding only the attributes you are testing and adding them as need be.
 
 ~~~
 
