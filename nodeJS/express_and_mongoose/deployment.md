@@ -34,9 +34,9 @@ Luckily, many hosting providers do offer everything we need. They range from the
 
 ### What is a PaaS?
 
-Platform as a Service is a specific kind of hosting provider. The most important thing to know about them is they are much easier to use and more approachable for beginners than other hosting providers. They manage many of the low-level nitty-gritty details with the underlying server infrastructure. Allowing us as developers to focus more of our time on building our applications instead of configuring and managing the servers they run on.
+Platform as a Service is a specific kind of hosting provider. The most important thing to know about them is they are much easier to use and more approachable for beginners than other hosting providers. They manage many of the low-level nitty-gritty details with the underlying server infrastructure, which allows us as developers to focus more of our time on building our applications instead of configuring and managing the servers they run on.
 
-Taking the landlord metaphor, we used earlier a little further. A PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. While you, the developer, focuses on furnishing, decorating and living in the space.
+Taking the landlord metaphor we used earlier a little further, a PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. Meanwhile, you, the developer, focus on furnishing, decorating and living in the space.
 
 It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering NodeJS without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
 
@@ -73,7 +73,7 @@ PaaS providers will give you a random domain name when you first deploy. In Hero
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
 
-In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. But if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [Porkbun](https://porkbun.com/) or [NameSilo](https://www.namesilo.com/).
+In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. However, if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [Porkbun](https://porkbun.com/) or [NameSilo](https://www.namesilo.com/).
 
 To find a new domain, try using [Domainr](https://domainr.com/).
 
@@ -81,7 +81,7 @@ Once you have your domain, you need to point it to your project. The provider yo
 
 ### Our Recommended PaaS Services
 
-Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted. But they unfortunately discontinued it in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted, but they unfortunately discontinued it in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is that they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
@@ -89,7 +89,7 @@ You can host most of your projects for free using a combination of the different
 
 If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all you're apps from one place.
 
-Whatever you're circumstances, we've got you covered. Here are the PaaS providers we recommend.
+Whatever your circumstances, we've got you covered. Here are the PaaS providers we recommend.
 
 ---
 
@@ -190,11 +190,11 @@ Most of the errors you'll face during this stage will be related to properly set
 
 #### After Deployment
 
-You've just deployed your app successfully; everything is going your way, and this will be a great day! But then you visit your app... and are greeted with the dreaded 500 page.
+You've just deployed your app successfully; everything is going your way, and this will be a great day! However, when you visit your app... you are greeted with the dreaded 500 page.
 
 Nothing induces panic in a developer quite like a 500 page. It could mean just about anything. Error pages in production are deliberately vague to let users know something went wrong without all the overwhelming technical jargon. Another important reason is to prevent attackers from using errors in your system to their advantage.
 
-But you have a few tools at your disposal to help you diagnose the problem. The first is the application logs.
+You have a few tools at your disposal to help you diagnose the problem. The first is the application logs.
 
 The application logs are the output of your application as it's running. It tells you what's happening with your app as it's happening. All the incoming requests and database queries are recorded, and you can see them being recorded in real-time.
 
@@ -204,7 +204,7 @@ So if you're getting a 500 error, you can open up the logs and watch them closel
 
 As your application grows, you'll want to get more sophisticated with your error-tracking tools. For example, you can use services like [Sentry](https://sentry.io/) to track and monitor errors using a slick, easy-to-use interface and get notified when they happen.
 
-These services will give you more information about the error and the request that caused it, saving you a ton of time. But, setting up and using these services are out of the scope of this lesson. You can get by just fine with the logs for your first few apps.
+These services will give you more information about the error and the request that caused it, saving you a ton of time. However, setting up and using these services are out of the scope of this lesson. You can get by just fine with the logs for your first few apps.
 
 #### One Final Tip
 
