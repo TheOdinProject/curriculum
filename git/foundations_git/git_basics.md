@@ -168,7 +168,9 @@ Setting this up is a good idea in case you accidentally omit the flag, but also 
 Setting this up leaves you the option to write your commit messages via either the terminal or VS Code.
 
 This command should set the configuration.  Type (or copy & paste) this command into your terminal and hit Enter (do include the quotes): 
-`git config --global core.editor "code --wait"`.
+~~~bash
+git config --global core.editor "code --wait"
+~~~
 There will be no confirmation or any output on the terminal after entering this command. 
 
 With that done, you can now choose to use either `git commit -m <your message here>` or `git commit` and enter your message with Visual Studio Code!
