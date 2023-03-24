@@ -199,6 +199,8 @@ cat ~/.ssh/id_ed25519.pub
 
 Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address.
 
+**Note:** Exclude your email address. Only copy from 'ssh-ed25519' upto before your email address. If your email address is included the GitHub might show "invalid ssh key".
+
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
 #### Step 2.5 Testing your key
