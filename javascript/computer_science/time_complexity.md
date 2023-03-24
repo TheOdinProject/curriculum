@@ -317,7 +317,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#what-is-big-o">What is Big O?</a>
 *   <a class="knowledge-check-link" href="#big-o-notation">What are the Big O Notations?</a>
 *   <a class="knowledge-check-link" href="#why-big-o">Why use Big O?</a>
-*   <a class="knowledge-check-link" href="#big-937-omega-notation">Why is Big Omega and why isn't it as useful?</a>
+*   <a class="knowledge-check-link" href="#big-937-omega-notation">What is Big Omega and why isn't it as useful?</a>
 
 ### Additional Resources
 
