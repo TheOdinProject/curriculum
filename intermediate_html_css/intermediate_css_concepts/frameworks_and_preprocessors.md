@@ -52,7 +52,7 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 ### Additional Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [Bootstrap documentation](https://bootstrapdocs.com/v3.0.3/docs/getting-started/)
+* [Bootstrap documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 * [Tailwind documentation](https://tailwindcss.com/docs)
 * [SASS documentation](https://sass-lang.com/documentation)
 

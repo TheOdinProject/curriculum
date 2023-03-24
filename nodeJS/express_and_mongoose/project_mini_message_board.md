@@ -49,38 +49,8 @@ Let's take a quick break from the main Express tutorial to practice what we've a
      messages.push({text: messageText, user: messageUser, added: new Date()});
      ~~~
 
-10.   At the end of the `router.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
-11.  At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-12.  Now you're almost ready to deploy your application on Heroku, but before doing that, you need to modify a few things just to make life easier for your deployment. First, you need to specify the exact version of Node that you're using in your `package.json` file; if you don't remember the version number, just find it using `node -v`. Then, add it to your `package.json` file, so that it will look similar to this:
-
-     ~~~json
-     "engines": { "node": "10.x.y" },
-     ~~~
-
-13.  Heroku usually requires a `Procfile`, which specifies all the commands that need to run on startup. With node.js, this file isn't obligatory since Heroku searches in the `package.json` file for a start script which is already defined in your app, but it's still good practice to add it to your project. Create it in your root directory, and add this single line to it:
-
-     ~~~
-     web: node ./bin/www
-     ~~~
-
-14.  You're finally ready to deploy to Heroku! You can first try it on local, using 
-
-     ~~~bash
-     heroku local web
-     ~~~
-
-     This will run your app locally using Heroku at http://localhost:5000/. Test it, and if everything works fine, you can finally create it:
-
-     ~~~bash  
-     heroku create
-     ~~~
-
-     Stage and commit the changes that you've made since starting this project, and then push it to your Heroku repository with:
-
-     ~~~bash  
-     git push heroku main
-     ~~~
-     
-
+10. At the end of the `router.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
+11. At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
+12. You'll learn how to deploy your app to the web in the [next lesson](https://www.theodinproject.com/lessons/nodejs-deployment), don't forget to come back and submit it to the submissions below once you're done!
 
 </div>

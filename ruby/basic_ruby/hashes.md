@@ -35,7 +35,7 @@ This example shows the most basic way to create a hash, which is to use the hash
 
 The above hash has four keys that point to four different values. For example, the first key, `"a random word"`, points to the value `"ahoy"`. As you can see, the values of a hash can be a number, a string, an array, or even another hash. Keys and values are associated with a special operator called a **hash rocket**: `=>`.
 
-Just like with an array, you can also create a new hash by calling the good old `#new` method on the `Hash` class.
+Just like with an array, you can also create a new hash by calling the good old `::new` method on the `Hash` class.
 
 ~~~ruby
 my_hash = Hash.new

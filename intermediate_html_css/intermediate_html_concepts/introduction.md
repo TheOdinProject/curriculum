@@ -14,5 +14,5 @@ You'll learn about animations, accessibility and responsive design in the second
 
 <div class="lesson-content__panel" markdown="1">
 1. Read through this [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to get an overview of what other HTML elements are available to you. No need to commit this to memory because you'll be learning the important parts as we go, but having a glance now will help the content stick later.
-2. Take a glance at a somewhat overwhelming looking [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf).  Again, we don't need you to learn anything specific, or memorize anything from this list, just use it to get a feel for what you still have left to learn!
+2. Take a glance at a somewhat overwhelming looking [CSS Cheat Sheet](https://htmlcheatsheet.com/css/).  Again, we don't need you to learn anything specific, or memorize anything from this list, just use it to get a feel for what you still have left to learn!
 </div>

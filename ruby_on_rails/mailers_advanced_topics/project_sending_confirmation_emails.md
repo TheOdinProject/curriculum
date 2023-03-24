@@ -19,9 +19,9 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
    ~~~ruby
    > PassengerMailer.confirmation_email(Passenger.first).deliver_now!
    ~~~
-9. Extra Credit: Deploy it to Heroku and try it out.  If you deploy to Heroku, there will be a bit of additional setup to get the [SendGrid add-on (see docs)](https://devcenter.heroku.com/articles/sendgrid) and make sure your configuration is set up properly.  The docs describe how to get that up and going.
+9. Extra Credit: Deploy it to a hosting provider and try it out. There will be a bit of additional setup to get something an email provider like [SendGrid](https://sendgrid.com/) working and sending emails in production for you.
 
-(One heads up: in order to use SendGrid you will probably have to give your credit card information to Heroku, if you haven't already. You don't have to pay for the service, but you do have to give your information.)
+(One heads up: in order to use an email provider you will probably have to give your credit card information, they do this to deter spammers. You don't have to pay for the service, but you do have to give your information.)
 </div>
 
 ### Additional Resources

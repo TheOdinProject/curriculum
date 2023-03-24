@@ -33,7 +33,7 @@ Write tests for the following, and then make the tests pass!
 
 3. A `calculator` object that contains functions for the basic operations: `add`, `subtract`, `divide`, and `multiply`. Each of these functions should take two numbers and return the correct calculation.
 
-4. A `caesarCipher` function that takes a string and returns it with each character "shifted". Read more about how a Caesar cipher works on [this website](http://practicalcryptography.com/ciphers/caesar-cipher/).
+4. A `caesarCipher` function that takes a string and a shift factor and returns it with each character "shifted". Read more about how a Caesar cipher works on [this website](http://practicalcryptography.com/ciphers/caesar-cipher/).
 
    1. Don’t forget to test wrapping from `z` to `a`.
    2. Don’t forget to test keeping the same case.

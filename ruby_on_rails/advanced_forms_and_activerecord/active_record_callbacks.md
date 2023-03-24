@@ -4,13 +4,14 @@ Callbacks are a common way for you to execute code at specific times in the life
 
 This is a brief section on a useful topic.  The Rails Guide reading provides good coverage of it, so our summary will be necessarily brief.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* What is a callback used for?
-* What are the major lifecycle stages of an Active Record object?
-* How do you build an "around" callback?
-* How do you specify a particular action to run a callback for?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What a callback is used for.
+- The major lifecycle stages of an Active Record object.
+- How to build an "around" callback.
+- How to specify a particular action to run a callback for.
 
 ### The Life Cycle of an Active Record Object
 
@@ -77,7 +78,7 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 
 <div class="lesson-content__panel" markdown="1">
   1. Read through the [Rails Guide on Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)
-  2. Read [this post from Samuel Mullen](http://samuelmullen.com/2012/01/guidelines-for-using-activerecord-callbacks/) on guidelines for using callbacks.
+  2. Read [this post from Samuel Mullen](https://samuelmullen.com/articles/guidelines-for-using-activerecord-callbacks) on guidelines for using callbacks.
 </div>
 
 ### Conclusion
