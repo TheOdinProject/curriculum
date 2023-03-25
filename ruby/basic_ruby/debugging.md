@@ -1,14 +1,14 @@
 ### Introduction
 Tracking down and fixing both errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Etymology) is a classic computer science tale worth reading if you haven't already.
 
-In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
+In this lesson, we'll cover some of the main techniques you can use to debug your code when you run into a problem.
 
 ### Learning Outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Describe what a stack trace is.
  - Explain how you can use a stack trace to debug your code.
- - Explain how you can use `puts` and Pry to debug your code.
+ - Explain how you can use `puts` and `binding.irb` to debug your code.
  - Explain how you should decide to start with debugging.
 
 ### Reading the Stack Trace
@@ -106,33 +106,17 @@ p "Using p:"
 p []
 ~~~
 
-### Debugging with Pry-byebug
-[Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.
+### Debugging with binding.irb
+You're hopefully familiar with the IRB tool for running a Ruby [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) in your terminal. So far, you've probably just used it as a standalone tool to test simple code out, but you can also use it to get an interactive debugging experience with a running Ruby program. To do so, you just need to add a line with `binding.irb` in your script. Let's look at an example.
 
-To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program. If you encounter an error like this:
-
-~~~bash
-Error: while executing gem ... (Gem::Exception)
-    OpenSSL is not available. Install OpenSSL and rebuild Ruby (preferred) or us non-HTTPS sources
-~~~
-
-Ensure that Ubuntu is up to date and upgraded by using these commands in order (These commands will require user password input):
-
-~~~bash
-sudo apt update
-sudo apt upgrade
-~~~
-
-To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
+To follow along with this, save the following code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
 
 ~~~ruby
-require 'pry-byebug'
-
 def isogram?(string)
   original_length = string.length
   string_array = string.downcase.split
 
-  binding.pry
+  binding.irb
 
   unique_length = string_array.uniq.length
   original_length == unique_length
@@ -141,61 +125,59 @@ end
 isogram?("Odin")
 ~~~
 
-When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session.
+When your code executes and gets to `binding.irb`, it will open an IRB session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.irb`. However, keep in mind that any code written *after* the `binding.irb` statement will not have been evaluated yet.
 
-For example, here `original_length` and `string_array` are in scope. However, `unique_length` is not in scope, because it is written after `binding.pry` and has not been evaluated yet.
+For example, here `original_length` and `string_array` are in scope. However, `unique_length` is not in scope, because it is written after `binding.irb`.
 
-Thus, adding a `binding.pry` line in our code is similar to creating a breakpoint in JavaScript.
-
-To see this point in action, try running the following:
+You can add `binding.IRB` at multiple points in the execution of your program. To see this in action, try running the following:
 
 ~~~ruby
-require 'pry-byebug'
-
 def yell_greeting(string)
   name = string
 
-  binding.pry
+  binding.irb
 
   name = name.upcase
   greeting = "WASSAP, #{name}!"
+
+  binding.irb
+
   puts greeting
 end
 
 yell_greeting("bob")
 ~~~
 
-During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.
+During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the first `binding.irb` call and were never evaluated.
 
-Using the same example above, you can use one of pry-byebug's commands to figure out what `name = name.upcase` will return. You won't need to quit the session or add another `binding.pry` beneath it. Enter `next` to step over to the next line.
+To proceed with the program, you can run the `exit` command, which will end the first IRB session and continue execution of the code. Because there's a 2nd `binding.irb`, it stops again. You can now see how `name` has changed and what `greeting` has been defined as.
 
 ~~~ruby
-[1] pry(main)> name
+[1] irb(main)> name
 => "bob"
-[2] pry(main)> greeting
+[2] irb(main)> greeting
 => nil
-[3] pry(main)> next
+[3] irb(main)> exit
 
      5: def yell_greeting(string)
      6:   name = string
      7:
-     8:   binding.pry
+     8:   binding.irb
      9:
     10:   name = name.upcase
- => 11:   greeting = "WASSAP, #{name}!"
-    12:   puts greeting
-    13: end
+    11:   greeting = "WASSAP, #{name}!"
+    12:
+ => 13:   binding.irb
+    14:
+    15:   puts greeting
+    16: end
 
-[4] pry(main)> name
+[4] irb(main)> name
 => "BOB"
 
 ~~~
 
-It stops after evaluating the next line. `name` now returns `BOB`. Calling `next` again will evaluate the following line. Try it out to know what `greeting` will return. Pry-byebug has a few more commands, play around with them to get a feel of what they do. You can find the commands with a short description of what they do [here](https://github.com/deivid-rodriguez/pry-byebug).
-
-As you can see, using Pry-byebug for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, Pry-byebug will probably allow you to debug quicker thanks to its interactive runtime environment. In such scenarios, Pry-byebug will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
-
-There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
+As you can see, using `binding.irb` for debugging achieves the same outcome as `puts` debugging: it allows you to confirm the assumptions you have about particular parts of your code. If your code is complex, `binding.irb` may allow you to debug more quickly thanks to its interactive runtime environment. In such scenarios, IRB will be easier to interact with than having to add `puts` statements everywhere and re-running your code each time.
 
 ### How to Start Debugging
 Programs generally go wrong due to two main reasons:
@@ -204,26 +186,19 @@ Programs generally go wrong due to two main reasons:
 
 2. The program runs but does not work the way you expect. For example, you expect a method to return a `2`, but it actually returns `6` when you run it. In this case, there is no stack trace.
 
-Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace is the first place you should look when debugging.</span> <span id='debugging-without-stack-trace'>If there's no stack trace, then `puts` and Pry are the easiest and quickest tools you can use to get yourself back up and running.</span>
+Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace is the first place you should look when debugging.</span> <span id='debugging-without-stack-trace'>If there's no stack trace, then `puts` and `binding.irb` are the easiest and quickest tools you can use to get yourself back up and running.</span>
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
-2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the configuration inside your VSCode's `launch.json` file. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
-4. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rbdg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-5. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
-6. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
-7. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+1.  Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
+1.  Let's practice debugging by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
-* Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.
-* Poke around [Pry's wiki](https://github.com/pry/pry/wiki) for a collection of resources that will help you master this invaluable gem.
 * Read this brilliant article about [reading Ruby error messages](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e).
 
 ### Knowledge Check
@@ -232,7 +207,8 @@ This section contains questions for you to check your understanding of this less
  * <a class='knowledge-check-link' href='#reading-the-stack-trace'>What is a stack trace?</a>
  * <a class='knowledge-check-link' href='#most-useful-stack-trace-line'>What is generally the most useful line in a stack trace?</a>
  * <a class='knowledge-check-link' href='#stack-trace-first-line-info'>What are the two things you can learn from the first line of a stack trace?</a>
- * <a class='knowledge-check-link' href='#debugging-with-puts'>How do `puts` and Pry help you in the debugging process?</a>
+ * <a class='knowledge-check-link' href='#debugging-with-puts'>How does `puts` help you in the debugging process?</a>
  * <a class='knowledge-check-link' href='#debugging-with-puts-and-nil'>What should you use instead of `puts` for `nil` values?</a>
+ * <a class='knowledge-check-link' href='#debugging-with-bindingirb'>How does `binding.irb` help you in the debugging process?</a>
  * <a class='knowledge-check-link' href='#debugging-with-stack-trace'>Where should you start with debugging if you encounter a runtime error?</a>
  * <a class='knowledge-check-link' href='#debugging-without-stack-trace'>Where should you start with debugging if your program runs but does not work the way you expect?</a>
