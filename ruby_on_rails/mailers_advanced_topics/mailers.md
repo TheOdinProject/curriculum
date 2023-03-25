@@ -4,14 +4,15 @@ Email is under-appreciated in its complexity on many levels. You certainly won't
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment.
+### Lesson Overview
 
-* What is a mailer?
-* How are mailers similar to controllers?  To models?
-* Why do you need both a text and an HTML version of your mailers?
-* What is an email provider used for?
-* What is the `letter_opener` gem used for?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What a mailer is.
+- How mailers are similar to controllers or to models.
+- Why you need both a text and an HTML version of your mailers.
+- What an email provider is used for.
+- What the `letter_opener` gem is used for.
 
 ### Brief Overview
 
