@@ -47,13 +47,13 @@ To get started, create a free replit account and click "Fork" or "Remix" in orde
 Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
 * [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
-* In this exercise, you will be working out of the file called troubleshooting.js
+  * In this exercise, you will be working out of the file called troubleshooting.js
 * [Exercise 2](https://replit.com/@OdinProject/enter-a-number#script.js)
-* You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
+  * You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
 * [Exercise 3](https://replit.com/@OdinProject/lets-do-some-math#math.js)
-* You will be working out of math.js
+  * You will be working out of math.js
 * [Exercise 4](https://replit.com/@OdinProject/direction-follow#follow.js)
-* You will be working out of follow.js
+  * You will be working out of follow.js
 
 </div>
 
