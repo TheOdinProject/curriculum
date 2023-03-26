@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency Basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little programme that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
 
 ~~~js
 function oddNumbersLessThanTen() {
