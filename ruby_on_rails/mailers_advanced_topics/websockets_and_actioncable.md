@@ -4,11 +4,13 @@ In a typical interaction between a client and website, a browser makes a request
 
 There are often times when you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have WebSockets, and Action Cable brings WebSockets to Rails in an easy to use way.
 
-### Learning Outcomes
+### Lesson Overview
 
-* What is a WebSocket?
-* What kinds of problems can WebSockets help you solve?
-* What is Action Cable?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What a WebSocket is.
+- What kinds of problems WebSockets can help you solve.
+- What an Action Cable is.
 
 ### What is a WebSocket?
 
@@ -79,7 +81,7 @@ So, if you are using devise, a neat way to verify a connection is to use the fol
 
 ~~~ruby
 def find_verified_user
-  if verified_user == env['warden'].user
+  if verified_user = env['warden'].user
     verified_user
   else
     reject_unauthorized_connection

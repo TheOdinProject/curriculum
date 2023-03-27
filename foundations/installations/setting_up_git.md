@@ -1,8 +1,10 @@
 ### Introduction
 
-Git is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are many lessons focused on Git later in the curriculum.
+[Git](https://git-scm.com/) is a very popular version control system. You'll become very familiar with this piece of software throughout TOP, so don't worry too much about understanding it at this point. There are many lessons focused on Git later in the curriculum.
 
-GitHub is a service that allows you to upload your code using Git and to manage your code with a nice web interface. GitHub and Git are not the same thing or even the same company.
+[GitHub](https://github.com/) is a service that allows you to upload, host, and manage your code using Git with a nice web interface. 
+
+Even though GitHub and Git sound like they could be the same thing, they are not the same thing or even created by the same company.
 
 ### Step 1: Install Git
 
@@ -39,7 +41,7 @@ Make sure your git version is **at least** 2.28 by running this command:
 git --version
 ~~~
 
-If the version number is less than 2.28, follow the instructions again. 
+If the version number is less than 2.28, follow the instructions again.
 
 </details>
 
@@ -49,7 +51,7 @@ If the version number is less than 2.28, follow the instructions again.
 </summary>
 
 #### Step 1.0: Install Homebrew
-  
+
 First, you'll need to install Homebrew.  Make sure you have checked the requirements [here](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
 ~~~bash
@@ -57,8 +59,8 @@ First, you'll need to install Homebrew.  Make sure you have checked the requirem
 ~~~
 
 **Note:** On an Apple Silicon Mac you will have an extra step to take.
-If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps". 
-Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix. 
+If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps".
+Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
 
 #### Step 1.1: Update Git
 
@@ -73,7 +75,7 @@ This will install the latest version of Git. Easy, right?
 #### Step 1.2: Verify version
 
 If you have just installed and/or updated Git from the previous step, first close that terminal window.
-  
+
 **Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
 
 ~~~bash
@@ -82,10 +84,10 @@ git --version
 
 If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
 
-1. Run `brew doctor`
-2. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
+1.  Run `brew doctor`
+2.  You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
 ![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
-3. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
+3.  Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
 
@@ -170,7 +172,7 @@ ls ~/.ssh/id_ed25519.pub
 
 If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
-To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are. 
+To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are.
 
 **Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C odin@theodinproject.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
 
@@ -185,7 +187,7 @@ ssh-keygen -t ed25519 -C <youremail>
 
 Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
-First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu. 
+First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu.
 
 Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
 
@@ -195,9 +197,9 @@ Now you need to copy your public SSH key. To do this, we're going to use a comma
 cat ~/.ssh/id_ed25519.pub
 ~~~
 
-Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address. 
+Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address.
 
-Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click `Add SSH key`. You're done! You've successfully added your SSH key!
+Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
 #### Step 2.5 Testing your key
 
@@ -213,5 +215,5 @@ You probably felt like you were way in over your head, and you probably didn't u
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
-* [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.
+-   [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
+-   [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.

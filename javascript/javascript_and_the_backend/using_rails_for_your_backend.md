@@ -34,6 +34,7 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+* [How to Build a fullstack Rails 7 backend with React Frontend](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04)
 * [Grabbing your Rails form CSRF token with JavaScript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
 * [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
 

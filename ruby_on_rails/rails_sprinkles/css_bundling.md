@@ -2,12 +2,14 @@
 
 You've already learned about the default way that Rails handles processing CSS as part of the Asset Pipeline. However with the continued growth of different CSS pre-processors and bundlers there was a gap to a conventional way to use these tools. As part of the Rails 7 release came an optional gem called [cssbundling-rails](https://github.com/rails/cssbundling-rails). This provides installers for the most common tools used for CSS. Here we'll learn how to use this gem to enhance the CSS we can use and write. We won't go into each tool as using that will depend on your needs but we will cover why you might reach for each of them.
 
-### Learning Outcomes
+### Lesson Overview
 
-* Know what tools can be installed using the cssbundling-rails gem.
-* Why you would use cssbundling over the standard asset pipeline way of handling stylesheets.
-* What are the downsides of using cssbundling-rails.
-* What are the cssbundling command line options.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What tools can be installed using the cssbundling-rails gem.
+- Why you would use cssbundling over the standard asset pipeline way of handling stylesheets.
+- The downsides of using cssbundling-rails.
+- The cssbundling command line options.
 
 ### Cssbundling tooling options
 

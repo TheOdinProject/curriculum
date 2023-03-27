@@ -2,17 +2,19 @@
 
 You've already had some familiarity with associations, especially the basic `has_one`, `has_many`, and `belongs_to` variety.  Thus far, you've probably mostly used these associations to grab collections of objects like a user's posts (`user.posts`).  There are a lot of other handy things that Rails lets you do with associations too.  This brief section will highlight some of the more useful methods that come along with associations.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* How does Rails normally know which table and foreign key to use when you have an association (e.g. `User.first.posts`)?
-* When would you need to specify the `:class_name` option in an association?
-* What about the `:foreign_key`?
-* What about the `:source`?
-* What is a polymorphic association and when would you use one?
-* What are two ways to use the association to create a new object instead of just calling `YourObject.new`?  Why is this useful? Which method is preferred?
-* How do you automatically destroy all a User's Post objects if that user is deleted?
-* How do you set up a self-association, like with Users following Users?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How Rails normally knows which table and foreign key to use when you have an association (e.g. `User.first.posts`).
+- Specifying the `:class_name` option in an association.
+- Specifying the `:foreign_key` option.
+- Specifying the `:source` option.
+- Polymorphic associations and when you would use them.
+- Two ways to use an association to create a new object instead of just calling `YourObject.new`.
+- When and why using an association to create a new object may be useful or preferred.
+- How to automatically destroy associated objects when an object is deleted.
+- How to set up a self-association, such as with Users following Users.
 
 ### Basic Stuff
 
@@ -161,7 +163,7 @@ We have to call our foreign key something a bit different from the normal case s
 "Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done simply:
 
 ~~~ruby
-  # app/models/comments.rb
+  # app/models/comment.rb
   class Comment < ActiveRecord::Base
     belongs_to :commentable, polymorphic: true
   end

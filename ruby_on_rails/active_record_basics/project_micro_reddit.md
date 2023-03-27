@@ -14,7 +14,7 @@ Example: You are building a blog for your startup which will have multiple autho
 
 This might look like:
 
-Note: We'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically*
+Note: We'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically
 
 * Authors
 
@@ -58,6 +58,14 @@ Remember, if you feel like you will be hard coding data multiple times, it's pro
 ### Project: Micro-Reddit
 
 Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of it called `micro-reddit`.  In this project, you'll build the data structures necessary to support link submissions and commenting.  We won't build a front end for it because we don't need to... you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
+
+Speaking of the console, here are a few convenient shortcut commands you can use:
+
+- `rails c` (for `rails console`)
+- `rails s` (for `rails server`)
+- `rails g ...` (for `rails generate ...`)
+
+Feel free to use whatever you feel more comfortable with. We'll still refer to the full commands in the following lessons for clarity.
 
 ### Your Task
 

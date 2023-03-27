@@ -1,6 +1,6 @@
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note" markdown="1">
 
@@ -12,7 +12,7 @@ We can only support the operating systems indicated above. Our instructions have
 
 #### IMPORTANT
 
-This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device.
+This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions or none of them if you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system.
 
 Pick your method of installation below:
 
@@ -28,186 +28,183 @@ Installing a VM is a simple process. This guide uses Oracle's VirtualBox program
 
 #### IMPORTANT
 
-Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 #### Step 1.1: Download VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1 "VirtualBox Downloads") and download VirtualBox for Windows hosts. Don't worry about it saying "(Old Builds)" - the version at the top (6.1.40 at the time of writing) is still fresh and supported by Oracle.
+[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines.
+There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider [using a different mirror](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one.
 
-### Step 2: Install VirtualBox and set up Xubuntu
+### Step 2: Install VirtualBox and Set Up Xubuntu
 
 #### Step 2.1: Install VirtualBox
 
-Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. During the installation, you’ll be presented with various options. Leave them in their default state unless you are certain about their behavior. As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
+Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
+
+During the installation, you’ll be presented with various options. We suggest dropping the Python Support as you don't need it by clicking on the drive icon with an arrow and choosing **Entire feature will be unavailable**:
+
+   ![The Python option is at the bottom of the list](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/01_turn_off_python.png)
+
+This is how your installation window should look like after turning it off:
+
+   ![You want the Python option to have a scarlet "X" on it](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/02_c_install.png)
+
+Make sure you install the application on `C:` drive, as it has tendency to error out otherwise. The virtual machine itself can be installed anywhere but we'll get to that soon.
+As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
 
 #### Step 2.2: Prepare VirtualBox for Xubuntu
 
 Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
 
-![The VirtualBox start screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/00.png)
+   ![The VirtualBox start screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/03_start_screen.png)
 
-Click on the **New** button to create a virtual operating system. Give it a name of **"Xubuntu"**, leave the **Machine Folder** as is, set the **Type** to **Linux** and be sure **Version** is set to **Ubuntu (64-bit)**. If the 64-bit option is not present, you'll likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). Continue by pressing **Next**, and choose the following options in the next steps:
+Click on the **New** button to create a virtual operating system. Give it a name of **Xubuntu**, if you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder. Leave **Skip Unattended Installation** as it is.
 
-![Xubuntu should make the Version be Ubuntu (64-bit) automatically](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/01.png)
+   ![Half of the options being greyed out is normal. Don't worry about it.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/04_install_start.png)
 
-#### Step 2.2.1: Memory size
+Continue by pressing **Next** and follow the next steps:
 
-Use 2048 MB or more if possible. Ideally, you want this amount to be somewhere between 2048 (the recommended amount by Xubuntu) and half of your computer’s maximum memory. For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
+#### Step 2.2.1: Unattended Guest OS Install Setup
 
- _(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
+You should see a window like this one now:
 
-   ![Please allow me to Google that for you](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/02.png)
+   ![No need to worry about the Product Key.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/05_unattended_install.png)
 
-#### Step 2.2.2: Hard disk
+You want to tick the **Guest Additions** and **Install in Background** options and also change your **Username** and **Password** fields to your liking. If you forget to change the default password, it will be `changeme`. Leave the **Guest Additions ISO**, **Hostname** and **Domain Name** as they are. Continue by pressing **Next**.
 
-Choose the **Create a virtual hard disk now** option.
 
-   ![The VirtualBox Create Hard Disk window 1](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/03.png)
+#### Step 2.2.2: Hardware
 
-#### Step 2.2.3: Hard disk file type
+   ![You might be tempted to give your VM more than 2 processors. Don't.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/06_hardware.png)
 
-Choose the **VDI (VirtualBox disk image)** option.
+In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-   ![The VirtualBox Create Virtual Hard Disk window 2](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/04.png)
+For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
 
-#### Step 2.2.4: Storage on physical hard disk
+_(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
 
-Choose the **Dynamically allocated** option.
+As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is - that is **unchecked** - and click **Next** to continue.
 
-   ![The VirtualBox Create Virtual Hard Disk window 3](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/05.png)
+#### Step 2.2.3: Virtual Hard Disk
 
-#### Step 2.2.5: File location and size
+   ![Don't Pre-allocate Full Size.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/07_virtual_hard_disk.png)
 
-We recommend **at least 30 GB** for the virtual hard disk.
+Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM **at least 30GB** of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
 
-   ![The VirtualBox Create Virtual Hard Disk window 4](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/07.png)
 
-After completing the last step, click the **Create** button. Your new virtual OS should now appear in the menu. With **Xubuntu** selected, click on the **Settings** button on the navigation bar, highlighted in red below.
+#### Step 2.2.4: Begin the Unattended Installation
 
-![The VirtualBox Home screen with Xubuntu](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/08.png)
+Click **Next** to be taken to a **Summary** page, on which you can simply click **Finish** to begin the process of unattended installation. The neat thing about it? It installs the OS and GuestAdditions on its own, without your input! Just let it do its own thing, you will know it is finished when you will see a login screen like this one in the **Preview** section:
 
- Click on the **System** tab and then the **Processor** tab. Increase the Processor(s) to 2. If this screen prevents you from increasing processors, you likely need to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). If you have a single core processor, you will not be able to change this setting.
+   ![The Preview section is in the top right of VirtualBox window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/08_preview_login.png)
 
-![The Xubuntu System Settings Processor window](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/09.png)
+Just click the green arrow called **Show** and you'll be presented with a VM window and the login screen. Log in with the password you've set up during the installation process and we'll have one bit of configuration left to do.
 
-If you have more than one monitor, you can create additional monitors by increasing the **Monitor Count** attribute in the **Display** tab. Please be sure to increase the **Video Memory** slider until it is in the green. **All other settings should remain default.**
+It is possible that you'll receive an error like this one after clicking **Finish**:
 
-![The Xubuntu System Settings Display window](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/10.png)
+   ![The error shows up on the right side of the VirtualBox window and can be a little differently worded.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/09_virtualization_error.png)
 
-With all that complete, click **OK** to save the changes.
+It means you have to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). [Alternative set of instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). If you have an AMD CPU, you're probably looking for something called `SVM` to enable, for Intel CPUs, `Intel Virtualization Technology`. The error should tell you what it is looking for. After you deal with it, just **Start** the machine and let things happen, you'll know that the process has finished when you see a login screen:
 
-You cannot install Xubuntu without mounting the ISO you downloaded earlier. We will do that now. Click on the section labeled **[Optical Drive] Empty** to the right of the text labeled **IDE Secondary Master** under **Storage** at the main VirtualBox screen, while Xubuntu is selected. This will open up a dropdown menu, click **Choose/Create a disk image...**.
+   ![You can already make your VM full screen or just maximize the window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/10_login_screen.png)
 
-![The VirtualBox Home Screen again](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/12.png)
 
-The next window that opens, click on the Blue Circle with the Green Plus labeled **Add**, and locate your Xubuntu ISO file you downloaded earlier. Choose the ISO and click open.
+### Step 3: Setting Correct sudo Permissions
 
-_(__note__: The `.iso` is most likely in your `Downloads` folder to which you'll have to navigate. If you can't find it there you either told the browser to save it somewhere else or forgot to download it - go back to **Step 1.2.** for a download link.)_
+Due to how the unattended installation is configured by VirtualBox, your account doesn't have proper `sudo` permissions. Think of them as the equivalent to `Run as administrator` on your Windows machine - you can imagine why it would be important to have them in order.
 
-![The Xubuntu - Optical Disk Selector screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/13.png)
+#### Step 3.1: Navigate to Users and Group
 
-You should now see the ISO on the Disk Selector screen. Click it and hit the **Choose** button at the bottom.
+First, click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
 
-![The Xubuntu - Optical Disk Selector screen but with an ISO loaded](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/14.png)
+   ![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/11_users_and_groups.png)
 
-You can now start the VM by right clicking on the icon in the menu and by clicking the large **Start** arrow at the top.
+#### Step 3.2: Manage Groups
 
-When the VM starts up, you'll see a black and white menu. Choose the top option, **Try or Install Xubuntu**. After a while you'll see a window where you can choose **Try Xubuntu** or **Install Xubuntu**. Pick **Install Xubuntu**.
+In the window that just came up you want to click on **Manage Groups**, click somewhere on the list and type `sudo` on your keyboard. That should bring you to the `sudo` entry like in the picture:
 
-All of the default options can be left alone, including the Installation type (**Erase disk and install Ubuntu**). It may sound dangerous, but the VM can only see the "Hard Drive" of the VM. This is the beauty of VMs: the ability to separate the physical space of your computer across many VMs. While installing, be sure to take note of the password and username you chose, we will need these later.
+   ![You will find the search functionality like this in many corners of Xubuntu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/12_sudo_group.png)
 
-The rest of the installation is pretty straightforward, but if you have any questions, you can find Ubuntu's official installation guide for Ubuntu [here](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0).
+#### Step 3.2: Add Yourself to sudo
 
-When the installation is finished it will ask you to restart. Click **Restart Now**. Then it should ask you to **"Please remove the installation medium, then press ENTER"**, simply press `Enter`. No need to remove anything. If it does not ask you to do so after a while, try pressing `Enter` anyway. The VM should now reboot.
+With `sudo` selected, click **Properties** and in the window that shows up tick your user's name like this:
 
-### Step 3: Install and Enable Guest Additions
+   ![No need to touch anything else.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/13_sudo_properties.png)
 
-Your regular operating system (Windows in this case) is called the **Host**, and all other operating systems that run as VMs are called **Guests**. To make working in your Guest OS easier, you need to install Guest Additions. It adds useful functionality to the Guest OS, such as higher resolutions - it will resize automatically to the size of its window and if you're using fullscreen, actually use the resolution of your screen for display.
+And then click **OK**. You will be greeted with a password prompt - it's the same one you logged in with.
 
-#### While your VM is running, do the following steps:
+#### Step 3.3: Reboot Your VM
 
-  1.  Click the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) on the top left of the desktop.
-  1.  Type `Software Updater` in the text field that opens up and click on the item with the same name.
-  1.  Install all available updates. If there are no available updates, move on to Step 5.
-  1.  If the **Software Updater** is stuck waiting for an **"unattended upgrade"** to finish, reboot the VM and start again from Step 1.
-  1.  Open a terminal with `Left Ctrl + Alt + T` or opening the **Whisker Menu** and typing in **Terminal** (the shortcut is obviously faster).
-  1.  Copy and paste this into the terminal: `sudo apt install linux-headers-$(uname -r) build-essential dkms`.
+Now that this is all done, you can close those windows and reboot your VM. You can open a `Terminal` window by doing <kbd>CTRL + ALT + T</kbd> and type in `reboot` and then press <kbd>Enter</kbd> to execute the command. Alternatively, you can click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , then click on the power icon in bottom right and pick **Restart**.
 
-      _(__note__: You cannot copy and paste between your guest OS and host OS (Windows), so when copying these commands you need to open this page in your VM through your **Web Browser** by pressing `Windows + W` (the `Windows` key should be between the `Left Ctrl` and `Left Alt` keys) or opening the **Whisker Menu** and typing in **Web Browser**. To paste into the terminal either right-click in the terminal and choose **Paste** or use `Shift + Left Ctrl + V`.)_
-  1.  Enter your password when it asks you to.
+   ![You might want to take note of other options that you see in this menu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/14_logout.png)
 
-      _(__note__: Your password will not be visible in the terminal. You will not see any feedback when you type. This is a security feature to protect your password. Press `Enter` when done.)_
-  1.  If you get the following errors: **Unable to locate package build-essential** and **Unable to locate package dkms**, paste in the following: `sudo apt install build-essential` and enter your password. Otherwise, move on to Step 9.
-  1.  Type `Y` when it asks you to and let it finish installing. Close the terminal when it is finished.
-  1.  Click **Devices** on the VM toolbar -> **Insert Guest additions CD image** in the menu bar.
-  1.  Wait for the CD image to mount, a window will show on the top right of the VM screen saying it was successfully mounted.
-  1.  Let's take a look at the contents of the CD image we just mounted. If you see a **File Manager** window appear, then confirm the presence of a file named `VBoxLinuxAdditions.run`. If that file is present, you can move on to step 13. If you do _not_ see a File Manager window appear, then navigate to the desktop by minimizing all opened windows, and then double-click on the folder called **Home** on VM's desktop. Afterwards, click on a CD under **Devices** on the left side of the window called `VBox_GAs_x.x.x` where the x's are the version number.  Now you can confirm that the file `VBoxLinuxAdditions.run` is present. If you see that file, move on to step 13.
-  1.  In the window we opened in step 12, click **File -> Open Terminal Here** - this should open a terminal with the prompt ending in something like `VBox_GAs_x.x.x` where the x's are the version number.
-  1.  In the newly opened terminal window, paste `sudo ./VBoxLinuxAdditions.run` and hit enter.
-  1.  Once it finishes, close the terminal.
-  1.  Right-click the CD starting with `VBox_GAs` under **Devices** in the **File Manager** window and click **Eject**. If you have closed that window in the meantime go back to point 12. to see how to bring it up again.
-  1.  Reboot your VM. Do this by opening your terminal (`Left Ctrl + Alt + T`) then typing in `reboot` and finally hitting `Enter`.
-  1.  You can now maximize the VM window, create additional displays, and use many other useful features. These options are available on the VM toolbar under **View** and **Device**.
+   ![Not the most exciting of menus, but take note of the Shut Down option.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/15_restart.png)
 
-#### NOTE:
+#### Step 3.4: Test Your Newly Gained sudo Privileges
 
--  If upon trying to start the VM you only get a black screen, close and "power off" the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
--  If you receive an error when trying to mount the Guest Additions CD image (**"Unable to insert the virtual optical disk"**):
+Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
-   **Suggestion 1:** Reboot your host (Windows) operating system. Afterward, ensure that there is no image file mounted in *both* Virtual Box as well as in the file system of the VM.
+~~~bash
+sudo apt update
+sudo apt upgrade
+~~~
 
-   **Suggestion 2:** In VirtualBox Manager, while the VM is not running, select Xubuntu then click Settings. In the **Storage** tab, under **Controller: IDE**, click on `VBoxGuestAdditions.iso` and make sure **Live CD/DVD** is ticked. Enabling this option causes the image to not be removed upon ejection, therefore it should be removed as the final step. To do so, once you have completed the Guest Additions installation and shut down your VM, you can find the image where you enabled **Live CD/DVD**: under **Controller: IDE**, by selecting the blue circle dropdown on the right side of the window and clicking **Remove Disk from Virtual Drive**. It is also suggested to uncheck **Live CD/DVD** at this point.
--  If you encounter the error **"VirtualBox-Error: Failed to open a session for the virtual machine..."** you might have to turn on 'virtualization' in your host's BIOS settings. If you are using Windows as your host OS you can follow [these instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968), otherwise just google how to turn it on for your specific OS.
--  Are you using a touchscreen? [Click here](https://www.youtube.com/watch?v=hW-iyHHoDy4) to watch a video on how to enable touchscreen controls for VirtualBox.
+You will be asked for your password after using the first one - type it in and use <kbd>Enter</kbd> to provide your terminal with the password. There is no visual feedback about what you're typing in but you are indeed doing so.
+
+After `sudo apt upgrade` runs for a while you will be asked whether you want to install things - do so to update your machine. If you have any issues, do not hesitate to come over to our [Discord server](https://discord.gg/V75WSQG) and ask for help in the `#virtualbox-help` channel.
 
 ### Step 4: Understand Your New VM
 
 Here are some tips to help you get started in a virtual environment:
 
--  All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
+-   Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
+    ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
+-   All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
+-   To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
+-   You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
+    -   **Inside the VM:** you can use <kbd>Shift + PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+    -   **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl + E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key + Shift + S</kbd> to take screenshots of portion of your screen.
+-   **Remember:** all of the development that you'll do related to TOP should be done in the VM.
+-   We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+-   If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
--  To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 
--  You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
-    -  **Inside the VM:** you can use `Shift + PrtSrc` to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
-    -    **On your host (Windows):** you can use a shortcut of the Host Key (`Right Ctrl + E`) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of `Windows + Shift + S` to take screenshots of portion of your screen.
+#### Frequent Issues/Questions:
 
--  **Remember:** all of the development that you'll do related to TOP should be done in the VM.
+-   If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+-   Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
+-   Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
+-   **VM performance tips**:
+    -   When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
+    -   Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
+    -   If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
+    -   Do look out for the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
+  -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
+-   If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
 
--  We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
-
--  If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
-
-### Step 5: Safely shutting down your VM
+### Step 5: Safely Shutting Down Your VM
 
 You don't pull the plug on your everyday use computer, right? Why would you do the same to your virtual computer? When you click the X button and just close out your VM, you might as well say goodbye to your files. In this section, you'll understand three ways you can shut off your VM.
 
-#### Option 1 - Shutting down from inside the VM with UI
+#### Option 1 - Shutting Down from Inside the VM with UI
 
-Clicking on the **Whisker Menu** ![The Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/5d27ddb08c8cf3c553537deb6156a5c7f7aa1bac/foundations/installations/prerequisites/imgs/whisker_menu_icon.png) and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**.
+Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**. Yep, that's the same place you might've used to **Restart** before!
 
-![Power Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_01.png)
-<br/>
-
-![User Session Popup](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_02.png)
-
-#### Option 2 - Shutting down from inside the VM with the Terminal
+#### Option 2 - Shutting Down from Inside the VM with the Terminal
 
 Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown.
 
-#### Option 3 - Shutting down from outside the VM
+#### Option 3 - Shutting Down from Outside the VM
 
 The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled **Close Virtual Machine**. This popup asks if you want to **Save the machine state**, **Send the shutdown signal**, or **Power off the machine**.
 
-![VM File Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_03.png)
+![VM File Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/19_vbox_close.png)
 
-<br/>
-
-![Close Virtual Machine Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/9ec5047b3ffdbd4ef4ecc609fb4f52f9b188830f/foundations/installations/prerequisites/imgs/VM_04.png)
+![Close Virtual Machine Menu](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/20_send_shutdown.png)
 
 To be safe, click the **Send the shutdown signal** radio and hit OK. This will safely power down your VM and your files will not get corrupted.
 
@@ -217,7 +214,7 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
 </summary>
 
-### Read this entire section before starting
+### Read This Entire Section Before Starting
 
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
@@ -297,15 +294,15 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
    -   Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-~~~bash
-sudo apt install ./google-chrome-stable_current_amd64.deb
-~~~
+       ~~~bash
+       sudo apt install ./google-chrome-stable_current_amd64.deb
+       ~~~
 
    -   Enter your password, if needed
 
    _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
 
-#### Step 3: Delete the installer file
+#### Step 3: Delete the Installer File
 
 ~~~bash
 rm google-chrome-stable_current_amd64.deb
@@ -340,7 +337,7 @@ _(__note__: Chrome is going to use this terminal to output various messages and 
    -   Double click the file **googlechrome.dmg**
    -   Drag the Google Chrome icon to the **Applications** folder icon
 
-#### Step 3: Delete the installer file
+#### Step 3: Delete the Installer File
 
    -   Open **Finder**
    -   Click the **arrow** next to Google Chrome in the sidebar

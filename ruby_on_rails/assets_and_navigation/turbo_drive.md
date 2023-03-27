@@ -20,11 +20,11 @@ If a lot of what follows seems confusing, don't worry! A lot of Turbo Drive happ
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is the purpose of Turbo Drive?
-- How does Turbo Drive handle page navigation?
-- What are the two kinds of page visit types in Turbo?
-- How can you disable Turbo Drive?
-- What is Turbolinks?
+- The purpose of Turbo Drive.
+- How Turbo Drive handles page navigation.
+- The two kinds of page visit types in Turbo.
+- How to disable Turbo Drive.
+- What Turbolinks is.
 
 ### Turbo Drive
 
@@ -124,7 +124,7 @@ While most link requests are issued as GET requests, forms are different. You of
 
 Turbo Drive intercepts all Form Submissions by default and submits them to the server on your behalf. As we advance into the form lessons, you must remember that Turbo expects the server to return an HTTP status of HTTP 303 or, in other words, a redirect.
 
-Think of it like this, after you submit a form usually you want to do be directed somewhere afterwards. That could be back to the same page with a blank form ready for another submission, or it could be to view the resource you just created with the form, but you expect to be redirected away from the current page with the completed form on it. There are two exceptions to this expectation:
+Think of it like this, after you submit a form usually you want to be directed somewhere afterwards. That could be back to the same page with a blank form ready for another submission, or it could be to view the resource you just created with the form, but you expect to be redirected away from the current page with the completed form on it. There are two exceptions to this expectation:
 
 1. When the server responds with a 4XX status code. This is common if you submit a form with the wrong information in it and the server will respond with a 422 Unprocessable Entity status.
 2. When the server responds with a 5XX status code of which the most common is 500 Internal Server Error.

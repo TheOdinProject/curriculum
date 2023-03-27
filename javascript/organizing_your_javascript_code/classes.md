@@ -29,10 +29,11 @@ This section contains a general overview of topics that you will learn in this l
 2.  [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax 
     confidently.
 
-3.  [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a 
-    great resource for going a little deeper. Look especially at the 'extends' and 'Mixins' sections. React (and other 
-    frameworks) uses classes in this way. You create your components and make them `extend` the core React 
-    component which gives you access to all their built-in functionality.
+3.  [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great
+    resource for going a little deeper. Look especially at the ['extends' reference page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends),
+    including the ['Mixins' section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends#mix-ins).
+    React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core
+    React component which gives you access to all their built-in functionality.
 
 4.  [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some 
     pros and cons for classes. [FunFunFunction's video on Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
@@ -57,7 +58,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://javascript.info/class">Describe computed names and class fields.</a>
 - <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
 - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Describe static properties.</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">How is inheritance used with classes?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance">How is inheritance used with classes?</a>
 - <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Why is favoring Composition over Inheritance suggested?</a>
 
 ### Additional Resources

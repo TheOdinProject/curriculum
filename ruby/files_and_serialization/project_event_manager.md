@@ -28,14 +28,10 @@ representatives for each attendee based on their zip code.
 
 ### Initial Setup
 
-Create a project directory folder named `event_manager` wherever you want to store
-your project. In the project directory, create another folder named `lib` and inside
-that folder create a plain text file named `event_manager.rb`. Using your command-line
-interface (CLI), you can enter the following commands:
+1. Create a new GitHub repository named `event_manager` and clone it to your `repos` directory. 
+2. In the new `event_manager` directory, create another folder named `lib` and inside that folder create a plain text file named `event_manager.rb`. You can create the directory and file by using the following commands:
 
 ~~~bash
-$ mkdir event_manager
-$ cd event_manager
 $ mkdir lib
 $ touch lib/event_manager.rb
 ~~~

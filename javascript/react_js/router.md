@@ -16,7 +16,7 @@ React Router is the standard routing library for React applications. By using Re
 
 ### How To Use React Router
 
-Let's go through it step by step. First of all, create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons. (Just leave the index.js and the App.js files)
+<span id="react-router">Let's go through it step by step. First of all, create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons. (Just leave the index.js and the App.js files)</span> 
 
 Once you've done that, let's create a new file called `Profile.js` inside the src directory, and add a basic functional component to it, which just contains an `h1` element.
 
@@ -52,6 +52,7 @@ While this is happening, we can create a new file called `RouteSwitch.js`, which
 Once the package is finished installing, you can add this code to your RouteSwitch.js file:
 
 ~~~javascript
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -95,7 +96,7 @@ root.render(
 
 Once this is done, go ahead and run `npm start` and check out both routes: the home route "/" and the profile route "/profile". Do this by changing the url in the browser accordingly.
 
-You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
+You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history of match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
 

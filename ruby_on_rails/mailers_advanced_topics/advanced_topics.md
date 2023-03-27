@@ -2,15 +2,16 @@
 
 There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* What are singular resources?
-* What are nested routes?
-* What are member routes and collection routes?
-* What is nesting layouts?
-* What is metaprogramming?
-* What are design patterns?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Singular resources.
+- Nested routes.
+- Member routes and collection routes.
+- Nesting layouts.
+- What metaprogramming is.
+- What design patterns are.
 
 ### Advanced Routing
 
@@ -33,7 +34,7 @@ The routes file line for a singular resource would look like:
 
 Just note that the word "resource" is singular and so is `dashboard`.  That trips up a lot of people who make the typo of writing "resource" instead of "resources" when they really want plural resources (which are more common).
 
-The `$ rake routes` for a singular resource would only contain 6 routes (since we don't use `#index` anymore), and you would no longer see any of the `:id` portions of the routes, e.g.
+The `$ rails routes` for a singular resource would only contain 6 routes (since we don't use `#index` anymore), and you would no longer see any of the `:id` portions of the routes, e.g.
 
 ~~~bash
   edit_dashboard  GET /dashboard/edit(.:format)  dashboards#edit
@@ -60,7 +61,7 @@ Sometimes it just makes sense for one resource to be nested inside of another.  
 
 Note that the `#resources` method now takes a block which will consist of a set of routes.
 
-When you visit the URL, you'll have to specify the `:id` parameter for BOTH objects.  The `$ rake routes` for the above would include something like:
+When you visit the URL, you'll have to specify the `:id` parameter for BOTH objects.  The `$ rails routes` for the above would include something like:
 
 ~~~ruby
   course_lesson  GET  /courses/:course_id/lessons/:id(.:format)  lessons#show
@@ -68,7 +69,7 @@ When you visit the URL, you'll have to specify the `:id` parameter for BOTH obje
 
 It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called simply `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
 
-View helpers are also automatically generated in a logical way (as you can see in your `$ rake routes` output).  When you use view helpers like `#course_lesson_path` you will need to specify both parameters in order, e.g. `course_lesson_path(1,3)`.
+View helpers are also automatically generated in a logical way (as you can see in your `$ rails routes` output).  When you use view helpers like `#course_lesson_path` you will need to specify both parameters in order, e.g. `course_lesson_path(1,3)`.
 
 Don't nest routes too deeply! If you're more than a layer or two deep, something should be different.  In fact, oftentimes you'll see only some of the controller actions nested -- only the ones that actually *need* the parent's ID to uniquely specify it.  For instance, you can grab a specific Lesson by knowing only its ID.  But to get all the lessons that are listed beneath a specific Course, you need the Course ID so it will have to be nested.  Same is true for creating lessons, since they will need a parent specified:
 
@@ -118,7 +119,7 @@ If you'd like to add a non-RESTful route to the whole collection of your resourc
 
 The `upcoming` route will map to the `courses#upcoming` action but will not take an `:id` parameter.
 
-If any of this seems confusing, just play around with them and run `$ rake routes` to see what is happening behind the scenes.
+If any of this seems confusing, just play around with them and run `$ rails routes` to see what is happening behind the scenes.
 
 #### Redirects and Wildcard Routes
 
@@ -133,7 +134,7 @@ You might want to provide a URL out of convenience for your user but map it dire
 
 Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is quite simple, it's a really straightforward method.  But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.
 
-In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rake routes` with questions.
+In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rails routes` with questions.
 
 ### Advanced Layouts: Nesting Layouts and Passing Information
 
