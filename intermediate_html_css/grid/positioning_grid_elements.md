@@ -41,7 +41,7 @@ Notice that the developer tools also show negative lines opposite from the posit
 
 ### Cells
 
-Cells are the smallest unit of measurement in a grid. You can think of grid cells like a cell in a spreadsheet or a square on a graph. By default each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid. So the element we marked with the letter "A" is a cell between row grid lines 1 and 2 and column grid lines 1 and 2. The element with the letter "H" is a cell between row grid lines 3 and 4 and column grid lines 2 and 3.
+The space shared by a single row track and a single column track is called a grid cell " would address the first. And "the element marked with the letter "A" is occupying a cell that lies in row track 1 (between row grid lines 1 and 2) and column track 1 (i.e. between column grid lines 1 and 2). The item marked with the letter "H" is in a cell at row track 3 (between row grid lines 3 and 4) and column track 2 (between column grid lines 2 and 3).
 
 But what happens if we wanted to change the order of our grid items? Or we want items to occupy more than one cell?
 
