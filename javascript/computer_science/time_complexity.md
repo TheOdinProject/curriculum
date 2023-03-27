@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency Basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little programme that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
 
 ~~~js
 function oddNumbersLessThanTen() {
@@ -307,7 +307,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript)]. It covers the common complexities with graphs and examples.
+1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
 2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
 3. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
