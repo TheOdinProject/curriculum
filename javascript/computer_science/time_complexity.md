@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency Basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little programme that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
 
 ~~~js
 function oddNumbersLessThanTen() {
@@ -54,9 +54,12 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
     3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
     4. We increase `currentNumber` by 1. That is 1 step.
 
-So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` is just one step. 27 + 5 + 1 = 33 steps.
 
-Therefore we can say our algorithm takes 33 steps to complete.
+3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
+
+So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
+
+Therefore we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
 
@@ -76,7 +79,7 @@ function oddNumbers(maxNumber) {
 
 How many steps does this algorithm take?
 
-You've probably realised the answer is it depends. If you  set `maxNumber` to be 10, like we did before, the number of steps is 33, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
+You've probably realised the answer is it depends. If you  set `maxNumber` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
 
 So what we really want to be able to measure is how the number of steps of our algorithm changes when the data changes. This helps us answer the question of whether the code we write will scale.
 
@@ -304,7 +307,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript)]. It covers the common complexities with graphs and examples.
+1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
 2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
 3. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 

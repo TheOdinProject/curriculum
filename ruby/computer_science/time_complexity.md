@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency Basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little programme that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
 
 ~~~ruby
 def odd_numbers_less_than_ten
@@ -54,9 +54,11 @@ Let's go back to our `odd_numbers_less_than_ten method`. How many steps does our
     3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
     4. We increase `current_number` by 1. That is 1 step.
 
-So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `current_number` is just one step. 27 + 5 + 1 = 33 steps.
+3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
-Therefore we can say our algorithm takes 33 steps to complete.
+So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
+
+Therefore we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
 
@@ -76,7 +78,7 @@ end
 
 How many steps does this algorithm take?
 
-You've probably realised the answer is it depends. If you  set `max_number` to be 10, like we did before, the number of steps is 33, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
+You've probably realised the answer is it depends. If you  set `max_number` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
 
 So what we really want to be able to measure is how the number of steps of our algorithm changes when the data changes. This helps us answer the question of whether the code we write will scale.
 
@@ -301,7 +303,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [A Rubyists Guide to Big-O Notation](https://www.honeybadger.io/blog/a-rubyist-s-guide-to-big-o-notation/)]. The last section talks about how this applies to database queries in a web app, which you won't have covered yet, but it's something to keep in mind as you move forward into the Rails materials.
+1.  Read through [A Rubyists Guide to Big-O Notation](https://www.honeybadger.io/blog/a-rubyist-s-guide-to-big-o-notation/). The last section talks about how this applies to database queries in a web app, which you won't have covered yet, but it's something to keep in mind as you move forward into the Rails materials.
 2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
 3.  This [Guide to Time Complexity for Ruby Developers](https://www.rubyguides.com/2018/03/time-complexity-for-ruby-developers/) gives some more insight into applying a Big-O notation to your own code.
 
