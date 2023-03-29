@@ -114,11 +114,13 @@ describe("App component", () => {
     expect(container).toMatchSnapshot();
   });
 
-  it("renders radical rhinos after button click", () => {
+  it("renders radical rhinos after button click", async () => {
+    const user = userEvent.setup();
+
     render(<App />);
     const button = screen.getByRole("button", { name: "Click Me" });
 
-    userEvent.click(button);
+    await user.click(button);
 
     expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   });
@@ -129,18 +131,22 @@ The tests speak for themselves. In the first test, we utilize snapshots to check
 
 It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` jest function could prove handy.
 
-On the second test, we see that `userEvent.click()` is directly invoked from the `userEvent` import. The [recommended approach](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent) for newer versions of the `userEvent` library is to use `userEvent.setup()`. We could rewrite the test as follows:
-
+Notice that the callback function for the second test is asynchronous. `user.click()` simulates the asynchronous nature of user interaction. 
+The testing library devs making their user-event APIs [asynchronous](https://github.com/testing-library/user-event/releases/tag/v14.0.0) is a recent feature. Some examples from other resources/tutorials might call `userEvent.click()` synchronously.
 
   ~~~javascript
-  it("renders radical rhinos after button click", async () => {
+  // This is the old approach of using userEvent.
+  it("renders radical rhinos after button click", () => {
     render(<App />);
     const button = screen.getByRole("button", { name: "Click Me" });
-    const user = userEvent.setup();
-    await user.click(button);
+
+    userEvent.click(button);
+
     expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   });
   ~~~
+
+The `setup()` is internally triggered here. This is still supported by React Testing Library to ease the transition from v13 to v14.
 
 ### What are Snapshots?
 
