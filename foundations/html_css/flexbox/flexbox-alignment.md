@@ -37,11 +37,11 @@ Because `justify-content` and `align-items` are based on the main and cross axis
 
 Check out this Scrim for an interactive demo of how `justify-content` and its different properties behave:
 
-<iframe src="https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
 
 This next Scrim covers the behavior of `align-items`, how to perfectly center an element on a page using flexbox and much more:
 
-<iframe src="https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9?embed=odin,mini-header,no-big-play,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
 
 
 #### Gap
@@ -79,9 +79,9 @@ Take your time going through the reading. There will be some review of the items
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">What is the difference between `justify-content` and `align-items`?</a>
--   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">How do you use flexbox to completely center a div inside a flex container?</a>
--   <a class="knowledge-check-link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">What's the difference between `justify-content: space-between` and `justify-content: space-around`?</a>
+-   [What is the difference between `justify-content` and `align-items`?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+-   [How do you use flexbox to completely center a div inside a flex container?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+-   [What's the difference between `justify-content: space-between` and `justify-content: space-around`?](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Additional Resources
 
@@ -94,4 +94,3 @@ This section contains helpful links to related content. It isn’t required, so 
 * This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
 * [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA) is a nice resource by Traversy Media.
 * [Learn flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU) by Kevin Powell explains flexbox very well in this video.
-* [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) An interactive guide to using the CSS Flexbox layout module.

@@ -4,7 +4,7 @@ Object constructors are one of about a million ways to start organizing your cod
 
 _However..._
 
-There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [This](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) article does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
+There are many people who argue _against_ using constructors at all. Their arguments boil down to the fact that if you aren't careful, it can be easy to introduce bugs into your code when using constructors. [Constructors are bad for JavaScript](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) does a pretty decent job of outlining the issues (spoiler alert: the author ends up recommending factory functions).
 
 One of the biggest issues with constructors is that while they _look_ just like regular functions, they do not behave like regular functions at all. If you try to use a constructor function without the `new` keyword, your program will not work as expected, but it won't produce error messages that are easy to trace.
 
@@ -23,6 +23,10 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the module pattern.
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
+
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/c2aaKzcV?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
 
 ### Factory Function Introduction
 
@@ -52,6 +56,8 @@ const Person = function(name, age) {
 
 const jeff = new Person('jeff', 27);
 ~~~
+
+Note that factory functions do not utilize [the prototype](https://www.theodinproject.com/lessons/node-path-javascript-objects-and-object-constructors#the-prototype), which does come with a performance penalty. However, as a general rule, this penalty isn't significant unless you're creating thousands of objects.
 
 #### Object Shorthand
 
@@ -226,7 +232,7 @@ const Nerd = (name) => {
 
 const jeff = Nerd('jeff');
 
-jeff.sayName(); //my name is jeff
+jeff.sayName(); // my name is jeff
 jeff.doSomethingNerdy(); // nerd stuff
 ~~~
 
@@ -284,15 +290,15 @@ In our calculator example above, the function inside the IIFE is a simple factor
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/'> Describe common bugs you might run into using constructors.</a>
-- <a class="knowledge-check-link" href='#factory-function-introduction'> Write a factory method that returns an object.</a>
-- <a class="knowledge-check-link" href='https://wesbos.com/javascript-scoping'> Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).</a>
-- <a class="knowledge-check-link" href='#closure'> Explain what Closure is and how it impacts private functions & variables.</a>
-- <a class="knowledge-check-link" href='#private-functions-variables'> Describe how private functions & variables are useful.</a>
-- <a class="knowledge-check-link" href='#inheritance-with-factories'> Use inheritance in objects using the factory pattern.</a>
-- <a class="knowledge-check-link" href='#the-module-pattern'> Explain the module pattern.</a>
-- <a class="knowledge-check-link" href='http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html'> Describe IIFE. What does it stand for?</a>
-- <a class="knowledge-check-link" href='#name-spacing'> Briefly explain namespacing and how it's useful.</a>
+- [Describe common bugs you might run into using constructors.](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/)
+- [Write a factory method that returns an object.](#factory-function-introduction)
+- [Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).](https://wesbos.com/javascript-scoping)
+- [Explain what Closure is and how it impacts private functions & variables.](#closure)
+- [Describe how private functions & variables are useful.](#private-functions-variables)
+- [Use inheritance in objects using the factory pattern.](#inheritance-with-factories)
+- [Explain the module pattern.](#the-module-pattern)
+- [Describe IIFE. What does it stand for?](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html)
+- [Briefly explain namespacing and how it's useful.](#name-spacing)
 
 ### Additional Resources
 

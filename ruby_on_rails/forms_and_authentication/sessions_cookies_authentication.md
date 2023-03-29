@@ -4,23 +4,24 @@
 
 In this lesson you'll learn about sessions, browser cookies,and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* What is a cookie?
-* What is a session?
-* How is the `session` "hash" different from the `cookies` "hash"?
-* What is the `flash` "hash" used for?
-* When would you need to use `flash.now` instead of `flash`?
-* What are controller filters and why are they useful?
-* How do you run a controller filter for just a specific few actions?
-* What's the difference between authentication and authorization?
-* Why is `#has_secure_password` a handy method?
-* What is the basic overview of how to authenticate a user with that method?
-* What additional steps (on a high level) are needed to actually "remember" a user after they've closed the browser?
-* What is the Devise gem and why is it useful?
+This section contains a general overview of topics that you will learn in this lesson.
 
-### Cookies, Sessions, and Flashes
+- What a cookie is.
+- What a session is.
+- The difference between the `session` "hash" and the `cookies` "hash".
+- Usages for the `flash` "hash".
+- When to use `flash.now` instead of `flash`.
+- Controller filters and why they are useful.
+- How to run a controller filter for just a specific few actions.
+- The difference between authentication and authorization.
+- Why `#has_secure_password` is a handy method.
+- A basic overview of how to authenticate a user with that method.
+- Additional steps needed (on a high level) to actually "remember" a user after they've closed the browser.
+- The Devise gem and why it is useful.
+
+### Cookies, Sessions and Flashes
 
 Cookies, Sessions and Flashes are three special objects that Rails gives you in which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 

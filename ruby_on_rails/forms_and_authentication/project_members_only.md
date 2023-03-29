@@ -21,7 +21,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
 3. Add devise to your Gemfile and install it in your app using set up instructions on the devise [README](https://github.com/heartcombo/devise)
 
-*note: At the time of writing, Devise and Turbo Drive don't play nicely together. When using devise with Turbo Drive you have two options. Either you can generate the devise views to your local app (covered in the devise README) and then for each view with a form disable turbo drive by adding the data attribute. This is time consuming but simple to follow. The other way is to create a custom controller to handle this and then use devise for that. [This GoRails episode](https://gorails.com/episodes/devise-hotwire-turbo) covers how you'd do that. You might not understand everything being done but it's a quicker solution. Hopefully Devise will be Rails 7 Turbo compatible by the time you read this*
+*note: For getting Devise to play nicely with Turbo Drive, be sure you read [this section](https://github.com/heartcombo/devise#hotwireturbo) of the Devise README. You’ll need to install the [Responders gem](https://github.com/heartcombo/responders). Make sure that in addition to adding the gem to your Gemfile that you also run the install generator. You’ll also need to specify delete requests on your links/buttons for signing the user out. More detailed information can be found in [Devise’s Guide for Hotwire Turbo Integration](https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D).*
 
 #### Authentication and Posts
 

@@ -11,7 +11,7 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 
 #### What is a function and how are they used in CSS?
 
-As in other programming languages, functions are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
+Similar to programming languages, functions in CSS are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
 ~~~css
 color: rgb(0, 42, 255);
@@ -20,7 +20,7 @@ background: linear-gradient(90deg, blue, red);
 
 Here, the value of `color` is the function `rgb()`, which accepts arguments in the form of numbers. It processes those numbers to calculate the rgb color corresponding to the three values given. Similarly, the `background` property has a value of `linear-gradient(90deg, blue, red)`. `linear-gradient` generates a gradient image using the parameters it's been given. It needs at least two color arguments: colors to transition between. Additionally, you can set the angle of direction of the gradient line (like we've done in the example), add more color values, etc.
 
-Unlike other programming languages you’ll use in TOP, CSS does not allow us to create our own functions. Instead, the language comes bundled with a list of premade functions that will help you solve the most common styling problems.
+Unlike programming languages you’ll use in TOP, CSS does not allow us to create our own functions. Instead, the language comes bundled with a list of premade functions that will help you solve the most common styling problems.
 
 Besides defining colors, <span id='responsive-design-knowledge-check'>there are several CSS functions that are useful when designing a website’s layout and sizing<span>. These become important when thinking about responsive design.
 
@@ -129,6 +129,7 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
+- [This video](https://www.youtube.com/watch?v=6QwMvf1Jq0M) by Steve Young gives a good visual overview of these functions.
 - [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
 
 ### Knowledge Check

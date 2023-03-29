@@ -2,12 +2,13 @@
 
 You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
 
-* Explain how files are processed in the Asset Pipeline.
-* Organize stylesheets and images in your app.
-* Display raw HTML-code in your app.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How files are processed in the Asset Pipeline.
+- Organization of stylesheets and images in your app.
+- How to display raw HTML-code in your app.
 
 ### The Asset Pipeline
 

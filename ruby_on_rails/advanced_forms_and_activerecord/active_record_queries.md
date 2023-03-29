@@ -10,14 +10,15 @@ In this lesson, we'll get into the more interesting and useful areas of Active R
 
 There's a lot of material to read and cover, but it basically follows the idea "anything you can do in SQL, you can do in Active Record".  They mostly use the same terminology as well.  Active Record just extends that functionality by giving you a suite of versatile methods (and concepts like Relations) to make it much more user-friendly along the way.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* What is an Active Record relation?
-* What is lazy evaluation?
-* What are some commonly used Rails query methods?
-* What are N+1 queries and why are they a concern?
-* What are scopes?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What an Active Record relation is.
+- What lazy evaluation is.
+- Commonly used Rails query methods.
+- N+1 queries and why they are a concern.
+- What scopes are.
 
 ### Relations and Lazy Evaluation
 
