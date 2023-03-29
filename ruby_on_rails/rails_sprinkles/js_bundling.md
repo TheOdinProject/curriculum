@@ -2,14 +2,15 @@
 
 This lesson will go over the new jsbundling-rails gem and some of the pros and cons of using this gem. The role of jsbundling-rails is to provide installers to set up esbuild, rollup, or webpack to allow bundling. After your bundler of choice is set up, your bundled output will use `app/assets/builds` to hold the bundle output at which you can refer to it using the standard asset pipeline approach.
 
-### Learning Outcomes
+### Lesson Overview
 
-*  How to use a bundler with an import map based Rails app.
-*  Understand why you might decide to use JS bundling.
-*  Why you would use JS bundling over import maps.
-*  Some of the downsides of using JS Bundling.
-*  Why Webpacker was used for Rails 6.
-*  What are the JS bundling options.
+This section contains a general overview of topics that you will learn in this lesson.
+
+-  How to use a bundler with an import map based Rails app.
+-  Why you might use JS bundling over import maps.
+-  Some of the downsides of using JS Bundling.
+-  Why Webpacker was used for Rails 6.
+-  What the JS bundling options are.
 
 ### JS Bundling Options
 

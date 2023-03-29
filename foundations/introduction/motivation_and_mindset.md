@@ -67,6 +67,26 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 *   Take a break: Allow your diffuse learning state to work on the problem.
 *   Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
+### A Note on AI Code Generation
+
+As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
+
+While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
+
+For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
+
+1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
+1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
+1. Learning to talk about the code that one writes is another important skill. In a professional environment, it is highly likely that you will be doing code reviews where you have to explain the how and why behind what you are presenting. Using the Odin community to ask good questions about your code when you require help can help develop this skill as well.
+1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good overall understanding to be able to determine if the output is good or bad.
+1. While learning how to provide good prompts to an AI tool is a skill, it is one that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
+1. AI tools are designed to answer questions and are not designed to help learners develop research and problem solving skills. If you ask an AI for information, it will provide information to you. If you ask a human, they may invite you to share your understanding of the problem and offer some guidance on how to discover a solution.
+1. Without practice in research, problem solving and critical thinking, interviews could be a struggle since it is very likely that applicants would not be allowed to use AI tools.
+
+We do not recommend using AI tools for your learning.
+
+There is an excellent Khan Academy lesson in Additional Resources on how to best use AI in an educational context which is worth reading. The articles are focused on a college based educational context and touch on academic honesty. Academic honesty, as a concept, is only relevant for The Odin Project in the sense that if you "cheat" on a project, it only impacts your own learning. Keep in mind that The Odin Project isn't about the output you produce. The curriculum's goal is to guide you on the journey of learning the how and why behind getting the projects done.
+
 ### Managing Your Study Time
 
 You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
@@ -150,4 +170,5 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 *   [Improve your typing skills with Keybr.com](https://www.keybr.com/) Use this keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
 *   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
-*   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground.
+*   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
+-   [AI for Education](https://www.khanacademy.org/college-careers-more/ai-for-education/x68ea37461197a514:ai-for-education-unit-1#x68ea37461197a514:ai-new-tools-for-a-new-age) Learn about some ways to use AI in a constructive way on your learning journey.

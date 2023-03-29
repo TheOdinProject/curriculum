@@ -1,20 +1,20 @@
 ### Introduction
 
-There are a few extremely common types of data that you will encounter in JavaScript, and these fundamentals lessons will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
+There are a few extremely common types of data that you will encounter in JavaScript, and these lessons on fundamentals will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Name the eight data types in JavaScript.
-* Understand the difference between single, double, and backtick quotes.
-* Embed a variable/expression in a string.
-* Understand what a method is.
-* Name the three logical operators.
-* Understand what the comparison operators are.
-* Understand what conditionals are.
-* Understand what nesting is.
-* Understand what truthy and falsy values are.
+- Name the eight data types in JavaScript.
+- Understand the difference between single, double, and backtick quotes.
+- Embed a variable/expression in a string.
+- Understand what a method is.
+- Name the three logical operators.
+- Understand what the comparison operators are.
+- Understand what conditionals are.
+- Understand what nesting is.
+- Understand what truthy and falsy values are.
 
 ### Strings
 
@@ -46,14 +46,14 @@ Be sure to do the lessons in order presented here. Pressing "run" at the top wil
 To get started, create a free replit account and click "Fork" or "Remix" in order to have access to the exercises.
 Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
-* [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
-* In this exercise, you will be working out of the file called troubleshooting.js
-* [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
-* You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
-* [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
-* You will be working out of math.js
-* [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
-* You will be working out of follow.js
+- [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
+  - In this exercise, you will be working out of the file called troubleshooting.js
+- [Exercise 2](https://replit.com/@OdinProject/enter-a-number#script.js)
+  - You will be working out of script.js, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
+- [Exercise 3](https://replit.com/@OdinProject/lets-do-some-math#math.js)
+  - You will be working out of math.js
+- [Exercise 4](https://replit.com/@OdinProject/direction-follow#follow.js)
+  - You will be working out of follow.js
 
 </div>
 
@@ -71,21 +71,21 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="https://javascript.info/types#summary">What are the eight data types in JavaScript?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/types#objects-and-symbols">Which data type is NOT primitive?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/types#the-null-value">What is the relationship between null and undefined?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#single_quotes_vs._double_quotes">What is the difference between single, double, and backtick quotes for strings?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">What is the term for embedding variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">Which type of quote lets you embed variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">How do you embed variables/expressions in a string?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you use escape characters in a string?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between the slice/substring/substr string methods?</a>
-* <a class="knowledge-check-link" href="http://javascript.info/logical-operators">What are the three logical operators and what do they stand for?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the comparison operators?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are truthy and falsy values?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are the falsy values in JavaScript?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_if_else.asp">What are conditionals?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax">What is the syntax for an if/else conditional?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements">What is the syntax for a switch statement?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator">What is the syntax for a ternary operator?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else">What is nesting?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/types#summary">What are the eight data types in JavaScript?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/types#objects-and-symbols">Which data type is NOT primitive?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/types#the-null-value">What is the relationship between null and undefined?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#single_quotes_vs._double_quotes">What is the difference between single, double, and backtick quotes for strings?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">What is the term for embedding variables/expressions in a string?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">Which type of quote lets you embed variables/expressions in a string?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings">How do you embed variables/expressions in a string?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string">How do you use escape characters in a string?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_string_methods.asp">What is the difference between the slice/substring/substr string methods?</a>
+- <a class="knowledge-check-link" href="http://javascript.info/logical-operators">What are the three logical operators and what do they stand for?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/comparison">What are the comparison operators?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are truthy and falsy values?</a>
+- <a class="knowledge-check-link" href="https://javascript.info/ifelse#boolean-conversion">What are the falsy values in JavaScript?</a>
+- <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_if_else.asp">What are conditionals?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax">What is the syntax for an if/else conditional?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements">What is the syntax for a switch statement?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator">What is the syntax for a ternary operator?</a>
+- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else">What is nesting?</a>

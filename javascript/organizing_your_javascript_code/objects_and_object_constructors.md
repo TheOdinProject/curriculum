@@ -47,6 +47,10 @@ This section contains a general overview of topics that you will learn in this l
 - Explain what `Object.create` does.
 - Explain what the `this` keyword is.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/co2624f87981575448091d5a2?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
 ### Objects as a Design Pattern
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:
@@ -244,8 +248,8 @@ If we had used `Object.create` in this example, then we could safely edit the `N
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read up on the concept of the prototype from the articles below. 
-   1. [JavaScriptIsSexy's article on the prototype](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/) is a straightforward introduction and demonstration of the concept. It also covers constructors again.. good time for a review! The important bits here, once you've covered the basics, are 'Prototype-based inheritance' and the 'Prototype chain'.
+1. Read up on the concept of the prototype from the articles below.
+   1. Read the article [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript) from Digital Ocean. This is a good review of prototype inheritance and constructor functions, featuring some simple examples.
    2. To go a bit deeper into both the chain and inheritance, spend some time with [JavaScript.Info's article on Prototypal Inheritance](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 2. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
    1. [Dmitri Pavlutin's article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and covers how `this` changes in various situations. You should have a solid understanding of the concept after reading it. Pay special attention to the pitfalls mentioned in each section.
@@ -255,12 +259,12 @@ If we had used `Object.create` in this example, then we could safely edit the `N
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#object-constructors'>Write an object constructor and instantiate the object.</a>
-- <a class="knowledge-check-link" href='#the-prototype'>Describe what a prototype is and how it can be used.</a>
-- <a class="knowledge-check-link" href='https://javascript.info/prototype-inheritance'>Explain prototypal inheritance.</a>
-- <a class="knowledge-check-link" href='#recommended-method-for-prototypal-inheritance'>Understand the basic do's and don't's of prototypical inheritance.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create'>Explain what `Object.create` does</a>
-- <a class="knowledge-check-link" href='https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/'>How does `this` behave in different situations?</a>
+- [Write an object constructor and instantiate the object.](#object-constructors)
+- [Describe what a prototype is and how it can be used.](#the-prototype)
+- [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
+- [Understand the basic do's and don't's of prototypical inheritance.](#recommended-method-for-prototypal-inheritance)
+- [Explain what `Object.create` does.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+- [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
 ### Additional Resources
 

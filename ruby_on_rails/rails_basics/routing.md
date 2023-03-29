@@ -10,15 +10,16 @@ If you open the routes file in your Rails app (located in `config/routes.rb`), y
 
 Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but when learning Rails it's easy to get hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
 
-* Configure a root route.
-* Configure RESTful routes for a resource.
-* Configure customized routes for a resource.
-* Name and describe the 7 RESTful controller actions.
-* Obtain a list of all possible routes your current Rails application provides you with.
-* Apply helper methods to create a navigation link on your webpage.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Configuring a root route.
+- Configuring RESTful routes for a resource.
+- Configuring customized routes for a resource.
+- The 7 RESTful controller actions.
+- How to obtain a list of all possible routes for your current Rails application.
+- Helper methods to create a navigation link on your webpage.
 
 ### Root
 

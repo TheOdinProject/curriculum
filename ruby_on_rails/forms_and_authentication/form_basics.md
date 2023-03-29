@@ -12,10 +12,10 @@ Most forms won't be that long or complicated for you, but it's useful to appreci
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Create forms using Rails
-* Handle forms that fail validations
-* Link forms and models
-* Use values submitted in a form
+- Form creation in Rails.
+- How to handle forms that fail validations.
+- Linking forms and models with the `form_with` helper.
+- How to access and use values submitted in a form.
 
 ### Forms in HTML
 

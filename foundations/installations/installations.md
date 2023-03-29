@@ -86,7 +86,7 @@ For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate 
 
 _(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
 
-As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is and click **Next** to continue.
+As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is - that is **unchecked** - and click **Next** to continue.
 
 #### Step 2.2.3: Virtual Hard Disk
 
@@ -130,7 +130,7 @@ In the window that just came up you want to click on **Manage Groups**, click so
 
 #### Step 3.2: Add Yourself to sudo
 
-With `sudo` selected, click **Preferences** and in the window that shows up tick your user's name like this:
+With `sudo` selected, click **Properties** and in the window that shows up tick your user's name like this:
 
    ![No need to touch anything else.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/13_sudo_properties.png)
 
