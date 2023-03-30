@@ -239,7 +239,7 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>
-- <a class="knowledge-check-link" href="https://reactjs.org/docs/introducing-jsx.html">What is JSX?</a>
+- <a class="knowledge-check-link" href="https://react.dev/learn/writing-markup-with-jsx">What is JSX?</a>
 - <a class="knowledge-check-link" href="#components">What is a React Component?</a>
 - <a class="knowledge-check-link" href="https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108">What is the difference between a functional and a class component?</a>
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
