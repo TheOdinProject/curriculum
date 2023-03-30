@@ -74,4 +74,4 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="#lifecycle">What is a component's lifecycle?</a>
 - <a class="knowledge-check-link" href="https://programmingwithmosh.com/javascript/react-lifecycle-methods/">Explain the most important lifecycle methods</a>
-- <a class="knowledge-check-link" href="https://reactjs.org/docs/react-component.html">Which tasks should be triggered at the various lifecycle stages of a component?</a>
+- <a class="knowledge-check-link" href="https://react.dev/reference/react/Component">Which tasks should be triggered at the various lifecycle stages of a component?</a>
