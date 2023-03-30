@@ -279,7 +279,7 @@ Using state in functional components is a bit different. Before the end of 2018,
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Go to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the lifecycle methods for now, we will discuss them in a future lesson. However, if you are excited and want to learn more, feel free to explore that on your own.
+1. Go through [this](https://react.dev/learn/passing-props-to-a-component) lesson. It dives into how to pass and read props to and from a component.
 2. Starting with [this lesson on props,](https://www.geeksforgeeks.org/reactjs-props-set-1/) continue through each of the lessons relating to state and props to build a good foundation for the upcoming lessons. Once again, you're welcome to explore more on your own if you wish.
 </div>
 
