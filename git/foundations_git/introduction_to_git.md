@@ -48,7 +48,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#git-local">Does Git work at a local or remote level?</a>
 *   <a class="knowledge-check-link" href="#github-remote">Does GitHub work at a local or remote level?</a>
 *   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=2ReR1YJrNOM">Why is Git useful for developers?</a>
-*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s">Why are Git and GitHub useful for a team of developers?</a>
+*   <a class="knowledge-check-link" href="https://youtu.be/1h9_cB9mPT8?t=162">Why are Git and GitHub useful for a team of developers?</a>
 
 ### Additional Resources
 
