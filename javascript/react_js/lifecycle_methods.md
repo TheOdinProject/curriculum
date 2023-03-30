@@ -36,7 +36,7 @@ Common tasks that are done in this method are:
 
 ### Render
 
-We are already familiar with the render method in React, each class component needs to contain a render method, and it is fairly simple to understand. The render method contains all the logic your component should display on the screen. It might also contain a null value, if you don't want to show anything. ([Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html))
+We are already familiar with the render method in React, each class component needs to contain a render method, and it is fairly simple to understand. The render method contains all the logic your component should display on the screen. It might also contain a null value, if you don't want to show anything. ([Conditional Rendering](https://react.dev/learn/conditional-rendering))
 
 ### ComponentDidUpdate
 
