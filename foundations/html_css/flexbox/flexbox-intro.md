@@ -76,6 +76,10 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
+### Assignment
+
+1. [This Flexbox tutorial](https://www.internetingishard.com/html-and-css/flexbox/) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -86,5 +90,3 @@ This section contains questions for you to check your understanding of this less
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-* [This Flexbox tutorial](https://www.internetingishard.com/html-and-css/flexbox/) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
