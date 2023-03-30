@@ -128,7 +128,7 @@ Ok, there is a little bit more going on here, but in the end, it works exactly a
 - The value of that prop should be some kind of function
 - We want this function to be attached to the click event of our button.
 
-**Special note 1:** In React, instead of using `addEventListener` to add event listeners, we assign them right in the JSX. Unlike adding them in HTML, these attributes must be camelCased! You can view a list of all supported events [here](https://reactjs.org/docs/events.html).
+**Special note 1:** In React, instead of using `addEventListener` to add event listeners, we assign them right in the JSX. Unlike adding them in HTML, these attributes must be camelCased! You can view a list of all supported events [here](https://react.dev/reference/react-dom/components/common).
 
 **Special note 2:** Did you notice how the function `this.props.onButtonClicked` was wrapped in curly braces? This is because JSX needs a way of knowing when you are using JavaScript, otherwise it will try to transpile your code into HTML elements, text nodes, or strings (or throw an error in some cases). In this case, we are referring to a JavaScript object property, which technically qualifies as "using JavaScript," so we must wrap it in curly braces.
 
