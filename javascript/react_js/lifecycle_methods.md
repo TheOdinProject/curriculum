@@ -58,7 +58,7 @@ A few examples are:
 
 <div class="lesson-content__panel" markdown="1">
 1. Read [this article](https://programmingwithmosh.com/javascript/react-lifecycle-methods/) for a great overview of lifecycle methods in React.
-2. The React documentation is always a good source as it's well structured. In [this article](https://reactjs.org/docs/react-component.html) you can read more about lifecycle methods from the people who made it!
+2. The React documentation is always a good source as it's well structured. In [this article](https://react.dev/reference/react/Component) you can read more about lifecycle methods from the people who made it!
 3. Code along with [this video](https://www.youtube.com/watch?v=m_mtV4YaI8c), it gives you a practical example about how those methods work and when React calls them.*
 
 *If you coded along with the last video, and you used `create-react-app` to setup your environment, you may have noticed that the last lifecycle method talked about, `componentDidCatch`, does not function the same way for you as in the video. You can read about it [here](https://stackoverflow.com/a/48354840). Also, while coding along, you may have noticed that whenever the counter component mounts for the first time, it automatically gets unmounted and remounted. This is happening because of a feature introduced in React 18. You can read about it [here](https://reactjs.org/docs/strict-mode.html#ensuring-reusable-state).
