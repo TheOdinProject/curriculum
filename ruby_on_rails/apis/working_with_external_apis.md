@@ -8,15 +8,16 @@ If you go to the documentation for an API, it can sometimes be a bit overwhelmin
 
 This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, please let us know [(make a pull request and add an additional resource at the bottom of this page)](https://github.com/TheOdinProject/curriculum)!
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment.
+### Lesson Overview
 
-* How do you set up your app to use an API?
-* How is API use typically controlled?
-* What is a RESTful API, and how can it make your life easier?
-* What is OAuth?
-* What is OmniAuth?
-* What is an SDK?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to set up your app to use an API.
+- How API use is typically controlled.
+- RESTful APIs and how they can make your life easier.
+- What OAuth is.
+- What OmniAuth is.
+- What an SDK is.
 
 ### First Steps
 

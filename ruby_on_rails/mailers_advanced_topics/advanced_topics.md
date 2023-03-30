@@ -2,15 +2,16 @@
 
 There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* What are singular resources?
-* What are nested routes?
-* What are member routes and collection routes?
-* What is nesting layouts?
-* What is metaprogramming?
-* What are design patterns?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Singular resources.
+- Nested routes.
+- Member routes and collection routes.
+- Nesting layouts.
+- What metaprogramming is.
+- What design patterns are.
 
 ### Advanced Routing
 

@@ -51,15 +51,15 @@ Go back to your "Library" example and refactor it to use `class` instead of plai
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">Describe the pros and cons of using classes in JavaScript.</a>
-- <a class="knowledge-check-link" href="https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65">How does JavaScript's object creation differ from a language like Java or Ruby?</a>
-- <a class="knowledge-check-link" href="https://javascript.info/class#not-just-a-syntactic-sugar">Explain the differences between object constructors and classes.</a>
-- <a class="knowledge-check-link" href="https://javascript.info/property-accessors">What are "getters" & "setters"?</a>
-- <a class="knowledge-check-link" href="https://javascript.info/class">Describe computed names and class fields.</a>
-- <a class="knowledge-check-link" href="https://javascript.info/class">Describe function binding.</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Describe static properties.</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance">How is inheritance used with classes?</a>
-- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=wfMtDGfHWpA">Why is favoring Composition over Inheritance suggested?</a>
+- [Describe the pros and cons of using classes in JavaScript.](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
+- [How does JavaScript's object creation differ from a language like Java or Ruby?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
+- [Explain the differences between object constructors and classes.](https://javascript.info/class#not-just-a-syntactic-sugar)
+- [What are "getters" & "setters"?](https://javascript.info/property-accessors)
+- [Describe computed names and class fields.](https://javascript.info/class)
+- [Describe function binding.](https://javascript.info/class)
+- [Describe static properties.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [How is inheritance used with classes?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance)
+- [Why is favoring Composition over Inheritance suggested?](https://www.youtube.com/watch?v=wfMtDGfHWpA)
 
 ### Additional Resources
 

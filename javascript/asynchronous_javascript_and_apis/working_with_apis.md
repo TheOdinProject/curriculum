@@ -15,40 +15,40 @@ This section contains a general overview of topics that you will learn in this l
 
 Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
-There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, the OpenWeatherMap API has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also add a state code or a country code) as a URL query string parameter, like so:
+There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, WeatherAPI has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also pass a zip code & even an ip-address!) as a URL query string parameter, like so:
 
 ~~~
-api.openweathermap.org/data/2.5/weather?q=London
+https://api.weatherapi.com/v1/current.json?q=london
 ~~~
 
-The specifics for using any API are usually documented on the service's website. [Check here for the OpenWeatherMap API documentation](https://openweathermap.org/current). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
+The specifics for using any API are usually documented on the service's website. [Check here for the WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
 You'll probably get an error like this:
 
 ~~~
-{"code":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+{{"error":{"code":1002,"message":"API key is invalid or not provided."}}}
 ~~~
 
 This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
 ~~~
-https://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
+https://api.weatherapi.com/v1/current.json?key=11111111111111111&q=london
 ~~~
 
-As you can imagine, an API key is random and unique to you. As such, services like OpenWeatherMap can correlate your API key to your requests of their data, including how much and how often you are requesting it.
+As you can imagine, an API key is random and unique to you. As such, services like WeatherAPI can correlate your API key to your requests of their data, including how much and how often you are requesting it.
 
-On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. OpenWeatherMap, for example, provides not only a free tier but a variety of paid tiers that can cost upwards of 2000 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
+On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. WeatherAPI, for example, provides not only a free tier but a variety of paid tiers that can cost up to 65 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, OpenWeatherMap's free plan only allows your app to make 60 requests per minute, for a monthly total of 1 million requests, while the "Enterprise" tier allows up to 200,000 requests per minute! The free tier also comes with basic forecasting data, but it does not include data for a 30-day forecast ([details here if you're interested](https://openweathermap.org/price)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
+As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, WeatherAPI's free plan only allows your app to make a monthly total of 1 million requests and limits the information provided, while the "Business" tier allows up to 10,000,000 requests per month and gives you all of the available information! The free tier also comes with basic hourly and daily forecasting data, but it does not include data for a 30-day forecast ([details here if you're interested](https://www.weatherapi.com/pricing.aspx)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
 Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
 
 At this point in the curriculum, though, this point is largely moot. After all, we're leveraging free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. The basics of securing and obfuscating API keys from GitHub and from your requests will be covered later in the curriculum.
 
-Back to OpenWeatherMap. Go ahead and [create an account](https://home.openweathermap.org/users/sign_up) to obtain an API key from their free tier. Once the key has been activated, which [can take up to 2 hours](https://openweathermap.org/faq), try making a new request with the city of your choice AND the API key passed in as query string parameters, like the example above. You'll hopefully see a proper response, something like:
+Back to WeatherAPI. Go ahead and [create an account](https://www.weatherapi.com/signup.aspx) to obtain an API key from their free tier. Once the key has been activated, try making a new request with the city of your choice AND the API key passed in as query string parameters, like the example above. You'll hopefully see a proper response, something like:
 
 ~~~JSON
-{"coord":{"lon":-77.73,"lat":38.77},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":75.74,"pressure":1017,"humidity":57,"temp_min":71.6,"temp_max":78.8},"visibility":16093,"wind":{"speed":3.87,"deg":291},"clouds":{"all":1},"dt":1504188900,"sys":{"type":1,"id":2886,"message":0.0053,"country":"US","sunrise":1504175992,"sunset":1504222878},"id":4775660,"name":"New Baltimore","cod":200}
+{"location":{"name":"London","region":"City of London, Greater London","country":"United Kingdom","lat":51.52,"lon":-0.11,"tz_id":"Europe/London","localtime_epoch":1676482062,"localtime":"2023-02-15 17:27"},"current":{"temp_c":13.0,"temp_f":55.4,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":210,"wind_dir":"SSW","pressure_mb":1022.0,"pressure_in":30.18,"precip_mm":0.0,"precip_in":0.0,"humidity":58,"cloud":0,"feelslike_c":11.7,"feelslike_f":53.1,"vis_km":10.0,"vis_miles":6.0,"uv":4.0,"gust_mph":12.1,"gust_kph":19.4}}
 ~~~
 
 Congratulations on making your first API request!

@@ -4,15 +4,15 @@ You learned about the basics of building forms in HTML and Rails in previous les
 
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
-### Learning Outcomes
+### Lesson Overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Build dropdown menus
-* Work with model objects
-* Make nested forms
-* Whitelist nested parameters
-* Delete records via form fields
+- Working with model objects in forms.
+- How to build dropdown menus in forms.
+- How to make a nested form.
+- How to whitelist nested parameters.
+- How to delete records via form fields.
 
 ### Prepopulating `select` Tags with Collections
 

@@ -57,6 +57,7 @@ I want to emphasize again that the learning never really stops but also that you
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+- [Introduction to using React with Typescript](https://profy.dev/article/react-typescript)
 * [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
 * More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
 * Learn More About DevOPs with [ this fantastic github repos](https://github.com/MichaelCade/90DaysOfDevOps)
