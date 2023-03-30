@@ -287,7 +287,7 @@ Using state in functional components is a bit different. Before the end of 2018,
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
-- An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based application.
+- An [article](https://react.dev/learn/thinking-in-react) by the React team on the thought process that should go into the developer's minds while building a React based application.
 
 ### Knowledge Check
 
