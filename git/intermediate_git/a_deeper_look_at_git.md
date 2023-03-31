@@ -37,7 +37,7 @@ Before we get started with the lesson, let's create a Git playground in which we
 ~~~bash
   $ touch test{1..4}.md
   $ git add test1.md && git commit -m 'Create first file'
-  $ git add test2.md && git commit -m 'Create send file'
+  $ git add test2.md && git commit -m 'Create second file'
   $ git add test3.md && git commit -m 'Create third file and create fourth file'
 ~~~
 
@@ -68,7 +68,7 @@ Now let's say we have commits further back in our history that we want to modify
 You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would simply remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like!
 
 ~~~bash
-edit eacf39d Create send file
+edit eacf39d Create second file
 pick 92ad0af Create third file and create fourth file
 ~~~
 
