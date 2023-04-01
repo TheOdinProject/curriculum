@@ -99,6 +99,8 @@ export default App;
 
 Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
+It's important to keep in mind that the second test must be asynchronous. This is because there's a difference between the time it takes for tests to run and the time it takes for React components to update and render. Tests will start running immediately after the initial React render is complete, but they won't cover the process of setting state and re-rendering. This means that if you remove the 'async' and 'await' from the test, you'll end up with an error. The await keyword must be placed before userEvent.click so that the test waits for the click to execute.
+
 ~~~javascript
 // App.test.js
 
@@ -114,11 +116,39 @@ describe("App component", () => {
     expect(container).toMatchSnapshot();
   });
 
-  it("renders radical rhinos after button click", () => {
-    render(<App />);
+  it("renders radical rhinos after button click", async () => {
+    render(<Demo />);
     const button = screen.getByRole("button", { name: "Click Me" });
 
-    userEvent.click(button);
+    await userEvent.click(button);
+
+    expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
+  });
+});
+~~~
+
+You may also use the act() function, which ensures that state updates and effects are executed before the test runs. If you want to use it, you must wrap the render function and any user interactions in act(). act() helps you avoid unexpected behaviour related to the fact that state changes and enqueued effects execute asynchronously. Here the render and userEvent.click() must be wrapped in act():
+
+~~~javascript
+// App.test.js
+
+describe("App component", () => {
+  it("renders magnificent monkeys", () => {
+    // since screen does not have the container property, we'll destructure render to obtain container for this test
+    const { container } = render(<App />);
+    expect(container).toMatchSnapshot();
+  });
+
+  it("renders radical rhinos after button click",  () => {
+    act(() => {
+      render(<App />);
+    });
+
+    const button = screen.getByRole("button", { name: "Click Me" });
+
+    act(() => {
+      userEvent.click(button);
+    });
 
     expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   });
