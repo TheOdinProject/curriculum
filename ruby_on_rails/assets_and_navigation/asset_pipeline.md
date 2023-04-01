@@ -60,22 +60,24 @@ Your stylesheet manifest file operates on the same principle -- it's available a
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
  *
- *= require_self
  *= require_tree .
+ *= require_self
  */
 ~~~
 
-Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put CSS sparingly into this top level file and instead use as much as possible the CSS stylesheet files created for you whenever you create a Controller in Rails. It generates a directory for views related to the controller where your HTML lives and it also creates a stylesheet in the same name. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat GIFs then Rails will also create a `cat.scss` stylesheet where you can put CSS related to your cat views.
+Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put CSS sparingly into this top level file and instead add your own CSS stylesheet files in an organized way. 
 
-You may be wondering why it creates an application.css main file but the extension for individual resources is `.scss`. This is [explained here](https://github.com/rails/sass-rails#important-note). Essentially for Rails to use the `require_tree` command it can only do this from a CSS file extension.
+For example, you can create stylesheets corresponding to each of your Controllers in Rails. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat GIFs, then you would also create a `cat.css` stylesheet where you can put CSS related to your cat views. Use `touch` or `echo` on the command line to add the stylesheet: `touch app/assets/stylesheets/cat.css`.
 
-Reading the comments, you can also see that a couple other directories are assumed to be a "local directory" and can be easily referenced as well, like the `lib/assets` and `vendor/assets` files.  Sometimes, if you start using a new gem (like some of the Twitter-Bootstrap gems) you manually need to add the new bootstrap stylesheets and JavaScripts to the manifest files to make sure your application actually includes them in the final output.
+Reading the comments in the stylesheet manifest file above, you can also see that a couple other directories are assumed to be a "local directory" and can be easily referenced as well, like the `lib/assets` and `vendor/assets` files.  Sometimes, if you start using a new gem you manually need to add the new stylesheets and JavaScripts to the manifest files to make sure your application actually includes them in the final output. In a later lesson, you will learn how to use common CSS frameworks like Bootstrap and Tailwind with Rails applications.
 
 #### The Output
 
