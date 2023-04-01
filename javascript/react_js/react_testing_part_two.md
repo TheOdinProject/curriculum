@@ -95,7 +95,7 @@ We mock the `onChange` handler using one of Jest's functions, `jest.fn()`. For t
 
 But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
 
-It looks like `userEvent.setup()` is invoked every single test. As an exercise, create your own [setup function](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent) to minimize code repetition.
+It is recommended to invoke `userEvent.setup()` before rendering the component, and it is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
 
 #### Mocking Child Components
 
