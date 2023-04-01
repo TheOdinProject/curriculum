@@ -131,8 +131,8 @@ The tests speak for themselves. In the first test, we utilize snapshots to check
 
 It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` jest function could prove handy.
 
-Notice that the callback function for the second test is asynchronous. `user.click()` simulates the asynchronous nature of user interaction. 
-The testing library devs making their user-event APIs [asynchronous](https://github.com/testing-library/user-event/releases/tag/v14.0.0) is a recent feature. Some examples from other resources/tutorials might call `userEvent.click()` synchronously.
+Notice that the callback function for the second test is asynchronous. This is because `user.click()` simulates the asynchronous nature of user interaction, which is now supported by the latest version of the testing library's user-event APIs. 
+As of [version 14.0.0](https://github.com/testing-library/user-event/releases/tag/v14.0.0), the user-event APIs have been updated to be asynchronous. It's worth noting that some examples from other resources or tutorials might still use the synchronous `userEvent.click()` method
 
   ~~~javascript
   // This is the old approach of using userEvent.
