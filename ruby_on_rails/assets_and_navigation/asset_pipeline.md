@@ -109,8 +109,7 @@ The basic idea is to be able to say "all this code/css/whatever inside here only
 Now this container and all the code inside of it is also within the `.user` class.  So we can set up our stylesheet to specifically address the `.container` class that's inside a `.user` class:
 
 ~~~css
-  /* app/assets/stylesheets/user.css.scss */
-  /* Note: We're not going to use SCSS code because we haven't covered it yet */
+  /* app/assets/stylesheets/user.css */
   .user .container{
     // style stuff
   }
