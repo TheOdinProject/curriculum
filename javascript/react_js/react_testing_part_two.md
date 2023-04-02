@@ -51,33 +51,39 @@ import userEvent from "@testing-library/user-event";
 import FavoriteInput from "./FavoriteInput";
 
 describe("Favorite Input", () => {
-  it("calls onChange correct number of times", () => {
+  it("calls onChange correct number of times", async () => {
     const onChangeMock = jest.fn();
+    const user = userEvent.setup();
+
     render(<FavoriteInput onChange={onChangeMock} />);
     const input = screen.getByRole("textbox");
 
-    userEvent.type(input, "Lion");
+    await user.type(input, "Lion");
 
     expect(onChangeMock).toHaveBeenCalledTimes(4);
   });
 
-  it("calls onChange with correct argument(s) on each input", () => {
+  it("calls onChange with correct argument(s) on each input", async () => {
     const onChangeMock = jest.fn();
+    const user = userEvent.setup();
+
     render(<FavoriteInput onChange={onChangeMock} />);
     const input = screen.getByRole("textbox");
 
-    userEvent.type(input, "Ox");
+    await user.type(input, "Ox");
 
     expect(onChangeMock).toHaveBeenNthCalledWith(1, "O");
     expect(onChangeMock).toHaveBeenNthCalledWith(2, "Ox");
   });
 
-  it("input has correct values", () => {
+  it("input has correct values", async () => {
     const onChangeMock = jest.fn();
+    const user = userEvent.setup();
+
     render(<FavoriteInput onChange={onChangeMock} />);
     const input = screen.getByRole("textbox");
 
-    userEvent.type(input, "Whale");
+    await user.type(input, "Whale");
 
     expect(input).toHaveValue("Whale");
   });
@@ -88,6 +94,8 @@ Three tests and we are done with this component. Take some time to figure out wh
 We mock the `onChange` handler using one of Jest's functions, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show another way we could've tested the component.
 
 But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
+
+It is recommended to invoke `userEvent.setup()` before rendering the component, and it is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
 
 #### Mocking Child Components
 
