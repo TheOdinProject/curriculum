@@ -134,17 +134,17 @@ It's also important to note that after every test, React Testing Library unmount
 Notice that the callback function for the second test is asynchronous. This is because `user.click()` simulates the asynchronous nature of user interaction, which is now supported by the latest version of the testing library's user-event APIs. 
 As of [version 14.0.0](https://github.com/testing-library/user-event/releases/tag/v14.0.0), the user-event APIs have been updated to be asynchronous. It's worth noting that some examples from other resources or tutorials might still use the synchronous `userEvent.click()` method
 
-  ~~~javascript
-  // This is the old approach of using userEvent.
-  it("renders radical rhinos after button click", () => {
-    render(<App />);
-    const button = screen.getByRole("button", { name: "Click Me" });
+~~~javascript
+// This is the old approach of using userEvent.
+it("renders radical rhinos after button click", () => {
+  render(<App />);
+  const button = screen.getByRole("button", { name: "Click Me" });
 
-    userEvent.click(button);
+  userEvent.click(button);
 
-    expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
-  });
-  ~~~
+  expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
+});
+~~~
 
 The `setup()` is internally triggered here. This is still supported by React Testing Library to ease the transition from v13 to v14.
 
