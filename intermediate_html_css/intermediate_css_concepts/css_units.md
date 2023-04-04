@@ -34,7 +34,7 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-1. If you're interested in learning more about CSS units and how to choose the best one for your project, I recommend watching this informative video: [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) It provides a great introduction to the topic and can serve as a useful additional resource.
+* Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
