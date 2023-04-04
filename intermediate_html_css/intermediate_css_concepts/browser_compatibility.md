@@ -63,7 +63,7 @@ Important to remember, that since mobile browsers are not a one to one compariso
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 - Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
-- Read this article [about browsers on iOS](https://adactio.medium.com/web-browsers-on-ios-b120a9a75cce).
+- Read this article [about browsers on iOS](https://adactio.com/journal/17428).
 </div>
 
 ### Additional Resources
