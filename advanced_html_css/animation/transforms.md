@@ -262,7 +262,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#two-dimensional-transforms">What are the four main functions of the `transform` property?</a>
-- <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#three-dimensional-transforms">What additional function is required for 3D transforms?</a>
+- [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
+- [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
+- [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
+- [What additional function is required for 3D transforms?](#three-dimensional-transforms)
