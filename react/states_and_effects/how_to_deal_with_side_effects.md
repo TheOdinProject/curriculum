@@ -2,7 +2,7 @@
 
 Certain components in react need to be interacting with other things outside the component itself. These other things can be anything from querying data from a server to synchronizing with the position of the component on the webpage or even sending some data to a server when necessary. This leads to the arising of a new concept called 'effects'. 
 
-While we are already familiar with rendering code and adding event handlers, it is not enough for all uses, like when you want to connect to your server and fetch messages to show to an user. Effects let you run some code to synchronize your component as necessary, on rendering or a reactive/state value's change rather than on a particular event.
+While we are already familiar with rendering code and adding event handlers, it is not enough for all uses, like when you want to connect to your server and fetch messages to show to a user. Effects let you run some code to synchronize your component as necessary, on rendering or a reactive/state value change rather than on a particular event.
 
 Similar to how we have the `useState` hook, React offers us a handy `useEffect` hook to use effects in our components.
 
@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Using Effect Saves The Day
 
-Let us take a component in question. We want to make a "Clock" component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` funtion to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
+Let us take a component in question. We want to make a "Clock" component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
 
 ~~~jsx
 import React, { useState } from "react";
@@ -35,7 +35,7 @@ export default function Clock() {
 }
 ~~~
 
-Alas, we see our counter going beserk. The reason this occurs is because we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered everytime the state updates, and we are updating the state every second, thus generating an exponentional growth.
+Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered everytime the state updates, and we are updating the state every second, thus generating exponentional growth.
 
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside an `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
@@ -57,11 +57,11 @@ export default function Clock() {
 }
 ~~~
 
-But, it still keeps growing too fast! This is where another argument of the `useEffect` comes in: the dependancy array.
+But, it still keeps growing too fast! This is where another argument of the `useEffect` comes in: the dependency array.
 
 By default, when an `useEffect` hook is used, it will run on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
 
-Fortunately, the second argument accepts an array of dependancies allowing the hook to re-render **only when those dependancies are changed**. So if you have a state variable and want to have some side-effect occur any time the state changes, you can use this hook and mention the state variable in the dependancy array.
+Fortunately, the second argument accepts an array of dependencies allowing the hook to re-render **only when those dependencies are changed**. So if you have a state variable and want to have some side-effect occur any time the state changes, you can use this hook and mention the state variable in the dependency array.
 
 In this case, we can pass an empty array, as we do not want the `useEffect` hook to run anytime other than the initial component render.
 
@@ -84,7 +84,7 @@ export default function Clock() {
 ~~~
 
 <div class="lesson-note" markdown="1">
-Usually, you do not need to add dependancies into your useEffect hook manually. Your linter should let you know about the dependacies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. In a general note, the following block does a good job summing this point up.
+Usually, you do not need to add dependencies to your useEffect hook manually. Your linter should let you know about the dependecies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
 
 ~~~jsx
 useEffect(() => {
@@ -101,11 +101,11 @@ useEffect(() => {
 ~~~
 </div>
 
-Oh, it's not going beserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behaviour caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
+Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
-Notice, that every time the useEffect hook runs, a new `setIinterval` is used.  When the component is unmounted, this `setInterval` is not stopped, it keeps incrementing. This is unnecessary behaviour can be prevented by simply clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
+Notice, that every time the useEffect hook runs, a new `setInterval` is used.  When the component is unmounted, this `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by simply clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
 
-You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is ran, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
+You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is run, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
 
 ~~~jsx
 import React, { useEffect, useState } from "react";
@@ -146,7 +146,7 @@ useEffect(
 
 ### But Do We Need The Effect?
 
-You may have heard effects also known as **side-effects**. The reason is, they are a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems, like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are a code-smell, error-prone and cause unnecessary performance issues.
+You may have heard effects also known as **side-effects**. The reason is, they are a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems, like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are code-smell, error-prone, and cause unnecessary performance issues.
 
 Let us address a few cases where `useEffect` does not need to be used.
 
@@ -206,7 +206,7 @@ Let us address a few cases where `useEffect` does not need to be used.
     }
     ~~~
 
-*   You do not need an effect to reset state based on a condition most of the times. You have learnt about keys in React. Just like using a key on a list's item, adding one to a component, based on the state on which it should be reset creates an unique version of that component for each change in the value of the state.
+*   You do not need an effect to reset the state based on a condition most of the time. You have learned about keys in React. Just like using a key on a list's item, adding one to a component, based on the state on which it should be reset creates a unique version of that component for each change in the value of the state.
 
 *   If you are having issues with managing your state and want to use an effect to update the state of a parent or some other non-child component, consider <span id="lifting-the-state">**lifting the state**.</span> As we know, in React, state flows in one direction, generally down the DOM. So the parents know of the data before passing it to the children. If multiple children are required to make use of a single state, it should be moved up to the parent that has all of the components that need it, instead of using escape hatches like an effect.
 
@@ -214,9 +214,10 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the [primary `useEffect` lesson](https://react.dev/learn/synchronizing-with-effects) given in the official React documentation. They go over most of the content already discussed but will provide more examples on them 
-2.  [This lesson of the React docs](https://react.dev/learn/lifecycle-of-reactive-effects) talks about the life of a component, the different stages at which rendering takes place and the role of `useEffect` in it.
-3.  [This article from Epic React](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependancy arrays are supposed to be used.
+1.  [This lesson of the React docs](https://react.dev/learn/lifecycle-of-reactive-effects) talks about the life of a component, the different stages at which rendering takes place, and the role of `useEffect` in it.
+2.  [This article from Epic React](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.
+3.  [Yet another article that explains a common mistake](https://dmitripavlutin.com/react-useeffect-infinite-loop) that beginners make, the infinite `useEffect` loop.
+4.  [This article](https://dev.to/colocodes/6-use-casesof-the-useeffect-reactks-hook-282o) goes over some examples of the `useEffect` hook being used.
 </div>
 
 ### Knowledge Check
