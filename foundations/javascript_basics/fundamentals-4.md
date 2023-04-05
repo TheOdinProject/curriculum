@@ -51,7 +51,7 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* Watch [this video](https://www.youtube.com/watch?v=Jv2uxzhPFl4&ab_channel=Fireship) to learn more about Rust - the language used to write the tests in this assignment. It also offers some advice for coding interviews that will be helpful in the future. 
 
 ### Knowledge Check
 
