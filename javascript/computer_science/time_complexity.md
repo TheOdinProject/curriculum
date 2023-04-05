@@ -4,7 +4,7 @@ You've written a lot of code up to this point, and you've hopefully moved on fro
 
 Code readability and maintainability are super important. After all, you will likely spend as much, if not more, time reading code than writing it. You need to make sure new features are integrated with ease.
 
-However, there is another consideration that can be just as important when writing code. Efficiency! You need to understand how the code you write will perform. You also need to understand how the choices you make impact that performance so that you can choose the right data structure and algorithm for your requirement.
+However, there is another consideration that can be just as important when writing code. Efficiency! You need to understand how the code you write will perform. You also need to understand how the choices you make impact performance so that you can choose the right data structure and algorithm for your requirement.
 
 In programming there are two ways we can measure the efficiency of our code. We can measure the time complexity or the space complexity.
 
