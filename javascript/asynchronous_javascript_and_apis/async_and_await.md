@@ -22,6 +22,36 @@ async function getPersonsInfo(name) {
 
 The second example looks much more like the kind of functions you are used to writing. However, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
 
+If you'd like to try running these functions on your own, paste the following code block representing a server before the function definitions. How this "server" works is not important and is just an abstraction. The goal here is so that you can see that both functions behave exactly the same and return a promise.
+
+~~~javascript
+const server = {
+  people: [
+    {
+      name: "Odin",
+      age: 20,
+    },
+    {
+      name: "Thor",
+      age: 35,
+    },
+    {
+      name: "Freyja",
+      age: 29,
+    },
+  ],
+
+  getPeople() {
+    return new Promise((resolve, reject) => {
+      // Simulating a delayed network call to the server
+      setTimeout(() => {
+        resolve(this.people);
+      }, 2000);
+    });
+  },
+};
+~~~
+
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
