@@ -93,11 +93,11 @@ One way to prevent this frustrating behavior is to give each individual item in 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#interative-elements-keyboard'>What are two things that interactive elements must have for keyboard users?</a>
-* <a class='knowledge-check-link' href='#focus-styles'>What are focus styles?</a>
-* <a class='knowledge-check-link' href='#focus-never-remove'>Why should you never completely remove focus styles from an element?</a>
-* <a class='knowledge-check-link' href='#tab-order'>What is the tab order?</a>
-* <a class='knowledge-check-link' href='#best-way-hide-content'>What is the best way to hide hidden content from assistive technologies?</a>
+* [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
+* [What are focus styles?](#focus-styles)
+* [Why should you never completely remove focus styles from an element?](#focus-never-remove)
+* [What is the tab order?](#tab-order)
+* [What is the best way to hide hidden content from assistive technologies?](#best-way-hide-content)
 
 ### Additional Resources
 

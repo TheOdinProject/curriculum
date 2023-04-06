@@ -89,8 +89,8 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#the-importance-of-semantics'>Why is semantic HTML important for accessibility?</a>
-* <a class='knowledge-check-link' href='#headings-and-landmarks'>What are the seven HTML elements that define landmarks on a page?</a>
+* [Why is semantic HTML important for accessibility?](#the-importance-of-semantics)
+* [What are the seven HTML elements that define landmarks on a page?](#headings-and-landmarks)
 
 ### Additional Resources
 

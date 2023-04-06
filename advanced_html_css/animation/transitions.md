@@ -93,10 +93,10 @@ What's important is that you have a solid understanding of these concepts and ca
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">Are all CSS properties animatable?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">What are the long and short-hand notations for transitions?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">What is the stacking context?</a>
-- <a class="knowledge-check-link" href="https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html">Why do you need to keep an eye on repaints?</a>
+- [Are all CSS properties animatable?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+- [What are the long and short-hand notations for transitions?](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+- [What is the stacking context?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+- [Why do you need to keep an eye on repaints?](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html)
 
 ### Additional Resources
 
