@@ -11,6 +11,17 @@ This section contains a general overview of topics that you will learn in this l
 - When to use reducers.
 - What is the useReducer hook.
 
+### What are reducers?
+
+Reducers are pure functions that take a _previous state_, an _action_ and return
+a _new state_.
+
+The action is usually an object with two properties, a _type_ describing what we want to do
+and a _payload_ that can be anything our reducer might need to produce the new state.
+
+In React reducers can be very useful when we have components that update their state in complex or many ways,
+allowing us to separate the state logic from the component itself.
+
 ### CUSTOM SECTION HEADING
 
 CUSTOM SECTION CONTENT.
