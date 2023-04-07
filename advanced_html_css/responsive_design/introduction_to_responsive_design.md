@@ -22,7 +22,7 @@ The smallest phones in common circulation rarely get smaller than `320px`, so th
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#what-is-responsive-design'>What is Responsive Design?</a>
+* [What is Responsive Design?](#what-is-responsive-design)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
