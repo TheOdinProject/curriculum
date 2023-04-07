@@ -3,6 +3,14 @@
 You have probably heard about reducers before. In this lesson we are going to
 learn _what_ they are, _when_ to use them and _how_ to use them in React with the useReducer hook.
 
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What are reducers.
+- When to use reducers.
+- What is the useReducer hook.
+
 ### CUSTOM SECTION HEADING
 
 CUSTOM SECTION CONTENT.
