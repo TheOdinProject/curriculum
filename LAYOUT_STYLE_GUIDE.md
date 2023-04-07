@@ -22,6 +22,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Images](#images)
 1. [Codepen embeds](#codepen-embeds)
 1. [Maintainer instructions](#maintainer-instructions)
+1. [Mermaid diagrams](#mermaid-diagrams)
 1. [English writing style](#english-writing-style)
 
 
@@ -414,6 +415,16 @@ Finally, the **HTML (Recommended)** code option must be the one that is copy + p
 When a user adds a Codepen embed to a lesson, a maintainer should fork the embed to the official [TOP Codepen](https://codepen.io/TheOdinProjectExamples/) account. When necessary, the name of new pens should be updated to better reflect their purpose, e.g. `Simple SVG Example` for a pen showing a simple SVG or `max-width | CSS Responsiveness` for a pen about the `max-width` property.
 
 After forking a pen to the TOP account and ensuring the embeds options from above are selected, the lesson the original embed is from should be updated to include the forked, TOP version instead.
+
+## Mermaid diagrams
+
+To add a Mermaid diagram into a lesson, first visit the [Mermaid docs](https://mermaid.js.org/syntax/flowchart.html) to learn the diagram syntax for the specific type of diagram you're wanting to add. After you've figured out the content you want in the diagram, you can add it to a lesson's markdown by surrounding the content with `<pre>` tags with a `class="mermaid"` ie:
+```
+<pre class="mermaid">
+  mermaid diagram content here
+</pre>
+```
+This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram looks right with the lesson content before contributing.
 
 ## English writing style
 
