@@ -70,17 +70,18 @@ Whether you use `useState` or `useReducer` is up to you, they're both equivalent
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE ITEM
-    *   AN INSTRUCTION ITEM
-2. A PRACTICE ITEM
-    * A TASK ITEM
+1. Read through the React docs [Extracting state logic into a reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer) to learn more
+about how to use reducers in React and how to refactor `useState` into `useReducer`. Don't forget to complete the challenges at the end.
+
+2. Read the [useReducer](https://react.dev/reference/react/useReducer) React docs to learn more about this hook. Pay close attention to the
+[troubleshooting](https://react.dev/reference/react/useReducer#troubleshooting) section for common problems you might encounter.
+
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="A KNOWLEDGE CHECK URL">A KNOWLEDGE CHECK QUESTION.</a>
 
 ### Additional Resources
 
