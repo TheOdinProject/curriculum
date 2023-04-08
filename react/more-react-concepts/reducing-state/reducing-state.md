@@ -34,7 +34,7 @@ function reducer(state, action) {
           return { count: action.value }
         }
       default: {
-          throw error('unkown action: ' + action.type);
+          throw error('unknown action: ' + action.type);
         }
     }
 }
