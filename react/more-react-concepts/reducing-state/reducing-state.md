@@ -13,8 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What are reducers?
 
-Reducers are pure functions that take a _previous state_, an _action_ and return
-a _new state_.
+Reducers are pure functions that take a previous state and an action to return a new state.
 
 The action is an object with a _type_ property describing what the user did. This object can also contain
 any other properties that our reducer might need to produce the new state.
