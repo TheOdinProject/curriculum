@@ -418,7 +418,7 @@ After forking a pen to the TOP account and ensuring the embeds options from abov
 
 ## Mermaid diagrams
 
-To add a Mermaid diagram into a lesson, first visit the [Mermaid docs](https://mermaid.js.org/syntax/flowchart.html) to learn the diagram syntax for the specific type of diagram you're wanting to add. After you've figured out the content you want in the diagram, you can add it to a lesson's markdown by surrounding the content with `<pre>` tags with a `class="mermaid"` ie:
+To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.js.org/syntax/flowchart.html) to learn the diagram syntax for the specific type of diagram you want to add. After you've figured out the content you want in the diagram, you can add it to a lesson's markdown by surrounding the content with `<pre>` tags with a `class="mermaid"` ie:
 ```
 <pre class="mermaid">
   mermaid diagram content here
