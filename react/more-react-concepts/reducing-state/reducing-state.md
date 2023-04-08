@@ -41,8 +41,16 @@ function reducer(state, action) {
 
 Remember, reducers are pure functions so we shouldn't mutate the state.
 
-In React reducers can be very useful when we have components that update their state in complex or many ways,
-allowing us to separate the state logic from the component itself.
+### When to use reducers?
+
+If a component only needs to update its state in a couple of simple ways, you don't need to use reducers.
+The opposite can be said when a component has become too big, hard to read or debug because of its state logic.
+
+By using reducers, we can separate the state logic and even store it in a different file or directory, leading 
+to smaller components that are easier to read.
+
+Since reducers use _actions_, we can easily track any state-related bugs back to the dispatched action,
+and because our reducers are just pure functions, we can test them in isolation.
 
 ### The useReducer hook
 
@@ -60,8 +68,8 @@ function handleClick() {
 }
 ~~~
 
-Similarly to `useState`, the `dispatch` function _only updates the state in the next render_, and it uses
-`Object.is` to determine if the state has changed, if it hasn't, then it won't trigger a re-render.
+Similarly to the `set` function in `useState`, React _only updates the state in the next render_ after calling the `dispatch` function.
+Keep in mind that these functions use `Object.is` to determine if the state has changed, if it hasn't, then the component won't re-render.
 
 Whether you use `useState` or `useReducer` is up to you, they're both equivalent and you might use them both in the same component.
 
