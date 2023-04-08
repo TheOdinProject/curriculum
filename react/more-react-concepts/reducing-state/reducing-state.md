@@ -27,7 +27,7 @@ function reducer(state, action) {
       case 'incremented_count': {
         return { count: state.count + 1 }
         }
-      case 'decreased_count': {
+      case 'decremented_count': {
           return { count: state.count - 1 }
         }
       case 'set_count': {
