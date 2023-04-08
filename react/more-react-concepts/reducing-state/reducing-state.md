@@ -40,7 +40,7 @@ function reducer(state, action) {
 }
 ~~~
 
-Remember, reducers are pure functions, so we shouldn't mutate the state, instead we should return a new one.
+Remember, reducers are pure functions so we shouldn't mutate the state.
 
 In React reducers can be very useful when we have components that update their state in complex or many ways,
 allowing us to separate the state logic from the component itself.
@@ -50,14 +50,21 @@ allowing us to separate the state logic from the component itself.
 React allows us to use reducers in our components through a hook called `useReducer`. This hook takes a reducer function and
 an initial state as arguments, then returns an array with two values: the current state and a `dispatch` function.
 
-We can use this `dispatch` function to send actions to our reducer and update our state.
+This `dispatch` function receives an **action** object as argument, which is passed to our reducer function and 
+the returned value from it is used to update the state.
 
 ~~~js
 const [state, dispatch] = useReducer(reducer, { count: 0 });
 
 function handleClick() {
   dispatch({ type: 'incremented_count' });
+}
 ~~~
+
+Similarly to `useState`, the `dispatch` function _only updates the state in the next render_, and it uses
+`Object.is` to determine if the state has changed, if it hasn't, then it won't trigger a re-render.
+
+Whether you use `useState` or `useReducer` is up to you, they're both equivalent and you might use them both in the same component.
 
 ### Assignment
 
