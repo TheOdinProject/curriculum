@@ -9,7 +9,7 @@ This section contains a general overview of topics that you will learn in this l
 
 * What are reducers.
 * When to use reducers.
-* What is the useReducer hook.
+* What is the `useReducer` hook.
 
 ### What are reducers?
 
