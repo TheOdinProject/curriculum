@@ -148,12 +148,12 @@ You should also be careful not to give an element `aria-hidden='true'` if it is 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#wai-aria-purpose'>What purpose does WAI-ARIA serve?</a>
-* <a class='knowledge-check-link' href='#aria-limitations'>What are the four things ARIA can't do?</a>
-* <a class='knowledge-check-link' href='#the-five-rules-of-aria'>What are the five rules of ARIA?</a>
-* <a class='knowledge-check-link' href='#the-accessibility-tree'>What is the accessibility tree?</a>
-* <a class='knowledge-check-link' href='#aria-labels'>What are the differences between the three ARIA labels?</a>
-* <a class='knowledge-check-link' href='#hiding-content-from-the-accessibility-tree'>What does the `aria-hidden` attribute do?</a>
+* [What purpose does WAI-ARIA serve?](#wai-aria-purpose)
+* [What are the four things ARIA can't do?](#aria-limitations)
+* [What are the five rules of ARIA?](#the-five-rules-of-aria)
+* [What is the accessibility tree?](#the-accessibility-tree)
+* [What are the differences between the three ARIA labels?](#aria-labels)
+* [What does the `aria-hidden` attribute do?](#hiding-content-from-the-accessibility-tree)
 
 ### Additional Resources
 

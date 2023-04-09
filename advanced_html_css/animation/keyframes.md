@@ -129,9 +129,9 @@ Now let's make some cool animations! Go to the [CSS exercises repository](https:
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">What are the long and short-hand notations for CSS animations?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes">How do you add keyframes to an animation?</a>
-- <a class="knowledge-check-link" href="#animations-vs-transitions">When would you use an animation over a transition (and vice versa)?</a>
+- [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
+- [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)
 
 ### Additional Resources
 
