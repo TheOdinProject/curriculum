@@ -39,10 +39,10 @@ export default function App() {
 	}
 
 	return (
-			<>
-					<Header cartItemsCount={cartItems.length} />
-					<ProductDetail addToCart={addToCart} products={products} />
-			</>
+		<>
+			<Header cartItemsCount={cartItems.length} />
+			<ProductDetail addToCart={addToCart} products={products} />
+		</>
 	)
 }
 ~~~
@@ -56,26 +56,26 @@ Our Header might look like this:
 
 function Links({ cartItemsCount }) {
 	return (
-			<ul>
-					{/* Links */}
-					<li>
-							<Link to={/* Link to the cart */}>
-									<span>Cart</span>
-									<div class="cart-icon">{cartItemsCount}</div>
-							</Link>
-					</li>
-			</ul>
+		<ul>
+			{/* Links */}
+			<li>
+				<Link to={/* Link to the cart */}>
+					<span>Cart</span>
+					<div class="cart-icon">{cartItemsCount}</div>
+				</Link>
+			</li>
+		</ul>
 	)
 }
 
 export default function Header({ cartItemsCount }) {
 	return (
-			<header>
-					{/* Other header elements */}
-					<nav>
-							<Links cartItemsCount={cartItemsCount} />
-					</nav>
-			</header>
+		<header>
+			{/* Other header elements */}
+			<nav>
+					<Links cartItemsCount={cartItemsCount} />
+			</nav>
+		</header>
 	)
 }
 ~~~
@@ -166,11 +166,11 @@ export default function App() {
 	}
 
 	return (
-			{/* We are going to pass the things that we want to inject to these components using the value prop */}
-			<ShopContext.Provider value={{ cartItems, products, addToCart }}>
-					<Header />
-					<ProductDetail />
-			</ShopContext.Provider>
+		{/* We are going to pass the things that we want to inject to these components using the value prop */}
+		<ShopContext.Provider value={{ cartItems, products, addToCart }}>
+			<Header />
+			<ProductDetail />
+		</ShopContext.Provider>
 	)
 }
 ~~~
@@ -186,26 +186,26 @@ function Links() {
 	const { cartItems } = useContext(ShopContext); // We must pass the ShopContext object itself as an argument
 
 	return (
-			<ul>
-					{/* Other links */}
-					<li>
-							<Link to={/* Link to the cart */}>
-									<span>Cart</span>
-									<div class="cart-icon">{cartItems.length}</div>
-							</Link>
-					</li>
-			</ul>
+		<ul>
+			{/* Other links */}
+			<li>
+				<Link to={/* Link to the cart */}>
+					<span>Cart</span>
+					<div class="cart-icon">{cartItems.length}</div>
+				</Link>
+			</li>
+		</ul>
 	)
 }
 
 export default function Header() {
 	return (
-			<header>
-					{/* Other header elements */}
-					<nav>
-							<Links />
-					</nav>
-			</header>
+		<header>
+			{/* Other header elements */}
+			<nav>
+				<Links />
+			</nav>
+		</header>
 	)
 }
 ~~~
