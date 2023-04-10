@@ -31,20 +31,23 @@ import { useState } from 'react';
 // other imports for Header and ProductDetail
 
 export default function App() {
-	const [cartItems, setCartItems] = useState([/* List of Items in Cart */])
-	const products = /* some custom hook that fetches products and returns the fetched products */
+  const [cartItems, setCartItems] = useState([
+    /* List of Items in Cart */
+  ]);
+  const products = /* some custom hook that fetches products and returns the fetched products */
 
-	const addToCart = () => {
-			// add to cart logic (this adds to cartItems)
-	}
+  const addToCart = () => {
+    // add to cart logic (this adds to cartItems)
+  };
 
-	return (
-		<>
-			<Header cartItemsCount={cartItems.length} />
-			<ProductDetail addToCart={addToCart} products={products} />
-		</>
-	)
+  return (
+    <>
+      <Header cartItemsCount={cartItems.length} />
+      <ProductDetail addToCart={addToCart} products={products} />
+    </>
+  );
 }
+
 ~~~
 
 Let's focus on the Header and ProductDetail components.
@@ -55,28 +58,28 @@ Our Header might look like this:
 // import for Link
 
 function Links({ cartItemsCount }) {
-	return (
-		<ul>
-			{/* Links */}
-			<li>
-				<Link to={/* Link to the cart */}>
-					<span>Cart</span>
-					<div class="cart-icon">{cartItemsCount}</div>
-				</Link>
-			</li>
-		</ul>
-	)
+  return (
+    <ul>
+      {/* Links */}
+      <li>
+        <Link to="Link to the cart">
+          <span>Cart</span>
+          <div class="cart-icon">{cartItemsCount}</div>
+        </Link>
+      </li>
+    </ul>
+  );
 }
 
 export default function Header({ cartItemsCount }) {
-	return (
-		<header>
-			{/* Other header elements */}
-			<nav>
-					<Links cartItemsCount={cartItemsCount} />
-			</nav>
-		</header>
-	)
+  return (
+    <header>
+      {/* Other header elements */}
+      <nav>
+        <Links cartItemsCount={cartItemsCount} />
+      </nav>
+    </header>
+  );
 }
 ~~~
 
@@ -123,7 +126,7 @@ We can start by using the `createContext` function that can be imported from the
 import { createContext } from 'react';
 ~~~
 
-As we have described earlier, when you create a new context using `createContext`, you can specify an initial value for the context. This is known as the default value of the context. The default value can be any type of value - a string, number, boolean, or even an object or array. Do note that this default value does not change.
+As we have described earlier, when you create a new context using `createContext`, you can specify an initial value for the context. This is known as the default value of the context. The default value can be any type of value - a string, number, boolean, or even an object or array. Do note that this default value does not change, it's static.
 
 In our case, we will be using an object that contains the following shape:
 
@@ -143,36 +146,40 @@ This object that we've defined is not necessary. We can of course do this as wel
 const ShopContext = createContext(null);
 ~~~
 
-However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a _default value_, our application will not break and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null`.
+However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a _default value_, our application will not break (This is also good for testing since we don't need to wrap a component in a Provider to get a value) and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null` because we're going to overwrite this default value anyway.
 
 So how do we use this context? And that is by using the `Provider` component of the Context object and nesting the children components inside it. In this example, we will remove the props altogether.
 
 ~~~jsx
-import { usestate, createContext } from 'react';
+import { useState, createContext } from 'react';
 // other imports for Header and ProductDetail
 
 export const ShopContext = createContext({
-	products: [],
-	cartItems: [],
-	addToCart: () => {}
-})
+  products: [],
+  cartItems: [],
+  addToCart: () => {},
+});
 
 export default function App() {
-	const [cartItems, setCartItems] = useState([/* List of Items in Cart */])
-	const products = /* some custom hook that fetches products and returns the fetched products */
+  const [cartItems, setCartItems] = useState([
+    /* List of Items in Cart */
+  ]);
+  const products = /* some custom hook that fetches products and returns the fetched products */
 
-	const addToCart = () => {
-			// add to cart logic (this adds to cartItems)
-	}
+  const addToCart = () => {
+    // add to cart logic (this adds to cartItems)
+  };
 
-	return (
-		{/* We are going to pass the things that we want to inject to these components using the value prop */}
-		<ShopContext.Provider value={{ cartItems, products, addToCart }}>
-			<Header />
-			<ProductDetail />
-		</ShopContext.Provider>
-	)
+  return (
+    /* We are going to pass the things that we want to inject to these components using the value prop */
+    /* This value prop will overwrite the default value */
+    <ShopContext.Provider value={{ cartItems, products, addToCart }}>
+      <Header />
+      <ProductDetail />
+    </ShopContext.Provider>
+  );
 }
+
 ~~~
 
 Great! Now let's try to look at our `Header` component again, we will also remove all the props that we've defined earlier, and to retrieve the data, we'll be using the `useContext` hook that can be imported in the `react` module
@@ -183,30 +190,30 @@ import { useContext } from 'react';
 // import for Link
 
 function Links() {
-	const { cartItems } = useContext(ShopContext); // We must pass the ShopContext object itself as an argument
+  const { cartItems } = useContext(ShopContext); // We must pass the ShopContext object itself as an argument
 
-	return (
-		<ul>
-			{/* Other links */}
-			<li>
-				<Link to={/* Link to the cart */}>
-					<span>Cart</span>
-					<div class="cart-icon">{cartItems.length}</div>
-				</Link>
-			</li>
-		</ul>
-	)
+  return (
+    <ul>
+      {/* Other links */}
+      <li>
+        <Link to="Link to the cart">
+          <span>Cart</span>
+          <div class="cart-icon">{cartItems.length}</div>
+        </Link>
+      </li>
+    </ul>
+  );
 }
 
 export default function Header() {
-	return (
-		<header>
-			{/* Other header elements */}
-			<nav>
-				<Links />
-			</nav>
-		</header>
-	)
+  return (
+    <header>
+      {/* Other header elements */}
+      <nav>
+        <Links />
+      </nav>
+    </header>
+  );
 }
 ~~~
 
