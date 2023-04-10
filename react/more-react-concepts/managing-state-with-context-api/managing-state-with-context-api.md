@@ -1,93 +1,96 @@
 ### Introduction
 
-Throughout the lessons, we've learned how to manage state and how to pass data/props around components. However, as our application grow in size, not only will this process of managing state and passing data around becomes repetitive and inconvenient, it will also be hard to manage. This lesson will cover how we can reduce these complexities in our application by using The Context API.
+Throughout the lessons, we've learned how to manage state and pass data/props around components. However, as our application grows in size, not only will this process of managing states and passing data around become repetitive and inconvenient, but it will also be hard to manage. This lesson will cover how we can reduce these complexities in our application by using the Context API.
 
-### Lesson overview
+### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Occurence of Prop Drilling in larger applications
 - Using the Context API to pass state and data deep into React components
 - Real-world application of the Context API
 - Drawbacks of using the Context API
 
 ### What is Context API
 
-Context API in React is used commonly as a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection). In React however, this is used as a way to pass data/functions deep into other components without the need of passing props to each of these components. That sounds pretty amazing doesn't it? It alleviates the pain points you may or may not have experienced in the previous projects. Let's take a look at an example of a project that we've built in the past:
+The Context API in React is a feature that allows you to manage the global state of your application without the need to pass data through multiple levels of components using props. It provides a way to share data and functionality across different components, regardless of where they are located in the component tree.
 
-In the Shopping Cart project, you might have a Product Detail Page that might or might not look like this very awesome shop:
+To give a more concrete example, let's go back to a project that we've already built previously. In the Shopping Cart project, you might have a Product Detail Page that might or might not look like this very awesome shop:
 
 ![](imgs/00.png)
 
-You have a counter at the header that displays the number of items currently in the cart. How you'll add items in the cart is through the "Add to Cart" button.
+You have a counter in the header that displays the number of items currently in the cart. How you'll add items to the cart is through the "Add to Cart" button.
 
-For this example we will omit the routing that we did in the project and just look at it by the structure to reduce code but try to image that these components have their own routes. As we already know, if we want state to persist and be shared between components, what we want to do is to [Lift the state up](https://beta.reactjs.org/learn/sharing-state-between-components) to a common ancestor/parent.
+For the examples below, we will omit the routing that we did in the project and other components that are not necessary for our examples. We will just look at it by the structure to reduce the code.
 
-Our application code might look like:
+As we already know, if we want the state to persist and be shared between components, what we want to do is to [Lift the state up](https://beta.reactjs.org/learn/sharing-state-between-components) to a common ancestor/parent.
+
+Our application code might look like this:
 
 ~~~jsx
-// imports
+import { useState } from 'react';
+// other imports for Header and ProductDetail
 
 export default function App() {
 	const [cartItems, setCartItems] = useState([/* List of Items in Cart */])
 	const products = /* some custom hook that fetches products and returns the fetched products */
 
 	const addToCart = () => {
-		// add to cart logic (this adds to cartItems)
+			// add to cart logic (this adds to cartItems)
 	}
 
 	return (
-		<>
-			{/* Let's imagine that each components that needs routing, HAS a routing, but we'll omit it for the sake of brevity and since you've also done routing enough to know a lot about it by now */}
-			<Header cartItemsCount={cartItems.length} />
-			<Product addToCart={addToCart} products={products} />
-		</>
+			<>
+					<Header cartItemsCount={cartItems.length} />
+					<ProductDetail addToCart={addToCart} products={products} />
+			</>
 	)
 }
 ~~~
 
-Let's focus on the Header and Product components
+Let's focus on the Header and ProductDetail components.
 
-Our Header might look like:
+Our Header might look like this:
 
 ~~~jsx
+// import for Link
+
 function Links({ cartItemsCount }) {
 	return (
-		<ul>
-			{/* Links */}
-			<li>
-				<Link to={/* Link to the cart */}>
-					<span>Cart</span>
-					<CartIcon>{cartItemsCount}</CartIcon>
-				</a>
-			</li>
-		</ul>
+			<ul>
+					{/* Links */}
+					<li>
+							<Link to={/* Link to the cart */}>
+									<span>Cart</span>
+									<div class="cart-icon">{cartItemsCount}</div>
+							</Link>
+					</li>
+			</ul>
 	)
 }
 
 export default function Header({ cartItemsCount }) {
 	return (
-		<header>
-			{/* Other header elements */}
-			<nav>
-				<Links cartItemsCount={cartItemsCount} />
-			</nav>
-		</header>
+			<header>
+					{/* Other header elements */}
+					<nav>
+							<Links cartItemsCount={cartItemsCount} />
+					</nav>
+			</header>
 	)
 }
 ~~~
 
-Our Product component:
+Our ProductDetail component:
 
 ~~~jsx
-export default function Product({ products, addToCart }) {
+export default function ProductDetail({ products, addToCart }) {
   const product = products.find(/* Logic to find the specific product */);
 
   return (
     <div>
-      <img />
+      {/* Image of the product */}
       <div>
-        {/* elements that aligns with the design */}
+        {/* elements that align with the design */}
         <button type="button" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
@@ -99,22 +102,20 @@ export default function Product({ products, addToCart }) {
 
 Great. This is a very common pattern, we pass data/functions between components, nothing too complicated. But there's a lot to micro-manage, a lot of components that you need to pass props to, and there's even a little bit of prop drilling that's happening, where the `cartItemsCount` is passed from `App` -> `Header` -> `Links`.
 
-Let's elaborate everything that's happening
+So far, what we've done in the `App` component is:
 
-- `products` and `addToCart` is passed down to the `Product` component
-- `cartItemsCount` is passed down to the `Header` and `Links` components
+- Pass `products` and `addToCart` down to the `ProductDetail` component.
+- Pass `cartItemsCount` down to the `Header` component and the Links`component that is part of the`Header.
 
-Very simple application but imagine the application grows in size, with more features added say in the Product Detail Page, a lot more components will be nested inside the component and potentially more nested props. What if we have a `Cart` component, a `ProductListing` component, what if we added more functionalities other than just `addToCart`. It can get repetitive and complex because we all know, more features equals more complexities.
+This is a very simple application, but imagine the application grows in size with more features added, say in the Product Detail Page, a lot more components will be nested inside the component, and potentially more nested props. What if we have a `Cart` component and a `ProductListing` component? What if we added more functionalities other than just `addToCart`? It can get repetitive and complex because, as we all know, more features equal more complexities. This is especially frequent in component-based frameworks since we're more inclined to create separate reusable components instead of inlining elements, which in turn creates more nesting and passing of props.
 
 ### Implementing Context API
 
-Let's try to implement Context API and refactor our current application to reduce these complexities.
+To simplify our application and reduce complexity, we can implement the Context API. There are three key elements in this API that we need to understand:
 
-We have three things in the API that we need use in order to implement it.
-
-1. `createContext` - This "creates the context" duh... But yes, it's how we can create the context, it takes in any value be it a number, string, or an object, which can be referred to as the _default state_ of the context, and returns a Context object
-2. `useContext` - This is a hook that takes in the Context object that is returned by `createContext`, we will be using this inside our component in order to "get" the data that we need
-3. `ContextObject.Provider` - The Context object comes with the `Provider` component that has a prop called `value` which is basically the context value that's going to be passed down to the components no matter how deep they're nested. In other words, a way to "provide" the context value to these components.
+1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a Context object that can be used to pass down data to components
+2. `useContext` - This hook is used to consume data from a Context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the Context object as an argument
+3. `ContextObject.Provider` - The Context object comes with the `Provider` component that has a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
 
 We can start by using the `createContext` function that can be imported from the `react` module.
 
@@ -122,9 +123,9 @@ We can start by using the `createContext` function that can be imported from the
 import { createContext } from "react";
 ~~~
 
-The createContext is able to take in any value, a string, number, or even an object, which can be referred to as the _default state_ of the context.
+As we have described earlier, when you create a new context using `createContext`, you can specify an initial value for the context. This is known as the default value of the context. The default value can be any type of value - a string, number, boolean, or even an object or array. Do note that this default value does not change.
 
-In our case, we'll use an object that contains the following shape:
+In our case, we will be using an object that contains the following shape:
 
 ~~~javascript
 const ShopContext = createContext({
@@ -134,18 +135,21 @@ const ShopContext = createContext({
 });
 ~~~
 
-You might think, adding `products` and `cartItems` seems reasonble, but why do we need to include `addToCart` as well? Actually, you're not required to setup your your context like this and it's up to you, but you will be able to add auto-completion in your IDE by doing this, it's basically a bonus!
+In this example, our default value is an object with three properties - `products`, `cartItems`, and `addToCart`. `products` and `cartItems` are arrays that will hold the products and items in the user's cart, respectively. `addToCart` is a function that will allow us to add items to the cart.
 
-You can of course do this as well and it will not be a problem at all:
+This object that we've defined is not necessary. We can of course do this as well and it will not be a problem at all:
 
 ~~~javascript
-const ShopContext = createContext();
+const ShopContext = createContext(null);
 ~~~
+
+However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider because we have set a _default value_, our application will not break and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to add it or not. Of course, this is not necessary for TypeScript, but if you're using JavaScript then there's nothing wrong with adding the object as the default value.
 
 So how do we use this context? And that is by using the `Provider` component of the Context object and nesting the children components inside it. In this example, we will remove the props altogether.
 
 ~~~jsx
 import { usestate, createContext } from 'react';
+// other imports for Header and ProductDetail
 
 export const ShopContext = createContext({
 	products: [],
@@ -158,69 +162,71 @@ export default function App() {
 	const products = /* some custom hook that fetches products and returns the fetched products */
 
 	const addToCart = () => {
-		// add to cart logic (this adds to cartItems)
+			// add to cart logic (this adds to cartItems)
 	}
 
 	return (
-		{/* We are going to pass the properties that we've defined in createContext */}
-		<ShopContext.Provider value={{ cartItems, products, addToCart }}>
-			{/* Let's imagine that each components that needs routing, HAS a routing, but we'll omit it for the sake of brevity and since you've also done routing enough to know a lot about it by now */}
-			<Header />
-			<Product />
-		</>
+			{/* We are going to pass the things that we want to inject to these components using the value prop */}
+			<ShopContext.Provider value={{ cartItems, products, addToCart }}>
+					<Header />
+					<ProductDetail />
+			</ShopContext.Provider>
 	)
 }
 ~~~
 
-Great! Now let's try to look at our `Header` component again and we will also remove all the props that we've defined earlier, we will also be using the `useContext` hook.
+Great! Now let's try to look at our `Header` component again, we will also remove all the props that we've defined earlier, and to retrieve the data, we'll be using the `useContext` hook that can be imported in the `react` module
 
 ~~~jsx
-// import ShopContext
+import { useContext } from 'react';
+// import for ShopContext
+// import for Link
 
 function Links() {
-	const { cartItems } = useContext(ShopContext);
+	const { cartItems } = useContext(ShopContext); // We must pass the ShopContext object itself as an argument
 
 	return (
-		<ul>
-			{/* Links */}
-			<li>
-				<Link to={/* Link to the cart */}>
-					<span>Cart</span>
-					<CartIcon>{cartItems.length}</CartIcon>
-				</a>
-			</li>
-		</ul>
+			<ul>
+					{/* Other links */}
+					<li>
+							<Link to={/* Link to the cart */}>
+									<span>Cart</span>
+									<div class="cart-icon">{cartItems.length}</div>
+							</Link>
+					</li>
+			</ul>
 	)
 }
 
 export default function Header() {
 	return (
-		<header>
-			{/* Other header elements */}
-			<nav>
-				<Links />
-			</nav>
-		</header>
+			<header>
+					{/* Other header elements */}
+					<nav>
+							<Links />
+					</nav>
+			</header>
 	)
 }
 ~~~
 
-We've completely removed the prop drill, and we can conveniently get the `cartItems` directly in the `Links` component itself as we already know that no matter how deeply nested the component is, we can still get the data as long as it's nested inside the Provider.
+We've completely removed the prop drill problem, and we can conveniently get the `cartItems` directly in the `Links` component itself as we already know that no matter how deeply nested the component is, we can still get the data as long as _it's nested inside the Provider_.
 
-We can also do the same in the `Product` component:
+Let's also change our `ProductDetail` component to do the same:
 
 ~~~jsx
-// import ShopContext
+import { useContext } from "react";
+// import for ShopContext
 
-export default function Product() {
+export default function ProductDetail() {
   const { products, addToCart } = useContext(ShopContext);
   const product = products.find(/* Logic to find the specific product */);
 
   return (
     <div>
-      <img />
+      {/* Image of the product */}
       <div>
-        {/* elements that aligns with the design */}
+        {/* elements that align with the design */}
         <button type="button" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
@@ -230,30 +236,38 @@ export default function Product() {
 }
 ~~~
 
-In the `Header` component, we used `useContext()` to access the `cartItems` state from the `CartContext`. Similarly, in the `Product` component, we used `useContext()` to access the `addToCart` function from the `CartContext`.
+<a name="context-api-benefits"></a>
+In the `Header` component, we used `useContext()` to access `cartItems` from the `ShopContext`. Similarly, in the `ProductDetail` component, we can use the `products` and `addToCart` function.
 
-With this implementation, we no longer need to pass down props from the `App` component to the `Header` and `Product` components. The `Header` and `Product` components can simply access the `cartItems` state and `addToCart` function from the `CartContext`.
+With this implementation, we no longer need to pass down props from the `App` component to the `Header` and `ProductDetail` components. The `Header` and `ProductDetail` components can simply access the `cartItems` state and `addToCart` function from the `CartContext`.
+
+Overall, the implementation of the Context API has allowed for a more efficient, cleaner, and streamlined way of passing down data across multiple components. By using the `createContext()` function and the `useContext()` hook, we can easily pass down state and functions to child components without the need for prop drilling. It's also more centralized since we're keeping our data in a single location. All of these make our code easier to reason about.
 
 ### Drawbacks of using Context API
 
 Although the Context API can be a powerful tool for managing state in larger React applications, it also has some drawbacks that you should be aware of:
 
 1. It can lead to performance issues: When you update the state in a context, it can cause all components that are consuming that context to re-render, even if the state that they are using hasn't changed. This can lead to performance issues, especially if you have a lot of components that are using the same context.
-2. It can make your code harder to follow: With the Context API, it's easier to access state from any component in your application. However, this can also make your code harder to follow, especially if you have a lot of nested components that are using the same context. It's important to keep your code organized and well-structured to avoid confusion.
+2. It can make your code harder to follow: With the Context API, it's easier to access the state from any component in your application. However, this can also make your code harder to follow, especially if you have a lot of nested components that are using the same context. It's important to keep your code organized and well-structured to avoid confusion.
 
 ### Potential Solutions
 
-WIP
+1. Use multiple smaller contexts instead of a single large context. Instead of using a single large context to manage all of your application states, consider using multiple smaller contexts to manage related pieces of state. This can help to reduce the number of components that are consuming the context and minimize unnecessary re-renders.
+2. Sometimes Context API might not even be the best solution for the problems that we want to deal with. Take a look at [React Component Composition](https://www.robinwieruch.de/react-component-composition/) article by Robin Wieruch
+
+### Assignment
+
+1. The React Docs provides more engaging examples and possible optimizations for the Context API. You can check it out by going through their [documentation for useContext](https://react.dev/reference/react/useContext). Be sure to try out each example!
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- <a class="knowledge-check-link" href="#context-api-benefits">What are the benefits of using the Context API over passing props down through multiple levels of components?</a>
+- <a class="knowledge-check-link" href="#drawbacks-of-using-context-api">What are the drawbacks in using the Context API?</a>
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
+- For some extra practice/review, check out [this content from the React Docs](https://react.dev/learn/passing-data-deeply-with-context)
