@@ -246,7 +246,7 @@ export default function ProductDetail() {
 <a name="context-api-benefits"></a>
 In the `Header` component, we used `useContext()` to access `cartItems` from the `ShopContext`. Similarly, in the `ProductDetail` component, we can use the `products` and `addToCart` function.
 
-With this implementation, we no longer need to pass down props from the `App` component to the `Header` and `ProductDetail` components. The `Header` and `ProductDetail` components can simply access the `cartItems` state and `addToCart` function from the `CartContext`.
+With this implementation, we no longer need to pass down props from the `App` component to the `Header` and `ProductDetail` components. The `Header` and `ProductDetail` components can simply access the `cartItems` state and `addToCart` function from the `ShopContext`.
 
 Overall, the implementation of the Context API has allowed for a more efficient, cleaner, and streamlined way of passing down data across multiple components. By using the `createContext()` function and the `useContext()` hook, we can easily pass down state and functions to child components without the need for prop drilling. It's also more centralized since we're keeping our data in a single location. All of these make our code easier to reason about.
 
