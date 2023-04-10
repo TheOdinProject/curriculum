@@ -104,10 +104,10 @@ Great. This is a very common pattern, we pass data/functions between components,
 
 So far, what we've done in the `App` component is:
 
-- Pass `products` and `addToCart` down to the `ProductDetail` component.
-- Pass `cartItemsCount` down to the `Header` component and the Links`component that is part of the`Header.
+- Pass `products` and `addToCart` down to the `ProductDetail` component
+- Pass `cartItemsCount` down to the `Header` component and the `Links` component that is part of the `Header`
 
-This is a very simple application, but imagine the application grows in size with more features added, say in the Product Detail Page, a lot more components will be nested inside the component, and potentially more nested props. What if we have a `Cart` component and a `ProductListing` component? What if we added more functionalities other than just `addToCart`? It can get repetitive and complex because, as we all know, more features equal more complexities. This is especially frequent in component-based frameworks since we're more inclined to create separate reusable components instead of inlining elements, which in turn creates more nesting and passing of props.
+This is a very simple application, but imagine the application grows in size as more features are added, say in the Product Detail Page. There will be a lot more components to nest, and potentially more nested props. What if we have a `Cart` component and a `ProductListing` component? What if we added more functionalities other than just `addToCart`? It can get repetitive and complex because, as we all know, more features equal more complexities. This is especially frequent in component-based frameworks since we're more inclined to create separate reusable components instead of inlining elements, which in turn creates more nesting and passing of props.
 
 ### Implementing Context API
 
@@ -120,7 +120,7 @@ To simplify our application and reduce complexity, we can implement the Context 
 We can start by using the `createContext` function that can be imported from the `react` module.
 
 ~~~javascript
-import { createContext } from "react";
+import { createContext } from 'react';
 ~~~
 
 As we have described earlier, when you create a new context using `createContext`, you can specify an initial value for the context. This is known as the default value of the context. The default value can be any type of value - a string, number, boolean, or even an object or array. Do note that this default value does not change.
@@ -143,7 +143,7 @@ This object that we've defined is not necessary. We can of course do this as wel
 const ShopContext = createContext(null);
 ~~~
 
-However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider because we have set a _default value_, our application will not break and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to add it or not. Of course, this is not necessary for TypeScript, but if you're using JavaScript then there's nothing wrong with adding the object as the default value.
+However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a _default value_, our application will not break and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null`.
 
 So how do we use this context? And that is by using the `Provider` component of the Context object and nesting the children components inside it. In this example, we will remove the props altogether.
 
@@ -215,7 +215,7 @@ We've completely removed the prop drill problem, and we can conveniently get the
 Let's also change our `ProductDetail` component to do the same:
 
 ~~~jsx
-import { useContext } from "react";
+import { useContext } from 'react';
 // import for ShopContext
 
 export default function ProductDetail() {
