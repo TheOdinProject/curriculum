@@ -144,7 +144,6 @@ You may be wondering why we even need JS bundling when we have import maps. One 
 Some frameworks like React, which require compiling for JSX, do not work with import maps which leads to another important point. The JavaScript ecosystem is vast, and bundling was introduced to mitigate performance costs associated with HTTP 1. Because HTTP 1 limited the number of requests per connection, sending many files carried a performance cost. 
 
 Although HTTP 2 has reduced these costs, many JS packages still require explicit transpiling or bundling for performance or because of framework requirements. If you plan to use such frameworks for your project, it may be best to choose JS bundling over import maps.
-depends on the circumstances of your project and that while import maps eliminates the need for bundling and transpiling, you lose out on some of the benefits of using JS bundling. Some frameworks like React, which require compiling for JSX, do not work with import maps which leads to another important point. The JavaScript ecosystem is vast, and bundling was introduced to mitigate performance costs associated with HTTP 1. Because HTTP 1 limited the number of requests per connection, sending many files carried a performance cost. Although HTTP 2 has reduced these costs, many JS packages still require explicit transpiling or bundling for performance or because of framework requirements. If you plan to use such frameworks for your project, it may be best to choose JS bundling over import maps.
 
 ### When To Use JS Bundling
 
