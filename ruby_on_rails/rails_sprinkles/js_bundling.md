@@ -155,7 +155,7 @@ It is important to remember that, in the days of HTTP 1, there _was_ a performan
 
 In contrast, import maps keeps the modules separate, so you don't have to redownload every single module anytime something changes. Just the kind of performance jump that may make you consider using import maps over JS bundling. 
 
-Often times the answer to these kind of decisions is that there is no _right answer_. It all depends on what you're looking for in your project. Want to use the react with JSX and don't mind a dip in performance? Consider JS bundling. Have some modules in mind you want to use that don't require transpiling or bundling and want a boost in performance? Consider import maps.
+Oftentimes, the answer to these kinds of decisions is that there is no _right answer_. It all depends on what you're looking for in your project. Want to use React with JSX and don't mind a dip in performance? Consider JS bundling. Have some modules in mind you want to use that don't require transpiling or bundling and want a boost in performance? Consider import maps.
 
 One thing to really stress is that one is not necessarily worse than the other and it very much depends on your project needs. JS bundling gives you access to many frameworks such as React with JSX as well as certain features such as tree-shaking, whereas import maps does not require bundling and you don't need to update every module when updating a module.   
 
