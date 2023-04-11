@@ -6,21 +6,21 @@ In the previous lesson, we covered basic CSS syntax and selectors. Now, it's tim
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   Understand what the cascade does.
-*   Understand specificity and combining CSS selectors.
-*   Understand how inheritance affects some properties.
+*   What the cascade does.
+*   Specificity and combining CSS selectors.
+*   How inheritance affects certain properties.
 
 ### The Cascade of CSS
 
 Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
 
-So if you end up with some unexpected behavior like this it's either because of these default styles or due to not understanding how a property works or not understanding this little thing called the cascade.
+So if you end up with some unexpected behavior like this it's either because of these default styles, not understanding how a property works, or not understanding this little thing called the cascade.
 
 The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this, three of which we'll go over to hopefully help you avoid (as many of) those frustrating "I hate CSS" moments.
 
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we will go over more in the Adding CSS to HTML section towards the end of the lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones mentioned in this lesson:
+A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
 
 1. ID selectors (most specific selector)
 2. Class selectors
@@ -93,7 +93,10 @@ In this final example, both rules are using ID and class selectors, so neither r
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
 
-Note: When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+<div class="lesson-note" markdown="1">
+##### Not everything adds to specificity
+When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+</div>
 
 ~~~css
 /* rule 1 */
@@ -188,11 +191,11 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and finish the last exercise `06-cascade-fix`.
+1.  Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and finish the last exercise `06-cascade-fix`.
 
-2.  Remember the Recipe page you created as practice from the previous lesson? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
+2.  Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
 
-   * How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the section above (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume, so feel free to go a little crazy for now.
+   * How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
 
    * We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
