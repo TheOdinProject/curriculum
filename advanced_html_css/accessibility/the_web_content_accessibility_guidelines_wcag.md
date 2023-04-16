@@ -18,6 +18,7 @@ It's important to understand that while the WCAG can be incredibly helpful for b
 ### The Four Principles
 
 The WCAG are organized around four, core principles that should be kept in mind when implementing any sort of accessibility feature:
+You can use the acronym POUR for this, which stands for:
 
 1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. For example, light text on a light background could be difficult for some users with a visual impairment to perceive.
 
