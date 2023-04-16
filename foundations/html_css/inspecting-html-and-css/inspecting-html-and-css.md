@@ -14,11 +14,11 @@ This section contains a general overview of topics that you will learn in this l
 
 To open up the inspector, you can right-click on any element of a webpage and click "Inspect" or press F12. Go ahead and do that right now to see the HTML and CSS used on this page.
 
-Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panes.
+Don't get overwhelmed with all the tools you're now seeing! For this lesson, we want to focus on the Elements and Styles panels.
 
 ### Inspecting Elements
 
-In the Elements panel, you can see the entire HTML structure of your page. You can click on any of the elements in this pane to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
+In the Elements panel, you can see the entire HTML structure of your page. You can click on any of the elements in this panel to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
 
 ![Inspector Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/594984d7c9f9e744577f19ea475b3864e8cc7c91/html_css/v2/foundations/inspecting-html-and-css/imgs/01.png)
 
