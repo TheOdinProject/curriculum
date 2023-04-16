@@ -24,7 +24,7 @@ This project will give you a chance to take a relatively high level set of requi
 10. Users can create  Profile with a photo (you can get this from the real facebook when you sign in using passport)
 11. The User Show page contains their profile information, profile photo and posts.
 12. The Users Index page lists all users and buttons for sending friend requests to those who are not already friends or who don't already have a pending request.
-13. Deploy your app to Heroku!
+13. Deploy your app to a host provider of your choice!
 
 #### Extra Credit
 
