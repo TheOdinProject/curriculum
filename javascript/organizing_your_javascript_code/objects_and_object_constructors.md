@@ -170,33 +170,24 @@ Here, the "original object" refers to an object like `player1` or `player2`. The
 Conceptually, you now might feel like you know, or at least have an idea of what a `prototype` of an object is. But how do you _know_ or actually _see_ what the prototype of an object is? Let's find out. You can try running the following code in the developer console of your browser. (Make sure you've created the `player1` and `player2` objects from before!)
 
 ~~~javascript
-player1.__proto__ === Player.prototype // returns true
-player2.__proto__ === Player.prototype // returns true
+Object.getPrototypeOf(player1) === Player.prototype // returns true
+Object.getPrototypeOf(player2) === Player.prototype // returns true
 ~~~
 
 Now, to understand this code, let's use the three points from earlier:
 
 1. **All objects in JavaScript have a `prototype`**:
-
-   1a. You can check the object's `prototype` by using the `.__proto__` property of the object, like `player1.__proto__`.
-
-   1b. This `.__proto__` property refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `player1.__proto__ === Player.prototype`.
-
-2. **The prototype is another object**: 
-
-   2a. The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object. 
+   - You can check the object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function on the object, like `Object.getPrototypeOf(player1)`.
+   - The return value (result) of this function refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
+1. **The prototype is another object**: 
+   - The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object. 
+   - The _reference_ to this value of `Player.prototype` is stored in every `Player` object, every time a `Player` object is created.
+   - Hence, you get a `true` value returned when you check the Objects prototype - `Object.getPrototypeOf(player1) === Player.prototype`.
+1. **...that the original object _inherits_ from, and has access to all of its prototype's methods and properties**: 
+   - As said in the earlier point, every `Player` object has a value which refers to `Player.prototype`. So: `Object.getPrototypeOf(player1) === Object.getPrototypeOf(player2)` (returns `true`).
+   - So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
    
-   2b. The _reference_ to this value of `Player.prototype` is stored in every `Player` object's `.__proto__` property, every time a `Player` object is created. 
-   
-   2c. Hence, you get a `true` value returned when you compute `player1.__proto__ === Player.prototype`.
-
-3. **...that the original object _inherits_ from, and has access to all of its prototype's methods and properties**: 
-
-   3a. As said in the earlier point, every `Player` object's `.__proto__` property refers to `Player.prototype`: `player1.__proto__ === player2.__proto__` (returns `true`).
-   
-   3b. So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
-   
-Point 3b needs a little more explanation. What does defining 'on the `prototype`' mean? Consider the following code:
+The last sub-item needs a little more explanation. What does defining 'on the `prototype`' mean? Consider the following code:
 
 ~~~javascript
 Player.prototype.sayHello = function() {
@@ -211,26 +202,26 @@ Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It
 
 #### Object.getPrototypeOf() vs. .__proto__ vs. [[Prototype]]
 
-As you have seen above, accessing an object's `prototype` was done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and it is recommended to access an object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function. The same code can thus be rewritten to become:
+Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. But however, the same code can thus be rewritten to become:
 
 ~~~javascript
-Object.getPrototypeOf(player1) === Player.prototype // returns true
-Object.getPrototypeOf(player2) === Player.prototype // returns true
+// Don't do this!
+player1.__proto__ === Player.prototype // returns true
+player2.__proto__ === Player.prototype // returns true
 ~~~
 
-In some places you might also come across `[[Prototype]]`, which is just another way of talking about the `.__proto__` property of an object, like `player1.[[Prototype]]`.
+In some places, like legacy code, you might also come across `[[Prototype]]`, which is just another way of talking about the `.__proto__` property of an object, like `player1.[[Prototype]]`.
 
 This explanation about the `prototype` might have been a lot, so remember to take a breather before moving on!
 
 #### Prototypal Inheritance
 
-Now, you may also have a question - what's with the `__proto__` / `[[Prototype]]` of an object pointing to its `prototype`? What is the purpose of defining properties and functions on the `prototype`?
+Now, you may also have a question - what use is an object's `prototype`? What is the purpose of defining properties and functions on the `prototype`?
 
 We can narrow it down to two reasons:
 
 1. We can define properties and functions common among all objects on the `prototype` to save memory. Defining every property and function takes up a lot of memory, especially if you have a lot of common properties and functions, and a lot of created objects! Defining them on a centralized, shared object which the objects have access to, thus saves memory.
-
-2. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we know that can say that the `player1` or `player2` objects _inherit_ from the `Player.prototype` object, like with the `.sayHello` function, by being able to access it.
+1. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we know that can say that the `player1` or `player2` objects _inherit_ from the `Player.prototype` object, like with the `.sayHello` function, by being able to access it.
 
 Let's now try to do the following:
 
@@ -242,27 +233,37 @@ Object.getPrototypeOf(Player.prototype) === Object.prototype // true
 player1.valueOf() // Output: Object { name: "steve", marker: "X", sayName: sayName() } 
 ~~~
 
-What's this `.valueOf` function, and where did it come from if we did not define it? It comes as a result of `Player.prototype.__proto__` having the value of `Object.prototype`! This means that `Player.prototype` is inheriting from `Object.prototype`. This `.valueOf` function is defined on `Object.prototype` just like `.sayHello` is defined on `Player.prototype`.
+What's this `.valueOf` function, and where did it come from if we did not define it? It comes as a result of `Object.getPrototypeOf(Player.prototype)` having the value of `Object.prototype`! This means that `Player.prototype` is inheriting from `Object.prototype`. This `.valueOf` function is defined on `Object.prototype` just like `.sayHello` is defined on `Player.prototype`.
 
-Essentially, this is how JavaScript makes use of `prototype` and `__proto__` - by having the `__proto__` values of objects point to `prototype`s and inheriting from those prototypes, and thus forming a chain. This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function, like so:
+How do we know that this `.valueOf` function is defined on `Object.prototype`? We make use of another function called `.hasOwnProperty`:
+
+~~~javascript
+player1.hasOwnProperty('valueOf'); // false
+Object.prototype.hasOwnProperty('valueOf'); // true
+~~~
+
+Now where did this [`.hasOwnProperty` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) come from? A quick check helps:
+
+~~~javascript
+Object.prototype.hasOwnProperty('hasOwnProperty'); // true
+~~~
+
+Essentially, this is how JavaScript makes use of `prototype` - by having the objects contain a value - to point to `prototype`s and inheriting from those prototypes, and thus forming a chain. This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function, like so:
 
 1. Is the `.valueOf` function part of the `player1` object? No, it is not. (Remember, only the `name`, `marker` and `sayName` properties are part of the `Player` objects.)
+1. Is the function part of the `player1`'s prototype (the `Object.getPrototypeOf(player1)` value, i.e., `Player.prototype`)? No, only the `.sayHello` function is a part of it.
+1. Well, then, is it part of `Object.getPrototypeOf(Player.prototype)` (=== `Object.prototype`)? Yes, `.valueOf` is defined on `Object.prototype`!
 
-2. Is the function part of the `player1`'s prototype (the `player1.__proto__` value, i.e., `Player.prototype`)? No, only the `.sayHello` function is a part of it.
-
-3. Well, then, is it part of `Player.prototype.__proto__` (=== `Object.prototype`)? Yes, `.valueOf` is defined on `Object.prototype`!
-
-However, this chain does not go on forever, and if you have already tried logging the value of `Object.prototype.__proto__`, you would find that it is `null`, which indicates the end of the chain. And it is at the end of this chain that if the specific property or function is not found, `undefined` is returned.
+However, this chain does not go on forever, and if you have already tried logging the value of `Object.getPrototypeOf(Object.prototype)`, you would find that it is `null`, which indicates the end of the chain. And it is at the end of this chain that if the specific property or function is not found, `undefined` is returned.
 
 Note:
 
 1. Every `prototype` object inherits from `Object.prototype` by default.
-
-2. An object's `.__proto__` property can only point to _one_ `prototype` object at a time. 
+1. An object's `Object.getPrototypeOf()` value can only be _one_ unique `prototype` object.
 
 #### Recommended Method for Prototypal Inheritance
 
-Now, how do you utilise Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, we can use `Object.setPrototypeOf()` to 'set' or mutate it. Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
+Now, how do you utilize Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, we can use `Object.setPrototypeOf()` to 'set' or mutate it. Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
 
 ~~~javascript
 function Person(name) {
@@ -282,10 +283,14 @@ Player.prototype.getMarker = function() {
   console.log(`My marker is '${this.marker}'`)
 }
 
-// Make `Player` objects inherit from `Person`
-// Set Player.prototype.__proto__ to refer to Person.prototype
-// instead of Object.prototype
+// Object.getPrototypeOf(Player.prototype) should 
+// return the value of "Person.prototype" instead 
+// of "Object.prototype"
+Object.getPrototypeOf(Player.prototype) // returns Object.prototype
+
+// Now make `Player` objects inherit from `Person`
 Object.setPrototypeOf(Player.prototype, Person.prototype)
+Object.getPrototypeOf(Player.prototype) // returns Person.prototype
 
 const player1 = new Player('steve', 'X')
 const player2 = new Player('also steve', 'O')
@@ -297,7 +302,7 @@ player1.getMarker() // My marker is 'X'
 player2.getMarker() // My marker is 'O'
 ~~~
 
-From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function, which takes two arguments, and sets the `.__proto__` / `[[Prototype]]` of the first argument to the `prototype` object provided through the second argument. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
+From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
 
 Note:
 
