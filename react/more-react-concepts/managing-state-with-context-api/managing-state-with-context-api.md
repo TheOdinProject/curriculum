@@ -276,9 +276,11 @@ This section contains questions for you to check your understanding of this less
 
 - [What are the benefits of using the Context API over passing props down through multiple levels of components?](#context-api-benefits)
 - [What are the drawbacks in using the Context API?](#drawbacks-of-using-context-api)
+- [What are the ways you can avoid prop drilling?](https://kentcdodds.com/blog/prop-drilling#how-can-we-avoid-problems-with-prop-drilling)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - For some extra practice/review, check out [this content from the React Docs](https://react.dev/learn/passing-data-deeply-with-context)
+
