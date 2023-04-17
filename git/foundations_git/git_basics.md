@@ -210,4 +210,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [How to use Git and Github](https://youtu.be/HkdAHXoRtos) Watch this video by Fireship to get an even better overview of Git and Github, so that when you learn them in the course ahead you will be a little familiar with things.
