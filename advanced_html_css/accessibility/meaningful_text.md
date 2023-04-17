@@ -82,9 +82,9 @@ For Example 2, the screen reader would announce, "Odin, graphic", making the use
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#meaningful-links-rules'>What are three rules you should follow in order to provide meaningful links?</a>
-* <a class='knowledge-check-link' href='#meaningful-error-msg'>What information should you inform users of in order to provide meaningful error messages in forms?</a>
-* <a class='knowledge-check-link' href='#empty-alt-attribute'>When should you use the empty string/null value for the `alt` attribute?</a>
+* [What are three rules you should follow in order to provide meaningful links?](#meaningful-links-rules)
+* [What information should you inform users of in order to provide meaningful error messages in forms?](#meaningful-error-msg)
+* [When should you use the empty string/null value for the `alt` attribute?](#empty-alt-attribute)
 
 ### Additional Resources
 

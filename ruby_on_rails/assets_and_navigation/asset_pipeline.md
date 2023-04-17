@@ -12,9 +12,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### The Asset Pipeline
 
-Assets in your application are additional files that get called by the browser after your initial gob of HTML is received. Assets is used to mean things like CSS stylesheets, JavaScript files, images, videos etc... basically anything that requires an additional request to grab it. It used to be that the Asset Pipeline handled all assets but since the inclusion of Webpack and the webpacker gem to give Webpack some Rails type conventions, it is now better practice to handle JavaScript assets through there. Webpacker now comes as standard in Rails 6 applications. If you ever work on legacy applications that haven't included the webpacker gem you may well find JavaScript is still handled by the asset pipeline.
+Assets in your application are additional files that get called by the browser after your initial gob of HTML is received. Assets is used to mean things like CSS stylesheets, JavaScript files, images, videos etc... basically anything that requires an additional request to grab it. It used to be that the Asset Pipeline handled all assets, but it is now better practice to handle JavaScript assets through other JavaScript management tools that come with modern Rails applications. For Rails 7, the standard way to add and manage JavaScript is through import maps, which you will learn about in the next lesson. However, if you ever work on legacy applications that use older versions of Rails, you may well find JavaScript is still handled by the Asset Pipeline.
 
-You should also note that as Webpack is itself a bundler much like the asset pipeline (although not identical) it can also handle stylesheets and assets, but current Rails recommended best practice is to allow the asset pipeline to handle them and use Webpack only for JavaScript assets. It may well depend on where you end up working what convention they follow but as you learn more about Webpack you'll understand how Webpack differs from the Asset Pipeline as well as how to use both to handle any of the assets in your application. Here we will cover how the Asset Pipeline handles JavaScript and in another lesson we will cover Webpack but for your own projects we suggest Webpack is the standard for JavaScript code.
+Currently, the Asset Pipeline is one of a few different ways to handle assets in Rails. You will learn about other ways to manage CSS and JS as you move through this course. It may well depend on where you end up working what convention they follow but as you learn more, you'll understand how the Asset Pipeline differs from alternatives as well as how to use any of the available methods to handle assets in your application. Here we will cover how the Asset Pipeline works, and in future lessons we will cover the alternatives. For your own projects we suggest using import maps for JavaScript code and the Asset Pipeline for other assets.
 
 Getting back to the Asset Pipeline, often times, it's easiest to organize your code for development purposes into many different files so you can keep track of them better.  But if the browser has to grab a dozen different CSS files, each one of those requests is going to slow things down.  Too many requests and you've harpooned your user's experience with your application.
 
@@ -26,7 +26,7 @@ JavaScript files are the same -- all of them get smooshed together and then ugli
 
 #### Manifest Files
 
-The below section on the JavaScript manifest isn't relevant to new Rails 6 applications where Webpack is used. That will be covered in the Webpack lesson but just be aware you may come across this in older Rails projects so get an idea of how it works.
+The below section on the JavaScript manifest isn't relevant to Rails 7 applications where import maps are used. That will be covered in the import maps lesson but just be aware you may come across this in older Rails projects so get an idea of how it works.
 
 Rails needs to know which files to include in that giant blob, so it uses so-called "manifest" files to determine this.  Your JavaScript manifest file will be `app/assets/javascripts/application.js`.  It looks commented out, but the lines starting with `//=` tell Rails which files to go find and include.  The comments in the file are pretty useful -- they say:
 
@@ -51,7 +51,7 @@ Rails needs to know which files to include in that giant blob, so it uses so-cal
 
 The `require_tree` helper method just grabs everything in the current directory.
 
-jQuery also isn't now included out of the box. Rails now uses the rails_ujs instead so if you do end up using the asset pipeline exclusively (which you still can for Rails 6 applications) your JavaScript manifest may look a little different.
+Note that packages like jQuery aren't included out of the box in newer Rails applications. So, if you do end up using the asset pipeline for JavaScript (which you still can for Rails 7 applications), your JavaScript manifest may look a little different.
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css`:
 
