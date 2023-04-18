@@ -15,9 +15,9 @@ By the end of this lesson, you should be able to do the following:
  - Explain what a `loop` loop is and how to use it.
  - Explain what a `while` loop is and how to use it.
  - Explain what a `for` loop is and how to use it.
- - Explain what a `#times` loop is and how to use it.
+ - Explain what a `#.times` loop is and how to use it.
  - Explain what an `until` loop is and how to use it.
- - Explain what `#upto` and `#downto` loops are and how to use them.
+ - Explain what `#.upto` and `#.downto` loops are and how to use them.
 
 ### Loop
 The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop, using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
@@ -111,7 +111,7 @@ That's really all there is to it.
 
 ### Times Loop
 
-If you need to run a loop for a specified number of times, then look no further than the trusty `#times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
+If you need to run a loop for a specified number of times, then look no further than the trusty `#.times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
 
 ~~~ruby
 5.times do
@@ -131,7 +131,7 @@ Remember, loops will start counting from a zero index unless specified otherwise
 
 ### Upto and Downto Loops
 
-The Ruby methods `#upto` and `#downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
+The Ruby methods `#.upto` and `#.downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
 
 ~~~ruby
 5.upto(10) {|num| print "#{num} " }     #=> 5 6 7 8 9 10
@@ -162,6 +162,6 @@ This section contains questions for you to check your understanding of this less
  * <a class="knowledge-check-link" href="#loop">What is a `loop` loop, and how would you use it?</a>
  * <a class="knowledge-check-link" href="#while-loop">What is a `while` loop, and how would you use it?</a>
  * <a class="knowledge-check-link" href="#for-loop">What is a `for` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#times-loop">What is a `#times` loop, and how would you use it?</a>
+ * <a class="knowledge-check-link" href="#times-loop">What is a `#.times` loop, and how would you use it?</a>
  * <a class="knowledge-check-link" href="#until-loop">What is an `until` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#upto-and-downto-loops">What are the `#upto` and `#downto` loops, and how would you use them?</a>
+ * <a class="knowledge-check-link" href="#upto-and-downto-loops">What are the `#.upto` and `#.downto` loops, and how would you use them?</a>
