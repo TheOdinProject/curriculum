@@ -39,7 +39,7 @@ React Router is a standard routing library for React applications. By using Reac
 
 ### Adding A Router
 
-Let's make a small app to understand how this router is implemented. Create a new project using `create-react-app` and get rid of the boilerplate code as you already learned in previous lessons (just leave the `index.js` and the `App.js` files). Let's add some mock pages as an example. Create a new `Profile.js` file with the following component:
+Let's make a small app to understand how this router is implemented. Create a new React project and let's start by adding some mock pages as an example. Create a new `Profile.js` file with the following component:
 
 ~~~jsx
 const Profile = () => {
@@ -82,7 +82,7 @@ Let us install the React Router package:
 
 `npm install react-router-dom`
 
-Add the following to `root.js`, we will talk about what is happening in a little bit.
+Add the following to `main.js`, we will talk about what is happening in a little bit.
 
 ~~~jsx
 import React from "react";
