@@ -83,7 +83,7 @@ until gets.chomp == "yes" do
 end
 ~~~
 
-Much more readable! And who doesnt like Pizza.
+Much more readable! And who doesn't like Pizza.
 
 ### Ranges
 
