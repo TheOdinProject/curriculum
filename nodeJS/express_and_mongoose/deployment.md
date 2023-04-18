@@ -87,7 +87,7 @@ Luckily, there are still plenty of other great options out there. The downside i
 
 You can host most of your projects for free using a combination of the different providers we recommend, but you'll have a bit more leg work to do. You'll have to create an account and get familiar with a few different providers.
 
-If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all you're apps from one place.
+If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all your apps from one place.
 
 Whatever your circumstances, we've got you covered. Here are the PaaS providers we recommend.
 
