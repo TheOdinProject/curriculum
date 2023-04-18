@@ -25,9 +25,8 @@ You can learn how to build a back-end later using [Node.js](https://www.theodinp
 2. Complete [this Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0), which will walk you through setting up a sample app on Firebase step by step.
 
 3. Go back to one of the previous projects (e.g. the library project or the to-do app), and [follow the Firebase setup guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend.
-   - **Caution:** If you're _not_ going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look the [stackoverflow answer](https://stackoverflow.com/a/50799016) to add your github page into Firebase authentication domains. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
-
-</div>
+   - **Caution:** If you're _not_ going to be hosting your app on Firebase Hosting, but prefer to leave it where it is (e.g. on GitHub Pages), take a closer look at the [stackoverflow answer](https://stackoverflow.com/a/50799016) to add your github page into Firebase authentication domains. Then, use what you learned in the codelab to make your own app actually interact with Firebase.
+   </div>
 
 ### Knowledge Check
 
