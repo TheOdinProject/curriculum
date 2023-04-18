@@ -17,6 +17,8 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Using Effect Saves The Day
 
+#### The useEffect Hook
+
 Let us take a component in question. We want to make a "Clock" component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
 
 ~~~jsx
@@ -35,7 +37,7 @@ export default function Clock() {
 }
 ~~~
 
-Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered everytime the state updates, and we are updating the state every second, thus generating exponentional growth.
+Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered everytime the state updates, and we are updating the state every second, thus incrementing rapidly.
 
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside an `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
@@ -56,6 +58,8 @@ export default function Clock() {
   );
 }
 ~~~
+
+#### The Dependency Array
 
 But, it still keeps growing too fast! This is where another argument of the `useEffect` comes in: the dependency array.
 
@@ -100,6 +104,8 @@ useEffect(() => {
 }, [a, b]);
 ~~~
 </div>
+
+#### The Clean-up Function
 
 Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
