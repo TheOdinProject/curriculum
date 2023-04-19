@@ -217,7 +217,7 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
 
 ~~~
 
-All the option elements need to have a `value` attribute. This value will be sent to the server when the form is submitted.
+All the option elements should(otherwise the text content inside is used) have a `value` attribute. This value will be sent to the server when the form is submitted.
 
 We can set one of the options to be the default selected element when the browser first renders the form by giving one of the options the `selected` attribute:
 
