@@ -61,8 +61,8 @@ To create a label, we use the `<label>` element. The text we want displayed in t
 
 ~~~html
 <form action="example.com/path" method="post">
-  <label for="firstName">First Name:</label>
-  <input type="text" id="firstName">
+  <label for="first_name">First Name:</label>
+  <input type="text" id="first_name">
 </form>
 ~~~
 
@@ -131,7 +131,7 @@ For example you might want to have an input that gets some data from a user and 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We will need to manipulate data from form controls like this quite a bit when we get to the projects in the Fullstack JavaScript course.
+We will need to manipulate data from form controls like this in projects later in the curriculum.
 
 **The Type Attribute**
 
@@ -146,7 +146,7 @@ To create an email input, we use an input element with `type` attribute of "emai
 <input type="email" id="user_email" name="email" placeholder="you@example.com">
 ~~~
 
-`Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with asterisks(*) to prevent anyone from seeing what has been entered.
+`Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with another character – usually an asterisk (*) or bullet point (•) – to prevent anyone from seeing what has been entered.
 
 A password input can be created using an input element with a type of "password":
 
@@ -217,7 +217,7 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
 
 ~~~
 
-All the option elements need to have a `value` attribute. This value will be sent to the server when the form is submitted.
+All the option elements should(otherwise the text content inside is used) have a `value` attribute. This value will be sent to the server when the form is submitted.
 
 We can set one of the options to be the default selected element when the browser first renders the form by giving one of the options the `selected` attribute:
 
@@ -497,7 +497,7 @@ Certain aspects of other elements are downright impossible to style, for example
 ####Styling Forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
-2. Read and follow along to [the internetingishard guide to forms](https://web.archive.org/web/20210515225808/https://www.internetingishard.com/html-and-css/forms/)
+2. Read and follow along to [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>
 

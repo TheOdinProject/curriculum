@@ -89,8 +89,8 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#the-importance-of-semantics'>Why is semantic HTML important for accessibility?</a>
-* <a class='knowledge-check-link' href='#headings-and-landmarks'>What are the seven HTML elements that define landmarks on a page?</a>
+* [Why is semantic HTML important for accessibility?](#the-importance-of-semantics)
+* [What are the seven HTML elements that define landmarks on a page?](#headings-and-landmarks)
 
 ### Additional Resources
 
@@ -100,5 +100,5 @@ This section contains helpful links to other content. It isn’t required, so co
 * [Screen Reader Basics: VoiceOver](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=8) and [Screen Reader Basics: NVDA](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9) go over some basics for getting started with both brands of screen readers. Both videos are worth watching regardless of which screen reader you choose/is available to you, as they contain some universal information as well.
 * [Screen reader basics: Orca](https://www.youtube.com/watch?v=UI76P-KPZec) is a good video to get you started using Orca, the Linux GUI screen reader.
 * [Screen reader basics: ChromeVox](https://www.youtube.com/watch?v=fpbIsN31hLM) is a starting place for learning to use ChromeVox, the screen reader on ChromeBooks.
-* [ARIA Landmarks Example](https://www.w3.org/WAI/ARIA/apg/example-index/landmarks/index.html) lists the native HTML elements that define landmark regions as well as what their role is. If you check this resource out, be sure to enable the button toggles at the top of the page to see how the page is sectioned by landmarks and how it uses headings.
+* [ARIA Landmarks Example](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html) lists the native HTML elements that define landmark regions as well as what their role is. If you check this resource out, be sure to enable the button toggles at the top of the page to see how the page is sectioned by landmarks and how it uses headings.
 

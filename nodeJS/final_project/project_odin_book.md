@@ -3,7 +3,7 @@ You've come a long way, congratulations!  At this point you should feel comforta
 
 You'll be building Facebook.  As with our previous lessons, how much effort you want to put into the styling and front-end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, "liking", "friending", and the news feed.  You'll also implement signing in with the real Facebook using our old friend passportJS.
 
-Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard.. [look here](https://socket.io/) if you want to see what's involved.)
+Some features of Facebook are things we haven't been exposed to such as chat, realtime updates of the newsfeed and notifications.  You won't be responsible for those unless you're feeling really confident in your skills at this point.  (It's not _that_ hard... [look here](https://socket.io/) if you want to see what's involved.)
 
 ### Assignment
 Build Facebook!  You'll build a large portion of the core Facebook user functionality in this project. We won't be worrying about some of the more flashy front-end stuff unless you really want to, but you shouldn't need it to get a nice user experience.
@@ -20,11 +20,11 @@ This project will give you a chance to take a relatively high level set of requi
 6. Users can like posts.
 7. Users can comment on posts.
 8. Posts should always display with the post content, author, comments and likes.
-9. Treat the Posts index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users she is friends with.
+9. Treat the Posts index page like the real Facebook's "Timeline" feature -- show all the recent posts from the current user and users they are friends with.
 10. Users can create  Profile with a photo (you can get this from the real facebook when you sign in using passport)
 11. The User Show page contains their profile information, profile photo and posts.
 12. The Users Index page lists all users and buttons for sending friend requests to those who are not already friends or who don't already have a pending request.
-13. Deploy your app to Heroku!
+13. Deploy your app to a host provider of your choice!
 
 #### Extra Credit
 

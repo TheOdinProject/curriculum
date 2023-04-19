@@ -5,19 +5,17 @@ like hiding/showing a part of your page. Making a round trip to your server is i
 comes in: Rails suggests using the JS framework Stimulus to augment your HTML. Stimulus gives you a way of creating and using reusable 
 controllers that give you an extra little bit of interactivity.
 
-### Learning Outcomes
+### Lesson Overview
 
-*Look through these now and then use them to test yourself after doing the assignment*
+This section contains a general overview of topics that you will learn in this lesson.
 
-After going through this lesson you should be able to explain:
-
-* how to attach Stimulus controllers to your HTML
-* how to use targets instead of query selectors
-* how to use action attributes instead of event listeners
-* where to keep state
-* how to use lifecycle callbacks
-* how to make your controllers reusable
-* how to make your controllers customizable with attributes
+- How to attach Stimulus controllers to your HTML.
+- How to use targets instead of query selectors.
+- How to use action attributes instead of event listeners.
+- Where to keep state.
+- How to use lifecycle callbacks.
+- How to make your controllers reusable.
+- How to make your controllers customizable with attributes.
 
 ### The idea
 
@@ -122,11 +120,8 @@ Again Stimulus gives you a way to declare elements you want to select in the HTM
 
 ~~~html
 <div data-controller="greeter">
-  <input type="text" 
-         data-action="click->greeter#greet" 
-         data-greeter-target="name">
-    Alert me!
-  </input>
+  <input type="text" data-greeter-target="name">
+  <button data-action="click->greeter#greet">Greet me</button>
   <div data-greeter-target="output"></div>
 </div>
 ~~~
@@ -139,7 +134,7 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
     static targets = ["name", "output"]
     greet() {
-        this.nameTarget.html = this.outputTarget.value
+        this.outputTarget.innerHTML = `Hello ${this.nameTarget.value}!`
     }
 }
 ~~~
@@ -225,7 +220,7 @@ export default class extends Controller {
 
 ### Set up stuff with the lifecycle functions
 
-Often you will want to use Stimulus to use third party javascript libraries with your code. For example, to turn your
+Often you will want to use Stimulus to use third party JavaScript libraries with your code. For example, to turn your
 normal select form input into a fancy interactive field with autocompletion. This means you want to execute
 some JavaScript whenever you got such a field.
 
@@ -269,7 +264,7 @@ Some things use `camelCase` and some `kebab-case`. This little snippet helps to 
 ### Summary
 
 Stimulus gives you a way to make your HTML more interactive, by using data attributes your HTML makes visible where
-your Javascript will interact with your HTML. This was just a broad introduction; the assignments that follow will
+your JavaScript will interact with your HTML. This was just a broad introduction; the assignments that follow will
 go into more depth.
 
 ### Assignment
@@ -279,14 +274,14 @@ go into more depth.
 with Stimulus.
 * Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker as
-we will use the new rails standard of using import maps.
+we will use the new Rails standard of using import maps.
 * Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you 
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
 ### Exercises
 
-To practice you need to create a new standard rails application. Stimulus will be installed by default with Rails 7.0.
+To practice you need to create a new standard Rails application. Stimulus will be installed by default with Rails 7.0.
 
 * Write some HTML that uses the example controller in `app/javascript/controllers/hello_controller.js`
 * Create your own toggle controller and use it in your view. It should be able to show/hide elements upon clicking a
@@ -297,10 +292,11 @@ button.
   * Clicking a checkbox will highlight the element containing the checkbox
 * Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
-* Project: In a new rails app, create a `car` model that `:has_many` `variants`; make up some attributes. Then 
-create a form to edit a car in which you can dynamically add more variants using `:accepts_nested_attributes_for` and a
-Stimulus controller (that adds the form fields you need for a new variant entry). Bonus points for destroying existing 
-records when submitting.
+* **Project**: 
+Go back to you **Flight Booker** project and improve it:
+  * Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)) tag)
+  * Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
+  * Prevent removing the last set of passenger details.
 
 ### Additional Resources
 

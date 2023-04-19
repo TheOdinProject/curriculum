@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 *   How to create links to pages on other websites on the internet
 *   How to create links to other pages on your own websites
 *   The difference between absolute and relative links
-*   How to display an image on webpage using HTML
+*   How to display an image on a webpage using HTML
 
 ### Preparation
 
@@ -19,7 +19,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 1.  Create a new directory named `odin-links-and-images`.
 2.  Within that directory, create a new file named `index.html`.
-3.  Fill in the usual HTML boilerplate.
+3.  Open the file in VS Code and fill in the usual HTML boilerplate.
 4.  Finally, add the following h1 to the body:
 
 ~~~html
@@ -38,7 +38,7 @@ Add the following to the body of the index.html page we created and open it in t
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is made up of two parts, a name, and a value. <span id="where-to-go"></span>In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add a href (hyperlink reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -139,7 +139,7 @@ Think of your domain name (`town.com`) as a town, the directory in which your we
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
 
-To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered so far, the `<img>` element is empty. Which means it doesn't have a closing tag.
+To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is self-closing. Empty, self-closing HTML elements do not need a closing tag.
 
 Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
@@ -216,7 +216,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 1.  [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
 2.  [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
 3.  [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
-4.  [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
+4.  [Read about the four main image formats that can be used on the web](https://www.pagecloud.com/blog/web-images-png-vs-jpg-vs-gif-vs-svg).
 
 </div>
 
@@ -231,7 +231,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
 *   <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
 *   <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
-*   <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
+*   <a class="knowledge-check-link" href="https://www.pagecloud.com/blog/web-images-png-vs-jpg-vs-gif-vs-svg">What are the four main image formats that you can use for images on the web?</a>
 
 ### Additional Resources
 

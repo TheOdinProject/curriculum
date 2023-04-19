@@ -10,14 +10,15 @@ In this lesson, we'll get into the more interesting and useful areas of Active R
 
 There's a lot of material to read and cover, but it basically follows the idea "anything you can do in SQL, you can do in Active Record".  They mostly use the same terminology as well.  Active Record just extends that functionality by giving you a suite of versatile methods (and concepts like Relations) to make it much more user-friendly along the way.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson Overview
 
-* What is an Active Record relation?
-* What is lazy evaluation?
-* What are some commonly used Rails query methods?
-* What are N+1 queries and why are they a concern?
-* What are scopes?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What an Active Record relation is.
+- What lazy evaluation is.
+- Commonly used Rails query methods.
+- N+1 queries and why they are a concern.
+- What scopes are.
 
 ### Relations and Lazy Evaluation
 
@@ -82,7 +83,7 @@ The simplest new concept is how to check whether an object actually exists yet o
 
 #### Arguments
 
-There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  I prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
+There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  We prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
 
 1. `User.where(email: "foo@bar.com")`
 2. `User.where("email" => "foo@bar.com")`
@@ -104,7 +105,7 @@ The key thing to note is that `#find` returns the actual record while `#where` r
 
 ### Aggregations
 
-Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if I want to get a count of all the blog posts categorized by each tag. I might write something like:
+Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if we want to get a count of all the blog posts categorized by each tag. We might write something like:
 
 ~~~bash
   Post.joins(:tags).group("tags.name").count
@@ -152,7 +153,11 @@ Rails is well aware of your distress and has provided a simple solution -- "eage
 
 `#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
 
-Note: One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+<div class="lesson-note" markdown="1">
+
+Note: One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+
+</div>
 
 Almost as useful is the `#pluck` method, which is covered in the Rails Guide.  `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array.  `#pluck` just gives you the resulting array right away:
 

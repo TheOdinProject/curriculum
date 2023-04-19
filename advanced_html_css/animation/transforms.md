@@ -248,7 +248,7 @@ It is enough for you to know *that* these functions exist and generally how they
 
 In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
 
-The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://csstriggers.com/).
+The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
 
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
@@ -262,7 +262,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#two-dimensional-transforms">What are the four main functions of the `transform` property?</a>
-- <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#three-dimensional-transforms">What additional function is required for 3D transforms?</a>
+- [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
+- [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
+- [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
+- [What additional function is required for 3D transforms?](#three-dimensional-transforms)

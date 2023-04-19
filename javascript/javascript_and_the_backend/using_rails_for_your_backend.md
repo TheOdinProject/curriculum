@@ -24,7 +24,7 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 1. [Check out "Using JavaScript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html). It is long and covers a lot of ground, but it's got great content. Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
 
-2. [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) (just skim the top few sections).
+2. [Refresh yourself on Rails AJAX from RailsGuides](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html) (just skim the top few sections).
 
 3. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
 
@@ -34,12 +34,13 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+* [How to Build a fullstack Rails 7 backend with React Frontend](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04)
 * [Grabbing your Rails form CSRF token with JavaScript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
 * [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
 
 ### Knowledge Check
 
 * <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#locations" > How do you load custom JavaScript in a given Rails view page? </a>
-* <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript" >How does "unobtrusive JavaScript" work?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#unobtrusive-javascript" >How does "unobtrusive JavaScript" work?</a>
 * <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#parameters" >How can you pass data from your Rails app to your JavaScript?</a>
-* <a class="knowledge-check-link" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html#an-introduction-to-ajax" >Why would you want to use AJAX to load large batches of data?</a>
+* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#an-introduction-to-ajax" >Why would you want to use AJAX to load large batches of data?</a>

@@ -4,8 +4,9 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 
 In this lesson, we'll cover the Constraint Validation API: a way to validate forms on the frontend with JavaScript.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand the importance of validation in HTML forms.
 - Understand Constraint Validation API for more control over form validation.
@@ -17,7 +18,7 @@ By the end of this lesson, you should be able to do the following:
 
 1. [This tutorial on Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript) covers how we can use JavaScript to validate forms, including the constraint validation API.
 
-2. It'll also prove beneficial to go through the [Constraint Validation docs](https://developer.mozilla.org/en-US/docs/Web/API/Constraint_validation).
+2. It'll also prove beneficial to go through the [Constraint Validation docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation).
 
 3. For Reference, [this document](https://www.w3schools.com/js/js_validation_api.asp) covers the JavaScript validation API in a more concise format.  These functions were explained in the previous article.  Typically, with HTML forms, the inputs are validated upon form submission, but you can use these functions to check validity whenever you like (such as when a user clicks or tabs out of a specific input field).
 
@@ -42,12 +43,13 @@ The form doesn't need to actually submit, but you should give an error message i
 3. Write the simple form elements.
 4. Add the JavaScript code that checks validation as the user progresses through the form.  When a user leaves a form field, it should automatically validate that field.
 5. Test out all possible cases.
-6. Don't forget to style validations with CSS by using the `:valid` and `:invalid` psuedo-classes!
+6. Don't forget to style validations with CSS by using the `:valid` and `:invalid` pseudo-classes!
 
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation'>Understand the importance of validating HTML forms before submitting them to a server.</a>
 - <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation'>Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.</a>

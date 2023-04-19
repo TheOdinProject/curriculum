@@ -89,7 +89,7 @@ class App extends Component {
 }
 ~~~
 
-Secondly, we are declaring the class component, `App`. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every React component should have. One thing to notice is that React components, like all classes and factory functions, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
+Secondly, we are declaring the class component, `App`. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every React component should have. One thing to notice is that React components, like all classes and object constructors, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
 
 ~~~javascript
 constructor() {
@@ -214,7 +214,7 @@ root.render(
 
 In short, this line of code tells React to render the App component into the DOM, and more specifically, into the element with the id "root". Every create-react-app project has a root div, which is visible in the index.html file in your public directory. If you decide to name your main application component something other than `App.js`, make sure to change its name in `index.js` as well.
 
-If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you.
+If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you.You can also look at more aspects of your application's performance by learning about ReportWebVitals [here](https://create-react-app.dev/docs/measuring-performance/#:~:text=Web%20Vitals%E2%80%8B,calculated%2C%20refer%20to%20the%20documentation).
 
 ### React Developer Tools
 

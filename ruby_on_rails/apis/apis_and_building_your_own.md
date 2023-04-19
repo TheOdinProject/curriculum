@@ -10,13 +10,14 @@ When you build applications that have more dynamic front-end functionality (as c
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson Overview
 
-* Create a Rails Controller action capable of returning JSON and XML responses.
-* Create an API for a model that hides certain attributes from consumers of your API.
-* Create custom error messages for responding to faulty requests.
-* Explain Service Oriented Architecture. 
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Creating a Rails Controller action capable of returning JSON and XML responses.
+- Creating an API for a model that hides certain attributes from consumers of your API.
+- Creating custom error messages for responding to faulty requests.
+- What Service Oriented Architecture is.
 
 ### API Basics
 
@@ -93,13 +94,13 @@ In our case, we'll do this by modifying `#as_json` in our model to return only t
   class User < ActiveRecord::Base
 
     # Option 1: Purely overriding the #as_json method
-    def as_json(options={})
+    def as_json(_options={})
       { :name => self.name }  # NOT including the email field
     end
 
     # Option 2: Working with the default #as_json method
     def as_json(options={})
-      super(:only => [:name])
+      super({ only: [:name] }.merge(options))
     end
     
   end

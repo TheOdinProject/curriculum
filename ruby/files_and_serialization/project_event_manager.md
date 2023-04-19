@@ -28,14 +28,10 @@ representatives for each attendee based on their zip code.
 
 ### Initial Setup
 
-Create a project directory folder named `event_manager` wherever you want to store
-your project. In the project directory, create another folder named `lib` and inside
-that folder create a plain text file named `event_manager.rb`. Using your command-line
-interface (CLI), you can enter the following commands:
+1. Create a new GitHub repository named `event_manager` and clone it to your `repos` directory. 
+2. In the new `event_manager` directory, create another folder named `lib` and inside that folder create a plain text file named `event_manager.rb`. You can create the directory and file by using the following commands:
 
 ~~~bash
-$ mkdir event_manager
-$ cd event_manager
 $ mkdir lib
 $ touch lib/event_manager.rb
 ~~~
@@ -176,7 +172,7 @@ ID,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcod
 1,11/12/08 10:47,Allison,Nguyen,arannon@jumpstartlab.com,6154385000,3155 19th St NW,Washington,DC,20010
 ~~~
 
-The first row contains header information. This row provides descriptional text
+The first row contains header information. This row provides descriptive text
 for each column of data. It tells us the data columns are laid out as follows
 from left-to-right:
 
@@ -1287,7 +1283,7 @@ return to the application.
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
-          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
+          <td><%= "#{legislator.urls.join(" ")}" unless legislator.urls.nil? %></td>
         </tr>
         <% end %>
     <% else %>
@@ -1561,3 +1557,4 @@ But now, tantalized, she wants to know "What days of the week did most people
 register?"
 
 * Use [Date#wday](https://rubyapi.org/3.1/o/date#method-i-wday) to find out the day of the week.
+

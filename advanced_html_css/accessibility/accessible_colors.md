@@ -49,9 +49,9 @@ Let's look at another example. Let's say you want to create a form that has an i
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#contrast-ratio'>What is a contrast ratio?</a>
-* <a class='knowledge-check-link' href='#dev-tools'>What are two ways you can check a contrast ratio using your dev tools?</a>
-* <a class='knowledge-check-link' href='#color-information'>What should you avoid when conveying information to users?</a>
+* [What is a contrast ratio?](#contrast-ratio)
+* [What are two ways you can check a contrast ratio using your dev tools?](#dev-tools)
+* [What should you avoid when conveying information to users?](#color-information)
 
 ### Additional Resources
 

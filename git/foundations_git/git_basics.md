@@ -6,9 +6,9 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to create a repository on GitHub
-- How to get files to and from GitHub
-- How to take "snapshots" of your code
+-   How to create a repository on GitHub.
+-   How to get files to and from GitHub.
+-   How to take "snapshots" of your code.
 
 ### Assignment
 
@@ -16,11 +16,11 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Before You Start!
 
-- Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
+-   Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
-- If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
+-   If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
   `git config --global init.defaultBranch main`
-- For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
+-   For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 
 #### Create the Repository
 
@@ -30,7 +30,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![The GitHub Profile Screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/00.png)
 
-3.  Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the green "Create repository" button at the bottom of the page.
+3.  Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
     ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/01.png)
 
@@ -38,7 +38,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Copy SSH link using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png)
 
-5.  Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
+5.  Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir/index.html#home-directory-variation) covered variations of home folders - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
     ![Creating a new directory](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png)
 
@@ -80,13 +80,13 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Add text file and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/11.png)
 
-    MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/command-line-basics-web-development-101) and follow the instructions provided to allow this command to work.
+    MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
 2.  Add "Hello Odin!" to line 3 of README.md and save the file with "Ctrl+S" (or "Command+S" on Mac).
 
     ![Edit README using text editor](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/12.png)
 
-3.  Back in your terminal (or in the fancy built-in terminal in Visual Studio Code with *Ctrl + \`* ), type `git status`. You'll notice that README.md is now shown as not staged or committed.
+3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing Ctrl + ` (backtick). Then type `git status`. You'll notice that README.md is now shown as not staged or committed.
 
     ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
 
@@ -134,23 +134,23 @@ When trying to make simple changes to the files in your repo, such as attempting
 
 This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
 
-- Commands related to a remote repository:
-  - `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
-  - `git push` or `git push origin main` (Both accomplish the same goal in this context)
-- Commands related to the workflow:
-  - `git add .`
-  - `git commit -m "A message describing what you have done to make this snapshot different"`
-- Commands related to checking status or log history
-  - `git status`
-  - `git log`
+-   Commands related to a remote repository:
+    -   `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
+    -   `git push` or `git push origin main` (Both accomplish the same goal in this context)
+-   Commands related to the workflow:
+    -   `git add .`
+    -   `git commit -m "A message describing what you have done to make this snapshot different"`
+-   Commands related to checking status or log history
+    -   `git status`
+    -   `git log`
 
 The basic Git syntax is `program | action | destination`.
 
 For example,
 
-- `git add .` is read as `git | add | .`, where the period represents everything in the current directory;
-- `git commit -m "message"` is read as `git | commit -m | "message"`; and
-- `git status` is read as `git | status | (no destination)`.
+-   `git add .` is read as `git | add | .`, where the period represents everything in the current directory;
+-   `git commit -m "message"` is read as `git | commit -m | "message"`; and
+-   `git status` is read as `git | status | (no destination)`.
 
 ### Git Best Practices
 
@@ -158,15 +158,25 @@ There's a lot to learn about using Git. But it is worth taking the time to highl
 
 Two helpful best practices to consider are **atomic commits** and leveraging those atomic commits to make your commit messages more useful to future collaborators.
 
-An atomic commit is a commit that includes changes related to only one feature or task of your program. There are two main reasons for doing this: first, if something you change turns out to cause some problems, it is easy to revert the specific change without losing other changes; and second, it enables you to write better commit messages.
+An atomic commit is a commit that includes changes related to only one feature or task of your program. There are two main reasons for doing this: first, if something you change turns out to cause some problems, it is easy to revert the specific change without losing other changes; and second, it enables you to write better commit messages. You'll learn more about what a good commit message looks like in a future lesson!
 
 ### Changing the Git Commit Message Editor
 
-If you are using _Visual Studio Code_ (and you should be if you're following this curriculum) and you don't want to get stuck writing a commit message in [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>) because you accidentally used `git commit` without the message flag (`-m`), this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it: `git config --global core.editor "code --wait"`.
+If you are using _Visual Studio Code_ (and you should be if you're following this curriculum), there's a way to ensure that if you use `git commit` without the message flag (`-m`), you won't get stuck writing your commit message in [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
 
-There will be no confirmation or any output on the terminal after entering this command. To make a commit with Visual Studio Code as the text editor, make sure to use the `git commit` command without the `-m` flag. Just type `git commit` and no message after that. Once you do this, a new tab will open. Now you can write your message, and provide more information if you want, right below it. After typing your commit message, save it and exit the tab.
+Changing the default message editor is a good idea in case you accidentally omit the flag, unless you prefer using Vim. There is no downside to changing it, because you will have the option to write your commit messages in the terminal or in the comfort of VS Code.
 
-With that out of the way, now you can choose to use either `git commit -m <your message here>` or `git commit` and enter your message with Visual Studio Code!
+The following command will set this configuration. Type (or copy & paste) this command into your terminal and hit <kbd>Enter</kbd>.
+
+~~~bash
+git config --global core.editor "code --wait"
+~~~
+
+There will be no confirmation or any output on the terminal after entering this command. 
+
+With that done, you can now choose to use either `git commit -m <your message here>` or `git commit` to type your message with Visual Studio Code!
+
+To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl + S</kbd> (or Mac equivalent) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
 
 ### Conclusion
 
@@ -184,20 +194,20 @@ For now, concentrate on using the basics of Git that you've learned here for all
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#new-github-repo">How do you create a new repository on GitHub?</a>
-- <a class="knowledge-check-link" href="#github-to-local">How do you copy a repository onto your local machine from GitHub?</a>
-- <a class="knowledge-check-link" href="#default-remote">What is the default name of your remote connection?</a>
-- <a class="knowledge-check-link" href="#origin-push">Explain what `origin` is in `git push origin main`.</a>
-- <a class="knowledge-check-link" href="#main-push">Explain what `main` is in `git push origin main`.</a>
-- <a class="knowledge-check-link" href="#two-stages">Explain the two-stage system that Git uses to save files.</a>
-- <a class="knowledge-check-link" href="#git-status">How do you check the status of your current repository?</a>
-- <a class="knowledge-check-link" href="#git-add">How do you add files to the staging area in git?</a>
-- <a class="knowledge-check-link" href="#git-commit">How do you commit the files in the staging area and add a descriptive message?</a>
-- <a class="knowledge-check-link" href="#git-push">How do you push your changes to your repository on GitHub?</a>
-- <a class="knowledge-check-link" href="#git-log">How do you look at the history of your previous commits?</a>
+-   [How do you create a new repository on GitHub?](#new-github-repo)
+-   [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
+-   [What is the default name of your remote connection?](#default-remote)
+-   [Explain what `origin` is in `git push origin main`.](#origin-push)
+-   [Explain what `main` is in `git push origin main`.](#main-push)
+-   [Explain the two-stage system that Git uses to save files.](#two-stages)
+-   [How do you check the status of your current repository?](#git-status)
+-   [How do you add files to the staging area in git?](#git-add)
+-   [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
+-   [How do you push your changes to your repository on GitHub?](#git-push)
+-   [How do you look at the history of your previous commits?](#git-log)
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

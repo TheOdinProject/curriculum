@@ -245,7 +245,7 @@ Add the following elements to the container using ONLY JavaScript and the DOM me
 
 Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand!  Events are how you make that magic happen on your pages.  Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.
 
-There are three primary ways to go about this: you can attach functions' attributes directly on your HTML elements, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
+There are three primary ways to go about this: You can specify function attributes directly on your HTML elements, you can set properties of form `on[eventType]` (`onclick`, `onmousedown`, etc.) on the DOM nodes in your JavaScript, or you can attach event listeners to the DOM nodes in your JavaScript.  Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
 
 We're going to create 3 buttons that all alert "Hello World" when clicked.  Try them all out using your own HTML file, or using something like [CodePen](https://codepen.io/).
 
@@ -255,7 +255,7 @@ We're going to create 3 buttons that all alert "Hello World" when clicked.  Try 
 <button onclick="alert('Hello World')">Click Me</button>
 ~~~
 
-This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only have 1 "onclick" event per element.
+This solution is less than ideal because we're cluttering our HTML with JavaScript. Also, we can only set one "onclick" property per DOM element, so we're unable to run multiple separate functions in response to a click event using this method.
 
 #### Method 2
 
@@ -270,7 +270,7 @@ const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 ~~~
 
-#### \(need to review arrow functions? [LINK](http://javascript.info/arrow-functions-basics)\)
+#### \(Need to review [arrow functions](http://javascript.info/arrow-functions-basics)?)
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property.
 
@@ -300,6 +300,7 @@ Note that all 3 of these methods can be used with named functions like so:
 ~~~
 
 ~~~javascript
+// the JavaScript file
 function alertFunction() {
   alert("YAY! YOU DID IT!");
 }
@@ -322,7 +323,7 @@ btn.addEventListener('click', function (e) {
 ~~~
 \*_Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://dev.to/i3uckwheat/understanding-callbacks-2o9e)._
 
-The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and functions such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
+The `e` in that function is an object that references the __event__ itself.  Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's __target__ - the DOM node that was clicked.
 
 Try this:
 
@@ -385,7 +386,7 @@ You can find a more complete list with explanations of each event on [this page]
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
-1.  Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. 
+1.  Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. In the video you will notice that a deprecated [keycode](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) keyboard event is used, replace it with the recommended [code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) keyboard event. 
 2.  Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 </div>

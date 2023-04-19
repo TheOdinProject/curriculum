@@ -41,9 +41,11 @@ Notice that the developer tools also show negative lines opposite from the posit
 
 ### Cells
 
-Cells are the smallest unit of measurement in a grid. You can think of grid cells like a cell in a spreadsheet or a square on a graph. By default each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid. So the element we marked with the letter "A" is a cell between row grid lines 1 and 2 and column grid lines 1 and 2. The element with the letter "H" is a cell between row grid lines 3 and 4 and column grid lines 2 and 3.
+The space in a grid shared by a single row track and a single column track is called a grid *cell*. You can think of a grid cell like a cell in a spreadsheet: a space defined by a *row, column* coordinate.
 
-But what happens if we wanted to change the order of our grid items? Or we want items to occupy more than one cell?
+By default, each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid (3 rows x 3 columns), each with one automatically positioned child element inside. The element marked with the letter "A" is occupying a cell that lies in row track 1 (between row grid lines 1 and 2) and column track 1 (between column grid lines 1 and 2). The item marked with the letter "H" is in a cell at row track 3 (between row grid lines 3 and 4) and column track 2 (between column grid lines 2 and 3).
+
+But what happens if we wanted to change the order of our grid items? Or if we want items to occupy more than one cell?
 
 ### Positioning
 
@@ -84,7 +86,7 @@ Now we have the blueprints for our full apartment. If you take a look at the `#k
 
 One problem with our floor plan is that the bathroom and kitchen are on opposite ends of the apartment. We would save money on the plumbing by placing these two rooms back to back. Take a minute now and see if you can change the starting and ending positions for the bathroom, bedroom and closet so that the bathroom is right next to the kitchen. You can use either the long or shorthand properties here.
 
-### `grid-area`
+### grid-area
 
 You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing. 
 

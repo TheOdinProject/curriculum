@@ -1,6 +1,6 @@
 ### Introduction
 
-We're going to make a simple implementation of grade-school classic "rock paper scissors". If you don't know what that is check the [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) ridiculous step-by-step. For the moment we're just going to play the game from the browser console, but __we will revisit this project in a later lesson and add a Graphical User Interface with buttons and text,__ so don't forget to keep the code on GitHub! You might notice some 'Live Preview' links in the student solutions that have a GUI - this is coming in a later lesson. When you get there don't forget to come back and add your link!
+We're going to make a simple implementation of grade-school classic "rock paper scissors". If you don't know what that is check the [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) detailed step-by-step. For the moment we're just going to play the game from the browser console, but __we will revisit this project in a later lesson and add a Graphical User Interface with buttons and text,__ so don't forget to keep the code on GitHub! You might notice some 'Live Preview' links in the student solutions that have a GUI - this is coming in a later lesson. When you get there don't forget to come back and add your link!
 
 ### Quick Exercises Before Starting
 
@@ -32,15 +32,8 @@ Don't forget to commit early & often! You can [reference the Commit Message less
     console.log(playRound(playerSelection, computerSelection));
     ~~~
 
-6.  Write a NEW function called `game()`. Call the `playRound` function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
-    *   [Remember loops?](https://www.theodinproject.com/lessons/foundations-problem-solving#solving-fizz-buzz) This is a great opportunity to use one to play those five rounds:
-
-        ~~~javascript
-        for (let i = 0; i < 5; i++) {
-           // your code here!
-        }
-        ~~~
-
+6.  Write a NEW function called `game()`. Use the previous function _inside_ of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
+    *   You have not officially learned how to "loop" over code to repeat function calls... if you already know about loops from somewhere else (or if you feel like doing some more learning) feel free to use them. If not, don't worry! Just call your `playRound` function 5 times in a row. Loops are covered in the next lesson.
     *   At this point you should be using `console.log()` to display the results of each round and the winner at the end.
     *   Use `prompt()` to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
     *   Feel free to re-work your previous functions if you need to. Specifically, you might want to change the return value to something more useful.

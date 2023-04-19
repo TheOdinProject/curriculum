@@ -1,5 +1,5 @@
 ### Introduction
-With media queries it is possible to completely restyle your web projects based on the size of a user's screen. All of the lessons we've had so far have focused on making sure that the individual elements of your layout are as flexible as possible, but sometimes you will need to actually _change_ some of your css values to accommodate a specific screen size. These changes could be subtle shifts, such as adjusting margin, padding or font-size to squeeze more content onto the screen, or they could be big obvious shifts in layout. The nature of the exact changes will depend on your design, but the underlying technique is the same.
+With media queries it is possible to completely restyle your web projects based on the size of a user's screen. All of the lessons we've had so far have focused on making sure that the individual elements of your layout are as flexible as possible, but sometimes you will need to actually _change_ some of your CSS values to accommodate a specific screen size. These changes could be subtle shifts, such as adjusting margin, padding or font-size to squeeze more content onto the screen, or they could be big obvious shifts in layout. The nature of the exact changes will depend on your design, but the underlying technique is the same.
 
 ### Learning Outcomes
 * You'll learn how to implement media queries to create fully responsive websites that look great on any device.
@@ -72,7 +72,7 @@ This is mostly unnecessary, but points toward another very useful capability of 
 }
 ~~~
 
-This is not something we're going to focus on in this curriculum, but in some cases it may be something you want to consider taking advantage of. It's fairly common to change some colors (i.e. make things black/white) and add `display: none` to hide elements that are useless in a printed environment (buttons, nav-links etc.).
+This is not something we're going to focus on in this curriculum, but in some cases it may be something you want to consider taking advantage of. It's fairly common to change some colors (i.e. make things black/white), and add `display: none` to hide elements that are useless in a printed environment (buttons, nav-links, etc).
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -82,8 +82,8 @@ This is not something we're going to focus on in this curriculum, but in some ca
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#media-query-syntax">How do you define a media query to create a mobile layout for your site?</a>
-* <a class="knowledge-check-link" href="#tips">What is the difference between `max-width` and `min-width` in a media query definition?</a>
+* [How do you define a media query to create a mobile layout for your site?](#media-query-syntax)
+* [What is the difference between `max-width` and `min-width` in a media query definition?](#tips)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

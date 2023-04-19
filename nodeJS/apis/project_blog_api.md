@@ -21,7 +21,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 5. Create a second website for authoring and editing your posts. You can set this up however you like but the following features might be useful:
   - A list of all posts that shows whether or not they have been published.
   - A button to publish unpublished posts, or to unpublish published ones!
-  - A 'NEW POST' form. If you want to get fancy, you could use a rich text editor such as [TinyMCE](https://www.tiny.cloud/docs/quick-start/).
+  - A 'NEW POST' form. If you want to get fancy, you could use a rich text editor such as [TinyMCE](https://www.tiny.cloud/docs/tinymce/6/cloud-quick-start/).
   - The ability to manage comments (i.e. delete or edit them).
 6. How much work you want to put into the front-end code on this one is up to you.  Technically this is a back-end focused course so if you don't actually need or want a blog on your website feel free to focus mainly on getting a REST API up and running.
 </div>
@@ -29,5 +29,5 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alernatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API.
+- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alternatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API.
 
