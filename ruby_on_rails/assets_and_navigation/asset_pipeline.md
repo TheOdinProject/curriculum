@@ -20,7 +20,7 @@ Getting back to the Asset Pipeline, often times, it's easiest to organize your c
 
 A similar organizational issue has to do with storing things like images.  It's easier to keep them separated in your directory but you want them to be really simple to link to so your image tags are robust.
 
-Rails' solution to these problems is to flatten everything out and mash all your asset files together into one big one for each filetype (called "concatenation").  The process used to do this is the Asset Pipeline.  For your CSS files, this means that Rails will take all the individual `.css` files and just stack them on top of each other in one giant asset file.  It will then run an "uglifier" or "minifier" program on the file to remove extraneous spaces and make everything nice and small for shipping to the browser.
+Rails' solution to these problems is to flatten everything out and mash all your asset files together into one big asset for each filetype (called "concatenation").  The process used to do this is the Asset Pipeline.  For your CSS files, this means that Rails will take all the individual `.css` files and just stack them on top of each other in one giant asset file.  It will then run an "uglifier" or "minifier" program on the file to remove extraneous spaces and make everything nice and small for shipping to the browser.
 
 JavaScript files are the same -- all of them get smooshed together and then uglified before being shipped to the browser as one single file.  It's better to have one slightly larger file than to make several full HTTP requests.
 
@@ -73,7 +73,7 @@ Your stylesheet manifest file operates on the same principle -- it's available a
  */
 ~~~
 
-Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put CSS sparingly into this top level file and instead add your own CSS stylesheet files in an organized way. 
+Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put CSS sparingly into this top level file and instead add your own CSS stylesheet files in an organized way.
 
 For example, you can create stylesheets corresponding to each of your Controllers in Rails. So if you create a Controller called `CatController` to handle all those requests for your awesome collection of cat GIFs, then you would also create a `cat.css` stylesheet where you can put CSS related to your cat views. Use `touch` or `echo` on the command line to add the stylesheet: `touch app/assets/stylesheets/cat.css`.
 
