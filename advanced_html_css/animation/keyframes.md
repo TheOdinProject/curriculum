@@ -125,6 +125,7 @@ Now let's make some cool animations! Go to the [CSS exercises repository](https:
 
 1. button-hover
 2. pop-up
+3. dropdown-menu
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
