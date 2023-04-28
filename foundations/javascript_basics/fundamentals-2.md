@@ -46,6 +46,11 @@ Be sure to do the lessons in order presented here. Pressing "run" at the top wil
 To get started, create a free replit account and click "Fork" or "Remix" in order to have access to the exercises.
 Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
+
+<!-- I propose the following change: From exercise 1 through 3. Change the text when you successfully complete the exercise from "Congrats! You've solved them all, you may move onto the next lesson" to "Congrats! You've solved them all, you may move onto the next exercise".-->
+
+
+
 - [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
   - In this exercise, you will be working out of the file called troubleshooting.js
 - [Exercise 2](https://replit.com/@OdinProject/enter-a-number#script.js)
