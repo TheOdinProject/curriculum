@@ -15,7 +15,7 @@ In the next few lessons, we will walk through these installation steps together:
 * Installing a supported [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS).
 * Installing Google Chrome web browser.
 * Installing a code editor.
-* Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
+* Creating an SSH key (a personal "access key" that will identify you to GitHub, Heroku, and many other sites you'll be using).
 
 At the end of the next lesson, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
@@ -37,7 +37,11 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 #### Windows
 
-Windows **is not natively supported** by The Odin Project, or on our Discord server; however, if you're currently using Windows you can use either a virtual machine or dual boot to keep your Windows install while creating your development environment in Linux.
+Windows, by itself, **is not natively supported** by The Odin Project, or on our Discord server. Because many of the tools you'll be using were written with a Linux environment in mind, you'll need to have to one even if you plan to use Windows as your development OS. If you are currently using Windows you can use one of the following options to create your development environment:
+
+* A VirtualBox Virtual Machine
+* Dual-boot Ubuntu installation
+* Windows Subsystem for Linux
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
@@ -46,6 +50,8 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but you'll be okay as long as you take your time and read the instructions.
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
+
+**Windows Subsystem for Linux**, or WSL2 as we'll refer to it from now on, is a feature that lets users run a Linux environment directly inside Windows without the need to run a virtual machine. TODO: Insert further copy here.
 
 ### Concerned About Installing A New OS?
 
@@ -63,11 +69,7 @@ Still not convinced? Here are a few great reasons to install Linux:
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
 
-Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
-
-Before we can continue, we must first stress one detail of importance:
-
-**We can only support what is provided within the scope of our curriculum. We do not support native Windows or any version of Windows Subsystem for Linux (WSL) as a development environment.** Using Windows and WSL has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows/WSL [has not proven to be a path of low resistance.](https://github.com/microsoft/WSL/issues)
+Many learners come to our Discord channel to ask if the directions on this page need to be followed. The maintainers of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
 
 With that out of the way, we need to set up an appropriate development environment!
 
