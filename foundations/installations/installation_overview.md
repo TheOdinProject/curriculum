@@ -74,5 +74,5 @@ With that out of the way, we need to set up an appropriate development environme
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+ - [Check out this begginer-friendly Linux course playlist](https://www.youtube.com/watch?v=nRpmRDm-QrQ&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i) created by @ApoorvGoyalMain on Youtube for a comprehensive and easy introduction to Linux.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
