@@ -22,7 +22,7 @@ Hosting providers are like server landlords. They own servers and rent space on 
 
 You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** NodeJS apps. We're going to need something more powerful.
 
-#### Static vs Dynamic Sites
+### Static vs Dynamic Sites
 
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
