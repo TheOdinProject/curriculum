@@ -33,7 +33,7 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators. A little heads up regarding this reading's tasks; there will be questions where you see `alert()` (with a number or string inside of the parenthesis), what's happening here will be discussed later in the curriculum. Some of the answers may not make sense now but they are accurate and will come to be understood as you progress in the curriculum. Don't worry too much about it now!
 4. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
 5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
-6. [This tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-switch-statement-in-javascript) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
+6. [This article](https://javascript.info/switch) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
 
 ### Assignment
 

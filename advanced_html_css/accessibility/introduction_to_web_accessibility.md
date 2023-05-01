@@ -37,8 +37,8 @@ One other pretty big reason that accessibility matters is that, depending on the
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href="#what-is-web-accessibility">What is web accessibility?</a>
-- <a class='knowledge-check-link' href="#benefits-knowledge-check">Who truly benefits from accessibility features?</a>
+- [What is web accessibility?](#what-is-web-accessibility)
+- [Who truly benefits from accessibility features?](#benefits-knowledge-check)
 
 ### Additional Resources
 

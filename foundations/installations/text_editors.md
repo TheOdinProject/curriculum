@@ -61,10 +61,6 @@ You can start VSCode in two ways,
 code
 ~~~
 
-#### Alternative Installation
-   
-More advanced users might want to install VSCode using the built-in `apt` package manager. This allows VSCode to be kept up to date automatically. Instructions on how to set this up can be found on [this webpage](https://code.visualstudio.com/docs/setup/linux).
-
 </details>
 
 <details markdown="block">

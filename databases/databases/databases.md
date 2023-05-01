@@ -32,12 +32,12 @@ This section contains a general overview of topics that you will learn in this l
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#structureddata">What is a database?</a>
--   <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#rdbms">What are relational databases?</a>
--   <a class="knowledge-check-link" href="https://youtu.be/z2kbsG8zsLM?t=200">What is a Primary Key?</a>
--   <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#sql">What is SQL?</a>
--   <a class="knowledge-check-link" href="https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table">How do you get all the records from a table in SQL?</a>
--   <a class="knowledge-check-link" href="https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data">How do you insert a record in SQL?</a>
+-   [What is a database?](https://launchschool.com/books/sql/read/introduction#structureddata)
+-   [What are relational databases?](https://launchschool.com/books/sql/read/introduction#rdbms)
+-   [What is a Primary Key?](https://youtu.be/z2kbsG8zsLM?t=200)
+-   [What is SQL?](https://launchschool.com/books/sql/read/introduction#sql)
+-   [How do you get all the records from a table in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table)
+-   [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

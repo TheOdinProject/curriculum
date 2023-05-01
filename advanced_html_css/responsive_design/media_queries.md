@@ -82,8 +82,8 @@ This is not something we're going to focus on in this curriculum, but in some ca
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#media-query-syntax">How do you define a media query to create a mobile layout for your site?</a>
-* <a class="knowledge-check-link" href="#tips">What is the difference between `max-width` and `min-width` in a media query definition?</a>
+* [How do you define a media query to create a mobile layout for your site?](#media-query-syntax)
+* [What is the difference between `max-width` and `min-width` in a media query definition?](#tips)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
