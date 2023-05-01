@@ -146,7 +146,7 @@ export {
 And to import them:
 
 ~~~javascript
-// main js file in /src folder
+// index.js in /src folder
 import {functionOne, functionTwo} from './myModule';
 ~~~
 
