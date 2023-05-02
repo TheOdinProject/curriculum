@@ -197,12 +197,12 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 2.  Read [think-like-a-git](http://think-like-a-git.net/)
     *   Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
-</div>
 
-3. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+3.  Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
 
 4.  Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
+</div>
 
 ### Additional Resources
 
