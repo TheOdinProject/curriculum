@@ -97,8 +97,8 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="#the-flex-shorthand">What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?</a>
--   <a class="knowledge-check-link" href="#what-is-flex-auto">What are the 3 defined values for the flex shorthand `flex:auto`?</a>
+-   [What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?](#the-flex-shorthand)
+-   [What are the 3 defined values for the flex shorthand `flex:auto`?](#what-is-flex-auto)
 
 ### Additional Resources
 

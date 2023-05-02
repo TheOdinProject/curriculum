@@ -45,9 +45,9 @@ Go through the following sections of the [official Chrome DevTools docs](https:/
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#inspecting-elements">How do you select a specific element on your page with your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="#strikethrough">What does a strikethrough in a CSS declaration mean in your browser’s developer tools?</a>
-- <a class="knowledge-check-link" href="#testing-styles-in-the-inspector">How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?</a>
+- [How do you select a specific element on your page with your browser’s developer tools?](#inspecting-elements)
+- [What does a strikethrough in a CSS declaration mean in your browser’s developer tools?](#strikethrough)
+- [How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?](#testing-styles-in-the-inspector)
 
 ### Additional Resources
 

@@ -55,9 +55,9 @@ To get some practice using lists, create a new HTML document and create the foll
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#unordered-lists">What HTML element is used to create an unordered list?</a>
-*   <a class="knowledge-check-link" href="#ordered-lists">What HTML element is used to create an ordered list?</a>
-*   <a class="knowledge-check-link" href="#li">What HTML element is used to create list items within both unordered and ordered lists?</a>
+*   [What HTML element is used to create an unordered list?](#unordered-lists)
+*   [What HTML element is used to create an ordered list?](#ordered-lists)
+*   [What HTML element is used to create list items within both unordered and ordered lists?](#li)
 
 ### Additional Resources
 

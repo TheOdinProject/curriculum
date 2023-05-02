@@ -250,10 +250,10 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#problem-solving-stages">What are the three stages in the problem solving process?</a>
-*   <a class="knowledge-check-link" href="#important-understand-problem">Why is it important to clearly understand the problem first?</a>
-*   <a class="knowledge-check-link" href="#help-understand-problem">What can you do to help get a clearer understanding of the problem?</a>
-*   <a class="knowledge-check-link" href="#planning-stage">What are some of the things you should do in the planning stage of the problem solving process?</a>
-*   <a class="knowledge-check-link" href="#algorithm">What is an algorithm?</a>
-*   <a class="knowledge-check-link" href="#pseudo">What is pseudocode?</a>
-*   <a class="knowledge-check-link" href="#breaking-problem">What are the advantages of breaking a problem down and solving the smaller problems?</a>
+*   [What are the three stages in the problem solving process?](#problem-solving-stages)
+*   [Why is it important to clearly understand the problem first?](#important-understand-problem)
+*   [What can you do to help get a clearer understanding of the problem?](#help-understand-problem)
+*   [What are some of the things you should do in the planning stage of the problem solving process?](#planning-stage)
+*   [What is an algorithm?](#algorithm)
+*   [What is pseudocode?](#pseudo)
+*   [What are the advantages of breaking a problem down and solving the smaller problems?](#breaking-problem)
