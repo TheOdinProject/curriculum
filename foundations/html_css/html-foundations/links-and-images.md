@@ -194,7 +194,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the src attribute, every image element must also have an alt (alternative text) attribute.
+<span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
 The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
@@ -216,7 +216,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 1.  [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
 2.  [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
 3.  [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
-4.  [Read about the four main image formats that can be used on the web](https://www.pagecloud.com/blog/web-images-png-vs-jpg-vs-gif-vs-svg).
+4.  [Read about the four main image formats that can be used on the web](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats).
 
 </div>
 
@@ -224,19 +224,19 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#anchor-elements">What element is used to create a link?</a>
-*   <a class="knowledge-check-link" href="#attribute">What is an attribute?</a>
-*   <a class="knowledge-check-link" href="#where-to-go">What attribute tells links where to go to?</a>
-*   <a class="knowledge-check-link" href="#absolute-and-relative-links">What is the difference between an absolute and relative link?</a>
-*   <a class="knowledge-check-link" href="#images">Which element is used to display an image?</a>
-*   <a class="knowledge-check-link" href="#two-attributes">What two attributes do images always need to have?</a>
-*   <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
-*   <a class="knowledge-check-link" href="https://www.pagecloud.com/blog/web-images-png-vs-jpg-vs-gif-vs-svg">What are the four main image formats that you can use for images on the web?</a>
+*   [What element is used to create a link?](#anchor-elements)
+*   [What is an attribute?](#attribute)
+*   [What attribute tells links where to go to?](#where-to-go)
+*   [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
+*   [Which element is used to display an image?](#images)
+*   [What two attributes do images always need to have?](#two-attributes)
+*   [How do you access a parent directory in a filepath?](#parent-filepath)
+*   [What are the four main image formats that you can use for images on the web?](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images/)
+-   [Interneting is hard's treatment on HTML links and images](https://www.internetingishard.com/html-and-css/links-and-images/)
 -   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 

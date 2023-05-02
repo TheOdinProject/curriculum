@@ -58,12 +58,12 @@ Span is an inline-level element by default. It can be used to group text content
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#block-inline-difference">What is the difference between a block element and an inline element?</a>
-*   <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block">What is the difference between an inline element and an inline-block element?</a>
-*   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is an `h1` block or inline?</a>
-*   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `button` block or inline?</a>
-*   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `div` block or inline?</a>
-*   <a class="knowledge-check-link" href="https://www.w3schools.com/html/html_blocks.asp">Is `span` block or inline?</a>
+*   [What is the difference between a block element and an inline element?](#block-inline-difference)
+*   [What is the difference between an inline element and an inline-block element?](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block)
+*   [Is an `h1` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+*   [Is `button` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+*   [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+*   [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
 
 ### Additional Resources
 

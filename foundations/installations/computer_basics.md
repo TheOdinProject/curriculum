@@ -30,10 +30,10 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/">Is Windows an operating system or an application?</a>
-* <a class="knowledge-check-link" href="https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/">What's the difference between open source and closed source software?</a>
-* <a class="knowledge-check-link" href="https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/">What are some use cases of a screenshot?</a>
-* <a class="knowledge-check-link" href="https://edu.gcfglobal.org/en/techsavvy/password-tips/1/">Give an example of a weak and a strong password.</a>
+* [Is Windows an operating system or an application?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+* [What's the difference between open source and closed source software?](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
+* [What are some use cases of a screenshot?](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/)
+* [Give an example of a weak and a strong password.](https://edu.gcfglobal.org/en/techsavvy/password-tips/1/)
 
 ### Additional Resources
 
