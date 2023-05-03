@@ -149,15 +149,18 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 ## Headings
 
-### Title case
+### Case
 
 Headings should always use sentence case:
 
 ~~~markdown
+<!-- Wrong -->
 ### This Is Not Sentence case
 
+<!-- Right -->
 ### This is sentence case
 
+<!-- Right -->
 ### This is also sentence case with HTML
 ~~~
 
@@ -329,10 +332,10 @@ syntax highlighter nor the next editor must guess.
 Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
 
 ~~~bash
-// The below example is incorrect
+# Wrong
 $ cd Documents
 
-// The below is correct
+# Right
 cd Documents
 ~~~
 
