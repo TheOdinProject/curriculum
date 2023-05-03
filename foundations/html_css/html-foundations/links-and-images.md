@@ -231,7 +231,7 @@ This section contains questions for you to check your understanding of this less
 *   [Which element is used to display an image?](#images)
 *   [What two attributes do images always need to have?](#two-attributes)
 *   [How do you access a parent directory in a filepath?](#parent-filepath)
-*   [What are the four main image formats that you can use for images on the web?](https://www.internetingishard.com/html-and-css/links-and-images/#image-formats)
+*   [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
 
 ### Additional Resources
 
