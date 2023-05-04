@@ -154,13 +154,13 @@ POST-ASSIGNMENT SECTION CONTENT.
 Headings should always use sentence case:
 
 ~~~markdown
-<!-- Wrong -->
+<!-- Incorrect -->
 ### This Is Not Sentence case
 
-<!-- Right -->
+<!-- Correct -->
 ### This is sentence case
 
-<!-- Right -->
+<!-- Correct -->
 ### This is also sentence case with HTML
 ~~~
 
@@ -169,10 +169,10 @@ Headings should always use sentence case:
 Headings should never contain any code snippets.
 
 ~~~markdown
-<!-- Wrong -->
+<!-- Incorrect -->
 ### The `id` property
 
-<!-- Right -->
+<!-- Correct -->
 ### The id property
 ~~~
 
@@ -332,10 +332,10 @@ syntax highlighter nor the next editor must guess.
 Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
 
 ~~~bash
-# Wrong
+# Incorrect
 $ cd Documents
 
-# Right
+# Correct
 cd Documents
 ~~~
 
@@ -427,7 +427,7 @@ To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.j
   mermaid diagram content here
 </pre>
 ~~~
-This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram looks right with the lesson content before contributing.
+This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram renders correctly with the lesson content before contributing.
 
 ## English writing style
 
