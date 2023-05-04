@@ -2,7 +2,7 @@
 
 Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
 
-TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website. 
+TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
 **The goals of this style guide are to help create Markdown that is:**
 
@@ -83,15 +83,15 @@ This section contains helpful links to related content. It isn’t required, so 
 
 3. `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections. **If the lesson does not have any custom sections, remove this entire section from the lesson.**
 
-4. `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson. 
+4. `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson.
 
    Each assignment item should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, an assignment item should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any specific exercises, and whether the user should redirect themselves to additional links within the resource.
 
    Replace the `A RESOURCE OR EXERCISE ITEM.` text with your own text and a link to the resource or exercise (or any applicable instructions if an exercise isn't external), then add any additional numbered assignment items. The lesson should ideally have no more than 3-5 assignment items (reading several sections on a web page or completing a folder of 5 exercises would be considered a single assignment item). **If the lesson does not have an assignment, remove this entire section from the lesson.**
 
-   If an assignment item includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items. 
+   If an assignment item includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items.
 
-   If a user should only read specific sections within a resource (e.g. "Skip Chapter 7") or complete only specific exercises (e.g. "Complete the first two exercises in the repo"), each instruction item should be its own bullet. 
+   If a user should only read specific sections within a resource (e.g. "Skip Chapter 7") or complete only specific exercises (e.g. "Complete the first two exercises in the repo"), each instruction item should be its own bullet.
 
    **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
@@ -111,7 +111,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
 ~~~markdown
 
-### Introduction 
+### Introduction
 
 A BRIEF INTRODUCTION.
 
@@ -200,7 +200,7 @@ Text after...
 
 ## Newlines
 
-Each Markdown file should have an empty newline at the very end, after all of the file's contents. 
+Each Markdown file should have an empty newline at the very end, after all of the file's contents.
 
 Always add a newline before and after a heading, a list, an Assignment panel, or any other content that is not strictly text:
 
@@ -238,7 +238,7 @@ When nesting lists, use a 2 space indent when nesting inside a bulleted list and
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
-  - A sub-bullet with a 2 space indent 
+  - A sub-bullet with a 2 space indent
 - A new list item
 ~~~
 
@@ -249,7 +249,7 @@ Will result in the following output:
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
-  - A sub-bullet with a 2 space indent 
+  - A sub-bullet with a 2 space indent
 - A new list item
 
 ### Multi-line list items
@@ -282,7 +282,7 @@ Will result in the following output:
 
   This is related information to the first item, but visually separated out.
 
-- A new bulleted list item 
+- A new bulleted list item
 
 ### Unordered lists
 
