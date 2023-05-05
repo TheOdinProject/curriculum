@@ -111,13 +111,13 @@ Classic Ruby!
 You can access strings inside strings inside strings. Stringception! It's super easy, too.
 
 ~~~ruby
-"hello"[0]      #=> "h"
+"hello"[0]      #=> "h" It returns the character at index 0.
 
-"hello"[0..1]   #=> "he"
+"hello"[0..1]   #=> "he" It returns the substring starting from index 0 till index 1.
 
-"hello"[0, 4]   #=> "hell"
+"hello"[0, 4]   #=> "hell" It returns 4 characters starting from index 0.
 
-"hello"[-1]     #=> "o"
+"hello"[-1]     #=> "o" It returns the character at index -1 i.e. starting from the end of the string.
 ~~~
 
 #### Escape characters
