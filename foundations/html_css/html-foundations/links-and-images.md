@@ -119,7 +119,7 @@ To fix this, we just need to update the about link href value to include the `pa
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
 
-In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory. 
+In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory.
 
 ~~~html
 <body>
@@ -194,7 +194,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
+<span id="two-attributes"></span>Besides the src attribute, every image element must also have an alt (alternative text) attribute.
 
 The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
