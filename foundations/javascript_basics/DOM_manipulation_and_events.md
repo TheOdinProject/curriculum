@@ -395,22 +395,22 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#dom-document-object-model">What is the DOM?</a>
-*   <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
-*   [How do you create an element in the DOM?]("#element-creation)
-*   [How do you add an element to the DOM?]("#append-elements)
-*   [How do you remove an element from the DOM?]("#remove-elements)
-*   [How can you alter an element in the DOM?]("#altering-elements)
-*   [When adding text to a DOM element, should you use textContent or innerHTML? Why?]("https://www.youtube.com/watch?v=ns1LX6mEvyM)
-*   [Where should you include your JavaScript tag in your HTML file when working with DOM nodes?]("#important-note)
-*   [How do "events" and "listeners" work?]("#events)
-*   [What are three ways to use events in your code?]("#events)
-*   [Why are event listeners the preferred way to handle events?]("#attaching-listeners-to-groups-of-nodes)
-*   [What are the benefits of using named functions in your listeners?]("#method-3)
-*   [How do you attach listeners to groups of nodes?]("#attaching-listeners-to-groups-of-nodes)
-*   [What is the difference between the return values of `querySelector` and `querySelectorAll`?]("#query-selectors)
-*   [What does a "nodelist" contain?]("#query-selectors)
-*   [Explain the difference between "capture" and "bubbling".]("https://www.youtube.com/watch?v=F1anRyL37lE)
+*   [What is the DOM?](#dom-document-object-model)
+*   [How do you target the nodes you want to work with?](#targeting-nodes-with-selectors)
+*   [How do you create an element in the DOM?](#element-creation)
+*   [How do you add an element to the DOM?](#append-elements)
+*   [How do you remove an element from the DOM?](#remove-elements)
+*   [How can you alter an element in the DOM?](#altering-elements)
+*   [When adding text to a DOM element, should you use textContent or innerHTML? Why?](https://www.youtube.com/watch?v=ns1LX6mEvyM)
+*   [Where should you include your JavaScript tag in your HTML file when working with DOM nodes?](#important-note)
+*   [How do "events" and "listeners" work?](#events)
+*   [What are three ways to use events in your code?](#events)
+*   [Why are event listeners the preferred way to handle events?](#attaching-listeners-to-groups-of-nodes)
+*   [What are the benefits of using named functions in your listeners?](#method-3)
+*   [How do you attach listeners to groups of nodes?](#attaching-listeners-to-groups-of-nodes)
+*   [What is the difference between the return values of `querySelector` and `querySelectorAll`?](#query-selectors)
+*   [What does a "nodelist" contain?](#query-selectors)
+*   [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
