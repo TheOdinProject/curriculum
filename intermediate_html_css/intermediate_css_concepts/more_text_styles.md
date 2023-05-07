@@ -138,10 +138,10 @@ You can see more detail and an example in [this CSS Tricks Article](https://css-
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#online-font-libraries'>What are the 2 ways to add fonts that are not installed on a user's computer?</a>
-- <a class="knowledge-check-link" href='#the-system-font-stack'>What is the 'system font stack' and why would you want to use it?</a>
-- <a class="knowledge-check-link" href='#letter-spacing'>Which property would you use to increase or decrease the space between letters in a word?</a>
-- <a class="knowledge-check-link" href='#line-height'>Which property would you use to increase or decrease the space between lines in a paragraph?</a>
+- [What are the 2 ways to add fonts that are not installed on a user's computer?](#online-font-libraries)
+- [What is the 'system font stack' and why would you want to use it?](#the-system-font-stack)
+- [Which property would you use to increase or decrease the space between letters in a word?](#letter-spacing)
+- [Which property would you use to increase or decrease the space between lines in a paragraph?](#line-height)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
