@@ -22,6 +22,7 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos.  To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
 2. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
+3. For a more comprehensive and in-depth guide to array methods in JavaScript, you can also check out this [array method guide](https://javascript.info/array-methods). This resource covers each method in detail, with examples and explanations of their usage.
 
 ### Assignment
 
