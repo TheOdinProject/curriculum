@@ -166,8 +166,8 @@ This section contains helpful links to other content. It isn’t required, so co
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#reviewing-tracks'>Explain the difference between a track and a line.</a>
-- <a class="knowledge-check-link" href='#cells'>What is the smallest unit on a grid?</a>
-- <a class="knowledge-check-link" href='#positioning'>What kind of value do we give to the `grid-column-start` or `grid-column-end` properties?</a>
-- <a class="knowledge-check-link" href='#grid-area'>Which property can we use to combine all the start and end values for a grid item?</a>
-- <a class="knowledge-check-link" href='#grid-area'>Which grid container property can map out a visual structure of grid items?</a>
+- [Explain the difference between a track and a line.](#reviewing-tracks)
+- [What is the smallest unit on a grid?](#cells)
+- [What kind of value do we give to the `grid-column-start` or `grid-column-end` properties?](#positioning)
+- [Which property can we use to combine all the start and end values for a grid item?](#grid-area)
+- [Which grid container property can map out a visual structure of grid items?](#grid-area)
