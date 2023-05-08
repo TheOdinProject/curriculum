@@ -86,9 +86,9 @@ For now, just do whichever works best for your use-case. Linking is generally cl
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
--   <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
--   <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
+-   [What is the `xmlns` attribute?](#anatomy-of-an-svg)
+-   [What are some situations where you _wouldn't_ want to use SVG?](#drawbacks)
+-   [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)
 
 ### Additional Resources
 

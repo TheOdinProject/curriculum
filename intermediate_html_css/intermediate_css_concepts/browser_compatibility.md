@@ -74,7 +74,7 @@ This section contains helpful links to other content. It isn’t required, so co
 
 ### Knowledge Check
 
-- <a class='knowledge-check-link' href="#most-used-browser">What is the most used browser currently?</a>
-- <a class='knowledge-check-link' href="#first-web-browser">What was the original name of the first web browser?</a>
-- <a class='knowledge-check-link' href="#apple-browsers">How are mobile browsers different on Apple mobile operating systems from Android?</a>
+- [What is the most used browser currently?](#most-used-browser)
+- [What was the original name of the first web browser?](#first-web-browser)
+- [How are mobile browsers different on Apple mobile operating systems from Android?](#apple-browsers)
 
