@@ -154,11 +154,35 @@ For example, using an absolute path we can display an image located on The Odin 
 
 To use images that we have on our own websites, we can use a relative path.
 
+<details markdown="block">
+<summary class="dropDown-header">Linux, macOS, ChromeOS
+</summary>
+
 1.  Create a new directory named `images` within the `odin-links-and-images` project.
 
 2.  Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
 
 3.  Rename the image to `dog.jpg`.
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">WSL
+</summary>
+
+When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
+
+1.  Create a new directory named `images` within the `odin-links-and-images` project.
+
+2.  Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
+
+3.  Right click on the new download at the bottom of the chrome window and select "Show in folder".
+
+4.  Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
+
+Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL, you can safely delete them without any issue.
+
+</details>
 
 Finally add the image to the `index.html` file:
 
