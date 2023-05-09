@@ -111,14 +111,15 @@ Classic Ruby!
 You can access strings inside strings inside strings. Stringception! It's super easy, too.
 
 ~~~ruby
-"hello"[0]      #=> "h" It returns the character at index 0.
+"hello"[0]      #=> "h"
 
-"hello"[0..1]   #=> "he" It returns the substring starting from index 0 till index 1.
+"hello"[0..1]   #=> "he"
 
-"hello"[0, 4]   #=> "hell" It returns 4 characters starting from index 0.
+"hello"[0, 4]   #=> "hell"
 
-"hello"[-1]     #=> "o" It returns the character at index -1 i.e. starting from the end of the string.
+"hello"[-1]     #=> "o"
 ~~~
+In the above example we are accessing the string as an array which lets us index it using `[ ]`. For more information [click here](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
