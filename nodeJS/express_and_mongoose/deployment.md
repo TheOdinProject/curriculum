@@ -22,7 +22,7 @@ Hosting providers are like server landlords. They own servers and rent space on 
 
 You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** NodeJS apps. We're going to need something more powerful.
 
-#### Static vs Dynamic Sites
+### Static vs Dynamic Sites
 
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
@@ -73,7 +73,7 @@ PaaS providers will give you a random domain name when you first deploy. In Hero
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
 
-In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains you're PaaS provider gives you will be good enough. However, if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [Porkbun](https://porkbun.com/) or [NameSilo](https://www.namesilo.com/).
+In the real world, you'll want to link it to your own custom domain, for example, `http://mycooldomain.com`. It's worth mentioning that you don't need custom domain names for the portfolio projects you'll be building in this course. The random domains your PaaS provider gives you will be good enough. However, if you have an itch for tricking out your app with a custom domain name, you'll first need to purchase a domain from a registrar like [Porkbun](https://porkbun.com/) or [NameSilo](https://www.namesilo.com/).
 
 To find a new domain, try using [Domainr](https://domainr.com/).
 
@@ -87,7 +87,7 @@ Luckily, there are still plenty of other great options out there. The downside i
 
 You can host most of your projects for free using a combination of the different providers we recommend, but you'll have a bit more leg work to do. You'll have to create an account and get familiar with a few different providers.
 
-If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all you're apps from one place.
+If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all your apps from one place.
 
 Whatever your circumstances, we've got you covered. Here are the PaaS providers we recommend.
 
@@ -108,7 +108,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - [Homepage](https://fly.io/)
 - [Documentation](https://fly.io/docs/)
-- [Guide: Official getting started with NodeJS on Fly.io guide](https://fly.io/docs/NodeJS/getting-started/)
+- [Guide: Official getting started with NodeJS on Fly.io guide](https://fly.io/docs/languages-and-frameworks/node/)
 - [Guide: GoNodeJS video guide for deploying NodeJS applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
 
 ---

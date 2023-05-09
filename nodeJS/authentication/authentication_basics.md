@@ -169,7 +169,7 @@ passport.use(
     } catch(err) {
       return done(err);
     };
-  });
+  })
 );
 ~~~
 
@@ -317,7 +317,7 @@ bcrypt.hash("somePassword", 10, async (err, hashedPassword) => {
 });
 ~~~
 
-The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
+The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
 
 Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
  

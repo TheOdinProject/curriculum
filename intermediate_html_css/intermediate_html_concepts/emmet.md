@@ -49,14 +49,16 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
--   <a class="knowledge-check-link" href="#emmet">Why should you use Emmet?</a>
--   <a class="knowledge-check-link" href="#emmet">What are some useful Emmet abbreviations?</a>
--   <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create this element `<p class="text"></p>`?</a>
--   <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax expands to an element with a child element inside of it? For example: `<div><p></p></div>`</a>
--   <a class="knowledge-check-link" href="https://docs.emmet.io/cheat-sheet/">What syntax would you use to create three elements that have the same class name?</a>
+-   [Why should you use Emmet?](#emmet)
+-   [What are some useful Emmet abbreviations?](#emmet)
+-   [What syntax would you use to create this element `<p class="text"></p>`?](https://docs.emmet.io/cheat-sheet/)
+-   [What syntax expands to an element with a child element inside of it? For example: `<div><p></p></div>`](https://docs.emmet.io/cheat-sheet/)
+-   [What syntax would you use to create three elements that have the same class name?](https://docs.emmet.io/cheat-sheet/)
 
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 -   [Emmet Keybindings](https://marketplace.visualstudio.com/items?itemName=agutierrezr.emmet-keybindings) by [Andrés Gutiérrez](https://agutierrezr.github.io/), is a set of Emmet keybinds for Visual Studio Code. It can be used as a pre-defined group of keybinds, in case you don't know what to map to which keys.
+
+-   [Emmet Live](https://marketplace.visualstudio.com/items?itemName=ysemeniuk.emmet-live) by [Yurii Semeniuk](https://github.com/semeniuk), is another extension in Visual Studio Code. It can continually generate the corresponding HTML structure while you're editing Emmet abbreviations. For the desired outcome, try selecting a random piece of text before calling out this extension.

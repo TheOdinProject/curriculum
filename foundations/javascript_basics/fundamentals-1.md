@@ -103,17 +103,17 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#variable-declaration">Name the three ways to declare a variable</a>
-* <a class="knowledge-check-link" href="#avoid-var">Which of the three variable declarations should you avoid and why?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/variables#variable-naming">What rules should you follow when naming variables?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#string-concatenation-with-binary">What happens when you add numbers and strings together?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#remainder">How does the Modulo (%), or Remainder, operator work?</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">Explain the difference between `==` and `===`.</a>
-* <a class="knowledge-check-link" href="https://www.w3schools.com/js/js_numbers.asp">When would you receive a `NaN` result?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">How do you increment and decrement a number?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#increment-decrement">Explain the difference between prefixing and postfixing increment/decrement operators.</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#operator-precedence">What is operator precedence and how is it handled in JS?</a>
-* <a class="knowledge-check-link" href="#access-devTools-console">How do you access developer tools and the console?</a>
-* <a class="knowledge-check-link" href="#console-log">How do you log information to the console?</a>
-* <a class="knowledge-check-link" href="https://javascript.info/operators#numeric-conversion-unary">What does unary plus operator do to string representations of integers? eg. +"10"</a>
+* [Name the three ways to declare a variable](#variable-declaration)
+* [Which of the three variable declarations should you avoid and why?](#avoid-var)
+* [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
+* [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
+* [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
+* [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_numbers.asp)
+* [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
+* [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
+* [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
+* [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
+* [How do you access developer tools and the console?](#access-devTools-console)
+* [How do you log information to the console?](#console-log)
+* [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 

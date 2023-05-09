@@ -41,9 +41,11 @@ Notice that the developer tools also show negative lines opposite from the posit
 
 ### Cells
 
-Cells are the smallest unit of measurement in a grid. You can think of grid cells like a cell in a spreadsheet or a square on a graph. By default each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid. So the element we marked with the letter "A" is a cell between row grid lines 1 and 2 and column grid lines 1 and 2. The element with the letter "H" is a cell between row grid lines 3 and 4 and column grid lines 2 and 3.
+The space in a grid shared by a single row track and a single column track is called a grid *cell*. You can think of a grid cell like a cell in a spreadsheet: a space defined by a *row, column* coordinate.
 
-But what happens if we wanted to change the order of our grid items? Or we want items to occupy more than one cell?
+By default, each child element of a grid container will occupy one cell. In the example above, we have 9 cells in our grid (3 rows x 3 columns), each with one automatically positioned child element inside. The element marked with the letter "A" is occupying a cell that lies in row track 1 (between row grid lines 1 and 2) and column track 1 (between column grid lines 1 and 2). The item marked with the letter "H" is in a cell at row track 3 (between row grid lines 3 and 4) and column track 2 (between column grid lines 2 and 3).
+
+But what happens if we wanted to change the order of our grid items? Or if we want items to occupy more than one cell?
 
 ### Positioning
 
@@ -164,8 +166,8 @@ This section contains helpful links to other content. It isn’t required, so co
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#reviewing-tracks'>Explain the difference between a track and a line.</a>
-- <a class="knowledge-check-link" href='#cells'>What is the smallest unit on a grid?</a>
-- <a class="knowledge-check-link" href='#positioning'>What kind of value do we give to the `grid-column-start` or `grid-column-end` properties?</a>
-- <a class="knowledge-check-link" href='#grid-area'>Which property can we use to combine all the start and end values for a grid item?</a>
-- <a class="knowledge-check-link" href='#grid-area'>Which grid container property can map out a visual structure of grid items?</a>
+- [Explain the difference between a track and a line.](#reviewing-tracks)
+- [What is the smallest unit on a grid?](#cells)
+- [What kind of value do we give to the `grid-column-start` or `grid-column-end` properties?](#positioning)
+- [Which property can we use to combine all the start and end values for a grid item?](#grid-area)
+- [Which grid container property can map out a visual structure of grid items?](#grid-area)

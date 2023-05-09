@@ -320,12 +320,12 @@ This section contains helpful links to other content. It isn’t required, so co
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#repeat">How do you create several grid tracks of the same size without manually typing each one out?</a>
-- <a class="knowledge-check-link" href="#fractional-units">What is the difference between a static and dynamic size value?</a>
-- <a class="knowledge-check-link" href="#fractional-units">How can you assign a grid track a flexible value that changes depending on the remaining space available in the grid?</a>
-- <a class="knowledge-check-link" href="#fractional-units">How can you assign grid tracks an uneven distribution of the remaining space in a grid?</a>
-- <a class="knowledge-check-link" href="#minimum-and-maximum-track-sizes-min-and-max">Which CSS functions will return the _smallest_ or _largest_ value supplied to them?</a>
-- <a class="knowledge-check-link" href="#dynamic-minimum-and-maximum-sizes">Which CSS Grid-only function allows you to supply a minimum and maximum track size that is calculated in realtime?</a>
-- <a class="knowledge-check-link" href="#dynamic-minimum-and-maximum-sizes">Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?</a>
-- <a class="knowledge-check-link" href="#auto-fit-and-auto-fill">What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?</a>
-- <a class="knowledge-check-link" href="#auto-fit-and-auto-fill">What is the difference between `auto-fit` and `auto-fill`?</a>
+- [How do you create several grid tracks of the same size without manually typing each one out?](#repeat)
+- [What is the difference between a static and dynamic size value?](#fractional-units)
+- [How can you assign a grid track a flexible value that changes depending on the remaining space available in the grid?](#fractional-units)
+- [How can you assign grid tracks an uneven distribution of the remaining space in a grid?](#fractional-units)
+- [Which CSS functions will return the _smallest_ or _largest_ value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
+- [Which CSS Grid-only function allows you to supply a minimum and maximum track size that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
+- [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
+- [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
+- [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)

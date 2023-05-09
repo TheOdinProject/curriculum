@@ -4,7 +4,7 @@ You've written a lot of code up to this point, and you've hopefully moved on fro
 
 Code readability and maintainability are super important. After all, you will likely spend as much, if not more, time reading code than writing it. You need to make sure new features are integrated with ease.
 
-However, there is another consideration that can be just as important when writing code. Efficiency! You need to understand how the code you write will perform. You also need to understand how the choices you make impact that performance so that you can choose the right data structure and algorithm for your requirement.
+However, there is another consideration that can be just as important when writing code. Efficiency! You need to understand how the code you write will perform. You also need to understand how the choices you make impact performance so that you can choose the right data structure and algorithm for your requirement.
 
 In programming there are two ways we can measure the efficiency of our code. We can measure the time complexity or the space complexity.
 
@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency Basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little programme that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
 
 ~~~js
 function oddNumbersLessThanTen() {
@@ -54,9 +54,12 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
     3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
     4. We increase `currentNumber` by 1. That is 1 step.
 
-So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` is just one step. 27 + 5 + 1 = 33 steps.
 
-Therefore we can say our algorithm takes 33 steps to complete.
+3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
+
+So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
+
+Therefore we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
 
@@ -76,7 +79,7 @@ function oddNumbers(maxNumber) {
 
 How many steps does this algorithm take?
 
-You've probably realised the answer is it depends. If you  set `maxNumber` to be 10, like we did before, the number of steps is 33, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
+You've probably realised the answer is it depends. If you  set `maxNumber` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
 
 So what we really want to be able to measure is how the number of steps of our algorithm changes when the data changes. This helps us answer the question of whether the code we write will scale.
 
@@ -248,7 +251,7 @@ Omega Notation isn't considered as useful because it is unlikely our item will o
 
 While Omega Notation measures the best-case scenario for an algorithm's efficiency, and Big O measures the worst case, Theta looks to give the exact value or a useful range between narrow upper and lower bounds.
 
-If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know it's exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms then Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
+If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know it's exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
 
 This is just a simplistic explanation to try to make the topic approachable. If you do happen to be mathematically minded, then you'll find more detailed explanations with a quick search online.
 
@@ -304,7 +307,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript)]. It covers the common complexities with graphs and examples.
+1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
 2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
 3. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
@@ -317,7 +320,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#what-is-big-o">What is Big O?</a>
 *   <a class="knowledge-check-link" href="#big-o-notation">What are the Big O Notations?</a>
 *   <a class="knowledge-check-link" href="#why-big-o">Why use Big O?</a>
-*   <a class="knowledge-check-link" href="#big-937-omega-notation">Why is Big Omega and why isn't it as useful?</a>
+*   <a class="knowledge-check-link" href="#big-937-omega-notation">What is Big Omega and why isn't it as useful?</a>
 
 ### Additional Resources
 

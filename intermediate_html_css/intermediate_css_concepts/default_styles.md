@@ -32,7 +32,7 @@ You don't _have_ to use a CSS reset. In many cases you're going to end up undoin
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href='#default-styles'>Why would you want to use a CSS reset?</a>
+-   [Why would you want to use a CSS reset?](#default-styles)
 
 ### Additional Resources
 

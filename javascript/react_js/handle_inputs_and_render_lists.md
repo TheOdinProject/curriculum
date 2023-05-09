@@ -385,7 +385,7 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!
+1. The sections on [Handling Events](https://react.dev/learn/responding-to-events) and [Conditional Rendering](https://react.dev/learn/conditional-rendering) from the React documentation are helpful if you are stuck!
 
 ### Knowledge Check
 

@@ -41,8 +41,8 @@ Using the correct elements for content is called semantic HTML. We will explore 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
-*   <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>
+*   [What is an HTML tag?](#elements-and-tags)
+*   [What are the three parts of an HTML element?](#elements-and-tags)
 
 ### Additional Resources
 

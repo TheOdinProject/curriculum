@@ -31,14 +31,14 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
-
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#em-and-rem'>Why would you want to use `em` or `rem` for font-size instead of `px`?</a>
-- <a class="knowledge-check-link" href='#viewport-units'>What are some instances where you might want to use `vh` and `vw`?</a>
-- <a class="knowledge-check-link" href='https://codyloyd.com/2021/css-units/'>What are some instances where you might want to use `px` instead of a relative unit?</a>
+- [Why would you want to use `em` or `rem` for font-size instead of `px`?](#em-and-rem)
+- [What are some instances where you might want to use `vh` and `vw`?](#viewport-units)
+- [What are some instances where you might want to use `px` instead of a relative unit?](https://codyloyd.com/2021/css-units/)
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.

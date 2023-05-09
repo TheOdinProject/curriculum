@@ -60,7 +60,7 @@ Typically, you will not want to create SVGs from scratch in your code. Most ofte
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-1.  `xmlns` - stands for "XML NameSpace". This specifies what _dialect_ of XML you're using--in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
+1.  `xmlns` - stands for "XML NameSpace". This specifies what _dialect_ of XML you're using. In our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly. If you're interested in a full breakdown of what this attribute is and why it's necessary, check out [this excellent MDN article](https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course).
 2.  `viewBox` - defines the bounds of your SVG. When you have to define the positions of different points of the elements in your SVG, this is what that's referencing. It also defines the aspect ratio _and_ the origin of your SVG. So it's doing quite a lot! Be sure to play around with different values in the example above to get a feel for how it affects the shapes.
 3.  `class`, `id` - these attributes function just like they do in HTML. Using these in SVGs allows you to easily target an element via CSS or JavaScript, or to reuse an element via the [`use` element](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use).
 4.  Elements such as `<circle>`, `<rect>`, `<path>`, and `<text>` are defined by the SVG namespace. These are our basic building-blocks. Although you can make extremely complex images with SVG, they are mostly created with just a dozen or so of these basic elements. You can see a complete list of SVG elements [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Element).
@@ -86,9 +86,9 @@ For now, just do whichever works best for your use-case. Linking is generally cl
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
--   <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
--   <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
+-   [What is the `xmlns` attribute?](#anatomy-of-an-svg)
+-   [What are some situations where you _wouldn't_ want to use SVG?](#drawbacks)
+-   [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)
 
 ### Additional Resources
 

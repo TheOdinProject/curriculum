@@ -140,6 +140,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
--   <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
--   <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>
+-   [What are three reasons why you may see a TypeError?](#type-error)
+-   [What is the key difference between an error and a warning?](#errors-vs-warnings)
+-   [What is one method you can use to resolve an error?](#tips-for-resolving-errors)

@@ -6,15 +6,12 @@ In addition to preventing repetition, frameworks provide great organization.  Th
 
 There are often several different popular frameworks for a given language.  They can have exciting names like [Ember](http://emberjs.com/), [Meteor](http://www.meteor.com/), [Django](https://www.djangoproject.com/), [Rails](http://rubyonrails.org/), [Grok](http://grok.zope.org/), etc.  Wikipedia has a [comprehensive comparison of frameworks](http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks) that should give you an appreciation of the number of them.  For Ruby alone, though Rails is the most popular, there are also [Sinatra](http://www.sinatrarb.com/) and [Padrino](http://www.padrinorb.com/) and more.
 
-A final thing to note is about licensing -- frameworks are typically (though not always) open-source and their license allows you to use them, modify them, make money off them, sell products with them, etc., all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in later units.
-
 ### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   What is a framework?
 *   What's the difference between a programming language and a framework?
-*   What languages have frameworks?
 
 ### Assignment
 
@@ -37,4 +34,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [StackOverflow: What is a Web Framework? How does it compare with LAMP?](http://stackoverflow.com/questions/4507506/what-is-a-web-framework-how-does-it-compare-with-lamp)
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

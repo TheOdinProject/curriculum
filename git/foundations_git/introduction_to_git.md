@@ -47,8 +47,8 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#text-editor-and-git">What are the differences between Git and a text editor in terms of what they save and their record keeping?</a>
 *   <a class="knowledge-check-link" href="#git-local">Does Git work at a local or remote level?</a>
 *   <a class="knowledge-check-link" href="#github-remote">Does GitHub work at a local or remote level?</a>
-*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=8oRjP8yj2Wo">Why is Git useful for an individual developer?</a>
-*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=8oRjP8yj2Wo">Why are Git and GitHub useful for a team of developers?</a>
+*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=2ReR1YJrNOM">Why is Git useful for developers?</a>
+*   <a class="knowledge-check-link" href="https://youtu.be/1h9_cB9mPT8?t=162">Why are Git and GitHub useful for a team of developers?</a>
 
 ### Additional Resources
 

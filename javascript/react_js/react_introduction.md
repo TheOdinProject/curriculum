@@ -223,7 +223,7 @@ React Developer Tools is an extension to the browser developer tools which allow
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read the first couple of pages of the react.js documentation. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://reactjs.org/docs/hello-world.html), [this](https://reactjs.org/docs/introducing-jsx.html), [this](https://reactjs.org/docs/rendering-elements.html) and [this](https://reactjs.org/docs/components-and-props.html) article. In the last one they already introduce the concept of props. Once again, don't worry too much about those yet.
+1. Go through the open-source Learn section of React which begins with the Quick Start page. It is a short introductory tour of React. It introduces the syntax for concepts like components, props, and state, but doesn’t go into much detail on how to use them. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://react.dev/learn), [this](https://react.dev/learn/writing-markup-with-jsx) and [this](https://react.dev/learn/your-first-component) lesson.
 2. Watch [this video](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) to get another quick explanation of React, and then watch these: ([one](https://www.youtube.com/watch?v=G40iHC-h0c0&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=4), [two](https://www.youtube.com/watch?v=9wK4gHoOh1g&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=5)) videos from the same series, which focus on components. Feel free to code along with the whole course if you enjoy it.
 
 </div>
@@ -239,7 +239,7 @@ This section contains helpful links to other content. It isn't required, so cons
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>
-- <a class="knowledge-check-link" href="https://reactjs.org/docs/introducing-jsx.html">What is JSX?</a>
+- <a class="knowledge-check-link" href="https://react.dev/learn/writing-markup-with-jsx">What is JSX?</a>
 - <a class="knowledge-check-link" href="#components">What is a React Component?</a>
 - <a class="knowledge-check-link" href="https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108">What is the difference between a functional and a class component?</a>
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>

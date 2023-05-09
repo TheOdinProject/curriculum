@@ -217,7 +217,7 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
 
 ~~~
 
-All the option elements need to have a `value` attribute. This value will be sent to the server when the form is submitted.
+All the option elements should(otherwise the text content inside is used) have a `value` attribute. This value will be sent to the server when the form is submitted.
 
 We can set one of the options to be the default selected element when the browser first renders the form by giving one of the options the `selected` attribute:
 
@@ -497,7 +497,7 @@ Certain aspects of other elements are downright impossible to style, for example
 ####Styling Forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
-2. Read and follow along to [the internetingishard guide to forms](https://www.internetingishard.com/html-and-css/forms/)
+2. Read and follow along to [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>
 
@@ -507,9 +507,9 @@ Certain aspects of other elements are downright impossible to style, for example
 
 ### Knowledge Check
 
-- <a class="knowledge-check-link" href='#the-form-element'>Explain what the form element is for and what two attributes it should always include.</a>
-- <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>
-- <a class="knowledge-check-link" href='#the-name-attribute'>What is the `name` attribute for?</a>
-- <a class="knowledge-check-link" href='#selection-elements'>What are the three most common form controls you can use for allowing users to select predefined options?</a>
-- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in HTML?</a>
-- <a class="knowledge-check-link" href='#a-note-on-styling-forms'>What are the two most challenging aspects of styling forms?</a>
+- [Explain what the form element is for and what two attributes it should always include.](#the-form-element)
+- [Explain what form controls are at a high level.](#form-controls)
+- [What is the `name` attribute for?](#the-name-attribute)
+- [What are the three most common form controls you can use for allowing users to select predefined options?](#selection-elements)
+- [What are the three types of buttons in HTML?](#buttons)
+- [What are the two most challenging aspects of styling forms?](#a-note-on-styling-forms)

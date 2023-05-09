@@ -31,7 +31,7 @@ What does this mean for you? It means you can learn new skills and develop new t
 There will be many times throughout The Odin Project that you will get stuck on a concept or a programming problem and may find yourself questioning your ability to learn programming. When you find yourself in this position, remind yourself that you may not get it *yet* but that with persistence and grit you will. Struggling with something is growth. It doesn't matter how long you struggle with a concept or project; all that matters is that you have the grit and tenacity to see it through. That's how
 real learning happens.
 
-While you're working through the curriculum, embrace the struggles you encounter with difficult concepts and complex projects. Be sure to celebrate your persistence at overcoming those struggles!
+While you're working through the curriculum, embrace the struggles you encounter with difficult concepts and complex projects. Be sure to celebrate your persistence in overcoming those struggles!
 
 When you find yourself questioning your abilities, reflect on the successes you have already achieved while learning to program: the projects you have completed and the concepts you once didn't understand but now do. This is all the proof you need that you can do it.
 
@@ -84,8 +84,6 @@ For learners that are new to programming, tools like ChatGPT or Github Copilot c
 1. Without practice in research, problem solving and critical thinking, interviews could be a struggle since it is very likely that applicants would not be allowed to use AI tools.
 
 We do not recommend using AI tools for your learning.
-
-There is an excellent Khan Academy lesson in Additional Resources on how to best use AI in an educational context which is worth reading. The articles are focused on a college based educational context and touch on academic honesty. Academic honesty, as a concept, is only relevant for The Odin Project in the sense that if you "cheat" on a project, it only impacts your own learning. Keep in mind that The Odin Project isn't about the output you produce. The curriculum's goal is to guide you on the journey of learning the how and why behind getting the projects done.
 
 ### Managing Your Study Time
 
@@ -171,4 +169,3 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [Improve your typing skills with Keybr.com](https://www.keybr.com/) Use this keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
 *   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
 *   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
--   [AI for Education](https://www.khanacademy.org/college-careers-more/ai-for-education/x68ea37461197a514:ai-for-education-unit-1#x68ea37461197a514:ai-new-tools-for-a-new-age) Learn about some ways to use AI in a constructive way on your learning journey.

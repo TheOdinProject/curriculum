@@ -58,7 +58,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#opening-dev-tools">How do you open developer tools? </a>
-*   <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/device-mode/">How do you change screen size of a website using developer tools?</a>
-*   <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/">What is a breakpoint?</a>
-*   <a class="knowledge-check-link" href="https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc">How do you set a breakpoint?</a>
+*   [How do you open developer tools?](#opening-dev-tools)
+*   [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
+*   [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
+*   [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)

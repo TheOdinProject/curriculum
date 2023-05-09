@@ -47,9 +47,9 @@ People who volunteer in coding communities are here to help! But a question you 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#provide-code-knowledge-check">Name at least one thing your question should always include.</a>
-*   <a class="knowledge-check-link" href="https://xyproblem.info/">Describe the “XY Problem”.</a>
-*   <a class="knowledge-check-link" href="https://slash7.com/2006/12/22/vampires/">Describe three attributes of a "help vampire".</a>
+*   [Name at least one thing your question should always include.](#provide-code-knowledge-check)
+*   [Describe the “XY Problem”.](https://xyproblem.info/)
+*   [Describe three attributes of a "help vampire".](https://slash7.com/2006/12/22/vampires/)
 
 ### Additional Resources
 

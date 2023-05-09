@@ -31,7 +31,7 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 
 1. Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
 2. Check out some color palettes from [Tailwind.](https://tailwindcss.com/docs/customizing-colors)
-3. All of the icons and more can be downloaded as SVGs from [Material Design Icons.](https://materialdesignicons.com/)
+3. All of the icons and more can be downloaded as SVGs from [Material Design Icons.](https://pictogrammers.com/library/mdi/)
 4. Choose your own fonts! The design example uses `Roboto`, which is available with Google fonts.
 
 #### Step 5: Some Tips!

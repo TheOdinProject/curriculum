@@ -154,7 +154,7 @@ If you write a return statement like the above in a useEffect, it will do the sa
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. The React documentation provides a whole section on hooks. Read through all steps [here](https://reactjs.org/docs/hooks-intro.html). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
+1. The React documentation provides a whole section on hooks. Read through all steps [here](https://react.dev/reference/react). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
 2. Now go back to your CV Project and rewrite it using functional components and hooks.  
 </div>
 
@@ -164,7 +164,6 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Here](https://web.archive.org/web/20210614125842/https://blog.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
 * [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
   * There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from https://swapi.co to https://swapi.dev.
-* React team is currently working on [React Docs Beta](https://beta.reactjs.org/) which all the contents are written using hooks. It has some nice illustrations and exercises to help you understand react hooks better.
 
 ### Knowledge Checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

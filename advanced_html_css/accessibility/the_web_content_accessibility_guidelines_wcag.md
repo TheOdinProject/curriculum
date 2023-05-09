@@ -17,7 +17,7 @@ It's important to understand that while the WCAG can be incredibly helpful for b
 
 ### The Four Principles
 
-The WCAG are organized around four, core principles that should be kept in mind when implementing any sort of accessibility feature:
+The WCAG are organized around four, core principles (POUR) that should be kept in mind when implementing any sort of accessibility feature:
 
 1. **Perceivable:** Users must be able to perceive the information or user interfaces being presented. For example, light text on a light background could be difficult for some users with a visual impairment to perceive.
 
@@ -53,8 +53,8 @@ The second thing to keep in mind is that just taking those first few steps towar
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#wcag-purpose">What is the purpose of the Web Content Accessibility Guidelines?</a>
-- <a class="knowledge-check-link" href="#the-four-principles">What are the 4 principles of the WCAG?</a>
+- [What is the purpose of the Web Content Accessibility Guidelines?](#wcag-purpose)
+- [What are the 4 principles of the WCAG?](#the-four-principles)
 
 ### Additional Resources
 

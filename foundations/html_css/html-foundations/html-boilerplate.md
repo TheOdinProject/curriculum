@@ -166,10 +166,10 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
-*   <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-*   <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
-*   <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+*   [What is the purpose of the doctype declaration?](#the-doctype)
+*   [What is the HTML element?](#html-element)
+*   [What is the purpose of the head element?](#head-element)
+*   [What is the purpose of the body element?](#body-element)
 
 ### Additional Resources
 

@@ -188,7 +188,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
     * Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson. 
 
-2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API".
+2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
 
 3. Read Silo Creative's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
 
@@ -204,8 +204,8 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 ### Knowledge Check
 
-- <a class="knowledge-check-link" href='#required-validation'>What does the <code>required</code> validation do?</a>
-- <a class="knowledge-check-link" href='#text-length-validations'>What validations can you use for checking text length?</a>
-- <a class="knowledge-check-link" href='#number-range-validations'>How can you validate the minimum and maximum of numeric inputs?</a>
-- <a class="knowledge-check-link" href='#pattern-validations'>What can you use the pattern validation for?</a>
-- <a class="knowledge-check-link" href='#styling-validations'>What pseudo CSS selectors are available for styling valid and invalid inputs?</a>
+- [What does the <code>required</code> validation do?](#required-validation)
+- [What validations can you use for checking text length?](#text-length-validations)
+- [How can you validate the minimum and maximum of numeric inputs?](#number-range-validations)
+- [What can you use the pattern validation for?](#pattern-validations)
+- [What pseudo CSS selectors are available for styling valid and invalid inputs?](#styling-validations)

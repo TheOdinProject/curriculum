@@ -22,6 +22,7 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos.  To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
 2. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
+3. For a more comprehensive and in-depth guide to array methods in JavaScript, you can also check out this [array method guide](https://javascript.info/array-methods). This resource covers each method in detail, with examples and explanations of their usage.
 
 ### Assignment
 
@@ -34,7 +35,7 @@ At this point you just need a little more practice!  Go back to the [JavaScript 
 * getTheTitles
 * findTheOldest
 
-Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#practice) for a refresher. If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our Discord!
+Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#assignment) for a refresher. If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our Discord!
 
 Note: Solutions for these exercises can be found in the 'solutions' folder of each exercise.
 </div>
@@ -43,10 +44,10 @@ Note: Solutions for these exercises can be found in the 'solutions' folder of ea
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="https://javascript.info/object#summary">What is the difference between objects and arrays?</a>
-* <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation">How do you access object properties?</a>
-* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s">What is `Array.prototype.map()` useful for?</a>
-* <a class="knowledge-check-link" href="https://youtu.be/HB1ZC7czKRs?t=467">What is `Array.prototype.reduce()` useful for?</a>
+* [What is the difference between objects and arrays?](https://javascript.info/object#summary)
+* [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
+* [What is `Array.prototype.map()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s)
+* [What is `Array.prototype.reduce()` useful for?](https://youtu.be/HB1ZC7czKRs?t=467)
 
 ### Additional Resources
 
