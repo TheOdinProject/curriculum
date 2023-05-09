@@ -49,6 +49,6 @@ Don't spend too much time worrying about getting your images to display at the c
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0">What are some different types of navigation menus?</a>
-- <a class="knowledge-check-link" href="https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/">What are the alternatives to hamburger menus?</a>
-- <a class="knowledge-check-link" href="https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/">What are the downsides of hamburger menus?</a>
+- [What are some different types of navigation menus?](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0)
+- [What are the alternatives to hamburger menus?](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/)
+- [What are the downsides of hamburger menus?](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/)

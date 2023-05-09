@@ -231,7 +231,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
- - <a class="knowledge-check-link" href="#apis">What is an API?</a>
- - <a class="knowledge-check-link" href="#apis">How is access to an API restricted?</a>
- - <a class="knowledge-check-link" href="#fetching-data">How do you fetch and extract data from an API?</a>
- - <a class="knowledge-check-link" href="#cors">Why might your API request be blocked by the browser, and how might you fix this?</a>
+ - [What is an API?](#apis)
+ - [How is access to an API restricted?](#apis)
+ - [How do you fetch and extract data from an API?](#fetching-data)
+ - [Why might your API request be blocked by the browser, and how might you fix this?](#cors)

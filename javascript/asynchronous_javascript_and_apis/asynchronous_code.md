@@ -87,10 +87,10 @@ Of course, there are many more occasions where one would want to use Promises be
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
- - <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function">What is a callback?</a>
- - <a class="knowledge-check-link" href="#promises">What is a promise?</a>
- - <a class="knowledge-check-link" href="http://callbackhell.com/">When should you use promises over callbacks?</a>
- - <a class="knowledge-check-link" href="https://davidwalsh.name/promises">What does the `.then()` function do?</a>
+ - [What is a callback?](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+ - [What is a promise?](#promises)
+ - [When should you use promises over callbacks?](http://callbackhell.com/)
+ - [What does the `.then()` function do?](https://davidwalsh.name/promises)
 
 ### Additional Resources
 

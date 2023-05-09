@@ -75,13 +75,13 @@ If we had written this program with TDD it is very likely that it would have loo
 ### Knowledge Check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#tightly-coupled-code'>What is tightly coupled code?</a>
-- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are the two requirements for a function to be pure?</a>
-- <a class='knowledge-check-link' href='https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c'>What are side effects and why is it important to identify them when testing a function?</a>
-- <a class='knowledge-check-link' href='#two-solutions'>What are two solutions to the tightly coupled code problem?</a>
-- <a class='knowledge-check-link' href='#two-solutions'>What is mocking?</a>
-- <a class='knowledge-check-link' href='#mock-function-example'>When would you use a mock function?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=699">How should you test incoming query messages?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=792">Why should you not test implementation?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1102">Should you test private methods?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/URSWYvyc42M?t=1370">Why should you not test messages with no side effects?</a>
+- [What is tightly coupled code?](#tightly-coupled-code)
+- [What are the two requirements for a function to be pure?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
+- [What are side effects and why is it important to identify them when testing a function?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
+- [What are two solutions to the tightly coupled code problem?](#two-solutions)
+- [What is mocking?](#two-solutions)
+- [When would you use a mock function?](#mock-function-example)
+- [How should you test incoming query messages?](https://youtu.be/URSWYvyc42M?t=699)
+- [Why should you not test implementation?](https://youtu.be/URSWYvyc42M?t=792)
+- [Should you test private methods?](https://youtu.be/URSWYvyc42M?t=1102)
+- [Why should you not test messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)
