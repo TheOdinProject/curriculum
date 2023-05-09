@@ -47,9 +47,9 @@ Sticky elements will act like normal elements until you scroll past them, then t
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#static-and-relative-positioning">What is the difference between static and relative positioning?</a>
-- <a class="knowledge-check-link" href="#absolute-positioning">What is absolute positioning useful for?</a>
-- <a class="knowledge-check-link" href="https://www.kevinpowell.co/article/positition-fixed-vs-sticky/">What is the difference between fixed and sticky positioning?</a>
+- [What is the difference between static and relative positioning?](#static-and-relative-positioning)
+- [What is absolute positioning useful for?](#absolute-positioning)
+- [What is the difference between fixed and sticky positioning?](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
