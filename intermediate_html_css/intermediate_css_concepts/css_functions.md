@@ -134,6 +134,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 ### Knowledge Check
 
-- <a class='knowledge-check-link' href='#function-names-knowledge-check'>What are the four CSS math functions we covered above?</a>
-- <a class='knowledge-check-link' href='#what-is-a-function-and-how-are-they-used-in-css'>How do we use CSS math functions in our CSS?</a>
-- <a class='knowledge-check-link' href='#responsive-design-knowledge-check'>How can CSS functions help make websites and applications more responsive?</a>
+- [What are the four CSS math functions we covered above?](#function-names-knowledge-check)
+- [How do we use CSS math functions in our CSS?](#what-is-a-function-and-how-are-they-used-in-css)
+- [How can CSS functions help make websites and applications more responsive?](#responsive-design-knowledge-check)

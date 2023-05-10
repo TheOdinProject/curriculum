@@ -55,12 +55,12 @@ Be sure to study the diagrams carefully.
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class='knowledge-check-link' href='#the-box-model'>From inside to outside, what is the order of box-model properties?</a>
-*   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model'>What does the `box-sizing` CSS property do?</a>
-*   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model'>What is the difference between the standard and alternative box model?</a>
-*   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders'>Would you use `margin` or `padding` to create more space between 2 elements?</a>
-*   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders'>Would you use `margin` or `padding` to create more space between the contents of an element and its border?</a>
-*   <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders'>Would you use `margin` or `padding` if you wanted two elements to overlap each other?</a>
+*   [From inside to outside, what is the order of box-model properties?](#the-box-model)
+*   [What does the `box-sizing` CSS property do?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
+*   [What is the difference between the standard and alternative box model?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
+*   [Would you use `margin` or `padding` to create more space between 2 elements?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
+*   [Would you use `margin` or `padding` to create more space between the contents of an element and its border?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
+*   [Would you use `margin` or `padding` if you wanted two elements to overlap each other?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
 
 ### Additional Resources
 

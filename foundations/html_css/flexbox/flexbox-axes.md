@@ -27,9 +27,8 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
 In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically.
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="BaZKPdw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw">
-  flex-direction example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>See the Pen [flex-direction example](https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw) by TheOdinProject ([@TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples))
+  on [CodePen](https://codepen.io).</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -53,10 +52,10 @@ For an interactive demo of how axes work with flexbox, check out this Scrim:
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href='#flex-vertical'>How do you make flex items arrange themselves vertically instead of horizontally?</a>
--   <a class="knowledge-check-link" href='#column-flex-basis'>In a `column` flex-container, what does `flex-basis` refer to?</a>
--   <a class="knowledge-check-link" href='#row-flex-basis'>In a `row` flex-container, what does `flex-basis` refer to?</a>
--   <a class="knowledge-check-link" href='#flex-axes'>Why do the previous two questions have different answers?</a>
+-   [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
+-   [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
+-   [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
+-   [Why do the previous two questions have different answers?](#flex-axes)
 
 ### Additional Resources
 
