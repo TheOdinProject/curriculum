@@ -239,7 +239,7 @@ end
 
 In the worst case (Big O), which would happen if the item is not in the array, we would say it had linear complexity `O(N)`. This is because the `item` we are looking for is not in the array, so our code must iterate on every value. If the array input doubles in size then the worst case also means our method must double the number of iterations looking for the `item`.
 
-However, in the best-case scenario the value we are looking for will be the first item in the array. In this case our algorithm takes just one step. This has a complexity of `O(1)`. This is its Omega Complexity.
+However, in the best-case scenario the value we are looking for will be the first item in the array. In this case our algorithm takes just one step. This has a complexity of `Ω(1)`. This is its Omega Complexity.
 
 Omega Notation isn't considered as useful because it is unlikely our item will often be the first item in our data structure search, so it doesn't give us any idea how well the algorithm will scale.
 
