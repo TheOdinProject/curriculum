@@ -381,5 +381,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; simply look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
