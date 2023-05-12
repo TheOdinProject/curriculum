@@ -241,7 +241,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>
 - <a class="knowledge-check-link" href="https://react.dev/learn/writing-markup-with-jsx">What is JSX?</a>
 - <a class="knowledge-check-link" href="#components">What is a React Component?</a>
-- <a class="knowledge-check-link" href="https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108">What is the difference between a functional and a class component?</a>
+- <a class="knowledge-check-link" href="https://dev.to/colocodes/react-class-components-vs-function-components-23m6">What is the difference between a functional and a class component?</a>
 - <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
 - <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a> 
 - <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools</a>
