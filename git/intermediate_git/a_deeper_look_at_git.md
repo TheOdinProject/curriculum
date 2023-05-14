@@ -72,7 +72,7 @@ edit eacf39d Create send file
 pick 92ad0af Create third file and create fourth file
 ~~~
 
-This would allow us to edit the typo in the `Create send file` commit to be `Create second file`. Perform similar changes in your interactive rebase tool, but don't copy and paste the above code since it won't work. Save and exit the editor, which will allow us to edit the commit with the following instructions:
+This would allow us to edit the typo in the `Create send file` commit to be `Create second file`. Perform similar changes in your interactive rebase tool, but don't copy and paste the above code since it won't work. Save and exit the editor (using `^O Write Out`, followed by the `Enter` key, then `^X Exit`), which allows us to edit the commit with the following instructions:
 
 ~~~bash
 You can amend the commit now, with
@@ -96,7 +96,7 @@ squash 92aa6f3 Create second file
 pick 05e5413 Create third file and create fourth file
 ~~~
 
-Rename the commit to `Create first and second file`, then finish the rebase. That's it! Run `git log` and see how the first two commits got squashed together.
+Rename the 1st commit message to `Create first and second file`, delete commit message #2, then finish the rebase. That's it! Run `git log` and see how the first two commits got squashed together.
 
 #### Splitting Up a Commit
 
