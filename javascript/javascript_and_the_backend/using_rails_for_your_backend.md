@@ -32,7 +32,7 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 ### Knowledge Check
 
-* [ How do you load custom JavaScript in a given Rails view page? ](https://railsapps.github.io/rails-javascript-include-external.html#locations)
+* [How do you load custom JavaScript in a given Rails view page?](https://railsapps.github.io/rails-javascript-include-external.html#locations)
 * [How does "unobtrusive JavaScript" work?](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#unobtrusive-javascript)
 * [How can you pass data from your Rails app to your JavaScript?](https://railsapps.github.io/rails-javascript-include-external.html#parameters)
 * [Why would you want to use AJAX to load large batches of data?](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#an-introduction-to-ajax)

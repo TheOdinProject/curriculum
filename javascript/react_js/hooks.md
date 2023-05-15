@@ -170,5 +170,5 @@ This section contains questions for you to check your understanding of this less
 
 - [How do you declare state in a functional component?](#declare-state)
 - [What is the correct naming convention for state values?](#naming-convention)
-- [How do you mimic `componentDidMount`, `componentDidUpdate` and `componentWillUnmount` in a functional (#useeffect)component?]
+- [How do you mimic `componentDidMount`, `componentDidUpdate` and `componentWillUnmount` in a functional component?](#useeffect)
 - [Explain how the dependency array in the `useEffect` hook impacts the effect of the hook?](#dependency)
