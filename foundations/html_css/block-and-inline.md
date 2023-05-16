@@ -51,7 +51,7 @@ Span is an inline-level element by default. It can be used to group text content
 2.  W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 3.  The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
 4.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2" in the `margin-and-padding` directory.
-5.  Apply what you learned about the box model to improve the look of your Recipe page's index.html homepage. Make it more visually appealing by adding small pictures (thumbnails) for each recipe. Currently, it's just a plain list, so let's create a gallery-like feel on your index.html page by adding these thumbnails.
+5.  Apply what you learned about the box model to improve the look of your Recipe page's index.html homepage. Currently, it's just a plain list, so let's Get creative with layouts, colors, and styles to make your page uniquely captivating.
 
 </div>
 
