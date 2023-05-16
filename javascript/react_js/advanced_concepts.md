@@ -15,12 +15,12 @@ Good Luck!
 
 By the end of this lesson, you should be able to do the following:
 
-* Explain PropTypes.
-* Explain Styled Components.
-* Explain Redux and state management systems.
-* Explain how Context API works.
-* Explain higher-order Components.
-* Explain how to make your own React Hooks.
+- Explain PropTypes.
+- Explain Styled Components.
+- Explain Redux and state management systems.
+- Explain how Context API works.
+- Explain higher-order Components.
+- Explain how to make your own React Hooks.
 
 ### Guide to Advanced React
 
@@ -38,9 +38,9 @@ You might have already heard about Redux. [Redux](https://react-redux.js.org) is
 
 #### <span id="context-api">4. Context API</span>
 
-As your application becomes larger and you have multiple components to ensure reusability, you might find yourself passing props through a lot of components in the middle or you might have a lot of components that require the same props. This pattern is known as `prop drilling`. To help avoid this, React provides the Context API that lets a parent component provide data to all the components in its tree without having to pass props. Imagine that you have implemented an optional dark theme in your website and quite a few of your components require this theme data to correctly style itself - having a `context` of your theme will allow all children components to have access to this data. 
+As your application becomes larger and you have multiple components to ensure reusability, you might find yourself passing props through a lot of components in the middle or you might have a lot of components that require the same props. This pattern is known as `prop drilling`. To help avoid this, React provides the Context API that lets a parent component provide data to all the components in its tree without having to pass props. Imagine that you have implemented an optional dark theme in your website and quite a few of your components require this theme data to correctly style itself - having a `context` of your theme will allow all children components to have access to this data.
 
-The [Passing Data Deeply with Context webpage](https://beta.reactjs.org/learn/passing-data-deeply-with-context) on React Docs Beta does an excellent job of explaining on how to use the Context API. Furthermore, if you wish to learn more advanced concepts in React, [React Docs Beta](https://beta.reactjs.org/) is a great resource to dig into.
+The [Passing Data Deeply with Context webpage](https://beta.reactjs.org/learn/passing-data-deeply-with-context) on React Docs does an excellent job of explaining on how to use the Context API. Furthermore, if you wish to learn more advanced concepts in React, [React Docs](https://react.dev/) is a great resource to dig into.
 
 #### <span id="higher-order-components">5. Higher-order Components</span>
 
