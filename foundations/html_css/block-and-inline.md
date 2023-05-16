@@ -72,4 +72,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. Read the first 6 slides cover the material we've seen so far, Understand the use of `display: none` and which issue `max-width` property solve?
+*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
