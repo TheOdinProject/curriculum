@@ -18,7 +18,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
     **Tip:** If you would like to visualize your binary search tree, here is a `prettyPrint()` function that will `console.log` your tree in a structured format. This function will expect to receive the root of your tree as the value for the `node` parameter.
 
-    ```javascript
+    ~~~javascript
     const prettyPrint = (node, prefix = "", isLeft = true) => {
       if (node === null) {
         return;
@@ -31,7 +31,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
         prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
       }
     };
-    ```
+    ~~~ 
 
 1.  Write an `insert` and `delete` functions which accepts a value to insert/delete (you'll have to deal with several cases for delete such as when a node has children or not). If you need additional resources, check out these two articles on [inserting](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/?ref=lbp) and [deleting](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/?ref=lbp), or [this video](https://youtu.be/wcIRPqTR3Kc) with several visual examples.
 
@@ -72,7 +72,7 @@ Write a simple driver script that does the following:
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-If you need more help on the three types of binary search tree traversal algorithms, these video resources may aid you:
+If you need more help on the three types of binary search tree traversal algorithms, these video resources may aid you in visualizing how a call stack looks when traversing the tree:
 
 - [Inorder Traversal Algorithm](https://www.youtube.com/watch?v=4_UDUj1j1KQ&t=1s) of a binary search tree by Yicheng Gong
 - [Post-order Traversal Algorithm](https://www.youtube.com/watch?v=4Xo-GtBiQN0) of a binary search tree by Yicheng Gong
