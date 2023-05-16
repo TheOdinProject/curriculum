@@ -54,9 +54,9 @@ There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out th
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#prop-types">What are PropTypes and why can it be beneficial to use them?</a>
-- <a class="knowledge-check-link" href="#styled-components">What are Styled Components and how do they make your code cleaner?</a>
-- <a class="knowledge-check-link" href="#redux">What is Redux and why are state management systems used in many large applications?</a>
-- <a class="knowledge-check-link" href="#context-api">What is prop drilling and how can you use Context API to avoid it?</a>
-- <a class="knowledge-check-link" href="#higher-order-components">What is a High-order Component?</a>
-- <a class="knowledge-check-link" href="#more-hooks">How can you create your own Hooks?</a>
+* [What are PropTypes and why can it be beneficial to use them?](#prop-types)
+* [What are Styled Components and how do they make your code cleaner?](#styled-components)
+* [What is Redux and why are state management systems used in many large applications?](#redux)
+* [What is prop drilling and how can you use Context API to avoid it?](#context-api)
+* [What is a High-order Component?](#higher-order-components)
+* [How can you create your own Hooks?](#more-hooks)

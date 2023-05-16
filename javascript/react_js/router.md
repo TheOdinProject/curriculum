@@ -121,7 +121,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#client-side-routing">What is Client-side routing?</a>
-- <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
-- <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
-- <a class="knowledge-check-link" href="#routing">How do you ensure that Router links are routed accurately?</a>
+- [What is Client-side routing?](#client-side-routing)
+- [How do you add page routing to a React project?](#react-router)
+- [What are the three core components of React Router?](#components)
+- [How do you ensure that Router links are routed accurately?](#routing)
