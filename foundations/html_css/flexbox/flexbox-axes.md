@@ -61,4 +61,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
+*   The [Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) article on MDN is another good starting point. It includes helpful examples, interactive sections, and provides a sneak peek into flexbox alignment in the last section.
