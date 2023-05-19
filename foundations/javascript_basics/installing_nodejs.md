@@ -137,4 +137,4 @@ To run the Node console, open up your terminal and type `node`. Type `.exit` to 
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*   Delve into the advantages of using Node.js for building back-end services by watching this insightful [video on Node.js](https://youtu.be/uVwtVBpw7RQ).
