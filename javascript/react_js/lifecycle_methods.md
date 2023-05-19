@@ -72,6 +72,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#lifecycle">What is a component's lifecycle?</a>
-- <a class="knowledge-check-link" href="https://programmingwithmosh.com/javascript/react-lifecycle-methods/">Explain the most important lifecycle methods</a>
-- <a class="knowledge-check-link" href="https://react.dev/reference/react/Component">Which tasks should be triggered at the various lifecycle stages of a component?</a>
+- [What is a component's lifecycle?](#lifecycle)
+- [Explain the most important lifecycle methods](https://programmingwithmosh.com/javascript/react-lifecycle-methods/)
+- [Which tasks should be triggered at the various lifecycle stages of a component?](https://react.dev/reference/react/Component)

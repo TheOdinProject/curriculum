@@ -27,8 +27,8 @@ This section contains a general overview of topics that you will learn in this l
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--  <a class="knowledge-check-link" href="https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/">What are the benefits of TDD?</a>
--  <a class="knowledge-check-link" href="https://jestjs.io/docs/using-matchers#common-matchers">What are some common jest matchers?</a>
+-  [What are the benefits of TDD?](https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/)
+-  [What are some common jest matchers?](https://jestjs.io/docs/using-matchers#common-matchers)
 
 ### Additional Resources
 

@@ -26,8 +26,8 @@ This section contains a general overview of topics that you will learn in this l
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-css">How do you load CSS using webpack?</a>
-- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-images">How do you load images using webpack?</a>
-- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-fonts">How do you load fonts using webpack?</a>
-- <a class="knowledge-check-link" href="https://webpack.js.org/guides/asset-management/#loading-data">How do you load data using webpack?</a>
-- <a class="knowledge-check-link" href="https://webpack.js.org/guides/development/">How would you track errors in bundled source code?</a>
+- [How do you load CSS using webpack?](https://webpack.js.org/guides/asset-management/#loading-css)
+- [How do you load images using webpack?](https://webpack.js.org/guides/asset-management/#loading-images)
+- [How do you load fonts using webpack?](https://webpack.js.org/guides/asset-management/#loading-fonts)
+- [How do you load data using webpack?](https://webpack.js.org/guides/asset-management/#loading-data)
+- [How would you track errors in bundled source code?](https://webpack.js.org/guides/development/)
