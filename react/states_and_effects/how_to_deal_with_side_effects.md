@@ -1,6 +1,6 @@
 ### Introduction
 
-Certain components in react need to be interacting with other things outside the component itself. These other things can be anything from querying data from a server to synchronizing with the position of the component on the webpage or even sending some data to a server when necessary. This leads to the arising of a new concept called 'effects'. 
+Certain components in React need to interact with things outside itself. These things can be anything from querying data from a server to finding/changing position of the component on the webpage or even sending some data to a server when necessary. This interaction with the _outside world_ is called a side-effect.
 
 While we are already familiar with rendering code and adding event handlers, it is not enough for all uses, like when you want to connect to your server and fetch messages to show to a user. Effects let you run some code to synchronize your component as necessary, on rendering or a reactive/state value change rather than on a particular event.
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### The useEffect Hook
 
-Let us take a component in question. We want to make a "Clock" component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
+Let us take a component in question. We want to make a `Clock` component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
 
 ~~~jsx
 import React, { useState } from "react";
@@ -59,9 +59,9 @@ export default function Clock() {
 }
 ~~~
 
-#### The Dependency Array
-
 But, it still keeps growing too fast! This is where another argument of the `useEffect` comes in: the dependency array.
+
+#### The Dependency Array
 
 By default, when an `useEffect` hook is used, it will run on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
 
@@ -152,7 +152,7 @@ useEffect(
 
 ### But Do We Need The Effect?
 
-You may have heard effects also known as **side-effects**. The reason is, they are a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems, like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are code-smell, error-prone, and cause unnecessary performance issues.
+The reason is, they are a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems, like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are code-smell, error-prone, and cause unnecessary performance issues.
 
 Let us address a few cases where `useEffect` does not need to be used.
 
@@ -221,9 +221,8 @@ Let us address a few cases where `useEffect` does not need to be used.
 <div class="lesson-content__panel" markdown="1">
 
 1.  [This lesson of the React docs](https://react.dev/learn/lifecycle-of-reactive-effects) talks about the life of a component, the different stages at which rendering takes place, and the role of `useEffect` in it.
-2.  [This article from Epic React](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.
-3.  [Yet another article that explains a common mistake](https://dmitripavlutin.com/react-useeffect-infinite-loop) that beginners make, the infinite `useEffect` loop.
-4.  [This article](https://dev.to/colocodes/6-use-casesof-the-useeffect-reactks-hook-282o) goes over some examples of the `useEffect` hook being used.
+2.  [Yet another article that explains a common mistake](https://dmitripavlutin.com/react-useeffect-infinite-loop) that beginners make, the infinite `useEffect` loop.
+3.  [This article](https://dev.to/colocodes/6-use-casesof-the-useeffect-reactks-hook-282o) goes over some examples of the `useEffect` hook being used.
 </div>
 
 ### Knowledge Check
@@ -240,3 +239,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [This article, again from Epic React](https://epicreact.dev/myths-about-useeffect) goes over some common mistakes while using effects.
+*   [This article from Epic React](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.
