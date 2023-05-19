@@ -1,6 +1,6 @@
 ### Introduction
 
-CSS has two types of boxes - `block` boxes and `inline` boxes. The type of box refers to how the box behaves in terms of page flow and in relation to other boxes on the page. The display property is used to define how an HTML element should be displayed on the webpage. We will explore the different display values you can use further in this lesson.
+In the previous lesson, we discovered that different display types have unique box models, and we can modify the box calculation by changing the `display` property. CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage. We will explore its various options further in this lesson.
 
 ### Lesson Overview
 
@@ -19,7 +19,7 @@ Inline elements, however, do not start on a new line. They appear in line with w
 
 #### The middle ground inline-block
 
-Inline-block elements behave like inline elements, but with block-style padding and margin. `display: Inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
+Inline-block elements behave like inline elements, but with block-style padding and margin. `display: inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
 ### Divs and Spans
 
@@ -49,11 +49,10 @@ Span is an inline-level element by default. It can be used to group text content
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the rest of [The box model lesson from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model).
-  2. The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
-  3. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
-  4. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
-  5. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2" in the `margin-and-padding` directory.
+  1. The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
+  2. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
+  3. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
+  4. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2" in the `margin-and-padding` directory.
 
 </div>
 
