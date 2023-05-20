@@ -28,7 +28,7 @@ SVGs are often used for:
 
 With vector graphics on the other hand, there's no grid. Instead, you have formulas for different shapes and lines. Since these are just formulas, it doesn't matter how large or small you want them to appear--they can scale to any size you want, and it will have no effect on the quality or the size of the file.
 
-SVGs have another interesting aspect to them: they're defined using XML. XML (aka, "Extensible Markup Language") is an HTML-like syntax which is used for lots of things, from [APIs](https://en.wikipedia.org/wiki/SOAP), to [RSS](https://en.wikipedia.org/wiki/RSS), to [spreadsheet and word editor software](https://en.wikipedia.org/wiki/Office_Open_XML).
+SVGs have another interesting aspect to them: they're defined using XML. XML (aka, "Extensible Markup Language") is an HTML-like syntax which is used for lots of things, from [APIs](https://en.wikipedia.org/wiki/API), to [RSS](https://en.wikipedia.org/wiki/RSS), to [spreadsheet and word editor software](https://en.wikipedia.org/wiki/Office_Open_XML).
 
 The fact that SVG source-code is XML has a few key benefits.
 

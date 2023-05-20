@@ -15,7 +15,7 @@ Take a moment to think about why you have decided to learn programming.
 
 Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
-To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/705776663497277490) channel.
+To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel.
 
 
 ### Growth Mindset
@@ -166,6 +166,6 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   [Managing inspiration and motivation](https://markmanson.net/do-something)
 *   [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-*   [Improve your typing skills with Keybr.com](https://www.keybr.com/) Use this keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
+*   [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
 *   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
 *   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)

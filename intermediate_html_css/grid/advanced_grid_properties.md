@@ -316,6 +316,7 @@ This section contains helpful links to other content. It isn’t required, so co
 
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
+- Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.

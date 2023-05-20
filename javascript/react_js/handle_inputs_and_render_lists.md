@@ -391,6 +391,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#render-list">How do you render lists in React?</a>
-- <a class="knowledge-check-link" href="#handle-input-field">How do you handle input field changes in React?</a>
-- <a class="knowledge-check-link" href="#handle-form">How do you handle form submission in React?</a>
+- [How do you render lists in React?](#render-list)
+- [How do you handle input field changes in React?](#handle-input-field)
+- [How do you handle form submission in React?](#handle-form)
