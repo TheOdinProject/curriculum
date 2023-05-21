@@ -300,5 +300,5 @@ This section contains questions for you to check your understanding of this less
 - [How do you pass functions, state, or other values between components?](#props)
 - [What is the purpose of `state` in a React component?](#state)
 - [Explain the importance of using `setState()` instead of mutating state directly?](https://react.dev/reference/react/Component#setstate)
-- [What is the difference between functional and class components and how does their syntax for handling props (#state-and-props-in-functional-components)differ?]
+- [What is the difference between functional and class components and how does their syntax for handling props differ?](#state-and-props-in-functional-components)
 - [How do you attach event listeners to elements in React components?](https://reactjs.org/docs/handling-events.html)
