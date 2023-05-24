@@ -105,7 +105,7 @@ Instead of a period, we use a hashtag immediately followed by the case-sensitive
 
 The major difference between classes and IDs is that an element can only have **one** ID. An ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
 
-#### Grouping Selector
+#### The Grouping Selector
 
 What if we have two groups of elements that share some of their style declarations?
 
