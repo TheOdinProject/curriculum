@@ -8,7 +8,7 @@ removed without reallocation of any other elements.
 In some programming languages, the size of an array is a concern and one of the ways
 to overcome that problem and allow dynamically allocated data is using linked lists.
 
-Luckily in **Javascript** arrays aren't limited to a certain size, so you don't have to think
+Luckily in **Javascript**, arrays aren't limited to a certain size, so you don't have to think
 about overcoming that limitation.
 
 So if array size is not a limitation in Javascript, are linked lists really necessary?
