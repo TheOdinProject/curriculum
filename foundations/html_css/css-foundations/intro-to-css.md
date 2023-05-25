@@ -236,8 +236,14 @@ Almost. Both of these properties can accept one of several kinds of values. A co
 p {
   /* hex example: */
   color: #1100ff;
+}
+
+p {
   /* rgb example: */
   color: rgb(100, 0, 127);
+}
+
+p {
   /* hsl example: */
   color: hsl(15, 82%, 56%);
 }
