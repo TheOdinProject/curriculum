@@ -79,7 +79,7 @@ Class selectors will select all elements with the given class, which is just an 
 }
 ~~~
 
-Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be unique, so you can use the same class on as many elements as you want.
+Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
