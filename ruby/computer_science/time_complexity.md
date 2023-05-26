@@ -54,9 +54,9 @@ Let's go back to our `odd_numbers_less_than_ten method`. How many steps does our
     3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
     4. We increase `current_number` by 1. That is 1 step.
 
-3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
+3. To exit the loop, we need to compare `current_number` one last time to see that it is not less than ten any more. That is one last step.
 
-So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
+So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `current_number` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
 Therefore we can say our algorithm takes 34 steps to complete.
 
