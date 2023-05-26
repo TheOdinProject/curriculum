@@ -6,9 +6,9 @@ Code readability and maintainability are super important. After all, you will li
 
 However, there is another consideration that can be just as important when writing code. Efficiency! You need to understand how the code you write will perform. You also need to understand how the choices you make impact that performance so that you can choose the right data structure and algorithm for your requirement.
 
-In programming there are two ways we can measure the efficiency of our code. We can measure the time complexity or the space complexity.
+In programming, there are two ways we can measure the efficiency of our code. We can measure the time complexity or the space complexity.
 
-In this lesson we'll introduce the core concepts around measuring the time efficiency of the code you write.
+In this lesson, we'll introduce the core concepts around measuring the time efficiency of the code you write.
 
 ### Lesson Overview
 
