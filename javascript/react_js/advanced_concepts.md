@@ -26,7 +26,7 @@ By the end of this lesson, you should be able to do the following:
 
 #### <span id="prop-types">1. PropTypes</span>
 
-One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). And if that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React.
+One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). But it is not used in modern react anymore, you should use [TypeScript](https://www.typescriptlang.org/) with React for static type checking.
 
 #### <span id="styled-components">2. Styled Components</span>
 
@@ -40,15 +40,11 @@ You might have already heard about Redux. [Redux](https://react-redux.js.org) is
 
 As your application becomes larger and you have multiple components to ensure reusability, you might find yourself passing props through a lot of components in the middle or you might have a lot of components that require the same props. This pattern is known as `prop drilling`. To help avoid this, React provides the Context API that lets a parent component provide data to all the components in its tree without having to pass props. Imagine that you have implemented an optional dark theme in your website and quite a few of your components require this theme data to correctly style itself - having a `context` of your theme will allow all children components to have access to this data.
 
-The [Passing Data Deeply with Context webpage](https://beta.reactjs.org/learn/passing-data-deeply-with-context) on React Docs does an excellent job of explaining on how to use the Context API. Furthermore, if you wish to learn more advanced concepts in React, [React Docs](https://react.dev/) is a great resource to dig into.
+The [Passing Data Deeply with Context webpage](https://react.dev/learn/passing-data-deeply-with-context) on React Docs does an excellent job of explaining on how to use the Context API. Furthermore, if you wish to learn more advanced concepts in React, [React Docs](https://react.dev/) is a great resource to dig into.
 
-#### <span id="higher-order-components">5. Higher-order Components</span>
+#### <span id="more-hooks">5. More Hooks</span>
 
-[Higher-order components](https://reactjs.org/docs/higher-order-components.html) are components that consume another component and return a third component. This [article on HOC's by Smashing Magazine](https://www.smashingmagazine.com/2020/06/higher-order-components-react/) shows different use cases and provides some great comparisons to help you understand.
-
-#### <span id="more-hooks">6. More Hooks</span>
-
-There are a lot of [hooks](https://reactjs.org/docs/hooks-reference.html) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your [own](https://reactjs.org/docs/hooks-custom.html).
+There are a lot of [hooks](https://react.dev/reference/react) out there, with the number only increasing by the day (since you can write your own!). As you have seen in previous lessons, it seems like the React team wants us to use more functional components with hooks in the future, so it is definitely worth getting to know both the hooks that are built-in to React, as well as how to create your [own](https://react.dev/learn/reusing-logic-with-custom-hooks).
 
 ### Knowledge Check
 
