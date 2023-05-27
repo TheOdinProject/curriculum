@@ -119,7 +119,7 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 #### O(1) - Constant Complexity
 
-To understand Constant Complexity let's use a simple array.
+To understand Constant Complexity, let's use a simple array.
 
 ~~~ruby
 arr = [1, 2, 3, 4, 5]
