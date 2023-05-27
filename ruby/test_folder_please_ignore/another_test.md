@@ -6,7 +6,7 @@ github_path: /ruby/test_folder_please_ignore/another_test.md
 identifier_uuid: 18353520-4175-460f-8e4c-9ca5f0c5894d
 path: full_stack_rails
 course: ruby
-section: introduction
+section: Basic Ruby
 ---
 ### Introduction
 
