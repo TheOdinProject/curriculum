@@ -42,11 +42,11 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
     1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
         - To prevent having to copy and paste the same lengthy git command each time, you can instead create an npm script to do the work for you!
-            - Inside your project's `package.json` file, within the `scripts` section, add an additional script named something of your choosing and paste in the command from the above gist sorrounded by quotation marks.
+            - Inside your project's `package.json` file, within the `scripts` section, add an additional entry named something of your choosing and paste in the command from the above gist sorrounded by quotation marks. Follow the formatting of the already added `test` script.
             - For Example: <br>`  "scripts": {
-    "gh pages": "git subtree push --prefix dist origin gh-pages"
+    "YourScriptName": "git subtree push --prefix dist origin gh-pages"
   }`
-            - Now each  time you need to update your project's live preview, you can simply `npm run <your script name>`
+            - Now each  time you need to update your project's live preview, you can simply `npm run <YourScriptName>` in your project's terminal.
             - To learn more about this, here's a short tutorial video on [Node Package Manager Scripts](https://www.youtube.com/watch?v=REdzp64dijs).
     1. Recall that the __source branch__ for GitHub Pages is set in your repository's settings.
 </div>
