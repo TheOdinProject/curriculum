@@ -19,14 +19,13 @@ By the end of this lesson, you should be able to do the following:
 - Explain Styled Components.
 - Explain Redux and state management systems.
 - Explain how Context API works.
-- Explain higher-order Components.
 - Explain how to make your own React Hooks.
 
 ### Guide to Advanced React
 
 #### <span id="prop-types">1. PropTypes</span>
 
-One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React provides the possibility to declare types using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). But it is not used in modern react anymore, you should use [TypeScript](https://www.typescriptlang.org/) with React for static type checking.
+One common discussion about JavaScript is whether it would be better if you could declare types for variables and properties. Many programmers agree that the pattern of declaring types, which you have in many other programming languages is preferable because it allows you to catch errors, such as passing a string to a variable that should be a number. Therefore, React recommends using the [prop-types](https://www.npmjs.com/package/prop-types) for runtime type checking for React props and similar objects. If that's not enough for you, you could also use [TypeScript](https://www.typescriptlang.org/) with React.
 
 #### <span id="styled-components">2. Styled Components</span>
 
@@ -54,5 +53,4 @@ This section contains questions for you to check your understanding of this less
 * [What are Styled Components and how do they make your code cleaner?](#styled-components)
 * [What is Redux and why are state management systems used in many large applications?](#redux)
 * [What is prop drilling and how can you use Context API to avoid it?](#context-api)
-* [What is a High-order Component?](#higher-order-components)
 * [How can you create your own Hooks?](#more-hooks)
