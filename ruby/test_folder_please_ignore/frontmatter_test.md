@@ -7,6 +7,7 @@ identifier_uuid: 18353520-4175-460f-8e4c-9ca5f0c5894d
 path: full_stack_rails
 course: ruby
 section: Basic Ruby
+position: 1
 ---
 ### Introduction
 
