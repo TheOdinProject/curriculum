@@ -83,7 +83,7 @@ You've probably realised the answer is it depends. If you  set `maxNumber` to be
 
 So what we really want to be able to measure is how the number of steps of our algorithm changes when the data changes. This helps us answer the question of whether the code we write will scale.
 
-To do that we need to delve into a new concept: Asymptotic Notations and, in particular, Big O.
+To do that, we need to delve into a new concept: Asymptotic Notations and, in particular, Big O.
 
 ### Asymptotic Notations
 
@@ -103,7 +103,7 @@ Big O gives us a consistent way to measure the efficiency of an algorithm. It gi
 
 Big O is not a piece of code you can put your algorithm into and it tells you how efficient it is. You will need to measure how the number of steps changes as the data grows, and using this you can apply a Big O Notation to it and measure it against other algorithms. In many cases you'll be using a data structure in which the ways you interact with it are well known, and in that case it's easier to judge how it will scale as the input changes.
 
-Firstly we'll summarise the Big O Notations and then provide a little more context for each one. The reading materials will dive into greater detail.
+Firstly, we'll summarise the Big O Notations and then provide a little more context for each one. The reading materials will dive into greater detail.
 
 #### Big O Notation
 
