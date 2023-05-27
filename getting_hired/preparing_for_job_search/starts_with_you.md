@@ -55,6 +55,6 @@ Some questions to ask (which you'll probably hear again in your early interviews
 9. Do I lean in to challenges or avoid them?
 10. What are some really difficult problems I've solved before?
 
-Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can to make your story compelling.
+Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can use to make your story compelling.
 
 A quick note -- there is a difference between hunger for opportunity and desperation.  Hunger is about seeking reward (which you can do when you're in a comfortable situation and optimizing opportunities) and desperation is about avoiding failure (which occurs when you absolutely MUST have that job).  Do whatever it takes to not sound desperate, even if you are.
