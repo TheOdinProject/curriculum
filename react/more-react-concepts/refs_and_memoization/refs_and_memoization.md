@@ -309,8 +309,8 @@ function Counter() {
 
 Two scenarios that should happen here:
 
-1. If you've passed `handleClick` and the `ButtonComponent` has a memo. It will still re-render. Referential equality check fails.
-2. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a memo. It will not re-render. Referential equality check passes.
+1. If you've passed `handleClick` and the `ButtonComponent` has a memo. It will still re-render. Referential equality check fails (previous prop is *not equal* to the current prop).
+2. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a memo. It will not re-render. Referential equality check passes (previous prop is *equal* to the current prop).
 
 This works with all values that will be passed as a prop. You might see it being used frequently with the Context API.
 
