@@ -1,0 +1,3 @@
+---
+course_slug: 'ruby'
+---
