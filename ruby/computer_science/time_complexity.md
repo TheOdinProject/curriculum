@@ -58,9 +58,9 @@ Let's go back to our `odd_numbers_less_than_ten method`. How many steps does our
 
 So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `current_number` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
-Therefore we can say our algorithm takes 34 steps to complete.
+Therefore, we can say our algorithm takes 34 steps to complete.
 
-While this is useful to know, it isn't actually helpful for comparing algorithms. To see why let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
+While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
 
 ~~~ruby
 def odd_numbers(max_number)
