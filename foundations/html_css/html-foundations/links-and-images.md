@@ -4,7 +4,7 @@ Links are one of the key features of HTML. They allow us to link to other HTML p
 
 In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -26,7 +26,7 @@ To get some practice using links and images throughout this lesson we need an HT
 <h1>Homepage</h1>
 ~~~
 
-### Anchor Elements
+### Anchor elements
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
@@ -50,14 +50,14 @@ By default, any text wrapped with an anchor tag without a `href` attribute will 
 
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
-### Absolute and Relative Links
+### Absolute and relative links
 
 Generally, there are two kinds of links we will create:
 
 1.  Links to pages on other websites on the internet
 2.  Links to pages located on our own websites
 
-#### Absolute Links
+#### Absolute links
 
 Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
@@ -65,7 +65,7 @@ We've already seen an absolute link in action. The link we created to The Odin P
 
 `https://www.theodinproject.com/about`
 
-#### Relative Links
+#### Relative links
 
 Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
@@ -129,7 +129,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 ~~~
 
 
-#### A Metaphor
+#### A metaphor
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
@@ -175,7 +175,7 @@ Finally add the image to the `index.html` file:
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
-### Parent Directories
+### Parent directories
 
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
@@ -193,7 +193,7 @@ To break this down:
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
-### Alt Attribute
+### Alt attribute
 
 <span id="two-attributes"></span>Besides the src attribute, every image element should also have an alt (alternative text) attribute.
 
@@ -221,7 +221,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -234,7 +234,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#parent-filepath">How do you access a parent directory in a filepath?</a>
 *   <a class="knowledge-check-link" href="https://www.internetingishard.com/html-and-css/links-and-images/#image-formats">What are the four main image formats that you can use for images on the web?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
