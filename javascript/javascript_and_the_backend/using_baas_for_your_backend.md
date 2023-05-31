@@ -40,3 +40,4 @@ You can learn how to build a back-end later using [Node.js](https://www.theodinp
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - This [youtube video](https://www.youtube.com/watch?v=zQyrwxMPm88) to reinforce the learnings from [Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0).
+- This [youtube playlist](https://www.youtube.com/watch?v=v_hR4K4auoQ&list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ&index=1&ab_channel=Firebase) gives a complete overview of how to organize your Cloud Firestore database.
