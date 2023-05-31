@@ -10,7 +10,7 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   Learn how to Install Node Version Manager and Node Package Manager
+-   Learn how to Install [Node Version Manager](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/) and [Node Package Manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 -   Learn how to run Node console
 
 ### Installing NVM
