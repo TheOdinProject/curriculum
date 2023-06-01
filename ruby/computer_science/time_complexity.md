@@ -188,11 +188,11 @@ One such algorithm is merge sort, and it just so happens you tackle this project
 
 #### O(n&#178;) - Quadratic Complexity
 
-You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again. Therefore, when the number of items in the data increases by 1, it requires 2 extra iterations. 2 extra items requires 4 extra iterations (2 in the outer loop and two in the inner loop). 3 extra items adds 9 steps, and 4 adds 16 extra steps. We hope you can see where we're going with this...
+You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again. Therefore, when the number of items in the data increases by 1, it requires 1 extra iteration in both the outer loop and the inner loop. 2 extra items requires 2 extra iterations in the outer loop and 2 extra in the inner loop. If we are looping through an array with n items and, within each loop, looping over it again, then adding 2 extra items increases the sub-steps required from n&#178; to (n + 2)&#178;, adding an extra 2n + 2(n + 2) sub-steps. 3 extra items adds 3 extra iterations in the outer loop and 3 extra iterations in the inner loop, resulting in 3n + 3(n + 3) extra sub-steps. 4 extra items causes 4n + 4(n + 4) extra sub-steps. We hope you can see where we're going with this...
 
 #### O(n&#179;) - Cubic Complexity
 
-Think triple nested loops baby. 1 extra item adds 3 extra steps, 2 adds 8, and 3 adds about 27. 100 items will be about 1,000,000 steps. Ouch!
+Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop, increasing the sub-steps required from n&#179; to (n + 1)&#179;. Hence there are (n + 1)&#178; + n(2n + 1) extra sub-steps required. 2 extra items adds 2 extra outer loops, 2 extra middle loops and 2 extra innermost loops, adding an extra 2(n + 2)&#178; + n(4n + 4) sub-steps. 100 items in the array require a total of 1,000,000 sub-steps. Ouch!
 
 #### O(2&#8319;) - Exponential Complexity
 
