@@ -155,7 +155,7 @@ and wanted to know if it had the number `7`, Binary Search would guess the middl
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ~~~
 
-Therefore in just one step we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
+Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
 
 ~~~ruby
 arr = [6, 7, 8, -, -]
