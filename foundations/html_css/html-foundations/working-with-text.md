@@ -164,8 +164,7 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 
 1.  Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
 2.  Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites.
-
+3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://loremipsum.io/) to generate dummy text, in place of real text as you build your sites. Alternatively, you can use a **VS Code shortcut** to generate dummy text. To trigger the shortcut, type `lorem` (on the line, where you want to generate the text) then press the enter key to choose the it, and voila, you have generated dummy text without a hitch.
 </div>
 
 ### Knowledge Check
