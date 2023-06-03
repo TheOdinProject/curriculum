@@ -123,7 +123,7 @@ Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdin
 
 #### Note
 
-While the test suite above uses `data-test-id` to identify mocked child components, it must be remembered that the React Testing Library instead uses `data-testid` by default. This spelling was overridden for development convenience in a configuration file used to set up the test environment but this is not necessary.
+While the test suite above uses `data-test-id` to identify mocked child components, it must be remembered that the React Testing Library instead uses `data-testid` by default.
 
 </div>
 
