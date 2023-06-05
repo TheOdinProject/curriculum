@@ -1,6 +1,10 @@
 ### Introduction
 
-Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
+You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on _reading_ code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
+
+This means that learning how to write clean and readable code is crucial. It not only makes your life easier but also improves the experiences of your colleagues and collaborators. No one wants to be that coworker whose code is a nightmare to decipher. Development is a team effort after all.
+
+This lesson aims to provide you with guidelines to make your code more readable and understandable.
 
 ### Lesson Overview
 
@@ -10,11 +14,11 @@ This section contains a general overview of topics that you will learn in this l
 - Use programming principles to make your code cleaner.
 - Write good comments.
 
-### Writing Clean Code
+### What is clean code?
 
-Consider the following two snippets of JavaScript:  
+Consider the following examples:
 
-This is ugly and hard to read code:
+Example A:
 
 ~~~javascript
 const x =
@@ -28,7 +32,7 @@ function(q){
 x([2, 2, 2]);
 ~~~
 
-Now, this is clean and easy to read code:
+Example B:
 
 ~~~javascript
 const sumArray = function(array) {
@@ -42,11 +46,67 @@ const sumArray = function(array) {
 sumArray([2, 2, 2]);
 ~~~
 
-Believe it or not, both of those functions do the exact same thing \(in the exact same way!\), and both of them are perfectly valid code, but obviously the second one is much easier to follow.  Imagine you're working on a project with someone else and they've written the first function... how long is it going to take you to figure out what's going on there so you can do your work?  Imagine you're working on a project all by yourself and YOU wrote the first function a week or two ago... chances are good that you aren't going to remember exactly what you were up to there and it's _still_ going to take you a good while to figure it all out again.
+Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task \(in the exact same way!\), and both are valid code. But the second one is much more readable. Why?
 
-The second one, however, is much easier to follow.  Even if you don't know exactly what everything in the code is doing, things are named clearly enough that you could guess, and the indentation is consistent enough that it's easy to parse the different parts of the function.
+In the first example, single-letter variables are used, there is a semicolon in the middle of one line, and the indentation is inconsistent. The result is a piece of code that is confusing and messy. Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself just two weeks ago and completely forgot that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be any fun.
+
+Example B, on the other hand, represents clean code. While you may not know precisely what each part does, it's much easier to guess what is happening because the function and variables are named clearly. The indentation follows a consistent and logical pattern, and fortunately, there are no semicolons interrupting the code within a line.
+
+### Naming functions and variables
+
+In our first example we already touched on the importance of _naming_ things meaningfully. Let's break down further what makes a good variable or function name.
+
+**Use descriptive names**
+
+A good name is descriptive. In our good example the we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests. Nice, clean and understandable.
+
+Now, imagine having a conversation with someone about the bad example. You come across a function named `x` with variables like `z`, `w` and `q`. Confusion is sure to follow.
+
+
+**Use a consistent vocabulary**
+
+Variables of the same type should have consistent naming. Consider the following examples from a game of Tic-Tac-Toe:
+
+```javascript
+getUserScore();
+fetchPlayerName();
+retrievePlayer1Tag();
+```
+
+```javascript
+getPlayerScore();
+getPlayerName();
+getPlayerTage();
+```
+
+In the first example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The second example maintains consistency in both variable naming and the verbs used.
+
+**Use names that are searchable and immediately understandable**
+
+Sometimes, it can be tempting to use an undeclared variable. Let's take another look at an example:
+
+```javascript
+setTimeout(stopTimer, 3600000);
+```
+You probably noticed the problem right away. What does `3600000` mean and how long is this timeout going to count down before executing `stopTimer`? 
+
+Now, let's make this code more meaningful by introducing a descriptive variable:
+
+```javascript
+const MILLISECONDS_PER_HOUR = 60 * 60 * 1000; // 3,600,000;
+
+
+setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
+```
+
+Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. You might wonder why this variable is declared with all caps. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here. If you're interested, [this article](https://javascript.info/variables#uppercase-constants) provides more background on this convention.
+
+
+----------
+old content from here on
 
 There are many different opinions on what constitutes great JavaScript code.  The most important thing is just that you're consistent.  The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI), but it doesn't _really_ matter as long as you're consistent.
+
 
 ### Rules of Thumb
 
