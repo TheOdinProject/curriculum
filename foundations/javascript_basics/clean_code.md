@@ -52,73 +52,96 @@ In the first example, single-letter variables are used, there is a semicolon in 
 
 Example B, on the other hand, represents clean code. While you may not know precisely what each part does, it's much easier to guess what is happening because the function and variables are named clearly. The indentation follows a consistent and logical pattern, and fortunately, there are no semicolons interrupting the code within a line.
 
+It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
+
 ### Naming functions and variables
 
-In our first example we already touched on the importance of _naming_ things meaningfully. Let's break down further what makes a good variable or function name.
+In our first example we already touched on the importance of naming things _meaningfully_. Let's break down further what makes a good variable or function name.
 
-**Use descriptive names**
+#### Use descriptive names
 
 A good name is descriptive. In our good example the we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests. Nice, clean and understandable.
 
 Now, imagine having a conversation with someone about the bad example. You come across a function named `x` with variables like `z`, `w` and `q`. Confusion is sure to follow.
 
-
-**Use a consistent vocabulary**
+#### Use a consistent vocabulary
 
 Variables of the same type should have consistent naming. Consider the following examples from a game of Tic-Tac-Toe:
 
-```javascript
-getUserScore();
-fetchPlayerName();
-retrievePlayer1Tag();
-```
-
-```javascript
-getPlayerScore();
-getPlayerName();
-getPlayerTage();
-```
+~~~javascript
+// Good
+function getUserScore();
+function fetchPlayerName();
+function retrievePlayer1Tag();
+ // Bad
+function getPlayerScore();
+function getPlayerName();
+function getPlayerTage();
+~~~
 
 In the first example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The second example maintains consistency in both variable naming and the verbs used.
 
-**Use names that are searchable and immediately understandable**
+Variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.
+
+Another set of examples can help understand what kind of confusion can follow, if these rules are not followed.
+
+~~~javascript
+// Good
+const numberOfThings = 10;
+const myName = "Thor";
+const selected = true;
+
+// Bad (these start with verbs, could be confused for functions)
+const getCount = 10;
+const isSelected = true;
+
+// Good
+function getCount() {
+  return numberOfThings;
+}
+
+// Bad (it's a noun)
+function myName() {
+  return "Thor";
+}
+~~~
+
+### Use names that are searchable and immediately understandable
 
 Sometimes, it can be tempting to use an undeclared variable. Let's take another look at an example:
 
-```javascript
+~~~javascript
 setTimeout(stopTimer, 3600000);
-```
-You probably noticed the problem right away. What does `3600000` mean and how long is this timeout going to count down before executing `stopTimer`? 
+~~~
+
+You probably noticed the problem right away. What does `3600000` mean and how long is this timeout going to count down before executing `stopTimer`?
 
 Now, let's make this code more meaningful by introducing a descriptive variable:
 
-```javascript
+~~~javascript
 const MILLISECONDS_PER_HOUR = 60 * 60 * 1000; // 3,600,000;
 
-
 setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
-```
+~~~
 
-Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. You might wonder why this variable is declared with all caps. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here. If you're interested, [this article](https://javascript.info/variables#uppercase-constants) provides more background on this convention.
+Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. You might wonder why this variable is declared with all caps. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
+
+#### About camelCase
+
+Now that we are discussing capitalization, it's important to mention camelCase. camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the second word (and any subsequent words) are capitalized.
+
+Throughout this lesson most of our variables and functions (at least on the good examples!) have been named using camelCase. You should follow this example.
 
 
-----------
-old content from here on
+### Indentation and line length
 
-There are many different opinions on what constitutes great JavaScript code.  The most important thing is just that you're consistent.  The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI), but it doesn't _really_ matter as long as you're consistent.
+Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
+What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other.
 
-### Rules of Thumb
+#### Line length
 
-1.  Indentation: It doesn't _really_ matter what style of indentation you use.  Various JS style-guides recommend different options, and one is not really superior to the other.  What _is_ important, however, is consistency.  In our examples we will use 2 spaces for indentation.
-
-2.  Semicolons: Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.  Just do it!
-
-3. Line length: Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.  This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters.  Many code editors have a line in the display to show when you have crossed this threshold.   When manually breaking lines, you should try to break immediately _after_ an operator or comma. Then, there are a few ways to format continuation lines. For example, you can:
-
-   - indent continuation lines by one level,
-   - vertically align continuation lines with the first variable,
-   - or some other format entirely. The rules aren't set in stone and vary from work environment to work environment, but remember to be consistent.
+Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code. This rule is not quite as strict as some of the others, but as a general rule, your code will be easier to read if you manually break lines that are longer than about 80 characters. Many code editors have a line in the display to show when you have crossed this threshold. When manually breaking lines, you should try to break immediately _after_ an operator or comma. Then, there are a few ways to format continuation lines. For example, you can:
 
    ~~~javascript
    // One possible format
@@ -133,32 +156,10 @@ There are many different opinions on what constitutes great JavaScript code.  Th
    let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
                                      howManyTacos + oneMoreReallyLongThing;
    ~~~
-   
-   ​
 
-4.  Naming Things: Names for functions and variables should be descriptive.  Always use camelCase.  To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.  It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
+### Semicolons
 
-    ~~~javascript
-// Good
-    const numberOfThings = 10;
-    const myName = "Thor";
-    const selected = true;
-
-    // Bad (these start with verbs, could be confused for functions)
-    const getCount = 10;
-    const isSelected = true;
-
-    // Good
-    function getCount() {
-      return numberOfThings;
-    }
-
-    // Bad (it's a noun)
-    function myName() {
-      return "Thor";
-    }
-    ~~~
-
+Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons. Just do it!
 
 ### Assignment
 
@@ -180,7 +181,8 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
-* THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
-* [Airbnb style guide](https://github.com/airbnb/javascript)  
-* [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+- [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
+- THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
+- [Airbnb style guide](https://github.com/airbnb/javascript)
+- [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)
+- [Ryan McDermot's Clean Code](https://github.com/ryanmcdermott/clean-code-javascript) 
