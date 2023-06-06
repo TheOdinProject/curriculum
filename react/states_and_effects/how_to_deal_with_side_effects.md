@@ -37,7 +37,7 @@ export default function Clock() {
 }
 ~~~
 
-Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered everytime the state updates, and we are updating the state every second, thus incrementing rapidly.
+Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered every time the state updates, and we are updating the state every second, thus incrementing rapidly.
 
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside an `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
@@ -88,7 +88,7 @@ export default function Clock() {
 ~~~
 
 <div class="lesson-note" markdown="1">
-Usually, you do not need to add dependencies to your useEffect hook manually. Your linter should let you know about the dependecies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
+Usually, you do not need to add dependencies to your useEffect hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
 
 ~~~jsx
 useEffect(() => {
