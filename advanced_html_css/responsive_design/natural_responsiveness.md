@@ -52,7 +52,7 @@ In _most_ cases, you should avoid setting a height altogether. There are some ex
 Obviously there are cases when a fixed width is appropriate. It's hard to make a universal rule, but in general the smaller your widths the more likely it's fine to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably _don't_ want it to shrink. Likewise a `250px` sidebar probably needs to _always_ be `250px`. As with anything you just need to consider your options and pick what seems to be the most appropriate.
 
 ### Use Flex and Grid
-Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Simply using flex and grid don't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
+Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Simply using flex and grid doesn't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">

@@ -107,7 +107,7 @@ That's why we won't be diving into examples for other Big O notations with space
 
 #### Other considerations
 
-One of the common areas that causes confusion when considering space complexity is what constitutes using space in the context of an algorithm. In an earlier example we wrote methods that duplicated an array and hash argument. We did that to be explicit. But what if we'd written the method as:
+One of the common areas that causes confusion when considering space complexity is what constitutes using space in the context of an algorithm. In an earlier example we wrote methods that duplicated an array and object argument. We did that to be explicit. But what if we'd written the method as:
 
 ~~~js
 function sumArr(arr) {

@@ -10,6 +10,11 @@ This section contains a general overview of topics that you will learn in this l
 - Understand how to use the class and ID attributes.
 - Add styles to specific elements using the correct selectors.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?pl=p7vkvQpT6?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
+
 ### Basic Syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
@@ -377,7 +382,7 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
-- <a class="knowledge-check-link" href="#grouping-selector">How would you apply a single rule to two different selectors?</a>
+- <a class="knowledge-check-link" href="#the-grouping-selector">How would you apply a single rule to two different selectors?</a>
 - <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
 - <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
 - <a class="knowledge-check-link" href="#adding-css-to-html">What are the names of the three ways to add CSS to HTML?</a>
