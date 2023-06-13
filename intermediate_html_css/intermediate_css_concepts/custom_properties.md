@@ -133,7 +133,7 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) page starting at the "Inheritance of custom properties" section.
+1. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#inheritance_of_custom_properties) page starting at the "Inheritance of custom properties" section.
 2. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
 </div>
 
