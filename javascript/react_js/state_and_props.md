@@ -65,9 +65,11 @@ class App extends Component {
 export default App;
 ~~~
 
-Let's take a look at what is happening here. Above, there are two components, `MyComponent` and `App`. As you can see, `MyComponent` is imported into `App`, and then rendered as a child component of `App`. In the JSX where we implement `MyComponent`, we also pass down a property called `title`. This syntax should look familiar to you: it's the same way we assign attributes to HTML elements. In this specific example, we assign a "prop" (short for _property_, as in an object property) called `title` which we set to the value `"React"`. In `MyComponent`, we can access this "prop" from within `MyComponent` with the syntax `this.props.title`. This technique is called "passing props."
+Let's take a look at what is happening here.
 
-_IMPORTANT_: Make sure you pass `props` to the constructor of the child component (`MyComponent`) as well as the `super()` method, otherwise you will not be able to access `this.props.title` in `MyComponent`. You might be confused by this keyword since you may not yet have encountered it, but don't worry. For right now it's enough to just know that you **must** use it for your React component to function correctly. If you're really curious about what `super` actually does, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
+`App` component imports `MyComponent` component, and renders `MyComponent` as its child. In `App`'s  JSX, we pass down a property called `title`. This syntax should look familiar to you - it's the same as how we assign attributes to HTML elements. In React, we call `title` a 'prop' (short for *property*, as in object property). Next, we're setting the value "React" to the `title` prop. In `MyComponent` , we read the prop `title`'s value "React" with `this.props.title`. This technique is called "passing props". 
+
+*IMPORTANT*: Make sure you pass `props` to both the `constructor()` and the `super()` method of the child component (`MyComponent`). You won't be able to access `this.props.title` in `MyComponent` otherwise. If you're unfamiliar with what `super` does, check out the docs [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super). For now, it's enough to understand that you **must** pass `props`  to both the `constructor()` and `super()`. 
 
 Now, you might be wondering how props work with functions. Believe it or not, they work the same way!
 
