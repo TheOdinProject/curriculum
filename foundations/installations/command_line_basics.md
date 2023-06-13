@@ -113,6 +113,6 @@ This section contains questions for you to check your understanding of this less
 * [How do you display the name of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
 * [How do you display the contents of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
 * [How do you create a new directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
-* [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create/index.html#create-a-text-file)
+* [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
 * [How do you destroy a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
 * [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)

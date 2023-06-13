@@ -213,8 +213,7 @@ This code will behave exactly like the code from the last lesson; it just looks 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [Async and Await article](https://javascript.info/async-await) for a solid introduction to async/await. This [Async and Await examples article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of its use.
-2. Read this [Async and Await with error handling article](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) for a more in-depth look at async/await, including how to handle errors.
-3. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
+2. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
 
 </div>
 
@@ -222,12 +221,12 @@ This code will behave exactly like the code from the last lesson; it just looks 
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
- - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
- - <a class="knowledge-check-link" href="#the-async-keyword">What does the `async` keyword do?</a>
- - <a class="knowledge-check-link" href="#the-await-keyword">What does the `await` keyword do?</a>
- - <a class="knowledge-check-link" href="https://javascript.info/async-await#summary">What is returned from an `async` function?</a>
- - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">What happens when an error is thrown inside an `async` function?</a>
- - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">How can you handle errors inside an `async` function?</a>
+ - [How do you declare an `async` function?](#the-async-keyword)
+ - [What does the `async` keyword do?](#the-async-keyword)
+ - [What does the `await` keyword do?](#the-await-keyword)
+ - [What is returned from an `async` function?](https://javascript.info/async-await#summary)
+ - [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
+ - [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
 
 ### Additional Resources
 

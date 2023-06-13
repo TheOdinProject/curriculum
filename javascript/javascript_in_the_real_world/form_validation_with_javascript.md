@@ -51,8 +51,8 @@ The form doesn't need to actually submit, but you should give an error message i
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation'>Understand the importance of validating HTML forms before submitting them to a server.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation'>Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript'>Understand JavaScript Constraint Validation API provides more control and customization of form validation.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api'>Use JavaScript to write custom error messages and add custom styling to the errors.</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api'>Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.</a>
+- [Understand the importance of validating HTML forms before submitting them to a server.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
+- [Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
+- [Understand JavaScript Constraint Validation API provides more control and customization of form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
+- [Use JavaScript to write custom error messages and add custom styling to the errors.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api)
+- [Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api)

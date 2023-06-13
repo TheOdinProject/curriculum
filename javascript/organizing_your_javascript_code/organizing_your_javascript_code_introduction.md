@@ -20,4 +20,4 @@ Going through these will give us a chance to learn about a few other important c
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - The book [You Don't Know JS (YDKJS)](https://github.com/getify/You-Dont-Know-JS/tree/1st-ed#titles) is free on GitHub, and explains how Javascript works "under the hood". If you ever wondered why JavaScript works the way it does, this book is for you!
-- [Namaste JavaScript](https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP) is free JavaScript playlist which will definitely make you fall in love with the beauty of JavaScript. The concepts are very well explained and you get to know how things work behind the scenes.
+- [Namaste JavaScript](https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP) is a free JavaScript playlist which will definitely make you fall in love with the beauty of JavaScript. The concepts are very well explained and you get to know how things work behind the scenes.

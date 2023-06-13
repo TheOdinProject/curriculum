@@ -44,6 +44,6 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 
 #### Step 6: Section Feedback 
 
-1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSf_hNwIjvqcPZyl9Lx41mgJNQKp04qOro03SI8ABw4Zp7U_4w/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
+1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSf_hNwIjvqcPZyl9Lx41mgJNQKp04qOro03SI8ABw4Zp7U_4w/viewform?usp=sf_link). Getting user (you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
 
 </div>
