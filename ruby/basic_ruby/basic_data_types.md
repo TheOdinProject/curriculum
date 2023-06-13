@@ -119,7 +119,7 @@ You can access strings inside strings inside strings. Stringception! It's super 
 
 "hello"[-1]     #=> "o"
 ~~~
-In the above example we are accessing the string as an array which lets us index it using `[ ]`. For more information [click here](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
+In the above example we can access the individual characters of a string by referencing the index of the character within the string using `[ ]`. For more information on this topic click [here](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
