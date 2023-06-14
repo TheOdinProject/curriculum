@@ -277,7 +277,7 @@ ruby -v
 ruby 3.1.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ~~~
 
-If you don't see the output above, log off and log back on, then try again.
+If you don't see the output above, close and reopen the terminal window and then run the command again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 

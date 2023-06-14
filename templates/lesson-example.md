@@ -15,6 +15,11 @@ This section contains a general overview of topics that you will learn in this l
 
 The first important concept that you need to understand to be successful in CSS is the box model. It isn’t complicated, but skipping over it now will cause you much frustration down the line.
 
+<div class="lesson-note" markdown="1">
+<h4>Everything is a box </h4>
+Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. 
+</div>
+
 ### Another section 
 
 This section isn't in the original lesson, but we wanted to show what adding an additional custom section would look like.
