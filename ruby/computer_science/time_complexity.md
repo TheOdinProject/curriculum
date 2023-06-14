@@ -188,11 +188,14 @@ One such algorithm is merge sort, and it just so happens you tackle this project
 
 #### O(n&#178;) - Quadratic Complexity
 
-You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again. Therefore, when the number of items in the data increases by 1, it requires 1 extra iteration in both the outer loop and the inner loop. 2 extra items requires 2 extra iterations in the outer loop and 2 extra in the inner loop. If we are looping through an array with n items and, within each loop, looping over it again, then adding 2 extra items increases the sub-steps required from n&#178; to (n + 2)&#178;, adding an extra 2n + 2(n + 2) sub-steps. 3 extra items adds 3 extra iterations in the outer loop and 3 extra iterations in the inner loop, resulting in 3n + 3(n + 3) extra sub-steps. 4 extra items causes 4n + 4(n + 4) extra sub-steps. We hope you can see where we're going with this...
+You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again. Therefore, when the number of items in the data increases by 1, it requires 1 extra iteration in both the outer loop and the inner loop. 2 extra items requires 2 extra iterations in the outer loop and 2 extra in the inner loop. If we are looping through an array with n items and, within each loop, looping over it again, this involves a total of n&#178; sub-steps.  
+For example, if our array has 3 items, the nested loops require 3&#178; = 9 sub-steps. Adding just one more item to the array almost doubles this number to 4&#178; = 16. Adding a 5th item takes us to 5&#178; = 25 sub-steps. Then doubling the array size to 10 items increases the sub-steps from 25 to 100, so 4 times as much work needed!
+We hope you can see where we're going with this...
 
 #### O(n&#179;) - Cubic Complexity
 
-Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop, increasing the sub-steps required from n&#179; to (n + 1)&#179;. Hence there are (n + 1)&#178; + n(2n + 1) extra sub-steps required. 2 extra items adds 2 extra outer loops, 2 extra middle loops and 2 extra innermost loops, adding an extra 2(n + 2)&#178; + n(4n + 4) sub-steps. 100 items in the array require a total of 1,000,000 sub-steps. Ouch!
+Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop. When using such triply nested loops on an array of size n, we require a total of n&#179; sub-steps.  
+For example, if our array has 3 items, the triply-nested loops require a total of 3&#179; = 27 sub-steps. Adding one more item more than doubles this number to 4&#179; = 64 sub-steps. The task almost doubles again for 5 items, with 5&#179; = 125 sub-steps. Doubling our array size to 10 items means we require 10&#179 = 1000 sub-steps in total, 8 times as many as before! 100 items in the array require a total of 1,000,000 sub-steps. Ouch!
 
 #### O(2&#8319;) - Exponential Complexity
 
