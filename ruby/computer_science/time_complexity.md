@@ -60,7 +60,7 @@ So there are 3 steps for every loop iteration and it iterates 9 times which is 2
 
 Therefore, we can say our algorithm takes 34 steps to complete.
 
-While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
+While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of setting a hard default of 10.
 
 ~~~ruby
 def odd_numbers(max_number)
@@ -155,7 +155,7 @@ and wanted to know if it had the number `7`, Binary Search would guess the middl
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ~~~
 
-Therefore in just one step we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
+Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
 
 ~~~ruby
 arr = [6, 7, 8, -, -]
@@ -242,7 +242,7 @@ end
 
 In the worst case (Big O), which would happen if the item is not in the array, we would say it had linear complexity `O(N)`. This is because the `item` we are looking for is not in the array, so our code must iterate on every value. If the array input doubles in size then the worst case also means our method must double the number of iterations looking for the `item`.
 
-However, in the best-case scenario the value we are looking for will be the first item in the array. In this case our algorithm takes just one step. This has a complexity of `O(1)`. This is its Omega Complexity.
+However, in the best-case scenario the value we are looking for will be the first item in the array. In this case our algorithm takes just one step. This has a complexity of `Ω(1)`. This is its Omega Complexity.
 
 Omega Notation isn't considered as useful because it is unlikely our item will often be the first item in our data structure search, so it doesn't give us any idea how well the algorithm will scale.
 
@@ -250,13 +250,13 @@ Omega Notation isn't considered as useful because it is unlikely our item will o
 
 While Omega Notation measures the best-case scenario for an algorithm's efficiency, and Big O measures the worst case, Theta looks to give the exact value or a useful range between narrow upper and lower bounds.
 
-If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know its exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
+If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know its exact performance in all scenarios is `Θ(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
 
 This is just a simplistic explanation to try to make the topic approachable. If you do happen to be mathematically minded, then you'll find more detailed explanations with a quick search online.
 
 ### Why Big O
 
-Now we've touched on the different ways we can measure an algorithm's efficiency, you're hopefully clear on why it is that we choose to use the worst-case scenario when measuring the efficiency of that algorithm.
+Now that we've touched on the different ways of quantifying an algorithm's efficiency, hopefully it's clear why we choose to use the worst-case scenario when measuring the efficiency of that algorithm.
 
 Using a worst-case scenario we can make sure our algorithm will scale in all outcomes. If we write an algorithm that could potentially run in constant time, but could also run in linear time in the worst case, it can only scale as the input grows if it still works when the worst case does happen. You need to be confident your code won't lock up and leave users frustrated if you suddenly get an input of a million items instead of 10.
 

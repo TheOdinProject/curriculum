@@ -61,7 +61,7 @@ So there are 3 steps for every loop iteration and it iterates 9 times which is 2
 
 Therefore, we can say our algorithm takes 34 steps to complete.
 
-While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of set a hard default of 10.
+While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of setting a hard default of 10.
 
 ~~~js
 function oddNumbers(maxNumber) {
@@ -156,7 +156,7 @@ and wanted to know if it had the number `7`, Binary Search would guess the middl
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ~~~
 
-Therefore in just one step we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
+Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
 
 ~~~js
 arr = [6, 7, 8, -, -]
@@ -257,7 +257,7 @@ This is just a simplistic explanation to try to make the topic approachable. If 
 
 ### Why Big O
 
-Now we've touched on the different ways we can measure an algorithm's efficiency, it's hopefully clear on why it is that we choose to use the worst-case scenario when measuring the efficiency of that algorithm.
+Now that we've touched on the different ways of quantifying an algorithm's efficiency, hopefully it's clear why we choose to use the worst-case scenario when measuring the efficiency of that algorithm.
 
 Using a worst-case scenario we can make sure our algorithm will scale in all outcomes. If we write an algorithm that could potentially run in constant time, but could also run in linear time in the worst case, it can only scale as the input grows if it still works when the worst case does happen. You need to be confident your code won't lock up and leave users frustrated if you suddenly get an input of a million items instead of 10.
 
