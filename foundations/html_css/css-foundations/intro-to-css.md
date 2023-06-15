@@ -230,6 +230,7 @@ There's really no limit to how many combinators you can add to a rule, so `.one 
 ### Order Matters!
 
 When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
+
 ~~~css
 /* styles.css */
 .first_declared, .last_declared {
@@ -245,6 +246,7 @@ When two selectors have the same level of specificity, the rule that is defined 
   font-weight: 800;
 }
 ~~~
+
 In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
 
 ### Properties to Get Started With
