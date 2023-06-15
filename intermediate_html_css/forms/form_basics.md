@@ -502,6 +502,7 @@ Certain aspects of other elements are downright impossible to style, for example
 </div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - [Web.dev's Form Course](https://web.dev/learn/forms/)
 
