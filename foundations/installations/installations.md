@@ -220,7 +220,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/22.04/) or [Xubuntu](https://xubuntu.org/release/22-04/).
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/22.04/) or [Xubuntu](https://xubuntu.org/release/22-04/). If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.  
 
 ### Step 2: Create a Bootable Flash Drive
 
