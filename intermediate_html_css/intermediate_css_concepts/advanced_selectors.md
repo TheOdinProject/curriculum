@@ -96,7 +96,7 @@ As always don't forget to check the [docs](https://developer.mozilla.org/en-US/d
 #### Dynamic and User Action Pseudo-classes
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
 
-[`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
+[`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element when a user has made an element the focus point of the page, often by using the keyboard to tab from one element to another.
 
 <span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the user's mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop-down menu.
 
