@@ -167,9 +167,9 @@ Finally add the image to the `index.html` file:
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
 
-	<a href="pages/about.html">About</a>
+	<a href="./pages/about.html">About</a>
 
-	<img src="images/dog.jpg">
+	<img src="./images/dog.jpg">
 </body>
 ~~~
 

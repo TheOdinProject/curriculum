@@ -10,13 +10,18 @@ This section contains a general overview of topics that you will learn in this l
 *   Specificity and combining CSS selectors.
 *   How inheritance affects certain properties.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/cof994391b86aefab81df8cba?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+
 ### The Cascade of CSS
 
 Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
 
 So if you end up with some unexpected behavior like this it's either because of these default styles, not understanding how a property works, or not understanding this little thing called the cascade.
 
-The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this, three of which we'll go over to hopefully help you avoid (as many of) those frustrating "I hate CSS" moments.
+The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
+
 
 #### Specificity
 

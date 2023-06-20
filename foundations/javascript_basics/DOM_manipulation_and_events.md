@@ -110,7 +110,7 @@ div.setAttribute('style', 'color: blue; background: white;');
 // adds several style rules
 ~~~
 
-See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
+See DOM Enlightenment's [section on CSS Style rules](https://domenlightenment.com/#6.2) for more info on inline styles.
 
 Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need to use camelCase or you'll need to use bracket notation instead of dot notation.
 
@@ -118,7 +118,7 @@ Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
-div.style.cssText = "background-color: white;" // ok in a string
+div.style.cssText = "background-color: white;" // sets the div's background-color by assigning a CSS string
 ~~~
 
 #### Editing Attributes

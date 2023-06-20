@@ -208,7 +208,7 @@ Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It
 
 #### Object.getPrototypeOf() vs. .__proto__ vs. [[Prototype]]
 
-Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. But however, the same code can thus be rewritten to become:
+Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. However, the same code can thus be rewritten to become:
 
 ~~~javascript
 // Don't do this!
@@ -227,7 +227,7 @@ Now, you may also have a question - what use is an object's `prototype`? What is
 We can narrow it down to two reasons:
 
 1. We can define properties and functions common among all objects on the `prototype` to save memory. Defining every property and function takes up a lot of memory, especially if you have a lot of common properties and functions, and a lot of created objects! Defining them on a centralized, shared object which the objects have access to, thus saves memory.
-1. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we know that can say that the `player1` or `player2` objects _inherit_ from the `Player.prototype` object, like with the `.sayHello` function, by being able to access it.
+1. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we can say that the `player1` and `player2` objects _inherit_ from the `Player.prototype` object, which allows them to access functions like `.sayHello`.
 
 Let's now try to do the following:
 

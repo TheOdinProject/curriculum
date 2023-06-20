@@ -10,6 +10,11 @@ This section contains a general overview of topics that you will learn in this l
 - Understand how to use the class and ID attributes.
 - Add styles to specific elements using the correct selectors.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
+
 ### Basic Syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
@@ -79,7 +84,7 @@ Class selectors will select all elements with the given class, which is just an 
 }
 ~~~
 
-Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be unique, so you can use the same class on as many elements as you want.
+Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
@@ -105,7 +110,7 @@ Instead of a period, we use a hashtag immediately followed by the case-sensitive
 
 The major difference between classes and IDs is that an element can only have **one** ID. An ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
 
-#### Grouping Selector
+#### The Grouping Selector
 
 What if we have two groups of elements that share some of their style declarations?
 
@@ -218,9 +223,31 @@ So something like `.ancestor .child` would select an element with the class `chi
 }
 ~~~
 
-In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) won't be. Was your guess correct?
+In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn't be. Was your guess correct?
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
+
+### Order Matters!
+
+When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
+
+~~~css
+/* styles.css */
+.first_declared, .last_declared {
+  background_color: rgb(200, 50, 150);
+  font-weight: 800;
+}
+.first_declared {
+  color: rgb(50, 50, 200)
+  font-size: 32px;
+}
+.last_declared {
+  font-size: 14px;
+  font-weight: 800;
+}
+~~~
+
+In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
 
 ### Properties to Get Started With
 
@@ -236,8 +263,14 @@ Almost. Both of these properties can accept one of several kinds of values. A co
 p {
   /* hex example: */
   color: #1100ff;
+}
+
+p {
   /* rgb example: */
   color: rgb(100, 0, 127);
+}
+
+p {
   /* hsl example: */
   color: hsl(15, 82%, 56%);
 }
@@ -371,7 +404,7 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
-- <a class="knowledge-check-link" href="#grouping-selector">How would you apply a single rule to two different selectors?</a>
+- <a class="knowledge-check-link" href="#the-grouping-selector">How would you apply a single rule to two different selectors?</a>
 - <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
 - <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
 - <a class="knowledge-check-link" href="#adding-css-to-html">What are the names of the three ways to add CSS to HTML?</a>

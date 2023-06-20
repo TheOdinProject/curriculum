@@ -11,6 +11,10 @@ This section contains a general overview of topics that you will learn in this l
 *   You'll learn which elements default to `block` and which elements default to `inline`.
 *   You'll learn what divs and spans are.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/co5024997a7e46c232d9abe55?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+
 ### Block vs Inline
 
 Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
@@ -73,3 +77,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
+*   Watch ["this" ](https://www.youtube.com/watch?v=nfXRw06FgK8) simple short video on What does the term "Normal Flow" Mean In CSS

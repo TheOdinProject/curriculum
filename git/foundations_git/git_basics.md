@@ -210,4 +210,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+-   [Complete Git and GitHub Tutorial from Basics to Advance](https://www.youtube.com/watch?v=apGV9Kg7ics) -  by Kunal Kushwaha
