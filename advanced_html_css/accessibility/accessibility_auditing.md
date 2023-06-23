@@ -31,7 +31,7 @@ Of course, one of the best ways to check the accessibility of your websites is t
     * [Accessibility features reference](https://developer.chrome.com/docs/devtools/accessibility/reference/#pane), starting from the Accessibility pane section, provides a brief overview of Chrome's accessibility features in the DevTools. 
     * [Emulate vision deficiencies](https://developer.chrome.com/blog/new-in-devtools-83/#vision-deficiencies) from the Chrome 83 update page. 
     * The [Open the Issues tab](https://developer.chrome.com/docs/devtools/issues/#open) section. You can ignore any mentions of anything that isn't accessibility related on this page, as we just want you to know how to open this tab in your DevTools. Once you do, you'll be able to see a11y issues in addition to any other issues found.
-    * Although there will be differences between the browsers, such as the value of the role property or how a11y properties are presented, also check out the "Features of the Accessibility panel" section mentioned below for MDN's documentation. There is some useful information that, while more tailored to Firefox, can still be useful to a Chrome user.
+    * Although there will be differences between different browsers, such as the value of the role property or how a11y properties are presented, check out [the "Features of the Accessibility panel" section in MDN's documentation](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html#features-of-the-accessibility-panel). There is useful information that, while more tailored to Firefox, may still be useful for Chrome users.
 </div>
 
 ### Knowledge Check
