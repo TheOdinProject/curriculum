@@ -28,7 +28,6 @@ A list of portfolios of professional developers. Students should analyze these s
   * [Ben Adam](https://benadam.me/)
   * [Seb Kay](https://sebkay.com/)
   * [Jonny MacEachern](https://jonny.me/)
-  * [Jack Jeznach](https://jacekjeznach.com/)
   * [Andriy Chemerynskiy](https://andrewchmr.com/)
   * [Chris Ota's Portfolio](https://www.otadesigns.com/)
   * [Pierre Nel](https://pierre.io/)
