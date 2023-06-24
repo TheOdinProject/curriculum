@@ -67,7 +67,7 @@ npm run dev
 
 Provided that everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page: 
 
-![Vite React template homepage](./setting_up_a_react_environment/vite_react_homepage.png)
+![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/73199c4e9e43e8d87f8759e026c13b63fcfe73c7/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
 
 Congratulations! You've created your first React app.
 
