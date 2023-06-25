@@ -12,6 +12,23 @@ This section contains a general overview of topics that you will learn in this l
 
 CUSTOM SECTION CONTENT.
 
+#### Note box variations
+
+<div class="lesson-note" markdown="1">
+<h4>A title is optional</h4>
+A sample note box.
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+<h4>A title is optional</h4>
+A sample note box, variation: tip.
+</div>
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+<h4>A title is optional</h4>
+A sample note box, variation: warning.
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">

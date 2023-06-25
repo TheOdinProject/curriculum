@@ -91,7 +91,7 @@ Lastly, to add the navbar functionality we can just add it straight into the mai
     <div class="navbar-item">
       <div class="buttons">
         <% if current_user %>
-          <%= link_to "Logout", destroy_user_session_path, method: :delete, class: 'button is-link' %>
+          <%= link_to "Logout", destroy_user_session_path, data: { turbo_method: :delete }, class: 'button is-link' %>
         <% else %>
           <%= link_to "Login", new_user_session_path, class: 'button is-link' %>
         <% end %>

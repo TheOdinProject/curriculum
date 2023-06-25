@@ -10,6 +10,11 @@ This section contains a general overview of topics that you will learn in this l
 - Understand how to use the class and ID attributes.
 - Add styles to specific elements using the correct selectors.
 
+For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
+
+<iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+
+
 ### Basic Syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
@@ -221,6 +226,28 @@ So something like `.ancestor .child` would select an element with the class `chi
 In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn't be. Was your guess correct?
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
+
+### Order Matters!
+
+When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
+
+~~~css
+/* styles.css */
+.first_declared, .last_declared {
+  background_color: rgb(200, 50, 150);
+  font-weight: 800;
+}
+.first_declared {
+  color: rgb(50, 50, 200)
+  font-size: 32px;
+}
+.last_declared {
+  font-size: 14px;
+  font-weight: 800;
+}
+~~~
+
+In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
 
 ### Properties to Get Started With
 
