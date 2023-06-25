@@ -12,7 +12,7 @@ As mentioned in the [introduction to Git](https://www.theodinproject.com/paths/f
 
 If you do not know how to set up a repository, follow the instructions found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how.
 
-1.  Create a new repo for this project on GitHub.com and call it `odin-recipes`.
+1.  Create a new repo for this project on GitHub.com and call it `odin-recipes` and choose the `public` option instead of the default private.
 
 2.  Move that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
 
@@ -97,6 +97,6 @@ There are a couple of ways to go about doing this, but the simplest is this:
 -   Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
     ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/01.png)
 -   Click on **Pages** on the left side bar.
--   Change the **Branch** from _none_ to _main branch_ and click **Save**.
+-   Change the **Branch** from _none_ to _main branch_ and click **Save**. 
 -   It may take a few minutes (The GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
 
