@@ -19,24 +19,40 @@ Yes! Let me give you a quick list of reasons why:
 -   Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
 
 -   Having a good commit message history will also be helpful if you come back to a project you were working on after stepping away from it for a while. You likely won't remember your thought process and changes made when initially writing out the code. 
-## Example of a bad commit 
+
+### Bad vs. Good Commits
+
+When it comes to writing commits, it is crucial to know how to write them effectively. Here's an example of a bad commit message:
 
 `fix a bug`
 
-Even though it describes what you did, the message is too vague. Developers would wonder what bug did you fix, and how you went about fixing it. 
+Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will have a body and a subject. Here is a template to keep in mind when creating your commit message.
+
+## Subject
+An abbreviation that specifies an action that your line of code is doing(e.g., feat and fix) 
+
+`Commit type:`
+
+## Body
+A concise yet clear description of what you did 
+
+`Commit type: body`
+
+Now that we learned the secret to creating a good commit message, let's try and fix the commit message from earlier:
+
+`fix: Add missing link and alt text to company's logo.`
+
+Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
+
+* Provides a subject that specifies your code's action (e.g., "fix:")
+* Contains a body that provides a concise yet clear description of what is created (e.g., "Add missing link and alt text to company's logo.")
+
+
 
 ### When to Commit
 
 A good way to view a commit is like a “snapshot” of your code at the moment that it was made. That version of your code up to that point will be saved for you to revert back to or look back at. 
 
-## Example of a good commit 
-Syntax:  `commit type: A detailed description of what you did. This change makes the code more [easy to understand, maintainable, performant, etc.].`
-
-Now, let's see how it looks when we apply the above example to the previous example: 
-
-`fix: Added missing link and alt text to company's logo. This change  that screen readers can describe the image to users.`
-
-Unlike the previous version, this commit specifies the bug that is being fixed, how it was fixed, and why.   
 
 When writing code, it's considered best practice to commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere.
 
