@@ -37,11 +37,11 @@ Because `justify-content` and `align-items` are based on the main and cross axis
 
 Check out this Scrim for an interactive demo of how `justify-content` and its different properties behave:
 
-<iframe src="https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 This next Scrim covers the behavior of `align-items`, how to perfectly center an element on a page using flexbox and much more:
 
-<iframe src="https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 
 #### Gap
