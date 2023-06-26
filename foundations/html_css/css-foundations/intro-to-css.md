@@ -234,7 +234,7 @@ When two selectors have the same level of specificity, the rule that is defined 
 ~~~css
 /* styles.css */
 .first_declared, .last_declared {
-  background_color: rgb(200, 50, 150);
+  background-color: rgb(200, 50, 150);
   font-weight: 800;
 }
 .first_declared {
