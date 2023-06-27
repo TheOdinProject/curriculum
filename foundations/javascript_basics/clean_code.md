@@ -2,7 +2,7 @@
 
 You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on _reading_ code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
 
-This means that learning how to write clean and readable code is crucial. It not only makes your life easier but also improves the experiences of your colleagues and collaborators. No one wants to be that coworker whose code is a nightmare to decipher. Development is a team effort after all.
+This means that learning how to write clean and readable code is crucial. It not only makes your life easier but also improves the experiences of your colleagues and collaborators. No one wants to be _that_ coworker whose code is a nightmare to decipher. Development is a team effort after all.
 
 This lesson aims to provide you with guidelines to make your code more readable and understandable.
 
@@ -69,14 +69,15 @@ Now, imagine having a conversation with someone about the bad example. You come 
 Variables of the same type should have consistent naming. Consider the following examples from a game of Tic-Tac-Toe:
 
 ~~~javascript
-// Good
-function getUserScore();
-function fetchPlayerName();
-function retrievePlayer1Tag();
- // Bad
+ // Good
 function getPlayerScore();
 function getPlayerName();
 function getPlayerTage();
+
+// Bad
+function getUserScore();
+function fetchPlayerName();
+function retrievePlayer1Tag();
 ~~~
 
 In the first example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The second example maintains consistency in both variable naming and the verbs used.
@@ -135,9 +136,9 @@ Throughout this lesson most of our variables and functions (at least on the good
 
 ### Indentation and line length
 
-Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
+Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
-What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other.
+What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the Additional Resouces.
 
 #### Line length
 
@@ -159,7 +160,17 @@ Again, different style guides will recommend different options for this one, but
 
 ### Semicolons
 
-Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons. Just do it!
+Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.
+
+As with a lot of the things covered earlier, inconsistency is the worst approach to take.
+
+### In conclusion
+
+Nobody expects you to remember all of these points in all the code you'll write going forward. The important thing is to be aware of these ideas and why they are important. Try to apply them the best you can now and maybe refer back to this lesson at some point in the future.
+
+Learning to write clean code is not so much about following hard rules but a process of constant improvement, one that continues well into your career as a professional developer. This lesson is something of a primer, a starting point on that journey.
+
+
 
 ### Assignment
 
