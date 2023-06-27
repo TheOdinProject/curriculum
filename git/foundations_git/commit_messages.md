@@ -26,28 +26,30 @@ When it comes to writing commits, it is crucial to know how to write them effect
 
 `fix a bug`
 
-Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will explain the why behind your changes. In other words what problem your changes solve and how it solves them. 
+Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will explain the why behind your changes. In other words, a commit message describes what problem your changes solve and how it solves them. 
 
-Effective commits consist of two separate parts, a subject and a body:
+Effective commits consist of two separate parts: a subject, and a body:
 
 ## Subject
-An abbreviation that specifies an action that your line of code is doing(e.g., feat and fix) 
+A brief summary of the change you made to the project.  **Note:** GitHub has a 50-character limit so we recommend keeping your commits' subject to within this amount. 
 
-`Commit type:`
+`This is the change I made to the codebase.`
 
 ## Body
-A concise yet clear description of what you did 
+A concise yet clear description of what you did.  
 
-`Commit type: body`
+`Describe the problem that your changes solve and how in 50 words or less`
+
 
 Now that we learned the secret to creating a good commit message, let's try and fix the commit message from earlier:
 
-`fix: Add missing link and alt text to company's logo.`
+`Add missing link and alt text to company's logo`
+`Screen readers won't read the images to users with disabilities without this information`
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
-* Provides a subject that specifies your code's action (e.g., "fix:")
-* Contains a body that provides a concise yet clear description of what is created (e.g., "Add missing link and alt text to company's logo.")
+* Provides a subject that specifies your code's action (e.g., "Add missing link and alt text company's logo")
+* Contains a body that provides a concise yet clear description of what is created (e.g., "Screen readers won't read the images to users with disabilities without this information")
 
 
 
