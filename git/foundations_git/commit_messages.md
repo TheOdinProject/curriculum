@@ -26,7 +26,9 @@ When it comes to writing commits, it is crucial to know how to write them effect
 
 `fix a bug`
 
-Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will have a body and a subject. Here is a template to keep in mind when creating your commit message.
+Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will explain the why behind your changes. In other words what problem your changes solve and how it solves them. 
+
+Effective commits consist of two separate parts, a subject and a body:
 
 ## Subject
 An abbreviation that specifies an action that your line of code is doing(e.g., feat and fix) 
