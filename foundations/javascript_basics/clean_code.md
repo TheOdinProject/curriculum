@@ -164,13 +164,85 @@ Semicolons are _mostly_ optional in JavaScript because the JS compiler will auto
 
 As with a lot of the things covered earlier, inconsistency is the worst approach to take.
 
+
+### About comments
+
+Comments are a great tool. But like any good tool, they can be misused. Especially for someone early in their coding journey, it might be tempting to have comments that explain *everything* the code is doing. This is not a good practice.
+
+Next we'll look into some common pitfalls in commenting and *why* they are pitfalls.
+
+#### Don't comment when you should be using git
+
+t might be tempting to have comments in your code that explain the changes or additions you have made. For example:
+
+   ~~~javascript
+ /**
+ * 2023-01-10: Removed unnecessary code that was causing confusion (RM)
+ * 2023-03-05: Simplified the code using basic techniques (JP)
+ * 2023-05-15: Removed complex type-checking to make the code easier to understand (LI)
+ * 2023-08-22: Added a new function to combine values with improved type checks (JR)
+ */
+   ~~~
+
+The problem with this approach is that you already have a tool to track changes - git! Keeping track of these comments will become increasingly difficult, and you (as well as your team) will have an incomplete picture of what has happened. Your files will also contain unnecessary information that doesn't belong to them.
+
+By using git, all this information will be neatly organized in the repository and readily accessible with `git log`.
+
+The same applies to code that you have determined to be unnecessary. If you need it again in the future, just turn to your git commits. There's no reason to keep it in your files as unused clutter. You should never have something like this in your files:
+
+   ~~~javascript
+theFunctionInUse();
+// doThingies();
+// someMoreThingies();
+// yetMoreThingies():
+   ~~~
+
+
+#### Tell why, not how
+
+The purpose of comments is not to provide pseudo code that duplicates your actual code. Good comments explain the reasons behind a piece of code, rather than detailing how it works. Let's look at an example to understand what this means.
+
+   ~~~javascript
+// Bad Example
+
+// This function increments the value of i by 1
+function incrementI(i) {
+  i = i + 1; // Add one to i
+  return i;
+}
+
+// Better Example
+
+// This function increases the value of index to move to the next element
+function incrementI(i) {
+  i = i + 1; 
+  return i;
+}
+
+// Good Example - no comments at all!
+
+function moveToNextElement(index) {
+  index = index + 1;
+  return index;
+}
+ ~~~
+
+In the bad example, the comment explains what the code does - it increments by one. However, this information is already evident from the code itself, making the comment redundant. What's missing is an explanation of why this incrementing is necessary.
+
+In the better example, the comment clarifies the purpose of the function: moving to the next element. That's good but we can do *even* better, as we see in the good example.
+
+In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations.
+
+Do you see what's happening here? There are various ways to make code more readable, and the more you employ the practices learned earlier, the less you will need to write comments.
+
+This his doesn't mean good code should completely lack comments. In many situations, well-placed comments can greatly help understanding. But the cleaner your code is, the less you need them.
+
+
 ### In conclusion
 
-Nobody expects you to remember all of these points in all the code you'll write going forward. The important thing is to be aware of these ideas and why they are important. Try to apply them the best you can now and maybe refer back to this lesson at some point in the future.
+Nobody expects you to memorize all of these points for every line of code you write in the future. The key is to understand these concepts and their significance. Attempt to apply them the best you can, and consider revisiting this lesson in the future if needed.
 
-Learning to write clean code is not so much about following hard rules but a process of constant improvement, one that continues well into your career as a professional developer. This lesson is something of a primer, a starting point on that journey.
-
-
+Learning to write clean code isn't about rigidly following rules; it's an ongoing process of constant improvement that extends throughout your career as a professional developer. This lesson is meant to serve as a primer, a starting point for your journey.
 
 ### Assignment
 
