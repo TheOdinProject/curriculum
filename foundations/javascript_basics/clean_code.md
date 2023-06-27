@@ -268,4 +268,3 @@ This section contains helpful links to related content. It isn’t required, so 
 - THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
 - [Airbnb style guide](https://github.com/airbnb/javascript)
 - [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)
-- [Ryan McDermot's Clean Code](https://github.com/ryanmcdermott/clean-code-javascript) 
