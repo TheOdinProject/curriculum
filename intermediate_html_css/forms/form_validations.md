@@ -125,7 +125,7 @@ To add a pattern validation, we give the form control a `pattern` attribute with
 Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format".
 This isn't very useful since it doesn't communicate how to fix the issue.
 
-It is also good practice to use a `placeholder` attribute to show users an example of the expected pattern they need to enter:
+It is a good practice to use a `placeholder` attribute to show users an example of the expected pattern they need to enter:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYzLNXv" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYzLNXv">
