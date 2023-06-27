@@ -39,7 +39,7 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it.
+1.  [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it to `11:37`.
 2.  Take a look at the [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/). You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
 3.  Go through the [Emmet documentation](https://docs.emmet.io/). Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 
