@@ -57,7 +57,6 @@ This section contains questions for you to check your understanding of this less
 
 *   [What HTML element is used to create an unordered list?](#unordered-lists)
 *   [What HTML element is used to create an ordered list?](#ordered-lists)
-*   [What HTML element is used to create list items within both unordered and ordered lists?](#li)
 
 ### Additional Resources
 
