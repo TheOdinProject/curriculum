@@ -37,7 +37,7 @@ A brief summary of the change you made to the project.  **Note:** GitHub has a 7
 
 `This is the change I made to the codebase.`
 
-## Body
+#### Body
 A concise yet clear description of what you did.  
 
 ~~~
