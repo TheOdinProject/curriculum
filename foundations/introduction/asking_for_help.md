@@ -1,4 +1,4 @@
-### Introduction 
+### Introduction
 
 Along your programming journey, you will inevitably need to ask questions in an online coding community like ours, or in conversations with your colleagues. While asking questions may seem rather simple, in a programming environment it is essential to ask well formed questions with as much context as needed so you can get the most out of asking for help. In essence, “help others help you!” This lesson will provide you with the tools to effectively ask questions in communities such as our Discord chat, Stack Overflow, and in the workplace!
 
@@ -12,19 +12,19 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Tips for Getting the Best Help Possible
 
-#### <span id="provide-code-knowledge-check">Always Provide Your Code and the Surrounding Context</span>
+#### Always Provide Your Code and the Surrounding Context
 
 You can ask theoretical, vague questions, but you’re going to get theoretical, vague answers that probably won't be helpful to you and cause frustration on both ends as you and the person helping you dance around the real issue. The only time code doesn’t need to be provided is if you are asking a purely conceptual question outside of a specific project or code snippet. Additionally, provide as much context as is necessary, and zero in on the specific problem, such as pointing people to a specific function or line number in your code so people can give you the most relevant answers and quickly assist you.
 
 #### Ask About the Problem at Hand, Not the Solution Itself
 
-A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below: 
- 
+A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below:
+
 -   “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
 
-Keep in mind that you’re actually supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this: 
- 
--   “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.” 
+Keep in mind that you’re actually supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this:
+
+-   “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.”
 
 In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
 
@@ -37,22 +37,20 @@ People who volunteer in coding communities are here to help! But a question you 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1.  Read and bookmark [this amazing article by Gordon Zhu](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
-2.  Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions. 
-3.  Check out [this article](https://stackoverflow.com/help/how-to-ask) from the world’s most popular programming help resource, Stack Overflow.
-4.  While asking for help is encouraged, it's important to avoid becoming a "help vampire" and be respectful of the communities or persons you are asking for help. [This resource](https://slash7.com/2006/12/22/vampires/) goes in depth to identify what a "help vampire" is, gives those who help others the tools to empower folks to ask questions effectively, and help the "help vampire" effectively. 
+1.  [Don't ask to ask, just ask](https://dontasktoask.com/) demonstrates the importance of just asking your question and not asking to ask your question.
+2.  Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
+3.  Read and bookmark our community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
 </div>
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   [Name at least one thing your question should always include.](#provide-code-knowledge-check)
 *   [Describe the “XY Problem”.](https://xyproblem.info/)
-*   [Describe three attributes of a "help vampire".](https://slash7.com/2006/12/22/vampires/)
+*   [Name the 5 things your question should include.](https://www.theodinproject.com/guides/community/how_to_ask)
 
 ### Additional Resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
- 
+
 *   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
