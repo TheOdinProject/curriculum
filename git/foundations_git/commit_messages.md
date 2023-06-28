@@ -57,7 +57,7 @@ Screen readers won't read the images to users with disabilities without this inf
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
 * Provides a subject that specifies your code's action (e.g., "Add missing link and alt text company's logo")
-* Contains a body that provides a concise yet clear description of what is created (e.g., "Screen readers won't read the images to users with disabilities without this information")
+* Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information")
 
 
 
