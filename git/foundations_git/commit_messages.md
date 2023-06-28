@@ -38,7 +38,9 @@ A brief summary of the change you made to the project.  **Note:** GitHub has a 7
 ## Body
 A concise yet clear description of what you did.  
 
-`Describe the problem that your changes solve and how in 50 words or less`
+~~~
+Describe the problem your commit solves and how.
+~~~
 
 
 Now that we learned the secret to creating a good commit message, let's try and fix the commit message from earlier:
