@@ -35,7 +35,9 @@ Effective commits consist of two separate parts: a subject, and a body:
 #### Subject
 A brief summary of the change you made to the project.  **Note:** GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount. 
 
-`This is the change I made to the codebase.`
+~~~
+This is the change I made to the codebase.
+~~~
 
 #### Body
 A concise yet clear description of what you did.  
