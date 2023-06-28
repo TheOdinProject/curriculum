@@ -24,7 +24,9 @@ Yes! Let me give you a quick list of reasons why:
 
 When it comes to writing commits, it is crucial to know how to write them effectively. Here's an example of a bad commit message:
 
-`fix a bug`
+~~~
+fix a bug
+~~~
 
 Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will explain the why behind your changes. In other words, a commit message describes what problem your changes solve and how it solves them. 
 
