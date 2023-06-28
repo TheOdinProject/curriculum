@@ -47,7 +47,11 @@ Describe the problem your commit solves and how.
 
 Now that we learned the secret to creating a good commit message, let's try and fix the commit message from earlier:
 
-`Add missing link and alt text to company's logo`
+~~~git
+Add missing link and alt text to company's logo
+
+Screen readers won't read the images to users with disabilities without this information
+~~~
 `Screen readers won't read the images to users with disabilities without this information`
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
