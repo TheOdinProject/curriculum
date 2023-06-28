@@ -14,7 +14,9 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Always Provide Your Code and the Surrounding Context
 
-You can ask theoretical, vague questions, but you’re going to get theoretical, vague answers that probably won't be helpful to you and cause frustration on both ends as you and the person helping you dance around the real issue. The only time code doesn’t need to be provided is if you are asking a purely conceptual question outside of a specific project or code snippet. Additionally, provide as much context as is necessary, and zero in on the specific problem, such as pointing people to a specific function or line number in your code so people can give you the most relevant answers and quickly assist you.
+When asking a question it is essential to provide your code, error message, terminal command, server output, etc. You should provide as much context as possible and zero in on the specific problem, such as pointing people to a specific function or line number in your code. You should try to make it as easy as possible for others to help you.
+
+If your question does not provide any code or other relevant information, you will only receive theoretical and vague answers. This often causes frustration for everyone. You may become frustrated because the answers are not helpful. Those helping may become frustrated because as you add new information, the meaning of your original question changes and they wasted time trying to answer it. If you truly want to ask a purely conceptual question, you should indicate this in your question.
 
 #### Ask About the Problem at Hand, Not the Solution Itself
 
