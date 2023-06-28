@@ -54,7 +54,6 @@ Add missing link and alt text to the company's logo
 
 Screen readers won't read the images to users with disabilities without this information
 ~~~
-`Screen readers won't read the images to users with disabilities without this information`
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
