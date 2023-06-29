@@ -160,7 +160,7 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 
 <div class="lesson-note" markdown="1">
 
-#### Note: VSCode shortcut for comments 
+ **Note: VSCode shortcut for comments** 
 
 Let's be honest, constantly typing `<!--` and `-->` tags on your keyboard takes too long. So, here are some keyboard shortcuts you can use to save you time and ultimately a headache:
 
