@@ -162,7 +162,7 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 
  **VSCode keyboard shortcut** 
 
-If you find tying out the Comments syntax tiring, the following shortcut will help you quickly create a new comment, convert any line to a comment, or uncomment any line:
+If you find tiring out the comments syntax tiring, the following shortcut will help you quickly create a new comment, convert any line to a comment, or uncomment any line:
 
 - Mac Users: <kbd>CMD</kbd> + <kbd>/</kbd> 
 - Windows and Linux Users: <kbd>CRTL</kbd> + <kbd>/</kbd>
