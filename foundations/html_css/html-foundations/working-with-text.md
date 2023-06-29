@@ -163,7 +163,7 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 Let's be honest, constantly typing `<!--` and `-->` tags on your keyboard takes too long. So, here are some keyboard shortcuts you can use to save you time and ultimately a headache:
 
 1. **Mac Users:**   Command button and forward slash. Basically, <kbd>⌘</kbd> +    <kbd>/</kbd> 
-2. **Windows and Linux Users**: CTRL button and foward slash. Basically, CRTL /
+2. **Windows and Linux Users**: CTRL button and foward slash. Basically, <kbd>CRTL</kbd> + <kbd>/</kbd>
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
