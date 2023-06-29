@@ -158,6 +158,12 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+### Keyboard Shortcuts for HTML Comments
+
+Let's be honest, constantly typing `<!--` and `-->` tags on your keyboard takes too long. So, here are some keyboard shortcuts you can use to save you time and ultimately a headache:
+
+1. **Mac Users:**   Command button and forward slash. Basically, ⌘ Command  / 
+2. **Windows and Linux Users**: CTRL button and foward slash. Basically, CRTL /
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
