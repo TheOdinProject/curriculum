@@ -2,8 +2,6 @@
 
 You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on _reading_ code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
 
-// Refactor the below paragraph so that people won't be mortified that they write bad code
-
 Don't think of these principles as something you need to master immediately. Everybody writes messy code sometimes, even professionals. What we want to do here is give you some guidelines that can help improve the readability of your code as you go along. The more you write code, the better it will become, both in terms of readability and other aspects.
 
 Test out these ideas and try to incorporate them into your thought process while writing code, but don't beat yourself up for not writing elegant, crystal-clear code. Focus on gradual improvement, not perfection.
@@ -257,9 +255,9 @@ _This doesn't mean good code should lack comments_. In many situations, well-pla
 
 ### In conclusion
 
-Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, so don't beat yourself up over it. Keep these ideas in mind and with time and patience, your code will start to be more clean.
+Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, so there's no point in beating yourself up over it. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
-What we mean is that learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
+Learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
 
 ### Assignment
 
