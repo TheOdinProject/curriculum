@@ -158,6 +158,16 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+<div class="lesson-note" markdown="1">
+
+ **VSCode keyboard shortcut** 
+
+If you find typing out the comments syntax tiring, the following shortcut will help you quickly create a new comment, convert any line to a comment, or uncomment any line:
+
+- Mac Users: <kbd>CMD</kbd> + <kbd>/</kbd> 
+- Windows and Linux Users: <kbd>CRTL</kbd> + <kbd>/</kbd>
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
