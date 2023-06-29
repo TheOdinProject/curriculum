@@ -307,7 +307,7 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations, field names, or file names:
+literally. Use them for short code quotations, field names, keyboard shortcuts, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
@@ -315,6 +315,8 @@ Write these in the `script` tag of a skeleton HTML file.
 ...which is why we can call `taco.printString()` but not `taco.capitalizeString()`.
 
 Create a new file named `styles.css` first.
+
+...by pressing `CTRL + ALT + T` on your keyboard
 ~~~
 
 ### Codeblocks
