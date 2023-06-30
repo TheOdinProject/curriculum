@@ -51,7 +51,7 @@ This section contains questions for you to check your understanding of this less
 *   [Describe the “XY Problem”.](https://xyproblem.info/)
 *   [Name the 5 things your question should include.](https://www.theodinproject.com/guides/community/how_to_ask)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
