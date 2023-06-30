@@ -415,30 +415,35 @@ In order to properly add images to a lesson, follow the instructions in our [Add
 
 For keyboard shortcuts we use the HTML keyboard input element `<kbd>`.
 
+Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+```html
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+``` 
+
+### Style standardisation
+
 - Use the HTML `<kbd>` tag for individual keys:
 
-~~~markdown 
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd>
-~~~
+  ~~~markdown 
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
+  ~~~
 
 - Use capitalized common abbreviations for the keys and avoid using symbols like `⌘`:
 
-~~~markdown 
-<kbd>Cmd</kbd>
-<kbd>Alt</kbd>
-<kbd>B</kbd>
-<kbd>Opt</kbd>
-~~~
+  ~~~markdown 
+  <kbd>Cmd</kbd>
+  <kbd>Alt</kbd>
+  <kbd>B</kbd>
+  <kbd>Opt</kbd>
+  ~~~
 
 - Use symbols for character keys instead of spelling out the symbol like `period`:
 
-~~~markdown 
-<kbd>.</kbd>
-<kbd>,</kbd>
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
-~~~
-
-`<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>` will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+  ~~~markdown 
+  <kbd>.</kbd>
+  <kbd>,</kbd>
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+  ~~~
 
 ## Codepen embeds
 
