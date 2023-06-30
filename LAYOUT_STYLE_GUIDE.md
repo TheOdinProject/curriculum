@@ -316,8 +316,6 @@ Write these in the `script` tag of a skeleton HTML file.
 ...which is why we can call `taco.printString()` but not `taco.capitalizeString()`.
 
 Create a new file named `styles.css` first.
-
-...by pressing `CTRL + ALT + T` on your keyboard
 ~~~
 
 ### Codeblocks
