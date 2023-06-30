@@ -419,7 +419,7 @@ Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kb
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
 ``` 
 
-### Style standardisation
+### Style standardization
 
 - Use the HTML `<kbd>` tag for individual keys:
 
