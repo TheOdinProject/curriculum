@@ -14,9 +14,9 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Always Provide Your Code and the Surrounding Context
 
-When asking a question it is essential to provide your code, error message, terminal command, server output, etc. You should provide as much context as possible and zero in on the specific problem, such as pointing people to a specific function or line number in your code. You should try to make it as easy as possible for others to help you.
+When asking a question, it is essential to provide your code, error message, terminal command, server output, etc. You should provide as much context as possible and zero in on the specific problem, such as pointing people to a specific function or line number in your code. Providing this relevant information makes it easy for others to help you.
 
-If your question does not provide any code or other relevant information, you will only receive theoretical and vague answers. This often causes frustration for everyone. You may become frustrated because the answers are not helpful. Those helping may become frustrated because as you add new information, the meaning of your original question changes and they wasted time trying to answer it. If you truly want to ask a purely conceptual question, you should indicate this in your question.
+If your question does not provide any code or other relevant information, it will be difficult for others to help you. In order to fully understand your question, there will be a lot of unnecessary back and forth conversation. This can be discouraging for you because any answers with incomplete information will not solve your problem. This process can be frustrating for those helping because the meaning of your original question changes as you add more context to it. If you truly want to ask a conceptual question, you should indicate this as part of your question.
 
 #### Ask About the Problem at Hand, Not the Solution Itself
 
