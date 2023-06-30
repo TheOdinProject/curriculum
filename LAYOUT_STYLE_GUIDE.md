@@ -421,7 +421,7 @@ Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kb
 
 ### Style standardization
 
-- Use the HTML `<kbd>` tag for individual keys:
+- Use separate `<kbd>` elements for individual keys:
 
   ~~~markdown 
   <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
