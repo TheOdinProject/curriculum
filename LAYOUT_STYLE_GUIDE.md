@@ -416,6 +416,7 @@ In order to properly add images to a lesson, follow the instructions in our [Add
 For keyboard shortcuts we use the HTML keyboard input element `<kbd>`.
 
 Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+
 ```html
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
 ``` 
