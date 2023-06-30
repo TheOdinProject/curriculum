@@ -20,6 +20,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Code](#code)
 1. [Links](#links)
 1. [Images](#images)
+1. [Keyboard shortcuts](#keyboard-shortcuts)
 1. [Codepen embeds](#codepen-embeds)
 1. [Maintainer instructions](#maintainer-instructions)
 1. [Mermaid diagrams](#mermaid-diagrams)
@@ -307,7 +308,7 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations, field names, keyboard shortcuts, or file names:
+literally. Use them for short code quotations, field names, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
@@ -409,6 +410,35 @@ Images in Markdown follow the same syntax as links, except they begin with an ex
 The text in square brackets will be included as the image's alt text. Similar to link titles, the alt text should be informative, but shouldn't be overly verbose.
 
 In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page to get a statically URL as seen in the codeblock above.
+
+## Keyboard shortcuts
+
+For keyboard shortcuts we use the HTML keyboard input element `<kbd>`.
+
+- Use the HTML `<kbd>` tag for individual keys:
+
+~~~markdown 
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd>
+~~~
+
+- Use capitalized common abbreviations for the keys and avoid using symbols like `⌘`:
+
+~~~markdown 
+<kbd>Cmd</kbd>
+<kbd>Alt</kbd>
+<kbd>B</kbd>
+<kbd>Opt</kbd>
+~~~
+
+- Use symbols for character keys instead of spelling out the symbol like `period`:
+
+~~~markdown 
+<kbd>.</kbd>
+<kbd>,</kbd>
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+~~~
+
+`<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>` will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
 
 ## Codepen embeds
 
