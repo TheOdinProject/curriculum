@@ -110,8 +110,6 @@ To find the difference between two arrays, you can subtract them using `-`. This
 ### Basic Methods
 Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. For full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on "Core API", scroll down to the Classes section, and click on "Array". There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays along with explanations.
 
-As previously mentioned, there are many methods available to Ruby arrays, and the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. Therefore, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays. So visit soon, and visit often.
-
 Calling the `#methods` method on an array will also yield a long list of the available methods.
 
 ~~~ruby
