@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Tips for Getting the Best Help Possible
 
-#### Always Provide Your Code and the Surrounding Context
+#### Always provide your code and the surrounding context
 
 When asking a question, it is essential to provide your code, error message, terminal command, server output, etc. You should provide as much context as possible and zero in on the specific problem, such as pointing people to a specific function or line number in your code. Providing this relevant information makes it easy for others to help you.
 
