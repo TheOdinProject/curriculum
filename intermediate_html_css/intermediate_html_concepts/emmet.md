@@ -17,7 +17,7 @@ Let's start off by generating an HTML boilerplate with Emmet. Opening up an empt
 
 ![Triggering Emmet](https://cdn.statically.io/gh/TheOdinProject/curriculum/1953c1f219a8b321e7ecef9ebcb92834f50ffb9f/html_css/intermediate_html/emmet/imgs/00.png)
 
-Pressing enter should generate the following text:
+Pressing <kbd>Enter</kbd> should generate the following text:
 
 ![Generating boilerplate HTML](https://cdn.statically.io/gh/TheOdinProject/curriculum/1953c1f219a8b321e7ecef9ebcb92834f50ffb9f/html_css/intermediate_html/emmet/imgs/01.png)
 
