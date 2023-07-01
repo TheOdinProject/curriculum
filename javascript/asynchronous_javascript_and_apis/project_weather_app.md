@@ -12,7 +12,7 @@ After creating your API key from WeatherAPI, you will automatically be moved to 
 
 </div>
 
-### API Keys, Secrets, and Security
+### API keys, secrets, and security
 
 Not all APIs are free, and depending on how they're set up, they can cost money per use. This makes them a prime target for people looking to use the API without paying by using **your** API key. They can also be rate-limited, and if someone has access to your API key they can use up all of your uses. One way to prevent this issue is to store your API keys on the server and never send them to the frontend in the first place, this is often done using environment variables and it makes the key available only on the server the code is deployed to.
 
