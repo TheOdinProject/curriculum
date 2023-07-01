@@ -83,7 +83,7 @@ function fetchPlayerName();
 function retrievePlayer1Tag();
 ```
 
-In the bad example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The second example maintains consistency in both variable naming and the verbs used.
+In the bad example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The good example maintains consistency in both variable naming and the verbs used.
 
 Variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.
 
@@ -118,7 +118,7 @@ Sometimes, it can be tempting to use an undeclared variable. Let's take another 
 setTimeout(stopTimer, 3600000);
 ```
 
-You probably noticed the problem right away. What does the undeclared variable `3600000` mean and how long is this timeout going to count down before executing `stopTimer`?
+The problem is easy to spot. What does the undeclared variable `3600000` mean and how long is this timeout going to count down before executing `stopTimer`? Even if you know that JavaScript understands time in milliseconds, a calculator is needed.
 
 Now, let's make this code more meaningful by introducing a descriptive variable:
 
@@ -168,12 +168,8 @@ let reallyReallyLongLine =
   oneMoreReallyLongThing;
 
 // Or maybe like this
-let anotherReallyReallyLongLine =
-  something +
-  somethingElse +
-  anotherThing +
-  howManyTacos +
-  oneMoreReallyLongThing;
+   let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
+                                     howManyTacos + oneMoreReallyLongThing;
 ```
 
 ### Semicolons
@@ -201,11 +197,11 @@ It might be tempting to have comments in your code that explain the changes or a
  */
 ```
 
-The problem is that you already have a tool to track changes - git! Keeping track of these comments will become increasingly difficult, and you (and your team) will have an incomplete picture of what has happened. Your files will also contain bloat that doesn't belong there.
+The problem is that you already have a tool to track changes - git! Keeping track of these comments will become a chore and you will have an incomplete picture of what has happened. Your files will also contain bloat that doesn't belong there.
 
 By using git, all this information will be neatly organized in the repository and readily accessible with `git log`.
 
-The same applies to code that you have determined to be unnecessary. If you need it again in the future, just turn to your git commits. There's no reason to keep it in your files as unused clutter. Commenting out something while testing something else is of course ok but once a piece of code is not needed, just delete it. Don't have something like this hanging around in your files:
+The same applies to code that is no longer used. If you need it again in the future, just turn to your git commits. Commenting out something while testing something else is of course ok but once a piece of code is not needed, just delete it. Don't have something like this hanging around in your files:
 
 ```javascript
 theFunctionInUse();
@@ -251,7 +247,7 @@ In the better example, the comment clarifies the purpose of the function: moving
 
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
-_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assingment section goes into more depth on this.
+_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assingment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
 
 ### In conclusion
 
