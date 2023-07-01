@@ -12,13 +12,13 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 - **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> on your keyboard.
 
-- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Return</kbd> to open it.
+- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
 
 Before we do anything, take a look at the following text:
 ```
 $ whoami
 ```
-This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press enter on your keyboard.
+This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press <kbd>Enter</kbd> on your keyboard.
 
 It returns your username. Cool!
 
