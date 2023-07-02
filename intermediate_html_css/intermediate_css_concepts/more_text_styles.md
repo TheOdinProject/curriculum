@@ -146,4 +146,4 @@ This section contains questions for you to check your understanding of this less
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility. 
