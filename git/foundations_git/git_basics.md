@@ -82,11 +82,12 @@ This section contains a general overview of topics that you will learn in this l
 
     MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
-2.  Add "Hello Odin!" to line 3 of README.md and save the file with "Ctrl+S" (or "Command+S" on Mac).
+2.  Add "Hello Odin!" to line 3 of README.md and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>).
 
     ![Edit README using text editor](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/12.png)
 
-3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing Ctrl + ` (backtick). Then type `git status`. You'll notice that README.md is now shown as not staged or committed.
+<!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
+3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type <code>git status</code>. You'll notice that README.md is now shown as not staged or committed.
 
     ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
 
@@ -176,7 +177,7 @@ There will be no confirmation or any output on the terminal after entering this 
 
 With that done, you can now choose to use either `git commit -m <your message here>` or `git commit` to type your message with Visual Studio Code!
 
-To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl + S</kbd> (or Mac equivalent) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
+To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
 
 ### Conclusion
 

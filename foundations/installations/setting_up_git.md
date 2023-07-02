@@ -180,7 +180,7 @@ To create a new SSH key, run the following command inside your terminal. The `-C
 ssh-keygen -t ed25519 -C <youremail>
 ~~~
 
-* When it prompts you for a location to save the generated key, just push `Enter`.
+* When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
 
 #### Step 2.4: Link Your SSH Key with GitHub

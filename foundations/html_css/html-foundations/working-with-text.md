@@ -158,13 +158,23 @@ Writing an HTML comment is simple: We just enclose the comment with `<!--` and `
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+<div class="lesson-note" markdown="1">
+
+ **VSCode keyboard shortcut** 
+
+If you find typing out the comments syntax tiring, the following shortcut will help you quickly create a new comment, convert any line to a comment, or uncomment any line:
+
+- Mac Users: <kbd>Cmd</kbd> + <kbd>/</kbd> 
+- Windows and Linux Users: <kbd>Ctrl</kbd> + <kbd>/</kbd>
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1.  Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
 2.  Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the enter key, and voila, you have generated dummy text without a hitch.
+3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
 </div>
 
 ### Knowledge Check

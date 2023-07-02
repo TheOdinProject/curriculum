@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/scrim/co5024997a7e46c232d9abe55?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/scrim/co5024997a7e46c232d9abe55?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 ### Block vs Inline
 
