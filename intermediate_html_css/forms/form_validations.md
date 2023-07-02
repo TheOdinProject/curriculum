@@ -125,18 +125,7 @@ To add a pattern validation, we give the form control a `pattern` attribute with
 Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format".
 This isn't very useful since it doesn't communicate how to fix the issue.
 
-We can add a more descriptive validation message by giving our input a `title` attribute:
-
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="MWEoyzQ" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEoyzQ">
-  forms-pattern-with-title-validation</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-When we submit the form with an incorrect zip code, we will be greeted with a more helpful message telling us exactly what went wrong and how to resolve it.
-
-It is also good practice to use a `placeholder` attribute to show users an example of the expected pattern they need to enter:
+It is good practice to use a `placeholder` attribute to show users an example of the expected pattern they need to enter:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYzLNXv" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYzLNXv">
@@ -186,7 +175,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 <div class="lesson-content__panel" markdown="1">
 
 1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-    * Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson. 
+   - Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
 
 2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
 
