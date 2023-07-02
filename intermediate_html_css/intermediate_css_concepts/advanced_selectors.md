@@ -13,7 +13,7 @@ As always feel free to open up your code editor and run your own experiments wit
 * Learn about some of the most useful and common pseudo elements and pseudo classes
 * Learn about the different ways to select an attribute or its parts
 
-### Parent and Sibling Combinators
+### Child and Sibling Combinators
 Let's have a look at some more ways we can access different elements _without_ referring to their classes. Here are three new selectors to do just that.
 
 * `>` - the child combinator
