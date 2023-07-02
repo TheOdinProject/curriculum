@@ -117,11 +117,11 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - Railway has a simple deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
-- $20 a month should be enough to host four applications
+- $5 a month should be enough to host four applications.
 
 **Free plan**
 
-- You get 500 free hours per month on their free plan, but the applications are never put to sleep when inactive. With this in mind, the free allowance is only enough to host one app for around 20 days each month.
+- You get 500 free, one-time-use hours on their free plan, and the applications are never put to sleep when inactive. With this in mind, the free allowance is only enough to host one app for 20 days, and thus isn't recommended.
 
 **Links**
 
