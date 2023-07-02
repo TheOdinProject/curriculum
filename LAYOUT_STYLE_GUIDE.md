@@ -20,6 +20,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Code](#code)
 1. [Links](#links)
 1. [Images](#images)
+1. [Keyboard shortcuts](#keyboard-shortcuts)
 1. [Codepen embeds](#codepen-embeds)
 1. [Maintainer instructions](#maintainer-instructions)
 1. [Mermaid diagrams](#mermaid-diagrams)
@@ -408,6 +409,41 @@ The text in square brackets will be included as the image's alt text. Similar to
 
 In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page to get a statically URL as seen in the codeblock above.
 
+## Keyboard shortcuts
+
+For keyboard shortcuts we use the HTML keyboard input element `<kbd>`.
+
+Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+
+```html
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+``` 
+
+### Style standardization
+
+- Use separate `<kbd>` elements for individual keys:
+
+  ~~~markdown 
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
+  ~~~
+
+- Use capitalized common abbreviations for the keys and avoid using symbols like `⌘`:
+
+  ~~~markdown 
+  <kbd>Cmd</kbd>
+  <kbd>Alt</kbd>
+  <kbd>B</kbd>
+  <kbd>Opt</kbd>
+  ~~~
+
+- Use symbols for character keys instead of spelling out the symbol like `period`:
+
+  ~~~markdown 
+  <kbd>.</kbd>
+  <kbd>,</kbd>
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+  ~~~
+
 ## Codepen embeds
 
 In order to embed a Codepen example into a lesson, you must be in the editor view for the Codepen you wish to embed and then click the `Embed` button at the bottom right of the page.
@@ -430,11 +466,13 @@ After forking a pen to the TOP account and ensuring the embeds options from abov
 ## Mermaid diagrams
 
 To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.js.org/syntax/flowchart.html) to learn the diagram syntax for the specific type of diagram you want to add. After you've figured out the content you want in the diagram, you can add it to a lesson's markdown by surrounding the content with `<pre>` tags with a `class="mermaid"` ie:
+
 ~~~markdown
 <pre class="mermaid">
   mermaid diagram content here
 </pre>
 ~~~
+
 This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram renders correctly with the lesson content before contributing.
 
 ## English writing style
