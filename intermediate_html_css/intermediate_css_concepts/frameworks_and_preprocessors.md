@@ -59,6 +59,7 @@ This section contains questions for you to check your understanding of this less
 * [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
 
 ### Additional Resources
+
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 * [Bootstrap documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
