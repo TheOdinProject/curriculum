@@ -1,8 +1,8 @@
-### Introduction
+# Introduction
 
 In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some _style_, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or simply need a refresher.
 
-### Lesson Overview
+## Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -14,7 +14,6 @@ For a more interactive explanation and example, try the following Scrim (let us 
 
 <iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-
 ### Basic Syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
@@ -23,10 +22,7 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 
 <div class="lesson-note" markdown="1">
 
-#### Note
-
-A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain `<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
-
+ **Note:** A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use the `<div>`in its regular form for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 </div>
 
 ### Selectors
@@ -84,13 +80,13 @@ Class selectors will select all elements with the given class, which is just an 
 }
 ~~~
 
-Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
+**Note**: The syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
 #### ID Selectors
 
-ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element:
+ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have **one** ID. It cannot be repeated on a single page and should not contain any whitespace:
 
 ~~~html
 <!-- index.html -->
@@ -106,9 +102,7 @@ ID selectors are similar to class selectors. They select an element with the giv
 }
 ~~~
 
-Instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
-
-The major difference between classes and IDs is that an element can only have **one** ID. An ID cannot be repeated on a single page, and the ID attribute should not contain any whitespace at all.
+Also, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
 #### The Grouping Selector
 
@@ -227,7 +221,7 @@ In the above example, the first two elements with the `contents` class (B and C)
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
-### Order Matters!
+### Order Matters
 
 When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
 
@@ -395,7 +389,7 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `05-descendant-combinator`.
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `05-descendant-combinator`.
 
 </div>
 
@@ -405,10 +399,10 @@ This section contains questions for you to check your understanding of this less
 
 - <a class="knowledge-check-link" href="#class-selectors">What is the syntax for class and ID selectors?</a>
 - <a class="knowledge-check-link" href="#the-grouping-selector">How would you apply a single rule to two different selectors?</a>
-- <a class="knowledge-check-link" href="#chaining-selectors">Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
+- <a class="knowledge-check-link" href="#chaining-selectors"> Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?</a>
 - <a class="knowledge-check-link" href="#descendant-combinator-description">What does the descendant combinator do?</a>
 - <a class="knowledge-check-link" href="#adding-css-to-html">What are the names of the three ways to add CSS to HTML?</a>
-- <a class="knowledge-check-link" href="#external-css">What are the main differences between the three ways of adding CSS to HTML?</a>
+- <a class="knowledge-check-link" href="#external-css"> What are the main differences between the three ways of adding CSS to HTML?</a>
 
 ### Additional Resources
 
