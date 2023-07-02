@@ -25,7 +25,7 @@ There are three ways to open the Chrome Developer Tools menu:
 
 1.  From the `Chrome Menu` > `More Tools` > `Developer Tools`
 2.  Right-click anywhere on a webpage and select `Inspect`
-3.  Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
+3.  Use the keyboard shortcut <kbd>F12</kbd> or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Mac: <kbd>Opt</kbd> + <kbd>Cmd</kbd> + <kbd>C</kbd>)
 
 ### Assignment
 

@@ -22,22 +22,22 @@ Before we can install Ruby, we need to install some base packages.
 
 We'll use the terminal to install all of the programs.
 
-If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
+If you're using Ubuntu or Xubuntu, simply press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-**Quick tip:** In Linux, you can copy from the terminal with `Ctrl + Shift + C` and paste with `Ctrl + Shift + V`.
+**Quick tip:** In Linux, you can copy from the terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> and paste with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.
 
 #### Step 1.2: Update Linux
 
 The rest of the installation will take place inside the terminal window.
 
-First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `Enter`.
+First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
 ~~~bash
 sudo apt update
 sudo apt upgrade
 ~~~
 
-When it prompts you, press `Y` and then `Enter`.
+When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
 
 #### Step 1.3: Install Packages and Libraries
 
@@ -47,7 +47,7 @@ Next, you need to install some required packages that do not come preinstalled. 
 sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 ~~~
 
-When it prompts you, press `Y` and then `Enter`. You may or may not have to type your password after pressing `Enter`.
+When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>. You may or may not have to type your password after pressing <kbd>Enter</kbd>.
 
 ### Step 2: Install Ruby
 
@@ -160,7 +160,7 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 #### Step 1.1: Open the Terminal
 
-In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (`CMD + Space`) or Launchpad, type "Terminal".
+In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>) or Launchpad, type "Terminal".
 
 The rest of the instructions are done inside this terminal window.
 
@@ -168,7 +168,7 @@ The rest of the instructions are done inside this terminal window.
 
 First, you need to install Xcode, which is a program provided by Apple for programming. Xcode will install many programs that are needed for Ruby and Git and should take 10-15 minutes to install.
 
-Type `xcode-select --install` in your terminal and press `enter`. You may need to click "Install" when prompted.
+Type `xcode-select --install` in your terminal and press <kbd>Enter</kbd>. You may need to click "Install" when prompted.
 
 #### Step 1.3: Install Homebrew
 
@@ -178,7 +178,7 @@ The next program you need to install is [Homebrew](https://brew.sh/), which make
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
+You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
 Congratulations! You've installed the prerequisites!
 
@@ -286,6 +286,6 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl + Shift + X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).
