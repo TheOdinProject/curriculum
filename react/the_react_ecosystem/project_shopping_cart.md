@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you've come far from your React-baby days, with tools like routers and testing frameworks under your belt. You still have a longer way to go. It's a great time to put these concepts to use with a classic project - a mock shopping cart.
+By now you've come far from your React-baby days, with tools like routers and testing frameworks under your belt. You have an even longerou still have a longer way to go. It's a great time to put these concepts to use with a classic project - a mock shopping cart.
 
 ### Assignment
 
@@ -16,6 +16,7 @@ By now you've come far from your React-baby days, with tools like routers and te
 8.  Make sure to test your app thoroughly using the React Testing Library. Take care that you don't directly test `react-router-dom`, since it is an external library and the developers working on it must have tested the library already.
 9.  As usual, style your application so you can show it off! You have a host of options provided, already.
 10. Lastly, it's time to deploy it! Depending on what hosting solution you're using, you may need some additional configuration.
+
     1.  **Netlify** or **Cloudflare Pages**: You need to add a `_redirects` file at the root of your project. Copy the following to redirect all routes to the index page and let `react-router-dom` handle the rest. 
 
     ~~~txt
@@ -35,6 +36,6 @@ By now you've come far from your React-baby days, with tools like routers and te
     }
     ~~~
 
-    You can learn more about how these work at the [Netlify](https://docs.netlify.com/routing/redirects/), [Vercel](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas) and [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/redirects/) docs.
+    You can learn more about how these work at the [Netlify](https://docs.netlify.com/routing/redirects/), [Vercel](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas) and [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/redirects/) docs respectively.
 
 </div>
