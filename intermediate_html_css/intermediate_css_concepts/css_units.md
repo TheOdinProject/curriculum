@@ -26,7 +26,7 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) covers all the available units.
+1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) covers all the available units. Make sure to [test your skills](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_tasks) before moving on!
 2. The article [CSS units](https://codyloyd.com/2021/css-units/) goes in depth on how and when you might want to use `em`, `rem`, or `px`.
 3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
 </div>
