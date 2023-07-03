@@ -83,14 +83,14 @@ In the example above, despite rule 2 having more class selectors than ID selecto
 
 ~~~css
 /* rule 1 */
-#subsection .list {
+#subsection.list {
   background-color: yellow;
   color: blue;
 }
 
 /* rule 2 */
-#subsection .main .list {
-  color: red;
+.main .list#subsection {
+ color: red;
 }
 ~~~
 
