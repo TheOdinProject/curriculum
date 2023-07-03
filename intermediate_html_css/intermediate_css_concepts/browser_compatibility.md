@@ -61,20 +61,23 @@ It's important to remember that mobile browsers are not one-to-one with their de
 2. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that even though everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 - Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
 - Read this article [about browsers on iOS](https://adactio.com/journal/17428).
 </div>
-
-### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
-
-- Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
-- Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
 
 ### Knowledge Check
 
 - [What is the most used browser currently?](#most-used-browser)
 - [What was the original name of the first web browser?](#first-web-browser)
 - [How are mobile browsers different on Apple mobile operating systems from Android?](#apple-browsers)
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+- Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
+- Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
+
 

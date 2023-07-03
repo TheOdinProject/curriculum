@@ -183,14 +183,6 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 </div>
 
-### Additional Resources
-
-- Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
-- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do's and don'ts for form validation UX.
-- Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
-- [Regular expressions clearly explained](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4) goes over several real world examples of regular expression patterns and walks through what they're doing step by step. This resource can be useful if you don't just want to copy + paste popular patterns, and instead want to know what a pattern is actually doing.
-- One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.
-
 ### Knowledge Check
 
 - [What does the <code>required</code> validation do?](#required-validation)
@@ -198,3 +190,11 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 - [How can you validate the minimum and maximum of numeric inputs?](#number-range-validations)
 - [What can you use the pattern validation for?](#pattern-validations)
 - [What pseudo CSS selectors are available for styling valid and invalid inputs?](#styling-validations)
+
+### Additional Resources
+
+- Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
+- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do's and don'ts for form validation UX.
+- Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
+- [Regular expressions clearly explained](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4) goes over several real world examples of regular expression patterns and walks through what they're doing step by step. This resource can be useful if you don't just want to copy + paste popular patterns, and instead want to know what a pattern is actually doing.
+- One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.
