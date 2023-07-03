@@ -6,14 +6,18 @@ Think of your favorite messaging app - Discord, Telegram, WhatsApp, Facebook Mes
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Spend some time researching the features your app will need. What will the user interface look like? What will the data model look like? What features will you need to implement? What libraries will you need to use? You don't have to go overboard with features, remember that all those big apps we mentioned earlier have entire teams of developers working on them.
-1. Start building your app by implementing the core features in your backend and frontend. Users should be able to login and send messages to each other.
-1. Once you have that working, you can add profile customization options, group chats, friend list, and other features. It's all up to you.
+1. Keep in mind that the apps we mentioned earlier have entire teams of developers working on them, so you shouldn't feel the need to go overboard with features in your app. At a minimum, though, your app should include the following core functionality:
+    1. Authorization
+    1. Sending messages to another user
+    1. Customizing a user profile
+1. Spend some time planning out your app. What will the user interface look like? What will the data model look like? What libraries will you need to use?
+1. Start building your app by implementing the core functionality in your backend and frontend.
 1. Deploy your app to the web and showcase it in the submissions below as well as on our Discord. We'd love to see what you've built!
 
 #### Extra Credit
 
-*  Users should be able to send images in chat. 
-*  Users can view who's online.
+*  Allow sending images in chat
+*  Add a friends list that users can add other users to and see when someone is online (alternative: "Add a users list to show which user's are currently online"; same thing except maybe a step or two less since it doesn't require adding a friend)
+* Allow users to create and send messages in group chats
 
 </div>
