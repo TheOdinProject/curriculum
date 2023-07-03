@@ -6,9 +6,9 @@ Reading and understanding error messages is a requirement as a developer. At fir
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   Name at least three kinds of Javascript errors
--   Identify two parts of an error message that help you find where the error originates
--   Be able to understand how to research and resolve errors
+- Name at least three kinds of Javascript errors
+- Identify two parts of an error message that help you find where the error originates
+- Be able to understand how to research and resolve errors
 
 ### The Anatomy of an Error
 
@@ -16,12 +16,12 @@ An error is a type of object built into the JS language, consisting of a name/ty
 
 Let’s assume we have written the following code:
 
-~~~javascript
-const a = "Hello"
-const b = "World"
+```javascript
+const a = "Hello";
+const b = "World";
 
-console.log(c)
-~~~
+console.log(c);
+```
 
 This code will run, but it will generate an error. In technical terms, this is called "throwing" an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. We’ll learn more about the different error types later in the lesson. In this example, we have a `ReferenceError`.
 
@@ -33,7 +33,7 @@ The next part of an error gives us the name of the file in which you can find th
 
 Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
-~~~javascript
+```javascript
 const a = 5;
 const b = 10;
 
@@ -46,7 +46,7 @@ function print() {
 }
 
 print();
-~~~
+```
 
 Our function `print()` should call on `add()`, which returns a variable named `c`, which currently has not been declared. The corresponding error is as follows:
 
@@ -68,11 +68,11 @@ These are some of the most common errors you will encounter, so it’s important
 
 A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
-~~~javascript
+```javascript
 function helloWorld() {
   console.log "Hello World!"
 }
-~~~
+```
 
 will throw the following error, because we forgot the parentheses for `console.log()`!
 
@@ -92,17 +92,17 @@ These errors are thrown for a few different reasons:
 
 Per MDN, a `TypeError` may be thrown when:
 
-> -   an operand or argument passed to a function is incompatible with the type expected by that operator or function;
-> -   or when attempting to modify a value that cannot be changed;
-> -   or when attempting to use a value in an inappropriate way.
+> - an operand or argument passed to a function is incompatible with the type expected by that operator or function;
+> - or when attempting to modify a value that cannot be changed;
+> - or when attempting to use a value in an inappropriate way.
 
 Say we have two strings that you would like to combine to create one message, such as below:
 
-~~~javascript
+```javascript
 const str1 = "Hello";
 const str2 = "World!";
 const message = str1.push(str2);
-~~~
+```
 
 ![Type Error Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png)
 
@@ -114,9 +114,9 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 At this point, you might be wondering how we can resolve these errors.
 
-1.  Read the error *carefully* and try to understand it on your own.
+1.  Read the error _carefully_ and try to understand it on your own.
 2.  Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
-3.  Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/).
+3.  Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
 4.  Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 ### Errors VS. Warnings
@@ -134,12 +134,12 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
--   [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+- [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   [What are three reasons why you may see a TypeError?](#type-error)
--   [What is the key difference between an error and a warning?](#errors-vs-warnings)
--   [What is one method you can use to resolve an error?](#tips-for-resolving-errors)
+- [What are three reasons why you may see a TypeError?](#type-error)
+- [What is the key difference between an error and a warning?](#errors-vs-warnings)
+- [What is one method you can use to resolve an error?](#tips-for-resolving-errors)
