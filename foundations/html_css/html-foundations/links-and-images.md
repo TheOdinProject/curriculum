@@ -58,7 +58,7 @@ The method shown above opens links in the same tab as the webpage containg them.
 <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
 ~~~
 
-You may have noticed that we sneeked in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
+<span id="target-security"></span>You may have noticed that we sneeked in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
 
 Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it. Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide this security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
 
@@ -239,6 +239,7 @@ This section contains questions for you to check your understanding of this less
 *   [What element is used to create a link?](#anchor-elements)
 *   [What is an attribute?](#attribute)
 *   [What attribute tells links where to go to?](#where-to-go)
+*   [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](#target-security)
 *   [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
 *   [Which element is used to display an image?](#images)
 *   [What two attributes do images always need to have?](#two-attributes)
@@ -251,4 +252,5 @@ This section contains helpful links to related content. It isn’t required, so 
 
 -   [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 -   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+-   [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
 
