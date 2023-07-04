@@ -17,9 +17,9 @@ Consider the following two snippets of JavaScript:
 This is ugly and hard to read code:
 
 ```javascript
-const x = function (z) {
+const x = function(z) {
   let w = 0;
-  z.forEach(function (q) {
+  z.forEach(function(q) {
     w += q;
   });
   return w;
@@ -31,9 +31,9 @@ x([2, 2, 2]);
 Now, this is clean and easy to read code that will help you and others reading your code:
 
 ```javascript
-const sumArray = function (array) {
+const sumArray = function(array) {
   let sum = 0;
-  array.forEach(function (number) {
+  array.forEach(function(number) {
     sum += number;
   });
   return sum;
@@ -82,8 +82,7 @@ There are many different opinions on what constitutes great JavaScript code. The
 
 4.  Naming Things: Names for functions and variables should be descriptive. Always use camelCase. To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb. It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
-        ~~~javascript
-
+      ```javascript
     // Good
     const numberOfThings = 10;
     const myName = "Thor";
@@ -102,7 +101,7 @@ There are many different opinions on what constitutes great JavaScript code. The
         function myName() {
           return "Thor";
         }
-        ~~~
+      ```
 
 ### Assignment
 
