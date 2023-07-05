@@ -21,7 +21,9 @@ You can learn how to build a back-end later using [Node.js](https://www.theodinp
 <div class="lesson-content__panel" markdown="1">
 
 1. [Explore the different services offered by Firebase](https://firebase.google.com/products). Pay particular attention to [Cloud Firestore](https://firebase.google.com/products/firestore) for now. You may or may not also want to use [Firebase Hosting](https://firebase.google.com/products/hosting) and/or any of the other services offered by Firebase, particularly [Cloud Storage](https://firebase.google.com/products/storage) and [Authentication](https://firebase.google.com/products/auth), but you probably won't need any of those for your first Firebase project.
-
+<div class="lesson-note lesson-note--warning">
+  <p>Some people have reported running into issues when doing the Firebase codelab, specifically at the emulator step. If this affects you you can skip it for now.<p>
+</div>
 2. Complete [this Google Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0), which will walk you through setting up a sample app on Firebase step by step.
 
 3. Go back to one of the previous projects (e.g. the library project or the to-do app), and [follow the Firebase setup guide](https://firebase.google.com/docs/web/setup?hl=en) to prepare it for interaction with a Firebase backend.
