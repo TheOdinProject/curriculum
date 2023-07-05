@@ -44,7 +44,7 @@ When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
 ~~~bash
-sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
+sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libyaml-dev
 ~~~
 
 When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>. You may or may not have to type your password after pressing <kbd>Enter</kbd>.
