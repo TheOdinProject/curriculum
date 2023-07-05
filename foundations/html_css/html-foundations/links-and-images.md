@@ -52,7 +52,7 @@ It's worth noting you can use anchor tags to link to any kind of resource on the
 
 ### Opening links in a new tab
 
-The method shown above opens links in the same tab as the webpage containg them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute. 
+The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute. 
 
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
