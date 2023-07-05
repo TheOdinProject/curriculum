@@ -16,31 +16,31 @@ Consider the following two snippets of JavaScript:
 
 This is ugly and hard to read code:
 
-```javascript
-const x = function(z) {
-  let w = 0;
-  z.forEach(function(q) {
-    w += q;
-  });
-  return w;
-};
-
-x([2, 2, 2]);
-```
+~~~javascript
+  const x = function(z) {
+    let w = 0;
+    z.forEach(function(q) {
+      w += q;
+    });
+    return w;
+  };
+  
+  x([2, 2, 2]);
+~~~
 
 Now, this is clean and easy to read code that will help you and others reading your code:
 
-```javascript
-const sumArray = function(array) {
-  let sum = 0;
-  array.forEach(function(number) {
-    sum += number;
-  });
-  return sum;
-};
-
-sumArray([2, 2, 2]);
-```
+~~~javascript
+  const sumArray = function(array) {
+    let sum = 0;
+    array.forEach(function(number) {
+      sum += number;
+    });
+    return sum;
+  };
+  
+  sumArray([2, 2, 2]);
+~~~
 
 Believe it or not, both of those functions do the exact same thing \(in the exact same way!\), and both of them are perfectly valid code, but obviously the second one is much easier to follow. Imagine you're working on a project with someone else and they've written the first function... how long is it going to take you to figure out what's going on there so you can do your work? Imagine you're working on a project all by yourself and YOU wrote the first function a week or two ago... chances are good that you aren't going to remember exactly what you were up to there and it's _still_ going to take you a good while to figure it all out again.
 
@@ -60,33 +60,33 @@ There are many different opinions on what constitutes great JavaScript code. The
     - vertically align continuation lines with the first variable,
     - or some other format entirely. The rules aren't set in stone and vary from work environment to work environment, but remember to be consistent.
 
-    ```javascript
-    // One possible format
-    let reallyReallyLongLine =
-      something +
-      somethingElse +
-      anotherThing +
-      howManyTacos +
-      oneMoreReallyLongThing;
-
-    // Another possible format
-    let anotherReallyReallyLongLine =
-      something +
-      somethingElse +
-      anotherThing +
-      howManyTacos +
-      oneMoreReallyLongThing;
-    ```
+    ~~~javascript
+      // One possible format
+      let reallyReallyLongLine =
+        something +
+        somethingElse +
+        anotherThing +
+        howManyTacos +
+        oneMoreReallyLongThing;
+  
+      // Another possible format
+      let anotherReallyReallyLongLine =
+        something +
+        somethingElse +
+        anotherThing +
+        howManyTacos +
+        oneMoreReallyLongThing;
+    ~~~
 
     ​
 
 4.  Naming Things: Names for functions and variables should be descriptive. Always use camelCase. To keep things consistent and easy to read, variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb. It is ok to use single characters as variable names in the context of a loop or a callback function, but not elsewhere.
 
-      ```javascript
-    // Good
-    const numberOfThings = 10;
-    const myName = "Thor";
-    const selected = true;
+~~~javascript
+        // Good
+        const numberOfThings = 10;
+        const myName = "Thor";
+        const selected = true;
 
         // Bad (these start with verbs, could be confused for functions)
         const getCount = 10;
@@ -101,7 +101,7 @@ There are many different opinions on what constitutes great JavaScript code. The
         function myName() {
           return "Thor";
         }
-      ```
+~~~
 
 ### Assignment
 
