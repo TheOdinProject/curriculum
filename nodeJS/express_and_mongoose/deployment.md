@@ -117,11 +117,11 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - Railway has a simple deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
-- $20 a month should be enough to host four applications
+- $5 a month should be enough to host four applications.
 
 **Free plan**
 
-- You get 500 free hours per month on their free plan, but the applications are never put to sleep when inactive. With this in mind, the free allowance is only enough to host one app for around 20 days each month.
+- You get 500 free, one-time-use hours on their free plan, and the applications are never put to sleep when inactive. With this in mind, the free allowance is only enough to host one app for 20 days, and thus isn't recommended.
 
 **Links**
 
@@ -221,6 +221,7 @@ This will be where the Git skills you've been learning will start to really pay 
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
    - If for some reason the deployment is still too difficult, and you just can't seem to get it to work, move onto the next project and come back once you've deployed your MDN project. The steps in their tutorial hold your hand a bit more through the process and will give you the confidence you need to deploy this project.
 1. Once you've hosted your app and fired up your database, you'll need to provide the Express app with a MongoDB connection URL that points to the database. If you're planning to publish your code on GitHub you will need to hide this URL for your database from prying eyes because it contains both your username and password. The simplest approach is to push your code to a private repository, however, if you want to show-off your code to the world, assign the connection URL to an environment variable and access it with the help of the [Dotenv](https://github.com/motdotla/dotenv) package. This [Medium article](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) does a great job of explaining what they are, and how to use them with Express.
+   - If you do decide to use Dotenv for this project, you'll have to research how to import environment variables to the PaaS you choose to use or else your deployment will fail.  For instance, when using Fly.io, you need to run `fly secrets import < .env` from the command line.
 
 </div>
 

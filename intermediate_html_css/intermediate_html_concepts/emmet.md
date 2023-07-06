@@ -17,14 +17,14 @@ Let's start off by generating an HTML boilerplate with Emmet. Opening up an empt
 
 ![Triggering Emmet](https://cdn.statically.io/gh/TheOdinProject/curriculum/1953c1f219a8b321e7ecef9ebcb92834f50ffb9f/html_css/intermediate_html/emmet/imgs/00.png)
 
-Pressing enter should generate the following text:
+Pressing <kbd>Enter</kbd> should generate the following text:
 
 ![Generating boilerplate HTML](https://cdn.statically.io/gh/TheOdinProject/curriculum/1953c1f219a8b321e7ecef9ebcb92834f50ffb9f/html_css/intermediate_html/emmet/imgs/01.png)
 
 We have just used one of many Emmet abbreviations. There are lots of useful Emmet abbreviations that you should check out, like [Wrap with Abbreviation](https://docs.emmet.io/actions/wrap-with-abbreviation/) and [Remove Tag](https://docs.emmet.io/actions/remove-tag/). Definitely go through those before moving forward.
 
 Considering how useful these two are, we will be setting up VS Code shortcuts for them.
-Start off by opening the keyboard shortcuts window. You can do so by clicking the cog icon on the bottom left and selecting keyboard shortcuts, or by pressing `Cmd + K` followed by `Cmd + S`.
+Start off by opening the keyboard shortcuts window. You can do so by clicking the cog icon on the bottom left and selecting keyboard shortcuts, or by pressing <kbd>Cmd</kbd> + <kbd>K</kbd> followed by <kbd>Cmd</kbd> + <kbd>S</kbd>.
 
 ![Setting up VS code shortcuts](https://cdn.statically.io/gh/TheOdinProject/curriculum/1953c1f219a8b321e7ecef9ebcb92834f50ffb9f/html_css/intermediate_html/emmet/imgs/02.png)
 
@@ -39,7 +39,7 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it.
+1.  [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it up to `11:37` as it demonstrates some content we haven't covered yet. We'll get there eventually.
 2.  Take a look at the [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/). You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
 3.  Go through the [Emmet documentation](https://docs.emmet.io/). Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 

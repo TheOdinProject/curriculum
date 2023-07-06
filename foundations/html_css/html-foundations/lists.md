@@ -4,14 +4,14 @@ Whether it be IMDB's top 250 movies or the FBI's most wanted, lists are everywhe
 
 Luckily, with HTML there are a couple of different types of lists at your disposal.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   How to create an unordered list
 *   How to create an ordered list
 
-### Unordered Lists
+### Unordered lists
 
 If you want to have a list of items where the order doesn't matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
 
@@ -26,7 +26,7 @@ Each list item in an unordered list begins with a bullet point:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Ordered Lists
+### Ordered lists
 
 If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
 
@@ -51,7 +51,7 @@ To get some practice using lists, create a new HTML document and create the foll
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -59,7 +59,7 @@ This section contains questions for you to check your understanding of this less
 *   [What HTML element is used to create an ordered list?](#ordered-lists)
 *   [What HTML element is used to create list items within both unordered and ordered lists?](#li)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

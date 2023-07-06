@@ -28,7 +28,7 @@ Today, it is impossible to imagine the Web without the use of browsers. We have 
 
 As companies compete for the market share, different browsers are using different engines to display information on the web page. For example, Chrome and Chromium utilize Blink, while Safari uses WebKit.
 
-Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good of performance in other browsers is secondary.
+Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good a level of performance in other browsers is secondary.
 
 For your web development projects to have a broader reach, you must make sure that you're testing your web applications against the browsers which are most likely to be used by the users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones (like Internet Explorer) as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
 
@@ -61,20 +61,23 @@ It's important to remember that mobile browsers are not one-to-one with their de
 2. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that even though everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 - Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
 - Read this article [about browsers on iOS](https://adactio.com/journal/17428).
 </div>
-
-### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
-
-- Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
-- Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
 
 ### Knowledge Check
 
 - [What is the most used browser currently?](#most-used-browser)
 - [What was the original name of the first web browser?](#first-web-browser)
 - [How are mobile browsers different on Apple mobile operating systems from Android?](#apple-browsers)
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+- Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
+- Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
+
 
