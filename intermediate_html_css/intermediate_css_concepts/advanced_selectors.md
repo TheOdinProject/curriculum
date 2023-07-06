@@ -86,7 +86,7 @@ Finally, if we want to select all of an element's siblings and not just the firs
 
 Just like the descendant combinator, these selectors don't have any special specificity rules - their specificity score will just be made up of their component parts.
 
-You can also check out [the docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) on this to find out more about combinators.
+This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) provides a good overview if you want to learn more about them.
 
 ### Pseudo-selectors
 
