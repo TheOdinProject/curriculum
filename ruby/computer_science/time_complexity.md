@@ -188,7 +188,7 @@ One such algorithm is merge sort, and it just so happens you tackle this project
 
 #### O(n&#178;) - Quadratic Complexity
 
-You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again. Therefore, when the number of items in the data increases by 1, it requires 1 extra iteration in both the outer loop and the inner loop. 2 extra items requires 2 extra iterations in the outer loop and 2 extra in the inner loop. If we are looping through an array with n items and, within each loop, looping over it again, this involves a total of n&#178; sub-steps.  
+You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again.  
 For example, if our array has 3 items, the nested loops require 3&#178; = 9 sub-steps. Adding just one more item to the array almost doubles this number to 4&#178; = 16. Adding a 5th item takes us to 5&#178; = 25 sub-steps. Then doubling the array size to 10 items increases the sub-steps from 25 to 100, so 4 times as much work needed!
 We hope you can see where we're going with this...
 
