@@ -63,19 +63,19 @@ In our first example we already touched on the importance of naming things _mean
 
 #### A good name is descriptive
 
-In our good example the we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests. Nice, clean and understandable.
+In our good example the we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean and understandable.
 
 Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, `w` and `q`. Uuf, not nice.
 
 #### Use a consistent vocabulary
 
-Variables of the same type should have consistent naming. Consider the following examples from a game of Tic-Tac-Toe:
+Variables of the same type should have consistent naming. Consider the following examples from a game:
 
 ```javascript
  // Good
 function getPlayerScore();
 function getPlayerName();
-function getPlayerTage();
+function getPlayerTag();
 
 // Bad
 function getUserScore();
@@ -118,7 +118,7 @@ Sometimes, it can be tempting to use an undeclared variable. Let's take another 
 setTimeout(stopTimer, 3600000);
 ```
 
-The problem is easy to spot. What does the undeclared variable `3600000` mean and how long is this timeout going to count down before executing `stopTimer`? Even if you know that JavaScript understands time in milliseconds, a calculator is needed.
+The problem is obvious. What does the undeclared variable `3600000` mean and how long is this timeout going to count down before executing `stopTimer`? Even if you know that JavaScript understands time in milliseconds, a calculator is needed.
 
 Now, let's make this code more meaningful by introducing a descriptive variable:
 
@@ -176,7 +176,7 @@ let reallyReallyLongLine =
 
 Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.
 
-Again: consistency is the main thing here.
+Again: consistency is the main thing.
 
 ### About comments
 
@@ -251,7 +251,7 @@ _This doesn't mean good code should lack comments_. In many situations, well-pla
 
 ### In conclusion
 
-Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, so there's no point in beating yourself up over it. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
+Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, everyone does it sometimes. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
 Learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
 
