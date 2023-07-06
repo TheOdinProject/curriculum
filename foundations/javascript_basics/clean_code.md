@@ -22,7 +22,7 @@ Consider the following examples:
 
 Example A:
 
-```javascript
+~~~javascript
 const x = function (z) {
   let w = 0;z.forEach(
 function (q) {
@@ -31,11 +31,11 @@ function (q) {
 };
 
 x([2, 2, 2]);
-```
+~~~
 
 Example B:
 
-```javascript
+~~~javascript
 const sumArray = function (array) {
   let sum = 0;
   array.forEach(function (number) {
@@ -45,7 +45,7 @@ const sumArray = function (array) {
 };
 
 sumArray([2, 2, 2]);
-```
+~~~
 
 Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task \(in the exact same way!\), and both are valid code. But the second one is much more readable. Why?
 
@@ -71,7 +71,7 @@ Now, try picturing a conversation with someone about the bad example. The functi
 
 Variables of the same type should have consistent naming. Consider the following examples from a game:
 
-```javascript
+~~~javascript
  // Good
 function getPlayerScore();
 function getPlayerName();
@@ -81,7 +81,7 @@ function getPlayerTag();
 function getUserScore();
 function fetchPlayerName();
 function retrievePlayer1Tag();
-```
+~~~
 
 In the bad example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The good example maintains consistency in both variable naming and the verbs used.
 
@@ -89,7 +89,7 @@ Variables should always begin with a noun or an adjective (that is, a noun phras
 
 Another set of examples can illustrate why this matters:
 
-```javascript
+~~~javascript
 // Good
 const numberOfThings = 10;
 const myName = "Thor";
@@ -108,25 +108,25 @@ function getCount() {
 function myName() {
   return "Thor";
 }
-```
+~~~
 
 ### Use searchable and immediately understandable names
 
 Sometimes, it can be tempting to use an undeclared variable. Let's take another look at an example:
 
-```javascript
+~~~javascript
 setTimeout(stopTimer, 3600000);
-```
+~~~
 
 The problem is obvious. What does the undeclared variable `3600000` mean and how long is this timeout going to count down before executing `stopTimer`? Even if you know that JavaScript understands time in milliseconds, a calculator is needed.
 
 Now, let's make this code more meaningful by introducing a descriptive variable:
 
-```javascript
+~~~javascript
 const MILLISECONDS_PER_HOUR = 60 * 60 * 1000; // 3,600,000;
 
 setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
-```
+~~~
 
 Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. 
 
@@ -154,8 +154,7 @@ Generally your code will be easier to read if you manually break lines that are 
 
 Then, there are a few ways to format continuation lines. For example, you can:
 
-```javascript
-
+~~~javascript
 // This line is a bit too long
 let reallyReallyLongLine = something + somethingElse + anotherThing + howManyTacos + oneMoreReallyLongThing;
 
@@ -170,7 +169,7 @@ let reallyReallyLongLine =
 // Or maybe like this
    let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
                                      howManyTacos + oneMoreReallyLongThing;
-```
+~~~
 
 ### Semicolons
 
@@ -188,14 +187,14 @@ Next we'll look into some common pitfalls in commenting and _why_ they are pitfa
 
 It might be tempting to have comments in your code that explain the changes or additions you have made. For example:
 
-```javascript
+~~~javascript
 /**
  * 2023-01-10: Removed unnecessary code that was causing confusion (RM)
  * 2023-03-05: Simplified the code (JP)
  * 2023-05-15: Removed functions that were causing bugs in production (LI)
  * 2023-06-22: Added a new function to combine values (JR)
  */
-```
+~~~
 
 The problem is that you already have a tool to track changes - git! Keeping track of these comments will become a chore and you will have an incomplete picture of what has happened. Your files will also contain bloat that doesn't belong there.
 
@@ -203,12 +202,12 @@ By using git, all this information will be neatly organized in the repository an
 
 The same applies to code that is no longer used. If you need it again in the future, just turn to your git commits. Commenting out something while testing something else is of course ok but once a piece of code is not needed, just delete it. Don't have something like this hanging around in your files:
 
-```javascript
+~~~javascript
 theFunctionInUse();
 // oldFunction();
 // evenOlderUselessFunction();
 // whyAmIEvenHereImAncient():
-```
+~~~
 
 #### Tell why, not how
 
@@ -216,7 +215,7 @@ The purpose of comments is not to provide pseudo code that duplicates your code.
 
 Let's look at an example to see this in practice:
 
-```javascript
+~~~javascript
 // Bad Example - comment doesn't tell why, only what and how
 
 // This function increments the value of i by 1
@@ -239,7 +238,7 @@ function moveToNextElement(index) {
   index = index + 1;
   return index;
 }
-```
+~~~
 
 In the bad example, the comments explain twice what the code does. But for this, you could've just read the code, so the comments are redundant.
 
