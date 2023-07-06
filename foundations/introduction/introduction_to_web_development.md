@@ -65,7 +65,7 @@ There are plenty of other online curriculums for beginners, but they are often t
 
 The Odin Project takes a realistic view of what you need to know and has you set up and work in your own environment, much like what you'll be doing when you get a job.
 
-It acknowledges that you need a wide variety of skillsets and languages to reach an employable level.
+It acknowledges that you need a wide variety of skill sets and languages to reach an employable level.
 
 The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
 
