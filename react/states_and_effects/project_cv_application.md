@@ -20,7 +20,7 @@ Congratulations, you have made it to the very first React project. In this proje
 
 ### Deploying a react app
 
-While we have been using GitHub Pages to deploy our **static webpages** till now, and we can definitely continue to do so with hacky ways, it's far easier to let a PaaS (Platform as a Service) do the same for us! There are a lot of options to host such sites, and the [Vite hosting docs](https://vitejs.dev/guide/static-deploy.html) go over all of them.
+While we have been using GitHub Pages to deploy our **static webpages** till now, and we can definitely continue to do so with hacky ways, it's far easier to let a PaaS (Platform as a Service) do the same for us! There are a lot of options to host such sites, and the [Vite hosting docs](https://vitejs.dev/guide/static-deploy.html) go over the most popular ones among them.
 
 Not only do some of these get rid of additional steps after pushing our code to GitHub as these services have tools that automatically _deploy on push_, but you also don't have to worry about other issues further down the curriculum, like routers and build steps. We shall use a few selected options for now. Once you are done with the assignment, choose one of the following options, and deploy!
 
@@ -62,7 +62,7 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 
 1.  Yes, push your React application to GitHub.
 2.  Create a new Cloudflare account and log into it.
-3.  Under Account Home, select "Workers & Pages" > "Pages" > "Connect to Git".
+3.  Under "Account Home", select "Workers & Pages" > "Pages" > "Connect to Git".
 4.  Connect to GitHub and select your GitHub repository.
 5.  Under "Set up builds and deployments", set `npm run build` as the build command, and `dist` as the build output directory.
 6.  Under "Environment variables (advanced)" > "Add variable", add a variable named `NODE_VERSION` and set its value to be the version number of Node that you are using. You can find this by executing `node -v` in your terminal.
