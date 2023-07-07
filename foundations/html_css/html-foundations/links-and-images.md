@@ -60,7 +60,7 @@ While `href` specifies the destination link, `target` specifies where the linked
 <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
 ~~~
 
-<span id="target-security"></span>You may have noticed that we sneeked in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. 
+<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. 
 
 The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
 
