@@ -19,10 +19,10 @@ There are multiple ways to start using React in your projects, from attaching a 
 
 Some examples of these toolchains:
 
-* [Create React App](https://create-react-app.dev/)(Deprecated)
 * [Vite's React Config](https://vitejs.dev/)
 * [Gatsby](https://www.gatsbyjs.com/)
 * [NextJS](https://nextjs.org/)
+* [Create React App](https://create-react-app.dev/)(Deprecated)
 
 Why do we need these toolchains? Can't we just make our own as we see fit?
 
