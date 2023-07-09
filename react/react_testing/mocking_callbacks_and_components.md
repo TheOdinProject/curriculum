@@ -16,81 +16,67 @@ If you've been following along with our lessons so far, the concept of mocking h
 
 #### Testing Callback Handlers
 
-Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple input component:
+Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple button component:
 
 ~~~jsx
-// FavoriteInput.jsx
+// CustomButton.jsx
 
-import React from "react";
-
-const FavoriteInput = ({ onChange: onInputChange, id }) => {
-  const inputHandler = (event) => onInputChange(event.target.value);
-
+const CustomButton = ({ onClick}) => {
   return (
-    <label htmlFor={id}>
-      What is your favorite wild animal?
-      <input id={id} onChange={inputHandler} />
-    </label>
+    <button onClick={onClick}>Click me</button> 
   );
 };
 
-export default FavoriteInput;
+export default CustomButton;
 ~~~
 
-Nothing fancy. `FavoriteInput` is a simple component with a couple props passed in. We're interested in the `onChange` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user types in the input box. Let's test it.
+Nothing fancy. `CustomButton` is a simple component with a couple props passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
 
-<span id="testing-callback-handlers">Notice how we mock and test the `onChange` function</span>:
+<span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
 ~~~jsx
-// FavoriteInput.test.jsx
+// CustomButton.test.jsx
 
-import { vi } from "vitest"
+import { vi } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import FavoriteInput from "./FavoriteInput";
+import CustomButton from "./FavoriteInput";
 
-describe("Favorite Input", () => {
-  it("calls onChange correct number of times", async () => {
-    const onChangeMock = vi.fn();
-    const user = userEvent.setup();
+describe("CustomButton", () => {
+    it("should render a button with the text 'Click me'", () => {
+        render(<CustomButton onClick={() => {}} />);
 
-    render(<FavoriteInput onChange={onChangeMock} />);
-    const input = screen.getByRole("textbox");
+        const button = screen.getByRole("button", { name: "Click me" });
 
-    await user.type(input, "Lion");
+        expect(button).toBeInTheDocument();
+    });
+  
+    it("should call the onClick function when clicked", async () => {
+        const onClick = vi.fn();
+        const user = userEvent.setup()
+        render(<CustomButton onClick={onClick} />);
 
-    expect(onChangeMock).toHaveBeenCalledTimes(4);
-  });
+        const button = screen.getByRole("button", { name: "Click me" });
 
-  it("calls onChange with correct argument(s) on each input", async () => {
-    const onChangeMock = vi.fn();
-    const user = userEvent.setup();
+        await user.click(button);
 
-    render(<FavoriteInput onChange={onChangeMock} />);
-    const input = screen.getByRole("textbox");
+        expect(onClick).toHaveBeenCalled();
+    });
 
-    await user.type(input, "Ox");
+    it("should not call the onClick function when it isn't clicked", async () => {
+        const onClick = vi.fn();
+        render(<CustomButton onClick={onClick} />);
 
-    expect(onChangeMock).toHaveBeenNthCalledWith(1, "O");
-    expect(onChangeMock).toHaveBeenNthCalledWith(2, "Ox");
-  });
+        const button = screen.getByRole("button", { name: "Click me" });
 
-  it("input has correct values", async () => {
-    const onChangeMock = vi.fn();
-    const user = userEvent.setup();
-
-    render(<FavoriteInput onChange={onChangeMock} />);
-    const input = screen.getByRole("textbox");
-
-    await user.type(input, "Whale");
-
-    expect(input).toHaveValue("Whale");
-  });
+        expect(onClick).not.toHaveBeenCalled();
+    });
 });
 ~~~
 
-Three tests and we are done with this component. Take some time to figure out what functions come from which package.
-We mock the `onChange` handler using one of Vitest's functions, `vi.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show another way we could've tested the component.
+Three tests and we are done with this component. You should be already familiar how the first test works. Take some time to figure out what functions come from which package.
+
+For the second and third test, we mock the `onClick` handler using one of Vitest's functions, `vi.fn()`. Then we assert that it is called/not called when the button is clicked or not. 
 
 But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
 
