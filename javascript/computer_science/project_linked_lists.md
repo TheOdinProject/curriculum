@@ -8,7 +8,7 @@ removed without reallocation of any other elements.
 In some programming languages, the size of an array is a concern and one of the ways
 to overcome that problem and allow dynamically allocated data is using linked lists.
 
-Luckily in **Javascript**, arrays aren't limited to a certain size, and both insertion and deletion can be done trivially at any index using the `slice` array method, so you don't have to think about overcoming those limitations.
+Luckily in **Javascript**, arrays aren't limited to a certain size, and both insertion and deletion can be done trivially at any index using the `splice` array method, so you don't have to think about overcoming those limitations.
 
 So if array size, array insertion and array deletion are not limitations in Javascript, are linked lists really necessary?
 The short answer to that is _no_; however, it's the simplest of the dynamic data
