@@ -27,7 +27,7 @@ The number one enemy of flexibility is a fixed width on an element. If you put `
 
 Obviously the context will determine what works in a given situation, but an easy fix in many cases is replacing `width` or `height` with `max-width` or `min-height` (`min-width` and `max-height` are also valid and may be useful depending on the context).
 
-In the following example, notice how the <span id='fixed-width'>fixed width</span> causes our div to overflow the screen! Change it to max-width and watch it shrink down to fit inside the box! Click on the 'Edit on CodePen' button to see it in a full resizable window. When a `max-width` is defined, the element will not exceed that width, but will shrink if the screen is too small to accommodate it.
+In the following example, notice how the <span id='fixed-width'>fixed width</span> causes our div to overflow the screen! Change it to `max-width` and watch it shrink down to fit the preview screen size! Click 'Fork on CodePen', and click 'Open Live View in a New Window' at the bottom to see it in a fully resizable window. Try changing the size of the window to see how max-width works. When a `max-width` is defined, the element will not exceed that width but will shrink if the screen is too small to accommodate it.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="GRMpreM" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/GRMpreM">
