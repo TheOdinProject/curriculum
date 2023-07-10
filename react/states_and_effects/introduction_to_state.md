@@ -18,9 +18,7 @@ We write components in React, A LOT of components, and many times we want them t
 
 Let's take a look at how we can use state in our code.
 
-```
-CODESANDBOX EXAMPLE GOES HERE
-```
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/unruffled-pasteur-6h36wf?file=%2Fsrc%2FApp.jsx%3A10%2C27&embed=1" allowfullscreen></iframe>
 
 An app that changes its background color based on the clicked button. Pretty simple, right? Take your time reading the code as we'll jump right in.
 
@@ -64,7 +62,7 @@ The process of rerendering generates a new virtual DOM (Document Object Model) t
 
 Whenever `setBackgroundColor` is called, our `App` component is rerendered. Essentially, the component is recreated which means the `onButtonClick` function and our `div` and `button`'s are recreated as well. You might wonder, shouldn't the `backgroundColor` state be recreated as well? Well, React takes the responsibility of keeping track of the latest state and providing it to the component. The initial state value is only used for the component's first render and is ignored on subsequent renders. 
 
-![code illustration of rerendering](./introduction_to_state/imgs/00.png)
+![code illustration of rerendering](https://cdn.statically.io/gh/TheOdinProject/curriculum/abf5962ab36c951bab907a9952d09400651eab10/react/states_and_effects/introduction_to_state/imgs/00.png)
 
 What we covered in this section is just a brief overview of a portion of React internals. You may be curious to learn more, but be advised, this is a deep rabbit hole. What we covered above is enough to get you through the React course. 
 
