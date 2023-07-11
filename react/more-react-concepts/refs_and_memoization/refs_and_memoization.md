@@ -1,6 +1,6 @@
 ### Introduction
 
-How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it even possible in React because of its declarative nature? How about memoization? As we all know, when a state has been changed, React will try to re-render the component, which means that it will destroy all local variables not controlled by React and re-execute them. This mental model also works for a regular function that you create, as a component is just a function. Since this is the case, wouldn't it slow down the app if we have a very expensive calculation re-executed with each re-render?
+How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it even possible in React because of its declarative nature? How about performance optimization? As we all know, when a state has been changed, React will try to re-render the component, which means that it will destroy all local variables not controlled by React and re-execute them. This mental model also works for a regular function that you create, as a component is just a function. Since this is the case, wouldn't it slow down the app if we have a very expensive calculation re-executed with each re-render?
 
 ### Lesson Overview
 
@@ -11,7 +11,9 @@ This section contains a general overview of topics you will learn in this lesson
 
 ### The useRef hook
 
-The `useRef` hook provides a way to directly access and interact with DOM elements and Child components in React. They are often used when performing imperative actions or accessing specific elements rendered in the DOM. Refs can also *persist* values throughout the component's lifecycle, meaning that the value of the ref will not be destroyed every time a component re-renders. This is very useful when you want to store a value that you want to persist throughout the component's lifecycle without storing it in a state.
+The `useRef` hook lets you manage a value that's not needed for rendering. They are an alternative to state, as when you want a component to “remember” some information, but you don't want that information to trigger new renders, you can use this hook.
+	
+They are often used when performing imperative actions or accessing specific elements rendered in the DOM. Refs can also *persist* values throughout the component's lifecycle, meaning that the value of the ref will not be destroyed every time a component re-renders. This is very useful when you want to store a value that you want to persist throughout the component's lifecycle without storing it in a state.
 
 #### DOM manipulation
 
@@ -35,10 +37,10 @@ function ButtonComponent() {
 
 The implementation is straightforward:
 
-1. We imported `useRef` and `useEeffect` in the `react` module.
-2. We created a ref object `buttonRef` with a `current` property initially set to `null`. Yes, passing an argument to `useRef` sets the value of `current` to `null` just like `useState`. This argument is ignored in subsequent renders.
-3. Created a `useEffect` to be executed once on the mount of the component that will try to call the `focus` method of the button element.
-4. We've attached `buttonRef` to the `ref` attribute of the button element. This establishes the connection between the `buttonRef` and the button in the DOM.
+1. We imported `useRef` and `useEffect` in the `react` module.
+1. We created a ref object `buttonRef` with a `current` property initially set to `null`. Yes, passing an argument to `useRef` sets the value of `current` to `null` just like `useState`. This argument is ignored in subsequent renders.
+1. Created a `useEffect` to be executed once on the mount of the component that will try to call the `focus` method of the button element.
+1. We've attached `buttonRef` to the `ref` attribute of the button element. This establishes the connection between the `buttonRef` and the button in the DOM.
 
 Whenever your website loads, it will automatically focus on the button element. You might ask, how can it have the `focus` method when the initial value is `null`? You should by now know that `rendering` and `painting of the screen` comes first before React runs the `useEffect`. It has already established the connection between the ref and the button before the effect is executed.
 
@@ -58,15 +60,15 @@ useEffect(() => {
 }, []);
 ~~~
 
-The best thing about this is that this will **never** trigger a component re-render!
+The interesting thing about this is that this will **never** trigger a component re-render!
 
-Another question that might pop up in your mind is, "Why not just use `querySelector` or other DOM manipulation methods that we've done previously in vanilla JavaScript?" Primarily because of performance and using the hook with React, it's ensured that it will be optimized. We should also not stray outside React and use the provided API to work on their ecosystem.
+Another question that might pop up in your mind is, "Why not just use `querySelector` or other DOM manipulation methods that we've done previously in vanilla JavaScript?" Dealing with the DOM ourselves defeats the purpose of using React, and wherever possible we should let React _commit_ to the DOM itself.
 
 We can also see that it's similar to the `useState` hook in that it can store some values. The main difference is that `useRef` creates a mutable reference, allowing you to update its value without triggering a re-render. But, `useState` manages an immutable state that triggers re-renders when updated.
 
 ### The useMemo hook
 
-In all of the examples, I would advise you to use the [Profiler component](https://react.dev/reference/react/Profiler) that is provided in the `react` module. If you want a more interactive alternative, use the `Profiler` in the [React Developer Tools](https://react.dev/learn/react-developer-tools). To measure rendering performance. Note that sometimes you don't need to optimize anything because of how fast things are already. As the famous saying goes in software development:
+In all of the examples, we would advise you to use the [Profiler component](https://react.dev/reference/react/Profiler) that is provided in the `react` module. If you want a more interactive alternative, use the `Profiler` in the [React Developer Tools](https://react.dev/learn/react-developer-tools). To measure rendering performance. Note that sometimes you don't need to optimize anything because of how fast things are already. As the famous saying goes in software development:
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
@@ -98,7 +100,7 @@ function Cart({ products }) {
 }
 ~~~
 
-In our `Cart` component, we have the total price of the products calculated directly inside the component. Every time the component is rendered or updated, the calculation is performed from scratch! That doesn't sound good... What if the user has added many products to the cart? Then it will lead to a sluggish user experience.
+In our `Cart` component, we have the total price of the products calculated directly inside the component. Every time the component is rendered or updated, the calculation is performed from scratch! That doesn't sound good... What if the user has added hundreds of thousands of products to the cart? Then it will lead to a sluggish user experience.
 
 The `reduce` method iterates over each product and performs multiplication and addition for every item in the cart. This operation becomes *increasingly* time-consuming as the number of products increases.
 
@@ -107,7 +109,7 @@ Now imagine a user who frequently opens/closes the cart. Every time the drawer i
 Let's see how we can use `useMemo` to address this:
 
 ~~~jsx
-import { useMemo } from "react"; // import the `useMemo` hook in the react module
+import { useMemo } from "react";
 
 function Cart({ products }) {
   const totalPrice = useMemo(() => {
@@ -134,19 +136,6 @@ In the example above, we can easily memoize the calculated value by wrapping it 
 
 This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as`products` did not change.
 
-You can also do an implicit return if you prefer:
-
-~~~jsx
-const totalPrice = useMemo(
-  () =>
-    products.reduce(
-      (total, product) => total + product.price * product.quantity,
-      0
-    ),
-  []
-);
-~~~
-
 #### Referential equality checks
 
 For this example, we will use the `Profiler` component in the `react` module to measure the component's performance. We will also introduce `memo`.
@@ -154,7 +143,7 @@ For this example, we will use the `Profiler` component in the `react` module to 
 Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
 
 ~~~jsx
-import { useState } from "react";
+import { useState, Profiler } from "react";
 
 const ButtonComponent = ({ children, onClick }) => {
   // To simulate slowing down of the component
@@ -353,24 +342,25 @@ const handleClick = useCallback(
 const memoizedHandleClick = useCallback(handleClick, []);
 ~~~
 
-<a name="usememo-or-usecallback"></a>
+<span id="usememo-or-usecallback"></span>
 Yay, there's only one arrow function, and it's simpler to read. There's nothing extra to `useCallback` other than it only memoizes functions. So the main difference between `useMemo` and `useCallback` is just the type of value it returns.
 
-Which one should I use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
+Which one should we use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. The article [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback) by Kent C. Dodds further introduces more examples of when to use `useMemo` and `useCallback` and why you shouldn't bother using it.
-2. We've only learned about a basic implementation of the `useRef` hook. For more examples about its usage and why we should be wary of using the hook (more on the links they provided in the guide), check out the [interactive guide of the React documentation](https://react.dev/reference/react/useRef) for `useRef`. Try your best to complete all the challenges!
-3. The article [useRef instead of querySelector in React](https://meje.dev/blog/useref-not-queryselector) by Caleb Olojo briefly tells some unexpected behaviors when trying to manipulate the DOM directly with DOM manipulation methods and why we should prefer `useRef` over other DOM manipulation methods like `querySelector`. Check it out!
+1. We've only learned about a basic implementation of the `useRef` hook. For more examples about its usage and why we should be wary of using the hook (more on the links they provided in the guide), check out the [interactive guide of the React documentation](https://react.dev/reference/react/useRef) for `useRef`. Try your best to complete all the challenges!
+1. The article [useRef instead of querySelector in React](https://meje.dev/blog/useref-not-queryselector) by Caleb Olojo briefly tells some unexpected behaviors when trying to manipulate the DOM directly with DOM manipulation methods and why we should prefer `useRef` over other DOM manipulation methods like `querySelector`. Check it out!
+1. As we have learned, the `useRef` hook has other uses other than what we've primarily covered which is DOM Manipulation. Get to know more about its use-cases in this great article by Dan Abramov [Making setInterval Declarative with React Hooks](https://overreacted.io/making-setinterval-declarative-with-react-hooks/).
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
 
 - [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://meje.dev/blog/useref-not-queryselector)
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
@@ -381,4 +371,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- The `memo` function is super simple that's why we didn't cover it too much, but if you want to know more about it, especially if you want to create your own logic for the `memo` function go to the [documentation for memo](https://react.dev/reference/react/memo).
