@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 -  What is a "stack overflow" (the concept, not the website)?
 -  Why is that relevant to a recursive problem?
 
-### Assignment 
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
   1. Read [this recursion resource](https://javascript.info/recursion) for a good intro to recursion.
