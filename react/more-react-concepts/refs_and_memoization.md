@@ -291,6 +291,9 @@ Yay, there's only one arrow function, and it's simpler to read. There's nothing 
 
 Which one should we use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
 
+### Conclusion
+Phew, this was a long lesson. Refs and memoization are difficult concepts to grasp, but we're sure you'll understand them with practice. Refs particularly are really useful for some use-cases, as for memoization, only reach out to it when you absolutely need it. These topics also make for great interview questions, so make sure you know the difference between `useMemo` and `useCallback`!
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
