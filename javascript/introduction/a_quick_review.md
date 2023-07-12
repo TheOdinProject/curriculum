@@ -10,6 +10,7 @@ It might also be a good idea to do a little practicing before moving on. If you 
 
 - [Exercism](http://exercism.io/)
 - [CodeWars](https://www.codewars.com/)
+- [w3schools](https://www.w3schools.com/js/default.asp)
 
 ### jQuery?
 

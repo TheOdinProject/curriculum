@@ -52,7 +52,7 @@ I love drinking coffee
 ~~~
 
 ### Input Commands
-To accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for user input. After the user presses `Enter`, the program will continue its execution.
+To accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for user input. After the user presses <kbd>Enter</kbd>, the program will continue its execution.
 
 Let's give this a go. Open irb, type `gets`, and then type `The Odin Project`. You should see something like the following:
 

@@ -108,7 +108,7 @@ In true Ruby style, there are plenty of ways to concatenate strings.
 Classic Ruby!
 
 #### Substrings
-You can access strings inside strings inside strings. Stringception! It's super easy, too.
+You can access strings inside strings. Stringception! It's super easy, too.
 
 ~~~ruby
 "hello"[0]      #=> "h"

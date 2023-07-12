@@ -311,14 +311,8 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 2. grid-layout-3
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
-
-- More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
-- If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
-- Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
-
 ### Knowledge Check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [How do you create several grid tracks of the same size without manually typing each one out?](#repeat)
@@ -330,3 +324,12 @@ This section contains questions for you to check your understanding of this less
 - [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
 - [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+- More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
+- If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
+- Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
+

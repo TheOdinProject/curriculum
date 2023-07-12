@@ -2,7 +2,7 @@
 
 So here it is: it's time to actually start _making things_. This section will teach you the basics of HTML and CSS, the two foundational building blocks of pretty much everything on the web.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -22,7 +22,7 @@ Many great resources out there keep referring to HTML and CSS as _programming la
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -31,7 +31,7 @@ This section contains questions for you to check your understanding of this less
 -   [Between HTML and CSS, which would you use for changing the font and background color of a button?](#html-and-css)
 -   [What is the difference between HTML, CSS and JavaScript?](https://brytdesigns.com/html-css-javascript-whats-the-difference/)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
