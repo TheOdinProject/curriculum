@@ -175,7 +175,3 @@ This section contains helpful links to related content. It isn’t required, so 
 *   [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
 *   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
 *   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
-<<<<<<< HEAD
--   [AI for Education](https://www.khanacademy.org/college-careers-more/ai-for-education/x68ea37461197a514:ai-for-education-unit-1#x68ea37461197a514:ai-new-tools-for-a-new-age) Learn about some ways to use AI in a constructive way on your learning journey.
-=======
->>>>>>> 0e6c330f31efb85b95674437ee94c2fae8c8cfe8
