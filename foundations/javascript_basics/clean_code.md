@@ -57,6 +57,12 @@ Example B represents clean code. While you may not know  what each part does, it
 
 Single characters can be used as variable names in the context of a loop or a callback function, but avoid them elsewhere.
 
+#### About camelCase
+
+camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the second word (and any subsequent words) are capitalized.
+
+Throughout this lesson most of our variables and functions (at least on the good examples!) will be named using camelCase. It's a good example to follow.
+
 ### Naming functions and variables
 
 In our first example we already touched on the importance of naming things _meaningfully_. Let's break down further what makes a good variable or function name.
@@ -130,15 +136,7 @@ setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
 
 Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. 
 
-You might wonder why this variable is declared with all caps. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
-
-#### About camelCase
-
-Now that we are on the topic of capitalization, it's important to mention camelCase. 
-
-camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the second word (and any subsequent words) are capitalized.
-
-Throughout this lesson most of our variables and functions (at least on the good examples!) have been named using camelCase. It's a good example to follow.
+You might wonder why this variable is declared with all caps, when we have recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
 
 ### Indentation and line length
 
@@ -247,6 +245,21 @@ In the better example, the comment clarifies the purpose of the function: moving
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
 _This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assingment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
+
+Let's look at a one final example, where a comment serves a good purpose:
+
+~~~javascript
+
+function calculateBMI(height, weight) {
+    // The formula for BMI is weight in kilograms divided by height in meters squared
+  const heightInMeters = height / 100;
+  const bmi = weight / (heightInMeters * heightInMeters);
+  return bmi;
+}
+~~~
+
+This comment helps to refresh the reader on how BMI is calculated in plain English, helping the reader to see why the height needs to be converted and what the following calculation is doing. We are almost there just with the naming but the comment still adds further clarity.
+
 
 ### In conclusion
 
