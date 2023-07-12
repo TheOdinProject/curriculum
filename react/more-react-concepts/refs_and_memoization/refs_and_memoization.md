@@ -140,20 +140,22 @@ This way, whenever a user opens/closes the cart multiple times, it will not reca
 
 For this example, we will use the `Profiler` component in the `react` module to measure the component's performance. We will also introduce `memo`.
 
+You do not need to start a React application for this. We've already got you covered a bit later, we will be sharing an interactive example, but for now, think through the code on what you think will happen, what could happen, and so on. This could also be a great exercise in reading code and visualizing how it works.
+
 Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
 
 ~~~jsx
-import { useState, Profiler } from "react";
+import React, { useState } from 'react';
 
 const ButtonComponent = ({ children, onClick }) => {
-  // To simulate slowing down of the component
   let i = 0;
   let j = 0;
-  while (i < 10_000) {
-    while (j < 10_000) {
-      j++;
+  const ITERATION_COUNT = 10_000;
+  while (i < ITERATION_COUNT) {
+    while (j < ITERATION_COUNT) {
+      j += 1;
     }
-    i++;
+    i += 1;
     j = 0;
   }
 
@@ -171,30 +173,10 @@ function Counter() {
     setCount((prevState) => prevState + 1);
   };
 
-  const onRender = (
-    id,
-    phase,
-    actualDuration,
-    baseDuration,
-    startTime,
-    commitTime
-  ) => {
-    console.log({
-      id,
-      phase,
-      actualDuration,
-      baseDuration,
-      startTime,
-      commitTime,
-    });
-  };
-
   return (
     <div>
       <h1>{count}</h1>
-      <Profiler id="button-component" onRender={onRender}>
         <ButtonComponent onClick={handleClick}>Click me!</ButtonComponent>
-      </Profiler>
     </div>
   );
 }
@@ -203,8 +185,6 @@ function Counter() {
 You will likely want to have a separate button component where you can handle stylings and other things in it. So we have created a component called `ButtonComponent` as an example. This component takes the `children` and `onClick` props.
 
 We can see that the click handler is defined in the `Counter` component, and we've passed it to the `onClick` prop of the `ButtonComponent`.
-
-Whenever you click the button, notice the `actualDuration`, `baseDuration`, `startTime`, and `commitTime` logged into the console. As for what they are, kindly read the brief explanations of each of the [onRender Parameters](https://react.dev/reference/react/Profiler#onrender-parameters) in their documentation.
 
 We know that a component renders whenever either state changes or prop changes. Anything inside that is not controlled by React is destroyed and re-executed. Functions, variables, etc. As a result, the function `handleClick` is re-created each time, and the prop `onClick` of the `ButtonComponent` also changes. Alright, so how can `useMemo` help in here?
 
@@ -229,22 +209,20 @@ const handleClick = useMemo(
 );
 ~~~
 
-After adding the `useMemo` hook, you might notice that you didn't see any difference at all. It's still very slow! The props shouldn't change anymore, then why? That's because whenever a component's `state` changes. It will also **always** re-render its children. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo](https://react.dev/reference/react/memo) function that lets you skip re-rendering a component when its props are unchanged. We can use this `memo` and wrap the `ButtonComponent` in it.
-
-Here is the complete code. Kindly test both the `handleClick` and `memoizedHandleClick` functions and play around by swapping those two to the `onClick` prop in `ButtonComponent`. You will quickly notice significant changes in performance and the logged object in the console.
+Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its childen, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo](https://react.dev/reference/react/memo) function that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
 
 ~~~jsx
-import { memo, Profiler, useMemo, useState } from "react";
+import React, { useState, memo } from 'react';
 
-// We wrap the ButtonComponent with a memo
 const ButtonComponent = memo(({ children, onClick }) => {
   let i = 0;
   let j = 0;
-  while (i < 10*000) {
-    while (j < 10*000) {
-      j++;
+  const ITERATION_COUNT = 10_000;
+  while (i < ITERATION_COUNT) {
+    while (j < ITERATION_COUNT) {
+      j += 1;
     }
-    i++;
+    i += 1;
     j = 0;
   }
 
@@ -254,54 +232,20 @@ const ButtonComponent = memo(({ children, onClick }) => {
     </button>
   );
 });
-
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  const handleClick = () => {
-    setCount((prevState) => prevState + 1);
-  };
-
-  const memoizedHandleClick = useMemo(() => handleClick, []);
-
-  const onRender = (
-    id,
-    phase,
-    actualDuration,
-    baseDuration,
-    startTime,
-    commitTime
-  ) => {
-    console.log({
-      id,
-      phase,
-      actualDuration,
-      baseDuration,
-      startTime,
-      commitTime,
-    });
-  };
-
-  return (
-    <div>
-      <h1>{count}</h1>
-      <Profiler id="button-component" onRender={onRender}>
-        {/* Swap memoizedHandleClick with handleClick and vice versa */}
-        <ButtonComponent onClick={memoizedHandleClick}>
-          Click me!
-        </ButtonComponent>
-      </Profiler>
-    </div>
-  );
-}
 ~~~
 
-Two scenarios that should happen here:
+Wrapping the component with a `memo` pretty much prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` changes or if its own `state` changes _if any_.
 
-1. If you've passed `handleClick` and the `ButtonComponent` has a memo. It will still re-render. Referential equality check fails (previous prop is *not equal* to the current prop).
-2. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a memo. It will not re-render. Referential equality check passes (previous prop is *equal* to the current prop).
+With all that said and done, test and break things in our interactive example:
 
-This works with all values that will be passed as a prop. You might see it being used frequently with the Context API.
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1" allowfullscreen></iframe>
+
+These are the scenarios that could happen:
+
+1. If you've passed `handleClick` and the `ButtonComponent` has a `memo`. It will still re-render. Referential equality check fails (previous prop is *not equal* to the current prop).
+1. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a `memo`. It will not re-render. Referential equality check passes (previous prop is *equal* to the current prop).
+
+This works with all values that will be passed as a prop. You might see it being used frequently with the Context API:
 
 ~~~jsx
 const value = useMemo(
