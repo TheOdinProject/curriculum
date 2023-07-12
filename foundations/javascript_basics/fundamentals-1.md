@@ -55,7 +55,11 @@ JavaScript files have the extension `.js` similar to `.css` for stylesheets. Ext
 
 ### Variables
 
-You can think of variables as simply "storage containers" for data in your code. <span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
+You can think of variables as simply "storage containers" for data in your code. 
+
+![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
+
+<span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
 
 1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
 
@@ -87,7 +91,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
     * Declare a constant variable `max` with the value `57`
     * Set another variable `actual` to `max - 13`
     * Set another variable `percentage` to `actual / max`
-    * If you type `percentage` in the console and press enter you should see a value like `0.7719`
+    * If you type `percentage` in the console and press <kbd>Enter</kbd> you should see a value like `0.7719`
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._

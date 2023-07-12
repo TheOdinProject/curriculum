@@ -110,7 +110,7 @@ div.setAttribute('style', 'color: blue; background: white;');
 // adds several style rules
 ~~~
 
-See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com/#6.2) for more info on inline styles.
+See DOM Enlightenment's [section on CSS Style rules](https://domenlightenment.com/#6.2) for more info on inline styles.
 
 Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need to use camelCase or you'll need to use bracket notation instead of dot notation.
 
@@ -118,7 +118,7 @@ Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
-div.style.cssText = "background-color: white;" // ok in a string
+div.style.cssText = "background-color: white;" // sets the div's background-color by assigning a CSS string
 ~~~
 
 #### Editing Attributes
@@ -386,7 +386,7 @@ You can find a more complete list with explanations of each event on [this page]
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with _every day_ as a front-end developer, so let's practice!
 
-1.  Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. In the video you will notice that a deprecated [keycode](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) keyboard event is used, replace it with the recommended [code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) keyboard event. 
+1.  Grab the first exercise in Wes Bos's JavaScript30 program by cloning the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Code along with the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) to build the rest of the exercise. In the video you will notice that a deprecated [keycode](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) keyboard event is used, replace it with the recommended [code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) keyboard event and replace the `data-key` tags accordingly.
 2.  Watch the [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program. If you want to code along with the video, you can use the contents of folder #25 from the repo you cloned above.
 
 </div>
@@ -395,22 +395,22 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#dom-document-object-model">What is the DOM?</a>
-*   <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
-*   [How do you create an element in the DOM?]("#element-creation)
-*   [How do you add an element to the DOM?]("#append-elements)
-*   [How do you remove an element from the DOM?]("#remove-elements)
-*   [How can you alter an element in the DOM?]("#altering-elements)
-*   [When adding text to a DOM element, should you use textContent or innerHTML? Why?]("https://www.youtube.com/watch?v=ns1LX6mEvyM)
-*   [Where should you include your JavaScript tag in your HTML file when working with DOM nodes?]("#important-note)
-*   [How do "events" and "listeners" work?]("#events)
-*   [What are three ways to use events in your code?]("#events)
-*   [Why are event listeners the preferred way to handle events?]("#attaching-listeners-to-groups-of-nodes)
-*   [What are the benefits of using named functions in your listeners?]("#method-3)
-*   [How do you attach listeners to groups of nodes?]("#attaching-listeners-to-groups-of-nodes)
-*   [What is the difference between the return values of `querySelector` and `querySelectorAll`?]("#query-selectors)
-*   [What does a "nodelist" contain?]("#query-selectors)
-*   [Explain the difference between "capture" and "bubbling".]("https://www.youtube.com/watch?v=F1anRyL37lE)
+*   [What is the DOM?](#dom-document-object-model)
+*   [How do you target the nodes you want to work with?](#targeting-nodes-with-selectors)
+*   [How do you create an element in the DOM?](#element-creation)
+*   [How do you add an element to the DOM?](#append-elements)
+*   [How do you remove an element from the DOM?](#remove-elements)
+*   [How can you alter an element in the DOM?](#altering-elements)
+*   [When adding text to a DOM element, should you use textContent or innerHTML? Why?](https://www.youtube.com/watch?v=ns1LX6mEvyM)
+*   [Where should you include your JavaScript tag in your HTML file when working with DOM nodes?](#important-note)
+*   [How do "events" and "listeners" work?](#events)
+*   [What are three ways to use events in your code?](#events)
+*   [Why are event listeners the preferred way to handle events?](#attaching-listeners-to-groups-of-nodes)
+*   [What are the benefits of using named functions in your listeners?](#method-3)
+*   [How do you attach listeners to groups of nodes?](#attaching-listeners-to-groups-of-nodes)
+*   [What is the difference between the return values of `querySelector` and `querySelectorAll`?](#query-selectors)
+*   [What does a "nodelist" contain?](#query-selectors)
+*   [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
@@ -422,3 +422,4 @@ This section contains helpful links to related content. It isn’t required, so 
 *   This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
 *   [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
 *   [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
+*   [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) by MDN covers the same topics you learned in this lesson on events.

@@ -25,7 +25,7 @@ The syntax for declaring and accessing a custom property is really simple and no
 }
 ~~~
 
-That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of single hyphens to separate words is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a simple color value, shorthand values, or even a more complex function, just to give you a few examples.
+That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of Kebab case (single hyphens to separate words) is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a simple color value, shorthand values, or even a more complex function, just to give you a few examples.
 
 When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
 
@@ -133,18 +133,22 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) page starting at the "Inheritance of custom properties" section.
-2. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
-</div>
-
-### Additional Resources
-
 1. This [video on CSS custom properties](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction. Go ahead and watch it.
+2. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#inheritance_of_custom_properties) page starting at the "Inheritance of custom properties" section.
+3. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
+</div>
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href='#using-custom-properties'>How would you declare a custom property with a name of `text-color`?</a>
-* <a class="knowledge-check-link" href='#using-custom-properties'>How would you access a custom property with a name of `background-color`?</a>
-* <a class="knowledge-check-link" href='#scope'>Where would you declare a custom property to have its scope be global and accessible by all other selectors?</a>
-* <a class="knowledge-check-link" href='#creating-themes-with-custom-properties'>Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?</a>
+* [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
+* [How would you access a custom property with a name of `background-color`?](#using-custom-properties)
+* [Where would you declare a custom property to have its scope be global and accessible by all other selectors?](#scope)
+* [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+- It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.
+
+

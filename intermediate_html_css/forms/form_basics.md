@@ -489,27 +489,29 @@ Certain aspects of other elements are downright impossible to style, for example
 
 <div class="lesson-content__panel" markdown="1">
 
-####Form Basics
+#### Form Basics
 
 1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides)
 2. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
 
-####Styling Forms
+#### Styling Forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
 2. Read and follow along to [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>
 
-### Additional Resources
-
-- [Web.dev's Form Course](https://web.dev/learn/forms/)
-
 ### Knowledge Check
 
-- <a class="knowledge-check-link" href='#the-form-element'>Explain what the form element is for and what two attributes it should always include.</a>
-- <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>
-- <a class="knowledge-check-link" href='#the-name-attribute'>What is the `name` attribute for?</a>
-- <a class="knowledge-check-link" href='#selection-elements'>What are the three most common form controls you can use for allowing users to select predefined options?</a>
-- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in HTML?</a>
-- <a class="knowledge-check-link" href='#a-note-on-styling-forms'>What are the two most challenging aspects of styling forms?</a>
+- [Explain what the form element is for and what two attributes it should always include.](#the-form-element)
+- [Explain what form controls are at a high level.](#form-controls)
+- [What is the `name` attribute for?](#the-name-attribute)
+- [What are the three most common form controls you can use for allowing users to select predefined options?](#selection-elements)
+- [What are the three types of buttons in HTML?](#buttons)
+- [What are the two most challenging aspects of styling forms?](#a-note-on-styling-forms)
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+- [Web.dev's Form Course](https://web.dev/learn/forms/)

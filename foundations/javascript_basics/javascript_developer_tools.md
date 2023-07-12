@@ -25,7 +25,7 @@ There are three ways to open the Chrome Developer Tools menu:
 
 1.  From the `Chrome Menu` > `More Tools` > `Developer Tools`
 2.  Right-click anywhere on a webpage and select `Inspect`
-3.  Use the keyboard shortcut `F12` or `CTRL + Shift + C` (`option + command + C` on Mac)
+3.  Use the keyboard shortcut <kbd>F12</kbd> or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Mac: <kbd>Opt</kbd> + <kbd>Cmd</kbd> + <kbd>C</kbd>)
 
 ### Assignment
 
@@ -33,7 +33,7 @@ There are three ways to open the Chrome Developer Tools menu:
 
 Google has updated some of the required sections in the below tutorials and some elements have changed or no longer exist, but you can still follow along using the same functionality and tools that they cover. For example, you may be asked to inspect a button that is no longer on the page- you can still follow along and inspect existing elements without issue.
 
-1.  Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with:
+1.  Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with, and only read these:
     -  CSS
         1.  [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
         2.  [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)

@@ -38,7 +38,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Copy SSH link using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png)
 
-5.  Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir/index.html#home-directory-variation) covered variations of home folders - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
+5.  Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html#callout1) covered variations of home folders - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
     ![Creating a new directory](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png)
 
@@ -82,11 +82,12 @@ This section contains a general overview of topics that you will learn in this l
 
     MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
-2.  Add "Hello Odin!" to line 3 of README.md and save the file with "Ctrl+S" (or "Command+S" on Mac).
+2.  Add "Hello Odin!" to line 3 of README.md and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>).
 
     ![Edit README using text editor](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/12.png)
 
-3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing Ctrl + ` (backtick). Then type `git status`. You'll notice that README.md is now shown as not staged or committed.
+<!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
+3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type <code>git status</code>. You'll notice that README.md is now shown as not staged or committed.
 
     ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
 
@@ -176,7 +177,7 @@ There will be no confirmation or any output on the terminal after entering this 
 
 With that done, you can now choose to use either `git commit -m <your message here>` or `git commit` to type your message with Visual Studio Code!
 
-To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl + S</kbd> (or Mac equivalent) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
+To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
 
 ### Conclusion
 
@@ -210,4 +211,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+-   [Complete Git and GitHub Tutorial from Basics to Advance](https://www.youtube.com/watch?v=apGV9Kg7ics) -  by Kunal Kushwaha
+-   [Git - Reference](https://git-scm.com/docs)

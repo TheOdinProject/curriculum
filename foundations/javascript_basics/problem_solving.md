@@ -85,8 +85,9 @@ The user will enter a number from a prompt (popup box).
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
-Given your inputs, what are the steps necessary to return the desired output?
-The algorithm in pseudocode for this problem:
+#### Pseudocode
+What are the steps necessary to return the desired output?
+Here is an algorithm in pseudocode for this problem:
 
 ~~~text
 When a user inputs a number

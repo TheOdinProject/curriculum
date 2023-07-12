@@ -6,7 +6,7 @@ From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.
 
 > In computer science, divide and conquer (D&C) is an important algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
 
-There's also a right and wrong way to use recursion.  The fact is, any problem you can solve recursively you can also solve using the iterators that you know and love.  If you find yourself saying "why didn't I just use a `while` loop here?" then you probably should have.  You won't often end up using a recursive solution to a problem, but you should get a feel for when it might be a good idea.  Some problems also break down into far too many pieces and totally overwhelm your computer's memory.  There's a balance.
+There's also a right and wrong way to use recursion.  The fact is, any problem you can solve recursively, you can also solve using the iterators that you know and love.  If you find yourself saying "why didn't I just use a `while` loop here?" then you probably should have.  You won't often end up using a recursive solution to a problem, but you should get a feel for when it might be a good idea.  Some problems also break down into far too many pieces and totally overwhelm your computer's memory.  There's a balance.
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
@@ -40,10 +40,10 @@ This section contains a general overview of topics that you will learn in this l
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--  <a class="knowledge-check-link" href="#introduction">How would you briefly define a recursive function?</a>
--  <a class="knowledge-check-link" href="http://ruby.bastardsbook.com/chapters/recursion/">What is the point of recursion? Is it more efficient than using a plain loop?</a>
--  <a class="knowledge-check-link" href="https://youtu.be/mz6tAJMVmfM?t=193">What are the 2 essential parts in a recursive function?</a>
--  <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size">Why is "stack overflow" relevant to a recursive problem?</a>
+-  [How would you briefly define a recursive function?](#introduction)
+-  [What is the point of recursion? Is it more efficient than using a plain loop?](http://ruby.bastardsbook.com/chapters/recursion/)
+-  [What are the 2 essential parts in a recursive function?](https://youtu.be/mz6tAJMVmfM?t=193)
+-  [Why is "stack overflow" relevant to a recursive problem?](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size)
 
 ### Additional Resources
 

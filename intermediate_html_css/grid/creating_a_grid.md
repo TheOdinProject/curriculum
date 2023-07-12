@@ -49,7 +49,7 @@ But just as you learned in the flexbox lessons, grid items can *also* be grid co
 
 Since you’re coding along with our example (right?) you will notice it doesn’t look very grid-ish yet. A lot of resources on CSS Grid like to show you boxes and outlined grid tables right from the start. But if your grid container and grid items don’t have any borders you won't actually see these lines on the page. So don’t worry, they’re still there!
 
-If you inspect these elements on a webpage using developer tools, you will notice grid badges on the grid elements in the code. The Layout options of the dev tools allows you to select an overlay that can show these invisible lines, tracks and areas of the grid. You will read about using a browser’s developer tools in the assignment below and learn more on lines, tracks and areas in the next lesson.
+If you inspect these elements on a webpage using developer tools, you will notice grid badges on the grid elements in the code. The Layout options of the dev tools allows you to select an overlay that can show these invisible lines, tracks and areas of the grid. You will read about using a browser’s developer tools in the assignment below and learn more about lines, tracks, and areas in the next lesson.
 
 #### Columns and Rows
 
@@ -165,22 +165,26 @@ You can also try playing with the shorthand `gap` to set both the `row-gap` and 
 Now that you’ve made a grid you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also realize how CSS Grid can solve common layout problems. In the next couple lessons we will cover positioning elements and advanced grid attributes. But first, check out the links below that cover making the basics of a grid in more detail.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 - Read Parts I, II and III from [CSS-Tricks Complete Guide to Grid.](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - Watch this [short video](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) on Implicit vs Explicit Tracks from the Wes Bos CSS Grid course.
 - Look through the developer tools docs on inspecting CSS Grid for [Chrome.](https://developer.chrome.com/docs/devtools/css/grid/)
 </div>
 
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- [How does an HTML element become a grid item?](#setting-up-a-grid)
+- [What is the space between lines on the grid?](#setting-up-a-grid)
+- [How do you set gutters (also known as alleys) in the grid?](#gap)
+- [Describe what happens when you have more content than defined tracks.](#explicit-vs-implicit-grid)
+- [How could you change the size for those undefined tracks?](#explicit-vs-implicit-grid)
+
 ### Additional Resources
+
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces some additional concepts.
 
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- <a class="knowledge-check-link" href='#setting-up-a-grid'>How does an HTML element become a grid item?</a>
-- <a class="knowledge-check-link" href='#setting-up-a-grid'>What is the space between lines on the grid?</a>
-- <a class="knowledge-check-link" href='#gap'>How do you set gutters (also known as alleys) in the grid?</a>
-- <a class="knowledge-check-link" href='#explicit-vs-implicit-grid'>Describe what happens when you have more content than defined tracks.</a>
-- <a class="knowledge-check-link" href='#explicit-vs-implicit-grid'>How could you change the size for those undefined tracks?</a>

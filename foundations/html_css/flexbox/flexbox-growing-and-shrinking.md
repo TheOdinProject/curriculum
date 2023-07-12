@@ -26,7 +26,7 @@ Very often you see the flex shorthand defined with only _one_ value. In that cas
 
 For an interactive explanation and demo of the flex shorthand, check out this Scrim:
 
-<iframe src="https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 
 #### Flex-Grow
@@ -85,11 +85,9 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 2. This [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values as well as introduces some new syntax that hasn't been covered in the previous article.
 
-3. This [CSS Tricks](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/) article explains the individual flex-grow, flex-shrink and flex-basis properties in detail.
+3. Watch this interactive Scrim for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario:
 
-4. Watch this interactive Scrim for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario:
-
-<iframe src="https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 </div>
 

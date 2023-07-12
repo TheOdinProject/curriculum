@@ -42,12 +42,12 @@ Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#opacity'>Which property would you use to make an element transparent?</a>
-- <a class="knowledge-check-link" href='#background'>Which property would you use to make a background image tile?</a>
-- <a class="knowledge-check-link" href='#overflow'>Which property would you use to add scrollbars to an element?</a>
-- <a class="knowledge-check-link" href='#box-shadow'>Which property would you use to add a shadow behind an element?</a>
-- <a class="knowledge-check-link" href='#borders'>Which property would you use to create rounded corners on an element?</a>
-- <a class="knowledge-check-link" href='https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius'>How would you use border-radius to make a circular element?</a>
+- [Which property would you use to make an element transparent?](#opacity)
+- [Which property would you use to make a background image tile?](#background)
+- [Which property would you use to add scrollbars to an element?](#overflow)
+- [Which property would you use to add a shadow behind an element?](#box-shadow)
+- [Which property would you use to create rounded corners on an element?](#borders)
+- [How would you use border-radius to make a circular element?](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
 
 ### Additional Resources
 Throughout this lesson we have linked primarily to the MDN docs for each property... however there are _many_ useful reference sites across the web that can be useful and that may show up when searching these items.

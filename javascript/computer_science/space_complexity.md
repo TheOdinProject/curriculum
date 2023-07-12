@@ -1,8 +1,8 @@
 ### Introduction
 
-In the last lesson we focused on measuring complexity from the perspective of time. We learned about the various ways in which algorithm complexity can be measured and why Big O was the preferred way. We also showed some examples of how this applied to measuring the time complexity of an algorithm.
+In the last lesson, we focused on measuring complexity from the perspective of time. We learned about the various ways in which algorithm complexity can be measured and why Big O was the preferred way. We also showed some examples of how this applied to measuring the time complexity of an algorithm.
 
-In this lesson we'll focus on space complexity and see how the same notations we've already learned can be used to measure how a change in input for our algorithms can affect the amount of memory it uses.
+In this lesson, we'll focus on space complexity and see how the same notations we've already learned can be used to measure how a change in input for our algorithms can affect the amount of memory it uses.
 
 When we talk about memory, we mean primary memory, which is the working memory available to your system to execute algorithms. You can read more about the topic in this [GeeksforGeeks Primary Memory article](https://www.geeksforgeeks.org/primary-memory/).
 
@@ -107,7 +107,7 @@ That's why we won't be diving into examples for other Big O notations with space
 
 #### Other considerations
 
-One of the common areas that causes confusion when considering space complexity is what constitutes using space in the context of an algorithm. In an earlier example we wrote methods that duplicated an array and hash argument. We did that to be explicit. But what if we'd written the method as:
+One of the common areas that causes confusion when considering space complexity is what constitutes using space in the context of an algorithm. In an earlier example we wrote methods that duplicated an array and object argument. We did that to be explicit. But what if we'd written the method as:
 
 ~~~js
 function sumArr(arr) {
@@ -146,9 +146,9 @@ On top of these considerations, you also need to balance the readability of your
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#what-do-we-mean-by-space-complexity">What is space complexity?</a>
-*   <a class="knowledge-check-link" href="#measuring-space-complexity">How do we measure space complexity?</a>
-*   <a class="knowledge-check-link" href="#other-considerations">What are the main considerations we should consider before optimising code?</a>
+*   [What is space complexity?](#what-do-we-mean-by-space-complexity)
+*   [How do we measure space complexity?](#measuring-space-complexity)
+*   [What are the main considerations we should consider before optimising code?](#other-considerations)
 
 ### Additional Resources
 
