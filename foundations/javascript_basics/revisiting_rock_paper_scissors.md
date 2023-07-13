@@ -18,7 +18,7 @@ You can make new branches by using the command `git branch <branch_name>`. You c
 
 You can see all of your current branches using `git branch` with no other arguments. The branch that you’re currently on will be indicated with an asterisk. If you want to change back to `main` from any other branch, you can do so just like changing to any other branch using `git checkout main`.
 
-Once you’re done working on your feature branch and ready to bring the commits that you’ve made on it to your main branch,  you need to perform what is known as a `merge`.
+Once you are done working on your feature branch and are ready to bring the commits that you’ve made on it to your main branch, you will need to perform what is known as a `merge`.
 
 Merges are done by using the command `git merge <branch_name>` which will take the changes you’ve committed in `branch_name` and add them to the branch that you’re currently on. You can see an example of a `develop` branch being created, committed to, and then merged to `main` in the diagram below.
 
