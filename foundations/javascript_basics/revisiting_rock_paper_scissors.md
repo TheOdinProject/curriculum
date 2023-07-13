@@ -37,9 +37,9 @@ gitGraph
    merge develop id: "merge to main"
 </pre>
 
-Sometimes the same lines in a file will have been changed by two different branches. When this happens you will have a merge conflict when you try and merge those branches together. In order to finish merging the branches you will have to first resolve the conflict, which will be covered in a future lesson.
+Sometimes,the same lines in a file will have been changed by two different branches. When this happens, you will have a merge conflict when you try and merge those branches together. In order to finish merging the branches you will have to first resolve the conflict, which will be covered in a future lesson.
 
-When you don’t need a branch anymore it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main`, or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
+When you don’t need a branch anymore, it can be deleted using `git branch -d <branch_name>` if the branch has already been merged into `main`, or with `git branch -D <branch_name>` if it hasn’t. You will usually want to delete branches when you’re done with them, otherwise they can pile up and make it more difficult to find the branch you’re looking for when you need it.
 
 ### Sharing Code
 
@@ -79,6 +79,6 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- Actively learn the Git workflows discussed in this lesson with this [interactive **Visual Git Cheatsheet**](https://ndpsoftware.com/git-cheatsheet.html#loc=index;) by Andrew Peterson. **It's okay to be unfamiliar** with the variety of commands you'll interact with. You'll learn about the ones you're unfamiliar with later in the curriculum.
+- Actively learn the Git workflows discussed in this lesson with this [interactive **Visual Git Cheatsheet**](https://ndpsoftware.com/git-cheatsheet.html#loc=index;) by Andrew Peterson. **It's okay to be unfamiliar** with the variety of commands you'll interact with. You'll learn about them later in the curriculum.
 - Make pushing your local commits to remote branches **easier** with the command `git push -u origin <branch>`. It automatically links the local branch you push with the remote one. [Read this educative.io article](https://www.educative.io/edpresso/what-is-the-git-push--u-remote-branch-name-command) by Talha Ashar and commit faster to a remote branch with a simple `git push` command.
 - Learn Git Branching by going through this [interactive visualizer](https://learngitbranching.js.org/) by Peter Cottle. You can learn the substantial commands about branching while seeing how the commands you write affect your visually presented branch tree.
