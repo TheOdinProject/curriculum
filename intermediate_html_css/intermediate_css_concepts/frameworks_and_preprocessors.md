@@ -62,6 +62,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [Bootstrap documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+* [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 * [Tailwind documentation](https://tailwindcss.com/docs)
 * [SASS documentation](https://sass-lang.com/documentation)
