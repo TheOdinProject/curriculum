@@ -156,11 +156,11 @@ Students often compare themselves to others who are farther along in their codin
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 
-#### Taking Notes
+#### Counter Productive Note-Taking
 
-Taking notes may sound productive and useful at first, but The Odin Project does not recommend taking notes throughout your educational journey.
+The Odin Project does not recommend taking a specific type of notes throughout your educational journey.
 
-**Solution:** People often end up wasting a significant amount of time taking notes on various topics, some of which may not be very important. The act of note-taking can also lead to bad code due to relying on obscure or outdated information that was jotted down. Instead, notes can serve as prompts for further research rather than direct references. In programming, most information is readily available online. Therefore, it becomes crucial to develop the skill of knowing where to look for help, especially when it comes to documentation. Documentation essentially acts as pre-existing notes crafted by someone else, we don't need to reinvent the wheel. 
+**Solution:** Note-taking can be time-consuming and often leads to wasted effort. Instead of using notes as direct references, they can serve as prompts for further research. The Odin Project aims to make you comfortable with reading documentation, which essentially acts as pre-existing notes made by someone else.
 
 ### Conclusion
 
