@@ -269,9 +269,22 @@ Now we have both requests firing as soon as Profile renders. The request for ima
 
 ### Data fetching libraries
 
-React Query
+!TODO React Query section
 
-More reading
-https://react.dev/learn/you-might-not-need-an-effect#fetching-data
-https://www.developerway.com/posts/how-to-fetch-data-in-react
-https://react.dev/learn/separating-events-from-effects
+### Knowledge Check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- <a class="knowledge-check-link" href="#using-fetch-in-react-components">How can you fetch data from an API in React?</a>
+- <a class="knowledge-check-link" href="#handling-errors">Why should you manually throw errors in fetch requests?</a>
+- <a class="knowledge-check-link" href="#managing-multiple-fetch-requests">How can you avoid waterfalling requests?</a>
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) for a brief overview of what was discussed in this lesson. 
+2. Read this article [How to fetch data in React with performace in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
+
+
+</div>
