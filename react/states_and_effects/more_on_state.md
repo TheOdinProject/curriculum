@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### How to structure state
 
-Managing and structuring state effectively is by far one of the most crucial parts of building your application. If not done correctly, it can become a source of bugs and headaches.   
+Managing and structuring state effectively is by far one of the most crucial parts of building your application. If not done correctly it can become a source of bugs and headaches.   
 
 The assignment items go through the topic thoroughly, but as a general rule of thumb: don't put values in state that can be calculated using existing values, state, and/or props. 
 
@@ -55,13 +55,13 @@ function Person() {
 
 #### Nested objects and arrays in state
 
-In the above example, notice how we had to copy the existing state object. Herein lies another lesson, nested objects and arrays as state can get tricky fast, since you will have to replicate the nested items as well. Be careful when using them.
+In the above example, notice how we had to copy the existing state object. Herein lies another lesson, nested objects and arrays as state can get tricky fast since you will have to replicate the nested items as well. Be careful when using them.
 
 </div>
 
 ### How state updates
 
-State updates are asynchronous. What this implies is whenever you call the `setState` function, React will apply the update in the **next** component render. This concepts takes a while to wrap your head around. With a lot of practice, you'll get the hand of it no time.
+State updates are asynchronous. What this implies is whenever you call the `setState` function, React will apply the update in the **next** component render. This concepts takes a while to wrap your head around. With a lot of practice, you'll get the hang of it no time.
 
 Remember, state variables aren't reactive, the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 
@@ -97,7 +97,7 @@ These are the logs:
 Uh oh, what is happening? Let's break it down (ignore the double `console.logs` for the render case, this is covered in the upcoming lessons).
 
 1. The component renders for the first time. The `person` state variable is initialized to `{ name: 'John', age: 100 }`. The "during render" `console.log` prints the state variable.
-1. The button is clicked invoking `handleIncreaseAge`. Interestingly, the `console.log` before and after the `setPerson` call print the same value.
+1. The button is clicked invoking `handleIncreaseAge`. Interestingly, the `console.log` before and after the `setPerson` call prints the same value.
 1. The component re-renders. The `person` state variable is updated to `{ name: 'John', age: 101 }`. 
 
 The `person` state stays the same throughout the current render of the component. This is what "state as a snapshot" refers to. The `setState` call triggers a component re-render and the `person` state is updated to the new value.
@@ -133,7 +133,7 @@ const handleIncreaseAge = () => {
 }
 ~~~
 
-Surely, it increase the age by 2? Nope. The above code is saying to React, 
+Surely, it increase the age by 2? Nope. The above code is saying to React:
 
 > Hey, replace the current render's `person` with an increase in age by 1. Then, replace the current render's `person` with an increase in age by 1.
 
@@ -161,7 +161,7 @@ There are two `setPerson` calls in the above example, and from what we've learne
 
 ### Controlled components
 
-There are native HTML elements that maintain their own internal state. The `input` element is a great example. You type into an `input` and it updates its own values on every keystroke. For many use-cases, you would like to _control_ the value of the `input` element i.e. set its value yourself. This is where controlled components come in.
+There are native HTML elements that maintain their own internal state. The `input` element is a great example. You type into an `input` and it updates its own value on every keystroke. For many use-cases, you would like to _control_ the value of the `input` element i.e. set its value yourself. This is where controlled components come in.
 
 ~~~jsx
 function CustomInput() {
@@ -201,8 +201,8 @@ This pattern is extremely useful wherever you need user input i.e. typing in a t
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - [What should you keep in mind while declaring state?](#how-to-structure-state)
-- [What does it mean by "state is immutable"?](#state-is-immutable)
-- [What does it mean by "state as a snapshot"?](#how-state-updates)
+- [What does "state is immutable" mean?](#state-is-immutable)
+- [What does "state as a snapshot" mean?](#how-state-updates)
 - [What's the difference between passing a value vs a callback to the `setState` function?](#state-updater-functions)
 - [Why would you want to control a component?](#controlled-components)
 
@@ -210,4 +210,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- We intentionally skipped some of the articles pertaining to state from the React documentation. We are confident that the concepts covered thus far will equip you with enough knowledge to tackle the projects to come in the course. Though if you want to delve further, you can read all of the articles in the [Adding Interactivity](https://react.dev/learn/adding-interactivity) and the [Managing State](https://react.dev/learn/managing-state) section.
+- We intentionally skipped some of the articles pertaining to state from the React documentation. We are confident that the concepts covered thus far will equip you with enough knowledge to tackle the projects to come in the course. Though if you want to delve into the topic further, you can read all of the articles in the [Adding Interactivity](https://react.dev/learn/adding-interactivity) and the [Managing State](https://react.dev/learn/managing-state) section.
