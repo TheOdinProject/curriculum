@@ -92,7 +92,7 @@ function Person() {
 
 These are the logs:
 
-![](./more_on_state/imgs/00.png)
+![browser console of above code snippet](https://cdn.statically.io/gh/TheOdinProject/curriculum/bd3063e12816ac241f73daeffa600ca89e56c443/react/states_and_effects/more_on_state/imgs/00.png)
 
 Uh oh, what is happening? Let's break it down (ignore the double `console.logs` for the render case, this is covered in the upcoming lessons).
 
