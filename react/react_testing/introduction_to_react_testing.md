@@ -1,16 +1,16 @@
 ### Introduction
 
-We've learned how to test our vanilla JavaScript applications in a previous section. Testing is indeed a powerful tool that allows us to write maintainable and flexible code. If you've followed along with our lessons so far, we've been using the [Jest](https://jestjs.io/) framework. Since, we're using [Vite](https://vitejs.dev/), we'll switch over to [Vitest](https://vitest.dev/) as our test runner since it integrates nicely with Vite. We'll add more capabilities to our tests using the [React Testing library (RTL)](https://testing-library.com/docs/react-testing-library/intro/).
+We've learned how to test our vanilla JavaScript applications in a previous section. Testing is a powerful tool that allows us to write maintainable and flexible code. If you've followed along with our lessons, so far we've been using the [Jest](https://jestjs.io/) framework. However, since we're using [Vite](https://vitejs.dev/) we'll switch over to [Vitest](https://vitest.dev/) as our test runner since it integrates nicely with Vite. We'll add more capabilities to our tests using the [React Testing library (RTL)](https://testing-library.com/docs/react-testing-library/intro/).
 
-### Lesson Overview 
+### Lesson overview 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Setup a React testing environment.
-* Be able to test UI elements.
-* Understand snapshot tests.
+* How to set up a React testing environment.
+* How to test UI elements.
+* Understanding snapshot tests.
 
-### Setting Up
+### Setting up
 
 Follow along [Robin Wieruch's guide on setting up Vitest with RTL](https://www.robinwieruch.de/vitest-react-testing-library/). Once you've completed the setup, let's meet back here.
 
@@ -28,9 +28,13 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 * <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
 
-  > _Note: `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice._
+  <div class="lesson-note" markdown="1">
 
-### Our First Query
+  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice._
+
+  </div>
+
+### Our first query
 
 First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
 
@@ -64,7 +68,7 @@ Execute `npm test App.test.js` on the terminal and you'll see that test pass. `g
 
 <span id="by-role-methods">As stated by the React Testing Library docs, `ByRole` methods are the favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e mouse or assistive technologies).</span>
 
-### Simulating User Events
+### Simulating user events
 
 There are numerous ways a user can interact with a webpage. Even though live user feedback and interaction is irreplaceable, we can still build some confidence in our components through tests. Here's a button which changes the heading of the App:
 
@@ -144,7 +148,7 @@ it("renders radical rhinos after button click", () => {
 
 The `setup()` is internally triggered here. This is still supported by React Testing Library to ease the transition from v13 to v14.
 
-### What are Snapshots?
+### What are snapshots?
 
 Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the _"magnificent monkeys renders"_ test was:
 
@@ -183,7 +187,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 2. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation. 
 
-3. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles uses Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what is snapshot testing in programming in general.
+3. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles uses Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
 
 </div>
 
@@ -204,5 +208,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
-
 - This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.
