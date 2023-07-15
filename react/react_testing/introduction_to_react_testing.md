@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 * How to test UI elements.
 * Understanding snapshot tests.
 
-### Setting up
+### Setting up a React testing environment
 
 Follow along [Robin Wieruch's guide on setting up Vitest with RTL](https://www.robinwieruch.de/vitest-react-testing-library/). Once you've completed the setup, let's meet back here.
 
