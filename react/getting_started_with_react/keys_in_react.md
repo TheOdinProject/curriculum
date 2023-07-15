@@ -2,28 +2,28 @@
 
 In this lesson we will cover keys in React. Keys are special props for our components and we'll learn why they are used.
 
-### Lesson Overview
+### Lesson overview
 
 By the end of the lesson you should be able to answer the following:
 
-- Why are keys and why does React need them. 
-- What are good and bad examples of keys. 
+- What are keys and why does React need them?
+- What are good and bad examples of keys?
 
-### Why Does React Need Keys?
+### Why does React need keys?
 
-In the upcoming lessons, as you learn more about the internal workings of React, more specifically, the rerendering process, you will understand the importance of keys. For now, we will keep it simple. Recall the previous lesson on rendering lists. We used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the item in the list were to change, how would React know which item to update?
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now we will keep it simple. Recall the previous lesson on rendering lists. We used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the item in the list were to change, how would React know which item to update?
 
-If the list where to change, one of two things _should_ happen:
-1. either, we completely re-render the entire list,
-2. or, hunt down that specific items that were changed and only re-render those.
+If the list were to change, one of two things _should_ happen:
+1. we completely re-render the entire list, or:
+2. we hunt down that specific items that were changed and only re-render those.
 
 Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list. We need something to track that specific item. We can track down a specific item by using a `key`.
 
-When the list is updated for whatever reason, (either from a server or a user interaction), React matches the `key`s of each of the previous list to the updated list. If there were any changes, React will only update the items that have changed.
+When the list is updated for whatever reason, (either from a server or a user interaction), React matches the `keys` of each of the previous list to the updated list. If there were any changes, React will only update the items that have changed.
 
 As long as `keys` remain consistent and unique, React can handle the DOM effectively and efficiently.
 
-### Using Keys
+### Using keys
 
 Keys are passed into the component or a DOM element as a prop. You should already be familiar with the syntax.
 
@@ -95,7 +95,7 @@ function TodoList() {
 
 ### Conclusion
 
-Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is how to use keys effectively in React. As mentioned earlier, the more you learn about React, that's when you will realize why keys are so important. Furthermore, using keys is not limited to rendering lists. You might encounter use-cases where keys are needed, we'll leave that for you to discover.
+Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, that's when you will realize why keys are so important. Furthermore, using keys is not limited to rendering lists. You might encounter use-cases where keys are needed, we'll leave that for you to discover.
 
 ### Assignment
 
@@ -107,7 +107,7 @@ Don't fret if some of the terms covered in the lesson don't make sense yet. What
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -117,7 +117,7 @@ This section contains questions for you to check your understanding of this less
 - [When can we use array index as the key value?](#index-as-key)
 - [What is an anti-pattern when using keys?](#anti-pattern)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
