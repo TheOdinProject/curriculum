@@ -19,7 +19,7 @@ Before we dive into the specifics of fetching data in React, let's first revisit
 
 <!-- fetch is used to make requests to external APIs and returns a Promise that resolves to the response object representing the server's response. -->
 
-```js
+~~~js
 const image = document.querySelector("img");
 fetch("https://jsonplaceholder.typicode.com/photos", {
   mode: "cors",
@@ -29,7 +29,7 @@ fetch("https://jsonplaceholder.typicode.com/photos", {
     img.src = response[0].url;
   })
   .catch((error) => console.error(error));
-```
+~~~
 
 We're making a request to the JSONPlaceholder API to retrieve an image. The response is then converted to JSON format using the json() method, and then we set the image src to the url embedded in that response object. The catch method is used to catch any errors that may occur during the request.
 
@@ -41,7 +41,7 @@ Whenever a component needs to make a request as it renders, it's often best to w
 
 **https://codesandbox.io/s/top-simple-react-request-rd9psp?file=/src/styles.css**
 
-```jsx
+~~~jsx
 import { useEffect, useState } from "react";
 
 const Image = () => {
@@ -65,7 +65,7 @@ const Image = () => {
 };
 
 export default Image;
-```
+~~~
 
 useState lets us bundle data within a component and rerender the component whenever state is updated, and useEffect allows us to perform side effects on those components. Since we need to synchronize this component's contents with an unpredictable external system like the fetch API, we need an effect. In this case we only want to fetch the URL once when the component is first mounted so we pass an empty array as a dependency to useEffect.
 
@@ -73,7 +73,7 @@ useState lets us bundle data within a component and rerender the component whene
 
 You might be wondering what's going on here
 
-```jsx
+~~~jsx
 return (
   imageURL && (
     <>
@@ -82,7 +82,7 @@ return (
     </>
   )
 )
-```
+~~~
 
 This is a pattern called _short circuiting_ and it allows developers to conditionally render JSX without using if statements or ternarys. The above snippet can be read as, if imageURL is truthy then continue to evaluate the expression. A truthy value and an object evaluates to the object so in this case, JSX is returned. If imageURL was falsy, the right hand side of the && operation wouldn't evaluate and the component would return false.
 
@@ -92,7 +92,7 @@ Working over the network is inherently unreliable. The API you're making a reque
 
 To fix this, we need to give our Image component a new property to check before it renders JSX. We'll call it "error".
 
-```jsx
+~~~jsx
 return (
   return (
     <>
@@ -105,18 +105,18 @@ return (
       )}
     </>
   );
-```
+~~~
 
 To set this error, we'll add it to the component's state.
 
-```jsx
+~~~jsx
 const [imageURL, setImageURL] = useState(null);
 const [error, setError] = useState(null);
-```
+~~~
 
 And finally, to give error a value when a request fails, we'll add a conditional to check the response status and set it where our console.error line was.
 
-```jsx
+~~~jsx
 useEffect(() => {
   fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
     .then((response) => {
@@ -128,7 +128,7 @@ useEffect(() => {
     .then((response) => setImageURL(response[0].url))
     .catch((error) => setError(error));
 }, []);
-```
+~~~
 
 > Note: A fetch request can return an http error without triggering the catch block. Always be sure to check your response and manually throw an error
 
@@ -140,7 +140,7 @@ In a full scale web app you're often going to be making more than one request an
 
 **https://codesandbox.io/s/top-multiple-requests-with-waterfall-j92h8m**
 
-```jsx
+~~~jsx
 // App.jsx
 const App = () => {
   return <Profile delay={1000} />;
@@ -193,11 +193,11 @@ const Bio = ({ delay }) => {
     )
   );
 };
-```
+~~~
 
 We have 2 components making fetch requests; Profile and it's child component Bio. The requests in Profile and Bio are both firing inside of their respective components. On the surface this looks like a well organized separation of concerns but in this case, it comes at a cost in performance.
 
-```jsx
+~~~jsx
 // Profile.jsx
 const [imageURL, setImageURL] = useState(null);
 ...
@@ -210,7 +210,7 @@ const [imageURL, setImageURL] = useState(null);
       </div>
     ) || <h1>Loading...</h1>
   );
-```
+~~~
 
 Notice how Bio is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React none of the hooks, JSX, or code inside of a component will be run until that component is due to render. Bio has to wait for the request inside of Profile to resolve before it starts rendering which means the request inside Bio isn't sent.
 
@@ -218,7 +218,7 @@ If we remove the short circuiting conditional that waits for imageURL Bio would 
 
 **https://codesandbox.io/s/top-multiple-requests-no-waterfall-msrvvh?file=/src/Profile.jsx**
 
-```jsx
+~~~jsx
 // Profile.jsx
 const Profile = ({ delay }) => {
   const [imageURL, setImageURL] = useState(null);
@@ -263,7 +263,7 @@ const Bio = ({ bioText }) => {
     )
   );
 };
-```
+~~~
 
 Now we have both requests firing as soon as Profile renders. The request for imageURL resolves 2 seconds before the bioText request and our div containing <Bio /> renders. When bioText resolves an update will be made in state which will trigger a rerender in <Bio />, adding that text description to the page.
 
