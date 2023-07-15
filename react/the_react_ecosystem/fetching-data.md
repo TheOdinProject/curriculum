@@ -67,7 +67,7 @@ const Image = () => {
 export default Image;
 ~~~
 
-useState lets us bundle data within a component and rerender the component whenever state is updated, and useEffect allows us to perform side effects on those components. Since we need to synchronize this component's contents with an unpredictable external system like the fetch API, we need an effect. In this case we only want to fetch the URL once when the component is first mounted so we pass an empty array as a dependency to useEffect.
+useState lets us bundle data within a component and rerender the component whenever state is updated, and useEffect allows us to perform side effects on those components. Since we need to synchronize this component's state (the image URL) with an unpredictable external system like the fetch API, we need an effect. In this case we only want to fetch the URL once when the component is first mounted so we pass an empty array as a dependency to useEffect.
 
 > Reminder: Whenever you are changing state, (or doing anything else that could cause a rerender) inside of useEffect, be sure to always pass a dependency. If you forget to do so useEffect will enter an infinite loop and rerender exponentially.
 
@@ -84,16 +84,15 @@ return (
 )
 ~~~
 
-This is a pattern called _short circuiting_ and it allows developers to conditionally render JSX without using if statements or ternarys. The above snippet can be read as, if imageURL is truthy then continue to evaluate the expression. A truthy value and an object evaluates to the object so in this case, JSX is returned. If imageURL was falsy, the right hand side of the && operation wouldn't evaluate and the component would return false.
+This is a pattern called _short circuiting_ and it allows developers to conditionally render JSX without using if statements or ternarys. The above snippet can be read as, "if imageURL is truthy then continue to evaluate the expression". A truthy value and an object evaluates to the object so in this case, JSX is returned. If imageURL was falsy, the right hand side of the && operation wouldn't evaluate and the component would return false.
 
 ### Handling Errors
 
 Working over the network is inherently unreliable. The API you're making a request to might be down, there could be network connectivity issues, or the response you recieve could contain errors. Any number of things can go wrong and if you don't preemptively plan for errors, your website can break or appear unresponsive to users. To simulate a network error, scroll up to that previous code snippet and change the fetch url to something random. The page will remain a white screen without giving the user any indication that the page has finished loading or that there was an error.
 
-To fix this, we need to give our Image component a new property to check before it renders JSX. We'll call it "error".
+To fix this, we need to check _something_ in the return of the Image component. We'll call it "error".
 
 ~~~jsx
-return (
   return (
     <>
       {error && <p>A network error was encountered</p>}
@@ -132,9 +131,11 @@ useEffect(() => {
 
 > Note: A fetch request can return an http error without triggering the catch block. Always be sure to check your response and manually throw an error
 
+Now when a bad URL is passed or the API returns an unexpected response, the page will relay that information to the user. 
+
 **https://codesandbox.io/s/top-simple-react-request-with-error-fqjcrq?file=/src/Image.jsx**
 
-#### Managing multiple fetch requests
+#### Managing Multiple Fetch Requests
 
 In a full scale web app you're often going to be making more than one request and you need to be careful with how you organize them. A common issue new react developers face when their apps start making multiple requests is called a waterfall of requests. Let's look at an example.
 
@@ -271,6 +272,16 @@ Now we have both requests firing as soon as Profile renders. The request for ima
 
 !TODO React Query section
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) for a brief overview of what was discussed in this lesson. 
+2. Read [How to fetch data in React with performace in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
+
+
+</div>
+
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -279,12 +290,8 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#handling-errors">Why should you manually throw errors in fetch requests?</a>
 - <a class="knowledge-check-link" href="#managing-multiple-fetch-requests">How can you avoid waterfalling requests?</a>
 
-### Assignment
+## Additional resources
 
-<div class="lesson-content__panel" markdown="1">
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) for a brief overview of what was discussed in this lesson. 
-2. Read this article [How to fetch data in React with performace in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
-
-
-</div>
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
