@@ -4,7 +4,7 @@ Up to this point we have been using React to build client side applications with
 
 In this lesson, we'll explore the ins and outs of fetching data in React, starting with the basics of making API calls, managing component state, and handling asynchronous operations using JavaScript's ~fetch~ function.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -33,7 +33,7 @@ fetch("https://jsonplaceholder.typicode.com/photos", {
 
 We're making a request to the JSONPlaceholder API to retrieve an image. The response is then converted to JSON format using the json() method, and then we set the image src to the url embedded in that response object. The catch method is used to catch any errors that may occur during the request.
 
-### Using Fetch in React Components
+### Using fetch in React components
 
 Now let's take a look at how we can incorporate fetch into a similar React component. One common use case is to fetch data from an API when a component mounts, so that the data can be displayed on screen.
 
@@ -86,7 +86,7 @@ return (
 
 This is a pattern called _short circuiting_ and it allows developers to conditionally render JSX without using if statements or ternarys. The above snippet can be read as, "if imageURL is truthy then continue to evaluate the expression". A truthy value and an object evaluates to the object so in this case, JSX is returned. If imageURL was falsy, the right hand side of the && operation wouldn't evaluate and the component would return false.
 
-### Handling Errors
+### Handling errors
 
 Working over the network is inherently unreliable. The API you're making a request to might be down, there could be network connectivity issues, or the response you recieve could contain errors. Any number of things can go wrong and if you don't preemptively plan for errors, your website can break or appear unresponsive to users. To simulate a network error, scroll up to that previous code snippet and change the fetch url to something random. The page will remain a white screen without giving the user any indication that the page has finished loading or that there was an error.
 
@@ -135,7 +135,7 @@ Now when a bad URL is passed or the API returns an unexpected response, the page
 
 **https://codesandbox.io/s/top-simple-react-request-with-error-fqjcrq?file=/src/Image.jsx**
 
-#### Managing Multiple Fetch Requests
+### Managing multiple fetch requests
 
 In a full scale web app you're often going to be making more than one request and you need to be careful with how you organize them. A common issue new react developers face when their apps start making multiple requests is called a waterfall of requests. Let's look at an example.
 
@@ -282,7 +282,7 @@ Now we have both requests firing as soon as Profile renders. The request for ima
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
