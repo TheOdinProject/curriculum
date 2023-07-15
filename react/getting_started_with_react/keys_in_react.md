@@ -11,7 +11,9 @@ By the end of the lesson you should be able to answer the following:
 
 ### Why does React need keys?
 
-In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now we will keep it simple. Recall the previous lesson on rendering lists. We used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the item in the list were to change, how would React know which item to update?
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now we will keep it simple. 
+
+In the previous lesson on rendering lists we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the item in the list were to change, how would React know which item to update?
 
 If the list were to change, one of two things _should_ happen:
 1. we completely re-render the entire list, or:
@@ -33,7 +35,7 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 <div key={keyValue} />
 ~~~
 
-<span id="keys-from-data">Now that we know the syntax, the next questions is what should be used as a key? Ideally they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning and id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid](https://www.npmjs.com/package/uuid) package to generate a unique id. Let's look at an example:</span>
+<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning and id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid](https://www.npmjs.com/package/uuid) package to generate a unique id. Let's look at an example:</span>
 
 ~~~jsx
 // a list of todos, each todo object has a task and an id
