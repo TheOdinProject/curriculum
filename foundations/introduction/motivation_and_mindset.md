@@ -158,9 +158,9 @@ Students often compare themselves to others who are farther along in their codin
 
 #### Counter Productive Note-Taking
 
-The Odin Project does not recommend taking a specific type of notes throughout your educational journey.
+The Odin Project does not recommend taking a lot of notes throughout your web development educational journey because it can be time-consuming and often leads to wasted effort.
 
-**Solution:** Note-taking can be time-consuming and often leads to wasted effort. Instead of using notes as direct references, they can serve as prompts for further research. The Odin Project aims to make you comfortable with reading documentation, which essentially acts as pre-existing notes made by someone else.
+**Solution:** Instead of taking notes to use as direct references, make notes that can serve as prompts for further research. It is important to get comfortable with reading documentation, which essentially acts as pre-existing notes made by someone else.
 
 ### Conclusion
 
