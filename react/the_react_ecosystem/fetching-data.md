@@ -191,7 +191,7 @@ const Image = () => {
 }
 ```
 
-Now if we needed ever needed to fetch images in different components, instead of rewriting all of that fetching logic we could simply call `useImageURL`.
+If we ever needed to fetch images in different components, instead of rewriting all of that fetching logic we could simply call `useImageURL`.
 
 ### Managing multiple fetch requests
 
