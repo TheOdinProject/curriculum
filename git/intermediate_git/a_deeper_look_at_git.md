@@ -195,8 +195,8 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 ### Looking into your Git History
 
-You how it is often said that you need to learn from the past in order to move into the future? Well, the same applies here when it comes to your Git history.
-At this point, you probably know how to view your commits by using the `git log` command or by checking your repository on GitHub. While that's effective, here's a stronger and simpler way to see your commits. The `git log --oneline`command. With this command, the terminal displays each commit on a single line.
+You know how it is often said that you need to learn from the past in order to move into the future? Well, the same applies when it comes to your Git history.
+At this point, you probably know to view your commits by using the `git log` command or by checking your repository on GitHub. While that's effective, here's a stronger and simpler way to see your commits. The `git log --oneline`command. With this command, the terminal displays each commit on a single line.
 
 Now you may be wondering _what_ can we do with this information? Remember the command `git checkout`? This has another use-case when viewing your commit history. In the command line, you can use `git checkout <commit ID>` to view commits in another branch. This is useful if you are working with another developer on a project and want to see their code.
 
