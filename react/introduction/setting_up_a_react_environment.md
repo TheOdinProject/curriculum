@@ -71,6 +71,12 @@ Provided that everything has gone according to plan, head over to `localhost:517
 
 Congratulations! You've created your first React app.
 
+<div class="lesson-note lesson-note--tip" markdown=1>
+
+You might've noticed by now; you can replace `my-first-react-app` with the name of your project.
+
+</div>
+
 ### Delving Deeper
 
 Let's take a closer look at our new project. Inside you will find some folders, as well as `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files. The `README.md` contains some useful information that you should take the time to skim through now.

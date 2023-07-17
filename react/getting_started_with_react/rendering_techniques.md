@@ -137,13 +137,13 @@ function App() {
 }
 ~~~
 
-We are using the String method `startsWith` to check if the `animal` starts with the letter L. This method either returns true or false.
+We are using the [String method `startsWith`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) to check if the `animal` starts with the letter L. This method either returns true or false.
 
 If the animal starts with the letter L, then we return the `<li>` element, which renders the particular animal. Otherwise, we return `null` to indicate that no element will be rendered.
 
 #### Using the && Operator
 
-Another quick way of conditionally rendering an element is by using the && operator.
+Another quick way of conditionally rendering an element is by using the `&&` operator.
 
 ~~~javascript
 function List(props) {
@@ -168,9 +168,15 @@ function App() {
 }
 ~~~
 
-We will leverage the return value of `startsWith` with the && operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.
+We will leverage the return value of `startsWith` with the `&&` operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.
+
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+#### Falsy values in JSX, a common pitfall
 
 In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX and will be rendered completely fine, so be sure to be aware of that!
+
+</div>
 
 #### Other Ways to Render Conditionally
 
@@ -237,7 +243,7 @@ The first `if` statement will now execute and return a `<div>` with the text "Lo
 
 If none of those checks passed, then we have the data we need to render the list successfully. Try it out by adding items to the `animals` list and adding the property back.
 
-You can, Of course, also accomplish this with just the ternary and && operators.
+You can, Of course, also accomplish this with just the ternary and `&&` operators.
 
 ~~~javascript
 function List(props) {
@@ -287,14 +293,14 @@ function App() {
 }
 ~~~
 
-Nesting ternaries and multiple && operators can be intimidating to look at, so be sure to test things out!
+Nesting ternaries and multiple `&&` operators can be intimidating to look at, so be sure to test things out!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The React Docs Beta has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://beta.reactjs.org/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
-2.  From the same docs, strengthen your understanding of [conditional rendering](https://beta.reactjs.org/learn/conditional-rendering). Be sure to test out all the examples!
+1.  The React docs has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://react.dev/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
+2.  From the same docs, strengthen your understanding of [conditional rendering](https://react.dev/learn/conditional-rendering). Be sure to test out all the examples!
 
 </div>
 

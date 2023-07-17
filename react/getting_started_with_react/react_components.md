@@ -1,6 +1,6 @@
 ### Introduction
 
-In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the [Setting Up A React Environment lesson](https://github.com/TheOdinProject/top-meta/issues/221), but try not to copy and paste any code while you're coding along. 
+In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the previous lesson, but try not to copy and paste any code while you're coding along. 
 
 ### Lesson Overview
 
@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
-![Component Example](./imgs/00.png)
+![Component Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/91485eec76445d86b29d35894e83324e2967f2fb/react/imgs/00.png)
 
 For example, this simple website could be broken into the following components:
 
@@ -38,6 +38,14 @@ function Greeting() {
 This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. 
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
+
+<div class="lesson-note lesson-note--tip" markdown="1" >
+
+#### What is HTML doing in my Javascript?
+
+It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons! 
+
+</div>
 
 ### Where Do Components Live
 

@@ -439,7 +439,9 @@ Often, you will face a need to decide when a certain route is rendered or not. O
 
 You will often come across the need to reroute the user to a different URL programmatically. This is where the [`<Navigate />`](https://reactrouter.com/en/main/components/navigate) component gets used, as it reroutes the user to the desired URL when it is rendered. The component itself is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
-You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
+### Conclusion
+
+You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
 
