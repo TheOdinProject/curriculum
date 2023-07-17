@@ -108,7 +108,11 @@ useEffect(() => {
 }, []);
 ~~~
 
-> Note: A fetch request can return an http error without triggering the catch block. Always be sure to check your response and manually throw an error
+<div class="lesson-note" markdown="1" >
+
+Notice how we also have error handling in the `then` block? This is because the `fetch` request itself might not error out, but rather the request is successful and we get a response. The response though could be not our app expected. We handle this case by checking the response status codes.
+
+</div>
 
 Now when a bad URL is passed or the API returns an unexpected response, the page will relay that information to the user. 
 
