@@ -203,20 +203,6 @@ In a full scale web app you're often going to be making more than one request an
 
 We have 2 components making fetch requests; Profile and it's child component Bio. The requests in Profile and Bio are both firing inside of their respective components. On the surface this looks like a well organized separation of concerns but in this case, it comes at a cost in performance.
 
-~~~jsx
-// Profile.jsx
-const [imageURL, setImageURL] = useState(null);
-...
- return (
-    imageURL && (
-      <div>
-        <h3>Username</h3>
-        <img src={imageURL} alt={"profile"} />
-        <Bio delay={1000}/> Important
-      </div>
-    ) || <h1>Loading...</h1>
-  );
-~~~
 
 Notice how `Bio` is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React, the component is not rendered until it is actually called. If JSX has conditional logic, the false branches will never render until they become true. `Bio` has to wait for the request inside of `Profile` to resolve before it starts rendering which means the request inside `Bio` isn't sent.
 
