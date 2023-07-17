@@ -218,11 +218,11 @@ const [imageURL, setImageURL] = useState(null);
 
 Notice how `Bio` is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React, the component is not rendered until it is actually called. If JSX has conditional logic, the false branches will never render until they become true. `Bio` has to wait for the request inside of `Profile` to resolve before it starts rendering which means the request inside `Bio` isn't sent.
 
-If we remove the short circuiting conditional that waits for imageURL Bio would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass it's response as a prop to Bio.  
+If we remove the short circuiting conditional that waits for `imageURL`, `Bio` would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass it's response as a prop to `Bio`.  
 
 To see this in action go back to that embedded codesandbox and comment out the current `Profile` and `Bio` components and uncomment the currently commented ones. 
 
-Now we have both requests firing as soon as Profile renders. The request for imageURL resolves 2 seconds before the bioText request and our div containing <Bio /> renders. When bioText resolves an update will be made in state which will trigger a rerender in <Bio />, adding that text description to the page.
+Now we have both requests firing as soon as `Profile` renders. The request for `imageURL` resolves 2 seconds before the `bioText` request and our div containing `<Bio />` renders. When `bioText` resolves an update will be made in state which will trigger a rerender in `<Bio />`, adding that text description to the page.
 
 ### Data fetching libraries
 
