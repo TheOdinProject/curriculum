@@ -1,5 +1,6 @@
 ### Introduction
 
+$ git log --oneline  
 Git is a crucial skill to have whether you're just a hobbyist or you aim to become a professional web developer. It's the "save" button on steroids and allows for seamless collaboration. There really aren't all that many commands for you to learn, but sometimes the real difficulty of Git comes from visualizing what's happening.
 
 In this lesson, we'll help with the visualization by diving deeper than just the `$ git add .` and `$ git commit` and `$ git push` commands you've mostly been using. We'll cover topics such as Remotes, Pointers, and Changing Git History. This will expand your understanding of what's actually going on under the hood with Git.
@@ -34,10 +35,10 @@ Let's look at some ways we can change recent and distant history to fit our need
 Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history changing operations. Go to GitHub, and as you have in the past create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned, and create some new files! Once you're in the repository follow along with the following commands(including the typo). Look them up if you're confused about anything that's happening.
 
 ```bash
-  $ touch test{1..4}.md
-  $ git add test1.md && git commit -m 'Create first file'
-  $ git add test2.md && git commit -m 'Create send file'
-  $ git add test3.md && git commit -m 'Create third file and create fourth file'
+  touch test{1..4}.md
+  git add test1.md && git commit -m 'Create first file'
+  git add test2.md && git commit -m 'Create send file'
+  git add test3.md && git commit -m 'Create third file and create fourth file'
 ```
 
 #### Setting Up the Code Editor
@@ -51,8 +52,8 @@ To set up your code editor properly, you can follow the instructions provided in
 So if we look at the last commit we made _Uh-Oh!_, if you type in `git status` and `git log` you can see we forgot to add a file! Let's add our missing file and run `$ git commit --amend`
 
 ```bash
-  $ git add test4.md
-  $ git commit --amend
+  git add test4.md
+  git commit --amend
 ```
 
 What happened here is we first updated the staging area to include the missing file, and then we replaced the last commit with our new one to include the missing file. If we wanted to, we could have changed the message of the commit and it would have overwritten the message of the past commit.
@@ -66,8 +67,8 @@ Now let's say we have commits further back in our history that we want to modify
 `rebase -i` is a command which allows us to interactively stop after each commit we're trying to modify, and then make whatever changes we wish. We do have to tell this command which is the last commit we want to edit. For example, `git rebase -i HEAD~2` allows us to edit the last two commits. Let's see what this looks like in action, go ahead and type in:
 
 ```bash
-  $ git log
-  $ git rebase -i HEAD~2
+  git log
+  git rebase -i HEAD~2
 ```
 
 You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would simply remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like!
@@ -109,9 +110,9 @@ Before diving into Remotes, we're going to have a look at a handy Git command ca
 We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, add, and commit them individually. All together it would look something like this:
 
 ```bash
-$ git reset HEAD^
-$ git add test3.md && git commit -m 'Create third file'
-$ git add test4.md && git commit -m 'Create fourth file'
+git reset HEAD^
+git add test3.md && git commit -m 'Create third file'
+git add test4.md && git commit -m 'Create fourth file'
 ```
 
 Let's start by looking a bit closer at what happened here. When you ran `git reset`, you reset the current branch by pointing HEAD at the commit right before it. At the same time, `git reset` also updated the index (the staging area) with the contents of wherever HEAD is now pointed. So our staging area was also reset to what it was at the prior commit - which is great - because this allowed us to add and commit both files separately.
@@ -133,10 +134,10 @@ If you haven't updated your local branch, and you're attempting to `git push` a 
 You might perform a brief query and find the command `git push --force`. This command overwrites the remote repository with your own local history. So what would happen if we used this while working with others? Well let's see what would happen when we're working with ourselves. Type the following commands into your terminal, and when the interactive rebase tool pops up remove our commit for `Create fourth file`:
 
 ```bash
-$ git push origin main
-$ git rebase -i --root
-$ git push --force
-$ git log
+git push origin main
+git rebase -i --root
+git push --force
+git log
 ```
 
 Huh, that's interesting, we don't see our fourth file on our local system. Let's check our GitHub repository, is our file test4.md there?
@@ -146,10 +147,10 @@ No! We just destroyed it, which in this scenario is the danger - you could poten
 Let's consider a different scenario:
 
 ```bash
-$ touch test4.md
-$ git add test4.md && git commit -m "Create fifth file"
-$ git push origin main
-$ git log
+touch test4.md
+git add test4.md && git commit -m "Create fifth file"
+git push origin main
+git log
 ```
 
 We look at our commit message and realize _oops_, we made a mistake. We want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to _undo_ a commit we just made, we can instead use `git revert`!
@@ -171,15 +172,15 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 <span id='best-practices'></span>
 
-1.  If working on a team project, make sure rewriting history is safe to do and others know you're doing it.
-2.  Ideally, stick to using these commands only on branches that you're working with by yourself.
-3.  Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
-4.  Don't push after every single commit, changing published history should be avoided when possible.
-5.  Regarding the specific commands we've covered:
-    1.  For `git amend` never amend commits that have been pushed to remote repositories.
-    2.  For `git rebase` never rebase a repository that others may work off of.
-    3.  For `git reset` never reset commits that have been pushed to remote repositories.
-    4.  For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`.
+1. If working on a team project, make sure rewriting history is safe to do and others know you're doing it.
+2. Ideally, stick to using these commands only on branches that you're working with by yourself.
+3. Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
+4. Don't push after every single commit, changing published history should be avoided when possible.
+5. Regarding the specific commands we've covered:
+    1. For `git amend` never amend commits that have been pushed to remote repositories.
+    2. For `git rebase` never rebase a repository that others may work off of.
+    3. For `git reset` never reset commits that have been pushed to remote repositories.
+    4. For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`.
 
 ### Branches Are Pointers
 
@@ -204,17 +205,17 @@ Now you may be wondering _what_ can we do with this information? Remember the co
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
+1. Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
 
     - It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a simple solution.
 
-2.  Read [think-like-a-git](http://think-like-a-git.net/)
+2. Read [think-like-a-git](http://think-like-a-git.net/)
 
     - Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
 
-3.  Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+3. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
 
-4.  Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
+4. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
 </div>
 
@@ -225,6 +226,8 @@ This section contains helpful links to related content. It isn’t required, so 
 - Read this [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
 - Watch this [video about Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example of how to use both rebase and merge.
 - Read the chapter on [Branches covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.
+- The official Git website has a [guide](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) on other ways to view your commit history. Check it out if you're looking to learn more techniques.
+- Watch this[video on merge conflicts](https://youtu.be/HosPml1qkrg) to learn how to solve them in Visual Studio Code.
 
 ### Knowledge Check
 
