@@ -225,7 +225,12 @@ Now we have both requests firing as soon as `Profile` renders. The request for `
 
 ### Data fetching libraries
 
-!TODO React Query section
+We haven't even begun to scratch the surface of data fetching in the frontend. Keeping your frontend data most up-to-date with the server is a difficult task to accomplish. Managing "async" state becomes harder with every new feature. 
+
+You've already tasted the complexity of data fetching in this lesson. Each request has to have a _minimum_ of three states to achieve an optimal user experience: `data`, `loading`, and `error`. There's a library called [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) that helps you in data fetching and more. It keeps track of all the necessary states for you, and has built-in support for major features like caching.
+
+Query is a great library to learn, however, we strongly suggest you stick to vanilla React data fetching for all the projects you build in this course. The lessons you will learn will be while doing so will be invaluable.
+
 
 ### Assignment
 
