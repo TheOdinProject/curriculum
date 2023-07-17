@@ -222,6 +222,12 @@ To see this in action go back to that embedded codesandbox and comment out the c
 
 Now we have both requests firing as soon as `Profile` renders. The request for `imageURL` resolves 2 seconds before the `bioText` request and our div containing `<Bio />` renders. When `bioText` resolves an update will be made in state which will trigger a rerender in `<Bio />`, adding that text description to the page.
 
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+In all of the code examples above, we added an artificial `delay` with the `setTimeout` function. You've guessed it by now, but it's to help you walkthrough the data fetching basics in the lesson. We recommend you remove the `delay`s and play around with the code examples once more to cement the concepts.
+
+</div>
+
 ### Data fetching libraries
 
 We haven't even begun to scratch the surface of data fetching in the frontend. Keeping your frontend data most up-to-date with the server is a difficult task to accomplish. Managing "async" state becomes harder with every new feature. 
