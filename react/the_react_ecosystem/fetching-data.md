@@ -197,62 +197,7 @@ If we ever needed to fetch images in different components, instead of rewriting 
 
 In a full scale web app you're often going to be making more than one request and you need to be careful with how you organize them. A common issue new React developers face when their apps start making multiple requests is called a _waterfall of requests_. Let's look at an example.
 
-**https://codesandbox.io/s/top-multiple-requests-with-waterfall-j92h8m**
-
-~~~jsx
-// App.jsx
-const App = () => {
-  return <Profile delay={1000} />;
-};
-
-// Profile.jsx
-const Profile = ({ delay }) => {
-  const [imageURL, setImageURL] = useState(null);
-
-  useEffect(() => {
-    setTimeout(() => {
-      fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-        .then((response) => response.json())
-        .then((response) => setImageURL(response[0].url))
-        .catch((error) => console.error(error));
-    }, delay);
-  }, [delay]);
-
-  return (
-    (imageURL && (
-      <div>
-        <h3>Username</h3>
-        <img src={imageURL} alt={"profile"} />
-        <Bio delay={1000} />
-      </div>
-    )) || <h1>Loading...</h1>
-  );
-};
-
-// Bio.jsx
-const Bio = ({ delay }) => {
-  const [bioText, setBioText] = useState(null);
-
-  useEffect(() => {
-    setTimeout(() => {
-      fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-        .then((response) => response.json())
-        .then((response) =>
-          setBioText("I like long walks on the beach and JavaScript")
-        )
-        .catch((error) => console.error(error));
-    }, delay);
-  }, []);
-
-  return (
-    bioText && (
-      <>
-        <p>{bioText}</p>
-      </>
-    )
-  );
-};
-~~~
+**CODESANDBOX EMBED GOES HERE**
 
 We have 2 components making fetch requests; Profile and it's child component Bio. The requests in Profile and Bio are both firing inside of their respective components. On the surface this looks like a well organized separation of concerns but in this case, it comes at a cost in performance.
 
@@ -273,56 +218,9 @@ const [imageURL, setImageURL] = useState(null);
 
 Notice how Bio is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React none of the hooks, JSX, or code inside of a component will be run until that component is due to render. Bio has to wait for the request inside of Profile to resolve before it starts rendering which means the request inside Bio isn't sent.
 
-If we remove the short circuiting conditional that waits for imageURL Bio would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass it's response as a prop to Bio.
+If we remove the short circuiting conditional that waits for imageURL Bio would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass it's response as a prop to Bio.  
 
-**https://codesandbox.io/s/top-multiple-requests-no-waterfall-msrvvh?file=/src/Profile.jsx**
-
-~~~jsx
-// Profile.jsx
-const Profile = ({ delay }) => {
-  const [imageURL, setImageURL] = useState(null);
-  const [bioText, setBioText] = useState(null);
-
-  useEffect(() => {
-    setTimeout(() => {
-      fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-        .then((response) => response.json())
-        .then((response) => setImageURL(response[0].url))
-        .catch((error) => console.error(error));
-    }, delay);
-
-    setTimeout(() => {
-      fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-        .then((response) => response.json())
-        .then((response) =>
-          setBioText("I like long walks on the beach and JavaScript")
-        )
-        .catch((error) => console.error(error));
-    }, delay + 2000); // here we add an extra 2 seconds of delay
-  }, [delay]);
-
-  return (
-    (imageURL && (
-      <div>
-        <h3>Username</h3>
-        <img src={imageURL} alt={"profile"} />
-        <Bio bioText={bioText} />
-      </div>
-    )) || <h1>Loading...</h1>
-  );
-};
-
-// Bio.jsx
-const Bio = ({ bioText }) => {
-  return (
-    bioText && (
-      <>
-        <p>{bioText}</p>
-      </>
-    )
-  );
-};
-~~~
+To see this in action go back to that embedded codesandbox and comment out the current `Profile` and `Bio` components and uncomment the currently commented ones. 
 
 Now we have both requests firing as soon as Profile renders. The request for imageURL resolves 2 seconds before the bioText request and our div containing <Bio /> renders. When bioText resolves an update will be made in state which will trigger a rerender in <Bio />, adding that text description to the page.
 
