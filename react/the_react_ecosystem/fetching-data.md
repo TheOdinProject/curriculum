@@ -28,7 +28,7 @@ fetch("https://jsonplaceholder.typicode.com/photos", {
   .catch((error) => console.error(error));
 ~~~
 
-We're making a request to the JSONPlaceholder API to retrieve an image, and then setting that URL to the src of an <img> element.  
+We're making a request to the JSONPlaceholder API to retrieve an image, and then setting that URL to the src of an `<img>` element.  
 
 ### Using fetch in React components
 
