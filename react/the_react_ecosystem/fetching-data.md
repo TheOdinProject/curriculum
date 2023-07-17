@@ -36,7 +36,6 @@ Now let's take a look at how we can incorporate fetch into a similar React compo
 
 Whenever a component needs to make a request as it renders, it's often best to wrap that fetch inside of an effect.
 
-**https://codesandbox.io/s/top-simple-react-request-rd9psp?file=/src/styles.css**
 
 ~~~jsx
 import { useEffect, useState } from "react";
