@@ -112,7 +112,6 @@ useEffect(() => {
 
 Now when a bad URL is passed or the API returns an unexpected response, the page will relay that information to the user. 
 
-**https://codesandbox.io/s/top-simple-react-request-with-error-fqjcrq?file=/src/Image.jsx**
 
 #### Loading state
 
