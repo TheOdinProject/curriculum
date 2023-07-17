@@ -1,23 +1,20 @@
 ### Introduction
 
-Up to this point we have been using React to build client side applications with interactive user interfaces, but what if we want fetch data from the internet? In order to create full fledged web applications, we need some way to get data from external sources and dynamically displaying it on the client.
+Up to this point we have been using React to build client side applications with interactive user interfaces, but what if we want to fetch data from the internet? In order to create full-fledged web applications, we need some way to get data from external sources and dynamically display it.
 
-In this lesson, we'll explore the ins and outs of fetching data in React, starting with the basics of making API calls, managing component state, and handling asynchronous operations using JavaScript's ~fetch~ function.
+In this lesson, we'll explore the ins and outs of fetching data in React, starting with the basics of making API calls, managing component state, and handling asynchronous operations using JavaScript's `fetch` function.  You've already performed data fetching in earlier projects, so some stuff covered in the lesson will be familiar to you. Revision doesn't hurt!
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand how to make fetch requests in React components.
-- Using conditonals to render content depending on the state of the request (short circuiting).
 - Catching and handling errors.
 - Lifting requests up the component hierarchy.
 
 ### A basic fetch request
 
-Before we dive into the specifics of fetching data in React, let's first revisit how we can use the fetch API to get data from a server.
-
-<!-- fetch is used to make requests to external APIs and returns a Promise that resolves to the response object representing the server's response. -->
+Before we dive into the specifics of fetching data in React, let's briefly revisit how we can use the fetch API to get data from a server.
 
 ~~~js
 const image = document.querySelector("img");
@@ -31,7 +28,7 @@ fetch("https://jsonplaceholder.typicode.com/photos", {
   .catch((error) => console.error(error));
 ~~~
 
-We're making a request to the JSONPlaceholder API to retrieve an image. The response is then converted to JSON format using the json() method, and then we set the image src to the url embedded in that response object. The catch method is used to catch any errors that may occur during the request.
+We're making a request to the JSONPlaceholder API to retrieve an image, and then setting that URL to the src of an <img> element.  
 
 ### Using fetch in React components
 
@@ -67,43 +64,26 @@ const Image = () => {
 export default Image;
 ~~~
 
-useState lets us bundle data within a component and rerender the component whenever state is updated, and useEffect allows us to perform side effects on those components. Since we need to synchronize this component's state (the image URL) with an unpredictable external system like the fetch API, we need an effect. In this case we only want to fetch the URL once when the component is first mounted so we pass an empty array as a dependency to useEffect.
-
-> Reminder: Whenever you are changing state, (or doing anything else that could cause a rerender) inside of useEffect, be sure to always pass a dependency. If you forget to do so useEffect will enter an infinite loop and rerender exponentially.
-
-You might be wondering what's going on here
-
-~~~jsx
-return (
-  imageURL && (
-    <>
-      <h1>An image</h1>
-      <img src={imageURL alt={"placeholder text"}}>
-    </>
-  )
-)
-~~~
-
-This is a pattern called _short circuiting_ and it allows developers to conditionally render JSX without using if statements or ternarys. The above snippet can be read as, "if imageURL is truthy then continue to evaluate the expression". A truthy value and an object evaluates to the object so in this case, JSX is returned. If imageURL was falsy, the right hand side of the && operation wouldn't evaluate and the component would return false.
+`useState` lets us add the `imageURL` state, whereas `useEffect` allows us to perform side effects. In this case, the side effect is fetching data from an external API. Since we only need to fetch once when component mounts, we pass an empty dependency array.
 
 ### Handling errors
 
-Working over the network is inherently unreliable. The API you're making a request to might be down, there could be network connectivity issues, or the response you recieve could contain errors. Any number of things can go wrong and if you don't preemptively plan for errors, your website can break or appear unresponsive to users. To simulate a network error, scroll up to that previous code snippet and change the fetch url to something random. The page will remain a white screen without giving the user any indication that the page has finished loading or that there was an error.
+Working over the network is inherently unreliable. The API you're making a request to might be down, there could be network connectivity issues, or the response you receive could contain errors. Any number of things can go wrong and if you don't preemptively plan for errors, your website can break or appear unresponsive to users. To simulate a network error, scroll up to that previous code snippet and change the fetch url to something random. The page will remain a white screen without giving the user any indication that the page has finished loading or that there was an error.
 
-To fix this, we need to check _something_ in the return of the Image component. We'll call it "error".
+To fix this, we need to check for _something_ before Image component returns JSX. We'll call it "error".
 
 ~~~jsx
+  if (error) return <p>A network error was encountered</p>
+
   return (
-    <>
-      {error && <p>A network error was encountered</p>}
-      {imageURL && (
-        <>
-          <h1>An image</h1>
-          <img src={imageURL} alt={"placeholder text"} />
-        </>
-      )}
-    </>
+    imageURL && (
+      <>
+        <h1>An image</h1>
+        <img src={imageURL} alt={"placeholder text"} />
+      </>
+    )
   );
+};
 ~~~
 
 To set this error, we'll add it to the component's state.
@@ -135,9 +115,44 @@ Now when a bad URL is passed or the API returns an unexpected response, the page
 
 **https://codesandbox.io/s/top-simple-react-request-with-error-fqjcrq?file=/src/Image.jsx**
 
+#### Loading state
+
+In the same way we added an `error` value in state to check for errors, we can add a `loading` value to check if the request is resolved or not.
+
+~~~jsx
+const Image = () => {
+  const [imageURL, setImageURL] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+      .then((response) => {
+        if (response.status >= 400) {
+          throw new Error("server error");
+        }
+        return response.json();
+      })
+      .then((response) => setImageURL(response[0].url))
+      .catch((error) => setError(error))
+      .finally(() => setLoading(false));
+  }, []);
+
+  if (error) return <p>A network error was encountered</p>;
+  if (loading) return <p>Loadgin...</p>;
+
+  return (
+    <>
+      <h1>An image</h1>
+      <img src={imageURL} alt={"placeholder text"} />
+    </>
+  );
+};
+~~~
+
 ### Managing multiple fetch requests
 
-In a full scale web app you're often going to be making more than one request and you need to be careful with how you organize them. A common issue new react developers face when their apps start making multiple requests is called a waterfall of requests. Let's look at an example.
+In a full scale web app you're often going to be making more than one request and you need to be careful with how you organize them. A common issue new React developers face when their apps start making multiple requests is called a _waterfall of requests_. Let's look at an example.
 
 **https://codesandbox.io/s/top-multiple-requests-with-waterfall-j92h8m**
 
@@ -277,7 +292,7 @@ Now we have both requests firing as soon as Profile renders. The request for ima
 <div class="lesson-content__panel" markdown="1">
 
 1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) for a brief overview of what was discussed in this lesson. 
-2. Read [How to fetch data in React with performace in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
+2. Read [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
 
 
 </div>
