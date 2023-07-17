@@ -191,7 +191,7 @@ const Image = () => {
     <img src={imageURL} alt={"placeholder text"} />
   )
 }
-```
+~~~
 
 If we ever needed to fetch images in different components, instead of rewriting all of that fetching logic we could simply call `useImageURL`.
 
