@@ -216,7 +216,7 @@ const [imageURL, setImageURL] = useState(null);
   );
 ~~~
 
-Notice how Bio is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React none of the hooks, JSX, or code inside of a component will be run until that component is due to render. Bio has to wait for the request inside of Profile to resolve before it starts rendering which means the request inside Bio isn't sent.
+Notice how `Bio` is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React, the component is not rendered until it is actually called. If JSX has conditional logic, the false branches will never render until they become true. `Bio` has to wait for the request inside of `Profile` to resolve before it starts rendering which means the request inside `Bio` isn't sent.
 
 If we remove the short circuiting conditional that waits for imageURL Bio would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass it's response as a prop to Bio.  
 
