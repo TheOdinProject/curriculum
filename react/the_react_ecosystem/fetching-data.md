@@ -199,7 +199,7 @@ If we ever needed to fetch images in different components, instead of rewriting 
 
 In a full scale web app you're often going to be making more than one request and you need to be careful with how you organize them. A common issue new React developers face when their apps start making multiple requests is called a _waterfall of requests_. Let's look at an example.
 
-**CODESANDBOX EMBED GOES HERE**
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1" allowfullscreen></iframe>
 
 We have 2 components making fetch requests; Profile and it's child component Bio. The requests in Profile and Bio are both firing inside of their respective components. On the surface this looks like a well organized separation of concerns but in this case, it comes at a cost in performance.
 
