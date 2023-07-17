@@ -154,7 +154,7 @@ We can separate out the fetching logic altogether into a custom hook. This will 
 
 Here's how we would do it for our example:
 
-```jsx
+~~~jsx
 const useImageURL = () => {
   const [imageURL, setImageURL] = useState(null);
   const [error, setError] = useState(null);
