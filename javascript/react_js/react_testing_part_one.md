@@ -70,6 +70,8 @@ Execute `npm test App.test.js` on the terminal and you'll see that test pass. `g
 
 ### Simulating User Events
 
+Before we start, it is important to note that create-react-app by default uses user-event v13.5, while userEvent.setup() function uses user-event v14. Thus, we have to install the latest version of userEvent. In the terminal, type `npm install @testing-library/user-event --save-dev`. Now we can proceed!
+
 There are numerous ways a user can interact with a webpage. Even though live user feedback and interaction is irreplaceable, we can still build some confidence in our components through tests. Here's a button which changes the heading of the App:
 
 ~~~javascript
