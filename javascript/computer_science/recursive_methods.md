@@ -25,7 +25,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
   1. Read [this recursion resource](https://javascript.info/recursion) for a good intro to recursion.
-  2. Watch [this explanation of Recursion](https://www.youtube.com/watch?v=6oDQaB2one8) by Web Dev Simplified and [this explanation of Recursion](https://youtu.be/LteNqj4DFD8) by DevSage.
+  2. Watch [this explanation of recursion](https://www.youtube.com/watch?v=6oDQaB2one8) by Web Dev Simplified and [this additional example of recursion](https://youtu.be/LteNqj4DFD8?t=340) by DevSage.
   3. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
   4. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
 </div>
