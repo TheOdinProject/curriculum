@@ -2,7 +2,7 @@
 
 In this lesson, we will cover keys in React. Keys are special props for our components and we'll learn why they are used.
 
-### Lesson Overview
+### Lesson overview
 
 By the end of the lesson you should be able to answer the following:
 
