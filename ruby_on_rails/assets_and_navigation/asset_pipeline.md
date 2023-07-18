@@ -133,25 +133,6 @@ For images, the asset pipeline keeps them in the `/assets` directory unless you'
 
 Remember the preprocessors we talked about in the previous lesson on Views?  Filetypes like ERB and SASS and HAML and Coffeescript all get preprocessed as part of the pipeline.
 
-### Un-Escaping HTML
-
-Let's say you're building a blog and you want to be able to write posts that include HTML code.  If you just write something like `this is the <strong>BODY</strong> of my post` and then try to display it in a view later, the `<strong>` tags will just be regular text... they will literally say '\<strong\>'.  That's called "escaping" the characters.
-
-To get your views to actually render HTML as HTML, you need to let Rails know that the code is safe to run.  Otherwise, it's easy for a malicious attacker to inject code like `<script>` tags that cause major issues when you try to render them.
-
-To tell Rails a string is safe, just use the method `raw` in your view template, for example:
-
-~~~html
-  <%= raw "<p>hello world!</p>" %>   <!-- this will create real <p> tags -->
-~~~
-
-If you don't want to rely on Rails' native behavior and would like to make absolutely sure the HTML does not get run, use the `CGI` class's `escapeHTML` method, e.g.
-
-~~~ruby
-  CGI::escapeHTML('usage: foo "bar" <baz>')
-  # => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
-~~~
-
 ### Assignment
 Some necessary and straightforward reading on the Asset Pipeline:
 
@@ -168,7 +149,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
 * [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
-* [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)
 
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -177,4 +157,3 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets">How do you include an asset in your views or layout?</a>
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives">What does the `require_tree` method do in a manifest-file?</a>
 * <a class="knowledge-check-link" href="#the-asset-pipeline">Why would you namespace your stylesheets?</a>
-* <a class="knowledge-check-link" href="#un-escaping-html">How do you display `<p>hello world!</p>` in your app?</a>

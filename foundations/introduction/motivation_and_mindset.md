@@ -15,7 +15,7 @@ Take a moment to think about why you have decided to learn programming.
 
 Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
-To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel.
+To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).
 
 
 ### Growth Mindset
@@ -155,6 +155,12 @@ Because we cover so much material on The Odin Project and link to so many high q
 Students often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration. 
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
+
+#### Counter Productive Note-Taking
+
+The Odin Project does not recommend taking a lot of notes throughout your web development educational journey because it can be time-consuming and often leads to wasted effort.
+
+**Solution:** Instead of taking notes to use as direct references, make notes that can serve as prompts for further research. It is important to get comfortable with reading documentation, which essentially acts as pre-existing notes made by someone else.
 
 ### Conclusion
 

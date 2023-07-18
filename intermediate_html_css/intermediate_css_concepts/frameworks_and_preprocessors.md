@@ -17,7 +17,7 @@ By the end of this lesson, you should:
 
 ### Frameworks Overview
 
-Frameworks like [Bootstrap](https://getbootstrap.com/) and [Tailwind](https://tailwindcss.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called .btn that will add all the needed styles to your buttons, without you having to write any CSS. In general, all you have to do to use a framework is understand how it expects you to lay out your site, and which classes it uses to designate its particular batch of styles.
+Frameworks like [Bootstrap](https://getbootstrap.com/) and [Tailwind](https://tailwindcss.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called .btn that will add all the needed styles to your buttons, without you having to write any CSS. In general, to use a framework, you need to understand how it expects you to structure your website and which classes it uses to apply its specific set of styles
 
 You should be aware that there are quite a few frameworks available to choose from. Two other frameworks to know about are [Bulma](https://bulma.io/) and [Foundation](https://get.foundation). There are many more out there.
 
@@ -49,13 +49,6 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 5. For balance, read [this list of the disadvantages of using a preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/).
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
-
-* [Bootstrap documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-* [Tailwind documentation](https://tailwindcss.com/docs)
-* [SASS documentation](https://sass-lang.com/documentation)
-
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -64,3 +57,11 @@ This section contains questions for you to check your understanding of this less
 * [What are some disadvantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
 * [What are some advantages of using a CSS preprocessor?](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2)
 * [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
+
+### Additional Resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+* [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* [Tailwind documentation](https://tailwindcss.com/docs)
+* [SASS documentation](https://sass-lang.com/documentation)

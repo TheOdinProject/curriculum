@@ -4,7 +4,15 @@ Use everything we've been discussing to create a weather forecast site using the
 
 You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. (You could even use the Giphy API to find appropriate weather-related gifs and display them). Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
 
-### API Keys, Secrets, and Security
+<div class="lesson-note" markdown="1">
+  
+#### WeatherAPI free tier
+
+After creating your API key from WeatherAPI, you will automatically be moved to the free tier after 14 days. This will limit the forecast data available to you to 3 days. You may want to keep this in mind while making design choices for the forecast display.
+
+</div>
+
+### API keys, secrets, and security
 
 Not all APIs are free, and depending on how they're set up, they can cost money per use. This makes them a prime target for people looking to use the API without paying by using **your** API key. They can also be rate-limited, and if someone has access to your API key they can use up all of your uses. One way to prevent this issue is to store your API keys on the server and never send them to the frontend in the first place, this is often done using environment variables and it makes the key available only on the server the code is deployed to.
 
@@ -24,4 +32,3 @@ When talking about API keys and security you'll often hear "Never trust the clie
 8. Push that baby to github and share your solution below!
 
 </div>
-

@@ -10,33 +10,33 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What Is React?
 
-React according to their [official website](https://reactjs.org/) is "A JavaScript library for building user interfaces" however lets break this down a bit further.
+React according to their [official website](https://react.dev/) is "The library for web and native interfaces" however lets break this down a bit further.
 
-Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks.
+Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks. That said, the terms library and framework are often used interchangeably, so don't worry too much about the difference.
 
 Similarly, React provides powerful primitives (built-in functions/modules) that allows us to build user interfaces of varying complexities. Throughout this course, we'll learn all about the functionality React provides and learn to build cool applications.
 
 ### Why Cover React?
 
-React is one of the most powerful, widely used frontend frameworks.
+React is one of the most powerful, widely used JavaScript libraries.
 
 The landscape for frontend frameworks has been changing a lot over the last few years, so it is understandable to be worried about choosing the "wrong" one.
-[This article on the lifecycle of JavaScript frameworks](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/) shows the recent development of frontend frameworks well. Once you start diving deeper into a framework, you will begin to love it. It makes your code easily scalable, more readable, and possibly a thousand times more efficient (just our modest estimation).
+[This article on the lifecycle of JavaScript frameworks](https://iamtapan.medium.com/this-is-how-long-the-life-cycle-of-a-javascript-framework-lasts-d21b29320512) shows the recent development of frontend frameworks well. Once you start diving deeper into a framework, you will begin to love it. It makes your code easily scalable, more readable, and possibly a thousand times more efficient (just our modest estimation).
 
 Just to name a few reasons on why to learn React:
 
 - Reusability of components
-- Well supported due to its popularity
+- Well supported due to its popularity and large community
 - React is not opinionated, which means that it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
-- Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML from our previous lessons.
+- Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML/CSS from our previous lessons.
 
-If you need more convincing, the recent [2022 StackOverflow Developer Survey](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
+If you need more convincing, the recent [2023 StackOverflow Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  If you haven't already, browse through the [React Website](https://reactjs.org/). Don't go too indepth and dive into documentation however do read the introduction/homepage to gauge an idea of how React works.
+1.  If you haven't already, browse through the [React Website](https://react.dev/). Don't go too in-depth and dive into documentation however do read the introduction/homepage to gauge an idea of how React works.
 
 2.  Glance at [this article which outlines the history of React](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/).
 
@@ -56,4 +56,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- If you are interested in learning more about React's history, checkout [this documentary on React's origin story by Honeypot](https://www.youtube.com/watch?v=8pDqJVdNa44)

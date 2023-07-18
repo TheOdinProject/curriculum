@@ -1,6 +1,3 @@
-'Status: Needs Triage':
-  - '**/*'
-
 'Content: Advanced HTML/CSS':
   - 'advanced_html_css/**/*'
 
@@ -21,6 +18,9 @@
 
 'Content: NodeJS':
   - 'nodeJS/**/*'
+
+'Content: React':
+  - 'react/**/*'
 
 'Content: Ruby':
   - 'ruby/**/*'

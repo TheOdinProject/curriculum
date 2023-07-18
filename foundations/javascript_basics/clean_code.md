@@ -1,5 +1,6 @@
 ### Introduction
 
+
 You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on _reading_ code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
 
 Don't think of these principles as something you need to master immediately. Everybody writes messy code sometimes, even professionals. What we want to do here is give you some guidelines that can help improve the readability of your code as you go along. The more you write code, the better it will become, both in terms of readability and other aspects.
@@ -18,11 +19,15 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is clean code?
 
+
 Consider the following examples:
+
+
 
 Example A:
 
 ~~~javascript
+
 const x = function (z) {
   let w = 0;z.forEach(
 function (q) {
@@ -138,7 +143,10 @@ Much better, isn't it? The variable is declared with a descriptive name, and you
 
 You might wonder why this variable is declared with all caps, when we have recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
 
+
+
 ### Indentation and line length
+
 
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
@@ -266,6 +274,7 @@ This comment helps to refresh the reader on how BMI is calculated in plain Engli
 Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, everyone does it sometimes. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
 Learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
+
 
 ### Assignment
 

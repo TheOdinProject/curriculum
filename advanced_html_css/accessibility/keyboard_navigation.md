@@ -38,7 +38,7 @@ buttons.forEach(button => {
 })
 ~~~
 
-Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the "space" or "enter" keys on a keyboard when a `<button>` has focus will trigger the "click" event.
+Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the <kbd>Space</kbd> or <kbd>Enter</kbd> keys on a keyboard when a `<button>` has focus will trigger the "click" event.
 
 <span id="interative-elements-keyboard">The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.</span>
 
@@ -60,7 +60,7 @@ You probably assume that you're about to be told not to do this. Well... **You s
 
 ### Tab Order
 
-The tab order is the order in which elements on the page will receive focus when pressing the Tab key, and is by default in the same order as the order of elements listed in the HTML file:
+The tab order is the order in which elements on the page will receive focus when pressing the <kbd>Tab</kbd> key, and is by default in the same order as the order of elements listed in the HTML file:
 
 ~~~html
 <!-- This element is first in the tab order. -->

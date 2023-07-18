@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/scrim/cof3d488184abe24ec6258ab4?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/scrim/cof3d488184abe24ec6258ab4?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 ### The Box Model
 
@@ -28,11 +28,11 @@ Every single thing on a webpage is a rectangular box. These boxes can have other
 }
 ~~~
 
-![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/boxes.png)
+![boxes](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/css-foundations/the-box-model/imgs/boxes.png)
 
 You can use the browser's inspector to add the CSS above to this web page if you want. Boxes in boxes!
 
-![lines](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/odin-lined.png)
+![lines](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/css-foundations/the-box-model/imgs/odin-lined.png)
 
 OK, so there might be some circles in the above image... but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all its elements is deciding how you are going to nest and stack these boxes.
 
@@ -44,7 +44,7 @@ The only real complication here is that there are many ways to manipulate the si
 
 Be sure to study the diagrams carefully.
 
-![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/the-box-model/imgs/box-model.png)
+![the box model](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/css-foundations/the-box-model/imgs/box-model.png)
 
 ### Assignment
 

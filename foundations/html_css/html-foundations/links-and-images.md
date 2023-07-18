@@ -4,7 +4,7 @@ Links are one of the key features of HTML. They allow us to link to other HTML p
 
 In this lesson, we will learn how to create links and add some visual flair to our websites by embedding images.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -26,7 +26,7 @@ To get some practice using links and images throughout this lesson we need an HT
 <h1>Homepage</h1>
 ~~~
 
-### Anchor Elements
+### Anchor elements
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
@@ -50,14 +50,32 @@ By default, any text wrapped with an anchor tag without a `href` attribute will 
 
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
-### Absolute and Relative Links
+### Opening links in a new tab
+
+The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute. 
+
+While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
+
+~~~html
+<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
+~~~
+
+<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. 
+
+The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
+
+Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it. 
+
+Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide this security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
+
+### Absolute and relative links
 
 Generally, there are two kinds of links we will create:
 
 1.  Links to pages on other websites on the internet
 2.  Links to pages located on our own websites
 
-#### Absolute Links
+#### Absolute links
 
 Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
 
@@ -65,7 +83,7 @@ We've already seen an absolute link in action. The link we created to The Odin P
 
 `https://www.theodinproject.com/about`
 
-#### Relative Links
+#### Relative links
 
 Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
 
@@ -129,7 +147,7 @@ In many cases, this will work just fine; however, you can still run into unexpec
 ~~~
 
 
-#### A Metaphor
+#### A metaphor
 
 Absolute and relative links are a tricky concept to build a good mental model of, a metaphor may help:
 
@@ -175,7 +193,7 @@ Finally add the image to the `index.html` file:
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
-### Parent Directories
+### Parent directories
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
@@ -220,23 +238,25 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 *   [What element is used to create a link?](#anchor-elements)
 *   [What is an attribute?](#attribute)
 *   [What attribute tells links where to go to?](#where-to-go)
+*   [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](#target-security)
 *   [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
 *   [Which element is used to display an image?](#images)
 *   [What two attributes do images always need to have?](#two-attributes)
 *   [How do you access a parent directory in a filepath?](#parent-filepath)
 *   [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 -   [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
+-   [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
 

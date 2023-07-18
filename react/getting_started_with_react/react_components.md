@@ -1,6 +1,6 @@
 ### Introduction
 
-In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the [Setting Up A React Environment lesson](https://github.com/TheOdinProject/top-meta/issues/221), but try not to copy and paste any code while you're coding along. 
+In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the previous lesson, but try not to copy and paste any code while you're coding along. 
 
 ### Lesson Overview
 
@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
-![Component Example](./imgs/00.png)
+![Component Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/91485eec76445d86b29d35894e83324e2967f2fb/react/imgs/00.png)
 
 For example, this simple website could be broken into the following components:
 
@@ -39,6 +39,14 @@ This might look mostly familiar to you - it's a simple JavaScript function, whic
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
+<div class="lesson-note lesson-note--tip" markdown="1" >
+
+#### What is HTML doing in my Javascript?
+
+It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons! 
+
+</div>
+
 ### Where Do Components Live
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! Let's import React so the component in this file works as intended. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
@@ -53,26 +61,20 @@ function Greeting() {
 export default Greeting;
 ~~~
 
-Are we done? Well let's think about this - we're declared our component, and exported it, but does `index.js` know about it yet? Nope! Let's fix that. Let's look at `index.js`, we can see that `root.render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
+Are we done? Well let's think about this - we're declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
 ~~~jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Greeting from './greeting.js';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import Greeting from './Greeting.jsx'
+import './index.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Greeting />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  </React.StrictMode>,
+)
 ~~~
 
 And just like that, you've successfully imported and used your first custom-made component, congratulations!
