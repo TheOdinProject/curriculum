@@ -57,7 +57,7 @@ This section contains a general overview of topics that you will learn in this l
 
     1. Create a new directory in your home directory with the name `test`.
     2. Navigate to the `test` directory.
-    3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    3. Create a new file called `test.txt`. *Hint: use the `touch` or `nano` command.*
     4. Open your newly created file in VSCode and make some changes, save the file, and close it.
     5. Navigate back out of the `test` directory.
     6. Delete the `test` directory.
