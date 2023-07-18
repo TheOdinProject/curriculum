@@ -6,7 +6,7 @@ Whether it's to share our creations with friends, create a portfolio for future 
 
 In this lesson, we will learn how to deploy our apps to a hosting provider, allowing us to run, build, and operate our web applications in the cloud.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -16,13 +16,13 @@ This section contains a general overview of topics that you will learn in this l
 - Know how to deploy to a PaaS provider
 - Know how to troubleshoot common deployment issues
 
-### What are Hosting Providers?
+### What are hosting providers?
 
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
 You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** NodeJS apps. We're going to need something more powerful.
 
-### Static vs Dynamic Sites
+### Static vs dynamic sites
 
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
@@ -67,7 +67,7 @@ With NodeJS, we will be using MongoDB, a popular open-source database. Many PaaS
 
 Either choice isn't too difficult to setup, but it's always nice to have a fallback option! Later in this course, we will be following the MDN tutorial's instructions on deploying both our app and database connection to Railway. For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson. However, If you're having too much trouble, don't fret. Just come back to it later once you've finished the MDN tutorial and have that bit of deployment experience under your belt.
 
-#### Domain Names
+#### Domain names
 
 PaaS providers will give you a random domain name when you first deploy. In Heroku's case, it's usually something zen-like "afternoon-falls-4209". If you want to visit the app, you can go directly to `http://afternoon-falls-4209.herokuapp.com` to see your app live on the web in all its glory.
 
@@ -79,7 +79,7 @@ To find a new domain, try using [Domainr](https://domainr.com/).
 
 Once you have your domain, you need to point it to your project. The provider you are using will have exhaustive documentation on using custom domain names on their platform.
 
-### Our Recommended PaaS Services
+### Our recommended PaaS services
 
 Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted, but they unfortunately discontinued it in 2022.
 
@@ -170,7 +170,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Debugging and Troubleshooting Deployments
+### Debugging and troubleshooting deployments
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
 
@@ -178,7 +178,7 @@ In most cases, you'll be running into errors that thousands of developers have e
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
-#### On Deployment
+#### On deployment
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
@@ -188,7 +188,7 @@ If you don't recognize the error or what might cause it, your next step will be 
 
 Most of the errors you'll face during this stage will be related to properly setting up your app with what your hosting provider needs. Double-checking the deployment guide for your hosting provider is always a good place to start. It's very easy to miss a step or mistype something.
 
-#### After Deployment
+#### After deployment
 
 You've just deployed your app successfully; everything is going your way, and this will be a great day! However, when you visit your app... you are greeted with the dreaded 500 page.
 
@@ -206,7 +206,7 @@ As your application grows, you'll want to get more sophisticated with your error
 
 These services will give you more information about the error and the request that caused it, saving you a ton of time. However, setting up and using these services are out of the scope of this lesson. You can get by just fine with the logs for your first few apps.
 
-#### One Final Tip
+#### One final tip
 
 If something has broken in your latest deployment after successful deployments in the past, backtrack to the last working version to determine what changes you made and slowly reintroduce those changes again if you need to.
 
@@ -225,7 +225,7 @@ This will be where the Git skills you've been learning will start to really pay 
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
 
@@ -236,7 +236,7 @@ This section contains questions for you to check your understanding of this less
 - [What steps can you take to diagnose an issue that arises during deployment?](#on-deployment)
 - [What steps can you take to diagnose an issue that only appears after deployment?](#after-deployment)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
