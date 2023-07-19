@@ -8,7 +8,7 @@ We can only support the operating systems indicated above. Our instructions have
 
 </div>
 
-### 1: OS Installation
+### 1: OS installation
 
 #### IMPORTANT
 
