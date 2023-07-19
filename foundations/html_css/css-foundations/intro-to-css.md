@@ -235,7 +235,7 @@ When two selectors have the same level of specificity, the rule that is defined 
   font-weight: 800;
 }
 .first_declared {
-  color: rgb(50, 50, 200)
+  color: rgb(50, 50, 200);
   font-size: 32px;
 }
 .last_declared {
