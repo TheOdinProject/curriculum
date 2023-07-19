@@ -115,7 +115,7 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Code along with the the MDN article for [using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+1. Code along with [this MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 2. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
 </div>
 
