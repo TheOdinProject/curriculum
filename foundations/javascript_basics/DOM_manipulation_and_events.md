@@ -121,7 +121,7 @@ div.style['background-color'] // also works
 div.style.cssText = "background-color: white;" // sets the div's background-color by assigning a CSS string
 ~~~
 
-#### Editing Attributes
+#### Editing attributes
 
 ~~~javascript
 div.setAttribute('id', 'theDiv');                              
@@ -162,7 +162,7 @@ div.textContent = 'Hello World!'
 // inserts it in div
 ~~~
 
-#### Adding HTML Content
+#### Adding HTML content
 
 ~~~javascript
 div.innerHTML = '<span>Hello World!</span>';                   
