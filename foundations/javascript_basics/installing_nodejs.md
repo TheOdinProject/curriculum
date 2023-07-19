@@ -113,7 +113,7 @@ Downloading and installing Node vXX.xx.x...
 
 If not, close the terminal, re-open it and run `nvm install --lts` again.
 
-#### Step 2: Setting the node version
+#### Step 2: Setting the Node version
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy; just run the following command:
 
