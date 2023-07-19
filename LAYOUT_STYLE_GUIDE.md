@@ -18,6 +18,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Newlines](#newlines)
 1. [Lists](#lists)
 1. [Code](#code)
+1. [Note boxes](#notes)
 1. [Links](#links)
 1. [Images](#images)
 1. [Keyboard shortcuts](#keyboard-shortcuts)
@@ -378,6 +379,16 @@ Will result in the following output:
 
 - Next bullet.
 
+## Notes
+
+Notes can be added by wrapping the note in a `div` with class `lesson-note`. This will render the note into a box. Optionally you can add a header to the note; please wrap the header in a `h4`.
+
+### Variations
+
+Notes come in several variation, which can be set by adding an extra class together with `lesson-note`. Options are:
+- `lesson-note--tip` for tips
+- `lesson-note--warning` for warnings about potential issues/pitfalls.
+
 ## Links
 
 Long links make source Markdown difficult to read and break the 80 character wrapping. **Wherever possible, shorten your links**.
@@ -417,19 +428,19 @@ Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kb
 
 ```html
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
-``` 
+```
 
 ### Style standardization
 
 - Use separate `<kbd>` elements for individual keys:
 
-  ~~~markdown 
+  ~~~markdown
   <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
   ~~~
 
 - Use capitalized common abbreviations for the keys and avoid using symbols like `⌘`:
 
-  ~~~markdown 
+  ~~~markdown
   <kbd>Cmd</kbd>
   <kbd>Alt</kbd>
   <kbd>B</kbd>
@@ -438,7 +449,7 @@ Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kb
 
 - Use symbols for character keys instead of spelling out the symbol like `period`:
 
-  ~~~markdown 
+  ~~~markdown
   <kbd>.</kbd>
   <kbd>,</kbd>
   <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
