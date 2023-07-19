@@ -22,7 +22,7 @@ Some examples of these toolchains:
 * [Vite's React Config](https://vitejs.dev/)
 * [Gatsby](https://www.gatsbyjs.com/)
 * [NextJS](https://nextjs.org/)
-* [Create React App](https://create-react-app.dev/)(Deprecated)
+* [Create React App](https://create-react-app.dev/) (Deprecated)
 
 Why do we need these toolchains? Can't we just make our own as we see fit?
 
