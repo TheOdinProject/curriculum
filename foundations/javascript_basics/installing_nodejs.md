@@ -127,7 +127,7 @@ Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with
 
 If you see that, you have successfully installed Node!
 
-### Using node console  
+### Using Node console  
 
 For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
 
