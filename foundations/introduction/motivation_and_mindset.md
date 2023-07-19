@@ -156,7 +156,7 @@ Students often compare themselves to others who are farther along in their codin
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 
-#### Counter Productive Note-Taking
+#### Counter productive note-taking
 
 The Odin Project does not recommend taking a lot of notes throughout your web development educational journey because it can be time-consuming and often leads to wasted effort.
 
