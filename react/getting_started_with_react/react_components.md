@@ -35,7 +35,7 @@ function Greeting() {
 }
 ~~~
 
-This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. 
+This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish. 
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
@@ -61,7 +61,7 @@ function Greeting() {
 export default Greeting;
 ~~~
 
-Are we done? Well let's think about this - we're declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
+Are we done? Well let's think about this - we're declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly created greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
 ~~~jsx
 import React from 'react'
@@ -84,7 +84,7 @@ And just like that, you've successfully imported and used your first custom-made
 <div class="lesson-content__panel" markdown="1">
 
 1.  It's time to create some new components! Use the same project, but play around with it, try displaying something like your favorite food.
-    *   While components normally get exported as defaults, try using some named exports instead of default exports. If unsure of how to do this, consult your best friend - [MDN its export documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
+    *   While components normally get exported as defaults, try using some named exports instead of default exports. If you're unsure how to do this, consult your best friend: [the MDN documentation about export statements](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
 </div>
 
 ### Knowledge Check

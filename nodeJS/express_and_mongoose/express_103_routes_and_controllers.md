@@ -3,7 +3,7 @@ The next step in the MDN express tutorial sets up all the routes and controllers
 
 If you remember from our earlier lessons, the controller is the code that sits between the models and the views. It determines which view is going to be shown, as well as which information is going to populate that view. In this lesson, you will copy and paste quite a bit of repetitive code to get the controllers and routes set up, but be sure to read everything in between them! There is a _lot_ of useful information therein.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to do the following:
 1. Continue where we left off with part 4 of the [Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules'>How do you define a route function in Express?</a>
@@ -29,7 +29,7 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_route-handler_callback_functions'>What is a route-handler callback function commonly called?</a>
 
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
