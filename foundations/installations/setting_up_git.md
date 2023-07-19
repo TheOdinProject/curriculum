@@ -23,7 +23,7 @@ sudo apt update
 sudo apt upgrade
 ~~~
 
-#### Step 1.2: Install git
+#### Step 1.2: Install Git
 
 You likely have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
 
@@ -35,7 +35,7 @@ sudo apt install git
 
 #### Step 1.3: Verify version
 
-Make sure your git version is **at least** 2.28 by running this command:
+Make sure your Git version is **at least** 2.28 by running this command:
 
 ~~~bash
 git --version
@@ -76,7 +76,7 @@ This will install the latest version of Git. Easy, right?
 
 If you have just installed and/or updated Git from the previous step, first close that terminal window.
 
-**Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
+**Open a new terminal window** and then make sure your Git version is **at least** 2.28 by running this command:
 
 ~~~bash
 git --version
@@ -153,7 +153,7 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits.
+**macOS Users:** Run these two commands to tell Git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits.
 
 ~~~bash
 echo .DS_Store >> ~/.gitignore_global
