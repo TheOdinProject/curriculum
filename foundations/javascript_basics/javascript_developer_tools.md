@@ -19,9 +19,9 @@ This section contains a general overview of topics that you will learn in this l
 *  Enable or Disable CSS Classes
 *  Simulate media queries in Device Mode
 
-### Opening dev tools
+### Opening DevTools
 
-There are three ways to open the Chrome Developer Tools menu:
+There are three ways to open the Chrome DevTools menu:
 
 1.  From the `Chrome Menu` > `More Tools` > `Developer Tools`
 2.  Right-click anywhere on a webpage and select `Inspect`

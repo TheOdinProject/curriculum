@@ -93,7 +93,7 @@ For more information, view [NVM's github documentation](https://github.com/nvm-s
 
 </details>
 
-### Installing node
+### Installing Node
 
 Now that we have `nvm` installed, we can install Node.
 
@@ -113,7 +113,7 @@ Downloading and installing Node vXX.xx.x...
 
 If not, close the terminal, re-open it and run `nvm install --lts` again.
 
-#### Step 2: Setting the node version
+#### Step 2: Setting the Node version
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy; just run the following command:
 
@@ -127,7 +127,7 @@ Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with
 
 If you see that, you have successfully installed Node!
 
-### Using node console  
+### Using Node console  
 
 For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
 

@@ -65,10 +65,10 @@ Many beginners try to solve the big problem in one go. **Don’t do this**. <spa
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
-### Solving fizz buzz
-To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
+### Solving Fizz Buzz
+To demonstrate this workflow in action, let's solve [a common programming exercise: Fizz Buzz, explained in this wiki article](https://en.wikipedia.org/wiki/Fizz_buzz).
 
-#### Understanding The problem
+#### Understanding the problem
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
 This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
