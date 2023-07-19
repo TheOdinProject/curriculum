@@ -9,7 +9,7 @@ Test out these ideas and try to incorporate them into your thought process while
 
 With that out of the way, let's get started!
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -284,7 +284,7 @@ Learning to write clean code is an process of constant improvement. One that wil
 2.  [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -292,7 +292,7 @@ This section contains questions for you to check your understanding of this less
 - [Name 5 clean code principles previously mentioned](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 - [What is the difference between good comments and bad comments?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
