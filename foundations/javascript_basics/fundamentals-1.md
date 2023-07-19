@@ -1,7 +1,7 @@
 ### Introduction
 Let's dive right into JavaScript!
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 * What are assignment operators?
 * What is the Unary Plus Operator?
 
-### How to Run JavaScript Code
+### How to run JavaScript code
 
 All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
@@ -97,13 +97,13 @@ Try the following exercises (and don't forget to use `console.log()`!):
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 

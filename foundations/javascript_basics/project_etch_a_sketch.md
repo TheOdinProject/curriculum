@@ -34,7 +34,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
     *   You should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used.
 5.  Push your project to GitHub!
 
-#### Extra Credit
+#### Extra credit
 Transform the behavior of a square when interacting with the mouse by introducing a series of modifications. 
 
 1. Rather than a simple color change from black to white, each interaction should randomize the square's RGB value entirely. 
