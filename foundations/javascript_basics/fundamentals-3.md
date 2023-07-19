@@ -2,7 +2,7 @@
 
 Things are about to get _really_ exciting. So far you have been writing an impressive amount of code to solve various problems, but that code has not been as useful as it could be. Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code. That's the power of functions, and they're used _constantly_ in JavaScript.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -50,7 +50,7 @@ For now, just write each function and test the output with `console.log`.
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -61,7 +61,7 @@ This section contains questions for you to check your understanding of this less
 -   [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
 -   [What are arrow functions?](https://javascript.info/arrow-functions-basics)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

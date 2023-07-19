@@ -19,6 +19,9 @@
 'Content: NodeJS':
   - 'nodeJS/**/*'
 
+'Content: React':
+  - 'react/**/*'
+
 'Content: Ruby':
   - 'ruby/**/*'
 

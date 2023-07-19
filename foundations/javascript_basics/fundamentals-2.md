@@ -2,7 +2,7 @@
 
 There are a few extremely common types of data that you will encounter in JavaScript, and these lessons on fundamentals will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -57,7 +57,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
@@ -67,7 +67,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
 - [When to avoid regular expressions](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions).
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 

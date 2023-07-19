@@ -304,4 +304,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)

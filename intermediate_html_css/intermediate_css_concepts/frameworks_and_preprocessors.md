@@ -17,7 +17,7 @@ By the end of this lesson, you should:
 
 ### Frameworks Overview
 
-Frameworks like [Bootstrap](https://getbootstrap.com/) and [Tailwind](https://tailwindcss.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called .btn that will add all the needed styles to your buttons, without you having to write any CSS. In general, all you have to do to use a framework is understand how it expects you to lay out your site, and which classes it uses to designate its particular batch of styles.
+Frameworks like [Bootstrap](https://getbootstrap.com/) and [Tailwind](https://tailwindcss.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called .btn that will add all the needed styles to your buttons, without you having to write any CSS. In general, to use a framework, you need to understand how it expects you to structure your website and which classes it uses to apply its specific set of styles
 
 You should be aware that there are quite a few frameworks available to choose from. Two other frameworks to know about are [Bulma](https://bulma.io/) and [Foundation](https://get.foundation). There are many more out there.
 
@@ -62,6 +62,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [Bootstrap documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+* [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 * [Tailwind documentation](https://tailwindcss.com/docs)
 * [SASS documentation](https://sass-lang.com/documentation)

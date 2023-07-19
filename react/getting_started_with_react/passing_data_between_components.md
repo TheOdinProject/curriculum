@@ -237,7 +237,11 @@ export default function App() {
 
 When supplying a parameter to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the parameter. Like the previous example, this is to prevent the function being called during the render.
 
+<div class="lesson-note" markdown="1" >
+
 There are also other ways to implement this behavior. Hint: [curried functions!](https://javascript.info/currying-partials)
+
+</div>
 
 Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
 
@@ -245,7 +249,7 @@ Hopefully you can now understand from the examples in this lesson, just how incr
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React Docs Beta on [Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
+1.  Read through the React Docs Beta on [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
 </div>
 
 ### Knowledge Check
@@ -261,4 +265,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [The original React Docs on Components and Props](https://reactjs.org/docs/components-and-props.html) has some more information on props you may find useful.
+*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
