@@ -93,7 +93,7 @@ For more information, view [NVM's github documentation](https://github.com/nvm-s
 
 </details>
 
-### Installing node
+### Installing Node
 
 Now that we have `nvm` installed, we can install Node.
 
