@@ -65,7 +65,7 @@ Many beginners try to solve the big problem in one go. **Don’t do this**. <spa
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
-### Solving fizz buzz
+### Solving Fizz Buzz
 To demonstrate this workflow in action, let's solve a common programming exercise: [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz).
 
 #### Understanding the problem
