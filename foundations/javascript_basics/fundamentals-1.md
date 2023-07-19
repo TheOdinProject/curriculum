@@ -101,7 +101,7 @@ _* As you might have noticed by running Javascript code in the console, the cons
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
+* The precise differences between `var` and `let` are explained in [javascript.info](https://javascript.info/var).
 
 ### Knowledge Check
 
