@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 *  Enable or Disable CSS Classes
 *  Simulate media queries in Device Mode
 
-### Opening dev tools
+### Opening DevTools
 
 There are three ways to open the Chrome Developer Tools menu:
 
