@@ -3,11 +3,11 @@ This is where it all begins! A hands-on introduction to all of the essential too
 ## The Outline
 
 - Introduction
-  - How this Course Will Work - [lesson](introduction/how_this_course_will_work.md)
-  - Introduction to Web Development - [lesson](introduction/introduction_to_web_development.md)
-  - Motivation and Mindset - [lesson](introduction/motivation_and_mindset.md)
-  - Asking For Help - [lesson](introduction/asking_for_help.md)
-  - Join the Odin Community - [lesson](introduction/join_the_odin_community.md)
+  - How this course will work - [lesson](introduction/how_this_course_will_work.md)
+  - Introduction to web development - [lesson](introduction/introduction_to_web_development.md)
+  - Motivation and mindset - [lesson](introduction/motivation_and_mindset.md)
+  - Asking for help - [lesson](introduction/asking_for_help.md)
+  - Join the Odin community - [lesson](introduction/join_the_odin_community.md)
 - Prerequisites
   - Computer Basics - [lesson](installations/computer_basics.md)
   - How Does the Web Work? - [lesson](installations/how_does_the_web_work.md)
