@@ -175,6 +175,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 <div class="lesson-content__panel" markdown="1">
 
 1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+
    - Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
 
 2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
@@ -185,22 +186,11 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 ### Knowledge check
 
-- [Introduction](#introduction)
-- [Learning outcomes](#learning-outcomes)
-- [Required validation](#required-validation)
-- [Text length validations](#text-length-validations)
-  - [Minimum length validation](#minimum-length-validation)
-  - [Maximum length validation](#maximum-length-validation)
-  - [Combining validations](#combining-validations)
-- [Number range validations](#number-range-validations)
-  - [Min validation](#min-validation)
-  - [Max validation](#max-validation)
-- [Pattern validations](#pattern-validations)
-- [Styling validations](#styling-validations)
-- [Conclusion](#conclusion)
-- [Assignment](#assignment)
-- [Knowledge check](#knowledge-check)
-- [Additional resources](#additional-resources)
+- [What does the <code>required</code> validation do?](#required-validation)
+- [What validations can you use for checking text length?](#text-length-validations)
+- [How can you validate the minimum and maximum of numeric inputs?](#number-range-validations)
+- [What can you use the pattern validation for?](#pattern-validations)
+- [What pseudo CSS selectors are available for styling valid and invalid inputs?](#styling-validations)
 
 ### Additional resources
 

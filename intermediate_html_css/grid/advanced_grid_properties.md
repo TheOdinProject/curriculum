@@ -43,10 +43,10 @@ We use the properties `gap` and `padding` to establish a "gutter" area to be abl
 
 The `border` and `background-color` are included to make the container look nicer.
 
-~~~css
+```css
 grid-template-rows: 150px 150px;
 grid-template-columns: 150px 150px 150px 150px 150px;
-~~~
+```
 
 Here is where we want to begin our focus for this lesson. In order to make two rows and five columns, we manually define each row and column's track size individually.
 
@@ -60,21 +60,21 @@ Enter, `repeat()`.
 
 `repeat()` is a CSS function available to the CSS Grid template properties that allows us to define a number of rows or columns and the size we want them to be without having to manually type out each individual track's size. For example, in our setup above:
 
-~~~css
+```css
 .grid-container {
   grid-template-rows: 150px 150px;
   grid-template-columns: 150px 150px 150px 150px 150px;
 }
-~~~
+```
 
 can be rewritten as:
 
-~~~css
+```css
 .grid-container {
   grid-template-rows: repeat(2, 150px);
   grid-template-columns: repeat(5, 150px);
 }
-~~~
+```
 
 Check it out for yourself!
 
@@ -115,9 +115,9 @@ We can also tell our grid items to distribute the remaining space disproportiona
 
 In this example, there's a lot going on in our `grid-template-columns`, but take a minute to understand what is written:
 
-~~~css
+```css
 grid-template-columns: repeat(2, 2fr) repeat(3, 1fr);
-~~~
+```
 
 > Quick note: We continue to use the `repeat()` function here, but this could be written the old-fashioned way too!
 
@@ -144,21 +144,21 @@ We learned about `min()` and `max()` in our previous [lesson on CSS functions](h
 
 You can supply as many arguments to these functions as you want:
 
-~~~css
+```css
 .grid-container {
   grid-template-rows: repeat(2, min(100px, 200px, 300px, 400px, 500px));
   grid-template-columns: repeat(5, max(100px, 200px, 300px, 400px, 500px));
 }
-~~~
+```
 
 Of course, it's silly to give these functions static units because the calculation is meaningless: the smallest or largest value will always be returned. In the above example, the grid rows will always have a size of `100px` (the smallest of the five values) and the grid columns will always have a size of `500px` (the largest of the five). But when we provide a dynamic value as one of these arguments, we unlock the real potential of these functions, especially in the context of Grid:
 
-~~~css
+```css
 .grid-container {
   grid-template-rows: repeat(2, min(200px, 50%));
   grid-template-columns: repeat(5, max(120px, 15%));
 }
-~~~
+```
 
 In this case, the grid row size will be calculated from the values `200px` and `50%` grid container's height. In realtime, the browser will compare both of these values and apply whichever is smallest to the size of our grid row. Essentially, what this tells this grid is that the track size should be 50% of the grid's total vertical space (because we are defining a row size), _unless_ that number would exceed `200px`. Essentially, you're setting a max-height for the track.
 
@@ -189,12 +189,12 @@ It is a relatively straightforward function that only takes in two arguments:
 
 Unlike `min()` and `max()`, it _can_ make sense to use static values for both arguments. Here is an example of the grid we've been using written with `minmax()` and some static values:
 
-~~~css
+```css
 .grid-container {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(5, minmax(150px, 200px));
 }
-~~~
+```
 
 With our `grid-template-columns` set with `minmax()` values, each grid item's width will grow and shrink with the grid container as it resizes horizontally. However, as the grid shrinks, the column tracks will stop shrinking at `150px`, and as the grid grows, they will stop growing at `200px`. Talk about flexibility! Check it out for yourself below:
 
@@ -217,21 +217,21 @@ Since `clamp()`'s purpose is to create a flexibly sized track with constraints, 
 
 Here is a simple non-grid example. We will look back at our grid in a moment:
 
-~~~css
+```css
 .simple-example {
   width: clamp(500px, 80%, 1000px);
 }
-~~~
+```
 
 This element, which we can pretend is just a `div`, will render with a width equal to 80% of its parent's width, unless that number is lower than `500px` or higher than `1000px`, in which case it will use those numbers as its width.
 
 Okay, now back to our grid:
 
-~~~css
+```css
 .grid-container {
   grid-template-columns: repeat(5, clamp(150px, 20%, 200px));
 }
-~~~
+```
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="dyVPPEL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVPPEL">
@@ -250,23 +250,23 @@ These two values are actually a part of the `repeat()` function specification, b
 
 According to the [W3 specification on auto-fill and auto-fit](https://www.w3.org/TR/css-grid-1/#auto-repeat), both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
 
-~~~css
+```css
 .simple-example {
   display: grid;
   width: 1000px;
   grid-template-columns: repeat(auto-fit, 200px);
 }
-~~~
+```
 
 For this grid, we have a set width of `1000px` and we are telling it to fill in our columns with tracks of `200px` each. As long as there are at least five grid items, this will result in a 5-column layout no matter what. In this case, `auto-fill` would actually do the same thing. We will get into the difference soon.
 
 The real magic of `auto-fit` and `auto-fill` comes when we incorporate `minmax()` into the equation. With `minmax()`, we can tell our grid that we want to have as many columns as possible, using the constraints of our `minmax()` function to determine each column's size, without it overflowing our grid. Check out how cool our grid looks when we resize it now!
 
-~~~css
+```css
 .grid-container {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-~~~
+```
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="abLzzgR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abLzzgR">
@@ -302,6 +302,7 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
@@ -315,22 +316,15 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- [Introduction](#introduction)
-- [Learning outcomes](#learning-outcomes)
-- [Setup](#setup)
-  - [`.grid-item, p, img` selectors](#grid-item-p-img-selectors)
-  - [`.grid-container`](#grid-container)
-- [Repeat](#repeat)
-- [Fractional units](#fractional-units)
-- [Minimum and maximum track sizes: min() and max()](#minimum-and-maximum-track-sizes-min-and-max)
-- [Dynamic minimum and maximum sizes](#dynamic-minimum-and-maximum-sizes)
-  - [minmax()](#minmax)
-  - [clamp()](#clamp)
-- [auto-fit and auto-fill](#auto-fit-and-auto-fill)
-  - [What about auto-fill?](#what-about-auto-fill)
-- [Assignment](#assignment)
-- [Knowledge check](#knowledge-check)
-- [Additional resources](#additional-resources)
+- [How do you create several grid tracks of the same size without manually typing each one out?](#repeat)
+- [What is the difference between a static and dynamic size value?](#fractional-units)
+- [How can you assign a grid track a flexible value that changes depending on the remaining space available in the grid?](#fractional-units)
+- [How can you assign grid tracks an uneven distribution of the remaining space in a grid?](#fractional-units)
+- [Which CSS functions will return the _smallest_ or _largest_ value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
+- [Which CSS Grid-only function allows you to supply a minimum and maximum track size that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
+- [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
+- [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
+- [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)
 
 ### Additional resources
 
@@ -339,4 +333,3 @@ This section contains helpful links to other content. It isn’t required, so co
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
 - Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
-
