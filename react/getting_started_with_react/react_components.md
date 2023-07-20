@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 *   How are components created?
 *   Where do components live?
 
-### What are components
+### What are components?
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
