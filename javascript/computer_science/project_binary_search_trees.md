@@ -68,7 +68,7 @@ Write a simple driver script that does the following:
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
