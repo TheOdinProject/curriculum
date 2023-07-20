@@ -66,7 +66,7 @@ Your Multiple Lines of Code
 
 You can also use _code highlighting_ to add color to your multi-line code by specifying the language:
 
-\`\`\`**javascript**
+\`\`\`**js** or **javascript**
 
 Your Multiple Lines of Colorful Code
 
