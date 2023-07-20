@@ -41,7 +41,7 @@ Are you done? Check the naming of your function! Is it capitalized? Keep this ke
 
 <div class="lesson-note lesson-note--tip" markdown="1" >
 
-#### What is HTML doing in my Javascript?
+#### What is HTML doing in my JavaScript?
 
 It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons! 
 
