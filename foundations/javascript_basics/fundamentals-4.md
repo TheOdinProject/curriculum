@@ -52,9 +52,9 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* [What is an array?](https://www.w3schools.com/js/js_arrays.asp)
-* [What are arrays useful for?](https://www.w3schools.com/js/js_arrays.asp)
-* [How do you access an array element?](https://www.w3schools.com/js/js_arrays.asp)
+- [What is an array?](https://www.w3schools.com/js/js_arrays.asp)
+- [What are arrays useful for?](https://www.w3schools.com/js/js_arrays.asp)
+- [How do you access an array element?](https://www.w3schools.com/js/js_arrays.asp)
 - [How do you change an array element?](https://www.w3schools.com/js/js_arrays.asp)
 - [What are some useful array properties?](https://www.w3schools.com/js/js_arrays.asp)
 - [What are some useful array methods?](https://www.w3schools.com/js/js_array_methods.asp)
