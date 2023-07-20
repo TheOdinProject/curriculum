@@ -8,6 +8,7 @@ You've already done a bit of text-manipulation in our Foundations lessons. This 
 * You'll learn some more text-related CSS properties.
 
 ### Fonts
+
 In our Foundations lesson, we covered changing the `font-family` of an element, but there is some nuance and detail that we left out at the time.
 
 #### The system font stack
