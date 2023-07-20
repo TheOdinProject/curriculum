@@ -34,7 +34,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - Not everyone agrees that JWTs are the best way to store authentication data. [This video](https://www.youtube.com/watch?v=JdGOb7AxUo0) is one argument against using them, and some of the pitfalls that you may encounter with using them.
 
 
-### Knowledge checks 
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8'>What is a JSON web token?</a>
