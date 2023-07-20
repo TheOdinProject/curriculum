@@ -112,11 +112,11 @@ This section contains questions for you to check your understanding of this less
 * [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
 * [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
 * [How do you access developer tools and the console?](#access-devTools-console)
-* [How do you log information to the console?](#console-log)
-* [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
+- [How do you log information to the console?](#console-log)
+- [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
+- The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
