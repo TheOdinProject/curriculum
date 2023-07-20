@@ -22,7 +22,7 @@ In 1995 the world got introduced to the first version of Internet Explorer, whic
 
 You're most likely familiar with most, if not all these names.<span id="most-used-browser"> There is a lot of competition among the browsers still to this day, even though Chrome (and [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))) is the dominant player in the market</span>.
 
-### What is browser compatibility
+### What is browser compatibility?
 
 Today, it is impossible to imagine the Web without the use of browsers. We have witnessed a shift from standalone applications to HTML5 and Progressive Web Apps that allow applications to fully function within a browser. For example, Microsoft Word and Excel for the longest time could only be executed via a standalone application. Now, you can utilize those applications through any browser without the need to install any files.
 
