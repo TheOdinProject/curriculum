@@ -3,6 +3,7 @@
 You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful CSS properties that can be used when working with text.
 
 ### Learning outcomes
+
 * You'll learn how to use custom fonts on your web projects.
 * You'll learn some more text-related CSS properties.
 
