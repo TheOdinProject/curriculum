@@ -404,6 +404,7 @@ A sample note box.
 A sample note box, variation: tip.
 </div>
 ~~~
+
 ## Links
 
 Long links make source Markdown difficult to read and break the 80 character wrapping. **Wherever possible, shorten your links**.
