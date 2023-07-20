@@ -30,6 +30,7 @@ In the following example, we are using absolute positioning to display text over
 Disclaimer: absolute positioning has very specific use cases and if possible, using flexbox or grid should be prioritized. Absolute positioning shouldn't be used to do entire page layouts.
 
 ### Fixed positioning
+
 Fixed elements are also removed from the normal flow of the document and are positioned relative to the ``viewport``. You basically use  ``top``, ``right``, ``bottom``, and ``left`` properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons.
 
 ### Sticky positioning
