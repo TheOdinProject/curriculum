@@ -150,7 +150,7 @@ You might wonder why this variable is declared with all caps, when we have recom
 
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
-What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the Additional Resouces.
+What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the additional resources.
 
 #### Line length
 
@@ -252,7 +252,7 @@ In the better example, the comment clarifies the purpose of the function: moving
 
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
-_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assingment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
+_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
 
 Let's look at a one final example, where a comment serves a good purpose:
 
