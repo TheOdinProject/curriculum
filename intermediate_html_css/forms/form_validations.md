@@ -6,7 +6,7 @@ Validations are a vital ingredient in well-designed forms. They help protect our
 
 This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into styling validations with CSS.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to:
 
@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to:
 - Know how to use a few of the basic built-in HTML validations
 - Know how to build custom validations
 
-### Required Validation
+### Required validation
 
 We will often want to ensure specific fields have been filled in before submitting the form, for example, the email and password in a login form.
 
@@ -29,11 +29,11 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(\*) to the required field label like we have done in the example.
 
-### Text Length Validations
+### Text length validations
 
 Sometimes we will want users to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that Twitter used to have in its status field or having minimum and maximum length constraints on a username field.
 
-#### Minimum Length Validation
+#### Minimum length validation
 
 To add the minimum length validation, we give the form control a `minlength` attribute with an integer value that represents the minimum amount of characters we want to allow in the form control:
 
@@ -46,7 +46,7 @@ To add the minimum length validation, we give the form control a `minlength` att
 
 Try entering less than three characters into the text area and clicking the tweet button to see the validation in action.
 
-#### Maximum Length Validation
+#### Maximum length validation
 
 To add a maximum length validation, we give the form control a `maxlength` attribute with an integer value which represents the maximum amount of characters we want to allow in the form control:
 
@@ -59,7 +59,7 @@ To add a maximum length validation, we give the form control a `maxlength` attri
 
 With the maximum length validation, the browser will prevent users from entering more characters than the max length attribute value. Try this for yourself in the example above.
 
-#### Combining Validations
+#### Combining validations
 
 HTML allows us to apply as many validations as we wish to a form control. For example, we can give our tweet textarea both `minlength` and `maxlength` validations:
 
@@ -72,7 +72,7 @@ HTML allows us to apply as many validations as we wish to a form control. For ex
 
 This gives us much more scope to control what users input.
 
-### Number Range Validations
+### Number range validations
 
 Just like we often need to control the length of text-based form controls, there will be many situations where we will want to control the range of values users can enter into number based form controls.
 
@@ -82,7 +82,7 @@ You can view the complete list of supported elements on [MDN's documentation](h
 
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
 
-#### Min Validation
+#### Min validation
 
 To add a minimum value validation, we give the form control a `min` attribute with an integer value which represents the minimum number we want the form control to accept:
 
@@ -95,7 +95,7 @@ To add a minimum value validation, we give the form control a `min` attribute wi
 
 Try submitting the form with a quantity of 0 to see the validation in action.
 
-#### Max Validation
+#### Max validation
 
 To add a maximum value validation, we give the form control a `max` attribute with an integer value which represents the maximum number we want the form control to accept:
 
@@ -108,7 +108,7 @@ To add a maximum value validation, we give the form control a `max` attribute wi
 
 Try submitting the form with seven passengers to see the validation in action.
 
-### Pattern Validations
+### Pattern validations
 
 To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
 Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
@@ -143,7 +143,7 @@ The pattern attribute can only be used on `<input>` elements. Some input element
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Styling Validations
+### Styling validations
 
 We can target form controls that have passed or failed validations using the `:valid` and `:invalid` pseudo-classes.
 
@@ -183,7 +183,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 - [What does the <code>required</code> validation do?](#required-validation)
 - [What validations can you use for checking text length?](#text-length-validations)
@@ -191,7 +191,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 - [What can you use the pattern validation for?](#pattern-validations)
 - [What pseudo CSS selectors are available for styling valid and invalid inputs?](#styling-validations)
 
-### Additional Resources
+### Additional resources
 
 - Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
 - Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do's and don'ts for form validation UX.
