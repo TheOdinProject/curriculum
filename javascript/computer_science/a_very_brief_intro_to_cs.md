@@ -40,6 +40,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
--  [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
+- [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
 -  [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
 -  [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
