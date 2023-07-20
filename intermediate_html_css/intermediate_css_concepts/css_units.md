@@ -44,6 +44,7 @@ This section contains questions for you to check your understanding of this less
 - [What are some instances where you might want to use `px` instead of a relative unit?](https://codyloyd.com/2021/css-units/)
 
 ### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.
