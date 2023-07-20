@@ -10,7 +10,7 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -30,13 +30,13 @@ This section contains a general overview of topics that you will learn in this l
   4. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
 </div>
 
-### Test Yourself
+### Test yourself
 
 <div class="lesson-content__panel" markdown="1">
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -45,7 +45,7 @@ This section contains questions for you to check your understanding of this less
 -  [What are the 2 essential parts in a recursive function?](https://youtu.be/mz6tAJMVmfM?t=193)
 -  [Why is "stack overflow" relevant to a recursive problem?](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
