@@ -8,6 +8,7 @@ There are a _lot_ of CSS properties. [A Recent CSS Tricks Article](https://css-t
 - You'll learn about a lot of useful CSS properties!
 
 #### Background
+
 You've likely already experimented with setting background colors on things, but the `background` property can do quite a bit more. The `background` property is actually a shorthand for 8 different background-related properties, all of which you can read about in the linked docs. Beyond changing background-colors, you can also specify background images, change the position and size of background images, and change how background images repeat or tile if they are too small to fill their container. It is also possible to have multiple background layers.
 
 One thing to note is that it _is_ possible to use these properties individually, and in some cases it might be easier and more clear to do that than defaulting to the shorthand. This is in contrast to some other shorthand properties where it is almost always preferable to default to using the shorthand (flex, margin, padding etc.)
