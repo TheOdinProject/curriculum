@@ -2,7 +2,7 @@
 
 Before we dive all the way into the Code, we are going to take a moment to improve your editor setup. Doing this now will make things much easier for you going forward. This lesson will give you some information about code style, and then give you some tools to help you maintain consistent code-style throughout your projects.  In some cases it can even help adjust things like indentation for you!
 
-### Style Guides
+### Style guides
 
 Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them _will_ make you a better developer. 
 
@@ -10,7 +10,7 @@ Code style is important! Having a consistent set of style rules for things such 
 2. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
 3. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 

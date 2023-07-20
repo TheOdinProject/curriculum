@@ -2,7 +2,7 @@
 
 Since JavaScript is the language of the web, there are some functions that by necessity are going to take a decent amount of time to complete, such as fetching data from a server to display on your site.  For this reason, JavaScript includes support for asynchronous functions, or to put it another way, functions that can happen in the background while the rest of your code executes.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -83,7 +83,7 @@ Of course, there are many more occasions where one would want to use Promises be
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -92,7 +92,7 @@ This section contains questions for you to check your understanding of this less
  - [When should you use promises over callbacks?](http://callbackhell.com/)
  - [What does the `.then()` function do?](https://davidwalsh.name/promises)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

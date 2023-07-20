@@ -4,7 +4,7 @@ Forms are a crucial part of most websites. Almost every major site has sign-up f
 
 In this lesson, we'll cover the Constraint Validation API: a way to validate forms on the frontend with JavaScript.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -47,7 +47,7 @@ The form doesn't need to actually submit, but you should give an error message i
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
