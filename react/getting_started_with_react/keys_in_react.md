@@ -83,14 +83,12 @@ const todos = [
 
 function TodoList() {
   return (
-    <>
       <ul>
         {todos.map((todo) => (
           // DON'T do the following i.e. generating keys during render    
           <li key={uuid()}>{todo.task}</li>
         ))}
       </ul>
-    </>
   ) 
 }
 ~~~
@@ -103,7 +101,7 @@ Don't fret if some of the terms covered in the lesson don't make sense yet. What
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this [section on keys in the React beta docs](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key).
+1. Read this [section on keys in the React docs](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key).
 
 1. Watch this short video demonstrating [index as key being an anti-pattern](https://youtu.be/xlPxnc5uUPQ).
 

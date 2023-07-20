@@ -52,7 +52,7 @@ We define an array called `animals`. Now inside our JSX, we use `map` to return 
 ~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
-  const animalsList = animals.map((animal) => <li key={animal}>animal</li>)
+  const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
   
   return (
     <div>
