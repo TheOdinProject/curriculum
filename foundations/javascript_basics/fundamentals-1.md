@@ -103,9 +103,9 @@ This section contains questions for you to check your understanding of this less
 
 * [Name the three ways to declare a variable](#variable-declaration)
 * [Which of the three variable declarations should you avoid and why?](#avoid-var)
-* [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
-* [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
-* [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
+- [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
+- [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
+- [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
 - [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_numbers.asp)
 - [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
