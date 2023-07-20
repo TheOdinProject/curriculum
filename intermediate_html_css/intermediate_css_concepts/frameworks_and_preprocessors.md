@@ -6,7 +6,7 @@ You should be aware that, at this point in your learning, both frameworks and pr
 
 An important reason to know about frameworks and preprocessors is that they are commonly found in the workplace. In addition, many job requirements include Bootstrap, SASS, and related technology. So it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should:
 
@@ -15,13 +15,13 @@ By the end of this lesson, you should:
 - Know what a preprocessor is.
 - Know some of the available preprocessors.
 
-### Frameworks Overview
+### Frameworks overview
 
 Frameworks like [Bootstrap](https://getbootstrap.com/) and [Tailwind](https://tailwindcss.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called .btn that will add all the needed styles to your buttons, without you having to write any CSS. In general, to use a framework, you need to understand how it expects you to structure your website and which classes it uses to apply its specific set of styles
 
 You should be aware that there are quite a few frameworks available to choose from. Two other frameworks to know about are [Bulma](https://bulma.io/) and [Foundation](https://get.foundation). There are many more out there.
 
-### Disadvantages of Frameworks
+### Disadvantages of frameworks
 
 Frameworks are great for rapidly producing sites with interfaces that end users can easily interact with. However, once you've taken a tour through some of the more popular frameworks, you'll start noticing an awful lot of similarities between a lot of sites you encounter, due to similar use of frameworks. In addition to that issue, too many new developers also jump into learning frameworks too early in their education; the prospect of not having to practice writing vanilla CSS is very tempting. As a result, many developers do not get enough CSS practice under their belts to solidify the fundamentals of this very important language.
 
@@ -29,7 +29,7 @@ Additionally, the process of overriding a framework's styling or debugging style
 
 Ultimately, frameworks can help you get up and running quickly - but they can constrain you in the long run. And once you've started a project using a framework it can be difficult to remove it. So whether or not you use frameworks for projects in the future is up to you! (And maybe up to your employer as well....)
 
-### Preprocessors Overview
+### Preprocessors overview
 
 Preprocessors (aka precompilers) are languages that help you write CSS more easily. They reduce code repetition and provide all sorts of time-saving and code-saving features. A few examples: preprocessors allow you to write loops, join multiple stylesheets, and nest classes.
 
@@ -49,7 +49,7 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 5. For balance, read [this list of the disadvantages of using a preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/).
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -58,7 +58,7 @@ This section contains questions for you to check your understanding of this less
 * [What are some advantages of using a CSS preprocessor?](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2)
 * [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
