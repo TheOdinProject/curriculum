@@ -42,6 +42,7 @@ Opacity is another easy one that can be very useful in some circumstances.
 Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) for a definition and some examples.
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [Which property would you use to make an element transparent?](#opacity)
