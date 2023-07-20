@@ -252,7 +252,7 @@ In the better example, the comment clarifies the purpose of the function: moving
 
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
-_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
+_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
 
 Let's look at a one final example, where a comment serves a good purpose:
 
