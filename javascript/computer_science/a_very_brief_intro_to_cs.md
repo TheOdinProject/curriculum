@@ -37,6 +37,7 @@ This section contains questions for you to check your understanding of this less
 -  [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 
 ### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 -  [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
