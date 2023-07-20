@@ -2,7 +2,7 @@
 
 You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your React apps.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -218,7 +218,7 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -227,7 +227,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#converting-html-to-jsx">What are the three rules of JSX?</a>
 - <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world">How do you reference a dynamic value inside of your JSX?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
