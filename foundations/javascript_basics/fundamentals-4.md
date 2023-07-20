@@ -59,12 +59,12 @@ This section contains questions for you to check your understanding of this less
 * [What are some useful array properties?](https://www.w3schools.com/js/js_arrays.asp)
 * [What are some useful array methods?](https://www.w3schools.com/js/js_array_methods.asp)
 * [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother)
-* [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
-* [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
-* [What is the advantage of writing automated tests?](#test-driven-development)
+- [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
+- [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
+- [What is the advantage of writing automated tests?](#test-driven-development)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
