@@ -101,8 +101,8 @@ _* As you might have noticed by running Javascript code in the console, the cons
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* [Name the three ways to declare a variable](#variable-declaration)
-* [Which of the three variable declarations should you avoid and why?](#avoid-var)
+- [Name the three ways to declare a variable](#variable-declaration)
+- [Which of the three variable declarations should you avoid and why?](#avoid-var)
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
 - [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
