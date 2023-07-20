@@ -26,6 +26,7 @@ body {
 The point of this somewhat ridiculous string of font-families is to try using the default font of the system's user interface. It will go through each of those fonts until it finds one that is installed on the system, and then use that. Using a stack like this often produces pleasing results, especially if you're going for a somewhat 'neutral' font style.
 
 #### Online font libraries
+
 One popular and easy method to get fonts that are _not_ installed on a user's computer is to use an online font library like [Google Fonts](https://fonts.google.com/), [Font Library](https://fontlibrary.org/) or the premium, but non-free [Adobe Fonts](https://fonts.adobe.com/).
 
 To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
