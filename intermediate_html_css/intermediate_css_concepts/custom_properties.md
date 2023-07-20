@@ -148,6 +148,7 @@ This section contains questions for you to check your understanding of this less
 * [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)
 
 ### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.
