@@ -32,9 +32,9 @@ This section contains a general overview of topics that you will learn in this l
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--  [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
--  [What is the importance of algorithms in web development?](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development)
--  [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+- [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
+- [What is the importance of algorithms in web development?](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development)
+- [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 
 ### Additional resources
 
