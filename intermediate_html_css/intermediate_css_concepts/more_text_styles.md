@@ -1,4 +1,5 @@
 ### Introduction
+
 You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful CSS properties that can be used when working with text.
 
 ### Learning outcomes
