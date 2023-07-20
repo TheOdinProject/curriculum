@@ -6,7 +6,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 
 We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
-### The Installation Plan
+### The installation plan
 
 In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, this is an informative lesson. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road. 
 
@@ -25,13 +25,13 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 
 For Chromebook users, your OS choice has effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
 
-### OS Options
+### OS options
 
 #### macOS
 
 If you're using a Mac, you're in great shape. The Odin Project instructions assume a Unix-based system. By installing just a few programs, you will be up and running with your education in no time!
 
-#### Linux (Official Ubuntu Flavors)
+#### Linux (Official Ubuntu flavors)
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux. We'll be using Ubuntu, one of the most popular and user-friendly distributions available, or the lighter weight alternative Xubuntu. **If you don't use a Mac, we recommend that you use Linux.** It's that simple.
 
@@ -47,7 +47,7 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-### Concerned About Installing A New OS?
+### Concerned about installing a new OS?
 
 "Woah, woah, woah! I like my OS just fine the way it is!"
 
@@ -71,7 +71,7 @@ Before we can continue, we must first stress one detail of importance:
 
 With that out of the way, we need to set up an appropriate development environment!
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

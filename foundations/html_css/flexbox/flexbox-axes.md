@@ -2,7 +2,7 @@
 
 Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -48,7 +48,7 @@ For an interactive demo of how axes work with flexbox, check out this Scrim:
 
 <iframe src="https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -57,7 +57,7 @@ This section contains questions for you to check your understanding of this less
 -   [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
 -   [Why do the previous two questions have different answers?](#flex-axes)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
