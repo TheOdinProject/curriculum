@@ -9,6 +9,7 @@ By now you have had quite a bit of practice moving elements around the screen us
  - You'll know the difference between each property and how to combine them.
 
 ### Static and relative positioning
+
 The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``right...(etc.)`` displace the element relative to its normal position in the flow of the document.
 
 ### Absolute positioning
