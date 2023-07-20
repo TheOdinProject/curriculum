@@ -34,6 +34,7 @@ Disclaimer: absolute positioning has very specific use cases and if possible, us
 Fixed elements are also removed from the normal flow of the document and are positioned relative to the ``viewport``. You basically use  ``top``, ``right``, ``bottom``, and ``left`` properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons.
 
 ### Sticky positioning
+
 Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, but checking out the behavior of [this](https://codepen.io/theanam/pen/MPLBYy) example might clear things up for you. It's useful for things like section-headings. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
 
 ### Assignment
