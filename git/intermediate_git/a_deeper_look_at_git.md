@@ -41,6 +41,12 @@ Before we get started with the lesson, let's create a Git playground in which we
   $ git add test3.md && git commit -m 'Create third file and create fourth file'
 ~~~
 
+#### Setting Up the Code Editor
+
+To perform certain Git commands that require opening a text editor, such as `git commit --amend` and `git rebase -i`, it's important to configure your code editor correctly. By default, Git opens the text editor in the command-line interface (CLI), which may prevent you from saving and closing the editor after making changes.
+
+To set up your code editor properly, you can follow the instructions provided in the Git Basics lesson. Here's the specific section that covers the process: [Changing the Git Commit Message Editor](https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor).
+
 #### Changing The Last Commit
 
 So if we look at the last commit we made *Uh-Oh!*, if you type in `git status` and `git log` you can see we forgot to add a file! Let's add our missing file and run `$ git commit --amend`

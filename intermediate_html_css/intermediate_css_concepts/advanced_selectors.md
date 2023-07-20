@@ -86,6 +86,8 @@ Finally, if we want to select all of an element's siblings and not just the firs
 
 Just like the descendant combinator, these selectors don't have any special specificity rules - their specificity score will just be made up of their component parts.
 
+This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) provides a good overview if you want to learn more about them.
+
 ### Pseudo-selectors
 
 Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.

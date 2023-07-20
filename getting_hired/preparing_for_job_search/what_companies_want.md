@@ -2,7 +2,7 @@
 
 Now that you've figured your own situation out, the fact is that you can't get hired by just thinking about why *you* need or deserve the job.  You have to think about things from the perspective of the company.  Why are they interested in hiring you?  What, therefore, will they look for?
 
-### Life Behind the Curtain
+### Life behind the curtain
 
 Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
 

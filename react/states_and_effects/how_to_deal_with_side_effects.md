@@ -6,7 +6,7 @@ While we are already familiar with rendering code and adding event handlers, it 
 
 Similar to how we have the `useState` hook, React offers us a handy `useEffect` hook to use effects in our components.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -15,9 +15,9 @@ This section contains a general overview of topics that you will learn in this l
 *   What are the different parts of an `useEffect` hook?
 *   When should I use an effect?
 
-### Using Effect Saves The Day
+### Using effect saves the day
 
-#### The useEffect Hook
+#### The useEffect hook
 
 Let us take a component in question. We want to make a `Clock` component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
 
@@ -61,7 +61,7 @@ export default function Clock() {
 
 But, it still keeps growing too fast! This is where another argument of the `useEffect` comes in: the dependency array.
 
-#### The Dependency Array
+#### The dependency array
 
 By default, when an `useEffect` hook is used, it will run on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
 
@@ -105,7 +105,7 @@ useEffect(() => {
 ~~~
 </div>
 
-#### The Clean-up Function
+#### The clean-up function
 
 Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
@@ -150,7 +150,7 @@ useEffect(
 )
 ~~~
 
-### But Do We Need The Effect?
+### But do we need the effect?
 
 The reason is, they are a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems, like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are code-smell, error-prone, and cause unnecessary performance issues.
 
@@ -222,19 +222,19 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 1.  [This lesson of the React docs](https://react.dev/learn/lifecycle-of-reactive-effects) talks about the life of a component, the different stages at which rendering takes place, and the role of `useEffect` in it.
 2.  [Yet another article that explains a common mistake](https://dmitripavlutin.com/react-useeffect-infinite-loop) that beginners make, the infinite `useEffect` loop.
-3.  [This article](https://dev.to/colocodes/6-use-casesof-the-useeffect-reactks-hook-282o) goes over some examples of the `useEffect` hook being used.
+3.  [This article](https://dev.to/colocodes/6-use-cases-of-the-useeffect-reactjs-hook-282o) goes over some examples of the `useEffect` hook being used.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="introduction">What is an effect?</a>
-*   <a class="knowledge-check-link" href="body-of-an-useEffect">What constitutes an `useEffect` hook?</a>
-*   <a class="knowledge-check-link" href="but-do-we-need-the-effect">What is the one question we can ask to know when to use an effect?</a>
-*   <a class="knowledge-check-link" href="lifting-the-state">What do we mean by lifting up the state?</a>
+*   <a class="knowledge-check-link" href="#introduction">What is an effect?</a>
+*   <a class="knowledge-check-link" href="#body-of-an-useEffect">What constitutes an `useEffect` hook?</a>
+*   <a class="knowledge-check-link" href="#but-do-we-need-the-effect">What is the one question we can ask to know when to use an effect?</a>
+*   <a class="knowledge-check-link" href="#lifting-the-state">What do we mean by lifting up the state?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

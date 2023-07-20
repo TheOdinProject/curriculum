@@ -2,7 +2,7 @@
 
 In the previous lesson, we discovered that different display types have unique box models, and we can modify the box calculation by changing the `display` property. CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage. We will explore its various options further in this lesson.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -15,7 +15,7 @@ For a more interactive explanation and example, try the following Scrim (let us 
 
 <iframe src="https://scrimba.com/scrim/co5024997a7e46c232d9abe55?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-### Block vs Inline
+### Block vs inline
 
 Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
 
@@ -25,7 +25,7 @@ Inline elements, however, do not start on a new line. They appear in line with w
 
 Inline-block elements behave like inline elements, but with block-style padding and margin. `display: inline-block` is a useful tool to know about, but in practice, you'll probably end up reaching for flexbox more often if you're trying to line up a bunch of boxes. Flexbox will be covered in-depth in the next lesson.
 
-### Divs and Spans
+### Divs and spans
 
 We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
 
@@ -61,7 +61,7 @@ Span is an inline-level element by default. It can be used to group text content
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -72,7 +72,7 @@ This section contains questions for you to check your understanding of this less
 *   [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
 *   [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

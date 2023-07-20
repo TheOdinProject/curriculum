@@ -16,7 +16,7 @@ The Context API in React is a feature that allows you to manage the global state
 
 To give a more concrete example, let's go back to a project that we've already built previously. In the Shopping Cart project, you might have a Product Detail Page that might or might not look like this very awesome shop:
 
-![](imgs/00.png)
+![Rough layout of a shopping website product page](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6a43abb8ad6836796159e0ab6160045293e2a27/react/more-react-concepts/managing-state-with-context-api/imgs/00.png)
 
 You have a counter in the header that displays the number of items currently in the cart. You can add items to the cart through the "Add to Cart" button.
 
@@ -115,9 +115,9 @@ This is a very simple application, but imagine the application grows in size as 
 
 To simplify our application and reduce complexity, we can implement the Context API. There are three key elements in this API that we need to understand:
 
-1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a Context object that can be used to pass down data to components
-2. `useContext` - This hook is used to consume data from a Context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the Context object as an argument
-3. `ContextObject.Provider` - The Context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
+1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a context object that can be used to pass down data to components
+2. `useContext` - This hook is used to consume data from a context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the context object as an argument
+3. `ContextObject.Provider` - The context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
 
 We can start by using the `createContext` function that can be imported from the `react` module.
 

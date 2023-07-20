@@ -54,4 +54,4 @@ This section contains questions for you to check your understanding of this less
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Understand the CSS Position Property With Practical Examples](https://www.makeuseof.com/css-position-property-practical-examples/) provides some different CSS methods for positioning elements. 

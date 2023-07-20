@@ -1,11 +1,11 @@
 ### Introduction
 Images require a little special care on responsive websites. This lesson will present a few of the issues that arise when working with responsive images, and the options you have when dealing with them.
 
-### Learning Outcomes
+### Learning outcomes
 * You'll learn how to make your images behave properly when resizing them with CSS.
 * You'll learn how to serve up different images based on screen-size.
 
-### The Basics
+### The basics
 
 The most basic problem that you are going to face when working with responsive images is the aspect-ratio, or the relationship between width and height. If you shrink the width of an image on smaller screens, and do not also manipulate the height the image will appear distorted!
 
@@ -36,7 +36,7 @@ Here's a demo of `object-fit` on an image. Open this one up on CodePen and resiz
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Even More Control!
+### Even more control!
 It is also possible to literally use _different_ images for different screen sizes. This gives you the most control over exactly how your images are displayed at various resolutions. For example, instead of just trusting `object-fit` to keep the subject of a photograph in frame, you could present a cropped version of it on smaller screens. There are two ways of achieving this, but the most flexible is using the `<picture>` tag, which you'll see in the reading assignment.
 
 ### Assignment
@@ -46,7 +46,7 @@ It is also possible to literally use _different_ images for different screen siz
 3. CSS Tricks's [Guide to the Responsive Images Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/) is a great article that goes into more depth on how to actually implement responsive images.
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * [What is the main difference between `object-fit` and `background-size`?](#object-fit-background-size-knowledge-check)
@@ -54,7 +54,7 @@ This section contains questions for you to check your understanding of this less
 * [Why would you want to provide different images at different screen resolutions?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#why_responsive_images)
 * [When would you want to use an `img` with a `srcset` vs a `picture`?](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Responsive Images 101](https://cloudfour.com/thinks/responsive-images-101-definitions/) is a good series of articles if you need another source.
