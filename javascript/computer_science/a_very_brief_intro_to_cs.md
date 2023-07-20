@@ -10,7 +10,7 @@ We're taking a look at some more Computer Science-y concepts here because they a
 
 If that doesn't get you interested, remember that this curriculum is meant to prepare you for life beyond the web page. If you're interested in applying for a job, you'll be asked questions that directly touch on some of this stuff.  It's going to require you to put on your thinking cap (sorry, it had to happen sometime), but we won't be doing anything too crazy. We'll stick to the practical side of this material as opposed to getting too stuck in theory.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -28,17 +28,18 @@ This section contains a general overview of topics that you will learn in this l
 
 
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--  [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
--  [What is the importance of algorithms in web development?](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development)
--  [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+- [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
+- [What is the importance of algorithms in web development?](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development)
+- [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 
-### Additional Resources
+### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
--  [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
--  [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
--  [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
+- [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
+- [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
+- [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)

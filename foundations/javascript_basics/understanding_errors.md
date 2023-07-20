@@ -130,12 +130,6 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 1.  Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -143,3 +137,9 @@ This section contains questions for you to check your understanding of this less
 - [What are three reasons why you may see a TypeError?](#type-error)
 - [What is the key difference between an error and a warning?](#errors-vs-warnings)
 - [What is one method you can use to resolve an error?](#tips-for-resolving-errors)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)

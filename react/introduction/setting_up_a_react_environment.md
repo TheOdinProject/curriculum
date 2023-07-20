@@ -4,7 +4,7 @@ You now know _what_ React is, you might even have an idea of _where_ to use it, 
 
 This lesson is going to cover starting a new React project on your own machine, as well as some useful tools to help you along the way. We'll also explain some of the problems that may arise (and how to avoid them).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 * How to format the code in React projects.
 * What are React Developer Tools.
 
-### Many Paths
+### Many paths
 
 There are multiple ways to start using React in your projects, from attaching a set of `<script>` tags which serve React from a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) to robust [toolchains](https://en.wikipedia.org/wiki/Toolchain) and [frameworks](https://en.wikipedia.org/wiki/Web_framework) that are highly configurable and allow for increased scalability and optimization.
 
@@ -37,19 +37,19 @@ All of this, and sometimes _much more_ is required to get a React project and de
 
 <div class="lesson-note" markdown=1> 
 
-#### A Note on Create React App
+#### A note on Create React App
 
 Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. [Read this extensive comment by one of React's maintainers if you're curious](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use it for new projects. 
 
 </div>
 
-### Simplifying The Process
+### Simplifying the process
 
 Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief as you learn that we can get started with a _single terminal command_.
 
 Vite builds frontend tools for developers and it leverages the latest technologies under the hood to provide a great developer experience. Fortunately, they also cater to the React ecosystem. We will use Vite's CLI to quickly create a template React project. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
 
-### Creating A React App
+### Creating a React app
 
 Fire up a terminal instance, `cd` over to the folder containing your projects, and enter the following command:
 
@@ -77,7 +77,7 @@ You might've noticed by now; you can replace `my-first-react-app` with the name 
 
 </div>
 
-### Delving Deeper
+### Delving deeper
 
 Let's take a closer look at our new project. Inside you will find some folders, as well as `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files. The `README.md` contains some useful information that you should take the time to skim through now.
 
@@ -108,11 +108,11 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and _much more_.
 
-### Keeping It Clean
+### Keeping it clean
 
 The starter project ships with [ESLint](https://eslint.org/). You could also set up [Prettier](https://prettier.io/) to help keep your React code as clean as can be.
 
-### Developer Tools
+### Developer tools
 
 As you progress with React, your projects will undoubtedly become larger and larger and include more and more components, with increasing levels of functionality.
 
@@ -129,7 +129,7 @@ We recommend installing this and becoming comfortable with using it as early as 
 3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -141,7 +141,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#delving-deeper">What is in the `src` folder?</a>
 * <a class="knowledge-check-link" href="#developer-tools">Why are the React Developer Tools useful?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
