@@ -139,6 +139,7 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 </div>
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
