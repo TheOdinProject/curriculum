@@ -109,9 +109,9 @@ This section contains questions for you to check your understanding of this less
 * [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_numbers.asp)
 * [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
 * [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
-* [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
-* [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
-* [How do you access developer tools and the console?](#access-devTools-console)
+- [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
+- [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
+- [How do you access developer tools and the console?](#access-devTools-console)
 - [How do you log information to the console?](#console-log)
 - [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 
