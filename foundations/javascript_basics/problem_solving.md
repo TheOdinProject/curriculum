@@ -245,9 +245,9 @@ Buzz
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 *   [What are the three stages in the problem solving process?](#problem-solving-stages)
-*   [Why is it important to clearly understand the problem first?](#important-understand-problem)
-*   [What can you do to help get a clearer understanding of the problem?](#help-understand-problem)
-*   [What are some of the things you should do in the planning stage of the problem solving process?](#planning-stage)
+- [Why is it important to clearly understand the problem first?](#important-understand-problem)
+- [What can you do to help get a clearer understanding of the problem?](#help-understand-problem)
+- [What are some of the things you should do in the planning stage of the problem solving process?](#planning-stage)
 - [What is an algorithm?](#algorithm)
 - [What is pseudocode?](#pseudo)
 - [What are the advantages of breaking a problem down and solving the smaller problems?](#breaking-problem)
