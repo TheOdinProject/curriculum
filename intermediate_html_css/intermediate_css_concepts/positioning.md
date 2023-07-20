@@ -56,6 +56,7 @@ This section contains questions for you to check your understanding of this less
 - [What is the difference between fixed and sticky positioning?](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)
 
 ### Additional resources
+
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Understand the CSS Position Property With Practical Examples](https://www.makeuseof.com/css-position-property-practical-examples/) provides some different CSS methods for positioning elements. 
