@@ -97,12 +97,6 @@ Try the following exercises (and don't forget to use `console.log()`!):
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -121,3 +115,8 @@ This section contains questions for you to check your understanding of this less
 * [How do you log information to the console?](#console-log)
 * [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+* The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
