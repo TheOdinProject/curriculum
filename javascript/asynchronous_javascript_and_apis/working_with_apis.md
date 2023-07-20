@@ -2,7 +2,7 @@
 
 One of the most powerful things a web developer can do is fetching data from a server and displaying it creatively on their site. In many cases, the server solely exists for that specific site. The server could contain blog posts, user data, high scores for a game or anything else. In other cases, the server is an open service that serves data to anyone that wants to use it (i.e. weather data or stock prices). In either case, the methods of accessing and then using that data are essentially the same.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -53,7 +53,7 @@ Back to WeatherAPI. Go ahead and [create an account](https://www.weatherapi.com/
 
 Congratulations on making your first API request!
 
-### Fetching Data
+### Fetching data
 
 So how do we actually get the data from an API into our code?
 
@@ -123,7 +123,7 @@ fetch('url.url.com/api', {
 
 Simply adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
 
-### Let's Do This
+### Let's do this
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
 ~~~HTML
@@ -227,7 +227,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
