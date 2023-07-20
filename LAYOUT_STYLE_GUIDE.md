@@ -18,7 +18,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Newlines](#newlines)
 1. [Lists](#lists)
 1. [Code](#code)
-1. [Note boxes](#notes)
+1. [Note boxes](#note-boxes)
 1. [Links](#links)
 1. [Images](#images)
 1. [Keyboard shortcuts](#keyboard-shortcuts)
@@ -379,16 +379,31 @@ Will result in the following output:
 
 - Next bullet.
 
-## Notes
+## Note boxes
 
-Notes can be added by wrapping the note in a `div` with class `lesson-note`. This will render the note into a box. Optionally you can add a header to the note; please wrap the header in a `h4`.
+Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
+
+A heading can be added to a note by using an `h4` element. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
 ### Variations
 
-Notes come in several variation, which can be set by adding an extra class together with `lesson-note`. Options are:
-- `lesson-note--tip` for tips
-- `lesson-note--warning` for warnings about potential issues/pitfalls.
+Note boxes come in two variations, which can be set by adding an extra class together with `lesson-note`:
+- `lesson-note--tip` for tips or general information
+- `lesson-note--warning` for warnings about potential issues/pitfalls, and are more severe than a tip
 
+### Example
+~~~markdown
+<div class="lesson-note">
+<h4>An optional title</h4>
+A sample note box.
+</div>
+~~~
+~~~markdown
+<div class="lesson-note lesson-note--tip">
+<h4>An optional title</h4>
+A sample note box, variation: tip.
+</div>
+~~~
 ## Links
 
 Long links make source Markdown difficult to read and break the 80 character wrapping. **Wherever possible, shorten your links**.
