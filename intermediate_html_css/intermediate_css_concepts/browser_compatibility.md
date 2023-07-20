@@ -40,7 +40,7 @@ When the web browsers such as Nexus and Netscape were released, there was no suc
 
 Today, as the standards around the web evolve and change, and web developers begin implementing new features in their codebase, the browsers must provide support for those new features. If the user experience is impacted by the lack of support in the browsers, the users might find their way to the competitor.
 
-### When is it safe to use new features
+### When is it safe to use new features?
 
 As exciting as it is to implement new features, there is a risk of rushing. It would not be a positive experience for your users to find that, for example, your application used to work well in Firefox, but due to the changes in the codebase it is now unusable in Firefox but works well in Safari. Thankfully, there is a tool that can help you prevent this situation.
 
