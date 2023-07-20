@@ -4,17 +4,17 @@ We've already covered some basics of React testing. Now's the time to dive deepe
 
 In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React component from this ([theodinproject.com](https://theodinproject.com)) website and understand how React tests are written in a real world application.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 * Carry out mocks in the context of React testing.
 
-### What is Mocking?
+### What is mocking?
 
 If you've been following along with our lessons so far, the concept of mocking has already been introduced in an earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of this course](https://www.theodinproject.com/lessons/javascript-battleship). Let's look at how mocks will help in testing React components.
 
-#### Testing Callback Handlers
+#### Testing callback handlers
 
 Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple button component:
 
@@ -82,11 +82,11 @@ But what if you want to set up your mocks in a `beforeEach` block rather than in
 
 It is recommended to invoke `userEvent.setup()` before rendering the component, and it is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
 
-#### Mocking Child Components
+#### Mocking child components
 
 You might have come across the concept of mocking modules. In React, when the component tree gets large, tests can become convoluted. Especially for components higher up the tree. That's why we mock child components. This is not something you'll come across often, nevertheless, it's beneficial to realize the concept in case you might need it in your own testing pursuits.
 
-### React Testing in the Real World
+### React testing in the real world
 
 If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components are written in React and tested with the React Testing Library. This'll be fun. Your task is simple:
 
@@ -133,7 +133,7 @@ Let's move towards our first assertion. Don't worry too much about the `ProjectS
 
 In the first suite, we make some assertions if the user has a submission and then some assertions if the user does not. The other suites follow a similar pattern.
 
-#### Exploring Further
+#### Exploring further
 
 Feel free to flick through the other components and their tests. You'll see mocked functions. You'll see some unseen functions like `act`. You'll see custom render functions. It's fine if you don't understand it all, the goal is to gain familiarity.
 
@@ -149,14 +149,14 @@ The other important thing to note is almost all the tests follow a certain patte
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 * [How can you mock a callback handler?](#testing-callback-handlers)
 * [How can you mock a child component?](#mock-child-component)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
