@@ -94,8 +94,8 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* [What is the command line?](#command-line)
-* [How do you open the command line on your computer?](#open-command-line)
+- [What is the command line?](#command-line)
+- [How do you open the command line on your computer?](#open-command-line)
 - [How can you navigate to a particular directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
 - [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
 - [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
