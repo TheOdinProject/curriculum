@@ -30,7 +30,7 @@ In this example, the parent element marked `class="container"` becomes a grid co
 
 Note that only the direct child elements will become grid items here. If we had another element as a child under one of _these_ child elements it would not be a grid item. In the example below, the paragraph element is not a grid item:
 
-```html
+~~~html
 <!-- index.html -->
 
 <div class="container">
@@ -42,7 +42,7 @@ Note that only the direct child elements will become grid items here. If we had 
   <div>Item 3</div>
   <div>Item 4</div>
 </div>
-```
+~~~
 
 But just as you learned in the flexbox lessons, grid items can _also_ be grid containers. So you could make grids inside of grids if you wanted.
 
@@ -78,14 +78,14 @@ If we want to add more columns or rows to our grid, we can simply define these v
 
 CSS Grid also includes a shorthand property for defining rows and columns. In our previous example we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
 
-```css
+~~~css
 /* styles.css */
 
 .container {
   display: grid;
   grid-template: 50px 50px / 50px 50px 50px;
 }
-```
+~~~
 
 Columns and rows don’t have to share all the same values either. Let’s change the property values of our columns so that the first column is five times as wide as the others:
 
@@ -115,7 +115,7 @@ We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-au
 
 Let’s say we want any new rows to stay the same value as our explicit row track sizes:
 
-```css
+~~~css
 /* styles.css */
 
 .container {
@@ -124,7 +124,7 @@ Let’s say we want any new rows to stay the same value as our explicit row trac
   grid-template-rows: 50px 50px;
   grid-auto-rows: 50px;
 }
-```
+~~~
 
 By default, CSS Grid will add additional content with implicit rows. This means the extra elements would keep being added further down the grid in a vertical fashion. It would be much less common to want extra content added horizontally along the grid, _but_ that can be set using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
 
