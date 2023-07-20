@@ -83,14 +83,12 @@ const todos = [
 
 function TodoList() {
   return (
-    <>
       <ul>
         {todos.map((todo) => (
           // DON'T do the following i.e. generating keys during render    
           <li key={uuid()}>{todo.task}</li>
         ))}
       </ul>
-    </>
   ) 
 }
 ~~~
