@@ -2,7 +2,7 @@
 
 Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe (no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard).
 
-That black screen or window is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
+That blank screen or window with a prompt and blinking cursor is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward. So don't let the prospect of using the command line for the first time intimidate you.
 
@@ -14,13 +14,11 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
 
-Before we do anything, take a look at the following text:
-```
-$ whoami
-```
-This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press <kbd>Enter</kbd> on your keyboard.
+The window that opens will be blank with test that varies based on your operating system.  On linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol called the prompt indicates that the terminal is waiting for you to enter a command. Lets try that now, type `whoami` and press <kbd>Enter</kbd>.
 
 It returns your username. Cool!
+
+Often guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember if you are using a newer Mac the `%` is the the same as `$`
 
 #### Why learn this now?
 
