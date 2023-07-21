@@ -1,7 +1,7 @@
 ### Introduction
 When the code that you are testing has to touch a database, the amount of setup that you have to do gets quite a bit more complicated. Obviously you don't want to run your testing code on your production database because of the risk of compromising your user's data. In this lesson we're going to set up a new in-memory version of a mongo database and then tell our app to use that when running our tests.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
 - Explain the purpose of using a separate database for testing.
@@ -72,7 +72,7 @@ Since you are starting your tests with a fresh database it will probably be usef
 
 This is also not the only way to set up a testing environment! If you are using nconf, or command-line arguments or anything else to set up your development and production environments, you could easily add a `testing` environment that uses this `mongodb-memory-server`. The [Jest Docs](https://jestjs.io/docs/en/mongodb) demonstrate an alternative (but similar) setup to the simple one we have here. The common element here is that no matter how you accomplish it, our goal is to use this alternative DB when running our tests.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="#but-do-you-even-need-to-test-that">What is the purpose of using a separate database for testing?</a>
