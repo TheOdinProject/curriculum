@@ -57,7 +57,7 @@ Screen readers won't read the images to users with disabilities without this inf
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
-* Provides a subject that specifies your code's action (e.g., "Add missing link and alt text the company's logo")
+* Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo")
 * Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information")
 * Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read. 
 
