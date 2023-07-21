@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should feel confident enough to start making your websites a little more accessible for a lot of users. In this lesson, you will learn how to if you've correctly implemented your a11y features with the help of DevTools.
+By now you should feel confident enough to start making your websites a little more accessible for a lot of users. In this lesson, you will learn how to check if you've correctly implemented your a11y features with the help of DevTools.
 
 ### Learning outcomes
 By the end of this lesson, you should be able to:
