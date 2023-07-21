@@ -273,7 +273,7 @@ This comment helps to refresh the reader on how BMI is calculated in plain Engli
 
 Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, everyone does it sometimes. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
-Learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
+Learning to write clean code is a process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
 
 
 ### Assignment

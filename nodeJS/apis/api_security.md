@@ -1,4 +1,4 @@
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do or answer the following:
 
 - Explain how token authentication differs from session based authentication.
@@ -26,7 +26,7 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 </div>
 
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This article](https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/) goes even further in depth than the one that we posted above. It provides a little greater understanding but is harder to follow.
@@ -34,7 +34,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - Not everyone agrees that JWTs are the best way to store authentication data. [This video](https://www.youtube.com/watch?v=JdGOb7AxUo0) is one argument against using them, and some of the pitfalls that you may encounter with using them.
 
 
-### Knowledge Checks 
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8'>What is a JSON web token?</a>

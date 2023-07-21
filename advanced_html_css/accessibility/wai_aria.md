@@ -121,7 +121,7 @@ The `aria-describedby` attribute modifies the description property in the access
 
 When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose, any time the input receives focus.
 
-### Hiding Content from the Accessibility Tree
+### Hiding content from the accessibility tree
 
 Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display` and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
