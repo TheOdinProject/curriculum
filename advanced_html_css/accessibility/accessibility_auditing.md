@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should feel confident enough to start making your websites a little more accessible for a lot of users. In this lesson, you will learn to check the implementation of certain a11y features with the help of DevTools.
+By now you should feel confident enough to start making your websites a little more accessible for a lot of users. In this lesson, you will learn how to if you've correctly implemented your a11y features with the help of DevTools.
 
 ### Learning outcomes
 By the end of this lesson, you should be able to:
@@ -14,7 +14,7 @@ Using your browser's DevTools is beyond useful for several things, from checking
 
 ### Accessibility auditing
 
-There are plenty of third-party tools to audit the accessibility of a web page, each with its own pros and cons. In this lesson, we're only going to mention three of those tools. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. Whether you decide to utilize one of these tools or any other auditing tool you prefer, you should only focus on fixing issues related to concepts introduced in this lesson for now. 
+There are plenty of third-party tools to audit the accessibility of a web page, each with its own pros and cons. Here, we're only going to mention three of those tools. By getting into the habit of auditing your web pages, you'll be able to track down any outstanding a11y issues that you may have missed. Whether you decide to utilize one of these tools or any other auditing tool you prefer, you should only focus on fixing issues related to the concepts introduced in this lesson for now. 
 
 * [axe DevTools for Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) is an extension-based tool that returns a list of issues ranked by severity level, and will note any issues for you to manually check.
 
