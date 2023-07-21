@@ -2,7 +2,7 @@
 
 How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it even possible in React because of its declarative nature? How about performance optimization? As we all know, when a state has been changed, React will try to re-render the component, which means that it will destroy all local variables not controlled by React and re-execute them. This mental model also works for a regular function that you create, as a component is just a function. Since this is the case, wouldn't it slow down the app if we have a very expensive calculation re-executed with each re-render?
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics you will learn in this lesson.
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics you will learn in this lesson
 ### The useRef hook
 
 The `useRef` hook lets you manage a value that's not needed for rendering. They are an alternative to state, as when you want a component to “remember” some information, but you don't want that information to trigger new renders, you can use this hook.
-	
+
 They are often used when performing imperative actions or accessing specific elements rendered in the DOM. Refs can also *persist* values throughout the component's lifecycle, meaning that the value of the ref will not be destroyed every time a component re-renders. This is very useful when you want to store a value that you want to persist throughout the component's lifecycle without storing it in a state.
 
 #### DOM manipulation
@@ -62,7 +62,7 @@ useEffect(() => {
 
 The interesting thing about this is that this will **never** trigger a component re-render!
 
-Another question that might pop up in your mind is, "Why not just use `querySelector` or other DOM manipulation methods that we've done previously in vanilla JavaScript?" Dealing with the DOM ourselves defeats the purpose of using React, and wherever possible we should let React _commit_ to the DOM itself.
+Another question that might pop up in your mind is, "Why not just use `querySelector` or other DOM manipulation methods that we've done previously in vanilla JavaScript?" Dealing with the DOM ourselves defeats the purpose of using React, and wherever possible we should let React *commit* to the DOM itself.
 
 We can also see that it's similar to the `useState` hook in that it can store some values. The main difference is that `useRef` creates a mutable reference, allowing you to update its value without triggering a re-render. But, `useState` manages an immutable state that triggers re-renders when updated.
 
@@ -234,7 +234,7 @@ const ButtonComponent = memo(({ children, onClick }) => {
 });
 ~~~
 
-Wrapping the component with a `memo` pretty much prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` changes or if its own `state` changes _if any_.
+Wrapping the component with a `memo` pretty much prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` changes or if its own `state` changes *if any*.
 
 With all that said and done, test and break things in our interactive example:
 
@@ -292,6 +292,7 @@ Yay, there's only one arrow function, and it's simpler to read. There's nothing 
 Which one should we use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
 
 ### Conclusion
+
 Phew, this was a long lesson. Refs and memoization are difficult concepts to grasp, but we're sure you'll understand them with practice. Refs particularly are really useful for some use-cases, as for memoization, only reach out to it when you absolutely need it. These topics also make for great interview questions, so make sure you know the difference between `useMemo` and `useCallback`!
 
 ### Assignment

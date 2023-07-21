@@ -201,12 +201,12 @@ In a full scale web app you're often going to be making more than one request an
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1" allowfullscreen></iframe>
 
-We have 2 components making fetch requests; Profile and it's child component Bio. The requests in Profile and Bio are both firing inside of their respective components. On the surface this looks like a well organized separation of concerns but in this case, it comes at a cost in performance.
+We have 2 components making fetch requests: Profile and its child component Bio. The requests in Profile and Bio are both firing inside of their respective components. On the surface this looks like a well organized separation of concerns but in this case, it comes at a cost in performance.
 
 
 Notice how `Bio` is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on?? In React, the component is not rendered until it is actually called. If JSX has conditional logic, the false branches will never render until they become true. `Bio` has to wait for the request inside of `Profile` to resolve before it starts rendering which means the request inside `Bio` isn't sent.
 
-If we remove the short circuiting conditional that waits for `imageURL`, `Bio` would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass it's response as a prop to `Bio`.  
+If we remove the short circuiting conditional that waits for `imageURL`, `Bio` would send a request immediately, but that would mean abandoning our loading screen. Instead of compromising on design we can lift the request up the component tree and pass its response as a prop to `Bio`.  
 
 To see this in action go back to that embedded codesandbox and comment out the current `Profile` and `Bio` components and uncomment the currently commented ones. 
 

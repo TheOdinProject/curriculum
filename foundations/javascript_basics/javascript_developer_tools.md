@@ -48,17 +48,17 @@ Google has updated some of the required sections in the below tutorials and some
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
--  Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   [How do you open developer tools?](#opening-dev-tools)
-*   [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
-*   [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-*   [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)
+- [How do you open developer tools?](#opening-dev-tools)
+- [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
+- [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
+- [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos

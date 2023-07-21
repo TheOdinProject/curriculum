@@ -173,14 +173,15 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 3. Here are some guidelines before you dive in: 
   
-    *   **Ping (@user) With a Purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
-    *   **Don't 'Bomb' Chats:** Don't send multiple messages in a row; type out your whole message, then push send.	
-    *   **Don't Exclude Anyone:**	These are public chats; if someone joins in on a conversation, include them!		
-    *   **Don't Disappear Right After Asking for Help on Code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
-    *   **Remember the Human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.      
-    *   **If You Wouldn't Say It Out Loud Don't Type It:** Plain and simple.
-    *   **Read the Rules and FAQ:** Upon joining, you will find yourself having to read through our rules. Please take the time to read and understand our rules and FAQ.
-
+    *   **Read the rules and FAQ:** Please take the time to read and understand our rules and FAQ. On the left sidebar in Discord, navigate to `TOP META`-> `rules` and `faq`.
+    *   **Remember the human:** Behind every username there is a person with feelings! Be kind! If you don't have anything nice to say, don't say anything at all.
+    *   **If you wouldn't say it out loud don't type it:** Plain and simple.
+    *   **Ping (@user) with a purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.	
+    *   **Don't 'bomb' chats:** Don't send multiple messages in a row; type out your whole message, then push send.	
+    *   **Don't exclude anyone:**	These are public chats; if someone joins in on a conversation, include them!		
+    *   **Don't disappear right after asking for help on code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+   
+   
 </div>
 
 ### Additional resources

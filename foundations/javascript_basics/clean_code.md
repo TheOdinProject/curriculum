@@ -74,7 +74,7 @@ In our first example we already touched on the importance of naming things _mean
 
 #### A good name is descriptive
 
-In our good example the we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean and understandable.
+In our good example we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean and understandable.
 
 Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, `w` and `q`. Uuf, not nice.
 
@@ -252,7 +252,7 @@ In the better example, the comment clarifies the purpose of the function: moving
 
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
-_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
+_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
 
 Let's look at a one final example, where a comment serves a good purpose:
 
@@ -273,7 +273,7 @@ This comment helps to refresh the reader on how BMI is calculated in plain Engli
 
 Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, everyone does it sometimes. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
-Learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
+Learning to write clean code is a process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
 
 
 ### Assignment

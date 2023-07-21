@@ -8,14 +8,14 @@ There are _a lot_ of advanced selectors, so going through every single one is ou
 
 As always feel free to open up your code editor and run your own experiments with these selectors - practice makes perfect!
 
-### Learning Outcomes
+### Learning outcomes
 
 * Understand how to use parent and sibling selectors
 * Recognize the difference between pseudo classes and pseudo elements
 * Learn about some of the most useful and common pseudo elements and pseudo classes
 * Learn about the different ways to select an attribute or its parts
 
-### Child and Sibling Combinators
+### Child and sibling combinators
 
 Let's have a look at some more ways we can access different elements _without_ referring to their classes. Here are three new selectors to do just that.
 
@@ -100,7 +100,7 @@ Pseudo-classes offer us different ways to target elements in our HTML. There are
 
 As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
 
-#### Dynamic and User Action Pseudo-classes
+#### Dynamic and user action pseudo-classes
 
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
 
@@ -129,7 +129,7 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
   }
 ~~~
 
-#### Structural Pseudo-classes
+#### Structural pseudo-classes
 
 Structural pseudo-classes are a powerful way to select elements based on their position within the DOM.
 
@@ -187,7 +187,7 @@ Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
 
  There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
-### Attribute Selectors
+### Attribute selectors
 
 The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `src='picture.jpg'` or `href="www.theodinproject.com"`.
 
@@ -258,7 +258,7 @@ To see what other things you can achieve with attribute selectors, such as searc
 2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -271,7 +271,7 @@ This section contains questions for you to check your understanding of this less
 * [How could you select all input elements with a type of text?](#type-text-knowledge-check)
 * [How could you select all classes that begin with `thunder`?](#thunder-knowledge-check)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 

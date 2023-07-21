@@ -4,7 +4,7 @@ Hello there, welcome to The Odin Project’s React course. In this course, we'll
 
 Make sure you’ve completed our [JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript) before starting this one. We can’t emphasize enough how imperative it is to have a fair understanding of JavaScript before diving into React. At the end of the day, React *is* vanilla JavaScript, so being able to navigate in JavaScript land is paramount to building a successful React project.
 
-### The Journey Ahead
+### The journey ahead
 
 All the lessons follow a similar structure that you're accustomed to from your prior courses. There'll be lesson content followed by assignments. We've also incorporated interactive examples via CodeSandbox to demonstrate the concepts learned in those lessons.
 

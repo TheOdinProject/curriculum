@@ -4,7 +4,7 @@ So, you've now learned a lot of juicy JavaScript, enabling you to make various c
 
 While Local Storage is great, it's not ideal: it only stores data on the computer from which the user is accessing the page. This approach does not allow for the app to 'remember' anything when the same user tries to access it again from a different device. For that, you're going to need a real backend.
 
-### NodeJS to the rescue! 
+### NodeJS to the rescue!
 
 We aren't quite ready to leave the frontend to learn all about how to store persistent data, but this question comes up often enough that we thought it was worth leaving a note here about it. NodeJS is a JavaScript runtime environment which will let you build an entire backend with JavaScript. We'll learn all about it later in our [NodeJS](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs) course. With Node, we'll be able to add a bunch of cool features to our React apps like user authentication, data persistence, and more.
 
