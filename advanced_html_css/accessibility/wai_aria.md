@@ -74,7 +74,7 @@ Instead of a screen reader announcing, "X, button", which makes little sense to 
 
 Once a screen reader reaches the above HTML, it would announce "Main navigation, navigation landmark". If you had multiple navigation elements on a page, you could give each a different `aria-label` value in order to separate them from one another, making them more understandable for screen reader users. Pretty neat, huh?
 
-Do not use `aria-label` to change how a word is phonetically announced. Certain words may not get announced correctly by a screen reader, and you may have a temptation to try and fix this. You may end up fixing how a word is announced by a screen reader, but that "fix" could end up making no sense when announced by other assistive technologies like a [braille](https://en.wikipedia.org/wiki/Braille) reader.
+**Do not** use `aria-label` to change how a word is phonetically announced. Certain words may not get announced correctly by a screen reader, and you may have a temptation to try and fix this. You may end up fixing how a word is announced by a screen reader, but that "fix" could end up making no sense when announced by other assistive technologies like a [braille](https://en.wikipedia.org/wiki/Braille) reader.
 
 #### `aria-labelledby`
 
