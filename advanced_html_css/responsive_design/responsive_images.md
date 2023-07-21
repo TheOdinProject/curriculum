@@ -1,20 +1,20 @@
 ### Introduction
-Images require a little special care on responsive websites. This lesson will present a few of the issues that arise when working with responsive images, and the options you have when dealing with them.
+Images require special care on responsive websites. This lesson presents a few issues that arise when working with responsive images and the options you have when dealing with them.
 
 ### Learning outcomes
 * You'll learn how to make your images behave properly when resizing them with CSS.
-* You'll learn how to serve up different images based on screen-size.
+* You'll learn how to serve up different images based on screen size.
 
 ### The basics
 
-The most basic problem that you are going to face when working with responsive images is the aspect-ratio, or the relationship between width and height. If you shrink the width of an image on smaller screens, and do not also manipulate the height the image will appear distorted!
+The most basic problem you are going to face when working with responsive images is the aspect ratio or the relationship between width and height. If you shrink the width of an image on smaller screens and do not manipulate the height, the image will appear distorted!
 
 The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: simply don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain its aspect ratio correctly.</span>
 
 ### background-size, background-position and object-fit
-What if you don't want your image to simply shrink (in both height and width)? `background-size` and `object-fit` are two properties that can provide a little more flexibility (pun intended) with how aspect-ratios are handled.
+What if you don't want your image to simply shrink (in both height and width)? `background-size` and `object-fit` are two properties that can provide a little more flexibility (pun intended) with how aspect ratios are handled.
 
-`background-position` and `background-size` are properties that work on elements with a background image, and do not work on normal `img` tags. You'll see some examples and specifics in the reading assignment later, but you can get quite a lot of control over the display and placement of background images by working with these properties. For example, `background-position: center` will make sure the image is always centered in it's container, even if the container is too small to fit the whole image. `background-size: cover` will resize the image so that it is always completely filling it's container while cropping as little as possible.
+`background-position` and `background-size` are properties that work on elements with a background image, and do not work on normal `img` tags. You'll see some examples and specifics in the reading assignment later, but you can get quite a lot of control over the display and placement of background images by working with these properties. For example, `background-position: center` will make sure the image is always centered in its container, even if the container is too small to fit the whole image. `background-size: cover` will resize the image so that it is always completely filling its container while cropping as little as possible.
 
 Here's a little demo you can play with:
 
@@ -37,7 +37,7 @@ Here's a demo of `object-fit` on an image. Open this one up on CodePen and resiz
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Even more control!
-It is also possible to literally use _different_ images for different screen sizes. This gives you the most control over exactly how your images are displayed at various resolutions. For example, instead of just trusting `object-fit` to keep the subject of a photograph in frame, you could present a cropped version of it on smaller screens. There are two ways of achieving this, but the most flexible is using the `<picture>` tag, which you'll see in the reading assignment.
+It is also possible to literally use _different_ images for different screen sizes. This gives you the most control over exactly how your images are displayed at various resolutions. For example, instead of just trusting `object-fit` to keep the subject of a photograph in a frame, you could present a cropped version of it on smaller screens. There are two ways of achieving this, but the most flexible is using the `<picture>` tag, which you'll learn more about in the assignment.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
