@@ -22,7 +22,7 @@ Why even write CSS in CSS when you can write it in JavaScript? Just kidding, of 
 
 CSS-in-JS is a paradigm for styling front-end projects. It allows you to entirely take control of CSS with JavaScript and extends it with various features. Additionally, it also helps to apply styling in a logical fashion i.e. based on state. There are various CSS-in-JS solutions. One of the most popular ones in the React ecosystem is [styled-components](https://styled-components.com/).
 
-### Component Libraries
+### Component libraries
 
 What if everything's already done for you? Styling, behavior, and accessibility are taken care of for you in component libraries. As the name suggests, these libraries provide adaptable and reusable components that you can use directly in your project. These components include, but are not limited to, dropdowns, drawers, calendars, toggles, tabs, and all other components you can think of. 
 
