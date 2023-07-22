@@ -64,7 +64,7 @@ You'll often see media queries defined with the `screen` keyword like so:
 }
 ~~~
 
-This is not necessary but it *does* point toward another very useful capability of media queries: **changing styles based on the media type**. Everything we've covered so far has been specifically intended for viewing on some kind of screen so specifying `screen` is redundant. However, it is possible to create a different set of styles for your website when it is sent to your printer or viewed in print-preview mode by using the `print` keyword.
+This is not necessary, but it *does* point toward another very useful capability of media queries: changing styles based on the media type. Everything we've covered so far has been specifically intended for viewing on some kind of screen so specifying `screen` is redundant. However, it is possible to create a different set of styles for your website when it is sent to your printer or viewed in print-preview mode by using the `print` keyword.
 
 ~~~css
 @media print {
