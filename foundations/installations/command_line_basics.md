@@ -14,7 +14,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
 
-The window that opens will be blank with test that varies based on your operating system.  On linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol called the prompt indicates that the terminal is waiting for you to enter a command. Lets try that now, type `whoami` and press <kbd>Enter</kbd>.
+The window that opens will be mostly blank, with the exception of some text that will vary based on your operating system.  On Linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol - called the prompt - indicates that the terminal is waiting for you to enter a command. Lets try that now. Type `whoami` and press <kbd>Enter</kbd>.
 
 It returns your username. Cool!
 
