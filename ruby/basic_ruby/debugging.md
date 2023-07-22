@@ -129,7 +129,7 @@ When your code executes and gets to `binding.irb`, it will open an IRB session i
 
 For example, here `original_length` and `string_array` are in scope. However, `unique_length` is not in scope, because it is written after `binding.irb`.
 
-You can add `binding.IRB` at multiple points in the execution of your program. To see this in action, try running the following:
+You can add `binding.irb` at multiple points in the execution of your program. To see this in action, try running the following:
 
 ~~~ruby
 def yell_greeting(string)
