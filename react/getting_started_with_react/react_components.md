@@ -31,7 +31,7 @@ To get the feel of working with components, we're going to practice creating fun
 
 ~~~jsx
 function Greeting() {
-  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
+  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
 }
 ~~~
 
@@ -39,13 +39,17 @@ This might look mostly familiar to you - it's a simple JavaScript function, whic
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
-<div class="lesson-note lesson-note--tip" markdown="1" >
+<div class="lesson-note">
+  
+<h4>HTML escape code</h4>
+
+In the above example, <code>&amp;quot;</code> is an escape code we use to render <code>"</code>. Your linter will greet you with an error if you use regular quotes. You can use <a href="https://www.lambdatest.com/free-online-tools/html-escape">this LambdaTest tool for escaping HTML characters</a> if you run into such errors, or read more about <a href="https://www.w3.org/wiki/Common_HTML_entities_used_for_typography">escape codes on w3.org</a>
+
+</div>
 
 #### What is HTML doing in my JavaScript?
 
 It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons! 
-
-</div>
 
 ### Where do components Live
 
