@@ -42,15 +42,16 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+**Note for WSL users**: If you are using WSL on Windows, you will have to use the `wget` with the link given in the `Download files` section in order to have the zip file in your WSL installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt-get install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Also keep in mind through out the course below, your terminal's output will look very differently from what is shown in the lessons. Anytime the course asks you to go to the desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
-    
+
     * Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already)
     * Introducing the Shell
     * Navigating Files and Directories
     * Working With Files and Directories
     * Pipes and Filters
-    
+
 2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
 
 3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
@@ -89,6 +90,8 @@ Third, there's a really handy shortcut for opening everything within a project d
 - **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
 - **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+
+- **WSL**: Opening up VSCode from the command line in WSL is just as easy as it is in Linux. Just enter `code` which will open VSCode in WSL.
 
 ### Additional Resources
 
