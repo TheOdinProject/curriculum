@@ -57,6 +57,14 @@ Fire up a terminal instance, `cd` over to the folder containing your projects, a
 npm create vite@latest my-first-react-app -- --template react
 ~~~
 
+If you see the following output, enter `y` and then press <kbd>enter</kbd>:
+
+~~~
+Need to install the following packages:
+  create-vite@4.X.X
+Ok to proceed? (y)
+~~~
+
 Once the command had begun executing, it should output the next steps for you to follow: 
 
 ~~~
