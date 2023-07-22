@@ -61,7 +61,7 @@ If you see the following output, enter `y` and then press <kbd>enter</kbd>:
 
 ~~~
 Need to install the following packages:
-  create-vite04.4.1
+  create-vite@4.X.X
 Ok to proceed? (y)
 ~~~
 
