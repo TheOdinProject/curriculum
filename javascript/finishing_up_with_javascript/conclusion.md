@@ -2,7 +2,7 @@
 
 Completing the JavaScript course is a major milestone! Congratulations! You've learned a lot of major JavaScript concepts like prototypes, closures, promises, and event loops. Take a moment to reflect on how far you've come.
 
-At this point, you can create phenomenal and dynamic frontends, all using vanilla JavaScript. However, the frontend isn't over yet. You'll be learning [React](https://react.dev/), a library for creating interfaces, in an upcoming course. You've already experience the pain of manually updating the DOM with respect to your underlying data changes, that's where React simplifies the process.
+At this point, you can create phenomenal and dynamic frontends, all using vanilla JavaScript. However, the frontend isn't over yet. You'll be learning about accessibility, responsive design and about [React](https://react.dev/), a library for creating interfaces, in the upcoming courses. You've already experience the pain of manually updating the DOM with respect to your underlying data changes, that's where React simplifies the process.
 
 #### Give your feedback
 
