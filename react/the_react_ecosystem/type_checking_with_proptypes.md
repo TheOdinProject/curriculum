@@ -71,7 +71,7 @@ export default RenderName;
 
 In this example, with the help of the defaultProps property we are defining a default value for the `name` prop. This way, if the `RenderName` component is called without passing in the `name` prop, it will default to "Zach". When you do pass in props, they will take precedence over the default props.
 
-### What about typeScript?
+### What about TypeScript?
 
 Now is also a good time to mention [TypeScript](typescriptlang.org) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
 
