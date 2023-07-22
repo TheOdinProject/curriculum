@@ -30,7 +30,7 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
   <div class="lesson-note" markdown="1">
 
-  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice._
+  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice.
 
   </div>
 
