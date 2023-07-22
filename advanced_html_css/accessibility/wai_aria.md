@@ -66,7 +66,7 @@ A common use for `aria-label` can be found in the "close" buttons of menus or mo
 <button type='button' aria-label='Close menu'>X</button>
 ~~~
 
-Instead of a screen reader announcing, "X, button", which makes little sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our Semantic HTML lesson gets another shoutout... again!):
+Instead of a screen reader announcing, "X, button", which makes little sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our [Semantic HTML](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-semantic-html) lesson gets another shoutout... again!):
 
 ~~~html
 <nav aria-label='main navigation'>...</nav>
