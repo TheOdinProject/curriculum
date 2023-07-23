@@ -73,7 +73,7 @@ In this example, with the help of the defaultProps property we are defining a de
 
 ### What about TypeScript?
 
-Now is also a good time to mention [TypeScript](typescriptlang.org) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
+Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
 
 Learning TypeScript can be a lot of overhead when you're already learning React. Although, once you're comfortable navigating the ins and outs of React, you'll have a better time learning and applying TypeScript to your projects. If you go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript. Learn by doing!
 
