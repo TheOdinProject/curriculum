@@ -4,7 +4,7 @@ In the previous section, you've learned about a component's lifecycle. In functi
 
 We'll start with a short recap of what a components lifecycle is. There are three stages to a component's life: mounting, updating, and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -28,7 +28,7 @@ In this method you should be updating anything that needs to be changed in respo
 
 This is the last lifecycle method, which is called before a component is unmounted and destroyed. In this method you should be performing cleanup actions, so that would be cancelling network requests, clearing timers, etc.
 
-### How useEffect() combines the Lifecycle Methods
+### How useEffect() combines the lifecycle methods
 
 Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on it's dependency array, and if it returns anything.
 
@@ -59,7 +59,7 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
         most of your apps. 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -69,7 +69,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#componentwillunmount">When performing cleanup actions, what lifecycle method should be used?</a>
 *   <a class="knowledge-check-link" href="#how-useeffect-combines-the-lifecycle-methods">How does the useEffect hook combine some of the lifecycle methods?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
