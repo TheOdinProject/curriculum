@@ -216,7 +216,7 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
   };
 
   return (
-    <button onClick={() => handleClick('www.theodinproject.com')} style={buttonStyle}>
+    <button onClick={() => handleClick('https://www.theodinproject.com')} style={buttonStyle}>
       {text}
     </button>
   );
