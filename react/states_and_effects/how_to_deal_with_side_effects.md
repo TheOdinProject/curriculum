@@ -195,9 +195,9 @@ Let us address a few cases where `useEffect` does not need to be used.
       // You should avoid direct manipulation when not necessary
 
       // useEffect(() => {
-      //   document.getElementById("name").addEventListener("click", handleInput);
+      //   document.getElementById("name").addEventListener("change", handleInput);
       //   return () => {
-      //     document.getElementById("name").removeEventListener("click", handleInput);
+      //     document.getElementById("name").removeEventListener("change", handleInput);
       //   }
       // });
       
