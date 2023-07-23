@@ -54,17 +54,4 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 6. When you finish, don't forget to push it up to GitHub!
 </div>
 
-### Viewing your project on the web
 
-If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
-
-GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
-
-There are a couple of ways to go about publishing your project, but the simplest is the following:
-
-- Make sure that the main HTML file of your project is called `index.html`. If it is not, you need to rename it.
-- Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
-    ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/03.png)
-- Click on **Pages** on the left side bar.
-- Change the **Branch** from _none_ to _main branch_ and click Save.
-- It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
