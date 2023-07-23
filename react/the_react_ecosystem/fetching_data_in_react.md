@@ -159,6 +159,8 @@ We can separate out the fetching logic altogether into a custom hook. This will 
 Here's how we would do it for our example:
 
 ~~~jsx
+import { useState, useEffect } from "react";
+
 const useImageURL = () => {
   const [imageURL, setImageURL] = useState(null);
   const [error, setError] = useState(null);
@@ -177,20 +179,22 @@ const useImageURL = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  return { imageURL, error, loading }
-}
+  return { imageURL, error, loading };
+};
 
 const Image = () => {
-  const { imageURL, error, loading } = useImageURL(useImageURL);
+  const { imageURL, error, loading } = useImageURL();
 
   if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
 
   return (
-    <h1>An image</h1>
-    <img src={imageURL} alt={"placeholder text"} />
-  )
-}
+    <>
+      <h1>An image</h1>
+      <img src={imageURL} alt={"placeholder text"} />
+    </>
+  );
+};
 ~~~
 
 If we ever needed to fetch images in different components, instead of rewriting all of that fetching logic we could simply call `useImageURL`.
