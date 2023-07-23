@@ -58,7 +58,7 @@ When using such ARIA attributes, you would provide an `id` to one element, and y
 
 #### `aria-label`
 
-The `aria-label` attribute overrides any native label of an element and modifies its name property in the accessibility tree. It is best used when an element doesn't already have a native label. When added, the string value of `aria-label` attribute  becomes the element's accessible name. **However**, [`aria-label` does not have any effect on some HTML elements](https://github.com/w3c/aria/issues/756), such as `<div>` or a `<span>`. 
+The `aria-label` attribute overrides any native label of an element and modifies its name property in the accessibility tree. It is best used when an element doesn't already have a native label. When added, the string value of the `aria-label` attribute  becomes the element's accessible name. **However**, [`aria-label` does not have any effect on some HTML elements](https://github.com/w3c/aria/issues/756), such as `<div>` or a `<span>`. 
 
 A common use for `aria-label` can be found in the "close" buttons of menus or modals:
 
