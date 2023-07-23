@@ -191,6 +191,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
+<<<<<<< HEAD
 1.  Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
 1.  Let's practice debugging by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>

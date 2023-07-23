@@ -5,19 +5,17 @@ like hiding/showing a part of your page. Making a round trip to your server is i
 comes in: Rails suggests using the JS framework Stimulus to augment your HTML. Stimulus gives you a way of creating and using reusable 
 controllers that give you an extra little bit of interactivity.
 
-### Learning Outcomes
+### Lesson Overview
 
-*Look through these now and then use them to test yourself after doing the assignment*
+This section contains a general overview of topics that you will learn in this lesson.
 
-After going through this lesson you should be able to explain:
-
-* how to attach Stimulus controllers to your HTML
-* how to use targets instead of query selectors
-* how to use action attributes instead of event listeners
-* where to keep state
-* how to use lifecycle callbacks
-* how to make your controllers reusable
-* how to make your controllers customizable with attributes
+- How to attach Stimulus controllers to your HTML.
+- How to use targets instead of query selectors.
+- How to use action attributes instead of event listeners.
+- Where to keep state.
+- How to use lifecycle callbacks.
+- How to make your controllers reusable.
+- How to make your controllers customizable with attributes.
 
 ### The idea
 

@@ -1,7 +1,7 @@
 ### Introduction
 The first step to making responsive websites is using techniques that are _naturally_ flexible. In a later lesson you'll learn how to completely rearrange items on a page based on screen size, but in most cases, it's preferable to rely on tools like flexbox and grid to make your pages work on a wide range of screens first.
 
-### Learning Outcomes
+### Learning outcomes
 * You'll learn a few tips for keeping your sites naturally responsive
 
 Plain HTML, with no CSS is responsive. [Check this out](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
@@ -10,7 +10,7 @@ It's not realistic for every website you create to be as simple as plain text on
 
 The rest of this lesson is a list of tips you can use to maintain natural responsiveness.
 
-### The Viewport Meta Tag
+### The viewport meta tag
 When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simply simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
 
 For this reason, you should add this snippet into the `<head>` of your HTML file in just about every project you work on.
@@ -21,13 +21,13 @@ For this reason, you should add this snippet into the `<head>` of your HTML file
 
 It simply sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
 
-### Avoid Fixed Width and Height
+### Avoid fixed width and height
 
 The number one enemy of flexibility is a fixed width on an element. If you put `width: 600px` on anything, then it will never be able to shrink below that width, which ruins your chances of getting that thing to fit on most phone screens. Likewise, sticking a fixed height on an element can cause issues if the contents of that element run out of room.
 
 Obviously the context will determine what works in a given situation, but an easy fix in many cases is replacing `width` or `height` with `max-width` or `min-height` (`min-width` and `max-height` are also valid and may be useful depending on the context).
 
-In the following example, notice how the <span id='fixed-width'>fixed width</span> causes our div to overflow the screen! Change it to max-width and watch it shrink down to fit inside the box! Click on the 'Edit on CodePen' button to see it in a full resizable window. When a `max-width` is defined, the element will not exceed that width, but will shrink if the screen is too small to accommodate it.
+In the following example, notice how the <span id='fixed-width'>fixed width</span> causes our div to overflow the screen! Change it to `max-width` and watch it shrink down to fit the preview screen! Click 'Fork on CodePen', then 'Save', and navigate to the 'Open Live View in a New Window' icon at the bottom to see it in full window size. Try changing the size of the window to see how `max-width` works. When a `max-width` is defined, the element will not exceed that width but will shrink if the screen is too small to accommodate it.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="GRMpreM" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/GRMpreM">
@@ -51,8 +51,8 @@ In _most_ cases, you should avoid setting a height altogether. There are some ex
 #### When fixed widths are appropriate
 Obviously there are cases when a fixed width is appropriate. It's hard to make a universal rule, but in general the smaller your widths the more likely it's fine to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably _don't_ want it to shrink. Likewise a `250px` sidebar probably needs to _always_ be `250px`. As with anything you just need to consider your options and pick what seems to be the most appropriate.
 
-### Use Flex and Grid
-Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Simply using flex and grid don't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
+### Use flex and grid
+Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Simply using flex and grid doesn't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
@@ -61,13 +61,13 @@ Here's a statement so obvious that it sounds like a joke: flexbox was _created_ 
 3. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#fixed-width'>Why should you avoid fixed width?</a>
-* <a class='knowledge-check-link' href='#fixed-height'>Why should you avoid fixed height?</a>
-* <a class='knowledge-check-link' href='#when-fixed-widths-are-appropriate'>In what situations might it be appropriate to use a fixed height or width?</a>
-* <a class='knowledge-check-link' href='https://codyloyd.com/2021/percentages/'>Why should you avoid percentages?</a>
+* [Why should you avoid fixed width?](#fixed-width)
+* [Why should you avoid fixed height?](#fixed-height)
+* [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
+* [Why should you avoid percentages?](https://codyloyd.com/2021/percentages/)
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

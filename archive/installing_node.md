@@ -63,7 +63,7 @@ touch ~/.zshrc
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ~~~
 
-Restart your terminal, or copy and paste the following into your terminal and press enter: 
+Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>: 
 
 ~~~bash
 export NVM_DIR="$HOME/.nvm"

@@ -4,16 +4,16 @@ When a user makes a request to your application, your controller is the part of 
 
 That's where the concept of a **single page application** comes in. This section will be about how we can use a framework known as **Turbo** to implement single page application behaviour in our very own Rails application. This section covers a lot of tools and you may not fully understand them as you read through the first time. That's okay, consider this lesson to be a resource that you can refer back to when you actually begin using the  tools mentioned and get more of a visual as to what exactly is going on in your views.
 
-### Learning Outcomes
+### Lesson Overview
 
-*Look through these now and then use them to test yourself after doing the assignment*
+This section contains a general overview of topics that you will learn in this lesson.
 
-*   What is a SPA?
-*   What is Hotwire?
-*   What is Turbo and the four components of it?
-*   When might you use a Turbo Frame?
-*   How do we use Turbo Streams to update our pages?
-*   What do we use Turbo Native for?
+- What an SPA is.
+- What Hotwire is.
+- Turbo and the four components of it.
+- When to use a Turbo Frame.
+- How to use Turbo Streams to update your pages.
+- What Turbo Native is used for.
 
 ### Single Page Applications (SPAs)
 

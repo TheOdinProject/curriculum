@@ -79,11 +79,11 @@ The next example shows how you can use `until` to avoid the negation `!` that th
 
 ~~~ruby
 until gets.chomp == "yes" do
-  puts "Will you go to prom with me?"
+  puts "Do you like Pizza?"
 end
 ~~~
 
-Much more readable! This code is guaranteed to get you a "yes".
+Much more readable! And who doesn't like Pizza.
 
 ### Ranges
 

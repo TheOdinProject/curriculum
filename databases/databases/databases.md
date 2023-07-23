@@ -1,10 +1,10 @@
 ### Introduction
 
-We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.
+We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an Excel spreadsheet, or incredibly complex and split into many giant pieces, like Facebook's.
 
-Databases are kind of hidden in the back of the web application so people treat them with a sort of suspicion and awe.  **That's nonsense and you should get over it** -- your database and you are going to become very good friends (or at least frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  This lesson is a teaser for that.
+Databases are kind of hidden in the back of the web application, so people approach them with a sense of suspicion and awe.  However, do not fret or feel intimidated.  As you dive deeper into the subject, your databases and you are going to become very good friends (or at least frenemies).  Rest assured, by the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  This lesson is a teaser for that.
 
-Compared to a normal programming language like you've already learned, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on in there.
+Compared to a normal programming language like you've already learned, SQL (Structured Query Language), which is used to query databases, has a very simple syntax... with only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on in there.
 
 ### Learning Overview
 This section contains a general overview of topics that you will learn in this lesson.
@@ -32,12 +32,12 @@ This section contains a general overview of topics that you will learn in this l
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#structureddata">What is a database?</a>
--   <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#rdbms">What are relational databases?</a>
--   <a class="knowledge-check-link" href="https://youtu.be/z2kbsG8zsLM?t=200">What is a Primary Key?</a>
--   <a class="knowledge-check-link" href="https://launchschool.com/books/sql/read/introduction#sql">What is SQL?</a>
--   <a class="knowledge-check-link" href="https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table">How do you get all the records from a table in SQL?</a>
--   <a class="knowledge-check-link" href="https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data">How do you insert a record in SQL?</a>
+-   [What is a database?](https://launchschool.com/books/sql/read/introduction#structureddata)
+-   [What are relational databases?](https://launchschool.com/books/sql/read/introduction#rdbms)
+-   [What is a Primary Key?](https://youtu.be/z2kbsG8zsLM?t=200)
+-   [What is SQL?](https://launchschool.com/books/sql/read/introduction#sql)
+-   [How do you get all the records from a table in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table)
+-   [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

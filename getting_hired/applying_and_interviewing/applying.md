@@ -10,7 +10,7 @@ This is NOT an excuse to procrastinate or only send out one application a day.  
 
 Over time, you will work your way through your excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
 
-### Go in the Side Door
+### Go in the side door
 
 Where do you start?  Do two things at once -- send applications to a few companies towards the bottom of your list to practice but also look at the top companies on your list and build a strategy.  Remember, the best way to get in is to NOT use their online resume drop but to instead identify a real human being at the company and connect with that person somehow.  Even better is to be so publicly brilliant that they come to you but... we can't have it all.
 
@@ -20,7 +20,7 @@ Get to know the company and its needs and see if you can reach out to address th
 
 * [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
 
-### Perseverance Through the Process
+### Perseverance through the process
 
 One of the key parts of the process, though, is keeping your spirits up.  It SUCKS looking for jobs full time.  You can go weeks without hearing a peep from anyone.  Then you'll have a day where you get an interview and your spirits will soar and then you won't pass and you'll feel like crap again.  Then you'll get another three interviews in one day and it'll be crazy for a time before another long waiting period.  The inconsistency of it is maddening, so do what you need to in your own life to make sure you don't let it get you down.
 
@@ -28,13 +28,13 @@ It's also really important to not act/sound desperate, even though you probably 
 
 The point here is really just to make sure you understand that it's a really annoying/painful/long process for everyone and you're not alone!
 
-### Resume Versions
+### Resume versions
 
 If you're applying to several different types of positions, tailor your resume for the specific type of opportunity.  Just remember that, if you're submitting it virtually, they can see the title.
 
 It's also important to note that if you're not gaining traction getting responses with a certain resume, don't be afraid to switch it up. Keep track of the changes and see which version performs better than the others.
 
-### Cover Letters
+### Cover letters
 
 Some positions require you to also submit cover letters.  In our own experience, we've rarely actually seen the cover letter that an applicant has submitted for a job posting.  They have a magical way of getting lost or ignored.  If someone's spending < 10 seconds looking at your resume at first, why are they going to read a long cover letter?  
 
@@ -42,7 +42,7 @@ Though they may not look at your cover letter during the first pass, if your res
 
 It also needs to answer a new question that the resume doesn't really address directly: "Why does this person actually want to work at MY company?".  That's actually very important if it's a startup or other strongly cultural organization -- they're looking for people who have a very strong reason for wanting to work there so they know you'll stick around and grow with the company.
 
-### Email Cover Letters
+### Email cover letters
 
 Every piece of communication you have with a company is relevant.  The most important is the one where you first reach out via email.  You probably want to treat that as a condensed version of a cover letter -- express your brilliance and fit in just a few powerful sentences.
 

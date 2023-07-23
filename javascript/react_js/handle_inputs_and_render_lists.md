@@ -15,7 +15,7 @@ If you feel uneasy about what we've learned so far, go back and review the conce
 
 Our application will be made of two components, `App` and `Overview`. Your application should render an input field and a submit button. With the submit button, you can add the content from your input to a "tasks array" that is managed in state. (We will use class components for this example because we haven't introduced hooks in this section yet). Finally, for each task in the tasks array, an HTML list element should be rendered.
 
-1. Run `npx create-react-app task-app`, `cd` into your project and open it. You can delete everything in the return statement of the App component and just return an empty `div`. You can also delete all of the boilerplate `create-react-app` provides and just leave `index.js` and `App.js` in the src directory. Just make sure to clean up the import statements and the `reportWebVitals` in the two remaining files. If you aren't familiar with what code or files we are referring to, go back to the first lesson of this section.
+1. Run `npx create-react-app task-app`, `cd` into your project and open it. You can delete everything in the return statement of the App component and just return an empty `div`. You can also delete all of the boilerplate `create-react-app` provides and just leave `index.js` and `App.js` in the src directory. Just make sure to clean up the import statements and the `reportWebVitals` in the two remaining files. If you aren't familiar with what code or files we are referring to, go back to the [first lesson](https://www.theodinproject.com/lessons/node-path-javascript-react-introduction#indexjs-and-appjs) of this section.
 2. Create a `components` folder in your `src` directory and create a file for your component called `Overview.js`. `Overview.js` should just render  our tasks, while `App.js` is going to handle the input field with the logic.
 3. With the intended functionality explained, it's your turn to implement this React app. You can do it. You are not required to style this assignment unless you wish to, the focus is on using event handlers and dealing with forms with state.
 4. **Quick tip**: Use the JavaScript function `map` to map over your tasks array. You will need to provide a unique key to each item (read the warning, you'll know it when you see it in the console!). And there is a difference between handling input fields in plain JavaScript and in React. If you face a problem with it, attempt to figure it out on your own using tools like the documentation, StackOverflow, Google, or experimenting. But fear not, we will again provide an overview of our solution below.
@@ -385,12 +385,12 @@ Here are a few optional tasks for you to practice. Try them out, if you can't so
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-1. The sections on [Handling Events](https://reactjs.org/docs/handling-events.html) and [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) from the React documentation are helpful if you are stuck!
+1. The sections on [Handling Events](https://react.dev/learn/responding-to-events) and [Conditional Rendering](https://react.dev/learn/conditional-rendering) from the React documentation are helpful if you are stuck!
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#render-list">How do you render lists in React?</a>
-- <a class="knowledge-check-link" href="#handle-input-field">How do you handle input field changes in React?</a>
-- <a class="knowledge-check-link" href="#handle-form">How do you handle form submission in React?</a>
+- [How do you render lists in React?](#render-list)
+- [How do you handle input field changes in React?](#handle-input-field)
+- [How do you handle form submission in React?](#handle-form)

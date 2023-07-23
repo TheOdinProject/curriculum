@@ -3,7 +3,7 @@ Unit Testing is important for many reasons that we probably don't need to cover 
 
 If you haven't finished our [front-end JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do or answer the following:
 
@@ -151,7 +151,7 @@ If we were using a real database here, then we would want to do something simila
 2. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
 </div>
 
-### Knowledge Checks
+### Knowledge checks
  
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

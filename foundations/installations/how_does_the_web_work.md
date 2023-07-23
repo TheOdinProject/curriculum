@@ -2,7 +2,7 @@
 
 Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -25,27 +25,27 @@ This section contains a general overview of topics that you will learn in this l
   6. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
 </div> 
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">What is a web server?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is a network?</a>
-*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=7_LPdttKXPc&t=46s" target="_blank">What is the internet?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is an IP address?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is a router?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work" target="_blank">What is an ISP?</a> 
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#packets_explained" target="_blank">What are packets and how are they used to transfer data?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers" target="_blank">What is a client?</a> 
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers" target="_blank">What is a server?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines" target="_blank">What is a web page?</a>
-*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=BrXPcaRlBqo&feature=youtu.be" target="_blank">What is a web browser?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">What is a search engine?</a>
-*   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=72snZctFFtA&t=45s" target="_blank">What is a DNS request?</a>
-*   <a class="knowledge-check-link" href="https://www.whatsmybrowser.org/">Which browser are you currently using?</a>
-*   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines" target="_blank">In your own words, explain what happens when you run a search on google.com.</a>
+*   [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
+*   [What is a network?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+*   [What is the internet?](https://www.youtube.com/watch?v=7_LPdttKXPc&t=46s)
+*   [What is an IP address?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+*   [What is a router?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+*   [What is an ISP?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+*   [What are packets and how are they used to transfer data?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#packets_explained)
+*   [What is a client?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers)
+*   [What is a server?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers)
+*   [What is a web page?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
+*   [What is a web browser?](https://www.youtube.com/watch?v=BrXPcaRlBqo&feature=youtu.be)
+*   [What is a search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
+*   [What is a DNS request?](https://www.youtube.com/watch?v=72snZctFFtA&t=45s)
+*   [Which browser are you currently using?](https://www.whatsmybrowser.org/)
+*   [In your own words, explain what happens when you run a search on google.com.](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

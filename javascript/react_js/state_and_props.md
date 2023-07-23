@@ -5,6 +5,7 @@ The last lesson was a lot of theory, but there is just a little bit more you hav
 Let's dive right into it. Feel free to code along with this lesson. Typing the code out will help you remember it significantly better.
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to:
 
 - Demonstrate how to pass functions, state, or other values between components as `props`
@@ -128,13 +129,15 @@ Ok, there is a little bit more going on here, but in the end, it works exactly a
 - The value of that prop should be some kind of function
 - We want this function to be attached to the click event of our button.
 
-**Special note 1:** In React, instead of using `addEventListener` to add event listeners, we assign them right in the JSX. Unlike adding them in HTML, these attributes must be camelCased! You can view a list of all supported events [here](https://reactjs.org/docs/events.html).
+**Special note 1:** In React, instead of using `addEventListener` to add event listeners, we assign them right in the JSX. Unlike adding them in HTML, these attributes must be camelCased! You can view a list of all supported events [here](https://react.dev/reference/react-dom/components/common).
 
 **Special note 2:** Did you notice how the function `this.props.onButtonClicked` was wrapped in curly braces? This is because JSX needs a way of knowing when you are using JavaScript, otherwise it will try to transpile your code into HTML elements, text nodes, or strings (or throw an error in some cases). In this case, we are referring to a JavaScript object property, which technically qualifies as "using JavaScript," so we must wrap it in curly braces.
 
 Now onto the `App` component. First, we defined the method `onClickBtn` above the `render` method. After that, we passed this function down to our `MyComponent` as a prop, which we named `onButtonClicked` (of course, you could also name it `onClickBtn` and then use that function in `MyComponent.js` with the name of `onClickBtn`, but we wanted to emphasize that you can rename the functions when passing them around as props). We do that in the same way that we passed the title value previously, except instead of passing a string, we're just passing a function (and using curly braces to do so because it's a JavaScript variable).
 
-Now the only thing we have to do is bind the method to `this`; we do that in the constructor method at the top of our component but below the `super()` call. The reason we have to bind the `this` keyword when passing a function to another component is that it needs to stay in the same context in which it was declared. Always remember: you **must** bind `this` for all methods in **class components** when passing them to other components.
+Now the only thing we have to do is bind the method to `this`; we do that in the constructor method at the top of our component but below the `super()` call. Let's understand the reason behind this.
+
+In the [JavaScript section](https://www.theodinproject.com/lessons/node-path-javascript-objects-and-object-constructors#assignment), we learned that the `this` keyword refers to the object that it belongs to. However, the value of `this` can change depending on how a function is called. When you pass a function from one component to another, the context of `this` changes, and it no longer refers to the original component. This can cause errors and unexpected behavior. To solve this problem, we use the bind() method. By calling bind() on a method and passing it the component's `this` keyword, we create a new function with `this` bound to the original component. This ensures that the method is always executed in the correct context, regardless of where it is called from. So, always remember: you **must** bind `this` for all methods in **class components** when passing them to other components.
 
 As you can see when you are passing many properties or functions to a component, it can get quite exhausting to always refer to them with `this.props.someProperty`. [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to the rescue! We can alternatively write the above as follows:
 
@@ -208,7 +211,7 @@ In the above component, we declared our state as an object with a property `coun
 
 **IMPORTANT:** In React, state should be treated as **immutable**. This means you should **never** change state directly (i.e. without using `setState`) because it can lead to unexpected behavior or bugs.
 
-In other words, you should never do something like: `this.state.count = 3`, or, `this.state.count++`. Instead, always use the [setState](https://reactjs.org/docs/react-component.html#setstate) method React provides to class components to modify the state. Keep this in mind - it can save you a lot of debugging when you are getting started with React. [This article](http://web.archive.org/web/20211101150139/https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/) does a great job analyzing many popular JavaScript methods concerning mutability. Take some time to read it so you can understand how easy it can be to accidentally mutate state. Please note there is one mistake in this article: In the last code example, mapping `n * 2` onto `origArr` would not result in the modified strings suggested; rather, the mutated array would contain `NaN` values.
+In other words, you should never do something like: `this.state.count = 3`, or, `this.state.count++`. Instead, always use the [setState](https://react.dev/reference/react/Component#setstate) method React provides to class components to modify the state. Keep this in mind - it can save you a lot of debugging when you are getting started with React. [This article](http://web.archive.org/web/20211101150139/https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/) does a great job analyzing many popular JavaScript methods concerning mutability. Take some time to read it so you can understand how easy it can be to accidentally mutate state. Please note there is one mistake in this article: In the last code example, mapping `n * 2` onto `origArr` would not result in the modified strings suggested; rather, the mutated array would contain `NaN` values.
 
 As we mentioned before, our `countUp()` method needs to be bound in our constructor (using `bind`), so it knows what context to operate in. This is a result of how `this` works in JavaScript, see [this article](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/) for a great explanation on why _this_ is the case.
 
@@ -279,22 +282,23 @@ Using state in functional components is a bit different. Before the end of 2018,
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Go to the React homepage and go through the [props section](https://reactjs.org/docs/components-and-props.html) again. Also, check out the next article, which talks about State and Lifecycle Methods. Don't worry about the lifecycle methods for now, we will discuss them in a future lesson. However, if you are excited and want to learn more, feel free to explore that on your own.
+1. Go through [this](https://react.dev/learn/passing-props-to-a-component) lesson. It dives into how to pass and read props to and from a component.
 2. Starting with [this lesson on props,](https://www.geeksforgeeks.org/reactjs-props-set-1/) continue through each of the lessons relating to state and props to build a good foundation for the upcoming lessons. Once again, you're welcome to explore more on your own if you wish.
 </div>
 
 ### Additional Resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
-- An [article](https://reactjs.org/docs/thinking-in-react.html) by the React team on the thought process that should go into the developer's minds while building a React based application.
+- An [article](https://react.dev/learn/thinking-in-react) by the React team on the thought process that should go into the developer's minds while building a React based application.
 
 ### Knowledge Check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#props">How do you pass functions, state, or other values between components?</a>
-- <a class="knowledge-check-link" href="#state">What is the purpose of `state` in a React component?</a>
-- <a class="knowledge-check-link" href="https://reactjs.org/docs/react-component.html#setstate">Explain the importance of using `setState()` instead of mutating state directly?</a>
-- <a class="knowledge-check-link" href="#state-and-props-in-functional-components">What is the difference between functional and class components and how does their syntax for handling props differ?</a>
-- <a class="knowledge-check-link" href="https://reactjs.org/docs/handling-events.html">How do you attach event listeners to elements in React components?</a>
+- [How do you pass functions, state, or other values between components?](#props)
+- [What is the purpose of `state` in a React component?](#state)
+- [Explain the importance of using `setState()` instead of mutating state directly?](https://react.dev/reference/react/Component#setstate)
+- [What is the difference between functional and class components and how does their syntax for handling props differ?](#state-and-props-in-functional-components)
+- [How do you attach event listeners to elements in React components?](https://reactjs.org/docs/handling-events.html)

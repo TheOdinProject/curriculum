@@ -51,33 +51,39 @@ import userEvent from "@testing-library/user-event";
 import FavoriteInput from "./FavoriteInput";
 
 describe("Favorite Input", () => {
-  it("calls onChange correct number of times", () => {
+  it("calls onChange correct number of times", async () => {
     const onChangeMock = jest.fn();
+    const user = userEvent.setup();
+
     render(<FavoriteInput onChange={onChangeMock} />);
     const input = screen.getByRole("textbox");
 
-    userEvent.type(input, "Lion");
+    await user.type(input, "Lion");
 
     expect(onChangeMock).toHaveBeenCalledTimes(4);
   });
 
-  it("calls onChange with correct argument(s) on each input", () => {
+  it("calls onChange with correct argument(s) on each input", async () => {
     const onChangeMock = jest.fn();
+    const user = userEvent.setup();
+
     render(<FavoriteInput onChange={onChangeMock} />);
     const input = screen.getByRole("textbox");
 
-    userEvent.type(input, "Ox");
+    await user.type(input, "Ox");
 
     expect(onChangeMock).toHaveBeenNthCalledWith(1, "O");
     expect(onChangeMock).toHaveBeenNthCalledWith(2, "Ox");
   });
 
-  it("input has correct values", () => {
+  it("input has correct values", async () => {
     const onChangeMock = jest.fn();
+    const user = userEvent.setup();
+
     render(<FavoriteInput onChange={onChangeMock} />);
     const input = screen.getByRole("textbox");
 
-    userEvent.type(input, "Whale");
+    await user.type(input, "Whale");
 
     expect(input).toHaveValue("Whale");
   });
@@ -88,6 +94,8 @@ Three tests and we are done with this component. Take some time to figure out wh
 We mock the `onChange` handler using one of Jest's functions, `jest.fn()`. For the first test, we assert that the mock function is invoked correct number of times. While the second test ensures that the mock function is called with the correct arguments. The third test seems redundant, and it is; it's just here to show another way we could've tested the component.
 
 But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
+
+It is recommended to invoke `userEvent.setup()` before rendering the component, and it is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
 
 #### Mocking Child Components
 
@@ -110,6 +118,14 @@ We start by importing a bunch of stuff like any other decent React component. Th
 By just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionsList`.
 
 Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/__tests__/submissions-list.test.jsx). Again, don't worry if all of it doesn't make sense, we'll chew over it shortly.
+
+<div class="lesson-note" markdown="1">
+
+#### Note
+
+While the test suite above uses `data-test-id` to identify mocked child components, it must be remembered that the React Testing Library instead uses `data-testid` by default.
+
+</div>
 
 #### submissions-list.test.jsx
 
@@ -152,8 +168,8 @@ The other important thing to note is almost all the tests follow a certain patte
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#testing-callback-handlers">How can you mock a callback handler?</a>
-* <a class="knowledge-check-link" href="#mock-child-component">How can you mock a child component?</a>
+* [How can you mock a callback handler?](#testing-callback-handlers)
+* [How can you mock a child component?](#mock-child-component)
 
 ### Additional Resources
 

@@ -2,13 +2,13 @@
 
 HTML Tables allow you to create two-dimensional tables made of rows and columns. In this lesson, you will learn everything you need to know about HTML Tables.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
 -   Create advanced HTML tables.
 
-### HTML Tables
+### HTML tables
 
 Some data just really needs to be displayed in a table. HTML tables might be less commonly used than buttons, links, lists and everything else you've learned so far, but there are some cases where they're the _perfect_ tool. Some of the more advanced features can get a little tricky to set up correctly but getting started with tables is pretty easy. You create a table with `<table></table>` tags and then put the elements for rows, columns, headers, or anything else that's possible inside those table elements.
 
@@ -32,7 +32,7 @@ In this codepen example we created a table element, containing two table row ele
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -41,7 +41,7 @@ This section contains questions for you to check your understanding of this less
 -   [What are caption elements useful for?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#adding_a_caption_to_your_table_with_caption)
 -   [What is the scope attribute?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#the_scope_attribute)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

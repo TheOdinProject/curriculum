@@ -103,12 +103,7 @@ You should now have enough basics to get started with React routing. There are a
 <div class="lesson-content__panel" markdown="1">
 1. Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
 2. Browse a little bit through the React Router [documentation](https://reactrouter.com/en/main/start/overview). You don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. This is a great resource to refer back to.
-3. Watch this [video on React Router by Dev Ed](https://www.youtube.com/watch?v=Law7wfdg_ls) for reviewing. You should already be familiar with those concepts.
-    *  <div class="lesson-note" markdown="1">
-
-       What we have learned in this lesson is the latest version of React Router (v6). However, in this video, an older version of React Router (v5) is used. The terminologies might be different, but the concept remains the same.
-
-       </div>
+3. Watch this [video on React Router by Web Dev Simplified](https://www.youtube.com/watch?v=Ul3y1LXxzdU) for reviewing. You should already be familiar with those concepts.
 </div>
 
 ### Additional Resources
@@ -121,7 +116,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#client-side-routing">What is Client-side routing?</a>
-- <a class="knowledge-check-link" href="#react-router">How do you add page routing to a React project?</a>
-- <a class="knowledge-check-link" href="#components">What are the three core components of React Router?</a>
-- <a class="knowledge-check-link" href="#routing">How do you ensure that Router links are routed accurately?</a>
+- [What is Client-side routing?](#client-side-routing)
+- [How do you add page routing to a React project?](#react-router)
+- [What are the three core components of React Router?](#components)
+- [How do you ensure that Router links are routed accurately?](#routing)

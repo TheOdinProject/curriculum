@@ -2,31 +2,29 @@
 
 Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe (no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard).
 
-That black screen or window is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
+That blank screen or window with a prompt and blinking cursor is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
 In this introductory lesson to the command line, you'll learn how to navigate around your computer and how to manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward. So don't let the prospect of using the command line for the first time intimidate you.
 
-### Test Drive Your Terminal
+### Test drive your terminal
 
 <span id="open-command-line">Open a terminal</span> on your computer.
 
-- **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing `CTRL + ALT + T` on your keyboard.
+- **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> on your keyboard.
 
-- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press `CMD + SPACE` to open Spotlight, and search for "Terminal". Press `RETURN` to open it.
+- **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
 
-Before we do anything, take a look at the following text:
-```
-$ whoami
-```
-This is a terminal command because it begins with a `$`. The `$` is saying "Hey! Enter what follows in your terminal." This means that we must exclude the `$` when entering any command. In the example above, we would only enter `whoami` in our terminal. This is a common indicator so make sure that you aren't entering `$` before a command. Now that you are aware of what `$` does, take your terminal for a test run! Make sure your terminal is open, type the command mentioned above, and press enter on your keyboard.
+The window that opens will be mostly blank, with the exception of some text that will vary based on your operating system.  On Linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol - called the prompt - indicates that the terminal is waiting for you to enter a command. Lets try that now. Type `whoami` and press <kbd>Enter</kbd>.
 
 It returns your username. Cool!
+
+Often guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember if you are using a newer Mac the `%` is the the same as `$`
 
 #### Why learn this now?
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will need you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -66,13 +64,13 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Use the Command Line Like a Pro
+### Use the command line like a pro
 
 There's something important that you need to know about programmers. Programmers are lazy. Like, really lazy. When forced to do something over and over again, the odds are good that they'll figure out a way to automate it instead. The good news is that you get to take advantage of the many shortcuts they've created along the way. It's time to learn how to use the command line like a pro (which is to say, in a really lazy way).
 
-First, you might have already noticed that copying and pasting inside the command line doesn't work the way that you'd expect. When you're inside the command line, you'll need to use `Ctrl+Shift+C` (Mac: `Cmd+C`) to copy and `Ctrl+Shift+V` (Mac: `Cmd+V`) to paste. For example, to copy and paste commands from your browser into the command line, you'll highlight the command text and use `Ctrl+C` as usual and then paste it in your terminal using `Ctrl+Shift+V`. Test it out!
+First, you might have already noticed that copying and pasting inside the command line doesn't work the way that you'd expect. When you're inside the command line, you'll need to use <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>C</kbd>) to copy and <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>V</kbd>) to paste. For example, to copy and paste commands from your browser into the command line, you'll highlight the command text and use <kbd>Ctrl</kbd> + <kbd>C</kbd> as usual and then paste it in your terminal using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>. Test it out!
 
-Second, you need to learn about [tab completion](https://en.wikipedia.org/wiki/Command-line_completion). Seriously, this tip will save you so much time and frustration. Let's say that you're in the command line and that you need to move into a folder that's far away, something like `~/Documents/Odin-Project/foundations/javascript/calculator/`. That's a long command to type out, and everything needs to be exactly right in order for it to work. Nope, we're *way* too lazy for that! Basically, by hitting `Tab`, the command line will automatically complete commands that you've started typing once there's only one option. For example, it's pretty common to have a `Documents` folder and a `Downloads` folder in the home directory. If you've typed `cd D` and then press `Tab`, the command line will let you know that it's not sure which one you want by showing you the different options that match what you've typed so far:
+Second, you need to learn about [tab completion](https://en.wikipedia.org/wiki/Command-line_completion). Seriously, this tip will save you so much time and frustration. Let's say that you're in the command line and that you need to move into a folder that's far away, something like `~/Documents/Odin-Project/foundations/javascript/calculator/`. That's a long command to type out, and everything needs to be exactly right in order for it to work. Nope, we're *way* too lazy for that! Basically, by hitting <kbd>Tab</kbd>, the command line will automatically complete commands that you've started typing once there's only one option. For example, it's pretty common to have a `Documents` folder and a `Downloads` folder in the home directory. If you've typed `cd D` and then press <kbd>Tab</kbd>, the command line will let you know that it's not sure which one you want by showing you the different options that match what you've typed so far:
 ```bash
 $ cd D
 Documents/ Downloads/
@@ -84,35 +82,35 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 **A Note on typing passwords**: When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), the characters should not be visible to you as you type them. While you might think the terminal isn't responding, don't worry! This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the Terminal keeps your password secure.
 
-### Opening files in VSCode from the Command Line
+### Opening files in VSCode from the command line
 
 - **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
-- **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with `CMD + Shift + P`. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+- **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
-### Additional Resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete beginner's pro-maker. It serves as an open-source repository. This also has a lot of pro tips!
-* The online book, [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapter 1 is free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to buy and read the rest of the book if you like.
-* [ExplainShell.com](http://explainshell.com/) is a great resource if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
-* [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf) contains a list of important commands that you can refer to regularly as you become familiar with using Linux. You can print it out so you can have a physical copy with you when you're not at your computer.
-* [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
-* [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, detailed enough to get you started and light your inner curiosity.
-
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#command-line">What is the command line?</a>
-* <a class="knowledge-check-link" href="#open-command-line">How do you open the command line on your computer?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd">How can you navigate to a particular directory?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31">Where will `cd` on its own navigate you to?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30">Where will `cd ..` navigate you to?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd">How do you display the name of the directory you are currently in?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls">How do you display the contents of the directory you are currently in?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7">How do you create a new directory?</a>
-* <a class="knowledge-check-link" href="https://swcarpentry.github.io/shell-novice/03-create/index.html#create-a-text-file">How do you create a new file?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9">How do you destroy a directory or file?</a>
-* <a class="knowledge-check-link" href="https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10">How do you rename a directory or file?</a>
+- [What is the command line?](#command-line)
+- [How do you open the command line on your computer?](#open-command-line)
+- [How can you navigate to a particular directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
+- [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
+- [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
+- [How do you display the name of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
+- [How do you display the contents of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
+- [How do you create a new directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
+- [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
+- [How do you destroy a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
+- [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete beginner's pro-maker. It serves as an open-source repository. This also has a lot of pro tips!
+- The online book, [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapters 1 and 2 are free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to buy and read the rest of the book if you like.
+- [ExplainShell.com](http://explainshell.com/) is a great resource if you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check.
+- [Unix/Linux Command Cheat Sheet](https://files.fosswire.com/2007/08/fwunixref.pdf) contains a list of important commands that you can refer to regularly as you become familiar with using Linux. You can print it out so you can have a physical copy with you when you're not at your computer.
+- [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
+- [Video Series from LearnLinuxTv](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) contains 24 videos explaining the basics of the command line. Videos are brief enough for beginners but, at the same time, detailed enough to get you started and light your inner curiosity.

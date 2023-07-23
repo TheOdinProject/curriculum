@@ -142,14 +142,14 @@ The next step, once you've had a chance to practice this all in the project, is 
 ### Knowledge Checks
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class='knowledge-check-link' href='#foreign-key'>What is the difference between a foreign key and a primary key?</a>
--   <a class='knowledge-check-link' href='#schema'>Where is the setup information for your database stored?</a>
--   <a class='knowledge-check-link' href='#command-parts'>What are the important parts of a SQL command?</a>
--   <a class='knowledge-check-link' href='#sql-read'>Which SQL statement is associated with "Read" from the CRUD acronym?</a>
--   <a class='knowledge-check-link' href='#inner-join'>Which `JOIN` statement keeps only the rows from both tables where they match up?</a>
--   <a class='knowledge-check-link' href='#aggregate-function'>How do you use an aggregate function?</a>
--   <a class='knowledge-check-link' href='#having-function'>In which situation would you use the `HAVING` function?</a>
--   <a class='knowledge-check-link' href='#sql-is-faster-than-ruby'>Why can't I just use Ruby to process my database data?</a>
+-   [What is the difference between a foreign key and a primary key?](#foreign-key)
+-   [Where is the setup information for your database stored?](#schema)
+-   [What are the important parts of a SQL command?](#command-parts)
+-   [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)
+-   [Which `JOIN` statement keeps only the rows from both tables where they match up?](#inner-join)
+-   [How do you use an aggregate function?](#aggregate-function)
+-   [In which situation would you use the `HAVING` function?](#having-function)
+-   [Why can't I just use Ruby to process my database data?](#sql-is-faster-than-ruby)
 
 ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

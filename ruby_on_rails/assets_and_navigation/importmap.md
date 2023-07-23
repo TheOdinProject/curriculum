@@ -60,13 +60,13 @@ You start the setup via the configuration file located `config/importmap.rb`. Th
 You can use the `./bin/importmap` command that's added as part of the install to `pin`, `unpin`, or `update` npm packages in your import map. This command resolves the package dependencies and adds the pins to your `config/importmap.rb`.
 
 ~~~JS
-./bin/importmap pin react react-dom
+$ ./bin/importmap pin react react-dom
 Pinning "react" to https://ga.jspm.io/npm:react@17.0.2/index.js
 Pinning "react-dom" to https://ga.jspm.io/npm:react-dom@17.0.2/index.js
 Pinning "object-assign" to https://ga.jspm.io/npm:object-assign@4.1.1/index.js
 Pinning "scheduler" to https://ga.jspm.io/npm:scheduler@0.20.2/index.js
 
-./bin/importmap json
+$ ./bin/importmap json
 
 {
   "imports": {
@@ -97,7 +97,7 @@ pin "react", to: "https://cdn.skypack.dev/react"
 If you don't want to use a CDN in production, you can download vendored files from the CDN when you're setting up your pins. These packages are downloaded to the `vendor/javascript` directory
 
 ~~~bash
-./bin/importmap pin react --download
+$ ./bin/importmap pin react --download
 Pinning "react" to vendor/react.js via download from https://ga.jspm.io/npm:react@17.0.2/index.js
 Pinning "object-assign" to vendor/object-assign.js via download from https://ga.jspm.io/npm:object-assign@4.1.1/index.js
 ~~~
@@ -112,7 +112,7 @@ pin "object-assign" # https://ga.jspm.io/npm:object-assign@4.1.1/index.js
 If you want to remove a downloaded pin you can pass `--download` to the `unpin` command
 
 ~~~bash
-./bin/importmap unpin react --download
+$ ./bin/importmap unpin react --download
 Unpinning and removing "react"
 Unpinning and removing "object-assign"
 ~~~

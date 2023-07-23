@@ -2,7 +2,7 @@
 
 It's time to dive into the exciting world of CSS transitions and give your HTML elements some slick transformations! 
 
-### Learning Outcomes
+### Learning outcomes
 
 * What a CSS transition is and when to use it
 * Know what CSS properties are animatable and which ones are not
@@ -89,16 +89,16 @@ What's important is that you have a solid understanding of these concepts and ca
 4. Learn how to catch and debug repaint issues with this great article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html).
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">Are all CSS properties animatable?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">What are the long and short-hand notations for transitions?</a>
-- <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">What is the stacking context?</a>
-- <a class="knowledge-check-link" href="https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html">Why do you need to keep an eye on repaints?</a>
+- [Are all CSS properties animatable?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+- [What are the long and short-hand notations for transitions?](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+- [What is the stacking context?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+- [Why do you need to keep an eye on repaints?](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
