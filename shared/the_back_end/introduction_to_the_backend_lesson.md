@@ -8,7 +8,7 @@ That said, some languages are more popular and practical than others.  If you're
 
 Some of the most popular server-side languages are PHP, C#, Ruby, Python and Java (not to be confused with JavaScript). Just as we can say "Which way to the nearest pub?" in Swedish, French, Italian, English, and Bad English, so too can all of those languages perform almost exactly the same functions, just using different syntax.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -33,7 +33,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Name each part of the backend.</a>
 *   <a class="knowledge-check-link" href="https://www.codecademy.com/articles/back-end-architecture">Where does the backend store its data?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
