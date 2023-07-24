@@ -3,7 +3,7 @@ Creating users and allowing them to log in and out of your web apps is a crucial
 
 We're going to be building a very minimal express app that will allow users to sign up, log in, and log out. For now, we're just going to keep everything except the views in one file to make for easier demonstration, but in a real-world project, it is best practice to split our concerns and functionality into separate modules.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -16,13 +16,13 @@ By the end of this lesson, you should be able to do the following:
 - Review prior learning material (routes, templates, middleware, async/await, and promises).
 - Use PassportJS to set up user authentication with Express.
 
-#### Data Security/Safety
+#### Data security/safety
 
 - Describe what bcrypt is and its use.
 - Describe what a hash is and explain the importance of password hashing.
 - Describe bcrypt's `compare` function.
 
-### Set Up
+### Set up
 
 We're going to be using another Mongo database, so before we begin log in to your mongo provider and create a new database and save its URL string somewhere handy.
 
@@ -93,7 +93,7 @@ To keep things simple, our view engine is set up to just look in the main direct
 </html>
 ~~~
 
-### Creating Users
+### Creating users
 
 The first thing we need is a sign up form so we can actually create users to authenticate! In the Library Tutorial website, you learned about validating and sanitizing inputs. This is a _really good idea_, but for the sake of brevity, we're going to leave that out here. Don't forget to include sanitation and validation when you get to the project.
 
@@ -175,7 +175,7 @@ passport.use(
 
 This function is what will be called when we use the `passport.authenticate()` function later.  Basically, it takes a username and password, tries to find the user in our DB, and then makes sure that the user's password matches the given password. If all of that works out (there's a user in the DB, and the passwords match) then it authenticates our user and moves on! We will not be calling this function directly, so you won't have to supply the `done` function.  This function acts a bit like a middleware and will be called for us when we ask passport to do the authentication later.
 
-### Functions two and three: Sessions and serialization
+### Functions two and three: sessions and serialization
 
 <span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
 
@@ -317,7 +317,7 @@ bcrypt.hash("somePassword", 10, async (err, hashedPassword) => {
 });
 ~~~
 
-The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
+The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
 
 Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
  
@@ -346,7 +346,7 @@ bcrypt.compare(password, user.password, (err, res) => {
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This article](https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195) goes into great detail about the passport local strategy and brings the magic that happens behind the scenes into the light. It provides a comprehensive foundation for how session-based authentication works using browser cookies along with backend sessions to manage users.
@@ -356,7 +356,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them. 
 
 
-### Knowledge Checks 
+### Knowledge checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>

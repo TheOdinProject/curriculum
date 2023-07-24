@@ -2,13 +2,13 @@
 
 Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
 
-### Learning Outcomes
+### Learning outcomes
 
 * The differences between CSS transitions and CSS animations
 * How to configure animation sub-properties
 * How to sequence an animation using keyframes
 
-### Animations vs Transitions
+### Animations vs transitions
 
 Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions simply do not have. A few of the differences include:
 
@@ -18,9 +18,9 @@ Animations let you animate elements from one style configuration to another. Doe
 
 * Transitions are not as flexible as using animations. When you define a transition, imagine you are sending that element on a journey in a straight line from point A to point B. Yes, the `transition-timing-function` can add some variation to the timing of this change, but it doesn't compare to the amount of flexibility added by using animations.
 
-All in all, both animations and transitions have their use, so in addition to considering the above differences you should also use your best judgement. For example, if you need to change the opacity of an element when it is active then an animation would be overkill, but if you need to carry out something more complicated, animations will provide you with the tools you need. 
+All in all, both animations and transitions have their use, so in addition to considering the above differences you should also use your best judgment. For example, if you need to change the opacity of an element when it is active then an animation would be overkill, but if you need to carry out something more complicated, animations will provide you with the tools you need. 
 
-### Animation Properties
+### Animation properties
 
 Let's see an animation in action to see what we've been talking about.
 
@@ -43,15 +43,15 @@ Note how the animation is already running and how it keeps repeating itself. We'
 }
 ~~~
 
-This is known as the configuration stage where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example we have:
+This is known as the configuration stage where we define our animation properties on the `#ball` element, and it is only the first half of defining an animation. In our example, we have:
 
 * An `animation-duration` of two seconds. This means that it will take two seconds for the `#ball` element to complete one animation cycle. 
 
-* Defined the `animation-name` to be "change-color" which is essential for the `@keyframes` section coming up next. This is just a custom name that is not a particular CSS value. We could have called it "pineapples" if we so wished, but for our purposes "change-color" suits well. 
+* Defined the `animation-name` to be "change-color" which is essential for the `@keyframes` section coming up next. This is just a custom name that is not a particular CSS value. We could have called it "pineapples" if we so wished, but for our purposes "change-color" suits us well. 
 
 * Set the `animation-iteration-count` to `infinite`, which means this animation will run forever. You could set this to 1, 2, or as many iterations as you wish. 
 
-* Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to it's original color instead of "jumping" straight back to red.
+* Set the `animation-direction`  to `alternate`. This property decides if our animation should alternate direction on the completion of one cycle, or reset to the start point and repeat itself. Here it means that the `#ball` will smoothly change back to its original color instead of "jumping" straight back to red.
 
 ### Keyframes
 
@@ -110,12 +110,12 @@ Now it's time to introduce the shorthand notation for our animation properties a
 
 Here we added another keyframe for when the `animation-duration` is at 50%, or 1 second. This means as well as the `background-color` changing to an additional value, we have also specified that the ball double in size. Just be aware that additional keyframes are always defined in percentages. Only the `0%/100%` values may use the `from/to` alias. 
 
-Hopefully this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
+Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Code along with the the MDN article for [using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+1. Code along with [this MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 2. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
 </div>
 
@@ -127,13 +127,13 @@ Now let's make some cool animations! Go to the [CSS exercises repository](https:
 2. pop-up
 3. dropdown-menu
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
 - [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)
 
-### Additional Resources
+### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to other content. It isn't required, so consider it supplemental if you need to dive deeper into something.

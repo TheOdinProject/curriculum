@@ -5,7 +5,7 @@ This isn't the last course in the curriculum, as there is a Getting Hired course
 
 Still, at this point you've got the NodeJS and Express building blocks. When you work your first six months on the job as a full stack Javascript dev, you will learn as much information as you just did. Because the point of this course has been to instill these building blocks in you, you're in a place to actually get that first job and build on what you know.
 
-### Next Steps
+### Next steps
 
 This final lesson isn't designed to explicitly teach new material, just point you in the right direction if you'd like to dig a bit deeper before moving on. Or maybe you'll bookmark it and come back when you want to see where to head next in your NodeJS journey.
 
@@ -28,11 +28,11 @@ Sometimes, having a little exposure to DevOps can help set you apart as a robust
 
 A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
 
-#### Relational Data
+#### Relational data
 
 Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/paths/full-stack-ruby-on-rails/courses/databases) is a great place to start to digging into relational databases and SQL.
 
-### Other Resources
+### Other resources
 
 Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
 
@@ -53,7 +53,7 @@ It's a great way to start learning about agile development methodologies and to 
 
 I want to emphasize again that the learning never really stops but also that you've come a long way. Keep up the good work, burn through the Getting Hired course, and get ready to start job hunting!
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

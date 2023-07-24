@@ -108,7 +108,7 @@ In true Ruby style, there are plenty of ways to concatenate strings.
 Classic Ruby!
 
 #### Substrings
-You can access strings inside strings inside strings. Stringception! It's super easy, too.
+You can access strings inside strings. Stringception! It's super easy, too.
 
 ~~~ruby
 "hello"[0]      #=> "h"
@@ -119,6 +119,7 @@ You can access strings inside strings inside strings. Stringception! It's super 
 
 "hello"[-1]     #=> "o"
 ~~~
+In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.

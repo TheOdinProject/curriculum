@@ -1,14 +1,14 @@
 # Layout style guide
 
-[Inspired by google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
+Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
 
-TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website. 
+TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
 **The goals of this style guide are to help create Markdown that is:**
 
--   Readable for as many users as possible.
--   Editable by any contributor.
--   Consistent across the TOP website.
+- Readable for as many users as possible.
+- Editable by any contributor.
+- Consistent across the TOP website.
 
 **Contents:**
 
@@ -18,8 +18,10 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Newlines](#newlines)
 1. [Lists](#lists)
 1. [Code](#code)
+1. [Note boxes](#note-boxes)
 1. [Links](#links)
 1. [Images](#images)
+1. [Keyboard shortcuts](#keyboard-shortcuts)
 1. [Codepen embeds](#codepen-embeds)
 1. [Maintainer instructions](#maintainer-instructions)
 1. [Mermaid diagrams](#mermaid-diagrams)
@@ -46,7 +48,7 @@ A BRIEF INTRODUCTION.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   A LESSON OVERVIEW ITEM.
+- A LESSON OVERVIEW ITEM.
 
 ### CUSTOM SECTION HEADING
 
@@ -56,8 +58,8 @@ CUSTOM SECTION CONTENT.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A RESOURCE OR EXERCISE ITEM
-    -   AN INSTRUCTION ITEM
+1. A RESOURCE OR EXERCISE ITEM
+   - AN INSTRUCTION ITEM
 
 </div>
 
@@ -71,47 +73,47 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
 ~~~
 
-1.  `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
+1. `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
 
-2.  `### Lesson overview`: A bulleted list of items that provide a general overview of what the user will learn about in the lesson. Lesson Overviews should include general, higher level statements that cover the core concepts of the lesson. They should serve and be phrased as a list of key items that a user should be expected to *learn about* throughout the lesson, rather than a list of things they should be able to *do* by the end of it.
+2. `### Lesson overview`: A bulleted list of items that provide a general overview of what the user will learn about in the lesson. Lesson overviews should include general, higher level statements that cover the core concepts of the lesson. They should serve and be phrased as a list of key items that a user should be expected to *learn about* throughout the lesson, rather than a list of things they should be able to *do* by the end of it.
 
-    Replace the `A LESSON OVERVIEW ITEM.` text with your own lesson overview item, then add any additional bulleted lesson overview items. The lesson should ideally have no more than 7 lesson overview items, but this number might vary by lesson. **If the lesson does not have a lesson overview, remove this entire section from the lesson.**
+   Replace the `A LESSON OVERVIEW ITEM.` text with your own lesson overview item, then add any additional bulleted lesson overview items. The lesson should ideally have no more than 7 lesson overview items, but this number might vary by lesson. **If the lesson does not have a lesson overview, remove this entire section from the lesson.**
 
-3.  `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections. **If the lesson does not have any custom sections, remove this entire section from the lesson.**
+3. `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections. **If the lesson does not have any custom sections, remove this entire section from the lesson.**
 
-4.  `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson. 
+4. `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson.
 
-    Each assignment item should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, an assignment item should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any specific exercises, and whether the user should redirect themselves to additional links within the resource.
+   Each assignment item should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, an assignment item should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any specific exercises, and whether the user should redirect themselves to additional links within the resource.
 
-    Replace the `A RESOURCE OR EXERCISE ITEM.` text with your own text and a link to the resource or exercise (or any applicable instructions if an exercise isn't external), then add any additional numbered assignment items. The lesson should ideally have no more than 3-5 assignment items (reading several sections on a web page or completing a folder of 5 exercises would be considered a single assignment item). **If the lesson does not have an assignment, remove this entire section from the lesson.**
+   Replace the `A RESOURCE OR EXERCISE ITEM.` text with your own text and a link to the resource or exercise (or any applicable instructions if an exercise isn't external), then add any additional numbered assignment items. The lesson should ideally have no more than 3-5 assignment items (reading several sections on a web page or completing a folder of 5 exercises would be considered a single assignment item). **If the lesson does not have an assignment, remove this entire section from the lesson.**
 
-    If an assignment item includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items. 
-    
-    If a user should only read specific sections within a resource (e.g. "Skip Chapter 7") or complete only specific exercises (e.g. "Complete the first two exercises in the repo"), each instruction item should be its own bullet. 
-    
-    **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
+   If an assignment item includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items.
 
-5.  `### Knowledge check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute) or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
+   If a user should only read specific sections within a resource (e.g. "Skip Chapter 7") or complete only specific exercises (e.g. "Complete the first two exercises in the repo"), each instruction item should be its own bullet.
 
-    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson. **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
+   **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
-    In order to link to a Heading 3 `###` or Heading 4 `####` within the lesson, replace the value within the parenthesis for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase and any spaces replaced with a hyphen `-`. For example, a Heading 3 section titled `### Creating a Method` would be linked to with `(#creating-a-method)`.
-    
-    In order to link to a `<span>` element within the lesson, replace the value within the parenthesis with the exact `id` attribute of the `<span>` element (this will be case sensitive).  For example, a `<span id="Knowledge-Check-3">` element would be linked to with `(#Knowledge-Check-3)`.
+5. `### Knowledge check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute), or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
 
-6.  `### Additional resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
+   Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson. **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
 
-    **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
+   In order to link to a Heading 3 `###` or Heading 4 `####` within the lesson, replace the value within the parenthesis for the knowledge check link with a hashtag `#` followed immediately by the section title in lowercase and any spaces replaced with a hyphen `-`. For example, a Heading 3 section titled `### Creating a method` would be linked to with `(#creating-a-method)`.
 
-### Project Layout
+   In order to link to a `<span>` element within the lesson, replace the value within the parenthesis with the exact `id` attribute of the `<span>` element (this will be case sensitive). For example, a `<span id="Knowledge-Check-3">` element would be linked to with `(#Knowledge-Check-3)`.
+
+6. `### Additional resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
+
+   **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
+
+### Project layout
 
 ~~~markdown
 
-### Introduction 
+### Introduction
 
 A BRIEF INTRODUCTION.
 
@@ -123,11 +125,11 @@ PRE-ASSIGNMENT SECTION CONTENT.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A REQUIREMENT/USER STORY.
+1. A REQUIREMENT/USER STORY.
 
 #### Extra credit
 
--   AN OPTIONAL ADD-ON/USER STORY.
+- AN OPTIONAL ADD-ON/USER STORY.
 
 </div>
 
@@ -137,27 +139,30 @@ POST-ASSIGNMENT SECTION CONTENT.
 
 ~~~
 
-1.  `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
+1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
 
-2.  `### PRE-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
+2. `### PRE-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
 
-3.  `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A REQUIREMENT/USER STORY.` with your own requirement, then add any additional numbered requirement items.
+3. `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A REQUIREMENT/USER STORY.` with your own requirement, then add any additional numbered requirement items.
 
-4.  `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
+4. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
-5.  `### POST-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
+5. `### POST-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
 
 ## Headings
 
-### Title case
+### Case
 
 Headings should always use sentence case:
 
 ~~~markdown
+<!-- Incorrect -->
 ### This Is Not Sentence case
 
+<!-- Correct -->
 ### This is sentence case
 
+<!-- Correct -->
 ### This is also sentence case with HTML
 ~~~
 
@@ -165,17 +170,17 @@ Headings should always use sentence case:
 
 Headings should never contain any code snippets.
 
-```markdown
-<!-- Wrong -->
+~~~markdown
+<!-- Incorrect -->
 ### The `id` property
 
-<!-- Right -->
+<!-- Correct -->
 ### The id property
-```
+~~~
 
 ### ATX-style headings
 
-Use Heading 3 `###`  for main section titles ("Lesson overview", "Assignment", custom sections, etc):
+Use Heading 3 `###` for main section titles ("Lesson overview", "Assignment", custom sections, etc):
 
 ~~~markdown
 ### Section heading
@@ -197,7 +202,7 @@ Text after...
 
 ## Newlines
 
-Each Markdown file should have an empty newline at the very end, after all of the file's contents. 
+Each Markdown file should have an empty newline at the very end, after all of the file's contents.
 
 Always add a newline before and after a heading, a list, an Assignment panel, or any other content that is not strictly text:
 
@@ -215,15 +220,23 @@ Content before...
 
 ### Lazy numbering
 
-Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering:
+Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
 
 ~~~markdown
 1. Foo.
 1. Bar.
 1. Foofoo.
 1. Barbar.
-1.  Baz.
+1. Baz.
 ~~~
+
+Will result in the following output:
+
+1. Foo.
+1. Bar.
+1. Foofoo.
+1. Barbar.
+1. Baz.
 
 ### Nested lists
 
@@ -235,7 +248,7 @@ When nesting lists, use a 2 space indent when nesting inside a bulleted list and
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
-  - A sub-bullet with a 2 space indent 
+  - A sub-bullet with a 2 space indent
 - A new list item
 ~~~
 
@@ -246,7 +259,7 @@ Will result in the following output:
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
-  - A sub-bullet with a 2 space indent 
+  - A sub-bullet with a 2 space indent
 - A new list item
 
 ### Multi-line list items
@@ -279,7 +292,7 @@ Will result in the following output:
 
   This is related information to the first item, but visually separated out.
 
-- A new bulleted list item 
+- A new bulleted list item
 
 ### Unordered lists
 
@@ -308,7 +321,7 @@ Create a new file named `styles.css` first.
 
 ### Codeblocks
 
-For code quotations longer than a single line, use a codeblock with 3 opening anc closing tilde marks:
+For code quotations longer than a single line, use a codeblock with 3 opening and closing tilde marks:
 
 <pre>
 ~~~javascript
@@ -328,13 +341,13 @@ syntax highlighter nor the next editor must guess.
 
 Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
 
-```bash
-// The below example is incorrect
+~~~bash
+# Incorrect
 $ cd Documents
 
-// The below is correct
+# Correct
 cd Documents
-```
+~~~
 
 #### Nest codeblocks within lists
 
@@ -365,6 +378,32 @@ Will result in the following output:
   ~~~
 
 - Next bullet.
+
+## Note boxes
+
+Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
+
+A heading can be added to a note by using an `h4` element. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
+
+### Variations
+
+Note boxes come in two variations, which can be set by adding an extra class together with `lesson-note`:
+- `lesson-note--tip` for tips or general information
+- `lesson-note--warning` for warnings about potential issues/pitfalls, and are more severe than a tip
+
+### Example
+~~~markdown
+<div class="lesson-note">
+<h4>An optional title</h4>
+A sample note box.
+</div>
+~~~
+~~~markdown
+<div class="lesson-note lesson-note--tip">
+<h4>An optional title</h4>
+A sample note box, variation: tip.
+</div>
+~~~
 
 ## Links
 
@@ -397,16 +436,51 @@ The text in square brackets will be included as the image's alt text. Similar to
 
 In order to properly add images to a lesson, follow the instructions in our [Adding Images to the Curriculum](https://github.com/TheOdinProject/curriculum/wiki/Adding-Images-to-the-Curriculum) Wiki page to get a statically URL as seen in the codeblock above.
 
+## Keyboard shortcuts
+
+For keyboard shortcuts we use the HTML keyboard input element `<kbd>`.
+
+Example code which will be rendered as: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+
+```html
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+```
+
+### Style standardization
+
+- Use separate `<kbd>` elements for individual keys:
+
+  ~~~markdown
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
+  ~~~
+
+- Use capitalized common abbreviations for the keys and avoid using symbols like `⌘`:
+
+  ~~~markdown
+  <kbd>Cmd</kbd>
+  <kbd>Alt</kbd>
+  <kbd>B</kbd>
+  <kbd>Opt</kbd>
+  ~~~
+
+- Use symbols for character keys instead of spelling out the symbol like `period`:
+
+  ~~~markdown
+  <kbd>.</kbd>
+  <kbd>,</kbd>
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>?</kbd>
+  ~~~
+
 ## Codepen embeds
 
 In order to embed a Codepen example into a lesson, you must be in the editor view for the Codepen you wish to embed and then click the `Embed` button at the bottom right of the page.
 
 The following options should be selected when creating a Codepen embed:
 
-* **Default Tabs**: The "Result" tab must be selected in addition to one of the other three options (HTML, CSS, or JavaScript), depending on the main purpose of the Codepen. If the purpose is to show an HTML concept then the "HTML" option must also be selected, for example.
-* **Theme**: "Dark"
-* **Use Click-to-Load**: "Off"
-* **Make Code Editable**: "On"
+- **Default Tabs**: The "Result" tab must be selected in addition to one of the other three options (HTML, CSS, or JavaScript), depending on the main purpose of the Codepen. If the purpose is to show an HTML concept then the "HTML" option must also be selected, for example.
+- **Theme**: "Dark"
+- **Use Click-to-Load**: "Off"
+- **Make Code Editable**: "On"
 
 Finally, the **HTML (Recommended)** code option must be the one that is copy + pasted into the lesson.
 
@@ -419,12 +493,14 @@ After forking a pen to the TOP account and ensuring the embeds options from abov
 ## Mermaid diagrams
 
 To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.js.org/syntax/flowchart.html) to learn the diagram syntax for the specific type of diagram you want to add. After you've figured out the content you want in the diagram, you can add it to a lesson's markdown by surrounding the content with `<pre>` tags with a `class="mermaid"` ie:
-```
+
+~~~markdown
 <pre class="mermaid">
   mermaid diagram content here
 </pre>
-```
-This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram looks right with the lesson content before contributing.
+~~~
+
+This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram renders correctly with the lesson content before contributing.
 
 ## English writing style
 

@@ -32,7 +32,7 @@ Let's look at some ways we can change recent and distant history to fit our need
 
 #### Getting Set Up
 
-Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history changing operations. Go to GitHub, and as you have in the past create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned, and create some new files! Once you're in the repository follow along with the following commands. Look them up if you're confused about anything that's happening.
+Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history changing operations. Go to GitHub, and as you have in the past create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned, and create some new files! Once you're in the repository follow along with the following commands(including the typo). Look them up if you're confused about anything that's happening.
 
 ~~~bash
   $ touch test{1..4}.md
@@ -40,6 +40,12 @@ Before we get started with the lesson, let's create a Git playground in which we
   $ git add test2.md && git commit -m 'Create send file'
   $ git add test3.md && git commit -m 'Create third file and create fourth file'
 ~~~
+
+#### Setting Up the Code Editor
+
+To perform certain Git commands that require opening a text editor, such as `git commit --amend` and `git rebase -i`, it's important to configure your code editor correctly. By default, Git opens the text editor in the command-line interface (CLI), which may prevent you from saving and closing the editor after making changes.
+
+To set up your code editor properly, you can follow the instructions provided in the Git Basics lesson. Here's the specific section that covers the process: [Changing the Git Commit Message Editor](https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor).
 
 #### Changing The Last Commit
 

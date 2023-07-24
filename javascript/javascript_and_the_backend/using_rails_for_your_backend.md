@@ -30,6 +30,13 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 </div>
 
+### Knowledge Check
+
+* [How do you load custom JavaScript in a given Rails view page?](https://railsapps.github.io/rails-javascript-include-external.html#locations)
+* [How does "unobtrusive JavaScript" work?](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#unobtrusive-javascript)
+* [How can you pass data from your Rails app to your JavaScript?](https://railsapps.github.io/rails-javascript-include-external.html#parameters)
+* [Why would you want to use AJAX to load large batches of data?](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#an-introduction-to-ajax)
+
 ### Additional Resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
@@ -38,9 +45,3 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Grabbing your Rails form CSRF token with JavaScript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
 * [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
 
-### Knowledge Check
-
-* <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#locations" > How do you load custom JavaScript in a given Rails view page? </a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#unobtrusive-javascript" >How does "unobtrusive JavaScript" work?</a>
-* <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#parameters" >How can you pass data from your Rails app to your JavaScript?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html#an-introduction-to-ajax" >Why would you want to use AJAX to load large batches of data?</a>

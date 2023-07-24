@@ -26,7 +26,7 @@ Just to name a few reasons on why to learn React.js:
 - React is not opinionated, which means that it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
 - Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML from our previous lessons.
 
-If you need more convincing, the recent [2022 StackOverflow Developer Survey](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
+If you need more convincing, the recent [2023 StackOverflow Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
 _Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
 
@@ -238,10 +238,11 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#why-react">Why should you learn React?</a>
-- <a class="knowledge-check-link" href="https://react.dev/learn/writing-markup-with-jsx">What is JSX?</a>
-- <a class="knowledge-check-link" href="#components">What is a React Component?</a>
-- <a class="knowledge-check-link" href="https://djoech.medium.com/functional-vs-class-components-in-react-231e3fbd7108">What is the difference between a functional and a class component?</a>
-- <a class="knowledge-check-link" href="https://dev.to/sarah_chima/an-introduction-to-react-components-cke">How should you structure your application into components?</a>
-- <a class="knowledge-check-link" href="#create-react-app">What does `create-react-app` do?</a> 
-- <a class="knowledge-check-link" href="#react-developer-tools">Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools</a>
+- [Why should you learn React?](#why-react)
+- [What is JSX?](https://react.dev/learn/writing-markup-with-jsx)
+- [What is a React Component?](#components)
+- [What is the difference between a functional and a class component?](https://dev.to/colocodes/react-class-components-vs-function-components-23m6)
+- [How should you structure your application into components?](https://dev.to/sarah_chima/an-introduction-to-react-components-cke)
+- [What does `create-react-app` do?](#create-react-app)
+- [Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools](#react-developer-tools)
+

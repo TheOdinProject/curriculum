@@ -22,7 +22,7 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 
 #### Initial Setup
 
-1. Read [the contributing guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md) for the project.
+1. Read [the contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) for the project.
 2. Fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
 3. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
 4. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `git remote add upstream git@github.com:TheOdinProject/curriculum.git` inside the project folder `curriculum`.
@@ -69,6 +69,6 @@ This section contains helpful links to other content. It isn't required, so cons
 
 Sometimes (okay, maybe a lot of times) when you're working with Git, something goes terribly wrong. Don't panic! Git is designed to help you recover from your misfortune. These resources will help you get back on track towards version control nirvana:
 
-* [Oh sh!t git](http://ohshitgit.com/) is a quick reference to get you out of common Git problems.
+* [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
 * This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
 * If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.

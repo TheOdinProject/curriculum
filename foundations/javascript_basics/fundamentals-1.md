@@ -1,7 +1,7 @@
 ### Introduction
 Let's dive right into JavaScript!
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 * What are assignment operators?
 * What is the Unary Plus Operator?
 
-### How to Run JavaScript Code
+### How to run JavaScript code
 
 All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
@@ -55,7 +55,11 @@ JavaScript files have the extension `.js` similar to `.css` for stylesheets. Ext
 
 ### Variables
 
-You can think of variables as simply "storage containers" for data in your code. <span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
+You can think of variables as simply "storage containers" for data in your code. 
+
+![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
+
+<span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
 
 1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
 
@@ -87,33 +91,32 @@ Try the following exercises (and don't forget to use `console.log()`!):
     * Declare a constant variable `max` with the value `57`
     * Set another variable `actual` to `max - 13`
     * Set another variable `percentage` to `actual / max`
-    * If you type `percentage` in the console and press enter you should see a value like `0.7719`
+    * If you type `percentage` in the console and press <kbd>Enter</kbd> you should see a value like `0.7719`
 6. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
 _* As you might have noticed by running Javascript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
 </div>
 
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
-
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* [Name the three ways to declare a variable](#variable-declaration)
-* [Which of the three variable declarations should you avoid and why?](#avoid-var)
-* [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
-* [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
-* [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
-* [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_numbers.asp)
-* [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
-* [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
-* [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
-* [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
-* [How do you access developer tools and the console?](#access-devTools-console)
-* [How do you log information to the console?](#console-log)
-* [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
+- [Name the three ways to declare a variable](#variable-declaration)
+- [Which of the three variable declarations should you avoid and why?](#avoid-var)
+- [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
+- [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
+- [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
+- [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_numbers.asp)
+- [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
+- [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
+- [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
+- [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
+- [How do you access developer tools and the console?](#access-devTools-console)
+- [How do you log information to the console?](#console-log)
+- [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).

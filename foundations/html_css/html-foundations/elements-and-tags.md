@@ -2,14 +2,14 @@
 
 HTML (HyperText Markup Language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   Explain what HTML Tags are
 *   Explain what HTML elements are
 
-### Elements and Tags
+### Elements and tags
 
 Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
 
@@ -37,14 +37,14 @@ Using the correct elements for content is called semantic HTML. We will explore 
   
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 *   [What is an HTML tag?](#elements-and-tags)
 *   [What are the three parts of an HTML element?](#elements-and-tags)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

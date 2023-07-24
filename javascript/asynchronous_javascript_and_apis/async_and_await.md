@@ -52,7 +52,7 @@ const server = {
 };
 ~~~
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -65,7 +65,7 @@ This section contains a general overview of topics that you will learn in this l
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 ### The async keyword
 
@@ -101,7 +101,7 @@ server.getPeople().then(async people => {
 
 `await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would simply assign a variable to the result using `await`. Then you can use the result in your code as you would in your synchronous code.
 
-### Error Handling
+### Error handling
 
 Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end.
 
@@ -213,23 +213,22 @@ This code will behave exactly like the code from the last lesson; it just looks 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [Async and Await article](https://javascript.info/async-await) for a solid introduction to async/await. This [Async and Await examples article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of its use.
-2. Read this [Async and Await with error handling article](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) for a more in-depth look at async/await, including how to handle errors.
-3. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
+2. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
- - <a class="knowledge-check-link" href="#the-async-keyword">How do you declare an `async` function?</a>
- - <a class="knowledge-check-link" href="#the-async-keyword">What does the `async` keyword do?</a>
- - <a class="knowledge-check-link" href="#the-await-keyword">What does the `await` keyword do?</a>
- - <a class="knowledge-check-link" href="https://javascript.info/async-await#summary">What is returned from an `async` function?</a>
- - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">What happens when an error is thrown inside an `async` function?</a>
- - <a class="knowledge-check-link" href="https://javascript.info/async-await#error-handling">How can you handle errors inside an `async` function?</a>
+ - [How do you declare an `async` function?](#the-async-keyword)
+ - [What does the `async` keyword do?](#the-async-keyword)
+ - [What does the `await` keyword do?](#the-await-keyword)
+ - [What is returned from an `async` function?](https://javascript.info/async-await#summary)
+ - [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
+ - [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

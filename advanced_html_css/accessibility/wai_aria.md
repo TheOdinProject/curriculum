@@ -2,7 +2,7 @@
 
 In the previous lessons you learned several ways to make websites more accessible. Those lessons, however, were just the tip of the accessible iceberg. WAI-ARIA introduces attributes that can help make websites even more accessible by modifying the semantics and context of elements, which can give you greater control over how those elements are perceived by assistive technologies. Because this subject can get so complicated, we're only going to cover two attributes that you can get *a lot* of use from.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to:
 
 * Know the purpose of WAI-ARIA.
@@ -25,7 +25,7 @@ WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessi
 
 When you use ARIA, you will usually have to take additional steps to add in any missing semantics or functionality. Remember the Keyboard Navigation lesson and how we had to add in functionality to `<div>` "buttons"?
 
-#### The Five Rules of ARIA
+#### The five rules of ARIA
 
 ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that **no ARIA is better than bad ARIA**, even when you have the best intentions. The WCAG have something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
 
@@ -39,7 +39,7 @@ ARIA can be extremely powerful when used correctly, but it can be equally as dan
 
 5. All interactive elements must have an accessible name.
 
-### The Accessibility Tree
+### The accessibility tree
 
 Before we get into a couple of the ARIA attributes available to us, it's important to know some basics of what the accessibility tree is, as it will help you understand just what those attributes are actually doing.
 
@@ -48,7 +48,7 @@ The accessibility tree is based on the DOM, something you should be very familia
 * **Name**: Also known as the "accessible name", this is what assistive technologies announce to a user and what separates elements of the same type from one another. The name may be set by one or more native labels, including the text contents of an element, the `<label>` element, or the `alt` attribute, to name a few.
 * **Description**: This is what assistive technologies announce in addition to its accessible name.
 
-### ARIA Labels
+### ARIA labels
 
 ARIA labels help users of assistive technologies better understand the content on a web page by overriding native labels or providing additional descriptive text. Unlike the `<label>` element, ARIA labels aren't limited to being used on only a select few elements, though they still have their own limitations.
 
@@ -121,7 +121,7 @@ The `aria-describedby` attribute modifies the description property in the access
 
 When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose, any time the input receives focus.
 
-### Hiding Content from the Accessibility Tree
+### Hiding content from the accessibility tree
 
 Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display` and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
@@ -145,7 +145,7 @@ Be careful when using this attribute, though. When you give an element `aria-hid
 
 You should also be careful not to give an element `aria-hidden='true'` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use both a screen reader and navigate the page via a keyboard.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * [What purpose does WAI-ARIA serve?](#wai-aria-purpose)
@@ -155,7 +155,7 @@ This section contains questions for you to check your understanding of this less
 * [What are the differences between the three ARIA labels?](#aria-labels)
 * [What does the `aria-hidden` attribute do?](#hiding-content-from-the-accessibility-tree)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

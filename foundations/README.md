@@ -1,6 +1,6 @@
 This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses. Please note, this may be outdated. Use the website here instead: https://www.theodinproject.com/paths/foundations/courses/foundations. Some Git related lessons are not shown here as they are stored in a separate folder. You can find those lessons [here](../git).
 
-## The Outline
+## The outline
 
 - Introduction
   - How this Course Will Work - [lesson](introduction/how_this_course_will_work.md)

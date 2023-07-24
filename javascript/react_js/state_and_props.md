@@ -5,6 +5,7 @@ The last lesson was a lot of theory, but there is just a little bit more you hav
 Let's dive right into it. Feel free to code along with this lesson. Typing the code out will help you remember it significantly better.
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to:
 
 - Demonstrate how to pass functions, state, or other values between components as `props`
@@ -134,7 +135,9 @@ Ok, there is a little bit more going on here, but in the end, it works exactly a
 
 Now onto the `App` component. First, we defined the method `onClickBtn` above the `render` method. After that, we passed this function down to our `MyComponent` as a prop, which we named `onButtonClicked` (of course, you could also name it `onClickBtn` and then use that function in `MyComponent.js` with the name of `onClickBtn`, but we wanted to emphasize that you can rename the functions when passing them around as props). We do that in the same way that we passed the title value previously, except instead of passing a string, we're just passing a function (and using curly braces to do so because it's a JavaScript variable).
 
-Now the only thing we have to do is bind the method to `this`; we do that in the constructor method at the top of our component but below the `super()` call. The reason we have to bind the `this` keyword when passing a function to another component is that it needs to stay in the same context in which it was declared. Always remember: you **must** bind `this` for all methods in **class components** when passing them to other components.
+Now the only thing we have to do is bind the method to `this`; we do that in the constructor method at the top of our component but below the `super()` call. Let's understand the reason behind this.
+
+In the [JavaScript section](https://www.theodinproject.com/lessons/node-path-javascript-objects-and-object-constructors#assignment), we learned that the `this` keyword refers to the object that it belongs to. However, the value of `this` can change depending on how a function is called. When you pass a function from one component to another, the context of `this` changes, and it no longer refers to the original component. This can cause errors and unexpected behavior. To solve this problem, we use the bind() method. By calling bind() on a method and passing it the component's `this` keyword, we create a new function with `this` bound to the original component. This ensures that the method is always executed in the correct context, regardless of where it is called from. So, always remember: you **must** bind `this` for all methods in **class components** when passing them to other components.
 
 As you can see when you are passing many properties or functions to a component, it can get quite exhausting to always refer to them with `this.props.someProperty`. [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to the rescue! We can alternatively write the above as follows:
 
@@ -284,6 +287,7 @@ Using state in functional components is a bit different. Before the end of 2018,
 </div>
 
 ### Additional Resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This course](https://scrimba.com/g/glearnreact) is a great way to get more familiar with all basic concepts of React in a very short time.
@@ -293,8 +297,8 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="#props">How do you pass functions, state, or other values between components?</a>
-- <a class="knowledge-check-link" href="#state">What is the purpose of `state` in a React component?</a>
-- <a class="knowledge-check-link" href="https://react.dev/reference/react/Component#setstate">Explain the importance of using `setState()` instead of mutating state directly?</a>
-- <a class="knowledge-check-link" href="#state-and-props-in-functional-components">What is the difference between functional and class components and how does their syntax for handling props differ?</a>
-- <a class="knowledge-check-link" href="https://reactjs.org/docs/handling-events.html">How do you attach event listeners to elements in React components?</a>
+- [How do you pass functions, state, or other values between components?](#props)
+- [What is the purpose of `state` in a React component?](#state)
+- [Explain the importance of using `setState()` instead of mutating state directly?](https://react.dev/reference/react/Component#setstate)
+- [What is the difference between functional and class components and how does their syntax for handling props differ?](#state-and-props-in-functional-components)
+- [How do you attach event listeners to elements in React components?](https://reactjs.org/docs/handling-events.html)

@@ -2,21 +2,21 @@
 
 This folder contains lesson markdown files that make up the Intermediate HTML and CSS course. This course exists in the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript) and the [Full Stack Ruby on Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) paths on the Odin Project Website.
 
-## Course Outline
+## Course outline
 
 The following list represents how the lessons are divided into sections and presented on the website.
 
 **Disclaimer:** Given the ever updating nature of the curriculum, the outline might be outdated. See the [Intermediate HTML and CSS course on the website](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/intermediate-html-and-css)
 instead.
 
-### Intermediate HTML Concepts
+### Intermediate HTML concepts
 
 1. [Introduction](intermediate_html_concepts/introduction.md)
 2. [Emmet](intermediate_html_concepts/emmet.md)
 3. [SVG](intermediate_html_concepts/svgs.md)
 4. [Tables](intermediate_html_concepts/tables.md)
 
-### Intermediate CSS Concepts
+### Intermediate CSS concepts
 
 1. [Default Styles](intermediate_css_concepts/default_styles.md)
 2. [CSS Units](intermediate_css_concepts/css_units.md)

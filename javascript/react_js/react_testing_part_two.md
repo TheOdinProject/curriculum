@@ -119,6 +119,14 @@ By just going through the code, it should give us some idea of what to test. It 
 
 Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdinProject/theodinproject/blob/main/app/javascript/components/project-submissions/components/__tests__/submissions-list.test.jsx). Again, don't worry if all of it doesn't make sense, we'll chew over it shortly.
 
+<div class="lesson-note" markdown="1">
+
+#### Note
+
+While the test suite above uses `data-test-id` to identify mocked child components, it must be remembered that the React Testing Library instead uses `data-testid` by default.
+
+</div>
+
 #### submissions-list.test.jsx
 
 We notice there are two child components of `SubmissionsList`. One of them is from a package called `react-flip-move`. External Code. We'll mock it.
@@ -160,8 +168,8 @@ The other important thing to note is almost all the tests follow a certain patte
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#testing-callback-handlers">How can you mock a callback handler?</a>
-* <a class="knowledge-check-link" href="#mock-child-component">How can you mock a child component?</a>
+* [How can you mock a callback handler?](#testing-callback-handlers)
+* [How can you mock a child component?](#mock-child-component)
 
 ### Additional Resources
 
