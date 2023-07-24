@@ -20,7 +20,7 @@ Finally, you will set up a project with Git that will serve as a template for yo
 
 For now, let's learn what Git is and why it's so powerful!
 
-### Lesson Overview:
+### Lesson Overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
