@@ -112,7 +112,7 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-#### Way to render JSX
+#### How you can render JSX
 
 Now that the props can be accessed inside of the class component, the next issue is to find a way to render the JSX.
 
