@@ -1,6 +1,6 @@
 ### Introduction
 
-Congratulations on making it to the final lesson in foundations! By this point, you have learned many of the fundamentals of JavaScript. In this lesson, you will learn about Objects - "a collection of key-value pairs." as well as some more powerful and commonly used array methods. Before you know it, you'll have a better understanding of how powerful objects and arrays are and how both can be an indispensable part of your JavaScript tool kit!
+Congratulations on making it to one of the last lessons in Foundations! By this point, you have learned many of the fundamentals of JavaScript. In this lesson, you will learn about Objects - a collection of key-value pairs - as well as some more powerful and commonly used array methods. Before you know it, you'll have a better understanding of how powerful objects and arrays are and how both can be an indispensable part of your JavaScript tool kit!
 
 ### Lesson overview
 
