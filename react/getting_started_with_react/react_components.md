@@ -53,11 +53,9 @@ It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'l
 
 ### Where do components Live
 
-So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! Let's import React so the component in this file works as intended. Up next, we'll want to `export` our newly created component so that parent components can use it as a child throughout your project. 
+So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's simply `export` our newly created component so that parent components can use it as a child throughout your project.
 
 ~~~jsx
-import React from 'react'
-
 function Greeting() {
   return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
