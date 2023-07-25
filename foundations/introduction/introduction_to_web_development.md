@@ -49,6 +49,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 *   **[Stack Overflow](http://stackoverflow.com/)**
 *   **[Git](https://git-scm.com/)**
 *   **[GitHub](https://github.com/)**
+*   **[Chat-GPT](https://chat.openai.com/)**
 
 ### Motivation
 
