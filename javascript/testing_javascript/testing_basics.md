@@ -6,7 +6,7 @@ There are many test-running systems available in JavaScript: [Mocha](https://moc
 
 This lesson is going to center around __Jest__. The biggest reasons for this decision are that one of the best resources we've found for explaining JavaScript testing uses it and they have fantastic documentation. In the end, writing tests is less about the syntax and more about the TDD philosophy.  The most important issues are knowing __why__ we write tests and __what__ we test rather than how.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -23,14 +23,14 @@ This section contains a general overview of topics that you will learn in this l
 4. Read and follow the [Using Matchers](https://jestjs.io/docs/using-matchers) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 -  [What are the benefits of TDD?](https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/)
 -  [What are some common jest matchers?](https://jestjs.io/docs/using-matchers#common-matchers)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
