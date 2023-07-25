@@ -23,7 +23,6 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Images](#images)
 1. [Keyboard shortcuts](#keyboard-shortcuts)
 1. [Codepen embeds](#codepen-embeds)
-1. [Maintainer instructions](#maintainer-instructions)
 1. [Mermaid diagrams](#mermaid-diagrams)
 1. [English writing style](#english-writing-style)
 
@@ -58,16 +57,12 @@ CUSTOM SECTION CONTENT.
 
 <div class="lesson-content__panel" markdown="1">
 
-#### CUSTOM ASSIGNMENT HEADING
+#### OPTIONAL CUSTOM ASSIGNMENT HEADING
 
 1. A RESOURCE OR EXERCISE ITEM
    - AN INSTRUCTION ITEM
 
 </div>
-
-### POST-ASSIGNMENT SECTION HEADING
-
-POST-ASSIGNMENT SECTION CONTENT.
 
 ### Knowledge check
 
@@ -91,7 +86,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
 1. `### CUSTOM SECTION HEADING`: A custom section that contains some of the main content of the lesson. Replace the `CUSTOM SECTION HEADING` text with a proper section heading and the `CUSTOM SECTION CONTENT.` text with your own content, then add any additional custom sections. **If the lesson does not have any custom sections, remove this entire section from the lesson.**
 
-1. `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson. If an assignment is intended to have multiple lists, each list should include a `#### CUSTOM ASSIGNMENT HEADING`, otherwise this custom heading can be omitted.
+1. `### Assignment`: A numbered list of external resources the user must read or watch, or practical exercises the user must complete (such as our exercise repos), in order to fully complete the lesson. If an assignment is intended to have multiple lists, each list should include a level 4 heading by replacing the `#### OPTIONAL CUSTOM ASSIGNMENT HEADING` with a proper level 4 heading, otherwise this custom heading can be omitted.
 
    Each assignment item should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, an assignment item should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any specific exercises, and whether the user should redirect themselves to additional links within the resource.
 
@@ -103,8 +98,6 @@ This section contains helpful links to related content. It isn’t required, so 
 
    **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
-1. `### POST-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come after the actual lesson assignment. This content should act as material that is not necessary to complete the lesson, but rather acts as optional, helpful material related to the lesson. This section will most likely not be needed for most lessons, but when it is needed simply replace the `POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the lesson does not have a post-assignment section, remove this entire section.**
-
 1. `### Knowledge check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute), or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
 
    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson. **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
@@ -113,7 +106,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
    In order to link to a `<span>` element within the lesson, replace the value within the parenthesis with the exact `id` attribute of the `<span>` element (this will be case sensitive). For example, a `<span id="Knowledge-Check-3">` element would be linked to with `(#Knowledge-Check-3)`.
 
-1. `### Additional resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves.
+1. `### Additional resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves, and generally should not cover the same exact content as the lesson just in a different medium. If the only answer to "What does this resource cover that the lesson doesn't?" is "I liked it" or "It's a video", it probably isn't enough to consider adding.
 
    **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
 
@@ -125,9 +118,9 @@ This section contains helpful links to related content. It isn’t required, so 
 
 A BRIEF INTRODUCTION.
 
-### PRE-ASSIGNMENT SECTION HEADING
+### OPTIONAL PRE-ASSIGNMENT SECTION HEADING
 
-PRE-ASSIGNMENT SECTION CONTENT.
+OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 
 ### Assignment
 
@@ -143,23 +136,23 @@ PRE-ASSIGNMENT SECTION CONTENT.
 
 </div>
 
-### POST-ASSIGNMENT SECTION HEADING
+### OPTIONAL POST-ASSIGNMENT SECTION HEADING
 
-POST-ASSIGNMENT SECTION CONTENT.
+OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 ~~~
 
 1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
 
-1. `### PRE-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
+1. `### OPTIONAL PRE-ASSIGNMENT SECTION HEADING`: A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
 
 1. `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A REQUIREMENT/USER STORY.` with your own requirement, then add any additional numbered requirement items.
 
-1. `#### CUSTOM ASSIGNMENT HEADING`: *Optional*. A heading that describes the assignment content that follows. This can be useful for breaking up an assignment into multiple lists of instructions.
+1. `#### CUSTOM ASSIGNMENT HEADING`: A heading that describes the assignment content that follows. This can be useful for breaking up an assignment into multiple lists of instructions.
 
 1. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
-1. `### POST-ASSIGNMENT SECTION HEADING`: *Optional*. A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
+1. `### OPTIONAL POST-ASSIGNMENT SECTION HEADING`: A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
 
 ## Headings
 
