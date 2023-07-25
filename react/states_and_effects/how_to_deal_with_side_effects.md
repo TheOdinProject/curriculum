@@ -1,6 +1,6 @@
 ### Introduction
 
-Certain components in React need to interact with things outside itself. These things can be anything from querying data from a server to finding/changing position of the component on the webpage or even sending some data to a server when necessary. This interaction with the _outside world_ is called a side-effect.
+Certain components in React need to interact with things outside themselves. These things can be anything from querying data from a server to finding/changing the position of the component on the webpage or even sending some data to a server when necessary. This interaction with the _outside world_ is called a side-effect.
 
 While we are already familiar with rendering code and adding event handlers, it is not enough for all uses, like when you want to connect to your server and fetch messages to show to a user. Effects let you run some code to synchronize your component as necessary, on rendering or a reactive/state value change rather than on a particular event.
 
@@ -63,11 +63,11 @@ But, it still keeps growing too fast! This is where another argument of the `use
 
 #### The dependency array
 
-By default, when an `useEffect` hook is used, it will run on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
+By default, `useEffect` hook runs on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
 
 Fortunately, the second argument accepts an array of dependencies allowing the hook to re-render **only when those dependencies are changed**. So if you have a state variable and want to have some side-effect occur any time the state changes, you can use this hook and mention the state variable in the dependency array.
 
-In this case, we can pass an empty array, as we do not want the `useEffect` hook to run anytime other than the initial component render.
+We pass an empty array in this example because we do not want the `useEffect` hook to run anytime other than the initial component render.
 
 ~~~jsx
 import React, { useEffect, useState } from "react";
@@ -88,7 +88,7 @@ export default function Clock() {
 ~~~
 
 <div class="lesson-note" markdown="1">
-Usually, you do not need to add dependencies to your useEffect hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
+Usually, you do not need to add dependencies to your `useEffect`hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
 
 ~~~jsx
 useEffect(() => {
@@ -109,7 +109,7 @@ useEffect(() => {
 
 Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
-Notice, that every time the useEffect hook runs, a new `setInterval` is used.  When the component is unmounted, this `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by simply clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
+Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by simply clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
 
 You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is run, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
 
@@ -152,7 +152,7 @@ useEffect(
 
 ### But do we need the effect?
 
-The reason is, they are a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems, like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are code-smell, error-prone, and cause unnecessary performance issues.
+`useEffect` is a mechanism outside the concepts that React usually applies, allowing you to sync your component with various external systems like a server, API, or browser DOM. The single question that you can ask yourself before you use an effect is if there are any such external systems that need to be synced with, apart from props or state. Unnecessary `useEffect` hooks are code-smell, error-prone, and cause unnecessary performance issues.
 
 Let us address a few cases where `useEffect` does not need to be used.
 
@@ -214,7 +214,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 *   You do not need an effect to reset the state based on a condition most of the time. You have learned about keys in React. Just like using a key on a list's item, adding one to a component, based on the state on which it should be reset creates a unique version of that component for each change in the value of the state.
 
-*   If you are having issues with managing your state and want to use an effect to update the state of a parent or some other non-child component, consider <span id="lifting-the-state">**lifting the state**.</span> As we know, in React, state flows in one direction, generally down the DOM. So the parents know of the data before passing it to the children. If multiple children are required to make use of a single state, it should be moved up to the parent that has all of the components that need it, instead of using escape hatches like an effect.
+*   If you are having issues with managing your state and want to use an effect to update the state of a parent or some other non-child component, consider <span id="lifting-the-state">**lifting the state**.</span> As we know, in React, the state flows in one direction, generally down the DOM. So the parents know of the data before passing it to the children. If multiple children are required to make use of a single state, it should be moved up to the parent that has all of the components that need it, instead of using escape hatches like an effect.
 
 ### Assignment
 
