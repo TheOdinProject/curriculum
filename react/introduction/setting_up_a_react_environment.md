@@ -111,7 +111,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 1. We import `React` itself, and its fellow `ReactDOM` package.
 1. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 1. We import some CSS styling (you may recognize this syntax from the Webpack material).
-1. We create a `root` object by invoking `React.createRoot` with an element from our `index.html`.
+1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and _much more_.
