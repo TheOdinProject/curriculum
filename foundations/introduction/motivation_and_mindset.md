@@ -58,7 +58,7 @@ You can practice this method of learning by helping others in our community.
 *   To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
 *   The Ruby Rogues have a [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
-*   100 Days of Code is a challenge that aspiring developers often use to start their coding journey, so consider checking out [its website](https://www.100daysofcode.com/) if you are looking for another way to stay motivated and inspire others. 
+
 ### What to Do When You're Stuck
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
