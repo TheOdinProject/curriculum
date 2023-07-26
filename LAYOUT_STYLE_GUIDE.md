@@ -10,7 +10,9 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 - Editable by any contributor.
 - Consistent across the TOP website.
 
-**Contents:**
+**A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
+
+## Table of Contents
 
 1. [Lesson layout](#lesson-layout)
 1. [Project layout](#project-layout)
@@ -24,7 +26,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Keyboard shortcuts](#keyboard-shortcuts)
 1. [Codepen embeds](#codepen-embeds)
 1. [Mermaid diagrams](#mermaid-diagrams)
-1. [English writing style](#english-writing-style)
+1. [Markdown styling](#markdown-styling)
 
 
 ## Layouts
@@ -505,6 +507,12 @@ To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.j
 
 This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram renders correctly with the lesson content before contributing.
 
-## English writing style
+## Markdown styling
 
-As a general note, TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
+While Markdown supports the use of both asterisks `*` and underscores `_` to make text bold or italic, asterisks should always be used.
+
+```markdown
+**This** is how *we* do things.
+
+__This__ is _not_ how we do things.
+```
