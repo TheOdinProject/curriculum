@@ -16,7 +16,7 @@ Managing and structuring state effectively is by far one of the most crucial par
 
 The assignment items go through the topic thoroughly, but as a general rule of thumb: don't put values in state that can be calculated using existing values, state, and/or props. 
 
-#### State should not be mutaded
+#### State should not be mutated
 
 Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_. For us to change state, we should always use the `setState` function.
 
