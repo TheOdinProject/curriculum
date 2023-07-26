@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should feel confident enough to start making your websites a little more accessible for a lot of users. In this lesson, you will learn how to check if you've correctly implemented your a11y features with the help of DevTools.
+Now that you are equipped with the necessary knowledge to make your websites more accessible to many users, the question arises: How can we verify the correct implementation of a11y features? Are there any mistakes to be corrected, or potential improvements to be made?  In this lesson, we will answer those questions to help push your a11y skills over the top.
 
 ### Learning outcomes
 
