@@ -13,6 +13,7 @@ Don't underestimate the importance of high quality documentation on your project
 Remember to write some documentation for both technical and non-technical audience.  A potential employer should be able to follow your documentation, regardless of their technical background.
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
+* Looking for a way to make your portfolio standout? Consider participating in open source projects. Check out this [Dev.to article](https://dev.to/opensauced/how-i-got-hired-contributing-to-open-source-projects-546i) to learn how joining the open source community can aid you in your job search.
 
 ### Show designs
 A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
