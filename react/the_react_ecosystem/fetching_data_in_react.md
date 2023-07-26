@@ -23,7 +23,7 @@ fetch("https://jsonplaceholder.typicode.com/photos", {
 })
   .then((response) => response.json())
   .then((response) => {
-    img.src = response[0].url;
+    image.src = response[0].url;
   })
   .catch((error) => console.error(error));
 ~~~
