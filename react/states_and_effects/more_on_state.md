@@ -18,9 +18,9 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State should not be mutated
 
-Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_. For us to change state, we should always use the `setState` function.
+Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_. For more information about state mutating check [Why is mutating state not recommended in React?](https://react.dev/learn/updating-objects-in-state#why-is-mutating-state-not-recommended-in-react)
 
-Make sure to run the following example locally and see the difference for yourself.
+In order for us to change state, we should always use the `setState` function. Make sure to run the following example locally and see the difference for yourself.
 
 ~~~jsx
 function Person() {
@@ -51,6 +51,7 @@ function Person() {
 }
 ~~~
 
+
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### Objects and arrays in state
@@ -58,7 +59,7 @@ function Person() {
 In the above example, notice how we _create_ a new object, and then copy the existing state values into the new object while providing a new value for `age`.
 That is because, besides the unpredictability that comes up from changing the state manually, if we don't provide a new object to `setState` it is not guaranteed to re-render the page, this is intentional for optimization. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
-As for nested objects and arrays as state can get tricky fast since you will have to replicate the nested items as well. Be careful when using them.
+As for nested objects and arrays, state can get tricky fast since you will have to replicate the nested items as well. Be careful when using them.
 
 </div>
 
@@ -151,7 +152,7 @@ const handleIncreaseAge = () => {
 
 When a callback is passed to the `setState` function, it ensures that the latest state is passed in as an argument to the callback. 
 
-Using an updater is not always necessary. If you want to change the state using your previous state, and you prefer consistency over verbosity then you might consider using an updater. [is using an updater always preffered?](https://react.dev/reference/react/useState#is-using-an-updater-always-preferred)
+Using an updater is not always necessary. If you want to change the state using your previous state, and you prefer consistency over verbosity then you might consider using an updater. [is using an updater always preferred?](https://react.dev/reference/react/useState#is-using-an-updater-always-preferred)
 
 <div class="lesson-note" markdown=1>
 
