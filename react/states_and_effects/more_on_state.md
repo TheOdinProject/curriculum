@@ -18,7 +18,7 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State should not be mutaded
 
-<span id="state-should-not-be-mutated"></span>Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_. For us to change state, we should always use the `setState` function.
+Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_. For us to change state, we should always use the `setState` function.
 
 Make sure to run the following example locally and see the difference for yourself.
 
@@ -55,7 +55,7 @@ function Person() {
 
 #### Objects and arrays in state
 
-<span id="state-objects-and-array"></span>In the above example, notice how we _create_ a new object, and then copy the existing state values into the new object while providing a new value for `age`.
+In the above example, notice how we _create_ a new object, and then copy the existing state values into the new object while providing a new value for `age`.
 That is because, besides the unpredictability that comes up from changing the state manually, if we don't provide a new object to `setState` it is not guaranteed to re-render the page, this is intentional for optimization. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
 As for nested objects and arrays as state can get tricky fast since you will have to replicate the nested items as well. Be careful when using them.
@@ -127,7 +127,7 @@ function Time() {
 
 #### State updater functions
 
-<span id="state-update-functions"></span>A trick question. Let's look another implementation of `handleIncreaseAge`; what do you think it does?
+A trick question. Let's look another implementation of `handleIncreaseAge`; what do you think it does?
 
 ~~~jsx
 const handleIncreaseAge = () => {
@@ -207,7 +207,7 @@ This section contains questions for you to check your understanding of this less
 - [Why should we always use `setState` to update our state?](#state-should-not-be-mutated)
 - [What does "state as a snapshot" mean?](#how-state-updates)
 - [What's the difference between passing a value vs a callback to the `setState` function?](#state-updater-functions)
-- [Why should we always provide a new Object to `setState`?](#state-objects-and-array)
+- [Why should we always provide a new Object to `setState`?](#objects-and-arrays-in-state)
 - [Why would you want to control a component?](#controlled-components)
 
 ### Additional resources
