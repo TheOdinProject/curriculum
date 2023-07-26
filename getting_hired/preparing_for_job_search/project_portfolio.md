@@ -4,7 +4,7 @@ You don't need a personal website right off the bat but it's good to have and it
 
 For this project, it's best for you to identify the personal websites of several people you admire and see what you think they've done right.  In general, it's best to keep your site simple, clean and to the point rather than bloated and full of "look what I can do!" features.  Let your portfolio of work speak for itself.
 
-* [Why Every Job Seeker Should Have a Personal Website](http://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/)
+* [Why Every Job Seeker Should Have a Personal Website](http://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/) 
 
 ### Documentation
 
@@ -13,8 +13,8 @@ Don't underestimate the importance of high quality documentation on your project
 Remember to write some documentation for both technical and non-technical audience.  A potential employer should be able to follow your documentation, regardless of their technical background.
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
-
-### Show Designs
+* If you're looking for other projects to present in your portfolio, consider participating in the open source community. It's a great way to practice the skills you've developed from our curriculum and gain real-world experience. Check out [this article](https://dev.to/opensauced/how-i-got-hired-contributing-to-open-source-projects-546i) to learn how open source can help you in your job search. 
+  
 A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
 
 <details markdown="block">
