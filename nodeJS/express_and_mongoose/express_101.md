@@ -22,8 +22,6 @@ This step of the MDN tutorial mentions middleware, but does not clearly define i
 
 For example, you might have a logger (that prints details of the request to the console), an authenticator (that checks to see if the user is logged in, or otherwise has permission to access whatever they're requesting) and a static-file server (if the user is requesting a static file then it will send it to them). All of these functions will be called in the order you specify every time there's a request on the way to your `app.get("/")` function.
 
-It is possible and common to write your own middleware functions (you'll be doing that later) so let's take a minute to demystify what they're actually doing. Middleware functions are just plain JavaScript functions with a specific function signature (that is, it takes a specific set of arguments in a specific order). You've actually already seen it!
-
 The three middleware function arguments are: `req`, `res`, and `next`. Technically, these are just variables, so you could call them anything, but convention (and the express documentation) almost always give them these names.
 
 #### A middleware function:
