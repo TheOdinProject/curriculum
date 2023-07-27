@@ -1,3 +1,9 @@
+### Introduction
+
+While manipulating individual values is quite straightforward, what if we have a large number of them? Handling each value one by one can quickly become tedious and inefficient, if not impossible. That's where arrays and loops come in.
+
+In this lesson, you'll learn about arrays. You can think of them as a single container that can hold many values at once. You'll also learn about loops, which let you to repeatedly run the same piece of code. Finally, you'll be introduced to Test-Driven Development (TDD), a practice of writing tests for your code before you even write the code.
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
