@@ -72,7 +72,7 @@ This is not necessary, but it *does* point toward another very useful capability
 }
 ~~~
 
-This is not something we're going to focus on in this lesson, but it may be something you want to consider taking advantage of in some cases. It's fairly common to change some colors (i.e. make things black/white), and add `display: none` to hide elements that are useless in a printed environment (buttons, nav links, etc).
+This is not something we're going to focus on in our curriculum, but it may be something you want to consider taking advantage of in some cases. It's fairly common to change some colors (i.e. make things black/white), and add `display: none` to hide elements that are useless in a printed environment (buttons, nav links, etc).
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
