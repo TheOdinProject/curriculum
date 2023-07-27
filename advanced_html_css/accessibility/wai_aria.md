@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lessons you learned several ways to make websites more accessible. Those lessons, however, were just the tip of the accessible iceberg. WAI-ARIA introduces attributes that can help make websites even more accessible by modifying the semantics and context of elements, which can give you greater control over how those elements are perceived by assistive technologies. Because this subject can get so complicated, we're only going to cover two attributes that you can get *a lot* of use from.
+In the previous lessons, you learned several ways to make websites more accessible. Those lessons, however, were just the tip of the accessible iceberg. WAI-ARIA introduces attributes that can help make websites even more accessible by modifying the semantics and context of elements, which can give you greater control over how those elements are perceived by assistive technologies. Because this subject can get so complicated, we're only going to cover two attributes that you can get *a lot* of use from.
 
 ### Learning outcomes
 By the end of this lesson, you should be able to:
@@ -27,7 +27,7 @@ When you use ARIA, you will usually have to take additional steps to add in any 
 
 #### The five rules of ARIA
 
-ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that **no ARIA is better than bad ARIA**, even when you have the best intentions. The WCAG have something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
+ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that **no ARIA is better than bad ARIA**, even when you have the best intentions. The WCAG has something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
 
 1. Always use native HTML elements and attributes over ARIA when possible.
 
@@ -58,15 +58,15 @@ When using such ARIA attributes, you would provide an `id` to one element, and y
 
 #### `aria-label`
 
-The `aria-label` attribute overrides any native label and modifies the name property in the accessibility tree, though it's best used when an element doesn't already have a native label. When you add `aria-label` to an element, you pass in a string as the value, which will become that elements accessible name. `aria-label` doesn't work on every HTML element, though. Adding the attribute to a plain `<div>` or a `<span>` will have no effect, for example.
+The `aria-label` attribute overrides any native label of an element and modifies its name property in the accessibility tree. It is best used when an element doesn't already have a native label. When added, the string value of the `aria-label` attribute  becomes the element's accessible name. **However**, [`aria-label` does not have any effect on some HTML elements](https://github.com/w3c/aria/issues/756), such as `<div>` or a `<span>`. 
 
-A common use for this attribute can be for the "close" button often seen in menus or modals:
+A common use for `aria-label` can be found in the "close" buttons of menus or modals:
 
 ~~~html
 <button type='button' aria-label='Close menu'>X</button>
 ~~~
 
-Instead of a screen reader announcing, "X, button", which wouldn't make any sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our Semantic HTML lesson gets another shoutout... again!):
+Instead of a screen reader announcing, "X, button", which makes little sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our [Semantic HTML](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-semantic-html) lesson gets another shoutout... again!):
 
 ~~~html
 <nav aria-label='main navigation'>...</nav>
@@ -74,13 +74,13 @@ Instead of a screen reader announcing, "X, button", which wouldn't make any sens
 
 Once a screen reader reaches the above HTML, it would announce "Main navigation, navigation landmark". If you had multiple navigation elements on a page, you could give each a different `aria-label` value in order to separate them from one another, making them more understandable for screen reader users. Pretty neat, huh?
 
-One thing you should avoid using `aria-label` for is trying to change how a word is phonetically announced. Certain words may not get announced correctly by a screen reader, and you may have a temptation to try and fix this. To put it simply: **don't**. You may end up fixing how a word is announced by a screen reader, but that "fix" could end up making no sense when announced by other assistive technologies like a braille reader.
+**Do not** use `aria-label` to change how a word is phonetically announced. Certain words may not get announced correctly by a screen reader, and you may have a temptation to try and fix this. You may end up fixing how a word is announced by a screen reader, but that "fix" could end up making no sense when announced by other assistive technologies like a [braille](https://en.wikipedia.org/wiki/Braille) reader.
 
 #### `aria-labelledby`
 
-The `aria-labelledby` attribute overrides both native labels as well as the `aria-label` attribute. When you use this attribute, the accessible name of the labeled element (the one with the `aria-labelledby` attribute) has its accessible name changed to a concatenated string of the text contents or `alt` attributes of the labeling elements (the ones whose `id` are passed in). 
+The `aria-labelledby` attribute overrides both the native label and the `aria-label` attribute. `aria-labelledby` changes an element's accessible name (created by `aria-labelledby`) to a concatenated string of the text contents or `alt` attributes of the labeling elements (the ones whose `id` are passed in). 
 
-What's great about `aria-labelledby` is that you can pass in any number of `id` references, and you can even have an element reference itself. One thing to keep in mind, though, is that you can't pass in the same reference multiple times, as any subsequent references after the first will be ignored.
+The great thing about `aria-labelledby` is that not only can you pass in any number of `id` references, but you can also have an element reference itself. Keep in mind that you can't pass in the same reference multiple times, because any subsequent references after the first will be ignored.
 
 ~~~html
 <!-- Here's the labelling element -->
@@ -123,7 +123,7 @@ When the `<input>` element receives focus, a screen reader would announce, "Pass
 
 ### Hiding content from the accessibility tree
 
-Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display` and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible for sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
+Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display` and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible to sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
 ~~~html
 <!-- Example 1 -->
@@ -161,6 +161,6 @@ This section contains helpful links to other content. It isn’t required, so co
 
 * [An in-depth guide to ARIA roles](https://www.a11yproject.com/posts/2020-08-20-an-indepth-guide-to-aria-roles/#landmark-roles) goes over an ARIA attribute that alters the semantics of elements, which can allow you to create custom inputs, buttons, and more. Just keep in mind rule number one of the ARIA rules!
 * [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies. A word of warning if you decide to dive into this topic: the `assertive` live region may not work in the JAWS and NVDA screen readers, but the `role="alert"` attribute, which has an implicit live region of assertive, should.
-* [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc) is a 30 minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
-- [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=6) is another 30 minute video that covers some things mentioned in the previous lessons, but it also covers the accessibility tree, ARIA, and if you still need to be convinced, why using semantic HTML is important.
+* [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc) is a 30-minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
+- [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=6) is another 30-minute video that covers some things mentioned in the previous lessons, but it also covers the accessibility tree, ARIA, and if you still need to be convinced, why using semantic HTML is important.
 
