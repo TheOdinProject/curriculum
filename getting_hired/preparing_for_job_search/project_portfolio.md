@@ -1,6 +1,6 @@
 ### Introduction
 
-You don't need a personal website right off the bat but it's good to have and it's a fun project to test your skills with.  In the simplest case, it's a direct conduit to you for anyone searching and another way to craft your narrative.  It doesn't have to be elaborate at all.  If you hate writing, don't blog.  But you need to be a real person.  Showcase your work.  Geek out.
+You don't need a personal website right off the bat but it's good to have and it's a fun project to test your skills with.  In the simplest case, it's a direct conduit to you for anyone searching and another way to craft your narrative.  It doesn't have to be elaborate at all.  If you hate writing, don't blog.  But you need to be a real person.  Showcase your work.Geek out.
 
 For this project, it's best for you to identify the personal websites of several people you admire and see what you think they've done right.  In general, it's best to keep your site simple, clean and to the point rather than bloated and full of "look what I can do!" features.  Let your portfolio of work speak for itself.
 
@@ -13,8 +13,6 @@ Don't underestimate the importance of high quality documentation on your project
 Remember to write some documentation for both technical and non-technical audience.  A potential employer should be able to follow your documentation, regardless of their technical background.
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
-* Looking for a way to make your portfolio standout? Consider participating in open source projects. Check out this [Dev.to article](https://dev.to/opensauced/how-i-got-hired-contributing-to-open-source-projects-546i) to learn how joining the open source community can aid you in your job search.
-
 ### Show designs
 A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
 
