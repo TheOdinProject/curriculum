@@ -57,9 +57,9 @@ function Person() {
 #### Objects and arrays in state
 
 In the above example, notice how we _create_ a new object, and then copy the existing state values into the new object while providing a new value for `age`.
-That is because, besides the unpredictability that comes up from changing the state manually, if we don't provide a new object to `setState` it is not guaranteed to re-render the page, this is intentional for optimization. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
+That is because, besides the unpredictability that comes up from changing the state manually, if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
-As for nested objects and arrays, state can get tricky fast since you will have to replicate the nested items as well. Be careful when using them.
+As for nested objects and arrays, state can get tricky fast since you will have to copy the nested items as well. Be careful when using them.
 
 </div>
 
