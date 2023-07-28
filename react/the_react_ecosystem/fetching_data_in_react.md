@@ -9,7 +9,7 @@ In this lesson, we'll explore the ins and outs of fetching data in React, starti
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand how to make fetch requests in React components.
-- Catching and handling errors.
+- Caching and handling errors.
 - Lifting requests up the component hierarchy.
 
 ### A basic fetch request
@@ -251,4 +251,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [TanStack Query documentation](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as catching.
+- [TanStack Query documentation](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.
