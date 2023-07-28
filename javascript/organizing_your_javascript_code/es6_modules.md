@@ -64,7 +64,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
-- Take a moment to look at the docs for [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
+- Take a moment to look at the [MDN documentation about the import deceleration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and the [MDN documentation about the export deceleration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) which give great examples for the different syntax on import and export.
 
 Of course, the import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
 
@@ -130,7 +130,7 @@ document.body.appendChild(component());
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
 <span id="exports-knowledge-check"></span> 
-There are 2 different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. As a general rule if you want to export multiple functions use named exports with this pattern:
+There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. Make sure to read [the documentation](#es6-modules-finally) to understand the differences and when to use each, they really are the best resource for understanding the various uses of import and export.  Here is an example of use named exports which you will most often use with multiple values from a module:
 
 ~~~javascript
 // a file called myModule.js
@@ -152,9 +152,6 @@ import {functionOne, functionTwo} from './myModule';
 
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 
-The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
-Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -170,3 +167,9 @@ This section contains questions for you to check your understanding of this less
 - [Describe how to write an npm automation script.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
 - [Explain one of the main benefits of writing code in modules.](#module-knowledge-check)
 - [Explain "named exports" and "default exports".](#exports-knowledge-check)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+- [A video about ESS6 Modules](https://youtu.be/cRHQNNcYf6s) if you find video lessons easier to absorb.
