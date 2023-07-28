@@ -64,9 +64,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
-- Take a moment to look at the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) which give great examples for the different syntax on import and export.
-
-Of course, the import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
+The import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
 
 ~~~javascript
 // a file called functionOne.js
@@ -130,7 +128,9 @@ document.body.appendChild(component());
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
 <span id="exports-knowledge-check"></span> 
-There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. Make sure to read [the documentation](#es6-modules-finally) to understand the differences and when to use each, they really are the best resource for understanding the various uses of import and export.  Here is an example of use named exports which you will most often use with multiple values from a module:
+There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting.vTake a moment to look at the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) which give great examples for the different syntax on import and export.
+
+Here is an example of use named exports which you will most often use when you have multiple values in a module to export:
 
 ~~~javascript
 // a file called myModule.js
