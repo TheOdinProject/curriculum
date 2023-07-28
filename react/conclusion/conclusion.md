@@ -12,6 +12,8 @@ Furthermore, you can dive into React meta frameworks. They're a framework for Re
 
 You're at a point in your React journey where you can begin learning about design patterns and architecture. [patterns.dev](https://www.patterns.dev/) is an exceptional resource that will help you build better React apps by leveraging powerful patterns. They are worth a bookmark!
 
+Before you move onto the next section. Fill out this [React course feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSdj_tNMp0LEz3ZLPqYcF67V11tX_CCJP3CTictPZzZ6XQm2Gw/viewform?usp=sf_link) to add your input and experience with the section. This helps us improve the section as well as the overall course and is greatly appreciated.
+
 ### Contribute
 
 The Odin Project wouldn’t exist if not for contributors sharing their precious time and resources. We'd love to hear your ideas and suggestions to improve the React course. You can share your thoughts over on our Discord or better yet, open an issue on the [The Odin Project's curriculum repository](https://github.com/TheOdinProject/curriculum/issues).
