@@ -228,10 +228,7 @@ In all of the code examples above, we added an artificial `delay` with the `setT
 
 We've only just begun to scratch the surface of data fetching on the frontend. Keeping your frontend data up-to-date with the server is a challenging task to accomplish. Managing "async" state becomes increasingly complex with each added feature.
 
-You've already tasted the complexity of data fetching in this lesson. Each request has to have a _minimum_ of three states to achieve an optimal user experience: `data`, `loading`, and `error`. There's a library called [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) that helps you with data fetching and more. It keeps track of all the necessary states for you and has built-in support for major features like caching.
-
-While Query is a great library to learn, however, we strongly suggest you stick to vanilla React data fetching for all the projects you build in this course. The lessons you will learn while doing so will be invaluable.
-
+You've already tasted the complexity of data fetching in this lesson. Each request has to have a _minimum_ of three states to achieve an optimal user experience: `data`, `loading`, and `error`. Although some libraries can help you with data fetching and more, it is highly recommended to use vanilla React data fetching for all the projects in this course. The lessons you will learn while doing so will be invaluable.
 
 ### Assignment
 
@@ -239,7 +236,6 @@ While Query is a great library to learn, however, we strongly suggest you stick 
 
 1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) for a brief overview of what was discussed in this lesson.
 2. Read [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
-
 
 </div>
 
@@ -255,4 +251,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [TanStack Query documentation](https://tanstack.com/query/latest/docs/react/overview)
+- [TanStack Query documentation](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as catching.
