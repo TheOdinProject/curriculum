@@ -9,7 +9,7 @@ In this lesson, we'll explore the ins and outs of fetching data in React, starti
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand how to make fetch requests in React components.
-- Caching and handling errors.
+- Catching and handling errors.
 - Lifting requests up the component hierarchy.
 
 ### A basic fetch request
