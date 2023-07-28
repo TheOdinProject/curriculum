@@ -1,8 +1,8 @@
 ### Introduction
 
-While manipulating individual values is quite straightforward, what if we have a large number of them? Handling each value one by one can quickly become tedious and inefficient, if not impossible. That's where arrays and loops come in.
+One of the challenges of programming is dealing with large amounts of data. For example, if you want to store the names of all the students in your class, how would you do it? You could create a variable for each name, but that would be tedious and inefficient, not to mention hard to manage and update. For example, what if you want to change or access the names later?
 
-In this lesson, you'll learn about arrays. You can think of them as a single container that can hold many values at once. You'll also learn about loops, which let you to repeatedly run the same piece of code. Finally, you'll be introduced to Test-Driven Development (TDD), a practice of writing tests for your code before you even write the code.
+Luckily, there is a better way to handle this problem. In this lesson, you’ll learn about arrays, which are data structures that can store multiple values in a single variable. Arrays are very useful for organizing and manipulating large amounts of data. You’ll also learn about loops, which are control structures that allow you to execute a block of code repeatedly. Loops are very handy for performing the same operation on each element of an array. Finally, you’ll also be introduced to a practice of writing tests for your code before you write the code itself, using a practice called Test-Driven Development (TDD).
 
 ### Lesson overview
 
