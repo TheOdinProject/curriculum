@@ -73,7 +73,7 @@ Execute `npm test App.test.js` on the terminal and you'll see that test pass. `g
 There are numerous ways a user can interact with a webpage. Even though live user feedback and interaction is irreplaceable, we can still build some confidence in our components through tests. Here's a button which changes the heading of the App:
 
 ~~~javascript
-// App.js
+// App.jsx
 
 import React, { useState } from "react";
 

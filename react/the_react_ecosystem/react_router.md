@@ -39,7 +39,7 @@ React Router is a standard routing library for React applications. By using Reac
 
 ### Adding a router
 
-Let's make a small app to understand how this router is implemented. Create a new React project and let's start by adding some mock pages as an example. Create a new `Profile.js` file with the following component:
+Let's make a small app to understand how this router is implemented. Create a new React project and let's start by adding some mock pages as an example. Create a new `Profile.jsx` file with the following component:
 
 ~~~jsx
 const Profile = () => {
@@ -54,7 +54,7 @@ const Profile = () => {
 export default Profile;
 ~~~
 
-Replace the `App.js` file with some basic content too:
+Replace the `App.jsx` file with some basic content too:
 
 ~~~jsx
 const App = () => {
@@ -82,7 +82,7 @@ Let us install the React Router package:
 
 `npm install react-router-dom`
 
-Add the following to `main.js`, we will talk about what is happening in a little bit.
+Add the following to `main.jsx`, we will talk about what is happening in a little bit.
 
 ~~~jsx
 import React from "react";
@@ -146,7 +146,7 @@ And now, we don't get the browser reloading every time we click the link on the 
 
 ### Nested routes, outlets and dynamic segments
 
-Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.js` and `Spinach.js`.
+Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
 
 ~~~jsx
 import { Link } from "react-router-dom";
@@ -390,7 +390,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ### Refactoring the routing
 
-But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them separate. Create a new `Router.js` component and move your routes to it.
+But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them separate. Create a new `Router.jsx` component and move your routes to it.
 
 ~~~jsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -417,7 +417,7 @@ const Router = () => {
 export default Router;
 ~~~
 
-So, we can simply add this `Router.js` component to the `index.js` file.
+So, we can simply add this `Router.jsx` component to the `main.jsx` file.
 
 ~~~jsx
 import React from "react";
