@@ -64,7 +64,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
-- Take a moment to look at the [MDN documentation about the import deceleration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and the [MDN documentation about the export deceleration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) which give great examples for the different syntax on import and export.
+- Take a moment to look at the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) which give great examples for the different syntax on import and export.
 
 Of course, the import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
 
