@@ -130,7 +130,7 @@ Easy! Now, if you run `npx webpack` in your project directory, your page should 
 <span id="exports-knowledge-check"></span> 
 There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. Take a moment to look at the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) which give great examples for the different syntax on import and export.
 
-Here is an example of with named exports, which you will most often use when you have multiple values to export in a module:
+Here is an example with named exports, which you will most often use when you have multiple values to export in a module:
 
 ~~~javascript
 // a file called myModule.js
