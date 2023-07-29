@@ -139,16 +139,18 @@ In the example above, we've also renamed the route for convenience by using an a
 ### Controllers, Models and Keeping Things RESTful
 
 Along with the advanced routing topics covered, it can also be helpful to think about controllers in Rails that don't necessarily have their own ActiveRecord model to work with. Consider that we have a request for the application so that a `lesson` can have accompanying `images`. That seems easy enough, so we can update our model:
-```rb
+
+~~~ruby
 # app/models/lesson.rb
 class Lesson < ApplicationRecord
   # other stuff
   has_many_attached :images
 end
-```
+~~~
 
 Then, we think about how we might want to manage these images from the route and controller side. We might think of something like this at first:
-```rb
+
+~~~ruby
 # config/routes.rb
 resources :lessons do
   member do
@@ -156,20 +158,23 @@ resources :lessons do
     delete :remove_image
   end
 end
-```
+~~~
 
 Then we have accompanying methods in the `LessonsController` to process the images. This would work well enough, but when we think about Rails controllers as standalone concepts, we might choose to implement this feature differently. Consider this second approach to the implementation:
-```rb
+
+~~~ruby
 # config/routes.rb
 resources :lessons do
   resources :images, only: [:create, :delete]
 end
-```
+~~~
+
 Along with a new controller `Lessons::ImagesController` which looks like this:
-```rb
+
+~~~ruby
 # app/controllers/lessons/images_controller.rb
 module Lessons
-  class ImagesController << ApplicationController
+  class ImagesController < ApplicationController
     def create
       # logic to attach images to a course
     end
@@ -179,11 +184,15 @@ module Lessons
     end
   end
 end
-```
+~~~
 
-What we've done is made the implementation more RESTful, because we no longer have any custom non-RESTful actions, but in fact we have a whole new controller (that doesn't relate to its own model!) to handle these actions. You'll  notice that we've used a nested controller here to provide clues to the next developer of our intention. We are able to stick to the REST actions to describe what we are doing: *creating* a new image attachment, or *destroying* an image for a lesson. In fact, if you think about it, this was implicit in our original attempt: `attach_image` and `remove_image` follow the `<action>_<noun>` pattern, which might be a signal we could use another resource. By keeping our actions in the RESTful realm, it can become easy to extend the application. It also makes it easier to understand what is happening with the application without having to do a lot of digging around.
+What we've done is made the implementation more RESTful, because we no longer have any custom non-RESTful actions. Instead, we have a whole new (RESTful) controller. This controller doesn't relate to its own model to handle these actions, but works on the `Lesson` model. Not only that, by using a new controller we are able to stick to the REST actions to describe what we are doing: *creating* a new image attachment, or *destroying* an image for a lesson.
 
-When we can think beyond the controller/model coupling in Rails, it can open the door to many possibilitieses. You could have a controller tied to a specific attribute of a model, even! There is an excellent talk called "In Relentless Pursuit of REST" in the additional resources section that is highly recommended.
+In fact, if you think about it, this was implicit in our original attempt: `attach_image` and `remove_image` both follow the `<action>_<noun>` pattern, which might be a signal we could use another resource. We've also used a nested controller here to provide a clue to the next developer of our intention. By keeping our actions in the RESTful realm, it can become easy to extend the application. Keeping things RESTful also makes it easier to understand what is happening without having to do a lot of digging around.
+
+When we can think beyond the controller/model coupling in Rails, it can open the door to many possibilities. You could have a controller tied to a specific attribute of a model, even!
+
+For more information and examples, there is an excellent talk by Derek Prior called "In Relentless Pursuit of REST" in the additional resources section that is highly recommended.
 
 ### Advanced Layouts: Nesting Layouts and Passing Information
 
