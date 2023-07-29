@@ -265,6 +265,66 @@ Once you have successfully met both of these requirements, you should be able to
 
 </details>
 
+<details markdown="block">
+<summary class="dropDown-header">WSL</summary>
+
+Windows Subsystem for Linux (usually abbreviated as WSL) lets you run a Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot.
+
+WSL is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+
+<div class="lesson-note">
+<h4>WSL and Linux instructions</h4>
+Because WSL is a full fledged Linux distrubtion, almost everything that the curriculum teaches about Linux is also applicable to WSL. In future lessons whenever there are instructions that differ by OS you should follow the Linux instructions, unless the lesson includes WSL specific instructions.
+</div>
+
+### Step 1: Installations
+
+#### Step 1.1: WSL and Hyper-V
+
+If you've previously used another software to run a virtual machine, such as Oracle VirtualBox, you might have turned off Hyper-V to improve performance of the virtual machine.
+
+Hyper-V is required to get WSL to work however, so in order to use it you'll first have to re enable Hyper-V, which may interfere with existing installations.
+
+- Search for Control Panel in your applications, and open it
+- Select **Programs**
+- Select **Turn Windows Features on or off** (under the Programs and Features header)
+- Select **Hyper-V**, toggle the checkbox to checked, and click **OK**
+- When prompted, restart your computer
+
+#### Step 1.2: Installing WSL
+
+- Open PowerShell in administrator mode by searching for it in your applications, right clicking, and then selecting run as administrator
+- Enter the following command
+
+~~~powershell
+wsl --install
+~~~
+
+- After a few minutes you'll be prompted to enter a new username. This username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
+
+#### Step 1.3.1: Install Windows Terminal (Windows 10 only)
+
+Windows Terminal is an terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
+
+- Follow [Microsoft's guide](https://learn.microsoft.com/en-us/windows/terminal/install) to install Windows Terminal.
+
+#### Step 1.3.2: Setting WSL as default (Optional)
+
+Unless you are regularly using other terminals on your computer we recommend that you set WSL as the default terminal program when you open Windows Terminal. You can follow the [section on setting a default profile](https://learn.microsoft.com/en-us/windows/terminal/install#set-your-default-terminal-application) in the guide above to set it to Ubuntu.
+
+### Step 2 Opening WSL
+
+On Windows there are two primary ways to open WSL: either via the terminal or via the app icon.
+
+- If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL session by simply opening the terminal app.
+- If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; simply open it to start a new terminal session.
+
+<div class="lesson-note lesson-note--warning">
+When opening WSL ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL, and messing around there can have unintended consequences
+</div>
+
+</details>
+
 ### 2: Google Chrome Installation
 
 #### Why Google Chrome?
@@ -352,23 +412,23 @@ _(**note**: Chrome is going to use this terminal to output various messages and 
 
 #### Step 1: Download Google Chrome
 
--   Visit [Google Chrome download page](https://www.google.com/chrome/)
--   Click **Download Chrome**
+- Visit [Google Chrome download page](https://www.google.com/chrome/)
+- Click **Download Chrome**
 
 #### Step 2: Install Google Chrome
 
--   Open the **Downloads** folder
--   Double click the file **ChromeSetup.exe**
+- Open the **Downloads** folder
+- Double click the file **ChromeSetup.exe**
 
 #### Step 3: Delete the Installer File
 
--   Open the **Downloads** folder
--   Drag **ChromeSetup.exe** to the trash
+- Open the **Downloads** folder
+- Drag **ChromeSetup.exe** to the trash
 
 #### Step 4: Using Google Chrome
 
 - Search for **Google Chrome** in your applications
--   Double click **Google Chrome**
+- Double click **Google Chrome**
 
 </details>
 
