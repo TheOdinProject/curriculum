@@ -29,7 +29,7 @@ What would you expect the following text to output on an HTML page?
 </body>
 ~~~
 
-It looks like two paragraphs of text, and so you might expect it to display in that way. However that is not the case, as you can see in the output below:
+It looks like two paragraphs of text, and so you might expect it to display in that way. However, that is not the case, as you can see in the output below:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="xxrKqeV" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/xxrKqeV">
@@ -41,7 +41,7 @@ It looks like two paragraphs of text, and so you might expect it to display in t
 
 When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
 
-If we want to create paragraphs in HTML, <span id='create-paragraph-element'>we need to use the paragraph element</span>, which will add a newline after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+If we want to create paragraphs in HTML, <span id='create-paragraph-element'>we need to use the paragraph element</span>, which will add a new line after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
 
 Changing our example from before to use paragraph elements fixes the issue:
 
