@@ -2,7 +2,7 @@
 
 Here we go again with a new project! Let's make sure you understand the concepts so far. The main goal of this project is to concepts and hooks learned thus far to manage and utilize state while fetching and using data from an external API.
 
-### How The Game Works
+### How the game works
 
 Go play around [with this student's solution](https://heldersrvio.github.io/memory-card-game/) to find out for yourself how the Memory game works. Although this example uses cartoon characters, you can use anything you like for your game.
 

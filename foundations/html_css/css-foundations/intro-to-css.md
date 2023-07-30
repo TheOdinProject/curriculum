@@ -2,7 +2,7 @@
 
 In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some _style_, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or simply need a refresher.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -14,7 +14,7 @@ For a more interactive explanation and example, try the following Scrim (let us 
 
 <iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-### Basic Syntax
+### Basic syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
 
@@ -32,7 +32,7 @@ A `<div>` is one of the basic HTML elements. It is simply an empty container. In
 
 Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
-#### Universal Selector
+#### Universal selector
 
 The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
@@ -42,7 +42,7 @@ The universal selector will select elements of any type, hence the name "univers
 }
 ~~~
 
-#### Type Selectors
+#### Type selectors
 
 A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
 
@@ -65,7 +65,7 @@ div {
 
 Here, all three `<div>` elements would be selected, while the `<p>` element wouldn't be.
 
-#### Class Selectors
+#### Class selectors
 
 Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
@@ -87,7 +87,7 @@ Note the syntax for class selectors: a period immediately followed by the case-s
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
-#### ID Selectors
+#### ID selectors
 
 ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have **one** ID. It cannot be repeated on a single page and should not contain any whitespace:
 
@@ -107,7 +107,7 @@ ID selectors are similar to class selectors. They select an element with the giv
 
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
-#### The Grouping Selector
+#### The grouping selector
 
 What if we have two groups of elements that share some of their style declarations?
 
@@ -145,7 +145,7 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 
 Both of the examples above (with and without grouping) will have the same result, but the second example reduces the repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
 
-#### Chaining Selectors
+#### Chaining selectors
 
 Another way to use selectors is to chain them as a list without any separation. Let's say we had the following HTML:
 
@@ -191,7 +191,7 @@ You can take the two elements above and combine them with the following:
 
 In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
-#### Descendant Combinator
+#### Descendant combinator
 
 Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc) that matches the previous selector.</span>
 
@@ -224,7 +224,7 @@ In the above example, the first two elements with the `contents` class (B and C)
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
-### Order Matters!
+### Order matters!
 
 When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
 
@@ -246,11 +246,11 @@ When two selectors have the same level of specificity, the rule that is defined 
 
 In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
 
-### Properties to Get Started With
+### Properties to get started with
 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will simply be enough to help get you started.
 
-#### Color and Background-Color
+#### Color and background-color
 
 The `color` property sets an element's text color, while `background-color` sets, well, the background color of an element. I guess we're done here?
 
@@ -275,7 +275,7 @@ p {
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
-#### Typography Basics and Text-Align
+#### Typography basics and text-align
 
 `font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `sans-serif` (generic family names never use quotes).
 
@@ -287,7 +287,7 @@ If a browser cannot find or does not support the first font in a list, it will u
 
 `text-align` will align text horizontally within an element, and you can use the common keywords you may have come across in word processors as the value for this property, e.g. `text-align: center`.
 
-#### Image Height and Width
+#### Image height and width
 
 Images aren't the only elements that we can adjust the height and width on, but we want to focus on them specifically in this case.
 
@@ -396,7 +396,7 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -407,7 +407,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#adding-css-to-html">What are the names of the three ways to add CSS to HTML?</a>
 - <a class="knowledge-check-link" href="#external-css">What are the main differences between the three ways of adding CSS to HTML?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

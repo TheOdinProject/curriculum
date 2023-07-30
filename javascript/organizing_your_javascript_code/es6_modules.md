@@ -4,7 +4,7 @@ Separate from the __module pattern__ that we discussed in an earlier lesson, "mo
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__, which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain one of the main benefits of writing code in modules.
 - Explain "named" exports and "default" exports.
 
-### The History of JavaScript
+### The history of JavaScript
 
 Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions... with good answers.
 
@@ -60,7 +60,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
-### ES6 Modules (finally!)
+### ES6 modules (finally!)
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
@@ -155,7 +155,7 @@ Using this pattern gives you the freedom to only import the functions you need i
 The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
 Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

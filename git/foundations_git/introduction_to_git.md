@@ -20,7 +20,7 @@ Finally, you will set up a project with Git that will serve as a template for yo
 
 For now, let's learn what Git is and why it's so powerful!
 
-### Lesson Overview:
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -39,7 +39,7 @@ This section contains a general overview of topics that you will learn in this l
   5.  Take a look at The Odin Project's very own [GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all our [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -50,7 +50,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=2ReR1YJrNOM">Why is Git useful for developers?</a>
 *   <a class="knowledge-check-link" href="https://youtu.be/1h9_cB9mPT8?t=162">Why are Git and GitHub useful for a team of developers?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

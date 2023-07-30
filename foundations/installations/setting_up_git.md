@@ -23,7 +23,7 @@ sudo apt update
 sudo apt upgrade
 ~~~
 
-#### Step 1.2: Install git
+#### Step 1.2: Install Git
 
 You likely have `git` installed already, but to make sure that we have the most up to date version of git, run the following commands:
 
@@ -35,7 +35,7 @@ sudo apt install git
 
 #### Step 1.3: Verify version
 
-Make sure your git version is **at least** 2.28 by running this command:
+Make sure your Git version is **at least** 2.28 by running this command:
 
 ~~~bash
 git --version
@@ -76,7 +76,7 @@ This will install the latest version of Git. Easy, right?
 
 If you have just installed and/or updated Git from the previous step, first close that terminal window.
 
-**Open a new terminal window** and then make sure your git version is **at least** 2.28 by running this command:
+**Open a new terminal window** and then make sure your Git version is **at least** 2.28 by running this command:
 
 ~~~bash
 git --version
@@ -101,7 +101,7 @@ You will need to install Git from the source by following the instructions from 
 
 ### Step 2: Configure Git and GitHub
 
-#### Step 2.1: Create a GitHub Account
+#### Step 2.1: Create a GitHub account
 
 Go to [GitHub.com](https://github.com/) and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don't want your email address to be publicly available, make sure you tick the following two boxes on the [Email Settings](https://github.com/settings/emails) page after you have signed in:
 
@@ -153,14 +153,14 @@ git config --get user.name
 git config --get user.email
 ~~~
 
-**macOS Users:** Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits.
+**macOS Users:** Run these two commands to tell Git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits.
 
 ~~~bash
 echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ~~~
 
-#### Step 2.3: Create an SSH Key
+#### Step 2.3: Create an SSH key
 
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
@@ -183,7 +183,7 @@ ssh-keygen -t ed25519 -C <youremail>
 * When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
 
-#### Step 2.4: Link Your SSH Key with GitHub
+#### Step 2.4: Link your SSH key with GitHub
 
 Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
@@ -211,7 +211,7 @@ You've completed the basic installations section, good job! As you progress thro
 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

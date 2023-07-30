@@ -11,17 +11,17 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 
 In order to run these functions you'll need to run it from somewhere. You can run scripts from the command line using the node command installed with nodejs. You can read about the common ways to do this [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md).
 
-#### Understanding Recursive Fibonacci
+#### Understanding recursive Fibonacci
 
 Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) is also very helpful!
 
-### Project: Merge Sort
+### Project: merge sort
   
 Sorting algorithms are a great way to get to grips with recursion.  One such algorithm is [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than other algorithms such as bubble sort on the right data sets.  You'll build a function which sorts a given array but uses a "merge sort" function for doing so.
 
 It can be a bit strange to wrap your head around, but just remember you're "dividing and conquering" the problem.
 
-### Background Viewing
+### Background viewing
 
 The first step is to actually understand what the merge sort algorithm is doing:
 
@@ -38,7 +38,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
       2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)

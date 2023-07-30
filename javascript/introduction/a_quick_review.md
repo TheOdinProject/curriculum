@@ -8,7 +8,7 @@ Running through "part 1" of [MDN's JavaScript basics course](https://developer.m
 
 It might also be a good idea to do a little practicing before moving on. If you want something fresh to work on, now would be a fine time to do some coding exercises from across the net. The following sites are all great places to look.
 
-- [Exercism](http://exercism.io/)
+- [Exercism](http://exercism.org/)
 - [CodeWars](https://www.codewars.com/)
 - [w3schools](https://www.w3schools.com/js/default.asp)
 

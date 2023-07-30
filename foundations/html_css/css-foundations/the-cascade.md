@@ -2,7 +2,7 @@
 
 In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS - the cascade.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 *   Specificity and combining CSS selectors.
 *   How inheritance affects certain properties.
 
-### The Cascade of CSS
+### The cascade of CSS
 
 Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
 
@@ -79,14 +79,14 @@ In the example above, despite rule 2 having more class selectors than ID selecto
 
 ~~~css
 /* rule 1 */
-#subsection .list {
+#subsection {
   background-color: yellow;
   color: blue;
 }
 
 /* rule 2 */
-#subsection .main .list {
-  color: red;
+.main #subsection {
+ color: red;
 }
 ~~~
 
@@ -168,7 +168,7 @@ The exception to this is when directly targeting an element, as this always beat
 
 Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
 
-#### Rule Order
+#### Rule order
 
 The final factor, the end of the line, the tie-breaker of the tie-breaker. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
@@ -202,13 +202,13 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 *   <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

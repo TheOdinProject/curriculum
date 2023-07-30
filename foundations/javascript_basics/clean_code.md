@@ -9,7 +9,7 @@ Test out these ideas and try to incorporate them into your thought process while
 
 With that out of the way, let's get started!
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -54,7 +54,7 @@ sumArray([2, 2, 2]);
 
 Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task \(in the exact same way!\), and both are valid code. But the second one is much more readable. Why?
 
-In the first example, single-letter variables are used, there is a semicolons in the middle of lines, and the indentation is inconsistent. The result is a piece of code that is confusing and messy. 
+In the first example, single-letter variables are used, there is a semicolon in the middle of lines, and the indentation is inconsistent. The result is a piece of code that is confusing and messy. 
 
 Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself some time ago and completely forgot that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be fun.
 
@@ -74,7 +74,7 @@ In our first example we already touched on the importance of naming things _mean
 
 #### A good name is descriptive
 
-In our good example the we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean and understandable.
+In our good example we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean and understandable.
 
 Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, `w` and `q`. Uuf, not nice.
 
@@ -150,7 +150,7 @@ You might wonder why this variable is declared with all caps, when we have recom
 
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
-What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the Additional Resouces.
+What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the additional resources.
 
 #### Line length
 
@@ -252,7 +252,7 @@ In the better example, the comment clarifies the purpose of the function: moving
 
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
-_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assingment section goes into more depth on this. We don't want your to avoid comments, just be mindful of how they are best used.
+_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
 
 Let's look at a one final example, where a comment serves a good purpose:
 
@@ -273,7 +273,7 @@ This comment helps to refresh the reader on how BMI is calculated in plain Engli
 
 Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, everyone does it sometimes. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
-Learning to write clean code is an process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
+Learning to write clean code is a process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
 
 
 ### Assignment
@@ -284,7 +284,7 @@ Learning to write clean code is an process of constant improvement. One that wil
 2.  [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -292,7 +292,7 @@ This section contains questions for you to check your understanding of this less
 - [Name 5 clean code principles previously mentioned](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 - [What is the difference between good comments and bad comments?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

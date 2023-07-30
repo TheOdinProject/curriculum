@@ -2,7 +2,7 @@
 
 Emmet is a plugin, built into VS Code, that helps you write HTML and CSS more efficiently by providing a bunch of clever shortcuts. By now, you have written a good amount of HTML and CSS, and if you have been using VS Code there's a big chance that you have already encountered Emmet in some way.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -45,7 +45,7 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -55,7 +55,7 @@ This section contains questions for you to check your understanding of this less
 -   [What syntax expands to an element with a child element inside of it? For example: `<div><p></p></div>`](https://docs.emmet.io/cheat-sheet/)
 -   [What syntax would you use to create three elements that have the same class name?](https://docs.emmet.io/cheat-sheet/)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

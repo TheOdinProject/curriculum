@@ -1,14 +1,14 @@
 ### Introduction
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
 - Explain what tightly coupled code is
 - Describe a pure function and how it relates to TDD
 - Explain what mocking is
   
-### Pure Functions
+### Pure functions
 
 There are _many_ benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how _tightly coupled_ everything is.  <span id='tightly-coupled-code'>All of your functions include references to functions in other parts of your code, and the whole thing is _filled_ with DOM methods or `console.log()`</span>.  
 
@@ -72,7 +72,7 @@ If we had written this program with TDD it is very likely that it would have loo
 6. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://jestjs.io/docs/webpack).
 </div>
 
-### Knowledge Check 
+### Knowledge check 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What is tightly coupled code?](#tightly-coupled-code)

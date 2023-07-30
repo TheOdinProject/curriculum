@@ -1,6 +1,6 @@
-### Introduction 
+### Introduction
 
-Think of your favorite messaging app - Discord, Telegram, WhatsApp, Facebook Messenger, AOL Instant Messenger, etc. - and imagine what it would be like if you could build your own. This project will give you a chance to do just that. You'll be building a web app that allows users to send messages to each other. 
+Think of your favorite messaging app - Discord, Telegram, WhatsApp, Facebook Messenger, AOL Instant Messenger, etc. - and imagine what it would be like if you could build your own. This project will give you a chance to do just that. You'll be building a web app that allows users to send messages to each other.
 
 ### Assignment
 
@@ -14,10 +14,10 @@ Think of your favorite messaging app - Discord, Telegram, WhatsApp, Facebook Mes
 1. Start building your app by implementing the core functionality in your backend and frontend.
 1. Deploy your app to the web and showcase it in the submissions below as well as on our Discord. We'd love to see what you've built!
 
-#### Extra Credit
+#### Extra credit
 
-*  Allow sending images in chat
-*  Add a friends list that users can add other users to and see when someone is online (alternative: "Add a users list to show which user's are currently online"; same thing except maybe a step or two less since it doesn't require adding a friend)
+* Allow sending images in chat
+* Add a friends list that users can add other users to and see when someone is online (alternative: "Add a users list to show which user's are currently online"; same thing except maybe a step or two less since it doesn't require adding a friend)
 * Allow users to create and send messages in group chats
 
 </div>

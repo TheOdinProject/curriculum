@@ -2,12 +2,12 @@
 
 Browsers, by default, inject a little bit of style into your web projects. You may not have thought about this specifically, but you  have definitely encountered it.
 
-### Learning Outcomes
+### Learning outcomes
 
 -   You'll learn about default browser styles
 -   You'll learn how to use a CSS reset to remove, or change those default styles
 
-### Default Styles
+### Default styles
 
 When you did the first [HTML Recipes project](https://www.theodinproject.com/lessons/foundations-recipes), you would have noticed that some elements already have a little bit of style applied to them. An `h1`, for instance, is bigger and bolder than regular text. Links (`a`) are blue and underlined. Lists (`ul` and `ol`) both have a bunch of padding surrounding them. Browsers accomplish this by inserting a little bit of CSS into every webpage. ([Here is Chrome's default HTML stylesheet](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/html.css))
 
@@ -28,13 +28,13 @@ You don't _have_ to use a CSS reset. In many cases you're going to end up undoin
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 -   [Why would you want to use a CSS reset?](#default-styles)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

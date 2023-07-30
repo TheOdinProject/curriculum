@@ -2,7 +2,7 @@
 
 Knowing how to use the Developer Tools inside your browser is an important skill for any web developer. The Developer Tools are useful for running JavaScript code, editing HTML and CSS styles without having to refresh the page, and viewing performance data. They also save you lots of time. Getting started couldn't be any easier. You should already be familiar with using them for debugging and working on HTML and CSS, so let's take a look at how they can benefit us when writing JavaScript.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -19,9 +19,9 @@ This section contains a general overview of topics that you will learn in this l
 *  Enable or Disable CSS Classes
 *  Simulate media queries in Device Mode
 
-### Opening Dev Tools
+### Opening DevTools
 
-There are three ways to open the Chrome Developer Tools menu:
+There are three ways to open the Chrome DevTools menu:
 
 1.  From the `Chrome Menu` > `More Tools` > `Developer Tools`
 2.  Right-click anywhere on a webpage and select `Inspect`
@@ -48,17 +48,17 @@ Google has updated some of the required sections in the below tutorials and some
 
 </div>
 
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
--  Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
-
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   [How do you open developer tools?](#opening-dev-tools)
-*   [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
-*   [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-*   [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)
+- [How do you open developer tools?](#opening-dev-tools)
+- [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
+- [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
+- [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos

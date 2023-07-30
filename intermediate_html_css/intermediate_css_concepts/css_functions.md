@@ -125,13 +125,13 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 2. Read [this great article](https://web.dev/min-max-clamp/) for a more in-depth look at `min`, `max`, and `clamp` in action, with animated examples.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 - [What are the four CSS math functions we covered above?](#function-names-knowledge-check)
 - [How do we use CSS math functions in our CSS?](#what-is-a-function-and-how-are-they-used-in-css)
 - [How can CSS functions help make websites and applications more responsive?](#responsive-design-knowledge-check)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

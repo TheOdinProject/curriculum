@@ -30,7 +30,7 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
   <div class="lesson-note" markdown="1">
 
-  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice._
+  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice.
 
   </div>
 
@@ -73,7 +73,7 @@ Execute `npm test App.test.js` on the terminal and you'll see that test pass. `g
 There are numerous ways a user can interact with a webpage. Even though live user feedback and interaction is irreplaceable, we can still build some confidence in our components through tests. Here's a button which changes the heading of the App:
 
 ~~~javascript
-// App.js
+// App.jsx
 
 import React, { useState } from "react";
 
@@ -129,7 +129,7 @@ describe("App component", () => {
 
 The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. 
 
-It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` jest function could prove handy.
+It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` Jest function could prove handy.
 
 Notice that the callback function for the second test is asynchronous. This is because `user.click()` simulates the asynchronous nature of user interaction, which is now supported by the latest version of the testing library's user-event APIs. 
 As of [version 14.0.0](https://github.com/testing-library/user-event/releases/tag/v14.0.0), the user-event APIs have been updated to be asynchronous. It's worth noting that some examples from other resources or tutorials might still use the synchronous `userEvent.click()` method
@@ -191,7 +191,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 </div>
 
-### Knowledge Check 
+### Knowledge check 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -203,7 +203,7 @@ This section contains questions for you to check your understanding of this less
 * [What is the advantage of snapshot tests?](#advantage-snapshot-tests)
 * [What are the disadvantages of snapshot tests?](#disadvantage-snapshot-tests)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

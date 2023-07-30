@@ -1,6 +1,8 @@
 ### Introduction
 
-### Lesson Overview
+Congratulations on making it to one of the last lessons in Foundations! By this point, you have learned many of the fundamentals of JavaScript. In this lesson, you will learn about Objects - a collection of key-value pairs - as well as some more powerful and commonly used array methods. Before you know it, you'll have a better understanding of how powerful objects and arrays are and how both can be an indispensable part of your JavaScript tool kit!
+
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -16,7 +18,7 @@ Objects are a _very_ important part of the JavaScript language, and while for th
 1. [This JavaScript.info](https://javascript.info/object) article is the best place to get started with Objects.
 2. [The MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
-### Intermediate/Advanced Array Magic
+### Intermediate/advanced array magic
 
 Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways.  Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions... but as you'll soon see, the possibilities of what you can do with them are near endless.
 
@@ -40,7 +42,7 @@ Don't remember how to setup and test the exercises? No worries! Check out the [F
 Note: Solutions for these exercises can be found in the 'solutions' folder of each exercise.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -49,7 +51,7 @@ This section contains questions for you to check your understanding of this less
 * [What is `Array.prototype.map()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s)
 * [What is `Array.prototype.reduce()` useful for?](https://youtu.be/HB1ZC7czKRs?t=467)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
