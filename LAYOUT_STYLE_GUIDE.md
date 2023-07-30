@@ -223,6 +223,27 @@ Content before...
 
 ## Lists
 
+The Odin Project follows [Google's documentation style guide on lists](https://developers.google.com/style/lists#numbered-lettered-bulleted-lists).
+
+### Capitalization and end punctuation
+
+Capitalization and end punctuation depend on the type of list and the contents of the list.
+
+Generally, start each list item with a capital letter and end each list item with a period.
+
+~~~markdown
+- Use Git to make open-source contributions.
+- Understand how the Web works.
+- Explain what OOP principles are.
+~~~
+
+Do not use end punctuation in the following cases:
+
+- If the item consists of a single word, don't use end punctuation.
+- If the item doesn't include a verb, don't use end punctuation.
+
+For more detailed examples of the exceptions, refer to [Google's style guide on lists](https://developers.google.com/style/lists#capitalization-and-end-punctuation)
+
 ### Lazy numbering
 
 Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
