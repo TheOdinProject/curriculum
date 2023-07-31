@@ -36,7 +36,7 @@ myObject[variable] // this is equivalent to myObject['property'] and returns 'Va
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/lessons/foundations-fundamentals-part-5) from our JavaScript Basics course.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -49,9 +49,9 @@ This section contains a general overview of topics that you will learn in this l
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/scrim/co2624f87981575448091d5a2?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/scrim/co2624f87981575448091d5a2?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-### Objects as a Design Pattern
+### Objects as a design pattern
 
 One of the simplest ways you can begin to organize your code is by simply grouping things into objects. Take these examples from a 'tic tac toe' game:
 
@@ -100,7 +100,7 @@ function gameOver(winningPlayer){
 
 Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
-### Object Constructors
+### Object constructors
 
 When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:
 
@@ -153,7 +153,7 @@ Note: It is almost _always_ best to `return` things rather than putting `console
 console.log(theHobbit.info());
 ~~~
 
-### The Prototype
+### The prototype
 
 Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. Stated simply, the `prototype` is another object that the original object _inherits_ from, which is to say, the original object has access to all of its `prototype`'s methods and properties.
 
@@ -185,14 +185,14 @@ Now, to understand this code, let's use the three points from earlier:
 1. **All objects in JavaScript have a `prototype`**:
    - You can check the object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function on the object, like `Object.getPrototypeOf(player1)`.
    - The return value (result) of this function refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
-1. **The prototype is another object**: 
-   - The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object. 
+1. **The prototype is another object**:
+   - The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object.
    - The _reference_ to this value of `Player.prototype` is stored in every `Player` object, every time a `Player` object is created.
    - Hence, you get a `true` value returned when you check the Objects prototype - `Object.getPrototypeOf(player1) === Player.prototype`.
-1. **...that the original object _inherits_ from, and has access to all of its prototype's methods and properties**: 
+1. **...that the original object _inherits_ from, and has access to all of its prototype's methods and properties**:
    - As said in the earlier point, every `Player` object has a value which refers to `Player.prototype`. So: `Object.getPrototypeOf(player1) === Object.getPrototypeOf(player2)` (returns `true`).
    - So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
-   
+
 The last sub-item needs a little more explanation. What does defining 'on the `prototype`' mean? Consider the following code:
 
 ~~~javascript
@@ -208,7 +208,7 @@ Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It
 
 #### Object.getPrototypeOf() vs. .__proto__ vs. [[Prototype]]
 
-Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. But however, the same code can thus be rewritten to become:
+Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. However, the same code can thus be rewritten to become:
 
 ~~~javascript
 // Don't do this!
@@ -220,23 +220,23 @@ In some places, like legacy code, you might also come across `[[Prototype]]`, wh
 
 This explanation about the `prototype` might have been a lot, so remember to take a breather before moving on!
 
-#### Prototypal Inheritance
+#### Prototypal inheritance
 
 Now, you may also have a question - what use is an object's `prototype`? What is the purpose of defining properties and functions on the `prototype`?
 
 We can narrow it down to two reasons:
 
 1. We can define properties and functions common among all objects on the `prototype` to save memory. Defining every property and function takes up a lot of memory, especially if you have a lot of common properties and functions, and a lot of created objects! Defining them on a centralized, shared object which the objects have access to, thus saves memory.
-1. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we know that can say that the `player1` or `player2` objects _inherit_ from the `Player.prototype` object, like with the `.sayHello` function, by being able to access it.
+1. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we can say that the `player1` and `player2` objects _inherit_ from the `Player.prototype` object, which allows them to access functions like `.sayHello`.
 
 Let's now try to do the following:
 
 ~~~javascript
-// Player.prototype.__proto__ 
+// Player.prototype.__proto__
 Object.getPrototypeOf(Player.prototype) === Object.prototype // true
 
 // Output may slightly differ based on the browser
-player1.valueOf() // Output: Object { name: "steve", marker: "X", sayName: sayName() } 
+player1.valueOf() // Output: Object { name: "steve", marker: "X", sayName: sayName() }
 ~~~
 
 What's this `.valueOf` function, and where did it come from if we did not define it? It comes as a result of `Object.getPrototypeOf(Player.prototype)` having the value of `Object.prototype`! This means that `Player.prototype` is inheriting from `Object.prototype`. This `.valueOf` function is defined on `Object.prototype` just like `.sayHello` is defined on `Player.prototype`.
@@ -267,7 +267,7 @@ Note:
 1. Every `prototype` object inherits from `Object.prototype` by default.
 1. An object's `Object.getPrototypeOf()` value can only be _one_ unique `prototype` object.
 
-#### Recommended Method for Prototypal Inheritance
+#### Recommended method for prototypal inheritance
 
 Now, how do you utilize Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, we can use `Object.setPrototypeOf()` to 'set' or mutate it. Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
 
@@ -289,8 +289,8 @@ Player.prototype.getMarker = function() {
   console.log(`My marker is '${this.marker}'`)
 }
 
-// Object.getPrototypeOf(Player.prototype) should 
-// return the value of "Person.prototype" instead 
+// Object.getPrototypeOf(Player.prototype) should
+// return the value of "Person.prototype" instead
 // of "Object.prototype"
 Object.getPrototypeOf(Player.prototype) // returns Object.prototype
 
@@ -349,7 +349,7 @@ function Enemy(name) {
 // Use Object.setPrototypeOf(Enemy.prototype, Person.prototype)
 Enemy.prototype = Person.prototype
 
-Enemy.prototype.sayName = function() { 
+Enemy.prototype.sayName = function() {
   console.log('HAHAHAHAHAHA')
 }
 
@@ -370,7 +370,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
    1. [Dmitri Pavlutin's article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and covers how `this` changes in various situations. You should have a solid understanding of the concept after reading it. Pay special attention to the pitfalls mentioned in each section.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -381,7 +381,7 @@ This section contains questions for you to check your understanding of this less
 - [Explain what `Object.create` does.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 - [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

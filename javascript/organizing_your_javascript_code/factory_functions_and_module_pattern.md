@@ -10,7 +10,7 @@ One of the biggest issues with constructors is that while they _look_ just like 
 
 The main takeaway is that while constructors aren't necessarily _evil_, they aren't the only way, and they may not be the best way either. Of course, this doesn't mean that time learning about them was wasted! They are a common pattern in real-world code and many tutorials that you'll come across on the net.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -26,9 +26,9 @@ This section contains a general overview of topics that you will learn in this l
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/scrim/c2aaKzcV?embed=odin,mini-header,no-sidebar,no-next-up" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/scrim/c2aaKzcV?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-### Factory Function Introduction
+### Factory function introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
 
@@ -59,7 +59,7 @@ const jeff = new Person('jeff', 27);
 
 Note that factory functions do not utilize [the prototype](https://www.theodinproject.com/lessons/node-path-javascript-objects-and-object-constructors#the-prototype), which does come with a performance penalty. However, as a general rule, this penalty isn't significant unless you're creating thousands of objects.
 
-#### Object Shorthand
+#### Object shorthand
 
 A quick note about line 3 from the factory function example. In 2015, a handy new shorthand for creating objects was added into JavaScript. Without the shorthand, line 3 would have looked something like this:
 
@@ -91,7 +91,7 @@ console.log({name, color, number, food});
  // { name: 'Maynard', color: 'red', number: 34, food: 'rice' }
 ~~~
 
-### Scope and Closure
+### Scope and closure
 
 From simply reading the above example, you are probably already in pretty good shape to start using factory functions in your code. Before we get there though, it's time to do a somewhat deep dive into an incredibly important concept: __closure__.
 
@@ -125,7 +125,7 @@ The answer is 17, and the reason it's not 99 is that on line 4, the outer variab
 
     That statement _was_ true in 2013 when the article was written, but ES6 has rendered it incorrect. Read [this](http://wesbos.com/javascript-scoping/) article to get the scoop!
 
-### Private Variables and Functions
+### Private variables and functions
 
 Now that we've cemented your knowledge of scope in JavaScript, take a look at this example:
 
@@ -173,7 +173,7 @@ In this example, `counterCreator` initializes a local variable (`count`) and the
 
 The concept of private functions is very useful and should be used as often as is possible! For every bit of functionality that you need for your program, there are likely to be several supporting functions that do NOT need to be used in your program as a whole. Tucking these away and making them inaccessible makes your code easier to refactor, easier to test, and easier to reason about for you and anyone else that wants to use your objects.
 
-### Back to Factory Functions
+### Back to factory functions
 
 Now that we've got the theory out of the way, let's return to factory functions. Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code you're writing. For example, if we're writing any sort of game, we're probably going to want objects to describe our players and encapsulate all of the things our players can do (functions!).
 
@@ -248,7 +248,7 @@ const Nerd = (name) => {
 
 - Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article. In the second half of the article, the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about. Good stuff!
 
-### The Module Pattern
+### The module pattern
 
 > Quick sidenote: ES6 introduced a new feature in JavaScript called 'modules'. These are essentially a syntax for importing and exporting code between different JavaScript files. They're very powerful and we WILL be covering them later. They are _not_, however, what we're talking about here.
 
@@ -286,7 +286,7 @@ In our calculator example above, the function inside the IIFE is a simple factor
 
 <span id='name-spacing'></span>A useful side-effect of encapsulating the inner workings of our programs into objects is __namespacing__. Namespacing is a technique that is used to avoid naming collisions in our programs. For example, it's easy to imagine scenarios where you could write multiple functions with the same name. In our calculator example, what if we had a function that added things to our HTML display, and a function that added numbers and operators to our stack as the users input them? It is conceivable that we would want to call all three of these functions `add` which, of course, would cause trouble in our program. If all of them were nicely encapsulated inside of an object, then we would have no trouble: `calculator.add()`, `displayController.add()`, `operatorStack.add()`.
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -300,8 +300,8 @@ This section contains questions for you to check your understanding of this less
 - [Describe IIFE. What does it stand for?](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html)
 - [Briefly explain namespacing and how it's useful.](#name-spacing)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)

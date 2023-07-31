@@ -1,7 +1,7 @@
 ### Introduction
 NodeJS (or just 'Node') has been steadily gaining popularity since its creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it are also on the rise.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -26,7 +26,7 @@ The important bit to understand right up front is that Node is a "JavaScript run
 
 To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create http connections and listen to network requests.
 
-### Event Driven
+### Event driven
 
 Back to the definition from Node's website: Node is an **asynchronous event driven** JavaScript runtime. In this context **asynchronous** means that when you write your code you do not try to predict the exact sequence in which every line will run. Instead you write your code as a collection of smaller functions that get called in response to specific events such as a network request (**event driven**).
 
@@ -72,18 +72,18 @@ While you may have learned React (or any other frontend framework) before, eithe
 1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
 3. What is the Node Event Loop? Check out this long, but _really_ [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)... don't skip it!
-4. Take a few minutes to go through the "Quick Start" section of the new official [Node.js website](https://nodejs.dev/en/learn). NOTE: This website has removed a lot of content recently, this suggestion may no longer be as useful as it was.
+4. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.dev/en/learn/introduction-to-nodejs/). Read up until the TypeScript module.
 5. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

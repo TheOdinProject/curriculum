@@ -1,7 +1,7 @@
 ### Introduction
 After setting up the skeleton for your project it's time to set up the database.  As usual, there's quite a bit of background information that you will find useful as you progress.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
 - Explain CRUD and how it correlates to HTTP methods in Express.
@@ -36,7 +36,7 @@ MVC is another common concept in web development and also something that is like
 
 <span id="controller">**Controllers**</span> are the components that decide what view to display and what information is going to be put into it.
 
-#### MVC Example
+#### MVC example
 
 Without digging into the code prematurely, consider a very simple photo-uploading site. Users can upload and then view photos that are all listed on an index somewhere.  In this case, we'll have a model for our photos that would define how our photos are stored in the database (DB).  The model might specify that photos should be objects that have a `filename`, a `URL` and a `date-created` field.
 
@@ -46,7 +46,7 @@ Our controller then would be called by Express whenever we get an `app.get()` re
 
 If this is a little confusing at this point, don't worry about it too much.  You will be creating models, views, and controllers in the tutorial and it will all become much clearer once you see them in use.
 
-### Which database should You choose?
+### Which database should you choose?
 
 One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else, you should be able to pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now.
 
@@ -58,7 +58,7 @@ One final note before diving back into the tutorial.  Express does not care abou
 1. Continue where we left off with the [MDN library tutorial (Part 3)!](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 </div>
 
-### Knowledge Checks 
+### Knowledge checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#crud'>What does CRUD stand for?</a>
@@ -67,7 +67,7 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>
 
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - For a deeper explanation of MVC you could read [this article from freeCodeCamp](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df30).

@@ -8,6 +8,7 @@ Put any job opening you find into your spreadsheet.
 
 
 #### Here's an example of how a spreadsheet to keep track of job openings might look like:
+
 | Job Title | Company | Website | Connections | Activity Log | Must Have 1 | Must Have 2 | Must Have 3 | Nice to Have 1 | Nice to Have 2 | Nice to Have 3 | Nice to Have 4 | Nice to Have 5 |
 |-----------|---------|---------|-------------|--------------|-------------|-------------|-------------|---------------|---------------|---------------|---------------|---------------|
 | Job 1     | Company A | www.companyA.com | John (LinkedIn) | Sent resume on 04/01/2023 | TRUE | TRUE | FALSE | 5 | 4 | 3 | 2 | 1 |
@@ -16,7 +17,7 @@ Put any job opening you find into your spreadsheet.
 
 
 
-### The Best Places to Look
+### The best places to look
 
 Start with your network, even if it's small.  Reach out to your Facebook friends and friends-of-friends to see if anyone's hiring.  You should start your search with the highest probability / highest quality sources first:
 
@@ -36,7 +37,7 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups
 * [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote
 
-### On Recruiters
+### On recruiters
 
 There are a lot of recruiters out there whose job it is to get you hired, but you'll need to be careful about how you work with them.  For starters, they get paid based on a percentage of the salary you take, so their incentive is to get you paid as much as possible (which is good).  Unfortunately as a junior developer your salary is much lower than a senior engineer so you will not be their priority and they won't spend much time on you (which is bad).  
 

@@ -4,7 +4,7 @@ Separate from the __module pattern__ that we discussed in an earlier lesson, "mo
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__, which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain one of the main benefits of writing code in modules.
 - Explain "named" exports and "default" exports.
 
-### The History of JavaScript
+### The history of JavaScript
 
 Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions... with good answers.
 
@@ -60,7 +60,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
-### ES6 Modules (finally!)
+### ES6 modules (finally!)
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
@@ -85,7 +85,7 @@ functionOne(); // this should work as expected!
 <span id="module-knowledge-check"></span> 
 There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and re-use it very easily!
 
-There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). With the introduction of ES6 Modules, the module pattern (IIFEs) is not needed anymore, though you might still encounter them in the wild. By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
+There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). With the introduction of ES6 Modules, the module pattern (IIFEs) is not needed anymore, though you might still encounter them in the wild. When using ES6 modules, only what is exported can be accessed in other modules by importing. Additionally, any declarations made in a module are not automatically added to the global scope. By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
 
 To pull it all together, let's write a simple module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
 
@@ -146,7 +146,7 @@ export {
 And to import them:
 
 ~~~javascript
-// main js file in /src folder
+// index.js in /src folder
 import {functionOne, functionTwo} from './myModule';
 ~~~
 
@@ -155,18 +155,18 @@ Using this pattern gives you the freedom to only import the functions you need i
 The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
 Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>
-- <a class="knowledge-check-link" href="https://docs.npmjs.com/creating-a-package-json-file">Describe what `npm init` does and what `package.json` is.</a>
-- <a class="knowledge-check-link" href="https://docs.npmjs.com/downloading-and-installing-packages-locally">Know how to install packages using npm.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe what a JavaScript module bundler like webpack is.</a>
-- <a class="knowledge-check-link" href="#webpack-knowledge-check">Explain what the concepts "entry" and "output" mean as relates to webpack.</a>
-- <a class="knowledge-check-link" href="https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege">Briefly explain what a development dependency is.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what "transpiling code" means and how it relates to frontend development.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Briefly describe what a task runner is and how it's used in frontend development.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe how to write an npm automation script.</a>
-- <a class="knowledge-check-link" href="#module-knowledge-check">Explain one of the main benefits of writing code in modules.</a>
-- <a class="knowledge-check-link" href="#exports-knowledge-check">Explain "named exports" and "default exports".</a>
+- [Explain what npm is and where it was commonly used before being adopted on the frontend.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
+- [Describe what `npm init` does and what `package.json` is.](https://docs.npmjs.com/creating-a-package-json-file)
+- [Know how to install packages using npm.](https://docs.npmjs.com/downloading-and-installing-packages-locally)
+- [Describe what a JavaScript module bundler like webpack is.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
+- [Explain what the concepts "entry" and "output" mean as relates to webpack.](#webpack-knowledge-check)
+- [Briefly explain what a development dependency is.](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege)
+- [Explain what "transpiling code" means and how it relates to frontend development.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
+- [Briefly describe what a task runner is and how it's used in frontend development.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
+- [Describe how to write an npm automation script.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
+- [Explain one of the main benefits of writing code in modules.](#module-knowledge-check)
+- [Explain "named exports" and "default exports".](#exports-knowledge-check)

@@ -2,14 +2,14 @@
 
 HTML (HyperText Markup Language) defines the structure and content of webpages. We use HTML elements to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. In this lesson, we will explore how HTML elements work.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   Explain what HTML Tags are
 *   Explain what HTML elements are
 
-### Elements and Tags
+### Elements and tags
 
 Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
 
@@ -19,7 +19,17 @@ Closing tags tell the browser where an element ends. They are almost the same as
 
 A full paragraph element looks like this:
 
-![Elements Diagram](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/00.png)
+~~~html
+<p>some text content</p>
+~~~
+
+
+Let's break this down:
+
+*   `<p>` is the opening tag.
+*   `some text content` represents content wrapped within the opening and closing tags. 
+*   `</p>` is the closing tag.
+
 
 You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
 
@@ -37,14 +47,14 @@ Using the correct elements for content is called semantic HTML. We will explore 
   
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#elements-and-tags">What is an HTML tag?</a>
-*   <a class="knowledge-check-link" href="#elements-and-tags">What are the three parts of an HTML element?</a>
+*   [What is an HTML tag?](#elements-and-tags)
+*   [What are the three parts of an HTML element?](#elements-and-tags)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

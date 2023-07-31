@@ -2,14 +2,14 @@
 
 Now that we have learned how JSX works and how to write it. This lesson will cover how we can render multiple elements and conditionally render UI in JSX.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   Render a list of elements/components in JSX
 *   Conditionally render UI
 
-### Rendering a List of Elements in JSX
+### Rendering a list of elements in JSX
 
 Let us say we want to create a component that lists multiple animals:
 
@@ -29,7 +29,7 @@ function App() {
 }
 ~~~
 
-It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
+It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard-coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
 
 ~~~javascript
 function App() {
@@ -52,7 +52,7 @@ We define an array called `animals`. Now inside our JSX, we use `map` to return 
 ~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
-  const animalsList = animals.map((animal) => <li key={animal}>animal</li>)
+  const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
   
   return (
     <div>
@@ -67,7 +67,7 @@ function App() {
 
 You may be curious as to what the `key` is in our `<li>` element. We will dive into how keys work in the next lesson. But, to explain briefly, it is to let React know the identity of each element in the list, React must know this information if you are dealing with a dynamic list where you add or remove elements. Since we are only dealing with a static list, it does not matter for now.
 
-### Rendering a List of Components in JSX
+### Rendering a list of components in JSX
 
 <div class="lesson-note" markdown="1">
 We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a simple implementation.
@@ -102,15 +102,15 @@ function App() {
 
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
-This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals}>`. Do note that you can name it anything, for example `<List animalList={animals} />` you will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
+This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals} />`. Do note that you can name it anything, for example, `<List animalList={animals} />`. You will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
 
-We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts a `props`, and using `props.animal` to render the text. It should now render the same thing. 
+We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing. 
 
-### Conditionally Rendering UI
+### Conditionally rendering UI
 
 Let us make some decisions within our component. What if we only want to render an animal that starts with the letter L? To make these decisions, we would use some sort of conditional expression. Let us continue using the code above, but for brevity's sake, we will be removing the `<ListItem />` component.
 
-#### Using Ternary Operator
+#### Using the ternary operator
 
 One way to conditionally render an element is with a ternary operator, using a boolean value to decide what to render:
 
@@ -137,13 +137,13 @@ function App() {
 }
 ~~~
 
-We are using the String method `startsWith` to check if the `animal` starts with the letter L. This method either returns true or false.
+We are using the [String method `startsWith`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) to check if the `animal` starts with the letter L. This method either returns true or false.
 
 If the animal starts with the letter L, then we return the `<li>` element, which renders the particular animal. Otherwise, we return `null` to indicate that no element will be rendered.
 
-#### Using the && Operator
+#### Using the && operator
 
-Another quick way of conditionally rendering an element is by using the && operator.
+Another quick way of conditionally rendering an element is by using the `&&` operator.
 
 ~~~javascript
 function List(props) {
@@ -168,11 +168,17 @@ function App() {
 }
 ~~~
 
-We will leverage the return value of `startsWith` with the && operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element and renders it. Otherwise, if the condition is `false` it just gets ignored.
+We will leverage the return value of `startsWith` with the `&&` operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element, and renders it. Otherwise, if the condition is `false` it just gets ignored.
+
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+#### Falsy values in JSX, a common pitfall
 
 In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX and will be rendered completely fine, so be sure to be aware of that!
 
-#### Other Ways to Render Conditionally
+</div>
+
+#### Other ways to render conditionally
 
 We can also use `if`, `if/else`, and `switch` to conditionally render something.
 
@@ -237,7 +243,7 @@ The first `if` statement will now execute and return a `<div>` with the text "Lo
 
 If none of those checks passed, then we have the data we need to render the list successfully. Try it out by adding items to the `animals` list and adding the property back.
 
-You can, Of course, also accomplish this with just the ternary and && operators.
+You can, Of course, also accomplish this with just the ternary and `&&` operators.
 
 ~~~javascript
 function List(props) {
@@ -252,7 +258,7 @@ function List(props) {
           })}
         </ul>
       ) : (
-        <div>There are no animals in the list!</div>
+        <div>There are no animals on the list!</div>
       )}
     </>
   );
@@ -287,18 +293,18 @@ function App() {
 }
 ~~~
 
-Nesting ternaries and multiple && operators can be intimidating to look at, so be sure to test things out!
+Nesting ternaries and multiple `&&` operators can be intimidating to look at, so be sure to test things out!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The React Docs Beta has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://beta.reactjs.org/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
-2.  From the same docs, strengthen your understanding of [conditional rendering](https://beta.reactjs.org/learn/conditional-rendering). Be sure to test out all the examples!
+1.  The React documentation has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://react.dev/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
+2.  From the same docs, strengthen your understanding of [conditional rendering](https://react.dev/learn/conditional-rendering). Be sure to test out all the examples!
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -306,7 +312,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#conditionally-rendering-ui">What are the ways you could render UI conditionally?</a>
 *   <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx">How would you conditionally return JSX?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

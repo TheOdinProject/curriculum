@@ -4,7 +4,7 @@ SVGs are a very common image format on the web. They can be a little confusing a
 
 In this lesson, we will learn exactly what SVGs are, what they're used for, and how you can embed them in your websites.
 
-### Learning Outcomes
+### Learning outcomes
 
 -   What SVGs, Vector Graphics, and XML are
 -   How to create simple SVGs and add them to your websites
@@ -28,7 +28,7 @@ SVGs are often used for:
 
 With vector graphics on the other hand, there's no grid. Instead, you have formulas for different shapes and lines. Since these are just formulas, it doesn't matter how large or small you want them to appear--they can scale to any size you want, and it will have no effect on the quality or the size of the file.
 
-SVGs have another interesting aspect to them: they're defined using XML. XML (aka, "Extensible Markup Language") is an HTML-like syntax which is used for lots of things, from [APIs](https://en.wikipedia.org/wiki/SOAP), to [RSS](https://en.wikipedia.org/wiki/RSS), to [spreadsheet and word editor software](https://en.wikipedia.org/wiki/Office_Open_XML).
+SVGs have another interesting aspect to them: they're defined using XML. XML (aka, "Extensible Markup Language") is an HTML-like syntax which is used for lots of things, from [APIs](https://en.wikipedia.org/wiki/API), to [RSS](https://en.wikipedia.org/wiki/RSS), to [spreadsheet and word editor software](https://en.wikipedia.org/wiki/Office_Open_XML).
 
 The fact that SVG source-code is XML has a few key benefits.
 
@@ -82,15 +82,15 @@ Some of the drawbacks of inlining SVG code can be avoided once you've learned a 
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href='#anatomy-of-an-svg'>What is the `xmlns` attribute?</a>
--   <a class="knowledge-check-link" href='#drawbacks'>What are some situations where you _wouldn't_ want to use SVG?</a>
--   <a class="knowledge-check-link" href='#embedding-svgs'>What are the benefits of "inlining" your SVGs? What are the drawbacks?</a>
+-   [What is the `xmlns` attribute?](#anatomy-of-an-svg)
+-   [What are some situations where you _wouldn't_ want to use SVG?](#drawbacks)
+-   [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

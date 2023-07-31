@@ -6,7 +6,7 @@ We're going to install it using `nvm` (Node Version Manager), because it makes i
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -31,12 +31,12 @@ Note: You may need to update the Ubuntu package lists to the latest version for 
 sudo apt update && sudo apt upgrade
 ~~~ 
   
-#### Step 1: Downloading and Installing NVM
+#### Step 1: Downloading and installing NVM
 
 Simply run this command:
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ~~~
 
 This will install `nvm`
@@ -72,10 +72,10 @@ touch ~/.zshrc
 ~~~
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ~~~
 
-Restart your terminal, or copy and paste the following into your terminal and press enter: 
+Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>: 
 
 ~~~bash
 export NVM_DIR="$HOME/.nvm"
@@ -113,7 +113,7 @@ Downloading and installing Node vXX.xx.x...
 
 If not, close the terminal, re-open it and run `nvm install --lts` again.
 
-#### Step 2: Setting the Node Version
+#### Step 2: Setting the Node version
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy; just run the following command:
 
@@ -127,13 +127,13 @@ Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with
 
 If you see that, you have successfully installed Node!
 
-### Using Node Console  
+### Using Node console  
 
 For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.  
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

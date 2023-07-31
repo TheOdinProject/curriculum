@@ -2,25 +2,25 @@
 
 Reading and understanding error messages is a requirement as a developer. At first glance, many beginners shrink away from error messages as they appear to be “scary” and difficult to understand because they include terms one may not be familiar with. However, error messages provide developers with a treasure trove of knowledge, and tell you everything you need to know about how to resolve them! Being able to parse error messages and warnings without fear will enable you to effectively debug your applications, receive meaningful help from others, and empower yourself to push forward when faced with an error.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   Name at least three kinds of Javascript errors
--   Identify two parts of an error message that help you find where the error originates
--   Be able to understand how to research and resolve errors
+- Name at least three kinds of Javascript errors
+- Identify two parts of an error message that help you find where the error originates
+- Be able to understand how to research and resolve errors
 
-### The Anatomy of an Error
+### The anatomy of an error
 
 An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. **Note**: For all examples in this lesson, you should run the code in the browser's console.
 
 Let’s assume we have written the following code:
 
 ~~~javascript
-const a = "Hello"
-const b = "World"
+const a = "Hello";
+const b = "World";
 
-console.log(c)
+console.log(c);
 ~~~
 
 This code will run, but it will generate an error. In technical terms, this is called "throwing" an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. We’ll learn more about the different error types later in the lesson. In this example, we have a `ReferenceError`.
@@ -60,11 +60,11 @@ The stack trace tells us that:
 
 Thus the stack trace lets you trace the evolution of an error back to its origin, which here is the declaration of `add()`.
 
-### Common Types of Errors
+### Common types of errors
 
 These are some of the most common errors you will encounter, so it’s important to understand them.
 
-#### Syntax Error
+#### Syntax error
 
 A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
@@ -80,21 +80,21 @@ will throw the following error, because we forgot the parentheses for `console.l
 
 [MDN - SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
 
-#### Reference Error
+#### Reference error
 
 We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist (within the current scope) - or it has been spelled incorrectly!
 
 [MDN - ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
-#### Type Error
+#### Type error
 
 These errors are thrown for a few different reasons:
 
 Per MDN, a `TypeError` may be thrown when:
 
-> -   an operand or argument passed to a function is incompatible with the type expected by that operator or function;
-> -   or when attempting to modify a value that cannot be changed;
-> -   or when attempting to use a value in an inappropriate way.
+> - an operand or argument passed to a function is incompatible with the type expected by that operator or function;
+> - or when attempting to modify a value that cannot be changed;
+> - or when attempting to use a value in an inappropriate way.
 
 Say we have two strings that you would like to combine to create one message, such as below:
 
@@ -110,16 +110,16 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 [MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
-### Tips for Resolving Errors
+### Tips for resolving errors
 
 At this point, you might be wondering how we can resolve these errors.
 
-1.  Read the error *carefully* and try to understand it on your own.
+1.  Read the error _carefully_ and try to understand it on your own.
 2.  Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
-3.  Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/).
+3.  Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
 4.  Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
-### Errors VS. Warnings
+### Errors vs. warnings
 
 Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. Though these colors are not a rule, frequently there will be a visual differentiation between the two, regardless of the platform you are encountering them on.
 
@@ -130,16 +130,16 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 1.  Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 </div>
 
-### Additional Resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
--   [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
-
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="#type-error">What are three reasons why you may see a TypeError?</a>
--   <a class="knowledge-check-link" href="#errors-vs-warnings">What is the key difference between an error and a warning?</a>
--   <a class="knowledge-check-link" href="#tips-for-resolving-errors">What is one method you can use to resolve an error?</a>
+- [What are three reasons why you may see a TypeError?](#type-error)
+- [What is the key difference between an error and a warning?](#errors-vs-warnings)
+- [What is one method you can use to resolve an error?](#tips-for-resolving-errors)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)

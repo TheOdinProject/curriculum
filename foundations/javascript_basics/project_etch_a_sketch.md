@@ -9,14 +9,13 @@ If you get totally stuck, drop by the chatroom. Someone will be there to point y
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-
 Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
 1.  [Follow the instructions atop Odin's Recipes project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository) to set up a Git repository for this project.
 2.  Create a webpage with a 16x16 grid of square divs.
     *   Create the divs using JavaScript. Don't try making them by hand with copy and pasting in your HTML file!
     *   It's best to put your grid squares inside another "container" div \(which can go directly in your HTML\).
-    *   You need make the divs appear as a grid \(versus just one on each line\). This is a perfect opportunity to apply what you have learned about flexbox.
+    *   You need to make the divs appear as a grid \(versus just one on each line\). This is a perfect opportunity to apply what you have learned about flexbox.
     *   Be careful with borders and margins, as they can adjust the size of the squares!
     *   "OMG, why isn't my grid being created???"
         *   Did you link your CSS stylesheet?
@@ -35,6 +34,11 @@ Don't forget to commit early & often! You can [reference the Commit Message less
     *   You should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used.
 5.  Push your project to GitHub!
 
-#### Extra Credit
-*   Instead of just changing the color of a square from black to white \(for example\), have each pass through with the mouse change it to a completely random RGB value.   Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
+#### Extra credit
+Transform the behavior of a square when interacting with the mouse by introducing a series of modifications. 
+
+1. Rather than a simple color change from black to white, each interaction should randomize the square's RGB value entirely. 
+2. Additionally, implement a progressive darkening effect where each interaction adds 10% more black or color to the square. The objective is to achieve a completely black square only after ten interactions.
+
+You can choose to do either one or both of these challenges, it's up to you.
 </div>

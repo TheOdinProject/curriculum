@@ -2,7 +2,7 @@
 
 This folder contains lesson markdown files that make up the Advanced HTML and CSS course. This course exists in the [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript) and the [Full Stack Ruby on Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) paths on the Odin Project Website.
 
-## Course Outline
+## Course outline
 
 The following list represents how the lessons are divided into sections and presented on the website.
 
@@ -26,7 +26,7 @@ instead.
 7. [WAI-ARIA](accessibility/wai_aria.md)
 8. [Accessibility Auditing](accessibility/accessibility_auditing.md)
 
-### Responsive Design
+### Responsive design
 
 1. [Introduction to Responsive Design](responsive_design/introduction_to_responsive_design.md)
 2. [Natural Responsiveness](responsive_design/natural_responsiveness.md)

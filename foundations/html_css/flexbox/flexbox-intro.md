@@ -4,7 +4,7 @@ As you'll learn, there are _many_ ways to move elements around on a web page. Ne
 
 Many resources put it near the end of their curriculum because it is somewhat new as a technology. But at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 -   You will learn about flex containers and flex items.
 -   You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
-### Before We Get Started
+### Before we get started
 
 Flexbox layouts can get a little complicated. In a previous lesson, you learned how to inspect and debug things using your browser's developer tools. Those tools will be _crucial_ for you in the following lessons. If something isn't behaving the way you expect, inspecting it in the developer tools should be your first step _every time_.
 
@@ -20,9 +20,9 @@ Flexbox isn't necessarily any more difficult than the other concepts that we've 
 
 You will almost definitely need to come back and reference these lessons (or a couple of the resources we share with you) when you get to the assignments at the end of the section, but if you take your time and experiment with all the code examples we provide, you'll know better where to look when that time comes.
 
-### Let's Flex!
+### Let's flex!
 
-Flexbox is a way to arrange items into rows or columns. These items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration. 
+Flexbox is a way to arrange items into rows or columns. These items will flex (i.e. grow or shrink) based on some simple rules that you can define. To get started, let's look at a simple demonstration.
 
 <div class="lesson-note" markdown="1">
 
@@ -58,9 +58,9 @@ If it's hard to see what's going on in the small embedded CodePen, feel free to 
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin" width="100%" height="400"></iframe>
+<iframe src="https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
-#### Flex Containers and Flex Items
+#### Flex containers and flex items
 
 As you've seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_, while some go on the _flex items_. This is a simple yet important concept.
 
@@ -76,15 +76,15 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="#flex-container-item-knowledge-check">What's the difference between a flex container and a flex item?</a>
--   <a class="knowledge-check-link" href="#how-to-create-flex-item-knowledge-check">How do you create a flex item?</a>
+-   [What's the difference between a flex container and a flex item?](#flex-container-item-knowledge-check)
+-   [How do you create a flex item?](#how-to-create-flex-item-knowledge-check)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [This Flexbox tutorial](https://web.archive.org/web/20230327153805/https://www.internetingishard.com/html-and-css/flexbox/) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
+* [This Flexbox tutorial](https://internetingishard.netlify.app/html-and-css/flexbox/index.html) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.

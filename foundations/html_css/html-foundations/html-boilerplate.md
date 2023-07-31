@@ -2,14 +2,14 @@
 
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   How to write the basic boilerplate for an HTML document
 *   How to open HTML documents in your browser
 
-### Creating an HTML File
+### Creating an HTML file
 
 To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
@@ -35,7 +35,7 @@ However, we probably won't ever want to be using an older version of HTML, and s
 
 Open the `index.html` file created earlier in your text editor and add `<!DOCTYPE html>` to the very first line.
 
-### HTML Element
+### HTML element
 
 After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
 
@@ -49,22 +49,22 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 </html>
 ~~~
 
-#### What is the `lang` attribute? 
+#### What is the lang attribute? 
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
-### Head Element
+### Head element
 
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
-#### The Charset Meta Element
+#### The charset meta element
 
 We should always have the meta tag for the charset encoding of the webpage in the head element: `<meta charset="utf-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
-#### Title Element
+#### Title element
 
 Another element we should always include in the head of an HTML document is the title element:
 
@@ -89,7 +89,7 @@ Back in our `index.html` file, let's add a head element with a charset meta elem
 </html>
 ~~~
 
-### Body Element
+### Body element
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
 
@@ -108,7 +108,7 @@ To complete the boilerplate, add a body element to the `index.html` file. The bo
 </html>
 ~~~
 
-### Viewing HTML Files in the Browser
+### Viewing HTML files in the browser
 
 The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
@@ -144,9 +144,9 @@ Back in the `index.html` file, let's add a heading (more on these later) to the 
 
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
 
-### VSCode Shortcut
+### VSCode shortcut
 
-VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the '.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the enter key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the '.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the <kbd>Enter</kbd> key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
 But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
 
@@ -162,16 +162,16 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#the-doctype">What is the purpose of the doctype declaration?</a>
-*   <a class="knowledge-check-link" href="#html-element">What is the HTML element?</a>
-*   <a class="knowledge-check-link" href="#head-element">What is the purpose of the head element?</a>
-*   <a class="knowledge-check-link" href="#body-element">What is the purpose of the body element?</a>
+*   [What is the purpose of the doctype declaration?](#the-doctype)
+*   [What is the HTML element?](#html-element)
+*   [What is the purpose of the head element?](#head-element)
+*   [What is the purpose of the body element?](#body-element)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
