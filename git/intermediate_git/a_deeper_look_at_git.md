@@ -9,7 +9,7 @@ It is **very important** to take a look at all of this before progressing any fu
 
 ### Lesson overview
 
-This section contains a general overview of the topics that you will learn in this lesson.
+This section contains a general overview of topics that you will learn in this lesson.
 
 * History-changing Git commands
 * Different ways of changing history
