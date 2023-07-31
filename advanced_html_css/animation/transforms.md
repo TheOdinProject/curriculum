@@ -168,7 +168,7 @@ Essentially, by setting a `perspective` value, we are telling the object to rend
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
-For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article.](https://css-tricks.com/how-css-perspective-works/).
+For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
 
 #### Rotate
 
