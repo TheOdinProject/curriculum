@@ -22,7 +22,7 @@ Depending on what kind of work you're doing, you might end up working more with 
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
 2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp) page near the bottom, and do the exercises at the end!
-3. Vocabulary time: a __method__ is a bit of functionality built into the language or specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. An exhaustive list of methods that are usable strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+3. Vocabulary time: a __method__ is a bit of functionality built into the language or specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. An exhaustive list of methods usable on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 ### Conditionals
 
