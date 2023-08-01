@@ -15,9 +15,9 @@ Your task is to build a function `knightMoves` that shows the shortest possible 
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
 
-  * `knightMoves([0,0],[1,2]) == [[0,0],[1,2]]`
-  * `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
-  * `knightMoves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
+  * `knightMoves([1,1],[2,3]) == [[1,1],[2,3]]`
+  * `knightMoves([1,1],[4,4]) == [[1,1],[2,3],[4,4]]`
+  * `knightMoves([4,4],[1,1]) == [[4,4],[2,3],[1,1]]`
 
 <div class="lesson-content__panel" markdown="1">
 1. Put together a script that creates a game board and a knight.
