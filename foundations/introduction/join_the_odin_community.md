@@ -38,7 +38,7 @@ When asking your question, please remember to include the context:
 *   How did you get there?
 *   What have you tried so far?
 
-If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask [Google.](https://google.com)
+If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it, or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask [Google.](https://google.com)
 
 Screenshots are great for showing the output of commands or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount of code, providing it in the discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or put your corresponding code in a [Replit](https://replit.com) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
 
@@ -66,7 +66,7 @@ Your Multiple Lines of Code
 
 You can also use _code highlighting_ to add color to your multi-line code by specifying the language:
 
-\`\`\`**javascript**
+\`\`\`**js** or **javascript**
 
 Your Multiple Lines of Colorful Code
 
@@ -82,7 +82,7 @@ Your Multiple Lines of Colorful Code
 
 ### How to help others solve coding problems
 
-Not only is it important to know how to ask an effective question, it is also important to know how to help others effectively. Please take a moment to review these guidelines so that you will have proper expectations of the help you will receive in our Discord community. In addition, come back and review these guidelines when you are ready to start helping others.
+Not only is it important to know how to ask an effective question, but it is also important to know how to help others effectively. Please take a moment to review these guidelines so that you will have proper expectations of the help you will receive in our Discord community. In addition, come back and review these guidelines when you are ready to start helping others.
 
 #### 1.  Instead of answering the question, guide them to the answer
 
@@ -128,7 +128,7 @@ If you know that the answer is provided in our curriculum, ask them where they a
 
 If they have not reached that portion of the curriculum, let them know they will learn it in the future. 
 
-If they have already been through that portion of the curriculum, politely direct to review that lesson.
+If they have already been through that portion of the curriculum, politely direct them to review that lesson.
 
 #### 10.  Answer the question before pointing out other problems
 
@@ -140,7 +140,7 @@ It is common for students to not understand the importance of using a debugger t
 
 #### 12.  Watch for students that need to take a step back
 
-It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Often times, stepping away from a problem will help them see the bigger picture and how to solve it.
+It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Oftentimes, stepping away from a problem will help them see the bigger picture and how to solve it.
 
 #### 13.  Watch for students that are in over their head
 

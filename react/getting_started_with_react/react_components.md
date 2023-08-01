@@ -51,7 +51,7 @@ In the above example, <code>&amp;quot;</code> is an escape code we use to render
 
 It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons! 
 
-### Where do components Live
+### Where do components live
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's simply `export` our newly created component so that parent components can use it as a child throughout your project.
 
@@ -63,7 +63,7 @@ function Greeting() {
 export default Greeting;
 ~~~
 
-Are we done? Well let's think about this - we're declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly created greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
+Are we done? Well let's think about this - we've declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly created greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
 ~~~jsx
 import React from 'react'

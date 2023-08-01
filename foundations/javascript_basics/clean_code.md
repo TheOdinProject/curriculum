@@ -54,7 +54,7 @@ sumArray([2, 2, 2]);
 
 Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task \(in the exact same way!\), and both are valid code. But the second one is much more readable. Why?
 
-In the first example, single-letter variables are used, there is a semicolons in the middle of lines, and the indentation is inconsistent. The result is a piece of code that is confusing and messy. 
+In the first example, single-letter variables are used, there is a semicolon in the middle of lines, and the indentation is inconsistent. The result is a piece of code that is confusing and messy. 
 
 Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself some time ago and completely forgot that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be fun.
 

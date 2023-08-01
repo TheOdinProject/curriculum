@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you've come far from your React-baby days, with tools like routers and testing frameworks under your belt. You have an even longer still have a longer way to go. It's a great time to put these concepts to use with a classic project - a mock shopping cart.
+By now you've come far from your React-baby days, with tools like routers and testing frameworks under your belt. You still have a longer way to go. It's a great time to put these concepts to use with a classic project - a mock shopping cart.
 
 ### Assignment
 

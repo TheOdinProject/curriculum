@@ -108,7 +108,7 @@ To find the difference between two arrays, you can subtract them using `-`. This
 ~~~
 
 ### Basic Methods
-Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. For full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on "Core API", scroll down to the Classes section, and click on "Array". There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays along with explanations.
+Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. For the full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on the "Current" tab in the top left corner, scroll down to the "Class and Module Index" section on the left sidebar, and click on "Array". There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays along with explanations.
 
 Calling the `#methods` method on an array will also yield a long list of the available methods.
 
@@ -146,7 +146,7 @@ Here is a brief look at some other common array methods you might run into:
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* Look over the latest [Ruby API documentation](http://ruby-doc.org/) on arrays by clicking on "Core API" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object along with explanations and examples.
+* Look over the latest [Ruby API documentation](http://ruby-doc.org/) on arrays by clicking on the "Current" tab in the top left corner, scrolling down to the "Class and Module Index" section on the left sidebar, and clicking on "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object along with explanations and examples.
 * If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
 * Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
 
