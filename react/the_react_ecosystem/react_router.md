@@ -82,7 +82,7 @@ Let us install the React Router package:
 
 `npm install react-router-dom`
 
-Add the following to `main.jsx`, we will talk about what is happening in a little bit.
+Add the following to `Main.jsx`, we will talk about what is happening in a little bit.
 
 ~~~jsx
 import React from "react";
