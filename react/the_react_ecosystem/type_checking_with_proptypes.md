@@ -1,3 +1,5 @@
+### Introduction
+
 Type Checking is a process of verifying that a piece of code is using the correct data types for variables, function parameters and return values. In the context of React applications, we are going to use PropTypes to do that job.
 
 PropTypes is a way to type check the props that a React component receives. It helps to catch potential type errors during development, making it easier to spot and fix bugs. If you have used a linter in your previous React projects, there's a good chance it ended up yelling at you about certain props missing in prop validation, however if that isn't the case- well, lucky you!
@@ -77,3 +79,58 @@ name: "Zach",
 export default RenderName;
 
 In this example, with the help of the defaultProps property we are defining a default value for the `name` prop. This way, if the `RenderName` component is called without passing in the `name` prop, it will default to "Zach". When you do pass in props, they will take precedence over the default props.
+
+### Using defaultProps
+
+Another cool thing we can do with PropTypes is passing in default props:
+
+~~~javascript
+import React from "react";
+import PropTypes from "prop-types";
+
+const RenderName = (props) => {
+  return <div>{props.name}</div>;
+};
+
+RenderName.propTypes = {
+  name: PropTypes.string,
+};
+
+RenderName.defaultProps = {
+  name: "Zach",
+};
+
+export default RenderName;
+~~~
+
+In this example, with the help of the defaultProps property we are defining a default value for the `name` prop. This way, if the `RenderName` component is called without passing in the `name` prop, it will default to "Zach". When you do pass in props, they will take precedence over the default props.
+
+### What about TypeScript?
+
+Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
+
+Learning TypeScript can be a lot of overhead when you're already learning React. Although, once you're comfortable navigating the ins and outs of React, you'll have a better time learning and applying TypeScript to your projects. If you go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript. Learn by doing!
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
+2. You can even set up custom validators in PropTypes. Read [this article on using PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/) for a more in-depth look into the benefits and use cases of PropTypes.
+3. [This StackOverflow thread goes into the differences of TypeScript and PropTypes. ](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)Give it a read!
+
+</div>
+
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- <a class="knowledge-check-link" href="#using-proptypes">How would we set up a basic implementation of PropTypes?</a>
+- <a class="knowledge-check-link" href="#using-defaultprops">If we pass in a prop to a component that has a defaultProp defined, what would happen?</a>
+- <a class="knowledge-check-link" href="https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application">What is the difference between PropTypes and TypeScript?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
