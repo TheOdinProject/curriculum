@@ -12,7 +12,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 
 **A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
 
-**Formatters**: Like most projects, TOP follows a standardized markup to ensure consistency of style among contributors. If you use a formatter, you must configure it according to the TOP style or disable it. You should take these steps whenever you contribute to any project.
+**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
 
 ## Table of Contents
 
