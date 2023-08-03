@@ -57,7 +57,7 @@ function TodoList() {
 }
 ~~~
 
-<span id="index-as-key">Additionally, if you're sure the list will remain unchanged throughout the application's life,  you can use the array index as a key. But this is not recommended, since it can lead to confusing bugs if the list *does* change with any items deleted, inserted or rearranged. You will learn more about this in the assignment section's linked articles.</span>
+<span id="index-as-key">Additionally, if you're sure the list will remain unchanged throughout the application's life,  you can use the array index as a key. However, this is not recommended since it can lead to confusing bugs if the list changes when items are deleted, inserted, or rearranged. You will learn more about this in the assignment section's linked article.</span>
 
 ~~~jsx
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
