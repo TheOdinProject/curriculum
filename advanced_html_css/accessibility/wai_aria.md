@@ -143,7 +143,7 @@ While both of the above examples would look visually identical, the button in Ex
 
 Be careful when using this attribute, though. When you give an element `aria-hidden='true'`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden='false'` to a child element won't have any effect if one of its parents still has `aria-hidden='true'`, either.
 
-You should also be careful not to give an element `aria-hidden='true'` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use both a screen reader and navigate the page via a keyboard.
+You should also be careful not to give an element `aria-hidden='true'` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
