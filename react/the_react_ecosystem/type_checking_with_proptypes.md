@@ -2,7 +2,7 @@ Type Checking is a process of verifying that a piece of code is using the correc
 
 PropTypes is a way to type check the props that a React component receives. It helps to catch potential type errors during development, making it easier to spot and fix bugs. If you have used a linter in your previous React projects, there's a good chance it ended up yelling at you about certain props missing in prop validation, however if that isn't the case- well, lucky you!
 
-    @@ -15,44 +15,61 @@ This section contains a general overview of topics that you will learn in this l
+    @@ -15,44 +15,61 @@ This section contains a general overview of topics that you will learn in this lesson.
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with npm. In your React project run the following command:
 
