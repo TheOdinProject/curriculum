@@ -64,7 +64,7 @@ There are a couple of key concepts to understanding how webpack works - __entry_
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
-The import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
+The import statement is the same thing that you used during the webpack tutorial so it should be familiar by now.
 
 ~~~javascript
 // a file called functionOne.js
