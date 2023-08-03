@@ -417,9 +417,7 @@ const Router = () => {
 export default Router;
 ~~~
 
-
 So, we can simply add this `Router.jsx` component to the `Main.jsx` file.
-
 
 ~~~jsx
 import React from "react";
