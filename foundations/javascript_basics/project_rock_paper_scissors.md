@@ -1,46 +1,58 @@
 ### Introduction
 
-In this project, we'll create a simple implementation of the classic grade-school game "rock paper scissors". If you're unfamiliar with this game, check out this [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or this [detailed step-by-step guide](https://www.wikihow.com/Play-Rock,-Paper,-Scissors).
+For this project, you'll create a console-only version of the grade-school game: Rock Paper Scissors. To learn more—or if you're unfamiliar with the game, read this [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or this [detailed step-by-step guide](https://www.wikihow.com/Play-Rock,-Paper,-Scissors).
+<div class="lesson-note">
+<h4>Student solutions</h4>
+Some students' solutions below include buttons, text, and other elements—those elements form what is known as a Graphical User Interface (GUI). You'll add those elements—a GUI, in a later lesson. So remember to push your code to GitHub.
+</div> 
 
-We'll start by playing the game entirely from the browser console. Later on, **we'll revisit this project to add a Graphical User Interface (GUI) with buttons and text**. So don't forget to save the code on GitHub! Some student solutions below might already have a GUI, but we'll cover that in a later lesson. Let's get started with a few quick exercises before we start the project!
-
-
-### Quick exercises before starting
+### Quick exercise before starting
 
 1. Identify three ways to include JavaScript in a page.
-2. Test it out! Write `console.log("Hello World");` in JavaScript and check to see if it displays in the browser's console.
+2. Check if you are including the JavaScript correctly:
+   - Write `console.log("Hello World");` in JavaScript.
+   - Check if `console.log("Hello World");` logs in the browser's console.
 
-Before we dive into the project, remember that this is your first JavaScript program built from scratch. So, don't forget the previous lesson on problem-solving. Plan your solution before writing any code and test each piece as you build to ensure it works before moving on to the next step!
+Before we dive into the project—and since this is your first JavaScript program built from scratch, remember the [previous lesson on problem-solving](https://www.theodinproject.com/lessons/foundations-problem-solving). Plan your solution before writing the code—then write the code—and lastly, ensure the code works before moving to the next step.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
+Remember to commit early and often! To refresh your memory, refer to the lesson about [commit messages](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages).
 
 1. Start a new Git repository for your project.
-2. Create a blank HTML document with a script tag.
-    - **Tip**: We highly recommend writing the code in an external JavaScript file and linking it to the HTML file. This game is played entirely from the console, so don't worry about writing anything else in the HTML file.
-3. Your game is going to play against the computer, so begin writing a new function called `getComputerChoice` that will randomly return either `"Rock"`, `"Paper"`, or `"Scissors"`. We'll use this function to make the computer play.
-    - **Tip**: Use the console to make sure this returns the expected output before moving to the next step!
-4. Write a new function called `playRound` that plays a single round of Rock Paper Scissors. This `playRound` function should have two parameters: `playerSelection` and `computerSelection`, both taking string arguments. Then, return a string that declares the winner of the round, like so: `"You Lose! Paper beats Rock"`
-    *   Make sure your `playerSelection` parameter is case-insensitive so that users can input `rock`, `ROCK`, `RocK`, or any other variation.
-   -  **Important note:** you want to `return` the results of `playRound` call, *not* `console.log` them. You're going to use what you `return` later on, so let's test this function by using console.log to see the results:
+1. Create a blank HTML document with a script tag.
+   <div class="lesson-note lesson-note--tip">
+   We recommend writing the code in an external JavaScript file and linking it to the HTML file. You play this game entirely on the console, so don't worry about writing anything else in the HTML file.
+   </div>
+1. Your game plays against the computer—you need a function that returns the computer choice:
+   1. Create a new function called `getComputerChoice`.
+   1. Make `getComputerChoice` *randomly* `return` one of the following string values: `"Rock"`, `"Paper"` or `"Scissors"`.
+   <div class="lesson-note lesson-note--tip">
+   Remember to test what your function returns with the browser dev tools or by using console.log.
+   </div>
+1. Your game plays turn by turn—you need a function that takes the human and computer choices—then returns the round winner:
+   1. Create a new function called `playRound`.
+   1. Define two parameters on `playRound`: `playerSelection` and `computerSelection`. Use those two parameters to take the human and computer choices as arguments.
+   1. Make `playRound` `return` a string value that represents the winner of the round, such as: `"You Lose! Paper beats Rock"`.
 
-      ~~~javascript
-      function playRound(playerSelection, computerSelection) {
-        // your code here!
-      }
+   ~~~javascript
+   function playRound(playerSelection, computerSelection) {
+  // your code here!
+   }
  
-      const playerSelection = "rock";
-      const computerSelection = getComputerChoice();
-      console.log(playRound(playerSelection, computerSelection));
-      ~~~
+   const playerSelection = "rock";
+   const computerSelection = getComputerChoice();
+   console.log(playRound(playerSelection, computerSelection));
+   ~~~
 
-5. Write a new function called `game` that plays a 5 round game, keeps the game's score, and reports a winner or loser at the end. Use the previous function *inside* this `game` function.
-    *   You have not officially learned how to "loop" over code to repeat function calls... If you already know about loops from somewhere else or feel like learning more, feel free to use them. If not, don't worry! Just call your `playRound` function 5 times in a row. In the next lesson, we will cover loops.
-    *   At this point, you should be using `console.log` to display the results of each round and the winner at the end.
-    *   Use the `prompt` function to get input from the user. [Read the docs here if you need to.](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-    *   Feel free to re-work your previous functions if you need to. Specifically, you might want to change the return value to something more useful.
-    *   Feel free to create more "helper" functions if you think they would be useful.
+1. Finally, your game plays for 5 rounds, and then report the winner or loser after those 5 rounds—you need a function that represents the entire game:
+   1. Create a new function called `game`.
+   1. Get the human player choice using `prompt` function. To learn more about `prompt`, refer to the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+   1. Put the previous function—`playRound`—inside `game`.
+   1. Play 5 rounds by calling `playRound` 5 times in a row.
+   <div class="lesson-note lesson-note--tip">
+   If you already know about loops or feel like learning more, feel free to use them. If not, don't worry! We cover loops in the next lesson. 
+   </div>
 
 </div>
