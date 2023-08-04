@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - How to use props and state in class components.
 - Highlight the uses of `this` in class components.
 
-### The whats and whys
+### Historical React component patterns
 
 In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way when React was introduced.
 
