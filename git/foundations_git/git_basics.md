@@ -32,7 +32,7 @@ This section contains a general overview of topics that you will learn in this l
 
 3.  Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
-    ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/01.png)
+    ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6f531e5c65077fe5897d36c270a90f0b4d7da7b/git/foundations_git/git_basics/imgs/01.png)
 
 4.  This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button. Then select the SSH option, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
 
