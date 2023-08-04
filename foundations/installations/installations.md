@@ -273,7 +273,7 @@ WSL is available on Windows 10 version 2004 and higher (Build 19041 and higher) 
 
 <div class="lesson-note">
 <h4>WSL and Linux instructions</h4>
-Because WSL is a full fledged Linux distrubtion, almost everything that the curriculum teaches about Linux is also applicable to WSL. In future lessons whenever there are instructions that differ by OS you should follow the Linux instructions, unless the lesson includes WSL specific instructions.
+Because WSL is a full fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL. In future lessons whenever there are instructions that differ by OS you should follow the Linux instructions, unless the lesson includes WSL specific instructions.
 </div>
 
 ### Step 1: Installations
