@@ -18,7 +18,7 @@ By now you've come far from your React-baby days, with tools like routers and te
 10. As usual, style your application so you can show it off! You have a host of options provided, already.
 11. Lastly, it's time to deploy it! Depending on what hosting solution you're using, you may need some additional configuration.
 
-    1.  **Netlify**: You need to add a `_redirects` file to the **public/** directory of your project. Copy the following to redirect all routes to the index page and let `react-router-dom` handle the rest.
+    1.  **Netlify**: You need to add a `_redirects` file to the `public/` directory of your project. Copy the following to redirect all routes to the index page and let `react-router-dom` handle the rest.
 
         ~~~txt
         /* /index.html 200
@@ -37,6 +37,8 @@ By now you've come far from your React-baby days, with tools like routers and te
         }
         ~~~
 
-    You can learn more about how these work at the [Netlify](https://docs.netlify.com/routing/redirects/) and [Vercel](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas) docs respectively.
+      3. **Cloudflare Pages**: As of the time of writing, unlike Netlify and Vercel, no additional steps are required as the default behaviour will correctly handle single page applications.
+
+    You can learn more about how these work at the  [Netlify](https://docs.netlify.com/routing/redirects/), [Vercel](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas) and [Cloudflare](https://developers.cloudflare.com/pages/platform/serving-pages/), docs respectively.
 
 </div>
