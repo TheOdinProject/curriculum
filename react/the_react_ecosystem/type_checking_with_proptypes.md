@@ -48,7 +48,7 @@ In this example, the component RenderName expects to receive a prop called `name
 
 ### Using defaultProps
 
-Another cool thing we can do with PropTypes is passing in default props:
+Another cool thing we can do in combination with PropTypes is passing in default props:
 
 ~~~javascript
 import React from 'react';
