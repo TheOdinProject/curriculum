@@ -265,15 +265,15 @@ Once you have successfully met both of these requirements, you should be able to
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL</summary>
+<summary class="dropDown-header">WSL2</summary>
 
-Windows Subsystem for Linux (usually abbreviated as WSL) lets you run a Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot.
+Windows Subsystem for Linux (usually abbreviated as WSL2) lets you run a Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot. We'll be using version 2 of WSL. This version is usually abbreviated as WSL2, which is the term we'll use to refer to it during the rest of the curricculum.
 
-WSL is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
 <div class="lesson-note">
-<h4>WSL and Linux instructions</h4>
-Because WSL is a full fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL. In future lessons whenever there are instructions that differ by OS you should follow the Linux instructions, unless the lesson includes WSL specific instructions.
+<h4>WSL2 and Linux instructions</h4>
+Because WSL2 is a full fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons whenever there are instructions that differ by OS you should follow the Linux instructions, unless the lesson includes WSL2 specific instructions.
 </div>
 
 ### Step 1: Installations
@@ -290,7 +290,7 @@ Hyper-V is required to get WSL to work however, so in order to use it you'll fir
 - Select **Hyper-V**, toggle the checkbox to checked, and click **OK**
 - When prompted, restart your computer
 
-#### Step 1.2: Installing WSL
+#### Step 1.2: Installing WSL2
 
 - Open PowerShell in administrator mode by searching for it in your applications, right clicking, and then selecting run as administrator
 - Enter the following command
@@ -307,26 +307,26 @@ Windows Terminal is an terminal application that lets you more easily customize 
 
 - Follow [Microsoft's guide](https://learn.microsoft.com/en-us/windows/terminal/install) to install Windows Terminal.
 
-#### Step 1.3.2: Setting WSL as default (Optional)
+#### Step 1.3.2: Setting WSL2 as default (Optional)
 
 Unless you are regularly using other terminals on your computer we recommend that you set WSL as the default terminal program when you open Windows Terminal. You can follow the [section on setting a default profile](https://learn.microsoft.com/en-us/windows/terminal/install#set-your-default-terminal-application) in the guide above to set it to Ubuntu.
 
-### Step 2 Opening WSL
+### Step 2 Opening WSL2
 
-On Windows there are two primary ways to open WSL: either via the terminal or via the app icon.
+On Windows there are two primary ways to open WSL2: either via the terminal or via the app icon.
 
-- If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL session by simply opening the terminal app.
+- If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL2 session by simply opening the terminal app.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; simply open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--warning">
-When opening WSL ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL, and messing around there can have unintended consequences
+When opening WSL2 ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences
 </div>
 
-### Step 3: WSL and systemd
+### Step 3: WSL2 and systemd
 
-`systemd` is a system and service manager for Linux that you'll use much later in the curriculum. While it doesn't work on WSL by default, you can enable it.
+`systemd` is a system and service manager for Linux that you'll use much later in the curriculum. While it doesn't work on WSL2 by default, you can enable it.
 
-- Open a new WSL terminal window.
+- Open a new WSL2 terminal window.
 - Enter the following command:
 
 ~~~bash
@@ -347,7 +347,7 @@ systemd=true
 
 - Press <kbd>Ctrl</kbd> + <kbd>O</kbd>, then when prompted with which file name to write to press <kbd>Enter</kbd>, and then press <kbd>Ctrl</kbd> + <kbd>X</kbd> to exit `nano`
 - Close all open WSL terminal windows
-- Run the following command in Powershell (**not** WSL) to restart WSL
+- Run the following command in Powershell (**not** WSL2) to restart WSL2
 
 ~~~powershell
 wsl.exe --shutdown
@@ -439,7 +439,7 @@ _(**note**: Chrome is going to use this terminal to output various messages and 
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL</summary>
+<summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Download Google Chrome
 
