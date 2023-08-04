@@ -292,7 +292,7 @@ Hyper-V is required to get WSL to work however, so in order to use it you'll fir
 
 #### Step 1.2: Installing WSL2
 
-- Open PowerShell in administrator mode by searching for it in your applications, right clicking, and then selecting run as administrator
+- Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
 - Enter the following command
 
 ~~~powershell
