@@ -333,8 +333,8 @@ When opening WSL2 ensure that you do not see /mnt/c at the start of the line. /m
 sudo nano /etc/wsl.conf
 ~~~
 
-- When prompted for a password enter the password you set earlier. You may notice that while entering your password you don't see any visual feedback. This is an intentional security measure, and nothing to worry about.
-- You'll be shown `nano`, a text editor for Linux. Enter the following two lines
+- When prompted for a password enter the password you set earlier. As mentioned before you'll see no visual feedback when entering it.
+- You'll be shown `nano`, a text editor for Linux. Enter the following two lines. They might be already present, in which case you can ignore the rest of this step and simply exit `nano` (press <kbd>Ctrl</kbd> + <kbd>X</kbd>).
 
 ~~~
 [boot]
@@ -353,7 +353,7 @@ systemd=true
 wsl.exe --shutdown
 ~~~
 
-- `systemd` should now be working. You can test this by running `systemctl list-unit-files --type=service`, which should return a long list of services.
+- `systemd` should now be working. You can test this by opening a new WSL2 terminal window and running `systemctl list-unit-files --type=service`, which should return a long list of services. You can get out of the output by pressing <kbd>q</kbd>.
 </details>
 
 ### 2: Google Chrome installation
