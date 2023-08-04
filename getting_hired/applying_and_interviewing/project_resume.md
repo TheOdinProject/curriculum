@@ -17,6 +17,6 @@ Remember: ONE PAGE.
 * [Formatting could use some work, but here's an example resume from CareerCup.com](http://www.careercup.com/resume)
 * [Another great (totally free) resume builder](https://flowcv.io/)
 
-### Optional Reading
+### Optional reading
 
 * [Getting Your Résumé Read, by Joel Spolsky](http://www.joelonsoftware.com/articles/ResumeRead.html)

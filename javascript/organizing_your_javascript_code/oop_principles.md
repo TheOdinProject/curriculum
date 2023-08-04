@@ -4,7 +4,7 @@ By this point, you will have learned and had a chance to practice the most commo
 
 This whole series of lessons has been about the "Object Oriented Programming" paradigm (OOP). The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -16,7 +16,7 @@ Luckily there are several concepts and principles that can guide us into making 
 
 As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on, keep these things in mind when crafting new projects.
 
-### Single Responsibility
+### Single responsibility
 
 As you craft your objects, one of the most important things to remember is the __Single Responsibility Principle__ which states that a class (or object or module... you get the point) should only have _one_ responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility.
 
@@ -58,7 +58,7 @@ Another way to think about the Single Responsibility Principle is that a given m
 The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. You will read more about these principles in the assignment articles below. 
 
 
-### Loosely Coupled Objects
+### Loosely coupled objects
 
 Obviously, all of our objects are intended to work together to form our final application. You should take care, however, to make sure that your individual objects can stand alone as much as possible. __Tightly coupled__ objects are objects that rely so heavily on each other that removing or changing one will mean that you have to completely change another one - a real bummer.
 
@@ -76,7 +76,7 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 2. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -84,7 +84,7 @@ This section contains questions for you to check your understanding of this less
 - [Briefly explain the additional SOLID principles.](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 - [Explain what "tightly coupled" objects are and why we want to avoid them.](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

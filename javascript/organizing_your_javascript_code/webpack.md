@@ -3,7 +3,7 @@ We've already introduced webpack in a previous lesson. It is the go-to tool acro
 
 In our last lesson, we covered the first half of what webpack can do for you: bundling your modules. Another amazing feature is webpack's ability to process and manipulate your code during the compilation step. So, for example, if you would like to use [Sass](http://sass-lang.com/) to write your CSS, webpack can do that for you. Webpack can manage your images and compress and optimize them for use on the web. Webpack can [minify and uglify](https://stackoverflow.com/questions/33708197/does-it-make-sense-to-do-both-minify-and-uglify/33708348) your code. There are tons of things webpack can do, but to access these functions we need to learn more about loaders and plugins.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

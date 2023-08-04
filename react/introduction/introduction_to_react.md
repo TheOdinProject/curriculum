@@ -2,21 +2,21 @@
 
 This lesson will provide you with information on what React is, its brief history, and why we're choosing to cover it in our curriculum.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand what is React
 
-### What Is React?
+### What is React?
 
-React according to their [official website](https://react.dev/) is "The library for web and native interfaces" however lets break this down a bit further.
+React according to their [official website](https://react.dev/) is "The library for web and native interfaces" however let's break this down a bit further.
 
 Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier, not to be confused with frameworks however as you'll be reading the differences later on in the lesson. This code can be reused/reimplemented in our own codebases to achieve complex tasks. That said, the terms library and framework are often used interchangeably, so don't worry too much about the difference.
 
-Similarly, React provides powerful primitives (built-in functions/modules) that allows us to build user interfaces of varying complexities. Throughout this course, we'll learn all about the functionality React provides and learn to build cool applications.
+Similarly, React provides powerful primitives (built-in functions/modules) that allow us to build user interfaces of varying complexities. Throughout this course, we'll learn all about the functionality React provides and learn to build cool applications.
 
-### Why Cover React?
+### Why cover React?
 
 React is one of the most powerful, widely used JavaScript libraries.
 
@@ -28,7 +28,7 @@ Just to name a few reasons on why to learn React:
 - Reusability of components
 - Well supported due to its popularity and large community
 - React is not opinionated, which means that it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
-- Smaller learning curve, especially when you already have a good grasp of JavaScript and HTML/CSS from our previous lessons.
+- A smaller learning curve, especially when you already have a good grasp of JavaScript and HTML/CSS from our previous lessons.
 
 If you need more convincing, the recent [2023 StackOverflow Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
@@ -40,20 +40,20 @@ If you need more convincing, the recent [2023 StackOverflow Developer Survey](ht
 
 2.  Glance at [this article which outlines the history of React](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/).
 
-3.  Read this [FreeCodeCamp article discussing the differences between a JavaScript library and framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/).
+3.  Read this [FreeCodeCamp article discussing the differences between a JavaScript library and a framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/).
 
 4.  Lastly, skim this [in-depth article which explains the major benefits of using React](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html).
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#what-is-react">What is the purpose of React?</a>
-- <a class="knowledge-check-link" href="#why-cover-react">What are benefits of using React?</a>
+- <a class="knowledge-check-link" href="#why-cover-react">What are the benefits of using React?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- If you are interested in learning more about React's history, checkout [this documentary on React's origin story by Honeypot](https://www.youtube.com/watch?v=8pDqJVdNa44)
+- If you are interested in learning more about React's history, check out [this documentary on React's origin story by Honeypot](https://www.youtube.com/watch?v=8pDqJVdNa44)

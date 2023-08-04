@@ -10,7 +10,7 @@ Web developers are in high demand, generally have a good work/life balance, and 
 
 For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
 
-### Types of Web Developers
+### Types of web developers
 
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
@@ -24,7 +24,7 @@ Back-end developers use programming languages like Java, Python, Ruby, and JavaS
 
 For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
-### Types of Careers
+### Types of careers
 
 Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
@@ -38,7 +38,7 @@ As a consultant for a web consultancy, you would give up some of your freelancin
 
 Finally, large, older companies still need web developers. These companies offer a good work/life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
 
-### Tools of the Trade
+### Tools of the trade
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
@@ -89,7 +89,7 @@ And it might even be life changing, too.
 
 *What are you waiting for?*
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

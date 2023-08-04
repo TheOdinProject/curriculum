@@ -4,7 +4,7 @@ This project will finally give you a chance to tie together everything you've le
 
 Have you ever played [Where's Waldo](http://en.wikipedia.org/wiki/Where's_Wally%3F)? If not, that's okay! It's a pretty simple concept: you are presented with a busy and crowded illustration that contains many different people, objects, and places. Your task is to find a particular character named Waldo, who is hidden somewhere in the illustration.
 
-### Your Task
+### Your task
 
 Build an app that, when it's finished, will feel very similar to a photo tagging app. You'll start with a large photograph containing several elements the user is meant to find, e.g. Waldo, The Wizard, Wilma etc. You can even name your own if you'd like to use custom pictures. The user will make selections for each character and they will be given feedback on whether they are correct or not.
 
@@ -12,7 +12,7 @@ To start with, you'll need to choose a photo and identify where exactly each per
 
 When the user selects one of these characters, you should check with your backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
 
-Keep track of how long it takes from when the photo is first loaded to when the user finally identifies all of the characters. It is advisable to do this on the server side, otherwise the user could hack their score (but you should know this by now). Once a round is complete, ask the user for their name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of! 
+Keep track of how long it takes from when the photo is first loaded to when the user finally identifies all of the characters. It is advisable to do this on the server side, otherwise the user could hack their score (but you should know this by now). Once a round is complete, ask the user for their name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
 ### Assignment
 
@@ -27,6 +27,6 @@ Keep track of how long it takes from when the photo is first loaded to when the 
 1. Push your solution to GitHub and deploy it to any of the hosting options. Additionally, submit your solutions below. This is a serious project, congratulations!
 </div>
 
-### Extra Credit 
+### Extra credit
 
 1. Load many images into your database and allow the user to select from among them before starting the game.

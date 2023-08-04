@@ -2,7 +2,7 @@
 
 Before you can understand how to program the web, you need a more rigorous understanding of the web itself than you likely have now. These concepts provide a more holistic understanding of the ecosystem in which you will be working and will enable you to talk intelligently with other developers about your work.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -25,7 +25,7 @@ This section contains a general overview of topics that you will learn in this l
   6. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
 </div> 
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -45,7 +45,7 @@ This section contains questions for you to check your understanding of this less
 *   [Which browser are you currently using?](https://www.whatsmybrowser.org/)
 *   [In your own words, explain what happens when you run a search on google.com.](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

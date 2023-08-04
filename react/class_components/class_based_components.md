@@ -2,7 +2,7 @@
 
 All the components by far, have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and how concepts like props and state are used in one.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - How to use props and state in class components.
 - Highlight the uses of `this` in class components.
 
-### The What's And Whys
+### Historical React component patterns
 
 In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way when React was introduced.
 
@@ -18,7 +18,7 @@ If you look into any older React codebase, you'll notice a lot of classes. These
 
 In your career, chances are, you will be dealing with legacy code, so there will be days where you would be dealing with class components. Let's peek into the intricacies of a class-based component, and how they work.
 
-### Building A Class Component
+### Building a class component
 
 As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, re-usable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
 
@@ -67,7 +67,7 @@ export default FunctionalInput;
 
 That was a solid chunk of code. Take a while, sip some water and read it a couple of times.
 
-#### The Start Of A Class-Based Component
+#### The start of a class-based component
 
 Now, let's try to recreate it as a class-based component. The first thing it should have is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by simply extending the given class, as shown below:
 
@@ -91,7 +91,7 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-#### The Use Of A Constructor And Props
+#### The use of a constructor and props
 
 A class is generally incomplete without a constructor, so let's add one.
 
@@ -112,7 +112,7 @@ class ClassInput extends Component {
 export default ClassInput;
 ~~~
 
-#### Way To Render JSX
+#### How you can render JSX
 
 Now that the props can be accessed inside of the class component, the next issue is to find a way to render the JSX.
 
@@ -150,7 +150,7 @@ export default ClassInput;
 
 Notice how the props get provided by `this`, unlike the functional component that we saw, initially?
 
-#### How To Use State And Manage Context
+#### How to use state and manage context
 
 Next comes the state. In a class-based component, the state gets initialized as a part of the constructor.
 
@@ -273,7 +273,7 @@ For the purposes of this assignment, we take the simple class-based component th
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -282,7 +282,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
 - <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

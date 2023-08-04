@@ -61,7 +61,7 @@ In the above example, notice how we had to copy the existing state object. Herei
 
 ### How state updates
 
-State updates are asynchronous. What this implies is whenever you call the `setState` function, React will apply the update in the **next** component render. This concepts takes a while to wrap your head around. With a lot of practice, you'll get the hang of it no time.
+State updates are asynchronous. What this implies is whenever you call the `setState` function, React will apply the update in the **next** component render. This concept takes a while to wrap your head around. With a lot of practice, you'll get the hang of it no time.
 
 Remember, state variables aren't reactive, the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 

@@ -2,7 +2,7 @@
 
 You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your React apps.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -42,7 +42,7 @@ If you were to take some valid HTML and copy it straight into your React compone
          <h1>Example h1</h1>
          <h2>Example h2</h2>
        </>
-       // Could replace <></>with <div></div>
+       // Could replace <></> with <div></div>
      );
    }
    ~~~
@@ -212,22 +212,22 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React beta docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
+1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
 
-2.  Read through the React beta docs [Javascript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
+2.  Read through the React docs [Javascript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#what-is-jsx">What is JSX?</a>
 - <a class="knowledge-check-link" href="#why-do-we-use-jsx">Why do we use JSX?</a>
-- <a class="knowledge-check-link" href="#converting-html-to-jsx">What are the three rules of JSX?</a>
+- <a class="knowledge-check-link" href="#rules-of-jsx">What are the three rules of JSX?</a>
 - <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world">How do you reference a dynamic value inside of your JSX?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

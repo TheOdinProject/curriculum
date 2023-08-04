@@ -4,7 +4,7 @@ So far, you've learned how to create a grid, adjust the sizes of the tracks, and
 
 In this lesson, you will learn about some more advanced Grid properties that can help you do this.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you will be able to:
 
@@ -27,15 +27,15 @@ We're going to approach this lesson hands-on. Let's set up a grid with five colu
 
 In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that _isn't_ related to the lesson so you can understand why it is being used.
 
-#### `.grid-item, p, img` selectors
+#### grid-item, p, img selectors
 
 All the properties here are simply to make our grid items look a bit nicer. They are all relatively straightforward, so no need to dive into specifics.
 
-#### `.grid-container`
+#### grid-container
 
 For our container, we are obviously using `display: grid` to render the container as a CSS Grid. But the next property might be unfamiliar to you: `resize: both`. This is a property that allows the user to resize the container by clicking and dragging from the bottom right corner. This will be beneficial to us when we start using properties that resize our grid tracks based on the size of the grid.
 
-**Change Zoom Levels:** Make sure to view the CodePen embeds at 0.5x or 0.25x so that there's room to resize the container. 
+**Change zoom levels:** Make sure to view the CodePen embeds at 0.5x or 0.25x so that there's room to resize the container.
 
 We use `overflow: auto` to enable scrolling if we resize the container to be smaller than our grid can accommodate.
 
@@ -136,7 +136,7 @@ You can also mix static units (like `px`) and dynamic units (like `fr`):
 
 You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
 
-### Minimum and Maximum Track Sizes: min() and max()
+### Minimum and maximum track sizes: min() and max()
 
 When we resize our grid super small, it is reassuring to know that the browser will stop the item from shrinking beyond the `min-content` value. However, we really don't want to rely on that most of the time. It's much better for you to explicitly decide as a developer how small and large your content should be, even in the most extreme situations.
 
@@ -173,7 +173,7 @@ Conversely, the grid column size will be calculated based on the larger of the t
 
 ### Dynamic minimum and maximum sizes
 
-#### `minmax()`
+#### minmax()
 
 `minmax()` is a CSS function that is specifically used with Grid. It can only be used with the following CSS properties:
 
@@ -205,7 +205,7 @@ With our `grid-template-columns` set with `minmax()` values, each grid item's wi
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-#### `clamp()`
+#### clamp()
 
 Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not just within a grid container. As with `min()` and `max()`, we learned about it in a previous lesson, but let's do a quick review. The syntax is as follows:
 
@@ -279,7 +279,7 @@ Notice how when we resize, the columns automagically know how many will fit acro
 
 So what's going on here specifically with `repeat(auto-fit, minmax(150px, 1fr));`? Simple! Remember that `auto-fit` will return the **highest positive integer** without overflowing the grid. So first, the browser has to know how wide our grid is: in this case, it's just the window's width (minus margins) because we didn't explicitly set it. For the sake of this example, let's pretend like our window is currently `500px` wide. Second, the browser needs to know how many grid column tracks could possibly fit in that width. To do this, it uses the minimum value in our `minmax()` function, since that will yield the highest number of items, which is `150px`. If our window is `500px` wide, this means our grid will render 3 columns. But wait, there's more! Once the browser has determined how many columns we can fit, it then resizes our columns up to the maximum value allowed by our `minmax()` function. In this case, our max size is `1fr`, so all three columns will be given an equal allotment of the space available. As we resize our window, these calculations happen in realtime and the result is what you see in the above example!
 
-#### What about `auto-fill`?
+#### What about auto-fill?
 
 In most cases, `auto-fill` is going to work exactly the same way as `auto-fit`. The difference is only noticeable when there are fewer items than can fill up the entirety of the grid row once. When the grid is expanded to a size where another grid item _could_ fit, but there aren't any left, `auto-fit` will keep the grid items at their `max` size. Using `auto-fill`, the grid items will snap back down to their `min` size once the space becomes available to add another grid item, even if there isn't one to be rendered. They will continue their pattern of growing to `max` and snapping back to their `min` as the grid expands and more room becomes available for new grid tracks.
 
@@ -302,6 +302,7 @@ To see this in action, look at the following 2 examples, the first with `auto-fi
 And that's about it! Congratulations, if you've made it this far, you are well on your way to becoming a Grid Master!
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
@@ -311,7 +312,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 2. grid-layout-3
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -325,11 +326,10 @@ This section contains questions for you to check your understanding of this less
 - [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
 - [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
 - Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
-

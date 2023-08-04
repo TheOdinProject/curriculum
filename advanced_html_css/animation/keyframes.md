@@ -2,13 +2,13 @@
 
 Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
 
-### Learning Outcomes
+### Learning outcomes
 
 * The differences between CSS transitions and CSS animations
 * How to configure animation sub-properties
 * How to sequence an animation using keyframes
 
-### Animations vs Transitions
+### Animations vs transitions
 
 Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions simply do not have. A few of the differences include:
 
@@ -20,7 +20,7 @@ Animations let you animate elements from one style configuration to another. Doe
 
 All in all, both animations and transitions have their use, so in addition to considering the above differences you should also use your best judgment. For example, if you need to change the opacity of an element when it is active then an animation would be overkill, but if you need to carry out something more complicated, animations will provide you with the tools you need. 
 
-### Animation Properties
+### Animation properties
 
 Let's see an animation in action to see what we've been talking about.
 
@@ -115,25 +115,21 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Code along with the the MDN article for [using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
+1. Code along with [this MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 2. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
+3. Now let's make some cool animations! Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do the exercises in the 'animation' folder in this order:
+   1. button-hover
+   2. pop-up
+   3. dropdown-menu
 </div>
 
-### Practice
-
-Now let's make some cool animations! Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do the exercises in the 'animation' folder in this order:
-
-1. button-hover
-2. pop-up
-3. dropdown-menu
-
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
 - [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental if you need to dive deeper into something.
