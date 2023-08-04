@@ -37,8 +37,8 @@ By now you've come far from your React-baby days, with tools like routers and te
         }
         ~~~
 
-      3. **Cloudflare Pages**: As of the time of writing, unlike Netlify and Vercel, no additional steps are required as the default behaviour will correctly handle single page applications.
+    3.  **Cloudflare Pages**: As of the time of writing, unlike Netlify and Vercel, no additional steps are required as the default behaviour will allow `react-router-dom` to correctly handle redirects.
 
-    You can learn more about how these work at the  [Netlify](https://docs.netlify.com/routing/redirects/), [Vercel](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas) and [Cloudflare](https://developers.cloudflare.com/pages/platform/serving-pages/) docs respectively.
+    You can learn more about how these work at the [Netlify](https://docs.netlify.com/routing/redirects/), [Vercel](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas) and [Cloudflare](https://developers.cloudflare.com/pages/platform/serving-pages/) documentation respectively.
 
 </div>
