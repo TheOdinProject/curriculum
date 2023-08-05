@@ -321,39 +321,6 @@ On Windows there are two primary ways to open WSL2: either via the terminal or v
 <div class="lesson-note lesson-note--warning">
 When opening WSL2 ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences
 </div>
-
-### Step 3: WSL2 and systemd
-
-`systemd` is a system and service manager for Linux that you'll use much later in the curriculum. While it doesn't work on WSL2 by default, you can enable it.
-
-- Open a new WSL2 terminal window.
-- Enter the following command:
-
-~~~bash
-sudo nano /etc/wsl.conf
-~~~
-
-- When prompted for a password enter the password you set earlier. As mentioned before you'll see no visual feedback when entering it.
-- You'll be shown `nano`, a text editor for Linux. Enter the following two lines. They might be already present, in which case you can ignore the rest of this step and simply exit `nano` (press <kbd>Ctrl</kbd> + <kbd>X</kbd>).
-
-~~~
-[boot]
-systemd=true
-~~~
-
-- It should now look like this:
-
-![Nano window](installations/imgs/21_nano_systemd.png)
-
-- Press <kbd>Ctrl</kbd> + <kbd>O</kbd>, then when prompted with which file name to write to press <kbd>Enter</kbd>, and then press <kbd>Ctrl</kbd> + <kbd>X</kbd> to exit `nano`
-- Close all open WSL terminal windows
-- Run the following command in Powershell (**not** WSL2) to restart WSL2
-
-~~~powershell
-wsl.exe --shutdown
-~~~
-
-- `systemd` should now be working. You can test this by opening a new WSL2 terminal window and running `systemctl list-unit-files --type=service`, which should return a long list of services. You can get out of the output by pressing <kbd>q</kbd>.
 </details>
 
 ### 2: Google Chrome installation
