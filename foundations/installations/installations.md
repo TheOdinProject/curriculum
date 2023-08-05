@@ -325,6 +325,10 @@ On Windows there are three primary ways to open WSL2.
 - Otherwise you can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; simply open it to start a new terminal session.
 
+<div class="lesson-note lesson-note--tip">
+You might notice than when you open WSL2 via Windows Terminal you'll see a window with a different color scheme and a different icon then when opening by searching for Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two/
+</div>
+
 <div class="lesson-note lesson-note--warning">
 When opening WSL2 ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences
 </div>
