@@ -254,7 +254,7 @@ In the good example, no comments are needed at all. The use of descriptive funct
 
 _This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
 
-Let's look at a one final example, where a comment serves a good purpose:
+Let's look at one final example, where a comment serves a good purpose:
 
 ~~~javascript
 
