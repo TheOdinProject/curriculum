@@ -33,7 +33,7 @@ Here is where we reiterate, **the chicken needs to be reheated**. In a general m
 
 ### A Reactive solution
 
-While client-side routing allows for nicer, app-like interactions (since you are controlling the routes, you can make fancy CSS animations across route changes), a lot of caveats can be missed. Browsers reload notify screen-readers of new content to read, so you will need to notify screen-readers of route updates manually. However, with the help of a robust library, you can often address these concerns!
+While client-side routing allows for nicer, app-like interactions (since you are controlling the routes, you can make fancy CSS animations across route changes), a lot of caveats can be missed. When a browser reloads, it notifies screen-readers of new content to read, but in the case of client-side routing, you will need to notify screen-readers of route updates manually. However, with the help of a robust library, you can often address these concerns!
 
 React Router is a standard routing library for React applications. By using React Router, we can specify React components, that can be rendered based on the route, and so much more. Let's dive in!
 
