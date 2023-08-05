@@ -276,16 +276,14 @@ Because WSL2 is a full fledged Linux distribution, almost everything that the cu
 
 ### Step 1: Installations
 
-#### Step 1.1: WSL and Hyper-V
+#### Step 1.1: WSL2 and Virtual Machine Platform
 
-If you've previously used another software to run a virtual machine, such as Oracle VirtualBox, you might have turned off Hyper-V to improve performance of the virtual machine.
-
-Hyper-V is required to get WSL to work however, so in order to use it you'll first have to re enable Hyper-V, which may interfere with existing installations.
+In order to make WSL2 work we'll first need to ensure both `Windows Subsystem for Linux` and `Virtual Machine Platform` are enabled on your system.
 
 - Search for Control Panel in your applications, and open it
 - Select **Programs**
 - Select **Turn Windows Features on or off** (under the Programs and Features header)
-- Select **Hyper-V**, toggle the checkbox to checked, and click **OK**
+- Ensure both `Windows Subsystem for Linux` and `Virtual Machine Platform` are toggled on, and if not toggle them on.
 - When prompted, restart your computer
 
 #### Step 1.2: Installing WSL2
