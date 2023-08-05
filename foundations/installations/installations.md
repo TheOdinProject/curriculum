@@ -303,17 +303,24 @@ wsl --install
 
 Windows Terminal is an terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
 
-- Follow [Microsoft's guide](https://learn.microsoft.com/en-us/windows/terminal/install) to install Windows Terminal.
+- [Install Window's Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
 
 #### Step 1.3.2: Setting WSL2 as default (Optional)
 
-Unless you are regularly using other terminals on your computer we recommend that you set WSL as the default terminal program when you open Windows Terminal. You can follow the [section on setting a default profile](https://learn.microsoft.com/en-us/windows/terminal/install#set-your-default-terminal-application) in the guide above to set it to Ubuntu.
+Unless you are regularly using other terminals on your computer we recommend that you set WSL as the default terminal program when you open Windows Terminal.
+
+- Open Windows Terminal by searching for terminal in your applications.
+- Click the dropdown next to the new tab button (at the top of the windows), and select Settings.
+- You should see a Default Profile option with a dropdown next to it.
+- In the dropdown select Ubuntu
+- Click save at the bottom of the page
 
 ### Step 2 Opening WSL2
 
-On Windows there are two primary ways to open WSL2: either via the terminal or via the app icon.
+On Windows there are three primary ways to open WSL2.
 
 - If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL2 session by simply opening the terminal app.
+- Otherwise you can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; simply open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--warning">
