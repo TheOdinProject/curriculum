@@ -297,7 +297,9 @@ Hyper-V is required to get WSL to work however, so in order to use it you'll fir
 wsl --install
 ~~~
 
-- After a few minutes you'll be prompted to enter a new username. This username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
+- After a few minutes you'll be prompted to reboot your computer; do so.
+- You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
+- When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter some form of password. Rest assured that you are actually inputting something.
 
 #### Step 1.3.1: Install Windows Terminal (Windows 10 only)
 
