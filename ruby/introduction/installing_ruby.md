@@ -284,6 +284,23 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 </details>
 
+
+<details markdown="block">
+<summary class="dropDown-header">Windows
+</summary>
+There are two ways to go for Windows:
+
+way 1 : 
+download ruby installer <a>https://rubyinstaller.org/downloads/</a>
+and follow the instruction on this website <a>https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/</a>
+
+way 2 :
+
+Use WSL( windows subsystem for Linux) and after adding Ubuntu to your windows, you can follow the above instruction under ( Linux ) 
+
+
+</details>
+
 #### Extras
 
 If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
