@@ -94,7 +94,7 @@ describe Calculator do
 end
 ~~~
 
-<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://web.archive.org/web/20230316111111/https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
+<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
 ~~~ruby
   expect(calculator.add(5, 2)).to eql(7)
@@ -252,5 +252,5 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#keyword-describe'>What does the keyword `describe` define?</a>
 - <a class='knowledge-check-link' href='#keyword-it'>What does the keyword `it` define?</a>
 - <a class='knowledge-check-link' href='#expect-clauses'>How many expect clauses can you write for one test case?</a>
-- <a class='knowledge-check-link' href='https://web.archive.org/web/20230316111111/https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers'>What are some of RSpec's equality matchers?</a>
+- <a class='knowledge-check-link' href='http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/'>What are some of RSpec's equality matchers?</a>
 - <a class='knowledge-check-link' href='#require'>How do we tell RSpec where to find the code to be tested?</a>
