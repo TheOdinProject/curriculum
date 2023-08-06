@@ -146,7 +146,7 @@ And now, we don't get the browser reloading every time we click the link on the 
 
 ### Nested routes, outlets and dynamic segments
 
-Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
+Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes come into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
 
 ~~~jsx
 import { Link } from "react-router-dom";
