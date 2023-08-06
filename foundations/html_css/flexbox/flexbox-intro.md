@@ -87,4 +87,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 * [This Flexbox tutorial](https://internetingishard.netlify.app/html-and-css/flexbox/index.html) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
 
-* For a more interactive explanation and example on Flexbox, try this [Scrim](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw).
+* For a more interactive explanation and example on Flexbox, try [this Scrim](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw).

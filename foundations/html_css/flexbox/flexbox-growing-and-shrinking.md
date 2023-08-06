@@ -99,4 +99,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *  [Check out this video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explaining how flexbox works and why.
 
-* For an interactive explanation and demo of the flex shorthand, check out this [Scrim](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv).
+* For an interactive explanation and demo of the flex shorthand, check out [this Scrim](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv).
