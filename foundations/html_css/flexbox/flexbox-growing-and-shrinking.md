@@ -80,10 +80,6 @@ It _is_ possible to get fancy, and set up layouts where some columns relate to e
 
 2. This [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values as well as introduces some new syntax that hasn't been covered in the previous article.
 
-3. Watch this interactive Scrim for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario:
-
-<iframe src="https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 </div>
 
 ### Knowledge check
@@ -100,3 +96,5 @@ This section contains helpful links to related content. It isn’t required, so 
 *  [Check out this video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explaining how flexbox works and why.
 
 * For an interactive explanation and demo of the flex shorthand, check out [this Scrim](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv).
+
+* Watch [this interactive Scrim](https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv) for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario.
