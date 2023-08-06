@@ -267,7 +267,7 @@ Once you have successfully met both of these requirements, you should be able to
 <details markdown="block">
 <summary class="dropDown-header">WSL2</summary>
 
-Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distrubtion from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
 <div class="lesson-note">
 <h4>WSL2 and Linux instructions</h4>
