@@ -24,11 +24,6 @@ In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`,
 
 Very often you see the flex shorthand defined with only _one_ value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
 
-For an interactive explanation and demo of the flex shorthand, check out this Scrim:
-
-<iframe src="https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
-
 #### Flex-grow
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
@@ -103,3 +98,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 *  [Check out this video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explaining how flexbox works and why.
+
+* For an interactive explanation and demo of the flex shorthand, check out this [Scrim](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv).
