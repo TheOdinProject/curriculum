@@ -110,7 +110,7 @@ The following is an infinite loop, can you guess why? Drop by in our [Discord ch
 
 ~~~jsx
 function Time() {
-   const [time, setTime] = useState();
+   const [time, setTime] = useState(new Date());
 
    setTime(new Date());
 
