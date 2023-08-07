@@ -96,4 +96,4 @@ This section contains helpful links to other content. It isn't required, so cons
 2. The [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) for Promises.  It might not be the best resource for _learning_ all about them, but once you've read a more friendly article or tutorial, this will probably be the place you return to for a refresher.
 3. This [ES6 Promises video](https://www.youtube.com/watch?v=vQ3MoXnKfuQ) and [Promises by The Net Ninja](https://www.youtube.com/watch?v=yswb4SkDoj0) are both nice introductions to Promises if you need more repetition.
 4. This [Understanding JavaScript Promises Tutorial](https://www.digitalocean.com/community/tutorials/understanding-javascript-promises) is another good introduction.
-5. For a more interactive explanation and example, try [Scrim](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up) (let us know what you think of these).
+5. For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
