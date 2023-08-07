@@ -1,6 +1,6 @@
 ### Introduction
 
-There are a few extremely common types of data that you will encounter in JavaScript, and these lessons on fundamentals will give us a really strong foundation in all of them.  Before we start digging deep, however, [this article](http://javascript.info/types) will give you a quick overview of the most common ones.
+There are a few extremely common types of data that you will encounter in JavaScript, and these lessons on the fundamentals will give you a really strong foundation in all of them. However, before we start digging deep, [this article](http://javascript.info/types) will provide you with a quick overview of the most common ones.
 
 ### Lesson overview
 
@@ -22,29 +22,29 @@ Depending on what kind of work you're doing, you might end up working more with 
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
 2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp) page near the bottom, and do the exercises at the end!
-3. Vocabulary time: a __method__ is a bit of functionality that is built into the language or into specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you learned a few methods that can be used on strings, such as `replace` and `slice`. An exhaustive list of methods that can be used on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+3. Vocabulary time: a __method__ is a bit of functionality built into the language or specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. An exhaustive list of methods usable on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 ### Conditionals
 
-Now it's time for the fun stuff...  So far we haven't done much with our programming that you couldn't do with simple math skills.  Sure, we've told our computer how to do the math, so that makes it quicker, but the essence of programming is teaching the computer how to make decisions in order to do more involved things.  Conditionals are how we do that.
+Now it's time for the fun stuff...  So far, we haven't done much with our programming that you couldn't do with simple math skills. Sure, we've told our computer how to do the math, which makes it quicker, but the essence of programming is teaching the computer how to make decisions to do more involved things. Conditionals are how we do that.
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
-3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators. A little heads up regarding this reading's tasks; there will be questions where you see `alert()` (with a number or string inside of the parenthesis), what's happening here will be discussed later in the curriculum. Some of the answers may not make sense now but they are accurate and will come to be understood as you progress in the curriculum. Don't worry too much about it now!
+3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators. A little heads up regarding this reading's tasks: there will be questions where you see `alert()` with a number or string inside the parenthesis. What's happening here will be discussed later in the curriculum. Some of the answers may not make sense now, but they are accurate, and you will understand them as you progress in the curriculum. Don't worry too much about it now!
 4. [This article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
 5. [This article](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
-6. [This article](https://javascript.info/switch) teaches you about the `switch` statement, which comes in handy when you have multiple conditions.
+6. [This article](https://javascript.info/switch) teaches you about the `switch` statement, which is handy when you have multiple conditions.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-To give you a good bit of practice, we have created some replit.com exercises for you to play with. We believe that it's best to practice programming on your _own_ computer, rather than in an online environment, but we'll get to that soon enough.
+To give you a good bit of practice, we have created replit.com exercises for you to play with. We believe it's best to practice programming on your _own_ computer rather than in an online environment, but we'll get to that soon enough.
 
-Be sure to do the lessons in order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
+Be sure to do the lessons in the order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-To get started, create a free replit account and click "Fork" or "Remix" in order to have access to the exercises.
-Note: Feel free to browse the files on the left column in order to gain familiarity with it.
+To get started, create a free replit account and click "Fork" or "Remix" to access the exercises.
+Note: Feel free to browse the files on the left column to gain familiarity with it.
 
 - [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
   - In this exercise, you will be working out of the file called troubleshooting.js
@@ -59,7 +59,7 @@ Note: Feel free to browse the files on the left column in order to gain familiar
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
 
 - [What are the eight data types in JavaScript?](https://javascript.info/types#summary)
 - [Which data type is NOT primitive?](https://javascript.info/types#objects-and-symbols)
@@ -70,7 +70,7 @@ This section contains questions for you to check your understanding of this less
 - [How do you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#concatenating_strings)
 - [How do you use escape characters in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#escaping_characters_in_a_string)
 - [What is the difference between the slice/substring/substr string methods?](https://www.w3schools.com/js/js_string_methods.asp)
-- [What are the three logical operators and what do they stand for?](http://javascript.info/logical-operators)
+- [What are the three logical operators, and what do they stand for?](http://javascript.info/logical-operators)
 - [What are the comparison operators?](https://javascript.info/comparison)
 - [What are truthy and falsy values?](https://javascript.info/ifelse#boolean-conversion)
 - [What are the falsy values in JavaScript?](https://javascript.info/ifelse#boolean-conversion)
