@@ -311,8 +311,8 @@ Unless you are regularly using other terminals on your computer we recommend tha
 - Open Windows Terminal by searching for terminal in your applications.
 - Click the dropdown next to the new tab button (at the top of the windows), and select Settings.
 - You should see a Default Profile option with a dropdown next to it.
-- In the dropdown select Ubuntu
-- Click save at the bottom of the page
+- In the dropdown select Ubuntu.
+- Click save at the bottom of the page.
 
 ### Step 2 Opening WSL2
 
@@ -346,11 +346,11 @@ Choose your Operating System:
 #### Step 1: Download Google Chrome
 
 - Open your **Terminal**
-- Run the following command to download latest **Google Chrome** `.deb` package
+- Run the following command to download latest **Google Chrome** `.deb` package:
 
-~~~bash
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-~~~
+  ~~~bash
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  ~~~
 
 #### Step 2: Install Google Chrome
 
@@ -372,14 +372,14 @@ rm google-chrome-stable_current_amd64.deb
 
 #### Step 4: Using Google Chrome
 
-You can start chrome in two ways,
+You can start chrome in two ways:
 
-- Click **Google Chrome** from the Applications menu
-- **Or**, use the `google-chrome` command from the terminal
+- Click **Google Chrome** from the Applications menu.
+- **Or**, use the `google-chrome` command from the terminal:
 
-~~~bash
-google-chrome
-~~~
+  ~~~bash
+  google-chrome
+  ~~~
 
 _(**note**: Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
 
@@ -390,26 +390,26 @@ _(**note**: Chrome is going to use this terminal to output various messages and 
 
 #### Step 1: Download Google Chrome
 
-- Visit [Google Chrome download page](https://www.google.com/chrome/)
-- Click **Download Chrome for Mac**
+- Visit [Google Chrome download page](https://www.google.com/chrome/).
+- Click **Download Chrome for Mac**.
 
 #### Step 2: Install Google Chrome
 
-- Open the **Downloads** folder
-- Double click the file **googlechrome.dmg**
-- Drag the Google Chrome icon to the **Applications** folder icon
+- Open the **Downloads** folder.
+- Double click the file **googlechrome.dmg**.
+- Drag the Google Chrome icon to the **Applications** folder icon.
 
 #### Step 3: Delete the Installer File
 
-- Open **Finder**
-- Click the **arrow** next to Google Chrome in the sidebar
-- Go to the **Downloads** folder
-- Drag **googlechrome.dmg** to the trash
+- Open **Finder**.
+- Click the **arrow** next to Google Chrome in the sidebar.
+- Go to the **Downloads** folder.
+- Drag **googlechrome.dmg** to the trash.
 
 #### Step 4: Using Google Chrome
 
-- Go to your **Applications** folder
-- Double click **Google Chrome**
+- Go to your **Applications** folder.
+- Double click **Google Chrome**.
 
 </details>
 
@@ -418,23 +418,23 @@ _(**note**: Chrome is going to use this terminal to output various messages and 
 
 #### Step 1: Download Google Chrome
 
-- Visit [Google Chrome download page](https://www.google.com/chrome/)
-- Click **Download Chrome**
+- Visit [Google Chrome download page](https://www.google.com/chrome/).
+- Click **Download Chrome**.
 
 #### Step 2: Install Google Chrome
 
-- Open the **Downloads** folder
-- Double click the file **ChromeSetup.exe**
+- Open the **Downloads** folder.
+- Double click the file **ChromeSetup.exe**.
 
 #### Step 3: Delete the installer file
 
-- Open the **Downloads** folder
-- Drag **ChromeSetup.exe** to the trash
+- Open the **Downloads** folder.
+- Drag **ChromeSetup.exe** to the trash.
 
 #### Step 4: Using Google Chrome
 
-- Search for **Google Chrome** in your applications
-- Double click **Google Chrome**
+- Search for **Google Chrome** in your applications.
+- Double click **Google Chrome**.
 
 </details>
 
