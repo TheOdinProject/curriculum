@@ -271,7 +271,7 @@ Using WSL2 is an quick and easy way to get started with using Linux, allowing yo
 
 <div class="lesson-note">
 <h4>WSL2 and Linux instructions</h4>
-Because WSL2 is a full fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons whenever there are instructions that differ by OS you should follow the Linux instructions, unless the lesson includes WSL2 specific instructions.
+Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
 </div>
 
 ### Step 1: Installations
@@ -291,13 +291,12 @@ In order to make WSL2 work we'll first need to ensure both `Windows Subsystem fo
 - Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
 - Enter the following command
 
-~~~powershell
-wsl --install
-~~~
-
+  ~~~powershell
+  wsl --install
+  ~~~
 - After a few minutes you'll be prompted to reboot your computer; do so.
 - You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
-- When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter some form of password. Rest assured that you are actually inputting something.
+- When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
 
 #### Step 1.3.1: Install Windows Terminal (Windows 10 only)
 
@@ -307,7 +306,7 @@ Windows Terminal is an terminal application that lets you more easily customize 
 
 #### Step 1.3.2: Setting WSL2 as default (Optional)
 
-Unless you are regularly using other terminals on your computer we recommend that you set WSL as the default terminal program when you open Windows Terminal.
+Unless you are regularly using other terminals on your computer we recommend that you set WSL2 as the default terminal program when you open Windows Terminal.
 
 - Open Windows Terminal by searching for terminal in your applications.
 - Click the dropdown next to the new tab button (at the top of the windows), and select Settings.
@@ -319,16 +318,16 @@ Unless you are regularly using other terminals on your computer we recommend tha
 
 On Windows there are three primary ways to open WSL2.
 
-- If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL2 session by simply opening the terminal app.
+- If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL2 session by opening the terminal app.
 - Otherwise you can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
-- If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; simply open it to start a new terminal session.
+- If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--tip">
-You might notice than when you open WSL2 via Windows Terminal you'll see a window with a different color scheme and a different icon then when opening by searching for Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two/
+You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
 </div>
 
 <div class="lesson-note lesson-note--warning">
-When opening WSL2 ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences
+When opening your WSL2 terminal ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences
 </div>
 </details>
 
