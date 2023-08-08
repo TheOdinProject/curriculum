@@ -94,7 +94,7 @@ describe Calculator do
 end
 ~~~
 
-<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://web.archive.org/web/20230316111111/https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
+<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
 ~~~ruby
   expect(calculator.add(5, 2)).to eql(7)
@@ -232,7 +232,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
 3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
-4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, see the docs [here](https://web.archive.org/web/20230316111111/https://relishapp.com/rspec/rspec-core/v/3-7/docs/configuration).
+4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, [see the docs here](http://rspec.info/features/3-12/rspec-core/configuration/).
 </div>
 
 ### Additional Resources
@@ -240,7 +240,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
 - For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
-- Briefly look over RSpec's other [matchers](https://web.archive.org/web/20230316111111/https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
+- Briefly look over [RSpec's other matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) if you haven't done so already.
 - Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
 - [This RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
 - Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
@@ -252,5 +252,5 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#keyword-describe'>What does the keyword `describe` define?</a>
 - <a class='knowledge-check-link' href='#keyword-it'>What does the keyword `it` define?</a>
 - <a class='knowledge-check-link' href='#expect-clauses'>How many expect clauses can you write for one test case?</a>
-- <a class='knowledge-check-link' href='https://web.archive.org/web/20230316111111/https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers'>What are some of RSpec's equality matchers?</a>
+- <a class='knowledge-check-link' href='http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/'>What are some of RSpec's equality matchers?</a>
 - <a class='knowledge-check-link' href='#require'>How do we tell RSpec where to find the code to be tested?</a>

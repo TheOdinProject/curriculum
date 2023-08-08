@@ -33,7 +33,7 @@ Here is where we reiterate, **the chicken needs to be reheated**. In a general m
 
 ### A Reactive solution
 
-While client-side routing allows for nicer, app-like interactions (since you are controlling the routes, you can make fancy CSS animations across route changes), a lot of caveats can be missed. Browsers reloads notify screen-readers of new content to read, so you will need to notify screen-readers of route updates manually. However, with the help of a robust library, you can often address these concerns!
+While client-side routing allows for nicer, app-like interactions (since you are controlling the routes, you can make fancy CSS animations across route changes), a lot of caveats can be missed. When a browser reloads, it notifies screen-readers of new content to read, but in the case of client-side routing, you will need to notify screen-readers of route updates manually. However, with the help of a robust library, you can often address these concerns!
 
 React Router is a standard routing library for React applications. By using React Router, we can specify React components, that can be rendered based on the route, and so much more. Let's dive in!
 
@@ -146,7 +146,7 @@ And now, we don't get the browser reloading every time we click the link on the 
 
 ### Nested routes, outlets and dynamic segments
 
-Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
+Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes come into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
 
 ~~~jsx
 import { Link } from "react-router-dom";
@@ -233,7 +233,9 @@ export default Profile;
 
 Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
 
-If you want to render something as a default component when no path is added to profile, you can add an index route to the children! Create a default profile component.
+If you want to render something as a default component when no path is added to Profile, you can add an index route to the children! 
+
+Create a default Profile component:
 
 ~~~jsx
 const DefaultProfile = () => {
@@ -307,7 +309,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-The colon (:) has special meaning, turning the path section after it, into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the profile component as the following:
+The colon (:) turns the path section after it into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
 
 ~~~jsx
 import { useParams } from "react-router-dom";
@@ -359,7 +361,7 @@ const ErrorPage = () => {
 export default ErrorPage;
 ~~~
 
-Add in the `errorElement` to the configuration, and check it out! The `/profile`, or any unmentioned paths render an error page!
+Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths.
 
 ~~~jsx
 import React from "react";
@@ -390,7 +392,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ### Refactoring the routing
 
-But before we do that, let us refactor our routes to a component of their own, so that we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). Even if you don't have any need for a conditional rendering of routes, it is much neater nonetheless, to have them separate. Create a new `Router.jsx` component and move your routes to it.
+Let's refactor our routes to a component of their own. By refactoring, we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). It's much neater to have them separate even if you are not conditionally rendering routes.
+
+Create a new `Router.jsx` component and move your routes to it:
 
 ~~~jsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -417,7 +421,7 @@ const Router = () => {
 export default Router;
 ~~~
 
-So, we can simply add this `Router.jsx` component to the `Main.jsx` file.
+Simply add `Router.jsx` component to the `Main.jsx` file:
 
 ~~~jsx
 import React from "react";
@@ -431,13 +435,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-This seems so much nicer, right?
+Much nicer! 
 
 ### Protected routes and navigation
 
-Often, you will face a need to decide when a certain route is rendered or not. One use case is authentication, where you may want to render certain routes based on if the user is logged in or not. If they are logged in, you may want to show some information about the user like [here at the dashboard](https://www.theodinproject.com/dashboard). While there are many ways to do so, one of the easiest ways can be to conditionally creating a config for the router.
+Often, you will need to decide whether a certain route should be rendered or not. One example is authentication, where you render certain routes based on if the user is logged in or not. If they are logged in, you show some information about the user like [here at The Odin Project dashboard page](https://www.theodinproject.com/dashboard). Otherwise, they are redirected to the sign-in page (this could be any page). While there are many ways to do so, one of the easiest ways is to conditionally create a config for the router.
 
-You will often come across the need to reroute the user to a different URL programmatically. This is where the [`<Navigate />`](https://reactrouter.com/en/main/components/navigate) component gets used, as it reroutes the user to the desired URL when it is rendered. The component itself is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
+You will often come across the need to reroute the user to a different URL programmatically. This is where we use [the `<Navigate />`component](https://reactrouter.com/en/main/components/navigate). The `<Navigate />` component reroutes the user to the desired URL when it is rendered. It is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
 ### Conclusion
 

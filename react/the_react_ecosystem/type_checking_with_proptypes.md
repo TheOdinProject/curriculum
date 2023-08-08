@@ -54,7 +54,7 @@ RenderName.propTypes = {
 
 ### Using defaultProps
 
-Another cool thing we can do with PropTypes is passing in default props:
+Another cool thing we can do in combination with PropTypes is passing in default props:
 
 ~~~javascript
 import React from 'react';
