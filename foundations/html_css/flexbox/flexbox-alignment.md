@@ -84,5 +84,4 @@ This section contains helpful links to related content. It isn’t required, so 
 * [Aligning Items in a Flex Container](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) goes into more depth on the topic of axes and `align-items` vs `justify-content`.
 * This [Flexbox Tutorial](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) from freecodecamp is another decent resource.
 * [Flexbox Crash Course](https://www.youtube.com/watch?v=3YW65K6LcIA) is a nice resource by Traversy Media.
-* Check out [this Scrim](https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR) for an interactive demo of how `justify-content` and its different properties behave.
-* [This next Scrim](https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9) covers the behavior of `align-items`, how to perfectly center an element on a page using flexbox and much more.
+* For more interactive demos, try the [Scrim on the `justify-content` property](https://scrimba.com/learn/flexbox/justify-content-flexbox-tutorial-cVWPacR) and the [Scrim on the `align-items` property](https://scrimba.com/learn/flexbox/align-items-flexbox-tutorial-cJqymH9). Note that these Scrims require logging into Scrimba in order to view.
