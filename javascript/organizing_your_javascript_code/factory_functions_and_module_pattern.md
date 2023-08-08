@@ -301,4 +301,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
-- [Interactive explanation of Factory Functions in JavaScript](https://scrimba.com/scrim/c2aaKzcV)
+- [Interactive Scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV)
