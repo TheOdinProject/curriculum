@@ -74,4 +74,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 *   Watch ["this" ](https://www.youtube.com/watch?v=nfXRw06FgK8) simple short video on What does the term "Normal Flow" Mean In CSS
-*  Try [this Scrim](https://scrimba.com/scrim/co5024997a7e46c232d9abe55) for a more interactive explanation and example of different options for block and inline display.
+*  For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).
