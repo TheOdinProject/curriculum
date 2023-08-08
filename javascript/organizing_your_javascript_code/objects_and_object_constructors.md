@@ -388,5 +388,5 @@ Nicholas C. Zakas is really great to understand OOP in javascript, which explain
 - [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
 - [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
 - [This video ](https://www.youtube.com/watch?v=wstwjQ1yqWQ) from Akshay Saini is an easy and simple way to understand the concept of Prototype, Prototype Chain and prototypal inheritance.
-- [Interactive tutorial on Objects and Object Constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
+- [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
 
