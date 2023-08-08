@@ -58,8 +58,6 @@ If it's hard to see what's going on in the small embedded CodePen, feel free to 
 
 For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
 
-<iframe src="https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw?embed=odin,mini-header,no-big-play,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 #### Flex containers and flex items
 
 As you've seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_, while some go on the _flex items_. This is a simple yet important concept.
@@ -88,3 +86,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [This Flexbox tutorial](https://internetingishard.netlify.app/html-and-css/flexbox/index.html) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
+
+* For a more interactive explanation and example, try this [Scrim on Flexbox](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw). Note that this Scrim requires logging into Scrimba in order to view.
