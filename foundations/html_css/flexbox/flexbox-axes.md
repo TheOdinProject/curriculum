@@ -60,4 +60,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   [This flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
 
-* For an interactive demo of how axes work with flexbox, check out [this Scrim](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8).
+* For an interactive demo, check out this [Scrim on Flexbox axes](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8). Note that this Scrim requires logging into Scrimba in order to view.
