@@ -389,4 +389,5 @@ Nicholas C. Zakas is really great to understand OOP in javascript, which explain
 - [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
 - [This video ](https://www.youtube.com/watch?v=wstwjQ1yqWQ) from Akshay Saini is an easy and simple way to understand the concept of Prototype, Prototype Chain and prototypal inheritance.
 - [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
+- [Check out this video explanation](https://www.youtube.com/watch?v=cwChC4BQF0Q) on the `this` keyword from DevSage that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.  
 

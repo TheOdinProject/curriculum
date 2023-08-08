@@ -63,10 +63,6 @@ This section contains a general overview of topics that you will learn in this l
  - Explain what happens when an error is thrown inside an `async` function
  - Explain how you can handle errors inside an `async` function
 
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 ### The async keyword
 
 The `async` keyword is what lets the JavaScript engine know that you are declaring an asynchronous function. This is required to use `await` inside any function. When a function is declared with `async`, it automatically returns a promise; returning in an `async` function is the same as resolving a promise. Likewise, throwing an error will reject the promise.
@@ -234,3 +230,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 1. This [Change promises to async/await video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
 2. This [Promises, Async and Await video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
+3. For a more interactive explanation and example, try a [Scrim on async and await](https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up).

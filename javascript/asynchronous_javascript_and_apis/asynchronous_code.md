@@ -11,10 +11,6 @@ This section contains a general overview of topics that you will learn in this l
  - Explain the circumstances under which promises are better than callbacks
  - Explain what the `.then()` function does
 
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 ### Callbacks
 
 In the recent past, the way that these were most commonly handled were with __callbacks__, and even now they are still used quite a lot in certain circumstances.
@@ -100,3 +96,4 @@ This section contains helpful links to other content. It isn't required, so cons
 2. The [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) for Promises.  It might not be the best resource for _learning_ all about them, but once you've read a more friendly article or tutorial, this will probably be the place you return to for a refresher.
 3. This [ES6 Promises video](https://www.youtube.com/watch?v=vQ3MoXnKfuQ) and [Promises by The Net Ninja](https://www.youtube.com/watch?v=yswb4SkDoj0) are both nice introductions to Promises if you need more repetition.
 4. This [Understanding JavaScript Promises Tutorial](https://www.digitalocean.com/community/tutorials/understanding-javascript-promises) is another good introduction.
+5. For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
