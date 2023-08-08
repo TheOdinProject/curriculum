@@ -95,6 +95,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *  [Check out this video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explaining how flexbox works and why.
 
-* For an interactive explanation and demo of the flex shorthand, check out [this Scrim](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv).
-
-* Watch [this interactive Scrim](https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv) for an alternative explanation and demo of using flex-grow, flex-shrink and flex-basis in a real world scenario.
+* For an interactive explanation and demo, check out the [Scrim on the flex shorthand](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv). For an alternative explanation you can view the [Scrim on using flex-grow, flex-shrink, and flex-basis](https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv). Note that these Scrims require logging into Scrimba in order to view.
