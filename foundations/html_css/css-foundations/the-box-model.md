@@ -68,4 +68,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*  Try [this Scrim](https://scrimba.com/scrim/cof3d488184abe24ec6258ab4) for a more interactive explanation and example of the box model.
+*  For a more interactive explanation and example, try this [Scrim on the box model](https://scrimba.com/scrim/cof3d488184abe24ec6258ab4).
