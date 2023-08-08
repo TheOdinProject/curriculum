@@ -136,6 +136,64 @@ Well, that got interesting fast.  The basic principle here is to just use the `#
 
 In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rails routes` with questions.
 
+### Controllers, Models and Keeping Things RESTful
+
+Along with the advanced routing topics covered, it can also be helpful to think about controllers in Rails that don't necessarily have their own ActiveRecord model to work with. Consider that we have a request for the application so that a `lesson` can have accompanying `images`. That seems easy enough, so we can update our model:
+
+~~~ruby
+# app/models/lesson.rb
+class Lesson < ApplicationRecord
+  # other stuff
+  has_many_attached :images
+end
+~~~
+
+Then, we think about how we might want to manage these images from the route and controller side. We might think of something like this at first:
+
+~~~ruby
+# config/routes.rb
+resources :lessons do
+  member do
+    patch :attach_image
+    delete :remove_image
+  end
+end
+~~~
+
+Then we have accompanying methods in the `LessonsController` to process the images. This would work well enough, but when we think about Rails controllers as standalone concepts, we might choose to implement this feature differently. Consider this second approach to the implementation:
+
+~~~ruby
+# config/routes.rb
+resources :lessons do
+  resources :images, only: [:create, :delete]
+end
+~~~
+
+Along with a new controller `Lessons::ImagesController` which looks like this:
+
+~~~ruby
+# app/controllers/lessons/images_controller.rb
+module Lessons
+  class ImagesController < ApplicationController
+    def create
+      # logic to attach images to a course
+    end
+
+    def destroy
+      # logic to remove an image image from a course
+    end
+  end
+end
+~~~
+
+What we've done is made the implementation more RESTful, because we no longer have any custom non-RESTful actions. Instead, we have a whole new (RESTful) controller. This controller doesn't relate to its own model to handle these actions, but works on the `Lesson` model. Not only that, by using a new controller we are able to stick to the REST actions to describe what we are doing: *creating* a new image attachment, or *destroying* an image for a lesson.
+
+In fact, if you think about it, this was implicit in our original attempt: `attach_image` and `remove_image` both follow the `<action>_<noun>` pattern, which might be a signal we could use another resource. We've also used a nested controller here to provide a clue to the next developer of our intention. By keeping our actions in the RESTful realm, it can become easy to extend the application. Keeping things RESTful also makes it easier to understand what is happening without having to do a lot of digging around.
+
+When we can think beyond the controller/model coupling in Rails, it can open the door to many possibilities. You could have a controller tied to a specific attribute of a model, even!
+
+For more information and examples, there is an excellent talk by Derek Prior called "In Relentless Pursuit of REST" in the additional resources section that is highly recommended.
+
 ### Advanced Layouts: Nesting Layouts and Passing Information
 
 We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway.
@@ -299,6 +357,7 @@ The more general principles like SOLID design and metaprogramming will be useful
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
+* [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
 * [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
 * [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)

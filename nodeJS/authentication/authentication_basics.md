@@ -332,15 +332,11 @@ It's important to note that _how_ hashing works is beyond the scope of this less
 Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function.
 
 ~~~javascript
-bcrypt.compare(password, user.password, (err, res) => {
-  if (res) {
-    // passwords match! log user in
-    return done(null, user)
-  } else {
-    // passwords do not match!
-    return done(null, false, { message: "Incorrect password" })
-  }
-})
+const match = bcrypt.compare(password, user.password);
+if (!match) {
+  // passwords do not match!
+  return done(null, false, { message: "Incorrect password" })
+}
 ~~~
 
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
