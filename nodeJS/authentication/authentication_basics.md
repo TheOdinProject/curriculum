@@ -332,7 +332,7 @@ It's important to note that _how_ hashing works is beyond the scope of this less
 Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function.
 
 ~~~javascript
-const match = bcrypt.compare(password, user.password);
+const match = await bcrypt.compare(password, user.password);
 if (!match) {
   // passwords do not match!
   return done(null, false, { message: "Incorrect password" })
