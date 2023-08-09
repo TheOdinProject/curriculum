@@ -6,7 +6,7 @@ In this lesson we will examine the different parts of a grid and explore common 
 
 By the end of this lesson, you should be able to:
 
-* Describe the differences between tracks, lines and cells
+* Describe the differences between tracks, lines, and cells
 * Position items by defining their start and end lines
 * Use shorthand notation
 
