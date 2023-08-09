@@ -99,4 +99,4 @@ There are a couple of ways to go about doing this, but the simplest is this:
 -   Click on **Pages** on the left side bar.
 -   Change the **Branch** from _none_ to _main branch_ and click **Save**. 
 -   It may take a few minutes (The GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
-
+-   If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from _main branch_ to _none_ and click **Save**, then change the **Branch** from _none_ to _main branch_ and click **Save**.
