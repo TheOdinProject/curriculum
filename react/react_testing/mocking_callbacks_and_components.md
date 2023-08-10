@@ -67,8 +67,6 @@ describe("CustomButton", () => {
         const onClick = vi.fn();
         render(<CustomButton onClick={onClick} />);
 
-        const button = screen.getByRole("button", { name: "Click me" });
-
         expect(onClick).not.toHaveBeenCalled();
     });
 });
