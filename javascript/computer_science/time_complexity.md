@@ -187,6 +187,8 @@ You can't say this one isn't appropriately named. This notation means we have an
 
 One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
 
+However, not all `O(N log N)` situations are built this way. There are special cases, like constructing a Cartesian tree, where the algorithm naturally behaves like `O(N log N)` without using smaller parts with `O(N)` or `O(log N)` complexities inside. This shows that while nested complexities can be common, they're not the only way an algorithm can achieve a particular time complexity.
+
 #### O(n&#178;) - Quadratic complexity
 
 You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again.  
