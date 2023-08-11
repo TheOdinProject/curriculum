@@ -13,6 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe the pros and cons of using classes in JavaScript.
 - Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
 - Explain the differences between an object constructor and a class.
+- Explain what "Property Descriptor" is.
 - Explain what "getters" and "setters" are.
 - Understand what computed names and class fields are.
 - Describe function binding.
@@ -23,19 +24,22 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to 
+1.  [This article](https://medium.com/jspoint/a-quick-introduction-to-the-property-descriptor-of-the-javascript-objects-5093c37d079) is
+    a quick introduction to the “Property Descriptor” of the JavaScript objects.
+
+2.  [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to 
     speed on "Getters and Setters".
     
-2.  [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax 
+3.  [This article](https://javascript.info/class) is probably just about all you need to start using `class` syntax 
     confidently.
 
-3.  [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great
+4.  [The MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great
     resource for going a little deeper. Look especially at the ['extends' reference page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends),
     including the ['Mixins' section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends#mix-ins).
     React (and other frameworks) uses classes in this way. You create your components and make them `extend` the core
     React component which gives you access to all their built-in functionality.
 
-4.  [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some 
+5.  [This article](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65) provides some 
     pros and cons for classes. [FunFunFunction's video on Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)
     elaborates on the cons mentioned in the article and does 
     a great job of going over the topic. Many people think that class syntax is misleading for JavaScript and 
