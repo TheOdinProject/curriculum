@@ -24,8 +24,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [This article](https://medium.com/jspoint/a-quick-introduction-to-the-property-descriptor-of-the-javascript-objects-5093c37d079) is
-    a quick introduction to the “Property Descriptor” of the JavaScript objects.
+1.  [JavaScript.info's article on Property Descriptors](https://javascript.info/property-descriptors) is
+    a great introduction to “Property Descriptors”.
 
 2.  [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to 
     speed on "Getters and Setters".
