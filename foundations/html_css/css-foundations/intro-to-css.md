@@ -220,28 +220,6 @@ In the above example, the first two elements with the `contents` class (B and C)
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
-### Order matters!
-
-When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
-
-~~~css
-/* styles.css */
-.first_declared, .last_declared {
-  background-color: rgb(200, 50, 150);
-  font-weight: 800;
-}
-.first_declared {
-  color: rgb(50, 50, 200);
-  font-size: 32px;
-}
-.last_declared {
-  font-size: 14px;
-  font-weight: 800;
-}
-~~~
-
-In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
-
 ### Properties to get started with
 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will simply be enough to help get you started.
