@@ -10,7 +10,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 2. All of your book objects are going to be stored in a simple array, so add a function to the script (not the constructor) that can take user's input and store the new book objects into an array. Your code should look something like this:
 
    ~~~javascript
-   let myLibrary = [];
+   const myLibrary = [];
 
    function Book() {
      // the constructor...
