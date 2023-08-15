@@ -20,7 +20,7 @@ One more note, the **Formal Syntax** section here is _crazy_. Don't let it deter
 #### Borders
 At this point, you've probably already encountered `border` and `border-radius`. The `border` property is another shorthand, but it is _much_ less complicated than the background shorthand. For borders, basically you just need to define a size, style and color.
 
-`border-radius` is the property that is used to create rounded corners on things. As you'll see in the docs, it's possible to get fancy and define different radii for each corner of an element, but this is rarely useful. Store that information in the category of "things I'll look up if I ever need it".
+`border-radius` is the property that is used to create rounded corners on things. As you'll see in the docs, it's possible to get fancy and define different radius for each corner of an element, but this is rarely useful. Store that information in the category of "things I'll look up if I ever need it".
 
 Read the MDN docs for [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border) and [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius).
 
