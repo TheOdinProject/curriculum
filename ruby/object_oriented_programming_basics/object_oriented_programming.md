@@ -46,7 +46,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 * If you need a variable refresher, check out [Zetcode's Variables section](https://zetcode.com/lang/rubytutorial/variables/).
-* If you want more examples to code along with, check out [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/) and [Zetcode's second OOP section](https://zetcode.com/lang/rubytutorial/oop/) until they start talking about exceptions (~80% of the way down).
+* If you want more examples to code along with, check out [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/) and [Zetcode's second OOP section](https://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
 * After you have completed several OOP projects, the following books by Sandi Metz are essential to build on the foundational concepts in this lesson.
     * [99 Bottles of OOP](https://sandimetz.com/99bottles) is a hands-on workbook that you should code along with to get the most out of it. This is a great resource if you feel uncertain about OOP concepts and would like to guided through refactoring examples and explanations.
     * [Practical Object-Oriented Design in Ruby](https://www.poodr.com/) is a traditional technical book with practical examples. This is a great resource after 99 Bottles or if you already feel like you fully understand OOP concepts.
