@@ -13,11 +13,11 @@ The following list represents how the lessons are divided into sections and pres
 3. [**Project: Installing Rails**](introduction/project_installing_rails.md)
 4. [A Railsy Web Refresher](introduction/web_refresher.md)
 ### Rails Basics
-1. [Routing](rails_basics/routing.md)
-2. [Controllers](rails_basics/controllers.md)
-3. [Views](rails_basics/views.md)
-4. [Deployment](rails_basics/deployment.md)
-5. [**Project: Blog App**](rails_basics/project_blog_app.md)
+1. [**Project: Blog App**](rails_basics/project_blog_app.md)
+2. [Routing](rails_basics/routing.md)
+3. [Controllers](rails_basics/controllers.md)
+4. [Views](rails_basics/views.md)
+5. [Deployment](rails_basics/deployment.md)
 ### Active Record Basics
 1. [Active Record Basics](active_record_basics/active_record_basics.md)
 2. [**Project: Micro-Reddit**](active_record_basics/project_micro_reddit.md)
