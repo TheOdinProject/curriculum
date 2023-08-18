@@ -27,6 +27,7 @@ $ git log
 ~~~
 
 Huh, that's interesting. We don't see our fourth file on our local system. Let's check our GitHub repository to see if it's there.
+
 Oh no, we just destroyed it!  In this scenario, the danger - you could potentially destroy the work of those you're collaborating with! `git push --force` is a **very dangerous command, and it should be used with caution when collaborating with others**. Instead, you can fix your outdated history error by updating your local history using `fetch`, `merge`, and then attempting to `push` again.
 
 Let's consider a different scenario:
