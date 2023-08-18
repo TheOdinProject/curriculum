@@ -85,4 +85,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* If you're looking for a fun way to deepen your knowledge of working with branches and Git, check out the popular game, [Learn Git Branching](https://learngitbranching.js.org/)
+* If you're looking for an interactive way to deepen your knowledge of working with Git, check out this game, [Learn Git Branching](https://learngitbranching.js.org/)
