@@ -9,11 +9,74 @@ Put any job opening you find into your spreadsheet.
 
 #### Here's an example of how a spreadsheet to keep track of job openings might look like:
 
-| Job Title | Company | Website | Connections | Activity Log | Must Have 1 | Must Have 2 | Must Have 3 | Nice to Have 1 | Nice to Have 2 | Nice to Have 3 | Nice to Have 4 | Nice to Have 5 |
-|-----------|---------|---------|-------------|--------------|-------------|-------------|-------------|---------------|---------------|---------------|---------------|---------------|
-| Job 1     | Company A | www.companyA.com | John (LinkedIn) | Sent resume on 04/01/2023 | TRUE | TRUE | FALSE | 5 | 4 | 3 | 2 | 1 |
-| Job 2     | Company B | www.companyB.com | Jane (Referral) | Followed up on 04/02/2023 | TRUE | FALSE | TRUE | 3 | 5 | 2 | 4 | 1 |
-| Job 3     | Company C | www.companyC.com | N/A | Applied online on 04/03/2023 | FALSE | TRUE | TRUE | 4 | 2 | 5 | 1 | 3 |
+<div style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Job Title</th>
+        <th>Company</th>
+        <th>Website</th>
+        <th>Connections</th>
+        <th>Activity Log</th>
+        <th>Must Have 1</th>
+        <th>Must Have 2</th>
+        <th>Must Have 3</th>
+        <th>Nice to Have 1</th>
+        <th>Nice to Have 2</th>
+        <th>Nice to Have 3</th>
+        <th>Nice to Have 4</th>
+        <th>Nice to Have 5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Job 1</td>
+        <td>Company A</td>
+        <td>www.companyA.com</td>
+        <td>John (LinkedIn)</td>
+        <td>Sent resume on 04/01/2023</td>
+        <td>TRUE</td>
+        <td>TRUE</td>
+        <td>FALSE</td>
+        <td>5</td>
+        <td>4</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Job 2</td>
+        <td>Company B</td>
+        <td>www.companyB.com</td>
+        <td>Jane (Referral)</td>
+        <td>Followed up on 04/02/2023</td>
+        <td>TRUE</td>
+        <td>FALSE</td>
+        <td>TRUE</td>
+        <td>3</td>
+        <td>5</td>
+        <td>2</td>
+        <td>4</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Job 3</td>
+        <td>Company C</td>
+        <td>www.companyC.com</td>
+        <td>N/A</td>
+        <td>Applied online on 04/03/2023</td>
+        <td>FALSE</td>
+        <td>TRUE</td>
+        <td>TRUE</td>
+        <td>4</td>
+        <td>2</td>
+        <td>5</td>
+        <td>1</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 
