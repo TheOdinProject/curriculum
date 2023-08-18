@@ -10,7 +10,6 @@ This section contains a general overview of topics that you will learn in this l
   * Using remotes to change history
   * Dangers of history-changing operations
   * Best practices of history-changing operations
-  * Pointers
 
 #### git push -\-force
 
