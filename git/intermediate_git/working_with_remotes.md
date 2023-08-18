@@ -8,8 +8,8 @@ So far, you've been working with remote repositories each time you've pushed or 
 This section contains a general overview of topics that you will learn in this lesson.
 
   * Using remotes to change history
-  * Dangers when working with remotes
-  * Best practices when working with remotes
+  * Dangers of history-changing operations
+  * Best practices of history-changing operations
   * Pointers
 
 #### git push -\-force
