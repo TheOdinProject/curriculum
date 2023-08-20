@@ -29,7 +29,7 @@ This is common to all websites, you set the oven up for what you want (visit any
 3. Wait for it to be nice and warm
 4. Now you can eat it!
 
-Here is where we reiterate, **the chicken needs to be reheated**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring the microwave to the table to ensure that you don't run into the "missing spices" issues. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
+Here is where we reiterate, **the chicken needs to be reheated**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring the oven to the table to ensure that you don't run into the "missing spices" issues. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
 
 ### A Reactive solution
 
