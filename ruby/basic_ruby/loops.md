@@ -8,7 +8,7 @@ If you find yourself needing to repeat an action more than once in your code, yo
 
 For all of the examples in this lesson, you should code along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Explain what a loop is and why it's useful.
@@ -129,7 +129,7 @@ end
 
 Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
 
-### Upto and Downto Loops
+### Upto and Downto loops
 
 The Ruby methods `#upto` and `#downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
 
@@ -149,13 +149,13 @@ If you need to step through a series of numbers (or even letters) within a speci
 2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
  - If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. (Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!)
  - If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). (Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.)
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class="knowledge-check-link" href="#introduction">What is a loop and why it is useful?</a>

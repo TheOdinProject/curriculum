@@ -13,7 +13,7 @@ Basically, because everything in Ruby is an object, Ruby only has methods, not f
 
 In this lesson, we're going to deconstruct what methods are, examine their behaviour, and learn how to use them.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Explain how to create and call a new method.
@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain what predicate methods are and how to use one.
  - Explain what bang methods are and how to use one.
 
-### Ruby's Built-in Methods
+### Ruby's built-in methods
 
 One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-3.1.2/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-3.1.2/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-3.1.2/Integer.html) class.
 
@@ -45,7 +45,7 @@ puts "anything" #=> anything
 
 It's worth noting that in most languages, arguments are passed to methods by wrapping them in parentheses `()`. In Ruby, however, the parentheses are *generally* optional. We could rewrite the above code as `puts("anything")`, which Ruby would interpret in the same way.
 
-### Creating a Method
+### Creating a method
 
 You can create your own custom methods in Ruby using the following syntax:
 
@@ -65,7 +65,7 @@ Let's break this example down:
  * `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
  * <span id="calling-a-method">To call the method, you simply need to use its name, as shown in the last line of the example.</span>
 
-### Method Names
+### Method names
 
 As mentioned above, you can name your methods almost anything you want, but you shouldn't pick names haphazardly. There are certain conventions that are recommended in order to improve the readability and maintainability of your code.
 
@@ -99,7 +99,7 @@ In general, short but descriptive is the name of the naming game. You want to be
 
 If your method does so many things that you feel it requires a very long name, then your method should probably be broken up into several smaller and simpler methods. Ideally, each method should do only one thing. This practice will pay dividends down the road in terms of readability, scalability, and maintainability. (It also makes testing your code a lot easier, which will be covered in a later lesson.)
 
-### Parameters and Arguments
+### Parameters and arguments
 
 Of course, not all methods are as simplistic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. **Parameters** are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile.
 
@@ -115,7 +115,7 @@ In this example, `name` is a parameter that the `greet` method uses to return a 
 
 If you're wondering what the differences are between an argument and a parameter, **parameters** act as placeholder variables in the template of your method, whereas **arguments** are the actual variables that get passed to the method when it is called. Thus, in the example above, `name` is a parameter and `"John"` is an argument. The two terms are commonly used interchangeably, though, so don't worry too much about this distinction.
 
-#### Default Parameters
+#### Default parameters
 
 What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our simple example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":
 
@@ -128,7 +128,7 @@ puts greet("Jane") #=> Hello, Jane!
 puts greet #=> Hello, stranger!
 ~~~
 
-### What Methods Return
+### What methods return
 
 An important detail that a programmer must learn is understanding what your methods **return**. Having a good understanding of what your methods are returning is an important part of debugging your code when things don't behave as expected.
 
@@ -201,7 +201,7 @@ puts even_odd("Ruby") #=>  A number was not entered.
 
 Now, try removing the explicit `return` from the method above. Does the method return what you expected?
 
-#### Difference Between `puts` and `return`
+#### Difference between `puts` and `return`
 
 A common source of confusion for new programmers is the difference between `puts` and `return`.
 
@@ -237,7 +237,7 @@ puts "The sum of #{x} and #{y} is #{sum}."
 #=> The sum of 400 and 100 is 500.
 ~~~
 
-### Chaining Methods
+### Chaining methods
 
 One of the magical properties of methods that allows you to write very concise code is being able to **chain methods** together. This can be done using Ruby's built-in methods or with methods that you create.
 
@@ -257,7 +257,7 @@ Chaining methods together like this effectively has each method call build off o
 = "To be or not to be"
 ~~~
 
-### Predicate Methods
+### Predicate methods
 
 You will sometimes encounter built-in Ruby methods that have a question mark (`?`) at the end of their name, such as `even?`, `odd?`, or `between?`. These are all **predicate** methods, which is a naming convention that Ruby uses for methods that return a Boolean, that is, they return either `true` or `false`.
 
@@ -271,7 +271,7 @@ puts 12.between?(10, 15)  #=> true
 
 You can also create your own method with a `?` at the end of its name to indicate that it returns a Boolean. Ruby doesn't enforce this naming convention, but you will thank yourself later for following this guideline.
 
-### Bang Methods
+### Bang methods
 
 Observe the example below:
 
@@ -304,13 +304,13 @@ Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.down
 4. Complete the [method](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
   - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
   - For more discussion on the subtle differences between methods and functions and how they can differ between programming languages, here is a [handy explanation on Stack Overflow](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class="knowledge-check-link" href="#creating-a-method">How would you create your own method?</a>
