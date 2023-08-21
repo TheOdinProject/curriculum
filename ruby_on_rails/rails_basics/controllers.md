@@ -8,7 +8,7 @@ It's pretty straightforward. Typical controllers are pretty lightweight and don'
 
 The controller's `#index` action would actually look as simple as:
 
-~~~ruby
+```ruby
   PostsController < ApplicationController
     ...
     def index
@@ -16,11 +16,11 @@ The controller's `#index` action would actually look as simple as:
     end
     ...
   end
-~~~
+```
 
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -30,13 +30,13 @@ This section contains a general overview of topics that you will learn in this l
 - Handling and restricting parameters and POST-data passed to your controller.
 - The flash message and how to display it.
 
-### Naming Matters
+### Naming matters
 
 One way that Rails makes your life a bit easier is that it assumes things are named a certain way and then executes them behind the scenes based on those names. For instance, your controller and its action have to be named whatever you called them in your `routes.rb` file when you mapped a specific type of HTTP request to them.
 
 The other end of the process is what the controller does when it's done. Once Rails gets to the `end` of that controller action, it grabs all the instance variables from the controller and sends them over the view file _which is named the same thing as the controller action_ and which lives in a folder named after the controller, e.g. `app/views/posts/index.html.erb`. This isn't arbitrary, this is intentional to make your life a lot easier when looking for files later. If you save your files in a different folder or hierarchy, you'll have to explicitly specify which ones you want rendered.
 
-### Rendering and Redirecting
+### Rendering and redirecting
 
 Although Rails will implicitly render a view file that is named the same thing as your controller action, there are plenty of situations when you might want to override it. A main case for this is when you actually want to completely redirect the user to a new page instead of rendering the result of your controller action.
 
@@ -48,7 +48,7 @@ The trick here is that the view page gets passed the instance variables from you
 
 Let's see it in code:
 
-~~~ruby
+```ruby
   # app/controllers/posts_controller.rb
   class PostsController < ApplicationController
     ...
@@ -74,19 +74,19 @@ Let's see it in code:
       end
     end
   end
-~~~
+```
 
 So the thing to pay attention to is that, if we successfully are able to save our new post in the database, we redirect to that post's show page. Note that a shortcut you'll see plenty of times is, instead of writing `redirect_to post_path(@post.id)`, just write `redirect_to @post` because Rails knows people did that so often that they gave you the option of writing it shorthand. We'll use this in the example as we develop it further.
 
 The error condition in the `#create` action above is going to render the same form that we rendered in the `#new` action, though this time `@post` will be the Post object that we tried and failed to save, so it will also have some errors attached to it which can be used to highlight in red which form fields were the culprits.
 
-### Multiple Render/Redirects
+### Multiple render/redirects
 
 It's important to note that `render` and `redirect_to` do NOT immediately stop your controller action like a `return` statement would. So you have to be really careful that your logic doesn't result in you running more than one of those statements. If you do, you'll get hit with an error. They're usually pretty straightforward to debug.
 
 If you write something like:
 
-~~~ruby
+```ruby
   def show
     @user = User.find(params[:id])
     if @user.is_male?
@@ -94,11 +94,11 @@ If you write something like:
     end
     render "show-girl"
   end
-~~~
+```
 
 In any case where the user is male, you'll get hit with a multiple render error because you've told Rails to render both "show-boy" and "show-girl".
 
-### Params and Strong Parameters
+### Params and strong parameters
 
 In the example above, we saw `... code here to set up a new @post based on form info ...`. Okay, how do we grab that info? We keep saying that the router packages up all the parameters that were sent with the original HTTP request, but how do we access them?
 
@@ -106,7 +106,7 @@ With the `params` hash! It acts just like a normal Ruby hash and contains the pa
 
 Some forms will submit every field as a top level scalar entry in the params hash, e.g. `params[:post_title]` might be "My Test Post Title" and `params[:post_body]` might be "Body of post!" etc and these you can access with no issues. You have control over this, as you'll learn in the lessons on forms.
 
-#### Strong Parameters
+#### Strong parameters
 
 Often times, though, you want to send parameters from the browser that are all packaged nicely into a hash or nested into an array. It can make your life a lot easier because you can just pass that hash straight into `Post.new(your_hash_of_attributes_here)` because that's what `Post.new` expects anyway! We won't really get too deep into this stuff until the lessons on Models and Forms, but you should be aware that the structure of the data you're being sent from a form depends entirely on how you choose to set up that form (it's really based on how you choose to name your fields using the HTML `name=''` attribute).
 
@@ -118,11 +118,11 @@ _Note: This used to be done in Rails 3 by setting `attr_accessible` in the model
 
 To explicitly allow parameters, you use the methods `require` and `permit`. Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used. For example:
 
-~~~ruby
+```ruby
   def allowed_post_params
     params.require(:post).permit(:title,:body,:author_id)
   end
-~~~
+```
 
 This will return the hash of only those params that you explicitly allow (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ). If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
 
@@ -130,7 +130,7 @@ It can be inconvenient, but it's Rails protecting you from bad users. You'll usu
 
 So our `#create` action above can now be filled out a bit more:
 
-~~~ruby
+```ruby
   # app/controllers/posts_controller.rb
   class PostsController < ApplicationController
     ...
@@ -156,7 +156,7 @@ So our `#create` action above can now be filled out a bit more:
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
-~~~
+```
 
 ### Flash
 
@@ -174,7 +174,7 @@ The distinction between `flash` and `flash.now` just lets Rails know when it wil
 
 Now the full controller code can be written out for our `#create` action:
 
-~~~ruby
+```ruby
   # app/controllers/posts_controller.rb
   class PostsController < ApplicationController
     ...
@@ -198,7 +198,7 @@ Now the full controller code can be written out for our `#create` action:
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
-~~~
+```
 
 So that action did a fair bit of stuff -- grab the form data, make a new post, try to save the post, set up a success message and redirect you to the post if it works, and handle the case where it doesn't work by berating you for your foolishness and re-rendering the form. A lot of work for only 10 lines of Ruby. Now that's smart controlling.
 
@@ -210,14 +210,14 @@ That's really just a taste of the Rails controller, but you should have a pretty
   1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Controller & Routes Video Demo](https://vimeo.com/168501163)
 - [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
