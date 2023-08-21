@@ -14,11 +14,11 @@ Now, let's get started!
 <summary class="dropDown-header">Linux
 </summary>
 
-### Step 1: Install Updates, Packages and Libraries
+### Step 1: Install updates, packages and libraries
 
 Before we can install Ruby, we need to install some base packages.
 
-#### Step 1.1: Open the Terminal
+#### Step 1.1: Open the terminal
 
 We'll use the terminal to install all of the programs.
 
@@ -39,7 +39,7 @@ sudo apt upgrade
 
 When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
 
-#### Step 1.3: Install Packages and Libraries
+#### Step 1.3: Install packages and libraries
 
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
@@ -154,11 +154,11 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 <summary class="dropDown-header">MacOS
 </summary>
 
-### Step 1: Install Packages and Libraries
+### Step 1: Install packages and libraries
 
 Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
 
-#### Step 1.1: Open the Terminal
+#### Step 1.1: Open the terminal
 
 In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>) or Launchpad, type "Terminal".
 
