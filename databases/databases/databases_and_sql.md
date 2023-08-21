@@ -142,21 +142,16 @@ The next step, once you've had a chance to practice this all in the project, is 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [Introduction](#introduction)
-  - [A note on resources](#a-note-on-resources)
-- [Lesson overview](#lesson-overview)
-- [The world's fastest semi-complete explanation of SQL](#the-worlds-fastest-semi-complete-explanation-of-sql)
-  - [Setting stuff up](#setting-stuff-up)
-  - [Mucking around with data](#mucking-around-with-data)
-  - [Mashing tables together](#mashing-tables-together)
-  - [Using functions to aggregate your data](#using-functions-to-aggregate-your-data)
-- [SQL is faster than Ruby!](#sql-is-faster-than-ruby)
-- [Assignment](#assignment)
-- [Conclusion](#conclusion)
-- [Knowledge check](#knowledge-check)
-- [Additional resources](#additional-resources)
+- [What is the difference between a foreign key and a primary key?](#foreign-key)
+- [Where is the setup information for your database stored?](#schema)
+- [What are the important parts of a SQL command?](#command-parts)
+- [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)
+- [Which `JOIN` statement keeps only the rows from both tables where they match up?](#inner-join)
+- [How do you use an aggregate function?](#aggregate-function)
+- [In which situation would you use the `HAVING` function?](#having-function)
+- [Why can't I just use Ruby to process my database data?](#sql-is-faster-than-ruby)
 
-### Additional resources
+ ### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
