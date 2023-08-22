@@ -33,7 +33,7 @@ end
 
 You won't see this loop used much in Ruby. If you find yourself using `loop`, know that there is probably a better loop for you out there, like one of the more specific loops below.
 
-### While Loop
+### While loop
 
 A `while` loop is similar to the `loop` loop except that you declare the condition that will break out of the loop up front.
 
@@ -57,7 +57,7 @@ end
 
 This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
 
-### Until Loop
+### Until loop
 
 The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
 
@@ -97,7 +97,7 @@ What if we know exactly how many times we want our loop to run? Ruby lets us use
 ('a'..'d')  # a, b, c, d
 ~~~
 
-### For Loop
+### For loop
 
 A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator.
 
@@ -109,7 +109,7 @@ end
 
 That's really all there is to it.
 
-### Times Loop
+### Times loop
 
 If you need to run a loop for a specified number of times, then look no further than the trusty `#times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
 
