@@ -4,7 +4,7 @@ When a user makes a request to your application, your controller is the part of 
 
 That's where the concept of a **single page application** comes in. This section will be about how we can use a framework known as **Turbo** to implement single page application behaviour in our very own Rails application. This section covers a lot of tools and you may not fully understand them as you read through the first time. That's okay, consider this lesson to be a resource that you can refer back to when you actually begin using the  tools mentioned and get more of a visual as to what exactly is going on in your views.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -47,7 +47,7 @@ Here is a quick summary of the four Turbo techniques together. As you continue t
 
 ### Turbo Frames
 
-#### Creating a Frame
+#### Creating a frame
 
 Imagine a piece of paper and cutting out a small square hole in it. You could change what you see through the hole by swapping out another piece of paper behind it, but the rest of the paper will always look the same. That's the idea of Turbo Frames. Turbo Frames allow us to predefine a portion of our page to be replaced during a request. Any links or forms inside of our frame will make a special request that results in only changing the frame. A page can also have multiple Turbo Frames.
 
@@ -82,7 +82,7 @@ With the Turbo Frame helper, you can substitute the ID for a variable. For insta
 
 The above example will generate a turbo frame for every article. Each frame will have a unique id like `article_1` or `article_2` and all we had to include was our article variable. 
 
-#### Connecting to Other Frames
+#### Connecting to other frames
 
 Now that we have our first frame, we can replace its content with a link that request new frame content. All we have to do is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
 
@@ -122,7 +122,7 @@ Sometimes you may have a link inside of the Turbo Frame that you want to act as 
 <%= link_to "Return to Article", @article, data: { turbo_frame: "_top" } %>
 ~~~
 
-#### Targeting a Turbo Frame from Outside
+#### Targeting a Turbo Frame from outside
 
 We can also do the opposite. We can make a link that exists outside of our Turbo Frame act as if it was inside of the Frame and update it. This time, we set the `turbo-frame` data attribute to point to the ID of the specific frame. Lets say we want to designate a turbo frame to show either a list of posts or a list of images:
 
@@ -135,7 +135,7 @@ We can also do the opposite. We can make a link that exists outside of our Turbo
 
 Clicking either of the above links will send a request to the respective path and return the content inside of our `"list-region"` frame.
 
-#### Src & Lazy Loading
+#### Src & lazy loading
 
 Frames can be given a `src` attribute. When this is supplied, the frame will be populated after the initial page load by making a separate request to the associated path. We can also wrap placeholder content inside of this `src` frame to create a [skeleton placeholder](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a).
 
@@ -178,7 +178,7 @@ Now we know how to set up our views to use Turbo Frames, but what about content 
 Turbo Streams are delivered by use of our controller. Just like how your users make `html` requests and receive `view.html.erb` files, your users can receive `view.turbo_stream.erb` files. These are not standalone view files as you know them, they only contain a few lines and are a way of sending the user a Stream response instead of a new page.
 
 
-#### Our First Turbo Stream
+#### Our first Turbo Stream
 
 Let's say that we have made a website where users can create posts. By adding a `turbo_frame` with a `src:` attribute that points to our `new_post_path`, and our `new` post view being wrapped in a `turbo_frame_tag` with a matching `id`, we can include our `new` action form on the same page as our `index` feed. It may look something like this.
 
@@ -255,7 +255,7 @@ However, if a user is to submit a post right now, something weird happens! The f
 All of this looks very scary and like something is wrong, but it's fine. All we have to do is set up our Turbo Stream and the pieces will all begin to work together again.
 
 
-#### Turbo Stream in the Controller
+#### Turbo Stream in the controller
 
 For starters, we tell our controller that we want to accept a Turbo Stream format. This is done in the same way as accepting a format such as JSON. Our create action may now look like:
 
@@ -281,7 +281,7 @@ We include the `422 Unprocessable Entity` error code with our response upon an u
 
 Now all we have to do is create our `create.turbo_stream.erb` file to respond with.
 
-#### Turbo Stream Template
+#### Turbo Stream template
 
 You create your Turbo Stream file inside of your `views` folder the same way as any other view. In this example, it would be located at `views/posts/create.turbo_stream.erb`. Our view file will look like this:
 
@@ -293,7 +293,7 @@ That line is all we need! What this does is create a Turbo Stream packet with th
 
 Now that we have added the `format.turbo_stream` response to our controller and our `create.turbo_stream.erb` file, we can now create a post and watch it append to the list.
 
-#### Additional Turbo Stream Tips
+#### Additional Turbo Stream tips
 
 There's no time to get more in-depth on how Turbo Stream works in this lesson, but here are some topics for you to begin your personal research
 if you would like to learn more:
@@ -340,7 +340,7 @@ The final piece of Turbo is something that you don't need to know much about for
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
@@ -348,7 +348,7 @@ The final piece of Turbo is something that you don't need to know much about for
 * [Official Hotwire Forums](https://discuss.hotwired.dev/)
 * Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font.
 
-### Knowledge Check
+### Knowledge check
 
 *This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
 
