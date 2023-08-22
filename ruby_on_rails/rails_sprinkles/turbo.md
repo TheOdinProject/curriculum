@@ -321,7 +321,7 @@ The final piece of Turbo is something that you don't need to know much about for
 
 #### Single-page applications
 
-1. Read sections 1, 2, and 3 of Bloomreach's [What Is A Single-page application](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
+1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
    article
 
 #### Hotwire
