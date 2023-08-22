@@ -8,7 +8,7 @@ It's pretty straightforward. Typical controllers are pretty lightweight and don'
 
 The controller's `#index` action would actually look as simple as:
 
-```ruby
+~~~ruby
   PostsController < ApplicationController
     ...
     def index
@@ -16,7 +16,7 @@ The controller's `#index` action would actually look as simple as:
     end
     ...
   end
-```
+~~~
 
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
@@ -48,7 +48,7 @@ The trick here is that the view page gets passed the instance variables from you
 
 Let's see it in code:
 
-```ruby
+~~~ruby
   # app/controllers/posts_controller.rb
   class PostsController < ApplicationController
     ...
@@ -74,7 +74,7 @@ Let's see it in code:
       end
     end
   end
-```
+~~~
 
 So the thing to pay attention to is that, if we successfully are able to save our new post in the database, we redirect to that post's show page. Note that a shortcut you'll see plenty of times is, instead of writing `redirect_to post_path(@post.id)`, just write `redirect_to @post` because Rails knows people did that so often that they gave you the option of writing it shorthand. We'll use this in the example as we develop it further.
 
@@ -86,7 +86,7 @@ It's important to note that `render` and `redirect_to` do NOT immediately stop y
 
 If you write something like:
 
-```ruby
+~~~ruby
   def show
     @user = User.find(params[:id])
     if @user.is_male?
@@ -94,7 +94,7 @@ If you write something like:
     end
     render "show-girl"
   end
-```
+~~~
 
 In any case where the user is male, you'll get hit with a multiple render error because you've told Rails to render both "show-boy" and "show-girl".
 
@@ -118,11 +118,11 @@ _Note: This used to be done in Rails 3 by setting `attr_accessible` in the model
 
 To explicitly allow parameters, you use the methods `require` and `permit`. Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used. For example:
 
-```ruby
+~~~ruby
   def allowed_post_params
     params.require(:post).permit(:title,:body,:author_id)
   end
-```
+~~~
 
 This will return the hash of only those params that you explicitly allow (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ). If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
 
@@ -130,7 +130,7 @@ It can be inconvenient, but it's Rails protecting you from bad users. You'll usu
 
 So our `#create` action above can now be filled out a bit more:
 
-```ruby
+~~~ruby
   # app/controllers/posts_controller.rb
   class PostsController < ApplicationController
     ...
@@ -156,7 +156,7 @@ So our `#create` action above can now be filled out a bit more:
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
-```
+~~~
 
 ### Flash
 
@@ -174,7 +174,7 @@ The distinction between `flash` and `flash.now` just lets Rails know when it wil
 
 Now the full controller code can be written out for our `#create` action:
 
-```ruby
+~~~ruby
   # app/controllers/posts_controller.rb
   class PostsController < ApplicationController
     ...
@@ -198,7 +198,7 @@ Now the full controller code can be written out for our `#create` action:
       params.require(:post).permit(:title,:body,:author_id)
     end
   end
-```
+~~~
 
 So that action did a fair bit of stuff -- grab the form data, make a new post, try to save the post, set up a success message and redirect you to the post if it works, and handle the case where it doesn't work by berating you for your foolishness and re-rendering the form. A lot of work for only 10 lines of Ruby. Now that's smart controlling.
 
