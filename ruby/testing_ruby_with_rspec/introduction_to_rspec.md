@@ -2,7 +2,7 @@
 
 In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than [480 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
 
-### Learning Outcomes
+### Learning outcomes
 
 _Look through these now and use them to guide your learning. By the end of this lesson, expect to:_
 
@@ -235,7 +235,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, [see the docs here](http://rspec.info/features/3-12/rspec-core/configuration/).
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
@@ -245,7 +245,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
 - Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
 
-### Knowledge Checks 
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#tests-folder'>What do you name the folder that contains your test files?</a>
