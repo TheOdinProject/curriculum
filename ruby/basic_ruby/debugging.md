@@ -3,7 +3,7 @@ Tracking down and fixing both errors and unexpected behavior in your code is an 
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Describe what a stack trace is.
@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
  - Explain how you can use `puts` and Pry to debug your code.
  - Explain how you should decide to start with debugging.
 
-### Reading the Stack Trace
+### Reading the stack trace
 When your Ruby program crashes after encountering a runtime error or exception, it will produce a wall of text known as a **stack trace** that is then output in your terminal. A stack trace looks something like this:
 
 ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
@@ -197,7 +197,7 @@ As you can see, using Pry-byebug for debugging achieves the same outcome as `put
 
 There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
-### How to Start Debugging
+### How to start debugging
 Programs generally go wrong due to two main reasons:
 
 1. The program encounters an error and won't run. For example, a typo may cause a syntax error to be raised that causes the program to crash. In this case, Ruby provides a stack trace.
@@ -218,7 +218,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 7. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
@@ -226,7 +226,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * Poke around [Pry's wiki](https://github.com/pry/pry/wiki) for a collection of resources that will help you master this invaluable gem.
 * Read this brilliant article about [reading Ruby error messages](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e).
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class='knowledge-check-link' href='#reading-the-stack-trace'>What is a stack trace?</a>

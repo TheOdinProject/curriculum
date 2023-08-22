@@ -4,7 +4,7 @@ This lesson will go over the new [jsbundling-rails](https://github.com/rails/jsb
 
 The role of jsbundling-rails is to provide installers to set up esbuild, rollup, or webpack to allow bundling. After your bundler of choice is set up, your bundled output will use `app/assets/builds` to hold the bundle output at which you can refer to it using the standard asset pipeline approach.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 -  Why Webpacker was used for Rails 6.
 -  What the JS bundling options are.
 
-### JS Bundling Options
+### JS bundling options
 
 Before we install the jsbundling-rails gem let's go over a few of the options. <span id='bundle-options'></span>The three options are:
 
@@ -33,7 +33,7 @@ The final bundler provided through jsbundling-rails is webpack which is a static
 
 Now that you have been introduced into the bundlers provided through jsbundling-rails let's go into setting it up.
 
-### Using Yarn Build Watch
+### Using yarn build watch
 
 Before we introduce utilizing jsbundling-rails let's introduce a powerful new command with yarn.
 
@@ -165,7 +165,7 @@ An important caveat with esbuild is that in `app/javascript/controllers/index.js
 
 With that you will be able to add your controllers to the bundling process and use them. However _make sure_ you run this command or else not all controllers will be included.
 
-### Why Use JS Bundling
+### Why use JS bundling
 
 You may be wondering why we even need JS bundling when we have import maps. One of the _most_ important things to remember is that this decision depends on the circumstances of your project and that while import maps eliminates the need for bundling and transpiling, you lose out on some of the benefits of using JS bundling.
 
@@ -173,7 +173,7 @@ Some frameworks like React, which require compiling for JSX, do not work with im
 
 Although HTTP 2 has reduced these costs, many JS packages still require explicit transpiling or bundling for performance or because of framework requirements. If you plan to use such frameworks for your project, it may be best to choose JS bundling over import maps.
 
-### When To Use JS Bundling
+### When to use JS bundling
 
 At this point, you might be wondering why import maps are even necessary. Being able to use all of the JavaScript ecosystem would surely mean you don't need to use import maps at all, right? Not quite. All tools have their pros and cons.
 
@@ -206,14 +206,14 @@ You would then be able to reference it within your pack file and now be able to 
 
 While you may come across this in the wild it is important to note that Rails 7 does not use it any longer and replaces it with jsbundling-rails. If you want to use bundling make sure to use one of the bundlers listed earlier in the lesson.
 
-### Additional Resources
+### Additional resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*
 
 * [good mention of why JS bundling is still a valid option by David Heinemeier Hansson](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755).
 * [high level look over jsbundling-rails versus webpacker if your interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

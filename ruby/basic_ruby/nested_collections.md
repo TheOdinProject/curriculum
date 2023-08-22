@@ -3,7 +3,7 @@ This lesson is going to build on your knowledge of arrays and hashes. As you hav
 
 Let's take a look at how you can use nested arrays and nested hashes to store more complex data.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
 - Describe a nested array and hash.
@@ -15,7 +15,7 @@ By the end of this lesson, you should be able to do the following:
 - Explain how to create a new nested array that is not mutable.
 - Explain how to iterate over a nested array and hash.
 
-### Nested Arrays
+### Nested arrays
 Arrays can contain any type of data, including other arrays. An array that contains other arrays is called a nested array, or a multidimensional array.
 
 Nested arrays can be useful to store groups of similar data or positional data. The following nested array of test scores is storing groups of similar data and the teacher mailboxes is storing groups of positional data.
@@ -35,7 +35,7 @@ teacher_mailboxes = [
 ]
 ~~~
 
-### Accessing Elements
+### Accessing elements
 You already know that every element in an array has an index. Accessing a specific element within a nested array is as simple as calling `array[x][y]`, where `x` is the index of the nested element and `y` is the index inside of the nested element.
 
 ~~~ruby
@@ -107,7 +107,7 @@ immutable
 
 Changing the value of the first element in the first nested array does not cause the value to change in any other nested array.
 
-### Adding and Removing Elements
+### Adding and removing elements
 You can add another element to the end of nested array using the `#push` method or the shovel operator `<<`. If you want to add an element to a specific nested array, you will need to specify the index of the nested array.
 
 ~~~ruby
@@ -210,7 +210,7 @@ end
 
 The results are different, because now it is determining if **all** of the nested arrays contain **any** number over 80. This returns true, because each of the nested arrays have at least one number over 80.
 
-### Nested Hashes
+### Nested hashes
 The hashes that you've seen so far have single key/value pairs. However, just like arrays, they can be nested, or multidimensional. Nested hashes are a very common way to store complex associated data.
 
 ~~~ruby
@@ -221,7 +221,7 @@ vehicles = {
 }
 ~~~
 
-### Accessing Data
+### Accessing data
 Accessing a specific element in a nested hash is very similar to a nested array. It is as simple as calling `hash[:x][:y]`, where `:x` is the key of the hash and `:y` is the key of the nested hash.
 
 ~~~ruby
@@ -246,7 +246,7 @@ vehicles.dig(:alice, :color)
 #=> nil
 ~~~
 
-### Adding and Removing Data
+### Adding and removing data
 You can add more nested hashes, just like a regular hash. Let's say Dave just bought a new vehicle and we want to add it to the list.
 
 ~~~ruby
@@ -327,13 +327,13 @@ Amazing! We have found a great solution to returning an array that only contains
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#nested-arrays'>What is a nested array? What data is useful to store in a nested array?</a>

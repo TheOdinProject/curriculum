@@ -2,7 +2,7 @@
 
 You've already learned about the default way that Rails handles processing CSS as part of the Asset Pipeline. However with the continued growth of different CSS pre-processors and bundlers there was a gap to a conventional way to use these tools. As part of the Rails 7 release came an optional gem called [cssbundling-rails](https://github.com/rails/cssbundling-rails). This provides installers for the most common tools used for CSS. Here we'll learn how to use this gem to enhance the CSS we can use and write. We won't go into each tool as using that will depend on your needs but we will cover why you might reach for each of them.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -64,7 +64,7 @@ If you use the jsbundling or cssbundling gems you should always start your app b
 
 The `./bin/dev` task uses a gem called [foreman](https://github.com/ddollar/foreman), which uses a Procfile to run lots of different processes in the same terminal, so that it can run the Rails server as well as watch over your assets for changes.
 
-### Why use CSS Bundling?
+### Why use CSS bundling?
 
 The CSS bundling gem isn't the only way to integrate tools such as Bulma into your application. There are gems just for those libraries, npm packages or you can even reference the minified files directly hosted on a CDN.
 

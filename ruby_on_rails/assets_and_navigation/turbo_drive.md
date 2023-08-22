@@ -16,7 +16,7 @@ Links and Forms are the bedrock of most web applications. You need links to navi
 
 If a lot of what follows seems confusing, don't worry! A lot of Turbo Drive happens under the hood and therefore it means we often need to discuss the concept rather than the implementation. This can make it harder initially to grok, but luckily it does also mean you can often just go about your business and never have to actively think about it.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -26,11 +26,11 @@ This section contains a general overview of topics that you will learn in this l
 - How to disable Turbo Drive.
 - What Turbolinks is.
 
-### Turbo Drive
+### Turbo drive
 
 Turbo Drive is the portion of Turbo that accelerates overall page navigation. Turbo Drive watches for when a user clicks a link or submits a form, handles the request being made by the user, and then updates the page for the user without a full reload! This is the default behavior without any set up required. However, it is still important to understand what exactly Turbo Drive is doing in case you need to manually modify or disable its behavior in some portions of your web page.
 
-#### Page Navigation
+#### Page navigation
 
 Turbo Drive defines page navigation as a *visit* to a *location* (URL) with an *action*.
 
@@ -41,7 +41,7 @@ There are two kinds of visits:
 1.  **Application visit**, a visit with a Drive action of *advance* or *replace*.
 2.  **Restoration visit**, a visit with a Drive action of *restore*.
 
-#### Application Visit
+#### Application visit
 
 The application visit lifecycle can be summarized as:
 
@@ -65,7 +65,7 @@ which will generate:
 ~~~
 
 
-#### Restoration Visit
+#### Restoration visit
 
 The restoration visit lifecycle can be summarized as:
 
@@ -75,7 +75,7 @@ The restoration visit lifecycle can be summarized as:
 
 Restoration visits are visits with the action of *restore*. This is used by Turbo Drive internally and you **should not** annotate a link with an action of restore.
 
-#### HTTP Request Methods
+#### HTTP request methods
 
 By default, link clicks are sent with `GET` requests. However, Turbo Drive will scan `<a>` tags in your application for the `turbo-method` attribute to override the `GET` action.
 
@@ -93,7 +93,7 @@ which will generate:
 
 This creates a link that will use the `DELETE` method. However, it is suggested that you use a button or form for anything that isn't a `GET` request
 
-#### Disable Turbo Drive
+#### Disable turbo drive
 
 There will be times where you do not want Turbo Drive to control navigation and want a full page reset.
 
@@ -118,7 +118,7 @@ We cover Rails forms much deeper later, but because they are entwined with Turbo
 
 If you don't understand some of the information as it is explained below just wait until the Form Basics lesson and it should all come together.
 
-#### Form Submissions
+#### Form submissions
 
 While most link requests are issued as GET requests, forms are different. You often submit forms as a POST, PATCH or DELETE request in order to manipulate some data that lives on the server.
 

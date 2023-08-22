@@ -8,7 +8,7 @@ If you go to the documentation for an API, it can sometimes be a bit overwhelmin
 
 This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, please let us know [(make a pull request and add an additional resource at the bottom of this page)](https://github.com/TheOdinProject/curriculum)!
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 - What OmniAuth is.
 - What an SDK is.
 
-### First Steps
+### First steps
 
 You will need to register yourself and your application with the API provider.  They will track and monitor your usage this way.  Typically, there is a free tier of usage and it will cost you if you're going over your limits, whether they are expressed in terms of total MB downloaded, number of requests, or number of transactions (for instance).  Usually, even if you're a user of their service, you will need to separately go to their developer portal.
 
@@ -27,7 +27,7 @@ You will need to get an **API key** from the API provider, which often is the la
 
 You'll typically also get a "secret key" or similarly named code.  Whereas the API key is usually public, the secret key is an added layer of security that's required for the more secure APIs and you will use it to generate a cryptographic token that authenticates any requests you make.  You will need to make sure you don't include this secret key in your Git repo!  Use the `figaro` gem or environment variables to put the key on the server instead of hard coding it.
 
-### API Rates and Security Tokens
+### API rates and security tokens
 
 Most APIs require a different type of "security clearance" for different requests:  
 
@@ -48,7 +48,7 @@ Just like your routes should ideally be set up in a RESTful way, so too should A
 
 Working with RESTful APIs at least takes a lot of the headache out of the process since you can usually sort of guess what you should be doing, then can head over to the docs to figure out how exactly and what format you'll get the results back in.  For instance, just like you'd expect the GET request to the `/users` route in your app to display a page listing all its users, a GET request to a RESTful API for the same route should probably give you back a JSON or XML object filled with all the users (or at least some paginated sample of them).
 
-### Oauth and Login via API
+### Oauth and login via API
 
 You've seen sites where their homepage lets you log in using Facebook or Twitter or LinkedIn.  After logging in with one of those third-party services you magically have a new account with them but don't need to give them a new password.
 
@@ -70,7 +70,7 @@ Every site, in addition to rate limiting their API, will have terms of use.  Thi
 
 It should be noted that any time you develop using someone else's API, you're putting yourself at their mercy.  If you're using it to the point where you pay for data, they'll love you.  If you get too successful and become competitive with them, they've got you by the neck and will cut you off or demand exorbitant fees.  Just be cognizant of those risks.
 
-#### OAuth 2.0 Basics
+#### OAuth 2.0 basics
 
 OAuth 2.0 is actually pretty complicated, so we'll just cover the basic process.  You don't really need to care how exactly it works behind the scenes until you start really developing with it or trying to create your own API that uses it.  You **will** need to understand the steps involved in the user experience because, well, the user is the reason you're building your application.
 
@@ -85,7 +85,7 @@ Basically (still using Facebook as an example):
 
 See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html) for an overview.  Then check out [this more substantive explanation from tutsplus.com](https://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216).
 
-#### Implementing OAuth 2.0 in Rails -- Use Omniauth!
+#### Implementing OAuth 2.0 in Rails -- Use OmniAuth!
 
 This sounds horribly complicated! Someone must have made a gem for it...
 
@@ -113,7 +113,7 @@ APIs are fundamental to making rich web applications and they're also a lot of f
 
 Working with external APIs can be incredibly rewarding because you're able to leverage functionality that others have spent a lot of time perfecting but also incredibly frustrating because they're all different and you have to rely on gems which are doing things behind the scenes that you're not entirely sure of.  Over time, you'll start to see a lot of similarities between APIs and the procedure for working with them will feel more and more comfortable.  To help get you there, the next project will have you working with an API and your final project will have you implementing signin via API as well.  
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
@@ -121,7 +121,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over integrating a third party API with Rails 5.
 * See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a simple rails app using the OMDB API, an open source movie database.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#introduction">What's the best way to locate an API's docs?</a>
