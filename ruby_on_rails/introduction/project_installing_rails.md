@@ -13,7 +13,7 @@ Before continuing, let's review a few best practices to keep in mind:
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/fbFCkYabZB). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
-### Your first Rails app
+### Your first rails app
 
 ### Step 1: Create your first Ruby on Rails web application
 
@@ -127,7 +127,6 @@ Go ahead and create a new car, and then refresh the page to verify it is working
 Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.
 
 #### Step 2.1 Stage and commit local changes
-
 Rails will already have initialized Git for you when it was doing its thing, so just stage and commit all of the work it's done so far.
 
 ~~~bash
@@ -136,7 +135,6 @@ git commit -m "Initial commit"
 ~~~
 
 #### Step 2.2 Initialize on GitHub, add the remote, and push
-
 Make a repo on Github and make sure you **do not** initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
 
 REMINDER: Do not enter the `<` or `>` symbols below. Replace those symbols and everything between them with the URL that you copied from GitHub.
@@ -147,7 +145,6 @@ git push -u origin main
 ~~~
 
 #### Step 2.3 Confirm Git is working correctly
-
 Confirm that the push was successful and on GitHub you see all the folders and files made locally by Rails, starting with a folder called "app".
 
 This marks the start of your Rails journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
