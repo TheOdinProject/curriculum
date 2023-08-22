@@ -1,5 +1,4 @@
 ### Introduction
-
 Before continuing our web development journey, we must address one important task: showcasing our hard work to the world.
 
 Whether it's to share our creations with friends, create a portfolio for future employers, or launch an online business, we need to host our applications somewhere others can publicly access on the internet.
@@ -16,14 +15,12 @@ This section contains a general overview of topics that you will learn in this l
 - How to deploy to a PaaS provider.
 - How to troubleshoot common deployment issues.
 
-### What are hosting providers?
-
+### What are gosting providers?
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
 You've already had some experience using a hosting provider when you deployed projects to Github Pages earlier in the curriculum. GitHub Pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
 
 #### Static vs dynamic sites
-
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. Twitter is a good example; every Twitter user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side language such as Ruby and a database.
@@ -33,7 +30,6 @@ This additional tech prohibits us from using GitHub Pages for hosting our Ruby o
 Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/) and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
-
 Platform as a Service is a specific kind of hosting provider. The most important thing to know about them is they are much easier to use and more approachable for beginners than other hosting providers. They manage many of the low-level nitty-gritty details with the underlying server infrastructure. Allowing us as developers to focus more of our time on building our applications instead of configuring and managing the servers they run on.
 
 Taking our landlord metaphor a little further, a PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. While you, the developer, focus on furnishing, decorating and living in the space.
@@ -43,11 +39,9 @@ It's an incredibly powerful model and perfect for us right now. Using a PaaS pro
 We will provide a list of our recommended PaaS providers later in the lesson. First, let us explore from a high level how PaaS providers work.
 
 ### How do PaaS services work?
-
 PaaS providers work by giving you easy access to a few resources that any Rails app can't live without to function on the web.
 
 #### Instances
-
 The first and most crucial thing PaaS providers give you are virtual "computers" called instances which run your app. Basically, one instance means a single instance of your application running at one time. That's like having a single computer run your app like you do on Localhost. Multiple instances are like having several copies of your app running simultaneously, which allows you to handle more traffic.
 
 The cool thing about Rails is that you can always fire up more instances of your application if you get too much traffic and users have to wait for their requests to be filled.
@@ -55,7 +49,6 @@ The cool thing about Rails is that you can always fire up more instances of your
 For most of your apps, one instance is plenty. You can support a lot of traffic using just a single instance. Many of the PaaS providers we will recommend later in this lesson give you your first one for free.
 
 #### Databases
-
 The second most important thing PaaS providers give you is databases. They make it easy to spin up a new database for each app by doing all the setup and configuration for you.
 
 Many providers even manage the database for you by setting up automatic backups, ensuring the database is constantly updated with the latest critical security patches and ongoing maintenance that keeps your databases up and running smoothly.
@@ -65,7 +58,6 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but it still beats having to set up a database from scratch.
 
 #### Domain names
-
 PaaS providers will give you a random domain name when you first deploy. In Heroku's case, something zen-like "afternoon-falls-4209". If you want to visit the app, you can go directly to `http://afternoon-falls-4209.herokuapp.com` to see your app live on the web in all its glory.
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
@@ -77,7 +69,6 @@ To find a new domain, try using [Domainr](https://domainr.com/).
 Once you have your domain, you need to point it to your project. The provider you are using will have exhaustive documentation on using custom domain names on their platform.
 
 ### Our recommended PaaS services
-
 Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small apps as you wanted. Unfortunately, they discontinued their free tier in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
@@ -91,7 +82,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ---
 
 ### Fly.io
-
 - Fly.io uses a simple CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
@@ -171,7 +161,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ---
 
 ### Debugging and troubleshooting deployments
-
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
 
 In most cases, you'll be running into errors that thousands of developers have encountered before. These errors are well documented and often have simple solutions you can find with a little bit of Google-fu.
@@ -179,7 +168,6 @@ In most cases, you'll be running into errors that thousands of developers have e
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
 #### On deployment
-
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
 Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with Ruby. The error output will tell you exactly what went wrong.
@@ -189,7 +177,6 @@ If you don't recognize the error or what might cause it, your next step will be 
 Most of the errors you'll face during this stage will be related to properly setting up your app with what your hosting provider needs. Double-checking the deployment guide for your hosting provider is always a good place to start. It's very easy to miss a step or mistype something.
 
 #### After deployment
-
 You've just deployed your app successfully; everything is going your way, and this will be a great day! But then you visit your app... and are greeted with the dreaded 500 page.
 
 Nothing induces panic in a developer quite like a 500 page. It could mean just about anything. Error pages in production are deliberately vague to let users know something went wrong without all the overwhelming technical jargon. Another important reason is to prevent attackers from using errors in your system to their advantage.
@@ -205,13 +192,12 @@ If the logs tell you the application crashes before it even boots and give you n
 A common cause of 500 errors in Rails after deployment is forgetting to migrate the database. If you're getting a 500 error and have new database migrations in the latest changes, run `rails db:migrate` on your production database to get it up and running again.
 
 #### Going further with troubleshooting tools
-
 As your application grows, you'll want to get more sophisticated with your error-tracking tools. For example, you can use services like [Sentry](https://sentry.io/) to track and monitor errors using a slick, easy-to-use interface and get notified when they happen.
 
 These services will give you more information about the error and the request that caused it, saving you a ton of time. But, setting up and using these services are out of the scope of this lesson. You can get by just fine with the logs and the Rails console for your first few apps.
 
-#### One final tip
 
+#### One final tip
 If something has broken in your latest deployment after successful deployments in the past, backtrack to the last working version to determine what changes you made and slowly reintroduce those changes again if you need to.
 
 This will be where the Git skills you've been learning will start to really pay off and save you an immense amount of time. You'll be able to use `git log` to see the history of your latest changes and `git checkout` to revert to a previous working version quickly.
@@ -221,23 +207,24 @@ This will be where the Git skills you've been learning will start to really pay 
 <div class="lesson-content__panel" markdown="1">
 
 1. Deploy your [Blog App project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
-_ Use one of the linked deploy guides for your PaaS provider to help you through the process.
-_ If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
+    * Use one of the linked deploy guides for your PaaS provider to help you through the process.
+    * If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
 </div>
+
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
 
-- [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
-- [What does 'PaaS' stand for?](#what-is-a-paas)
-- [What are the advantages of using a PaaS hosting provider?](#what-is-a-paas)
-- [What is an instance?](#instances)
-- [What steps can you take to diagnose an issue that arises during deployment?](#on-deployment)
-- [What steps can you take to diagnose an issue that only appears after deployment?](#after-deployment)
+* [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
+* [What does 'PaaS' stand for?](#what-is-a-paas)
+* [What are the advantages of using a PaaS hosting provider?](#what-is-a-paas)
+* [What is an instance?](#instances)
+* [What steps can you take to diagnose an issue that arises during deployment?](#on-deployment)
+* [What steps can you take to diagnose an issue that only appears after deployment?](#after-deployment)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
