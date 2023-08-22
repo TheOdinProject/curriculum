@@ -1,4 +1,4 @@
-### Warmup: exploring the Flickr API
+### Warmup: Exploring the Flickr API
 
 In this warmup, you'll get a chance to poke around with an existing API from Flickr. You'll need to read the documentation to understand which calls to make but they have a nice API explorer tool which submits API calls on your behalf.
 
