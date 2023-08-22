@@ -24,12 +24,13 @@ Say you are cooking some chicken. If you want to cook it well and nice, you will
 
 This is common to all websites, you set the oven up for what you want (visit any URL, like [https://theodinproject.com/](https://theodinproject.com/)), wait for the oven to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
 
-1. Add the spices to the chicken
-2. Put it back into the oven and set it up to be reheated
-3. Wait for it to be nice and warm
-4. Now you can eat it!
+1. Get up from your seat
+2. Add the spices to the chicken
+3. Go back to the oven, put the chicken back in and set it up to be reheated
+4. Wait for it to be nice and warm
+5. Now you can eat it!
 
-Here is where we reiterate, **the chicken needs to be reheated**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring the microwave to the table to ensure that you don't run into the "missing spices" issues. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
+Here is where we reiterate, **you need to get up from your seat**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring a microwave to the table to ensure that you don't have to get up from your seat should you ever run into the "missing spices" issue. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
 
 ### A Reactive solution
 
