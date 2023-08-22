@@ -15,7 +15,7 @@ The short answer to that is _no_; however, it's the simplest of the dynamic data
 structures and it will give you a solid foundation, so you can understand more
 complex data structures like graphs and binary trees with more ease.
 
-### Structure of a Linked List
+### Structure of a linked list
 
 A _linked list_ is a linear collection of data elements called nodes that "point"
 to the next node by means of a pointer.
@@ -55,7 +55,7 @@ Build the following methods in your linked list class:
 10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
     The format should be: `( value ) -> ( value ) -> ( value ) -> nil`
 
-### Extra Credit
+### Extra credit
 
 1. `#insert_at(value, index)` that inserts a new node with the provided `value` at the given `index`.
 2. `#remove_at(index)` that removes the node at the given `index`.
