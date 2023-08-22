@@ -355,7 +355,7 @@ The final piece of Turbo is something that you don't need to know much about for
 <details markdown="block">
   <summary>What does SPA stand for & what is it?</summary>
 
-  *   A SPA is a Single-page application.
+  *   A SPA is a single-page application.
   *   A SPA is a web-app that doesn't need to reload the page during use to update.
 
 </details>
