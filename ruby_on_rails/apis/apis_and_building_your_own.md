@@ -158,7 +158,7 @@ Right now you've got the ability to use your Rails app to serve up not just HTML
 
 * [Building Awesome Rails APIs](http://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1/) has a lot of best practices for moving beyond a toy API and into a production-ready app.
 
-### Service oriented architecture (SOA)
+### Service Oriented Architecture (SOA)
 
 This is a good time to introduce an architectural concept called "Service Oriented Architecture".  The basic idea is that your application will likely have many different services within it, for instance the payments processing, user registration, recommendation engine, etc.  Instead of building all of these under the same master application, you break them out into fully independent pieces and have them talk to each other using internally facing APIs.  
 
