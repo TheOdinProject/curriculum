@@ -12,6 +12,8 @@ By the end of this unit, you should not only understand how the web works but al
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
+Victor was here!
+
 ### How it works
 
 This curriculum works by pulling together the best content from across the internet for learning a particular topic.  In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
