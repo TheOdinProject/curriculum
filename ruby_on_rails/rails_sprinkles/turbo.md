@@ -319,7 +319,7 @@ The final piece of Turbo is something that you don't need to know much about for
 
 <div class="lesson-content__panel" markdown="1">
 
-#### Single page applications
+#### Single Page Applications
 
 1. Read sections 1, 2, and 3 of Bloomreach's [What Is A Single Page Application](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
    article
