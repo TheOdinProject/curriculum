@@ -1,19 +1,18 @@
 ### Introduction
 
-To really understand how Rails works, you need to have a solid base in the guts of the web. You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
+To really understand how Rails works, you need to have a solid base in the guts of the web.  You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
 
 ### Lesson overview
-
 This section contains a general overview of topics that you will learn in this lesson.
 
-- The basics of HTTP.
-- The 4 most commonly used HTTP verbs.
-- The 7 RESTful routes of Rails.
-- The different components of a URL.
-- The basics of MVC.
-- What an API is.
-- What "cookies" and "sessions" are.
-- The difference between "authentication" and "authorization".
+-   The basics of HTTP.
+-   The 4 most commonly used HTTP verbs.
+-   The 7 RESTful routes of Rails.
+-   The different components of a URL.
+-   The basics of MVC.
+-   What an API is.
+-   What "cookies" and "sessions" are.
+-   The difference between "authentication" and "authorization".
 
 ### HTTP
 
@@ -31,7 +30,7 @@ The other key component is that each request uses one of four main "verbs" -- GE
 
 ### REST
 
-REST (short for Representational state transfer) is a term that you'll see coming up again and again because it's a very powerful idea. It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered. A "resource" usually means a "thing" in your database or a data model. In this case, we'll assume that resource is a blog Post model that you've set up:
+REST (short for Representational state transfer) is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
 
 1.  GET all the posts (aka **"index"** the posts)
 2.  GET just one specific post (aka **"show"** that post)
@@ -43,7 +42,7 @@ REST (short for Representational state transfer) is a term that you'll see comin
 
 The highlighted words correspond to standard Rails controller actions!
 
-Why is this important?  Because it gives you a very organized way of thinking about your resources.  This is the way to model your requests and should be the ONLY way that those requests are done (e.g. you shouldn't be actually submitting the data for editing a post using a GET request... that should be a POST). If you have a hard time thinking of how those seven scenarios (or at least a subset of them) would apply to a resource you want to create in your database, you may need to rethink how your data is being set up.
+Why is this important?  Because it gives you a very organized way of thinking about your resources.  This is the way to model your requests and should be the ONLY way that those requests are done (e.g. you shouldn't be actually submitting the data for editing a post using a GET request... that should be a POST) If you have a hard time thinking of how those seven scenarios (or at least a subset of them) would apply to a resource you want to create in your database, you may need to rethink how your data is being set up.
 
 It's also important because Rails is structured to follow these conventions in a very straightforward way.  As long as you're performing those actions, life is very easy for you and the request that you get from the browser can be easily routed through Rails' guts.
 
@@ -74,7 +73,7 @@ Answers:
 
 ### MVC
 
-You've heard about it again and again, but do you really know what MVC is? Errrrmmmmm, ummm....
+You've heard about it again and again, but do you really know what MVC is?  Errrrmmmmm, ummm....
 
 MVC is all about organization and Rails is all about MVC.  When you build a new Rails project, you get that giant mass of folders and files created.  Though it seems like there is an overwhelming number of files inside your `app` directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
 
@@ -111,7 +110,7 @@ But we get ahead of ourselves a bit here... the main point is that you'll see "A
 
 ### Cookies
 
-You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other. Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.
+You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other.  Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.
 
 ...Unless they've given you some cookies (which they almost certainly have).  Cookies are little bits of data that your browser sends to the website every time you make a request to it.  From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests.  It preserves the *state* of your session.
 
@@ -119,11 +118,11 @@ Check out [allaboutcookies.org](http://www.allaboutcookies.org/) and read the fi
 
 The [Wikipedia article on cookies](http://en.wikipedia.org/wiki/HTTP_cookie) may also be helpful reading.
 
-Go to a website you normally frequent, open up your developer tools, and find the cookies.  In Chrome, it's by clicking on "Application" tab then "cookies" on the leftmost menu.  You'll see them as name-value pairs. Often there will be something like a "user_session" or "token" variable that is some unintelligible string of characters.
+Go to a website you normally frequent, open up your developer tools, and find the cookies.  In Chrome, it's by clicking on "Application" tab then "cookies" on the leftmost menu.  You'll see them as name-value pairs.  Often there will be something like a "user_session" or "token" variable that is some unintelligible string of characters.
 
 ### Sessions
 
-Cookies are important because they enable you to have a single continuous "session" while you're interacting with a website.  It means you only have to log in once instead of for every single request (which you probably experienced from a broken website at some point in the late 90's).
+Cookies are important because they enable you to have a single continuous "session" while you're interacting with a website. It means you only have to log in once instead of for every single request (which you probably experienced from a broken website at some point in the late 90's).
 
 Your browser includes all the cookies that a particular website has set along with its normal request and the server uses those strings to figure out which user you are and whether you are logged in, what your settings are (like if you've set up viewing preferences) and things like that.  It's also why, when you clear cookies from your browser history, everything seems to get wiped out and go back to the default.
 
@@ -137,30 +136,28 @@ It's pretty straightforward in theory, but some of the security implications get
 
 ### Authorization
 
-Authorization is the partner concept to Authentication... Authentication lets you determine WHO the user is, but the idea behind authorization is that you might limit what the person can see based on their permission level. The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in. Another common case of this is the difference between regular users of a website and the admin users who have special privileges.
+Authorization is the partner concept to Authentication... Authentication lets you determine WHO the user is, but the idea behind authorization is that you might limit what the person can see based on their permission level.  The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in.  Another common case of this is the difference between regular users of a website and the admin users who have special privileges.
 
-On the server side, you will end up writing (or using) methods which restrict access to certain types of actions based on who the current user is (or whether the requester is logged in at all). Again, Devise will help you with this by providing some of these helper methods (like for checking whether any user is logged in or who the current user is) for you.
+On the server side, you will end up writing (or using) methods which restrict access to certain types of actions based on who the current user is (or whether the requester is logged in at all).  Again, Devise will help you with this by providing some of these helper methods (like for checking whether any user is logged in or who the current user is) for you.
 
 ### Conclusion
 
-We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests. Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.
+We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.
 
 ### Knowledge check
-
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from client to server? </a>
-- <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from server to client? </a>
-- <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> Which HTTP message would include a status code and which would include an action verb? </a>
-- <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/"> What is the name of the additional information that is added after the path of a URL? </a>
-- <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/"> What does MVC stand for? </a>
-- <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm"> What is an "API"? </a>
-- <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management"> Why do you need "cookies" to continue your "session"? </a>
-- <a class="knowledge-check-link" href="#authorization"> What is the difference between "authentication" and "authorization"? </a>
+-   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from client to server? </a>
+-   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from server to client? </a>
+-   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> Which HTTP message would include a status code and which would include an action verb? </a>
+-   <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/"> What is the name of the additional information that is added after the path of a URL? </a>
+-   <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/"> What does MVC stand for? </a>
+-   <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm"> What is an "API"? </a>
+-   <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management"> Why do you need "cookies" to continue your "session"? </a>
+-   <a class="knowledge-check-link" href="#authorization"> What is the difference between "authentication" and "authorization"? </a>
 
 ### Additional resources
-
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
-- [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy
+-   [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
+-   [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy
