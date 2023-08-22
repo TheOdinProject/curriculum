@@ -13,7 +13,7 @@ Before continuing, let's review a few best practices to keep in mind:
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/fbFCkYabZB). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
-### Your first rails app
+### Your first Rails app
 
 ### Step 1: Create your first Ruby on Rails web application
 
