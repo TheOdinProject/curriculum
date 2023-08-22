@@ -2,7 +2,7 @@
 
 When a user makes a request to your application, your controller is the part of MVC that receives it and responds with the `.html.erb` view file. As you've been working on your applications so far, you may have been creating views with similar features and layouts. What if there was a way to only change the parts of our views that are different and not have to bother with updating content that we don't intend to change in the first place? We could cut down on loading times for the user and the amount of data our application has to send out.
 
-That's where the concept of a **single page application** comes in. This section will be about how we can use a framework known as **Turbo** to implement single page application behaviour in our very own Rails application. This section covers a lot of tools and you may not fully understand them as you read through the first time. That's okay, consider this lesson to be a resource that you can refer back to when you actually begin using the  tools mentioned and get more of a visual as to what exactly is going on in your views.
+That's where the concept of a **Single-page application** comes in. This section will be about how we can use a framework known as **Turbo** to implement Single-page application behaviour in our very own Rails application. This section covers a lot of tools and you may not fully understand them as you read through the first time. That's okay, consider this lesson to be a resource that you can refer back to when you actually begin using the  tools mentioned and get more of a visual as to what exactly is going on in your views.
 
 ### Lesson overview
 
@@ -15,12 +15,12 @@ This section contains a general overview of topics that you will learn in this l
 - How to use Turbo Streams to update your pages.
 - What Turbo Native is used for.
 
-### Single page applications (SPAs)
+### Single-page applications (SPAs)
 
-Before getting into Turbo, it's important to understand the concept of a Single Page Application, or SPA. A SPA is an
+Before getting into Turbo, it's important to understand the concept of a Single-page application, or SPA. A SPA is an
 implementation for web applications that loads only a single web document. Rather than constantly replacing this document with a brand new one on every request, the website dynamically rewrites the current page with new information so that the page loads faster and feels more like a native application. A page refresh never occurs. Think about websites such as Gmail or Facebook where you see a brand-new email or timeline post without needing to refresh your page.
 
-#### Creating a single page application in Rails
+#### Creating a Single-page application in Rails
 
 There are various Javascript frameworks to help developers implement SPA functionality. You have possibly heard of some of them, such as AngularJS or ReactJS. However, Rails has its own solution to creating the experience of a SPA without writing Javascript. This solution is a collection of libraries that are under the umbrella of Hotwire.
 
@@ -319,9 +319,9 @@ The final piece of Turbo is something that you don't need to know much about for
 
 <div class="lesson-content__panel" markdown="1">
 
-#### Single page applications
+#### Single-page applications
 
-1. Read sections 1, 2, and 3 of Bloomreach's [What Is A Single Page Application](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
+1. Read sections 1, 2, and 3 of Bloomreach's [What Is A Single-page application](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
    article
 
 #### Hotwire
@@ -355,7 +355,7 @@ The final piece of Turbo is something that you don't need to know much about for
 <details markdown="block">
   <summary>What does SPA stand for & what is it?</summary>
 
-  *   A SPA is a Single Page Application.
+  *   A SPA is a Single-page application.
   *   A SPA is a web-app that doesn't need to reload the page during use to update.
 
 </details>
