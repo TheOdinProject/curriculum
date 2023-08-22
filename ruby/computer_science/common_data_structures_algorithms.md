@@ -10,7 +10,7 @@ You've already had a brief introduction to **algorithms** over some of the other
 
 Luckily for you, these complex algorithmic problems have all been solved many times in the past.  Understanding *how* they are solved will give you some great tools to apply to other (similar) problems on your own.  Algorithms are really just ways of solving problems systematically.  In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
-### Learning Outcomes
+### Learning outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
 * What is a data structure?
@@ -42,7 +42,7 @@ Look through these now and then use them to test yourself after doing the assign
       * [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
@@ -54,7 +54,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [An article](https://web.archive.org/web/20221207000421/https://www.crondose.com/2016/06/create-a-binary-search-tree-array) that discusses how to construct a binary search tree from an unordered array.
 * [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=6QS_Cup1YoI" target="_blank">What is the difference between a stack and a queue?</a>
