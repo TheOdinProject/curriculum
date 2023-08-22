@@ -7,7 +7,7 @@ If you know Ruby, the world is sort of opened up for you.  Want to learn Python?
 
 Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSdYksRBRg_0GzcYxzm5Csikfhj2Nceh2ifMYRmfMH6quwRRDw/viewform?usp=sf_link). Getting user (you) feedback is important so we can continue to improve the curriculum and get an idea of your experience. So that's it, you're more than ready to go ahead and take on Rails.  **Congratulations!!!**
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Ruby Best Practices book by Gregory Brown](http://it-ebooks.info/book/178/).
