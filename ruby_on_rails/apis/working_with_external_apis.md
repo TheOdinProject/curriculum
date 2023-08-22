@@ -85,7 +85,7 @@ Basically (still using Facebook as an example):
 
 See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html) for an overview.  Then check out [this more substantive explanation from tutsplus.com](https://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216).
 
-#### Implementing OAuth 2.0 in Rails -- Use Omniauth!
+#### Implementing OAuth 2.0 in Rails -- Use OmniAuth!
 
 This sounds horribly complicated! Someone must have made a gem for it...
 
