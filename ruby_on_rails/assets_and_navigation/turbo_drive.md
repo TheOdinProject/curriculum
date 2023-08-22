@@ -41,7 +41,7 @@ There are two kinds of visits:
 1.  **Application visit**, a visit with a Drive action of *advance* or *replace*.
 2.  **Restoration visit**, a visit with a Drive action of *restore*.
 
-#### Application Visit
+#### Application visit
 
 The application visit lifecycle can be summarized as:
 
