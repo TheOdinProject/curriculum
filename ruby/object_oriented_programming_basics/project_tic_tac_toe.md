@@ -12,5 +12,5 @@ Build a tic-tac-toe game on the command line where two human players can play ag
   3. Post your solution below, then check out [this example solution from RosettaCode.org](http://rosettacode.org/wiki/Tic-tac-toe#Ruby).
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
