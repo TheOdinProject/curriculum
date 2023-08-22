@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 Before getting into Turbo, it's important to understand the concept of a Single Page Application, or SPA. A SPA is an
 implementation for web applications that loads only a single web document. Rather than constantly replacing this document with a brand new one on every request, the website dynamically rewrites the current page with new information so that the page loads faster and feels more like a native application. A page refresh never occurs. Think about websites such as Gmail or Facebook where you see a brand-new email or timeline post without needing to refresh your page.
 
-#### Creating a single page application in Rails
+#### Creating a Single Page Application in Rails
 
 There are various Javascript frameworks to help developers implement SPA functionality. You have possibly heard of some of them, such as AngularJS or ReactJS. However, Rails has its own solution to creating the experience of a SPA without writing Javascript. This solution is a collection of libraries that are under the umbrella of Hotwire.
 
