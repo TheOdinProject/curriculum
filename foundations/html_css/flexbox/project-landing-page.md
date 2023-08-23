@@ -60,6 +60,8 @@ If you want to show your work (the project) to others, or submit a solution belo
 
 GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
 
+Note- Enabling pages on private repo requires paid account.
+
 There are a couple of ways to go about publishing your project, but the simplest is the following:
 
 - Make sure that the main HTML file of your project is called `index.html`. If it is not, you need to rename it.
