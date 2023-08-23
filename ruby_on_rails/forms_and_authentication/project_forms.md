@@ -9,7 +9,7 @@ In this project, you'll build a form the old fashioned way and then the Rails wa
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-#### Set up the Back End
+#### Set up the Back end
 
 You'll get good at setting up apps quickly in the coming lessons by using more or less this same series of steps (though we'll help you less and less each time):
 

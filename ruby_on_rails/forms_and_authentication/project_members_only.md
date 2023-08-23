@@ -15,7 +15,7 @@ The projects will be less and less explicit about how to achieve their goals, si
 If you'd like to challenge yourself, don't even follow the steps below, just go ahead and build the app!
 
 <div class="lesson-content__panel" markdown="1">
-#### Basic Setup
+#### Basic setup
 
 1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name, email and password.  They'll need to create posts as well.
 2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
